@@ -1,6 +1,12 @@
 # Marc's job tracker
 
-A GitHub Pages version of the existing Australian job tracker, with compact tables, a restrained sidebar, match bars, details, an Applied action, Scroll mode and Bin.
+A GitHub Pages version of the existing Australian job tracker, with a data-driven overview, compact tables, match bars, details, an Applied action, Scroll mode and Bin.
+
+## Interface direction
+
+The workspace borrows interaction principles, not templates or assets: Linear's [calmer interface](https://linear.app/now/behind-the-latest-design-refresh) and [purposeful dashboards](https://linear.app/now/dashboards-best-practices), Vercel's [consistent dashboard navigation](https://vercel.com/changelog/dashboard-navigation-redesign-rollout), Height's [in-context timeline editing](https://height.app/blog/whats-new-gantt-charts-0-104), and Attio's [records plus reports](https://attio.com/help/reference/managing-your-data/dashboard-and-reports/dashboards). The dark search-pulse panel, restrained transitions and responsive navigation are original to this tracker.
+
+The 14-day bars count only records marked sent, EOI sent, under review, or contributor-reported applied with a recorded date. The pipeline chart groups all active records by their current status. Fit distribution includes scored active research leads only and is explicitly qualitative. Charts rebuild from the same data as the table after local edits or import. They do not indicate interview probability.
 
 ## Access and visibility
 
