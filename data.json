@@ -2877,8 +2877,8 @@
     }
   ],
   "migration_notes": [
-    "Private migration. Never commit tracker.json or documents to the public website repository.",
-    "Three oversized D1 Bin snapshots are truncated in the read-only export; their row metadata and the current record snapshot are retained.",
-    "Uploaded documents not present among the 26 bundled PDFs are marked unavailable and must be obtained from the old private tracker."
+    "Public copy of old tracker snapshot by user request; the screen code is not file protection.",
+    "Three oversized D1 Bin snapshots were truncated in the read-only export; current rows and visibility metadata are retained.",
+    "Two old manual-upload PDFs have metadata only; their original bytes were unavailable through the export."
   ]
 }
