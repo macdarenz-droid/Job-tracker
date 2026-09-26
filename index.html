@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; font-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+  <title>Marc · Job tracker</title>
+  <meta name="description" content="A private, GitHub-backed job application workspace.">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <section id="unlock" class="gate">
+    <div class="gate-card">
+      <div class="mark">M<span>·</span></div>
+      <p class="eyebrow">MARC / JOB TRACKER</p>
+      <h1>Good to see you.</h1>
+      <p>Enter the shared screen code to open the workspace.</p>
+      <form id="unlock-form">
+        <label for="code">Access code</label>
+        <input id="code" type="password" inputmode="numeric" pattern="[0-9]{6}" maxlength="6" autocomplete="off" required>
+        <button class="primary" type="submit">Continue <span aria-hidden="true">↗</span></button>
+        <p id="unlock-error" class="error" role="alert"></p>
+      </form>
+      <small>This is a screen gate. The public GitHub files remain directly downloadable.</small>
+    </div>
+  </section>
+
+  <div id="workspace" class="shell" hidden>
+    <aside class="rail">
+      <div class="brand"><div class="mark">M<span>·</span></div><strong>Job tracker</strong></div>
+      <nav aria-label="Workspace"><button class="rail-link active" id="nav-all">▦ <span>Overview</span></button><button class="rail-link" id="nav-applied">◫ <span>Applications</span></button><button class="rail-link" id="nav-bin">▤ <span>Bin</span></button></nav>
+      <div class="rail-bottom"><div class="connection"><span class="signal"></span><span>Saved in this browser</span></div><button id="disconnect" class="rail-link">⇥ <span>Lock screen</span></button></div>
+    </aside>
+    <main class="main">
+      <header class="topbar"><div class="breadcrumb">Workspace <span>/</span> <b id="section-name">Overview</b></div><div class="top-actions"><button id="reload">Refresh</button><button id="import" title="Import a private tracker JSON file">Import</button><button id="export">Export</button><button id="add" class="primary">+ Add entry</button></div></header>
+      <div class="content">
+        <div class="heading"><div><p class="eyebrow">AUSTRALIAN JOB SEARCH</p><h1 id="page-title">Applications and leads</h1><p id="updated" class="muted"></p></div><div class="heading-accent" aria-hidden="true"></div></div>
+        <div id="status" class="notice" role="status">Edits stay in this browser. Export the JSON to share them.</div>
+        <section class="stats" aria-label="Record totals"><div><span>Applications</span><strong id="count-applications">0</strong></div><div><span>Ready</span><strong id="count-ready">0</strong></div><div><span>Leads</span><strong id="count-leads">0</strong></div><div><span>Interviews</span><strong id="count-interviews">0</strong></div></section>
+        <div class="toolbar"><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search companies, roles or locations"></label><div class="segmented" aria-label="View mode"><button id="table-mode" aria-pressed="true">Table</button><button id="scroll-mode" aria-pressed="false">Scroll</button></div></div>
+        <div id="records"></div>
+        <p class="footer-note">“Applied” records what Jeremie submitted through SEEK or an employer website. It does not submit an application. Edits stay in this browser until exported and published to GitHub.</p>
+      </div>
+    </main>
+  </div>
+
+  <dialog id="detail" class="panel"><div class="dialog-head"><p class="eyebrow">RECORD DETAILS</p><button data-close="detail" aria-label="Close details">✕</button></div><div id="detail-body"></div></dialog>
+  <dialog id="editor" class="panel"><div class="dialog-head"><p class="eyebrow" id="editor-heading">NEW RECORD</p><button data-close="editor" aria-label="Close editor">✕</button></div>
+    <form id="record-form">
+      <label>Company <input name="company" required maxlength="160"></label><label>Role <input name="role" required maxlength="160"></label>
+      <div class="two"><label>Location <input name="location" maxlength="160"></label><label>Status <select name="status"><option value="LEAD">Lead</option><option value="READY_FOR_JEREMIE">Ready for Jeremie</option><option value="MANUAL_APPLIED">Applied — reported</option><option value="INTERVIEW">Interview</option><option value="OFFER">Offer</option><option value="REJECTED">Unsuccessful</option><option value="EXPIRED">Expired</option></select></label></div>
+      <label>Job listing URL <input name="job_url" type="url" maxlength="1500"></label>
+      <div class="two"><label>Applied on <input name="applied_date" type="date"></label><label>Applied through <select name="application_method"><option value="">Select route</option><option>SEEK</option><option>Company website</option><option>Email</option><option>Referral</option><option>Other</option></select></label></div>
+      <label>Contributor <input name="contributor_name" value="Jeremie" maxlength="100"></label><label>Contact email <input name="contact_email" type="email" maxlength="254"></label>
+      <label>Notes <textarea name="notes" rows="4" maxlength="4000"></textarea></label>
+      <div class="upload"><h3>Optional attachments</h3><label>Résumé <input name="resume" type="file" accept=".pdf,.docx"></label><label>Cover letter <input name="cover" type="file" accept=".pdf,.docx"></label><label>Confirmation <input name="confirmation" type="file" accept=".pdf,.png,.jpg,.jpeg"></label><small>Up to 10 MB each. Export JSON to carry new files to another browser.</small></div>
+      <p id="editor-error" class="error" role="alert"></p><button id="save" class="primary" type="submit">Save record</button>
+    </form>
+  </dialog>
+  <dialog id="confirm" class="confirm"><h2>Move to Bin?</h2><p id="confirm-name"></p><p>The record and document references can be restored.</p><div class="dialog-actions"><button data-close="confirm">Cancel</button><button id="confirm-delete" class="danger">Move to Bin</button></div></dialog>
+  <input id="import-file" type="file" accept=".json,application/json" hidden>
+</body></html>

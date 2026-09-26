@@ -1,0 +1,29 @@
+{
+  "snapshot_records": {
+    "applications": 14,
+    "leads": 46,
+    "manual_entries": 3,
+    "visibility": 11
+  },
+  "bundled_pdf_count": 26,
+  "missing_uploads": [
+    {
+      "record": "manual:965592ae-d7a0-4744-a869-1ee9c5cd092f",
+      "filename": "Marc Darenz Masarate  Resume.pdf",
+      "sha256": "8b538ba1796e2c605e901059fc3feaf1df5abd949512be4691118a91971106c6",
+      "object_key": "applications/965592ae-d7a0-4744-a869-1ee9c5cd092f/029b02be-c7f9-4b0f-aad7-623b80479d72/8b538ba1796e2c605e901059fc3feaf1df5abd949512be4691118a91971106c6"
+    },
+    {
+      "record": "manual:965592ae-d7a0-4744-a869-1ee9c5cd092f",
+      "filename": "Marc Darenz Masarate Cover Letter (2).pdf",
+      "sha256": "3f9ed327d753b1892fe93193fa562d0bc4bd65bda2e15fb4dff480ba6b78b801",
+      "object_key": "applications/965592ae-d7a0-4744-a869-1ee9c5cd092f/22dc27f3-ccd1-4196-ba18-7f697b1162d8/3f9ed327d753b1892fe93193fa562d0bc4bd65bda2e15fb4dff480ba6b78b801"
+    }
+  ],
+  "checksum_mismatches": [],
+  "truncated_d1_snapshots": [
+    1,
+    2,
+    9
+  ]
+}

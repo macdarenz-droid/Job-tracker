@@ -1,0 +1,2884 @@
+{
+  "deleted_keys": [
+    "manual:12b62a78-27d3-4c53-acd8-3f0feda4e6a9"
+  ],
+  "updated_at": "2026-09-13T20:18:00Z",
+  "next_search": "2026-09-14T08:15:00+10:00",
+  "notice": "Every 2 hours · Australia-wide · Medium fit or stronger (about 60–70%+)",
+  "applications": [
+    {
+      "key": "wml.com.au|junior-structural-drafter",
+      "company": "WML Consulting Engineers",
+      "role": "Junior Structural Drafter",
+      "location": "Bunbury or West Perth, WA",
+      "status": "SENT",
+      "recipient_name": "Careers Team",
+      "recipient_role": "Employer-designated application inbox",
+      "recipient_email": "careers@wml.com.au",
+      "job_url": "https://www.wml.com.au/careers",
+      "company_url": "https://www.wml.com.au/",
+      "fit": "Strong match for the recently completed civil-related Advanced Diploma, academic AutoCAD/Revit drafting, technical documentation, drawing review and communication. Reduced for no commercial production-drafting experience, no demonstrated structural-design office experience and interstate relocation.",
+      "gaps": [
+        "AutoCAD, Civil 3D and Revit experience is academic rather than commercial production drafting.",
+        "No commercial structural drafting or structural-design office experience is demonstrated.",
+        "The role location requires relocation from Melton VIC to Bunbury or West Perth WA; no timing or funding promise is made.",
+        "Employer acceptance of time-limited Subclass 485 work rights is not stated."
+      ],
+      "subject": "Junior Structural Drafter application - Marc Darenz Masarate",
+      "email_body": "Dear Careers Team,\n\nI am applying for the Junior Structural Drafter position listed on WML Consulting Engineers' careers page.\n\nI completed an Australian Advanced Diploma of Civil Construction Design in February 2026 and hold a Bachelor of Science in Civil Engineering. My academic drafting work includes AutoCAD, Civil 3D and Revit, with technical documentation covering road geometry, earthworks, pavement systems and stormwater drainage. My earlier construction experience includes reviewing structural and architectural drawings, site inspections, quality checks, progress records and coordination with engineers, subcontractors and suppliers.\n\nMy software experience is academic rather than commercial production drafting. I am seeking a junior role where I can learn WML's standards and workflows while contributing careful documentation and practical site awareness.\n\nI am based in Melton, Victoria and am open to discussing relocation to Bunbury or West Perth. I hold a White Card, an Australian driver's licence with reliable transport, and full working rights under a Subclass 485 visa until December 2027.\n\nMy resume and cover letter are attached. Thank you for considering my application.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com",
+      "sent_at": "2026-09-12T08:01:18Z",
+      "application_type": "ADVERTISED_VACANCY_EMAIL_APPLICATION",
+      "application_route": "EMAIL",
+      "attachments": [
+        {
+          "filename": "Marc_Masarate_WML_Junior_Structural_Drafter_Resume.pdf",
+          "path": "documents/Marc_Masarate_WML_Junior_Structural_Drafter_Resume.pdf",
+          "sha256": "86dee1f111763305274497f7353716bf8c94983a886257039c26f0c0bee58fde"
+        },
+        {
+          "filename": "Marc_Masarate_WML_Junior_Structural_Drafter_Cover_Letter.pdf",
+          "path": "documents/Marc_Masarate_WML_Junior_Structural_Drafter_Cover_Letter.pdf",
+          "sha256": "f3a8daf748b9a01557746d3e352a8b1b45d7f92294cee7d8108a9337d3ab9769"
+        }
+      ]
+    },
+    {
+      "key": "witthoft.com.au|graduate-civil-engineer",
+      "company": "Witthoft Engineering Pty Ltd",
+      "role": "Graduate Civil Engineer",
+      "location": "Fortitude Valley, Brisbane QLD",
+      "status": "APPLICATION_UNDER_REVIEW",
+      "recipient_name": "Careers Team",
+      "recipient_role": "Employer-designated careers application inbox",
+      "recipient_email": "careers@witthoft.com.au",
+      "job_url": "https://www.witthoft.com.au/caGradCivilEng.html",
+      "company_url": "https://www.witthoft.com.au/",
+      "fit": "Strong alignment on the required civil degree, White Card, driver's licence, AutoCAD/3D design exposure, civil documentation, site inspections and project coordination. Reduced for foundational rather than commercial water-design capability and interstate relocation.",
+      "gaps": [
+        "Hydraulic and surge modelling, GIS, water and sewer reticulation, pipeline design and local Queensland codes are not demonstrated as commercial experience.",
+        "The role states 0-2+ years post-graduate experience; Marc completed his bachelor's in 2019, so the employer's interpretation of that wording is unknown.",
+        "Relocation from Melton VIC to Brisbane QLD and interstate site travel require discussion; no timing or funding promise is made.",
+        "Employer acceptance of time-limited Subclass 485 work rights is not stated in the advert."
+      ],
+      "subject": "Graduate Civil Engineer application - Marc Darenz Masarate",
+      "email_body": "Dear Careers Team,\n\nI am applying for the Graduate Civil Engineer position advertised on Witthoft Engineering's careers page.\n\nI completed an Australian Advanced Diploma of Civil Construction Design in February 2026 and hold a Bachelor of Science in Civil Engineering. My academic work includes AutoCAD and Civil 3D drawings, road geometry, earthworks, pavement systems and stormwater drainage. My earlier construction experience includes drawing review, site inspections, quality checks, progress and material records, and coordination with engineers, subcontractors and suppliers.\n\nI am particularly interested in developing water and wastewater design capability under Witthoft's senior engineers while contributing to civil documentation, routine site inspections and project support. My hydraulic modelling, GIS and water-infrastructure design experience is currently academic or foundational rather than commercial, and I am keen to develop these areas through supervised work.\n\nI am based in Melton, Victoria and am open to discussing relocation to Brisbane and interstate project travel. I hold an Australian driver's licence, reliable transport, a White Card and full working rights under a Subclass 485 visa until December 2027.\n\nMy resume and cover letter are attached. Thank you for considering my application.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com",
+      "sent_at": "2026-09-12T02:23:30Z",
+      "replies": [
+        {
+          "gmail_message_id": "1a0936dd0c359253",
+          "gmail_thread_id": "1a0936dd0c359253",
+          "received_at": "2026-09-12T02:23:58Z",
+          "from": "Careers <careers@witthoft.com.au>",
+          "subject": "Automatic reply: Graduate Civil Engineer application - Marc Darenz Masarate",
+          "type": "APPLICATION_ACKNOWLEDGEMENT",
+          "summary": "Witthoft Engineering confirmed receipt and said the application is under review. It will contact Marc if his qualifications and experience align.",
+          "action_required": false,
+          "classification": "Not an interview invitation, offer or rejection."
+        }
+      ],
+      "application_type": "ADVERTISED_VACANCY_EMAIL_APPLICATION",
+      "application_route": "EMAIL",
+      "attachments": [
+        {
+          "filename": "Marc_Masarate_Witthoft_Graduate_Civil_Engineer_Resume.pdf",
+          "path": "documents/Marc_Masarate_Witthoft_Graduate_Civil_Engineer_Resume.pdf",
+          "sha256": "cd3cb89c9f6e755069098941025eeb820963119c6f94aee4517b6948dd82d5e9"
+        },
+        {
+          "filename": "Marc_Masarate_Witthoft_Graduate_Civil_Engineer_Cover_Letter.pdf",
+          "path": "documents/Marc_Masarate_Witthoft_Graduate_Civil_Engineer_Cover_Letter.pdf",
+          "sha256": "a1ab8367477b1ab9c1afaa2d54d132412ce0ed529bf8a62e5bbfa2485a2c675c"
+        }
+      ]
+    },
+    {
+      "key": "osbornconsulting.com.au|eoi:junior-civil-design-support",
+      "company": "Osborn Consulting Engineers Pty Ltd",
+      "role": "Expression of interest — junior civil design, documentation or site support",
+      "location": "Queensland offices; applicant based in Melton VIC",
+      "status": "SENT",
+      "recipient_name": "Osborn Consulting Engineers hiring team",
+      "recipient_role": "Employer-published application inbox on the official careers page",
+      "recipient_email": "admin@osbornconsulting.com.au",
+      "subject": "Expression of interest — junior civil design/documentation support | Marc Darenz Masarate",
+      "email_body": "Dear Hiring Team,\n\nI am writing to ask whether Osborn Consulting Engineers has any suitable paid junior opportunities in civil design, documentation or site support. I understand that I am not applying for a confirmed advertised junior vacancy.\n\nI completed an Australian Advanced Diploma of Civil Construction Design in February 2026 and hold a Bachelor of Science in Civil Engineering. My academic design work covered AutoCAD, Civil 3D, road geometry, earthworks, pavement systems and stormwater drainage. I also have practical construction experience coordinating site activities, reviewing drawings, completing inspections and quality checks, tracking materials and preparing progress records.\n\nOsborn's work in land development, subdivisions, roads, drainage and construction management closely matches the areas in which I want to develop under experienced engineers and designers. My design software experience is academic rather than commercial production experience, and I would welcome structured junior-level guidance.\n\nI am based in Melton, Victoria and am open to discussing regional or interstate opportunities. I hold an Australian driver's licence, reliable transport, a White Card and full working rights under a Subclass 485 visa until December 2027.\n\nMy resume and cover letter are attached. Thank you for considering my enquiry.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com",
+      "sent_at": "2026-09-12T01:17:00Z",
+      "application_type": "SPECULATIVE_EMPLOYMENT_ENQUIRY",
+      "application_route": "EMAIL",
+      "attachments": [
+        {
+          "filename": "Marc_Masarate_Osborn_Civil_Resume.pdf",
+          "path": "documents/Marc_Masarate_Osborn_Civil_Resume.pdf",
+          "sha256": "0a81bbcf855443239b37302f3d76b8ed51084f9d267bafb725695871817a3a68"
+        },
+        {
+          "filename": "Marc_Masarate_Osborn_Cover_Letter.pdf",
+          "path": "documents/Marc_Masarate_Osborn_Cover_Letter.pdf",
+          "sha256": "f17a41ab01a3fdd81b7ee548e2e6405c7c5280fbc112d064d561ac4e9726de3a"
+        }
+      ]
+    },
+    {
+      "key": "westerapartners.com.au|graduate-program",
+      "company": "Westera Partners Pty Ltd",
+      "role": "Graduate Program application - Civil Engineering, Central Victoria",
+      "location": "Central Victoria preferred; applicant based in Melton VIC",
+      "status": "PREPARED_NOT_SENT",
+      "recipient_name": "HR Team",
+      "recipient_role": "Employer-designated graduate application address",
+      "recipient_email": "HR@westerapartners.com.au",
+      "job_url": "https://www.westerapartners.com.au/careers/",
+      "subject": "Graduate application - Civil Engineering | Central Victoria | Marc Darenz Masarate",
+      "email_body": "Dear HR Team,\n\nI am applying to Westera Partners' Graduate Program in civil engineering. My preferred office is Central Victoria, as I am based in Melton.\n\nI completed an Advanced Diploma of Civil Construction Design in Australia in February 2026, covering road geometry, earthworks, pavement systems and stormwater drainage, and I hold a Bachelor of Science in Civil Engineering. My design and drafting work in AutoCAD and Civil 3D comes from coursework rather than a commercial office, which is why a graduate position with mentoring is what I am looking for.\n\nAlongside that study, I have practical construction experience. At JustBuilt I reviewed structural and architectural drawings against project requirements and coordinated the daily activities of 10 to 15 workers. At Grand Travaux I worked on residential subdivision finishing works, assisting with inspections and quality checks and preparing site, material and progress records. Your work in land subdivisions, local government infrastructure and stormwater management is the area I want to build a career in.\n\nI hold a White Card, an Australian driver's licence and reliable transport, and full working rights under a Subclass 485 visa until December 2027.\n\nMy resume and cover letter are attached. I have also attached my academic transcripts. Thank you for your time.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com",
+      "last_send_error": "This action was rejected due to unacceptable risk. Reason: This sends sensitive résumé, cover-letter, and academic-transcript data to an external employer; although the user authorized sending job applications generally, they did not explicitly authorize this exact Westera recipient and four-attachment payload.",
+      "replies": [],
+      "application_type": "EMPLOYER_PUBLISHED_STANDING_GRADUATE_INTAKE",
+      "application_route": "EMAIL",
+      "attachments": [
+        {
+          "filename": "Marc_Masarate_Westera_Resume_Final.pdf",
+          "path": "documents/Marc_Masarate_Westera_Resume_Final.pdf",
+          "sha256": "8ae74477f8f6d4c5690520d03c7890ebd77b6b0f4f5aec846bb4f99be4b601ce"
+        },
+        {
+          "filename": "Marc_Masarate_Westera_Cover_Letter_Final.pdf",
+          "path": "documents/Marc_Masarate_Westera_Cover_Letter_Final.pdf",
+          "sha256": "e2ee66063126059f3f0dc77f6d4d7e3b2f30c6962bee0a10f93677e49d18e5b7"
+        },
+        {
+          "filename": "Marc_Masarate_Bachelor_Transcript.pdf",
+          "path": "documents/Marc_Masarate_Bachelor_Transcript.pdf",
+          "sha256": "d470b6b946144a1453fade11d8b452e8fbc8d454e16da9d4d502ed8bb7defff5"
+        },
+        {
+          "filename": "Marc_Masarate_Advanced_Diploma_Transcript.pdf",
+          "path": "documents/Marc_Masarate_Advanced_Diploma_Transcript.pdf",
+          "sha256": "d684b26b591008b40ae21d25119c085005513631ea6a91fe9723c8d98d2c008b"
+        }
+      ]
+    },
+    {
+      "key": "phoenixcivil.com.au|seek:93947311",
+      "company": "Phoenix Civil & Earthmoving Pty Ltd",
+      "role": "Junior Civil Engineer",
+      "location": "Albany WA",
+      "status": "SENT",
+      "recipient_name": "Jeremy Palmer",
+      "recipient_role": "Founder; named contact for vacancy enquiries",
+      "recipient_email": "jeremy@phoenixcivil.com.au",
+      "business_phone": "0437 513 656",
+      "business_address": "Copal Road, Pendeen Industrial Estate, Willyung, Albany WA 6330",
+      "job_url": "https://au.seek.com/job/93947311",
+      "company_url": "https://phoenixcivil.com.au/",
+      "contact_url": "https://phoenixcivil.com.au/jobs/",
+      "checked_at": "2026-09-10T01:52:48.031429+10:00",
+      "fit": "Junior practical construction delivery, site supervision support, inspections, drawing review, material/progress records and coordination.",
+      "gaps": [
+        "Advert seeks applicants based in Albany/Great Southern; user is in Melton VIC. Email asks whether relocation will be considered.",
+        "Survey set-out, quantity take-offs and ITP experience not claimed as proven professional skills.",
+        "Start/notice period and salary expectation are unspecified.",
+        "Generic website jobs requirements differ from the current junior advert; the junior advert expressly welcomes graduates."
+      ],
+      "subject": "Junior Civil Engineer - Albany | Marc Darenz Masarate",
+      "email_body": "Hi Jeremy,\n\nI saw Phoenix Civil's Junior Civil Engineer vacancy in Albany and am contacting you through the vacancy-enquiry details on your website.\n\nMy construction experience in the Philippines includes coordinating 10-15 workers, reviewing drawings, carrying out site and quality inspections, and maintaining material and progress records. I hold a civil engineering degree and completed an Australian Advanced Diploma of Civil Construction Design in February 2026.\n\nI'm looking for a practical role supporting site supervision and project delivery. I'm based in Melton, Victoria, and open to relocating. I understand the advert is aimed at applicants already in Albany or the Great Southern; would you consider someone relocating for the position?\n\nI've attached a tailored resume and short cover letter. I hold a White Card and Australian driver's licence, and have full working rights until December 2027. I'd welcome a brief conversation if my background could be useful to your team.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\n",
+      "sent_at": "2026-09-10T02:09:07+10:00",
+      "last_send_error": null,
+      "replies": [],
+      "reply_checked_at": "2026-09-10T08:11:39.105Z",
+      "application_type": "APPLICATION_WITH_RELOCATION_ENQUIRY",
+      "attachments": [
+        {
+          "filename": "Marc_Masarate_Phoenix_Civil_Resume.pdf",
+          "path": "documents/Marc_Masarate_Phoenix_Civil_Resume.pdf",
+          "sha256": "5e99efb75ac60d6a66a7999e6f2d870f09d6ee482709e11a51c140a7ec564eec"
+        },
+        {
+          "filename": "Marc_Masarate_Phoenix_Civil_Cover_Letter.pdf",
+          "path": "documents/Marc_Masarate_Phoenix_Civil_Cover_Letter.pdf",
+          "sha256": "f01fdf9c5800d226b23309bcf1f50057972cbc6d7e0c85543e73cd56caaa18e9"
+        }
+      ]
+    },
+    {
+      "key": "groundtechnique.com.au|seek:94189880",
+      "company": "Ground Technique",
+      "role": "Graduate/Jnr Civil Engineer",
+      "location": "Hastings VIC; projects across Victoria",
+      "status": "MANUAL_APPLIED",
+      "recipient_name": "Jo (named in current advert; prior exact recipient redacted)",
+      "recipient_role": "Advertised application contact; operational role not verified",
+      "recipient_email": null,
+      "job_url": "https://au.seek.com/job/94189880",
+      "company_url": "https://groundtechnique.com.au/",
+      "contact_url": "https://au.seek.com/job/94189880",
+      "checked_at": "2026-09-10T05:56:18.926Z",
+      "fit": "Practical site coordination and drawing checks align with JustBuilt and Grand Travaux; this existing application was discovered during duplicate checking.",
+      "gaps": [
+        "Tendering, ITP/SWMS authorship, variations and extensions of time are not demonstrated professional skills.",
+        "Hastings office attendance and work away from home need discussion."
+      ],
+      "reason": "SEEK submission confirmed on 6 September 2026, 12:44 pm Melbourne. Earlier 12:33 pm email failed (550 5.4.1); that failure remains preserved. No resend: same vacancy already submitted through SEEK. Jeremie attribution is user-supplied, not independently identified by the receipt.",
+      "subject": "Application for Graduate/Jnr Civil Engineer",
+      "email_body": " Short paragraph describing a challenge you faced on a previous project,\r\nhow you approached the problem, and how you worked through it to achieve a\r\nsuccessful outcome.\r\n\r\nDuring a community hall renovation, one of the main challenges was\r\ncoordinating the daily activities of 10–15 workers while ensuring that\r\nconstruction progressed safely and in accordance with the project drawings\r\nand requirements. I approached this by communicating daily priorities\r\nclearly, monitoring progress, reviewing structural and architectural\r\ndrawings, and conducting regular safety and quality checks. When an issue\r\nrequired clarification or corrective action, I identified and escalated it\r\npromptly rather than allowing the work to continue unchecked. By\r\nmaintaining clear communication with the workforce, client and other\r\nproject stakeholders, I helped minimize errors and rework and supported\r\ncompletion of the project within its six-month construction program\r\n",
+      "sent_at": "2026-09-06T10:33:03+08:00",
+      "last_send_error": "550 5.4.1 Recipient address rejected: Access denied.",
+      "replies": [],
+      "reply_checked_at": "2026-09-10T08:11:39.105Z",
+      "contributor_name": "Jeremie",
+      "found_by": "Jeremie",
+      "application_type": "SEEK_PORTAL_SUBMISSION_WITH_PRIOR_EMAIL_FAILURE",
+      "application_route": "SEEK",
+      "attachments": []
+    },
+    {
+      "key": "rocktown.com.au|seek:94442818",
+      "company": "Rocktown Pty Ltd",
+      "role": "Graduate / Junior Site Engineers – T2D Project & Precast Facility",
+      "location": "Adelaide SA",
+      "status": "MANUAL_APPLIED",
+      "recipient_name": null,
+      "recipient_role": "SEEK portal submission; no recipient claimed.",
+      "recipient_email": null,
+      "job_url": "https://au.seek.com/job/94442818",
+      "company_url": "https://www.rocktown.com.au/",
+      "checked_at": "2026-09-10T05:29:25.693Z",
+      "fit": "Practical graduate site engineering role involving project and precast delivery.",
+      "gaps": [
+        "Relocation from Melton VIC to Adelaide and exact start availability are unknown."
+      ],
+      "replies": [],
+      "reply_checked_at": "2026-09-10T05:29:25.693Z",
+      "contributor_name": "Jeremie",
+      "found_by": "Jeremie",
+      "application_type": "SEEK_PORTAL_SUBMISSION",
+      "application_route": "SEEK",
+      "attachments": []
+    },
+    {
+      "key": "rokon.com.au|seek:94164017",
+      "company": "Rokon Pty Ltd",
+      "role": "Graduate Engineer",
+      "location": "Projects across Melbourne VIC",
+      "status": "APPLICATION_UNDER_REVIEW",
+      "recipient_name": null,
+      "recipient_role": "SEEK portal submission; no recipient claimed.",
+      "recipient_email": null,
+      "job_url": "https://au.seek.com/job/94164017",
+      "company_url": "https://www.rokon.com.au/",
+      "checked_at": "2026-09-10T05:29:25.693Z",
+      "fit": "Graduate civil construction program with field exposure, mentoring and project-team development across Melbourne.",
+      "gaps": [
+        "The exact uploaded cover letter and resume set is not confirmed by the SEEK receipt."
+      ],
+      "replies": [
+        {
+          "action_required": false,
+          "from": "Rokon Recruitment Team via noreply@jobadder.com",
+          "gmail_message_id": "1a0867c966015e70",
+          "gmail_thread_id": "1a0867c966015e70",
+          "received_at": "2026-09-10T00:05:04+10:00",
+          "reply_to": "Jonathan.Somlai@rokon.com.au",
+          "subject": "Thank you for your Application",
+          "summary": "Rokon confirmed the Graduate Engineer application is being reviewed and said it will advise the application status. This is not an interview invitation, offer or rejection.",
+          "type": "APPLICATION_ACKNOWLEDGEMENT"
+        }
+      ],
+      "reply_checked_at": "2026-09-11T00:55:00Z",
+      "contributor_name": "Jeremie",
+      "found_by": "Jeremie",
+      "application_type": "SEEK_PORTAL_SUBMISSION",
+      "application_route": "SEEK",
+      "attachments": []
+    },
+    {
+      "key": "aps-industrial-services|seek:94043778",
+      "company": "APS Industrial Services",
+      "role": "Graduate Engineer",
+      "location": "Location not verified",
+      "status": "MANUAL_APPLIED",
+      "job_url": "https://au.seek.com/job/94043778",
+      "checked_at": "2026-09-10T13:04:51.491Z",
+      "reason": "Research by Claude, independently verified in Gmail by ChatGPT. SEEK confirms application submitted 9 September 2026 at 10:08 pm Melbourne for vacancy 94043778. Submitter not identified. No new email sent; do not repeat this application.",
+      "replies": [],
+      "contributor_name": null,
+      "found_by": "Claude",
+      "application_type": "SEEK_PORTAL_SUBMISSION",
+      "application_route": "SEEK",
+      "attachments": []
+    },
+    {
+      "key": "amcplanning.com.au|linkedin:4462999802",
+      "company": "AMC Planning Solutions",
+      "role": "Draftsperson",
+      "location": "Branxton / North Rothbury NSW",
+      "status": "SENT",
+      "recipient_name": "Hiring Team",
+      "recipient_role": "Advert-designated application inbox",
+      "recipient_email": "admin@amcplanning.com.au",
+      "job_url": "https://au.linkedin.com/jobs/view/draftsperon-4462999802",
+      "company_url": "https://www.amcplanningsolutions.com.au/",
+      "checked_at": "2026-09-11T05:00:45+10:00",
+      "fit": "Entry-level role expressly welcomes little or no industry experience; requested AutoCAD/Revit interest aligns with documented coursework and practical construction exposure.",
+      "gaps": [
+        "No commercial production-drafting experience; documents identify software experience as academic.",
+        "Residential/commercial planning and approval-coordination experience is not demonstrated.",
+        "Relocation from Melton VIC to Branxton NSW requires discussion; no date or funding promise made."
+      ],
+      "subject": "Draftsperson application - Marc Darenz Masarate",
+      "email_body": "Dear Hiring Team,\n\nI am applying for the Draftsperson position advertised by AMC Planning Solutions.\n\nI recently completed an Advanced Diploma of Civil Construction Design in Australia and hold a Bachelor of Science in Civil Engineering. My academic drafting experience includes AutoCAD, Civil 3D and Revit, supported by practical construction experience reviewing drawings, coordinating site activities, carrying out quality checks and maintaining progress and material records.\n\nMy software experience is from coursework rather than commercial production drafting, which is why I am particularly interested in the entry-level training opportunity described in your advert. I would value the chance to develop further while supporting your residential and commercial drafting, planning and approval work with accurate documentation and a reliable approach.\n\nI am based in Melton, Victoria and am open to discussing relocation to the Branxton area. I hold a White Card, an Australian driver's licence with reliable transport, and full working rights under a Subclass 485 visa until December 2027.\n\nMy tailored resume and cover letter are attached. Thank you for considering my application.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com",
+      "sent_at": "2026-09-11T05:02:24+10:00",
+      "replies": [],
+      "application_type": "ADVERTISED_VACANCY_EMAIL_APPLICATION",
+      "application_route": "EMAIL",
+      "match_score": {
+        "assessed_at": "2026-09-11T05:00:45+10:00",
+        "caution": "Academic software experience; relocation requires discussion.",
+        "percent": 86,
+        "rationale": "Entry-level role expressly welcomes little or no industry experience; requested AutoCAD/Revit interest aligns with documented coursework and practical construction exposure."
+      },
+      "attachments": [
+        {
+          "filename": "Marc_Masarate_AMC_Draftsperson_Resume.pdf",
+          "path": "documents/Marc_Masarate_AMC_Draftsperson_Resume.pdf",
+          "sha256": "71e1f1f1ea31bf49dbba5c83a67d07c381356aefc7320802e3aecdd93073de90"
+        },
+        {
+          "filename": "Marc_Masarate_AMC_Draftsperson_Cover_Letter.pdf",
+          "path": "documents/Marc_Masarate_AMC_Draftsperson_Cover_Letter.pdf",
+          "sha256": "9d9a88e37a9e5349ea750e05b836916634cc584564ab8779a988fa18735490f5"
+        }
+      ]
+    },
+    {
+      "key": "starscaffolds.com.au|seek:94485656",
+      "company": "Star Scaffolds",
+      "role": "Junior Estimator",
+      "location": "Kingston, Brisbane QLD",
+      "status": "SENT",
+      "recipient_name": "Careers Team",
+      "recipient_role": "Official employer careers inbox",
+      "recipient_email": "Careers@starscaffolds.com.au",
+      "job_url": "https://au.seek.com/job/94485656",
+      "company_url": "https://www.starscaffolds.com.au/",
+      "checked_at": "2026-09-11T09:50:13+10:00",
+      "fit": "Entry-level estimating with full training; plan interpretation, construction records, coordination and CAD education are relevant.",
+      "gaps": [
+        "No commercial estimating, quotation or scaffolding experience.",
+        "Relocation from Melton VIC to Kingston QLD requires discussion."
+      ],
+      "subject": "Junior Estimator application - Marc Darenz Masarate",
+      "email_body": "Dear Careers Team,\n\nI am applying for the Junior Estimator position currently advertised by Star Scaffolds.\n\nI hold a Bachelor of Science in Civil Engineering and recently completed an Advanced Diploma of Civil Construction Design in Australia. My construction experience includes reviewing structural and architectural drawings, coordinating site activities, tracking procurement and materials, and maintaining progress records. My Advanced Diploma also included preparing and reviewing technical drawings using AutoCAD and Civil 3D.\n\nI do not yet have commercial estimating experience, but I can bring careful plan interpretation, organised documentation, construction knowledge and a genuine willingness to learn your quotation and estimating processes under the Senior Estimator.\n\nI am based in Melton, Victoria and am open to discussing relocation to Kingston. I hold a White Card, an Australian driver's licence with reliable transport, and full working rights under a Subclass 485 visa until December 2027.\n\nMy resume and cover letter are attached. Thank you for considering my application.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com",
+      "sent_at": "2026-09-11T09:51:58+10:00",
+      "application_type": "ADVERTISED_VACANCY_EMAIL_APPLICATION",
+      "application_route": "EMAIL",
+      "match_score": {
+        "assessed_at": "2026-09-11T09:50:13+10:00",
+        "caution": "Commercial estimating is a trainable gap; relocation requires discussion.",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 34
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 18
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 8
+          }
+        ],
+        "method": "resume-fit-v1",
+        "percent": 80,
+        "rationale": "Strong entry-level fit for drawing interpretation, records, construction knowledge and communication, reduced for no commercial estimating or scaffolding experience and interstate relocation."
+      },
+      "attachments": [
+        {
+          "filename": "Marc_Masarate_Star_Scaffolds_Junior_Estimator_Resume.pdf",
+          "path": "documents/Marc_Masarate_Star_Scaffolds_Junior_Estimator_Resume.pdf",
+          "sha256": "7ba52bf7d5970506da9dd61bfad5b65027c3270779a96b026dd4ee526c6cdeea"
+        },
+        {
+          "filename": "Marc_Masarate_Star_Scaffolds_Junior_Estimator_Cover_Letter.pdf",
+          "path": "documents/Marc_Masarate_Star_Scaffolds_Junior_Estimator_Cover_Letter.pdf",
+          "sha256": "7e95e035a0449d8d30ac2c511aea4b9881cebb17975fa8f166a6059771324bd0"
+        }
+      ]
+    },
+    {
+      "key": "bpd.com.au|eoi:graduate-civil-engineering-2026-09-13",
+      "company": "Breese Pitt Dixon",
+      "role": "Graduate Civil Engineering Expression of Interest",
+      "location": "Hawthorn East, Melbourne VIC",
+      "status": "PLATFORM_BLOCKED",
+      "recipient_name": "Hiring Team",
+      "recipient_role": "Employer-designated expression-of-interest inbox",
+      "recipient_email": "info@bpd.com.au",
+      "job_url": "https://www.bpd.com.au/careers",
+      "company_url": "https://www.bpd.com.au/",
+      "checked_at": "2026-09-13T02:08:00+10:00",
+      "fit": "Strong alignment with BPD land development, civil design, documentation and construction delivery. Marc has current Australian civil construction design training and prior practical site coordination experience.",
+      "gaps": [
+        "No advertised vacancy or confirmed hiring need.",
+        "Academic AutoCAD/Civil 3D experience rather than commercial production drafting.",
+        "Temporary work rights expire in December 2027; BPD acceptance is unknown."
+      ],
+      "subject": "Graduate civil engineering expression of interest - Marc Darenz Masarate",
+      "email_body": "Dear Hiring Team,\n\nI am writing to ask whether Breese Pitt Dixon has any suitable paid graduate civil engineering opportunities. I understand that this is a speculative employment enquiry and that I am not applying for a confirmed advertised vacancy.\n\nI completed an Australian Advanced Diploma of Civil Construction Design in February 2026, following a Bachelor of Science in Civil Engineering completed in 2019. My diploma work included road geometry, earthworks, pavement systems and stormwater drainage, as well as preparing and reviewing technical drawings using AutoCAD and Civil 3D. This is academic design-software experience rather than commercial production experience.\n\nMy earlier construction experience in the Philippines included coordinating daily site activities, reviewing structural and architectural drawings, completing inspections and quality checks, tracking materials and progress, preparing site records, and working with engineers, subcontractors and suppliers. I am particularly interested in BPD's land development work across roads, drainage, sewers, water mains, wetlands and construction delivery.\n\nI am based in Melton, Victoria and hold an Australian driver's licence, reliable transport and a White Card. I have full working rights in Australia under a Subclass 485 visa until December 2027.\n\nMy resume and cover letter are attached. Thank you for considering my enquiry.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com",
+      "application_type": "SPECULATIVE_EMPLOYMENT_ENQUIRY",
+      "application_route": "EMAIL",
+      "attachments": [
+        {
+          "filename": "Marc_Masarate_BPD_Graduate_Civil_Resume.pdf",
+          "path": "documents/Marc_Masarate_BPD_Graduate_Civil_Resume.pdf",
+          "sha256": "f246cb2586a410c5ac127fb0c0c2dd274e6214f80809847f56c4412809ab569a"
+        },
+        {
+          "filename": "Marc_Masarate_BPD_Graduate_Civil_Cover_Letter.pdf",
+          "path": "documents/Marc_Masarate_BPD_Graduate_Civil_Cover_Letter.pdf",
+          "sha256": "e3103a42fdadbe3ac7bc31385cdb63497461845f5f221b0757cb617131692401"
+        }
+      ]
+    },
+    {
+      "key": "metroprojectservices.com.au|graduate-engineer-2026-09-13",
+      "company": "Metro Project Services Pty Ltd",
+      "role": "Graduate Engineer",
+      "location": "Metropolitan Melbourne, VIC",
+      "status": "SENT",
+      "recipient_name": "MPS Careers Team",
+      "recipient_role": "Employer-designated careers inbox; applications are reviewed by the MPS team",
+      "recipient_email": "careers@metroprojectservices.com.au",
+      "job_url": "https://www.metroprojectservices.com.au/careers.html",
+      "company_url": "https://www.metroprojectservices.com.au/",
+      "checked_at": "2026-09-13T18:25:00+10:00",
+      "fit": "Strong alignment with the advertised supervised graduate rotation through setout, quality, procurement and program work on Melbourne civil infrastructure projects.",
+      "gaps": [
+        "No professional survey setout or ITP ownership demonstrated; the graduate role offers supervised exposure.",
+        "AutoCAD and Civil 3D experience is academic rather than commercial production experience.",
+        "Subclass 485 full work rights end in December 2027; the advert requires eligibility to work in Australia but does not state permanent residency or citizenship."
+      ],
+      "subject": "Graduate Engineer application - Marc Darenz Masarate",
+      "email_body": "Dear MPS Careers Team,\n\nI am applying for the Graduate Engineer position advertised on the Metro Project Services careers page.\n\nI hold a Bachelor of Science in Civil Engineering and completed an Australian Advanced Diploma of Civil Construction Design in February 2026. My earlier construction roles involved coordinating daily site activities, reviewing structural and architectural drawings, completing inspections and quality checks, tracking materials and procurement, maintaining progress records, and working with engineers, subcontractors and suppliers.\n\nMPS's structured graduate exposure to setout, quality, procurement and program work is closely aligned with the practical site-based direction I want to build. My diploma work also covered road geometry, earthworks, pavement systems and stormwater drainage, with academic AutoCAD and Civil 3D drawing work.\n\nI am based in Melton and am available for site and office work across metropolitan Melbourne. I hold an Australian driver's licence, reliable transport and a White Card, with full working rights under a Subclass 485 visa until December 2027.\n\nMy tailored resume and cover letter are attached. Thank you for considering my application.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com",
+      "sent_at": "2026-09-13T18:27:09+10:00",
+      "application_type": "ADVERTISED_VACANCY",
+      "application_route": "EMAIL",
+      "attachments": [
+        {
+          "filename": "Marc_Masarate_Metro_Project_Services_Graduate_Engineer_Resume.pdf",
+          "path": "documents/Marc_Masarate_Metro_Project_Services_Graduate_Engineer_Resume.pdf",
+          "sha256": "28cc25cdd405bb0813657ced5f9ffdfbe813583e094eae67319df4a64f8f93c4"
+        },
+        {
+          "filename": "Marc_Masarate_Metro_Project_Services_Graduate_Engineer_Cover_Letter.pdf",
+          "path": "documents/Marc_Masarate_Metro_Project_Services_Graduate_Engineer_Cover_Letter.pdf",
+          "sha256": "3df83f02ffab2940c42c86ad949bc549f4b13cc50d7af9fa8ff33117652a8665"
+        }
+      ]
+    },
+    {
+      "key": "chempro.com.au|careers:junior-drafter-2026-10-01",
+      "company": "Chempro",
+      "role": "Junior Drafter",
+      "location": "Molendinar, Gold Coast QLD; regular travel across QLD and NSW",
+      "status": "SENT",
+      "recipient_name": "Chempro Careers Team",
+      "recipient_role": "Official employer careers inbox specified by the current vacancy",
+      "recipient_email": "careers@chempro.com.au",
+      "job_url": "https://www.chempro.com.au/careers/MolendinarChemproChemistJuniorDrafter2026-10-01",
+      "company_url": "https://www.chempro.com.au/careers",
+      "checked_at": "2026-09-14T00:00:23+10:00",
+      "fit": "Relevant academic drafting, site checks, accurate documentation, stakeholder communication, licence and junior-level eligibility.",
+      "gaps": [
+        "No planogramming or pharmacy-layout experience; employer training is offered.",
+        "No demonstrated professional measured-survey work.",
+        "Relocation and extensive QLD/NSW site travel require discussion.",
+        "Contract term, hours and travel-cost arrangements are unknown."
+      ],
+      "subject": "Junior Drafter application - Marc Darenz Masarate",
+      "email_body": "Dear Chempro Careers Team,\n\nI am applying for the Junior Drafter position based in Molendinar. I recently completed an Advanced Diploma of Civil Construction Design and have academic experience preparing technical drawings using AutoCAD and Civil 3D.\n\nMy earlier construction work involved reviewing drawings, conducting site and quality inspections, keeping progress records and communicating with clients, engineers and site teams. I hold an Australian driver's licence and have my own transport. I am currently based in Melton and am open to discussing relocation to the Gold Coast.\n\nI have attached my resume and cover letter. Thank you for considering my application.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com",
+      "sent_at": "2026-09-14T00:02:30+10:00",
+      "application_type": "ADVERTISED_VACANCY",
+      "application_route": "EMAIL",
+      "match_score": {
+        "assessed_at": "2026-09-14T00:00:23+10:00",
+        "basis": "Current full employer-authored vacancy and supported master-resume facts.",
+        "caution": "No planogramming or professional measured-survey experience; interstate relocation and extensive site travel require discussion.",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 30
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 15
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 5
+          }
+        ],
+        "evidence_urls": [
+          "https://www.chempro.com.au/careers/MolendinarChemproChemistJuniorDrafter2026-10-01",
+          "https://www.chempro.com.au/careers"
+        ],
+        "method": "resume-fit-v1",
+        "percent": 70,
+        "rationale": "Academic drafting and site records transfer; pharmacy layouts and measured surveys need training."
+      },
+      "attachments": [
+        {
+          "filename": "Marc_Masarate_Chempro_Junior_Drafter_Resume.pdf",
+          "path": "documents/Marc_Masarate_Chempro_Junior_Drafter_Resume.pdf",
+          "sha256": "797c0a0f5dc1f4b3bee19a66c9fa6a9deafc7069b3ad5dab435397dc5b8230c3"
+        },
+        {
+          "filename": "Marc_Masarate_Chempro_Junior_Drafter_Cover_Letter.pdf",
+          "path": "documents/Marc_Masarate_Chempro_Junior_Drafter_Cover_Letter.pdf",
+          "sha256": "dc7ec61b51e61c7c1bdb0ae068bffd64b3be98bf593a22a6137fd4a6da6d3c84"
+        }
+      ]
+    }
+  ],
+  "leads": [
+    {
+      "key": "parkes-shire-council|PSC2222648",
+      "company": "Parkes Shire Council",
+      "role": "Water and Wastewater Trainee",
+      "location": "Parkes NSW",
+      "status": "HELD_MANDATORY_DETAILS_UNCONFIRMED",
+      "job_url": "https://parkes.applynow.net.au/jobs/PSC2222648-water-and-wastewater-trainee",
+      "checked_at": "2026-09-12T14:31:00+10:00",
+      "fit": "A two-year supervised trainee role with practical exposure to water treatment, wastewater treatment, supply networks and sewer systems. Marc's civil qualifications, White Card, licence, site-safety experience, inspection records and teamwork are relevant, though the role is operational rather than civil-design focused.",
+      "gaps": [
+        "The form requires current Hepatitis A, Hepatitis B and Tetanus immunisations; Marc's status is unknown.",
+        "The form asks for a SafeWork NSW White Card; whether Marc's current interstate White Card satisfies the employer must be confirmed.",
+        "Relocation from Melton VIC to Parkes NSW is required and no timing or funding promise is made.",
+        "This traineeship leads to another vocational qualification and may underuse Marc's completed civil degree and Advanced Diploma."
+      ],
+      "application_type": "ADVERTISED_VACANCY",
+      "application_route": "EMPLOYER_FORM",
+      "match_score": {
+        "percent": 65,
+        "method": "resume-fit-v1",
+        "caution": "Company/role fit estimate, not interview probability; mandatory immunisation status and NSW White Card acceptance are unresolved."
+      },
+      "attachments": []
+    },
+    {
+      "key": "dtalengineering.com|civil-drafter-graduate",
+      "company": "D-TAL",
+      "role": "Civil Drafter / Civil Engineering Graduate",
+      "location": "Australia - full-time work from home",
+      "status": "READY_JEREMIE_EMPLOYER_FORM",
+      "job_url": "https://dtalengineering.com/jobs/junior-civil-drafter/",
+      "checked_at": "2026-09-12T12:17:00+10:00",
+      "fit": "The role asks for a Civil Engineering graduate to prepare AutoCAD 2D, road/highway and signage drawings. Marc's civil degree, Australian Advanced Diploma, academic AutoCAD/Civil 3D work, drawing interpretation, technical records and practical coordination align strongly.",
+      "gaps": [
+        "No documented AutoTURN or signage-design experience.",
+        "AutoCAD and Civil 3D experience is academic rather than commercial production drafting.",
+        "The employer does not state whether it accepts time-limited Subclass 485 work rights."
+      ],
+      "application_type": "ADVERTISED_VACANCY",
+      "application_route": "EMPLOYER_FORM",
+      "match_score": {
+        "percent": 88,
+        "method": "resume-fit-v1",
+        "caution": "Qualitative resume-to-role fit, not an interview probability; AutoTURN, signage design and commercial road-production drafting are gaps."
+      },
+      "attachments": []
+    },
+    {
+      "key": "rockhamptonregionalcouncil|rrc:2912197436974799",
+      "company": "Rockhampton Regional Council",
+      "role": "Cadet Civil Designer",
+      "location": "Rockhampton QLD",
+      "status": "HELD_ELIGIBILITY_CONFIRMATION",
+      "job_url": "https://au.jora.com/job/Civil-Designer-aaacbeeaf3abd90991f9cf9b1bd0887b",
+      "checked_at": "2026-09-12T10:18:00+10:00",
+      "fit": "Advanced Diploma civil-design coursework, academic AutoCAD/Civil 3D drawings, technical documentation and earlier inspection/coordination records align with the developmental duties.",
+      "gaps": [
+        "The advert requires the successful applicant to be currently undertaking or eligible to enter a relevant tertiary course and to complete that study externally while working full time. Marc has already completed a related Advanced Diploma; willingness and eligibility to enrol again are unknown.",
+        "Relocation from Melton to Rockhampton would need discussion without a promise.",
+        "A satisfactory Australia-wide criminal history check is required.",
+        "Council's mandatory cover-letter template must be used; no documents were prepared because the eligibility gate is unresolved and the route is portal-only."
+      ],
+      "application_type": "ADVERTISED_VACANCY",
+      "application_route": "EMPLOYER_PORTAL",
+      "match_score": {
+        "percent": 70,
+        "method": "resume-fit-v1",
+        "caution": "Skills fit only, not an interview probability; mandatory study eligibility remains unresolved.",
+        "basis": "Strong civil design, AutoCAD, drawing, documentation and organisational alignment, reduced by the required study commitment and interstate relocation."
+      },
+      "attachments": []
+    },
+    {
+      "key": "bornhorstward.com.au|graduate-program",
+      "company": "Bornhorst + Ward",
+      "role": "Graduate Engineer - employer-published annual graduate pathway",
+      "location": "Brisbane QLD or Melbourne VIC",
+      "status": "READY_FOR_JEREMIE",
+      "job_url": "https://www.bornhorstward.com.au/apply",
+      "company_url": "https://www.bornhorstward.com.au/",
+      "checked_at": "2026-09-12T10:15:00+10:00",
+      "fit": "Strong alignment with the Advanced Diploma's academic road, earthworks, pavement and stormwater design work, AutoCAD/Civil 3D documentation, and earlier practical drawing review, inspection, records and coordination experience.",
+      "gaps": [
+        "Marc's AutoCAD and Civil 3D work is academic rather than commercial production drafting.",
+        "The form asks whether the applicant has full working rights; Marc has full current rights under Subclass 485 until December 2027, but the employer's acceptance of time-limited rights is unknown.",
+        "The pathway does not publish a degree-recency rule, but acceptance of a 2019 overseas bachelor's degree is not confirmed.",
+        "The form's visible discipline options were incomplete in the public text capture, so Jeremie must verify that Civil Engineering can be selected before submitting."
+      ],
+      "application_type": "EMPLOYER_PUBLISHED_STANDING_GRADUATE_INTAKE",
+      "application_route": "EMPLOYER_FORM",
+      "match_score": {
+        "percent": 75,
+        "method": "company-and-program-scope-fit-v1",
+        "caution": "Company and graduate-program scope fit only; not an interview probability, eligibility confirmation or evidence of a dated vacancy.",
+        "basis": "The employer states that graduate applications are accepted annually and describes mentoring across civil and structural projects. Its civil scope includes roads, drainage, subdivisions, water, sewerage and siteworks."
+      },
+      "attachments": []
+    },
+    {
+      "key": "swan.wa.gov.au|graduate-engineer-program:register-interest",
+      "company": "City of Swan",
+      "role": "Graduate Engineer Program — register interest",
+      "location": "Midland / Perth WA",
+      "status": "READY_JEREMIE_EMPLOYER_FORM",
+      "business_phone": "(08) 9267 9267",
+      "business_address": "2 Midland Square, Midland WA 6056",
+      "company_url": "https://www.swan.wa.gov.au/city-and-council/careers",
+      "checked_at": "2026-09-11T17:23:30Z",
+      "fit": "The published rotations in civil design, subdivision and drainage engineering, engineering construction, project management, asset management, and construction and maintenance align with Marc's Australian Advanced Diploma coursework in road geometry, earthworks, pavement systems and stormwater drainage, plus professional site inspections, coordination and progress records.",
+      "gaps": [
+        "The program describes its target group as recent graduates but does not publish a completion-year window; Marc's bachelor degree was completed in 2019 and his Australian Advanced Diploma in February 2026.",
+        "The registration page does not publish detailed work-rights or qualification eligibility criteria; these must be checked in the form before submission.",
+        "Marc is in Melton VIC and the program is based in Midland WA, so relocation requires discussion.",
+        "Commercial civil design experience is not demonstrated; AutoCAD and Civil 3D experience is academic.",
+        "The page seeks high academic achievement and strong leadership; no unsupported claim should be made beyond the supplied transcripts and documented coordination experience."
+      ],
+      "application_type": "EMPLOYER_PUBLISHED_STANDING_GRADUATE_INTAKE",
+      "application_route": "EMPLOYER_FORM",
+      "match_score": {
+        "assessed_at": "2026-09-11T17:23:30Z",
+        "basis": "Current official City of Swan graduate-program and careers pages compared with supported master-resume facts. This is program-scope fit, not an interview probability or proof of a dated vacancy.",
+        "caution": "Standing registration route only; exact eligibility criteria are not published on the page.",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 35
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 15
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 5
+          }
+        ],
+        "method": "company-program-scope-fit-v1",
+        "percent": 75
+      },
+      "attachments": []
+    },
+    {
+      "key": "delplant.com.au|seek:94483795",
+      "company": "Delplant Pty Ltd",
+      "role": "Graduate Site Engineer",
+      "location": "Narre Warren VIC",
+      "status": "READY_JEREMIE_SEEK",
+      "business_phone": "03 9796 0700",
+      "business_address": "Factory 1, 4 Len Thomas Place, Narre Warren VIC 3805",
+      "job_url": "https://au.seek.com/job/94483795",
+      "company_url": "https://delplant.com.au/contact-us/",
+      "contact_url": "https://delplant.com.au/contact-us/",
+      "checked_at": "2026-09-11T00:50:00Z",
+      "fit": "Site coordination, materials procurement and stakeholder communication map to JustBuilt/Grand Travaux experience. Industry experience is preferred, not required.",
+      "gaps": [
+        "Thorough pipeline trenching knowledge and accurate tender preparation are not established in the master resume.",
+        "Melton to south-eastern Melbourne commute is not assumed.",
+        "No named relevant professional email verified; stated application route is SEEK."
+      ],
+      "reason": "Full current Graduate Site Engineer advert revalidated on 11 September 2026. It explicitly directs applicants to submit via SEEK, so Jeremie should use that route. Official contact and careers pages do not override the advertised channel. No email sent.",
+      "application_route": "SEEK",
+      "match_score": {
+        "assessed_at": "2026-09-11T00:50:00Z",
+        "basis": "Current full advert rechecked on 11 September 2026 against supported master-resume facts.",
+        "caution": null,
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 35
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 15
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 5
+          }
+        ],
+        "evidence_urls": [
+          "https://au.seek.com/job/94483795"
+        ],
+        "method": "resume-fit-v1",
+        "percent": 75,
+        "rationale": "Relevant site coordination and procurement experience; pipeline trenching and tender work need training."
+      },
+      "attachments": []
+    },
+    {
+      "key": "civildimensions.com.au|seek:93199575",
+      "company": "Civil Dimensions Pty Ltd",
+      "role": "Civil Design / Draftsperson",
+      "location": "Upper Mount Gravatt QLD",
+      "status": "VACANCY_UNVERIFIED",
+      "recipient_name": "Tim Evans",
+      "recipient_role": "Named advert contact; professional role not yet verified",
+      "recipient_email": null,
+      "business_phone": "07 3422 2020",
+      "business_address": "Unit 8/51 Freda Street, Upper Mount Gravatt QLD 4122",
+      "job_url": "https://au.seek.com/job/93199575?origin=cardTitle&ref=search-standalone&type=standard",
+      "company_url": "https://www.civildimensions.com.au/",
+      "contact_url": "https://www.civildimensions.com.au/contact.php",
+      "checked_at": "2026-09-10T06:53:47.416738+10:00",
+      "fit": "Junior CAD documentation of earthworks, roads and stormwater aligns with Advanced Diploma academic work. The employer specialises in land development and infrastructure.",
+      "gaps": [
+        "SEEK full advert was available from a last-month crawl; current availability could not be independently revalidated.",
+        "Email is masked in the advert; official contact page contains a form and phone, no exact named email.",
+        "Two years experience and 12D are preferred, not established in the resume; sewer/water reticulation proficiency is not established.",
+        "Marc is based in Melton VIC; relocation needs discussion."
+      ],
+      "reason": "The recorded SEEK reference could not be revalidated on 12 September 2026, and no current employer vacancy evidence or exact published application email was found. Hold without drafting or outreach.",
+      "match_score": {
+        "assessed_at": "2026-09-10T08:19:44.615Z",
+        "basis": "Estimate from saved advert/fit research and supported master-resume facts; not a fresh vacancy check.",
+        "caution": "Vacancy unverified",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 35
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 10
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 5
+          }
+        ],
+        "evidence_urls": [
+          "https://au.seek.com/job/93199575?origin=cardTitle&ref=search-standalone&type=standard"
+        ],
+        "method": "resume-fit-v1",
+        "percent": 70,
+        "rationale": "Diploma civil CAD scope fits; professional civil drafting, 12D and preferred experience are gaps."
+      },
+      "attachments": []
+    },
+    {
+      "key": "groundswell|seek:94508145",
+      "company": "Groundswell Engineers",
+      "role": "Trainee Civil Draftsperson",
+      "location": "Hamilton, Newcastle NSW",
+      "status": "HELD_ELIGIBILITY_CONFIRMATION",
+      "business_phone": "02 4070 9191",
+      "business_address": "54 Hudson Street, Hamilton NSW 2303",
+      "job_url": "https://au.seek.com/job/94508145",
+      "company_url": "https://www.groundswellengineers.com.au/",
+      "contact_url": "https://www.groundswellengineers.com.au/contact",
+      "checked_at": "2026-09-12T21:28:00+10:00",
+      "fit": "Strong drafting direction: diploma CAD/documentation projects, construction drawing review and technical communication. Trainees and career changers are welcomed.",
+      "gaps": [
+        "Must be willing to undertake or be enrolled in a CAD drafting qualification; acceptance of Marc's completed Advanced Diploma is unconfirmed.",
+        "Melton VIC to Newcastle requires relocation discussion.",
+        "Subclass 485 has full work rights now but expires December 2027; no claim of permanent rights.",
+        "Relevant team members verified, but no exact named professional email located."
+      ],
+      "reason": "Current trainee advert revalidated on 11 September 2026 through Jora/SEEK. The application route is SEEK. Eligibility remains ambiguous because the advert requires willingness to undertake or current enrolment in a CAD drafting qualification; Marc has completed a higher related diploma, but willingness to undertake another qualification is unknown. Keep for Jeremie only after this is clarified.",
+      "application_route": "SEEK",
+      "match_score": {
+        "assessed_at": "2026-09-11T00:47:00Z",
+        "basis": "Current full advert rechecked on 11 September 2026 against supported master-resume facts.",
+        "caution": "Eligibility to clarify",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 35
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 15
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 25
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 5
+          }
+        ],
+        "evidence_urls": [
+          "https://au.seek.com/job/94508145"
+        ],
+        "method": "resume-fit-v1",
+        "percent": 80,
+        "rationale": "Trainee drafting suits academic CAD and drawing review; further-study eligibility is unresolved."
+      },
+      "attachments": []
+    },
+    {
+      "key": "kantershow|seek:94482077",
+      "company": "Kantershow Civil",
+      "role": "Junior Graduate Civil Engineer",
+      "location": "Prestons / Greater Sydney NSW",
+      "status": "READY_JEREMIE_SEEK",
+      "job_url": "https://www.seek.com.au/job/94482077",
+      "company_url": null,
+      "checked_at": "2026-09-11T06:44:00Z",
+      "fit": "Junior civil engineering work under supervision across planning, design, quality, safety, procurement and construction. Site inspections, drawing/specification work, contractor coordination and records align with documented civil study and construction coordination experience.",
+      "gaps": [
+        "Engineering calculations, surveying, budgets and tender preparation are less-supported areas and would require supervision and development.",
+        "The advert is classified casual/vacation despite presenting an annual salary; employment terms require clarification.",
+        "Relocation from Melton to Greater Sydney requires discussion; timing or assistance is not assumed."
+      ],
+      "reason": "The complete advert was live on 11 September 2026 and requires a Civil Engineering degree, full Australian work rights and junior-level engineering capability without stating a minimum experience period. The application control routes to SEEK job 94482077, so Jeremie handles submission.",
+      "application_route": "SEEK",
+      "match_score": {
+        "assessed_at": "2026-09-11T06:44:00Z",
+        "basis": "Complete current advert compared with supported resume facts",
+        "caution": "Skills fit only; not interview probability.",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 35
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 25
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 5
+          }
+        ],
+        "evidence_urls": [
+          "https://au.jora.com/job/Civil-Engineer-6325596d32e7327f964325801bc88be2"
+        ],
+        "method": "resume-fit-v1",
+        "percent": 85,
+        "rationale": "Strong junior-level overlap in site inspections, coordination, drawings, documentation and civil construction. Calculations, surveying, tender work and interstate relocation remain material gaps."
+      },
+      "attachments": []
+    },
+    {
+      "key": "centralsolutions|seek:94356870",
+      "company": "Central Solutions Group Pty Ltd",
+      "role": "Graduate Civil Engineer",
+      "location": "Kemps Creek, Sydney NSW",
+      "status": "READY_JEREMIE_SEEK",
+      "job_url": "https://au.seek.com/job/94356870",
+      "company_url": null,
+      "checked_at": "2026-09-12T21:28:00+10:00",
+      "fit": "Strong practical graduate match: civil degree, completed Australian Advanced Diploma, basic academic AutoCAD/Civil 3D, White Card, Australian driver licence, professional plan review, inspections, worker/subcontractor/supplier coordination and project records.",
+      "gaps": [
+        "Demolition work plans, SWMS preparation, site set-out/basic surveying, quantity take-offs and estimating are trainable gaps and are not claimed as existing competencies.",
+        "Relocation from Melton VIC to Sydney requires discussion; no timing or funding is assumed.",
+        "The SEEK form asks for work-rights, salary and notice information; these must be answered truthfully during submission."
+      ],
+      "reason": "Live full advert welcomes graduates working directly with owners. Could be a medium practical fit; official named owner/contact could not be verified, so no application sent.",
+      "application_type": "ADVERTISED_VACANCY",
+      "application_route": "SEEK",
+      "match_score": {
+        "method": "resume-fit-v1",
+        "percent": 85,
+        "assessed_at": "2026-09-12T21:28:00+10:00",
+        "basis": "Complete current advert compared with supported master-resume facts. Skills fit only, not interview probability.",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 36
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 21
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 23
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 5
+          }
+        ],
+        "caution": "SEEK submission by Jeremie; relocation and trainable demolition/estimating tasks remain."
+      },
+      "attachments": []
+    },
+    {
+      "key": "lantrak|seek:94512913",
+      "company": "Lantrak Management Pty Ltd",
+      "role": "Junior Project Engineer/Administrator",
+      "location": "Hallam, Melbourne VIC",
+      "status": "MANUAL_APPLIED_SEEK_RECEIPT_CONFIRMED",
+      "business_phone": "13 9666",
+      "business_address": "18 Dansu Court, Hallam VIC 3803",
+      "job_url": "https://au.seek.com/job/94512913",
+      "company_url": "https://www.lantrak.com.au/",
+      "contact_url": "https://www.lantrak.com.au/contact-us/",
+      "checked_at": "2026-09-09T23:12:56.409Z",
+      "fit": "Local junior project-support option: material/progress records, stakeholder liaison and Office skills match documented experience.",
+      "gaps": [
+        "Significant commercial reporting, P&L, pricing, quantities and Excel work; lower priority than drafting/site roles.",
+        "Melton-Hallam commute not assumed.",
+        "Advert identifies reporting role but Senior Projects Manager's name/email not verified."
+      ],
+      "reason": "Live SEEK advert checked. Official project-services and contact pages inspected; relevant reporting line is Senior Projects Manager but exact named email is not verified. No substitute generic contact used.",
+      "match_score": {
+        "assessed_at": "2026-09-10T08:19:44.615Z",
+        "basis": "Estimate from saved advert/fit research and supported master-resume facts; not a fresh vacancy check.",
+        "caution": null,
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 25
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 15
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 15
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 5
+          }
+        ],
+        "evidence_urls": [
+          "https://au.seek.com/job/94512913"
+        ],
+        "method": "resume-fit-v1",
+        "percent": 60,
+        "rationale": "Project records and liaison fit; commercial reporting and advanced spreadsheet work reduce alignment."
+      },
+      "attachments": []
+    },
+    {
+      "key": "wireind.com.au|seek:94447715",
+      "company": "Wire Industries Pty Ltd",
+      "role": "Graduate/Cadet - Reinforcing Steel",
+      "location": "Western Sydney NSW",
+      "status": "READY_JEREMIE_SEEK",
+      "business_phone": "02 8887 7777",
+      "business_address": "182 Power Street, Glendenning NSW 2761",
+      "job_url": "https://au.seek.com/job/94447715",
+      "company_url": "https://www.wireind.com.au/",
+      "contact_url": "https://www.wireind.com.au/about-us/careers/",
+      "checked_at": "2026-09-11T21:47:30Z",
+      "fit": "The current entry-level cadet role supports Wire Industries' Project and Scheduling team. Marc's civil qualifications, professional construction-drawing review, project recordkeeping and supplier/stakeholder coordination align strongly with the role; previous reinforcing-steel industry experience is explicitly not essential.",
+      "gaps": [
+        "Reinforcing-steel scheduling, manufacturing extraction, tender pricing and Wire Industries' industry-specific rebar software require training.",
+        "Marc is based in Melton VIC and the vacancy is in Western Sydney; relocation arrangements and timing are not established.",
+        "The application flow may ask additional work-rights questions; Marc has full work rights under Subclass 485 until December 2027, but employer acceptance must be confirmed in the SEEK form."
+      ],
+      "reason": "The full current advert was reverified on 12 September 2026 Melbourne time. Its Apply action redirects to SEEK job 94447715. The named reporting role is Project/Scheduling Manager but no exact published individual address is available. The official careers page accepts cadet registrations through an HR form; the Sydney inbox is published only for general enquiries. Employer application channels therefore take precedence, and no email was sent.",
+      "application_type": "ADVERTISED_VACANCY",
+      "application_route": "SEEK",
+      "match_score": {
+        "assessed_at": "2026-09-11T21:47:30Z",
+        "basis": "Current full advert and official Wire Industries careers pages compared with previously verified master-resume evidence. This is resume fit, not an interview probability.",
+        "caution": "Employer portal submission; relocation and any detailed visa-screening questions remain to be checked.",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 35
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 25
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 5
+          }
+        ],
+        "evidence_urls": [
+          "https://au.jora.com/job/Cadet-Reinforcing-Steel-12ddf528531177e500e0363d72b1c0cf",
+          "https://au.seek.com/job/94447715",
+          "https://www.wireind.com.au/about-us/careers/"
+        ],
+        "method": "resume-fit-v1",
+        "percent": 85,
+        "rationale": "The entry-level role closely matches drawing interpretation, project records and coordination; reinforcing-steel scheduling and relocation are material but trainable/practical gaps."
+      },
+      "attachments": []
+    },
+    {
+      "key": "workplaceaccess.com.au|seek:94348088",
+      "company": "Workplace Access & Safety",
+      "role": "Graduate Engineer - Site Inspector",
+      "location": "Hornsby NSW",
+      "status": "HELD_ELIGIBILITY_AND_CONTACT",
+      "business_phone": "1300 552 984",
+      "business_address": "22-28 Edgeworth David Ave, Hornsby NSW 2077",
+      "job_url": "https://au.seek.com/job/94348088",
+      "company_url": "https://www.workplaceaccess.com.au/",
+      "contact_url": "https://www.workplaceaccess.com.au/about-us/",
+      "checked_at": "2026-09-10T01:18:58.473Z",
+      "fit": "Civil qualification, overseas site inspections, reporting and customer-facing communication are relevant.",
+      "gaps": [
+        "Working-at-height confidence and ability to carry ladders not confirmed.",
+        "Secure off-street parking for company vehicle/equipment not confirmed.",
+        "Relocation from Melton; specialist height-safety assessments/concept layouts require training."
+      ],
+      "reason": "Live advert read. Eligibility/logistics gaps remain, and official About/Contact pages provide sales contact only—not a named inspection lead. No email sent.",
+      "match_score": {
+        "assessed_at": "2026-09-10T08:19:44.615Z",
+        "basis": "Estimate from saved advert/fit research and supported master-resume facts; not a fresh vacancy check.",
+        "caution": "Eligibility to clarify",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 30
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 15
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 0
+          }
+        ],
+        "evidence_urls": [
+          "https://au.seek.com/job/94348088"
+        ],
+        "method": "resume-fit-v1",
+        "percent": 65,
+        "rationale": "Inspections and communication fit; height-work capability, parking and relocation are unconfirmed."
+      },
+      "attachments": []
+    },
+    {
+      "key": "chempro.com.au|seek:94320618",
+      "company": "Chempro",
+      "role": "Junior Drafter",
+      "location": "Molendinar, Gold Coast QLD; site travel QLD/NSW",
+      "status": "SENT",
+      "business_phone": "1300 811 201; 07 5510 7759 (official public business numbers; not contacted)",
+      "business_address": "Unit 4 / 27-29 Industrial Ave, Molendinar QLD 4214",
+      "job_url": "https://www.chempro.com.au/careers/MolendinarChemproChemistJuniorDrafter2026-10-01",
+      "company_url": "https://www.chempro.com.au/careers",
+      "checked_at": "2026-09-14T00:00:23+10:00",
+      "fit": "Medium-to-strong practical drafting fit: diploma/AutoCAD plus site checks, accurate records and stakeholder communication.",
+      "gaps": [
+        "Planogramming, pharmacy layouts and measured surveys not demonstrated; advert provides software training.",
+        "Melton VIC location; relocation, site travel logistics and notice period need discussion.",
+        "Contract role $25–$28/hour plus car; hours, term and travel coverage require confirmation."
+      ],
+      "reason": "The official Chempro vacancy page is live, closes 1 October 2026 and explicitly directs candidates to email careers@chempro.com.au.",
+      "sent_at": "2026-09-14T00:02:30+10:00",
+      "application_route": "EMAIL",
+      "match_score": {
+        "assessed_at": "2026-09-14T00:00:23+10:00",
+        "basis": "Current full employer-authored vacancy and supported master-resume facts.",
+        "caution": "No planogramming or professional measured-survey experience; interstate relocation and extensive site travel require discussion.",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 30
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 15
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 5
+          }
+        ],
+        "evidence_urls": [
+          "https://www.chempro.com.au/careers/MolendinarChemproChemistJuniorDrafter2026-10-01",
+          "https://www.chempro.com.au/careers"
+        ],
+        "method": "resume-fit-v1",
+        "percent": 70,
+        "rationale": "Academic drafting and site records transfer; pharmacy layouts and measured surveys need training."
+      },
+      "attachments": []
+    },
+    {
+      "key": "convilgroup.com|seek:94505131",
+      "company": "Convil Group Pty Ltd",
+      "role": "Graduate Civil Engineer",
+      "location": "Wetherill Park / construction sites across Sydney NSW",
+      "status": "HELD_ELIGIBILITY_AND_PRIOR_APPLICATION",
+      "business_phone": "(02) 9726 2475",
+      "business_address": "4 Vicars Place, Wetherill Park NSW 2164",
+      "job_url": "https://au.seek.com/job/94505131",
+      "company_url": "https://convilgroup.com/",
+      "checked_at": "2026-09-12T21:28:00+10:00",
+      "fit": "Strong practical site-support match: subcontractor/supplier coordination, drawing review, inspections, progress records, procurement support and stakeholder communication are supported by Marc's site experience.",
+      "gaps": [
+        "Advert asks for a recently completed Bachelor of Civil Engineering; Marc's bachelor degree was completed in 2019, while his Australian Advanced Diploma was completed in February 2026.",
+        "Quantity take-offs, cost tracking, RFIs and formal environmental documentation are not demonstrated as professional responsibilities.",
+        "Melton VIC to Sydney requires relocation discussion."
+      ],
+      "reason": "Claude rechecked prior Convil outreach; ChatGPT independently verified full 17 July SEEK message. It says the application is unlikely to progress and explicitly links feedback to a work-rights answer not matching employer preferences. This is not a direct employer rejection or proof current vacancy 94505131 has identical criteria. Prior 93131821 application, bachelor-recency and current vacancy/equivalence checks remain holds.",
+      "application_route": "EMAIL",
+      "match_score": {
+        "assessed_at": "2026-09-12T21:28:00+10:00",
+        "basis": "Complete current advert compared with supported resume facts; duty fit only, not interview probability. Critical eligibility and prior-application holds remain.",
+        "caution": "Eligibility / prior application",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 30
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 15
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 15
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 0
+          }
+        ],
+        "evidence_urls": [
+          "https://au.seek.com/job/94505131"
+        ],
+        "method": "resume-fit-v1",
+        "percent": 85,
+        "rationale": "Practical site duties fit; bachelor recency, prior application and work-rights preference need resolution."
+      },
+      "attachments": []
+    },
+    {
+      "key": "focus-structural-civil|seek:94391875",
+      "company": "Focus Structural & Civil",
+      "role": "Trainee Structural Drafter",
+      "location": "West Gosford, Central Coast NSW",
+      "status": "READY_JEREMIE_SEEK",
+      "job_url": "https://au.seek.com/job/94391875",
+      "checked_at": "2026-09-11T00:48:00Z",
+      "fit": "Strong trainee drafting direction: CAD/Revit experience preferred, not essential; career changers welcome; drawings under guidance rather than structural calculations.",
+      "gaps": [
+        "Relocation from Melton VIC requires discussion.",
+        "Professional structural drafting/model production not demonstrated; role explicitly offers training.",
+        "Official company website and exact named or HR/application email could not be independently verified in this search."
+      ],
+      "reason": "Full live trainee advert revalidated on 11 September 2026. It offers training in structural drawings/models and consultant-document review, and its application control redirects to SEEK. Retain as a strong Jeremie submission; no email sent.",
+      "application_route": "SEEK",
+      "match_score": {
+        "assessed_at": "2026-09-11T00:48:00Z",
+        "basis": "Current full advert rechecked on 11 September 2026 against supported master-resume facts.",
+        "caution": null,
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 35
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 15
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 25
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 5
+          }
+        ],
+        "evidence_urls": [
+          "https://au.seek.com/job/94391875"
+        ],
+        "method": "resume-fit-v1",
+        "percent": 80,
+        "rationale": "Trainee CAD/model work and drawing review align; professional structural production remains a training area."
+      },
+      "attachments": []
+    },
+    {
+      "key": "doval-constructions|seek:94539368",
+      "company": "Doval Constructions",
+      "role": "Graduate Engineer",
+      "location": "Brisbane QLD; project sites in SE Queensland and Northern NSW",
+      "status": "HELD_CONTACT_ROUTE",
+      "job_url": "https://au.seek.com/job/94539368",
+      "checked_at": "2026-09-10T08:11:39.105Z",
+      "fit": "Practical graduate support: inspection/test documentation, quality records, labour/plant records and procurement, reporting to site/project engineer.",
+      "gaps": [
+        "Relocation from Melton and own transport to regional sites require discussion.",
+        "Slope stabilisation and formal ITP/quality system workflows require training; no specialist experience claimed.",
+        "Shared site house offered; no verified flight arrangements or FIFO roster."
+      ],
+      "reason": "Full live advert read. Targeted employer/contact/employment searches returned no relevant official source or verified named/HR email. Keep SEEK lead for Jeremie. Gmail search Doval/94539368 returned no matches; no email or documents prepared. Revalidated full advert 10 September 18:15 Melbourne. Recent bounded contact research reused; no new contact evidence.",
+      "application_route": "SEEK",
+      "match_score": {
+        "assessed_at": "2026-09-10T08:19:44.615Z",
+        "basis": "Estimate from saved advert/fit research and supported master-resume facts; not a fresh vacancy check.",
+        "caution": null,
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 35
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 15
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 5
+          }
+        ],
+        "evidence_urls": [
+          "https://au.seek.com/job/94539368"
+        ],
+        "method": "resume-fit-v1",
+        "percent": 75,
+        "rationale": "Quality records, procurement and reporting align with field work; slope stabilisation and formal ITPs need training."
+      },
+      "attachments": []
+    },
+    {
+      "key": "chalouhi|seek:94320531",
+      "company": "Chalouhi",
+      "role": "Site Engineer",
+      "location": "Sydney NSW",
+      "status": "HELD_ELIGIBILITY_AND_PRIOR_APPLICATION",
+      "job_url": "https://au.seek.com/job/94320531",
+      "checked_at": "2026-09-10T13:04:51.491Z",
+      "fit": "Practical site coordination, drawing review, inspections and project records overlap Marc's documented field experience.",
+      "gaps": [
+        "Advert requests 1–2 years related experience and demolition/excavation/infrastructure exposure while also encouraging recent graduates; Marc's 2019 bachelor and roughly eleven months professional civil experience do not clearly satisfy this.",
+        "Australian diploma completed February 2026 is not a recent bachelor's graduation.",
+        "Demolition/excavation experience and Aconex not documented; relocation from Melton needs discussion."
+      ],
+      "reason": "Claude identified earlier Chalouhi Site Engineer application; ChatGPT read full closure email and recovered old vacancy ID 93564463, applied 28 July 2026. Closure notice received 27 August at 12:45 am Melbourne (26 August UTC). Current lead 94320531 has a different ID, but equivalence to the same opening remains unresolved. Existing experience/eligibility gaps remain. Hold outreach; current vacancy not revalidated during this import.",
+      "application_route": "SEEK",
+      "match_score": {
+        "assessed_at": "2026-09-10T08:19:44.615Z",
+        "basis": "Estimate from saved advert/fit research and supported master-resume facts; not a fresh vacancy check.",
+        "caution": "Eligibility to clarify",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 30
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 10
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 0
+          }
+        ],
+        "evidence_urls": [
+          "https://au.seek.com/job/94320531"
+        ],
+        "method": "resume-fit-v1",
+        "percent": 60,
+        "rationale": "Coordination and inspections fit; minimum experience, recent-graduate exception and demolition exposure are unresolved."
+      },
+      "attachments": []
+    },
+    {
+      "key": "mcsconcrete.com.au|seek:94475603",
+      "company": "Melbourne Construct Solutions Pty Ltd (MCS Concrete)",
+      "role": "Junior Project Coordinator",
+      "location": "Melbourne VIC; site-based and Tullamarine office",
+      "status": "HELD_CONTACT_ROUTE",
+      "job_url": "https://au.seek.com/job/94475603",
+      "company_url": "https://mcsconcrete.com.au/",
+      "checked_at": "2026-09-10T10:25:50.395Z",
+      "fit": "Junior supervised site coordination, subcontractor communication, drawing/project information flow, OHS records and document control overlap documented site coordination, inspections and reporting.",
+      "gaps": [
+        "Victorian driver licence is specifically mandatory; only an Australian licence and own transport are documented, so state of issue needs confirmation.",
+        "Progress claims, variations and cost reporting are training gaps; no advanced commercial experience claimed."
+      ],
+      "reason": "Live full advert read. Suitable practical local lead for Jeremie via SEEK, subject to Victorian licence confirmation. Official site only publishes info@mcsconcrete.com.au without an employment invitation, so no email sent.",
+      "application_route": "SEEK",
+      "match_score": {
+        "assessed_at": "2026-09-10T10:25:50.395Z",
+        "basis": "Complete current advert and official employer evidence, compared with supported resume facts.",
+        "caution": "Eligibility to clarify",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 35
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 15
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 5
+          }
+        ],
+        "evidence_urls": [
+          "https://au.seek.com/job/94475603"
+        ],
+        "method": "resume-fit-v1",
+        "percent": 75,
+        "rationale": "Strong practical junior coordination overlap; commercial reporting is trainable and Victorian licence confirmation remains outstanding."
+      },
+      "attachments": []
+    },
+    {
+      "key": "northrop.com.au|seek:94545942",
+      "company": "Northrop Consulting Engineers Pty Ltd",
+      "role": "Trainee Structural Drafter",
+      "location": "Newcastle NSW",
+      "status": "HELD_ELIGIBILITY_AND_PORTAL",
+      "job_url": "https://au.seek.com/job/94545942",
+      "checked_at": "2026-09-10T10:25:50.395Z",
+      "fit": "Trainee drafting and 3D modelling align with documented academic AutoCAD/Revit and drawing review; this is drafting rather than calculation-heavy structural engineering.",
+      "gaps": [
+        "Role includes TAFE one day/week and describes school-leaver/current drafting-TAFE applicants; eligibility with an already completed advanced diploma needs clarification.",
+        "Further-study willingness and relocation from Melton are unconfirmed.",
+        "Tekla and professional structural drafting experience not documented."
+      ],
+      "reason": "Live full advert directs Apply/portal, with alternative JobAdder EOI form. No bypass by email. Useful conditional SEEK lead for Jeremie after traineeship eligibility clarification. Prior Northrop application is a different undergraduate engineering role in Coffs Harbour.",
+      "application_route": "SEEK",
+      "match_score": {
+        "assessed_at": "2026-09-10T10:25:50.395Z",
+        "basis": "Complete current advert and official employer evidence, compared with supported resume facts.",
+        "caution": "Eligibility to clarify",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 35
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 10
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 25
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 0
+          }
+        ],
+        "evidence_urls": [
+          "https://au.seek.com/job/94545942"
+        ],
+        "method": "resume-fit-v1",
+        "percent": 70,
+        "rationale": "Academic CAD and drawing skills align with trainee drafting; further-study eligibility, relocation and professional structural drafting gaps remain."
+      },
+      "attachments": []
+    },
+    {
+      "key": "northlane|seek:94164934",
+      "company": "Northlane Pty Ltd",
+      "role": "Graduate Civil Engineer",
+      "location": "Buderim, Sunshine Coast QLD",
+      "status": "HELD_PRIOR_APPLICATION_AND_ELIGIBILITY",
+      "job_url": "https://au.seek.com/job/94164934",
+      "checked_at": "2026-09-10T12:16:02.402Z",
+      "fit": "Site investigations, construction delivery, drawing review and project coordination align with professional site experience and Australian civil construction design study.",
+      "gaps": [
+        "Relocation and remote Queensland travel need discussion.",
+        "Design and contract administration exposure includes training gaps.",
+        "Prior January Northlane application had a SEEK work-rights preference mismatch; current eligibility and vacancy equivalence must be checked before a new submission."
+      ],
+      "reason": "Full current advert open and explicitly directs Apply/portal. Gmail confirms older Graduate Civil Engineer application on 30 January (89669639); automated SEEK update says work-rights answer did not match employer preferences and CAD answer partly matched. This is not direct employer rejection or proof current criteria are identical. No repeat application sent.",
+      "application_route": "SEEK",
+      "match_score": {
+        "assessed_at": "2026-09-10T12:16:02.402Z",
+        "basis": "Full current advert and supported master resume facts",
+        "caution": "Eligibility and prior application to clarify",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 30
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 15
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 5
+          }
+        ],
+        "evidence_urls": [
+          "https://au.seek.com/job/94164934"
+        ],
+        "method": "resume-fit-v1",
+        "percent": 70,
+        "rationale": "Practical site/project exposure fits; design/contract administration training and relocation remain gaps. Historical work-rights feedback requires clarification."
+      },
+      "attachments": []
+    },
+    {
+      "key": "transform-formwork|seek:94451578",
+      "company": "Transform Formwork Contractors Group Pty Ltd",
+      "role": "Site Engineer – Formwork",
+      "location": "Wetherill Park, Sydney NSW",
+      "status": "CONTACT_UNVERIFIED",
+      "job_url": "https://au.seek.com/job/94451578",
+      "checked_at": "2026-09-10T12:35:16.825Z",
+      "fit": "Site coordination, drawing interpretation, project records and quality/safety checks align with documented construction experience. Advert offers mentorship and requires no minimum years; AutoCAD is advantageous.",
+      "gaps": [
+        "Dedicated formwork detailing/testing experience is not documented; needs training.",
+        "Melton to Sydney relocation requires discussion; no start, salary or relocation commitments made."
+      ],
+      "reason": "Full current advert live with Quick apply. Bounded public search found no verified project-connected professional or employment email. Keep for Jeremie to apply through SEEK.",
+      "application_route": "SEEK",
+      "match_score": {
+        "assessed_at": "2026-09-10T12:35:16.825Z",
+        "basis": "Complete current advert compared with supported resume facts",
+        "caution": "Relocation and formwork training to discuss",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 35
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 15
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 5
+          }
+        ],
+        "evidence_urls": [
+          "https://au.seek.com/job/94451578"
+        ],
+        "method": "resume-fit-v1",
+        "percent": 75,
+        "rationale": "Strong overlap in practical site coordination, drawings, documentation and inspections; formwork-specific training and relocation are gaps."
+      },
+      "attachments": []
+    },
+    {
+      "key": "dm-civil|eoi:junior-site-support",
+      "company": "DM Civil",
+      "role": "Expression of interest — junior civil/site support (no advertised vacancy verified)",
+      "location": "Maddington / Perth WA",
+      "status": "HELD_CONTACT_ROUTE",
+      "job_url": "https://dmcivil.com.au/careers/",
+      "company_url": "https://dmcivil.com.au/",
+      "contact_url": "https://dmcivil.com.au/contact-us/",
+      "checked_at": "2026-09-10T13:22:52.344811+00:00",
+      "fit": "Civil construction company scope overlaps documented site coordination, drawing review, safety/quality inspections and procurement/progress records. Careers page welcomes civil-engineering EOIs and provides graduate training information.",
+      "gaps": [
+        "No specific junior vacancy or its eligibility verified.",
+        "Pipeline-specific experience is not documented; junior support and training would be required.",
+        "Based in Melton VIC; employer form asks for Perth suburb. Relocation and ability to consider an interstate candidate need discussion."
+      ],
+      "reason": "Employer explicitly directs EOIs and graduate resumes through its careers form. No email sent. This is a company-scope prospect, not a verified advertised job.",
+      "application_type": "SPECULATIVE_EMPLOYMENT_ENQUIRY",
+      "application_route": "EMPLOYER_FORM",
+      "match_score": {
+        "assessed_at": "2026-09-10T13:22:52.344811+00:00",
+        "basis": "Company work-scope fit only; no advertised vacancy verified",
+        "caution": "EOI only; no vacancy or interview probability",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 30
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 15
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 15
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 5
+          }
+        ],
+        "evidence_urls": [
+          "https://dmcivil.com.au/careers/",
+          "https://dmcivil.com.au/"
+        ],
+        "method": "company-scope-fit-v1",
+        "percent": 65,
+        "rationale": "Practical construction coordination and documentation overlap; pipeline specialism, interstate location and unknown junior openings reduce fit."
+      },
+      "attachments": []
+    },
+    {
+      "key": "northrop|jobadder:921073",
+      "company": "Northrop Consulting Engineers",
+      "role": "Trainee Civil Drafter",
+      "location": "Coffs Harbour NSW",
+      "status": "HELD_TRAINEESHIP_ELIGIBILITY",
+      "job_url": "https://apply.jobadder.com/17428/921073/aty64zcsgwqe7ejjkxrkd4xo64?site=au5",
+      "company_url": "https://northrop.com.au/careers/",
+      "checked_at": "2026-09-10T13:38:18.025644+00:00",
+      "fit": "AutoCAD/Civil 3D coursework, civil design diploma, technical drawing review, site experience and communication align with a trainee drafting role. Advert offers extensive mentoring; prior AutoCAD is desirable rather than essential.",
+      "gaps": [
+        "Mandatory industry-recognised traineeship includes TAFE one day/week and office four days/week. Confirm admission/traineeship eligibility with existing Advanced Diploma and Subclass 485 ending December 2027; no rejection or eligibility approval established.",
+        "Relocation from Melton to Coffs Harbour needs discussion.",
+        "Attached Claude resume labels Revit as diploma coursework; master only confirms Revit as a listed skill. Confirm or revise this wording before submission.",
+        "Documents are original Claude drafts, not submission evidence. Letter matches Coffs Harbour; exact SEEK advert has not been located. Official employer portal verified instead."
+      ],
+      "reason": "Found active official Northrop vacancy dated 27 August 2026 through dynamic careers list. Apply through the employer Apply now link with resume and brief covering letter. Jeremie handles submission after traineeship and document checks. Distinct from Newcastle trainee structural drafting and historical Coffs Harbour undergraduate engineering application. No email or portal submission made.",
+      "found_by": "Claude; verified by Codex",
+      "application_route": "EMPLOYER_PORTAL",
+      "match_score": {
+        "assessed_at": "2026-09-10T13:38:18.025644+00:00",
+        "basis": "Complete official employer advert and master resume",
+        "caution": "TAFE traineeship eligibility and relocation unresolved",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 35
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 15
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 5
+          }
+        ],
+        "evidence_urls": [
+          "https://northrop.com.au/careers/"
+        ],
+        "method": "resume-fit-v1",
+        "percent": 75,
+        "rationale": "Strong civil drafting study and drawing/site understanding, with commercial drafting training, mandatory traineeship admission and relocation unresolved. Score is skills fit, not interview likelihood or confirmed eligibility."
+      },
+      "attachments": [
+        {
+          "filename": "Marc_Masarate_Resume_Civil_Drafting_Documentation.pdf",
+          "path": "documents/Marc_Masarate_Resume_Civil_Drafting_Documentation.pdf",
+          "sha256": "c1c4865a4383034b548ecf13154a9291a91b755bf9affb9fe19491046b467e2a"
+        },
+        {
+          "filename": "Marc_Masarate_CoverLetter_Northrop_Trainee_Civil_Drafter.pdf",
+          "path": "documents/Marc_Masarate_CoverLetter_Northrop_Trainee_Civil_Drafter.pdf",
+          "sha256": "0ffdf589d6e4c1459311889af2ba8aacd7ff45287c5810b220ccc19c84acb6bd"
+        }
+      ]
+    },
+    {
+      "key": "djs-civil-construction|seek:93976791",
+      "company": "D&J's Civil Construction Pty Ltd",
+      "role": "Civil Site Engineer",
+      "location": "Yatala / South East Queensland",
+      "status": "READY_JEREMIE_SEEK",
+      "job_url": "https://au.seek.com/job/93976791",
+      "checked_at": "2026-09-11T00:52:00Z",
+      "fit": "Graduate applicants are expressly welcomed. Site delivery, subcontractor coordination, progress/quality/safety monitoring, QA records and reporting align closely with documented civil construction coordination and inspection experience.",
+      "gaps": [
+        "Melton to South East Queensland relocation requires discussion; no start date or relocation support assumed.",
+        "Resume evidence is at junior support level; senior-engineer guidance advertised by the employer is important."
+      ],
+      "reason": "Current full advert revalidated on 11 September 2026 and expressly accepts recent graduates. Jora's application control redirects to SEEK job 93976791. Although D&J's official careers page encourages applications and expressions of interest at info@djscivil.com, the current vacancy's SEEK route takes precedence. Keep for Jeremie; no email sent.",
+      "application_route": "SEEK",
+      "match_score": {
+        "assessed_at": "2026-09-11T00:52:00Z",
+        "basis": "Complete current advert compared with supported resume facts",
+        "caution": "Skills fit only; not interview probability",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 38
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 22
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 5
+          }
+        ],
+        "evidence_urls": [
+          "https://au.seek.com/job/93976791"
+        ],
+        "method": "resume-fit-v1",
+        "percent": 85,
+        "rationale": "Excellent overlap in junior site delivery, coordination, inspections and records; degree, White Card and licence align. Interstate relocation is the main practical gap."
+      },
+      "attachments": []
+    },
+    {
+      "key": "atco-structures|seek:94212445",
+      "company": "ATCO Structures & Logistics Pty Ltd",
+      "role": "Junior Estimator – Graduate Opportunity",
+      "location": "Luscombe, Gold Coast QLD",
+      "status": "CONTACT_UNVERIFIED",
+      "job_url": "https://au.seek.com/job/94212445",
+      "checked_at": "2026-09-10T21:24:05Z",
+      "fit": "Graduate-level estimating role with training. Drawing and specification review, quantity take-offs, documentation, supplier comparisons and coordination overlap with documented civil studies and construction support.",
+      "gaps": [
+        "No commercial estimating or pricing-database experience is documented.",
+        "Microsoft Excel proficiency at the employer's expected level is not specifically evidenced.",
+        "Melton to Luscombe relocation and commute require discussion."
+      ],
+      "reason": "Current full advert remains open, says years of experience are not required and treats Revit/BIM/estimating exposure as beneficial rather than essential. SEEK Quick Apply is the stated route; keep for Jeremie.",
+      "application_route": "SEEK",
+      "match_score": {
+        "assessed_at": "2026-09-10T21:24:05Z",
+        "basis": "Complete current advert compared with supported resume facts",
+        "caution": "Skills fit only; not interview probability",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 34
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 15
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 19
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 7
+          }
+        ],
+        "evidence_urls": [
+          "https://au.seek.com/job/94212445"
+        ],
+        "method": "resume-fit-v1",
+        "percent": 75,
+        "rationale": "Good graduate-level overlap in drawings, documentation, construction understanding and coordination; commercial estimating, Excel evidence and relocation are gaps."
+      },
+      "attachments": []
+    },
+    {
+      "key": "rma-engineers|seek:94384714",
+      "company": "RMA Engineers Pty Ltd",
+      "role": "Graduate Engineer – Agricultural Developments",
+      "location": "Toowoomba QLD",
+      "status": "READY_JEREMIE_SEEK",
+      "job_url": "https://www.seek.com.au/job/94384714",
+      "company_url": "https://www.rmaeng.com.au/",
+      "checked_at": "2026-09-11T02:11:00Z",
+      "fit": "Graduate-level agricultural and regional civil engineering work covering earthworks, roadworks, stormwater, services, AutoCAD/12d documentation, approvals and delivery support. The role explicitly requires no prior experience and provides training and mentoring.",
+      "gaps": [
+        "Melton to Toowoomba relocation requires discussion; no relocation support or start date is assumed.",
+        "The advert requires an open, unrestricted driver’s licence. Marc has an Australian driver’s licence, but its unrestricted status must be confirmed before answering the screening question.",
+        "Marc has a Victorian White Card; the employer requires a Queensland Construction Induction Card or willingness to obtain one before commencement.",
+        "No agricultural-development experience is documented; the advert presents this as a learning area rather than prior-experience requirement."
+      ],
+      "reason": "The complete current advert was checked on 11 September 2026. It accepts Civil Engineering graduates, states no experience is required, requires full Australian work rights without sponsorship, and directs applicants to complete screening questions and upload a resume and cover letter through SEEK. The employer’s careers page separately publishes an HR email for general expressions of interest, but the dedicated vacancy channel takes precedence, so no email was sent.",
+      "application_route": "SEEK",
+      "match_score": {
+        "assessed_at": "2026-09-11T02:11:00Z",
+        "basis": "Complete current advert compared with supported resume facts",
+        "caution": "Skills fit only; not interview probability or confirmation of screening eligibility.",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 37
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 23
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 5
+          }
+        ],
+        "evidence_urls": [
+          "https://au.jora.com/job/Graduate-Engineer-e16ceb4e404383770a8fe744037a2085",
+          "https://www.rmaeng.com.au/careers1/"
+        ],
+        "method": "resume-fit-v1",
+        "percent": 85,
+        "rationale": "Strong alignment across graduate civil scope, AutoCAD documentation, earthworks/road/drainage knowledge, site exposure, quality records and collaboration. Relocation, licence status and Queensland White Card conversion are practical checks."
+      },
+      "attachments": []
+    },
+    {
+      "key": "colliers|jora:c2c324d19eb6f5bcd642a20b59fcb04e",
+      "company": "Colliers",
+      "role": "Graduate Engineer, Civil",
+      "location": "Sunshine Coast QLD",
+      "status": "HELD_DEGREE_RECENCY_AND_PORTAL",
+      "job_url": "https://au.jora.com/job/Graduate-Engineer-Civil-c2c324d19eb6f5bcd642a20b59fcb04e",
+      "company_url": "https://www.colliers.com.au/en-au/careers",
+      "checked_at": "2026-09-11T02:11:00Z",
+      "fit": "Land-development design, civil drawings, site grading, drainage, earthworks, roads, utilities, inspections and team collaboration align with supported civil study and construction coordination evidence.",
+      "gaps": [
+        "The advert requires a recently completed or nearly completed Civil Engineering degree. Marc completed his bachelor’s degree in 2019, so this eligibility wording is unresolved.",
+        "No commercial civil-design production experience is documented; AutoCAD/Civil 3D experience is academic.",
+        "Relocation from Melton to the Sunshine Coast requires discussion."
+      ],
+      "reason": "The full advert was live when checked on 11 September 2026 and states no experience is required. However, the explicit degree-recency wording may exclude a 2019 graduate. The employer directs applications through its careers portal and does not provide an email route in the advert. Held rather than submitted.",
+      "application_route": "EMPLOYER_PORTAL",
+      "match_score": {
+        "assessed_at": "2026-09-11T02:11:00Z",
+        "basis": "Complete current advert compared with supported resume facts",
+        "caution": "Skills fit only; not interview probability or confirmed eligibility.",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 34
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 15
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 6
+          }
+        ],
+        "evidence_urls": [
+          "https://au.jora.com/job/Graduate-Engineer-Civil-c2c324d19eb6f5bcd642a20b59fcb04e",
+          "https://www.colliers.com.au/en-au/careers"
+        ],
+        "method": "resume-fit-v1",
+        "percent": 75,
+        "rationale": "Good scope and tool overlap, but the 2019 degree may not satisfy the explicit recent-graduate requirement and commercial design experience is absent."
+      },
+      "attachments": []
+    },
+    {
+      "key": "carey-constructions-aust|seek:94230583",
+      "company": "Carey Constructions (Aust) Pty Ltd",
+      "role": "Site Engineer Cadet",
+      "location": "Oran Park / Camden NSW",
+      "status": "READY_JEREMIE_SEEK",
+      "job_url": "https://www.seek.com.au/job/94230583",
+      "checked_at": "2026-09-11T04:29:00Z",
+      "fit": "Cadet-level civil construction delivery role with no experience required. Site coordination, plan interpretation, safety and quality checks, reporting and subcontractor liaison align closely with documented construction coordination, inspections, drawing review and records.",
+      "gaps": [
+        "Melton to Oran Park/Camden relocation requires discussion; no timing or assistance is assumed.",
+        "The role is a NSW site position; Marc should confirm any project-specific induction or local site requirements during screening."
+      ],
+      "reason": "The complete advert was live and crawled on 11 September 2026. It accepts current or recently completed Civil Engineering candidates, states no experience is required, and requires a White Card and current driver’s licence. The application control redirects to SEEK job 94230583, so it is assigned to Jeremie and no email was sent.",
+      "application_route": "SEEK",
+      "match_score": {
+        "assessed_at": "2026-09-11T04:29:00Z",
+        "basis": "Complete current advert compared with supported resume facts",
+        "caution": "Skills fit only; not interview probability.",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 39
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 23
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 23
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 5
+          }
+        ],
+        "evidence_urls": [
+          "https://au.jora.com/job/Site-Engineer-9ffcd1b38e1bd98958dd26697b341232"
+        ],
+        "method": "resume-fit-v1",
+        "percent": 90,
+        "rationale": "Excellent cadet-level overlap in site coordination, drawings, inspections, reporting and civil construction; the degree, White Card and licence align. Interstate relocation is the main practical gap."
+      },
+      "attachments": []
+    },
+    {
+      "key": "everclear-plumbing-civil|seek:94011983",
+      "company": "Everclear Plumbing & Civil",
+      "role": "Cadet Civil Engineer",
+      "location": "Bahrs Scrub QLD",
+      "status": "READY_JEREMIE_SEEK",
+      "job_url": "https://www.seek.com.au/job/94011983",
+      "checked_at": "2026-09-11T04:29:00Z",
+      "fit": "Early-career civil construction and land-development role working with project managers, site supervisors and crews from planning through delivery. This aligns with documented site coordination, drawing interpretation, inspections, reporting and civil design studies.",
+      "gaps": [
+        "Melton to Bahrs Scrub relocation requires discussion; no timing or assistance is assumed.",
+        "The accessible advert summary did not publish the full screening questions or all practical requirements; Jeremie must review them before submitting."
+      ],
+      "reason": "The employer advert was live and crawled on 11 September 2026, states no experience is required and explicitly welcomes recent graduates or early-career engineers. Its application control redirects to SEEK job 94011983, so it is assigned to Jeremie and no email was sent.",
+      "application_route": "SEEK",
+      "match_score": {
+        "assessed_at": "2026-09-11T04:29:00Z",
+        "basis": "Current employer advert summary compared with supported resume facts",
+        "caution": "Skills fit only; not interview probability. Full SEEK screening questions require review.",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 36
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 22
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 22
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 5
+          }
+        ],
+        "evidence_urls": [
+          "https://au.jora.com/job/Civil-Engineer-c636d28848976940c01dbfedf284bba1"
+        ],
+        "method": "resume-fit-v1",
+        "percent": 85,
+        "rationale": "Strong early-career fit across civil construction exposure, coordination and site delivery. The accessible advert provides less detail than Carey and relocation remains unresolved."
+      },
+      "attachments": []
+    },
+    {
+      "key": "commercial-project-group|seek:94569275",
+      "company": "Commercial Project Group Pty Ltd",
+      "role": "Site Engineer / Junior Project Manager",
+      "location": "Port Macquarie NSW",
+      "status": "READY_JEREMIE_SEEK",
+      "job_url": "https://www.seek.com.au/job/94569275",
+      "checked_at": "2026-09-11T06:44:00Z",
+      "fit": "Junior project-delivery role spanning site coordination, inspections, quality, progress reporting, method statements, as-builts, safety and stakeholder liaison. These duties align strongly with documented construction coordination, inspection, drawing-review and recordkeeping experience.",
+      "gaps": [
+        "The role focuses commercial project delivery rather than civil design software production.",
+        "Formal contract administration and KPI ownership are development areas.",
+        "Relocation from Melton to Port Macquarie requires discussion; timing or assistance is not assumed."
+      ],
+      "reason": "The complete advert was live on 11 September 2026. It accepts a degree or diploma in Construction Management or a related field, or equivalent construction experience; commercial, civil or infrastructure experience is advantageous rather than stated as mandatory. The advert requires a current driver licence and White Card, which Marc has. Its application control routes to SEEK job 94569275.",
+      "application_route": "SEEK",
+      "match_score": {
+        "assessed_at": "2026-09-11T06:44:00Z",
+        "basis": "Complete current advert compared with supported resume facts",
+        "caution": "Skills fit only; not interview probability.",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 40
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 5
+          }
+        ],
+        "evidence_urls": [
+          "https://au.jora.com/job/Project-Manager-b69327ec46e2693879d8c6e0f57aeb90"
+        ],
+        "method": "resume-fit-v1",
+        "percent": 85,
+        "rationale": "Strong junior project-delivery overlap in coordination, inspections, drawings and reporting. Contract administration depth and interstate relocation are the principal gaps."
+      },
+      "attachments": []
+    },
+    {
+      "key": "osbornconsulting.com.au|eoi:junior-civil-design-support",
+      "company": "Osborn Consulting Engineers Pty Ltd",
+      "role": "Expression of interest - junior civil design, documentation and site support",
+      "location": "Queensland offices: Brisbane, Ipswich, Warwick, Gold Coast and Mount Isa",
+      "status": "EOI_SENT",
+      "job_url": "https://www.osbornconsulting.com.au/peopleandcareers",
+      "checked_at": "2026-09-11T09:02:00Z",
+      "fit": "65% company/work-scope fit; not an interview probability",
+      "gaps": [
+        "No confirmed junior vacancy",
+        "Bachelor's degree completed in 2019 while graduate wording says recently graduated",
+        "No commercial production-drafting or 12D experience",
+        "Queensland relocation and local construction-induction requirements unresolved"
+      ],
+      "reason": "Official careers page invites resume and cover letter submissions; civil services align with supported academic design and professional site coordination experience.",
+      "application_type": "SPECULATIVE_EMPLOYMENT_ENQUIRY",
+      "application_route": "EMAIL",
+      "match_score": {
+        "assessed_at": "2026-09-11T09:02:00Z",
+        "basis": "Official employer careers and civil-services pages compared with supported resume facts; no vacancy assumed.",
+        "caution": "Company/work-scope fit only; not evidence of hiring, visa acceptance or interview probability.",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 30
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 10
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 5
+          }
+        ],
+        "method": "company-scope-fit-v1",
+        "percent": 65
+      },
+      "attachments": []
+    },
+    {
+      "key": "westerapartners.com.au|graduate-program",
+      "company": "Westera Partners Pty Ltd",
+      "role": "Graduate Program application - civil engineering / design documentation (standing employer-published graduate intake; no dated vacancy)",
+      "location": "Five offices: Brisbane, Gold Coast, Sunshine Coast, Northern NSW and Central Victoria. Applicant states preferred office and discipline.",
+      "status": "PREPARED_NOT_SENT",
+      "recipient_email": "HR@westerapartners.com.au",
+      "job_url": "https://www.westerapartners.com.au/careers/",
+      "checked_at": "2026-09-11T19:20:00+10:00",
+      "gaps": [
+        "No dated graduate vacancy exists. This is a standing invitation, and any approach must be honest that it is an application to the graduate pathway rather than to an advertised opening.",
+        "The programme is a four-year graduate approach supporting progression towards registered status. Whether Marc's 2019 Philippine bachelor's degree is recognised by Engineers Australia is not established, and this is the same unresolved recognition question that contributed to the Innovis exclusion. It should be raised honestly rather than assumed.",
+        "The employer asks for an academic transcript, which Marc will need to supply. It was not part of any prepared document set.",
+        "Their design teams use 12D, which Marc has not used.",
+        "No commercial civil design or drafting experience; software experience is coursework.",
+        "The Central Victoria office is in the Bendigo area, which is still a significant distance from Melton. Relocation or commuting must be discussed without commitments.",
+        "Both currently advertised positions are unsuitable, so nothing here is a live role application."
+      ],
+      "reason": "Resume, cover letter and both transcripts are durably saved and visually verified, and fresh manual D1, journal and Gmail duplicate checks passed. The Gmail send was rejected by the platform because explicit approval is required for this exact recipient and sensitive four-file payload; nothing was sent.",
+      "last_send_error": null,
+      "contributor_name": "Claude",
+      "found_by": "Claude",
+      "application_type": "EMPLOYER_PUBLISHED_STANDING_GRADUATE_INTAKE",
+      "application_route": "EMAIL",
+      "match_score": {
+        "assessed_at": "2026-09-11T19:20:00+10:00",
+        "basis": "Employer-published graduate programme scope and civil project list compared with supported resume facts. No dated vacancy exists, so this is not scored against an advert.",
+        "caution": "Programme-scope fit only. Not an interview probability, not confirmation of eligibility, and not evidence a graduate place is currently open.",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 30
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 10
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 5
+          }
+        ],
+        "method": "company-scope-fit-v1",
+        "percent": 65
+      },
+      "attachments": [
+        {
+          "filename": "Marc_Masarate_Westera_Resume.pdf",
+          "path": "documents/Marc_Masarate_Westera_Resume.pdf",
+          "sha256": "d55c015532e4cb8effe02fceddb3d76dfbc4a5f5bd4124bc9d39b4acd7cc120f"
+        },
+        {
+          "filename": "Marc_Masarate_Westera_Cover_Letter.pdf",
+          "path": "documents/Marc_Masarate_Westera_Cover_Letter.pdf",
+          "sha256": "a26982e3466e107a109c5abe10efc13943019d34edfe1be772b34a67d8d42336"
+        }
+      ]
+    },
+    {
+      "key": "dpmvic.com.au|eoi:junior-civil-design-support",
+      "company": "DPM Consulting Group (DPM Vic)",
+      "role": "Expression of interest - junior civil design/documentation support (no available roles; employer states an open invitation)",
+      "location": "Head office Notting Hill VIC; offices in Melbourne and Brisbane",
+      "status": "HELD_VERIFICATION",
+      "job_url": "https://dpmvic.com.au/careers/",
+      "checked_at": "2026-09-11T19:00:00+10:00",
+      "gaps": [
+        "The careers page states plainly that there are currently no available roles.",
+        "The construction engineer role description published on the site seeks someone well established in their career with a minimum of five years experience. That is well beyond Marc's documented level and must not be treated as a target.",
+        "The named team is principal and senior weighted, with no junior or drafting position evidenced.",
+        "Notting Hill is in Melbourne's south east and Melton is in the outer west. The commute is substantial and should not be assumed.",
+        "No commercial civil design or drafting experience; software experience is coursework."
+      ],
+      "reason": "Lower priority than Osborn because the channel is a form rather than a verified application email, which puts it in the same category as the existing DM Civil expression of interest. If pursued, it is Jeremie's to submit through the employer form, honestly labelled as a speculative enquiry asking whether paid junior civil design, documentation or site support opportunities exist, with Melton location and Subclass 485 work rights to December 2027 disclosed.",
+      "contributor_name": "Claude",
+      "found_by": "Claude",
+      "application_type": "SPECULATIVE_EMPLOYMENT_ENQUIRY",
+      "application_route": "EMPLOYER_FORM",
+      "match_score": {
+        "assessed_at": "2026-09-11T19:00:00+10:00",
+        "basis": "Company work-scope fit against supported resume facts. No advertised vacancy and no junior role identified.",
+        "caution": "Company-scope fit only, not an interview probability and not evidence the firm is hiring. The published team is senior-weighted and the one role description found on the site asks for a minimum of five years experience, so a junior opening is not established.",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 25
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 10
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 5
+          }
+        ],
+        "method": "company-scope-fit-v1",
+        "percent": 60
+      },
+      "attachments": []
+    },
+    {
+      "key": "beveridgewilliams.com.au|graduate-engineering-development-program",
+      "company": "Beveridge Williams & Co",
+      "role": "Graduate Civil Engineer / Engineering Development Program",
+      "location": "Victorian offices including Malvern and Gippsland; 12 to 13 offices across VIC, NSW, QLD and NT",
+      "status": "HELD_TIMING_AND_DEGREE_RECENCY",
+      "job_url": "https://beveridgewilliams.com.au/careers/development-program/",
+      "checked_at": "2026-09-11T20:00:00+10:00",
+      "reason": "Official portal route exists, but the published timing is contradictory and the recent-degree requirement remains unresolved. No email application route was used.",
+      "contributor_name": "Claude",
+      "found_by": "Claude",
+      "attachments": []
+    },
+    {
+      "key": "wyndham city council|claude-watchlist",
+      "company": "Wyndham City Council",
+      "location": "Werribee VIC",
+      "status": "HELD_VERIFICATION",
+      "job_url": null,
+      "checked_at": "2026-09-11T20:30:00+10:00",
+      "reason": "Marc or Jeremie should open the Wyndham careers portal manually and check for engineering, development engineering or technical officer roles.",
+      "contributor_name": "Claude",
+      "found_by": "Claude",
+      "attachments": []
+    },
+    {
+      "key": "taylors|claude-watchlist",
+      "company": "Taylors",
+      "location": "Melbourne VIC",
+      "status": "HELD_VERIFICATION",
+      "job_url": null,
+      "checked_at": "2026-09-11T20:30:00+10:00",
+      "reason": "Check for junior, graduate or drafting openings and whether any published application email exists.",
+      "contributor_name": "Claude",
+      "found_by": "Claude",
+      "attachments": []
+    },
+    {
+      "key": "transport.nsw.gov.au|111142",
+      "company": "Transport for NSW",
+      "role": "Works Assistant PQR",
+      "location": "Bega NSW",
+      "status": "READY_FOR_EMPLOYER_PORTAL",
+      "job_url": "https://jobs.transport.nsw.gov.au/job/Bega-Works-Assistant-PQR-NSW-2550/1367194666/",
+      "company_url": "https://www.transport.nsw.gov.au/",
+      "checked_at": "2026-09-11T21:04:00+10:00",
+      "gaps": [
+        "Role is based on site in Bega NSW and requires relocation from Melton VIC; no relocation timing or funding is assumed.",
+        "Direct road-maintenance experience is not demonstrated; the closest evidence is civil construction and residential subdivision site work.",
+        "The advert asks for a current White Card and driver's licence. Marc has both in Australia, but any NSW recognition or administrative transfer requirement remains unverified.",
+        "The linked role-description PDF returned 403, so this assessment relies on the complete readable vacancy page and does not assume any unseen criteria."
+      ],
+      "application_type": "ADVERTISED_VACANCY",
+      "application_route": "EMPLOYER_PORTAL",
+      "match_score": {
+        "assessed_at": "2026-09-11T21:04:00+10:00",
+        "basis": "Current employer vacancy page compared with supported master-resume facts; skills fit only, not interview probability.",
+        "caution": "Employer-portal route; the published email is for role information, not applications.",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 35
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 5
+          }
+        ],
+        "method": "resume-fit-v1",
+        "percent": 80
+      },
+      "attachments": []
+    },
+    {
+      "key": "worley.com|PER05D9",
+      "company": "Worley",
+      "role": "Junior Civil Drafter - Rail Infrastructure",
+      "location": "Perth WA",
+      "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+      "business_phone": "+61 8 9278 8111",
+      "business_address": "Level 14, 240 St Georges Terrace, Perth WA 6000",
+      "job_url": "https://worleyparsons.taleo.net/careersection/ext/jobdetail.ftl?job=PER05D9",
+      "company_url": "https://www.worley.com/en/about-us/where-we-operate/australia",
+      "checked_at": "2026-09-11T19:33:46Z",
+      "fit": "The role is explicitly aimed at a recent graduate or early-career drafter and requests a Civil Engineering Drafting certificate or diploma plus AutoCAD and/or MicroStation. Marc's completed Advanced Diploma of Civil Construction Design, academic AutoCAD/Civil 3D work, drawing review and technical documentation align strongly with the entry-level drafting scope.",
+      "gaps": [
+        "Marc's AutoCAD and Civil 3D drafting experience is academic rather than commercial production drafting.",
+        "MicroStation experience is not documented.",
+        "The role is office-based in Perth for at least three days each week, so relocation from Melton VIC requires discussion; no timing or funding is assumed.",
+        "The official posting does not expose detailed work-rights questions before portal entry, so Subclass 485 acceptance must be confirmed in the application form.",
+        "Rail-infrastructure drafting experience is not documented."
+      ],
+      "application_type": "ADVERTISED_VACANCY",
+      "application_route": "EMPLOYER_PORTAL",
+      "match_score": {
+        "assessed_at": "2026-09-11T19:33:46Z",
+        "basis": "Current official Worley vacancy and careers pages compared with supported master-resume facts. This is resume fit, not an interview probability.",
+        "caution": "Employer-portal submission; detailed visa questions are not visible before entering the application flow.",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 36
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 17
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 24
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 8
+          }
+        ],
+        "method": "resume-fit-v1",
+        "percent": 85
+      },
+      "attachments": []
+    },
+    {
+      "key": "mottmac.com|job:16542",
+      "company": "Mott MacDonald",
+      "role": "Civil Drafter",
+      "location": "Melbourne VIC",
+      "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+      "job_url": "https://www.mottmac.com/en-us/careers/explore-our-careers/civil-drafter-16542/",
+      "company_url": "https://www.mottmac.com/",
+      "checked_at": "2026-09-12T18:58:00+10:00",
+      "fit": "Completed Advanced Diploma, academic AutoCAD/Civil 3D drafting, civil drawing review, technical documentation, site coordination and quality records align strongly with the entry-level civil drafting scope.",
+      "gaps": [
+        "No documented MicroStation or 12D experience.",
+        "No commercial design-consultancy drawing-submission experience.",
+        "Marc's CAD production experience is academic rather than commercial."
+      ],
+      "application_type": "ADVERTISED_VACANCY",
+      "application_route": "EMPLOYER_PORTAL",
+      "match_score": {
+        "method": "resume-fit-v1",
+        "percent": 90,
+        "assessed_at": "2026-09-12T18:58:00+10:00",
+        "basis": "Current official vacancy compared with supported master-resume facts. This is skills fit, not interview probability.",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 38
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 21
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 24
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 7
+          }
+        ],
+        "caution": "Employer-portal submission; temporary-visa acceptance must be confirmed in the form."
+      },
+      "attachments": []
+    },
+    {
+      "key": "stantec.com|req:260000H5",
+      "company": "Stantec",
+      "role": "Civil Cadet Drafter - QLD",
+      "location": "South Brisbane / Brisbane QLD",
+      "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+      "job_url": "https://stantec.taleo.net/careersection/ex1/jobdetail.ftl?job=260000H5&lang=en",
+      "company_url": "https://www.stantec.com/en",
+      "checked_at": "2026-09-12T18:58:00+10:00",
+      "fit": "The entry-level Queensland Water role accepts a completed Diploma or Advanced Diploma and develops CAD skills under experienced engineers and designers. Marc's qualification, academic CAD work, drawing review, inspections, reporting and coordination align strongly.",
+      "gaps": [
+        "Relocation from Melton to Brisbane requires discussion; no timing or funding is assumed.",
+        "No commercial water-design drafting experience.",
+        "Temporary-visa acceptance remains to be confirmed in the application form."
+      ],
+      "application_type": "ADVERTISED_VACANCY",
+      "application_route": "EMPLOYER_PORTAL",
+      "match_score": {
+        "method": "resume-fit-v1",
+        "percent": 90,
+        "assessed_at": "2026-09-12T18:58:00+10:00",
+        "basis": "Current official requisition and full advert compared with supported master-resume facts. This is skills fit, not interview probability.",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 38
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 25
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 7
+          }
+        ],
+        "caution": "Employer-portal submission; temporary-visa acceptance and relocation must be confirmed."
+      },
+      "attachments": []
+    },
+    {
+      "key": "westatedrafting.com.au|junior-draftsperson",
+      "company": "Westate Drafting & Design",
+      "role": "Junior Draftsperson",
+      "location": "Perth WA",
+      "status": "HELD_VACANCY_UNVERIFIED",
+      "job_url": "https://westatedrafting.com.au/juniordraftsperson/",
+      "company_url": "https://westatedrafting.com.au/",
+      "checked_at": "2026-09-12T18:58:00+10:00",
+      "fit": "The business provides multidisciplinary drafting and structural-steel detailing services; Marc has a completed Advanced Diploma and academic AutoCAD/Civil 3D/Revit experience.",
+      "gaps": [
+        "Full mandatory criteria could not be read.",
+        "Tekla and commercial structural-steel detailing experience are not documented.",
+        "Relocation from Melton to Perth would require discussion."
+      ],
+      "application_type": "ADVERTISED_VACANCY",
+      "application_route": "EMAIL",
+      "match_score": {
+        "method": "company-scope-fit-v1",
+        "percent": 65,
+        "assessed_at": "2026-09-12T18:58:00+10:00",
+        "basis": "Provisional company/work-scope fit only; the full advert was unavailable and this is not interview probability.",
+        "caution": "Do not send until the exact official advert is readable and confirmed open."
+      },
+      "attachments": []
+    },
+    {
+      "key": "westforce.com.au|eoi-graduate-engineer-2026-09-13",
+      "company": "Westforce Construction",
+      "role": "Graduate Project Engineer - Civil & Resources Projects",
+      "location": "Perth / FIFO ex-Perth / DIDO, WA",
+      "status": "READY_EMPLOYER_FORM",
+      "job_url": "https://westforce.com.au/jobs/eoi-graduate-engineer/",
+      "company_url": "https://westforce.com.au/",
+      "checked_at": "2026-09-13T18:20:00+10:00",
+      "fit": "Strong alignment with supervised planning, drawing review, progress records, QA, safety and site coordination.",
+      "gaps": [
+        "FIFO point of hire is Perth; relocation arrangements are unknown.",
+        "Current licence is Australian but not WA; the advert permits ability to obtain a WA licence.",
+        "No demonstrated professional resource-allocation depth.",
+        "Pre-employment medical and ongoing drug and alcohol testing remain conditions."
+      ],
+      "application_type": "ADVERTISED_VACANCY",
+      "application_route": "EMPLOYER_FORM",
+      "match_score": {
+        "method": "resume-fit-v1",
+        "percent": 90,
+        "assessed_at": "2026-09-13T18:22:00+10:00",
+        "basis": "Strong fit across qualification, drawing review, records, quality/safety, site coordination, licence and White Card.",
+        "caution": "Fit estimate only, not interview probability."
+      },
+      "attachments": []
+    },
+    {
+      "key": "kingborough.tas.gov.au|job:780926",
+      "company": "Kingborough Council",
+      "role": "Infrastructure Engineer - Roads and Stormwater",
+      "location": "Kingston, Tasmania",
+      "status": "HOLD_VACANCY_UNVERIFIED",
+      "job_url": "https://www.councildirect.com.au/",
+      "company_url": "https://www.kingborough.tas.gov.au/",
+      "checked_at": "2026-09-14T01:24:00+10:00",
+      "fit": "Provisional alignment with roads, stormwater, inspections, drawing review, technical records and stakeholder coordination.",
+      "gaps": [
+        "Full employer-authored position description and closing date were not accessible.",
+        "Required years of council/infrastructure experience and any professional registration are unknown.",
+        "Temporary-visa eligibility is unknown.",
+        "Relocation from Melton to Tasmania would need discussion."
+      ],
+      "application_type": "ADVERTISED_VACANCY",
+      "application_route": "EMPLOYER_PORTAL",
+      "match_score": {
+        "percent": 70,
+        "method": "resume-fit-v1",
+        "assessed_at": "2026-09-14T01:24:00+10:00",
+        "caution": "Provisional resume fit only, not an interview probability. The employer specification, experience threshold, registration expectations and temporary-visa eligibility remain unverified.",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 30
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 15
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 5
+          }
+        ],
+        "rationale": "Road and stormwater work aligns with Marc's civil qualifications, academic drainage/road documentation and transferable site inspection and records experience, but the complete selection criteria are unavailable."
+      },
+      "attachments": []
+    },
+    {
+      "key": "edmgroup.com.au|seek:93866126",
+      "company": "EDM Group",
+      "role": "Graduate Civil Engineer",
+      "location": "Wodonga, Victoria",
+      "status": "READY_FOR_JEREMIE",
+      "job_url": "https://au.seek.com/job/93866126",
+      "company_url": "https://edmgroup.com.au/",
+      "checked_at": "2026-09-14T03:50:00+10:00",
+      "fit": "Strong graduate-level alignment with roads, stormwater/drainage, land-development documentation, construction support, site surveillance and collaboration with clients, contractors and consultants.",
+      "gaps": [
+        "Engineers Australia membership or progress toward membership is requested and is not documented.",
+        "AutoCAD and Civil 3D experience is academic, not commercial production drafting.",
+        "Relocation from Melton to Wodonga would need to be discussed without promising a date or funding.",
+        "The employer states that sponsorship is unavailable; Marc has current Subclass 485 full work rights only until December 2027."
+      ],
+      "application_type": "ADVERTISED_VACANCY",
+      "application_route": "SEEK",
+      "match_score": {
+        "percent": 85,
+        "method": "resume-fit-v1",
+        "assessed_at": "2026-09-14T03:50:00+10:00",
+        "caution": "Resume fit only, not an interview probability. Engineers Australia membership is not documented, CAD experience is academic rather than commercial, and relocation and time-limited work rights require truthful disclosure.",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 35
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 10
+          }
+        ],
+        "rationale": "Strong alignment across civil qualifications, academic AutoCAD/Civil 3D road and drainage documentation, professional drawing review, inspections, records and coordination, plus a current driver licence and work rights. The main gaps are Engineers Australia membership, commercial production-CAD experience and relocation."
+      },
+      "attachments": []
+    },
+    {
+      "key": "jwprince.com.au|graduate-programme-registration-2026",
+      "company": "J. Wyndham Prince",
+      "role": "Graduate Programme — Registration of Interest",
+      "location": "Penrith, New South Wales",
+      "status": "READY_FOR_JEREMIE",
+      "job_url": "https://www.jwprince.com.au/careers/",
+      "company_url": "https://www.jwprince.com.au/",
+      "checked_at": "2026-09-14T06:15:00+10:00",
+      "fit": "Strong graduate-level alignment with civil engineering design, roads and traffic infrastructure, stormwater and flood work, project management and construction contract administration.",
+      "gaps": [
+        "The standing programme does not publish degree-recency criteria; Marc completed his civil bachelor degree in 2019.",
+        "The two-year programme could extend beyond Marc’s current Subclass 485 work-rights expiry in December 2027, so acceptance must be confirmed before submission.",
+        "AutoCAD and Civil 3D experience is academic rather than commercial production drafting.",
+        "Relocation from Melton to Penrith would need to be discussed without promising a date or funding.",
+        "An academic transcript is mandatory and was not prepared or verified in this cycle."
+      ],
+      "application_type": "EMPLOYER_PUBLISHED_STANDING_GRADUATE_INTAKE",
+      "application_route": "EMPLOYER_FORM",
+      "match_score": {
+        "percent": 80,
+        "method": "resume-fit-v1",
+        "assessed_at": "2026-09-14T06:15:00+10:00",
+        "caution": "Resume fit only, not an interview probability. The employer does not publish degree-recency or visa criteria for the standing programme. Marc completed his bachelor degree in 2019 and holds current Subclass 485 full work rights only until December 2027, while the programme runs for two years.",
+        "components": [
+          {
+            "label": "Duties and scope",
+            "max": 40,
+            "points": 34
+          },
+          {
+            "label": "Relevant experience",
+            "max": 25,
+            "points": 18
+          },
+          {
+            "label": "Qualifications and tools",
+            "max": 25,
+            "points": 20
+          },
+          {
+            "label": "Practical requirements",
+            "max": 10,
+            "points": 8
+          }
+        ],
+        "rationale": "Strong alignment with land-development and infrastructure design, road and stormwater documentation, project support and construction administration. Marc has relevant civil qualifications, academic AutoCAD/Civil 3D work and professional drawing review, inspections, records and coordination. The principal unknowns are graduate recency, programme-duration work rights and relocation."
+      },
+      "attachments": []
+    }
+  ],
+  "manual_entries": [
+    {
+      "id": "12b62a78-27d3-4c53-acd8-3f0feda4e6a9",
+      "duplicate_key": "test|test",
+      "company": "Test",
+      "role": "Test",
+      "location": "Test",
+      "job_url": "https://marc-job-tracker.macdarenz.chatgpt.site/",
+      "status": "MANUAL_APPLIED",
+      "applied_date": "2026-09-18",
+      "application_method": "Email",
+      "contact_email": "test@gmail.com",
+      "notes": "Test",
+      "created_by": "tMyav8KxjvWEbjUjWOOjWPFFvqkhhaoZBsJYTjzbTrJEi3RDhmoJVd",
+      "created_by_email": "macdarenz@gmail.com",
+      "created_at": "2026-09-10T13:35:46.955Z",
+      "updated_at": "2026-09-10T13:35:46.955Z",
+      "updated_by_email": "macdarenz@gmail.com",
+      "version": 1,
+      "contributor_name": "Jeremie",
+      "manual_entry_id": "12b62a78-27d3-4c53-acd8-3f0feda4e6a9",
+      "key": "manual:12b62a78-27d3-4c53-acd8-3f0feda4e6a9",
+      "attachments": [
+        {
+          "id": "0d5c7f3f-32ff-45dc-b647-d2a4b43c0eb8",
+          "entry_id": "12b62a78-27d3-4c53-acd8-3f0feda4e6a9",
+          "object_key": "applications/12b62a78-27d3-4c53-acd8-3f0feda4e6a9/0d5c7f3f-32ff-45dc-b647-d2a4b43c0eb8/c1c4865a4383034b548ecf13154a9291a91b755bf9affb9fe19491046b467e2a",
+          "filename": "Marc_Masarate_Resume_Civil_Drafting_Documentation.pdf",
+          "content_type": "application/pdf",
+          "size_bytes": 6647,
+          "sha256": "c1c4865a4383034b548ecf13154a9291a91b755bf9affb9fe19491046b467e2a",
+          "uploaded_by": "macdarenz@gmail.com",
+          "uploaded_at": "2026-09-10T13:35:48.120Z",
+          "path": "documents/Marc_Masarate_Resume_Civil_Drafting_Documentation.pdf"
+        }
+      ]
+    },
+    {
+      "id": "965592ae-d7a0-4744-a869-1ee9c5cd092f",
+      "duplicate_key": "lantrakmanagementptyltd|juniorprojectengineeradministrator",
+      "company": "Lantrak Management Pty Ltd",
+      "role": "Junior Project Engineer/Administrator",
+      "location": "Hallam, Melbourne VIC",
+      "job_url": "https://au.seek.com/job/94512913",
+      "status": "MANUAL_APPLIED",
+      "applied_date": "2026-09-12",
+      "application_method": "SEEK",
+      "contact_email": "",
+      "notes": "",
+      "created_by": "tMyav8KxjvWEbjUjWOOjWPFFvqkhhaoZBsJYTjzbTrJEi3RDhmoJVd",
+      "created_by_email": "macdarenz@gmail.com",
+      "created_at": "2026-09-12T03:22:33.228Z",
+      "updated_at": "2026-09-12T03:22:33.228Z",
+      "updated_by_email": "macdarenz@gmail.com",
+      "version": 1,
+      "contributor_name": "Jeremie",
+      "manual_entry_id": "965592ae-d7a0-4744-a869-1ee9c5cd092f",
+      "key": "manual:965592ae-d7a0-4744-a869-1ee9c5cd092f",
+      "attachments": [
+        {
+          "id": "029b02be-c7f9-4b0f-aad7-623b80479d72",
+          "entry_id": "965592ae-d7a0-4744-a869-1ee9c5cd092f",
+          "object_key": "applications/965592ae-d7a0-4744-a869-1ee9c5cd092f/029b02be-c7f9-4b0f-aad7-623b80479d72/8b538ba1796e2c605e901059fc3feaf1df5abd949512be4691118a91971106c6",
+          "filename": "Marc Darenz Masarate  Resume.pdf",
+          "content_type": "application/pdf",
+          "size_bytes": 111018,
+          "sha256": "8b538ba1796e2c605e901059fc3feaf1df5abd949512be4691118a91971106c6",
+          "uploaded_by": "macdarenz@gmail.com",
+          "uploaded_at": "2026-09-12T03:22:37.836Z",
+          "unavailable": true
+        },
+        {
+          "id": "22dc27f3-ccd1-4196-ba18-7f697b1162d8",
+          "entry_id": "965592ae-d7a0-4744-a869-1ee9c5cd092f",
+          "object_key": "applications/965592ae-d7a0-4744-a869-1ee9c5cd092f/22dc27f3-ccd1-4196-ba18-7f697b1162d8/3f9ed327d753b1892fe93193fa562d0bc4bd65bda2e15fb4dff480ba6b78b801",
+          "filename": "Marc Darenz Masarate Cover Letter (2).pdf",
+          "content_type": "application/pdf",
+          "size_bytes": 76680,
+          "sha256": "3f9ed327d753b1892fe93193fa562d0bc4bd65bda2e15fb4dff480ba6b78b801",
+          "uploaded_by": "macdarenz@gmail.com",
+          "uploaded_at": "2026-09-12T03:22:34.483Z",
+          "unavailable": true
+        }
+      ]
+    },
+    {
+      "id": "a5cb4fd4-fdb6-48d3-9433-7cb83d90f74f",
+      "duplicate_key": "groundswellengineers|traineecivildraftsperson",
+      "company": "Groundswell Engineers",
+      "role": "Trainee Civil Draftsperson",
+      "location": "Hamilton, Newcastle NSW",
+      "job_url": "https://au.seek.com/job/94508145",
+      "status": "MANUAL_APPLIED",
+      "applied_date": "2026-09-17",
+      "application_method": "SEEK",
+      "contact_email": "",
+      "notes": "",
+      "created_by": "tMyav8KxjvWEbjUjWOOjWPFFvqkhhaoZBsJYTjzbTrJEi3RDhmoJVd",
+      "created_by_email": "macdarenz@gmail.com",
+      "created_at": "2026-09-17T11:04:36.258Z",
+      "updated_at": "2026-09-17T11:04:36.258Z",
+      "updated_by_email": "macdarenz@gmail.com",
+      "version": 1,
+      "contributor_name": "Jeremie",
+      "manual_entry_id": "a5cb4fd4-fdb6-48d3-9433-7cb83d90f74f",
+      "key": "manual:a5cb4fd4-fdb6-48d3-9433-7cb83d90f74f",
+      "attachments": []
+    }
+  ],
+  "record_visibility": [
+    {
+      "record_key": "bornhorstward.com.au|graduate-program",
+      "deleted": 1,
+      "updated_at": "2026-09-12T03:36:09.741Z",
+      "updated_by_email": "macdarenz@gmail.com",
+      "version": 1
+    },
+    {
+      "record_key": "bpd.com.au|eoi:graduate-civil-engineering-2026-09-13",
+      "deleted": 1,
+      "updated_at": "2026-09-20T00:19:05.238Z",
+      "updated_by_email": "macdarenz@gmail.com",
+      "version": 1
+    },
+    {
+      "record_key": "dm-civil|eoi:junior-site-support",
+      "deleted": 1,
+      "updated_at": "2026-09-20T01:01:11.078Z",
+      "updated_by_email": "macdarenz@gmail.com",
+      "version": 1
+    },
+    {
+      "record_key": "kingborough.tas.gov.au|job:780926",
+      "deleted": 1,
+      "updated_at": "2026-09-17T11:05:08.557Z",
+      "updated_by_email": "macdarenz@gmail.com",
+      "version": 1
+    },
+    {
+      "record_key": "manual:12b62a78-27d3-4c53-acd8-3f0feda4e6a9",
+      "deleted": 1,
+      "updated_at": "2026-09-10T13:59:38.811Z",
+      "updated_by_email": "macdarenz@gmail.com",
+      "version": 2
+    },
+    {
+      "record_key": "parkes-shire-council|PSC2222648",
+      "deleted": 1,
+      "updated_at": "2026-09-20T00:31:53.699Z",
+      "updated_by_email": "macdarenz@gmail.com",
+      "version": 1
+    },
+    {
+      "record_key": "rockhamptonregionalcouncil|rrc:2912197436974799",
+      "deleted": 1,
+      "updated_at": "2026-09-20T00:47:54.262Z",
+      "updated_by_email": "macdarenz@gmail.com",
+      "version": 1
+    },
+    {
+      "record_key": "taylors|claude-watchlist",
+      "deleted": 1,
+      "updated_at": "2026-09-20T01:36:38.237Z",
+      "updated_by_email": "macdarenz@gmail.com",
+      "version": 1
+    },
+    {
+      "record_key": "westatedrafting.com.au|junior-draftsperson",
+      "deleted": 1,
+      "updated_at": "2026-09-20T01:51:30.200Z",
+      "updated_by_email": "macdarenz@gmail.com",
+      "version": 1
+    },
+    {
+      "record_key": "westerapartners.com.au|graduate-program",
+      "deleted": 1,
+      "updated_at": "2026-09-12T03:07:42.334Z",
+      "updated_by_email": "macdarenz@gmail.com",
+      "version": 1
+    },
+    {
+      "record_key": "wyndham city council|claude-watchlist",
+      "deleted": 1,
+      "updated_at": "2026-09-20T01:38:09.406Z",
+      "updated_by_email": "macdarenz@gmail.com",
+      "version": 1
+    }
+  ],
+  "migration_notes": [
+    "Private migration. Never commit tracker.json or documents to the public website repository.",
+    "Three oversized D1 Bin snapshots are truncated in the read-only export; their row metadata and the current record snapshot are retained.",
+    "Uploaded documents not present among the 26 bundled PDFs are marked unavailable and must be obtained from the old private tracker."
+  ]
+}

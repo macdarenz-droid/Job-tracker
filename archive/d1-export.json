@@ -1,0 +1,228 @@
+{
+  "exported_at": "2026-09-26T18:59:28.966Z",
+  "source_project": "appgprj_6aa185854698819199deb81f024ba189",
+  "tables": {
+    "manual_entries": [
+      {
+        "id": "12b62a78-27d3-4c53-acd8-3f0feda4e6a9",
+        "duplicate_key": "test|test",
+        "company": "Test",
+        "role": "Test",
+        "location": "Test",
+        "job_url": "https://marc-job-tracker.macdarenz.chatgpt.site/",
+        "status": "MANUAL_APPLIED",
+        "applied_date": "2026-09-18",
+        "application_method": "Email",
+        "contact_email": "test@gmail.com",
+        "notes": "Test",
+        "created_by": "tMyav8KxjvWEbjUjWOOjWPFFvqkhhaoZBsJYTjzbTrJEi3RDhmoJVd",
+        "created_by_email": "macdarenz@gmail.com",
+        "created_at": "2026-09-10T13:35:46.955Z",
+        "updated_at": "2026-09-10T13:35:46.955Z",
+        "updated_by_email": "macdarenz@gmail.com",
+        "version": 1,
+        "contributor_name": "Jeremie"
+      },
+      {
+        "id": "965592ae-d7a0-4744-a869-1ee9c5cd092f",
+        "duplicate_key": "lantrakmanagementptyltd|juniorprojectengineeradministrator",
+        "company": "Lantrak Management Pty Ltd",
+        "role": "Junior Project Engineer/Administrator",
+        "location": "Hallam, Melbourne VIC",
+        "job_url": "https://au.seek.com/job/94512913",
+        "status": "MANUAL_APPLIED",
+        "applied_date": "2026-09-12",
+        "application_method": "SEEK",
+        "contact_email": "",
+        "notes": "",
+        "created_by": "tMyav8KxjvWEbjUjWOOjWPFFvqkhhaoZBsJYTjzbTrJEi3RDhmoJVd",
+        "created_by_email": "macdarenz@gmail.com",
+        "created_at": "2026-09-12T03:22:33.228Z",
+        "updated_at": "2026-09-12T03:22:33.228Z",
+        "updated_by_email": "macdarenz@gmail.com",
+        "version": 1,
+        "contributor_name": "Jeremie"
+      },
+      {
+        "id": "a5cb4fd4-fdb6-48d3-9433-7cb83d90f74f",
+        "duplicate_key": "groundswellengineers|traineecivildraftsperson",
+        "company": "Groundswell Engineers",
+        "role": "Trainee Civil Draftsperson",
+        "location": "Hamilton, Newcastle NSW",
+        "job_url": "https://au.seek.com/job/94508145",
+        "status": "MANUAL_APPLIED",
+        "applied_date": "2026-09-17",
+        "application_method": "SEEK",
+        "contact_email": "",
+        "notes": "",
+        "created_by": "tMyav8KxjvWEbjUjWOOjWPFFvqkhhaoZBsJYTjzbTrJEi3RDhmoJVd",
+        "created_by_email": "macdarenz@gmail.com",
+        "created_at": "2026-09-17T11:04:36.258Z",
+        "updated_at": "2026-09-17T11:04:36.258Z",
+        "updated_by_email": "macdarenz@gmail.com",
+        "version": 1,
+        "contributor_name": "Jeremie"
+      }
+    ],
+    "entry_documents": [
+      {
+        "id": "029b02be-c7f9-4b0f-aad7-623b80479d72",
+        "entry_id": "965592ae-d7a0-4744-a869-1ee9c5cd092f",
+        "object_key": "applications/965592ae-d7a0-4744-a869-1ee9c5cd092f/029b02be-c7f9-4b0f-aad7-623b80479d72/8b538ba1796e2c605e901059fc3feaf1df5abd949512be4691118a91971106c6",
+        "filename": "Marc Darenz Masarate  Resume.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 111018,
+        "sha256": "8b538ba1796e2c605e901059fc3feaf1df5abd949512be4691118a91971106c6",
+        "uploaded_by": "macdarenz@gmail.com",
+        "uploaded_at": "2026-09-12T03:22:37.836Z"
+      },
+      {
+        "id": "0d5c7f3f-32ff-45dc-b647-d2a4b43c0eb8",
+        "entry_id": "12b62a78-27d3-4c53-acd8-3f0feda4e6a9",
+        "object_key": "applications/12b62a78-27d3-4c53-acd8-3f0feda4e6a9/0d5c7f3f-32ff-45dc-b647-d2a4b43c0eb8/c1c4865a4383034b548ecf13154a9291a91b755bf9affb9fe19491046b467e2a",
+        "filename": "Marc_Masarate_Resume_Civil_Drafting_Documentation.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 6647,
+        "sha256": "c1c4865a4383034b548ecf13154a9291a91b755bf9affb9fe19491046b467e2a",
+        "uploaded_by": "macdarenz@gmail.com",
+        "uploaded_at": "2026-09-10T13:35:48.120Z"
+      },
+      {
+        "id": "22dc27f3-ccd1-4196-ba18-7f697b1162d8",
+        "entry_id": "965592ae-d7a0-4744-a869-1ee9c5cd092f",
+        "object_key": "applications/965592ae-d7a0-4744-a869-1ee9c5cd092f/22dc27f3-ccd1-4196-ba18-7f697b1162d8/3f9ed327d753b1892fe93193fa562d0bc4bd65bda2e15fb4dff480ba6b78b801",
+        "filename": "Marc Darenz Masarate Cover Letter (2).pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 76680,
+        "sha256": "3f9ed327d753b1892fe93193fa562d0bc4bd65bda2e15fb4dff480ba6b78b801",
+        "uploaded_by": "macdarenz@gmail.com",
+        "uploaded_at": "2026-09-12T03:22:34.483Z"
+      }
+    ],
+    "record_visibility": [
+      {
+        "record_key": "bornhorstward.com.au|graduate-program",
+        "deleted": 1,
+        "snapshot": "{\"key\":\"bornhorstward.com.au|graduate-program\",\"company\":\"Bornhorst + Ward\",\"role\":\"Graduate Engineer - employer-published annual graduate pathway\",\"location\":\"Brisbane QLD or Melbourne VIC\",\"status\":\"READY_FOR_JEREMIE\",\"job_url\":\"https://www.bornhorstward.com.au/apply\",\"company_url\":\"https://www.bornhorstward.com.au/\",\"checked_at\":\"2026-09-12T10:15:00+10:00\",\"fit\":\"Strong alignment with the Advanced Diploma's academic road, earthworks, pavement and stormwater design work, AutoCAD/Civil 3D documentation, and earlier practical drawing review, inspection, records and coordination experience.\",\"gaps\":[\"Marc's AutoCAD and Civil 3D work is academic rather than commercial production drafting.\",\"The form asks whether the applicant has full working rights; Marc has full current rights under Subclass 485 until December 2027, but the employer's acceptance of time-limited rights is unknown.\",\"The pathway does not publish a degree-recency rule, but acceptance of a 2019 overseas bachelor's degree is not confirmed.\",\"The form's visible discipline options were incomplete in the public text capture, so Jeremie must verify that Civil Engineering can be selected before submitting.\"],\"application_type\":\"EMPLOYER_PUBLISHED_STANDING_GRADUATE_INTAKE\",\"application_route\":\"EMPLOYER_FORM\",\"match_score\":{\"percent\":75,\"method\":\"company-and-program-scope-fit-v1\",\"caution\":\"Company and graduate-program scope fit only; not an interview probability, eligibility confirmation or evidence of a dated vacancy.\",\"basis\":\"The employer states that graduate applications are accepted annually and describes mentoring across civil and structural projects. Its civil scope includes roads, drainage, subdivisions, water, sewerage and siteworks.\"},\"attachments\":[],\"deleted\":false,\"visibility_version\":0}",
+        "updated_at": "2026-09-12T03:36:09.741Z",
+        "updated_by_email": "macdarenz@gmail.com",
+        "version": 1
+      },
+      {
+        "record_key": "bpd.com.au|eoi:graduate-civil-engineering-2026-09-13",
+        "deleted": 1,
+        "snapshot": "{\"key\":\"bpd.com.au|eoi:graduate-civil-engineering-2026-09-13\",\"company\":\"Breese Pitt Dixon\",\"role\":\"Graduate Civil Engineering Expression of Interest\",\"location\":\"Hawthorn East, Melbourne VIC\",\"status\":\"PLATFORM_BLOCKED\",\"recipient_name\":\"Hiring Team\",\"recipient_role\":\"Employer-designated expression-of-interest inbox\",\"recipient_email\":\"info@bpd.com.au\",\"job_url\":\"https://www.bpd.com.au/careers\",\"company_url\":\"https://www.bpd.com.au/\",\"checked_at\":\"2026-09-13T02:08:00+10:00\",\"fit\":\"Strong alignment with BPD land development, civil design, documentation and construction delivery. Marc has current Australian civil construction design training and prior practical site coordination experience.\",\"gaps\":[\"No advertised vacancy or confirmed hiring need.\",\"Academic AutoCAD/Civil 3D experience rather than commercial production drafting.\",\"Temporary work rights expire in December 2027; BPD acceptance is unknown.\"],\"subject\":\"Graduate civil engineering expression of interest - Marc Darenz Masarate\",\"email_body\":\"Dear Hiring Team,\\n\\nI am writing to ask whether Breese Pitt Dixon has any suitable paid graduate civil engineering opportunities. I understand that this is a speculative employment enquiry and that I am not applying for a confirmed advertised vacancy.\\n\\nI completed an Australian Advanced Diploma of Civil Construction Design in February 2026, following a Bachelor of Science in Civil Engineering completed in 2019. My diploma work included road geometry, earthworks, pavement systems and stormwater drainage, as well as preparing and reviewing technical drawings using AutoCAD and Civil 3D. This is academic design-software experience rather than commercial production experience.\\n\\nMy earlier construction experience in the Philippines included coordinating daily site activities, reviewing structural and architectural drawings, completing inspections and quality checks, tracking materials and progress, preparing site records, … [truncated for model]",
+        "updated_at": "2026-09-20T00:19:05.238Z",
+        "updated_by_email": "macdarenz@gmail.com",
+        "version": 1
+      },
+      {
+        "record_key": "dm-civil|eoi:junior-site-support",
+        "deleted": 1,
+        "snapshot": "{\"key\":\"dm-civil|eoi:junior-site-support\",\"company\":\"DM Civil\",\"role\":\"Expression of interest — junior civil/site support (no advertised vacancy verified)\",\"location\":\"Maddington / Perth WA\",\"status\":\"HELD_CONTACT_ROUTE\",\"job_url\":\"https://dmcivil.com.au/careers/\",\"company_url\":\"https://dmcivil.com.au/\",\"contact_url\":\"https://dmcivil.com.au/contact-us/\",\"checked_at\":\"2026-09-10T13:22:52.344811+00:00\",\"fit\":\"Civil construction company scope overlaps documented site coordination, drawing review, safety/quality inspections and procurement/progress records. Careers page welcomes civil-engineering EOIs and provides graduate training information.\",\"gaps\":[\"No specific junior vacancy or its eligibility verified.\",\"Pipeline-specific experience is not documented; junior support and training would be required.\",\"Based in Melton VIC; employer form asks for Perth suburb. Relocation and ability to consider an interstate candidate need discussion.\"],\"reason\":\"Employer explicitly directs EOIs and graduate resumes through its careers form. No email sent. This is a company-scope prospect, not a verified advertised job.\",\"application_type\":\"SPECULATIVE_EMPLOYMENT_ENQUIRY\",\"application_route\":\"EMPLOYER_FORM\",\"match_score\":{\"assessed_at\":\"2026-09-10T13:22:52.344811+00:00\",\"basis\":\"Company work-scope fit only; no advertised vacancy verified\",\"caution\":\"EOI only; no vacancy or interview probability\",\"components\":[{\"label\":\"Duties and scope\",\"max\":40,\"points\":30},{\"label\":\"Relevant experience\",\"max\":25,\"points\":15},{\"label\":\"Qualifications and tools\",\"max\":25,\"points\":15},{\"label\":\"Practical requirements\",\"max\":10,\"points\":5}],\"evidence_urls\":[\"https://dmcivil.com.au/careers/\",\"https://dmcivil.com.au/\"],\"method\":\"company-scope-fit-v1\",\"percent\":65,\"rationale\":\"Practical construction coordination and documentation overlap; pipeline specialism, interstate location and unknown junior openi… [truncated for model]",
+        "updated_at": "2026-09-20T01:01:11.078Z",
+        "updated_by_email": "macdarenz@gmail.com",
+        "version": 1
+      },
+      {
+        "record_key": "kingborough.tas.gov.au|job:780926",
+        "deleted": 1,
+        "snapshot": "{\"key\":\"kingborough.tas.gov.au|job:780926\",\"company\":\"Kingborough Council\",\"role\":\"Infrastructure Engineer - Roads and Stormwater\",\"location\":\"Kingston, Tasmania\",\"status\":\"HOLD_VACANCY_UNVERIFIED\",\"job_url\":\"https://www.councildirect.com.au/\",\"company_url\":\"https://www.kingborough.tas.gov.au/\",\"checked_at\":\"2026-09-14T01:24:00+10:00\",\"fit\":\"Provisional alignment with roads, stormwater, inspections, drawing review, technical records and stakeholder coordination.\",\"gaps\":[\"Full employer-authored position description and closing date were not accessible.\",\"Required years of council/infrastructure experience and any professional registration are unknown.\",\"Temporary-visa eligibility is unknown.\",\"Relocation from Melton to Tasmania would need discussion.\"],\"application_type\":\"ADVERTISED_VACANCY\",\"application_route\":\"EMPLOYER_PORTAL\",\"match_score\":{\"percent\":70,\"method\":\"resume-fit-v1\",\"assessed_at\":\"2026-09-14T01:24:00+10:00\",\"caution\":\"Provisional resume fit only, not an interview probability. The employer specification, experience threshold, registration expectations and temporary-visa eligibility remain unverified.\",\"components\":[{\"label\":\"Duties and scope\",\"max\":40,\"points\":30},{\"label\":\"Relevant experience\",\"max\":25,\"points\":15},{\"label\":\"Qualifications and tools\",\"max\":25,\"points\":20},{\"label\":\"Practical requirements\",\"max\":10,\"points\":5}],\"rationale\":\"Road and stormwater work aligns with Marc's civil qualifications, academic drainage/road documentation and transferable site inspection and records experience, but the complete selection criteria are unavailable.\"},\"attachments\":[],\"deleted\":false,\"visibility_version\":0}",
+        "updated_at": "2026-09-17T11:05:08.557Z",
+        "updated_by_email": "macdarenz@gmail.com",
+        "version": 1
+      },
+      {
+        "record_key": "manual:12b62a78-27d3-4c53-acd8-3f0feda4e6a9",
+        "deleted": 1,
+        "snapshot": "{\"id\":\"12b62a78-27d3-4c53-acd8-3f0feda4e6a9\",\"duplicate_key\":\"test|test\",\"company\":\"Test\",\"role\":\"Test\",\"location\":\"Test\",\"job_url\":\"https://marc-job-tracker.macdarenz.chatgpt.site/\",\"status\":\"MANUAL_APPLIED\",\"applied_date\":\"2026-09-18\",\"application_method\":\"Email\",\"contact_email\":\"test@gmail.com\",\"notes\":\"Test\",\"created_by\":\"tMyav8KxjvWEbjUjWOOjWPFFvqkhhaoZBsJYTjzbTrJEi3RDhmoJVd\",\"created_by_email\":\"macdarenz@gmail.com\",\"created_at\":\"2026-09-10T13:35:46.955Z\",\"updated_at\":\"2026-09-10T13:35:46.955Z\",\"updated_by_email\":\"macdarenz@gmail.com\",\"version\":1,\"contributor_name\":\"Jeremie\",\"key\":\"manual:12b62a78-27d3-4c53-acd8-3f0feda4e6a9\",\"manual_entry_id\":\"12b62a78-27d3-4c53-acd8-3f0feda4e6a9\",\"entry_source\":\"manual\",\"recipient_email\":\"test@gmail.com\",\"checked_at\":\"2026-09-10T13:35:46.955Z\",\"reason\":\"Test\",\"reported_application_date\":\"2026-09-18\",\"attachments\":[{\"filename\":\"Marc_Masarate_Resume_Civil_Drafting_Documentation.pdf\",\"path\":\"/api/documents/0d5c7f3f-32ff-45dc-b647-d2a4b43c0eb8\",\"sha256\":\"c1c4865a4383034b548ecf13154a9291a91b755bf9affb9fe19491046b467e2a\",\"size_bytes\":6647,\"uploaded_at\":\"2026-09-10T13:35:48.120Z\"}],\"replies\":[],\"deleted\":false,\"visibility_version\":1}",
+        "updated_at": "2026-09-10T13:59:38.811Z",
+        "updated_by_email": "macdarenz@gmail.com",
+        "version": 2
+      },
+      {
+        "record_key": "parkes-shire-council|PSC2222648",
+        "deleted": 1,
+        "snapshot": "{\"key\":\"parkes-shire-council|PSC2222648\",\"company\":\"Parkes Shire Council\",\"role\":\"Water and Wastewater Trainee\",\"location\":\"Parkes NSW\",\"status\":\"HELD_MANDATORY_DETAILS_UNCONFIRMED\",\"job_url\":\"https://parkes.applynow.net.au/jobs/PSC2222648-water-and-wastewater-trainee\",\"checked_at\":\"2026-09-12T14:31:00+10:00\",\"fit\":\"A two-year supervised trainee role with practical exposure to water treatment, wastewater treatment, supply networks and sewer systems. Marc's civil qualifications, White Card, licence, site-safety experience, inspection records and teamwork are relevant, though the role is operational rather than civil-design focused.\",\"gaps\":[\"The form requires current Hepatitis A, Hepatitis B and Tetanus immunisations; Marc's status is unknown.\",\"The form asks for a SafeWork NSW White Card; whether Marc's current interstate White Card satisfies the employer must be confirmed.\",\"Relocation from Melton VIC to Parkes NSW is required and no timing or funding promise is made.\",\"This traineeship leads to another vocational qualification and may underuse Marc's completed civil degree and Advanced Diploma.\"],\"application_type\":\"ADVERTISED_VACANCY\",\"application_route\":\"EMPLOYER_FORM\",\"match_score\":{\"percent\":65,\"method\":\"resume-fit-v1\",\"caution\":\"Company/role fit estimate, not interview probability; mandatory immunisation status and NSW White Card acceptance are unresolved.\"},\"attachments\":[],\"deleted\":false,\"visibility_version\":0}",
+        "updated_at": "2026-09-20T00:31:53.699Z",
+        "updated_by_email": "macdarenz@gmail.com",
+        "version": 1
+      },
+      {
+        "record_key": "rockhamptonregionalcouncil|rrc:2912197436974799",
+        "deleted": 1,
+        "snapshot": "{\"key\":\"rockhamptonregionalcouncil|rrc:2912197436974799\",\"company\":\"Rockhampton Regional Council\",\"role\":\"Cadet Civil Designer\",\"location\":\"Rockhampton QLD\",\"status\":\"HELD_ELIGIBILITY_CONFIRMATION\",\"job_url\":\"https://au.jora.com/job/Civil-Designer-aaacbeeaf3abd90991f9cf9b1bd0887b\",\"checked_at\":\"2026-09-12T10:18:00+10:00\",\"fit\":\"Advanced Diploma civil-design coursework, academic AutoCAD/Civil 3D drawings, technical documentation and earlier inspection/coordination records align with the developmental duties.\",\"gaps\":[\"The advert requires the successful applicant to be currently undertaking or eligible to enter a relevant tertiary course and to complete that study externally while working full time. Marc has already completed a related Advanced Diploma; willingness and eligibility to enrol again are unknown.\",\"Relocation from Melton to Rockhampton would need discussion without a promise.\",\"A satisfactory Australia-wide criminal history check is required.\",\"Council's mandatory cover-letter template must be used; no documents were prepared because the eligibility gate is unresolved and the route is portal-only.\"],\"application_type\":\"ADVERTISED_VACANCY\",\"application_route\":\"EMPLOYER_PORTAL\",\"match_score\":{\"percent\":70,\"method\":\"resume-fit-v1\",\"caution\":\"Skills fit only, not an interview probability; mandatory study eligibility remains unresolved.\",\"basis\":\"Strong civil design, AutoCAD, drawing, documentation and organisational alignment, reduced by the required study commitment and interstate relocation.\"},\"attachments\":[],\"deleted\":false,\"visibility_version\":0}",
+        "updated_at": "2026-09-20T00:47:54.262Z",
+        "updated_by_email": "macdarenz@gmail.com",
+        "version": 1
+      },
+      {
+        "record_key": "taylors|claude-watchlist",
+        "deleted": 1,
+        "snapshot": "{\"key\":\"taylors|claude-watchlist\",\"company\":\"Taylors\",\"location\":\"Melbourne VIC\",\"status\":\"HELD_VERIFICATION\",\"job_url\":null,\"checked_at\":\"2026-09-11T20:30:00+10:00\",\"reason\":\"Check for junior, graduate or drafting openings and whether any published application email exists.\",\"contributor_name\":\"Claude\",\"found_by\":\"Claude\",\"attachments\":[],\"deleted\":false,\"visibility_version\":0}",
+        "updated_at": "2026-09-20T01:36:38.237Z",
+        "updated_by_email": "macdarenz@gmail.com",
+        "version": 1
+      },
+      {
+        "record_key": "westatedrafting.com.au|junior-draftsperson",
+        "deleted": 1,
+        "snapshot": "{\"key\":\"westatedrafting.com.au|junior-draftsperson\",\"company\":\"Westate Drafting & Design\",\"role\":\"Junior Draftsperson\",\"location\":\"Perth WA\",\"status\":\"HELD_VACANCY_UNVERIFIED\",\"job_url\":\"https://westatedrafting.com.au/juniordraftsperson/\",\"company_url\":\"https://westatedrafting.com.au/\",\"checked_at\":\"2026-09-12T18:58:00+10:00\",\"fit\":\"The business provides multidisciplinary drafting and structural-steel detailing services; Marc has a completed Advanced Diploma and academic AutoCAD/Civil 3D/Revit experience.\",\"gaps\":[\"Full mandatory criteria could not be read.\",\"Tekla and commercial structural-steel detailing experience are not documented.\",\"Relocation from Melton to Perth would require discussion.\"],\"application_type\":\"ADVERTISED_VACANCY\",\"application_route\":\"EMAIL\",\"match_score\":{\"method\":\"company-scope-fit-v1\",\"percent\":65,\"assessed_at\":\"2026-09-12T18:58:00+10:00\",\"basis\":\"Provisional company/work-scope fit only; the full advert was unavailable and this is not interview probability.\",\"caution\":\"Do not send until the exact official advert is readable and confirmed open.\"},\"attachments\":[],\"deleted\":false,\"visibility_version\":0}",
+        "updated_at": "2026-09-20T01:51:30.200Z",
+        "updated_by_email": "macdarenz@gmail.com",
+        "version": 1
+      },
+      {
+        "record_key": "westerapartners.com.au|graduate-program",
+        "deleted": 1,
+        "snapshot": "{\"key\":\"westerapartners.com.au|graduate-program\",\"company\":\"Westera Partners Pty Ltd\",\"role\":\"Graduate Program application - Civil Engineering, Central Victoria\",\"location\":\"Central Victoria preferred; applicant based in Melton VIC\",\"status\":\"PREPARED_NOT_SENT\",\"recipient_name\":\"HR Team\",\"recipient_role\":\"Employer-designated graduate application address\",\"recipient_email\":\"HR@westerapartners.com.au\",\"job_url\":\"https://www.westerapartners.com.au/careers/\",\"subject\":\"Graduate application - Civil Engineering | Central Victoria | Marc Darenz Masarate\",\"email_body\":\"Dear HR Team,\\n\\nI am applying to Westera Partners' Graduate Program in civil engineering. My preferred office is Central Victoria, as I am based in Melton.\\n\\nI completed an Advanced Diploma of Civil Construction Design in Australia in February 2026, covering road geometry, earthworks, pavement systems and stormwater drainage, and I hold a Bachelor of Science in Civil Engineering. My design and drafting work in AutoCAD and Civil 3D comes from coursework rather than a commercial office, which is why a graduate position with mentoring is what I am looking for.\\n\\nAlongside that study, I have practical construction experience. At JustBuilt I reviewed structural and architectural drawings against project requirements and coordinated the daily activities of 10 to 15 workers. At Grand Travaux I worked on residential subdivision finishing works, assisting with inspections and quality checks and preparing site, material and progress records. Your work in land subdivisions, local government infrastructure and stormwater management is the area I want to build a career in.\\n\\nI hold a White Card, an Australian driver's licence and reliable transport, and full working rights under a Subclass 485 visa until December 2027.\\n\\nMy resume and cover letter are attached. I have also attached my academic transcripts. Thank you for your time.\\n\\nKind regards,\\nMarc Darenz Masarate\\n0478 764 07… [truncated for model]",
+        "updated_at": "2026-09-12T03:07:42.334Z",
+        "updated_by_email": "macdarenz@gmail.com",
+        "version": 1
+      },
+      {
+        "record_key": "wyndham city council|claude-watchlist",
+        "deleted": 1,
+        "snapshot": "{\"key\":\"wyndham city council|claude-watchlist\",\"company\":\"Wyndham City Council\",\"location\":\"Werribee VIC\",\"status\":\"HELD_VERIFICATION\",\"job_url\":null,\"checked_at\":\"2026-09-11T20:30:00+10:00\",\"reason\":\"Marc or Jeremie should open the Wyndham careers portal manually and check for engineering, development engineering or technical officer roles.\",\"contributor_name\":\"Claude\",\"found_by\":\"Claude\",\"attachments\":[],\"deleted\":false,\"visibility_version\":0}",
+        "updated_at": "2026-09-20T01:38:09.406Z",
+        "updated_by_email": "macdarenz@gmail.com",
+        "version": 1
+      }
+    ]
+  },
+  "incomplete": [
+    {
+      "table": "record_visibility",
+      "offset": 1,
+      "projection": {
+        "truncated": true,
+        "truncated_values": 1,
+        "omitted_columns": 0,
+        "omitted_rows": 0,
+        "next_offset": 2
+      }
+    },
+    {
+      "table": "record_visibility",
+      "offset": 2,
+      "projection": {
+        "truncated": true,
+        "truncated_values": 1,
+        "omitted_columns": 0,
+        "omitted_rows": 0,
+        "next_offset": 3
+      }
+    },
+    {
+      "table": "record_visibility",
+      "offset": 9,
+      "projection": {
+        "truncated": true,
+        "truncated_values": 1,
+        "omitted_columns": 0,
+        "omitted_rows": 0,
+        "next_offset": 10
+      }
+    }
+  ]
+}
