@@ -12,7 +12,11 @@ The 14-day bars count only records marked sent, EOI sent, under review, or contr
 
 The shared code opens the interface. It is a **visual gate only**. This repository is public: `data.json`, documents and source files can be downloaded directly without entering the code. The verifier is in browser code. Do not use this design for information you want to keep secret.
 
-GitHub Pages has no database or anonymous write API. Edits, including new attachments, are saved in the **current browser's IndexedDB**. They do not appear for other visitors until someone exports JSON and commits the updated `data.json` (and any new attachments) to the repository. The Export button includes new attachment bytes inline in the JSON. Grok can update the repository through its own authorised GitHub connection, but the shared screen code cannot grant repository write access.
+GitHub Pages has no database or anonymous write API. Edits, including new attachments, are saved in the **current browser's IndexedDB**. They do not appear for other visitors until someone exports JSON and commits the updated `data.json` (and any new attachments) to the repository. The Export JSON button includes new attachment bytes inline in the JSON. Grok can update the repository through its own authorised GitHub connection, but the shared screen code cannot grant repository write access.
+
+The page checks the published `data.json` on opening, on returning to the tab, and every minute while visible. **Check published** fetches it on demand with a cache-busting URL. New GitHub commits then appear without a manual download, while browser edits stay local. If two editors change the same manual record, preserve both contributions and reconcile by record ID/version before publishing; do not replace the whole file with a stale export.
+
+For a true shared Save button with no GitHub login for visitors, add a hosted write API and file storage. A public static page cannot safely hold the credential needed to write to this repository. Do not embed a personal access token in the browser code or call the screen code secure authentication.
 
 ## Publishing
 
