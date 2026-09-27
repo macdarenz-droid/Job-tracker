@@ -5,12 +5,12 @@ Read this file before editing the website or using tracker records.
 ## Website and data
 
 - The repository is public. The user explicitly requested publication of the old tracker snapshot and bundled documents. The six-digit screen code is only a visual gate; never claim it protects files from direct download.
-- Browser edits are local until exported and committed by an authorised repository editor. Never claim that the screen code grants shared write access or that local Applied records reached other users.
-- When asked to update the tracker for everyone, read the latest `data.json` from `main`, reconcile complete current records and any browser export by ID, version and timestamp, then commit the merged `data.json` through the authorised GitHub connection. Preserve automatic history, documents and Bin metadata. Bump the edited record's version and timestamp; never replace the file with an older export or force a branch update. The site checks the published file on return to the tab and about once a minute. Editing the website in your own browser alone will **not** update Marc's view.
-- New browser attachments are contained in exported JSON as base64. Preserve their filename, hash, attribution and bytes, or publish them to `documents/` and update their paths after checking hashes. Do not imply metadata-only uploads are downloadable.
+- Until `cloud-config.js` contains a deployed Worker URL, edits remain in each browser. The interface must say so. Once Cloudflare D1/R2 is deployed and configured, read and write the shared API with its version guard. Do not silently fall back to browser storage on cloud errors or claim a cloud Save succeeded without a successful response.
+- The historical `data.json` is the pinned seed and public baseline. Do not replace it with a stale browser export. The cloud state is authoritative after activation; reconcile browser backups into it by record ID, version and timestamp. A stale concurrent API write must return 409. Preserve automatic history, documents and Bin metadata.
+- New cloud attachments are private R2 objects with D1 metadata. Previous browser backups may contain inline base64; upload those bytes to R2 and retain filename, hash and attribution when importing. Do not imply metadata-only old uploads are downloadable.
 - Never put a GitHub token in source, a URL, a commit, a log, or a shared reply.
 - Preserve automatic application history, manual entries, document metadata and hashes, Bin visibility, actual outcomes, and existing statuses. Do not invent a sent email, submission, delivery, opening, reply or offer.
-- Record a manual **Applied** action only after Jeremie actually submits through SEEK or the employer website, with the actual date and route. Saving a tracker record never sends an application.
+- Record a manual **Applied** action only after Jeremie actually submits through SEEK or the employer website, with the actual date and route. Saving a tracker record never sends an application. The six-digit code is a modest shared credential; the public GitHub files stay downloadable without it.
 - Do not enable or recreate the stopped job-research workers.
 
 ## If independently asked to research or send a job application

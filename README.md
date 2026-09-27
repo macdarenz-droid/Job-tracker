@@ -1,39 +1,23 @@
 # Marc's job tracker
 
-A GitHub Pages version of the existing Australian job tracker, with a data-driven overview, compact tables, match bars, details, an Applied action, Scroll mode and Bin.
+The GitHub Pages frontend for Marc's Australian job search: [open the tracker](https://macdarenz-droid.github.io/Job-tracker/). It has a shared-code screen gate, Applications/Ready/Leads, six-row grouped Table mode, continuous Scroll mode, an Applied action with the actual date and route, optional files, outcomes, Bin, search and progress charts. The restrained dark workspace and subtle motion draw on Linear's [interface refresh](https://linear.app/now/behind-the-latest-design-refresh), Vercel's [dashboard navigation](https://vercel.com/changelog/dashboard-navigation-redesign-rollout), Height's [in-context editing](https://height.app/blog/whats-new-gantt-charts-0-104) and Attio's [records and reports](https://attio.com/help/reference/managing-your-data/dashboard-and-reports/dashboards); no design assets or templates were copied.
 
-## Interface direction
+## Shared Save setup
 
-The workspace borrows interaction principles, not templates or assets: Linear's [calmer interface](https://linear.app/now/behind-the-latest-design-refresh) and [purposeful dashboards](https://linear.app/now/dashboards-best-practices), Vercel's [consistent dashboard navigation](https://vercel.com/changelog/dashboard-navigation-redesign-rollout), Height's [in-context timeline editing](https://height.app/blog/whats-new-gantt-charts-0-104), and Attio's [records plus reports](https://attio.com/help/reference/managing-your-data/dashboard-and-reports/dashboards). The dark search-pulse panel, restrained transitions and responsive navigation are original to this tracker.
+The matching Cloudflare Worker lives in the separate `job-tracker-api` repository. It stores the tracker snapshot in D1 under a version guard and new attachment bytes in private R2. After that Worker is deployed, set its `https://…workers.dev` URL in `cloud-config.js` and commit. The interface then reads and saves the shared cloud state for everyone with the code; stale concurrent edits get a conflict instead of overwriting newer work. On a cloud failure, Save does not silently fall back to this browser.
 
-The 14-day bars count only records marked sent, EOI sent, under review, or contributor-reported applied with a recorded date. The pipeline chart groups all active records by their current status. Fit distribution includes scored active research leads only and is explicitly qualitative. Charts rebuild from the same data as the table after local edits or import. They do not indicate interview probability.
+**Until `cloud-config.js` contains the deployed URL, Save is still browser-only.** The interface explicitly labels this state. An Export JSON backup remains available; after Cloudflare setup, a browser with older local edits can export its previous browser backup and import it into the cloud with current records retained. Inline attachment bytes in old backups are uploaded to R2 during import.
 
-## Access and visibility
+The six-digit code is only a modest shared credential. The Cloudflare Worker checks it on each API request and throttles wrong attempts, but the public GitHub repository's `data.json`, original PDFs and source remain directly downloadable. New R2 uploads require the Worker code. Do not publish private documents to the public repository or call this a private account system.
 
-The shared code opens the interface. It is a **visual gate only**. This repository is public: `data.json`, documents and source files can be downloaded directly without entering the code. The verifier is in browser code. Do not use this design for information you want to keep secret.
+## Records and provenance
 
-GitHub Pages has no database or anonymous write API. Edits, including new attachments, are saved in the **current browser's IndexedDB**. They do not appear for other visitors until someone exports JSON and commits the updated `data.json` (and any new attachments) to the repository. The Export JSON button includes new attachment bytes inline in the JSON. Grok can update the repository through its own authorised GitHub connection, but the shared screen code cannot grant repository write access.
+The initial published `data.json` includes 14 automatic applications, 46 leads, three manual records, 11 Bin visibility records and 26 PDFs from the old tracker. `archive/` holds migration evidence. Two old manual-upload PDFs were unavailable in the read-only export; their filenames and checksums are retained and labelled unavailable. Three oversized Bin snapshots were truncated, but their current rows and Bin metadata remain. The canonical job journal was inaccessible during migration and is not replaced by this snapshot.
 
-The page checks the published `data.json` on opening, on returning to the tab, and every minute while visible. **Check published** fetches it on demand with a cache-busting URL. New GitHub commits then appear without a manual download, while browser edits stay local. If two editors change the same manual record, preserve both contributions and reconcile by record ID/version before publishing; do not replace the whole file with a stale export.
+**Applied** records an actual submission reported by Jeremie through SEEK or an employer website. It asks for actual date and route, and can attach a résumé, cover letter or confirmation. Saving a row never submits an application. Automatic sent history remains distinct from contributor-reported outcomes. Expired rows are hidden from the active view. The 28-day activity bars include sent or reported applications with dates, the pipeline shows current status counts, and fit distribution is qualitative, not an interview forecast.
 
-For a true shared Save button with no GitHub login for visitors, add a hosted write API and file storage. A public static page cannot safely hold the credential needed to write to this repository. Do not embed a personal access token in the browser code or call the screen code secure authentication.
+The old owner-private Site is unchanged. This frontend does not send email or enable the stopped job-research workers. `AGENTS.md` describes the rules for a separately authorised job agent.
 
-## Publishing
+## Publishing and preview
 
-The included GitHub Actions workflow deploys on a push to `main`. If Pages is not enabled yet, select **Settings → Pages → Build and deployment → GitHub Actions**, then rerun the workflow. The expected URL is `https://macdarenz-droid.github.io/Job-tracker/`; it is live only after a successful Pages deployment.
-
-## Record workflow
-
-Table mode groups Applications, Ready, Leads and outcomes, with six rows per group page. Scroll mode shows every active record. **Applied** on a Ready or Lead row asks who applied, the actual date and the route (SEEK, company website, email, referral or other), plus optional résumé, cover letter and confirmation documents. Saving moves the record into Applications **in this browser**; it **does not submit** an application. Bin moves a row out of the active view without destroying its history or document references. Expired jobs stay out of the active view. Sent email remains a distinct outcome backed by Gmail evidence in the imported record.
-
-This is a tracker, not a mail client. It does not contact employers or enable the previously stopped job workers. `AGENTS.md` describes the rules a separately authorised job agent must follow.
-
-## Migration scope
-
-The public `data.json` and `documents/` come from the old tracker snapshot: 14 automatic applications, 46 leads, three manual records, 11 Bin visibility records and 26 bundled PDFs. `archive/` retains the source snapshot, D1 metadata export and migration manifest. Two manual-upload PDF bytes were not available from the read-only old Site export; their filenames, checksums and attribution remain in the JSON and are labelled unavailable. Three oversized Bin snapshots were truncated by that export; their current rows and Bin metadata remain. The canonical job journal was unavailable during migration and is not replaced by this snapshot.
-
-The old private Site is unchanged.
-
-## Local preview
-
-Serve this directory with `python3 -m http.server 8000`, then open `http://localhost:8000`. Web Crypto works on localhost or HTTPS.
+The GitHub Actions workflow deploys `main` to GitHub Pages. Source edits should be committed through an authorised GitHub connection, never by exposing a GitHub token to the browser. Preview locally with `python3 -m http.server 8000`, then open `http://localhost:8000`. Use the Worker repository's README for the one-time D1/R2 deployment commands. After setting `cloud-config.js`, verify in two browsers that a newly applied row and an uploaded document appear in both, and verify a stale concurrent Save reports a conflict.
