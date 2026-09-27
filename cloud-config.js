@@ -1,3 +1,2 @@
-// Set this to the deployed Worker URL after the Cloudflare account setup.
-// Until then the tracker clearly remains in browser-only mode.
-window.TRACKER_API_URL = '';
+// Shared tracker API. The access code is checked by the Worker on every request.
+window.TRACKER_API_URL = 'https://job-tracker-api.mmarcdarenz.workers.dev';
