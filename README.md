@@ -4,9 +4,9 @@ The GitHub Pages frontend for Marc's Australian job search: [open the tracker](h
 
 ## Shared Save setup
 
-The matching Cloudflare Worker lives in the separate `job-tracker-api` repository. It stores the tracker snapshot in D1 under a version guard and new attachment bytes in private R2. After that Worker is deployed, set its `https://…workers.dev` URL in `cloud-config.js` and commit. The interface then reads and saves the shared cloud state for everyone with the code; stale concurrent edits get a conflict instead of overwriting newer work. On a cloud failure, Save does not silently fall back to this browser.
+The matching Cloudflare Worker is in `cloudflare-api/` in this repository and is deployed at `https://job-tracker-api.mmarcdarenz.workers.dev`. The frontend points to it through `cloud-config.js`. It stores the shared tracker snapshot in D1 under a version guard and new attachment bytes in private R2. Edits are shared for everyone with the code; stale concurrent edits get a conflict instead of overwriting newer work. On a cloud failure, Save does not silently fall back to this browser.
 
-**Until `cloud-config.js` contains the deployed URL, Save is still browser-only.** The interface explicitly labels this state. An Export JSON backup remains available; after Cloudflare setup, a browser with older local edits can export its previous browser backup and import it into the cloud with current records retained. Inline attachment bytes in old backups are uploaded to R2 during import.
+**Shared Save is active.** The Worker deployment verified authenticated reading, historical records and a version-checked write. An Export JSON backup remains available; a browser with older local edits can export its previous browser backup and import it into the cloud with current records retained. Inline attachment bytes in old backups are uploaded to R2 during import.
 
 The six-digit code is only a modest shared credential. The Cloudflare Worker checks it on each API request and throttles wrong attempts, but the public GitHub repository's `data.json`, original PDFs and source remain directly downloadable. New R2 uploads require the Worker code. Do not publish private documents to the public repository or call this a private account system.
 
@@ -20,4 +20,4 @@ The old owner-private Site is unchanged. This frontend does not send email or en
 
 ## Publishing and preview
 
-The GitHub Actions workflow deploys `main` to GitHub Pages. Source edits should be committed through an authorised GitHub connection, never by exposing a GitHub token to the browser. Preview locally with `python3 -m http.server 8000`, then open `http://localhost:8000`. Use the Worker repository's README for the one-time D1/R2 deployment commands. After setting `cloud-config.js`, verify in two browsers that a newly applied row and an uploaded document appear in both, and verify a stale concurrent Save reports a conflict.
+The GitHub Actions workflow deploys `main` to GitHub Pages. Source edits should be committed through an authorised GitHub connection, never by exposing a GitHub token to the browser. Preview locally with `python3 -m http.server 8000`, then open `http://localhost:8000`. Use `cloudflare-api/README.md` for Worker deployment steps. After any API change, verify that a save and upload appear in another browser and a stale concurrent Save reports a conflict.
