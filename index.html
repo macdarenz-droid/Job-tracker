@@ -4,73 +4,174 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="robots" content="noindex,nofollow">
+  <meta name="color-scheme" content="dark light">
   <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self' https://*.workers.dev; img-src 'self' data:; font-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
   <title>Marc — Job tracker</title>
   <meta name="description" content="Marc's Australian job application tracker.">
-  <link rel="stylesheet" href="./styles.css?v=261e448">
+  <link rel="preload" href="./fonts/Geist-Variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./styles.css?v=3">
+  <script src="./theme.js?v=3"></script>
   <script src="./cloud-config.js?v=2" defer></script>
-  <script src="./app.js?v=2" defer></script>
+  <script src="./app.js?v=3" defer></script>
 </head>
 <body>
   <section id="unlock" class="gate">
-    <div class="gate-card">
-      <div class="gate-top"><div class="mark">M<span>·</span></div><span class="gate-edition">WORKSPACE / 01</span></div>
-      <p class="eyebrow">MARC / JOB TRACKER</p>
-      <h1>Keep the search<br><em>moving.</em></h1>
-      <p>Enter the shared screen code to open the workspace.</p>
-      <form id="unlock-form">
-        <label for="code">Access code</label>
-        <input id="code" type="password" inputmode="numeric" pattern="[0-9]{6}" maxlength="6" autocomplete="off" required>
-        <button class="primary" type="submit">Continue <span aria-hidden="true">↗</span></button>
+    <div class="gate-bg" aria-hidden="true"><span class="orb orb-a"></span><span class="orb orb-b"></span><span class="orb orb-c"></span><span class="gate-grid"></span></div>
+    <div class="gate-inner">
+      <div class="gate-mark"><span class="mark mark-lg">M</span></div>
+      <p class="gate-kicker">Marc · Job tracker</p>
+      <h1>Keep the search <span>moving.</span></h1>
+      <p class="gate-lede">Enter the six-digit screen code to open the workspace.</p>
+      <form id="unlock-form" autocomplete="off">
+        <label for="code" class="sr-only">Access code</label>
+        <div class="otp" id="otp">
+          <input id="code" type="password" inputmode="numeric" pattern="[0-9]{6}" maxlength="6" autocomplete="off" required aria-describedby="unlock-error">
+          <div class="otp-slots" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+        </div>
+        <button id="unlock-submit" class="btn btn-primary btn-lg" type="submit"><span class="btn-label">Continue</span><kbd>↵</kbd></button>
         <p id="unlock-error" class="error" role="alert"></p>
       </form>
-      <small>This is a screen gate. The public GitHub files remain directly downloadable.</small>
+      <small class="gate-note">This is a screen gate. The public GitHub files remain directly downloadable.</small>
     </div>
   </section>
 
-  <div id="workspace" class="shell" hidden>
-    <aside class="rail">
-      <div class="brand"><div class="mark">M<span>·</span></div><div class="brand-type"><strong>Marc’s workspace</strong><small>Job search / Australia</small></div></div>
-      <div class="nav-caption">WORKSPACE</div>
-      <nav aria-label="Workspace"><button class="rail-link active" id="nav-all"><span class="nav-icon" aria-hidden="true">▦</span><span>Overview</span></button><button class="rail-link" id="nav-applied"><span class="nav-icon" aria-hidden="true">◫</span><span>Applications</span></button><button class="rail-link" id="nav-bin"><span class="nav-icon" aria-hidden="true">▤</span><span>Bin</span></button></nav>
-      <div class="rail-context"><span class="context-line"></span><p>One place for every lead,<br>document and outcome.</p><span class="context-index">M / 2026</span></div>
-      <div class="rail-bottom"><div class="connection"><span class="signal"></span><span id="connection-label">Saved in this browser</span></div><button id="disconnect" class="rail-link">⇥ <span>Lock screen</span></button></div>
+  <div id="workspace" class="app" hidden>
+    <aside class="sidebar" id="sidebar" aria-label="Sidebar">
+      <div class="brand"><span class="mark">M</span><div class="brand-type"><strong>Marc’s workspace</strong><small>Job search · Australia</small></div></div>
+      <button class="sb-search" id="open-palette" type="button"><span data-icon="search"></span><span>Search or jump to…</span><kbd id="palette-kbd">⌘K</kbd></button>
+      <nav class="sb-nav" aria-label="Workspace">
+        <button class="nav-item" id="nav-overview" type="button"><span data-icon="overview"></span><span>Overview</span></button>
+        <button class="nav-item" id="nav-records" type="button"><span data-icon="records"></span><span>All records</span><span class="nav-count" id="nav-count-records"></span></button>
+        <button class="nav-item" id="nav-applied" type="button"><span data-icon="send"></span><span>Applications</span><span class="nav-count" id="nav-count-applied"></span></button>
+        <button class="nav-item" id="nav-bin" type="button"><span data-icon="bin"></span><span>Bin</span><span class="nav-count" id="nav-count-bin"></span></button>
+      </nav>
+      <p class="sb-section">Pipeline</p>
+      <nav class="sb-nav" id="pipeline-nav" aria-label="Pipeline filters"></nav>
+      <div class="sb-foot">
+        <div class="sync-card"><span class="signal"></span><div><strong id="connection-label">Saved in this browser</strong><small id="connection-detail">This device only</small></div></div>
+        <div class="sb-foot-actions">
+          <button id="theme-toggle" class="icon-btn" type="button" aria-label="Switch to light theme" data-tip="Theme"><span data-icon="sun"></span></button>
+          <button id="disconnect" class="icon-btn" type="button" aria-label="Lock screen" data-tip="Lock"><span data-icon="lock"></span></button>
+        </div>
+      </div>
     </aside>
+    <div class="sb-scrim" id="sb-scrim" hidden></div>
+
     <main class="main">
-      <header class="topbar"><div class="breadcrumb">Workspace <span>/</span> <b id="section-name">Overview</b></div><div class="top-actions"><button id="reload">Refresh</button><button id="import" title="Import a tracker JSON backup">Import</button><button id="export" title="Download the current tracker as JSON">Export JSON</button><button id="add" class="primary">+ Add entry <span aria-hidden="true">↗</span></button></div></header>
-      <div class="content">
-        <div class="heading"><div><p class="eyebrow"><span class="eyebrow-dot"></span> AUSTRALIAN JOB SEARCH</p><h1 id="page-title">Applications and leads</h1><p id="updated" class="muted"></p></div><span class="heading-index" aria-hidden="true">01 / OVERVIEW</span></div>
-        <div class="sync-strip"><span class="sync-badge"><span class="signal"></span><span id="sync-label">BROWSER SAVE</span></span><p id="sync-description">Cloud setup is pending. Edits on this page still stay on this device.</p><button id="legacy-export" hidden>Export previous browser edits</button></div>
-        <div id="status" class="notice" role="status">Checking the published copy…</div>
-        <section class="overview" id="overview" aria-label="Job search overview">
-          <div class="overview-head"><div><span class="overline">SEARCH PULSE <span class="pulse-dot"></span></span><h2>The work in motion<span>.</span></h2><p>A live view of recorded progress. Submission counts include reported applications.</p></div><span class="overview-period" id="overview-period">CURRENT SNAPSHOT</span></div>
-          <div class="overview-grid">
-            <div class="activity visual-panel"><div class="visual-head"><div><span class="overline">ACTIVITY</span><h3>Applications over time</h3></div><strong id="activity-total">0 <small>in 28 days</small></strong></div><div id="activity-chart" class="activity-chart" role="img" aria-label="Applications submitted in the last 28 days"></div><div class="chart-foot"><span id="activity-start"></span><span>Submitted by email or reported as applied</span><span id="activity-end"></span></div></div>
-            <div class="pipeline visual-panel"><div class="visual-head"><div><span class="overline">PIPELINE</span><h3>Where things stand</h3></div><span class="mini-index">LIVE RECORDS</span></div><div id="pipeline-chart" class="pipeline-chart" role="img" aria-label="Current record status breakdown"></div><div id="pipeline-legend" class="pipeline-legend"></div><div class="fit-insight"><div class="fit-title"><span class="overline">FIT DISTRIBUTION</span><small>Assessed active leads</small></div><div id="fit-chart"></div><p>Qualitative fit only; never an interview forecast.</p></div></div>
+      <header class="topbar">
+        <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span data-icon="menu"></span></button>
+        <div class="breadcrumb"><span>Workspace</span><span data-icon="chevronRight" class="crumb-sep"></span><b id="section-name">Overview</b></div>
+        <div class="top-actions">
+          <span class="sync-pill" id="sync-pill"><span class="signal"></span><span id="sync-label">BROWSER SAVE</span></span>
+          <button id="reload" class="icon-btn" type="button" aria-label="Refresh records" data-tip="Refresh"><span data-icon="refresh"></span></button>
+          <div class="menu-wrap">
+            <button id="more" class="icon-btn" type="button" aria-haspopup="menu" aria-expanded="false" aria-controls="more-menu" aria-label="More actions" data-tip="More"><span data-icon="more"></span></button>
+            <div class="menu" id="more-menu" role="menu" hidden>
+              <button role="menuitem" id="import" type="button" title="Import a tracker JSON backup"><span data-icon="upload"></span>Import JSON backup</button>
+              <button role="menuitem" id="export" type="button" title="Download the current tracker as JSON"><span data-icon="download"></span>Export JSON</button>
+            </div>
           </div>
-          <div class="stats" aria-label="Record totals"><div><span>Applications</span><strong id="count-applications">0</strong><small>Sent or reported</small></div><div><span>Ready</span><strong id="count-ready">0</strong><small>Next action</small></div><div><span>Leads</span><strong id="count-leads">0</strong><small>To assess</small></div><div><span>Interviews</span><strong id="count-interviews">0</strong><small>Recorded outcomes</small></div></div>
+          <button id="add" class="btn btn-primary" type="button"><span data-icon="plus"></span><span class="btn-label">New entry</span><kbd>C</kbd></button>
+        </div>
+      </header>
+
+      <div class="content" id="content">
+        <div class="page-head">
+          <div><h1 id="page-title">Overview</h1><p class="page-sub"><span id="updated" class="muted"></span><span class="dot-sep"></span><span id="page-meta"></span></p></div>
+          <div class="range" id="range" role="group" aria-label="Activity range"><button type="button" data-range="14">14D</button><button type="button" data-range="28" aria-pressed="true">28D</button><button type="button" data-range="90">90D</button></div>
+        </div>
+
+        <div class="sync-strip"><span class="sync-icon" id="sync-icon" data-icon="device"></span><p><strong id="sync-title">Browser save</strong> <span id="sync-description">Cloud setup is pending. Edits on this page still stay on this device.</span></p><button id="legacy-export" class="btn btn-ghost btn-sm" type="button" hidden>Export previous browser edits</button></div>
+        <div id="status" class="sr-only" role="status" aria-live="polite">Checking the published copy…</div>
+
+        <section class="overview" id="overview" aria-label="Job search overview">
+          <div class="kpis" aria-label="Record totals">
+            <article class="kpi spot" data-go="applications"><div class="kpi-top"><span class="kpi-label"><span class="si-slot" data-status="applications"></span>Applications</span><span class="kpi-hint">Sent or reported</span></div><strong class="kpi-value" id="count-applications">0</strong><p class="kpi-foot" id="foot-applications"></p></article>
+            <article class="kpi spot" data-go="ready"><div class="kpi-top"><span class="kpi-label"><span class="si-slot" data-status="ready"></span>Ready</span><span class="kpi-hint">Next action</span></div><strong class="kpi-value" id="count-ready">0</strong><p class="kpi-foot" id="foot-ready"></p></article>
+            <article class="kpi spot" data-go="leads"><div class="kpi-top"><span class="kpi-label"><span class="si-slot" data-status="leads"></span>Leads</span><span class="kpi-hint">To assess</span></div><strong class="kpi-value" id="count-leads">0</strong><p class="kpi-foot" id="foot-leads"></p></article>
+            <article class="kpi spot" data-go="interviews"><div class="kpi-top"><span class="kpi-label"><span class="si-slot" data-status="interviews"></span>Interviews</span><span class="kpi-hint">Recorded outcomes</span></div><strong class="kpi-value" id="count-interviews">0</strong><p class="kpi-foot" id="foot-interviews"></p></article>
+          </div>
+
+          <div class="dash-grid">
+            <article class="panel spot panel-activity">
+              <div class="panel-head"><div><h2>Application activity</h2><p>Submitted by email or reported as applied</p></div><div class="hero"><strong id="activity-total">0</strong><span id="activity-caption">in 28 days</span><span id="activity-delta" class="delta"></span></div></div>
+              <div id="activity-chart" class="chart" role="img" aria-label="Applications submitted over time"></div>
+              <div class="chart-foot"><span id="activity-start"></span><span id="activity-end"></span></div>
+            </article>
+            <article class="panel spot panel-pipeline">
+              <div class="panel-head"><div><h2>Pipeline</h2><p>Current status of active records</p></div></div>
+              <div id="pipeline-chart" class="pipeline-bar" role="img" aria-label="Current record status breakdown"></div>
+              <div id="pipeline-legend" class="pipeline-legend"></div>
+              <div class="sub-panel"><h3>Application routes</h3><p>How recorded applications were submitted</p><div id="routes-chart" class="bar-list"></div></div>
+            </article>
+            <article class="panel spot panel-next">
+              <div class="panel-head"><div><h2>Ready to apply</h2><p>Highest assessed fit first</p></div><button class="btn btn-ghost btn-sm" type="button" data-go="ready">View all <span data-icon="arrowRight"></span></button></div>
+              <div id="next-list" class="mini-list"></div>
+            </article>
+            <article class="panel spot panel-recent">
+              <div class="panel-head"><div><h2>Recent applications</h2><p>Latest sent or reported submissions</p></div><button class="btn btn-ghost btn-sm" type="button" data-go="applications">View all <span data-icon="arrowRight"></span></button></div>
+              <ol id="recent-list" class="timeline"></ol>
+            </article>
+            <article class="panel spot panel-fit">
+              <div class="panel-head"><div><h2>Fit distribution</h2><p>Open leads and ready records</p></div></div>
+              <div id="fit-chart" class="chart chart-sm" role="img" aria-label="Fit distribution"></div>
+              <p class="panel-note">Qualitative fit only; never an interview forecast.</p>
+            </article>
+          </div>
         </section>
-        <div class="records-heading"><div><span class="overline">THE TRACKER</span><h2>All records <span id="record-total"></span></h2></div><p>Search, review and update each opportunity.</p></div>
-        <div class="toolbar"><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search companies, roles or locations"></label><div class="segmented" aria-label="View mode"><button id="table-mode" aria-pressed="true">Table</button><button id="scroll-mode" aria-pressed="false">Scroll</button></div></div>
-        <div id="records"></div>
-        <p class="footer-note">“Applied” records an actual submission through SEEK or an employer website. It does not submit an application. The status line above shows where Save stores your changes.</p>
+
+        <section class="records-view" id="records-view" aria-label="Records" hidden>
+          <div class="toolbar">
+            <div class="chips" id="filter-chips" role="group" aria-label="Status filter"></div>
+            <div class="toolbar-right">
+              <label class="search"><span data-icon="search"></span><input id="search" type="search" placeholder="Search companies, roles or locations" aria-label="Search records"><kbd>/</kbd></label>
+              <label class="select-wrap"><span class="sr-only">Sort records</span><select id="sort"><option value="recent">Recent activity</option><option value="fit">Best fit</option><option value="company">Company A–Z</option></select></label>
+              <div class="segmented" role="group" aria-label="View mode"><button id="list-mode" type="button" aria-pressed="true" aria-label="List view" data-tip="List"><span data-icon="records"></span></button><button id="board-mode" type="button" aria-pressed="false" aria-label="Board view" data-tip="Board"><span data-icon="board"></span></button></div>
+            </div>
+          </div>
+          <div id="records"></div>
+        </section>
+
+        <p class="footer-note">“Applied” records an actual submission through SEEK or an employer website. It does not submit an application. The save indicator shows where Save stores your changes.</p>
       </div>
     </main>
   </div>
 
-  <dialog id="detail" class="panel"><div class="dialog-head"><p class="eyebrow">RECORD DETAILS</p><button data-close="detail" aria-label="Close details">✕</button></div><div id="detail-body"></div></dialog>
-  <dialog id="editor" class="panel"><div class="dialog-head"><p class="eyebrow" id="editor-heading">NEW RECORD</p><button data-close="editor" aria-label="Close editor">✕</button></div>
+  <div class="toasts" id="toasts"></div>
+
+  <dialog id="detail" class="sheet" aria-labelledby="detail-title"><div class="sheet-head"><span class="eyebrow">Record</span><div class="sheet-head-actions" id="detail-actions"></div><button class="icon-btn" data-close="detail" type="button" aria-label="Close details"><span data-icon="x"></span></button></div><div id="detail-body" class="sheet-body"></div></dialog>
+
+  <dialog id="editor" class="modal modal-wide" aria-labelledby="editor-heading">
+    <div class="modal-head"><div><span class="eyebrow" id="editor-kicker">Tracker</span><h2 id="editor-heading">New record</h2></div><button class="icon-btn" data-close="editor" type="button" aria-label="Close editor"><span data-icon="x"></span></button></div>
     <form id="record-form">
-      <label>Company <input name="company" required maxlength="160"></label><label>Role <input name="role" required maxlength="160"></label>
-      <div class="two"><label>Location <input name="location" maxlength="160"></label><label>Status <select name="status"><option value="LEAD">Lead</option><option value="READY_FOR_JEREMIE">Ready for Jeremie</option><option value="MANUAL_APPLIED">Applied — reported</option><option value="INTERVIEW">Interview</option><option value="OFFER">Offer</option><option value="REJECTED">Unsuccessful</option><option value="EXPIRED">Expired</option></select></label></div>
-      <label>Job listing URL <input name="job_url" type="url" maxlength="1500"></label>
-      <div class="two"><label>Applied on <input name="applied_date" type="date"></label><label>Applied through <select name="application_method"><option value="">Select route</option><option>SEEK</option><option>Company website</option><option>Email</option><option>Referral</option><option>Other</option></select></label></div>
-      <label>Contributor <input name="contributor_name" value="Jeremie" maxlength="100"></label><label>Contact email <input name="contact_email" type="email" maxlength="254"></label>
-      <label>Notes <textarea name="notes" rows="4" maxlength="4000"></textarea></label>
-      <div class="upload"><h3>Optional attachments</h3><label>Résumé <input name="resume" type="file" accept=".pdf,.docx"></label><label>Cover letter <input name="cover" type="file" accept=".pdf,.docx"></label><label>Confirmation <input name="confirmation" type="file" accept=".pdf,.png,.jpg,.jpeg"></label><small id="upload-hint">Up to 10 MB each. Cloud storage starts after setup.</small></div>
-      <p id="editor-error" class="error" role="alert"></p><button id="save" class="primary" type="submit">Save record</button>
+      <div class="form-grid">
+        <label class="field">Company <input name="company" required maxlength="160" placeholder="Employer name"></label>
+        <label class="field">Role <input name="role" required maxlength="160" placeholder="Position title"></label>
+        <label class="field">Location <input name="location" maxlength="160" placeholder="City, state"></label>
+        <label class="field">Status <span class="select-wrap"><select name="status"><option value="LEAD">Lead</option><option value="READY_FOR_JEREMIE">Ready for Jeremie</option><option value="MANUAL_APPLIED">Applied — reported</option><option value="INTERVIEW">Interview</option><option value="OFFER">Offer</option><option value="REJECTED">Unsuccessful</option><option value="EXPIRED">Expired</option></select></span></label>
+        <label class="field span-2">Job listing URL <input name="job_url" type="url" maxlength="1500" placeholder="https://"></label>
+        <label class="field">Applied on <input name="applied_date" type="date"></label>
+        <label class="field">Applied through <span class="select-wrap"><select name="application_method"><option value="">Select route</option><option>SEEK</option><option>Company website</option><option>Email</option><option>Referral</option><option>Other</option></select></span></label>
+        <label class="field">Contributor <input name="contributor_name" value="Jeremie" maxlength="100"></label>
+        <label class="field">Contact email <input name="contact_email" type="email" maxlength="254" placeholder="name@company.com"></label>
+        <label class="field span-2">Notes <textarea name="notes" rows="4" maxlength="4000" placeholder="Outcome, follow-up or context"></textarea></label>
+      </div>
+      <fieldset class="upload"><legend>Optional attachments</legend>
+        <div class="drops">
+          <label class="drop"><input name="resume" type="file" accept=".pdf,.docx"><span data-icon="file"></span><b>Résumé</b><small data-empty="PDF or DOCX">PDF or DOCX</small></label>
+          <label class="drop"><input name="cover" type="file" accept=".pdf,.docx"><span data-icon="file"></span><b>Cover letter</b><small data-empty="PDF or DOCX">PDF or DOCX</small></label>
+          <label class="drop"><input name="confirmation" type="file" accept=".pdf,.png,.jpg,.jpeg"><span data-icon="file"></span><b>Confirmation</b><small data-empty="PDF, PNG or JPG">PDF, PNG or JPG</small></label>
+        </div>
+        <small id="upload-hint" class="hint">Up to 10 MB each. Cloud storage starts after setup.</small>
+      </fieldset>
+      <p id="editor-error" class="error" role="alert"></p>
+      <div class="modal-foot"><button type="button" class="btn btn-ghost" data-close="editor">Cancel</button><button id="save" class="btn btn-primary" type="submit"><span class="btn-label">Save record</span><kbd>⌘↵</kbd></button></div>
     </form>
   </dialog>
-  <dialog id="confirm" class="confirm"><h2>Move to Bin?</h2><p id="confirm-name"></p><p>The record and document references can be restored.</p><div class="dialog-actions"><button data-close="confirm">Cancel</button><button id="confirm-delete" class="danger">Move to Bin</button></div></dialog>
+
+  <dialog id="confirm" class="modal modal-sm" aria-labelledby="confirm-title"><div class="confirm-icon"><span data-icon="bin"></span></div><h2 id="confirm-title">Move to Bin?</h2><p id="confirm-name" class="confirm-name"></p><p class="muted">The record and document references can be restored.</p><div class="modal-foot"><button class="btn btn-ghost" data-close="confirm" type="button">Cancel</button><button id="confirm-delete" class="btn btn-danger" type="button">Move to Bin</button></div></dialog>
+
+  <dialog id="palette" class="palette" aria-label="Command menu"><div class="palette-search"><span data-icon="search"></span><input id="palette-input" type="text" placeholder="Search records or type a command…" autocomplete="off" spellcheck="false" role="combobox" aria-expanded="true" aria-controls="palette-list" aria-autocomplete="list"><kbd>Esc</kbd></div><div id="palette-list" class="palette-list" role="listbox"></div><div class="palette-foot"><span><kbd>↑</kbd><kbd>↓</kbd> Navigate</span><span><kbd>↵</kbd> Open</span><span><kbd>C</kbd> New entry</span><span><kbd>/</kbd> Search</span></div></dialog>
+
   <input id="import-file" type="file" accept=".json,application/json" hidden>
 </body></html>
