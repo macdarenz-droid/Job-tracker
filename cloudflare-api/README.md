@@ -6,6 +6,16 @@ The Worker shown in Marc's Cloudflare screenshots on 27 September 2026 is the **
 
 ## One-time Cloudflare setup
 
+### From a phone using GitHub Actions
+
+The repository has a **manual-only** [Upgrade existing tracker API](https://github.com/macdarenz-droid/Job-tracker/actions/workflows/deploy-tracker-api.yml) workflow. It reads this `cloudflare-api/` directory and deploys the existing Worker without pasting source files into the dashboard editor. In the Cloudflare dashboard, create an API token scoped to the account with **Workers Scripts Edit** and **D1 Edit** permissions. In the GitHub repository's Settings → Secrets and variables → Actions, add `CLOUDFLARE_API_TOKEN` and `TRACKER_ACCESS_CODE` (the existing six-digit code). Never put either value in source, a workflow input, a screenshot or a chat message. Run the manual workflow from Actions.
+
+The workflow discovers the existing D1 ID by its exact name, verifies the production database, captures a Time Travel recovery bookmark, checks old `jobs` and `files` counts, runs the additive migration, sets the Worker secret, deploys the same Worker, and tests authentication, imported history and a harmless version-checked Save. If any preflight fails, it stops before changing D1 or Worker code. It does not switch on the GitHub Pages cloud adapter; connect that only after the completed workflow and a second-browser check are reviewed. The prefilled Cloudflare account ID came from the existing Worker's dashboard URL; an incorrect account fails at D1 discovery.
+
+Do not paste `src/index.js` alone into the Cloudflare dashboard editor. It imports `src/seed.js`, so that single-file action would break the Worker. The old agent's `src/index.ts` path refers to the archived starter, not this upgrade.
+
+### From a computer with Wrangler
+
 Run these commands on a computer where you can sign into your Cloudflare account. Do not send an API token or passcode in chat or commit either to git. First inspect and export the **existing** database, then use that exact database ID in `wrangler.jsonc`:
 
 ```bash

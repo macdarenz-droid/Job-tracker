@@ -1,0 +1,47 @@
+name: Upgrade existing tracker API
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: job-tracker-api-upgrade
+  cancel-in-progress: false
+
+jobs:
+  upgrade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      # Account ID from the existing Worker's Cloudflare dashboard path.
+      CLOUDFLARE_ACCOUNT_ID: ea3e56bfa40e95c8240a07e4f62dd843
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      TRACKER_ACCESS_CODE: ${{ secrets.TRACKER_ACCESS_CODE }}
+    defaults:
+      run:
+        working-directory: cloudflare-api
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: cloudflare-api/package-lock.json
+      - run: npm ci
+      - run: npm test
+      - name: Check the existing D1 and capture its recovery bookmark
+        run: node scripts/deploy-checks.mjs prepare
+      - name: Apply additive D1 migration
+        run: npx wrangler d1 migrations apply DB --remote
+      - name: Confirm old rows survived migration
+        run: node scripts/deploy-checks.mjs after-migration
+      - name: Set access code on the existing Worker
+        run: |
+          set -o pipefail
+          printf '%s' "$TRACKER_ACCESS_CODE" | npx wrangler secret put ACCESS_CODE
+      - name: Deploy updated code to the same Worker
+        run: npx wrangler deploy
+      - name: Check live authentication, history and shared Save
+        run: node scripts/deploy-checks.mjs verify
