@@ -1,4 +1,4 @@
-/* Marc's job tracker. Calm, dense workspace: warm neutrals, hairline borders, colour only where it carries meaning. */
+/* Job tracker styles */
 @font-face{font-family:Geist;src:url("./fonts/Geist-Variable.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap}
 @font-face{font-family:"Geist Mono";src:url("./fonts/GeistMono-Variable.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap}
 
@@ -188,7 +188,7 @@ kbd{font-family:var(--mono);font-size:.68rem;font-weight:500;line-height:1;displ
 .is-cloud .sync-icon{color:var(--good)}
 .sync-icon .ico{width:15px;height:15px}
 
-/* Reveal motion */
+/* Entrance animation */
 .reveal{animation:rise .6s var(--ease) both;animation-delay:calc(var(--i,0)*55ms)}
 
 /* KPIs */
