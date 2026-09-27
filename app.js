@@ -136,7 +136,7 @@ function render(){
   $('nav-count-records').textContent=active.length;$('nav-count-applied').textContent=counts.applications;$('nav-count-bin').textContent=bin.length||'';
   for(const [k] of groups){const b=$('pnav-'+k);if(!b)continue;b.querySelector('.nav-count').textContent=counts[k];b.hidden=!counts[k]&&['unsuccessful','attention'].includes(k);b.classList.toggle('active',view==='records'&&filter===k)}
   $('nav-overview').classList.toggle('active',view==='overview');$('nav-records').classList.toggle('active',view==='records'&&!filter);$('nav-applied').classList.toggle('active',view==='records'&&filter==='applications');$('nav-bin').classList.toggle('active',view==='bin');
-  $('page-title').textContent=viewTitle();$('section-name').textContent=viewTitle();document.title=viewTitle()+' | Marc\'s job tracker';
+  $('page-title').textContent=viewTitle();$('section-name').textContent=viewTitle();document.title=viewTitle()+' | Job tracker';
   $('updated').textContent='Last saved '+fmt(tracker.updated_at);
   $('overview').hidden=view!=='overview';$('records-view').hidden=view==='overview';$('range').hidden=view!=='overview';
   if(view==='overview'){$('page-meta').textContent=`${active.length} active`;renderOverview(active,counts,a)}
