@@ -37,11 +37,13 @@ jobs:
         run: npx wrangler d1 migrations apply DB --remote
       - name: Confirm old rows survived migration
         run: node scripts/deploy-checks.mjs after-migration
-      - name: Set access code on the existing Worker
+      - name: Deploy updated code and access code to the same Worker
         run: |
-          set -o pipefail
-          printf '%s' "$TRACKER_ACCESS_CODE" | npx wrangler secret put ACCESS_CODE
-      - name: Deploy updated code to the same Worker
-        run: npx wrangler deploy
+          set -euo pipefail
+          umask 077
+          secrets_file="$RUNNER_TEMP/job-tracker-worker-secrets.json"
+          trap 'rm -f "$secrets_file"' EXIT
+          printf '{"ACCESS_CODE":"%s"}' "$TRACKER_ACCESS_CODE" > "$secrets_file"
+          npx wrangler deploy --secrets-file "$secrets_file"
       - name: Check live authentication, history and shared Save
         run: node scripts/deploy-checks.mjs verify
