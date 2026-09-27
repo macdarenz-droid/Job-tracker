@@ -6,21 +6,20 @@
   <meta name="robots" content="noindex,nofollow">
   <meta name="color-scheme" content="dark light">
   <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self' https://*.workers.dev; img-src 'self' data:; font-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
-  <title>Marc's job tracker</title>
-  <meta name="description" content="Marc's Australian job application tracker.">
+  <title>Job tracker</title>
+  <meta name="description" content="Job application tracker.">
   <link rel="preload" href="./fonts/Geist-Variable.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="./styles.css?v=4">
+  <link rel="stylesheet" href="./styles.css?v=5">
   <script src="./theme.js?v=3"></script>
   <script src="./cloud-config.js?v=2" defer></script>
-  <script src="./app.js?v=4" defer></script>
+  <script src="./app.js?v=5" defer></script>
 </head>
 <body>
   <section id="unlock" class="gate">
     <div class="gate-bg" aria-hidden="true"><span class="orb orb-a"></span><span class="orb orb-b"></span><span class="orb orb-c"></span><span class="gate-grid"></span></div>
     <div class="gate-inner">
-      <div class="gate-mark"><span class="mark mark-lg">M</span></div>
-      <p class="gate-kicker">Job tracker</p>
-      <h1>Marc's job search</h1>
+      <div class="gate-mark"><span class="mark mark-lg">J</span></div>
+      <h1>Job tracker</h1>
       <p class="gate-lede">Enter the 6-digit code to continue.</p>
       <form id="unlock-form" autocomplete="off">
         <label for="code" class="sr-only">Access code</label>
@@ -37,7 +36,7 @@
 
   <div id="workspace" class="app" hidden>
     <aside class="sidebar" id="sidebar" aria-label="Sidebar">
-      <div class="brand"><span class="mark">M</span><div class="brand-type"><strong>Marc's job search</strong><small>Australia</small></div></div>
+      <div class="brand"><span class="mark">J</span><div class="brand-type"><strong>Job tracker</strong><small>Australia</small></div></div>
       <button class="sb-search" id="open-palette" type="button"><span data-icon="search"></span><span>Search…</span><kbd id="palette-kbd">⌘K</kbd></button>
       <nav class="sb-nav" aria-label="Workspace">
         <button class="nav-item" id="nav-overview" type="button"><span data-icon="overview"></span><span>Overview</span></button>
