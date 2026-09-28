@@ -1,0 +1,142 @@
+[
+  {
+    "board": "Melton City Council",
+    "url": "https://meltoncity-external.applynow.net.au",
+    "result": "found 1",
+    "rendered_by_browse": true,
+    "notes": "melton.applynow.net.au is the Scout Talent multi-client marketplace, not Melton's own list (shows Domino's, aged-care and test jobs). Melton's vacancy page (www.melton.vic.gov.au .../Job-Opportunities) iframes testmelton123.applynow.net.au, which iframes meltoncity-external.applynow.net.au. That list shows 5 jobs: Civil Projects Officer (MEL1888, Band 6, closes 7 Oct 2026, written to extra/), Debt Collection Officer, GIS Officer, Playgroup Officer, Social Connections Team Leader. Civil Projects Officer is Band 6 with contract-management criteria, so a stretch for a junior."
+  },
+  {
+    "board": "Wyndham City Council",
+    "url": "https://recruitment.wyndham.vic.gov.au/",
+    "result": "none",
+    "rendered_by_browse": true,
+    "notes": "4 jobs: Chief Financial Officer, Coordinator Climate & Resilience, Senior Town Planner, Technical Support Officer (Casual, Technical Services, Cultural Centre). None a suitable civil title. A web search hit for recruitment.wyndham.vic.gov.au/careers/jobs/graduate-civil-engineer-1448 is not on the live list (probably closed); not opened."
+  },
+  {
+    "board": "Brimbank City Council",
+    "url": "https://brimbank.pulsesoftware.com/Pulse/jobs",
+    "result": "none",
+    "rendered_by_browse": true,
+    "notes": "8 jobs (library, waste driver, H&S, ICT, neighbourhood house, golf, Roads Maintenance Officer Multi-Skilled, Pedestrian Facilities Coordinator Band 8A). None suitable and none junior civil."
+  },
+  {
+    "board": "Hume City Council",
+    "url": "https://jobs.smartrecruiters.com/HumeCityCouncil",
+    "result": "none",
+    "rendered_by_browse": true,
+    "notes": "31 postings confirmed via the public SmartRecruiters API (listing page hides some behind Show more). Civil-adjacent only: Road Maintenance Officer x2, Drainage Maintenance Officer (Coolaroo depot, trades/maintenance). No graduate/junior engineer."
+  },
+  {
+    "board": "Moorabool Shire Council",
+    "url": "",
+    "result": "unread",
+    "rendered_by_browse": false,
+    "notes": "Not checked: 30-call budget used; portal URL not found."
+  },
+  {
+    "board": "City of Ballarat",
+    "url": "https://www.ballarat.vic.gov.au/current-vacancies",
+    "result": "unread",
+    "rendered_by_browse": false,
+    "notes": "browse.py timed out after 85 s on the current-vacancies page; no content returned. Not retried (budget). Older portal seen in search: careers.ballarat.vic.gov.au/job/job_search_result.cfm?from=direct."
+  },
+  {
+    "board": "City of Greater Bendigo",
+    "url": "",
+    "result": "unread",
+    "rendered_by_browse": false,
+    "notes": "Not checked: budget used; portal URL not found (web search did not surface a Bendigo Pulse or other portal)."
+  },
+  {
+    "board": "City of Greater Geelong",
+    "url": "https://careers.pageuppeople.com/887/cw/en/listing/",
+    "result": "none",
+    "rendered_by_browse": true,
+    "notes": "10 listings (Family Support Officer, Transport Planning Engineer, Principal Planner, Org Planning & Insights Lead, 5 EOIs, Community Care Worker). Only civil-adjacent: Transport Planning Engineer (permanent full-time, closes 4 Oct 2026), experienced transport planning role, not a junior/graduate title and not opened. Not written to extra/."
+  },
+  {
+    "board": "careers.vic.gov.au (search civil engineer)",
+    "url": "https://www.careers.vic.gov.au/jobs?keywords=civil+engineer",
+    "result": "unread",
+    "rendered_by_browse": true,
+    "notes": "Page and search form rendered (browse.py, 25 s and 45 s waits) but the results list never loaded (results come from /search-proxy client side), so this is not a 'no jobs' result. Category URL /jobs/engineering-jobs returns 404. Seen only in web search, not opened: careers.vic.gov.au/job/graduate-civil-engineering-79941 and careers.people.vic.gov.au/DOT/job/Melbourne-CBD-Graduate,-Civil-Engineering-Melb-Melbourne/1212257066/ (Victoria's Big Build 2026 graduate program; likely closed, unverified)."
+  },
+  {
+    "board": "Major Road Projects Victoria",
+    "url": "https://jobs.careers.vic.gov.au/jobtools/jncustomsearch.searchResults?in_organid=19311",
+    "result": "none",
+    "rendered_by_browse": true,
+    "notes": "MRPV careers portal all-jobs search returned 'There are no jobs that match your search criteria.'"
+  },
+  {
+    "board": "Level Crossing Removal Project / Victorian Infrastructure Delivery Authority",
+    "url": "",
+    "result": "unread",
+    "rendered_by_browse": false,
+    "notes": "Not checked separately: budget used. They advertise via careers.vic.gov.au, whose results list would not render."
+  },
+  {
+    "board": "Department of Transport and Planning Victoria",
+    "url": "",
+    "result": "unread",
+    "rendered_by_browse": false,
+    "notes": "Not checked separately: budget used. See careers.vic.gov.au note."
+  },
+  {
+    "board": "Transport for NSW (iworkfor.nsw.gov.au)",
+    "url": "https://iworkfor.nsw.gov.au/jobs/all-keywords/civil/all-organisations--entities/engineering-jobs/all-locations/all-worktypes?jobcategoryid=10345",
+    "result": "unread",
+    "rendered_by_browse": false,
+    "notes": "browse.py timed out (chrome exceeded 85 s), no content. Not retried (budget). Search results only show the 2026 NSW Government Graduate Program on iworkfornsw.taleo.net (not opened)."
+  },
+  {
+    "board": "Queensland Smart Jobs",
+    "url": "https://smartjobs.qld.gov.au/jobtools/jncustomsearch.searchResults?in_organid=14904&in_multi01_id=1108&in_multi01=%2237%22",
+    "result": "none",
+    "rendered_by_browse": true,
+    "notes": "Rendered an engineering-group listing of 13 jobs (the keyword search URL I tried returned 404, so this is the occupational-group filter, not a civil keyword search). No graduate/junior/cadet/drafter titles. Civil-related: TMR Engineer (Civil) PO3 Bundaberg/Wide Bay, $102,817-$111,975, closes 8 Oct 2026 (permanent, Maintenance team; a qualified-engineer level, not in the target title list; advert page not opened, so not written to extra/), TMR Principal Engineer (Civil) x2 (PO6), TMR Senior Engineer (PO4, ongoing), Principal Engineer (Project Planning) PO6. The separate Qld graduate portal graduates.qld.gov.au was not checked."
+  },
+  {
+    "board": "Central Highlands Regional Council (Qld)",
+    "url": "",
+    "result": "unread",
+    "rendered_by_browse": false,
+    "notes": "Not checked: budget used."
+  },
+  {
+    "board": "Rockhampton Regional Council",
+    "url": "",
+    "result": "unread",
+    "rendered_by_browse": false,
+    "notes": "Not checked: budget used."
+  },
+  {
+    "board": "Isaac Regional Council",
+    "url": "",
+    "result": "unread",
+    "rendered_by_browse": false,
+    "notes": "Not checked: budget used."
+  },
+  {
+    "board": "Mackay Regional Council",
+    "url": "",
+    "result": "unread",
+    "rendered_by_browse": false,
+    "notes": "Not checked: budget used."
+  },
+  {
+    "board": "Gladstone Regional Council",
+    "url": "",
+    "result": "unread",
+    "rendered_by_browse": false,
+    "notes": "Not checked: budget used."
+  },
+  {
+    "board": "Toowoomba Regional Council",
+    "url": "",
+    "result": "unread",
+    "rendered_by_browse": false,
+    "notes": "Not checked: budget used."
+  }
+]

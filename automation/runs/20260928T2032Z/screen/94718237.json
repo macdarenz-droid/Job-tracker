@@ -1,11 +1,11 @@
 {
- "percent": 76,
+ "percent": 62,
  "rationale": [
   "Graduate Engineer for cost estimating and document control accepts '0–2 years' experience' and a civil, structural or related engineering degree, which Marc's BSCE meets.",
   "Duties (drawing review, quantity take-offs, tender support) match Marc's coursework in cost estimates and bills of quantities and his site drawing review; AutoCAD is advantageous and held.",
   "Rhodes Sydney is interstate; the role is primarily office-based."
  ],
- "caution": "Marc graduated in 2019 rather than recently and has no Aconex or Procore; the 'PE' status wording cannot be judged from the facts.",
+ "caution": "Re-scored by Claude: employer is a fit-out and cladding subcontractor, so the work is building estimating rather than civil engineering.",
  "gaps": [
   "No façade industry or graduate internship experience",
   "No Aconex, Procore or other document control system experience",
@@ -30,5 +30,6 @@
   "How much notice are you required to give your current employer?",
   "Do you have Engineering Drawing Interpretation experience?",
   "Have you completed a qualification in mathematics / mathematical science?"
- ]
+ ],
+ "rescored_by": "Claude 29 Sep 2026"
 }
