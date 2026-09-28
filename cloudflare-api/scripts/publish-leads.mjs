@@ -3,16 +3,17 @@ import {pathToFileURL} from 'node:url';
 
 const endpoint = 'https://job-tracker-api.mmarcdarenz.workers.dev/api/state';
 const expired = new Set(['SKIPPED_EXPIRED', 'SKIPPED_CLOSED', 'VACANCY_REMOVED']);
+const reviewHolds = new Set(['HELD_MANDATORY_REQUIREMENTS', 'HELD_ELIGIBILITY_UNCONFIRMED', 'HELD_PACK_VERIFICATION']);
 const norm = value => String(value || '').toLowerCase().replace(/[^a-z0-9]/g, '');
 const location = value => { try { const u = new URL(value); return u.hostname.toLowerCase() + u.pathname.replace(/\/$/, '').toLowerCase(); } catch { return ''; } };
 
 export function mergeBatch(state, batch) {
-  if (!batch || typeof batch.batch_id !== 'string' || !Array.isArray(batch.leads) || !Array.isArray(batch.status_updates || []))
+  if (!batch || typeof batch.batch_id !== 'string' || !Array.isArray(batch.leads) || !Array.isArray(batch.status_updates || []) || !Array.isArray(batch.manual_reviews || []))
     throw Error('The research batch format is invalid.');
   const next = structuredClone(state);
   const keys = new Map([...next.applications, ...next.leads].map(row => [row.key, row]));
   const manual = next.manual_entries || [];
-  let added = 0, changed = 0;
+  let added = 0, changed = 0, reviewed = 0;
   for (const lead of batch.leads) {
     if (!lead || !lead.key || !lead.company || !lead.role || !lead.checked_at || Number.isNaN(Date.parse(lead.checked_at)) ||
         !/^https:\/\//.test(lead.job_url || lead.company_url || '') ||
@@ -44,14 +45,39 @@ export function mergeBatch(state, batch) {
       status_evidence_url:update.status_evidence_url, status_check_note:update.status_check_note || ''});
     changed++;
   }
-  return {state:next, added, changed};
+  for (const review of batch.manual_reviews || []) {
+    const row = manual.find(record => record.id === review.id);
+    if (!row || !reviewHolds.has(review.status) || !review.review_id || !review.note ||
+        !Number.isSafeInteger(review.expected_version) || !review.expected_status ||
+        !review.reviewed_at || Number.isNaN(Date.parse(review.reviewed_at)) ||
+        !Array.isArray(review.evidence_urls) || !review.evidence_urls.length ||
+        review.evidence_urls.some(url => !/^https:\/\//.test(url)))
+      throw Error('Review hold requires an existing record, exact version/status, dated rationale and HTTPS evidence.');
+    const previousReview = (row.review_history || []).find(item => item.review_id === review.review_id);
+    const entry = {review_id:review.review_id, reviewer:'Codex', reviewed_at:review.reviewed_at,
+      status:review.status, note:review.note, evidence_urls:review.evidence_urls};
+    if (previousReview) {
+      if (JSON.stringify(previousReview) !== JSON.stringify(entry)) throw Error('Review ID exists with different evidence; reconcile first.');
+      continue; // Never reset a later application outcome on a rerun.
+    }
+    if (row.version !== review.expected_version || row.status !== review.expected_status ||
+        !/^(PREPARED_NOT_SENT|READY_[A-Z_]+)$/.test(row.status) || row.created_by !== review.expected_created_by)
+      throw Error(`Record changed since review: ${review.id}; preserve it and reconcile.`);
+    row.status = review.status;
+    row.version += 1;
+    row.updated_at = review.reviewed_at;
+    row.review_history = [...(row.review_history || []), entry];
+    row.notes = [row.notes, `Review hold (${review.reviewed_at.slice(0,10)}): ${review.note}`].filter(Boolean).join('\n');
+    reviewed++;
+  }
+  return {state:next, added, changed, reviewed};
 }
 
 async function main() {
   const code = process.env.TRACKER_ACCESS_CODE;
   if (!/^\d{6}$/.test(code || '')) throw Error('The private tracker code secret is unavailable.');
   const batch = JSON.parse(readFileSync(process.argv[2] || 'research/lead-updates.json', 'utf8'));
-  if (!batch.leads?.length && !batch.status_updates?.length) { console.log('No research changes in this batch.'); return; }
+  if (!batch.leads?.length && !batch.status_updates?.length && !batch.manual_reviews?.length) { console.log('No research changes in this batch.'); return; }
   const headers = {'X-Tracker-Code':code};
   const get = async () => {
     const response = await fetch(endpoint, {headers, cache:'no-store'});
@@ -62,18 +88,19 @@ async function main() {
   if (!Number.isSafeInteger(current.version) || !current.state?.applications || !current.state?.leads || !current.state?.manual_entries)
     throw Error('Incomplete cloud state; publication stopped.');
   const result = mergeBatch(current.state, batch);
-  if (!result.added && !result.changed) { console.log('Batch already present; no write needed.'); return; }
+  if (!result.added && !result.changed && !result.reviewed) { console.log('Batch already present; no write needed.'); return; }
   const saved = await fetch(endpoint, {method:'PUT', headers:{...headers,'Content-Type':'application/json'},
     body:JSON.stringify({expected_version:current.version,state:result.state})});
   if (!saved.ok) throw Error(`Version-guarded Save failed (${saved.status}); no blind retry.`);
   const verified = await get();
-  if (verified.version !== current.version + 1 ||
+  const content = state => { const value = structuredClone(state); delete value.updated_at; return JSON.stringify(value); };
+  if (verified.version !== current.version + 1 || content(verified.state) !== content(result.state) ||
       JSON.stringify(verified.state.applications) !== JSON.stringify(current.state.applications) ||
       verified.state.manual_entries.length !== current.state.manual_entries.length ||
       verified.state.record_visibility.length !== current.state.record_visibility.length ||
       batch.leads.some(lead => !verified.state.leads.some(row => row.key === lead.key)))
     throw Error('The live read did not confirm preservation and the new lead keys.');
-  console.log(`Verified cloud state version ${verified.version}: ${result.added} new leads, ${result.changed} closed/expired updates; prior applications, manual entries and Bin retained.`);
+  console.log(`Verified cloud state version ${verified.version}: ${result.added} new leads, ${result.changed} closed/expired updates, ${result.reviewed} guarded review holds; prior applications, attachments, attribution and Bin retained.`);
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href)
