@@ -1,0 +1,162 @@
+[
+ {
+  "id": "7ef5ad72-a183-4f6a-892c-b0f18cb67fba",
+  "key": "manual:7ef5ad72-a183-4f6a-892c-b0f18cb67fba",
+  "contributor_name": "Claude",
+  "created_by": "claude-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260928T1031Z",
+  "created_at": "2026-09-28T10:59:21.000Z",
+  "updated_at": "2026-09-28T10:59:21.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Department of Transport and Main Roads",
+  "role": "Engineer (Civil)",
+  "location": "Bundaberg, Bundaberg & Wide Bay Burnett QLD",
+  "job_url": "https://www.seek.com.au/job/94823255",
+  "status": "HELD_ELIGIBILITY_UNCONFIRMED",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMPLOYER_PORTAL",
+  "fit": [
+   "Department of Transport and Main Roads (TMR) is a direct government employer; the role works \"with supervision and guidance from senior engineering staff\", suggesting it suits less-experienced engineers.",
+   "Contract administration, quantities, materials testing and risk assessment closely match Marc's Advanced Diploma coursework (AS 1289, standards, drainage).",
+   "The extracted advert text only shows the driver's licence requirement under \"Mandatory qualifications and conditions\"; the rest of that list is not captured."
+  ],
+  "gaps": [],
+  "match_score": {
+   "percent": 65,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Department of Transport and Main Roads (TMR) is a direct government employer; the role works \"with supervision and guidance from senior engineering staff\", suggesting it suits less-experienced engineers.",
+    "Contract administration, quantities, materials testing and risk assessment closely match Marc's Advanced Diploma coursework (AS 1289, standards, drainage).",
+    "The extracted advert text only shows the driver's licence requirement under \"Mandatory qualifications and conditions\"; the rest of that list is not captured."
+   ],
+   "caution": "Re-checked by Claude from the full advert: the mandatory list is a Washington Accord civil engineering degree or EA-assessed equivalence, C class licence and a criminal history check."
+  },
+  "notes": "Held by Claude: Mandatory: a four-year Washington Accord accredited Bachelor of Engineering (Civil) or an equivalence assessed by Engineers Australia. Marc's BSCE (Divine Word College of Legazpi, 2014 to 2019) is a Philippine degree; whether it is accredited under the Washington Accord or whether Marc holds an Engineers Australia assessment is not on record; Current C class driver's licence (state not on record) and a criminal history check on the recommended person; Bundaberg QLD posting: interstate relocation Marc has not confirmed (TMR offers relocation assistance)",
+  "checked_at": "2026-09-28T10:59:21.000Z",
+  "seek_id": "94823255",
+  "duplicate_key": "departmentoftransportandmainroads|seek:94823255"
+ },
+ {
+  "id": "6e0dcfd5-dbd2-4d0a-8a61-986867fbf0f8",
+  "key": "manual:6e0dcfd5-dbd2-4d0a-8a61-986867fbf0f8",
+  "contributor_name": "Claude",
+  "created_by": "claude-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260928T1031Z",
+  "created_at": "2026-09-28T10:59:21.000Z",
+  "updated_at": "2026-09-28T10:59:21.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Shire of Capel",
+  "role": "Engineering Technical Officer",
+  "location": "Capel, Bunbury & South West WA",
+  "job_url": "https://www.seek.com.au/job/94823521",
+  "status": "HELD_ELIGIBILITY_UNCONFIRMED",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMPLOYER_PORTAL",
+  "fit": [
+   "Shire of Capel is a direct WA local government employer explicitly open to candidates \"looking to expand\" their experience, not just established experts.",
+   "Technical investigations, inspections, drawing interpretation and engineering documentation closely match Marc's Advanced Diploma coursework.",
+   "A current WA \"C\" Class driver's licence is required; Marc holds an Australian licence but its issuing state is not on record."
+  ],
+  "gaps": [],
+  "match_score": {
+   "percent": 68,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Shire of Capel is a direct WA local government employer explicitly open to candidates \"looking to expand\" their experience, not just established experts.",
+    "Technical investigations, inspections, drawing interpretation and engineering documentation closely match Marc's Advanced Diploma coursework.",
+    "A current WA \"C\" Class driver's licence is required; Marc holds an Australian licence but its issuing state is not on record."
+   ],
+   "caution": "Applications close 7 October 2026, the earliest deadline in this batch, and the Shire may close the role early if a suitable candidate is found."
+  },
+  "notes": "Held by Claude: Position Description PDF (the 'position related requirements') is not in the SEEK text and was not read; current WA C class driver's licence (Marc's licence state is not on record); fixed term to 30 September 2027 in Capel WA: interstate relocation Marc has not confirmed",
+  "checked_at": "2026-09-28T10:59:21.000Z",
+  "seek_id": "94823521",
+  "duplicate_key": "shireofcapel|seek:94823521"
+ },
+ {
+  "id": "f9dac241-8871-4ebd-9c06-a2b5b7c93a78",
+  "key": "manual:f9dac241-8871-4ebd-9c06-a2b5b7c93a78",
+  "contributor_name": "Claude",
+  "created_by": "claude-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260928T1031Z",
+  "created_at": "2026-09-28T10:59:21.000Z",
+  "updated_at": "2026-09-28T10:59:21.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Torres Strait Island Regional Council",
+  "role": "Engineering Officer - Badu Island",
+  "location": "Cairns, Cairns & Far North QLD",
+  "job_url": "https://www.seek.com.au/job/94894832",
+  "status": "HELD_ELIGIBILITY_UNCONFIRMED",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMPLOYER_PORTAL",
+  "fit": [
+   "Torres Strait Island Regional Council is a direct government employer for a hands-on Engineering Officer role on Badu Island.",
+   "Practical civil works/maintenance experience is only \"desirable\"; the firm requirement is a current Queensland C class driver's licence.",
+   "Facts on record show only \"an Australian driver's licence\" without stating which state issued it, so the QLD-specific requirement cannot be confirmed."
+  ],
+  "gaps": [
+   "Practical civil works/maintenance/plant-operation experience not confirmed"
+  ],
+  "match_score": {
+   "percent": 62,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Torres Strait Island Regional Council is a direct government employer for a hands-on Engineering Officer role on Badu Island.",
+    "Practical civil works/maintenance experience is only \"desirable\"; the firm requirement is a current Queensland C class driver's licence.",
+    "Facts on record show only \"an Australian driver's licence\" without stating which state issued it, so the QLD-specific requirement cannot be confirmed."
+   ],
+   "caution": "Extremely remote Torres Strait island posting; Marc's recorded FIFO/regional availability covers Central Queensland, not the Torres Strait specifically. Closes 9 October 2026."
+  },
+  "notes": "Held by Claude: \"Mandatory Current C class, Type Provisional or higher Queensland Drivers licence\" — facts.json records only an \"Australian driver's licence\" without stating which state issued it, so this cannot be confirmed",
+  "checked_at": "2026-09-28T10:59:21.000Z",
+  "seek_id": "94894832",
+  "duplicate_key": "torresstraitislandregionalcouncil|seek:94894832"
+ },
+ {
+  "id": "6a33de91-5135-4fd0-876d-e9b293da9a95",
+  "key": "manual:6a33de91-5135-4fd0-876d-e9b293da9a95",
+  "contributor_name": "Claude",
+  "created_by": "claude-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260928T1031Z",
+  "created_at": "2026-09-28T10:59:21.000Z",
+  "updated_at": "2026-09-28T10:59:21.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Torres Strait Island Regional Council",
+  "role": "Engineering Officer - St Pauls Island",
+  "location": "Cairns, Cairns & Far North QLD",
+  "job_url": "https://www.seek.com.au/job/94913922",
+  "status": "HELD_ELIGIBILITY_UNCONFIRMED",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMPLOYER_PORTAL",
+  "fit": [
+   "Torres Strait Island Regional Council is a direct government employer for a hands-on Engineering Officer role on St Pauls Island.",
+   "Practical civil works/maintenance experience is only \"desirable\"; the firm requirement is a current Queensland C class driver's licence.",
+   "Facts on record show only \"an Australian driver's licence\" without stating which state issued it, so the QLD-specific requirement cannot be confirmed."
+  ],
+  "gaps": [
+   "Practical civil works/maintenance/plant-operation experience not confirmed"
+  ],
+  "match_score": {
+   "percent": 62,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Torres Strait Island Regional Council is a direct government employer for a hands-on Engineering Officer role on St Pauls Island.",
+    "Practical civil works/maintenance experience is only \"desirable\"; the firm requirement is a current Queensland C class driver's licence.",
+    "Facts on record show only \"an Australian driver's licence\" without stating which state issued it, so the QLD-specific requirement cannot be confirmed."
+   ],
+   "caution": "Extremely remote Torres Strait island posting; Marc's recorded FIFO/regional availability covers Central Queensland, not the Torres Strait specifically."
+  },
+  "notes": "Held by Claude: \"Mandatory Current C class, Type Provisional or higher Queensland Drivers licence\" — facts.json records only an \"Australian driver's licence\" without stating which state issued it, so this cannot be confirmed",
+  "checked_at": "2026-09-28T10:59:21.000Z",
+  "seek_id": "94913922",
+  "duplicate_key": "torresstraitislandregionalcouncil|seek:94913922"
+ }
+]
