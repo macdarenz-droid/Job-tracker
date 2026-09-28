@@ -1,0 +1,93 @@
+[
+  {
+    "order": 1,
+    "category": "council",
+    "source": "Melton City Council careers (meltoncity-vacancies.applynow.net.au)",
+    "result": "blocked",
+    "detail": "Careers page is a client-side (Scout Talent) app with no server-rendered listing and no discoverable JSON API; WebFetch and curl both returned only the JS shell. A search snippet mentioned a 'Civil Projects Officer' (Band 8, fixed-term to Jun 2027) but this could not be independently confirmed as currently live or dated within 14 days, so it was not reported as a verified vacancy."
+  },
+  {
+    "order": 2,
+    "category": "council",
+    "source": "Wyndham City Council careers (recruitment.wyndham.vic.gov.au)",
+    "result": "blocked",
+    "detail": "Careers/jobs listing pages returned empty content (JS-rendered ATS). A previously indexed 'Graduate Civil Engineer' posting (recruitment.wyndham.vic.gov.au/careers/jobs/graduate-civil-engineer-1448) was checked directly and now returns the site's 404 page (167 bytes) - confirmed expired/removed, not a current vacancy."
+  },
+  {
+    "order": 3,
+    "category": "council",
+    "source": "Brimbank City Council careers (brimbank.pulsesoftware.com/Pulse/jobs)",
+    "result": "blocked",
+    "detail": "Careers portal returned only a login/dashboard shell (Pulse Software), no vacancy list accessible without authentication."
+  },
+  {
+    "order": 4,
+    "category": "council",
+    "source": "Hume City Council careers (careers.smartrecruiters.com/HumeCityCouncil)",
+    "result": "found 0",
+    "detail": "Full current listing read (approx. 31 roles across Broadmeadows, Coolaroo, Craigieburn, Melbourne CBD, Sunbury). No civil engineering, graduate, cadet, trainee, drafting, technical officer, estimator or project-coordinator titles present."
+  },
+  {
+    "order": 5,
+    "category": "council",
+    "source": "Moorabool Shire Council careers (moorabool.vic.gov.au/About-Council/Careers/Vacancies)",
+    "result": "unread",
+    "detail": "Only checked via WebSearch snippet (not directly fetched, page fetch budget exhausted). Snippet listed Coordinator Financial Services, Customer Service Officer, pool-season roles, Emergency Preparedness coordinator - no civil engineering role indicated, but the page itself was not directly read so this is not a confirmed 'none'."
+  },
+  {
+    "order": 6,
+    "category": "council",
+    "source": "Maribyrnong City Council careers (maribyrnong.recruitmenthub.com.au/Vacancies/)",
+    "result": "found 0",
+    "detail": "Full current listing read directly (8 roles: Portfolio/Project Mgmt Business Partner, Youth Development Lead, Librarian, Senior Economic Development Officer, Corporate Planning Advisor, Senior Accounts Payable Officer, Pool Lifeguard, Swim Teacher). No civil engineering or matching titles."
+  },
+  {
+    "order": 7,
+    "category": "council",
+    "source": "Hobsons Bay City Council careers (hobsonsbay.bigredsky.com)",
+    "result": "found 0",
+    "detail": "Full current listing read directly (9 roles: Health Safety & Wellbeing Business Partner, Municipal Building Surveyor, People Experience Officer, 2x MCH Nurse, Team Leader Sport Facilities, Animal Management Officer, Team Leader Parking & Local Laws, Cyber Security Operations Officer). A 'Civil Design Engineer' role indexed by a third-party job-directory site was checked against this live list and is NOT currently open (not present; third-party listing page itself returned 403 and could not be verified as current)."
+  },
+  {
+    "order": 8,
+    "category": "council",
+    "source": "City of Greater Geelong careers (careers.pageuppeople.com/887/cw/en/listing)",
+    "result": "found 1, not matching",
+    "detail": "Full current listing read directly (12 roles). One engineering role: 'Transport Planning Engineer', Band 6 ($98,633.63 p.a.), posted 16 Sep 2026, closing 4 Oct 2026, requires a civil engineering qualification OR professional transport-planning/engineering experience - assessed as mid-level (not graduate/junior/cadet/trainee, and title is not on the approved list), so not written up as a candidate. Link: https://careers.pageuppeople.com/887/cw/en/job/500815/transport-planning-engineer"
+  },
+  {
+    "order": 9,
+    "category": "council/water",
+    "source": "Melbourne Water careers (melbournewater.com.au/about/careers)",
+    "result": "unread",
+    "detail": "Only checked via WebSearch; no specific graduate/civil/engineering-officer listing surfaced in search snippets. Careers page itself was not directly fetched (fetch budget exhausted)."
+  },
+  {
+    "order": 10,
+    "category": "council/water",
+    "source": "Greater Western Water careers (careers.gww.com.au)",
+    "result": "unread",
+    "detail": "WebSearch surfaced a '2026 Greater Western Water Graduate Program' (Engineering, IT, Business/Arts, 2-year rotational) but with an eligibility window suggesting a 2025/26 intake cycle; not confirmed still open or posted within the last 14 days, and not civil-specific. Not directly fetched (fetch budget exhausted), so not reported as a verified vacancy."
+  },
+  {
+    "order": 11,
+    "category": "vic_government",
+    "source": "careers.vic.gov.au (search: civil engineer graduate)",
+    "result": "blocked",
+    "detail": "Site is a Drupal + Vue ('ripple-vue-bundle') app; job search results are loaded client-side with no discoverable JSON:API or REST endpoint (jsonapi/node/job returned 404). Raw HTML contains filter facets only, no job links. Could not extract a listing without JS execution."
+  },
+  {
+    "order": 12,
+    "category": "vic_government",
+    "source": "Department of Transport and Planning / Major Road Projects Victoria / Level Crossing Removal Project (VIDA) / VicRoads careers",
+    "result": "unread",
+    "detail": "Not checked - both the WebSearch budget (12) and page-fetch budget (20) were exhausted by the council checks above before reaching these. These typically route through careers.vic.gov.au (also blocked) or PageUp/SmartRecruiters portals not yet identified."
+  },
+  {
+    "order": 13,
+    "category": "contractors_consultants",
+    "source": "Civil contractors/consultants with Melbourne-west work (general search)",
+    "result": "unread",
+    "detail": "Not checked at all - WebSearch budget was fully used on council and Vic Gov sources first, per the required source order. No employer names or postings were invented or assumed for this category."
+  }
+]
