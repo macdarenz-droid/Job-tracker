@@ -102,10 +102,22 @@ def record_date(r):
     return ''
 
 
+def prior_outreach():
+    """Marc's own applications recorded from SEEK receipts (automation/prior_outreach.json)."""
+    path = Path(__file__).resolve().parent.parent / 'prior_outreach.json'
+    if not path.exists():
+        return []
+    return read_json(str(path)).get('entries', [])
+
+
 def dedupe_index(state):
     """Everything a new record must not collide with."""
     idx = {'keys': set(), 'seek_ids': set(), 'url_keys': set(), 'company_role': set(), 'company': {}}
     rows = list(state.get('applications', [])) + list(state.get('leads', [])) + list(state.get('manual_entries', []))
+    for e in prior_outreach():
+        c = company_key(e.get('company'))
+        if c:
+            idx['company'].setdefault(c, []).append({'status': 'MANUAL_APPLIED', 'date': e.get('date', ''), 'role': e.get('role', ''), 'key': 'seek-receipt:' + str(e.get('gmail_message_id', ''))})
     for r in rows:
         for k in ('key', 'duplicate_key', 'origin_key'):
             if r.get(k):

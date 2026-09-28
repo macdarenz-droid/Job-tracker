@@ -17,3 +17,6 @@
 {"run_id": "20260928T0532Z", "at": "2026-09-28T05:40:16.000Z", "stage": "send", "company": "JHA Consulting Engineers (NSW) Pty Ltd", "to": "hr@jhaengineers.com.au", "gmail_message_id": "1a0e686d023f0a15", "result": "SENT"}
 {"run_id": "20260928T0532Z", "at": "2026-09-28T05:40:16.000Z", "stage": "sweep", "rotation": "councils_government", "adverts_found": 0}
 {"run_id": "20260928T0532Z", "at": "2026-09-28T05:54:39.000Z", "stage": "end", "new": 37, "screened": 25, "prepared": 1, "ready": 2, "held": 0, "sent": 1, "Offaly PREPARED_NOT_SENT (enquiries@offalycivil.com, next send); All Energy and Sungold READY_JEREMIE_SEEK; JHA SENT this tick; tracker version 23": ""}
+{"run_id": "20260928T1031Z", "at": "2026-09-28T10:31:57.000Z", "stage": "start"}
+{"run_id": "20260928T1031Z", "at": "2026-09-28T10:36:22.000Z", "stage": "discover", "daterange": 7, "max_details": 80, "widened at once: the 3-day digest was 25 weak items after 26 earlier-screened ids were removed": ""}
+{"run_id": "20260928T1031Z", "at": "2026-09-28T10:40:58.000Z", "stage": "send", "company": "Offaly Civil Engineering Pty Ltd", "result": "HELD_PRIOR_APPLICATION", "Gmail: SEEK application to Offaly Graduate Civil Engineer 2026-07-30, closed 2026-08-30; prior_outreach.json created from 101 SEEK receipts": ""}

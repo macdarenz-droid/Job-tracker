@@ -64,6 +64,13 @@ STATE = {
 
 class DedupeTests(unittest.TestCase):
     def setUp(self):
+        self._po = mock.patch.object(tracker, 'prior_outreach', return_value=[])  # keep the live receipt file out of these cases
+        self._po.start()
+
+    def tearDown(self):
+        self._po.stop()
+
+    def setUp(self):
         self.idx = tracker.dedupe_index(json.loads(json.dumps(STATE)))
 
     def test_seek_id_from_any_url_form(self):
@@ -268,3 +275,18 @@ class EmailHtmlTests(unittest.TestCase):
             doc = compact_pdf.pymupdf.open(out)
             uris = [l['uri'] for p in doc for l in p.get_links() if l.get('kind') == compact_pdf.pymupdf.LINK_URI]
             self.assertGreaterEqual(uris.count('https://macdarenz-droid.github.io/Portfolio'), 2)
+
+
+class PriorOutreachTests(unittest.TestCase):
+    def test_seek_receipt_blocks_same_employer_within_window(self):
+        entries = [{'date': '2026-09-01', 'company': 'Offaly Civil Engineering Pty Ltd', 'role': 'Graduate Civil Engineer', 'gmail_message_id': 'x'},
+                   {'date': '2025-01-01', 'company': 'Old Co', 'role': 'Cadet', 'gmail_message_id': 'y'}]
+        with mock.patch.object(tracker, 'prior_outreach', return_value=entries), mock.patch.object(tracker.datetime, 'now') if False else mock.patch('tracker.datetime') as dt:
+            from datetime import datetime as real_dt, timezone
+            dt.now.return_value = real_dt(2026, 9, 28, tzinfo=timezone.utc)
+            dt.side_effect = lambda *a, **k: real_dt(*a, **k)
+            idx = tracker.dedupe_index({'applications': [], 'leads': [], 'manual_entries': []})
+            blocked, why, _ = tracker.check_duplicate({'seek_id': '1', 'company': 'Offaly Civil Engineering', 'title': 'Site Engineer'}, idx)
+            self.assertTrue(blocked); self.assertIn('MANUAL_APPLIED', why)
+            blocked, why, notes = tracker.check_duplicate({'seek_id': '2', 'company': 'Old Co Pty Ltd', 'title': 'Engineer'}, idx)
+            self.assertFalse(blocked); self.assertTrue(notes)
