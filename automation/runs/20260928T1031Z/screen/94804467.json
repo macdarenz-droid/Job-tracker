@@ -1,0 +1,33 @@
+{
+  "percent": 28,
+  "rationale": [
+    "RAF Civil is a direct Melbourne civil contractor looking for a top experienced site/project engineer.",
+    "Ad requires at least 2+ years' experience on Australian Tier 1 projects, which Marc does not have.",
+    "Melbourne location and drainage/piling exposure are a good fit on paper, but the experience bar is explicit."
+  ],
+  "caution": "Screening questions ask directly for years of experience and salary/notice, which will expose the experience gap immediately.",
+  "gaps": [
+    "Drainage and piling experience noted only as \"an advantage\", not confirmed for Marc"
+  ],
+  "mandatory_unmet": [
+    "\"Possess at least 2+ years experience working on Australian Tier 1 projects\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian work experience)"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply via SEEK; screening questions ask right to work, salary, years of experience and notice period.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "RAF Civil Pty Ltd",
+  "title": "Civil Site/Project Engineer",
+  "location": "Melbourne VIC",
+  "url": "https://www.seek.com.au/job/94804467",
+  "listed_at": "2026-09-22T09:12:57.517Z",
+  "expires_at": "2026-10-22T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a civil engineer?",
+    "How much notice are you required to give your current employer?"
+  ]
+}

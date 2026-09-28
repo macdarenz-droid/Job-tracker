@@ -1,0 +1,35 @@
+{
+ "percent": 45,
+ "rationale": [
+  "Northrop Consulting Engineers is a direct Melbourne consultancy; discipline overlap (roads, pavements, earthworks, stormwater, Civil 3D, AutoCAD) closely matches Marc's Advanced Diploma.",
+  "Experience is stated only as \"ideally 3-5 years\", a softened preference rather than a hard requirement, and no citizenship/licence bar is stated.",
+  "In substance the role wants someone to lead project teams and mentor others client-facing, which is a senior/experienced expectation despite the soft wording."
+ ],
+ "caution": "Re-scored by Claude: experienced-level scope; two earlier Northrop trainee records were held on 10 Sep 2026.",
+ "gaps": [
+  "Ideally 3-5 years' post-graduate experience (Marc has far less)",
+  "No independent DRAINS/MUSIC or 12D Model use on record"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [
+  "Role leads projects end to end and mentors emerging engineers; \"ideally 3 to 5 years\" reads as an experienced hire in substance"
+ ],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK with resume and a brief covering letter.",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Northrop Consulting Engineers Pty Ltd",
+ "title": "Civil Engineer",
+ "location": "Melbourne VIC",
+ "url": "https://www.seek.com.au/job/94842398",
+ "listed_at": "2026-09-23T23:57:31.113Z",
+ "expires_at": "2026-10-23T22:57:00.000Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "How many years' experience do you have as a civil engineer?",
+  "Which of the following CAD software do you have experience with?",
+  "What's your expected annual base salary?"
+ ],
+ "rescored_by": "Claude 28 Sep 2026"
+}

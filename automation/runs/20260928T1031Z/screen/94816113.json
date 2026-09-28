@@ -1,0 +1,28 @@
+{
+  "percent": 18,
+  "rationale": [
+    "Focus Executive Recruitment is hiring for an unnamed expanding Geelong/Melbourne civil group.",
+    "Ad expects 2-5 years' experience in a similar site engineering function, ideally with recognisable Melbourne contractors.",
+    "Geelong/Melbourne location is a strong match, but Marc lacks the Australian site experience expected."
+  ],
+  "caution": "Recruiter names no employer and restricts applicants to Melbourne/Geelong residents; only candidates already in the area are considered.",
+  "gaps": [
+    "No experience with recognisable Melbourne/Geelong civil contractors"
+  ],
+  "mandatory_unmet": [
+    "\"have 2 - 5 years experience working in a similar function\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian work experience)"
+  ],
+  "mandatory_unresolved": [],
+  "route": "EMAIL",
+  "apply_email": "resume@focusrecruit.com.au",
+  "apply_instructions": "Email resume to Paul Martin at resume@focusrecruit.com.au or call 0411 279 430.",
+  "open": true,
+  "employer_is_agency": true,
+  "company": "Focus Executive Recruitment Pty Ltd",
+  "title": "Site Engineer - Civil Works - Geelong",
+  "location": "Geelong, South West Coast VIC",
+  "url": "https://www.seek.com.au/job/94816113",
+  "listed_at": "2026-09-23T01:00:07.134Z",
+  "expires_at": "2026-10-23T00:00:00.000Z",
+  "screening_questions": []
+}

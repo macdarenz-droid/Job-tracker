@@ -1,0 +1,28 @@
+{
+  "percent": 43,
+  "rationale": [
+    "City of Gold Coast Undergraduate Academy is for students entering their final year of a Bachelor of Engineering, starting Feb 2027.",
+    "Marc's BSCE finished in 2019 and his Advanced Diploma finished Feb 2026; he is not currently enrolled at university.",
+    "General rotational civil exposure and QLD location are reasonable fits, but the core eligibility rule is not met."
+  ],
+  "caution": "Program is explicitly for current final-year undergraduates, not diploma or degree graduates.",
+  "gaps": [
+    "Part-time 16 hrs/week during study periods does not suit a graduate not currently studying"
+  ],
+  "mandatory_unmet": [
+    "\"be enrolled in and entering the final year of a relevant undergraduate Bachelor of Engineering degree at a recognised Australian university\" (Marc completed his BSCE in 2019 and is not currently enrolled at university)"
+  ],
+  "mandatory_unresolved": [],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": "",
+  "apply_instructions": "Apply via the City of Gold Coast careers portal (SEEK link-out) with transcript, CV and cover letter.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "City of Gold Coast",
+  "title": "Undergraduate Engineers",
+  "location": "Bundall, Gold Coast QLD",
+  "url": "https://www.seek.com.au/job/94839731",
+  "listed_at": "2026-09-23T21:30:55.898Z",
+  "expires_at": "2026-10-12T12:59:59.000Z",
+  "screening_questions": []
+}

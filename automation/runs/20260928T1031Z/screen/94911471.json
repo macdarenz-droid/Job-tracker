@@ -1,0 +1,27 @@
+{
+  "percent": 47,
+  "rationale": [
+    "Downer's Graduate Engineering Program is a strong role-level and discipline fit for a structured 2027 graduate rotation.",
+    "Ad requires a Civil/Mechanical/Electrical Engineering degree completed in 2025 or due by end of 2026, and Australian citizenship or PR.",
+    "Marc's BSCE finished in 2019 (not 2025/2026) and his February 2026 Advanced Diploma is a VET qualification, not an engineering degree; he also holds a 485 visa, not citizenship/PR."
+  ],
+  "caution": "Two separate hard requirements are unmet: the degree completion window and citizenship/PR.",
+  "gaps": [],
+  "mandatory_unmet": [
+    "\"Degree in Mechanical, Electrical or Civil Engineering, completed in 2025 or due for completion by the end of 2026\" (Marc's Bachelor of Science in Civil Engineering was completed in 2019; his February 2026 completion is an Advanced Diploma, not an engineering degree)",
+    "\"Australian Citizenship or Permanent Residency\" (Marc holds a Subclass 485 visa to December 2027, not citizenship or permanent residency)"
+  ],
+  "mandatory_unresolved": [],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": "",
+  "apply_instructions": "Apply via the SEEK link-out to Downer's online application, with resume and cover letter.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Downer EDI Limited",
+  "title": "Graduate Engineering Program 2027",
+  "location": "Brisbane QLD",
+  "url": "https://www.seek.com.au/job/94911471",
+  "listed_at": "2026-09-28T03:30:05.813Z",
+  "expires_at": "2026-10-28T03:30:00.000Z",
+  "screening_questions": []
+}

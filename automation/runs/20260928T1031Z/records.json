@@ -1,0 +1,218 @@
+[
+ {
+  "id": "f24c80e2-94a8-4db1-bc8d-c2336d5ca5aa",
+  "key": "manual:f24c80e2-94a8-4db1-bc8d-c2336d5ca5aa",
+  "contributor_name": "Claude",
+  "created_by": "claude-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260928T1031Z",
+  "created_at": "2026-09-28T10:51:03.000Z",
+  "updated_at": "2026-09-28T10:51:03.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_CBX_Group_Resume.pdf",
+    "stored_in": "not_uploaded"
+   },
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_CBX_Group_Jr_Civil_Construction_Estimator_Cover_Letter.pdf",
+    "stored_in": "not_uploaded"
+   }
+  ],
+  "company": "CBX Group",
+  "role": "Jr Civil Construction Estimator",
+  "location": "Melbourne VIC",
+  "job_url": "https://www.seek.com.au/job/94829884",
+  "company_url": "",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Junior Civil Construction Estimator, Marc Masarate",
+  "email_body": "Hello,\n\nI'm applying for the Jr Civil Construction Estimator role advertised on SEEK. I'm based in Melton, so Melbourne is home ground, and estimating is where I want to build a career because it joins the drawings and the numbers.\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026. The coursework included cost estimates and bills of quantities alongside road, earthworks, pavement and stormwater designs drawn in AutoCAD and Civil 3D to Australian Standards, so reading drawings and specifications and turning them into quantities is familiar work. Before that I worked on site in the Philippines from April 2019 to February 2020, reviewing drawings, checking the work against them, tracking procurement and materials, and chasing pricing and deliveries with suppliers and subcontractors.\n\nTo be plain: I haven't worked in a paid estimating role yet, and I use Excel but haven't used Bluebeam or E1, so I'd be learning your tools and your rates from the junior end. I hold a White Card, an Australian driver's licence and full working rights until December 2027 on a Subclass 485 visa, and I'm available to travel for remote works.\n\nMy drawings are at https://macdarenz-droid.github.io/Portfolio. I'd be glad to talk.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "CBX Group is a direct Melbourne employer explicitly hiring a Junior Civil Construction Estimator with no years-of-experience bar stated.",
+   "Strong numerical/analytical skills and attention to detail are the stated requirements, which fit Marc's stated strengths.",
+   "Melbourne location closely matches Marc's base in Melton VIC."
+  ],
+  "gaps": [
+   "No prior estimating role experience"
+  ],
+  "match_score": {
+   "percent": 82,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "CBX Group is a direct Melbourne employer explicitly hiring a Junior Civil Construction Estimator with no years-of-experience bar stated.",
+    "Strong numerical/analytical skills and attention to detail are the stated requirements, which fit Marc's stated strengths.",
+    "Melbourne location closely matches Marc's base in Melton VIC."
+   ],
+   "caution": "No estimating-specific experience on record; \"junior\" framing implies training will be provided."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-09-23T07:18:28.387Z",
+   "expires_at": "2026-10-23T12:59:59.999Z",
+   "verified_at": "2026-09-28T10:36:02.000Z",
+   "apply_instructions": "Apply via SEEK.",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a Civil Construction Estimator?",
+    "How much notice are you required to give your current employer?",
+    "Do you have Cost Estimation experience?",
+    "Do you have Supplier Management experience?"
+   ]
+  },
+  "screening_answers": [
+   {
+    "question": "Which of the following statements best describes your right to work in Australia?",
+    "answer": "I hold a Subclass 485 visa with full working rights until December 2027."
+   },
+   {
+    "question": "What's your expected annual base salary?",
+    "answer": "[Marc to confirm. The ad states $70,000 to $100,000 per year.]"
+   },
+   {
+    "question": "How many years' experience do you have as a Civil Construction Estimator?",
+    "answer": "None in a paid estimating role. Cost estimates and bills of quantities were part of my Advanced Diploma of Civil Construction Design (2024 to 2026)."
+   },
+   {
+    "question": "How much notice are you required to give your current employer?",
+    "answer": "[Marc to confirm.]"
+   },
+   {
+    "question": "Do you have Cost Estimation experience?",
+    "answer": "Yes, from study: cost estimates and bills of quantities for road, earthworks and drainage designs in the Advanced Diploma; no paid estimating role yet."
+   },
+   {
+    "question": "Do you have Supplier Management experience?",
+    "answer": "Some: as a field engineer in the Philippines (2019 to 2020) I tracked procurement and materials and coordinated with suppliers and subcontractors on pricing and deliveries."
+   }
+  ],
+  "checklist": [
+   "Open https://www.seek.com.au/job/94829884 and use Apply.",
+   "Attach the two PDFs from this record (resume and cover letter).",
+   "Paste the screening answers above and fill the two placeholders (salary, notice).",
+   "Submit before 23 October 2026.",
+   "Press Applied on the tracker with the date and \"SEEK\"."
+  ],
+  "notes": "Direct employer, Melbourne, junior estimating role with no years bar; Bluebeam and E1 are listed under About you without \"essential\", so they are disclosed as gaps rather than treated as a hold (the ad marks only maths skills as essential).\nHOW CLAUDE FOUND THIS\nFound on SEEK (listed 2026-09-23, closes 2026-10-23). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Jr Civil Construction Estimator role on SEEK.\n• They may ask about: No prior estimating role experience → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-09-23, closes 2026-10-23). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Jr Civil Construction Estimator role on SEEK.",
+   "They may ask about: No prior estimating role experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-09-28T10:51:03.000Z",
+  "seek_id": "94829884",
+  "duplicate_key": "cbxgroup|seek:94829884",
+  "preparation_only": true
+ },
+ {
+  "id": "8b23dc09-e9c2-4028-a73d-cc4e482bfb73",
+  "key": "manual:8b23dc09-e9c2-4028-a73d-cc4e482bfb73",
+  "contributor_name": "Claude",
+  "created_by": "claude-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260928T1031Z",
+  "created_at": "2026-09-28T10:51:03.000Z",
+  "updated_at": "2026-09-28T10:51:03.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Fulton_Hogan_Australia_Pty_Limited_Resume.pdf",
+    "stored_in": "not_uploaded"
+   },
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Fulton_Hogan_Australia_Pty_Limited_Junior_Estimator_Infrastructure_Services_Cover_Letter.pdf",
+    "stored_in": "not_uploaded"
+   }
+  ],
+  "company": "Fulton Hogan Australia Pty Limited",
+  "role": "Junior Estimator (Infrastructure Services)",
+  "location": "Mile End, Adelaide SA",
+  "job_url": "https://www.seek.com.au/job/94850442",
+  "company_url": "",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Junior Estimator, Infrastructure Services SA, Marc Masarate",
+  "email_body": "Hello,\n\nI'm applying for the Junior Estimator role with Infrastructure Services in Mile End, advertised on SEEK. The ad says you'd still like to hear from people who don't meet every criterion, so I'll be plain about where I stand.\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026. The coursework included cost estimates and bills of quantities alongside road, earthworks, pavement and stormwater designs drawn in AutoCAD and Civil 3D to Australian Standards and Austroads guides, so reviewing drawings and specifications and pricing quantities from them is familiar work. My civil construction experience is 11 months on site in the Philippines, April 2019 to February 2020, reviewing drawings, doing inspections, tracking procurement and materials, and coordinating with suppliers and subcontractors.\n\nI haven't worked in an estimating role or used Benchmark yet, and I use Word, Excel and PowerPoint. I hold a White Card, an Australian driver's licence and full working rights until December 2027 on a Subclass 485 visa. I'm based in Melton, Victoria and open to discussing relocation to Adelaide.\n\nMy drawings are at https://macdarenz-droid.github.io/Portfolio. I'd be glad to talk with the Sales and Estimating Manager about the role.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Fulton Hogan is a direct major infrastructure employer explicitly hiring a Junior Estimator in Adelaide.",
+   "Circa 12 months' prior estimating experience is only described as \"ideal\", not mandatory, and Microsoft Office skills are the firm requirement.",
+   "Civil construction/road surfacing discipline overlap and no citizenship or licence bar make this broadly accessible."
+  ],
+  "gaps": [
+   "No prior estimating role experience"
+  ],
+  "match_score": {
+   "percent": 82,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Fulton Hogan is a direct major infrastructure employer explicitly hiring a Junior Estimator in Adelaide.",
+    "Circa 12 months' prior estimating experience is only described as \"ideal\", not mandatory, and Microsoft Office skills are the firm requirement.",
+    "Civil construction/road surfacing discipline overlap and no citizenship or licence bar make this broadly accessible."
+   ],
+   "caution": "No prior estimating experience on record beyond coursework; \"ideal\" 12 months is a gap, not a blocker."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-09-24T03:58:25.603Z",
+   "expires_at": "2026-10-24T03:58:23.000Z",
+   "verified_at": "2026-09-28T10:36:21.000Z",
+   "apply_instructions": "Apply via the SEEK link-out to Fulton Hogan's careers site.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Open https://www.seek.com.au/job/94850442 and follow Apply to the Fulton Hogan careers site (see the careers URL on this record).",
+   "Create or log in to the careers profile and attach the two PDFs from this record (resume and cover letter).",
+   "Answer the portal questions honestly: no estimating role yet, 485 visa to December 2027, open to discussing relocation to Adelaide (decide your real answer first).",
+   "Submit before 24 October 2026.",
+   "Press Applied on the tracker with the date and \"Company website\"."
+  ],
+  "notes": "Junior estimating role; the ad lists civil construction field experience (Marc has 11 months), Microsoft Office (yes), Benchmark \"highly regarded\" and 12 months estimating \"ideal\" (both gaps, disclosed). Interstate: Adelaide relocation is Marc's call.\nHOW CLAUDE FOUND THIS\nFound on SEEK (listed 2026-09-24, closes 2026-10-24). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Junior Estimator (Infrastructure Services) role on SEEK.\n• They may ask about: No prior estimating role experience → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-09-24, closes 2026-10-24). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Junior Estimator (Infrastructure Services) role on SEEK.",
+   "They may ask about: No prior estimating role experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-09-28T10:51:03.000Z",
+  "seek_id": "94850442",
+  "duplicate_key": "fultonhoganaustraliaptylimited|seek:94850442",
+  "preparation_only": true
+ }
+]

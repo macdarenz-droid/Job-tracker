@@ -1,0 +1,30 @@
+{
+  "percent": 48,
+  "rationale": [
+    "Echo Projects Co is a direct Brisbane commercial builder running a genuine rotational cadet program (projects, site, estimating).",
+    "The advert states plainly: \"Currently enrolled in a construction management or related degree at university (this is a requirement)\".",
+    "Marc is not currently enrolled at university; his BSCE finished 2019 and Advanced Diploma finished February 2026."
+  ],
+  "caution": "Enrolment requirement is stated explicitly as non-negotiable (\"this is a requirement\"), and the screening question confirms it will be checked.",
+  "gaps": [],
+  "mandatory_unmet": [
+    "\"Currently enrolled in a construction management or related degree at university (this is a requirement)\" (Marc is not currently enrolled in university; his BSCE was completed in 2019 and his Advanced Diploma in February 2026)"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply via SEEK with resume and a short cover letter.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Echo Projects Co",
+  "title": "Building Cadet",
+  "location": "Windsor, Brisbane QLD",
+  "url": "https://www.seek.com.au/job/94892492",
+  "listed_at": "2026-09-25T20:54:04.540Z",
+  "expires_at": "2026-10-25T20:54:03.000Z",
+  "screening_questions": [
+    "Are you currently enrolled in a construction management or related university degree?",
+    "How many years' experience do you have in the construction industry?",
+    "Do you hold a current Australian driver's licence and have reliable transport?"
+  ]
+}

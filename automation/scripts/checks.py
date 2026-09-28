@@ -68,8 +68,14 @@ def tone_issues(text, kind='email'):
 def fact_issues(text):
     issues = []
     software_ok = [s.lower() for s in FACTS['capabilities']['software']]
+    denial = re.compile(r"\b(haven't|have not|hasn't|has not|never|not yet)\s+(used|worked|touched|learned|learnt)\b|\bwould be new\b|\bnew to me\b", re.I)
     for tool in KNOWN_TOOLS:
-        if re.search(r'(?<![A-Za-z])' + re.escape(tool) + r'(?![A-Za-z])', text) and tool.lower() not in software_ok:
+        pat = r'(?<![A-Za-z])' + re.escape(tool) + r'(?![A-Za-z])'
+        if tool.lower() in software_ok or not re.search(pat, text):
+            continue
+        # Naming a tool to say Marc has not used it is honest disclosure, not a claim.
+        claims = [s for s in re.split(r'(?<=[.!?])\s+', text) if re.search(pat, s) and not denial.search(s)]
+        if claims:
             issues.append(f'names software not in facts: {tool}')
     # A year is a claim about Marc only when it sits in a first-person sentence; employer history is fine.
     for sentence in re.split(r'(?<=[.!?])\s+', text):

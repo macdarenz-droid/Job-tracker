@@ -1,0 +1,34 @@
+{
+ "percent": 50,
+ "rationale": [
+  "Hardings Group (Tas) is a direct Ulverstone civil construction company running a paid Certificate III Civil Construction traineeship for 2027.",
+  "Explicitly aimed at school leavers with full on-the-job training; White Card and driver's licence are the only firm requirements.",
+  "Civil construction, road works and asphalt/bituminous surfacing overlap Marc's civil coursework, though this is trade-level, not engineering."
+ ],
+ "caution": "Re-scored by Claude: Certificate III trade traineeship for school leavers, below an Advanced Diploma holder, relocation to Tasmania.",
+ "gaps": [
+  "Trade-level (Cert III) traineeship, not an engineering role",
+  "Requires relocating to Tasmania"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK.",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Hardings Group (Tas) Pty Ltd",
+ "title": "Civil Construction Traineeship",
+ "location": "Ulverstone, Devonport & North West TAS",
+ "url": "https://www.seek.com.au/job/94797351",
+ "listed_at": "2026-09-23T04:50:40.099Z",
+ "expires_at": "2026-10-23T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "Do you hold a Construction Induction Safety certificate (White Card)?",
+  "How much notice are you required to give your current employer?",
+  "Are you willing to undergo a pre-employment medical check?",
+  "Do you have a current Australian driver's licence?"
+ ],
+ "rescored_by": "Claude 28 Sep 2026"
+}

@@ -1,0 +1,33 @@
+{
+  "percent": 20,
+  "rationale": [
+    "ABI Civil Contracting NSW is a direct Sydney civil contractor growing its estimating team.",
+    "Ad requires a minimum of 3 years' estimating experience within the Australian civil construction industry.",
+    "Marc has no estimating role experience, only cost-estimate/BOQ coursework."
+  ],
+  "caution": "NSW driver's licence is requested; Marc holds an Australian licence but not specifically an NSW one.",
+  "gaps": [
+    "No civil estimating role experience",
+    "Licence held may not be NSW-issued"
+  ],
+  "mandatory_unmet": [
+    "\"Minimum 3 years' estimating experience within the Australian civil construction industry\" (Marc has no estimating role experience)"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply via SEEK.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "ABI Civil Contracting NSW",
+  "title": "Civil Estimator",
+  "location": "Shanes Park, Sydney NSW",
+  "url": "https://www.seek.com.au/job/94856038",
+  "listed_at": "2026-09-24T06:45:39.288Z",
+  "expires_at": "2026-10-24T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a Civil Estimator?",
+    "Do you have experience preparing and submitting tenders?"
+  ]
+}

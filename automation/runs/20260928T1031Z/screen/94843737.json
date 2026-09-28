@@ -1,0 +1,29 @@
+{
+  "percent": 18,
+  "rationale": [
+    "Aurecon is a direct consultancy hiring a Civil/Structural Underground Structures Engineer in North Sydney.",
+    "Role explicitly requires Australian citizenship for AGSVA security clearance eligibility, and around 5-7 years' experience.",
+    "Underground structures (tunnels, shafts, retaining walls) is a specialised area with little overlap to Marc's coursework."
+  ],
+  "caution": "Security clearance eligibility requires Australian citizenship; Marc holds a 485 visa.",
+  "gaps": [
+    "Around 5-7 years' experience is well above Marc's current background",
+    "No tunnel/underground structures design exposure"
+  ],
+  "mandatory_unmet": [
+    "\"Be an Australian Citizen and eligible for security clearance (AGSVA requirements apply)\" (Marc holds a Subclass 485 visa to December 2027, not Australian citizenship)"
+  ],
+  "mandatory_unresolved": [],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": "",
+  "apply_instructions": "Apply via the SEEK link-out to Aurecon's careers site.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Aurecon",
+  "title": "Civil Underground Structures Engineer",
+  "location": "North Sydney, Sydney NSW",
+  "url": "https://www.seek.com.au/job/94843737",
+  "listed_at": "2026-09-24T00:59:25.450Z",
+  "expires_at": "2026-10-24T00:59:23.000Z",
+  "screening_questions": []
+}

@@ -1,0 +1,35 @@
+{
+  "percent": 30,
+  "rationale": [
+    "Skyhook Engineering is a small North Lakes structural consultancy hiring a Revit draftsperson across varied building types.",
+    "Ad restricts applicants to Australian citizens or permanent residents and wants 2+ years' hands-on commercial Revit experience.",
+    "Marc's Revit use is academic (bridge/footing models), not commercial production drafting, and his visa is not citizenship/PR."
+  ],
+  "caution": "Hard citizenship/PR-only restriction is stated explicitly, and role is structural (not civil) drafting.",
+  "gaps": [
+    "Revit experience is academic coursework, not 2+ years of commercial structural drafting"
+  ],
+  "mandatory_unmet": [
+    "\"Australian citizenship or permanent residents only\" (Marc holds a Subclass 485 visa to December 2027, not citizenship or permanent residency)",
+    "\"2+ years hands-on Revit experience\" (Marc's Revit experience is academic coursework, not commercial production drafting)"
+  ],
+  "mandatory_unresolved": [],
+  "route": "EMAIL",
+  "apply_email": "admin@skyhookengineering.com.au",
+  "apply_instructions": "Email CV and a few sample drawing sheets (PDF) to admin@skyhookengineering.com.au.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Skyhook Engineering",
+  "title": "Structural Draftsperson (Revit)",
+  "location": "North Lakes, Brisbane QLD",
+  "url": "https://www.seek.com.au/job/94782577",
+  "listed_at": "2026-09-21T20:32:11.968Z",
+  "expires_at": "2026-10-22T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a structural drafter?",
+    "How many years of commercial design experience do you have?",
+    "How many years' experience do you have as a Revit Documenter?"
+  ]
+}

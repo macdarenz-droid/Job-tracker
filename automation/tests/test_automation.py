@@ -249,7 +249,15 @@ class PublishTests(unittest.TestCase):
         rec = publish.build_record('r1', cand, screen, {'contact_confidence': 'none'}, {**draft, 'recipient_email': ''})
         self.assertEqual(rec['status'], 'READY_JEREMIE_SEEK')
         held = publish.held_record('r1', cand, {**screen, 'mandatory_unmet': ['Australian citizenship required'], 'company': 'Acme Civil', 'title': 'Junior Civil Drafter'})
-        self.assertTrue(held['status'].startswith('HELD_AUSTRALIAN_CITIZENSHIP'))
+        self.assertEqual(held['status'], 'HELD_MANDATORY_REQUIREMENTS')
+        self.assertIn('Australian citizenship required', held['notes'])
+        held = publish.held_record('r1', cand, {**screen, 'mandatory_unmet': [], 'mandatory_unresolved': ['WA licence'], 'company': 'Acme Civil', 'title': 'Junior Civil Drafter'})
+        self.assertEqual(held['status'], 'HELD_ELIGIBILITY_UNCONFIRMED')
+        self.assertIn('WA licence', held['notes'])
+
+    def test_naming_an_unused_tool_as_a_limit_is_not_a_claim(self):
+        self.assertEqual(checks.fact_issues("I use Excel but haven't used Bluebeam or E1."), [])
+        self.assertIn('names software not in facts: Bluebeam', checks.fact_issues('I am proficient in Bluebeam.'))
 
 
 

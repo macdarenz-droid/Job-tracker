@@ -1,0 +1,29 @@
+{
+ "percent": 50,
+ "rationale": [
+  "McConnell Dowell is a direct major contractor delivering the Kwinana Freeway Widening alliance project in Perth.",
+  "Ad seeks \"experienced Site Engineers\" but states no specific years figure; a tertiary civil qualification is the stated requirement.",
+  "Civil, structural, utilities and ITS works overlap Marc's coursework, and valid Australian work rights (which Marc holds) are required."
+ ],
+ "caution": "Text explicitly seeks engineers who \"thrive in complex construction environments\"; Marc has no Australian major-project experience.",
+ "gaps": [
+  "No major civil/transport/utilities delivery experience in Australia"
+ ],
+ "mandatory_unmet": [
+  "Site Engineer at a tier-one contractor expects civil infrastructure project experience (Marc has 11 months of building and subdivision site work in the Philippines)"
+ ],
+ "mandatory_unresolved": [],
+ "route": "EMPLOYER_PORTAL",
+ "apply_email": "",
+ "apply_instructions": "Apply via the SEEK link-out to McConnell Dowell's careers site; pre-employment medical and drug/alcohol checks required.",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "McConnell Dowell Australia",
+ "title": "Site Engineer",
+ "location": "Perth WA",
+ "url": "https://www.seek.com.au/job/94796990",
+ "listed_at": "2026-09-22T05:25:34.820Z",
+ "expires_at": "2026-10-22T04:25:00.000Z",
+ "screening_questions": [],
+ "rescored_by": "Claude 28 Sep 2026"
+}

@@ -1,0 +1,33 @@
+{
+ "percent": 35,
+ "rationale": [
+  "Shadforth is a direct Queensland civil contractor delivering a $70M residential subdivision near Hervey Bay.",
+  "Ad calls for \"experienced\" Site and Project Engineers but gives no specific years figure.",
+  "Earthworks, roadworks, drainage and pavements discipline overlap is strong and closely matches Marc's Advanced Diploma."
+ ],
+ "caution": "Text explicitly seeks \"experienced\" engineers with proven subdivision delivery; Marc is a graduate with no Australian subdivision experience.",
+ "gaps": [
+  "No Australian residential subdivision or large-scale civil delivery experience"
+ ],
+ "mandatory_unmet": [
+  "\"experienced Site and Project Engineers\" with \"proven experience delivering residential subdivision and large-scale civil infrastructure projects\""
+ ],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK with resume and covering letter, or call 07 5458 3342 for a confidential discussion.",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Shadforth",
+ "title": "Site and Project Engineers",
+ "location": "Hervey Bay, Hervey Bay & Fraser Coast QLD",
+ "url": "https://www.seek.com.au/job/94815766",
+ "listed_at": "2026-09-23T00:47:02.008Z",
+ "expires_at": "2026-10-22T23:46:00.000Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "Do you have a current Australian driver's licence?",
+  "What's your expected annual base salary?"
+ ],
+ "rescored_by": "Claude 28 Sep 2026"
+}

@@ -1,0 +1,32 @@
+{
+  "percent": 25,
+  "rationale": [
+    "Indus Engineering is a direct Sydney employer using AutoCAD for design, project controls, cost estimation and delivery.",
+    "Ad requires a minimum of 3+ years of civil engineering project experience, which Marc does not have.",
+    "AutoCAD use is a genuine discipline match, but the explicit years bar is not met."
+  ],
+  "caution": "Water/wastewater project experience is called out as highly desirable and is an explicit honest-limit gap for Marc.",
+  "gaps": [
+    "No water/wastewater network project experience"
+  ],
+  "mandatory_unmet": [
+    "\"Minimum 3+ years of experience in civil engineering projects\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian work experience)"
+  ],
+  "mandatory_unresolved": [],
+  "route": "EMAIL",
+  "apply_email": "admin@indusengineering.com.au",
+  "apply_instructions": "Email resume and cover letter to admin@indusengineering.com.au, or apply via SEEK.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Indus Engineering Pty Ltd",
+  "title": "Civil Engineer",
+  "location": "Sydney NSW",
+  "url": "https://www.seek.com.au/job/94765861",
+  "listed_at": "2026-09-21T05:27:03.579Z",
+  "expires_at": "2026-10-21T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a civil engineer?",
+    "How much notice are you required to give your current employer?"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "percent": 50,
+  "rationale": [
+    "BESIX Watpac's Graduate and Early Career Development Program is a direct, structured 2-year graduate program in Adelaide.",
+    "Ad requires the applicant to be \"currently studying a university-level degree in Construction Management, Engineering, or a related discipline\".",
+    "Marc is not currently studying; his most recent qualification (Advanced Diploma) was completed in February 2026."
+  ],
+  "caution": "Program is aimed at current university students, not graduates who have already finished study.",
+  "gaps": [],
+  "mandatory_unmet": [
+    "\"Currently studying a university-level degree in Construction Management, Engineering, or a related discipline\" (Marc is not currently enrolled; his Advanced Diploma of Civil Construction Design was completed in February 2026)"
+  ],
+  "mandatory_unresolved": [],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": "",
+  "apply_instructions": "Apply via the SEEK link-out to BESIX Watpac's careers site.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "BESIX Watpac",
+  "title": "Graduate Engineer",
+  "location": "Adelaide SA",
+  "url": "https://www.seek.com.au/job/94883390",
+  "listed_at": "2026-09-25T07:55:41.732Z",
+  "expires_at": "2026-10-25T12:59:59.999Z",
+  "screening_questions": []
+}

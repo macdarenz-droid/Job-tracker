@@ -1,0 +1,29 @@
+{
+ "percent": 40,
+ "rationale": [
+  "McNab Group is a direct Brisbane commercial builder hiring a Project Engineer for commercial, industrial and multi-res projects.",
+  "Ad asks for a tertiary qualification in Construction Management or related field (which Marc's BSCE/Advanced Diploma covers) and only \"prefers\" head-contractor experience.",
+  "No specific years figure, citizenship or licence bar is stated in the extracted text."
+ ],
+ "caution": "No head-contractor or commercial-building experience on record; \"preferred\" experience is a gap, not a blocker.",
+ "gaps": [
+  "No experience working for a commercial head contractor"
+ ],
+ "mandatory_unmet": [
+  "\"Experience working for a commercial builder\" (Marc has none; his site work was a hall renovation and subdivision finishing works in the Philippines)"
+ ],
+ "mandatory_unresolved": [],
+ "route": "EMPLOYER_PORTAL",
+ "apply_email": "",
+ "apply_instructions": "Apply via the SEEK link-out to McNab's careers site.",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "McNab Group",
+ "title": "Project Engineer",
+ "location": "Brisbane QLD",
+ "url": "https://www.seek.com.au/job/94913792",
+ "listed_at": "2026-09-28T04:38:07.763Z",
+ "expires_at": "2026-10-28T12:59:59.999Z",
+ "screening_questions": [],
+ "rescored_by": "Claude 28 Sep 2026"
+}

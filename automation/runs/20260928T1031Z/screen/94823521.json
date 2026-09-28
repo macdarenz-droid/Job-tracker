@@ -1,0 +1,36 @@
+{
+ "percent": 68,
+ "rationale": [
+  "Shire of Capel is a direct WA local government employer explicitly open to candidates \"looking to expand\" their experience, not just established experts.",
+  "Technical investigations, inspections, drawing interpretation and engineering documentation closely match Marc's Advanced Diploma coursework.",
+  "A current WA \"C\" Class driver's licence is required; Marc holds an Australian licence but its issuing state is not on record."
+ ],
+ "caution": "Applications close 7 October 2026, the earliest deadline in this batch, and the Shire may close the role early if a suitable candidate is found.",
+ "gaps": [],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [
+  "Position Description PDF (the 'position related requirements') is not in the SEEK text and was not read",
+  "current WA C class driver's licence (Marc's licence state is not on record)",
+  "fixed term to 30 September 2027 in Capel WA: interstate relocation Marc has not confirmed"
+ ],
+ "route": "EMPLOYER_PORTAL",
+ "apply_email": "",
+ "apply_instructions": "Apply on the Shire of Capel website (the SEEK ad says the link may be removed on SEEK); People & Culture 9727 0222; closes 7 October 2026",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Shire of Capel",
+ "title": "Engineering Technical Officer",
+ "location": "Capel, Bunbury & South West WA",
+ "url": "https://www.seek.com.au/job/94823521",
+ "listed_at": "2026-09-23T04:15:08.800Z",
+ "expires_at": "2026-10-07T12:59:59.000Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "How many years' experience do you have as an Engineering Technical Officer?",
+  "How much notice are you required to give your current employer?",
+  "How many years of Infrastructure Civil Engineering experience do you have?",
+  "Have you completed a qualification in civil engineering?",
+  "Do you have a current Australian driver's licence?"
+ ],
+ "rescored_by": "Claude 28 Sep 2026"
+}

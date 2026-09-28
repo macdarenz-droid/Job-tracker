@@ -1,0 +1,30 @@
+{
+ "percent": 55,
+ "rationale": [
+  "Vorstrom is a direct Warwick QLD manufacturer offering a genuine Cadet Draftsperson role with Certificate IV training provided.",
+  "Previous CAD experience is explicitly called a bonus, not required, and there is no citizenship, degree or licence bar stated.",
+  "Marc's Advanced Diploma CAD/drafting background exceeds the entry bar, though the work is vacuum-truck/tanker drafting, not civil roads."
+ ],
+ "caution": "Re-scored by Claude: manufacturing drafting for vacuum trucks, Certificate IV cadetship pitched at school leavers, relocation to Warwick QLD; not a civil engineering pathway.",
+ "gaps": [
+  "Not civil-specific (vacuum truck/tanker manufacturing drafting)",
+  "Requires relocating to Warwick, QLD"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK.",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Vorstrom",
+ "title": "Cadet Draftsperson",
+ "location": "Warwick, Toowoomba & Darling Downs QLD",
+ "url": "https://www.seek.com.au/job/94825304",
+ "listed_at": "2026-09-23T05:14:43.314Z",
+ "expires_at": "2026-10-23T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?"
+ ],
+ "rescored_by": "Claude 28 Sep 2026"
+}

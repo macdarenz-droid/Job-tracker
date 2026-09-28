@@ -1,0 +1,34 @@
+{
+  "percent": 33,
+  "rationale": [
+    "JRM Resources is a direct employer hiring a Civil Engineer for its Boddington WA minesite team.",
+    "Ad requires a minimum of 2 years' post-degree experience, which Marc's 11 months of site work does not meet.",
+    "White Card and driver's licence requirements are met; earthworks/civil construction exposure is a discipline plus."
+  ],
+  "caution": "Minesite inductions and drug/alcohol screening required; 2-year post-degree bar is explicit.",
+  "gaps": [
+    "Civil construction/earthworks experience is limited to 11 months overseas, short of \"highly regarded\" level"
+  ],
+  "mandatory_unmet": [
+    "\"Minimum 2 years post degree experience\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian work experience)"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply via the SEEK \"Apply Now\" link.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "JRM Resources",
+  "title": "Civil Engineer",
+  "location": "Boddington, Mandurah & Peel WA",
+  "url": "https://www.seek.com.au/job/94857072",
+  "listed_at": "2026-09-24T07:14:31.361Z",
+  "expires_at": "2026-10-24T07:14:30.000Z",
+  "screening_questions": [
+    "Have you completed a qualification in civil engineering?",
+    "How many years' experience do you have as a civil engineer?",
+    "Are you willing to undergo pre-employment drug and alcohol screening?",
+    "Do you hold a Construction Induction Safety certificate (White Card)?",
+    "Do you have a current Australian driver's licence?"
+  ]
+}

@@ -171,15 +171,15 @@ def build_record(run_id, cand, screen, contact, draft, attachments=None):
 
 
 def held_record(run_id, cand, screen):
-    reason = (screen.get('mandatory_unmet') or ['advert closed'])[0]
-    tag = re.sub(r'[^A-Z0-9]+', '_', reason.upper())[:40].strip('_') or 'CHECK'
+    unmet, unresolved = screen.get('mandatory_unmet') or [], screen.get('mandatory_unresolved') or []
+    tag = 'MANDATORY_REQUIREMENTS' if unmet else 'ELIGIBILITY_UNCONFIRMED' if unresolved else 'ADVERT_CLOSED'
     return tracker.new_record({
         'company': screen.get('company') or cand.get('company'), 'role': screen.get('title') or cand.get('title'),
         'location': screen.get('location') or cand.get('location') or '', 'job_url': screen.get('url') or cand.get('url') or '',
         'status': f"{STATUSES['held_prefix']}{tag}", 'application_type': 'ADVERTISED_VACANCY', 'application_route': screen.get('route') or 'SEEK',
         'fit': screen.get('rationale') or '', 'gaps': (screen.get('mandatory_unmet') or []) + (screen.get('gaps') or []),
         'match_score': {'percent': screen.get('percent'), 'method': CONFIG['fit']['method'], 'rationale': screen.get('rationale') or '', 'caution': screen.get('caution') or ''},
-        'notes': f"Held by {CONFIG['contributor_name']}: " + '; '.join(screen.get('mandatory_unmet') or ['advert not open']),
+        'notes': f"Held by {CONFIG['contributor_name']}: " + '; '.join(unmet + unresolved or ['advert not open']),
         'checked_at': now_iso(), 'seek_id': cand.get('seek_id') if cand.get('source', 'seek') == 'seek' else None,
     }, run_id=run_id)
 

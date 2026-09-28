@@ -1,0 +1,35 @@
+{
+  "percent": 18,
+  "rationale": [
+    "AWCON is a direct employer hiring a FIFO Project Engineer for underground mining civil/FRP/concrete works.",
+    "Ad requires 5+ years' experience in project engineering with a strong underground construction background.",
+    "Underground/FRP mining specialism and required medical/police clearance sit well outside Marc's current profile."
+  ],
+  "caution": "FIFO underground mining role; pre-employment medical, drug/alcohol and police clearance required.",
+  "gaps": [
+    "No FRP, concrete or underground construction experience",
+    "No FIFO work history"
+  ],
+  "mandatory_unmet": [
+    "\"5+ years' experience in project engineering, with a strong background in underground construction\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian or underground mining experience)"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply via SEEK.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "AWCON Pty Ltd",
+  "title": "Project Engineer / Civil Engineer",
+  "location": "Sydney NSW",
+  "url": "https://www.seek.com.au/job/94787847",
+  "listed_at": "2026-09-22T01:32:36.617Z",
+  "expires_at": "2026-10-22T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a Civil Project Engineer?",
+    "Have you completed a qualification in civil engineering?",
+    "Do you have experience in a FIFO/DIDO role?",
+    "How many years' experience do you have as an Underground Engineer?"
+  ]
+}

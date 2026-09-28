@@ -1,0 +1,29 @@
+{
+ "percent": 50,
+ "rationale": [
+  "BMD Group is a direct, Australia's largest private civil contractor, hiring a Site Engineer in Perth.",
+  "The only stated requirement is being a \"Degree qualified Civil Engineer with civil infrastructure project experience\", with no specific years figure.",
+  "Perth location is workable and civil infrastructure discipline overlaps Marc's coursework."
+ ],
+ "caution": "No explicit years figure is stated, but \"civil infrastructure project experience\" is expected and Marc's is limited to 11 months overseas.",
+ "gaps": [
+  "No Australian civil infrastructure project experience"
+ ],
+ "mandatory_unmet": [
+  "\"civil infrastructure project experience\" for a Site Engineer at a tier-one contractor (Marc has 11 months of building and subdivision site work in the Philippines, no Australian infrastructure experience)"
+ ],
+ "mandatory_unresolved": [],
+ "route": "EMPLOYER_PORTAL",
+ "apply_email": "",
+ "apply_instructions": "Apply via the SEEK link-out to BMD's careers site.",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "THE BMD GROUP",
+ "title": "Site Engineer",
+ "location": "Perth WA",
+ "url": "https://www.seek.com.au/job/94819769",
+ "listed_at": "2026-09-23T02:39:24.215Z",
+ "expires_at": "2026-10-23T12:59:59.999Z",
+ "screening_questions": [],
+ "rescored_by": "Claude 28 Sep 2026"
+}
