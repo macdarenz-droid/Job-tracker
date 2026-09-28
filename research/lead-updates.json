@@ -1,5 +1,5 @@
 {
-  "batch_id": "2026-09-28-codex-review-0123Z",
+  "batch_id": "2026-09-28-codex-review-0123Z-four-holds",
   "leads": [],
   "status_updates": [],
   "manual_reviews": [
@@ -16,21 +16,6 @@
         "https://www.seek.com.au/job/94661745",
         "https://www.ezisuite.net/eziJob/wav/HRRegistry/default.cfm?act=viewVacancy&src=10&type=W&vid=286122",
         "https://www.ezisuite.net/eziJob/wav/HRRegistry/default.cfm?act=previewQuestionnaire&vid=286122"
-      ]
-    },
-    {
-      "id": "3741f4be-4bbe-460f-aaab-dd352a9bf00b",
-      "review_id": "codex-20260928-94685572",
-      "expected_version": 1,
-      "expected_status": "PREPARED_NOT_SENT",
-      "expected_created_by": "claude-job-search",
-      "status": "HELD_MANDATORY_REQUIREMENTS",
-      "reviewed_at": "2026-09-28T02:17:21.448978+00:00",
-      "note": "Advert qualification requires at least one year of work experience in the field. April 2019 to February 2020 is under 12 months even on an inclusive calendar-month reading; academic drafting cannot count as paid field work. Advert qualification requires Pryda Build knowledge; no documented Pryda knowledge, and draft explicitly says never used. These are not the separate preferred construction/manufacturing experience criterion. Police certificate status is unknown. Screening question alone does not establish a mandatory certificate requirement. Do not send or submit until these checks are resolved. Saved full advert reviewed on 28 September 2026; fresh SEEK retrieval was unavailable. Existing PDFs preserved.",
-      "evidence_urls": [
-        "https://www.seek.com.au/job/94685572",
-        "https://melbtruss.com.au/",
-        "https://pryda.com.au/20-years-and-growing-melbourne-truss-and-pryda-in-partnership/"
       ]
     },
     {
@@ -75,6 +60,5 @@
         "https://www.gunnedah.nsw.gov.au/"
       ]
     }
-  ],
-  "inspect_only": true
+  ]
 }
