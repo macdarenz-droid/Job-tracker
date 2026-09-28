@@ -77,6 +77,8 @@ Follow-ups: a `SENT` record older than `follow_up_after_days` with no reply note
 
 Per tick at most seven agents: one sweep (rotating: employers, councils and government, Victoria off-site, see `config.json → sweep_rotation` by run number), one screening agent, up to four contact-research agents in parallel, one reviewer. Claude drafts and publishes itself. No per-candidate screening agents, no panels, no duplicate reviewers. Use the Agent tool directly; no Workflow orchestration.
 
+Depth is not capped (owner, 28 Sep 2026): each agent reads as far into the web as a candidate needs (employer site, project pages, PDFs, council papers, news) to find the hiring person and one true specific line. The cap is on how many agents run, not on how thoroughly each one works. What counts every tick is at least two publishable, high-quality records with a real chance of an interview.
+
 ## 10. Close (2 min)
 
 ```

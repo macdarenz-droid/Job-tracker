@@ -194,3 +194,11 @@ Marc asked for the person who hires, not the HR inbox. The rule (`config.json �
 | Two writers save at once | D1 version guard; Claude retries from a fresh read and re-runs the duplicate check |
 | Session summarised or restarted | State lives in the tracker, `journal.jsonl` and the run folders; the RUNBOOK is self-contained |
 | Over-reach in tone or volume | Banned-phrase list, word limits, one email per run, one speculative enquiry per run |
+
+## 12. Handover to another session
+
+Everything needed to run a tick is in this folder and `docs/COACHING-DECISIONS.md`. A new session needs only:
+1. This repository on branch `claude/job-search-automation-sg3inr`, and the Portfolio repository cloned beside it (for the master résumé PDF).
+2. The six-digit tracker code in `/root/.job-tracker-code` (given by the owner in chat; never committed).
+3. The instruction: "Follow `automation/RUNBOOK.md` end to end for one tick."
+The Routine that fires every five hours is bound to the session that built this loop (see D17); a new session needs its own Routine with the RUNBOOK §0 prompt.
