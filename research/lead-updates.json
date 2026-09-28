@@ -1,56 +1,55 @@
 {
-  "batch_id": "2026-09-28-atc-williams-94851901",
+  "batch_id": "2026-09-28-jca-94850865",
   "leads": [
     {
-      "key": "atcwilliams.com|seek:94851901",
-      "company": "ATC Williams",
-      "role": "Cadet Civil Drafter",
-      "location": "Brisbane, Queensland",
+      "key": "jcalc.com.au|seek:94850865",
+      "company": "JCA Land Consultants",
+      "role": "Graduate Civil Engineer",
+      "location": "Ringwood, Melbourne, Victoria",
       "status": "READY_FOR_JEREMIE",
-      "checked_at": "2026-09-28T01:40:36.346Z",
-      "job_url": "https://au.seek.com/job/94851901",
-      "company_url": "https://atcwilliams.com/recruitment/",
+      "checked_at": "2026-09-28T01:48:03.559Z",
+      "job_url": "https://au.seek.com/job/94850865",
+      "company_url": "https://www.jcalc.com.au/civil-engineering/",
       "application_type": "ADVERTISED_VACANCY",
       "application_route": "SEEK",
-      "fit": "Cadet-level civil drawing production under supervision aligns with the Advanced Diploma in Civil Construction Design completed in February 2026 and documented academic AutoCAD/Civil 3D drawing work. The White Card and Australian driver licence meet desired criteria. Academic drafting is distinct from commercial production experience.",
+      "fit": "The graduate role covers civil design, documentation and construction review for residential, industrial, commercial and public infrastructure work. Marc's 2019 civil engineering degree, Advanced Diploma in Civil Construction Design completed February 2026 and academic AutoCAD/Civil 3D work support entry-level drawing and documentation contributions. Ringwood is within Melbourne; the employer asks that applicants disclose their suburb.",
       "gaps": [
-        "Quantity take-offs, bills of quantities and ATC Williams CADD/document-control standards would require training; no commercial drafting proficiency is claimed.",
-        "Marc is based in Melton, Victoria; a Brisbane relocation would need discussion without a promised date or funding.",
-        "The role is permanent and asks about future sponsorship. Marc has Subclass 485 full working rights until December 2027; eligibility beyond that date is not established.",
-        "SEEK asks for a single combined cover letter and CV plus salary expectation and career aspirations; no application or attachment has been submitted."
+        "12D exposure is preferred and is not documented; AutoCAD/Civil 3D experience is academic rather than commercial production design.",
+        "Detailed knowledge of local authority, water authority and Department of Transport standards, plus independent construction review and quality assurance office work, is not established.",
+        "Marc lives in Melton, so the Ringwood commute and on-site expectations need practical assessment.",
+        "The role is permanent. Marc's Subclass 485 provides full work rights until December 2027; any later work-rights arrangement is unknown. Do not imply permanent residency."
       ],
       "match_score": {
         "method": "resume-fit-v1",
         "percent": 75,
-        "assessed_at": "2026-09-28T01:40:36.346Z",
-        "caution": "Resume fit estimate only, not an interview probability. Current work rights are time-limited and future sponsorship/relocation are unresolved.",
+        "assessed_at": "2026-09-28T01:48:03.559Z",
+        "caution": "Resume fit estimate only, not interview probability. Preferred 12D and authority standards are gaps; commercial design experience is undocumented, and work rights are time-limited.",
         "components": [
           {
             "label": "Duties and scope",
             "max": 40,
-            "points": 33
+            "points": 32
           },
           {
             "label": "Relevant experience",
             "max": 25,
-            "points": 11
+            "points": 13
           },
           {
             "label": "Qualifications and tools",
             "max": 25,
-            "points": 24
+            "points": 22
           },
           {
             "label": "Practical requirements",
             "max": 10,
-            "points": 7
+            "points": 8
           }
         ],
-        "rationale": "The advertised entry-level, supervised AutoCAD drafting and documentation duties align with Marc's recent Advanced Diploma and academic CAD study; desired White Card and driver licence are documented. He lacks commercial production drafting and must disclose relocation and the December 2027 work-rights expiry."
+        "rationale": "Civil design/documentation and review fit the qualification and academic drafting background. The SEEK advert does not impose a recent-degree year or citizenship requirement, but the application must give Melton as the suburb and accurately answer the work-rights question."
       },
-      "attachments": [],
-      "closing_date": "2026-10-15",
-      "application_instructions": "SEEK Quick apply: upload the cover letter and CV as one attachment; answer actual working-rights, future-sponsorship and salary questions truthfully. Jeremie handles the portal. No submission recorded."
+      "application_instructions": "Jeremie—SEEK Quick apply. Include Melton as suburb and answer working-rights and completed-engineering-qualification questions truthfully. No submission is recorded.",
+      "attachments": []
     }
   ],
   "status_updates": []
