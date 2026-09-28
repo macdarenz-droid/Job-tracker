@@ -1,0 +1,86 @@
+[
+ {
+  "id": "a4e54770-3087-4501-a04b-f2eaa3a2fb0a",
+  "key": "manual:a4e54770-3087-4501-a04b-f2eaa3a2fb0a",
+  "contributor_name": "Claude",
+  "created_by": "claude-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260928T1532Z",
+  "created_at": "2026-09-28T15:57:08.000Z",
+  "updated_at": "2026-09-28T15:57:08.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Campaspe Shire Council",
+  "role": "Civil Engineer",
+  "location": "Echuca, Shepparton & Goulburn Valley VIC",
+  "job_url": "https://www.seek.com.au/job/94716040",
+  "status": "HELD_ELIGIBILITY_UNCONFIRMED",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMPLOYER_PORTAL",
+  "fit": [
+   "Council Civil Engineer role requires 'demonstrated engineering design experience within the civil engineering field' without a specified years figure.",
+   "Strong discipline overlap: subdivision development, road construction, drainage networks, AutoCAD drafting, MS Office.",
+   "Echuca is within Victoria and a realistic relocation/commute from Melton, though a regional move."
+  ],
+  "gaps": [
+   "Eligibility for Institution of Engineers Australia membership not confirmed",
+   "Valid National Police Check required: a condition for Marc to arrange, not on record"
+  ],
+  "match_score": {
+   "percent": 65,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Council Civil Engineer role requires 'demonstrated engineering design experience within the civil engineering field' without a specified years figure.",
+    "Strong discipline overlap: subdivision development, road construction, drainage networks, AutoCAD drafting, MS Office.",
+    "Echuca is within Victoria and a realistic relocation/commute from Melton, though a regional move."
+   ],
+   "caution": "Echuca is a regional Victorian posting about 2.5 hours from Melton; permanent full time, $80,211 to $92,510 plus super. Marc holds a Victorian Working with Children Check and a licence, and uses AutoCAD and Office as the ad asks."
+  },
+  "notes": "Held by Claude: 'Eligible for membership with Institution of Engineers Australia': Marc's BSCE (Divine Word College of Legazpi, Philippines, 2014 to 2019) has no Engineers Australia assessment on record; 'Demonstrated engineering design experience within the civil engineering field': Marc's civil design experience is Advanced Diploma coursework (road, earthworks, pavement, stormwater), not paid design work; whether the Shire counts that is not stated",
+  "checked_at": "2026-09-28T15:57:08.000Z",
+  "seek_id": "94716040",
+  "duplicate_key": "campaspeshirecouncil|seek:94716040"
+ },
+ {
+  "id": "008dea8f-892f-47b1-95fa-79836d9b3cd5",
+  "key": "manual:008dea8f-892f-47b1-95fa-79836d9b3cd5",
+  "contributor_name": "Claude",
+  "created_by": "claude-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260928T1532Z",
+  "created_at": "2026-09-28T15:57:08.000Z",
+  "updated_at": "2026-09-28T15:57:08.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "DWE SERVICES",
+  "role": "Civil Project Engineer",
+  "location": "Murray Bridge, Riverland & Murray Mallee SA",
+  "job_url": "https://www.seek.com.au/job/94764074",
+  "status": "HELD_ELIGIBILITY_UNCONFIRMED",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "SEEK",
+  "fit": [
+   "Advert bills this as an 'Experienced Civil Project Engineer' hands-on site role, supporting Project Managers and crews; no explicit years figure but experience is described as essential.",
+   "Strong discipline overlap: subdivision development, road construction, service installation, drainage, reviewing drawings and specifications.",
+   "Murray Bridge SA is regional; Marc's site coordination and daily reporting experience from the Philippines is relevant but not Australian."
+  ],
+  "gaps": [
+   "No Australian civil construction or project engineering experience",
+   "No cost tracking, project budgeting or forecasting experience beyond coursework estimates"
+  ],
+  "match_score": {
+   "percent": 60,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Advert bills this as an 'Experienced Civil Project Engineer' hands-on site role, supporting Project Managers and crews; no explicit years figure but experience is described as essential.",
+    "Strong discipline overlap: subdivision development, road construction, service installation, drainage, reviewing drawings and specifications.",
+    "Murray Bridge SA is regional; Marc's site coordination and daily reporting experience from the Philippines is relevant but not Australian."
+   ],
+   "caution": "The role is framed as an experienced hire ('Experienced Civil Project Engineer') without a specific years figure; confirm with the employer whether Marc's non-Australian entry-level site experience is acceptable before applying."
+  },
+  "notes": "Held by Claude: Advert titled/summarised as an 'Experienced Civil Project Engineer' in a hands-on site-based role working with Project Managers, Supervisors, subcontractors and crews, and lists 'Previous experience in civil construction or project engineering' as a requirement; in substance this reads as an experienced hire although no years figure is printed",
+  "checked_at": "2026-09-28T15:57:08.000Z",
+  "seek_id": "94764074",
+  "duplicate_key": "dweservices|seek:94764074"
+ }
+]

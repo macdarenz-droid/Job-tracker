@@ -11,7 +11,7 @@
  "contact_evidence_url": "https://hanlonsconsulting.com.au/career",
  "subject": "Civil Engineer/Civil Designer, Tamworth, Marc Masarate",
  "application_type": "ADVERTISED_VACANCY",
- "email_body": "Hello,\n\nI'm applying for the Civil Engineer/Civil Designer role in your Tamworth engineering team, advertised on SEEK, and sending my resume and cover letter to this address as your careers page asks. The ad's line about a graduate ready for broader project exposure describes where I am.\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026, where I designed and documented road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D to Australian Standards and Austroads guides, and prepared cost estimates and bills of quantities. My degree is a Bachelor of Science in Civil Engineering (Philippines, 2019). On site in the Philippines from April 2019 to February 2020 I reviewed drawings, checked the work against them, ran inspections and kept site records, including on subdivision finishing works.\n\nI haven't worked in an Australian design office yet, so my design software experience is AutoCAD and Civil 3D from the diploma. I hold a White Card, an Australian driver's licence and full working rights until December 2027 on a Subclass 485 visa. I'm based in Melton, Victoria and open to discussing relocation to Tamworth.\n\nMy drawings are at https://macdarenz-droid.github.io/Portfolio. I'd be glad to talk.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
+ "email_body": "Dear Tim,\n\nI applied for the Civil Engineer/Civil Designer role in your Tamworth team through SEEK on [date Marc applied]. Your careers page asks for resumes at this address as well, so I've attached my resume and my cover letter to you.\n\nIn short: a civil engineering degree (Philippines, 2019), an Advanced Diploma of Civil Construction Design finished in February 2026 with road, earthworks, pavement and stormwater design in AutoCAD and Civil 3D, and eleven months on site in the Philippines. I'm based in Melton, Victoria, hold full working rights until December 2027 on a Subclass 485 visa, and I'm open to discussing relocation to Tamworth.\n\nMy drawings are at https://macdarenz-droid.github.io/Portfolio. I'd welcome a call about the team's projects.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
  "letter": {
   "recipient_name": "Tim McLean",
   "recipient_role": "Manager, Development and Engineering, Hanlons Consulting",
@@ -21,11 +21,11 @@
   "greeting": "Dear Tim,",
   "closing": "Kind regards,",
   "paragraphs": [
-   "I'm applying for the Civil Engineer/Civil Designer role in your Tamworth engineering team, advertised on SEEK. The ad says you would also consider a graduate civil engineer ready for broader project exposure, and that describes where I am: a civil engineering degree, an Australian design diploma and a year on site, looking for a team where I can work across roads, subdivisions and drainage with senior engineers to learn from. Your engineering page lists rail, local government and development projects, which is the range I want.",
-   "In February 2026 I completed an Advanced Diploma of Civil Construction Design at Albright Institute. I designed and documented road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D to Australian Standards and Austroads guides, lodged Before You Dig Australia enquiries and designed around existing services, and prepared cost estimates, bills of quantities, options analyses and risk registers. Before that I completed a Bachelor of Science in Civil Engineering in the Philippines in 2019, which covered hydraulics, surveying, structural principles and construction methods.",
-   "My site experience is from the Philippines, April 2019 to February 2020, first as project-in-charge on a community hall renovation and then as field engineer on residential subdivision finishing works. I reviewed structural and architectural drawings and checked the work against them, carried out inspections and quality checks, and kept site reports and progress records. It gave me a builder's view of the drawings I would now be producing.",
-   "I have not worked in an Australian design office yet, so my design software experience is AutoCAD and Civil 3D from the diploma. I hold a White Card, an Australian driver's licence with my own transport, and full working rights until December 2027 on a Subclass 485 visa. I'm based in Melton, Victoria and open to discussing relocation to Tamworth.",
-   "My resume is attached and my drawings are at https://macdarenz-droid.github.io/Portfolio. I'd be glad to talk about the team's projects and where a graduate would start."
+   "I'm applying for the Civil Engineer/Civil Designer role in your Tamworth engineering team, advertised on SEEK. The ad says you would also consider a graduate civil engineer ready for broader project exposure, and that describes where I am: a civil engineering degree, an Australian design diploma and eleven months on site, looking for a team where I can work across roads, subdivisions and drainage with senior engineers to learn from. Your engineering page lists rail, local government and development projects, and that variety draws me to Hanlons.",
+   "In February 2026 I completed an Advanced Diploma of Civil Construction Design at Albright Institute. The work closest to your ad was designing and documenting road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D to Australian Standards and Austroads guides, with Before You Dig Australia enquiries lodged and the designs fitted around existing services. I also prepared cost estimates, bills of quantities and risk registers. My Bachelor of Science in Civil Engineering (Philippines, 2019) covered hydraulics, surveying and structural principles.",
+   "My site experience is from the Philippines, April 2019 to February 2020, first as project-in-charge on a community hall renovation and then as field engineer on residential subdivision finishing works. I reviewed structural and architectural drawings and checked the work against them, carried out inspections and quality checks, and kept site reports and progress records.",
+   "Where I am short of the ad: I have not worked in an Australian design office, and my design software is AutoCAD and Civil 3D from the diploma, so I would be learning your hydraulic and design packages on the job. I hold a White Card, an Australian driver's licence with my own transport, and full working rights until December 2027 on a Subclass 485 visa. I'm based in Melton, Victoria and open to discussing relocation to Tamworth.",
+   "My resume is attached and my drawings are at https://macdarenz-droid.github.io/Portfolio. I'd welcome a call about where a graduate would start."
   ]
  },
  "screening_answers": [
@@ -42,6 +42,10 @@
    "answer": "No paid years yet: two years of civil design coursework in the Advanced Diploma of Civil Construction Design (2024 to 2026) and 11 months of site engineering in the Philippines (2019 to 2020)."
   },
   {
+   "question": "How many years experience in Civil Engineering Design do you have?",
+   "answer": "No paid years yet: two years of civil design coursework in the Advanced Diploma of Civil Construction Design (2024 to 2026)."
+  },
+  {
    "question": "How much notice are you required to give your current employer?",
    "answer": "[Marc to confirm.]"
   },
@@ -56,11 +60,12 @@
  ],
  "checklist": [
   "Decide first whether you would move to Tamworth: the letter and email say \"open to discussing relocation to Tamworth\". If the answer is no, do not apply.",
+  "Confirm two conditions in the ad before applying: your licence is a full Australian Class C, and you are able to pass a Cat3 rail medical (Hanlons does rail work). Neither is on record.",
   "Open https://www.seek.com.au/job/94925455 and use Apply.",
   "Attach the two PDFs from this record (resume and cover letter).",
   "Paste the screening answers above and fill the two placeholders (salary, notice).",
   "Submit before 28 October 2026.",
-  "Press Applied on the tracker with the date and \"SEEK\". Only after that, the prepared email to office@hanlonsconsulting.com.au (the careers page asks for resumes there) may be sent as a follow-up."
+  "Press Applied on the tracker with the date and \"SEEK\". Only after that, the short prepared email to office@hanlonsconsulting.com.au (the careers page asks for resumes there) may be sent, with the SEEK date filled in."
  ],
  "notes": "Regional NSW consultancy (surveying, planning, engineering) expanding its Tamworth engineering team; the ad explicitly welcomes a graduate civil engineer. Interstate: Tamworth relocation is Marc's call. Contact research (28 Sep 2026): Tim McLean heads the Tamworth engineering team and Steve Griffiths is Director and Senior Civil Engineer; neither publishes an email. The careers page says to send resumes to office@hanlonsconsulting.com.au and that applications are always welcome, so a follow-up email is prepared for after the SEEK submission."
 }
