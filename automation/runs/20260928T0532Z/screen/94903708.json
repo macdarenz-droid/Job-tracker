@@ -1,0 +1,40 @@
+{
+  "id": "94903708",
+  "source": "seek",
+  "company": "JDM Civil Group",
+  "title": "Project Engineer",
+  "location": "Thornton, Newcastle, Maitland & Hunter NSW",
+  "url": "https://www.seek.com.au/job/94903708",
+  "listed_at": "2026-09-27T22:48:15.566Z",
+  "expires_at": "2026-10-28T12:59:59.999Z",
+  "screening_questions": [
+    "Have you completed a qualification in civil engineering?",
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a project engineer?",
+    "Do you have a current Australian driver's licence?",
+    "How many years' experience do you have with project planning and scheduling?",
+    "How many years of project management experience do you have?",
+    "How many years' experience do you have in the construction industry?",
+    "Do you hold a Construction Induction Safety certificate (White Card)?"
+  ],
+  "percent": 72,
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [
+    "Screening questions ask for years of project engineer, project management and construction industry experience, but the ad text captured does not state a minimum"
+  ],
+  "gaps": [
+    "Role is QA/ITP/non-conformance heavy (technical and quality assurance backbone), which is more specialised than Marc's general site inspection background"
+  ],
+  "rationale": [
+    "QA documentation, ITPs, drawing/spec review and material scheduling overlap Marc's technical documentation and site inspection background.",
+    "White Card is explicitly asked about and Marc holds one; driver's licence also held.",
+    "Newcastle/Hunter NSW, an acceptable regional location."
+  ],
+  "caution": "Rough fit, not an interview forecast; main unknown is the real experience bar behind the multiple years-of-experience screening questions.",
+  "route": "SEEK",
+  "apply_email": null,
+  "apply_instructions": null,
+  "open": true,
+  "employer_is_agency": false,
+  "notes": ""
+}

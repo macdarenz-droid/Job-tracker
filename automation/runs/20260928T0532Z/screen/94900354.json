@@ -1,0 +1,31 @@
+{
+ "id": "94900354",
+ "source": "seek",
+ "company": "Offaly Civil Engineering Pty Ltd",
+ "title": "Site Engineer",
+ "location": "Gympie, Hervey Bay & Fraser Coast QLD",
+ "url": "https://www.seek.com.au/job/94900354",
+ "listed_at": "2026-09-27T05:36:35.167Z",
+ "expires_at": "2026-10-27T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following Microsoft Office products are you experienced with?",
+  "Have you completed a qualification in civil engineering?",
+  "Do you have a current Australian driver's licence?"
+ ],
+ "percent": 68,
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "gaps": [
+  "'Previous experience working on Water and Sewer projects is highly desirable' but not essential; Marc has none",
+  "Role reads as an immediate-start hire, unclear if that rules out a candidate needing onboarding time"
+ ],
+ "rationale": "Site engineer role with a self-performing regional civil contractor: QSE records, ITPs, procurement, documentation, costing support.\nMarc's Philippines site work covers the same duties; no Australian site work and no water and sewer projects yet.\nGympie relocation; email application route named in the advert; immediate start.",
+ "caution": "Rough fit, not an interview forecast. Employer acceptance of a time-limited 485 visa and relocation are the main unknowns.",
+ "route": "EMAIL",
+ "apply_email": "enquiries@offalycivil.com",
+ "apply_instructions": "Please upload your resume through this portal or email it to enquiries@offalycivil.com, and we will be in contact with you to arrange a phone interview and a time to meet our management team in our Gympie office.",
+ "open": true,
+ "employer_is_agency": false,
+ "notes": "Advert allows either the SEEK portal or a direct email to enquiries@offalycivil.com; EMAIL route recorded per the explicit address.",
+ "screener_percent": 82
+}

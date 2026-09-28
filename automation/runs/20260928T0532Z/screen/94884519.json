@@ -1,0 +1,36 @@
+{
+  "id": "94884519",
+  "source": "seek",
+  "company": "Mitchell Creative",
+  "title": "Digital Designer Trainee / Junior",
+  "location": "Townsville, Northern QLD",
+  "url": "https://www.seek.com.au/job/94884519",
+  "listed_at": "2026-09-25T08:37:18.662Z",
+  "expires_at": "2026-10-25T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a digital designer?",
+    "How much notice are you required to give your current employer?"
+  ],
+  "percent": 37,
+  "mandatory_unmet": [
+    "'Has at least 1-2 years' experience in graphic, digital or web design or relevant design experience in another role' is listed as a requirement; this is outside Marc's civil engineering background in facts.json"
+  ],
+  "mandatory_unresolved": [],
+  "gaps": [
+    "Role (website design, graphic design, digital marketing) is not a civil engineering discipline at all"
+  ],
+  "rationale": [
+    "Trainee/junior role level is a strong match in the abstract.",
+    "Discipline is digital/graphic design for a marketing agency, with no civil engineering overlap.",
+    "Townsville, Northern QLD, an acceptable regional location, but discipline mismatch is the bigger issue."
+  ],
+  "caution": "Rough fit, not an interview forecast; this role sits outside civil engineering entirely, so the stated 1-2 years' design experience is a real, not just possible, gap.",
+  "route": "SEEK",
+  "apply_email": null,
+  "apply_instructions": null,
+  "open": true,
+  "employer_is_agency": false,
+  "notes": ""
+}

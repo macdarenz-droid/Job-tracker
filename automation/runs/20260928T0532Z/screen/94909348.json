@@ -1,0 +1,39 @@
+{
+  "id": "94909348",
+  "source": "seek",
+  "company": "Satake Australia Pty Ltd",
+  "title": "Draftsperson",
+  "location": "Allora, Toowoomba & Darling Downs QLD",
+  "url": "https://www.seek.com.au/job/94909348",
+  "listed_at": "2026-09-28T02:34:42.524Z",
+  "expires_at": "2026-10-28T12:59:59.999Z",
+  "screening_questions": [
+    "How many years of digital production experience do you have?",
+    "Which of the following statements best describes your right to work in Australia?",
+    "Which of the following data visualisation tools are you experienced with?",
+    "Which of the following CAD software do you have experience with?",
+    "Have you completed a qualification in engineering drafting / engineering design?",
+    "Have you worked in a role where you had to identify user needs and form product requirements?",
+    "What's your expected annual base salary?"
+  ],
+  "percent": 29,
+  "mandatory_unmet": [
+    "Duties require creating and maintaining 3D models, technical drawings and specifications using SolidWorks and AutoCAD; Marc has not used SolidWorks (facts.json lists AutoCAD, Civil 3D, Revit, Microsoft Office and Google Workspace only)"
+  ],
+  "mandatory_unresolved": [],
+  "gaps": [
+    "Role is product/mechanical drafting (materials, weight limitations, production methods) rather than civil road/drainage work"
+  ],
+  "rationale": [
+    "Draftsperson title looks entry-friendly, but the core software and discipline are mechanical/product design, not civil.",
+    "SolidWorks is named as the 3D modelling tool for the role, which is outside Marc's software list.",
+    "Regional Queensland (Allora/Toowoomba), acceptable location on its own."
+  ],
+  "caution": "Rough fit, not an interview forecast; SolidWorks appears in the core duties, so it looks like a real, not just possible, gap.",
+  "route": "SEEK",
+  "apply_email": null,
+  "apply_instructions": null,
+  "open": true,
+  "employer_is_agency": false,
+  "notes": ""
+}

@@ -1,0 +1,30 @@
+{
+ "id": "94906881",
+ "source": "seek",
+ "company": "All Energy Contracting",
+ "title": "Graduate Engineer",
+ "location": "Hamilton, Brisbane QLD",
+ "url": "https://www.seek.com.au/job/94906881",
+ "listed_at": "2026-09-28T01:22:21.620Z",
+ "expires_at": "2026-10-26T01:22:17.000Z",
+ "screening_questions": [
+  "Tell us about yourself, your degree and what led you to study engineering. ",
+  "What interests you about this graduate role and about working with All Energy Contracting?"
+ ],
+ "percent": 66,
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "gaps": [
+  "'Desirable: internship, vacation or site experience in construction, utilities, energy or infrastructure' is not essential; Marc has relevant site experience from the Philippines to offer",
+  "Advert prefers a relevant engineering Bachelor's degree 'completed within last 2 years ideally'; Marc's civil engineering Bachelor's was completed in 2019, though his most recent qualification (the Advanced Diploma) was completed February 2026, so it's unclear whether this preference is met"
+ ],
+ "rationale": "Graduate precontracts role: tender and design documentation, estimates on energy projects.\nCoursework cost estimates and bills of quantities and documentation fit; degree is older than the two years the ad ideally wants; no energy-sector exposure.\nBrisbane relocation; SEEK with two written questions.",
+ "caution": "Rough fit, not an interview forecast. Employer acceptance of a time-limited 485 visa and relocation are the main unknowns.",
+ "route": "SEEK",
+ "apply_email": null,
+ "apply_instructions": null,
+ "open": true,
+ "employer_is_agency": false,
+ "notes": " Claude: 'completed within last 2 years ideally' is a stated preference, not an essential criterion; the letter states the 2019 degree and the 2026 diploma plainly. Moved from mandatory_unresolved to gaps.",
+ "screener_percent": 87
+}

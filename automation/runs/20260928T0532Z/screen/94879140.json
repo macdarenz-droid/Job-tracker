@@ -1,0 +1,31 @@
+{
+  "id": "94879140",
+  "source": "seek",
+  "company": "ACCIONA Australia",
+  "title": "Project Engineer",
+  "location": "Goulburn, Southern Highlands & Tablelands NSW",
+  "url": "https://www.seek.com.au/job/94879140",
+  "listed_at": "2026-09-25T05:36:37.040Z",
+  "expires_at": "2026-10-25T05:36:35.000Z",
+  "screening_questions": [],
+  "percent": 80,
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [
+    "'Experience in civil or structural engineering delivery' is listed without a stated minimum; unclear how much is required beyond the tertiary qualification"
+  ],
+  "gaps": [
+    "HumeLink East is a large transmission line project; specific power/transmission civil experience is new to Marc"
+  ],
+  "rationale": [
+    "'Tertiary qualification in civil or structural engineering, or working towards one' is satisfied by Marc's BSCE and Advanced Diploma.",
+    "Civil/structural engineering delivery on a major infrastructure project overlaps Marc's coursework discipline.",
+    "Goulburn, Southern Highlands & Tablelands NSW, an acceptable regional location with a Tier 1 contractor."
+  ],
+  "caution": "Rough fit, not an interview forecast; main unknown is how much prior delivery experience ACCIONA expects alongside the qualification.",
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": null,
+  "apply_instructions": "Apply now to join the team delivering HumeLink East.",
+  "open": true,
+  "employer_is_agency": false,
+  "notes": ""
+}

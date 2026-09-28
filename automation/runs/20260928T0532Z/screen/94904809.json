@@ -1,0 +1,30 @@
+{
+  "id": "94904809",
+  "source": "seek",
+  "company": "Fulton Hogan Australia Pty Limited",
+  "title": "Estimator",
+  "location": "Campbelltown, Sydney NSW",
+  "url": "https://www.seek.com.au/job/94904809",
+  "listed_at": "2026-09-28T00:00:40.475Z",
+  "expires_at": "2026-10-28T00:00:38.000Z",
+  "screening_questions": [],
+  "percent": 80,
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "gaps": [
+    "No prior paid estimating experience; coursework covered cost estimates/BOQ only",
+    "Specific estimating software (Expert Estimation, Benchmark) not confirmed for Marc"
+  ],
+  "rationale": [
+    "Explicitly open to 'experience or exposure' to civil infrastructure and road construction, with training and development offered.",
+    "Civil infrastructure/road construction estimating overlaps Marc's coursework discipline.",
+    "Campbelltown, Sydney NSW, an acceptable but non-VIC, non-regional location."
+  ],
+  "caution": "Rough fit, not an interview forecast; main unknown is how much weight Fulton Hogan puts on the 'exposure' route versus paid estimating background.",
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": null,
+  "apply_instructions": null,
+  "open": true,
+  "employer_is_agency": false,
+  "notes": ""
+}

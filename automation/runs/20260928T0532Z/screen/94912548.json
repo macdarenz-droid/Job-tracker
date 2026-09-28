@@ -1,0 +1,37 @@
+{
+  "id": "94912548",
+  "source": "seek",
+  "company": "AWCON Pty Ltd",
+  "title": "Estimator – Mining & Civil Construction",
+  "location": "Orange, Blue Mountains & Central West NSW",
+  "url": "https://www.seek.com.au/job/94912548",
+  "listed_at": "2026-09-28T03:59:21.561Z",
+  "expires_at": "2026-10-28T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have in a Civil Construction Role?",
+    "What's your expected annual base salary?",
+    "How much notice are you required to give your current employer?"
+  ],
+  "percent": 77,
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [
+    "No estimating experience or specific estimating software (HCSS HeavyBid, CostX, Candy) is confirmed for Marc"
+  ],
+  "gaps": [
+    "Role expects the hire to 'own the tender' end to end, which implies more independence than a first estimating job usually gives",
+    "Excel skill level not confirmed beyond Marc's Advanced Diploma coursework"
+  ],
+  "rationale": [
+    "Explicitly welcomes junior estimators 'ready for their next step', and Marc's degree in Engineering satisfies the stated requirement.",
+    "Some discipline overlap through cost estimates/BOQ coursework, but core estimating software and mining-project pricing are new to Marc.",
+    "Regional NSW (Orange), acceptable but not VIC or FIFO."
+  ],
+  "caution": "Rough fit, not an interview forecast; main unknown is whether 'junior estimator ready for next step' still assumes some paid estimating background.",
+  "route": "SEEK",
+  "apply_email": null,
+  "apply_instructions": "Apply now via SEEK with your resume and a short note about the projects you're proudest of pricing.",
+  "open": true,
+  "employer_is_agency": false,
+  "notes": "AWCON is the named employer, not a recruiter."
+}

@@ -1,0 +1,36 @@
+{
+  "id": "94864699",
+  "source": "seek",
+  "company": "SS Digital Drafting Pty Ltd",
+  "title": "Survey Drafter (CAD Technician) or Trainee",
+  "location": "Brisbane QLD",
+  "url": "https://www.seek.com.au/job/94864699",
+  "listed_at": "2026-09-25T07:21:43.267Z",
+  "expires_at": "2026-10-25T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a CAD Technician?",
+    "How much notice are you required to give your current employer?"
+  ],
+  "percent": 47,
+  "mandatory_unmet": [
+    "Advert states 'By applying for this role, you acknowledge that you're an Australian resident or citizen and able to provide documentation to support your claim'; Marc holds a Subclass 485 visa, not citizenship or residency in that sense"
+  ],
+  "mandatory_unresolved": [],
+  "gaps": [
+    "'Basic experience in survey drafting or CAD design (e.g., 1-3 years)' is listed under 'About you' but a Trainee track is also explicitly offered"
+  ],
+  "rationale": [
+    "Survey Drafter/CAD Technician or Trainee role using AutoCAD, Revit or Civil 3D overlaps Marc's software and civil documentation coursework closely.",
+    "A Trainee track is explicitly offered alongside the experienced CAD Technician path, which is role-level friendly.",
+    "Brisbane QLD, an acceptable location, but the residency/citizenship acknowledgement is a hard block as stated."
+  ],
+  "caution": "Rough fit, not an interview forecast; the residency/citizenship acknowledgement is explicit, not an unknown.",
+  "route": "SEEK",
+  "apply_email": null,
+  "apply_instructions": null,
+  "open": true,
+  "employer_is_agency": false,
+  "notes": ""
+}

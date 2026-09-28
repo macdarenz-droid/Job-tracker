@@ -1,0 +1,35 @@
+{
+ "id": "94911522",
+ "source": "seek",
+ "company": "PlusJob",
+ "title": "Civil Engineering Draftsperson",
+ "location": "Ingleburn, Sydney NSW",
+ "url": "https://www.seek.com.au/job/94911522",
+ "listed_at": "2026-09-28T03:32:03.248Z",
+ "expires_at": "2026-10-28T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "What's your expected annual base salary?",
+  "How many years' experience do you have as a civil drafter?",
+  "How much notice are you required to give your current employer?",
+  "Have you completed a qualification in civil construction?",
+  "Do you have Engineering Drawing Interpretation experience?"
+ ],
+ "percent": 70,
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "gaps": [
+  "Screening question asks years as a civil drafter; Marc's drafting is Advanced Diploma coursework, not paid drafting years",
+  "No apply email or instructions captured in the excerpt read",
+  "Advert asks for 'relevant experience in civil engineering drafting, design or construction documentation' without stating a minimum, so how much beyond coursework is required is unclear"
+ ],
+ "rationale": "Civil drafting for solar projects: layouts, footings, earthworks, trenching and drainage in AutoCAD and Civil 3D; the ad names the Advanced Diploma of Civil Construction Design.\nDrafting experience is coursework only against 'relevant experience'; Civil 3D highly regarded.\nSydney relocation; agency posting, SEEK route.",
+ "caution": "Rough fit, not an interview forecast. Employer acceptance of a time-limited 485 visa and relocation are the main unknowns.",
+ "route": "SEEK",
+ "apply_email": null,
+ "apply_instructions": null,
+ "open": true,
+ "employer_is_agency": true,
+ "notes": "Company field shows recruiter PlusJob; the advert names the actual employer as Sungold Solar, so no agency penalty applied. Claude: 'Relevant experience in civil engineering drafting, design or construction documentation' sets no minimum; the diploma's drafting and construction documentation is relevant experience and the letter says it is coursework only. Moved from mandatory_unresolved to gaps.",
+ "screener_percent": 88
+}

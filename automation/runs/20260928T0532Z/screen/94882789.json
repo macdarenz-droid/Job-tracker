@@ -1,0 +1,29 @@
+{
+  "id": "94882789",
+  "source": "seek",
+  "company": "BESIX Watpac",
+  "title": "Building Cadet",
+  "location": "Adelaide SA",
+  "url": "https://www.seek.com.au/job/94882789",
+  "listed_at": "2026-09-25T07:34:29.006Z",
+  "expires_at": "2026-10-25T12:59:59.999Z",
+  "screening_questions": [],
+  "percent": 42,
+  "mandatory_unmet": [
+    "'Currently studying a university-level degree in Construction Management, Engineering, or a related discipline' is the stated qualification requirement; Marc is not currently enrolled (both his degree and Advanced Diploma are already completed)"
+  ],
+  "mandatory_unresolved": [],
+  "gaps": [],
+  "rationale": [
+    "Building Cadet role level is a strong match in the abstract, feeding into a two-year graduate/early-career program.",
+    "General construction discipline (cost plans, tenders, site duties) overlaps loosely with Marc's coursework.",
+    "Adelaide SA, an acceptable location, but the current-enrolment requirement is a hard block."
+  ],
+  "caution": "Rough fit, not an interview forecast; the current-enrolment requirement is explicit, not an unknown.",
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": null,
+  "apply_instructions": null,
+  "open": true,
+  "employer_is_agency": false,
+  "notes": "Advert does note applicants who 'don't tick all the boxes' are encouraged to apply, but current enrolment is stated as a requirement, not a preference."
+}

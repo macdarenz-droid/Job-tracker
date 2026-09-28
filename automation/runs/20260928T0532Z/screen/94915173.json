@@ -1,0 +1,29 @@
+{
+  "id": "94915173",
+  "source": "seek",
+  "company": "Kingston City Council",
+  "title": "Student Traffic Analyst",
+  "location": "Cheltenham, Melbourne VIC",
+  "url": "https://www.seek.com.au/job/94915173",
+  "listed_at": "2026-09-28T05:27:14.562Z",
+  "expires_at": "2026-10-12T12:55:00.000Z",
+  "screening_questions": [],
+  "percent": 35,
+  "mandatory_unmet": [
+    "Essential requirement is 'current enrolment in a degree in engineering, urban planning, transport planning or a related discipline'; Marc is not currently enrolled (Advanced Diploma completed February 2026, Bachelor's completed 2019)"
+  ],
+  "mandatory_unresolved": [],
+  "gaps": [],
+  "rationale": [
+    "Casual role is explicitly for a 'university enrolled individual', which Marc no longer is.",
+    "Traffic engineering/transport planning overlaps only partly with Marc's civil road design coursework.",
+    "Cheltenham, Melbourne VIC is the strongest possible location match in this batch, which the enrolment requirement then rules out."
+  ],
+  "caution": "Rough fit, not an interview forecast; the current-enrolment requirement is explicit, not an unknown.",
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": null,
+  "apply_instructions": "All applications must be submitted online through our careers portal.",
+  "open": true,
+  "employer_is_agency": false,
+  "notes": "peopleandculture@kingston.vic.gov.au is listed only for reasonable-adjustment/access contact, not for lodging applications."
+}

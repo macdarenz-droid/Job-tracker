@@ -1,0 +1,37 @@
+{
+  "id": "94868128",
+  "source": "seek",
+  "company": "Shadforth",
+  "title": "Civil Estimators",
+  "location": "Forest Glen, Sunshine Coast QLD",
+  "url": "https://www.seek.com.au/job/94868128",
+  "listed_at": "2026-09-24T22:56:55.350Z",
+  "expires_at": "2026-10-22T21:56:00.000Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a Civil Estimator?",
+    "What’s your expected Annual Base Salary? ",
+    "Have you done first principle build ups of pipework, roadworks and bulk earthworks?"
+  ],
+  "percent": 67,
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [
+    "Ad frames the hire as an 'experienced civil professional' who will 'mentor junior estimators', and a screening question asks for years as a Civil Estimator, but no explicit minimum is stated in the text captured"
+  ],
+  "gaps": [
+    "No prior paid estimating experience for Marc; coursework covered cost estimates/BOQ only",
+    "'First principle build ups of pipework, roadworks and bulk earthworks' screening question suggests estimating maturity beyond coursework"
+  ],
+  "rationale": [
+    "Estimating pricing of civil infrastructure, subdivisions, bulk earthworks and roadworks overlaps Marc's coursework discipline well.",
+    "Wording throughout targets 'experienced civil professionals' who will mentor juniors, not an entry-level estimator seat.",
+    "Sunshine Coast QLD, regional and acceptable, but role level looks like a real barrier."
+  ],
+  "caution": "Rough fit, not an interview forecast; main unknown is whether Shadforth would consider a candidate with no paid estimating experience at all.",
+  "route": "SEEK",
+  "apply_email": null,
+  "apply_instructions": "click 'apply now' to submit an up-to-date copy of your resume or you're welcome to have a confidential discussion with our recruitment team at +61 447 720 319",
+  "open": true,
+  "employer_is_agency": false,
+  "notes": "Direct employer; phone number given is for informal discussion, not an application email."
+}

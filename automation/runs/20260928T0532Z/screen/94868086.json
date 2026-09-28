@@ -1,0 +1,37 @@
+{
+  "id": "94868086",
+  "source": "seek",
+  "company": "Shadforth",
+  "title": "Civil Site and Project Engineers",
+  "location": "North Lakes, Brisbane QLD",
+  "url": "https://www.seek.com.au/job/94868086",
+  "listed_at": "2026-09-24T22:51:02.734Z",
+  "expires_at": "2026-10-22T21:50:00.000Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "Do you have a current Australian driver's licence?",
+    "Do you own or have regular access to a car?",
+    "What’s you expected Annual Base Salary? ",
+    "What previous experience do you have working in Civil Construction?"
+  ],
+  "percent": 79,
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [
+    "Screening question asks 'What previous experience do you have working in Civil Construction?' but the ad text doesn't state a required minimum"
+  ],
+  "gaps": [
+    "No prior paid civil site/project engineer experience for Marc beyond ~10 months in the Philippines"
+  ],
+  "rationale": [
+    "Site and Project Engineer roles on $5M-$70M civil projects overlap Marc's site inspection, coordination and reporting background.",
+    "No explicit years-of-experience line is stated in the advert text, unlike Shadforth's Estimator posting.",
+    "Brisbane/Moreton Bay QLD, an acceptable location."
+  ],
+  "caution": "Rough fit, not an interview forecast; main unknown is the practical experience bar behind the open screening question.",
+  "route": "SEEK",
+  "apply_email": null,
+  "apply_instructions": "Click 'apply now' to submit an up-to-date copy of your resume and a covering letter highlighting your experience.",
+  "open": true,
+  "employer_is_agency": false,
+  "notes": ""
+}

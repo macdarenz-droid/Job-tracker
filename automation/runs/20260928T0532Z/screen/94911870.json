@@ -1,0 +1,36 @@
+{
+  "id": "94911870",
+  "source": "seek",
+  "company": "Resource E",
+  "title": "Site Engineer",
+  "location": "Brisbane QLD",
+  "url": "https://www.seek.com.au/job/94911870",
+  "listed_at": "2026-09-28T03:40:19.380Z",
+  "expires_at": "2026-10-28T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "Have you completed a qualification in civil engineering?",
+    "Do you have experience working on civil infrastructure projects?",
+    "Do you have experience working in remote areas?"
+  ],
+  "percent": 65,
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [
+    "'Proven experience in bulk earthworks and civil construction' and 'previous experience working in a site-based engineering role' are listed under 'About you' without a stated minimum, and no employer name beyond recruiter Resource E is given in the excerpt"
+  ],
+  "gaps": [
+    "FIFO 8:6 roster and 'experience working in remote areas' screening question; Marc's site work to date was not FIFO/remote"
+  ],
+  "rationale": [
+    "Bulk earthworks, civil construction, QA/QC and ITP documentation overlap Marc's coursework and site inspection background well.",
+    "'Proven'/'previous' experience wording suggests some prior site engineering background is expected, even without a stated year count.",
+    "Brisbane QLD on an 8:6 FIFO roster, an acceptable location, but posted by recruiter Resource E with no named end employer."
+  ],
+  "caution": "Rough fit, not an interview forecast; main unknown is how much prior site-based experience 'proven'/'previous' actually requires.",
+  "route": "SEEK",
+  "apply_email": null,
+  "apply_instructions": null,
+  "open": true,
+  "employer_is_agency": true,
+  "notes": "Resource E is the advertiser; no distinct end-employer name is given in the excerpt, so the agency-with-no-named-employer penalty applies."
+}

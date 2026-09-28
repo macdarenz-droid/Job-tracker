@@ -1,0 +1,31 @@
+{
+  "id": "94878120",
+  "source": "seek",
+  "company": "SRG Global",
+  "title": "Project Engineer",
+  "location": "Perth WA",
+  "url": "https://www.seek.com.au/job/94878120",
+  "listed_at": "2026-09-25T04:55:25.324Z",
+  "expires_at": "2026-10-25T05:49:30.000Z",
+  "screening_questions": [],
+  "percent": 26,
+  "mandatory_unmet": [
+    "Advert seeks 'an experienced Project Engineer' with '2 - 3 years' experience in a similar role'; Marc has no matching commercial project engineer experience"
+  ],
+  "mandatory_unresolved": [],
+  "gaps": [
+    "Concrete structures experience desirable but not essential; Marc has none"
+  ],
+  "rationale": [
+    "Explicit 2-3 years' experience requirement for an 'experienced' Project Engineer rules Marc out at this stage.",
+    "Civil infrastructure discipline overlaps reasonably, and Marc's degree matches the stated requirement.",
+    "Regional WA on a 2:1 FIFO roster from Perth, an acceptable location under the rubric."
+  ],
+  "caution": "Rough fit, not an interview forecast; the stated 2-3 years' experience bar is explicit, not an unknown.",
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": null,
+  "apply_instructions": "If you would like to join our team please click the \"apply\" button now.",
+  "open": true,
+  "employer_is_agency": false,
+  "notes": ""
+}

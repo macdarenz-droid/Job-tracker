@@ -1,0 +1,36 @@
+{
+  "id": "94884083",
+  "source": "seek",
+  "company": "Civcon Civil & Project Management Pty Ltd",
+  "title": "Trainee Drainers / Pipe Layers",
+  "location": "Perth WA",
+  "url": "https://www.seek.com.au/job/94884083",
+  "listed_at": "2026-09-25T08:18:41.936Z",
+  "expires_at": "2026-10-25T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a Pipelayer?",
+    "How much notice are you required to give your current employer?",
+    "Do you have a current Australian driver's licence?",
+    "What's your expected hourly rate?",
+    "Are you willing to undergo a pre-employment medical check?"
+  ],
+  "percent": 43,
+  "mandatory_unmet": [
+    "Requirements list '- Australian resident or permanent resident'; Marc holds a Subclass 485 visa, not citizenship or permanent residency"
+  ],
+  "mandatory_unresolved": [],
+  "gaps": [],
+  "rationale": [
+    "Trainee drainage/pipelaying role, a high role-level match with paid on-the-job training toward a Cert III.",
+    "Drainage and civil construction discipline overlaps Marc's coursework and site background.",
+    "Perth WA, an acceptable location, but the residency requirement is a hard block."
+  ],
+  "caution": "Rough fit, not an interview forecast; the residency requirement is explicit, not an unknown.",
+  "route": "SEEK",
+  "apply_email": null,
+  "apply_instructions": null,
+  "open": true,
+  "employer_is_agency": false,
+  "notes": ""
+}

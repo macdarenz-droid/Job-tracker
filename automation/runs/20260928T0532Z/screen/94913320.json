@@ -1,0 +1,33 @@
+{
+  "id": "94913320",
+  "source": "seek",
+  "company": "Dubbo Regional Council",
+  "title": "Design Engineer",
+  "location": "Dubbo, Dubbo & Central NSW",
+  "url": "https://www.seek.com.au/job/94913320",
+  "listed_at": "2026-09-28T04:22:28.806Z",
+  "expires_at": "2026-10-18T22:00:00.000Z",
+  "screening_questions": [],
+  "percent": 84,
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [
+    "Ad lists alternative entry paths (Associate Degree, or 'demonstrated progression through a Bachelor of Civil Engineering... as recognised by Engineers Australia', or extensive design experience); whether Marc's overseas BSCE and Australian Advanced Diploma satisfy Engineers Australia recognition for the entry-level band is unclear",
+    "A higher band asks for 'extensive design experience in Local Government civil works', which Marc does not have; unclear which band this specific vacancy sits in"
+  ],
+  "gaps": [
+    "Survey equipment experience (GNSS rovers, digital levels, Total Stations, GPR) 'will be considered favourably' but is not essential; Marc has not used these",
+    "Local Government design experience specifically is new to Marc"
+  ],
+  "rationale": [
+    "Preparing civil engineering plans and computer models for council infrastructure overlaps Marc's civil documentation and Civil 3D/AutoCAD coursework.",
+    "The advert states multiple possible entry qualifications, one of which (Associate Degree level) is close to Marc's Advanced Diploma.",
+    "Regional NSW (Dubbo), acceptable location; salary and allowances are stated."
+  ],
+  "caution": "Rough fit, not an interview forecast; main unknown is which qualification/experience band this specific vacancy is hiring into.",
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": null,
+  "apply_instructions": "If this role sounds like you, we would love to hear from you, simply click Apply Now! Applications close 9:00am, Monday 19th October 2026",
+  "open": true,
+  "employer_is_agency": false,
+  "notes": ""
+}

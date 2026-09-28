@@ -1,0 +1,34 @@
+{
+  "id": "94868413",
+  "source": "seek",
+  "company": "Loumac Constructions",
+  "title": "Building Estimator / Draftsperson - Awnings, Decks & Light Structural Works",
+  "location": "St Marys, Sydney NSW",
+  "url": "https://www.seek.com.au/job/94868413",
+  "listed_at": "2026-09-24T23:23:06.012Z",
+  "expires_at": "2026-10-25T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a Building Estimator?",
+    "Do you have Construction Trade experience?"
+  ],
+  "percent": 18,
+  "mandatory_unmet": [
+    "'At least two years' hands-on experience in both estimating and drafting awnings and decks, or closely related light structural works' is stated as a requirement; Marc has no matching commercial experience"
+  ],
+  "mandatory_unresolved": [],
+  "gaps": [],
+  "rationale": [
+    "Explicit two-year experience requirement rules Marc out at this stage.",
+    "Discipline is awnings/decks/light structural estimating and drafting, only loosely related to Marc's civil coursework.",
+    "St Marys, Sydney NSW, an acceptable but non-VIC location, secondary to the experience gap."
+  ],
+  "caution": "Rough fit, not an interview forecast; the two-year experience line is explicit, not an unknown.",
+  "route": "SEEK",
+  "apply_email": null,
+  "apply_instructions": null,
+  "open": true,
+  "employer_is_agency": false,
+  "notes": ""
+}

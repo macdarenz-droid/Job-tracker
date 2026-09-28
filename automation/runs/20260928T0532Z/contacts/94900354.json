@@ -1,0 +1,29 @@
+{
+  "seek_id": "94900354",
+  "job_title": "Site Engineer",
+  "company": "Offaly Civil Engineering Pty Ltd (OCE)",
+  "company_url": "https://offalycivil.com/",
+  "careers_url": "https://offalycivil.com/careers",
+  "recipient_name": "",
+  "recipient_role": "Enquiries inbox (application inbox named in the SEEK advert)",
+  "recipient_email": "enquiries@offalycivil.com",
+  "contact_evidence_url": "https://www.seek.com.au/job/94900354",
+  "evidence_quote": "The SEEK advert says to upload a resume through SEEK or email it to enquiries@offalycivil.com. The employer's own contact page (https://offalycivil.com/contact) also publishes the same inbox: 'Email enquiries@offalycivil.com' (rendered behind Cloudflare email-protection, decoded from the page's data-cfemail hash), with phone 07 5481 6165 and offices at 232 Mary Street, Gympie QLD 4570 and 1/29 Flinders Parade, North Lakes QLD 4509.",
+  "contact_confidence": "published_inbox",
+  "named_people": [
+    {
+      "name": "Garreth Higgins",
+      "role": "Co-Founder & Managing Director",
+      "email": "",
+      "evidence_url": "https://offalycivil.com/about"
+    },
+    {
+      "name": "Ryan Thiselton",
+      "role": "Co-Founder & Operations Manager (Director)",
+      "email": "",
+      "evidence_url": "https://offalycivil.com/about"
+    }
+  ],
+  "employer_line": "OCE is delivering Stage 9 & 10 of Gympie Regional Council's Southside Sewerage Program, connecting a further 122 existing properties into the sewerage network (https://offalycivil.com/projects/southside-sewer-stage-9-10).",
+  "notes": "Employer website pages checked: home, /about, /contact, /careers, /projects, /projects/southside-sewer-stage-9-10 (old /about-us/ URL returns 404). None publishes a named person's business email; only the generic enquiries@offalycivil.com inbox, a phone number and a web form. No capability statement PDF found on the site or via search. The about page names the two directors (Garreth Higgins, MD; Ryan Thiselton, Operations Manager) with no emails. Search results for '@offalycivil.com' only surfaced data-broker listings (ZoomInfo, RocketReach, Datanyze) with masked addresses for Ryan Thiselton and others; these are excluded by the contact rule and were not used, and no address was pattern-built. Careers page: 'You can apply directly through our website by uploading your resume on the Careers page, or check our listings on platforms like SEEK for specific vacancies.' Advert also states OCE will provide a vehicle, role is based at the Gympie office, and prior water/sewer experience is highly desirable. Search/fetch budget used: 4 WebSearch, 7 WebFetch."
+}

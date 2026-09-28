@@ -1,0 +1,37 @@
+{
+  "id": "94881775",
+  "source": "seek",
+  "company": "Endeavour Constructions (WA) Pty Ltd",
+  "title": "Junior Draftsperson",
+  "location": "Osborne Park, Perth WA",
+  "url": "https://www.seek.com.au/job/94881775",
+  "listed_at": "2026-09-25T07:03:26.676Z",
+  "expires_at": "2026-10-25T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a draftsperson?",
+    "How much notice are you required to give your current employer?"
+  ],
+  "percent": 33,
+  "mandatory_unmet": [
+    "'Proficiency in ArchiCAD software is essential'; Marc has not used ArchiCAD (facts.json software list is AutoCAD, Civil 3D, Revit, Microsoft Office and Google Workspace)"
+  ],
+  "mandatory_unresolved": [],
+  "gaps": [
+    "Role is JUNIOR ARCHITECTURAL DRAFTSPERSON producing residential working drawings under NCC/R-Codes, not civil road/drainage documentation",
+    "Certificate IV in Residential Building Drafting listed as a qualification; Marc holds a civil qualification, not this one"
+  ],
+  "rationale": [
+    "Junior title and 'full training provided' framing suggest an entry-friendly role level.",
+    "Discipline is residential architectural drafting, not civil engineering, so overlap with Marc's coursework is minimal.",
+    "Perth WA (Osborne Park), an acceptable location on its own."
+  ],
+  "caution": "Rough fit, not an interview forecast; ArchiCAD is stated as essential, so this looks like a real gap, not just an unknown.",
+  "route": "SEEK",
+  "apply_email": null,
+  "apply_instructions": null,
+  "open": true,
+  "employer_is_agency": false,
+  "notes": ""
+}

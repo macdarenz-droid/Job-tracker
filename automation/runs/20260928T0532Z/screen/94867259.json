@@ -1,0 +1,29 @@
+{
+  "id": "94867259",
+  "source": "seek",
+  "company": "Blacktown City Council",
+  "title": "Stormwater Engineer Design (S7.11)",
+  "location": "Blacktown, Sydney NSW",
+  "url": "https://www.seek.com.au/job/94867259",
+  "listed_at": "2026-09-24T21:41:23.570Z",
+  "expires_at": "2026-10-11T12:59:59.000Z",
+  "screening_questions": [],
+  "percent": 27,
+  "mandatory_unmet": [
+    "Advert states the role 'suits an engineer with at least 4 years experience designing detention basins, bioretention basins, wetlands and trunk drainage systems'; Marc has no matching experience"
+  ],
+  "mandatory_unresolved": [],
+  "gaps": [],
+  "rationale": [
+    "Stormwater/drainage design is a strong discipline match with Marc's civil coursework (stormwater drainage, AS 1726/AS 1289 standards).",
+    "The stated 4-years'-experience bar is explicit and Marc does not meet it yet.",
+    "Blacktown, Sydney NSW, an acceptable but non-VIC location, secondary to the experience gap."
+  ],
+  "caution": "Rough fit, not an interview forecast; the 4-years'-experience line is explicit, not an unknown.",
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": null,
+  "apply_instructions": null,
+  "open": true,
+  "employer_is_agency": false,
+  "notes": "Advert also says 'Previous applicants need not apply', which does not affect Marc as he has not applied before."
+}

@@ -1,0 +1,29 @@
+{
+  "id": "94907504",
+  "source": "seek",
+  "company": "SEE Group",
+  "title": "Project Engineer & Site Engineer",
+  "location": "Springwood, Brisbane QLD",
+  "url": "https://www.seek.com.au/job/94907504",
+  "listed_at": "2026-09-28T01:44:04.740Z",
+  "expires_at": "2026-10-28T12:59:59.999Z",
+  "screening_questions": [],
+  "percent": 28,
+  "mandatory_unmet": [
+    "Advert states 'We're open to Engineers with 2-6 years' experience in civil construction'; Marc has no matching commercial experience"
+  ],
+  "mandatory_unresolved": [],
+  "gaps": [],
+  "rationale": [
+    "Civil infrastructure, land development, subdivision and bulk earthworks discipline overlaps Marc's coursework and site background well.",
+    "The stated 2-6 years' experience band is explicit and Marc does not meet it yet.",
+    "Brisbane/Logan-Gold Coast QLD, an acceptable location."
+  ],
+  "caution": "Rough fit, not an interview forecast; the 2-6 years' experience line is explicit, not an unknown.",
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": null,
+  "apply_instructions": "If you would like to join our team and hold full, unlimited working rights in Australia, we encourage you to submit your CV by clicking apply now.",
+  "open": true,
+  "employer_is_agency": false,
+  "notes": "Advert phrase 'full, unlimited working rights' may exclude time-limited visas; treated as a gap to check, not scored as a hard mandatory-unmet since it is not stated as an eligibility requirement in the visible text."
+}
