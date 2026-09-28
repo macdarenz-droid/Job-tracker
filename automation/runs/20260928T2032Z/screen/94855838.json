@@ -1,0 +1,41 @@
+{
+ "percent": 26,
+ "rationale": [
+  "Project Engineer on roads, drainage and subdivisions with ITPs, lot registers and as-constructed records overlaps Marc's quality and records background.",
+  "Requires 'A degree in civil engineering (or equivalent) and 4+ years' experience with a civil contractor' and hands-on ITP and lot conformance experience; Marc has 11 months in the Philippines.",
+  "Upper Mount Gravatt Brisbane is interstate; remote-area travel is expected."
+ ],
+ "caution": "4+ years is stated as required, and the advert also wants a Queensland licence and 'unrestricted rights to work in Australia'.",
+ "gaps": [
+  "No TMR/MRTS or AUS-SPEC experience",
+  "No ITP or lot register experience on Australian civil work",
+  "Remote-area work is only partly covered by recorded FIFO availability"
+ ],
+ "mandatory_unmet": [
+  "\"A degree in civil engineering (or equivalent) and 4+ years' experience with a civil contractor\"",
+  "\"Hands-on experience with ITPs, lot conformance and quality records on roads, drainage or earthworks projects\" (Marc has no such hands-on experience)"
+ ],
+ "mandatory_unresolved": [
+  "\"Current Queensland driver licence\": Marc holds an Australian licence, its state is not on record and he lives in Melton VIC",
+  "\"Applicants must have unrestricted rights to work in Australia\": Marc's Subclass 485 gives full working rights but only to December 2027"
+ ],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK: https://www.seek.com.au/job/94855838 (closes 2026-10-24)",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Gulf Civil Pty Ltd",
+ "title": "Project Engineer",
+ "location": "Upper Mount Gravatt, Brisbane QLD",
+ "url": "https://www.seek.com.au/job/94855838",
+ "listed_at": "2026-09-24T06:38:30.245Z",
+ "expires_at": "2026-10-24T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "What's your expected annual base salary?",
+  "How many years' experience do you have as a project engineer?",
+  "How much notice are you required to give your current employer?",
+  "Do you have a current Australian driver's licence?",
+  "Do you have experience working in remote areas?"
+ ]
+}

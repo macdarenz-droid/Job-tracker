@@ -1,0 +1,35 @@
+{
+ "percent": 40,
+ "rationale": [
+  "A Graduate Project Engineer seat for automatic entrance door systems is product and manufacturing project work, outside civil engineering.",
+  "The advert targets a recently completed or about-to-complete Mechanical Engineering degree; Marc's BSCE is civil and dates from 2019.",
+  "Landsdale Perth is interstate; AutoCAD exposure is asked and Marc has it from coursework."
+ ],
+ "caution": "Outside civil engineering and pitched at mechanical graduates.",
+ "gaps": [
+  "No SolidWorks on record",
+  "No manufacturing or installation project experience",
+  "Perth is interstate"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [
+  "\"Recently completed your Mechanical Engineering degree, or about to graduate\": the essential degree discipline and graduation window are not visible in the captured text, and Marc's BSCE was completed in 2019"
+ ],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK: https://www.seek.com.au/job/94827833 (closes 2026-10-23)",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Assa Abloy Entrance Systems Australia Pty Ltd",
+ "title": "Graduate Project Engineer",
+ "location": "Landsdale, Perth WA",
+ "url": "https://www.seek.com.au/job/94827833",
+ "listed_at": "2026-09-23T06:57:24.180Z",
+ "expires_at": "2026-10-23T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "What's your expected annual base salary?",
+  "How many years' experience do you have as a project engineer?",
+  "How much notice are you required to give your current employer?"
+ ]
+}

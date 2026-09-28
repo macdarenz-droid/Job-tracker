@@ -1,0 +1,35 @@
+{
+ "percent": 8,
+ "rationale": [
+  "Wet and dry fire protection design for data centres is fire-systems drafting, outside civil engineering.",
+  "Requires fire protection industry and design experience; Marc has none, and his AutoCAD and Revit are coursework only.",
+  "Sydney is interstate; a recruiter places the advert for an unnamed client."
+ ],
+ "caution": "Agency advert for an unnamed client in a discipline outside civil.",
+ "gaps": [
+  "No NCC fire compliance experience",
+  "Employer not named",
+  "Sydney is interstate"
+ ],
+ "mandatory_unmet": [
+  "\"Fire Protection industry experience\"",
+  "\"Dry Fire and/or Wet Fire design experience\"",
+  "\"Experience producing compliant Fire Protection designs\""
+ ],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK: https://www.seek.com.au/job/94685120 (closes 2026-10-17)",
+ "open": true,
+ "employer_is_agency": true,
+ "company": "Atom Resources",
+ "title": "Wet & Dry Fire Designer / Drafter | Data Centre Projects | $110k-$130k + Super",
+ "location": "Sydney Olympic Park, Sydney NSW",
+ "url": "https://www.seek.com.au/job/94685120",
+ "listed_at": "2026-09-17T00:00:19.034Z",
+ "expires_at": "2026-10-17T12:59:59.999Z",
+ "screening_questions": [
+  "How many years' experience do you have as a Fire Designer?",
+  "Which of the following CAD software do you have experience with?"
+ ]
+}

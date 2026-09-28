@@ -1,0 +1,67 @@
+{
+ "seek_id": "94841039",
+ "company": "CEI Design Pty Ltd",
+ "role": "Trainee Traffic Signals Designer",
+ "location": "Remote-first, South-East Queensland",
+ "job_url": "https://www.seek.com.au/job/94841039",
+ "route": "SEEK",
+ "recipient_name": "",
+ "recipient_role": "",
+ "recipient_email": "",
+ "contact_evidence_url": "",
+ "subject": "Trainee Traffic Signals Designer, Marc Masarate",
+ "application_type": "ADVERTISED_VACANCY",
+ "email_body": "Hello,\n\nI'm applying for the Trainee Traffic Signals Designer role advertised on SEEK. The ad asks for up to two years in design, drafting or CAD documentation and says signals experience isn't required, which fits me: my design and drafting experience is the two years of my Advanced Diploma of Civil Construction Design, finished in February 2026.\n\nIn that coursework I designed and documented road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D to Australian Standards and Austroads guides, and the standards included AS 1742.14, so signals drawings would not be a cold start. My degree is a Bachelor of Science in Civil Engineering (Philippines, 2019). On site in the Philippines from April 2019 to February 2020 I carried out inspections and checked the work against the drawings.\n\nI have no traffic signal, lighting or ITS experience yet, and my CAD work is from study. I hold an Australian driver's licence, a White Card and full working rights until December 2027 on a Subclass 485 visa. I'm based in Melton, Victoria, can travel to South-East Queensland for meetings and inspections, and I'm open to discussing relocation.\n\nMy drawings are at https://macdarenz-droid.github.io/Portfolio. I'd be glad to talk.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
+ "letter": {
+  "recipient_name": "",
+  "recipient_role": "",
+  "company": "CEI Design Pty Ltd",
+  "company_line": "Brisbane QLD",
+  "subject": "Application for Trainee Traffic Signals Designer",
+  "greeting": "Hello,",
+  "closing": "Kind regards,",
+  "paragraphs": [
+   "I'm applying for the Trainee Traffic Signals Designer role advertised on SEEK. The ad asks for up to two years in design, drafting or CAD documentation, says traffic signals experience is not required, and offers mentoring from senior designers in a small remote-first team. That is the start I'm looking for: my design and drafting experience is the two years of my Advanced Diploma of Civil Construction Design, finished in February 2026.",
+   "In the diploma I designed and documented road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D to Australian Standards and Austroads guides. The standards included AS 1742.14, so traffic signal drawings would not be a cold start, and I lodged Before You Dig Australia enquiries and designed around existing services, which matters when signals and lighting have to fit around what is already in the road reserve. Before the diploma I completed a Bachelor of Science in Civil Engineering in the Philippines in 2019.",
+   "My site experience is from the Philippines, April 2019 to February 2020, as project-in-charge on a community hall renovation and then field engineer on subdivision finishing works. I carried out inspections and quality checks, reviewed drawings and checked the work against them, and kept site reports and progress records: the field side of your role.",
+   "Where I fall short of the ad: I have no traffic signal, road lighting or ITS experience, and my CAD work is from study rather than a drafting job. I use Word and Excel. I hold an Australian driver's licence with my own transport, a White Card, and full working rights until December 2027 on a Subclass 485 visa. I'm based in Melton, Victoria; I can travel to South-East Queensland for client meetings, team sessions and site inspections, and I'm open to discussing relocation.",
+   "My resume is attached and my drawings, including a road cross-section with kerbs and drainage, are at https://macdarenz-droid.github.io/Portfolio. I'd be glad to talk about how the trainee role is set up."
+  ]
+ },
+ "screening_answers": [
+  {
+   "question": "Which of the following statements best describes your right to work in Australia?",
+   "answer": "I hold a Subclass 485 visa with full working rights until December 2027."
+  },
+  {
+   "question": "What's your expected annual base salary?",
+   "answer": "[Marc to confirm; the ad states no salary.]"
+  },
+  {
+   "question": "How many years' experience do you have as a designer?",
+   "answer": "No paid years yet: two years of civil design and drafting coursework in the Advanced Diploma of Civil Construction Design (2024 to 2026)."
+  },
+  {
+   "question": "How much notice are you required to give your current employer?",
+   "answer": "[Marc to confirm.]"
+  },
+  {
+   "question": "Do you have experience in a sales role?",
+   "answer": "No. My customer-facing experience is two years of technical support at Concentrix (2020 to 2022)."
+  },
+  {
+   "question": "Do you have experience in a role which requires relationship management experience?",
+   "answer": "Some: on site in the Philippines (2019 to 2020) I kept clients and stakeholders up to date and coordinated with engineers, subcontractors and suppliers, and at Concentrix (2020 to 2022) I worked with customers and internal teams to resolve technical cases."
+  }
+ ],
+ "checklist": [
+  "Decide first whether you can travel to South-East Queensland for occasional meetings and inspections, and whether you would relocate: the letter says both are possible. If not, do not apply.",
+  "Confirm your licence class and state: the ad asks for a Queensland Class C licence or equivalent. Neither the class nor the state of your licence is on record.",
+  "Open https://www.seek.com.au/job/94841039 and use Apply.",
+  "Attach the two PDFs from this record (resume and cover letter).",
+  "Paste the screening answers above and fill the two placeholders (salary, notice).",
+  "Submit before 24 October 2026.",
+  "Press Applied on the tracker with the date and \"SEEK\"."
+ ],
+ "notes": "Trainee design role at a small traffic signals, road lighting and ITS consultancy; remote-first with occasional South-East Queensland attendance, so it is the first advert that could work from Melton. AS 1742.14 (traffic signals) is in the diploma standards list in facts.json. \"Full Australian work rights\" is disclosed as a 485 visa to December 2027."
+}

@@ -1,0 +1,37 @@
+{
+ "percent": 26,
+ "rationale": [
+  "Site Engineer on Perth bulk earthworks, land development and civil infrastructure matches Marc's discipline (ITPs, QA, variations, reporting).",
+  "The advert seeks 'experienced Site Engineers'; Marc has 11 months in the Philippines and no Australian site role.",
+  "Perth is interstate and the advert asks about a valid WA driver's licence."
+ ],
+ "caution": "Experienced hire with a WA-specific licence; not a graduate seat.",
+ "gaps": [
+  "No bulk earthworks experience",
+  "No variation measuring or pricing experience",
+  "Perth is interstate"
+ ],
+ "mandatory_unmet": [
+  "\"We are seeking experienced Site Engineers\" (Marc has no Australian site role)"
+ ],
+ "mandatory_unresolved": [
+  "\"WA Drivers Licence (manual preferred)\" and the screening question on a valid WA licence: Marc holds an Australian licence, its state is not on record and he lives in Melton VIC"
+ ],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK: https://www.seek.com.au/job/94832299 (closes 2026-10-23)",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "RJV",
+ "title": "Site Engineer",
+ "location": "Perth WA",
+ "url": "https://www.seek.com.au/job/94832299",
+ "listed_at": "2026-09-23T08:26:22.802Z",
+ "expires_at": "2026-10-23T07:26:00.000Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "What's your expected annual base salary?",
+  "How many years' experience do you have as a site engineer?",
+  "Do you have a valid WA drivers licence?"
+ ]
+}

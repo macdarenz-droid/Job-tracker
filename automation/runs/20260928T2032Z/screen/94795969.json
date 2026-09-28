@@ -1,0 +1,40 @@
+{
+ "percent": 23,
+ "rationale": [
+  "Civil/structural Site Engineer on Snowy 2.0 with drawing interpretation and site support overlaps Marc's site work, but this is a senior hire.",
+  "Essential list includes 'Minimum 5 years' experience in structural engineering' and temporary works design experience; Marc has 11 months in the Philippines.",
+  "Cooma NSW is regional FIFO/DIDO (14:7 roster), within Marc's stated FIFO availability."
+ ],
+ "caution": "Explicit 5-year essential minimum on a large hydropower project; a graduate application is unlikely to be considered.",
+ "gaps": [
+  "No large-scale infrastructure or energy project experience",
+  "No Australian site experience",
+  "Hydropower and renewable energy work is new"
+ ],
+ "mandatory_unmet": [
+  "\"Minimum 5 years' experience in structural engineering\"",
+  "\"Demonstrated experience designing for construction or temporary works\" (Marc has none)"
+ ],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK (https://www.seek.com.au/job/94795969); hr.snowy@atbrc.com is for questions only and the advert says applications sent there will not be considered",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "ATB Riva Calzoni Australia",
+ "title": "Site Engineer",
+ "location": "Cooma, Tumut, Snowy & Monaro NSW",
+ "url": "https://www.seek.com.au/job/94795969",
+ "listed_at": "2026-09-22T04:55:56.968Z",
+ "expires_at": "2026-10-22T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "Have you completed a qualification in structural engineering?",
+  "Have you completed a qualification in civil engineering?",
+  "How many years' experience do you have as a Structural Site Engineer?",
+  "How many years' experience do you have as a Temporary Works Engineer?",
+  "Do you have experience using CAD Software?",
+  "How many years' experience do you have as a Civil Site Engineer?",
+  "Do you have 3D Modelling experience?"
+ ]
+}

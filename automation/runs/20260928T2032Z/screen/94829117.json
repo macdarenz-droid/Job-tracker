@@ -1,0 +1,30 @@
+{
+ "percent": 15,
+ "rationale": [
+  "Truck body and water truck drawings for a body-building business are equipment manufacturing drafting, outside civil engineering.",
+  "Requires 'Experience in a body building / equipment manufacturing business', which Marc does not have; an Australian driver's licence is held.",
+  "Canning Vale Perth is interstate and metro-only."
+ ],
+ "caution": "Outside civil engineering (truck bodies); the 'Mechanical Engineering or drafting' qualification is only partly matched.",
+ "gaps": [
+  "Advanced Diploma of Civil Construction Design may or may not count as the drafting certificate",
+  "No manufacturing or mechanical design experience",
+  "Perth is interstate"
+ ],
+ "mandatory_unmet": [
+  "\"Experience in a body building / equipment manufacturing business\" (Marc has none)"
+ ],
+ "mandatory_unresolved": [],
+ "route": "EMPLOYER_PORTAL",
+ "apply_email": "",
+ "apply_instructions": "SEEK Apply Now links out to the employer's own application site; start at https://www.seek.com.au/job/94829117 (closes 2026-10-21)",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "AES Equipment Solutions",
+ "title": "Draftsperson",
+ "location": "Canning Vale, Perth WA",
+ "url": "https://www.seek.com.au/job/94829117",
+ "listed_at": "2026-09-23T06:54:18.273Z",
+ "expires_at": "2026-10-21T22:00:00.000Z",
+ "screening_questions": []
+}

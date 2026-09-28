@@ -1,0 +1,31 @@
+{
+ "percent": 23,
+ "rationale": [
+  "Structural drafting in Revit 3D and AutoCAD overlaps Marc's Revit truss bridge and AutoCAD footing coursework.",
+  "The advert seeks an 'experienced Structural Designer / Drafter' with 'Solid experience in structural design drafting and modelling'; Marc's CAD is academic only.",
+  "Brisbane is interstate; the discipline is structural, not civil roads or drainage."
+ ],
+ "caution": "The role expects the drafter to own a project's drawing package with genuine autonomy.",
+ "gaps": [
+  "No commercial structural drafting",
+  "'Strong proficiency in Revit and AutoCAD' is beyond coursework-level use",
+  "Brisbane is interstate"
+ ],
+ "mandatory_unmet": [
+  "\"experienced Structural Designer / Drafter\"",
+  "\"Solid experience in structural design drafting and modelling\" (Marc has no commercial drafting)"
+ ],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK: https://www.seek.com.au/job/94671188 (closes 2026-10-16)",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Harris Kmon Solutions",
+ "title": "Structural Designer / Drafter",
+ "location": "Brisbane QLD",
+ "url": "https://www.seek.com.au/job/94671188",
+ "listed_at": "2026-09-16T06:52:48.392Z",
+ "expires_at": "2026-10-16T06:52:47.000Z",
+ "screening_questions": []
+}

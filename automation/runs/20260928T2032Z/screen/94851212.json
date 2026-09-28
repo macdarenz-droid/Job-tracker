@@ -1,0 +1,30 @@
+{
+ "percent": 27,
+ "rationale": [
+  "Site Engineer duties (quality inspections, subcontractor administration, program monitoring) overlap Marc's inspection and coordination work.",
+  "'Our Minimum Requirements' include '3 years experience in a Site Engineer or similar engineering role within a construction or major infrastructure environment'; Marc has 11 months in the Philippines.",
+  "A regional Queensland project is within Marc's regional availability, though the town is not named."
+ ],
+ "caution": "Explicit 3-year minimum at a tier-one contractor.",
+ "gaps": [
+  "No major infrastructure site experience",
+  "No Australian site work",
+  "Project town in regional QLD is not specified"
+ ],
+ "mandatory_unmet": [
+  "\"3 years experience in a Site Engineer or similar engineering role within a construction or major infrastructure environment\""
+ ],
+ "mandatory_unresolved": [],
+ "route": "EMPLOYER_PORTAL",
+ "apply_email": "",
+ "apply_instructions": "SEEK Apply Now links out to the employer's own application site; start at https://www.seek.com.au/job/94851212 (closes 2026-10-24)",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "CPB Contractors QLD & PNG",
+ "title": "Site Engineer",
+ "location": "Brisbane QLD",
+ "url": "https://www.seek.com.au/job/94851212",
+ "listed_at": "2026-09-24T04:19:24.944Z",
+ "expires_at": "2026-10-24T12:59:59.999Z",
+ "screening_questions": []
+}

@@ -1,0 +1,39 @@
+{
+ "percent": 20,
+ "rationale": [
+  "Survey drafting of cadastral, feature and as-constructed plans in AutoCAD and Civil 3D overlaps Marc's software coursework only.",
+  "Requires 'Minimum 2 years' experience in Survey Drafting, with specialised Cadastral experience'; Marc has none and no survey field data experience.",
+  "Osborne Park Perth is interstate."
+ ],
+ "caution": "Cadastral survey drafting is a specialist niche and the experience minimum is explicit.",
+ "gaps": [
+  "No cadastral or Landgate NLR Portal experience",
+  "No survey instrument or field data experience",
+  "Perth is interstate"
+ ],
+ "mandatory_unmet": [
+  "\"Minimum 2 years' experience in Survey Drafting, with specialised Cadastral experience\"",
+  "\"Advanced working knowledge of AutoCAD, Civil 3D and the Landgate NLR Portal\" (AutoCAD and Civil 3D are coursework only; NLR Portal not on record)"
+ ],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK: https://www.seek.com.au/job/94666467 (closes 2026-10-16)",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "De Nada Surveys",
+ "title": "Draftsperson",
+ "location": "Osborne Park, Perth WA",
+ "url": "https://www.seek.com.au/job/94666467",
+ "listed_at": "2026-09-16T04:19:44.016Z",
+ "expires_at": "2026-10-16T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "What's your expected annual base salary?",
+  "How many years' experience do you have as a draftsperson?",
+  "How much notice are you required to give your current employer?",
+  "What's your highest level of education?",
+  "Do you have experience using AutoCAD Civil 3D?",
+  "Have you completed a qualification in engineering drafting / engineering design?"
+ ]
+}

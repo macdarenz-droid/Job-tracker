@@ -1,0 +1,31 @@
+{
+ "percent": 30,
+ "rationale": [
+  "Site Engineer supporting supervisors with QA and procurement on Brisbane civil works overlaps Marc's inspection, records and procurement tracking.",
+  "The advert draws on 'demonstrated site and engineering experience' and 'Experience with reputable local contractors working on civil construction projects'; Marc has none in Australia.",
+  "Port of Brisbane is interstate."
+ ],
+ "caution": "Experienced site engineer hire at a large civil contractor.",
+ "gaps": [
+  "No Australian civil contractor experience",
+  "No experience across projects of varying value",
+  "Brisbane is interstate"
+ ],
+ "mandatory_unmet": [
+  "\"demonstrated site and engineering experience\"",
+  "\"Experience with reputable local contractors working on civil construction projects ranging in value\" (Marc has no Australian contractor experience)"
+ ],
+ "mandatory_unresolved": [],
+ "route": "EMPLOYER_PORTAL",
+ "apply_email": "",
+ "apply_instructions": "SEEK Apply Now links out to the employer's own application site; start at https://www.seek.com.au/job/94837948 (closes 2026-10-24)",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "THE BMD GROUP",
+ "title": "Site Engineer",
+ "location": "Port of Brisbane, Brisbane QLD",
+ "url": "https://www.seek.com.au/job/94837948",
+ "listed_at": "2026-09-23T14:17:08.529Z",
+ "expires_at": "2026-10-24T12:59:59.999Z",
+ "screening_questions": []
+}

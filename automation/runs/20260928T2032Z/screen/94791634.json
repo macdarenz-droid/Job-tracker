@@ -1,0 +1,38 @@
+{
+ "percent": 15,
+ "rationale": [
+  "Ammonia refrigeration plant, piping and equipment 3D drafting is industrial refrigeration, outside civil engineering.",
+  "Asks for 'Proven experience using AutoCAD (essential)' and strong 3D modelling on industrial projects; Marc's AutoCAD and Revit are academic only.",
+  "Moorooka Brisbane is interstate."
+ ],
+ "caution": "Outside civil engineering (refrigeration); essential AutoCAD and 3D experience is not commercial in Marc's case.",
+ "gaps": [
+  "Revit is desirable and academic only",
+  "No industrial refrigeration exposure",
+  "Brisbane is interstate"
+ ],
+ "mandatory_unmet": [
+  "\"Proven experience using AutoCAD (essential)\" (Marc's AutoCAD is coursework only)",
+  "\"Strong experience producing 3D models for industrial, mechanical, or building services projects\""
+ ],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK: https://www.seek.com.au/job/94791634 (closes 2026-10-22)",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Scantec Refrigeration",
+ "title": "Draftsperson",
+ "location": "Moorooka, Brisbane QLD",
+ "url": "https://www.seek.com.au/job/94791634",
+ "listed_at": "2026-09-22T03:06:31.931Z",
+ "expires_at": "2026-10-22T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "Which of the following CAD software do you have experience with?",
+  "What's your expected annual base salary?",
+  "How much notice are you required to give your current employer?",
+  "How many years of Engineering Drafting experience do you have?",
+  "Have you completed a qualification in engineering drafting / engineering design?"
+ ]
+}

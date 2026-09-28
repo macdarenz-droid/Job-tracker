@@ -1,0 +1,254 @@
+[
+ {
+  "id": "a9128968-bf20-458e-b3f9-77ce786d7e78",
+  "key": "manual:a9128968-bf20-458e-b3f9-77ce786d7e78",
+  "contributor_name": "Claude",
+  "created_by": "claude-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260928T2032Z",
+  "created_at": "2026-09-28T20:48:55.000Z",
+  "updated_at": "2026-09-28T20:48:55.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Cathay_Chung_Yue_Estate_Pty_Ltd_Resume.pdf",
+    "stored_in": "not_uploaded"
+   },
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Cathay_Chung_Yue_Estate_Pty_Ltd_Graduate_Engineer_estimating_and_documen_Cover_Letter.pdf",
+    "stored_in": "not_uploaded"
+   }
+  ],
+  "company": "Cathay Chung Yue Estate Pty Ltd",
+  "role": "Graduate Engineer (estimating and document control)",
+  "location": "Rhodes, Sydney NSW",
+  "job_url": "https://www.seek.com.au/job/94718237",
+  "company_url": "",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Graduate Engineer, Marc Masarate",
+  "email_body": "Hello,\n\nI'm applying for the Graduate Engineer role in your civil and structural team, advertised on SEEK. The ad welcomes graduates with up to two years' experience for estimating, tender documents and document control, and that is the work my study prepared me for.\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026, where I prepared cost estimates and bills of quantities, reviewed technical drawings, and drew road, earthworks, pavement and stormwater designs in AutoCAD and Civil 3D to Australian Standards. My degree is a Bachelor of Science in Civil Engineering (Philippines, 2019). On site in the Philippines from April 2019 to February 2020 I reviewed structural and architectural drawings, tracked procurement and materials, kept material records and progress reports, and coordinated with suppliers and subcontractors.\n\nI have no façade experience and no work experience in Australia yet, and I haven't used Aconex or Procore. I use Excel and Word. I hold a White Card, an Australian driver's licence and full working rights until December 2027 on a Subclass 485 visa. I'm based in Melton, Victoria and open to discussing relocation to Sydney.\n\nMy drawings are at https://macdarenz-droid.github.io/Portfolio. I'd welcome a conversation about the estimating team.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Graduate Engineer for cost estimating and document control accepts '0–2 years' experience' and a civil, structural or related engineering degree, which Marc's BSCE meets.",
+   "Duties (drawing review, quantity take-offs, tender support) match Marc's coursework in cost estimates and bills of quantities and his site drawing review; AutoCAD is advantageous and held.",
+   "Rhodes Sydney is interstate; the role is primarily office-based."
+  ],
+  "gaps": [
+   "No façade industry or graduate internship experience",
+   "No Aconex, Procore or other document control system experience",
+   "BSCE dates from 2019, so he is not a recent graduate",
+   "Professional Engineer in Training status \"or willingness to pursue\": Marc to decide (not on record)"
+  ],
+  "match_score": {
+   "percent": 76,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Graduate Engineer for cost estimating and document control accepts '0–2 years' experience' and a civil, structural or related engineering degree, which Marc's BSCE meets.",
+    "Duties (drawing review, quantity take-offs, tender support) match Marc's coursework in cost estimates and bills of quantities and his site drawing review; AutoCAD is advantageous and held.",
+    "Rhodes Sydney is interstate; the role is primarily office-based."
+   ],
+   "caution": "Marc graduated in 2019 rather than recently and has no Aconex or Procore; the 'PE' status wording cannot be judged from the facts."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-09-18T02:43:23.312Z",
+   "expires_at": "2026-10-18T12:59:59.999Z",
+   "verified_at": "2026-09-28T20:37:00.000Z",
+   "apply_instructions": "Apply via SEEK: https://www.seek.com.au/job/94718237 (closes 2026-10-18)",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How much notice are you required to give your current employer?",
+    "Do you have Engineering Drawing Interpretation experience?",
+    "Have you completed a qualification in mathematics / mathematical science?"
+   ]
+  },
+  "screening_answers": [
+   {
+    "question": "Which of the following statements best describes your right to work in Australia?",
+    "answer": "I hold a Subclass 485 visa with full working rights until December 2027."
+   },
+   {
+    "question": "How much notice are you required to give your current employer?",
+    "answer": "[Marc to confirm.]"
+   },
+   {
+    "question": "Do you have Engineering Drawing Interpretation experience?",
+    "answer": "Yes: reviewing structural and architectural drawings on site in the Philippines (2019 to 2020) and preparing and reviewing civil drawings in the Advanced Diploma (2024 to 2026)."
+   },
+   {
+    "question": "Have you completed a qualification in mathematics / mathematical science?",
+    "answer": "No standalone mathematics qualification. Bachelor of Science in Civil Engineering (2019) and Advanced Diploma of Civil Construction Design (2026)."
+   }
+  ],
+  "checklist": [
+   "Decide first whether you would move to Sydney: the letter and email say \"open to discussing relocation to Sydney\". If the answer is no, do not apply.",
+   "The ad asks for Professional Engineer in Training status or willingness to pursue it. The letter says nothing about it; decide your real answer before applying and be ready to say it if asked.",
+   "Open https://www.seek.com.au/job/94718237 and use Apply.",
+   "Attach the two PDFs from this record (resume and cover letter).",
+   "Paste the screening answers above and fill the notice placeholder.",
+   "Submit before 18 October 2026.",
+   "Press Applied on the tracker with the date and \"SEEK\"."
+  ],
+  "notes": "Graduate estimating and document-control role with a façade contractor in Rhodes NSW; 0 to 2 years, recent graduates encouraged. The ad's \"Professional Engineer in Training status or willingness to pursue\" is left to Marc (not on record). Interstate: Sydney relocation is Marc's call.\nHOW CLAUDE FOUND THIS\nFound on SEEK (listed 2026-09-18, closes 2026-10-18). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate Engineer (estimating and document control) role on SEEK.\n• They may ask about: No façade industry or graduate internship experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Aconex, Procore or other document control system experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: BSCE dates from 2019, so he is not a recent graduate → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-09-18, closes 2026-10-18). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate Engineer (estimating and document control) role on SEEK.",
+   "They may ask about: No façade industry or graduate internship experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Aconex, Procore or other document control system experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: BSCE dates from 2019, so he is not a recent graduate → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-09-28T20:48:55.000Z",
+  "seek_id": "94718237",
+  "duplicate_key": "cathaychungyueestateptyltd|seek:94718237",
+  "preparation_only": true
+ },
+ {
+  "id": "2e434365-e4c1-4f10-a49d-e7939b3a765c",
+  "key": "manual:2e434365-e4c1-4f10-a49d-e7939b3a765c",
+  "contributor_name": "Claude",
+  "created_by": "claude-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260928T2032Z",
+  "created_at": "2026-09-28T20:48:55.000Z",
+  "updated_at": "2026-09-28T20:48:55.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_CEI_Design_Pty_Ltd_Resume.pdf",
+    "stored_in": "not_uploaded"
+   },
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_CEI_Design_Pty_Ltd_Trainee_Traffic_Signals_Designer_Cover_Letter.pdf",
+    "stored_in": "not_uploaded"
+   }
+  ],
+  "company": "CEI Design Pty Ltd",
+  "role": "Trainee Traffic Signals Designer",
+  "location": "Remote-first, South-East Queensland",
+  "job_url": "https://www.seek.com.au/job/94841039",
+  "company_url": "",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Trainee Traffic Signals Designer, Marc Masarate",
+  "email_body": "Hello,\n\nI'm applying for the Trainee Traffic Signals Designer role advertised on SEEK. The ad asks for up to two years in design, drafting or CAD documentation and says signals experience isn't required, which fits me: my design and drafting experience is the two years of my Advanced Diploma of Civil Construction Design, finished in February 2026.\n\nIn that coursework I designed and documented road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D to Australian Standards and Austroads guides, and the standards included AS 1742.14, so signals drawings would not be a cold start. My degree is a Bachelor of Science in Civil Engineering (Philippines, 2019). On site in the Philippines from April 2019 to February 2020 I carried out inspections and checked the work against the drawings.\n\nI have no traffic signal, lighting or ITS experience yet, and my CAD work is from study. I hold an Australian driver's licence, a White Card and full working rights until December 2027 on a Subclass 485 visa. I'm based in Melton, Victoria, can travel to South-East Queensland for meetings and inspections, and I'm open to discussing relocation.\n\nMy drawings are at https://macdarenz-droid.github.io/Portfolio. I'd be glad to talk.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "A Trainee Traffic Signals Designer seat with 'up to 2 years' experience' and senior mentoring is a genuine entry-level design role in road infrastructure.",
+   "Road design and AutoCAD documentation coursework overlap, and 'specific traffic signals experience is not required'.",
+   "Brisbane, remote-first with occasional South-East Queensland attendance; interstate from Melton."
+  ],
+  "gaps": [
+   "No traffic signal, road lighting or ITS design experience",
+   "CAD experience is academic only",
+   "Occasional attendance in South-East Queensland from Melton VIC",
+   "Queensland Class C licence 'or equivalent': Marc holds an Australian licence, state not on record"
+  ],
+  "match_score": {
+   "percent": 80,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "A Trainee Traffic Signals Designer seat with 'up to 2 years' experience' and senior mentoring is a genuine entry-level design role in road infrastructure.",
+    "Road design and AutoCAD documentation coursework overlap, and 'specific traffic signals experience is not required'.",
+    "Brisbane, remote-first with occasional South-East Queensland attendance; interstate from Melton."
+   ],
+   "caution": "Traffic signals, road lighting and ITS electrical design is new to Marc, and South-East Queensland attendance needs relocation or travel confirmed by Marc."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-09-23T23:08:49.897Z",
+   "expires_at": "2026-10-24T12:59:59.999Z",
+   "verified_at": "2026-09-28T20:37:18.000Z",
+   "apply_instructions": "Apply via SEEK: https://www.seek.com.au/job/94841039 (closes 2026-10-24)",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a designer?",
+    "How much notice are you required to give your current employer?",
+    "Do you have experience in a sales role?",
+    "Do you have experience in a role which requires relationship management experience?"
+   ]
+  },
+  "screening_answers": [
+   {
+    "question": "Which of the following statements best describes your right to work in Australia?",
+    "answer": "I hold a Subclass 485 visa with full working rights until December 2027."
+   },
+   {
+    "question": "What's your expected annual base salary?",
+    "answer": "[Marc to confirm; the ad states no salary.]"
+   },
+   {
+    "question": "How many years' experience do you have as a designer?",
+    "answer": "No paid years yet: two years of civil design and drafting coursework in the Advanced Diploma of Civil Construction Design (2024 to 2026)."
+   },
+   {
+    "question": "How much notice are you required to give your current employer?",
+    "answer": "[Marc to confirm.]"
+   },
+   {
+    "question": "Do you have experience in a sales role?",
+    "answer": "No. My customer-facing experience is two years of technical support at Concentrix (2020 to 2022)."
+   },
+   {
+    "question": "Do you have experience in a role which requires relationship management experience?",
+    "answer": "Some: on site in the Philippines (2019 to 2020) I kept clients and stakeholders up to date and coordinated with engineers, subcontractors and suppliers, and at Concentrix (2020 to 2022) I worked with customers and internal teams to resolve technical cases."
+   }
+  ],
+  "checklist": [
+   "Decide first whether you can travel to South-East Queensland for occasional meetings and inspections, and whether you would relocate: the letter says both are possible. If not, do not apply.",
+   "Confirm your licence class and state: the ad asks for a Queensland Class C licence or equivalent. Neither the class nor the state of your licence is on record.",
+   "Open https://www.seek.com.au/job/94841039 and use Apply.",
+   "Attach the two PDFs from this record (resume and cover letter).",
+   "Paste the screening answers above and fill the two placeholders (salary, notice).",
+   "Submit before 24 October 2026.",
+   "Press Applied on the tracker with the date and \"SEEK\"."
+  ],
+  "notes": "Trainee design role at a small traffic signals, road lighting and ITS consultancy; remote-first with occasional South-East Queensland attendance, so it is the first advert that could work from Melton. AS 1742.14 (traffic signals) is in the diploma standards list in facts.json. \"Full Australian work rights\" is disclosed as a 485 visa to December 2027.\nHOW CLAUDE FOUND THIS\nFound on SEEK (listed 2026-09-23, closes 2026-10-24). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Trainee Traffic Signals Designer role on SEEK.\n• They may ask about: No traffic signal, road lighting or ITS design experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: CAD experience is academic only → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Occasional attendance in South-East Queensland from Melton VIC → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-09-23, closes 2026-10-24). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Trainee Traffic Signals Designer role on SEEK.",
+   "They may ask about: No traffic signal, road lighting or ITS design experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: CAD experience is academic only → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Occasional attendance in South-East Queensland from Melton VIC → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-09-28T20:48:55.000Z",
+  "seek_id": "94841039",
+  "duplicate_key": "ceidesignptyltd|seek:94841039",
+  "preparation_only": true
+ }
+]

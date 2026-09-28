@@ -1,0 +1,31 @@
+{
+ "percent": 13,
+ "rationale": [
+  "SolidWorks design of vehicle trays and canopies is product manufacturing, outside civil engineering.",
+  "Asks for 'Approximately three to five years' experience' and sheet-metal, machining and welding design; Marc has none and no SolidWorks on record.",
+  "Portsmith Cairns is far North Queensland, outside Marc's recorded Central Queensland FIFO availability."
+ ],
+ "caution": "Outside civil engineering; product design with a 3 to 5 year experience expectation.",
+ "gaps": [
+  "No SolidWorks",
+  "No manufacturing, prototyping or vehicle fitment experience",
+  "Cairns is outside any recorded availability"
+ ],
+ "mandatory_unmet": [
+  "\"Approximately three to five years’ experience in industrial design, drafting, mechanical design or a related design and manufacturing role\"",
+  "\"Experience designing for sheet-metal fabrication, machining, welding and other manufacturing processes\""
+ ],
+ "mandatory_unresolved": [],
+ "route": "EMPLOYER_PORTAL",
+ "apply_email": "",
+ "apply_instructions": "SEEK Apply Now links out to the employer's own application site; start at https://www.seek.com.au/job/94798688 (closes 2026-10-22)",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Norweld Australia",
+ "title": "Industrial Designer / Draftsperson",
+ "location": "Portsmith, Cairns & Far North QLD",
+ "url": "https://www.seek.com.au/job/94798688",
+ "listed_at": "2026-09-22T06:20:40.105Z",
+ "expires_at": "2026-10-22T12:59:59.999Z",
+ "screening_questions": []
+}

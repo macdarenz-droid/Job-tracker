@@ -1,0 +1,34 @@
+{
+ "percent": 27,
+ "rationale": [
+  "Civil and structural drafting in AutoCAD (drainage, roads, water supply) overlaps Marc's Advanced Diploma coursework.",
+  "The advert seeks an 'experienced' draftsperson and lists 'Minimum 3 years of experience in civil/structural drafting'; Marc's drafting is academic only.",
+  "Crows Nest Sydney is interstate; Revit is advantageous and Marc has Revit from coursework."
+ ],
+ "caution": "The experience minimum is stated as a requirement, so a graduate application is unlikely to pass the first screen.",
+ "gaps": [
+  "No commercial drafting experience",
+  "Revit is academic only",
+  "Sydney is interstate"
+ ],
+ "mandatory_unmet": [
+  "\"Minimum 3 years of experience in civil/structural drafting\" (Marc has no paid drafting role; CAD skills are academic)"
+ ],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK: https://www.seek.com.au/job/94635929 (closes 2026-10-15)",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Demlakian Consulting Engineers",
+ "title": "Engineering Drafting (Engineering)",
+ "location": "Crows Nest, Sydney NSW",
+ "url": "https://www.seek.com.au/job/94635929",
+ "listed_at": "2026-09-15T03:07:12.111Z",
+ "expires_at": "2026-10-15T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "What's your expected annual base salary?",
+  "How many years' experience do you have in an Engineering Role?"
+ ]
+}

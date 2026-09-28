@@ -1,0 +1,34 @@
+{
+ "percent": 24,
+ "rationale": [
+  "Hobart civil construction Project Engineer covering QA, documentation and programs overlaps Marc's records and coordination skills.",
+  "The advert seeks an 'experienced Project Engineer' with 'Previous Project Engineer experience within civil construction'; Marc has 11 months of Philippines site work only.",
+  "Hobart TAS is interstate; hiring runs through an agency for the named client DCS Civil."
+ ],
+ "caution": "Experienced hire through an agency; the client is DCS Civil but applications go via Talent Advisory.",
+ "gaps": [
+  "No Australian civil construction experience",
+  "No project program management beyond daily site planning",
+  "Tasmania is interstate with no recorded preference"
+ ],
+ "mandatory_unmet": [
+  "\"Previous Project Engineer experience within civil construction\"",
+  "\"experienced Project Engineer\" (Marc has no Australian project engineering role)"
+ ],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK: https://www.seek.com.au/job/94752696 (closes 2026-10-21)",
+ "open": true,
+ "employer_is_agency": true,
+ "company": "Talent Advisory",
+ "title": "Project Engineer",
+ "location": "Hobart TAS",
+ "url": "https://www.seek.com.au/job/94752696",
+ "listed_at": "2026-09-21T08:32:54.050Z",
+ "expires_at": "2026-10-21T13:24:31.847Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "How many years' experience do you have as a project engineer?"
+ ]
+}

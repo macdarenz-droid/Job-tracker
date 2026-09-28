@@ -1,0 +1,42 @@
+{
+ "percent": 15,
+ "rationale": [
+  "Sheet metal production drawings and flat patterns for a laser-cutting business are manufacturing drafting, outside civil engineering.",
+  "Inventor and AutoCAD at 'Advanced/Expert level' are required; Marc has AutoCAD from coursework only and no Inventor on record.",
+  "St Marys Sydney is interstate."
+ ],
+ "caution": "Outside civil engineering (sheet metal); the essential sheet metal experience is missing.",
+ "gaps": [
+  "No Inventor on record",
+  "No CNC programming or nesting software",
+  "Sydney is interstate"
+ ],
+ "mandatory_unmet": [
+  "\"Experience in sheet metal fabrication, laser cutting, bending, welding, etc.\" (Marc has none)",
+  "\"Advanced/Expert level of Computer literacy and proficiency in Inventor and AutoCAD is required\" (AutoCAD is coursework only; Inventor is not on record)",
+  "\"experienced Draftsperson with a background in sheet metal manufacturing\""
+ ],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK: https://www.seek.com.au/job/94845860 (closes 2026-10-24)",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Laser Wizard Pty Ltd",
+ "title": "Draftsperson (Sheet Metal Manufacturing)",
+ "location": "St Marys, Sydney NSW",
+ "url": "https://www.seek.com.au/job/94845860",
+ "listed_at": "2026-09-24T02:14:23.322Z",
+ "expires_at": "2026-10-24T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "Which of the following CAD software do you have experience with?",
+  "Have you completed a qualification in engineering drafting / engineering design?",
+  "How many years' experience do you have in a Sheet Metal Role?",
+  "Do you have CAD Drawing experience?",
+  "Have you completed a qualification in mechanical engineering?",
+  "How many years of experience do you have in the Sheet Metal Industry?",
+  "How many years' experience do you have as a Sheet Metal Designer?",
+  "Do you have CNC Programming experience?"
+ ]
+}

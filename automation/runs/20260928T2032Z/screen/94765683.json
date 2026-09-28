@@ -1,0 +1,30 @@
+{
+ "percent": 29,
+ "rationale": [
+  "CAD drafting of livestock handling yards and gates is agricultural equipment manufacturing, outside civil engineering.",
+  "Asks for SolidWorks, Inventor or AutoCAD experience and 'Experience producing 2D and 3D drawings in manufacturing, fabrication or engineering'; Marc's CAD is coursework only.",
+  "Hastings VIC is in Victoria but on the Mornington Peninsula, a long way from Melton."
+ ],
+ "caution": "Outside civil engineering; only the site plan and survey-data side overlaps.",
+ "gaps": [
+  "No SolidWorks, Inventor or Fusion 360",
+  "No manufacturing or fabrication drawing experience",
+  "Long commute from Melton to Hastings"
+ ],
+ "mandatory_unmet": [
+  "\"Experience producing 2D and 3D drawings in manufacturing, fabrication or engineering\" (no commercial drawing production; coursework only)"
+ ],
+ "mandatory_unresolved": [],
+ "route": "EMPLOYER_PORTAL",
+ "apply_email": "",
+ "apply_instructions": "SEEK Apply Now links out to the employer's own application site; start at https://www.seek.com.au/job/94765683 (closes 2026-10-21)",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Gallagher",
+ "title": "CAD Draftsperson",
+ "location": "Hastings, Mornington Peninsula & Bass Coast VIC",
+ "url": "https://www.seek.com.au/job/94765683",
+ "listed_at": "2026-09-21T04:11:48.122Z",
+ "expires_at": "2026-10-21T12:59:59.999Z",
+ "screening_questions": []
+}

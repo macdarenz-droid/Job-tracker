@@ -1,0 +1,38 @@
+{
+ "percent": 24,
+ "rationale": [
+  "Civil Project Engineer on Sydney infrastructure with planning, cost control, procurement and quality overlaps Marc's coordination and records skills.",
+  "Requires 'Minimum 5 years relevant work experience' plus water, sewer and drainage project experience and progress claims; Marc has 11 months and none of these.",
+  "Sydney is interstate; the advert gives an email address for applications."
+ ],
+ "caution": "Experienced hire with a 5-year minimum.",
+ "gaps": [
+  "No water, sewer or Sydney Water experience",
+  "No progress claims or variations experience",
+  "Sydney is interstate"
+ ],
+ "mandatory_unmet": [
+  "\"Minimum 5 years relevant work experience\"",
+  "\"Experience with sewer, water, drainage and electrical infrastructure\" (Marc has not worked on water or sewer projects)",
+  "\"Experience with project costing, procurement, progress claims and variations\""
+ ],
+ "mandatory_unresolved": [],
+ "route": "EMAIL",
+ "apply_email": "mark@civilandtunnel.com.au",
+ "apply_instructions": "Email resume and a brief cover letter to mark@civilandtunnel.com.au (advert instruction; SEEK Apply Now also listed); closes 2026-10-17",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Civil & Tunnel Pty Ltd",
+ "title": "Civil Project Engineer",
+ "location": "Sydney NSW",
+ "url": "https://www.seek.com.au/job/94694290",
+ "listed_at": "2026-09-17T04:22:02.046Z",
+ "expires_at": "2026-10-17T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "What's your expected annual base salary?",
+  "How many years' experience do you have as a Civil Project Engineer?",
+  "How much notice are you required to give your current employer?",
+  "Do you have a current Australian driver's licence?"
+ ]
+}

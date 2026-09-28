@@ -1,0 +1,36 @@
+{
+ "percent": 48,
+ "rationale": [
+  "Junior estimating role open to engineering graduates, with quantity take-offs, procurement and basic CAD, which Marc has only at coursework level.",
+  "The work is quoting rope access and at-height maintenance services (trade services), not civil design or construction, so it sits below Marc's target.",
+  "Adelaide SA is interstate; no minimum experience is stated and Marc holds a driver's licence."
+ ],
+ "caution": "Trade-services estimating; Marc has no paid estimating experience and the ad favours tradespeople and developing estimators.",
+ "gaps": [
+  "Estimating is coursework only (cost estimates and bills of quantities)",
+  "No rope access or industrial maintenance exposure",
+  "Adelaide is interstate"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK: https://www.seek.com.au/job/94792210 (closes 2026-10-22)",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Tasman Rope Access",
+ "title": "Junior Estimator",
+ "location": "Adelaide SA",
+ "url": "https://www.seek.com.au/job/94792210",
+ "listed_at": "2026-09-22T03:29:58.949Z",
+ "expires_at": "2026-10-22T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "How many years' experience do you have as an Estimator?",
+  "Which of the following CAD software do you have experience with?",
+  "Do you have experience using Microsoft Excel?",
+  "Do you have a current Australian driver's licence?",
+  "What's your expected annual base salary?",
+  "Have you completed a qualification in engineering?"
+ ]
+}
