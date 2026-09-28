@@ -1,0 +1,131 @@
+[
+ {
+  "id": "acb41b6e-c714-4645-bcfe-b4526692f363",
+  "key": "manual:acb41b6e-c714-4645-bcfe-b4526692f363",
+  "contributor_name": "Claude",
+  "created_by": "claude-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260928T2032Z",
+  "created_at": "2026-09-28T20:57:40.000Z",
+  "updated_at": "2026-09-28T20:57:40.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Shadforth",
+  "role": "Civil Site and Project Engineers",
+  "location": "Logan Central, Brisbane QLD",
+  "job_url": "https://www.seek.com.au/job/94769893",
+  "status": "HELD_ELIGIBILITY_UNCONFIRMED",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "SEEK",
+  "fit": [
+   "Civil Site and Project Engineer roles on $5m to $70m Logan projects match Marc's site inspection, coordination and civil documentation background.",
+   "No years figure is printed, but the duties (oversee onsite teams and plant, manage programming) describe an experienced hire in substance.",
+   "Logan Central Brisbane is interstate; licence and car access are asked and Marc has both."
+  ],
+  "gaps": [
+   "No Australian civil construction experience",
+   "No plant or subcontractor management experience",
+   "Brisbane is interstate"
+  ],
+  "match_score": {
+   "percent": 68,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Civil Site and Project Engineer roles on $5m to $70m Logan projects match Marc's site inspection, coordination and civil documentation background.",
+    "No years figure is printed, but the duties (oversee onsite teams and plant, manage programming) describe an experienced hire in substance.",
+    "Logan Central Brisbane is interstate; licence and car access are asked and Marc has both."
+   ],
+   "caution": "Rough fit only: no minimum is printed, but the screening question on prior civil construction experience points to a real bar."
+  },
+  "notes": "Held by Claude: Site and Project Engineer duties \"oversee onsite teams and plant, including subcontractors\" and \"Manage construction planning, programming and completion schedules\" describe an experienced hire in substance; no minimum experience is printed and the screening question asks about previous civil construction experience",
+  "checked_at": "2026-09-28T20:57:40.000Z",
+  "seek_id": "94769893",
+  "duplicate_key": "shadforth|seek:94769893"
+ },
+ {
+  "id": "e7a19d30-0fa7-4128-baf8-479c57c0ed3f",
+  "key": "manual:e7a19d30-0fa7-4128-baf8-479c57c0ed3f",
+  "contributor_name": "Claude",
+  "created_by": "claude-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260928T2032Z",
+  "created_at": "2026-09-28T20:57:40.000Z",
+  "updated_at": "2026-09-28T20:57:40.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "MSS",
+  "role": "Building Cadet/ Admin",
+  "location": "Berry, Wollongong, Illawarra & South Coast NSW",
+  "job_url": "https://www.seek.com.au/job/94915487",
+  "status": "HELD_ELIGIBILITY_UNCONFIRMED",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "SEEK",
+  "fit": [
+   "A Building Cadet program for site supervision and project coordination suits Marc's site coordination, safety checks and daily crew planning.",
+   "It accepts 'A recent graduate or current student in Building and Construction Management' or a diploma or degree in 'construction project management (or similar field)'; Marc's qualifications are civil engineering and civil construction design.",
+   "Berry NSW is regional South Coast; the work is aged care and commercial building refurbishment, not civil infrastructure."
+  ],
+  "gaps": [
+   "Building refurbishment rather than civil infrastructure",
+   "Title includes admin duties (Building Cadet/Admin)",
+   "BSCE dates from 2019; Advanced Diploma February 2026"
+  ],
+  "match_score": {
+   "percent": 66,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "A Building Cadet program for site supervision and project coordination suits Marc's site coordination, safety checks and daily crew planning.",
+    "It accepts 'A recent graduate or current student in Building and Construction Management' or a diploma or degree in 'construction project management (or similar field)'; Marc's qualifications are civil engineering and civil construction design.",
+    "Berry NSW is regional South Coast; the work is aged care and commercial building refurbishment, not civil infrastructure."
+   ],
+   "caution": "Building refurbishment cadet role with admin duties; whether a civil qualification counts as a 'similar field' is unclear."
+  },
+  "notes": "Held by Claude: \"A Diploma or bachelor's degree in construction project management (or similar field)\" and \"A recent graduate or current student in Building and Construction Management\": whether Marc's civil engineering degree and Advanced Diploma of Civil Construction Design count cannot be judged from the advert",
+  "checked_at": "2026-09-28T20:57:40.000Z",
+  "seek_id": "94915487",
+  "duplicate_key": "mss|seek:94915487"
+ },
+ {
+  "id": "f43e8a79-0a91-4d84-b60d-8d0f4ea8bf58",
+  "key": "manual:f43e8a79-0a91-4d84-b60d-8d0f4ea8bf58",
+  "contributor_name": "Claude",
+  "created_by": "claude-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260928T2032Z",
+  "created_at": "2026-09-28T20:57:40.000Z",
+  "updated_at": "2026-09-28T20:57:40.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Melton City Council",
+  "role": "Civil Projects Officer",
+  "location": "Melton, VIC",
+  "job_url": "https://meltoncity-external.applynow.net.au/jobs/MEL1888-civil-projects-officer",
+  "status": "HELD_MANDATORY_REQUIREMENTS",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMPLOYER_PORTAL",
+  "fit": [
+   "Melton City Council, Civil Projects Officer, Band 6 permanent, in the town where Marc lives.",
+   "Tertiary civil qualification with some relevant experience: Marc has a civil degree, an Australian diploma and 11 months of site work in the Philippines.",
+   "The key selection criteria ask for proven project and contract management, contract supervision and program delivery experience, which Marc does not have."
+  ],
+  "gaps": [
+   "Key selection criterion: \"Experience in project and contract management and contract supervision\" and \"Proven experience in projects and programs delivery and monitoring\" (Marc has 11 months as an entry-level site engineer, no contract management)",
+   "No Australian work experience",
+   "No contract management or contract supervision experience",
+   "Traffic management and OH&S knowledge is from coursework and site work, not Australian standards in practice"
+  ],
+  "match_score": {
+   "percent": 60,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Melton City Council, Civil Projects Officer, Band 6 permanent, in the town where Marc lives.",
+    "Tertiary civil qualification with some relevant experience: Marc has a civil degree, an Australian diploma and 11 months of site work in the Philippines.",
+    "The key selection criteria ask for proven project and contract management, contract supervision and program delivery experience, which Marc does not have."
+   ],
+   "caution": "Experienced-officer role (Band 6, $97,926 to $106,637); a junior would be competing with people who hold contract management experience. Held so Marc can decide; found on the council portal, not SEEK."
+  },
+  "notes": "Held by Claude: Key selection criterion: \"Experience in project and contract management and contract supervision\" and \"Proven experience in projects and programs delivery and monitoring\" (Marc has 11 months as an entry-level site engineer, no contract management); Current valid Victorian driver's licence (Marc's licence state is not on record)",
+  "checked_at": "2026-09-28T20:57:40.000Z",
+  "duplicate_key": "meltoncitycouncil|meltoncity-external.applynow.net.au/jobs/mel1888-civil-projects-officer"
+ }
+]

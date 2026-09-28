@@ -1,24 +1,34 @@
 [
  {
-  "id": "5d3576b2-8b0f-42d1-909d-00b526cb6739",
-  "key": "manual:5d3576b2-8b0f-42d1-909d-00b526cb6739",
+  "id": "c1e7f30b-c86c-4759-b853-62d2d75104fd",
+  "key": "manual:c1e7f30b-c86c-4759-b853-62d2d75104fd",
   "contributor_name": "Claude",
   "created_by": "claude-job-search",
   "record_kind": "AUTOMATED_LEAD",
   "run_id": "20260928T2032Z",
-  "created_at": "2026-09-28T20:52:04.000Z",
-  "updated_at": "2026-09-28T20:52:04.000Z",
+  "created_at": "2026-09-28T20:57:27.000Z",
+  "updated_at": "2026-09-28T20:57:27.000Z",
   "version": 1,
   "attachments": [
    {
-    "kind": "resume",
+    "id": "55b336e5-fc25-4579-8254-9cbad0ddc4f0",
+    "path": "/api/documents/55b336e5-fc25-4579-8254-9cbad0ddc4f0",
     "filename": "Marc_Masarate_Cathay_Chung_Yue_Estate_Pty_Ltd_Resume.pdf",
-    "stored_in": "not_uploaded"
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-09-28T20:57:31.055Z",
+    "stored_in": "cloudflare_r2"
    },
    {
-    "kind": "cover",
+    "id": "d07c2e41-7719-47cd-b76c-c8fa818b935f",
+    "path": "/api/documents/d07c2e41-7719-47cd-b76c-c8fa818b935f",
     "filename": "Marc_Masarate_Cathay_Chung_Yue_Estate_Pty_Ltd_Graduate_Engineer_estimating_and_documen_Cover_Letter.pdf",
-    "stored_in": "not_uploaded"
+    "sha256": "72c5c184045ca6d711a551c44b308b95b944d211603414c373f09fdf7f9932fc",
+    "size_bytes": 48411,
+    "kind": "cover",
+    "uploaded_at": "2026-09-28T20:57:28.963Z",
+    "stored_in": "cloudflare_r2"
    }
   ],
   "company": "Cathay Chung Yue Estate Pty Ltd",
@@ -39,7 +49,7 @@
   "contact_verified_at": "",
   "contact_confidence": "none",
   "subject": "Graduate Engineer, Marc Masarate",
-  "email_body": "Hello,\n\nI'm applying for the Graduate Engineer role advertised on SEEK. The ad describes estimating, tender documents and document control on façade drawings for graduates with up to two years' experience, and that is the work my study prepared me for.\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026, where I prepared cost estimates and bills of quantities, reviewed technical drawings, and drew road, earthworks, pavement and stormwater designs in AutoCAD and Civil 3D to Australian Standards. My degree is a Bachelor of Science in Civil Engineering (Philippines, 2019). On site in the Philippines from April 2019 to February 2020 I reviewed structural and architectural drawings, tracked procurement and materials, kept material records and progress reports, and coordinated with suppliers and subcontractors.\n\nI have no façade experience and no work experience in Australia yet, and I haven't used Aconex or Procore. I use Excel and Word. I hold a White Card, an Australian driver's licence and full working rights until December 2027 on a Subclass 485 visa. I'm based in Melton, Victoria and open to discussing relocation to Sydney.\n\nMy drawings are at https://macdarenz-droid.github.io/Portfolio. I'd welcome a conversation about the estimating team.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
+  "email_body": "Hello,\n\nI'm applying for the Graduate Engineer role advertised on SEEK. The ad describes estimating, tender documents and document control on façade drawings for graduates with up to two years' experience, and cost estimates and bills of quantities were part of my coursework.\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026, where I prepared cost estimates and bills of quantities, reviewed technical drawings, and drew road, earthworks, pavement and stormwater designs in AutoCAD and Civil 3D to Australian Standards. My degree is a Bachelor of Science in Civil Engineering (Philippines, 2019). On site in the Philippines from April 2019 to February 2020 I reviewed structural and architectural drawings, tracked procurement and materials, kept material and progress records, and coordinated with suppliers.\n\nI have no façade experience and no work experience in Australia yet, and I haven't used Aconex or Procore. I use Excel for everyday spreadsheets, not modelling. I hold a White Card, an Australian driver's licence and full working rights until December 2027 on a Subclass 485 visa. I'm based in Melton, Victoria and open to discussing relocation to Sydney.\n\nMy drawings are at https://macdarenz-droid.github.io/Portfolio. I'd be glad to talk about the estimating work.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
   "fit": [
    "Graduate Engineer for cost estimating and document control accepts '0–2 years' experience' and a civil, structural or related engineering degree, which Marc's BSCE meets.",
    "Duties (drawing review, quantity take-offs, tender support) match Marc's coursework in cost estimates and bills of quantities and his site drawing review; AutoCAD is advantageous and held.",
@@ -94,9 +104,9 @@
   ],
   "checklist": [
    "Decide first whether you would move to Sydney: the letter and email say \"open to discussing relocation to Sydney\". If the answer is no, do not apply.",
-   "The ad asks for Professional Engineer in Training status or willingness to pursue it. The letter says nothing about it; decide your real answer before applying and be ready to say it if asked.",
+   "The ad asks for Professional Engineer in Training status or willingness to pursue it, and for strong Excel skills. The letter says your Excel is everyday use, not modelling. Decide your real answers before applying.",
+   "Get your academic transcripts ready: the ad asks for CV, academic transcripts and a cover letter. Attach the BSCE and Advanced Diploma transcripts with the two PDFs from this record.",
    "Open https://www.seek.com.au/job/94718237 and use Apply.",
-   "Attach the two PDFs from this record (resume and cover letter).",
    "Paste the screening answers above and fill the notice placeholder.",
    "Submit before 18 October 2026.",
    "Press Applied on the tracker with the date and \"SEEK\"."
@@ -115,31 +125,40 @@
    "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
    "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
   ],
-  "checked_at": "2026-09-28T20:52:04.000Z",
+  "checked_at": "2026-09-28T20:57:27.000Z",
   "seek_id": "94718237",
-  "duplicate_key": "cathaychungyueestateptyltd|seek:94718237",
-  "preparation_only": true
+  "duplicate_key": "cathaychungyueestateptyltd|seek:94718237"
  },
  {
-  "id": "b1ce65d2-661f-498b-b383-e15f209edf7c",
-  "key": "manual:b1ce65d2-661f-498b-b383-e15f209edf7c",
+  "id": "dbb36ec6-f134-4fe4-8df0-49743080fb7b",
+  "key": "manual:dbb36ec6-f134-4fe4-8df0-49743080fb7b",
   "contributor_name": "Claude",
   "created_by": "claude-job-search",
   "record_kind": "AUTOMATED_LEAD",
   "run_id": "20260928T2032Z",
-  "created_at": "2026-09-28T20:52:04.000Z",
-  "updated_at": "2026-09-28T20:52:04.000Z",
+  "created_at": "2026-09-28T20:57:32.000Z",
+  "updated_at": "2026-09-28T20:57:32.000Z",
   "version": 1,
   "attachments": [
    {
-    "kind": "resume",
+    "id": "a275d5b9-098c-45bf-a9e8-7110924d6116",
+    "path": "/api/documents/a275d5b9-098c-45bf-a9e8-7110924d6116",
     "filename": "Marc_Masarate_CEI_Design_Pty_Ltd_Resume.pdf",
-    "stored_in": "not_uploaded"
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-09-28T20:57:35.521Z",
+    "stored_in": "cloudflare_r2"
    },
    {
-    "kind": "cover",
+    "id": "7e8618cc-d41d-4df1-bfc1-b0801f830f6a",
+    "path": "/api/documents/7e8618cc-d41d-4df1-bfc1-b0801f830f6a",
     "filename": "Marc_Masarate_CEI_Design_Pty_Ltd_Trainee_Traffic_Signals_Designer_Cover_Letter.pdf",
-    "stored_in": "not_uploaded"
+    "sha256": "cff7a5a8e5a326c0bf96019d10220e7fc0200f2601aef9e8c7230f49783b424d",
+    "size_bytes": 48072,
+    "kind": "cover",
+    "uploaded_at": "2026-09-28T20:57:33.432Z",
+    "stored_in": "cloudflare_r2"
    }
   ],
   "company": "CEI Design Pty Ltd",
@@ -160,7 +179,7 @@
   "contact_verified_at": "",
   "contact_confidence": "none",
   "subject": "Trainee Traffic Signals Designer, Marc Masarate",
-  "email_body": "Hello,\n\nI'm applying for the Trainee Traffic Signals Designer role advertised on SEEK. The ad asks for up to two years in design, drafting or CAD documentation and says signals experience isn't required, which fits me: my design and drafting experience is the two years of my Advanced Diploma of Civil Construction Design, finished in February 2026.\n\nIn that coursework I designed and documented road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D to Australian Standards and Austroads guides, and the standards included AS 1742.14, so signals drawings would not be a cold start. My degree is a Bachelor of Science in Civil Engineering (Philippines, 2019). On site in the Philippines from April 2019 to February 2020 I carried out inspections and checked the work against the drawings.\n\nI have no traffic signal, lighting or ITS experience yet, and my CAD work is from study. I hold an Australian driver's licence, a White Card and full working rights until December 2027 on a Subclass 485 visa. I'm based in Melton, Victoria, can travel to South-East Queensland for meetings and inspections, and I'm open to discussing relocation.\n\nMy drawings are at https://macdarenz-droid.github.io/Portfolio. I'd be glad to talk.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
+  "email_body": "Hello,\n\nI'm applying for the Trainee Traffic Signals Designer role advertised on SEEK. The ad asks for up to two years in design, drafting or CAD documentation and says signals experience isn't required, and my two years of design and drafting are the Advanced Diploma of Civil Construction Design I finished in February 2026.\n\nIn that coursework I designed and documented road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D to Australian Standards and Austroads guides, and the standards covered included AS 1742.14, the traffic signals part of the Manual of Uniform Traffic Control Devices. My degree is a Bachelor of Science in Civil Engineering (Philippines, 2019). On site in the Philippines from April 2019 to February 2020 I carried out inspections and checked the work against the drawings.\n\nI have no traffic signal, lighting or ITS experience yet, and my CAD work is from study. I hold an Australian driver's licence, a White Card and full working rights until December 2027 on a Subclass 485 visa. I'm based in Melton, Victoria, and open to discussing how the occasional South-East Queensland attendance would work, including relocation.\n\nMy drawings are at https://macdarenz-droid.github.io/Portfolio. I'd be glad to talk.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
   "fit": [
    "A Trainee Traffic Signals Designer seat with 'up to 2 years' experience' and senior mentoring is a genuine entry-level design role in road infrastructure.",
    "Road design and AutoCAD documentation coursework overlap, and 'specific traffic signals experience is not required'.",
@@ -224,11 +243,12 @@
    }
   ],
   "checklist": [
-   "Decide first whether you can travel to South-East Queensland for occasional meetings and inspections, and whether you would relocate: the letter says both are possible. If not, do not apply.",
+   "Decide first whether you could attend occasional meetings and inspections in South-East Queensland, or relocate: the letter says you are open to discussing it. If neither, do not apply.",
    "Confirm your licence class and state: the ad asks for a Queensland Class C licence or equivalent. Neither the class nor the state of your licence is on record.",
+   "The ad names Word, Excel, SharePoint and Teams; only Microsoft Office is on record, so answer honestly if asked about SharePoint and Teams.",
    "Open https://www.seek.com.au/job/94841039 and use Apply.",
    "Attach the two PDFs from this record (resume and cover letter).",
-   "Paste the screening answers above and fill the two placeholders (salary, notice).",
+   "Answer the screening questions with the answers above; SEEK's work-rights and years-as-designer questions are usually multiple choice, so pick the matching option. Fill the two placeholders (salary, notice).",
    "Submit before 24 October 2026.",
    "Press Applied on the tracker with the date and \"SEEK\"."
   ],
@@ -246,9 +266,8 @@
    "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
    "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
   ],
-  "checked_at": "2026-09-28T20:52:04.000Z",
+  "checked_at": "2026-09-28T20:57:32.000Z",
   "seek_id": "94841039",
-  "duplicate_key": "ceidesignptyltd|seek:94841039",
-  "preparation_only": true
+  "duplicate_key": "ceidesignptyltd|seek:94841039"
  }
 ]
