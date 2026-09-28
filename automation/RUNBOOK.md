@@ -106,4 +106,3 @@ STOP conditions (say them, then end the turn): tracker code missing; tracker API
 | Repeat block per employer | 90 days |
 | Email length | 220 words |
 | Cover letter | one page, 340 words |
-
