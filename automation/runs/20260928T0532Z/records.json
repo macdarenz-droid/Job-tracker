@@ -1,13 +1,13 @@
 [
  {
-  "id": "39821e46-d1f4-423c-9f4a-3ac04398cf6b",
-  "key": "manual:39821e46-d1f4-423c-9f4a-3ac04398cf6b",
+  "id": "c1235ab4-e156-4600-b567-647334e1f3ff",
+  "key": "manual:c1235ab4-e156-4600-b567-647334e1f3ff",
   "contributor_name": "Claude",
   "created_by": "claude-job-search",
   "record_kind": "AUTOMATED_LEAD",
   "run_id": "20260928T0532Z",
-  "created_at": "2026-09-28T05:48:17.000Z",
-  "updated_at": "2026-09-28T05:48:17.000Z",
+  "created_at": "2026-09-28T05:50:16.000Z",
+  "updated_at": "2026-09-28T05:50:16.000Z",
   "version": 1,
   "attachments": [
    {
@@ -36,10 +36,10 @@
   "recipient_email": "enquiries@offalycivil.com",
   "contact_email": "enquiries@offalycivil.com",
   "contact_evidence_url": "https://www.seek.com.au/job/94900354",
-  "contact_verified_at": "2026-09-28T05:48:17.000Z",
+  "contact_verified_at": "2026-09-28T05:50:16.000Z",
   "contact_confidence": "published_inbox",
   "subject": "Site Engineer, Gympie, Marc Masarate",
-  "email_body": "Hello,\n\nI'm applying for the Site Engineer role in Gympie advertised on SEEK, and sending my resume and cover letter to this address as the ad asks.\n\nI'm a civil engineering graduate (BSCE, 2019) who finished an Advanced Diploma of Civil Construction Design in Australia in February 2026. My site experience is from the Philippines, April 2019 to February 2020: project-in-charge on a community hall renovation, coordinating 10 to 15 workers a day, then field engineer on subdivision finishing works. The day-to-day was inspections, quality and safety checks, reviewing drawings, tracking procurement and materials, and writing site reports, which lines up with the quality, procurement and documentation side of your role. I haven't worked on sewer projects like your Southside Sewerage stages for Gympie Regional Council, and my Australian experience is the diploma, so I'd be learning your systems and the local standards on the job.\n\nI hold a White Card, an Australian driver's licence and full working rights until December 2027 on a Subclass 485 visa. I'm based in Melton, Victoria, available for regional work, and open to discussing relocation to Gympie.\n\nMy drawings are at https://macdarenz-droid.github.io/Portfolio. I'd welcome a phone conversation.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
+  "email_body": "Hello,\n\nI'm applying for the Site Engineer role in Gympie advertised on SEEK, and sending my resume and cover letter to this address as the ad asks.\n\nI'm a civil engineering graduate (BSCE, 2019) who finished an Advanced Diploma of Civil Construction Design in Australia in February 2026. My site experience is from the Philippines, April 2019 to February 2020: project-in-charge on a community hall renovation, coordinating 10 to 15 workers a day, then field engineer on subdivision finishing works. The day-to-day was inspections, quality and safety checks, reviewing drawings, tracking procurement and materials, and writing site reports, which lines up with the quality, procurement and documentation side of your role. I haven't worked on sewer projects, and my Australian experience is the diploma, so I'd be learning your systems, your Southside Sewerage work and the local standards on the job.\n\nI hold a White Card, an Australian driver's licence and full working rights until December 2027 on a Subclass 485 visa. I'm based in Melton, Victoria, available for regional work, and open to discussing relocation to Gympie.\n\nMy drawings are at https://macdarenz-droid.github.io/Portfolio. I'd welcome a phone conversation.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
   "fit": "Site engineer role with a self-performing regional civil contractor: QSE records, ITPs, procurement, documentation, costing support.\nMarc's Philippines site work covers the same duties; no Australian site work and no water and sewer projects yet.\nGympie relocation; email application route named in the advert; immediate start.",
   "gaps": [
    "'Previous experience working on Water and Sewer projects is highly desirable' but not essential; Marc has none",
@@ -99,20 +99,20 @@
    "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
    "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
   ],
-  "checked_at": "2026-09-28T05:48:17.000Z",
+  "checked_at": "2026-09-28T05:50:16.000Z",
   "seek_id": "94900354",
   "duplicate_key": "offalycivilengineeringptyltd|seek:94900354",
   "preparation_only": true
  },
  {
-  "id": "34d789c4-f79f-451d-aef7-85dae096571f",
-  "key": "manual:34d789c4-f79f-451d-aef7-85dae096571f",
+  "id": "9dd7cb10-47f4-4118-849c-681b73539c7f",
+  "key": "manual:9dd7cb10-47f4-4118-849c-681b73539c7f",
   "contributor_name": "Claude",
   "created_by": "claude-job-search",
   "record_kind": "AUTOMATED_LEAD",
   "run_id": "20260928T0532Z",
-  "created_at": "2026-09-28T05:48:17.000Z",
-  "updated_at": "2026-09-28T05:48:17.000Z",
+  "created_at": "2026-09-28T05:50:16.000Z",
+  "updated_at": "2026-09-28T05:50:16.000Z",
   "version": 1,
   "attachments": [
    {
@@ -174,14 +174,14 @@
    },
    {
     "question": "What interests you about this graduate role and about working with All Energy Contracting?",
-    "answer": "Suggested, in Marc's words: the precontracts work (tender documentation, design documentation, estimates) is the documentation and costing side of engineering I practised in the diploma; energy infrastructure is a growing field across Australia and New Zealand, and AEC's place in the OCU Group means learning from specialist businesses. [Marc to add anything personal.]"
+    "answer": "Suggested, in Marc's words: the precontracts work (tender documentation, design documentation, estimates) is the documentation and costing side of engineering I practised in the diploma; the ad says AEC's Australian and New Zealand operations and pipeline are growing, and its place in the OCU Group means learning from specialist businesses. [Marc to add anything personal.]"
    }
   ],
   "checklist": [
    "Open https://www.seek.com.au/job/94906881 and use Apply.",
    "Attach the two PDFs from this record (resume and cover letter).",
    "Answer the two written questions using the suggested answers above, in your own words; add why you chose engineering.",
-   "Submit before 26 October 2026.",
+   "Submit before 25 October 2026 (the ad expires early on 26 October AEST).",
    "Press Applied on the tracker with the date and \"SEEK\"."
   ],
   "notes": "Advert says degree 'completed within last 2 years ideally' (not a hard bar) and desirable site experience; the letter states the honest position.\nHOW CLAUDE FOUND THIS\nFound on SEEK (listed 2026-09-28, closes 2026-10-26). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate Engineer (precontracts) role on SEEK.\n• They may ask about: 'Desirable: internship, vacation or site experience in construction, utilities, energy or infrastructure' is not essential; Marc has relevant site experience from the Philippines to offer → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Advert prefers a relevant engineering Bachelor's degree 'completed within last 2 years ideally'; Marc's civil engineering Bachelor's was completed in 2019, though his most recent qualification (the Advanced Diploma) was completed February 2026, so it's unclear whether this preference is met → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
@@ -197,20 +197,20 @@
    "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
    "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
   ],
-  "checked_at": "2026-09-28T05:48:17.000Z",
+  "checked_at": "2026-09-28T05:50:16.000Z",
   "seek_id": "94906881",
   "duplicate_key": "allenergycontracting|seek:94906881",
   "preparation_only": true
  },
  {
-  "id": "7edecaee-e1c4-4ae4-bda7-efe53432be65",
-  "key": "manual:7edecaee-e1c4-4ae4-bda7-efe53432be65",
+  "id": "64392c69-7c24-4770-aa8e-8a330dfc9015",
+  "key": "manual:64392c69-7c24-4770-aa8e-8a330dfc9015",
   "contributor_name": "Claude",
   "created_by": "claude-job-search",
   "record_kind": "AUTOMATED_LEAD",
   "run_id": "20260928T0532Z",
-  "created_at": "2026-09-28T05:48:17.000Z",
-  "updated_at": "2026-09-28T05:48:17.000Z",
+  "created_at": "2026-09-28T05:50:16.000Z",
+  "updated_at": "2026-09-28T05:50:16.000Z",
   "version": 1,
   "attachments": [
    {
@@ -277,11 +277,11 @@
    },
    {
     "question": "What's your expected annual base salary?",
-    "answer": "[Marc to confirm; the ad states $80,000 plus super.]"
+    "answer": "[Marc to confirm. The SEEK header shows $80,000 to $90,000 per year; the ad body says $80,000 plus super.]"
    },
    {
     "question": "How many years' experience do you have as a civil drafter?",
-    "answer": "No paid drafting years yet; two years of drafting in AutoCAD, Civil 3D and Revit through the Advanced Diploma of Civil Construction Design (2024 to 2026)."
+    "answer": "No paid drafting years yet. Two years of design and drafting coursework in AutoCAD and Civil 3D through the Advanced Diploma of Civil Construction Design (2024 to 2026), plus Revit modelling."
    },
    {
     "question": "How much notice are you required to give your current employer?",
@@ -297,7 +297,7 @@
    }
   ],
   "checklist": [
-   "Open https://www.seek.com.au/job/94911522 and use Apply (the advertiser is the agency PlusJob; the employer is Sungold Solar).",
+   "Open https://www.seek.com.au/job/94911522 and use Apply (the SEEK advertiser is PlusJob; the employer named in the ad is Sungold Solar).",
    "Attach the two PDFs from this record (resume and cover letter).",
    "Paste the screening answers above and fill the two placeholders.",
    "Submit before 28 October 2026.",
@@ -317,7 +317,7 @@
    "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
    "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
   ],
-  "checked_at": "2026-09-28T05:48:17.000Z",
+  "checked_at": "2026-09-28T05:50:16.000Z",
   "seek_id": "94911522",
   "duplicate_key": "sungoldsolarviaplusjob|seek:94911522",
   "preparation_only": true
