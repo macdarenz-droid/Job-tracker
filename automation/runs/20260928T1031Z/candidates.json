@@ -3139,7 +3139,7 @@
    "relevance": 11,
    "duplicate": {
     "blocked": true,
-    "reason": "recent outreach to the same employer (Graduate Engineer and Site Engineer | Sydney / FIFO · MANUAL_APPLIED · 2026-09-25)",
+    "reason": "recent outreach to the same employer (Graduate Engineer and Site Engineer | Sydney / FIFO · MANUAL_APPLIED · 2026-07-27)",
     "notes": []
    }
   },
@@ -3414,8 +3414,8 @@
    "teaser": "Civil Estimator | Adelaide | $140k–$160k DOE | Major civil, earthworks, concrete, landscaping & drainage projects across diverse sectors.",
    "relevance": 11,
    "duplicate": {
-    "blocked": false,
-    "reason": "new",
+    "blocked": true,
+    "reason": "recent outreach to the same employer (Project Engineer · MANUAL_APPLIED · 2026-07-01)",
     "notes": []
    }
   },
@@ -4801,7 +4801,7 @@
    "relevance": 7,
    "duplicate": {
     "blocked": true,
-    "reason": "recent outreach to the same employer (Graduate Engineer and Site Engineer | Sydney / FIFO · MANUAL_APPLIED · 2026-09-25)",
+    "reason": "recent outreach to the same employer (Graduate Engineer and Site Engineer | Sydney / FIFO · MANUAL_APPLIED · 2026-07-27)",
     "notes": []
    }
   },
