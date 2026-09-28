@@ -87,6 +87,15 @@ async function main() {
   const current = await get();
   if (!Number.isSafeInteger(current.version) || !current.state?.applications || !current.state?.leads || !current.state?.manual_entries)
     throw Error('Incomplete cloud state; publication stopped.');
+  if (batch.inspect_only === true) {
+    const ids = new Set((batch.manual_reviews || []).map(review => review.id));
+    const rows = current.state.manual_entries.filter(row => ids.has(row.id)).map(row => ({
+      id:row.id, version:row.version, status:row.status, created_by:row.created_by,
+      updated_at:row.updated_at, review_ids:(row.review_history || []).map(review => review.review_id)
+    }));
+    console.log(JSON.stringify({inspection_only:true, cloud_version:current.version, records:rows}));
+    return;
+  }
   const result = mergeBatch(current.state, batch);
   if (!result.added && !result.changed && !result.reviewed) { console.log('Batch already present; no write needed.'); return; }
   const saved = await fetch(endpoint, {method:'PUT', headers:{...headers,'Content-Type':'application/json'},

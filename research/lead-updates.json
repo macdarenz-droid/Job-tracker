@@ -75,5 +75,6 @@
         "https://www.gunnedah.nsw.gov.au/"
       ]
     }
-  ]
+  ],
+  "inspect_only": true
 }
