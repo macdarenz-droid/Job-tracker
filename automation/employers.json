@@ -1,1 +1,38 @@
-{"_about": "Employers verified by earlier runs: careers URL, apply route, named contacts with evidence. Grows over time; never guessed.", "employers": {}}
+{"_about": "Employers verified by earlier runs: careers URL, apply route, named contacts with evidence. Grows over time; never guessed.", "employers": {
+  "Beveridge Williams": {
+    "careers_url": "https://beveridgewilliams.com.au/careers/",
+    "checked_at": "2026-09-28",
+    "open_junior_roles": [],
+    "notes": "Careers page promotes an ongoing Engineering Development Program but the job board runs on a JS-only Workit portal that could not be read; a separately found LinkedIn ad for Graduate Civil Engineer redirected to trk=expired_jd_redirect (confirmed expired), so no open junior role was verified."
+  },
+  "Taylors Development Strategists": {
+    "careers_url": "https://www.taylorsds.com.au/careers/join-our-team/",
+    "checked_at": "2026-09-28",
+    "open_junior_roles": [],
+    "notes": "Site's own careers pages list no postings; live roles found via its Dreamwork ATS (dreamworkhq.com/c/taylorsconsulting.com.au) are Senior Landscape Architect, Surveyor - Construction Engineering and Senior Surveyor - Engineering Design Survey, none junior/civil-engineer relevant."
+  },
+  "Spiire": {
+    "careers_url": "https://www.spiire.com.au/careers/",
+    "checked_at": "2026-09-28",
+    "open_junior_roles": [],
+    "notes": "Job board (spiire.elmotalent.com.au/careers/spiire/jobs) currently lists only Expressions of Interest - Civil Engineering (Townsville, EOI not a role), Student Town Planner (Brisbane), and Graduate Surveyor (Geelong) - no open graduate/junior civil engineer or drafter role."
+  },
+  "Reeds Consulting": {
+    "careers_url": "https://www.reedsconsulting.com.au/careers/",
+    "checked_at": "2026-09-28",
+    "open_junior_roles": [],
+    "notes": "Careers page explicitly states there are currently no new vacancies; only accepts speculative expressions of interest."
+  },
+  "Tonkin Consulting": {
+    "careers_url": "https://tonkin.com.au/current-opportunities",
+    "checked_at": "2026-09-28",
+    "open_junior_roles": [],
+    "notes": "Current opportunities list is Civil Program Lead (NSW), Principal Structural Engineer (Sydney), Senior Civil Engineer (Adelaide) and Senior Maritime Structural Engineer (Sydney) - all senior/lead roles, no graduate or junior openings."
+  },
+  "Calibre Group": {
+    "careers_url": "https://calibregroup.com/careers/ (redirects to https://www.wsp.com/en-au)",
+    "checked_at": "2026-09-28",
+    "open_junior_roles": [],
+    "notes": "Calibre Group was acquired by WSP Global in June 2023; its careers URL now 301-redirects to WSP's main site, so no standalone Calibre careers page or Calibre-branded junior civil roles exist to check."
+  }
+}}
