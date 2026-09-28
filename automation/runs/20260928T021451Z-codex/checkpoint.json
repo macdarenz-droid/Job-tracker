@@ -1,9 +1,9 @@
 {
   "run_id": "20260928T021451Z-codex",
   "worker": "Codex",
-  "phase": "adopt_and_review",
+  "phase": "complete_adoption_and_review",
   "source_head": "dcbd33e5850b7fb387f9a9ec087b08ab8b8913b4",
-  "at": "2026-09-28T02:21:14.776838+00:00",
+  "at": "2026-09-28T02:25:36.668915+00:00",
   "scope": "Adopt supplied automation handoff; review existing six prepared packs before more discovery.",
   "new": 0,
   "sent": 0,
@@ -40,9 +40,26 @@
     "reviewer_enabled": false
   },
   "publication": {
-    "commit": "6c804ca390f32aae8570c627005d89528377fcc4",
-    "run_id": 36369265767,
-    "result": "Rejected before any save: Melbourne Truss row changed since review. Current metadata inspection underway."
+    "commit": "ec5ebae354ed858c822a348890cf12db2feb2d7a",
+    "run_id": 36369606912,
+    "status": "completed",
+    "conclusion": "success",
+    "verified_cloud_version": 9,
+    "verification": "Full post-save state equality checked; application history, attachments, authorship and Bin preserved. Four review holds applied.",
+    "pages_run_id": 36369606989,
+    "pages_conclusion": "success"
   },
-  "next_action": "Reconcile live row statuses before applying review holds; preserve actual submissions. Freshly reverify JHA advert and route, complete current shared history, acquire actual global lease and inspect exact final PDFs before considering any send. No new discovery records claimed."
+  "next_action": "First reconcile the pre-existing Melbourne Truss SENDING record across live tracker, canonical journal and Gmail; do not resend or overwrite its outcome. Keep four live holds until documented release conditions. Freshly verify JHA advert/recipient and final PDFs before any application. Follow updated runbook on same enabled five-hour worker; next_run_time remains unconfirmed.",
+  "held_published": 4,
+  "preexisting_unresolved_sending": 1,
+  "new_send_attempts": 0,
+  "protected_newer_record": {
+    "id": "3741f4be-4bbe-460f-aaab-dd352a9bf00b",
+    "company": "Melbourne Truss Pty Ltd",
+    "status": "SENDING",
+    "row_version": 2,
+    "updated_at": "2026-09-28T02:11:09.000Z",
+    "gmail_search": "No matching message returned for current-date employer/recipient query. This does not establish the final send outcome.",
+    "action": "Preserved unchanged; no retry. Reconcile under actual shared lease before any further send."
+  }
 }

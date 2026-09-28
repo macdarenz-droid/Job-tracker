@@ -7,3 +7,4 @@
 {"run_id": "20260928T0123Z", "at": "2026-09-28T02:04:22.000Z", "stage": "end", "new": 6, "prepared": 2, "ready": 4, "held": 0, "sent": 0, "duplicates": 12, "tracker_version": 7}
 
 {"run_id": "20260928T021451Z-codex", "at": "2026-09-28T02:21:14.776838+00:00", "stage": "checkpoint", "worker": "Codex", "reviewed": 6, "new": 0, "sent": 0, "recommended_holds": 5, "phase": "adopt_and_review", "publication": "pending row reconciliation"}
+{"run_id":"20260928T021451Z-codex","at":"2026-09-28T02:25:36.668915+00:00","stage":"end","worker":"Codex","kind":"adoption_and_existing_pack_review","new":0,"sent":0,"held":4,"preexisting_unresolved_sending":1,"tracker_version":9,"publication_run_id":36369606912,"source_commit":"73a5c879d65436aacda703ed6ef4b07f08042288","next_action":"Reconcile Melbourne Truss SENDING; do not retry. Reverify JHA and resolve four live holds."}
