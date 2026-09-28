@@ -1,0 +1,2026 @@
+{
+ "count": 40,
+ "skipped": 42,
+ "screened_in_earlier_runs": [
+  {
+   "id": "94848610",
+   "company": "STP Consultants",
+   "title": "Junior Civil Draftsperson",
+   "run": "20260928T0123Z",
+   "percent": 51,
+   "mandatory_unmet": [
+    "Advert requires an Australian Citizen or Permanent Resident; Marc holds a Subclass 485 visa"
+   ]
+  },
+  {
+   "id": "94877601",
+   "company": "Quickway Constructions",
+   "title": "Undergraduate Civil Engineer",
+   "run": "20260928T0123Z",
+   "percent": 32,
+   "mandatory_unmet": [
+    "Advert targets a currently enrolled 3rd/4th year Civil Engineering student; Marc is not currently enrolled"
+   ]
+  },
+  {
+   "id": "94767885",
+   "company": "Shellharbour City Council",
+   "title": "Cadet - Civil Engineering",
+   "run": "20260928T0123Z",
+   "percent": 34,
+   "mandatory_unmet": [
+    "Cadetship requires current enrolment in a Bachelor of Engineering (Civil), at least 4 semesters completed and entering 3rd year; Marc's qualifications are already completed, not in progress"
+   ]
+  },
+  {
+   "id": "94871250",
+   "company": "WorkPac Technical and Operations",
+   "title": "Civil Engineer – Urban Development & Infrastructure",
+   "run": "20260928T0123Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Advert requires 3 to 8 years of post-graduate experience within Australian civil consulting; Marc has none yet"
+   ]
+  },
+  {
+   "id": "94904264",
+   "company": "City of Adelaide",
+   "title": "Graduate, Civil Engineer",
+   "run": "20260928T0123Z",
+   "percent": 84,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94829443",
+   "company": "NRW Pty Ltd",
+   "title": "Graduate Civil Engineer",
+   "run": "20260928T0123Z",
+   "percent": 87,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94768012",
+   "company": "Damcon Pty Ltd",
+   "title": "Civil Infrastructure Estimator/Junior Estimator",
+   "run": "20260928T0123Z",
+   "percent": 4,
+   "mandatory_unmet": [
+    "Advert requires a minimum 2 years of civil estimating experience specifically within the Australian market; Marc has none"
+   ]
+  },
+  {
+   "id": "94870967",
+   "company": "City of Onkaparinga",
+   "title": "Civil Engineer",
+   "run": "20260928T0123Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Advert requires a minimum of 3 years' experience in the civil engineering design field; Marc has none yet"
+   ]
+  },
+  {
+   "id": "94845689",
+   "company": "Aurecon",
+   "title": "Civil Engineer, Land Infrastructure",
+   "run": "20260928T0123Z",
+   "percent": 81,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94843448",
+   "company": "ACCIONA Australia",
+   "title": "Site Engineers Civils and Structures",
+   "run": "20260928T0123Z",
+   "percent": 72,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94817297",
+   "company": "The Lorian Group",
+   "title": "Consultant Civil Engineer",
+   "run": "20260928T0123Z",
+   "percent": 59,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94783773",
+   "company": "UGL CPB Humelink West",
+   "title": "Undergraduate Engineer - Civil",
+   "run": "20260928T0123Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Advert states applicants MUST be an Australian Citizen; Marc holds a Subclass 485 visa, not citizenship",
+    "Requires currently progressing a tertiary engineering qualification; Marc's qualifications are already completed"
+   ]
+  },
+  {
+   "id": "94783397",
+   "company": "Infrastructure Engineering Group",
+   "title": "Utilities Engineer – Civil Infrastructure",
+   "run": "20260928T0123Z",
+   "percent": 75,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94900572",
+   "company": "Aptus",
+   "title": "Civil 3D | Civil Design + Engineering | $110K - $135K +",
+   "run": "20260928T0123Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Advert requires a minimum of 4 years using Civil 3D; Marc's Civil 3D experience is academic coursework only"
+   ]
+  },
+  {
+   "id": "94828184",
+   "company": "Aurizon",
+   "title": "Civil Project Engineer",
+   "run": "20260928T0123Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Advert states 'ideally 5 years' experience in project delivery across mid to large-scale civil projects (essential)'; Marc has none yet"
+   ]
+  },
+  {
+   "id": "94815004",
+   "company": "Empower Management",
+   "title": "Civil Project Engineer – TMR & Council Road Construction",
+   "run": "20260928T0123Z",
+   "percent": 14,
+   "mandatory_unmet": [
+    "Advert requires around 4-5+ years of civil construction experience; Marc has none yet"
+   ]
+  },
+  {
+   "id": "94902917",
+   "company": "Employment Matters",
+   "title": "CIVIL CONSTRUCTION TRAINEE",
+   "run": "20260928T0532Z",
+   "percent": 87,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94839731",
+   "company": "City of Gold Coast",
+   "title": "Undergraduate Engineers",
+   "run": "20260928T1031Z",
+   "percent": 43,
+   "mandatory_unmet": [
+    "\"be enrolled in and entering the final year of a relevant undergraduate Bachelor of Engineering degree at a recognised Australian university\" (Marc completed his BSCE in 2019 and is not currently enrolled at university)"
+   ]
+  },
+  {
+   "id": "94833268",
+   "company": "NES Fircroft",
+   "title": "Project Engineer – Civil / Structural – Transmission",
+   "run": "20260928T1031Z",
+   "percent": 10,
+   "mandatory_unmet": [
+    "\"Minimum 5 years' experience in a Project Engineer, Site Engineer or similar position\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian work experience)"
+   ]
+  },
+  {
+   "id": "94819303",
+   "company": "Randstad - Inhouse Services",
+   "title": "Civil Project Engineer",
+   "run": "20260928T1031Z",
+   "percent": 23,
+   "mandatory_unmet": [
+    "\"minimum of five year experience specifically delivering civil works for mining ... tailings storage facility (TSF) or tailings dam projects\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian or mining experience)"
+   ]
+  },
+  {
+   "id": "94816113",
+   "company": "Focus Executive Recruitment Pty Ltd",
+   "title": "Site Engineer - Civil Works - Geelong",
+   "run": "20260928T1031Z",
+   "percent": 18,
+   "mandatory_unmet": [
+    "\"have 2 - 5 years experience working in a similar function\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian work experience)"
+   ]
+  },
+  {
+   "id": "94804467",
+   "company": "RAF Civil Pty Ltd",
+   "title": "Civil Site/Project Engineer",
+   "run": "20260928T1031Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "\"Possess at least 2+ years experience working on Australian Tier 1 projects\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian work experience)"
+   ]
+  },
+  {
+   "id": "94787847",
+   "company": "AWCON Pty Ltd",
+   "title": "Project Engineer / Civil Engineer",
+   "run": "20260928T1031Z",
+   "percent": 18,
+   "mandatory_unmet": [
+    "\"5+ years' experience in project engineering, with a strong background in underground construction\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian or underground mining experience)"
+   ]
+  },
+  {
+   "id": "94782577",
+   "company": "Skyhook Engineering",
+   "title": "Structural Draftsperson (Revit)",
+   "run": "20260928T1031Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "\"Australian citizenship or permanent residents only\" (Marc holds a Subclass 485 visa to December 2027, not citizenship or permanent residency)",
+    "\"2+ years hands-on Revit experience\" (Marc's Revit experience is academic coursework, not commercial production drafting)"
+   ]
+  },
+  {
+   "id": "93919799",
+   "company": "Austral Construction Pty Ltd",
+   "title": "Project Engineers - Civil",
+   "run": "20260928T1031Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94765861",
+   "company": "Indus Engineering Pty Ltd",
+   "title": "Civil Engineer",
+   "run": "20260928T1031Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "\"Minimum 3+ years of experience in civil engineering projects\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian work experience)"
+   ]
+  },
+  {
+   "id": "94716074",
+   "company": "Lindores Personnel",
+   "title": "Civil Engineering Draftsperson",
+   "run": "20260928T1532Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94642283",
+   "company": "Consolidated Power Projects Australia Pty Ltd",
+   "title": "Engineer - Civil (Renewable Energy and Utilities Projects)",
+   "run": "20260928T1532Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "'At least three years' experience in civil design' (Marc has Advanced Diploma coursework in civil design but no professional civil design role experience)"
+   ]
+  },
+  {
+   "id": "94633140",
+   "company": "Silverstrand Developments",
+   "title": "Undergraduate Engineer",
+   "run": "20260928T1532Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "'Be a current Engineering undergraduate' (Marc completed his BSCE in 2019 and his Advanced Diploma of Civil Construction Design in February 2026; he is not currently enrolled)"
+   ]
+  },
+  {
+   "id": "94857072",
+   "company": "JRM Resources",
+   "title": "Civil Engineer",
+   "run": "20260928T1031Z",
+   "percent": 33,
+   "mandatory_unmet": [
+    "\"Minimum 2 years post degree experience\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian work experience)"
+   ]
+  },
+  {
+   "id": "94847757",
+   "company": "Roach Recruitment",
+   "title": "Civil Engineer - Water",
+   "run": "20260928T1031Z",
+   "percent": 68,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94847650",
+   "company": "STP Consultants",
+   "title": "Civil Engineer",
+   "run": "20260928T1031Z",
+   "percent": 27,
+   "mandatory_unmet": [
+    "\"Minimum 5 years' experience in a similar role\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian work experience)"
+   ]
+  },
+  {
+   "id": "94843737",
+   "company": "Aurecon",
+   "title": "Civil Underground Structures Engineer",
+   "run": "20260928T1031Z",
+   "percent": 18,
+   "mandatory_unmet": [
+    "\"Be an Australian Citizen and eligible for security clearance (AGSVA requirements apply)\" (Marc holds a Subclass 485 visa to December 2027, not Australian citizenship)"
+   ]
+  },
+  {
+   "id": "94842398",
+   "company": "Northrop Consulting Engineers Pty Ltd",
+   "title": "Civil Engineer",
+   "run": "20260928T1031Z",
+   "percent": 45,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94831822",
+   "company": "Chandler Macleod",
+   "title": "Civil Project Engineer",
+   "run": "20260928T1031Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "\"8+ years' experience delivering civil earthworks and infrastructure projects\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian work experience)",
+    "\"Current residence in the Gladstone region is essential. FIFO arrangements and relocation assistance are not available for this role\" (Marc lives in Melton VIC with no relocation assistance offered)"
+   ]
+  },
+  {
+   "id": "94825304",
+   "company": "Vorstrom",
+   "title": "Cadet Draftsperson",
+   "run": "20260928T1031Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94770316",
+   "company": "Durack Civil",
+   "title": "Civil Estimator",
+   "run": "20260928T1031Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "\"Minimum 6 years' experience in civil construction\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian work experience)"
+   ]
+  },
+  {
+   "id": "94723645",
+   "company": "Bayside Group",
+   "title": "Civil Drafter ",
+   "run": "20260928T1532Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "'Proven experience drafting to QLD TMR standards and codes' for a role described as 'Senior Civil Drafter' with 'senior TMR experience' (Marc's CAD/drafting experience is academic coursework only, with no commercial TMR drafting experience)"
+   ]
+  },
+  {
+   "id": "94649633",
+   "company": "Northrop Consulting Engineers Pty Ltd",
+   "title": "Civil Engineer",
+   "run": "20260928T1532Z",
+   "percent": 27,
+   "mandatory_unmet": [
+    "'Essential: Ideally 3-5 Years of post-graduate experience working as a civil engineering consultant on built form projects' (Marc has no post-graduate civil consulting experience; his site experience is 11 months in the Philippines, 2019-2020)"
+   ]
+  },
+  {
+   "id": "94642720",
+   "company": "Bestbar Pty Ltd",
+   "title": "Civil Engineering Technician",
+   "run": "20260928T1532Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "'Ability to use Auto Cad, Tekla, Revit and Bluebeam' (Marc has not used Bluebeam; per honest_limits, 'has not used Bluebeam, E1 or Benchmark estimating software')"
+   ]
+  },
+  {
+   "id": "94642437",
+   "company": "Bestbar Pty Ltd",
+   "title": "Civil Engineering Technician",
+   "run": "20260928T1532Z",
+   "percent": 18,
+   "mandatory_unmet": [
+    "'Ability to use Auto Cad, Tekla, Revit and Bluebeam' (Marc has not used Bluebeam; per honest_limits, 'has not used Bluebeam, E1 or Benchmark estimating software')"
+   ]
+  },
+  {
+   "id": "94642220",
+   "company": "Bestbar Pty Ltd",
+   "title": "Civil Engineering Technician",
+   "run": "20260928T1532Z",
+   "percent": 18,
+   "mandatory_unmet": [
+    "'Ability to use Auto Cad, Tekla, Revit and Bluebeam' (Marc has not used Bluebeam; per honest_limits, 'has not used Bluebeam, E1 or Benchmark estimating software')"
+   ]
+  },
+  {
+   "id": "94641899",
+   "company": "Bestbar Pty Ltd",
+   "title": "Civil Engineering Technician",
+   "run": "20260928T1532Z",
+   "percent": 18,
+   "mandatory_unmet": [
+    "'Ability to use Auto Cad, Tekla, Revit and Bluebeam' (Marc has not used Bluebeam; per honest_limits, 'has not used Bluebeam, E1 or Benchmark estimating software')"
+   ]
+  },
+  {
+   "id": "94916158",
+   "company": "WYN&CO Search Recruitment & Payroll",
+   "title": "Civil Project Engineer",
+   "run": "20260928T1031Z",
+   "percent": 50,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94912548",
+   "company": "AWCON Pty Ltd",
+   "title": "Estimator – Mining & Civil Construction",
+   "run": "20260928T0532Z",
+   "percent": 77,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94868128",
+   "company": "Shadforth",
+   "title": "Civil Estimators",
+   "run": "20260928T0532Z",
+   "percent": 67,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94856038",
+   "company": "ABI Civil Contracting NSW",
+   "title": "Civil Estimator",
+   "run": "20260928T1031Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "\"Minimum 3 years' estimating experience within the Australian civil construction industry\" (Marc has no estimating role experience)"
+   ]
+  },
+  {
+   "id": "94840702",
+   "company": "BOS Civil Pty Ltd",
+   "title": "Civil Construction Drainer/Trainee Drainer",
+   "run": "20260928T1031Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94797351",
+   "company": "Hardings Group (Tas) Pty Ltd",
+   "title": "Civil Construction Traineeship",
+   "run": "20260928T1031Z",
+   "percent": 50,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94819769",
+   "company": "THE BMD GROUP",
+   "title": "Site Engineer",
+   "run": "20260928T1031Z",
+   "percent": 50,
+   "mandatory_unmet": [
+    "\"civil infrastructure project experience\" for a Site Engineer at a tier-one contractor (Marc has 11 months of building and subdivision site work in the Philippines, no Australian infrastructure experience)"
+   ]
+  },
+  {
+   "id": "94815766",
+   "company": "Shadforth",
+   "title": "Site and Project Engineers",
+   "run": "20260928T1031Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "\"experienced Site and Project Engineers\" with \"proven experience delivering residential subdivision and large-scale civil infrastructure projects\""
+   ]
+  },
+  {
+   "id": "94796990",
+   "company": "McConnell Dowell Australia",
+   "title": "Site Engineer",
+   "run": "20260928T1031Z",
+   "percent": 50,
+   "mandatory_unmet": [
+    "Site Engineer at a tier-one contractor expects civil infrastructure project experience (Marc has 11 months of building and subdivision site work in the Philippines)"
+   ]
+  },
+  {
+   "id": "94768289",
+   "company": "AMT CIVILS",
+   "title": "FRP PROJECT ENGINEER – MARINE CIVIL CONSTRUCTION",
+   "run": "20260928T1031Z",
+   "percent": 62,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94878120",
+   "company": "SRG Global",
+   "title": "Project Engineer",
+   "run": "20260928T0532Z",
+   "percent": 26,
+   "mandatory_unmet": [
+    "Advert seeks 'an experienced Project Engineer' with '2 - 3 years' experience in a similar role'; Marc has no matching commercial project engineer experience"
+   ]
+  },
+  {
+   "id": "94769263",
+   "company": "Waypoint",
+   "title": "CAD Draftsperson / Estimator",
+   "run": "20260928T1031Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94913320",
+   "company": "Dubbo Regional Council",
+   "title": "Design Engineer",
+   "run": "20260928T0532Z",
+   "percent": 84,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94909348",
+   "company": "Satake Australia Pty Ltd",
+   "title": "Draftsperson",
+   "run": "20260928T0532Z",
+   "percent": 29,
+   "mandatory_unmet": [
+    "Duties require creating and maintaining 3D models, technical drawings and specifications using SolidWorks and AutoCAD; Marc has not used SolidWorks (facts.json lists AutoCAD, Civil 3D, Revit, Microsoft Office and Google Workspace only)"
+   ]
+  },
+  {
+   "id": "94907504",
+   "company": "SEE Group",
+   "title": "Project Engineer & Site Engineer",
+   "run": "20260928T0532Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Advert states 'We're open to Engineers with 2-6 years' experience in civil construction'; Marc has no matching commercial experience"
+   ]
+  },
+  {
+   "id": "94881775",
+   "company": "Endeavour Constructions (WA) Pty Ltd",
+   "title": "Junior Draftsperson",
+   "run": "20260928T0532Z",
+   "percent": 33,
+   "mandatory_unmet": [
+    "'Proficiency in ArchiCAD software is essential'; Marc has not used ArchiCAD (facts.json software list is AutoCAD, Civil 3D, Revit, Microsoft Office and Google Workspace)"
+   ]
+  },
+  {
+   "id": "94879269",
+   "company": "Brisbane City Council",
+   "title": "PROJECT ENGINEER STORY BRIDGE RENEWAL PROGRAM",
+   "run": "20260928T0532Z",
+   "percent": 23,
+   "mandatory_unmet": [
+    "Essential criteria require 'demonstrated experience leading the planning and delivery of complex infrastructure projects or programs' and coordinating multidisciplinary teams; Marc has no matching experience"
+   ]
+  },
+  {
+   "id": "94868086",
+   "company": "Shadforth",
+   "title": "Civil Site and Project Engineers",
+   "run": "20260928T0532Z",
+   "percent": 79,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94915173",
+   "company": "Kingston City Council",
+   "title": "Student Traffic Analyst",
+   "run": "20260928T0532Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Essential requirement is 'current enrolment in a degree in engineering, urban planning, transport planning or a related discipline'; Marc is not currently enrolled (Advanced Diploma completed February 2026, Bachelor's completed 2019)"
+   ]
+  },
+  {
+   "id": "94911870",
+   "company": "Resource E",
+   "title": "Site Engineer",
+   "run": "20260928T0532Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94884083",
+   "company": "Civcon Civil & Project Management Pty Ltd",
+   "title": "Trainee Drainers / Pipe Layers",
+   "run": "20260928T0532Z",
+   "percent": 43,
+   "mandatory_unmet": [
+    "Requirements list '- Australian resident or permanent resident'; Marc holds a Subclass 485 visa, not citizenship or permanent residency"
+   ]
+  },
+  {
+   "id": "94864699",
+   "company": "SS Digital Drafting Pty Ltd",
+   "title": "Survey Drafter (CAD Technician) or Trainee",
+   "run": "20260928T0532Z",
+   "percent": 47,
+   "mandatory_unmet": [
+    "Advert states 'By applying for this role, you acknowledge that you're an Australian resident or citizen and able to provide documentation to support your claim'; Marc holds a Subclass 485 visa, not citizenship or residency in that sense"
+   ]
+  },
+  {
+   "id": "94868413",
+   "company": "Loumac Constructions",
+   "title": "Building Estimator / Draftsperson - Awnings, Decks & Light Structural Works",
+   "run": "20260928T0532Z",
+   "percent": 18,
+   "mandatory_unmet": [
+    "'At least two years' hands-on experience in both estimating and drafting awnings and decks, or closely related light structural works' is stated as a requirement; Marc has no matching commercial experience"
+   ]
+  },
+  {
+   "id": "94867259",
+   "company": "Blacktown City Council",
+   "title": "Stormwater Engineer Design (S7.11)",
+   "run": "20260928T0532Z",
+   "percent": 27,
+   "mandatory_unmet": [
+    "Advert states the role 'suits an engineer with at least 4 years experience designing detention basins, bioretention basins, wetlands and trunk drainage systems'; Marc has no matching experience"
+   ]
+  },
+  {
+   "id": "94903708",
+   "company": "JDM Civil Group",
+   "title": "Project Engineer",
+   "run": "20260928T0532Z",
+   "percent": 72,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94882789",
+   "company": "BESIX Watpac",
+   "title": "Building Cadet",
+   "run": "20260928T0532Z",
+   "percent": 42,
+   "mandatory_unmet": [
+    "'Currently studying a university-level degree in Construction Management, Engineering, or a related discipline' is the stated qualification requirement; Marc is not currently enrolled (both his degree and Advanced Diploma are already completed)"
+   ]
+  },
+  {
+   "id": "94879140",
+   "company": "ACCIONA Australia",
+   "title": "Project Engineer",
+   "run": "20260928T0532Z",
+   "percent": 80,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94868343",
+   "company": "THE BMD GROUP",
+   "title": "Project Engineer",
+   "run": "20260928T1031Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "\"minimum four years' experience in the civil construction industry\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian work experience)"
+   ]
+  },
+  {
+   "id": "94911471",
+   "company": "Downer EDI Limited",
+   "title": "Graduate Engineering Program 2027",
+   "run": "20260928T1031Z",
+   "percent": 47,
+   "mandatory_unmet": [
+    "\"Degree in Mechanical, Electrical or Civil Engineering, completed in 2025 or due for completion by the end of 2026\" (Marc's Bachelor of Science in Civil Engineering was completed in 2019; his February 2026 completion is an Advanced Diploma, not an engineering degree)",
+    "\"Australian Citizenship or Permanent Residency\" (Marc holds a Subclass 485 visa to December 2027, not citizenship or permanent residency)"
+   ]
+  },
+  {
+   "id": "94899498",
+   "company": "Design & Build",
+   "title": "Draftsperson",
+   "run": "20260928T1031Z",
+   "percent": 18,
+   "mandatory_unmet": [
+    "\"Residential drafting experience with a WA-based builder\" (Marc's CAD/drafting experience is academic coursework in civil construction design, not commercial residential drafting with a WA builder)"
+   ]
+  },
+  {
+   "id": "94892492",
+   "company": "Echo Projects Co",
+   "title": "Building Cadet",
+   "run": "20260928T1031Z",
+   "percent": 48,
+   "mandatory_unmet": [
+    "\"Currently enrolled in a construction management or related degree at university (this is a requirement)\" (Marc is not currently enrolled in university; his BSCE was completed in 2019 and his Advanced Diploma in February 2026)"
+   ]
+  },
+  {
+   "id": "94883390",
+   "company": "BESIX Watpac",
+   "title": "Graduate Engineer",
+   "run": "20260928T1031Z",
+   "percent": 50,
+   "mandatory_unmet": [
+    "\"Currently studying a university-level degree in Construction Management, Engineering, or a related discipline\" (Marc is not currently enrolled; his Advanced Diploma of Civil Construction Design was completed in February 2026)"
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "id": "94633191",
+   "source": "seek",
+   "title": "Draftsperson- Fabrication & Engineering",
+   "company": "Future Engineering and Communication",
+   "location": "Cockburn Central, Perth WA",
+   "url": "https://www.seek.com.au/job/94633191",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-15T02:00:47.917Z",
+   "expires_at": "2026-10-15T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "Have you completed a qualification in engineering?",
+    "Which of the following CAD software do you have experience with?"
+   ],
+   "summary": "Draftsperson with AutoCAD/MicroStation to design powerlines, towers, monopoles & custom structures. Join diverse, large-scale engineering projects.",
+   "opening": "Draftsperson - Fabrication & Engineering\nAbout Us:\nFuture Engineering & Communication Pty Ltd, a proud Australian-owned company and a subsidiary of the Tasmea Group of Companies, is a leading force in telecommunication engineering. We specialise in the design, supply, and installation of powerline infrastructure, lattice towers, steel monopoles, guyed masts, and custom-designed structures, with a proven track record across industries such as Defence, Telecommunications, Government, Mining, and Infrastructure\nWe are looking for a talented Draftsperson with experience in AutoCAD to join our dynamic team. In this role, you will play a key part in designing and developing detailed drawings for powerline infrastructure, lattice towers, steel monopoles, and custom-engineered structures. This is an exciting opportunity to work on diverse, large-scale projects, applying your technical expertise ",
+   "key_lines": [
+    "We are looking for a talented Draftsperson with experience in AutoCAD to join our dynamic team. In this role, you will play a key part in designing and developing detailed drawings for powerline infrastructure, lattice towers, steel monopoles, and custom-engineered structures. This is an exciting opportunity to work on diverse, large-scale projects, applying your technical expertise and attention to detail to deliver high-quality, innovative solutions in a collaborative engineering environment.",
+    "- Control and maintenance of drafting requirements",
+    "- Working knowledge/experience with AutoCAD",
+    "- Experience in steel fabrication detailing",
+    "- Experience in Advanced Steel and/or MicroStation highly desirable",
+    "- Competitive remuneration aligned to experience and technical capability",
+    "Apply Now"
+   ]
+  },
+  {
+   "id": "94635929",
+   "source": "seek",
+   "title": "Engineering Drafting (Engineering)",
+   "company": "Demlakian Consulting Engineers",
+   "location": "Crows Nest, Sydney NSW",
+   "url": "https://www.seek.com.au/job/94635929",
+   "work_type": "Full time",
+   "salary": "$75,000 – $105,000 per year",
+   "listed_at": "2026-09-15T03:07:12.111Z",
+   "expires_at": "2026-10-15T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have in an Engineering Role?"
+   ],
+   "summary": "Produce structural and civil drawings using AutoCAD for engineering projects.",
+   "opening": "Demlakian Consulting Engineers is a leading, multi-disciplinary engineering firm which specialises in the design and delivery of intelligent engineering, strata and remedial solutions. We work with local and international clients in the commercial, industrial, institutional, civic and residential sectors.\nWe are currently seeking a highly motivated and experienced Structural/Civil Draftsperson to join our team. As a member of our team, you will have the opportunity to work on exciting projects, collaborate with industry experts, and develop your skills and knowledge.\nKey responsibilities\n- Produce structural/civil drawings using AutoCAD\n- Prepare sketches, charts, tabulations, plans and designs for civil engineering works such as drainage, water supply, sewerage reticulation systems, roads, airports, dams, bridges and other structures\n- Liaise with project managers and engineers to ensur",
+   "key_lines": [
+    "Demlakian Consulting Engineers is a leading, multi-disciplinary engineering firm which specialises in the design and delivery of intelligent engineering, strata and remedial solutions. We work with local and international clients in the commercial, industrial, institutional, civic and residential sectors.",
+    "We are currently seeking a highly motivated and experienced Structural/Civil Draftsperson to join our team. As a member of our team, you will have the opportunity to work on exciting projects, collaborate with industry experts, and develop your skills and knowledge.",
+    "- Produce structural/civil drawings using AutoCAD",
+    "- Liaise with project managers and engineers to ensure that drawings are produced in accordance with project requirements and company standards",
+    "- Interpret work assignment instructions and apply appropriate procedures",
+    "- Contribute to the review and revision of designs based on project feedback and requirements",
+    "- Minimum 3 years of experience in civil/structural drafting",
+    "- Proficiency in AutoCAD",
+    "- Experience with Revit is advantageous",
+    "We offer a competitive salary package commensurate with candidate’s experience and a supportive work environment. As a team we enjoy monthly staff barbecues, wine club events, and other social team building exercises. Our close-knit team works on a variety of projects ranging from small domestic to large residential and beyond, providing you with a diverse and challenging work experience."
+   ]
+  },
+  {
+   "id": "94845860",
+   "source": "seek",
+   "title": "Draftsperson (Sheet Metal Manufacturing)",
+   "company": "Laser Wizard Pty Ltd",
+   "location": "St Marys, Sydney NSW",
+   "url": "https://www.seek.com.au/job/94845860",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-24T02:14:23.322Z",
+   "expires_at": "2026-10-24T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "Which of the following CAD software do you have experience with?",
+    "Have you completed a qualification in engineering drafting / engineering design?",
+    "How many years' experience do you have in a Sheet Metal Role?",
+    "Do you have CAD Drawing experience?",
+    "Have you completed a qualification in mechanical engineering?",
+    "How many years of experience do you have in the Sheet Metal Industry?",
+    "How many years' experience do you have as a Sheet Metal Designer?",
+    "Do you have CNC Programming experience?"
+   ],
+   "summary": "Join our team as a Draftsperson and play a key role in creating quality sheet metal and fabricated components",
+   "opening": "Laser Wizard Pty Ltd is seeking an experienced Draftsperson with a background in sheet metal manufacturing to join our team in St Marys, NSW. This full-time role is responsible for preparing accurate and detailed production drawings, flat patterns and CAD files for a range of sheet metal and engineering projects. As a key member of our Engineering team, you will work closely with Estimating, Production and clients to ensure designs are practical, accurate and ready for manufacture.\nKey Responsibilities:\n- Develop detailed and accurate technical drawings for the sheet metal components and assemblies using Inventor and AutoCAD.\n- Communicate with clients and collaborating with internal teams to ensure design accuracy and feasibility, addressing any concerns or inquiries promptly and professionally\n- Collaborate with the office team to ensure smooth operations and efficient workflow\n- Utili",
+   "key_lines": [
+    "Laser Wizard Pty Ltd is seeking an experienced Draftsperson with a background in sheet metal manufacturing to join our team in St Marys, NSW. This full-time role is responsible for preparing accurate and detailed production drawings, flat patterns and CAD files for a range of sheet metal and engineering projects. As a key member of our Engineering team, you will work closely with Estimating, Production and clients to ensure designs are practical, accurate and ready for manufacture.",
+    "- Develop detailed and accurate technical drawings for the sheet metal components and assemblies using Inventor and AutoCAD.",
+    "Skills & Experience required:",
+    "- Experience in sheet metal fabrication, laser cutting, bending, welding, etc.",
+    "- Advanced/Expert level of Computer literacy and proficiency in Inventor and AutoCAD is required.",
+    "- Experience with nesting / programming software taken with high regard"
+   ]
+  },
+  {
+   "id": "94829117",
+   "source": "seek",
+   "title": "Draftsperson",
+   "company": "AES Equipment Solutions",
+   "location": "Canning Vale, Perth WA",
+   "url": "https://www.seek.com.au/job/94829117",
+   "work_type": "Full time",
+   "salary": "Competitive remuneration + super",
+   "listed_at": "2026-09-23T06:54:18.273Z",
+   "expires_at": "2026-10-21T22:00:00.000Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Work with Operations and Manufacturing teams to design truck bodies, water trucks, and mining support equipment",
+   "opening": "About the role:\nAs a Draftsperson with AES, you are responsible for producing detailed technical drawings, 3D models, and specifications that support the manufacture of high-quality truck and body-building solutions\nWhat’s in It for you:\n- Competitive remuneration + super\n- Mon-Fri (Metro-based position – home every night)\n- Permanent Full-time\n- Loyalty Bonus Scheme – Get paid a bonus for continuing your employment with AES\n- Employee Referral Bonus\n- Multiple company benefits including - income protection insurance / Employee Assistance Program (EAP) / discounted private health insurance / salary sacrifice options & novated leases available\n- Enjoy employee discounts with exclusive deals for groceries, entertainment, fuel vouchers, incredible savings on tech products and so much more - there are over 450 retailers offering\n- Fee onsite parking\nIn this role you will be responsible for: ",
+   "key_lines": [
+    "- Review and revise designs to ensure accuracy, quality, and compliance with project requirements",
+    "- Collaborate with Operations, Production, and Engineering teams to translate project requirements into practical design solutions",
+    "- Ensure designs comply with relevant Australian standards and manufacturing requirements",
+    "- Australian Drivers Licence",
+    "- Relevant degree or certificate in Mechanical Engineering or drafting",
+    "- Experience in a body building / equipment manufacturing business",
+    "If you have the above necessary skills and experience to take on this rewarding challenge. APPLY NOW",
+    "AES is an Equal Opportunity Employer and we strongly support diversity in our workforce. Applicants from a wide sector of the community, including women and indigenous cultures, are encouraged to apply."
+   ]
+  },
+  {
+   "id": "94798688",
+   "source": "seek",
+   "title": "Industrial Designer / Draftsperson",
+   "company": "Norweld Australia",
+   "location": "Portsmith, Cairns & Far North QLD",
+   "url": "https://www.seek.com.au/job/94798688",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-22T06:20:40.105Z",
+   "expires_at": "2026-10-22T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": " Come join the Norweld team! ",
+   "opening": "Come join the Norweld team!\n• Bring Australian-made products to life from concept through to production\n• Hands-on SolidWorks role across design, prototyping and manufacturing\n• Cairns preferred, with Brisbane-based applicants also considered\nWHO WE ARE\nFor over 50 years, Norweld has been making our customers’ dreams a reality. Through extensive research and development at our head office in Cairns, we have built a world-class reputation for delivering the ultimate tray and canopy packages. Designed and manufactured in Australia, we use the highest-grade materials and cutting-edge manufacturing techniques to build the toughest products in the country.\nWe pride ourselves on offering a safe, inclusive and supportive workplace – one where we have fun, work as a team, deliver the ultimate customer experience and enjoy rewarding careers. Come and join the Norweld family!\nTHE OPPORTUNITY\nNorwe",
+   "key_lines": [
+    "For over 50 years, Norweld has been making our customers’ dreams a reality. Through extensive research and development at our head office in Cairns, we have built a world-class reputation for delivering the ultimate tray and canopy packages. Designed and manufactured in Australia, we use the highest-grade materials and cutting-edge manufacturing techniques to build the toughest products in the country.",
+    "We pride ourselves on offering a safe, inclusive and supportive workplace – one where we have fun, work as a team, deliver the ultimate customer experience and enjoy rewarding careers. Come and join the Norweld family!",
+    "Norweld is seeking a practical and detail-focused Draftsperson / Industrial Designer to support the development of our vehicle tray, canopy and accessory range. Working closely with Engineering, tradespeople and Manufacturing, you will develop accurate SolidWorks models, detailed drawings and production-ready designs. The role supports products from initial concept and prototype through testing, review and approved production release.",
+    "This is not a purely desk-based drafting role. You will spend time with the people manufacturing and assembling our products, participate in practical prototyping and trials and help resolve design, fit and manufacturing issues. The position is preferably based at our Cairns head office. However, applications from suitably experienced Brisbane-based candidates will also be considered.",
+    "• Applying mechanical design principles, appropriate tolerances and knowledge of materials and manufacturing processes",
+    "Hands-on fabrication, prototyping, assembly or vehicle fitment experience would be highly regarded, together with experience in automotive, vehicle accessories, aluminium fabrication or low-volume manufacturing.",
+    "• Approximately three to five years’ experience in industrial design, drafting, mechanical design or a related design and manufacturing role",
+    "• Experience designing for sheet-metal fabrication, machining, welding and other manufacturing processes",
+    "• A relevant qualification in industrial design, mechanical drafting, engineering design or a related discipline, or equivalent demonstrated experience"
+   ]
+  },
+  {
+   "id": "94795969",
+   "source": "seek",
+   "title": "Site Engineer",
+   "company": "ATB Riva Calzoni Australia",
+   "location": "Cooma, Tumut, Snowy & Monaro NSW",
+   "url": "https://www.seek.com.au/job/94795969",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-22T04:55:56.968Z",
+   "expires_at": "2026-10-22T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "Have you completed a qualification in structural engineering?",
+    "Have you completed a qualification in civil engineering?",
+    "How many years' experience do you have as a Structural Site Engineer?",
+    "How many years' experience do you have as a Temporary Works Engineer?",
+    "Do you have experience using CAD Software?",
+    "How many years' experience do you have as a Civil Site Engineer?",
+    "Do you have 3D Modelling experience?"
+   ],
+   "summary": "Play a key role in delivering one of Australia’s most significant renewable energy projects.",
+   "opening": "Site Engineer – Snowy 2.0 Project |  FIFO / DIDO 14:7 roster\nPlay a key role in delivering one of Australia’s most significant renewable energy projects.\nThis is an exciting opportunity to join a globally recognised hydropower leader and support the successful delivery of Snowy 2.0 — the largest renewable energy project currently under construction in the country.\nATB Australia is seeking an experienced Site Engineer to support the delivery of works on the Snowy 2.0 Project. Reporting to the Site Manager, this role offers the opportunity to apply your civil / structural engineering expertise within a complex construction environment while contributing to a nationally significant project.\nAbout the Role\nAs Site Engineer, you will play a critical technical role supporting construction and installation activities, ensuring engineering specifications, safety requirements and project standard",
+   "key_lines": [
+    "ATB Australia is seeking an experienced Site Engineer to support the delivery of works on the Snowy 2.0 Project. Reporting to the Site Manager, this role offers the opportunity to apply your civil / structural engineering expertise within a complex construction environment while contributing to a nationally significant project.",
+    "As Site Engineer, you will play a critical technical role supporting construction and installation activities, ensuring engineering specifications, safety requirements and project standards are achieved. You will work closely with site and project management, design teams, construction personnel and external stakeholders to provide technical leadership and engineering support throughout the project lifecycle.",
+    "Essential",
+    "- Degree qualification in Civil Engineering, Structural Engineering or a related discipline.",
+    "- Minimum 5 years' experience in structural engineering.",
+    "- Demonstrated experience designing for construction or temporary works.",
+    "- Experience interpreting engineering drawings and technical documentation.",
+    "- Valid Australian Driver's License.",
+    "- Experience working on large-scale infrastructure, energy or construction projects.",
+    "Apply Now",
+    "If you're an experienced Site Engineer looking to make a meaningful contribution to a landmark infrastructure project, apply now via SEEK.",
+    "For questions, please contact hr.snowy@atbrc.com. Applications submitted to this email address will not be considered."
+   ]
+  },
+  {
+   "id": "94792210",
+   "source": "seek",
+   "title": "Junior Estimator",
+   "company": "Tasman Rope Access",
+   "location": "Adelaide SA",
+   "url": "https://www.seek.com.au/job/94792210",
+   "work_type": "Full time",
+   "salary": "$85,000 – $110,000 per year",
+   "listed_at": "2026-09-22T03:29:58.949Z",
+   "expires_at": "2026-10-22T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as an Estimator?",
+    "Which of the following CAD software do you have experience with?",
+    "Do you have experience using Microsoft Excel?",
+    "Do you have a current Australian driver's licence?",
+    "What's your expected annual base salary?",
+    "Have you completed a qualification in engineering?"
+   ],
+   "summary": "Great opportunity for a tradesperson or graduate to support project delivery through estimating, planning, procurement, and admin coordination . ",
+   "opening": "Tasman Rope Access is Australia’s industry-leading rope access and at-height works company. As a member of the worldwide Industrial Rope Access Trade Association (IRATA), our skilled technicians adhere to the strictest safety protocols for high-risk tasks.\nBacked by our extensive experience, we provide comprehensive maintenance and access solutions that are professional, honest, and reliable. With over 65 years of cumulative expertise across domestic projects and shutdowns, our in-house team delivers cost-effective, high-quality outcomes on projects of all sizes.\nDue to continued growth, we are seeking a motivated and enthusiastic Junior Estimator to join our Adelaide team and support the successful delivery of projects across mining, industrial, commercial, and infrastructure sectors.\nAbout the Role\nReporting to the Operations Manager, the Junior Estimator will play an important role in",
+   "key_lines": [
+    "Backed by our extensive experience, we provide comprehensive maintenance and access solutions that are professional, honest, and reliable. With over 65 years of cumulative expertise across domestic projects and shutdowns, our in-house team delivers cost-effective, high-quality outcomes on projects of all sizes.",
+    "Due to continued growth, we are seeking a motivated and enthusiastic Junior Estimator to join our Adelaide team and support the successful delivery of projects across mining, industrial, commercial, and infrastructure sectors.",
+    "Reporting to the Operations Manager, the Junior Estimator will play an important role in supporting project delivery through estimating, planning, procurement, and administrative coordination.",
+    "This position is ideally suited to a developing estimator, engineering graduate, tradesperson looking to transition off the tools, or an individual with strong technical aptitude seeking a career in project delivery and operations.",
+    "• Assist with preparing quotations, tenders, and budget estimates from client scopes and project requirements.",
+    "• Perform quantity take-offs and assist in determining labour, equipment, and material requirements.",
+    "• A trade qualification, engineering qualification, drafting qualification, or equivalent industry experience.",
+    "• Experience or exposure to mechanical, fabrication, maintenance, construction, or engineering environments.",
+    "• Exposure to and practical experience using CAD software such as AutoCAD,",
+    "• Experience producing or modifying basic CAD drawings would be highly regarded.",
+    "• Strong technical aptitude with the ability to visualise components, assemblies, and fabrication requirements from drawings.",
+    "• A current driver's licence.",
+    "• Flexibility to undertake occasional ad hoc travel as required.",
+    "• Mentoring and development from experienced industry professionals."
+   ]
+  },
+  {
+   "id": "94791634",
+   "source": "seek",
+   "title": "Draftsperson",
+   "company": "Scantec Refrigeration",
+   "location": "Moorooka, Brisbane QLD",
+   "url": "https://www.seek.com.au/job/94791634",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-22T03:06:31.931Z",
+   "expires_at": "2026-10-22T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "Which of the following CAD software do you have experience with?",
+    "What's your expected annual base salary?",
+    "How much notice are you required to give your current employer?",
+    "How many years of Engineering Drafting experience do you have?",
+    "Have you completed a qualification in engineering drafting / engineering design?"
+   ],
+   "summary": "Industrial Draftsperson delivering detailed 3D models and construction documentation for complex ammonia refrigeration projects.",
+   "opening": "Are you an experienced Draftsperson with strong AutoCAD skills and experience producing 3D models for industrial projects?\nScantec Refrigeration Technologies is a leading industrial refrigeration company providing end to end solutions from design and construction through to commissioning and ongoing maintenance. We deliver high quality industrial refrigeration systems across Australia and Oceania, specialising in Ammonia and CO₂ technology.\nDue to continued growth, we are seeking an Industrial Refrigeration Draftsperson to join our projects team based in Brisbane. This role works closely with project managers, engineers, and site teams to develop coordinated 2D and 3D documentation for industrial projects.\nKey Responsibilities\n- Produce detailed 3D models of refrigeration plant, piping, and equipment using Autodesk based platforms\n- Generate coordinated 2D drawings including layouts, sec",
+   "key_lines": [
+    "Are you an experienced Draftsperson with strong AutoCAD skills and experience producing 3D models for industrial projects?",
+    "Due to continued growth, we are seeking an Industrial Refrigeration Draftsperson to join our projects team based in Brisbane. This role works closely with project managers, engineers, and site teams to develop coordinated 2D and 3D documentation for industrial projects.",
+    "- Proven experience using AutoCAD (essential)",
+    "- Strong experience producing 3D models for industrial, mechanical, or building services projects",
+    "- Exposure to Revit (desirable)",
+    "- Experience in industrial refrigeration (desirable)",
+    "If you are looking to apply your 3D drafting skills within a technically driven projects team, we would love to hear from you."
+   ]
+  },
+  {
+   "id": "94786113",
+   "source": "seek",
+   "title": "Technical Draftsperson",
+   "company": "Aus Ships",
+   "location": "Murarrie, Brisbane QLD",
+   "url": "https://www.seek.com.au/job/94786113",
+   "work_type": "Contract/Temp",
+   "salary": null,
+   "listed_at": "2026-09-22T00:37:46.789Z",
+   "expires_at": "2026-10-22T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a Technical Draftsperson?"
+   ],
+   "summary": "Technical Draftsperson supporting vessel design, 2D/3D modelling and technical documentation in a leading maritime manufacturing team.",
+   "opening": "Join Australia's Leading Maritime Design and Manufacturing Team\nAre you an experienced Technical Draftperson looking for more than just another drafting role?\nDo you have good design drafting, technical documentation preparation and both 2 dimensional and 3 dimensional computer modelling techniques?\nThe Aus Ships Group is a maritime business built on professionalism, integrity, quality and passion. We have a focus on performance, safety, family values and client, supplier and employee satisfaction. The Aus Ships group is comprised of two distinct entities aimed at providing a comprehensive portfolio of products and services to high quality clients both domestically and offshore.\nThe role of the Technical Draftsperson is to ensure that design drawings and technical deliverables are completed as requested by Technical team members, to a high standard and in an efficient manner.\nYou will ha",
+   "key_lines": [
+    "Are you an experienced Technical Draftperson looking for more than just another drafting role?",
+    "You will support the Technical Manager, Naval Architects, Technical Draftspersons and Production teams by providing timely, accurate and sufficient technical information as requested and required.",
+    "- Liaise with the Technical Manager, Naval Architects and Technical Draftspersons on a daily/weekly basis regarding technical requirements, objectives, priorities and schedule",
+    "- Demonstrates experience in the technical drafting and design, engineering and consulting sectors of commercial, defence and private vessels",
+    "- Proficiency in AutoCAD & Rhino3D Software",
+    "- Awareness of the maritime regulatory environment including flag state and classification society protocols and requirements.",
+    "- Knowledge, understanding and application of workplace health and safety requirements",
+    "Desirable Qualifications",
+    "Formal maritime qualifications in design, construction or operations",
+    "Recreational marine driver’s license",
+    "Current “C” class driver’s license",
+    "- Participating in risk assessments, SWMS, JSAs and incident investigations where required.",
+    "- A supportive team culture where your ideas and experience are valued.",
+    "This is a full-time position on 6-month contract based primarily at our Brisbane design studio, with regular travel to client sites and vessels as required."
+   ]
+  },
+  {
+   "id": "94752696",
+   "source": "seek",
+   "title": "Project Engineer",
+   "company": "Talent Advisory",
+   "location": "Hobart TAS",
+   "url": "https://www.seek.com.au/job/94752696",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-21T08:32:54.050Z",
+   "expires_at": "2026-10-21T13:24:31.847Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a project engineer?"
+   ],
+   "summary": "Experienced Project Engineer wanted for a unique Hobart civil role. Specialised projects, competitive salary, vehicle and genuine work life balance.",
+   "opening": "Project Engineer – Civil Construction\nTalent Advisory is excited to be supporting our long term business partner, DCS Civil, in the recruitment of an experienced Project Engineer to join their Hobart based operations.\nHaving worked alongside DCS Civil for a number of years, we know this is a genuine opportunity to join an established Tasmanian civil contractor delivering a diverse range of projects, including niche and specialised civil works.\nThe Role\nThis is a hands on position with involvement across the full delivery of projects. You will work closely with the Directors, Project Managers and Supervisors to coordinate works, manage project requirements and help keep projects moving.\nResponsibilities will include:\n • Project coordination and supporting project delivery\n• Quality assurance, documentation and compliance\n• Managing project programs, milestones and timeframes\n• Working clo",
+   "key_lines": [
+    "Talent Advisory is excited to be supporting our long term business partner, DCS Civil, in the recruitment of an experienced Project Engineer to join their Hobart based operations.",
+    "Having worked alongside DCS Civil for a number of years, we know this is a genuine opportunity to join an established Tasmanian civil contractor delivering a diverse range of projects, including niche and specialised civil works.",
+    "This is a hands on position with involvement across the full delivery of projects. You will work closely with the Directors, Project Managers and Supervisors to coordinate works, manage project requirements and help keep projects moving.",
+    "• Working closely with site Supervisors and operational teams",
+    "We are looking for an experienced Project Engineer with a strong understanding of civil construction and the practical realities of delivering projects on the ground.",
+    "You will be organised, confident dealing with different stakeholders and comfortable moving between technical requirements, site operations and project coordination.",
+    "• Previous Project Engineer experience within civil construction",
+    "• Relevant engineering qualifications",
+    "• Strong QA and project documentation experience",
+    "• Experience managing project programs and timeframes",
+    "This is not a role where you will be sitting on the sidelines of project delivery. You will work closely with the Directors of the business and have genuine involvement in how projects are planned, coordinated and delivered.",
+    "If you are an experienced Project Engineer looking for a Hobart based role with variety, responsibility and the opportunity to work closely with the people making the decisions, we would love to hear from you."
+   ]
+  },
+  {
+   "id": "94769893",
+   "source": "seek",
+   "title": "Civil Site and Project Engineers",
+   "company": "Shadforth",
+   "location": "Logan Central, Brisbane QLD",
+   "url": "https://www.seek.com.au/job/94769893",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-21T06:13:04.238Z",
+   "expires_at": "2026-10-19T05:13:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "Do you have a current Australian driver's licence?",
+    "Do you own or have regular access to a car?",
+    "What’s you expected Annual Base Salary? ",
+    "What previous experience do you have working in Civil Construction?"
+   ],
+   "summary": "Build your career with a Leading Civil Contractor with a large pipeline of works across the Logan Region",
+   "opening": "We’re looking for a Site Engineer and Project Engineer who are eager to progress their career with a leading Civil Contracting company, overseeing Civil Construction projects across the Logan region ranging from $5m - $70m.\nShadforth offers long-term career opportunities, a strong pipeline of work and is dedicated to the growth and professional development of its employees.\n You’ll have the opportunity to work alongside experienced industry\n professionals, broaden your skills and take the next step in your career.\n Reporting to the Project Manager, you will be responsible for daily project activities to ensure project outcomes are met in accordance with contractual and safety requirements.\n Key responsibilities will be:\n - Conduct daily site inspections and oversee onsite teams and plant, including subcontractors\n - Manage construction planning, programming and completion schedules\n - Pr",
+   "key_lines": [
+    "You’ll have the opportunity to work alongside experienced industry",
+    "Reporting to the Project Manager, you will be responsible for daily project activities to ensure project outcomes are met in accordance with contractual and safety requirements.",
+    "- Work closely with Project Managers, Supervisors and site teams to ensure projects are delivered safely, efficiently and to a high standard",
+    "Shadforth are one of Queensland’s largest family-owned civil construction companies originating on the Sunshine Coast over 50 years ago. We have a strong presence across Queensland and Northern New South Wales where we have developed an outstanding reputation working across many sectors including residential and commercial subdivisions and major civil infrastructure, including roads and bridges.",
+    "To Apply",
+    "Click 'apply now' to submit an up-to-date copy of your resume and a covering letter highlighting your experience."
+   ]
+  },
+  {
+   "id": "94765683",
+   "source": "seek",
+   "title": "CAD Draftsperson",
+   "company": "Gallagher",
+   "location": "Hastings, Mornington Peninsula & Bass Coast VIC",
+   "url": "https://www.seek.com.au/job/94765683",
+   "work_type": "Full time",
+   "salary": "Local Hastings role + Great team environment",
+   "listed_at": "2026-09-21T04:11:48.122Z",
+   "expires_at": "2026-10-21T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Not just another drafting role - create practical yard plans, livestock handling solutions that are manufactured, installed + used on Australian farms",
+   "opening": "Why Norton?\nAt Norton, you won’t just be producing drawings that disappear into a folder. You’ll help turn customer ideas, site information and practical farming requirements into livestock handling solutions that are built, installed and put to work.\nBased in Hastings, Victoria, Norton is an established Australian manufacturer of livestock handling equipment, farm gates and yard solutions. As part of the Gallagher family, we combine local manufacturing expertise with the resources and reach of a global organisation.\nYou’ll work closely with Sales, Operations and Manufacturing, giving you the opportunity to see projects through from the initial concept right through to production and installation.\nYou’ll also enjoy a varied role, plenty of opportunity to build your technical and industry knowledge, and a practical, down-to-earth team environment.\nThe Opportunity\nAs our CAD Draftsperson, ",
+   "key_lines": [
+    "At Norton, you won’t just be producing drawings that disappear into a folder. You’ll help turn customer ideas, site information and practical farming requirements into livestock handling solutions that are built, installed and put to work.",
+    "You’ll work closely with Sales, Operations and Manufacturing, giving you the opportunity to see projects through from the initial concept right through to production and installation.",
+    "As our CAD Draftsperson, you’ll turn customer requirements and site information into practical, manufacturable livestock handling solutions.",
+    "You’ll create yard layouts, scaled aerial site plans and concept designs using customer requirements, site measurements, survey information and drone imagery. From there, you’ll develop detailed 2D and 3D CAD models, fabrication drawings, assembly documentation and bills of materials ready for production.",
+    "- A qualification in engineering drafting, mechanical design or a related discipline",
+    "- Experience with SolidWorks, Autodesk Inventor, AutoCAD, Fusion 360 or similar",
+    "- Experience producing 2D and 3D drawings in manufacturing, fabrication or engineering",
+    "- Experience with livestock handling equipment, agricultural manufacturing, rural infrastructure, aerial mapping or survey data would be a bonus."
+   ]
+  },
+  {
+   "id": "94760689",
+   "source": "seek",
+   "title": "CAD Draftsperson",
+   "company": "ProQuest Recruitment - Dandenong",
+   "location": "Lilydale, Yarra Valley & High Country VIC",
+   "url": "https://www.seek.com.au/job/94760689",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-21T02:04:55.632Z",
+   "expires_at": "2026-10-21T01:04:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "If you're a detail-oriented Draftsperson who enjoys turning concepts into practical manufacturing solutions, we'd love to hear from you.",
+   "opening": "CAD Draftsperson\n Full-Time Permanent Position Eastern Suburbs Melbourne\n ProQuest Recruitment is partnering with a well-established and growing Australian manufacturing and engineering business to recruit an experienced CAD Draftsperson.\n This is an exciting opportunity to join a specialised organisation that designs and manufactures custom technical solutions for a diverse range of industries. Working closely with Sales, Projects, Manufacturing and Purchasing teams, you'll play a critical role in turning concepts into accurate drawings, manufacturing documentation and practical design solutions.\n About the Role\n Reporting to the Executive Manager of Operations, you will be responsible for preparing detailed drawings, models and CNC cutting files to support customer approvals, project delivery and manufacturing outcomes.\n Key responsibilities include:\n - Preparing sales and project draw",
+   "key_lines": [
+    "ProQuest Recruitment is partnering with a well-established and growing Australian manufacturing and engineering business to recruit an experienced CAD Draftsperson.",
+    "This is an exciting opportunity to join a specialised organisation that designs and manufactures custom technical solutions for a diverse range of industries. Working closely with Sales, Projects, Manufacturing and Purchasing teams, you'll play a critical role in turning concepts into accurate drawings, manufacturing documentation and practical design solutions.",
+    "- Previous experience as a CAD Draftsperson, Design Draftsperson or similar role within manufacturing",
+    "- Strong experience using SolidWorks, AutoCAD and Revit",
+    "- A sound understanding of manufacturing processes, materials and fabrication requirements",
+    "- SketchUp and Adobe Photoshop experience",
+    "- Experience preparing CNC cutting files",
+    "- Experience supporting installation drawings and site-based project requirements",
+    "- Competitive salary package based on experience",
+    "Apply Now"
+   ]
+  },
+  {
+   "id": "94725188",
+   "source": "seek",
+   "title": "Junior/Trainee Estimator",
+   "company": "Boone and Willard Plumbing Pty Ltd",
+   "location": "Loganholme, Brisbane QLD",
+   "url": "https://www.seek.com.au/job/94725188",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-18T05:53:30.614Z",
+   "expires_at": "2026-10-18T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as an Estimator?",
+    "How many years' experience do you have in the construction industry?",
+    "What's your expected annual base salary?"
+   ],
+   "summary": "Fantastic opportunity for a plumber to get off the tools!",
+   "opening": "Sick of working on the tools and digging holes in 40deg heat and 100% humidity????\nJoin the Boone & Willard Team as a Junior / Trainee Plumbing Estimator (in air con)!\nAn opportunity has become available at Boone and Willard Plumbing for a Junior / Trainee Plumbing Estimator to join our busy professional team based in Loganholme, QLD. This full-time position will play a crucial role in supporting the estimating team and contributing to the overall success of the business.\nDesired Experience / Skills:\n- Proficiency in Microsoft Office Suite, including Word, Excel, Outlook etc.\n- Excellent written and verbal communication skills\n- Proactive approach to problem solving and multitasking\n- Strong organisational and time management skills\n- Ability to work either independently or as part of a team\n- Relevant qualifications eg plumbing trade certificate, Quantity Surveying, Construction Managem",
+   "key_lines": [
+    "Join the Boone & Willard Team as a Junior / Trainee Plumbing Estimator (in air con)!",
+    "An opportunity has become available at Boone and Willard Plumbing for a Junior / Trainee Plumbing Estimator to join our busy professional team based in Loganholme, QLD. This full-time position will play a crucial role in supporting the estimating team and contributing to the overall success of the business.",
+    "Desired Experience / Skills:",
+    "- Relevant qualifications eg plumbing trade certificate, Quantity Surveying, Construction Management, Engineering or a related field",
+    "MUST HAVE:  Ability to read and interpret plans and specifications",
+    "- Collaborating with project managers and other stakeholders to understand project requirements",
+    "Boone and Willard Plumbing has more than 70 years' experience across all sectors of residential, commercial & industrial construction with a reputation for providing high quality hydraulic services to a range of clients on projects throughout New South Wales and Queensland.",
+    "Apply Now!",
+    "If you're excited about this opportunity and believe you have the skills and experience to excel as a Junior/Trainee Estimator, we encourage you to apply now.",
+    "A competitive salary package is on offer for the right candidate and would be commensurate with relative experience and qualifications.",
+    "Applications should include a cover letter and be emailed to office@bnw.net.au with \"Junior Estimator Position\" as the subject heading."
+   ]
+  },
+  {
+   "id": "94718237",
+   "source": "seek",
+   "title": "Graduate Engineer",
+   "company": "Cathay Chung Yue Estate Pty Ltd",
+   "location": "Rhodes, Sydney NSW",
+   "url": "https://www.seek.com.au/job/94718237",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-18T02:43:23.312Z",
+   "expires_at": "2026-10-18T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How much notice are you required to give your current employer?",
+    "Do you have Engineering Drawing Interpretation experience?",
+    "Have you completed a qualification in mathematics / mathematical science?"
+   ],
+   "summary": "Graduate Engineer – Cost Estimating / Document Control",
+   "opening": "About the role\nCathay Chung Yue Estate Pty Ltd is seeking a talented Graduate Engineer to join our Civil/Structural Engineering team. This is an exciting opportunity to launch your engineering career with a dynamic organisation based in Rhodes NSW. As a full-time position, you will be working on-site as we develop the next generation of engineers within our growing business. This role offers hands-on experience across a range of civil and structural engineering projects, providing the perfect foundation for your professional development and progression within the industry.\nKey responsibilities\n·         Assist with preparation of cost estimates, quotations and tender submissions.\n·         Review architectural, structural and façade drawings, specifications and other tender documentation.\n·         Undertake quantity take-offs and material measurements from drawings and project documents",
+   "key_lines": [
+    "Cathay Chung Yue Estate Pty Ltd is seeking a talented Graduate Engineer to join our Civil/Structural Engineering team. This is an exciting opportunity to launch your engineering career with a dynamic organisation based in Rhodes NSW. As a full-time position, you will be working on-site as we develop the next generation of engineers within our growing business. This role offers hands-on experience across a range of civil and structural engineering projects, providing the perfect foundation for your professional development and progression within the industry.",
+    "·         Liaise with suppliers, subcontractors, consultants and internal project personnel to obtain required information.",
+    "·         Assist with preparation of variation and cost assessment documentation when required.",
+    "Required Qualifications & Skills",
+    "·         Minimum Bachelor’s degree in Civil, Structural, Mechanical, Construction or related Engineering.",
+    "·         0–2 years' experience; recent graduates are encouraged to apply.",
+    "·         Familiarity with AutoCAD or similar drawing software would be advantageous.",
+    "·         Previous internship or graduate experience in the construction or façade industry.",
+    "·         Experience with document control systems such as Aconex, Procore or similar platforms.",
+    "·  Work Arrangement: Primarily office-based, with occasional site visits as required.",
+    "·  A relevant degree qualification in Civil Engineering, Structural Engineering or a closely related engineering discipline",
+    "·  Recent graduate or early-career engineer with limited professional experience",
+    "·  A collaborative approach to working within teams and willingness to learn from experienced professionals",
+    "·  A current or eligible Professional Engineer in Training (PE) status, or willingness to pursue this qualification"
+   ]
+  },
+  {
+   "id": "94693966",
+   "source": "seek",
+   "title": "CAD Drafter / Production Programmer",
+   "company": "Advance Sheet Metal Pty Ltd",
+   "location": "Lonsdale, Adelaide SA",
+   "url": "https://www.seek.com.au/job/94693966",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-17T04:13:32.473Z",
+   "expires_at": "2026-10-17T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a CAD Draftsperson?",
+    "How much notice are you required to give your current employer?"
+   ],
+   "summary": "Transform plans into custom stainless steel builds. Work with workshop fabricators, and see your CAD designs come to life.",
+   "opening": "Join Our Team at Advance Sheet Metal!\n Are you experienced in CAD drafting or production programming and looking for an opportunity to apply your skills in a manufacturing environment? Advance Sheet Metal is growing, and we're looking for a capable CAD Drafter / Production Programmer to join our team. You'll work across a diverse range of custom stainless steel fabrication projects, with no two jobs exactly the same.\n About You\n- CAD/drafting experience: Confident using CAD or similar drafting software and producing accurate technical drawings.\n- High attention to detail: Precision and accuracy are crucial in this role.\n- Strong technical aptitude: Able to interpret plans, specifications, sketches and measurements and translate them into accurate production drawings.\n- Reliable and motivated: We value people who are dependable, take ownership of their work and contribute positively to th",
+   "key_lines": [
+    "Are you experienced in CAD drafting or production programming and looking for an opportunity to apply your skills in a manufacturing environment? Advance Sheet Metal is growing, and we're looking for a capable CAD Drafter / Production Programmer to join our team. You'll work across a diverse range of custom stainless steel fabrication projects, with no two jobs exactly the same.",
+    "- CAD/drafting experience: Confident using CAD or similar drafting software and producing accurate technical drawings.",
+    "- Manufacturing or fabrication experience beneficial: Previous experience in sheet metal, stainless steel, fabrication, engineering, joinery or a similar manufacturing environment would be advantageous, but is not essential.",
+    "- Programming for production: Preparing files and programs required for our manufacturing equipment and production processes.",
+    "- Liaising with manufacturing staff: Working closely with our fabricators to answer questions, resolve issues and ensure drawings are practical for manufacture.",
+    "- Supporting estimating and project delivery: Collaborating with our estimating and project teams to ensure drawings accurately reflect the required scope.",
+    "If you're an experienced CAD drafter or programmer with strong technical skills and you're looking for a varied role where you can work closely with the people actually manufacturing what you draw, we'd like to hear from you.",
+    "Apply now to join the Advance Sheet Metal team."
+   ]
+  },
+  {
+   "id": "94685120",
+   "source": "seek",
+   "title": "Wet & Dry Fire Designer / Drafter | Data Centre Projects | $110k-$130k + Super",
+   "company": "Atom Resources",
+   "location": "Sydney Olympic Park, Sydney NSW",
+   "url": "https://www.seek.com.au/job/94685120",
+   "work_type": "Full time",
+   "salary": "$145,000 + Package",
+   "listed_at": "2026-09-17T00:00:19.034Z",
+   "expires_at": "2026-10-17T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "How many years' experience do you have as a Fire Designer?",
+    "Which of the following CAD software do you have experience with?"
+   ],
+   "summary": "$110k-$130k + Super. Design Dry & Wet Fire systems on major Data Centre, commercial & industrial projects. AutoCAD, Revit, career growth.",
+   "opening": "Wet & Dry Fire Designer / Drafter\nSydney NSW\n$110,000 - $130,000 + Super\nWork on major Data Centre, Commercial & Industrial Projects | AutoCAD & Revit | Strong Career Growth\nDesign the next generation of Fire Protection systems.\nJoin a growing Fire Protection specialist delivering some of Australia's most complex and technically advanced projects across Data Centres, Commercial Buildings, Industrial Facilities and Critical Infrastructure.\nThis is an opportunity to move beyond standard Fire Protection projects and work on large-scale, mission-critical facilities where technical excellence, innovation and compliance are paramount.\nWith a strong pipeline of secured work and continued business growth, our client is seeking a talented Wet & Dry Fire Designer / Drafter to become a key member of their design team.\nWhat's On Offer\n - $110,000 - $130,000 + Super\n - Major Data Centre project expos",
+   "key_lines": [
+    "Work on major Data Centre, Commercial & Industrial Projects | AutoCAD & Revit | Strong Career Growth",
+    "- Modern AutoCAD and Revit environment",
+    "Working closely with Project Managers, Engineers and Construction Teams, you will be responsible for developing compliant Fire Protection designs and technical documentation throughout the project lifecycle.",
+    "- Prepare AutoCAD and Revit documentation",
+    "Skills & Experience",
+    "Industry Experience",
+    "- Fire Protection industry experience",
+    "- Dry Fire and/or Wet Fire design experience",
+    "- Experience producing compliant Fire Protection designs",
+    "- Understanding of Australian Standards and NCC requirements",
+    "- Data Centre project experience highly regarded",
+    "- AutoCAD",
+    "- Revit",
+    "Qualifications"
+   ]
+  },
+  {
+   "id": "94671188",
+   "source": "seek",
+   "title": "Structural Designer / Drafter",
+   "company": "Harris Kmon Solutions",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/94671188",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-16T06:52:48.392Z",
+   "expires_at": "2026-10-16T06:52:47.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Join a growing national consultancy in a role with genuine autonomy, strong team support and room to grow, while working across diverse projects.",
+   "opening": "Join a team that believes solving problems is their calling.Based in Brisbane, this is an exciting opportunity for an experienced Structural Designer / Drafter to join us at HK Solutions, a growing national engineering consultancy where your work will directly contribute to the successful delivery of structural projects across Australia.\nYou’ll take ownership of the drawing and documentation package on your projects, working closely with structural engineers and project managers to take designs from concept through to construction. This isn’t a role where you’ll simply be picking up redlines - you’ll be trusted to manage the drafting and modelling requirements of your projects, contribute your technical knowledge, and have genuine input into how structural solutions are developed and documented.\nWe’re looking for someone who wants to grow with the business, take on greater responsibility",
+   "key_lines": [
+    "Join a team that believes solving problems is their calling.Based in Brisbane, this is an exciting opportunity for an experienced Structural Designer / Drafter to join us at HK Solutions, a growing national engineering consultancy where your work will directly contribute to the successful delivery of structural projects across Australia.",
+    "You’ll take ownership of the drawing and documentation package on your projects, working closely with structural engineers and project managers to take designs from concept through to construction. This isn’t a role where you’ll simply be picking up redlines - you’ll be trusted to manage the drafting and modelling requirements of your projects, contribute your technical knowledge, and have genuine input into how structural solutions are developed and documented.",
+    "- Preparing detailed structural documentation and drawings using Revit 3D and AutoCAD",
+    "- Solid experience in structural design drafting and modelling",
+    "- Strong proficiency in Revit and AutoCAD",
+    "- Experience assisting with construction inspections and structural condition assessments is desirable",
+    "We are committed to creating an inclusive workplace where everyone feels respected, valued and able to do their best work. We welcome applications from people of diverse backgrounds, experiences and perspectives.",
+    "Click Apply Now to submit your resume and cover letter. Please also complete the pre-screening questions to assist us in assessing your application.",
+    "Applications will be reviewed as they are received, and the position may be filled before the closing date. We encourage interested candidates to apply early."
+   ]
+  },
+  {
+   "id": "94659564",
+   "source": "seek",
+   "title": "2027 Undergraduate Projects & Design Engineering Intern",
+   "company": "Cummins Inc",
+   "location": "Scoresby, Melbourne VIC",
+   "url": "https://www.seek.com.au/job/94659564",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-16T00:58:06.741Z",
+   "expires_at": "2026-10-16T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Mechanical, mechatronics or engineering students -  We are offering a 13-month full time or part time internship based in Scoresby",
+   "opening": "Our culture believes in POWERING YOUR POTENTIAL. We provide global opportunities to develop your career, make your community a better place and work with today’s most innovative thinkers to solve the world’s toughest problems. \nWe believe in flexibility for you to explore your passions while making an impact   through meaningful work within our inclusive workforce. That’s what #LifeAtCummins is all about.\nIf you are an undergraduate Mechanical, Mechatronics or Product Engineering student looking to jump start your career, we are offering a 13-month full time internship based at our Scoresby office . Our Scoresby office is offering rare 13-month full time Mechanical Engineering Internship opportunities commencing 27th January 2027 for current Mechanical, Mechatronics or Product Engineering students who are keen to utilise theoretical skills learnt in their degree and develop practical ski",
+   "key_lines": [
+    "If you are an undergraduate Mechanical, Mechatronics or Product Engineering student looking to jump start your career, we are offering a 13-month full time internship based at our Scoresby office . Our Scoresby office is offering rare 13-month full time Mechanical Engineering Internship opportunities commencing 27th January 2027 for current Mechanical, Mechatronics or Product Engineering students who are keen to utilise theoretical skills learnt in their degree and develop practical skills in the workforce.",
+    "In this role you will make an impact and gain experience in the following ways:",
+    "- Being part of a great team of experienced engineers working with internal and external customers across multiple departments.",
+    "- Gain hands-on assembly experience with engine power pack and packaged products.",
+    "To qualify for this undergraduate internship, it is essential that you:",
+    "- Are currently studying a degree in Mechanical, Mechatronic or Product Engineering, ideally in your 3rd or 4th year of study",
+    "- Have between 1 and 8 units of study left to complete of your undergraduate degree as of January 2027",
+    "Note: Applicants that do not meet these qualifying requirements unfortunately will not be considered.",
+    "- Drafting or CAD modelling skills (Solidworks, CREO, Inventor or AutoCAD).",
+    "- Outstanding interpersonal skills, a team work ethic and the ability to think and operate autonomously and independently when required.",
+    "This is a 13-month, full time or part time, paid placement and the successful candidate will be required to defer their studies for the duration of the program.",
+    "How to apply:",
+    "- In your cover letter, please specify how many units of study you have remaining on your undergraduate degree and your motivation behind applying both to Cummins and this specific internship.",
+    "Note: We will be unable to assess your application without all of the required documents, so please ensure you attach your resume, cover letter and academic transcripts at the time of application."
+   ]
+  },
+  {
+   "id": "94628038",
+   "source": "seek",
+   "title": "3D Sheetmetal Draftsperson",
+   "company": "A1 Custom Stainless and Kitchens P/L",
+   "location": "Burpengary, Brisbane QLD",
+   "url": "https://www.seek.com.au/job/94628038",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-14T22:45:43.584Z",
+   "expires_at": "2026-10-15T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as an AutoCAD Draftsperson?",
+    "How much notice are you required to give your current employer?"
+   ],
+   "summary": "Growing company with focus on work life balance looking for talented staff",
+   "opening": "Brisbane Laser Cutting Services is an Australian owned and operated business based in Brisbane's north-side suburb of Burpengary.\nWe are seeking an experienced 3D Draftsperson, with preference to Autodesk Inventor experience or a suitably qualified cadet to produce detailed drawings that include product dimensions, required materials and fabrication procedures. Preference will be given to applicants with a background in a laser cutting or a repetition manufacturing environment.\nRESPONSIBILITIES:\n- Use Autodesk Inventor or similar to draft designs, workshop drawings and building installation layouts.\n- Prepare workshop drawings for the factory based on supplied specifications and dimensions.\n- Liaise with stake holders in preparation and production of product and site specific detail drawings.\n- Liaise with factory staff in preparation and production of product drawings to assist with fab",
+   "key_lines": [
+    "We are seeking an experienced 3D Draftsperson, with preference to Autodesk Inventor experience or a suitably qualified cadet to produce detailed drawings that include product dimensions, required materials and fabrication procedures. Preference will be given to applicants with a background in a laser cutting or a repetition manufacturing environment.",
+    "ESSENTIAL SKILLS REQUIRED:",
+    "- Proficient use of 2D / 3D Modelling Software is essential.",
+    "- Experience in drafting, computer graphics or similar essential.",
+    "- Experience interpreting incoming drawings (Building Plans, Engineering Plans, etc.).",
+    "- Must be knowledgeable about current metal properties, standards and fabrication techniques.",
+    "NON-ESSENTIAL SKILLS (PREFERRED):",
+    "- At least 2 years related work experience is desirable."
+   ]
+  },
+  {
+   "id": "94919271",
+   "source": "seek",
+   "title": "Project Engineer",
+   "company": "Roam Pty Ltd",
+   "location": "Malaga, Perth WA",
+   "url": "https://www.seek.com.au/job/94919271",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-28T07:29:03.458Z",
+   "expires_at": "2026-10-28T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?"
+   ],
+   "summary": "Excellent opportunity for a Civil/Structural Project Engineer to join a high-performing team, working on a range of critical infrastructure projects.",
+   "opening": "Join Roam Engineering and help deliver critical power and telecommunications infrastructure\nWe are hiring a Structural Project Engineer to join our team.\nAbout Roam Engineering\nRoam Engineering is a family-owned Western Australian company with a strong reputation for delivering quality projects. We design, supply and construct steel structures for the power transmission and telecommunications sectors, including steel poles, lattice towers and guyed masts, together with their foundations. In-house design, fabrication and construction capability, gives us control over every stage of delivery.\nThe role\nAs a Project Engineer you will support Project Managers coordinate project delivery from design through fabrication to construction. You will start by supporting Project Managers on larger projects and progressively take full ownership of small to mid-sized projects. We are looking for someon",
+   "key_lines": [
+    "- Coordinate design, drafting, procurement and subcontractors to meet project requirements.",
+    "- 5+ years in an engineering role, including at least 3 years on structural, steel or foundation construction projects. A background in either design or construction will be considered.",
+    "Qualifications",
+    "Essential",
+    "- Bachelor of Civil and/or Structural Engineering (or equivalent qualification with relevant experience).",
+    "- Current driver's licence.",
+    "- Experience in power transmission, telecommunications or infrastructure projects.",
+    "- Mentoring from an experienced, engineering-led leadership team."
+   ]
+  },
+  {
+   "id": "94915487",
+   "source": "seek",
+   "title": "Building Cadet/ Admin",
+   "company": "MSS",
+   "location": "Berry, Wollongong, Illawarra & South Coast NSW",
+   "url": "https://www.seek.com.au/job/94915487",
+   "work_type": "Full time",
+   "salary": "$70,000 – $80,000 per year",
+   "listed_at": "2026-09-28T05:39:14.041Z",
+   "expires_at": "2026-10-28T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?"
+   ],
+   "summary": "Building Cadet | Trades person looking to move into project management or recent uni graduate | Berry, Southcoast",
+   "opening": "ABOUT THE BUSINESS \nMSS Group is a privately owned company that employs over 250 people in service delivery and specialist trades in Australia and New Zealand.\nOur in-house team of project managers, construction supervisors, site foremen and building tradespeople support your projects from start to finish. \nOur experience includes renovations, refurbishments, upgrades and expansions to property facilities in Aged Care, Retirement Living and other commercial properties. \nFor more information about the company visit our website: www.mssgroup.com.au/\nMSS CADET PROGRAM\nBuilding Cadet – Kickstart Your Project Management Career\n📍 Location: South Coast, Berry\n💼 Full-Time – Monday to Friday, 7:30 AM to 3:00 PM\n💰 $70,000–$90,000 + Super | Laptop, Phone, Uniform Provided\nAre you looking to take the next step in your construction career? Whether you're a qualified tradie ready to move into project ",
+   "key_lines": [
+    "Our experience includes renovations, refurbishments, upgrades and expansions to property facilities in Aged Care, Retirement Living and other commercial properties.",
+    "MSS CADET PROGRAM",
+    "Building Cadet – Kickstart Your Project Management Career",
+    "Are you looking to take the next step in your construction career? Whether you're a qualified tradie ready to move into project management, or a recent (or current) construction management student – this is the opportunity for you!",
+    "As a Building Cadet, you'll gain hands-on site experience, learning directly from experienced Project Managers. You’ll be exposed to both site supervision and project coordination – the perfect foundation for a long-term career in construction project management.",
+    "- A recent graduate or current student in Building and Construction Management",
+    "- Enforce safety protocols and ensure a safe working environment for both workers, sub-contractors, clients and residents.",
+    "REQUIREMENTS",
+    "A trade qualification and is looking to transition into site supervision or project management, OR",
+    "A Diploma or bachelor's degree in construction project management (or similar field).",
+    "Additional Requirements:",
+    "- Valid driver’s license",
+    "APPLY NOW"
+   ]
+  },
+  {
+   "id": "94855838",
+   "source": "seek",
+   "title": "Project Engineer",
+   "company": "Gulf Civil Pty Ltd",
+   "location": "Upper Mount Gravatt, Brisbane QLD",
+   "url": "https://www.seek.com.au/job/94855838",
+   "work_type": "Full time",
+   "salary": "$130,000 – $150,000 per year",
+   "listed_at": "2026-09-24T06:38:30.245Z",
+   "expires_at": "2026-10-24T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a project engineer?",
+    "How much notice are you required to give your current employer?",
+    "Do you have a current Australian driver's licence?",
+    "Do you have experience working in remote areas?"
+   ],
+   "summary": "Lead infrastructure projects with competitive pay, professional growth, and flexible work arrangements in a collaborative team environment.",
+   "opening": "Build the job, not just the paperwork.\nGulf Civil is a Queensland civil contractor delivering roads, surfacing, subdivisions, airstrips and community infrastructure from the south east to the far north, out west and into the Torres Strait. We're a business where engineers are trusted with real scope early, and the good ones move up.\nWe're looking for a Project Engineer who wants to be on site, understand how the job is actually built, and own the technical and commercial detail that makes a project run.\nWhat you'll own\n- Quality: ITPs, hold and witness points, lot registers, test requests and conformance - closed out before the crew moves on\n- Set-out and survey coordination, design queries and RFIs, and resolving drawing issues with the designer and the Superintendent\n- Program: build and update it with the PM, and flag slippage early with a recovery plan\n- Commercial support: quantitie",
+   "key_lines": [
+    "- Quality: ITPs, hold and witness points, lot registers, test requests and conformance - closed out before the crew moves on",
+    "- Handover: as-constructed records, quality packs and defects close-out",
+    "- A degree in civil engineering (or equivalent) and 4+ years' experience with a civil contractor",
+    "- Hands-on experience with ITPs, lot conformance and quality records on roads, drainage or earthworks projects",
+    "- TMR / MRTS experience, or council and subdivision work to AUS-SPEC or local standards",
+    "- Current Queensland driver licence and Construction White Card",
+    "- Willingness to travel and work away when the project requires it",
+    "How to apply",
+    "Hit Apply with your resume and a short note on two projects you've worked on your scope, the client, and one problem you solved on site.",
+    "Applicants must have unrestricted rights to work in Australia. Appointment is subject to a pre-employment medical and drug and alcohol screen."
+   ]
+  },
+  {
+   "id": "94852305",
+   "source": "seek",
+   "title": "Civil Engineer",
+   "company": "Forrest Engineering",
+   "location": "Miranda, Sydney NSW",
+   "url": "https://www.seek.com.au/job/94852305",
+   "work_type": "Full time",
+   "salary": "$80,000 – $90,000 per year",
+   "listed_at": "2026-09-24T05:06:46.256Z",
+   "expires_at": "2026-10-24T15:00:56.848Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Civil Engineer for residential and commercial engineering projects at established Sydney consultancy.",
+   "opening": "About the role\nAs a Civil Engineer at Forrest Engineering, you will work across a range of residential and commercial projects from initial assessment through to design, documentation and construction support. The role will involve reviewing project and site information, undertaking engineering calculations and design, preparing drawings and technical documentation, conducting site inspections, and providing engineering support throughout project delivery. You will work closely with senior engineers, clients, architects, builders, certifiers, consultants and contractors to develop practical, compliant and cost-effective engineering solutions.\nKey responsibilities\n- Prepare and review civil and structural engineering designs, calculations and drawings for residential and commercial projects.\n- Design and document foundations, slabs, footings, retaining structures and associated building c",
+   "key_lines": [
+    "As a Civil Engineer at Forrest Engineering, you will work across a range of residential and commercial projects from initial assessment through to design, documentation and construction support. The role will involve reviewing project and site information, undertaking engineering calculations and design, preparing drawings and technical documentation, conducting site inspections, and providing engineering support throughout project delivery. You will work closely with senior engineers, clients, architects, builders, certifiers, consultants and contractors to develop practical, compliant and cost-effective engineering solutions.",
+    "- Prepare and review civil and structural engineering designs, calculations and drawings for residential and commercial projects.",
+    "- Determine suitable construction methods, materials and engineering requirements in accordance with project specifications.",
+    "- Use AutoCAD and relevant engineering analysis and design software to prepare and assess engineering solutions.",
+    "- Prepare technical reports and project documentation and assist with estimates, schedules and quality requirements.",
+    "- Liaise with clients, builders, contractors, consultants and relevant authorities throughout project delivery, and undertake other related civil engineering duties as required.",
+    "- Bachelor of Engineering (Honours) in Civil Engineering, Bachelor of Civil Engineering, or an equivalent relevant engineering qualification.",
+    "- Minimum 2 years of relevant experience in civil, structural or building engineering, preferably within a consulting engineering environment.",
+    "- Experience working across residential and/or commercial engineering projects.",
+    "- Practical experience with engineering design, calculations, technical documentation and site inspections.",
+    "- Experience using CAD, 3D modelling and/or engineering analysis and design software.",
+    "- Current Australian driver licence and willingness to travel to project sites as required.",
+    "Forrest Engineering Pty Ltd is a Sydney-based engineering consultancy providing civil and structural engineering services across residential and commercial projects. The practice specialises in housing developments, retaining walls, custom residential design, foundation and slab solutions, and reinforced-concrete design and documentation for commercial projects. The business also undertakes site-specific engineering, Zone-of-Influence assessments, site investigations, forensic engineering and remedial building work, supported by 3D modelling and detailed engineering documentation.",
+    "- Work with an established engineering consultancy delivering residential and commercial structural and civil engineering projects."
+   ]
+  },
+  {
+   "id": "94851212",
+   "source": "seek",
+   "title": "Site Engineer",
+   "company": "CPB Contractors QLD & PNG",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/94851212",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-24T04:19:24.944Z",
+   "expires_at": "2026-10-24T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "CPB are seeking experienced Site Engineers to join our team, working on a technical, fast paced construction environment based in regional QLD",
+   "opening": "Site Engineer\nCPB Contractors is Australia’s leading contractor and the largest infrastructure construction company in our region. Part of the CIMIC Group, we are proud to be constructing Australia’s future and do so collaboratively with our partners and clients.\nWe hire for careers, not project life. CPB Contractors has more than 50 major infrastructure projects in delivery, across all key sectors of the construction industry, including roads and bridges, rail, tunnelling, defence, airports, buildings and resources, providing you with career opportunities for years to come.\nThe Project\nCPB is working on a major infrastructure project in regional Queensland, involving the construction and delivery of a large scale, highly technical facility. We are currently seeking experienced Site Engineers to join our project delivery team, working on a complex, fast paced construction environment.\nYo",
+   "key_lines": [
+    "We hire for careers, not project life. CPB Contractors has more than 50 major infrastructure projects in delivery, across all key sectors of the construction industry, including roads and bridges, rail, tunnelling, defence, airports, buildings and resources, providing you with career opportunities for years to come.",
+    "CPB is working on a major infrastructure project in regional Queensland, involving the construction and delivery of a large scale, highly technical facility. We are currently seeking experienced Site Engineers to join our project delivery team, working on a complex, fast paced construction environment.",
+    "As a Site Engineer, you will monitor the project plan, ensure upfront quality requirements are in place, resolve engineering issues, assist with the administration of subcontractors, complete and record quality inspections, ensure technical matters with the project are compliant and drive a zero-harm safety culture on site.",
+    "- Work closely with supervisors, subcontractors, consultants and suppliers to ensure works are delivered safely, to program and in accordance with project requirements",
+    "Our Minimum Requirements",
+    "- Tertiary qualification in Civil Engineering, Construction or a related discipline",
+    "- 3 years experience in a Site Engineer or similar engineering role within a construction or major infrastructure environment",
+    "- Strong understanding of engineering, construction, quality and safety requirements"
+   ]
+  },
+  {
+   "id": "94844819",
+   "source": "seek",
+   "title": "Site Engineer",
+   "company": "NRW Pty Ltd",
+   "location": "Perth WA",
+   "url": "https://www.seek.com.au/job/94844819",
+   "work_type": "Full time",
+   "salary": "Metro civil projects | Monday - Friday | Long-term",
+   "listed_at": "2026-09-24T01:34:27.836Z",
+   "expires_at": "2026-10-22T17:00:00.000Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Play a key role in delivering major metro projects across Perth. Bring your technical expertise, and Main Roads experience to a high-performing team.",
+   "opening": "Be part of a $200M Tonkin Highway Grade Separations Project. Upgrading Tonkin Highway between Hale Road and Welshpool Road East. The project includes widening the highway to six lanes, new bridges and underpasses, grade-separated interchanges, service relocations. Working on a Monday to Friday 5/2 roster, you'll enjoy the benefits of a metro-based role while contributing to projects that help shape Perth's future. Plus, you'll receive a 10% uplift while working onsite on our Metro Infrastructure projects.\nAs a Site Engineer, you'll work closely with Project Engineers, Supervisors and the wider project team to coordinate engineering activities, support project delivery and ensure works are completed safely, efficiently and to the highest quality standards.\nTo be considered for the position you will require:\n- Tertiary qualification in Civil Engineering or a related discipline.\n- Previous ",
+   "key_lines": [
+    "As a Site Engineer, you'll work closely with Project Engineers, Supervisors and the wider project team to coordinate engineering activities, support project delivery and ensure works are completed safely, efficiently and to the highest quality standards.",
+    "To be considered for the position you will require:",
+    "- Tertiary qualification in Civil Engineering or a related discipline.",
+    "- Previous experience as a Site Engineer within the civil or infrastructure industry.",
+    "- Experience in road, pavement or general civil infrastructure projects is highly regarded.",
+    "- Main Roads WA project experience is desirable.",
+    "- Experience using Microsoft Office Suite.",
+    "- Experience with Microsoft Project, Primavera P6 or similar project planning software is desirable.",
+    "- Current Australian Driver's Licence.",
+    "- Ensuring works are completed in accordance with project drawings, specifications and quality requirements.",
+    "- Providing technical support to Project Engineers and site teams as required.",
+    "With over 30 years of industry experience, our success is built on the capability of our people, our commitment to safety and our ability to consistently deliver outstanding results for our clients.",
+    "NRW is an Equal Opportunity Employer, and we strongly support diversity in our workforce. Applicants from a wide sector of the community including women and Indigenous cultures are encouraged to apply.",
+    "If you would like to be part of the high performing NRW team, APPLY NOW."
+   ]
+  },
+  {
+   "id": "94841039",
+   "source": "seek",
+   "title": "Trainee Traffic Signals Designer",
+   "company": "CEI Design Pty Ltd",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/94841039",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-23T23:08:49.897Z",
+   "expires_at": "2026-10-24T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a designer?",
+    "How much notice are you required to give your current employer?",
+    "Do you have experience in a sales role?",
+    "Do you have experience in a role which requires relationship management experience?"
+   ],
+   "summary": "Opportunity to join a Traffic Signals, Road Lighting, and Intelligent Transport Systems consultancy where your individual efforts will be rewarded!",
+   "opening": "Company Description\nCEI Design Pty Ltd specialises in traffic signals, road lighting and Intelligent Transport Systems (ITS) design and consulting for the road infrastructure industry. Our mission is to help create safe, efficient road networks through practical ITS and electrical infrastructure design.\nWe support projects across the planning, design, construction and operational phases. We are a small team of highly experienced professionals with backgrounds spanning government and private sector delivery, design, construction and operational roles.\nAbout the Opportunity\nWe’re seeking a Trainee Traffic Signals Designer with up to 2 years’ experience to join our small team where individual efforts are recognised and rewarded.\nAs a small, remote-first team, we rely on people who can manage their own time and take initiative to find solutions to problems. You won't be micromanaged, but you",
+   "key_lines": [
+    "We support projects across the planning, design, construction and operational phases. We are a small team of highly experienced professionals with backgrounds spanning government and private sector delivery, design, construction and operational roles.",
+    "We’re seeking a Trainee Traffic Signals Designer with up to 2 years’ experience to join our small team where individual efforts are recognised and rewarded.",
+    "You’ll work closely with senior leaders who will mentor you to accelerate your technical capability and consulting skills. This is a full-time, remote-first role. Occasional attendance at client meetings, team sessions and site inspections within South-East Queensland will be required.",
+    "- Up to 2 years’ experience in design, drafting, CAD documentation, technical drawing or a related field – specific traffic signals experience is not required.",
+    "- A current and valid Queensland Class C driver’s licence (or equivalent) for site inspections and field audits."
+   ]
+  },
+  {
+   "id": "94839091",
+   "source": "seek",
+   "title": "Civil Engineer – 4–7 Years’ Experience",
+   "company": "Elevate Structural Engineering",
+   "location": "Killarney Vale, Gosford & Central Coast NSW",
+   "url": "https://www.seek.com.au/job/94839091",
+   "work_type": "Full time",
+   "salary": "$90,000 – $120,000 per year",
+   "listed_at": "2026-09-23T18:56:04.067Z",
+   "expires_at": "2026-10-24T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a civil engineer?",
+    "How many years of experience do you have in the Civil Engineering Industry?"
+   ],
+   "summary": "Join a growing Central Coast consultancy with diverse civil projects, senior mentorship, bonus opportunities and genuine career progression.",
+   "opening": "Civil Engineer – 4–7 Years’ Experience\nElevate Engineering Consultants | Killarney Vale, Central Coast NSW | Full-Time\nElevate Engineering Consultants is a growing structural and civil engineering consultancy based in Killarney Vale on the Central Coast, providing engineering services across the Central Coast, Newcastle, Hunter and Sydney regions.\nDue to continued growth in our civil department, we are looking for an experienced Civil Engineer with approximately 4–7 years’ consulting experience to join our team.\nThe successful applicant will work directly under our Principal Civil Engineer, who has over 20 years of industry experience, while also having the support of a Civil Drafter.\nThis is a hands-on engineering role. While drafting support will be available, strong AutoCAD and Civil 3D skills are critical, as the successful applicant will be expected to prepare and modify some of the",
+   "key_lines": [
+    "Civil Engineer – 4–7 Years’ Experience",
+    "Due to continued growth in our civil department, we are looking for an experienced Civil Engineer with approximately 4–7 years’ consulting experience to join our team.",
+    "The successful applicant will work directly under our Principal Civil Engineer, who has over 20 years of industry experience, while also having the support of a Civil Drafter.",
+    "This is a hands-on engineering role. While drafting support will be available, strong AutoCAD and Civil 3D skills are critical, as the successful applicant will be expected to prepare and modify some of their own drawings and documentation where required.",
+    "The role will primarily involve the preparation and management of civil engineering designs for residential and commercial developments, including:",
+    "- New residential dwellings",
+    "- Preparation and modification of your own CAD drawings where required",
+    "- Has approximately 4–7 years’ experience as a Civil Engineer, preferably within an Australian engineering consultancy",
+    "- Has experience working on similar projects on the Central Coast and/or surrounding NSW areas",
+    "- Has strong experience in stormwater management and drainage design",
+    "- Has experience with Section 138 applications and Council approvals",
+    "- Has experience preparing civil documentation for DA, CC and CDC applications",
+    "- Has strong AutoCAD and Civil 3D skills – this is essential",
+    "- Is comfortable preparing and modifying their own civil drawings when required"
+   ]
+  },
+  {
+   "id": "94837948",
+   "source": "seek",
+   "title": "Site Engineer",
+   "company": "THE BMD GROUP",
+   "location": "Port of Brisbane, Brisbane QLD",
+   "url": "https://www.seek.com.au/job/94837948",
+   "work_type": "Full time",
+   "salary": "Base + Super + Laptop + Phone",
+   "listed_at": "2026-09-23T14:17:08.529Z",
+   "expires_at": "2026-10-24T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Build your career at BMD, with a diverse range of work, located in one of Australia’s booming development regions in South East Queensland.",
+   "opening": "About BMD\nBMD is Australia’s leading integrated engineering, construction and urban development business. As the largest privately owned civil contractor in Australia, BMD is at the forefront of excellence, with a growing international footprint extending to the Philippines and the United Kingdom.\nDriven by a purpose of powering futures and creating enduring legacies, we deliver complex infrastructure solutions that connect and transform communities. For over 45 years, our diverse portfolio of projects and roles provides exceptional opportunities for our people to grow and make a lasting impact. As part of our team, you’ll help deliver challenging projects, supported by leadership within an inclusive people-first culture.\nAbout the role \nWe are looking for a Site Engineer to join BMD Urban team, based in Brisbane. You will draw on your demonstrated site and engineering experience, to:\n- ",
+   "key_lines": [
+    "Driven by a purpose of powering futures and creating enduring legacies, we deliver complex infrastructure solutions that connect and transform communities. For over 45 years, our diverse portfolio of projects and roles provides exceptional opportunities for our people to grow and make a lasting impact. As part of our team, you’ll help deliver challenging projects, supported by leadership within an inclusive people-first culture.",
+    "We are looking for a Site Engineer to join BMD Urban team, based in Brisbane. You will draw on your demonstrated site and engineering experience, to:",
+    "- Work closely with site supervisors to provide engineering and technical support",
+    "- Provide innovative solutions to complex challenges and strive towards safety, environmental, specification, design and contractual requirements",
+    "- Manage the quality assurance of works and oversee procurement requirements.",
+    "- Tertiary qualification in Civil Engineering",
+    "- Experience with reputable local contractors working on civil construction projects ranging in value."
+   ]
+  },
+  {
+   "id": "94832299",
+   "source": "seek",
+   "title": "Site Engineer",
+   "company": "RJV",
+   "location": "Perth WA",
+   "url": "https://www.seek.com.au/job/94832299",
+   "work_type": "Full time",
+   "salary": "No",
+   "listed_at": "2026-09-23T08:26:22.802Z",
+   "expires_at": "2026-10-23T07:26:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a site engineer?",
+    "Do you have a valid WA drivers licence?"
+   ],
+   "summary": "We are seeking experienced Site Engineers to join our growing team.",
+   "opening": "Founded in 1955, RJV are a leading civil engineering contracting company in WA. Over time we have established an excellent reputation and a strong presence in the Civil Construction and Mining industry. We believe that our success is driven by our people and are committed to setting industry standards.  \n We are seeking experienced Site Engineers to join our growing team! Reporting to the Project Manager, this role presents a great opportunity to work within an experienced team to broaden your skills within the Civil Construction industry.\n Our current portfolio comprises Bulk Earthworks, Land Development and Civil Infrastructure in the Perth metro area.  You will work with the Project team, supervisor and business stakeholders to deliver successful project and company outcomes.\nAccountabilities of the role:\n - Be familiar with Engineering Drawings and Specifications to provide specific ",
+   "key_lines": [
+    "We are seeking experienced Site Engineers to join our growing team! Reporting to the Project Manager, this role presents a great opportunity to work within an experienced team to broaden your skills within the Civil Construction industry.",
+    "- Establish inspection and test plans and other essential Quality Assurance obligations.",
+    "- Actively identify changes to Project Scope or other Variation opportunities, measure and price these Variations and report back to the Project Manager or Engineer as required.",
+    "Skills & Requirements:",
+    "- Engineering Degree (Civil preferred).",
+    "- WA Drivers Licence (manual preferred).",
+    "- Experience with Microsoft Office.",
+    "If you are interested in this position, please forward a current CV outlining your skills and experience for consideration."
+   ]
+  },
+  {
+   "id": "94827833",
+   "source": "seek",
+   "title": "Graduate Project Engineer",
+   "company": "Assa Abloy Entrance Systems Australia Pty Ltd",
+   "location": "Landsdale, Perth WA",
+   "url": "https://www.seek.com.au/job/94827833",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-23T06:57:24.180Z",
+   "expires_at": "2026-10-23T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a project engineer?",
+    "How much notice are you required to give your current employer?"
+   ],
+   "summary": "You will be working alongside our Production Engineer, and involved in all stages of project delivery.",
+   "opening": "Graduate Project Engineer\n📍 Landsdale, WA\nLaunch Your Engineering Career with a Global Industry Leader\nRecently completed your Mechanical Engineering degree, or about to graduate? Ready to take what you've learned at university and apply it in the real world?\nAt ASSA ABLOY Entrance Systems, you'll gain hands-on experience across engineering, manufacturing, project delivery and construction while working alongside experienced professionals who will support your development. This is an outstanding opportunity to build your technical skills, get involved in exciting projects and see your work come to life from design through to installation.\nWhat We Do\nASSA ABLOY Entrance Systems designs and manufactures high-quality roller shutter and door solutions for commercial and industrial applications. As a global leader in access solutions, we're committed to innovation, safety and developing the n",
+   "key_lines": [
+    "Graduate Project Engineer",
+    "Recently completed your Mechanical Engineering degree, or about to graduate? Ready to take what you've learned at university and apply it in the real world?",
+    "At ASSA ABLOY Entrance Systems, you'll gain hands-on experience across engineering, manufacturing, project delivery and construction while working alongside experienced professionals who will support your development. This is an outstanding opportunity to build your technical skills, get involved in exciting projects and see your work come to life from design through to installation.",
+    "✅ Receive mentoring from experienced engineers",
+    "✅ Gain exposure to AutoCAD, SolidWorks and project delivery",
+    "We're looking for a motivated graduate who is eager to learn, enjoys solving problems and wants to build a long-term career in project engineering.",
+    "- Exposure to AutoCAD and/or SolidWorks",
+    "If you're looking for a role that offers hands-on experience, professional development and the opportunity to work on real projects from day one, we'd love to hear from you.",
+    "Engineering graduates and final-year students are encouraged to apply."
+   ]
+  },
+  {
+   "id": "94795555",
+   "source": "seek",
+   "title": "Junior Estimator/Administrative Assistant",
+   "company": "Flush Partitions",
+   "location": "Sunshine West, Melbourne VIC",
+   "url": "https://www.seek.com.au/job/94795555",
+   "work_type": "Full time",
+   "salary": "$60,000 – $65,000 per year",
+   "listed_at": "2026-09-22T05:10:00.345Z",
+   "expires_at": "2026-10-22T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "How many years of estimating experience do you have?",
+    "How many years' experience do you have in the construction industry?",
+    "Do you have experience in administration?",
+    "Do you have customer service experience?",
+    "Which of the following statements best describes your right to work in Australia?",
+    "Which of the following Microsoft Office products are you experienced with?",
+    "What's your expected annual base salary?",
+    "How much notice are you required to give your current employer?"
+   ],
+   "summary": "Join Flush Partitions Australia as a Junior Estimator/Administration Assistant. ",
+   "opening": "Junior Estimator/Administrative Assistant\nFlush Partitions Australia is a locally owned company dedicated to providing manufacturing and installation services to the Australian building and construction industry. We are currently seeking a Junior Estimator/Administrative Assistant to join our team in Sunshine, Victoria. This role is perfect for someone with a passion for the industry, looking to develop their skills and grow with a growing company.\nNote: This is an entry level role with full training provided. \nSkills and Experience\n- Strong analytical and problem-solving skills \n- Excellent attention to detail \n- Ability to read and interpret architectural and engineering drawings \n- Proficient in Excel and other Microsoft Office 365 products\n- Strong communication and interpersonal skills \n- Ability to work independently and as part of a team \n- Excellent time management and organizati",
+   "key_lines": [
+    "Junior Estimator/Administrative Assistant",
+    "Flush Partitions Australia is a locally owned company dedicated to providing manufacturing and installation services to the Australian building and construction industry. We are currently seeking a Junior Estimator/Administrative Assistant to join our team in Sunshine, Victoria. This role is perfect for someone with a passion for the industry, looking to develop their skills and grow with a growing company.",
+    "Skills and Experience",
+    "Collaborate with Project Managers to coordinate projects and provide technical information to customers as required",
+    "Provide support to the sales team as required",
+    "Apply today with a cover letter and resume via seek or to craigkelly@flushpartitions.com.au"
+   ]
+  },
+  {
+   "id": "94792962",
+   "source": "seek",
+   "title": "Project Engineer",
+   "company": "Core Talent",
+   "location": "Sydney NSW",
+   "url": "https://www.seek.com.au/job/94792962",
+   "work_type": "Full time",
+   "salary": "$120,000 - $145,000 & Super & Vehicle",
+   "listed_at": "2026-09-22T03:35:05.647Z",
+   "expires_at": "2026-10-22T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Project Engineers wanted for Sydney’s leading Tier 2/3 civil contractors. Major projects, career growth and long-term opportunities.",
+   "opening": "Project Engineer \nSydney, NSW \nCore Talent are currently working with a number of established Tier 2 and Tier 3 civil contractors operating across Sydney and nationally, who are looking to appoint experienced Project Engineers to their growing project teams.\nThese are genuine opportunities to join well-established businesses delivering a diverse range of civil infrastructure and building-related civil works across Sydney.\nDepending on the project and contractor, your experience may include:\n- Bulk earthworks and detailed excavation\n- Stormwater drainage and hydraulic infrastructure\n- Road construction and pavement works\n- Kerb and gutter\n- FRP / concrete structures\n- Piling and groundworks\n- Deep excavation and basement construction\n- Retaining structures and associated civil works\n- General civil infrastructure and enabling works\nYou’ll work closely with Project Managers, Site Managers,",
+   "key_lines": [
+    "Core Talent are currently working with a number of established Tier 2 and Tier 3 civil contractors operating across Sydney and nationally, who are looking to appoint experienced Project Engineers to their growing project teams.",
+    "Depending on the project and contractor, your experience may include:",
+    "You’ll work closely with Project Managers, Site Managers, subcontractors and consultants, taking ownership of engineering, project delivery, commercial outcomes and technical coordination.",
+    "We’re looking for experienced Project Engineers with proven Australian civil construction experience, ideally within the Tier 2 / Tier 3 contractor market.",
+    "- Proven experience as a Project Engineer within Australian civil construction",
+    "- Previous experience working for a Tier 2 or Tier 3 contractor",
+    "- A valid Australian driver's licence",
+    "- Supportive project teams and experienced leadership",
+    "Apply now with your CV, or contact Megan Thomas at Core Talent on 0422 180 923 for a confidential chat about your experience, and the market."
+   ]
+  },
+  {
+   "id": "94790271",
+   "source": "seek",
+   "title": "Civil Engineer - TSF Construction | 8/6 FIFO Roster",
+   "company": "PERSOL",
+   "location": "Perth WA",
+   "url": "https://www.seek.com.au/job/94790271",
+   "work_type": "Full time",
+   "salary": "$60-$78 PH + Super ",
+   "listed_at": "2026-09-22T02:34:11.627Z",
+   "expires_at": "2026-10-22T02:34:09.000Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Civil Engineer - TSF Construction | 8/6 FIFO Roster",
+   "opening": "PERSOL Australia is one of Australia's largest and longest serving recruitment providers. Delivering both quality temporary and permanent options, we specialise in the recruitment of Engineering, Technical and Office Support talent.\nWe are currently seeking an experienced Civil Engineer to join a Tailings Storage Facility (TSF) Construction team within a major mining operation.\nThis position will provide onsite civil engineering and construction support across ongoing TSF construction and maintenance activities, including dam wall construction, bulk earthworks, tailings distribution infrastructure and water recovery systems.\nThe Opportunity\nReporting to the Superintendent - Construction, you will work closely with mining, processing, HSE, contractors, consultants, designers and equipment suppliers to support the safe and effective delivery of TSF construction activities.\nThe role will ha",
+   "key_lines": [
+    "We are currently seeking an experienced Civil Engineer to join a Tailings Storage Facility (TSF) Construction team within a major mining operation.",
+    "Reporting to the Superintendent - Construction, you will work closely with mining, processing, HSE, contractors, consultants, designers and equipment suppliers to support the safe and effective delivery of TSF construction activities.",
+    "- Liaise with mining teams regarding waste rock and construction material requirements",
+    "- Participate in engineering risk reviews and ensure actions are appropriately closed out",
+    "- Verify contractor, consultant and vendor deliverables against project and statutory requirements",
+    "- Support additional civil construction activities where required",
+    "- 5+ years' experience within Civil Engineering, construction or similar project roles",
+    "- Mining Experience preferred, not essential",
+    "- Degree in Civil Engineering preferred",
+    "- Strong civil and geotechnical project experience",
+    "- Demonstrated experience across large-scale bulk earthworks highly regarded",
+    "- Construction and project management experience is essential",
+    "- Experience coordinating contractors, consultants and multidisciplinary stakeholders",
+    "- Current C Class Driver's Licence"
+   ]
+  },
+  {
+   "id": "94697602",
+   "source": "seek",
+   "title": "Junior Estimator - Residential Construction",
+   "company": "Forma Homes",
+   "location": "Myaree, Perth WA",
+   "url": "https://www.seek.com.au/job/94697602",
+   "work_type": "Full time",
+   "salary": "$70 – $90,000 per year",
+   "listed_at": "2026-09-17T06:00:16.619Z",
+   "expires_at": "2026-10-17T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a Residential Construction Estimator?"
+   ],
+   "summary": "Experienced Scheduler ready for your next step? Join Forma Homes as a Junior Estimator and build your career with a growing WA builder.",
+   "opening": "About Forma Homes\nForma Homes is a growing residential construction company based in Western Australia, with a vision to make homeownership easier. Backed by one of the largest and financially stable building groups in WA, we combine the energy and opportunity of a growing business with the strength, systems, and experience of an established group.\nAs we continue our sustainable growth, we are looking for a Junior Estimator to join our team. This is an ideal opportunity for an experienced Scheduler who is ready to take the next step into Estimating and build a long-term career with us.\nIf the following excites you, this could be the opportunity for you:\n- Be an integral part of a fast-growing residential building business.\n- Work within a supportive and collaborative team.\n- Join a high-performance culture that recognises your contributions.\n- Develop your estimating skills and advance y",
+   "key_lines": [
+    "Forma Homes is a growing residential construction company based in Western Australia, with a vision to make homeownership easier. Backed by one of the largest and financially stable building groups in WA, we combine the energy and opportunity of a growing business with the strength, systems, and experience of an established group.",
+    "As we continue our sustainable growth, we are looking for a Junior Estimator to join our team. This is an ideal opportunity for an experienced Scheduler who is ready to take the next step into Estimating and build a long-term career with us.",
+    "- Be an integral part of a fast-growing residential building business.",
+    "In this position, you will work closely with our Estimating and Scheduling Managers to enhance your estimating capabilities while supporting the accurate costing and delivery of our residential building projects. Your responsibilities will include:",
+    "- Preparing sales estimates and costings for single-storey residential homes, including custom designs.",
+    "- Determining site costs and site-specific building requirements.",
+    "This role is particularly suited for an experienced residential construction Scheduler who has developed a strong understanding of building costs, materials, and processes and is now ready to transition into Estimating. To be successful, you will ideally possess:",
+    "- A minimum of 3 years of residential construction scheduling experience.",
+    "- A strong understanding of residential construction methods and processes.",
+    "- Experience with construction estimating or scheduling software.",
+    "- Exposure to estimating across a growing residential building portfolio.",
+    "If you’re an experienced Scheduler looking for the opportunity to transition into Estimating, we would love to hear from you.",
+    "Apply today and take the next step in your residential construction career with Forma Homes."
+   ]
+  },
+  {
+   "id": "94694290",
+   "source": "seek",
+   "title": "Civil Project Engineer",
+   "company": "Civil & Tunnel Pty Ltd",
+   "location": "Sydney NSW",
+   "url": "https://www.seek.com.au/job/94694290",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-17T04:22:02.046Z",
+   "expires_at": "2026-10-17T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a Civil Project Engineer?",
+    "How much notice are you required to give your current employer?",
+    "Do you have a current Australian driver's licence?"
+   ],
+   "summary": "Experienced Civil Project Engineer for infrastructure projects in Sydney.",
+   "opening": "About the role\nWe are seeking an experienced and motivated Civil Project Engineer to join our team and play a key role in the successful delivery of civil infrastructure projects. This is a hands-on position suited to an engineer who enjoys working both on-site and in the office, with responsibility across project planning, cost control, procurement, quality, safety, documentation and day-to-day project coordination.\nKey responsibilities\n- Review and interpret contracts, plans, specifications and project scopes.\n- Attend project sites, coordination meetings and management meetings.\n- Assist with project planning, programming, budgeting, forecasting and cost control.\n- Prepare project documentation, including Safe Work Method Statements (SWMS), work methodologies and project packs.\n- Prepare and maintain WHS, Quality Assurance and Environmental documentation.\n- Complete material take-offs",
+   "key_lines": [
+    "We are seeking an experienced and motivated Civil Project Engineer to join our team and play a key role in the successful delivery of civil infrastructure projects. This is a hands-on position suited to an engineer who enjoys working both on-site and in the office, with responsibility across project planning, cost control, procurement, quality, safety, documentation and day-to-day project coordination.",
+    "- Assist with surveying and setting out works as required.",
+    "- Bachelor's degree in Civil Engineering.",
+    "- Minimum 5 years relevant work experience.",
+    "- Experience with sewer, water, drainage and electrical infrastructure. Sydney Water project",
+    "experience will be highly regarded.",
+    "- Strong understanding of civil construction methodologies, project documentation and contract requirements.",
+    "- Experience with project costing, procurement, progress claims and variations.",
+    "- Current Australian driver's licence.",
+    "- Competitive remuneration based on experience and capability.",
+    "- The opportunity to work closely with experienced management and project teams.",
+    "Apply Now",
+    "If you are an experienced Civil Project Engineer looking for a role where you can take ownership of projects and make a genuine contribution to project outcomes, we would like to hear from you.",
+    "Apply now with your resume and a brief cover letter outlining your relevant experience to: mark@civilandtunnel.com.au"
+   ]
+  },
+  {
+   "id": "94680753",
+   "source": "seek",
+   "title": "Junior Industrial Designer",
+   "company": "Newmat Australia",
+   "location": "Artarmon, Sydney NSW",
+   "url": "https://www.seek.com.au/job/94680753",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-16T19:22:48.594Z",
+   "expires_at": "2026-10-17T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as an Industrial Designer?",
+    "How much notice are you required to give your current employer?",
+    "Do you have Schematic Design experience?"
+   ],
+   "summary": "Recent graduate industrial designer to join design team developing light boxes and ceiling solutions.",
+   "opening": "About the role\nWe're looking for a recent graduate (or final-year student) in industrial design to join our design team. You'll work alongside our senior designers and production staff on real projects from day one, helping turn architects' briefs into buildable light boxes and ceiling solutions.\nKey responsibilities\n- Developing designs from concept sketches through to production-ready drawings\n- Modelling light box frames, profiles and assemblies in Rhino and SolidWorks\n- Producing layouts, presentation drawings and fabric artwork in Illustrator\n- Working through design details with our manufacturing team to make sure what we draw is what gets made\n- Assisting with prototyping, material sampling and testing\nAbout you\n- A degree in Industrial Design (or about to complete one)\n- Working knowledge of Illustrator, Rhino and SolidWorks\n- A good eye for detail and proportion, and an interest",
+   "key_lines": [
+    "We're looking for a recent graduate (or final-year student) in industrial design to join our design team. You'll work alongside our senior designers and production staff on real projects from day one, helping turn architects' briefs into buildable light boxes and ceiling solutions.",
+    "- A degree in Industrial Design (or about to complete one)",
+    "- Any workshop or fabrication experience is a bonus, not a requirement",
+    "- Mentoring from experienced designers in a supportive, close-knit team"
+   ]
+  },
+  {
+   "id": "94666467",
+   "source": "seek",
+   "title": "Draftsperson",
+   "company": "De Nada Surveys",
+   "location": "Osborne Park, Perth WA",
+   "url": "https://www.seek.com.au/job/94666467",
+   "work_type": "Full time",
+   "salary": "$80,000 – $95,000 per year",
+   "listed_at": "2026-09-16T04:19:44.016Z",
+   "expires_at": "2026-10-16T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a draftsperson?",
+    "How much notice are you required to give your current employer?",
+    "What's your highest level of education?",
+    "Do you have experience using AutoCAD Civil 3D?",
+    "Have you completed a qualification in engineering drafting / engineering design?"
+   ],
+   "summary": "Work with our Surveyors to prepare accurate cadastral, feature and as-constructed drawings from survey field data using AutoCAD and relevant software",
+   "opening": "Survey Draftsperson\nDe Nada Surveys is a well-established cadastral and multi-disciplined engineering surveying company with a reputation for building strong working relationships with our clients and consistently delivering quality outcomes across a range of projects.\nWith our head office in Osborne Park, Western Australia, and offices in the South West of WA, Weipa in Queensland, and Darwin and Gove in the Northern Territory, De Nada Surveys has continued to grow and expand our operations across Australia.\nWe are now looking for an experienced Survey Draftsperson to join our Perth team.\nThe Opportunity\nWe are seeking a skilled and motivated Survey Draftsperson to work closely with our team of Cadastral Surveyors to produce high-quality drawings and plans that accurately reflect information provided.\nThe successful applicant will be responsible for translating field data into legally co",
+   "key_lines": [
+    "We are now looking for an experienced Survey Draftsperson to join our Perth team.",
+    "We are seeking a skilled and motivated Survey Draftsperson to work closely with our team of Cadastral Surveyors to produce high-quality drawings and plans that accurately reflect information provided.",
+    "The successful applicant will be responsible for translating field data into legally compliant cadastral plans. Your primary responsibilities will involve utilising AutoCAD and the NLR-Plan Surveyor Portal to prepare compliant and error-free plans for lodgement at Landgate.",
+    "The role will also involve translating field data into accurate and high-quality feature and as-constructed plans that comply with project and client requirements.",
+    "- Prepare legally compliant survey plans (Deposited Plans, Strata/Survey-Strata, and Interest Only Plans) using AutoCAD and the NLR Portal.",
+    "- Process and present survey data in accordance with project and client requirements.",
+    "- Work closely with Surveyors to interpret survey information and resolve drafting issues.",
+    "- Review drawings for accuracy, consistency and compliance with project requirements.",
+    "You will have the opportunity to further develop your technical drafting skills while working alongside experienced Surveyors and gaining exposure to a broad range of surveying disciplines and projects.",
+    "- Minimum 2 years' experience in Survey Drafting, with specialised Cadastral experience.",
+    "- Advanced working knowledge of AutoCAD, Civil 3D and the Landgate NLR Portal.",
+    "- Ability to adapt to client requirements and respond positively to feedback.",
+    "A qualification in Drafting, Engineering, Surveying or a related discipline will be highly regarded, but is not essential where relevant industry experience can be demonstrated.",
+    "De Nada Surveys is an equal opportunity employer. We are committed to diversity in the workplace and encourage Indigenous, female and multicultural applicants to apply."
+   ]
+  },
+  {
+   "id": "94641919",
+   "source": "seek",
+   "title": "Junior Estimator",
+   "company": "Sami Strategy Co.",
+   "location": "Chadstone, Melbourne VIC",
+   "url": "https://www.seek.com.au/job/94641919",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-15T06:44:14.237Z",
+   "expires_at": "2026-10-15T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as an Estimator?",
+    "How much notice are you required to give your current employer?",
+    "Do you have experience preparing and submitting tenders?"
+   ],
+   "summary": "Sami Strategy Co. seeks for a Junior level Estimator to join our team. ",
+   "opening": "About us\nSami Strategy Co. is a fast-growing start up organisation based in Melbourne, providing services that includes construction estimating, tender preparation and negotiation, contract administration and project management, tailoring to the unique needs of each client. \nWe partner with subcontractors, builders, developers, homeowners, and owners corporations to deliver projects with clarity, confidence, and integrity. We help our clients win work, reduce risk, control budgets, and meet deadlines so they can focus on what they do best. \nThe Opportunity\nWe're looking for an estimator with a few years behind them who’s driven and passionate about construction. \nBecause we're small, you’ll gain a range of experience. You'll carry your own tenders, deal directly with clients and builders, and see projects through past award. You’ll be working closely with our directors, pricing jobs to w",
+   "key_lines": [
+    "We're looking for an estimator with a few years behind them who’s driven and passionate about construction.",
+    "Because we're small, you’ll gain a range of experience. You'll carry your own tenders, deal directly with clients and builders, and see projects through past award. You’ll be working closely with our directors, pricing jobs to win, negotiating and also seeing what happens to that estimate once the job starts.",
+    "- Liaise and coordinate several offshore estimators/engineers and provide training as required",
+    "Essential requirements:",
+    "- 2-3+ years’ experience in residential or commercial estimating within the building and construction industry",
+    "- Current driver licence and own transport for site visits",
+    "Desirable requirements:",
+    "- Project coordination experience",
+    "- Formal qualifications in construction management, quantity surveying, architecture, engineering are welcome, but not essential.",
+    "How to apply:",
+    "Submit your resume and cover letter detailing your experience and why you’d be a great fit for Sami Strategy Co."
+   ]
+  },
+  {
+   "id": "94630782",
+   "source": "seek",
+   "title": "Cadet Estimator",
+   "company": "Frontline Construction ACT",
+   "location": "Kirrawee, Sydney NSW",
+   "url": "https://www.seek.com.au/job/94630782",
+   "work_type": "Full time",
+   "salary": "$60000 - $80000 Plus Super",
+   "listed_at": "2026-09-15T00:53:59.976Z",
+   "expires_at": "2026-10-14T23:52:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "This is an entry-level opportunity for someone genuinely interested in building a career in construction",
+   "opening": "About the Role \nWe are seeking a motivated Pre-Construction Cadet Estimator to join a growing construction business specialising in insulation, sheetmetal and passive fire services across Sydney.\n This is an entry-level opportunity for someone genuinely interested in building a career in construction. Working alongside experienced Estimators and Project Managers, you’ll develop practical skills across estimating, pre-construction and project coordination.\nKey Responsibilities - Assist with pre-construction activities and project coordination.\n - Review plans and project requirements and assist with preparing quotations.\n - Assist with material take-offs, quantities, labour costs and pricing.\n - Research and source material pricing.\n - Prepare scopes of work and cost breakdowns for client quotations.\n - Coordinate project documentation, including SWMS, registers and inductions.\n - Maintai",
+   "key_lines": [
+    "We are seeking a motivated Pre-Construction Cadet Estimator to join a growing construction business specialising in insulation, sheetmetal and passive fire services across Sydney.",
+    "This is an entry-level opportunity for someone genuinely interested in building a career in construction. Working alongside experienced Estimators and Project Managers, you’ll develop practical skills across estimating, pre-construction and project coordination.",
+    "- Review plans and project requirements and assist with preparing quotations.",
+    "- Ensure work complies with Australian Standards, NCC requirements and manufacturer specifications.",
+    "Key Skills & Experience - Genuine interest in the construction industry, particularly insulation, sheetmetal or passive fire.",
+    "- Previous construction, estimating, administration or project coordination experience is advantageous.",
+    "- A relevant Construction Management or Quantity Surveying qualification is desirable but not essential.",
+    "- Training and mentoring from experienced industry professionals.",
+    "You’ll have the opportunity to learn from experienced industry professionals, develop your estimating skills and build a long-term career within the construction industry."
+   ]
+  }
+ ]
+}

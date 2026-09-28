@@ -228,15 +228,26 @@ def publish(run_id, only=None, go=False):
     return result
 
 
+def already_held(company, idx):
+    """One hold per employer: a second advert from a company that already has a HELD record adds nothing for Marc to decide."""
+    key = tracker.company_key(company)
+    return any(str(p.get('status', '')).startswith(STATUSES['held_prefix']) for k, rows in idx['company'].items() if tracker.same_company(k, key) for p in rows)
+
+
 def publish_held(run_id):
     run, cands, screens, contacts, drafts = load_run(run_id)
-    recs = []
+    _, state = tracker.get_state(); idx = tracker.dedupe_index(state)
+    recs, skipped = [], []
     for sid, screen in sorted(screens.items()):
         if sid in drafts or screen.get('percent', 0) < CONFIG['fit']['threshold_percent']:
             continue
         if screen.get('open') and not screen.get('mandatory_unmet') and not screen.get('mandatory_unresolved'):
             continue
+        company = screen.get('company') or cands.get(sid, {}).get('company')
+        if already_held(company, idx) or any(tracker.same_company(tracker.company_key(r['company']), tracker.company_key(company)) for r in recs):
+            skipped.append({'seek_id': sid, 'company': company, 'why': 'employer already has a held record'}); continue
         recs.append(held_record(run_id, cands.get(sid, {}), screen))
+    write_json(run / 'held_skipped.json', skipped)
     write_json(run / 'held.json', recs)
     return tracker.add_records(recs) if recs else {'unchanged': True, 'held': 0}
 

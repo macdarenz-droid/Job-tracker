@@ -306,3 +306,11 @@ class BrowseTests(unittest.TestCase):
         self.assertIn('Jobs', text); self.assertIn('Graduate Civil Engineer', text); self.assertNotIn('var a', text)
         links = browse.links_of(dom, 'https://x.test/careers/', 'job')
         self.assertEqual(links, [('https://x.test/jobs/12-graduate-civil-engineer', 'Graduate Civil Engineer')])
+
+
+class HeldDedupeTests(unittest.TestCase):
+    def test_second_hold_for_same_employer_is_skipped(self):
+        import publish
+        idx = {'company': {tracker.company_key('Torres Strait Island Regional Council'): [{'status': 'HELD_ELIGIBILITY_UNCONFIRMED'}]}}
+        self.assertTrue(publish.already_held('Torres Strait Island Regional Council', idx))
+        self.assertFalse(publish.already_held('Acme Civil', idx))
