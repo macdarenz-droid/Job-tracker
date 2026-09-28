@@ -11,7 +11,8 @@ Read this file before editing the website or using tracker records.
 - Never put a GitHub token in source, a URL, a commit, a log, or a shared reply.
 - Preserve automatic application history, manual entries, document metadata and hashes, Bin visibility, actual outcomes, and existing statuses. Do not invent a sent email, submission, delivery, opening, reply or offer.
 - Record a manual **Applied** action only after Jeremie actually submits through SEEK or the employer website, with the actual date and route. Saving a tracker record never sends an application. The six-digit code is a modest shared credential; the public GitHub files stay downloadable without it.
-- Do not enable or recreate the stopped job-research workers.
+- On 28 September 2026 the owner authorised resuming the existing two-hour discovery worker `6aa1817b36fc8191b9c17b6c848f2e8d`. Keep the separate lead reviewer `6aa1ec1bba4481919683b659bc6c1148` stopped. Do not create or enable another worker. The resumed worker must publish tracker changes to this GitHub Pages site through the guarded Cloudflare D1 API, never the older ChatGPT Site.
+- Cloudflare D1 is the current shared tracker. The public `data.json` is a seed only, so a commit to it alone will not update what visitors see. If the API rejects an automatic lead change, save a reconciliation file and implement an append-only, version-guarded route before claiming it is live. Do not mislabel an automated lead as a Jeremie manual entry.
 
 ## If independently asked to research or send a job application
 

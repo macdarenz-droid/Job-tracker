@@ -18,7 +18,7 @@ The initial published `data.json` includes 14 automatic applications, 46 leads, 
 
 **Applied** records an actual submission reported by Jeremie through SEEK or an employer website. It asks for actual date and route, and can attach a résumé, cover letter or confirmation. Saving a row never submits an application. Automatic sent history remains distinct from contributor-reported outcomes. Expired rows are hidden from the active view. The activity chart (14 days, 28 days, or 13 weeks) counts sent or reported applications with dates, the pipeline shows current status counts, application routes group recorded applications by how they were submitted, and fit distribution is qualitative, not an interview forecast.
 
-The old owner-private Site is unchanged. This frontend does not send email or enable the stopped job-research workers. `AGENTS.md` describes the rules for a separately authorised job agent.
+The old owner-private Site is unchanged. This frontend does not send email. The existing two-hour discovery worker was resumed by the owner on 28 September 2026 and must update this GitHub Pages tracker through the guarded shared Cloudflare state. The separate lead reviewer remains stopped. `AGENTS.md` describes the application safeguards. New automatic leads need a version-guarded publication path: changing public `data.json` alone does not change the live cloud state.
 
 ## Publishing and preview
 
