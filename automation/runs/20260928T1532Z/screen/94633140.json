@@ -1,0 +1,32 @@
+{
+  "percent": 30,
+  "rationale": [
+    "'Be a current Engineering undergraduate' is a stated requirement; Marc completed his BSCE in 2019 and his Advanced Diploma in February 2026, so he is not currently enrolled.",
+    "This is a cadetship/summer-holiday-student casual role aimed at first-to-third-year university students, not a full-time graduate position.",
+    "Discipline exposure is broad (concrete structures, pipework, roads, drainage, bridges, renewables, gas, WWTPs) but the role's structure does not fit Marc's stage."
+  ],
+  "caution": "This program targets currently enrolled undergraduates on a casual day-rate basis; it is not a full-time role suited to Marc's completed qualifications.",
+  "gaps": [
+    "Casual/vacation day-rate work, not full-time ongoing employment"
+  ],
+  "mandatory_unmet": [
+    "'Be a current Engineering undergraduate' (Marc completed his BSCE in 2019 and his Advanced Diploma of Civil Construction Design in February 2026; he is not currently enrolled)"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply via the SEEK listing.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Silverstrand Developments",
+  "title": "Undergraduate Engineer",
+  "location": "Brisbane QLD",
+  "url": "https://www.seek.com.au/job/94633140",
+  "listed_at": "2026-09-15T01:59:11.317Z",
+  "expires_at": "2026-10-13T00:58:00.000Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "Do you have a current Australian driver's licence?",
+    "How much notice are you required to give your current employer?"
+  ]
+}

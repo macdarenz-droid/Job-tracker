@@ -1,0 +1,38 @@
+{
+  "percent": 58,
+  "rationale": [
+    "Role is explicitly 'junior to mid-level', with 'Experience in residential & commercial estimating, with the ability to complete your own take-offs' listed as a plain requirement without a years figure.",
+    "Discipline overlap is decent: estimating and procurement align with Marc's coursework cost estimates and bills of quantities, though not a paid estimating role.",
+    "Preston is in Melbourne, an excellent location fit close to Marc's Melton VIC base."
+  ],
+  "caution": "Confirm whether 'junior to mid-level' extends to candidates whose estimating experience is coursework only, since the take-off requirement is not softened with 'preferred' or 'advantage' wording.",
+  "gaps": [
+    "No Buildxact or other take-off software experience (advert notes this is an advantage)",
+    "No procurement or contract administration experience (advert notes this is an advantage)",
+    "No paid estimating role experience; estimating skills are from Advanced Diploma coursework only"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [
+    "'Experience in residential & commercial estimating, with the ability to complete your own take-offs' is listed as a plain requirement (no years figure, no softening word) in a role described as 'junior to mid-level'; whether Marc's coursework-only estimating experience meets this bar is not stated"
+  ],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply via the SEEK listing.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Evve Group",
+  "title": "Estimator & Procurement Coordinator",
+  "location": "Preston, Melbourne VIC",
+  "url": "https://www.seek.com.au/job/94899540",
+  "listed_at": "2026-09-27T01:47:35.723Z",
+  "expires_at": "2026-10-27T12:59:59.999Z",
+  "screening_questions": [
+    "How many years' experience do you have in the construction industry?",
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have with project planning and scheduling?",
+    "How many years' experience do you have as a project manager?",
+    "Do you have experience working on residential construction projects?",
+    "How many years' experience do you have with contracts administration?",
+    "What's your expected annual base salary?"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+ "percent": 65,
+ "rationale": [
+  "Council Civil Engineer role requires 'demonstrated engineering design experience within the civil engineering field' without a specified years figure.",
+  "Strong discipline overlap: subdivision development, road construction, drainage networks, AutoCAD drafting, MS Office.",
+  "Echuca is within Victoria and a realistic relocation/commute from Melton, though a regional move."
+ ],
+ "caution": "Echuca is a regional Victorian posting about 2.5 hours from Melton; permanent full time, $80,211 to $92,510 plus super. Marc holds a Victorian Working with Children Check and a licence, and uses AutoCAD and Office as the ad asks.",
+ "gaps": [
+  "Eligibility for Institution of Engineers Australia membership not confirmed"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [
+  "'Eligible for membership with Institution of Engineers Australia': Marc's BSCE (Divine Word College of Legazpi, Philippines, 2014 to 2019) has no Engineers Australia assessment on record",
+  "'Demonstrated engineering design experience within the civil engineering field': Marc's civil design experience is Advanced Diploma coursework (road, earthworks, pavement, stormwater), not paid design work; whether the Shire counts that is not stated",
+  "'Valid National Police Check': not on record (Marc to answer)"
+ ],
+ "route": "EMPLOYER_PORTAL",
+ "apply_email": "",
+ "apply_instructions": "Apply through the careers section of the Campaspe Shire Council website (the SEEK ad links out); questions to employment@campaspe.vic.gov.au; closes 11:59 pm Sunday 18 October 2026",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Campaspe Shire Council",
+ "title": "Civil Engineer",
+ "location": "Echuca, Shepparton & Goulburn Valley VIC",
+ "url": "https://www.seek.com.au/job/94716040",
+ "listed_at": "2026-09-18T01:44:06.404Z",
+ "expires_at": "2026-10-18T12:59:59.999Z",
+ "screening_questions": [],
+ "rescored_by": "Claude 28 Sep 2026"
+}

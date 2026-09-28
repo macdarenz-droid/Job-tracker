@@ -1,0 +1,38 @@
+{
+  "percent": 12,
+  "rationale": [
+    "'This position is open to permanent residents only'; Marc holds a Subclass 485 visa to December 2027, not permanent residency.",
+    "Role is a Structural Steel Estimator with sales/counter-sales duties, a trade/sales-estimating role rather than civil engineering design or site work.",
+    "Screening questions focus on sales-estimator years and customer-service experience, which Marc does not have."
+  ],
+  "caution": "Advert is explicitly restricted to permanent residents only; Marc is not eligible to apply.",
+  "gaps": [
+    "No sales or customer-service experience",
+    "No structural steel estimating experience"
+  ],
+  "mandatory_unmet": [
+    "'This position is open to permanent residents only' (Marc holds a Subclass 485 visa to December 2027, not permanent residency)"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Not recommended to apply; advert is restricted to permanent residents only.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Melsteel Pty Ltd",
+  "title": "Structural Steel Estimator",
+  "location": "Hallam, Melbourne VIC",
+  "url": "https://www.seek.com.au/job/94914683",
+  "listed_at": "2026-09-28T05:11:33.719Z",
+  "expires_at": "2026-10-28T12:59:59.999Z",
+  "screening_questions": [
+    "How many years' experience do you have as a Structural Steel Estimator?",
+    "How many years of estimating experience do you have?",
+    "Which of the following statements best describes your right to work in Australia?",
+    "Do you have experience in a sales role?",
+    "How many years' experience do you have as a Sales Estimator?",
+    "What's your expected annual base salary?",
+    "How would you rate your English language skills?",
+    "Do you have customer service experience?"
+  ]
+}

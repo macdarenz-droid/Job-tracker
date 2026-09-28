@@ -15,6 +15,7 @@ import checks  # noqa: E402
 import render_pdf  # noqa: E402
 import email_html  # noqa: E402
 import compact_pdf  # noqa: E402
+import browse  # noqa: E402
 
 
 class PrefilterTests(unittest.TestCase):
@@ -296,3 +297,12 @@ class PriorOutreachTests(unittest.TestCase):
             self.assertTrue(blocked); self.assertIn('MANUAL_APPLIED', why)
             blocked, why, notes = tracker.check_duplicate({'seek_id': '2', 'company': 'Old Co Pty Ltd', 'title': 'Engineer'}, idx)
             self.assertFalse(blocked); self.assertTrue(notes)
+
+
+class BrowseTests(unittest.TestCase):
+    def test_text_and_links_from_rendered_dom(self):
+        dom = '<html><head><style>x{}</style><script>var a=1;</script></head><body><h1>Jobs</h1><ul><li><a href="/jobs/12-graduate-civil-engineer">Graduate Civil Engineer</a></li><li><a href="https://x.test/about">About &amp; us</a></li></ul></body></html>'
+        text = browse.text_of(dom)
+        self.assertIn('Jobs', text); self.assertIn('Graduate Civil Engineer', text); self.assertNotIn('var a', text)
+        links = browse.links_of(dom, 'https://x.test/careers/', 'job')
+        self.assertEqual(links, [('https://x.test/jobs/12-graduate-civil-engineer', 'Graduate Civil Engineer')])

@@ -1,0 +1,226 @@
+[
+ {
+  "id": "052861b1-1e66-48b5-8c54-40e13861415d",
+  "key": "manual:052861b1-1e66-48b5-8c54-40e13861415d",
+  "contributor_name": "Claude",
+  "created_by": "claude-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260928T1532Z",
+  "created_at": "2026-09-28T15:51:06.000Z",
+  "updated_at": "2026-09-28T15:51:06.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Spiire_Resume.pdf",
+    "stored_in": "not_uploaded"
+   },
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Spiire_Civil_Designer_junior_Expressions_of_Int_Cover_Letter.pdf",
+    "stored_in": "not_uploaded"
+   }
+  ],
+  "company": "Spiire",
+  "role": "Civil Designer (junior), Expressions of Interest, Townsville",
+  "location": "Townsville QLD",
+  "job_url": "https://www.seek.com.au/job/94631744",
+  "company_url": "https://www.spiire.com.au/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "Spiire careers team",
+  "recipient_email": "spiire.careers@spiire.com.au",
+  "contact_email": "spiire.careers@spiire.com.au",
+  "contact_evidence_url": "https://www.spiire.com.au/careers/",
+  "contact_verified_at": "2026-09-28T15:51:06.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Expression of interest, junior Civil Designer, Townsville, Marc Masarate",
+  "email_body": "Hello,\n\nI've submitted an expression of interest for a junior Civil Designer position in your new Townsville team through the Spiire careers portal, and I'm sending my resume and cover letter here as your careers page invites.\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026, where I designed and documented road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D to Australian Standards and Austroads guides, and prepared cost estimates and bills of quantities. My degree is a Bachelor of Science in Civil Engineering (Philippines, 2019). On site in the Philippines from April 2019 to February 2020 I worked on residential subdivision finishing works and a building renovation, reviewing drawings, checking the work against them and keeping site records.\n\nI haven't worked in an Australian design office yet, so my design software experience is AutoCAD and Civil 3D from the diploma. I hold a White Card, an Australian driver's licence and full working rights until December 2027 on a Subclass 485 visa. I'm based in Melton, Victoria and open to discussing relocation to Townsville.\n\nMy drawings are at https://macdarenz-droid.github.io/Portfolio. I'd be glad to talk about where a junior designer would start.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Open Expressions of Interest explicitly includes 'Civil Designers (junior, intermediate and senior level)', a stated junior entry point.",
+   "Discipline overlap is strong: civil construction and civil design engineering roles across Spiire's Townsville expansion.",
+   "Townsville QLD is regional but within Marc's recorded FIFO/Central Queensland availability."
+  ],
+  "gaps": [
+   "No North Queensland or Spiire-specific project experience",
+   "Open expression of interest across junior to senior levels; no defined junior role, pay or start date"
+  ],
+  "match_score": {
+   "percent": 75,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Open Expressions of Interest explicitly includes 'Civil Designers (junior, intermediate and senior level)', a stated junior entry point.",
+    "Discipline overlap is strong: civil construction and civil design engineering roles across Spiire's Townsville expansion.",
+    "Townsville QLD is regional but within Marc's recorded FIFO/Central Queensland availability."
+   ],
+   "caution": "This is a general Expressions of Interest, not a defined vacancy; the specific requirements and likely seniority for a 'junior' Civil Designer placement are not detailed."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-09-15T01:27:02.860Z",
+   "expires_at": "2026-10-11T12:59:59.000Z",
+   "verified_at": "2026-09-28T15:35:40.000Z",
+   "apply_instructions": "Apply on the Spiire ELMO job board (https://spiire.elmotalent.com.au/careers/spiire/job/view/796); closes 11 October 2026",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Decide first whether you would move to Townsville: the letter and email say \"open to discussing relocation to Townsville\". If the answer is no, do not apply.",
+   "Open the Spiire job board listing https://spiire.elmotalent.com.au/careers/spiire/job/view/796 (the SEEK ad 94631744 links out to it) and press Apply.",
+   "Attach the two PDFs from this record (resume and cover letter); answer the portal questions honestly (junior level, Subclass 485 visa to December 2027, real availability).",
+   "Submit before 11 October 2026.",
+   "Press Applied on the tracker with the date and \"Company website\". Only after that, the prepared email to spiire.careers@spiire.com.au (the careers page invites expressions of interest with a CV and motivation letter) may be sent as a follow-up."
+  ],
+  "notes": "Open expression of interest for Spiire's new Townsville office (urban development focus); junior civil designers named in the ad. Spiire is on the target employer list. Townsville page names Zac Strogusz (Business Manager) and Adam Pease (Principal, Civil Engineering) without emails; the careers inbox spiire.careers@spiire.com.au is published for expressions of interest with a CV and motivation letter, so a follow-up email is prepared for after the portal submission. Interstate: Townsville relocation is Marc's call.\nChecked 2026-09-28. Read: advert text in candidates.json; https://www.spiire.com.au/careers/ (raw HTML: mailto:spiire.careers@spiire.com.au, 'View jobs' -> ELMO board); https://spiire.elmotalent.com.au/careers/spiire/jobs (3 listings; EOI Townsville is /job/view/796) and the 796 listing; https://www.spiire.com.au/townsville/ (raw HTML: only mailto is townsville@spiire.com.au; people cards for Zac Strogusz and Adam Pease; no personal emails or phones); https://www.spiire.com.au/people/adam-pease/ (bio only; no email, phone or personal LinkedIn); https://www.spiire.com.au/brisbane/; https://www.spiire.com.au/our-team/ (card grid, no emails). Not readable: https://www.spiire.com.au/contact and /our-people (404; site uses per-office pages and /our-team/); https://www.spiire.com.au/respected-qld-property-experts/ (indexed by search but returned 404); SEEK pages not fetched per instruction. Not fetched (fetch budget exhausted at 12): https://www.spiire.com.au/people/zac-strogusz/ - the Adam Pease profile on the same template published no contact details, so a direct email there is unlikely but unverified. Search summaries mentioning the pair joining Spiire were not treated as evidence; names and roles are taken from Spiire's own Townsville page. No data brokers, LinkedIn or agencies used; no address guessed. Budget used: 4/8 WebSearch, 12/12 WebFetch+curl.\nDouble touch: email the contact only after this record is marked Applied.\nHOW CLAUDE FOUND THIS\nFound on SEEK (listed 2026-09-15, closes 2026-10-11). Contact: the application inbox spiire.careers@spiire.com.au published by the employer (https://www.spiire.com.au/careers/); no personal address was used. Named people seen on employer pages: Zac Strogusz (Business Manager, Townsville (Townsville page: 'Our Townsville team, led by Zac Strogusz as Business Manager, have strong connections to the region.')); Adam Pease (Principal, Civil Engineering, Townsville (profile: 'Principal Engineer with more than 20 years of industry experience'; 'standing member on the UDIA Queensland Townsville Branch Committee')); Cameron Perkins (Business Manager, Brisbane). Marc or Jeremie submits through the portal or SEEK first; the short email to the contact goes only after Applied is pressed.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Civil Designer (junior), Expressions of Interest, Townsville role on SEEK.\n• They may ask about: No North Queensland or Spiire-specific project experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Open expression of interest across junior to senior levels; no defined junior role, pay or start date → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-09-15, closes 2026-10-11). Contact: the application inbox spiire.careers@spiire.com.au published by the employer (https://www.spiire.com.au/careers/); no personal address was used. Named people seen on employer pages: Zac Strogusz (Business Manager, Townsville (Townsville page: 'Our Townsville team, led by Zac Strogusz as Business Manager, have strong connections to the region.')); Adam Pease (Principal, Civil Engineering, Townsville (profile: 'Principal Engineer with more than 20 years of industry experience'; 'standing member on the UDIA Queensland Townsville Branch Committee')); Cameron Perkins (Business Manager, Brisbane). Marc or Jeremie submits through the portal or SEEK first; the short email to the contact goes only after Applied is pressed.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Civil Designer (junior), Expressions of Interest, Townsville role on SEEK.",
+   "They may ask about: No North Queensland or Spiire-specific project experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Open expression of interest across junior to senior levels; no defined junior role, pay or start date → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-09-28T15:51:06.000Z",
+  "seek_id": "94631744",
+  "duplicate_key": "spiire|seek:94631744",
+  "preparation_only": true
+ },
+ {
+  "id": "73af8240-f809-4955-a61f-f32cc05206b5",
+  "key": "manual:73af8240-f809-4955-a61f-f32cc05206b5",
+  "contributor_name": "Claude",
+  "created_by": "claude-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260928T1532Z",
+  "created_at": "2026-09-28T15:51:06.000Z",
+  "updated_at": "2026-09-28T15:51:06.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Hanlons_Consulting_Resume.pdf",
+    "stored_in": "not_uploaded"
+   },
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Hanlons_Consulting_Civil_Engineer_Civil_Designer_Cover_Letter.pdf",
+    "stored_in": "not_uploaded"
+   }
+  ],
+  "company": "Hanlons Consulting",
+  "role": "Civil Engineer/Civil Designer",
+  "location": "Tamworth NSW",
+  "job_url": "https://www.seek.com.au/job/94925455",
+  "company_url": "https://hanlonsconsulting.com.au/",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "Hanlons office inbox (the careers page asks for resumes there); letter addressed to Tim McLean, who heads the Tamworth engineering team",
+  "recipient_email": "office@hanlonsconsulting.com.au",
+  "contact_email": "office@hanlonsconsulting.com.au",
+  "contact_evidence_url": "https://hanlonsconsulting.com.au/career",
+  "contact_verified_at": "2026-09-28T15:51:06.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Civil Engineer/Civil Designer, Tamworth, Marc Masarate",
+  "email_body": "Hello,\n\nI'm applying for the Civil Engineer/Civil Designer role in your Tamworth engineering team, advertised on SEEK, and sending my resume and cover letter to this address as your careers page asks. The ad's line about a graduate ready for broader project exposure describes where I am.\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026, where I designed and documented road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D to Australian Standards and Austroads guides, and prepared cost estimates and bills of quantities. My degree is a Bachelor of Science in Civil Engineering (Philippines, 2019). On site in the Philippines from April 2019 to February 2020 I reviewed drawings, checked the work against them, ran inspections and kept site records, including on subdivision finishing works.\n\nI haven't worked in an Australian design office yet, so my design software experience is AutoCAD and Civil 3D from the diploma. I hold a White Card, an Australian driver's licence and full working rights until December 2027 on a Subclass 485 visa. I'm based in Melton, Victoria and open to discussing relocation to Tamworth.\n\nMy drawings are at https://macdarenz-droid.github.io/Portfolio. I'd be glad to talk.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Civil Engineer/Civil Designer role explicitly welcomes graduates developing capability through work and study, alongside 2-5 year designers.",
+   "Strong discipline overlap: roads, pavements, subdivisions, stormwater, drainage, hydrology/hydraulics, water/sewer, matches Marc's Advanced Diploma coursework.",
+   "Regional Tamworth NSW location is a relocation move from Melton VIC but the advert offers direct mentoring from senior engineers."
+  ],
+  "gaps": [
+   "No Australian civil engineering or design work experience yet (site work was in the Philippines 2019-2020)",
+   "Civil design and CAD/software experience is academic coursework, not commercial production design",
+   "Regional NSW location requires relocation from Melton VIC; no relocation assistance mentioned in advert"
+  ],
+  "match_score": {
+   "percent": 80,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Civil Engineer/Civil Designer role explicitly welcomes graduates developing capability through work and study, alongside 2-5 year designers.",
+    "Strong discipline overlap: roads, pavements, subdivisions, stormwater, drainage, hydrology/hydraulics, water/sewer, matches Marc's Advanced Diploma coursework.",
+    "Regional Tamworth NSW location is a relocation move from Melton VIC but the advert offers direct mentoring from senior engineers."
+   ],
+   "caution": "Screening questions ask for years of civil design experience; answer honestly that experience is Advanced Diploma coursework plus 11 months Philippines site work, not Australian design years."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-09-28T12:10:51.065Z",
+   "expires_at": "2026-10-28T12:59:59.999Z",
+   "verified_at": "2026-09-28T15:34:53.000Z",
+   "apply_instructions": "Apply via the SEEK listing.",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a civil designer?",
+    "How much notice are you required to give your current employer?",
+    "Do you have a current Australian driver's licence?",
+    "Have you completed a qualification in engineering drafting / engineering design?",
+    "How many years experience in Civil Engineering Design do you have?"
+   ]
+  },
+  "screening_answers": [
+   {
+    "question": "Which of the following statements best describes your right to work in Australia?",
+    "answer": "I hold a Subclass 485 visa with full working rights until December 2027."
+   },
+   {
+    "question": "What's your expected annual base salary?",
+    "answer": "[Marc to confirm. The ad states $75,000 to $95,000 per year.]"
+   },
+   {
+    "question": "How many years' experience do you have as a civil designer?",
+    "answer": "No paid years yet: two years of civil design coursework in the Advanced Diploma of Civil Construction Design (2024 to 2026) and 11 months of site engineering in the Philippines (2019 to 2020)."
+   },
+   {
+    "question": "How much notice are you required to give your current employer?",
+    "answer": "[Marc to confirm.]"
+   },
+   {
+    "question": "Do you have a current Australian driver's licence?",
+    "answer": "Yes."
+   },
+   {
+    "question": "Have you completed a qualification in engineering drafting / engineering design?",
+    "answer": "Yes: Advanced Diploma of Civil Construction Design, completed February 2026, and a Bachelor of Science in Civil Engineering (2019)."
+   }
+  ],
+  "checklist": [
+   "Decide first whether you would move to Tamworth: the letter and email say \"open to discussing relocation to Tamworth\". If the answer is no, do not apply.",
+   "Open https://www.seek.com.au/job/94925455 and use Apply.",
+   "Attach the two PDFs from this record (resume and cover letter).",
+   "Paste the screening answers above and fill the two placeholders (salary, notice).",
+   "Submit before 28 October 2026.",
+   "Press Applied on the tracker with the date and \"SEEK\". Only after that, the prepared email to office@hanlonsconsulting.com.au (the careers page asks for resumes there) may be sent as a follow-up."
+  ],
+  "notes": "Regional NSW consultancy (surveying, planning, engineering) expanding its Tamworth engineering team; the ad explicitly welcomes a graduate civil engineer. Interstate: Tamworth relocation is Marc's call. Contact research (28 Sep 2026): Tim McLean heads the Tamworth engineering team and Steve Griffiths is Director and Senior Civil Engineer; neither publishes an email. The careers page says to send resumes to office@hanlonsconsulting.com.au and that applications are always welcome, so a follow-up email is prepared for after the SEEK submission.\nChecked 2026-09-28. Employer site hanlonsconsulting.com.au (Mitchel Hanlon Consulting Pty Ltd, ABN 51104693736) fetched via curl: home, /contact-us, /engineering-services, /content/staff/ (Meet the Team), /career, /about-us, /steve-griffiths, /tim-mclean, /engineering-cadetship-in-regional-australia, /content/news/?all=true (10 fetches). Every page publishes only the single generic address office@hanlonsconsulting.com.au and phone 02 6762 4411; no staff profile publishes a personal business email or direct phone. The engineering lead for the Tamworth team is Tim McLean (Manager - Development & Engineering; the site says he heads the Engineering and Development Team from the Tamworth office); Steve Griffiths is Director - Senior Civil Engineer. Neither has an employer-published email, so no published_direct contact exists and no address was pattern-built. The careers page explicitly says to send resumes to office@ and that applications are always welcome, so office@ qualifies as an application inbox under config.contact.fallback_order[0] (published_inbox). 8 WebSearches run: 'Hanlons Tamworth engineering', '@hanlonsconsulting.com.au', domain + Tim McLean/Steve Griffiths, DA/SEE/REF document searches, filetype:pdf, Tim McLean + Hanlons. No employer-authored PDF (DA report, council submission, capability statement) with a direct email was indexed; the only hits naming individual emails were ZoomInfo and RocketReach (data brokers, excluded by rules) and LinkedIn (excluded). SEEK page not fetched (403 per instruction); advert text taken from candidates.json. Careers page lists a Cadetship flyer PDF on storage.googleapis.com (not fetched; 2 fetches left unused). The SEEK advert is not link-out, so the formal application goes through SEEK (Jeremie); per config.contact.double_touch there is no verified direct contact, so no follow-up email to a named person is prepared. About Us states offices in Tamworth and Armidale with a growing presence in Newcastle and Sydney; the advert says headquartered in Tamworth with people in Armidale, the Hunter and Sydney.\nDouble touch: email the contact only after this record is marked Applied.\nHOW CLAUDE FOUND THIS\nFound on SEEK (listed 2026-09-28, closes 2026-10-28). Contact: the application inbox office@hanlonsconsulting.com.au published by the employer (https://hanlonsconsulting.com.au/career); no personal address was used. Named people seen on employer pages: Tim McLean (Manager - Development & Engineering (site: \"Based in our Tamworth office, Tim heads up our Engineering and Development Team and oversees Hanlons Quality Assurance system.\")); Steve Griffiths (Director - Senior Engineer (site: \"As a Director of Hanlons and Senior Civil Engineer, his areas of expertise include engineering design of roads, stormwater drainage, water supply and sewerage.\")); Mitchel Hanlon (Managing Director - Registered Surveyor). Marc or Jeremie submits through the portal or SEEK first; the short email to the contact goes only after Applied is pressed.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Civil Engineer/Civil Designer role on SEEK.\n• They may ask about: No Australian civil engineering or design work experience yet (site work was in the Philippines 2019-2020) → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Civil design and CAD/software experience is academic coursework, not commercial production design → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Regional NSW location requires relocation from Melton VIC; no relocation assistance mentioned in advert → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-09-28, closes 2026-10-28). Contact: the application inbox office@hanlonsconsulting.com.au published by the employer (https://hanlonsconsulting.com.au/career); no personal address was used. Named people seen on employer pages: Tim McLean (Manager - Development & Engineering (site: \"Based in our Tamworth office, Tim heads up our Engineering and Development Team and oversees Hanlons Quality Assurance system.\")); Steve Griffiths (Director - Senior Engineer (site: \"As a Director of Hanlons and Senior Civil Engineer, his areas of expertise include engineering design of roads, stormwater drainage, water supply and sewerage.\")); Mitchel Hanlon (Managing Director - Registered Surveyor). Marc or Jeremie submits through the portal or SEEK first; the short email to the contact goes only after Applied is pressed.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Civil Engineer/Civil Designer role on SEEK.",
+   "They may ask about: No Australian civil engineering or design work experience yet (site work was in the Philippines 2019-2020) → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Civil design and CAD/software experience is academic coursework, not commercial production design → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Regional NSW location requires relocation from Melton VIC; no relocation assistance mentioned in advert → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-09-28T15:51:06.000Z",
+  "seek_id": "94925455",
+  "duplicate_key": "hanlonsconsulting|seek:94925455",
+  "preparation_only": true
+ }
+]

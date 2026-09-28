@@ -1,0 +1,34 @@
+{
+  "percent": 27,
+  "rationale": [
+    "Advert states 'Essential: Ideally 3-5 Years of post-graduate experience working as a civil engineering consultant on built form projects'; Marc has no post-graduate consulting experience.",
+    "Role expects the hire to 'lead project teams' and 'take the next step' in an established career, an experienced-hire in substance.",
+    "Discipline overlap is strong (roads, intersections, pavements, earthworks, stormwater drainage, 12D Model, Civil 3D, DRAINS, MUSIC, AutoCAD) if experience were not a barrier."
+  ],
+  "caution": "This Newcastle NSW consulting role explicitly wants 3-5 years' post-graduate experience under an 'Essential' heading; treat as a stretch application.",
+  "gaps": [
+    "No DRAINS, MUSIC or 12D Model experience",
+    "No commercial civil consulting or client-facing project delivery experience"
+  ],
+  "mandatory_unmet": [
+    "'Essential: Ideally 3-5 Years of post-graduate experience working as a civil engineering consultant on built form projects' (Marc has no post-graduate civil consulting experience; his site experience is 11 months in the Philippines, 2019-2020)"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply via the SEEK listing (Apply tab) with resume and cover letter.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Northrop Consulting Engineers Pty Ltd",
+  "title": "Civil Engineer",
+  "location": "Newcastle, Newcastle, Maitland & Hunter NSW",
+  "url": "https://www.seek.com.au/job/94649633",
+  "listed_at": "2026-09-15T09:30:09.016Z",
+  "expires_at": "2026-10-15T07:00:00.000Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a civil engineer?",
+    "Which of the following CAD software do you have experience with?",
+    "What's your expected annual base salary?"
+  ]
+}

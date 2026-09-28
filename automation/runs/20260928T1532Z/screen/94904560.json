@@ -1,0 +1,29 @@
+{
+  "percent": 55,
+  "rationale": [
+    "2027 Graduate Program accepts 'a relevant university degree', which Marc's BSCE satisfies, though the program is not stated to include a civil engineering discipline stream.",
+    "This is a coal mining operations graduate program (Bowen Basin, Queensland); no civil design, drafting or site-engineering content is mentioned in the advert text.",
+    "Brisbane QLD / Bowen Basin sits within Marc's recorded Central Queensland FIFO availability."
+  ],
+  "caution": "The advert does not say whether the graduate program includes a civil engineering stream; confirm this before treating it as a civil-engineering opportunity.",
+  "gaps": [
+    "No mining or coal operations experience",
+    "No confirmation the program covers civil engineering rather than mining, geology or mechanical disciplines"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [
+    "Whether the 2027 Graduate Program includes a civil engineering discipline stream, or is limited to mining/geology/mechanical disciplines, is not stated in the advert text"
+  ],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": "",
+  "apply_instructions": "Follow the SEEK link-out to Argo's application page.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Argo Coal Management Pty Ltd",
+  "title": "2027 Graduate Opportunities",
+  "location": "Brisbane QLD",
+  "url": "https://www.seek.com.au/job/94904560",
+  "listed_at": "2026-09-27T23:44:31.931Z",
+  "expires_at": "2026-10-27T23:44:31.931Z",
+  "screening_questions": []
+}

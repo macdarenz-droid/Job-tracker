@@ -25,3 +25,4 @@
 {"run_id": "20260928T1532Z", "at": "2026-09-28T15:32:05.000Z", "stage": "start"}
 {"run_id": "20260928T1532Z", "at": "2026-09-28T15:35:52.000Z", "stage": "discover", "daterange": 14, "max_details": 80, "3-day digest was 25 weak items at 01:30 AEST; widened to 14 days": ""}
 {"run_id": "20260928T1532Z", "at": "2026-09-28T15:37:09.000Z", "stage": "receipts", "Gmail SEEK receipts newer than 3 days: none beyond the 26 Sep entries already in prior_outreach.json": ""}
+{"run_id": "20260928T1532Z", "at": "2026-09-28T15:44:32.000Z", "stage": "sweep_agent", "rotation": "employers", "found": 0, "Winslow, Bild, Delplant read: nothing junior; Symal (JS portal, possible Graduate Civil Engineer Ignite program unreadable), Civilex (now Symal), TGM (now Stantec) unreadable": ""}

@@ -1,0 +1,30 @@
+{
+  "percent": 30,
+  "rationale": [
+    "This 'Civil Engineering Technician' role is steel-reinforcement scheduling for concrete structures, a manufacturing/production role rather than civil design or site engineering practice.",
+    "Advert calls for an 'experienced Civil Engineering Technician' with 'Ability to use Auto Cad, Tekla, Revit and Bluebeam'; Marc has not used Bluebeam or Tekla.",
+    "Truganina is in Melbourne's west, close to Marc's Melton VIC base, the best location fit of the four Bestbar postings."
+  ],
+  "caution": "Trade/manufacturing scheduling role, not civil engineering design or site work; treat as a low-priority stretch even where the software and tertiary-qualification alternative are met.",
+  "gaps": [
+    "No Tekla experience",
+    "No customer-facing sales/scheduling experience",
+    "Role is steel-reinforcement production scheduling, not civil design or site engineering"
+  ],
+  "mandatory_unmet": [
+    "'Ability to use Auto Cad, Tekla, Revit and Bluebeam' (Marc has not used Bluebeam; per honest_limits, 'has not used Bluebeam, E1 or Benchmark estimating software')"
+  ],
+  "mandatory_unresolved": [],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": "",
+  "apply_instructions": "Apply via the employer's application page (SEEK link-out).",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Bestbar Pty Ltd",
+  "title": "Civil Engineering Technician",
+  "location": "Truganina, Melbourne VIC",
+  "url": "https://www.seek.com.au/job/94642720",
+  "listed_at": "2026-09-15T06:09:01.501Z",
+  "expires_at": "2026-10-15T12:59:59.999Z",
+  "screening_questions": []
+}

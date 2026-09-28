@@ -1,0 +1,30 @@
+{
+  "percent": 15,
+  "rationale": [
+    "Body text describes 'a senior drafter' with 'proven experience drafting to QLD TMR standards and codes' and 'senior TMR experience'; despite the SEEK title, this is a senior hire.",
+    "Posted by Bayside Group, a recruitment agency, for an unnamed client's TMR projects.",
+    "AutoCAD overlap exists but Marc's drafting experience is academic, not commercial TMR production drafting."
+  ],
+  "caution": "This is effectively a senior/experienced drafter role posted by a recruitment agency for an undisclosed client; not a realistic match for Marc's experience level.",
+  "gaps": [
+    "No ProjectWise or Autodesk Vault document-control experience"
+  ],
+  "mandatory_unmet": [
+    "'Proven experience drafting to QLD TMR standards and codes' for a role described as 'Senior Civil Drafter' with 'senior TMR experience' (Marc's CAD/drafting experience is academic coursework only, with no commercial TMR drafting experience)"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply via the SEEK listing; agency (Bayside Group) recruiting for an undisclosed client, contact Oscar Olsson by phone for further information.",
+  "open": true,
+  "employer_is_agency": true,
+  "company": "Bayside Group",
+  "title": "Civil Drafter ",
+  "location": "Brisbane QLD",
+  "url": "https://www.seek.com.au/job/94723645",
+  "listed_at": "2026-09-18T05:05:24.190Z",
+  "expires_at": "2026-10-18T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?"
+  ]
+}

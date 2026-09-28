@@ -1,0 +1,33 @@
+{
+  "percent": 65,
+  "rationale": [
+    "Advert accepts either a relevant Diploma OR 3-5 years experience; Marc's Advanced Diploma of Civil Construction Design (Feb 2026) satisfies the qualification path.",
+    "Discipline overlap is partial: civil/traffic management drafting and technical drawings, but Traffic Guidance Scheme and AGTTM/QGTTM work is a new specialty for Marc.",
+    "Posted by 'Lindores Personnel', a recruitment/personnel business, with no separate employer named for the role."
+  ],
+  "caution": "Confirm which end-client Lindores Personnel is recruiting for before applying, since no employer is named beyond the agency itself.",
+  "gaps": [
+    "No experience with RapidPlan, Invarion or similar traffic-management drafting software (Marc's software is AutoCAD, Civil 3D, Revit)",
+    "No experience preparing Traffic Guidance Schemes or AGTTM/AS 1742.3/QGTTM documentation"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply via the SEEK listing.",
+  "open": true,
+  "employer_is_agency": true,
+  "company": "Lindores Personnel",
+  "title": "Civil Engineering Draftsperson",
+  "location": "Brisbane QLD",
+  "url": "https://www.seek.com.au/job/94716074",
+  "listed_at": "2026-09-18T01:44:55.912Z",
+  "expires_at": "2026-10-18T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a civil drafter?",
+    "How much notice are you required to give your current employer?",
+    "How many years experience in Traffic Management do you have?",
+    "How many years' experience do you have as a Civil Design Draftsperson?"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "seek_id": "94925455",
+  "company": "Hanlons Consulting",
+  "company_url": "https://hanlonsconsulting.com.au/",
+  "careers_url": "https://hanlonsconsulting.com.au/career",
+  "recipient_name": null,
+  "recipient_role": "General office inbox (the employer's careers page directs resumes here); no named person",
+  "recipient_email": "office@hanlonsconsulting.com.au",
+  "contact_evidence_url": "https://hanlonsconsulting.com.au/career",
+  "evidence_quote": "If you are a surveyor, engineer, mathematician, environmental scientist or administration superstar send through your resume to office@hanlonsconsulting.com.au. We are always on the hunt to find great team players, always welcoming applications and resumes even when we aren't advertising. Your application should provide enough information about your skills, knowledge and experience to allow us to consider you for a career at Hanlons.",
+  "contact_confidence": "published_inbox",
+  "named_people": [
+    {
+      "name": "Tim McLean",
+      "role": "Manager - Development & Engineering (site: \"Based in our Tamworth office, Tim heads up our Engineering and Development Team and oversees Hanlons Quality Assurance system.\")",
+      "email": null,
+      "evidence_url": "https://hanlonsconsulting.com.au/tim-mclean"
+    },
+    {
+      "name": "Steve Griffiths",
+      "role": "Director - Senior Engineer (site: \"As a Director of Hanlons and Senior Civil Engineer, his areas of expertise include engineering design of roads, stormwater drainage, water supply and sewerage.\")",
+      "email": null,
+      "evidence_url": "https://hanlonsconsulting.com.au/steve-griffiths"
+    },
+    {
+      "name": "Mitchel Hanlon",
+      "role": "Managing Director - Registered Surveyor",
+      "email": null,
+      "evidence_url": "https://hanlonsconsulting.com.au/content/staff/"
+    },
+    {
+      "name": "Tim Milsom",
+      "role": "Operations Manager",
+      "email": null,
+      "evidence_url": "https://hanlonsconsulting.com.au/content/staff/"
+    },
+    {
+      "name": "Neil O'Toole",
+      "role": "Senior Project Manager",
+      "email": null,
+      "evidence_url": "https://hanlonsconsulting.com.au/content/staff/"
+    },
+    {
+      "name": "Sally Berthaly",
+      "role": "Finance and HR Manager",
+      "email": null,
+      "evidence_url": "https://hanlonsconsulting.com.au/content/staff/"
+    }
+  ],
+  "employer_line": "Hanlons Consulting provides innovative engineering solutions for rail, local government and development projects.",
+  "employer_line_source": "https://hanlonsconsulting.com.au/engineering-services",
+  "published_generic_contacts": [
+    {
+      "email": "office@hanlonsconsulting.com.au",
+      "phone": "02 6762 4411",
+      "where": "Site-wide footer and https://hanlonsconsulting.com.au/contact-us (121 Bridge Street, PO Box 1568, Tamworth NSW 2340); also https://hanlonsconsulting.com.au/career",
+      "accepts_applications_stated": true
+    }
+  ],
+  "notes": "Checked 2026-09-28. Employer site hanlonsconsulting.com.au (Mitchel Hanlon Consulting Pty Ltd, ABN 51104693736) fetched via curl: home, /contact-us, /engineering-services, /content/staff/ (Meet the Team), /career, /about-us, /steve-griffiths, /tim-mclean, /engineering-cadetship-in-regional-australia, /content/news/?all=true (10 fetches). Every page publishes only the single generic address office@hanlonsconsulting.com.au and phone 02 6762 4411; no staff profile publishes a personal business email or direct phone. The engineering lead for the Tamworth team is Tim McLean (Manager - Development & Engineering; the site says he heads the Engineering and Development Team from the Tamworth office); Steve Griffiths is Director - Senior Civil Engineer. Neither has an employer-published email, so no published_direct contact exists and no address was pattern-built. The careers page explicitly says to send resumes to office@ and that applications are always welcome, so office@ qualifies as an application inbox under config.contact.fallback_order[0] (published_inbox). 8 WebSearches run: 'Hanlons Tamworth engineering', '@hanlonsconsulting.com.au', domain + Tim McLean/Steve Griffiths, DA/SEE/REF document searches, filetype:pdf, Tim McLean + Hanlons. No employer-authored PDF (DA report, council submission, capability statement) with a direct email was indexed; the only hits naming individual emails were ZoomInfo and RocketReach (data brokers, excluded by rules) and LinkedIn (excluded). SEEK page not fetched (403 per instruction); advert text taken from candidates.json. Careers page lists a Cadetship flyer PDF on storage.googleapis.com (not fetched; 2 fetches left unused). The SEEK advert is not link-out, so the formal application goes through SEEK (Jeremie); per config.contact.double_touch there is no verified direct contact, so no follow-up email to a named person is prepared. About Us states offices in Tamworth and Armidale with a growing presence in Newcastle and Sydney; the advert says headquartered in Tamworth with people in Armidale, the Hunter and Sydney."
+}

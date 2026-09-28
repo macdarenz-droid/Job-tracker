@@ -1,0 +1,35 @@
+{
+  "percent": 60,
+  "rationale": [
+    "Advert bills this as an 'Experienced Civil Project Engineer' hands-on site role, supporting Project Managers and crews; no explicit years figure but experience is described as essential.",
+    "Strong discipline overlap: subdivision development, road construction, service installation, drainage, reviewing drawings and specifications.",
+    "Murray Bridge SA is regional; Marc's site coordination and daily reporting experience from the Philippines is relevant but not Australian."
+  ],
+  "caution": "The role is framed as an experienced hire ('Experienced Civil Project Engineer') without a specific years figure; confirm with the employer whether Marc's non-Australian entry-level site experience is acceptable before applying.",
+  "gaps": [
+    "No Australian civil construction or project engineering experience",
+    "No cost tracking, project budgeting or forecasting experience beyond coursework estimates"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [
+    "Advert titled/summarised as an 'Experienced Civil Project Engineer' in a hands-on site-based role working with Project Managers, Supervisors, subcontractors and crews, and lists 'Previous experience in civil construction or project engineering' as a requirement; in substance this reads as an experienced hire although no years figure is printed"
+  ],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply via the SEEK listing.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "DWE SERVICES",
+  "title": "Civil Project Engineer",
+  "location": "Murray Bridge, Riverland & Murray Mallee SA",
+  "url": "https://www.seek.com.au/job/94764074",
+  "listed_at": "2026-09-21T03:36:48.496Z",
+  "expires_at": "2026-10-21T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a Civil Project Engineer?",
+    "How much notice are you required to give your current employer?",
+    "Do you have a current Australian driver's licence?"
+  ]
+}

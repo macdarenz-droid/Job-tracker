@@ -1,0 +1,39 @@
+{
+  "percent": 28,
+  "rationale": [
+    "'At least three years' experience in civil design' is listed as essential; Marc's civil design exposure is Advanced Diploma coursework only.",
+    "Discipline overlap is otherwise strong: stormwater drainage, bulk earthworks, pavements, access roads and AutoCAD match Marc's coursework.",
+    "Adelaide SA is a realistic relocation but the role targets an already-practising civil designer, not a graduate entry point."
+  ],
+  "caution": "Advert explicitly states applications will not be accepted via email; apply through SEEK only. The listed contact email is for further information only.",
+  "gaps": [
+    "No experience with 12d bulk earthworks modelling software",
+    "No experience with DRAINS or HEC-RAS stormwater/drainage modelling",
+    "No professional engineering registration",
+    "No high-voltage substation, utility grid connection or renewable energy project experience (advert notes this is not essential)"
+  ],
+  "mandatory_unmet": [
+    "'At least three years' experience in civil design' (Marc has Advanced Diploma coursework in civil design but no professional civil design role experience)"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply via the SEEK listing; do not email (advert states applications will not be accepted via email).",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Consolidated Power Projects Australia Pty Ltd",
+  "title": "Engineer - Civil (Renewable Energy and Utilities Projects)",
+  "location": "Adelaide SA",
+  "url": "https://www.seek.com.au/job/94642283",
+  "listed_at": "2026-09-15T05:56:50.836Z",
+  "expires_at": "2026-10-15T04:56:49.000Z",
+  "screening_questions": [
+    "Please provide your base salary expectations (excluding superannuation): ",
+    "Please clarify your working rights",
+    "If you are a visa holder, please provide details.",
+    "In which Australian state are you currently residing in? ",
+    "How did you hear about CPP?",
+    "What is the notice period for your current employment?",
+    "Do you identify as Aboriginal/Torres Strait Islander? (please note this question is asked for diversity purposes only)"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+ "seek_id": "94631744",
+ "company": "Spiire",
+ "company_url": "https://www.spiire.com.au/",
+ "careers_url": "https://spiire.elmotalent.com.au/careers/spiire/job/view/796",
+ "recipient_name": "",
+ "recipient_role": "Spiire careers inbox (no named person; the employer publishes no direct email for any Townsville or Queensland lead)",
+ "recipient_email": "spiire.careers@spiire.com.au",
+ "contact_evidence_url": "https://www.spiire.com.au/careers/",
+ "evidence_quote": "Register your interest. If you can't see a role currently advertised that fits your skills and experience, but are interested in upcoming opportunities, we'd like to hear from you. Contact us with your expression of interest, along with your CV and a motivation letter. [Contact us button links to mailto:spiire.careers@spiire.com.au]",
+ "contact_confidence": "published_inbox",
+ "named_people": [
+  {
+   "name": "Zac Strogusz",
+   "role": "Business Manager, Townsville (Townsville page: 'Our Townsville team, led by Zac Strogusz as Business Manager, have strong connections to the region.')",
+   "email": "",
+   "evidence_url": "https://www.spiire.com.au/townsville/"
+  },
+  {
+   "name": "Adam Pease",
+   "role": "Principal, Civil Engineering, Townsville (profile: 'Principal Engineer with more than 20 years of industry experience'; 'standing member on the UDIA Queensland Townsville Branch Committee')",
+   "email": "",
+   "evidence_url": "https://www.spiire.com.au/people/adam-pease/"
+  },
+  {
+   "name": "Cameron Perkins",
+   "role": "Business Manager, Brisbane",
+   "email": "",
+   "evidence_url": "https://www.spiire.com.au/brisbane/"
+  },
+  {
+   "name": "Keith Howells",
+   "role": "Project Director, Civil Engineering, Brisbane",
+   "email": "",
+   "evidence_url": "https://www.spiire.com.au/brisbane/"
+  },
+  {
+   "name": "Desmond Leong",
+   "role": "Principal, Town Planning, Brisbane",
+   "email": "",
+   "evidence_url": "https://www.spiire.com.au/brisbane/"
+  }
+ ],
+ "employer_line": "From our Townsville and Brisbane locations, we work on projects throughout northern and south-east Queensland and the state's central regions.",
+ "employer_line_source": "https://www.spiire.com.au/townsville/",
+ "published_generic_contacts": [
+  {
+   "email": "spiire.careers@spiire.com.au",
+   "phone": "",
+   "where": "https://www.spiire.com.au/careers/ ('Register your interest' panel, Contact us button mailto link)",
+   "accepts_applications_stated": true
+  },
+  {
+   "email": "townsville@spiire.com.au",
+   "phone": "+61 7 4455 2300",
+   "where": "https://www.spiire.com.au/townsville/ (office header; no street address shown)",
+   "accepts_applications_stated": false
+  },
+  {
+   "email": "brisbane@spiire.com.au",
+   "phone": "+61 7 3522 3000",
+   "where": "https://www.spiire.com.au/brisbane/ (Level 9, 300 Queen Street, Brisbane QLD 4000)",
+   "accepts_applications_stated": false
+  }
+ ],
+ "application_route_notes": "The advert's mandated channel is the employer portal: SEEK 94631744 is a link-out to Spiire's ELMO board, and the advert ends 'please follow the link below to apply'. Exact EOI page: https://spiire.elmotalent.com.au/careers/spiire/job/view/796 ('Expressions of Interest - Civil Engineering', Townsville, Permanent - Full Time, closing 11/10/2026, Apply button; no named contact, email or phone on the listing). Portal submission belongs to Jeremie/Marc. The careers inbox spiire.careers@spiire.com.au is Spiire's stated route for expressions of interest 'with your CV and a motivation letter' when no advertised role fits; because this role IS advertised, use the portal first. No verified direct contact exists, so the double-touch email is not required; at most an optional short note to the careers inbox after the portal application is marked Applied. Do not email townsville@ or brisbane@ for applications (not stated as accepting them).",
+ "notes": "Checked 2026-09-28. Read: advert text in candidates.json; https://www.spiire.com.au/careers/ (raw HTML: mailto:spiire.careers@spiire.com.au, 'View jobs' -> ELMO board); https://spiire.elmotalent.com.au/careers/spiire/jobs (3 listings; EOI Townsville is /job/view/796) and the 796 listing; https://www.spiire.com.au/townsville/ (raw HTML: only mailto is townsville@spiire.com.au; people cards for Zac Strogusz and Adam Pease; no personal emails or phones); https://www.spiire.com.au/people/adam-pease/ (bio only; no email, phone or personal LinkedIn); https://www.spiire.com.au/brisbane/; https://www.spiire.com.au/our-team/ (card grid, no emails). Not readable: https://www.spiire.com.au/contact and /our-people (404; site uses per-office pages and /our-team/); https://www.spiire.com.au/respected-qld-property-experts/ (indexed by search but returned 404); SEEK pages not fetched per instruction. Not fetched (fetch budget exhausted at 12): https://www.spiire.com.au/people/zac-strogusz/ - the Adam Pease profile on the same template published no contact details, so a direct email there is unlikely but unverified. Search summaries mentioning the pair joining Spiire were not treated as evidence; names and roles are taken from Spiire's own Townsville page. No data brokers, LinkedIn or agencies used; no address guessed. Budget used: 4/8 WebSearch, 12/12 WebFetch+curl."
+}
