@@ -126,7 +126,7 @@ def call_prep(draft, screen):
 
 
 def how_found_block(cand, screen, contact, draft, route, mode):
-    return 'HOW CLAUDE FOUND THIS\n' + how_found(cand, screen, contact, route, mode) + '\n\nIF THEY CALL, LIKELY QUESTIONS\n' + '\n'.join('• ' + x for x in call_prep(draft, screen))
+    return f"HOW {CONFIG['contributor_name'].upper()} FOUND THIS\n" + how_found(cand, screen, contact, route, mode) + '\n\nIF THEY CALL, LIKELY QUESTIONS\n' + '\n'.join('• ' + x for x in call_prep(draft, screen))
 
 
 def build_record(run_id, cand, screen, contact, draft, attachments=None):
@@ -179,7 +179,7 @@ def held_record(run_id, cand, screen):
         'status': f"{STATUSES['held_prefix']}{tag}", 'application_type': 'ADVERTISED_VACANCY', 'application_route': screen.get('route') or 'SEEK',
         'fit': screen.get('rationale') or '', 'gaps': (screen.get('mandatory_unmet') or []) + (screen.get('gaps') or []),
         'match_score': {'percent': screen.get('percent'), 'method': CONFIG['fit']['method'], 'rationale': screen.get('rationale') or '', 'caution': screen.get('caution') or ''},
-        'notes': 'Held by Claude: ' + '; '.join(screen.get('mandatory_unmet') or ['advert not open']),
+        'notes': f"Held by {CONFIG['contributor_name']}: " + '; '.join(screen.get('mandatory_unmet') or ['advert not open']),
         'checked_at': now_iso(), 'seek_id': cand.get('seek_id') if cand.get('source', 'seek') == 'seek' else None,
     }, run_id=run_id)
 

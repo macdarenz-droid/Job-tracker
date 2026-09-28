@@ -72,18 +72,11 @@ Every record also carries, in `notes`, a plain-words "HOW CLAUDE FOUND THIS" par
 At most one per run. Pick the highest-fit `PREPARED_NOT_SENT` record whose advert is still open (re-check with `seek.py details`).
 1. First acquire and verify the actual shared canonical-journal lease under its current-version guard (unique owner and bounded expiry); preserve another active lease and hold if inaccessible. Save exact intended send evidence there. Only then mark this row: `tracker.py update <id> '{"status":"SENDING"}' --expect-status PREPARED_NOT_SENT`. A 409 or a status mismatch means stop and re-read.
 2. Final checks: `tracker.py check` on the record again (no new outreach to the employer since), `checks.py record`, open both PDFs from R2 and read them, confirm the recipient against `contact_evidence_url` once more.
-<<<<<<< HEAD
 3. Attachments: the Gmail tool takes inline base64, and long base64 is easy to mis-copy. Render compact PDFs (`compact_pdf.py letter` and `compact_pdf.py resume`, base-14 fonts, merged content streams; about 2 KB and 5 KB), print each base64, paste it into a heredoc file and check `sha256sum` against the PDF before using it; a mismatch means re-copy (or regenerate the PDF with different metadata and try again). Only verified strings go into the send call. A 400 from the tool names the bad attachment; nothing was sent, so fix and retry.
 4. Send with the Gmail tool: to `recipient_email`, subject, body, both PDFs attached, from macdarenz@gmail.com. Record the returned message id.
 5. `tracker.py update <id> '{"status":"SENT","sent_at":"<now>","gmail_message_id":"<id>","application_method":"Email","sent_attachments":[...]}' --expect-status SENDING`.
 6. No message id or an error after the send call: `SEND_UNCERTAIN` with the error text; do not retry in this or any later run until Gmail Sent is checked. A bounce seen later: `DELIVERY_FAILED`.
-7. Double touch: an email to a direct contact about an advert that must go through SEEK or a portal is sent only after that record is `MANUAL_APPLIED` (Marc or Jeremie pressed Applied).
-=======
-3. Send with the Gmail tool: to `recipient_email`, subject, body, both PDFs attached, from macdarenz@gmail.com. Record the returned message id.
-4. `tracker.py update <id> '{"status":"SENT","sent_at":"<now>","gmail_message_id":"<id>","application_method":"Email"}' --expect-status SENDING`.
-5. No message id or an error after the send call: `SEND_UNCERTAIN` with the error text; do not retry in this or any later run until Gmail Sent is checked. A bounce seen later: `DELIVERY_FAILED`.
-6. Double touch is not a duplicate-application exception. It needs explicit owner authority, an appropriate verified named contact, and all root AGENTS checks; never automatically email HR another CV package. An otherwise permitted email to a direct contact about an advert that must go through SEEK or a portal is sent only after that record is `MANUAL_APPLIED` (Marc or Jeremie pressed Applied).
->>>>>>> origin/claude/job-search-automation-sg3inr
+7. Double touch is not a duplicate-application exception. It needs explicit owner authority, an appropriate verified named contact, and all root AGENTS checks; never automatically email HR another CV package. An otherwise permitted email to a direct contact about an advert that must go through SEEK or a portal is sent only after that record is `MANUAL_APPLIED` (Marc or Jeremie pressed Applied).
 
 Follow-ups: a `SENT` record older than `follow_up_after_days` with no reply noted (`reply_at` empty) and `follow_ups` under `max_follow_ups` is eligible; it counts as the run's one email, uses the same lease, and is a three-sentence note.
 
@@ -113,4 +106,3 @@ STOP conditions (say them, then end the turn): tracker code missing; tracker API
 | Repeat block per employer | 90 days |
 | Email length | 220 words |
 | Cover letter | one page, 340 words |
-

@@ -75,14 +75,80 @@ def letter_html(letter):
 def render_letter(letter, out_pdf):
     out_pdf = Path(out_pdf)
     out_pdf.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        chrome = chrome_path()
+    except RuntimeError:
+        return render_letter_reportlab(letter, out_pdf)
     with tempfile.TemporaryDirectory() as tmp:
         src = Path(tmp) / 'letter.html'
         src.write_text(letter_html(letter), encoding='utf-8')
-        cmd = [chrome_path(), '--headless=new', '--no-sandbox', '--disable-gpu', '--no-pdf-header-footer',
+        cmd = [chrome, '--headless=new', '--no-sandbox', '--disable-gpu', '--no-pdf-header-footer',
                f'--print-to-pdf={out_pdf}', f'--user-data-dir={tmp}/profile', str(src)]
         r = subprocess.run(cmd, capture_output=True, text=True, timeout=120)
         if not out_pdf.exists() or out_pdf.read_bytes()[:4] != b'%PDF':
             raise RuntimeError(f'PDF not produced: {r.stderr[-400:]}')
+    return out_pdf
+
+
+def render_letter_reportlab(letter, out_pdf):
+    """Portable one-page fallback for runtimes without Chromium."""
+    from reportlab.lib import colors
+    from reportlab.lib.enums import TA_LEFT
+    from reportlab.lib.pagesizes import A4
+    from reportlab.lib.styles import ParagraphStyle
+    from reportlab.lib.units import mm
+    from reportlab.pdfbase import pdfmetrics
+    from reportlab.pdfbase.ttfonts import TTFont
+    from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, HRFlowable, KeepTogether
+
+    letter = letter.get('letter', letter)
+    if not letter.get('paragraphs'):
+        raise ValueError('cover letter has no paragraphs')
+    ident = FACTS['identity']
+    pdfmetrics.registerFont(TTFont('DejaVuSans', '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'))
+    pdfmetrics.registerFont(TTFont('DejaVuSans-Bold', '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'))
+    body = ParagraphStyle('Body', fontName='DejaVuSans', fontSize=9.4, leading=13.1,
+                          textColor=colors.HexColor('#202124'), spaceAfter=3.3 * mm)
+    meta = ParagraphStyle('Meta', parent=body, fontSize=8.7, leading=11.5, textColor=colors.HexColor('#4B5563'))
+    name = ParagraphStyle('Name', parent=body, fontName='DejaVuSans-Bold', fontSize=18, leading=21,
+                          textColor=colors.HexColor('#111827'), spaceAfter=1.5 * mm)
+    heading = ParagraphStyle('Heading', parent=body, fontName='DejaVuSans-Bold', fontSize=11.5, leading=14,
+                             textColor=colors.HexColor('#111827'), spaceBefore=2 * mm, spaceAfter=3 * mm)
+    small = ParagraphStyle('Small', parent=meta, fontSize=8, leading=10)
+    date = letter.get('date') or datetime.fromisoformat(today_melbourne()).strftime('%-d %B %Y')
+
+    def p(text, style=body):
+        return Paragraph(html.escape(str(text or '')).replace('\n', '<br/>'), style)
+
+    story = [p(ident['name'], name),
+             p(f"{ident['title']}\n{ident['location']} | {ident['phone']} | {ident['email']}\n{ident['portfolio_url']}", meta),
+             Spacer(1, 2.5 * mm), HRFlowable(width='100%', thickness=0.8, color=colors.HexColor('#111827')),
+             Spacer(1, 5 * mm), p(date, meta), Spacer(1, 4 * mm)]
+    recipient = [letter.get('recipient_name'), letter.get('recipient_role'), letter.get('company'), letter.get('company_line')]
+    story.append(p('\n'.join(str(x) for x in recipient if x), meta))
+    story += [Spacer(1, 4 * mm), p(letter.get('subject') or '', heading), p(letter.get('greeting') or 'Hello,')]
+    story.extend(p(x) for x in letter.get('paragraphs') or [])
+    story.append(KeepTogether([p(letter.get('closing') or 'Kind regards,'), Spacer(1, 2 * mm),
+                               p(ident['name'], ParagraphStyle('Sign', parent=body, fontName='DejaVuSans-Bold', spaceAfter=0)),
+                               p(f"{ident['phone']} | {ident['email']}", small)]))
+
+    def footer(canvas, doc):
+        canvas.saveState()
+        canvas.setStrokeColor(colors.HexColor('#D1D5DB'))
+        canvas.line(18 * mm, 14 * mm, A4[0] - 18 * mm, 14 * mm)
+        canvas.setFont('DejaVuSans', 7.5)
+        canvas.setFillColor(colors.HexColor('#6B7280'))
+        canvas.drawString(18 * mm, 9.5 * mm, 'MARC DARENZ MASARATE')
+        canvas.drawRightString(A4[0] - 18 * mm, 9.5 * mm, f'PAGE {doc.page}')
+        canvas.restoreState()
+
+    doc = SimpleDocTemplate(str(out_pdf), pagesize=A4, leftMargin=18 * mm, rightMargin=18 * mm,
+                            topMargin=16 * mm, bottomMargin=18 * mm,
+                            title=f"{letter.get('subject') or 'Cover letter'} | Marc Darenz Masarate",
+                            author=ident['name'])
+    doc.build(story, onFirstPage=footer, onLaterPages=footer)
+    if not out_pdf.exists() or out_pdf.read_bytes()[:4] != b'%PDF':
+        raise RuntimeError('PDF not produced by ReportLab fallback')
     return out_pdf
 
 
