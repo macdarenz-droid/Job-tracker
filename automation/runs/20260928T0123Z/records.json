@@ -1,26 +1,34 @@
 [
  {
-  "id": "1e882465-2eb4-4472-aa67-237376bed17d",
-  "key": "manual:1e882465-2eb4-4472-aa67-237376bed17d",
+  "id": "1c6be943-787a-4334-8a0e-579ab29167c3",
+  "key": "manual:1c6be943-787a-4334-8a0e-579ab29167c3",
   "contributor_name": "Claude",
   "created_by": "claude-job-search",
   "record_kind": "AUTOMATED_LEAD",
   "run_id": "20260928T0123Z",
-  "created_at": "2026-09-28T01:59:22.000Z",
-  "updated_at": "2026-09-28T01:59:22.000Z",
+  "created_at": "2026-09-28T02:03:38.000Z",
+  "updated_at": "2026-09-28T02:03:38.000Z",
   "version": 1,
   "attachments": [
    {
-    "kind": "resume",
+    "id": "107b5880-0b02-40fe-a636-8ba0d9b8c169",
+    "path": "/api/documents/107b5880-0b02-40fe-a636-8ba0d9b8c169",
     "filename": "Marc_Masarate_Waverley_Council_Resume.pdf",
-    "stored_in": "cloudflare_r2",
-    "sha256": "pending"
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-09-28T02:03:41.287Z",
+    "stored_in": "cloudflare_r2"
    },
    {
-    "kind": "cover",
+    "id": "57ef7423-06e0-438a-834f-f57970ce619d",
+    "path": "/api/documents/57ef7423-06e0-438a-834f-f57970ce619d",
     "filename": "Marc_Masarate_Waverley_Council_Cadet_Graduate_Engineer_Civil_Design_Maj_Cover_Letter.pdf",
-    "stored_in": "cloudflare_r2",
-    "sha256": "pending"
+    "sha256": "24466cc376bf23e99be89d2d424f04abac20ca4555a3fc59322131b51e38b027",
+    "size_bytes": 48776,
+    "kind": "cover",
+    "uploaded_at": "2026-09-28T02:03:39.403Z",
+    "stored_in": "cloudflare_r2"
    }
   ],
   "company": "Waverley Council",
@@ -37,7 +45,7 @@
   "recipient_email": "alice.mccosker@waverley.nsw.gov.au",
   "contact_email": "alice.mccosker@waverley.nsw.gov.au",
   "contact_evidence_url": "https://www.seek.com.au/job/94661745",
-  "contact_verified_at": "2026-09-28T01:59:22.000Z",
+  "contact_verified_at": "2026-09-28T02:03:38.000Z",
   "contact_confidence": "published_direct",
   "subject": "Graduate Engineer application, Marc Masarate",
   "email_body": "Hi Alice,\n\nI've lodged my application for the Cadet/Graduate Engineer role in the Civil Design team through the Council website, and wanted to say hello directly since the ad lists you as the contact.\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026, where I designed and documented road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D to Australian Standards, and lodged Before You Dig Australia enquiries as part of the design work. My civil engineering degree (Philippines, 2019) covered surveying and hydraulics, and I worked on site there for about a year doing inspections, drawing reviews and site records.\n\nI'm based in Melton, Victoria and open to discussing relocation to Sydney. I hold a White Card, an Australian driver's licence and full working rights until December 2027 on a Subclass 485 visa.\n\nIf it would help to see my drawings before shortlisting, they're at macdarenz-droid.github.io/Portfolio. Happy to answer any questions.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077",
@@ -99,32 +107,40 @@
    "Press Applied on the tracker with the date and \"Company website\". Claude then sends the short note to Alice McCosker."
   ],
   "notes": "Applications only through the Council website. Alice McCosker (Senior Design Engineer) is named in the advert with her council email for questions; the note to her goes only after the portal application is marked Applied.\nPublished by the employer in the advert as the contact for information; applications go through the Council website only.\nDouble touch: email the contact only after this record is marked Applied.",
-  "checked_at": "2026-09-28T01:59:22.000Z",
+  "checked_at": "2026-09-28T02:03:38.000Z",
   "seek_id": "94661745",
   "duplicate_key": "waverleycouncil|seek:94661745"
  },
  {
-  "id": "88303303-039f-4cfd-a8f9-2b3454fb4b98",
-  "key": "manual:88303303-039f-4cfd-a8f9-2b3454fb4b98",
+  "id": "3741f4be-4bbe-460f-aaab-dd352a9bf00b",
+  "key": "manual:3741f4be-4bbe-460f-aaab-dd352a9bf00b",
   "contributor_name": "Claude",
   "created_by": "claude-job-search",
   "record_kind": "AUTOMATED_LEAD",
   "run_id": "20260928T0123Z",
-  "created_at": "2026-09-28T01:59:22.000Z",
-  "updated_at": "2026-09-28T01:59:22.000Z",
+  "created_at": "2026-09-28T02:03:42.000Z",
+  "updated_at": "2026-09-28T02:03:42.000Z",
   "version": 1,
   "attachments": [
    {
-    "kind": "resume",
+    "id": "37599a69-479d-4a5a-9739-67de4c3fc6f6",
+    "path": "/api/documents/37599a69-479d-4a5a-9739-67de4c3fc6f6",
     "filename": "Marc_Masarate_Melbourne_Truss_Pty_Ltd_Resume.pdf",
-    "stored_in": "cloudflare_r2",
-    "sha256": "pending"
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-09-28T02:03:45.285Z",
+    "stored_in": "cloudflare_r2"
    },
    {
-    "kind": "cover",
+    "id": "276257f8-4ab0-46cf-8add-80260a46c7a5",
+    "path": "/api/documents/276257f8-4ab0-46cf-8add-80260a46c7a5",
     "filename": "Marc_Masarate_Melbourne_Truss_Pty_Ltd_Civil_Engineering_Draftsperson_Cover_Letter.pdf",
-    "stored_in": "cloudflare_r2",
-    "sha256": "pending"
+    "sha256": "49c8b8c47114e5021b92e7470b79c4e0b71fa35afb6adae245f3e50b1c3d8ea0",
+    "size_bytes": 47580,
+    "kind": "cover",
+    "uploaded_at": "2026-09-28T02:03:43.290Z",
+    "stored_in": "cloudflare_r2"
    }
   ],
   "company": "Melbourne Truss Pty Ltd",
@@ -141,7 +157,7 @@
   "recipient_email": "info@melbtruss.com.au",
   "contact_email": "info@melbtruss.com.au",
   "contact_evidence_url": "https://www.seek.com.au/job/94685572",
-  "contact_verified_at": "2026-09-28T01:59:22.000Z",
+  "contact_verified_at": "2026-09-28T02:03:42.000Z",
   "contact_confidence": "published_inbox",
   "subject": "Civil Engineering Draftsperson, Marc Masarate",
   "email_body": "Hello,\n\nI'm applying for the Civil Engineering Draftsperson role advertised on SEEK, with my resume and cover letter attached as the ad asks.\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026 and draft in AutoCAD in 2D and 3D. I've also built a 3D model in Revit, a pedestrian truss bridge, so I've worked through truss geometry before, if only in a model. In the diploma I prepared and reviewed drawings to Australian Standards, which is the part of this role I'd be strongest in from day one. I haven't used Pryda software yet, so I would need to learn it, and I'd put the hours in.\n\nI have about a year of site experience in the Philippines from 2019 to 2020, reading architectural and structural drawings, checking work against them, dealing with suppliers and keeping clients updated on progress. Customer contact wouldn't be new to me.\n\nI live in Melton and have my own transport, so Somerton is a commute I can do. I hold a White Card and have full working rights until December 2027 on a Subclass 485 visa.\n\nWould you be open to a short conversation about the role?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz-droid.github.io/Portfolio",
@@ -214,32 +230,40 @@
    "Press Applied on the tracker with the date and \"Email\" once it has gone."
   ],
   "notes": "Advert says to send resume and cover letter to info@melbtruss.com.au, so that inbox accepts applications. Pryda software is a stated gap. Local to Melton. Owner Faruk Ozkan and General Manager Harun Sahin are named in a Pryda partner article (no emails), so the letter is addressed to Harun and the email goes to info@ as the advert instructs.\nNo direct contact: melbtruss.com.au is a single-page site (home, lead-times, Firezone post, 20-years giveaway post); /about-us/, /contact-us/ and /careers/ return 404 and no page names any person or personal business email. The only employer-published address is info@melbtruss.com.au, and the SEEK advert explicitly directs applications there, so it qualifies as a published application inbox. Named owner/GM come from a Pryda (supplier) press article, not the employer site, with no emails; do not pattern-build addresses for them. A search summary also mentioned 'Emre Ozkan, General Manager' but only via data-broker style profiles, so it is excluded. Advert also asks for Pryda Build knowledge, estimating and quoting, customer service, and a National Police Certificate. Calls used: 4 WebSearch, 7 WebFetch.",
-  "checked_at": "2026-09-28T01:59:22.000Z",
+  "checked_at": "2026-09-28T02:03:42.000Z",
   "seek_id": "94685572",
   "duplicate_key": "melbournetrussptyltd|seek:94685572"
  },
  {
-  "id": "e688c722-734d-4bf1-9408-f3b53f6071cb",
-  "key": "manual:e688c722-734d-4bf1-9408-f3b53f6071cb",
+  "id": "615f7213-5719-4612-920b-9f2a1554cb34",
+  "key": "manual:615f7213-5719-4612-920b-9f2a1554cb34",
   "contributor_name": "Claude",
   "created_by": "claude-job-search",
   "record_kind": "AUTOMATED_LEAD",
   "run_id": "20260928T0123Z",
-  "created_at": "2026-09-28T01:59:22.000Z",
-  "updated_at": "2026-09-28T01:59:22.000Z",
+  "created_at": "2026-09-28T02:03:46.000Z",
+  "updated_at": "2026-09-28T02:03:46.000Z",
   "version": 1,
   "attachments": [
    {
-    "kind": "resume",
+    "id": "6a005075-3941-442a-94b3-9b98456156e7",
+    "path": "/api/documents/6a005075-3941-442a-94b3-9b98456156e7",
     "filename": "Marc_Masarate_Excel_Contracting_NSW_Resume.pdf",
-    "stored_in": "cloudflare_r2",
-    "sha256": "pending"
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-09-28T02:03:48.700Z",
+    "stored_in": "cloudflare_r2"
    },
    {
-    "kind": "cover",
+    "id": "4df842e8-5e3e-4128-972f-9c56ae59d584",
+    "path": "/api/documents/4df842e8-5e3e-4128-972f-9c56ae59d584",
     "filename": "Marc_Masarate_Excel_Contracting_NSW_Junior_Civil_Engineer_Cover_Letter.pdf",
-    "stored_in": "cloudflare_r2",
-    "sha256": "pending"
+    "sha256": "dbecc8d1ead44cf9be835b2e98fd61264ad423c9295bdc1db97b83c03cc2d0f6",
+    "size_bytes": 48084,
+    "kind": "cover",
+    "uploaded_at": "2026-09-28T02:03:47.324Z",
+    "stored_in": "cloudflare_r2"
    }
   ],
   "company": "Excel Contracting NSW",
@@ -256,7 +280,7 @@
   "recipient_email": "hr@excelcontracting.net.au",
   "contact_email": "hr@excelcontracting.net.au",
   "contact_evidence_url": "https://www.excelcontracting.net.au/careers/",
-  "contact_verified_at": "2026-09-28T01:59:22.000Z",
+  "contact_verified_at": "2026-09-28T02:03:46.000Z",
   "contact_confidence": "published_inbox",
   "subject": "Junior Civil Engineer application, Marc Masarate",
   "email_body": "Hello,\n\nI've applied through SEEK for the Junior Civil Engineer role at Castle Hill and wanted to send a short note to the careers inbox as well, since the website asks for CVs there.\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026 (road, earthworks, pavement and stormwater design in AutoCAD and Civil 3D to Australian Standards) and before that worked on site in the Philippines for about a year as project-in-charge and field engineer: drawing reviews, inspections, quality checks and site records. That is a little under the one to two years the ad asks for, and I'd rather say so plainly.\n\nI hold a White Card, a driver's licence with my own transport, and full working rights until December 2027 on a Subclass 485 visa. I'm in Melton, Victoria and open to discussing relocation to Sydney.\n\nI've attached my resume and cover letter. My drawings are at macdarenz-droid.github.io/Portfolio.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077",
@@ -321,32 +345,40 @@
    "Press Applied on the tracker with the date and \"SEEK\". Claude then sends the short note to hr@excelcontracting.net.au."
   ],
   "notes": "Advert route is SEEK. Careers page publishes hr@excelcontracting.net.au for CVs, so a short note goes there only after the SEEK application is marked Applied (double touch). Recent projects from the company site: Rhino Reserve at Taronga Zoo, Henson Park redevelopment.\nCompany verified as the advertiser: Excel Contracting (NSW), ABN 60 127 317 444, office Level 1, 3/16 Anella Ave, Castle Hill NSW 2154, workshop 5 Squill Place, Arndell Park NSW 2148, phone (02) 8004 1877 (site + buy.nsw supplier profile https://buy.nsw.gov.au/supplier/profile/4819 + LinkedIn company page). The advert's 'ABOUT EXCEL' paragraph matches the buy.nsw/website blurb word for word ('established earthmoving, excavation and civil works ... road and drainage works, underpinning, shotcreting, shoring, concreting, bulk and detail excavation'). Website pages checked: home, about, values, community, accreditation, projects, careers, contact; no team/our-people page, no capability statement PDF (wp-content/uploads 2025 month folders contain no PDFs), no named director, project manager or engineer with a published business email anywhere on the site, buy.nsw profile or LinkedIn company page. buy.nsw says 'projects are managed by our experienced site teams consisting of Project Managers, Engineers, Site Managers, Supervisors' but names nobody. Contact page lists four generic inboxes with no statement that they take applications; only the careers page publishes hr@excelcontracting.net.au and explicitly asks for CV/Resume, so contact_confidence is published_inbox, not published_direct. The careers page still says 'we do not have any positions available' (stale versus the SEEK advert listed 2026-09-20). Email-format guesses shown by RocketReach/ensun/ContactOut/ZoomInfo in search snippets were ignored per the contact rule. Per config double_touch: apply via SEEK first (Jeremie), and only after it is marked Applied may a short note go to hr@ referencing the SEEK application; never send before.\nDouble touch: email the contact only after this record is marked Applied.",
-  "checked_at": "2026-09-28T01:59:22.000Z",
+  "checked_at": "2026-09-28T02:03:46.000Z",
   "seek_id": "94755478",
   "duplicate_key": "excelcontractingnsw|seek:94755478"
  },
  {
-  "id": "a23ecd25-d677-4714-982f-9b120a6ffc7d",
-  "key": "manual:a23ecd25-d677-4714-982f-9b120a6ffc7d",
+  "id": "b9b83a07-1246-4d99-aa75-7d25e9a68400",
+  "key": "manual:b9b83a07-1246-4d99-aa75-7d25e9a68400",
   "contributor_name": "Claude",
   "created_by": "claude-job-search",
   "record_kind": "AUTOMATED_LEAD",
   "run_id": "20260928T0123Z",
-  "created_at": "2026-09-28T01:59:22.000Z",
-  "updated_at": "2026-09-28T01:59:22.000Z",
+  "created_at": "2026-09-28T02:03:50.000Z",
+  "updated_at": "2026-09-28T02:03:50.000Z",
   "version": 1,
   "attachments": [
    {
-    "kind": "resume",
+    "id": "bd532317-4f1a-4214-bb81-9b4e96348cdf",
+    "path": "/api/documents/bd532317-4f1a-4214-bb81-9b4e96348cdf",
     "filename": "Marc_Masarate_City_of_Vincent_Resume.pdf",
-    "stored_in": "cloudflare_r2",
-    "sha256": "pending"
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-09-28T02:03:53.965Z",
+    "stored_in": "cloudflare_r2"
    },
    {
-    "kind": "cover",
+    "id": "3895bcc2-1435-4e73-8eed-2362ed982889",
+    "path": "/api/documents/3895bcc2-1435-4e73-8eed-2362ed982889",
     "filename": "Marc_Masarate_City_of_Vincent_Junior_Design_Engineer_Cover_Letter.pdf",
-    "stored_in": "cloudflare_r2",
-    "sha256": "pending"
+    "sha256": "f241d221d6bdacbf07d6cd24c5b896746c27f0d9c7b74ec0fe0b0e3548ffa915",
+    "size_bytes": 47470,
+    "kind": "cover",
+    "uploaded_at": "2026-09-28T02:03:51.955Z",
+    "stored_in": "cloudflare_r2"
    }
   ],
   "company": "City of Vincent",
@@ -413,32 +445,40 @@
    "Press Applied on the tracker with the date and \"Company website\"."
   ],
   "notes": "Closes 30 September 2026 5pm AWST. Perth relocation. Contact Jacob Beets by phone only; no email published.\nPhone contact only; applications via the Vincent jobs board.",
-  "checked_at": "2026-09-28T01:59:22.000Z",
+  "checked_at": "2026-09-28T02:03:50.000Z",
   "seek_id": "94767555",
   "duplicate_key": "cityofvincent|seek:94767555"
  },
  {
-  "id": "47960402-8329-4def-b4bc-644011979c24",
-  "key": "manual:47960402-8329-4def-b4bc-644011979c24",
+  "id": "ad268431-9281-4c44-9eb7-0def931e80a9",
+  "key": "manual:ad268431-9281-4c44-9eb7-0def931e80a9",
   "contributor_name": "Claude",
   "created_by": "claude-job-search",
   "record_kind": "AUTOMATED_LEAD",
   "run_id": "20260928T0123Z",
-  "created_at": "2026-09-28T01:59:22.000Z",
-  "updated_at": "2026-09-28T01:59:22.000Z",
+  "created_at": "2026-09-28T02:03:54.000Z",
+  "updated_at": "2026-09-28T02:03:54.000Z",
   "version": 1,
   "attachments": [
    {
-    "kind": "resume",
+    "id": "007a39bb-4d1e-4559-8d6c-2a167d1a9017",
+    "path": "/api/documents/007a39bb-4d1e-4559-8d6c-2a167d1a9017",
     "filename": "Marc_Masarate_JHA_Consulting_Engineers_NSW_Pty_Ltd_Resume.pdf",
-    "stored_in": "cloudflare_r2",
-    "sha256": "pending"
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-09-28T02:03:58.095Z",
+    "stored_in": "cloudflare_r2"
    },
    {
-    "kind": "cover",
+    "id": "07cc2100-7df7-45e1-bec0-eda3927fe1e4",
+    "path": "/api/documents/07cc2100-7df7-45e1-bec0-eda3927fe1e4",
     "filename": "Marc_Masarate_JHA_Consulting_Engineers_NSW_Pty_Ltd_Trainee_Structural_Drafter_Cover_Letter.pdf",
-    "stored_in": "cloudflare_r2",
-    "sha256": "pending"
+    "sha256": "7db43c130f6f94fa3863865842f41182b51e85de84ec0ddda3e3b06c6fffa39a",
+    "size_bytes": 47725,
+    "kind": "cover",
+    "uploaded_at": "2026-09-28T02:03:55.954Z",
+    "stored_in": "cloudflare_r2"
    }
   ],
   "company": "JHA Consulting Engineers (NSW) Pty Ltd",
@@ -455,7 +495,7 @@
   "recipient_email": "hr@jhaengineers.com.au",
   "contact_email": "hr@jhaengineers.com.au",
   "contact_evidence_url": "https://www.seek.com.au/job/94785391",
-  "contact_verified_at": "2026-09-28T01:59:22.000Z",
+  "contact_verified_at": "2026-09-28T02:03:54.000Z",
   "contact_confidence": "published_inbox",
   "subject": "Trainee Structural Drafter, Marc Masarate",
   "email_body": "Hello,\n\nI'm applying for the Trainee Structural Drafter role advertised on SEEK.\n\nI know the ad is written with school leavers and TAFE starters in mind. I have more study behind me than that, and I'm happy to start at trainee level because drafting is the work I want to do. I finished an Advanced Diploma of Civil Construction Design in February 2026, where I drew road, earthworks, pavement and stormwater designs in AutoCAD and Civil 3D to Australian Standards. I also built a 3D model of a pedestrian truss bridge in Revit, so Revit isn't new to me, though my use of it is from coursework.\n\nBefore the diploma I worked on site in the Philippines for about a year, reviewing structural and architectural drawings, checking the work against them and keeping site records. It left me with the habit of reading drawings closely.\n\nI'm based in Melton, Victoria and open to discussing relocation to Sydney. I hold a White Card and a driver's licence, and I have full working rights until December 2027 on a Subclass 485 visa.\n\nI've attached my resume and cover letter. My drawings are at macdarenz-droid.github.io/Portfolio if that helps. I'd be glad to have a short call.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz-droid.github.io/Portfolio",
@@ -484,33 +524,41 @@
   },
   "screening_answers": [],
   "checklist": [],
-  "notes": "Advert asks for resume and brief cover letter by email to hr@jhaengineers.com.au. Aimed at school leavers; Marc is overqualified and the email says so honestly. JHA people page names Jarrod Grimshaw (Director, structural design) and Nemesio Biason Jr (Civil Group Manager) without emails, so the letter is addressed to Jarrod and the email goes to hr@ as instructed.\nwww.jhaengineers.com.au does not resolve; the live site is jhaengineers.com (emails use @jhaengineers.com.au). Our People page (structural/civil section) names Jarrod Grimshaw (Director) and Nemesio Biason Jr (Civil Group Manager) but publishes no individual emails for them; the only named-person email the employer publishes is lawrence.yu@jhaengineers.com.au (ESD Group Manager, unrelated discipline, not used). Other site inboxes: enquiries@, sydney@, brisbane@, melbourne@jhaengineers.com.au (generic, not stated to accept applications). Search results surfaced ZoomInfo/RocketReach/SignalHire/LeadIQ entries; ignored per rule. Advert screening questions: right to work in Australia, expected base salary. Advert expires 2026-10-22. Budget used: 6 WebSearch, 8 WebFetch.",
-  "checked_at": "2026-09-28T01:59:22.000Z",
+  "notes": "Advert asks for resume and brief cover letter by email to hr@jhaengineers.com.au. Aimed at school leavers; Marc is overqualified and the email says so honestly. JHA people page names Jarrod Grimshaw (Director, structural design) and Nemesio Biason Jr (Civil Group Manager) without emails, so the letter is addressed to the Structural & Civil team and the email goes to hr@ as instructed.\nwww.jhaengineers.com.au does not resolve; the live site is jhaengineers.com (emails use @jhaengineers.com.au). Our People page (structural/civil section) names Jarrod Grimshaw (Director) and Nemesio Biason Jr (Civil Group Manager) but publishes no individual emails for them; the only named-person email the employer publishes is lawrence.yu@jhaengineers.com.au (ESD Group Manager, unrelated discipline, not used). Other site inboxes: enquiries@, sydney@, brisbane@, melbourne@jhaengineers.com.au (generic, not stated to accept applications). Search results surfaced ZoomInfo/RocketReach/SignalHire/LeadIQ entries; ignored per rule. Advert screening questions: right to work in Australia, expected base salary. Advert expires 2026-10-22. Budget used: 6 WebSearch, 8 WebFetch.",
+  "checked_at": "2026-09-28T02:03:54.000Z",
   "seek_id": "94785391",
   "duplicate_key": "jhaconsultingengineersnswptyltd|seek:94785391"
  },
  {
-  "id": "14403ecb-9970-47db-a9e6-8bf37bc8b3a1",
-  "key": "manual:14403ecb-9970-47db-a9e6-8bf37bc8b3a1",
+  "id": "2d741e6a-5749-44db-80dd-97a653decf4c",
+  "key": "manual:2d741e6a-5749-44db-80dd-97a653decf4c",
   "contributor_name": "Claude",
   "created_by": "claude-job-search",
   "record_kind": "AUTOMATED_LEAD",
   "run_id": "20260928T0123Z",
-  "created_at": "2026-09-28T01:59:22.000Z",
-  "updated_at": "2026-09-28T01:59:22.000Z",
+  "created_at": "2026-09-28T02:03:59.000Z",
+  "updated_at": "2026-09-28T02:03:59.000Z",
   "version": 1,
   "attachments": [
    {
-    "kind": "resume",
+    "id": "19d77cae-cbb5-4228-a660-dacd30756534",
+    "path": "/api/documents/19d77cae-cbb5-4228-a660-dacd30756534",
     "filename": "Marc_Masarate_Gunnedah_Shire_Council_Resume.pdf",
-    "stored_in": "cloudflare_r2",
-    "sha256": "pending"
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-09-28T02:04:01.676Z",
+    "stored_in": "cloudflare_r2"
    },
    {
-    "kind": "cover",
+    "id": "f2085e6e-37fb-4bb8-bcea-493fe1769b8b",
+    "path": "/api/documents/f2085e6e-37fb-4bb8-bcea-493fe1769b8b",
     "filename": "Marc_Masarate_Gunnedah_Shire_Council_Civil_Survey_Design_Officer_Cadet_or_Gra_Cover_Letter.pdf",
-    "stored_in": "cloudflare_r2",
-    "sha256": "pending"
+    "sha256": "c7574fa64c4de65ef4c359b9878b6063910e8c2f29a2f17d3b771692d099d8dd",
+    "size_bytes": 49329,
+    "kind": "cover",
+    "uploaded_at": "2026-09-28T02:04:00.163Z",
+    "stored_in": "cloudflare_r2"
    }
   ],
   "company": "Gunnedah Shire Council",
@@ -581,7 +629,7 @@
    "Press Applied on the tracker with the date and \"Company website\"."
   ],
   "notes": "Council portal only. Daniel Abraham, Manager Engineering Services, is named for enquiries by phone (02 6740 2100); peopleandculture@gunnedah.nsw.gov.au is for questions about the process, not applications. The ad accepts valid work visas. Regional NSW.\nPhone contact only. peopleandculture@gunnedah.nsw.gov.au handles enquiries about the recruitment process, not applications.",
-  "checked_at": "2026-09-28T01:59:22.000Z",
+  "checked_at": "2026-09-28T02:03:59.000Z",
   "seek_id": "94797040",
   "duplicate_key": "gunnedahshirecouncil|seek:94797040"
  }
