@@ -1,0 +1,43 @@
+{
+ "percent": 60,
+ "rationale": [
+  "Melton City Council, Civil Projects Officer, Band 6 permanent, in the town where Marc lives.",
+  "Tertiary civil qualification with some relevant experience: Marc has a civil degree, an Australian diploma and 11 months of site work in the Philippines.",
+  "The key selection criteria ask for proven project and contract management, contract supervision and program delivery experience, which Marc does not have."
+ ],
+ "caution": "Experienced-officer role (Band 6, $97,926 to $106,637); a junior would be competing with people who hold contract management experience. Held so Marc can decide; found on the council portal, not SEEK.",
+ "gaps": [
+  "No Australian work experience",
+  "No contract management or contract supervision experience",
+  "Traffic management and OH&S knowledge is from coursework and site work, not Australian standards in practice"
+ ],
+ "mandatory_unmet": [
+  "Key selection criterion: \"Experience in project and contract management and contract supervision\" and \"Proven experience in projects and programs delivery and monitoring\" (Marc has 11 months as an entry-level site engineer, no contract management)"
+ ],
+ "mandatory_unresolved": [
+  "Current valid Victorian driver's licence (Marc's licence state is not on record)"
+ ],
+ "route": "EMPLOYER_PORTAL",
+ "apply_email": "",
+ "apply_instructions": "Apply online through the Melton City Council careers portal (Apply Now on the advert page; SEEK-profile prefill is offered but the application is lodged on the council portal). Applications must include a Resume and address the Key Selection Criteria in short statements. Applicant must be legally entitled to work in Australia; pre-employment criminal history check applies. Position enquiries: Shoaib Rehman, Civil Projects Team Leader, 9747 5288 or 0499 200 841. Applications close 11:59pm Wednesday 7 October 2026. Job No MEL1888. Full-time permanent, Band 6, $97,926 to $106,637 pa + 12% super + ADO. Not a graduate or junior role: Band 6 with project and contract management criteria, so a stretch for a junior. Council portal submission belongs to Jeremie.",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Melton City Council",
+ "title": "Civil Projects Officer",
+ "location": "Melton, VIC",
+ "url": "https://meltoncity-external.applynow.net.au/jobs/MEL1888-civil-projects-officer",
+ "listed_at": "2026-09-15",
+ "expires_at": "2026-10-07T23:59:00+11:00",
+ "screening_questions": [
+  "Are you an Australian citizen, permanent resident of Australia or legally entitled to work in Australia? (Yes/No)",
+  "Have you had any allegations made against you under the reportable conduct scheme that were substantiated? (Yes/No)",
+  "Have you left any organisation whilst you were subject to a pending reportable conduct investigation? (Yes/No)",
+  "Current valid Victorian Driver's Licence. (Yes/No)",
+  "Tertiary level qualifications in civil engineering with some relevant experience in all aspects of civil infrastructure construction and maintenance or lesser formal qualifications and substantial relevant experience.",
+  "Experience in project and contract management and contract supervision.",
+  "Proven experience in projects and programs delivery and monitoring.",
+  "Demonstrated understanding of OH&S, traffic management and construction standards.",
+  "Proven ability to prepare and write financial, administrative, procurement, contractual and other reports and procedures to a variety of key stakeholders."
+ ],
+ "screened_by": "Claude 29 Sep 2026 (extra advert from the council portal sweep)"
+}
