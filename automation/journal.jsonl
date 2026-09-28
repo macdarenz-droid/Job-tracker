@@ -5,4 +5,10 @@
 {"run_id": "20260928T0123Z", "at": "2026-09-28T01:52:26.000Z", "stage": "screen", "screened": 25, "eligible": 12, "shortlisted": 6, "contact_agents": 3}
 {"run_id": "20260928T0123Z", "at": "2026-09-28T01:54:43.000Z", "stage": "draft", "drafts": 6, "prepared_email": 2, "ready_portal": 3, "ready_seek": 1, "direct_contacts": 1, "published_inboxes": 3}
 {"run_id": "20260928T0123Z", "at": "2026-09-28T02:04:22.000Z", "stage": "end", "new": 6, "prepared": 2, "ready": 4, "held": 0, "sent": 0, "duplicates": 12, "tracker_version": 7}
+<<<<<<< HEAD
 {"run_id": "20260928T0123Z", "at": "2026-09-28T02:39:09.000Z", "stage": "send", "company": "Melbourne Truss Pty Ltd", "to": "info@melbtruss.com.au", "gmail_message_id": "1a0e5e08b578d8b7", "result": "SENT"}
+=======
+
+{"run_id": "20260928T021451Z-codex", "at": "2026-09-28T02:21:14.776838+00:00", "stage": "checkpoint", "worker": "Codex", "reviewed": 6, "new": 0, "sent": 0, "recommended_holds": 5, "phase": "adopt_and_review", "publication": "pending row reconciliation"}
+{"run_id":"20260928T021451Z-codex","at":"2026-09-28T02:25:36.668915+00:00","stage":"end","worker":"Codex","kind":"adoption_and_existing_pack_review","new":0,"sent":0,"held":4,"preexisting_unresolved_sending":1,"tracker_version":9,"publication_run_id":36369606912,"source_commit":"73a5c879d65436aacda703ed6ef4b07f08042288","next_action":"Reconcile Melbourne Truss SENDING; do not retry. Reverify JHA and resolve four live holds."}
+>>>>>>> origin/claude/job-search-automation-sg3inr

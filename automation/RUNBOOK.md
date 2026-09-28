@@ -2,6 +2,10 @@
 
 Claude follows this every five hours. Read it fresh each tick (`git show origin/claude/job-search-automation-sg3inr:automation/RUNBOOK.md` if the checkout may be stale). Keep the whole tick under about 25 minutes. Decide, don't ask; write new decisions to `docs/COACHING-DECISIONS.md`.
 
+## Shared safeguards (all runners)
+
+Root `AGENTS.md` and `automation/CODEX.md` explain the shared lock, complete-history checks and current review holds. A per-record status or D1 version guard is not a global send lease. Read the full advert and linked essential criteria; record unresolved mandatory requirements as holds, never as ready merely because they are disclosed.
+
 ## 0. Routine prompt (what the schedule sends)
 
 > Job-search tick. Follow `automation/RUNBOOK.md` in macdarenz-droid/Job-tracker (branch `claude/job-search-automation-sg3inr`) end to end: sweep, screen, dedupe, contact research, draft, verify, publish to the tracker as Claude, send at most one email only if the Gmail connector is attached, journal, commit and push. At the end write one line: "tick <run_id> done · new <n> · prepared <n> · sent <n> · held <n>". Speak only at a STOP condition otherwise.
@@ -31,9 +35,9 @@ Then one sweep Agent (see §9) on this run's rotation: (a) six employers from `c
 ```
 python3 seek.py digest ../runs/$RUN            # compact view of the new candidates, at most 25
 ```
-One Agent (effort low) reads `screen_input.json`, `facts.json` and `config.json → fit`, scores every candidate with the rubric, and writes `screen/<id>.json` per candidate: `percent`, `rationale` (3 lines), `caution`, `gaps`, `mandatory_unmet`, `route` (SEEK, EMPLOYER_PORTAL, EMPLOYER_FORM, EMAIL), `apply_email`, `apply_instructions`, `open`, `employer_is_agency`, plus `company`, `title`, `location`, `url`, `listed_at`, `expires_at`, `screening_questions` copied from the input. It returns a ranked table (id, company, title, percent, open, mandatory, route, agency).
+One Agent (effort low) reads `screen_input.json`, `facts.json` and `config.json → fit`, scores every candidate with the rubric, and writes `screen/<id>.json` per candidate: `percent`, `rationale` (3 lines), `caution`, `gaps`, `mandatory_unmet`, `mandatory_unresolved`, `route` (SEEK, EMPLOYER_PORTAL, EMPLOYER_FORM, EMAIL), `apply_email`, `apply_instructions`, `open`, `employer_is_agency`, plus `company`, `title`, `location`, `url`, `listed_at`, `expires_at`, `screening_questions` copied from the input. It returns a ranked table (id, company, title, percent, open, mandatory, route, agency).
 
-Keep: `percent >= 60`, `open`, `mandatory_unmet` empty; direct employers before agencies; then by percent and listed date. Take at most `contact_research_max_per_run` (4). Adverts at 60+ with a mandatory problem become `HELD_…` records through `publish.py held`.
+Keep: `percent >= 60`, `open`, `mandatory_unmet` and `mandatory_unresolved` empty; direct employers before agencies; then by percent and listed date. Take at most `contact_research_max_per_run` (4). Adverts at 60+ with a mandatory problem become `HELD_…` records through `publish.py held`.
 
 ## 4. Contact research (one agent per kept employer, at most 4, in parallel)
 
@@ -66,13 +70,20 @@ Every record also carries, in `notes`, a plain-words "HOW CLAUDE FOUND THIS" par
 ## 8. Send (only when the Gmail connector is attached; otherwise skip)
 
 At most one per run. Pick the highest-fit `PREPARED_NOT_SENT` record whose advert is still open (re-check with `seek.py details`).
-1. Lease: `tracker.py update <id> '{"status":"SENDING"}' --expect-status PREPARED_NOT_SENT`. A 409 or a status mismatch means stop and re-read.
+1. First acquire and verify the actual shared canonical-journal lease under its current-version guard (unique owner and bounded expiry); preserve another active lease and hold if inaccessible. Save exact intended send evidence there. Only then mark this row: `tracker.py update <id> '{"status":"SENDING"}' --expect-status PREPARED_NOT_SENT`. A 409 or a status mismatch means stop and re-read.
 2. Final checks: `tracker.py check` on the record again (no new outreach to the employer since), `checks.py record`, open both PDFs from R2 and read them, confirm the recipient against `contact_evidence_url` once more.
+<<<<<<< HEAD
 3. Attachments: the Gmail tool takes inline base64, and long base64 is easy to mis-copy. Render compact PDFs (`compact_pdf.py letter` and `compact_pdf.py resume`, base-14 fonts, merged content streams; about 2 KB and 5 KB), print each base64, paste it into a heredoc file and check `sha256sum` against the PDF before using it; a mismatch means re-copy (or regenerate the PDF with different metadata and try again). Only verified strings go into the send call. A 400 from the tool names the bad attachment; nothing was sent, so fix and retry.
 4. Send with the Gmail tool: to `recipient_email`, subject, body, both PDFs attached, from macdarenz@gmail.com. Record the returned message id.
 5. `tracker.py update <id> '{"status":"SENT","sent_at":"<now>","gmail_message_id":"<id>","application_method":"Email","sent_attachments":[...]}' --expect-status SENDING`.
 6. No message id or an error after the send call: `SEND_UNCERTAIN` with the error text; do not retry in this or any later run until Gmail Sent is checked. A bounce seen later: `DELIVERY_FAILED`.
 7. Double touch: an email to a direct contact about an advert that must go through SEEK or a portal is sent only after that record is `MANUAL_APPLIED` (Marc or Jeremie pressed Applied).
+=======
+3. Send with the Gmail tool: to `recipient_email`, subject, body, both PDFs attached, from macdarenz@gmail.com. Record the returned message id.
+4. `tracker.py update <id> '{"status":"SENT","sent_at":"<now>","gmail_message_id":"<id>","application_method":"Email"}' --expect-status SENDING`.
+5. No message id or an error after the send call: `SEND_UNCERTAIN` with the error text; do not retry in this or any later run until Gmail Sent is checked. A bounce seen later: `DELIVERY_FAILED`.
+6. Double touch is not a duplicate-application exception. It needs explicit owner authority, an appropriate verified named contact, and all root AGENTS checks; never automatically email HR another CV package. An otherwise permitted email to a direct contact about an advert that must go through SEEK or a portal is sent only after that record is `MANUAL_APPLIED` (Marc or Jeremie pressed Applied).
+>>>>>>> origin/claude/job-search-automation-sg3inr
 
 Follow-ups: a `SENT` record older than `follow_up_after_days` with no reply noted (`reply_at` empty) and `follow_ups` under `max_follow_ups` is eligible; it counts as the run's one email, uses the same lease, and is a three-sentence note.
 
@@ -95,10 +106,11 @@ STOP conditions (say them, then end the turn): tracker code missing; tracker API
 
 | Item | Limit |
 |---|---|
-| SEEK detail fetches | 60 (100 when widening) |
-| New records per run | 5 |
+| SEEK detail fetches | 60 (80 when widening; digest up to 40) |
+| New records per run | 6 (target at least 2, only when eligible) |
 | Emails per run | 1 |
 | Speculative enquiries per run | 1 |
 | Repeat block per employer | 90 days |
 | Email length | 220 words |
 | Cover letter | one page, 340 words |
+

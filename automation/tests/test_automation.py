@@ -174,12 +174,12 @@ class CheckTests(unittest.TestCase):
         rec = tracker.new_record({'company': 'Acme', 'role': 'Junior Civil Drafter', 'status': 'PREPARED_NOT_SENT', 'job_url': 'https://www.seek.com.au/job/5',
                                   'subject': 'Junior Civil Drafter, Marc Masarate', 'email_body': 'Hi Sam,\n\nShort note.\n\nThanks,\nMarc', 'recipient_email': 'sam@acme.com.au',
                                   'recipient_name': 'Sam Lee', 'recipient_role': 'Engineering Manager', 'contact_evidence_url': 'https://acme.com.au/team', 'fit': 'x', 'gaps': ['y'],
-                                  'match_score': {'percent': 70}, 'contact_confidence': 'published_direct', 'attachments': [{'kind': 'resume', 'stored_in': 'cloudflare_r2', 'sha256': 'a', 'filename': 'r.pdf'}, {'kind': 'cover', 'stored_in': 'cloudflare_r2', 'sha256': 'b', 'filename': 'c.pdf'}]})
+                                  'match_score': {'percent': 70}, 'contact_confidence': 'published_direct', 'attachments': [{'kind': 'resume', 'stored_in': 'cloudflare_r2', 'sha256': 'a' * 64, 'id': 'resume-id', 'path': '/api/documents/resume-id', 'filename': 'r.pdf'}, {'kind': 'cover', 'stored_in': 'cloudflare_r2', 'sha256': 'b' * 64, 'id': 'cover-id', 'path': '/api/documents/cover-id', 'filename': 'c.pdf'}]})
         self.assertEqual(checks.record_issues(rec), [])
         rec['recipient_email'] = 'sam@gmail.com'; rec['attachments'] = rec['attachments'][:1]
         issues = checks.record_issues(rec)
         self.assertTrue(any('personal mailbox' in i for i in issues)); self.assertTrue(any('cover letter' in i for i in issues))
-        rec['recipient_email'] = 'careers@acme.com.au'; rec['recipient_name'] = ''; rec['contact_confidence'] = 'published_inbox'; rec['attachments'] += [{'kind': 'cover', 'stored_in': 'cloudflare_r2', 'sha256': 'b', 'filename': 'c.pdf'}]
+        rec['recipient_email'] = 'careers@acme.com.au'; rec['recipient_name'] = ''; rec['contact_confidence'] = 'published_inbox'; rec['attachments'] += [{'kind': 'cover', 'stored_in': 'cloudflare_r2', 'sha256': 'b' * 64, 'id': 'cover-id', 'path': '/api/documents/cover-id', 'filename': 'c.pdf'}]
         self.assertEqual(checks.record_issues(rec), [])
         rec['contact_confidence'] = 'none'
         self.assertTrue(any('neither' in i for i in checks.record_issues(rec)))
@@ -241,3 +241,4 @@ class PublishTests(unittest.TestCase):
         self.assertEqual(rec['status'], 'READY_JEREMIE_SEEK')
         held = publish.held_record('r1', cand, {**screen, 'mandatory_unmet': ['Australian citizenship required'], 'company': 'Acme Civil', 'title': 'Junior Civil Drafter'})
         self.assertTrue(held['status'].startswith('HELD_AUSTRALIAN_CITIZENSHIP'))
+

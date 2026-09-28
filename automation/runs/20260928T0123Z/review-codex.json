@@ -1,0 +1,257 @@
+{
+  "reviewer": "Codex independent application reviewer",
+  "review_date": "2026-09-28",
+  "run_id": "20260928T0123Z",
+  "scope": "Read AGENTS.md, facts.json, config.json, RUNBOOK.md, all six complete source adverts in candidates.json, every published draft/screen/contact and records.json. No discovery, sending, external mutation, or prior-file edits.",
+  "summary": {
+    "mandatory_failure_holds": [
+      "94661745",
+      "94685572",
+      "94755478"
+    ],
+    "unresolved_mandatory_hold": [
+      "94767555"
+    ],
+    "pack_correction_hold": [
+      "94797040"
+    ],
+    "content_pass_conditional": [
+      "94785391"
+    ],
+    "send_approved": false
+  },
+  "interpretation": [
+    "Hard eligibility gates precede numerical fit. Disclosing a mandatory gap does not remove it.",
+    "Unknown knowledge or licence facts are unresolved, not fabricated failures.",
+    "The April 2019 to February 2020 span is less than 12 months; never double-count September across roles.",
+    "Academic CAD is supported. Commercial production experience, permanent rights, salary, start date and unconfirmed application submission are not supported."
+  ],
+  "fresh_web_verification": {
+    "all_six_seek_pages": "Attempted; inaccessible in web tool. Saved employer-authored advert text checked_at 2026-09-28 01:24Z used with freshness uncertainty. No inaccessible page was treated as expired.",
+    "waverley": "Employer current positions, advert and questionnaire accessible. Open listing closes 10 October 2026; questionnaire explicitly labels Project/Total Station/NSW licence criteria essential.",
+    "jha": "Employer join-us page accessible; careers@ accepts applications including CV/sample portfolio. Specific hr@ vacancy not freshly accessible.",
+    "excel": "Employer careers page inaccessible on fresh attempt; stored evidence only.",
+    "vincent_gunnedah": "Fresh advert not recovered in bounded check. Mandatory/graduate distinctions use full saved advert; no claim of fresh open verification."
+  },
+  "limitations": [
+    "No full journal/Gmail/SEEK receipt duplicate check performed in this reviewer-only scope.",
+    "R2 PDFs were not downloaded/rendered/inspected; audit is of saved draft content and attachment metadata, not PDF QA.",
+    "No live record changes performed. Proposed hold statuses require parent reconciliation under current version guard, preserving any later real application outcomes."
+  ],
+  "reviews": [
+    {
+      "seek_id": "94661745",
+      "record_id": "1c6be943-787a-4334-8a0e-579ab29167c3",
+      "company": "Waverley Council",
+      "existing_status": "READY_JEREMIE_EMPLOYER_PORTAL",
+      "decision": "HOLD_MANDATORY_REQUIREMENTS",
+      "recommended_status": "HELD_MANDATORY_REQUIREMENTS",
+      "mandatory_unmet": [
+        "Microsoft Project proficiency is an Essential Criterion; draft explicitly says not used."
+      ],
+      "mandatory_unresolved": [
+        "Knowledge of surveying including use of Total Station is essential; generic surveying study and no job use do not establish this specific knowledge.",
+        "Current NSW licence essential; facts establish only an Australian licence. Do not infer state, class, or transfer acceptance."
+      ],
+      "false_claims": [
+        "Email says 'I’ve lodged my application' but provided record is READY_JEREMIE_EMPLOYER_PORTAL; this is an unestablished completed action until actual submission is confirmed."
+      ],
+      "weak_lines": [
+        "Replace 'about a year' with exact April 2019 to February 2020 dates; do not infer a full year.",
+        "Surveying knowledge is not the same as instrument work experience; confirm actual knowledge rather than asserting inability from lack of job use."
+      ],
+      "tone_issues": [],
+      "human_tone": 4,
+      "specific_to_advert": true,
+      "route_and_recipient": "Council portal mandatory. Alice McCosker is verified by fresh employer advert as Senior Design Engineer and information contact, not an application inbox. recruitment@ is adjustments/support only. A role-related enquiry is within the published purpose; any permitted post-portal direct note remains conditional on a real recorded submission, eligibility and final checks.",
+      "release_conditions": [
+        "Employer explicitly accepts the Project gap or new documented proficiency exists.",
+        "Resolve Total Station knowledge and NSW licence requirement with evidence.",
+        "Record actual portal submission before using a past-tense follow-up; do not send the existing email as an application."
+      ],
+      "evidence_urls": [
+        "https://www.seek.com.au/job/94661745",
+        "https://www.ezisuite.net/eziJob/wav/HRRegistry/default.cfm?act=viewVacancy&src=10&type=W&vid=286122",
+        "https://www.ezisuite.net/eziJob/wav/HRRegistry/default.cfm?act=previewQuestionnaire&vid=286122"
+      ],
+      "email_words": 165,
+      "letter_paragraph_words": 276,
+      "pass": false
+    },
+    {
+      "seek_id": "94685572",
+      "record_id": "3741f4be-4bbe-460f-aaab-dd352a9bf00b",
+      "company": "Melbourne Truss Pty Ltd",
+      "existing_status": "PREPARED_NOT_SENT",
+      "decision": "HOLD_MANDATORY_REQUIREMENTS",
+      "recommended_status": "HELD_MANDATORY_REQUIREMENTS",
+      "mandatory_unmet": [
+        "Advert qualification requires at least one year of work experience in the field. April 2019 to February 2020 is under 12 months even on an inclusive calendar-month reading; academic drafting cannot count as paid field work.",
+        "Advert qualification requires Pryda Build knowledge; no documented Pryda knowledge, and draft explicitly says never used. These are not the separate preferred construction/manufacturing experience criterion."
+      ],
+      "mandatory_unresolved": [
+        "Police certificate status is unknown. Screening question alone does not establish a mandatory certificate requirement."
+      ],
+      "false_claims": [],
+      "weak_lines": [
+        "'About one year' must not be used to round up to the one-year minimum; use exact dates.",
+        "AutoCAD drafting in the email should be explicitly labelled coursework, as it is in the letter.",
+        "Harun Sahin's current GM role is supported only by supplier article in stored research, not fresh employer evidence. This does not invalidate the advertised inbox but does not establish a direct recipient."
+      ],
+      "tone_issues": [],
+      "human_tone": 4,
+      "specific_to_advert": true,
+      "route_and_recipient": "Saved full employer advert explicitly accepts resume/cover letter at info@melbtruss.com.au, so this generic inbox is permitted for this vacancy if reverified open. Do not invent a named-person email. Delete the checklist suggestion to apply through SEEK as well: repeated equivalent outreach conflicts with dedupe rules; tracker button is not the authorised Gmail route.",
+      "release_conditions": [
+        "Explicit employer waiver/new evidenced satisfaction of both the minimum experience and Pryda requirements.",
+        "Fresh current advert/application-inbox confirmation.",
+        "Replace duplicate-channel checklist before any application."
+      ],
+      "evidence_urls": [
+        "https://www.seek.com.au/job/94685572",
+        "https://melbtruss.com.au/",
+        "https://pryda.com.au/20-years-and-growing-melbourne-truss-and-pryda-in-partnership/"
+      ],
+      "email_words": 206,
+      "letter_paragraph_words": 278,
+      "pass": false
+    },
+    {
+      "seek_id": "94755478",
+      "record_id": "615f7213-5719-4612-920b-9f2a1554cb34",
+      "company": "Excel Contracting NSW",
+      "existing_status": "READY_JEREMIE_SEEK",
+      "decision": "HOLD_MANDATORY_REQUIREMENTS",
+      "recommended_status": "HELD_MANDATORY_REQUIREMENTS",
+      "mandatory_unmet": [
+        "Full advert says successful candidate must have 1–2 years experience; documented site employment April 2019 to February 2020 is below one year.",
+        "Full advert requires competent IT skills in Word, Excel and Project; draft explicitly has not used Microsoft Project."
+      ],
+      "mandatory_unresolved": [],
+      "false_claims": [
+        "Email says 'I’ve applied through SEEK' without recorded actual submission in provided record."
+      ],
+      "weak_lines": [
+        "Overseas-experience acceptance is not the only gap: even counting all documented overseas site time does not reach one year.",
+        "Describing the shortage honestly does not make it a preference or clear mandatory_unmet."
+      ],
+      "tone_issues": [],
+      "human_tone": 4,
+      "specific_to_advert": true,
+      "route_and_recipient": "SEEK is recorded application route. hr@excelcontracting.net.au is a stored employer-published register-interest inbox; stored careers evidence also says no positions available. It is not a named project-connected direct contact and does not satisfy the config double-touch direct-contact condition. Do not automatically send a duplicate CV package after SEEK; the checklist promise of such a send must be removed. Fresh website purpose could not be reconfirmed.",
+      "release_conditions": [
+        "Employer explicit waiver/new evidence for experience and Microsoft Project requirements.",
+        "Confirm live vacancy and use one permitted application route.",
+        "Remove unearned application-completed wording and unsupported automatic HR double touch."
+      ],
+      "evidence_urls": [
+        "https://www.seek.com.au/job/94755478",
+        "https://www.excelcontracting.net.au/careers/"
+      ],
+      "email_words": 161,
+      "letter_paragraph_words": 294,
+      "pass": false
+    },
+    {
+      "seek_id": "94767555",
+      "record_id": "b9b83a07-1246-4d99-aa75-7d25e9a68400",
+      "company": "City of Vincent",
+      "existing_status": "READY_JEREMIE_EMPLOYER_PORTAL",
+      "decision": "HOLD_UNRESOLVED_MANDATORY_KNOWLEDGE",
+      "recommended_status": "HELD_ELIGIBILITY_UNCONFIRMED",
+      "mandatory_unmet": [],
+      "mandatory_unresolved": [
+        "Successful-candidate criteria explicitly include Main Roads WA design-standard knowledge. Facts list Australian Standards/Austroads only and say no job use of Main Roads WA. Lack of job use is not proof of no knowledge, but required knowledge is unestablished; cannot clear the screen as ready.",
+        "WA licence is not evidenced. Advert says current WA licence and White Card (or willingness to obtain); clarify scope of alternative and willingness/transfer before claiming compliance."
+      ],
+      "false_claims": [],
+      "weak_lines": [
+        "Screen omits Main Roads WA knowledge from gaps and treats this as a training preference without evidence. Draft honestly states lack of work to those standards but does not establish required knowledge."
+      ],
+      "tone_issues": [],
+      "human_tone": 4,
+      "specific_to_advert": true,
+      "route_and_recipient": "Employer portal only. Jacob Beets is advertised phone enquiry contact; no published email and no email route. No councillor contact (advert disqualifies canvassing elected members).",
+      "release_conditions": [
+        "Document actual Main Roads WA design-standard knowledge or employer acceptance of learning it.",
+        "Resolve licence alternative without assuming state transfer; maintain honest Australian-licence wording.",
+        "Confirm live advert remains open; saved close is 30 September 2026 17:00 AWST."
+      ],
+      "evidence_urls": [
+        "https://www.seek.com.au/job/94767555",
+        "https://www.vincent.wa.gov.au/"
+      ],
+      "email_words": 0,
+      "letter_paragraph_words": 273,
+      "pass": false
+    },
+    {
+      "seek_id": "94785391",
+      "record_id": "ad268431-9281-4c44-9eb7-0def931e80a9",
+      "company": "JHA Consulting Engineers (NSW) Pty Ltd",
+      "existing_status": "PREPARED_NOT_SENT",
+      "decision": "CONTENT_PASS_WITH_PRE_SEND_CONDITIONS",
+      "recommended_status": "PREPARED_NOT_SENT",
+      "mandatory_unmet": [],
+      "mandatory_unresolved": [
+        "Advert targets recent School Certificate/HSC or started drafting-course candidates; facts establish completed degree/diploma. No explicit upper qualification bar is stated, so record suitability uncertainty rather than categorical ineligibility."
+      ],
+      "false_claims": [],
+      "weak_lines": [
+        "'About a year' is approximate; exact April 2019 to February 2020 dates are safer and supported.",
+        "In-person meeting wording must not become a promised interstate move; current relocation wording is appropriately conditional."
+      ],
+      "tone_issues": [],
+      "human_tone": 4,
+      "specific_to_advert": true,
+      "route_and_recipient": "Saved full advert explicitly directs resume and brief cover letter to hr@jhaengineers.com.au. Fresh employer careers page confirms a separate careers@ application inbox for CV and technical/design portfolio; it does not freshly verify the specific vacancy or hr@. Do not send to both.",
+      "release_conditions": [
+        "Fresh specific advert must be confirmed open and its exact HR route reverified.",
+        "Normal canonical journal/duplicate/lease/platform review and both final PDF inspections remain required; this review does not authorise sending.",
+        "Keep academic software and time-limited visa wording; leave salary/start date to Marc."
+      ],
+      "evidence_urls": [
+        "https://www.seek.com.au/job/94785391",
+        "https://jhaengineers.com/content/join-us"
+      ],
+      "email_words": 212,
+      "letter_paragraph_words": 293,
+      "pass": true
+    },
+    {
+      "seek_id": "94797040",
+      "record_id": "2d741e6a-5749-44db-80dd-97a653decf4c",
+      "company": "Gunnedah Shire Council",
+      "existing_status": "READY_JEREMIE_EMPLOYER_PORTAL",
+      "decision": "CONDITIONAL_GRADUATE_FIT_PACK_CORRECTION",
+      "recommended_status": "HELD_PACK_VERIFICATION",
+      "mandatory_unmet": [],
+      "mandatory_unresolved": [
+        "Graduate-level position description should be checked at submission; do not import Senior-only instrument, GIS, multi-discipline experience or licence criteria as proven graduate requirements."
+      ],
+      "false_claims": [
+        "Letter states copies of qualifications are attached; records.json lists only resume and cover letter. This is currently unverified and becomes false if submitted with just those two PDFs."
+      ],
+      "weak_lines": [
+        "Replace 'about a year' with exact April 2019 to February 2020 dates.",
+        "Saved advert deadline in body is 19 October 2026 17:00; SEEK metadata expires 22 October. Tracker must use the earlier application deadline, not metadata expiry."
+      ],
+      "tone_issues": [],
+      "human_tone": 4,
+      "specific_to_advert": true,
+      "route_and_recipient": "Council application form/portal only. Daniel Abraham is phone role-enquiry contact; no published business email. peopleandculture@ is recruitment-process enquiries, not an application inbox. Saved graduate advert explicitly permits no experience and valid work visas; facts meet that work-rights category as documented.",
+      "release_conditions": [
+        "Assemble and verify qualification copies before retaining attached claim, or remove claim and have Marc attach them before submission.",
+        "Verify graduate-level PD and portal are open; apply by 19 October 17:00 as advertised.",
+        "Retain conditional relocation and actual time-limited 485 wording; do not claim senior survey equipment experience."
+      ],
+      "evidence_urls": [
+        "https://www.seek.com.au/job/94797040",
+        "https://www.gunnedah.nsw.gov.au/"
+      ],
+      "email_words": 0,
+      "letter_paragraph_words": 287,
+      "pass": false
+    }
+  ]
+}
