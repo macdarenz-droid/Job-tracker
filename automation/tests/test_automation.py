@@ -161,6 +161,8 @@ class CheckTests(unittest.TestCase):
         self.assertTrue(any('exclamation' in i for i in issues))
         good = "Hi Sam,\n\nI saw your ad for a junior civil drafter and wanted to get in touch directly.\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026 and drafted road, earthworks, pavement and drainage work in Civil 3D and AutoCAD during the course. Before that I worked on site in the Philippines as a field engineer.\n\nI've attached my resume and cover letter.\n\nThanks,\nMarc"
         self.assertEqual(checks.tone_issues(good), [])
+        self.assertTrue(any('portfolio link' in i for i in checks.tone_issues(good + '\nmacdarenz-droid.github.io/Portfolio')))
+        self.assertEqual(checks.tone_issues(good + '\nhttps://macdarenz-droid.github.io/Portfolio'), [])
 
     def test_facts(self):
         self.assertEqual(checks.fact_issues('I used AutoCAD and Civil 3D in my Advanced Diploma, finished February 2026, and worked on a PHP 1.2 million subdivision job.'), [])

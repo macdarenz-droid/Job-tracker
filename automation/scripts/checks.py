@@ -58,6 +58,8 @@ def tone_issues(text, kind='email'):
         issues.append(f'too long: {n} words (limit {limit})')
     if re.search(r'\b(AI|ChatGPT|Claude|language model)\b', text):
         issues.append('mentions AI')
+    if kind == 'email' and re.search(r'(?<!https://)macdarenz-droid\.github\.io/Portfolio', text):
+        issues.append('portfolio link must be written in full as https://macdarenz-droid.github.io/Portfolio')
     if len(re.findall(r'\bI\b', text)) > 14 and kind == 'email':
         issues.append('starts too many sentences with I')
     return issues
