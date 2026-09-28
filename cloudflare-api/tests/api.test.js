@@ -51,6 +51,36 @@ test('authorised state is seeded and concurrent stale writes cannot erase anothe
   assert.equal(invalid.status,400);
 });
 
+test('new research leads append under a version guard without changing older evidence',async()=>{
+  const {env}=environment();
+  const initial=await (await api.fetch(request('/api/state'),env)).json();
+  const next=structuredClone(initial.state);
+  const lead={key:'example.test|graduate-civil-2026-09-28',company:'Example Civil',role:'Graduate Civil Engineer',
+    status:'READY_FOR_JEREMIE',checked_at:'2026-09-28T01:00:00Z',job_url:'https://example.test/careers/graduate',
+    application_type:'ADVERTISED_VACANCY',application_route:'SEEK',fit:'Example evidence only',gaps:[],attachments:[]};
+  next.leads.push(lead);
+  const write=(version,state)=>api.fetch(request('/api/state',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({expected_version:version,state})}),env);
+  assert.equal((await write(initial.version,next)).status,200);
+  assert.equal((await write(initial.version,next)).status,409);
+  const current=await (await api.fetch(request('/api/state'),env)).json();
+  assert.equal(current.state.leads.length,initial.state.leads.length+1);
+  assert.deepEqual(current.state.applications,initial.state.applications);
+  assert.deepEqual(current.state.manual_entries,initial.state.manual_entries);
+  assert.deepEqual(current.state.record_visibility,initial.state.record_visibility);
+  const altered=structuredClone(current.state);
+  altered.leads[0].role='An altered old role';
+  assert.equal((await write(current.version,altered)).status,400);
+  const duplicate=structuredClone(current.state);
+  duplicate.leads.push({...lead});
+  assert.equal((await write(current.version,duplicate)).status,400);
+  const expired=structuredClone(current.state);
+  expired.leads.at(-1).status='SKIPPED_EXPIRED';
+  assert.equal((await write(current.version,expired)).status,400);
+  expired.leads.at(-1).status_evidence_url='https://example.test/careers/graduate';
+  expired.leads.at(-1).checked_at='2026-09-28T02:00:00Z';
+  assert.equal((await write(current.version,expired)).status,200);
+});
+
 test('the code is required, CORS is restricted, and repeated invalid codes are throttled',async()=>{
   const {env}=environment();
   for(let i=0;i<5;i++)assert.equal((await api.fetch(request('/api/state',{headers:{'X-Tracker-Code':'000000'}}),env)).status,401);

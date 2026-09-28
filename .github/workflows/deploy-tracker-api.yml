@@ -1,6 +1,14 @@
 name: Upgrade existing tracker API
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'cloudflare-api/src/**'
+      - 'cloudflare-api/tests/**'
+      - 'cloudflare-api/migrations/**'
+      - 'cloudflare-api/scripts/deploy-checks.mjs'
+      - '.github/workflows/deploy-tracker-api.yml'
   workflow_dispatch:
 
 permissions:

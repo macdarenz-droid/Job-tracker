@@ -1,0 +1,29 @@
+name: Publish researched leads
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - research/lead-updates.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: job-tracker-research-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      TRACKER_ACCESS_CODE: ${{ secrets.TRACKER_ACCESS_CODE }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate and publish the dated research batch
+        run: node cloudflare-api/scripts/publish-leads.mjs research/lead-updates.json

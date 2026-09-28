@@ -92,8 +92,30 @@ async function getState(env) {
 
 function validateState(next, current) {
   if (!next || typeof next !== 'object' || !Array.isArray(next.applications) || !Array.isArray(next.leads) || !Array.isArray(next.manual_entries) || !Array.isArray(next.record_visibility)) return 'Invalid tracker format.';
-  // Historic automatic records are evidence. Editing a row creates a manual overlay instead.
-  if (JSON.stringify(next.applications) !== JSON.stringify(current.applications) || JSON.stringify(next.leads) !== JSON.stringify(current.leads)) return 'Automatic history cannot be replaced. Edit through a manual record.';
+  // Sent applications remain immutable. Research can append new leads and
+  // record a later status check without replacing existing lead evidence.
+  if (JSON.stringify(next.applications) !== JSON.stringify(current.applications)) return 'Automatic application history cannot be replaced.';
+  if (next.leads.length < current.leads.length) return 'Existing lead history must be preserved.';
+  const statusFields = ['status', 'checked_at', 'status_evidence_url', 'status_check_note'];
+  for (let i = 0; i < current.leads.length; i++) {
+    const previous = current.leads[i], updated = next.leads[i];
+    if (!updated || updated.key !== previous.key) return 'Existing lead history must be preserved in order.';
+    const before = {...previous}, after = {...updated};
+    for (const field of statusFields) { delete before[field]; delete after[field]; }
+    if (JSON.stringify(before) !== JSON.stringify(after)) return 'Existing lead evidence cannot be replaced.';
+    if (updated.status !== previous.status && (!updated.checked_at || !/^https:\/\//.test(updated.status_evidence_url || '')))
+      return 'A changed lead status needs a check date and evidence URL.';
+  }
+  const knownKeys = new Set([...current.applications, ...current.leads].map(record => record.key));
+  for (const lead of next.leads.slice(current.leads.length)) {
+    if (!lead || typeof lead.key !== 'string' || !lead.key || knownKeys.has(lead.key) ||
+        typeof lead.company !== 'string' || !lead.company.trim() || typeof lead.role !== 'string' || !lead.role.trim() ||
+        !lead.checked_at || Number.isNaN(Date.parse(lead.checked_at)) ||
+        !/^https:\/\//.test(lead.job_url || lead.company_url || '') ||
+        /^(SENT|EOI_SENT|MANUAL_APPLIED|APPLICATION_UNDER_REVIEW)$/.test(lead.status || ''))
+      return 'New lead needs a unique key, employer, role, dated HTTPS evidence and a pending status.';
+    knownKeys.add(lead.key);
+  }
   const oldManual = new Map(current.manual_entries.map(record => [record.id, record]));
   const ids = new Set();
   for (const record of next.manual_entries) {
