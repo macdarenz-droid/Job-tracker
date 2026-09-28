@@ -1,0 +1,38 @@
+{
+  "id": "94848610",
+  "source": "seek",
+  "company": "STP Consultants",
+  "title": "Junior Civil Draftsperson",
+  "location": "Brisbane QLD",
+  "url": "https://www.seek.com.au/job/94848610",
+  "listed_at": "2026-09-24T03:11:35.361Z",
+  "expires_at": "2026-10-24T03:11:33.000Z",
+  "screening_questions": [
+    "Do you have unrestricted work rights for Australia?",
+    "Have you completed (or are you completing) Year 12 in 2026? or enrolled in TAFE  ?",
+    "Do you have any experience using Revit or AutoCAD?",
+    "Why you’re interested in starting a career in civil drafting.",
+    "What interests you about joining STP Consultants."
+  ],
+  "percent": 51,
+  "rationale": [
+    "Entry-level junior drafter role with no experience required, a strong fit for Marc's Advanced Diploma and academic AutoCAD/Civil 3D/Revit background.",
+    "Advert restricts applicants to an Australian Citizen or Permanent Resident, which Marc's Subclass 485 visa does not meet.",
+    "Brisbane QLD is outside Marc's home base but relocation is plausible given his stated availability."
+  ],
+  "caution": "Rough fit, not an interview forecast; the stated citizenship/PR line is the main blocker to confirm before applying.",
+  "gaps": [
+    "Whether the citizenship/PR line is a strict screen or a soft preference",
+    "Relocation to Brisbane and cost of living",
+    "Whether 485 visa holders are ever considered despite the wording"
+  ],
+  "mandatory_unmet": [
+    "Advert requires an Australian Citizen or Permanent Resident; Marc holds a Subclass 485 visa"
+  ],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "",
+  "employer_is_agency": false,
+  "notes": "STP Consultants is a named multidisciplinary Queensland consultancy, not a recruiter.",
+  "open": true
+}

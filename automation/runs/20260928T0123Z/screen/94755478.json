@@ -1,0 +1,34 @@
+{
+ "id": "94755478",
+ "source": "seek",
+ "company": "Excel Contracting NSW",
+ "title": "Junior Civil Engineer",
+ "location": "Castle Hill, Sydney NSW",
+ "url": "https://www.seek.com.au/job/94755478",
+ "listed_at": "2026-09-20T22:44:40.459Z",
+ "expires_at": "2026-10-21T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "How many years' experience do you have as a civil engineer?",
+  "Have you completed a qualification in civil engineering?",
+  "Do you have a current Australian driver's licence?",
+  "Do you hold a Construction Induction Safety certificate (White Card)?",
+  "What's your expected annual base salary?"
+ ],
+ "percent": 66,
+ "rationale": "Junior site role with a family civil contractor: drawings, QSE, programming, documentation.\nMarc has about a year of site experience in the Philippines against the one to two years asked.\nSydney relocation; SEEK application.",
+ "caution": "Rough fit, not an interview forecast. Employer acceptance of a time-limited 485 visa and relocation are the main unknowns.",
+ "gaps": [
+  "Whether overseas (non-Australian) experience counts toward the 1-2 years asked",
+  "Expected salary fit",
+  "Relocation to Sydney"
+ ],
+ "mandatory_unmet": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "",
+ "employer_is_agency": false,
+ "notes": "Marc already holds an Australian driver's licence and White Card, matching two screening questions directly.",
+ "open": true,
+ "screener_percent": 66
+}

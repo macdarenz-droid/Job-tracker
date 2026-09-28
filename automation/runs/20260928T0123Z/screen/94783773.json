@@ -1,0 +1,31 @@
+{
+  "id": "94783773",
+  "source": "seek",
+  "company": "UGL CPB Humelink West",
+  "title": "Undergraduate Engineer - Civil",
+  "location": "Wagga Wagga, Wagga Wagga & Riverina NSW",
+  "url": "https://www.seek.com.au/job/94783773",
+  "listed_at": "2026-09-21T22:31:10.272Z",
+  "expires_at": "2026-10-22T12:59:59.999Z",
+  "screening_questions": [],
+  "percent": 30,
+  "rationale": [
+    "Role explicitly requires the applicant to be an Australian Citizen, which Marc is not (he holds a Subclass 485 visa).",
+    "It also targets a student currently progressing a tertiary engineering qualification, which does not match Marc's already-completed qualifications.",
+    "Discipline overlap (civil engineering support on a major transmission project) is moderate, and Wagga Wagga NSW is a regional location Marc could consider."
+  ],
+  "caution": "Rough fit, not an interview forecast; the explicit citizenship requirement is a clear, stated blocker.",
+  "gaps": [
+    "Whether the citizenship line is strictly enforced given the project's security requirements"
+  ],
+  "mandatory_unmet": [
+    "Advert states applicants MUST be an Australian Citizen; Marc holds a Subclass 485 visa, not citizenship",
+    "Requires currently progressing a tertiary engineering qualification; Marc's qualifications are already completed"
+  ],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": "",
+  "apply_instructions": "",
+  "employer_is_agency": false,
+  "notes": "",
+  "open": true
+}

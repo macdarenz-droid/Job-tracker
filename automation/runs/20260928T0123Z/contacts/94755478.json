@@ -1,0 +1,33 @@
+{
+  "seek_id": "94755478",
+  "advert_url": "https://www.seek.com.au/job/94755478",
+  "company": "Excel Contracting NSW",
+  "company_verified": true,
+  "company_url": "https://www.excelcontracting.net.au/",
+  "careers_url": "https://www.excelcontracting.net.au/careers/",
+  "recipient_name": "",
+  "recipient_role": "HR / recruitment inbox (no named person published)",
+  "recipient_email": "hr@excelcontracting.net.au",
+  "contact_evidence_url": "https://www.excelcontracting.net.au/careers/",
+  "evidence_quote": "Positions Available. At this time we do not have any positions available. Please register your interest by sending your CV/Resume to hr@excelcontracting.net.au",
+  "contact_confidence": "published_inbox",
+  "named_people": [
+    {
+      "name": "Rob (first name only)",
+      "role": "Workshop Manager",
+      "email": "",
+      "evidence_url": "https://www.excelcontracting.net.au/about/community/",
+      "note": "Quoted as 'Rob, our Workshop Manager'. Not an engineering, project or director role and no surname or email published; not usable as a direct contact."
+    }
+  ],
+  "other_published_inboxes": [
+    {"email": "info@excelcontracting.net.au", "label": "General Enquiries", "evidence_url": "https://www.excelcontracting.net.au/contact/", "accepts_applications": false},
+    {"email": "tender@excelcontracting.net.au", "label": "Estimating Enquiries", "evidence_url": "https://www.excelcontracting.net.au/contact/", "accepts_applications": false},
+    {"email": "planthire@excelcontracting.net.au", "label": "Plant Hire Enquiries", "evidence_url": "https://www.excelcontracting.net.au/contact/", "accepts_applications": false},
+    {"email": "accounts@excelcontracting.net.au", "label": "Accounts Payable/Receivable Enquiries", "evidence_url": "https://www.excelcontracting.net.au/contact/", "accepts_applications": false}
+  ],
+  "employer_line": "Excel Contracting is a family-owned earthmoving, excavation and civil works contractor established in 2007 and based in the Hills District, whose recent projects include the Rhino Reserve at Taronga Zoo and the Henson Park redevelopment (grandstand upgrades, paving, drainage and seating).",
+  "advert_apply_route": "SEEK apply (advert ends 'please forward a copy of your resume'; no email given in the advert). SEEK submission belongs to Jeremie.",
+  "checked_at": "2026-09-28",
+  "notes": "Company verified as the advertiser: Excel Contracting (NSW), ABN 60 127 317 444, office Level 1, 3/16 Anella Ave, Castle Hill NSW 2154, workshop 5 Squill Place, Arndell Park NSW 2148, phone (02) 8004 1877 (site + buy.nsw supplier profile https://buy.nsw.gov.au/supplier/profile/4819 + LinkedIn company page). The advert's 'ABOUT EXCEL' paragraph matches the buy.nsw/website blurb word for word ('established earthmoving, excavation and civil works ... road and drainage works, underpinning, shotcreting, shoring, concreting, bulk and detail excavation'). Website pages checked: home, about, values, community, accreditation, projects, careers, contact; no team/our-people page, no capability statement PDF (wp-content/uploads 2025 month folders contain no PDFs), no named director, project manager or engineer with a published business email anywhere on the site, buy.nsw profile or LinkedIn company page. buy.nsw says 'projects are managed by our experienced site teams consisting of Project Managers, Engineers, Site Managers, Supervisors' but names nobody. Contact page lists four generic inboxes with no statement that they take applications; only the careers page publishes hr@excelcontracting.net.au and explicitly asks for CV/Resume, so contact_confidence is published_inbox, not published_direct. The careers page still says 'we do not have any positions available' (stale versus the SEEK advert listed 2026-09-20). Email-format guesses shown by RocketReach/ensun/ContactOut/ZoomInfo in search snippets were ignored per the contact rule. Per config double_touch: apply via SEEK first (Jeremie), and only after it is marked Applied may a short note go to hr@ referencing the SEEK application; never send before."
+}

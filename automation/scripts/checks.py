@@ -69,9 +69,13 @@ def fact_issues(text):
     for tool in KNOWN_TOOLS:
         if re.search(r'(?<![A-Za-z])' + re.escape(tool) + r'(?![A-Za-z])', text) and tool.lower() not in software_ok:
             issues.append(f'names software not in facts: {tool}')
-    for y in set(re.findall(r'\b(19\d\d|20\d\d)\b', text)):
-        if y not in ALLOWED_YEARS:
-            issues.append(f'year not in facts: {y}')
+    # A year is a claim about Marc only when it sits in a first-person sentence; employer history is fine.
+    for sentence in re.split(r'(?<=[.!?])\s+', text):
+        if not re.search(r"\b(I|I'm|I've|I'd|my|me|mine)\b", sentence):
+            continue
+        for y in set(re.findall(r'\b(19\d\d|20\d\d)\b', sentence)):
+            if y not in ALLOWED_YEARS:
+                issues.append(f'year not in facts: {y}')
     for pat, why in FORBIDDEN_CLAIMS:
         if re.search(pat, text, re.I):
             issues.append(why)
@@ -84,10 +88,19 @@ def fact_issues(text):
 
 def record_issues(rec):
     issues = []
-    for k in ('company', 'role', 'status', 'job_url', 'subject', 'email_body', 'recipient_email', 'recipient_name', 'recipient_role', 'contact_evidence_url', 'fit', 'gaps', 'match_score'):
+    for k in ('company', 'role', 'status', 'job_url', 'fit', 'gaps', 'match_score'):
         if not rec.get(k):
             issues.append(f'missing {k}')
     email = str(rec.get('recipient_email') or '')
+    emailing = rec.get('status') == CONFIG['statuses']['prepared'] or bool(email)
+    if emailing:  # an email will go to this address, now or after the portal application
+        for k in ('subject', 'email_body', 'recipient_email', 'recipient_role', 'contact_evidence_url'):
+            if not rec.get(k):
+                issues.append(f'missing {k}')
+        if rec.get('contact_confidence') == 'published_direct' and not rec.get('recipient_name'):
+            issues.append('missing recipient_name for a direct contact')
+        if rec.get('contact_confidence') not in ('published_direct', 'published_inbox'):
+            issues.append('recipient is neither a published direct contact nor a published application inbox')
     if email and not re.fullmatch(r'[^@\s]+@[^@\s]+\.[a-z]{2,}', email, re.I):
         issues.append('recipient_email is not a valid address')
     if re.search(r'@(gmail|hotmail|outlook|yahoo|icloud|live)\.', email, re.I):

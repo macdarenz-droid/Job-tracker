@@ -1,0 +1,35 @@
+{
+  "id": "94871250",
+  "source": "seek",
+  "company": "WorkPac Technical and Operations",
+  "title": "Civil Engineer – Urban Development & Infrastructure",
+  "location": "Newcastle, Newcastle, Maitland & Hunter NSW",
+  "url": "https://www.seek.com.au/job/94871250",
+  "listed_at": "2026-09-25T01:29:52.421Z",
+  "expires_at": "2026-10-25T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a civil engineer?"
+  ],
+  "percent": 20,
+  "rationale": [
+    "WorkPac is a labour-hire/recruitment agency advertising on behalf of an unnamed Newcastle consultancy client.",
+    "Advert explicitly wants 3 to 8 years of post-graduate Australian civil consulting experience, which Marc does not have.",
+    "Civil 3D/12D, drainage and road documentation overlap is strong on paper, and Newcastle NSW is a plausible relocation location."
+  ],
+  "caution": "Rough fit, not an interview forecast; the explicit 3-8 year experience requirement is the main blocker.",
+  "gaps": [
+    "Whether any junior support role exists at the same end client",
+    "Relocation to Newcastle"
+  ],
+  "mandatory_unmet": [
+    "Advert requires 3 to 8 years of post-graduate experience within Australian civil consulting; Marc has none yet"
+  ],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Click on the apply button or for more information contact: Email: James.Casey@workpac.com",
+  "employer_is_agency": true,
+  "notes": "Email given is for enquiries, not application submission.",
+  "open": true
+}

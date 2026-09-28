@@ -1,0 +1,588 @@
+[
+ {
+  "id": "046a5451-68aa-469a-b2dc-fa5b889e6699",
+  "key": "manual:046a5451-68aa-469a-b2dc-fa5b889e6699",
+  "contributor_name": "Claude",
+  "created_by": "claude-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260928T0123Z",
+  "created_at": "2026-09-28T01:54:10.000Z",
+  "updated_at": "2026-09-28T01:54:10.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Waverley_Council_Resume.pdf",
+    "stored_in": "cloudflare_r2",
+    "sha256": "pending"
+   },
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Waverley_Council_Cadet_Graduate_Engineer_Civil_Design_Maj_Cover_Letter.pdf",
+    "stored_in": "cloudflare_r2",
+    "sha256": "pending"
+   }
+  ],
+  "company": "Waverley Council",
+  "role": "Cadet/Graduate Engineer (Civil Design, Major Projects)",
+  "location": "Bondi Junction, Sydney NSW",
+  "job_url": "https://www.seek.com.au/job/94661745",
+  "company_url": "https://www.waverley.nsw.gov.au",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "Alice McCosker",
+  "recipient_role": "Senior Design Engineer",
+  "recipient_email": "alice.mccosker@waverley.nsw.gov.au",
+  "contact_email": "alice.mccosker@waverley.nsw.gov.au",
+  "contact_evidence_url": "https://www.seek.com.au/job/94661745",
+  "contact_verified_at": "2026-09-28T01:54:10.000Z",
+  "contact_confidence": "published_direct",
+  "subject": "Graduate Engineer application, Marc Masarate",
+  "email_body": "Hi Alice,\n\nI've just lodged my application for the Cadet/Graduate Engineer role in the Civil Design team through the Council website, and wanted to say hello directly since the ad lists you as the contact.\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026, where I designed and documented road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D to Australian Standards, and lodged Before You Dig Australia enquiries as part of the design work. My civil engineering degree (Philippines, 2019) covered surveying and hydraulics, and I worked on site there for about a year doing inspections, drawing reviews and site records.\n\nI'm based in Melton, Victoria and would relocate to Sydney for this role. I hold a White Card, an Australian driver's licence and full working rights until December 2027 on a Subclass 485 visa.\n\nIf it would help to see my drawings before shortlisting, they're at macdarenz-droid.github.io/Portfolio. Happy to answer any questions.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077",
+  "fit": "Graduate civil design role in a council team: roads, drainage, documentation, site inspections.\nDiploma coursework matches the design side; degree covered surveying; site experience from the Philippines.\nNSW licence transfer, Total Station and MS Project are gaps; Sydney relocation.",
+  "gaps": [
+   "Confirm Graduate stream eligibility with a completed Advanced Diploma plus Bachelor",
+   "NSW driver's licence transfer/interstate recognition",
+   "Relocation to Sydney"
+  ],
+  "match_score": {
+   "percent": 80,
+   "method": "resume-fit-v2",
+   "rationale": "Graduate civil design role in a council team: roads, drainage, documentation, site inspections.\nDiploma coursework matches the design side; degree covered surveying; site experience from the Philippines.\nNSW licence transfer, Total Station and MS Project are gaps; Sydney relocation.",
+   "caution": "Rough fit, not an interview forecast. Employer acceptance of a time-limited 485 visa and relocation are the main unknowns."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-09-16T02:06:43.347Z",
+   "expires_at": "2026-10-10T12:59:55.000Z",
+   "verified_at": "2026-09-28T01:24:17.000Z",
+   "apply_instructions": "All applications must be submitted through the Council's website. waverley.nsw.gov.au/council/jobs",
+   "screening_questions": []
+  },
+  "screening_answers": [
+   {
+    "question": "Tertiary qualifications in Civil Engineering or associated discipline (Graduate Engineer)",
+    "answer": "Yes. Bachelor of Science in Civil Engineering, Divine Word College of Legazpi, Philippines (2014 to 2019), and Advanced Diploma of Civil Construction Design, Albright Institute, Australia (February 2024 to February 2026)."
+   },
+   {
+    "question": "Demonstrated good level of communication and interpersonal skills",
+    "answer": "On site in the Philippines I coordinated crews of 10 to 15 each day, worked with engineers, subcontractors and suppliers, and kept clients updated on progress. At Concentrix (2020 to 2022) I explained technical issues to customers in plain terms, 40 to 60 cases a day."
+   },
+   {
+    "question": "Knowledge in principles of design and construction of civil and drainage works, and surveying including Total Station",
+    "answer": "Advanced Diploma coursework covered road geometry, earthworks, pavement and stormwater drainage design and documentation to Australian Standards and Austroads guides. My degree covered surveying and hydraulics. I have not used a Total Station in a job and would learn it with the team."
+   },
+   {
+    "question": "Proficient in Microsoft Word, Excel and Project",
+    "answer": "Word and Excel: yes, daily use. Microsoft Project: not yet used; I have prepared programs and progress records on site and would pick it up quickly."
+   },
+   {
+    "question": "Current NSW Driver’s Licence",
+    "answer": "I hold a current Australian (Victorian) driver’s licence with my own transport and would transfer it to NSW on relocating."
+   },
+   {
+    "question": "Strong commitment to liaising with the client and team members",
+    "answer": "Yes. Keeping clients and stakeholders updated was part of both site roles."
+   },
+   {
+    "question": "A proactive attitude and willingness to learn",
+    "answer": "Yes. I completed a second civil qualification in Australia to build on my degree and want to keep learning under experienced engineers."
+   }
+  ],
+  "checklist": [
+   "Open waverley.nsw.gov.au/council/jobs and find Cadet/Graduate Engineer (Civil Design, Major Projects); apply as Graduate Engineer.",
+   "Attach the two PDFs from this record (resume and cover letter).",
+   "Answer the online questionnaire using the suggested answers above, in your own words where it asks.",
+   "Submit before Saturday 10 October 2026; early applications are encouraged.",
+   "Press Applied on the tracker with the date and \"Company website\". Claude then sends the short note to Alice McCosker."
+  ],
+  "notes": "Applications only through the Council website. Alice McCosker (Senior Design Engineer) is named in the advert with her council email for questions; the note to her goes only after the portal application is marked Applied.\nPublished by the employer in the advert as the contact for information; applications go through the Council website only.\nDouble touch: email the contact only after this record is marked Applied.",
+  "checked_at": "2026-09-28T01:54:10.000Z",
+  "seek_id": "94661745",
+  "duplicate_key": "waverleycouncil|seek:94661745"
+ },
+ {
+  "id": "e3886c1c-b682-4c00-9372-1b143f32b3eb",
+  "key": "manual:e3886c1c-b682-4c00-9372-1b143f32b3eb",
+  "contributor_name": "Claude",
+  "created_by": "claude-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260928T0123Z",
+  "created_at": "2026-09-28T01:54:10.000Z",
+  "updated_at": "2026-09-28T01:54:10.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Melbourne_Truss_Pty_Ltd_Resume.pdf",
+    "stored_in": "cloudflare_r2",
+    "sha256": "pending"
+   },
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Melbourne_Truss_Pty_Ltd_Civil_Engineering_Draftsperson_Cover_Letter.pdf",
+    "stored_in": "cloudflare_r2",
+    "sha256": "pending"
+   }
+  ],
+  "company": "Melbourne Truss Pty Ltd",
+  "role": "Civil Engineering Draftsperson",
+  "location": "Somerton, Melbourne VIC",
+  "job_url": "https://www.seek.com.au/job/94685572",
+  "company_url": "https://melbtruss.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Application inbox named in the advert",
+  "recipient_email": "info@melbtruss.com.au",
+  "contact_email": "info@melbtruss.com.au",
+  "contact_evidence_url": "https://www.seek.com.au/job/94685572",
+  "contact_verified_at": "2026-09-28T01:54:10.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Civil Engineering Draftsperson, Marc Masarate",
+  "email_body": "Hello,\n\nI'm applying for the Civil Engineering Draftsperson role advertised on SEEK, with my resume and cover letter attached as the ad asks.\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026 and draft in AutoCAD in 2D and 3D. I've also built a 3D model in Revit, a pedestrian truss bridge, so I've worked through truss geometry before, if only in a model. In the diploma I prepared and reviewed drawings to Australian Standards, which is the part of this role I'd be strongest in from day one. I haven't used Pryda software yet, so I would need to learn it, and I'd put the hours in.\n\nI have about a year of site experience in the Philippines from 2019 to 2020, reading architectural and structural drawings, checking work against them, dealing with suppliers and keeping clients updated on progress. Customer contact wouldn't be new to me.\n\nI live in Melton, so Somerton is an easy drive, and I have my own transport, a White Card and full working rights until December 2027 on a Subclass 485 visa. I could start straight away.\n\nWould you be open to a short conversation about the role?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz-droid.github.io/Portfolio",
+  "fit": "Draftsperson role close to Melton; AutoCAD and Revit fit, and a truss model in Revit.\nPryda software and timber truss drafting are stated gaps; the ad asks for one year in the field.\nEmail application route published in the advert.",
+  "gaps": [
+   "Whether Marc holds or can obtain a National Police Certificate",
+   "Whether 1 year of experience can include his overseas site roles",
+   "Fit of timber-truss drafting versus his civil road/drainage focus"
+  ],
+  "match_score": {
+   "percent": 68,
+   "method": "resume-fit-v2",
+   "rationale": "Draftsperson role close to Melton; AutoCAD and Revit fit, and a truss model in Revit.\nPryda software and timber truss drafting are stated gaps; the ad asks for one year in the field.\nEmail application route published in the advert.",
+   "caution": "Rough fit, not an interview forecast. Employer acceptance of a time-limited 485 visa and relocation are the main unknowns."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-09-17T00:22:58.552Z",
+   "expires_at": "2026-10-17T12:59:59.999Z",
+   "verified_at": "2026-09-28T01:24:25.000Z",
+   "apply_instructions": "",
+   "screening_questions": [
+    "How many years' experience do you have as a civil drafter?",
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have in the construction industry?",
+    "How many years' experience do you have as an Engineering Draftsperson?",
+    "Which of the following CAD software do you have experience with?",
+    "How many years of estimating experience do you have?",
+    "Do you have customer service experience?",
+    "Do you have a current Police Check (National Police Certificate) for employment?"
+   ]
+  },
+  "screening_answers": [
+   {
+    "question": "How many years' experience do you have as a civil drafter?",
+    "answer": "No paid drafting role yet. Two years of drafting through the Advanced Diploma of Civil Construction Design (2024 to 2026): AutoCAD, Civil 3D and Revit."
+   },
+   {
+    "question": "Which of the following statements best describes your right to work in Australia?",
+    "answer": "I hold a Subclass 485 visa with full working rights until December 2027."
+   },
+   {
+    "question": "How many years' experience do you have in the construction industry?",
+    "answer": "About one year on site in the Philippines (April 2019 to February 2020)."
+   },
+   {
+    "question": "How many years' experience do you have as an Engineering Draftsperson?",
+    "answer": "None in a paid role; coursework drafting only (2024 to 2026)."
+   },
+   {
+    "question": "Which of the following CAD software do you have experience with?",
+    "answer": "AutoCAD (2D and 3D), Civil 3D, Revit."
+   },
+   {
+    "question": "How many years of estimating experience do you have?",
+    "answer": "None in a paid role; cost estimates and bills of quantities were part of my coursework."
+   },
+   {
+    "question": "Do you have customer service experience?",
+    "answer": "Yes. Two years at Concentrix (2020 to 2022) resolving 40 to 60 technical cases a day, plus client progress updates on site."
+   },
+   {
+    "question": "Do you have a current Police Check (National Police Certificate) for employment?",
+    "answer": "Not currently; happy to obtain one."
+   }
+  ],
+  "checklist": [
+   "This one goes by email to info@melbtruss.com.au as the advert asks; Claude sends it once Gmail is connected, or send it from the tracker button.",
+   "If you prefer SEEK as well, use the screening answers above.",
+   "Press Applied on the tracker with the date and \"Email\" once it has gone."
+  ],
+  "notes": "Advert says to send resume and cover letter to info@melbtruss.com.au, so that inbox accepts applications. Pryda software is a stated gap. Local to Melton. Owner Faruk Ozkan and General Manager Harun Sahin are named in a Pryda partner article (no emails), so the letter is addressed to Harun and the email goes to info@ as the advert instructs.\nNo direct contact: melbtruss.com.au is a single-page site (home, lead-times, Firezone post, 20-years giveaway post); /about-us/, /contact-us/ and /careers/ return 404 and no page names any person or personal business email. The only employer-published address is info@melbtruss.com.au, and the SEEK advert explicitly directs applications there, so it qualifies as a published application inbox. Named owner/GM come from a Pryda (supplier) press article, not the employer site, with no emails; do not pattern-build addresses for them. A search summary also mentioned 'Emre Ozkan, General Manager' but only via data-broker style profiles, so it is excluded. Advert also asks for Pryda Build knowledge, estimating and quoting, customer service, and a National Police Certificate. Calls used: 4 WebSearch, 7 WebFetch.",
+  "checked_at": "2026-09-28T01:54:10.000Z",
+  "seek_id": "94685572",
+  "duplicate_key": "melbournetrussptyltd|seek:94685572"
+ },
+ {
+  "id": "ed2fcc8f-1b62-4cdf-a8d0-8af62f58e3ea",
+  "key": "manual:ed2fcc8f-1b62-4cdf-a8d0-8af62f58e3ea",
+  "contributor_name": "Claude",
+  "created_by": "claude-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260928T0123Z",
+  "created_at": "2026-09-28T01:54:10.000Z",
+  "updated_at": "2026-09-28T01:54:10.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Excel_Contracting_NSW_Resume.pdf",
+    "stored_in": "cloudflare_r2",
+    "sha256": "pending"
+   },
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Excel_Contracting_NSW_Junior_Civil_Engineer_Cover_Letter.pdf",
+    "stored_in": "cloudflare_r2",
+    "sha256": "pending"
+   }
+  ],
+  "company": "Excel Contracting NSW",
+  "role": "Junior Civil Engineer",
+  "location": "Castle Hill, Sydney NSW",
+  "job_url": "https://www.seek.com.au/job/94755478",
+  "company_url": "https://www.excelcontracting.net.au/",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "HR inbox published on the careers page",
+  "recipient_email": "hr@excelcontracting.net.au",
+  "contact_email": "hr@excelcontracting.net.au",
+  "contact_evidence_url": "https://www.excelcontracting.net.au/careers/",
+  "contact_verified_at": "2026-09-28T01:54:10.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Junior Civil Engineer application, Marc Masarate",
+  "email_body": "Hello,\n\nI've applied through SEEK for the Junior Civil Engineer role at Castle Hill and wanted to send a short note to the careers inbox as well, since the website asks for CVs there.\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026 (road, earthworks, pavement and stormwater design in AutoCAD and Civil 3D to Australian Standards) and before that worked on site in the Philippines for about a year as project-in-charge and field engineer: drawing reviews, inspections, quality checks and site records. That is a little under the one to two years the ad asks for, and I'd rather say so plainly.\n\nI hold a White Card, a driver's licence with my own transport, and full working rights until December 2027 on a Subclass 485 visa. I'm in Melton, Victoria and would relocate to Sydney.\n\nI've attached my resume and cover letter. My drawings are at macdarenz-droid.github.io/Portfolio.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077",
+  "fit": "Junior site role with a family civil contractor: drawings, QSE, programming, documentation.\nMarc has about a year of site experience in the Philippines against the one to two years asked.\nSydney relocation; SEEK application.",
+  "gaps": [
+   "Whether overseas (non-Australian) experience counts toward the 1-2 years asked",
+   "Expected salary fit",
+   "Relocation to Sydney"
+  ],
+  "match_score": {
+   "percent": 66,
+   "method": "resume-fit-v2",
+   "rationale": "Junior site role with a family civil contractor: drawings, QSE, programming, documentation.\nMarc has about a year of site experience in the Philippines against the one to two years asked.\nSydney relocation; SEEK application.",
+   "caution": "Rough fit, not an interview forecast. Employer acceptance of a time-limited 485 visa and relocation are the main unknowns."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-09-20T22:44:40.459Z",
+   "expires_at": "2026-10-21T12:59:59.999Z",
+   "verified_at": "2026-09-28T01:24:08.000Z",
+   "apply_instructions": "",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a civil engineer?",
+    "Have you completed a qualification in civil engineering?",
+    "Do you have a current Australian driver's licence?",
+    "Do you hold a Construction Induction Safety certificate (White Card)?",
+    "What's your expected annual base salary?"
+   ]
+  },
+  "screening_answers": [
+   {
+    "question": "Which of the following statements best describes your right to work in Australia?",
+    "answer": "I hold a Subclass 485 visa with full working rights until December 2027."
+   },
+   {
+    "question": "How many years' experience do you have as a civil engineer?",
+    "answer": "About one year on site in the Philippines (April 2019 to February 2020), across two roles."
+   },
+   {
+    "question": "Have you completed a qualification in civil engineering?",
+    "answer": "Yes: Bachelor of Science in Civil Engineering (2019) and Advanced Diploma of Civil Construction Design (February 2026)."
+   },
+   {
+    "question": "Do you have a current Australian driver's licence?",
+    "answer": "Yes, with my own reliable transport."
+   },
+   {
+    "question": "Do you hold a Construction Induction Safety certificate (White Card)?",
+    "answer": "Yes."
+   },
+   {
+    "question": "What's your expected annual base salary?",
+    "answer": "Open to discussion, guided by the role and my experience."
+   }
+  ],
+  "checklist": [
+   "Open https://www.seek.com.au/job/94755478 and use Apply.",
+   "Attach the two PDFs from this record (resume and cover letter).",
+   "Paste the screening answers above.",
+   "Submit; the advert asks only for a resume, so the cover letter is a bonus.",
+   "Press Applied on the tracker with the date and \"SEEK\". Claude then sends the short note to hr@excelcontracting.net.au."
+  ],
+  "notes": "Advert route is SEEK. Careers page publishes hr@excelcontracting.net.au for CVs, so a short note goes there only after the SEEK application is marked Applied (double touch). Recent projects from the company site: Rhino Reserve at Taronga Zoo, Henson Park redevelopment.\nCompany verified as the advertiser: Excel Contracting (NSW), ABN 60 127 317 444, office Level 1, 3/16 Anella Ave, Castle Hill NSW 2154, workshop 5 Squill Place, Arndell Park NSW 2148, phone (02) 8004 1877 (site + buy.nsw supplier profile https://buy.nsw.gov.au/supplier/profile/4819 + LinkedIn company page). The advert's 'ABOUT EXCEL' paragraph matches the buy.nsw/website blurb word for word ('established earthmoving, excavation and civil works ... road and drainage works, underpinning, shotcreting, shoring, concreting, bulk and detail excavation'). Website pages checked: home, about, values, community, accreditation, projects, careers, contact; no team/our-people page, no capability statement PDF (wp-content/uploads 2025 month folders contain no PDFs), no named director, project manager or engineer with a published business email anywhere on the site, buy.nsw profile or LinkedIn company page. buy.nsw says 'projects are managed by our experienced site teams consisting of Project Managers, Engineers, Site Managers, Supervisors' but names nobody. Contact page lists four generic inboxes with no statement that they take applications; only the careers page publishes hr@excelcontracting.net.au and explicitly asks for CV/Resume, so contact_confidence is published_inbox, not published_direct. The careers page still says 'we do not have any positions available' (stale versus the SEEK advert listed 2026-09-20). Email-format guesses shown by RocketReach/ensun/ContactOut/ZoomInfo in search snippets were ignored per the contact rule. Per config double_touch: apply via SEEK first (Jeremie), and only after it is marked Applied may a short note go to hr@ referencing the SEEK application; never send before.\nDouble touch: email the contact only after this record is marked Applied.",
+  "checked_at": "2026-09-28T01:54:10.000Z",
+  "seek_id": "94755478",
+  "duplicate_key": "excelcontractingnsw|seek:94755478"
+ },
+ {
+  "id": "9ee04820-1f0a-48d4-9eb0-3a57ed2f49a1",
+  "key": "manual:9ee04820-1f0a-48d4-9eb0-3a57ed2f49a1",
+  "contributor_name": "Claude",
+  "created_by": "claude-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260928T0123Z",
+  "created_at": "2026-09-28T01:54:10.000Z",
+  "updated_at": "2026-09-28T01:54:10.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_City_of_Vincent_Resume.pdf",
+    "stored_in": "cloudflare_r2",
+    "sha256": "pending"
+   },
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_City_of_Vincent_Junior_Design_Engineer_Cover_Letter.pdf",
+    "stored_in": "cloudflare_r2",
+    "sha256": "pending"
+   }
+  ],
+  "company": "City of Vincent",
+  "role": "Junior Design Engineer",
+  "location": "Osborne Park, Perth WA",
+  "job_url": "https://www.seek.com.au/job/94767555",
+  "company_url": "https://www.vincent.wa.gov.au",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "Jacob Beets",
+  "recipient_role": "Contact for the role (phone only, (08) 6247 3241)",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/94767555",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Junior Design Engineer application, Marc Masarate",
+  "email_body": "",
+  "fit": "Junior design role for roads, drainage, car parks and traffic calming in AutoCAD; strong coursework overlap.\nMain Roads WA standards and a WA licence are gaps; Perth relocation.\nCloses 30 September 2026.",
+  "gaps": [
+   "Relocation to Perth",
+   "Whether a WA driver's licence/White Card can be arranged in time",
+   "Time available before the 30 Sep 2026 close date"
+  ],
+  "match_score": {
+   "percent": 76,
+   "method": "resume-fit-v2",
+   "rationale": "Junior design role for roads, drainage, car parks and traffic calming in AutoCAD; strong coursework overlap.\nMain Roads WA standards and a WA licence are gaps; Perth relocation.\nCloses 30 September 2026.",
+   "caution": "Rough fit, not an interview forecast. Employer acceptance of a time-limited 485 visa and relocation are the main unknowns."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-09-21T05:06:50.593Z",
+   "expires_at": "2026-09-30T09:00:00.000Z",
+   "verified_at": "2026-09-28T01:24:29.000Z",
+   "apply_instructions": "Applications must be submitted online from the Vincent jobs board and include a CV and cover letter, which outlines your suitability to the role.",
+   "screening_questions": []
+  },
+  "screening_answers": [
+   {
+    "question": "Completed or currently undertaking a tertiary qualification in Civil Engineering or related",
+    "answer": "Completed: Bachelor of Science in Civil Engineering (Philippines, 2019) and Advanced Diploma of Civil Construction Design (Australia, February 2026)."
+   },
+   {
+    "question": "Qualification or formal training in AutoCAD and/or Civil 3D",
+    "answer": "Yes, both, through the Advanced Diploma (2024 to 2026)."
+   },
+   {
+    "question": "Knowledge of Australian Standards, Austroads Guides and Main Roads WA standards",
+    "answer": "Australian Standards and Austroads guides: applied in coursework. Main Roads WA standards: not yet used; willing to learn."
+   },
+   {
+    "question": "Current WA Driver’s Licence and White Card",
+    "answer": "Australian (Victorian) licence, to be transferred to WA on relocation; current White Card."
+   }
+  ],
+  "checklist": [
+   "Open the City of Vincent jobs board from the SEEK Apply button and find Junior Design Engineer.",
+   "Attach the two PDFs from this record (CV and cover letter).",
+   "Answer any questions using the suggested answers above.",
+   "Submit before 5:00pm Wednesday 30 September 2026 (Perth time). This one is urgent.",
+   "Press Applied on the tracker with the date and \"Company website\"."
+  ],
+  "notes": "Closes 30 September 2026 5pm AWST. Perth relocation. Contact Jacob Beets by phone only; no email published.\nPhone contact only; applications via the Vincent jobs board.",
+  "checked_at": "2026-09-28T01:54:10.000Z",
+  "seek_id": "94767555",
+  "duplicate_key": "cityofvincent|seek:94767555"
+ },
+ {
+  "id": "9456235d-6fa2-497b-ab01-e532a931c8d6",
+  "key": "manual:9456235d-6fa2-497b-ab01-e532a931c8d6",
+  "contributor_name": "Claude",
+  "created_by": "claude-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260928T0123Z",
+  "created_at": "2026-09-28T01:54:10.000Z",
+  "updated_at": "2026-09-28T01:54:10.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_JHA_Consulting_Engineers_NSW_Pty_Ltd_Resume.pdf",
+    "stored_in": "cloudflare_r2",
+    "sha256": "pending"
+   },
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_JHA_Consulting_Engineers_NSW_Pty_Ltd_Trainee_Structural_Drafter_Cover_Letter.pdf",
+    "stored_in": "cloudflare_r2",
+    "sha256": "pending"
+   }
+  ],
+  "company": "JHA Consulting Engineers (NSW) Pty Ltd",
+  "role": "Trainee Structural Drafter",
+  "location": "Sydney NSW",
+  "job_url": "https://www.seek.com.au/job/94785391",
+  "company_url": "https://jhaengineers.com/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "HR, application inbox named in the advert",
+  "recipient_email": "hr@jhaengineers.com.au",
+  "contact_email": "hr@jhaengineers.com.au",
+  "contact_evidence_url": "https://www.seek.com.au/job/94785391",
+  "contact_verified_at": "2026-09-28T01:54:10.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Trainee Structural Drafter, Marc Masarate",
+  "email_body": "Hello,\n\nI'm applying for the Trainee Structural Drafter role advertised on SEEK.\n\nI know the ad is written with school leavers and TAFE starters in mind. I have more study behind me than that, and I'm happy to start at trainee level because drafting is the work I want to do. I finished an Advanced Diploma of Civil Construction Design in February 2026, where I drew road, earthworks, pavement and stormwater designs in AutoCAD and Civil 3D to Australian Standards. I also built a 3D model of a pedestrian truss bridge in Revit, so the BIM side of the role is familiar ground.\n\nBefore the diploma I worked on site in the Philippines for about a year, reviewing structural and architectural drawings, checking the work against them and keeping site records. It left me with the habit of reading drawings closely.\n\nI'm based in Melton, Victoria and would relocate to Sydney for this. I hold a White Card and a driver's licence, and I have full working rights until December 2027 on a Subclass 485 visa.\n\nI've attached my resume and cover letter. My drawings are at macdarenz-droid.github.io/Portfolio if that helps. I'd be glad to have a short call.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz-droid.github.io/Portfolio",
+  "fit": "Trainee drafter role with Revit training; Marc drafts in AutoCAD and Civil 3D and has a Revit model.\nAimed at school leavers, so Marc is overqualified on paper but has no commercial drafting experience.\nSydney relocation; email application route published in the advert.",
+  "gaps": [
+   "Visa acceptance for a trainee role",
+   "Relocation to Sydney",
+   "Expected salary fit"
+  ],
+  "match_score": {
+   "percent": 74,
+   "method": "resume-fit-v2",
+   "rationale": "Trainee drafter role with Revit training; Marc drafts in AutoCAD and Civil 3D and has a Revit model.\nAimed at school leavers, so Marc is overqualified on paper but has no commercial drafting experience.\nSydney relocation; email application route published in the advert.",
+   "caution": "Rough fit, not an interview forecast. Employer acceptance of a time-limited 485 visa and relocation are the main unknowns."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-09-22T00:13:38.945Z",
+   "expires_at": "2026-10-22T12:59:59.999Z",
+   "verified_at": "2026-09-28T01:24:16.000Z",
+   "apply_instructions": "To apply for this role, please submit a resume and a brief cover letter to hr@jhaengineers.com.au.",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?"
+   ]
+  },
+  "screening_answers": [],
+  "checklist": [],
+  "notes": "Advert asks for resume and brief cover letter by email to hr@jhaengineers.com.au. Aimed at school leavers; Marc is overqualified and the email says so honestly. JHA people page names Jarrod Grimshaw (Director, structural design) and Nemesio Biason Jr (Civil Group Manager) without emails, so the letter is addressed to Jarrod and the email goes to hr@ as instructed.\nwww.jhaengineers.com.au does not resolve; the live site is jhaengineers.com (emails use @jhaengineers.com.au). Our People page (structural/civil section) names Jarrod Grimshaw (Director) and Nemesio Biason Jr (Civil Group Manager) but publishes no individual emails for them; the only named-person email the employer publishes is lawrence.yu@jhaengineers.com.au (ESD Group Manager, unrelated discipline, not used). Other site inboxes: enquiries@, sydney@, brisbane@, melbourne@jhaengineers.com.au (generic, not stated to accept applications). Search results surfaced ZoomInfo/RocketReach/SignalHire/LeadIQ entries; ignored per rule. Advert screening questions: right to work in Australia, expected base salary. Advert expires 2026-10-22. Budget used: 6 WebSearch, 8 WebFetch.",
+  "checked_at": "2026-09-28T01:54:10.000Z",
+  "seek_id": "94785391",
+  "duplicate_key": "jhaconsultingengineersnswptyltd|seek:94785391"
+ },
+ {
+  "id": "46eeb470-883b-4eac-abc1-0b2830e7c06c",
+  "key": "manual:46eeb470-883b-4eac-abc1-0b2830e7c06c",
+  "contributor_name": "Claude",
+  "created_by": "claude-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260928T0123Z",
+  "created_at": "2026-09-28T01:54:10.000Z",
+  "updated_at": "2026-09-28T01:54:10.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Gunnedah_Shire_Council_Resume.pdf",
+    "stored_in": "cloudflare_r2",
+    "sha256": "pending"
+   },
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Gunnedah_Shire_Council_Civil_Survey_Design_Officer_Cadet_or_Gra_Cover_Letter.pdf",
+    "stored_in": "cloudflare_r2",
+    "sha256": "pending"
+   }
+  ],
+  "company": "Gunnedah Shire Council",
+  "role": "Civil Survey & Design Officer (Cadet or Graduate)",
+  "location": "Gunnedah NSW",
+  "job_url": "https://www.seek.com.au/job/94797040",
+  "company_url": "https://www.gunnedah.nsw.gov.au",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "Manager Engineering Services",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Survey and Design Graduate application, Marc Masarate",
+  "email_body": "",
+  "fit": "Graduate survey and design role that trains people; no prior experience needed.\nCivil design coursework fits; survey equipment experience is a gap the council says it trains.\nRegional NSW relocation; council portal.",
+  "gaps": [
+   "Visa/work rights acceptance for the cadet/graduate stream",
+   "NSW driver's licence transfer or interstate recognition",
+   "Relocation to Gunnedah"
+  ],
+  "match_score": {
+   "percent": 78,
+   "method": "resume-fit-v2",
+   "rationale": "Graduate survey and design role that trains people; no prior experience needed.\nCivil design coursework fits; survey equipment experience is a gap the council says it trains.\nRegional NSW relocation; council portal.",
+   "caution": "Rough fit, not an interview forecast. Employer acceptance of a time-limited 485 visa and relocation are the main unknowns."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-09-22T05:27:33.076Z",
+   "expires_at": "2026-10-22T12:59:59.999Z",
+   "verified_at": "2026-09-28T01:24:22.000Z",
+   "apply_instructions": "",
+   "screening_questions": []
+  },
+  "screening_answers": [
+   {
+    "question": "Which level are you applying for (Cadet, Graduate, Officer, Senior)?",
+    "answer": "Graduate Officer. I hold a civil engineering degree (Philippines, 2019) and an Advanced Diploma of Civil Construction Design (Australia, February 2026), with no prior Australian work experience."
+   },
+   {
+    "question": "Knowledge or experience in civil design and/or surveying",
+    "answer": "Civil design: road geometry, earthworks, pavement and stormwater drainage design and documentation in AutoCAD and Civil 3D (Advanced Diploma coursework). Surveying: studied in my degree; no survey equipment experience on a job yet."
+   },
+   {
+    "question": "Knowledge of civil engineering processes in construction",
+    "answer": "About a year on site in the Philippines (2019 to 2020) doing inspections, quality checks, drawing reviews, procurement tracking and site reports."
+   },
+   {
+    "question": "Microsoft Office skills",
+    "answer": "Word and Excel daily; Google Workspace as well."
+   },
+   {
+    "question": "Driver’s licence",
+    "answer": "Current Australian driver’s licence with own reliable transport."
+   }
+  ],
+  "checklist": [
+   "Open the Council job page from the SEEK listing (Apply button links to Gunnedah Shire Council’s site) and choose the Graduate level.",
+   "Attach the two PDFs from this record (resume and cover letter).",
+   "Answer the application questions using the suggested answers above.",
+   "Submit before 5:00pm Monday 19 October 2026.",
+   "Press Applied on the tracker with the date and \"Company website\"."
+  ],
+  "notes": "Council portal only; no named contact published beyond the reporting line (Manager Engineering Services). Regional NSW relocation.\nCouncil portal only.",
+  "checked_at": "2026-09-28T01:54:10.000Z",
+  "seek_id": "94797040",
+  "duplicate_key": "gunnedahshirecouncil|seek:94797040"
+ }
+]

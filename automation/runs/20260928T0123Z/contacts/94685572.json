@@ -1,0 +1,34 @@
+{
+  "seek_id": "94685572",
+  "company": "Melbourne Truss Pty Ltd",
+  "company_url": "https://melbtruss.com.au/",
+  "careers_url": "",
+  "recipient_name": "",
+  "recipient_role": "Hiring team via published application inbox",
+  "recipient_email": "info@melbtruss.com.au",
+  "contact_evidence_url": "https://www.seek.com.au/job/94685572",
+  "evidence_quote": "How to Apply: Interested candidates should send their resume and cover letter to info@melbtruss.com.au (SEEK advert, employer-authored). The same address is the only email shown on https://melbtruss.com.au/ ('info@melbtruss.com.au', with 10 Cummins Drive, Somerton VIC 3062 and (03) 9308 0166).",
+  "contact_confidence": "published_inbox",
+  "named_people": [
+    {
+      "name": "Faruk Ozkan",
+      "role": "Owner, Melbourne Truss",
+      "email": "",
+      "evidence_url": "https://pryda.com.au/20-years-and-growing-melbourne-truss-and-pryda-in-partnership/"
+    },
+    {
+      "name": "Harun Sahin",
+      "role": "General Manager, Melbourne Truss",
+      "email": "",
+      "evidence_url": "https://pryda.com.au/20-years-and-growing-melbourne-truss-and-pryda-in-partnership/"
+    },
+    {
+      "name": "Tahir Yavuz",
+      "role": "Director of Melbourne Truss (LinkedIn headline only; not employer-published, unverified)",
+      "email": "",
+      "evidence_url": "https://au.linkedin.com/in/tahir-yavuz-53605785"
+    }
+  ],
+  "employer_line": "Melbourne Truss has manufactured prefabricated timber roof trusses, wall frames and floor trusses at its Somerton plant since 2005 as a licensed Pryda fabricator, and the role designs in Pryda Build software.",
+  "notes": "No direct contact: melbtruss.com.au is a single-page site (home, lead-times, Firezone post, 20-years giveaway post); /about-us/, /contact-us/ and /careers/ return 404 and no page names any person or personal business email. The only employer-published address is info@melbtruss.com.au, and the SEEK advert explicitly directs applications there, so it qualifies as a published application inbox. Named owner/GM come from a Pryda (supplier) press article, not the employer site, with no emails; do not pattern-build addresses for them. A search summary also mentioned 'Emre Ozkan, General Manager' but only via data-broker style profiles, so it is excluded. Advert also asks for Pryda Build knowledge, estimating and quoting, customer service, and a National Police Certificate. Calls used: 4 WebSearch, 7 WebFetch."
+}

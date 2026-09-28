@@ -1,0 +1,46 @@
+{
+  "seek_id": "94785391",
+  "job_title": "Trainee Structural Drafter",
+  "company": "JHA Consulting Engineers (NSW) Pty Ltd",
+  "advert_url": "https://www.seek.com.au/job/94785391",
+  "checked_at": "2026-09-28",
+  "company_url": "https://jhaengineers.com/",
+  "careers_url": "https://jhaengineers.com/content/join-us",
+  "recipient_name": "",
+  "recipient_role": "JHA HR inbox (named in the SEEK advert as the application address)",
+  "recipient_email": "hr@jhaengineers.com.au",
+  "contact_evidence_url": "https://www.seek.com.au/job/94785391",
+  "evidence_quote": "To apply for this role, please submit a resume and a brief cover letter to hr@jhaengineers.com.au.",
+  "contact_confidence": "published_inbox",
+  "named_people": [
+    {
+      "name": "Jarrod Grimshaw",
+      "role": "Director (profile describes structural design: steel, reinforced concrete, post-tensioned concrete and timber structures; page does not label him Structural lead by title)",
+      "email": "",
+      "evidence_url": "https://jhaengineers.com/our-people",
+      "evidence_quote": "Jarrod Grimshaw | Director | With over 15 years of experience, Jarrod had been involved in a variety of projects across the health, residential, aged care, education, retail, commercial, defence, and data sectors as both a design and site-based engineer. After graduating from the University of Sydney with First Class Honours, Jarrod has established his engineering career designing and detailing a variety of structures constructed from steel, reinforced concrete, post-tensioned concrete, and timber."
+    },
+    {
+      "name": "Nemesio Biason Jr",
+      "role": "Senior Associate / Civil Group Manager",
+      "email": "",
+      "evidence_url": "https://jhaengineers.com/our-people",
+      "evidence_quote": "Nemesio Biason Jr | Senior Associate / Civil Group Manager | Nemesio is a Chartered civil engineer with a proven track record delivering complex projects throughout Australia. ... in his multifaceted role as JHA's Civil Group Manager and Senior Associate Engineer."
+    }
+  ],
+  "employer_line": "JHA started in Sydney in 1995 and now has around 300 staff across building services, structural and civil engineering, with the Sydney head office at Level 20, 2 Market Street; the advert says the Structural division is growing rapidly and trains drafters in Revit and BIM alongside its engineers.",
+  "employer_line_sources": [
+    "https://jhaengineers.com/content/about-us",
+    "https://jhaengineers.com/content/join-us",
+    "https://www.seek.com.au/job/94785391"
+  ],
+  "alternative_inboxes": [
+    {
+      "email": "careers@jhaengineers.com.au",
+      "evidence_url": "https://jhaengineers.com/content/join-us",
+      "evidence_quote": "We are actively recruiting talented individuals who are looking for a positive career move. Please email us on careers@jhaengineers.com.au outlining details of the office and role you would like to apply for. Please include your CV and a sample portfolio for technical and design positions.",
+      "note": "Site-published application inbox; the advert itself directs to hr@, so hr@ is primary."
+    }
+  ],
+  "notes": "www.jhaengineers.com.au does not resolve; the live site is jhaengineers.com (emails use @jhaengineers.com.au). Our People page (structural/civil section) names Jarrod Grimshaw (Director) and Nemesio Biason Jr (Civil Group Manager) but publishes no individual emails for them; the only named-person email the employer publishes is lawrence.yu@jhaengineers.com.au (ESD Group Manager, unrelated discipline, not used). Other site inboxes: enquiries@, sydney@, brisbane@, melbourne@jhaengineers.com.au (generic, not stated to accept applications). Search results surfaced ZoomInfo/RocketReach/SignalHire/LeadIQ entries; ignored per rule. Advert screening questions: right to work in Australia, expected base salary. Advert expires 2026-10-22. Budget used: 6 WebSearch, 8 WebFetch."
+}

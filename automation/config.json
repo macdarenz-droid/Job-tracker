@@ -294,7 +294,7 @@
   },
   "limits": {
     "target_new_records_min": 2,
-    "max_new_records_per_run": 4,
+    "max_new_records_per_run": 6,
     "max_emails_per_run": 1,
     "max_speculative_per_run": 1,
     "repeat_block_days": 90,

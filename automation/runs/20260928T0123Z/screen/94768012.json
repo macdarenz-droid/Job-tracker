@@ -1,0 +1,33 @@
+{
+  "id": "94768012",
+  "source": "seek",
+  "company": "Damcon Pty Ltd",
+  "title": "Civil Infrastructure Estimator/Junior Estimator",
+  "location": "Gregory Hills, Sydney NSW",
+  "url": "https://www.seek.com.au/job/94768012",
+  "listed_at": "2026-09-21T05:21:58.393Z",
+  "expires_at": "2026-10-21T12:59:59.999Z",
+  "screening_questions": [
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as an Estimator?"
+  ],
+  "percent": 4,
+  "rationale": [
+    "Despite the 'Junior Estimator' title, the advert asks for a 'highly experienced' estimator with a minimum 2 years of civil estimating experience specifically within the Australian market.",
+    "Marc's coursework touches cost estimates and bills of quantities, but he has no commercial estimating experience, Australian or otherwise.",
+    "FRP (fibre-reinforced polymer) experience is called essential, an area not covered in Marc's background."
+  ],
+  "caution": "Rough fit, not an interview forecast; the explicit Australian estimating experience requirement is a clear mismatch.",
+  "gaps": [
+    "Whether any true junior/graduate estimating pathway exists at Damcon"
+  ],
+  "mandatory_unmet": [
+    "Advert requires a minimum 2 years of civil estimating experience specifically within the Australian market; Marc has none"
+  ],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "",
+  "employer_is_agency": false,
+  "notes": "",
+  "open": true
+}

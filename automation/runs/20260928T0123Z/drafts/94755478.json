@@ -1,0 +1,65 @@
+{
+ "seek_id": "94755478",
+ "company": "Excel Contracting NSW",
+ "role": "Junior Civil Engineer",
+ "location": "Castle Hill, Sydney NSW",
+ "job_url": "https://www.seek.com.au/job/94755478",
+ "route": "SEEK",
+ "recipient_name": "",
+ "recipient_role": "HR inbox published on the careers page",
+ "recipient_email": "hr@excelcontracting.net.au",
+ "contact_evidence_url": "https://www.excelcontracting.net.au/careers/",
+ "subject": "Junior Civil Engineer application, Marc Masarate",
+ "email_body": "Hello,\n\nI've applied through SEEK for the Junior Civil Engineer role at Castle Hill and wanted to send a short note to the careers inbox as well, since the website asks for CVs there.\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026 (road, earthworks, pavement and stormwater design in AutoCAD and Civil 3D to Australian Standards) and before that worked on site in the Philippines for about a year as project-in-charge and field engineer: drawing reviews, inspections, quality checks and site records. That is a little under the one to two years the ad asks for, and I'd rather say so plainly.\n\nI hold a White Card, a driver's licence with my own transport, and full working rights until December 2027 on a Subclass 485 visa. I'm in Melton, Victoria and would relocate to Sydney.\n\nI've attached my resume and cover letter. My drawings are at macdarenz-droid.github.io/Portfolio.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077",
+ "letter": {
+  "recipient_name": "Excel Contracting NSW",
+  "recipient_role": "",
+  "company": "Excel Contracting NSW",
+  "company_line": "Castle Hill NSW",
+  "subject": "Application for Junior Civil Engineer",
+  "greeting": "Hello,",
+  "paragraphs": [
+   "I'm applying for the Junior Civil Engineer role advertised on SEEK. Excel's work on road and drainage, excavation and concreting with its own site teams, on jobs like the Rhino Reserve at Taronga Zoo and the Henson Park redevelopment, is close to what I did on site before I came to Australia to study, and it is the kind of family company I'd like to stay with.",
+   "In the Philippines in 2019 and 2020 I was project-in-charge on a community hall renovation, coordinating 10 to 15 workers a day, reviewing structural and architectural drawings, checking work against them and running inspections, safety checks and quality monitoring. I then worked as a field engineer on subdivision finishing works, keeping site reports, material records and progress reports and coordinating with engineers, subcontractors and suppliers. That is about a year of site experience in total, a little under the one to two years the ad asks for.",
+   "Since then I completed an Advanced Diploma of Civil Construction Design at Albright Institute in February 2026, which covered road geometry, earthworks, pavement and stormwater drainage design and documentation in AutoCAD and Civil 3D to Australian Standards, so I read civil drawings comfortably. My Bachelor of Science in Civil Engineering (Philippines, 2019) covered construction methods and project delivery.",
+   "I use Word and Excel daily. I hold an Australian driver's licence with my own transport, a White Card, and full working rights until December 2027 on a Subclass 485 visa. I'm based in Melton, Victoria and would relocate to Sydney for a full-time role with a company that keeps people long term, which is how the ad describes Excel.",
+   "My resume is attached and my drawings are at macdarenz-droid.github.io/Portfolio. I'd be glad to talk it through."
+  ],
+  "closing": "Kind regards,"
+ },
+ "screening_answers": [
+  {
+   "question": "Which of the following statements best describes your right to work in Australia?",
+   "answer": "I hold a Subclass 485 visa with full working rights until December 2027."
+  },
+  {
+   "question": "How many years' experience do you have as a civil engineer?",
+   "answer": "About one year on site in the Philippines (April 2019 to February 2020), across two roles."
+  },
+  {
+   "question": "Have you completed a qualification in civil engineering?",
+   "answer": "Yes: Bachelor of Science in Civil Engineering (2019) and Advanced Diploma of Civil Construction Design (February 2026)."
+  },
+  {
+   "question": "Do you have a current Australian driver's licence?",
+   "answer": "Yes, with my own reliable transport."
+  },
+  {
+   "question": "Do you hold a Construction Induction Safety certificate (White Card)?",
+   "answer": "Yes."
+  },
+  {
+   "question": "What's your expected annual base salary?",
+   "answer": "Open to discussion, guided by the role and my experience."
+  }
+ ],
+ "checklist": [
+  "Open https://www.seek.com.au/job/94755478 and use Apply.",
+  "Attach the two PDFs from this record (resume and cover letter).",
+  "Paste the screening answers above.",
+  "Submit; the advert asks only for a resume, so the cover letter is a bonus.",
+  "Press Applied on the tracker with the date and \"SEEK\". Claude then sends the short note to hr@excelcontracting.net.au."
+ ],
+ "application_type": "ADVERTISED_VACANCY",
+ "notes": "Advert route is SEEK. Careers page publishes hr@excelcontracting.net.au for CVs, so a short note goes there only after the SEEK application is marked Applied (double touch). Recent projects from the company site: Rhino Reserve at Taronga Zoo, Henson Park redevelopment."
+}

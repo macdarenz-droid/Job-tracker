@@ -1,0 +1,31 @@
+{
+  "id": "94870967",
+  "source": "seek",
+  "company": "City of Onkaparinga",
+  "title": "Civil Engineer",
+  "location": "Seaford Meadows, Adelaide SA",
+  "url": "https://www.seek.com.au/job/94870967",
+  "listed_at": "2026-09-25T01:20:33.867Z",
+  "expires_at": "2026-10-25T12:59:59.999Z",
+  "screening_questions": [],
+  "percent": 28,
+  "rationale": [
+    "Role explicitly requires a minimum of 3 years' experience in the civil engineering design field, which Marc does not have.",
+    "Discipline overlap on paper is strong: roadworks, drainage, Australian Standards and Austroads guidelines all match Marc's coursework.",
+    "Adelaide SA would require interstate relocation from Melton VIC."
+  ],
+  "caution": "Rough fit, not an interview forecast; the stated 3-year minimum experience is the clear blocker.",
+  "gaps": [
+    "Whether a graduate-level design support role exists instead",
+    "Relocation to Adelaide"
+  ],
+  "mandatory_unmet": [
+    "Advert requires a minimum of 3 years' experience in the civil engineering design field; Marc has none yet"
+  ],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": "",
+  "apply_instructions": "To be considered for this position, all applicants must submit a resume and a cover letter addressing how they meet each of the key selection criteria detailed within this advertisement.",
+  "employer_is_agency": false,
+  "notes": "",
+  "open": true
+}

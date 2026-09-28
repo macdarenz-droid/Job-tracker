@@ -164,6 +164,8 @@ class CheckTests(unittest.TestCase):
 
     def test_facts(self):
         self.assertEqual(checks.fact_issues('I used AutoCAD and Civil 3D in my Advanced Diploma, finished February 2026, and worked on a PHP 1.2 million subdivision job.'), [])
+        self.assertEqual(checks.fact_issues('Acme has built trusses in Somerton since 2005. I finished my diploma in 2026.'), [])
+        self.assertTrue(checks.fact_issues('I graduated in 2005.'))
         issues = checks.fact_issues('I have 3 years of commercial drafting experience with 12d and SIDRA, I am a permanent resident, and graduated in 2021 with honours.')
         for needle in ['12d', 'SIDRA', 'permanent residency', '2021', 'honours', 'years of professional experience']:
             self.assertTrue(any(needle in i for i in issues), needle)
@@ -172,11 +174,15 @@ class CheckTests(unittest.TestCase):
         rec = tracker.new_record({'company': 'Acme', 'role': 'Junior Civil Drafter', 'status': 'PREPARED_NOT_SENT', 'job_url': 'https://www.seek.com.au/job/5',
                                   'subject': 'Junior Civil Drafter, Marc Masarate', 'email_body': 'Hi Sam,\n\nShort note.\n\nThanks,\nMarc', 'recipient_email': 'sam@acme.com.au',
                                   'recipient_name': 'Sam Lee', 'recipient_role': 'Engineering Manager', 'contact_evidence_url': 'https://acme.com.au/team', 'fit': 'x', 'gaps': ['y'],
-                                  'match_score': {'percent': 70}, 'attachments': [{'kind': 'resume', 'stored_in': 'cloudflare_r2', 'sha256': 'a', 'filename': 'r.pdf'}, {'kind': 'cover', 'stored_in': 'cloudflare_r2', 'sha256': 'b', 'filename': 'c.pdf'}]})
+                                  'match_score': {'percent': 70}, 'contact_confidence': 'published_direct', 'attachments': [{'kind': 'resume', 'stored_in': 'cloudflare_r2', 'sha256': 'a', 'filename': 'r.pdf'}, {'kind': 'cover', 'stored_in': 'cloudflare_r2', 'sha256': 'b', 'filename': 'c.pdf'}]})
         self.assertEqual(checks.record_issues(rec), [])
         rec['recipient_email'] = 'sam@gmail.com'; rec['attachments'] = rec['attachments'][:1]
         issues = checks.record_issues(rec)
         self.assertTrue(any('personal mailbox' in i for i in issues)); self.assertTrue(any('cover letter' in i for i in issues))
+        rec['recipient_email'] = 'careers@acme.com.au'; rec['recipient_name'] = ''; rec['contact_confidence'] = 'published_inbox'; rec['attachments'] += [{'kind': 'cover', 'stored_in': 'cloudflare_r2', 'sha256': 'b', 'filename': 'c.pdf'}]
+        self.assertEqual(checks.record_issues(rec), [])
+        rec['contact_confidence'] = 'none'
+        self.assertTrue(any('neither' in i for i in checks.record_issues(rec)))
 
 
 class RenderTests(unittest.TestCase):

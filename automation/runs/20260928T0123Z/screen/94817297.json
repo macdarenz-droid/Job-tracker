@@ -1,0 +1,34 @@
+{
+  "id": "94817297",
+  "source": "seek",
+  "company": "The Lorian Group",
+  "title": "Consultant Civil Engineer",
+  "location": "South Brisbane, Brisbane QLD",
+  "url": "https://www.seek.com.au/job/94817297",
+  "listed_at": "2026-09-23T01:34:45.922Z",
+  "expires_at": "2026-10-23T00:34:00.000Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How much notice are you required to give your current employer?"
+  ],
+  "percent": 59,
+  "rationale": [
+    "The advert is placed by The Lorian Group 'partnering with' an unnamed specialist engineering consultancy, so this is agency-style recruitment for an undisclosed employer.",
+    "It calls for demonstrated client-side civil infrastructure experience with councils/government, which Marc does not yet have in Australia.",
+    "Discipline overlap (roads, drainage, flood recovery, civil infrastructure) is solid, and South Brisbane/Scenic Rim QLD is a plausible relocation."
+  ],
+  "caution": "Rough fit, not an interview forecast; the employer is undisclosed and the client-side experience bar is not quantified.",
+  "gaps": [
+    "Actual employer name and years of experience expected",
+    "Visa/work rights acceptance",
+    "Relocation to South Brisbane/Scenic Rim"
+  ],
+  "mandatory_unmet": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "",
+  "employer_is_agency": true,
+  "notes": "Advert is by a consultancy acting on behalf of an unnamed client employer.",
+  "open": true
+}

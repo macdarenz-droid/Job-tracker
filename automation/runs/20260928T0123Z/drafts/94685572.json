@@ -1,0 +1,71 @@
+{
+ "seek_id": "94685572",
+ "company": "Melbourne Truss Pty Ltd",
+ "role": "Civil Engineering Draftsperson",
+ "location": "Somerton, Melbourne VIC",
+ "job_url": "https://www.seek.com.au/job/94685572",
+ "route": "EMAIL",
+ "recipient_name": "",
+ "recipient_role": "Application inbox named in the advert",
+ "recipient_email": "info@melbtruss.com.au",
+ "contact_evidence_url": "https://www.seek.com.au/job/94685572",
+ "subject": "Civil Engineering Draftsperson, Marc Masarate",
+ "email_body": "Hello,\n\nI'm applying for the Civil Engineering Draftsperson role advertised on SEEK, with my resume and cover letter attached as the ad asks.\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026 and draft in AutoCAD in 2D and 3D. I've also built a 3D model in Revit, a pedestrian truss bridge, so I've worked through truss geometry before, if only in a model. In the diploma I prepared and reviewed drawings to Australian Standards, which is the part of this role I'd be strongest in from day one. I haven't used Pryda software yet, so I would need to learn it, and I'd put the hours in.\n\nI have about a year of site experience in the Philippines from 2019 to 2020, reading architectural and structural drawings, checking work against them, dealing with suppliers and keeping clients updated on progress. Customer contact wouldn't be new to me.\n\nI live in Melton, so Somerton is an easy drive, and I have my own transport, a White Card and full working rights until December 2027 on a Subclass 485 visa. I could start straight away.\n\nWould you be open to a short conversation about the role?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz-droid.github.io/Portfolio",
+ "letter": {
+  "recipient_name": "Harun Sahin",
+  "recipient_role": "General Manager, Melbourne Truss",
+  "company": "Melbourne Truss Pty Ltd",
+  "company_line": "10 Cummins Drive, Somerton VIC 3062",
+  "subject": "Application for Civil Engineering Draftsperson",
+  "greeting": "Dear Harun,",
+  "paragraphs": [
+   "I'm applying for the Civil Engineering Draftsperson role advertised on SEEK. Melbourne Truss has made prefabricated roof trusses, wall frames and floor trusses in Somerton for two decades as a licensed Pryda fabricator, and drafting for a manufacturer, where the drawings go straight to the factory floor and to customers, appeals to me because accuracy has an immediate consequence. Somerton is also close to home in Melton.",
+   "I completed an Advanced Diploma of Civil Construction Design at Albright Institute in February 2026. In the coursework I prepared and reviewed technical drawings in AutoCAD and Civil 3D applying Australian Standards, designed and documented road, earthworks, pavement and drainage work, prepared cost estimates and bills of quantities, and compared design options in writing. I also modelled a pedestrian Warren truss bridge in Revit and a footing and column in AutoCAD 3D. My Bachelor of Science in Civil Engineering (Philippines, 2019) covered structural principles and construction methods.",
+   "On site in the Philippines in 2019 and 2020 I reviewed structural and architectural drawings and checked work against them, tracked procurement and materials, coordinated with suppliers and subcontractors, and kept clients updated on progress. That covers the customer-facing and documentation side of this role.",
+   "To be straightforward about the gaps: I have not used Pryda build software and have not drafted timber trusses commercially, so I would need training on both. My drafting is careful and I learn software quickly. I hold a White Card, a driver's licence with my own transport, and full working rights until December 2027 on a Subclass 485 visa.",
+   "My resume is attached and my drawings are at macdarenz-droid.github.io/Portfolio. I'd be glad to come in and show you my work."
+  ],
+  "closing": "Kind regards,"
+ },
+ "screening_answers": [
+  {
+   "question": "How many years' experience do you have as a civil drafter?",
+   "answer": "No paid drafting role yet. Two years of drafting through the Advanced Diploma of Civil Construction Design (2024 to 2026): AutoCAD, Civil 3D and Revit."
+  },
+  {
+   "question": "Which of the following statements best describes your right to work in Australia?",
+   "answer": "I hold a Subclass 485 visa with full working rights until December 2027."
+  },
+  {
+   "question": "How many years' experience do you have in the construction industry?",
+   "answer": "About one year on site in the Philippines (April 2019 to February 2020)."
+  },
+  {
+   "question": "How many years' experience do you have as an Engineering Draftsperson?",
+   "answer": "None in a paid role; coursework drafting only (2024 to 2026)."
+  },
+  {
+   "question": "Which of the following CAD software do you have experience with?",
+   "answer": "AutoCAD (2D and 3D), Civil 3D, Revit."
+  },
+  {
+   "question": "How many years of estimating experience do you have?",
+   "answer": "None in a paid role; cost estimates and bills of quantities were part of my coursework."
+  },
+  {
+   "question": "Do you have customer service experience?",
+   "answer": "Yes. Two years at Concentrix (2020 to 2022) resolving 40 to 60 technical cases a day, plus client progress updates on site."
+  },
+  {
+   "question": "Do you have a current Police Check (National Police Certificate) for employment?",
+   "answer": "Not currently; happy to obtain one."
+  }
+ ],
+ "checklist": [
+  "This one goes by email to info@melbtruss.com.au as the advert asks; Claude sends it once Gmail is connected, or send it from the tracker button.",
+  "If you prefer SEEK as well, use the screening answers above.",
+  "Press Applied on the tracker with the date and \"Email\" once it has gone."
+ ],
+ "application_type": "ADVERTISED_VACANCY",
+ "notes": "Advert says to send resume and cover letter to info@melbtruss.com.au, so that inbox accepts applications. Pryda software is a stated gap. Local to Melton. Owner Faruk Ozkan and General Manager Harun Sahin are named in a Pryda partner article (no emails), so the letter is addressed to Harun and the email goes to info@ as the advert instructs."
+}

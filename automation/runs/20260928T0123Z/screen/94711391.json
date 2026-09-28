@@ -1,0 +1,34 @@
+{
+  "id": "94711391",
+  "source": "seek",
+  "company": "Public Sector People",
+  "title": "Engineer Civil Asset Maintenance x 2",
+  "location": "Blacktown, Sydney NSW",
+  "url": "https://www.seek.com.au/job/94711391",
+  "listed_at": "2026-09-17T22:40:33.172Z",
+  "expires_at": "2026-10-03T21:40:00.000Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a civil engineer?",
+    "Have you completed a qualification in civil engineering?"
+  ],
+  "percent": 61,
+  "rationale": [
+    "Public Sector People is a named recruitment agency placing this role for Blacktown City Council's Civil Asset Maintenance team.",
+    "The advert calls for 'experienced' civil engineers with leadership/supervisory experience but gives no specific year count, so it is a gap rather than a confirmed hard fail.",
+    "Discipline overlap on roads, drainage, footpaths and kerb/gutter asset maintenance is strong, though Blacktown, Sydney NSW would require interstate relocation."
+  ],
+  "caution": "Rough fit, not an interview forecast; the unstated but implied seniority (leadership, supervising staff) is the main risk.",
+  "gaps": [
+    "Actual years of experience Blacktown Council expects for this role",
+    "Visa/work rights acceptance",
+    "Relocation to Sydney"
+  ],
+  "mandatory_unmet": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "",
+  "employer_is_agency": true,
+  "notes": "",
+  "open": true
+}

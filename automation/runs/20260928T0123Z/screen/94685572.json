@@ -1,0 +1,36 @@
+{
+ "id": "94685572",
+ "source": "seek",
+ "company": "Melbourne Truss Pty Ltd",
+ "title": "Civil Engineering Draftsperson",
+ "location": "Somerton, Melbourne VIC",
+ "url": "https://www.seek.com.au/job/94685572",
+ "listed_at": "2026-09-17T00:22:58.552Z",
+ "expires_at": "2026-10-17T12:59:59.999Z",
+ "screening_questions": [
+  "How many years' experience do you have as a civil drafter?",
+  "Which of the following statements best describes your right to work in Australia?",
+  "How many years' experience do you have in the construction industry?",
+  "How many years' experience do you have as an Engineering Draftsperson?",
+  "Which of the following CAD software do you have experience with?",
+  "How many years of estimating experience do you have?",
+  "Do you have customer service experience?",
+  "Do you have a current Police Check (National Police Certificate) for employment?"
+ ],
+ "percent": 68,
+ "rationale": "Draftsperson role close to Melton; AutoCAD and Revit fit, and a truss model in Revit.\nPryda software and timber truss drafting are stated gaps; the ad asks for one year in the field.\nEmail application route published in the advert.",
+ "caution": "Rough fit, not an interview forecast. Employer acceptance of a time-limited 485 visa and relocation are the main unknowns.",
+ "gaps": [
+  "Whether Marc holds or can obtain a National Police Certificate",
+  "Whether 1 year of experience can include his overseas site roles",
+  "Fit of timber-truss drafting versus his civil road/drainage focus"
+ ],
+ "mandatory_unmet": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "",
+ "employer_is_agency": false,
+ "notes": "",
+ "open": true,
+ "screener_percent": 68
+}

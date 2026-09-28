@@ -141,7 +141,7 @@ def publish(run_id, only=None, go=False):
             rec['attachments'] = [{**up_resume, 'kind': 'resume'}, {**up_cover, 'kind': 'cover'}]
         else:
             rec['attachments'] = [{'kind': 'resume', 'filename': resume_name, 'stored_in': 'cloudflare_r2', 'sha256': 'pending'}, {'kind': 'cover', 'filename': cover_name, 'stored_in': 'cloudflare_r2', 'sha256': 'pending'}]
-        issues = checks.record_issues(rec) if rec['status'] == STATUSES['prepared'] else [i for i in checks.record_issues(rec) if not i.startswith('missing recipient') and not i.startswith('missing contact_evidence') and 'valid address' not in i and 'missing subject' not in i and 'missing email_body' not in i]
+        issues = checks.record_issues(rec)
         letter_text = '\n'.join(letter.get('paragraphs') or [])
         issues += ['letter ' + i for i in checks.tone_issues(letter_text, 'letter') + checks.fact_issues(letter_text)]
         if issues:

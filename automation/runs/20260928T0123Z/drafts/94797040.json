@@ -1,0 +1,61 @@
+{
+ "seek_id": "94797040",
+ "company": "Gunnedah Shire Council",
+ "role": "Civil Survey & Design Officer (Cadet or Graduate)",
+ "location": "Gunnedah NSW",
+ "job_url": "https://www.seek.com.au/job/94797040",
+ "route": "EMPLOYER_PORTAL",
+ "recipient_name": "",
+ "recipient_role": "Manager Engineering Services",
+ "recipient_email": "",
+ "contact_evidence_url": "",
+ "subject": "Survey and Design Graduate application, Marc Masarate",
+ "email_body": "",
+ "letter": {
+  "recipient_name": "Manager Engineering Services",
+  "recipient_role": "",
+  "company": "Gunnedah Shire Council",
+  "company_line": "Gunnedah NSW",
+  "subject": "Application for Civil Survey & Design Officer (Graduate)",
+  "greeting": "Hello,",
+  "paragraphs": [
+   "I'm applying for the Survey and Design Graduate position in Engineering Services. The role combines civil design with survey and set-out on Council's own construction works, and the ad says the team trains people for it. That mix is exactly what I'm looking for, and I'm ready to move to Gunnedah for it.",
+   "I completed an Advanced Diploma of Civil Construction Design at Albright Institute in February 2026. The coursework had me design and document road geometry, earthworks, pavement systems and stormwater drainage, prepare and review drawings in AutoCAD and Civil 3D applying Australian Standards and Austroads guides, compare design options, prepare cost estimates and bills of quantities, and lodge Before You Dig Australia enquiries. Before that I completed a Bachelor of Science in Civil Engineering in the Philippines in 2019, which covered surveying, hydraulics and construction methods.",
+   "My site experience is from the Philippines in 2019 and 2020: project-in-charge on a community hall renovation, coordinating 10 to 15 workers a day, reviewing drawings and running inspections and quality checks, then field engineer on subdivision finishing works, keeping site reports, material records and progress reports. I have not run survey equipment on a job yet; I studied surveying in my degree and would learn Council's methods on the ground.",
+   "I use Word and Excel daily. I hold an Australian driver's licence with my own transport, a White Card, a Working with Children Check, and full working rights until December 2027 on a Subclass 485 visa. I'm available for regional work and could start at short notice.",
+   "My resume is attached and my drawings are at macdarenz-droid.github.io/Portfolio. Thank you for considering my application."
+  ],
+  "closing": "Kind regards,"
+ },
+ "screening_answers": [
+  {
+   "question": "Which level are you applying for (Cadet, Graduate, Officer, Senior)?",
+   "answer": "Graduate Officer. I hold a civil engineering degree (Philippines, 2019) and an Advanced Diploma of Civil Construction Design (Australia, February 2026), with no prior Australian work experience."
+  },
+  {
+   "question": "Knowledge or experience in civil design and/or surveying",
+   "answer": "Civil design: road geometry, earthworks, pavement and stormwater drainage design and documentation in AutoCAD and Civil 3D (Advanced Diploma coursework). Surveying: studied in my degree; no survey equipment experience on a job yet."
+  },
+  {
+   "question": "Knowledge of civil engineering processes in construction",
+   "answer": "About a year on site in the Philippines (2019 to 2020) doing inspections, quality checks, drawing reviews, procurement tracking and site reports."
+  },
+  {
+   "question": "Microsoft Office skills",
+   "answer": "Word and Excel daily; Google Workspace as well."
+  },
+  {
+   "question": "Driver’s licence",
+   "answer": "Current Australian driver’s licence with own reliable transport."
+  }
+ ],
+ "checklist": [
+  "Open the Council job page from the SEEK listing (Apply button links to Gunnedah Shire Council’s site) and choose the Graduate level.",
+  "Attach the two PDFs from this record (resume and cover letter).",
+  "Answer the application questions using the suggested answers above.",
+  "Submit before 5:00pm Monday 19 October 2026.",
+  "Press Applied on the tracker with the date and \"Company website\"."
+ ],
+ "application_type": "ADVERTISED_VACANCY",
+ "notes": "Council portal only; no named contact published beyond the reporting line (Manager Engineering Services). Regional NSW relocation."
+}

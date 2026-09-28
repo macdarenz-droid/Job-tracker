@@ -1,0 +1,69 @@
+{
+ "seek_id": "94661745",
+ "company": "Waverley Council",
+ "role": "Cadet/Graduate Engineer (Civil Design, Major Projects)",
+ "location": "Bondi Junction, Sydney NSW",
+ "job_url": "https://www.seek.com.au/job/94661745",
+ "route": "EMPLOYER_PORTAL",
+ "recipient_name": "Alice McCosker",
+ "recipient_role": "Senior Design Engineer",
+ "recipient_email": "alice.mccosker@waverley.nsw.gov.au",
+ "contact_evidence_url": "https://www.seek.com.au/job/94661745",
+ "subject": "Graduate Engineer application, Marc Masarate",
+ "email_body": "Hi Alice,\n\nI've just lodged my application for the Cadet/Graduate Engineer role in the Civil Design team through the Council website, and wanted to say hello directly since the ad lists you as the contact.\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026, where I designed and documented road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D to Australian Standards, and lodged Before You Dig Australia enquiries as part of the design work. My civil engineering degree (Philippines, 2019) covered surveying and hydraulics, and I worked on site there for about a year doing inspections, drawing reviews and site records.\n\nI'm based in Melton, Victoria and would relocate to Sydney for this role. I hold a White Card, an Australian driver's licence and full working rights until December 2027 on a Subclass 485 visa.\n\nIf it would help to see my drawings before shortlisting, they're at macdarenz-droid.github.io/Portfolio. Happy to answer any questions.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077",
+ "letter": {
+  "recipient_name": "Alice McCosker",
+  "recipient_role": "Senior Design Engineer, Civil Design, Major Projects",
+  "company": "Waverley Council",
+  "company_line": "Bondi Junction NSW",
+  "subject": "Application for Graduate Engineer, Civil Design",
+  "greeting": "Dear Alice,",
+  "paragraphs": [
+   "I'm applying for the Graduate Engineer position in the Civil Design team, Major Projects. Designing roads, drainage and public spaces that people use every day is the work I trained for, and I want to do it in a team that also gets out on site for inspections and surveys, as the ad describes.",
+   "I completed an Advanced Diploma of Civil Construction Design at Albright Institute in February 2026. The coursework had me design and document road geometry, earthworks, pavement systems and stormwater drainage, prepare and review drawings in AutoCAD and Civil 3D applying Australian Standards, compare design options and write them up, prepare cost estimates and bills of quantities, and lodge Before You Dig Australia enquiries and design around existing services. Before that I completed a Bachelor of Science in Civil Engineering in the Philippines in 2019, which covered surveying, hydraulics, structural principles and project delivery.",
+   "My site experience is from the Philippines in 2019 and 2020. As project-in-charge on a community hall renovation I coordinated 10 to 15 workers a day, reviewed structural and architectural drawings and ran inspections and quality checks. As a field engineer on subdivision finishing works I kept site reports, material records and progress reports and coordinated with engineers, subcontractors and suppliers.",
+   "On the essential criteria: I studied surveying but have not used a Total Station on a job, so that is something I would learn quickly with the team. I use Word and Excel daily. I hold an Australian driver's licence, which I would transfer to NSW on relocating from Melton, Victoria, a White Card, and full working rights until December 2027 on a Subclass 485 visa.",
+   "My resume is attached and my drawings are at macdarenz-droid.github.io/Portfolio. I'd welcome the chance to talk about the role."
+  ],
+  "closing": "Kind regards,"
+ },
+ "screening_answers": [
+  {
+   "question": "Tertiary qualifications in Civil Engineering or associated discipline (Graduate Engineer)",
+   "answer": "Yes. Bachelor of Science in Civil Engineering, Divine Word College of Legazpi, Philippines (2014 to 2019), and Advanced Diploma of Civil Construction Design, Albright Institute, Australia (February 2024 to February 2026)."
+  },
+  {
+   "question": "Demonstrated good level of communication and interpersonal skills",
+   "answer": "On site in the Philippines I coordinated crews of 10 to 15 each day, worked with engineers, subcontractors and suppliers, and kept clients updated on progress. At Concentrix (2020 to 2022) I explained technical issues to customers in plain terms, 40 to 60 cases a day."
+  },
+  {
+   "question": "Knowledge in principles of design and construction of civil and drainage works, and surveying including Total Station",
+   "answer": "Advanced Diploma coursework covered road geometry, earthworks, pavement and stormwater drainage design and documentation to Australian Standards and Austroads guides. My degree covered surveying and hydraulics. I have not used a Total Station in a job and would learn it with the team."
+  },
+  {
+   "question": "Proficient in Microsoft Word, Excel and Project",
+   "answer": "Word and Excel: yes, daily use. Microsoft Project: not yet used; I have prepared programs and progress records on site and would pick it up quickly."
+  },
+  {
+   "question": "Current NSW Driver’s Licence",
+   "answer": "I hold a current Australian (Victorian) driver’s licence with my own transport and would transfer it to NSW on relocating."
+  },
+  {
+   "question": "Strong commitment to liaising with the client and team members",
+   "answer": "Yes. Keeping clients and stakeholders updated was part of both site roles."
+  },
+  {
+   "question": "A proactive attitude and willingness to learn",
+   "answer": "Yes. I completed a second civil qualification in Australia to build on my degree and want to keep learning under experienced engineers."
+  }
+ ],
+ "checklist": [
+  "Open waverley.nsw.gov.au/council/jobs and find Cadet/Graduate Engineer (Civil Design, Major Projects); apply as Graduate Engineer.",
+  "Attach the two PDFs from this record (resume and cover letter).",
+  "Answer the online questionnaire using the suggested answers above, in your own words where it asks.",
+  "Submit before Saturday 10 October 2026; early applications are encouraged.",
+  "Press Applied on the tracker with the date and \"Company website\". Claude then sends the short note to Alice McCosker."
+ ],
+ "application_type": "ADVERTISED_VACANCY",
+ "notes": "Applications only through the Council website. Alice McCosker (Senior Design Engineer) is named in the advert with her council email for questions; the note to her goes only after the portal application is marked Applied."
+}
