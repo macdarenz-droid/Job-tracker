@@ -66,12 +66,10 @@ class DedupeTests(unittest.TestCase):
     def setUp(self):
         self._po = mock.patch.object(tracker, 'prior_outreach', return_value=[])  # keep the live receipt file out of these cases
         self._po.start()
+        self.idx = tracker.dedupe_index(json.loads(json.dumps(STATE)))
 
     def tearDown(self):
         self._po.stop()
-
-    def setUp(self):
-        self.idx = tracker.dedupe_index(json.loads(json.dumps(STATE)))
 
     def test_seek_id_from_any_url_form(self):
         self.assertIn('94539368', self.idx['seek_ids'])
