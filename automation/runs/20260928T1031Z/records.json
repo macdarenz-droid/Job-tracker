@@ -1,13 +1,13 @@
 [
  {
-  "id": "f24c80e2-94a8-4db1-bc8d-c2336d5ca5aa",
-  "key": "manual:f24c80e2-94a8-4db1-bc8d-c2336d5ca5aa",
+  "id": "82938d1e-4b13-4210-9451-82c6ef96b20e",
+  "key": "manual:82938d1e-4b13-4210-9451-82c6ef96b20e",
   "contributor_name": "Claude",
   "created_by": "claude-job-search",
   "record_kind": "AUTOMATED_LEAD",
   "run_id": "20260928T1031Z",
-  "created_at": "2026-09-28T10:51:03.000Z",
-  "updated_at": "2026-09-28T10:51:03.000Z",
+  "created_at": "2026-09-28T10:53:26.000Z",
+  "updated_at": "2026-09-28T10:53:26.000Z",
   "version": 1,
   "attachments": [
    {
@@ -25,7 +25,7 @@
   "role": "Jr Civil Construction Estimator",
   "location": "Melbourne VIC",
   "job_url": "https://www.seek.com.au/job/94829884",
-  "company_url": "",
+  "company_url": "https://cbxgroup.com.au/",
   "status": "READY_JEREMIE_SEEK",
   "application_type": "ADVERTISED_VACANCY",
   "vacancy_status": "OPEN_ADVERT_VERIFIED",
@@ -106,7 +106,7 @@
    "Submit before 23 October 2026.",
    "Press Applied on the tracker with the date and \"SEEK\"."
   ],
-  "notes": "Direct employer, Melbourne, junior estimating role with no years bar; Bluebeam and E1 are listed under About you without \"essential\", so they are disclosed as gaps rather than treated as a hold (the ad marks only maths skills as essential).\nHOW CLAUDE FOUND THIS\nFound on SEEK (listed 2026-09-23, closes 2026-10-23). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Jr Civil Construction Estimator role on SEEK.\n• They may ask about: No prior estimating role experience → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "notes": "Direct employer, Melbourne, junior estimating role with no years bar; Bluebeam and E1 are listed under About you without \"essential\", so they are disclosed as gaps rather than treated as a hold (the ad marks only maths skills as essential). Contact research (28 Sep 2026): CBX Group Pty Ltd is a new company (ABN registered April 2026, Melbourne bayside); its website cbxgroup.com.au is a one-page placeholder with no people, projects or contact details, so no direct contact exists and the only route is SEEK. Worth asking on a call who the estimating team reports to and what projects the remote works are.\nChecked 2026-09-28. Identity: ABN Lookup (abr.business.gov.au) lists CBX GROUP PTY LTD, ABN 74 697 447 466 / ACN 697 447 466, Australian Private Company, active and GST-registered from 24 Apr 2026, main business location VIC 3184 (Melbourne bayside). This is consistent with the advert's Melbourne VIC civil construction employer but the register does not describe the business. Website: cbxgroup.com.au (title 'CBX Group', og:locale en_AU, GoDaddy Website Builder, sitemap shows a single page last modified 2026-03-09). It is a placeholder: tagline 'Designing Tomorrow's Solutions Today', a reCAPTCHA 'Drop us a line!' form (Name, Email) and an email-list sign-up. No email address, phone, street address, people, team, about, projects, careers or capability pages, and no mention of civil construction, estimating or Melbourne, so the site cannot by itself confirm it is the advertiser; company_url is the best candidate, not confirmed. The contact form does not say it accepts applications. cbx.com.au redirects to clubx.com.au (unrelated retailer); cbxgroup.com (91.195.240.82) and cbx.au (parking IP) were not fetched; cbxgroup.au, cbx-group.com.au, cbxcivil.com.au, cbxconstruction.com.au, cbxgroup.net.au do not resolve. linkedin.com/company/cbx-group is a US business consultancy (Plano, TX), not this employer. WebSearch (8 used): 'CBX Group' civil Melbourne estimator; 'CBX Group' civil construction Victoria Australia; 'CBX Group Pty Ltd'; cbxgroup.com.au OR cbx-group.com.au OR cbxgroup.au; 'CBX Group' Melbourne construction company; 'CBX Group' 'Civil Construction Estimator' Melbourne; ABN 74 697 447 466 / CBX Group civil Brighton Victoria; '@cbxgroup.com.au'. None returned an employer-authored page, capability statement, tender document or press release for this company; hits were unrelated CBX entities (US, Canada, Singapore, South Africa, France) or estimating-service firms. Data-broker and finder-site hits (ZoomInfo, D&B, sgpgrid) were not used. SEEK pages not fetched (403). Fetch/curl used: 9 of 12. Outcome: no published direct contact and no published application inbox. Per config fallback order, the route is SEEK apply (advert is not link-out) prepared for Jeremie; the double-touch email cannot be prepared because no verified contact exists. No address was guessed or pattern-built.\nHOW CLAUDE FOUND THIS\nFound on SEEK (listed 2026-09-23, closes 2026-10-23). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Jr Civil Construction Estimator role on SEEK.\n• They may ask about: No prior estimating role experience → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
   "how_found": "Found on SEEK (listed 2026-09-23, closes 2026-10-23). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
   "call_prep": [
    "How did you find us? → Your advert for the Jr Civil Construction Estimator role on SEEK.",
@@ -118,20 +118,20 @@
    "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
    "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
   ],
-  "checked_at": "2026-09-28T10:51:03.000Z",
+  "checked_at": "2026-09-28T10:53:26.000Z",
   "seek_id": "94829884",
   "duplicate_key": "cbxgroup|seek:94829884",
   "preparation_only": true
  },
  {
-  "id": "8b23dc09-e9c2-4028-a73d-cc4e482bfb73",
-  "key": "manual:8b23dc09-e9c2-4028-a73d-cc4e482bfb73",
+  "id": "e37a2efb-160e-4bc9-819d-2476fafd44dd",
+  "key": "manual:e37a2efb-160e-4bc9-819d-2476fafd44dd",
   "contributor_name": "Claude",
   "created_by": "claude-job-search",
   "record_kind": "AUTOMATED_LEAD",
   "run_id": "20260928T1031Z",
-  "created_at": "2026-09-28T10:51:03.000Z",
-  "updated_at": "2026-09-28T10:51:03.000Z",
+  "created_at": "2026-09-28T10:53:26.000Z",
+  "updated_at": "2026-09-28T10:53:26.000Z",
   "version": 1,
   "attachments": [
    {
@@ -149,7 +149,7 @@
   "role": "Junior Estimator (Infrastructure Services)",
   "location": "Mile End, Adelaide SA",
   "job_url": "https://www.seek.com.au/job/94850442",
-  "company_url": "",
+  "company_url": "https://www.fultonhogan.com/",
   "status": "READY_JEREMIE_EMPLOYER_PORTAL",
   "application_type": "ADVERTISED_VACANCY",
   "vacancy_status": "OPEN_ADVERT_VERIFIED",
@@ -192,14 +192,14 @@
   },
   "screening_answers": [],
   "checklist": [
-   "Open https://www.seek.com.au/job/94850442 and follow Apply to the Fulton Hogan careers site (see the careers URL on this record).",
+   "Open the Fulton Hogan Workday advert (Junior Estimator, requisition R26516, Mile End): https://fultonhogan.wd3.myworkdayjobs.com/Fultonhogan/job/Mile-End/Estimator-Senior-Estimator_R26516-1 (the SEEK ad 94850442 links out to it) and press Apply.",
    "Create or log in to the careers profile and attach the two PDFs from this record (resume and cover letter).",
    "Answer the portal questions honestly: no estimating role yet, 485 visa to December 2027, open to discussing relocation to Adelaide (decide your real answer first).",
    "Submit before 24 October 2026.",
    "Press Applied on the tracker with the date and \"Company website\"."
   ],
-  "notes": "Junior estimating role; the ad lists civil construction field experience (Marc has 11 months), Microsoft Office (yes), Benchmark \"highly regarded\" and 12 months estimating \"ideal\" (both gaps, disclosed). Interstate: Adelaide relocation is Marc's call.\nHOW CLAUDE FOUND THIS\nFound on SEEK (listed 2026-09-24, closes 2026-10-24). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Junior Estimator (Infrastructure Services) role on SEEK.\n• They may ask about: No prior estimating role experience → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
-  "how_found": "Found on SEEK (listed 2026-09-24, closes 2026-10-24). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "notes": "Junior estimating role; the ad lists civil construction field experience (Marc has 11 months), Microsoft Office (yes), Benchmark \"highly regarded\" and 12 months estimating \"ideal\" (both gaps, disclosed). Interstate: Adelaide relocation is Marc's call. Contact research (28 Sep 2026): Fulton Hogan publishes no SA estimating or infrastructure manager and no individual business email; only info@fultonhogan.com (not stated to take applications). The advert lives on Workday as requisition R26516 (posted 24 Sep, closes 24 Oct 2026). Portal route only.\nChecked 2026-09-28. Followed config.json 'contact' rules exactly. Checked: fultonhogan.com Our Leaders page (no individual emails; only info@fultonhogan.com and NZ phone +64 3 357 1400), contact-us page and its raw HTML (only info@fultonhogan.com; office addresses/phones load dynamically via admin-ajax so the Mile End/SA office phone was not readable), Join-the-team careers page, SA road-maintenance contract news page, sitemap index plus page and services sitemaps (no SA-specific or Infrastructure Services landing page; services live under /services/ such as /services/surfacing/ and /services/asset-management/, not fetched within budget), Workday jobs API search and job-detail JSON for R26516. Not readable: careers.fultonhogan.com (agent proxy rejected the CONNECT with 502; Fulton Hogan's own site links vacancies to fultonhogan.wd3.myworkdayjobs.com, so that is the effective careers site); SEEK pages not fetched per instruction; https://www.fultonhogan.com/our-business/infrastructure-services/ returned 404. Searches (8 used) for an SA/NT Infrastructure Services General Manager or Sales & Estimating Manager on fultonhogan.com, SA government sites or employer-authored PDFs found no named SA-level manager and no published business email; results from LinkedIn, IBISWorld, LeadIQ, highperformr, Whitepages, BCI, Workopia and Glassdoor were ignored as non-employer sources. Result 'none' is normal for a company this size; no address was guessed or pattern-built. Budget used: 8 WebSearch, 12 WebFetch/curl.\nHOW CLAUDE FOUND THIS\nFound on SEEK (listed 2026-09-24, closes 2026-10-24). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Peter Curl (Chief Executive Officer - Australia Infrastructure Services (national executive, not the SA hiring manager)); Matthew MacMahon (Independent Director (quoted as CEO Fulton Hogan Infrastructure Services in the SA road-maintenance contract announcement; earlier General Manager South Australia and Northern Territory after the 2008 PMP acquisition)). Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Junior Estimator (Infrastructure Services) role on SEEK.\n• They may ask about: No prior estimating role experience → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-09-24, closes 2026-10-24). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Peter Curl (Chief Executive Officer - Australia Infrastructure Services (national executive, not the SA hiring manager)); Matthew MacMahon (Independent Director (quoted as CEO Fulton Hogan Infrastructure Services in the SA road-maintenance contract announcement; earlier General Manager South Australia and Northern Territory after the 2008 PMP acquisition)). Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
   "call_prep": [
    "How did you find us? → Your advert for the Junior Estimator (Infrastructure Services) role on SEEK.",
    "They may ask about: No prior estimating role experience → answer honestly from the facts; nothing beyond them was claimed.",
@@ -210,7 +210,7 @@
    "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
    "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
   ],
-  "checked_at": "2026-09-28T10:51:03.000Z",
+  "checked_at": "2026-09-28T10:53:26.000Z",
   "seek_id": "94850442",
   "duplicate_key": "fultonhoganaustraliaptylimited|seek:94850442",
   "preparation_only": true
