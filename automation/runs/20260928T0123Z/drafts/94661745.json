@@ -10,7 +10,7 @@
  "recipient_email": "alice.mccosker@waverley.nsw.gov.au",
  "contact_evidence_url": "https://www.seek.com.au/job/94661745",
  "subject": "Graduate Engineer application, Marc Masarate",
- "email_body": "Hi Alice,\n\nI've just lodged my application for the Cadet/Graduate Engineer role in the Civil Design team through the Council website, and wanted to say hello directly since the ad lists you as the contact.\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026, where I designed and documented road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D to Australian Standards, and lodged Before You Dig Australia enquiries as part of the design work. My civil engineering degree (Philippines, 2019) covered surveying and hydraulics, and I worked on site there for about a year doing inspections, drawing reviews and site records.\n\nI'm based in Melton, Victoria and would relocate to Sydney for this role. I hold a White Card, an Australian driver's licence and full working rights until December 2027 on a Subclass 485 visa.\n\nIf it would help to see my drawings before shortlisting, they're at macdarenz-droid.github.io/Portfolio. Happy to answer any questions.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077",
+ "email_body": "Hi Alice,\n\nI've lodged my application for the Cadet/Graduate Engineer role in the Civil Design team through the Council website, and wanted to say hello directly since the ad lists you as the contact.\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026, where I designed and documented road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D to Australian Standards, and lodged Before You Dig Australia enquiries as part of the design work. My civil engineering degree (Philippines, 2019) covered surveying and hydraulics, and I worked on site there for about a year doing inspections, drawing reviews and site records.\n\nI'm based in Melton, Victoria and open to discussing relocation to Sydney. I hold a White Card, an Australian driver's licence and full working rights until December 2027 on a Subclass 485 visa.\n\nIf it would help to see my drawings before shortlisting, they're at macdarenz-droid.github.io/Portfolio. Happy to answer any questions.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077",
  "letter": {
   "recipient_name": "Alice McCosker",
   "recipient_role": "Senior Design Engineer, Civil Design, Major Projects",
@@ -19,11 +19,11 @@
   "subject": "Application for Graduate Engineer, Civil Design",
   "greeting": "Dear Alice,",
   "paragraphs": [
-   "I'm applying for the Graduate Engineer position in the Civil Design team, Major Projects. Designing roads, drainage and public spaces that people use every day is the work I trained for, and I want to do it in a team that also gets out on site for inspections and surveys, as the ad describes.",
-   "I completed an Advanced Diploma of Civil Construction Design at Albright Institute in February 2026. The coursework had me design and document road geometry, earthworks, pavement systems and stormwater drainage, prepare and review drawings in AutoCAD and Civil 3D applying Australian Standards, compare design options and write them up, prepare cost estimates and bills of quantities, and lodge Before You Dig Australia enquiries and design around existing services. Before that I completed a Bachelor of Science in Civil Engineering in the Philippines in 2019, which covered surveying, hydraulics, structural principles and project delivery.",
+   "I'm applying for the Graduate Engineer position in the Civil Design team, Major Projects. Designing roads and drainage for a council, and getting out on site for inspections and surveys as the ad describes, is the work I trained for.",
+   "I completed an Advanced Diploma of Civil Construction Design at Albright Institute in February 2026. Road geometry, earthworks, pavement and stormwater drainage were the design subjects; I documented them in AutoCAD and Civil 3D to Australian Standards, compared options in writing, prepared cost estimates and bills of quantities, and lodged Before You Dig Australia enquiries so the designs worked around existing services. Before that I completed a Bachelor of Science in Civil Engineering in the Philippines in 2019, which covered surveying, hydraulics, structural principles and project delivery.",
    "My site experience is from the Philippines in 2019 and 2020. As project-in-charge on a community hall renovation I coordinated 10 to 15 workers a day, reviewed structural and architectural drawings and ran inspections and quality checks. As a field engineer on subdivision finishing works I kept site reports, material records and progress reports and coordinated with engineers, subcontractors and suppliers.",
-   "On the essential criteria: I studied surveying but have not used a Total Station on a job, so that is something I would learn quickly with the team. I use Word and Excel daily. I hold an Australian driver's licence, which I would transfer to NSW on relocating from Melton, Victoria, a White Card, and full working rights until December 2027 on a Subclass 485 visa.",
-   "My resume is attached and my drawings are at macdarenz-droid.github.io/Portfolio. I'd welcome the chance to talk about the role."
+   "On the essential criteria: I studied surveying but have not used a Total Station on a job, and I have not used Microsoft Project, so both are things I would learn with the team. I use Word and Excel. I hold an Australian driver's licence, a White Card and full working rights until December 2027 on a Subclass 485 visa, and I'm open to discussing relocation from Melton, Victoria.",
+   "My resume is attached and my drawings are at macdarenz-droid.github.io/Portfolio. I'm happy to answer anything the questionnaire doesn't cover."
   ],
   "closing": "Kind regards,"
  },
@@ -42,11 +42,11 @@
   },
   {
    "question": "Proficient in Microsoft Word, Excel and Project",
-   "answer": "Word and Excel: yes, daily use. Microsoft Project: not yet used; I have prepared programs and progress records on site and would pick it up quickly."
+   "answer": "Word and Excel: yes. Microsoft Project: not yet used; I have kept progress records and reports on site and would learn it."
   },
   {
    "question": "Current NSW Driver’s Licence",
-   "answer": "I hold a current Australian (Victorian) driver’s licence with my own transport and would transfer it to NSW on relocating."
+   "answer": "I hold a current Australian driver’s licence with my own transport. [Marc to confirm the NSW licence step if relocating.]"
   },
   {
    "question": "Strong commitment to liaising with the client and team members",
@@ -61,7 +61,7 @@
   "Open waverley.nsw.gov.au/council/jobs and find Cadet/Graduate Engineer (Civil Design, Major Projects); apply as Graduate Engineer.",
   "Attach the two PDFs from this record (resume and cover letter).",
   "Answer the online questionnaire using the suggested answers above, in your own words where it asks.",
-  "Submit before Saturday 10 October 2026; early applications are encouraged.",
+  "Submit before 10 October 2026; early applications are encouraged.",
   "Press Applied on the tracker with the date and \"Company website\". Claude then sends the short note to Alice McCosker."
  ],
  "application_type": "ADVERTISED_VACANCY",

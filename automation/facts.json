@@ -20,7 +20,8 @@
       "Available for site, office and regional project work",
       "Available for FIFO work and project-site travel across Central Queensland",
       "FIFO and regional travel"
-    ]
+    ],
+    "relocation": "Open to discussing relocation for the right role. Wording taken from applications the owner's authorised worker sent on 12 September 2026 (for example WML Consulting Engineers: 'open to discussing relocation to Bunbury or West Perth'). Applications may say 'open to discussing relocation'; they never promise a move, a date or funding. Marc to confirm interstate moves."
   },
   "education": [
     {
@@ -84,24 +85,59 @@
     "project_coordination": "planning each day's work, coordinating crews, tracking procurement and keeping material records",
     "technical_documentation": "reviewing drawings, writing site reports, keeping progress records and flagging issues",
     "stakeholder_communication": "working with engineers, subcontractors, suppliers, clients and site crews",
-    "software": ["AutoCAD 2D/3D", "Civil 3D", "Revit", "Microsoft Office", "Google Workspace"],
-    "standards_coursework": ["Austroads road and pavement guides", "AS 1742.14", "AS 1726", "AS 1289", "AS 4100", "AS/NZS 1170", "ISO 31000"],
-    "methods_coursework": ["options analysis", "hand calculations (equilibrium, method of joints)", "cost estimates and bills of quantities", "risk registers", "Before You Dig Australia enquiries"],
+    "software": [
+      "AutoCAD 2D/3D",
+      "Civil 3D",
+      "Revit",
+      "Microsoft Office",
+      "Google Workspace"
+    ],
+    "standards_coursework": [
+      "Austroads road and pavement guides",
+      "AS 1742.14",
+      "AS 1726",
+      "AS 1289",
+      "AS 4100",
+      "AS/NZS 1170",
+      "ISO 31000"
+    ],
+    "methods_coursework": [
+      "options analysis",
+      "hand calculations (equilibrium, method of joints)",
+      "cost estimates and bills of quantities",
+      "risk registers",
+      "Before You Dig Australia enquiries"
+    ],
     "drawings_public": [
       "Typical cross-section of a two-lane road with shoulders, kerbs and drainage (AutoCAD, Advanced Diploma coursework)",
       "Pedestrian Warren truss bridge modelled in 3D in Revit",
       "Footing and column modelled in 3D in AutoCAD"
     ]
   },
-  "strengths": ["Clear communicator", "Organised and dependable", "Practical problem-solver", "Strong attention to detail", "Comfortable working on my own or in a team", "Open to mentoring and keen to keep learning"],
+  "strengths": [
+    "Clear communicator",
+    "Organised and dependable",
+    "Practical problem-solver",
+    "Strong attention to detail",
+    "Comfortable working on my own or in a team",
+    "Open to mentoring and keen to keep learning"
+  ],
   "honest_limits": [
     "Software experience (AutoCAD, Civil 3D, Revit) is academic, not commercial production drafting",
     "No Australian site or office work experience yet; site work was in the Philippines in 2019–2020",
     "Bachelor degree completed 2019; Advanced Diploma completed February 2026",
     "Work rights are time-limited (Subclass 485 until December 2027); do not claim permanent residency or citizenship",
     "Did not use SIDRA, OpenRoads or Excel modelling",
-    "Referees are given on request only; never name them"
+    "Referees are given on request only; never name them",
+    "Has not used Microsoft Project, survey instruments (Total Station, GNSS), Pryda software, GIS software or Main Roads WA standards on a job",
+    "No start date, notice period, salary figure or police-check status is on record; leave those for Marc to answer"
   ],
-  "never_mention": ["residency or migration goals", "sponsorship requests unless the advert asks", "referee names or numbers", "assessor or classmate names", "school IDs"],
+  "never_mention": [
+    "residency or migration goals",
+    "sponsorship requests unless the advert asks",
+    "referee names or numbers",
+    "assessor or classmate names",
+    "school IDs"
+  ],
   "references": "Available on request."
 }
