@@ -1,0 +1,38 @@
+{
+  "seek_id": "94850442",
+  "company": "Fulton Hogan Australia Pty Limited",
+  "company_url": "https://www.fultonhogan.com/",
+  "careers_url": "https://fultonhogan.wd3.myworkdayjobs.com/Fultonhogan/job/Mile-End/Estimator-Senior-Estimator_R26516-1",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_evidence_url": "",
+  "evidence_quote": "",
+  "contact_confidence": "none",
+  "named_people": [
+    {
+      "name": "Peter Curl",
+      "role": "Chief Executive Officer - Australia Infrastructure Services (national executive, not the SA hiring manager)",
+      "email": "",
+      "evidence_url": "https://www.fultonhogan.com/our-story/our-leaders/"
+    },
+    {
+      "name": "Matthew MacMahon",
+      "role": "Independent Director (quoted as CEO Fulton Hogan Infrastructure Services in the SA road-maintenance contract announcement; earlier General Manager South Australia and Northern Territory after the 2008 PMP acquisition)",
+      "email": "",
+      "evidence_url": "https://www.fultonhogan.com/fulton-hogan-awarded-contract-to-maintain-south-australian-roads/"
+    }
+  ],
+  "employer_line": "Fulton Hogan holds a seven-year DPTI contract, worth about $13M a year, to maintain 5,800 km of South Australia's sealed road network from Port Wakefield across to Renmark, down to Mt Gambier and back to Victor Harbor, and has delivered road maintenance services in metropolitan Adelaide since 2011.",
+  "employer_line_source": "https://www.fultonhogan.com/fulton-hogan-awarded-contract-to-maintain-south-australian-roads/",
+  "published_generic_contacts": [
+    {
+      "email": "info@fultonhogan.com",
+      "phone": "+64 3 357 1400",
+      "where": "Site footer and https://www.fultonhogan.com/contact-us/ (the contact form offers a 'Career Opportunities' enquiry type, but the site directs applicants to the Workday portal; no statement that this inbox accepts applications or CVs)",
+      "accepts_applications_stated": false
+    }
+  ],
+  "application_route_notes": "SEEK listing 94850442 is a link-out (is_link_out true) to Fulton Hogan's Workday careers portal. The Workday jobs API search for 'Junior Estimator' returned exactly one posting: title 'Junior Estimator', requisition R26516, location Mile End, posted 2026-09-24, closes 2026-10-24, full time, description identical to the SEEK advert text (the URL slug reads 'Estimator-Senior-Estimator_R26516-1' but the posting title is Junior Estimator). Apply on that Workday page; the advert's only stated step is 'please submit an application for the position', and Fulton Hogan's Join-the-team page says 'View all available roles and apply online today' with the vacancies link https://fultonhogan.wd3.myworkdayjobs.com/Fultonhogan. No email application route is published and no recruitment-process steps beyond applying online are stated. Workday hiring organisation is shown as 'Fulton Hogan Industries Pty Limited' while the SEEK advertiser is 'Fulton Hogan Australia Pty Limited'. Route per config fallback_order: employer portal, prepared for Jeremie. No double-touch email: no verified direct contact exists.",
+  "notes": "Checked 2026-09-28. Followed config.json 'contact' rules exactly. Checked: fultonhogan.com Our Leaders page (no individual emails; only info@fultonhogan.com and NZ phone +64 3 357 1400), contact-us page and its raw HTML (only info@fultonhogan.com; office addresses/phones load dynamically via admin-ajax so the Mile End/SA office phone was not readable), Join-the-team careers page, SA road-maintenance contract news page, sitemap index plus page and services sitemaps (no SA-specific or Infrastructure Services landing page; services live under /services/ such as /services/surfacing/ and /services/asset-management/, not fetched within budget), Workday jobs API search and job-detail JSON for R26516. Not readable: careers.fultonhogan.com (agent proxy rejected the CONNECT with 502; Fulton Hogan's own site links vacancies to fultonhogan.wd3.myworkdayjobs.com, so that is the effective careers site); SEEK pages not fetched per instruction; https://www.fultonhogan.com/our-business/infrastructure-services/ returned 404. Searches (8 used) for an SA/NT Infrastructure Services General Manager or Sales & Estimating Manager on fultonhogan.com, SA government sites or employer-authored PDFs found no named SA-level manager and no published business email; results from LinkedIn, IBISWorld, LeadIQ, highperformr, Whitepages, BCI, Workopia and Glassdoor were ignored as non-employer sources. Result 'none' is normal for a company this size; no address was guessed or pattern-built. Budget used: 8 WebSearch, 12 WebFetch/curl."
+}
