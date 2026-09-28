@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<title>{{name}} cover letter</title>
+<style>
+  @page { size: A4; margin: 20mm 20mm 18mm 20mm; }
+  html, body { margin: 0; padding: 0; }
+  body { font-family: "Helvetica Neue", Helvetica, Arial, "Liberation Sans", sans-serif; color: #1a1a1a; font-size: 10.6pt; line-height: 1.48; }
+  header { display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 1.2px solid #1a1a1a; padding-bottom: 8px; margin-bottom: 18px; }
+  header h1 { font-size: 17pt; margin: 0 0 2px; letter-spacing: 0.2px; font-weight: 700; }
+  header .role { font-size: 10pt; color: #444; margin: 0; }
+  header .contact { text-align: right; font-size: 9.2pt; color: #333; line-height: 1.5; }
+  header .contact a { color: #333; text-decoration: none; }
+  .meta { margin: 0 0 14px; font-size: 10.2pt; }
+  .meta p { margin: 0; }
+  .subject { font-weight: 700; margin: 12px 0 10px; }
+  p { margin: 0 0 9px; }
+  .close { margin-top: 12px; }
+  .sig { margin-top: 20px; }
+  .sig .n { font-weight: 700; }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>{{name}}</h1>
+    <p class="role">{{title}}</p>
+  </div>
+  <div class="contact">
+    {{phone}}<br>
+    <a href="mailto:{{email}}">{{email}}</a><br>
+    <a href="{{portfolio_url}}">{{portfolio_display}}</a><br>
+    {{location}}
+  </div>
+</header>
+<div class="meta">
+  <p>{{date}}</p>
+  {{recipient_block}}
+</div>
+<p class="subject">{{subject}}</p>
+<p>{{greeting}}</p>
+{{paragraphs}}
+<p class="close">{{closing}}</p>
+<div class="sig">
+  <div class="n">{{name}}</div>
+  <div>{{phone}} · {{email}}</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+# Decisions: Claude job-search loop
+
+One line of reasoning per decision. Newest at the bottom of each section. The owner reads this file, not the chat.
+
+## Scope and authority
+- **D1 · Owner instruction (28 Sep 2026):** Marc asked Claude to find suitable jobs every five hours, no duplicates, at least one or two findings per run, reach the person who hires rather than HR, human-tone applications, send without per-email approval, track everything on the tracker under the name Claude, and design how Claude can apply beyond email. This file and `automation/README.md` are the operating documents for that task; `AGENTS.md` still applies.
+- **D2 · "Personal emails from companies" means the hiring person's published business address.** Claude looks for a named engineer, manager, director or owner whose work email the employer itself publishes. It does not look up private addresses, use data brokers or email-finder services, or guess patterns, because `AGENTS.md` forbids it and a guessed address bounces or reads as spam, which lowers the interview chance the owner asked for.
+- **D3 · No sending channel exists in this session.** The only connected connectors are Relay project links, GitHub and Twilio (search only); Gmail is not connected. Sending needs the owner to attach the Gmail connector to the Routine (STOP condition). Until then every email is fully prepared on the tracker (`PREPARED_NOT_SENT`, text plus both PDFs) so Marc can send it in one click.
+
+## Tracking
+- **D4 · Claude's records are manual entries with `contributor_name: "Claude"`.** The Worker API refuses any change to the frozen `applications` and `leads` arrays, and the owner asked for records "under your name Claude". Manual entries carry the contributor name the tracker shows as "Added by", are version-guarded, and survive edits Marc makes in the tracker. They also carry `created_by: "claude-job-search"` and `record_kind: "AUTOMATED_LEAD"` so they are never mistaken for a Jeremie entry.
+- **D5 · The existing D1 version guard is the journal lease.** A stale write returns 409; Claude re-reads, re-runs the duplicate check and retries. Before a send the record is moved to `SENDING` under that guard, which is the lease `AGENTS.md` requires.
+- **D6 · Duplicate rule.** Same SEEK id, same URL, same employer plus role, or any outreach or rejection at the same employer within 90 days blocks a new record. Employer names are normalised so "Pty Ltd", "Group", "Australia" and bracketed trading names do not create false negatives. Grok AI's 40 entries on the live tracker count as outreach and are respected.
+- **D7 · Grok AI entries exist on the live tracker (24 to 27 Sep 2026).** Another assistant has been recording applications. Claude does not edit or re-label them; it only avoids the same employers.
+
+## Discovery
+- **D8 · SEEK is the primary source through its public search API and GraphQL job details.** Both answer without a login; job pages, Jora and Indeed block automated reads (403). The GraphQL query returns the full advert, listed and expiry dates, `isExpired`, external-apply flag and the screening questions, which is more than the HTML page shows.
+- **D9 · Cheap prefilter, then ranking, then a paid fit score.** Title words screen out senior, management and other-discipline roles; a relevance rank sends the 60 detail fetches to civil junior roles first; the fit score (rubric in `config.json`) decides. The first sweep saw 1,498 listings in 14 days and the unranked top 80 by date were mostly noise, so ranking was added before the first run.
+- **D10 · Fit threshold 60 %, labelled as a rough fit.** Same bar as the previous two-hourly worker ("medium fit or stronger"); the tracker already explains that the score is not an interview forecast.
+
+## Applications
+- **D11 · Email under 220 words, letter under 340 words, no dashes, banned-phrase list.** The Portfolio plain-language pass found dashes and stock phrases read as template text; the same rules apply to applications. `checks.py` enforces them mechanically and a second agent tries to refute every claim against `facts.json`.
+- **D12 · The résumé is the Portfolio master PDF, unchanged.** Marc confirmed its facts; per-role résumés would drift from the truth rule. The cover letter carries the tailoring.
+- **D13 · Double touch for SEEK-only adverts.** When the employer wants SEEK or a portal, Claude prepares the pack for Marc or Jeremie and, if a direct contact is verified, a short note that goes only after the portal application is marked Applied. Applying twice through two channels without saying so would look careless.
+- **D14 · One email per run, one speculative enquiry per run, one follow-up after eight days.** `AGENTS.md` sets the one-per-run limit; a single polite follow-up measurably lifts reply rates and stays inside it.
+
+## Schedule
+- **D15 · A Claude Code Routine every five hours, bound to the session that built the loop.** The owner's other projects use the same pattern; the session keeps the tracker code and the repo. State lives in the tracker, `automation/journal.jsonl` and `automation/runs/`, so a summarised or restarted session can continue from the RUNBOOK.
+- **D16 · The six-digit code is never committed.** Scripts read `TRACKER_CODE` or `/root/.job-tracker-code`. The owner gave it in chat; it stays out of the repository and out of the Routine prompt.
+- **D17 · Routine `trig_0118Fg1NAJKwRaEYeYq2udSB` created 28 Sep 2026, cron `31 */5 * * *` UTC** (11:31, 16:31, 21:31, 02:31, 07:31 AEST), bound to session `session_015NhgX1Ss69pyJUZtkhpsEK`. The prompt is RUNBOOK §0. Update the Routine, never recreate it, when the prompt changes.

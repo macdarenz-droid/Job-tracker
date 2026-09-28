@@ -1,0 +1,107 @@
+{
+  "_source": "Portfolio resume.html (macdarenz-droid/Portfolio) and Portfolio docs/DECISIONS.md, read 28 Sep 2026. Every claim in an application must trace to a line here. Nothing else may be claimed.",
+  "identity": {
+    "name": "Marc Darenz Masarate",
+    "short_name": "Marc",
+    "title": "Graduate Civil Engineer | Civil Construction Design",
+    "location": "Melton VIC 3337",
+    "phone": "0478 764 077",
+    "email": "macdarenz@gmail.com",
+    "portfolio_url": "https://macdarenz-droid.github.io/Portfolio",
+    "resume_pdf_url": "https://macdarenz-droid.github.io/Portfolio/assets/Marc-Darenz-Masarate-Resume.pdf",
+    "resume_pdf_repo_path": "../Portfolio/assets/Marc-Darenz-Masarate-Resume.pdf"
+  },
+  "eligibility": {
+    "work_rights": "Subclass 485 visa: full working rights until December 2027",
+    "drivers_licence": "Australian driver's licence and own reliable transport",
+    "white_card": "White Card (Construction Induction)",
+    "wwcc": "Working with Children Check",
+    "availability": [
+      "Available for site, office and regional project work",
+      "Available for FIFO work and project-site travel across Central Queensland",
+      "FIFO and regional travel"
+    ]
+  },
+  "education": [
+    {
+      "qualification": "Advanced Diploma of Civil Construction Design",
+      "provider": "Albright Institute of Business and Language, Australia",
+      "dates": "Feb 2024 – Feb 2026",
+      "completed": "February 2026",
+      "points": [
+        "Designed and documented road geometry, earthworks, pavement systems and stormwater drainage, and studied infrastructure design principles",
+        "Prepared and reviewed technical drawings in AutoCAD and Civil 3D, applying Australian Standards and construction requirements",
+        "Gained a practical understanding of design coordination, constructability, technical reporting and how civil works move from concept to documentation",
+        "Lodged Before You Dig Australia (formerly DBYD) enquiries, followed its procedures, and designed around existing services and site constraints"
+      ]
+    },
+    {
+      "qualification": "Bachelor of Science in Civil Engineering (BSCE)",
+      "provider": "Divine Word College of Legazpi, Philippines",
+      "dates": "2014–2019",
+      "points": [
+        "Studied civil engineering design, construction methods, structural principles, hydraulics, surveying and project delivery"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Project-in-Charge Engineer (Entry Level)",
+      "employer": "JustBuilt, Philippines",
+      "dates": "Apr 2019 – Sep 2019",
+      "points": [
+        "Helped deliver a community hall renovation worth about PHP 1 million (AUD 22,000+), finished within the six-month construction program",
+        "Coordinated 10–15 workers each day, passed on work priorities and tracked progress to help the site run safely and efficiently",
+        "Reviewed structural and architectural drawings and checked work against project requirements to cut down on errors and rework",
+        "Carried out site inspections, safety checks and quality monitoring, and escalated issues that needed clarification or corrective action",
+        "Kept clients and other stakeholders up to date on progress throughout the job"
+      ]
+    },
+    {
+      "role": "Field Engineer",
+      "employer": "Grand Travaux, Philippines",
+      "dates": "Sep 2019 – Feb 2020",
+      "points": [
+        "Worked on residential subdivision finishing works worth about PHP 1.2 million (AUD 27,000+), delivered within the three-month construction schedule",
+        "Assisted with site inspections, daily coordination and quality checks to keep work compliant and on time",
+        "Tracked procurement and materials, and prepared site reports, material records and progress reports",
+        "Coordinated with engineers, subcontractors and suppliers to sort out site issues and keep work moving"
+      ]
+    },
+    {
+      "role": "Technical Support Representative – Microsoft Software",
+      "employer": "Concentrix, Philippines",
+      "dates": "Mar 2020 – Apr 2022",
+      "points": [
+        "Resolved 40–60 technical cases a day, troubleshooting step by step and keeping accurate case notes",
+        "Explained technical issues to customers in plain terms and worked with internal teams to fix complex problems"
+      ]
+    }
+  ],
+  "capabilities": {
+    "civil_design": "earthworks, road geometry, pavement design, stormwater drainage and civil documentation (Advanced Diploma coursework)",
+    "construction_support": "site inspections, progress monitoring, quality checks and safety observations",
+    "project_coordination": "planning each day's work, coordinating crews, tracking procurement and keeping material records",
+    "technical_documentation": "reviewing drawings, writing site reports, keeping progress records and flagging issues",
+    "stakeholder_communication": "working with engineers, subcontractors, suppliers, clients and site crews",
+    "software": ["AutoCAD 2D/3D", "Civil 3D", "Revit", "Microsoft Office", "Google Workspace"],
+    "standards_coursework": ["Austroads road and pavement guides", "AS 1742.14", "AS 1726", "AS 1289", "AS 4100", "AS/NZS 1170", "ISO 31000"],
+    "methods_coursework": ["options analysis", "hand calculations (equilibrium, method of joints)", "cost estimates and bills of quantities", "risk registers", "Before You Dig Australia enquiries"],
+    "drawings_public": [
+      "Typical cross-section of a two-lane road with shoulders, kerbs and drainage (AutoCAD, Advanced Diploma coursework)",
+      "Pedestrian Warren truss bridge modelled in 3D in Revit",
+      "Footing and column modelled in 3D in AutoCAD"
+    ]
+  },
+  "strengths": ["Clear communicator", "Organised and dependable", "Practical problem-solver", "Strong attention to detail", "Comfortable working on my own or in a team", "Open to mentoring and keen to keep learning"],
+  "honest_limits": [
+    "Software experience (AutoCAD, Civil 3D, Revit) is academic, not commercial production drafting",
+    "No Australian site or office work experience yet; site work was in the Philippines in 2019–2020",
+    "Bachelor degree completed 2019; Advanced Diploma completed February 2026",
+    "Work rights are time-limited (Subclass 485 until December 2027); do not claim permanent residency or citizenship",
+    "Did not use SIDRA, OpenRoads or Excel modelling",
+    "Referees are given on request only; never name them"
+  ],
+  "never_mention": ["residency or migration goals", "sponsorship requests unless the advert asks", "referee names or numbers", "assessor or classmate names", "school IDs"],
+  "references": "Available on request."
+}
