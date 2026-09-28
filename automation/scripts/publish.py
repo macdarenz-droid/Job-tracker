@@ -234,7 +234,7 @@ def publish_held(run_id):
     for sid, screen in sorted(screens.items()):
         if sid in drafts or screen.get('percent', 0) < CONFIG['fit']['threshold_percent']:
             continue
-        if screen.get('open') and not screen.get('mandatory_unmet'):
+        if screen.get('open') and not screen.get('mandatory_unmet') and not screen.get('mandatory_unresolved'):
             continue
         recs.append(held_record(run_id, cands.get(sid, {}), screen))
     write_json(run / 'held.json', recs)

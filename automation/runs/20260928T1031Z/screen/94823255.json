@@ -1,26 +1,29 @@
 {
-  "percent": 75,
-  "rationale": [
-    "Department of Transport and Main Roads (TMR) is a direct government employer; the role works \"with supervision and guidance from senior engineering staff\", suggesting it suits less-experienced engineers.",
-    "Contract administration, quantities, materials testing and risk assessment closely match Marc's Advanced Diploma coursework (AS 1289, standards, drainage).",
-    "The extracted advert text only shows the driver's licence requirement under \"Mandatory qualifications and conditions\"; the rest of that list is not captured."
-  ],
-  "caution": "Government maintenance-team role in Bundaberg; only the driver's-licence line of the mandatory qualifications list was captured from the ad text.",
-  "gaps": [],
-  "mandatory_unmet": [],
-  "mandatory_unresolved": [
-    "The advert's full \"Mandatory qualifications and conditions\" list beyond the driver's licence line was not captured in the extracted text, so degree, registration or experience requirements cannot be confirmed"
-  ],
-  "route": "EMPLOYER_PORTAL",
-  "apply_email": "",
-  "apply_instructions": "Apply via the SEEK link-out to the Queensland Government careers/smart jobs site.",
-  "open": true,
-  "employer_is_agency": false,
-  "company": "Department of Transport and Main Roads",
-  "title": "Engineer (Civil)",
-  "location": "Bundaberg, Bundaberg & Wide Bay Burnett QLD",
-  "url": "https://www.seek.com.au/job/94823255",
-  "listed_at": "2026-09-23T04:08:04.120Z",
-  "expires_at": "2026-10-23T12:59:59.999Z",
-  "screening_questions": []
+ "percent": 65,
+ "rationale": [
+  "Department of Transport and Main Roads (TMR) is a direct government employer; the role works \"with supervision and guidance from senior engineering staff\", suggesting it suits less-experienced engineers.",
+  "Contract administration, quantities, materials testing and risk assessment closely match Marc's Advanced Diploma coursework (AS 1289, standards, drainage).",
+  "The extracted advert text only shows the driver's licence requirement under \"Mandatory qualifications and conditions\"; the rest of that list is not captured."
+ ],
+ "caution": "Re-checked by Claude from the full advert: the mandatory list is a Washington Accord civil engineering degree or EA-assessed equivalence, C class licence and a criminal history check.",
+ "gaps": [],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [
+  "Mandatory: a four-year Washington Accord accredited Bachelor of Engineering (Civil) or an equivalence assessed by Engineers Australia. Marc's BSCE (Divine Word College of Legazpi, 2014 to 2019) is a Philippine degree; whether it is accredited under the Washington Accord or whether Marc holds an Engineers Australia assessment is not on record",
+  "Current C class driver's licence (state not on record) and a criminal history check on the recommended person",
+  "Bundaberg QLD posting: interstate relocation Marc has not confirmed (TMR offers relocation assistance)"
+ ],
+ "route": "EMPLOYER_PORTAL",
+ "apply_email": "",
+ "apply_instructions": "Apply through Queensland Government Smart Jobs (job ad reference QLD/702317/26) via the SEEK link-out; closes Thursday 8 October 2026",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Department of Transport and Main Roads",
+ "title": "Engineer (Civil)",
+ "location": "Bundaberg, Bundaberg & Wide Bay Burnett QLD",
+ "url": "https://www.seek.com.au/job/94823255",
+ "listed_at": "2026-09-23T04:08:04.120Z",
+ "expires_at": "2026-10-23T12:59:59.999Z",
+ "screening_questions": [],
+ "rescored_by": "Claude 28 Sep 2026"
 }

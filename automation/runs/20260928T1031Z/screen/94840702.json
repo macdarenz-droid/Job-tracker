@@ -1,36 +1,37 @@
 {
-  "percent": 75,
-  "rationale": [
-    "BOS Civil is a direct Perth employer explicitly welcoming a \"motivated Trainee Drainer\" alongside ticketed drainers.",
-    "Drainage installation/maintenance directly overlaps Marc's stormwater-drainage coursework, and no citizenship, degree or years bar is stated.",
-    "This is manual trade/labourer drainage work on site crews, not a civil engineering design or project role."
-  ],
-  "caution": "This is a manual trade/labourer drainer role, not a civil engineering design or site engineering position; a substantial career-direction shift from Marc's Advanced Diploma.",
-  "gaps": [
-    "No drainer ticket, HR licence or confined-space tickets held"
-  ],
-  "mandatory_unmet": [],
-  "mandatory_unresolved": [
-    "Whether confined space course completion or an HR licence is mandatory for the Trainee Drainer track (vs. trainable on the job) is not stated in the advert text"
-  ],
-  "route": "SEEK",
-  "apply_email": "",
-  "apply_instructions": "Apply via SEEK; screening asks about confined space courses and driving record history.",
-  "open": true,
-  "employer_is_agency": false,
-  "company": "BOS Civil Pty Ltd",
-  "title": "Civil Construction Drainer/Trainee Drainer",
-  "location": "Perth WA",
-  "url": "https://www.seek.com.au/job/94840702",
-  "listed_at": "2026-09-23T22:46:29.360Z",
-  "expires_at": "2026-10-24T12:59:59.999Z",
-  "screening_questions": [
-    "Which of the following statements best describes your right to work in Australia?",
-    "How many years' experience do you have in a Civil Construction Role?",
-    "How much notice are you required to give your current employer?",
-    "Are you willing to provide a copy of your driving record history?",
-    "Do you have a current Australian driver's licence?",
-    "Which of the following confined space courses have you completed?",
-    "Have you completed a qualification in civil construction?"
-  ]
+ "percent": 40,
+ "rationale": [
+  "BOS Civil is a direct Perth employer explicitly welcoming a \"motivated Trainee Drainer\" alongside ticketed drainers.",
+  "Drainage installation/maintenance directly overlaps Marc's stormwater-drainage coursework, and no citizenship, degree or years bar is stated.",
+  "This is manual trade/labourer drainage work on site crews, not a civil engineering design or project role."
+ ],
+ "caution": "Re-scored by Claude: manual drainer trade role, not an engineering position.",
+ "gaps": [
+  "No drainer ticket, HR licence or confined-space tickets held"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [
+  "Whether confined space course completion or an HR licence is mandatory for the Trainee Drainer track (vs. trainable on the job) is not stated in the advert text"
+ ],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK; screening asks about confined space courses and driving record history.",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "BOS Civil Pty Ltd",
+ "title": "Civil Construction Drainer/Trainee Drainer",
+ "location": "Perth WA",
+ "url": "https://www.seek.com.au/job/94840702",
+ "listed_at": "2026-09-23T22:46:29.360Z",
+ "expires_at": "2026-10-24T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "How many years' experience do you have in a Civil Construction Role?",
+  "How much notice are you required to give your current employer?",
+  "Are you willing to provide a copy of your driving record history?",
+  "Do you have a current Australian driver's licence?",
+  "Which of the following confined space courses have you completed?",
+  "Have you completed a qualification in civil construction?"
+ ],
+ "rescored_by": "Claude 28 Sep 2026"
 }

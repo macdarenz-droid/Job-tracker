@@ -1,32 +1,33 @@
 {
-  "percent": 67,
-  "rationale": [
-    "WYN&CO is recruiting for an unnamed Brisbane civil construction leader; only \"proven experience\" is asked, with no specific years stated.",
-    "Coordination, planning, scheduling and documentation duties overlap Marc's project-coordination coursework and site experience.",
-    "Microsoft Project use (a plus) is an explicit honest-limit gap; IFS software experience is unknown."
-  ],
-  "caution": "Recruiter names no employer, and the advert does not state a minimum years figure despite a screening question asking for one.",
-  "gaps": [
-    "No hands-on Microsoft Project experience",
-    "No prior Australian civil construction project engineering experience"
-  ],
-  "mandatory_unmet": [],
-  "mandatory_unresolved": [
-    "The advert text does not state a minimum years-of-experience figure even though the screening question asks for one, so the real experience bar cannot be confirmed"
-  ],
-  "route": "SEEK",
-  "apply_email": "",
-  "apply_instructions": "Apply via SEEK.",
-  "open": true,
-  "employer_is_agency": true,
-  "company": "WYN&CO Search Recruitment & Payroll",
-  "title": "Civil Project Engineer",
-  "location": "Brisbane QLD",
-  "url": "https://www.seek.com.au/job/94916158",
-  "listed_at": "2026-09-28T06:02:43.748Z",
-  "expires_at": "2026-10-28T05:01:00.000Z",
-  "screening_questions": [
-    "Which of the following statements best describes your right to work in Australia?",
-    "How many years' experience do you have as a Civil Project Engineer?"
-  ]
+ "percent": 50,
+ "rationale": [
+  "WYN&CO is recruiting for an unnamed Brisbane civil construction leader; only \"proven experience\" is asked, with no specific years stated.",
+  "Coordination, planning, scheduling and documentation duties overlap Marc's project-coordination coursework and site experience.",
+  "Microsoft Project use (a plus) is an explicit honest-limit gap; IFS software experience is unknown."
+ ],
+ "caution": "Re-scored by Claude: recruiter with no employer named, project engineer level; agency route only.",
+ "gaps": [
+  "No hands-on Microsoft Project experience",
+  "No prior Australian civil construction project engineering experience"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [
+  "The advert text does not state a minimum years-of-experience figure even though the screening question asks for one, so the real experience bar cannot be confirmed"
+ ],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK.",
+ "open": true,
+ "employer_is_agency": true,
+ "company": "WYN&CO Search Recruitment & Payroll",
+ "title": "Civil Project Engineer",
+ "location": "Brisbane QLD",
+ "url": "https://www.seek.com.au/job/94916158",
+ "listed_at": "2026-09-28T06:02:43.748Z",
+ "expires_at": "2026-10-28T05:01:00.000Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "How many years' experience do you have as a Civil Project Engineer?"
+ ],
+ "rescored_by": "Claude 28 Sep 2026"
 }
