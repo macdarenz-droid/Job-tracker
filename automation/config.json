@@ -293,7 +293,7 @@
     "rubric": "Score the advert against automation/facts.json only. Start at 50. Add up to +25 for role level (junior, graduate, cadet, trainee, entry drafter or site support roles score highest; roles asking 2+ years commercial experience score low). Add up to +15 for discipline overlap (civil road, earthworks, pavement, drainage, civil documentation, site coordination, inspections, records; Civil 3D and AutoCAD; Revit). Add up to +10 for location fit (Melbourne west and Victoria highest; regional, FIFO and Central Queensland acceptable; anywhere in Australia allowed when relocation is realistic). Subtract 40 if a mandatory requirement cannot be met (citizenship or PR required, a licence Marc does not hold, degree from a named country only). Subtract 15 for 'must have Australian experience'. Subtract 10 if the advert is a recruitment agency with no named employer. Never guess: an unknown mandatory detail is a gap, not a fail. The result is a rough fit, not an interview forecast."
   },
   "limits": {
-    "target_new_records_min": 1,
+    "target_new_records_min": 2,
     "max_new_records_per_run": 4,
     "max_emails_per_run": 1,
     "max_speculative_per_run": 1,
@@ -303,7 +303,19 @@
     "max_candidate_details_per_run": 60,
     "contact_research_max_per_run": 4,
     "screen_max_per_run": 25,
-    "agents_per_run_max": 7
+    "agents_per_run_max": 7,
+    "widen_ladder": [
+      {
+        "daterange": 7
+      },
+      {
+        "daterange": 14
+      },
+      {
+        "max_details": 80,
+        "screen_max": 40
+      }
+    ]
   },
   "tone": {
     "max_email_words": 220,

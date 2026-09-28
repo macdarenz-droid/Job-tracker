@@ -24,7 +24,7 @@ python3 tracker.py check ../runs/$RUN/candidates.json --out ../runs/$RUN/candida
 
 Then one sweep Agent (see §9) on this run's rotation: (a) six employers from `config.json → target_employers` (rotate by run number; record what was checked in `employers.json`), or (b) council job boards and state government graduate programs, or (c) Victoria off-SEEK adverts (Melbourne west first). Each advert found is saved as `extra/<slug>.json` (`id`, `source`, `company`, `title`, `location`, `url`, `listed_at`, `expires_at`, `content_text`, `apply_instructions`, `screening_questions`, `is_expired`, `is_link_out`) and then checked with `tracker.py check` (write the list to `extra/_check.json`).
 
-Fewer than three new candidates after dedupe → widen: `--daterange 7`, then `--max-details 100`. Still nothing → journal "nothing new" and go to §8. Never lower the fit threshold to hit a number.
+**Every tick must end with at least two new tracker records** (owner, 28 Sep 2026: results per loop, high quality). Fewer than six new candidates after dedupe → widen in this order until there are enough: `--daterange 7`, then `--daterange 14`, then `--max-details 80` with `digest --max 40`. Still fewer than two publishable records after screening and verification → one speculative enquiry to a target employer with a verified direct contact (clearly labelled, `SPECULATIVE_ENQUIRY`), which counts as a record. Only when all of that yields nothing is "nothing new" journaled, with the widening steps listed. Never lower the fit threshold or the truth rules to hit the number: widen the search instead.
 
 ## 3. Screen (one agent, low effort)
 
