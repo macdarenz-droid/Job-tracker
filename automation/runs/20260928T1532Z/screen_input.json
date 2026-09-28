@@ -1,0 +1,906 @@
+{
+ "count": 16,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "94848610",
+   "company": "STP Consultants",
+   "title": "Junior Civil Draftsperson",
+   "run": "20260928T0123Z",
+   "percent": 51,
+   "mandatory_unmet": [
+    "Advert requires an Australian Citizen or Permanent Resident; Marc holds a Subclass 485 visa"
+   ]
+  },
+  {
+   "id": "94877601",
+   "company": "Quickway Constructions",
+   "title": "Undergraduate Civil Engineer",
+   "run": "20260928T0123Z",
+   "percent": 32,
+   "mandatory_unmet": [
+    "Advert targets a currently enrolled 3rd/4th year Civil Engineering student; Marc is not currently enrolled"
+   ]
+  },
+  {
+   "id": "94767885",
+   "company": "Shellharbour City Council",
+   "title": "Cadet - Civil Engineering",
+   "run": "20260928T0123Z",
+   "percent": 34,
+   "mandatory_unmet": [
+    "Cadetship requires current enrolment in a Bachelor of Engineering (Civil), at least 4 semesters completed and entering 3rd year; Marc's qualifications are already completed, not in progress"
+   ]
+  },
+  {
+   "id": "94871250",
+   "company": "WorkPac Technical and Operations",
+   "title": "Civil Engineer – Urban Development & Infrastructure",
+   "run": "20260928T0123Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Advert requires 3 to 8 years of post-graduate experience within Australian civil consulting; Marc has none yet"
+   ]
+  },
+  {
+   "id": "94904264",
+   "company": "City of Adelaide",
+   "title": "Graduate, Civil Engineer",
+   "run": "20260928T0123Z",
+   "percent": 84,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94829443",
+   "company": "NRW Pty Ltd",
+   "title": "Graduate Civil Engineer",
+   "run": "20260928T0123Z",
+   "percent": 87,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94768012",
+   "company": "Damcon Pty Ltd",
+   "title": "Civil Infrastructure Estimator/Junior Estimator",
+   "run": "20260928T0123Z",
+   "percent": 4,
+   "mandatory_unmet": [
+    "Advert requires a minimum 2 years of civil estimating experience specifically within the Australian market; Marc has none"
+   ]
+  },
+  {
+   "id": "94870967",
+   "company": "City of Onkaparinga",
+   "title": "Civil Engineer",
+   "run": "20260928T0123Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Advert requires a minimum of 3 years' experience in the civil engineering design field; Marc has none yet"
+   ]
+  },
+  {
+   "id": "94845689",
+   "company": "Aurecon",
+   "title": "Civil Engineer, Land Infrastructure",
+   "run": "20260928T0123Z",
+   "percent": 81,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94843448",
+   "company": "ACCIONA Australia",
+   "title": "Site Engineers Civils and Structures",
+   "run": "20260928T0123Z",
+   "percent": 72,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94817297",
+   "company": "The Lorian Group",
+   "title": "Consultant Civil Engineer",
+   "run": "20260928T0123Z",
+   "percent": 59,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94783773",
+   "company": "UGL CPB Humelink West",
+   "title": "Undergraduate Engineer - Civil",
+   "run": "20260928T0123Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Advert states applicants MUST be an Australian Citizen; Marc holds a Subclass 485 visa, not citizenship",
+    "Requires currently progressing a tertiary engineering qualification; Marc's qualifications are already completed"
+   ]
+  },
+  {
+   "id": "94783397",
+   "company": "Infrastructure Engineering Group",
+   "title": "Utilities Engineer – Civil Infrastructure",
+   "run": "20260928T0123Z",
+   "percent": 75,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94900572",
+   "company": "Aptus",
+   "title": "Civil 3D | Civil Design + Engineering | $110K - $135K +",
+   "run": "20260928T0123Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Advert requires a minimum of 4 years using Civil 3D; Marc's Civil 3D experience is academic coursework only"
+   ]
+  },
+  {
+   "id": "94864674",
+   "company": "Gamuda Australia Branch",
+   "title": "2027 DT Infrastructure Undergraduate Opportunities - Engineering",
+   "run": "20260928T0123Z",
+   "percent": 82,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94828184",
+   "company": "Aurizon",
+   "title": "Civil Project Engineer",
+   "run": "20260928T0123Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Advert states 'ideally 5 years' experience in project delivery across mid to large-scale civil projects (essential)'; Marc has none yet"
+   ]
+  },
+  {
+   "id": "94815004",
+   "company": "Empower Management",
+   "title": "Civil Project Engineer – TMR & Council Road Construction",
+   "run": "20260928T0123Z",
+   "percent": 14,
+   "mandatory_unmet": [
+    "Advert requires around 4-5+ years of civil construction experience; Marc has none yet"
+   ]
+  },
+  {
+   "id": "94902917",
+   "company": "Employment Matters",
+   "title": "CIVIL CONSTRUCTION TRAINEE",
+   "run": "20260928T0532Z",
+   "percent": 87,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94839731",
+   "company": "City of Gold Coast",
+   "title": "Undergraduate Engineers",
+   "run": "20260928T1031Z",
+   "percent": 43,
+   "mandatory_unmet": [
+    "\"be enrolled in and entering the final year of a relevant undergraduate Bachelor of Engineering degree at a recognised Australian university\" (Marc completed his BSCE in 2019 and is not currently enrolled at university)"
+   ]
+  },
+  {
+   "id": "94833268",
+   "company": "NES Fircroft",
+   "title": "Project Engineer – Civil / Structural – Transmission",
+   "run": "20260928T1031Z",
+   "percent": 10,
+   "mandatory_unmet": [
+    "\"Minimum 5 years' experience in a Project Engineer, Site Engineer or similar position\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian work experience)"
+   ]
+  },
+  {
+   "id": "94819303",
+   "company": "Randstad - Inhouse Services",
+   "title": "Civil Project Engineer",
+   "run": "20260928T1031Z",
+   "percent": 23,
+   "mandatory_unmet": [
+    "\"minimum of five year experience specifically delivering civil works for mining ... tailings storage facility (TSF) or tailings dam projects\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian or mining experience)"
+   ]
+  },
+  {
+   "id": "94816113",
+   "company": "Focus Executive Recruitment Pty Ltd",
+   "title": "Site Engineer - Civil Works - Geelong",
+   "run": "20260928T1031Z",
+   "percent": 18,
+   "mandatory_unmet": [
+    "\"have 2 - 5 years experience working in a similar function\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian work experience)"
+   ]
+  },
+  {
+   "id": "94804467",
+   "company": "RAF Civil Pty Ltd",
+   "title": "Civil Site/Project Engineer",
+   "run": "20260928T1031Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "\"Possess at least 2+ years experience working on Australian Tier 1 projects\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian work experience)"
+   ]
+  },
+  {
+   "id": "94787847",
+   "company": "AWCON Pty Ltd",
+   "title": "Project Engineer / Civil Engineer",
+   "run": "20260928T1031Z",
+   "percent": 18,
+   "mandatory_unmet": [
+    "\"5+ years' experience in project engineering, with a strong background in underground construction\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian or underground mining experience)"
+   ]
+  },
+  {
+   "id": "94782577",
+   "company": "Skyhook Engineering",
+   "title": "Structural Draftsperson (Revit)",
+   "run": "20260928T1031Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "\"Australian citizenship or permanent residents only\" (Marc holds a Subclass 485 visa to December 2027, not citizenship or permanent residency)",
+    "\"2+ years hands-on Revit experience\" (Marc's Revit experience is academic coursework, not commercial production drafting)"
+   ]
+  },
+  {
+   "id": "93919799",
+   "company": "Austral Construction Pty Ltd",
+   "title": "Project Engineers - Civil",
+   "run": "20260928T1031Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94765861",
+   "company": "Indus Engineering Pty Ltd",
+   "title": "Civil Engineer",
+   "run": "20260928T1031Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "\"Minimum 3+ years of experience in civil engineering projects\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian work experience)"
+   ]
+  },
+  {
+   "id": "94857072",
+   "company": "JRM Resources",
+   "title": "Civil Engineer",
+   "run": "20260928T1031Z",
+   "percent": 33,
+   "mandatory_unmet": [
+    "\"Minimum 2 years post degree experience\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian work experience)"
+   ]
+  },
+  {
+   "id": "94847757",
+   "company": "Roach Recruitment",
+   "title": "Civil Engineer - Water",
+   "run": "20260928T1031Z",
+   "percent": 68,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94847650",
+   "company": "STP Consultants",
+   "title": "Civil Engineer",
+   "run": "20260928T1031Z",
+   "percent": 27,
+   "mandatory_unmet": [
+    "\"Minimum 5 years' experience in a similar role\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian work experience)"
+   ]
+  },
+  {
+   "id": "94843737",
+   "company": "Aurecon",
+   "title": "Civil Underground Structures Engineer",
+   "run": "20260928T1031Z",
+   "percent": 18,
+   "mandatory_unmet": [
+    "\"Be an Australian Citizen and eligible for security clearance (AGSVA requirements apply)\" (Marc holds a Subclass 485 visa to December 2027, not Australian citizenship)"
+   ]
+  },
+  {
+   "id": "94842398",
+   "company": "Northrop Consulting Engineers Pty Ltd",
+   "title": "Civil Engineer",
+   "run": "20260928T1031Z",
+   "percent": 45,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94831822",
+   "company": "Chandler Macleod",
+   "title": "Civil Project Engineer",
+   "run": "20260928T1031Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "\"8+ years' experience delivering civil earthworks and infrastructure projects\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian work experience)",
+    "\"Current residence in the Gladstone region is essential. FIFO arrangements and relocation assistance are not available for this role\" (Marc lives in Melton VIC with no relocation assistance offered)"
+   ]
+  },
+  {
+   "id": "94825304",
+   "company": "Vorstrom",
+   "title": "Cadet Draftsperson",
+   "run": "20260928T1031Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94770316",
+   "company": "Durack Civil",
+   "title": "Civil Estimator",
+   "run": "20260928T1031Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "\"Minimum 6 years' experience in civil construction\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian work experience)"
+   ]
+  },
+  {
+   "id": "94916158",
+   "company": "WYN&CO Search Recruitment & Payroll",
+   "title": "Civil Project Engineer",
+   "run": "20260928T1031Z",
+   "percent": 50,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94912548",
+   "company": "AWCON Pty Ltd",
+   "title": "Estimator – Mining & Civil Construction",
+   "run": "20260928T0532Z",
+   "percent": 77,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94868128",
+   "company": "Shadforth",
+   "title": "Civil Estimators",
+   "run": "20260928T0532Z",
+   "percent": 67,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94856038",
+   "company": "ABI Civil Contracting NSW",
+   "title": "Civil Estimator",
+   "run": "20260928T1031Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "\"Minimum 3 years' estimating experience within the Australian civil construction industry\" (Marc has no estimating role experience)"
+   ]
+  },
+  {
+   "id": "94840702",
+   "company": "BOS Civil Pty Ltd",
+   "title": "Civil Construction Drainer/Trainee Drainer",
+   "run": "20260928T1031Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94797351",
+   "company": "Hardings Group (Tas) Pty Ltd",
+   "title": "Civil Construction Traineeship",
+   "run": "20260928T1031Z",
+   "percent": 50,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94819769",
+   "company": "THE BMD GROUP",
+   "title": "Site Engineer",
+   "run": "20260928T1031Z",
+   "percent": 50,
+   "mandatory_unmet": [
+    "\"civil infrastructure project experience\" for a Site Engineer at a tier-one contractor (Marc has 11 months of building and subdivision site work in the Philippines, no Australian infrastructure experience)"
+   ]
+  },
+  {
+   "id": "94815766",
+   "company": "Shadforth",
+   "title": "Site and Project Engineers",
+   "run": "20260928T1031Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "\"experienced Site and Project Engineers\" with \"proven experience delivering residential subdivision and large-scale civil infrastructure projects\""
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "id": "94925455",
+   "source": "seek",
+   "title": "Civil Engineer/Civil Designer",
+   "company": "Hanlons Consulting",
+   "location": "Tamworth, Tamworth & North West NSW",
+   "url": "https://www.seek.com.au/job/94925455",
+   "work_type": "Full time",
+   "salary": "$75,000 – $95,000 per year",
+   "listed_at": "2026-09-28T12:10:51.065Z",
+   "expires_at": "2026-10-28T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a civil designer?",
+    "How much notice are you required to give your current employer?",
+    "Do you have a current Australian driver's licence?",
+    "Have you completed a qualification in engineering drafting / engineering design?",
+    "How many years experience in Civil Engineering Design do you have?"
+   ],
+   "summary": "Ready for more?  Build your career with Hanlons.  Enjoy project diversity, genuine career growth, regional lifestyle and statewide opportunities.",
+   "opening": "About the role\nHanlons is expanding its Engineering team in Tamworth and is looking for a Civil Engineer or Civil Designer. You may have 2–5 years of practical Civil Engineering or Civil Design experience, be progressing through relevant tertiary education, or have developed your capability through a combination of work and study. If you're looking for more project variety, greater responsibility, access to experienced senior Engineers and the opportunity to work across multiple areas of Civil Engineering, this could be your next move.\nKey responsibilities\n- Work on Civil Engineering projects including roads and pavements, subdivisions and land development, stormwater and drainage, hydrology and hydraulic design, water and sewer infrastructure, rail infrastructure, open channels and detention basins, development and planning-related engineering, site investigations and construction suppo",
+   "key_lines": [
+    "Hanlons is expanding its Engineering team in Tamworth and is looking for a Civil Engineer or Civil Designer. You may have 2–5 years of practical Civil Engineering or Civil Design experience, be progressing through relevant tertiary education, or have developed your capability through a combination of work and study. If you're looking for more project variety, greater responsibility, access to experienced senior Engineers and the opportunity to work across multiple areas of Civil Engineering, this could be your next move.",
+    "- Civil Engineer with a few years' practical experience, or Civil Designer with approximately 2–5 years' design or industry experience",
+    "- Graduate Civil Engineer ready for broader project exposure, or working in Civil Engineering or Civil Design while completing relevant tertiary studies",
+    "- Strong practical Civil Design capability with willingness to continue developing qualifications",
+    "- Experience, education or exposure across civil design and drafting, roads and pavements, subdivisions and land development, stormwater and drainage, hydrology and hydraulics, water and sewer infrastructure, rail or other infrastructure, engineering calculations and technical documentation, design review and verification, or civil design, CAD, hydrology or hydraulic software",
+    "- Australian Class C Driver Licence",
+    "- Salary $75,000–$95,000 + super, depending on experience, qualifications and capability",
+    "- Direct mentoring from experienced senior Engineers",
+    "You’ll know the people you work with, have direct access to experienced senior staff and be able to see the impact your work has on real projects and communities.",
+    "Most importantly, we’re a business where you can learn, contribute and grow. You’ll work alongside experienced professionals who are willing to share their knowledge, while gaining practical experience across interesting and diverse projects throughout NSW."
+   ]
+  },
+  {
+   "id": "94764074",
+   "source": "seek",
+   "title": "Civil Project Engineer",
+   "company": "DWE SERVICES",
+   "location": "Murray Bridge, Riverland & Murray Mallee SA",
+   "url": "https://www.seek.com.au/job/94764074",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-21T03:36:48.496Z",
+   "expires_at": "2026-10-21T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a Civil Project Engineer?",
+    "How much notice are you required to give your current employer?",
+    "Do you have a current Australian driver's licence?"
+   ],
+   "summary": "Experienced Civil Project Engineer for hands-on site-based role in Murray Bridge.",
+   "opening": "DWE Services is a family-owned South Australian civil construction company delivering civil infrastructure, subdivision development, road construction, service installation and general earthworks across South Australia. We are a growing company that values our people and provides the opportunity to take ownership of your work and develop your career within the civil construction industry.\nAbout the role\nAs the Civil Project Engineer, you will be responsible for supporting the successful delivery of the project from a technical, commercial and operational perspective. This is a hands-on site-based role where you will work closely with Project Managers, Supervisors, subcontractors and site crews to ensure the project is delivered safely, on time and within budget.\nKey responsibilities\n- Day-to-day engineering and project support on site\n- Monitoring project progress against program and mil",
+   "key_lines": [
+    "As the Civil Project Engineer, you will be responsible for supporting the successful delivery of the project from a technical, commercial and operational perspective. This is a hands-on site-based role where you will work closely with Project Managers, Supervisors, subcontractors and site crews to ensure the project is delivered safely, on time and within budget.",
+    "- Reviewing drawings, specifications and construction requirements",
+    "- Ensuring works are completed to the required quality standards",
+    "- Bachelor's Degree in Civil Engineering or equivalent",
+    "- Previous experience in civil construction or project engineering",
+    "- Experience with cost tracking, project budgets and forecasting",
+    "- Current Australian driver's licence",
+    "You will have the opportunity to work alongside an experienced team and play an important role in delivering a significant civil construction project in the Murray Bridge region.",
+    "If you're a qualified Civil Engineer looking for a hands-on project role where your skills and input are valued, we'd like to hear from you.",
+    "Apply now with your resume and a brief cover letter outlining your experience."
+   ]
+  },
+  {
+   "id": "94716074",
+   "source": "seek",
+   "title": "Civil Engineering Draftsperson",
+   "company": "Lindores Personnel",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/94716074",
+   "work_type": "Full time",
+   "salary": "$80,000 per year",
+   "listed_at": "2026-09-18T01:44:55.912Z",
+   "expires_at": "2026-10-18T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a civil drafter?",
+    "How much notice are you required to give your current employer?",
+    "How many years experience in Traffic Management do you have?",
+    "How many years' experience do you have as a Civil Design Draftsperson?"
+   ],
+   "summary": "Civil Engineering Draftsperson to prepare technical drawings and Traffic Guidance Schemes for civil, construction and infrastructure projects.",
+   "opening": "About the role\nLindores Personnel is seeking an experienced Civil Engineering Draftsperson to join our Brisbane-based team. The role will focus on preparing technical drawings and Traffic Guidance Schemes (TGSs) to support civil, construction and infrastructure projects.\nKey responsibilities\n- Prepare and develop technical civil drawings and draft Traffic Guidance Schemes (TGSs) for review and approval\n- Develop plans for lane closures, detours, signage layouts, taper and buffer zones, TMA placement, pedestrian and cyclist management, construction staging and diversion routes\n- Prepare drawings and documentation in accordance with AGTTM, AS 1742.3, QGTTM and relevant Queensland authority requirements\n- Undertake site inspections, assessments and measurements to support accurate, site-specific drawings\n- Assist with risk assessments and identification of traffic and site hazards\n- Use Rap",
+   "key_lines": [
+    "Lindores Personnel is seeking an experienced Civil Engineering Draftsperson to join our Brisbane-based team. The role will focus on preparing technical drawings and Traffic Guidance Schemes (TGSs) to support civil, construction and infrastructure projects.",
+    "- Prepare drawings and documentation in accordance with AGTTM, AS 1742.3, QGTTM and relevant Queensland authority requirements",
+    "- A Diploma in Civil Engineering, Civil Construction Design, Engineering Drafting or another relevant discipline; or 3–5 years of relevant work experience as a Civil Engineering Draftsperson or in a closely related civil/traffic management drafting role",
+    "- Experience preparing technical drawings and plans",
+    "- Understanding of civil construction and traffic management requirements",
+    "- Experience with RapidPlan, Invarion or similar drafting/design software"
+   ]
+  },
+  {
+   "id": "94642283",
+   "source": "seek",
+   "title": "Engineer - Civil (Renewable Energy and Utilities Projects)",
+   "company": "Consolidated Power Projects Australia Pty Ltd",
+   "location": "Adelaide SA",
+   "url": "https://www.seek.com.au/job/94642283",
+   "work_type": "Full time",
+   "salary": "Highly attractive remuneration package",
+   "listed_at": "2026-09-15T05:56:50.836Z",
+   "expires_at": "2026-10-15T04:56:49.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Please provide your base salary expectations (excluding superannuation): ",
+    "Please clarify your working rights",
+    "If you are a visa holder, please provide details.",
+    "In which Australian state are you currently residing in? ",
+    "How did you hear about CPP?",
+    "What is the notice period for your current employment?",
+    "Do you identify as Aboriginal/Torres Strait Islander? (please note this question is asked for diversity purposes only)"
+   ],
+   "summary": "Develop your career while contributing to renewable energy infrastructure, this is an opportunity to work on complex, nationally significant projects.",
+   "opening": "- Full-time, permanent position\n - Based in our Adelaide head office\n - Join CPP’s highly experienced in-house national design and engineering team\nWho Are CPP? \nCPP is a leading high-voltage infrastructure provider, connecting renewable energy projects to Australia’s electricity grid. \nAs a member of Quanta Services, a Fortune 500 company ranked #192 on the NYSX, we specialise in the design, construction, commissioning, and maintenance of substations, transmission lines, wind farms, and battery storage systems.\nEstablished in 1996, we’ve connected more wind farms and renewable batteries than any other company. With over 800 employees and offices in Adelaide, Melbourne, Sydney, Brisbane, and Perth, we partner with Australia’s major transmission providers to deliver innovative, end-to-end solutions.\nJoin us in shaping the future of energy.\nDesign & Engineering\nCPP has the largest in-house",
+   "key_lines": [
+    "- Join CPP’s highly experienced in-house national design and engineering team",
+    "Our engineers work closely with construction and operations teams, ensuring designs are practical, constructible, and continually refined through real-world feedback. With a commitment to innovation and excellence, we deliver solutions that support a stable, reliable, and sustainable energy future.",
+    "We’re expanding our civil design engineering capability and are looking for an Engineer - Civil to join CPP’s highly experienced in-house national design and engineering team. If you’re passionate about civil design and want to develop your career while contributing to renewable energy infrastructure, this is an opportunity to work on complex, nationally significant projects.",
+    "Working closely with our Senior and Principal Engineers, you’ll undertake civil engineering design tasks from the definition of client requirements and initial planning through to the development of concept and Issued for Construction designs. Your work will support the delivery of practical and safe civil solutions for high-voltage substations, battery storage systems and renewable energy projects.",
+    "You’ll contribute across a range of civil design elements, including stormwater drainage, bulk earthworks, pavements and access roads. Working as part of a multidisciplinary team of engineers, project managers and construction professionals, you’ll help ensure designs are accurate, constructible, compliant and aligned with project requirements.",
+    "- A degree in Civil Engineering or an equivalent qualification, with professional engineering registration highly regarded",
+    "- At least three years’ experience in civil design, ideally within the energy, utilities, mining or major infrastructure sectors",
+    "- Practical experience in civil design areas such as bulk earthworks, stormwater drainage, pavements and access roads",
+    "- Experience preparing engineering drawings, design reports and construction specifications",
+    "- Experience using AutoCAD and 3D bulk earthworks modelling software such as 12d",
+    "- Experience with stormwater catchment and drainage modelling software such as DRAINS or HEC-RAS",
+    "- Whilst not essential, experience in high-voltage substations, utility grid connections or multidisciplinary renewable energy projects will be highly regarded",
+    "How to Apply:",
+    "For further information, please reach out to amoritz@conpower.com.au however applications will not be accepted via email."
+   ]
+  },
+  {
+   "id": "94633140",
+   "source": "seek",
+   "title": "Undergraduate Engineer",
+   "company": "Silverstrand Developments",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/94633140",
+   "work_type": "Casual/Vacation",
+   "salary": "$300.00 Day rate",
+   "listed_at": "2026-09-15T01:59:11.317Z",
+   "expires_at": "2026-10-13T00:58:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "Do you have a current Australian driver's licence?",
+    "How much notice are you required to give your current employer?"
+   ],
+   "summary": "Silverstrand is seeking motivated and determined Civil Engineering Undergraduates to join the team.",
+   "opening": "Silverstrand is seeking motivated and determined Civil Engineering Undergraduates to join the team and learn from experienced leaders and diverse civil construction projects across South-East Queensland – focused on the Brisbane to Gold Coast region or rural projects.\n About us:\n Silverstrand is a privately owned company that provides high-quality civil engineering and construction services across Australia and New Zealand. Delivering projects that positively impact communities across the region, Silverstrand combines local knowledge with international expertise. Our projects include road, rail, airport, sewerage and water treatment, mining, renewables, and commercial industries.\n To find out more about our company, head to our website - https://silverstrand.com.au/ \n About the Opportunity: \n Cadetship or Summer holiday students – are typically year first to third year university student",
+   "key_lines": [
+    "Silverstrand is seeking motivated and determined Civil Engineering Undergraduates to join the team and learn from experienced leaders and diverse civil construction projects across South-East Queensland – focused on the Brisbane to Gold Coast region or rural projects.",
+    "Cadetship or Summer holiday students – are typically year first to third year university students that participate in paid work, whilst completing their education. The program would run throughout November to February during the summer holidays in a full-time work capacity, and part-time outside of those months with flexibility around study.",
+    "This is a great way to utilise your academic knowledge and understanding, and turn it into practical, real-world capabilities to further your university studies and your future engineering career. Development pathways in different disciplines of civil engineering and the ability to network and be mentored by a variety of experienced project teams.",
+    "Starting your undergraduate journey with Silverstrand. This opportunity is aimed for undergraduate Civil Engineers looking to get a taste of what a career within the civil industry would be like. This will include working on Civil projects ranging from FRP Concrete Structures, Pipe work projects, Road projects, Drainage, Bridges, Renewable Energy, Gas projects, WWTPs, etc.",
+    "- Be a current Engineering undergraduate.",
+    "- Relevant industry experience is highly regarded but not essential.",
+    "- A current driver's licence and access to reliable transport (P1, P2 or Full).",
+    "- Paid work experience - $300.00 Day rate"
+   ]
+  },
+  {
+   "id": "94723645",
+   "source": "seek",
+   "title": "Civil Drafter ",
+   "company": "Bayside Group",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/94723645",
+   "work_type": "Casual/Vacation",
+   "salary": null,
+   "listed_at": "2026-09-18T05:05:24.190Z",
+   "expires_at": "2026-10-18T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?"
+   ],
+   "summary": "A great opportunity for a Brisbane-based Senior Civil Drafter to work on major infrastructure projects.",
+   "opening": "About the Opportunity\nA leading engineering consultancy who delivers complex transport and infrastructure outcomes across Queensland, partnering with government and local stakeholders on state-significant road and highway programs.\nYou will join our client on major TMR projects in Brisbane, with exposure across the full design lifecycle from concept through to construction. This role suits a senior drafter who enjoys technical detail, tidy drawing management, and clear communication with engineers and external stakeholders.\nThere is a strong pipeline of work and a genuine pathway to long-term ongoing engagement for the right person.\nAbout the Role\nThis is a Brisbane-based Senior Civil Drafter opportunity working on high-profile roads and highways projects.\n - Produce detailed drafting packages across civil and transport deliverables\n - Draft drainage, pavement, signage and linemarking, r",
+   "key_lines": [
+    "Skills and Experience",
+    "- Strong AutoCAD capability (AutoCAD and/or AutoCAD Map 3D)",
+    "- Proven experience drafting to QLD TMR standards and codes",
+    "- ProjectWise and/or Autodesk Vault experience for document control",
+    "- Attractive hourly rate reflecting senior TMR experience",
+    "To submit your application in strict confidence, click the 'apply' button. If you require further information, please contact Oscar Olsson on 0415 390 719."
+   ]
+  },
+  {
+   "id": "94716040",
+   "source": "seek",
+   "title": "Civil Engineer",
+   "company": "Campaspe Shire Council",
+   "location": "Echuca, Shepparton & Goulburn Valley VIC",
+   "url": "https://www.seek.com.au/job/94716040",
+   "work_type": "Full time",
+   "salary": "$80,211.56 to $92,509.76 + super",
+   "listed_at": "2026-09-18T01:44:06.404Z",
+   "expires_at": "2026-10-18T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Engineering Team, in this role you providing technical support and conducting engineering investigations to support the planning, design.",
+   "opening": "Civil Engineer \nTenure: Permanent – Full Time\nLocation: Echuca\nRemuneration: $80,211.56 to $92,509.76 + superannuation & leave loading \nAbout the Role\nThe Civil Engineer in within the Engineering Team, in this role you providing technical support and conducting engineering investigations to support the planning, design, and delivery of infrastructure and development projects, including subdivision development, road construction, and drainage networks.\nAbout You\nTo be successful in this role, you will have:\n - A degree in Civil Engineering or equivalent qualification with relevant experience.\n - Demonstrated engineering design experience within the civil engineering field.\n - Eligible for membership with Institution of Engineers Australia.\n - Working knowledge of MS Office (words & excel) and AutoCAD Drafting.\n - Excellent communication, interpersonal and conflict resolution skills\n - Vic",
+   "key_lines": [
+    "- A degree in Civil Engineering or equivalent qualification with relevant experience.",
+    "- Demonstrated engineering design experience within the civil engineering field.",
+    "- Working knowledge of MS Office (words & excel) and AutoCAD Drafting.",
+    "- Valid National Police Check and Driver’s Licence.",
+    "- Be part of a highly skilled, experienced, and supportive team.",
+    "For further information, email the People and Culture Team at employment@campaspe.vic.gov.au.",
+    "If you require any reasonable adjustments or have access needs during the application or interview process, please let us know.",
+    "How to apply?",
+    "To apply or to view the Position Description, visit the careers section on Council’s website and follow the instructions. begin including the following statement in all media job adverts.",
+    "Applications close at 11:59 pm on Sunday, 18 October 2026."
+   ]
+  },
+  {
+   "id": "94649633",
+   "source": "seek",
+   "title": "Civil Engineer",
+   "company": "Northrop Consulting Engineers Pty Ltd",
+   "location": "Newcastle, Newcastle, Maitland & Hunter NSW",
+   "url": "https://www.seek.com.au/job/94649633",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-15T09:30:09.016Z",
+   "expires_at": "2026-10-15T07:00:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a civil engineer?",
+    "Which of the following CAD software do you have experience with?",
+    "What's your expected annual base salary?"
+   ],
+   "summary": "Join a reputable engineering consultancy that puts emphasis on career development. Take the lead on landmark urban development projects across NSW.",
+   "opening": "You’re an experienced civil engineer looking to take the next step in your career. You will lead project teams, taking ownership of the technical delivery of civil projects across built form, road infrastructure, high-density precinct development, and public domain works.\nThis role is based at our Newcastle office.\nWhat You’ll Own\nAs a Civil Engineer, you will be joining a professional and collaborative team of engineers, designers, drafters, graduates and undergraduates, working on a diverse range of projects across the built environment.\nWith a strong pipeline of upcoming projects for both new and existing clients, you will lead projects while being supported by a close-knit management team. You will be client-facing, with the autonomy of leading projects from concept through to construction and technical delivery, while having the support you need to succeed. You will act as a mentor ",
+   "key_lines": [
+    "You’re an experienced civil engineer looking to take the next step in your career. You will lead project teams, taking ownership of the technical delivery of civil projects across built form, road infrastructure, high-density precinct development, and public domain works.",
+    "As a Civil Engineer, you will be joining a professional and collaborative team of engineers, designers, drafters, graduates and undergraduates, working on a diverse range of projects across the built environment.",
+    "With a strong pipeline of upcoming projects for both new and existing clients, you will lead projects while being supported by a close-knit management team. You will be client-facing, with the autonomy of leading projects from concept through to construction and technical delivery, while having the support you need to succeed. You will act as a mentor to emerging engineers contributing to their technical development and continued growth of the civil section.",
+    "For more than 50 years, we’ve built our business around our people, our relationships and the impact our work has on communities.",
+    "Today, our multidisciplinary teams work across NSW, ACT, Queensland and Victoria on projects of all sizes, spanning sectors including health, education, residential, commercial, industrial, sport and land development.",
+    "Essential:",
+    "- Ideally 3-5 Years of post-graduate experience working as a civil engineering consultant on built form projects.",
+    "- Bachelor's degree in Engineering from a recognised university or institute.",
+    "- Experience preparing detailed design and documentation of roads, intersections, pavements, earthworks and stormwater drainage.",
+    "- Sound understanding of civil design software such as 12D Model and/or Civil 3D.",
+    "- Competent and independent use of other civil modelling software such as DRAINS, MUSIC and AutoCAD.",
+    "- A diverse range of projects and opportunities, from small residential developments to major hospitals, race tracks, airports, and everything in between. With such a broad variety of work, there's always something new to keep your role interesting and rewarding.",
+    "To apply for this role, please submit a comprehensive resume as well as a brief covering letter by clicking on the “Apply” tab."
+   ]
+  },
+  {
+   "id": "94642720",
+   "source": "seek",
+   "title": "Civil Engineering Technician",
+   "company": "Bestbar Pty Ltd",
+   "location": "Truganina, Melbourne VIC",
+   "url": "https://www.seek.com.au/job/94642720",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-15T06:09:01.501Z",
+   "expires_at": "2026-10-15T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "An exciting opportunity to join our close-knit Truganina team in a Steel Reinforcement Scheduling position",
+   "opening": "A rare and exciting opportunity has arisen for an experienced Civil Engineering Technician to become an integral member of our Scheduling team. Reporting to the Scheduling Manager and situated in our Truganina, VIC office. The job would entail the scheduling of reinforcing products for a range of concrete structures in commercial and civil construction projects in accordance with the relevant standards.\nCivil Engineering Technicians must also effectively control the project requirements through accurate forward planning and scheduling of production and delivery in order to maximize productivity and profitability for the business.\nDuties to include, but not limited to:\n·         Read and interpret engineering and architectural drawings.\n·         Schedule reinforcing products into Bestbar’s operating system\n·         Accurately plan and schedule to the project/job requirements\n·         K",
+   "key_lines": [
+    "A rare and exciting opportunity has arisen for an experienced Civil Engineering Technician to become an integral member of our Scheduling team. Reporting to the Scheduling Manager and situated in our Truganina, VIC office. The job would entail the scheduling of reinforcing products for a range of concrete structures in commercial and civil construction projects in accordance with the relevant standards.",
+    "Civil Engineering Technicians must also effectively control the project requirements through accurate forward planning and scheduling of production and delivery in order to maximize productivity and profitability for the business.",
+    "·         Accurately plan and schedule to the project/job requirements",
+    "Skills and Qualifications",
+    "·         Tertiary qualification in Civil Engineering or relevant experience within the Reinforcing Industry",
+    "·         Ability to use Auto Cad, Tekla, Revit and Bluebeam",
+    "·         Experience in the commercial, residential and civil markets",
+    "·         Experience in a customer facing role"
+   ]
+  },
+  {
+   "id": "94642437",
+   "source": "seek",
+   "title": "Civil Engineering Technician",
+   "company": "Bestbar Pty Ltd",
+   "location": "East Rockingham, Perth WA",
+   "url": "https://www.seek.com.au/job/94642437",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-15T06:01:17.914Z",
+   "expires_at": "2026-10-15T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "An exciting opportunity to join our close-knit East Rockingham team in a Steel Reinforcement Scheduling position",
+   "opening": "A rare and exciting opportunity has arisen for an experienced Civil Engineering Technician to become an integral member of our Scheduling team. Reporting to the Planning Manager and situated in our East Rockingham, WA office. The job would entail the scheduling of reinforcing products for a range of concrete structures in commercial and civil construction projects in accordance with the relevant standards.\nCivil Engineering Technicians must also effectively control the project requirements through accurate forward planning and scheduling of production and delivery in order to maximize productivity and profitability for the business.\nDuties to include, but not limited to:\n·         Read and interpret engineering and architectural drawings.\n·         Schedule reinforcing products into Bestbar’s operating system\n·         Accurately plan and schedule to the project/job requirements\n·       ",
+   "key_lines": [
+    "A rare and exciting opportunity has arisen for an experienced Civil Engineering Technician to become an integral member of our Scheduling team. Reporting to the Planning Manager and situated in our East Rockingham, WA office. The job would entail the scheduling of reinforcing products for a range of concrete structures in commercial and civil construction projects in accordance with the relevant standards.",
+    "Civil Engineering Technicians must also effectively control the project requirements through accurate forward planning and scheduling of production and delivery in order to maximize productivity and profitability for the business.",
+    "·         Accurately plan and schedule to the project/job requirements",
+    "Skills and Qualifications",
+    "·         Tertiary qualification in Civil Engineering or relevant experience within the Reinforcing Industry",
+    "·         Ability to use Auto Cad, Tekla, Revit and Bluebeam",
+    "·         Experience in the commercial, residential and civil markets",
+    "·         Experience in a customer facing role"
+   ]
+  },
+  {
+   "id": "94642220",
+   "source": "seek",
+   "title": "Civil Engineering Technician",
+   "company": "Bestbar Pty Ltd",
+   "location": "Salisbury South, Adelaide SA",
+   "url": "https://www.seek.com.au/job/94642220",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-15T05:55:03.224Z",
+   "expires_at": "2026-10-15T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "An exciting opportunity to join our close-knit Salisbury team in a Steel Reinforcement Scheduling position",
+   "opening": "A rare and exciting opportunity has arisen for an experienced Civil Engineering Technician to become an integral member of our Scheduling team. Reporting to the Scheduling Manager and situated in our brand new Salisbury, SA office. The job would entail the scheduling of reinforcing products for a range of concrete structures in commercial and civil construction projects in accordance with the relevant standards.\nCivil Engineering Technicians must also effectively control the project requirements through accurate forward planning and scheduling of production and delivery in order to maximize productivity and profitability for the business.\nDuties to include, but not limited to:\n·         Read and interpret engineering and architectural drawings.\n·         Schedule reinforcing products into Bestbar’s operating system\n·         Accurately plan and schedule to the project/job requirements\n· ",
+   "key_lines": [
+    "A rare and exciting opportunity has arisen for an experienced Civil Engineering Technician to become an integral member of our Scheduling team. Reporting to the Scheduling Manager and situated in our brand new Salisbury, SA office. The job would entail the scheduling of reinforcing products for a range of concrete structures in commercial and civil construction projects in accordance with the relevant standards.",
+    "Civil Engineering Technicians must also effectively control the project requirements through accurate forward planning and scheduling of production and delivery in order to maximize productivity and profitability for the business.",
+    "·         Accurately plan and schedule to the project/job requirements",
+    "Skills and Qualifications",
+    "·         Tertiary qualification in Civil Engineering or relevant experience within the Reinforcing Industry",
+    "·         Ability to use Auto Cad, Tekla, Revit and Bluebeam",
+    "·         Experience in the commercial, residential and civil markets",
+    "·         Experience in a customer facing role"
+   ]
+  },
+  {
+   "id": "94641899",
+   "source": "seek",
+   "title": "Civil Engineering Technician",
+   "company": "Bestbar Pty Ltd",
+   "location": "Winnellie, Darwin NT",
+   "url": "https://www.seek.com.au/job/94641899",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-15T05:47:06.143Z",
+   "expires_at": "2026-10-15T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "An exciting opportunity to join our close-knit Darwin team in a Steel Reinforcement Scheduling position",
+   "opening": "A rare and exciting opportunity has arisen for an experienced Civil Engineering Technician to become an integral member of our Scheduling team. Reporting to the Office Manager and situated in our Winnellie, NT office. The job would entail the scheduling of reinforcing products for a range of concrete structures in commercial and civil construction projects in accordance with the relevant standards.\nCivil Engineering Technicians must also effectively control the project requirements through accurate forward planning and scheduling of production and delivery in order to maximize productivity and profitability for the business.\nDuties to include, but not limited to:\n·         Read and interpret engineering and architectural drawings.\n·         Schedule reinforcing products into Bestbar’s operating system\n·         Accurately plan and schedule to the project/job requirements\n·         Keep a",
+   "key_lines": [
+    "A rare and exciting opportunity has arisen for an experienced Civil Engineering Technician to become an integral member of our Scheduling team. Reporting to the Office Manager and situated in our Winnellie, NT office. The job would entail the scheduling of reinforcing products for a range of concrete structures in commercial and civil construction projects in accordance with the relevant standards.",
+    "Civil Engineering Technicians must also effectively control the project requirements through accurate forward planning and scheduling of production and delivery in order to maximize productivity and profitability for the business.",
+    "·         Accurately plan and schedule to the project/job requirements",
+    "Skills and Qualifications",
+    "·         Tertiary qualification in Civil Engineering or relevant experience within the Reinforcing Industry",
+    "·         Ability to use Auto Cad, Tekla, Revit and Bluebeam",
+    "·         Experience in the commercial, residential and civil markets",
+    "·         Experience in a customer facing role"
+   ]
+  },
+  {
+   "id": "94631744",
+   "source": "seek",
+   "title": "Expressions of Interest - Civil Engineering",
+   "company": "Spiire",
+   "location": "Townsville, Northern QLD",
+   "url": "https://www.seek.com.au/job/94631744",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-15T01:27:02.860Z",
+   "expires_at": "2026-10-11T12:59:59.000Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "We’re thrilled to announce the expansion of our operations into North Queensland with the establishment of a local presence in Townsville!",
+   "opening": "About Spiire\nAt Spiire, our purpose is simple: to better the communities we live and work within, create opportunities for our staff and clients and deliver value to all stakeholders. \nWe are a multidisciplinary team of passionate consultants providing specialist services to the property and infrastructure sectors.\nWith over 400 employees across our Melbourne, Brisbane, Adelaide, Canberra, Geelong, Bendigo,  Ballarat, Shepparton, Gippsland, Townsville and Albury / Wodonga offices, supporting local urban development projects with local expertise.\nAs a successful and growing employee-owned business, we recognise and reward the contributions of our people and provide real opportunities and pathways for career progression.\nSpiire has been in operation for over 40 years. We attribute this success with our proud history of inclusive collaboration and delivering exceptional and pragmatic outcom",
+   "key_lines": [
+    "Spiire has been in operation for over 40 years. We attribute this success with our proud history of inclusive collaboration and delivering exceptional and pragmatic outcomes for our valued clients.",
+    "As we begin to grow our Townsville business, we are interested in hearing from professionals across a range of roles, including Civil Construction Engineers, Civil Designers (junior, intermediate and senior level), Civil Design Engineers and Senior Civil Drafters.",
+    "- Experience the unique rewards and opportunities associated with an employee-owned business",
+    "Whether you're an experienced professional looking to take the next step in your career, or someone who is passionate about contributing to the growth of North Queensland, please follow the link below to apply:"
+   ]
+  },
+  {
+   "id": "94914683",
+   "source": "seek",
+   "title": "Structural Steel Estimator",
+   "company": "Melsteel Pty Ltd",
+   "location": "Hallam, Melbourne VIC",
+   "url": "https://www.seek.com.au/job/94914683",
+   "work_type": "Full time",
+   "salary": "$70,000 – $80,000 per year",
+   "listed_at": "2026-09-28T05:11:33.719Z",
+   "expires_at": "2026-10-28T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "How many years' experience do you have as a Structural Steel Estimator?",
+    "How many years of estimating experience do you have?",
+    "Which of the following statements best describes your right to work in Australia?",
+    "Do you have experience in a sales role?",
+    "How many years' experience do you have as a Sales Estimator?",
+    "What's your expected annual base salary?",
+    "How would you rate your English language skills?",
+    "Do you have customer service experience?"
+   ],
+   "summary": "Grow your career as a Structural Steel Estimator with industry leader Melsteel. ",
+   "opening": "About the role\nJoin the team at Melsteel Pty Ltd as a Structural Steel Estimator based in Hallam, Victoria. This is a full-time position, offering the opportunity to play a key role in the construction industry. As the Structural Steel Estimator, you will be responsible for accurately estimating the cost and materials required for structural steel projects to support the company's growth and success.\nKey Responsibilities:\n- Read and interpret both engineering and architectural plans.\n- Understand the scope of works to identify required steel components.\n- Accurately estimate bills of materials and necessary labor in line with architectural requirements.\n- Read and understand shop drawings.\n- Collaborate with various stakeholders, including clients, suppliers, internal draftsmen, fabricators, and installers.\n- Work effectively as part of a team.\n- Assist the Sales Team with counter sales ",
+   "key_lines": [
+    "Join the team at Melsteel Pty Ltd as a Structural Steel Estimator based in Hallam, Victoria. This is a full-time position, offering the opportunity to play a key role in the construction industry. As the Structural Steel Estimator, you will be responsible for accurately estimating the cost and materials required for structural steel projects to support the company's growth and success.",
+    "- Understand the scope of works to identify required steel components.",
+    "- Accurately estimate bills of materials and necessary labor in line with architectural requirements.",
+    "Preferred but not required:",
+    "If you meet the above criteria and are available for an immediate start, we encourage you to apply!",
+    "Please note: This position is open to permanent residents only. Only shortlisted candidates will be contacted.",
+    "Melsteel Pty Ltd is a leading provider of structural steel solutions for the construction industry. With over 30 years of experience, we are known for our commitment to quality, innovation, and customer satisfaction. Our team of skilled professionals works closely with clients to deliver tailored solutions that meet their unique requirements. Join us as we continue to shape the future of the industry."
+   ]
+  },
+  {
+   "id": "94904560",
+   "source": "seek",
+   "title": "2027 Graduate Opportunities",
+   "company": "Argo Coal Management Pty Ltd",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/94904560",
+   "work_type": "Full time",
+   "salary": "Highly Competitive Rem package & Benefits",
+   "listed_at": "2026-09-27T23:44:31.931Z",
+   "expires_at": "2026-10-27T23:44:31.931Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Launch your mining career with hands-on experience across diverse coal operations in Queensland",
+   "opening": "Join Argo Natural Resources - a business built around people.\nAt Argo Natural Resources, we’re building more than a mining business - we’re building a team of capable, motivated people who want to learn, contribute and grow.\nArgo is a people-led mining business producing high-quality steelmaking coal from our operations across Queensland’s Bowen Basin, including Carborough Downs, Ironbark, Broadlea and New Burton Mine.\nAs part of Queensland’s resources industry, we’re proud to play a role in supplying the resources that help build cities, support communities and keep industries moving.\nFor our graduates, that means the opportunity to gain practical experience, work alongside experienced professionals and build a strong foundation for a rewarding career in mining.\nABOUT THIS OPPORTUNITY\nOur 2027 Graduate Program is designed to give you more than your first job - it’s an opportunity to bui",
+   "key_lines": [
+    "For our graduates, that means the opportunity to gain practical experience, work alongside experienced professionals and build a strong foundation for a rewarding career in mining.",
+    "Our 2027 Graduate Program is designed to give you more than your first job - it’s an opportunity to build real industry experience and develop the skills, knowledge and confidence to take the next step in your career.",
+    "- Apply your university knowledge to real-world mining operations.",
+    "- Gain hands-on experience in a dynamic operational environment.",
+    "- Work alongside experienced leaders and technical professionals.",
+    "Whether you’re stepping onto a mine site for the first time or already have practical industry experience, you’ll be supported to learn, contribute and grow.",
+    "We’re looking for graduates who are curious, motivated and ready to make their mark.",
+    "- A relevant university degree or be completing your final year of study.",
+    "Starting your career with Argo means learning from experienced people while gaining hands-on experience across Queensland’s resources industry. With a diverse portfolio of both underground and open-cut coal operations, you’ll have the opportunity to broaden your skills, gain valuable operational exposure and build a strong foundation for your career - whatever your discipline.",
+    "- A structured graduate experience with opportunities to build practical skills.",
+    "- Support and development from experienced leaders and technical specialists.",
+    "- Practical, hands-on industry experience.",
+    "At Argo, you’ll have the opportunity to put your knowledge into practice, make a real impact and build the skills and experience to take your career further."
+   ]
+  },
+  {
+   "id": "94899540",
+   "source": "seek",
+   "title": "Estimator & Procurement Coordinator",
+   "company": "Evve Group",
+   "location": "Preston, Melbourne VIC",
+   "url": "https://www.seek.com.au/job/94899540",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-27T01:47:35.723Z",
+   "expires_at": "2026-10-27T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "How many years' experience do you have in the construction industry?",
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have with project planning and scheduling?",
+    "How many years' experience do you have as a project manager?",
+    "Do you have experience working on residential construction projects?",
+    "How many years' experience do you have with contracts administration?",
+    "What's your expected annual base salary?"
+   ],
+   "summary": "Junior to mid-level Estimator & Procurement Coordinator for Residential & Commercial projects.",
+   "opening": "About Evve Group\nEvve Group delivers boutique residential and multi-residential projects across Melbourne, with a strong focus on quality, detail and considered construction. We’re a hands on, team first business improving the way we price, prepare and deliver our projects.\nWe’re looking for a junior to mid-level Estimator & Procurement Coordinator to join our pre-construction team. This is a predominantly office-based role with some contact with clients, trades and suppliers.\nAbout the role\nYou’ll help take projects from tender documentation through to a construction-ready handover. Your work will include measuring quantities, building estimates, obtaining and comparing trade prices, and helping procure packages as projects move into delivery.\nOur estimating process is increasingly systemised. We use take-off tools such as Buildxact and are introducing AI to assist with document review ",
+   "key_lines": [
+    "Evve Group delivers boutique residential and multi-residential projects across Melbourne, with a strong focus on quality, detail and considered construction. We’re a hands on, team first business improving the way we price, prepare and deliver our projects.",
+    "We’re looking for a junior to mid-level Estimator & Procurement Coordinator to join our pre-construction team. This is a predominantly office-based role with some contact with clients, trades and suppliers.",
+    "- Experience in residential & commercial estimating, with the ability to complete your own take-offs.",
+    "- Experience with estimating or take-off software; Buildxact experience is an advantage.",
+    "- Experience in procurement or contract administration would be an advantage.",
+    "You’ll work across distinctive residential and commercial projects and see your estimates progress into construction. You’ll be close to the decisions, supported by an experienced team, and have the opportunity to develop both your estimating and procurement skills as our processes grow."
+   ]
+  }
+ ]
+}
