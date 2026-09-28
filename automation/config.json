@@ -200,7 +200,7 @@
       "warehouse",
       "forklift"
     ],
-    "max_details_per_run": 60,
+    "max_details_per_run": 40,
     "rank_title": {
       "civil": 4,
       "graduate civil": 3,
@@ -294,13 +294,16 @@
   },
   "limits": {
     "target_new_records_min": 1,
-    "max_new_records_per_run": 5,
+    "max_new_records_per_run": 4,
     "max_emails_per_run": 1,
     "max_speculative_per_run": 1,
     "repeat_block_days": 90,
     "follow_up_after_days": 8,
     "max_follow_ups": 1,
-    "max_candidate_details_per_run": 60
+    "max_candidate_details_per_run": 60,
+    "contact_research_max_per_run": 4,
+    "screen_max_per_run": 25,
+    "agents_per_run_max": 7
   },
   "tone": {
     "max_email_words": 220,
@@ -403,7 +406,7 @@
   },
   "target_employers": {
     "_note": "Employer names only. The tick resolves careers pages with WebSearch/WebFetch and caches what it verified in automation/employers.json. Small and mid-sized civil firms first: they read direct email.",
-    "rotate_per_run": 12,
+    "rotate_per_run": 6,
     "names": [
       "Beveridge Williams",
       "Taylors Development Strategists",
@@ -496,5 +499,11 @@
     "delivery_failed": "DELIVERY_FAILED",
     "held_prefix": "HELD_",
     "expired": "EXPIRED"
-  }
+  },
+  "sweep_rotation": [
+    "employers",
+    "councils_government",
+    "victoria_offsite"
+  ],
+  "_budget": "Owner (28 Sep 2026): token use about 5 to 6 on a 10 scale. Fewest agents that give the same result: one sweep agent, one screening agent, at most four contact-research agents, one reviewer. Claude drafts the letters itself. No panels, no per-candidate agents."
 }

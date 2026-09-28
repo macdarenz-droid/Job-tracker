@@ -172,8 +172,10 @@ Marc asked for the person who hires, not the HR inbox. The rule (`config.json �
 ## 10. Schedule and operations
 
 - A Claude Code Routine fires every five hours into the session that built this loop, with the
-  prompt in `RUNBOOK.md` §0. Each tick is bounded: at most 60 SEEK details, 5 new records,
-  1 email, about 25 minutes.
+  prompt in `RUNBOOK.md` §0. Each tick is bounded: at most 40 SEEK details, 25 screened, 4 new
+  records, 1 email, about 25 minutes, and at most seven agents (owner's budget: about 5 to 6 on
+  a 10 scale; one sweep, one screener, up to four contact researchers, one reviewer; Claude
+  drafts and publishes itself).
 - Each run writes `automation/runs/<run_id>/` (candidates, decisions, drafts) and appends to
   `automation/journal.jsonl`, then commits to branch `claude/job-search-automation-sg3inr`.
 - The six-digit tracker code is read from the `TRACKER_CODE` environment variable or

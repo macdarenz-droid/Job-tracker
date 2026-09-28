@@ -22,35 +22,33 @@ python3 seek.py sweep --daterange 3 --max-details 60 --out ../runs/$RUN/candidat
 python3 tracker.py check ../runs/$RUN/candidates.json --out ../runs/$RUN/candidates.json
 ```
 
-Then, in parallel with WebSearch/WebFetch (one Workflow, see §9): (a) twelve employers from `config.json → target_employers` (rotate by run number; record what was checked in `employers.json`), (b) three WebSearch angles: council job boards, state government graduate programs, "graduate civil engineer" or "civil drafter" plus a region. Any advert found outside SEEK is added to `candidates.json` with `source`, `url`, `company`, `title`, `location`, `content_text`, `listed_at` if shown, then re-checked with `tracker.py check`.
+Then one sweep Agent (see §9) on this run's rotation: (a) six employers from `config.json → target_employers` (rotate by run number; record what was checked in `employers.json`), or (b) council job boards and state government graduate programs, or (c) Victoria off-SEEK adverts (Melbourne west first). Each advert found is saved as `extra/<slug>.json` (`id`, `source`, `company`, `title`, `location`, `url`, `listed_at`, `expires_at`, `content_text`, `apply_instructions`, `screening_questions`, `is_expired`, `is_link_out`) and then checked with `tracker.py check` (write the list to `extra/_check.json`).
 
 Fewer than three new candidates after dedupe → widen: `--daterange 7`, then `--max-details 100`. Still nothing → journal "nothing new" and go to §8. Never lower the fit threshold to hit a number.
 
-## 3. Screen (parallel agents, 5 min)
+## 3. Screen (one agent, low effort)
 
-For every candidate not blocked as duplicate: score with the rubric in `config.json → fit`, against `facts.json` only. Output per candidate: `percent`, `rationale` (3 lines), `caution`, `gaps` (list), `mandatory_unmet` (list or empty), `route` (SEEK, EMPLOYER_PORTAL, EMPLOYER_FORM, EMAIL), `apply_instructions` quoted from the advert, `open` (true only if `is_expired` is false and `expires_at`, if given, is in the future).
+```
+python3 seek.py digest ../runs/$RUN            # compact view of the new candidates, at most 25
+```
+One Agent (effort low) reads `screen_input.json`, `facts.json` and `config.json → fit`, scores every candidate with the rubric, and writes `screen/<id>.json` per candidate: `percent`, `rationale` (3 lines), `caution`, `gaps`, `mandatory_unmet`, `route` (SEEK, EMPLOYER_PORTAL, EMPLOYER_FORM, EMAIL), `apply_email`, `apply_instructions`, `open`, `employer_is_agency`, plus `company`, `title`, `location`, `url`, `listed_at`, `expires_at`, `screening_questions` copied from the input. It returns a ranked table (id, company, title, percent, open, mandatory, route, agency).
 
-Keep: `percent >= 60`, `open`, `mandatory_unmet` empty. Everything else with `percent >= 60` but a mandatory problem becomes a `HELD_<REASON>` record (still tracked, still visible, never emailed). Rank kept candidates by percent, then by listed date (newest first). Take at most `max_new_records_per_run` (5).
+Keep: `percent >= 60`, `open`, `mandatory_unmet` empty; direct employers before agencies; then by percent and listed date. Take at most `contact_research_max_per_run` (4). Adverts at 60+ with a mandatory problem become `HELD_…` records through `publish.py held`.
 
-## 4. Contact research (parallel agents, 8 min)
+## 4. Contact research (one agent per kept employer, at most 4, in parallel)
 
-For each kept candidate, find the hiring person per `config.json → contact`:
-1. Employer website: about, team, people, leadership, contact, projects, news pages. Capability statements and PDFs on the site.
-2. WebSearch: `"<employer>" (engineering manager OR director OR civil engineer OR drafting manager) email`, `"<employer>" "@<employer domain>"`, `site:<employer domain> contact`.
-3. Employer-authored public documents (tenders, council minutes, press releases) that print a name, role and business address.
-Record: `recipient_name`, `recipient_role`, `recipient_email`, `contact_evidence_url`, `contact_verified_at`, `contact_confidence` (`published_direct`, `published_inbox`, `none`). A person whose email is not published is still noted by name and role for the SEEK pack (the cover letter can be addressed to them). Never guess, never pattern-build, never use a personal mailbox, never use a finder service. If only an HR or careers inbox exists and it says it accepts applications: `published_inbox`. Otherwise `none` and the route is SEEK or portal.
+Each agent gets the advert (`candidates.json` id or the `extra/` file), the contact rule from `config.json → contact`, and writes `contacts/<id>.json`: `company_url`, `careers_url`, `recipient_name`, `recipient_role`, `recipient_email`, `contact_evidence_url`, `evidence_quote`, `contact_confidence` (`published_direct`, `published_inbox`, `none`), `named_people` (name, role, email if published, evidence_url), `employer_line` (one true, specific line about the employer or role from their site or the advert), `notes`. Sources in order: employer website (about, team, contact, projects, news, capability PDFs), WebSearch for `"<employer>" engineering manager OR director email` and `"@<domain>"`, employer-authored public documents. Never guess or pattern-build, never personal mailboxes, never finder or broker sites, never recruiters. A generic info@ inbox only if the site says it takes applications.
 
-## 5. Draft (parallel agents, 5 min)
+## 5. Draft (Claude itself, no agent)
 
-Per kept candidate write `drafts/<seek_id>.json` in the run folder with: `subject`, `email_body` (under 220 words, plain, first person, no banned phrases, no dashes, one specific line from the advert, the three scan facts, one clear ask, "I've attached my resume and cover letter"), `letter` (recipient block, subject, greeting, 4 to 5 short paragraphs under 340 words, closing), and for SEEK or portal routes `screening_answers` (truthful answers to the advert's `screening_questions`) and a five-step `checklist`.
+Claude writes `drafts/<id>.json` for each kept candidate from the advert, the screen file, the contact file and `facts.json`: `subject`, `email_body` (under 220 words: which advert and where seen; if writing to a named person, that Marc wanted to reach them directly; one paragraph with the three scan facts: Advanced Diploma of Civil Construction Design finished February 2026 with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD; site work in the Philippines 2019 to 2020 as field engineer and project-in-charge; Melton based, White Card, licence and transport, full working rights to December 2027 on a 485 visa, available for site, regional and FIFO work; one specific line from the advert or the employer_line; the honest limit in one clause if the advert asks for something Marc lacks; one clear ask; "I've attached my resume and cover letter."; sign-off with name, phone and the portfolio address), `letter` (`recipient_name`, `recipient_role`, `company`, `company_line`, `subject`, `greeting`, 4 or 5 short paragraphs under 340 words, `closing`), and for SEEK or portal routes `screening_answers` and a five-step `checklist`. Also `company`, `role`, `location`, `job_url`, `route`, `recipient_*`, `contact_evidence_url`, `application_type`, `notes`. No banned phrases, no dashes, no exclamation marks, nothing outside `facts.json`.
 
-Facts allowed: only `facts.json`. Style: how Marc writes on the Portfolio (short sentences, Australian English, no hype). Address the named person if one was found even when the email goes to an inbox. Speculative enquiry (no advert): say so in the first line.
+## 6. Verify (checks.py, then one reviewer agent for all drafts)
 
-## 6. Verify (parallel agents, 4 min)
-
-Two independent checks per draft, both must pass:
-- `python3 checks.py tone` on the email and on the letter text (`--kind letter`), and `python3 checks.py facts` on both. Zero issues.
-- A reviewer agent that tries to refute every sentence of the email and letter against `facts.json` and the advert. Output: `false_claims` (list), `weak_lines` (list), `human_tone` (1 to 5). One false claim rejects the draft; the drafter fixes and the reviewer re-checks once. `human_tone` under 4 sends it back once.
+```
+python3 publish.py build $RUN        # runs checks.py on every draft; rejected.json lists what failed
+```
+Then one Agent (effort high) reads every `drafts/<id>.json` with `facts.json`, the adverts and the contact files and tries to refute each sentence; returns per draft `false_claims`, `weak_lines`, `tone_issues`, `human_tone` (1 to 5), `specific_to_advert`, `pass`. Claude fixes what it flags and re-runs `publish.py build`. A draft that still fails is dropped from this run, not sent.
 
 ## 7. Publish to the tracker (3 min)
 
@@ -75,20 +73,9 @@ At most one per run. Pick the highest-fit `PREPARED_NOT_SENT` record whose adver
 
 Follow-ups: a `SENT` record older than `follow_up_after_days` with no reply noted (`reply_at` empty) and `follow_ups` under `max_follow_ups` is eligible; it counts as the run's one email, uses the same lease, and is a three-sentence note.
 
-## 9. Workflow shape (ultracode)
+## 9. Agent budget (owner: about 5 to 6 on a 10 scale)
 
-One Workflow per tick, the script is in the repo: `automation/workflow/tick.js`. Run it with
-`Workflow({scriptPath: "/home/user/Job-tracker/automation/workflow/tick.js", args: {...}})` where args carry
-`run_id`, `run_dir`, `repo`, `today` ("28 September 2026"), `today_iso`, `candidate_ids` (the seek_ids marked new by
-`tracker.py check`), `employers` (the next twelve names from `config.json → target_employers`, rotating by run), `top_n` (8).
-Shape: sweeps (employer pages, councils and government, Victoria) run alongside screening (one low-effort agent per candidate);
-a barrier ranks eligible candidates (fit ≥ 60, open, no mandatory problem, direct employers before agencies); then
-`pipeline(top, contact, draft, verify → fix once → reverify)`. Agents write `screen/<id>.json`, `contacts/<id>.json`,
-`drafts/<id>.json` and `extra/<slug>.json` in the run folder. Effort: `low` for screening, default for contact research and
-drafting, `high` for the refuting reviewer.
-
-Then publish deterministically: `python3 publish.py build $RUN` (inspect `records.json` and `rejected.json`), then
-`python3 publish.py go $RUN` (renders letters, uploads both PDFs, adds records under the guard) and `python3 publish.py held $RUN`.
+Per tick at most seven agents: one sweep (rotating: employers, councils and government, Victoria off-site, see `config.json → sweep_rotation` by run number), one screening agent, up to four contact-research agents in parallel, one reviewer. Claude drafts and publishes itself. No per-candidate screening agents, no panels, no duplicate reviewers. Use the Agent tool directly; no Workflow orchestration.
 
 ## 10. Close (2 min)
 

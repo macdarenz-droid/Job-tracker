@@ -189,12 +189,45 @@ def sweep(daterange, max_details, out, keyword_sets=None, sleep=0.4):
     return result
 
 
+KEY_LINES = re.compile(r'(experience|years|citizen|resident|visa|licen|degree|diploma|qualif|autocad|civil 3d|revit|apply|email|close|graduate|junior|cadet|trainee|must|essential|require)', re.I)
+
+
+def digest(run_dir, max_items):
+    """Compact view of the new candidates for a single screening agent."""
+    from pathlib import Path
+    from common import read_json
+    run = Path(run_dir)
+    data = read_json(run / 'candidates.json')
+    items = [c for c in data['candidates'] if not (c.get('duplicate') or {}).get('blocked')]
+    for extra in sorted(run.glob('extra/*.json')):
+        if extra.name.startswith('_'):
+            continue
+        c = read_json(extra)
+        if not (c.get('duplicate') or {}).get('blocked'):
+            items.append({**c, 'seek_id': c.get('id') or extra.stem})
+    items.sort(key=lambda c: (c.get('relevance', 0), c.get('listed_at') or ''), reverse=True)
+    out = []
+    for c in items[:max_items]:
+        text = c.get('content_text') or ''
+        key = [l.strip() for l in text.splitlines() if KEY_LINES.search(l)][:14]
+        out.append({
+            'id': c.get('seek_id'), 'source': c.get('source', 'seek'), 'title': c.get('title'), 'company': c.get('company'),
+            'location': c.get('location'), 'url': c.get('url'), 'work_type': c.get('work_type'), 'salary': c.get('salary'),
+            'listed_at': c.get('listed_at'), 'expires_at': c.get('expires_at'), 'is_expired': c.get('is_expired', False),
+            'is_link_out': c.get('is_link_out', False), 'screening_questions': c.get('screening_questions') or [],
+            'summary': (c.get('abstract') or c.get('teaser') or '')[:300], 'opening': text[:900], 'key_lines': key,
+        })
+    write_json(run / 'screen_input.json', {'count': len(out), 'skipped': max(0, len(items) - max_items), 'candidates': out})
+    return out
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest='cmd', required=True)
     s = sub.add_parser('sweep'); s.add_argument('--daterange', type=int, default=SEEK['daterange_days']); s.add_argument('--max-details', type=int, default=PRE['max_details_per_run']); s.add_argument('--out', required=True); s.add_argument('--keywords', nargs='*')
     q = sub.add_parser('search'); q.add_argument('keywords'); q.add_argument('--daterange', type=int, default=SEEK['daterange_days']); q.add_argument('--page', type=int, default=1)
     d = sub.add_parser('details'); d.add_argument('job_id')
+    g = sub.add_parser('digest'); g.add_argument('run_dir'); g.add_argument('--max', type=int, default=CONFIG['limits']['screen_max_per_run'])
     a = ap.parse_args(argv)
     if a.cmd == 'sweep':
         r = sweep(a.daterange, a.max_details, a.out, keyword_sets=a.keywords or None)
@@ -207,6 +240,9 @@ def main(argv=None):
         eprint('total', body.get('totalCount'))
     elif a.cmd == 'details':
         print(json.dumps(details(a.job_id), indent=1, ensure_ascii=False))
+    elif a.cmd == 'digest':
+        out = digest(a.run_dir, a.max)
+        eprint(f'{len(out)} candidates → {a.run_dir}/screen_input.json')
 
 
 if __name__ == '__main__':
