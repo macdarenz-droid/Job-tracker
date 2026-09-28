@@ -205,6 +205,18 @@ def digest(run_dir, max_items):
         c = read_json(extra)
         if not (c.get('duplicate') or {}).get('blocked'):
             items.append({**c, 'seek_id': c.get('id') or extra.stem})
+    # Skip adverts already screened in an earlier run (their screen files hold the score and reasons).
+    seen = {}
+    for prior in sorted(run.parent.glob('*/screen/*.json')):
+        if prior.parent.parent == run:
+            continue
+        try:
+            sc = read_json(prior)
+            seen[str(sc.get('id') or prior.stem)] = {'run': prior.parent.parent.name, 'percent': sc.get('percent'), 'mandatory_unmet': sc.get('mandatory_unmet')}
+        except Exception:
+            pass
+    skipped_seen = [{'id': c.get('seek_id'), 'company': c.get('company'), 'title': c.get('title'), **seen[str(c.get('seek_id'))]} for c in items if str(c.get('seek_id')) in seen]
+    items = [c for c in items if str(c.get('seek_id')) not in seen]
     items.sort(key=lambda c: (c.get('relevance', 0), c.get('listed_at') or ''), reverse=True)
     out = []
     for c in items[:max_items]:
@@ -217,7 +229,7 @@ def digest(run_dir, max_items):
             'is_link_out': c.get('is_link_out', False), 'screening_questions': c.get('screening_questions') or [],
             'summary': (c.get('abstract') or c.get('teaser') or '')[:300], 'opening': text[:900], 'key_lines': key,
         })
-    write_json(run / 'screen_input.json', {'count': len(out), 'skipped': max(0, len(items) - max_items), 'candidates': out})
+    write_json(run / 'screen_input.json', {'count': len(out), 'skipped': max(0, len(items) - max_items), 'screened_in_earlier_runs': skipped_seen, 'candidates': out})
     return out
 
 

@@ -13,3 +13,6 @@
 {"run_id":"20260928T021451Z-codex","at":"2026-09-28T02:25:36.668915+00:00","stage":"end","worker":"Codex","kind":"adoption_and_existing_pack_review","new":0,"sent":0,"held":4,"preexisting_unresolved_sending":1,"tracker_version":9,"publication_run_id":36369606912,"source_commit":"73a5c879d65436aacda703ed6ef4b07f08042288","next_action":"Reconcile Melbourne Truss SENDING; do not retry. Reverify JHA and resolve four live holds."}
 >>>>>>> origin/claude/job-search-automation-sg3inr
 {"run_id": "20260928T0123Z", "at": "2026-09-28T02:41:43.000Z", "stage": "merge", "codex_holds": 4, "gunnedah": "released_after_letter_fix", "sent": 1}
+{"run_id": "20260928T0532Z", "at": "2026-09-28T05:32:29.000Z", "stage": "start"}
+{"run_id": "20260928T0532Z", "at": "2026-09-28T05:40:16.000Z", "stage": "send", "company": "JHA Consulting Engineers (NSW) Pty Ltd", "to": "hr@jhaengineers.com.au", "gmail_message_id": "1a0e686d023f0a15", "result": "SENT"}
+{"run_id": "20260928T0532Z", "at": "2026-09-28T05:40:16.000Z", "stage": "sweep", "rotation": "councils_government", "adverts_found": 0}
