@@ -13,12 +13,12 @@
  "application_type": "ADVERTISED_VACANCY",
  "email_body": "Hello,\n\nI'm applying for the Trainee Traffic Signals Designer role advertised on SEEK. The ad asks for up to two years in design, drafting or CAD documentation and says signals experience isn't required, which fits me: my design and drafting experience is the two years of my Advanced Diploma of Civil Construction Design, finished in February 2026.\n\nIn that coursework I designed and documented road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D to Australian Standards and Austroads guides, and the standards included AS 1742.14, so signals drawings would not be a cold start. My degree is a Bachelor of Science in Civil Engineering (Philippines, 2019). On site in the Philippines from April 2019 to February 2020 I carried out inspections and checked the work against the drawings.\n\nI have no traffic signal, lighting or ITS experience yet, and my CAD work is from study. I hold an Australian driver's licence, a White Card and full working rights until December 2027 on a Subclass 485 visa. I'm based in Melton, Victoria, can travel to South-East Queensland for meetings and inspections, and I'm open to discussing relocation.\n\nMy drawings are at https://macdarenz-droid.github.io/Portfolio. I'd be glad to talk.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
  "letter": {
-  "recipient_name": "",
-  "recipient_role": "",
+  "recipient_name": "Luke Foley",
+  "recipient_role": "Managing Director, CEI Design Pty Ltd",
   "company": "CEI Design Pty Ltd",
-  "company_line": "Brisbane QLD",
+  "company_line": "Level 5, 14 Banfield Street, Chermside QLD 4032",
   "subject": "Application for Trainee Traffic Signals Designer",
-  "greeting": "Hello,",
+  "greeting": "Dear Luke,",
   "closing": "Kind regards,",
   "paragraphs": [
    "I'm applying for the Trainee Traffic Signals Designer role advertised on SEEK. The ad asks for up to two years in design, drafting or CAD documentation, says traffic signals experience is not required, and offers mentoring from senior designers in a small remote-first team. That is the start I'm looking for: my design and drafting experience is the two years of my Advanced Diploma of Civil Construction Design, finished in February 2026.",
@@ -63,5 +63,5 @@
   "Submit before 24 October 2026.",
   "Press Applied on the tracker with the date and \"SEEK\"."
  ],
- "notes": "Trainee design role at a small traffic signals, road lighting and ITS consultancy; remote-first with occasional South-East Queensland attendance, so it is the first advert that could work from Melton. AS 1742.14 (traffic signals) is in the diploma standards list in facts.json. \"Full Australian work rights\" is disclosed as a 485 visa to December 2027."
+ "notes": "Trainee design role at a small traffic signals, road lighting and ITS consultancy; remote-first with occasional South-East Queensland attendance, so it is the first advert that could work from Melton. AS 1742.14 (traffic signals) is in the diploma standards list in facts.json. \"Full Australian work rights\" is disclosed as a 485 visa to December 2027. Contact research (29 Sep 2026): the CEI Design site names two directors, Luke Foley (Managing Director) and Matthew Durward (Design Manager), without emails; admin@ceidesign.com.au is the only published inbox and is not stated to take applications, so SEEK is the only route. Letter addressed to Luke Foley."
 }

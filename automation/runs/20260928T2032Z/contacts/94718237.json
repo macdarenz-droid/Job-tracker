@@ -1,0 +1,43 @@
+{
+  "seek_id": "94718237",
+  "company": "Cathay Chung Yue Estate Pty Ltd",
+  "company_url": "https://ccye.com.au/",
+  "careers_url": null,
+  "recipient_name": null,
+  "recipient_role": null,
+  "recipient_email": null,
+  "contact_evidence_url": "https://ccye.com.au/contact/",
+  "evidence_quote": "Get In Touch Contact Us We love to hear from you! Get in Touch Contact Details Address Unit 2 23 leeds st Rhodes or 2/23 Leeds St Rhodes NSW 2138 Email Us info@ccye.com.au Call Us 02 9682-6888",
+  "contact_confidence": "none",
+  "named_people": [
+    {
+      "name": "Jie Yang",
+      "role": "Director and nominated supervisor (NSW Fair Trading contractor licence register, licence 295240C; government registry, not employer-published)",
+      "email": null,
+      "evidence_url": "https://verify.licence.nsw.gov.au/details/Contractor%20Licence/1-1X4BA1V"
+    },
+    {
+      "name": "Yan Wang",
+      "role": "Director (NSW Fair Trading contractor licence register, licence 295240C; government registry, not employer-published)",
+      "email": null,
+      "evidence_url": "https://verify.licence.nsw.gov.au/details/Contractor%20Licence/1-1X4BA1V"
+    },
+    {
+      "name": "Johnny Meng",
+      "role": "Project Manager (named in a third-party trade magazine feature, Australian National Construction Review; not employer-published)",
+      "email": null,
+      "evidence_url": "https://ancr.com.au/tag/hebal-panels/"
+    }
+  ],
+  "employer_line": "Cathay Chung Yue Estate (CCYE) is a Sydney design-and-construction subcontractor with more than 20 years' fit-out experience that provides plastering, compressed fibre cement (CFC) cladding, metal cladding, metal fabrication and joinery from its own metal and joinery factories, with recent work including Ultimo Public School and Westfield Sports High School for Hindmarsh Constructions and the Wagga Wagga Hospital Stage 3 metal cladding for Greenwich build.",
+  "employer_line_source": "https://ccye.com.au/about/",
+  "published_generic_contacts": [
+    {
+      "email": "info@ccye.com.au",
+      "phone": "02 9682 6888",
+      "where": "https://ccye.com.au/contact/ (mailto link) and the footer of every page on ccye.com.au",
+      "accepts_applications_stated": false
+    }
+  ],
+  "notes": "Checked 2026-09-29. WHAT THE COMPANY DOES: CCYE (ccye.com.au, Unit 2/23 Leeds St, Rhodes NSW 2138) is a fit-out and facade subcontractor, not a consulting engineering firm: its site says it specialises in installing plasterboard walls, ceilings and partition systems including Hebel panels, and its service pages list CFC, metal, aluminium and timber cladding, window and glazing partitions, metal fabrication, joinery and design, using its own metal and joinery factories. Home page lists completed projects as subcontractor (Royal Plaza Hurstville, Parkland Estate Rouse Hill, Phoenix Rouse Hill, UNO Apartment Green Square) and ISO 9001/14001/45001 certification. NSW contractor licence 295240C (class Dry Plasterer, current to 18 Apr 2027, ACN 168 890 775; licensee address on the register is U1/3 Sutherland St Clyde NSW, the website address is Rhodes). A third-party ANCR magazine feature (https://ancr.com.au/tag/hebal-panels/, full article https://ancr.com.au/cladding-engineering-delivering-thermal-performance-architectural-precision/) describes CCYE delivering lightweight internal lining and the full external cladding system across five towers at Alba at Square and a newly established cladding manufacturing facility. This matches the advert's estimating/document-control duties on facade drawings and cladding; the advert's 'Civil/Structural Engineering team' wording is SEEK classification language rather than a description of a design practice. WHAT WAS CHECKED: SEEK page not fetched (403 rule; advert text taken from candidates.json). ccye.com.au home, about, contact and cladding pages read (plain curl got HTTP 406 from Mod_Security; a browser user agent worked). No team, staff, news, careers or capability-statement page exists; no PDF or document links on the site; the only email anywhere on the site is info@ccye.com.au and the contact page says only 'We love to hear from you' with a web form, with no statement that it accepts job applications or employment enquiries. WebSearch for \"@ccye.com.au\" returned only the CCYE home page; searches for the company with director/estimating manager/operations manager, and for employer-authored PDFs, tenders, council or capability documents, found none. Data broker and directory results (ZoomInfo, Dun & Bradstreet, RocketReach, magicpin, White Pages) were not opened or used. NSW Verify licence page was rendered with browse.py (WebFetch saw only a JS shell) and names directors Jie Yang and Yan Wang; their home addresses and years of birth shown there are private and deliberately omitted. The About page contains a bare heading 'Keith Keller' with no role, photo or bio; this is a common Elementor template placeholder name and is not treated as a real staff member. The Estimating Manager and Operation Manager named in the advert are not identified anywhere. RESULT: no employer-published direct email exists, and info@ccye.com.au does not qualify as a published application inbox, so contact_confidence is none. The advert asks for CV, academic transcripts and a cover letter and has SEEK screening questions; the route is the SEEK Apply button, to be lodged by Jeremie. Do not email info@ccye.com.au or any built address."
+}

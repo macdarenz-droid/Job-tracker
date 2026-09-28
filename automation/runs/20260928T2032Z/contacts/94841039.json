@@ -1,0 +1,43 @@
+{
+  "seek_id": "94841039",
+  "company": "CEI Design Pty Ltd",
+  "company_url": "https://ceidesign.com.au/",
+  "careers_url": null,
+  "recipient_name": null,
+  "recipient_role": null,
+  "recipient_email": null,
+  "contact_evidence_url": null,
+  "evidence_quote": null,
+  "contact_confidence": "none",
+  "named_people": [
+    {
+      "name": "Luke Foley",
+      "role": "Managing Director (CPEng, RPEQ, NER)",
+      "email": null,
+      "evidence_url": "https://ceidesign.com.au/#team"
+    },
+    {
+      "name": "Matthew Durward",
+      "role": "Design Manager, listed under 'Meet Our Directors' (CPEng, RPEQ, NER)",
+      "email": null,
+      "evidence_url": "https://ceidesign.com.au/#team"
+    }
+  ],
+  "employer_line": "CEI Design provides specialist design and consulting services in the fields of Traffic Signals, Road Lighting and Intelligent Transport Systems (ITS), covering planning, design, compliance documentation, and construction and operational phase support, with its two directors bringing over 50 years of combined industry experience across government and private sectors.",
+  "employer_line_source": "https://ceidesign.com.au/#about",
+  "published_generic_contacts": [
+    {
+      "email": "admin@ceidesign.com.au",
+      "phone": "+61 7 3017 4710",
+      "where": "https://ceidesign.com.au/#contact - 'Call or Email US' block with address Level 5/14 Banfield St, Chermside QLD 4032; the same section has a general web enquiry form headed 'PLEASE CONTACT US TO ARRANGE A CONSULTATION'",
+      "accepts_applications_stated": false
+    },
+    {
+      "email": "admin@ceidesign.com.au",
+      "phone": "07 5476 8208",
+      "where": "https://ceidesign.com.au/wp-content/uploads/2025/07/Policy-07-Privacy-Policy-1.pdf section 8 'How to Contact us' (privacy-related issues only; PO Box 409 Caloundra QLD 4551; signed Luke Foley, Managing Director, 28/10/24)",
+      "accepts_applications_stated": false
+    }
+  ],
+  "notes": "Checked 2026-09-29. Employer site ceidesign.com.au is a single-page WordPress site (sections: About, Services, Our Experts/#team, Clients, Contact). WordPress REST listing (wp-json/wp/v2/pages, /media) confirmed only four pages exist (Home and three service pages) and only two PDFs (Quality Policy, Privacy Policy); no careers, news, projects or capability-statement page or PDF exists. Company identity confirmed: the site's About text and the SEEK advert's Company Description are near-verbatim (traffic signals, road lighting and ITS design and consulting; planning, design, construction and operational phases; small team of experienced directors), Brisbane office at Chermside QLD. The site names only two people, both under 'Meet Our Directors': Luke Foley (Managing Director) and Matthew Durward (Design Manager). Neither has a published email anywhere on the site, in the two PDFs, or in the three service pages (all content scanned for '@' and mailto). The only published address is admin@ceidesign.com.au, HTML-entity obfuscated in the footer; the site nowhere states that this inbox accepts applications or employment enquiries. The Privacy Policy has a 'Job applicants' clause (4.3) describing how applicant data is handled, but it does not name an application channel; section 8 gives admin@ only for privacy-related issues. Therefore contact_confidence is 'none', not 'published_inbox'. WebSearch for '@ceidesign.com.au', for each director with the company name, for the domain, and for employer-authored project/council documents returned only the site itself, its PDFs, LinkedIn profiles, and data-broker/finder pages (ZoomInfo, RocketReach, SalezShark), which were not opened or used per config. Local Buy pre-qualified supplier listing (Engineering & Environmental Consultancy Serv LB312) was loaded via headless browser after curl returned 403; it shows only the supplier name and contract, no contact. A LinkedIn listing of an earlier CEI Design 'Senior Designer (Electrical) - Traffic Signals & Road Lighting' advert has expired and redirects, so no earlier advert text with an application contact was readable. SEEK pages were not fetched (403 by instruction). Not readable: SEEK advert page itself, expired LinkedIn advert. Recommended route per config fallback_order: SEEK Apply for Jeremie/Marc (advert has six screening questions, is_link_out false). No double-touch email is possible because no verified direct contact exists; do not email admin@ as an application inbox unless the employer states it accepts applications. Budget used: 8 of 8 WebSearch, 9 of 12 fetches (curl x8, browse.py x1)."
+}
