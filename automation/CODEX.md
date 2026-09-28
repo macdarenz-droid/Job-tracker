@@ -7,7 +7,7 @@ Read current remote files each tick; never substitute an old local checkout.
 ## Identity and schedule
 
 - Keep the existing discovery task; do not create another task or enable the separate reviewer.
-- The adopted cadence is five hours, Australia/Melbourne. Claude's separate Routine is managed separately.
+- Latest owner instruction, 28 September 2026: Codex wakes every three hours, Australia/Melbourne. Claude's separate Routine remains every five hours. The shared config's five-hour default applies to Claude, not this Codex schedule.
 - Codex creates records as `contributor_name: Codex`, `created_by: codex-job-search`.
   Override these two `common.CONFIG` values explicitly in the running process; leave the
   repository's Claude defaults intact. Preserve the original author on existing records.
