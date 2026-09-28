@@ -1,24 +1,34 @@
 [
  {
-  "id": "c1235ab4-e156-4600-b567-647334e1f3ff",
-  "key": "manual:c1235ab4-e156-4600-b567-647334e1f3ff",
+  "id": "cf92f4bf-465f-4fc5-90b9-6d46d26e5e02",
+  "key": "manual:cf92f4bf-465f-4fc5-90b9-6d46d26e5e02",
   "contributor_name": "Claude",
   "created_by": "claude-job-search",
   "record_kind": "AUTOMATED_LEAD",
   "run_id": "20260928T0532Z",
-  "created_at": "2026-09-28T05:50:16.000Z",
-  "updated_at": "2026-09-28T05:50:16.000Z",
+  "created_at": "2026-09-28T05:54:16.000Z",
+  "updated_at": "2026-09-28T05:54:16.000Z",
   "version": 1,
   "attachments": [
    {
-    "kind": "resume",
+    "id": "71971d62-b85f-4523-a5d1-265989db760c",
+    "path": "/api/documents/71971d62-b85f-4523-a5d1-265989db760c",
     "filename": "Marc_Masarate_Offaly_Civil_Engineering_Pty_Ltd_Resume.pdf",
-    "stored_in": "not_uploaded"
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-09-28T05:54:18.831Z",
+    "stored_in": "cloudflare_r2"
    },
    {
-    "kind": "cover",
+    "id": "b4656982-eff1-40d6-b6c9-0e192bd17219",
+    "path": "/api/documents/b4656982-eff1-40d6-b6c9-0e192bd17219",
     "filename": "Marc_Masarate_Offaly_Civil_Engineering_Pty_Ltd_Site_Engineer_Cover_Letter.pdf",
-    "stored_in": "not_uploaded"
+    "sha256": "cf627e12f57f0461cccc814acbbc232168a29984a961ac15f6a76ed6bc202f7e",
+    "size_bytes": 48716,
+    "kind": "cover",
+    "uploaded_at": "2026-09-28T05:54:17.376Z",
+    "stored_in": "cloudflare_r2"
    }
   ],
   "company": "Offaly Civil Engineering Pty Ltd",
@@ -36,7 +46,7 @@
   "recipient_email": "enquiries@offalycivil.com",
   "contact_email": "enquiries@offalycivil.com",
   "contact_evidence_url": "https://www.seek.com.au/job/94900354",
-  "contact_verified_at": "2026-09-28T05:50:16.000Z",
+  "contact_verified_at": "2026-09-28T05:54:16.000Z",
   "contact_confidence": "published_inbox",
   "subject": "Site Engineer, Gympie, Marc Masarate",
   "email_body": "Hello,\n\nI'm applying for the Site Engineer role in Gympie advertised on SEEK, and sending my resume and cover letter to this address as the ad asks.\n\nI'm a civil engineering graduate (BSCE, 2019) who finished an Advanced Diploma of Civil Construction Design in Australia in February 2026. My site experience is from the Philippines, April 2019 to February 2020: project-in-charge on a community hall renovation, coordinating 10 to 15 workers a day, then field engineer on subdivision finishing works. The day-to-day was inspections, quality and safety checks, reviewing drawings, tracking procurement and materials, and writing site reports, which lines up with the quality, procurement and documentation side of your role. I haven't worked on sewer projects, and my Australian experience is the diploma, so I'd be learning your systems, your Southside Sewerage work and the local standards on the job.\n\nI hold a White Card, an Australian driver's licence and full working rights until December 2027 on a Subclass 485 visa. I'm based in Melton, Victoria, available for regional work, and open to discussing relocation to Gympie.\n\nMy drawings are at https://macdarenz-droid.github.io/Portfolio. I'd welcome a phone conversation.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
@@ -99,38 +109,47 @@
    "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
    "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
   ],
-  "checked_at": "2026-09-28T05:50:16.000Z",
+  "checked_at": "2026-09-28T05:54:16.000Z",
   "seek_id": "94900354",
-  "duplicate_key": "offalycivilengineeringptyltd|seek:94900354",
-  "preparation_only": true
+  "duplicate_key": "offalycivilengineeringptyltd|seek:94900354"
  },
  {
-  "id": "9dd7cb10-47f4-4118-849c-681b73539c7f",
-  "key": "manual:9dd7cb10-47f4-4118-849c-681b73539c7f",
+  "id": "9edd2d25-fb1c-4cfd-be13-b976eef53cbb",
+  "key": "manual:9edd2d25-fb1c-4cfd-be13-b976eef53cbb",
   "contributor_name": "Claude",
   "created_by": "claude-job-search",
   "record_kind": "AUTOMATED_LEAD",
   "run_id": "20260928T0532Z",
-  "created_at": "2026-09-28T05:50:16.000Z",
-  "updated_at": "2026-09-28T05:50:16.000Z",
+  "created_at": "2026-09-28T05:54:20.000Z",
+  "updated_at": "2026-09-28T05:54:20.000Z",
   "version": 1,
   "attachments": [
    {
-    "kind": "resume",
+    "id": "80186efc-d44c-48a9-aa81-c48b7acc1338",
+    "path": "/api/documents/80186efc-d44c-48a9-aa81-c48b7acc1338",
     "filename": "Marc_Masarate_All_Energy_Contracting_Resume.pdf",
-    "stored_in": "not_uploaded"
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-09-28T05:54:24.021Z",
+    "stored_in": "cloudflare_r2"
    },
    {
-    "kind": "cover",
+    "id": "fbc79144-ab98-4b2e-a015-5c520dc22d25",
+    "path": "/api/documents/fbc79144-ab98-4b2e-a015-5c520dc22d25",
     "filename": "Marc_Masarate_All_Energy_Contracting_Graduate_Engineer_precontracts_Cover_Letter.pdf",
-    "stored_in": "not_uploaded"
+    "sha256": "5ef66c7a4868a272c0d53175d4dd2548977ba34bfefb91c887ddaa4251045308",
+    "size_bytes": 48480,
+    "kind": "cover",
+    "uploaded_at": "2026-09-28T05:54:21.969Z",
+    "stored_in": "cloudflare_r2"
    }
   ],
   "company": "All Energy Contracting",
   "role": "Graduate Engineer (precontracts)",
   "location": "Hamilton, Brisbane QLD",
   "job_url": "https://www.seek.com.au/job/94906881",
-  "company_url": "",
+  "company_url": "https://allenergyco.com.au/",
   "status": "READY_JEREMIE_SEEK",
   "application_type": "ADVERTISED_VACANCY",
   "vacancy_status": "OPEN_ADVERT_VERIFIED",
@@ -184,8 +203,8 @@
    "Submit before 25 October 2026 (the ad expires early on 26 October AEST).",
    "Press Applied on the tracker with the date and \"SEEK\"."
   ],
-  "notes": "Advert says degree 'completed within last 2 years ideally' (not a hard bar) and desirable site experience; the letter states the honest position.\nHOW CLAUDE FOUND THIS\nFound on SEEK (listed 2026-09-28, closes 2026-10-26). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate Engineer (precontracts) role on SEEK.\n• They may ask about: 'Desirable: internship, vacation or site experience in construction, utilities, energy or infrastructure' is not essential; Marc has relevant site experience from the Philippines to offer → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Advert prefers a relevant engineering Bachelor's degree 'completed within last 2 years ideally'; Marc's civil engineering Bachelor's was completed in 2019, though his most recent qualification (the Advanced Diploma) was completed February 2026, so it's unclear whether this preference is met → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
-  "how_found": "Found on SEEK (listed 2026-09-28, closes 2026-10-26). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "notes": "Advert says degree 'completed within last 2 years ideally' (not a hard bar) and desirable site experience; the letter states the honest position. Contact research (28 Sep 2026): AEC publishes only admin@allenergyco.com.au and 1800 417 690 in its footer, with no statement that the inbox takes applications, and names no precontracts or engineering manager; founders Steve Urquhart and Barry Murphy are named on the about page without emails. SEEK is the only route. The Aldoga and Wambo projects are on the AEC projects page (Wayback capture 23 Mar 2026).\nChecked 2026-09-28. Live allenergyco.com.au pages sit behind a SiteGround captcha (HTTP 202 challenge) for WebFetch/curl, including wp-json; only the site's 404 template rendered, so page content was read from Wayback captures dated 2026-03-23 (about-us, projects, careers) and 2024-03-05 (home, careers). No AEC page (about-us, projects, careers, footer) names any precontracts, estimating, engineering or operations manager, and no named person's business email is published on the current site; the only published contact is the generic admin@allenergyco.com.au / 1800 417 690, and the careers page directs applicants to its job listings or a webform without saying the inbox accepts applications, so it is not a published_inbox. OCU Group pages (acquisition post 31 Jul 2025, OCU International, ANZ page, leadership team, Annual Report 2026) name Steve Urquhart as AEC founder but give no AEC email; OCU's own business/public enquiry addresses are obfuscated on the fetched pages and are group-level, not AEC. Stale employer-published addresses seen only in old Wayback captures, NOT on the current site and NOT to be used: careers page 2022-07-05 showed 'Contact steve@allenergyco.com.au, Queensland 0406 995 430'; careers/home 2024-03-05 showed 'info@allenergyco.com.au, 0418 697 768'; the 2026 site replaced both with admin@. Data-broker hits (ZoomInfo, RocketReach, ContactOut, Datanyze, TheOrg) listing Andrew Jacklyn, Padraig Cronin, Nick Mills, Glen Cunningham were ignored per the contact rule. An AEC 'Bid Manager' ad on Employment Hero (would sit in the same precontracts team) now returns 404. Recommendation: SEEK application only; no email touch. Budget used: 6 WebSearch, 8 WebFetch; remaining reads via curl/Wayback.\nHOW CLAUDE FOUND THIS\nFound on SEEK (listed 2026-09-28, closes 2026-10-26). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Steve Urquhart (Founder of AEC (AEC About us timeline: \"Founder's Steve Urquhart & Barry Murphy remain active in AEC operations today\"; quoted as Founder in OCU Group press release, 31 Jul 2025); LinkedIn headline 'Director' is not employer-authored); Barry Murphy (Co-founder of AEC (named with Steve Urquhart on AEC About us page, archived 2026-03-23)); Michael Hughes (Chief Executive Officer, OCU Group (parent company, UK; not AEC)). Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate Engineer (precontracts) role on SEEK.\n• They may ask about: 'Desirable: internship, vacation or site experience in construction, utilities, energy or infrastructure' is not essential; Marc has relevant site experience from the Philippines to offer → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Advert prefers a relevant engineering Bachelor's degree 'completed within last 2 years ideally'; Marc's civil engineering Bachelor's was completed in 2019, though his most recent qualification (the Advanced Diploma) was completed February 2026, so it's unclear whether this preference is met → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-09-28, closes 2026-10-26). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Steve Urquhart (Founder of AEC (AEC About us timeline: \"Founder's Steve Urquhart & Barry Murphy remain active in AEC operations today\"; quoted as Founder in OCU Group press release, 31 Jul 2025); LinkedIn headline 'Director' is not employer-authored); Barry Murphy (Co-founder of AEC (named with Steve Urquhart on AEC About us page, archived 2026-03-23)); Michael Hughes (Chief Executive Officer, OCU Group (parent company, UK; not AEC)). Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
   "call_prep": [
    "How did you find us? → Your advert for the Graduate Engineer (precontracts) role on SEEK.",
    "They may ask about: 'Desirable: internship, vacation or site experience in construction, utilities, energy or infrastructure' is not essential; Marc has relevant site experience from the Philippines to offer → answer honestly from the facts; nothing beyond them was claimed.",
@@ -197,31 +216,40 @@
    "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
    "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
   ],
-  "checked_at": "2026-09-28T05:50:16.000Z",
+  "checked_at": "2026-09-28T05:54:20.000Z",
   "seek_id": "94906881",
-  "duplicate_key": "allenergycontracting|seek:94906881",
-  "preparation_only": true
+  "duplicate_key": "allenergycontracting|seek:94906881"
  },
  {
-  "id": "64392c69-7c24-4770-aa8e-8a330dfc9015",
-  "key": "manual:64392c69-7c24-4770-aa8e-8a330dfc9015",
+  "id": "b4f82f3b-e3e4-493c-beb1-5076a0f476e8",
+  "key": "manual:b4f82f3b-e3e4-493c-beb1-5076a0f476e8",
   "contributor_name": "Claude",
   "created_by": "claude-job-search",
   "record_kind": "AUTOMATED_LEAD",
   "run_id": "20260928T0532Z",
-  "created_at": "2026-09-28T05:50:16.000Z",
-  "updated_at": "2026-09-28T05:50:16.000Z",
+  "created_at": "2026-09-28T05:54:25.000Z",
+  "updated_at": "2026-09-28T05:54:25.000Z",
   "version": 1,
   "attachments": [
    {
-    "kind": "resume",
+    "id": "a59284f7-fbc4-4056-8f5c-d1844a4059c4",
+    "path": "/api/documents/a59284f7-fbc4-4056-8f5c-d1844a4059c4",
     "filename": "Marc_Masarate_Sungold_Solar_via_PlusJob_Resume.pdf",
-    "stored_in": "not_uploaded"
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-09-28T05:54:28.409Z",
+    "stored_in": "cloudflare_r2"
    },
    {
-    "kind": "cover",
+    "id": "92567d92-b2e4-4b9a-ba58-d85e5004851d",
+    "path": "/api/documents/92567d92-b2e4-4b9a-ba58-d85e5004851d",
     "filename": "Marc_Masarate_Sungold_Solar_via_PlusJob_Civil_Engineering_Draftsperson_Cover_Letter.pdf",
-    "stored_in": "not_uploaded"
+    "sha256": "dbf7d0aa529a8f5c1244e6da3900c9a43721f4d94052fa76e9c8642273cb33fc",
+    "size_bytes": 48259,
+    "kind": "cover",
+    "uploaded_at": "2026-09-28T05:54:26.279Z",
+    "stored_in": "cloudflare_r2"
    }
   ],
   "company": "Sungold Solar (via PlusJob)",
@@ -317,9 +345,8 @@
    "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
    "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
   ],
-  "checked_at": "2026-09-28T05:50:16.000Z",
+  "checked_at": "2026-09-28T05:54:25.000Z",
   "seek_id": "94911522",
-  "duplicate_key": "sungoldsolarviaplusjob|seek:94911522",
-  "preparation_only": true
+  "duplicate_key": "sungoldsolarviaplusjob|seek:94911522"
  }
 ]

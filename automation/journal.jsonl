@@ -16,3 +16,4 @@
 {"run_id": "20260928T0532Z", "at": "2026-09-28T05:32:29.000Z", "stage": "start"}
 {"run_id": "20260928T0532Z", "at": "2026-09-28T05:40:16.000Z", "stage": "send", "company": "JHA Consulting Engineers (NSW) Pty Ltd", "to": "hr@jhaengineers.com.au", "gmail_message_id": "1a0e686d023f0a15", "result": "SENT"}
 {"run_id": "20260928T0532Z", "at": "2026-09-28T05:40:16.000Z", "stage": "sweep", "rotation": "councils_government", "adverts_found": 0}
+{"run_id": "20260928T0532Z", "at": "2026-09-28T05:54:39.000Z", "stage": "end", "new": 37, "screened": 25, "prepared": 1, "ready": 2, "held": 0, "sent": 1, "Offaly PREPARED_NOT_SENT (enquiries@offalycivil.com, next send); All Energy and Sungold READY_JEREMIE_SEEK; JHA SENT this tick; tracker version 23": ""}

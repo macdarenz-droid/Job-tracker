@@ -1,0 +1,53 @@
+{
+  "seek_id": "94906881",
+  "job_title": "Graduate Engineer (precontracts team)",
+  "employer": "All Energy Contracting Pty Ltd (AEC), part of OCU Group",
+  "location": "Head office, Hamilton, Brisbane QLD (search snippet of contact page: 9 Hercules St, Hamilton QLD 4007; not verified on the live page)",
+  "advert_url": "https://www.seek.com.au/job/94906881",
+  "application_route": "SEEK apply with two written screening questions (Jeremie/Marc portal task). Employer careers page embeds Employment Hero job listings plus a CV/cover-letter webform; no named recipient.",
+  "company_url": "https://allenergyco.com.au/",
+  "careers_url": "https://allenergyco.com.au/careers/",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_evidence_url": "",
+  "evidence_quote": "",
+  "contact_confidence": "none",
+  "named_people": [
+    {
+      "name": "Steve Urquhart",
+      "role": "Founder of AEC (AEC About us timeline: \"Founder's Steve Urquhart & Barry Murphy remain active in AEC operations today\"; quoted as Founder in OCU Group press release, 31 Jul 2025); LinkedIn headline 'Director' is not employer-authored",
+      "email": "",
+      "evidence_url": "https://web.archive.org/web/20260323010114/https://allenergyco.com.au/about-us/ ; https://www.ocugroup.com/post/ocu-group-acquires-majority-stake-in-australia-s-all-energy-contracting"
+    },
+    {
+      "name": "Barry Murphy",
+      "role": "Co-founder of AEC (named with Steve Urquhart on AEC About us page, archived 2026-03-23)",
+      "email": "",
+      "evidence_url": "https://web.archive.org/web/20260323010114/https://allenergyco.com.au/about-us/"
+    },
+    {
+      "name": "Michael Hughes",
+      "role": "Chief Executive Officer, OCU Group (parent company, UK; not AEC)",
+      "email": "",
+      "evidence_url": "https://www.ocugroup.com/about-us/leadership-team"
+    },
+    {
+      "name": "Sam Hodge",
+      "role": "International Growth Director, OCU Group (group level; not AEC precontracts)",
+      "email": "",
+      "evidence_url": "https://www.ocugroup.com/about-us/leadership-team"
+    }
+  ],
+  "employer_line": "AEC's recent work runs from civil, mechanical and electrical reticulation packages on the 485 MW Aldoga Solar Farm (Acciona, completed July 2025) and electrical reticulation on the 506 MW Wambo Wind Farm (Yurika, completed September 2025) to 275 kV EHV connections such as the Brendale BESS and data-centre connection for Powerlink (completed January 2026).",
+  "employer_line_source": "https://allenergyco.com.au/projects/ (Wayback capture https://web.archive.org/web/20260323010142/https://allenergyco.com.au/projects/)",
+  "published_generic_contacts": [
+    {
+      "email": "admin@allenergyco.com.au",
+      "phone": "1800 417 690",
+      "where": "Site-wide footer on allenergyco.com.au (live 404 page fetched 2026-09-28; careers/about/projects captures 2026-03-23)",
+      "accepts_applications_stated": false
+    }
+  ],
+  "notes": "Checked 2026-09-28. Live allenergyco.com.au pages sit behind a SiteGround captcha (HTTP 202 challenge) for WebFetch/curl, including wp-json; only the site's 404 template rendered, so page content was read from Wayback captures dated 2026-03-23 (about-us, projects, careers) and 2024-03-05 (home, careers). No AEC page (about-us, projects, careers, footer) names any precontracts, estimating, engineering or operations manager, and no named person's business email is published on the current site; the only published contact is the generic admin@allenergyco.com.au / 1800 417 690, and the careers page directs applicants to its job listings or a webform without saying the inbox accepts applications, so it is not a published_inbox. OCU Group pages (acquisition post 31 Jul 2025, OCU International, ANZ page, leadership team, Annual Report 2026) name Steve Urquhart as AEC founder but give no AEC email; OCU's own business/public enquiry addresses are obfuscated on the fetched pages and are group-level, not AEC. Stale employer-published addresses seen only in old Wayback captures, NOT on the current site and NOT to be used: careers page 2022-07-05 showed 'Contact steve@allenergyco.com.au, Queensland 0406 995 430'; careers/home 2024-03-05 showed 'info@allenergyco.com.au, 0418 697 768'; the 2026 site replaced both with admin@. Data-broker hits (ZoomInfo, RocketReach, ContactOut, Datanyze, TheOrg) listing Andrew Jacklyn, Padraig Cronin, Nick Mills, Glen Cunningham were ignored per the contact rule. An AEC 'Bid Manager' ad on Employment Hero (would sit in the same precontracts team) now returns 404. Recommendation: SEEK application only; no email touch. Budget used: 6 WebSearch, 8 WebFetch; remaining reads via curl/Wayback."
+}
