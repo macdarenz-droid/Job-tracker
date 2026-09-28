@@ -13,6 +13,8 @@ import seek  # noqa: E402
 import tracker  # noqa: E402
 import checks  # noqa: E402
 import render_pdf  # noqa: E402
+import email_html  # noqa: E402
+import compact_pdf  # noqa: E402
 
 
 class PrefilterTests(unittest.TestCase):
@@ -244,3 +246,25 @@ class PublishTests(unittest.TestCase):
         held = publish.held_record('r1', cand, {**screen, 'mandatory_unmet': ['Australian citizenship required'], 'company': 'Acme Civil', 'title': 'Junior Civil Drafter'})
         self.assertTrue(held['status'].startswith('HELD_AUSTRALIAN_CITIZENSHIP'))
 
+
+
+class EmailHtmlTests(unittest.TestCase):
+    def test_urls_become_anchors_with_clean_visible_text(self):
+        body = "Hi <Sam> & co,\nMy drawings are at https://macdarenz-droid.github.io/Portfolio. Thanks\nhttps://macdarenz-droid.github.io/Portfolio"
+        out = email_html.html_body(body)
+        self.assertEqual(out.count('<a href="https://macdarenz-droid.github.io/Portfolio">https://macdarenz-droid.github.io/Portfolio</a>'), 2)
+        self.assertIn('Hi &lt;Sam&gt; &amp; co,<br>', out)
+        self.assertIn('</a>. Thanks<br>', out)  # the full stop stays prose
+        self.assertNotIn('Portfolio.<', out)
+
+    def test_compact_pdfs_carry_clickable_portfolio_link(self):
+        import tempfile
+        with tempfile.TemporaryDirectory() as d:
+            out = compact_pdf.resume_pdf(os.path.join(d, 'r.pdf'))
+            doc = compact_pdf.pymupdf.open(out)
+            uris = [l['uri'] for p in doc for l in p.get_links() if l.get('kind') == compact_pdf.pymupdf.LINK_URI]
+            self.assertIn('https://macdarenz-droid.github.io/Portfolio', uris)
+            out = compact_pdf.letter_pdf({'paragraphs': ['See https://macdarenz-droid.github.io/Portfolio for drawings.']}, os.path.join(d, 'l.pdf'))
+            doc = compact_pdf.pymupdf.open(out)
+            uris = [l['uri'] for p in doc for l in p.get_links() if l.get('kind') == compact_pdf.pymupdf.LINK_URI]
+            self.assertGreaterEqual(uris.count('https://macdarenz-droid.github.io/Portfolio'), 2)

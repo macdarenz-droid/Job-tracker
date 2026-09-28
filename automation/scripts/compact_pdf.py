@@ -85,7 +85,18 @@ class Sheet:
         self.y += 2
         self.text(s, size=size, font='hebo', gap=3)
 
+    def link(self, needle, uri):
+        """Make every occurrence of `needle` on every page a clickable link to `uri`."""
+        for page in self.doc:
+            for rect in page.search_for(needle):
+                page.insert_link({'kind': pymupdf.LINK_URI, 'from': rect, 'uri': uri})
+
     def save(self):
+        ident = FACTS['identity']
+        url = ident['portfolio_url']
+        self.link(url, url)
+        self.link(url.replace('https://', ''), url)
+        self.link(ident['email'], 'mailto:' + ident['email'])
         self.doc.save(self.path, garbage=4, deflate=True)
         self.doc.close()
 
