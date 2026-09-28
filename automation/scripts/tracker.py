@@ -15,6 +15,7 @@ Usage:
   tracker.py list [--mine]               # list manual entries (or only Claude's)
 """
 import argparse
+import hashlib
 import json
 import os
 import re
@@ -142,6 +143,8 @@ def check_duplicate(candidate, idx, repeat_block_days=None):
     priors = [p for key, rows in idx['company'].items() if same_company(key, c) for p in rows] if c else []
     for prior in priors:
         st = prior['status'] or ''
+        if st in ('SENDING', 'SEND_UNCERTAIN'):
+            return True, f"unresolved outreach to the same employer ({prior['role']} · {st})", []
         recent = prior['date'] >= cutoff if prior['date'] else False
         if OUTREACH_STATUSES.match(st) and recent:
             return True, f"recent outreach to the same employer ({prior['role']} · {st} · {prior['date']})", []
@@ -193,21 +196,24 @@ def _guarded(mutate, attempts=4):
 
 
 def add_records(records):
-    ids = [r['id'] for r in records]
+    if any(r.get('preparation_only') for r in records):
+        raise ValueError('dry-build records are not publishable; finish PDF verification and uploads first')
 
     def mutate(state):
         existing = {r['id'] for r in state['manual_entries']}
         fresh = [r for r in records if r['id'] not in existing]
         idx = dedupe_index(state)
-        added = []
+        added, skipped = [], []
         for r in fresh:
             blocked, why, _ = check_duplicate({'company': r['company'], 'title': r['role'], 'url': r.get('job_url'), 'seek_id': r.get('seek_id')}, idx)
             if blocked:
-                r['_skipped'] = why
+                skipped.append((r['id'], why))
                 continue
             state['manual_entries'].append(r)
             added.append(r['id'])
-        return {'added': added, 'skipped': [(r['id'], r['_skipped']) for r in fresh if r.get('_skipped')]} if fresh else None
+            # A later candidate in this same batch must see this accepted record.
+            idx = dedupe_index(state)
+        return {'added': added, 'skipped': skipped} if fresh else None
     return _guarded(mutate)
 
 
@@ -241,6 +247,8 @@ def upload_document(path, kind, filename=None):
         'Content-Type': 'application/octet-stream', 'X-Filename': quote(filename or path.name), 'X-Doc-Kind': kind})
     if status != 201:
         raise RuntimeError(f'upload failed ({status}): {body}')
+    if body.get('sha256') != hashlib.sha256(data).hexdigest():
+        raise RuntimeError('uploaded document hash does not match the exact local bytes; do not publish or send')
     return body
 
 

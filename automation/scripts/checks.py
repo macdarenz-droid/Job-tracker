@@ -86,7 +86,7 @@ def fact_issues(text):
     return issues
 
 
-def record_issues(rec):
+def record_issues(rec, require_uploaded=True):
     issues = []
     for k in ('company', 'role', 'status', 'job_url', 'fit', 'gaps', 'match_score'):
         if not rec.get(k):
@@ -111,8 +111,10 @@ def record_issues(rec):
     if 'cover' not in kinds:
         issues.append('no cover letter attached')
     for d in rec.get('attachments') or []:
-        if d.get('stored_in') != 'cloudflare_r2' or not d.get('sha256'):
+        if require_uploaded and (d.get('stored_in') != 'cloudflare_r2' or not re.fullmatch(r'[0-9a-f]{64}', str(d.get('sha256') or ''), re.I) or not d.get('id') or not str(d.get('path') or '').startswith('/api/documents/')):
             issues.append(f"attachment not in R2 with a hash: {d.get('filename')}")
+    if require_uploaded and rec.get('preparation_only'):
+        issues.append('dry-build record is not publishable or sendable')
     if rec.get('contributor_name') != CONFIG['contributor_name']:
         issues.append('contributor_name is not Claude')
     if rec.get('application_type') == 'SPECULATIVE_ENQUIRY' and 'speculative' not in str(rec.get('email_body', '')).lower() and 'no advertised' not in str(rec.get('notes', '')).lower():

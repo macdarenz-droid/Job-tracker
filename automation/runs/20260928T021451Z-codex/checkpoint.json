@@ -1,0 +1,48 @@
+{
+  "run_id": "20260928T021451Z-codex",
+  "worker": "Codex",
+  "phase": "adopt_and_review",
+  "source_head": "dcbd33e5850b7fb387f9a9ec087b08ab8b8913b4",
+  "at": "2026-09-28T02:21:14.776838+00:00",
+  "scope": "Adopt supplied automation handoff; review existing six prepared packs before more discovery.",
+  "new": 0,
+  "sent": 0,
+  "uncertain": 0,
+  "reviewed": 6,
+  "recommended_holds": 5,
+  "conditional_content_pass": 1,
+  "canonical_journal_readable": true,
+  "canonical_journal_mutated": false,
+  "gmail_account_verified": true,
+  "global_send_lease_acquired": false,
+  "direct_tracker_network": "HTTP 403 in this session; guarded Actions publisher available",
+  "tests": {
+    "python": {
+      "run": 26,
+      "passed": 24,
+      "skipped": 2,
+      "skip_reasons": [
+        "Chromium unavailable",
+        "Portfolio master not materialised for this review-only run"
+      ]
+    },
+    "publisher": {
+      "run": 4,
+      "passed": 4
+    }
+  },
+  "schedule": {
+    "cadence_hours": 5,
+    "timezone": "Australia/Melbourne",
+    "saved_start": "2026-09-28T17:15:00+10:00",
+    "enabled": true,
+    "next_run_time": null,
+    "reviewer_enabled": false
+  },
+  "publication": {
+    "commit": "6c804ca390f32aae8570c627005d89528377fcc4",
+    "run_id": 36369265767,
+    "result": "Rejected before any save: Melbourne Truss row changed since review. Current metadata inspection underway."
+  },
+  "next_action": "Reconcile live row statuses before applying review holds; preserve actual submissions. Freshly reverify JHA advert and route, complete current shared history, acquire actual global lease and inspect exact final PDFs before considering any send. No new discovery records claimed."
+}

@@ -16,6 +16,7 @@ import argparse
 import json
 import re
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 from common import ROOT, REPO, CONFIG, FACTS, now_iso, read_json, write_json, slug, eprint
@@ -24,6 +25,30 @@ import checks
 import render_pdf
 
 STATUSES = CONFIG['statuses']
+
+
+def eligibility_issues(cand, screen, draft=None):
+    """Fail closed before rendering or uploading. Human review still reads the full advert."""
+    issues = []
+    speculative = (draft or {}).get('application_type') == 'SPECULATIVE_ENQUIRY'
+    if speculative and (screen.get('company_work_verified') is not True or (draft or {}).get('vacancy_status') != 'NO_ADVERTISED_VACANCY_VERIFIED'):
+        issues.append('speculative enquiry needs verified company work and an explicit no-advertised-vacancy label')
+    if not speculative and (screen.get('open') is not True or cand.get('is_expired') is True):
+        issues.append('current open advert not verified')
+    if screen.get('mandatory_unmet') != [] or screen.get('mandatory_unresolved'):
+        issues.append('mandatory eligibility is unmet or has not been checked')
+    percent = screen.get('percent')
+    if isinstance(percent, bool) or not isinstance(percent, (int, float)) or not CONFIG['fit']['threshold_percent'] <= percent <= 100:
+        issues.append('fit is below the threshold or invalid')
+    expiry = None if speculative else cand.get('expires_at') or screen.get('expires_at')
+    if expiry:
+        try:
+            when = datetime.fromisoformat(expiry.replace('Z', '+00:00'))
+            if when.tzinfo is None or when <= datetime.now(timezone.utc):
+                issues.append('advert expiry is past or has no timezone')
+        except (ValueError, TypeError):
+            issues.append('advert expiry cannot be verified')
+    return issues
 
 
 def load_run(run_id):
@@ -75,6 +100,7 @@ def build_record(run_id, cand, screen, contact, draft, attachments=None):
         'company_url': (contact or {}).get('company_url') or '',
         'status': status,
         'application_type': draft.get('application_type') or 'ADVERTISED_VACANCY',
+        'vacancy_status': draft.get('vacancy_status') or ('OPEN_ADVERT_VERIFIED' if screen.get('open') is True else 'VACANCY_UNVERIFIED'),
         'application_route': route,
         'application_method': method,
         'recipient_name': draft.get('recipient_name') or (contact or {}).get('recipient_name') or '',
@@ -130,6 +156,9 @@ def publish(run_id, only=None, go=False):
         cand, screen, contact = cands.get(sid, {}), screens.get(sid, {}), contacts.get(sid, {})
         if not screen:
             rejected.append({'seek_id': sid, 'why': 'no screen file'}); continue
+        eligibility = eligibility_issues(cand, screen, draft)
+        if eligibility:
+            rejected.append({'seek_id': sid, 'issues': eligibility}); continue
         letter = draft.get('letter') or {}
         rec = build_record(run_id, cand, screen, contact, draft)
         cover_name, resume_name = pdf_names(rec)
@@ -140,8 +169,9 @@ def publish(run_id, only=None, go=False):
             up_resume = tracker.upload_document(render_pdf.resume_pdf(), 'resume', resume_name)
             rec['attachments'] = [{**up_resume, 'kind': 'resume'}, {**up_cover, 'kind': 'cover'}]
         else:
-            rec['attachments'] = [{'kind': 'resume', 'filename': resume_name, 'stored_in': 'cloudflare_r2', 'sha256': 'pending'}, {'kind': 'cover', 'filename': cover_name, 'stored_in': 'cloudflare_r2', 'sha256': 'pending'}]
-        issues = checks.record_issues(rec)
+            rec['preparation_only'] = True
+            rec['attachments'] = [{'kind': 'resume', 'filename': resume_name, 'stored_in': 'not_uploaded'}, {'kind': 'cover', 'filename': cover_name, 'stored_in': 'not_uploaded'}]
+        issues = checks.record_issues(rec, require_uploaded=go)
         letter_text = '\n'.join(letter.get('paragraphs') or [])
         issues += ['letter ' + i for i in checks.tone_issues(letter_text, 'letter') + checks.fact_issues(letter_text)]
         if issues:

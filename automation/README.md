@@ -2,7 +2,7 @@
 
 Plain description of how Claude finds suitable jobs for Marc every five hours, prepares
 truthful applications, and tracks everything on the shared tracker under the name
-**Claude**. The rules in `AGENTS.md` apply to every run.
+**Claude**. The rules in `AGENTS.md` apply to every run. The existing Codex runner follows the same research workflow with the integration safeguards in `automation/CODEX.md`.
 
 ## 1. Goal and limits
 
@@ -41,8 +41,8 @@ truthful applications, and tracks everything on the shared tracker under the nam
                                                    │
                                                    ▼
                                    G. Send (Gmail) ── only with the Gmail
-                                   connector; one email per run; journal
-                                   lease (SENDING) under the version guard
+                                   connector; one email per run; actual shared journal
+                                   lease plus guarded SENDING evidence
 ```
 
 Files:
@@ -133,7 +133,7 @@ Marc asked for the person who hires, not the HR inbox. The rule (`config.json �
   Routine. Nothing else may send. Until the connector is attached, every email record stays
   `PREPARED_NOT_SENT` with the full text and both PDFs on the tracker; the tracker shows a
   "Send from Gmail" button that opens the drafted email for Marc.
-- Lease: before a send the record is set to `SENDING` under the version guard (a 409 means
+- Lease: acquire the actual shared canonical-journal lease (unique owner, bounded expiry, current-version guard) before a send. A row status or version check alone is not that lease. Then the record is set to `SENDING` under the tracker version guard (a 409 means
   someone changed the tracker; re-read and re-check). Then the final duplicate, eligibility,
   recipient and attachment checks run again, both PDFs are opened and read, and the send
   happens. Success is recorded as `SENT` with the Gmail message id and exact content, never as
@@ -172,7 +172,7 @@ Marc asked for the person who hires, not the HR inbox. The rule (`config.json �
 ## 10. Schedule and operations
 
 - A Claude Code Routine fires every five hours into the session that built this loop, with the
-  prompt in `RUNBOOK.md` §0. Each tick is bounded: at most 40 SEEK details, 25 screened, 4 new
+  prompt in `RUNBOOK.md` §0. Each tick is bounded: at most 60 SEEK details (80 when widening), 25 screened (40 when widening), 6 new
   records, 1 email, about 25 minutes, and at most seven agents (owner's budget: about 5 to 6 on
   a 10 scale; one sweep, one screener, up to four contact researchers, one reviewer; Claude
   drafts and publishes itself).
@@ -202,3 +202,4 @@ Everything needed to run a tick is in this folder and `docs/COACHING-DECISIONS.m
 2. The six-digit tracker code in `/root/.job-tracker-code` (given by the owner in chat; never committed).
 3. The instruction: "Follow `automation/RUNBOOK.md` end to end for one tick."
 The Routine that fires every five hours is bound to the session that built this loop (see D17); a new session needs its own Routine with the RUNBOOK §0 prompt.
+

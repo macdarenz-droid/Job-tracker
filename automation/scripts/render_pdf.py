@@ -19,7 +19,7 @@ import tempfile
 from datetime import datetime
 from pathlib import Path
 
-from common import ROOT, REPO, FACTS, read_json, eprint
+from common import ROOT, REPO, FACTS, read_json, eprint, today_melbourne
 
 CHROME_CANDIDATES = [
     os.environ.get('CHROME_BIN', ''),
@@ -42,6 +42,10 @@ def esc(s):
 
 
 def letter_html(letter):
+    # RUNBOOK passes a complete draft JSON; the renderer also accepts a bare letter.
+    letter = letter.get('letter', letter)
+    if not letter.get('paragraphs'):
+        raise ValueError('cover letter has no paragraphs')
     ident = FACTS['identity']
     t = (ROOT / 'templates' / 'cover-letter.html').read_text(encoding='utf-8')
     recipient = []
@@ -55,7 +59,7 @@ def letter_html(letter):
         recipient.append(esc(letter['company_line']))
     recipient_block = ''.join(f'<p>{line}</p>' for line in recipient)
     paragraphs = ''.join(f'<p>{esc(p)}</p>' for p in letter.get('paragraphs') or [])
-    date = letter.get('date') or datetime.now().strftime('%-d %B %Y')
+    date = letter.get('date') or datetime.fromisoformat(today_melbourne()).strftime('%-d %B %Y')
     fill = {
         'name': esc(ident['name']), 'title': esc(ident['title']), 'phone': esc(ident['phone']), 'email': esc(ident['email']),
         'portfolio_url': esc(ident['portfolio_url']), 'portfolio_display': esc(ident['portfolio_url'].replace('https://', '')),
