@@ -63,6 +63,47 @@ def route_status(draft, contact):
     return STATUSES['ready_seek'], 'SEEK', 'portal'
 
 
+COMMON_CALL_QUESTIONS = [
+    "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+    "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+    "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+    "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+    "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+    "When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+]
+
+
+def how_found(cand, screen, contact, route, mode):
+    src = (cand.get('source') or 'seek')
+    listed = (cand.get('listed_at') or '')[:10]
+    expires = (cand.get('expires_at') or screen.get('expires_at') or '')[:10]
+    parts = [f"Found on {'SEEK' if src == 'seek' else src} (listed {listed or 'date not shown'}{', closes ' + expires if expires else ''})."]
+    conf = (contact or {}).get('contact_confidence') or 'none'
+    if conf == 'published_direct':
+        parts.append(f"Contact: {contact.get('recipient_name')} ({contact.get('recipient_role')}), whose work email the employer publishes at {contact.get('contact_evidence_url')}.")
+    elif conf == 'published_inbox':
+        parts.append(f"Contact: the application inbox {contact.get('recipient_email')} published by the employer ({contact.get('contact_evidence_url')}); no personal address was used.")
+    else:
+        parts.append("No published email for a hiring person; the application goes through the employer's portal or SEEK.")
+    if (contact or {}).get('named_people'):
+        parts.append('Named people seen on employer pages: ' + '; '.join(f"{p.get('name')} ({p.get('role')})" for p in contact['named_people'][:3]) + '.')
+    parts.append({'email': 'Sent by email from macdarenz@gmail.com once Marc\'s Gmail is connected; recorded as SENT with the Gmail id.',
+                  'double_touch': 'Marc or Jeremie submits through the portal or SEEK first; the short email to the contact goes only after Applied is pressed.',
+                  'portal': 'Marc or Jeremie submits through the portal or SEEK using the pack on this record.'}[mode])
+    return ' '.join(parts)
+
+
+def call_prep(draft, screen):
+    q = [f"How did you find us? → Your advert for the {draft.get('role') or screen.get('title')} role" + (" on SEEK." if (screen.get('source') or 'seek') == 'seek' else " on your website.")]
+    for gap in (screen.get('gaps') or [])[:3]:
+        q.append(f"They may ask about: {gap} → answer honestly from the facts; nothing beyond them was claimed.")
+    return q + COMMON_CALL_QUESTIONS
+
+
+def how_found_block(cand, screen, contact, draft, route, mode):
+    return 'HOW CLAUDE FOUND THIS\n' + how_found(cand, screen, contact, route, mode) + '\n\nIF THEY CALL, LIKELY QUESTIONS\n' + '\n'.join('• ' + x for x in call_prep(draft, screen))
+
+
 def build_record(run_id, cand, screen, contact, draft, attachments=None):
     status, route, mode = route_status(draft, contact)
     method = {'EMAIL': 'Email', 'SEEK': 'SEEK', 'EMPLOYER_PORTAL': 'Company website', 'EMPLOYER_FORM': 'Company website'}[route]
@@ -93,7 +134,9 @@ def build_record(run_id, cand, screen, contact, draft, attachments=None):
                    'verified_at': cand.get('checked_at') or now_iso(), 'apply_instructions': screen.get('apply_instructions') or '', 'screening_questions': cand.get('screening_questions') or screen.get('screening_questions') or []},
         'screening_answers': draft.get('screening_answers') or [],
         'checklist': draft.get('checklist') or [],
-        'notes': '\n'.join(x for x in [draft.get('notes'), (contact or {}).get('notes'), 'Double touch: email the contact only after this record is marked Applied.' if mode == 'double_touch' else ''] if x),
+        'notes': '\n'.join(x for x in [draft.get('notes'), (contact or {}).get('notes'), 'Double touch: email the contact only after this record is marked Applied.' if mode == 'double_touch' else '', how_found_block(cand, screen, contact, draft, route, mode)] if x),
+        'how_found': how_found(cand, screen, contact, route, mode),
+        'call_prep': call_prep(draft, screen),
         'checked_at': now_iso(),
         'seek_id': cand.get('seek_id') if cand.get('source', 'seek') == 'seek' else None,
         'attachments': attachments or [],

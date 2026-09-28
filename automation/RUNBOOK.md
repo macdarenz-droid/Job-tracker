@@ -52,6 +52,8 @@ Then one Agent (effort high) reads every `drafts/<id>.json` with `facts.json`, t
 
 ## 7. Publish to the tracker (3 min)
 
+Every record also carries, in `notes`, a plain-words "HOW CLAUDE FOUND THIS" paragraph (source, dates, how the contact was found, what was and was not sent) and an "IF THEY CALL, LIKELY QUESTIONS" list with short honest answers from `facts.json`, so Marc can prepare for a phone call. `publish.py` writes both; keep them current when the status changes.
+
 `publish.py` does all of this from the run folder; the steps are listed so a failure can be finished by hand. For each verified candidate:
 1. `python3 render_pdf.py letter drafts/<id>.json ../runs/$RUN/Marc_Masarate_<Company>_<Role>_Cover_Letter.pdf`, then open the PDF and read it back (page count 1, name and role correct).
 2. Upload both PDFs: `python3 tracker.py upload <cover.pdf> cover` and `python3 tracker.py upload /home/user/Portfolio/assets/Marc-Darenz-Masarate-Resume.pdf resume --filename Marc_Masarate_<Company>_Resume.pdf`. Keep the returned objects as `attachments` (each carries `kind`, `sha256`, `stored_in: cloudflare_r2`).
@@ -66,10 +68,11 @@ Then one Agent (effort high) reads every `drafts/<id>.json` with `facts.json`, t
 At most one per run. Pick the highest-fit `PREPARED_NOT_SENT` record whose advert is still open (re-check with `seek.py details`).
 1. Lease: `tracker.py update <id> '{"status":"SENDING"}' --expect-status PREPARED_NOT_SENT`. A 409 or a status mismatch means stop and re-read.
 2. Final checks: `tracker.py check` on the record again (no new outreach to the employer since), `checks.py record`, open both PDFs from R2 and read them, confirm the recipient against `contact_evidence_url` once more.
-3. Send with the Gmail tool: to `recipient_email`, subject, body, both PDFs attached, from macdarenz@gmail.com. Record the returned message id.
-4. `tracker.py update <id> '{"status":"SENT","sent_at":"<now>","gmail_message_id":"<id>","application_method":"Email"}' --expect-status SENDING`.
-5. No message id or an error after the send call: `SEND_UNCERTAIN` with the error text; do not retry in this or any later run until Gmail Sent is checked. A bounce seen later: `DELIVERY_FAILED`.
-6. Double touch: an email to a direct contact about an advert that must go through SEEK or a portal is sent only after that record is `MANUAL_APPLIED` (Marc or Jeremie pressed Applied).
+3. Attachments: the Gmail tool takes inline base64, and long base64 is easy to mis-copy. Render compact PDFs (`compact_pdf.py letter` and `compact_pdf.py resume`, base-14 fonts, merged content streams; about 2 KB and 5 KB), print each base64, paste it into a heredoc file and check `sha256sum` against the PDF before using it; a mismatch means re-copy (or regenerate the PDF with different metadata and try again). Only verified strings go into the send call. A 400 from the tool names the bad attachment; nothing was sent, so fix and retry.
+4. Send with the Gmail tool: to `recipient_email`, subject, body, both PDFs attached, from macdarenz@gmail.com. Record the returned message id.
+5. `tracker.py update <id> '{"status":"SENT","sent_at":"<now>","gmail_message_id":"<id>","application_method":"Email","sent_attachments":[...]}' --expect-status SENDING`.
+6. No message id or an error after the send call: `SEND_UNCERTAIN` with the error text; do not retry in this or any later run until Gmail Sent is checked. A bounce seen later: `DELIVERY_FAILED`.
+7. Double touch: an email to a direct contact about an advert that must go through SEEK or a portal is sent only after that record is `MANUAL_APPLIED` (Marc or Jeremie pressed Applied).
 
 Follow-ups: a `SENT` record older than `follow_up_after_days` with no reply noted (`reply_at` empty) and `follow_ups` under `max_follow_ups` is eligible; it counts as the run's one email, uses the same lease, and is a three-sentence note.
 
