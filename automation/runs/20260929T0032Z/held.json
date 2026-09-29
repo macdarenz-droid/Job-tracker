@@ -1,0 +1,46 @@
+[
+ {
+  "id": "ebf33777-bd37-4af3-a08c-5fcee269c9a9",
+  "key": "manual:ebf33777-bd37-4af3-a08c-5fcee269c9a9",
+  "contributor_name": "Claude",
+  "created_by": "claude-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260929T0032Z",
+  "created_at": "2026-09-29T00:54:06.000Z",
+  "updated_at": "2026-09-29T00:54:06.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "UGL CPB Humelink West",
+  "role": "Project Engineer - Civil",
+  "location": "Wagga Wagga, Wagga Wagga & Riverina NSW",
+  "job_url": "https://www.seek.com.au/job/94929502",
+  "status": "HELD_ELIGIBILITY_UNCONFIRMED",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMPLOYER_PORTAL",
+  "fit": [
+   "Civil Project Engineer; experience wording is 'highly desired' and all applications are considered, so role level +6.",
+   "Subcontractor liaison and quality checks match Marc's site coordination: discipline +5 (no transmission work); regional NSW +5.",
+   "Direct joint venture employer; Civil Engineering qualification, White Card and work rights met."
+  ],
+  "gaps": [
+   "\"Significant engineering experience throughout, design, construction and commissioning on Brownfields and Greenfields projects\" is highly desired; Marc has 11 months of building and subdivision site work and no Australian experience",
+   "No transmission, substation or energy project experience",
+   "Regional NSW (Wagga Wagga) relocation to be confirmed by Marc",
+   "Medical assessment with drug and alcohol testing required before commencement"
+  ],
+  "match_score": {
+   "percent": 66,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Civil Project Engineer; experience wording is 'highly desired' and all applications are considered, so role level +6.",
+    "Subcontractor liaison and quality checks match Marc's site coordination: discipline +5 (no transmission work); regional NSW +5.",
+    "Direct joint venture employer; Civil Engineering qualification, White Card and work rights met."
+   ],
+   "caution": "Transmission-line project engineering is beyond Marc's record; keep the letter to real site coordination and coursework."
+  },
+  "notes": "Held by Claude: Full duties are not in the supplied text (only a subcontractor liaison bullet). A Project Engineer on a $1.4bn 500kV transmission project may be an experienced hire in substance, although the advert says its experience list is only 'highly desired' and all applications will be considered",
+  "checked_at": "2026-09-29T00:54:06.000Z",
+  "seek_id": "94929502",
+  "duplicate_key": "uglcpbhumelinkwest|seek:94929502"
+ }
+]
