@@ -1,0 +1,37 @@
+{
+  "seek_id": "94930821",
+  "company": "Project BA",
+  "company_url": "https://www.projectba.com.au/",
+  "careers_url": null,
+  "recipient_name": null,
+  "recipient_role": null,
+  "recipient_email": null,
+  "contact_evidence_url": null,
+  "evidence_quote": null,
+  "contact_confidence": "none",
+  "named_people": [
+    {
+      "name": "Luke Neller",
+      "role": "Building Certifier and Director (runs the insurance event repairs team)",
+      "email": null,
+      "evidence_url": "https://www.projectba.com.au/about"
+    },
+    {
+      "name": "Daniel Eichhorn",
+      "role": "Building Certifier (runs the new builds team); QBCC licence A15226050 per the About page as summarised by search",
+      "email": null,
+      "evidence_url": "https://www.projectba.com.au/about"
+    }
+  ],
+  "employer_line": "Project BA is a private building certification firm based in Noosaville that delivers building certification services to clients across Queensland.",
+  "employer_line_source": "https://www.seek.com.au/job/94930821",
+  "published_generic_contacts": [
+    {
+      "email": "info@projectba.com.au",
+      "phone": "(07) 5451 8784",
+      "where": "projectba.com.au contact details as reported in search-engine summaries of the site (page not readable from this environment)",
+      "accepts_applications_stated": false
+    }
+  ],
+  "notes": "Checked 2026-09-29. Company confirmed: Project BA, private building certifier (building approvals for new builds, insurance repairs and demolition, plus town planning advice), head office 4/59 Mary St Noosaville QLD 4566, website projectba.com.au; search summaries of the About page also say offices in Brisbane and Rockhampton, over 5000 building approvals issued in 2023, and a focus on high-volume builders. Advert (SEEK 94930821, not link-out) asks for CV, academic transcripts and covering letter via SEEK apply; that route belongs to Jeremie. What was checked: WebSearch x6 (firm name; firm + building approvals; domain and @projectba.com.au; Luke Neller; Daniel Eichhorn; site-restricted careers/contact search). Fetch attempts x10 all failed: curl to www.projectba.com.au and projectba.com.au (egress proxy connect_rejected, HTTP 502 on CONNECT), WebFetch on /, /about, /contact (ENOTFOUND), browse.py on / (ERR_TUNNEL_CONNECTION_FAILED), and Wayback Machine copies of /, /about, /contact (connection reset). Not readable: the live employer site (home, about, contact), its Facebook page, and the QBCC register; so no page text could be quoted verbatim and no individual email was seen anywhere. The only address surfaced is the generic info@projectba.com.au, reported by search-engine summaries of the employer site; no page states that it accepts applications or employment enquiries, so it does not qualify as published_inbox. No careers page found on the domain. Named people (Luke Neller, Director; Daniel Eichhorn, Building Certifier) come from search summaries of projectba.com.au/about; neither has a published business email in any employer-authored source found. LinkedIn profiles and ZoomInfo appeared in results and were not used. Qld tribunal PDFs naming Project BA as appellant are government-authored and were not fetched. Result: no direct contact; use SEEK apply. If the site becomes reachable, re-check projectba.com.au/about and the contact page for named emails and for any statement that info@ accepts applications."
+}

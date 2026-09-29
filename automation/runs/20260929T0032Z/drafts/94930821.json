@@ -13,12 +13,12 @@
  "application_type": "ADVERTISED_VACANCY",
  "email_body": "Hello,\n\nI'm applying for the Cadet Building Certifier / Engineering Graduate role advertised on SEEK. The ad is written for a recent engineering graduate or someone early in their career who wants a path into building certification.\n\nMy degree is a Bachelor of Science in Civil Engineering (Philippines, 2019), covering structural principles and construction methods, and in February 2026 I finished an Advanced Diploma of Civil Construction Design in Australia, working to Australian Standards in AutoCAD and Civil 3D. On site in the Philippines from April 2019 to February 2020 I reviewed structural and architectural drawings, checked the work against them, and carried out inspections, safety checks and quality monitoring, which is the inspection and compliance side of certification.\n\nI have not worked with the National Construction Code yet and my Australian experience is study, so I would be learning the codes and your processes from the start. I hold a White Card, an Australian driver's licence and full working rights until December 2027 on a Subclass 485 visa. I'm based in Melton, Victoria and open to discussing relocation to the Sunshine Coast.\n\nMy drawings are at https://macdarenz-droid.github.io/Portfolio. I'd be glad to talk about the cadet pathway.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
  "letter": {
-  "recipient_name": "",
-  "recipient_role": "",
+  "recipient_name": "Luke Neller",
+  "recipient_role": "Director and Building Certifier, Project BA",
   "company": "Project BA",
-  "company_line": "Noosaville QLD",
+  "company_line": "4/59 Mary Street, Noosaville QLD 4566",
   "subject": "Application for Cadet Building Certifier / Engineering Graduate",
-  "greeting": "Hello,",
+  "greeting": "Dear Luke,",
   "closing": "Kind regards,",
   "paragraphs": [
    "I'm applying for the Cadet Building Certifier / Engineering Graduate role advertised on SEEK. The ad is written for a recent engineering graduate or someone early in their career who wants a structured pathway into building certification under senior certifiers, and I'd like to be considered for it.",
@@ -37,5 +37,5 @@
   "Submit before 29 October 2026.",
   "Press Applied on the tracker with the date and \"SEEK\"."
  ],
- "notes": "Building certification cadetship (a building surveying career, not civil design) for a recent engineering graduate or early-career person; kept as an honest option because the ad names engineering graduates and Marc decides direction. Building-code knowledge is not on record and is disclosed. Interstate: Sunshine Coast relocation is Marc's call."
+ "notes": "Building certification cadetship (a building surveying career, not civil design) for a recent engineering graduate or early-career person; kept as an honest option because the ad names engineering graduates and Marc decides direction. Building-code knowledge is not on record and is disclosed. Interstate: Sunshine Coast relocation is Marc's call. Contact research (29 Sep 2026): the Project BA site could not be opened from this session (proxy refused the host); search summaries name Luke Neller (Director and Building Certifier) and Daniel Eichhorn (Building Certifier) and the office at 4/59 Mary Street, Noosaville, with only info@projectba.com.au published and no statement that it takes applications. SEEK is the only route; the letter is addressed to Luke Neller from the search summary of the About page, which Marc should glance at before submitting."
 }
