@@ -1,0 +1,32 @@
+{
+  "id": "94931025",
+  "percent": 24,
+  "rationale": [
+    "Land development design and documentation is civil and close to Marc's coursework: discipline +9, but role level is senior (+2): ideally 5+ years in consultancy.",
+    "Canberra is interstate: location +3.",
+    "-40 for the unmet 12D and multi-disciplinary design requirement."
+  ],
+  "caution": "Advert copy describes Egis while SEEK lists Inhabit Group; confirm the employing entity before any application.",
+  "gaps": [
+    "\"Ideally, you will have a minimum of 5+ years' experience as a civil engineer within a consultancy environment\" (Marc has none)",
+    "No knowledge of ACT land development requirements",
+    "No commercial design or consultancy experience",
+    "Interstate move to Canberra to be confirmed by Marc"
+  ],
+  "mandatory_unmet": [
+    "\"you will also have ... Design of multi-disciplinary projects using 12D and Autocad\" (no 12D on record; AutoCAD and Civil 3D are academic only)"
+  ],
+  "mandatory_unresolved": [],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": "",
+  "apply_instructions": "SEEK link-out: apply on the employer's own application page reached from the SEEK listing (portal submission belongs to Jeremie).",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Inhabit Group",
+  "title": "Civil Engineer",
+  "location": "Canberra ACT",
+  "url": "https://www.seek.com.au/job/94931025",
+  "listed_at": "2026-09-28T23:16:40.000Z",
+  "expires_at": "2026-10-29T00:19:12.885Z",
+  "screening_questions": []
+}

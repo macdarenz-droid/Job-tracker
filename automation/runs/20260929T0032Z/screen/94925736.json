@@ -1,0 +1,39 @@
+{
+  "id": "94925736",
+  "percent": 42,
+  "rationale": [
+    "Under 50: residential building project coordination is below the civil engineering target.",
+    "Entry-level and construction experience is a bonus, but the work is contracts, scheduling and admin.",
+    "Direct employer, open to 28 Oct 2026; no mandatory item unmet."
+  ],
+  "caution": "Admin-led residential role; a step away from civil engineering.",
+  "gaps": [
+    "Residential builder; admin-focused coordination rather than engineering",
+    "No paid coordination or admin experience on record",
+    "No construction management qualification",
+    "Excel modelling not used (Microsoft Office only)",
+    "Interstate move to Brisbane to be confirmed by Marc"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply through the SEEK listing (SEEK submission belongs to Jeremie); answer screening questions from facts.json and leave unknowns for Marc.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "ARQO Building Pty Ltd",
+  "title": "Junior Project Coordinator (Residential)",
+  "location": "Norman Park, Brisbane QLD",
+  "url": "https://www.seek.com.au/job/94925736",
+  "listed_at": "2026-09-28T12:51:54.016Z",
+  "expires_at": "2026-10-28T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a project coordinator?",
+    "Have you completed a qualification in construction management?",
+    "Do you have experience using Microsoft Excel?",
+    "Do you own or have regular access to a car?",
+    "What's your highest level of education?",
+    "Do you have a current Australian driver's licence?"
+  ]
+}

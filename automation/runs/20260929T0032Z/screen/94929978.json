@@ -1,0 +1,31 @@
+{
+  "id": "94929978",
+  "percent": 40,
+  "rationale": [
+    "Under 50: scaffold estimating is outside civil engineering.",
+    "No experience required, so Marc could apply, but it does not use his civil design or site skills.",
+    "Direct employer, open to 29 Oct 2026."
+  ],
+  "caution": "Low relevance to civil engineering; in-office scaffolding quotes only.",
+  "gaps": [
+    "Scaffolding estimating, not civil engineering",
+    "No paid estimating role; estimating is coursework only",
+    "Interstate move to Brisbane to be confirmed by Marc"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply through the SEEK listing (SEEK submission belongs to Jeremie); answer screening questions from facts.json and leave unknowns for Marc.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Premier Scaffolds",
+  "title": "Junior Estimator",
+  "location": "Virginia, Brisbane QLD",
+  "url": "https://www.seek.com.au/job/94929978",
+  "listed_at": "2026-09-28T23:20:31.950Z",
+  "expires_at": "2026-10-29T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+ "id": "94930149",
+ "percent": 64,
+ "rationale": [
+  "Support-level Site Engineer reporting to the Project Engineer; role level +14 (asks for relevant project experience, no years figure printed).",
+  "Site coordination, quality, safety and environmental monitoring match Marc's site work and coursework: discipline +8 (water and sewer packages are new to him); Adelaide +3.",
+  "Direct employer, open to 29 Oct 2026; no hard blocker visible but two requirement items lack an essential/desirable marker."
+ ],
+ "caution": "Re-checked by Claude from the full advert: the \"What you'll bring\" list has no essential marker and the \"What will set you apart\" list holds the experience items, and the ad says \"build your engineering career\", so this reads as an early-career site engineer; utilities experience is disclosed as a gap.",
+ "gaps": [
+  "No water, sewer or civil utilities project experience (site work was a building renovation and subdivision finishing works in the Philippines)",
+  "No Australian site experience",
+  "InEight, Aconex and Procore not used",
+  "Project clearances and police check status not on record",
+  "Interstate move to Adelaide to be confirmed by Marc"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "EMPLOYER_PORTAL",
+ "apply_email": "",
+ "apply_instructions": "SEEK link-out: apply on the employer's own application page reached from the SEEK listing (portal submission belongs to Jeremie).",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "McMahon Services",
+ "title": "Site Engineer - Civil Utilities",
+ "location": "Adelaide SA",
+ "url": "https://www.seek.com.au/job/94930149",
+ "listed_at": "2026-09-28T23:32:04.246Z",
+ "expires_at": "2026-10-29T12:59:59.999Z",
+ "screening_questions": [],
+ "rescored_by": "Claude 29 Sep 2026"
+}

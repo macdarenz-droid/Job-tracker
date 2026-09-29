@@ -1,0 +1,37 @@
+{
+  "id": "94906791",
+  "percent": 17,
+  "rationale": [
+    "Water infrastructure Project Engineer wanting 5+ years: role level 0, discipline +4 (drainage coursework), Sydney +3.",
+    "Direct water asset owner, open to 28 Oct 2026.",
+    "-40 for the unmet 5 years requirement."
+  ],
+  "caution": "Experienced water engineer hire; degree is only 'preferred'.",
+  "gaps": [
+    "Marc has no water, sewer or wastewater work",
+    "Screening asks for a current National Police Certificate; no police-check status on record",
+    "Contract administration, planning and scheduling not on record; Microsoft Project not used",
+    "Interstate move to Sydney to be confirmed by Marc"
+  ],
+  "mandatory_unmet": [
+    "\"Minimum of 5 years' experience in water, wastewater or recycled water infrastructure design and construction\""
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply through the SEEK listing (SEEK submission belongs to Jeremie); answer screening questions from facts.json and leave unknowns for Marc.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "coNEXA Infrastructure Partners Pty Ltd",
+  "title": "Project Engineer",
+  "location": "Sydney NSW",
+  "url": "https://www.seek.com.au/job/94906791",
+  "listed_at": "2026-09-28T01:19:19.397Z",
+  "expires_at": "2026-10-28T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How much notice are you required to give your current employer?",
+    "Do you have a current Police Check (National Police Certificate) for employment?",
+    "How many years of Water Engineering experience do you have?"
+  ]
+}

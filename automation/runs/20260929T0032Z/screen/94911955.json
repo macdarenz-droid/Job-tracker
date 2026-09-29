@@ -1,0 +1,37 @@
+{
+  "id": "94911955",
+  "percent": 13,
+  "rationale": [
+    "Under 50: scaffold engineering is outside civil engineering graduate work.",
+    "Senior team leader role; role level 0, discipline 0, Sydney +3.",
+    "-40 for CPEng and several other unmet essential requirements."
+  ],
+  "caution": "CPEng is essential; Marc is not chartered.",
+  "gaps": [
+    "No leadership or supervision of engineers"
+  ],
+  "mandatory_unmet": [
+    "\"experienced Industrial Access Scaffold Team Leader\"",
+    "\"Chartered Professional Engineer (CPEng) status – essential\"",
+    "\"Significant experience designing and certifying industrial access scaffolding systems – essential\"",
+    "\"Professional Autodesk REVIT experience\" (Marc's Revit is academic)",
+    "\"Strong experience using structural analysis / FEA software such as SpaceGass, Microstran, RSTAB or Strand7\""
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply through the SEEK listing (SEEK submission belongs to Jeremie); answer screening questions from facts.json and leave unknowns for Marc.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Acrow Formwork & Scaffolding Pty Ltd",
+  "title": "Industrial Access Scaffold Team Leader - Engineering",
+  "location": "Revesby, Sydney NSW",
+  "url": "https://www.seek.com.au/job/94911955",
+  "listed_at": "2026-09-28T03:42:15.108Z",
+  "expires_at": "2026-10-28T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as an Engineering Team Leader?"
+  ]
+}

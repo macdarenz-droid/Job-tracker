@@ -1,0 +1,33 @@
+{
+  "id": "94919093",
+  "percent": 9,
+  "rationale": [
+    "Civil utilities estimating overlaps with drainage and services coursework: discipline +6, but role level is 0 and Sydney is +3.",
+    "Advert says 'join a growing contractor', so the employer is not named: -10.",
+    "-40 for the unmet estimating experience requirement."
+  ],
+  "caution": "Agency-style posting for an unnamed contractor; senior estimator salary.",
+  "gaps": [
+    "ASP electrical exposure: none",
+    "No paid estimating role; Bluebeam, E1 and Benchmark not used",
+    "$170,000 salary indicates a senior hire",
+    "Interstate move to Sydney to be confirmed by Marc"
+  ],
+  "mandatory_unmet": [
+    "\"Experience estimating civil, utilities, or electrical infrastructure projects\"",
+    "\"experience across civil utilities and ASP electrical projects\""
+  ],
+  "mandatory_unresolved": [],
+  "route": "EMAIL",
+  "apply_email": "darragh@atomresources.com.au",
+  "apply_instructions": "Email darragh@atomresources.com.au as the advert states (recruiter; contractor not named).",
+  "open": true,
+  "employer_is_agency": true,
+  "company": "Atom Resources",
+  "title": "Estimator",
+  "location": "Liverpool, Sydney NSW",
+  "url": "https://www.seek.com.au/job/94919093",
+  "listed_at": "2026-09-28T07:21:35.522Z",
+  "expires_at": "2026-10-28T12:59:59.999Z",
+  "screening_questions": []
+}

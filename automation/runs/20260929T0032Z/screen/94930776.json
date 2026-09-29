@@ -1,0 +1,32 @@
+{
+  "id": "94930776",
+  "percent": 45,
+  "rationale": [
+    "Under 50: production estimating for a residential builder is outside the civil engineering target.",
+    "Entry-level assistant role would otherwise suit Marc's cost estimate coursework.",
+    "Direct employer, open to 29 Oct 2026; no mandatory item unmet."
+  ],
+  "caution": "Residential building estimating would take Marc away from civil engineering.",
+  "gaps": [
+    "Estimating is coursework only (cost estimates and bills of quantities); no paid estimating role",
+    "Degree is civil engineering, not Construction Management or Quantity Surveying (advert says 'or a related field')",
+    "Bluebeam, E1 and Benchmark not used",
+    "Interstate move to the Gold Coast to be confirmed by Marc"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply through the SEEK listing (SEEK submission belongs to Jeremie); answer screening questions from facts.json and leave unknowns for Marc.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Thomas Paul Constructions Pty Ltd",
+  "title": "Junior Assistant Production Estimator",
+  "location": "Arundel, Gold Coast QLD",
+  "url": "https://www.seek.com.au/job/94930776",
+  "listed_at": "2026-09-29T00:07:02.541Z",
+  "expires_at": "2026-10-29T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "94930917",
+  "percent": 13,
+  "rationale": [
+    "Under 50: residential repair and renovation estimating for a plumbing and building firm is not civil engineering.",
+    "Aimed at trade-qualified builders and carpenters moving off the tools; role level 0, discipline 0, Adelaide +3.",
+    "-40 for the unmet trade qualification."
+  ],
+  "caution": "Trade-background residential estimating role.",
+  "gaps": [
+    "\"Proven estimating and quoting experience (preferred)\": no paid estimating",
+    "Residential repair and renovation scoping, not civil",
+    "Interstate move to Adelaide to be confirmed by Marc"
+  ],
+  "mandatory_unmet": [
+    "\"Trade-qualified builder or carpenter with hands-on experience\""
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply through the SEEK listing (SEEK submission belongs to Jeremie); answer screening questions from facts.json and leave unknowns for Marc.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Ken Hall Plumbers",
+  "title": "Building Estimator",
+  "location": "Kent Town, Adelaide SA",
+  "url": "https://www.seek.com.au/job/94930917",
+  "listed_at": "2026-09-29T00:14:01.334Z",
+  "expires_at": "2026-10-29T00:14:00.000Z",
+  "screening_questions": []
+}

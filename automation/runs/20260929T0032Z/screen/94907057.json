@@ -1,0 +1,33 @@
+{
+  "id": "94907057",
+  "percent": 11,
+  "rationale": [
+    "Piling and basement Project Engineer with prior experience required: role level +2, discipline +6, Gold Coast +3.",
+    "Recruiter posting for an unnamed contractor: -10.",
+    "-40 for the unmet piling, shoring or basement experience requirement."
+  ],
+  "caution": "Recruiter role for an unnamed piling contractor.",
+  "gaps": [
+    "No piling, shoring or basement work on record",
+    "No Australian site experience",
+    "Interstate move to the Gold Coast to be confirmed by Marc"
+  ],
+  "mandatory_unmet": [
+    "\"Previous experience as a Project Engineer / Site Engineer on piling, foundations, shoring or basement projects\""
+  ],
+  "mandatory_unresolved": [
+    "Project Engineer coordinating plant, subcontractors, programs and costs is an experienced hire in substance"
+  ],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply through the SEEK listing (SEEK submission belongs to Jeremie); answer screening questions from facts.json and leave unknowns for Marc.",
+  "open": true,
+  "employer_is_agency": true,
+  "company": "New Venture Recruitment",
+  "title": "Project Engineer",
+  "location": "Gold Coast QLD",
+  "url": "https://www.seek.com.au/job/94907057",
+  "listed_at": "2026-09-28T01:28:43.836Z",
+  "expires_at": "2026-10-28T00:28:00.000Z",
+  "screening_questions": []
+}

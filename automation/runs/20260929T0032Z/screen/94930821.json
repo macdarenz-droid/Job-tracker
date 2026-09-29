@@ -1,0 +1,37 @@
+{
+ "id": "94930821",
+ "percent": 62,
+ "rationale": [
+  "Cadet and graduate role open to early-career applicants: Marc's Advanced Diploma (Feb 2026) and entry-level site roles fit; role level +15.",
+  "Inspections, reports and standards overlap only in part and certification is not civil design: discipline +3; Noosaville QLD is interstate: +3.",
+  "Direct employer, open to 29 Oct 2026, no essential item unmet; work rights (485 to Dec 2027) and Australian licence answer the screening questions."
+ ],
+ "caution": "Re-scored by Claude: building certification is a different career from civil design, and building-code knowledge is not on record; kept as an honest option for Marc.",
+ "gaps": [
+  "Career direction is building certification (surveying), not civil design",
+  "No building code (NCC) knowledge on record",
+  "BSCE was completed in 2019; the Advanced Diploma was completed February 2026 (advert accepts 'recent engineering graduate or someone early in their career')",
+  "Travel distance screening answer is for Marc",
+  "Interstate move to Noosaville QLD to be confirmed by Marc",
+  "No Australian site experience"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply through SEEK (Jeremie submits) with CV, academic transcripts and a cover letter, as the advert asks.",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Project BA",
+ "title": "Cadet Building Certifier / Engineering Graduate",
+ "location": "Noosaville, Sunshine Coast QLD",
+ "url": "https://www.seek.com.au/job/94930821",
+ "listed_at": "2026-09-29T00:10:31.900Z",
+ "expires_at": "2026-10-29T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "Do you have a current Australian driver's licence?",
+  "How far are you willing to travel for work?"
+ ],
+ "rescored_by": "Claude 29 Sep 2026"
+}

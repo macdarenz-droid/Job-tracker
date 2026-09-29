@@ -1,0 +1,39 @@
+{
+  "id": "94916561",
+  "percent": 15,
+  "rationale": [
+    "Under 50: commercial glazing estimating is outside civil engineering.",
+    "Asks for an experienced estimator; role level 0, discipline +2, Gold Coast +3.",
+    "-40 for the unmet estimating experience requirement."
+  ],
+  "caution": "Glazing sales and estimating role for experienced estimators.",
+  "gaps": [
+    "V6 not on record",
+    "No glazing or shopfitting experience",
+    "$100,000 to $115,000 salary indicates a senior hire"
+  ],
+  "mandatory_unmet": [
+    "\"looking for an experienced an experienced estimator\"",
+    "\"Previous estimating experience within commercial glazing, aluminium windows and doors, shopfitting, construction or a similar industry\" (Marc has coursework estimating only)",
+    "\"Experience with quantity take-offs, estimating, quoting and tender preparation\""
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply through the SEEK listing (SEEK submission belongs to Jeremie); answer screening questions from facts.json and leave unknowns for Marc.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "PTG Commercial glazing",
+  "title": "Estimator/ Project Coordinator",
+  "location": "Molendinar, Gold Coast QLD",
+  "url": "https://www.seek.com.au/job/94916561",
+  "listed_at": "2026-09-28T06:16:17.658Z",
+  "expires_at": "2026-10-28T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a project coordinator?",
+    "How much notice are you required to give your current employer?",
+    "How many years' experience do you have as a Construction Estimator?",
+    "How many years of experience do you have in the Glazing Industry?"
+  ]
+}

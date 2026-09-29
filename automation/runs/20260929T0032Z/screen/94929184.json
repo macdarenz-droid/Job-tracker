@@ -1,0 +1,38 @@
+{
+  "id": "94929184",
+  "percent": 25,
+  "rationale": [
+    "Under 50: mechanical and mechatronic product engineering for a roller shutter manufacturer is not civil engineering.",
+    "Graduate level suits Marc: role level +10, discipline 0, regional SA +5.",
+    "-40 for the unmet mechanical or mechatronic degree requirement."
+  ],
+  "caution": "Manufacturing engineering role; degree discipline does not match.",
+  "gaps": [
+    "SolidWorks, Inventor and NX not on record (AutoCAD, Civil 3D and Revit only)",
+    "No manufacturing, product design, testing or mechatronic experience",
+    "Willingness to travel overseas is not on record",
+    "Regional SA move to Murray Bridge to be confirmed by Marc"
+  ],
+  "mandatory_unmet": [
+    "\"Bachelor's degree in Mechanical Engineering, Mechatronic Engineering or a closely related engineering discipline\" (Marc's degree is civil)"
+  ],
+  "mandatory_unresolved": [],
+  "route": "EMAIL",
+  "apply_email": "j.nixon@cwproducts.com.au",
+  "apply_instructions": "Advert offers SEEK Apply Now or emailing a resume to j.nixon@cwproducts.com.au (Jessica Nixon).",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "CW Products",
+  "title": "Junior Engineer",
+  "location": "Murray Bridge, Riverland & Murray Mallee SA",
+  "url": "https://www.seek.com.au/job/94929184",
+  "listed_at": "2026-09-28T22:26:16.178Z",
+  "expires_at": "2026-10-29T12:59:59.999Z",
+  "screening_questions": [
+    "Have you completed a qualification in engineering?",
+    "Do you have Technical Troubleshooting experience?",
+    "Which of the following statements best describes your right to work in Australia?",
+    "Which of the following CAD software do you have experience with?",
+    "Do you have a current Australian driver's licence?"
+  ]
+}

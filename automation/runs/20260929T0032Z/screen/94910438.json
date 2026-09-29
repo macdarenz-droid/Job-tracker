@@ -1,0 +1,38 @@
+{
+  "id": "94910438",
+  "percent": 10,
+  "rationale": [
+    "Under 50: tiling and stone estimating is outside civil engineering.",
+    "Melbourne location helps (+10) but role level and discipline are 0.",
+    "Recruiter posting for an unnamed tiling contractor: -10; -40 for the unmet 3 years requirement."
+  ],
+  "caution": "Recruiter role for an unnamed commercial tiler.",
+  "gaps": [
+    "No hands-on stone or CNC exposure",
+    "No paid estimating role",
+    "Marc is in Melton VIC, so location is workable but the role is not civil"
+  ],
+  "mandatory_unmet": [
+    "\"Minimum 3 years' experience estimating commercial tiling and stone packages for Tier 2 or Tier 3 builder projects in Australia\""
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply through the SEEK listing (SEEK submission belongs to Jeremie); answer screening questions from facts.json and leave unknowns for Marc.",
+  "open": true,
+  "employer_is_agency": true,
+  "company": "RecruitShop",
+  "title": "Stone Estimator",
+  "location": "Dandenong South, Melbourne VIC",
+  "url": "https://www.seek.com.au/job/94910438",
+  "listed_at": "2026-09-28T03:04:29.676Z",
+  "expires_at": "2026-10-28T12:59:59.999Z",
+  "screening_questions": [
+    "Please select your current eligibility to live and work in Australia.",
+    "Please confirm which suburb you currently reside in. ",
+    "Please briefly describe your experience estimating tiling and stone jobs.",
+    "Have you had any hands-on or shop-floor exposure (e.g. CNC operation, working alongside stonemasons)?",
+    "Do you have at least 3 years' estimating experience working with tier 2 and/or tier 3 builders or contractors?",
+    "Please outline your availability to start in a new role. "
+  ]
+}

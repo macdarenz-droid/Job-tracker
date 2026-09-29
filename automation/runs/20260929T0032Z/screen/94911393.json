@@ -1,0 +1,37 @@
+{
+  "id": "94911393",
+  "percent": 13,
+  "rationale": [
+    "Under 50: aluminium and glass estimating is outside civil engineering.",
+    "Needs V6 and prior estimating; role level 0, discipline 0, Central Coast +3.",
+    "-40 for the unmet essential V6 requirement."
+  ],
+  "caution": "Glazing and aluminium estimator role.",
+  "gaps": [
+    "Alspec products and systems: none",
+    "Bespoke aluminium and glass manufacturing, not civil",
+    "Regional NSW move to the Central Coast to be confirmed by Marc"
+  ],
+  "mandatory_unmet": [
+    "\"Experience using V6 estimating software is essential\"",
+    "\"Previous experience in an estimating role within the aluminium windows, doors or construction industry\""
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply through the SEEK listing (SEEK submission belongs to Jeremie); answer screening questions from facts.json and leave unknowns for Marc.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Sublime Aluminium & Glass",
+  "title": "Estimator",
+  "location": "Somersby, Gosford & Central Coast NSW",
+  "url": "https://www.seek.com.au/job/94911393",
+  "listed_at": "2026-09-28T03:31:08.121Z",
+  "expires_at": "2026-10-28T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as an Estimator?",
+    "How many years' experience do you have as a Window and Door Estimator?"
+  ]
+}

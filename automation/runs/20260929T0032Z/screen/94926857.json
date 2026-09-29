@@ -1,0 +1,37 @@
+{
+  "id": "94926857",
+  "percent": 13,
+  "rationale": [
+    "Under 50: plasterboard contracting estimating is outside civil engineering.",
+    "Needs Australian estimating experience; role level 0, discipline 0, Adelaide +3.",
+    "-40 for the unmet estimating experience requirement."
+  ],
+  "caution": "Estimator role in plasterboard and residential construction.",
+  "gaps": [
+    "Plasterboard contracting and residential construction, not civil",
+    "Bluebeam, E1 and Benchmark not used",
+    "Interstate move to Adelaide to be confirmed by Marc"
+  ],
+  "mandatory_unmet": [
+    "\"Previous estimating experience within the Australian construction industry\"",
+    "\"Experience with quantity take-offs, tendering and cost estimating\" (coursework only)"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply through the SEEK listing (SEEK submission belongs to Jeremie); answer screening questions from facts.json and leave unknowns for Marc.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Bonoli plasterboard",
+  "title": "estimator",
+  "location": "Adelaide SA",
+  "url": "https://www.seek.com.au/job/94926857",
+  "listed_at": "2026-09-28T14:48:06.141Z",
+  "expires_at": "2026-10-29T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as an Estimator?",
+    "How much notice are you required to give your current employer?"
+  ]
+}
