@@ -1,0 +1,911 @@
+{
+ "count": 25,
+ "skipped": 3,
+ "screened_in_earlier_runs": [
+  {
+   "id": "94904264",
+   "company": "City of Adelaide",
+   "title": "Graduate, Civil Engineer",
+   "run": "20260928T0123Z",
+   "percent": 84,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94900572",
+   "company": "Aptus",
+   "title": "Civil 3D | Civil Design + Engineering | $110K - $135K +",
+   "run": "20260928T0123Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Advert requires a minimum of 4 years using Civil 3D; Marc's Civil 3D experience is academic coursework only"
+   ]
+  },
+  {
+   "id": "94902917",
+   "company": "Employment Matters",
+   "title": "CIVIL CONSTRUCTION TRAINEE",
+   "run": "20260928T0532Z",
+   "percent": 87,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94916158",
+   "company": "WYN&CO Search Recruitment & Payroll",
+   "title": "Civil Project Engineer",
+   "run": "20260928T1031Z",
+   "percent": 50,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94912548",
+   "company": "AWCON Pty Ltd",
+   "title": "Estimator – Mining & Civil Construction",
+   "run": "20260928T0532Z",
+   "percent": 77,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94913320",
+   "company": "Dubbo Regional Council",
+   "title": "Design Engineer",
+   "run": "20260928T0532Z",
+   "percent": 84,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94909348",
+   "company": "Satake Australia Pty Ltd",
+   "title": "Draftsperson",
+   "run": "20260928T0532Z",
+   "percent": 29,
+   "mandatory_unmet": [
+    "Duties require creating and maintaining 3D models, technical drawings and specifications using SolidWorks and AutoCAD; Marc has not used SolidWorks (facts.json lists AutoCAD, Civil 3D, Revit, Microsoft Office and Google Workspace only)"
+   ]
+  },
+  {
+   "id": "94907504",
+   "company": "SEE Group",
+   "title": "Project Engineer & Site Engineer",
+   "run": "20260928T0532Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Advert states 'We're open to Engineers with 2-6 years' experience in civil construction'; Marc has no matching commercial experience"
+   ]
+  },
+  {
+   "id": "94919271",
+   "company": "Roam Pty Ltd",
+   "title": "Project Engineer",
+   "run": "20260928T2032Z",
+   "percent": 21,
+   "mandatory_unmet": [
+    "\"5+ years in an engineering role, including at least 3 years on structural, steel or foundation construction projects\""
+   ]
+  },
+  {
+   "id": "94915173",
+   "company": "Kingston City Council",
+   "title": "Student Traffic Analyst",
+   "run": "20260928T0532Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Essential requirement is 'current enrolment in a degree in engineering, urban planning, transport planning or a related discipline'; Marc is not currently enrolled (Advanced Diploma completed February 2026, Bachelor's completed 2019)"
+   ]
+  },
+  {
+   "id": "94911870",
+   "company": "Resource E",
+   "title": "Site Engineer",
+   "run": "20260928T0532Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94903708",
+   "company": "JDM Civil Group",
+   "title": "Project Engineer",
+   "run": "20260928T0532Z",
+   "percent": 72,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94911471",
+   "company": "Downer EDI Limited",
+   "title": "Graduate Engineering Program 2027",
+   "run": "20260928T1031Z",
+   "percent": 47,
+   "mandatory_unmet": [
+    "\"Degree in Mechanical, Electrical or Civil Engineering, completed in 2025 or due for completion by the end of 2026\" (Marc's Bachelor of Science in Civil Engineering was completed in 2019; his February 2026 completion is an Advanced Diploma, not an engineering degree)",
+    "\"Australian Citizenship or Permanent Residency\" (Marc holds a Subclass 485 visa to December 2027, not citizenship or permanent residency)"
+   ]
+  },
+  {
+   "id": "94899498",
+   "company": "Design & Build",
+   "title": "Draftsperson",
+   "run": "20260928T1031Z",
+   "percent": 18,
+   "mandatory_unmet": [
+    "\"Residential drafting experience with a WA-based builder\" (Marc's CAD/drafting experience is academic coursework in civil construction design, not commercial residential drafting with a WA builder)"
+   ]
+  },
+  {
+   "id": "94892492",
+   "company": "Echo Projects Co",
+   "title": "Building Cadet",
+   "run": "20260928T1031Z",
+   "percent": 48,
+   "mandatory_unmet": [
+    "\"Currently enrolled in a construction management or related degree at university (this is a requirement)\" (Marc is not currently enrolled in university; his BSCE was completed in 2019 and his Advanced Diploma in February 2026)"
+   ]
+  },
+  {
+   "id": "94914683",
+   "company": "Melsteel Pty Ltd",
+   "title": "Structural Steel Estimator",
+   "run": "20260928T1532Z",
+   "percent": 12,
+   "mandatory_unmet": [
+    "'This position is open to permanent residents only' (Marc holds a Subclass 485 visa to December 2027, not permanent residency)"
+   ]
+  },
+  {
+   "id": "94913792",
+   "company": "McNab Group",
+   "title": "Project Engineer",
+   "run": "20260928T1031Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "\"Experience working for a commercial builder\" (Marc has none; his site work was a hall renovation and subdivision finishing works in the Philippines)"
+   ]
+  },
+  {
+   "id": "94904560",
+   "company": "Argo Coal Management Pty Ltd",
+   "title": "2027 Graduate Opportunities",
+   "run": "20260928T1532Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94899540",
+   "company": "Evve Group",
+   "title": "Estimator & Procurement Coordinator",
+   "run": "20260928T1532Z",
+   "percent": 58,
+   "mandatory_unmet": []
+  }
+ ],
+ "candidates": [
+  {
+   "id": "94930149",
+   "source": "seek",
+   "title": "Site Engineer - Civil Utilities",
+   "company": "McMahon Services",
+   "location": "Adelaide SA",
+   "url": "https://www.seek.com.au/job/94930149",
+   "work_type": "Full time",
+   "salary": "Competitive salary + career progression ",
+   "listed_at": "2026-09-28T23:32:04.246Z",
+   "expires_at": "2026-10-29T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Build your engineering career delivering major civil utilities works on the Southern Hemisphere's largest infrastructure project.",
+   "opening": "As a Site Engineer – Civil Utilities, you will play an integral role in delivering one of South Australia's largest and most significant infrastructure projects. Working across major water, sewer and civil utilities packages, you'll support the successful delivery of complex civil construction works while developing your technical capability alongside experienced project teams.\nThis is an exciting opportunity for an engineer to gain hands-on exposure across project delivery, construction planning, site coordination and stakeholder management on a landmark project helping shape Adelaide's future.\nAbout McMahon Services\nMcMahon Services is one of Australia's largest privately owned construction, industrial and environmental services organisations, employing more than 1,200 people nationally. For over 35 years, we have delivered innovative solutions across civil infrastructure, demolition, ",
+   "key_lines": [
+    "As a Site Engineer – Civil Utilities, you will play an integral role in delivering one of South Australia's largest and most significant infrastructure projects. Working across major water, sewer and civil utilities packages, you'll support the successful delivery of complex civil construction works while developing your technical capability alongside experienced project teams.",
+    "McMahon Services is one of Australia's largest privately owned construction, industrial and environmental services organisations, employing more than 1,200 people nationally. For over 35 years, we have delivered innovative solutions across civil infrastructure, demolition, remediation, industrial services and environmental projects. Our reputation is built on integrity, strong relationships, technical expertise and delivering certainty for our customers.",
+    "Reporting to the Project Engineer, Senior Project Engineer and Project Manager, you will provide on-site engineering support across major civil utilities packages, including water, sewer and infrastructure works. Working closely with project teams, construction crews, subcontractors and key stakeholders, you'll assist with coordinating day-to-day site activities while ensuring works are delivered safely, efficiently and to the highest quality standards.",
+    "- Monitor construction quality, environmental compliance and safety performance to ensure works meet project requirements",
+    "- Tertiary qualification in Civil Engineering or a related discipline",
+    "- Experience supporting the delivery of civil utilities, water or infrastructure projects",
+    "- Knowledge of quality assurance, safety and environmental requirements within construction",
+    "- Experience using project management systems such as InEight, Aconex, Procore or similar",
+    "- Current White Card, Driver's Licence and ability to obtain required project clearances",
+    "- Experience working on major civil utilities or infrastructure projects",
+    "- Strong safety-first culture backed by experienced operational leaders",
+    "Ready to build your engineering career on one of South Australia's largest infrastructure projects? Apply now and join the McMahon Services team."
+   ]
+  },
+  {
+   "id": "94931025",
+   "source": "seek",
+   "title": "Civil Engineer",
+   "company": "Inhabit Group",
+   "location": "Canberra ACT",
+   "url": "https://www.seek.com.au/job/94931025",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-28T23:16:40.000Z",
+   "expires_at": "2026-10-29T00:19:12.885Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "As a Civil Engineer within our Urban Development team, you will focus on delivering comprehensive design and documentation for land development and...",
+   "opening": "Company Description\nEgis is a leading global organisation in architecture, consulting, construction engineering, operations and mobility services. We partner with clients to design, deliver and operate smarter infrastructure and places that respond to the world’s evolving needs.\nWith more than 22,000 employees worldwide, we combine global capability with strong local insight. Our multidisciplinary expertise enables us to deliver innovative, practical and sustainable solutions that help build more balanced, resilient communities.\nAt Egis, you’ll be part of a business shaping the future of cities, transport, energy and the built environment, creating lasting impact where it matters most.\nJob Description\nAs a Civil Engineer within our Urban Development team, you will focus on delivering comprehensive design and documentation for land development and civil infrastructure projects. \nYou will ",
+   "key_lines": [
+    "- Work closely with the other members of the Urban Development team and sub-consultants",
+    "Qualifications",
+    "Ideally, you will have a minimum of 5+ years’ experience as a civil engineer within a consultancy environment with demonstrated knowledge of land development projects local to ACT. In addition, you will also have:",
+    "- Tertiary qualifications in Civil Engineering",
+    "- Valid full drivers license",
+    "- Design of multi-disciplinary projects using 12D and Autocad",
+    "APPLY NOW."
+   ]
+  },
+  {
+   "id": "94929502",
+   "source": "seek",
+   "title": "Project Engineer - Civil",
+   "company": "UGL CPB Humelink West",
+   "location": "Wagga Wagga, Wagga Wagga & Riverina NSW",
+   "url": "https://www.seek.com.au/job/94929502",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-28T22:51:53.786Z",
+   "expires_at": "2026-10-29T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": " UGL and CPB Contractors are recruiting a Project Engineer Civil to join the team on the Humelink West Project ",
+   "opening": "HumeLink West Project\nTwo CIMIC Group companies, UGL and CPB Contractors have been selected by Transgrid to deliver the 130km western section of the HumeLink high voltage electricity transmission project.\nHumeLink is a new 500kV transmission project which will connect Wagga Wagga, Maragle and Bannaby in regional NSW that will significantly increase the capacity of the electricity network in Australia’s eastern states. HumeLink is one of Australia’s largest energy infrastructure projects, with about 365kms of proposed new transmission lines and a range of other new and upgraded infrastructure.\nThe HumeLink West scope of works, worth $1.4bn, includes delivery of new 500kV double circuit transmission lines spanning 130kms from Wagga Wagga Substation to a new Substation at Gugaa, the Interface Point with HumeLink East near Gundagai and a new substation at Maragle in the Snowy Mountains for f",
+   "key_lines": [
+    "•    Liaise with subcontractors to ensure job is constructed to the technical, quality and customer requirements",
+    "The following qualifications and experience are highly desired, but if you don’t tick all the boxes you could still be a perfect fit for this role. Please apply, all applications will be considered.",
+    "•    Civil Engineering Qualification",
+    "•    Significant engineering experience throughout, design, construction and commissioning on Brownfields and Greenfields projects.",
+    "The successful candidate will be required to hold a current Construction Industry Induction Card (White Card or equivalent) and undergo a medical assessment (including drug and alcohol testing) prior to commencement.",
+    "Where applicable, evidence of tertiary qualifications and proof of right to work will be required prior to successful appointment.",
+    "We are an Equal Opportunity Employer. We support women in construction, Indigenous advancement and participation and encourage people of all cultural backgrounds to apply."
+   ]
+  },
+  {
+   "id": "94930821",
+   "source": "seek",
+   "title": "Cadet Building Certifier / Engineering Graduate",
+   "company": "Project BA",
+   "location": "Noosaville, Sunshine Coast QLD",
+   "url": "https://www.seek.com.au/job/94930821",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-29T00:10:31.900Z",
+   "expires_at": "2026-10-29T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "Do you have a current Australian driver's licence?",
+    "How far are you willing to travel for work?"
+   ],
+   "summary": "Launch your building certification career with structured development, mentoring and clear path to professional certification.",
+   "opening": "About the role\nProject BA is seeking a Cadet Building Certifier / Engineering Graduate to join our growing certification team. This is an exciting opportunity for a recent engineering graduate or someone early in their career to develop professional expertise in building certificationwithin the construction industry. This is a full-time position based in Noosaville, QLD, where you will work alongside experienced professionals to gain practical knowledge and contribute to the delivery of quality building certification services.\nThis role is pivotal in supporting our building certification operations and offers a structured pathway towards professional development and qualification in building certification.\nKey responsibilities\n- Assist with building inspections and certification processes under the guidance of senior building certifiers\n- Prepare detailed reports and documentation relate",
+   "key_lines": [
+    "Project BA is seeking a Cadet Building Certifier / Engineering Graduate to join our growing certification team. This is an exciting opportunity for a recent engineering graduate or someone early in their career to develop professional expertise in building certificationwithin the construction industry. This is a full-time position based in Noosaville, QLD, where you will work alongside experienced professionals to gain practical knowledge and contribute to the delivery of quality building certification services.",
+    "This role is pivotal in supporting our building certification operations and offers a structured pathway towards professional development and qualification in building certification.",
+    "- Assist with the interpretation and application of building codes, standards and regulatory requirements",
+    "- Recent engineering graduate or equivalent qualification in a related discipline",
+    "- Full driving licence and willingness to travel to various sites across Queensland",
+    "At Project BA, we are committed to supporting the professional growth and wellbeing of our team. We offer a structured graduate development programme with mentoring and training support to help you progress towards professional certification. We provide a competitive salary package, ongoing professional development opportunities, and a collaborative work environment where your contributions are valued. We believe in fostering a supportive workplace culture that encourages innovation and continuous learning. Our team benefits from access to industry training and clear career progression pathways within our expanding business.",
+    "Project BA is a respected surveying and building certification firm operating within the construction industry. We pride ourselves on delivering high-quality building certification services to clients across Queensland. Our team comprises experienced professionals dedicated to maintaining the highest standards of compliance and service delivery. We are committed to fostering a culture of excellence, professional integrity, and continuous improvement. As we grow, we are seeking talented individuals to join us and contribute to our mission of providing trusted, expert building certification and surveying solutions to the construction sector.",
+    "Apply now",
+    "If you are an engineering graduate or early-career professional ready to launch your career in building certification, we would like to hear from you. Please submit your CV, academic transcripts, and a covering letter outlining your interest in this role and your career aspirations within the surveying profession."
+   ]
+  },
+  {
+   "id": "94931344",
+   "source": "seek",
+   "title": "Project Engineer",
+   "company": "McMahon Services",
+   "location": "Dry Creek, Adelaide SA",
+   "url": "https://www.seek.com.au/job/94931344",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-29T00:32:10.798Z",
+   "expires_at": "2026-10-29T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Take the next step in your engineering career and help deliver one of South Australia’s most significant infrastructure projects.",
+   "opening": "McMahon Services is looking for a Project Engineer – Civil & Infrastructure to join our Civil & Infrastructure team in Adelaide.\nThis is an exciting opportunity to be part of one of South Australia’s largest and most significant infrastructure projects, working alongside experienced Project Managers, Senior Project Engineers and construction professionals.\nYou’ll take ownership of key areas of project delivery and gain exposure across construction planning, procurement, commercial management, technical coordination and site delivery.\nWe’re looking for a Project Engineer who brings strong civil construction fundamentals, communicates well and enjoys being closely involved in project delivery.\nExperience across water, sewer, drainage or underground services will be highly regarded, but we’re equally interested in Project Engineers from broader civil and infrastructure backgrounds.\nAbout Mc",
+   "key_lines": [
+    "This is an exciting opportunity to be part of one of South Australia’s largest and most significant infrastructure projects, working alongside experienced Project Managers, Senior Project Engineers and construction professionals.",
+    "We’re looking for a Project Engineer who brings strong civil construction fundamentals, communicates well and enjoys being closely involved in project delivery.",
+    "Experience across water, sewer, drainage or underground services will be highly regarded, but we’re equally interested in Project Engineers from broader civil and infrastructure backgrounds.",
+    "Our Civil & Infrastructure team delivers a diverse range of projects across earthworks, roads, drainage, utilities and complex infrastructure, supported by experienced project, construction and commercial professionals.",
+    "You’ll also work closely with Supervisors and site teams, giving you hands-on exposure to construction delivery and the opportunity to see your work progress from planning through to completion.",
+    "- Support safety, environmental and quality requirements across allocated works.",
+    "- Work closely with Supervisors and site teams to resolve technical and construction issues.",
+    "- Tertiary qualification in Civil Engineering or a related discipline.",
+    "- Previous experience as a Project Engineer or in a similar project delivery role within civil construction or infrastructure.",
+    "- Understanding of quality assurance, safety and environmental requirements within construction.",
+    "- Experience coordinating subcontractors, suppliers and project activities.",
+    "- Experience using project management systems such as InEight, Aconex, Procore or similar.",
+    "- Current White Card and Driver’s Licence.",
+    "- Ability to meet relevant project and site access requirements."
+   ]
+  },
+  {
+   "id": "94930776",
+   "source": "seek",
+   "title": "Junior Assistant Production Estimator",
+   "company": "Thomas Paul Constructions Pty Ltd",
+   "location": "Arundel, Gold Coast QLD",
+   "url": "https://www.seek.com.au/job/94930776",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-29T00:07:02.541Z",
+   "expires_at": "2026-10-29T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?"
+   ],
+   "summary": "Assistant Production Estimator supporting estimating function for construction projects.",
+   "opening": "About the role\nThis is an exciting opportunity to join the dynamic team at Thomas Paul Constructions QLD as a Junior Assistant Production Estimator. In this full-time position based in Arundel, Queensland, you will play a crucial role in supporting the estimating function and contributing to the overall success of construction projects.\nKey responsibilities\n- Assisting with the preparation of detailed cost estimates for a variety of construction projects\n- Gathering and analysing data from various sources to develop accurate take offs and cost breakdowns\n- Collaborating with project managers, site supervisors, and subcontractors to ensure estimates are aligned with project requirements\n- Maintaining detailed records and documentation throughout the estimating process\n- Supporting the senior estimator with administrative tasks and other duties as required\n- Negotiating rates with supplier",
+   "key_lines": [
+    "This is an exciting opportunity to join the dynamic team at Thomas Paul Constructions QLD as a Junior Assistant Production Estimator. In this full-time position based in Arundel, Queensland, you will play a crucial role in supporting the estimating function and contributing to the overall success of construction projects.",
+    "- Collaborating with project managers, site supervisors, and subcontractors to ensure estimates are aligned with project requirements",
+    "- Supporting the senior estimator with administrative tasks and other duties as required",
+    "- Relevant tertiary qualification in Construction Management, Quantity Surveying, or a related field",
+    "Thomas Paul Constructions is a leading construction company with a reputation for delivering high-quality projects across the Residential sector. With a focus on sustainable practices and innovation, we strive to be the builder of choice for our clients. Our team of experienced professionals is dedicated to exceeding expectations and contributing to the growth of the community."
+   ]
+  },
+  {
+   "id": "94929978",
+   "source": "seek",
+   "title": "Junior Estimator",
+   "company": "Premier Scaffolds",
+   "location": "Virginia, Brisbane QLD",
+   "url": "https://www.seek.com.au/job/94929978",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-28T23:20:31.950Z",
+   "expires_at": "2026-10-29T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?"
+   ],
+   "summary": "Junior Estimator role with full training provided, no experience necessary.",
+   "opening": "Premier Scaffolds Brisbane is seeking a Junior Estimator to join our growing team full-time in-office at Virginia, North Brisbane.\nNo construction or scaffolding experience required, we have all the tools to help you learn and grow.\nAbout the role\nAs a Junior Estimator, you will work closely with our estimating and operations teams to prepare quotes and estimates for scaffolding projects across South East Queensland.\nKey responsibilities\n- Assisting with preparing scaffold estimates and quotations\n- Reviewing plans, drawings and project requirements\n- Calculating scaffold quantities and requirements\n- Communicating with clients, suppliers and internal teams\n- Entering and maintaining project information in our systems\n- Following up quotes and assisting with general estimating duties\n- Learning the scaffolding industry and estimating processes through hands-on training\nAbout you\n- Has a ",
+   "key_lines": [
+    "Premier Scaffolds Brisbane is seeking a Junior Estimator to join our growing team full-time in-office at Virginia, North Brisbane.",
+    "No construction or scaffolding experience required, we have all the tools to help you learn and grow.",
+    "As a Junior Estimator, you will work closely with our estimating and operations teams to prepare quotes and estimates for scaffolding projects across South East Queensland.",
+    "- Reviewing plans, drawings and project requirements",
+    "- Calculating scaffold quantities and requirements",
+    "- No previous scaffolding or estimating experience is required"
+   ]
+  },
+  {
+   "id": "94925736",
+   "source": "seek",
+   "title": "Junior Project Coordinator (Residential)",
+   "company": "ARQO Building Pty Ltd",
+   "location": "Norman Park, Brisbane QLD",
+   "url": "https://www.seek.com.au/job/94925736",
+   "work_type": "Full time",
+   "salary": "$60,000 – $70,000 per year",
+   "listed_at": "2026-09-28T12:51:54.016Z",
+   "expires_at": "2026-10-28T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a project coordinator?",
+    "Have you completed a qualification in construction management?",
+    "Do you have experience using Microsoft Excel?",
+    "Do you own or have regular access to a car?",
+    "What's your highest level of education?",
+    "Do you have a current Australian driver's licence?"
+   ],
+   "summary": "A Brisbane builder built on strong systems and real career growth. Join us as a Junior Project Coordinator supporting our PMs day to day.",
+   "opening": "About ARQO Building\nARQO Building is a Brisbane-based construction company delivering high-quality projects across five specialised divisions — Signature (architectural builds), Apartments & Interiors, Medical (healthcare fitouts), Projects (commercial), and Priority (fast-turnaround works). We're a growing business built on strong systems and a culture of ownership — where people are trusted to run things properly and given a real path to grow.\nThe Opportunity\nWe're looking for a Junior Project Coordinator to work alongside our Project Managers and take the admin load off their plate - someone reliable, organised, and proactive who wants to learn the construction industry from the ground up while making a real, immediate difference to how our jobs run.\nOur PMs are busier than ever, which is a good problem to have — but it means the admin that keeps jobs moving smoothly (contracts, sched",
+   "key_lines": [
+    "We're looking for a Junior Project Coordinator to work alongside our Project Managers and take the admin load off their plate - someone reliable, organised, and proactive who wants to learn the construction industry from the ground up while making a real, immediate difference to how our jobs run.",
+    "This is a genuine stepping stone into a Project Management or Site Supervision career, with hands-on exposure across multiple project types and direct mentorship from experienced PMs.",
+    "- Own reliable transport and a current driver's licence (site visits required)",
+    "- Prior admin, customer service, or coordination experience is a plus — construction experience is a bonus, not a requirement",
+    "- Direct mentorship from experienced PMs across five different divisions of work",
+    "- Exposure to a real variety of project types — medical fitouts, apartments, high-end residential, and commercial"
+   ]
+  },
+  {
+   "id": "94916561",
+   "source": "seek",
+   "title": "Estimator/ Project Coordinator",
+   "company": "PTG Commercial glazing",
+   "location": "Molendinar, Gold Coast QLD",
+   "url": "https://www.seek.com.au/job/94916561",
+   "work_type": "Full time",
+   "salary": "$100,000 – $115,000 per year",
+   "listed_at": "2026-09-28T06:16:17.658Z",
+   "expires_at": "2026-10-28T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a project coordinator?",
+    "How much notice are you required to give your current employer?",
+    "How many years' experience do you have as a Construction Estimator?",
+    "How many years of experience do you have in the Glazing Industry?"
+   ],
+   "summary": "More than estimating – build client relationships, secure new work and help coordinate commercial glazing projects from tender to delivery.",
+   "opening": "PTG Commercial Glazing is looking for an experienced an experienced estimator with a strong understanding of the commercial construction industry to join our Gold Coast team.\nThis is a varied role suited to someone who enjoys the commercial side of construction, building strong client relationships and being involved in projects beyond simply preparing a quote.\nYou’ll be involved from the initial tender stage through to project award and coordination, working across a range of projects throughout Queensland and New South Wales.\nWork closely with builders, shopfitters, suppliers and our internal team to identify opportunities, secure new work and help ensure a smooth transition from estimating through to procurement, fabrication and installation.\nAbout the Role\nYour responsibilities will include:\n- Reviewing architectural drawings, specifications and tender documentation\n- Preparing accur",
+   "key_lines": [
+    "PTG Commercial Glazing is looking for an experienced an experienced estimator with a strong understanding of the commercial construction industry to join our Gold Coast team.",
+    "Work closely with builders, shopfitters, suppliers and our internal team to identify opportunities, secure new work and help ensure a smooth transition from estimating through to procurement, fabrication and installation.",
+    "- Preparing and submitting tenders within required deadlines",
+    "- Working with clients to identify suitable products, systems and solutions where required",
+    "- Previous estimating experience within commercial glazing, aluminium windows and doors, shopfitting, construction or a similar industry",
+    "- Experience with quantity take-offs, estimating, quoting and tender preparation",
+    "- V6 experience highly regarded",
+    "- Experience across estimating, sales, business development or project coordination will be highly regarded",
+    "Our work spans commercial shopfronts, architectural glazing and custom glass and aluminium packages. With our own fabrication facility and experienced installation teams, we work alongside builders, shopfitters and construction companies to deliver projects from initial tender through to installation.",
+    "If you have commercial construction or glazing experience and enjoy the combination of estimating, client relationships and project coordination, we’d love to hear from you."
+   ]
+  },
+  {
+   "id": "94912207",
+   "source": "seek",
+   "title": "Formwork Team Leader - Engineering",
+   "company": "Acrow Formwork & Scaffolding Pty Ltd",
+   "location": "Stapylton, Gold Coast QLD",
+   "url": "https://www.seek.com.au/job/94912207",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-28T03:48:45.161Z",
+   "expires_at": "2026-10-28T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as an Engineering Team Leader?"
+   ],
+   "summary": "Diverse role servicing major Queensland projects",
+   "opening": "The Opportunity\nWe are seeking an experienced Formwork Team Leader to lead the engineering design, drafting and certification of formwork projects across Queensland.\nThis is a senior technical and leadership role suited to a Chartered Structural Engineer with substantial hands-on experience designing and certifying formwork, falsework and shoring systems.\nYou will lead a specialist engineering team while remaining actively involved in complex engineering work — reviewing project requirements, developing solutions, undertaking structural analysis, reviewing designs and providing engineering certification.\nOur formwork projects regularly involve challenging geometries, significant loads, unusual support conditions and bespoke formwork arrangements. The role offers the opportunity to work on interesting, technically demanding building and civil infrastructure projects throughout Queensland.",
+   "key_lines": [
+    "We are seeking an experienced Formwork Team Leader to lead the engineering design, drafting and certification of formwork projects across Queensland.",
+    "This is a senior technical and leadership role suited to a Chartered Structural Engineer with substantial hands-on experience designing and certifying formwork, falsework and shoring systems.",
+    "You will lead a specialist engineering team while remaining actively involved in complex engineering work — reviewing project requirements, developing solutions, undertaking structural analysis, reviewing designs and providing engineering certification.",
+    "- Review Revit models, formwork layouts, engineering drawings and design documentation",
+    "- Ensure designs comply with applicable Australian Standards, Codes of Practice and safety-in-design requirements",
+    "- Liaise directly with clients regarding engineering requirements and technical solutions",
+    "- Degree in Civil or Structural Engineering",
+    "- Significant experience designing and certifying formwork, falsework and shoring systems – essential",
+    "- Professional experience using Autodesk REVIT & Autodesk AutoCAD",
+    "- Strong experience using structural analysis / FEA software such as SpaceGass, Microstran, RSTAB or Strand7",
+    "- Experience leading, mentoring or technically supervising engineers, designers and drafters",
+    "The position combines technical engineering, design and drafting coordination, project leadership and people leadership, while allowing you to remain closely involved in the complex engineering work.",
+    "We offer a competitive salary package based on experience, strong technical support and the opportunity to work with a large national engineering team.",
+    "If you are an experienced Chartered Structural Engineer with specialist formwork design experience and are ready to lead technically challenging projects and a high-performing engineering and drafting team, we would like to hear from you."
+   ]
+  },
+  {
+   "id": "94911955",
+   "source": "seek",
+   "title": "Industrial Access Scaffold Team Leader - Engineering",
+   "company": "Acrow Formwork & Scaffolding Pty Ltd",
+   "location": "Revesby, Sydney NSW",
+   "url": "https://www.seek.com.au/job/94911955",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-28T03:42:15.108Z",
+   "expires_at": "2026-10-28T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as an Engineering Team Leader?"
+   ],
+   "summary": "Dynamic role working across major projects",
+   "opening": "The Opportunity\nWe are seeking an experienced Industrial Access Scaffold Team Leader to lead the engineering design and certification of complex industrial access scaffolding projects.\nThis is a senior technical and leadership role suited to a Chartered Structural Engineer with substantial hands-on experience designing and certifying industrial access scaffolding systems.\nYou will lead a specialist engineering team while remaining actively involved in complex engineering work — reviewing project requirements, developing solutions, undertaking structural analysis, reviewing designs and providing engineering certification.\nOur industrial access projects regularly involve challenging geometries, significant loads, unusual support conditions and bespoke scaffold arrangements. The role offers the opportunity to work on interesting, technically demanding projects across major industrial sites ",
+   "key_lines": [
+    "We are seeking an experienced Industrial Access Scaffold Team Leader to lead the engineering design and certification of complex industrial access scaffolding projects.",
+    "This is a senior technical and leadership role suited to a Chartered Structural Engineer with substantial hands-on experience designing and certifying industrial access scaffolding systems.",
+    "You will lead a specialist engineering team while remaining actively involved in complex engineering work — reviewing project requirements, developing solutions, undertaking structural analysis, reviewing designs and providing engineering certification.",
+    "- Develop practical engineering solutions for complex site constraints and unusual access requirements",
+    "- Review Revit models, engineering drawings and design documentation",
+    "- Ensure designs comply with applicable Australian Standards, Codes of Practice and safety-in-design requirements",
+    "- Liaise directly with clients regarding engineering requirements and technical solutions",
+    "- Chartered Professional Engineer (CPEng) status – essential",
+    "- Degree in Civil or Structural Engineering",
+    "- Significant experience designing and certifying industrial access scaffolding systems – essential",
+    "- Professional Autodesk REVIT experience",
+    "- Strong experience using structural analysis / FEA software such as SpaceGass, Microstran, RSTAB or Strand7",
+    "- Experience leading, mentoring or technically supervising engineers",
+    "The position combines technical engineering, project leadership and people leadership, while allowing you to remain closely involved in the complex engineering work."
+   ]
+  },
+  {
+   "id": "94894829",
+   "source": "seek",
+   "title": "Engineering Officer - Masig Island",
+   "company": "Torres Strait Island Regional Council",
+   "location": "Cairns, Cairns & Far North QLD",
+   "url": "https://www.seek.com.au/job/94894829",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-26T04:40:29.000Z",
+   "expires_at": "2026-10-09T12:00:00.000Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Torres Strait Island Regional Council is seeking motivated and reliable Engineering Officer to join our Engineering Services team. This is an...",
+   "opening": "Join Torres Strait Island Regional Council (TSIRC) and make a difference in your community!\nWhat we offer:\n- Full-Time Permanent (38 hours per week)\n- Based at Division 12, Masig Island \n- 6 Weeks Annual Leave (FTE) with 17.5% leave loading \n- Additional TSIRC public holidays\n- Opportunities for professional growth and development\n- Uniforms\nMake a Difference in Your Community\nTorres Strait Island Regional Council is seeking motivated and reliable Engineering Officer to join our Engineering Services team. This is an exciting opportunity to play a hands-on role in maintaining and improving essential community infrastructure that supports the health, safety, and wellbeing of our region.\nAbout the Role\nAs an Engineering Officer, you will contribute to the delivery of high-quality infrastructure services across the Torres Strait region. You will be involved in a diverse range of activities i",
+   "key_lines": [
+    "Torres Strait Island Regional Council is seeking motivated and reliable Engineering Officer to join our Engineering Services team. This is an exciting opportunity to play a hands-on role in maintaining and improving essential community infrastructure that supports the health, safety, and wellbeing of our region.",
+    "- Mandatory Current C class, Type Provisional or higher Queensland Drivers licence (Open) and not expired is esssential. No Learner's Licence.",
+    "- Practical experience in civil works, maintenance, or infrastructure services (desirable).",
+    "- Ability to operate plant and equipment safely (tickets/licences highly regarded).",
+    "- Contribute directly to essential services in your community.",
+    "If you are ready to take pride in maintaining vital community infrastructure and enjoy working in a dynamic outdoor environment, we encourage you to apply.",
+    "Applying:",
+    "Candidates will need to download the Position Description and provide a cover letter and an updated resume. In your cover letter address how your knowledge, skills, experience, personal attributes, and qualifications are most relevant to the position by Friday, 9 October"
+   ]
+  },
+  {
+   "id": "94894828",
+   "source": "seek",
+   "title": "Engineering Officer - Boigu (Casual)",
+   "company": "Torres Strait Island Regional Council",
+   "location": "Cairns, Cairns & Far North QLD",
+   "url": "https://www.seek.com.au/job/94894828",
+   "work_type": "Casual/Vacation",
+   "salary": null,
+   "listed_at": "2026-09-26T04:40:24.000Z",
+   "expires_at": "2026-10-09T12:00:00.000Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Torres Strait Island Regional Council is seeking a motivated and reliable Engineering Officer to join our Engineering Services team at Division 1,...",
+   "opening": "Join Torres Strait Island Regional Council (TSIRC) and make a difference in your community!\nWhat we offer:\n- Casual\n- Based on Division 1, Boigu Island \n- Additional TSIRC public holidays\n- Opportunities for professional growth and development\n- Uniforms\nMake a Difference in Your Community\nTorres Strait Island Regional Council is seeking a motivated and reliable Engineering Officer to join our Engineering Services team at Division 1, Boigu. This is an exciting opportunity to play a hands-on role in maintaining and improving essential community infrastructure that supports the health, safety, and wellbeing of our region.\nAbout the Role\nAs an Engineering Officer, you will contribute to the delivery of high-quality infrastructure services across the Torres Strait region. You will be involved in a diverse range of activities including civil works, water and wastewater operations, waste manag",
+   "key_lines": [
+    "Torres Strait Island Regional Council is seeking a motivated and reliable Engineering Officer to join our Engineering Services team at Division 1, Boigu. This is an exciting opportunity to play a hands-on role in maintaining and improving essential community infrastructure that supports the health, safety, and wellbeing of our region.",
+    "- Mandatory Current C class, Type Provisional or higher Queensland Drivers licence (Open) and not expired is esssential",
+    "- Practical experience in civil works, maintenance, or infrastructure services (desirable).",
+    "- Ability to operate plant and equipment safely (tickets/licences highly regarded).",
+    "- Contribute directly to essential services in your community.",
+    "If you are ready to take pride in maintaining vital community infrastructure and enjoy working in a dynamic outdoor environment, we encourage you to apply.",
+    "Applying:",
+    "Candidates will need to download the Position Description and provide a cover letter and an updated resume. In your cover letter address how your knowledge, skills, experience, personal attributes, and qualifications are most relevant to the position by Thursday Friday, 9 October 2026."
+   ]
+  },
+  {
+   "id": "94930917",
+   "source": "seek",
+   "title": "Building Estimator",
+   "company": "Ken Hall Plumbers",
+   "location": "Kent Town, Adelaide SA",
+   "url": "https://www.seek.com.au/job/94930917",
+   "work_type": "Full time",
+   "salary": "Competitive Salary + Vehicle + Incentives",
+   "listed_at": "2026-09-29T00:14:01.334Z",
+   "expires_at": "2026-10-29T00:14:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Step off the tools or take your estimating career further with great earning potential, a company vehicle, varied projects and real career growth.",
+   "opening": "Building Estimator – Take Your Career to the Next Level! \nAt Ken Hall, we don’t just offer jobs. We build long-term careers for skilled professionals who are ready to step off the tools and use their expertise in a new way.\nAre you a builder, carpenter or insurance assessor who knows the trade inside out and wants to transition into an estimating role? Maybe you are already an estimator but want to work for a company that values your skills, rewards your expertise and offers real career growth. If that sounds like you, this could be the perfect opportunity.\nWe are looking for a performance-focused Building Estimator who is passionate about scoping, estimating and setting projects up for success. In this role, you will work closely with customers to provide tailored building solutions, ensuring every job is accurately assessed, professionally quoted and set up for smooth execution.  \nWith",
+   "key_lines": [
+    "We are looking for a performance-focused Building Estimator who is passionate about scoping, estimating and setting projects up for success. In this role, you will work closely with customers to provide tailored building solutions, ensuring every job is accurately assessed, professionally quoted and set up for smooth execution.",
+    "✅ Diverse residential repair and renovation projects",
+    "✔ Trade-qualified builder or carpenter with hands-on experience",
+    "✔ Proven estimating and quoting experience (preferred)",
+    "✔ Strong understanding of building codes, safety and compliance requirements ✔ Strong attention to detail and the ability to prepare clear, accurate scopes of work"
+   ]
+  },
+  {
+   "id": "94930542",
+   "source": "seek",
+   "title": "Project Engineer",
+   "company": "CGC Recruitment",
+   "location": "Parramatta & Western Suburbs, Sydney NSW",
+   "url": "https://www.seek.com.au/job/94930542",
+   "work_type": "Full time",
+   "salary": "$650 - $800 + Super per day",
+   "listed_at": "2026-09-28T23:54:14.148Z",
+   "expires_at": "2026-10-28T22:54:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Project Engineer required for Marine works on a structures project. ASAP start, Western Sydney.",
+   "opening": "Project Engineer - Marine Works | TfNSW Road Project | Western Sydney\nOur client, a well-established civil contractor, is currently delivering a major TfNSW road project in Western Sydney and is looking for a Project Engineer to join the team on a temporary basis.\nThis role is centred around managing a marine subcontractor, so subcontractor management experience is the key requirement we're looking for. Exposure to sheet piling and marine works will be highly regarded, but we understand candidates with direct marine experience can be hard to find — a strong track record managing subcontractors in a civil environment is what matters most.\nThe role:\n - 3-6 month temporary assignment, ASAP start\n - Based in Western Sydney\n - Managing a marine subcontractor across scope, program and delivery\n - Working alongside an experienced project team on a high-profile TfNSW road project\n What you'll ne",
+   "key_lines": [
+    "This role is centred around managing a marine subcontractor, so subcontractor management experience is the key requirement we're looking for. Exposure to sheet piling and marine works will be highly regarded, but we understand candidates with direct marine experience can be hard to find — a strong track record managing subcontractors in a civil environment is what matters most.",
+    "- Working alongside an experienced project team on a high-profile TfNSW road project",
+    "- Proven experience managing subcontractors on civil infrastructure projects",
+    "- Marine experience and/or exposure to sheet piling highly regarded but not essential",
+    "- Tertiary qualification in Civil Engineering (or equivalent experience)",
+    "How to Apply",
+    "You can email your resume to william.gardner@cgcrecruitment.com or call 0435935377 for more information."
+   ]
+  },
+  {
+   "id": "94929184",
+   "source": "seek",
+   "title": "Junior Engineer",
+   "company": "CW Products",
+   "location": "Murray Bridge, Riverland & Murray Mallee SA",
+   "url": "https://www.seek.com.au/job/94929184",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-28T22:26:16.178Z",
+   "expires_at": "2026-10-29T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Have you completed a qualification in engineering?",
+    "Do you have Technical Troubleshooting experience?",
+    "Which of the following statements best describes your right to work in Australia?",
+    "Which of the following CAD software do you have experience with?",
+    "Do you have a current Australian driver's licence?"
+   ],
+   "summary": "Are you Committed, Professional and Reliable, with experience in a manufacturing or production environment? Apply to join our friendly team today!",
+   "opening": "CW Products is one of Australia's leading manufacturers and wholesale suppliers of quality roller shutter products. With state-of-the-art manufacturing facilities and over 40 years of manufacturing experience, we take pride in supplying the Australian market with high-quality, innovative products.\nBased at our Murray Bridge manufacturing facility, we are seeking a Junior Engineer to join our team. This is an excellent opportunity for a graduate or early-career Mechanical or Mechatronic Engineer looking to build practical engineering experience across product design, manufacturing, testing and project delivery.\nReporting to the Project Manager, you will work across the full engineering lifecycle, from concept development and detailed design through to testing, production support, installation and commissioning. You will receive guidance and mentoring while progressively taking greater own",
+   "key_lines": [
+    "CW Products is one of Australia's leading manufacturers and wholesale suppliers of quality roller shutter products. With state-of-the-art manufacturing facilities and over 40 years of manufacturing experience, we take pride in supplying the Australian market with high-quality, innovative products.",
+    "Based at our Murray Bridge manufacturing facility, we are seeking a Junior Engineer to join our team. This is an excellent opportunity for a graduate or early-career Mechanical or Mechatronic Engineer looking to build practical engineering experience across product design, manufacturing, testing and project delivery.",
+    "Reporting to the Project Manager, you will work across the full engineering lifecycle, from concept development and detailed design through to testing, production support, installation and commissioning. You will receive guidance and mentoring while progressively taking greater ownership of engineering projects and technical outcomes as your experience develops.",
+    "- Assist with engineering change control and product compliance requirements",
+    "Experience & Skills:",
+    "- Graduate to approximately 2–3 years' relevant engineering experience",
+    "- Experience with 3D CAD software, with SolidWorks preferred; Inventor, NX or similar experience also considered",
+    "Qualifications:",
+    "- Bachelor's degree in Mechanical Engineering, Mechatronic Engineering or a closely related engineering discipline",
+    "- Current driver's licence",
+    "- Willingness to travel within Australia and overseas where required",
+    "If you are a motivated graduate or early-career engineer looking for a hands-on role where you can develop your skills across design, manufacturing and project engineering, select 'APPLY NOW' or forward your resume to Jessica Nixon at j.nixon@cwproducts.com.au",
+    "Previous Applicants need not apply"
+   ]
+  },
+  {
+   "id": "94926857",
+   "source": "seek",
+   "title": "estimator",
+   "company": "Bonoli plasterboard",
+   "location": "Adelaide SA",
+   "url": "https://www.seek.com.au/job/94926857",
+   "work_type": "Full time",
+   "salary": "$70,000 – $100,000 per year",
+   "listed_at": "2026-09-28T14:48:06.141Z",
+   "expires_at": "2026-10-29T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as an Estimator?",
+    "How much notice are you required to give your current employer?"
+   ],
+   "summary": "Construction Estimator with exposure across plasterboard contracting and broader construction projects.",
+   "opening": "About the role\nBonoli Group is an Adelaide-based construction group with operations across plasterboard contracting, residential construction and property development. This position offers exposure beyond a single trade, with the opportunity to work across both plasterboard contracting operations and broader construction and development projects.\nKey responsibilities\n- Review architectural, engineering and construction drawings\n- Complete quantity take-offs and prepare detailed cost estimates\n- Prepare quotations and tender submissions\n- Review project specifications and scopes of work\n- Obtain and compare subcontractor and supplier quotations\n- Prepare and track variations\n- Assist with construction cost planning and project budgets\n- Identify scope gaps, omissions and potential commercial risks\n- Liaise with builders, subcontractors, suppliers and internal project teams\n- Maintain esti",
+   "key_lines": [
+    "Bonoli Group is an Adelaide-based construction group with operations across plasterboard contracting, residential construction and property development. This position offers exposure beyond a single trade, with the opportunity to work across both plasterboard contracting operations and broader construction and development projects.",
+    "- Previous estimating experience within the Australian construction industry",
+    "- Experience with quantity take-offs, tendering and cost estimating",
+    "- A current driver's licence",
+    "Bonoli Group is an Adelaide-based construction group with operations across plasterboard contracting, residential construction and property development. The plasterboard division delivers residential, multi-residential and selected commercial projects across South Australia, supported by multiple fixing and finishing crews. Alongside contracting operations, the Group is also involved in residential development and construction projects."
+   ]
+  },
+  {
+   "id": "94919093",
+   "source": "seek",
+   "title": "Estimator",
+   "company": "Atom Resources",
+   "location": "Liverpool, Sydney NSW",
+   "url": "https://www.seek.com.au/job/94919093",
+   "work_type": "Full time",
+   "salary": "$170,000",
+   "listed_at": "2026-09-28T07:21:35.522Z",
+   "expires_at": "2026-10-28T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Estimator",
+   "opening": "🚧 Estimator – Civil Utilities & ASP Electrical | Sydney ⚡\nReady to price some of Sydney’s most in-demand infrastructure work?\nWe’re looking for a sharp Estimator with experience across civil utilities and ASP electrical projects to join a growing contractor with a strong pipeline of secured work across power, water, and subdivisions.\n🔧 What you’ll be doing\n - Pricing civil + electrical utility projects across Sydney\n - Preparing tenders, take-offs, and cost plans\n - Working on ASP (Level 1 & 2) electrical scopes\n - Engaging subcontractors + suppliers to win competitive bids\n - Identifying risks, opportunities, and smarter ways to deliver\n👷 What you bring\n - Experience estimating civil, utilities, or electrical infrastructure projects\n - Solid understanding of trenching, conduits, pits, cabling & subdivisions\n - ASP project exposure (big advantage)\n - Strong commercial mindset + attention",
+   "key_lines": [
+    "We’re looking for a sharp Estimator with experience across civil utilities and ASP electrical projects to join a growing contractor with a strong pipeline of secured work across power, water, and subdivisions.",
+    "- Experience estimating civil, utilities, or electrical infrastructure projects",
+    "Apply now via email: darragh@atomresources.com.au"
+   ]
+  },
+  {
+   "id": "94916836",
+   "source": "seek",
+   "title": "Project Engineer",
+   "company": "Glencore",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/94916836",
+   "work_type": "Contract/Temp",
+   "salary": null,
+   "listed_at": "2026-09-28T06:22:45.340Z",
+   "expires_at": "2026-10-28T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Project Engineer role at Glencore Technology delivering projects across global mineral processing operations.",
+   "opening": "Project Engineer\nGlencore Technology\nBrisbane, Queensland, Australia\nRef. No. GT1634\nContract Type: Fixed Term (24-months)\nGlencore Technology (GT) delivers world leading mineral processing, leaching, electrolytic and smelting solutions to clients globally. Our products include the IsaMill™, Jameson Cell™, ISASMELT™, Albion Process™ and ISAKIDD™ technologies. We combine great technology with a small, dynamic team. We partner with clients to deliver solutions that combine process design, engineering design, training, commissioning, and ongoing support for the life of their projects.\nWe are seeking a skilled Project Engineer to join our Brisbane team. Reporting to the Senior Project Manager, you will be the single point of contact for minor vendor packages, overseeing preliminary engineering, detailed design, procurement, fabrication, QA/QC, testing, and delivery to site.\nYou will be respo",
+   "key_lines": [
+    "- Coordinate with multi-disciplinary teams to ensure design compliance with project requirements and standards.",
+    "- Bachelor’s degree in mechanical engineering or related discipline.",
+    "- 5+ years’ experience in minerals processing, oil & gas, EPCM, or other heavy industries.",
+    "- Experience with EPC contracts (highly regarded).",
+    "Applications close:  8am Monday 12 October 2026.",
+    "If you have any questions, please email gtrecruitment@glencore.com.au."
+   ]
+  },
+  {
+   "id": "94911393",
+   "source": "seek",
+   "title": "Estimator",
+   "company": "Sublime Aluminium & Glass",
+   "location": "Somersby, Gosford & Central Coast NSW",
+   "url": "https://www.seek.com.au/job/94911393",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-28T03:31:08.121Z",
+   "expires_at": "2026-10-28T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as an Estimator?",
+    "How many years' experience do you have as a Window and Door Estimator?"
+   ],
+   "summary": "We are looking for a proactive and detail-oriented Estimator to join our team full-time. Working on bespoke high end architectural projects.",
+   "opening": "About Us\nSublime Aluminium & Glass is a leading manufacturer of custom architectural aluminium and glass products. We proudly serve a network of top-tier builders and architects, delivering premium products with exceptional service. Our reputation is built on craftsmanship, reliability, and a commitment to excellence.\nAbout the Role\nWe are looking for a proactive and detail-oriented Estimator to join our team full-time.\nThe Estimator will play a key role in accurately assessing project costs, preparing quotations, and liaising with clients to ensure projects are delivered on time and on budget. The ideal candidate will have a strong background in estimating, with a solid understanding of aluminium and glass products and installation processes.\nKey Responsibilities\n- Prepare detailed quotations and tender submissions\n- Develop detailed cost analysis for each project\n- Source and obtain ma",
+   "key_lines": [
+    "- Previous experience in an estimating role within the aluminium windows, doors or construction industry.",
+    "- Experience with Alspec products and systems",
+    "- Experience using V6 estimating software is essential",
+    "- Full-time role with competitive salary (negotiable dependant on experience)"
+   ]
+  },
+  {
+   "id": "94910438",
+   "source": "seek",
+   "title": "Stone Estimator",
+   "company": "RecruitShop",
+   "location": "Dandenong South, Melbourne VIC",
+   "url": "https://www.seek.com.au/job/94910438",
+   "work_type": "Full time",
+   "salary": "EARN $110k - $130k + Super + Bonus",
+   "listed_at": "2026-09-28T03:04:29.676Z",
+   "expires_at": "2026-10-28T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Please select your current eligibility to live and work in Australia.",
+    "Please confirm which suburb you currently reside in. ",
+    "Please briefly describe your experience estimating tiling and stone jobs.",
+    "Have you had any hands-on or shop-floor exposure (e.g. CNC operation, working alongside stonemasons)?",
+    "Do you have at least 3 years' estimating experience working with tier 2 and/or tier 3 builders or contractors?",
+    "Please outline your availability to start in a new role. "
+   ],
+   "summary": "Company Vehicle Provided | Free On-Site Parking | Flexible Working Hours | Shape a Newly Created Role & Make It Your Own in a Small, Growing Business",
+   "opening": "- EARN $110,000 – $130,000 pa + Super + Bonus + Vehicle \n - Join a Reputable Melbourne Commercial Tiling & Stone Specialist\n - Full-Time Role | Flexible Hours | Immediate Start with Growing Team\n About The Company\n Our client is one of Melbourne's premier commercial tilers, run by a group of industry professionals with more than a decade of experience. They offer supply and install services across all commercial, industrial and domestic tiling, stone cladding and waterproofing.\n Operating under an integrated management system covering quality, safety and environmental standards, they deliver excellence in workmanship across tiling, stone cladding and hard landscaping with a proven track record across supply, design and installation. Their work spans a diverse range of projects including residential apartments, aged care facilities, shopping centres, high-end developments, institutions an",
+   "key_lines": [
+    "Our client is one of Melbourne's premier commercial tilers, run by a group of industry professionals with more than a decade of experience. They offer supply and install services across all commercial, industrial and domestic tiling, stone cladding and waterproofing.",
+    "Operating under an integrated management system covering quality, safety and environmental standards, they deliver excellence in workmanship across tiling, stone cladding and hard landscaping with a proven track record across supply, design and installation. Their work spans a diverse range of projects including residential apartments, aged care facilities, shopping centres, high-end developments, institutions and commercial offices.",
+    "- Minimum 3 years' experience estimating commercial tiling and stone packages for Tier 2 or Tier 3 builder projects in Australia",
+    "Apply today and don't miss out on starting this opportunity as soon as possible!"
+   ]
+  },
+  {
+   "id": "94910221",
+   "source": "seek",
+   "title": "Project Engineer - CBD",
+   "company": "Infinity Constructions Group Pty Ltd",
+   "location": "Sydney NSW",
+   "url": "https://www.seek.com.au/job/94910221",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-28T02:58:10.803Z",
+   "expires_at": "2026-10-28T01:58:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "We are looking for a passionate Project Engineer to join the team in Sydney on an $180 million commercial project.",
+   "opening": "We are looking for a passionate Project Engineer to join the team out in Sydney on a $180 million commercial build. We are looking for someone to work in a collaborative work environment in a team of high performers.\n Who are we?\n Infinity Constructions is a family-owned Tier 2 Builder who has been operating within Sydney and Melbourne for the last 34 years working across all sectors with projects valued up to $180 million.\n With having completed reputable and delivering exceptional projects, we continue to see growth within the business due to our loyal client base, as 83% of our projects are from repeat clients.\n What are we looking for?\n - 5 years' experience in a similar role working for a head contractor.\n - Degree in Construction Management, Engineering or equivalent.\n - Valid Construction White Card and First Aid Certification.\n - Strong understanding of large commercial construct",
+   "key_lines": [
+    "Infinity Constructions is a family-owned Tier 2 Builder who has been operating within Sydney and Melbourne for the last 34 years working across all sectors with projects valued up to $180 million.",
+    "- 5 years' experience in a similar role working for a head contractor.",
+    "- Degree in Construction Management, Engineering or equivalent.",
+    "- Ability to handle the administrative duties of position, including completion of required documents.",
+    "- Ability to priorities and close out issues to satisfaction of the stakeholders.",
+    "- Assist with the design and technical coordination of building services, including coordination with structural elements, architectural requirements and other building components.",
+    "- Ensure compliance with the Company’s WHS, Environmental and Quality policies, procedures and relevant legislative requirements.",
+    "- Undertake project coordination, documentation, reporting and other responsibilities consistent with skills, qualifications and experience as required."
+   ]
+  },
+  {
+   "id": "94907079",
+   "source": "seek",
+   "title": "Commercial Fitout Estimator",
+   "company": "Inovi Projects",
+   "location": "Silverwater, Sydney NSW",
+   "url": "https://www.seek.com.au/job/94907079",
+   "work_type": "Full time",
+   "salary": "$95,000 – $140,000 per year",
+   "listed_at": "2026-09-28T01:31:07.106Z",
+   "expires_at": "2026-10-28T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as an Estimator?",
+    "How much notice are you required to give your current employer?"
+   ],
+   "summary": "Lead the tender. Win the work. See it built. Join a 20-year design-and-build business where your estimates become projects you can point to.",
+   "opening": "About Inovi\nInovi has been designing and building commercial, industrial and fit out projects across NSW for more than 20 years. We’re a close-knit team based in Silverwater, and we’re known for accuracy, accountability and long-term client relationships\nAbout the role\nIn this full-time role, you will play a key part in our construction operations, preparing accurate and comprehensive cost estimates across a diverse range of projects. This is an excellent opportunity for a motivated professional looking to contribute to a growing company and take ownership of our tendering being involved right from the beginning of the project.\nKey responsibilities\n- Prepare detailed cost estimates for construction projects, including materials, labour, and equipment requirements\n- Analyse project specifications, drawings, and other relevant documents to identify all cost components\n- Collaborate with pr",
+   "key_lines": [
+    "Inovi has been designing and building commercial, industrial and fit out projects across NSW for more than 20 years. We’re a close-knit team based in Silverwater, and we’re known for accuracy, accountability and long-term client relationships",
+    "- Prepare detailed cost estimates for construction projects, including materials, labour, and equipment requirements",
+    "- Extensive experience (3+ years) as an Estimator in the construction industry",
+    "- Relevant tertiary qualifications in construction management, quantity surveying, or a related field is desired",
+    "- Experience using CostX, Cubit, Bluebeam and similar",
+    "- White Card and full driver’s licence"
+   ]
+  },
+  {
+   "id": "94907057",
+   "source": "seek",
+   "title": "Project Engineer",
+   "company": "New Venture Recruitment",
+   "location": "Gold Coast QLD",
+   "url": "https://www.seek.com.au/job/94907057",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-28T01:28:43.836Z",
+   "expires_at": "2026-10-28T00:28:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Opportunity for a Project Engineer to join a specialist piling and basement contractor on the Gold Coast",
+   "opening": "Company\n A well-established specialist ground engineering and foundations contractor with over 20 years’ experience delivering complex piling, shoring and complete basement packages across the East Coast. \n With multiple live projects on the Gold Coast and a strong pipeline of residential high-rise and commercial work, the company is looking to strengthen its project delivery team.\n Position\n You will play a key role in the successful delivery of piling, shoring and basement packages. Responsibilities include:\n - Coordinating site operations, plant, materials and subcontractors\n - Managing programs, daily reporting and progress tracking\n - Assisting with method statements, ITPs, risk assessments and quality documentation\n - Liaising with clients, consultants, site teams and internal management\n - Monitoring productivity, costs and safety performance\n - Supporting the Construction Manager",
+   "key_lines": [
+    "A well-established specialist ground engineering and foundations contractor with over 20 years’ experience delivering complex piling, shoring and complete basement packages across the East Coast.",
+    "With multiple live projects on the Gold Coast and a strong pipeline of residential high-rise and commercial work, the company is looking to strengthen its project delivery team.",
+    "- Degree-qualified (Civil / Construction / Geotechnical preferred) or equivalent experience",
+    "- Previous experience as a Project Engineer / Site Engineer on piling, foundations, shoring or basement projects"
+   ]
+  },
+  {
+   "id": "94906791",
+   "source": "seek",
+   "title": "Project Engineer",
+   "company": "coNEXA Infrastructure Partners Pty Ltd",
+   "location": "Sydney NSW",
+   "url": "https://www.seek.com.au/job/94906791",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-28T01:19:19.397Z",
+   "expires_at": "2026-10-28T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How much notice are you required to give your current employer?",
+    "Do you have a current Police Check (National Police Certificate) for employment?",
+    "How many years of Water Engineering experience do you have?"
+   ],
+   "summary": "The role involves a variety of activities across project development, design and delivery & exposure to operational support for our existing assets.",
+   "opening": "Project Engineer\nAbout coNEXA\ncoNEXA a long-term partner in water infrastructure that continuously seeks to improve outcomes for our Clients and Communities. We collaborate with our Clients to develop creative technical and commercial solutions to complex infrastructure challenges. Our core values of safety, innovation and sustainability are aligned with those of our Clients.\nThe coNEXA group owns and operates four water assets in Australia and provides operational support to a further 20+ clients. We have an in-house projects and engineering team that provides technical support to these operational sites as well as supporting other clients through the complete project delivery life cycle including concept design, business case development, approvals, detailed design, construction management and commissioning. Our wide-ranging experience in water asset operation and maintenance, is readi",
+   "key_lines": [
+    "The coNEXA group owns and operates four water assets in Australia and provides operational support to a further 20+ clients. We have an in-house projects and engineering team that provides technical support to these operational sites as well as supporting other clients through the complete project delivery life cycle including concept design, business case development, approvals, detailed design, construction management and commissioning. Our wide-ranging experience in water asset operation and maintenance, is readily applied to infrastructure design and delivery, ensuring our solutions are always pragmatic and grounded in reality.",
+    "The skills and experience of the combined coNEXA team enhances our ability to deliver practical, robust and cost-effective solutions that provide fit for purpose water and long-term performance for our customers. With operations in VIC, QLD, NSW, SA, NT and WA, coNEXA has established itself as an industry leading owner and operator of water assets in Australia.",
+    "The successful candidate will be able to demonstrate the following skills and experience:",
+    "- Degree in Civil or Mechanical Engineering is preferred, however consideration will be given to candidates with the relevant Engineering experience/exposure,",
+    "- Minimum of 5 years’ experience in water, wastewater or recycled water infrastructure design and construction",
+    "- Experience in delivery of linear infrastructure is desirable,",
+    "- Experience in project delivery and management in both greenfield and brownfield environments is desirable,",
+    "- Project management skills and experience including contract administration, project planning and scheduling, Quality assurance, HSEQ management and compliance and site supervision."
+   ]
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 {
- "_about": "Applications Marc made himself, taken from SEEK receipt emails ('Your application was successfully submitted') in Gmail. tracker.py check blocks a new record for the same employer within repeat_block_days and notes older ones. Refresh each tick when Gmail is attached (search: from:noreply@s.seek.com.au subject:\"successfully submitted\" newer_than:100d); thread previews show only the oldest five messages per thread, so a Gmail search for the employer name before any send is still required.",
- "updated_at": "2026-09-28",
+ "_about": "Applications Marc made himself, taken from SEEK receipt emails ('Your application was successfully submitted') in Gmail. tracker.py check blocks a new record for the same employer within repeat_block_days and notes older ones. Refresh each tick when Gmail is attached (search: from:noreply@s.seek.com.au subject:\"successfully submitted\" newer_than:100d); thread previews show only the oldest five messages per thread, so a Gmail search for the employer name before any send is still required. Also lists applications Marc emailed himself (Gmail Sent, 100 days), checked 29 Sep 2026.",
+ "updated_at": "2026-09-29",
  "entries": [
   {
    "date": "2026-06-29",
@@ -708,6 +708,27 @@
    "role": "Project Coordinator / Engineer",
    "source": "SEEK receipt (Gmail)",
    "gmail_message_id": "1a0dca449684eb80"
+  },
+  {
+   "date": "2026-08-05",
+   "company": "JS Structures",
+   "role": "email application to admin@jsstructures.com.au",
+   "source": "Gmail sent (Marc)",
+   "gmail_message_id": "19fd234e8d4e8d35"
+  },
+  {
+   "date": "2026-06-28",
+   "company": "Alpha CPS",
+   "role": "email to workers@alphacps.com.au",
+   "source": "Gmail sent (Marc)",
+   "gmail_message_id": "19f103f1f3d5b1b1"
+  },
+  {
+   "date": "2026-02-18",
+   "company": "JHA Consulting Engineers (QLD)",
+   "role": "email application for Graduate Civil Engineer to hr@jhaengineers.com.au (outside the 90-day window; noted for context)",
+   "source": "Gmail sent (Marc)",
+   "gmail_message_id": "19c6f95cba82be79"
   }
  ]
 }
