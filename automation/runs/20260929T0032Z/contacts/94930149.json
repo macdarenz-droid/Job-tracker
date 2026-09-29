@@ -1,0 +1,49 @@
+{
+  "seek_id": "94930149",
+  "company": "McMahon Services",
+  "company_url": "https://mcmservices.com.au/",
+  "careers_url": "https://careers.mcmservices.com.au/jobs/site-engineer-civil-utilities-adelaide-sa-australia",
+  "recipient_name": null,
+  "recipient_role": null,
+  "recipient_email": null,
+  "contact_evidence_url": null,
+  "evidence_quote": null,
+  "contact_confidence": "none",
+  "named_people": [
+    {
+      "name": "Mehdi Javanmard",
+      "role": "EGM - Civil & Infrastructure (Executive Team page)",
+      "email": null,
+      "evidence_url": "https://mcmservices.com.au/about/leadership/"
+    },
+    {
+      "name": "Michael Hyde",
+      "role": "EGM - Engineering & Projects; bio: joined 2018 as General Manager, 20+ years delivering major civil works across rail, water, power and other markets",
+      "email": null,
+      "evidence_url": "https://mcmservices.com.au/about/leadership/"
+    },
+    {
+      "name": "David Sims",
+      "role": "Chief Executive Officer",
+      "email": null,
+      "evidence_url": "https://mcmservices.com.au/about/leadership/"
+    },
+    {
+      "name": "David McMahon",
+      "role": "Managing Director",
+      "email": null,
+      "evidence_url": "https://mcmservices.com.au/about/leadership/"
+    },
+    {
+      "name": "Andrew McMahon",
+      "role": "Director",
+      "email": null,
+      "evidence_url": "https://mcmservices.com.au/about/leadership/"
+    }
+  ],
+  "employer_line": "McMahon Services was engaged by Australian Naval Infrastructure (ANI) to design, refurbish and modernise Building 02 at the Osborne Naval Shipyard in Adelaide, where the civil works had to deal with poor ground conditions and unknown existing services.",
+  "employer_line_source": "https://mcmservices.com.au/projects/osborne-naval-shipyard-building-02/",
+  "published_generic_contacts": [],
+  "application_route_notes": "SEEK 94930149 is a link-out (is_link_out true, no screening questions) to the employer's own hosted careers board at careers.mcmservices.com.au. The exact advert page is https://careers.mcmservices.com.au/jobs/site-engineer-civil-utilities-adelaide-sa-australia (title 'Site Engineer - Civil Utilities - Adelaide, SA, Australia', Full time). The page text is the same as the SEEK advert and ends 'Apply now and join the McMahon Services team' and 'No recruitment agencies please.'; its JobPosting JSON-LD shows datePosted 2026-06-29, validThrough 2026-12-28, hiringOrganization 'McMahon Services Careers', directApply false, i.e. the Apply button leads into the board's own candidate flow (the board has 'My Profile' and 'Candidate Details' account features). No email, phone, named contact or reference number is stated on the advert. Route per config fallback_order: employer portal (this careers-board page), prepared for Jeremie or Marc. No double-touch email is possible because no verified direct contact exists. The corporate careers page https://mcmservices.com.au/careers/ (with sub-pages /careers/opportunities/, /careers/culture-wellbeing/, /careers/training/) links out to the same board; the older /careers/positions-vacant/ advert pages now redirect to /careers/.",
+  "notes": "Checked 2026-09-29. The advert's company domain is mcmservices.com.au (mcmahonservices.com.au was tried first and failed at the proxy with a 502; nothing was read from it). Employer identity confirmed: careers.mcmservices.com.au/jobs/search lists 'Site Engineer - Civil Utilities, Adelaide, SA, Australia' together with 'Site Supervisors - Civil Utilities', 'Night Shift Site Supervisor - Civil Utilities' and 'Leading Hands - Civil Utilities' (all Adelaide) and the advert page text matches the SEEK content_text word for word. PROJECT: not named. Neither the advert, the job board, nor any McMahon Services site page or news item read or surfaced by search names the water/sewer project; the advert only says 'one of South Australia's largest and most significant infrastructure projects' / 'the Southern Hemisphere's largest infrastructure project' / 'helping shape Adelaide's future'. Search for that phrase returned government and press pages about the $15.4b River Torrens to Darlington (North-South Corridor) project as SA's largest-ever infrastructure project, and a separate search shows the Osborne Submarine Construction Yard ($30b+, ANI) as the other very large Adelaide project; the employer's own site has an Osborne Naval Shipyard Building 02 project page (ANI client) but nothing tying McMahon Services to the current civil utilities packages of either project. This is unverified speculation only and must not be stated in any application. SA Water's 2026 $1.5b water/sewer framework partners (Fulton Hogan Utilities; John Holland/Guidera O'Connor JV; McConnell Dowell/Diona JV) do not include McMahon Services. CONTACTS: the Executive Team page https://mcmservices.com.au/about/leadership/ (rendered with the headless browser; curl gives a JS shell but the embedded JSON was also parsed) lists 12 executives; every profile's 'email' and 'phone' JSON fields are empty and the page has no mailto or '@' anywhere. Relevant SA-based roles with no published email: Mehdi Javanmard (EGM - Civil & Infrastructure), Michael Hyde (EGM - Engineering & Projects), David Sims (CEO), David McMahon (MD), Andrew McMahon (Director). No project director or construction manager for the utilities project is named anywhere on the employer's site or board. Search results for '@mcmservices.com.au' returned only ZoomInfo, Adapt.io and Datanyze broker pages, which were not opened or used per config; a search-summary mention of a careers@ inbox came from those broker-derived results, was not seen on any employer page, and is therefore not recorded. The corporate Contact page https://mcmservices.com.au/contact/ loads its office details through a WP Store Locator admin-ajax call after a region is selected; the rendered page shows only the region picker and a general 'Submit an Enquiry' web form, so no office email or phone could be read within the fetch budget, and published_generic_contacts is empty rather than guessed. The Osborne Building 02 project page was read in full (employer_line source); the Adelaide Festival Centre Drive project URL from search redirected to the /projects/ index and was not readable. Not readable: SEEK advert page (403 by instruction), mcmahonservices.com.au (proxy 502), contact-page office data (AJAX), Festival Centre project page (redirect). Budget used: 8 of 8 WebSearch; 12 of 12 fetches (curl x9 incl. one failed and one redirect, browse.py x3)."
+}

@@ -1,0 +1,135 @@
+[
+ {
+  "board": "careers.vic.gov.au (Victorian public sector)",
+  "url": "https://www.careers.vic.gov.au/jobs",
+  "result": "found 1",
+  "rendered_by_browse": true,
+  "notes": "browse.py rendered the search shell (kw 'civil engineer', wait 40 and 45) but the results list never loaded and the multi-word keyword returns nothing. The site is server-rendered, so curl of https://www.careers.vic.gov.au/jobs?keywords=<single word> was used instead: 'engineer' = 10 results (all read), Occupation=Engineering filter (occupation[0]=6292) = 4 results, 'graduate' = 292 results (first 15 read, all teachers/health), 'civil' = 56 results (first 15 read, all legal/VCAT, nothing civil engineering). Suitable and opened: Engineer / Technical Officer - Road Design (East), DTP, VPS 3, closes 6 Oct 2026 (extra/dtp-engineer-technical-officer-road-design-east.json). Other engineer hits were IT/health/VPS4+ (External Works Engineer VPS4 Gippsland-Latrobe, Project Delivery Engineer VPS4 Melbourne CBD: grade too senior, adverts not opened). Not read: results pages beyond page 1 of the graduate and civil searches."
+ },
+ {
+  "board": "Department of Transport and Planning (via careers.vic.gov.au)",
+  "url": "https://www.careers.vic.gov.au/jobs?organisation[0]=6543",
+  "result": "found 1",
+  "rendered_by_browse": false,
+  "notes": "41 DTP jobs; page 1 (15 newest) read by curl, pages 2-3 not read (budget). DTP engineering roles were also covered by the 'engineer' keyword and Engineering occupation filters (Road Design (East) VPS 3 is the only junior-suitable one; Director Road Design EO1 and Senior Test Analyst VPS5 are not). Fetched the Road Design advert (curl, server-rendered)."
+ },
+ {
+  "board": "Major Road Projects Victoria (now VIDA | Roads)",
+  "url": "https://careers.vic.gov.au/jobs/transport/major-road-projects-victoria",
+  "result": "none",
+  "rendered_by_browse": false,
+  "notes": "Careers Vic org list shows 1 job: Senior Ecology Advisor (VPS5), not suitable. Victoria's Big Build graduate page https://bigbuild.vic.gov.au/jobs/training-programs/graduate-programs is blocked: curl returned a Cloudflare 'Just a moment' 403 and browse.py timed out after 85 s. A web search snippet (not verified from the page) says the Big Build graduate program runs at $81,496, degree completed Jan 2024 to Jan 2027, but no specific civil graduate advert was read."
+ },
+ {
+  "board": "Level Crossing Removal Project / Victorian Infrastructure Delivery Authority",
+  "url": "https://careers.vic.gov.au/jobs/transport/level-crossing-removal-authority",
+  "result": "none",
+  "rendered_by_browse": false,
+  "notes": "Careers Vic LXRP page lists 0 jobs (curl). A guessed VIDA organisation page returned 404. bigbuild.vic.gov.au is blocked (see MRPV row)."
+ },
+ {
+  "board": "Melbourne Water",
+  "url": "https://careers.melbournewater.com.au/en/listing/",
+  "result": "none",
+  "rendered_by_browse": true,
+  "notes": "PageUp board rendered by browse.py: 14 roles (Services & Program Lead, Finance & Benefits Manager, Labour Analytics & Reporting Lead, Senior Service Planner, Business Process Analyst, Manager Business Process Improvement, Major Hazard Facility & Process Safety Lead, EPP Maintenance Program Manager, People Hub Advisor, GIS Specialist - Flood Mapping, Category Manager ICT, Lead Operator Sewerage Transfer, Authorised Water Officer, Maribyrnong Catchment Collaboration Lead). No graduate/junior civil title."
+ },
+ {
+  "board": "Greater Western Water",
+  "url": "https://careers.gww.com.au/search/",
+  "result": "none",
+  "rendered_by_browse": true,
+  "notes": "SuccessFactors search rendered by browse.py: 5 jobs (Sourcing Specialist Service Delivery, Senior Category Manager, Senior Sourcing Specialist IT&D, Operator Treatment, Engineer Process at Altona Meadows posted 7 Sept 2026). Engineer, Process is a process engineer role, not junior civil; advert not opened. No graduate program intake listed now."
+ },
+ {
+  "board": "Moorabool Shire Council",
+  "url": "https://www.moorabool.vic.gov.au/About-Council/Careers/Vacancies",
+  "result": "unread",
+  "rendered_by_browse": true,
+  "notes": "moorabool.recruitmenthub.com.au rendered by browse.py as 'Sorry, the site is not available at the moment.' The council Vacancies page (curl, 200) loads its list dynamically and has no job entries in the static HTML, so no vacancy could be read."
+ },
+ {
+  "board": "City of Ballarat (currentvacancies)",
+  "url": "",
+  "result": "unread",
+  "rendered_by_browse": false,
+  "notes": "Not checked: the 30-call budget was used before this board."
+ },
+ {
+  "board": "City of Greater Bendigo",
+  "url": "https://www.bendigo.vic.gov.au/about-us/working-city",
+  "result": "unread",
+  "rendered_by_browse": false,
+  "notes": "Not checked: budget used. A web search only located the council's job portal and careersatcouncil.com.au/victoria/bendigo; no vacancy list opened."
+ },
+ {
+  "board": "Winslow Constructors (careers.winslow.com.au)",
+  "url": "https://careers.winslow.com.au/",
+  "result": "blocked",
+  "rendered_by_browse": false,
+  "notes": "careers.winslow.com.au is unreachable from this session: browse.py gets ERR_TUNNEL_CONNECTION_FAILED and curl gets 'CONNECT tunnel failed, response 502'. The EOI Engineering Under/Graduates listing could therefore not be opened and it is unknown whether it accepts applications now. A Dreamwork copy of a Winslow cadet advert returned 404. Winslow's own graduate page https://www.winslow.com.au/work-with-us/graduate-program was not opened."
+ },
+ {
+  "board": "Symal (careers.symal.com.au RSS)",
+  "url": "https://careers.symal.com.au/services/rss/job/?locale=en_GB",
+  "result": "none",
+  "rendered_by_browse": false,
+  "notes": "curl. keywords=(graduate) returned 'No jobs currently available'. The unfiltered feed (20 items, possibly capped) had no junior civil role in Victoria: South Melbourne Investor Relations Analyst, NDD Operator, Labourer, Plant Operator, Commercial Manager, Procurement Manager, Senior Contracts Administrator, Document Controller, Quality Assurance Manager, Electrical Estimator; a Site Engineer is in Newcastle NSW. keywords=(civil) itself was not run (budget)."
+ },
+ {
+  "board": "Bild Group (HiBob)",
+  "url": "https://bild.group/careers/browse-careers/",
+  "result": "unread",
+  "rendered_by_browse": false,
+  "notes": "browse.py timed out after 90 s on bild.group/careers/browse-careers/ and the HiBob advert URL was not found, so the Estimator (Campbellfield) advert was not read. A web search snippet only (unverified) says the Landscapes Estimator role reports to the Senior Estimator and asks for previous estimating or QS experience, so it is probably not a junior fit."
+ },
+ {
+  "board": "Beveridge Williams",
+  "url": "",
+  "result": "unread",
+  "rendered_by_browse": false,
+  "notes": "Not checked: budget used."
+ },
+ {
+  "board": "Spiire (ELMO)",
+  "url": "https://spiire.elmotalent.com.au/careers/spiire/jobs",
+  "result": "none",
+  "rendered_by_browse": true,
+  "notes": "Rendered by browse.py (html): 3 jobs. Expressions of Interest - Civil Engineering (Townsville QLD, permanent full time, closes 11/10/2026, so outside Victoria); Student Town Planner 3rd or 4th year (Brisbane, casual, closes 30/10/2026); Graduate Surveyor - Geelong | 2027 Graduate Program (Geelong, closes 01/01/2027). No civil engineering or drafting vacancy in Victoria. The Geelong Graduate Surveyor is a surveying, not civil engineering, role and its advert was not opened."
+ },
+ {
+  "board": "Taylors",
+  "url": "",
+  "result": "unread",
+  "rendered_by_browse": false,
+  "notes": "Not checked: budget used."
+ },
+ {
+  "board": "Reeds Consulting",
+  "url": "https://www.reedsconsulting.com.au/",
+  "result": "unread",
+  "rendered_by_browse": false,
+  "notes": "Not checked: budget used. A web search snippet mentioned graduate opportunities but no specific advert was found or read."
+ },
+ {
+  "board": "TGM Group",
+  "url": "",
+  "result": "unread",
+  "rendered_by_browse": false,
+  "notes": "Not checked: budget used."
+ },
+ {
+  "board": "Millar Merrigan",
+  "url": "https://www.millarmerrigan.com.au/careers/",
+  "result": "unread",
+  "rendered_by_browse": false,
+  "notes": "Not opened. A web search snippet (unverified) says applications go to careers@millarmerrigan.com.au for an Engineering Design department role; no advert was read, so no email is recorded."
+ },
+ {
+  "board": "Breese Pitt Dixon",
+  "url": "https://www.bpd.com.au/",
+  "result": "unread",
+  "rendered_by_browse": false,
+  "notes": "Not checked: budget used."
+ }
+]

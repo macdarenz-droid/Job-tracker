@@ -1,0 +1,38 @@
+{
+ "percent": 80,
+ "rationale": [
+  "Victorian Government road design role at VPS 3, ongoing, \"working under supervision\" with \"foundational engineering knowledge\": an entry-level design position in Melbourne.",
+  "Mandatory item is a relevant tertiary qualification in civil engineering, which Marc holds (BSCE 2019 plus the Advanced Diploma of Civil Construction Design, February 2026); road geometry, drainage and Austroads coursework match the desirable knowledge.",
+  "Visa holders are eligible; the desirable Bentley software (MicroStation, OpenRoads, ProjectWise) is not on record and is disclosed."
+ ],
+ "caution": "Closes 11:59 pm Tuesday 6 October 2026; a cover letter addressing each key selection criterion is required and the portal may need an account. Melbourne eastern suburbs is a long commute from Melton but not a relocation.",
+ "gaps": [
+  "No MicroStation, OpenRoads or ProjectWise experience (desirable; Marc uses AutoCAD and Civil 3D from study)",
+  "No Australian work experience",
+  "Victorian driver's licence: state of Marc's licence not on record (he lives in Melton; Marc to confirm)"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "EMPLOYER_PORTAL",
+ "apply_email": "",
+ "apply_instructions": "Apply online only: use the Apply button on the Careers Vic advert (https://www.careers.vic.gov.au/vpsc-dialog/apply_job/0/vpsc_job/88237), which redirects to the DTP recruitment platform where an account may need to be created. Include a resume and a cover letter addressing how experience meets each key selection criterion. Email and manual submissions are not accepted. Applications close 11.59pm Tuesday 6 October 2026. Reference 12067. Applicants must be an Australian citizen, permanent resident or hold a valid work permit or visa for the nature of the position. Further information: Vincent Nguyen, Senior Manager Road Design (contact printed on the advert). This is a portal submission that belongs to Jeremie; nothing has been submitted.",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Department of Transport and Planning (Victoria)",
+ "title": "Engineer / Technical Officer - Road Design (East)",
+ "location": "Melbourne - Eastern suburbs, VIC",
+ "url": "https://www.careers.vic.gov.au/job/engineer-technical-officer-road-design-east-88237",
+ "listed_at": "2026-09-22",
+ "expires_at": "2026-10-06T23:59:00+11:00",
+ "screening_questions": [
+  "Works collaboratively, sharing information, supporting colleagues and contributing positively to team goals.",
+  "Delivers work effectively, prioritising tasks by urgency and impact, working to agreed plans and maintaining accurate project records.",
+  "Applies sound judgement and problem-solving skills, using established policies and processes and seeking guidance when needed.",
+  "Applies foundational engineering knowledge professionally, using relevant standards, guidelines, codes and risk controls to develop and document practical engineering solutions.",
+  "Adaptable and technically capable, open to new approaches and developing skills in road and traffic engineering, roadside safety, and CAD tools including MicroStation and OpenRoads.",
+  "Victorian Driver's License (required).",
+  "Construction Induction Card (White Card) (required).",
+  "Ability to travel within the state for site inspections (required)."
+ ],
+ "screened_by": "Claude 29 Sep 2026 (extra advert from the Victoria sweep; position description read)"
+}

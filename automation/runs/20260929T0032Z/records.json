@@ -1,13 +1,13 @@
 [
  {
-  "id": "a7765afc-7f50-455a-804a-14267b373cfb",
-  "key": "manual:a7765afc-7f50-455a-804a-14267b373cfb",
+  "id": "2f194835-7ba7-4c2f-bdfc-da6fbc0639df",
+  "key": "manual:2f194835-7ba7-4c2f-bdfc-da6fbc0639df",
   "contributor_name": "Claude",
   "created_by": "claude-job-search",
   "record_kind": "AUTOMATED_LEAD",
   "run_id": "20260929T0032Z",
-  "created_at": "2026-09-29T00:41:18.000Z",
-  "updated_at": "2026-09-29T00:41:18.000Z",
+  "created_at": "2026-09-29T00:47:06.000Z",
+  "updated_at": "2026-09-29T00:47:06.000Z",
   "version": 1,
   "attachments": [
    {
@@ -25,7 +25,7 @@
   "role": "Site Engineer, Civil Utilities",
   "location": "Adelaide SA",
   "job_url": "https://www.seek.com.au/job/94930149",
-  "company_url": "",
+  "company_url": "https://mcmservices.com.au/",
   "status": "READY_JEREMIE_EMPLOYER_PORTAL",
   "application_type": "ADVERTISED_VACANCY",
   "vacancy_status": "OPEN_ADVERT_VERIFIED",
@@ -73,13 +73,13 @@
   "screening_answers": [],
   "checklist": [
    "Decide first whether you would move to Adelaide: the letter and email say \"open to discussing relocation to Adelaide\". If the answer is no, do not apply.",
-   "Open https://www.seek.com.au/job/94930149 and follow Apply to the McMahon Services application page (see the careers URL on this record).",
+   "Open the McMahon Services careers board advert https://careers.mcmservices.com.au/jobs/site-engineer-civil-utilities-adelaide-sa-australia (the SEEK ad 94930149 links out to it) and press Apply; the board may ask you to create a candidate profile.",
    "Attach the two PDFs from this record (resume and cover letter); answer the portal questions honestly (no utilities experience, Subclass 485 visa to December 2027, real availability, willingness to obtain project clearances).",
    "Submit before 29 October 2026.",
    "Press Applied on the tracker with the date and \"Company website\"."
   ],
-  "notes": "Large national contractor; early-career site engineer wording on a major SA water and sewer project. The \"What you'll bring\" list (utilities experience, InEight/Aconex/Procore) carries no essential marker, so those are disclosed as gaps rather than treated as a hold. Interstate: Adelaide relocation is Marc's call.\nHOW CLAUDE FOUND THIS\nFound on SEEK (listed 2026-09-28, closes 2026-10-29). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Site Engineer, Civil Utilities role on SEEK.\n• They may ask about: No water, sewer or civil utilities project experience (site work was a building renovation and subdivision finishing works in the Philippines) → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian site experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: InEight, Aconex and Procore not used → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
-  "how_found": "Found on SEEK (listed 2026-09-28, closes 2026-10-29). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "notes": "Large national contractor; early-career site engineer wording on a major SA water and sewer project. The \"What you'll bring\" list (utilities experience, InEight/Aconex/Procore) carries no essential marker, so those are disclosed as gaps rather than treated as a hold. Interstate: Adelaide relocation is Marc's call. Contact research (29 Sep 2026): the careers board shows the advert first posted 29 June 2026 and valid to 28 December 2026, so it is a long-running or re-posted vacancy; the project is not named by the employer anywhere (do not guess it in an interview). The leadership page names Mehdi Javanmard (EGM Civil and Infrastructure) and Michael Hyde (EGM Engineering and Projects) without emails; no published contact, portal only.\nChecked 2026-09-29. The advert's company domain is mcmservices.com.au (mcmahonservices.com.au was tried first and failed at the proxy with a 502; nothing was read from it). Employer identity confirmed: careers.mcmservices.com.au/jobs/search lists 'Site Engineer - Civil Utilities, Adelaide, SA, Australia' together with 'Site Supervisors - Civil Utilities', 'Night Shift Site Supervisor - Civil Utilities' and 'Leading Hands - Civil Utilities' (all Adelaide) and the advert page text matches the SEEK content_text word for word. PROJECT: not named. Neither the advert, the job board, nor any McMahon Services site page or news item read or surfaced by search names the water/sewer project; the advert only says 'one of South Australia's largest and most significant infrastructure projects' / 'the Southern Hemisphere's largest infrastructure project' / 'helping shape Adelaide's future'. Search for that phrase returned government and press pages about the $15.4b River Torrens to Darlington (North-South Corridor) project as SA's largest-ever infrastructure project, and a separate search shows the Osborne Submarine Construction Yard ($30b+, ANI) as the other very large Adelaide project; the employer's own site has an Osborne Naval Shipyard Building 02 project page (ANI client) but nothing tying McMahon Services to the current civil utilities packages of either project. This is unverified speculation only and must not be stated in any application. SA Water's 2026 $1.5b water/sewer framework partners (Fulton Hogan Utilities; John Holland/Guidera O'Connor JV; McConnell Dowell/Diona JV) do not include McMahon Services. CONTACTS: the Executive Team page https://mcmservices.com.au/about/leadership/ (rendered with the headless browser; curl gives a JS shell but the embedded JSON was also parsed) lists 12 executives; every profile's 'email' and 'phone' JSON fields are empty and the page has no mailto or '@' anywhere. Relevant SA-based roles with no published email: Mehdi Javanmard (EGM - Civil & Infrastructure), Michael Hyde (EGM - Engineering & Projects), David Sims (CEO), David McMahon (MD), Andrew McMahon (Director). No project director or construction manager for the utilities project is named anywhere on the employer's site or board. Search results for '@mcmservices.com.au' returned only ZoomInfo, Adapt.io and Datanyze broker pages, which were not opened or used per config; a search-summary mention of a careers@ inbox came from those broker-derived results, was not seen on any employer page, and is therefore not recorded. The corporate Contact page https://mcmservices.com.au/contact/ loads its office details through a WP Store Locator admin-ajax call after a region is selected; the rendered page shows only the region picker and a general 'Submit an Enquiry' web form, so no office email or phone could be read within the fetch budget, and published_generic_contacts is empty rather than guessed. The Osborne Building 02 project page was read in full (employer_line source); the Adelaide Festival Centre Drive project URL from search redirected to the /projects/ index and was not readable. Not readable: SEEK advert page (403 by instruction), mcmahonservices.com.au (proxy 502), contact-page office data (AJAX), Festival Centre project page (redirect). Budget used: 8 of 8 WebSearch; 12 of 12 fetches (curl x9 incl. one failed and one redirect, browse.py x3).\nHOW CLAUDE FOUND THIS\nFound on SEEK (listed 2026-09-28, closes 2026-10-29). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Mehdi Javanmard (EGM - Civil & Infrastructure (Executive Team page)); Michael Hyde (EGM - Engineering & Projects; bio: joined 2018 as General Manager, 20+ years delivering major civil works across rail, water, power and other markets); David Sims (Chief Executive Officer). Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Site Engineer, Civil Utilities role on SEEK.\n• They may ask about: No water, sewer or civil utilities project experience (site work was a building renovation and subdivision finishing works in the Philippines) → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian site experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: InEight, Aconex and Procore not used → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-09-28, closes 2026-10-29). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Mehdi Javanmard (EGM - Civil & Infrastructure (Executive Team page)); Michael Hyde (EGM - Engineering & Projects; bio: joined 2018 as General Manager, 20+ years delivering major civil works across rail, water, power and other markets); David Sims (Chief Executive Officer). Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
   "call_prep": [
    "How did you find us? → Your advert for the Site Engineer, Civil Utilities role on SEEK.",
    "They may ask about: No water, sewer or civil utilities project experience (site work was a building renovation and subdivision finishing works in the Philippines) → answer honestly from the facts; nothing beyond them was claimed.",
@@ -92,20 +92,20 @@
    "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
    "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
   ],
-  "checked_at": "2026-09-29T00:41:18.000Z",
+  "checked_at": "2026-09-29T00:47:06.000Z",
   "seek_id": "94930149",
   "duplicate_key": "mcmahonservices|seek:94930149",
   "preparation_only": true
  },
  {
-  "id": "68db7d61-b336-4498-87df-db843637e582",
-  "key": "manual:68db7d61-b336-4498-87df-db843637e582",
+  "id": "3b0a49e2-d57b-4b6a-b11b-e3f2f1df3852",
+  "key": "manual:3b0a49e2-d57b-4b6a-b11b-e3f2f1df3852",
   "contributor_name": "Claude",
   "created_by": "claude-job-search",
   "record_kind": "AUTOMATED_LEAD",
   "run_id": "20260929T0032Z",
-  "created_at": "2026-09-29T00:41:18.000Z",
-  "updated_at": "2026-09-29T00:41:18.000Z",
+  "created_at": "2026-09-29T00:47:06.000Z",
+  "updated_at": "2026-09-29T00:47:06.000Z",
   "version": 1,
   "attachments": [
    {
@@ -123,7 +123,7 @@
   "role": "Cadet Building Certifier / Engineering Graduate",
   "location": "Noosaville, Sunshine Coast QLD",
   "job_url": "https://www.seek.com.au/job/94930821",
-  "company_url": "",
+  "company_url": "https://www.projectba.com.au/",
   "status": "READY_JEREMIE_SEEK",
   "application_type": "ADVERTISED_VACANCY",
   "vacancy_status": "OPEN_ADVERT_VERIFIED",
@@ -182,8 +182,8 @@
    "Submit before 29 October 2026.",
    "Press Applied on the tracker with the date and \"SEEK\"."
   ],
-  "notes": "Building certification cadetship (a building surveying career, not civil design) for a recent engineering graduate or early-career person; kept as an honest option because the ad names engineering graduates and Marc decides direction. Building-code knowledge is not on record and is disclosed. Interstate: Sunshine Coast relocation is Marc's call.\nHOW CLAUDE FOUND THIS\nFound on SEEK (listed 2026-09-29, closes 2026-10-29). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Cadet Building Certifier / Engineering Graduate role on SEEK.\n• They may ask about: Career direction is building certification (surveying), not civil design → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No building code (NCC) knowledge on record → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: BSCE was completed in 2019; the Advanced Diploma was completed February 2026 (advert accepts 'recent engineering graduate or someone early in their career') → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
-  "how_found": "Found on SEEK (listed 2026-09-29, closes 2026-10-29). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "notes": "Building certification cadetship (a building surveying career, not civil design) for a recent engineering graduate or early-career person; kept as an honest option because the ad names engineering graduates and Marc decides direction. Building-code knowledge is not on record and is disclosed. Interstate: Sunshine Coast relocation is Marc's call. Contact research (29 Sep 2026): the Project BA site could not be opened from this session (proxy refused the host); search summaries name Luke Neller (Director and Building Certifier) and Daniel Eichhorn (Building Certifier) and the office at 4/59 Mary Street, Noosaville, with only info@projectba.com.au published and no statement that it takes applications. SEEK is the only route; the letter is addressed to Luke Neller from the search summary of the About page, which Marc should glance at before submitting.\nChecked 2026-09-29. Company confirmed: Project BA, private building certifier (building approvals for new builds, insurance repairs and demolition, plus town planning advice), head office 4/59 Mary St Noosaville QLD 4566, website projectba.com.au; search summaries of the About page also say offices in Brisbane and Rockhampton, over 5000 building approvals issued in 2023, and a focus on high-volume builders. Advert (SEEK 94930821, not link-out) asks for CV, academic transcripts and covering letter via SEEK apply; that route belongs to Jeremie. What was checked: WebSearch x6 (firm name; firm + building approvals; domain and @projectba.com.au; Luke Neller; Daniel Eichhorn; site-restricted careers/contact search). Fetch attempts x10 all failed: curl to www.projectba.com.au and projectba.com.au (egress proxy connect_rejected, HTTP 502 on CONNECT), WebFetch on /, /about, /contact (ENOTFOUND), browse.py on / (ERR_TUNNEL_CONNECTION_FAILED), and Wayback Machine copies of /, /about, /contact (connection reset). Not readable: the live employer site (home, about, contact), its Facebook page, and the QBCC register; so no page text could be quoted verbatim and no individual email was seen anywhere. The only address surfaced is the generic info@projectba.com.au, reported by search-engine summaries of the employer site; no page states that it accepts applications or employment enquiries, so it does not qualify as published_inbox. No careers page found on the domain. Named people (Luke Neller, Director; Daniel Eichhorn, Building Certifier) come from search summaries of projectba.com.au/about; neither has a published business email in any employer-authored source found. LinkedIn profiles and ZoomInfo appeared in results and were not used. Qld tribunal PDFs naming Project BA as appellant are government-authored and were not fetched. Result: no direct contact; use SEEK apply. If the site becomes reachable, re-check projectba.com.au/about and the contact page for named emails and for any statement that info@ accepts applications.\nHOW CLAUDE FOUND THIS\nFound on SEEK (listed 2026-09-29, closes 2026-10-29). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Luke Neller (Building Certifier and Director (runs the insurance event repairs team)); Daniel Eichhorn (Building Certifier (runs the new builds team); QBCC licence A15226050 per the About page as summarised by search). Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Cadet Building Certifier / Engineering Graduate role on SEEK.\n• They may ask about: Career direction is building certification (surveying), not civil design → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No building code (NCC) knowledge on record → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: BSCE was completed in 2019; the Advanced Diploma was completed February 2026 (advert accepts 'recent engineering graduate or someone early in their career') → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-09-29, closes 2026-10-29). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Luke Neller (Building Certifier and Director (runs the insurance event repairs team)); Daniel Eichhorn (Building Certifier (runs the new builds team); QBCC licence A15226050 per the About page as summarised by search). Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
   "call_prep": [
    "How did you find us? → Your advert for the Cadet Building Certifier / Engineering Graduate role on SEEK.",
    "They may ask about: Career direction is building certification (surveying), not civil design → answer honestly from the facts; nothing beyond them was claimed.",
@@ -196,9 +196,146 @@
    "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
    "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
   ],
-  "checked_at": "2026-09-29T00:41:18.000Z",
+  "checked_at": "2026-09-29T00:47:06.000Z",
   "seek_id": "94930821",
   "duplicate_key": "projectba|seek:94930821",
+  "preparation_only": true
+ },
+ {
+  "id": "36d0af3c-0939-40a3-b66f-18d675a1544d",
+  "key": "manual:36d0af3c-0939-40a3-b66f-18d675a1544d",
+  "contributor_name": "Claude",
+  "created_by": "claude-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260929T0032Z",
+  "created_at": "2026-09-29T00:47:06.000Z",
+  "updated_at": "2026-09-29T00:47:06.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Department_of_Transport_and_Planning_Vic_Resume.pdf",
+    "stored_in": "not_uploaded"
+   },
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Department_of_Transport_and_Planning_Vic_Engineer_Technical_Officer_Road_Design_E_Cover_Letter.pdf",
+    "stored_in": "not_uploaded"
+   }
+  ],
+  "company": "Department of Transport and Planning (Victoria)",
+  "role": "Engineer / Technical Officer, Road Design (East), VPS 3",
+  "location": "Melbourne eastern suburbs, VIC",
+  "job_url": "https://www.careers.vic.gov.au/job/engineer-technical-officer-road-design-east-88237",
+  "company_url": "https://www.vic.gov.au/department-transport-and-planning",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "Vincent Nguyen",
+  "recipient_role": "Senior Manager Road Design",
+  "recipient_email": "vincent.nguyen@transport.vic.gov.au",
+  "contact_email": "vincent.nguyen@transport.vic.gov.au",
+  "contact_evidence_url": "https://www.careers.vic.gov.au/job/engineer-technical-officer-road-design-east-88237",
+  "contact_verified_at": "2026-09-29T00:47:06.000Z",
+  "contact_confidence": "published_direct",
+  "subject": "Engineer / Technical Officer, Road Design (East), reference 12067, Marc Masarate",
+  "email_body": "Dear Vincent,\n\nI submitted an application for the Engineer / Technical Officer, Road Design (East) position (reference 12067) through the Careers Vic portal on [date Marc applied], with a cover letter against the selection criteria.\n\nIn short: an Advanced Diploma of Civil Construction Design finished in February 2026, with road geometry, earthworks, pavement and stormwater drainage designed and documented in AutoCAD and Civil 3D to Australian Standards and Austroads guides, a civil engineering degree (Philippines, 2019), and eleven months on site. I have not used MicroStation or OpenRoads yet. I'm based in Melton, hold a White Card and full working rights until December 2027 on a Subclass 485 visa.\n\nMy drawings, including a two-lane road cross-section with kerbs and drainage, are at https://macdarenz-droid.github.io/Portfolio. If it would help to talk about the role before shortlisting, I'd welcome a call.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Victorian Government road design role at VPS 3, ongoing, \"working under supervision\" with \"foundational engineering knowledge\": an entry-level design position in Melbourne.",
+   "Mandatory item is a relevant tertiary qualification in civil engineering, which Marc holds (BSCE 2019 plus the Advanced Diploma of Civil Construction Design, February 2026); road geometry, drainage and Austroads coursework match the desirable knowledge.",
+   "Visa holders are eligible; the desirable Bentley software (MicroStation, OpenRoads, ProjectWise) is not on record and is disclosed."
+  ],
+  "gaps": [
+   "No MicroStation, OpenRoads or ProjectWise experience (desirable; Marc uses AutoCAD and Civil 3D from study)",
+   "No Australian work experience",
+   "Victorian driver's licence: state of Marc's licence not on record (he lives in Melton; Marc to confirm)"
+  ],
+  "match_score": {
+   "percent": 80,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Victorian Government road design role at VPS 3, ongoing, \"working under supervision\" with \"foundational engineering knowledge\": an entry-level design position in Melbourne.",
+    "Mandatory item is a relevant tertiary qualification in civil engineering, which Marc holds (BSCE 2019 plus the Advanced Diploma of Civil Construction Design, February 2026); road geometry, drainage and Austroads coursework match the desirable knowledge.",
+    "Visa holders are eligible; the desirable Bentley software (MicroStation, OpenRoads, ProjectWise) is not on record and is disclosed."
+   ],
+   "caution": "Closes 11:59 pm Tuesday 6 October 2026; a cover letter addressing each key selection criterion is required and the portal may need an account. Melbourne eastern suburbs is a long commute from Melton but not a relocation."
+  },
+  "advert": {
+   "source": "Careers Vic (careers.vic.gov.au)",
+   "listed_at": "2026-09-22",
+   "expires_at": "2026-10-06T23:59:00+11:00",
+   "verified_at": "2026-09-29T00:47:06.000Z",
+   "apply_instructions": "Apply online only: use the Apply button on the Careers Vic advert (https://www.careers.vic.gov.au/vpsc-dialog/apply_job/0/vpsc_job/88237), which redirects to the DTP recruitment platform where an account may need to be created. Include a resume and a cover letter addressing how experience meets each key selection criterion. Email and manual submissions are not accepted. Applications close 11.59pm Tuesday 6 October 2026. Reference 12067. Applicants must be an Australian citizen, permanent resident or hold a valid work permit or visa for the nature of the position. Further information: Vincent Nguyen, Senior Manager Road Design (contact printed on the advert). This is a portal submission that belongs to Jeremie; nothing has been submitted.",
+   "screening_questions": [
+    "Works collaboratively, sharing information, supporting colleagues and contributing positively to team goals.",
+    "Delivers work effectively, prioritising tasks by urgency and impact, working to agreed plans and maintaining accurate project records.",
+    "Applies sound judgement and problem-solving skills, using established policies and processes and seeking guidance when needed.",
+    "Applies foundational engineering knowledge professionally, using relevant standards, guidelines, codes and risk controls to develop and document practical engineering solutions.",
+    "Adaptable and technically capable, open to new approaches and developing skills in road and traffic engineering, roadside safety, and CAD tools including MicroStation and OpenRoads.",
+    "Victorian Driver's License (required).",
+    "Construction Induction Card (White Card) (required).",
+    "Ability to travel within the state for site inspections (required)."
+   ]
+  },
+  "screening_answers": [
+   {
+    "question": "Works collaboratively, sharing information, supporting colleagues and contributing positively to team goals.",
+    "answer": "On site in the Philippines (April 2019 to February 2020) I coordinated 10 to 15 workers a day, passed on work priorities, coordinated with engineers, subcontractors and suppliers to sort out site issues, and kept clients and stakeholders up to date on progress."
+   },
+   {
+    "question": "Delivers work effectively, prioritising tasks by urgency and impact, working to agreed plans and maintaining accurate project records.",
+    "answer": "As project-in-charge on a community hall renovation I tracked progress against a six-month construction program and it finished on time; as a field engineer I tracked procurement and materials and prepared site reports, material records and progress reports on a three-month schedule."
+   },
+   {
+    "question": "Applies sound judgement and problem-solving skills, using established policies and processes and seeking guidance when needed.",
+    "answer": "I reviewed structural and architectural drawings, checked work against project requirements, and escalated issues that needed clarification or corrective action to the engineers rather than guessing. In the diploma I compared design options and wrote up the choice, and kept risk registers."
+   },
+   {
+    "question": "Applies foundational engineering knowledge professionally, using relevant standards, guidelines, codes and risk controls to develop and document practical engineering solutions.",
+    "answer": "Bachelor of Science in Civil Engineering (2019) and Advanced Diploma of Civil Construction Design (February 2026): road geometry, earthworks, pavement and stormwater drainage designed and documented in AutoCAD and Civil 3D to Australian Standards and Austroads guides, with AS 1742.14, AS 1726, AS 1289 and risk registers applied in coursework."
+   },
+   {
+    "question": "Adaptable and technically capable, open to new approaches and developing skills in road and traffic engineering, roadside safety, and CAD tools including MicroStation and OpenRoads.",
+    "answer": "My CAD work is AutoCAD and Civil 3D from the diploma; I have not used MicroStation or OpenRoads yet. I learnt Civil 3D and Revit from scratch during the diploma and would learn the Bentley tools the same way, alongside the road and traffic engineering the team does."
+   },
+   {
+    "question": "Victorian Driver's License (required).",
+    "answer": "[Marc to confirm: an Australian driver's licence is on record; the state is not.]"
+   },
+   {
+    "question": "Construction Induction Card (White Card) (required).",
+    "answer": "Yes."
+   },
+   {
+    "question": "Ability to travel within the state for site inspections (required).",
+    "answer": "Yes, with my own transport."
+   }
+  ],
+  "checklist": [
+   "Confirm your driver's licence is Victorian (the ad requires it) before applying. If it is not, do not apply until it is transferred.",
+   "Open https://www.careers.vic.gov.au/job/engineer-technical-officer-road-design-east-88237 and press Apply (reference 12067); you may need to create an account on the DTP recruitment platform.",
+   "Attach the two PDFs from this record (resume and cover letter). The cover letter already addresses each key selection criterion; if the portal asks for criterion responses separately, paste the screening answers above.",
+   "Submit before 11:59 pm Tuesday 6 October 2026. Email and manual submissions are not accepted.",
+   "Press Applied on the tracker with the date and \"Company website\". Only after that, the short prepared email to Vincent Nguyen (the further-information contact printed on the advert) may be sent, with the date filled in."
+  ],
+  "notes": "Victorian Government entry-level road design role (VPS 3, ongoing) in Melbourne, found on Careers Vic by the browser sweep, not on SEEK. Position description read: mandatory civil qualification (met), Austroads road design knowledge desirable (coursework), Bentley software desirable (not used, disclosed). Visa holders are eligible. The senior manager's email is printed on the advert for enquiries; the prepared note is a follow-up after the portal submission.\nWritten by Claude on 29 Sep 2026 from the Careers Vic advert (rendered by the sweep agent, email decoded from the page) and the position description PDF read this run.\nDouble touch: email the contact only after this record is marked Applied.\nHOW CLAUDE FOUND THIS\nFound on Careers Vic (careers.vic.gov.au) (listed 2026-09-22, closes 2026-10-06). Contact: Vincent Nguyen (Senior Manager Road Design, Department of Transport and Planning), whose work email the employer publishes at https://www.careers.vic.gov.au/job/engineer-technical-officer-road-design-east-88237. Named people seen on employer pages: Vincent Nguyen (Senior Manager Road Design (further-information contact printed on the advert)). Marc or Jeremie submits through the portal or SEEK first; the short email to the contact goes only after Applied is pressed.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Engineer / Technical Officer, Road Design (East), VPS 3 role on SEEK.\n• They may ask about: No MicroStation, OpenRoads or ProjectWise experience (desirable; Marc uses AutoCAD and Civil 3D from study) → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian work experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Victorian driver's licence: state of Marc's licence not on record (he lives in Melton; Marc to confirm) → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on Careers Vic (careers.vic.gov.au) (listed 2026-09-22, closes 2026-10-06). Contact: Vincent Nguyen (Senior Manager Road Design, Department of Transport and Planning), whose work email the employer publishes at https://www.careers.vic.gov.au/job/engineer-technical-officer-road-design-east-88237. Named people seen on employer pages: Vincent Nguyen (Senior Manager Road Design (further-information contact printed on the advert)). Marc or Jeremie submits through the portal or SEEK first; the short email to the contact goes only after Applied is pressed.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Engineer / Technical Officer, Road Design (East), VPS 3 role on SEEK.",
+   "They may ask about: No MicroStation, OpenRoads or ProjectWise experience (desirable; Marc uses AutoCAD and Civil 3D from study) → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian work experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Victorian driver's licence: state of Marc's licence not on record (he lives in Melton; Marc to confirm) → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-09-29T00:47:06.000Z",
+  "duplicate_key": "departmentoftransportandplanningvictoria|careers.vic.gov.au/job/engineer-technical-officer-road-design-east-88237",
   "preparation_only": true
  }
 ]
