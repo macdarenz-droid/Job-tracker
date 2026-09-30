@@ -1,0 +1,33 @@
+{
+  "id": "94962005",
+  "percent": 28,
+  "rationale": [
+    "Tunnel site engineer 2+ years WA.",
+    "Agency.",
+    "Experienced."
+  ],
+  "caution": "At least 2 years site engineer; tunnelling.",
+  "gaps": [
+    "Experience",
+    "WA"
+  ],
+  "mandatory_unmet": [
+    "At least 2 years experience as a Site Engineer"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "SEEK.",
+  "open": true,
+  "employer_is_agency": true,
+  "company": "CGC Recruitment",
+  "title": "Site Engineer",
+  "location": "Perth WA",
+  "url": "https://www.seek.com.au/job/94962005",
+  "listed_at": "2026-09-30T01:44:05.532Z",
+  "expires_at": "2026-10-30T00:44:00.000Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a site engineer?"
+  ]
+}

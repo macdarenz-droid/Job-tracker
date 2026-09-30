@@ -1,0 +1,29 @@
+{
+  "percent": 45,
+  "rationale": [
+    "2027 Graduate Civil Program NRW.",
+    "Site and civil exposure.",
+    "Permanent work rights required."
+  ],
+  "caution": "Right to permanently work in Australia; 485 is temporary.",
+  "gaps": [
+    "Permanent work rights"
+  ],
+  "mandatory_unmet": [
+    "The right to permanently work in Australia"
+  ],
+  "mandatory_unresolved": [],
+  "route": "EMPLOYER_PORTAL",
+  "employer_is_agency": false,
+  "company": "NRW Pty Ltd",
+  "title": "Graduate Civil Engineer",
+  "location": "Perth WA",
+  "url": "https://www.seek.com.au/job/94829443",
+  "open": true,
+  "apply_email": "",
+  "apply_instructions": "NRW portal via SEEK.",
+  "listed_at": "",
+  "expires_at": "2026-10-21T17:00:00.000Z",
+  "screening_questions": [],
+  "id": "94829443"
+}

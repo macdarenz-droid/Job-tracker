@@ -1,0 +1,47 @@
+{
+  "run": "20260930T1819Z",
+  "rotation": "victoria_offsite",
+  "checked_at": "2026-09-30T18:31:11Z",
+  "sources": [
+    {
+      "name": "Spiire careers",
+      "url": "https://www.spiire.com.au/careers/",
+      "result": "blocked_prior_outreach (Townsville junior EOI 2026-09-28)"
+    },
+    {
+      "name": "Breese Pitt Dixon careers",
+      "url": "https://www.bpd.com.au/careers",
+      "result": "URL already in tracker"
+    },
+    {
+      "name": "Beveridge Williams development program",
+      "url": "https://beveridgewilliams.com.au/careers/development-program/",
+      "result": "URL already in tracker"
+    },
+    {
+      "name": "Engeny careers",
+      "url": "https://www.engeny.com.au/careers/",
+      "result": "new speculative EOI drafted"
+    },
+    {
+      "name": "JCA Land Consultants careers",
+      "url": "https://www.jcalc.com.au/careers/",
+      "result": "prior MANUAL_APPLIED Graduate Civil Wodonga"
+    },
+    {
+      "name": "Senversa BambooHR junior civil",
+      "url": "https://senversa.bamboohr.com/careers/108",
+      "result": "JS shell; no usable text without Chromium trust"
+    },
+    {
+      "name": "Knox Cadet Engineer",
+      "url": "https://careers.pageuppeople.com/1000/cw/en/job/496575/cadet-engineer",
+      "result": "closed 27 Sep 2026"
+    }
+  ],
+  "seek_widening": [
+    "daterange 3",
+    "daterange 7",
+    "daterange 14 max_details 80"
+  ]
+}

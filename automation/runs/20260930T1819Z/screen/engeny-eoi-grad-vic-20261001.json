@@ -1,0 +1,30 @@
+{
+  "id": "engeny-eoi-grad-vic-20261001",
+  "percent": 74,
+  "rationale": [
+    "Public graduate EOI invitation at an employee-owned water and civil consultancy with a Melbourne office: role level +20.",
+    "Flood, stormwater and waterway work overlaps Advanced Diploma stormwater and drainage coursework: discipline +12; Melbourne: location +10.",
+    "Published careers@engeny.com.au accepts CVs for unadvertised matches; not an agency."
+  ],
+  "caution": "Speculative EOI; no single named vacancy ID.",
+  "gaps": [
+    "No Australian consulting employment yet",
+    "Flood modelling tools beyond coursework not claimed"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "EMAIL",
+  "apply_email": "careers@engeny.com.au",
+  "apply_instructions": "Email CV (and cover letter) to careers@engeny.com.au as invited on the careers and Graduates sections.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Engeny",
+  "title": "Graduate civil or water engineer - expression of interest (Melbourne)",
+  "location": "Melbourne VIC",
+  "url": "https://www.engeny.com.au/careers/",
+  "listed_at": "2026-09-30T18:31:11Z",
+  "expires_at": "",
+  "screening_questions": [],
+  "company_work_verified": true,
+  "company_work_evidence": "Engeny careers page lists Melbourne among Australian offices and describes flood, stormwater, waterway and civil graduate pathways; VIC Discipline Leader quote on careers page."
+}

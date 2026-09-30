@@ -1,0 +1,33 @@
+{
+  "id": "94936602",
+  "percent": 20,
+  "rationale": [
+    "Geotech site engineer; PR/citizen required.",
+    "Agency.",
+    "Experience."
+  ],
+  "caution": "Australian Citizen or Permanent Resident required.",
+  "gaps": [
+    "Citizenship",
+    "Geotech experience"
+  ],
+  "mandatory_unmet": [
+    "Australian Citizen or Permanent Resident"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "SEEK.",
+  "open": true,
+  "employer_is_agency": true,
+  "company": "Peopleconnexion Recruitment",
+  "title": "Site Engineer - Geotechnical",
+  "location": "North Sydney, Sydney NSW",
+  "url": "https://www.seek.com.au/job/94936602",
+  "listed_at": "2026-09-29T02:45:28.192Z",
+  "expires_at": "2026-10-29T01:45:00.000Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "Do you have a current Australian driver's licence?"
+  ]
+}

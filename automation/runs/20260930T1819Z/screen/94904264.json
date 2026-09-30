@@ -1,0 +1,31 @@
+{
+  "id": "94904264",
+  "percent": 72,
+  "rationale": [
+    "Named graduate civil program on roads, footpaths, drainage and WSUD: role level +22.",
+    "Visa holders with valid work rights welcomed; 485 fits: eligibility noted; Adelaide relocation: location +4; discipline +12.",
+    "Direct council; closes 11 Oct 2026; applications via portal only (email applications not considered)."
+  ],
+  "caution": "Asks graduated within about the last two years in Civil Engineering. BSCE is 2019; Advanced Diploma (Feb 2026) is Civil Construction Design, not clearly the same rule.",
+  "gaps": [
+    "Whether Advanced Diploma counts as Civil Engineering graduation within 2 years",
+    "Engineers Australia GradIEAust eligibility",
+    "Adelaide relocation"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [
+    "Whether graduation within approximately the last two years in Civil Engineering is met by BSCE 2019 and/or Advanced Diploma Civil Construction Design Feb 2026"
+  ],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": "",
+  "apply_instructions": "Portal only via SEEK link-out. Resume, academic transcript, cover letter to Bicky Shakya, Team Leader Engineering. recruitment@cityofadelaide.com.au is for process assistance only; applications by email are not considered.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "City of Adelaide",
+  "title": "Graduate, Civil Engineer",
+  "location": "Adelaide SA",
+  "url": "https://www.seek.com.au/job/94904264",
+  "listed_at": "2026-09-27T23:25:09.843Z",
+  "expires_at": "2026-10-11T13:29:59.000Z",
+  "screening_questions": []
+}

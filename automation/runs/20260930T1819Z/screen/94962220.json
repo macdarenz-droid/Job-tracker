@@ -1,0 +1,30 @@
+{
+  "id": "94962220",
+  "percent": 48,
+  "rationale": [
+    "Council development engineer Band 5 is mid-level assessments, not graduate: role level +6.",
+    "Subdivision, drainage and engineering plan review overlap coursework themes: discipline +10; Narre Warren Melbourne SE: location +8.",
+    "Direct council employer; expert assessment language implies prior practice experience."
+  ],
+  "caution": "Band 5 development engineer with expert assessments and plan review typically expects practising experience beyond graduate entry.",
+  "gaps": [
+    "No Australian development engineering employment",
+    "Expert assessment expectation"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [
+    "Whether Band 5 requires prior Australian development engineering experience"
+  ],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": "",
+  "apply_instructions": "SEEK link-out to City of Casey careers portal.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "City Of Casey",
+  "title": "Development Engineer",
+  "location": "Narre Warren, Melbourne VIC",
+  "url": "https://www.seek.com.au/job/94962220",
+  "listed_at": "2026-09-30T01:49:40.844Z",
+  "expires_at": "2026-10-30T01:49:40.844Z",
+  "screening_questions": []
+}

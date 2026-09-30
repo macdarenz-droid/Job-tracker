@@ -1,0 +1,30 @@
+{
+  "percent": 35,
+  "rationale": [
+    "Structural Revit drafter.",
+    "Citizen/PR only; 2+ years Revit."
+  ],
+  "caution": "Citizenship/PR and 2+ years Revit.",
+  "gaps": [
+    "Eligibility",
+    "Experience"
+  ],
+  "mandatory_unmet": [
+    "Australian citizenship or permanent residency",
+    "2+ years hands-on Revit experience"
+  ],
+  "mandatory_unresolved": [],
+  "route": "EMAIL",
+  "employer_is_agency": false,
+  "company": "Skyhook Engineering",
+  "title": "Structural Draftsperson (Revit)",
+  "location": "North Lakes QLD",
+  "url": "https://www.seek.com.au/job/94782577",
+  "open": true,
+  "apply_email": "admin@skyhookengineering.com.au",
+  "apply_instructions": "Email CV and sample sheets to admin@skyhookengineering.com.au.",
+  "listed_at": "",
+  "expires_at": "2026-10-22T12:59:59.999Z",
+  "screening_questions": [],
+  "id": "94782577"
+}

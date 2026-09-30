@@ -1,0 +1,662 @@
+{
+ "count": 13,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "94969508",
+   "company": "GPA Engineering",
+   "title": "Civil/Structural Drafter – ADL",
+   "run": "20260930T1316Z",
+   "percent": 42,
+   "mandatory_unmet": [
+    "Approximately 3–10 years of relevant civil and/or structural drafting and design experience"
+   ]
+  },
+  {
+   "id": "94904264",
+   "company": "City of Adelaide",
+   "title": "Graduate, Civil Engineer",
+   "run": "20260928T0123Z",
+   "percent": 84,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94961556",
+   "company": "Brunel",
+   "title": "Project Engineer - Civil",
+   "run": "20260930T1316Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "3+ years' experience in civil construction"
+   ]
+  },
+  {
+   "id": "94940114",
+   "company": "NOTAZ International PTY LTD",
+   "title": "Civil engineering draftsperson",
+   "run": "20260930T1316Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "At least 3 years' experience as a Civil engineering draftsperson"
+   ]
+  },
+  {
+   "id": "94939236",
+   "company": "Roesner and Hamilton Consulting Engineers Pty Ltd",
+   "title": "Civil Engineering Draftsperson",
+   "run": "20260930T1316Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Over 3 years of experience and qualified in Civil Drafting"
+   ]
+  },
+  {
+   "id": "94951825",
+   "company": "Coleman Recruitment",
+   "title": "Graduate Civil Engineer - Multiple Positions",
+   "run": "20260930T1316Z",
+   "percent": 62,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94945333",
+   "company": "Verra Recruitment Pty Ltd",
+   "title": "Project Engineer / Site Engineer - Civil | Relocate to Mackay",
+   "run": "20260930T1316Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Ideally 3+ years' experience across earthworks, roads, drainage, utilities"
+   ]
+  },
+  {
+   "id": "94973025",
+   "company": "Optimum Consulting Group",
+   "title": "Civil Engineer",
+   "run": "20260930T1316Z",
+   "percent": 30,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94969016",
+   "company": "QCCS",
+   "title": "Civil Project Engineer",
+   "run": "20260930T1316Z",
+   "percent": 32,
+   "mandatory_unmet": [
+    "Proven experience as a Project Engineer within civil construction"
+   ]
+  },
+  {
+   "id": "94960289",
+   "company": "City of Busselton",
+   "title": "CIVIL DESIGNER",
+   "run": "20260930T1316Z",
+   "percent": 58,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94938260",
+   "company": "Strategic Project Delivery",
+   "title": "Civil Design Engineer",
+   "run": "20260930T1316Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "3–8+ years’ experience in civil engineering design"
+   ]
+  },
+  {
+   "id": "94935564",
+   "company": "Queanbeyan-Palerang Regional Council",
+   "title": "Trainee - Civil Construction",
+   "run": "20260930T1316Z",
+   "percent": 35,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94902917",
+   "company": "Employment Matters",
+   "title": "CIVIL CONSTRUCTION TRAINEE",
+   "run": "20260928T0532Z",
+   "percent": 87,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94961163",
+   "company": "Brunel",
+   "title": "Project Engineer ",
+   "run": "20260930T1316Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "3+ years' experience in civil construction"
+   ]
+  },
+  {
+   "id": "94958409",
+   "company": "Right Connect",
+   "title": "Structural Drafter",
+   "run": "20260930T1316Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94950957",
+   "company": "Milo Geotechnical",
+   "title": "Civil Engineer",
+   "run": "20260930T1316Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "A minimum of 5 years' engineering experience associated with the road construction industry"
+   ]
+  },
+  {
+   "id": "94939016",
+   "company": "Egis",
+   "title": "Civil Engineer (Urban Development)",
+   "run": "20260930T1316Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "minimum of 5+ years’ experience as a civil engineer within a consultancy"
+   ]
+  },
+  {
+   "id": "94956743",
+   "company": "Formstruct",
+   "title": "Estimator  - Civil & NPI",
+   "run": "20260930T1316Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "Min 5 yrs Experience in Similar Role",
+    "Mine Site Experience"
+   ]
+  },
+  {
+   "id": "94950379",
+   "company": "Ertech Pty Ltd",
+   "title": "Project Engineer (Civil)",
+   "run": "20260930T1316Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "4-7 years of relevant experience"
+   ]
+  },
+  {
+   "id": "94936909",
+   "company": "City of Joondalup",
+   "title": "Skilled General Hand - Engineering Construction (Civil)",
+   "run": "20260930T1316Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "WA HR Class Driver’s Licence"
+   ]
+  },
+  {
+   "id": "94934404",
+   "company": "Ertech Pty Ltd",
+   "title": "Project Engineer (Civil)",
+   "run": "20260930T1316Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "4-7 years of relevant experience"
+   ]
+  },
+  {
+   "id": "94916158",
+   "company": "WYN&CO Search Recruitment & Payroll",
+   "title": "Civil Project Engineer",
+   "run": "20260928T1031Z",
+   "percent": 50,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94912548",
+   "company": "AWCON Pty Ltd",
+   "title": "Estimator – Mining & Civil Construction",
+   "run": "20260928T0532Z",
+   "percent": 77,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94930821",
+   "company": "Project BA",
+   "title": "Cadet Building Certifier / Engineering Graduate",
+   "run": "20260929T0032Z",
+   "percent": 58,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94913320",
+   "company": "Dubbo Regional Council",
+   "title": "Design Engineer",
+   "run": "20260928T0532Z",
+   "percent": 84,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94911870",
+   "company": "Resource E",
+   "title": "Site Engineer (3-6month Contract Role)",
+   "run": "20260928T0532Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94909348",
+   "company": "Satake Australia Pty Ltd",
+   "title": "Draftsperson",
+   "run": "20260928T0532Z",
+   "percent": 29,
+   "mandatory_unmet": [
+    "Duties require creating and maintaining 3D models, technical drawings and specifications using SolidWorks and AutoCAD; Marc has not used SolidWorks (facts.json lists AutoCAD, Civil 3D, Revit, Microsoft Office and Google Workspace only)"
+   ]
+  },
+  {
+   "id": "94907504",
+   "company": "SEE Group",
+   "title": "Project Engineer & Site Engineer",
+   "run": "20260928T0532Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Advert states 'We're open to Engineers with 2-6 years' experience in civil construction'; Marc has no matching commercial experience"
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "id": "94982627",
+   "source": "seek",
+   "title": "Consultant – Civil Engineer",
+   "company": "TBH Consulting",
+   "location": "North Sydney, Sydney NSW",
+   "url": "https://www.seek.com.au/job/94982627",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-30T00:00:00.000Z",
+   "expires_at": "2026-10-30T16:51:00.000Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "The Consultant – Civil Engineer role is an entry level technical position which supports primarily internal TBH technical teams by assisting...",
+   "opening": "TBH Consulting\nThe Consultant – Civil Engineer role is an entry level technical position which supports primarily internal TBH technical teams by assisting Project Managers and the broader team to prepare outputs and meet project deliverables.\nBenefitsWhy work at TBH\nAt Tracey Brunstrom & Hammond Pty. Ltd. (TBH), we are ACHIEVEMENT and outcome focused,operating with alignedstrategic intent and delivering on our promises to ensure optimumresultsfor our clients. Additionally, our ONE TEAM culture drives usto operate with one way of workingthat fosters care andcollaboration.\nThrough our strong values, TBH is committed to fostering aninclusive environment whereeveryone can feel comfortable to betheir full selves at work. We value people fromdifferentbackgrounds and all walks-of-life as we believe ourcollective experience inspires blue-skythinking and creativesolutions.\nAs a proud WORK180 End",
+   "key_lines": [
+    "Through our strong values, TBH is committed to fostering aninclusive environment whereeveryone can feel comfortable to betheir full selves at work. We value people fromdifferentbackgrounds and all walks-of-life as we believe ourcollective experience inspires blue-skythinking and creativesolutions.",
+    "- Contribute to engineering analysis and design validation, working with senior engineers to ensure structures and systems meet performance, safety and compliance requirements.",
+    "- Support planning and design activities through data analysis and preparation of technical inputs to meet current and future project requirements.",
+    "- Review, interpret and analyse data from various records and present findings in various formats based on project requirements. Handle all information with the necessary sensitivity, privacy and confidentiality.",
+    "- In liaison with the project team/Project Director apply industry best practice project controls methodologies to identify and solve problems, pursuing efficient and innovative solutions when possible.",
+    "Qualification & experienceQualifications, Skills and Experience",
+    "- Qualifications: minimum of graduate certificate or bachelor's degree in relevant field, such as Engineering, Construction, Project Management, Quantity Surveying, Architecture or Business / Commerce.",
+    "- At least 1-3 years of relevant experience",
+    "- Experience using Microsoft applications and software (desirable).",
+    "- Demonstrated experience in problem solving within a work and/or academic environment."
+   ]
+  },
+  {
+   "id": "94931757",
+   "source": "seek",
+   "title": "Site Engineer",
+   "company": "Core Talent",
+   "location": "Dubbo, Dubbo & Central NSW",
+   "url": "https://www.seek.com.au/job/94931757",
+   "work_type": "Contract/Temp",
+   "salary": "AUD 40 - 60 per hour",
+   "listed_at": "2026-09-29T00:46:04.700Z",
+   "expires_at": "2026-10-29T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Do you have a current Australian driver's licence?"
+   ],
+   "summary": "Site Engineers needed for CWO REZ. Civil, piling, concrete, FRP, geotech, substation & transmission experience. 3:1 roster. Travel & camp provided.",
+   "opening": "Site Engineer – Civil\nCentral-West Orana Renewable Energy Zone (CWO REZ) Location: Dubbo\nRoster: 3 weeks on / 1 week off\nHours: 10-hour days\nTravel, accommodation and meals: Fully provided\nThe OpportunityWe are currently seeking experienced Site Engineers to join the delivery of the Central-West Orana Renewable Energy Zone (CWO REZ) — one of NSW’s major renewable energy and transmission infrastructure projects.\nThis is an exciting opportunity for engineers with a strong civil construction background and hands-on experience across substation, transmission, piling, foundations, geotechnical and concrete works.\nWorking as part of an experienced project team, you will play a key role in supporting the delivery of major civil and structural works, ensuring construction activities are completed safely, efficiently, to specification and in line with project programmes.\nThe Role as a Site Engine",
+   "key_lines": [
+    "The OpportunityWe are currently seeking experienced Site Engineers to join the delivery of the Central-West Orana Renewable Energy Zone (CWO REZ) — one of NSW’s major renewable energy and transmission infrastructure projects.",
+    "This is an exciting opportunity for engineers with a strong civil construction background and hands-on experience across substation, transmission, piling, foundations, geotechnical and concrete works.",
+    "Working as part of an experienced project team, you will play a key role in supporting the delivery of major civil and structural works, ensuring construction activities are completed safely, efficiently, to specification and in line with project programmes.",
+    "The Role as a Site Engineer, you will work closely with the Project Manager, Project Engineers, Supervisors, subcontractors and construction teams to coordinate and deliver site-based engineering activities.",
+    "- Supporting geotechnical works and ensuring construction methodologies align with project requirements.",
+    "- Adjusting and updating programmes to reflect actual site progress, resources and changing construction requirements.",
+    "- Working closely with the construction team to resolve technical issues and maintain project momentum.",
+    "- Ensuring all works are undertaken in accordance with project, safety, quality and environmental requirements.",
+    "About YouYou will be an experienced Site Engineer with a strong civil construction background, ideally gained across major infrastructure, energy or transmission projects.",
+    "We are particularly interested in engineers who can demonstrate practical site experience across:",
+    "Experience working on major Australian infrastructure, renewable energy, transmission or substation projects will be highly regarded.",
+    "What You’ll Bring- Degree-qualified Civil Engineer or equivalent.",
+    "- Demonstrated experience working as a Site Engineer on major construction or infrastructure projects.",
+    "- Proven experience with concrete, foundations, piling and/or geotechnical works."
+   ]
+  },
+  {
+   "id": "94978646",
+   "source": "seek",
+   "title": "Estimator",
+   "company": "Smith & Co",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/94978646",
+   "work_type": "Full time",
+   "salary": "$180K-$220K + Super + Vehicle",
+   "listed_at": "2026-09-30T09:51:35.145Z",
+   "expires_at": "2026-10-30T08:51:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "How many years of estimating experience do you have?"
+   ],
+   "summary": "Estimator opportunities across Roads, Water, FRP, Earthworks & major Civil Infrastructure projects throughout Queensland!",
+   "opening": "About the Role \nSmith & Co is recruiting Civil Estimators and Senior Estimators for established civil contractors delivering major infrastructure projects across Southeast Queensland and regional locations.\nWith strong forward workloads and an active pipeline of tenders, these opportunities offer exposure to TMR roadworks, highways, water infrastructure, FRP works, bulk earthworks, piling, subdivisions and major civil construction projects.\nYou'll work across the full tender lifecycle, from reviewing drawings and completing quantity take-offs through to subcontractor pricing, construction methodologies, value engineering and final tender submissions.\nMultiple positions are available, giving you the flexibility to pursue Brisbane and SEQ-based projects, FIFO opportunities or relocation to regional Queensland depending on your experience and career goals.\n Salary & Benefits - $180K–$220K +",
+   "key_lines": [
+    "Multiple positions are available, giving you the flexibility to pursue Brisbane and SEQ-based projects, FIFO opportunities or relocation to regional Queensland depending on your experience and career goals.",
+    "Salary & Benefits - $180K–$220K + Super + Company Vehicle, depending on experience",
+    "- Work alongside experienced estimating, pre-contracts and delivery teams",
+    "- Experience as a Civil Estimator or Senior Estimator",
+    "Apply Now"
+   ]
+  },
+  {
+   "id": "94944895",
+   "source": "seek",
+   "title": "Structural Revit Drafter",
+   "company": "TTW (NSW) Pty Ltd",
+   "location": "North Sydney, Sydney NSW",
+   "url": "https://www.seek.com.au/job/94944895",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-29T06:33:45.073Z",
+   "expires_at": "2026-10-16T12:59:59.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Do you have current working rights that allows you to work in the country to are applying to?",
+    "How many years' experience do you have in your current occupation?",
+    "Which of the following best describes your highest qualification - relevant to the position of Structural Revit Drafter?",
+    "Please detail your minimum salary expectations",
+    "What is the notice period for your current employment?",
+    "If you have been referred by a past/current TTW Employee, please specify their full name. "
+   ],
+   "summary": "Currently we are seeking a highly experienced and detail-oriented Structural Revit Drafter to join our growing team.",
+   "opening": "TTW specialises in smart, sustainable and innovative engineering solutions.\nAs we embark on future challenges across industries and the globe, TTW stands at the forefront of enabling solutions to complex problems. We’re Australian owned with a focus on growth and delivering the highest quality experience for our clients.\nOur team of talented engineers combined with innovative solutions position us for long term success within the sectors and industries that we work best. We empower our team to learn extensively and grow with the business.\nOur Opportunity\nCurrently we are seeking a highly experienced and detail-oriented Structural Revit Drafter who will collaborate closely with structural engineers and architects to produce high-quality technical drawings and construction documentation for a variety of building and infrastructure projects.\nWe offer you state of the art office spaces, an e",
+   "key_lines": [
+    "As we embark on future challenges across industries and the globe, TTW stands at the forefront of enabling solutions to complex problems. We’re Australian owned with a focus on growth and delivering the highest quality experience for our clients.",
+    "Currently we are seeking a highly experienced and detail-oriented Structural Revit Drafter who will collaborate closely with structural engineers and architects to produce high-quality technical drawings and construction documentation for a variety of building and infrastructure projects.",
+    "- Assist Lead Engineer in the preparation of preliminary sketch designs from architectural drawings as required.",
+    "- Relevant TAFE qualification",
+    "- Demonstrated experience in a similar role, ideally around 5-10 years",
+    "- Proficient in structural drafting using Revit",
+    "TTW is committed to fostering a work environment that is inclusive, supports flexibility, and welcomes diversity. We are proud to be an equal opportunity employer. Aboriginal and Torres Strait Islander people are encouraged to apply."
+   ]
+  },
+  {
+   "id": "94972758",
+   "source": "seek",
+   "title": "Junior in Engineering Drafting",
+   "company": "Information Quality",
+   "location": "Perth WA",
+   "url": "https://www.seek.com.au/job/94972758",
+   "work_type": "Casual/Vacation",
+   "salary": null,
+   "listed_at": "2026-09-30T06:44:45.232Z",
+   "expires_at": "2026-10-30T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have in an Engineering Role?",
+    "How much notice are you required to give your current employer?",
+    "What's your expected hourly rate?"
+   ],
+   "summary": "IQs core focus is to be an exceptional company to work for and with",
+   "opening": "JUNIOR IN ENGINEERING DRAFTING\n Perth CBD Based Role   \nInformation Quality (IQ) is a leading Information and Data Management company supporting the Mining, Oil & Gas, New Energy, Utilities, Renewables, Infrastructure and Defence sectors. We deliver specialist services in Information Management, Engineering Data Management, Engineering Design Systems, Asset Management, and Operations Support to Tier 1 Owner Operators in asset-intensive industries.\nInformation Quality are seeking applications from dynamic and team-oriented individuals to join our Perth based team as a Junior in Engineering Drafting.\nIQ will provide training, impart knowledge, and develop skills to ensure that the successful applicants are provided with a broad knowledge and experience base in the concepts and practices of Engineering Design. Once trained you will have a broad understanding of:\n·         2D CAD and Intelli",
+   "key_lines": [
+    "JUNIOR IN ENGINEERING DRAFTING",
+    "Information Quality are seeking applications from dynamic and team-oriented individuals to join our Perth based team as a Junior in Engineering Drafting.",
+    "IQ will provide training, impart knowledge, and develop skills to ensure that the successful applicants are provided with a broad knowledge and experience base in the concepts and practices of Engineering Design. Once trained you will have a broad understanding of:",
+    "Ideal candidate will have some industry experience and experience with SPI would be beneficial but not essential.",
+    "·         Be exposed to various aspects of resources engineering data management ensuring a broad and varied level of experience.",
+    "·         Do you have Oil & Gas experience?",
+    "·         How many years’ experience do you have as a designer?",
+    "Australian Citizenship or Australian Permanent Residency is a pre-requisite for this role. Applicants without valid working rights in Australia need not apply.",
+    "Information Quality is an Equal Opportunity Employer. We promote diversity in the workplace and encourage Aboriginal and Torres Strait Islander Peoples, females, those identifying as LGBTIQ+, people of all ages and culturally diverse backgrounds to apply for this role."
+   ]
+  },
+  {
+   "id": "94958365",
+   "source": "seek",
+   "title": "Project Engineer",
+   "company": "Symal",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/94958365",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-29T23:25:13.847Z",
+   "expires_at": "2026-10-23T13:59:59.000Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Lead civil delivery on Queensland's major Wind Farm. FIFO 2/1 roster, 30% uplift, meals, accommodation & flights provided.",
+   "opening": "Project Engineer - Civil\nGawara Baya Wind Farm | FIFO 2/1 Roster | 30% Uplift\nBuild your future with Symal Infrastructure on one of Queensland's largest renewable energy projects.\nSymal Infrastructure is delivering the major civil works package for the Gawara Baya Wind Farm, a landmark renewable energy project located in Northern Queensland. We are seeking an experienced Project Engineer - Civil to join our project team and play a key role in delivering complex civil construction works across the project.\nProject Engineer - Civil\nGawara Baya Wind Farm | FIFO 2/1 Roster | 30% Uplift\n Build your future with Symal Infrastructure on one of Queensland's largest renewable energy projects.\n Symal Infrastructure is delivering the major civil works package for the Gawara Baya Wind Farm, a landmark renewable energy project located in Northern Queensland. We are seeking an experienced Project Engin",
+   "key_lines": [
+    "Symal Infrastructure is delivering the major civil works package for the Gawara Baya Wind Farm, a landmark renewable energy project located in Northern Queensland. We are seeking an experienced Project Engineer - Civil to join our project team and play a key role in delivering complex civil construction works across the project.",
+    "Symal Infrastructure is delivering the major civil works package for the Gawara Baya Wind Farm, a landmark renewable energy project located in Northern Queensland. We are seeking an experienced Project Engineer - Civil to join our project team and play a key role in delivering complex civil construction works across the project.",
+    "Reporting to the Project Manager / Senior Project Engineer, you will be responsible for managing and coordinating civil construction activities, ensuring projects are delivered safely, efficiently, and in accordance with contractual requirements.",
+    "- Manage day-to-day engineering requirements across civil construction activities",
+    "- Coordinate labour, plant, materials, and subcontractor requirements to meet project milestones",
+    "- Bachelor's degree in civil engineering or equivalent",
+    "- Approximately 3+ years' experience in civil construction",
+    "- Experience delivering general civil infrastructure projects",
+    "- Strong understanding of construction methodologies, quality requirements, and project controls",
+    "- Experience with project programming, procurement, and subcontractor management",
+    "- Forge pathways: We open doors to diverse, challenging and future-shaping construction projects to expand your experience and develop your career.",
+    "Aboriginal and Torres Strait Islander people, veterans and individuals from diverse cultural and life experiences are encouraged to apply."
+   ]
+  },
+  {
+   "id": "94940251",
+   "source": "seek",
+   "title": "Design Draftsperson – Autodesk Inventor",
+   "company": "Martin Metal Works Pty Ltd",
+   "location": "Longwarry, West Gippsland & Latrobe Valley VIC",
+   "url": "https://www.seek.com.au/job/94940251",
+   "work_type": "Full time",
+   "salary": "$80,000 – $120,000 per year",
+   "listed_at": "2026-09-29T04:20:10.304Z",
+   "expires_at": "2026-10-29T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a draftsperson?",
+    "How much notice are you required to give your current employer?"
+   ],
+   "summary": "Experienced Draftsperson to create 3D models and detailed drawings using Autodesk Inventor for structural and mechanical projects.",
+   "opening": "Martin Metal Works Pty Ltd | Longwarry, VIC | Full-time\nMartin Metal Works is a family-owned fabrication and installation business working across quarry, concrete and industrial plant projects. We’re looking for an experienced Draftsperson to join our team in Longwarry.\nThis is a varied drafting role covering structural and mechanical projects. You’ll need to be confident managing your own work while working closely with our workshop, site teams and clients.\nThe role\n- Create 3D models and detailed drawings using Autodesk Inventor.\n- Develop drawings for plant upgrades, conveyors, bins, chutes, platforms and other fabricated equipment.\n- Work from engineering drawings, project requirements and site information.\n- Prepare clear drawings and material information for fabrication and installation.\n- Work with the workshop and site teams to resolve practical design and fit-up issues.\n- Manage",
+   "key_lines": [
+    "Martin Metal Works is a family-owned fabrication and installation business working across quarry, concrete and industrial plant projects. We’re looking for an experienced Draftsperson to join our team in Longwarry.",
+    "This is a varied drafting role covering structural and mechanical projects. You’ll need to be confident managing your own work while working closely with our workshop, site teams and clients.",
+    "- Work from engineering drawings, project requirements and site information.",
+    "- Strong, proven experience with Autodesk Inventor.",
+    "- Experience drafting structural or mechanical projects, ideally for industrial plant or fabrication.",
+    "We offer a full-time position, varied projects and the opportunity to work directly with the team building and installing your drawings. Salary will be negotiated based on experience.",
+    "To apply, please send your résumé and a brief outline of your Autodesk Inventor experience."
+   ]
+  },
+  {
+   "id": "94939741",
+   "source": "seek",
+   "title": "Draftsperson - Manufacturing & Fabrication",
+   "company": "Talent Scout Consulting",
+   "location": "Newcastle, Newcastle, Maitland & Hunter NSW",
+   "url": "https://www.seek.com.au/job/94939741",
+   "work_type": "Full time",
+   "salary": "$90,000 - $110,000 + super",
+   "listed_at": "2026-09-29T04:06:12.327Z",
+   "expires_at": "2026-10-29T03:06:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "Do you have experience with AutoDesk Inventor?"
+   ],
+   "summary": "Bring designs to life! Join a leading Hexham engineering manufacturer, creating workshop-ready drawings for exciting fabrication projects.",
+   "opening": "Talent Scout Consulting is partnering with an established engineering and manufacturing business to recruit an experienced Draftsperson for their Hexham operation.\n Our client designs and manufactures engineered solutions for projects across the power, infrastructure, industrial and resources sectors, with fabrication and production capabilities based locally in the Hunter.\nThis is a practical, hands-on drafting role where you’ll work closely with engineers, project teams and the workshop to turn concepts and designs into accurate, build-ready drawings.\nIf you enjoy being close to the manufacturing process and seeing what you draw actually being fabricated on the workshop floor, this could be a great fit.\nThe Role\n Reporting to the Engineering Manager, you’ll be responsible for producing and maintaining accurate 2D and 3D drawings and associated documentation to support fabrication, mach",
+   "key_lines": [
+    "Talent Scout Consulting is partnering with an established engineering and manufacturing business to recruit an experienced Draftsperson for their Hexham operation.",
+    "This is a practical, hands-on drafting role where you’ll work closely with engineers, project teams and the workshop to turn concepts and designs into accurate, build-ready drawings.",
+    "If you enjoy being close to the manufacturing process and seeing what you draw actually being fabricated on the workshop floor, this could be a great fit.",
+    "- Working closely with engineers, project managers, procurement and production teams",
+    "- A Certificate, Diploma or Degree in Mechanical Engineering, Drafting, Engineering Design or similar – or equivalent practical experience",
+    "- Drafting experience ideally within a manufacturing or fabrication environment",
+    "- Strong proficiency in AutoCAD and Autodesk Inventor",
+    "- Experience with structural steel, platework, welded assemblies and/or machined components",
+    "- Experience with drawing revision control and document management",
+    "Experience with ISO 9001, LEAN/5S, Safety in Design or ERP/MRP systems such as Pronto, SAP or Epicor would also be well regarded.",
+    "You’ll have exposure to a broad variety of projects, work alongside an experienced engineering team and have the opportunity to contribute ideas that improve manufacturability, quality and efficiency.",
+    "Click Apply to submit your CV, or contact Talent Scout Consulting for a confidential discussion."
+   ]
+  },
+  {
+   "id": "94937680",
+   "source": "seek",
+   "title": "Site Engineer Leakes Road (Engineering)",
+   "company": "CPB Contractors VIC & TAS",
+   "location": "Truganina, Melbourne VIC",
+   "url": "https://www.seek.com.au/job/94937680",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-29T03:12:56.097Z",
+   "expires_at": "2026-10-29T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Join the team in this major dtata centre build",
+   "opening": "CPB Contractors in joint venture with UGL and supported by EIC, fellow CIMIC Group companies, is proud to be driving the ground-up development of a multi-megawatt data centre in Truganina in the western suburbs of Melbourne. As the trusted delivery partners for a global digital infrastructure platform, we will be frontiering mission critical facilities and infrastructure. Our expertise will seamlessly integrate complex systems across mechanical, electrical, plumbing and fire, power and telecommunications among much more. \nBeing an integrated member of the ACS company group, we will leverage and empower this build by drawing on the shared knowledge and aligned systems across an international network to bring global best practice to our region.\nThe 80 MW data centre will consist of two adjoining 40MW buildings featuring complex internally integrated electrical, mechanical, hydraulic, fire ",
+   "key_lines": [
+    "We are seeking an experienced Site Engineer to join our growing project team and play a key role in delivering major infrastructure, construction, or civil projects. This is an excellent opportunity for a motivated professional who thrives in a fast-paced site environment and is passionate about quality project delivery.",
+    "Reporting to the Project Manager, you will work closely with construction teams, subcontractors, and stakeholders to ensure works are completed safely, on time, and to the highest standards.",
+    "- Manage subcontractors and ensure compliance with project requirements.",
+    "- Degree qualification in Civil Engineering, Construction Management, or a related discipline.",
+    "- Proven experience as a Site Engineer on construction, infrastructure, or civil projects.",
+    "- Experience coordinating subcontractors and site teams.",
+    "Apply Now",
+    "If you're a driven Site Engineer looking to take the next step in your career and contribute to the successful delivery of major projects, we'd love to hear from you. Apply today and become part of a team that delivers exceptional outcomes."
+   ]
+  },
+  {
+   "id": "94936602",
+   "source": "seek",
+   "title": "Site Engineer - Geotechnical",
+   "company": "Peopleconnexion Recruitment",
+   "location": "North Sydney, Sydney NSW",
+   "url": "https://www.seek.com.au/job/94936602",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-09-29T02:45:28.192Z",
+   "expires_at": "2026-10-29T01:45:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "Do you have a current Australian driver's licence?"
+   ],
+   "summary": "Advance your engineering career with a respected geotechnical specialist contractor working on major infrastructure projects.",
+   "opening": "Site Engineer – Geotechnical Engineering | Sydney, NSW\n A leading geotechnical contractor delivering ground improvement and reinforcement solutions is seeking a motivated Site Engineer to join their Sydney team.\nWorking across major infrastructure, transport, dams, ports, industrial, commercial, and mining projects, you will contribute to delivering innovative solutions for challenging ground conditions.\n The Opportunity\nAs a Site Engineer, you will work closely with Project Engineers and Project Managers to plan and manage day-to-day activities across ground improvement projects, supporting successful delivery throughout the project lifecycle while meeting company and client expectations.\n Travel required.\n Key Responsibilities\n - Assist with delivery outcomes across safety, quality, cost and schedule.\n - Prepare reporting, forecasts, and project documentation.\n - Coordinate site teams,",
+   "key_lines": [
+    "As a Site Engineer, you will work closely with Project Engineers and Project Managers to plan and manage day-to-day activities across ground improvement projects, supporting successful delivery throughout the project lifecycle while meeting company and client expectations.",
+    "Travel required.",
+    "- Civil Engineering degree or equivalent.",
+    "- Geotechnical experience and site exposure.",
+    "- Australian Citizen or Permanent Resident.",
+    "If interested, please submit your CV and Cover Letter by clicking APPLY NOW.",
+    "Confidentiality is so important to us - and you. All conversations and applications are held in the strictest of confidence. We take a different approach to recruitment and treat your CV and details with care. Our consultants make the time to work closely with you and will never release your details to our clients without your prior approval."
+   ]
+  },
+  {
+   "id": "94962216",
+   "source": "seek",
+   "title": "Junior Estimator",
+   "company": "Croudace Constructs",
+   "location": "Seaford, Adelaide SA",
+   "url": "https://www.seek.com.au/job/94962216",
+   "work_type": "Full time",
+   "salary": "$55,000 – $75,000 per year",
+   "listed_at": "2026-09-30T01:49:43.953Z",
+   "expires_at": "2026-10-30T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as an Estimator?",
+    "How much notice are you required to give your current employer?"
+   ],
+   "summary": "Junior Estimator supporting project delivery through cost estimation and contract administration.",
+   "opening": "Who Are We?\nCroudace Constructs is a building company that specialise in renovation works based in Adelaide’s Southern Suburbs.\nWhat are we looking for?\nThe position of Junior Estimator is a hands on, detail focused position which is vital in supporting the delivery of projects by assisting with cost estimation and contract administration.\nBe a people's person and you will fit in just fine here, within our company values:\nQuality is our passion.\nExtreme ownership.\nEfficient communication.\nCritical planning.\nSolution driven.\nPeople and culture focussed.\nWhy Work for Us?\nWe believe in hiring people capable of managing their own schedule and therefore offer flexibility within the working week to better support family and lifestyle commitments.\nUnlike similar industry roles, out of hours and weekend work will be kept at a minimum.\nCroudace Constructs acknowledges the importance of workplace ",
+   "key_lines": [
+    "The position of Junior Estimator is a hands on, detail focused position which is vital in supporting the delivery of projects by assisting with cost estimation and contract administration.",
+    "- Excellent communication skills, with clear and professional communication being essential to the position",
+    "- Current unrestricted SA Drivers Licence",
+    "- Previous experience in estimating, administration, construction or a related position would be preferred",
+    "Applications only to be submitted via seek, applications close at 9.00am Monday 19th October 2026."
+   ]
+  },
+  {
+   "id": "94962220",
+   "source": "seek",
+   "title": "Development Engineer",
+   "company": "City Of Casey",
+   "location": "Narre Warren, Melbourne VIC",
+   "url": "https://www.seek.com.au/job/94962220",
+   "work_type": "Full time",
+   "salary": "Band 5 salary from $83, 871 plus super ",
+   "listed_at": "2026-09-30T01:49:40.844Z",
+   "expires_at": "2026-10-30T01:49:40.844Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Contribute to building Australia’s most liveable city by leading and supporting the development of engineering activities across the municipality",
+   "opening": "- Delivering engineering outcomes that visibly improve the community.\n- Grow your career through meaningful development opportunities\n- Permanent full time role working in a hybrid and flexible environment.\n- Band 5 salary from $83, 871 plus super and monthly RDO for full time 40 hour weeks\nWhy Choose City of Casey\nThe City of Casey is one of Victoria’s largest, fastest growing and most diverse cities. The Council plans and delivers quality services and infrastructure for the more than 400,000 residents and over 36,000 businesses who call Casey home.\nOur multi-award winning, architecturally designed workplace - located in Bunjil Place in Melbourne's southeast – inspires collaboration and creativity. Bunjil Place reflects and enhances the city’s rich diversity by providing an energetic and cosmopolitan atmosphere through a lively community meeting place.\nWhy You’ll Love Working with Us\nAt",
+   "key_lines": [
+    "The City of Casey is one of Victoria’s largest, fastest growing and most diverse cities. The Council plans and delivers quality services and infrastructure for the more than 400,000 residents and over 36,000 businesses who call Casey home.",
+    "- Tertiary qualification in Civil Engineering",
+    "How to Apply",
+    "Apply online by submitting your cover letter and resume. As part of your application, please provide a brief response (approximately 250-300 words) addressing the following:",
+    "Please Note: Applications will not be accepted via email. Please apply by following the links only.",
+    "Please note: Unsolicited emails or approaches from recruitment agencies will not be accepted"
+   ]
+  },
+  {
+   "id": "94962005",
+   "source": "seek",
+   "title": "Site Engineer",
+   "company": "CGC Recruitment",
+   "location": "Perth WA",
+   "url": "https://www.seek.com.au/job/94962005",
+   "work_type": "Contract/Temp",
+   "salary": "$70 - $80 Per Hour + Super",
+   "listed_at": "2026-09-30T01:44:05.532Z",
+   "expires_at": "2026-10-30T00:44:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a site engineer?"
+   ],
+   "summary": "My client is seeking an experienced Site Engineer to join a major tunnelling project in Alkimos on a casual basis for approximately three months.",
+   "opening": "We are seeking an experienced Site Engineer to join a major tunnelling project in Alkimos - North of the river.\n This is a hands-on site-based position, with the majority of your time spent working within the tunnels rather than in a surface-based engineering role.\n You will support the construction of tunnel risers working closely with supervisors, shift crews, quality teams and the client to ensure works are completed safely and to specification.\nOn Offer\n - Roster: 5/2 roster – day and night shifts\nHours: 12-hour shifts, 6:00am–6:00pm / 6:00pm–6:00am\nRate: Days - $70 per hour + super | Nights - $80 per hour + super\n - Duration: 3 months' work, through to the end of December 2026 with the potential of an extension\n - Location: Alkimos \n - Start: ASAP\n Key Responsibilities - Liaise with the Supervisor prior to prestart to understand planned works and priorities.\n - Attend 6:00am/6:00pm ",
+   "key_lines": [
+    "We are seeking an experienced Site Engineer to join a major tunnelling project in Alkimos - North of the river.",
+    "You will support the construction of tunnel risers working closely with supervisors, shift crews, quality teams and the client to ensure works are completed safely and to specification.",
+    "- Deliver weekly toolbox talks to crews as required.",
+    "- Inspect ring installation, including ring roll, defects and other quality requirements.",
+    "- Undertake proof drilling and hammer testing as required for grout verification.",
+    "- Provide general engineering support to the construction team as required.",
+    "- At least 2 years' experience as a Site Engineer.",
+    "- Strong hands-on construction experience.",
+    "- A strong understanding of construction quality and documentation requirements.",
+    "Desirable Experience",
+    "Experience in one or more of the following will be highly regarded:",
+    "Site & Working Requirements - Must be WA-based with valid Australian working rights.",
+    "- Must hold a current driver's licence and have reliable access to a vehicle.",
+    "- Ideally based within approximately 30 minutes of the Alkimos site due to the 12-hour shifts and fatigue-management requirements."
+   ]
+  }
+ ]
+}

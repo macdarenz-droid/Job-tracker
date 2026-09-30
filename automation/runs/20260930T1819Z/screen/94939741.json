@@ -1,0 +1,29 @@
+{
+  "id": "94939741",
+  "percent": 24,
+  "rationale": [
+    "Manufacturing fabrication draftsperson via agency.",
+    "Not civil."
+  ],
+  "caution": "Wrong discipline; agency.",
+  "gaps": [
+    "Wrong discipline"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "SEEK.",
+  "open": true,
+  "employer_is_agency": true,
+  "company": "Talent Scout Consulting",
+  "title": "Draftsperson - Manufacturing & Fabrication",
+  "location": "Newcastle, Newcastle, Maitland & Hunter NSW",
+  "url": "https://www.seek.com.au/job/94939741",
+  "listed_at": "2026-09-29T04:06:12.327Z",
+  "expires_at": "2026-10-29T03:06:00.000Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "Do you have experience with AutoDesk Inventor?"
+  ]
+}

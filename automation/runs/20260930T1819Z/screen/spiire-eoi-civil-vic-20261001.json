@@ -1,0 +1,28 @@
+{
+  "id": "spiire-eoi-civil-vic-20261001",
+  "percent": 70,
+  "rationale": [
+    "Speculative EOI to Victorian employee-owned civil consultancy that publicly invites EOIs for upcoming roles: role level +18.",
+    "Civil design, water engineering and construction consultancy overlap Advanced Diploma coursework and site coordination: discipline +12; Victoria offices: location +10.",
+    "Published careers inbox for EOI; not an agency."
+  ],
+  "caution": "No single advertised vacancy; this is a labelled speculative enquiry against the public EOI invitation.",
+  "gaps": [
+    "No current named civil graduate vacancy on the careers page",
+    "No Australian consulting design employment yet"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "EMAIL",
+  "apply_email": "spiire.careers@spiire.com.au",
+  "apply_instructions": "Send EOI, CV and motivation letter to spiire.careers@spiire.com.au.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Spiire",
+  "title": "Civil Engineering graduate / junior - expression of interest (Victoria)",
+  "location": "Victoria (multiple offices)",
+  "url": "https://www.spiire.com.au/careers/",
+  "listed_at": "2026-09-30T18:29:59Z",
+  "expires_at": "",
+  "screening_questions": []
+}

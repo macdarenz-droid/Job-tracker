@@ -1,0 +1,31 @@
+{
+  "id": "94940251",
+  "percent": 25,
+  "rationale": [
+    "Autodesk Inventor manufacturing drafting.",
+    "Not civil.",
+    "Longwarry VIC."
+  ],
+  "caution": "Inventor manufacturing, not civil.",
+  "gaps": [
+    "Wrong discipline"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "SEEK.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Martin Metal Works Pty Ltd",
+  "title": "Design Draftsperson \u2013 Autodesk Inventor",
+  "location": "Longwarry, West Gippsland & Latrobe Valley VIC",
+  "url": "https://www.seek.com.au/job/94940251",
+  "listed_at": "2026-09-29T04:20:10.304Z",
+  "expires_at": "2026-10-29T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a draftsperson?",
+    "How much notice are you required to give your current employer?"
+  ]
+}

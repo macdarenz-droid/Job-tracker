@@ -39,3 +39,7 @@
 {"run_id": "20260930T1309Z", "at": "2026-09-30T13:09:43.000Z", "stage": "start"}
 {"run_id": "20260930T1316Z", "at": "2026-09-30T13:16:42.000Z", "stage": "start"}
 {"run_id": "20260930T1316Z", "at": "2026-09-30T13:23:25.000Z", "stage": "end", "new": 7, "prepared": 1, "ready": 3, "held": 3, "sent": 0, "duplicates": 0, "nothing_new": false, "rotation": "victoria_offsite", "worker": "Grok", "note": "Maker PREPARED_NOT_SENT (lease inaccessible); CHW RBG SMEC READY portal; Armadale Terpkos CharlesHull HELD; send skipped per CODEX private lease"}
+{"run_id": "20260930T1819Z", "at": "2026-09-30T18:19:56.000Z", "stage": "start"}
+{"run_id": "20260930T1819Z", "at": "2026-09-30T18:32:27.000Z", "stage": "end", "new": 2, "prepared": 1, "ready": 1, "held": 2, "sent": 0, "duplicates": 0, "nothing_new": false, "email": "held_no_canonical_lease", "widening": "d3,d7,d14", "rotation": "victoria_offsite"}
+{"run_id": "20260930T1819Z", "at": "2026-09-30T18:32:27.000Z", "note": "Published STP Junior Civil Draftsperson READY_JEREMIE_SEEK and Engeny Melbourne graduate EOI PREPARED_NOT_SENT. Email held: canonical shared journal lease not accessible (CODEX/D41). Maker PREPARED_NOT_SENT remains unsent. HELD records added for mandatory failures."}
+{"run_id": "20260930T1819Z", "at": "2026-09-30T18:32:36.000Z", "stage": "end_counts", "new": 4, "prepared": 1, "ready": 1, "held": 2, "sent": 0, "duplicates": 0, "nothing_new": false}

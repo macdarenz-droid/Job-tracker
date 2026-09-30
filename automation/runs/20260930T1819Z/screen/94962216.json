@@ -1,0 +1,30 @@
+{
+  "id": "94962216",
+  "percent": 35,
+  "rationale": [
+    "Junior Estimator but building renovations Adelaide, not civil infrastructure."
+  ],
+  "caution": "Residential renovation estimating, not civil.",
+  "gaps": [
+    "Wrong sector"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "SEEK.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Croudace Constructs",
+  "title": "Junior Estimator",
+  "location": "Seaford, Adelaide SA",
+  "url": "https://www.seek.com.au/job/94962216",
+  "listed_at": "2026-09-30T01:49:43.953Z",
+  "expires_at": "2026-10-30T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as an Estimator?",
+    "How much notice are you required to give your current employer?"
+  ]
+}

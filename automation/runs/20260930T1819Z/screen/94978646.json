@@ -1,0 +1,31 @@
+{
+  "id": "94978646",
+  "percent": 22,
+  "rationale": [
+    "Senior estimator $180-220k.",
+    "Far above junior.",
+    "Agency."
+  ],
+  "caution": "Senior estimator salary and experience.",
+  "gaps": [
+    "No estimating career"
+  ],
+  "mandatory_unmet": [
+    "Experience as a Civil Estimator or Senior Estimator"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "SEEK.",
+  "open": true,
+  "employer_is_agency": true,
+  "company": "Smith & Co",
+  "title": "Estimator",
+  "location": "Brisbane QLD",
+  "url": "https://www.seek.com.au/job/94978646",
+  "listed_at": "2026-09-30T09:51:35.145Z",
+  "expires_at": "2026-10-30T08:51:00.000Z",
+  "screening_questions": [
+    "How many years of estimating experience do you have?"
+  ]
+}

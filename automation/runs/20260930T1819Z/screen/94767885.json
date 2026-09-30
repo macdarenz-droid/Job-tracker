@@ -1,0 +1,29 @@
+{
+  "percent": 50,
+  "rationale": [
+    "Cadet while studying Bachelor Civil.",
+    "NSW council roads/stormwater.",
+    "Requires current Bachelor enrolment."
+  ],
+  "caution": "Must be currently studying Bachelor Civil with 4+ semesters done.",
+  "gaps": [
+    "Not currently enrolled in Bachelor Civil"
+  ],
+  "mandatory_unmet": [
+    "Currently studying a Bachelor of Engineering (Civil) with at least four semesters completed"
+  ],
+  "mandatory_unresolved": [],
+  "route": "EMPLOYER_PORTAL",
+  "employer_is_agency": false,
+  "company": "Shellharbour City Council",
+  "title": "Cadet - Civil Engineering",
+  "location": "Shellharbour NSW",
+  "url": "https://www.seek.com.au/job/94767885",
+  "open": true,
+  "apply_email": "",
+  "apply_instructions": "Council portal via SEEK.",
+  "listed_at": "",
+  "expires_at": "2026-10-21T12:59:59.999Z",
+  "screening_questions": [],
+  "id": "94767885"
+}

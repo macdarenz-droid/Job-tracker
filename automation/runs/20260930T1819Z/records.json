@@ -1,0 +1,212 @@
+[
+ {
+  "id": "0b2d7dcf-e8ce-4b88-a57b-200ebd519add",
+  "key": "manual:0b2d7dcf-e8ce-4b88-a57b-200ebd519add",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260930T1819Z",
+  "created_at": "2026-09-30T18:31:55.000Z",
+  "updated_at": "2026-09-30T18:31:55.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "3c668759-d83d-4a97-b08a-7afe5fee40da",
+    "path": "/api/documents/3c668759-d83d-4a97-b08a-7afe5fee40da",
+    "filename": "Marc_Masarate_STP_Consultants_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-09-30T18:31:59.531Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "2d11be22-b51c-4336-9c8b-0ca8168a6de1",
+    "path": "/api/documents/2d11be22-b51c-4336-9c8b-0ca8168a6de1",
+    "filename": "Marc_Masarate_STP_Consultants_Junior_Civil_Draftsperson_Cover_Letter.pdf",
+    "sha256": "0fc80964534d9856ee3e9f1e8fb7ab9bf9a5702f9df8e41c2320f9c8f4ff504f",
+    "size_bytes": 49658,
+    "kind": "cover",
+    "uploaded_at": "2026-09-30T18:31:58.688Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "STP Consultants",
+  "role": "Junior Civil Draftsperson",
+  "location": "Brisbane QLD (Fortitude Valley)",
+  "job_url": "https://www.seek.com.au/job/94848610",
+  "company_url": "https://www.stpconsultants.com.au/",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/94848610",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Junior Civil Draftsperson, Brisbane, Marc Masarate",
+  "email_body": "Hello,\n\nI am applying for the Junior Civil Draftsperson role in your Fortitude Valley office, advertised on SEEK (job 94848610). The advert asks for a resume and cover letter and welcomes people finishing school or studying civil drafting, which is the path I am on.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design covering road geometry, earthworks, pavement and stormwater design documented in AutoCAD and Civil 3D. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019). From 2019 to 2020 I worked on site there as project-in-charge and field engineer on a community hall renovation and subdivision finishing works.\n\nI am Melton based, hold a White Card, an Australian driver's licence and own transport, and have full working rights until December 2027 on a Subclass 485 visa. I am available for office and site support work and open to discussing a move to Brisbane. I do not yet have Australian consultancy drafting employment, so mentoring on live STP drawings is what I am looking for.\n\nI have attached my resume and cover letter. Drawings: https://macdarenz-droid.github.io/Portfolio.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Explicit junior entry drafting role for Year 12, school leavers or civil drafting students: role level +24.",
+   "Civil drawings, plans and documentation with mentoring match Advanced Diploma Civil Construction Design, AutoCAD and Civil 3D: discipline +14; Brisbane relocation open to discuss: location +4.",
+   "Direct Queensland consultancy on SEEK; no citizenship, years or PR gate in the advert text."
+  ],
+  "gaps": [
+   "No Australian consultancy drafting employment yet",
+   "Civil 3D used in coursework rather than commercial production"
+  ],
+  "match_score": {
+   "percent": 84,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Explicit junior entry drafting role for Year 12, school leavers or civil drafting students: role level +24.",
+    "Civil drawings, plans and documentation with mentoring match Advanced Diploma Civil Construction Design, AutoCAD and Civil 3D: discipline +14; Brisbane relocation open to discuss: location +4.",
+    "Direct Queensland consultancy on SEEK; no citizenship, years or PR gate in the advert text."
+   ],
+   "caution": "Brisbane Fortitude Valley office; Marc is Melton-based and would need to confirm relocation before interview."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-09-24T03:11:35.361Z",
+   "expires_at": "2026-10-24T03:11:33.000Z",
+   "verified_at": "2026-09-30T18:31:55.000Z",
+   "apply_instructions": "Apply on SEEK with resume and cover letter. Cover letter should say why civil drafting and why STP.",
+   "screening_questions": [
+    "Do you have unrestricted work rights for Australia?",
+    "Have you completed (or are you completing) Year 12 in 2026? or enrolled in TAFE  ?",
+    "Do you have any experience using Revit or AutoCAD?",
+    "Why you’re interested in starting a career in civil drafting.",
+    "What interests you about joining STP Consultants."
+   ]
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Decide whether you would relocate to Brisbane before applying.",
+   "Apply on SEEK job 94848610 with this cover letter and the resume PDF.",
+   "In the cover letter keep the two points STP asked for: why civil drafting, and why STP.",
+   "Submit while the advert is open.",
+   "Press Applied on the tracker with the date and method (SEEK)."
+  ],
+  "notes": "Direct Brisbane junior civil drafting role for entry and TAFE-level candidates. Apply on SEEK. Relocation is Marc's call.\nChecked 2026-10-01. SEEK apply is the published path. Contact page lists office addresses without a careers mailto in rendered HTML. No verified published application inbox used for this record; route is SEEK.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed date not shown, closes 2026-10-24). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Matthew Whittering (Director - Civil Manager & Senior Civil Engineer); Trevor Slogrove (Managing Director - Senior Civil & Structural Engineer). Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Junior Civil Draftsperson role on SEEK.\n• They may ask about: No Australian consultancy drafting employment yet → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Civil 3D used in coursework rather than commercial production → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed date not shown, closes 2026-10-24). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Matthew Whittering (Director - Civil Manager & Senior Civil Engineer); Trevor Slogrove (Managing Director - Senior Civil & Structural Engineer). Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Junior Civil Draftsperson role on SEEK.",
+   "They may ask about: No Australian consultancy drafting employment yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Civil 3D used in coursework rather than commercial production → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-09-30T18:31:55.000Z",
+  "duplicate_key": "stpconsultants|seek:94848610"
+ },
+ {
+  "id": "59edf637-27b9-4e66-8d03-ae94fcef65ce",
+  "key": "manual:59edf637-27b9-4e66-8d03-ae94fcef65ce",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260930T1819Z",
+  "created_at": "2026-09-30T18:32:00.000Z",
+  "updated_at": "2026-09-30T18:32:00.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "3228f04c-6ca3-4b58-ba0c-8fcd66bc7224",
+    "path": "/api/documents/3228f04c-6ca3-4b58-ba0c-8fcd66bc7224",
+    "filename": "Marc_Masarate_Engeny_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-09-30T18:32:01.978Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "1bf67901-803b-4324-a5ab-b0c1fb028a12",
+    "path": "/api/documents/1bf67901-803b-4324-a5ab-b0c1fb028a12",
+    "filename": "Marc_Masarate_Engeny_Graduate_civil_or_water_engineer_express_Cover_Letter.pdf",
+    "sha256": "ba36486f200cf07d960205270bd89fa0b9c82899ce5286d7250d227296818ad2",
+    "size_bytes": 48644,
+    "kind": "cover",
+    "uploaded_at": "2026-09-30T18:32:01.246Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Engeny",
+  "role": "Graduate civil or water engineer - expression of interest (Melbourne)",
+  "location": "Melbourne VIC",
+  "job_url": "https://www.engeny.com.au/careers/",
+  "company_url": "https://www.engeny.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Careers inbox",
+  "recipient_email": "careers@engeny.com.au",
+  "contact_email": "careers@engeny.com.au",
+  "contact_evidence_url": "https://www.engeny.com.au/careers/",
+  "contact_verified_at": "2026-09-30T18:32:00.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Graduate civil or water engineer EOI, Melbourne, Marc Masarate",
+  "email_body": "Hello,\n\nThis is a speculative enquiry, not a reply to a named vacancy. Your careers page invites a CV at careers@engeny.com.au when no matching role is listed, and the Graduates section repeats that invitation, so I am writing about graduate civil or water engineering work in Melbourne.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design with road, earthworks, pavement and stormwater design in AutoCAD and Civil 3D. I also hold a Bachelor of Science in Civil Engineering (Philippines, 2019). From 2019 to 2020 I worked on site in the Philippines as project-in-charge and field engineer.\n\nI am Melton based, hold a White Card, an Australian driver's licence and own transport, and have full working rights until December 2027 on a Subclass 485 visa. I am available for office, site and regional work. I do not yet have Australian consulting employment, so mentoring on flood, stormwater or civil delivery work is what I am looking for.\n\nI have attached my resume and cover letter. Portfolio: https://macdarenz-droid.github.io/Portfolio.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Public graduate EOI invitation at an employee-owned water and civil consultancy with a Melbourne office: role level +20.",
+   "Flood, stormwater and waterway work overlaps Advanced Diploma stormwater and drainage coursework: discipline +12; Melbourne: location +10.",
+   "Published careers@engeny.com.au accepts CVs for unadvertised matches; not an agency."
+  ],
+  "gaps": [
+   "No Australian consulting employment yet",
+   "Flood modelling tools beyond coursework not claimed"
+  ],
+  "match_score": {
+   "percent": 74,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Public graduate EOI invitation at an employee-owned water and civil consultancy with a Melbourne office: role level +20.",
+    "Flood, stormwater and waterway work overlaps Advanced Diploma stormwater and drainage coursework: discipline +12; Melbourne: location +10.",
+    "Published careers@engeny.com.au accepts CVs for unadvertised matches; not an agency."
+   ],
+   "caution": "Speculative EOI; no single named vacancy ID."
+  },
+  "advert": {
+   "source": "employer_careers",
+   "listed_at": "2026-09-30T18:31:11Z",
+   "expires_at": "",
+   "verified_at": "2026-09-30T18:32:00.000Z",
+   "apply_instructions": "Email CV (and cover letter) to careers@engeny.com.au as invited on the careers and Graduates sections.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Confirm this remains a speculative EOI (no named Engeny vacancy applied elsewhere in the last 90 days).",
+   "Send the prepared email to careers@engeny.com.au with both PDFs.",
+   "Do not claim flood modelling software beyond facts.json.",
+   "If Engeny replies with a portal link, apply there and update the tracker.",
+   "Press Applied on the tracker after send with method Email."
+  ],
+  "notes": "SPECULATIVE_ENQUIRY. Published careers inbox careers@engeny.com.au accepts CVs for unadvertised matches. Melbourne office. Labelled clearly as speculative in subject and body. No advertised Melbourne graduate vacancy found on Engeny careers or SEEK for this tick; careers page invites CV to careers@engeny.com.au for unadvertised matches. Speculative enquiry.\nChecked 2026-10-01. Careers and Graduates sections both publish careers@engeny.com.au for CV submission. Melbourne office confirmed on careers page. Speculative EOI only.\nHOW GROK AI FOUND THIS\nFound on employer_careers (listed 2026-09-30). Contact: the application inbox careers@engeny.com.au published by the employer (https://www.engeny.com.au/careers/); no personal address was used. Named people seen on employer pages: Paul Clemson (Principal Engineer & VIC Discipline Leader Flood, Stormwater & Waterway Management). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate civil or water engineer - expression of interest (Melbourne) role on SEEK.\n• They may ask about: No Australian consulting employment yet → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Flood modelling tools beyond coursework not claimed → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_careers (listed 2026-09-30). Contact: the application inbox careers@engeny.com.au published by the employer (https://www.engeny.com.au/careers/); no personal address was used. Named people seen on employer pages: Paul Clemson (Principal Engineer & VIC Discipline Leader Flood, Stormwater & Waterway Management). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate civil or water engineer - expression of interest (Melbourne) role on SEEK.",
+   "They may ask about: No Australian consulting employment yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Flood modelling tools beyond coursework not claimed → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-09-30T18:32:00.000Z",
+  "duplicate_key": "engeny|engeny.com.au/careers"
+ }
+]

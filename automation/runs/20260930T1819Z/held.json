@@ -1,0 +1,88 @@
+[
+ {
+  "id": "9bdd0850-0c50-47ad-a7e3-07c0c3f508bc",
+  "key": "manual:9bdd0850-0c50-47ad-a7e3-07c0c3f508bc",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260930T1819Z",
+  "created_at": "2026-09-30T18:32:08.000Z",
+  "updated_at": "2026-09-30T18:32:08.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "City of Adelaide",
+  "role": "Graduate, Civil Engineer",
+  "location": "Adelaide SA",
+  "job_url": "https://www.seek.com.au/job/94904264",
+  "status": "HELD_ELIGIBILITY_UNCONFIRMED",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMPLOYER_PORTAL",
+  "fit": [
+   "Named graduate civil program on roads, footpaths, drainage and WSUD: role level +22.",
+   "Visa holders with valid work rights welcomed; 485 fits: eligibility noted; Adelaide relocation: location +4; discipline +12.",
+   "Direct council; closes 11 Oct 2026; applications via portal only (email applications not considered)."
+  ],
+  "gaps": [
+   "Whether Advanced Diploma counts as Civil Engineering graduation within 2 years",
+   "Engineers Australia GradIEAust eligibility",
+   "Adelaide relocation"
+  ],
+  "match_score": {
+   "percent": 72,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Named graduate civil program on roads, footpaths, drainage and WSUD: role level +22.",
+    "Visa holders with valid work rights welcomed; 485 fits: eligibility noted; Adelaide relocation: location +4; discipline +12.",
+    "Direct council; closes 11 Oct 2026; applications via portal only (email applications not considered)."
+   ],
+   "caution": "Asks graduated within about the last two years in Civil Engineering. BSCE is 2019; Advanced Diploma (Feb 2026) is Civil Construction Design, not clearly the same rule."
+  },
+  "notes": "Held by Grok AI: Whether graduation within approximately the last two years in Civil Engineering is met by BSCE 2019 and/or Advanced Diploma Civil Construction Design Feb 2026",
+  "checked_at": "2026-09-30T18:32:08.000Z",
+  "seek_id": "94904264",
+  "duplicate_key": "cityofadelaide|seek:94904264"
+ },
+ {
+  "id": "e707b931-9480-423b-bcca-31fe14c2dac4",
+  "key": "manual:e707b931-9480-423b-bcca-31fe14c2dac4",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260930T1819Z",
+  "created_at": "2026-09-30T18:32:08.000Z",
+  "updated_at": "2026-09-30T18:32:08.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "TBH Consulting",
+  "role": "Consultant – Civil Engineer",
+  "location": "North Sydney, Sydney NSW",
+  "job_url": "https://www.seek.com.au/job/94982627",
+  "status": "HELD_ELIGIBILITY_UNCONFIRMED",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMPLOYER_PORTAL",
+  "fit": [
+   "Advertised as entry-level Consultant Civil Engineer supporting design drawings and project delivery: role level +18.",
+   "Civil drawings, documentation and site-adjacent coordination overlap Advanced Diploma and Philippines site roles: discipline +10; North Sydney with relocation open: location +4.",
+   "Direct employer via Workinitiatives link-out; salary band noted; asks 1-3 years which Philippines field or project-in-charge partly covers, not Australian commercial years."
+  ],
+  "gaps": [
+   "Limited Australian industry experience",
+   "TBH technical software suite not yet used",
+   "Sydney office relocation to confirm"
+  ],
+  "match_score": {
+   "percent": 62,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Advertised as entry-level Consultant Civil Engineer supporting design drawings and project delivery: role level +18.",
+    "Civil drawings, documentation and site-adjacent coordination overlap Advanced Diploma and Philippines site roles: discipline +10; North Sydney with relocation open: location +4.",
+    "Direct employer via Workinitiatives link-out; salary band noted; asks 1-3 years which Philippines field or project-in-charge partly covers, not Australian commercial years."
+   ],
+   "caution": "Asks at least 1-3 years relevant experience; Marc has Philippines site roles 2019-2020 and recent study, not Australian consulting tenure."
+  },
+  "notes": "Held by Grok AI: Whether 1-3 years must be Australian consulting experience",
+  "checked_at": "2026-09-30T18:32:08.000Z",
+  "seek_id": "94982627",
+  "duplicate_key": "tbhconsulting|seek:94982627"
+ }
+]

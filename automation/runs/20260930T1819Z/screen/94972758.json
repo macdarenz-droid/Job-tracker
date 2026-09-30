@@ -1,0 +1,34 @@
+{
+  "id": "94972758",
+  "percent": 52,
+  "rationale": [
+    "Junior drafting title with training: role level +16.",
+    "Focus is engineering data management for mining, oil and gas rather than civil road or drainage documentation: discipline +4; Perth: location +2.",
+    "Direct employer on SEEK; SPI and industry experience preferred."
+  ],
+  "caution": "Role centres on engineering information management for resources sectors, not civil construction design drafting.",
+  "gaps": [
+    "Not civil road or stormwater drafting",
+    "Perth relocation",
+    "SPI or industry data tools not in facts"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply on SEEK.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Information Quality",
+  "title": "Junior in Engineering Drafting",
+  "location": "Perth WA",
+  "url": "https://www.seek.com.au/job/94972758",
+  "listed_at": "2026-09-30T06:44:45.232Z",
+  "expires_at": "2026-10-30T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have in an Engineering Role?",
+    "How much notice are you required to give your current employer?",
+    "What's your expected hourly rate?"
+  ]
+}
