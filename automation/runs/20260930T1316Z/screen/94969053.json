@@ -1,0 +1,40 @@
+{
+  "id": "94969053",
+  "percent": 64,
+  "rationale": [
+    "Graduate engineer or QA officer path: role level +18.",
+    "Civil construction QA and site support: discipline +10; Peel Region WA must-reside: location -5 after relocation friction.",
+    "Current WA driver's licence listed; must reside Peel Region: unresolved or unmet for Marc in Melton."
+  ],
+  "caution": "Must reside in Peel Region WA and WA licence listed.",
+  "gaps": [
+    "Must reside Peel Region WA",
+    "WA driver's licence",
+    "Mine or heavy civil QA experience not held"
+  ],
+  "mandatory_unmet": [
+    "Must reside in the Peel Region (Wagerup, Huntly or Pinjarra)"
+  ],
+  "mandatory_unresolved": [
+    "Current WA Driver's Licence"
+  ],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply on SEEK.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Charles Hull Contracting Co P/L",
+  "title": "QA Officer / Graduate Civil Engineer",
+  "location": "Waroona, Mandurah & Peel WA",
+  "url": "https://www.seek.com.au/job/94969053",
+  "listed_at": "2026-09-30T04:49:53.364Z",
+  "expires_at": "2026-10-30T03:49:00.000Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a Quality Assurance Officer?",
+    "Are you willing to undergo a pre-employment medical check?",
+    "Do you have a current Australian driver's licence?",
+    "How much notice are you required to give your current employer?",
+    "Do you own or have regular access to a car?"
+  ]
+}

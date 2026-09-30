@@ -1,0 +1,30 @@
+{
+  "id": "94935564",
+  "percent": 35,
+  "rationale": [
+    "Trainee civil construction plant operator path: role level +5.",
+    "Roads construction plant operation, not design drafting: discipline +2; NSW: location +3.",
+    "Certificate III plant trainee and plant operation focus is a different occupation from Marc's design graduate target."
+  ],
+  "caution": "Plant-operator trainee, not a graduate design or site engineer role.",
+  "gaps": [
+    "Role centres on operating graders, rollers and loaders",
+    "NSW trainee registration path"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [
+    "Eligibility to register as a NSW Trainee for Certificate III in Civil Construction"
+  ],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": "",
+  "apply_instructions": "Apply via council portal from SEEK.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Queanbeyan-Palerang Regional Council",
+  "title": "Trainee - Civil Construction",
+  "location": "Bungendore, Southern Highlands & Tablelands NSW",
+  "url": "https://www.seek.com.au/job/94935564",
+  "listed_at": "2026-09-29T02:20:42.842Z",
+  "expires_at": "2026-10-26T12:59:59.000Z",
+  "screening_questions": []
+}

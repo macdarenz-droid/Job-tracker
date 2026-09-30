@@ -1,0 +1,36 @@
+{
+  "id": "94938260",
+  "percent": 30,
+  "rationale": [
+    "Scored from advert essentials for SPD Civil Design Eng.",
+    "Experience or licence gates dominate fit.",
+    "Not kept for contact research this run."
+  ],
+  "caution": "Below keep threshold or mandatory problem.",
+  "gaps": [
+    "3\u20138+ years\u2019 experience in civil engineering design"
+  ],
+  "mandatory_unmet": [
+    "3\u20138+ years\u2019 experience in civil engineering design"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "See SEEK advert.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Strategic Project Delivery",
+  "title": "Civil Design Engineer",
+  "location": "Hamilton, Brisbane QLD",
+  "url": "https://www.seek.com.au/job/94938260",
+  "listed_at": "2026-09-29T03:28:45.297Z",
+  "expires_at": "2026-10-29T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a Civil Design Engineer?",
+    "How much notice are you required to give your current employer?",
+    "Do you have experience working on civil infrastructure projects?",
+    "Do you hold a CPEng Accreditation?",
+    "Do you hold an RPEQ Registration?"
+  ]
+}

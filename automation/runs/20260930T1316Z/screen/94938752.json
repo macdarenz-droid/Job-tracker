@@ -1,0 +1,31 @@
+{
+  "id": "94938752",
+  "percent": 68,
+  "rationale": [
+    "Development-focused graduate engineer: role level +22.",
+    "Civil infrastructure and asset programs: discipline +10; Perth WA relocation: location +2.",
+    "Bachelor in civil or closely related preferred; WA C-class licence not printed as essential in SEEK text but interstate WA role triggers licence or relocation hold per coaching D38."
+  ],
+  "caution": "Perth WA; Marc's licence state not on record and relocation for WA is a hold.",
+  "gaps": [
+    "WA relocation not confirmed",
+    "Licence state not on record",
+    "No Australian local-government experience"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [
+    "WA driver's licence or interstate move implications not confirmed in facts.json (D38)"
+  ],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": "",
+  "apply_instructions": "Apply via City of Armadale recruitment portal from SEEK link-out.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "City of Armadale",
+  "title": "Graduate Engineer",
+  "location": "Armadale, Perth WA",
+  "url": "https://www.seek.com.au/job/94938752",
+  "listed_at": "2026-09-29T03:40:28.425Z",
+  "expires_at": "2026-10-29T12:59:59.999Z",
+  "screening_questions": []
+}

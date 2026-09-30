@@ -1,0 +1,33 @@
+{
+  "id": "94939016",
+  "percent": 28,
+  "rationale": [
+    "Scored from advert essentials for Egis Civil 5yrs.",
+    "Experience or licence gates dominate fit.",
+    "Not kept for contact research this run."
+  ],
+  "caution": "Below keep threshold or mandatory problem.",
+  "gaps": [
+    "minimum of 5+ years\u2019 experience as a civil engineer within a consultancy"
+  ],
+  "mandatory_unmet": [
+    "minimum of 5+ years\u2019 experience as a civil engineer within a consultancy"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "See SEEK advert.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Egis",
+  "title": "Civil Engineer (Urban Development)",
+  "location": "Canberra ACT",
+  "url": "https://www.seek.com.au/job/94939016",
+  "listed_at": "2026-09-29T03:47:57.575Z",
+  "expires_at": "2026-10-29T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a civil engineer?",
+    "Have you completed a qualification in civil engineering?"
+  ]
+}

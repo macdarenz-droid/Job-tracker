@@ -1,0 +1,29 @@
+{
+  "id": "94936909",
+  "percent": 20,
+  "rationale": [
+    "Scored from advert essentials for Joondalup General Hand.",
+    "Experience or licence gates dominate fit.",
+    "Not kept for contact research this run."
+  ],
+  "caution": "Below keep threshold or mandatory problem.",
+  "gaps": [
+    "WA HR Class Driver\u2019s Licence"
+  ],
+  "mandatory_unmet": [
+    "WA HR Class Driver\u2019s Licence"
+  ],
+  "mandatory_unresolved": [],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": "",
+  "apply_instructions": "See SEEK advert.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "City of Joondalup",
+  "title": "Skilled General Hand - Engineering Construction (Civil)",
+  "location": "Joondalup, Perth WA",
+  "url": "https://www.seek.com.au/job/94936909",
+  "listed_at": "2026-09-29T02:53:11.878Z",
+  "expires_at": "2026-10-13T12:59:59.000Z",
+  "screening_questions": []
+}

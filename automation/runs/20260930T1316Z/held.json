@@ -1,0 +1,132 @@
+[
+ {
+  "id": "3a8760cd-0b5a-4aef-9b91-29e5eb7ae475",
+  "key": "manual:3a8760cd-0b5a-4aef-9b91-29e5eb7ae475",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260930T1316Z",
+  "created_at": "2026-09-30T13:22:31.000Z",
+  "updated_at": "2026-09-30T13:22:31.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "City of Armadale",
+  "role": "Graduate Engineer",
+  "location": "Armadale, Perth WA",
+  "job_url": "https://www.seek.com.au/job/94938752",
+  "status": "HELD_ELIGIBILITY_UNCONFIRMED",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMPLOYER_PORTAL",
+  "fit": [
+   "Development-focused graduate engineer: role level +22.",
+   "Civil infrastructure and asset programs: discipline +10; Perth WA relocation: location +2.",
+   "Bachelor in civil or closely related preferred; WA C-class licence not printed as essential in SEEK text but interstate WA role triggers licence or relocation hold per coaching D38."
+  ],
+  "gaps": [
+   "WA relocation not confirmed",
+   "Licence state not on record",
+   "No Australian local-government experience"
+  ],
+  "match_score": {
+   "percent": 68,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Development-focused graduate engineer: role level +22.",
+    "Civil infrastructure and asset programs: discipline +10; Perth WA relocation: location +2.",
+    "Bachelor in civil or closely related preferred; WA C-class licence not printed as essential in SEEK text but interstate WA role triggers licence or relocation hold per coaching D38."
+   ],
+   "caution": "Perth WA; Marc's licence state not on record and relocation for WA is a hold."
+  },
+  "notes": "Held by Grok AI: WA driver's licence or interstate move implications not confirmed in facts.json (D38)",
+  "checked_at": "2026-09-30T13:22:31.000Z",
+  "seek_id": "94938752",
+  "duplicate_key": "cityofarmadale|seek:94938752"
+ },
+ {
+  "id": "8047f7e6-5845-4030-a27d-990af4ea5b8c",
+  "key": "manual:8047f7e6-5845-4030-a27d-990af4ea5b8c",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260930T1316Z",
+  "created_at": "2026-09-30T13:22:31.000Z",
+  "updated_at": "2026-09-30T13:22:31.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Terpkos Engineering",
+  "role": "Junior Draftsperson and Structural Draftsperson",
+  "location": "Nedlands, Perth WA",
+  "job_url": "https://www.seek.com.au/job/94954590",
+  "status": "HELD_ELIGIBILITY_UNCONFIRMED",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "SEEK",
+  "fit": [
+   "Junior draftsperson 0 to 2 years with Advanced Diploma path: role level +18.",
+   "Structural drawings in AutoCAD; Marc has AutoCAD and footing or column Revit coursework, not structural shop drafting depth: discipline +8; Perth WA: location +2.",
+   "Junior path fits; WA relocation or licence unresolved per D38."
+  ],
+  "gaps": [
+   "Structural steel detailing experience not held",
+   "WA relocation",
+   "Licence state not on record"
+  ],
+  "match_score": {
+   "percent": 63,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Junior draftsperson 0 to 2 years with Advanced Diploma path: role level +18.",
+    "Structural drawings in AutoCAD; Marc has AutoCAD and footing or column Revit coursework, not structural shop drafting depth: discipline +8; Perth WA: location +2.",
+    "Junior path fits; WA relocation or licence unresolved per D38."
+   ],
+   "caution": "Structural drafting focus and Perth WA; junior path exists beside a separate 4+ year structural role."
+  },
+  "notes": "Held by Grok AI: WA relocation and licence implications (D38)",
+  "checked_at": "2026-09-30T13:22:31.000Z",
+  "seek_id": "94954590",
+  "duplicate_key": "terpkosengineering|seek:94954590"
+ },
+ {
+  "id": "56de42a9-82e5-4b01-ac7a-51584d1d7d31",
+  "key": "manual:56de42a9-82e5-4b01-ac7a-51584d1d7d31",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260930T1316Z",
+  "created_at": "2026-09-30T13:22:31.000Z",
+  "updated_at": "2026-09-30T13:22:31.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Charles Hull Contracting Co P/L",
+  "role": "QA Officer / Graduate Civil Engineer",
+  "location": "Waroona, Mandurah & Peel WA",
+  "job_url": "https://www.seek.com.au/job/94969053",
+  "status": "HELD_MANDATORY_REQUIREMENTS",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "SEEK",
+  "fit": [
+   "Graduate engineer or QA officer path: role level +18.",
+   "Civil construction QA and site support: discipline +10; Peel Region WA must-reside: location -5 after relocation friction.",
+   "Current WA driver's licence listed; must reside Peel Region: unresolved or unmet for Marc in Melton."
+  ],
+  "gaps": [
+   "Must reside in the Peel Region (Wagerup, Huntly or Pinjarra)",
+   "Must reside Peel Region WA",
+   "WA driver's licence",
+   "Mine or heavy civil QA experience not held"
+  ],
+  "match_score": {
+   "percent": 64,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Graduate engineer or QA officer path: role level +18.",
+    "Civil construction QA and site support: discipline +10; Peel Region WA must-reside: location -5 after relocation friction.",
+    "Current WA driver's licence listed; must reside Peel Region: unresolved or unmet for Marc in Melton."
+   ],
+   "caution": "Must reside in Peel Region WA and WA licence listed."
+  },
+  "notes": "Held by Grok AI: Must reside in the Peel Region (Wagerup, Huntly or Pinjarra); Current WA Driver's Licence",
+  "checked_at": "2026-09-30T13:22:31.000Z",
+  "seek_id": "94969053",
+  "duplicate_key": "charleshullcontractingcopl|seek:94969053"
+ }
+]

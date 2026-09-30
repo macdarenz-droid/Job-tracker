@@ -1,0 +1,34 @@
+{
+  "id": "94939236",
+  "percent": 40,
+  "rationale": [
+    "Civil draftsperson AutoCAD: role level +8.",
+    "Diploma drafting match: discipline +10; Gold Coast: location +2.",
+    "Over 3 years experience required: unmet -40."
+  ],
+  "caution": "Over 3 years experience required.",
+  "gaps": [
+    "Over 3 years drafting experience not held",
+    "12d desirable not held"
+  ],
+  "mandatory_unmet": [
+    "Over 3 years of experience and qualified in Civil Drafting"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply on SEEK.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Roesner and Hamilton Consulting Engineers Pty Ltd",
+  "title": "Civil Engineering Draftsperson",
+  "location": "Nerang, Gold Coast QLD",
+  "url": "https://www.seek.com.au/job/94939236",
+  "listed_at": "2026-09-29T03:54:34.551Z",
+  "expires_at": "2026-10-29T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a civil drafter?",
+    "How many years of Road Design experience do you have?"
+  ]
+}

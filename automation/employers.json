@@ -1,86 +1,121 @@
-{"_about": "Employers verified by earlier runs: careers URL, apply route, named contacts with evidence. Grows over time; never guessed.", "employers": {
-  "Beveridge Williams": {
-    "careers_url": "https://beveridgewilliams.com.au/careers/",
-    "checked_at": "2026-09-28",
-    "open_junior_roles": [],
-    "notes": "Careers page promotes an ongoing Engineering Development Program but the job board runs on a JS-only Workit portal that could not be read; a separately found LinkedIn ad for Graduate Civil Engineer redirected to trk=expired_jd_redirect (confirmed expired), so no open junior role was verified."
-  },
-  "Taylors Development Strategists": {
-    "careers_url": "https://www.taylorsds.com.au/careers/join-our-team/",
-    "checked_at": "2026-09-28",
-    "open_junior_roles": [],
-    "notes": "Site's own careers pages list no postings; live roles found via its Dreamwork ATS (dreamworkhq.com/c/taylorsconsulting.com.au) are Senior Landscape Architect, Surveyor - Construction Engineering and Senior Surveyor - Engineering Design Survey, none junior/civil-engineer relevant."
-  },
-  "Spiire": {
-    "careers_url": "https://www.spiire.com.au/careers/",
-    "checked_at": "2026-09-28",
-    "open_junior_roles": [],
-    "notes": "Job board (spiire.elmotalent.com.au/careers/spiire/jobs) currently lists only Expressions of Interest - Civil Engineering (Townsville, EOI not a role), Student Town Planner (Brisbane), and Graduate Surveyor (Geelong) - no open graduate/junior civil engineer or drafter role."
-  },
-  "Reeds Consulting": {
-    "careers_url": "https://www.reedsconsulting.com.au/careers/",
-    "checked_at": "2026-09-28",
-    "open_junior_roles": [],
-    "notes": "Careers page explicitly states there are currently no new vacancies; only accepts speculative expressions of interest."
-  },
-  "Tonkin Consulting": {
-    "careers_url": "https://tonkin.com.au/current-opportunities",
-    "checked_at": "2026-09-28",
-    "open_junior_roles": [],
-    "notes": "Current opportunities list is Civil Program Lead (NSW), Principal Structural Engineer (Sydney), Senior Civil Engineer (Adelaide) and Senior Maritime Structural Engineer (Sydney) - all senior/lead roles, no graduate or junior openings."
-  },
-  "Calibre Group": {
-    "careers_url": "https://calibregroup.com/careers/ (redirects to https://www.wsp.com/en-au)",
-    "checked_at": "2026-09-28",
-    "open_junior_roles": [],
-    "notes": "Calibre Group was acquired by WSP Global in June 2023; its careers URL now 301-redirects to WSP's main site, so no standalone Calibre careers page or Calibre-branded junior civil roles exist to check."
-  },
-  "Winslow Constructors": {
-    "company_url": "https://www.winslow.com.au/",
-    "careers_url": "https://www.winslow.com.au/work-with-us",
-    "board": "job-opportunities.com.au portal (www.job-opportunities.com.au/go/All-Jobs/7882210/)",
-    "checked_at": "2026-09-28",
-    "result": "none",
-    "notes": "Job board read in full: 7 live postings. Only entry-adjacent ones are Site Engineer (Port Melbourne, requires 3-4 yrs civil infrastructure delivery experience - not junior) and 'EOI Engineering Under/Graduates' (Royston Park SA), which the advert itself states is an expression-of-interest listing, not an open vacancy. No suitable graduate/junior/cadet/drafter role currently open."
-  },
-  "Symal": {
-    "company_url": "https://symal.com.au/",
-    "careers_url": "https://symal.com.au/careers/",
-    "board": "SuccessFactors/Jobs2Web portal at careers.symal.com.au (career10.successfactors.com backend)",
-    "checked_at": "2026-09-28",
-    "result": "blocked",
-    "notes": "Careers portal is a fully client-rendered SPA; WebFetch and direct curl both return only the page shell on the home page, /search/, /go/Symal-Job-listing/ and /en/filter/. Two specific job IDs found via search (495026, 495300 'Project Engineer') either error out (SuccessFactors exception page) or return no content. Secondary sources (Talent.com listing id 610372363515404127, a LinkedIn search snippet) indicate an open 'Graduate Civil Engineer' / 'Graduate Engineer: Hands-on Civil & Infrastructure' role in Melbourne VIC under the Ignite graduate program, but the live advert could not be fetched to read or confirm current text, so no record was created."
-  },
-  "Civilex": {
-    "company_url": "https://civilexvic.com.au/",
-    "careers_url": "https://civilexvic.com.au/",
-    "board": "none found",
-    "checked_at": "2026-09-28",
-    "result": "blocked",
-    "notes": "civilexvic.com.au refused every connection across repeated attempts (503 via WebFetch, TLS connection reset via curl with a browser UA). LinkedIn company data describes Civilex Victoria Pty Ltd as now branded Symal ('Symal, previously known as Civilex'), so it may no longer run a standalone careers page - see Symal entry above."
-  },
-  "Bild Group": {
-    "company_url": "https://bild.group/",
-    "careers_url": "https://bild.group/careers/browse-careers/",
-    "board": "HiBob ATS at bildgroup.careers.hibob.com",
-    "checked_at": "2026-09-28",
-    "result": "none",
-    "notes": "The browse-careers page server-renders a title/department/location list: Estimator, Senior Estimator, Field Service Mechanic, HSE Advisor x2, Labourer, Multiskilled Plant Operator, Project Manager, Skid Steer/Bobcat Operator, Spreader Truck Operator, Supervisor - no graduate/junior/cadet/trainee/drafter title. The plain 'Estimator' (Campbellfield VIC HQ) is the closest match to 'junior estimator (civil)', but every individual HiBob job page is a client-only SPA that returned no readable advert text on repeated WebFetch and curl attempts, so its seniority/requirements could not be confirmed and no record was created."
-  },
-  "Delplant": {
-    "company_url": "https://delplant.com.au/",
-    "careers_url": "https://delplant.com.au/careers/",
-    "board": "none (own site, employment form)",
-    "checked_at": "2026-09-28",
-    "result": "none",
-    "notes": "Careers page read in full. Open roles: Labourers, Pipelayers, Plant Operators, Crew Leaders, Project Managers & Project Engineers (engineering/construction management degree plus minimum 5 years construction and water-industry experience - not junior), and a Truck Driver (Narre Warren). No graduate/junior/cadet/trainee/drafting role listed."
-  },
-  "TGM Group": {
-    "company_url": "https://tgmgroup.com (unreachable)",
-    "careers_url": "unknown - site unreachable",
-    "board": "unknown",
-    "checked_at": "2026-09-28",
-    "result": "blocked",
-    "notes": "tgmgroup.com and tgmgroup.com.au both failed on every attempt (TLS connection reset / proxy connect_rejected), so no page could be read at all. Background found via search: TGM Group Pty Ltd (Hawthorn VIC land-development engineering consultancy) was acquired by Cardno in 2018 and traded as 'Cardno TGM'; Cardno's ANZ operations were then acquired by Stantec in 2021. TGM likely no longer trades as an independent employer with its own careers page, which is consistent with the dead domain, but this could not be directly confirmed."
+{
+  "_about": "Employers verified by earlier runs: careers URL, apply route, named contacts with evidence. Grows over time; never guessed.",
+  "employers": {
+    "Beveridge Williams": {
+      "careers_url": "https://beveridgewilliams.com.au/careers/",
+      "checked_at": "2026-09-28",
+      "open_junior_roles": [],
+      "notes": "Careers page promotes an ongoing Engineering Development Program but the job board runs on a JS-only Workit portal that could not be read; a separately found LinkedIn ad for Graduate Civil Engineer redirected to trk=expired_jd_redirect (confirmed expired), so no open junior role was verified."
+    },
+    "Taylors Development Strategists": {
+      "careers_url": "https://www.taylorsds.com.au/careers/join-our-team/",
+      "checked_at": "2026-09-28",
+      "open_junior_roles": [],
+      "notes": "Site's own careers pages list no postings; live roles found via its Dreamwork ATS (dreamworkhq.com/c/taylorsconsulting.com.au) are Senior Landscape Architect, Surveyor - Construction Engineering and Senior Surveyor - Engineering Design Survey, none junior/civil-engineer relevant."
+    },
+    "Spiire": {
+      "careers_url": "https://www.spiire.com.au/careers/",
+      "checked_at": "2026-09-28",
+      "open_junior_roles": [],
+      "notes": "Job board (spiire.elmotalent.com.au/careers/spiire/jobs) currently lists only Expressions of Interest - Civil Engineering (Townsville, EOI not a role), Student Town Planner (Brisbane), and Graduate Surveyor (Geelong) - no open graduate/junior civil engineer or drafter role."
+    },
+    "Reeds Consulting": {
+      "careers_url": "https://www.reedsconsulting.com.au/careers/",
+      "checked_at": "2026-09-28",
+      "open_junior_roles": [],
+      "notes": "Careers page explicitly states there are currently no new vacancies; only accepts speculative expressions of interest."
+    },
+    "Tonkin Consulting": {
+      "careers_url": "https://tonkin.com.au/current-opportunities",
+      "checked_at": "2026-09-28",
+      "open_junior_roles": [],
+      "notes": "Current opportunities list is Civil Program Lead (NSW), Principal Structural Engineer (Sydney), Senior Civil Engineer (Adelaide) and Senior Maritime Structural Engineer (Sydney) - all senior/lead roles, no graduate or junior openings."
+    },
+    "Calibre Group": {
+      "careers_url": "https://calibregroup.com/careers/ (redirects to https://www.wsp.com/en-au)",
+      "checked_at": "2026-09-28",
+      "open_junior_roles": [],
+      "notes": "Calibre Group was acquired by WSP Global in June 2023; its careers URL now 301-redirects to WSP's main site, so no standalone Calibre careers page or Calibre-branded junior civil roles exist to check."
+    },
+    "Winslow Constructors": {
+      "company_url": "https://www.winslow.com.au/",
+      "careers_url": "https://www.winslow.com.au/work-with-us",
+      "board": "job-opportunities.com.au portal (www.job-opportunities.com.au/go/All-Jobs/7882210/)",
+      "checked_at": "2026-09-28",
+      "result": "none",
+      "notes": "Job board read in full: 7 live postings. Only entry-adjacent ones are Site Engineer (Port Melbourne, requires 3-4 yrs civil infrastructure delivery experience - not junior) and 'EOI Engineering Under/Graduates' (Royston Park SA), which the advert itself states is an expression-of-interest listing, not an open vacancy. No suitable graduate/junior/cadet/drafter role currently open."
+    },
+    "Symal": {
+      "company_url": "https://symal.com.au/",
+      "careers_url": "https://symal.com.au/careers/",
+      "board": "SuccessFactors/Jobs2Web portal at careers.symal.com.au (career10.successfactors.com backend)",
+      "checked_at": "2026-09-28",
+      "result": "blocked",
+      "notes": "Careers portal is a fully client-rendered SPA; WebFetch and direct curl both return only the page shell on the home page, /search/, /go/Symal-Job-listing/ and /en/filter/. Two specific job IDs found via search (495026, 495300 'Project Engineer') either error out (SuccessFactors exception page) or return no content. Secondary sources (Talent.com listing id 610372363515404127, a LinkedIn search snippet) indicate an open 'Graduate Civil Engineer' / 'Graduate Engineer: Hands-on Civil & Infrastructure' role in Melbourne VIC under the Ignite graduate program, but the live advert could not be fetched to read or confirm current text, so no record was created."
+    },
+    "Civilex": {
+      "company_url": "https://civilexvic.com.au/",
+      "careers_url": "https://civilexvic.com.au/",
+      "board": "none found",
+      "checked_at": "2026-09-28",
+      "result": "blocked",
+      "notes": "civilexvic.com.au refused every connection across repeated attempts (503 via WebFetch, TLS connection reset via curl with a browser UA). LinkedIn company data describes Civilex Victoria Pty Ltd as now branded Symal ('Symal, previously known as Civilex'), so it may no longer run a standalone careers page - see Symal entry above."
+    },
+    "Bild Group": {
+      "company_url": "https://bild.group/",
+      "careers_url": "https://bild.group/careers/browse-careers/",
+      "board": "HiBob ATS at bildgroup.careers.hibob.com",
+      "checked_at": "2026-09-28",
+      "result": "none",
+      "notes": "The browse-careers page server-renders a title/department/location list: Estimator, Senior Estimator, Field Service Mechanic, HSE Advisor x2, Labourer, Multiskilled Plant Operator, Project Manager, Skid Steer/Bobcat Operator, Spreader Truck Operator, Supervisor - no graduate/junior/cadet/trainee/drafter title. The plain 'Estimator' (Campbellfield VIC HQ) is the closest match to 'junior estimator (civil)', but every individual HiBob job page is a client-only SPA that returned no readable advert text on repeated WebFetch and curl attempts, so its seniority/requirements could not be confirmed and no record was created."
+    },
+    "Delplant": {
+      "company_url": "https://delplant.com.au/",
+      "careers_url": "https://delplant.com.au/careers/",
+      "board": "none (own site, employment form)",
+      "checked_at": "2026-09-28",
+      "result": "none",
+      "notes": "Careers page read in full. Open roles: Labourers, Pipelayers, Plant Operators, Crew Leaders, Project Managers & Project Engineers (engineering/construction management degree plus minimum 5 years construction and water-industry experience - not junior), and a Truck Driver (Narre Warren). No graduate/junior/cadet/trainee/drafting role listed."
+    },
+    "TGM Group": {
+      "company_url": "https://tgmgroup.com (unreachable)",
+      "careers_url": "unknown - site unreachable",
+      "board": "unknown",
+      "checked_at": "2026-09-28",
+      "result": "blocked",
+      "notes": "tgmgroup.com and tgmgroup.com.au both failed on every attempt (TLS connection reset / proxy connect_rejected), so no page could be read at all. Background found via search: TGM Group Pty Ltd (Hawthorn VIC land-development engineering consultancy) was acquired by Cardno in 2018 and traded as 'Cardno TGM'; Cardno's ANZ operations were then acquired by Stantec in 2021. TGM likely no longer trades as an independent employer with its own careers page, which is consistent with the dead domain, but this could not be directly confirmed."
+    },
+    "Robert Bird Group Pty Ltd": {
+      "careers_url": "https://surbanajurong.wd3.myworkdayjobs.com/en-US/RobertBirdGroup_Careers",
+      "checked_at": "2026-09-30",
+      "open_junior_roles": [
+        "Graduate Civil Engineer Melbourne JR118870"
+      ],
+      "notes": "Workday JSON-LD readable; ANZ employment@ cycle currently closed."
+    },
+    "SMEC Services Pty Limited": {
+      "careers_url": "https://surbanajurong.wd3.myworkdayjobs.com/en-US/careersatsmec",
+      "checked_at": "2026-09-30",
+      "open_junior_roles": [
+        "Graduate Civil Engineer Rail & Metro Melbourne JR118137"
+      ],
+      "notes": "GDP Rail Metro; portal only."
+    },
+    "Maker Consulting Services": {
+      "careers_url": "https://www.makercs.com.au/careers/",
+      "checked_at": "2026-09-30",
+      "open_junior_roles": [
+        "Graduate and Undergraduate Civil Engineers Newcastle SEEK 94936643"
+      ],
+      "notes": "Program apply inbox info@makereng.com.au on undergrad page; SEEK also open."
+    },
+    "Central Highlands Water": {
+      "careers_url": "https://www.livehire.com/careers/chw/jobs",
+      "checked_at": "2026-09-30",
+      "open_junior_roles": [
+        "Graduate Infrastructure Planning and Delivery"
+      ],
+      "notes": "LiveHire P6BA4; careers@ for discussion only."
+    }
   }
-}}
+}

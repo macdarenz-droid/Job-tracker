@@ -1,0 +1,432 @@
+[
+ {
+  "id": "5b69c7f5-2eeb-409b-ace1-c27ea19ed77b",
+  "key": "manual:5b69c7f5-2eeb-409b-ace1-c27ea19ed77b",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260930T1316Z",
+  "created_at": "2026-09-30T13:22:37.000Z",
+  "updated_at": "2026-09-30T13:22:37.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "3281374c-78b3-4201-b81a-b888b196acba",
+    "path": "/api/documents/3281374c-78b3-4201-b81a-b888b196acba",
+    "filename": "Marc_Masarate_Central_Highlands_Water_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-09-30T13:22:40.365Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "915d51c7-df45-4a03-85e3-d53f018dedd1",
+    "path": "/api/documents/915d51c7-df45-4a03-85e3-d53f018dedd1",
+    "filename": "Marc_Masarate_Central_Highlands_Water_Graduate_Infrastructure_Planning_and_Del_Cover_Letter.pdf",
+    "sha256": "68140482c36b5a2bd8306d76dbf75562294beeee49b6660db72a107f80cb408a",
+    "size_bytes": 47216,
+    "kind": "cover",
+    "uploaded_at": "2026-09-30T13:22:37.940Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Central Highlands Water",
+  "role": "Graduate Infrastructure Planning and Delivery",
+  "location": "Ballarat VIC",
+  "job_url": "https://www.seek.com.au/job/94932703",
+  "company_url": "https://www.chw.net.au/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.chw.net.au/about-us/careers/current-opportunities",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Graduate Infrastructure Planning and Delivery, Marc Masarate",
+  "email_body": "Hello,\n\nI'm applying for the Graduate Infrastructure Planning and Delivery role at Central Highlands Water in Ballarat, advertised on SEEK and on your LiveHire careers board.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design covering road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. I also hold a Bachelor of Science in Civil Engineering (Philippines, 2019). From 2019 to 2020 I worked on site in the Philippines as field engineer and project-in-charge, coordinating crews, inspections and progress records.\n\nI am Melton based, hold a White Card, an Australian driver's licence and own transport, and have full working rights until December 2027 on a Subclass 485 visa. I am available for site and regional work across the Central Highlands. I have not worked in an Australian water utility yet, so the planned rotations are the learning path I want.\n\nI've attached my resume and cover letter. Portfolio: https://macdarenz-droid.github.io/Portfolio.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Named graduate rotations in Infrastructure Planning and Delivery: role level +22.",
+   "Civil or similar preferred; Marc holds BSCE and Advanced Diploma of Civil Construction Design: discipline +12; Ballarat Victoria regional: location +8.",
+   "Direct public employer, link-out to employer portal; visa and police checks noted as pre-appointment, not a citizenship hard gate in the advert text."
+  ],
+  "gaps": [
+   "No Australian water-utility project experience",
+   "Project management fundamentals are coursework and site coordination only",
+   "Hybrid Ballarat office commute or temporary lodging to confirm"
+  ],
+  "match_score": {
+   "percent": 76,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Named graduate rotations in Infrastructure Planning and Delivery: role level +22.",
+    "Civil or similar preferred; Marc holds BSCE and Advanced Diploma of Civil Construction Design: discipline +12; Ballarat Victoria regional: location +8.",
+    "Direct public employer, link-out to employer portal; visa and police checks noted as pre-appointment, not a citizenship hard gate in the advert text."
+   ],
+   "caution": "Degree preferred wording; water utility rotations may be new compared with road and drainage coursework."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-09-29T01:15:13.878Z",
+   "expires_at": "2026-10-12T13:00:00.000Z",
+   "verified_at": "2026-09-30T13:17:40.000Z",
+   "apply_instructions": "SEEK link-out to Central Highlands Water careers or LiveHire portal; cover letter and resume required. Accessible-format requests go to applications@chw.net.au; confidential vacancy chat careers@chw.net.au or Stephanie Burzacott on 5320 3135.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Open https://www.livehire.com/careers/chw/job/P6BA4/OTL8X5MYWZ/graduate-infrastructure-planning-and-delivery and create or sign in to a LiveHire profile.",
+   "Attach resume and cover letter PDFs from this tracker record; answer portal questions honestly (485 visa, Melton base, no prior water-utility employment).",
+   "Submit before 5pm Tuesday 13 October 2026.",
+   "For accessible format or process help, contact Stephanie Burzacott on 5320 3135 or applications@chw.net.au as printed on the advert.",
+   "Press Applied on the tracker with the date and Company website."
+  ],
+  "notes": "Victorian regional water utility graduate. Formal apply is LiveHire. careers@chw.net.au is for confidential discussion only; do not send the full pack there unless Marc wants a discussion note after applying.\nChecked 2026-09-30. LiveHire job URL confirmed. careers@chw.net.au is for confidential discussion about vacancies, not stated as the apply inbox; formal apply is the LiveHire portal (cover letter and resume). applications@chw.net.au is for accessible format copies. Do not treat careers@ as a guaranteed application drop unless Marc wants a short enquiry note after or with the portal apply. Route: EMPLOYER_PORTAL primary. contact_confidence published_inbox for careers@ discussion only; status should be READY_JEREMIE_EMPLOYER_PORTAL unless sending a discussion note (not this run's email pick without portal Applied first per double-touch). Grok tick: left recipient_email empty so publish marks READY_JEREMIE_EMPLOYER_PORTAL; careers@chw.net.au remains discussion-only per site wording.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-09-29, closes 2026-10-12). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Stephanie Burzacott (Named on SEEK advert for confidential chat (phone 5320 3135); applications@chw.net.au for accessible advert format). Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate Infrastructure Planning and Delivery role on SEEK.\n• They may ask about: No Australian water-utility project experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Project management fundamentals are coursework and site coordination only → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Hybrid Ballarat office commute or temporary lodging to confirm → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-09-29, closes 2026-10-12). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Stephanie Burzacott (Named on SEEK advert for confidential chat (phone 5320 3135); applications@chw.net.au for accessible advert format). Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate Infrastructure Planning and Delivery role on SEEK.",
+   "They may ask about: No Australian water-utility project experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Project management fundamentals are coursework and site coordination only → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Hybrid Ballarat office commute or temporary lodging to confirm → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-09-30T13:22:37.000Z",
+  "seek_id": "94932703",
+  "duplicate_key": "centralhighlandswater|seek:94932703"
+ },
+ {
+  "id": "bfb28fb8-453f-4611-a312-08f996e53842",
+  "key": "manual:bfb28fb8-453f-4611-a312-08f996e53842",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260930T1316Z",
+  "created_at": "2026-09-30T13:22:41.000Z",
+  "updated_at": "2026-09-30T13:22:41.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "0fec3739-edab-4f50-bbcd-81f317a3a164",
+    "path": "/api/documents/0fec3739-edab-4f50-bbcd-81f317a3a164",
+    "filename": "Marc_Masarate_Maker_Consulting_Services_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-09-30T13:22:43.302Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "54bfda04-7fdc-441f-a72e-10d1df2f51a0",
+    "path": "/api/documents/54bfda04-7fdc-441f-a72e-10d1df2f51a0",
+    "filename": "Marc_Masarate_Maker_Consulting_Services_Graduate_and_Undergraduate_Civil_Enginee_Cover_Letter.pdf",
+    "sha256": "fff99b1a58c109a507ac299a27eddf7b9eab5bcc526c223f84ec90323b338089",
+    "size_bytes": 49876,
+    "kind": "cover",
+    "uploaded_at": "2026-09-30T13:22:42.223Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Maker Consulting Services",
+  "role": "Graduate and Undergraduate Civil Engineers",
+  "location": "Newcastle NSW",
+  "job_url": "https://www.seek.com.au/job/94936643",
+  "company_url": "https://makercs.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Undergraduate and Graduate program inbox",
+  "recipient_email": "info@makereng.com.au",
+  "contact_email": "info@makereng.com.au",
+  "contact_evidence_url": "https://www.makercs.com.au/undergrad-and-development-program/",
+  "contact_verified_at": "2026-09-30T13:22:41.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Graduate Civil Engineer, Newcastle, Marc Masarate",
+  "email_body": "Hello,\n\nI'm applying for the Graduate and Undergraduate Civil Engineers role in your Newcastle office, advertised on SEEK (job 94936643). Your undergrad and development program page asks for a resume and cover letter at this address, so I'm sending both for the Newcastle graduate path.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design covering road geometry, earthworks, pavement and stormwater design in AutoCAD and Civil 3D. I also hold a Bachelor of Science in Civil Engineering (Philippines, 2019). From April 2019 to February 2020 I worked on site in the Philippines as project-in-charge and field engineer, coordinating crews, inspections, materials and progress reports.\n\nI am Melton based, hold a White Card, an Australian driver's licence and own transport, and have full working rights until December 2027 on a Subclass 485 visa. I am available for site and regional work and open to discussing a move to Newcastle. I have no Australian consulting design experience yet, so mentoring on live Hunter projects is what I am looking for.\n\nI've attached my resume and cover letter. Drawings: https://macdarenz-droid.github.io/Portfolio.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Undergraduate or graduate civil role with mentoring: role level +22.",
+   "Roads, earthworks, stormwater and land development design match Advanced Diploma coursework and Civil 3D or AutoCAD: discipline +14; Newcastle relocation acceptable per eligibility: location +4.",
+   "Direct employer, SEEK apply, open to 29 Oct 2026; no citizenship or years gate printed."
+  ],
+  "gaps": [
+   "No Australian consulting design experience",
+   "Relocation to Newcastle not yet confirmed by Marc",
+   "Undergraduate timetable flexibility not applicable (already finished Advanced Diploma)"
+  ],
+  "match_score": {
+   "percent": 78,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Undergraduate or graduate civil role with mentoring: role level +22.",
+    "Roads, earthworks, stormwater and land development design match Advanced Diploma coursework and Civil 3D or AutoCAD: discipline +14; Newcastle relocation acceptable per eligibility: location +4.",
+    "Direct employer, SEEK apply, open to 29 Oct 2026; no citizenship or years gate printed."
+   ],
+   "caution": "Newcastle office; Marc is Melton-based and would need to confirm relocation before interview."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-09-29T02:47:20.586Z",
+   "expires_at": "2026-10-29T12:59:59.999Z",
+   "verified_at": "2026-09-30T13:17:20.000Z",
+   "apply_instructions": "Apply on SEEK with resume and cover letter.",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How much notice are you required to give your current employer?"
+   ]
+  },
+  "screening_answers": [
+   {
+    "question": "Which of the following statements best describes your right to work in Australia?",
+    "answer": "I have full working rights until December 2027 on a Subclass 485 visa (no sponsorship required for the visa period)."
+   },
+   {
+    "question": "How much notice are you required to give your current employer?",
+    "answer": "I am available to start; I am not in a role that requires employment notice."
+   }
+  ],
+  "checklist": [
+   "Decide whether you would relocate to Newcastle before applying.",
+   "Send the prepared email to info@makereng.com.au with both PDFs, or apply on SEEK job 94936643 with the same letter and resume.",
+   "Answer SEEK screening questions honestly (485 visa to December 2027; notice as above).",
+   "Submit while the advert is open (expires about 29 October 2026).",
+   "Press Applied on the tracker with the date and method (Email or SEEK)."
+  ],
+  "notes": "Direct Newcastle graduate or undergraduate civil role. Published program inbox info@makereng.com.au accepts resume and cover letter. SEEK apply also available. Relocation is Marc's call.\nChecked 2026-09-30. Employer site careers page invites outreach but shows phone numbers only in rendered HTML. Undergrad and Development Program page publishes info@makereng.com.au for resume and cover letter applications. Privacy policy publishes info@makercs.com.au for privacy requests only, not applications. SEEK 94936643 is not a link-out (apply on SEEK). Emailing the published program inbox is allowed as published_inbox; also prepare SEEK pack. Newcastle office phone not separately listed on contact page (Wollongong, Geelong, Shoalhaven only). No named Newcastle hiring email found on employer pages.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-09-29, closes 2026-10-29). Contact: the application inbox info@makereng.com.au published by the employer (https://www.makercs.com.au/undergrad-and-development-program/); no personal address was used. Named people seen on employer pages: Brandon Gathercole (Principal Civil Engineer, Newcastle (LinkedIn public profile; no published email)). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate and Undergraduate Civil Engineers role on SEEK.\n• They may ask about: No Australian consulting design experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Relocation to Newcastle not yet confirmed by Marc → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Undergraduate timetable flexibility not applicable (already finished Advanced Diploma) → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-09-29, closes 2026-10-29). Contact: the application inbox info@makereng.com.au published by the employer (https://www.makercs.com.au/undergrad-and-development-program/); no personal address was used. Named people seen on employer pages: Brandon Gathercole (Principal Civil Engineer, Newcastle (LinkedIn public profile; no published email)). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate and Undergraduate Civil Engineers role on SEEK.",
+   "They may ask about: No Australian consulting design experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Relocation to Newcastle not yet confirmed by Marc → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Undergraduate timetable flexibility not applicable (already finished Advanced Diploma) → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-09-30T13:22:41.000Z",
+  "seek_id": "94936643",
+  "duplicate_key": "makerconsultingservices|seek:94936643"
+ },
+ {
+  "id": "a2caa89d-bb88-42b4-a21e-17621855ab55",
+  "key": "manual:a2caa89d-bb88-42b4-a21e-17621855ab55",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260930T1316Z",
+  "created_at": "2026-09-30T13:22:45.000Z",
+  "updated_at": "2026-09-30T13:22:45.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "af0a5999-bed0-46c6-bf88-789ad5b2be1e",
+    "path": "/api/documents/af0a5999-bed0-46c6-bf88-789ad5b2be1e",
+    "filename": "Marc_Masarate_Robert_Bird_Group_Pty_Ltd_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-09-30T13:22:47.224Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "749bcc55-fb6c-4495-9c39-1e93fbd65f28",
+    "path": "/api/documents/749bcc55-fb6c-4495-9c39-1e93fbd65f28",
+    "filename": "Marc_Masarate_Robert_Bird_Group_Pty_Ltd_Graduate_Civil_Engineer_Cover_Letter.pdf",
+    "sha256": "c46d21824579c42b22025e9922411ddb7e8fd2241472bb8ac4510c0260d80580",
+    "size_bytes": 48639,
+    "kind": "cover",
+    "uploaded_at": "2026-09-30T13:22:46.080Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Robert Bird Group Pty Ltd",
+  "role": "Graduate Civil Engineer",
+  "location": "Melbourne VIC",
+  "job_url": "https://surbanajurong.wd3.myworkdayjobs.com/en-US/RobertBirdGroup_Careers/job/Graduate-Civil-Engineer_JR118870",
+  "company_url": "https://www.robertbird.com/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.robertbird.com/australia-new-zealand-undergraduate-and-graduate/",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Graduate Civil Engineer, Melbourne, Marc Masarate",
+  "email_body": "Hello,\n\nI'm applying for the Graduate Civil Engineer role in your Melbourne civil works and infrastructure team on the Robert Bird Group Workday board (JR118870).\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design covering road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. I hold a Bachelor of Science in Civil Engineering (Philippines, 2019). From 2019 to 2020 I worked on site in the Philippines as field engineer and project-in-charge.\n\nI am Melton based, hold a White Card, an Australian driver's licence and own transport, and have full working rights until December 2027 on a Subclass 485 visa. I have no Australian consulting experience yet and I will attach my academic transcript with the Workday application.\n\nI've attached my resume and cover letter. Portfolio: https://macdarenz-droid.github.io/Portfolio.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Named Melbourne graduate civil works and infrastructure role with development program: role level +22.",
+   "Civil works and infrastructure; Marc has BSCE and Advanced Diploma with AutoCAD and Civil 3D coursework: discipline +12; Melbourne: location +10.",
+   "Workday portal; graduated-within-2-years wording is met by the February 2026 Advanced Diploma completion; Bachelor of Engineering or Science in civil is met by BSCE."
+  ],
+  "gaps": [
+   "No Australian consulting experience",
+   "Academic transcript must be attached",
+   "October 2025 email graduate cycle on robertbird.com is closed; use Workday only"
+  ],
+  "match_score": {
+   "percent": 74,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Named Melbourne graduate civil works and infrastructure role with development program: role level +22.",
+    "Civil works and infrastructure; Marc has BSCE and Advanced Diploma with AutoCAD and Civil 3D coursework: discipline +12; Melbourne: location +10.",
+    "Workday portal; graduated-within-2-years wording is met by the February 2026 Advanced Diploma completion; Bachelor of Engineering or Science in civil is met by BSCE."
+   ],
+   "caution": "Academic transcript required; BSCE is from 2019 so lead with the 2026 Advanced Diploma as the recent graduate credential."
+  },
+  "advert": {
+   "source": "Robert Bird Group Workday (victoria_offsite)",
+   "listed_at": "2026-09-18",
+   "expires_at": "",
+   "verified_at": "2026-09-30T13:22:45.000Z",
+   "apply_instructions": "Apply on Workday with CV and academic transcript.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Open the Workday posting JR118870 and start Apply.",
+   "Upload resume, cover letter and academic transcript (Adv Dip and BSCE).",
+   "Do not email employment@robertbird.com.au; that ANZ graduate cycle page is currently closed.",
+   "Submit while the Workday posting remains open.",
+   "Press Applied on the tracker with the date and Company website."
+  ],
+  "notes": "Victoria offsite find via Workday JSON-LD. Portal only. Transcript required.\nemployment@robertbird.com.au is published on the ANZ undergraduate and graduate page but labelled Currently Closed for the October 2025 cycle. Live vacancy is the Workday JR118870 posting. No named Melbourne civil hiring email found. Portal only.\nHOW GROK AI FOUND THIS\nFound on Robert Bird Group Workday (victoria_offsite) (listed 2026-09-18). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate Civil Engineer role on SEEK.\n• They may ask about: No Australian consulting experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Academic transcript must be attached → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: October 2025 email graduate cycle on robertbird.com is closed; use Workday only → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on Robert Bird Group Workday (victoria_offsite) (listed 2026-09-18). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate Civil Engineer role on SEEK.",
+   "They may ask about: No Australian consulting experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Academic transcript must be attached → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: October 2025 email graduate cycle on robertbird.com is closed; use Workday only → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-09-30T13:22:45.000Z",
+  "duplicate_key": "robertbirdgroupptyltd|surbanajurong.wd3.myworkdayjobs.com/en-us/robertbirdgroup_careers/job/graduate-civil-engineer_jr118870"
+ },
+ {
+  "id": "3838b780-4d16-4173-b950-59032359e082",
+  "key": "manual:3838b780-4d16-4173-b950-59032359e082",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260930T1316Z",
+  "created_at": "2026-09-30T13:22:48.000Z",
+  "updated_at": "2026-09-30T13:22:48.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "3eaa3417-ef79-4a92-9e67-a6ae9c734b1b",
+    "path": "/api/documents/3eaa3417-ef79-4a92-9e67-a6ae9c734b1b",
+    "filename": "Marc_Masarate_SMEC_Services_Pty_Limited_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-09-30T13:22:49.941Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "20abb6fc-5768-4692-8d44-4d9a690cb92c",
+    "path": "/api/documents/20abb6fc-5768-4692-8d44-4d9a690cb92c",
+    "filename": "Marc_Masarate_SMEC_Services_Pty_Limited_Graduate_Civil_Engineer_Rail_Metro_Cover_Letter.pdf",
+    "sha256": "9863a41fe08ebdc04197e94d995e2acf2e8ceb49aaea62b42055dbce8a3e98df",
+    "size_bytes": 47852,
+    "kind": "cover",
+    "uploaded_at": "2026-09-30T13:22:48.851Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "SMEC Services Pty Limited",
+  "role": "Graduate Civil Engineer, Rail & Metro",
+  "location": "Melbourne VIC",
+  "job_url": "https://surbanajurong.wd3.myworkdayjobs.com/en-US/careersatsmec/job/Graduate-Civil-Engineer--Rail---Metro_JR118137",
+  "company_url": "https://www.smec.com/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Graduate Civil Engineer Rail and Metro, Marc Masarate",
+  "email_body": "Hello,\n\nI'm applying for the Graduate Civil Engineer, Rail and Metro role in Melbourne on the SMEC Workday board (JR118137).\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design covering road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. I hold a Bachelor of Science in Civil Engineering (Philippines, 2019). From 2019 to 2020 I worked on site in the Philippines as field engineer and project-in-charge.\n\nI am Melton based, hold a White Card, licence and transport, and have full working rights until December 2027 on a Subclass 485 visa. I have no rail or metro project experience yet; roads and drainage coursework and site coordination are what I bring into the graduate program.\n\nI've attached my resume and cover letter. Portfolio: https://macdarenz-droid.github.io/Portfolio.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Two-year SMEC Graduate Development Program, Rail and Metro Melbourne: role level +22.",
+   "Degree in civil or related; AutoCAD or Civil 3D exposure matches coursework; roads and drainage analysis under guidance: discipline +12; Melbourne: location +10.",
+   "No years-of-experience gate; rail and metro domain is new and disclosed as a gap, not a hard blocker."
+  ],
+  "gaps": [
+   "No rail or metro project experience",
+   "No Australian consulting experience",
+   "12D not used"
+  ],
+  "match_score": {
+   "percent": 73,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Two-year SMEC Graduate Development Program, Rail and Metro Melbourne: role level +22.",
+    "Degree in civil or related; AutoCAD or Civil 3D exposure matches coursework; roads and drainage analysis under guidance: discipline +12; Melbourne: location +10.",
+    "No years-of-experience gate; rail and metro domain is new and disclosed as a gap, not a hard blocker."
+   ],
+   "caution": "Rail and metro project context is new; transcript required on Workday."
+  },
+  "advert": {
+   "source": "SMEC Workday (victoria_offsite)",
+   "listed_at": "2026-09-17",
+   "expires_at": "",
+   "verified_at": "2026-09-30T13:22:48.000Z",
+   "apply_instructions": "Apply on Workday with CV and academic transcript.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Open Workday JR118137 and Apply with CV, cover letter and academic transcript.",
+   "Answer honestly that rail and metro experience is new.",
+   "Do not email SMEC staff directly; advert says recruitment goes through Resourcing.",
+   "Submit while the posting is open.",
+   "Press Applied on the tracker with the date and Company website."
+  ],
+  "notes": "Victoria offsite SMEC GDP Rail and Metro. Portal only. Rail gap disclosed.\nWorkday apply only. Advert says unsolicited agency resumes are not accepted and recruitment goes through Resourcing. No published graduate application inbox found on the posting.\nHOW GROK AI FOUND THIS\nFound on SMEC Workday (victoria_offsite) (listed 2026-09-17). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate Civil Engineer, Rail & Metro role on SEEK.\n• They may ask about: No rail or metro project experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian consulting experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: 12D not used → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SMEC Workday (victoria_offsite) (listed 2026-09-17). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate Civil Engineer, Rail & Metro role on SEEK.",
+   "They may ask about: No rail or metro project experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian consulting experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: 12D not used → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-09-30T13:22:48.000Z",
+  "duplicate_key": "smecservicesptylimited|surbanajurong.wd3.myworkdayjobs.com/en-us/careersatsmec/job/graduate-civil-engineer--rail---metro_jr118137"
+ }
+]

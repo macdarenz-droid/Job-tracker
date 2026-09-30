@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-09-30T13:21:38.328027+00:00",
+  "rotation": "victoria_offsite",
+  "boards": [
+    {
+      "board": "Robert Bird Group Workday",
+      "url": "https://surbanajurong.wd3.myworkdayjobs.com/en-US/RobertBirdGroup_Careers/job/Graduate-Civil-Engineer_JR118870",
+      "result": "found 1",
+      "notes": "JS shell; JobPosting JSON-LD readable via WebFetch. Melbourne civil works and infrastructure graduate."
+    },
+    {
+      "board": "SMEC Workday",
+      "url": "https://surbanajurong.wd3.myworkdayjobs.com/en-US/careersatsmec/job/Graduate-Civil-Engineer--Rail---Metro_JR118137",
+      "result": "found 1",
+      "notes": "Rail & Metro graduate GDP Melbourne; JSON-LD via WebFetch."
+    },
+    {
+      "board": "Central Highlands Water LiveHire",
+      "url": "https://www.livehire.com/careers/chw/job/P6BA4/OTL8X5MYWZ/graduate-infrastructure-planning-and-delivery",
+      "result": "found 1 (also on SEEK 94932703)",
+      "notes": "Graduate Infrastructure Planning and Delivery, Wendouree VIC, closes ~13 Oct 2026."
+    },
+    {
+      "board": "careers.vic.gov.au / Melton applynow",
+      "url": "https://www.careers.vic.gov.au/jobs",
+      "result": "browse.py unavailable this session (chromium path missing; proxy CA unreadable)",
+      "notes": "Fell back to WebSearch/WebFetch. No new junior civil keep beyond DTP already on tracker."
+    }
+  ]
+}

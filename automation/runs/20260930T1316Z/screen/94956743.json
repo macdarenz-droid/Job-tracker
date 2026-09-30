@@ -1,0 +1,40 @@
+{
+  "id": "94956743",
+  "percent": 22,
+  "rationale": [
+    "Scored from advert essentials for Formstruct Estimator.",
+    "Experience or licence gates dominate fit.",
+    "Not kept for contact research this run."
+  ],
+  "caution": "Below keep threshold or mandatory problem.",
+  "gaps": [
+    "Min 5 yrs Experience in Similar Role",
+    "Mine Site Experience"
+  ],
+  "mandatory_unmet": [
+    "Min 5 yrs Experience in Similar Role",
+    "Mine Site Experience"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "See SEEK advert.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Formstruct",
+  "title": "Estimator  - Civil & NPI",
+  "location": "Bibra Lake, Perth WA",
+  "url": "https://www.seek.com.au/job/94956743",
+  "listed_at": "2026-09-29T19:48:55.081Z",
+  "expires_at": "2026-10-30T12:59:59.999Z",
+  "screening_questions": [
+    "How many years' experience do you have as a Civil Estimator?",
+    "How many years' experience do you have as a project manager?",
+    "How many years of project management experience do you have?",
+    "How many years' experience do you have as a project engineer?",
+    "Which of the following statements best describes your right to work in Australia?",
+    "Do you have mine site experience?",
+    "Do you have experience preparing and submitting tenders?",
+    "Do you have a current Australian driver's licence?"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "94950957",
+  "percent": 25,
+  "rationale": [
+    "Scored from advert essentials for Milo Civil 5yrs.",
+    "Experience or licence gates dominate fit.",
+    "Not kept for contact research this run."
+  ],
+  "caution": "Below keep threshold or mandatory problem.",
+  "gaps": [
+    "A minimum of 5 years' engineering experience associated with the road construction industry"
+  ],
+  "mandatory_unmet": [
+    "A minimum of 5 years' engineering experience associated with the road construction industry"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "See SEEK advert.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Milo Geotechnical",
+  "title": "Civil Engineer",
+  "location": "Perth WA",
+  "url": "https://www.seek.com.au/job/94950957",
+  "listed_at": "2026-09-29T10:03:55.649Z",
+  "expires_at": "2026-10-29T12:59:59.999Z",
+  "screening_questions": [
+    "How many years' experience do you have as a civil engineer?",
+    "Which of the following types of infrastructure project do you have experience with?"
+  ]
+}

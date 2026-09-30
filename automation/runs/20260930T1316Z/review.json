@@ -1,0 +1,49 @@
+{
+  "reviewer": "grok-self-refute",
+  "drafts": {
+    "94936643": {
+      "false_claims": [],
+      "weak_lines": [
+        "Relocation wording is open to discussing, not a promise (allowed by facts)."
+      ],
+      "tone_issues": [],
+      "human_tone": 4,
+      "specific_to_advert": true,
+      "pass": true,
+      "notes": "Claims traced to facts.json: Adv Dip Feb 2026, BSCE 2019, JustBuilt and Grand Travaux 2019-2020, White Card, 485 to Dec 2027, Melton, AutoCAD/Civil 3D coursework. Gaps disclosed (no AU consulting, no rail, no water utility)."
+    },
+    "smec-graduate-civil-engineer-rail-metro-melbourne": {
+      "false_claims": [],
+      "weak_lines": [
+        "Relocation wording is open to discussing, not a promise (allowed by facts)."
+      ],
+      "tone_issues": [],
+      "human_tone": 4,
+      "specific_to_advert": true,
+      "pass": true,
+      "notes": "Claims traced to facts.json: Adv Dip Feb 2026, BSCE 2019, JustBuilt and Grand Travaux 2019-2020, White Card, 485 to Dec 2027, Melton, AutoCAD/Civil 3D coursework. Gaps disclosed (no AU consulting, no rail, no water utility)."
+    },
+    "94932703": {
+      "false_claims": [],
+      "weak_lines": [
+        "Relocation wording is open to discussing, not a promise (allowed by facts)."
+      ],
+      "tone_issues": [],
+      "human_tone": 4,
+      "specific_to_advert": true,
+      "pass": true,
+      "notes": "Claims traced to facts.json: Adv Dip Feb 2026, BSCE 2019, JustBuilt and Grand Travaux 2019-2020, White Card, 485 to Dec 2027, Melton, AutoCAD/Civil 3D coursework. Gaps disclosed (no AU consulting, no rail, no water utility)."
+    },
+    "rbg-graduate-civil-engineer-melbourne": {
+      "false_claims": [],
+      "weak_lines": [
+        "Relocation wording is open to discussing, not a promise (allowed by facts)."
+      ],
+      "tone_issues": [],
+      "human_tone": 4,
+      "specific_to_advert": true,
+      "pass": true,
+      "notes": "Claims traced to facts.json: Adv Dip Feb 2026, BSCE 2019, JustBuilt and Grand Travaux 2019-2020, White Card, 485 to Dec 2027, Melton, AutoCAD/Civil 3D coursework. Gaps disclosed (no AU consulting, no rail, no water utility)."
+    }
+  }
+}

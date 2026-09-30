@@ -1,0 +1,32 @@
+{
+  "id": "94960289",
+  "percent": 58,
+  "rationale": [
+    "Civil designer with Microstation or 12D preferred: role level +8 (not labelled junior).",
+    "Roads and drainage design: discipline +12; Busselton WA: location +2.",
+    "C-class licence, White Card and right to work listed; Microstation or 12D preferred not held as primary tools."
+  ],
+  "caution": "WA role; Microstation and 12D preferred; experience level unclear.",
+  "gaps": [
+    "Microstation and 12D not in facts.json software list",
+    "WA relocation",
+    "Police clearance not on file"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [
+    "Current C class driver\u2019s licence for WA role (D38)",
+    "Whether experience level is junior enough is unclear from advert"
+  ],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": "",
+  "apply_instructions": "Apply via City of Busselton portal; enquiries Todd Della Bosca Senior Technical Officer Design (08) 9781 1729.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "City of Busselton",
+  "title": "CIVIL DESIGNER",
+  "location": "Busselton, Bunbury & South West WA",
+  "url": "https://www.seek.com.au/job/94960289",
+  "listed_at": "2026-09-30T00:44:14.696Z",
+  "expires_at": "2026-10-19T08:30:00.000Z",
+  "screening_questions": []
+}

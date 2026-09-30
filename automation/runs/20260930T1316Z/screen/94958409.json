@@ -1,0 +1,32 @@
+{
+  "id": "94958409",
+  "percent": 40,
+  "rationale": [
+    "Scored from advert essentials for Right Connect Structural Drafter agency.",
+    "Experience or licence gates dominate fit.",
+    "Not kept for contact research this run."
+  ],
+  "caution": "Below keep threshold or mandatory problem.",
+  "gaps": [
+    "Previous experience in structural drafting or steel detailing expected"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [
+    "Previous experience in structural drafting or steel detailing expected"
+  ],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "See SEEK advert.",
+  "open": true,
+  "employer_is_agency": true,
+  "company": "Right Connect",
+  "title": "Structural Drafter",
+  "location": "Gillman, Adelaide SA",
+  "url": "https://www.seek.com.au/job/94958409",
+  "listed_at": "2026-09-29T23:28:11.370Z",
+  "expires_at": "2026-10-30T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a structural drafter?"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "94973025",
+  "percent": 30,
+  "rationale": [
+    "Scored from advert essentials for Optimum agency multi.",
+    "Experience or licence gates dominate fit.",
+    "Not kept for contact research this run."
+  ],
+  "caution": "Below keep threshold or mandatory problem.",
+  "gaps": [
+    "RPEQ or pathway; experience level unclear across multiple senior roles"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [
+    "RPEQ or pathway; experience level unclear across multiple senior roles"
+  ],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "See SEEK advert.",
+  "open": true,
+  "employer_is_agency": true,
+  "company": "Optimum Consulting Group",
+  "title": "Civil Engineer",
+  "location": "Brisbane QLD",
+  "url": "https://www.seek.com.au/job/94973025",
+  "listed_at": "2026-09-30T06:50:44.011Z",
+  "expires_at": "2026-10-30T12:59:59.999Z",
+  "screening_questions": []
+}
