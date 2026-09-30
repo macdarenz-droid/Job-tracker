@@ -1,0 +1,86 @@
+[
+ {
+  "id": "ed6d3d53-f970-4d38-917f-fd6c18bf81fe",
+  "key": "manual:ed6d3d53-f970-4d38-917f-fd6c18bf81fe",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260930T2319Z",
+  "created_at": "2026-09-30T23:30:04.000Z",
+  "updated_at": "2026-09-30T23:30:04.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Employment Matters",
+  "role": "CIVIL CONSTRUCTION TRAINEE",
+  "location": "Kingaroy, Toowoomba & Darling Downs QLD",
+  "job_url": "https://www.seek.com.au/job/94902917",
+  "status": "HELD_ELIGIBILITY_UNCONFIRMED",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "SEEK",
+  "fit": [
+   "Trainee role in civil construction with council roads and drainage maintenance overlaps Marc's site and drainage background.",
+   "Entry-level traineeship, no experience or degree required, only a 'C' class licence which Marc holds.",
+   "Regional Queensland (Kingaroy), acceptable under the location rubric though not VIC."
+  ],
+  "gaps": [
+   "Traineeship starts 1 Feb 2027 and leads only to a Cert II, well below Marc's Advanced Diploma and Bachelor's",
+   "Not clear if the First Start initiative is open to 485 visa holders"
+  ],
+  "match_score": {
+   "percent": 87,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Trainee role in civil construction with council roads and drainage maintenance overlaps Marc's site and drainage background.",
+    "Entry-level traineeship, no experience or degree required, only a 'C' class licence which Marc holds.",
+    "Regional Queensland (Kingaroy), acceptable under the location rubric though not VIC."
+   ],
+   "caution": "Rough fit, not an interview forecast; main unknown is whether the First Start initiative's target groups include Marc."
+  },
+  "notes": "Held by Grok AI: Advert is offered under the Queensland Government's 'First Start' initiative for 'groups of Queenslanders confronting restricted employment opportunities'; the specific eligibility criteria are not given, so it's unclear whether Marc qualifies",
+  "checked_at": "2026-09-30T23:30:04.000Z",
+  "seek_id": "94902917",
+  "duplicate_key": "employmentmatters|seek:94902917"
+ },
+ {
+  "id": "4f61373f-d1c0-4f45-87be-f96117d2ebfb",
+  "key": "manual:4f61373f-d1c0-4f45-87be-f96117d2ebfb",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260930T2319Z",
+  "created_at": "2026-09-30T23:30:04.000Z",
+  "updated_at": "2026-09-30T23:30:04.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Dubbo Regional Council",
+  "role": "Design Engineer",
+  "location": "Dubbo, Dubbo & Central NSW",
+  "job_url": "https://www.seek.com.au/job/94913320",
+  "status": "HELD_ELIGIBILITY_UNCONFIRMED",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMPLOYER_PORTAL",
+  "fit": [
+   "Preparing civil engineering plans and computer models for council infrastructure overlaps Marc's civil documentation and Civil 3D/AutoCAD coursework.",
+   "The advert states multiple possible entry qualifications, one of which (Associate Degree level) is close to Marc's Advanced Diploma.",
+   "Regional NSW (Dubbo), acceptable location; salary and allowances are stated."
+  ],
+  "gaps": [
+   "Survey equipment experience (GNSS rovers, digital levels, Total Stations, GPR) 'will be considered favourably' but is not essential; Marc has not used these",
+   "Local Government design experience specifically is new to Marc"
+  ],
+  "match_score": {
+   "percent": 84,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Preparing civil engineering plans and computer models for council infrastructure overlaps Marc's civil documentation and Civil 3D/AutoCAD coursework.",
+    "The advert states multiple possible entry qualifications, one of which (Associate Degree level) is close to Marc's Advanced Diploma.",
+    "Regional NSW (Dubbo), acceptable location; salary and allowances are stated."
+   ],
+   "caution": "Rough fit, not an interview forecast; main unknown is which qualification/experience band this specific vacancy is hiring into."
+  },
+  "notes": "Held by Grok AI: Ad lists alternative entry paths (Associate Degree, or 'demonstrated progression through a Bachelor of Civil Engineering... as recognised by Engineers Australia', or extensive design experience); whether Marc's overseas BSCE and Australian Advanced Diploma satisfy Engineers Australia recognition for the entry-level band is unclear; A higher band asks for 'extensive design experience in Local Government civil works', which Marc does not have; unclear which band this specific vacancy sits in",
+  "checked_at": "2026-09-30T23:30:04.000Z",
+  "seek_id": "94913320",
+  "duplicate_key": "dubboregionalcouncil|seek:94913320"
+ }
+]

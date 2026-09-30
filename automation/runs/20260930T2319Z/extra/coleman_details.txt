@@ -1,0 +1,26 @@
+{
+ "source": "seek",
+ "seek_id": "94951825",
+ "title": "Graduate Civil Engineer - Multiple Positions",
+ "abstract": "Graduate/ Site engineer, well established company offering an immediate start. Competitive salary. Great mentors. Sydney based. kenneth@crau.com.au",
+ "company": "Coleman Recruitment",
+ "advertiser_id": "32473854",
+ "location": "Sydney NSW",
+ "listed_at": "2026-09-29T11:04:32.530Z",
+ "expires_at": "2026-10-27T10:04:00.000Z",
+ "is_expired": false,
+ "is_link_out": false,
+ "work_type": "Full time",
+ "salary": null,
+ "classifications": [
+  "Civil/Structural Engineering (Engineering)"
+ ],
+ "bullets": [],
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?"
+ ],
+ "content_text": "This is an exclusive opportunity with a well-established civil engineering company with an excellent reputation. The positions are based in Sydney with both site engineering and junior estimating opportunities. \nThe company has previously engaged graduate engineers that are now project managers in the organization. The position will offer a diversity of projects and you won't get stuck on one project for a prolonged period of time.\n You will be given the opportunity here to advance your career and be given great guidance by a team that is extremely well-regarded in the industry. We will also accept applications from candidates that are on working holiday visas. \n The role will require the following: \n - Recent Graduate with Civil Degree or similar\n - Be locally based in Sydney \n - Excellent communication skills \n - Be content with an office and site position \n - 6-12 months experience is desired\n The role will see you exposed to earthworks, remediation, and general civil projects. This is an excellent opportunity and you will be mentored by the leaders of the business which should see you rise through the ranks if you demonstrate the right attitude and application to your work. \n This is a great chance for a recent graduate to start with a business that will offer you opportunities in abundance. Please apply below or email kenneth@crau.com.au as we are interviewing now for this role.",
+ "url": "https://www.seek.com.au/job/94951825",
+ "share_link": "https://au.seek.com/job/94951825?tracking=SHR-WEB-SharedJob-anz-1",
+ "checked_at": "2026-09-30T23:27:27.000Z"
+}

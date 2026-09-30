@@ -1,0 +1,219 @@
+[
+ {
+  "id": "01d49161-66c4-472b-a532-b73021055385",
+  "key": "manual:01d49161-66c4-472b-a532-b73021055385",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260930T2319Z",
+  "created_at": "2026-09-30T23:29:44.000Z",
+  "updated_at": "2026-09-30T23:29:44.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "53914ad9-e79e-4e6c-9b69-6c37405111fa",
+    "path": "/api/documents/53914ad9-e79e-4e6c-9b69-6c37405111fa",
+    "filename": "Marc_Masarate_Aurecon_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-09-30T23:29:46.716Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "0e58b281-4f46-4137-bd39-c939db7e8c66",
+    "path": "/api/documents/0e58b281-4f46-4137-bd39-c939db7e8c66",
+    "filename": "Marc_Masarate_Aurecon_Civil_Engineer_Land_Infrastructure_Cover_Letter.pdf",
+    "sha256": "576e6d69b8625ad49263d30ce07b29e474a3e83d209514d4722258fdaea72dff",
+    "size_bytes": 48216,
+    "kind": "cover",
+    "uploaded_at": "2026-09-30T23:29:45.481Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Aurecon",
+  "role": "Civil Engineer, Land Infrastructure",
+  "location": "Mackay QLD (SEEK lists Brisbane QLD)",
+  "job_url": "https://www.seek.com.au/job/94845689",
+  "company_url": "https://www.aurecongroup.com/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://aurecongroup.wd3.myworkdayjobs.com/en-US/aurecon/job/Senior-Civil-Engineer---Mackay_R32675",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Application: Civil Engineer, Land Infrastructure, Mackay, Marc Masarate",
+  "email_body": "Hello,\n\nI am applying for the Civil Engineer, Land Infrastructure role with Aurecon in Mackay (SEEK 94845689 / Workday R32675).\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design with road, earthworks, pavement and stormwater design in AutoCAD and Civil 3D. I also hold a Bachelor of Science in Civil Engineering (Philippines, 2019). From 2019 to 2020 I worked on site in the Philippines as project-in-charge and field engineer on a community hall renovation and residential subdivision finishing works.\n\nI am Melton based, hold a White Card, an Australian driver's licence and own transport, and have full working rights until December 2027 on a Subclass 485 visa. I am available for site, regional and FIFO work across Central Queensland, including Mackay. I do not yet have Australian land development consulting employment, so I would be joining for design, documentation and coordination support under mentoring.\n\nI have attached my resume and cover letter. Portfolio: https://macdarenz-droid.github.io/Portfolio.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Civil Engineer role covering land development, subdivision and civil documentation, a strong match for Marc's coursework and Civil 3D/AutoCAD background.",
+   "The listing notes RPEQ is only 'highly preferred' for more experienced candidates, suggesting some flexibility on seniority.",
+   "The role is based in Mackay, which sits within Central Queensland, an area Marc has explicitly said he is available for."
+  ],
+  "gaps": [
+   "Exact years of experience Aurecon expects for this role",
+   "Visa/work rights acceptance",
+   "Relocation/FIFO arrangement to Mackay"
+  ],
+  "match_score": {
+   "percent": 81,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Civil Engineer role covering land development, subdivision and civil documentation, a strong match for Marc's coursework and Civil 3D/AutoCAD background.",
+    "The listing notes RPEQ is only 'highly preferred' for more experienced candidates, suggesting some flexibility on seniority.",
+    "The role is based in Mackay, which sits within Central Queensland, an area Marc has explicitly said he is available for."
+   ],
+   "caution": "Rough fit, not an interview forecast; the exact experience level Aurecon expects for this specific opening is not stated in the summary."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-09-24T01:59:55.535Z",
+   "expires_at": "2026-10-24T01:59:53.000Z",
+   "verified_at": "2026-09-30T23:24:32.000Z",
+   "apply_instructions": "Apply via Aurecon Workday: https://aurecongroup.wd3.myworkdayjobs.com/en-US/aurecon/job/Senior-Civil-Engineer---Mackay_R32675",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Open Workday R32675 and confirm the Mackay Civil Engineer, Land Infrastructure posting is still live.",
+   "Upload resume and this cover letter PDF on Workday; do not claim Australian land development employment.",
+   "Answer work rights honestly: Subclass 485 until December 2027.",
+   "State availability for Mackay / Central Queensland FIFO or relocation discussion.",
+   "Press Applied on the tracker after portal submit with method Company website."
+  ],
+  "notes": "Advertised vacancy. Portal only. Workday URL slug contains Senior but posted title is Civil Engineer, Land Infrastructure. Experience in land development is requested without a stated year count; disclosed honestly as coursework plus Philippines site work only.\nChecked 2026-10-01. SEEK 94845689 links to Workday R32675. No published application email; portal only. WorkplaceAdjustment@aurecongroup.com is for recruitment adjustments only, not applications.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-09-24, closes 2026-10-24). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Civil Engineer, Land Infrastructure role on SEEK.\n• They may ask about: Exact years of experience Aurecon expects for this role → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Visa/work rights acceptance → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Relocation/FIFO arrangement to Mackay → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-09-24, closes 2026-10-24). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Civil Engineer, Land Infrastructure role on SEEK.",
+   "They may ask about: Exact years of experience Aurecon expects for this role → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Visa/work rights acceptance → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Relocation/FIFO arrangement to Mackay → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-09-30T23:29:44.000Z",
+  "seek_id": "94845689",
+  "duplicate_key": "aurecon|seek:94845689"
+ },
+ {
+  "id": "31fb5726-e3ca-40cc-ad82-4d1281833951",
+  "key": "manual:31fb5726-e3ca-40cc-ad82-4d1281833951",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20260930T2319Z",
+  "created_at": "2026-09-30T23:29:48.000Z",
+  "updated_at": "2026-09-30T23:29:48.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "92420442-e40b-4781-ae84-af8f2087fe58",
+    "path": "/api/documents/92420442-e40b-4781-ae84-af8f2087fe58",
+    "filename": "Marc_Masarate_Coleman_Recruitment_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-09-30T23:29:49.705Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "68a2c533-138d-4ce6-b519-924d576c43cb",
+    "path": "/api/documents/68a2c533-138d-4ce6-b519-924d576c43cb",
+    "filename": "Marc_Masarate_Coleman_Recruitment_Graduate_Civil_Engineer_Multiple_Positio_Cover_Letter.pdf",
+    "sha256": "642693e6e61800682fe075e90ee025e2fd54fb65928f65bfff421f6193b1d539",
+    "size_bytes": 47858,
+    "kind": "cover",
+    "uploaded_at": "2026-09-30T23:29:48.928Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Coleman Recruitment",
+  "role": "Graduate Civil Engineer - Multiple Positions",
+  "location": "Sydney NSW",
+  "job_url": "https://www.seek.com.au/job/94951825",
+  "company_url": "https://www.crau.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "Kenneth",
+  "recipient_role": "Recruitment consultant",
+  "recipient_email": "kenneth@crau.com.au",
+  "contact_email": "kenneth@crau.com.au",
+  "contact_evidence_url": "https://www.seek.com.au/job/94951825",
+  "contact_verified_at": "2026-09-30T23:29:48.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Graduate Civil Engineer, Sydney, Marc Masarate",
+  "email_body": "Hello Kenneth,\n\nI saw your SEEK listing for Graduate Civil Engineer roles in Sydney (job 94951825) and am writing to you directly as the advert asks applicants to email kenneth@crau.com.au.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design with road, earthworks, pavement and stormwater design in AutoCAD and Civil 3D. I also hold a Bachelor of Science in Civil Engineering (Philippines, 2019). From 2019 to 2020 I worked on site in the Philippines as project-in-charge and field engineer.\n\nI am Melton based, hold a White Card, an Australian driver's licence and own transport, and have full working rights until December 2027 on a Subclass 485 visa. I am open to discussing relocation to Sydney for a graduate or junior site and estimating path. I have under 12 months site experience and no Australian civil employment yet, which the advert's 6 to 12 months desired experience notes as preferred rather than essential.\n\nI have attached my resume and cover letter. Portfolio: https://macdarenz-droid.github.io/Portfolio.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Graduate or site engineer for recent civil graduate: role level +20.",
+   "Civil degree desired; site and junior estimating exposure: discipline +10; Sydney relocation: location +2.",
+   "Recruitment agency with unnamed employer: agency -10; 6-12 months experience desired not mandatory."
+  ],
+  "gaps": [
+   "Employer name not disclosed",
+   "Sydney relocation to confirm",
+   "No Australian site experience"
+  ],
+  "match_score": {
+   "percent": 62,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Graduate or site engineer for recent civil graduate: role level +20.",
+    "Civil degree desired; site and junior estimating exposure: discipline +10; Sydney relocation: location +2.",
+    "Recruitment agency with unnamed employer: agency -10; 6-12 months experience desired not mandatory."
+   ],
+   "caution": "Agency listing; named client unknown until contact. kenneth@crau.com.au on advert."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-09-29T11:04:32.530Z",
+   "expires_at": "2026-10-27T10:04:00.000Z",
+   "verified_at": "2026-09-30T23:24:36.000Z",
+   "apply_instructions": "Apply on SEEK or email kenneth@crau.com.au per advert.",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?"
+   ]
+  },
+  "screening_answers": [
+   {
+    "question": "Which of the following statements best describes your right to work in Australia?",
+    "answer": "I have a Subclass 485 visa with full working rights until December 2027."
+   }
+  ],
+  "checklist": [
+   "Confirm SEEK 94951825 still open and kenneth@crau.com.au still on the advert.",
+   "Send email with both PDFs to kenneth@crau.com.au only after shared lease is available.",
+   "Do not invent the end client name.",
+   "Disclose 485 work rights and Melton base with Sydney relocation discussion.",
+   "Press Applied on the tracker after send with method Email."
+  ],
+  "notes": "Agency listing. Apply email kenneth@crau.com.au published on SEEK advert. Client not named. Advert accepts working holiday visas and desires 6 to 12 months experience.\nAgency listing; client name not disclosed. Email published on the SEEK advert. Working holiday visas accepted per advert.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-09-29, closes 2026-10-27). Contact: the application inbox kenneth@crau.com.au published by the employer (https://www.seek.com.au/job/94951825); no personal address was used. Named people seen on employer pages: Kenneth (Coleman Recruitment consultant). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate Civil Engineer - Multiple Positions role on SEEK.\n• They may ask about: Employer name not disclosed → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Sydney relocation to confirm → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian site experience → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-09-29, closes 2026-10-27). Contact: the application inbox kenneth@crau.com.au published by the employer (https://www.seek.com.au/job/94951825); no personal address was used. Named people seen on employer pages: Kenneth (Coleman Recruitment consultant). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate Civil Engineer - Multiple Positions role on SEEK.",
+   "They may ask about: Employer name not disclosed → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Sydney relocation to confirm → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian site experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-09-30T23:29:48.000Z",
+  "seek_id": "94951825",
+  "duplicate_key": "colemanrecruitment|seek:94951825"
+ }
+]

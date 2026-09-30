@@ -1,0 +1,47 @@
+{
+  "run": "20260930T2319Z",
+  "rotation": "employers",
+  "rotate_index": 2,
+  "names_slice": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "checked_at": "2026-09-30T23:29:38Z",
+  "sources": [
+    {
+      "name": "ATC Williams",
+      "url": "https://atcwilliams.com/graduate-programs/",
+      "result": "blocked_prior_outreach (Cadet Civil Drafter MANUAL_APPLIED 2026-09-24 within 90 days). Graduate pathway EOI open year-round; Melb vacation intake dates listed."
+    },
+    {
+      "name": "Martens & Associates",
+      "url": "https://www.martens.com.au/careers/",
+      "result": "blocked_prior_outreach (Civil Drafter MANUAL_APPLIED 2026-09-25). Open Intern Civil Design Engineer and Civil Design Engineer posts; advert text prefers no restricted visa holders."
+    },
+    {
+      "name": "Civille",
+      "url": "https://www.civille.com.au/",
+      "result": "blocked_prior_outreach (Graduate Civil/Structural MANUAL_APPLIED / SEEK receipt 2026-09-26)."
+    },
+    {
+      "name": "Winslow Constructors",
+      "url": "https://winslow.com.au/work-with-us/graduate-program",
+      "result": "blocked_prior_outreach (Winslow Group undergraduate/graduate APPLICATION_UNDER_REVIEW 2026-09-27). Ballarat/Warrnambool cadet ads open via Move To More / Prosple; Prosple eligibility lists Citizen/PR."
+    },
+    {
+      "name": "Symal",
+      "url": "https://symal.com.au/programs/ignite/",
+      "result": "Ignite 2027 intake closed; reopens March 2027. Eligibility requires Australian or New Zealand citizen or permanent resident."
+    },
+    {
+      "name": "Civilex",
+      "url": "https://symal.com.au/programs/ignite/",
+      "result": "Civilex operates under Symal; same Ignite pathway. No separate open junior Civilex advert found this tick."
+    }
+  ],
+  "notes": "Employer rotation index 2 (names 12-17). All six blocked by recent outreach or citizen/PR / closed intake. Publishable records this tick came from SEEK backlog (Aurecon, Coleman) plus HELD for Dubbo/ACCIONA mandatory issues. Widening: d3,d7,d14 max80."
+}

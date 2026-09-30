@@ -1,0 +1,31 @@
+{
+ "source": "seek",
+ "seek_id": "94847757",
+ "title": "Civil Engineer - Water",
+ "abstract": "Multiple Civil opportunities across Brisbane and the Gold Coast. ",
+ "company": "Roach Recruitment",
+ "advertiser_id": "63884534",
+ "location": "Yatala, Gold Coast QLD",
+ "listed_at": "2026-09-24T02:51:17.508Z",
+ "expires_at": "2026-10-24T12:59:59.999Z",
+ "is_expired": false,
+ "is_link_out": false,
+ "work_type": "Full time",
+ "salary": "$130,000 – $180,000 per year + vehicle ",
+ "classifications": [
+  "Civil/Structural Engineering (Engineering)"
+ ],
+ "bullets": [],
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "What's your expected annual base salary?",
+  "How many years' experience do you have as a civil engineer?",
+  "How much notice are you required to give your current employer?",
+  "Have you worked in a role where you were responsible for authoring and reviewing technical documentation?",
+  "Do you have Quality Assurance Testing experience?"
+ ],
+ "content_text": "I’m currently looking to connect with Civil Engineers and civil construction professionals across Brisbane and the Gold Coast for a number of opportunities with clients delivering projects across pipelines, water infrastructure, utilities and broader civil works.\nThe roles I’m working on are varied, so I’m keen to speak with people from a range of backgrounds and experience levels.\nWhile pipeline experience is particularly sought after, your background may be in:\n- Civil Engineering\n- Site Engineering\n- Project Engineering\n- Pipeline construction\n- Water & sewer infrastructure\n- Quality Assurance / QA\n- Surveying\n- Utilities and associated civil works\nSome opportunities are heavily site focused, while others involve a broader mix of project delivery, engineering, QA, coordination, surveying and technical responsibilities.\nYou might be an experienced Civil or Project Engineer looking for your next project, or you may have developed your career through site delivery, QA or surveying and be looking for an opportunity to broaden your experience.\nWhat I'm Looking For\nIdeally, you will have experience within the civil construction or infrastructure sector, with exposure to areas such as pipelines, water, sewer, drainage, utilities or associated infrastructure.\nDepending on your background, this could include experience with:\n- Pipeline and civil construction projects\n- Site and subcontractor coordination\n- QA documentation, ITPs and inspections\n- Surveying, set-out and quantities\n- Construction planning and project delivery\n- Drawings, specifications and technical documentation\n- Progress reporting and project controls\n- Working alongside Project Managers, Supervisors, Engineers and Surveyors\nMost importantly, I’m interested in speaking with people who understand civil construction and project delivery and are open to hearing about opportunities across Brisbane and the Gold Coast.\nInterested in Hearing What's Out There?\nI’m currently working across several clients and opportunities, so even if you're not actively applying for jobs, I’m happy to have a confidential conversation about your experience, what you're looking for next and whether any of the projects I'm recruiting for could be a good fit.",
+ "url": "https://www.seek.com.au/job/94847757",
+ "share_link": "https://au.seek.com/job/94847757?tracking=SHR-WEB-SharedJob-anz-1",
+ "checked_at": "2026-09-30T23:27:28.000Z"
+}

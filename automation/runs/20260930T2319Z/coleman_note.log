@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/workspace/repos/Job-tracker/automation/scripts/tracker.py", line 309, in <module>
+    main()
+    ~~~~^^
+  File "/workspace/repos/Job-tracker/automation/scripts/tracker.py", line 297, in main
+    print(json.dumps(update_record(args.record_id, read_json(args.patch), args.expect_status), indent=1))
+                                                   ~~~~~~~~~^^^^^^^^^^^^
+  File "/workspace/repos/Job-tracker/automation/scripts/common.py", line 77, in read_json
+    return json.loads(Path(path).read_text(encoding='utf-8'))
+                      ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/pathlib/_local.py", line 548, in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/pathlib/_abc.py", line 632, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/pathlib/_local.py", line 539, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 36] File name too long: '{"notes": "Agency listing. Apply email kenneth@crau.com.au published on SEEK advert. Client not named. Advert accepts working holiday visas and desires 6 to 12 months experience.\\nAgency listing; client name not disclosed. Email published on the SEEK advert. Working holiday visas accepted per advert.\\nHOW GROK AI FOUND THIS\\nFound on SEEK (listed 2026-09-29, closes 2026-10-27). Contact: the application inbox kenneth@crau.com.au published by the employer (https:/www.seek.com.au/job/94951825); no personal address was used. Named people seen on employer pages: Kenneth (Coleman Recruitment consultant). Email held this tick: canonical shared journal lease not accessible from this box (CODEX/D41). Pack left PREPARED_NOT_SENT. Do not send until lease is acquired and duplicate/Gmail checks pass.\\n\\nIF THEY CALL, LIKELY QUESTIONS\\n\\u2022 How did you find us? \\u2192 Your advert for the Graduate Civil Engineer - Multiple Positions role on SEEK.\\n\\u2022 They may ask about: Employer name not disclosed \\u2192 answer honestly from the facts; nothing beyond them was claimed.\\n\\u2022 They may ask about: Sydney relocation to confirm \\u2192 answer honestly from the facts; nothing beyond them was claimed.\\n\\u2022 They may ask about: No Australian site experience \\u2192 answer honestly from the facts; nothing beyond them was claimed.\\n\\u2022 What are your work rights? \\u2192 Subclass 485 visa, full working rights until December 2027.\\n\\u2022 Tell me about your site experience. \\u2192 About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\\n\\u2022 What did you study in Australia? \\u2192 Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\\n\\u2022 Which software do you use? \\u2192 AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\\n\\u2022 Do you have a licence, White Card, transport? \\u2192 Yes to all three; also a Working with Children Check.\\n\\u2022 When could you start, and what salary? \\u2192 Answer honestly; nothing was promised in the application."}'

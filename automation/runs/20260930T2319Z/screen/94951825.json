@@ -1,0 +1,31 @@
+{
+  "id": "94951825",
+  "percent": 62,
+  "rationale": [
+    "Graduate or site engineer for recent civil graduate: role level +20.",
+    "Civil degree desired; site and junior estimating exposure: discipline +10; Sydney relocation: location +2.",
+    "Recruitment agency with unnamed employer: agency -10; 6-12 months experience desired not mandatory."
+  ],
+  "caution": "Agency listing; named client unknown until contact. kenneth@crau.com.au on advert.",
+  "gaps": [
+    "Employer name not disclosed",
+    "Sydney relocation to confirm",
+    "No Australian site experience"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "EMAIL",
+  "apply_email": "kenneth@crau.com.au",
+  "apply_instructions": "Apply on SEEK or email kenneth@crau.com.au per advert.",
+  "open": true,
+  "employer_is_agency": true,
+  "company": "Coleman Recruitment",
+  "title": "Graduate Civil Engineer - Multiple Positions",
+  "location": "Sydney NSW",
+  "url": "https://www.seek.com.au/job/94951825",
+  "listed_at": "2026-09-29T11:04:32.530Z",
+  "expires_at": "2026-10-27T10:04:00.000Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "94984460",
+  "source": "seek",
+  "company": "CONCRETE SEAL PTY LTD",
+  "title": "Cadet Estimator & Project Coordinator \u2014 Commercial Waterproofing",
+  "location": "Loganholme, Brisbane QLD",
+  "url": "https://www.seek.com.au/job/94984460",
+  "listed_at": "2026-09-30T22:54:04.280Z",
+  "expires_at": "2026-10-31T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a project coordinator?",
+    "How much notice are you required to give your current employer?",
+    "Do you have a current Australian driver's licence?",
+    "Do you have experience using Bluebeam?",
+    "How many years of estimating experience do you have?",
+    "Do you hold a Construction Induction Safety certificate (White Card)?",
+    "How many years' experience do you have as a Waterproofing Estimator?",
+    "How many years' experience do you have as a Waterproofing Applicator?"
+  ],
+  "percent": 35,
+  "rationale": [
+    "Cadet estimator and project coordinator in commercial waterproofing is not civil design, drafting or site civil delivery.",
+    "Marc has Advanced Diploma civil construction design and Philippines site work, not waterproofing estimating.",
+    "Entry cadet level is junior, but discipline overlap is weak."
+  ],
+  "caution": "Below the 60 percent fit bar; not a civil design or site engineering role.",
+  "gaps": [
+    "No waterproofing or commercial estimating experience",
+    "Not a civil infrastructure role"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": null,
+  "apply_instructions": null,
+  "open": true,
+  "employer_is_agency": false,
+  "notes": "Screened this tick; percent below threshold so not drafted."
+}
