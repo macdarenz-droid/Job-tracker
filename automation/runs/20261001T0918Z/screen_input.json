@@ -1,0 +1,469 @@
+{
+ "count": 8,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "94969508",
+   "company": "GPA Engineering",
+   "title": "Civil/Structural Drafter – ADL",
+   "run": "20260930T1316Z",
+   "percent": 42,
+   "mandatory_unmet": [
+    "Approximately 3–10 years of relevant civil and/or structural drafting and design experience"
+   ]
+  },
+  {
+   "id": "94961556",
+   "company": "Brunel",
+   "title": "Project Engineer - Civil",
+   "run": "20260930T1316Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "3+ years' experience in civil construction"
+   ]
+  },
+  {
+   "id": "94940114",
+   "company": "NOTAZ International PTY LTD",
+   "title": "Civil engineering draftsperson",
+   "run": "20260930T1316Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "At least 3 years' experience as a Civil engineering draftsperson"
+   ]
+  },
+  {
+   "id": "94939236",
+   "company": "Roesner and Hamilton Consulting Engineers Pty Ltd",
+   "title": "Civil Engineering Draftsperson",
+   "run": "20260930T1316Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Over 3 years of experience and qualified in Civil Drafting"
+   ]
+  },
+  {
+   "id": "94973025",
+   "company": "Optimum Consulting Group",
+   "title": "Civil Engineer",
+   "run": "20260930T1316Z",
+   "percent": 30,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94969016",
+   "company": "QCCS",
+   "title": "Civil Project Engineer",
+   "run": "20260930T1316Z",
+   "percent": 32,
+   "mandatory_unmet": [
+    "Proven experience as a Project Engineer within civil construction"
+   ]
+  },
+  {
+   "id": "94960289",
+   "company": "City of Busselton",
+   "title": "CIVIL DESIGNER",
+   "run": "20260930T1316Z",
+   "percent": 58,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94938260",
+   "company": "Strategic Project Delivery",
+   "title": "Civil Design Engineer",
+   "run": "20260930T1316Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "3–8+ years’ experience in civil engineering design"
+   ]
+  },
+  {
+   "id": "94935564",
+   "company": "Queanbeyan-Palerang Regional Council",
+   "title": "Trainee - Civil Construction",
+   "run": "20260930T1316Z",
+   "percent": 35,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94961163",
+   "company": "Brunel",
+   "title": "Project Engineer ",
+   "run": "20260930T1316Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "3+ years' experience in civil construction"
+   ]
+  },
+  {
+   "id": "94958409",
+   "company": "Right Connect",
+   "title": "Structural Drafter",
+   "run": "20260930T1316Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94950957",
+   "company": "Milo Geotechnical",
+   "title": "Civil Engineer",
+   "run": "20260930T1316Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "A minimum of 5 years' engineering experience associated with the road construction industry"
+   ]
+  },
+  {
+   "id": "94939016",
+   "company": "Egis",
+   "title": "Civil Engineer (Urban Development)",
+   "run": "20260930T1316Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "minimum of 5+ years’ experience as a civil engineer within a consultancy"
+   ]
+  },
+  {
+   "id": "94956743",
+   "company": "Formstruct",
+   "title": "Estimator  - Civil & NPI",
+   "run": "20260930T1316Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "Min 5 yrs Experience in Similar Role",
+    "Mine Site Experience"
+   ]
+  },
+  {
+   "id": "94936909",
+   "company": "City of Joondalup",
+   "title": "Skilled General Hand - Engineering Construction (Civil)",
+   "run": "20260930T1316Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "WA HR Class Driver’s Licence"
+   ]
+  },
+  {
+   "id": "94931757",
+   "company": "Core Talent",
+   "title": "Site Engineer",
+   "run": "20260930T1819Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Experienced Site Engineer with civil construction background on major infrastructure"
+   ]
+  },
+  {
+   "id": "94916158",
+   "company": "WYN&CO Search Recruitment & Payroll",
+   "title": "Civil Project Engineer",
+   "run": "20260928T1031Z",
+   "percent": 50,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94912548",
+   "company": "AWCON Pty Ltd",
+   "title": "Estimator – Mining & Civil Construction",
+   "run": "20260928T0532Z",
+   "percent": 77,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94978646",
+   "company": "Smith & Co",
+   "title": "Estimator",
+   "run": "20260930T1819Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "Experience as a Civil Estimator or Senior Estimator"
+   ]
+  },
+  {
+   "id": "94944895",
+   "company": "TTW (NSW) Pty Ltd",
+   "title": "Structural Revit Drafter",
+   "run": "20260930T1819Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94991390",
+   "company": "Sunshine Coast Council",
+   "title": "Design Engineer",
+   "run": "20261001T0417Z",
+   "percent": 42,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94987271",
+   "company": "Randstad - Construction, Property & Engineering",
+   "title": "Estimator",
+   "run": "20261001T0417Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Proven experience in civil construction estimating"
+   ]
+  },
+  {
+   "id": "94984460",
+   "company": "CONCRETE SEAL PTY LTD",
+   "title": "Cadet Estimator & Project Coordinator — Commercial Waterproofing",
+   "run": "20260930T2319Z",
+   "percent": 35,
+   "mandatory_unmet": []
+  }
+ ],
+ "candidates": [
+  {
+   "id": "95001351",
+   "source": "seek",
+   "title": "Graduate Engineering Officer",
+   "company": "City of Greater Geraldton",
+   "location": "Geraldton, Geraldton, Gascoyne & Midwest WA",
+   "url": "https://www.seek.com.au/job/95001351",
+   "work_type": "Full time",
+   "salary": "$92,692 per year + super",
+   "listed_at": "2026-10-01T08:21:15.899Z",
+   "expires_at": "2026-10-15T12:59:59.000Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "The Graduate Engineer will focus on engineering investigations, roads in compliance with MRWA, capital works and asset creation proposals.",
+   "opening": "Graduate Engineering Officer (Ref: 1348)\nAbout the position:\nThis position provides engineering support across the Infrastructure Services department with a focus on engineering investigations, roads in compliance with MRWA guidelines to regional road network and asset management, capital works, and asset creation proposals, including funding applications.  The role will also assist with civil design, drafting and estimating, and sustainability and environment initiatives.\nKey accountabilities:\n- Provide technical and engineering support to the Infrastructure Services department, under the general guidance of the Principal Engineer and Coordinator Design.\n- Assist in the assessment of town planning and building applications (including structure plans, subdivisions, stormwater management plans and strategies, and road use assessments), preparing draft comments and conditions notes on beha",
+   "key_lines": [
+    "Graduate Engineering Officer (Ref: 1348)",
+    "To gain a better understanding of the role or to discuss the position qualification requirements in detail, please call Chris Edwards, Manager Project Delivery and Engineering on (08) 9956 6949.",
+    "Position requirements:",
+    "The successful applicant will ideally hold a Degree in Civil Engineering or Design or progressing towards a Degree. Applicants with significant experience in the design and preparation of civil drawings in 12D and/or AutoCAD including project cost estimating will also be considered.",
+    "Completion of a pre-employment medical including alcohol and other substances testing is required of all positions at the City.",
+    "This position offers a salary starting from $92,692 per annum, commensurate with the successful applicant’s knowledge, skills, experience and qualifications.",
+    "Interested in applying?",
+    "Visit the City’s website: www.cgg.wa.gov.au/employment/ to apply for this position.",
+    "i. Experience in investigations and the preparation of engineering planning reports",
+    "iii. Developing knowledge and appreciation of relevant legislation, regulations, Australian Standards, Austroads and Main Roads WA guidelines, and current development engineering requirements within Western Australia (including IPWEA subdivision guidelines)",
+    "Applications close 4pm Thursday 15 October 2026."
+   ]
+  },
+  {
+   "id": "94996381",
+   "source": "seek",
+   "title": "Design Engineering Officer",
+   "company": "Mildura Rural City Council",
+   "location": "Mildura, Mildura & Murray VIC",
+   "url": "https://www.seek.com.au/job/94996381",
+   "work_type": "Full time",
+   "salary": "Commencing at $80,057.64 per year",
+   "listed_at": "2026-10-01T05:42:51.090Z",
+   "expires_at": "2026-10-15T12:59:59.000Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Help create roads, drainage and community infrastructure that makes a lasting difference across the Mildura region.",
+   "opening": "Bring infrastructure projects to life through innovative design, collaboration and technical engineering expertise.\nPosition details\n- Full Time\n- Job Number: R2799\n- Applications Close: 4pm, Thursday 15 October 2026\nAbout the Opportunity\nJoin Council’s Engineering Development & Delivery Branch and help shape practical infrastructure outcomes for the Mildura region. In this role, you will investigate, design and estimate road, drainage and other capital works projects, using tools such as AutoCAD and Civil 3D while collaborating with internal teams, authorities and community stakeholders. This is an excellent opportunity to apply your technical and problem-solving skills across varied projects that deliver lasting value for our community.\nWhat you will bring\nThe successful applicant will have the following:\n- Degree or Diploma in Civil / Mechanical / Structural Engineering with little ex",
+   "key_lines": [
+    "- Applications Close: 4pm, Thursday 15 October 2026",
+    "Join Council’s Engineering Development & Delivery Branch and help shape practical infrastructure outcomes for the Mildura region. In this role, you will investigate, design and estimate road, drainage and other capital works projects, using tools such as AutoCAD and Civil 3D while collaborating with internal teams, authorities and community stakeholders. This is an excellent opportunity to apply your technical and problem-solving skills across varied projects that deliver lasting value for our community.",
+    "- Degree or Diploma in Civil / Mechanical / Structural Engineering with little experience, or no formal qualifications but with relevant skills and experience within Civil Engineering, specifically road and drainage design.",
+    "- Demonstrated working knowledge of AutoCAD and Civil 3D, with proficiency in Microsoft Word and Excel.",
+    "- A current Driver’s Licence.",
+    "- Study Support Program with Paid Study Leave and Financial Contribution to Qualification Fees",
+    "We encourage people with a disability, lived experience of disability, Aboriginal and Torres Strait Islanders and people from culturally diverse backgrounds to apply for this position.",
+    "All applicants must have the right to work in Australia and will need to provide a Police Check prior to commencing employment.",
+    "Mildura Rural City Council is a Child Safe organisation and as such, applicants may be required to hold a Working with Children Check. Applicants may also be required to undergo a pre-employment medical check as per the requirements of the role.",
+    "Mildura Rural City Council is a dynamic local government organisation that provides 100+ different services, facilities, programs and infrastructure to a resident base of 56,000+. Our workforce of 600+ employees support our community and help make our region a great place to live, work, play and visit. As an employer of choice and a Gold Award winner in the Business Excellence Awards, we are committed to innovation, collaboration and continuous improvement. Learn more about our organisation at www.mildura.vic.gov.au",
+    "Applying for this position",
+    "All applications must include:"
+   ]
+  },
+  {
+   "id": "94958791",
+   "source": "seek",
+   "title": "Part-Time Civil Engineer (Tax-Free Pay)",
+   "company": "ADF Careers",
+   "location": "Perth WA",
+   "url": "https://www.seek.com.au/job/94958791",
+   "work_type": "Part time",
+   "salary": "$283/day tax-free",
+   "listed_at": "2026-10-01T04:46:48.739Z",
+   "expires_at": "2026-10-31T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "It is a requirement that you will maintain an ongoing level of fitness and undertake military training (including using a weapon). Are you willing to undertake these requirements?",
+    "This is a role within the Australian Defence Force. Do you acknowledge that you are applying to appoint/enlist in the military?"
+   ],
+   "summary": "Use your civil engineering skills to plan, design, coordinate, control and deliver infrastructure projects in this flexible, part-time role.  ",
+   "opening": "Your Role \nAs a Civil Engineer in the Army Reserve, you’ll get to use your existing qualifications in exciting new ways, applying your specialist skills to dynamic military environments. You’ll plan, design, coordinate, control and deliver a range of infrastructure engineering projects. \nThis is a great opportunity to challenge yourself and work in exciting new environments, without compromising your current career goals.  \n Your duties may include: \n- aiding the community in humanitarian efforts \n- construction of field defences and obstacles \n- military and training duties \n- project managing the construction, repair and maintenance of roads, airfields, sea terminals, railways, buildings and bridges \n- providing terrain assessment advice \n- provision of construction materials and essential services such as water, electricity, and sewerage disposal \n- general soldiering duties, such as ",
+   "key_lines": [
+    "As a Civil Engineer in the Army Reserve, you’ll get to use your existing qualifications in exciting new ways, applying your specialist skills to dynamic military environments. You’ll plan, design, coordinate, control and deliver a range of infrastructure engineering projects.",
+    "- provision of construction materials and essential services such as water, electricity, and sewerage disposal",
+    "- Easy to fit into your lifestyle with the option to work close to home",
+    "The pay you receive in the Army Reserve goes straight into your pocket with no deductions for tax, and it increases as you gain seniority and experience. Additional amounts are paid for time spent on exercises and deployments.",
+    "For this role, you must:",
+    "- Be at least 17 at the time of enlistment and an Australian Citizen.",
+    "- If you are not an Australian Citizen you may still be eligible to join the ADF if you meet certain criteria, please visit the ADF Careers Eligibility Page for more details",
+    "- Have had training in a branch of engineering with the practical experience required for graduate membership of the Institution of Engineers Australia (IEAust), or another chartered institution of similar status.",
+    "Apply Now",
+    "Apply today or request more information by calling 13 19 01 or emailing  applications@adfcareers.gov.au."
+   ]
+  },
+  {
+   "id": "94995704",
+   "source": "seek",
+   "title": "Structural/Civil Engineer",
+   "company": "Xeros Piccolo Consulting Engineers",
+   "location": "Wagga Wagga, Wagga Wagga & Riverina NSW",
+   "url": "https://www.seek.com.au/job/94995704",
+   "work_type": "Full time",
+   "salary": "$100,000 – $120,000 per year",
+   "listed_at": "2026-10-01T05:19:12.522Z",
+   "expires_at": "2026-10-31T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following types of infrastructure project do you have experience with?",
+    "Which of the following statements best describes your right to work in Australia?",
+    "Do you have design engineering experience in the construction industry?",
+    "How many years' experience do you have as a structural engineer?",
+    "Have you completed a qualification in structural engineering?",
+    "Are you willing to relocate for this role?",
+    "How would you rate your English language skills?",
+    "How many years' experience do you have in a consulting role?"
+   ],
+   "summary": "Work on challenging, high-profile projects, accelerate your career, and gain real responsibility from day one.",
+   "opening": "About Us\nXeros Piccolo Consulting Engineers is a leading Structural and Civil Engineering consultancy servicing the Riverina and regional New South Wales. For over 35 years, we have built a reputation for delivering practical, innovative, and high-quality engineering solutions across a diverse range of industries.\nOur team works on an extensive variety of projects including residential, commercial, industrial, agricultural, defence, and major infrastructure developments. We are known for tackling complex, challenging, and unconventional projects and delivering technically sound, cost-effective outcomes for our clients.\nWith several significant infrastructure and development projects currently underway across the Riverina and throughout NSW, there has never been a better time to join our growing team.\nThe Opportunity\nWe are seeking a motivated experienced Structural/Civil Engineer to join",
+   "key_lines": [
+    "Xeros Piccolo Consulting Engineers is a leading Structural and Civil Engineering consultancy servicing the Riverina and regional New South Wales. For over 35 years, we have built a reputation for delivering practical, innovative, and high-quality engineering solutions across a diverse range of industries.",
+    "Our team works on an extensive variety of projects including residential, commercial, industrial, agricultural, defence, and major infrastructure developments. We are known for tackling complex, challenging, and unconventional projects and delivering technically sound, cost-effective outcomes for our clients.",
+    "We are seeking a motivated experienced Structural/Civil Engineer to join our Wagga Wagga office.",
+    "- Engineers with 5+ years of industry experience looking to take the next step in their career.",
+    "Requirements",
+    "- A Bachelor's Degree in Civil or Structural Engineering (or be nearing completion).",
+    "- Five years' experience in designing timber, steel and concrete structures.",
+    "- Experience in medium-size concrete frame structures.",
+    "- Experience in Revit drafting.",
+    "- Competitive salary package based on experience and qualifications.",
+    "Apply Now",
+    "If you are a skilled Structural/Civil Engineer seeking a rewarding opportunity with an established consulting firm, we would like to hear from you. Please submit your resume and cover letter outlining your relevant experience to ella@xerospiccolo.com.au by 1st November 2026."
+   ]
+  },
+  {
+   "id": "94999649",
+   "source": "seek",
+   "title": "Project Engineer Building & Infrastructure",
+   "company": "CPB Contractors NSW ACT",
+   "location": "Melbourne VIC",
+   "url": "https://www.seek.com.au/job/94999649",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-01T07:15:53.894Z",
+   "expires_at": "2026-10-31T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Build infrastructure that will support Australia's Defence capability for the next 30 years.",
+   "opening": "Project Engineer | $1.7B Defence Infrastructure Project\nRelocation Support Available\nThe Riverina Redevelopment Joint Venture (RRJV), a 50/50 partnership between CPB Contractors and Downer, is delivering a landmark $1.7 billion Defence infrastructure program across regional New South Wales.\nSpanning RAAF Base Wagga, Blamey Barracks Kapooka, and Albury Wodonga Military Area, this transformational project will create world-class facilities and critical infrastructure that will support Defence operations for generations to come.\nAs project momentum continues to build, we're seeking an experienced Project Engineer to join our team at RAAF Base Wagga and help deliver one of Australia's most significant Defence infrastructure programs.\nLearn more about the project: https://rrjv.com.au/\nWhy Join RRJV?\nThis is more than a Project Engineer role.\nIt's an opportunity to play a key role in the deliv",
+   "key_lines": [
+    "As project momentum continues to build, we're seeking an experienced Project Engineer to join our team at RAAF Base Wagga and help deliver one of Australia's most significant Defence infrastructure programs.",
+    "Working closely with site teams, subcontractors, consultants, and project stakeholders, you'll help ensure works are delivered safely, efficiently, on schedule, and to the highest quality standards.",
+    "- Ensuring compliance with project standards and contractual requirements",
+    "- Degree qualification in Engineering",
+    "- 5-8 years of experience within building, infrastructure, or major construction projects",
+    "- Experience delivering commercial, residential, education, healthcare, accommodation, Defence, or institutional projects",
+    "- Australian Citizenship or Permanent Residency with the ability to obtain and maintain a Baseline Security Clearance",
+    "Apply today and be part of something that truly matters."
+   ]
+  },
+  {
+   "id": "94998155",
+   "source": "seek",
+   "title": "Cadet Engineer",
+   "company": "City of Newcastle",
+   "location": "Newcastle, Newcastle, Maitland & Hunter NSW",
+   "url": "https://www.seek.com.au/job/94998155",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-01T06:33:51.604Z",
+   "expires_at": "2026-10-17T12:59:59.000Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Build your future as a Graduate Engineer with us.",
+   "opening": "Here, your ideas and efforts directly shape the places where you and your community live, work, and play.\nCity of Newcastle has an opportunity for an Undergraduate Engineer to join our Planning and Development team\nThis position will see you make impact in assisting with core projects of our 2040 Community Strategic Plan with the aim to continue to build an attractive city that is built around people and reflects our sense of identity all whilst being supported in achieving your professional goals.\nWhat are the opportunities you will have?\nThis is a graduate position which will rotate between both the Traffic & Transport Section and the Engineering Assessment Section, which are both within our Planning & Environment Directorate.\nWhilst working with the Traffic & Transport Section, you will be assisting the team to:\n- Assess and determine transport and traffic applications\n- Gain experien",
+   "key_lines": [
+    "City of Newcastle has an opportunity for an Undergraduate Engineer to join our Planning and Development team",
+    "This is a graduate position which will rotate between both the Traffic & Transport Section and the Engineering Assessment Section, which are both within our Planning & Environment Directorate.",
+    "- Gain experience in preparing advice on local and strategic transport traffic planning issues including pedestrian, bicycle, parking, event management, and road freight matters.",
+    "This position will see you gain experience in preparing professional and technical development engineering advice to the community, external and internal customers, and management.",
+    "You’ll get to experience your work up close alongside the brilliant minds of your colleagues who care for one another and the region.",
+    "Whether we’re planning to host major events, providing essential services or supporting creative artists, it’s what we do when the cameras aren't rolling that matters most.",
+    "We champion inclusion so that everyone is valued, and we encourage innovation and creativity. We are committed to creating a safe and inclusive workplace where different styles, backgrounds, experiences, and perspectives are valued, encouraged, and respected.",
+    "People with diverse lived experiences (including but not limited to, Aboriginal and Torres Strait Islander Australians, people with diverse gender identities and sexualities, people from different cultural, racial, ethnic, religious and linguistic backgrounds, people with disability, carers, and veterans) are encouraged to apply.",
+    "If you need any adjustments to be made to the recruitment process or if you would like to discuss any accessibility requirements, please contact recruit@ncc.nsw.gov.au for a confidential discussion.",
+    "You must have the right to live and work in Australia to apply for this job."
+   ]
+  },
+  {
+   "id": "95002679",
+   "source": "seek",
+   "title": "Design Engineer",
+   "company": "Sunshine Coast Council",
+   "location": "Nambour, Sunshine Coast QLD",
+   "url": "https://www.seek.com.au/job/95002679",
+   "work_type": "Contract/Temp, Casual/Vacation, Full time",
+   "salary": null,
+   "listed_at": "2026-10-01T09:09:18.000Z",
+   "expires_at": "2026-10-31T09:14:26.975Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "As a Design Engineer, you will support and manage the design development of infrastructure projects within Council’s Capital Works Program. Working...",
+   "opening": "Why work with us?\nAt Council, we’re proud of our region. We collaborate with community to achieve truly sustainable outcomes, enhance our enviable lifestyle, and create award-winning places and spaces that are uniquely Sunshine Coast. So, if you love it here as much as we do, and you want to shape our region for the future – you’ll want to join our team!\nWith the vision to be Australia’s most sustainable region - Connected. Liveable. Thriving, our region is a model of sustainability, where caring for our environment, creating vibrant communities and growing our local economy is a way of life.\nAbout the Branch\nThe Design & Placemaking Services Branch plays a key role in planning and delivering infrastructure solutions that support one of Australia’s fastest-growing regions. The team provides expert engineering and design services, manages outsourced design programs, and develops innovativ",
+   "key_lines": [
+    "As a Design Engineer, you will support and manage the design development of infrastructure projects within Council’s Capital Works Program. Working closely with engineers, designers, stakeholders and external consultants, you will help deliver high-quality, cost-effective and sustainable engineering outcomes. This is an exciting opportunity to contribute to projects that improve community infrastructure while developing your technical expertise, project management capability and professional engineering career.",
+    "You hold tertiary qualifications in Civil Engineering or a related discipline and have experience delivering engineering, infrastructure or project-based outcomes within a complex environment.",
+    "You bring strong analytical and research capabilities, sound engineering judgement and a passion for developing innovative and practical solutions that deliver community value. For candidates at the senior level, experience working towards RPEQ registration will be highly regarded.",
+    "How to apply",
+    "- A 1-2 page cover letter demonstrating your ability to fulfil the mandatory and desirable requirements on the Position Profile. Keep the key responsibilities in mind when addressing this criteria; and",
+    "Once you have these two documents ready, click ‘Apply Now’ and follow the prompts to complete your application.",
+    "We're working hard to create an inclusive workplace that reflects the diverse community we serve. If you require adjustments at any stage of the recruitment process, please reach out to the Recruitment Team joinusnow@sunshinecoast.qld.gov.au.",
+    "At Sunshine Coast Council, we embrace differences in gender, age, ethnicity, race, cultural background including First Nations, disability, religion and sexual orientation. To deliver the best service to our region we want a workforce that reflects the diverse community that we serve. Sunshine Coast Council strongly encourages all suitable applicants to apply for this role."
+   ]
+  },
+  {
+   "id": "94994373",
+   "source": "seek",
+   "title": "Civil Project Engineer",
+   "company": "Tungsten Mining",
+   "location": "Perth WA",
+   "url": "https://www.seek.com.au/job/94994373",
+   "work_type": "Full time",
+   "salary": "Site Travel as Required",
+   "listed_at": "2026-10-01T04:30:30.386Z",
+   "expires_at": "2026-10-31T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a Civil Project Engineer?",
+    "How much notice are you required to give your current employer?"
+   ],
+   "summary": "Up and coming Civil Project Engineer to join Tungsten Mining’s project delivery team. Support our Watershed Project & learn from an experienced team!",
+   "opening": "The Role\nReporting to the Area Manager – Civil / NPI, you'll support the delivery of civil and non-process infrastructure projects across the Watershed Project and other company developments. You'll coordinate engineering, procurement and construction activities while helping drive safe and efficient project execution\n- Coordinating civil construction and infrastructure packages\n- Managing contractor and consultant interfaces\n- Reviewing designs, drawings and technical documentation\n- Supporting construction planning, scheduling and progress reporting\n- Monitoring costs, procurement and project performance\n- Driving quality assurance, inspections and project handovers\n- Promoting strong safety leadership across site activities\nAbout You\nWe're looking for a proactive Project Engineer who enjoys being part of a team, solving problems and helping projects move forward. To be considered for ",
+   "key_lines": [
+    "- Bachelor's Degree in Civil Engineering",
+    "- 3 to 7 years' experience in mining, infrastructure or heavy civil projects",
+    "- Experience managing contractors and engineering consultants",
+    "- Experience in EPC/EPCM or owner's team environments",
+    "Collaborating with an experienced and entrepreneurial team, your expertise, energy and innovation will contribute directly to overall project success and long-term value creation.",
+    "To Apply",
+    "If you're looking for a role where you can contribute to the successful delivery of a major mining development, work with experienced project professionals and make a lasting impact on critical infrastructure projects, we'd love to hear from you. Apply today!"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "95001351",
+  "percent": 34,
+  "rationale": [
+    "Graduate roads and drafting role would otherwise fit Advanced Diploma and BSCE.",
+    "City how-to-apply migration table: Temporary Residents with a valid Working Visa cannot apply for Permanent Positions.",
+    "485 visa is temporary; role is advertised as full time council employment."
+  ],
+  "caution": "Eligibility block for Subclass 485 on permanent council roles.",
+  "gaps": [
+    "No 12D on record",
+    "Geraldton relocation to be confirmed by Marc",
+    "Australian local government experience not on record"
+  ],
+  "mandatory_unmet": [
+    "City of Greater Geraldton Migration and Visa Requirements: Temporary Residents with a valid Working Visa = No for Permanent Positions (https://www.cgg.wa.gov.au/work/work-with-us/employment/how-to-apply.aspx)"
+  ],
+  "mandatory_unresolved": [],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": "",
+  "apply_instructions": "Apply via City of Greater Geraldton Current Vacancies portal (T1 CiAnywhere). Enquiries Chris Edwards Manager Project Delivery and Engineering (08) 9956 6949. Closes per SEEK ~15 Oct 2026.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "City of Greater Geraldton",
+  "title": "Graduate Engineering Officer",
+  "location": "Geraldton, Geraldton, Gascoyne & Midwest WA",
+  "url": "https://www.seek.com.au/job/95001351",
+  "listed_at": "2026-10-01T08:21:15.899Z",
+  "expires_at": "2026-10-15T12:59:59.000Z",
+  "screening_questions": []
+}

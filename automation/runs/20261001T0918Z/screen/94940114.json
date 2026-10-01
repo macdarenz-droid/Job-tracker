@@ -1,0 +1,35 @@
+{
+  "id": "94940114",
+  "percent": 30,
+  "rationale": [
+    "Melbourne drafting role with Advanced Diploma match.",
+    "Requires at least 3 years as civil draftsperson and mentoring juniors.",
+    "Mandatory years unmet."
+  ],
+  "caution": "Experienced Project Drafter.",
+  "gaps": [
+    "At least 3 years civil drafting experience"
+  ],
+  "mandatory_unmet": [
+    "At least 3 years' experience as a Civil engineering draftsperson"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "SEEK apply",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "NOTAZ International PTY LTD",
+  "title": "Civil engineering draftsperson",
+  "location": "Doncaster East, Melbourne VIC",
+  "url": "https://www.seek.com.au/job/94940114",
+  "listed_at": "2026-09-29T04:18:23.034Z",
+  "expires_at": "2026-10-29T13:36:45.058Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a civil drafter?",
+    "How much notice are you required to give your current employer?",
+    "How many years' experience do you have as a Civil Design Draftsperson?"
+  ]
+}

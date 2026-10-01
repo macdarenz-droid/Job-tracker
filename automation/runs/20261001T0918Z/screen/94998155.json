@@ -1,0 +1,30 @@
+{
+  "id": "94998155",
+  "percent": 58,
+  "rationale": [
+    "Cadet or graduate rotation in traffic transport and engineering assessment looks early career.",
+    "Advert calls for an Undergraduate Engineer; Marc has finished degrees, not currently enrolled.",
+    "NSW regional; under threshold until undergrad eligibility is confirmed from the PD."
+  ],
+  "caution": "Undergraduate wording may exclude finished graduates.",
+  "gaps": [
+    "May require current undergraduate enrolment",
+    "NSW move to be confirmed"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [
+    "Advert seeks an Undergraduate Engineer; position description not retrieved to confirm whether finished graduates are eligible"
+  ],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": "",
+  "apply_instructions": "Apply via City of Newcastle careers (SEEK link out).",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "City of Newcastle",
+  "title": "Cadet Engineer",
+  "location": "Newcastle, Newcastle, Maitland & Hunter NSW",
+  "url": "https://www.seek.com.au/job/94998155",
+  "listed_at": "2026-10-01T06:33:51.604Z",
+  "expires_at": "2026-10-17T12:59:59.000Z",
+  "screening_questions": []
+}

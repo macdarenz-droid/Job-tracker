@@ -1,0 +1,210 @@
+[
+ {
+  "id": "b25d8416-f97f-42d0-95b8-03f87be84d29",
+  "key": "manual:b25d8416-f97f-42d0-95b8-03f87be84d29",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261001T0918Z",
+  "created_at": "2026-10-01T09:24:41.000Z",
+  "updated_at": "2026-10-01T09:24:41.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "8bd01c51-adff-4bf3-857e-27fb6b753070",
+    "path": "/api/documents/8bd01c51-adff-4bf3-857e-27fb6b753070",
+    "filename": "Marc_Masarate_City_of_Busselton_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-01T09:24:43.218Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "31137a8e-0b45-457a-8ed8-f311c67d1276",
+    "path": "/api/documents/31137a8e-0b45-457a-8ed8-f311c67d1276",
+    "filename": "Marc_Masarate_City_of_Busselton_CIVIL_DESIGNER_Cover_Letter.pdf",
+    "sha256": "e8543891bef21eafe2ad059c498cb05aeb0f994b3c47a11c3d43a8cc18926554",
+    "size_bytes": 47077,
+    "kind": "cover",
+    "uploaded_at": "2026-10-01T09:24:41.993Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "City of Busselton",
+  "role": "CIVIL DESIGNER",
+  "location": "Busselton, Bunbury & South West WA",
+  "job_url": "https://www.seek.com.au/job/94960289",
+  "company_url": "https://www.busselton.wa.gov.au/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/94960289",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Application: Civil Designer, Marc Darenz Masarate",
+  "email_body": "Hello,\n\nI am preparing an application for the Civil Designer role at the City of Busselton (SEEK job 94960289), closing 4.30pm on 19 October 2026.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design with road, earthworks, pavement and stormwater design in AutoCAD and Civil 3D. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019). From 2019 to 2020 I worked on site in the Philippines as field engineer and project-in-charge.\n\nI am Melton based, hold a White Card, an Australian driver's licence and own transport, and have full working rights until December 2027 on a Subclass 485 visa. I am available for regional work and open to discussing relocation. The role's roads, drainage and civil infrastructure design work matches my Advanced Diploma focus. I have not used Microstation or 12D; my CAD tools are AutoCAD and Civil 3D, and I am willing to learn Council's preferred packages.\n\nI have attached my resume and cover letter for the online application.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Civil Designer for roads, drainage and capital works; tertiary civil qualification accepted.",
+   "CAD skills required; Microstation and 12D preferred; Marc has AutoCAD and Civil 3D.",
+   "Direct council employer in regional WA with relocation assistance mentioned; closes 19 Oct 2026."
+  ],
+  "gaps": [
+   "No Microstation or 12D on record",
+   "Busselton relocation to be confirmed",
+   "No Australian municipal design experience"
+  ],
+  "match_score": {
+   "percent": 66,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Civil Designer for roads, drainage and capital works; tertiary civil qualification accepted.",
+    "CAD skills required; Microstation and 12D preferred; Marc has AutoCAD and Civil 3D.",
+    "Direct council employer in regional WA with relocation assistance mentioned; closes 19 Oct 2026."
+   ],
+   "caution": "Microstation and 12D preferred; not on Marc record."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-09-30T00:44:14.696Z",
+   "expires_at": "2026-10-19T08:30:00.000Z",
+   "verified_at": "2026-10-01T09:19:54.000Z",
+   "apply_instructions": "Apply via SEEK Apply prompts with resume and brief letter. Enquiries Todd Della Bosca Senior Technical Officer Design (08) 9781 1729 or HR (08) 9781 1727. Closes 4.30pm 19 Oct 2026.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Open SEEK job 94960289 and follow Apply prompts to the City portal",
+   "Attach cover letter PDF and resume PDF",
+   "Confirm White Card and C class licence details if asked",
+   "Submit before 4.30pm 19 October 2026",
+   "Update tracker to MANUAL_APPLIED after Marc or Jeremie lodges"
+  ],
+  "notes": "No published application email. Portal or SEEK apply only. Enquiries phone Todd Della Bosca or HR.\nChecked 2026-10-01. Advert publishes phone contacts only. No employer-published application email found. Apply via SEEK or council apply prompts.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-09-30, closes 2026-10-19). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Todd Della Bosca (Senior Technical Officer Design). Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the CIVIL DESIGNER role on SEEK.\n• They may ask about: No Microstation or 12D on record → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Busselton relocation to be confirmed → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian municipal design experience → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-09-30, closes 2026-10-19). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Todd Della Bosca (Senior Technical Officer Design). Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the CIVIL DESIGNER role on SEEK.",
+   "They may ask about: No Microstation or 12D on record → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Busselton relocation to be confirmed → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian municipal design experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-01T09:24:41.000Z",
+  "seek_id": "94960289",
+  "duplicate_key": "cityofbusselton|seek:94960289"
+ },
+ {
+  "id": "cf661086-54ce-4364-abf7-baffa2718c3e",
+  "key": "manual:cf661086-54ce-4364-abf7-baffa2718c3e",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261001T0918Z",
+  "created_at": "2026-10-01T09:24:44.000Z",
+  "updated_at": "2026-10-01T09:24:44.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "404bae4c-e599-47a3-abb7-a0faa31ff52a",
+    "path": "/api/documents/404bae4c-e599-47a3-abb7-a0faa31ff52a",
+    "filename": "Marc_Masarate_Mildura_Rural_City_Council_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-01T09:24:46.608Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "321ac14d-7b63-4796-9a79-e8eb51f18815",
+    "path": "/api/documents/321ac14d-7b63-4796-9a79-e8eb51f18815",
+    "filename": "Marc_Masarate_Mildura_Rural_City_Council_Design_Engineering_Officer_Cover_Letter.pdf",
+    "sha256": "a639b41deb112da229226424d56c23b4172bc96b084ae1da0fbd56c95ed70b2d",
+    "size_bytes": 50272,
+    "kind": "cover",
+    "uploaded_at": "2026-10-01T09:24:45.406Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Mildura Rural City Council",
+  "role": "Design Engineering Officer",
+  "location": "Mildura, Mildura & Murray VIC",
+  "job_url": "https://www.seek.com.au/job/94996381",
+  "company_url": "https://www.mildura.vic.gov.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Human Resources",
+  "recipient_email": "humanresources@mildura.vic.gov.au",
+  "contact_email": "humanresources@mildura.vic.gov.au",
+  "contact_evidence_url": "https://www.mildura.vic.gov.au/Council/Careers/Applying-for-a-position-with-us",
+  "contact_verified_at": "2026-10-01T09:24:44.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Application: Design Engineering Officer R2799, Marc Darenz Masarate",
+  "email_body": "Hello,\n\nI am applying for Design Engineering Officer (R2799) at Mildura Rural City Council, seen on SEEK and on the Council careers page. Applications are directed to humanresources@mildura.vic.gov.au.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design with road, earthworks, pavement and stormwater design in AutoCAD and Civil 3D. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019). From 2019 to 2020 I worked on site in the Philippines as field engineer and project-in-charge.\n\nI am based in Melton VIC, hold a White Card, an Australian driver's licence and own transport, and have full working rights until December 2027 on a Subclass 485 visa. I am available for regional work and open to discussing relocation for the right role. The role's focus on road and drainage design with AutoCAD and Civil 3D matches the documentation work in my Advanced Diploma. I do not yet have Australian design office experience, so I would learn Council standards under supervision.\n\nI have attached my resume and cover letter. I will also complete the Job Application Form from the Council careers page. Please let me know if anything further is needed.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Diploma or degree with little experience accepted; road and drainage design with AutoCAD and Civil 3D matches Advanced Diploma coursework.",
+   "Victoria regional Mildura location fits relocation discussion; Band 5 officer level is open to early career.",
+   "Direct council employer; applications close 15 Oct 2026; apply by email to Council HR."
+  ],
+  "gaps": [
+   "No Australian civil design office experience on record",
+   "Mildura relocation to be confirmed by Marc"
+  ],
+  "match_score": {
+   "percent": 78,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Diploma or degree with little experience accepted; road and drainage design with AutoCAD and Civil 3D matches Advanced Diploma coursework.",
+    "Victoria regional Mildura location fits relocation discussion; Band 5 officer level is open to early career.",
+    "Direct council employer; applications close 15 Oct 2026; apply by email to Council HR."
+   ],
+   "caution": "Demonstrated working knowledge of road and drainage design is stated; Marc has coursework and Philippines site work, not Australian design office experience."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-01T05:42:51.090Z",
+   "expires_at": "2026-10-15T12:59:59.000Z",
+   "verified_at": "2026-10-01T09:19:51.000Z",
+   "apply_instructions": "Email covering letter, completed Job Application Form and resume to humanresources@mildura.vic.gov.au by 4pm 15 Oct 2026 (ref R2799). PD and form from www.mildura.vic.gov.au/Jobs.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Download Position Description and Job Application Form from www.mildura.vic.gov.au/Jobs or the vacancy page",
+   "Complete Job Application Form addressing key selection criteria",
+   "Attach cover letter PDF and resume PDF",
+   "Email package to humanresources@mildura.vic.gov.au before 4pm 15 October 2026 quoting R2799",
+   "Keep sent copy and update tracker when lodged"
+  ],
+  "notes": "Council prefers email applications to humanresources@mildura.vic.gov.au. Job Application Form is mandatory beside letter and resume.\nChecked 2026-10-01. Applying page states applications by email to humanresources@mildura.vic.gov.au with covering letter, Job Application Form and resume. General council email mrcc@mildura.vic.gov.au is not the applications inbox.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-01, closes 2026-10-15). Contact: the application inbox humanresources@mildura.vic.gov.au published by the employer (https://www.mildura.vic.gov.au/Council/Careers/Applying-for-a-position-with-us); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Design Engineering Officer role on SEEK.\n• They may ask about: No Australian civil design office experience on record → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Mildura relocation to be confirmed by Marc → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-01, closes 2026-10-15). Contact: the application inbox humanresources@mildura.vic.gov.au published by the employer (https://www.mildura.vic.gov.au/Council/Careers/Applying-for-a-position-with-us); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Design Engineering Officer role on SEEK.",
+   "They may ask about: No Australian civil design office experience on record → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Mildura relocation to be confirmed by Marc → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-01T09:24:44.000Z",
+  "seek_id": "94996381",
+  "duplicate_key": "milduraruralcitycouncil|seek:94996381"
+ }
+]
