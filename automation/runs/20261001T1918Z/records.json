@@ -1,0 +1,209 @@
+[
+ {
+  "id": "853d0c68-b09e-48ff-9cb6-f88ec83ae60e",
+  "key": "manual:853d0c68-b09e-48ff-9cb6-f88ec83ae60e",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261001T1918Z",
+  "created_at": "2026-10-01T19:32:12.000Z",
+  "updated_at": "2026-10-01T19:32:12.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "5a72fd90-7f92-430a-ba4f-880fa0766718",
+    "path": "/api/documents/5a72fd90-7f92-430a-ba4f-880fa0766718",
+    "filename": "Marc_Masarate_Egis_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-01T19:32:16.173Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "36a07052-27c2-41ff-8141-cf75379e8441",
+    "path": "/api/documents/36a07052-27c2-41ff-8141-cf75379e8441",
+    "filename": "Marc_Masarate_Egis_Graduate_Consultant_Rail_Cover_Letter.pdf",
+    "sha256": "87ec24698f8d48123fe15aa62e7e64f5876486c9ef7d479fcc78e4f5ce6b5818",
+    "size_bytes": 50267,
+    "kind": "cover",
+    "uploaded_at": "2026-10-01T19:32:14.895Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Egis",
+  "role": "Graduate Consultant - Rail",
+  "location": "Melbourne VIC",
+  "job_url": "https://www.seek.com.au/job/95007162",
+  "company_url": "https://www.egis-group.com/",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95007162",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Graduate Consultant - Rail (2027 intake), Marc Darenz Masarate",
+  "email_body": "Hello,\n\nI am applying via SEEK for the Graduate Consultant - Rail role (2027 Graduate intake) listed for Melbourne.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019). From 2019 to 2020 I worked on site in the Philippines as field engineer and project-in-charge.\n\nI am Melton based, hold a White Card, an Australian driver's licence and own transport, and have full working rights until December 2027 on a Subclass 485 visa. I am available to start in February 2027 for office, site and project work.\n\nYour Rail team's graduate path, with real project support from week one and mentoring across civil and related disciplines, is the consulting start I am seeking. I do not yet have Australian rail consulting employment, so I am looking for structured graduate mentoring.\n\nI have attached my resume and cover letter. Academic transcripts can be combined as requested. Portfolio: https://macdarenz-droid.github.io/Portfolio\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "2027 Graduate Consultant Rail intake in Melbourne for civil (or mechanical/mechatronic) graduates matches Marc's BSCE and Advanced Diploma civil background.",
+   "Entry-level graduate program with mentoring; work rights for full-time work in Australia are met via Subclass 485 to December 2027; start February 2027 is workable.",
+   "SEEK advert text is Egis; advertiser shows as Inhabit Group. No citizenship or PR mandate stated. Direct graduate pathway, not an agency placement for an unnamed client."
+  ],
+  "gaps": [
+   "No Australian consulting rail experience yet",
+   "Internship or vacation experience not held in Australia",
+   "Egis careers portal twin listing currently shows expired"
+  ],
+  "match_score": {
+   "percent": 72,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "2027 Graduate Consultant Rail intake in Melbourne for civil (or mechanical/mechatronic) graduates matches Marc's BSCE and Advanced Diploma civil background.",
+    "Entry-level graduate program with mentoring; work rights for full-time work in Australia are met via Subclass 485 to December 2027; start February 2027 is workable.",
+    "SEEK advert text is Egis; advertiser shows as Inhabit Group. No citizenship or PR mandate stated. Direct graduate pathway, not an agency placement for an unnamed client."
+   ],
+   "caution": "Portal listing on jobs.egis-group.com shows the broader Graduate Engineer Program 2027 vacancy as expired; SEEK job 95007162 remains open to 31 Oct 2026. Apply via SEEK with resume, cover letter and transcripts as one document. Confirm whether Inhabit Group is the SEEK advertiser only or a separate entity."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-01T04:38:33.000Z",
+   "expires_at": "2026-10-31T15:35:31.502Z",
+   "verified_at": "2026-10-01T19:20:11.000Z",
+   "apply_instructions": "SEEK apply: attach resume, cover letter and academic transcripts as a single document. Role supports rail and rolling stock projects; 2027 Graduate intake; start February 2027.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Confirm SEEK job 95007162 still open and not expired before Marc applies.",
+   "Combine resume, cover letter and academic transcripts into one PDF as the advert asks.",
+   "Apply on SEEK (Egis careers twin listing currently shows expired).",
+   "Do not claim Australian rail or consulting employment.",
+   "Mark Applied on the tracker after SEEK submission."
+  ],
+  "notes": "ADVERTISED_VACANCY via SEEK. Employer in advert body is Egis; SEEK company field shows Inhabit Group. No email send this tick.\nNo published application inbox on the SEEK advert. Apply via SEEK. Egis jobs.egis-group.com Graduate Engineer Program 2027 Melbourne page currently shows vacancy expired; use SEEK while it remains open.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-01, closes 2026-10-31). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate Consultant - Rail role on SEEK.\n• They may ask about: No Australian consulting rail experience yet → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Internship or vacation experience not held in Australia → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Egis careers portal twin listing currently shows expired → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-01, closes 2026-10-31). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate Consultant - Rail role on SEEK.",
+   "They may ask about: No Australian consulting rail experience yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Internship or vacation experience not held in Australia → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Egis careers portal twin listing currently shows expired → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-01T19:32:12.000Z",
+  "seek_id": "95007162",
+  "duplicate_key": "egis|seek:95007162"
+ },
+ {
+  "id": "3f29de1d-0e2c-4e18-a8de-8e7d1dfef6bd",
+  "key": "manual:3f29de1d-0e2c-4e18-a8de-8e7d1dfef6bd",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261001T1918Z",
+  "created_at": "2026-10-01T19:32:17.000Z",
+  "updated_at": "2026-10-01T19:32:17.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "bab3c089-992c-4281-b0e4-1a70fc9b8737",
+    "path": "/api/documents/bab3c089-992c-4281-b0e4-1a70fc9b8737",
+    "filename": "Marc_Masarate_Projex_Partners_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-01T19:32:19.167Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "e42f16eb-263b-4912-af19-5b05195e5f2d",
+    "path": "/api/documents/e42f16eb-263b-4912-af19-5b05195e5f2d",
+    "filename": "Marc_Masarate_Projex_Partners_Expressions_of_Interest_Civil_Designers__Cover_Letter.pdf",
+    "sha256": "0602fa289d3ed1f19bb19e99ec6a20790f9001f9b278f18f0b282dbe7ba214c8",
+    "size_bytes": 48103,
+    "kind": "cover",
+    "uploaded_at": "2026-10-01T19:32:18.351Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Projex Partners",
+  "role": "Expressions of Interest – Civil Designers, Civil Engineers & Structural Engineers",
+  "location": "Melbourne VIC",
+  "job_url": "https://www.projexpartners.com.au/expressions-of-interest-eoi-civil-designers-civil-engineers-structural-engineers/",
+  "company_url": "https://www.projexpartners.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Careers / EOI inbox",
+  "recipient_email": "contact@projexpartners.com.au",
+  "contact_email": "contact@projexpartners.com.au",
+  "contact_evidence_url": "https://www.projexpartners.com.au/contact/",
+  "contact_verified_at": "2026-10-01T19:32:17.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Expression of interest, graduate civil designer, Melbourne, Marc Darenz Masarate",
+  "email_body": "Hello,\n\nI am sending an expression of interest for civil design or junior civil engineering work in Melbourne, as invited on your EOI page for civil designers and civil engineers.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019). From 2019 to 2020 I worked on site in the Philippines as field engineer and project-in-charge.\n\nI am Melton based, hold a White Card, an Australian driver's licence and own transport, and have full working rights until December 2027 on a Subclass 485 visa. I am available for office, site and regional work.\n\nYour EOI for emerging civil designers with 2D and 3D design capability is the path I am seeking. I do not yet have Australian consulting design-office employment, so I am looking for mentoring on practical civil design.\n\nI have attached my resume and cover letter. Portfolio: https://macdarenz-droid.github.io/Portfolio\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Open EOI for emerging civil designers and civil engineers in Melbourne matches Advanced Diploma civil design coursework (AutoCAD, Civil 3D) and BSCE.",
+   "Direct employer EOI (not an agency), Melbourne listed first, and emerging professionals are welcomed alongside experienced staff.",
+   "No citizenship or PR requirement stated; contact form plus contact@projexpartners.com.au on the Contact page."
+  ],
+  "gaps": [
+   "No Australian consulting civil design employment yet",
+   "Structural engineer stream is a weaker match than civil design"
+  ],
+  "match_score": {
+   "percent": 68,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Open EOI for emerging civil designers and civil engineers in Melbourne matches Advanced Diploma civil design coursework (AutoCAD, Civil 3D) and BSCE.",
+    "Direct employer EOI (not an agency), Melbourne listed first, and emerging professionals are welcomed alongside experienced staff.",
+    "No citizenship or PR requirement stated; contact form plus contact@projexpartners.com.au on the Contact page."
+   ],
+   "caution": "EOI also seeks people with infrastructure and urban development experience; Marc's site experience is Philippines 2019-2020 and Australian design study, not Australian consulting delivery yet."
+  },
+  "advert": {
+   "source": "employer_careers",
+   "listed_at": "2026-06-08T00:00:00Z",
+   "expires_at": "",
+   "verified_at": "2026-10-01T19:32:17.000Z",
+   "apply_instructions": "Email CV and a short introduction (preferred location Melbourne) to contact@projexpartners.com.au, and/or use the Apply Now form on the EOI page.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Confirm EOI page still open before send.",
+   "Email contact@projexpartners.com.au with resume and cover letter, preferred location Melbourne.",
+   "Optional: also submit via the on-page Apply Now form.",
+   "Do not claim Australian consulting employment.",
+   "Mark Applied on the tracker after send with method Email."
+  ],
+  "notes": "ADVERTISED_VACANCY. Published EOI page for civil designers/engineers. contact@projexpartners.com.au from Contact page used with EOI send-CV instruction.\nEOI page hosts an Apply Now form and asks applicants to send a CV and short introduction. contact@projexpartners.com.au is published on the Contact page as the firm contact address used with that EOI instruction.\nHOW GROK AI FOUND THIS\nFound on employer_careers (listed 2026-06-08). Contact: the application inbox contact@projexpartners.com.au published by the employer (https://www.projexpartners.com.au/contact/); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Expressions of Interest – Civil Designers, Civil Engineers & Structural Engineers role on SEEK.\n• They may ask about: No Australian consulting civil design employment yet → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Structural engineer stream is a weaker match than civil design → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_careers (listed 2026-06-08). Contact: the application inbox contact@projexpartners.com.au published by the employer (https://www.projexpartners.com.au/contact/); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Expressions of Interest – Civil Designers, Civil Engineers & Structural Engineers role on SEEK.",
+   "They may ask about: No Australian consulting civil design employment yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Structural engineer stream is a weaker match than civil design → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-01T19:32:17.000Z",
+  "duplicate_key": "projexpartners|projexpartners.com.au/expressions-of-interest-eoi-civil-designers-civil-engineers-structural-engineers"
+ }
+]

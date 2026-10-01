@@ -1,0 +1,32 @@
+{
+  "id": "kbr-civil-draftsperson-r2117739",
+  "percent": 42,
+  "rationale": [
+    "Melbourne civil drafting on major transport alliances matches discipline interest and Advanced Diploma drafting study.",
+    "Associate Diploma or equivalent is met via Advanced Diploma of Civil Construction Design.",
+    "Fails on mandatory 3+ years civil drafting experience and Bentley MicroStation production experience Marc does not have."
+  ],
+  "caution": "Hold for experience and MicroStation requirements; do not prepare as ready.",
+  "gaps": [
+    "Bentley MicroStation production experience",
+    "OpenRoads Designer",
+    "Australian transport-infrastructure drafting years"
+  ],
+  "mandatory_unmet": [
+    "3+ years civil drafting experience, preferably within transport infrastructure projects",
+    "Proficiency in Bentley MicroStation"
+  ],
+  "mandatory_unresolved": [],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": "",
+  "apply_instructions": "Apply via KBR Workday if requirements later met.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "KBR",
+  "title": "Civil Draftsperson",
+  "location": "Melbourne VIC",
+  "url": "https://kbr.wd5.myworkdayjobs.com/en-US/KBR_Careers/job/Civil-Draftsperson_R2117739",
+  "listed_at": "2026-08-27T00:00:00Z",
+  "expires_at": "",
+  "screening_questions": []
+}

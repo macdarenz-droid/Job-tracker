@@ -1,0 +1,57 @@
+{
+  "rotation": "councils_government",
+  "checked_at": "2026-10-01T19:27:24Z",
+  "checked": [
+    {
+      "name": "Melton City Council",
+      "url": "https://meltoncity-external.applynow.net.au/",
+      "roles": [
+        "Civil Projects Officer MEL1888"
+      ],
+      "notes": "Open Band 6 Civil Projects Officer already in tracker; Student/Graduate Engineer roles expired. Design Engineer MEL1835 closing date past."
+    },
+    {
+      "name": "Wyndham City Council",
+      "url": "https://www.wyndham.vic.gov.au/careers",
+      "roles": [],
+      "notes": "Graduate Civil Engineer closed; Emerging Talent advertises Apr-Jun."
+    },
+    {
+      "name": "careers.vic.gov.au",
+      "url": "https://www.careers.vic.gov.au/jobs?keywords=civil",
+      "roles": [],
+      "notes": "No open junior civil design roles this tick (browse chromium unavailable; WebSearch/WebFetch used)."
+    },
+    {
+      "name": "Shellharbour City Council",
+      "url": "https://shellharbour.applynow.net.au/jobs/SHELL1451-cadet-civil-engineering",
+      "roles": [
+        "Cadet - Civil Engineering"
+      ],
+      "notes": "Open until 5 Oct 2026 but already tracked HELD (must be studying Bachelor third year)."
+    },
+    {
+      "name": "Inner West Council",
+      "url": "https://iwcexternal.applynow.net.au/jobs/IWC17898-student-graduate-engineer-road-access",
+      "roles": [
+        "Student/Graduate Engineer (Road Access)"
+      ],
+      "notes": "Closes 4 Oct 2026; already tracked; NSW Class C licence mandatory unmet."
+    },
+    {
+      "name": "SMEC (Workday graduate boards)",
+      "url": "https://surbanajurong.wd3.myworkdayjobs.com/careersatsmec",
+      "roles": [
+        "Graduate Engineer - Water Infrastructure Traralgon",
+        "Graduate Engineer Urban Infrastructure Parramatta"
+      ],
+      "notes": "Councils thin; widened employer graduate boards after council sweep. Melbourne Rail already tracked."
+    }
+  ],
+  "widening": [
+    "daterange 3",
+    "daterange 7",
+    "daterange 14 max-details 80",
+    "council portals via WebFetch/curl (browse.py chromium missing)"
+  ]
+}

@@ -1,0 +1,531 @@
+{
+ "count": 3,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "94969508",
+   "company": "GPA Engineering",
+   "title": "Civil/Structural Drafter – ADL",
+   "run": "20261001T0918Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "suited to someone with 3-10 years' experience"
+   ]
+  },
+  {
+   "id": "94961556",
+   "company": "Brunel",
+   "title": "Project Engineer - Civil",
+   "run": "20260930T1316Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "3+ years' experience in civil construction"
+   ]
+  },
+  {
+   "id": "94940114",
+   "company": "NOTAZ International PTY LTD",
+   "title": "Civil engineering draftsperson",
+   "run": "20261001T0918Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "At least 3 years' experience as a Civil engineering draftsperson"
+   ]
+  },
+  {
+   "id": "94939236",
+   "company": "Roesner and Hamilton Consulting Engineers Pty Ltd",
+   "title": "Civil Engineering Draftsperson",
+   "run": "20261001T0918Z",
+   "percent": 32,
+   "mandatory_unmet": [
+    "over 3 years of experience and is qualified in Civil Drafting"
+   ]
+  },
+  {
+   "id": "95001351",
+   "company": "City of Greater Geraldton",
+   "title": "Graduate Engineering Officer",
+   "run": "20261001T0918Z",
+   "percent": 34,
+   "mandatory_unmet": [
+    "City of Greater Geraldton Migration and Visa Requirements: Temporary Residents with a valid Working Visa = No for Permanent Positions (https://www.cgg.wa.gov.au/work/work-with-us/employment/how-to-apply.aspx)"
+   ]
+  },
+  {
+   "id": "94958791",
+   "company": "ADF Careers",
+   "title": "Part-Time Civil Engineer (Tax-Free Pay)",
+   "run": "20261001T1419Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "Be at least 17 at the time of enlistment and an Australian Citizen",
+    "Military training including using a weapon; applying to appoint/enlist in the military"
+   ]
+  },
+  {
+   "id": "94973025",
+   "company": "Optimum Consulting Group",
+   "title": "Civil Engineer",
+   "run": "20260930T1316Z",
+   "percent": 30,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94969016",
+   "company": "QCCS",
+   "title": "Civil Project Engineer",
+   "run": "20260930T1316Z",
+   "percent": 32,
+   "mandatory_unmet": [
+    "Proven experience as a Project Engineer within civil construction"
+   ]
+  },
+  {
+   "id": "94938260",
+   "company": "Strategic Project Delivery",
+   "title": "Civil Design Engineer",
+   "run": "20260930T1316Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "3–8+ years’ experience in civil engineering design"
+   ]
+  },
+  {
+   "id": "94935564",
+   "company": "Queanbeyan-Palerang Regional Council",
+   "title": "Trainee - Civil Construction",
+   "run": "20260930T1316Z",
+   "percent": 35,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94995704",
+   "company": "Xeros Piccolo Consulting Engineers",
+   "title": "Structural/Civil Engineer",
+   "run": "20261001T0918Z",
+   "percent": 18,
+   "mandatory_unmet": [
+    "Five years' experience in designing timber, steel and concrete structures",
+    "Engineers with 5+ years of industry experience"
+   ]
+  },
+  {
+   "id": "94961163",
+   "company": "Brunel",
+   "title": "Project Engineer ",
+   "run": "20260930T1316Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "3+ years' experience in civil construction"
+   ]
+  },
+  {
+   "id": "94958409",
+   "company": "Right Connect",
+   "title": "Structural Drafter",
+   "run": "20260930T1316Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94950957",
+   "company": "Milo Geotechnical",
+   "title": "Civil Engineer",
+   "run": "20260930T1316Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "A minimum of 5 years' engineering experience associated with the road construction industry"
+   ]
+  },
+  {
+   "id": "94939016",
+   "company": "Egis",
+   "title": "Civil Engineer (Urban Development)",
+   "run": "20260930T1316Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "minimum of 5+ years’ experience as a civil engineer within a consultancy"
+   ]
+  },
+  {
+   "id": "94956743",
+   "company": "Formstruct",
+   "title": "Estimator  - Civil & NPI",
+   "run": "20260930T1316Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "Min 5 yrs Experience in Similar Role",
+    "Mine Site Experience"
+   ]
+  },
+  {
+   "id": "94936909",
+   "company": "City of Joondalup",
+   "title": "Skilled General Hand - Engineering Construction (Civil)",
+   "run": "20260930T1316Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "WA HR Class Driver’s Licence"
+   ]
+  },
+  {
+   "id": "94934404",
+   "company": "Ertech Pty Ltd",
+   "title": "Project Engineer (Civil)",
+   "run": "20260930T1316Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "4-7 years of relevant experience"
+   ]
+  },
+  {
+   "id": "94931757",
+   "company": "Core Talent",
+   "title": "Site Engineer",
+   "run": "20260930T1819Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Experienced Site Engineer with civil construction background on major infrastructure"
+   ]
+  },
+  {
+   "id": "94999649",
+   "company": "CPB Contractors NSW ACT",
+   "title": "Project Engineer Building & Infrastructure",
+   "run": "20261001T0918Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "5-8 years of experience within building, infrastructure, or major construction projects",
+    "Australian Citizenship or Permanent Residency with the ability to obtain and maintain a Baseline Security Clearance"
+   ]
+  },
+  {
+   "id": "94998155",
+   "company": "City of Newcastle",
+   "title": "Cadet Engineer",
+   "run": "20261001T0918Z",
+   "percent": 58,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94978646",
+   "company": "Smith & Co",
+   "title": "Estimator",
+   "run": "20260930T1819Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "Experience as a Civil Estimator or Senior Estimator"
+   ]
+  },
+  {
+   "id": "94944895",
+   "company": "TTW (NSW) Pty Ltd",
+   "title": "Structural Revit Drafter",
+   "run": "20260930T1819Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94994373",
+   "company": "Tungsten Mining",
+   "title": "Civil Project Engineer",
+   "run": "20261001T1419Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Bachelor's Degree in Civil Engineering with 3 to 7 years' experience in mining, infrastructure or heavy civil projects"
+   ]
+  },
+  {
+   "id": "94991390",
+   "company": "Sunshine Coast Council",
+   "title": "Design Engineer",
+   "run": "20261001T0417Z",
+   "percent": 42,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94987271",
+   "company": "Randstad - Construction, Property & Engineering",
+   "title": "Estimator",
+   "run": "20261001T0417Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Proven experience in civil construction estimating"
+   ]
+  },
+  {
+   "id": "94984460",
+   "company": "CONCRETE SEAL PTY LTD",
+   "title": "Cadet Estimator & Project Coordinator — Commercial Waterproofing",
+   "run": "20260930T2319Z",
+   "percent": 35,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94972758",
+   "company": "Information Quality",
+   "title": "Junior in Engineering Drafting",
+   "run": "20260930T1819Z",
+   "percent": 52,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94958365",
+   "company": "Symal",
+   "title": "Project Engineer",
+   "run": "20260930T1819Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Approximately 3+ years experience in civil construction"
+   ]
+  },
+  {
+   "id": "94940251",
+   "company": "Martin Metal Works Pty Ltd",
+   "title": "Design Draftsperson – Autodesk Inventor",
+   "run": "20260930T1819Z",
+   "percent": 25,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94937680",
+   "company": "CPB Contractors VIC & TAS",
+   "title": "Site Engineer Leakes Road (Engineering)",
+   "run": "20260930T1819Z",
+   "percent": 38,
+   "mandatory_unmet": [
+    "Proven experience as a Site Engineer on construction, infrastructure, or civil projects"
+   ]
+  },
+  {
+   "id": "94936602",
+   "company": "Peopleconnexion Recruitment",
+   "title": "Site Engineer - Geotechnical",
+   "run": "20260930T1819Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Australian Citizen or Permanent Resident"
+   ]
+  },
+  {
+   "id": "94877601",
+   "company": "Quickway Constructions",
+   "title": "Undergraduate Civil Engineer",
+   "run": "20260930T1819Z",
+   "percent": 55,
+   "mandatory_unmet": [
+    "Currently studying a Bachelor of Civil Engineering (3rd or 4th year)"
+   ]
+  },
+  {
+   "id": "94871250",
+   "company": "WorkPac Technical and Operations",
+   "title": "Civil Engineer – Urban Development & Infrastructure",
+   "run": "20260928T0123Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Advert requires 3 to 8 years of post-graduate experience within Australian civil consulting; Marc has none yet"
+   ]
+  },
+  {
+   "id": "94870967",
+   "company": "City of Onkaparinga",
+   "title": "Civil Engineer",
+   "run": "20260928T0123Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Advert requires a minimum of 3 years' experience in the civil engineering design field; Marc has none yet"
+   ]
+  },
+  {
+   "id": "94900572",
+   "company": "Aptus",
+   "title": "Civil 3D | Civil Design + Engineering | $110K - $135K +",
+   "run": "20260928T0123Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Advert requires a minimum of 4 years using Civil 3D; Marc's Civil 3D experience is academic coursework only"
+   ]
+  },
+  {
+   "id": "94916158",
+   "company": "WYN&CO Search Recruitment & Payroll",
+   "title": "Civil Project Engineer",
+   "run": "20260928T1031Z",
+   "percent": 50,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94912548",
+   "company": "AWCON Pty Ltd",
+   "title": "Estimator – Mining & Civil Construction",
+   "run": "20260928T0532Z",
+   "percent": 77,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94868128",
+   "company": "Shadforth",
+   "title": "Civil Estimators",
+   "run": "20260928T0532Z",
+   "percent": 67,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94843448",
+   "company": "ACCIONA Australia",
+   "title": "Site Engineers Civils and Structures",
+   "run": "20260930T2319Z",
+   "percent": 38,
+   "mandatory_unmet": [
+    "Experience on major infrastructure projects (Logan and Gold Coast Faster Rail Site Engineer roles)"
+   ]
+  },
+  {
+   "id": "94839731",
+   "company": "City of Gold Coast",
+   "title": "Undergraduate Engineers",
+   "run": "20260928T1031Z",
+   "percent": 43,
+   "mandatory_unmet": [
+    "\"be enrolled in and entering the final year of a relevant undergraduate Bachelor of Engineering degree at a recognised Australian university\" (Marc completed his BSCE in 2019 and is not currently enrolled at university)"
+   ]
+  },
+  {
+   "id": "94782577",
+   "company": "Skyhook Engineering",
+   "title": "Structural Draftsperson (Revit)",
+   "run": "20260930T1819Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Australian citizenship or permanent residency",
+    "2+ years hands-on Revit experience"
+   ]
+  },
+  {
+   "id": "94857072",
+   "company": "JRM Resources",
+   "title": "Civil Engineer",
+   "run": "20260928T1031Z",
+   "percent": 33,
+   "mandatory_unmet": [
+    "\"Minimum 2 years post degree experience\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian work experience)"
+   ]
+  },
+  {
+   "id": "94847757",
+   "company": "Roach Recruitment",
+   "title": "Civil Engineer - Water",
+   "run": "20260928T1031Z",
+   "percent": 68,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94825304",
+   "company": "Vorstrom",
+   "title": "Cadet Draftsperson",
+   "run": "20260930T1819Z",
+   "percent": 42,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94797351",
+   "company": "Hardings Group (Tas) Pty Ltd",
+   "title": "Civil Construction Traineeship",
+   "run": "20260928T1031Z",
+   "percent": 50,
+   "mandatory_unmet": []
+  }
+ ],
+ "candidates": [
+  {
+   "id": "95007162",
+   "source": "seek",
+   "title": "Graduate Consultant - Rail",
+   "company": "Inhabit Group",
+   "location": "Melbourne VIC",
+   "url": "https://www.seek.com.au/job/95007162",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-01T04:38:33.000Z",
+   "expires_at": "2026-10-31T15:35:31.502Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Step into a role where your ideas and curiosity genuinely matter. As a Graduate Consultant, you’ll contribute to real projects from your first...",
+   "opening": "Company Description\nEgis is a leading global organisation in architecture, consulting, construction engineering, operations and mobility services. We partner with clients to design, deliver and operate smarter infrastructure and places that respond to the world’s evolving needs.\nWith more than 22,000 employees worldwide, we combine global capability with strong local insight. Our multidisciplinary expertise enables us to deliver innovative, practical and sustainable solutions that help build more balanced, resilient communities.\nAt Egis, you’ll be part of a business shaping the future of cities, transport, energy and the built environment, creating lasting impact where it matters most.\nJob Description\nStep into a role where your ideas and curiosity genuinely matter. As a Graduate Consultant, you’ll contribute to real projects from your first week.\nYou’ll support rail and rolling stock pr",
+   "key_lines": [
+    "Step into a role where your ideas and curiosity genuinely matter. As a Graduate Consultant, you’ll contribute to real projects from your first week.",
+    "You’ll support rail and rolling stock projects across Australia for a range of clients, as well as contribute to developing our business through tenders and other engagements. Join our dynamic and high-performing Rail team for the 2027 Graduate intake!",
+    "Hands-on Industry Experience: work in an area where many specialties intersect and problem solve to create unique solutions.",
+    "Collaboration: as your career develops, work closely with experts across civil, mechanical, mechatronic and electrical engineering.",
+    "Qualifications",
+    "- Tertiary degree in Civil, Mechanical or Mechatronic Engineering",
+    "- Relevant internship, vacation, or industry experience is highly valued",
+    "TO APPLY",
+    "We believe our strong graduate program will provide you with the tools you need to start your career the right way.",
+    "If this sounds like the opportunity for you APPLY NOW!"
+   ]
+  },
+  {
+   "id": "smec-grad-urban-infra-parramatta-jr118839",
+   "source": "employer_careers",
+   "title": "Graduate Engineer, Urban Infrastructure",
+   "company": "SMEC Services Pty Limited",
+   "location": "Parramatta NSW",
+   "url": "https://surbanajurong.wd3.myworkdayjobs.com/careersatsmec/job/Parramatta/Graduate-Engineer--Urban-Infrastructure_JR118839-1",
+   "work_type": null,
+   "salary": null,
+   "listed_at": "2026-09-23T00:00:00Z",
+   "expires_at": "",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "",
+   "opening": "Play a critical role in the built environment by uplifting lives, creating regenerative environments and advancing industries\nWork in a truly flexible environment with an incredibly supportive team\nEnvironment where collaboration and innovation are encouraged \nCreate futures worth inheriting with SMEC and the SJ Group \nAbout SMEC \nSMEC provides unique opportunities to work on iconic industry projects with experienced colleagues and leadership teams. We support and empower employees to drive innovation initiatives within a well-established and growing organisation.\nWith over 16,500 employees working out of 120 offices in 40&#43; countries throughout Australasia, Asia, the Middle East, UK, Africa, North and South America, we partner with our parent company Surbana Jurong and sister company Robert Bird Group (RBG) to deliver integrated Infrastructure, Urban Development and Management Servic",
+   "key_lines": [
+    "SMEC provides unique opportunities to work on iconic industry projects with experienced colleagues and leadership teams. We support and empower employees to drive innovation initiatives within a well-established and growing organisation.",
+    "Graduate",
+    "As a Graduate at SMEC, you’ll be part of a high-impact talent group, contributing to the delivery of major rail and metro infrastructure projects alongside experienced engineers and technical specialists.",
+    "Our two-year Graduate Development Program (GDP) is designed to accelerate your growth — combining hands-on project experience with structured learning, mentoring, and exposure across teams and disciplines.",
+    "A connected ANZ graduate network and strong peer community",
+    "Structured development through workshops, online learning, and immersive experiences",
+    "You’ll support the delivery of real infrastructure projects from day one — contributing to design, analysis and documentation while learning from experienced engineers and gaining exposure to site and project delivery.",
+    "Learn and apply industry standards, tools and best practice through structured development and on-the-job experience",
+    "You’re a motivated Civil Engineering graduate who enjoys problem-solving, working in teams, and contributing to real-world projects.",
+    "A degree in Civil Engineering (or related discipline)",
+    "Exposure to design tools such as AutoCAD or Civil 3D (12D or similar advantageous)",
+    "How To Apply",
+    "To apply, click on the &#34;Apply Now&#34; link and follow the prompts. Please include a copy of your CV and academic transcript."
+   ]
+  },
+  {
+   "id": "smec-grad-water-traralgon-jr118762",
+   "source": "employer_careers",
+   "title": "Graduate Engineer - Water Infrastructure",
+   "company": "SMEC Services Pty Limited",
+   "location": "Traralgon VIC",
+   "url": "https://surbanajurong.wd3.myworkdayjobs.com/careersatsmec/job/SMEC-Australia-Traralgon/Graduate-Engineer---Water-Infrastructure_JR118762",
+   "work_type": null,
+   "salary": null,
+   "listed_at": "2026-09-17T00:00:00Z",
+   "expires_at": "",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "",
+   "opening": "Global engineering consultancy with genuine career development opportunities\nGraduate opportunity for immediate start, Traralgon \nHybrid work environment with attractive benefits and professional development opportunities\nAbout SMEC\nSMEC has joined forces with Surbana Jurong to provide global engineering and consultancy expertise in urban, infrastructure and management advisory. Our new partnership has created a talent pool of 13,000 dedicated people working across a network of 100 offices in 40 countries.\nThe role\nWe are seeking a recent \nGraduate\n \nCivil Engineer \nwith a keen desire to build a long-term career in \nWater Infrastructure\n to join our \n Traralgon\n  team.\nOur Water team provides end-to-end solutions across the full water cycle, including major pipelines, large-scale pumping stations, and advanced water, wastewater, and recycling treatment facilities.\nGraduate Development Pr",
+   "key_lines": [
+    "Graduate opportunity for immediate start, Traralgon",
+    "Graduate",
+    "Graduate Development Program",
+    "Gain hands-on experience in proposals, reports, and technical documentation",
+    "You will be given the opportunity for both in-person and online training on everything from consulting with clients to managing your time effectively through our graduate development workshops.",
+    "Engineering graduate (within 2 years) with a credit average",
+    "How to Apply",
+    "All recruitment activities go through our Resourcing function and currently, this role doesn’t require agency input. Please do not forward resumes directly to SMEC employees/managers; we do not accept unsolicited resumes and are not responsible for any associated fees."
+   ]
+  }
+ ]
+}
