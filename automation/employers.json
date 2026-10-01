@@ -136,6 +136,43 @@
         "Civil Projects Officer MEL1888"
       ],
       "notes": "Civil Projects Officer Band 6 screened 48 percent (below threshold). GIS Officer requires spatial science."
+    },
+    "BMD Group": {
+      "careers_url": "https://www.bmdgroup.global/careers/graduates-entry-pathways",
+      "checked_at": "2026-10-01",
+      "open_junior_roles": [
+        "Undergraduate Engineers Civil & Electrical Healesville SEEK 94858362"
+      ],
+      "notes": "Undergrad role requires currently studying Bachelor graduating 2028; not a fit for Marc (BSCE 2019, Adv Dip Feb 2026). Foundations program EOI page only."
+    },
+    "Georgiou Group": {
+      "careers_url": "https://georgiou.csod.com/ux/ats/careersite/4/home?c=georgiou",
+      "checked_at": "2026-10-01",
+      "open_junior_roles": [
+        "Undergraduate and Graduate Positions EOI"
+      ],
+      "notes": "EOI via ViewJobs/CSOD; Cadet & Graduate Development Program page live. READY portal this tick."
+    },
+    "Millar Merrigan": {
+      "careers_url": "https://www.millarmerrigan.com.au/careers/",
+      "checked_at": "2026-10-01",
+      "open_junior_roles": [
+        "Design Engineering Graduate Program (closes 30 Oct 2026)",
+        "Infrastructure Internship Program"
+      ],
+      "notes": "careers@millarmerrigan.com.au published for applications. Design Eng Grad PREPARED_NOT_SENT this tick."
+    },
+    "Downer": {
+      "careers_url": "https://downergroup.com/life-at-downer/young-professionals-hub/downer-graduate-program/",
+      "checked_at": "2026-10-01",
+      "open_junior_roles": [],
+      "notes": "Graduate Engineering Program 2027 requires Australian Citizenship or PR."
+    },
+    "Ventia": {
+      "careers_url": "https://jobs.ventia.com/global/en/graduate-program",
+      "checked_at": "2026-10-01",
+      "open_junior_roles": [],
+      "notes": "2027 Civil/Structural Grad closed 17 Aug 2026; requires citizen/PR or 485 valid to end-2028."
     }
   },
   "sweep_log": [
@@ -163,6 +200,48 @@
           "name": "GHD Grad Melbourne/Geelong GradConnection",
           "url": "https://au.gradconnection.com/employers/ghd/jobs/ghd-ghd-graduate-program-2026-civilstructural-engineering-melbournegeelong/",
           "result": "listing marked Closed"
+        }
+      ]
+    },
+    {
+      "run_id": "20261001T1419Z",
+      "rotation": "employers",
+      "checked_at": "2026-10-01T14:30:21Z",
+      "checked": [
+        {
+          "name": "BMD Group",
+          "url": "https://www.seek.com.au/job/94858362",
+          "result": "Undergraduate Engineers Healesville requires currently studying Bachelor; screened 34 under threshold"
+        },
+        {
+          "name": "Georgiou Group",
+          "url": "https://www.viewjobs.com.au/listing/38c4e998-5e57-422e-9085-ddb5f32a3b61",
+          "result": "Undergrad/Grad EOI READY_JEREMIE_EMPLOYER_PORTAL"
+        },
+        {
+          "name": "Seymour Whyte",
+          "url": "https://careers.seymourwhyte.com.au/",
+          "result": "blocked_prior_outreach Graduate Program MANUAL_APPLIED 2026-09-27; 2027 grad ads largely closed"
+        },
+        {
+          "name": "Fulton Hogan",
+          "url": "https://www.fultonhogan.com/join-our-team/career-pathways/graduates-au/",
+          "result": "blocked_prior_outreach; AU graduate program applications closed 2 Aug 2026"
+        },
+        {
+          "name": "Downer",
+          "url": "https://www.seek.com.au/job/94911471",
+          "result": "Graduate Engineering Program 2027 requires Australian Citizenship or PR; screened 30"
+        },
+        {
+          "name": "Ventia",
+          "url": "https://au.gradconnection.com/employers/ventia/jobs/ventia-civil-structural-engineering-graduate/",
+          "result": "Civil/Structural Grad Program closed 17 Aug 2026; 485 must be valid to end-2028 (Marc to Dec 2027)"
+        },
+        {
+          "name": "Millar Merrigan (extra from target list / careers)",
+          "url": "https://www.millarmerrigan.com.au/careers/",
+          "result": "Design Engineering Graduate Program PREPARED_NOT_SENT careers@"
         }
       ]
     }

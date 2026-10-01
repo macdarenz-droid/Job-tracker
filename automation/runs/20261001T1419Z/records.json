@@ -1,0 +1,206 @@
+[
+ {
+  "id": "12ff38cb-2eb1-473d-ba91-abc7b9360d8d",
+  "key": "manual:12ff38cb-2eb1-473d-ba91-abc7b9360d8d",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261001T1419Z",
+  "created_at": "2026-10-01T14:29:51.000Z",
+  "updated_at": "2026-10-01T14:29:51.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "3b6c9b2d-b07c-40b2-a1b7-d3647783b61c",
+    "path": "/api/documents/3b6c9b2d-b07c-40b2-a1b7-d3647783b61c",
+    "filename": "Marc_Masarate_Georgiou_Group_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-01T14:29:53.435Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "499b692c-cc52-4412-885c-5b53c2f6e0a1",
+    "path": "/api/documents/499b692c-cc52-4412-885c-5b53c2f6e0a1",
+    "filename": "Marc_Masarate_Georgiou_Group_Undergraduate_and_Graduate_Positions_EOI_Cover_Letter.pdf",
+    "sha256": "41a23bddebba270c701b84ca807633aa0564f57656191c104712283f2baf0a79",
+    "size_bytes": 47165,
+    "kind": "cover",
+    "uploaded_at": "2026-10-01T14:29:52.647Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Georgiou Group",
+  "role": "Undergraduate and Graduate Positions EOI",
+  "location": "Australia (Sippy Downs QLD listing; national projects)",
+  "job_url": "https://www.viewjobs.com.au/listing/38c4e998-5e57-422e-9085-ddb5f32a3b61",
+  "company_url": "https://www.georgiou.com.au/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.georgiou.com.au/careers/cadet-graduate-programs/",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Undergraduate and Graduate Positions EOI, Marc Darenz Masarate",
+  "email_body": "Hello,\n\nThis pack is prepared for the Georgiou Undergraduate and Graduate Positions expression of interest (ViewJobs listing and Georgiou Cadet and Graduate Development Program page). Please lodge it through the Georgiou careers portal rather than this email.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019). From 2019 to 2020 I worked on site in the Philippines as field engineer and project-in-charge.\n\nI am Melton based, hold a White Card, an Australian driver's licence and own transport, and have full working rights until December 2027 on a Subclass 485 visa. I am available for site, regional and FIFO work and open to discussing relocation for the right project.\n\nYour EOI asks for tertiary qualifications in Civil Engineering or related disciplines and a willingness to learn on live civil construction projects. That is the path I am seeking.\n\nI have attached my resume and cover letter. Portfolio: https://macdarenz-droid.github.io/Portfolio\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Undergraduate and Graduate EOI asks for tertiary Civil Engineering or related; Marc holds BSCE and an Advanced Diploma of Civil Construction Design finished February 2026.",
+   "Cadet and Graduate Development Program is hands-on civil construction with mentoring; site availability and White Card fit.",
+   "No citizenship or PR lock stated on the EOI text reviewed; apply via Georgiou CSOD careers portal."
+  ],
+  "gaps": [
+   "No Australian civil contractor employment yet",
+   "Preferred region not confirmed with Marc"
+  ],
+  "match_score": {
+   "percent": 72,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Undergraduate and Graduate EOI asks for tertiary Civil Engineering or related; Marc holds BSCE and an Advanced Diploma of Civil Construction Design finished February 2026.",
+    "Cadet and Graduate Development Program is hands-on civil construction with mentoring; site availability and White Card fit.",
+    "No citizenship or PR lock stated on the EOI text reviewed; apply via Georgiou CSOD careers portal."
+   ],
+   "caution": "EOI listing shows Sippy Downs QLD; Marc is Melton VIC and must be open to relocate or project travel. Portal apply path is JS/CSOD."
+  },
+  "advert": {
+   "source": "employer_board",
+   "listed_at": "2026-09-01T00:00:00Z",
+   "expires_at": "",
+   "verified_at": "2026-10-01T14:29:51.000Z",
+   "apply_instructions": "Apply via https://georgiou.csod.com/ux/ats/careersite/4/home?c=georgiou or the ViewJobs EOI. Program page: https://www.georgiou.com.au/careers/cadet-graduate-programs/",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Open Georgiou CSOD careers portal and locate Undergraduate/Graduate EOI or early careers apply.",
+   "Upload resume and cover letter PDFs; answer portal questions from facts only.",
+   "Do not email reception@georgiou.com.au as an application inbox.",
+   "Confirm Marc is willing to relocate or travel if the portal asks.",
+   "Mark Applied on the tracker after portal submit."
+  ],
+  "notes": "ADVERTISED_VACANCY EOI. Portal route. No verified application email.\nNo published application inbox verified for EOIs. Apply via CSOD portal. reception@georgiou.com.au is general reception only.\nHOW GROK AI FOUND THIS\nFound on employer_board (listed 2026-09-01). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Undergraduate and Graduate Positions EOI role on SEEK.\n• They may ask about: No Australian civil contractor employment yet → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Preferred region not confirmed with Marc → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_board (listed 2026-09-01). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Undergraduate and Graduate Positions EOI role on SEEK.",
+   "They may ask about: No Australian civil contractor employment yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Preferred region not confirmed with Marc → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-01T14:29:51.000Z",
+  "duplicate_key": "georgiougroup|viewjobs.com.au/listing/38c4e998-5e57-422e-9085-ddb5f32a3b61"
+ },
+ {
+  "id": "43daf8bd-7578-4387-966b-1eec55895592",
+  "key": "manual:43daf8bd-7578-4387-966b-1eec55895592",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261001T1419Z",
+  "created_at": "2026-10-01T14:29:54.000Z",
+  "updated_at": "2026-10-01T14:29:54.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "c09845ba-9e1f-4af7-9647-460cc0a3a47d",
+    "path": "/api/documents/c09845ba-9e1f-4af7-9647-460cc0a3a47d",
+    "filename": "Marc_Masarate_Millar_Merrigan_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-01T14:29:56.884Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "fa22779a-461f-45f8-ac10-d55569c1926e",
+    "path": "/api/documents/fa22779a-461f-45f8-ac10-d55569c1926e",
+    "filename": "Marc_Masarate_Millar_Merrigan_Design_Engineering_Graduate_Program_Cover_Letter.pdf",
+    "sha256": "efd5ee7d8076d47eabaf9b4ecf931d5ffdbcb44e38c57ae122fd100ba4547aa2",
+    "size_bytes": 47681,
+    "kind": "cover",
+    "uploaded_at": "2026-10-01T14:29:55.642Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Millar Merrigan",
+  "role": "Design Engineering Graduate Program",
+  "location": "Victoria (Melbourne land development)",
+  "job_url": "https://www.millarmerrigan.com.au/careers/",
+  "company_url": "https://www.millarmerrigan.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Careers Team",
+  "recipient_email": "careers@millarmerrigan.com.au",
+  "contact_email": "careers@millarmerrigan.com.au",
+  "contact_evidence_url": "https://www.millarmerrigan.com.au/careers/",
+  "contact_verified_at": "2026-10-01T14:29:54.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Design Engineering Graduate Program application, Marc Darenz Masarate",
+  "email_body": "Hello,\n\nI am applying for the Design Engineering Graduate Program listed on the Millar Merrigan careers page, with applications closing 30 October 2026 for an early 2027 start.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019). From 2019 to 2020 I worked on site in the Philippines as field engineer and project-in-charge.\n\nI am Melton based, hold a White Card, an Australian driver's licence and own transport, and have full working rights until December 2027 on a Subclass 485 visa. I am available for office, site and regional work.\n\nYour program's focus on AutoCAD drafting, drainage, roads, sewer, water and mentoring inside the Engineering Design team is the pathway I am seeking. I do not yet have Australian consulting design-office employment, so I am looking for structured mentoring on land development civil design.\n\nI have attached my resume and cover letter. Portfolio: https://macdarenz-droid.github.io/Portfolio\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Structured Design Engineering Graduate Program with AutoCAD drafting, drainage, roads, sewer, water and land-development design matches Advanced Diploma coursework and BSCE.",
+   "Applications close 30 Oct 2026 for early 2027 start; careers@millarmerrigan.com.au is published for applications; Victoria land-development base fits Melton.",
+   "Direct employer graduate pathway with mentoring; no citizenship or PR requirement stated on the careers page."
+  ],
+  "gaps": [
+   "No Australian consulting design-office employment yet",
+   "Transcript packaging for overseas BSCE may need Marc to confirm"
+  ],
+  "match_score": {
+   "percent": 86,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Structured Design Engineering Graduate Program with AutoCAD drafting, drainage, roads, sewer, water and land-development design matches Advanced Diploma coursework and BSCE.",
+    "Applications close 30 Oct 2026 for early 2027 start; careers@millarmerrigan.com.au is published for applications; Victoria land-development base fits Melton.",
+    "Direct employer graduate pathway with mentoring; no citizenship or PR requirement stated on the careers page."
+   ],
+   "caution": "Cover letter capped at 600 words and university transcript required; Marc's Philippines BSCE and Australian Advanced Diploma should be disclosed honestly."
+  },
+  "advert": {
+   "source": "employer_site",
+   "listed_at": "2026-10-01T00:00:00Z",
+   "expires_at": "2026-10-30T13:59:59Z",
+   "verified_at": "2026-10-01T14:29:54.000Z",
+   "apply_instructions": "Email resume, university transcript(s) and cover letter (up to 600 words) to careers@millarmerrigan.com.au by Friday 30 October 2026. Commencement early 2027.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Confirm careers page still lists Design Engineering Graduate Program closing 30 Oct 2026.",
+   "Attach resume and cover letter PDFs to email for careers@millarmerrigan.com.au.",
+   "Include or follow up with university transcript(s) as required.",
+   "Do not claim Australian consulting employment.",
+   "Mark Applied on the tracker after send with method Email."
+  ],
+  "notes": "ADVERTISED_VACANCY. Careers page Design Engineering Graduate Program. careers@millarmerrigan.com.au published for applications.\nVerified 2026-10-01 from millarmerrigan.com.au/careers Design Engineering Graduate Program section. careers@ published for applications and enquiries.\nHOW GROK AI FOUND THIS\nFound on employer_site (listed 2026-10-01, closes 2026-10-30). Contact: the application inbox careers@millarmerrigan.com.au published by the employer (https://www.millarmerrigan.com.au/careers/); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Design Engineering Graduate Program role on SEEK.\n• They may ask about: No Australian consulting design-office employment yet → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Transcript packaging for overseas BSCE may need Marc to confirm → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_site (listed 2026-10-01, closes 2026-10-30). Contact: the application inbox careers@millarmerrigan.com.au published by the employer (https://www.millarmerrigan.com.au/careers/); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Design Engineering Graduate Program role on SEEK.",
+   "They may ask about: No Australian consulting design-office employment yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Transcript packaging for overseas BSCE may need Marc to confirm → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-01T14:29:54.000Z",
+  "duplicate_key": "millarmerrigan|millarmerrigan.com.au/careers"
+ }
+]

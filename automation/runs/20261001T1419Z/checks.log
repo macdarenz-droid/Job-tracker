@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/workspace/repos/Job-tracker/automation/scripts/checks.py", line 156, in <module>
+    main()
+    ~~~~^^
+  File "/workspace/repos/Job-tracker/automation/scripts/checks.py", line 148, in main
+    issues = record_issues(read_json(a.file))
+  File "/workspace/repos/Job-tracker/automation/scripts/checks.py", line 100, in record_issues
+    if not rec.get(k):
+           ^^^^^^^
+AttributeError: 'list' object has no attribute 'get'

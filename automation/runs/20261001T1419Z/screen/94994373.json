@@ -1,0 +1,29 @@
+{
+  "id": "94994373",
+  "percent": 28,
+  "rationale": [
+    "Civil Project Engineer on tungsten mining infrastructure asks for Bachelor of Civil Engineering plus 3 to 7 years mining or heavy civil project-engineer experience.",
+    "Discipline overlap on earthworks, roads and drainage exists in coursework, but seniority and years required block fit.",
+    "Perth based with remote travel; agency submissions not accepted."
+  ],
+  "caution": "Mandatory years and project-engineer delivery cannot be met from facts.json.",
+  "gaps": [
+    "No 3+ years Civil Project Engineer experience"
+  ],
+  "mandatory_unmet": [
+    "Bachelor's Degree in Civil Engineering with 3 to 7 years' experience in mining, infrastructure or heavy civil projects"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply on SEEK.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Tungsten Mining",
+  "title": "Civil Project Engineer",
+  "location": "Perth WA",
+  "url": "https://www.seek.com.au/job/94994373",
+  "listed_at": "2026-10-01T04:30:30.386Z",
+  "expires_at": "2026-10-31T12:59:59.999Z",
+  "screening_questions": []
+}

@@ -1,0 +1,513 @@
+{
+ "count": 3,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "94969508",
+   "company": "GPA Engineering",
+   "title": "Civil/Structural Drafter – ADL",
+   "run": "20261001T0918Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "suited to someone with 3-10 years' experience"
+   ]
+  },
+  {
+   "id": "94961556",
+   "company": "Brunel",
+   "title": "Project Engineer - Civil",
+   "run": "20260930T1316Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "3+ years' experience in civil construction"
+   ]
+  },
+  {
+   "id": "94940114",
+   "company": "NOTAZ International PTY LTD",
+   "title": "Civil engineering draftsperson",
+   "run": "20261001T0918Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "At least 3 years' experience as a Civil engineering draftsperson"
+   ]
+  },
+  {
+   "id": "94939236",
+   "company": "Roesner and Hamilton Consulting Engineers Pty Ltd",
+   "title": "Civil Engineering Draftsperson",
+   "run": "20261001T0918Z",
+   "percent": 32,
+   "mandatory_unmet": [
+    "over 3 years of experience and is qualified in Civil Drafting"
+   ]
+  },
+  {
+   "id": "95001351",
+   "company": "City of Greater Geraldton",
+   "title": "Graduate Engineering Officer",
+   "run": "20261001T0918Z",
+   "percent": 34,
+   "mandatory_unmet": [
+    "City of Greater Geraldton Migration and Visa Requirements: Temporary Residents with a valid Working Visa = No for Permanent Positions (https://www.cgg.wa.gov.au/work/work-with-us/employment/how-to-apply.aspx)"
+   ]
+  },
+  {
+   "id": "94973025",
+   "company": "Optimum Consulting Group",
+   "title": "Civil Engineer",
+   "run": "20260930T1316Z",
+   "percent": 30,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94969016",
+   "company": "QCCS",
+   "title": "Civil Project Engineer",
+   "run": "20260930T1316Z",
+   "percent": 32,
+   "mandatory_unmet": [
+    "Proven experience as a Project Engineer within civil construction"
+   ]
+  },
+  {
+   "id": "94938260",
+   "company": "Strategic Project Delivery",
+   "title": "Civil Design Engineer",
+   "run": "20260930T1316Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "3–8+ years’ experience in civil engineering design"
+   ]
+  },
+  {
+   "id": "94935564",
+   "company": "Queanbeyan-Palerang Regional Council",
+   "title": "Trainee - Civil Construction",
+   "run": "20260930T1316Z",
+   "percent": 35,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94995704",
+   "company": "Xeros Piccolo Consulting Engineers",
+   "title": "Structural/Civil Engineer",
+   "run": "20261001T0918Z",
+   "percent": 18,
+   "mandatory_unmet": [
+    "Five years' experience in designing timber, steel and concrete structures",
+    "Engineers with 5+ years of industry experience"
+   ]
+  },
+  {
+   "id": "94961163",
+   "company": "Brunel",
+   "title": "Project Engineer ",
+   "run": "20260930T1316Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "3+ years' experience in civil construction"
+   ]
+  },
+  {
+   "id": "94958409",
+   "company": "Right Connect",
+   "title": "Structural Drafter",
+   "run": "20260930T1316Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94950957",
+   "company": "Milo Geotechnical",
+   "title": "Civil Engineer",
+   "run": "20260930T1316Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "A minimum of 5 years' engineering experience associated with the road construction industry"
+   ]
+  },
+  {
+   "id": "94939016",
+   "company": "Egis",
+   "title": "Civil Engineer (Urban Development)",
+   "run": "20260930T1316Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "minimum of 5+ years’ experience as a civil engineer within a consultancy"
+   ]
+  },
+  {
+   "id": "94956743",
+   "company": "Formstruct",
+   "title": "Estimator  - Civil & NPI",
+   "run": "20260930T1316Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "Min 5 yrs Experience in Similar Role",
+    "Mine Site Experience"
+   ]
+  },
+  {
+   "id": "94936909",
+   "company": "City of Joondalup",
+   "title": "Skilled General Hand - Engineering Construction (Civil)",
+   "run": "20260930T1316Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "WA HR Class Driver’s Licence"
+   ]
+  },
+  {
+   "id": "94934404",
+   "company": "Ertech Pty Ltd",
+   "title": "Project Engineer (Civil)",
+   "run": "20260930T1316Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "4-7 years of relevant experience"
+   ]
+  },
+  {
+   "id": "94931757",
+   "company": "Core Talent",
+   "title": "Site Engineer",
+   "run": "20260930T1819Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Experienced Site Engineer with civil construction background on major infrastructure"
+   ]
+  },
+  {
+   "id": "94999649",
+   "company": "CPB Contractors NSW ACT",
+   "title": "Project Engineer Building & Infrastructure",
+   "run": "20261001T0918Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "5-8 years of experience within building, infrastructure, or major construction projects",
+    "Australian Citizenship or Permanent Residency with the ability to obtain and maintain a Baseline Security Clearance"
+   ]
+  },
+  {
+   "id": "94998155",
+   "company": "City of Newcastle",
+   "title": "Cadet Engineer",
+   "run": "20261001T0918Z",
+   "percent": 58,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94978646",
+   "company": "Smith & Co",
+   "title": "Estimator",
+   "run": "20260930T1819Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "Experience as a Civil Estimator or Senior Estimator"
+   ]
+  },
+  {
+   "id": "94944895",
+   "company": "TTW (NSW) Pty Ltd",
+   "title": "Structural Revit Drafter",
+   "run": "20260930T1819Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94991390",
+   "company": "Sunshine Coast Council",
+   "title": "Design Engineer",
+   "run": "20261001T0417Z",
+   "percent": 42,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94987271",
+   "company": "Randstad - Construction, Property & Engineering",
+   "title": "Estimator",
+   "run": "20261001T0417Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Proven experience in civil construction estimating"
+   ]
+  },
+  {
+   "id": "94984460",
+   "company": "CONCRETE SEAL PTY LTD",
+   "title": "Cadet Estimator & Project Coordinator — Commercial Waterproofing",
+   "run": "20260930T2319Z",
+   "percent": 35,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94972758",
+   "company": "Information Quality",
+   "title": "Junior in Engineering Drafting",
+   "run": "20260930T1819Z",
+   "percent": 52,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94958365",
+   "company": "Symal",
+   "title": "Project Engineer",
+   "run": "20260930T1819Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Approximately 3+ years experience in civil construction"
+   ]
+  },
+  {
+   "id": "94940251",
+   "company": "Martin Metal Works Pty Ltd",
+   "title": "Design Draftsperson – Autodesk Inventor",
+   "run": "20260930T1819Z",
+   "percent": 25,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94937680",
+   "company": "CPB Contractors VIC & TAS",
+   "title": "Site Engineer Leakes Road (Engineering)",
+   "run": "20260930T1819Z",
+   "percent": 38,
+   "mandatory_unmet": [
+    "Proven experience as a Site Engineer on construction, infrastructure, or civil projects"
+   ]
+  },
+  {
+   "id": "94936602",
+   "company": "Peopleconnexion Recruitment",
+   "title": "Site Engineer - Geotechnical",
+   "run": "20260930T1819Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Australian Citizen or Permanent Resident"
+   ]
+  },
+  {
+   "id": "94877601",
+   "company": "Quickway Constructions",
+   "title": "Undergraduate Civil Engineer",
+   "run": "20260930T1819Z",
+   "percent": 55,
+   "mandatory_unmet": [
+    "Currently studying a Bachelor of Civil Engineering (3rd or 4th year)"
+   ]
+  },
+  {
+   "id": "94871250",
+   "company": "WorkPac Technical and Operations",
+   "title": "Civil Engineer – Urban Development & Infrastructure",
+   "run": "20260928T0123Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Advert requires 3 to 8 years of post-graduate experience within Australian civil consulting; Marc has none yet"
+   ]
+  },
+  {
+   "id": "94870967",
+   "company": "City of Onkaparinga",
+   "title": "Civil Engineer",
+   "run": "20260928T0123Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Advert requires a minimum of 3 years' experience in the civil engineering design field; Marc has none yet"
+   ]
+  },
+  {
+   "id": "94900572",
+   "company": "Aptus",
+   "title": "Civil 3D | Civil Design + Engineering | $110K - $135K +",
+   "run": "20260928T0123Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Advert requires a minimum of 4 years using Civil 3D; Marc's Civil 3D experience is academic coursework only"
+   ]
+  },
+  {
+   "id": "94916158",
+   "company": "WYN&CO Search Recruitment & Payroll",
+   "title": "Civil Project Engineer",
+   "run": "20260928T1031Z",
+   "percent": 50,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94912548",
+   "company": "AWCON Pty Ltd",
+   "title": "Estimator – Mining & Civil Construction",
+   "run": "20260928T0532Z",
+   "percent": 77,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94868128",
+   "company": "Shadforth",
+   "title": "Civil Estimators",
+   "run": "20260928T0532Z",
+   "percent": 67,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94843448",
+   "company": "ACCIONA Australia",
+   "title": "Site Engineers Civils and Structures",
+   "run": "20260930T2319Z",
+   "percent": 38,
+   "mandatory_unmet": [
+    "Experience on major infrastructure projects (Logan and Gold Coast Faster Rail Site Engineer roles)"
+   ]
+  },
+  {
+   "id": "94839731",
+   "company": "City of Gold Coast",
+   "title": "Undergraduate Engineers",
+   "run": "20260928T1031Z",
+   "percent": 43,
+   "mandatory_unmet": [
+    "\"be enrolled in and entering the final year of a relevant undergraduate Bachelor of Engineering degree at a recognised Australian university\" (Marc completed his BSCE in 2019 and is not currently enrolled at university)"
+   ]
+  },
+  {
+   "id": "94782577",
+   "company": "Skyhook Engineering",
+   "title": "Structural Draftsperson (Revit)",
+   "run": "20260930T1819Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Australian citizenship or permanent residency",
+    "2+ years hands-on Revit experience"
+   ]
+  },
+  {
+   "id": "94857072",
+   "company": "JRM Resources",
+   "title": "Civil Engineer",
+   "run": "20260928T1031Z",
+   "percent": 33,
+   "mandatory_unmet": [
+    "\"Minimum 2 years post degree experience\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian work experience)"
+   ]
+  },
+  {
+   "id": "94847757",
+   "company": "Roach Recruitment",
+   "title": "Civil Engineer - Water",
+   "run": "20260928T1031Z",
+   "percent": 68,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94825304",
+   "company": "Vorstrom",
+   "title": "Cadet Draftsperson",
+   "run": "20260930T1819Z",
+   "percent": 42,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94797351",
+   "company": "Hardings Group (Tas) Pty Ltd",
+   "title": "Civil Construction Traineeship",
+   "run": "20260928T1031Z",
+   "percent": 50,
+   "mandatory_unmet": []
+  }
+ ],
+ "candidates": [
+  {
+   "id": "94958791",
+   "source": "seek",
+   "title": "Part-Time Civil Engineer (Tax-Free Pay)",
+   "company": "ADF Careers",
+   "location": "Perth WA",
+   "url": "https://www.seek.com.au/job/94958791",
+   "work_type": "Part time",
+   "salary": "$283/day tax-free",
+   "listed_at": "2026-10-01T04:46:48.739Z",
+   "expires_at": "2026-10-31T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "It is a requirement that you will maintain an ongoing level of fitness and undertake military training (including using a weapon). Are you willing to undertake these requirements?",
+    "This is a role within the Australian Defence Force. Do you acknowledge that you are applying to appoint/enlist in the military?"
+   ],
+   "summary": "Use your civil engineering skills to plan, design, coordinate, control and deliver infrastructure projects in this flexible, part-time role.  ",
+   "opening": "Your Role \nAs a Civil Engineer in the Army Reserve, you’ll get to use your existing qualifications in exciting new ways, applying your specialist skills to dynamic military environments. You’ll plan, design, coordinate, control and deliver a range of infrastructure engineering projects. \nThis is a great opportunity to challenge yourself and work in exciting new environments, without compromising your current career goals.  \n Your duties may include: \n- aiding the community in humanitarian efforts \n- construction of field defences and obstacles \n- military and training duties \n- project managing the construction, repair and maintenance of roads, airfields, sea terminals, railways, buildings and bridges \n- providing terrain assessment advice \n- provision of construction materials and essential services such as water, electricity, and sewerage disposal \n- general soldiering duties, such as ",
+   "key_lines": [
+    "As a Civil Engineer in the Army Reserve, you’ll get to use your existing qualifications in exciting new ways, applying your specialist skills to dynamic military environments. You’ll plan, design, coordinate, control and deliver a range of infrastructure engineering projects.",
+    "- provision of construction materials and essential services such as water, electricity, and sewerage disposal",
+    "- Easy to fit into your lifestyle with the option to work close to home",
+    "The pay you receive in the Army Reserve goes straight into your pocket with no deductions for tax, and it increases as you gain seniority and experience. Additional amounts are paid for time spent on exercises and deployments.",
+    "For this role, you must:",
+    "- Be at least 17 at the time of enlistment and an Australian Citizen.",
+    "- If you are not an Australian Citizen you may still be eligible to join the ADF if you meet certain criteria, please visit the ADF Careers Eligibility Page for more details",
+    "- Have had training in a branch of engineering with the practical experience required for graduate membership of the Institution of Engineers Australia (IEAust), or another chartered institution of similar status.",
+    "Apply Now",
+    "Apply today or request more information by calling 13 19 01 or emailing  applications@adfcareers.gov.au."
+   ]
+  },
+  {
+   "id": "95002679",
+   "source": "seek",
+   "title": "Design Engineer",
+   "company": "Sunshine Coast Council",
+   "location": "Nambour, Sunshine Coast QLD",
+   "url": "https://www.seek.com.au/job/95002679",
+   "work_type": "Contract/Temp, Casual/Vacation, Full time",
+   "salary": null,
+   "listed_at": "2026-10-01T09:09:18.000Z",
+   "expires_at": "2026-10-31T09:14:27.048Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "As a Design Engineer, you will support and manage the design development of infrastructure projects within Council’s Capital Works Program. Working...",
+   "opening": "Why work with us?\nAt Council, we’re proud of our region. We collaborate with community to achieve truly sustainable outcomes, enhance our enviable lifestyle, and create award-winning places and spaces that are uniquely Sunshine Coast. So, if you love it here as much as we do, and you want to shape our region for the future – you’ll want to join our team!\nWith the vision to be Australia’s most sustainable region - Connected. Liveable. Thriving, our region is a model of sustainability, where caring for our environment, creating vibrant communities and growing our local economy is a way of life.\nAbout the Branch\nThe Design & Placemaking Services Branch plays a key role in planning and delivering infrastructure solutions that support one of Australia’s fastest-growing regions. The team provides expert engineering and design services, manages outsourced design programs, and develops innovativ",
+   "key_lines": [
+    "As a Design Engineer, you will support and manage the design development of infrastructure projects within Council’s Capital Works Program. Working closely with engineers, designers, stakeholders and external consultants, you will help deliver high-quality, cost-effective and sustainable engineering outcomes. This is an exciting opportunity to contribute to projects that improve community infrastructure while developing your technical expertise, project management capability and professional engineering career.",
+    "You hold tertiary qualifications in Civil Engineering or a related discipline and have experience delivering engineering, infrastructure or project-based outcomes within a complex environment.",
+    "You bring strong analytical and research capabilities, sound engineering judgement and a passion for developing innovative and practical solutions that deliver community value. For candidates at the senior level, experience working towards RPEQ registration will be highly regarded.",
+    "How to apply",
+    "- A 1-2 page cover letter demonstrating your ability to fulfil the mandatory and desirable requirements on the Position Profile. Keep the key responsibilities in mind when addressing this criteria; and",
+    "Once you have these two documents ready, click ‘Apply Now’ and follow the prompts to complete your application.",
+    "We're working hard to create an inclusive workplace that reflects the diverse community we serve. If you require adjustments at any stage of the recruitment process, please reach out to the Recruitment Team joinusnow@sunshinecoast.qld.gov.au.",
+    "At Sunshine Coast Council, we embrace differences in gender, age, ethnicity, race, cultural background including First Nations, disability, religion and sexual orientation. To deliver the best service to our region we want a workforce that reflects the diverse community that we serve. Sunshine Coast Council strongly encourages all suitable applicants to apply for this role."
+   ]
+  },
+  {
+   "id": "94994373",
+   "source": "seek",
+   "title": "Civil Project Engineer",
+   "company": "Tungsten Mining",
+   "location": "Perth WA",
+   "url": "https://www.seek.com.au/job/94994373",
+   "work_type": "Full time",
+   "salary": "Site Travel as Required",
+   "listed_at": "2026-10-01T04:30:30.386Z",
+   "expires_at": "2026-10-31T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a Civil Project Engineer?",
+    "How much notice are you required to give your current employer?"
+   ],
+   "summary": "Up and coming Civil Project Engineer to join Tungsten Mining’s project delivery team. Support our Watershed Project & learn from an experienced team!",
+   "opening": "The Role\nReporting to the Area Manager – Civil / NPI, you'll support the delivery of civil and non-process infrastructure projects across the Watershed Project and other company developments. You'll coordinate engineering, procurement and construction activities while helping drive safe and efficient project execution\n- Coordinating civil construction and infrastructure packages\n- Managing contractor and consultant interfaces\n- Reviewing designs, drawings and technical documentation\n- Supporting construction planning, scheduling and progress reporting\n- Monitoring costs, procurement and project performance\n- Driving quality assurance, inspections and project handovers\n- Promoting strong safety leadership across site activities\nAbout You\nWe're looking for a proactive Project Engineer who enjoys being part of a team, solving problems and helping projects move forward. To be considered for ",
+   "key_lines": [
+    "- Bachelor's Degree in Civil Engineering",
+    "- 3 to 7 years' experience in mining, infrastructure or heavy civil projects",
+    "- Experience managing contractors and engineering consultants",
+    "- Experience in EPC/EPCM or owner's team environments",
+    "Collaborating with an experienced and entrepreneurial team, your expertise, energy and innovation will contribute directly to overall project success and long-term value creation.",
+    "To Apply",
+    "If you're looking for a role where you can contribute to the successful delivery of a major mining development, work with experienced project professionals and make a lasting impact on critical infrastructure projects, we'd love to hear from you. Apply today!"
+   ]
+  }
+ ]
+}

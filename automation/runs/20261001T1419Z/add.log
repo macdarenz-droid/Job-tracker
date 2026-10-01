@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/workspace/repos/Job-tracker/automation/scripts/tracker.py", line 309, in <module>
+    main()
+    ~~~~^^
+  File "/workspace/repos/Job-tracker/automation/scripts/tracker.py", line 295, in main
+    print(json.dumps(add_records(recs if isinstance(recs, list) else [recs]), indent=1))
+                     ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/repos/Job-tracker/automation/scripts/tracker.py", line 212, in add_records
+    raise ValueError('dry-build records are not publishable; finish PDF verification and uploads first')
+ValueError: dry-build records are not publishable; finish PDF verification and uploads first

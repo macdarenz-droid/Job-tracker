@@ -1,0 +1,28 @@
+{
+  "id": "94958791",
+  "percent": 22,
+  "rationale": [
+    "ADF Army Reserve Civil Engineer part-time role requires Australian Citizenship at enlistment and military training including weapons.",
+    "Also asks Bachelor of Civil Engineering with pathway to IEAust graduate membership.",
+    "Not a civilian junior civil drafting or site coordination path."
+  ],
+  "caution": "Military enlistment and citizenship are hard blocks for Marc (Philippines citizenship, Subclass 485).",
+  "gaps": [],
+  "mandatory_unmet": [
+    "Be at least 17 at the time of enlistment and an Australian Citizen",
+    "Military training including using a weapon; applying to appoint/enlist in the military"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "applications@adfcareers.gov.au",
+  "apply_instructions": "Apply via ADF Careers / SEEK.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "ADF Careers",
+  "title": "Part-Time Civil Engineer (Tax-Free Pay)",
+  "location": "Perth WA",
+  "url": "https://www.seek.com.au/job/94958791",
+  "listed_at": "2026-10-01T04:46:48.739Z",
+  "expires_at": "2026-10-31T12:59:59.999Z",
+  "screening_questions": []
+}
