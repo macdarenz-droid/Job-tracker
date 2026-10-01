@@ -1,0 +1,28 @@
+{
+ "built": [
+  [
+   "1afccfa4-31e4-4671-b9d6-723d3151e2f3",
+   "Brisbane Truss and Timber",
+   "Civil Engineer Draftsperson",
+   "READY_JEREMIE_SEEK"
+  ],
+  [
+   "ce7bb8d3-c734-44c3-b5ac-5dc2d3ac1c44",
+   "Reeds Consulting",
+   "Graduate civil engineer or civil draftsperson - expression of interest (Melbourne)",
+   "PREPARED_NOT_SENT"
+  ]
+ ],
+ "rejected": [],
+ "tracker": {
+  "version": 43,
+  "updated_at": "2026-10-01T04:29:31.067Z",
+  "result": {
+   "added": [
+    "1afccfa4-31e4-4671-b9d6-723d3151e2f3",
+    "ce7bb8d3-c734-44c3-b5ac-5dc2d3ac1c44"
+   ],
+   "skipped": []
+  }
+ }
+}

@@ -1,0 +1,294 @@
+[
+ {
+  "id": "6a84c0a3-8273-4022-808b-4485b5528e46",
+  "key": "manual:6a84c0a3-8273-4022-808b-4485b5528e46",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261001T0417Z",
+  "created_at": "2026-10-01T04:29:19.000Z",
+  "updated_at": "2026-10-01T04:29:19.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Shellharbour City Council",
+  "role": "Cadet - Civil Engineering",
+  "location": "Shellharbour, Wollongong, Illawarra & South Coast NSW",
+  "job_url": "https://www.seek.com.au/job/94767885",
+  "status": "HELD_MANDATORY_REQUIREMENTS",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMPLOYER_PORTAL",
+  "fit": [
+   "Council cadetship across roads, stormwater and civil works is a strong fit for Marc goals.",
+   "Requires current enrolment in Bachelor of Engineering Civil third year; Marc finished BSCE in 2019 and is not enrolled.",
+   "Hold for current-study requirement."
+  ],
+  "gaps": [
+   "Currently studying a Bachelor of Engineering (Civil) and about to commence or undertaking third year"
+  ],
+  "match_score": {
+   "percent": 72,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Council cadetship across roads, stormwater and civil works is a strong fit for Marc goals.",
+    "Requires current enrolment in Bachelor of Engineering Civil third year; Marc finished BSCE in 2019 and is not enrolled.",
+    "Hold for current-study requirement."
+   ],
+   "caution": "Hold; not currently studying."
+  },
+  "notes": "Held by Grok AI: Currently studying a Bachelor of Engineering (Civil) and about to commence or undertaking third year",
+  "checked_at": "2026-10-01T04:29:19.000Z",
+  "duplicate_key": "shellharbourcitycouncil|seek:94767885"
+ },
+ {
+  "id": "cc229b85-f78c-4496-a1a4-25b7569a8ff5",
+  "key": "manual:cc229b85-f78c-4496-a1a4-25b7569a8ff5",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261001T0417Z",
+  "created_at": "2026-10-01T04:29:19.000Z",
+  "updated_at": "2026-10-01T04:29:19.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "NRW Pty Ltd",
+  "role": "Graduate Civil Engineer",
+  "location": "Perth WA",
+  "job_url": "https://www.seek.com.au/job/94829443",
+  "status": "HELD_MANDATORY_REQUIREMENTS",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "SEEK",
+  "fit": [
+   "2027 Graduate Civil Engineer program with site exposure matches graduate target and FIFO openness.",
+   "Bachelor of Civil Engineering met via BSCE; vacation placement preferred not mandatory.",
+   "Right to permanently work in Australia is mandatory; 485 is temporary."
+  ],
+  "gaps": [
+   "The right to permanently work in Australia",
+   "Site vacation placements"
+  ],
+  "match_score": {
+   "percent": 76,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "2027 Graduate Civil Engineer program with site exposure matches graduate target and FIFO openness.",
+    "Bachelor of Civil Engineering met via BSCE; vacation placement preferred not mandatory.",
+    "Right to permanently work in Australia is mandatory; 485 is temporary."
+   ],
+   "caution": "Hold for permanent work rights."
+  },
+  "notes": "Held by Grok AI: The right to permanently work in Australia",
+  "checked_at": "2026-10-01T04:29:19.000Z",
+  "duplicate_key": "nrwptyltd|seek:94829443"
+ },
+ {
+  "id": "e2e1e628-c529-4632-9a7a-52850ce2a892",
+  "key": "manual:e2e1e628-c529-4632-9a7a-52850ce2a892",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261001T0417Z",
+  "created_at": "2026-10-01T04:29:19.000Z",
+  "updated_at": "2026-10-01T04:29:19.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Reid Consulting Engineers Pty Ltd",
+  "role": "Engineering Design Draftsperson - Trainee",
+  "location": "Toowoomba, Toowoomba & Darling Downs QLD",
+  "job_url": "https://www.seek.com.au/job/94985640",
+  "status": "HELD_MANDATORY_REQUIREMENTS",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMAIL",
+  "fit": [
+   "Trainee design draftsperson in a Toowoomba consulting office matches entry drafting pathway.",
+   "Applications invited by email to mail@reidconsulting.com.au.",
+   "Australian citizenship or permanent residency is mandatory; Marc is on a 485 visa."
+  ],
+  "gaps": [
+   "Australian citizenship or permanent residency",
+   "Relocation to Toowoomba"
+  ],
+  "match_score": {
+   "percent": 74,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Trainee design draftsperson in a Toowoomba consulting office matches entry drafting pathway.",
+    "Applications invited by email to mail@reidconsulting.com.au.",
+    "Australian citizenship or permanent residency is mandatory; Marc is on a 485 visa."
+   ],
+   "caution": "Hold for citizenship/PR."
+  },
+  "notes": "Held by Grok AI: Australian citizenship or permanent residency",
+  "checked_at": "2026-10-01T04:29:19.000Z",
+  "duplicate_key": "reidconsultingengineersptyltd|seek:94985640"
+ },
+ {
+  "id": "f146e0ee-10b1-4c32-9931-f1e801ffc32b",
+  "key": "manual:f146e0ee-10b1-4c32-9931-f1e801ffc32b",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261001T0417Z",
+  "created_at": "2026-10-01T04:29:19.000Z",
+  "updated_at": "2026-10-01T04:29:19.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Wallbridge Gilbert Aztec",
+  "role": "Civil Designer",
+  "location": "Melbourne VIC",
+  "job_url": "https://www.seek.com.au/job/94989573",
+  "status": "HELD_MANDATORY_REQUIREMENTS",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "SEEK",
+  "fit": [
+   "Melbourne civil designer role with Civil 3D and road/transport language matches Marc study focus.",
+   "Diploma in Civil Design is an accepted pathway on the advert.",
+   "Mandatory 3+ years consulting design experience is unmet; OpenRoads/12D not used."
+  ],
+  "gaps": [
+   "3+ years' experience in civil engineering design within a consulting environment",
+   "OpenRoads or 12D",
+   "Commercial Civil 3D production"
+  ],
+  "match_score": {
+   "percent": 68,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Melbourne civil designer role with Civil 3D and road/transport language matches Marc study focus.",
+    "Diploma in Civil Design is an accepted pathway on the advert.",
+    "Mandatory 3+ years consulting design experience is unmet; OpenRoads/12D not used."
+   ],
+   "caution": "Do not prepare as ready; hold for years of experience."
+  },
+  "notes": "Held by Grok AI: 3+ years' experience in civil engineering design within a consulting environment",
+  "checked_at": "2026-10-01T04:29:19.000Z",
+  "seek_id": "94989573",
+  "duplicate_key": "wallbridgegilbertaztec|seek:94989573"
+ },
+ {
+  "id": "8fc1796e-5022-44b2-977c-5b1a3fbc9a48",
+  "key": "manual:8fc1796e-5022-44b2-977c-5b1a3fbc9a48",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261001T0417Z",
+  "created_at": "2026-10-01T04:29:19.000Z",
+  "updated_at": "2026-10-01T04:29:19.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "CPB Contractors NSW ACT",
+  "role": "Site Engineer - Infrastructure, Building, Trades & Works",
+  "location": "Wagga Wagga, Wagga Wagga & Riverina NSW",
+  "job_url": "https://www.seek.com.au/job/94990797",
+  "status": "HELD_MANDATORY_REQUIREMENTS",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMPLOYER_PORTAL",
+  "fit": [
+   "Site Engineer EOI for Jan 2027 Riverina Defence works; civil infrastructure and earthworks language fits site interest.",
+   "Degree in civil engineering met; FIFO/regional availability on record.",
+   "Australian Citizenship or Permanent Residency is required; Marc is on a 485 visa."
+  ],
+  "gaps": [
+   "Australian Citizenship or Permanent Residency",
+   "Experienced site engineer track record the EOI seeks"
+  ],
+  "match_score": {
+   "percent": 70,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Site Engineer EOI for Jan 2027 Riverina Defence works; civil infrastructure and earthworks language fits site interest.",
+    "Degree in civil engineering met; FIFO/regional availability on record.",
+    "Australian Citizenship or Permanent Residency is required; Marc is on a 485 visa."
+   ],
+   "caution": "Hold for citizenship/PR."
+  },
+  "notes": "Held by Grok AI: Australian Citizenship or Permanent Residency",
+  "checked_at": "2026-10-01T04:29:19.000Z",
+  "seek_id": "94990797",
+  "duplicate_key": "cpbcontractorsnswact|seek:94990797"
+ },
+ {
+  "id": "b4404e80-bb25-4274-a17a-53d053ede192",
+  "key": "manual:b4404e80-bb25-4274-a17a-53d053ede192",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261001T0417Z",
+  "created_at": "2026-10-01T04:29:19.000Z",
+  "updated_at": "2026-10-01T04:29:19.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Inhabit Group",
+  "role": "Civil Engineer",
+  "location": "Brisbane QLD",
+  "job_url": "https://www.seek.com.au/job/94991047",
+  "status": "HELD_MANDATORY_REQUIREMENTS",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "SEEK",
+  "fit": [
+   "Civil engineer urban development with roads and stormwater language matches study.",
+   "Tertiary civil qualification met via BSCE and Advanced Diploma.",
+   "Minimum 3+ years consultancy civil engineer experience is unmet."
+  ],
+  "gaps": [
+   "minimum of 3+ years’ experience as a civil engineer within a consultancy environment",
+   "QLD land development networks"
+  ],
+  "match_score": {
+   "percent": 66,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Civil engineer urban development with roads and stormwater language matches study.",
+    "Tertiary civil qualification met via BSCE and Advanced Diploma.",
+    "Minimum 3+ years consultancy civil engineer experience is unmet."
+   ],
+   "caution": "Hold for years of experience."
+  },
+  "notes": "Held by Grok AI: minimum of 3+ years’ experience as a civil engineer within a consultancy environment",
+  "checked_at": "2026-10-01T04:29:19.000Z",
+  "seek_id": "94991047",
+  "duplicate_key": "inhabitgroup|seek:94991047"
+ },
+ {
+  "id": "c50b404b-d42b-480d-aa13-056f8d34c054",
+  "key": "manual:c50b404b-d42b-480d-aa13-056f8d34c054",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261001T0417Z",
+  "created_at": "2026-10-01T04:29:19.000Z",
+  "updated_at": "2026-10-01T04:29:19.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Moon Recruitment",
+  "role": "Engineering Technical Officer",
+  "location": "South Perth, Perth WA",
+  "job_url": "https://www.seek.com.au/job/94993048",
+  "status": "HELD_MANDATORY_REQUIREMENTS",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "SEEK",
+  "fit": [
+   "Diploma Civil Engineering and AutoCAD/Civil 3D road and drainage design match Marc coursework.",
+   "Agency role for a WA council; two-month temp only.",
+   "Essential previous road and drainage design experience in an urban environment is unmet."
+  ],
+  "gaps": [
+   "Previous experience in road and drainage design in an urban environment",
+   "Local government experience",
+   "ASAP start in Perth"
+  ],
+  "match_score": {
+   "percent": 64,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Diploma Civil Engineering and AutoCAD/Civil 3D road and drainage design match Marc coursework.",
+    "Agency role for a WA council; two-month temp only.",
+    "Essential previous road and drainage design experience in an urban environment is unmet."
+   ],
+   "caution": "Hold for essential design experience; agency listing."
+  },
+  "notes": "Held by Grok AI: Previous experience in road and drainage design in an urban environment",
+  "checked_at": "2026-10-01T04:29:19.000Z",
+  "seek_id": "94993048",
+  "duplicate_key": "moonrecruitment|seek:94993048"
+ }
+]

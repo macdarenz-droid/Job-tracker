@@ -1,0 +1,33 @@
+{
+  "source": "seek",
+  "company": "Reid Consulting Engineers Pty Ltd",
+  "title": "Engineering Design Draftsperson - Trainee",
+  "location": "Toowoomba, Toowoomba & Darling Downs QLD",
+  "url": "https://www.seek.com.au/job/94985640",
+  "listed_at": "2026-10-01T00:04:17.059Z",
+  "expires_at": "2026-10-31T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?"
+  ],
+  "open": true,
+  "employer_is_agency": false,
+  "apply_email": "mail@reidconsulting.com.au",
+  "apply_instructions": "Send brief covering letter and resume to mail@reidconsulting.com.au.",
+  "notes": "",
+  "mandatory_unresolved": [],
+  "gaps": [
+    "Relocation to Toowoomba"
+  ],
+  "percent": 74,
+  "rationale": [
+    "Trainee design draftsperson in a Toowoomba consulting office matches entry drafting pathway.",
+    "Applications invited by email to mail@reidconsulting.com.au.",
+    "Australian citizenship or permanent residency is mandatory; Marc is on a 485 visa."
+  ],
+  "caution": "Hold for citizenship/PR.",
+  "mandatory_unmet": [
+    "Australian citizenship or permanent residency"
+  ],
+  "route": "EMAIL",
+  "id": "94985640"
+}

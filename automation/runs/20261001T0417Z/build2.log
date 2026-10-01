@@ -1,0 +1,19 @@
+{
+ "built": [
+  [
+   "fa64128d-c241-4066-bb1b-cbaf447fa395",
+   "Brisbane Truss and Timber",
+   "Civil Engineer Draftsperson",
+   "READY_JEREMIE_SEEK"
+  ]
+ ],
+ "rejected": [
+  {
+   "seek_id": "reeds-eoi-grad-civil-vic-20261001",
+   "status": "PREPARED_NOT_SENT",
+   "issues": [
+    "email too long: 229 words (limit 220)"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+  "rotation": "councils_government",
+  "checked_at": "2026-10-01T04:28:26Z",
+  "checked": [
+    {
+      "name": "Melton City Council",
+      "url": "https://meltoncity-external.applynow.net.au/",
+      "roles": [
+        "Civil Projects Officer MEL1888",
+        "GIS Officer MEL1893"
+      ],
+      "notes": "Civil Projects Band 6 screened 48; GIS closes 1 Oct requires spatial science."
+    },
+    {
+      "name": "careers.vic.gov.au",
+      "url": "https://www.careers.vic.gov.au/jobs?keywords=civil",
+      "roles": [],
+      "notes": "Civil search returned lawyer/warrants roles; no junior civil design this tick."
+    },
+    {
+      "name": "Wyndham City",
+      "url": "https://www.wyndham.vic.gov.au/careers",
+      "roles": [],
+      "notes": "Graduate Civil Engineer closed; Emerging Talent cycle April-June."
+    },
+    {
+      "name": "Shellharbour City Council",
+      "seek_id": "94767885",
+      "notes": "Cadet requires current Bachelor enrolment; held."
+    },
+    {
+      "name": "Reeds Consulting",
+      "notes": "Speculative EOI via recruitment@; no open vacancies."
+    }
+  ]
+}

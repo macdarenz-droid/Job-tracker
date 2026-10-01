@@ -85,3 +85,8 @@ def write_json(path, data):
 
 def eprint(*a):
     print(*a, file=sys.stderr)
+
+try:
+    import _grok_identity  # noqa: F401 — Grok Bot identity override when present
+except ImportError:
+    pass

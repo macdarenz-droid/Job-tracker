@@ -1,0 +1,31 @@
+{
+  "source": "seek",
+  "company": "Randstad - Construction, Property & Engineering",
+  "title": "Estimator",
+  "location": "Murray Bridge, Riverland & Murray Mallee SA",
+  "url": "https://www.seek.com.au/job/94987271",
+  "listed_at": "2026-10-01T01:07:29.286Z",
+  "expires_at": "2026-10-31T01:07:27.000Z",
+  "screening_questions": [],
+  "open": true,
+  "employer_is_agency": true,
+  "apply_email": "",
+  "apply_instructions": "",
+  "notes": "",
+  "mandatory_unresolved": [],
+  "gaps": [
+    "Paid estimating role"
+  ],
+  "percent": 28,
+  "rationale": [
+    "Experienced civil estimator for earthworks and roads; agency exclusive.",
+    "Estimating software and proven civil estimating experience unmet.",
+    "Below threshold."
+  ],
+  "caution": "Skip.",
+  "mandatory_unmet": [
+    "Proven experience in civil construction estimating"
+  ],
+  "route": "SEEK",
+  "id": "94987271"
+}

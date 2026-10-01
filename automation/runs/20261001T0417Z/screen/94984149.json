@@ -1,0 +1,35 @@
+{
+  "source": "seek",
+  "company": "Cosmo Cranes Group Pty Ltd",
+  "title": "Junior Draftsman",
+  "location": "Chipping Norton, Sydney NSW",
+  "url": "https://www.seek.com.au/job/94984149",
+  "listed_at": "2026-09-30T22:15:51.834Z",
+  "expires_at": "2026-10-31T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a draftsperson?",
+    "Which of the following CAD software do you have experience with?",
+    "How many years' experience do you have in the construction industry?",
+    "Do you have a current Australian driver's licence?"
+  ],
+  "open": true,
+  "employer_is_agency": false,
+  "apply_email": "",
+  "apply_instructions": "",
+  "notes": "",
+  "mandatory_unresolved": [],
+  "gaps": [
+    "Crane systems knowledge"
+  ],
+  "percent": 44,
+  "rationale": [
+    "Junior Draftsman with AutoCAD fits entry drafting interest.",
+    "Work is crane and materials handling drafting, not civil roads or drainage.",
+    "Below threshold for discipline overlap."
+  ],
+  "caution": "Skip.",
+  "mandatory_unmet": [],
+  "route": "SEEK",
+  "id": "94984149"
+}

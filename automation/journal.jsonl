@@ -47,3 +47,7 @@
 {"run_id": "20260930T2319Z", "at": "2026-09-30T23:30:25.000Z", "stage": "end", "new": 4, "prepared": 1, "ready": 1, "held": 2, "sent": 0, "duplicates": 0, "nothing_new": false}
 {"run_id": "20260930T2319Z", "at": "2026-09-30T23:30:25.000Z", "email": "held_no_canonical_lease", "widening": "d3,d7,d14", "rotation": "employers"}
 {"run_id": "20260930T2319Z", "at": "2026-09-30T23:30:26.000Z", "note": "Published Aurecon READY_JEREMIE_EMPLOYER_PORTAL and Coleman PREPARED_NOT_SENT. Held Dubbo Design Engineer and Employment Matters Trainee for unresolved eligibility. Email held: canonical shared journal lease not accessible (CODEX/D41). Employer rotation names 12-17 all blocked by prior outreach or citizen/PR/closed intake. SEEK only 1 never-screened (CONCRETE SEAL 35%). Widened d3\u2192d7\u2192d14 max80."}
+{"run_id": "20261001T0417Z", "at": "2026-10-01T04:17:09.000Z", "stage": "start"}
+{"run_id": "20261001T0417Z", "at": "2026-10-01T04:18:19.000Z", "stage": "discover_start", "seek_sweep": "d3"}
+{"run_id": "20261001T0417Z", "at": "2026-10-01T04:30:11.000Z", "stage": "end", "new": 9, "prepared": 1, "ready": 1, "held": 7, "sent": 0, "duplicates": 0, "nothing_new": false, "email_skipped": "canonical-journal lease inaccessible on this box; left PREPARED_NOT_SENT"}
+{"run_id": "20261001T0417Z", "at": "2026-10-01T04:30:11.000Z", "stage": "discover", "rotation": "councils_government", "widen": "d3,d7,d14,max80", "seek_new_screen": 8, "extras": "melton,shellharbour,reid,cosmo,nrw"}

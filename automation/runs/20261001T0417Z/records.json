@@ -1,0 +1,214 @@
+[
+ {
+  "id": "1afccfa4-31e4-4671-b9d6-723d3151e2f3",
+  "key": "manual:1afccfa4-31e4-4671-b9d6-723d3151e2f3",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261001T0417Z",
+  "created_at": "2026-10-01T04:29:23.000Z",
+  "updated_at": "2026-10-01T04:29:23.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "570f950b-852f-4c43-90ed-539415ee78df",
+    "path": "/api/documents/570f950b-852f-4c43-90ed-539415ee78df",
+    "filename": "Marc_Masarate_Brisbane_Truss_and_Timber_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-01T04:29:25.690Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "5d3853a2-49d3-4024-86bd-d346f80ec9cf",
+    "path": "/api/documents/5d3853a2-49d3-4024-86bd-d346f80ec9cf",
+    "filename": "Marc_Masarate_Brisbane_Truss_and_Timber_Civil_Engineer_Draftsperson_Cover_Letter.pdf",
+    "sha256": "44f7c2e53416059b4a4b59fe0761acadd4c04d303df47551119be880410a1966",
+    "size_bytes": 46720,
+    "kind": "cover",
+    "uploaded_at": "2026-10-01T04:29:24.405Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Brisbane Truss and Timber",
+  "role": "Civil Engineer Draftsperson",
+  "location": "Ipswich, Brisbane QLD",
+  "job_url": "https://www.seek.com.au/job/94985965",
+  "company_url": "https://brisbanetruss.com.au/",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://brisbanetruss.com.au/",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Application: Civil Engineer Draftsperson, Marc Masarate",
+  "email_body": "Hello,\n\nI am applying for the Civil Engineer Draftsperson role at Brisbane Truss and Timber on SEEK (job 94985965), based in Bundamba.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design with road, earthworks, pavement and stormwater design in AutoCAD and Civil 3D. I also hold a Bachelor of Science in Civil Engineering (Philippines, 2019). From 2019 to 2020 I worked on site in the Philippines as project-in-charge and field engineer.\n\nI am Melton based, hold a White Card, an Australian driver's licence and own transport, and have full working rights until December 2027 on a Subclass 485 visa. I am available for site, regional and relocation discussion for the right role. I have not used Pryda software on a job; my drafting so far is from study in AutoCAD, Civil 3D and Revit.\n\nYour Bundamba plant uses Pryda design software for roof trusses and wall frames for South East Queensland builders, and I want to learn that workflow under your estimators and engineers.\n\nI have attached my resume and cover letter. Portfolio: https://macdarenz-droid.github.io/Portfolio.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Draftsperson title at a manufacturer matches entry drafting; Advanced Diploma of Civil Construction Design is listed among ideal qualifications.",
+   "Discipline is timber truss and Pryda documentation rather than road or stormwater, so overlap is drafting and construction documentation only.",
+   "Ipswich QLD needs relocation discussion; no citizenship gate in the advert; experience is ideal not mandatory."
+  ],
+  "gaps": [
+   "Pryda/MiTech proficiency",
+   "Commercial drafting experience",
+   "Relocation to Ipswich"
+  ],
+  "match_score": {
+   "percent": 62,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Draftsperson title at a manufacturer matches entry drafting; Advanced Diploma of Civil Construction Design is listed among ideal qualifications.",
+    "Discipline is timber truss and Pryda documentation rather than road or stormwater, so overlap is drafting and construction documentation only.",
+    "Ipswich QLD needs relocation discussion; no citizenship gate in the advert; experience is ideal not mandatory."
+   ],
+   "caution": "Pryda/MiTech not used; drafting experience is coursework; timber truss is outside Marc civil roads focus."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-01T00:13:56.886Z",
+   "expires_at": "2026-10-31T12:59:59.999Z",
+   "verified_at": "2026-10-01T04:21:28.000Z",
+   "apply_instructions": "Apply on SEEK with resume and cover letter. Advert listed 1 Oct 2026.",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a civil engineer?",
+    "How much notice are you required to give your current employer?",
+    "Have you worked in a role where you were responsible for authoring and reviewing technical documentation?",
+    "Do you have Engineering Drawing Interpretation experience?"
+   ]
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Open https://www.seek.com.au/job/94985965 and press Apply.",
+   "Upload resume and cover letter from this record.",
+   "Do not claim Pryda or timber truss production experience.",
+   "State 485 work rights honestly if asked.",
+   "Press Applied on the tracker after SEEK confirms."
+  ],
+  "notes": "SEEK apply route. No published recruitment inbox; sales@ is for quotes only.\nChecked 2026-10-01. Site publishes sales@brisbanetruss.com.au for quotes only (GET A FREE QUOTE). No careers page or recruitment inbox. Apply via SEEK.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-01, closes 2026-10-31). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Civil Engineer Draftsperson role on SEEK.\n• They may ask about: Pryda/MiTech proficiency → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Commercial drafting experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Relocation to Ipswich → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-01, closes 2026-10-31). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Civil Engineer Draftsperson role on SEEK.",
+   "They may ask about: Pryda/MiTech proficiency → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Commercial drafting experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Relocation to Ipswich → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-01T04:29:23.000Z",
+  "seek_id": "94985965",
+  "duplicate_key": "brisbanetrussandtimber|seek:94985965"
+ },
+ {
+  "id": "ce7bb8d3-c734-44c3-b5ac-5dc2d3ac1c44",
+  "key": "manual:ce7bb8d3-c734-44c3-b5ac-5dc2d3ac1c44",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261001T0417Z",
+  "created_at": "2026-10-01T04:29:27.000Z",
+  "updated_at": "2026-10-01T04:29:27.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "8f8924bb-5109-4525-bf21-e9f1bf3fabb5",
+    "path": "/api/documents/8f8924bb-5109-4525-bf21-e9f1bf3fabb5",
+    "filename": "Marc_Masarate_Reeds_Consulting_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-01T04:29:29.234Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "72bc4b1d-b856-48c1-af63-437a4bda536b",
+    "path": "/api/documents/72bc4b1d-b856-48c1-af63-437a4bda536b",
+    "filename": "Marc_Masarate_Reeds_Consulting_Graduate_civil_engineer_or_civil_draftsp_Cover_Letter.pdf",
+    "sha256": "871d21101608592fdd509cae793fdceb50e5bb45953ea37a4e5af86cdf3695cf",
+    "size_bytes": 49213,
+    "kind": "cover",
+    "uploaded_at": "2026-10-01T04:29:27.897Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Reeds Consulting",
+  "role": "Graduate civil engineer or civil draftsperson - expression of interest (Melbourne)",
+  "location": "Melbourne VIC",
+  "job_url": "https://www.reedsconsulting.com.au/careers/",
+  "company_url": "https://www.reedsconsulting.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Recruitment Team",
+  "recipient_email": "recruitment@reedsconsulting.com.au",
+  "contact_email": "recruitment@reedsconsulting.com.au",
+  "contact_evidence_url": "https://www.reedsconsulting.com.au/contact/",
+  "contact_verified_at": "2026-10-01T04:29:27.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Graduate civil engineer or civil draftsperson EOI, Melbourne, Marc Masarate",
+  "email_body": "Hello,\n\nThis is a speculative enquiry, not a reply to a named vacancy. Your contact page invites people to connect with the Recruitment Team at recruitment@reedsconsulting.com.au, and your careers page asks for an EOI when no vacancy is listed. I am writing about graduate civil engineering or civil drafting work in Melbourne.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design with road, earthworks, pavement and stormwater design in AutoCAD and Civil 3D. I also hold a Bachelor of Science in Civil Engineering (Philippines, 2019). From 2019 to 2020 I worked on site in the Philippines as project in charge and field engineer.\n\nI am Melton based, hold a White Card, an Australian driver's licence and own transport, and have full working rights until December 2027 on a Subclass 485 visa. I am available for office, site and regional work. I do not yet have Australian consulting employment, so mentoring on land development civil design or drafting is what I am looking for.\n\nReeds covers surveying, civil engineering, planning and development consulting from Swanston Street and Hallam.\n\nI have attached my resume and cover letter. Portfolio: https://macdarenz-droid.github.io/Portfolio.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Melbourne land-development civil consultancy that invites recruitment contact and graduate EOIs when no vacancy is listed.",
+   "Civil engineering, drafting and land development overlap Advanced Diploma coursework; Melton to CBD is a realistic commute.",
+   "Published recruitment@reedsconsulting.com.au on the contact page for recruitment enquiries."
+  ],
+  "gaps": [
+   "No Australian consulting employment yet"
+  ],
+  "match_score": {
+   "percent": 78,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Melbourne land-development civil consultancy that invites recruitment contact and graduate EOIs when no vacancy is listed.",
+    "Civil engineering, drafting and land development overlap Advanced Diploma coursework; Melton to CBD is a realistic commute.",
+    "Published recruitment@reedsconsulting.com.au on the contact page for recruitment enquiries."
+   ],
+   "caution": "Speculative EOI; no named vacancy."
+  },
+  "advert": {
+   "source": "reedsconsulting.com.au",
+   "listed_at": "2026-10-01T04:28:26Z",
+   "expires_at": "",
+   "verified_at": "2026-10-01T04:29:27.000Z",
+   "apply_instructions": "Email CV and cover letter to recruitment@reedsconsulting.com.au (Contact page Recruitment section). Careers page also has an EOI form for Graduate Work Experience.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Confirm this remains a speculative EOI (no named Reeds vacancy applied in the last 90 days).",
+   "Send the prepared email to recruitment@reedsconsulting.com.au with both PDFs.",
+   "Do not invent named hiring managers or claim Australian consulting work.",
+   "If Reeds replies with a portal or form link, use that and update the tracker.",
+   "Press Applied on the tracker after send with method Email."
+  ],
+  "notes": "SPECULATIVE_ENQUIRY. Published recruitment@reedsconsulting.com.au on Contact page Recruitment section. Careers page has no vacancies and invites EOI / Graduate Work Experience. Labelled clearly as speculative.\nChecked 2026-10-01. No open vacancies on careers. Contact page publishes recruitment@ for recruitment. Civil page publishes engineering@. Speculative EOI only.\nHOW GROK AI FOUND THIS\nFound on reedsconsulting.com.au (listed 2026-10-01). Contact: the application inbox recruitment@reedsconsulting.com.au published by the employer (https://www.reedsconsulting.com.au/contact/); no personal address was used. Named people seen on employer pages: Haydon Day (Director – Engineering); Frank Mendolia (Director, Manager – Infrastructure & Design). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate civil engineer or civil draftsperson - expression of interest (Melbourne) role on SEEK.\n• They may ask about: No Australian consulting employment yet → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on reedsconsulting.com.au (listed 2026-10-01). Contact: the application inbox recruitment@reedsconsulting.com.au published by the employer (https://www.reedsconsulting.com.au/contact/); no personal address was used. Named people seen on employer pages: Haydon Day (Director – Engineering); Frank Mendolia (Director, Manager – Infrastructure & Design). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate civil engineer or civil draftsperson - expression of interest (Melbourne) role on SEEK.",
+   "They may ask about: No Australian consulting employment yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-01T04:29:27.000Z",
+  "duplicate_key": "reedsconsulting|reedsconsulting.com.au/careers"
+ }
+]

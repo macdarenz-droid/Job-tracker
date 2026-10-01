@@ -1,0 +1,38 @@
+{
+  "source": "seek",
+  "company": "Moon Recruitment",
+  "title": "Engineering Technical Officer",
+  "location": "South Perth, Perth WA",
+  "url": "https://www.seek.com.au/job/94993048",
+  "listed_at": "2026-10-01T03:49:05.778Z",
+  "expires_at": "2026-10-31T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as an Engineering Technical Officer?",
+    "Do you have a current Australian driver's licence?",
+    "Do you hold a Construction Induction Safety certificate (White Card)?",
+    "Do you have a current Police Check (National Police Certificate) for employment?"
+  ],
+  "open": true,
+  "employer_is_agency": true,
+  "apply_email": "",
+  "apply_instructions": "",
+  "notes": "",
+  "mandatory_unresolved": [],
+  "gaps": [
+    "Local government experience",
+    "ASAP start in Perth"
+  ],
+  "percent": 64,
+  "rationale": [
+    "Diploma Civil Engineering and AutoCAD/Civil 3D road and drainage design match Marc coursework.",
+    "Agency role for a WA council; two-month temp only.",
+    "Essential previous road and drainage design experience in an urban environment is unmet."
+  ],
+  "caution": "Hold for essential design experience; agency listing.",
+  "mandatory_unmet": [
+    "Previous experience in road and drainage design in an urban environment"
+  ],
+  "route": "SEEK",
+  "id": "94993048"
+}

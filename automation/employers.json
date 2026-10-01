@@ -21,9 +21,9 @@
     },
     "Reeds Consulting": {
       "careers_url": "https://www.reedsconsulting.com.au/careers/",
-      "checked_at": "2026-09-28",
+      "checked_at": "2026-10-01",
       "open_junior_roles": [],
-      "notes": "Careers page explicitly states there are currently no new vacancies; only accepts speculative expressions of interest."
+      "notes": "No vacancies; Contact page publishes recruitment@reedsconsulting.com.au for recruitment EOIs; careers form also accepts Graduate Work Experience EOI. Speculative PREPARED this tick."
     },
     "Tonkin Consulting": {
       "careers_url": "https://tonkin.com.au/current-opportunities",
@@ -128,6 +128,14 @@
       "checked_at": "2026-09-30",
       "open_junior_roles": [],
       "notes": "blocked_prior_outreach (Graduate Civil/Structural MANUAL_APPLIED / SEEK receipt 2026-09-26)."
+    },
+    "Melton City Council": {
+      "careers_url": "https://meltoncity-external.applynow.net.au/",
+      "checked_at": "2026-10-01",
+      "open_junior_roles": [
+        "Civil Projects Officer MEL1888"
+      ],
+      "notes": "Civil Projects Officer Band 6 screened 48 percent (below threshold). GIS Officer requires spatial science."
     }
   }
 }

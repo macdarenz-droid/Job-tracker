@@ -1,0 +1,32 @@
+{
+  "source": "meltoncity-external.applynow.net.au",
+  "company": "Melton City Council",
+  "title": "Civil Projects Officer",
+  "location": "Melton VIC",
+  "url": "https://meltoncity-external.applynow.net.au/jobs/MEL1888-civil-projects-officer",
+  "listed_at": "2026-09-01",
+  "expires_at": "2026-10-07T23:59:00+11:00",
+  "screening_questions": [],
+  "open": true,
+  "employer_is_agency": false,
+  "apply_email": "",
+  "apply_instructions": "Apply via Melton applynow with resume and Key Selection Criteria. Info contact Shoaib Rehman Civil Projects Team Leader.",
+  "notes": "",
+  "mandatory_unresolved": [
+    "Whether Band 6 will accept overseas site experience plus Advanced Diploma without Australian contract delivery"
+  ],
+  "gaps": [
+    "Australian contract management experience",
+    "Key Selection Criteria responses"
+  ],
+  "percent": 48,
+  "rationale": [
+    "Melton location is ideal and civil capital works language matches council interest.",
+    "Band 6 with project and contract management experience sits above graduate coordination.",
+    "White Card and Victorian licence met; tertiary civil pathway met via degree and Advanced Diploma."
+  ],
+  "caution": "Below threshold for Band 6 contract delivery experience.",
+  "mandatory_unmet": [],
+  "route": "EMPLOYER_PORTAL",
+  "id": "melton-civil-projects-officer-MEL1888"
+}

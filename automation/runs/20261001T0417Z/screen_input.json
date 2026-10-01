@@ -1,0 +1,739 @@
+{
+  "count": 8,
+  "skipped": 0,
+  "screened_in_earlier_runs": [
+    {
+      "id": "94969508",
+      "company": "GPA Engineering",
+      "title": "Civil/Structural Drafter – ADL",
+      "run": "20260930T1316Z",
+      "percent": 42,
+      "mandatory_unmet": [
+        "Approximately 3–10 years of relevant civil and/or structural drafting and design experience"
+      ]
+    },
+    {
+      "id": "94961556",
+      "company": "Brunel",
+      "title": "Project Engineer - Civil",
+      "run": "20260930T1316Z",
+      "percent": 28,
+      "mandatory_unmet": [
+        "3+ years' experience in civil construction"
+      ]
+    },
+    {
+      "id": "94940114",
+      "company": "NOTAZ International PTY LTD",
+      "title": "Civil engineering draftsperson",
+      "run": "20260930T1316Z",
+      "percent": 45,
+      "mandatory_unmet": [
+        "At least 3 years' experience as a Civil engineering draftsperson"
+      ]
+    },
+    {
+      "id": "94939236",
+      "company": "Roesner and Hamilton Consulting Engineers Pty Ltd",
+      "title": "Civil Engineering Draftsperson",
+      "run": "20260930T1316Z",
+      "percent": 40,
+      "mandatory_unmet": [
+        "Over 3 years of experience and qualified in Civil Drafting"
+      ]
+    },
+    {
+      "id": "94945333",
+      "company": "Verra Recruitment Pty Ltd",
+      "title": "Project Engineer / Site Engineer - Civil | Relocate to Mackay",
+      "run": "20260930T1316Z",
+      "percent": 35,
+      "mandatory_unmet": [
+        "Ideally 3+ years' experience across earthworks, roads, drainage, utilities"
+      ]
+    },
+    {
+      "id": "94973025",
+      "company": "Optimum Consulting Group",
+      "title": "Civil Engineer",
+      "run": "20260930T1316Z",
+      "percent": 30,
+      "mandatory_unmet": []
+    },
+    {
+      "id": "94969016",
+      "company": "QCCS",
+      "title": "Civil Project Engineer",
+      "run": "20260930T1316Z",
+      "percent": 32,
+      "mandatory_unmet": [
+        "Proven experience as a Project Engineer within civil construction"
+      ]
+    },
+    {
+      "id": "94960289",
+      "company": "City of Busselton",
+      "title": "CIVIL DESIGNER",
+      "run": "20260930T1316Z",
+      "percent": 58,
+      "mandatory_unmet": []
+    },
+    {
+      "id": "94938260",
+      "company": "Strategic Project Delivery",
+      "title": "Civil Design Engineer",
+      "run": "20260930T1316Z",
+      "percent": 30,
+      "mandatory_unmet": [
+        "3–8+ years’ experience in civil engineering design"
+      ]
+    },
+    {
+      "id": "94935564",
+      "company": "Queanbeyan-Palerang Regional Council",
+      "title": "Trainee - Civil Construction",
+      "run": "20260930T1316Z",
+      "percent": 35,
+      "mandatory_unmet": []
+    },
+    {
+      "id": "94961163",
+      "company": "Brunel",
+      "title": "Project Engineer ",
+      "run": "20260930T1316Z",
+      "percent": 28,
+      "mandatory_unmet": [
+        "3+ years' experience in civil construction"
+      ]
+    },
+    {
+      "id": "94958409",
+      "company": "Right Connect",
+      "title": "Structural Drafter",
+      "run": "20260930T1316Z",
+      "percent": 40,
+      "mandatory_unmet": []
+    },
+    {
+      "id": "94950957",
+      "company": "Milo Geotechnical",
+      "title": "Civil Engineer",
+      "run": "20260930T1316Z",
+      "percent": 25,
+      "mandatory_unmet": [
+        "A minimum of 5 years' engineering experience associated with the road construction industry"
+      ]
+    },
+    {
+      "id": "94939016",
+      "company": "Egis",
+      "title": "Civil Engineer (Urban Development)",
+      "run": "20260930T1316Z",
+      "percent": 28,
+      "mandatory_unmet": [
+        "minimum of 5+ years’ experience as a civil engineer within a consultancy"
+      ]
+    },
+    {
+      "id": "94956743",
+      "company": "Formstruct",
+      "title": "Estimator  - Civil & NPI",
+      "run": "20260930T1316Z",
+      "percent": 22,
+      "mandatory_unmet": [
+        "Min 5 yrs Experience in Similar Role",
+        "Mine Site Experience"
+      ]
+    },
+    {
+      "id": "94936909",
+      "company": "City of Joondalup",
+      "title": "Skilled General Hand - Engineering Construction (Civil)",
+      "run": "20260930T1316Z",
+      "percent": 20,
+      "mandatory_unmet": [
+        "WA HR Class Driver’s Licence"
+      ]
+    },
+    {
+      "id": "94934404",
+      "company": "Ertech Pty Ltd",
+      "title": "Project Engineer (Civil)",
+      "run": "20260930T1316Z",
+      "percent": 28,
+      "mandatory_unmet": [
+        "4-7 years of relevant experience"
+      ]
+    },
+    {
+      "id": "94931757",
+      "company": "Core Talent",
+      "title": "Site Engineer",
+      "run": "20260930T1819Z",
+      "percent": 30,
+      "mandatory_unmet": [
+        "Experienced Site Engineer with civil construction background on major infrastructure"
+      ]
+    },
+    {
+      "id": "94916158",
+      "company": "WYN&CO Search Recruitment & Payroll",
+      "title": "Civil Project Engineer",
+      "run": "20260928T1031Z",
+      "percent": 50,
+      "mandatory_unmet": []
+    },
+    {
+      "id": "94912548",
+      "company": "AWCON Pty Ltd",
+      "title": "Estimator – Mining & Civil Construction",
+      "run": "20260928T0532Z",
+      "percent": 77,
+      "mandatory_unmet": []
+    },
+    {
+      "id": "94978646",
+      "company": "Smith & Co",
+      "title": "Estimator",
+      "run": "20260930T1819Z",
+      "percent": 22,
+      "mandatory_unmet": [
+        "Experience as a Civil Estimator or Senior Estimator"
+      ]
+    },
+    {
+      "id": "94944895",
+      "company": "TTW (NSW) Pty Ltd",
+      "title": "Structural Revit Drafter",
+      "run": "20260930T1819Z",
+      "percent": 40,
+      "mandatory_unmet": []
+    },
+    {
+      "id": "94984460",
+      "company": "CONCRETE SEAL PTY LTD",
+      "title": "Cadet Estimator & Project Coordinator — Commercial Waterproofing",
+      "run": "20260930T2319Z",
+      "percent": 35,
+      "mandatory_unmet": []
+    },
+    {
+      "id": "94972758",
+      "company": "Information Quality",
+      "title": "Junior in Engineering Drafting",
+      "run": "20260930T1819Z",
+      "percent": 52,
+      "mandatory_unmet": []
+    },
+    {
+      "id": "94958365",
+      "company": "Symal",
+      "title": "Project Engineer",
+      "run": "20260930T1819Z",
+      "percent": 28,
+      "mandatory_unmet": [
+        "Approximately 3+ years experience in civil construction"
+      ]
+    },
+    {
+      "id": "94940251",
+      "company": "Martin Metal Works Pty Ltd",
+      "title": "Design Draftsperson – Autodesk Inventor",
+      "run": "20260930T1819Z",
+      "percent": 25,
+      "mandatory_unmet": []
+    },
+    {
+      "id": "94939741",
+      "company": "Talent Scout Consulting",
+      "title": "Draftsperson - Manufacturing & Fabrication",
+      "run": "20260930T1819Z",
+      "percent": 24,
+      "mandatory_unmet": []
+    },
+    {
+      "id": "94937680",
+      "company": "CPB Contractors VIC & TAS",
+      "title": "Site Engineer Leakes Road (Engineering)",
+      "run": "20260930T1819Z",
+      "percent": 38,
+      "mandatory_unmet": [
+        "Proven experience as a Site Engineer on construction, infrastructure, or civil projects"
+      ]
+    },
+    {
+      "id": "94936602",
+      "company": "Peopleconnexion Recruitment",
+      "title": "Site Engineer - Geotechnical",
+      "run": "20260930T1819Z",
+      "percent": 20,
+      "mandatory_unmet": [
+        "Australian Citizen or Permanent Resident"
+      ]
+    },
+    {
+      "id": "94877601",
+      "company": "Quickway Constructions",
+      "title": "Undergraduate Civil Engineer",
+      "run": "20260930T1819Z",
+      "percent": 55,
+      "mandatory_unmet": [
+        "Currently studying a Bachelor of Civil Engineering (3rd or 4th year)"
+      ]
+    },
+    {
+      "id": "94871250",
+      "company": "WorkPac Technical and Operations",
+      "title": "Civil Engineer – Urban Development & Infrastructure",
+      "run": "20260928T0123Z",
+      "percent": 20,
+      "mandatory_unmet": [
+        "Advert requires 3 to 8 years of post-graduate experience within Australian civil consulting; Marc has none yet"
+      ]
+    },
+    {
+      "id": "94870967",
+      "company": "City of Onkaparinga",
+      "title": "Civil Engineer",
+      "run": "20260928T0123Z",
+      "percent": 28,
+      "mandatory_unmet": [
+        "Advert requires a minimum of 3 years' experience in the civil engineering design field; Marc has none yet"
+      ]
+    },
+    {
+      "id": "94843448",
+      "company": "ACCIONA Australia",
+      "title": "Site Engineers Civils and Structures",
+      "run": "20260930T2319Z",
+      "percent": 38,
+      "mandatory_unmet": [
+        "Experience on major infrastructure projects (Logan and Gold Coast Faster Rail Site Engineer roles)"
+      ]
+    },
+    {
+      "id": "94900572",
+      "company": "Aptus",
+      "title": "Civil 3D | Civil Design + Engineering | $110K - $135K +",
+      "run": "20260928T0123Z",
+      "percent": 25,
+      "mandatory_unmet": [
+        "Advert requires a minimum of 4 years using Civil 3D; Marc's Civil 3D experience is academic coursework only"
+      ]
+    },
+    {
+      "id": "94864674",
+      "company": "Gamuda Australia Branch",
+      "title": "2027 DT Infrastructure Undergraduate Opportunities - Engineering",
+      "run": "20260928T0123Z",
+      "percent": 82,
+      "mandatory_unmet": []
+    },
+    {
+      "id": "94839731",
+      "company": "City of Gold Coast",
+      "title": "Undergraduate Engineers",
+      "run": "20260928T1031Z",
+      "percent": 43,
+      "mandatory_unmet": [
+        "\"be enrolled in and entering the final year of a relevant undergraduate Bachelor of Engineering degree at a recognised Australian university\" (Marc completed his BSCE in 2019 and is not currently enrolled at university)"
+      ]
+    },
+    {
+      "id": "94857072",
+      "company": "JRM Resources",
+      "title": "Civil Engineer",
+      "run": "20260928T1031Z",
+      "percent": 33,
+      "mandatory_unmet": [
+        "\"Minimum 2 years post degree experience\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian work experience)"
+      ]
+    },
+    {
+      "id": "94847757",
+      "company": "Roach Recruitment",
+      "title": "Civil Engineer - Water",
+      "run": "20260928T1031Z",
+      "percent": 68,
+      "mandatory_unmet": []
+    },
+    {
+      "id": "94842398",
+      "company": "Northrop Consulting Engineers Pty Ltd",
+      "title": "Civil Engineer",
+      "run": "20260928T1031Z",
+      "percent": 45,
+      "mandatory_unmet": []
+    }
+  ],
+  "candidates": [
+    {
+      "source": "seek",
+      "seek_id": "94989573",
+      "title": "Civil Designer",
+      "abstract": "We're looking for 12D, Civil 3D or Open Roads experts in civil transport design!",
+      "company": "Wallbridge Gilbert Aztec",
+      "advertiser_id": "37698798",
+      "location": "Melbourne VIC",
+      "listed_at": "2026-10-01T02:17:19.231Z",
+      "expires_at": "2026-10-31T01:16:00.000Z",
+      "is_expired": false,
+      "is_link_out": false,
+      "work_type": "Full time",
+      "salary": null,
+      "classifications": [
+        "Civil/Structural Engineering (Engineering)"
+      ],
+      "bullets": [
+        "Supportive team",
+        "Secure and exciting projects",
+        "Southbank location"
+      ],
+      "screening_questions": [],
+      "content_text": "About us: \n WGA, an AtkinsRéalis company, is a multidisciplinary engineering and project management consultancy delivering complex infrastructure projects across Australia and New Zealand. Combining deep local knowledge with global capability, we connect our clients to an extensive network of engineering specialists, innovative solutions, and industry-leading expertise across the transportation, water, power and renewables, ports and marine, defence, resources, and industrial sectors.\n With a team of over 800 people, WGA provides a rich, diverse, and empowered workplace and offers you a chance to work alongside some of the best in the business. We offer a collaborative work environment that promotes mutual learning, respect, dignity, cultural openness, and an appreciation for diverse perspectives and backgrounds.\n At WGA, you'll find inspiring career pathways, opportunities to learn from technical specialists, and the support to grow professionally and personally. We offer a range of employee benefits, including industry-leading parental leave, flexible working arrangements, work-from-home opportunities, and learning and development programs designed to help you succeed.\n About our approach: \n We focus upon the core philosophy of delivering excellent engineering solutions for our valued Clients which allows us to create exceptional, long-term opportunities for our personnel. Our unique style of project delivery ensures that our people don't have to choose between maintaining hands on Engineering Design and corporate career options, they can have both! \n About our role:  \n We're looking for proactive Civil Design Engineers / Civil Designers to join our Melbourne team. With a strong pipeline of transport, energy and civil infrastructure projects, you'll work on diverse projects while collaborating with industry-leading specialists across Australia. This is an exciting opportunity for someone who is passionate about learning, eager to broaden their experience, and motivated to build a long-term career in a supportive and growth-focused environment.\n About you:\n To be successful in this position, you will have:  \n - Qualification in Civil Engineering. Diploma in Civil Design or equivalent\n - 3+ years' experience in civil engineering design within a consulting environment\n - Proficiency in OpenRoads, Civil 3D and/or 12D\n - Experience delivering road, highway, transport, or civil infrastructure projects ideal\n - Experience producing civil design models, drawings, and documentation for infrastructure projects\n - The ability to collaborate effectively across multidisciplinary teams\n - A proactive and solutions-focused approach\n - Excellent written and verbal communication skills\n About working with us: \n At WGA, we believe a diverse workplace fosters unique and progressive ideas and drives our culture of learning and knowledge sharing. We welcome applications from all candidates from all backgrounds. Join us and advance your career while enjoying the unique benefits and opportunities that come with being part of a local team with global reach.\n WGA is a Work180 endorsed workplace for women, find out more at WGA | WORK180 Endorsed Employer",
+      "url": "https://www.seek.com.au/job/94989573",
+      "share_link": "https://au.seek.com/job/94989573?tracking=SHR-WEB-SharedJob-anz-1",
+      "checked_at": "2026-10-01T04:21:20.000Z",
+      "matched_keywords": [
+        "graduate civil engineer",
+        "junior civil engineer",
+        "civil drafter",
+        "civil draftsperson",
+        "civil designer",
+        "cadet civil",
+        "graduate site engineer",
+        "junior site engineer",
+        "junior estimator civil",
+        "project coordinator civil",
+        "civil 3d",
+        "undergraduate civil",
+        "graduate engineer infrastructure",
+        "junior project engineer",
+        "civil technician",
+        "drafter infrastructure"
+      ],
+      "teaser": "We're looking for 12D, Civil 3D or Open Roads experts in civil transport design!",
+      "relevance": 17,
+      "duplicate": {
+        "blocked": false,
+        "reason": "new",
+        "notes": []
+      }
+    },
+    {
+      "source": "seek",
+      "seek_id": "94985965",
+      "title": "Civil Engineer Draftsperson",
+      "abstract": "Brisbane Truss & Timber are a stable, growing local manufacturer — not a corporate machine, decisions get made fast and we value your opinion!",
+      "company": "Brisbane Truss and Timber",
+      "advertiser_id": "63645816",
+      "location": "Ipswich, Brisbane QLD",
+      "listed_at": "2026-10-01T00:13:56.886Z",
+      "expires_at": "2026-10-31T12:59:59.999Z",
+      "is_expired": false,
+      "is_link_out": false,
+      "work_type": "Full time",
+      "salary": "$85,000 – $95,000 per year",
+      "classifications": [
+        "Engineering Drafting (Engineering)"
+      ],
+      "bullets": [],
+      "screening_questions": [
+        "Which of the following statements best describes your right to work in Australia?",
+        "What's your expected annual base salary?",
+        "How many years' experience do you have as a civil engineer?",
+        "How much notice are you required to give your current employer?",
+        "Have you worked in a role where you were responsible for authoring and reviewing technical documentation?",
+        "Do you have Engineering Drawing Interpretation experience?"
+      ],
+      "content_text": "About us\nBrisbane Truss & Timber is a growing timber truss and wall frame manufacturer based in Bundamba, running the latest Pryda design software and automated production equipment. We supply builders across South East Queensland and we're building a team that can keep up with demand.\nAbout the Role\nAs a Civil Engineer Draftsperson, you will be responsible for preparing, developing and\nmodifying technical drawings and documentation associated with civil, structural and timber\nconstruction projects.\nWorking closely with engineers, estimators, builders and other members of the design team, you\nwill assist in translating architectural and engineering requirements into accurate construction\ndrawings and documentation.\nKey Responsibilities\n- Prepare detailed civil, structural and construction drawings using Pryda\ndrafting software.\n- Develop drawings and technical documentation for roof trusses, wall frames, floor\nsystems and related structural timber solutions.\n- Interpret architectural plans, engineering drawings, specifications and project\nrequirements.\n- Prepare detailed layouts, plans, elevations, sections and construction details.\n- Review drawings for accuracy, completeness and compliance with project specifications.\n- Modify and update drawings in accordance with engineering and design changes.\n- Liaise with engineers, builders, estimators and project personnel to resolve drafting and design issues.\n- Assist with estimating and design documentation for residential and commercial construction projects.\n- Maintain accurate drawing registers, revisions and project documentation.\n- Ensure drafting work is completed accurately and within agreed project timeframes.\n- Assist the wider design team with technical documentation and project coordination as required.\nSkills & Experience\nThe successful candidate will ideally have:\n- Relevant qualifications in Civil Engineering, Civil Engineering Drafting, Engineering\n- Drafting, Civil Construction Design or a related discipline.\n- Previous experience in a civil/structural drafting or engineering environment.\n- Strong knowledge of technical drawing principles and construction documentation.\n- Proficiency in Pryda/MiTech/CAD and relevant drafting/design software.\n- Ability to interpret architectural, engineering and construction drawings.\n- Understanding of structural and construction principles.\n- High attention to detail and accuracy.\n- Good written and verbal communication skills.\n- Ability to work independently as well as collaboratively within a small technical team.\n- Strong organisational and time-management skills.\n- Experience in the timber, building or construction industry will be highly regarded.\nWhat's of offer\n- Competitive salary based on experience\n- Stable, growing local manufacturer — not a corporate machine, decisions get made fast\n- Modern software and equipment\n- On-site parking at our Bundamba facility, easy access from Ipswich Motorway",
+      "url": "https://www.seek.com.au/job/94985965",
+      "share_link": "https://au.seek.com/job/94985965?tracking=SHR-WEB-SharedJob-anz-1",
+      "checked_at": "2026-10-01T04:21:28.000Z",
+      "matched_keywords": [
+        "graduate civil engineer",
+        "junior civil engineer",
+        "civil drafter",
+        "civil draftsperson",
+        "civil designer",
+        "trainee drafter",
+        "graduate site engineer",
+        "junior site engineer",
+        "junior estimator civil",
+        "project coordinator civil",
+        "civil 3d",
+        "junior project engineer",
+        "drafter infrastructure"
+      ],
+      "teaser": "Brisbane Truss & Timber are a stable, growing local manufacturer — not a corporate machine, decisions get made fast and we value your opinion!",
+      "relevance": 13,
+      "duplicate": {
+        "blocked": false,
+        "reason": "new",
+        "notes": []
+      }
+    },
+    {
+      "source": "seek",
+      "seek_id": "94993048",
+      "title": "Engineering Technical Officer",
+      "abstract": "Immediate start for a civil design technical officer with Civil 3D and urban road and drainage design experience. Temp role with a local council.",
+      "company": "Moon Recruitment",
+      "advertiser_id": "32234060",
+      "location": "South Perth, Perth WA",
+      "listed_at": "2026-10-01T03:49:05.778Z",
+      "expires_at": "2026-10-31T12:59:59.999Z",
+      "is_expired": false,
+      "is_link_out": false,
+      "work_type": "Full time",
+      "salary": "Competitive Hourly Rate",
+      "classifications": [
+        "Civil/Structural Engineering (Engineering)"
+      ],
+      "bullets": [
+        "Immediate start, approx. 2-month assignment",
+        "$47 – $54.82 per hour, full-time 38 hours",
+        "Local council south of the river"
+      ],
+      "screening_questions": [
+        "Which of the following statements best describes your right to work in Australia?",
+        "How many years' experience do you have as an Engineering Technical Officer?",
+        "Do you have a current Australian driver's licence?",
+        "Do you hold a Construction Induction Safety certificate (White Card)?",
+        "Do you have a current Police Check (National Police Certificate) for employment?"
+      ],
+      "content_text": "About the opportunity\n Our client, a local council located south of the river, is seeking an experienced Engineering Technical Officer – Engineering Design to join their Engineering Services team on a temporary basis. This is a full-time role (38 hours per week) with an ASAP start for approximately 2 months.\nAbout the role:\n Reporting to the Civil Design Coordinator, you will provide civil engineering design, drafting, estimating, investigation and technical support for the council's capital and operational works programs. You'll help develop practical, compliant and constructible solutions for roads, drainage, parking, active transport, streetscapes and related infrastructure.\nKey responsibilities:\n- Preparing concept and detailed civil designs, drawings, quantities and cost estimates, including Bills of Quantities\n- Designing and drafting road construction and rehabilitation, intersection improvements, minor drainage upgrades, pathways and cycleways, car parks, streetscapes and parks projects\n- Coordinating survey, geotechnical investigation and other design inputs, including the road core sample program\n- Undertaking site inspections, technical investigations, field surveys and minor set out of works\n- Liaising with internal teams, government agencies, service authorities, consultants, contractors and the community, and obtaining approvals\n- Providing technical advice on traffic engineering, active transport, parking management and street lighting\n- Assisting with stormwater drainage assessments, traffic management plans and grant funding applications (e.g. MRRG, WABN, Black Spot)\n- Maintaining accurate engineering plans, \"As Constructed\" records and asset information\n- Assisting with procurement tasks\nAbout you:\n Essential:\n- Diploma in Civil Engineering or equivalent (completed or currently enrolled), or qualifications in AutoCAD Civil 3D with extensive design experience\n- Demonstrated experience using civil design packages such as AutoCAD and Civil 3D\n- Previous experience in road and drainage design in an urban environment\n- Well-developed verbal and written communication skills\n- Strong computer literacy, including MS Word and Excel\n- Well-developed time management and problem-solving skills\n- Ability to work effectively as part of a small team\n- Current WA 'C' Class Driver's Licence\n- Current National Police Clearance\nDesirable:\n- Working knowledge of MRWA, Austroads, Australian Standards and AR&R\n- Sound knowledge of estimating practices and procedures\n- Working knowledge of project management principles\n- Previous local government experience\nIf you're available to start immediately and meet the criteria above, click Apply and submit your resume.",
+      "url": "https://www.seek.com.au/job/94993048",
+      "share_link": "https://au.seek.com/job/94993048?tracking=SHR-WEB-SharedJob-anz-1",
+      "checked_at": "2026-10-01T04:21:45.000Z",
+      "matched_keywords": [
+        "graduate civil engineer",
+        "junior civil engineer",
+        "civil drafter",
+        "civil draftsperson",
+        "civil designer",
+        "graduate site engineer",
+        "junior estimator civil",
+        "project coordinator civil",
+        "civil 3d",
+        "undergraduate civil",
+        "graduate engineer infrastructure",
+        "junior project engineer",
+        "civil technician",
+        "drafter infrastructure"
+      ],
+      "teaser": "Immediate start for a civil design technical officer with Civil 3D and urban road and drainage design experience. Temp role with a local council.",
+      "relevance": 10,
+      "duplicate": {
+        "blocked": false,
+        "reason": "new",
+        "notes": []
+      }
+    },
+    {
+      "source": "seek",
+      "seek_id": "94991047",
+      "title": "Civil Engineer",
+      "abstract": "Join our Urban Development team as a Civil Engineer! In this opportunity, you will focus on delivering comprehensive design and documentation for...",
+      "company": "Inhabit Group",
+      "advertiser_id": "31415842",
+      "location": "Brisbane QLD",
+      "listed_at": "2026-10-01T01:34:17.000Z",
+      "expires_at": "2026-10-31T02:55:07.821Z",
+      "is_expired": false,
+      "is_link_out": true,
+      "work_type": "Full time",
+      "salary": null,
+      "classifications": [
+        "Civil/Structural Engineering (Engineering)"
+      ],
+      "bullets": [],
+      "screening_questions": [],
+      "content_text": "Company Description\nEgis is a leading global organisation in architecture, consulting, construction engineering, operations and mobility services. We partner with clients to design, deliver and operate smarter infrastructure and places that respond to the world’s evolving needs.\nWith more than 22,000 employees worldwide, we combine global capability with strong local insight. Our multidisciplinary expertise enables us to deliver innovative, practical and sustainable solutions that help build more balanced, resilient communities.\nAt Egis, you’ll be part of a business shaping the future of cities, transport, energy and the built environment, creating lasting impact where it matters most.\nJob Description\nJoin our Urban Development team as a Civil Engineer! In this opportunity, you will focus on delivering comprehensive design and documentation for land development and civil infrastructure projects. With a strong portfolio of award-winning projects in hand across South East QLD, our team continues to grow and we'd love for you to join us!\nYou will be responsible for\n- Deliver and manage Civil and Infrastructure designs within broad acre greenfield and brownfield redevelopment\n- Design of major and minor drainage infrastructure with an understanding of hydrological principles with appropriate water management and treatments\n- Deliver and manage water and sewer designs in accordance with SEQ Water standards\n- Prepare relevant servicing and development reports\n- Work closely with the other members of the Urban Development team and sub-consultants\n- Fostering relationships with current and potential clients building on your existing networks to generate new business\nQualifications\nIdeally, you will have a minimum of 3+ years’ experience as a civil engineer within a consultancy environment with demonstrated knowledge of land development and/or infrastructure projects local to QLD. In addition, you will also have:\n- Tertiary qualifications in Civil Engineering\n- Valid full drivers license\n- A thorough understanding of civil design principles pertaining to land development, storm water, civil infrastructure, roads and/or mining/resources\n- Ability to work on multiple projects simultaneously and ability to run projects within budget and on time\n- Strong written and verbal communication skills\n- Strong organisation and interpersonal skills for facilitating internal and external stakeholder engagements and business development opportunities\nAdditional Information\nWe are open to considering this role on a full-time, part-time or job-share basis. Please let us know of your flexibility requirements.\nEgis is committed to creating an inclusive, creative culture that embraces diversity and flexibility. We offer generous parental leave, support flexible work practices and strive to create an environment where employees can connect, collaborate, grow and succeed.\nApply Now!",
+      "url": "https://www.seek.com.au/job/94991047",
+      "share_link": "https://au.seek.com/job/94991047?tracking=SHR-WEB-SharedJob-anz-1",
+      "checked_at": "2026-10-01T04:21:46.000Z",
+      "matched_keywords": [
+        "graduate civil engineer",
+        "junior civil engineer",
+        "civil drafter",
+        "civil draftsperson",
+        "civil designer",
+        "graduate site engineer",
+        "junior site engineer",
+        "project coordinator civil",
+        "civil 3d",
+        "undergraduate civil",
+        "graduate engineer infrastructure",
+        "junior project engineer",
+        "civil technician"
+      ],
+      "teaser": "Join our Urban Development team as a Civil Engineer! In this opportunity, you will focus on delivering comprehensive design and documentation for...",
+      "relevance": 10,
+      "duplicate": {
+        "blocked": false,
+        "reason": "new",
+        "notes": []
+      }
+    },
+    {
+      "source": "seek",
+      "seek_id": "94990797",
+      "title": "Site Engineer - Infrastructure, Building, Trades & Works",
+      "abstract": "Join RRJV's January 2027 mobilisation and deliver major infrastructure, trades and works projects across the Riverina region.",
+      "company": "CPB Contractors NSW ACT",
+      "advertiser_id": "24804856",
+      "location": "Wagga Wagga, Wagga Wagga & Riverina NSW",
+      "listed_at": "2026-10-01T02:47:06.985Z",
+      "expires_at": "2026-10-31T12:59:59.999Z",
+      "is_expired": false,
+      "is_link_out": true,
+      "work_type": "Full time",
+      "salary": null,
+      "classifications": [
+        "Civil/Structural Engineering (Engineering)"
+      ],
+      "bullets": [],
+      "screening_questions": [],
+      "content_text": "Site Engineer - Infrastructure, Trades & Works\nJanuary 2027 Mobilisation Opportunities | Riverina Redevelopment Joint Venture (RRJV)\nThinking about your next move in 2027?\nWhether your current project is nearing completion or you're simply looking for a new challenge, now is the perfect time to start planning ahead.\nThe Riverina Redevelopment Joint Venture (RRJV), a partnership between CPB Contractors and Downer, is seeking expressions of interest from experienced Site Engineers - Infrastructure, Trades & Works for upcoming opportunities commencing from January 2027 across the Riverina region.\nAbout the Project\nRRJV is delivering approximately $1.7 billion of Defence infrastructure upgrades and replacement works across:\n- Albury Wodonga Military Area (AWMA)\n- RAAF Base Wagga (RBW)\n- Blamey Barracks Kapooka (BBK)\nThe program includes major infrastructure upgrades, utilities, civil works, accommodation facilities, training facilities, building refurbishments, and associated services works that will support Defence capability for decades to come.\nThe Opportunity\nReporting to the Project Manager, you will support the safe, efficient and successful delivery of major infrastructure, services, civil, trades and works packages across the project.\nWe are particularly interested in speaking with Site Engineers who have experience delivering:\n- Civil infrastructure projects\n- Services and utilities upgrades\n- Roads, pavements and earthworks\n- Stormwater, water and sewer infrastructure\n- Underground services and utility relocations\n- Mechanical, electrical, hydraulic or fire services packages\n- Defence, mining, transport or major infrastructure projects\n- Trades coordination and multidisciplinary works\nKey responsibilities will include:\n- Coordinating subcontractors and site-based construction activities\n- Reviewing drawings, specifications and technical documentation\n- Managing RFIs, variations and technical queries\n- Monitoring progress against programme and delivery milestones\n- Supporting cost, quality and productivity outcomes\n- Coordinating inspections, testing and commissioning activities\n- Building strong relationships with project stakeholders\n- Promoting and maintaining a strong Zero Harm safety culture\nAbout You\nTo be successful, you will bring:\n- A degree qualification in Civil Engineering or a related discipline\n- Experience delivering infrastructure, civil, utilities or major construction projects\n- Strong coordination and stakeholder management skills\n- Experience working with subcontractors, suppliers and work crews\n- Excellent communication and problem-solving abilities\n- A collaborative approach and commitment to safety\n- Australian Citizenship or Permanent Residency, with the ability to obtain and maintain a Baseline Security Clearance\nWhy Join RRJV?\n- Long-term project pipeline and stability\n- Attractive relocation assistance available\n- Competitive remuneration and project allowance\n- Career development opportunities with CPB Contractors and Downer\n- Inclusive and diverse workplace culture\n- Opportunities to work on one of Australia's largest Defence infrastructure programs\nRegister Your Interest\nIf you're considering a change in January 2027 and would like to contribute to a landmark Defence infrastructure project, we'd love to hear from you.\nSubmit your expression of interest today and start the conversation about your next career opportunity with RRJV.\nPlease note: This role is being sourced directly by RRJV and applications from recruitment agencies will not be accepted.",
+      "url": "https://www.seek.com.au/job/94990797",
+      "share_link": "https://au.seek.com/job/94990797?tracking=SHR-WEB-SharedJob-anz-1",
+      "checked_at": "2026-10-01T04:21:56.000Z",
+      "matched_keywords": [
+        "graduate civil engineer",
+        "junior civil engineer",
+        "civil drafter",
+        "civil designer",
+        "cadet civil",
+        "graduate site engineer",
+        "junior site engineer",
+        "junior estimator civil",
+        "project coordinator civil",
+        "civil 3d",
+        "undergraduate civil",
+        "graduate engineer infrastructure",
+        "junior project engineer",
+        "trainee civil",
+        "civil technician",
+        "drafter infrastructure"
+      ],
+      "teaser": "Join RRJV's January 2027 mobilisation and deliver major infrastructure, trades and works projects across the Riverina region.",
+      "relevance": 9,
+      "duplicate": {
+        "blocked": false,
+        "reason": "new",
+        "notes": []
+      }
+    },
+    {
+      "source": "seek",
+      "seek_id": "94991390",
+      "title": "Design Engineer",
+      "abstract": "Help design and deliver critical infrastructure projects that create lasting benefits for our growing community.",
+      "company": "Sunshine Coast Council",
+      "advertiser_id": "23500431",
+      "location": "Nambour, Sunshine Coast QLD",
+      "listed_at": "2026-10-01T03:32:50.466Z",
+      "expires_at": "2026-10-31T12:59:59.999Z",
+      "is_expired": false,
+      "is_link_out": true,
+      "work_type": "Contract/Temp",
+      "salary": "$122,000 – $142,000 per year",
+      "classifications": [
+        "Civil/Structural Engineering (Engineering)",
+        "Government - Local (Government & Defence)"
+      ],
+      "bullets": [
+        "Deliver infrastructure projects that shape the Sunshine Coast region",
+        "Join a high-performing team in Design & Placemaking Services",
+        "Enjoy a collaborative workplace with growth and development opportunities"
+      ],
+      "screening_questions": [],
+      "content_text": "$122K – $142K Total Remuneration Package (pro-rata)\n$107K – $126K Base Salary (pro-rata)\nLocation: Nambour\nVacancy No: 7318\nTemporary - Full-time (until October 2028) Possible extension subject to business needs\nApplications close: Sunday, 18 October 2026 11:59pm AEST\nWhy work with us?\nAt Council, we’re proud of our region. We collaborate with community to achieve truly sustainable outcomes, enhance our enviable lifestyle, and create award-winning places and spaces that are uniquely Sunshine Coast. So, if you love it here as much as we do, and you want to shape our region for the future – you’ll want to join our team!\nWith the vision to be Australia’s most sustainable region - Connected. Liveable. Thriving, our region is a model of sustainability, where caring for our environment, creating vibrant communities and growing our local economy is a way of life.\nAbout the Branch\nThe Design & Placemaking Services Branch plays a key role in planning and delivering infrastructure solutions that support one of Australia’s fastest-growing regions. The team provides expert engineering and design services, manages outsourced design programs, and develops innovative solutions that enhance transport networks, community assets and long-term regional sustainability. Working within a collaborative and technically skilled environment, you'll contribute to projects that help shape the future of the Sunshine Coast.\nAbout the Role\nAs a Design Engineer, you will support and manage the design development of infrastructure projects within Council’s Capital Works Program. Working closely with engineers, designers, stakeholders and external consultants, you will help deliver high-quality, cost-effective and sustainable engineering outcomes. This is an exciting opportunity to contribute to projects that improve community infrastructure while developing your technical expertise, project management capability and professional engineering career.\nKey Responsibilities\n- Manage and support the design development of infrastructure projects within Council's Capital Works Program.\n- Prepare design reports, engineering documentation, specifications and project recommendations.\n- Coordinate stakeholder engagement, design reviews and consultant activities to achieve successful project outcomes.\n- Identify project risks and issues, implement mitigation strategies and provide technical engineering advice.\nAbout You\nYou bring the technical foundation.\nYou hold tertiary qualifications in Civil Engineering or a related discipline and have experience delivering engineering, infrastructure or project-based outcomes within a complex environment.\nYou thrive on managing projects.\nWith strong project management, planning and financial management skills, you can coordinate multiple priorities, meet deadlines and deliver quality outcomes in a fast-paced environment.\nYou are a skilled communicator.\nYou build productive relationships with stakeholders at all levels and have proven skills in consultation, negotiation, problem solving and achieving positive outcomes.\nYou enjoy solving complex challenges.\nYou bring strong analytical and research capabilities, sound engineering judgement and a passion for developing innovative and practical solutions that deliver community value. For candidates at the senior level, experience working towards RPEQ registration will be highly regarded.\nOur Culture & Employee Benefits\nCouncil is committed to creating an inclusive, culturally diverse, healthy, skilled and dedicated workplace culture. As an employee you will enjoy a range of benefits and working styles to suit you:\n- Wellbeing: Your wellbeing is important to us therefore we offer a number of different initiatives such as discounted health related memberships, fitness passport, employee assistance program and development opportunities. \n- Flexibility: We know it is important to balance life and work, therefore we offer flexible working including a 9-day fortnight and a hybrid WFH model that help you be your best.\n- Extras: Those extras make a difference therefore we offer salary packaging options on novated leases, superannuation, smartphones and devices.\nHow to apply\nYour written application should include:\n·          A 1-2 page cover letter demonstrating your ability to fulfil the mandatory and desirable requirements on the Position Profile. Keep the key responsibilities in mind when addressing this criteria; and\n·          A current resume or curriculum vitae.\nOnce you have these two documents ready, click ‘Apply Now’ and follow the prompts to complete your application.\nFurther Information\nHelpful information to assist you in completing your application is available on the Sunshine Coast Council website.\nTo learn more about Council’s vision and projects, you can view the Corporate Plan 2025-2030.\nFor specific enquiries contact Subbu Kanthakadi during business hours on 0448 009 156.\nWe're working hard to create an inclusive workplace that reflects the diverse community we serve. If you require adjustments at any stage of the recruitment process, please reach out to the Recruitment Team joinusnow@sunshinecoast.qld.gov.au.\nAt Sunshine Coast Council, we embrace differences in gender, age, ethnicity, race, cultural background including First Nations, disability, religion and sexual orientation. To deliver the best service to our region we want a workforce that reflects the diverse community that we serve. Sunshine Coast Council strongly encourages all suitable applicants to apply for this role.",
+      "url": "https://www.seek.com.au/job/94991390",
+      "share_link": "https://au.seek.com/job/94991390?tracking=SHR-WEB-SharedJob-anz-1",
+      "checked_at": "2026-10-01T04:19:22.000Z",
+      "matched_keywords": [
+        "graduate civil engineer",
+        "junior civil engineer",
+        "civil drafter",
+        "civil designer",
+        "graduate site engineer",
+        "junior site engineer",
+        "project coordinator civil",
+        "graduate engineer infrastructure",
+        "junior project engineer",
+        "graduate program engineering",
+        "drafter infrastructure"
+      ],
+      "teaser": "Help design and deliver critical infrastructure projects that create lasting benefits for our growing community.",
+      "relevance": 7,
+      "duplicate": {
+        "blocked": false,
+        "reason": "new",
+        "notes": []
+      }
+    },
+    {
+      "source": "seek",
+      "seek_id": "94987271",
+      "title": "Estimator",
+      "abstract": "Seeking a Civil Estimator in Murray Bridge to prepare precise tenders for infrastructure and earthworks projects across South Australia.",
+      "company": "Randstad - Construction, Property & Engineering",
+      "advertiser_id": "26537359",
+      "location": "Murray Bridge, Riverland & Murray Mallee SA",
+      "listed_at": "2026-10-01T01:07:29.286Z",
+      "expires_at": "2026-10-31T01:07:27.000Z",
+      "is_expired": false,
+      "is_link_out": true,
+      "work_type": "Full time",
+      "salary": "$120k - $140k p.a. + plus super plus vehicle",
+      "classifications": [
+        "Estimating (Construction)"
+      ],
+      "bullets": [],
+      "screening_questions": [],
+      "content_text": "Civil Construction Estimator | Earthworks & Infrastructure\nLocation: Murray Bridge & Regional SA\nWork Type: Full-time, Permanent\nAbout the Business\nRandstad has partnered exclusively with a well-established, family-owned civil construction business based in the Murraylands region of South Australia. Specialising in civil infrastructure, subdivisions, earthworks, and road construction, they are seeking an experienced Civil Construction Estimator to join their management team and drive project growth through accurate tendering.\nKey Responsibilities\n- Prepare detailed cost estimates and competitive tender submissions for varied civil projects.\n- Perform quantity calculations, cost analysis, and constructability assessments.\n- Source, evaluate, and negotiate quotes from subcontractors and suppliers.\n- Identify project risks, commercial opportunities, and value engineering options.\n- Collaborate with clients, consultants, and internal project managers throughout the bidding process.\n- Facilitate seamless project handovers to the operations team following successful contract awards.\nWhat You Bring\n- Proven experience in civil construction estimating covering earthworks, roads, drainage, and subdivisions.\n- Strong ability to read and interpret engineering drawings, contracts, and technical specifications.\n- Knowledge of local government and SA Department for Infrastructure and Transport (DIT) tendering processes.\n- Excellent numerical, analytical, and computer skills, including proficiency with estimating software.\n- Tertiary qualifications in Civil Engineering, Construction Management, or a related discipline are preferred.\nWhat's on Offer\n- A high-impact role in a growing, family-owned South Australian business where your work directly shapes the project pipeline.\n- Collaborative and supportive work culture alongside an experienced leadership team.\n- Long-term career opportunity in the expanding Murraylands region.\nTo Apply\nAs Randstad is managing this vacancy on an exclusive basis, all applications will be reviewed with the strictest confidentiality.\nTo discuss this exclusive opportunity, please contact Ezgi Erdogan-Frost at 0419 381 964 or email your CV to ezgi.erdoganfrost@randstad.com.au\nAt Randstad, we are passionate about providing equal employment opportunities and embracing diversity to the benefit of all. We actively encourage applications from any background.",
+      "url": "https://www.seek.com.au/job/94987271",
+      "share_link": "https://au.seek.com/job/94987271?tracking=SHR-WEB-SharedJob-anz-1",
+      "checked_at": "2026-10-01T04:19:23.000Z",
+      "matched_keywords": [
+        "graduate civil engineer",
+        "junior civil engineer",
+        "civil drafter",
+        "civil draftsperson",
+        "civil designer",
+        "graduate site engineer",
+        "junior site engineer",
+        "junior estimator civil",
+        "project coordinator civil",
+        "civil 3d",
+        "undergraduate civil",
+        "junior project engineer",
+        "civil technician"
+      ],
+      "teaser": "Seeking a Civil Estimator in Murray Bridge to prepare precise tenders for infrastructure and earthworks projects across South Australia.",
+      "relevance": 7,
+      "duplicate": {
+        "blocked": false,
+        "reason": "new",
+        "notes": []
+      }
+    },
+    {
+      "id": "melton-civil-projects-officer-MEL1888",
+      "source": "meltoncity-external.applynow.net.au",
+      "company": "Melton City Council",
+      "title": "Civil Projects Officer",
+      "location": "Melton VIC",
+      "url": "https://meltoncity-external.applynow.net.au/jobs/MEL1888-civil-projects-officer",
+      "listed_at": "2026-09-01",
+      "expires_at": "2026-10-07T23:59:00+11:00",
+      "content_text": "Civil Projects Officer | Melton City Council \n × \n You are using an outdated \n browser. Please update your browser to improve your experience\n and security.\n -->\n -->\n Share this job:\n -->\n Civil Projects Officer\nJob No:\n MEL1888 \nLocation:\n Melton \nEmployment Status:\n Full time \nClosing Date:\n7 Oct 2026 AEDT\n Full Time Permanent Position \n Band 6 - Salary Range $97,926 to $106,637 per annum + 12% Super + ADO \n Salary offered will depend on level of skills and experience. \n Why join Melton City Council? \n Melton City Council is proud to serve one of Australia’s fastest-growing and most diverse communities. We are a forward-thinking local government committed to creating a city where everyone feels welcome, supported, and empowered.\n As a Council, we are driven by innovation, inclusion, and excellence. We deliver high-quality services and infrastructure, promote lifelong learning, and champion health and wellbeing across our municipality. Our team plays a vital role in shaping a vibrant, sustainable future for our residents.\n Working with us means being part of a collaborative and inclusive culture that values your growth. We offer:\n Professional and personal development opportunities\n Generous leave entitlements and flexible work arrangements\n A dynamic workplace close to home, surrounded by heritage charm, green spaces, and modern amenities\n Join us and help build a city that thrives—where your work makes a real difference every day.\n The Opportunity \n Our mission is to deliver and maintain civil infrastructure for the benefit of communities in our fast-growing municipality.  This role supports that goal by ensuring Council’s Capital Works civil programs and projects are delivered in accordance with Council specifications and standards. \nThis role will report to the Civil Operations Coordinator and will liaise with staff, contractors, statutory authorities, and the general public to manage the procurement and delivery of Council Capital Works Projects and Program.\n Key Responsibilities \n Procure, schedule and deliver Council Capital Works Projects and Programs and manage the Contracts so that works are in accordance with OHS legislation, and quality, traffic and environmental management standards.\n Review contract management plans for works under Contracts and maintain records of all compliance checking activities.\n Provide budgetary control and submit reports on the progress and financial status of the assigned Civil Capital Works Projects and Programs.\n Cultivate productive working relationships with Contractors and other teams in Melton Council to ensure the aims of the projects are achieved.\n To view the Position Description , click here .\n About you\n To be successful in this role you will have the following: \n Tertiary qualifications in civil engineering with some relevant experience in all aspects of civil infrastructure construction and maintenance or lesser formal qualifications and substantial relevant experience.\n Relevant experience in project and contract management, negotiation and dispute resolution.\n Project planning, scheduling and delivery monitoring skills with an understanding of the long-term goals of the functional unit.\n Communicate technical matters clearly and concisely, in writing and orally, with a diverse range of people.\n Demonstrated understanding of OHS, traffic and environmental management, and construction standards.\n Occupational Health and Safety Industry Induction (red card or white card).\n Current valid Victorian Driver’s Licence.\n Culture and Values \n Our vision for our community is to be: \"A vibrant, safe and liveable city accessible to all\" and that means there’s a place here for you too. Our organisational values represent us as an established growth Council and the values are reflected in everything we do; our decision-making, our actions and our service provision to the community. Council has a diverse and vibrant organisation and we’d love to have you join us to help shape a city for the future.\n We are Vibrant MELTON. Our values are:\n Motivate\n Empower\n Lead\n Trust\n Open\n Nurture \n Benefits \n There are a number of great reasons why our people love working at Melton City Council: \n Staff Benefits | Melton City Council \n 13 ADO's (Accrued Day Off) per year* \n 5 weeks annual leave* \n Genuine Flexible work options\n Additional $500 per annum pro rata superannuation for female employees over the age of 45 \n Extensive Career Development & Leadership Programs\n Access to the Local Government Employee Health Plan (GMHBA) with exclusive benefits\n 16 weeks Paid Parental Leave (Super is paid during parental leave)*  \n 3 weeks Paid Secondary Carer Leave*\n Wellbeing initiatives\n *Eligible for Full Time positions or for Fixed term positions eligible after 12 months of employment. \n How To Apply \n If you require further information about the position, please contact Shoaib Rehman , Civil Projects Team Leader on 9747 5288 or 0499 200 841 .\n Applications must include a Resume and address the Key Selection Criteria outlining your suitability to the role. To address the Key Selection Criteria, you will need to write short statements explaining how you meet the criteria, or how you demonstrate the capability. We encourage you to keep your responses concise. \n To be eligible for employment at Melton City Council you must be legally entitled to work in Australia. \n All successful applicants will need to undertake pre-employment requirements including but not limited to a satisfactory criminal history record check. Successful applicants must be able to comply with any public health orders applicable to local government.  \n We strongly encourage job applications from Aboriginal and Torres Strait Islander people, people with disabilities, LGBTIQA+ and people from culturally diverse backgrounds. If selected for an interview and you require any additional support or adjustments regarding interview arrangements, please advise the contact listed above in advance.\n Melton City Council is committed to being a child safe organisation and has Zero tolerance for child abuse. Melton City Council is committed to creating and maintaining a child safe organisation where protecting children and preventing and responding to child abuse is at the centre of our everyday thinking and service delivery. \n  Applications close  11:59pm Wednesday 7 October 2026 \n Apply Now\n Allows you to pre-fill the application using your SEEK profile information and resumé\n Privacy Acknowledgment\n The personal information requested on this form is being collected by the Melton City Council for the purpose of processing your recruitment application and conducting the selection and onboarding process. You may apply to the Melton City Council for access and/or amendment of the information. Your personal information will not be disclosed to any external party without your consent, unless required or authorised by law. Your personal information may be provided to internal Council teams for the purpose of recruitment, selection and onboarding.  Should you fail to provide the information, we may be unable to progress with your application to Council. You can contact the Talent Acquisition Team at talent@melton.vic.gov.au for further information. \n Yes I agree to the privacy statement * \nPersonal Details\n * Required field \n First name * \n Last name * \n E-mail * \n Mobile * \n Digits only or add + for international numbers\n Street * \n Street Cont. \n City, Town or Suburb * \n Postcode or Zipcode * \n Country * Please choose... \n AFGHANISTAN \n ALBANIA \n ALGERIA \n AMERICAN SAMOA \n ANDORRA \n ANGOLA \n ANGUILLA \n ANTIGUA AND BARBUDA \n ARGENTINA \n ARMENIA \n ARUBA \n AUSTRALIA \n AUSTRIA \n AZERBAIJAN \n BAHAMAS \n BAHRAIN \n BANGLADESH \n BARBADOS \n BELARUS \n BELGIUM \n BELIZE \n BENIN \n BERMUDA \n BHUTAN \n BOLIVIA \n BOSNIA AND HERZEGOVINA \n BOTSWANA \n BRAZIL \n BRUNEI DARUSSALAM \n BULGARIA \n BURKINA FASO \n BURUNDI \n CAMBODIA \n CAMEROON \n CANADA \n CAPE VERDE \n CAYMAN ISLANDS \n CENTRAL AFRICAN REPUBLIC \n CHAD \n CHILE \n CHINA \n COLOMBIA \n COMOROS \n CONGO \n CONGO, THE DEMOCRATIC REPUBLIC OF THE \n COOK ISLANDS \n COSTA RICA \n COTE D'IVOIRE \n CROATIA \n CUBA \n CYPRUS \n CZECH REPUBLIC \n DENMARK \n DJIBOUTI \n DOMINICA \n DOMINICAN REPUBLIC \n ECUADOR \n EGYPT \n EL SALVADOR \n EQUATORIAL GUINEA \n ERITREA \n ESTONIA \n ETHIOPIA \n FALKLAND ISLANDS (MALVINAS) \n FAROE ISLANDS \n FIJI \n FINLAND \n FRANCE \n FRENCH GUIANA \n FRENCH POLYNESIA \n GABON \n GAMBIA \n GEORGIA \n GERMANY \n GHANA \n GIBRALTAR \n GREECE \n GREENLAND \n GRENADA \n GUADELOUPE \n GUAM \n GUATEMALA \n GUINEA \n GUINEA-BISSAU \n GUYANA \n HAITI \n HOLY SEE (VATICAN CITY STATE) \n HONDURAS \n HONG KONG \n HONG KONG SAR, CHINA \n HUNGARY \n ICELAND \n INDIA \n INDONESIA \n IRAN, ISLAMIC REPUBLIC OF \n IRAQ \n IRELAND \n ISRAEL \n ITALY \n JAMAICA \n JAPAN \n JORDAN \n KAZAKHSTAN \n KENYA \n KIRIBATI \n KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF \n KOREA, REPUBLIC OF \n KUWAIT \n KYRGYZSTAN \n LAO PEOPLE'S DEMOCRATIC REPUBLIC \n LATVIA \n LEBANON \n LESOTHO \n LIBERIA \n LIBYAN ARAB JAMAHIRIYA \n LIECHTENSTEIN \n LITHUANIA \n LUXEMBOURG \n MACAO \n MACAU SAR, CHINA \n MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF \n MADAGASCAR \n MALAWI \n MALAYSIA \n MALDIVES \n MALI \n MALTA \n MARSHALL ISLANDS \n MARTINIQUE \n MAURITANIA \n MAURITIUS \n MEXICO \n MICRONESIA, FEDERATED STATES OF \n MOLDOVA, REPUBLIC OF \n MONACO \n MONGOLIA \n MONTSERRAT \n MOROCCO \n MOZAMBIQUE \n MYANMAR \n NAMIBIA \n NAURU \n NEPAL \n NETHERLANDS \n NETHERLANDS ANTILLES \n NEW CALEDONIA \n NEW ZEALAND \n NICARAGUA \n NIGER \n NIGERIA \n NIUE \n NORFOLK ISLAND \n NORTHERN MARIANA ISLANDS \n NORWAY \n OMAN \n PAKISTAN \n PALAU \n PANAMA \n PAPUA NEW GUINEA \n PARAGUAY \n PERU \n PHILIPPINES \n PITCAIRN \n POLAND \n PORTUGAL \n PUERTO RICO \n QATAR \n REUNION \n ROMANIA \n RUSSIAN FEDERATION \n RWANDA \n SAINT HELENA \n SAINT KITTS AND NEVIS \n SAINT LUCIA \n SAINT PIERRE AND MIQUELON \n SAINT VINCENT AND THE GRENADINES \n SAMOA \n SAN MARINO \n SAO TOME AND PRINCIPE \n SAUDI ARABIA \n SENEGAL \n SEYCHELLES \n SIERRA LEONE \n SINGAPORE \n SLOVAKIA \n SLOVENIA \n SOLOMON ISLANDS \n SOMALIA \n SOUTH AFRICA \n SPAIN \n SRI LANKA \n SUDAN \n SURINAME \n SVALBARD AND JAN MAYEN \n SWAZILAND \n SWEDEN \n SWITZERLAND \n SYRIAN ARAB REPUBLIC \n TAIWAN, PROVINCE OF CHINA \n TAJIKISTAN \n TANZANIA, UNITED REPUBLIC OF \n THAILAND \n TOGO \n TOKELAU \n TONGA \n TRINIDAD AND TOBAGO \n TUNISIA \n TURKEY \n TURKMENISTAN \n TURKS AND CAICOS ISLANDS \n TUVALU \n UGANDA \n UKRAINE \n UNITED ARAB EMIRATES \n UNITED KINGDOM \n UNITED STATES \n URUGUAY \n UZBEKISTAN \n VANUATU \n VENEZUELA \n VIET NAM \n VIRGIN ISLANDS, BRITISH \n VIRGIN ISLANDS, U.S. \n WALLIS AND FUTUNA \n WESTERN SAHARA \n YEMEN \n ZAMBIA \n ZIMBABWE \n INTERNATIONAL \n OTHER \n Unknown \n State, Region or Province * \n Please choose... \n LinkedIn URL \n (Please click on your profile and copy the URL from your profile page.)\n Questions\n Are you an Australian citizen, permanent resident of Australia or legally entitled to work in Australia? * Yes \n No \n Melton City Council is committed to being a child safe organisation and has zero tolerance for child abuse. \n Have you had any allegations made against you under the reportable conduct scheme that were substantiated? * Yes \n No \n Have you left any organisation whilst you were subject to a pending reportable conduct investigation? * Yes \n No \n Current valid Victorian Driver’s Licence.\n * Yes \n No \n Tertiary level qualifications in civil engineering with some relevant experience in all aspects of civil infrastructure construction and maintenance or lesser formal qualifications and substantial relevant experience. * \n Get Felix AI's feedback on my answer \n Experience in project and contract management and contract supervision. * \n Get Felix AI's feedback on my answer \n Proven experience in projects and programs delivery and monitoring. * \n Get Felix AI's feedback on my answer \n Demonstrated understanding of OH&S, traffic management and construction standards. * \n Get Felix AI's feedback on my answer \n Proven ability to prepare and write financial, administrative, procurement, contrac",
+      "apply_instructions": "Apply via Melton applynow portal with resume and Key Selection Criteria. Contact for info: Shoaib Rehman, Civil Projects Team Leader on 9747 5288 or 0499 200 841. Talent inbox talent@melton.vic.gov.au for privacy/process only.",
+      "screening_questions": [],
+      "is_expired": false,
+      "is_link_out": false
+    }
+  ]
+}

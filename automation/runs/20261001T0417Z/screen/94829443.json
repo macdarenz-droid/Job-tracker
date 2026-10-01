@@ -1,0 +1,31 @@
+{
+  "source": "seek",
+  "company": "NRW Pty Ltd",
+  "title": "Graduate Civil Engineer",
+  "location": "Perth WA",
+  "url": "https://www.seek.com.au/job/94829443",
+  "listed_at": "2026-09-23T07:02:57.414Z",
+  "expires_at": "2026-10-21T17:00:00.000Z",
+  "screening_questions": [],
+  "open": true,
+  "employer_is_agency": false,
+  "apply_email": "",
+  "apply_instructions": "",
+  "notes": "",
+  "mandatory_unresolved": [],
+  "gaps": [
+    "Site vacation placements"
+  ],
+  "percent": 76,
+  "rationale": [
+    "2027 Graduate Civil Engineer program with site exposure matches graduate target and FIFO openness.",
+    "Bachelor of Civil Engineering met via BSCE; vacation placement preferred not mandatory.",
+    "Right to permanently work in Australia is mandatory; 485 is temporary."
+  ],
+  "caution": "Hold for permanent work rights.",
+  "mandatory_unmet": [
+    "The right to permanently work in Australia"
+  ],
+  "route": "SEEK",
+  "id": "94829443"
+}
