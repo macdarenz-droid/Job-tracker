@@ -1,0 +1,48 @@
+{
+  "seek_id": null,
+  "company": "Bligh Tanner",
+  "role": "Expressions of Interest | Civil + Water Team",
+  "location": "Brisbane QLD",
+  "job_url": "https://blightanner.hrpartner.io/jobs/expressions-of-interest--civil---water-team-kpzly",
+  "route": "EMPLOYER_PORTAL",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": null,
+  "contact_evidence_url": "https://blightanner.hrpartner.io/jobs/expressions-of-interest--civil---water-team-kpzly",
+  "subject": "Civil + Water EOI, Marc Darenz Masarate",
+  "application_type": "ADVERTISED_VACANCY",
+  "email_body": "",
+  "letter": {
+    "recipient_name": "",
+    "recipient_role": "Civil and Water team",
+    "company": "Bligh Tanner",
+    "company_line": "Brisbane consultancy keeping an open Civil and Water expression of interest for people who match its values",
+    "subject": "Expression of interest: Civil + Water Team",
+    "greeting": "Hello,",
+    "closing": "Kind regards,",
+    "paragraphs": [
+      "I am lodging an expression of interest for the Civil and Water team at Bligh Tanner in Brisbane through your HR Partner careers page. I am looking for graduate civil design and drafting support work where I can contribute under mentoring.",
+      "In February 2026 I completed an Advanced Diploma of Civil Construction Design at the Albright Institute of Business and Language, with road geometry, earthworks, pavement and stormwater design in AutoCAD and Civil 3D. I also hold a Bachelor of Science in Civil Engineering from Divine Word College of Legazpi in the Philippines (2014 to 2019).",
+      "From 2019 to 2020 I worked on site in the Philippines as project-in-charge engineer at JustBuilt and as field engineer at Grand Travaux. I have not yet worked on Australian water, sewer or wastewater projects, and my CAD experience is academic rather than commercial production drafting.",
+      "I live in Melton Victoria, hold a White Card, an Australian driver's licence and own transport, and have full working rights to December 2027 on a Subclass 485 visa. I am available for regional and interstate work and open to discussing a Brisbane base.",
+      "I have attached my resume and cover letter. Portfolio: https://macdarenz-droid.github.io/Portfolio"
+    ]
+  },
+  "screening_answers": {
+    "Are you authorised to work in this country?": "Yes. Subclass 485 visa with full working rights until December 2027.",
+    "Will you require visa sponsorship?": "No.",
+    "Do you have, or have you previously had, a medical condition, injury, illness, allergy or infection that could affect your ability to carry out the role or attend work regularly?": "No.",
+    "If needed, are you willing to complete a pre-employment medical assessment?": "Yes.",
+    "Have you previously made a workers’ compensation claim?": "No.",
+    "Briefly describe why you are applying for this position": "Graduate civil engineer seeking design and drafting support work with Bligh Tanner's Civil and Water team after completing an Advanced Diploma of Civil Construction Design in February 2026, with AutoCAD and Civil 3D coursework and Philippines site experience in 2019 to 2020."
+  },
+  "checklist": [
+    "Open the Bligh Tanner HR Partner Civil + Water EOI URL",
+    "Complete authorisation, sponsorship and medical screening answers from the draft",
+    "Upload resume and cover letter PDFs (and transcript if asked)",
+    "Complete CAPTCHA and submit",
+    "Save confirmation for the tracker"
+  ],
+  "notes": "Victoria offsite rotation: Brisbane Civil + Water EOI found on Bligh Tanner job board. Portal only.",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED"
+}

@@ -1,0 +1,220 @@
+[
+ {
+  "id": "7eb892d7-3c5a-4fd9-a3d6-23cdd5818027",
+  "key": "manual:7eb892d7-3c5a-4fd9-a3d6-23cdd5818027",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261002T1517Z",
+  "created_at": "2026-10-02T15:29:51.000Z",
+  "updated_at": "2026-10-02T15:29:51.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "f35b5590-cf67-4659-91c7-1dc7ecd63ebb",
+    "path": "/api/documents/f35b5590-cf67-4659-91c7-1dc7ecd63ebb",
+    "filename": "Marc_Masarate_Bligh_Tanner_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-02T15:29:54.435Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "9755090b-9163-480c-bea5-85a0c24cebf9",
+    "path": "/api/documents/9755090b-9163-480c-bea5-85a0c24cebf9",
+    "filename": "Marc_Masarate_Bligh_Tanner_Expressions_of_Interest_Civil_Water_Team_Cover_Letter.pdf",
+    "sha256": "9b66e6cbc4b4ad1c8802d276168407c9d32fe400b5a02408b6cdcbd91ddb4ee9",
+    "size_bytes": 47528,
+    "kind": "cover",
+    "uploaded_at": "2026-10-02T15:29:53.099Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Bligh Tanner",
+  "role": "Expressions of Interest | Civil + Water Team",
+  "location": "Brisbane QLD",
+  "job_url": "https://blightanner.hrpartner.io/jobs/expressions-of-interest--civil---water-team-kpzly",
+  "company_url": "https://blightanner.com.au/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://blightanner.hrpartner.io/jobs/expressions-of-interest--civil---water-team-kpzly",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Civil + Water EOI, Marc Darenz Masarate",
+  "email_body": "",
+  "fit": [
+   "Open Civil + Water EOI for people who match values; suitable for graduate civil profile rather than a senior advert.",
+   "Bligh Tanner civil work overlaps roads, drainage and design documentation from Marc's Advanced Diploma.",
+   "Brisbane regional office; Marc available for interstate relocation discussion and FIFO/regional work."
+  ],
+  "gaps": [
+   "No Australian consulting experience",
+   "Has not worked on water, sewer or wastewater projects"
+  ],
+  "match_score": {
+   "percent": 74,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Open Civil + Water EOI for people who match values; suitable for graduate civil profile rather than a senior advert.",
+    "Bligh Tanner civil work overlaps roads, drainage and design documentation from Marc's Advanced Diploma.",
+    "Brisbane regional office; Marc available for interstate relocation discussion and FIFO/regional work."
+   ],
+   "caution": "EOI not a named vacancy; water/sewer project experience is not on Marc's resume (honest limit). Portal CAPTCHA required for submit."
+  },
+  "advert": {
+   "source": "employer_careers",
+   "listed_at": "2026-10-02",
+   "expires_at": "",
+   "verified_at": "2026-10-02T15:29:51.000Z",
+   "apply_instructions": "HR Partner portal: resume + cover letter; undergrad transcripts if applicable.",
+   "screening_questions": [
+    "Are you authorised to work in this country?",
+    "Will you require visa sponsorship?",
+    "Do you have, or have you previously had, a medical condition, injury, illness, allergy or infection that could affect your ability to carry out the role or attend work regularly?",
+    "If needed, are you willing to complete a pre-employment medical assessment?",
+    "Have you previously made a workers compensation claim?",
+    "Briefly describe why you are applying for this position"
+   ]
+  },
+  "screening_answers": {
+   "Are you authorised to work in this country?": "Yes. Subclass 485 visa with full working rights until December 2027.",
+   "Will you require visa sponsorship?": "No.",
+   "Do you have, or have you previously had, a medical condition, injury, illness, allergy or infection that could affect your ability to carry out the role or attend work regularly?": "No.",
+   "If needed, are you willing to complete a pre-employment medical assessment?": "Yes.",
+   "Have you previously made a workers’ compensation claim?": "No.",
+   "Briefly describe why you are applying for this position": "Graduate civil engineer seeking design and drafting support work with Bligh Tanner's Civil and Water team after completing an Advanced Diploma of Civil Construction Design in February 2026, with AutoCAD and Civil 3D coursework and Philippines site experience in 2019 to 2020."
+  },
+  "checklist": [
+   "Open the Bligh Tanner HR Partner Civil + Water EOI URL",
+   "Complete authorisation, sponsorship and medical screening answers from the draft",
+   "Upload resume and cover letter PDFs (and transcript if asked)",
+   "Complete CAPTCHA and submit",
+   "Save confirmation for the tracker"
+  ],
+  "notes": "Victoria offsite rotation: Brisbane Civil + Water EOI found on Bligh Tanner job board. Portal only.\nPortal EOI only; no published direct engineering mailbox for this listing. Older public mentions of blightanner@blightanner.com.au were not verified on this page as an applications inbox.\nHOW GROK AI FOUND THIS\nFound on employer_careers (listed 2026-10-02). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Expressions of Interest | Civil + Water Team role on SEEK.\n• They may ask about: No Australian consulting experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Has not worked on water, sewer or wastewater projects → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_careers (listed 2026-10-02). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Expressions of Interest | Civil + Water Team role on SEEK.",
+   "They may ask about: No Australian consulting experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Has not worked on water, sewer or wastewater projects → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-02T15:29:51.000Z",
+  "duplicate_key": "blightanner|blightanner.hrpartner.io/jobs/expressions-of-interest--civil---water-team-kpzly"
+ },
+ {
+  "id": "a561b92e-1e26-42d9-b2f2-d8cd4d98678c",
+  "key": "manual:a561b92e-1e26-42d9-b2f2-d8cd4d98678c",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261002T1517Z",
+  "created_at": "2026-10-02T15:29:55.000Z",
+  "updated_at": "2026-10-02T15:29:55.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "3a06c7e0-363b-4771-bebc-89f2ab73a899",
+    "path": "/api/documents/3a06c7e0-363b-4771-bebc-89f2ab73a899",
+    "filename": "Marc_Masarate_Colliers_Engineering_Design_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-02T15:29:57.325Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "58d3345c-493f-42fc-b47a-d7443a8eaac1",
+    "path": "/api/documents/58d3345c-493f-42fc-b47a-d7443a8eaac1",
+    "filename": "Marc_Masarate_Colliers_Engineering_Design_Graduate_Engineer_Civil_Cover_Letter.pdf",
+    "sha256": "d880f23533a4da5ccb1c5c73cff5180f325db84c20f96298fdbebc6655f6c924",
+    "size_bytes": 51015,
+    "kind": "cover",
+    "uploaded_at": "2026-10-02T15:29:55.969Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Colliers Engineering & Design",
+  "role": "Graduate Engineer, Civil",
+  "location": "Sunshine Coast QLD",
+  "job_url": "https://jobs.smartrecruiters.com/colliers/744000146568149",
+  "company_url": "https://www.colliers.com.au/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://jobs.smartrecruiters.com/colliers/744000146568149",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Graduate Engineer Civil application, Marc Darenz Masarate",
+  "email_body": "",
+  "fit": [
+   "Graduate civil role on land development (roads, drainage, earthworks, stormwater) matches Advanced Diploma coursework and BSCE.",
+   "AutoCAD / Civil 12D listed as advantageous only; Marc has academic AutoCAD and Civil 3D.",
+   "Sunshine Coast is regional Queensland; Marc is available for regional work and open to discussing relocation."
+  ],
+  "gaps": [
+   "No Australian commercial land-development project experience yet",
+   "Civil 12D not used (AutoCAD and Civil 3D coursework only)"
+  ],
+  "match_score": {
+   "percent": 82,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Graduate civil role on land development (roads, drainage, earthworks, stormwater) matches Advanced Diploma coursework and BSCE.",
+    "AutoCAD / Civil 12D listed as advantageous only; Marc has academic AutoCAD and Civil 3D.",
+    "Sunshine Coast is regional Queensland; Marc is available for regional work and open to discussing relocation."
+   ],
+   "caution": "Portal apply only; confirm Colliers accepts Subclass 485 when lodging. Degree wording says Civil Engineering; Marc holds BSCE Philippines plus Australian Advanced Diploma."
+  },
+  "advert": {
+   "source": "employer_careers",
+   "listed_at": "2026-08-31",
+   "expires_at": "",
+   "verified_at": "2026-10-02T15:29:55.000Z",
+   "apply_instructions": "Apply via SmartRecruiters portal; direct applications only.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Open https://jobs.smartrecruiters.com/colliers/744000146568149",
+   "Create or sign in to SmartRecruiters with macdarenz@gmail.com",
+   "Upload resume PDF and cover letter PDF",
+   "Confirm work rights as Subclass 485 to December 2027",
+   "Submit and save confirmation for the tracker"
+  ],
+  "notes": "Victoria offsite find via open-web search of Colliers graduate civil land-development role. Portal only.\nNo published hiring-manager email on the SmartRecruiters advert. Apply through employer portal only.\nHOW GROK AI FOUND THIS\nFound on employer_careers (listed 2026-08-31). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate Engineer, Civil role on SEEK.\n• They may ask about: No Australian commercial land-development project experience yet → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Civil 12D not used (AutoCAD and Civil 3D coursework only) → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_careers (listed 2026-08-31). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate Engineer, Civil role on SEEK.",
+   "They may ask about: No Australian commercial land-development project experience yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Civil 12D not used (AutoCAD and Civil 3D coursework only) → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-02T15:29:55.000Z",
+  "duplicate_key": "colliersengineeringdesign|jobs.smartrecruiters.com/colliers/744000146568149"
+ }
+]

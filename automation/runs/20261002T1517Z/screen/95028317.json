@@ -1,0 +1,33 @@
+{
+  "id": "95028317",
+  "company": "In2work Pty Ltd",
+  "title": "NEW! Project Engineers FIFO and East Coast DTMR Projects!",
+  "location": "Brisbane QLD",
+  "url": "https://www.seek.com.au/job/95028317",
+  "listed_at": "2026-10-02T08:22:26.176Z",
+  "expires_at": "2026-11-01T12:59:59.999Z",
+  "percent": 32,
+  "rationale": [
+    "Advertised as NEW! Project Engineers FIFO and East Coast DTMR Projects! at In2work Pty Ltd.",
+    "Compared to facts.json graduate civil drafting and site-coordination profile.",
+    "Below fit threshold or wrong discipline/experience level for this tick."
+  ],
+  "caution": "Agency listing",
+  "gaps": [
+    "Experience level or discipline mismatch"
+  ],
+  "mandatory_unmet": [
+    "Experienced Civil Project Engineers for FIFO/DTMR; not graduate/junior"
+  ],
+  "mandatory_unresolved": [],
+  "route": "EMAIL",
+  "apply_email": null,
+  "apply_instructions": "",
+  "open": true,
+  "employer_is_agency": true,
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How much notice are you required to give your current employer?",
+    "Do you have a current Australian driver's licence?"
+  ]
+}

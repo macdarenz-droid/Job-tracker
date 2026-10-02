@@ -1,0 +1,546 @@
+{
+ "count": 7,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "94969508",
+   "company": "GPA Engineering",
+   "title": "Civil/Structural Drafter – ADL",
+   "run": "20261001T0918Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "suited to someone with 3-10 years' experience"
+   ]
+  },
+  {
+   "id": "94961556",
+   "company": "Brunel",
+   "title": "Project Engineer - Civil",
+   "run": "20260930T1316Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "3+ years' experience in civil construction"
+   ]
+  },
+  {
+   "id": "95021621",
+   "company": "Ertech Pty Ltd",
+   "title": "Project Engineer (Civil)",
+   "run": "20261002T0519Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Minimum 5 years experience in civil construction project delivery"
+   ]
+  },
+  {
+   "id": "94958791",
+   "company": "ADF Careers",
+   "title": "Part-Time Civil Engineer (Tax-Free Pay)",
+   "run": "20261001T1419Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "Be at least 17 at the time of enlistment and an Australian Citizen",
+    "Military training including using a weapon; applying to appoint/enlist in the military"
+   ]
+  },
+  {
+   "id": "94973025",
+   "company": "Optimum Consulting Group",
+   "title": "Civil Engineer",
+   "run": "20260930T1316Z",
+   "percent": 30,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94969016",
+   "company": "QCCS",
+   "title": "Civil Project Engineer",
+   "run": "20260930T1316Z",
+   "percent": 32,
+   "mandatory_unmet": [
+    "Proven experience as a Project Engineer within civil construction"
+   ]
+  },
+  {
+   "id": "95013854",
+   "company": "Whitehorse City Council",
+   "title": "Asset Engineer",
+   "run": "20261002T0519Z",
+   "percent": 42,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94995704",
+   "company": "Xeros Piccolo Consulting Engineers",
+   "title": "Structural/Civil Engineer",
+   "run": "20261001T0918Z",
+   "percent": 18,
+   "mandatory_unmet": [
+    "Five years' experience in designing timber, steel and concrete structures",
+    "Engineers with 5+ years of industry experience"
+   ]
+  },
+  {
+   "id": "94961163",
+   "company": "Brunel",
+   "title": "Project Engineer ",
+   "run": "20260930T1316Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "3+ years' experience in civil construction"
+   ]
+  },
+  {
+   "id": "94958409",
+   "company": "Right Connect",
+   "title": "Structural Drafter",
+   "run": "20260930T1316Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95021747",
+   "company": "Contec Recruitment Pty Ltd",
+   "title": "Civil Estimator ",
+   "run": "20261002T0519Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "8+ years experience in the Civil Construction industry in estimating"
+   ]
+  },
+  {
+   "id": "95021585",
+   "company": "Cascada",
+   "title": "AutoCAD Draftsperson - Reinforced Concrete",
+   "run": "20261002T1016Z",
+   "percent": 58,
+   "mandatory_unmet": [
+    "1-2 years practical experience using AutoCAD"
+   ]
+  },
+  {
+   "id": "94990020",
+   "company": "Gough Recruitment SA",
+   "title": "Civil Estimator",
+   "run": "20261002T0519Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Australian permanent residency or unrestricted working rights"
+   ]
+  },
+  {
+   "id": "94956743",
+   "company": "Formstruct",
+   "title": "Estimator  - Civil & NPI",
+   "run": "20260930T1316Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "Min 5 yrs Experience in Similar Role",
+    "Mine Site Experience"
+   ]
+  },
+  {
+   "id": "94999649",
+   "company": "CPB Contractors NSW ACT",
+   "title": "Project Engineer Building & Infrastructure",
+   "run": "20261001T0918Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "5-8 years of experience within building, infrastructure, or major construction projects",
+    "Australian Citizenship or Permanent Residency with the ability to obtain and maintain a Baseline Security Clearance"
+   ]
+  },
+  {
+   "id": "94978646",
+   "company": "Smith & Co",
+   "title": "Estimator",
+   "run": "20260930T1819Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "Experience as a Civil Estimator or Senior Estimator"
+   ]
+  },
+  {
+   "id": "95021786",
+   "company": "SCP Consulting Pty Ltd",
+   "title": "Draftsperson",
+   "run": "20261002T0519Z",
+   "percent": 32,
+   "mandatory_unmet": [
+    "5-6 years' experience in a similar role"
+   ]
+  },
+  {
+   "id": "95009307",
+   "company": "The Lorian Group",
+   "title": "Construction Cadet / Junior PM",
+   "run": "20261002T0012Z",
+   "percent": 38,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95002679",
+   "company": "Sunshine Coast Council",
+   "title": "Design Engineer",
+   "run": "20261001T1419Z",
+   "percent": 52,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94994373",
+   "company": "Tungsten Mining",
+   "title": "Civil Project Engineer",
+   "run": "20261001T1419Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Bachelor's Degree in Civil Engineering with 3 to 7 years' experience in mining, infrastructure or heavy civil projects"
+   ]
+  },
+  {
+   "id": "94991390",
+   "company": "Sunshine Coast Council",
+   "title": "Design Engineer",
+   "run": "20261001T0417Z",
+   "percent": 42,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94987271",
+   "company": "Randstad - Construction, Property & Engineering",
+   "title": "Estimator",
+   "run": "20261001T0417Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Proven experience in civil construction estimating"
+   ]
+  },
+  {
+   "id": "94984460",
+   "company": "CONCRETE SEAL PTY LTD",
+   "title": "Cadet Estimator & Project Coordinator — Commercial Waterproofing",
+   "run": "20260930T2319Z",
+   "percent": 35,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94972758",
+   "company": "Information Quality",
+   "title": "Junior in Engineering Drafting",
+   "run": "20260930T1819Z",
+   "percent": 52,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94958365",
+   "company": "Symal",
+   "title": "Project Engineer",
+   "run": "20260930T1819Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Approximately 3+ years experience in civil construction"
+   ]
+  },
+  {
+   "id": "94962216",
+   "company": "Croudace Constructs",
+   "title": "Junior Estimator",
+   "run": "20260930T1819Z",
+   "percent": 35,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94962220",
+   "company": "City Of Casey",
+   "title": "Development Engineer",
+   "run": "20260930T1819Z",
+   "percent": 48,
+   "mandatory_unmet": []
+  }
+ ],
+ "candidates": [
+  {
+   "id": "95028317",
+   "source": "seek",
+   "title": "NEW! Project Engineers FIFO and East Coast DTMR Projects!",
+   "company": "In2work Pty Ltd",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/95028317",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-02T08:22:26.176Z",
+   "expires_at": "2026-11-01T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How much notice are you required to give your current employer?",
+    "Do you have a current Australian driver's licence?"
+   ],
+   "summary": "\"NEW! We require experienced Civil Project Engineers for a strong pipeline of infrastructure work across Queensland! email info@in2work.com.au!\"",
+   "opening": "Civil Project Engineers — FIFO & Queensland East Coast DTMR Opportunities\nMultiple roles | Three established mid-tier civil contractors | Queensland\nWe are partnering with three respected mid-tier civil contractors to recruit experienced Civil Project Engineers for a strong pipeline of infrastructure work across Queensland. Opportunities include FIFO project delivery and East Coast road and transport projects for the Queensland Department of Transport and Main Roads (DTMR).\nThe Opportunities\nContractor 1 — FIFO Civil Infrastructure\nJoin a well-established contractor delivering complex civil works in regional and remote Queensland. This opportunity suits an engineer comfortable working in a site-based FIFO environment and coordinating earthworks, drainage, structures, pavements and subcontractors.\nContractor 2 — Queensland East Coast DTMR Projects\nWork on road and transport infrastructure",
+   "key_lines": [
+    "We are partnering with three respected mid-tier civil contractors to recruit experienced Civil Project Engineers for a strong pipeline of infrastructure work across Queensland. Opportunities include FIFO project delivery and East Coast road and transport projects for the Queensland Department of Transport and Main Roads (DTMR).",
+    "Work on road and transport infrastructure along Queensland’s East Coast for DTMR. The role offers exposure to live-traffic environments, quality and compliance requirements, stakeholder coordination, and the delivery of safe, efficient project outcomes.",
+    "·        Monitor programme, productivity and quality against project requirements.",
+    "·        Bachelor’s degree in Civil Engineering or a closely related discipline.",
+    "·        Project engineering experience with a civil contractor in roads, earthworks, drainage, pavements, structures or utilities.",
+    "·        Australian working rights and a current driver licence.",
+    "·        Previous DTMR project experience or familiarity with Queensland road construction requirements will be highly regarded.",
+    "·        Competitive remuneration aligned with experience and project conditions.",
+    "·        Supportive delivery teams with direct access to experienced project leaders.",
+    "Apply Now"
+   ],
+   "seek_id": "95028317",
+   "content_text": "Civil Project Engineers — FIFO & Queensland East Coast DTMR Opportunities\nMultiple roles | Three established mid-tier civil contractors | Queensland\nWe are partnering with three respected mid-tier civil contractors to recruit experienced Civil Project Engineers for a strong pipeline of infrastructure work across Queensland. Opportunities include FIFO project delivery and East Coast road and transport projects for the Queensland Department of Transport and Main Roads (DTMR).\nThe Opportunities\nContractor 1 — FIFO Civil Infrastructure\nJoin a well-established contractor delivering complex civil works in regional and remote Queensland. This opportunity suits an engineer comfortable working in a site-based FIFO environment and coordinating earthworks, drainage, structures, pavements and subcontractors.\nContractor 2 — Queensland East Coast DTMR Projects\nWork on road and transport infrastructure along Queensland’s East Coast for DTMR. The role offers exposure to live-traffic environments, quality and compliance requirements, stakeholder coordination, and the delivery of safe, efficient project outcomes.\nContractor 3 — Regional Roads & Civil Works\nTake ownership of project engineering on regional road, bulk earthworks and civil infrastructure packages. This is an opportunity to join a contractor with a practical delivery culture and contribute from planning and procurement through construction and handover.\nKey Responsibilities\n·        Plan and coordinate daily construction activities, resources and subcontractors.\n·        Manage scopes, procurement, cost tracking, forecasting and project reporting.\n·        Prepare and administer ITPs, work packs, RFIs, lot records and handover documentation.\n·        Monitor programme, productivity and quality against project requirements.\n·        Support risk assessments, environmental controls and a strong safety culture.\n·        Liaise with clients, DTMR representatives, designers, suppliers and site teams.\n·        Identify delivery risks early and drive practical, commercially sound solutions.\nAbout You\n·        Bachelor’s degree in Civil Engineering or a closely related discipline.\n·        Project engineering experience with a civil contractor in roads, earthworks, drainage, pavements, structures or utilities.\n·        Strong understanding of construction planning, quality documentation, cost control and subcontractor management.\n·        Clear communication skills and the ability to build effective relationships across site and client teams.\n·        A practical, safety-focused approach and willingness to take ownership of outcomes.\n·        Australian working rights and a current driver licence.\n·        For FIFO roles, the ability to work the project roster and travel to regional or remote sites.\n·        Previous DTMR project experience or familiarity with Queensland road construction requirements will be highly regarded.\nWhat’s on Offer\n·        A choice of FIFO, regional and East Coast project opportunities.\n·        Long-term project pipelines with established mid-tier contractors.\n·        Competitive remuneration aligned with experience and project conditions.\n·        Career progression through varied, technically challenging civil works.\n·        Supportive delivery teams with direct access to experienced project leaders.\nApply Now\nIf you are a Civil Project Engineer considering your next move in Queensland, submit your CV to info@in2work.com.au and a brief summary of your preferred location, project type and availability. All applications and enquiries will be treated in confidence.",
+   "bullets": [
+    "3 Mid Tier Contractors with bulging order books!",
+    "Training, Development and Strategic Career Progression!",
+    "Family Friendly Rosters and exceptional Cultures!"
+   ],
+   "abstract": "\"NEW! We require experienced Civil Project Engineers for a strong pipeline of infrastructure work across Queensland! email info@in2work.com.au!\"",
+   "teaser": "\"NEW! We require experienced Civil Project Engineers for a strong pipeline of infrastructure work across Queensland! email info@in2work.com.au!\"",
+   "classifications": [
+    "Project Engineering (Engineering)"
+   ],
+   "share_link": "https://au.seek.com/job/95028317?tracking=SHR-WEB-SharedJob-anz-1"
+  },
+  {
+   "id": "95020068",
+   "source": "seek",
+   "title": "Project Engineer – Bulk Earthworks | 2:1 Roster | Immediate Start",
+   "company": "AMT CIVILS",
+   "location": "Newman, Port Hedland, Karratha & Pilbara WA",
+   "url": "https://www.seek.com.au/job/95020068",
+   "work_type": "Casual/Vacation",
+   "salary": "$65 – $75 per hour",
+   "listed_at": "2026-10-02T04:10:33.013Z",
+   "expires_at": "2026-11-01T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How much notice are you required to give your current employer?"
+   ],
+   "summary": "Project Engineer – Bulk Earthworks | 2:1 Roster | Immediate Start",
+   "opening": "Project Engineer – Bulk Earthworks | 2:1 Roster | Immediate Start\nAMT Civils is seeking an experienced Civil Project Engineer for an immediate start on a bulk earthworks project, with work available for up to six months on a 2:1 roster.\nImmediate availability is essential. Please do not apply if you cannot commence immediately.\nThe role\nWorking closely with the site delivery team, your responsibilities will include:\n- Coordinating daily works, subcontractors, plant and materials.\n- Reviewing drawings, specifications and construction requirements.\n- Managing QA documentation, ITPs, inspections and testing.\n- Tracking quantities, costs, productivity and project progress.\n- Supporting procurement, programming and short-term planning.\n- Resolving technical queries and liaising with the client and supervisors.\nAbout you\n- Civil engineering qualification.\n- Demonstrated Project Engineer experi",
+   "key_lines": [
+    "AMT Civils is seeking an experienced Civil Project Engineer for an immediate start on a bulk earthworks project, with work available for up to six months on a 2:1 roster.",
+    "Immediate availability is essential. Please do not apply if you cannot commence immediately.",
+    "Working closely with the site delivery team, your responsibilities will include:",
+    "- Reviewing drawings, specifications and construction requirements.",
+    "- Civil engineering qualification.",
+    "- Demonstrated Project Engineer experience on bulk earthworks and civil construction projects.",
+    "- Strong understanding of earthworks delivery, quality requirements and cost control.",
+    "Apply now"
+   ],
+   "seek_id": "95020068",
+   "content_text": "Project Engineer – Bulk Earthworks | 2:1 Roster | Immediate Start\nAMT Civils is seeking an experienced Civil Project Engineer for an immediate start on a bulk earthworks project, with work available for up to six months on a 2:1 roster.\nImmediate availability is essential. Please do not apply if you cannot commence immediately.\nThe role\nWorking closely with the site delivery team, your responsibilities will include:\n- Coordinating daily works, subcontractors, plant and materials.\n- Reviewing drawings, specifications and construction requirements.\n- Managing QA documentation, ITPs, inspections and testing.\n- Tracking quantities, costs, productivity and project progress.\n- Supporting procurement, programming and short-term planning.\n- Resolving technical queries and liaising with the client and supervisors.\nAbout you\n- Civil engineering qualification.\n- Demonstrated Project Engineer experience on bulk earthworks and civil construction projects.\n- Strong understanding of earthworks delivery, quality requirements and cost control.\n- Confident managing site priorities and communicating with crews and clients.\n- Available to start immediately and work a 2:1 roster.\nApply now\nSubmit your CV through SEEK and clearly state your earliest commencement date.",
+   "bullets": [],
+   "abstract": "Project Engineer – Bulk Earthworks | 2:1 Roster | Immediate Start",
+   "teaser": "Project Engineer – Bulk Earthworks | 2:1 Roster | Immediate Start",
+   "classifications": [
+    "Project Engineering (Engineering)"
+   ],
+   "share_link": "https://au.seek.com/job/95020068?tracking=SHR-WEB-SharedJob-anz-1"
+  },
+  {
+   "id": "95016703",
+   "source": "seek",
+   "title": "Site Engineer - Blue Mountains",
+   "company": "CGC Recruitment",
+   "location": "Blue Mountains & Central West NSW",
+   "url": "https://www.seek.com.au/job/95016703",
+   "work_type": "Contract/Temp",
+   "salary": "$NEG",
+   "listed_at": "2026-10-02T02:51:07.595Z",
+   "expires_at": "2026-11-01T01:51:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "ASAP Start for site engineer to work on principle contracting road project.",
+   "opening": "Site Engineer - Civil Infrastructure | Blue Mountains | ASAP Start\nOur client, a well-established civil infrastructure contractor, is seeking an experienced Site Engineer for an immediate start on a project based in the Blue Mountains. This is a temp/contract role initially for 6 months+, with strong potential for extension.\nThe Role\nWorking closely with the site team, you will be responsible for the day-to-day engineering delivery of civil works, ensuring the project is delivered safely, on program and to specification.\nKey Responsibilities\n - Manage and coordinate day-to-day site engineering activities\n - Set out and survey works, quality checks and inspections\n - Liaise with subcontractors, suppliers and the broader project team\n - Ensure compliance with design documentation, specifications and drawings\n - Monitor and report on progress against program\n - Support the Project Engineer/",
+   "key_lines": [
+    "Our client, a well-established civil infrastructure contractor, is seeking an experienced Site Engineer for an immediate start on a project based in the Blue Mountains. This is a temp/contract role initially for 6 months+, with strong potential for extension.",
+    "Working closely with the site team, you will be responsible for the day-to-day engineering delivery of civil works, ensuring the project is delivered safely, on program and to specification.",
+    "- Degree qualified in Civil Engineering (or equivalent)",
+    "- Previous experience as a Site Engineer on civil infrastructure projects (roads, bridges, earthworks or similar)",
+    "- Experience with setout, survey equipment and reading civil drawings",
+    "- Valid driver's licence and White Card",
+    "- Competitive hourly/daily rate, negotiable based on experience",
+    "How to Apply",
+    "You can email your resume to william.gardner@cgcrecruitment.com or call 0435935377 for more information."
+   ],
+   "seek_id": "95016703",
+   "content_text": "Site Engineer - Civil Infrastructure | Blue Mountains | ASAP Start\nOur client, a well-established civil infrastructure contractor, is seeking an experienced Site Engineer for an immediate start on a project based in the Blue Mountains. This is a temp/contract role initially for 6 months+, with strong potential for extension.\nThe Role\nWorking closely with the site team, you will be responsible for the day-to-day engineering delivery of civil works, ensuring the project is delivered safely, on program and to specification.\nKey Responsibilities\n - Manage and coordinate day-to-day site engineering activities\n - Set out and survey works, quality checks and inspections\n - Liaise with subcontractors, suppliers and the broader project team\n - Ensure compliance with design documentation, specifications and drawings\n - Monitor and report on progress against program\n - Support the Project Engineer/Site Manager on all civil works elements\n - Uphold safety, quality and environmental standards on site\n About You\n - Degree qualified in Civil Engineering (or equivalent)\n - Previous experience as a Site Engineer on civil infrastructure projects (roads, bridges, earthworks or similar)\n - Strong understanding of civil construction methodology and QA processes\n - Experience with setout, survey equipment and reading civil drawings\n - Well-developed communication skills and the ability to work well within a site team\n - Locally based or willing to travel to the Blue Mountains daily\n - Valid driver's licence and White Card\n What's on Offer\n - Immediate start\n - Competitive hourly/daily rate, negotiable based on experience\n - 6-month+ contract with strong likelihood of extension\n - Opportunity to work with a well-regarded civil infrastructure contractor\n - Supportive site team and genuine career development opportunities\n How to Apply\nYou can email your resume to william.gardner@cgcrecruitment.com or call 0435935377 for more information.",
+   "bullets": [],
+   "abstract": "ASAP Start for site engineer to work on principle contracting road project.",
+   "teaser": "ASAP Start for site engineer to work on principle contracting road project.",
+   "classifications": [
+    "Civil/Structural Engineering (Engineering)"
+   ],
+   "share_link": "https://au.seek.com/job/95016703?tracking=SHR-WEB-SharedJob-anz-1"
+  },
+  {
+   "id": "95001733",
+   "source": "seek",
+   "title": "Fitout/Draftsperson",
+   "company": "Silver Yachts Australia Pty Ltd",
+   "location": "Bibra Lake, Perth WA",
+   "url": "https://www.seek.com.au/job/95001733",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-01T08:37:24.519Z",
+   "expires_at": "2026-10-31T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a draftsperson?",
+    "How much notice are you required to give your current employer?",
+    "Do you have experience using AutoCAD 2D/3D?",
+    "Do you have experience using Rhinoceros 3D?"
+   ],
+   "summary": "Experienced Fit out Draftsperson / Designer for luxury yacht interior fit outs. Demonstrated experience in both Rhino 3D and AutoCAD.",
+   "opening": "About the role\nSilver Yachts Australia is seeking an experienced Fit out Draftsperson / Designer to join our team in Bibra Lake.\n We are looking for someone with strong, practical experience using both Rhino 3D and AutoCAD 2D and 3D, as these are essential to our current design and drafting workflow. You will need to confidently develop detailed 3D models, 2D drawings and production documentation for luxury yacht interior fit outs.\nThis is a hands-on design and drafting role within our specialised manufacturing environment. You will work closely with our Design and Production teams to develop accurate, practical and manufacture-ready solutions for high-end yacht interiors.\n Key Responsibilities\n- Develop detailed 3D models and production drawings using Rhino 3D for cabinetry, joinery and luxury yacht interior fit outs.\n- Prepare accurate 2D manufacturing and installation drawings using R",
+   "key_lines": [
+    "Silver Yachts Australia is seeking an experienced Fit out Draftsperson / Designer to join our team in Bibra Lake.",
+    "We are looking for someone with strong, practical experience using both Rhino 3D and AutoCAD 2D and 3D, as these are essential to our current design and drafting workflow. You will need to confidently develop detailed 3D models, 2D drawings and production documentation for luxury yacht interior fit outs.",
+    "This is a hands-on design and drafting role within our specialised manufacturing environment. You will work closely with our Design and Production teams to develop accurate, practical and manufacture-ready solutions for high-end yacht interiors.",
+    "- Prepare accurate 2D manufacturing and installation drawings using Rhino 3D and AutoCAD 2D and 3D.",
+    "- Prepare cut parts, CNC drawings and nesting as required for production.",
+    "- Work closely with the Design and Production teams to resolve technical and manufacturing issues.",
+    "- Review and update drawings to reflect design changes and production requirements.",
+    "We are specifically looking for someone with proven, hands-on experience in BOTH Rhino 3D and AutoCAD 2D and 3D. Both programs are essential to our current workflow, and the successful candidate must be confident using both independently.",
+    "ESSENTIAL SOFTWARE EXPERIENCE: Rhino 3D AND AutoCAD",
+    "- Strong and demonstrated experience using Rhino 3D – this is essential.",
+    "- Strong AutoCAD 2D and 3D skills.",
+    "- Experience producing detailed 3D models and manufacturing drawings.",
+    "- Experience in technical drafting, joinery, cabinetry or interior fit-out.",
+    "- Ability to work closely with designers, production staff and trades."
+   ],
+   "seek_id": "95001733",
+   "content_text": "About the role\nSilver Yachts Australia is seeking an experienced Fit out Draftsperson / Designer to join our team in Bibra Lake.\n We are looking for someone with strong, practical experience using both Rhino 3D and AutoCAD 2D and 3D, as these are essential to our current design and drafting workflow. You will need to confidently develop detailed 3D models, 2D drawings and production documentation for luxury yacht interior fit outs.\nThis is a hands-on design and drafting role within our specialised manufacturing environment. You will work closely with our Design and Production teams to develop accurate, practical and manufacture-ready solutions for high-end yacht interiors.\n Key Responsibilities\n- Develop detailed 3D models and production drawings using Rhino 3D for cabinetry, joinery and luxury yacht interior fit outs.\n- Prepare accurate 2D manufacturing and installation drawings using Rhino 3D and AutoCAD 2D and 3D.\n- Develop detailed construction and manufacturing solutions from design concepts and specifications.\n- Prepare cut parts, CNC drawings and nesting as required for production.\n- Interpret design and technical drawings and translate them into practical manufacturing details.\n- Work closely with the Design and Production teams to resolve technical and manufacturing issues.\n- Review and update drawings to reflect design changes and production requirements.\n- Assist with design development, presentation and visual documentation using Photoshop.\n- Ensure all drawings and models are accurate, detailed and suitable for manufacture and installation.\n- Liaise with the workshop and production team to ensure designs can be efficiently manufactured and installed.\n About You\nWe are specifically looking for someone with proven, hands-on experience in BOTH Rhino 3D and AutoCAD 2D and 3D. Both programs are essential to our current workflow, and the successful candidate must be confident using both independently.\n ESSENTIAL SOFTWARE EXPERIENCE: Rhino 3D AND AutoCAD\nTo be successful in this role, you will have:\n- Strong and demonstrated experience using Rhino 3D – this is essential.\n- Strong AutoCAD 2D and 3D skills.\n- Experience producing detailed 3D models and manufacturing drawings.\n- Experience in technical drafting, joinery, cabinetry or interior fit-out.\n- Excellent understanding of how designs translate into manufacturing and installation.\n- High level of accuracy and attention to detail.\n- Ability to interpret technical drawings and develop practical solutions.\n- Strong communication and problem-solving skills.\n- Ability to work closely with designers, production staff and trades.\n- Experience with CNC manufacturing, cabinetry or joinery will be highly regarded.\n- Experience in the marine, yacht, architectural, interior or high-end manufacturing industries will be advantageous.\nWhat We Offer\n- Full-time position based in Bibra Lake, Perth WA.\n- Monthly Rostered Day Off (RDO).\n- Opportunity to work on world-class luxury superyacht projects.\n- A specialised, high-quality manufacturing environment.\n- The opportunity to work on highly detailed and bespoke interior fit outs.\n- Supportive and experienced Design and Production teams.\n- Competitive remuneration based on skills and experience.\n-  \nApply Now\nIf you are an experienced Draftsperson / Designer with strong, demonstrated experience in both Rhino 3D and AutoCAD, a high level of attention to detail and an interest in working within the luxury superyacht industry, we would love to hear from you.\nPlease send your resume to hr@silveryachts.com",
+   "bullets": [
+    "Luxury superyacht projects",
+    "Career progression",
+    "Monthly RDO"
+   ],
+   "abstract": "Experienced Fit out Draftsperson / Designer for luxury yacht interior fit outs. Demonstrated experience in both Rhino 3D and AutoCAD.",
+   "teaser": "Experienced Fit out Draftsperson / Designer for luxury yacht interior fit outs. Demonstrated experience in both Rhino 3D and AutoCAD.",
+   "classifications": [
+    "Architectural Drafting (Design & Architecture)"
+   ],
+   "share_link": "https://au.seek.com/job/95001733?tracking=SHR-WEB-SharedJob-anz-1"
+  },
+  {
+   "id": "94994170",
+   "source": "seek",
+   "title": "Site Engineer - Central Qld - contract",
+   "company": "Tognetti Consulting Pty Ltd",
+   "location": "Gladstone & Central QLD",
+   "url": "https://www.seek.com.au/job/94994170",
+   "work_type": "Contract/Temp",
+   "salary": "Day / Hourly rate negotiable",
+   "listed_at": "2026-10-01T04:24:18.000Z",
+   "expires_at": "2026-10-31T03:24:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Short term contract for a Site Engineer with concrete testing experience. 3 weeks FIFO from the East Coast",
+   "opening": "Our  client is a concrete contractor with a requirement for a Site Engineer  ideally with concrete testing experience.\nThis is a 3 week contract which could lead onto a long term contract or a permanent position due to a solid pipeline of projects coming on line. \nThis role will be on a FIFO basis to Central Qld with applicants considered from any East Coast location.\nHourly or day rate is open to negotiation.\nCandidates must have a minimum 2yrs civil engineering experience and have full Australian working rights \nIf you possess the above experience, skills & qualifications apply to Andy Stewart by emailing your CV in WORD format not PDF to andy@tognetti.com.au or phone me directly for a confidential discussion on 08 9322 3088. You can also submit your resume by clicking on APPLY",
+   "key_lines": [
+    "Our  client is a concrete contractor with a requirement for a Site Engineer  ideally with concrete testing experience.",
+    "Candidates must have a minimum 2yrs civil engineering experience and have full Australian working rights",
+    "If you possess the above experience, skills & qualifications apply to Andy Stewart by emailing your CV in WORD format not PDF to andy@tognetti.com.au or phone me directly for a confidential discussion on 08 9322 3088. You can also submit your resume by clicking on APPLY"
+   ],
+   "seek_id": "94994170",
+   "content_text": "Our  client is a concrete contractor with a requirement for a Site Engineer  ideally with concrete testing experience.\nThis is a 3 week contract which could lead onto a long term contract or a permanent position due to a solid pipeline of projects coming on line. \nThis role will be on a FIFO basis to Central Qld with applicants considered from any East Coast location.\nHourly or day rate is open to negotiation.\nCandidates must have a minimum 2yrs civil engineering experience and have full Australian working rights \nIf you possess the above experience, skills & qualifications apply to Andy Stewart by emailing your CV in WORD format not PDF to andy@tognetti.com.au or phone me directly for a confidential discussion on 08 9322 3088. You can also submit your resume by clicking on APPLY",
+   "bullets": [],
+   "abstract": "Short term contract for a Site Engineer with concrete testing experience. 3 weeks FIFO from the East Coast",
+   "teaser": "Short term contract for a Site Engineer with concrete testing experience. 3 weeks FIFO from the East Coast",
+   "classifications": [
+    "Civil/Structural Engineering (Engineering)"
+   ],
+   "share_link": "https://au.seek.com/job/94994170?tracking=SHR-WEB-SharedJob-anz-1"
+  },
+  {
+   "id": "94990129",
+   "source": "seek",
+   "title": "Graduate Estimator",
+   "company": "Furn-Niche",
+   "location": "Fortitude Valley, Brisbane QLD",
+   "url": "https://www.seek.com.au/job/94990129",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-01T02:34:01.156Z",
+   "expires_at": "2026-10-31T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as an Estimator?",
+    "How much notice are you required to give your current employer?"
+   ],
+   "summary": "Build your estimating career with hands-on mentoring, exciting hotel projects and a creative team in our Fortitude Valley studio.",
+   "opening": "About the role\nYou will assist with preparing detailed project quotations and tender submissions for Furniture Fittings and Equipment (FF&E) across major hotel, Build to Rent and hospitality projects. You will work closely with our Senior Estimator and learn Furn-Niche's purpose-built costing systems and estimating processes. Our projects can be complicated. The right person will enjoy investigating the detail, working through large amounts of information and methodically bringing the complete scope together.\nKey responsibilities\n- Reviewing architectural drawings, furniture schedules, specifications and tender documents\n- Finding the relevant information within large construction document packages and tender portals such as Aconex and Procure\n- Completing quantity take-offs and identifying missing or conflicting information\n- Preparing detailed quote requests for our China estimators an",
+   "key_lines": [
+    "You will assist with preparing detailed project quotations and tender submissions for Furniture Fittings and Equipment (FF&E) across major hotel, Build to Rent and hospitality projects. You will work closely with our Senior Estimator and learn Furn-Niche's purpose-built costing systems and estimating processes. Our projects can be complicated. The right person will enjoy investigating the detail, working through large amounts of information and methodically bringing the complete scope together.",
+    "- Working with project managers and installation partners to understand delivery requirements",
+    "- One to two years of relevant experience or a capable graduate who is keen to learn",
+    "- A relevant qualification in quantity surveying, construction management, architecture, engineering, interior design or a related field",
+    "- Experience with estimating, quantity take-offs, construction documentation or tender platforms would be highly regarded but is not essential",
+    "Furn-Niche designs, manufactures and installs custom furniture and joinery for hotels and hospitality projects across Australia and New Zealand. Our projects include Mondrian Gold Coast, Elysium Noosa and Avani Mooloolaba, together with almost 100 Quest Apartment Hotels. Our Brisbane team includes estimators, project managers, interior designers and industrial designers. We also work closely with our long-term Furn-Niche China team, which coordinates factory pricing, manufacturing, quality control and logistics."
+   ],
+   "seek_id": "94990129",
+   "content_text": "About the role\nYou will assist with preparing detailed project quotations and tender submissions for Furniture Fittings and Equipment (FF&E) across major hotel, Build to Rent and hospitality projects. You will work closely with our Senior Estimator and learn Furn-Niche's purpose-built costing systems and estimating processes. Our projects can be complicated. The right person will enjoy investigating the detail, working through large amounts of information and methodically bringing the complete scope together.\nKey responsibilities\n- Reviewing architectural drawings, furniture schedules, specifications and tender documents\n- Finding the relevant information within large construction document packages and tender portals such as Aconex and Procure\n- Completing quantity take-offs and identifying missing or conflicting information\n- Preparing detailed quote requests for our China estimators and manufacturing partners\n- Obtaining competitive pricing from factories and local suppliers\n- Quoting custom furniture, joinery, fabrics, finishes and locally procured products\n- Building up freight, warehousing, delivery and installation costs\n- Working with our designers to understand layouts, materials and design intent\n- Working with project managers and installation partners to understand delivery requirements\n- Maintaining and improving our estimating database and costing templates\nAbout you\n- One to two years of relevant experience or a capable graduate who is keen to learn\n- A relevant qualification in quantity surveying, construction management, architecture, engineering, interior design or a related field\n- Strong numerical ability and commercial awareness\n- Exceptional attention to detail\n- A methodical and diligent approach\n- The ability to read architectural plans, or a strong willingness to learn\n- Confidence working through large and sometimes complicated document packages\n- Strong Excel and general computer skills\n- Clear written and verbal communication skills\n- Experience with estimating, quantity take-offs, construction documentation or tender platforms would be highly regarded but is not essential\nAbout us\nFurn-Niche designs, manufactures and installs custom furniture and joinery for hotels and hospitality projects across Australia and New Zealand. Our projects include Mondrian Gold Coast, Elysium Noosa and Avani Mooloolaba, together with almost 100 Quest Apartment Hotels. Our Brisbane team includes estimators, project managers, interior designers and industrial designers. We also work closely with our long-term Furn-Niche China team, which coordinates factory pricing, manufacturing, quality control and logistics.",
+   "bullets": [
+    "Hands-on training and mentoring to build your estimating career.",
+    "Work on standout hotel projects across Australia, New Zealand and Asia.",
+    "Join a creative, supportive team in our Fortitude Valley studio."
+   ],
+   "abstract": "Build your estimating career with hands-on mentoring, exciting hotel projects and a creative team in our Fortitude Valley studio.",
+   "teaser": "Build your estimating career with hands-on mentoring, exciting hotel projects and a creative team in our Fortitude Valley studio.",
+   "classifications": [
+    "Estimating (Construction)"
+   ],
+   "share_link": "https://au.seek.com/job/94990129?tracking=SHR-WEB-SharedJob-anz-1"
+  },
+  {
+   "id": "94989946",
+   "source": "seek",
+   "title": "Project Engineer (Building, Trades & Works)",
+   "company": "CPB Contractors NSW ACT",
+   "location": "Melbourne VIC",
+   "url": "https://www.seek.com.au/job/94989946",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-01T02:28:27.124Z",
+   "expires_at": "2026-10-31T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Build your future with RRJV. Join our January 2027 mobilisation and deliver major Defence infrastructure projects across the Riverina region.",
+   "opening": "Project Engineer (Building, Trades & Works)\nRiverina Redevelopment Joint Venture (RRJV)\nJanuary 2027 Mobilisation Opportunities | Albury-Wodonga & Wagga Wagga Region\nLooking for a fresh challenge in 2027?\nAs many major projects approach completion, now is the ideal time to start planning your next career move.\nThe Riverina Redevelopment Joint Venture (RRJV), a partnership between CPB Contractors and Downer, is preparing for our next phase of project delivery and seeking experienced Project Engineers - Building, Trades & Works who are interested in joining our team from January 2027 onwards.\nThis is an opportunity to contribute to one of Australia's largest Defence infrastructure programs, delivering critical facilities across the Riverina region that will support Defence capability for decades to come.\nAbout the Project\nThe Riverina Redevelopment Joint Venture is delivering approximately",
+   "key_lines": [
+    "The Riverina Redevelopment Joint Venture (RRJV), a partnership between CPB Contractors and Downer, is preparing for our next phase of project delivery and seeking experienced Project Engineers - Building, Trades & Works who are interested in joining our team from January 2027 onwards.",
+    "We are particularly interested in speaking with Project Engineers who have experience across:",
+    "- Accommodation and residential developments",
+    "- Degree qualification in Engineering",
+    "- Approximately 5+ years' project engineering experience within the construction industry",
+    "- Experience managing subcontractors, trades and work packages",
+    "- Proven ability to lead and mentor junior engineers",
+    "- Australian Citizenship or Permanent Residency, with the ability to obtain and maintain a Baseline Security Clearance"
+   ],
+   "seek_id": "94989946",
+   "content_text": "Project Engineer (Building, Trades & Works)\nRiverina Redevelopment Joint Venture (RRJV)\nJanuary 2027 Mobilisation Opportunities | Albury-Wodonga & Wagga Wagga Region\nLooking for a fresh challenge in 2027?\nAs many major projects approach completion, now is the ideal time to start planning your next career move.\nThe Riverina Redevelopment Joint Venture (RRJV), a partnership between CPB Contractors and Downer, is preparing for our next phase of project delivery and seeking experienced Project Engineers - Building, Trades & Works who are interested in joining our team from January 2027 onwards.\nThis is an opportunity to contribute to one of Australia's largest Defence infrastructure programs, delivering critical facilities across the Riverina region that will support Defence capability for decades to come.\nAbout the Project\nThe Riverina Redevelopment Joint Venture is delivering approximately $1.7 billion in infrastructure upgrades and replacement works across key Defence establishments, including:\n- Albury-Wodonga Military Area (AWMA)\n- RAAF Base Wagga (RBW)\n- Blamey Barracks Kapooka (BBK)\nProject scope includes:\n- New accommodation and living-in facilities\n- Training and mess facilities\n- Building refurbishments and upgrades\n- Major infrastructure and services upgrades\nThe Opportunity\nReporting to the Project Manager, you will play a key role in delivering building and construction work packages safely, efficiently and to the highest quality standards.\nWe are particularly interested in speaking with Project Engineers who have experience across:\n- Commercial building projects\n- Defence infrastructure\n- Accommodation and residential developments\n- Education facilities\n- Health and hospital projects\n- Large-scale fitout programs\n- Trades and finishing packages\n- Facades, roofing and building envelopes\n- Precast and structural works\n- Commissioning and handover activities\nYou will be responsible for:\n- Coordinating subcontractors and site teams\n- Managing building work packages from planning through to completion\n- Monitoring cost, quality and programme performance\n- Resolving engineering and technical issues\n- Ensuring compliance with project specifications and standards\n- Driving a strong Zero Harm culture across the project\nAbout You\nTo be successful, you will bring:\n- Degree qualification in Engineering\n- Approximately 5+ years' project engineering experience within the construction industry\n- Strong building construction background\n- Experience managing subcontractors, trades and work packages\n- Excellent stakeholder engagement and communication skills\n- Strong commercial and delivery focus\n- Proven ability to lead and mentor junior engineers\n- Australian Citizenship or Permanent Residency, with the ability to obtain and maintain a Baseline Security Clearance\nWhy Join RRJV?\n- Long-term project certainty through a major Defence infrastructure program\n- Attractive relocation assistance available\n- Project uplift and competitive remuneration\n- Career development and future opportunities across CPB Contractors and Downer\n- Inclusive and diverse workplace culture\n- Industry-leading safety and wellbeing initiatives\nPlanning Your Next Move?\nIf you're currently delivering a project and considering what comes next in 2027, we'd love to hear from you. Submit your expression of interest now and start a conversation about upcoming opportunities with RRJV's Building team.\nApplications and expressions of interest are now being accepted for our January 2027 mobilisation workforce planning.\nPlease note: This role is being sourced directly by RRJV, and applications from recruitment agencies will not be accepted.",
+   "bullets": [],
+   "abstract": "Build your future with RRJV. Join our January 2027 mobilisation and deliver major Defence infrastructure projects across the Riverina region.",
+   "teaser": "Build your future with RRJV. Join our January 2027 mobilisation and deliver major Defence infrastructure projects across the Riverina region.",
+   "classifications": [
+    "Civil/Structural Engineering (Engineering)"
+   ],
+   "share_link": "https://au.seek.com/job/94989946?tracking=SHR-WEB-SharedJob-anz-1"
+  }
+ ]
+}

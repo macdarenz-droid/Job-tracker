@@ -1,0 +1,29 @@
+{
+  "id": "95016703",
+  "company": "CGC Recruitment",
+  "title": "Site Engineer - Blue Mountains",
+  "location": "Blue Mountains & Central West NSW",
+  "url": "https://www.seek.com.au/job/95016703",
+  "listed_at": "2026-10-02T02:51:07.595Z",
+  "expires_at": "2026-11-01T01:51:00.000Z",
+  "percent": 30,
+  "rationale": [
+    "Advertised as Site Engineer - Blue Mountains at CGC Recruitment.",
+    "Compared to facts.json graduate civil drafting and site-coordination profile.",
+    "Below fit threshold or wrong discipline/experience level for this tick."
+  ],
+  "caution": "Agency listing",
+  "gaps": [
+    "Experience level or discipline mismatch"
+  ],
+  "mandatory_unmet": [
+    "Previous experience as a Site Engineer on civil infrastructure projects"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": null,
+  "apply_instructions": "",
+  "open": true,
+  "employer_is_agency": true,
+  "screening_questions": []
+}

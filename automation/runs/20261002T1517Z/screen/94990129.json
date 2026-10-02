@@ -1,0 +1,32 @@
+{
+  "id": "94990129",
+  "company": "Furn-Niche",
+  "title": "Graduate Estimator",
+  "location": "Fortitude Valley, Brisbane QLD",
+  "url": "https://www.seek.com.au/job/94990129",
+  "listed_at": "2026-10-01T02:34:01.156Z",
+  "expires_at": "2026-10-31T12:59:59.999Z",
+  "percent": 25,
+  "rationale": [
+    "Advertised as Graduate Estimator at Furn-Niche.",
+    "Compared to facts.json graduate civil drafting and site-coordination profile.",
+    "Below fit threshold or wrong discipline/experience level for this tick."
+  ],
+  "caution": "",
+  "gaps": [
+    "Experience level or discipline mismatch"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": null,
+  "apply_instructions": "",
+  "open": true,
+  "employer_is_agency": false,
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as an Estimator?",
+    "How much notice are you required to give your current employer?"
+  ]
+}

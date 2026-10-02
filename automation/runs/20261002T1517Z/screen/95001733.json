@@ -1,0 +1,35 @@
+{
+  "id": "95001733",
+  "company": "Silver Yachts Australia Pty Ltd",
+  "title": "Fitout/Draftsperson",
+  "location": "Bibra Lake, Perth WA",
+  "url": "https://www.seek.com.au/job/95001733",
+  "listed_at": "2026-10-01T08:37:24.519Z",
+  "expires_at": "2026-10-31T12:59:59.999Z",
+  "percent": 18,
+  "rationale": [
+    "Advertised as Fitout/Draftsperson at Silver Yachts Australia Pty Ltd.",
+    "Compared to facts.json graduate civil drafting and site-coordination profile.",
+    "Below fit threshold or wrong discipline/experience level for this tick."
+  ],
+  "caution": "",
+  "gaps": [
+    "Experience level or discipline mismatch"
+  ],
+  "mandatory_unmet": [
+    "Rhino 3D essential for luxury yacht fitout drafting; wrong discipline"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": null,
+  "apply_instructions": "",
+  "open": true,
+  "employer_is_agency": false,
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a draftsperson?",
+    "How much notice are you required to give your current employer?",
+    "Do you have experience using AutoCAD 2D/3D?",
+    "Do you have experience using Rhinoceros 3D?"
+  ]
+}
