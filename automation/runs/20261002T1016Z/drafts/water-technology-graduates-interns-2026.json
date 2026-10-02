@@ -1,0 +1,40 @@
+{
+  "seek_id": null,
+  "company": "Water Technology",
+  "role": "Graduate positions 2026",
+  "location": "Australia-wide offices including Melbourne VIC head office (Notting Hill)",
+  "job_url": "https://www.watertech.com.au/applications-now-open-graduates-interns/",
+  "route": "EMAIL",
+  "recipient_name": "",
+  "recipient_role": "Recruitment",
+  "recipient_email": "recruitment@watertech.com.au",
+  "contact_evidence_url": "https://www.watertech.com.au/job/group-manager-surface-water/",
+  "subject": "Graduate 2026 application, Marc Darenz Masarate",
+  "application_type": "ADVERTISED_VACANCY",
+  "email_body": "Hello,\n\nI am writing about Water Technology's graduate positions for 2026, advertised at https://www.watertech.com.au/applications-now-open-graduates-interns/ (applications close 5pm ACST 29 October). I am contacting recruitment@ because that inbox is published on Water Technology job pages for applications.\n\nIn February 2026 I completed an Advanced Diploma of Civil Construction Design at the Albright Institute of Business and Language, with road geometry, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. I also hold a Bachelor of Science in Civil Engineering from Divine Word College of Legazpi in the Philippines (2014 to 2019). From 2019 to 2020 I worked on site in the Philippines as field engineer and project-in-charge. I live in Melton Victoria, hold a White Card, an Australian driver's licence and own transport, and have full working rights to December 2027 on a Subclass 485 visa, available for site, regional and FIFO work.\n\nYour Melbourne Notting Hill head office and civil engineering graduate pathway match the stormwater and civil documentation work I trained in. I have not used TUFLOW or other specialist hydraulic modelling tools on a job.\n\nPlease consider me for the 2026 graduate intake. I have attached my resume and cover letter.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
+  "letter": {
+    "recipient_name": "",
+    "recipient_role": "Recruitment",
+    "company": "Water Technology",
+    "company_line": "Employee-owned Australian water consultancy with Melbourne head office and a 2026 graduate campaign for civil engineers",
+    "subject": "Application: Graduate positions 2026",
+    "greeting": "Hello,",
+    "closing": "Kind regards,",
+    "paragraphs": [
+      "I am applying for Water Technology's graduate positions for 2026, advertised on your website with applications closing at 5pm ACST on 29 October. Civil Engineering graduates are encouraged to apply, and your Melbourne Notting Hill head office is a practical base from Melton.",
+      "In February 2026 I completed an Advanced Diploma of Civil Construction Design at the Albright Institute of Business and Language, with road geometry, earthworks, pavement and stormwater design in AutoCAD and Civil 3D. I also hold a Bachelor of Science in Civil Engineering from Divine Word College of Legazpi in the Philippines (2014 to 2019).",
+      "From 2019 to 2020 I worked on site in the Philippines as project-in-charge engineer at JustBuilt and as field engineer at Grand Travaux, including inspections, crew coordination, materials tracking and progress reports. I have not used TUFLOW or other specialist hydraulic modelling software on a job.",
+      "I live in Melton Victoria, hold a White Card, an Australian driver's licence and own transport, and have full working rights to December 2027 on a Subclass 485 visa. I am available for site, regional and office work.",
+      "I have attached my resume. Portfolio: https://macdarenz-droid.github.io/Portfolio"
+    ]
+  },
+  "screening_answers": {},
+  "checklist": [
+    "Confirm campaign still open on watertech.com.au before send",
+    "Attach resume and cover letter PDFs",
+    "Send only to recruitment@watertech.com.au (employer-published inbox)",
+    "Do not claim hydraulic modelling experience",
+    "Record Gmail message id after send"
+  ],
+  "notes": "Email route using published recruitment inbox. Lease may block send this tick."
+}

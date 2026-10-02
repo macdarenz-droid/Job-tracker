@@ -1,0 +1,31 @@
+{
+  "id": "94998155",
+  "company": "City of Newcastle",
+  "title": "Cadet Engineer",
+  "location": "Newcastle, Newcastle, Maitland & Hunter NSW",
+  "url": "https://www.seek.com.au/job/94998155",
+  "listed_at": "2026-10-01T06:33:51.604Z",
+  "expires_at": "2026-10-17T12:59:59.000Z",
+  "screening_questions": [],
+  "apply_instructions": "Apply via City of Newcastle careers (SEEK link-out). Contact Melissa Moore, Career Ready Advisor, 02 4974 1377. Close Saturday 17 October 2026.",
+  "percent": 64,
+  "rationale": [
+    "Cadet/graduate rotation in traffic/transport and development engineering aligns with civil documentation and coordination goals; Newcastle NSW is within Australia-wide search.",
+    "Advert opens with Undergraduate Engineer wording but also calls it a graduate position with full-time remuneration; Marc holds BSCE and Adv Diploma and is not currently enrolled as an undergraduate.",
+    "Closing 17 October 2026; right to work in Australia is met on 485 visa."
+  ],
+  "caution": "Advert mixes undergraduate and graduate language; if the PD requires current university enrolment this becomes unmet.",
+  "gaps": [
+    "Confirmation whether current undergraduate enrolment is mandatory",
+    "Australian council engineering assessment experience"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [
+    "Whether current undergraduate enrolment is mandatory (advert says Undergraduate Engineer and also graduate position)"
+  ],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": null,
+  "open": true,
+  "employer_is_agency": false,
+  "_keep": false
+}

@@ -65,9 +65,10 @@
       "company_url": "https://bild.group/",
       "careers_url": "https://bild.group/careers/browse-careers/",
       "board": "HiBob ATS at bildgroup.careers.hibob.com",
-      "checked_at": "2026-09-28",
+      "checked_at": "2026-10-02",
       "result": "none",
-      "notes": "The browse-careers page server-renders a title/department/location list: Estimator, Senior Estimator, Field Service Mechanic, HSE Advisor x2, Labourer, Multiskilled Plant Operator, Project Manager, Skid Steer/Bobcat Operator, Spreader Truck Operator, Supervisor - no graduate/junior/cadet/trainee/drafter title. The plain 'Estimator' (Campbellfield VIC HQ) is the closest match to 'junior estimator (civil)', but every individual HiBob job page is a client-only SPA that returned no readable advert text on repeated WebFetch and curl attempts, so its seniority/requirements could not be confirmed and no record was created."
+      "notes": "Recheck: still no graduate/junior/cadet/drafter title; Estimator list unchanged from 2026-09-28 notes",
+      "open_junior_roles": []
     },
     "Delplant": {
       "company_url": "https://delplant.com.au/",
@@ -221,6 +222,48 @@
       "checked_at": "2026-10-02",
       "open_junior_roles": [],
       "notes": "No open positions; future-opportunity CVs to info@dtmgeocivil.com.au. Not used this tick (speculative budget kept for Austral standing program)."
+    },
+    "Diona": {
+      "careers_url": "https://www.livehire.com/careers/dionaptyltd/job/FKQN4/SXI2MWAGZX/graduate-engineer",
+      "checked_at": "2026-10-02",
+      "notes": "Graduate Engineer Brisbane LiveHire URL returned 404 this tick; Site/Project Engineer ads require 2\u20135 years",
+      "open_junior_roles": []
+    },
+    "Abergeldie": {
+      "careers_url": "https://abergeldie.com/careers/current-opportunities",
+      "checked_at": "2026-10-02",
+      "notes": "Current opportunities page JS-empty; third-party mirrors for QLD graduate civil require completed civil degree and QLD licence; browse.py chromium missing on box",
+      "open_junior_roles": []
+    },
+    "Daracon": {
+      "careers_url": "https://daracon.com.au/careers/tertiary-pathway",
+      "checked_at": "2026-10-02",
+      "notes": "Cadet pathway page only (labourer\u2192cadet\u2192graduate while studying); no dated open graduate vacancy verified",
+      "open_junior_roles": []
+    },
+    "Ertech": {
+      "careers_url": "https://jobs.ertech.com.au/en/listing/",
+      "checked_at": "2026-10-02",
+      "notes": "2027 Graduate Program Civil listing closed (ViewJobs); live board is experienced PE/Site Engineer only",
+      "open_junior_roles": []
+    },
+    "Highway Construction": {
+      "careers_url": "https://www.highwayconstruction.com.au/",
+      "checked_at": "2026-10-02",
+      "notes": "No careers board or open junior/graduate advert found; contact admin@hicon.com.au is general website contact only",
+      "open_junior_roles": []
+    },
+    "Water Technology": {
+      "careers_url": "https://www.watertech.com.au/applications-now-open-graduates-interns/",
+      "checked_at": "2026-10-02",
+      "notes": "2026 graduate campaign open to Civil Engineering graduates, close 5pm ACST 29 October; PREPARED_NOT_SENT recruitment@watertech.com.au",
+      "open_junior_roles": [
+        {
+          "title": "Graduate positions 2026",
+          "url": "https://www.watertech.com.au/applications-now-open-graduates-interns/",
+          "apply": "recruitment@watertech.com.au"
+        }
+      ]
     }
   },
   "sweep_log": [
@@ -337,6 +380,48 @@
           "name": "Alluvium Engineer Waterways Stormwater Adelaide",
           "url": "https://alluvium.com.au/careers/",
           "result": "mid-level waterways role Adelaide; skipped"
+        }
+      ]
+    },
+    {
+      "run_id": "20261002T1016Z",
+      "rotation": "employers",
+      "checked_at": "2026-10-02T10:24:46Z",
+      "checked": [
+        {
+          "name": "Diona",
+          "url": "https://www.livehire.com/careers/dionaptyltd/job/FKQN4/SXI2MWAGZX/graduate-engineer",
+          "result": "Graduate Engineer Brisbane LiveHire URL returned 404 this tick; Site/Project Engineer ads require 2\u20135 years"
+        },
+        {
+          "name": "Abergeldie",
+          "url": "https://abergeldie.com/careers/current-opportunities",
+          "result": "Current opportunities page JS-empty; third-party mirrors for QLD graduate civil require completed civil degree and QLD licence; browse.py chromium missing on box"
+        },
+        {
+          "name": "Daracon",
+          "url": "https://daracon.com.au/careers/tertiary-pathway",
+          "result": "Cadet pathway page only (labourer\u2192cadet\u2192graduate while studying); no dated open graduate vacancy verified"
+        },
+        {
+          "name": "Ertech",
+          "url": "https://jobs.ertech.com.au/en/listing/",
+          "result": "2027 Graduate Program Civil listing closed (ViewJobs); live board is experienced PE/Site Engineer only"
+        },
+        {
+          "name": "Highway Construction",
+          "url": "https://www.highwayconstruction.com.au/",
+          "result": "No careers board or open junior/graduate advert found; contact admin@hicon.com.au is general website contact only"
+        },
+        {
+          "name": "Bild Group",
+          "url": "https://bild.group/careers/browse-careers/",
+          "result": "Recheck: still no graduate/junior/cadet/drafter title; Estimator list unchanged from 2026-09-28 notes"
+        },
+        {
+          "name": "Water Technology",
+          "url": "https://www.watertech.com.au/applications-now-open-graduates-interns/",
+          "result": "2026 graduate campaign open to Civil Engineering graduates, close 5pm ACST 29 October; PREPARED_NOT_SENT recruitment@watertech.com.au"
         }
       ]
     }

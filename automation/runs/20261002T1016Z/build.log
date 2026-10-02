@@ -1,0 +1,27 @@
+{
+ "built": [
+  [
+   "ca2d24f8-9f0c-4108-ac50-90a89190df61",
+   "City of Greater Geraldton",
+   "Graduate Engineering Officer",
+   "READY_JEREMIE_EMPLOYER_PORTAL"
+  ],
+  [
+   "424713e3-004e-4d33-86c1-92155da69022",
+   "SRG Global",
+   "Site Engineer",
+   "READY_JEREMIE_EMPLOYER_PORTAL"
+  ]
+ ],
+ "rejected": [
+  {
+   "seek_id": "water-technology-graduates-interns-2026",
+   "status": "PREPARED_NOT_SENT",
+   "issues": [
+    "email too long: 234 words (limit 220)",
+    "email claims an internship",
+    "letter claims an internship"
+   ]
+  }
+ ]
+}

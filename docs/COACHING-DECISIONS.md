@@ -62,3 +62,9 @@ One line of reasoning per decision. Newest at the bottom of each section. The ow
 - **D40 · Victoria offsite rotation (30 Sep 2026):** browse.py Chromium path and proxy CA were unavailable this session, so Workday JobPosting JSON-LD via WebFetch was used for Robert Bird Group and SMEC Melbourne graduate roles. Both published as READY_JEREMIE_EMPLOYER_PORTAL.
 - **D41 · Maker program inbox:** info@makereng.com.au is published on makercs.com.au undergrad and development program page for resume and cover letter applications. PREPARED_NOT_SENT for SEEK 94936643. Canonical shared journal lease is not accessible from this Grok box (CODEX hold-sending rule), so no email was sent this tick.
 - **D42 · CHW careers@:** careers@chw.net.au is for confidential vacancy discussion only; LiveHire is the apply path. Record left READY_JEREMIE_EMPLOYER_PORTAL without a prepared email to careers@.
+
+## 2026-10-02T1016Z — employers rotation / Water Technology inbox
+
+- Used `recruitment@watertech.com.au` for the open 2026 graduate campaign even though the campaign page itself only links to Jobs/Working With Us. Evidence is the employer-published apply instruction on other Water Technology vacancies (Group Manager Surface Water): send cover letter and CV to that inbox. Recorded as `published_inbox`, not a guessed address.
+- Skipped a second Engeny speculative email because a PREPARED_NOT_SENT Engeny EOI already exists (2026-09-30).
+- Held City of Newcastle Cadet Engineer on unresolved mandatory wording (Undergraduate Engineer vs graduate position) rather than marking ready.

@@ -1,0 +1,35 @@
+{
+ "built": [
+  [
+   "268690ae-72e9-44c6-b264-c77a52619a47",
+   "City of Greater Geraldton",
+   "Graduate Engineering Officer",
+   "READY_JEREMIE_EMPLOYER_PORTAL"
+  ],
+  [
+   "5898fda2-b2ae-4c84-9c0e-a37d5118e195",
+   "SRG Global",
+   "Site Engineer",
+   "READY_JEREMIE_EMPLOYER_PORTAL"
+  ],
+  [
+   "19bcdb43-6f0c-4c1f-9685-918f3742556f",
+   "Water Technology",
+   "Graduate positions 2026",
+   "PREPARED_NOT_SENT"
+  ]
+ ],
+ "rejected": [],
+ "tracker": {
+  "version": 49,
+  "updated_at": "2026-10-02T10:24:30.444Z",
+  "result": {
+   "added": [
+    "268690ae-72e9-44c6-b264-c77a52619a47",
+    "5898fda2-b2ae-4c84-9c0e-a37d5118e195",
+    "19bcdb43-6f0c-4c1f-9685-918f3742556f"
+   ],
+   "skipped": []
+  }
+ }
+}

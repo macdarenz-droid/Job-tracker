@@ -1,0 +1,50 @@
+[
+ {
+  "company": "Water Technology",
+  "title": "Graduate / Intern 2026",
+  "url": "https://www.watertech.com.au/applications-now-open-graduates-interns/",
+  "seek_id": null,
+  "source": "employer_site",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ },
+ {
+  "company": "City of Greater Geraldton",
+  "title": "Graduate Engineering Officer",
+  "url": "https://www.seek.com.au/job/95001351",
+  "seek_id": "95001351",
+  "source": "seek",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ },
+ {
+  "company": "SRG Global",
+  "title": "Site Engineer",
+  "url": "https://www.seek.com.au/job/95030963",
+  "seek_id": "95030963",
+  "source": "seek",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ },
+ {
+  "company": "Cascada",
+  "title": "AutoCAD Draftsperson - Reinforced Concrete",
+  "url": "https://www.seek.com.au/job/95021585",
+  "seek_id": "95021585",
+  "source": "seek",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ }
+]

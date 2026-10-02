@@ -1,0 +1,286 @@
+{
+ "count": 1,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "94969508",
+   "company": "GPA Engineering",
+   "title": "Civil/Structural Drafter – ADL",
+   "run": "20261001T0918Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "suited to someone with 3-10 years' experience"
+   ]
+  },
+  {
+   "id": "94961556",
+   "company": "Brunel",
+   "title": "Project Engineer - Civil",
+   "run": "20260930T1316Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "3+ years' experience in civil construction"
+   ]
+  },
+  {
+   "id": "94940114",
+   "company": "NOTAZ International PTY LTD",
+   "title": "Civil engineering draftsperson",
+   "run": "20261001T0918Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "At least 3 years' experience as a Civil engineering draftsperson"
+   ]
+  },
+  {
+   "id": "94939236",
+   "company": "Roesner and Hamilton Consulting Engineers Pty Ltd",
+   "title": "Civil Engineering Draftsperson",
+   "run": "20261001T0918Z",
+   "percent": 32,
+   "mandatory_unmet": [
+    "over 3 years of experience and is qualified in Civil Drafting"
+   ]
+  },
+  {
+   "id": "95001351",
+   "company": "City of Greater Geraldton",
+   "title": "Graduate Engineering Officer",
+   "run": "20261001T0918Z",
+   "percent": 34,
+   "mandatory_unmet": [
+    "City of Greater Geraldton Migration and Visa Requirements: Temporary Residents with a valid Working Visa = No for Permanent Positions (https://www.cgg.wa.gov.au/work/work-with-us/employment/how-to-apply.aspx)"
+   ]
+  },
+  {
+   "id": "95021621",
+   "company": "Ertech Pty Ltd",
+   "title": "Project Engineer (Civil)",
+   "run": "20261002T0519Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Minimum 5 years experience in civil construction project delivery"
+   ]
+  },
+  {
+   "id": "94958791",
+   "company": "ADF Careers",
+   "title": "Part-Time Civil Engineer (Tax-Free Pay)",
+   "run": "20261001T1419Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "Be at least 17 at the time of enlistment and an Australian Citizen",
+    "Military training including using a weapon; applying to appoint/enlist in the military"
+   ]
+  },
+  {
+   "id": "94973025",
+   "company": "Optimum Consulting Group",
+   "title": "Civil Engineer",
+   "run": "20260930T1316Z",
+   "percent": 30,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94969016",
+   "company": "QCCS",
+   "title": "Civil Project Engineer",
+   "run": "20260930T1316Z",
+   "percent": 32,
+   "mandatory_unmet": [
+    "Proven experience as a Project Engineer within civil construction"
+   ]
+  },
+  {
+   "id": "94935564",
+   "company": "Queanbeyan-Palerang Regional Council",
+   "title": "Trainee - Civil Construction",
+   "run": "20260930T1316Z",
+   "percent": 35,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95013854",
+   "company": "Whitehorse City Council",
+   "title": "Asset Engineer",
+   "run": "20261002T0519Z",
+   "percent": 42,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94995704",
+   "company": "Xeros Piccolo Consulting Engineers",
+   "title": "Structural/Civil Engineer",
+   "run": "20261001T0918Z",
+   "percent": 18,
+   "mandatory_unmet": [
+    "Five years' experience in designing timber, steel and concrete structures",
+    "Engineers with 5+ years of industry experience"
+   ]
+  },
+  {
+   "id": "94961163",
+   "company": "Brunel",
+   "title": "Project Engineer ",
+   "run": "20260930T1316Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "3+ years' experience in civil construction"
+   ]
+  },
+  {
+   "id": "94958409",
+   "company": "Right Connect",
+   "title": "Structural Drafter",
+   "run": "20260930T1316Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94950957",
+   "company": "Milo Geotechnical",
+   "title": "Civil Engineer",
+   "run": "20260930T1316Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "A minimum of 5 years' engineering experience associated with the road construction industry"
+   ]
+  },
+  {
+   "id": "95021747",
+   "company": "Contec Recruitment Pty Ltd",
+   "title": "Civil Estimator ",
+   "run": "20261002T0519Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "8+ years experience in the Civil Construction industry in estimating"
+   ]
+  },
+  {
+   "id": "95021585",
+   "company": "Cascada",
+   "title": "AutoCAD Draftsperson - Reinforced Concrete",
+   "run": "20261002T0519Z",
+   "percent": 58,
+   "mandatory_unmet": [
+    "1-2 years practical experience using AutoCAD"
+   ]
+  },
+  {
+   "id": "94990020",
+   "company": "Gough Recruitment SA",
+   "title": "Civil Estimator",
+   "run": "20261002T0519Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Australian permanent residency or unrestricted working rights"
+   ]
+  },
+  {
+   "id": "94956743",
+   "company": "Formstruct",
+   "title": "Estimator  - Civil & NPI",
+   "run": "20260930T1316Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "Min 5 yrs Experience in Similar Role",
+    "Mine Site Experience"
+   ]
+  },
+  {
+   "id": "94936909",
+   "company": "City of Joondalup",
+   "title": "Skilled General Hand - Engineering Construction (Civil)",
+   "run": "20260930T1316Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "WA HR Class Driver’s Licence"
+   ]
+  },
+  {
+   "id": "94999649",
+   "company": "CPB Contractors NSW ACT",
+   "title": "Project Engineer Building & Infrastructure",
+   "run": "20261001T0918Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "5-8 years of experience within building, infrastructure, or major construction projects",
+    "Australian Citizenship or Permanent Residency with the ability to obtain and maintain a Baseline Security Clearance"
+   ]
+  },
+  {
+   "id": "94998155",
+   "company": "City of Newcastle",
+   "title": "Cadet Engineer",
+   "run": "20261001T0918Z",
+   "percent": 58,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94978646",
+   "company": "Smith & Co",
+   "title": "Estimator",
+   "run": "20260930T1819Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "Experience as a Civil Estimator or Senior Estimator"
+   ]
+  },
+  {
+   "id": "94944895",
+   "company": "TTW (NSW) Pty Ltd",
+   "title": "Structural Revit Drafter",
+   "run": "20260930T1819Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95021786",
+   "company": "SCP Consulting Pty Ltd",
+   "title": "Draftsperson",
+   "run": "20261002T0519Z",
+   "percent": 32,
+   "mandatory_unmet": [
+    "5-6 years' experience in a similar role"
+   ]
+  },
+  {
+   "id": "95009307",
+   "company": "The Lorian Group",
+   "title": "Construction Cadet / Junior PM",
+   "run": "20261002T0012Z",
+   "percent": 38,
+   "mandatory_unmet": []
+  }
+ ],
+ "candidates": [
+  {
+   "id": "95030963",
+   "source": "seek",
+   "title": "Site Engineer",
+   "company": "SRG Global",
+   "location": "Melbourne VIC",
+   "url": "https://www.seek.com.au/job/95030963",
+   "work_type": "Full time",
+   "salary": "Attractive remuneration and benefits on offer",
+   "listed_at": "2026-10-02T10:05:06.267Z",
+   "expires_at": "2026-11-01T10:58:40.000Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Seeking Site and Project Engineers to deliver complex civil and structural repair projects across Victoria, with career growth and variety",
+   "opening": "SRG Global is an ASX listed diversified infrastructure services company that was born out of Australia's greatest engineering challenge, the Snowy Mountains Hydro-electric Scheme, in 1961.\nThe Role\nWe are seeking Site and Project Engineers to join our growing Asset Remediation business in various projects across Victoria.\nOpportunity to play a key role in delivering complex maintenance, repair and strengthening projects across Victoria. Working across a diverse range of civil and structural assets, you'll be part of a team delivering practical solutions that extend asset life, improve performance and maintain critical infrastructure.\nKey Responsibilities:\n - Deliver and support technically complex repair, strengthening and remediation works across civil, structural, marine and industrial assets\n - Prepare project-specific technical, safety, environmental and quality documentation, includ",
+   "key_lines": [
+    "- Work closely with Project Managers, clients, consultants, subcontractors and site teams to develop practical and innovative constructability solutions",
+    "- Degree in Civil or Mechanical Engineering",
+    "- Remediation experience will be highly regarded",
+    "- Demonstrated experience in effective HSQE management",
+    "- Willingness / ability to work in remote locations as may be required",
+    "If you have experience in this area and are willing to contribute as part of a high performance team, this is a perfect role for you. SRG Global fully support and promote organic growth within our organisation. This is an opportunity to gain further experience and career progression.",
+    "Apply Now:",
+    "If you would like to join our team please click the \"apply\" button now.",
+    "*By submitting your personal information to SRG Global you consent to such information being collected, held, used and disclosed in accordance with the Privacy Act 1988"
+   ]
+  }
+ ]
+}

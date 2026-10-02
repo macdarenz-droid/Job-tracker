@@ -1,0 +1,29 @@
+{
+  "id": "water-technology-graduates-interns-2026",
+  "company": "Water Technology",
+  "title": "Graduate positions 2026",
+  "location": "Australia-wide offices including Melbourne VIC head office (Notting Hill)",
+  "url": "https://www.watertech.com.au/applications-now-open-graduates-interns/",
+  "listed_at": "2026-10-02T10:20:00Z",
+  "expires_at": "2026-10-29T07:30:00Z",
+  "screening_questions": [],
+  "apply_instructions": "Apply via the Water Technology Jobs / Working With Us early-careers pathway linked from https://www.watertech.com.au/applications-now-open-graduates-interns/ (closes 5pm ACST 29 October). Recruitment inbox used on other WT roles: recruitment@watertech.com.au.",
+  "percent": 74,
+  "rationale": [
+    "Open 2026 graduate and internship campaign explicitly invites Civil Engineering graduates; Marc holds BSCE and Advanced Diploma of Civil Construction Design (Feb 2026).",
+    "Melbourne head office matches Melton base; stormwater and civil documentation from study align with a water consultancy early-career path.",
+    "Closing 5pm ACST 29 October; no citizenship-only gate stated on the campaign page."
+  ],
+  "caution": "Hydraulic modelling tools such as TUFLOW are not on record; campaign page does not publish a dedicated apply email (other WT roles use recruitment@).",
+  "gaps": [
+    "Hydraulic modelling / TUFLOW not on record",
+    "Australian water-industry experience"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "EMAIL",
+  "apply_email": "recruitment@watertech.com.au",
+  "open": true,
+  "employer_is_agency": false,
+  "_keep": true
+}

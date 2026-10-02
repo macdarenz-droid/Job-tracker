@@ -1,6 +1,6 @@
 {
   "_about": "Applications Marc made himself, taken from SEEK receipt emails ('Your application was successfully submitted') in Gmail. tracker.py check blocks a new record for the same employer within repeat_block_days and notes older ones. Refresh each tick when Gmail is attached (search: from:noreply@s.seek.com.au subject:\"successfully submitted\" newer_than:100d); thread previews show only the oldest five messages per thread, so a Gmail search for the employer name before any send is still required. Also lists applications Marc emailed himself (Gmail Sent, 100 days), checked 29 Sep 2026.",
-  "updated_at": "2026-10-02T05:21:03Z",
+  "updated_at": "2026-10-02T10:16:59Z",
   "entries": [
     {
       "date": "2026-09-26",
