@@ -1,0 +1,42 @@
+{
+  "kept": [
+    {
+      "id": "95017184",
+      "company": "City of South Perth",
+      "title": "Engineering Technical Officer - Engineering Design",
+      "location": "South Perth, Perth WA",
+      "url": "https://www.seek.com.au/job/95017184",
+      "listed_at": "2026-10-02T02:59:06.595Z",
+      "expires_at": "2026-11-01T02:59:04.000Z",
+      "screening_questions": [],
+      "apply_instructions": "Apply via City of South Perth website careers portal (link-out from SEEK). Contact Kevin Chung, Civil Design Coordinator, 08 9474 0777. Close 4pm AWST Friday 16 October 2026.",
+      "percent": 68,
+      "rationale": [
+        "Diploma or equivalent in Civil Engineering is met by Advanced Diploma of Civil Construction Design (Feb 2026).",
+        "Road and drainage design with AutoCAD and Civil 3D matches coursework; Victorian C-class equivalent licence and willingness for police check are on record.",
+        "Previous urban road/drainage design experience is academic only; no Australian council design experience yet."
+      ],
+      "caution": "Commercial urban road/drainage design experience is academic; Perth role needs relocation discussion.",
+      "gaps": [
+        "Australian commercial road and drainage design experience",
+        "National Police Clearance (willing)"
+      ],
+      "mandatory_unmet": [],
+      "mandatory_unresolved": [],
+      "route": "EMPLOYER_PORTAL",
+      "apply_email": null,
+      "open": true,
+      "employer_is_agency": false,
+      "_keep": true
+    }
+  ],
+  "all_ids": [
+    "95021621",
+    "95013854",
+    "95021747",
+    "95021585",
+    "94990020",
+    "95017184",
+    "95021786"
+  ]
+}

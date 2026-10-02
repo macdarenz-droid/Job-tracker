@@ -1,0 +1,32 @@
+{
+  "id": "95021786",
+  "company": "SCP Consulting Pty Ltd",
+  "title": "Draftsperson",
+  "location": "South Yarra, Melbourne VIC",
+  "url": "https://www.seek.com.au/job/95021786",
+  "listed_at": "2026-10-02T05:02:41.013Z",
+  "expires_at": "2026-11-01T03:59:00.000Z",
+  "screening_questions": [],
+  "apply_instructions": null,
+  "percent": 32,
+  "rationale": [
+    "Requires 5\u20136 years similar drafting and multi-discipline building services (mech/fire/hydraulics/electrical).",
+    "Marc has academic Revit/AutoCAD and civil documentation, not building-services coordination.",
+    "South Yarra location fits Melbourne west travel but seniority does not."
+  ],
+  "caution": "Experienced building-services drafter, not civil graduate.",
+  "gaps": [
+    "5\u20136 years drafting",
+    "building services disciplines",
+    "clash coordination commercial experience"
+  ],
+  "mandatory_unmet": [
+    "5-6 years' experience in a similar role"
+  ],
+  "mandatory_unresolved": [],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": null,
+  "open": true,
+  "employer_is_agency": false,
+  "_keep": false
+}

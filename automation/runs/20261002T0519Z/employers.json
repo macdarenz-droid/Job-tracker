@@ -1,0 +1,68 @@
+{
+  "rotation": "councils_government",
+  "checked_at": "2026-10-02T05:31:59Z",
+  "checked": [
+    {
+      "name": "careers.vic.gov.au",
+      "url": "https://www.careers.vic.gov.au/jobs?keywords=civil",
+      "result": "55 hits mostly legal/VCAT; no civil engineering graduate/cadet roles matched"
+    },
+    {
+      "name": "Knox City Council Cadet",
+      "url": "https://careers.pageuppeople.com/1000/cw/en/job/496575/cadet-engineer",
+      "result": "closed 27 Sep 2026; requires final-year Bachelor Civil 2027"
+    },
+    {
+      "name": "Baw Baw Shire Graduate Engineer",
+      "url": "https://applynow.net.au/jobs/BAW594-graduate-engineer",
+      "result": "portal shows job closed (close was 3 May 2026)"
+    },
+    {
+      "name": "Inner West Student/Graduate Engineer",
+      "url": "https://iwcexternal.applynow.net.au/jobs/IWC17898-student-graduate-engineer-road-access",
+      "result": "already APPLICATION_UNDER_REVIEW; NSW Class C mandatory"
+    },
+    {
+      "name": "Melton Design Engineer MEL1835",
+      "url": "https://meltoncity-external.applynow.net.au/jobs/MEL1835-design-engineer",
+      "result": "job does not exist / closed"
+    },
+    {
+      "name": "Hume Jobs and Opportunities",
+      "url": "https://www.hume.vic.gov.au/Your-Council/Careers-at-Hume/Jobs-and-Opportunities",
+      "result": "no civil graduate/cadet vacancy visible"
+    },
+    {
+      "name": "Wyndham T1 job board",
+      "url": "https://wyndham.t1cloud.com/...",
+      "result": "JS board; no civil junior listing extracted"
+    },
+    {
+      "name": "Geelong PageUp",
+      "url": "https://careers.pageuppeople.com/887/ci/en/listing/",
+      "result": "Transport Planning Engineer only (prior under threshold)"
+    },
+    {
+      "name": "Tonkin Graduate Development Program",
+      "url": "https://www.tonkin.com.au/graduate-development-program",
+      "result": "published PREPARED_NOT_SENT to Saumya.Sharma@tonkin.com.au"
+    },
+    {
+      "name": "Martens Civil Drafter Junior",
+      "url": "https://www.martens.com.au/careers/",
+      "result": "blocked_prior MANUAL_APPLIED 2026-09-25"
+    },
+    {
+      "name": "Alluvium Engineer Waterways Stormwater Adelaide",
+      "url": "https://alluvium.com.au/careers/",
+      "result": "mid-level waterways role Adelaide; skipped"
+    }
+  ],
+  "notes": "Councils thin; GHD GradConnection civil drafter closed/PR; widened SEEK d3\u2192d7\u2192d14. Published South Perth READY portal + Tonkin PREPARED.",
+  "tools": [
+    "browse.py with CHROME_BIN=/usr/bin/google-chrome",
+    "WebFetch",
+    "WebSearch",
+    "SEEK API"
+  ]
+}

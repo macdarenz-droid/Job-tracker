@@ -1,0 +1,433 @@
+{
+  "count": 7,
+  "skipped": 0,
+  "screened_in_earlier_runs": [
+    {
+      "id": "94969508",
+      "company": "GPA Engineering",
+      "title": "Civil/Structural Drafter \u2013 ADL",
+      "run": "20261001T0918Z",
+      "percent": 28,
+      "mandatory_unmet": [
+        "suited to someone with 3-10 years' experience"
+      ]
+    },
+    {
+      "id": "94961556",
+      "company": "Brunel",
+      "title": "Project Engineer - Civil",
+      "run": "20260930T1316Z",
+      "percent": 28,
+      "mandatory_unmet": [
+        "3+ years' experience in civil construction"
+      ]
+    },
+    {
+      "id": "94940114",
+      "company": "NOTAZ International PTY LTD",
+      "title": "Civil engineering draftsperson",
+      "run": "20261001T0918Z",
+      "percent": 30,
+      "mandatory_unmet": [
+        "At least 3 years' experience as a Civil engineering draftsperson"
+      ]
+    },
+    {
+      "id": "94939236",
+      "company": "Roesner and Hamilton Consulting Engineers Pty Ltd",
+      "title": "Civil Engineering Draftsperson",
+      "run": "20261001T0918Z",
+      "percent": 32,
+      "mandatory_unmet": [
+        "over 3 years of experience and is qualified in Civil Drafting"
+      ]
+    },
+    {
+      "id": "95001351",
+      "company": "City of Greater Geraldton",
+      "title": "Graduate Engineering Officer",
+      "run": "20261001T0918Z",
+      "percent": 34,
+      "mandatory_unmet": [
+        "City of Greater Geraldton Migration and Visa Requirements: Temporary Residents with a valid Working Visa = No for Permanent Positions (https://www.cgg.wa.gov.au/work/work-with-us/employment/how-to-apply.aspx)"
+      ]
+    },
+    {
+      "id": "94958791",
+      "company": "ADF Careers",
+      "title": "Part-Time Civil Engineer (Tax-Free Pay)",
+      "run": "20261001T1419Z",
+      "percent": 22,
+      "mandatory_unmet": [
+        "Be at least 17 at the time of enlistment and an Australian Citizen",
+        "Military training including using a weapon; applying to appoint/enlist in the military"
+      ]
+    },
+    {
+      "id": "94973025",
+      "company": "Optimum Consulting Group",
+      "title": "Civil Engineer",
+      "run": "20260930T1316Z",
+      "percent": 30,
+      "mandatory_unmet": []
+    },
+    {
+      "id": "94969016",
+      "company": "QCCS",
+      "title": "Civil Project Engineer",
+      "run": "20260930T1316Z",
+      "percent": 32,
+      "mandatory_unmet": [
+        "Proven experience as a Project Engineer within civil construction"
+      ]
+    },
+    {
+      "id": "94938260",
+      "company": "Strategic Project Delivery",
+      "title": "Civil Design Engineer",
+      "run": "20260930T1316Z",
+      "percent": 30,
+      "mandatory_unmet": [
+        "3\u20138+ years\u2019 experience in civil engineering design"
+      ]
+    },
+    {
+      "id": "94935564",
+      "company": "Queanbeyan-Palerang Regional Council",
+      "title": "Trainee - Civil Construction",
+      "run": "20260930T1316Z",
+      "percent": 35,
+      "mandatory_unmet": []
+    },
+    {
+      "id": "94995704",
+      "company": "Xeros Piccolo Consulting Engineers",
+      "title": "Structural/Civil Engineer",
+      "run": "20261001T0918Z",
+      "percent": 18,
+      "mandatory_unmet": [
+        "Five years' experience in designing timber, steel and concrete structures",
+        "Engineers with 5+ years of industry experience"
+      ]
+    },
+    {
+      "id": "94961163",
+      "company": "Brunel",
+      "title": "Project Engineer ",
+      "run": "20260930T1316Z",
+      "percent": 28,
+      "mandatory_unmet": [
+        "3+ years' experience in civil construction"
+      ]
+    },
+    {
+      "id": "94958409",
+      "company": "Right Connect",
+      "title": "Structural Drafter",
+      "run": "20260930T1316Z",
+      "percent": 40,
+      "mandatory_unmet": []
+    },
+    {
+      "id": "94950957",
+      "company": "Milo Geotechnical",
+      "title": "Civil Engineer",
+      "run": "20260930T1316Z",
+      "percent": 25,
+      "mandatory_unmet": [
+        "A minimum of 5 years' engineering experience associated with the road construction industry"
+      ]
+    },
+    {
+      "id": "94956743",
+      "company": "Formstruct",
+      "title": "Estimator  - Civil & NPI",
+      "run": "20260930T1316Z",
+      "percent": 22,
+      "mandatory_unmet": [
+        "Min 5 yrs Experience in Similar Role",
+        "Mine Site Experience"
+      ]
+    },
+    {
+      "id": "94936909",
+      "company": "City of Joondalup",
+      "title": "Skilled General Hand - Engineering Construction (Civil)",
+      "run": "20260930T1316Z",
+      "percent": 20,
+      "mandatory_unmet": [
+        "WA HR Class Driver\u2019s Licence"
+      ]
+    },
+    {
+      "id": "94999649",
+      "company": "CPB Contractors NSW ACT",
+      "title": "Project Engineer Building & Infrastructure",
+      "run": "20261001T0918Z",
+      "percent": 15,
+      "mandatory_unmet": [
+        "5-8 years of experience within building, infrastructure, or major construction projects",
+        "Australian Citizenship or Permanent Residency with the ability to obtain and maintain a Baseline Security Clearance"
+      ]
+    },
+    {
+      "id": "94998155",
+      "company": "City of Newcastle",
+      "title": "Cadet Engineer",
+      "run": "20261001T0918Z",
+      "percent": 58,
+      "mandatory_unmet": []
+    },
+    {
+      "id": "94978646",
+      "company": "Smith & Co",
+      "title": "Estimator",
+      "run": "20260930T1819Z",
+      "percent": 22,
+      "mandatory_unmet": [
+        "Experience as a Civil Estimator or Senior Estimator"
+      ]
+    },
+    {
+      "id": "94944895",
+      "company": "TTW (NSW) Pty Ltd",
+      "title": "Structural Revit Drafter",
+      "run": "20260930T1819Z",
+      "percent": 40,
+      "mandatory_unmet": []
+    },
+    {
+      "id": "95009307",
+      "company": "The Lorian Group",
+      "title": "Construction Cadet / Junior PM",
+      "run": "20261002T0012Z",
+      "percent": 38,
+      "mandatory_unmet": []
+    },
+    {
+      "id": "95002679",
+      "company": "Sunshine Coast Council",
+      "title": "Design Engineer",
+      "run": "20261001T1419Z",
+      "percent": 52,
+      "mandatory_unmet": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "95021621",
+      "source": "seek",
+      "title": "Project Engineer (Civil)",
+      "company": "Ertech Pty Ltd",
+      "location": "Perth WA",
+      "url": "https://www.seek.com.au/job/95021621",
+      "work_type": "Full time",
+      "salary": "Site uplift + benefits + weekly pay",
+      "listed_at": "2026-10-02T04:57:32.511Z",
+      "expires_at": "2026-11-01T12:59:59.999Z",
+      "is_expired": false,
+      "is_link_out": true,
+      "screening_questions": [],
+      "summary": "Join Ertech as a Civil Project Engineer and play a key role in delivering major projects across our Resources portfolio.",
+      "opening": "ABOUT US\nErtech is a proudly employee-owned Australian civil and electrical construction company, delivering high-quality services across the Transport, Infrastructure, Resources, and Defence sectors. We partner with clients in both the public and private sectors, including state and federal governments. Since our humble beginnings in 1981, we\u2019ve built a strong reputation for the quality of our work and the long-term relationships we foster \u2014 all driven by our core values of collaboration, courage, and authenticity.\n\u00a0ABOUT THE ROLE\nWe are currently seeking an experienced Project Engineer (Civil) to join our Resources team, supporting the delivery of Civil and Electrical construction scopes on the Wheatstone NRU Thermal Oxidiser (TOX) Project.\nAs the Project Engineer, you will play a key role in the successful delivery of civil construction activities, providing technical and project supp",
+      "key_lines": [
+        "We are currently seeking an experienced Project Engineer (Civil) to join our Resources team, supporting the delivery of Civil and Electrical construction scopes on the Wheatstone NRU Thermal Oxidiser (TOX) Project.",
+        "As the Project Engineer, you will play a key role in the successful delivery of civil construction activities, providing technical and project support while ensuring works are delivered safely, efficiently and in line with project requirements, schedule and budget.",
+        "- Coordinate daily construction activities to achieve project scope, schedule and budget requirements.",
+        "- Review drawings, specifications and technical documentation to ensure works meet project and design requirements.",
+        "- Forecast labour, plant, materials and subcontractor requirements.",
+        "To be successful, you will have experience and demonstrate capability in the following:",
+        "- Tertiary qualification in Civil Engineering.",
+        "- Minimum 5 years\u2019 experience in civil construction project delivery.",
+        "- Experience delivering works within brownfield industrial or resources environments.",
+        "- Experience in contract administration and commercial management.",
+        "At Ertech, our people are fundamental to our success. We're focused on creating an inclusive workplace, with the right people in the right roles, who are engaged, empowered, and appropriately rewarded. Ertech will provide you with the chance to be a part of great team, meet new people and gain experience with an industry leader who puts safety first.",
+        "We value the unique backgrounds, experiences, and perspectives of all people and actively encourage applications from First Nations peoples, all genders, culturally and linguistically diverse individuals, people with disability, LGBTQIA+ community members, and veterans of the Australian Defence Force.",
+        "Ertech is a proud Veteran Employment supporter. We recognise the valuable skills and leadership that veterans bring to our industry and welcome their applications at all levels of the business. Even if you don\u2019t meet every requirement listed, we encourage you to apply and bring your strengths to our team.",
+        "HOW TO APPLY"
+      ],
+      "content_text": "ABOUT US\nErtech is a proudly employee-owned Australian civil and electrical construction company, delivering high-quality services across the Transport, Infrastructure, Resources, and Defence sectors. We partner with clients in both the public and private sectors, including state and federal governments. Since our humble beginnings in 1981, we\u2019ve built a strong reputation for the quality of our work and the long-term relationships we foster \u2014 all driven by our core values of collaboration, courage, and authenticity.\n\u00a0ABOUT THE ROLE\nWe are currently seeking an experienced Project Engineer (Civil) to join our Resources team, supporting the delivery of Civil and Electrical construction scopes on the Wheatstone NRU Thermal Oxidiser (TOX) Project.\nAs the Project Engineer, you will play a key role in the successful delivery of civil construction activities, providing technical and project support while ensuring works are delivered safely, efficiently and in line with project requirements, schedule and budget.\nOther key responsibilities include, but not limited to:\n- Coordinate daily construction activities to achieve project scope, schedule and budget requirements.\n- Develop and monitor construction programs, key milestones, productivity and critical path activities.\n- Review drawings, specifications and technical documentation to ensure works meet project and design requirements.\n- Prepare methodologies, ITPs, SWMS and other engineering documentation.\n- Manage RFIs, design clarifications and technical queries with relevant stakeholders.\n- Forecast labour, plant, materials and subcontractor requirements.\n- Identify project risks, constraints and potential delays, implementing mitigation and recovery strategies.\n- Verify quantities, completed works and progress claims.\n- Support project reporting, documentation and contractual deliverables.\nTo be successful, you will have experience and demonstrate capability in the following:\n- Tertiary qualification in Civil Engineering.\n- Minimum 5 years\u2019 experience in civil construction project delivery.\n- Experience delivering works within brownfield industrial or resources environments.\n- Strong knowledge of concrete, foundations, earthworks and underground services.\n- Experience in contract administration and commercial management.\n- Proven ability to coordinate multiple work fronts and subcontractors.\n- Strong communication and stakeholder management skills.\n- Proficiency in Microsoft Office, Primavera P6 and project management systems.\n- Construction White Card (CPCWHS1001 \u2013 Prepare to work safely in the construction industry).\n- Ability to obtain a National Police Clearance.\n- Valid Australian working rights.\nWHY JOIN ERTECH?\n- Competitive remuneration, including site uplift\n- Choice of a 2:2 or 2:1 roster to suit your lifestyle\n- Supportive, team-oriented culture where collaboration and respect are valued\u00a0\n- Play a key role in shaping the growth and success of our projects\n- Career development and progression opportunities, annual performance development plans.\n- Access to great benefits, including:\u00a0\n- Discounted Private Health Insurance (HBF & Medibank)\n- Annual flu vaccinations\u00a0\n- Novated leasing options through Paywise\n- Service recognition and milestone rewards\u00a0\n- Employee Referral Program incentives\u00a0\nOUR CULTURE\nAt Ertech, our people are fundamental to our success. We're focused on creating an inclusive workplace, with the right people in the right roles, who are engaged, empowered, and appropriately rewarded. Ertech will provide you with the chance to be a part of great team, meet new people and gain experience with an industry leader who puts safety first.\u00a0\nDIVERSITY & INCLUSION\nWe value the unique backgrounds, experiences, and perspectives of all people and actively encourage applications from First Nations peoples, all genders, culturally and linguistically diverse individuals, people with disability, LGBTQIA+ community members, and veterans of the Australian Defence Force.\nErtech is a proud Veteran Employment supporter. We recognise the valuable skills and leadership that veterans bring to our industry and welcome their applications at all levels of the business. Even if you don\u2019t meet every requirement listed, we encourage you to apply and bring your strengths to our team.\nHOW TO APPLY\nClick \"Apply\" on this job advertisement, which will direct you to Ertech's application portal. Simply follow the steps outlined on the portal to complete your application.\nThis is an incredible opportunity! If you are looking for a position in an environment in which you can flourish whilst building your career,\u00a0there is no better time to join the Ertech Team than now!\n*Please note: This role is being sourced through Ertech directly and we will not accept applications via external recruitment agencies.",
+      "apply_instructions": null,
+      "employer_is_agency": null
+    },
+    {
+      "id": "95013854",
+      "source": "seek",
+      "title": "Asset Engineer",
+      "company": "Whitehorse City Council",
+      "location": "Nunawading, Melbourne VIC",
+      "url": "https://www.seek.com.au/job/95013854",
+      "work_type": "Full time",
+      "salary": "Additional allowances ",
+      "listed_at": "2026-10-02T01:33:12.677Z",
+      "expires_at": "2026-11-01T01:33:10.000Z",
+      "is_expired": false,
+      "is_link_out": true,
+      "screening_questions": [],
+      "summary": "The position will undertake a range of functions related to the management of key \ncivil assets, including roads, drainage and public lighting.",
+      "opening": "At Whitehorse City Council, community is at the heart of everything we do.\n- $102k to $111k + 12% Superannuation\n- Permanent Full Time\n- Based at our Nunawading Civic Centre\nAt Whitehorse City Council, community is at the heart of everything we do. To stay ahead of and best respond to the evolving changes and needs of the community, the organisation is undertaking an exciting journey that will transform ways of working and will empower employees to be innovative and constantly striving towards providing excellent customer experience at all times. The five pillars of our organisation focus on:\n- Excellent Customer Experience and Service Delivery\n- Great Organisational Culture\n- Innovation and Continuous Improvement\n- Good Governance and Integrity\n- Long Term Financial Sustainability\nThe role:\nThis role will support the Engineering Asset Coordinator in delivering high quality engineering s",
+      "key_lines": [
+        "At Whitehorse City Council, community is at the heart of everything we do. To stay ahead of and best respond to the evolving changes and needs of the community, the organisation is undertaking an exciting journey that will transform ways of working and will empower employees to be innovative and constantly striving towards providing excellent customer experience at all times. The five pillars of our organisation focus on:",
+        "- Excellent Customer Experience and Service Delivery",
+        "The successful candidate will have experience in civil engineering, particularly in stormwater drainage and road infrastructure, together with an understanding of relevant local government legislation and engineering standards. Strong communication skills and the ability to work collaboratively with a range of internal and external stakeholders are essential.",
+        "To secure this role, you will hold a Bachelor's Degree in Civil Engineering and have experience in the civil engineering field, preferably within Local Government or a related industry. Registration as a Registered Professional Engineer (RPE) is desirable; however, applicants who are eligible to obtain registration upon meeting the relevant registration requirements and criteria are encouraged to apply.",
+        "Career opportunities - engaging work and the opportunity to apply your skills and experience.",
+        "Further information is available from Mirjam Fabijanic, Coordinator Engineering Approvals, on 9262 6322. To apply, please submit a copy of your resume (max 5 pages) and one page statement addressing the selection criteria and what you would bring to the role by Sunday 18 October 2026.",
+        "The City of Whitehorse, located 15 kilometres east of the Melbourne CBD, is a culturally diverse community of almost 177,000 people. Whitehorse includes the suburbs of Box Hill, Burwood, Nunawading, Blackburn, Mitcham, Forest Hill and Vermont and is characterised by quiet tree-lined residential streets, an abundance of parks, gardens and natural bushland reserves, bustling shopping centres and a diverse range of arts, cultural, sports and leisure facilities."
+      ],
+      "content_text": "At Whitehorse City Council, community is at the heart of everything we do.\n- $102k to $111k + 12% Superannuation\n- Permanent Full Time\n- Based at our Nunawading Civic Centre\nAt Whitehorse City Council, community is at the heart of everything we do. To stay ahead of and best respond to the evolving changes and needs of the community, the organisation is undertaking an exciting journey that will transform ways of working and will empower employees to be innovative and constantly striving towards providing excellent customer experience at all times. The five pillars of our organisation focus on:\n- Excellent Customer Experience and Service Delivery\n- Great Organisational Culture\n- Innovation and Continuous Improvement\n- Good Governance and Integrity\n- Long Term Financial Sustainability\nThe role:\nThis role will support the Engineering Asset Coordinator in delivering high quality engineering services across the municipality. Responsibilities include assessing engineering plans and computations, reviewing drainage and legal point of discharge applications, providing engineering advice on planning and building developments, contributing to major development and infrastructure projects, liaising with developers and contractors, and assisting with the management of Council's public lighting assets.\nAbout you:\nThe successful candidate will have experience in civil engineering, particularly in stormwater drainage and road infrastructure, together with an understanding of relevant local government legislation and engineering standards. Strong communication skills and the ability to work collaboratively with a range of internal and external stakeholders are essential.\nTo secure this role, you will hold a Bachelor's Degree in Civil Engineering and have experience in the civil engineering field, preferably within Local Government or a related industry. Registration as a Registered Professional Engineer (RPE) is desirable; however, applicants who are eligible to obtain registration upon meeting the relevant registration requirements and criteria are encouraged to apply.\nIn return, we will offer:\nThe ability to make a difference - Working at Whitehorse City Council you contribute to making a real difference in the lives of the community and those that live, learn, work or visit Whitehorse. Every day you really will see how the work you're involved in benefits the diverse community.\nGreat working conditions - a professional environment, friendly and supportive teams and a flexibility program that promotes employee work life balance.\nAn extensive Health and Wellbeing offering - Employee assistance program, private health insurance benefits, health checks (skin, hearing and vaccinations), discounted gym membership and facilities (e.g. Theatre, Arts, Leisure) and an active health and wellness program (e.g. stretching, healthy eating demonstrations and health challenges.\nCareer opportunities - engaging work and the opportunity to apply your skills and experience.\nReward & Recognition - extensive reward and recognition program, corporate learning offerings, study assistance and comprehensive leadership development programs.\nFurther Information:\nFurther information is available from Mirjam Fabijanic, Coordinator Engineering Approvals, on 9262 6322. To apply, please submit a copy of your resume (max 5 pages) and one page statement addressing the selection criteria and what you would bring to the role by Sunday 18 October 2026.\nDownload the Position Description:\nAsset Engineer\nCity of Whitehorse is a culturally and linguistically diverse community. We are proud of the diversity of our workforce and recognise the strength this provides in meeting the needs of our community. We are committed to upholding a safe, inclusive and respectful workplace that values the contribution of all.\nWhitehorse City Council is committed to being a child safe organisation. We recognise our responsibilities to keep children and young people safe from harm and have established policies, procedures and training to achieve these commitments.\nABOUT US\nThe City of Whitehorse, located 15 kilometres east of the Melbourne CBD, is a culturally diverse community of almost 177,000 people. Whitehorse includes the suburbs of Box Hill, Burwood, Nunawading, Blackburn, Mitcham, Forest Hill and Vermont and is characterised by quiet tree-lined residential streets, an abundance of parks, gardens and natural bushland reserves, bustling shopping centres and a diverse range of arts, cultural, sports and leisure facilities.\nWhitehorse City Council provides more than 100 services and facilities across a range of areas within our community services, city development, infrastructure, corporate services and transformation directorates. Whitehorse is one of Melbourne's largest metropolitan councils with a workforce of approximately 1300 employees and aspires to foster an inclusive, vibrant, prosperous and sustainable community. Our employees help us achieve these goals!\nAt Whitehorse, employee health, wellbeing and development are paramount, and we aim for everyone to become the best they can be in the workplace. Benefits of working with us include:\n- A welcoming and supportive working environment \n- Great opportunities for training and to build a long-term career within Whitehorse or the local government sector.\n- Extensive employee health and wellbeing programs including flexible working arrangements\n- Salary sacrifice options for gym / swim memberships, childcare and superannuation; and access to novated vehicle leases.\n- Competitive terms and conditions of employment \n- Ample onsite parking at most facilities with ready access to public transport",
+      "apply_instructions": null,
+      "employer_is_agency": null
+    },
+    {
+      "id": "95021747",
+      "source": "seek",
+      "title": "Civil Estimator ",
+      "company": "Contec Recruitment Pty Ltd",
+      "location": "Spring Hill, Brisbane QLD",
+      "url": "https://www.seek.com.au/job/95021747",
+      "work_type": "Full time",
+      "salary": "Attractive salary package and benefits",
+      "listed_at": "2026-10-02T05:01:37.293Z",
+      "expires_at": "2026-11-01T12:59:59.999Z",
+      "is_expired": false,
+      "is_link_out": false,
+      "screening_questions": [],
+      "summary": "Play a key role in helping grow a successful business while embedding and delivering the 5 year strategy",
+      "opening": "- Successful, privately operated business of over 50 years\u00a0\n - Experienced Estimator keen on office-based role\n - Complex infrastructure projects up to $150m\nWard Civil & Environmental Engineering (Ward) is a leading Tier 2, multi-faceted civil and environmental engineering contractor with a history of over 50 years. Ward is an employer of 160 staff with offices in Sydney, Newcastle and Brisbane. Ward is proud of the service it offers its clients, its commitment to safety and the team-focused culture of the organisation.\nProjects undertaken by Ward can range up to $150M, including road works, bulk earthworks, mining and renewable projects, remediation and utility installation. \n\u00a0The role will include: \n - Estimating across a diverse range of sectors\u00a0\n - First Principle estimating\u00a0\n - Project programming & analysis of the tender documentation\u00a0\n - Supervision and development of support sta",
+      "key_lines": [
+        "- Successful, privately operated business of over 50 years",
+        "- Experienced Estimator keen on office-based role",
+        "Ward Civil & Environmental Engineering (Ward) is a leading Tier 2, multi-faceted civil and environmental engineering contractor with a history of over 50 years. Ward is an employer of 160 staff with offices in Sydney, Newcastle and Brisbane. Ward is proud of the service it offers its clients, its commitment to safety and the team-focused culture of the organisation.",
+        "To succeed in this role, you will require:",
+        "- 8+ years\u2019 experience in the Civil Construction industry in estimating",
+        "- Demonstrated experience with DTMR specifications and schedules",
+        "- Experience with the development of methodologies and tender programs",
+        "- Experience preparing subcontractor and supply RFQ packages",
+        "- Expert Estimation software experience",
+        "If you share these values and seek a rewarding and challenging career, please apply now!"
+      ],
+      "content_text": "- Successful, privately operated business of over 50 years\u00a0\n - Experienced Estimator keen on office-based role\n - Complex infrastructure projects up to $150m\nWard Civil & Environmental Engineering (Ward) is a leading Tier 2, multi-faceted civil and environmental engineering contractor with a history of over 50 years. Ward is an employer of 160 staff with offices in Sydney, Newcastle and Brisbane. Ward is proud of the service it offers its clients, its commitment to safety and the team-focused culture of the organisation.\nProjects undertaken by Ward can range up to $150M, including road works, bulk earthworks, mining and renewable projects, remediation and utility installation. \n\u00a0The role will include: \n - Estimating across a diverse range of sectors\u00a0\n - First Principle estimating\u00a0\n - Project programming & analysis of the tender documentation\u00a0\n - Supervision and development of support staff including engineering assistants\nTo succeed in this role, you will require:\n - 8+ years\u2019 experience in the Civil Construction industry in estimating\n - Demonstrated experience with DTMR specifications and schedules\n - Experience with the development of methodologies and tender programs\n - Experience preparing subcontractor and supply RFQ packages\n - Expert Estimation software experience \n - Exposure to Microsoft Project and/or P6 Primavera is desirable\n - Ability to work autonomously with the small project team in QLD\u00a0\nWard offers its team members the opportunity to develop a career in a successful and growing civil infrastructure business. Ward values diversity, inclusion, innovation and personal growth across its workforce and retains the family first culture upon which the business was founded.\u00a0\nIf you share these values and seek a rewarding and challenging career, please apply now!",
+      "apply_instructions": null,
+      "employer_is_agency": null
+    },
+    {
+      "id": "95021585",
+      "source": "seek",
+      "title": "AutoCAD Draftsperson - Reinforced Concrete",
+      "company": "Cascada",
+      "location": "Malaga, Perth WA",
+      "url": "https://www.seek.com.au/job/95021585",
+      "work_type": "Full time",
+      "salary": null,
+      "listed_at": "2026-10-02T04:56:38.184Z",
+      "expires_at": "2026-11-01T12:59:59.999Z",
+      "is_expired": false,
+      "is_link_out": false,
+      "screening_questions": [
+        "How many years' experience do you have as an AutoCAD Draftsperson?",
+        "Which of the following statements best describes your right to work in Australia?",
+        "Do you have a current Australian driver's licence?"
+      ],
+      "summary": "This is a great opportunity for a recent graduate or experienced drafter looking for a hands-on role in precast concrete and quality control.",
+      "opening": "Cascada is seeking an AutoCAD Drafter to join our team.\nThis is a great opportunity for a recent graduate or experienced drafter looking for a hands-on role in precast concrete and quality control.\nCascada Group manufactures and supplies a range of precast concrete products to the infrastructure, construction, and mining sectors, throughout Western Australia. Our clients include mining companies, engineers, construction companies, builders, plumbers, electricians, and architects.\nThe successful applicant will become a member of a supportive team with plenty of assistance and training in product knowledge and company processes.\nThe Role:\nThe draftsperson is responsible for producing high quality and accurate construction drawings, shop drawings and schematics. The successful applicant will create both 2D and 3D renderings of our extensive range of standard products as well as bespoke prod",
+      "key_lines": [
+        "Cascada is seeking an AutoCAD Drafter to join our team.",
+        "This is a great opportunity for a recent graduate or experienced drafter looking for a hands-on role in precast concrete and quality control.",
+        "- You will gain experience in manufacturing related activities particularly quality control.",
+        "Requirements:",
+        "- 1-2 years practical experience using AutoCAD",
+        "- Experience with reinforcement detailing will be highly regarded."
+      ],
+      "content_text": "Cascada is seeking an AutoCAD Drafter to join our team.\nThis is a great opportunity for a recent graduate or experienced drafter looking for a hands-on role in precast concrete and quality control.\nCascada Group manufactures and supplies a range of precast concrete products to the infrastructure, construction, and mining sectors, throughout Western Australia. Our clients include mining companies, engineers, construction companies, builders, plumbers, electricians, and architects.\nThe successful applicant will become a member of a supportive team with plenty of assistance and training in product knowledge and company processes.\nThe Role:\nThe draftsperson is responsible for producing high quality and accurate construction drawings, shop drawings and schematics. The successful applicant will create both 2D and 3D renderings of our extensive range of standard products as well as bespoke products designed to meet customer specifications.\nResponsibilities:\n- Primarily, you will create CAD drawings of precast concrete products for sales and production\n- You will interpret customer supplied plans and develop the associated production drawings.\n- Manage and control all drawings, associated documentation and project data\n- Liaise with a wide range of people including managers, engineers, sales, and production staff.\n- You will gain experience in manufacturing related activities particularly quality control.\n- You will have the opportunity too work as a part of a fast paced team involved with significant civil and mining projects across the state.\nRequirements:\n- 1-2 years practical experience using AutoCAD\n- Skilled at drawing quickly and accurately with an eye for detail.\n- Experience with reinforcement detailing will be highly regarded.",
+      "apply_instructions": null,
+      "employer_is_agency": null
+    },
+    {
+      "id": "94990020",
+      "source": "seek",
+      "title": "Civil Estimator",
+      "company": "Gough Recruitment SA",
+      "location": "Murray Bridge, Riverland & Murray Mallee SA",
+      "url": "https://www.seek.com.au/job/94990020",
+      "work_type": "Full time",
+      "salary": "Up to $95k + super & annual pay reviews",
+      "listed_at": "2026-10-01T02:30:32.519Z",
+      "expires_at": "2026-10-31T02:00:00.000Z",
+      "is_expired": false,
+      "is_link_out": true,
+      "screening_questions": [],
+      "summary": "No estimating experience? No worries! Join a fun team in Murray Bridge, learn on the job and build a career in civil construction.",
+      "opening": "The Company\n This established, family-owned South Australian civil contractor has built a strong reputation across the Murraylands. Their work spans earthworks, road construction, drainage, subdivisions and infrastructure projects.\nWhat\u2019s On Offer\n - Flat management structure: Work directly with the Director and avoid the red tape\n - Opportunity for rapid promotions and career development\n - Training and mentorship from industry experts\n - Stable and secure permanent opportunity\n - Can start this side of Xmas, or early next year\n - Flexible start and finish times\u00a0\n - Join a fun team, where supporting each other and having a laugh is equally important\nThe Role\n - Preparing estimates, quantity calculations and cost breakdowns.\n - Obtaining and reviewing subcontractor and supplier quotes.\n - Preparing pricing schedules, tender submissions and supporting documents.\n - Identifying project ris",
+      "key_lines": [
+        "- Estimating experience is a bonus, but if you\u2019re keen to pivot into this type of work, we\u2019d love to hear from you too",
+        "Please call Tara Stokes at GOUGH Recruitment on 0419 280 999 or hit APPLY.",
+        "Only shortlisted candidates will be contacted. Australian permanent residency or unrestricted working rights are required."
+      ],
+      "content_text": "The Company\n This established, family-owned South Australian civil contractor has built a strong reputation across the Murraylands. Their work spans earthworks, road construction, drainage, subdivisions and infrastructure projects.\nWhat\u2019s On Offer\n - Flat management structure: Work directly with the Director and avoid the red tape\n - Opportunity for rapid promotions and career development\n - Training and mentorship from industry experts\n - Stable and secure permanent opportunity\n - Can start this side of Xmas, or early next year\n - Flexible start and finish times\u00a0\n - Join a fun team, where supporting each other and having a laugh is equally important\nThe Role\n - Preparing estimates, quantity calculations and cost breakdowns.\n - Obtaining and reviewing subcontractor and supplier quotes.\n - Preparing pricing schedules, tender submissions and supporting documents.\n - Identifying project risks and opportunities to improve costs.\n - Maintaining supplier rates and historical cost information.\nThe Criteria\n - Estimating experience is a bonus, but if you\u2019re keen to pivot into this type of work, we\u2019d love to hear from you too\n - Detail-oriented, proactive, and a great communicator\n - Excited to learn and grow within the construction industry\n - Good computer skills, including Excel\n - Happy working full time from Murray Bridge\n Please call Tara Stokes at GOUGH Recruitment on 0419 280 999 or hit APPLY.\n All applications to GOUGH Recruitment will remain confidential and will not be discussed with anyone outside GOUGH Recruitment without your consent.\n Only shortlisted candidates will be contacted. Australian permanent residency or unrestricted working rights are required.\nKnow a great candidate? Make an introduction and receive a $500 bonus if they\u2019re placed.",
+      "apply_instructions": null,
+      "employer_is_agency": null
+    },
+    {
+      "id": "95017184",
+      "source": "seek",
+      "title": "Engineering Technical Officer - Engineering Design",
+      "company": "City of South Perth",
+      "location": "South Perth, Perth WA",
+      "url": "https://www.seek.com.au/job/95017184",
+      "work_type": "Full time",
+      "salary": "$92893 - $108339 p.a. + plus superannuation",
+      "listed_at": "2026-10-02T02:59:06.595Z",
+      "expires_at": "2026-11-01T02:59:04.000Z",
+      "is_expired": false,
+      "is_link_out": true,
+      "screening_questions": [],
+      "summary": "Seeking an Engineering Technical Officer to provide civil engineering design, drafting, estimating, investigation and support for City work programs. ",
+      "opening": "Why Join Us?\n The City of South Perth's talented workforce prides itself on delivering excellent service to the community. Located 4kms from the Perth CBD and bordering the stunning Swan River, the City is widely recognised for its active places and beautiful spaces.\n As an organisation, we are committed to being an employer of choice by attracting and retaining values based and customer service orientated people. When employed by us, you will have the opportunity to thrive, as well as take advantage of great working conditions and benefits including:\n- 5 weeks Annual Leave plus 17.5% Leave Loading\n- Purchase up to 4 Additional Weeks of annual leave per year\n- Flexible Working Arrangements / Working from Home options\n- Free Parking\n- 8 weeks Paid Parental Leave\n- Flexitime available for full time employees\n- Learning and Professional Development opportunities, including the popular Perth",
+      "key_lines": [
+        "- Enrolment or completion of a Diploma in Civil Engineering or equivalent, or qualifications in AutoCAD Civil 3D with extensive design experience.",
+        "- Experience in the use of civil design packages such as AutoCAD and Civil 3D drafting software.",
+        "- Previous experience in road and drainage design in an urban environment.",
+        "- Current 'C' Class Driver's Licence.",
+        "Ready to Apply",
+        "If you're ready to be a part of our diverse and progressive team, please submit an online application using the 'Apply Here' button on the City's website. Supporting documents should be saved in .pdf format. Hardcopy applications may also be provided to our Civic Centre Reception. Applications in formats that cannot be opened will not be assessed.",
+        "Applications close at 4.00pm AWST on Friday 16 October 2026.",
+        "Please note: Applications are considered as they are received and interviews will be arranged accordingly. The City reserves the right to close advertisements early, therefore an early application is strongly encouraged. By submitting an application,"
+      ],
+      "content_text": "Why Join Us?\n The City of South Perth's talented workforce prides itself on delivering excellent service to the community. Located 4kms from the Perth CBD and bordering the stunning Swan River, the City is widely recognised for its active places and beautiful spaces.\n As an organisation, we are committed to being an employer of choice by attracting and retaining values based and customer service orientated people. When employed by us, you will have the opportunity to thrive, as well as take advantage of great working conditions and benefits including:\n- 5 weeks Annual Leave plus 17.5% Leave Loading\n- Purchase up to 4 Additional Weeks of annual leave per year\n- Flexible Working Arrangements / Working from Home options\n- Free Parking\n- 8 weeks Paid Parental Leave\n- Flexitime available for full time employees\n- Learning and Professional Development opportunities, including the popular Perth Inner City Mentor Program\n- Award winning Health and Wellness Program, free and onsite for all employees - Flu Vaccinations and Skin Screening\n- Outdoor Active Classes and Team Activity Challenges\n- Yoga and Pilates\n- Physical Nutrition programs\n- Financial wellbeing tools\n- Mental Health and Safety seminars\n- Superannuation 1/1 Sessions\n- Corporate Discounts with major Health Insurance Providers (up to 7% discounts)\n- Personal Leave up to 14 days per year (based on length of service)\n- Inclusive and Safe workplace practices\n- We are also working towards becoming a Menopause Friendly Employer.\nAbout the Position\n The Engineering Technical Officer - Engineering Design provides civil engineering design, drafting, estimating, investigation and technical support for the City's capital and operational work programs. The position supports the Civil Design Coordinator in developing practical, compliant and constructible solutions for roads, drainage, parking, active transport, street scape and related infrastructure. Key responsibilities include:\n- Preparing concept and detailed civil engineering designs, drawings, quantities and cost estimates.\n- Coordinating survey, geotechnical investigation and other design input data and services.\n- Undertaking site inspections, technical investigations and field surveys.\n- Liaising with internal stakeholders, government agencies, service authorities, consultants, contractors and community stakeholders.\n- Maintaining accurate engineering plans, records and asset information.\n- Providing technical advice and guidance on traffic engineering, active transport, parking management and street lighting matters to internal and external stakeholders.\n- Procurement tasks.\nTo be successful in this position you will need to demonstrate:\n- Enrolment or completion of a Diploma in Civil Engineering or equivalent, or qualifications in AutoCAD Civil 3D with extensive design experience.\n- Well developed verbal and written communication skills.\n- Well developed computer literacy skills, including competency in Microsoft Office Suite.\n- Well developed time management and problem-solving skills.\n- Experience in the use of civil design packages such as AutoCAD and Civil 3D drafting software.\n- Previous experience in road and drainage design in an urban environment.\n- Current 'C' Class Driver's Licence.\n- A current National Police Clearance.\nPlease see the attached position description for further information.\n Ready to Apply\n If you're ready to be a part of our diverse and progressive team, please submit an online application using the 'Apply Here' button on the City's website. Supporting documents should be saved in .pdf format. Hardcopy applications may also be provided to our Civic Centre Reception. Applications in formats that cannot be opened will not be assessed. \n For more information regarding the position, please contact, Kevin Chung, Civil Design Coordinator, on 08 9474 0777 and visit the City's website southperth.wa.gov.au/careers\n Applications close at 4.00pm AWST on Friday 16 October 2026. \n Please note: Applications are considered as they are received and interviews will be arranged accordingly. The City reserves the right to close advertisements early, therefore an early application is strongly encouraged. By submitting an application,\n you consent to the City storing and using your data for the purposes of recruitment activities.\n The City of South Perth acknowledges and pays respect to the traditional custodians of the land upon which we live, work and play - the Whadjuk people of the Noongar nation. \n The City of South Perth is an equal opportunity employer, who is committed to providing an inclusive workplace. We encourage applications from people with disability, Aboriginal and Torres Strait Islanders, and people from diverse cultural and linguistic backgrounds. \n This publication is available in alternative formats on request; please contact the Customer Service Team to request alternative format type (08) 9474 0777.",
+      "apply_instructions": null,
+      "employer_is_agency": null
+    },
+    {
+      "id": "95021786",
+      "source": "seek",
+      "title": "Draftsperson",
+      "company": "SCP Consulting Pty Ltd",
+      "location": "South Yarra, Melbourne VIC",
+      "url": "https://www.seek.com.au/job/95021786",
+      "work_type": "Full time",
+      "salary": null,
+      "listed_at": "2026-10-02T05:02:41.013Z",
+      "expires_at": "2026-11-01T03:59:00.000Z",
+      "is_expired": false,
+      "is_link_out": false,
+      "screening_questions": [],
+      "summary": "Take your drafting career further with SCP Consulting. Work on exciting multi-disciplinary projects, enjoy genuine flexibility, and a supportive team.",
+      "opening": "About Us\u00a0\n Built on more than 40 years of industry leading experience. SCP Consulting is a privately owned, Australian engineering firm that provides high performance, multi-disciplinary engineering solutions for building and infrastructure projects. SCP is a diverse group that promotes a sustainable approach to design.\u00a0\n SCP Consulting is backed by Five Group, a national network of engineering, surveying, consulting, and professional services businesses. Through this connection, we benefit from shared expertise, strong operational support, and a collaborative network that strengthens our capability and creates opportunities for our people and clients across Australia and South-East Asia.\u00a0\nLocation: VIC\u00a0\n Our Benefits\u00a0\n - Genuine flexibility for work life balance\u00a0\n - Great team culture\u00a0\n - Employee assistance program\u00a0\n - Career development opportunities with SCP Consulting\u00a0\u00a0\n - Ongoing r",
+      "key_lines": [
+        "Built on more than 40 years of industry leading experience. SCP Consulting is a privately owned, Australian engineering firm that provides high performance, multi-disciplinary engineering solutions for building and infrastructure projects. SCP is a diverse group that promotes a sustainable approach to design.",
+        "As Drafting Engineer, you\u2019ll be required to product drawings and coordination thereof across Building Services disciplines, including Mechanical, Fire, Hydraulics and Electrical Services. You will have the chance to work on some exciting projects and the chance to work autonomously with our Engineers.",
+        "- Produce detailed drawings using Revit and AutoCAD",
+        "- 5-6 years\u2019 experience in a similar role",
+        "- Qualifications in drafting, construction design, engineering or equivalent",
+        "- Competent with Revit and AutoCAD",
+        "WE ENCOURAGE YOU TO APPLY",
+        "We encourage you to apply and become part of a team where your contribution is valued and your career can grow. At Five Group, we're committed to building a diverse and inclusive workplace where people can thrive and succeed. Only shortlisted applicants will be contacted as we progress through the selection process.",
+        "Recruitment agencies: our Talent Acquisition team recruits directly and will contact selected partners if external support is required."
+      ],
+      "content_text": "About Us\u00a0\n Built on more than 40 years of industry leading experience. SCP Consulting is a privately owned, Australian engineering firm that provides high performance, multi-disciplinary engineering solutions for building and infrastructure projects. SCP is a diverse group that promotes a sustainable approach to design.\u00a0\n SCP Consulting is backed by Five Group, a national network of engineering, surveying, consulting, and professional services businesses. Through this connection, we benefit from shared expertise, strong operational support, and a collaborative network that strengthens our capability and creates opportunities for our people and clients across Australia and South-East Asia.\u00a0\nLocation: VIC\u00a0\n Our Benefits\u00a0\n - Genuine flexibility for work life balance\u00a0\n - Great team culture\u00a0\n - Employee assistance program\u00a0\n - Career development opportunities with SCP Consulting\u00a0\u00a0\n - Ongoing rewards and recognition programs\u00a0\u00a0\n Your Role\u00a0\n As Drafting Engineer, you\u2019ll be required to product drawings and coordination thereof across Building Services disciplines, including Mechanical, Fire, Hydraulics and Electrical Services. You will have the chance to work on some exciting projects and the chance to work autonomously with our Engineers.\u00a0\u00a0\u00a0\n You\u2019ll:\u00a0\n - Produce detailed drawings using Revit and AutoCAD\u00a0\n - Collaborate with engineering and project teams\u00a0\u00a0\n - Ensure compliance with industry standards and regulations\u00a0\u00a0\n - Coordinate multi-discipline models and resolve clashes\u00a0\u00a0\n - Document Management and Delivery\u00a0\u00a0\n What You\u2019ll Bring\u00a0\n - 5-6 years\u2019 experience in a similar role\u00a0\u00a0\n - Qualifications in drafting, construction design, engineering or equivalent\u00a0\u00a0\n - Competent with Revit and AutoCAD\u00a0\n - Enthusiasm, attention to detail and willingness to contribute and learn\u00a0\n - Self-driven with Strong communication skills\u00a0\u00a0\n WE ENCOURAGE YOU TO APPLY\u00a0\n We encourage you to apply and become part of a team where your contribution is valued and your career can grow. At Five Group, we're committed to building a diverse and inclusive workplace where people can thrive and succeed. Only shortlisted applicants will be contacted as we progress through the selection process. \u00a0\n Recruitment agencies: our Talent Acquisition team recruits directly and will contact selected partners if external support is required.",
+      "apply_instructions": null,
+      "employer_is_agency": null
+    }
+  ]
+}

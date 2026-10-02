@@ -1,0 +1,36 @@
+{
+  "id": "95021585",
+  "company": "Cascada",
+  "title": "AutoCAD Draftsperson - Reinforced Concrete",
+  "location": "Malaga, Perth WA",
+  "url": "https://www.seek.com.au/job/95021585",
+  "listed_at": "2026-10-02T04:56:38.184Z",
+  "expires_at": "2026-11-01T12:59:59.999Z",
+  "screening_questions": [
+    "How many years' experience do you have as an AutoCAD Draftsperson?",
+    "Which of the following statements best describes your right to work in Australia?",
+    "Do you have a current Australian driver's licence?"
+  ],
+  "apply_instructions": null,
+  "percent": 58,
+  "rationale": [
+    "Recent graduate wording fits Advanced Diploma finished February 2026; AutoCAD is on facts.",
+    "Requires 1\u20132 years practical AutoCAD experience; Marc software experience is academic only.",
+    "Reinforcement detailing and precast manufacturing focus are not in facts; Perth location is acceptable with relocation discussion."
+  ],
+  "caution": "1\u20132 years practical AutoCAD is unmet; academic software only.",
+  "gaps": [
+    "1\u20132 years practical AutoCAD",
+    "reinforcement detailing",
+    "precast shop drawings"
+  ],
+  "mandatory_unmet": [
+    "1-2 years practical experience using AutoCAD"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": null,
+  "open": true,
+  "employer_is_agency": false,
+  "_keep": false
+}

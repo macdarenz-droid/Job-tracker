@@ -26,10 +26,16 @@
       "notes": "No vacancies; Contact page publishes recruitment@reedsconsulting.com.au for recruitment EOIs; careers form also accepts Graduate Work Experience EOI. Speculative PREPARED this tick."
     },
     "Tonkin Consulting": {
-      "careers_url": "https://tonkin.com.au/current-opportunities",
-      "checked_at": "2026-09-28",
-      "open_junior_roles": [],
-      "notes": "Current opportunities list is Civil Program Lead (NSW), Principal Structural Engineer (Sydney), Senior Civil Engineer (Adelaide) and Senior Maritime Structural Engineer (Sydney) - all senior/lead roles, no graduate or junior openings."
+      "careers_url": "https://www.tonkin.com.au/careers/",
+      "checked_at": "2026-10-02",
+      "open_junior_roles": [
+        {
+          "title": "Graduate Development Program",
+          "url": "https://www.tonkin.com.au/graduate-development-program",
+          "apply": "Saumya.Sharma@tonkin.com.au"
+        }
+      ],
+      "notes": "Graduate program page publishes Saumya.Sharma@tonkin.com.au. Mildura VIC office among locations."
     },
     "Calibre Group": {
       "careers_url": "https://calibregroup.com/careers/ (redirects to https://www.wsp.com/en-au)",
@@ -284,6 +290,53 @@
           "name": "Millar Merrigan (extra from target list / careers)",
           "url": "https://www.millarmerrigan.com.au/careers/",
           "result": "Design Engineering Graduate Program PREPARED_NOT_SENT careers@"
+        }
+      ]
+    },
+    {
+      "run_id": "20261002T0519Z",
+      "rotation": "councils_government",
+      "checked_at": "2026-10-02T05:31:59Z",
+      "checked": [
+        {
+          "name": "careers.vic.gov.au",
+          "url": "https://www.careers.vic.gov.au/jobs?keywords=civil",
+          "result": "55 hits mostly legal/VCAT; no civil engineering graduate/cadet roles matched"
+        },
+        {
+          "name": "Knox City Council Cadet",
+          "url": "https://careers.pageuppeople.com/1000/cw/en/job/496575/cadet-engineer",
+          "result": "closed 27 Sep 2026; requires final-year Bachelor Civil 2027"
+        },
+        {
+          "name": "Baw Baw Shire Graduate Engineer",
+          "url": "https://applynow.net.au/jobs/BAW594-graduate-engineer",
+          "result": "portal shows job closed (close was 3 May 2026)"
+        },
+        {
+          "name": "Inner West Student/Graduate Engineer",
+          "url": "https://iwcexternal.applynow.net.au/jobs/IWC17898-student-graduate-engineer-road-access",
+          "result": "already APPLICATION_UNDER_REVIEW; NSW Class C mandatory"
+        },
+        {
+          "name": "Melton Design Engineer MEL1835",
+          "url": "https://meltoncity-external.applynow.net.au/jobs/MEL1835-design-engineer",
+          "result": "job does not exist / closed"
+        },
+        {
+          "name": "Hume Jobs and Opportunities",
+          "url": "https://www.hume.vic.gov.au/Your-Council/Careers-at-Hume/Jobs-and-Opportunities",
+          "result": "no civil graduate/cadet vacancy visible"
+        },
+        {
+          "name": "Martens Civil Drafter Junior",
+          "url": "https://www.martens.com.au/careers/",
+          "result": "blocked_prior MANUAL_APPLIED 2026-09-25"
+        },
+        {
+          "name": "Alluvium Engineer Waterways Stormwater Adelaide",
+          "url": "https://alluvium.com.au/careers/",
+          "result": "mid-level waterways role Adelaide; skipped"
         }
       ]
     }
