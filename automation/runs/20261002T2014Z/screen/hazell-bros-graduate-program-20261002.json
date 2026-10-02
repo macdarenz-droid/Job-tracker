@@ -1,0 +1,30 @@
+{
+ "id": "hazell-bros-graduate-program-20261002",
+ "percent": 55,
+ "rationale": [
+  "Genuine civil graduate program with rotations including civil engineering.",
+  "FAQ requires degrees from Australian Universities only; Marc's Advanced Diploma is Australian but not a university degree, and BSCE is Philippines-based.",
+  "Visa FAQ allows VISA with full-time rights for program duration if degree completed at an Australian university."
+ ],
+ "caution": "Mandatory Australian university degree unmet; score below 60.",
+ "gaps": [
+  "Australian university degree required",
+  "Program induction hosted in Tasmania"
+ ],
+ "mandatory_unmet": [
+  "Degrees from Australian Universities only"
+ ],
+ "mandatory_unresolved": [],
+ "route": "EMPLOYER_PORTAL",
+ "apply_email": "",
+ "apply_instructions": "Apply via Hazell Bros graduate / vacancies portal with resume, cover letter and transcript.",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Hazell Bros",
+ "title": "Graduate Program - Engineering (civil stream)",
+ "location": "Tasmania (induction); QLD/NSW operations also referenced",
+ "url": "https://hazellbros.com.au/careers/graduate-programs/",
+ "listed_at": "2026-10-02",
+ "expires_at": null,
+ "screening_questions": []
+}

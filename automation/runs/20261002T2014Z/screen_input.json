@@ -1,0 +1,330 @@
+{
+ "count": 0,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "94969508",
+   "company": "GPA Engineering",
+   "title": "Civil/Structural Drafter – ADL",
+   "run": "20261001T0918Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "suited to someone with 3-10 years' experience"
+   ]
+  },
+  {
+   "id": "94961556",
+   "company": "Brunel",
+   "title": "Project Engineer - Civil",
+   "run": "20260930T1316Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "3+ years' experience in civil construction"
+   ]
+  },
+  {
+   "id": "95021621",
+   "company": "Ertech Pty Ltd",
+   "title": "Project Engineer (Civil)",
+   "run": "20261002T0519Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Minimum 5 years experience in civil construction project delivery"
+   ]
+  },
+  {
+   "id": "94958791",
+   "company": "ADF Careers",
+   "title": "Part-Time Civil Engineer (Tax-Free Pay)",
+   "run": "20261001T1419Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "Be at least 17 at the time of enlistment and an Australian Citizen",
+    "Military training including using a weapon; applying to appoint/enlist in the military"
+   ]
+  },
+  {
+   "id": "94973025",
+   "company": "Optimum Consulting Group",
+   "title": "Civil Engineer",
+   "run": "20260930T1316Z",
+   "percent": 30,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94969016",
+   "company": "QCCS",
+   "title": "Civil Project Engineer",
+   "run": "20260930T1316Z",
+   "percent": 32,
+   "mandatory_unmet": [
+    "Proven experience as a Project Engineer within civil construction"
+   ]
+  },
+  {
+   "id": "95013854",
+   "company": "Whitehorse City Council",
+   "title": "Asset Engineer",
+   "run": "20261002T0519Z",
+   "percent": 42,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94995704",
+   "company": "Xeros Piccolo Consulting Engineers",
+   "title": "Structural/Civil Engineer",
+   "run": "20261001T0918Z",
+   "percent": 18,
+   "mandatory_unmet": [
+    "Five years' experience in designing timber, steel and concrete structures",
+    "Engineers with 5+ years of industry experience"
+   ]
+  },
+  {
+   "id": "94961163",
+   "company": "Brunel",
+   "title": "Project Engineer ",
+   "run": "20260930T1316Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "3+ years' experience in civil construction"
+   ]
+  },
+  {
+   "id": "94958409",
+   "company": "Right Connect",
+   "title": "Structural Drafter",
+   "run": "20260930T1316Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95021747",
+   "company": "Contec Recruitment Pty Ltd",
+   "title": "Civil Estimator ",
+   "run": "20261002T0519Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "8+ years experience in the Civil Construction industry in estimating"
+   ]
+  },
+  {
+   "id": "95021585",
+   "company": "Cascada",
+   "title": "AutoCAD Draftsperson - Reinforced Concrete",
+   "run": "20261002T1016Z",
+   "percent": 58,
+   "mandatory_unmet": [
+    "1-2 years practical experience using AutoCAD"
+   ]
+  },
+  {
+   "id": "94990020",
+   "company": "Gough Recruitment SA",
+   "title": "Civil Estimator",
+   "run": "20261002T0519Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Australian permanent residency or unrestricted working rights"
+   ]
+  },
+  {
+   "id": "94956743",
+   "company": "Formstruct",
+   "title": "Estimator  - Civil & NPI",
+   "run": "20260930T1316Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "Min 5 yrs Experience in Similar Role",
+    "Mine Site Experience"
+   ]
+  },
+  {
+   "id": "94999649",
+   "company": "CPB Contractors NSW ACT",
+   "title": "Project Engineer Building & Infrastructure",
+   "run": "20261001T0918Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "5-8 years of experience within building, infrastructure, or major construction projects",
+    "Australian Citizenship or Permanent Residency with the ability to obtain and maintain a Baseline Security Clearance"
+   ]
+  },
+  {
+   "id": "94978646",
+   "company": "Smith & Co",
+   "title": "Estimator",
+   "run": "20260930T1819Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "Experience as a Civil Estimator or Senior Estimator"
+   ]
+  },
+  {
+   "id": "95021786",
+   "company": "SCP Consulting Pty Ltd",
+   "title": "Draftsperson",
+   "run": "20261002T0519Z",
+   "percent": 32,
+   "mandatory_unmet": [
+    "5-6 years' experience in a similar role"
+   ]
+  },
+  {
+   "id": "95009307",
+   "company": "The Lorian Group",
+   "title": "Construction Cadet / Junior PM",
+   "run": "20261002T0012Z",
+   "percent": 38,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95002679",
+   "company": "Sunshine Coast Council",
+   "title": "Design Engineer",
+   "run": "20261001T1419Z",
+   "percent": 52,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94994373",
+   "company": "Tungsten Mining",
+   "title": "Civil Project Engineer",
+   "run": "20261001T1419Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Bachelor's Degree in Civil Engineering with 3 to 7 years' experience in mining, infrastructure or heavy civil projects"
+   ]
+  },
+  {
+   "id": "94991390",
+   "company": "Sunshine Coast Council",
+   "title": "Design Engineer",
+   "run": "20261001T0417Z",
+   "percent": 42,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94987271",
+   "company": "Randstad - Construction, Property & Engineering",
+   "title": "Estimator",
+   "run": "20261001T0417Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Proven experience in civil construction estimating"
+   ]
+  },
+  {
+   "id": "94984460",
+   "company": "CONCRETE SEAL PTY LTD",
+   "title": "Cadet Estimator & Project Coordinator — Commercial Waterproofing",
+   "run": "20260930T2319Z",
+   "percent": 35,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94972758",
+   "company": "Information Quality",
+   "title": "Junior in Engineering Drafting",
+   "run": "20260930T1819Z",
+   "percent": 52,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94958365",
+   "company": "Symal",
+   "title": "Project Engineer",
+   "run": "20260930T1819Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Approximately 3+ years experience in civil construction"
+   ]
+  },
+  {
+   "id": "95028317",
+   "company": "In2work Pty Ltd",
+   "title": "NEW! Project Engineers FIFO and East Coast DTMR Projects!",
+   "run": "20261002T1517Z",
+   "percent": 32,
+   "mandatory_unmet": [
+    "Experienced Civil Project Engineers for FIFO/DTMR; not graduate/junior"
+   ]
+  },
+  {
+   "id": "95020068",
+   "company": "AMT CIVILS",
+   "title": "Project Engineer – Bulk Earthworks | 2:1 Roster | Immediate Start",
+   "run": "20261002T1517Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Demonstrated Project Engineer experience on bulk earthworks; immediate start"
+   ]
+  },
+  {
+   "id": "95016703",
+   "company": "CGC Recruitment",
+   "title": "Site Engineer - Blue Mountains",
+   "run": "20261002T1517Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Previous experience as a Site Engineer on civil infrastructure projects"
+   ]
+  },
+  {
+   "id": "95001733",
+   "company": "Silver Yachts Australia Pty Ltd",
+   "title": "Fitout/Draftsperson",
+   "run": "20261002T1517Z",
+   "percent": 18,
+   "mandatory_unmet": [
+    "Rhino 3D essential for luxury yacht fitout drafting; wrong discipline"
+   ]
+  },
+  {
+   "id": "94994170",
+   "company": "Tognetti Consulting Pty Ltd",
+   "title": "Site Engineer - Central Qld - contract",
+   "run": "20261002T1517Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Minimum 2yrs civil engineering experience",
+    "Full Australian working rights wording may conflict with temporary visa depending on client"
+   ]
+  },
+  {
+   "id": "94990129",
+   "company": "Furn-Niche",
+   "title": "Graduate Estimator",
+   "run": "20261002T1517Z",
+   "percent": 25,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94989946",
+   "company": "CPB Contractors NSW ACT",
+   "title": "Project Engineer (Building, Trades & Works)",
+   "run": "20261002T1517Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Experienced Project Engineers Building Trades & Works for Defence Jan 2027 mobilisation"
+   ]
+  },
+  {
+   "id": "94962216",
+   "company": "Croudace Constructs",
+   "title": "Junior Estimator",
+   "run": "20260930T1819Z",
+   "percent": 35,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94962220",
+   "company": "City Of Casey",
+   "title": "Development Engineer",
+   "run": "20260930T1819Z",
+   "percent": 48,
+   "mandatory_unmet": []
+  }
+ ],
+ "candidates": []
+}

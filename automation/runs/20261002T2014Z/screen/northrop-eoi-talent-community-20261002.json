@@ -1,0 +1,30 @@
+{
+ "id": "northrop-eoi-talent-community-20261002",
+ "percent": 72,
+ "rationale": [
+  "Standing early-career EOI / talent community on Northrop careers; undergraduates and graduates explicitly invited.",
+  "Civil consulting with AutoCAD/Civil 3D overlap; Marc finished Advanced Diploma Feb 2026 and holds BSCE.",
+  "Australia-wide offices including pathways Marc can discuss; no citizenship or years bar stated on the EOI form page."
+ ],
+ "caution": "No dated vacant role; this is talent-community EOI only. Form-based apply, not email.",
+ "gaps": [
+  "No Australian consulting employment yet",
+  "EOI may wait for a matching vacancy"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "EMPLOYER_FORM",
+ "apply_email": "",
+ "apply_instructions": "Submit CV via Northrop JobAdder Expression of Interest form linked from https://northrop.com.au/careers/.",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Northrop Consulting Engineers",
+ "title": "Expression of Interest / Tell Us About You - early career civil",
+ "location": "Australia (multi-office)",
+ "url": "https://northrop.com.au/careers/",
+ "listed_at": "2026-10-02",
+ "expires_at": null,
+ "screening_questions": [],
+ "company_work_verified": true,
+ "company_work_evidence": "https://northrop.com.au/careers/ early career programs and Tell Us About You EOI; https://northrop.com.au/ employee-owned consulting engineers. Verified 2026-10-03 AEST."
+}

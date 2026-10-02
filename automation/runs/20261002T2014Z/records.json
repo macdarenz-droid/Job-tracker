@@ -1,0 +1,204 @@
+[
+ {
+  "id": "8b66df2e-4103-45fe-98f9-3d2b5b6f409b",
+  "key": "manual:8b66df2e-4103-45fe-98f9-3d2b5b6f409b",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261002T2014Z",
+  "created_at": "2026-10-02T20:29:08.000Z",
+  "updated_at": "2026-10-02T20:29:08.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "de5771af-d1e3-4625-b1f5-9b2cf6855fa2",
+    "path": "/api/documents/de5771af-d1e3-4625-b1f5-9b2cf6855fa2",
+    "filename": "Marc_Masarate_Northrop_Consulting_Engineers_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-02T20:29:10.801Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "a39b74b0-9416-472a-baa6-67f435e1f820",
+    "path": "/api/documents/a39b74b0-9416-472a-baa6-67f435e1f820",
+    "filename": "Marc_Masarate_Northrop_Consulting_Engineers_Expression_of_Interest_Tell_Us_About_You_Cover_Letter.pdf",
+    "sha256": "aced6759caa292d040ce3c1d6ca5f494df6e1a279cca4ff048a75e852f98e4d3",
+    "size_bytes": 48472,
+    "kind": "cover",
+    "uploaded_at": "2026-10-02T20:29:09.478Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Northrop Consulting Engineers",
+  "role": "Expression of Interest / Tell Us About You - early career civil",
+  "location": "Australia (multi-office)",
+  "job_url": "https://northrop.com.au/careers/",
+  "company_url": "https://northrop.com.au/",
+  "status": "READY_JEREMIE_EMPLOYER_FORM",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "application_route": "EMPLOYER_FORM",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://v2.forms.jobadder.com/f/WzDLJEnGePglWrqXoxNZ7A32Y",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Expression of interest: early career civil engineering and drafting, Marc Masarate",
+  "email_body": "Hello,\n\nI am lodging an expression of interest through your careers Tell Us About You pathway for early career civil engineering and drafting support roles.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design with road, earthworks, pavement and stormwater design in AutoCAD and Civil 3D. I also hold a Bachelor of Science in Civil Engineering (Philippines, 2019). From 2019 to 2020 I worked on site in the Philippines as project-in-charge and field engineer.\n\nI am Melton based, hold a White Card, an Australian driver's licence and own transport, and have full working rights until December 2027 on a Subclass 485 visa. I am available for office, site and regional work. I do not yet have Australian consulting employment, so mentoring on civil design and documentation is what I am looking for.\n\nYour early career programs put graduates in front of clients with real project responsibility, which is the kind of consulting start I want.\n\nI have attached my resume and cover letter for the EOI form. Portfolio: https://macdarenz-droid.github.io/Portfolio.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Standing early-career EOI / talent community on Northrop careers; undergraduates and graduates explicitly invited.",
+   "Civil consulting with AutoCAD/Civil 3D overlap; Marc finished Advanced Diploma Feb 2026 and holds BSCE.",
+   "Australia-wide offices including pathways Marc can discuss; no citizenship or years bar stated on the EOI form page."
+  ],
+  "gaps": [
+   "No Australian consulting employment yet",
+   "EOI may wait for a matching vacancy"
+  ],
+  "match_score": {
+   "percent": 72,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Standing early-career EOI / talent community on Northrop careers; undergraduates and graduates explicitly invited.",
+    "Civil consulting with AutoCAD/Civil 3D overlap; Marc finished Advanced Diploma Feb 2026 and holds BSCE.",
+    "Australia-wide offices including pathways Marc can discuss; no citizenship or years bar stated on the EOI form page."
+   ],
+   "caution": "No dated vacant role; this is talent-community EOI only. Form-based apply, not email."
+  },
+  "advert": {
+   "source": "employer_careers",
+   "listed_at": "2026-10-02",
+   "expires_at": "",
+   "verified_at": "2026-10-02T20:29:08.000Z",
+   "apply_instructions": "Submit CV via Northrop JobAdder Expression of Interest form linked from https://northrop.com.au/careers/.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Open https://northrop.com.au/careers/ and the JobAdder EOI form.",
+   "Upload resume and cover letter PDFs prepared this run.",
+   "Confirm no Northrop application in the last 90 days before submitting.",
+   "Mark the tracker Applied only after Marc or Jeremie completes the form.",
+   "Do not invent an email address for Northrop."
+  ],
+  "notes": "Employer rotation open-web find. Form-only EOI; no published application inbox. Status READY_JEREMIE_EMPLOYER_FORM. No advertised matching graduate civil vacancy verified on the employer careers page this tick; labelled speculative.\nNo published application email found on the careers page this tick; apply via JobAdder EOI form only. Do not use guessed addresses.\nHOW GROK AI FOUND THIS\nFound on employer_careers (listed 2026-10-02). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Expression of Interest / Tell Us About You - early career civil role on SEEK.\n• They may ask about: No Australian consulting employment yet → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: EOI may wait for a matching vacancy → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_careers (listed 2026-10-02). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Expression of Interest / Tell Us About You - early career civil role on SEEK.",
+   "They may ask about: No Australian consulting employment yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: EOI may wait for a matching vacancy → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-02T20:29:08.000Z",
+  "duplicate_key": "northropconsultingengineers|northrop.com.au/careers"
+ },
+ {
+  "id": "5f8bb9c1-3547-4e0a-8f7f-54c4f4a48b3e",
+  "key": "manual:5f8bb9c1-3547-4e0a-8f7f-54c4f4a48b3e",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261002T2014Z",
+  "created_at": "2026-10-02T20:29:11.000Z",
+  "updated_at": "2026-10-02T20:29:11.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "1344e297-bc36-4c48-846d-e81e49152270",
+    "path": "/api/documents/1344e297-bc36-4c48-846d-e81e49152270",
+    "filename": "Marc_Masarate_Wagners_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-02T20:29:13.545Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "48db6857-d44f-4fe2-94cb-ec832891634a",
+    "path": "/api/documents/48db6857-d44f-4fe2-94cb-ec832891634a",
+    "filename": "Marc_Masarate_Wagners_Speculative_enquiry_graduate_junior_civi_Cover_Letter.pdf",
+    "sha256": "11d751bf4393f41c1ca67b637c91c1256a7dded29d524c86b1fa3f81d905e09c",
+    "size_bytes": 48495,
+    "kind": "cover",
+    "uploaded_at": "2026-10-02T20:29:12.321Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Wagners",
+  "role": "Speculative enquiry - graduate / junior civil or project engineering (construction materials and project services)",
+  "location": "Queensland (Toowoomba / Wellcamp hub; 22+ locations Australia)",
+  "job_url": "https://www.wagner.com.au/careers/",
+  "company_url": "https://www.wagner.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "People and Culture Team",
+  "recipient_email": "careers@wagner.com.au",
+  "contact_email": "careers@wagner.com.au",
+  "contact_evidence_url": "https://www.wagner.com.au/careers/",
+  "contact_verified_at": "2026-10-02T20:29:11.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Speculative enquiry: graduate or junior civil and project engineering, Marc Masarate",
+  "email_body": "Hello,\n\nThis is a speculative enquiry, not a reply to a named vacancy. Your careers page invites contact with People and Culture at careers@wagner.com.au, so I am writing about graduate or junior civil and project engineering pathways in your construction materials and project services teams.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design with road, earthworks, pavement and stormwater design in AutoCAD and Civil 3D. I also hold a Bachelor of Science in Civil Engineering (Philippines, 2019). From 2019 to 2020 I worked on site in the Philippines as project-in-charge and field engineer.\n\nI am Melton based, hold a White Card, an Australian driver's licence and own transport, and have full working rights until December 2027 on a Subclass 485 visa. I am available for site, regional and FIFO work. I do not yet have Australian commercial construction employment.\n\nYour project services and engineering solutions work across many Australian locations matches the hands-on civil pathway I want.\n\nI have attached my resume and cover letter. Portfolio: https://macdarenz-droid.github.io/Portfolio.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Speculative enquiry to a target civil construction materials and project-services employer with a published People and Culture careers inbox.",
+   "Marc's site coordination and civil construction design background fits project services / civil construction pathways; QLD locations and FIFO/regional openness help.",
+   "No dated graduate vacancy found this tick; careers page invites contact at careers@wagner.com.au."
+  ],
+  "gaps": [
+   "No Australian commercial construction employment yet",
+   "No named graduate intake advertised on the page today"
+  ],
+  "match_score": {
+   "percent": 68,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Speculative enquiry to a target civil construction materials and project-services employer with a published People and Culture careers inbox.",
+    "Marc's site coordination and civil construction design background fits project services / civil construction pathways; QLD locations and FIFO/regional openness help.",
+    "No dated graduate vacancy found this tick; careers page invites contact at careers@wagner.com.au."
+   ],
+   "caution": "Speculative only; no open graduate civil advert verified on the careers page this tick."
+  },
+  "advert": {
+   "source": "employer_careers",
+   "listed_at": "2026-10-02",
+   "expires_at": "",
+   "verified_at": "2026-10-02T20:29:11.000Z",
+   "apply_instructions": "Email People and Culture at careers@wagner.com.au with resume and cover letter; also watch Search & Apply For Roles.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Confirm this remains a speculative EOI (no Wagners civil graduate vacancy already applied in the last 90 days).",
+   "Send the prepared email to careers@wagner.com.au with both PDFs.",
+   "Do not lodge a second package through another channel in the same week without Marc's say so."
+  ],
+  "notes": "Speculative EOI from employer rotation (Delplant/JK Williams blocked; Hazell degree bar under threshold). Careers page published careers@wagner.com.au for People and Culture contact on 3 Oct 2026 AEST. No advertised matching graduate civil vacancy verified on the employer careers page this tick; labelled speculative.\nPublished careers contact for People and Culture. Page also offers Search & Apply For Roles for dated vacancies. Speculative EOI labelled clearly.\nHOW GROK AI FOUND THIS\nFound on employer_careers (listed 2026-10-02). Contact: the application inbox careers@wagner.com.au published by the employer (https://www.wagner.com.au/careers/); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Speculative enquiry - graduate / junior civil or project engineering (construction materials and project services) role on SEEK.\n• They may ask about: No Australian commercial construction employment yet → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No named graduate intake advertised on the page today → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_careers (listed 2026-10-02). Contact: the application inbox careers@wagner.com.au published by the employer (https://www.wagner.com.au/careers/); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Speculative enquiry - graduate / junior civil or project engineering (construction materials and project services) role on SEEK.",
+   "They may ask about: No Australian commercial construction employment yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No named graduate intake advertised on the page today → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-02T20:29:11.000Z",
+  "duplicate_key": "wagners|wagner.com.au/careers"
+ }
+]

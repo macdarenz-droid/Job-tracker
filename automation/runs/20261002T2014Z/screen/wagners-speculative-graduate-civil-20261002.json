@@ -1,0 +1,30 @@
+{
+ "id": "wagners-speculative-graduate-civil-20261002",
+ "percent": 68,
+ "rationale": [
+  "Speculative enquiry to a target civil construction materials and project-services employer with a published People and Culture careers inbox.",
+  "Marc's site coordination and civil construction design background fits project services / civil construction pathways; QLD locations and FIFO/regional openness help.",
+  "No dated graduate vacancy found this tick; careers page invites contact at careers@wagner.com.au."
+ ],
+ "caution": "Speculative only; no open graduate civil advert verified on the careers page this tick.",
+ "gaps": [
+  "No Australian commercial construction employment yet",
+  "No named graduate intake advertised on the page today"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "EMAIL",
+ "apply_email": "careers@wagner.com.au",
+ "apply_instructions": "Email People and Culture at careers@wagner.com.au with resume and cover letter; also watch Search & Apply For Roles.",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Wagners",
+ "title": "Speculative enquiry - graduate / junior civil or project engineering (construction materials and project services)",
+ "location": "Queensland (Toowoomba / Wellcamp hub; 22+ locations Australia)",
+ "url": "https://www.wagner.com.au/careers/",
+ "listed_at": "2026-10-02",
+ "expires_at": null,
+ "screening_questions": [],
+ "company_work_verified": true,
+ "company_work_evidence": "https://www.wagner.com.au/careers/ and https://www.wagner.com.au/ (construction materials, project services, engineering solutions; ASX-listed; founded Toowoomba 1989; 22+ locations). Verified 2026-10-03 AEST via browse.py."
+}

@@ -1,0 +1,55 @@
+{
+ "candidates": [
+  {
+   "company": "Bornhorst + Ward",
+   "title": "Expressions of Interest - civil, structural, drafting and support",
+   "url": "https://www.bornhorstward.com.au/active-jobs/expressions-of-interest",
+   "seek_id": null,
+   "id": "bornhorst-ward-eoi-civil-structural-20261002",
+   "duplicate": {
+    "blocked": true,
+    "reason": "recent outreach to the same employer (Graduate Engineer - employer-published annual graduate pathway · READY_FOR_JEREMIE · 2026-09-12)",
+    "notes": []
+   }
+  },
+  {
+   "company": "Hazell Bros",
+   "title": "Graduate Program - Engineering (civil stream)",
+   "url": "https://hazellbros.com.au/careers/graduate-programs/",
+   "seek_id": null,
+   "id": "hazell-bros-graduate-program-20261002",
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
+  },
+  {
+   "company": "Northrop Consulting Engineers",
+   "title": "Expression of Interest / Tell Us About You - early career civil",
+   "url": "https://northrop.com.au/careers/",
+   "seek_id": null,
+   "id": "northrop-eoi-talent-community-20261002",
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": [
+     "employer seen before: Trainee Structural Drafter · HELD_ELIGIBILITY_AND_PORTAL · 2026-09-10",
+     "employer seen before: Trainee Civil Drafter · HELD_TRAINEESHIP_ELIGIBILITY · 2026-09-10"
+    ]
+   }
+  },
+  {
+   "company": "Wagners",
+   "title": "Speculative enquiry - graduate / junior civil or project engineering (construction materials and project services)",
+   "url": "https://www.wagner.com.au/careers/",
+   "seek_id": null,
+   "id": "wagners-speculative-graduate-civil-20261002",
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
+  }
+ ]
+}
