@@ -1,0 +1,194 @@
+[
+ {
+  "id": "6b8d4b67-6fb3-42d0-b0cf-ea4606821ce7",
+  "key": "manual:6b8d4b67-6fb3-42d0-b0cf-ea4606821ce7",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261002T0012Z",
+  "created_at": "2026-10-02T00:23:26.000Z",
+  "updated_at": "2026-10-02T00:23:26.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "43b1d955-8fe7-49af-a082-60470ea9e60d",
+    "path": "/api/documents/43b1d955-8fe7-49af-a082-60470ea9e60d",
+    "filename": "Marc_Masarate_Austral_Construction_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-02T00:23:28.631Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "97c1bd52-06dc-46a0-b38b-d58f7cb43906",
+    "path": "/api/documents/97c1bd52-06dc-46a0-b38b-d58f7cb43906",
+    "filename": "Marc_Masarate_Austral_Construction_Engineering_Graduate_Program_Cover_Letter.pdf",
+    "sha256": "b8e62b85feaffdd0f0fb59cf60b64160d0141f7cbccb516014bc015d0501e9d4",
+    "size_bytes": 47689,
+    "kind": "cover",
+    "uploaded_at": "2026-10-02T00:23:27.816Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Austral Construction",
+  "role": "Engineering Graduate Program",
+  "location": "Melbourne (Mulgrave VIC) with FIFO site year",
+  "job_url": "https://australconstruction.com.au/engineering-graduate-program/",
+  "company_url": "https://australconstruction.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Careers / Graduate Program",
+  "recipient_email": "careers@australconstruction.com.au",
+  "contact_email": "careers@australconstruction.com.au",
+  "contact_evidence_url": "https://australconstruction.com.au/engineering-graduate-program/",
+  "contact_verified_at": "2026-10-02T00:23:26.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Engineering Graduate Program application, Marc Darenz Masarate",
+  "email_body": "Hello,\n\nI am applying for the Austral Engineering Graduate Program. Your program page asks interested graduates to contact careers@australconstruction.com.au. My preferred office is Melbourne (Mulgrave).\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019). From 2019 to 2020 I worked on site in the Philippines as field engineer and project-in-charge.\n\nI am Melton based, hold a White Card, an Australian driver's licence and own transport, and have full working rights until December 2027 on a Subclass 485 visa. I am available for office, site, regional and FIFO work.\n\nYour two-year path with an office year in tendering, planning and design then a FIFO site year is the contractor graduate structure I am seeking. I do not yet have Australian construction contractor employment, so I am looking for mentoring on live project delivery.\n\nI have attached my resume and cover letter. Portfolio: https://macdarenz-droid.github.io/Portfolio\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Standing two-year civil/construction graduate program with Mulgrave Melbourne office and published careers@ inbox; Year 2 FIFO matches Marc's FIFO availability.",
+   "BSCE plus Advanced Diploma civil construction design and Philippines field/project-in-charge experience fit office then site graduate structure; Australian driver's licence held.",
+   "Direct employer; asks for full Australian working rights (Subclass 485 until Dec 2027 qualifies) rather than citizenship or PR."
+  ],
+  "gaps": [
+   "No Australian construction contractor employment yet",
+   "Transcript may be requested later"
+  ],
+  "match_score": {
+   "percent": 70,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Standing two-year civil/construction graduate program with Mulgrave Melbourne office and published careers@ inbox; Year 2 FIFO matches Marc's FIFO availability.",
+    "BSCE plus Advanced Diploma civil construction design and Philippines field/project-in-charge experience fit office then site graduate structure; Australian driver's licence held.",
+    "Direct employer; asks for full Australian working rights (Subclass 485 until Dec 2027 qualifies) rather than citizenship or PR."
+   ],
+   "caution": "No dated intake close on the page; Year 2 is FIFO site work. Degree wording centers on university engineering degrees; Advanced Diploma is additional to BSCE."
+  },
+  "advert": {
+   "source": "employer_site",
+   "listed_at": "2026-10-02T00:22:53Z",
+   "expires_at": "2026-11-02T13:59:59Z",
+   "verified_at": "2026-10-02T00:23:26.000Z",
+   "apply_instructions": "Email careers@australconstruction.com.au.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [],
+  "notes": "Victoria offsite rotation. Standing graduate program; Mulgrave office stated as preferred.\nGraduate program page publishes careers@australconstruction.com.au. General enquiries@ is separate; use careers@ for this program.\nHOW GROK AI FOUND THIS\nFound on employer_site (listed 2026-10-02, closes 2026-11-02). Contact: the application inbox careers@australconstruction.com.au published by the employer (https://australconstruction.com.au/engineering-graduate-program/); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Engineering Graduate Program role on SEEK.\n• They may ask about: No Australian construction contractor employment yet → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Transcript may be requested later → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_site (listed 2026-10-02, closes 2026-11-02). Contact: the application inbox careers@australconstruction.com.au published by the employer (https://australconstruction.com.au/engineering-graduate-program/); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Engineering Graduate Program role on SEEK.",
+   "They may ask about: No Australian construction contractor employment yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Transcript may be requested later → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-02T00:23:26.000Z",
+  "duplicate_key": "australconstruction|australconstruction.com.au/engineering-graduate-program"
+ },
+ {
+  "id": "0b597b90-2b69-46f8-b1ea-340016761930",
+  "key": "manual:0b597b90-2b69-46f8-b1ea-340016761930",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261002T0012Z",
+  "created_at": "2026-10-02T00:23:29.000Z",
+  "updated_at": "2026-10-02T00:23:29.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "875bcbfa-3e79-4edb-ad55-5f4f7ecdaeb8",
+    "path": "/api/documents/875bcbfa-3e79-4edb-ad55-5f4f7ecdaeb8",
+    "filename": "Marc_Masarate_Mackenzie_Environmental_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-02T00:23:31.102Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "4691ee81-1ec4-47f9-8964-25b18ba96839",
+    "path": "/api/documents/4691ee81-1ec4-47f9-8964-25b18ba96839",
+    "filename": "Marc_Masarate_Mackenzie_Environmental_Graduate_civil_or_environmental_engineer_Cover_Letter.pdf",
+    "sha256": "70d420ff8922e465529371e94c3908786740b2e8036b334c90e7b280640a73c6",
+    "size_bytes": 48656,
+    "kind": "cover",
+    "uploaded_at": "2026-10-02T00:23:30.290Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Mackenzie Environmental",
+  "role": "Graduate civil or environmental engineer - expression of interest (Kew)",
+  "location": "Kew VIC 3101",
+  "job_url": "https://www.mackenzieenvironmental.com.au/career-opportunities",
+  "company_url": "https://www.mackenzieenvironmental.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Careers / Enquiries inbox",
+  "recipient_email": "enquiries@mackenviro.com.au",
+  "contact_email": "enquiries@mackenviro.com.au",
+  "contact_evidence_url": "https://www.mackenzieenvironmental.com.au/career-opportunities",
+  "contact_verified_at": "2026-10-02T00:23:29.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Graduate civil engineer EOI, Kew, Marc Darenz Masarate",
+  "email_body": "Hello,\n\nI am sending my CV for your graduate recruitment in Kew. Your careers page says you are actively recruiting graduates to start as soon as possible.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019). From 2019 to 2020 I worked on site in the Philippines as field engineer and project-in-charge.\n\nI am Melton based, hold a White Card, an Australian driver's licence and own transport, and have full working rights until December 2027 on a Subclass 485 visa. I am available for office and site work across Melbourne.\n\nYour landfill civil and geoenvironmental work for Victorian councils and operators is the consulting start I am seeking. I do not yet have Australian landfill consulting employment, so I am looking for mentoring on practical design and documentation.\n\nI have attached my resume and cover letter. Portfolio: https://macdarenz-droid.github.io/Portfolio\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Kew civil/geoenvironmental consultancy is actively recruiting graduates to start asap with a published enquiries@ inbox; Melton to Kew is a strong Melbourne-east commute fit.",
+   "Advanced Diploma civil construction design (Civil 3D, AutoCAD, earthworks, stormwater) plus BSCE and Philippines site engineering support landfill civil design and documentation work.",
+   "Direct employer; no citizenship or PR requirement stated on the graduate recruitment line."
+  ],
+  "gaps": [
+   "No Australian landfill or geoenvironmental consulting employment yet",
+   "No named graduate manager on the page"
+  ],
+  "match_score": {
+   "percent": 74,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Kew civil/geoenvironmental consultancy is actively recruiting graduates to start asap with a published enquiries@ inbox; Melton to Kew is a strong Melbourne-east commute fit.",
+    "Advanced Diploma civil construction design (Civil 3D, AutoCAD, earthworks, stormwater) plus BSCE and Philippines site engineering support landfill civil design and documentation work.",
+    "Direct employer; no citizenship or PR requirement stated on the graduate recruitment line."
+   ],
+   "caution": "Standing graduate recruitment rather than a dated vacancy. A separate experienced Civil Designer/Drafter stream on the same page is not this EOI."
+  },
+  "advert": {
+   "source": "employer_site",
+   "listed_at": "2026-10-02T00:22:53Z",
+   "expires_at": "2026-11-02T13:59:59Z",
+   "verified_at": "2026-10-02T00:23:29.000Z",
+   "apply_instructions": "Send CV to enquiries@mackenviro.com.au.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [],
+  "notes": "Victoria offsite rotation. Graduate line on careers page; not the experienced Civil Designer/Drafter stream.\nCareers page publishes enquiries@mackenviro.com.au specifically for graduate CVs. Experienced Civil Designer/Drafter role is a separate stream.\nHOW GROK AI FOUND THIS\nFound on employer_site (listed 2026-10-02, closes 2026-11-02). Contact: the application inbox enquiries@mackenviro.com.au published by the employer (https://www.mackenzieenvironmental.com.au/career-opportunities); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate civil or environmental engineer - expression of interest (Kew) role on SEEK.\n• They may ask about: No Australian landfill or geoenvironmental consulting employment yet → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No named graduate manager on the page → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_site (listed 2026-10-02, closes 2026-11-02). Contact: the application inbox enquiries@mackenviro.com.au published by the employer (https://www.mackenzieenvironmental.com.au/career-opportunities); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate civil or environmental engineer - expression of interest (Kew) role on SEEK.",
+   "They may ask about: No Australian landfill or geoenvironmental consulting employment yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No named graduate manager on the page → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-02T00:23:29.000Z",
+  "duplicate_key": "mackenzieenvironmental|mackenzieenvironmental.com.au/career-opportunities"
+ }
+]

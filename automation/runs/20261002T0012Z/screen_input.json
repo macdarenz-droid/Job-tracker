@@ -1,0 +1,327 @@
+{
+ "count": 1,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "94969508",
+   "company": "GPA Engineering",
+   "title": "Civil/Structural Drafter – ADL",
+   "run": "20261001T0918Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "suited to someone with 3-10 years' experience"
+   ]
+  },
+  {
+   "id": "94961556",
+   "company": "Brunel",
+   "title": "Project Engineer - Civil",
+   "run": "20260930T1316Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "3+ years' experience in civil construction"
+   ]
+  },
+  {
+   "id": "94940114",
+   "company": "NOTAZ International PTY LTD",
+   "title": "Civil engineering draftsperson",
+   "run": "20261001T0918Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "At least 3 years' experience as a Civil engineering draftsperson"
+   ]
+  },
+  {
+   "id": "94939236",
+   "company": "Roesner and Hamilton Consulting Engineers Pty Ltd",
+   "title": "Civil Engineering Draftsperson",
+   "run": "20261001T0918Z",
+   "percent": 32,
+   "mandatory_unmet": [
+    "over 3 years of experience and is qualified in Civil Drafting"
+   ]
+  },
+  {
+   "id": "95001351",
+   "company": "City of Greater Geraldton",
+   "title": "Graduate Engineering Officer",
+   "run": "20261001T0918Z",
+   "percent": 34,
+   "mandatory_unmet": [
+    "City of Greater Geraldton Migration and Visa Requirements: Temporary Residents with a valid Working Visa = No for Permanent Positions (https://www.cgg.wa.gov.au/work/work-with-us/employment/how-to-apply.aspx)"
+   ]
+  },
+  {
+   "id": "94958791",
+   "company": "ADF Careers",
+   "title": "Part-Time Civil Engineer (Tax-Free Pay)",
+   "run": "20261001T1419Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "Be at least 17 at the time of enlistment and an Australian Citizen",
+    "Military training including using a weapon; applying to appoint/enlist in the military"
+   ]
+  },
+  {
+   "id": "94973025",
+   "company": "Optimum Consulting Group",
+   "title": "Civil Engineer",
+   "run": "20260930T1316Z",
+   "percent": 30,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94969016",
+   "company": "QCCS",
+   "title": "Civil Project Engineer",
+   "run": "20260930T1316Z",
+   "percent": 32,
+   "mandatory_unmet": [
+    "Proven experience as a Project Engineer within civil construction"
+   ]
+  },
+  {
+   "id": "94938260",
+   "company": "Strategic Project Delivery",
+   "title": "Civil Design Engineer",
+   "run": "20260930T1316Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "3–8+ years’ experience in civil engineering design"
+   ]
+  },
+  {
+   "id": "94935564",
+   "company": "Queanbeyan-Palerang Regional Council",
+   "title": "Trainee - Civil Construction",
+   "run": "20260930T1316Z",
+   "percent": 35,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94995704",
+   "company": "Xeros Piccolo Consulting Engineers",
+   "title": "Structural/Civil Engineer",
+   "run": "20261001T0918Z",
+   "percent": 18,
+   "mandatory_unmet": [
+    "Five years' experience in designing timber, steel and concrete structures",
+    "Engineers with 5+ years of industry experience"
+   ]
+  },
+  {
+   "id": "94961163",
+   "company": "Brunel",
+   "title": "Project Engineer ",
+   "run": "20260930T1316Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "3+ years' experience in civil construction"
+   ]
+  },
+  {
+   "id": "94958409",
+   "company": "Right Connect",
+   "title": "Structural Drafter",
+   "run": "20260930T1316Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94950957",
+   "company": "Milo Geotechnical",
+   "title": "Civil Engineer",
+   "run": "20260930T1316Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "A minimum of 5 years' engineering experience associated with the road construction industry"
+   ]
+  },
+  {
+   "id": "94956743",
+   "company": "Formstruct",
+   "title": "Estimator  - Civil & NPI",
+   "run": "20260930T1316Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "Min 5 yrs Experience in Similar Role",
+    "Mine Site Experience"
+   ]
+  },
+  {
+   "id": "94936909",
+   "company": "City of Joondalup",
+   "title": "Skilled General Hand - Engineering Construction (Civil)",
+   "run": "20260930T1316Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "WA HR Class Driver’s Licence"
+   ]
+  },
+  {
+   "id": "94931757",
+   "company": "Core Talent",
+   "title": "Site Engineer",
+   "run": "20260930T1819Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Experienced Site Engineer with civil construction background on major infrastructure"
+   ]
+  },
+  {
+   "id": "94999649",
+   "company": "CPB Contractors NSW ACT",
+   "title": "Project Engineer Building & Infrastructure",
+   "run": "20261001T0918Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "5-8 years of experience within building, infrastructure, or major construction projects",
+    "Australian Citizenship or Permanent Residency with the ability to obtain and maintain a Baseline Security Clearance"
+   ]
+  },
+  {
+   "id": "94998155",
+   "company": "City of Newcastle",
+   "title": "Cadet Engineer",
+   "run": "20261001T0918Z",
+   "percent": 58,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94978646",
+   "company": "Smith & Co",
+   "title": "Estimator",
+   "run": "20260930T1819Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "Experience as a Civil Estimator or Senior Estimator"
+   ]
+  },
+  {
+   "id": "94944895",
+   "company": "TTW (NSW) Pty Ltd",
+   "title": "Structural Revit Drafter",
+   "run": "20260930T1819Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95002679",
+   "company": "Sunshine Coast Council",
+   "title": "Design Engineer",
+   "run": "20261001T1419Z",
+   "percent": 52,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94994373",
+   "company": "Tungsten Mining",
+   "title": "Civil Project Engineer",
+   "run": "20261001T1419Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Bachelor's Degree in Civil Engineering with 3 to 7 years' experience in mining, infrastructure or heavy civil projects"
+   ]
+  },
+  {
+   "id": "94991390",
+   "company": "Sunshine Coast Council",
+   "title": "Design Engineer",
+   "run": "20261001T0417Z",
+   "percent": 42,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94987271",
+   "company": "Randstad - Construction, Property & Engineering",
+   "title": "Estimator",
+   "run": "20261001T0417Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Proven experience in civil construction estimating"
+   ]
+  },
+  {
+   "id": "94984460",
+   "company": "CONCRETE SEAL PTY LTD",
+   "title": "Cadet Estimator & Project Coordinator — Commercial Waterproofing",
+   "run": "20260930T2319Z",
+   "percent": 35,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94972758",
+   "company": "Information Quality",
+   "title": "Junior in Engineering Drafting",
+   "run": "20260930T1819Z",
+   "percent": 52,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94958365",
+   "company": "Symal",
+   "title": "Project Engineer",
+   "run": "20260930T1819Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Approximately 3+ years experience in civil construction"
+   ]
+  },
+  {
+   "id": "94940251",
+   "company": "Martin Metal Works Pty Ltd",
+   "title": "Design Draftsperson – Autodesk Inventor",
+   "run": "20260930T1819Z",
+   "percent": 25,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94937680",
+   "company": "CPB Contractors VIC & TAS",
+   "title": "Site Engineer Leakes Road (Engineering)",
+   "run": "20260930T1819Z",
+   "percent": 38,
+   "mandatory_unmet": [
+    "Proven experience as a Site Engineer on construction, infrastructure, or civil projects"
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "id": "95009307",
+   "source": "seek",
+   "title": "Construction Cadet / Junior PM",
+   "company": "The Lorian Group",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/95009307",
+   "work_type": "Full time",
+   "salary": "65-80k plus super",
+   "listed_at": "2026-10-01T21:54:04.888Z",
+   "expires_at": "2026-10-31T20:54:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a Construction Project Coordinator?",
+    "How many years' experience do you have in the construction industry?",
+    "Do you have a current Australian driver's licence?",
+    "What's your expected annual base salary?",
+    "are currently studying or recent graduate of bachelors degree in construction management / QS?",
+    "Have you worked as a CA in main or sub contractor for 12 months or more?"
+   ],
+   "summary": "Currently studying or have recently completed a degree in Construction Management, Quantity Surveying",
+   "opening": "About the Company\nOur client is a growing construction consultancy business delivering a diverse portfolio of projects across the retail, education, commercial and industrial sectors. They have a good reputation locally and are proud of the amount of repeat business they secure based on quality of their work and relationships they are able to develop. As their current cadet moves into more senior role, they are looking to backfill the role with a construction cadet / junior PM\n Role Overview\n Working alongside experienced project professionals, you will assist in the planning, coordination and delivery of projects from early planning stages through to completion. You will gain exposure to a broad range of stakeholders, project types and responsibilities.\n Responsibilities will include supporting project reporting, coordinating consultants and subcontractors, attending project meetings, m",
+   "key_lines": [
+    "Our client is a growing construction consultancy business delivering a diverse portfolio of projects across the retail, education, commercial and industrial sectors. They have a good reputation locally and are proud of the amount of repeat business they secure based on quality of their work and relationships they are able to develop. As their current cadet moves into more senior role, they are looking to backfill the role with a construction cadet / junior PM",
+    "Working alongside experienced project professionals, you will assist in the planning, coordination and delivery of projects from early planning stages through to completion. You will gain exposure to a broad range of stakeholders, project types and responsibilities.",
+    "Desired Skills & Experience",
+    "The ideal candidate will be currently studying or have recently completed a degree in Construction Management or Quantity Surveying and must have some - suggest minimum 12 months working as CA for main contractor or sub contractor business.",
+    "Strong communication and interpersonal skills are essential, along with excellent organisation, attention to detail and a proactive approach to problem solving. Candidates should be motivated to develop their technical knowledge and capable of building effective working relationships with consultants, contractors and clients. A current driver's licence is required.",
+    "This is an opportunity to join a growing business with an excellent reputation and gain exposure to a diverse range of high-quality projects and clients. You will work alongside experienced industry professionals who are committed to providing mentorship, guidance and ongoing professional development.",
+    "The business offers a supportive and collaborative team culture, regular social events and clear opportunities for long-term career progression. You will gain valuable exposure to the full project lifecycle while developing the technical, commercial and stakeholder management skills required for a successful career in the construction industry.",
+    "If you're interested in this role, click 'apply now' to forward an up-to-date copy of your CV, or call us now. If this job isn't quite right for you, but you are looking for a new position, please contact us for a confidential discussion on your career."
+   ]
+  }
+ ]
+}

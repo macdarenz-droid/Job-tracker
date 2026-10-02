@@ -1,0 +1,44 @@
+[
+ {
+  "id": "mackenzie-graduate-eoi-20261002",
+  "source": "employer_site",
+  "company": "Mackenzie Environmental",
+  "title": "Graduate civil or environmental engineer - expression of interest (Kew)",
+  "location": "Kew VIC 3101",
+  "url": "https://www.mackenzieenvironmental.com.au/career-opportunities",
+  "listed_at": "2026-10-02T00:22:53Z",
+  "expires_at": "2026-11-02T13:59:59Z",
+  "content_text": "Mackenzie Environmental career opportunities page (12/79-83 High St Kew VIC 3101). Specialist geoenvironmental / civil engineering consultancy focused on the Victorian landfill industry. We are always on the lookout for outstanding experienced engineers, graduates or engineering students. We are actively recruiting graduates to start asap, so please send your CVs to enquiries@mackenviro.com.au. Separately listed Current Opportunity: Civil Designer/Drafter/3D Modeller for experienced Civil 3D designers on landfill and extractive projects (mentoring juniors); that stream is not this EOI. Phone 03 9006 0125.",
+  "apply_instructions": "Send CV to enquiries@mackenviro.com.au (actively recruiting graduates to start asap).",
+  "screening_questions": [],
+  "is_expired": false,
+  "is_link_out": false,
+  "seek_id": "mackenzie-graduate-eoi-20261002",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ },
+ {
+  "id": "austral-graduate-program-20261002",
+  "source": "employer_site",
+  "company": "Austral Construction",
+  "title": "Engineering Graduate Program",
+  "location": "Melbourne (Mulgrave VIC) with FIFO site year; also Perth, Sydney, Brisbane, Adelaide",
+  "url": "https://australconstruction.com.au/engineering-graduate-program/",
+  "listed_at": "2026-10-02T00:22:53Z",
+  "expires_at": "2026-11-02T13:59:59Z",
+  "content_text": "Austral Construction Engineering Graduate Program page. Austral is an engineering and construction contractor in mining and infrastructure, part of Keller Group plc. Two-year graduate program: Year 1 office-based tendering, planning and design; Year 2 FIFO site-based project delivery. Enrolment in Engineers Australia Graduate Development Program; mentoring; Competency Framework. About you: completed or completing a Civil, Construction, Structural or related Engineering degree; long-term construction career interest; willing to work FIFO; strong communication and teamwork; hold full Australian working rights and a current driver's licence. EOIs from third-year students also welcome. If you are interested in joining the program, please contact careers@australconstruction.com.au. Melbourne Office: Building 1, Level 1.01A, 327-333 Police Road Mulgrave VIC 3170.",
+  "apply_instructions": "Email careers@australconstruction.com.au to join the graduate program.",
+  "screening_questions": [],
+  "is_expired": false,
+  "is_link_out": false,
+  "seek_id": "austral-graduate-program-20261002",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ }
+]
