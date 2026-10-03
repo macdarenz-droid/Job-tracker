@@ -1,0 +1,30 @@
+{
+  "id": "95022688",
+  "percent": 22,
+  "rationale": [
+    "Undergraduate Engineer supporting RSV Nuyina maritime engineering in Hobart.",
+    "Requires current enrolment in an Australian university engineering degree and Australian citizenship for Defence clearance.",
+    "Marc has finished study pathways and is not an Australian citizen, so mandatory eligibility fails."
+  ],
+  "caution": "Australian citizenship mandatory for Defence security clearance.",
+  "gaps": [
+    "Current Australian university enrolment",
+    "Maritime engineering focus"
+  ],
+  "mandatory_unmet": [
+    "Australian citizenship required for Baseline Defence Security Clearance"
+  ],
+  "mandatory_unresolved": [],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": "",
+  "apply_instructions": "Apply via Serco careers; citizenship required.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Serco Asia Pacific",
+  "title": "Undergraduate Engineer",
+  "location": "Hobart TAS",
+  "url": "https://www.seek.com.au/job/95022688",
+  "listed_at": "2026-10-02T05:33:07.394Z",
+  "expires_at": "2026-11-01T12:59:59.999Z",
+  "screening_questions": []
+}

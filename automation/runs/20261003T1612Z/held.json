@@ -1,0 +1,87 @@
+[
+ {
+  "id": "a2675f99-2b2c-472a-9451-e73e591d1308",
+  "key": "manual:a2675f99-2b2c-472a-9451-e73e591d1308",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261003T1612Z",
+  "created_at": "2026-10-03T16:25:02.000Z",
+  "updated_at": "2026-10-03T16:25:02.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Blacktown City Council",
+  "role": "Graduate Project Officer",
+  "location": "Blacktown, Sydney NSW",
+  "job_url": "https://www.seek.com.au/job/95011842",
+  "status": "HELD_MANDATORY_REQUIREMENTS",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMPLOYER_PORTAL",
+  "fit": [
+   "Graduate Project Officer at Blacktown City Council supporting Western Sydney Infrastructure Grant projects, plans, tenders and records.",
+   "Entry graduate level with engineering or construction project management qualification; BSCE plus Advanced Diploma fit the ask.",
+   "Sydney location is interstate but relocation discussion is on record; no citizenship mandate stated in the advert text."
+  ],
+  "gaps": [
+   "Australian citizenship or permanent residency (Prosple/Blacktown graduate hiring criteria)",
+   "No Australian local government employment yet",
+   "Position description not fully scraped for citizenship clause"
+  ],
+  "match_score": {
+   "percent": 74,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Graduate Project Officer at Blacktown City Council supporting Western Sydney Infrastructure Grant projects, plans, tenders and records.",
+    "Entry graduate level with engineering or construction project management qualification; BSCE plus Advanced Diploma fit the ask.",
+    "Sydney location is interstate but relocation discussion is on record; no citizenship mandate stated in the advert text."
+   ],
+   "caution": "Prosple listing for Blacktown Graduate Project Officer requires Australian Citizen or Permanent Resident; Marc holds Subclass 485 only."
+  },
+  "notes": "Held by Grok AI: Australian citizenship or permanent residency (Prosple/Blacktown graduate hiring criteria)",
+  "checked_at": "2026-10-03T16:25:02.000Z",
+  "seek_id": "95011842",
+  "duplicate_key": "blacktowncitycouncil|seek:95011842"
+ },
+ {
+  "id": "a07694f7-5a15-40e4-aec5-6273940f86ac",
+  "key": "manual:a07694f7-5a15-40e4-aec5-6273940f86ac",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261003T1612Z",
+  "created_at": "2026-10-03T16:25:02.000Z",
+  "updated_at": "2026-10-03T16:25:02.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Inner West Council",
+  "role": "Student/Graduate Engineer (Road Access)",
+  "location": "St Peters NSW",
+  "job_url": "https://iwcexternal.applynow.net.au/jobs/IWC17898-student-graduate-engineer-road-access",
+  "status": "HELD_MANDATORY_REQUIREMENTS",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMPLOYER_PORTAL",
+  "fit": [
+   "Student/Graduate Engineer Road Access at Inner West Council assessing permits and protecting road, footpath and stormwater assets.",
+   "Graduate salary band and civil degree requirement fit Marc's BSCE and Advanced Diploma pathway.",
+   "Mandatory Current NSW Class C Driver's Licence is not on record; Marc holds a Victorian licence only."
+  ],
+  "gaps": [
+   "Current NSW Class C Driver's Licence (Marc holds Victorian licence only)",
+   "NSW Class C driver's licence",
+   "No Australian council employment"
+  ],
+  "match_score": {
+   "percent": 72,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Student/Graduate Engineer Road Access at Inner West Council assessing permits and protecting road, footpath and stormwater assets.",
+    "Graduate salary band and civil degree requirement fit Marc's BSCE and Advanced Diploma pathway.",
+    "Mandatory Current NSW Class C Driver's Licence is not on record; Marc holds a Victorian licence only."
+   ],
+   "caution": "Closes 4 Oct 2026 11:30pm Sydney; NSW Class C licence required."
+  },
+  "notes": "Held by Grok AI: Current NSW Class C Driver's Licence (Marc holds Victorian licence only)",
+  "checked_at": "2026-10-03T16:25:02.000Z",
+  "duplicate_key": "innerwestcouncil|iwcexternal.applynow.net.au/jobs/iwc17898-student-graduate-engineer-road-access"
+ }
+]

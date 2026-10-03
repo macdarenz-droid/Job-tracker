@@ -1,0 +1,37 @@
+{
+  "id": "94996176",
+  "percent": 40,
+  "rationale": [
+    "Project Engineer for Complex Co commercial building and civil infrastructure in Canberra ACT.",
+    "Experienced Civil or Structural Engineer ask; screening includes CPEng and NER which Marc does not hold.",
+    "Site and coordination overlap exists but accreditation and experience level fail graduate fit."
+  ],
+  "caution": "Experienced PE; CPEng/NER screening.",
+  "gaps": [
+    "CPEng",
+    "NER",
+    "Australian commercial PE experience"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply via SEEK.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Complex Co.",
+  "title": "Project Engineer",
+  "location": "Mitchell, Canberra ACT",
+  "url": "https://www.seek.com.au/job/94996176",
+  "listed_at": "2026-10-01T05:36:56.537Z",
+  "expires_at": "2026-10-31T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a site engineer?",
+    "Do you have a current Australian driver's licence?",
+    "Do you hold a Construction Induction Safety certificate (White Card)?",
+    "Do you hold a CPEng Accreditation?",
+    "Are you registered with the National Engineering Register (NER)?"
+  ]
+}

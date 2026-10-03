@@ -1,0 +1,614 @@
+{
+ "count": 14,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "95038050",
+   "company": "ABS Civil WA Pty Ltd",
+   "title": "Civil Estimator - Earthworks",
+   "run": "20261003T1118Z",
+   "percent": 38,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95021621",
+   "company": "Ertech Pty Ltd",
+   "title": "Project Engineer (Civil)",
+   "run": "20261003T0114Z",
+   "percent": 59,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94958791",
+   "company": "ADF Careers",
+   "title": "Part-Time Civil Engineer (Tax-Free Pay)",
+   "run": "20261003T0114Z",
+   "percent": 27,
+   "mandatory_unmet": [
+    "Citizenship or PR may be required"
+   ]
+  },
+  {
+   "id": "94995704",
+   "company": "Xeros Piccolo Consulting Engineers",
+   "title": "Structural/Civil Engineer",
+   "run": "20261003T0114Z",
+   "percent": 60,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95021747",
+   "company": "Contec Recruitment Pty Ltd",
+   "title": "Civil Estimator ",
+   "run": "20261003T0114Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94990020",
+   "company": "Gough Recruitment SA",
+   "title": "Civil Estimator",
+   "run": "20261003T0114Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94999649",
+   "company": "CPB Contractors NSW ACT",
+   "title": "Project Engineer Building & Infrastructure",
+   "run": "20261003T0114Z",
+   "percent": 34,
+   "mandatory_unmet": [
+    "Citizenship or PR may be required"
+   ]
+  },
+  {
+   "id": "95036163",
+   "company": "Totem Civil Services group PTY LTD",
+   "title": "Project Engineer/ Site Engineer",
+   "run": "20261003T0114Z",
+   "percent": 59,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95021786",
+   "company": "SCP Consulting Pty Ltd",
+   "title": "Draftsperson",
+   "run": "20261003T0114Z",
+   "percent": 42,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95009307",
+   "company": "The Lorian Group",
+   "title": "Construction Cadet / Junior PM",
+   "run": "20261003T0114Z",
+   "percent": 71,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95002679",
+   "company": "Sunshine Coast Council",
+   "title": "Design Engineer",
+   "run": "20261003T0114Z",
+   "percent": 71,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94994373",
+   "company": "Tungsten Mining",
+   "title": "Civil Project Engineer",
+   "run": "20261003T0114Z",
+   "percent": 73,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94991390",
+   "company": "Sunshine Coast Council",
+   "title": "Design Engineer",
+   "run": "20261003T0114Z",
+   "percent": 71,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94987271",
+   "company": "Randstad - Construction, Property & Engineering",
+   "title": "Estimator",
+   "run": "20261003T0114Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95037323",
+   "company": "Scotford Fennessy Recruitment",
+   "title": "Senoir Structural Drafter - Gold Coast",
+   "run": "20261003T1118Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "10+ years Revit structural drafting experience"
+   ]
+  },
+  {
+   "id": "95028317",
+   "company": "In2work Pty Ltd",
+   "title": "NEW! Project Engineers FIFO and East Coast DTMR Projects!",
+   "run": "20261003T0114Z",
+   "percent": 69,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95020068",
+   "company": "AMT CIVILS",
+   "title": "Project Engineer – Bulk Earthworks | 2:1 Roster | Immediate Start",
+   "run": "20261003T0114Z",
+   "percent": 69,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95016703",
+   "company": "CGC Recruitment",
+   "title": "Site Engineer - Blue Mountains",
+   "run": "20261003T0114Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95001733",
+   "company": "Silver Yachts Australia Pty Ltd",
+   "title": "Fitout/Draftsperson",
+   "run": "20261003T0114Z",
+   "percent": 68,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94994170",
+   "company": "Tognetti Consulting Pty Ltd",
+   "title": "Site Engineer - Central Qld - contract",
+   "run": "20261003T0114Z",
+   "percent": 73,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94990129",
+   "company": "Furn-Niche",
+   "title": "Graduate Estimator",
+   "run": "20261003T0114Z",
+   "percent": 79,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94989946",
+   "company": "CPB Contractors NSW ACT",
+   "title": "Project Engineer (Building, Trades & Works)",
+   "run": "20261003T0114Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Citizenship or PR may be required"
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "id": "95026009",
+   "source": "seek",
+   "title": "Design Engineer",
+   "company": "THE BMD GROUP",
+   "location": "Cecil Park, Sydney NSW",
+   "url": "https://www.seek.com.au/job/95026009",
+   "work_type": "Full time",
+   "salary": "Base + Super Package ",
+   "listed_at": "2026-10-02T07:02:02.057Z",
+   "expires_at": "2026-11-01T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Join BMD's NSW team delivering major Transport NSW, Sydney Water and renewable energy projects as an experienced Design Engineer.",
+   "opening": "About BMD\nBMD is Australia’s leading integrated engineering, construction and urban development business, with foundations built on the family values that underpin our unique, collaborative approach. Driven by a purpose of powering futures and creating enduring legacies through a commitment to collaboration, BMD is delivering infrastructure solutions that connect and transform communities. With a proud history beginning in 1979, BMD now employs 2,400 people throughout Australia, the Philippines and United Kingdom.\nAbout the Role\nWith a strong pipeline of major infrastructure projects across transport, water and renewable energy, we're seeking an experienced Design Engineer to join our growing NSW team. Working alongside our Design Manager and delivery team, you'll play a key role in managing the interface between design and construction, ensuring innovative, cost-effective and buildable ",
+   "key_lines": [
+    "With a strong pipeline of major infrastructure projects across transport, water and renewable energy, we're seeking an experienced Design Engineer to join our growing NSW team. Working alongside our Design Manager and delivery team, you'll play a key role in managing the interface between design and construction, ensuring innovative, cost-effective and buildable solutions are delivered across complex Design & Construct projects. This is an opportunity to influence project outcomes from planning through to delivery while contributing to some of the state's most significant infrastructure projects.",
+    "You bring experience delivering major civil infrastructure projects within Australia and have a passion for finding practical engineering solutions that support successful project outcomes. You'll ideally have experience across one or more of the following sectors:",
+    "- A degree qualification in Civil Engineering or a related discipline",
+    "- Experience working within Design & Construct project environments",
+    "- Experience working on complex infrastructure projects within fast-paced delivery environments"
+   ]
+  },
+  {
+   "id": "95025202",
+   "source": "seek",
+   "title": "Project Engineer",
+   "company": "Civil Road & Rail SX5",
+   "location": "Perth WA",
+   "url": "https://www.seek.com.au/job/95025202",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-02T06:41:50.397Z",
+   "expires_at": "2026-11-01T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Have you completed a qualification in structural engineering?",
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a project engineer?",
+    "Do you have a current Australian driver's licence?",
+    "Do you have a current Rio Tinto induction?"
+   ],
+   "summary": "• Great Salary • Friendly Team •  ",
+   "opening": "SX5 is currently seeking a Project Engineer for a transportable building project (manufacture and installation) in the Pilbara . This role is Perth based during the manufacturing phase with the opportunity to go FIFO after 6 months.\nThe successful applicant must have strong technical abilities and be able to read and interpret drawings and specs. Have relevant experience in earthworks and installation of transportable buildings. Safety is a top priority for both SX5 and the client and we need someone who is safety-focused. The ability to communicate effectively and engage with the client is also crucial for this role\nThe onsite team will consist of approximately 20 personnel, supported by additional on and off site administration and project support. \nEssential Criteria:\n- Engineering Qualification (Structural desired)\n- At least 2 years experience - Project Engineer\n- Experience in eart",
+   "key_lines": [
+    "The successful applicant must have strong technical abilities and be able to read and interpret drawings and specs. Have relevant experience in earthworks and installation of transportable buildings. Safety is a top priority for both SX5 and the client and we need someone who is safety-focused. The ability to communicate effectively and engage with the client is also crucial for this role",
+    "Essential Criteria:",
+    "- Engineering Qualification (Structural desired)",
+    "- At least 2 years experience - Project Engineer",
+    "- Experience in earthworks and Installation of transportable buildings",
+    "- Australian Drivers License",
+    "- Applicants must have full Australian working rights",
+    "Salary will be determined based on experience"
+   ]
+  },
+  {
+   "id": "95024574",
+   "source": "seek",
+   "title": "Project Engineer",
+   "company": "Civil Road & Rail SX5",
+   "location": "Perth WA",
+   "url": "https://www.seek.com.au/job/95024574",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-02T06:25:39.420Z",
+   "expires_at": "2026-11-01T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Have you completed a qualification in structural engineering?",
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a project engineer?",
+    "Do you have a current Australian driver's licence?",
+    "Do you have a current Rio Tinto induction?"
+   ],
+   "summary": "• Great Salary • Friendly Team •  ",
+   "opening": "SX5 is currently seeking a Project Engineer for a transportable building project (manufacture and installation) in the Pilbara - FIFO role.\nThe successful applicant must have strong technical abilities and be able to read and interpret drawings and specs. Have relevant experience in earthworks and installation of transportable buildings. Safety is a top priority for both SX5 and the client and we need someone who is safety-focused. The ability to communicate effectively and engage with the client is also crucial for this role\nThe onsite team will consist of approximately 20 personnel, supported by additional on and off site administration and project support. \nEssential Criteria:\n- Engineering Qualification (Structural desired)\n- At least 2 years experience - Project Engineer\n- Experience in earthworks and Installation of transportable buildings\n- Commitment to safe work practices\n- Aust",
+   "key_lines": [
+    "The successful applicant must have strong technical abilities and be able to read and interpret drawings and specs. Have relevant experience in earthworks and installation of transportable buildings. Safety is a top priority for both SX5 and the client and we need someone who is safety-focused. The ability to communicate effectively and engage with the client is also crucial for this role",
+    "Essential Criteria:",
+    "- Engineering Qualification (Structural desired)",
+    "- At least 2 years experience - Project Engineer",
+    "- Experience in earthworks and Installation of transportable buildings",
+    "- Australian Drivers License",
+    "- Applicants must have full Australian working rights",
+    "Salary will be determined based on experience"
+   ]
+  },
+  {
+   "id": "95023805",
+   "source": "seek",
+   "title": "Junior Designer/Estimator",
+   "company": "GTE Employment Services",
+   "location": "Cranbourne, Melbourne VIC",
+   "url": "https://www.seek.com.au/job/95023805",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-02T06:03:37.606Z",
+   "expires_at": "2026-11-01T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as an Estimator?",
+    "How much notice are you required to give your current employer?",
+    "How many years of graphic design experience do you have?",
+    "Have you completed a qualification in engineering drafting / engineering design?"
+   ],
+   "summary": "This will suit someone with experience in racking design and estimating, or a Graduate/Student Structural Engineer looking to develop their career. \n\n",
+   "opening": "Our client provides Innovative and practical storage and racking solutions to customers across Australia. They work closely with various Stakeholders, sales teams, manufacturers and project partners to deliver solutions that are safe, compliant, cost-effective and tailored to each project.\nThey are seeking a Junior Designer / Estimator to join their team. This role will suit someone with experience in racking design and estimating, or a Graduate/Student Structural Engineer looking to develop their career in the industry.\nAbout the Role\nWorking closely with their National Design Manager, you will help develop practical and cost-effective racking and storage solutions for our customers.\nYour responsibilities will include:\n- Reviewing customer requirements and project information.\n- Preparing racking layouts and designs.\n- Preparing material take-offs and bills of materials.\n- Preparing pro",
+   "key_lines": [
+    "Our client provides Innovative and practical storage and racking solutions to customers across Australia. They work closely with various Stakeholders, sales teams, manufacturers and project partners to deliver solutions that are safe, compliant, cost-effective and tailored to each project.",
+    "They are seeking a Junior Designer / Estimator to join their team. This role will suit someone with experience in racking design and estimating, or a Graduate/Student Structural Engineer looking to develop their career in the industry.",
+    "Working closely with their National Design Manager, you will help develop practical and cost-effective racking and storage solutions for our customers.",
+    "- Reviewing customer requirements and project information.",
+    "- Providing general administration support to the Sales team when required.",
+    "- Has experience in racking design and/or estimating, preferably.",
+    "- Has experience using AutoCAD or similar design software [key essential].",
+    "- Has experience with Cin7 [advantageous but not essential]."
+   ]
+  },
+  {
+   "id": "95023563",
+   "source": "seek",
+   "title": "Project Engineer - FIFO ",
+   "company": "Contec Recruitment Pty Ltd",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/95023563",
+   "work_type": "Full time",
+   "salary": "$160K -$180Kbase+sup(open to speaking contractors)",
+   "listed_at": "2026-10-02T05:56:37.720Z",
+   "expires_at": "2026-11-01T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Work with a contractor that take pride in delivering high-quality projects that respect, value, and meaningfully give back to the smaller communities!",
+   "opening": "- FIFO Civil Engineer – 2:1 Roster \n - Remote infrastructure projects, working with regional councils & DTMR\n - Queensland-owned civil contractor actively expanding its footprint across the region\nOpportunity with a privately Queensland owned civil construction company who work within resources, local authorities and main road projects across QLD and remote areas. They deliver small to medium infrastructure projects such as roads, bridges & structures, drainage and remote civil works. This is a business with an emphasis on providing a long-term career opportunity. Led by a team of highly experienced professionals, the company ensures personal growth and hands-on site-based experience.\nDue to project wins and company growth, this contractor is seeking a FIFO Project Engineer delivering projects ranging between $2M - $10M. You will work closely with the PM and Supervisor, planning the work",
+   "key_lines": [
+    "Opportunity with a privately Queensland owned civil construction company who work within resources, local authorities and main road projects across QLD and remote areas. They deliver small to medium infrastructure projects such as roads, bridges & structures, drainage and remote civil works. This is a business with an emphasis on providing a long-term career opportunity. Led by a team of highly experienced professionals, the company ensures personal growth and hands-on site-based experience.",
+    "Due to project wins and company growth, this contractor is seeking a FIFO Project Engineer delivering projects ranging between $2M - $10M. You will work closely with the PM and Supervisor, planning the works, managing the crews, liaising with the client, ensuring the program is met, costings are accurate and quality assurance is recorded - exposure and responsibilities towards project management. To be successful you must have a minimum of 4 years delivering civil infrastructure, main roads or alike for a civil contractor in similar conditions.",
+    "The successful Engineer must have at least 4 years of main roads - TMR, Council or similar civil infrastructure experience with relevant engineering qualifications. A steady work history going up through the ranks, on site delivering projects that consist of bulk earthworks, roads, structures to the specifications set by governing bodies.",
+    "This role will suit a hard-working professional who enjoys FIFO on 2:1 roster, working for a smaller-tier organisation, with a close-knit team where you will be valued and taken care of. This individual can be based anywhere in QLD and happy to travel!",
+    "If you are feeling lost in a larger organisation, not being valued and compensated for your work, or just ready for a change to mix things up with a smaller, progressive contractor, apply now to find out further information!"
+   ]
+  },
+  {
+   "id": "95022688",
+   "source": "seek",
+   "title": "Undergraduate Engineer",
+   "company": "Serco Asia Pacific",
+   "location": "Hobart TAS",
+   "url": "https://www.seek.com.au/job/95022688",
+   "work_type": "Full time",
+   "salary": "Attractive veteran and community benefits ",
+   "listed_at": "2026-10-02T05:33:07.394Z",
+   "expires_at": "2026-11-01T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Build your engineering career supporting the ASRV Icebreaker and gain practical experience across a unique maritime capability.",
+   "opening": "Serco is a place where you can grow\nJoin a team of professionals across Asia Pacific and experience a place of challenge, opportunity and reward.\nWe offer benefits designed to support you as you develop your engineering career, including:\n- Flexible work arrangements supporting a real work-life balance\n- Ongoing professional development and training support\n- Access to employee wellbeing and assistance programs\n- Career opportunities within a multinational services company\n- Employee Networks supporting diversity and inclusion\n- Meaningful work supporting Australia's maritime capability\nMake an Impact\nIf you're studying engineering or naval architecture and want to start applying what you're learning to a real maritime environment, this is an opportunity to build practical experience while completing your degree.\nAs an Undergraduate Engineer supporting the RSV Nuyina, you'll work alongsi",
+   "key_lines": [
+    "Join a team of professionals across Asia Pacific and experience a place of challenge, opportunity and reward.",
+    "If you're studying engineering or naval architecture and want to start applying what you're learning to a real maritime environment, this is an opportunity to build practical experience while completing your degree.",
+    "As an Undergraduate Engineer supporting the RSV Nuyina, you'll work alongside experienced engineers, technical specialists and project teams while developing your understanding of professional engineering delivery. You'll gain practical exposure to engineering standards, safety, risk, design and compliance while building the technical skills and judgement that will support your future career.",
+    "- Apply engineering standards, processes and compliance requirements",
+    "- Learn from experienced technical specialists and engineering professionals",
+    "You'll be studying engineering or naval architecture and ready to gain practical experience in a maritime environment. You'll bring curiosity, initiative and a willingness to learn from experienced engineers and technical specialists, with university projects, placements or practical engineering experience highly regarded. Most importantly, you'll be motivated to develop your technical capability and build a career in engineering.",
+    "- Current enrolment at a recognised Australian university in an Engineering or Naval Architecture degree",
+    "• As this role requires an Australian Defence Security Clearance, applicants must be Australian Citizens and eligible to obtain and maintain that clearance. If successful, Serco will manage and sponsor the clearance process."
+   ]
+  },
+  {
+   "id": "95016530",
+   "source": "seek",
+   "title": "BIM Engineer",
+   "company": "Gamuda Engineering Pty Ltd",
+   "location": "Sydney NSW",
+   "url": "https://www.seek.com.au/job/95016530",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-02T02:47:20.200Z",
+   "expires_at": "2026-11-01T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Gamuda Australia is seeking a BIM Engineer to join the project team delivering the Parramatta Integrated Station Development (ISD) in Sydney.",
+   "opening": "Gamuda Australia is seeking an experienced BIM Engineer to join the project team delivering the Parramatta Integrated Station Development (ISD) in Sydney.\nThis is an exciting opportunity to work on a major multidisciplinary project incorporating significant building, services, infrastructure and station interfaces.\nWorking closely with the BIM, Digital Engineering, Design, Engineering and Construction teams, you will play an important role in ensuring BIM and digital engineering processes are effectively implemented and support the successful delivery of the project.\nAbout the Role\nAs a BIM Engineer, you will support the implementation and coordination of BIM and digital engineering processes across the project. You will work with designers, consultants, engineers, subcontractors and construction teams to develop, coordinate and maintain accurate digital models and project information.\nK",
+   "key_lines": [
+    "Gamuda Australia is seeking an experienced BIM Engineer to join the project team delivering the Parramatta Integrated Station Development (ISD) in Sydney.",
+    "Working closely with the BIM, Digital Engineering, Design, Engineering and Construction teams, you will play an important role in ensuring BIM and digital engineering processes are effectively implemented and support the successful delivery of the project.",
+    "- Work closely with Design Managers, Engineers, Services teams and Construction Managers.",
+    "- Assist with BIM Execution Plans, project BIM standards and digital engineering requirements.",
+    "- Manage BIM deliverables and model information in accordance with project requirements.",
+    "- Ensure BIM models and project information comply with relevant project standards and requirements.",
+    "- Support consultants, designers and subcontractors with BIM requirements and coordination.",
+    "We are looking for a BIM professional with experience working on large-scale building, infrastructure or multidisciplinary construction projects.",
+    "- A degree, diploma or relevant qualification in Engineering, Construction, Architecture, Building Services, Digital Engineering or a related discipline.",
+    "- Experience working in a BIM, Digital Engineering or design coordination role within a construction or engineering environment.",
+    "- Experience working with multidisciplinary BIM models.",
+    "- Experience coordinating architectural, structural, civil and MEP models.",
+    "- Experience with clash detection, model reviews and design coordination.",
+    "- Experience working with BIM Execution Plans, project BIM standards and digital engineering requirements."
+   ]
+  },
+  {
+   "id": "95012996",
+   "source": "seek",
+   "title": "Engineer: Technical Solutions",
+   "company": "Sarens (Australia) Pty Ltd",
+   "location": "Hendra, Brisbane QLD",
+   "url": "https://www.seek.com.au/job/95012996",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-02T01:03:58.800Z",
+   "expires_at": "2026-11-01T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How much notice are you required to give your current employer?",
+    "Have you worked in a role which requires a sound understanding of as/NZ 5369 Standards?",
+    "How many years experience in Mining Exploration do you have?"
+   ],
+   "summary": "You'll turn complex lifting and transport challenges into safe, practical, and buildable plans.",
+   "opening": "About Sarens\nSarens is a global leader in crane rental, heavy lifting, and engineered transport. Our work sits behind some of the biggest projects in mining, energy, wind, infrastructure, and construction. Our philosophy is simple: nothing too heavy, nothing too high. In Oceania, we support projects across Australia, Papua New Guinea, and New Caledonia from our bases in Maddington, WA and Hendra, QLD.\nAbout the role\nReporting to the Technical Solutions and Engineering Manager, you'll turn complex lifting and transport challenges into safe, practical, and buildable plans. You'll work closely with our operations crews, project teams, and clients, and you'll see your engineering carried out on site.\nWhat you'll do\n- Prepare lift and rigging engineering, including lift plans, rigging designs, and crane selection\n- Engineer transport routes for oversize and heavy loads\n- Carry out structural ",
+   "key_lines": [
+    "Reporting to the Technical Solutions and Engineering Manager, you'll turn complex lifting and transport challenges into safe, practical, and buildable plans. You'll work closely with our operations crews, project teams, and clients, and you'll see your engineering carried out on site.",
+    "- A degree in Civil, Structural, or Mechanical Engineering",
+    "- 3+ years' experience in heavy lift, cranage, rigging, transport, or temporary works engineering",
+    "- Experience with lift planning, CAD, and structural analysis software",
+    "- Full Australian working rights and a current driver's licence",
+    "- Experience in wind, mining, or energy projects",
+    "Ready to apply?",
+    "Click Apply and send us your resume and a short cover letter telling us about a lift or engineering challenge you're proud of. Only candidates with full Australian working rights will be considered."
+   ]
+  },
+  {
+   "id": "95011842",
+   "source": "seek",
+   "title": "Graduate Project Officer",
+   "company": "Blacktown City Council",
+   "location": "Blacktown, Sydney NSW",
+   "url": "https://www.seek.com.au/job/95011842",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-02T00:21:17.946Z",
+   "expires_at": "2026-10-18T13:29:59.000Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Help deliver transformative projects while building the skills, experience and relationships for a rewarding career.",
+   "opening": "Design the future of a growing city\nOur Project Management and Design teams turn vision into reality, delivering the infrastructure and public spaces that shape how people live, move and connect. This is work with scale and impact, supported by a collaborative culture, professional growth opportunities and the stability to build both your career and your legacy.\nAs a Graduate Project Officer, you help deliver Council’s Western Sydney Infrastructure Grant Program and other transformational projects that support the growth of Blacktown City. You work closely with project managers, consultants, contractors and Council teams to coordinate projects from planning through to delivery. Your work includes preparing project plans and budgets, managing tender and RFQ processes, supporting contract administration, maintaining project registers and records, and preparing reports, briefs and correspon",
+   "key_lines": [
+    "As a Graduate Project Officer, you help deliver Council’s Western Sydney Infrastructure Grant Program and other transformational projects that support the growth of Blacktown City. You work closely with project managers, consultants, contractors and Council teams to coordinate projects from planning through to delivery. Your work includes preparing project plans and budgets, managing tender and RFQ processes, supporting contract administration, maintaining project registers and records, and preparing reports, briefs and correspondence for Council and senior stakeholders.",
+    "You monitor project progress, identify risks, resolve issues and help keep projects on track, within budget and aligned with project objectives. You contribute to audits, business cases, capital works reviews and governance requirements while building strong relationships across Council and with external partners. Every project you support helps deliver infrastructure, facilities and workplace improvements that benefit employees and the community.",
+    "At Blacktown City, every project has a purpose. Our varied project portfolio gives you the opportunity to build practical project management skills, learn from experienced professionals and gain exposure to complex projects that leave a lasting impact across the city. Flexible working arrangements, a supportive team environment and the stability of local government provide the foundation for a rewarding career.",
+    "This role suits a motivated graduate with qualifications in construction project management, engineering or a related field. If you enjoy solving problems, working with different stakeholders, managing competing priorities and seeing projects progress from concept to completion, you will thrive in this role.",
+    "- a term contract, full-time role for up to 2 years and 9 months with one of Australia's largest councils",
+    "Internal ref: Term contract - 2 years and 9 months"
+   ]
+  },
+  {
+   "id": "95009439",
+   "source": "seek",
+   "title": "Engineer - Water and Wastewater Design",
+   "company": "TWEED SHIRE COUNCIL",
+   "location": "Tweed Heads, Lismore & Far North Coast NSW",
+   "url": "https://www.seek.com.au/job/95009439",
+   "work_type": "Full time",
+   "salary": "Salary: $102,118 up to $117,528 p/a + 12% super",
+   "listed_at": "2026-10-01T22:12:43.913Z",
+   "expires_at": "2026-11-01T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Design essential water and wastewater infrastructure that keeps communities thriving while building your engineering career with a skilled team.",
+   "opening": "Work alongside experienced engineering professionals to support the planning, construction and management of vital community infrastructure projects, spanning roads, water, sewer, drainage and flood management.\n In this role, you will provide support to Senior Engineers, Coordinators and Managers in a diverse range of Planning, Policy, Design, Construction, Contact Management, Project Management, and Operations areas relating to water supply and sewerage services.\n The Engineer - Water and Wastewater Design is a professional position with experience and knowledge in the fields of hydraulic, water supply and sewerage conveyancing.\n About the role:\n - Work across a variety of units and sections within the Engineering Division, gaining broad exposure to local government engineering functions.\n - Participate in rotational opportunities across the Division, providing valuable experience and s",
+   "key_lines": [
+    "Work alongside experienced engineering professionals to support the planning, construction and management of vital community infrastructure projects, spanning roads, water, sewer, drainage and flood management.",
+    "The Engineer - Water and Wastewater Design is a professional position with experience and knowledge in the fields of hydraulic, water supply and sewerage conveyancing.",
+    "- Participate in rotational opportunities across the Division, providing valuable experience and supporting career development within Council.",
+    "- Take part in ongoing performance, training and development activities, with opportunities to undertake higher duties as required.",
+    "- A qualified Civil Engineer with a Bachelor of Civil Engineering (or a related discipline) and eligibility for membership of Engineers Australia, or equivalent technical experience and expertise.",
+    "- Experience supporting the design and delivery of engineering infrastructure projects.",
+    "Position closes:"
+   ]
+  },
+  {
+   "id": "95008378",
+   "source": "seek",
+   "title": "Project Engineer",
+   "company": "Downer EDI Limited",
+   "location": "Campbellfield, Melbourne VIC",
+   "url": "https://www.seek.com.au/job/95008378",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-01T19:56:53.175Z",
+   "expires_at": "2026-10-31T19:56:50.000Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Join Downer as a Project Engineer delivering asphalt works on Victoria's largest transport infrastructure project.",
+   "opening": "We are seeking an Asphalt Project Engineer to join our team and focus of the delivery of the North East Link Project, Victoria's largest transport infrastructure project.\nAt Downer we plan, create and sustain. Downer is the leading provider of integrated services in Australia and New Zealand. Through trusted relationships and world leading insight we work closely with our customers to design, build and sustain assets, infrastructure, and facilities. \nProject Engineer\nThe Opportunity\nWe are seeking an Asphalt Project Engineer to join our team and focus of the delivery of the North East Link Project, Victoria's largest transport infrastructure project.\nThis is a fantastic opportunity to play a key role in the successful delivery of complex civil and asphalt construction works while working alongside some of the industry's most experienced professionals. You'll take ownership of project out",
+   "key_lines": [
+    "At Downer we plan, create and sustain. Downer is the leading provider of integrated services in Australia and New Zealand. Through trusted relationships and world leading insight we work closely with our customers to design, build and sustain assets, infrastructure, and facilities.",
+    "This is a fantastic opportunity to play a key role in the successful delivery of complex civil and asphalt construction works while working alongside some of the industry's most experienced professionals. You'll take ownership of project outcomes, drive performance across safety, quality, programme and cost.",
+    "- A degree qualification in Civil Engineering or a related discipline",
+    "- Proven experience delivering civil construction, asphalt, surfacing or infrastructure projects",
+    "- Strong commercial acumen with experience managing project budgets, forecasts and cost control",
+    "This is your opportunity to work on a career-defining infrastructure project while building your engineering capabilities within a supportive and experienced team.",
+    "Ready to help deliver one of Victoria's most important infrastructure projects? Apply now and join the Downer team.",
+    "Apply now with your resume and a brief cover letter. For more information, contact Amy Isgar at TIrecruitmentAU@downergroup.com",
+    "At Downer, we value the diverse experiences, talents and cultures of our people and are committed to creating an inclusive workplace where everyone can thrive."
+   ]
+  },
+  {
+   "id": "95001916",
+   "source": "seek",
+   "title": "Project Engineer",
+   "company": "City of Subiaco",
+   "location": "Subiaco, Perth WA",
+   "url": "https://www.seek.com.au/job/95001916",
+   "work_type": "Full time",
+   "salary": "$126,477.00 - $135,088.20 per annum",
+   "listed_at": "2026-10-01T08:46:07.729Z",
+   "expires_at": "2026-10-31T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "The City of Subiaco is recruiting a Project Engineer to join the Engineering Services branch on a permanent full-time basis",
+   "opening": "The City of Subiaco is going through a transformation with significant change and evolution in terms of residential options, the commercial sector, retail, entertainment, leisure and recreation. Navigating this change in partnership with the community, businesses and stakeholders, whilst also celebrating Subiaco’s heritage, history and culture is an exciting challenge. \nAbout the Role \nThe City of Subiaco is recruiting a Project Engineer to join the Engineering Services branch on a permanent full-time basis. This role sits in the Engineering Services branch and will assist with the design and delivery of civil engineering projects and capital works.\nThe key responsibilities of this role include:\n•    Assist the Principal Engineer with the design and delivery of engineering projects/capital works program.\n•    Monitor and ensure all projects are completed on time, on budget and to the spe",
+   "key_lines": [
+    "The City of Subiaco is going through a transformation with significant change and evolution in terms of residential options, the commercial sector, retail, entertainment, leisure and recreation. Navigating this change in partnership with the community, businesses and stakeholders, whilst also celebrating Subiaco’s heritage, history and culture is an exciting challenge.",
+    "•    Providing a high standard of customer service to the city’s residents to keep them abreast of project scope and timelines, including addressing their concerns during planning and execution stages.",
+    "•    Support the Asset Management team in updating the infrastructure inventory and condition ratings for various assets as required.",
+    "•    Any other duties as required.",
+    "Essential Requirements",
+    "•    Tertiary qualification in engineering or equivalent qualification with the eligibility for membership to the Institute of Engineers of Australia",
+    "•    Extensive experience in Project Management in Local Government industry or in the similar field.",
+    "•    Demonstrated skills and experience in Contracts Management and Civil Engineering design.",
+    "•    Comprehensive skills and knowledge in Road construction industry including Drainage and Buildings and relevant statutory requirements.",
+    "•    Advanced computer literacy skills and experience in the effective usage of project management module preferably Microsoft projects.",
+    "•    Demonstrated experience in supervising and managing consultants/contractors.",
+    "•    Experience and knowledge of the Occupational Health and safety Act and standards relevant to Local Government Industry.",
+    "To apply for this position, please click apply and follow the prompts to submit your application. You will be asked to upload a CV and cover letter to support your application.",
+    "To be considered for the role, it is essential that you demonstrate in your application how you meet the essential requirements. You should ensure that the information you provide in your application is relevant to the job role and is a true and accurate reflection of your experience and skill set."
+   ]
+  },
+  {
+   "id": "94996176",
+   "source": "seek",
+   "title": "Project Engineer",
+   "company": "Complex Co.",
+   "location": "Mitchell, Canberra ACT",
+   "url": "https://www.seek.com.au/job/94996176",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-01T05:36:56.537Z",
+   "expires_at": "2026-10-31T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a site engineer?",
+    "Do you have a current Australian driver's licence?",
+    "Do you hold a Construction Induction Safety certificate (White Card)?",
+    "Do you hold a CPEng Accreditation?",
+    "Are you registered with the National Engineering Register (NER)?"
+   ],
+   "summary": "Offering a wide variety of complex engineering projects, competitive salary package and ongoing professional development.",
+   "opening": "About Us\nFor more than 60 years, Complex Co. has been known for delivering award winning construction projects across the built environment.\nOur skillful execution of quality projects is an expression of our personal and professional commitment to connecting and enhancing communities.\nThis is an exciting opportunity for an experienced Civil or Structural Engineer who wants to be part of an established and respected contractor with a strong future pipeline, a collaborative culture, and a reputation for excellence.\nAt Complex Co., we don't just construct buildings and infrastructure. We create places that support communities, businesses and future growth.\nOur teams are delivering complex, technically challenging work across multiple sectors. From large-scale commercial developments through to critical civil infrastructure, we continue to build on a legacy of quality, safety and innovation ",
+   "key_lines": [
+    "For more than 60 years, Complex Co. has been known for delivering award winning construction projects across the built environment.",
+    "This is an exciting opportunity for an experienced Civil or Structural Engineer who wants to be part of an established and respected contractor with a strong future pipeline, a collaborative culture, and a reputation for excellence.",
+    "As our Project Engineer, you will play a pivotal role in planning, coordinating and delivering projects from commencement through to completion. You will work closely with project teams, subcontractors, consultants and clients to ensure projects are delivered safely, efficiently, on budget and to the highest quality standards",
+    "- Mentor and support Site Engineers and junior project staff",
+    "- A Bachelor's Degree in Civil Engineering, Structural Engineering or a related discipline.",
+    "- Experience delivering commercial building, structural or civil infrastructure projects.",
+    "Requirements",
+    "- Current Australian driver's licence",
+    "- Must have Australian work rights at the time of application",
+    "To Apply",
+    "Click Apply Now or send your CV and a brief cover letter outlining your experience to:"
+   ]
+  },
+  {
+   "id": "94994386",
+   "source": "seek",
+   "title": "Graduate Engineer",
+   "company": "Global Group",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/94994386",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-01T04:25:32.000Z",
+   "expires_at": "2026-10-31T04:25:00.000Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Are you a Graduate Engineer looking for more than just a desk-based graduate role?\nGlobal Group is looking for a Brisbane-based Graduate Engineer...",
+   "opening": "Permanent - Full Time\n Brisbane\n Are you a Graduate Engineer looking for more than just a desk-based graduate role?\nGlobal Group is looking for a Brisbane-based Graduate Engineer to join our project team, supporting the estimating, planning and delivery of oil & gas construction projects.\nThis is an opportunity to build strong commercial and technical foundations at the front end of projects, while working closely with the people who deliver them in the field. As your experience grows, so will your exposure including opportunities to spend time on site and progress into Site Engineer and Project Engineer pathways.\n What you’ll be doing\nWorking alongside experienced project and construction professionals, you’ll gain hands-on exposure across the project lifecycle, including:\n - Preparing project estimates, durations and resource requirements\n - Assisting with project planning and construc",
+   "key_lines": [
+    "Are you a Graduate Engineer looking for more than just a desk-based graduate role?",
+    "Global Group is looking for a Brisbane-based Graduate Engineer to join our project team, supporting the estimating, planning and delivery of oil & gas construction projects.",
+    "This is an opportunity to build strong commercial and technical foundations at the front end of projects, while working closely with the people who deliver them in the field. As your experience grows, so will your exposure including opportunities to spend time on site and progress into Site Engineer and Project Engineer pathways.",
+    "Working alongside experienced project and construction professionals, you’ll gain hands-on exposure across the project lifecycle, including:",
+    "- Preparing project estimates, durations and resource requirements",
+    "- Working with site teams to understand scope, constructability and execution requirements",
+    "- A Bachelor’s degree in Civil or Mechanical Engineering",
+    "- Graduate to approximately 1–2 years’ relevant experience",
+    "- A current driver’s licence and Australian working rights",
+    "Previous exposure to estimating, scheduling, construction, pipelines or P6 would be highly regarded, but isn’t essential. We’re equally interested in graduates with the right attitude and willingness to learn.",
+    "You’ll join a growing business where your graduate role can genuinely evolve with you. You’ll work closely with experienced project professionals, gain exposure to real projects from the front end through to execution, and have opportunities to build site experience as you develop.",
+    "If you’re based in Brisbane and ready to turn your engineering degree into a career in project delivery, we’d love to hear from you. Apply now!"
+   ]
+  }
+ ]
+}

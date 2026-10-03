@@ -1,0 +1,36 @@
+{
+  "id": "95024574",
+  "percent": 40,
+  "rationale": [
+    "FIFO Project Engineer variant of the same SX5 Pilbara transportable building role.",
+    "Same essential 2 years PE and transportable install criteria; structural qualification desired.",
+    "FIFO availability is on record but experience gap remains decisive."
+  ],
+  "caution": "Duplicate SX5 posting with same essential criteria.",
+  "gaps": [
+    "2 years project engineer experience",
+    "Transportable building experience"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [
+    "At least 2 years experience as Project Engineer (essential)"
+  ],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply via SEEK.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Civil Road & Rail SX5",
+  "title": "Project Engineer",
+  "location": "Perth WA",
+  "url": "https://www.seek.com.au/job/95024574",
+  "listed_at": "2026-10-02T06:25:39.420Z",
+  "expires_at": "2026-11-01T12:59:59.999Z",
+  "screening_questions": [
+    "Have you completed a qualification in structural engineering?",
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a project engineer?",
+    "Do you have a current Australian driver's licence?",
+    "Do you have a current Rio Tinto induction?"
+  ]
+}

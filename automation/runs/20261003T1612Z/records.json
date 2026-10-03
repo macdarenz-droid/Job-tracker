@@ -1,0 +1,205 @@
+[
+ {
+  "id": "bdc3e198-9923-4093-ac1d-ea8ec2f17928",
+  "key": "manual:bdc3e198-9923-4093-ac1d-ea8ec2f17928",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261003T1612Z",
+  "created_at": "2026-10-03T16:24:50.000Z",
+  "updated_at": "2026-10-03T16:24:50.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "d0928729-1d53-45b6-ac3f-7293d56b1424",
+    "path": "/api/documents/d0928729-1d53-45b6-ac3f-7293d56b1424",
+    "filename": "Marc_Masarate_Global_Group_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-03T16:24:52.547Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "68a57cc6-d630-41e5-a873-75cab0e90dd1",
+    "path": "/api/documents/68a57cc6-d630-41e5-a873-75cab0e90dd1",
+    "filename": "Marc_Masarate_Global_Group_Graduate_Engineer_Cover_Letter.pdf",
+    "sha256": "e42bcff46ecdb7235161afe446aef9189bb9b67a4448339062a37cc21edf2303",
+    "size_bytes": 46744,
+    "kind": "cover",
+    "uploaded_at": "2026-10-03T16:24:51.359Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Global Group",
+  "role": "Graduate Engineer",
+  "location": "Brisbane QLD",
+  "job_url": "https://www.seek.com.au/job/94994386",
+  "company_url": "https://globalec.com.au/",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://globalec.com.au/contact-us/",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Application: Graduate Engineer, Global Group Brisbane, Marc Masarate",
+  "email_body": "Hello,\n\nI am applying via SEEK for the Graduate Engineer role with Global Group in Brisbane, supporting estimating, planning and delivery of oil and gas construction projects.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design with road, earthworks, pavement and stormwater design in AutoCAD and Civil 3D. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019). From 2019 to 2020 I worked on site there as project in charge and field engineer.\n\nI am Melton based, hold a White Card, an Australian driver's licence and own transport, and have full working rights until December 2027 on a Subclass 485 visa. I am open to discussing relocation to Brisbane. I have not worked on oil and gas or pipeline projects yet, so I would learn that sector on the job under your project team.\n\nYour advert describes a graduate path from estimating and planning into site and project engineer roles, which is the development path I want.\n\nI have attached my resume and cover letter. Portfolio: https://macdarenz-droid.github.io/Portfolio.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Graduate Engineer in Brisbane supporting estimating, planning and delivery of oil and gas construction projects with site pathway.",
+   "Bachelor in Civil Engineering and graduate to 1 to 2 years fits Marc BSCE 2019 plus Advanced Diploma finished February 2026.",
+   "Honest limit: no oil and gas or pipeline employment yet; driver's licence and working rights are on record."
+  ],
+  "gaps": [
+   "Oil and gas construction exposure",
+   "Primavera P6",
+   "No Australian site employment yet"
+  ],
+  "match_score": {
+   "percent": 71,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Graduate Engineer in Brisbane supporting estimating, planning and delivery of oil and gas construction projects with site pathway.",
+    "Bachelor in Civil Engineering and graduate to 1 to 2 years fits Marc BSCE 2019 plus Advanced Diploma finished February 2026.",
+    "Honest limit: no oil and gas or pipeline employment yet; driver's licence and working rights are on record."
+   ],
+   "caution": "Oil and gas sector is new to Marc; Brisbane based."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-01T04:25:32.000Z",
+   "expires_at": "2026-10-31T04:25:00.000Z",
+   "verified_at": "2026-10-03T16:15:03.000Z",
+   "apply_instructions": "Apply via SEEK to Global Group Brisbane graduate engineer role.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Open https://www.seek.com.au/job/94994386 and confirm the Graduate Engineer advert is still live.",
+   "Apply via SEEK with Marc's resume PDF and the cover letter PDF from this run.",
+   "Answer any SEEK questions using facts.json only; leave salary, start date and notice for Marc if asked.",
+   "Save the SEEK confirmation email or screenshot into the tracker notes when Marc or Jeremie completes apply.",
+   "Do not email enquiries@globalec.com.au for this vacancy; careers page points to the job board."
+  ],
+  "notes": "Direct employer SEEK vacancy. No published applications inbox. Oil and gas sector is new to Marc; honest limit stated in letter.\nDo not email enquiries@ for this SEEK vacancy; careers page points applicants to the job board and talent pool form. Apply via SEEK.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-01, closes 2026-10-31). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate Engineer role on SEEK.\n• They may ask about: Oil and gas construction exposure → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Primavera P6 → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian site employment yet → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-01, closes 2026-10-31). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate Engineer role on SEEK.",
+   "They may ask about: Oil and gas construction exposure → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Primavera P6 → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian site employment yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-03T16:24:50.000Z",
+  "seek_id": "94994386",
+  "duplicate_key": "globalgroup|seek:94994386"
+ },
+ {
+  "id": "af2ee157-2943-484e-b0f6-0c50f3ec840b",
+  "key": "manual:af2ee157-2943-484e-b0f6-0c50f3ec840b",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261003T1612Z",
+  "created_at": "2026-10-03T16:24:53.000Z",
+  "updated_at": "2026-10-03T16:24:53.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "6b4470b6-2a05-47d2-8e0a-e1afe00f4704",
+    "path": "/api/documents/6b4470b6-2a05-47d2-8e0a-e1afe00f4704",
+    "filename": "Marc_Masarate_DTM_Geocivil_Consulting_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-03T16:24:55.968Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "e370bf89-143d-4b5d-afa9-def5fded0dc6",
+    "path": "/api/documents/e370bf89-143d-4b5d-afa9-def5fded0dc6",
+    "filename": "Marc_Masarate_DTM_Geocivil_Consulting_Graduate_civil_engineer_or_civil_design__Cover_Letter.pdf",
+    "sha256": "0424676b54c150d8717a6ceee5bc323419fd131a024c3929edbdd9a47bbd6771",
+    "size_bytes": 48214,
+    "kind": "cover",
+    "uploaded_at": "2026-10-03T16:24:54.754Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "DTM Geocivil Consulting",
+  "role": "Graduate civil engineer or civil design support - expression of interest (Clayton)",
+  "location": "Clayton VIC",
+  "job_url": "https://dtmgeocivil.com.au/career.html",
+  "company_url": "https://dtmgeocivil.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Careers / Enquiries",
+  "recipient_email": "info@dtmgeocivil.com.au",
+  "contact_email": "info@dtmgeocivil.com.au",
+  "contact_evidence_url": "https://dtmgeocivil.com.au/career.html",
+  "contact_verified_at": "2026-10-03T16:24:53.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Graduate civil engineer EOI, Clayton, Marc Masarate",
+  "email_body": "Hello,\n\nThis is a speculative enquiry, not a reply to a named vacancy. Your careers page says you have no open positions right now and invites future opportunity CVs to info@dtmgeocivil.com.au, so I am writing about graduate civil engineering or civil design support with your Clayton team.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design with road, earthworks, pavement and stormwater design in AutoCAD and Civil 3D. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019). From 2019 to 2020 I worked on site there as project in charge and field engineer.\n\nI am Melton based, hold a White Card, an Australian driver's licence and own transport, and have full working rights until December 2027 on a Subclass 485 visa. I am available for office and site work across Melbourne. I do not yet have Australian consulting employment, so mentoring on pavement and civil design support is what I am looking for.\n\nDTM Geocivil focuses on geotechnical investigation, pavement and hardstand design, testing and civil engineering services for Melbourne clients.\n\nI have attached my resume and cover letter. Portfolio: https://macdarenz-droid.github.io/Portfolio.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Clayton VIC geotechnical and civil consultancy publishes info@dtmgeocivil.com.au for future opportunity CVs when no roles are open.",
+   "Pavement design, hardstands and civil engineering services overlap Advanced Diploma earthworks and pavement coursework.",
+   "Speculative only; Melton to Clayton is a practical Melbourne commute; honest limit is no Australian consulting employment yet."
+  ],
+  "gaps": [
+   "No dated vacancy",
+   "No Australian consulting employment",
+   "Limited commercial geotech testing experience"
+  ],
+  "match_score": {
+   "percent": 70,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Clayton VIC geotechnical and civil consultancy publishes info@dtmgeocivil.com.au for future opportunity CVs when no roles are open.",
+    "Pavement design, hardstands and civil engineering services overlap Advanced Diploma earthworks and pavement coursework.",
+    "Speculative only; Melton to Clayton is a practical Melbourne commute; honest limit is no Australian consulting employment yet."
+   ],
+   "caution": "Speculative; firm is small and geotech-heavy; no dated vacancy."
+  },
+  "advert": {
+   "source": "dtmgeocivil.com.au/career",
+   "listed_at": "2026-10-03",
+   "expires_at": "",
+   "verified_at": "2026-10-03T16:24:53.000Z",
+   "apply_instructions": "Email CV for future opportunities to info@dtmgeocivil.com.au as published on https://dtmgeocivil.com.au/career.html (no open positions listed).",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [],
+  "notes": "SPECULATIVE_ENQUIRY. No advertised vacancy verified on careers page 2026-10-03. info@dtmgeocivil.com.au published for future opportunity CVs.\nPublished future-opportunity CV inbox. No open positions on careers page on 2026-10-03.\nHOW GROK AI FOUND THIS\nFound on dtmgeocivil.com.au/career (listed 2026-10-03). Contact: the application inbox info@dtmgeocivil.com.au published by the employer (https://dtmgeocivil.com.au/career.html); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate civil engineer or civil design support - expression of interest (Clayton) role on SEEK.\n• They may ask about: No dated vacancy → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian consulting employment → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Limited commercial geotech testing experience → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on dtmgeocivil.com.au/career (listed 2026-10-03). Contact: the application inbox info@dtmgeocivil.com.au published by the employer (https://dtmgeocivil.com.au/career.html); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate civil engineer or civil design support - expression of interest (Clayton) role on SEEK.",
+   "They may ask about: No dated vacancy → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian consulting employment → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Limited commercial geotech testing experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-03T16:24:53.000Z",
+  "duplicate_key": "dtmgeocivilconsulting|dtmgeocivil.com.au/career.html"
+ }
+]

@@ -86,3 +86,6 @@
 {"run_id": "20261003T1118Z", "at": "2026-10-03T11:30:32.000Z", "stage": "discover", "rotation": "victoria_offsite", "widen": "daterange_7_then_14_max80", "seek_new_unscreened": 1, "extras_new": 2, "extras_dup_osborn": 1}
 {"run_id": "20261003T1118Z", "at": "2026-10-03T11:31:40.000Z", "stage": "send", "send_skipped": "no_gmail_send_tool", "reason": "user-Gmail has create_draft only; leave PREPARED_NOT_SENT"}
 {"run_id": "20261003T1118Z", "at": "2026-10-03T11:31:40.000Z", "stage": "end", "new": 2, "prepared": 1, "ready": 1, "held": 0, "sent": 0, "duplicates": 0, "nothing_new": false, "rotation": "victoria_offsite", "widen": "daterange_7_14_max80"}
+{"run_id": "20261003T1612Z", "at": "2026-10-03T16:12:31.000Z", "stage": "start"}
+{"run_id": "20261003T1612Z", "at": "2026-10-03T16:13:33.000Z", "stage": "start"}
+{"run_id": "20261003T1612Z", "at": "2026-10-03T16:25:16.000Z", "stage": "end", "new": 3, "prepared": 1, "ready": 1, "held": 1, "sent": 0, "duplicates": 0, "nothing_new": false, "widening": "daterange3+7+14;councils_government;BawBaw_expired;DTM_speculative;Gmail_send_skipped_no_tool", "prior_outreach_added": 0}

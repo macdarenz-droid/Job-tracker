@@ -1,0 +1,42 @@
+{
+  "seek_id": "94994386",
+  "company": "Global Group",
+  "role": "Graduate Engineer",
+  "location": "Brisbane QLD",
+  "job_url": "https://www.seek.com.au/job/94994386",
+  "company_url": "https://globalec.com.au/",
+  "route": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_evidence_url": "https://globalec.com.au/contact-us/",
+  "subject": "Application: Graduate Engineer, Global Group Brisbane, Marc Masarate",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_method": "SEEK",
+  "email_body": "Hello,\n\nI am applying via SEEK for the Graduate Engineer role with Global Group in Brisbane, supporting estimating, planning and delivery of oil and gas construction projects.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design with road, earthworks, pavement and stormwater design in AutoCAD and Civil 3D. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019). From 2019 to 2020 I worked on site there as project in charge and field engineer.\n\nI am Melton based, hold a White Card, an Australian driver's licence and own transport, and have full working rights until December 2027 on a Subclass 485 visa. I am open to discussing relocation to Brisbane. I have not worked on oil and gas or pipeline projects yet, so I would learn that sector on the job under your project team.\n\nYour advert describes a graduate path from estimating and planning into site and project engineer roles, which is the development path I want.\n\nI have attached my resume and cover letter. Portfolio: https://macdarenz-droid.github.io/Portfolio.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "letter": {
+    "recipient_name": "",
+    "recipient_role": "Hiring team",
+    "company": "Global Group",
+    "company_line": "Brisbane QLD",
+    "subject": "Application: Graduate Engineer",
+    "greeting": "Hello,",
+    "closing": "Kind regards,",
+    "paragraphs": [
+      "I am applying for the Graduate Engineer role advertised on SEEK for Global Group in Brisbane. Your listing offers estimating, planning and delivery support on oil and gas construction, with a pathway into site and project engineer work.",
+      "In February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute of Business and Language. Coursework covered road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D, with Australian Standards, Austroads guides, Before You Dig Australia enquiries, cost estimates and bills of quantities. In 2019 I completed a Bachelor of Science in Civil Engineering at Divine Word College of Legazpi in the Philippines.",
+      "From April 2019 to February 2020 I worked on site in the Philippines. As project in charge on a community hall renovation I coordinated 10 to 15 workers a day, reviewed drawings and carried out inspections, safety checks and quality monitoring. As a field engineer on residential subdivision finishing works I assisted with inspections, procurement tracking and progress reports.",
+      "I live in Melton Victoria, hold a White Card and an Australian driver's licence with own transport, and have full working rights to December 2027 on a Subclass 485 visa. I am open to discussing relocation to Brisbane. I have not yet worked on oil and gas, pipelines or Primavera P6 on a job, so those would be new learning with your team.",
+      "I have attached my resume. I would like to contribute to front end estimating and planning while building toward site engineering. Portfolio: https://macdarenz-droid.github.io/Portfolio."
+    ]
+  },
+  "screening_answers": [],
+  "checklist": [
+    "Open https://www.seek.com.au/job/94994386 and confirm the Graduate Engineer advert is still live.",
+    "Apply via SEEK with Marc's resume PDF and the cover letter PDF from this run.",
+    "Answer any SEEK questions using facts.json only; leave salary, start date and notice for Marc if asked.",
+    "Save the SEEK confirmation email or screenshot into the tracker notes when Marc or Jeremie completes apply.",
+    "Do not email enquiries@globalec.com.au for this vacancy; careers page points to the job board."
+  ],
+  "notes": "Direct employer SEEK vacancy. No published applications inbox. Oil and gas sector is new to Marc; honest limit stated in letter."
+}
