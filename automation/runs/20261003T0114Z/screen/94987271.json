@@ -1,0 +1,25 @@
+{
+ "id": "94987271",
+ "percent": 65,
+ "rationale": [
+  "Mid-level civil title; possible stretch without commercial AU years.",
+  "Strong civil design/site/documentation overlap with facts.json.",
+  "Scored from advert text vs facts.json only."
+ ],
+ "caution": "Recruitment agency listing.",
+ "gaps": [],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK: https://www.seek.com.au/job/94987271",
+ "open": true,
+ "employer_is_agency": true,
+ "company": "Randstad - Construction, Property & Engineering",
+ "title": "Estimator",
+ "location": "Murray Bridge, Riverland & Murray Mallee SA",
+ "url": "https://www.seek.com.au/job/94987271",
+ "listed_at": "2026-10-01T01:07:29.286Z",
+ "expires_at": "2026-10-31T01:07:27.000Z",
+ "screening_questions": []
+}

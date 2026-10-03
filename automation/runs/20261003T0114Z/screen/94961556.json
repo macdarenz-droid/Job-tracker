@@ -1,0 +1,27 @@
+{
+ "id": "94961556",
+ "percent": 55,
+ "rationale": [
+  "Mid-level civil title; possible stretch without commercial AU years.",
+  "Strong civil design/site/documentation overlap with facts.json.",
+  "QLD/FIFO acceptable per availability."
+ ],
+ "caution": "Experience bar may be high. Recruitment agency listing.",
+ "gaps": [
+  "Years of experience likely above Marc profile"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK: https://www.seek.com.au/job/94961556",
+ "open": true,
+ "employer_is_agency": true,
+ "company": "Brunel",
+ "title": "Project Engineer - Civil",
+ "location": "Brisbane QLD",
+ "url": "https://www.seek.com.au/job/94961556",
+ "listed_at": "2026-09-30T01:30:52.783Z",
+ "expires_at": "2026-10-30T01:30:50.000Z",
+ "screening_questions": []
+}

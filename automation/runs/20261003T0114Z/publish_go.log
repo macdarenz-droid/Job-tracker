@@ -1,0 +1,35 @@
+{
+ "built": [
+  [
+   "29fc63dd-9e53-44a6-9b14-032400fdfac6",
+   "CONCRETE SEAL PTY LTD",
+   "Cadet Estimator & Project Coordinator — Commercial Waterproofing",
+   "READY_JEREMIE_SEEK"
+  ],
+  [
+   "5680150f-8a72-418b-944c-6dfcb6549cc7",
+   "Whitehorse City Council",
+   "Asset Engineer",
+   "READY_JEREMIE_EMPLOYER_PORTAL"
+  ],
+  [
+   "0b9c7f9b-8e60-4450-a7d4-a751efb15c21",
+   "Cascada",
+   "AutoCAD Draftsperson - Reinforced Concrete",
+   "READY_JEREMIE_SEEK"
+  ]
+ ],
+ "rejected": [],
+ "tracker": {
+  "version": 54,
+  "updated_at": "2026-10-03T01:23:07.306Z",
+  "result": {
+   "added": [
+    "29fc63dd-9e53-44a6-9b14-032400fdfac6",
+    "5680150f-8a72-418b-944c-6dfcb6549cc7",
+    "0b9c7f9b-8e60-4450-a7d4-a751efb15c21"
+   ],
+   "skipped": []
+  }
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "id": "94995704",
+ "percent": 60,
+ "rationale": [
+  "Some civil overlap.",
+  "Australia-wide / interstate; relocation discussable.",
+  "Scored from advert text vs facts.json only."
+ ],
+ "caution": "Experience bar may be high.",
+ "gaps": [
+  "Years of experience likely above Marc profile"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK: https://www.seek.com.au/job/94995704",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Xeros Piccolo Consulting Engineers",
+ "title": "Structural/Civil Engineer",
+ "location": "Wagga Wagga, Wagga Wagga & Riverina NSW",
+ "url": "https://www.seek.com.au/job/94995704",
+ "listed_at": "2026-10-01T05:19:12.522Z",
+ "expires_at": "2026-10-31T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following types of infrastructure project do you have experience with?",
+  "Which of the following statements best describes your right to work in Australia?",
+  "Do you have design engineering experience in the construction industry?",
+  "How many years' experience do you have as a structural engineer?",
+  "Have you completed a qualification in structural engineering?",
+  "Are you willing to relocate for this role?",
+  "How would you rate your English language skills?",
+  "How many years' experience do you have in a consulting role?"
+ ]
+}

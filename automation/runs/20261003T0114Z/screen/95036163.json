@@ -1,0 +1,36 @@
+{
+ "id": "95036163",
+ "percent": 59,
+ "rationale": [
+  "Mid-level civil title; possible stretch without commercial AU years.",
+  "Some civil overlap.",
+  "Scored from advert text vs facts.json only."
+ ],
+ "caution": "Experience bar may be high.",
+ "gaps": [
+  "Years of experience likely above Marc profile"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK: https://www.seek.com.au/job/95036163",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Totem Civil Services group PTY LTD",
+ "title": "Project Engineer/ Site Engineer",
+ "location": "Perth WA",
+ "url": "https://www.seek.com.au/job/95036163",
+ "listed_at": "2026-10-02T23:25:24.649Z",
+ "expires_at": "2026-11-02T12:59:59.999Z",
+ "screening_questions": [
+  "Have you completed a qualification in civil engineering?",
+  "How many years of project management experience do you have?",
+  "How many years' experience do you have in a procurement role?",
+  "Which of the following statements best describes your right to work in Australia?",
+  "How many years' experience do you have as a project engineer?",
+  "Have you worked in a role which requires a sound understanding of OH&S/WHS?",
+  "Do you have experience in a role which requires relationship management experience?",
+  "Do you have experience preparing and submitting tenders?"
+ ]
+}

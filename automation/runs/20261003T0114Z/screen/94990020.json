@@ -1,0 +1,25 @@
+{
+ "id": "94990020",
+ "percent": 65,
+ "rationale": [
+  "Mid-level civil title; possible stretch without commercial AU years.",
+  "Strong civil design/site/documentation overlap with facts.json.",
+  "Scored from advert text vs facts.json only."
+ ],
+ "caution": "Recruitment agency listing.",
+ "gaps": [],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK: https://www.seek.com.au/job/94990020",
+ "open": true,
+ "employer_is_agency": true,
+ "company": "Gough Recruitment SA",
+ "title": "Civil Estimator",
+ "location": "Murray Bridge, Riverland & Murray Mallee SA",
+ "url": "https://www.seek.com.au/job/94990020",
+ "listed_at": "2026-10-01T02:30:32.519Z",
+ "expires_at": "2026-10-31T02:00:00.000Z",
+ "screening_questions": []
+}

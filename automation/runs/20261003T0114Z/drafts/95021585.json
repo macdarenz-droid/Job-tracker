@@ -1,0 +1,55 @@
+{
+ "seek_id": "95021585",
+ "company": "Cascada",
+ "role": "AutoCAD Draftsperson - Reinforced Concrete",
+ "location": "Malaga, Perth WA",
+ "job_url": "https://www.seek.com.au/job/95021585",
+ "company_url": "https://www.cascadagroup.com.au/",
+ "route": "SEEK",
+ "recipient_name": "",
+ "recipient_role": "",
+ "recipient_email": "",
+ "contact_evidence_url": "https://www.cascadagroup.com.au/contact/",
+ "subject": "Application: AutoCAD Draftsperson, Cascada Malaga, Marc Masarate",
+ "application_type": "ADVERTISED_VACANCY",
+ "application_method": "SEEK",
+ "email_body": "Hello,\n\nI am applying via SEEK for the AutoCAD Draftsperson role with Cascada in Malaga, listed on 2 October 2026.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design with road, earthworks, pavement and stormwater design in AutoCAD and Civil 3D. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019). From 2019 to 2020 I worked on site there as project-in-charge and field engineer.\n\nI am Melton based, hold a White Card, an Australian driver's licence and own transport, and have full working rights until December 2027 on a Subclass 485 visa. I am open to discussing relocation to Perth for the right drafting role. I do not yet have Australian drafting employment, so I would learn your precast product standards and reinforcement detailing on the job.\n\nYour advert welcomes a recent graduate for accurate construction and shop drawings on civil and mining supply work, which matches the documentation path I want.\n\nI have attached my resume and cover letter. Portfolio: https://macdarenz-droid.github.io/Portfolio.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+ "letter": {
+  "recipient_name": "",
+  "recipient_role": "Hiring team",
+  "company": "Cascada",
+  "company_line": "Malaga, Perth WA",
+  "subject": "Application: AutoCAD Draftsperson",
+  "greeting": "Hello,",
+  "closing": "Kind regards,",
+  "paragraphs": [
+   "I am applying for the AutoCAD Draftsperson role advertised on SEEK for Cascada in Malaga. Your listing welcomes a recent graduate or experienced drafter to produce construction drawings, shop drawings and schematics for precast products used on Western Australian civil and mining projects.",
+   "In February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute. The course covered road geometry, earthworks, pavement and stormwater drainage, with drawings prepared in AutoCAD and Civil 3D against Australian Standards. I also hold a Bachelor of Science in Civil Engineering from Divine Word College of Legazpi in the Philippines (2014 to 2019).",
+   "From April 2019 to February 2020 I worked on site in the Philippines as Project-in-Charge Engineer and Field Engineer on a community hall renovation and residential subdivision finishing works. That work involved drawing review, inspections, coordination of daily labour and progress records.",
+   "I live in Melton Victoria, hold a White Card and an Australian driver's licence with own transport, and have full working rights to December 2027 on a Subclass 485 visa. I am open to discussing relocation to Perth. I have not yet held an Australian drafting job, and reinforcement detailing for precast would be new learning under your team.",
+   "I have attached my resume. I would welcome the chance to produce accurate CAD drawings for Cascada's standard and bespoke products. Portfolio: https://macdarenz-droid.github.io/Portfolio."
+  ]
+ },
+ "screening_answers": [
+  {
+   "question": "How many years' experience do you have as an AutoCAD Draftsperson?",
+   "answer": "Diploma design projects in AutoCAD and Civil 3D through the Advanced Diploma of Civil Construction Design (completed February 2026). No separate commercial AutoCAD employment years in Australia yet."
+  },
+  {
+   "question": "Which of the following statements best describes your right to work in Australia?",
+   "answer": "Full working rights until December 2027 on a Subclass 485 visa."
+  },
+  {
+   "question": "Do you have a current Australian driver's licence?",
+   "answer": "Yes. Victorian Australian driver's licence and own reliable transport."
+  }
+ ],
+ "checklist": [
+  "Open SEEK job 95021585 and confirm still listed.",
+  "Upload resume PDF and cover letter PDF.",
+  "Answer screening: AutoCAD experience = diploma projects; work rights = 485 to Dec 2027; licence = Yes Victorian.",
+  "Submit application; save SEEK receipt.",
+  "Update tracker to MANUAL_APPLIED when Marc or Jeremie confirms submit."
+ ],
+ "notes": "READY_JEREMIE_SEEK pack. Do not email sales@cascada.com.au."
+}

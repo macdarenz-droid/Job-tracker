@@ -226,7 +226,7 @@
   "Diona": {
    "careers_url": "https://www.livehire.com/careers/dionaptyltd/job/FKQN4/SXI2MWAGZX/graduate-engineer",
    "checked_at": "2026-10-02",
-   "notes": "Graduate Engineer Brisbane LiveHire URL returned 404 this tick; Site/Project Engineer ads require 2–5 years",
+   "notes": "Graduate Engineer Brisbane LiveHire URL returned 404 this tick; Site/Project Engineer ads require 2\u20135 years",
    "open_junior_roles": []
   },
   "Abergeldie": {
@@ -238,7 +238,7 @@
   "Daracon": {
    "careers_url": "https://daracon.com.au/careers/tertiary-pathway",
    "checked_at": "2026-10-02",
-   "notes": "Cadet pathway page only (labourer→cadet→graduate while studying); no dated open graduate vacancy verified",
+   "notes": "Cadet pathway page only (labourer\u2192cadet\u2192graduate while studying); no dated open graduate vacancy verified",
    "open_junior_roles": []
   },
   "Ertech": {
@@ -289,6 +289,30 @@
    "careers_url": "https://www.shadcivil.com.au/current-opportunities",
    "last_checked": "2026-10-03",
    "notes": "Undergrad Fraser Coast while studying; skipped"
+  },
+  "Whitehorse City Council": {
+   "careers_url": "https://www.whitehorse.vic.gov.au/about-whitehorse/administration/jobs/job-opportunities",
+   "checked_at": "2026-10-03",
+   "open_junior_roles": [
+    {
+     "title": "Asset Engineer",
+     "url": "https://www.seek.com.au/job/95013854",
+     "apply": "Council portal / SEEK link-out; closes ~18 Oct 2026 per advert text"
+    }
+   ],
+   "notes": "councils_government rotation 20261003T0114Z: Asset Engineer SEEK 95013854 prepared READY_JEREMIE_EMPLOYER_PORTAL."
+  },
+  "Cascada": {
+   "careers_url": "https://www.cascadagroup.com.au/contact/",
+   "checked_at": "2026-10-03",
+   "open_junior_roles": [
+    {
+     "title": "AutoCAD Draftsperson - Reinforced Concrete",
+     "url": "https://www.seek.com.au/job/95021585",
+     "apply": "SEEK only; sales@ is sales inbox"
+    }
+   ],
+   "notes": "SEEK 95021585 prepared READY_JEREMIE_SEEK this tick."
   }
  },
  "sweep_log": [
@@ -416,7 +440,7 @@
     {
      "name": "Diona",
      "url": "https://www.livehire.com/careers/dionaptyltd/job/FKQN4/SXI2MWAGZX/graduate-engineer",
-     "result": "Graduate Engineer Brisbane LiveHire URL returned 404 this tick; Site/Project Engineer ads require 2–5 years"
+     "result": "Graduate Engineer Brisbane LiveHire URL returned 404 this tick; Site/Project Engineer ads require 2\u20135 years"
     },
     {
      "name": "Abergeldie",
@@ -426,7 +450,7 @@
     {
      "name": "Daracon",
      "url": "https://daracon.com.au/careers/tertiary-pathway",
-     "result": "Cadet pathway page only (labourer→cadet→graduate while studying); no dated open graduate vacancy verified"
+     "result": "Cadet pathway page only (labourer\u2192cadet\u2192graduate while studying); no dated open graduate vacancy verified"
     },
     {
      "name": "Ertech",

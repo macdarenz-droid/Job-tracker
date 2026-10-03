@@ -1,0 +1,33 @@
+{
+ "id": "94969016",
+ "percent": 73,
+ "rationale": [
+  "Mid-level civil title; possible stretch without commercial AU years.",
+  "Some civil overlap.",
+  "QLD/FIFO acceptable per availability."
+ ],
+ "caution": "",
+ "gaps": [],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK: https://www.seek.com.au/job/94969016",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "QCCS",
+ "title": "Civil Project Engineer",
+ "location": "Mackay, Mackay & Coalfields QLD",
+ "url": "https://www.seek.com.au/job/94969016",
+ "listed_at": "2026-09-30T04:48:41.320Z",
+ "expires_at": "2026-10-30T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "How many years' experience do you have as a Civil Project Engineer?",
+  "Do you have experience working on civil infrastructure projects?",
+  "Have you completed a qualification in civil engineering?",
+  "Are you willing to relocate for this role?",
+  "Do you have Construction Trade experience?",
+  "Do you have a current Australian driver's licence?"
+ ]
+}

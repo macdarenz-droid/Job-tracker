@@ -1,734 +1,734 @@
 {
-  "_about": "Applications Marc made himself, taken from SEEK receipt emails ('Your application was successfully submitted') in Gmail. tracker.py check blocks a new record for the same employer within repeat_block_days and notes older ones. Refresh each tick when Gmail is attached (search: from:noreply@s.seek.com.au subject:\"successfully submitted\" newer_than:100d); thread previews show only the oldest five messages per thread, so a Gmail search for the employer name before any send is still required. Also lists applications Marc emailed himself (Gmail Sent, 100 days), checked 29 Sep 2026.",
-  "updated_at": "2026-10-02T20:14:38Z",
-  "entries": [
-    {
-      "date": "2026-09-26",
-      "company": "Canberra Metro Operations Pty Ltd",
-      "role": "Graduate Engineer - Full Time",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "1a0decacb1ed0bf2"
-    },
-    {
-      "date": "2026-09-26",
-      "company": "Civille Pty Ltd",
-      "role": "Graduate Civil/Structural or Civil/Environmental engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "1a0ded0a93b836c4"
-    },
-    {
-      "date": "2026-09-26",
-      "company": "Commercial Project Group Pty Ltd",
-      "role": "Site Engineer/ Junior Project Manager",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "1a0dbca28e3a2371"
-    },
-    {
-      "date": "2026-09-26",
-      "company": "Melbourne Construct Solutions Pty Ltd",
-      "role": "Junior Project Coordinator",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "1a0dd1685935c360"
-    },
-    {
-      "date": "2026-09-26",
-      "company": "NTC Contracting",
-      "role": "Project Coordinator / Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "1a0dca449684eb80"
-    },
-    {
-      "date": "2026-09-20",
-      "company": "Convil Group Pty Ltd",
-      "role": "Graduate Civil Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "1a0bc508ffd32f66"
-    },
-    {
-      "date": "2026-09-20",
-      "company": "Kantershow Civil",
-      "role": "Junior graduate civil engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "1a0bc45f61380f69"
-    },
-    {
-      "date": "2026-09-17",
-      "company": "Delplant Pty Ltd",
-      "role": "Graduate Site Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "1a0af193649bb7c0"
-    },
-    {
-      "date": "2026-09-17",
-      "company": "Wire Industries Pty Ltd",
-      "role": "Graduate/Cadet - Reinforcing Steel",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "1a0af07e15bac03d"
-    },
-    {
-      "date": "2026-09-12",
-      "company": "Lantrak Management Pty Ltd",
-      "role": "Junior Project Engineer/Administrator",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "1a093a2edb90a05a"
-    },
-    {
-      "date": "2026-09-09",
-      "company": "APS Industrial Services",
-      "role": "Graduate Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "1a08611c4379889e"
-    },
-    {
-      "date": "2026-09-09",
-      "company": "Rocktown Pty Ltd",
-      "role": "Graduate / Junior Site Engineers \u2013 T2D Project & Precast Facility",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "1a08633cb73494f9"
-    },
-    {
-      "date": "2026-09-09",
-      "company": "Rokon Pty Ltd",
-      "role": "Graduate Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "1a08645cfb50b343"
-    },
-    {
-      "date": "2026-09-06",
-      "company": "Ground Technique",
-      "role": "Graduate/Jnr Civil Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "1a0749ab0ec8606d"
-    },
-    {
-      "date": "2026-08-07",
-      "company": "Beveridge Williams & Co Pty Ltd",
-      "role": "Civil Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fdcde19ddfa067"
-    },
-    {
-      "date": "2026-08-07",
-      "company": "KLF CONTRACTS PTY LTD",
-      "role": "Graduate Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fdcd0fcab52be9"
-    },
-    {
-      "date": "2026-08-07",
-      "company": "L+R Consulting",
-      "role": "Civil Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fdce00fa9a1f34"
-    },
-    {
-      "date": "2026-08-07",
-      "company": "Maw Civil Pty Ltd",
-      "role": "Site Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fdcd3e6030fc1a"
-    },
-    {
-      "date": "2026-08-07",
-      "company": "SmartX",
-      "role": "Civil Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fdcdb29a5aa501"
-    },
-    {
-      "date": "2026-08-06",
-      "company": "MBL Maintenance Pty Ltd",
-      "role": "Graduate Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fd76058c46b7f9"
-    },
-    {
-      "date": "2026-08-06",
-      "company": "Plan Group",
-      "role": "Graduate Program",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fd76c6e2b89628"
-    },
-    {
-      "date": "2026-08-06",
-      "company": "Proforce",
-      "role": "Graduate Project Coordinator Position - VIC",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fd772c80ea7a41"
-    },
-    {
-      "date": "2026-08-06",
-      "company": "SSA Group",
-      "role": "Civil Design Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fd76f92c4e0f93"
-    },
-    {
-      "date": "2026-08-05",
-      "company": "Forefront Recruitment",
-      "role": "Site Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fd2441e0f065a9"
-    },
-    {
-      "date": "2026-08-05",
-      "company": "Fortec Australia Pty Ltd",
-      "role": "Junior Civil Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fd25310d003d93"
-    },
-    {
-      "date": "2026-08-05",
-      "company": "JC Civil Projects Pty Ltd",
-      "role": "FIFO Civil Project Engineers \u2013 Multiple Levels",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fd24ee902c2c79"
-    },
-    {
-      "date": "2026-08-05",
-      "company": "JVSPD PTY LTD",
-      "role": "Civil Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fd256fb07e2e1e"
-    },
-    {
-      "date": "2026-08-05",
-      "company": "Vikavas Mataji P/L",
-      "role": "Civil Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fd250cf67b1e2b"
-    },
-    {
-      "date": "2026-08-05",
-      "company": "JS Structures",
-      "role": "email application to admin@jsstructures.com.au",
-      "source": "Gmail sent (Marc)",
-      "gmail_message_id": "19fd234e8d4e8d35"
-    },
-    {
-      "date": "2026-08-04",
-      "company": "Road Construction Group Pty Ltd",
-      "role": "Site/Project Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fccd7583b74418"
-    },
-    {
-      "date": "2026-08-01",
-      "company": "Intrax Consulting Group",
-      "role": "Civil Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fbbfbf79ad6a6e"
-    },
-    {
-      "date": "2026-08-01",
-      "company": "Leroy Palmer Consulting Engineers Pty Ltd",
-      "role": "Civil Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fbbf17edb13a23"
-    },
-    {
-      "date": "2026-08-01",
-      "company": "Riddwood Consulting Engineers Pty Ltd",
-      "role": "Junior Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fbbe505855aa99"
-    },
-    {
-      "date": "2026-08-01",
-      "company": "Rodgers Consulting Services",
-      "role": "Civil Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fbbf7cf436dd50"
-    },
-    {
-      "date": "2026-08-01",
-      "company": "UBY Australia Pty Ltd",
-      "role": "Graduate/Apprentice Surveyor - Monitoring",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fbbd9c1e85327d"
-    },
-    {
-      "date": "2026-07-31",
-      "company": "Exceed Concrete Construction",
-      "role": "Graduate Civil Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fb8b47aa4ccf56"
-    },
-    {
-      "date": "2026-07-31",
-      "company": "South Burnett Regional Council",
-      "role": "Graduate Engineer Design",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fb8c016ebee9c2"
-    },
-    {
-      "date": "2026-07-31",
-      "company": "Strategy One Human Resources",
-      "role": "Graduate Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fb8b17087a7f61"
-    },
-    {
-      "date": "2026-07-31",
-      "company": "Vassallo Constructions Pty Ltd",
-      "role": "Graduate Civil Engineer | Mackay",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fb8b90b14375ab"
-    },
-    {
-      "date": "2026-07-30",
-      "company": "Bell Resource Services Australia PTY LTD",
-      "role": "Project Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fb367058072c76"
-    },
-    {
-      "date": "2026-07-30",
-      "company": "Harrison Barratt Group",
-      "role": "Site & Project Engineers - Civil Construction",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fb35d060d600d9"
-    },
-    {
-      "date": "2026-07-30",
-      "company": "Offaly Civil Engineering Pty Ltd",
-      "role": "Graduate Civil Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fb34613c7bfd61"
-    },
-    {
-      "date": "2026-07-28",
-      "company": "AusPress Systems Pty Ltd",
-      "role": "Graduate Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fa8e7b70ef5c79"
-    },
-    {
-      "date": "2026-07-28",
-      "company": "Brown Contractors",
-      "role": "Graduate Civil Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fa8e0a72bc8ffd"
-    },
-    {
-      "date": "2026-07-27",
-      "company": "Abbott Contracting Pty Ltd",
-      "role": "Civil Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fa40d1fb1a17c3"
-    },
-    {
-      "date": "2026-07-27",
-      "company": "Allan Hall HR",
-      "role": "Site Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fa4068aaf575fe"
-    },
-    {
-      "date": "2026-07-27",
-      "company": "Black Cat Civil Pty Ltd",
-      "role": "Graduate Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fa402b406005ea"
-    },
-    {
-      "date": "2026-07-27",
-      "company": "Chalouhi",
-      "role": "Site Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fa40a5584f0daa"
-    },
-    {
-      "date": "2026-07-27",
-      "company": "Constructability Recruitment",
-      "role": "Graduate Engineer and Site Engineer | Sydney / FIFO",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19fa3f0027faa081"
-    },
-    {
-      "date": "2026-07-22",
-      "company": "Bardavcol Pty Ltd",
-      "role": "Civil Engineering Opportunities",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f89e7dc58e00a7"
-    },
-    {
-      "date": "2026-07-22",
-      "company": "FTI Group Pty Ltd",
-      "role": "Civil Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f8a0fba9fefe1c"
-    },
-    {
-      "date": "2026-07-22",
-      "company": "Ironbuilt Infrastructure Pty Ltd",
-      "role": "Site Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f89f265927ad79"
-    },
-    {
-      "date": "2026-07-22",
-      "company": "JWI Contractors Pty Ltd",
-      "role": "Civil Site Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f89eea88991f79"
-    },
-    {
-      "date": "2026-07-21",
-      "company": "Empowered Recruitment",
-      "role": "Site Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f84febd5e1f65a"
-    },
-    {
-      "date": "2026-07-21",
-      "company": "Hazelrock Pty Ltd",
-      "role": "Project Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f851139fca7eaa"
-    },
-    {
-      "date": "2026-07-21",
-      "company": "JK Williams Contracting Pty Ltd",
-      "role": "Site Engineer - Civil",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f84fa5bd95978f"
-    },
-    {
-      "date": "2026-07-21",
-      "company": "Xenco Services",
-      "role": "Junior Project Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f850eaff21afbb"
-    },
-    {
-      "date": "2026-07-20",
-      "company": "Ivory Group",
-      "role": "Site Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f7fd5f564f4c82"
-    },
-    {
-      "date": "2026-07-20",
-      "company": "Owen Built Homes",
-      "role": "Civil Engineering Technician",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f7fdc403c02a73"
-    },
-    {
-      "date": "2026-07-20",
-      "company": "Shepherd Services Pty Ltd",
-      "role": "Project Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f7fcd8c3113d63"
-    },
-    {
-      "date": "2026-07-18",
-      "company": "CC P and D Pty Ltd",
-      "role": "Site Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f743a02558165a"
-    },
-    {
-      "date": "2026-07-18",
-      "company": "Entracon Civil",
-      "role": "Graduate Civil Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f7431d5adfe743"
-    },
-    {
-      "date": "2026-07-18",
-      "company": "Enviropipes",
-      "role": "Graduate Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f742f2bfc3ec97"
-    },
-    {
-      "date": "2026-07-18",
-      "company": "Tesmec Australia",
-      "role": "Graduate Site Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f7436b5620c6a0"
-    },
-    {
-      "date": "2026-07-15",
-      "company": "BRYAN ZELINSKI ENGINEERING",
-      "role": "Civil / Structural Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f66143d84b52a0"
-    },
-    {
-      "date": "2026-07-15",
-      "company": "Bear Claw Concreting",
-      "role": "Graduate Engineer - Local/DIDO",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f660b33393f5e7"
-    },
-    {
-      "date": "2026-07-15",
-      "company": "ConsultANZ",
-      "role": "Site Engineer/ Project Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f660f0a0d301f4"
-    },
-    {
-      "date": "2026-07-15",
-      "company": "Hays | Construction",
-      "role": "Site Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f6611c590172aa"
-    },
-    {
-      "date": "2026-07-15",
-      "company": "Hays | Engineering",
-      "role": "Project Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f66226be5af2db"
-    },
-    {
-      "date": "2026-07-14",
-      "company": "Fabtech",
-      "role": "Junior Project Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f611438a527ec8"
-    },
-    {
-      "date": "2026-07-14",
-      "company": "Halo Civil Engineering",
-      "role": "Project and Site Engineers",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f6116a04d56225"
-    },
-    {
-      "date": "2026-07-14",
-      "company": "Infravisory Pty Ltd",
-      "role": "Junior Civil Engineer/Estimator",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f611aa8b77152b"
-    },
-    {
-      "date": "2026-07-14",
-      "company": "KUSCH Group Pty Ltd",
-      "role": "Graduate Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f611d003a23787"
-    },
-    {
-      "date": "2026-07-14",
-      "company": "Remo Contractors Pty Ltd",
-      "role": "Junior/Graduate Project Manager - Civil Construction",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f611f479c194c4"
-    },
-    {
-      "date": "2026-07-13",
-      "company": "Structability",
-      "role": "Graduate Civil/ Structural Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f5b8edb181b071"
-    },
-    {
-      "date": "2026-07-10",
-      "company": "D&J's Civil Construction Pty Ltd",
-      "role": "Civil Site Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f4c7b41b9be718"
-    },
-    {
-      "date": "2026-07-10",
-      "company": "Guideline ACT Pty Ltd",
-      "role": "Civil Project Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f4c7f53e048900"
-    },
-    {
-      "date": "2026-07-10",
-      "company": "MCD PROJECT SERVICES PTY LTD",
-      "role": "Site Engineers (Roads - Pavements - Structures ) - Melbourne",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f4c7dac657974d"
-    },
-    {
-      "date": "2026-07-10",
-      "company": "Multiworks Australia Pty Ltd",
-      "role": "Site Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f4c79df3d63e39"
-    },
-    {
-      "date": "2026-07-10",
-      "company": "Supagas",
-      "role": "Graduate Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f4c77f55a98069"
-    },
-    {
-      "date": "2026-07-07",
-      "company": "Austek Asphalt Services",
-      "role": "Graduate Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f3c9bbb9f6fd15"
-    },
-    {
-      "date": "2026-07-07",
-      "company": "Convil Group Pty Ltd",
-      "role": "Undergraduate / Graduate Civil Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f3c992145782e3"
-    },
-    {
-      "date": "2026-07-07",
-      "company": "Kingfisher Partnership Pty Ltd",
-      "role": "Development Officer - Graduate Position",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f3be6e016c7245"
-    },
-    {
-      "date": "2026-07-07",
-      "company": "MCD PROJECT SERVICES PTY LTD",
-      "role": "Site Administrator - Civil Construction Melbourne (Contract role)",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f3c90feb92ac7f"
-    },
-    {
-      "date": "2026-07-07",
-      "company": "Menai Civil Contractors",
-      "role": "Site Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f3c9dbb0f9645e"
-    },
-    {
-      "date": "2026-07-04",
-      "company": "JK Williams Contracting Pty Ltd",
-      "role": "Project Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f2dda558e0d3b7"
-    },
-    {
-      "date": "2026-07-04",
-      "company": "Winslow",
-      "role": "Project Engineer - South East",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f2dd668bd7ca99"
-    },
-    {
-      "date": "2026-07-03",
-      "company": "APG",
-      "role": "Junior Project Manager",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f281ff5ec43ed6"
-    },
-    {
-      "date": "2026-07-03",
-      "company": "CIVELITE",
-      "role": "Junior Project Manager / Site Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f2816e27350090"
-    },
-    {
-      "date": "2026-07-03",
-      "company": "Camco SA",
-      "role": "Undergraduate - Project Engineer (Final Year)",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f2814665740c23"
-    },
-    {
-      "date": "2026-07-03",
-      "company": "MCD PROJECT SERVICES PTY LTD",
-      "role": "Site Engineer - Project Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f28197cd31e7b6"
-    },
-    {
-      "date": "2026-07-03",
-      "company": "Marcon Infrastructure Group",
-      "role": "Civil Draftsperson",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f281c51850c626"
-    },
-    {
-      "date": "2026-07-01",
-      "company": "Aspect Personnel",
-      "role": "Civil Design Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f1d56ce30d58f8"
-    },
-    {
-      "date": "2026-07-01",
-      "company": "Fetch Recruitment",
-      "role": "Project Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f1d5d39d176b5b"
-    },
-    {
-      "date": "2026-07-01",
-      "company": "MIEPOL",
-      "role": "Design Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f1d5203b7ab70f"
-    },
-    {
-      "date": "2026-07-01",
-      "company": "Omexom",
-      "role": "Graduate Project Manager",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f1d4e0d69fd6e9"
-    },
-    {
-      "date": "2026-07-01",
-      "company": "Versatile Group",
-      "role": "Project Engineer - Relocate to the Gold Coast",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f1d5fa7487706a"
-    },
-    {
-      "date": "2026-06-29",
-      "company": "AMG Civil Group",
-      "role": "Graduate Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f13374a4899ead"
-    },
-    {
-      "date": "2026-06-29",
-      "company": "Geoid Engineering Pty Ltd",
-      "role": "Civil Engineering Draftsperson",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f133dd0e64cf1d"
-    },
-    {
-      "date": "2026-06-29",
-      "company": "Planned Resources",
-      "role": "Civil Design Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f13398194787e1"
-    },
-    {
-      "date": "2026-06-29",
-      "company": "Rokon Pty Ltd",
-      "role": "Site Engineer",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f13350df7fcc72"
-    },
-    {
-      "date": "2026-06-29",
-      "company": "Varcon Group",
-      "role": "Entry-Level Cadetship (Building)",
-      "source": "SEEK receipt (Gmail)",
-      "gmail_message_id": "19f138fc96a6cd6d"
-    },
-    {
-      "date": "2026-06-28",
-      "company": "Alpha CPS",
-      "role": "email to workers@alphacps.com.au",
-      "source": "Gmail sent (Marc)",
-      "gmail_message_id": "19f103f1f3d5b1b1"
-    },
-    {
-      "date": "2026-02-18",
-      "company": "JHA Consulting Engineers (QLD)",
-      "role": "email application for Graduate Civil Engineer to hr@jhaengineers.com.au (outside the 90-day window; noted for context)",
-      "source": "Gmail sent (Marc)",
-      "gmail_message_id": "19c6f95cba82be79"
-    }
-  ]
+ "_about": "Applications Marc made himself, taken from SEEK receipt emails ('Your application was successfully submitted') in Gmail. tracker.py check blocks a new record for the same employer within repeat_block_days and notes older ones. Refresh each tick when Gmail is attached (search: from:noreply@s.seek.com.au subject:\"successfully submitted\" newer_than:100d); thread previews show only the oldest five messages per thread, so a Gmail search for the employer name before any send is still required. Also lists applications Marc emailed himself (Gmail Sent, 100 days), checked 29 Sep 2026.",
+ "updated_at": "2026-10-03T01:16:48Z",
+ "entries": [
+  {
+   "date": "2026-09-26",
+   "company": "Canberra Metro Operations Pty Ltd",
+   "role": "Graduate Engineer - Full Time",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "1a0decacb1ed0bf2"
+  },
+  {
+   "date": "2026-09-26",
+   "company": "Civille Pty Ltd",
+   "role": "Graduate Civil/Structural or Civil/Environmental engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "1a0ded0a93b836c4"
+  },
+  {
+   "date": "2026-09-26",
+   "company": "Commercial Project Group Pty Ltd",
+   "role": "Site Engineer/ Junior Project Manager",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "1a0dbca28e3a2371"
+  },
+  {
+   "date": "2026-09-26",
+   "company": "Melbourne Construct Solutions Pty Ltd",
+   "role": "Junior Project Coordinator",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "1a0dd1685935c360"
+  },
+  {
+   "date": "2026-09-26",
+   "company": "NTC Contracting",
+   "role": "Project Coordinator / Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "1a0dca449684eb80"
+  },
+  {
+   "date": "2026-09-20",
+   "company": "Convil Group Pty Ltd",
+   "role": "Graduate Civil Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "1a0bc508ffd32f66"
+  },
+  {
+   "date": "2026-09-20",
+   "company": "Kantershow Civil",
+   "role": "Junior graduate civil engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "1a0bc45f61380f69"
+  },
+  {
+   "date": "2026-09-17",
+   "company": "Delplant Pty Ltd",
+   "role": "Graduate Site Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "1a0af193649bb7c0"
+  },
+  {
+   "date": "2026-09-17",
+   "company": "Wire Industries Pty Ltd",
+   "role": "Graduate/Cadet - Reinforcing Steel",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "1a0af07e15bac03d"
+  },
+  {
+   "date": "2026-09-12",
+   "company": "Lantrak Management Pty Ltd",
+   "role": "Junior Project Engineer/Administrator",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "1a093a2edb90a05a"
+  },
+  {
+   "date": "2026-09-09",
+   "company": "APS Industrial Services",
+   "role": "Graduate Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "1a08611c4379889e"
+  },
+  {
+   "date": "2026-09-09",
+   "company": "Rocktown Pty Ltd",
+   "role": "Graduate / Junior Site Engineers \u2013 T2D Project & Precast Facility",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "1a08633cb73494f9"
+  },
+  {
+   "date": "2026-09-09",
+   "company": "Rokon Pty Ltd",
+   "role": "Graduate Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "1a08645cfb50b343"
+  },
+  {
+   "date": "2026-09-06",
+   "company": "Ground Technique",
+   "role": "Graduate/Jnr Civil Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "1a0749ab0ec8606d"
+  },
+  {
+   "date": "2026-08-07",
+   "company": "Beveridge Williams & Co Pty Ltd",
+   "role": "Civil Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fdcde19ddfa067"
+  },
+  {
+   "date": "2026-08-07",
+   "company": "KLF CONTRACTS PTY LTD",
+   "role": "Graduate Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fdcd0fcab52be9"
+  },
+  {
+   "date": "2026-08-07",
+   "company": "L+R Consulting",
+   "role": "Civil Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fdce00fa9a1f34"
+  },
+  {
+   "date": "2026-08-07",
+   "company": "Maw Civil Pty Ltd",
+   "role": "Site Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fdcd3e6030fc1a"
+  },
+  {
+   "date": "2026-08-07",
+   "company": "SmartX",
+   "role": "Civil Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fdcdb29a5aa501"
+  },
+  {
+   "date": "2026-08-06",
+   "company": "MBL Maintenance Pty Ltd",
+   "role": "Graduate Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fd76058c46b7f9"
+  },
+  {
+   "date": "2026-08-06",
+   "company": "Plan Group",
+   "role": "Graduate Program",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fd76c6e2b89628"
+  },
+  {
+   "date": "2026-08-06",
+   "company": "Proforce",
+   "role": "Graduate Project Coordinator Position - VIC",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fd772c80ea7a41"
+  },
+  {
+   "date": "2026-08-06",
+   "company": "SSA Group",
+   "role": "Civil Design Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fd76f92c4e0f93"
+  },
+  {
+   "date": "2026-08-05",
+   "company": "Forefront Recruitment",
+   "role": "Site Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fd2441e0f065a9"
+  },
+  {
+   "date": "2026-08-05",
+   "company": "Fortec Australia Pty Ltd",
+   "role": "Junior Civil Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fd25310d003d93"
+  },
+  {
+   "date": "2026-08-05",
+   "company": "JC Civil Projects Pty Ltd",
+   "role": "FIFO Civil Project Engineers \u2013 Multiple Levels",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fd24ee902c2c79"
+  },
+  {
+   "date": "2026-08-05",
+   "company": "JVSPD PTY LTD",
+   "role": "Civil Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fd256fb07e2e1e"
+  },
+  {
+   "date": "2026-08-05",
+   "company": "Vikavas Mataji P/L",
+   "role": "Civil Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fd250cf67b1e2b"
+  },
+  {
+   "date": "2026-08-05",
+   "company": "JS Structures",
+   "role": "email application to admin@jsstructures.com.au",
+   "source": "Gmail sent (Marc)",
+   "gmail_message_id": "19fd234e8d4e8d35"
+  },
+  {
+   "date": "2026-08-04",
+   "company": "Road Construction Group Pty Ltd",
+   "role": "Site/Project Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fccd7583b74418"
+  },
+  {
+   "date": "2026-08-01",
+   "company": "Intrax Consulting Group",
+   "role": "Civil Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fbbfbf79ad6a6e"
+  },
+  {
+   "date": "2026-08-01",
+   "company": "Leroy Palmer Consulting Engineers Pty Ltd",
+   "role": "Civil Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fbbf17edb13a23"
+  },
+  {
+   "date": "2026-08-01",
+   "company": "Riddwood Consulting Engineers Pty Ltd",
+   "role": "Junior Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fbbe505855aa99"
+  },
+  {
+   "date": "2026-08-01",
+   "company": "Rodgers Consulting Services",
+   "role": "Civil Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fbbf7cf436dd50"
+  },
+  {
+   "date": "2026-08-01",
+   "company": "UBY Australia Pty Ltd",
+   "role": "Graduate/Apprentice Surveyor - Monitoring",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fbbd9c1e85327d"
+  },
+  {
+   "date": "2026-07-31",
+   "company": "Exceed Concrete Construction",
+   "role": "Graduate Civil Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fb8b47aa4ccf56"
+  },
+  {
+   "date": "2026-07-31",
+   "company": "South Burnett Regional Council",
+   "role": "Graduate Engineer Design",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fb8c016ebee9c2"
+  },
+  {
+   "date": "2026-07-31",
+   "company": "Strategy One Human Resources",
+   "role": "Graduate Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fb8b17087a7f61"
+  },
+  {
+   "date": "2026-07-31",
+   "company": "Vassallo Constructions Pty Ltd",
+   "role": "Graduate Civil Engineer | Mackay",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fb8b90b14375ab"
+  },
+  {
+   "date": "2026-07-30",
+   "company": "Bell Resource Services Australia PTY LTD",
+   "role": "Project Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fb367058072c76"
+  },
+  {
+   "date": "2026-07-30",
+   "company": "Harrison Barratt Group",
+   "role": "Site & Project Engineers - Civil Construction",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fb35d060d600d9"
+  },
+  {
+   "date": "2026-07-30",
+   "company": "Offaly Civil Engineering Pty Ltd",
+   "role": "Graduate Civil Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fb34613c7bfd61"
+  },
+  {
+   "date": "2026-07-28",
+   "company": "AusPress Systems Pty Ltd",
+   "role": "Graduate Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fa8e7b70ef5c79"
+  },
+  {
+   "date": "2026-07-28",
+   "company": "Brown Contractors",
+   "role": "Graduate Civil Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fa8e0a72bc8ffd"
+  },
+  {
+   "date": "2026-07-27",
+   "company": "Abbott Contracting Pty Ltd",
+   "role": "Civil Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fa40d1fb1a17c3"
+  },
+  {
+   "date": "2026-07-27",
+   "company": "Allan Hall HR",
+   "role": "Site Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fa4068aaf575fe"
+  },
+  {
+   "date": "2026-07-27",
+   "company": "Black Cat Civil Pty Ltd",
+   "role": "Graduate Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fa402b406005ea"
+  },
+  {
+   "date": "2026-07-27",
+   "company": "Chalouhi",
+   "role": "Site Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fa40a5584f0daa"
+  },
+  {
+   "date": "2026-07-27",
+   "company": "Constructability Recruitment",
+   "role": "Graduate Engineer and Site Engineer | Sydney / FIFO",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19fa3f0027faa081"
+  },
+  {
+   "date": "2026-07-22",
+   "company": "Bardavcol Pty Ltd",
+   "role": "Civil Engineering Opportunities",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f89e7dc58e00a7"
+  },
+  {
+   "date": "2026-07-22",
+   "company": "FTI Group Pty Ltd",
+   "role": "Civil Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f8a0fba9fefe1c"
+  },
+  {
+   "date": "2026-07-22",
+   "company": "Ironbuilt Infrastructure Pty Ltd",
+   "role": "Site Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f89f265927ad79"
+  },
+  {
+   "date": "2026-07-22",
+   "company": "JWI Contractors Pty Ltd",
+   "role": "Civil Site Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f89eea88991f79"
+  },
+  {
+   "date": "2026-07-21",
+   "company": "Empowered Recruitment",
+   "role": "Site Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f84febd5e1f65a"
+  },
+  {
+   "date": "2026-07-21",
+   "company": "Hazelrock Pty Ltd",
+   "role": "Project Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f851139fca7eaa"
+  },
+  {
+   "date": "2026-07-21",
+   "company": "JK Williams Contracting Pty Ltd",
+   "role": "Site Engineer - Civil",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f84fa5bd95978f"
+  },
+  {
+   "date": "2026-07-21",
+   "company": "Xenco Services",
+   "role": "Junior Project Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f850eaff21afbb"
+  },
+  {
+   "date": "2026-07-20",
+   "company": "Ivory Group",
+   "role": "Site Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f7fd5f564f4c82"
+  },
+  {
+   "date": "2026-07-20",
+   "company": "Owen Built Homes",
+   "role": "Civil Engineering Technician",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f7fdc403c02a73"
+  },
+  {
+   "date": "2026-07-20",
+   "company": "Shepherd Services Pty Ltd",
+   "role": "Project Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f7fcd8c3113d63"
+  },
+  {
+   "date": "2026-07-18",
+   "company": "CC P and D Pty Ltd",
+   "role": "Site Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f743a02558165a"
+  },
+  {
+   "date": "2026-07-18",
+   "company": "Entracon Civil",
+   "role": "Graduate Civil Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f7431d5adfe743"
+  },
+  {
+   "date": "2026-07-18",
+   "company": "Enviropipes",
+   "role": "Graduate Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f742f2bfc3ec97"
+  },
+  {
+   "date": "2026-07-18",
+   "company": "Tesmec Australia",
+   "role": "Graduate Site Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f7436b5620c6a0"
+  },
+  {
+   "date": "2026-07-15",
+   "company": "BRYAN ZELINSKI ENGINEERING",
+   "role": "Civil / Structural Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f66143d84b52a0"
+  },
+  {
+   "date": "2026-07-15",
+   "company": "Bear Claw Concreting",
+   "role": "Graduate Engineer - Local/DIDO",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f660b33393f5e7"
+  },
+  {
+   "date": "2026-07-15",
+   "company": "ConsultANZ",
+   "role": "Site Engineer/ Project Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f660f0a0d301f4"
+  },
+  {
+   "date": "2026-07-15",
+   "company": "Hays | Construction",
+   "role": "Site Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f6611c590172aa"
+  },
+  {
+   "date": "2026-07-15",
+   "company": "Hays | Engineering",
+   "role": "Project Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f66226be5af2db"
+  },
+  {
+   "date": "2026-07-14",
+   "company": "Fabtech",
+   "role": "Junior Project Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f611438a527ec8"
+  },
+  {
+   "date": "2026-07-14",
+   "company": "Halo Civil Engineering",
+   "role": "Project and Site Engineers",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f6116a04d56225"
+  },
+  {
+   "date": "2026-07-14",
+   "company": "Infravisory Pty Ltd",
+   "role": "Junior Civil Engineer/Estimator",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f611aa8b77152b"
+  },
+  {
+   "date": "2026-07-14",
+   "company": "KUSCH Group Pty Ltd",
+   "role": "Graduate Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f611d003a23787"
+  },
+  {
+   "date": "2026-07-14",
+   "company": "Remo Contractors Pty Ltd",
+   "role": "Junior/Graduate Project Manager - Civil Construction",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f611f479c194c4"
+  },
+  {
+   "date": "2026-07-13",
+   "company": "Structability",
+   "role": "Graduate Civil/ Structural Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f5b8edb181b071"
+  },
+  {
+   "date": "2026-07-10",
+   "company": "D&J's Civil Construction Pty Ltd",
+   "role": "Civil Site Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f4c7b41b9be718"
+  },
+  {
+   "date": "2026-07-10",
+   "company": "Guideline ACT Pty Ltd",
+   "role": "Civil Project Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f4c7f53e048900"
+  },
+  {
+   "date": "2026-07-10",
+   "company": "MCD PROJECT SERVICES PTY LTD",
+   "role": "Site Engineers (Roads - Pavements - Structures ) - Melbourne",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f4c7dac657974d"
+  },
+  {
+   "date": "2026-07-10",
+   "company": "Multiworks Australia Pty Ltd",
+   "role": "Site Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f4c79df3d63e39"
+  },
+  {
+   "date": "2026-07-10",
+   "company": "Supagas",
+   "role": "Graduate Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f4c77f55a98069"
+  },
+  {
+   "date": "2026-07-07",
+   "company": "Austek Asphalt Services",
+   "role": "Graduate Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f3c9bbb9f6fd15"
+  },
+  {
+   "date": "2026-07-07",
+   "company": "Convil Group Pty Ltd",
+   "role": "Undergraduate / Graduate Civil Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f3c992145782e3"
+  },
+  {
+   "date": "2026-07-07",
+   "company": "Kingfisher Partnership Pty Ltd",
+   "role": "Development Officer - Graduate Position",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f3be6e016c7245"
+  },
+  {
+   "date": "2026-07-07",
+   "company": "MCD PROJECT SERVICES PTY LTD",
+   "role": "Site Administrator - Civil Construction Melbourne (Contract role)",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f3c90feb92ac7f"
+  },
+  {
+   "date": "2026-07-07",
+   "company": "Menai Civil Contractors",
+   "role": "Site Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f3c9dbb0f9645e"
+  },
+  {
+   "date": "2026-07-04",
+   "company": "JK Williams Contracting Pty Ltd",
+   "role": "Project Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f2dda558e0d3b7"
+  },
+  {
+   "date": "2026-07-04",
+   "company": "Winslow",
+   "role": "Project Engineer - South East",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f2dd668bd7ca99"
+  },
+  {
+   "date": "2026-07-03",
+   "company": "APG",
+   "role": "Junior Project Manager",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f281ff5ec43ed6"
+  },
+  {
+   "date": "2026-07-03",
+   "company": "CIVELITE",
+   "role": "Junior Project Manager / Site Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f2816e27350090"
+  },
+  {
+   "date": "2026-07-03",
+   "company": "Camco SA",
+   "role": "Undergraduate - Project Engineer (Final Year)",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f2814665740c23"
+  },
+  {
+   "date": "2026-07-03",
+   "company": "MCD PROJECT SERVICES PTY LTD",
+   "role": "Site Engineer - Project Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f28197cd31e7b6"
+  },
+  {
+   "date": "2026-07-03",
+   "company": "Marcon Infrastructure Group",
+   "role": "Civil Draftsperson",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f281c51850c626"
+  },
+  {
+   "date": "2026-07-01",
+   "company": "Aspect Personnel",
+   "role": "Civil Design Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f1d56ce30d58f8"
+  },
+  {
+   "date": "2026-07-01",
+   "company": "Fetch Recruitment",
+   "role": "Project Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f1d5d39d176b5b"
+  },
+  {
+   "date": "2026-07-01",
+   "company": "MIEPOL",
+   "role": "Design Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f1d5203b7ab70f"
+  },
+  {
+   "date": "2026-07-01",
+   "company": "Omexom",
+   "role": "Graduate Project Manager",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f1d4e0d69fd6e9"
+  },
+  {
+   "date": "2026-07-01",
+   "company": "Versatile Group",
+   "role": "Project Engineer - Relocate to the Gold Coast",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f1d5fa7487706a"
+  },
+  {
+   "date": "2026-06-29",
+   "company": "AMG Civil Group",
+   "role": "Graduate Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f13374a4899ead"
+  },
+  {
+   "date": "2026-06-29",
+   "company": "Geoid Engineering Pty Ltd",
+   "role": "Civil Engineering Draftsperson",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f133dd0e64cf1d"
+  },
+  {
+   "date": "2026-06-29",
+   "company": "Planned Resources",
+   "role": "Civil Design Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f13398194787e1"
+  },
+  {
+   "date": "2026-06-29",
+   "company": "Rokon Pty Ltd",
+   "role": "Site Engineer",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f13350df7fcc72"
+  },
+  {
+   "date": "2026-06-29",
+   "company": "Varcon Group",
+   "role": "Entry-Level Cadetship (Building)",
+   "source": "SEEK receipt (Gmail)",
+   "gmail_message_id": "19f138fc96a6cd6d"
+  },
+  {
+   "date": "2026-06-28",
+   "company": "Alpha CPS",
+   "role": "email to workers@alphacps.com.au",
+   "source": "Gmail sent (Marc)",
+   "gmail_message_id": "19f103f1f3d5b1b1"
+  },
+  {
+   "date": "2026-02-18",
+   "company": "JHA Consulting Engineers (QLD)",
+   "role": "email application for Graduate Civil Engineer to hr@jhaengineers.com.au (outside the 90-day window; noted for context)",
+   "source": "Gmail sent (Marc)",
+   "gmail_message_id": "19c6f95cba82be79"
+  }
+ ]
 }

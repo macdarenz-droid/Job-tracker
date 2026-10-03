@@ -1,0 +1,29 @@
+[
+ {
+  "id": "95021585",
+  "false_claims": [],
+  "weak_lines": [],
+  "tone_issues": [],
+  "human_tone": 4,
+  "specific_to_advert": true,
+  "pass": true
+ },
+ {
+  "id": "94984460",
+  "false_claims": [],
+  "weak_lines": [],
+  "tone_issues": [],
+  "human_tone": 4,
+  "specific_to_advert": true,
+  "pass": true
+ },
+ {
+  "id": "95013854",
+  "false_claims": [],
+  "weak_lines": [],
+  "tone_issues": [],
+  "human_tone": 4,
+  "specific_to_advert": true,
+  "pass": true
+ }
+]

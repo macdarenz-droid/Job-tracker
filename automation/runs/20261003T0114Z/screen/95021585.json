@@ -1,0 +1,35 @@
+{
+ "id": "95021585",
+ "percent": 74,
+ "rationale": [
+  "Advert explicitly welcomes a recent graduate or experienced AutoCAD drafter for precast product drawings.",
+  "AutoCAD shop and construction drawings for civil, infrastructure and mining supply match Advanced Diploma Civil Construction Design and AutoCAD facts.",
+  "1-2 years AutoCAD asked; Marc has diploma drafting projects; Perth relocation is discussable per facts.json."
+ ],
+ "caution": "Precast reinforcement detailing is a learning gap; role is WA Malaga so relocation must be discussed, not promised.",
+ "gaps": [
+  "No Australian drafting employment yet",
+  "Reinforcement detailing not claimed in facts.json",
+  "Based Melton VIC; role is Perth WA"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK https://www.seek.com.au/job/95021585. Employer contact page publishes sales@cascada.com.au for sales enquiries only, not applications.",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Cascada",
+ "title": "AutoCAD Draftsperson - Reinforced Concrete",
+ "location": "Malaga, Perth WA",
+ "url": "https://www.seek.com.au/job/95021585",
+ "listed_at": "2026-10-02T04:56:38.184Z",
+ "expires_at": "2026-11-01T12:59:59.999Z",
+ "screening_questions": [
+  "How many years' experience do you have as an AutoCAD Draftsperson?",
+  "Which of the following statements best describes your right to work in Australia?",
+  "Do you have a current Australian driver's licence?"
+ ],
+ "company_work_verified": true,
+ "company_work_evidence": "https://www.cascadagroup.com.au/ and contact page: Cascada sources, designs and manufactures products for WA civil, industrial and residential construction. Verified 2026-10-03 AEST."
+}

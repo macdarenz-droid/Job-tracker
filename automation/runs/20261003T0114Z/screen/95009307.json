@@ -1,0 +1,35 @@
+{
+ "id": "95009307",
+ "percent": 71,
+ "rationale": [
+  "Role level matches graduate/junior/cadet target.",
+  "Limited civil design/site overlap.",
+  "QLD/FIFO acceptable per availability."
+ ],
+ "caution": "Recruitment agency listing.",
+ "gaps": [
+  "Discipline may be adjacent rather than core civil design/site"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK: https://www.seek.com.au/job/95009307",
+ "open": true,
+ "employer_is_agency": true,
+ "company": "The Lorian Group",
+ "title": "Construction Cadet / Junior PM",
+ "location": "Brisbane QLD",
+ "url": "https://www.seek.com.au/job/95009307",
+ "listed_at": "2026-10-01T21:54:04.888Z",
+ "expires_at": "2026-10-31T20:54:00.000Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "How many years' experience do you have as a Construction Project Coordinator?",
+  "How many years' experience do you have in the construction industry?",
+  "Do you have a current Australian driver's licence?",
+  "What's your expected annual base salary?",
+  "are currently studying or recent graduate of bachelors degree in construction management / QS?",
+  "Have you worked as a CA in main or sub contractor for 12 months or more?"
+ ]
+}

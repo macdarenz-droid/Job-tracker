@@ -1,0 +1,25 @@
+{
+ "id": "94973025",
+ "percent": 61,
+ "rationale": [
+  "Some civil overlap.",
+  "QLD/FIFO acceptable per availability.",
+  "Scored from advert text vs facts.json only."
+ ],
+ "caution": "Recruitment agency listing.",
+ "gaps": [],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK: https://www.seek.com.au/job/94973025",
+ "open": true,
+ "employer_is_agency": true,
+ "company": "Optimum Consulting Group",
+ "title": "Civil Engineer",
+ "location": "Brisbane QLD",
+ "url": "https://www.seek.com.au/job/94973025",
+ "listed_at": "2026-09-30T06:50:44.011Z",
+ "expires_at": "2026-10-30T12:59:59.999Z",
+ "screening_questions": []
+}

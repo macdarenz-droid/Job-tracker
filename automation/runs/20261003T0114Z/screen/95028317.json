@@ -1,0 +1,29 @@
+{
+ "id": "95028317",
+ "percent": 69,
+ "rationale": [
+  "Mid-level civil title; possible stretch without commercial AU years.",
+  "Strong civil design/site/documentation overlap with facts.json.",
+  "QLD/FIFO acceptable per availability."
+ ],
+ "caution": "Recruitment agency listing.",
+ "gaps": [],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK: https://www.seek.com.au/job/95028317",
+ "open": true,
+ "employer_is_agency": true,
+ "company": "In2work Pty Ltd",
+ "title": "NEW! Project Engineers FIFO and East Coast DTMR Projects!",
+ "location": "Brisbane QLD",
+ "url": "https://www.seek.com.au/job/95028317",
+ "listed_at": "2026-10-02T08:22:26.176Z",
+ "expires_at": "2026-11-01T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "How much notice are you required to give your current employer?",
+  "Do you have a current Australian driver's licence?"
+ ]
+}

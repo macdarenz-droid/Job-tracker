@@ -68,3 +68,10 @@ One line of reasoning per decision. Newest at the bottom of each section. The ow
 - Used `recruitment@watertech.com.au` for the open 2026 graduate campaign even though the campaign page itself only links to Jobs/Working With Us. Evidence is the employer-published apply instruction on other Water Technology vacancies (Group Manager Surface Water): send cover letter and CV to that inbox. Recorded as `published_inbox`, not a guessed address.
 - Skipped a second Engeny speculative email because a PREPARED_NOT_SENT Engeny EOI already exists (2026-09-30).
 - Held City of Newcastle Cadet Engineer on unresolved mandatory wording (Undergraduate Engineer vs graduate position) rather than marking ready.
+
+## 2026-10-03 T0114Z (Grok AI)
+
+- Widened SEEK to daterange 7 after d3 yielded many experience-bar drafting roles; kept Cascada (grad-friendly AutoCAD) and Concrete Seal cadet; Whitehorse Asset Engineer as Melbourne portal stretch with honest gaps.
+- Dropped GPA (3-10 yrs), SCP (building services 5-6 yrs), NOTAZ (3 yrs) under threshold rather than lowering fit.
+- Councils/government rotation: no new verified open junior council civil beyond Whitehorse SEEK; Wyndham SelectMinds graduate link errored; careers.vic Project Officer 404.
+- Did not email Cascada sales@ (sales inbox, not applications). No Gmail send tool on connector; left READY_* packs for Jeremie/Marc.
