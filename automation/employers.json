@@ -313,6 +313,34 @@
         }
       ],
       "notes": "SEEK 95021585 prepared READY_JEREMIE_SEEK this tick."
+    },
+    "DOF": {
+      "company_url": "https://www.dof.com/",
+      "careers_url": "https://apply.workable.com/j/A527AA0C3B",
+      "board": "Workable",
+      "checked_at": "2026-10-04",
+      "open_junior_roles": [
+        {
+          "title": "Junior Draftsperson",
+          "url": "https://apply.workable.com/j/A527AA0C3B",
+          "apply": "Workable portal; closes 15 Oct 2026"
+        }
+      ],
+      "notes": "Junior Draftsperson Perth CBD Advanced Diploma Civil & Structural + AutoCAD 2D; READY_JEREMIE_EMPLOYER_PORTAL this tick."
+    },
+    "GPA Engineering": {
+      "company_url": "https://www.gpaeng.com.au/",
+      "careers_url": "https://gpaeng.elmotalent.com.au/careers/career/job/view/105",
+      "board": "ElmoTalent / Cohort",
+      "checked_at": "2026-10-04",
+      "open_junior_roles": [
+        {
+          "title": "EOI Engineering Professionals incl Drafters Civil/Structural",
+          "url": "https://gpaeng.elmotalent.com.au/careers/career/job/view/105",
+          "apply": "portal; HR@gpaeng.com.au queries"
+        }
+      ],
+      "notes": "EOI to 31 Dec 2026; HELD industry-experience-in-key-sectors unresolved this tick."
     }
   },
   "sweep_log": [
@@ -535,6 +563,54 @@
         "DTM Geocivil careers (no open roles; speculative PREPARED to info@dtmgeocivil.com.au)"
       ],
       "notes": "Councils_government rotation. SEEK d3\u2192d7\u2192d14 widen. Published Global Group READY_SEEK + DTM speculative PREPARED + Blacktown HELD."
+    },
+    {
+      "run_id": "20261003T2118Z",
+      "rotation": "employers",
+      "checked_at": "2026-10-03T21:35:14Z",
+      "checked": [
+        {
+          "name": "DOF",
+          "url": "https://apply.workable.com/j/A527AA0C3B",
+          "result": "Junior Draftsperson Perth READY_JEREMIE_EMPLOYER_PORTAL fit 72; closes 15 Oct 2026"
+        },
+        {
+          "name": "GPA Engineering",
+          "url": "https://gpaeng.elmotalent.com.au/careers/career/job/view/105",
+          "result": "EOI Engineering Professionals HELD_ELIGIBILITY_UNCONFIRMED (industry experience in key sectors unresolved); Drafters Civil listed; closes 31 Dec 2026"
+        },
+        {
+          "name": "Breese Pitt Dixon",
+          "url": "https://www.bpd.com.au/careers/",
+          "result": "blocked_prior PLATFORM_BLOCKED / same careers URL already in tracker"
+        },
+        {
+          "name": "SMEC Cadet Drafter Urban Infrastructure",
+          "url": "https://surbanajurong.wd3.myworkdayjobs.com/en-US/careersatsmec/job/Cadet-Drafter--Urban-Infrastructure_JR118840",
+          "result": "blocked_prior recent outreach SMEC Services READY Graduate Civil Rail Metro 2026-09-30"
+        },
+        {
+          "name": "Wave International",
+          "url": "https://www.viewjobs.com.au/listing/4e0cb890-d266-4aaf-805d-468831349b93",
+          "result": "Junior Civil Draftsperson Brisbane closed on ViewJobs"
+        },
+        {
+          "name": "pitt&sherry",
+          "url": "https://www.livehire.com/careers/pittsh/job/C8P8B/QWYV18BU26/expression-of-interest-undergraduate-graduate-engineer-melbourne",
+          "result": "Graduate EOI Melbourne vacancy not found / closed"
+        },
+        {
+          "name": "ATC Williams Cadet",
+          "url": "https://www.viewjobs.com.au/listing/9d7a26f1-6b3c-4324-a7ce-21df49a7c40a",
+          "result": "Cadet Civil Drafter closed; prior MANUAL_APPLIED"
+        },
+        {
+          "name": "Decmil",
+          "url": "https://decmil.com/working-with-us/graduate-internship-program/graduate-development-program/",
+          "result": "Grad program open; university recent-grad / degree recency unresolved; not published this tick"
+        }
+      ],
+      "notes": "Employers rotation. SEEK d3\u2192d7\u2192d14 max80 all already screened. Open-web: DOF READY + GPA HELD. Gmail send skipped (create_draft only). browse.py trust CA permission denied; CHROME_BIN set."
     }
   ]
 }

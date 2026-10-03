@@ -1,0 +1,44 @@
+[
+ {
+  "id": "4d7b09ab-1dc1-4be7-9a71-d2c067431684",
+  "key": "manual:4d7b09ab-1dc1-4be7-9a71-d2c067431684",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261003T2118Z",
+  "created_at": "2026-10-03T21:34:46.000Z",
+  "updated_at": "2026-10-03T21:34:46.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "GPA Engineering",
+  "role": "EOI - Engineering Professionals (Civil/Structural Drafter / early career) - AUS",
+  "location": "Australia-wide (incl. Melbourne)",
+  "job_url": "https://gpaeng.elmotalent.com.au/careers/career/job/view/105",
+  "status": "HELD_ELIGIBILITY_UNCONFIRMED",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMPLOYER_PORTAL",
+  "fit": [
+   "Open EOI to 31 Dec 2026 explicitly lists Civil/Structural and Drafters (Civil/Structural) and early-career professionals across Melbourne and other AU offices.",
+   "Tertiary engineering qualification covered by BSCE (Philippines 2019) plus Advanced Diploma Civil Construction Design Feb 2026 with AutoCAD and Civil 3D.",
+   "Caution: essential criteria also ask for industry experience in GPA key sectors (oil and gas, defence, water, mining, power, renewables); Marc's site work was building renovation and subdivision finishing in the Philippines, not those sectors."
+  ],
+  "gaps": [
+   "No Australian industry experience in GPA key sectors",
+   "No commercial production drafting",
+   "EOI not a dated junior-only vacancy"
+  ],
+  "match_score": {
+   "percent": 66,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Open EOI to 31 Dec 2026 explicitly lists Civil/Structural and Drafters (Civil/Structural) and early-career professionals across Melbourne and other AU offices.",
+    "Tertiary engineering qualification covered by BSCE (Philippines 2019) plus Advanced Diploma Civil Construction Design Feb 2026 with AutoCAD and Civil 3D.",
+    "Caution: essential criteria also ask for industry experience in GPA key sectors (oil and gas, defence, water, mining, power, renewables); Marc's site work was building renovation and subdivision finishing in the Philippines, not those sectors."
+   ],
+   "caution": "EOI essential 'industry experience in key sectors' is a real gap; portal apply only; not a dated junior vacancy."
+  },
+  "notes": "Held by Grok AI: Industry experience in one or more of GPA key sectors (oil and gas, defence, water, mining, power, renewables) listed as essential",
+  "checked_at": "2026-10-03T21:34:46.000Z",
+  "duplicate_key": "gpaengineering|gpaeng.elmotalent.com.au/careers/career/job/view/105"
+ }
+]

@@ -1,0 +1,21 @@
+{
+ "built": [
+  [
+   "a42fb106-d0ba-404f-87c5-c55db757e0e4",
+   "DOF",
+   "Junior Draftsperson",
+   "READY_JEREMIE_EMPLOYER_PORTAL"
+  ]
+ ],
+ "rejected": [],
+ "tracker": {
+  "version": 59,
+  "updated_at": "2026-10-03T21:34:38.258Z",
+  "result": {
+   "added": [
+    "a42fb106-d0ba-404f-87c5-c55db757e0e4"
+   ],
+   "skipped": []
+  }
+ }
+}

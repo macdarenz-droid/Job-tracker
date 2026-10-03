@@ -1,0 +1,11 @@
+{
+ "built": [],
+ "rejected": [
+  {
+   "seek_id": "dof-junior-draftsperson-perth-20261003",
+   "issues": [
+    "advert expiry is past or has no timezone"
+   ]
+  }
+ ]
+}

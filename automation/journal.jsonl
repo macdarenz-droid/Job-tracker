@@ -89,3 +89,7 @@
 {"run_id": "20261003T1612Z", "at": "2026-10-03T16:12:31.000Z", "stage": "start"}
 {"run_id": "20261003T1612Z", "at": "2026-10-03T16:13:33.000Z", "stage": "start"}
 {"run_id": "20261003T1612Z", "at": "2026-10-03T16:25:16.000Z", "stage": "end", "new": 3, "prepared": 1, "ready": 1, "held": 1, "sent": 0, "duplicates": 0, "nothing_new": false, "widening": "daterange3+7+14;councils_government;BawBaw_expired;DTM_speculative;Gmail_send_skipped_no_tool", "prior_outreach_added": 0}
+{"run_id": "20261003T2118Z", "at": "2026-10-03T21:18:22.000Z", "stage": "start"}
+{"run_id": "20261003T2118Z", "at": "2026-10-03T21:35:14.000Z", "stage": "discover", "rotation": "employers", "widen": "daterange_3_7_14_max80", "seek_fresh": 0, "extras_published": 2}
+{"run_id": "20261003T2118Z", "at": "2026-10-03T21:35:14.000Z", "stage": "send", "skipped": true, "reason": "no_gmail_send_tool"}
+{"run_id": "20261003T2118Z", "at": "2026-10-03T21:35:15.000Z", "stage": "end", "new": 2, "prepared": 0, "ready": 1, "held": 1, "sent": 0, "duplicates": 0, "nothing_new": false, "widening": "daterange3+7+14 max80; employers open-web DOF+GPA; Wave/pitt&sherry/BPD closed or prior; Gmail_send_skipped_no_tool", "prior_outreach_added": 0}

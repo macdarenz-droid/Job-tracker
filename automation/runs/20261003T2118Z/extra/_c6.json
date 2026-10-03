@@ -1,0 +1,15 @@
+{
+ "candidates": [
+  {
+   "company": "Westera Partners",
+   "title": "Graduate Program",
+   "url": "https://www.westerapartners.com.au/careers/",
+   "seek_id": "westera-grad",
+   "duplicate": {
+    "blocked": true,
+    "reason": "same job URL already in the tracker",
+    "notes": []
+   }
+  }
+ ]
+}

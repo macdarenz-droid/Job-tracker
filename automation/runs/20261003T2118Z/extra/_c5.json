@@ -1,0 +1,15 @@
+{
+ "candidates": [
+  {
+   "company": "ATC Williams",
+   "title": "Graduate Programs EOI",
+   "url": "https://atcwilliams.com/graduate-programs/",
+   "seek_id": "atc-grad",
+   "duplicate": {
+    "blocked": true,
+    "reason": "recent outreach to the same employer (Cadet Civil Drafter · MANUAL_APPLIED · 2026-09-25)",
+    "notes": []
+   }
+  }
+ ]
+}

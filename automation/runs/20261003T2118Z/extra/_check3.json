@@ -1,0 +1,26 @@
+{
+ "candidates": [
+  {
+   "company": "DOF",
+   "title": "Junior Draftsperson",
+   "url": "https://apply.workable.com/j/A527AA0C3B",
+   "seek_id": "dof-junior-draftsperson-perth-20261003",
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
+  },
+  {
+   "company": "GPA Engineering",
+   "title": "EOI - Engineering Professionals (Civil/Structural Drafter / early career) - AUS",
+   "url": "https://gpaeng.elmotalent.com.au/careers/career/job/view/105",
+   "seek_id": "gpa-eoi-engineering-professionals-civil-drafter-20261003",
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
+  }
+ ]
+}

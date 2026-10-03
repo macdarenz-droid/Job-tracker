@@ -1,0 +1,59 @@
+{
+ "candidates": [
+  {
+   "company": "Tonkin Consulting",
+   "title": "Graduate Development Program",
+   "url": "https://www.tonkin.com.au/graduate-development-program",
+   "seek_id": "x0",
+   "duplicate": {
+    "blocked": true,
+    "reason": "same job URL already in the tracker",
+    "notes": []
+   }
+  },
+  {
+   "company": "Mackenzie Environmental",
+   "title": "Graduate EOI",
+   "url": "https://www.mackenviro.com.au/",
+   "seek_id": "x1",
+   "duplicate": {
+    "blocked": true,
+    "reason": "recent outreach to the same employer (Graduate civil or environmental engineer - expression of interest (Kew) · PREPARED_NOT_SENT · 2026-10-02)",
+    "notes": []
+   }
+  },
+  {
+   "company": "Decmil",
+   "title": "Graduate Development Program 2026",
+   "url": "https://decmil.com/working-with-us/graduate-internship-program/graduate-development-program/",
+   "seek_id": "x2",
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
+  },
+  {
+   "company": "Austral Construction",
+   "title": "Engineering Graduate Program",
+   "url": "https://australconstruction.com.au/",
+   "seek_id": "x3",
+   "duplicate": {
+    "blocked": true,
+    "reason": "same company and role already in the tracker",
+    "notes": []
+   }
+  },
+  {
+   "company": "GPA Engineering",
+   "title": "EOI - Engineering Professionals - AUS",
+   "url": "https://gpaeng.elmotalent.com.au/careers/career/job/view/105",
+   "seek_id": "x4",
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
+  }
+ ]
+}

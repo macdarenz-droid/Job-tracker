@@ -1,0 +1,92 @@
+{
+ "candidates": [
+  {
+   "company": "DOF",
+   "title": "Junior Draftsperson",
+   "url": "https://apply.workable.com/j/A527AA0C3B",
+   "seek_id": "DOFJunior Dra",
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
+  },
+  {
+   "company": "Decmil",
+   "title": "Graduate Development Program Civil",
+   "url": "https://decmil.com/working-with-us/graduate-internship-program/graduate-development-program/",
+   "seek_id": "DecmilGraduate D",
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
+  },
+  {
+   "company": "pitt&sherry",
+   "title": "Expression of Interest Undergraduate/graduate Engineer",
+   "url": "https://www.pittsh.com.au/careers",
+   "seek_id": "pitt&sherrExpression",
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
+  },
+  {
+   "company": "Urbanise WA",
+   "title": "Trainee/Junior Civil Draftsperson",
+   "url": "https://urbanise.net.au/contact/",
+   "seek_id": "Urbanise WTrainee/Ju",
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
+  },
+  {
+   "company": "Wave International",
+   "title": "Junior Civil Draftsperson",
+   "url": "https://www.waveinternational.com/discover-opportunities/",
+   "seek_id": "Wave InterJunior Civ",
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
+  },
+  {
+   "company": "Amey Australia",
+   "title": "Cadet Civil Drafter",
+   "url": "https://amey.com.au",
+   "seek_id": "Amey AustrCadet Civi",
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
+  },
+  {
+   "company": "SMEC",
+   "title": "Cadet Drafter, Urban Infrastructure",
+   "url": "https://surbanajurong.wd3.myworkdayjobs.com/en-US/careersatsmec/job/Cadet-Drafter--Urban-Infrastructure_JR118840",
+   "seek_id": "SMECCadet Draf",
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
+  },
+  {
+   "company": "SMEC Services Pty Limited",
+   "title": "Cadet Drafter, Urban Infrastructure",
+   "url": "https://surbanajurong.wd3.myworkdayjobs.com/en-US/careersatsmec/job/Cadet-Drafter--Urban-Infrastructure_JR118840",
+   "seek_id": "SMEC ServiCadet Draf",
+   "duplicate": {
+    "blocked": true,
+    "reason": "recent outreach to the same employer (Graduate Civil Engineer, Rail & Metro · READY_JEREMIE_EMPLOYER_PORTAL · 2026-09-30)",
+    "notes": []
+   }
+  }
+ ]
+}

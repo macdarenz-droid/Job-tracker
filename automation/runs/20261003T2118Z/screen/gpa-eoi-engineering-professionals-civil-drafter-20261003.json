@@ -1,0 +1,33 @@
+{
+  "id": "gpa-eoi-engineering-professionals-civil-drafter-20261003",
+  "percent": 66,
+  "rationale": [
+    "Open EOI to 31 Dec 2026 explicitly lists Civil/Structural and Drafters (Civil/Structural) and early-career professionals across Melbourne and other AU offices.",
+    "Tertiary engineering qualification covered by BSCE (Philippines 2019) plus Advanced Diploma Civil Construction Design Feb 2026 with AutoCAD and Civil 3D.",
+    "Caution: essential criteria also ask for industry experience in GPA key sectors (oil and gas, defence, water, mining, power, renewables); Marc's site work was building renovation and subdivision finishing in the Philippines, not those sectors."
+  ],
+  "caution": "EOI essential 'industry experience in key sectors' is a real gap; portal apply only; not a dated junior vacancy.",
+  "gaps": [
+    "No Australian industry experience in GPA key sectors",
+    "No commercial production drafting",
+    "EOI not a dated junior-only vacancy"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [
+    "Industry experience in one or more of GPA key sectors (oil and gas, defence, water, mining, power, renewables) listed as essential"
+  ],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": "HR@gpaeng.com.au",
+  "apply_instructions": "Submit via ElmoTalent EOI portal (required). Queries only to HR@gpaeng.com.au. Closes 31 Dec 2026.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "GPA Engineering",
+  "title": "EOI - Engineering Professionals (Civil/Structural Drafter / early career) - AUS",
+  "location": "Australia-wide (incl. Melbourne)",
+  "url": "https://gpaeng.elmotalent.com.au/careers/career/job/view/105",
+  "listed_at": "2024-10-12T00:00:00+10:30",
+  "expires_at": "2026-12-31T23:59:59+10:30",
+  "screening_questions": [],
+  "company_work_verified": true,
+  "company_work_evidence": "https://gpaeng.elmotalent.com.au/careers/career/job/view/105 read 2026-10-04: EOI Engineering Professionals; Drafters Civil/Structural; early career; closes 31/12/2026; apply online; HR@gpaeng.com.au for queries."
+}

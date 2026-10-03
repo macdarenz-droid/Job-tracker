@@ -1,0 +1,293 @@
+{
+ "count": 0,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "95038050",
+   "company": "ABS Civil WA Pty Ltd",
+   "title": "Civil Estimator - Earthworks",
+   "run": "20261003T1118Z",
+   "percent": 38,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95021621",
+   "company": "Ertech Pty Ltd",
+   "title": "Project Engineer (Civil)",
+   "run": "20261003T0114Z",
+   "percent": 59,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94958791",
+   "company": "ADF Careers",
+   "title": "Part-Time Civil Engineer (Tax-Free Pay)",
+   "run": "20261003T0114Z",
+   "percent": 27,
+   "mandatory_unmet": [
+    "Citizenship or PR may be required"
+   ]
+  },
+  {
+   "id": "94995704",
+   "company": "Xeros Piccolo Consulting Engineers",
+   "title": "Structural/Civil Engineer",
+   "run": "20261003T0114Z",
+   "percent": 60,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95021747",
+   "company": "Contec Recruitment Pty Ltd",
+   "title": "Civil Estimator ",
+   "run": "20261003T0114Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94990020",
+   "company": "Gough Recruitment SA",
+   "title": "Civil Estimator",
+   "run": "20261003T0114Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94999649",
+   "company": "CPB Contractors NSW ACT",
+   "title": "Project Engineer Building & Infrastructure",
+   "run": "20261003T0114Z",
+   "percent": 34,
+   "mandatory_unmet": [
+    "Citizenship or PR may be required"
+   ]
+  },
+  {
+   "id": "95036163",
+   "company": "Totem Civil Services group PTY LTD",
+   "title": "Project Engineer/ Site Engineer",
+   "run": "20261003T0114Z",
+   "percent": 59,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95021786",
+   "company": "SCP Consulting Pty Ltd",
+   "title": "Draftsperson",
+   "run": "20261003T0114Z",
+   "percent": 42,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95009307",
+   "company": "The Lorian Group",
+   "title": "Construction Cadet / Junior PM",
+   "run": "20261003T0114Z",
+   "percent": 71,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95002679",
+   "company": "Sunshine Coast Council",
+   "title": "Design Engineer",
+   "run": "20261003T0114Z",
+   "percent": 71,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94994373",
+   "company": "Tungsten Mining",
+   "title": "Civil Project Engineer",
+   "run": "20261003T0114Z",
+   "percent": 73,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94991390",
+   "company": "Sunshine Coast Council",
+   "title": "Design Engineer",
+   "run": "20261003T0114Z",
+   "percent": 71,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94987271",
+   "company": "Randstad - Construction, Property & Engineering",
+   "title": "Estimator",
+   "run": "20261003T0114Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95037323",
+   "company": "Scotford Fennessy Recruitment",
+   "title": "Senoir Structural Drafter - Gold Coast",
+   "run": "20261003T1118Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "10+ years Revit structural drafting experience"
+   ]
+  },
+  {
+   "id": "95028317",
+   "company": "In2work Pty Ltd",
+   "title": "NEW! Project Engineers FIFO and East Coast DTMR Projects!",
+   "run": "20261003T0114Z",
+   "percent": 69,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95020068",
+   "company": "AMT CIVILS",
+   "title": "Project Engineer – Bulk Earthworks | 2:1 Roster | Immediate Start",
+   "run": "20261003T0114Z",
+   "percent": 69,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95016703",
+   "company": "CGC Recruitment",
+   "title": "Site Engineer - Blue Mountains",
+   "run": "20261003T0114Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95001733",
+   "company": "Silver Yachts Australia Pty Ltd",
+   "title": "Fitout/Draftsperson",
+   "run": "20261003T0114Z",
+   "percent": 68,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94994170",
+   "company": "Tognetti Consulting Pty Ltd",
+   "title": "Site Engineer - Central Qld - contract",
+   "run": "20261003T0114Z",
+   "percent": 73,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94990129",
+   "company": "Furn-Niche",
+   "title": "Graduate Estimator",
+   "run": "20261003T0114Z",
+   "percent": 79,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94989946",
+   "company": "CPB Contractors NSW ACT",
+   "title": "Project Engineer (Building, Trades & Works)",
+   "run": "20261003T0114Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Citizenship or PR may be required"
+   ]
+  },
+  {
+   "id": "95026009",
+   "company": "THE BMD GROUP",
+   "title": "Design Engineer",
+   "run": "20261003T1612Z",
+   "percent": 38,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95025202",
+   "company": "Civil Road & Rail SX5",
+   "title": "Project Engineer",
+   "run": "20261003T1612Z",
+   "percent": 42,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95024574",
+   "company": "Civil Road & Rail SX5",
+   "title": "Project Engineer",
+   "run": "20261003T1612Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95023805",
+   "company": "GTE Employment Services",
+   "title": "Junior Designer/Estimator",
+   "run": "20261003T1612Z",
+   "percent": 52,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95023563",
+   "company": "Contec Recruitment Pty Ltd",
+   "title": "Project Engineer - FIFO ",
+   "run": "20261003T1612Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Minimum 4 years delivering civil infrastructure, main roads or similar for a civil contractor"
+   ]
+  },
+  {
+   "id": "95022688",
+   "company": "Serco Asia Pacific",
+   "title": "Undergraduate Engineer",
+   "run": "20261003T1612Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "Australian citizenship required for Baseline Defence Security Clearance"
+   ]
+  },
+  {
+   "id": "95016530",
+   "company": "Gamuda Engineering Pty Ltd",
+   "title": "BIM Engineer",
+   "run": "20261003T1612Z",
+   "percent": 34,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95012996",
+   "company": "Sarens (Australia) Pty Ltd",
+   "title": "Engineer: Technical Solutions",
+   "run": "20261003T1612Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "3+ years experience in heavy lift, cranage, rigging, transport or temporary works engineering"
+   ]
+  },
+  {
+   "id": "95009439",
+   "company": "TWEED SHIRE COUNCIL",
+   "title": "Engineer - Water and Wastewater Design",
+   "run": "20261003T1612Z",
+   "percent": 48,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95008378",
+   "company": "Downer EDI Limited",
+   "title": "Project Engineer",
+   "run": "20261003T1612Z",
+   "percent": 36,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95001916",
+   "company": "City of Subiaco",
+   "title": "Project Engineer",
+   "run": "20261003T1612Z",
+   "percent": 58,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94996176",
+   "company": "Complex Co.",
+   "title": "Project Engineer",
+   "run": "20261003T1612Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  }
+ ],
+ "candidates": []
+}
