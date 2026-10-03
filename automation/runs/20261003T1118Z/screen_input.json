@@ -1,0 +1,337 @@
+{
+ "count": 4,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "94969508",
+   "company": "GPA Engineering",
+   "title": "Civil/Structural Drafter – ADL",
+   "run": "20261003T0114Z",
+   "percent": 48,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94961556",
+   "company": "Brunel",
+   "title": "Project Engineer - Civil",
+   "run": "20261003T0114Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95021621",
+   "company": "Ertech Pty Ltd",
+   "title": "Project Engineer (Civil)",
+   "run": "20261003T0114Z",
+   "percent": 59,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94958791",
+   "company": "ADF Careers",
+   "title": "Part-Time Civil Engineer (Tax-Free Pay)",
+   "run": "20261003T0114Z",
+   "percent": 27,
+   "mandatory_unmet": [
+    "Citizenship or PR may be required"
+   ]
+  },
+  {
+   "id": "94973025",
+   "company": "Optimum Consulting Group",
+   "title": "Civil Engineer",
+   "run": "20261003T0114Z",
+   "percent": 61,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94969016",
+   "company": "QCCS",
+   "title": "Civil Project Engineer",
+   "run": "20261003T0114Z",
+   "percent": 73,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94995704",
+   "company": "Xeros Piccolo Consulting Engineers",
+   "title": "Structural/Civil Engineer",
+   "run": "20261003T0114Z",
+   "percent": 60,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94961163",
+   "company": "Brunel",
+   "title": "Project Engineer ",
+   "run": "20261003T0114Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94958409",
+   "company": "Right Connect",
+   "title": "Structural Drafter",
+   "run": "20261003T0114Z",
+   "percent": 60,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95021747",
+   "company": "Contec Recruitment Pty Ltd",
+   "title": "Civil Estimator ",
+   "run": "20261003T0114Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94990020",
+   "company": "Gough Recruitment SA",
+   "title": "Civil Estimator",
+   "run": "20261003T0114Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94956743",
+   "company": "Formstruct",
+   "title": "Estimator  - Civil & NPI",
+   "run": "20261003T0114Z",
+   "percent": 75,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94999649",
+   "company": "CPB Contractors NSW ACT",
+   "title": "Project Engineer Building & Infrastructure",
+   "run": "20261003T0114Z",
+   "percent": 34,
+   "mandatory_unmet": [
+    "Citizenship or PR may be required"
+   ]
+  },
+  {
+   "id": "94978646",
+   "company": "Smith & Co",
+   "title": "Estimator",
+   "run": "20261003T0114Z",
+   "percent": 77,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95036163",
+   "company": "Totem Civil Services group PTY LTD",
+   "title": "Project Engineer/ Site Engineer",
+   "run": "20261003T0114Z",
+   "percent": 59,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95021786",
+   "company": "SCP Consulting Pty Ltd",
+   "title": "Draftsperson",
+   "run": "20261003T0114Z",
+   "percent": 42,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95009307",
+   "company": "The Lorian Group",
+   "title": "Construction Cadet / Junior PM",
+   "run": "20261003T0114Z",
+   "percent": 71,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95002679",
+   "company": "Sunshine Coast Council",
+   "title": "Design Engineer",
+   "run": "20261003T0114Z",
+   "percent": 71,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94994373",
+   "company": "Tungsten Mining",
+   "title": "Civil Project Engineer",
+   "run": "20261003T0114Z",
+   "percent": 73,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94991390",
+   "company": "Sunshine Coast Council",
+   "title": "Design Engineer",
+   "run": "20261003T0114Z",
+   "percent": 71,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94987271",
+   "company": "Randstad - Construction, Property & Engineering",
+   "title": "Estimator",
+   "run": "20261003T0114Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94958365",
+   "company": "Symal",
+   "title": "Project Engineer",
+   "run": "20261003T0114Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95028317",
+   "company": "In2work Pty Ltd",
+   "title": "NEW! Project Engineers FIFO and East Coast DTMR Projects!",
+   "run": "20261003T0114Z",
+   "percent": 69,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95020068",
+   "company": "AMT CIVILS",
+   "title": "Project Engineer – Bulk Earthworks | 2:1 Roster | Immediate Start",
+   "run": "20261003T0114Z",
+   "percent": 69,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95016703",
+   "company": "CGC Recruitment",
+   "title": "Site Engineer - Blue Mountains",
+   "run": "20261003T0114Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95001733",
+   "company": "Silver Yachts Australia Pty Ltd",
+   "title": "Fitout/Draftsperson",
+   "run": "20261003T0114Z",
+   "percent": 68,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94994170",
+   "company": "Tognetti Consulting Pty Ltd",
+   "title": "Site Engineer - Central Qld - contract",
+   "run": "20261003T0114Z",
+   "percent": 73,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94990129",
+   "company": "Furn-Niche",
+   "title": "Graduate Estimator",
+   "run": "20261003T0114Z",
+   "percent": 79,
+   "mandatory_unmet": []
+  }
+ ],
+ "candidates": [
+  {
+   "id": "95038050",
+   "source": "seek",
+   "title": "Civil Estimator - Earthworks",
+   "company": "ABS Civil WA Pty Ltd",
+   "location": "Hazelmere, Perth WA",
+   "url": "https://www.seek.com.au/job/95038050",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-03T03:39:41.089Z",
+   "expires_at": "2026-11-02T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a Civil Estimator?",
+    "How much notice are you required to give your current employer?",
+    "Have you completed a qualification in mathematics / mathematical science?",
+    "How many years' experience do you have as a Civil Construction Estimator?"
+   ],
+   "summary": "Civil Estimator for Earthworks preparing cost estimates for civil construction projects.",
+   "opening": "About the role\nThe successful candidate will be responsible for preparing accurate and competitive cost estimates for civil construction projects from tender stage through to project award. The role involves reviewing drawings and specifications, completing quantity take-offs, obtaining subcontractor and supplier pricing, assessing project risks, and developing detailed tender submissions.\nKey responsibilities\n- Review tender documentation, construction drawings, specifications, schedules and scope of works.\n- Prepare detailed quantity take-offs and cost estimates for labour, materials, plant, subcontractors and equipment.\n- Develop estimates for civil works including earthworks, drainage, underground services, roads, pavements, concrete works and associated infrastructure.\n- Obtain and evaluate quotations from subcontractors and suppliers.\n- Prepare requests for quotations and clearly d",
+   "key_lines": [
+    "- Develop construction methodologies and determine appropriate labour and equipment requirements.",
+    "- Calculate production rates and assess project durations and resource requirements.",
+    "- Identify project risks, opportunities, exclusions, qualifications and potential cost impacts.",
+    "- Experience in civil construction estimating or a related civil construction role essential.",
+    "- Experience obtaining and analysing subcontractor and supplier quotations."
+   ]
+  },
+  {
+   "id": "95037323",
+   "source": "seek",
+   "title": "Senoir Structural Drafter - Gold Coast",
+   "company": "Scotford Fennessy Recruitment",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/95037323",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-03T02:30:32.367Z",
+   "expires_at": "2026-10-31T02:00:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Senior Structural Drafter - supported by a Structures Manager who will provide one on one mentorship to progress your career to BIM Lead",
+   "opening": "Senior Structural Drafter | Revit | Buildings | Gold Coast\nStep into a BIM Lead role\nAre you a Senior Structural Drafter who enjoys working on technically challenging buildings and wants to be part of a collaborative, specialist structures consultancy?\n We're partnering with a well-established engineering consultancy on the Gold Coast that's built an outstanding reputation for delivering innovative structural solutions across a diverse portfolio of projects. Due to continued growth, they're looking to add an experienced Structural Drafter to join their team and eventually step into a BIM Lead role.\n About the role \n • Creating and maintaining accurate 3D Revit models from engineering sketches and consultant models.\n • Producing detailed documentation including plans, sections and elevations.\n • Preparing structural drawings for steel and reinforced concrete buildings.\n • Drafting constru",
+   "key_lines": [
+    "Senior Structural Drafter | Revit | Buildings | Gold Coast",
+    "We're partnering with a well-established engineering consultancy on the Gold Coast that's built an outstanding reputation for delivering innovative structural solutions across a diverse portfolio of projects. Due to continued growth, they're looking to add an experienced Structural Drafter to join their team and eventually step into a BIM Lead role.",
+    "• Creating and maintaining accurate 3D Revit models from engineering sketches and consultant models.",
+    "• 10+ years experience using Revit within a structural engineering consultancy.",
+    "• Experience drafting steel and reinforced concrete building structures.",
+    "You'll be joining a respected specialist structural consultancy with a strong pipeline of projects across commercial, residential, education, health, transport and industrial sectors.",
+    "Apply now or contact Vicky for a confidential discussion."
+   ]
+  },
+  {
+   "id": "calibre-graduate-engineer-roads-highways-sunshine-coast-20261003",
+   "source": "employer_portal",
+   "title": "Graduate Engineer - Roads & Highways",
+   "company": "Calibre Group",
+   "location": "Sunshine Coast QLD",
+   "url": "https://www.livehire.com/careers/calibre/job/YMY8M/UKGN6LN7G2/graduate-engineer-roads-highways",
+   "work_type": null,
+   "salary": null,
+   "listed_at": "2026-10-03",
+   "expires_at": null,
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "",
+   "opening": "Graduate Engineer - Roads & Highways\nLocation Sunshine Coast, QLD. Work Type Full time. Positions 1.\nJoin Calibre Transport team Sunshine Coast office.\nThe Calibre Graduate Program is a two-year integrated experience combining on-the-job learning, professional and technical training, mentoring and development opportunities.\nCalibre is part of Calibre Group alongside Diona and Sevengen. Engineering, consulting, construction, project delivery across Australia and New Zealand.\nRequirements: recently graduated with relevant tertiary qualifications in Civil Engineering and 0-1 years of experience. Keen interest in Calibre, excellent communication, commitment, willingness to learn, desire to work in a dynamic deadline-driven environment.\nApply with resume, covering letter and academic transcripts. Applications without those will not be considered.\nJob no: YMY8M. Verified open 3 Oct 2026 via Li",
+   "key_lines": [
+    "Graduate Engineer - Roads & Highways",
+    "The Calibre Graduate Program is a two-year integrated experience combining on-the-job learning, professional and technical training, mentoring and development opportunities.",
+    "Requirements: recently graduated with relevant tertiary qualifications in Civil Engineering and 0-1 years of experience. Keen interest in Calibre, excellent communication, commitment, willingness to learn, desire to work in a dynamic deadline-driven environment.",
+    "Apply with resume, covering letter and academic transcripts. Applications without those will not be considered."
+   ]
+  },
+  {
+   "id": "taylors-ds-grad-civil-eoi-20261003",
+   "source": "employer_careers",
+   "title": "Graduate civil engineer or civil draftsperson - expression of interest (Melbourne)",
+   "company": "Taylors Development Strategists",
+   "location": "Melbourne VIC (Notting Hill / Melbourne metro)",
+   "url": "https://www.taylorsds.com.au/careers/",
+   "work_type": null,
+   "salary": null,
+   "listed_at": "2026-10-03",
+   "expires_at": null,
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "",
+   "opening": "Careers at Taylors Development Strategists\nRelationships, Expertise and Solutions across Urban Development, Built Environments, Infrastructure and Engineering and Project Management.\n65 years experience, 160+ professionals.\nServices include Civil Engineering, Land Surveying, Urban Planning, Urban Design, Architecture, Landscape Architecture, Project Management, Engineering Construction Survey, Engineering Design Survey, Utilities Asset Capture and Geospatial Mapping.\nCareers page contact for business updates and enquiries: enquiries@taylorsds.com.au, phone 03 9501 2800.\nNo individual dated vacancy listed on the careers page on 3 Oct 2026.\nTarget roles of interest: graduate civil engineer, junior civil designer or civil draftsperson supporting land development and infrastructure work in Melbourne.\n",
+   "key_lines": [
+    "65 years experience, 160+ professionals.",
+    "Target roles of interest: graduate civil engineer, junior civil designer or civil draftsperson supporting land development and infrastructure work in Melbourne."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "taylors-ds-grad-civil-eoi-20261003",
+  "percent": 71,
+  "rationale": [
+    "Melbourne land-development multidisciplinary consultancy (civil, survey, planning) matching Marc Melton location and civil drafting/design pathway.",
+    "Careers page publishes enquiries@taylorsds.com.au; no dated vacancy today so this is a speculative EOI for graduate civil or drafting.",
+    "Advanced Diploma civil construction design plus Philippines site work and BSCE support a junior consulting path; honest limit is no Australian consulting employment yet."
+  ],
+  "caution": "Speculative only; general enquiries inbox; employer previously had a HELD_VERIFICATION note on tracker from Sep 2026.",
+  "gaps": [
+    "No dated vacancy",
+    "No Australian consulting employment"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "EMAIL",
+  "apply_email": "enquiries@taylorsds.com.au",
+  "apply_instructions": "Email speculative EOI with resume and cover letter to enquiries@taylorsds.com.au as published on the careers page.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Taylors Development Strategists",
+  "title": "Graduate civil engineer or civil draftsperson - expression of interest (Melbourne)",
+  "location": "Melbourne VIC (Notting Hill / Melbourne metro)",
+  "url": "https://www.taylorsds.com.au/careers/",
+  "listed_at": "2026-10-03",
+  "expires_at": null,
+  "screening_questions": [],
+  "company_work_verified": true,
+  "company_work_evidence": "https://www.taylorsds.com.au/careers/ and https://www.taylorsds.com.au/ (Urban Development, Built Environments, Infrastructure and Engineering, Project Management; civil engineering, land surveying, urban planning; 65 years, 160+ professionals; enquiries@taylorsds.com.au). Verified 2026-10-03 AEST via WebFetch/browse.py."
+}

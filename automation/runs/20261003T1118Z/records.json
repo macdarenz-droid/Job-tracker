@@ -1,0 +1,206 @@
+[
+ {
+  "id": "948dd9b4-b73a-4688-925c-f70fa89a8b8d",
+  "key": "manual:948dd9b4-b73a-4688-925c-f70fa89a8b8d",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261003T1118Z",
+  "created_at": "2026-10-03T11:31:27.000Z",
+  "updated_at": "2026-10-03T11:31:27.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "9ddc435e-de56-4fdb-bfe0-0786a607e0fa",
+    "path": "/api/documents/9ddc435e-de56-4fdb-bfe0-0786a607e0fa",
+    "filename": "Marc_Masarate_Calibre_Group_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-03T11:31:29.087Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "29c3fe69-4906-413a-8b58-d344a4f4a652",
+    "path": "/api/documents/29c3fe69-4906-413a-8b58-d344a4f4a652",
+    "filename": "Marc_Masarate_Calibre_Group_Graduate_Engineer_Roads_Highways_Cover_Letter.pdf",
+    "sha256": "a64fcd756fbbcce7b83135c2610d15176670d2ffbd205c031051a54317f80d87",
+    "size_bytes": 51449,
+    "kind": "cover",
+    "uploaded_at": "2026-10-03T11:31:27.873Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Calibre Group",
+  "role": "Graduate Engineer - Roads & Highways",
+  "location": "Sunshine Coast QLD",
+  "job_url": "https://www.livehire.com/careers/calibre/job/YMY8M/UKGN6LN7G2/graduate-engineer-roads-highways",
+  "company_url": "https://www.calibregroup.com.au/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "ADVERTISED",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "Graduate recruitment (LiveHire)",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.livehire.com/careers/calibre/job/YMY8M/UKGN6LN7G2/graduate-engineer-roads-highways",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Application: Graduate Engineer - Roads and Highways, Sunshine Coast, Marc Masarate",
+  "email_body": "Hello,\n\nI am applying for the Graduate Engineer, Roads and Highways role on the Sunshine Coast through your LiveHire listing (job YMY8M), part of the Calibre Graduate Program.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design with road, earthworks, pavement and stormwater design in AutoCAD and Civil 3D. I also hold a Bachelor of Science in Civil Engineering (Philippines, 2019). From 2019 to 2020 I worked on site in the Philippines as project in charge and field engineer.\n\nI am Melton based, hold a White Card, an Australian driver's licence and own transport, and have full working rights until December 2027 on a Subclass 485 visa. I am available for site, office and regional work and open to discussing relocation for the right graduate role. I do not yet have Australian consulting employment.\n\nYour two-year graduate pathway in Transport on Roads and Highways matches the road and civil documentation work I studied.\n\nI have attached my resume and cover letter. Portfolio: https://macdarenz-droid.github.io/Portfolio.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Advertised Calibre Graduate Program for Roads and Highways: recently graduated Civil Engineering with 0-1 years experience.",
+   "Marc holds a BSCE (2019) and finished Advanced Diploma of Civil Construction Design Feb 2026 with road, earthworks, pavement and stormwater in Civil 3D and AutoCAD.",
+   "Sunshine Coast QLD is outside Melbourne west but Marc is open to discussing relocation and regional work; portal apply only."
+  ],
+  "gaps": [
+   "No Australian consulting employment",
+   "Queensland relocation would need Marc confirmation"
+  ],
+  "match_score": {
+   "percent": 74,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Advertised Calibre Graduate Program for Roads and Highways: recently graduated Civil Engineering with 0-1 years experience.",
+    "Marc holds a BSCE (2019) and finished Advanced Diploma of Civil Construction Design Feb 2026 with road, earthworks, pavement and stormwater in Civil 3D and AutoCAD.",
+    "Sunshine Coast QLD is outside Melbourne west but Marc is open to discussing relocation and regional work; portal apply only."
+   ],
+   "caution": "Sunshine Coast not Melton; no Australian commercial employment yet."
+  },
+  "advert": {
+   "source": "employer_portal",
+   "listed_at": "2026-10-03",
+   "expires_at": "",
+   "verified_at": "2026-10-03T11:31:27.000Z",
+   "apply_instructions": "Apply on LiveHire with resume, covering letter and academic transcripts.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Open LiveHire Calibre job YMY8M and confirm the Roads and Highways graduate role is still open.",
+   "Upload resume, cover letter PDF and academic transcripts as the advert requires.",
+   "Do not claim Australian consulting employment or permanent residency.",
+   "Confirm Marc is willing to discuss Sunshine Coast relocation before pressing Applied.",
+   "After portal submit, mark Applied on the tracker with method Company website."
+  ],
+  "notes": "ADVERTISED_VACANCY via LiveHire. Victoria offsite rotation widened to QLD graduate after Melb-west SEEK/council boards were largely already screened. No published direct hiring email.\nNo published personal hiring email; LiveHire portal only. Do not guess emails.\nHOW GROK AI FOUND THIS\nFound on employer_portal (listed 2026-10-03). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate Engineer - Roads & Highways role on SEEK.\n• They may ask about: No Australian consulting employment → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Queensland relocation would need Marc confirmation → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_portal (listed 2026-10-03). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate Engineer - Roads & Highways role on SEEK.",
+   "They may ask about: No Australian consulting employment → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Queensland relocation would need Marc confirmation → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-03T11:31:27.000Z",
+  "duplicate_key": "calibregroup|livehire.com/careers/calibre/job/ymy8m/ukgn6ln7g2/graduate-engineer-roads-highways"
+ },
+ {
+  "id": "1f1a782e-dedf-4936-aa53-c541f14d8581",
+  "key": "manual:1f1a782e-dedf-4936-aa53-c541f14d8581",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261003T1118Z",
+  "created_at": "2026-10-03T11:31:30.000Z",
+  "updated_at": "2026-10-03T11:31:30.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "01092a45-b837-431d-8264-933fb12c502f",
+    "path": "/api/documents/01092a45-b837-431d-8264-933fb12c502f",
+    "filename": "Marc_Masarate_Taylors_Development_Strategists_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-03T11:31:32.665Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "031385d0-0474-4d7d-8d84-c1ade4321f87",
+    "path": "/api/documents/031385d0-0474-4d7d-8d84-c1ade4321f87",
+    "filename": "Marc_Masarate_Taylors_Development_Strategists_Graduate_civil_engineer_or_civil_draftsp_Cover_Letter.pdf",
+    "sha256": "629a6896382598546dfa1ce6c6ea28aac22f4a6c685b96d089f80b630bfe7c45",
+    "size_bytes": 48525,
+    "kind": "cover",
+    "uploaded_at": "2026-10-03T11:31:31.323Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Taylors Development Strategists",
+  "role": "Graduate civil engineer or civil draftsperson - expression of interest (Melbourne)",
+  "location": "Melbourne VIC (Notting Hill / Melbourne metro)",
+  "job_url": "https://www.taylorsds.com.au/careers/",
+  "company_url": "https://www.taylorsds.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Enquiries / Careers",
+  "recipient_email": "enquiries@taylorsds.com.au",
+  "contact_email": "enquiries@taylorsds.com.au",
+  "contact_evidence_url": "https://www.taylorsds.com.au/careers/",
+  "contact_verified_at": "2026-10-03T11:31:30.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Graduate civil engineer or civil draftsperson EOI, Melbourne, Marc Masarate",
+  "email_body": "Hello,\n\nThis is a speculative enquiry, not a reply to a named vacancy. Your careers page publishes enquiries@taylorsds.com.au, so I am writing about graduate civil engineering or civil drafting work with your Melbourne team on land development and infrastructure projects.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design with road, earthworks, pavement and stormwater design in AutoCAD and Civil 3D. I also hold a Bachelor of Science in Civil Engineering (Philippines, 2019). From 2019 to 2020 I worked on site in the Philippines as project in charge and field engineer.\n\nI am Melton based, hold a White Card, an Australian driver's licence and own transport, and have full working rights until December 2027 on a Subclass 485 visa. I am available for office, site and regional work. I do not yet have Australian consulting employment, so mentoring on civil design or drafting for subdivisions and infrastructure is what I am looking for.\n\nTaylors brings civil engineering together with surveying, planning and urban design across Urban Development and Infrastructure work.\n\nI have attached my resume and cover letter. Portfolio: https://macdarenz-droid.github.io/Portfolio.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Melbourne land-development multidisciplinary consultancy (civil, survey, planning) matching Marc Melton location and civil drafting/design pathway.",
+   "Careers page publishes enquiries@taylorsds.com.au; no dated vacancy today so this is a speculative EOI for graduate civil or drafting.",
+   "Advanced Diploma civil construction design plus Philippines site work and BSCE support a junior consulting path; honest limit is no Australian consulting employment yet."
+  ],
+  "gaps": [
+   "No dated vacancy",
+   "No Australian consulting employment"
+  ],
+  "match_score": {
+   "percent": 71,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Melbourne land-development multidisciplinary consultancy (civil, survey, planning) matching Marc Melton location and civil drafting/design pathway.",
+    "Careers page publishes enquiries@taylorsds.com.au; no dated vacancy today so this is a speculative EOI for graduate civil or drafting.",
+    "Advanced Diploma civil construction design plus Philippines site work and BSCE support a junior consulting path; honest limit is no Australian consulting employment yet."
+   ],
+   "caution": "Speculative only; general enquiries inbox; employer previously had a HELD_VERIFICATION note on tracker from Sep 2026."
+  },
+  "advert": {
+   "source": "employer_careers",
+   "listed_at": "2026-10-03",
+   "expires_at": "",
+   "verified_at": "2026-10-03T11:31:30.000Z",
+   "apply_instructions": "Email speculative EOI with resume and cover letter to enquiries@taylorsds.com.au as published on the careers page.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Confirm this remains a speculative EOI (no named Taylors Development Strategists vacancy applied in the last 90 days).",
+   "Send the prepared email to enquiries@taylorsds.com.au with both PDFs.",
+   "Do not invent named hiring managers or claim Australian consulting work.",
+   "If Taylors replies with a portal or form link, use that and update the tracker.",
+   "Press Applied on the tracker after send with method Email."
+  ],
+  "notes": "SPECULATIVE_ENQUIRY. Published enquiries@taylorsds.com.au on careers page. No dated vacancy verified 3 Oct 2026. Victoria offsite rotation (Melbourne west first). Labelled clearly as speculative.\nPublished careers/enquiries inbox on careers page. No named engineering manager email found without guessing. Speculative EOI.\nHOW GROK AI FOUND THIS\nFound on employer_careers (listed 2026-10-03). Contact: the application inbox enquiries@taylorsds.com.au published by the employer (https://www.taylorsds.com.au/careers/); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate civil engineer or civil draftsperson - expression of interest (Melbourne) role on SEEK.\n• They may ask about: No dated vacancy → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian consulting employment → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_careers (listed 2026-10-03). Contact: the application inbox enquiries@taylorsds.com.au published by the employer (https://www.taylorsds.com.au/careers/); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate civil engineer or civil draftsperson - expression of interest (Melbourne) role on SEEK.",
+   "They may ask about: No dated vacancy → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian consulting employment → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-03T11:31:30.000Z",
+  "duplicate_key": "taylorsdevelopmentstrategists|taylorsds.com.au/careers"
+ }
+]

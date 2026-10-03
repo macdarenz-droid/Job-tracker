@@ -1,0 +1,38 @@
+{
+  "id": "95038050",
+  "percent": 38,
+  "rationale": [
+    "Civil Estimator role with experience in civil construction estimating described as essential.",
+    "Marc has coursework cost estimates and bills of quantities only, not a paid estimating role, and has not used Bluebeam, E1 or Benchmark.",
+    "Perth WA location is acceptable for relocation discussion but the experience bar dominates fit."
+  ],
+  "caution": "Essential estimating experience and estimating software not met from facts.json.",
+  "gaps": [
+    "No paid civil estimating role",
+    "No Bluebeam/E1 experience",
+    "No Australian commercial estimating"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [
+    "Whether experience essential means paid estimating only"
+  ],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "SEEK apply if pursued later.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "ABS Civil WA Pty Ltd",
+  "title": "Civil Estimator - Earthworks",
+  "location": "Hazelmere, Perth WA",
+  "url": "https://www.seek.com.au/job/95038050",
+  "listed_at": "2026-10-03T03:39:41.089Z",
+  "expires_at": "2026-11-02T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a Civil Estimator?",
+    "How much notice are you required to give your current employer?",
+    "Have you completed a qualification in mathematics / mathematical science?",
+    "How many years' experience do you have as a Civil Construction Estimator?"
+  ]
+}
