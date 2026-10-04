@@ -1,616 +1,660 @@
 {
-  "_about": "Employers verified by earlier runs: careers URL, apply route, named contacts with evidence. Grows over time; never guessed.",
-  "employers": {
-    "Beveridge Williams": {
-      "careers_url": "https://beveridgewilliams.com.au/careers/",
-      "checked_at": "2026-09-28",
-      "open_junior_roles": [],
-      "notes": "Careers page promotes an ongoing Engineering Development Program but the job board runs on a JS-only Workit portal that could not be read; a separately found LinkedIn ad for Graduate Civil Engineer redirected to trk=expired_jd_redirect (confirmed expired), so no open junior role was verified."
-    },
-    "Taylors Development Strategists": {
-      "careers_url": "https://www.taylorsds.com.au/careers/join-our-team/",
-      "checked_at": "2026-09-28",
-      "open_junior_roles": [],
-      "notes": "Site's own careers pages list no postings; live roles found via its Dreamwork ATS (dreamworkhq.com/c/taylorsconsulting.com.au) are Senior Landscape Architect, Surveyor - Construction Engineering and Senior Surveyor - Engineering Design Survey, none junior/civil-engineer relevant."
-    },
-    "Spiire": {
-      "careers_url": "https://www.spiire.com.au/careers/",
-      "checked_at": "2026-09-28",
-      "open_junior_roles": [],
-      "notes": "Job board (spiire.elmotalent.com.au/careers/spiire/jobs) currently lists only Expressions of Interest - Civil Engineering (Townsville, EOI not a role), Student Town Planner (Brisbane), and Graduate Surveyor (Geelong) - no open graduate/junior civil engineer or drafter role."
-    },
-    "Reeds Consulting": {
-      "careers_url": "https://www.reedsconsulting.com.au/careers/",
-      "checked_at": "2026-10-01",
-      "open_junior_roles": [],
-      "notes": "No vacancies; Contact page publishes recruitment@reedsconsulting.com.au for recruitment EOIs; careers form also accepts Graduate Work Experience EOI. Speculative PREPARED this tick."
-    },
-    "Tonkin Consulting": {
-      "careers_url": "https://www.tonkin.com.au/careers/",
-      "checked_at": "2026-10-02",
-      "open_junior_roles": [
-        {
-          "title": "Graduate Development Program",
-          "url": "https://www.tonkin.com.au/graduate-development-program",
-          "apply": "Saumya.Sharma@tonkin.com.au"
-        }
-      ],
-      "notes": "Graduate program page publishes Saumya.Sharma@tonkin.com.au. Mildura VIC office among locations."
-    },
-    "Calibre Group": {
-      "careers_url": "https://calibregroup.com/careers/ (redirects to https://www.wsp.com/en-au)",
-      "checked_at": "2026-09-28",
-      "open_junior_roles": [],
-      "notes": "Calibre Group was acquired by WSP Global in June 2023; its careers URL now 301-redirects to WSP's main site, so no standalone Calibre careers page or Calibre-branded junior civil roles exist to check."
-    },
-    "Winslow Constructors": {
-      "careers_url": "https://winslow.com.au/work-with-us/graduate-program",
-      "checked_at": "2026-09-30",
-      "open_junior_roles": [],
-      "notes": "blocked_prior_outreach (Winslow Group undergraduate/graduate APPLICATION_UNDER_REVIEW 2026-09-27). Ballarat/Warrnambool cadet ads open via Move To More / Prosple; Prosple eligibility lists Citizen/PR."
-    },
-    "Symal": {
-      "careers_url": "https://symal.com.au/programs/ignite/",
-      "checked_at": "2026-09-30",
-      "open_junior_roles": [],
-      "notes": "Ignite 2027 intake closed; reopens March 2027. Eligibility requires Australian or New Zealand citizen or permanent resident."
-    },
-    "Civilex": {
-      "careers_url": "https://symal.com.au/programs/ignite/",
-      "checked_at": "2026-09-30",
-      "open_junior_roles": [],
-      "notes": "Civilex operates under Symal; same Ignite pathway. No separate open junior Civilex advert found this tick."
-    },
-    "Bild Group": {
-      "company_url": "https://bild.group/",
-      "careers_url": "https://bild.group/careers/browse-careers/",
-      "board": "HiBob ATS at bildgroup.careers.hibob.com",
-      "checked_at": "2026-10-02",
-      "result": "none",
-      "notes": "Recheck: still no graduate/junior/cadet/drafter title; Estimator list unchanged from 2026-09-28 notes",
-      "open_junior_roles": []
-    },
-    "Delplant": {
-      "company_url": "https://delplant.com.au/",
-      "careers_url": "https://delplant.com.au/careers/",
-      "board": "none (own site, employment form)",
-      "checked_at": "2026-09-28",
-      "result": "none",
-      "notes": "Careers page read in full. Open roles: Labourers, Pipelayers, Plant Operators, Crew Leaders, Project Managers & Project Engineers (engineering/construction management degree plus minimum 5 years construction and water-industry experience - not junior), and a Truck Driver (Narre Warren). No graduate/junior/cadet/trainee/drafting role listed."
-    },
-    "TGM Group": {
-      "company_url": "https://tgmgroup.com (unreachable)",
-      "careers_url": "unknown - site unreachable",
-      "board": "unknown",
-      "checked_at": "2026-09-28",
-      "result": "blocked",
-      "notes": "tgmgroup.com and tgmgroup.com.au both failed on every attempt (TLS connection reset / proxy connect_rejected), so no page could be read at all. Background found via search: TGM Group Pty Ltd (Hawthorn VIC land-development engineering consultancy) was acquired by Cardno in 2018 and traded as 'Cardno TGM'; Cardno's ANZ operations were then acquired by Stantec in 2021. TGM likely no longer trades as an independent employer with its own careers page, which is consistent with the dead domain, but this could not be directly confirmed."
-    },
-    "Robert Bird Group Pty Ltd": {
-      "careers_url": "https://surbanajurong.wd3.myworkdayjobs.com/en-US/RobertBirdGroup_Careers",
-      "checked_at": "2026-09-30",
-      "open_junior_roles": [
-        "Graduate Civil Engineer Melbourne JR118870"
-      ],
-      "notes": "Workday JSON-LD readable; ANZ employment@ cycle currently closed."
-    },
-    "SMEC Services Pty Limited": {
-      "careers_url": "https://surbanajurong.wd3.myworkdayjobs.com/en-US/careersatsmec",
-      "checked_at": "2026-09-30",
-      "open_junior_roles": [
-        "Graduate Civil Engineer Rail & Metro Melbourne JR118137"
-      ],
-      "notes": "GDP Rail Metro; portal only."
-    },
-    "Maker Consulting Services": {
-      "careers_url": "https://www.makercs.com.au/careers/",
-      "checked_at": "2026-09-30",
-      "open_junior_roles": [
-        "Graduate and Undergraduate Civil Engineers Newcastle SEEK 94936643"
-      ],
-      "notes": "Program apply inbox info@makereng.com.au on undergrad page; SEEK also open."
-    },
-    "Central Highlands Water": {
-      "careers_url": "https://www.livehire.com/careers/chw/jobs",
-      "checked_at": "2026-09-30",
-      "open_junior_roles": [
-        "Graduate Infrastructure Planning and Delivery"
-      ],
-      "notes": "LiveHire P6BA4; careers@ for discussion only."
-    },
-    "ATC Williams": {
-      "careers_url": "https://atcwilliams.com/graduate-programs/",
-      "checked_at": "2026-09-30",
-      "open_junior_roles": [],
-      "notes": "blocked_prior_outreach (Cadet Civil Drafter MANUAL_APPLIED 2026-09-24 within 90 days). Graduate pathway EOI open year-round; Melb vacation intake dates listed."
-    },
-    "Martens & Associates": {
-      "careers_url": "https://www.martens.com.au/careers/",
-      "checked_at": "2026-09-30",
-      "open_junior_roles": [],
-      "notes": "blocked_prior_outreach (Civil Drafter MANUAL_APPLIED 2026-09-25). Open Intern Civil Design Engineer and Civil Design Engineer posts; advert text prefers no restricted visa holders."
-    },
-    "Civille": {
-      "careers_url": "https://www.civille.com.au/",
-      "checked_at": "2026-09-30",
-      "open_junior_roles": [],
-      "notes": "blocked_prior_outreach (Graduate Civil/Structural MANUAL_APPLIED / SEEK receipt 2026-09-26)."
-    },
-    "Melton City Council": {
-      "careers_url": "https://meltoncity-external.applynow.net.au/",
-      "checked_at": "2026-10-01",
-      "open_junior_roles": [
-        "Civil Projects Officer MEL1888"
-      ],
-      "notes": "Civil Projects Officer Band 6 screened 48 percent (below threshold). GIS Officer requires spatial science."
-    },
-    "BMD Group": {
-      "careers_url": "https://www.bmdgroup.global/careers/graduates-entry-pathways",
-      "checked_at": "2026-10-01",
-      "open_junior_roles": [
-        "Undergraduate Engineers Civil & Electrical Healesville SEEK 94858362"
-      ],
-      "notes": "Undergrad role requires currently studying Bachelor graduating 2028; not a fit for Marc (BSCE 2019, Adv Dip Feb 2026). Foundations program EOI page only."
-    },
-    "Georgiou Group": {
-      "careers_url": "https://georgiou.csod.com/ux/ats/careersite/4/home?c=georgiou",
-      "checked_at": "2026-10-01",
-      "open_junior_roles": [
-        "Undergraduate and Graduate Positions EOI"
-      ],
-      "notes": "EOI via ViewJobs/CSOD; Cadet & Graduate Development Program page live. READY portal this tick."
-    },
-    "Millar Merrigan": {
-      "careers_url": "https://www.millarmerrigan.com.au/careers/",
-      "checked_at": "2026-10-01",
-      "open_junior_roles": [
-        "Design Engineering Graduate Program (closes 30 Oct 2026)",
-        "Infrastructure Internship Program"
-      ],
-      "notes": "careers@millarmerrigan.com.au published for applications. Design Eng Grad PREPARED_NOT_SENT this tick."
-    },
-    "Downer": {
-      "careers_url": "https://downergroup.com/life-at-downer/young-professionals-hub/downer-graduate-program/",
-      "checked_at": "2026-10-01",
-      "open_junior_roles": [],
-      "notes": "Graduate Engineering Program 2027 requires Australian Citizenship or PR."
-    },
-    "Ventia": {
-      "careers_url": "https://jobs.ventia.com/global/en/graduate-program",
-      "checked_at": "2026-10-01",
-      "open_junior_roles": [],
-      "notes": "2027 Civil/Structural Grad closed 17 Aug 2026; requires citizen/PR or 485 valid to end-2028."
-    },
-    "Mackenzie Environmental": {
-      "company_url": "https://www.mackenzieenvironmental.com.au/",
-      "careers_url": "https://www.mackenzieenvironmental.com.au/career-opportunities",
-      "checked_at": "2026-10-02",
-      "open_junior_roles": [
-        "Graduate EOI via enquiries@mackenviro.com.au (actively recruiting)"
-      ],
-      "notes": "Victoria offsite tick 20261002T0012Z. Also lists experienced Civil Designer/Drafter/3D Modeller stream."
-    },
-    "Austral Construction": {
-      "company_url": "https://australconstruction.com.au/",
-      "careers_url": "https://australconstruction.com.au/engineering-graduate-program/",
-      "checked_at": "2026-10-02",
-      "open_junior_roles": [
-        "Engineering Graduate Program (careers@australconstruction.com.au)"
-      ],
-      "notes": "Victoria offsite tick 20261002T0012Z. Mulgrave office; Year 2 FIFO. Part of Keller Group."
-    },
-    "Breese Pitt Dixon": {
-      "careers_url": "https://www.bpd.com.au/careers/",
-      "checked_at": "2026-10-02",
-      "open_junior_roles": [],
-      "notes": "Victoria offsite 20261002T0012Z: careers EOI URL already on tracker (PLATFORM_BLOCKED); skipped duplicate."
-    },
-    "Westera Partners": {
-      "careers_url": "https://www.westerapartners.com.au/careers",
-      "checked_at": "2026-10-02",
-      "open_junior_roles": [],
-      "notes": "Victoria offsite 20261002T0012Z: graduate careers URL already PREPARED_NOT_SENT on tracker; skipped duplicate."
-    },
-    "Bornhorst + Ward": {
-      "careers_url": "https://www.bornhorstward.com.au/careers",
-      "checked_at": "2026-10-02",
-      "notes": "Victoria offsite 20261002T0012Z: undergraduate closed; cadet opens early 2027; graduate pathway already READY_FOR_JEREMIE on tracker."
-    },
-    "DTM Geocivil Consulting": {
-      "company_url": "https://dtmgeocivil.com.au/",
-      "careers_url": "https://dtmgeocivil.com.au/career.html",
-      "checked_at": "2026-10-03",
-      "open_junior_roles": [],
-      "notes": "No open positions; future-opportunity CVs to info@dtmgeocivil.com.au. Speculative PREPARED_NOT_SENT this tick (20261003T1612Z)."
-    },
-    "Diona": {
-      "careers_url": "https://www.livehire.com/careers/dionaptyltd/job/FKQN4/SXI2MWAGZX/graduate-engineer",
-      "checked_at": "2026-10-02",
-      "notes": "Graduate Engineer Brisbane LiveHire URL returned 404 this tick; Site/Project Engineer ads require 2\u20135 years",
-      "open_junior_roles": []
-    },
-    "Abergeldie": {
-      "careers_url": "https://abergeldie.com/careers/current-opportunities",
-      "checked_at": "2026-10-02",
-      "notes": "Current opportunities page JS-empty; third-party mirrors for QLD graduate civil require completed civil degree and QLD licence; browse.py chromium missing on box",
-      "open_junior_roles": []
-    },
-    "Daracon": {
-      "careers_url": "https://daracon.com.au/careers/tertiary-pathway",
-      "checked_at": "2026-10-02",
-      "notes": "Cadet pathway page only (labourer\u2192cadet\u2192graduate while studying); no dated open graduate vacancy verified",
-      "open_junior_roles": []
-    },
-    "Ertech": {
-      "careers_url": "https://jobs.ertech.com.au/en/listing/",
-      "checked_at": "2026-10-02",
-      "notes": "2027 Graduate Program Civil listing closed (ViewJobs); live board is experienced PE/Site Engineer only",
-      "open_junior_roles": []
-    },
-    "Highway Construction": {
-      "careers_url": "https://www.highwayconstruction.com.au/",
-      "checked_at": "2026-10-02",
-      "notes": "No careers board or open junior/graduate advert found; contact admin@hicon.com.au is general website contact only",
-      "open_junior_roles": []
-    },
-    "Water Technology": {
-      "careers_url": "https://www.watertech.com.au/applications-now-open-graduates-interns/",
-      "checked_at": "2026-10-02",
-      "notes": "2026 graduate campaign open to Civil Engineering graduates, close 5pm ACST 29 October; PREPARED_NOT_SENT recruitment@watertech.com.au",
-      "open_junior_roles": [
-        {
-          "title": "Graduate positions 2026",
-          "url": "https://www.watertech.com.au/applications-now-open-graduates-interns/",
-          "apply": "recruitment@watertech.com.au"
-        }
-      ]
-    },
-    "Wagners": {
-      "careers_url": "https://www.wagner.com.au/careers/",
-      "last_checked": "2026-10-03",
-      "notes": "Speculative PREPARED_NOT_SENT careers@wagner.com.au this tick"
-    },
-    "Hazell Bros": {
-      "careers_url": "https://hazellbros.com.au/careers/graduate-programs/",
-      "last_checked": "2026-10-03",
-      "notes": "Graduate program Australian uni degree mandatory; Site Engineer GC 2+ years"
-    },
-    "Northrop Consulting Engineers": {
-      "careers_url": "https://northrop.com.au/careers/",
-      "last_checked": "2026-10-03",
-      "notes": "EOI form READY_JEREMIE_EMPLOYER_FORM this tick"
-    },
-    "Pensar": {
-      "careers_url": "https://pensar.com.au/current-opportunities/",
-      "last_checked": "2026-10-03",
-      "notes": "No open junior/grad title verified"
-    },
-    "Shadforth Civil": {
-      "careers_url": "https://www.shadcivil.com.au/current-opportunities",
-      "last_checked": "2026-10-03",
-      "notes": "Undergrad Fraser Coast while studying; skipped"
-    },
-    "Whitehorse City Council": {
-      "careers_url": "https://www.whitehorse.vic.gov.au/about-whitehorse/administration/jobs/job-opportunities",
-      "checked_at": "2026-10-03",
-      "open_junior_roles": [
-        {
-          "title": "Asset Engineer",
-          "url": "https://www.seek.com.au/job/95013854",
-          "apply": "Council portal / SEEK link-out; closes ~18 Oct 2026 per advert text"
-        }
-      ],
-      "notes": "councils_government rotation 20261003T0114Z: Asset Engineer SEEK 95013854 prepared READY_JEREMIE_EMPLOYER_PORTAL."
-    },
-    "Cascada": {
-      "careers_url": "https://www.cascadagroup.com.au/contact/",
-      "checked_at": "2026-10-03",
-      "open_junior_roles": [
-        {
-          "title": "AutoCAD Draftsperson - Reinforced Concrete",
-          "url": "https://www.seek.com.au/job/95021585",
-          "apply": "SEEK only; sales@ is sales inbox"
-        }
-      ],
-      "notes": "SEEK 95021585 prepared READY_JEREMIE_SEEK this tick."
-    },
-    "DOF": {
-      "company_url": "https://www.dof.com/",
-      "careers_url": "https://apply.workable.com/j/A527AA0C3B",
-      "board": "Workable",
-      "checked_at": "2026-10-04",
-      "open_junior_roles": [
-        {
-          "title": "Junior Draftsperson",
-          "url": "https://apply.workable.com/j/A527AA0C3B",
-          "apply": "Workable portal; closes 15 Oct 2026"
-        }
-      ],
-      "notes": "Junior Draftsperson Perth CBD Advanced Diploma Civil & Structural + AutoCAD 2D; READY_JEREMIE_EMPLOYER_PORTAL this tick."
-    },
-    "GPA Engineering": {
-      "company_url": "https://www.gpaeng.com.au/",
-      "careers_url": "https://gpaeng.elmotalent.com.au/careers/career/job/view/105",
-      "board": "ElmoTalent / Cohort",
-      "checked_at": "2026-10-04",
-      "open_junior_roles": [
-        {
-          "title": "EOI Engineering Professionals incl Drafters Civil/Structural",
-          "url": "https://gpaeng.elmotalent.com.au/careers/career/job/view/105",
-          "apply": "portal; HR@gpaeng.com.au queries"
-        }
-      ],
-      "notes": "EOI to 31 Dec 2026; HELD industry-experience-in-key-sectors unresolved this tick."
-    }
+ "_about": "Employers verified by earlier runs: careers URL, apply route, named contacts with evidence. Grows over time; never guessed.",
+ "employers": {
+  "Beveridge Williams": {
+   "careers_url": "https://beveridgewilliams.com.au/careers/",
+   "checked_at": "2026-09-28",
+   "open_junior_roles": [],
+   "notes": "Careers page promotes an ongoing Engineering Development Program but the job board runs on a JS-only Workit portal that could not be read; a separately found LinkedIn ad for Graduate Civil Engineer redirected to trk=expired_jd_redirect (confirmed expired), so no open junior role was verified."
   },
-  "sweep_log": [
+  "Taylors Development Strategists": {
+   "careers_url": "https://www.taylorsds.com.au/careers/join-our-team/",
+   "checked_at": "2026-09-28",
+   "open_junior_roles": [],
+   "notes": "Site's own careers pages list no postings; live roles found via its Dreamwork ATS (dreamworkhq.com/c/taylorsconsulting.com.au) are Senior Landscape Architect, Surveyor - Construction Engineering and Senior Surveyor - Engineering Design Survey, none junior/civil-engineer relevant."
+  },
+  "Spiire": {
+   "careers_url": "https://www.spiire.com.au/careers/",
+   "checked_at": "2026-09-28",
+   "open_junior_roles": [],
+   "notes": "Job board (spiire.elmotalent.com.au/careers/spiire/jobs) currently lists only Expressions of Interest - Civil Engineering (Townsville, EOI not a role), Student Town Planner (Brisbane), and Graduate Surveyor (Geelong) - no open graduate/junior civil engineer or drafter role."
+  },
+  "Reeds Consulting": {
+   "careers_url": "https://www.reedsconsulting.com.au/careers/",
+   "checked_at": "2026-10-01",
+   "open_junior_roles": [],
+   "notes": "No vacancies; Contact page publishes recruitment@reedsconsulting.com.au for recruitment EOIs; careers form also accepts Graduate Work Experience EOI. Speculative PREPARED this tick."
+  },
+  "Tonkin Consulting": {
+   "careers_url": "https://www.tonkin.com.au/careers/",
+   "checked_at": "2026-10-02",
+   "open_junior_roles": [
     {
-      "run_id": "20261001T0918Z",
-      "rotation": "victoria_offsite",
-      "checked_at": "2026-10-01T09:25:30Z",
-      "checked": [
-        {
-          "name": "City of Greater Geelong",
-          "url": "https://careers.pageuppeople.com/887/ci/en/job/500815/transport-planning-engineer",
-          "result": "Transport Planning Engineer Band 6 scored 54 under threshold"
-        },
-        {
-          "name": "Mildura Rural City Council",
-          "url": "https://www.mildura.vic.gov.au/Council/Careers/Current-Job-Vacancies",
-          "result": "Design Engineering Officer R2799 prepared PREPARED_NOT_SENT"
-        },
-        {
-          "name": "Knox City Council Cadet",
-          "url": "https://careers.pageuppeople.com/1000/cw/en/job/496575/cadet-engineer",
-          "result": "closed 27 Sep 2026"
-        },
-        {
-          "name": "GHD Grad Melbourne/Geelong GradConnection",
-          "url": "https://au.gradconnection.com/employers/ghd/jobs/ghd-ghd-graduate-program-2026-civilstructural-engineering-melbournegeelong/",
-          "result": "listing marked Closed"
-        }
-      ]
-    },
-    {
-      "run_id": "20261001T1419Z",
-      "rotation": "employers",
-      "checked_at": "2026-10-01T14:30:21Z",
-      "checked": [
-        {
-          "name": "BMD Group",
-          "url": "https://www.seek.com.au/job/94858362",
-          "result": "Undergraduate Engineers Healesville requires currently studying Bachelor; screened 34 under threshold"
-        },
-        {
-          "name": "Georgiou Group",
-          "url": "https://www.viewjobs.com.au/listing/38c4e998-5e57-422e-9085-ddb5f32a3b61",
-          "result": "Undergrad/Grad EOI READY_JEREMIE_EMPLOYER_PORTAL"
-        },
-        {
-          "name": "Seymour Whyte",
-          "url": "https://careers.seymourwhyte.com.au/",
-          "result": "blocked_prior_outreach Graduate Program MANUAL_APPLIED 2026-09-27; 2027 grad ads largely closed"
-        },
-        {
-          "name": "Fulton Hogan",
-          "url": "https://www.fultonhogan.com/join-our-team/career-pathways/graduates-au/",
-          "result": "blocked_prior_outreach; AU graduate program applications closed 2 Aug 2026"
-        },
-        {
-          "name": "Downer",
-          "url": "https://www.seek.com.au/job/94911471",
-          "result": "Graduate Engineering Program 2027 requires Australian Citizenship or PR; screened 30"
-        },
-        {
-          "name": "Ventia",
-          "url": "https://au.gradconnection.com/employers/ventia/jobs/ventia-civil-structural-engineering-graduate/",
-          "result": "Civil/Structural Grad Program closed 17 Aug 2026; 485 must be valid to end-2028 (Marc to Dec 2027)"
-        },
-        {
-          "name": "Millar Merrigan (extra from target list / careers)",
-          "url": "https://www.millarmerrigan.com.au/careers/",
-          "result": "Design Engineering Graduate Program PREPARED_NOT_SENT careers@"
-        }
-      ]
-    },
-    {
-      "run_id": "20261002T0519Z",
-      "rotation": "councils_government",
-      "checked_at": "2026-10-02T05:31:59Z",
-      "checked": [
-        {
-          "name": "careers.vic.gov.au",
-          "url": "https://www.careers.vic.gov.au/jobs?keywords=civil",
-          "result": "55 hits mostly legal/VCAT; no civil engineering graduate/cadet roles matched"
-        },
-        {
-          "name": "Knox City Council Cadet",
-          "url": "https://careers.pageuppeople.com/1000/cw/en/job/496575/cadet-engineer",
-          "result": "closed 27 Sep 2026; requires final-year Bachelor Civil 2027"
-        },
-        {
-          "name": "Baw Baw Shire Graduate Engineer",
-          "url": "https://applynow.net.au/jobs/BAW594-graduate-engineer",
-          "result": "portal shows job closed (close was 3 May 2026)"
-        },
-        {
-          "name": "Inner West Student/Graduate Engineer",
-          "url": "https://iwcexternal.applynow.net.au/jobs/IWC17898-student-graduate-engineer-road-access",
-          "result": "already APPLICATION_UNDER_REVIEW; NSW Class C mandatory"
-        },
-        {
-          "name": "Melton Design Engineer MEL1835",
-          "url": "https://meltoncity-external.applynow.net.au/jobs/MEL1835-design-engineer",
-          "result": "job does not exist / closed"
-        },
-        {
-          "name": "Hume Jobs and Opportunities",
-          "url": "https://www.hume.vic.gov.au/Your-Council/Careers-at-Hume/Jobs-and-Opportunities",
-          "result": "no civil graduate/cadet vacancy visible"
-        },
-        {
-          "name": "Martens Civil Drafter Junior",
-          "url": "https://www.martens.com.au/careers/",
-          "result": "blocked_prior MANUAL_APPLIED 2026-09-25"
-        },
-        {
-          "name": "Alluvium Engineer Waterways Stormwater Adelaide",
-          "url": "https://alluvium.com.au/careers/",
-          "result": "mid-level waterways role Adelaide; skipped"
-        }
-      ]
-    },
-    {
-      "run_id": "20261002T1016Z",
-      "rotation": "employers",
-      "checked_at": "2026-10-02T10:24:46Z",
-      "checked": [
-        {
-          "name": "Diona",
-          "url": "https://www.livehire.com/careers/dionaptyltd/job/FKQN4/SXI2MWAGZX/graduate-engineer",
-          "result": "Graduate Engineer Brisbane LiveHire URL returned 404 this tick; Site/Project Engineer ads require 2\u20135 years"
-        },
-        {
-          "name": "Abergeldie",
-          "url": "https://abergeldie.com/careers/current-opportunities",
-          "result": "Current opportunities page JS-empty; third-party mirrors for QLD graduate civil require completed civil degree and QLD licence; browse.py chromium missing on box"
-        },
-        {
-          "name": "Daracon",
-          "url": "https://daracon.com.au/careers/tertiary-pathway",
-          "result": "Cadet pathway page only (labourer\u2192cadet\u2192graduate while studying); no dated open graduate vacancy verified"
-        },
-        {
-          "name": "Ertech",
-          "url": "https://jobs.ertech.com.au/en/listing/",
-          "result": "2027 Graduate Program Civil listing closed (ViewJobs); live board is experienced PE/Site Engineer only"
-        },
-        {
-          "name": "Highway Construction",
-          "url": "https://www.highwayconstruction.com.au/",
-          "result": "No careers board or open junior/graduate advert found; contact admin@hicon.com.au is general website contact only"
-        },
-        {
-          "name": "Bild Group",
-          "url": "https://bild.group/careers/browse-careers/",
-          "result": "Recheck: still no graduate/junior/cadet/drafter title; Estimator list unchanged from 2026-09-28 notes"
-        },
-        {
-          "name": "Water Technology",
-          "url": "https://www.watertech.com.au/applications-now-open-graduates-interns/",
-          "result": "2026 graduate campaign open to Civil Engineering graduates, close 5pm ACST 29 October; PREPARED_NOT_SENT recruitment@watertech.com.au"
-        }
-      ]
-    },
-    {
-      "run_id": "20261002T2014Z",
-      "rotation": "employers",
-      "checked_at": "2026-10-02T20:29:39Z",
-      "checked": [
-        {
-          "name": "Delplant",
-          "url": "https://delplant.com.au/careers/",
-          "result": "blocked_prior Graduate Site Engineer REJECTED/SEEK receipt 2026-09-17; live page labourers/pipelayers/PM 5+ years only; no open graduate site engineer"
-        },
-        {
-          "name": "JK Williams Contracting",
-          "url": "https://jkwilliams.elmotalent.com.au/careers/vacancies/jobs",
-          "result": "blocked_prior MANUAL_APPLIED Civil Site Engineer 2026-09-26; board has PE/Site Engineer roles"
-        },
-        {
-          "name": "Hazell Bros",
-          "url": "https://hazellbros.com.au/careers/graduate-programs/",
-          "result": "Graduate Program Engineering open pathway but FAQ Australian Universities degree only; screened 55 under threshold; Site Engineer Gold Coast needs 2+ years"
-        },
-        {
-          "name": "Pensar",
-          "url": "https://pensar.com.au/current-opportunities/",
-          "result": "No junior/graduate title visible; LiveHire challenge page; careers@pensar.com.au for vacancy questions only"
-        },
-        {
-          "name": "Wagners",
-          "url": "https://www.wagner.com.au/careers/",
-          "result": "No dated graduate civil vacancy; PREPARED_NOT_SENT speculative to careers@wagner.com.au"
-        },
-        {
-          "name": "Shadforth Civil",
-          "url": "https://www.shadcivil.com.au/current-opportunities",
-          "result": "Undergraduate Civil Engineer Fraser Coast while studying; employer prior HELD Site/PE; skipped undergrad for not currently studying"
-        },
-        {
-          "name": "Northrop Consulting Engineers",
-          "url": "https://northrop.com.au/careers/",
-          "result": "READY_JEREMIE_EMPLOYER_FORM Tell Us About You EOI"
-        },
-        {
-          "name": "Bornhorst + Ward",
-          "url": "https://www.bornhorstward.com.au/active-jobs/expressions-of-interest",
-          "result": "blocked_prior Graduate Engineer READY_FOR_JEREMIE 2026-09-12"
-        }
-      ]
-    },
-    {
-      "run_id": "20261003T1612Z",
-      "rotation": "councils_government",
-      "checked_at": "2026-10-03T16:25:16Z",
-      "sources": [
-        "Wyndham careers (t1cloud vacancies link; no live graduate civil verified)",
-        "Melton applynow (Civil Projects Officer MEL1888 still open, previously screened ~48)",
-        "Baw Baw Graduate Engineer ApplyNow BAW594 (page live but applications closed 3 May 2026 - expired, not published)",
-        "Inner West Student/Graduate Engineer Road Access (DUP same company/role already tracker; NSW Class C mandatory)",
-        "Blacktown Graduate Project Officer SEEK 95011842 (HELD citizenship/PR)",
-        "GHD Grad Civil Structural Drafters Melbourne (Citizen/PR + closed)",
-        "DTM Geocivil careers (no open roles; speculative PREPARED to info@dtmgeocivil.com.au)"
-      ],
-      "notes": "Councils_government rotation. SEEK d3\u2192d7\u2192d14 widen. Published Global Group READY_SEEK + DTM speculative PREPARED + Blacktown HELD."
-    },
-    {
-      "run_id": "20261003T2118Z",
-      "rotation": "employers",
-      "checked_at": "2026-10-03T21:35:14Z",
-      "checked": [
-        {
-          "name": "DOF",
-          "url": "https://apply.workable.com/j/A527AA0C3B",
-          "result": "Junior Draftsperson Perth READY_JEREMIE_EMPLOYER_PORTAL fit 72; closes 15 Oct 2026"
-        },
-        {
-          "name": "GPA Engineering",
-          "url": "https://gpaeng.elmotalent.com.au/careers/career/job/view/105",
-          "result": "EOI Engineering Professionals HELD_ELIGIBILITY_UNCONFIRMED (industry experience in key sectors unresolved); Drafters Civil listed; closes 31 Dec 2026"
-        },
-        {
-          "name": "Breese Pitt Dixon",
-          "url": "https://www.bpd.com.au/careers/",
-          "result": "blocked_prior PLATFORM_BLOCKED / same careers URL already in tracker"
-        },
-        {
-          "name": "SMEC Cadet Drafter Urban Infrastructure",
-          "url": "https://surbanajurong.wd3.myworkdayjobs.com/en-US/careersatsmec/job/Cadet-Drafter--Urban-Infrastructure_JR118840",
-          "result": "blocked_prior recent outreach SMEC Services READY Graduate Civil Rail Metro 2026-09-30"
-        },
-        {
-          "name": "Wave International",
-          "url": "https://www.viewjobs.com.au/listing/4e0cb890-d266-4aaf-805d-468831349b93",
-          "result": "Junior Civil Draftsperson Brisbane closed on ViewJobs"
-        },
-        {
-          "name": "pitt&sherry",
-          "url": "https://www.livehire.com/careers/pittsh/job/C8P8B/QWYV18BU26/expression-of-interest-undergraduate-graduate-engineer-melbourne",
-          "result": "Graduate EOI Melbourne vacancy not found / closed"
-        },
-        {
-          "name": "ATC Williams Cadet",
-          "url": "https://www.viewjobs.com.au/listing/9d7a26f1-6b3c-4324-a7ce-21df49a7c40a",
-          "result": "Cadet Civil Drafter closed; prior MANUAL_APPLIED"
-        },
-        {
-          "name": "Decmil",
-          "url": "https://decmil.com/working-with-us/graduate-internship-program/graduate-development-program/",
-          "result": "Grad program open; university recent-grad / degree recency unresolved; not published this tick"
-        }
-      ],
-      "notes": "Employers rotation. SEEK d3\u2192d7\u2192d14 max80 all already screened. Open-web: DOF READY + GPA HELD. Gmail send skipped (create_draft only). browse.py trust CA permission denied; CHROME_BIN set."
+     "title": "Graduate Development Program",
+     "url": "https://www.tonkin.com.au/graduate-development-program",
+     "apply": "Saumya.Sharma@tonkin.com.au"
     }
-  ]
+   ],
+   "notes": "Graduate program page publishes Saumya.Sharma@tonkin.com.au. Mildura VIC office among locations."
+  },
+  "Calibre Group": {
+   "careers_url": "https://calibregroup.com/careers/ (redirects to https://www.wsp.com/en-au)",
+   "checked_at": "2026-09-28",
+   "open_junior_roles": [],
+   "notes": "Calibre Group was acquired by WSP Global in June 2023; its careers URL now 301-redirects to WSP's main site, so no standalone Calibre careers page or Calibre-branded junior civil roles exist to check."
+  },
+  "Winslow Constructors": {
+   "careers_url": "https://winslow.com.au/work-with-us/graduate-program",
+   "checked_at": "2026-09-30",
+   "open_junior_roles": [],
+   "notes": "blocked_prior_outreach (Winslow Group undergraduate/graduate APPLICATION_UNDER_REVIEW 2026-09-27). Ballarat/Warrnambool cadet ads open via Move To More / Prosple; Prosple eligibility lists Citizen/PR."
+  },
+  "Symal": {
+   "careers_url": "https://symal.com.au/programs/ignite/",
+   "checked_at": "2026-09-30",
+   "open_junior_roles": [],
+   "notes": "Ignite 2027 intake closed; reopens March 2027. Eligibility requires Australian or New Zealand citizen or permanent resident."
+  },
+  "Civilex": {
+   "careers_url": "https://symal.com.au/programs/ignite/",
+   "checked_at": "2026-09-30",
+   "open_junior_roles": [],
+   "notes": "Civilex operates under Symal; same Ignite pathway. No separate open junior Civilex advert found this tick."
+  },
+  "Bild Group": {
+   "company_url": "https://bild.group/",
+   "careers_url": "https://bild.group/careers/browse-careers/",
+   "board": "HiBob ATS at bildgroup.careers.hibob.com",
+   "checked_at": "2026-10-02",
+   "result": "none",
+   "notes": "Recheck: still no graduate/junior/cadet/drafter title; Estimator list unchanged from 2026-09-28 notes",
+   "open_junior_roles": []
+  },
+  "Delplant": {
+   "company_url": "https://delplant.com.au/",
+   "careers_url": "https://delplant.com.au/careers/",
+   "board": "none (own site, employment form)",
+   "checked_at": "2026-09-28",
+   "result": "none",
+   "notes": "Careers page read in full. Open roles: Labourers, Pipelayers, Plant Operators, Crew Leaders, Project Managers & Project Engineers (engineering/construction management degree plus minimum 5 years construction and water-industry experience - not junior), and a Truck Driver (Narre Warren). No graduate/junior/cadet/trainee/drafting role listed."
+  },
+  "TGM Group": {
+   "company_url": "https://tgmgroup.com (unreachable)",
+   "careers_url": "unknown - site unreachable",
+   "board": "unknown",
+   "checked_at": "2026-09-28",
+   "result": "blocked",
+   "notes": "tgmgroup.com and tgmgroup.com.au both failed on every attempt (TLS connection reset / proxy connect_rejected), so no page could be read at all. Background found via search: TGM Group Pty Ltd (Hawthorn VIC land-development engineering consultancy) was acquired by Cardno in 2018 and traded as 'Cardno TGM'; Cardno's ANZ operations were then acquired by Stantec in 2021. TGM likely no longer trades as an independent employer with its own careers page, which is consistent with the dead domain, but this could not be directly confirmed."
+  },
+  "Robert Bird Group Pty Ltd": {
+   "careers_url": "https://surbanajurong.wd3.myworkdayjobs.com/en-US/RobertBirdGroup_Careers",
+   "checked_at": "2026-09-30",
+   "open_junior_roles": [
+    "Graduate Civil Engineer Melbourne JR118870"
+   ],
+   "notes": "Workday JSON-LD readable; ANZ employment@ cycle currently closed."
+  },
+  "SMEC Services Pty Limited": {
+   "careers_url": "https://surbanajurong.wd3.myworkdayjobs.com/en-US/careersatsmec",
+   "checked_at": "2026-09-30",
+   "open_junior_roles": [
+    "Graduate Civil Engineer Rail & Metro Melbourne JR118137"
+   ],
+   "notes": "GDP Rail Metro; portal only."
+  },
+  "Maker Consulting Services": {
+   "careers_url": "https://www.makercs.com.au/careers/",
+   "checked_at": "2026-09-30",
+   "open_junior_roles": [
+    "Graduate and Undergraduate Civil Engineers Newcastle SEEK 94936643"
+   ],
+   "notes": "Program apply inbox info@makereng.com.au on undergrad page; SEEK also open."
+  },
+  "Central Highlands Water": {
+   "careers_url": "https://www.livehire.com/careers/chw/jobs",
+   "checked_at": "2026-09-30",
+   "open_junior_roles": [
+    "Graduate Infrastructure Planning and Delivery"
+   ],
+   "notes": "LiveHire P6BA4; careers@ for discussion only."
+  },
+  "ATC Williams": {
+   "careers_url": "https://atcwilliams.com/graduate-programs/",
+   "checked_at": "2026-09-30",
+   "open_junior_roles": [],
+   "notes": "blocked_prior_outreach (Cadet Civil Drafter MANUAL_APPLIED 2026-09-24 within 90 days). Graduate pathway EOI open year-round; Melb vacation intake dates listed."
+  },
+  "Martens & Associates": {
+   "careers_url": "https://www.martens.com.au/careers/",
+   "checked_at": "2026-09-30",
+   "open_junior_roles": [],
+   "notes": "blocked_prior_outreach (Civil Drafter MANUAL_APPLIED 2026-09-25). Open Intern Civil Design Engineer and Civil Design Engineer posts; advert text prefers no restricted visa holders."
+  },
+  "Civille": {
+   "careers_url": "https://www.civille.com.au/",
+   "checked_at": "2026-09-30",
+   "open_junior_roles": [],
+   "notes": "blocked_prior_outreach (Graduate Civil/Structural MANUAL_APPLIED / SEEK receipt 2026-09-26)."
+  },
+  "Melton City Council": {
+   "careers_url": "https://meltoncity-external.applynow.net.au/",
+   "checked_at": "2026-10-01",
+   "open_junior_roles": [
+    "Civil Projects Officer MEL1888"
+   ],
+   "notes": "Civil Projects Officer Band 6 screened 48 percent (below threshold). GIS Officer requires spatial science."
+  },
+  "BMD Group": {
+   "careers_url": "https://www.bmdgroup.global/careers/graduates-entry-pathways",
+   "checked_at": "2026-10-01",
+   "open_junior_roles": [
+    "Undergraduate Engineers Civil & Electrical Healesville SEEK 94858362"
+   ],
+   "notes": "Undergrad role requires currently studying Bachelor graduating 2028; not a fit for Marc (BSCE 2019, Adv Dip Feb 2026). Foundations program EOI page only."
+  },
+  "Georgiou Group": {
+   "careers_url": "https://georgiou.csod.com/ux/ats/careersite/4/home?c=georgiou",
+   "checked_at": "2026-10-01",
+   "open_junior_roles": [
+    "Undergraduate and Graduate Positions EOI"
+   ],
+   "notes": "EOI via ViewJobs/CSOD; Cadet & Graduate Development Program page live. READY portal this tick."
+  },
+  "Millar Merrigan": {
+   "careers_url": "https://www.millarmerrigan.com.au/careers/",
+   "checked_at": "2026-10-01",
+   "open_junior_roles": [
+    "Design Engineering Graduate Program (closes 30 Oct 2026)",
+    "Infrastructure Internship Program"
+   ],
+   "notes": "careers@millarmerrigan.com.au published for applications. Design Eng Grad PREPARED_NOT_SENT this tick."
+  },
+  "Downer": {
+   "careers_url": "https://downergroup.com/life-at-downer/young-professionals-hub/downer-graduate-program/",
+   "checked_at": "2026-10-01",
+   "open_junior_roles": [],
+   "notes": "Graduate Engineering Program 2027 requires Australian Citizenship or PR."
+  },
+  "Ventia": {
+   "careers_url": "https://jobs.ventia.com/global/en/graduate-program",
+   "checked_at": "2026-10-01",
+   "open_junior_roles": [],
+   "notes": "2027 Civil/Structural Grad closed 17 Aug 2026; requires citizen/PR or 485 valid to end-2028."
+  },
+  "Mackenzie Environmental": {
+   "company_url": "https://www.mackenzieenvironmental.com.au/",
+   "careers_url": "https://www.mackenzieenvironmental.com.au/career-opportunities",
+   "checked_at": "2026-10-02",
+   "open_junior_roles": [
+    "Graduate EOI via enquiries@mackenviro.com.au (actively recruiting)"
+   ],
+   "notes": "Victoria offsite tick 20261002T0012Z. Also lists experienced Civil Designer/Drafter/3D Modeller stream."
+  },
+  "Austral Construction": {
+   "company_url": "https://australconstruction.com.au/",
+   "careers_url": "https://australconstruction.com.au/engineering-graduate-program/",
+   "checked_at": "2026-10-02",
+   "open_junior_roles": [
+    "Engineering Graduate Program (careers@australconstruction.com.au)"
+   ],
+   "notes": "Victoria offsite tick 20261002T0012Z. Mulgrave office; Year 2 FIFO. Part of Keller Group."
+  },
+  "Breese Pitt Dixon": {
+   "careers_url": "https://www.bpd.com.au/careers/",
+   "checked_at": "2026-10-02",
+   "open_junior_roles": [],
+   "notes": "Victoria offsite 20261002T0012Z: careers EOI URL already on tracker (PLATFORM_BLOCKED); skipped duplicate."
+  },
+  "Westera Partners": {
+   "careers_url": "https://www.westerapartners.com.au/careers",
+   "checked_at": "2026-10-02",
+   "open_junior_roles": [],
+   "notes": "Victoria offsite 20261002T0012Z: graduate careers URL already PREPARED_NOT_SENT on tracker; skipped duplicate."
+  },
+  "Bornhorst + Ward": {
+   "careers_url": "https://www.bornhorstward.com.au/careers",
+   "checked_at": "2026-10-02",
+   "notes": "Victoria offsite 20261002T0012Z: undergraduate closed; cadet opens early 2027; graduate pathway already READY_FOR_JEREMIE on tracker."
+  },
+  "DTM Geocivil Consulting": {
+   "company_url": "https://dtmgeocivil.com.au/",
+   "careers_url": "https://dtmgeocivil.com.au/career.html",
+   "checked_at": "2026-10-03",
+   "open_junior_roles": [],
+   "notes": "No open positions; future-opportunity CVs to info@dtmgeocivil.com.au. Speculative PREPARED_NOT_SENT this tick (20261003T1612Z)."
+  },
+  "Diona": {
+   "careers_url": "https://www.livehire.com/careers/dionaptyltd/job/FKQN4/SXI2MWAGZX/graduate-engineer",
+   "checked_at": "2026-10-02",
+   "notes": "Graduate Engineer Brisbane LiveHire URL returned 404 this tick; Site/Project Engineer ads require 2–5 years",
+   "open_junior_roles": []
+  },
+  "Abergeldie": {
+   "careers_url": "https://abergeldie.com/careers/current-opportunities",
+   "checked_at": "2026-10-02",
+   "notes": "Current opportunities page JS-empty; third-party mirrors for QLD graduate civil require completed civil degree and QLD licence; browse.py chromium missing on box",
+   "open_junior_roles": []
+  },
+  "Daracon": {
+   "careers_url": "https://daracon.com.au/careers/tertiary-pathway",
+   "checked_at": "2026-10-02",
+   "notes": "Cadet pathway page only (labourer→cadet→graduate while studying); no dated open graduate vacancy verified",
+   "open_junior_roles": []
+  },
+  "Ertech": {
+   "careers_url": "https://jobs.ertech.com.au/en/listing/",
+   "checked_at": "2026-10-02",
+   "notes": "2027 Graduate Program Civil listing closed (ViewJobs); live board is experienced PE/Site Engineer only",
+   "open_junior_roles": []
+  },
+  "Highway Construction": {
+   "careers_url": "https://www.highwayconstruction.com.au/",
+   "checked_at": "2026-10-02",
+   "notes": "No careers board or open junior/graduate advert found; contact admin@hicon.com.au is general website contact only",
+   "open_junior_roles": []
+  },
+  "Water Technology": {
+   "careers_url": "https://www.watertech.com.au/applications-now-open-graduates-interns/",
+   "checked_at": "2026-10-02",
+   "notes": "2026 graduate campaign open to Civil Engineering graduates, close 5pm ACST 29 October; PREPARED_NOT_SENT recruitment@watertech.com.au",
+   "open_junior_roles": [
+    {
+     "title": "Graduate positions 2026",
+     "url": "https://www.watertech.com.au/applications-now-open-graduates-interns/",
+     "apply": "recruitment@watertech.com.au"
+    }
+   ]
+  },
+  "Wagners": {
+   "careers_url": "https://www.wagner.com.au/careers/",
+   "last_checked": "2026-10-03",
+   "notes": "Speculative PREPARED_NOT_SENT careers@wagner.com.au this tick"
+  },
+  "Hazell Bros": {
+   "careers_url": "https://hazellbros.com.au/careers/graduate-programs/",
+   "last_checked": "2026-10-03",
+   "notes": "Graduate program Australian uni degree mandatory; Site Engineer GC 2+ years"
+  },
+  "Northrop Consulting Engineers": {
+   "careers_url": "https://northrop.com.au/careers/",
+   "last_checked": "2026-10-03",
+   "notes": "EOI form READY_JEREMIE_EMPLOYER_FORM this tick"
+  },
+  "Pensar": {
+   "careers_url": "https://pensar.com.au/current-opportunities/",
+   "last_checked": "2026-10-03",
+   "notes": "No open junior/grad title verified"
+  },
+  "Shadforth Civil": {
+   "careers_url": "https://www.shadcivil.com.au/current-opportunities",
+   "last_checked": "2026-10-03",
+   "notes": "Undergrad Fraser Coast while studying; skipped"
+  },
+  "Whitehorse City Council": {
+   "careers_url": "https://www.whitehorse.vic.gov.au/about-whitehorse/administration/jobs/job-opportunities",
+   "checked_at": "2026-10-03",
+   "open_junior_roles": [
+    {
+     "title": "Asset Engineer",
+     "url": "https://www.seek.com.au/job/95013854",
+     "apply": "Council portal / SEEK link-out; closes ~18 Oct 2026 per advert text"
+    }
+   ],
+   "notes": "councils_government rotation 20261003T0114Z: Asset Engineer SEEK 95013854 prepared READY_JEREMIE_EMPLOYER_PORTAL."
+  },
+  "Cascada": {
+   "careers_url": "https://www.cascadagroup.com.au/contact/",
+   "checked_at": "2026-10-03",
+   "open_junior_roles": [
+    {
+     "title": "AutoCAD Draftsperson - Reinforced Concrete",
+     "url": "https://www.seek.com.au/job/95021585",
+     "apply": "SEEK only; sales@ is sales inbox"
+    }
+   ],
+   "notes": "SEEK 95021585 prepared READY_JEREMIE_SEEK this tick."
+  },
+  "DOF": {
+   "company_url": "https://www.dof.com/",
+   "careers_url": "https://apply.workable.com/j/A527AA0C3B",
+   "board": "Workable",
+   "checked_at": "2026-10-04",
+   "open_junior_roles": [
+    {
+     "title": "Junior Draftsperson",
+     "url": "https://apply.workable.com/j/A527AA0C3B",
+     "apply": "Workable portal; closes 15 Oct 2026"
+    }
+   ],
+   "notes": "Junior Draftsperson Perth CBD Advanced Diploma Civil & Structural + AutoCAD 2D; READY_JEREMIE_EMPLOYER_PORTAL this tick."
+  },
+  "GPA Engineering": {
+   "company_url": "https://www.gpaeng.com.au/",
+   "careers_url": "https://gpaeng.elmotalent.com.au/careers/career/job/view/105",
+   "board": "ElmoTalent / Cohort",
+   "checked_at": "2026-10-04",
+   "open_junior_roles": [
+    {
+     "title": "EOI Engineering Professionals incl Drafters Civil/Structural",
+     "url": "https://gpaeng.elmotalent.com.au/careers/career/job/view/105",
+     "apply": "portal; HR@gpaeng.com.au queries"
+    }
+   ],
+   "notes": "EOI to 31 Dec 2026; HELD industry-experience-in-key-sectors unresolved this tick."
+  },
+  "Level Crossing Removal Project": {
+   "careers_url": "https://bigbuild.vic.gov.au/jobs/training-programs/graduate-programs",
+   "checked_at": "2026-10-04",
+   "open_junior_roles": [],
+   "notes": "Employers rotation 20261004T0217Z: Big Build 2027 graduate applications closed 16 Aug 2026; LXRP LinkedIn said 2026 program apps open later in year but no open junior civil advert verified (Cloudflare blocked full Big Build page)."
+  },
+  "Department of Transport and Planning Victoria": {
+   "careers_url": "https://www.vic.gov.au/dtp-employment-pathways",
+   "checked_at": "2026-10-04",
+   "open_junior_roles": [],
+   "notes": "Employers rotation 20261004T0217Z: DTP Graduate Program page contact employmentprograms@transport.vic.gov.au; 2026 intake onboarding Feb 2026; LinkedIn notes 2027 applications closed 22 Sep 2026. No open junior civil vacancy verified."
+  },
+  "Transport for NSW": {
+   "careers_url": "https://jobs.transport.nsw.gov.au/",
+   "checked_at": "2026-10-04",
+   "open_junior_roles": [],
+   "notes": "Employers rotation 20261004T0217Z: Career Accelerator Graduate 2027 Greater Sydney closed 5 Jul 2026; civil construction apprenticeships for Mar 2027 intake are trades apprenticeships not graduate civil. No open junior civil engineer/drafter role verified."
+  },
+  "Queensland Department of Transport and Main Roads": {
+   "careers_url": "https://www.tmr.qld.gov.au/graduateprogram",
+   "checked_at": "2026-10-04",
+   "open_junior_roles": [],
+   "notes": "Employers rotation 20261004T0217Z: 2026 graduate intake applications closed; program started Feb 2026. No open junior civil vacancy verified."
+  },
+  "Central Highlands Regional Council": {
+   "careers_url": "https://chrc.qld.gov.au/council/careers/current-vacancies/",
+   "board": "https://central-highlands-external.applynow.net.au",
+   "checked_at": "2026-10-04",
+   "open_junior_roles": [],
+   "notes": "Employers rotation 20261004T0217Z: ApplyNow lists labourers, plant operators, water operators, road construction inspector, admin; no graduate/junior civil engineer or drafter role. Applications inbox recruitment@chrc.qld.gov.au published for vacancies."
+  },
+  "Rockhampton Regional Council": {
+   "careers_url": "https://www.rockhamptonregion.qld.gov.au/AboutCouncil/Careers-at-Council",
+   "checked_at": "2026-10-04",
+   "open_junior_roles": [],
+   "notes": "Employers rotation 20261004T0217Z: vacancies page access denied from this host; prior Cadet Civil Designer ads closed 21 Sep 2026 per job boards. No open junior civil role verified."
+  },
+  "DPM Consulting Group": {
+   "company_url": "https://dpmvic.com.au/",
+   "careers_url": "https://dpmvic.com.au/",
+   "checked_at": "2026-10-04",
+   "open_junior_roles": [],
+   "notes": "Speculative PREPARED this tick to consulting@dpmvic.com.au (published). No dated junior vacancy; experienced water resources engineer post exists separately."
+  }
+ },
+ "sweep_log": [
+  {
+   "run_id": "20261001T0918Z",
+   "rotation": "victoria_offsite",
+   "checked_at": "2026-10-01T09:25:30Z",
+   "checked": [
+    {
+     "name": "City of Greater Geelong",
+     "url": "https://careers.pageuppeople.com/887/ci/en/job/500815/transport-planning-engineer",
+     "result": "Transport Planning Engineer Band 6 scored 54 under threshold"
+    },
+    {
+     "name": "Mildura Rural City Council",
+     "url": "https://www.mildura.vic.gov.au/Council/Careers/Current-Job-Vacancies",
+     "result": "Design Engineering Officer R2799 prepared PREPARED_NOT_SENT"
+    },
+    {
+     "name": "Knox City Council Cadet",
+     "url": "https://careers.pageuppeople.com/1000/cw/en/job/496575/cadet-engineer",
+     "result": "closed 27 Sep 2026"
+    },
+    {
+     "name": "GHD Grad Melbourne/Geelong GradConnection",
+     "url": "https://au.gradconnection.com/employers/ghd/jobs/ghd-ghd-graduate-program-2026-civilstructural-engineering-melbournegeelong/",
+     "result": "listing marked Closed"
+    }
+   ]
+  },
+  {
+   "run_id": "20261001T1419Z",
+   "rotation": "employers",
+   "checked_at": "2026-10-01T14:30:21Z",
+   "checked": [
+    {
+     "name": "BMD Group",
+     "url": "https://www.seek.com.au/job/94858362",
+     "result": "Undergraduate Engineers Healesville requires currently studying Bachelor; screened 34 under threshold"
+    },
+    {
+     "name": "Georgiou Group",
+     "url": "https://www.viewjobs.com.au/listing/38c4e998-5e57-422e-9085-ddb5f32a3b61",
+     "result": "Undergrad/Grad EOI READY_JEREMIE_EMPLOYER_PORTAL"
+    },
+    {
+     "name": "Seymour Whyte",
+     "url": "https://careers.seymourwhyte.com.au/",
+     "result": "blocked_prior_outreach Graduate Program MANUAL_APPLIED 2026-09-27; 2027 grad ads largely closed"
+    },
+    {
+     "name": "Fulton Hogan",
+     "url": "https://www.fultonhogan.com/join-our-team/career-pathways/graduates-au/",
+     "result": "blocked_prior_outreach; AU graduate program applications closed 2 Aug 2026"
+    },
+    {
+     "name": "Downer",
+     "url": "https://www.seek.com.au/job/94911471",
+     "result": "Graduate Engineering Program 2027 requires Australian Citizenship or PR; screened 30"
+    },
+    {
+     "name": "Ventia",
+     "url": "https://au.gradconnection.com/employers/ventia/jobs/ventia-civil-structural-engineering-graduate/",
+     "result": "Civil/Structural Grad Program closed 17 Aug 2026; 485 must be valid to end-2028 (Marc to Dec 2027)"
+    },
+    {
+     "name": "Millar Merrigan (extra from target list / careers)",
+     "url": "https://www.millarmerrigan.com.au/careers/",
+     "result": "Design Engineering Graduate Program PREPARED_NOT_SENT careers@"
+    }
+   ]
+  },
+  {
+   "run_id": "20261002T0519Z",
+   "rotation": "councils_government",
+   "checked_at": "2026-10-02T05:31:59Z",
+   "checked": [
+    {
+     "name": "careers.vic.gov.au",
+     "url": "https://www.careers.vic.gov.au/jobs?keywords=civil",
+     "result": "55 hits mostly legal/VCAT; no civil engineering graduate/cadet roles matched"
+    },
+    {
+     "name": "Knox City Council Cadet",
+     "url": "https://careers.pageuppeople.com/1000/cw/en/job/496575/cadet-engineer",
+     "result": "closed 27 Sep 2026; requires final-year Bachelor Civil 2027"
+    },
+    {
+     "name": "Baw Baw Shire Graduate Engineer",
+     "url": "https://applynow.net.au/jobs/BAW594-graduate-engineer",
+     "result": "portal shows job closed (close was 3 May 2026)"
+    },
+    {
+     "name": "Inner West Student/Graduate Engineer",
+     "url": "https://iwcexternal.applynow.net.au/jobs/IWC17898-student-graduate-engineer-road-access",
+     "result": "already APPLICATION_UNDER_REVIEW; NSW Class C mandatory"
+    },
+    {
+     "name": "Melton Design Engineer MEL1835",
+     "url": "https://meltoncity-external.applynow.net.au/jobs/MEL1835-design-engineer",
+     "result": "job does not exist / closed"
+    },
+    {
+     "name": "Hume Jobs and Opportunities",
+     "url": "https://www.hume.vic.gov.au/Your-Council/Careers-at-Hume/Jobs-and-Opportunities",
+     "result": "no civil graduate/cadet vacancy visible"
+    },
+    {
+     "name": "Martens Civil Drafter Junior",
+     "url": "https://www.martens.com.au/careers/",
+     "result": "blocked_prior MANUAL_APPLIED 2026-09-25"
+    },
+    {
+     "name": "Alluvium Engineer Waterways Stormwater Adelaide",
+     "url": "https://alluvium.com.au/careers/",
+     "result": "mid-level waterways role Adelaide; skipped"
+    }
+   ]
+  },
+  {
+   "run_id": "20261002T1016Z",
+   "rotation": "employers",
+   "checked_at": "2026-10-02T10:24:46Z",
+   "checked": [
+    {
+     "name": "Diona",
+     "url": "https://www.livehire.com/careers/dionaptyltd/job/FKQN4/SXI2MWAGZX/graduate-engineer",
+     "result": "Graduate Engineer Brisbane LiveHire URL returned 404 this tick; Site/Project Engineer ads require 2–5 years"
+    },
+    {
+     "name": "Abergeldie",
+     "url": "https://abergeldie.com/careers/current-opportunities",
+     "result": "Current opportunities page JS-empty; third-party mirrors for QLD graduate civil require completed civil degree and QLD licence; browse.py chromium missing on box"
+    },
+    {
+     "name": "Daracon",
+     "url": "https://daracon.com.au/careers/tertiary-pathway",
+     "result": "Cadet pathway page only (labourer→cadet→graduate while studying); no dated open graduate vacancy verified"
+    },
+    {
+     "name": "Ertech",
+     "url": "https://jobs.ertech.com.au/en/listing/",
+     "result": "2027 Graduate Program Civil listing closed (ViewJobs); live board is experienced PE/Site Engineer only"
+    },
+    {
+     "name": "Highway Construction",
+     "url": "https://www.highwayconstruction.com.au/",
+     "result": "No careers board or open junior/graduate advert found; contact admin@hicon.com.au is general website contact only"
+    },
+    {
+     "name": "Bild Group",
+     "url": "https://bild.group/careers/browse-careers/",
+     "result": "Recheck: still no graduate/junior/cadet/drafter title; Estimator list unchanged from 2026-09-28 notes"
+    },
+    {
+     "name": "Water Technology",
+     "url": "https://www.watertech.com.au/applications-now-open-graduates-interns/",
+     "result": "2026 graduate campaign open to Civil Engineering graduates, close 5pm ACST 29 October; PREPARED_NOT_SENT recruitment@watertech.com.au"
+    }
+   ]
+  },
+  {
+   "run_id": "20261002T2014Z",
+   "rotation": "employers",
+   "checked_at": "2026-10-02T20:29:39Z",
+   "checked": [
+    {
+     "name": "Delplant",
+     "url": "https://delplant.com.au/careers/",
+     "result": "blocked_prior Graduate Site Engineer REJECTED/SEEK receipt 2026-09-17; live page labourers/pipelayers/PM 5+ years only; no open graduate site engineer"
+    },
+    {
+     "name": "JK Williams Contracting",
+     "url": "https://jkwilliams.elmotalent.com.au/careers/vacancies/jobs",
+     "result": "blocked_prior MANUAL_APPLIED Civil Site Engineer 2026-09-26; board has PE/Site Engineer roles"
+    },
+    {
+     "name": "Hazell Bros",
+     "url": "https://hazellbros.com.au/careers/graduate-programs/",
+     "result": "Graduate Program Engineering open pathway but FAQ Australian Universities degree only; screened 55 under threshold; Site Engineer Gold Coast needs 2+ years"
+    },
+    {
+     "name": "Pensar",
+     "url": "https://pensar.com.au/current-opportunities/",
+     "result": "No junior/graduate title visible; LiveHire challenge page; careers@pensar.com.au for vacancy questions only"
+    },
+    {
+     "name": "Wagners",
+     "url": "https://www.wagner.com.au/careers/",
+     "result": "No dated graduate civil vacancy; PREPARED_NOT_SENT speculative to careers@wagner.com.au"
+    },
+    {
+     "name": "Shadforth Civil",
+     "url": "https://www.shadcivil.com.au/current-opportunities",
+     "result": "Undergraduate Civil Engineer Fraser Coast while studying; employer prior HELD Site/PE; skipped undergrad for not currently studying"
+    },
+    {
+     "name": "Northrop Consulting Engineers",
+     "url": "https://northrop.com.au/careers/",
+     "result": "READY_JEREMIE_EMPLOYER_FORM Tell Us About You EOI"
+    },
+    {
+     "name": "Bornhorst + Ward",
+     "url": "https://www.bornhorstward.com.au/active-jobs/expressions-of-interest",
+     "result": "blocked_prior Graduate Engineer READY_FOR_JEREMIE 2026-09-12"
+    }
+   ]
+  },
+  {
+   "run_id": "20261003T1612Z",
+   "rotation": "councils_government",
+   "checked_at": "2026-10-03T16:25:16Z",
+   "sources": [
+    "Wyndham careers (t1cloud vacancies link; no live graduate civil verified)",
+    "Melton applynow (Civil Projects Officer MEL1888 still open, previously screened ~48)",
+    "Baw Baw Graduate Engineer ApplyNow BAW594 (page live but applications closed 3 May 2026 - expired, not published)",
+    "Inner West Student/Graduate Engineer Road Access (DUP same company/role already tracker; NSW Class C mandatory)",
+    "Blacktown Graduate Project Officer SEEK 95011842 (HELD citizenship/PR)",
+    "GHD Grad Civil Structural Drafters Melbourne (Citizen/PR + closed)",
+    "DTM Geocivil careers (no open roles; speculative PREPARED to info@dtmgeocivil.com.au)"
+   ],
+   "notes": "Councils_government rotation. SEEK d3→d7→d14 widen. Published Global Group READY_SEEK + DTM speculative PREPARED + Blacktown HELD."
+  },
+  {
+   "run_id": "20261003T2118Z",
+   "rotation": "employers",
+   "checked_at": "2026-10-03T21:35:14Z",
+   "checked": [
+    {
+     "name": "DOF",
+     "url": "https://apply.workable.com/j/A527AA0C3B",
+     "result": "Junior Draftsperson Perth READY_JEREMIE_EMPLOYER_PORTAL fit 72; closes 15 Oct 2026"
+    },
+    {
+     "name": "GPA Engineering",
+     "url": "https://gpaeng.elmotalent.com.au/careers/career/job/view/105",
+     "result": "EOI Engineering Professionals HELD_ELIGIBILITY_UNCONFIRMED (industry experience in key sectors unresolved); Drafters Civil listed; closes 31 Dec 2026"
+    },
+    {
+     "name": "Breese Pitt Dixon",
+     "url": "https://www.bpd.com.au/careers/",
+     "result": "blocked_prior PLATFORM_BLOCKED / same careers URL already in tracker"
+    },
+    {
+     "name": "SMEC Cadet Drafter Urban Infrastructure",
+     "url": "https://surbanajurong.wd3.myworkdayjobs.com/en-US/careersatsmec/job/Cadet-Drafter--Urban-Infrastructure_JR118840",
+     "result": "blocked_prior recent outreach SMEC Services READY Graduate Civil Rail Metro 2026-09-30"
+    },
+    {
+     "name": "Wave International",
+     "url": "https://www.viewjobs.com.au/listing/4e0cb890-d266-4aaf-805d-468831349b93",
+     "result": "Junior Civil Draftsperson Brisbane closed on ViewJobs"
+    },
+    {
+     "name": "pitt&sherry",
+     "url": "https://www.livehire.com/careers/pittsh/job/C8P8B/QWYV18BU26/expression-of-interest-undergraduate-graduate-engineer-melbourne",
+     "result": "Graduate EOI Melbourne vacancy not found / closed"
+    },
+    {
+     "name": "ATC Williams Cadet",
+     "url": "https://www.viewjobs.com.au/listing/9d7a26f1-6b3c-4324-a7ce-21df49a7c40a",
+     "result": "Cadet Civil Drafter closed; prior MANUAL_APPLIED"
+    },
+    {
+     "name": "Decmil",
+     "url": "https://decmil.com/working-with-us/graduate-internship-program/graduate-development-program/",
+     "result": "Grad program open; university recent-grad / degree recency unresolved; not published this tick"
+    }
+   ],
+   "notes": "Employers rotation. SEEK d3→d7→d14 max80 all already screened. Open-web: DOF READY + GPA HELD. Gmail send skipped (create_draft only). browse.py trust CA permission denied; CHROME_BIN set."
+  }
+ ]
 }

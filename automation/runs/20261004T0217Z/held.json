@@ -1,0 +1,90 @@
+[
+ {
+  "id": "0c06b93d-e4f0-430b-99cd-93aba5676b62",
+  "key": "manual:0c06b93d-e4f0-430b-99cd-93aba5676b62",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261004T0217Z",
+  "created_at": "2026-10-04T02:28:37.000Z",
+  "updated_at": "2026-10-04T02:28:37.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Central Coast Council NSW",
+  "role": "Junior Development Engineer",
+  "location": "Wyong, Gosford & Central Coast NSW",
+  "job_url": "https://www.seek.com.au/job/94970495",
+  "status": "HELD_MANDATORY_REQUIREMENTS",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "SEEK",
+  "fit": [
+   "Junior Development Engineer reviewing DAs and engineering designs is a strong early-career civil pathway with civil design knowledge overlap.",
+   "Advanced Diploma civil construction design and BSCE support land-use civil design knowledge; Melton based with licence and transport; open to discussing relocation.",
+   "Mandatory bar: advert requires currently completing 3rd/4th year civil degree OR solid contemporary Development Engineering experience, which Marc does not meet as stated."
+  ],
+  "gaps": [
+   "Currently completing Civil Engineering degree (3rd/4th year) OR demonstrated solid contemporary experience in Development Engineering",
+   "Not currently enrolled in a civil degree",
+   "No contemporary Development Engineering employment experience",
+   "Limited NSW planning legislation exposure"
+  ],
+  "match_score": {
+   "percent": 64,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Junior Development Engineer reviewing DAs and engineering designs is a strong early-career civil pathway with civil design knowledge overlap.",
+    "Advanced Diploma civil construction design and BSCE support land-use civil design knowledge; Melton based with licence and transport; open to discussing relocation.",
+    "Mandatory bar: advert requires currently completing 3rd/4th year civil degree OR solid contemporary Development Engineering experience, which Marc does not meet as stated."
+   ],
+   "caution": "Mandatory study/experience gate unmet; Victorian licence vs NSW Class C wording needs care if ever progressed."
+  },
+  "notes": "Held by Grok AI: Currently completing Civil Engineering degree (3rd/4th year) OR demonstrated solid contemporary experience in Development Engineering",
+  "checked_at": "2026-10-04T02:28:37.000Z",
+  "seek_id": "94970495",
+  "duplicate_key": "centralcoastcouncilnsw|seek:94970495"
+ },
+ {
+  "id": "475e1c5e-1c9c-4e21-ad1d-c7a2bd913e82",
+  "key": "manual:475e1c5e-1c9c-4e21-ad1d-c7a2bd913e82",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261004T0217Z",
+  "created_at": "2026-10-04T02:28:37.000Z",
+  "updated_at": "2026-10-04T02:28:37.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Port Waratah Coal Services Ltd",
+  "role": "Graduate Engineer",
+  "location": "Kooragang, Newcastle, Maitland & Hunter NSW",
+  "job_url": "https://www.seek.com.au/job/94984643",
+  "status": "HELD_MANDATORY_REQUIREMENTS",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "SEEK",
+  "fit": [
+   "Two-year rotational graduate programme listing Civil among accepted engineering degrees; closes 22 October 2026.",
+   "BSCE (2019) and Advanced Diploma Civil Construction Design (Feb 2026) provide civil engineering study; site coordination background supports project exposure.",
+   "Mandatory timing: advert wants graduating by Feb 2027 or graduated within the past two years with an Engineering degree; BSCE is older than two years and the Advanced Diploma is not an engineering degree."
+  ],
+  "gaps": [
+   "Engineering degree graduating by February 2027 or graduated within the past two years (BSCE completed 2019; Advanced Diploma is not an engineering degree)",
+   "Engineering degree graduation not within past two years",
+   "No Australian industrial or materials-handling employment",
+   "Oil/gas and bulk export not on resume"
+  ],
+  "match_score": {
+   "percent": 62,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Two-year rotational graduate programme listing Civil among accepted engineering degrees; closes 22 October 2026.",
+    "BSCE (2019) and Advanced Diploma Civil Construction Design (Feb 2026) provide civil engineering study; site coordination background supports project exposure.",
+    "Mandatory timing: advert wants graduating by Feb 2027 or graduated within the past two years with an Engineering degree; BSCE is older than two years and the Advanced Diploma is not an engineering degree."
+   ],
+   "caution": "Coal logistics / bulk export facility rather than civil design consultancy; recruitment via Beilby Downing Teal."
+  },
+  "notes": "Held by Grok AI: Engineering degree graduating by February 2027 or graduated within the past two years (BSCE completed 2019; Advanced Diploma is not an engineering degree)",
+  "checked_at": "2026-10-04T02:28:37.000Z",
+  "seek_id": "94984643",
+  "duplicate_key": "portwaratahcoalservicesltd|seek:94984643"
+ }
+]
