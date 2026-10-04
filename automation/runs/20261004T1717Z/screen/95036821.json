@@ -1,0 +1,41 @@
+{
+  "id": "95036821",
+  "company": "Green Start Consulting",
+  "title": "Draftsperson / Allrounder",
+  "location": "Victoria Park, Perth WA",
+  "url": "https://www.seek.com.au/job/95036821",
+  "listed_at": "2026-10-03T01:12:40.689Z",
+  "expires_at": "2026-11-02T12:59:59.999Z",
+  "percent": 42,
+  "rationale": [
+    "Residential ArchiCAD draftsperson; advert says not suitable for engineers.",
+    "Perth location only fair.",
+    "Mandatory: min 1 year building design experience; ArchiCAD residential focus."
+  ],
+  "caution": "Screened from SEEK digest in councils_government tick 20261004T1717Z.",
+  "gaps": [
+    "Minimum 1 year building design / residential drafting experience",
+    "Role explicitly not suitable for engineers or engineer draftsperson"
+  ],
+  "mandatory_unmet": [
+    "Minimum 1 year building design / residential drafting experience",
+    "Role explicitly not suitable for engineers or engineer draftsperson"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply via SEEK https://www.seek.com.au/job/95036821",
+  "open": true,
+  "employer_is_agency": false,
+  "screening_questions": [
+    "Which of the following CAD software do you have experience with?",
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have in the construction industry?",
+    "How many years' experience do you have as a draftsperson?",
+    "Do you have a current Police Check (National Police Certificate) for employment?",
+    "Do you have experience working on residential construction projects?",
+    "Have you completed a qualification in building design / building design drafting?",
+    "Do you have a current Australian driver's licence?"
+  ],
+  "seek_id": "95036821"
+}

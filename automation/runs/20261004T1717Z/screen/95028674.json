@@ -1,0 +1,31 @@
+{
+  "id": "95028674",
+  "company": "Ampersand",
+  "title": "Project Engineer - Industrial Machinery",
+  "location": "Melbourne VIC",
+  "url": "https://www.seek.com.au/job/95028674",
+  "listed_at": "2026-10-02T08:36:41.100Z",
+  "expires_at": "2026-11-01T07:36:00.000Z",
+  "percent": 38,
+  "rationale": [
+    "Industrial machinery PE.",
+    "Melbourne.",
+    "Machinery not civil."
+  ],
+  "caution": "Screened from SEEK digest in councils_government tick 20261004T1717Z.",
+  "gaps": [],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply via SEEK https://www.seek.com.au/job/95028674",
+  "open": true,
+  "employer_is_agency": false,
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a project engineer?",
+    "Have you led site teams, including subcontractors, to install or commission industrial machinery, process equipment or automated handling systems?",
+    "What was your role on your most recent installation or commissioning project?"
+  ],
+  "seek_id": "95028674"
+}

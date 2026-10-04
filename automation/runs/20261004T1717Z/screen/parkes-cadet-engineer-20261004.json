@@ -1,0 +1,32 @@
+{
+  "id": "parkes-cadet-engineer-20261004",
+  "company": "Parkes Shire Council",
+  "title": "Cadet Engineer",
+  "location": "Parkes NSW",
+  "url": "https://parkes.applynow.net.au/jobs/PSC2222600-cadet-engineer",
+  "listed_at": "2026-09-12T00:00:00Z",
+  "expires_at": "2026-10-11T13:00:00Z",
+  "percent": 64,
+  "rationale": [
+    "Cadet Engineer on roads and civil assets with design, estimating and AutoCAD/GIS exposure matches Advanced Diploma civil design and Philippines site coordination.",
+    "Regional NSW Parkes is acceptable under FIFO/regional availability; White Card held.",
+    "Mandatory barriers: NSW Drivers Licence (Marc holds Victorian only) and the role is structured as a cadetship while completing an engineering degree / distance-education entry, not for a 2019 BSCE + Feb 2026 Advanced Diploma graduate already finished study."
+  ],
+  "caution": "CAT program for students; NSW licence required.",
+  "gaps": [
+    "No NSW Drivers Licence (Victorian licence only)",
+    "Not currently undertaking tertiary engineering studies",
+    "Would need interstate move to Parkes"
+  ],
+  "mandatory_unmet": [
+    "Current and maintained NSW Drivers Licence",
+    "Cadetship while completing / eligible to undertake an engineering degree via distance education (Marc has completed BSCE 2019 and Advanced Diploma Feb 2026; not currently studying)"
+  ],
+  "mandatory_unresolved": [],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": "",
+  "apply_instructions": "Apply online at https://parkes.applynow.net.au/jobs/PSC2222600-cadet-engineer (closing 11 October 2026 per Council LinkedIn).",
+  "open": true,
+  "employer_is_agency": false,
+  "screening_questions": []
+}

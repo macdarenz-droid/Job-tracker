@@ -1,0 +1,1148 @@
+{
+ "count": 24,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "95038050",
+   "company": "ABS Civil WA Pty Ltd",
+   "title": "Civil Estimator - Earthworks",
+   "run": "20261003T1118Z",
+   "percent": 38,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95021621",
+   "company": "Ertech Pty Ltd",
+   "title": "Project Engineer (Civil)",
+   "run": "20261003T0114Z",
+   "percent": 59,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95021747",
+   "company": "Contec Recruitment Pty Ltd",
+   "title": "Civil Estimator ",
+   "run": "20261003T0114Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95036163",
+   "company": "Totem Civil Services group PTY LTD",
+   "title": "Project Engineer/ Site Engineer",
+   "run": "20261003T0114Z",
+   "percent": 59,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95021786",
+   "company": "SCP Consulting Pty Ltd",
+   "title": "Draftsperson",
+   "run": "20261003T0114Z",
+   "percent": 42,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95009307",
+   "company": "The Lorian Group",
+   "title": "Construction Cadet / Junior PM",
+   "run": "20261003T0114Z",
+   "percent": 71,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95042297",
+   "company": "Scotford Fennessy Recruitment",
+   "title": "Civil Engineer",
+   "run": "20261004T1217Z",
+   "percent": 52,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95037323",
+   "company": "Scotford Fennessy Recruitment",
+   "title": "Senoir Structural Drafter - Gold Coast",
+   "run": "20261003T1118Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "10+ years Revit structural drafting experience"
+   ]
+  },
+  {
+   "id": "95028317",
+   "company": "In2work Pty Ltd",
+   "title": "NEW! Project Engineers FIFO and East Coast DTMR Projects!",
+   "run": "20261003T0114Z",
+   "percent": 69,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95020068",
+   "company": "AMT CIVILS",
+   "title": "Project Engineer – Bulk Earthworks | 2:1 Roster | Immediate Start",
+   "run": "20261003T0114Z",
+   "percent": 69,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95016703",
+   "company": "CGC Recruitment",
+   "title": "Site Engineer - Blue Mountains",
+   "run": "20261003T0114Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95026009",
+   "company": "THE BMD GROUP",
+   "title": "Design Engineer",
+   "run": "20261003T1612Z",
+   "percent": 38,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95025202",
+   "company": "Civil Road & Rail SX5",
+   "title": "Project Engineer",
+   "run": "20261003T1612Z",
+   "percent": 42,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95024574",
+   "company": "Civil Road & Rail SX5",
+   "title": "Project Engineer",
+   "run": "20261003T1612Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95023805",
+   "company": "GTE Employment Services",
+   "title": "Junior Designer/Estimator",
+   "run": "20261003T1612Z",
+   "percent": 52,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95023563",
+   "company": "Contec Recruitment Pty Ltd",
+   "title": "Project Engineer - FIFO ",
+   "run": "20261003T1612Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Minimum 4 years delivering civil infrastructure, main roads or similar for a civil contractor"
+   ]
+  },
+  {
+   "id": "95022688",
+   "company": "Serco Asia Pacific",
+   "title": "Undergraduate Engineer",
+   "run": "20261003T1612Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "Australian citizenship required for Baseline Defence Security Clearance"
+   ]
+  },
+  {
+   "id": "95016530",
+   "company": "Gamuda Engineering Pty Ltd",
+   "title": "BIM Engineer",
+   "run": "20261003T1612Z",
+   "percent": 34,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95012996",
+   "company": "Sarens (Australia) Pty Ltd",
+   "title": "Engineer: Technical Solutions",
+   "run": "20261003T1612Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "3+ years experience in heavy lift, cranage, rigging, transport or temporary works engineering"
+   ]
+  },
+  {
+   "id": "95009439",
+   "company": "TWEED SHIRE COUNCIL",
+   "title": "Engineer - Water and Wastewater Design",
+   "run": "20261003T1612Z",
+   "percent": 48,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95008378",
+   "company": "Downer EDI Limited",
+   "title": "Project Engineer",
+   "run": "20261003T1612Z",
+   "percent": 36,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94969508",
+   "company": "GPA Engineering",
+   "title": "Civil/Structural Drafter – ADL",
+   "run": "20261003T0114Z",
+   "percent": 48,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94961556",
+   "company": "Brunel",
+   "title": "Project Engineer - Civil",
+   "run": "20261003T0114Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94958791",
+   "company": "ADF Careers",
+   "title": "Part-Time Civil Engineer (Tax-Free Pay)",
+   "run": "20261003T0114Z",
+   "percent": 27,
+   "mandatory_unmet": [
+    "Citizenship or PR may be required"
+   ]
+  },
+  {
+   "id": "94973025",
+   "company": "Optimum Consulting Group",
+   "title": "Civil Engineer",
+   "run": "20261003T0114Z",
+   "percent": 61,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94969016",
+   "company": "QCCS",
+   "title": "Civil Project Engineer",
+   "run": "20261003T0114Z",
+   "percent": 73,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94935564",
+   "company": "Queanbeyan-Palerang Regional Council",
+   "title": "Trainee - Civil Construction",
+   "run": "20260930T1316Z",
+   "percent": 35,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94995704",
+   "company": "Xeros Piccolo Consulting Engineers",
+   "title": "Structural/Civil Engineer",
+   "run": "20261003T0114Z",
+   "percent": 60,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94961163",
+   "company": "Brunel",
+   "title": "Project Engineer ",
+   "run": "20261003T0114Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94958409",
+   "company": "Right Connect",
+   "title": "Structural Drafter",
+   "run": "20261003T0114Z",
+   "percent": 60,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94950957",
+   "company": "Milo Geotechnical",
+   "title": "Civil Engineer",
+   "run": "20260930T1316Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "A minimum of 5 years' engineering experience associated with the road construction industry"
+   ]
+  },
+  {
+   "id": "94990020",
+   "company": "Gough Recruitment SA",
+   "title": "Civil Estimator",
+   "run": "20261003T0114Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94956743",
+   "company": "Formstruct",
+   "title": "Estimator  - Civil & NPI",
+   "run": "20261003T0114Z",
+   "percent": 75,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94936909",
+   "company": "City of Joondalup",
+   "title": "Skilled General Hand - Engineering Construction (Civil)",
+   "run": "20260930T1316Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "WA HR Class Driver’s Licence"
+   ]
+  },
+  {
+   "id": "94916158",
+   "company": "WYN&CO Search Recruitment & Payroll",
+   "title": "Civil Project Engineer",
+   "run": "20260928T1031Z",
+   "percent": 50,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94999649",
+   "company": "CPB Contractors NSW ACT",
+   "title": "Project Engineer Building & Infrastructure",
+   "run": "20261003T0114Z",
+   "percent": 34,
+   "mandatory_unmet": [
+    "Citizenship or PR may be required"
+   ]
+  },
+  {
+   "id": "94978646",
+   "company": "Smith & Co",
+   "title": "Estimator",
+   "run": "20261003T0114Z",
+   "percent": 77,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94944895",
+   "company": "TTW (NSW) Pty Ltd",
+   "title": "Structural Revit Drafter",
+   "run": "20260930T1819Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95002679",
+   "company": "Sunshine Coast Council",
+   "title": "Design Engineer",
+   "run": "20261003T0114Z",
+   "percent": 71,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94994373",
+   "company": "Tungsten Mining",
+   "title": "Civil Project Engineer",
+   "run": "20261003T0114Z",
+   "percent": 73,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94991390",
+   "company": "Sunshine Coast Council",
+   "title": "Design Engineer",
+   "run": "20261003T0114Z",
+   "percent": 71,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94987271",
+   "company": "Randstad - Construction, Property & Engineering",
+   "title": "Estimator",
+   "run": "20261003T0114Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94958365",
+   "company": "Symal",
+   "title": "Project Engineer",
+   "run": "20261003T0114Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94940251",
+   "company": "Martin Metal Works Pty Ltd",
+   "title": "Design Draftsperson – Autodesk Inventor",
+   "run": "20260930T1819Z",
+   "percent": 25,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94937680",
+   "company": "CPB Contractors VIC & TAS",
+   "title": "Site Engineer Leakes Road (Engineering)",
+   "run": "20260930T1819Z",
+   "percent": 38,
+   "mandatory_unmet": [
+    "Proven experience as a Site Engineer on construction, infrastructure, or civil projects"
+   ]
+  },
+  {
+   "id": "94936602",
+   "company": "Peopleconnexion Recruitment",
+   "title": "Site Engineer - Geotechnical",
+   "run": "20260930T1819Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Australian Citizen or Permanent Resident"
+   ]
+  },
+  {
+   "id": "94930821",
+   "company": "Project BA",
+   "title": "Cadet Building Certifier / Engineering Graduate",
+   "run": "20260929T0032Z",
+   "percent": 58,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94909348",
+   "company": "Satake Australia Pty Ltd",
+   "title": "Draftsperson",
+   "run": "20260928T0532Z",
+   "percent": 29,
+   "mandatory_unmet": [
+    "Duties require creating and maintaining 3D models, technical drawings and specifications using SolidWorks and AutoCAD; Marc has not used SolidWorks (facts.json lists AutoCAD, Civil 3D, Revit, Microsoft Office and Google Workspace only)"
+   ]
+  },
+  {
+   "id": "94877601",
+   "company": "Quickway Constructions",
+   "title": "Undergraduate Civil Engineer",
+   "run": "20261002T1016Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "Currently studying a Bachelor of Civil Engineering in 3rd or 4th year"
+   ]
+  },
+  {
+   "id": "94900572",
+   "company": "Aptus",
+   "title": "Civil 3D | Civil Design + Engineering | $110K - $135K +",
+   "run": "20260928T0123Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Advert requires a minimum of 4 years using Civil 3D; Marc's Civil 3D experience is academic coursework only"
+   ]
+  },
+  {
+   "id": "94839731",
+   "company": "City of Gold Coast",
+   "title": "Undergraduate Engineers",
+   "run": "20260928T1031Z",
+   "percent": 43,
+   "mandatory_unmet": [
+    "\"be enrolled in and entering the final year of a relevant undergraduate Bachelor of Engineering degree at a recognised Australian university\" (Marc completed his BSCE in 2019 and is not currently enrolled at university)"
+   ]
+  },
+  {
+   "id": "94825304",
+   "company": "Vorstrom",
+   "title": "Cadet Draftsperson",
+   "run": "20260930T1819Z",
+   "percent": 42,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94770316",
+   "company": "Durack Civil",
+   "title": "Civil Estimator",
+   "run": "20260928T1031Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "\"Minimum 6 years' experience in civil construction\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian work experience)"
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "id": "95036821",
+   "source": "seek",
+   "title": "Draftsperson / Allrounder",
+   "company": "Green Start Consulting",
+   "location": "Victoria Park, Perth WA",
+   "url": "https://www.seek.com.au/job/95036821",
+   "work_type": "Part time",
+   "salary": null,
+   "listed_at": "2026-10-03T01:12:40.689Z",
+   "expires_at": "2026-11-02T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following CAD software do you have experience with?",
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have in the construction industry?",
+    "How many years' experience do you have as a draftsperson?",
+    "Do you have a current Police Check (National Police Certificate) for employment?",
+    "Do you have experience working on residential construction projects?",
+    "Have you completed a qualification in building design / building design drafting?",
+    "Do you have a current Australian driver's licence?"
+   ],
+   "summary": "Drafting role within the residential construction industry.",
+   "opening": "Green Start Consulting Pty \nhttp://www.greenstartconsulting.com.au/drafting \nAbout the role \nWe are seeking an experienced Draftsperson with residential and ArchiCAD experience as we embark on some exciting projects with focus on major growth for this business. \nIf you have been working in a drafting role within the residential construction industry and are seeking to move into something more varied including learning how to do bushfire assessments, energy assessments and more, then we would love to hear from you. \nSkills & Experience the successful candidate will come with are; \nNot suitable for engineers or engineer draftsperson (do not apply)\nMust have drivers licence \nMust have previous relative industry experience \nSound construction knowledge \nMust have a minimum of 1 year building design experience\nThorough understanding of local government regulations, Building Codes Australia an",
+   "key_lines": [
+    "We are seeking an experienced Draftsperson with residential and ArchiCAD experience as we embark on some exciting projects with focus on major growth for this business.",
+    "If you have been working in a drafting role within the residential construction industry and are seeking to move into something more varied including learning how to do bushfire assessments, energy assessments and more, then we would love to hear from you.",
+    "Skills & Experience the successful candidate will come with are;",
+    "Not suitable for engineers or engineer draftsperson (do not apply)",
+    "Must have drivers licence",
+    "Must have previous relative industry experience",
+    "Must have a minimum of 1 year building design experience",
+    "Minimum Certificate IV in Residential Drafting or the equivalent",
+    "Be a team player and assisting the company channels that require additional resources",
+    "Please note: Successful applicants may be required to provide a police clearance upon engagement of employment for relevant positions."
+   ]
+  },
+  {
+   "id": "95028266",
+   "source": "seek",
+   "title": "Project Engineer",
+   "company": "WSP",
+   "location": "Adelaide SA",
+   "url": "https://www.seek.com.au/job/95028266",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-02T08:20:16.836Z",
+   "expires_at": "2026-11-01T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": " WSP's Adelaide Mining team is growing, and we're looking for a Project Engineer who is ready to take the next step in their career. ",
+   "opening": "What if you could do the kind of work the world needs?\nAt WSP, you can access our global scale, contribute to landmark projects and connect with the brightest minds in your field to do the best work of your life. You can embrace your curiosity in a culture that celebrates new ideas and diverse perspectives. You can experience a world of opportunity and the chance to shape a career as unique as you.\nAt WSP you’ll find the scale and reach you need to do the kind of work the world needs – and the culture and people that make it the best work of your life.\nWhat you’ll do:\nWSP’s Mining team in Adelaide is growing, we're looking for a Project Engineer who is ready to step out of pure design and into a broader project and package management role.\nThis is a great opportunity for someone who has come from a technical engineering background and is keen to build their career on the delivery side, o",
+   "key_lines": [
+    "At WSP, you can access our global scale, contribute to landmark projects and connect with the brightest minds in your field to do the best work of your life. You can embrace your curiosity in a culture that celebrates new ideas and diverse perspectives. You can experience a world of opportunity and the chance to shape a career as unique as you.",
+    "This is a great opportunity for someone who has come from a technical engineering background and is keen to build their career on the delivery side, owning scopes, coordinating packages, and working closely with clients and multidisciplinary teams.",
+    "Work closely with Project Managers to track cost, schedule and progress",
+    "Experience working on mining or heavy industry projects",
+    "Work with experienced project managers and technical leaders"
+   ]
+  },
+  {
+   "id": "95026425",
+   "source": "seek",
+   "title": "Concreting Trainee",
+   "company": "Lake Macquarie City Council",
+   "location": "Speers Point, Newcastle, Maitland & Hunter NSW",
+   "url": "https://www.seek.com.au/job/95026425",
+   "work_type": "Full time",
+   "salary": "from $761.05 – $889.60 per week + 12% super",
+   "listed_at": "2026-10-02T07:14:36.433Z",
+   "expires_at": "2026-10-18T12:59:59.000Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Your Career Starts Here. Learn the Trade. Build the Future.",
+   "opening": "Term Contact: 2 years\nQualification: Certificate III in Concreting\nSalary: starting from $761.05 to $889.60\nCommencing: January 2027\nAre you looking to kick start your career in Concreting? Obtain a Nationally Recognised Qualification and valuable experience in Concreting with an Apprenticeship at Lake Mac Council!\nABOUT THE JOB\nThis 2-year Concreting Traineeship is the perfect opportunity to kick-start your career while making a real difference in the Lake Macquarie community. As a Concreting Trainee, you'll gain hands-on experience in a variety of concreting and construction activities, including footpaths, cycleways, formwork, steel fixing, traffic calming devices, kerb and channel construction (by hand and machine), driveways, drainage pits, pedestrian ramps, median islands and pedestrian refuges.\nThrough a combination of on-the-job training and formal study, you'll develop the pract",
+   "key_lines": [
+    "Term Contact: 2 years",
+    "Qualification: Certificate III in Concreting",
+    "Are you looking to kick start your career in Concreting? Obtain a Nationally Recognised Qualification and valuable experience in Concreting with an Apprenticeship at Lake Mac Council!",
+    "This 2-year Concreting Traineeship is the perfect opportunity to kick-start your career while making a real difference in the Lake Macquarie community. As a Concreting Trainee, you'll gain hands-on experience in a variety of concreting and construction activities, including footpaths, cycleways, formwork, steel fixing, traffic calming devices, kerb and channel construction (by hand and machine), driveways, drainage pits, pedestrian ramps, median islands and pedestrian refuges.",
+    "- Learn and apply concreting techniques, including screeding and finishing concrete across a variety of projects.",
+    "- Undertake all work in accordance with relevant quality, environmental and Work Health and Safety (WHS) requirements.",
+    "- Develop industry-recognised skills and knowledge through formal training and practical experience.",
+    "This position is based at Council's Works Depot and involves travel to sites across Lake Macquarie. Hours are 6:00am to 3:30pm, Tuesday to Friday, with occasional weekend work required with notice.",
+    "- Receive a wage whilst studying towards a qualification starting from $761.05 to $889.60 per week plus 12 per cent superannuation",
+    "- Learn from the best, working alongside experienced and qualified tradespeople who are committed to supporting your success.",
+    "- Current Provisional Drivers Licence",
+    "- Your dedicated and willing to undertake a Certificate III Concreting and within the term of the traineeship you are excited for this opportunity.",
+    "- Stand out from the crowd with previous Concrete experience.",
+    "- Enjoy working in outdoor environment with ability to undertake physical requirements of the role"
+   ]
+  },
+  {
+   "id": "95020303",
+   "source": "seek",
+   "title": "OHLE Project Engineer",
+   "company": "UGL – Projects-Major Projects",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/95020303",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-02T04:16:41.695Z",
+   "expires_at": "2026-11-01T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": " Join the Logan Gold Coast Faster Rail (LGCFR) Project, a transformative rail infrastructure program that will redefine passenger rail travel. ",
+   "opening": "At UGL, we are delivering some of Australia’s most significant infrastructure projects across rail, power, renewables, defence, resources, water and telecommunications. We are committed to building a better future through innovation, engineering excellence and collaboration.\nWe are currently seeking a OHLE Project Engineer to join the Logan Gold Coast Faster Rail (LGCFR) Project, a transformative rail infrastructure program that will redefine passenger rail travel between Brisbane and the Gold Coast.\nDelivered by the ActivUs Alliance, this landmark project will expand the rail corridor from two to four tracks between Kuraby and Beenleigh, while delivering major station upgrades, enhanced signalling systems and improved network capacity for South East Queensland.\nThe Opportunity\nThis role is responsible for supporting the design, coordination, and delivery or overhead line equipment works",
+   "key_lines": [
+    "This role is responsible for supporting the design, coordination, and delivery or overhead line equipment works to ensure they meet technical, safety, and project requirements. The role provides engineering support across design development, construction, and commissioning stages, helping to resolve technical issues and ensure OHLE works are delivered on time, to quality standards, and in accordance with rail safety obligations.",
+    "- Coordinate with design teams, site engineers and contractors on engineering requirements.",
+    "- A minimum of 4 years OHLE project engineering experience",
+    "- A bachelor’s degree in a relevant engineering discipline from a recognised tertiary institution.",
+    "- Experience applying engineering principles to comply with Project Specific Technical Requirements (PSTR)",
+    "- Demonstrated commercial experience to include planning up to 4 weeks ahead and weekly reporting against cost and time",
+    "How to apply",
+    "If this role sounds like you, please click on the apply button and follow the prompts. We will get in touch if you are shortlisted for this opportunity."
+   ]
+  },
+  {
+   "id": "95018947",
+   "source": "seek",
+   "title": "Regional Infrastructure Project Coordinator ",
+   "company": "Kimberley Land Council",
+   "location": "Broome, Broome & Kimberley WA",
+   "url": "https://www.seek.com.au/job/95018947",
+   "work_type": "Full time",
+   "salary": "$129,267 to $137,721",
+   "listed_at": "2026-10-02T03:42:31.391Z",
+   "expires_at": "2026-11-01T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Lead infrastructure projects that make a real difference across the Kimberley.",
+   "opening": "Kimberley Land Council is looking for an experienced and practical Regional Infrastructure Project Coordinator to help plan, develop and deliver building and infrastructure projects across remote communities. \nThis is a hands-on role where you’ll work closely with KLC management, communities, contractors and internal teams to deliver and maintain facilities including ranger bases, offices, workstations, sheds and staff accommodation.\nResponsibilities\nYou will bring practical project management experience, strong organisational skills and the confidence to coordinate infrastructure projects across remote communities. You will manage projects from planning through to delivery, keeping budgets, timelines, safety and quality on track.\n - Researching, improving and procuring infrastructure solutions suited to remote Kimberley locations\n - Working with communities and KLC teams to establish ag",
+   "key_lines": [
+    "Kimberley Land Council is looking for an experienced and practical Regional Infrastructure Project Coordinator to help plan, develop and deliver building and infrastructure projects across remote communities.",
+    "This is a hands-on role where you’ll work closely with KLC management, communities, contractors and internal teams to deliver and maintain facilities including ranger bases, offices, workstations, sheds and staff accommodation.",
+    "You will bring practical project management experience, strong organisational skills and the confidence to coordinate infrastructure projects across remote communities. You will manage projects from planning through to delivery, keeping budgets, timelines, safety and quality on track.",
+    "- Working closely with our WHS Advisor to ensure facilities are safe and suitable for employees, contractors and visitors",
+    "Qualifications & Experience",
+    "- A qualification in Project Management, Civil Engineering, or another relevant field. Extensive practical experience in related fields may be considered;",
+    "- Experience and confidence working with Aboriginal communities, with a demonstrated ability to communicate effectively with Aboriginal people.",
+    "- A collaborative attitude with a high degree of integrity and an ability to work well in a team, independently, and with colleagues and partners across the region and country",
+    "- A current C Class driver’s licence, with a manual licence preferred.",
+    "- Experience delivering civil infrastructure and streetscape projects",
+    "HOW TO APPLY",
+    "Click onto the \"Quick Apply\" button.",
+    "Upload a copy of your current resume and cover letter addressing the Selection Criteria (Qualifications & Experience).",
+    "We reserve the right to commence recruitment proceedings immediately and to close this advertisement early should a suitable candidate be found."
+   ]
+  },
+  {
+   "id": "95015978",
+   "source": "seek",
+   "title": "Draftsperson",
+   "company": "Austral International",
+   "location": "Hobart TAS",
+   "url": "https://www.seek.com.au/job/95015978",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-02T03:34:32.029Z",
+   "expires_at": "2026-11-01T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a draftsperson?",
+    "Have you completed a qualification in mechanical engineering?",
+    "How many years of Engineering Drafting experience do you have?"
+   ],
+   "summary": "Draftsperson to create technical drawings and support manufacturing for water and wastewater safety products.",
+   "opening": "About the role\nAustral International is a leading designer and manufacturer of high-quality safety access covers and other associated products for the water and wastewater industries. We are seeking a motivated and detail-oriented Draftsperson to support our sales, operations, and production teams. In this role you will take designs from concepts through to workshop drawings, being part of the process right through to supporting the production team in the manufacturing phase. This is an important role that contributes largely to the success of our projects and workshop efficiencies. This is a full-time role and will be based in Austral's Derwent Park office. You will be working as part of an established, but ever improving and growing team.\nKey responsibilities\n- Create and revise technical drawings using Autodesk Inventor\n- Liaise with customers and the sales team to understand project ",
+   "key_lines": [
+    "- Liaise with customers and the sales team to understand project requirements",
+    "- Experience using Autodesk Inventor",
+    "- Experience in fabrication or manufacturing environments (desirable)",
+    "- Competitive remuneration based on skills and experience",
+    "Important: This position is based in Australia. Applicants must have unrestricted working rights in Australia. We are not offering visa sponsorship for this role."
+   ]
+  },
+  {
+   "id": "95016316",
+   "source": "seek",
+   "title": "Designer/Draftsperson",
+   "company": "Saltair",
+   "location": "Crestmead, Brisbane QLD",
+   "url": "https://www.seek.com.au/job/95016316",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-02T02:42:47.940Z",
+   "expires_at": "2026-11-01T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "How many years' experience do you have as a draftsperson?",
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years of residential design experience do you have?",
+    "Which of the following CAD software do you have experience with?",
+    "What's your expected hourly rate?",
+    "How many years' experience do you have as a Revit Draftsperson?"
+   ],
+   "summary": "Design innovative modular homes with Saltair —where creativity meets sustainability on the stunning Sunshine Coast.",
+   "opening": "Shape the Future of Modular Living with Saltair\nJoin a Bold, Creative Team on the Sunshine Coast\nSaltair is redefining what's possible in modular design and construction. Based on the stunning Sunshine Coast, we create architecturally inspired modular homes and spaces that are sustainable, innovative, and beautiful. Our team is passionate about pushing boundaries and delivering exceptional design outcomes.\nAs we continue to grow, we're seeking a talented and motivated Designer/Draftsperson to join our creative team. We are looking for someone with a strong background in residential design and a passion for modular construction.\nWhat You’ll Be Doing\nAs a key member of our design team, you will:\n- Collaborate with clients to guide them through the design journey, from initial concepts to fully detailed, construction-ready drawings and schedules.\n- Produce accurate and detailed documentatio",
+   "key_lines": [
+    "As we continue to grow, we're seeking a talented and motivated Designer/Draftsperson to join our creative team. We are looking for someone with a strong background in residential design and a passion for modular construction.",
+    "- Produce accurate and detailed documentation that complies with the NCC, Australian Standards, and relevant state and local planning requirements.",
+    "- Coordinate with consultants as required to support project delivery.",
+    "- Minimum 3 years’ experience using Revit in a professional setting.",
+    "- Housing experience—essential for this role.",
+    "- Residential design or architectural background—highly preferred.",
+    "- Minimum 2 years of Australian local experience—essential.",
+    "- Proficiency in other design software (e.g., AutoCAD, ArchiCAD) is a plus.",
+    "- Formal qualifications are valued but not mandatory—your experience and skills matter most."
+   ]
+  },
+  {
+   "id": "95015675",
+   "source": "seek",
+   "title": "Reinforcing Design Engineer",
+   "company": "InfraBuild",
+   "location": "Perth WA",
+   "url": "https://www.seek.com.au/job/95015675",
+   "work_type": "Full time",
+   "salary": "Competitive salary",
+   "listed_at": "2026-10-02T02:25:19.423Z",
+   "expires_at": "2026-11-01T03:22:16.000Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Drive innovation, sustainability and industry impact through market-leading engineering solutions at InfraBuild.",
+   "opening": "Job description:\n About the role\n Join a 2026 AFR BOSS Best Places to Work Gold Winner and 2026 Sustainability Champion recognised by the World Steel Association. Play a key role in shaping our performance across our InfraBuild Reinforcing business.\n Reporting to the State Sales Manager, the Reinforcing Solutions Engineer will leverage their AS 3600 reinforced and post-tensioned concrete design expertise to drive the adoption of InfraBuild's products, processes, and services across the construction industry - focusing on sustainability, long-term profitability, and strategic stakeholder engagement informed by deep market insight.\n What you will be doing:\n - Leverage AS 3600 design expertise to identify and facilitate market entry of InfraBuild (and associated BU) products processes and service offerings\n - Partner with direct customers to embed InfraBuild products and services in all sta",
+   "key_lines": [
+    "- Flexibility and autonomy to fulfil your role requirements",
+    "- Access to long service leave after 5 years: Employees who are not covered by an Enterprise Agreement can access accrued Long Service Leave (LSL) at the rate of 1.3 weeks per year of service after 5 years continuous service.",
+    "- Tertiary qualifications in Engineering (Civil/Structural)",
+    "- Minimum 5 years' experience in reinforced and post-tension concrete design",
+    "- Work well, live better - experience a safe, supportive and inclusive environment which values you as a whole person and where wellbeing matters.",
+    "How to apply",
+    "We're committed to building an inclusive workplace that reflects the communities we serve. We encourage applications from people of all backgrounds, experiences and perspectives. Your diversity helps us create more sustainable and innovative steel solutions for Australia's future."
+   ]
+  },
+  {
+   "id": "95015027",
+   "source": "seek",
+   "title": "Structural Design Engineer Sydney",
+   "company": "Sourcey",
+   "location": "Sydney NSW",
+   "url": "https://www.seek.com.au/job/95015027",
+   "work_type": "Full time",
+   "salary": "AUD 120000 - 140000 per annum",
+   "listed_at": "2026-10-02T02:06:05.685Z",
+   "expires_at": "2026-11-01T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?"
+   ],
+   "summary": "Structural Engineer - Sydney, Melbourne or Adelaide",
+   "opening": "Structural Engineer | Buildings \nThis role could be based in either Sydney, Melbourne or Adelaide\n Work on projects that will challenge you, develop your technical capability and give you genuine room to grow.\n Join a highly regarded national structural engineering team in Sydney, working alongside experienced Tier 1 leaders on an exciting and diverse project portfolio — from boutique apartment developments through to high-rise towers, large-scale data centres, Defence projects and major infrastructure temporary works.\n This is an opportunity for a Structural Engineer with 5–7 years' Australian experience, particularly within concrete commercial, mid-rise and high-rise buildings, to take the next step in their career while working on technically interesting projects across Australia.\nWhat you'll be doing- Lead the structural design and delivery of small, medium and large-scale projects\n-",
+   "key_lines": [
+    "Join a highly regarded national structural engineering team in Sydney, working alongside experienced Tier 1 leaders on an exciting and diverse project portfolio — from boutique apartment developments through to high-rise towers, large-scale data centres, Defence projects and major infrastructure temporary works.",
+    "This is an opportunity for a Structural Engineer with 5–7 years' Australian experience, particularly within concrete commercial, mid-rise and high-rise buildings, to take the next step in their career while working on technically interesting projects across Australia.",
+    "- Support the development of junior engineers through coaching and mentoring",
+    "What we're looking for- 5–7 years' local Australian structural engineering experience",
+    "- Strong experience across concrete commercial, mid-rise and/or high-rise buildings",
+    "- Experience taking projects from design through to delivery",
+    "- Work alongside highly experienced Tier 1 leaders",
+    "- Take on increasing responsibility as your experience develops",
+    "If you're a Structural Engineer ready for a role where you can broaden your project experience, work with great people and keep progressing your career, I'd love to hear from you."
+   ]
+  },
+  {
+   "id": "95012380",
+   "source": "seek",
+   "title": "Project Coordinator",
+   "company": "Solutions+",
+   "location": "Landsborough, Sunshine Coast QLD",
+   "url": "https://www.seek.com.au/job/95012380",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-02T00:44:36.870Z",
+   "expires_at": "2026-11-01T00:44:33.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Join an ever growing commercial landscape builder. Keep major projects on track and build your career towards Project Manager",
+   "opening": "Project Coordinator | Landscape Construction | Sydney\nAt Solutions Plus, we believe in the positive power of great community spaces. We bring the plus for our customers, building and transforming landscapes that enhance communities, enrich lives and leave a lasting impact.\nWith over 30 years in the commercial landscape industry behind us, we combine experience with energy, structure with agility and commercial discipline with genuine care for the environments we create. But what truly sets us apart is our people.\nWe don't just deliver projects, we build careers. We don't just manage teams, we grow leaders. We don't just talk about culture, we invest in it.\nThe plus means we're all in on you. Structured learning. Leadership pathways. Recognition that matters. Flexibility where it counts. A high performance environment that supports ambition and rewards ownership. Because when our people g",
+   "key_lines": [
+    "With over 30 years in the commercial landscape industry behind us, we combine experience with energy, structure with agility and commercial discipline with genuine care for the environments we create. But what truly sets us apart is our people.",
+    "- Previous experience in a coordination or administration role in construction, landscaping or civil",
+    "- A degree or study in Construction Management, Project Management or similar is highly regarded",
+    "- Current driver's licence and White Card",
+    "- Learn directly from experienced PMs who want to see you succeed"
+   ]
+  },
+  {
+   "id": "95012208",
+   "source": "seek",
+   "title": "Project Coordinator",
+   "company": "Solutions+",
+   "location": "Yatala, Gold Coast QLD",
+   "url": "https://www.seek.com.au/job/95012208",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-02T00:35:53.746Z",
+   "expires_at": "2026-11-01T00:35:52.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Join an ever growing commercial landscape builder. Keep major projects on track and build your career towards Project Manager",
+   "opening": "Project Coordinator | Landscape Construction | Sydney\nAt Solutions Plus, we believe in the positive power of great community spaces. We bring the plus for our customers, building and transforming landscapes that enhance communities, enrich lives and leave a lasting impact.\nWith over 30 years in the commercial landscape industry behind us, we combine experience with energy, structure with agility and commercial discipline with genuine care for the environments we create. But what truly sets us apart is our people.\nWe don't just deliver projects, we build careers. We don't just manage teams, we grow leaders. We don't just talk about culture, we invest in it.\nThe plus means we're all in on you. Structured learning. Leadership pathways. Recognition that matters. Flexibility where it counts. A high performance environment that supports ambition and rewards ownership. Because when our people g",
+   "key_lines": [
+    "With over 30 years in the commercial landscape industry behind us, we combine experience with energy, structure with agility and commercial discipline with genuine care for the environments we create. But what truly sets us apart is our people.",
+    "- Previous experience in a coordination or administration role in construction, landscaping or civil",
+    "- A degree or study in Construction Management, Project Management or similar is highly regarded",
+    "- Current driver's licence and White Card",
+    "- Learn directly from experienced PMs who want to see you succeed"
+   ]
+  },
+  {
+   "id": "95010184",
+   "source": "seek",
+   "title": "Research Engineer, Cyclone Testing Station",
+   "company": "JCU: James Cook University, Australia",
+   "location": "Townsville, Northern QLD",
+   "url": "https://www.seek.com.au/job/95010184",
+   "work_type": "Full time",
+   "salary": "$112,810 - $133,110 + 17% Super & great benefits",
+   "listed_at": "2026-10-01T23:02:22.809Z",
+   "expires_at": "2026-10-18T13:55:00.000Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Apply your engineering expertise to research that improves building resilience and helps protect communities from cyclones and severe weather.",
+   "opening": "Academic Level B | Full-time (1.0 FTE) |Continuing appointment] | Townsville\n- Help improve the resilience of Australian buildings and communities to severe weather\n- Deliver applied engineering research with meaningful industry and community impact\n- Join the internationally relevant work of JCU’s Cyclone Testing Station\n- Level B $112,810 - $133,110 + 17% Super & great benefits\nJames Cook University is seeking a collaborative and solutions-focused Research Engineer to join the Cyclone Testing Station in Townsville.\nThis is an exciting opportunity to apply your engineering expertise to research that helps reduce the social and financial impacts of tropical cyclones, thunderstorms and other severe wind events. You will contribute to practical projects examining building performance, wind loads, wind-driven debris and rain damage, while working with industry, researchers and technical spe",
+   "key_lines": [
+    "This is an exciting opportunity to apply your engineering expertise to research that helps reduce the social and financial impacts of tropical cyclones, thunderstorms and other severe wind events. You will contribute to practical projects examining building performance, wind loads, wind-driven debris and rain damage, while working with industry, researchers and technical specialists to strengthen community resilience.",
+    "- Apply structural analysis, laboratory testing, field investigation and probability analysis techniques",
+    "You will bring qualifications and experience in wind, structural or mechanical engineering, or a related discipline, appropriate to appointment at Academic Level B.",
+    "- Experience delivering research projects, analysing data and communicating findings through reports or journal publications",
+    "- Experience engaging with industry and translating research into practical outcomes",
+    "Familiarity with building systems and construction techniques, together with experience using numerical or structural analysis software, will be highly regarded.",
+    "How to apply",
+    "Click the Apply button or apply through the JCU Careers page and:",
+    "- Upload a cover letter outlining your relevant experience against the key requirements and how your skills will contribute to your success in the role",
+    "For further information, please contact David Henderson on (07) 4781 6364 or email david.henderson@jcu.edu.au",
+    "JCU celebrates diversity and is committed to creating a safe, inclusive and welcoming environment. We encourage applications from people of all backgrounds who meet the requirements of the role."
+   ]
+  },
+  {
+   "id": "95010108",
+   "source": "seek",
+   "title": "Engineer - Projects",
+   "company": "TWEED SHIRE COUNCIL",
+   "location": "Tweed Heads, Lismore & Far North Coast NSW",
+   "url": "https://www.seek.com.au/job/95010108",
+   "work_type": "Full time",
+   "salary": "Salary: $102,118 up to $117,528 p/a + 12% super",
+   "listed_at": "2026-10-01T22:55:43.438Z",
+   "expires_at": "2026-11-01T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Join a dynamic team delivering innovative water and wastewater projects that make a lasting community impact.",
+   "opening": "The Engineer - Projects position provides support for the Senior Engineer – Capital Works in the project planning and management of the delivery of water and wastewater infrastructure including storage, reticulation and treatment assets. This position requires you to make decisions and provide advice as a professional engineer on complex issues across a range of infrastructure types. \n About the role:\n - Support the planning and delivery of essential water and wastewater infrastructure projects, including treatment, storage and reticulation assets.\n - Provide engineering advice and contribute to decision-making on a range of complex infrastructure projects and initiatives.\n - Work closely with the Senior Engineer – Capital Works, consultants, contractors and other stakeholders to achieve project outcomes.\n - Build experience across a diverse range of local government engineering function",
+   "key_lines": [
+    "The Engineer - Projects position provides support for the Senior Engineer – Capital Works in the project planning and management of the delivery of water and wastewater infrastructure including storage, reticulation and treatment assets. This position requires you to make decisions and provide advice as a professional engineer on complex issues across a range of infrastructure types.",
+    "- Support the planning and delivery of essential water and wastewater infrastructure projects, including treatment, storage and reticulation assets.",
+    "- Work closely with the Senior Engineer – Capital Works, consultants, contractors and other stakeholders to achieve project outcomes.",
+    "- Build experience across a diverse range of local government engineering functions, with opportunities to broaden your skills and career development.",
+    "- A qualified Civil Engineer with a Bachelor of Civil Engineering (or a related discipline) and eligibility for membership of Engineers Australia, or equivalent technical experience and expertise.",
+    "- Experience in civil engineering activities, including the design, construction, operation and maintenance of infrastructure assets.",
+    "Position closes:"
+   ]
+  },
+  {
+   "id": "95041618",
+   "source": "seek",
+   "title": "Estimator - Prefab Frame & Truss",
+   "company": "vitae group pty ltd",
+   "location": "Bayside & South Eastern Suburbs, Melbourne VIC",
+   "url": "https://www.seek.com.au/job/95041618",
+   "work_type": "Full time",
+   "salary": "$70,000 – $80,000 per year",
+   "listed_at": "2026-10-03T20:38:43.349Z",
+   "expires_at": "2026-11-03T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as an Estimator?"
+   ],
+   "summary": "Are you an expert in MiTek with a strong attention to detail? ",
+   "opening": "About the Company\nYour new company is a well-established truss and frame manufacturer that has been established for decades but with they are expanding their capabilities and product offering. They've a great reputation within the smaller builder market so are well-positioned with a loyal customer base to keep them steady. They are utilising this quieter time in the market to get the right person trained up, onboarded and integrated ready for next year when things pick up.\nAbout the Role\nThis is an Estimator role where you'll be communicating with clients, quoting whole of house jobs (walls, posi's and roofs) for builders using MiTek and ensuring pricing is within company guidelines. Working hours are 7am - 3.30am\nAbout you\n- 2 years quoting experience with Timber Trusses, Framing and Posi-Struts \n- Experience using the MiTek software in an estimating/detailing role\n- Strong communicator",
+   "key_lines": [
+    "- 2 years quoting experience with Timber Trusses, Framing and Posi-Struts",
+    "- Experience using the MiTek software in an estimating/detailing role",
+    "If this sounds like you please click APPLY NOW or email your CV to sandra@vitaegroup.com.au as the client will be interviewing next week. Due to the expected high volume of applications only successful candidates will be contacted."
+   ]
+  },
+  {
+   "id": "95028674",
+   "source": "seek",
+   "title": "Project Engineer - Industrial Machinery",
+   "company": "Ampersand",
+   "location": "Melbourne VIC",
+   "url": "https://www.seek.com.au/job/95028674",
+   "work_type": "Full time",
+   "salary": "100k - 130k + super",
+   "listed_at": "2026-10-02T08:36:41.100Z",
+   "expires_at": "2026-11-01T07:36:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a project engineer?",
+    "Have you led site teams, including subcontractors, to install or commission industrial machinery, process equipment or automated handling systems?",
+    "What was your role on your most recent installation or commissioning project?"
+   ],
+   "summary": "Take full ownership of major automated equipment installations for a global German manufacturer, with factory training in Germany",
+   "opening": "Project Engineer - Industrial Machinery\n Melbourne | Permanent full-time | National site travel\n Own the project from order to sign-off\nAbout the company\n Our client is the Australian arm of a German family-owned global manufacturer of industrial laundry systems. They design and build large automated laundry lines for healthcare, hospitality and commercial laundries. The Australian team is small, so your work will be visible every day.\n The role\n You'll be the single accountable owner of every equipment project in Australia, from estimate through installation and commissioning to signed customer acceptance. You'll also manage warranty claims and technical complaints with the factory in Germany.\n What you'll do\n - Work with Sales on estimates, then build the project plan, budget, resources and site schedule\n - Lead installation teams on site: company technicians, subcontractors, casual la",
+   "key_lines": [
+    "- Commission and document every safety function, close out punch lists, and obtain signed customer acceptance",
+    "- Degree in Mechanical, Electrical or Mechatronics Engineering",
+    "- Experience leading site teams and subcontractors to install and commission industrial machinery, process equipment or automated handling systems",
+    "- Current driver's licence and comfortable with frequent interstate travel, including multi-week site periods",
+    "Highly regarded: materials handling or industrial machinery experience, warranty claims management, and project management training or certification."
+   ]
+  },
+  {
+   "id": "95002741",
+   "source": "seek",
+   "title": "INGRITY 2027 Graduate Program – Digital, Data & AI.",
+   "company": "INGRITY Pty Ltd.",
+   "location": "Sydney NSW",
+   "url": "https://www.seek.com.au/job/95002741",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-02T08:34:13.080Z",
+   "expires_at": "2026-11-01T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?"
+   ],
+   "summary": "Graduate program in Digital, Data & AI with hands-on experience at major Australian organisations.",
+   "opening": "About the role\nINGRITY is looking for ambitious graduates ready to build their careers working on real digital, data and AI challenges for some of Australia's largest organisations. Our graduates are trusted with meaningful work early. You'll build technical depth, develop consulting capability and learn how to turn data into decisions that create real business impact.\nKey responsibilities\n- Work on complex projects across major Australian organisations\n- Gain hands-on experience in digital, data and AI\n- Participate in structured learning, mentorship and technical training\n- Access INGRITY's technical experts and work with a dedicated graduate buddy\n- Take on real responsibility and progress quickly\nAbout you\n- Graduated from an Australian university in 2025 or 2026\n- Hold full Australian working rights\n- Available to start full-time in early 2027\n- Graduate in Data Science, Analytics, ",
+   "key_lines": [
+    "INGRITY is looking for ambitious graduates ready to build their careers working on real digital, data and AI challenges for some of Australia's largest organisations. Our graduates are trusted with meaningful work early. You'll build technical depth, develop consulting capability and learn how to turn data into decisions that create real business impact.",
+    "- Gain hands-on experience in digital, data and AI",
+    "- Access INGRITY's technical experts and work with a dedicated graduate buddy",
+    "- Graduated from an Australian university in 2025 or 2026",
+    "- Graduate in Data Science, Analytics, Statistics, Computer Science or related disciplines"
+   ]
+  },
+  {
+   "id": "95027590",
+   "source": "seek",
+   "title": "Project Engineer - Quality",
+   "company": "Ertech Pty Ltd",
+   "location": "Sydney NSW",
+   "url": "https://www.seek.com.au/job/95027590",
+   "work_type": "Full time",
+   "salary": "Competitive Remuneration + Benefits + Weekly Pay",
+   "listed_at": "2026-10-02T07:55:40.350Z",
+   "expires_at": "2026-11-01T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Join us as a Project Engineer and help drive excellence across our projects.",
+   "opening": "ABOUT US\nErtech is a proudly employee-owned Australian civil and electrical construction company, delivering high-quality services across the Transport, Infrastructure, Resources, and Defence sectors. We partner with clients in both the public and private sectors, including state and federal governments. Since our humble beginnings in 1981, we’ve built a strong reputation for the quality of our work and the long-term relationships we foster — all driven by our core values of collaboration, courage, and authenticity.\nABOUT THE ROLE\nWe are currently recruiting for an experienced Project Engineer to join our team in NSW, taking the lead on QA/QC requirements across our long-term construction projects. This role will involve travel between our Sydney-based project sites.\nAs the Project Engineer, you will play a key role in managing quality assurance and quality control activities, ensuring p",
+   "key_lines": [
+    "We are currently recruiting for an experienced Project Engineer to join our team in NSW, taking the lead on QA/QC requirements across our long-term construction projects. This role will involve travel between our Sydney-based project sites.",
+    "As the Project Engineer, you will play a key role in managing quality assurance and quality control activities, ensuring project requirements and standards are met. You will work closely with project teams to maintain quality processes, drive continuous improvement and embed a strong culture of quality and excellence across our projects.",
+    "- Ensure Project teams complete all required QA/QC surveillance and documentation to the applicable project requirements and standards",
+    "To be successful, you will have experience and demonstrate capability in the following:",
+    "- Minimum 5+ years of relevant experience in a Quality Engineer or similar role on construction projects.",
+    "- Tertiary qualification in Engineering, Bachelor in Civil Engineering or similar qualification (desirable).",
+    "- MUST hold relevant Australian working rights.",
+    "At Ertech, our people are fundamental to our success. We're focused on creating an inclusive workplace, with the right people in the right roles, who are engaged, empowered, and appropriately rewarded. Ertech will provide you with the chance to be a part of great team, meet new people and gain experience with an industry leader who puts safety first.",
+    "We value the unique backgrounds, experiences, and perspectives of all people and actively encourage applications from First Nations peoples, all genders, culturally and linguistically diverse individuals, people with disability, LGBTQIA+ community members, and veterans of the Australian Defence Force.",
+    "Ertech is a proud Veteran Employment supporter. We recognise the valuable skills and leadership that veterans bring to our industry and welcome their applications at all levels of the business. Even if you don’t meet every requirement listed, we encourage you to apply and bring your strengths to our team.",
+    "HOW TO APPLY",
+    "Click \"Apply\" on this job advertisement, which will direct you to Ertech's application portal. Simply follow the steps outlined on the portal to complete your application."
+   ]
+  },
+  {
+   "id": "95027483",
+   "source": "seek",
+   "title": "Estimator",
+   "company": "One Call Handyman",
+   "location": "Waterford West, Brisbane QLD",
+   "url": "https://www.seek.com.au/job/95027483",
+   "work_type": "Full time",
+   "salary": "$110,000 – $130,000 per year",
+   "listed_at": "2026-10-02T07:53:00.182Z",
+   "expires_at": "2026-11-01T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as an Estimator?",
+    "How much notice are you required to give your current employer?",
+    "Have you completed a qualification in carpentry?",
+    "Do you have a current Australian driver's licence?"
+   ],
+   "summary": "Enjoy work/life balance",
+   "opening": "Estimator Position Available \nAbout Us \nWe are seeking an experienced Estimator based in South Brisbane/Logan with a solid background in the construction industry. If you take pride in your work, bring a positive attitude, and are a motivated, results-driven professional, we’d love to hear from you. In this role, you’ll be responsible for preparing quotations across a diverse range of projects, all while enjoying the flexibility of working from home. Join our growing business, where both team satisfaction and exceptional customer service are at the heart of everything we do.\nExperience preferred in the following skills to assist with quoting:  \nPlastering, Carpentry, Painting, Fencing or General Handyman Duties.   \n **No Sponsorship positions available\n      About You \n- Position best suited to someone with trade experience \n- Self-motivated and possess a strong work ethic with excellent",
+   "key_lines": [
+    "We are seeking an experienced Estimator based in South Brisbane/Logan with a solid background in the construction industry. If you take pride in your work, bring a positive attitude, and are a motivated, results-driven professional, we’d love to hear from you. In this role, you’ll be responsible for preparing quotations across a diverse range of projects, all while enjoying the flexibility of working from home. Join our growing business, where both team satisfaction and exceptional customer service are at the heart of everything we do.",
+    "Experience preferred in the following skills to assist with quoting:",
+    "- Position best suited to someone with trade experience",
+    "Qualifications & Experience",
+    "- General skill set for maintenance work required",
+    "- Experience in the Trade Industry",
+    "- Must have an Australian driver's license"
+   ]
+  },
+  {
+   "id": "95024389",
+   "source": "seek",
+   "title": "Field Engineer or Graduate Engineer",
+   "company": "Bridgestone Mining Solutions Australia Pty Ltd",
+   "location": "Forrestfield, Perth WA",
+   "url": "https://www.seek.com.au/job/95024389",
+   "work_type": "Full time",
+   "salary": "Base+Super+Company Car+Benefits",
+   "listed_at": "2026-10-02T06:19:48.666Z",
+   "expires_at": "2026-11-01T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Provide high level technical advice, expertise & recommendations for gaining optimum performance & extended life for BMSA products & solutions",
+   "opening": "Bridestone Mining Solutions Australia (BMSA) is a market leader in the tyre & mining services industry and is renowned for its global reputation for quality products, continuous improvement & cutting-edge application of technology.\nOur OTR (Off The Road) Tyres are manufactured specifically to customer requirements selecting from BMSA’s broad menu of technical capabilities to create a product with outstanding performance in multiple areas considering environmental, load & operating variables. Bridgestone tyres are supported by a range of products & services including iTrack tyre pressure & temperature monitoring as well as wheel/rim supply & repair.\nOur mission: Serving Society with Superior Quality\nWe seek an experienced Field Engineer or recent graduate Engineer to fill a Technical Product Support (Field Engineer) position in our Perth Branch servicing our customers across WA, NT & SA.\n",
+   "key_lines": [
+    "Our OTR (Off The Road) Tyres are manufactured specifically to customer requirements selecting from BMSA’s broad menu of technical capabilities to create a product with outstanding performance in multiple areas considering environmental, load & operating variables. Bridgestone tyres are supported by a range of products & services including iTrack tyre pressure & temperature monitoring as well as wheel/rim supply & repair.",
+    "We seek an experienced Field Engineer or recent graduate Engineer to fill a Technical Product Support (Field Engineer) position in our Perth Branch servicing our customers across WA, NT & SA.",
+    "- 5 days extra leave every year after 2 years of employment",
+    "- Work with colleagues to optimise OTR tyre selection & use of iTrack to satisfy customer requirements",
+    "About You - Essential",
+    "- Tertiary qualifications in engineering or similar discipline",
+    "- Experience or exposure to technical support within OTR tyres or heavy industry",
+    "- A valid driver’s licence"
+   ]
+  },
+  {
+   "id": "95023901",
+   "source": "seek",
+   "title": "Assistant Estimator ",
+   "company": "Solutions+",
+   "location": "Seven Hills, Sydney NSW",
+   "url": "https://www.seek.com.au/job/95023901",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-02T06:05:38.279Z",
+   "expires_at": "2026-11-01T06:05:37.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Join us in a fulltime position, supporting the pricing & delivery of landscape maintenance tenders across parks, public spaces & commercial sites.",
+   "opening": "Start Date: Immediate Starts Available\nLocation: Seven Hills Head Office, NSW\nSalary and perks: Entry Level Salary + Super + Phone & Laptop\nRole Benefits: Fulltime Permanent Benefits, Weekly Pay & Career Growth\nWork Type: Maintenance Division Estimating & Bid Team support\nAbout Solutions+:\nAt Solutions+ we create and maintain green spaces that make a real difference in communities and organisations. Backed by 30+ years in the industry, we bring experience, quality and pride to everything we do. We offer more than just a job; we invest in your growth. With ongoing training, career pathways, and a supportive team, you’ll have the opportunity to build a long-term career and be recognised for the work you put in.\nRole and Responsibilities:\n- Assist with pricing landscape maintenance tenders, contracts and service proposals\n- Review specifications, scopes, drawings, schedules and site informa",
+   "key_lines": [
+    "At Solutions+ we create and maintain green spaces that make a real difference in communities and organisations. Backed by 30+ years in the industry, we bring experience, quality and pride to everything we do. We offer more than just a job; we invest in your growth. With ongoing training, career pathways, and a supportive team, you’ll have the opportunity to build a long-term career and be recognised for the work you put in.",
+    "- Complete compliance checks and ensure submissions meet client requirements",
+    "- Work closely with Operations to ensure pricing is practical, accurate and achievable",
+    "- Licence and Transportation",
+    "We’re here to help you grow, make an impact, and build a future you’re proud of. Join a team that values your ideas, supports your development, and recognises the work you put in. Apply today and include your up-to-date resume for our recruitment team to peruse. Be part of a team that brings the plus!"
+   ]
+  },
+  {
+   "id": "95022215",
+   "source": "seek",
+   "title": "2027 Engineering Graduate Program",
+   "company": "BAE Systems",
+   "location": "Osborne, Adelaide SA",
+   "url": "https://www.seek.com.au/job/95022215",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-02T05:00:43.000Z",
+   "expires_at": "2026-11-01T05:16:52.812Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Launch your career at the edge of innovation as an Engineering Graduate. At BAE Systems Australia, you will collaborate with industry leaders to...",
+   "opening": "Job description\n Job Title: 2027 Engineering Graduate Program\nLocation: Various. We offer a range of hybrid and flexible working arrangements, including a 9-day fortnight.\nSalary: $91,390.00 inclusive of superannuation\nPioneer + Protect Australia while securing your future\nWho we are\nJoin BAE Systems and you'll be part of something bigger. As a valued member of our global colleague network, you'll bring your unique skills and perspectives to help pioneer progress and protect what matters most. You'll be trusted to play your part in delivering the advanced, technology-led defence, aerospace and security solutions of tomorrow, shaping a safer future, for all of us. From the depths of the ocean, to the far reaches of space, there's no limit to where a career at BAE Systems could take you.\nWho you are\nHere's what it takes to join our graduate program:\n- \nCommunication master: Impress us with",
+   "key_lines": [
+    "Job Title: 2027 Engineering Graduate Program",
+    "Here's what it takes to join our graduate program:",
+    "Fresh degree power: Hold a bachelor's or master's degree completed within the last two years.",
+    "Please note, as a defence security clearance is required for this role, applicants must be Australian citizens and either possess or be eligible to obtain and maintain one. International Traffic in Arms Regulations (ITAR) are applicable and as such, your nationality may be a factor in determining your suitability for this role.",
+    "Why our Graduate Program?",
+    "Our two-year graduate program offers:",
+    "- Formal and informal networking with other early career peers to compare experiences and learn more about other projects",
+    "Launch your career at the edge of innovation as an Engineering Graduate. At BAE Systems Australia, you will collaborate with industry leaders to design and develop sophisticated solutions that powers Australia's most advanced defence and commercial technologies. This is your chance to turn engineering theory into ground-breaking, real-world solutions. When applying, you can select three (3) disciplines for which you'd like to be considered, including:",
+    "We're committed to building an inclusive workplace where everyone feels valued and supported. We know that a diversity of backgrounds, perspectives and experiences strengthens our teams and is vital to the work we do. We welcome applications from all candidates and give full, fair and open consideration to everyone. If you require any reasonable adjustments during the recruitment process, please contact our recruitment team to discuss any further support you may need. Connect with us at au.earlycareers@baesystems.au.",
+    "To learn more about our Graduate opportunities, check out our Careers page."
+   ]
+  },
+  {
+   "id": "95022224",
+   "source": "seek",
+   "title": "2027 Project Management Graduate Program",
+   "company": "BAE Systems",
+   "location": "Adelaide SA",
+   "url": "https://www.seek.com.au/job/95022224",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-02T05:00:29.000Z",
+   "expires_at": "2026-11-01T05:17:05.218Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Master the art of complex delivery as a Project Management Graduate. At BAE Systems Australia, you won't just track tasks; you will lead strategic...",
+   "opening": "Job description\n Job Title: 2027 Project Management Graduate Program\nLocation: Various. We offer a range of hybrid and flexible working arrangements, including a 9-day fortnight.\nSalary: $91,390.00 inclusive of superannuation\nPioneer + Protect Australia while securing your future\nWho we are\nJoin BAE Systems and you'll be part of something bigger. As a valued member of our global colleague network, you'll bring your unique skills and perspectives to help pioneer progress and protect what matters most. You'll be trusted to play your part in delivering the advanced, technology-led defence, aerospace and security solutions of tomorrow, shaping a safer future, for all of us. From the depths of the ocean, to the far reaches of space, there's no limit to where a career at BAE Systems could take you.\nWho you are\nHere's what it takes to join our graduate program:\n- \nCommunication master: Impress ",
+   "key_lines": [
+    "Job Title: 2027 Project Management Graduate Program",
+    "Here's what it takes to join our graduate program:",
+    "Fresh degree power: Hold a bachelor's or master's degree completed within the last two years.",
+    "Please note, as a defence security clearance is required for this role, applicants must be Australian citizens and either possess or be eligible to obtain and maintain one. International Traffic in Arms Regulations (ITAR) are applicable and as such, your nationality may be a factor in determining your suitability for this role.",
+    "Why our Graduate Program?",
+    "Our two-year graduate program offers:",
+    "- Formal and informal networking with other early career peers to compare experiences and learn more about other projects",
+    "Master the art of complex delivery as a Project Management Graduate. At BAE Systems Australia, you won't just track tasks; you will lead strategic initiatives that safeguard Australia's future. You will:",
+    "We're committed to building an inclusive workplace where everyone feels valued and supported. We know that a diversity of backgrounds, perspectives and experiences strengthens our teams and is vital to the work we do. We welcome applications from all candidates and give full, fair and open consideration to everyone. If you require any reasonable adjustments during the recruitment process, please contact our recruitment team to discuss any further support you may need. Connect with us at au.earlycareers@baesystems.au.",
+    "To learn more about our Graduate opportunities, check out our Careers page."
+   ]
+  },
+  {
+   "id": "95020670",
+   "source": "seek",
+   "title": "Project Engineers - New Bundaberg Hospital",
+   "company": "CPB Contractors QLD & PNG",
+   "location": "Bundaberg, Bundaberg & Wide Bay Burnett QLD",
+   "url": "https://www.seek.com.au/job/95020670",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-02T04:27:07.277Z",
+   "expires_at": "2026-11-01T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Great opportunities for experienced Engineers to join the team on New Bundaberg Hospital. Drive-in drive out or move to local area. ",
+   "opening": "CPB Contractors is Australia’s leading contractor and the largest infrastructure construction company in our region. Part of the CIMIC Group, we are proud to be constructing Australia’s future and do so collaboratively with our partners and clients.\nWe hire for careers, not project life. CPB Contractors has more than 50 major infrastructure projects in delivery, across all key sectors of the construction industry, including roads and bridges, rail, tunnelling, defence, airports, buildings and resources, providing you with career opportunities for years to come.\nThe Project\nCPB Contractors has been selected by the Queensland Government as managing contractor for stage one of the new Bundaberg Hospital. CPB Contractors will lead the design phase of the project which involves the design of a new six-storey hospital for acute, medical, surgical and mental health services, as well as emergenc",
+   "key_lines": [
+    "We hire for careers, not project life. CPB Contractors has more than 50 major infrastructure projects in delivery, across all key sectors of the construction industry, including roads and bridges, rail, tunnelling, defence, airports, buildings and resources, providing you with career opportunities for years to come.",
+    "The project is currently seeking experienced Project Engineers in the Structures and Civil space on a Drive-in-drive out roster or relocate to the local area.",
+    "- Demonstrate a personal commitment to the SHE Cultural Framework, policies, Safety Essentials and Management System requirements and expectations",
+    "- Ensure compliance with all relevant legal and regulatory requirement and all relevant Company and Group policies and processes",
+    "Our minimum requirements for this role are:",
+    "- Recognised degree in relevant engineering discipline",
+    "- Minimum 5 years relevant experience",
+    "- Demonstrated experience in delivery of building construction projects",
+    "- Apply engineering principles to comply with scope of works and technical criteria (SWTC)",
+    "- Demonstrated commercial experience to include planning up to 4 weeks ahead and weekly reporting against cost and time"
+   ]
+  },
+  {
+   "id": "95015855",
+   "source": "seek",
+   "title": "Cabmaster Drafter",
+   "company": "melbourne signature joinery",
+   "location": "Maidstone, Melbourne VIC",
+   "url": "https://www.seek.com.au/job/95015855",
+   "work_type": "Full time",
+   "salary": "$85,000 – $115,000 per year",
+   "listed_at": "2026-10-02T02:31:06.645Z",
+   "expires_at": "2026-11-01T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a draftsperson?",
+    "How much notice are you required to give your current employer?",
+    "How many years of Communication Design experience do you have?",
+    "How many years' experience do you have as a Production Draftsperson?"
+   ],
+   "summary": "We're looking for motivated, reliable, and passionate individuals to join our team. ",
+   "opening": "- Detail Joinery Projects from Client sign off through to Production\n- Communication with Clients regarding design\n- Work with Production Team for all drawings\n- Nest all jobs for the CNC",
+   "key_lines": []
+  }
+ ]
+}

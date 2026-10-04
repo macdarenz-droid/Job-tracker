@@ -730,6 +730,21 @@
     "Alluvium Consulting PREPARED_NOT_SENT",
     "Arnik Design and Build HELD_MANDATORY_REQUIREMENTS"
    ]
+  },
+  {
+   "run_id": "20261004T1717Z",
+   "rotation": "councils_government",
+   "checked_at": "2026-10-04T17:29:30Z",
+   "sources": [
+    "SEEK sweep daterange 3\u21927\u219214 max80 (widening ladder); digest 24 never-screened after prior-screen skip",
+    "Parkes Shire Council Cadet Engineer ApplyNow PSC2222600 (close 11 Oct 2026) \u2014 skipped held publish: employer already has HELD Water and Wastewater Trainee",
+    "Mott MacDonald Grad Civil/Geotech Transport Melbourne \u2014 blocked recent outreach Civil Drafter READY 2026-09-12",
+    "Hansen Yuncken Construction Cadets Sydney \u2014 under threshold (must be current 2nd/3rd year student)",
+    "careers.vic / Melton MEL1888 / Wyndham / Symal Ignite / Acciona Grad 2027 \u2014 closed, already tracked, or citizenship/PR",
+    "GTE Employment Services Junior Designer/Estimator SEEK 95023805 PREPARED_NOT_SENT (recruitment@gteaustralia.com from advert)",
+    "BAE Systems 2027 Engineering Graduate Program HELD_MANDATORY_REQUIREMENTS (Australian citizenship)"
+   ],
+   "notes": "Councils_government rotation. SEEK widen all steps. Published GTE PREPARED + BAE HELD. Email held: canonical-journal lease inaccessible. browse.py chromium path missing / trust CA denied."
   }
  ]
 }

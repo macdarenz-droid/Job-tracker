@@ -1,0 +1,46 @@
+{
+  "subject": "Application: Junior Designer/Estimator (Cranbourne) \u2013 Marc Darenz Masarate",
+  "email_body": "Hello,\n\nI saw your SEEK advert for Junior Designer/Estimator in Cranbourne (job 95023805), open to a graduate engineer building layout and estimating skills.\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD, plus a Bachelor of Science in Civil Engineering (Philippines, 2014 to 2019). In 2019 to 2020 I worked as field engineer and project-in-charge on a community hall renovation and subdivision finishing works. I am based in Melton VIC, hold a White Card and Australian driver's licence with transport, and have full working rights to December 2027 on a Subclass 485 visa. Available for site, regional and FIFO work.\n\nThe role asks for racking layouts, take-offs and quotations. My estimating is coursework only, and my CAD is academic rather than production racking software. Happy to learn those tools on the job if that works.\n\nI have attached my resume and cover letter.\nPortfolio: https://macdarenz-droid.github.io/Portfolio\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "letter": {
+    "recipient_name": "Recruitment team",
+    "recipient_role": "Recruitment",
+    "company": "GTE Employment Services (client: racking and storage solutions)",
+    "company_line": "Your Cranbourne junior designer/estimator brief on SEEK is aimed at someone who can prepare racking layouts, bills of materials and quotations, including graduates developing structural or design skills.",
+    "subject": "Application: Junior Designer/Estimator (Cranbourne) \u2013 Marc Darenz Masarate",
+    "greeting": "Hello,",
+    "paragraphs": [
+      "I am applying for the Junior Designer/Estimator role advertised on SEEK (job 95023805) for your client's racking and storage work in Cranbourne.",
+      "I finished an Advanced Diploma of Civil Construction Design in February 2026 at Albright Institute, documenting road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD. I also hold a Bachelor of Science in Civil Engineering from Divine Word College of Legazpi (2014 to 2019). From April 2019 to February 2020 I worked in the Philippines as Project-in-Charge Engineer at JustBuilt and as Field Engineer at Grand Travaux on a community hall renovation and residential subdivision finishing works, covering site inspections, crew coordination, materials tracking and progress reports.",
+      "I live in Melton VIC with a White Card, an Australian driver's licence and my own transport, and I have full working rights until December 2027 on a Subclass 485 visa. I am available for site, office, regional and FIFO work.",
+      "I have not worked in commercial racking design or used Cin7. My estimating and CAD experience is academic and site-based rather than production racking software. I can bring careful drawing and quantity habits from civil coursework and would need mentoring on your client's racking standards and tools.",
+      "I have attached my resume and cover letter. Thank you for considering my application."
+    ],
+    "closing": "Kind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio"
+  },
+  "screening_answers": {
+    "Which of the following statements best describes your right to work in Australia?": "I have full working rights until December 2027 on a Subclass 485 visa.",
+    "What's your expected annual base salary?": "Open to discussion for an entry junior designer/estimator package; Marc to confirm a figure.",
+    "How many years' experience do you have as an Estimator?": "No paid estimating role; coursework cost estimates and bills of quantities only.",
+    "How much notice are you required to give your current employer?": "Available; Marc to confirm any notice if circumstances change.",
+    "How many years of graphic design experience do you have?": "None. My background is civil engineering and civil construction design, not graphic design.",
+    "Have you completed a qualification in engineering drafting / engineering design?": "Yes. Advanced Diploma of Civil Construction Design (completed February 2026) and Bachelor of Science in Civil Engineering (2019)."
+  },
+  "checklist": [
+    "Open SEEK job 95023805 and confirm still listed",
+    "Attach resume PDF and cover letter PDF",
+    "Answer screening questions honestly from facts.json",
+    "Note GTE is an agency; end employer unnamed",
+    "Do not claim racking or Cin7 experience"
+  ],
+  "company": "GTE Employment Services",
+  "role": "Junior Designer/Estimator",
+  "location": "Cranbourne, Melbourne VIC",
+  "job_url": "https://www.seek.com.au/job/95023805",
+  "route": "EMAIL",
+  "recipient_name": "",
+  "recipient_role": "Recruitment",
+  "recipient_email": "recruitment@gteaustralia.com",
+  "contact_evidence_url": "https://www.seek.com.au/job/95023805",
+  "application_type": "ADVERTISED_VACANCY",
+  "notes": "Agency listing; email published on SEEK advert. Prefer email pack + SEEK apply for Jeremie if needed."
+}

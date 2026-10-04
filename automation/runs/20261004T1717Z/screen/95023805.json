@@ -1,0 +1,37 @@
+{
+  "id": "95023805",
+  "company": "GTE Employment Services",
+  "title": "Junior Designer/Estimator",
+  "location": "Cranbourne, Melbourne VIC",
+  "url": "https://www.seek.com.au/job/95023805",
+  "listed_at": "2026-10-02T06:03:37.606Z",
+  "expires_at": "2026-11-01T12:59:59.999Z",
+  "percent": 61,
+  "rationale": [
+    "Junior designer/estimator open to graduate/student engineers; Cranbourne Melbourne west is strong location fit.",
+    "Layout, bills of materials and quotations overlap coursework cost estimates and AutoCAD documentation.",
+    "Agency listing for racking/storage solutions (not civil roads/drainage); employer unnamed; structural racking focus is only fair discipline overlap."
+  ],
+  "caution": "Recruitment agency for racking/storage designer role; not civil infrastructure.",
+  "gaps": [
+    "Agency with unnamed end employer",
+    "Racking/storage not civil roads/drainage/earthworks",
+    "No commercial drafting experience"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply via SEEK https://www.seek.com.au/job/95023805 or email recruitment@gteaustralia.com as stated in advert",
+  "open": true,
+  "employer_is_agency": true,
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as an Estimator?",
+    "How much notice are you required to give your current employer?",
+    "How many years of graphic design experience do you have?",
+    "Have you completed a qualification in engineering drafting / engineering design?"
+  ],
+  "seek_id": "95023805"
+}

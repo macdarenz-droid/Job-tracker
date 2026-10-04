@@ -1,0 +1,12 @@
+{
+ "built": [],
+ "rejected": [
+  {
+   "seek_id": "95023805",
+   "status": "PREPARED_NOT_SENT",
+   "issues": [
+    "email too long: 221 words (limit 220)"
+   ]
+  }
+ ]
+}

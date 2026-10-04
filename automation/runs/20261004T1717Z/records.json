@@ -1,0 +1,121 @@
+[
+ {
+  "id": "f7893b7d-4c32-45e9-9259-974135d4c570",
+  "key": "manual:f7893b7d-4c32-45e9-9259-974135d4c570",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261004T1717Z",
+  "created_at": "2026-10-04T17:28:45.000Z",
+  "updated_at": "2026-10-04T17:28:45.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "1b25e66b-7024-4e28-ac83-a87335ea49ec",
+    "path": "/api/documents/1b25e66b-7024-4e28-ac83-a87335ea49ec",
+    "filename": "Marc_Masarate_GTE_Employment_Services_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-04T17:28:47.199Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "63a4e65f-aad7-4355-a491-1941c1a819aa",
+    "path": "/api/documents/63a4e65f-aad7-4355-a491-1941c1a819aa",
+    "filename": "Marc_Masarate_GTE_Employment_Services_Junior_Designer_Estimator_Cover_Letter.pdf",
+    "sha256": "4b2d37ef99f5aa7a0119dda408aa7a209fd9193d6aedeea728212dad54c2912d",
+    "size_bytes": 51170,
+    "kind": "cover",
+    "uploaded_at": "2026-10-04T17:28:45.983Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "GTE Employment Services",
+  "role": "Junior Designer/Estimator",
+  "location": "Cranbourne, Melbourne VIC",
+  "job_url": "https://www.seek.com.au/job/95023805",
+  "company_url": "https://www.gteaustralia.com",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Recruitment",
+  "recipient_email": "recruitment@gteaustralia.com",
+  "contact_email": "recruitment@gteaustralia.com",
+  "contact_evidence_url": "https://www.seek.com.au/job/95023805",
+  "contact_verified_at": "2026-10-04T17:28:45.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Application: Junior Designer/Estimator (Cranbourne) – Marc Darenz Masarate",
+  "email_body": "Hello,\n\nI saw your SEEK advert for Junior Designer/Estimator in Cranbourne (job 95023805), open to a graduate engineer building layout and estimating skills.\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD, plus a Bachelor of Science in Civil Engineering (Philippines, 2014 to 2019). In 2019 to 2020 I worked as field engineer and project-in-charge on a community hall renovation and subdivision finishing works. I am based in Melton VIC, hold a White Card and Australian driver's licence with transport, and have full working rights to December 2027 on a Subclass 485 visa. Available for site, regional and FIFO work.\n\nThe role asks for racking layouts, take-offs and quotations. My estimating is coursework only, and my CAD is academic rather than production racking software. Happy to learn those tools on the job if that works.\n\nI have attached my resume and cover letter.\nPortfolio: https://macdarenz-droid.github.io/Portfolio\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Junior designer/estimator open to graduate/student engineers; Cranbourne Melbourne west is strong location fit.",
+   "Layout, bills of materials and quotations overlap coursework cost estimates and AutoCAD documentation.",
+   "Agency listing for racking/storage solutions (not civil roads/drainage); employer unnamed; structural racking focus is only fair discipline overlap."
+  ],
+  "gaps": [
+   "Agency with unnamed end employer",
+   "Racking/storage not civil roads/drainage/earthworks",
+   "No commercial drafting experience"
+  ],
+  "match_score": {
+   "percent": 61,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Junior designer/estimator open to graduate/student engineers; Cranbourne Melbourne west is strong location fit.",
+    "Layout, bills of materials and quotations overlap coursework cost estimates and AutoCAD documentation.",
+    "Agency listing for racking/storage solutions (not civil roads/drainage); employer unnamed; structural racking focus is only fair discipline overlap."
+   ],
+   "caution": "Recruitment agency for racking/storage designer role; not civil infrastructure."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-02T06:03:37.606Z",
+   "expires_at": "2026-11-01T12:59:59.999Z",
+   "verified_at": "2026-10-04T17:28:09.000Z",
+   "apply_instructions": "Apply via SEEK https://www.seek.com.au/job/95023805 or email recruitment@gteaustralia.com as stated in advert",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as an Estimator?",
+    "How much notice are you required to give your current employer?",
+    "How many years of graphic design experience do you have?",
+    "Have you completed a qualification in engineering drafting / engineering design?"
+   ]
+  },
+  "screening_answers": {
+   "Which of the following statements best describes your right to work in Australia?": "I have full working rights until December 2027 on a Subclass 485 visa.",
+   "What's your expected annual base salary?": "Open to discussion for an entry junior designer/estimator package; Marc to confirm a figure.",
+   "How many years' experience do you have as an Estimator?": "No paid estimating role; coursework cost estimates and bills of quantities only.",
+   "How much notice are you required to give your current employer?": "Available; Marc to confirm any notice if circumstances change.",
+   "How many years of graphic design experience do you have?": "None. My background is civil engineering and civil construction design, not graphic design.",
+   "Have you completed a qualification in engineering drafting / engineering design?": "Yes. Advanced Diploma of Civil Construction Design (completed February 2026) and Bachelor of Science in Civil Engineering (2019)."
+  },
+  "checklist": [
+   "Open SEEK job 95023805 and confirm still listed",
+   "Attach resume PDF and cover letter PDF",
+   "Answer screening questions honestly from facts.json",
+   "Note GTE is an agency; end employer unnamed",
+   "Do not claim racking or Cin7 experience"
+  ],
+  "notes": "Agency listing; email published on SEEK advert. Prefer email pack + SEEK apply for Jeremie if needed.\nEmail address published in the SEEK advert body (verified via seek.py details 95023805 on 5 Oct 2026). GTE Employment Services is a recruitment agency; end employer not named.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-02, closes 2026-11-01). Contact: the application inbox recruitment@gteaustralia.com published by the employer (https://www.seek.com.au/job/95023805); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Junior Designer/Estimator role on SEEK.\n• They may ask about: Agency with unnamed end employer → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Racking/storage not civil roads/drainage/earthworks → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No commercial drafting experience → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-02, closes 2026-11-01). Contact: the application inbox recruitment@gteaustralia.com published by the employer (https://www.seek.com.au/job/95023805); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Junior Designer/Estimator role on SEEK.",
+   "They may ask about: Agency with unnamed end employer → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Racking/storage not civil roads/drainage/earthworks → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No commercial drafting experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-04T17:28:45.000Z",
+  "seek_id": "95023805",
+  "duplicate_key": "gteemploymentservices|seek:95023805"
+ }
+]
