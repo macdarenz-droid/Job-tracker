@@ -40,7 +40,10 @@ def trust():
     if not os.path.exists(os.path.join(NSSDB, 'cert9.db')):
         subprocess.run(['certutil', '-d', f'sql:{NSSDB}', '-N', '--empty-password'], check=True)
     have = subprocess.run(['certutil', '-d', f'sql:{NSSDB}', '-L'], capture_output=True, text=True).stdout
-    pem = open(BUNDLE).read()
+    try:
+        pem = open(BUNDLE).read()
+    except (PermissionError, FileNotFoundError) as e:
+        print(f'trust skipped: {e}'); return 0
     added = 0
     for i, cert in enumerate(re.findall(r'-----BEGIN CERTIFICATE-----.*?-----END CERTIFICATE-----', pem, re.S)):
         subj = subprocess.run(['openssl', 'x509', '-noout', '-subject'], input=cert, capture_output=True, text=True).stdout

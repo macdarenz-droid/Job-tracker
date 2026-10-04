@@ -3,9 +3,9 @@
   "tracker_api": "https://job-tracker-api.mmarcdarenz.workers.dev",
   "tracker_site": "https://macdarenz-droid.github.io/Job-tracker/",
   "code_env": "TRACKER_CODE",
-  "code_file": "/root/.job-tracker-code",
-  "contributor_name": "Claude",
-  "created_by": "claude-job-search",
+  "code_file": "/workspace/repos/.secrets/job-tracker-code",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
   "schedule": {
     "every_hours": 5,
     "timezone": "Australia/Melbourne"
@@ -388,8 +388,8 @@
       "i look forward to the possibility"
     ],
     "banned_characters": [
-      "—",
-      "–"
+      "\u2014",
+      "\u2013"
     ],
     "banned_character_note": "No em or en dashes in emails or letters; use a comma, a full stop or 'to'. Date ranges in the letter use 'to'."
   },

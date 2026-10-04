@@ -226,7 +226,7 @@
   "Diona": {
    "careers_url": "https://www.livehire.com/careers/dionaptyltd/job/FKQN4/SXI2MWAGZX/graduate-engineer",
    "checked_at": "2026-10-02",
-   "notes": "Graduate Engineer Brisbane LiveHire URL returned 404 this tick; Site/Project Engineer ads require 2–5 years",
+   "notes": "Graduate Engineer Brisbane LiveHire URL returned 404 this tick; Site/Project Engineer ads require 2\u20135 years",
    "open_junior_roles": []
   },
   "Abergeldie": {
@@ -238,7 +238,7 @@
   "Daracon": {
    "careers_url": "https://daracon.com.au/careers/tertiary-pathway",
    "checked_at": "2026-10-02",
-   "notes": "Cadet pathway page only (labourer→cadet→graduate while studying); no dated open graduate vacancy verified",
+   "notes": "Cadet pathway page only (labourer\u2192cadet\u2192graduate while studying); no dated open graduate vacancy verified",
    "open_junior_roles": []
   },
   "Ertech": {
@@ -385,6 +385,24 @@
    "checked_at": "2026-10-04",
    "open_junior_roles": [],
    "notes": "Speculative PREPARED this tick to consulting@dpmvic.com.au (published). No dated junior vacancy; experienced water resources engineer post exists separately."
+  },
+  "BG&E": {
+   "careers_url": "https://bgeeng.com/career/early-careers/",
+   "checked_at": "2026-10-04",
+   "open_junior_roles": [
+    {
+     "title": "Graduate Way program EOI",
+     "url": "https://bgeeng.com/career/early-careers/",
+     "apply": "portal EOI via bgeeng.com/career"
+    }
+   ],
+   "notes": "Year-round EOI invited; official applications open March for February start. READY portal pack published 20261004T0719Z."
+  },
+  "Osborn Consulting Engineers": {
+   "careers_url": "https://www.osbornconsulting.com.au/peopleandcareers",
+   "checked_at": "2026-10-04",
+   "open_junior_roles": [],
+   "notes": "Graduates/Undergraduates invited; admin@osbornconsulting.com.au published. Blocked this tick: prior EOI_SENT/SENT on same careers URL."
   }
  },
  "sweep_log": [
@@ -512,7 +530,7 @@
     {
      "name": "Diona",
      "url": "https://www.livehire.com/careers/dionaptyltd/job/FKQN4/SXI2MWAGZX/graduate-engineer",
-     "result": "Graduate Engineer Brisbane LiveHire URL returned 404 this tick; Site/Project Engineer ads require 2–5 years"
+     "result": "Graduate Engineer Brisbane LiveHire URL returned 404 this tick; Site/Project Engineer ads require 2\u20135 years"
     },
     {
      "name": "Abergeldie",
@@ -522,7 +540,7 @@
     {
      "name": "Daracon",
      "url": "https://daracon.com.au/careers/tertiary-pathway",
-     "result": "Cadet pathway page only (labourer→cadet→graduate while studying); no dated open graduate vacancy verified"
+     "result": "Cadet pathway page only (labourer\u2192cadet\u2192graduate while studying); no dated open graduate vacancy verified"
     },
     {
      "name": "Ertech",
@@ -606,7 +624,7 @@
     "GHD Grad Civil Structural Drafters Melbourne (Citizen/PR + closed)",
     "DTM Geocivil careers (no open roles; speculative PREPARED to info@dtmgeocivil.com.au)"
    ],
-   "notes": "Councils_government rotation. SEEK d3→d7→d14 widen. Published Global Group READY_SEEK + DTM speculative PREPARED + Blacktown HELD."
+   "notes": "Councils_government rotation. SEEK d3\u2192d7\u2192d14 widen. Published Global Group READY_SEEK + DTM speculative PREPARED + Blacktown HELD."
   },
   {
    "run_id": "20261003T2118Z",
@@ -654,7 +672,21 @@
      "result": "Grad program open; university recent-grad / degree recency unresolved; not published this tick"
     }
    ],
-   "notes": "Employers rotation. SEEK d3→d7→d14 max80 all already screened. Open-web: DOF READY + GPA HELD. Gmail send skipped (create_draft only). browse.py trust CA permission denied; CHROME_BIN set."
+   "notes": "Employers rotation. SEEK d3\u2192d7\u2192d14 max80 all already screened. Open-web: DOF READY + GPA HELD. Gmail send skipped (create_draft only). browse.py trust CA permission denied; CHROME_BIN set."
+  },
+  {
+   "run_id": "20261004T0719Z",
+   "rotation": "councils_government",
+   "checked_at": "2026-10-04T07:33:48Z",
+   "sources": [
+    "careers.vic.gov.au civil keywords (52 hits; legal/VCAT/admin dominant; no new junior civil graduate/cadet matched)",
+    "Melton/Wyndham council careers (browse.py trust CA denied; curl limited; no new open junior civil verified)",
+    "Open-web: Egis Graduate Civil Engineer 2027 Norwest (DUP recent outreach same employer Rail READY 2026-10-01)",
+    "Open-web: Osborn Consulting graduates EOI (DUP prior EOI_SENT/SENT on same careers URL)",
+    "Open-web: BG&E Graduate Way early-careers EOI (READY_JEREMIE_EMPLOYER_PORTAL published)",
+    "SEEK widen d3\u2192d7\u2192d14 max80: never-screened junior civil exhausted or mandatory fails; published HELD Aptus mid/senior, NOTAZ 3yr drafter, Roesner 3yr drafter"
+   ],
+   "notes": "Councils_government rotation. SEEK widen all steps. Published BG&E READY + 3 HELD. Speculative Osborn blocked prior outreach. Gmail send held: no accessible canonical-journal lease on this box (CODEX hold-sending rule). browse.py trust skipped (CA bundle perms)."
   }
  ]
 }
