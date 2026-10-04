@@ -1,0 +1,40 @@
+{
+ "company": "UDEC (Urban Development & Engineering Consultants)",
+ "role": "Speculative enquiry: graduate civil drafter or junior civil designer (Melbourne)",
+ "location": "Docklands VIC",
+ "job_url": "https://udec.com.au/careers",
+ "route": "EMAIL",
+ "application_type": "SPECULATIVE_ENQUIRY",
+ "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+ "recipient_name": null,
+ "recipient_role": "Recruitment",
+ "recipient_email": "recruitment@udec.com.au",
+ "contact_evidence_url": "https://udec.com.au/careers",
+ "subject": "Speculative enquiry, graduate civil drafter, Docklands, Marc Darenz Masarate",
+ "email_body": "Hello,\n\nThis is a speculative enquiry, as your careers page invites people to send their details when no listed role fits. I am looking for a graduate civil drafter or junior civil designer seat in your Docklands office.\n\nI completed an Advanced Diploma of Civil Construction Design in February 2026, covering road geometry, earthworks, pavement and stormwater drainage, documented in Civil 3D and AutoCAD. In 2019 and 2020 I worked in the Philippines as a project in charge engineer and then a field engineer, handling site inspections, quality checks and progress reports. I live in Melton, hold a White Card and an Australian driver's licence with my own transport, and have full working rights on a Subclass 485 visa until December 2027.\n\nYour gas, electricity, water and sewer relocation work caught my eye because my coursework included lodging Before You Dig enquiries and designing around existing services. I have not yet worked in an Australian design office, so I would start by learning your relocation standards under supervision.\n\nCould we have a short call if a junior drafting or design place opens up? I've attached my resume and cover letter.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+ "letter": {
+  "recipient_name": "",
+  "recipient_role": "Recruitment",
+  "company": "UDEC",
+  "company_line": "UDEC specialises in utility services covering gas, electricity, water and sewage relocations, with design, engineering and construction work for contractors around Melbourne, Sydney, the Gold Coast and Brisbane.",
+  "subject": "Speculative enquiry for a graduate civil drafter or junior civil designer role, Docklands",
+  "greeting": "Hello,",
+  "paragraphs": [
+   "This is a speculative enquiry for a graduate civil drafter or junior civil designer place in your Docklands office. Your careers page invites people to send their details when none of the listed roles fit, and the current openings are senior positions.",
+   "I completed an Advanced Diploma of Civil Construction Design at Albright Institute in February 2026. My coursework covered road geometry, earthworks, pavement systems and stormwater drainage, with drawings prepared and reviewed in AutoCAD and Civil 3D against Australian Standards. I also lodged Before You Dig Australia enquiries, followed its procedures and designed around existing services and site constraints.",
+   "From April 2019 to February 2020 I worked in the Philippines, first as a project in charge engineer on a community hall renovation and then as a field engineer on residential subdivision finishing works. I carried out site inspections and quality checks, reviewed drawings, and prepared site reports and material records.",
+   "Your relocation work on gas, electricity, water and sewer assets is where I would like to build my design skills. I have not yet worked in an Australian design office, so I would expect to learn your relocation standards and authority requirements under supervision while producing careful drawings. I live in Melton with my own transport, hold a White Card and an Australian driver's licence, and have full working rights on a Subclass 485 visa until December 2027.",
+   "Thank you for reading this. My resume is attached, and I would be glad to talk whenever a junior drafting or design place opens."
+  ],
+  "closing": "Yours sincerely,"
+ },
+ "screening_answers": {},
+ "checklist": [
+  "Re-read https://udec.com.au/careers and confirm recruitment@udec.com.au still invites CVs",
+  "Gmail in:anywhere search for udec before any send",
+  "Attach resume and cover letter PDFs",
+  "Keep the speculative label in subject and opening line",
+  "Do not claim utility relocation design or Australian design office experience"
+ ],
+ "notes": "Employers rotation tick 20261004T2210Z. No advertised junior vacancy; careers page lists only senior drafter and designer roles (8+ years) and invites CVs to recruitment@udec.com.au when no role fits. HOW FOUND: open-web employer sweep of UDEC careers and homepage on 5 Oct 2026 AEDT; contact is the employer-published recruitment inbox; nothing sent this tick."
+}

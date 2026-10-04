@@ -1,0 +1,106 @@
+[
+ {
+  "id": "492e9f3a-e9f2-46c8-93a8-3865b8cc9fff",
+  "key": "manual:492e9f3a-e9f2-46c8-93a8-3865b8cc9fff",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261004T2210Z",
+  "created_at": "2026-10-04T22:26:58.000Z",
+  "updated_at": "2026-10-04T22:26:58.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "2e147533-cc1b-4616-a893-e4198ec34de5",
+    "path": "/api/documents/2e147533-cc1b-4616-a893-e4198ec34de5",
+    "filename": "Marc_Masarate_UDEC_Urban_Development_Engineering_Consu_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-04T22:27:00.653Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "d50e0d05-5158-4e19-bbeb-f70b31532d2d",
+    "path": "/api/documents/d50e0d05-5158-4e19-bbeb-f70b31532d2d",
+    "filename": "Marc_Masarate_UDEC_Urban_Development_Engineering_Consu_Speculative_enquiry_graduate_civil_draft_Cover_Letter.pdf",
+    "sha256": "012c6763cecc8ef226f064bbb246ad9eaedb41ca90c503dc63459a58c50b1bb1",
+    "size_bytes": 49010,
+    "kind": "cover",
+    "uploaded_at": "2026-10-04T22:26:59.344Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "UDEC (Urban Development & Engineering Consultants)",
+  "role": "Speculative enquiry: graduate civil drafter or junior civil designer (Melbourne)",
+  "location": "Docklands VIC",
+  "job_url": "https://udec.com.au/careers",
+  "company_url": "https://udec.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Recruitment",
+  "recipient_email": "recruitment@udec.com.au",
+  "contact_email": "recruitment@udec.com.au",
+  "contact_evidence_url": "https://udec.com.au/careers",
+  "contact_verified_at": "2026-10-04T22:26:58.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Speculative enquiry, graduate civil drafter, Docklands, Marc Darenz Masarate",
+  "email_body": "Hello,\n\nThis is a speculative enquiry, as your careers page invites people to send their details when no listed role fits. I am looking for a graduate civil drafter or junior civil designer seat in your Docklands office.\n\nI completed an Advanced Diploma of Civil Construction Design in February 2026, covering road geometry, earthworks, pavement and stormwater drainage, documented in Civil 3D and AutoCAD. In 2019 and 2020 I worked in the Philippines as a project in charge engineer and then a field engineer, handling site inspections, quality checks and progress reports. I live in Melton, hold a White Card and an Australian driver's licence with my own transport, and have full working rights on a Subclass 485 visa until December 2027.\n\nYour gas, electricity, water and sewer relocation work caught my eye because my coursework included lodging Before You Dig enquiries and designing around existing services. I have not yet worked in an Australian design office, so I would start by learning your relocation standards under supervision.\n\nCould we have a short call if a junior drafting or design place opens up? I've attached my resume and cover letter.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "UDEC designs and documents utility relocations (gas, electricity, water, sewer) for civil contractors; Marc's coursework includes Before You Dig enquiries and designing around existing services.",
+   "AutoCAD and Civil 3D documentation of road, earthworks, pavement and stormwater design suits a junior drafter or designer seat.",
+   "Docklands office is commutable from Melton; employer publishes a CV inbox for people when no listed role fits."
+  ],
+  "gaps": [
+   "No advertised junior vacancy",
+   "No Australian consulting or design office experience",
+   "Utility relocation design and authority approvals not yet done on live projects"
+  ],
+  "match_score": {
+   "percent": 70,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "UDEC designs and documents utility relocations (gas, electricity, water, sewer) for civil contractors; Marc's coursework includes Before You Dig enquiries and designing around existing services.",
+    "AutoCAD and Civil 3D documentation of road, earthworks, pavement and stormwater design suits a junior drafter or designer seat.",
+    "Docklands office is commutable from Melton; employer publishes a CV inbox for people when no listed role fits."
+   ],
+   "caution": "Speculative: only senior (8+ years) roles are listed; no Australian design office experience; utility relocation design software and authority standards not on his resume."
+  },
+  "advert": {
+   "source": "employer_site",
+   "listed_at": "",
+   "expires_at": "",
+   "verified_at": "2026-10-04T22:26:58.000Z",
+   "apply_instructions": "Speculative enquiry by email to recruitment@udec.com.au (employer-published inbox inviting CVs when no listed role fits).",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Re-read https://udec.com.au/careers and confirm recruitment@udec.com.au still invites CVs",
+   "Gmail in:anywhere search for udec before any send",
+   "Attach resume and cover letter PDFs",
+   "Keep the speculative label in subject and opening line",
+   "Do not claim utility relocation design or Australian design office experience"
+  ],
+  "notes": "Employers rotation tick 20261004T2210Z. No advertised junior vacancy; careers page lists only senior drafter and designer roles (8+ years) and invites CVs to recruitment@udec.com.au when no role fits. HOW FOUND: open-web employer sweep of UDEC careers and homepage on 5 Oct 2026 AEDT; contact is the employer-published recruitment inbox; nothing sent this tick.\nEmployer-published recruitment inbox explicitly invites CVs when no listed role fits. No named engineering contact published on the site.\nHOW GROK AI FOUND THIS\nFound on employer_site (listed date not shown). Contact: the application inbox recruitment@udec.com.au published by the employer (https://udec.com.au/careers); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Speculative enquiry: graduate civil drafter or junior civil designer (Melbourne) role on SEEK.\n• They may ask about: No advertised junior vacancy → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian consulting or design office experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Utility relocation design and authority approvals not yet done on live projects → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_site (listed date not shown). Contact: the application inbox recruitment@udec.com.au published by the employer (https://udec.com.au/careers); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Speculative enquiry: graduate civil drafter or junior civil designer (Melbourne) role on SEEK.",
+   "They may ask about: No advertised junior vacancy → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian consulting or design office experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Utility relocation design and authority approvals not yet done on live projects → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-04T22:26:58.000Z",
+  "duplicate_key": "udecurbandevelopmentengineeringconsultants|udec.com.au/careers"
+ }
+]

@@ -1,0 +1,31 @@
+{
+ "id": "udec-speculative-docklands-20261005",
+ "company": "UDEC (Urban Development & Engineering Consultants)",
+ "title": "Speculative enquiry: graduate civil drafter or junior civil designer (Melbourne)",
+ "location": "Docklands VIC",
+ "url": "https://udec.com.au/careers",
+ "listed_at": null,
+ "expires_at": null,
+ "percent": 70,
+ "rationale": [
+  "UDEC designs and documents utility relocations (gas, electricity, water, sewer) for civil contractors; Marc's coursework includes Before You Dig enquiries and designing around existing services.",
+  "AutoCAD and Civil 3D documentation of road, earthworks, pavement and stormwater design suits a junior drafter or designer seat.",
+  "Docklands office is commutable from Melton; employer publishes a CV inbox for people when no listed role fits."
+ ],
+ "caution": "Speculative: only senior (8+ years) roles are listed; no Australian design office experience; utility relocation design software and authority standards not on his resume.",
+ "gaps": [
+  "No advertised junior vacancy",
+  "No Australian consulting or design office experience",
+  "Utility relocation design and authority approvals not yet done on live projects"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "EMAIL",
+ "apply_email": "recruitment@udec.com.au",
+ "apply_instructions": "Speculative enquiry by email to recruitment@udec.com.au (employer-published inbox inviting CVs when no listed role fits).",
+ "open": true,
+ "employer_is_agency": false,
+ "screening_questions": [],
+ "company_work_verified": true,
+ "company_work_evidence": "udec.com.au homepage and careers page read 5 Oct 2026 AEDT: utilities design, engineering and construction for gas, electricity, water and sewage relocations; Docklands VIC office."
+}
