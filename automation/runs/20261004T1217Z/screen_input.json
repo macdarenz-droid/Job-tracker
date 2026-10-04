@@ -1,0 +1,506 @@
+{
+ "count": 3,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "95038050",
+   "company": "ABS Civil WA Pty Ltd",
+   "title": "Civil Estimator - Earthworks",
+   "run": "20261003T1118Z",
+   "percent": 38,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95021621",
+   "company": "Ertech Pty Ltd",
+   "title": "Project Engineer (Civil)",
+   "run": "20261003T0114Z",
+   "percent": 59,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94958791",
+   "company": "ADF Careers",
+   "title": "Part-Time Civil Engineer (Tax-Free Pay)",
+   "run": "20261003T0114Z",
+   "percent": 27,
+   "mandatory_unmet": [
+    "Citizenship or PR may be required"
+   ]
+  },
+  {
+   "id": "94995704",
+   "company": "Xeros Piccolo Consulting Engineers",
+   "title": "Structural/Civil Engineer",
+   "run": "20261003T0114Z",
+   "percent": 60,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95021747",
+   "company": "Contec Recruitment Pty Ltd",
+   "title": "Civil Estimator ",
+   "run": "20261003T0114Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94990020",
+   "company": "Gough Recruitment SA",
+   "title": "Civil Estimator",
+   "run": "20261003T0114Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94999649",
+   "company": "CPB Contractors NSW ACT",
+   "title": "Project Engineer Building & Infrastructure",
+   "run": "20261003T0114Z",
+   "percent": 34,
+   "mandatory_unmet": [
+    "Citizenship or PR may be required"
+   ]
+  },
+  {
+   "id": "95036163",
+   "company": "Totem Civil Services group PTY LTD",
+   "title": "Project Engineer/ Site Engineer",
+   "run": "20261003T0114Z",
+   "percent": 59,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95021786",
+   "company": "SCP Consulting Pty Ltd",
+   "title": "Draftsperson",
+   "run": "20261003T0114Z",
+   "percent": 42,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95009307",
+   "company": "The Lorian Group",
+   "title": "Construction Cadet / Junior PM",
+   "run": "20261003T0114Z",
+   "percent": 71,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95002679",
+   "company": "Sunshine Coast Council",
+   "title": "Design Engineer",
+   "run": "20261003T0114Z",
+   "percent": 71,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94994373",
+   "company": "Tungsten Mining",
+   "title": "Civil Project Engineer",
+   "run": "20261003T0114Z",
+   "percent": 73,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94991390",
+   "company": "Sunshine Coast Council",
+   "title": "Design Engineer",
+   "run": "20261003T0114Z",
+   "percent": 71,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94987271",
+   "company": "Randstad - Construction, Property & Engineering",
+   "title": "Estimator",
+   "run": "20261003T0114Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95037323",
+   "company": "Scotford Fennessy Recruitment",
+   "title": "Senoir Structural Drafter - Gold Coast",
+   "run": "20261003T1118Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "10+ years Revit structural drafting experience"
+   ]
+  },
+  {
+   "id": "95028317",
+   "company": "In2work Pty Ltd",
+   "title": "NEW! Project Engineers FIFO and East Coast DTMR Projects!",
+   "run": "20261003T0114Z",
+   "percent": 69,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95020068",
+   "company": "AMT CIVILS",
+   "title": "Project Engineer – Bulk Earthworks | 2:1 Roster | Immediate Start",
+   "run": "20261003T0114Z",
+   "percent": 69,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95016703",
+   "company": "CGC Recruitment",
+   "title": "Site Engineer - Blue Mountains",
+   "run": "20261003T0114Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95001733",
+   "company": "Silver Yachts Australia Pty Ltd",
+   "title": "Fitout/Draftsperson",
+   "run": "20261003T0114Z",
+   "percent": 68,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94994170",
+   "company": "Tognetti Consulting Pty Ltd",
+   "title": "Site Engineer - Central Qld - contract",
+   "run": "20261003T0114Z",
+   "percent": 73,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94990129",
+   "company": "Furn-Niche",
+   "title": "Graduate Estimator",
+   "run": "20261003T0114Z",
+   "percent": 79,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94989946",
+   "company": "CPB Contractors NSW ACT",
+   "title": "Project Engineer (Building, Trades & Works)",
+   "run": "20261003T0114Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Citizenship or PR may be required"
+   ]
+  },
+  {
+   "id": "95026009",
+   "company": "THE BMD GROUP",
+   "title": "Design Engineer",
+   "run": "20261003T1612Z",
+   "percent": 38,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95025202",
+   "company": "Civil Road & Rail SX5",
+   "title": "Project Engineer",
+   "run": "20261003T1612Z",
+   "percent": 42,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95024574",
+   "company": "Civil Road & Rail SX5",
+   "title": "Project Engineer",
+   "run": "20261003T1612Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95023805",
+   "company": "GTE Employment Services",
+   "title": "Junior Designer/Estimator",
+   "run": "20261003T1612Z",
+   "percent": 52,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95023563",
+   "company": "Contec Recruitment Pty Ltd",
+   "title": "Project Engineer - FIFO ",
+   "run": "20261003T1612Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Minimum 4 years delivering civil infrastructure, main roads or similar for a civil contractor"
+   ]
+  },
+  {
+   "id": "95022688",
+   "company": "Serco Asia Pacific",
+   "title": "Undergraduate Engineer",
+   "run": "20261003T1612Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "Australian citizenship required for Baseline Defence Security Clearance"
+   ]
+  },
+  {
+   "id": "95016530",
+   "company": "Gamuda Engineering Pty Ltd",
+   "title": "BIM Engineer",
+   "run": "20261003T1612Z",
+   "percent": 34,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95012996",
+   "company": "Sarens (Australia) Pty Ltd",
+   "title": "Engineer: Technical Solutions",
+   "run": "20261003T1612Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "3+ years experience in heavy lift, cranage, rigging, transport or temporary works engineering"
+   ]
+  },
+  {
+   "id": "95009439",
+   "company": "TWEED SHIRE COUNCIL",
+   "title": "Engineer - Water and Wastewater Design",
+   "run": "20261003T1612Z",
+   "percent": 48,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95008378",
+   "company": "Downer EDI Limited",
+   "title": "Project Engineer",
+   "run": "20261003T1612Z",
+   "percent": 36,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95001916",
+   "company": "City of Subiaco",
+   "title": "Project Engineer",
+   "run": "20261003T1612Z",
+   "percent": 58,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94969508",
+   "company": "GPA Engineering",
+   "title": "Civil/Structural Drafter – ADL",
+   "run": "20261003T0114Z",
+   "percent": 48,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94961556",
+   "company": "Brunel",
+   "title": "Project Engineer - Civil",
+   "run": "20261003T0114Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94900572",
+   "company": "Aptus",
+   "title": "Civil 3D | Civil Design + Engineering | $110K - $135K +",
+   "run": "20260928T0123Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Advert requires a minimum of 4 years using Civil 3D; Marc's Civil 3D experience is academic coursework only"
+   ]
+  },
+  {
+   "id": "94973025",
+   "company": "Optimum Consulting Group",
+   "title": "Civil Engineer",
+   "run": "20261003T0114Z",
+   "percent": 61,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94969016",
+   "company": "QCCS",
+   "title": "Civil Project Engineer",
+   "run": "20261003T0114Z",
+   "percent": 73,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94935564",
+   "company": "Queanbeyan-Palerang Regional Council",
+   "title": "Trainee - Civil Construction",
+   "run": "20260930T1316Z",
+   "percent": 35,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94961163",
+   "company": "Brunel",
+   "title": "Project Engineer ",
+   "run": "20261003T0114Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94958409",
+   "company": "Right Connect",
+   "title": "Structural Drafter",
+   "run": "20261003T0114Z",
+   "percent": 60,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94950957",
+   "company": "Milo Geotechnical",
+   "title": "Civil Engineer",
+   "run": "20260930T1316Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "A minimum of 5 years' engineering experience associated with the road construction industry"
+   ]
+  },
+  {
+   "id": "94956743",
+   "company": "Formstruct",
+   "title": "Estimator  - Civil & NPI",
+   "run": "20261003T0114Z",
+   "percent": 75,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94936909",
+   "company": "City of Joondalup",
+   "title": "Skilled General Hand - Engineering Construction (Civil)",
+   "run": "20260930T1316Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "WA HR Class Driver’s Licence"
+   ]
+  },
+  {
+   "id": "94916158",
+   "company": "WYN&CO Search Recruitment & Payroll",
+   "title": "Civil Project Engineer",
+   "run": "20260928T1031Z",
+   "percent": 50,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94877601",
+   "company": "Quickway Constructions",
+   "title": "Undergraduate Civil Engineer",
+   "run": "20261002T1016Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "Currently studying a Bachelor of Civil Engineering in 3rd or 4th year"
+   ]
+  },
+  {
+   "id": "94839731",
+   "company": "City of Gold Coast",
+   "title": "Undergraduate Engineers",
+   "run": "20260928T1031Z",
+   "percent": 43,
+   "mandatory_unmet": [
+    "\"be enrolled in and entering the final year of a relevant undergraduate Bachelor of Engineering degree at a recognised Australian university\" (Marc completed his BSCE in 2019 and is not currently enrolled at university)"
+   ]
+  },
+  {
+   "id": "94825304",
+   "company": "Vorstrom",
+   "title": "Cadet Draftsperson",
+   "run": "20260930T1819Z",
+   "percent": 42,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94770316",
+   "company": "Durack Civil",
+   "title": "Civil Estimator",
+   "run": "20260928T1031Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "\"Minimum 6 years' experience in civil construction\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian work experience)"
+   ]
+  },
+  {
+   "id": "94978646",
+   "company": "Smith & Co",
+   "title": "Estimator",
+   "run": "20261003T0114Z",
+   "percent": 77,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94944895",
+   "company": "TTW (NSW) Pty Ltd",
+   "title": "Structural Revit Drafter",
+   "run": "20260930T1819Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  }
+ ],
+ "candidates": [
+  {
+   "id": "95042297",
+   "source": "seek",
+   "title": "Civil Engineer",
+   "company": "Scotford Fennessy Recruitment",
+   "location": "Sydney NSW",
+   "url": "https://www.seek.com.au/job/95042297",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-04T02:30:34.153Z",
+   "expires_at": "2026-11-01T03:00:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Civil Engineer - well-established multidisciplinary consultancy with offices across Australia and the Asia-Pacific",
+   "opening": "Civil Engineer\n Looking to take the next step in your civil engineering career? Join a well-established multidisciplinary consultancy with offices across Australia and the Asia-Pacific, working on a diverse portfolio of public and private sector projects.\n This is an excellent opportunity to work on technically challenging projects while continuing to develop your leadership, project management, and client relationship skills within a collaborative and supportive team. Strong mentors at your disposal.\n As a Civil Engineer, you will play a key role in the delivery of a broad range of civil infrastructure projects. You'll work closely with clients, project teams, and stakeholders to deliver high-quality engineering solutions from concept through to completion.\n Day to day duties\n - Prepare and manage civil engineering design and documentation packages for civil infrastructure including; st",
+   "key_lines": [
+    "As a Civil Engineer, you will play a key role in the delivery of a broad range of civil infrastructure projects. You'll work closely with clients, project teams, and stakeholders to deliver high-quality engineering solutions from concept through to completion.",
+    "- 3-5+ years experience delivering civil engineering projects within a consulting environment.",
+    "- Proven experience coordinating multidisciplinary projects."
+   ]
+  },
+  {
+   "id": "alluvium-grad-civil-eoi-melbourne-20261004",
+   "source": "employer_careers",
+   "title": "Graduate civil or water engineer - expression of interest (Melbourne)",
+   "company": "Alluvium Consulting",
+   "location": "East Melbourne VIC",
+   "url": "https://alluvium.com/careers/",
+   "work_type": null,
+   "salary": null,
+   "listed_at": "2026-10-04T13:00:00Z",
+   "expires_at": null,
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "",
+   "opening": "Alluvium Group careers page (verified 4 Oct 2026): We recruit talented engineers, scientists and economists. Current Vacancies section: We're always looking for people to join our team who are excited and motivated to make a positive impact. Alluvium Consulting Melbourne office: Level 6, 176 Wellington Parade East, Melbourne VIC 3002 (contact page). Work focuses on catchments to coasts, urban stormwater and waterway engineering, modelling (12d, RORB, HEC-RAS, TUFLOW, MUSIC, AutoCAD), concept and detailed design.\n\nEmployer-published graduate application channel (Alluvium Consultant Engineering Graduate position description PDF, SA example still hosted on alluvium.com): Applications consisting of a short cover letter and CV, including working rights and GPA/WAM, can be sent to info@alluvium.com. Named contacts on related Melbourne stormwater recruitment used Lucie Bright and Stuart Cleven ",
+   "key_lines": [
+    "Alluvium Group careers page (verified 4 Oct 2026): We recruit talented engineers, scientists and economists. Current Vacancies section: We're always looking for people to join our team who are excited and motivated to make a positive impact. Alluvium Consulting Melbourne office: Level 6, 176 Wellington Parade East, Melbourne VIC 3002 (contact page). Work focuses on catchments to coasts, urban stormwater and waterway engineering, modelling (12d, RORB, HEC-RAS, TUFLOW, MUSIC, AutoCAD), concept and detailed design.",
+    "Employer-published graduate application channel (Alluvium Consultant Engineering Graduate position description PDF, SA example still hosted on alluvium.com): Applications consisting of a short cover letter and CV, including working rights and GPA/WAM, can be sent to info@alluvium.com. Named contacts on related Melbourne stormwater recruitment used Lucie Bright and Stuart Cleven at @alluvium.com.au addresses.",
+    "This tick records a speculative expression of interest for graduate or early-career civil or water engineering support in the Melbourne urban water / waterways team, using the employer-published info@alluvium.com application inbox."
+   ]
+  },
+  {
+   "id": "arnik-civil-draftsperson-kew-20261004",
+   "source": "employer_board",
+   "title": "Full time Civil Engineering Draftsperson",
+   "company": "Arnik Design and Build Pty Ltd",
+   "location": "Kew VIC 3101",
+   "url": "https://jobs.hia.com.au/jobview/full-time-civil-engineering-draftsperson/9a3fdbd2-04de-4b2b-b5c5-47bd906caf52",
+   "work_type": null,
+   "salary": null,
+   "listed_at": "2026-09-15T00:00:00Z",
+   "expires_at": "2026-10-08T00:00:00Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "",
+   "opening": "ArNik Design and Build Pty Ltd (family-owned design-and-build, Kew VIC) seeks full-time Civil Engineering Draftsperson for residential and commercial projects. Duties: prepare single line diagrams, tables, sketches, charts, plans and designs for civil works such as crossover, driveway, stormwater systems, roads; prepare preliminary designs in 2D using hand sketches, PDF editors or AutoCAD; prepare concise engineering drawings from sketches unassisted; comply with CAD Standards; place feature surveys onto drawings and understand site levels; complete STORM Reports; assist with printing and council follow-up; complete council and building permit checklists. Ideal candidate: at least 12 months post-qualification experience as a civil engineering draftsperson; at least a bachelor's degree in a related field; experience using Revit and AutoCAD; salary band $80k-$90k. Expiring in about 4 days ",
+   "key_lines": [
+    "ArNik Design and Build Pty Ltd (family-owned design-and-build, Kew VIC) seeks full-time Civil Engineering Draftsperson for residential and commercial projects. Duties: prepare single line diagrams, tables, sketches, charts, plans and designs for civil works such as crossover, driveway, stormwater systems, roads; prepare preliminary designs in 2D using hand sketches, PDF editors or AutoCAD; prepare concise engineering drawings from sketches unassisted; comply with CAD Standards; place feature surveys onto drawings and understand site levels; complete STORM Reports; assist with printing and council follow-up; complete council and building permit checklists. Ideal candidate: at least 12 months post-qualification experience as a civil engineering draftsperson; at least a bachelor's degree in a related field; experience using Revit and AutoCAD; salary band $80k-$90k. Expiring in about 4 days from 4 Oct 2026 listing page. Apply via HIA advert or email resume (email redacted on public page)."
+   ]
+  }
+ ]
+}

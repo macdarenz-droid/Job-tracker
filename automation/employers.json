@@ -403,6 +403,30 @@
    "checked_at": "2026-10-04",
    "open_junior_roles": [],
    "notes": "Graduates/Undergraduates invited; admin@osbornconsulting.com.au published. Blocked this tick: prior EOI_SENT/SENT on same careers URL."
+  },
+  "Alluvium Consulting": {
+   "careers_url": "https://alluvium.com/careers/",
+   "checked_at": "2026-10-04",
+   "open_junior_roles": [
+    {
+     "title": "Graduate civil or water engineer EOI (Melbourne standing invite)",
+     "url": "https://alluvium.com/careers/",
+     "apply": "info@alluvium.com"
+    }
+   ],
+   "notes": "Victoria offsite tick 20261004T1217Z. Careers always looking; graduate PD publishes info@alluvium.com. Melbourne office Wellington Parade East. PREPARED_NOT_SENT this tick; canonical lease not accessible so not sent."
+  },
+  "Arnik Design and Build Pty Ltd": {
+   "careers_url": "https://jobs.hia.com.au/jobview/full-time-civil-engineering-draftsperson/9a3fdbd2-04de-4b2b-b5c5-47bd906caf52",
+   "checked_at": "2026-10-04",
+   "open_junior_roles": [
+    {
+     "title": "Full time Civil Engineering Draftsperson",
+     "url": "https://jobs.hia.com.au/jobview/full-time-civil-engineering-draftsperson/9a3fdbd2-04de-4b2b-b5c5-47bd906caf52",
+     "apply": "HIA apply / advert email"
+    }
+   ],
+   "notes": "Victoria offsite tick 20261004T1217Z. Kew VIC. HELD_MANDATORY_REQUIREMENTS: bachelor degree and 12 months post-qual drafting."
   }
  },
  "sweep_log": [
@@ -687,6 +711,25 @@
     "SEEK widen d3\u2192d7\u2192d14 max80: never-screened junior civil exhausted or mandatory fails; published HELD Aptus mid/senior, NOTAZ 3yr drafter, Roesner 3yr drafter"
    ],
    "notes": "Councils_government rotation. SEEK widen all steps. Published BG&E READY + 3 HELD. Speculative Osborn blocked prior outreach. Gmail send held: no accessible canonical-journal lease on this box (CODEX hold-sending rule). browse.py trust skipped (CA bundle perms)."
+  },
+  {
+   "run_id": "20261004T1217Z",
+   "rotation": "victoria_offsite",
+   "checked_at": "2026-10-04T12:30:30Z",
+   "checked": [
+    "Alluvium Consulting",
+    "Arnik Design and Build Pty Ltd",
+    "Beveridge Williams (blocked prior)",
+    "Bornhorst + Ward (blocked prior)",
+    "Breese Pitt Dixon (URL already tracked)",
+    "WML Consulting (URL/SENT prior)",
+    "BildGroup Estimator Campbellfield (screened 48)",
+    "Melton/Wyndham/Baw Baw/GHD/Hatch/Symal/Winslow boards reviewed"
+   ],
+   "published": [
+    "Alluvium Consulting PREPARED_NOT_SENT",
+    "Arnik Design and Build HELD_MANDATORY_REQUIREMENTS"
+   ]
   }
  ]
 }

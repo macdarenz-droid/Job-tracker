@@ -1,0 +1,106 @@
+[
+ {
+  "id": "ad024897-4925-4b8f-ab19-80aaee550e17",
+  "key": "manual:ad024897-4925-4b8f-ab19-80aaee550e17",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261004T1217Z",
+  "created_at": "2026-10-04T12:29:49.000Z",
+  "updated_at": "2026-10-04T12:29:49.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "df62b631-3b1d-41d7-80be-31ab91e46ea7",
+    "path": "/api/documents/df62b631-3b1d-41d7-80be-31ab91e46ea7",
+    "filename": "Marc_Masarate_Alluvium_Consulting_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-04T12:29:53.152Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "801917ec-0bb5-475e-85d9-a74446a196fc",
+    "path": "/api/documents/801917ec-0bb5-475e-85d9-a74446a196fc",
+    "filename": "Marc_Masarate_Alluvium_Consulting_Graduate_civil_or_water_engineer_express_Cover_Letter.pdf",
+    "sha256": "6ed9941cb0c2590d4e5a8af9e5d5efa2030b83a028dcceb87f1334af36e61181",
+    "size_bytes": 48302,
+    "kind": "cover",
+    "uploaded_at": "2026-10-04T12:29:51.932Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Alluvium Consulting",
+  "role": "Graduate civil or water engineer - expression of interest (Melbourne)",
+  "location": "East Melbourne VIC",
+  "job_url": "https://alluvium.com/careers/",
+  "company_url": "https://alluviumconsulting.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "STANDING_GRADUATE_OR_EOI_INVITE",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Careers Team",
+  "recipient_email": "info@alluvium.com",
+  "contact_email": "info@alluvium.com",
+  "contact_evidence_url": "https://alluvium.com/wp-content/uploads/2025/07/Position-description-Consultant-Engineering-Graduate3-SA.pdf",
+  "contact_verified_at": "2026-10-04T12:29:49.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Graduate civil or water engineer EOI, Melbourne, Marc Darenz Masarate",
+  "email_body": "Hello,\n\nI am sending my CV for graduate or early career civil and water engineering work with Alluvium Consulting in Melbourne. Your careers page says you are always looking for people who want to make a positive impact, and your published graduate application notes invite a short cover letter and CV to info@alluvium.com.\n\nI finish an Advanced Diploma of Civil Construction Design in February 2026, covering road geometry, earthworks, pavement systems and stormwater drainage in Civil 3D and AutoCAD. From 2019 to 2020 I worked in the Philippines as a field engineer and project in charge on civil construction sites. I live in Melton, hold a White Card and an Australian drivers licence with my own transport, and have full working rights on a Subclass 485 visa until December 2027. I am available for site, office and regional work.\n\nYour Melbourne urban water and waterways focus fits the stormwater documentation I have been building. I do not yet have Australian consulting experience, and I have not used HEC-RAS, TUFLOW or MUSIC on live jobs.\n\nI have attached my resume and cover letter. I would welcome a short conversation about any graduate or early career place in the Melbourne team.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Standing careers invite plus employer-published graduate application inbox suits a graduate civil profile.",
+   "Urban water, drainage and AutoCAD design work overlaps Advanced Diploma road, earthworks, pavement and stormwater documentation.",
+   "East Melbourne office is strong location fit from Melton; speculative enquiry clearly labelled."
+  ],
+  "gaps": [
+   "No Australian consulting experience",
+   "Has not used HEC-RAS, TUFLOW or MUSIC on projects",
+   "Advanced Diploma rather than a bachelor degree"
+  ],
+  "match_score": {
+   "percent": 74,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Standing careers invite plus employer-published graduate application inbox suits a graduate civil profile.",
+    "Urban water, drainage and AutoCAD design work overlaps Advanced Diploma road, earthworks, pavement and stormwater documentation.",
+    "East Melbourne office is strong location fit from Melton; speculative enquiry clearly labelled."
+   ],
+   "caution": "Typical Alluvium graduate ads prefer a civil or environmental degree; Marc holds an Advanced Diploma. Waterway modelling tools (HEC-RAS, TUFLOW, MUSIC) are not claimed on his resume."
+  },
+  "advert": {
+   "source": "employer_careers",
+   "listed_at": "2026-10-04T13:00:00Z",
+   "expires_at": "",
+   "verified_at": "2026-10-04T12:28:25Z",
+   "apply_instructions": "Email short cover letter and CV to info@alluvium.com (employer-published graduate application inbox).",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Confirm info@alluvium.com still published on Alluvium materials before send",
+   "Attach resume and cover letter PDFs",
+   "Keep speculative wording clear in subject and opening",
+   "Do not claim HEC-RAS, TUFLOW, MUSIC or Australian consulting experience",
+   "Re-check Gmail for Alluvium before any send"
+  ],
+  "notes": "Victoria offsite rotation. Standing careers invite (always looking) plus employer-published graduate application inbox info@alluvium.com. Treated as advertised standing invite like Mackenzie EOI. Portfolio URL written in full. HOW FOUND: open-web Victoria offsite sweep of Alluvium careers and contact pages on 4 Oct 2026 AEDT.\nCareers page states the group is always looking for people. Graduate PD hosted on alluvium.com publishes info@alluvium.com as the application inbox. Speculative EOI uses that inbox only; named Melbourne urban-water contacts recorded for evidence, not used as recipients.\nHOW GROK AI FOUND THIS\nFound on employer_careers (listed 2026-10-04). Contact: the application inbox info@alluvium.com published by the employer (https://alluvium.com/wp-content/uploads/2025/07/Position-description-Consultant-Engineering-Graduate3-SA.pdf); no personal address was used. Named people seen on employer pages: Lucie Bright (Team Leader Urban Water); Stuart Cleven (Principal engineer). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate civil or water engineer - expression of interest (Melbourne) role on SEEK.\n• They may ask about: No Australian consulting experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Has not used HEC-RAS, TUFLOW or MUSIC on projects → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Advanced Diploma rather than a bachelor degree → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_careers (listed 2026-10-04). Contact: the application inbox info@alluvium.com published by the employer (https://alluvium.com/wp-content/uploads/2025/07/Position-description-Consultant-Engineering-Graduate3-SA.pdf); no personal address was used. Named people seen on employer pages: Lucie Bright (Team Leader Urban Water); Stuart Cleven (Principal engineer). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate civil or water engineer - expression of interest (Melbourne) role on SEEK.",
+   "They may ask about: No Australian consulting experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Has not used HEC-RAS, TUFLOW or MUSIC on projects → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Advanced Diploma rather than a bachelor degree → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-04T12:29:49.000Z",
+  "duplicate_key": "alluviumconsulting|alluvium.com/careers"
+ }
+]

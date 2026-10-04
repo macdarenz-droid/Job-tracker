@@ -1,0 +1,40 @@
+{
+  "company": "Alluvium Consulting",
+  "role": "Graduate civil or water engineer - expression of interest (Melbourne)",
+  "location": "East Melbourne VIC",
+  "job_url": "https://alluvium.com/careers/",
+  "route": "EMAIL",
+  "application_type": "ADVERTISED_VACANCY",
+  "recipient_name": null,
+  "recipient_role": "Careers Team",
+  "recipient_email": "info@alluvium.com",
+  "contact_evidence_url": "https://alluvium.com/wp-content/uploads/2025/07/Position-description-Consultant-Engineering-Graduate3-SA.pdf",
+  "subject": "Graduate civil or water engineer EOI, Melbourne, Marc Darenz Masarate",
+  "email_body": "Hello,\n\nI am sending my CV for graduate or early career civil and water engineering work with Alluvium Consulting in Melbourne. Your careers page says you are always looking for people who want to make a positive impact, and your published graduate application notes invite a short cover letter and CV to info@alluvium.com.\n\nI finish an Advanced Diploma of Civil Construction Design in February 2026, covering road geometry, earthworks, pavement systems and stormwater drainage in Civil 3D and AutoCAD. From 2019 to 2020 I worked in the Philippines as a field engineer and project in charge on civil construction sites. I live in Melton, hold a White Card and an Australian drivers licence with my own transport, and have full working rights on a Subclass 485 visa until December 2027. I am available for site, office and regional work.\n\nYour Melbourne urban water and waterways focus fits the stormwater documentation I have been building. I do not yet have Australian consulting experience, and I have not used HEC-RAS, TUFLOW or MUSIC on live jobs.\n\nI have attached my resume and cover letter. I would welcome a short conversation about any graduate or early career place in the Melbourne team.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "letter": {
+    "recipient_name": "",
+    "recipient_role": "Careers Team",
+    "company": "Alluvium Consulting",
+    "company_line": "Alluvium Consulting is a staff-owned B Corp focused on catchments to coasts, with a Melbourne office delivering urban stormwater and waterway engineering.",
+    "subject": "Graduate civil or water engineer expression of interest, Melbourne",
+    "greeting": "Hello,",
+    "paragraphs": [
+      "I am applying for graduate or early career civil and water engineering work in your Melbourne team. Your careers page says you are always looking for people motivated to make a positive impact, and your published graduate application channel invites a short cover letter and CV to info@alluvium.com.",
+      "I complete an Advanced Diploma of Civil Construction Design at Albright Institute in February 2026. Coursework includes road geometry, earthworks, pavement systems and stormwater drainage, with drawings prepared and reviewed in Civil 3D and AutoCAD. Between 2019 and 2020 I worked in the Philippines as a field engineer and later as project in charge, supporting site delivery, inspections and records on civil construction work.",
+      "I live in Melton with reliable transport, hold a White Card and an Australian drivers licence, and have full working rights on a Subclass 485 visa until December 2027. I am available for site, office and regional project work.",
+      "Your Melbourne focus on urban stormwater, waterways and water sensitive design matches the drainage and documentation skills I am building. I do not yet have Australian consulting experience, and I have not used HEC-RAS, TUFLOW or MUSIC on live projects. I am ready to learn those tools under supervision and contribute careful AutoCAD and Civil 3D documentation from day one.",
+      "Thank you for considering this enquiry. I have attached my resume and would welcome a brief conversation about any graduate or early career openings in Melbourne."
+    ],
+    "closing": "Yours sincerely,"
+  },
+  "screening_answers": {},
+  "checklist": [
+    "Confirm info@alluvium.com still published on Alluvium materials before send",
+    "Attach resume and cover letter PDFs",
+    "Keep speculative wording clear in subject and opening",
+    "Do not claim HEC-RAS, TUFLOW, MUSIC or Australian consulting experience",
+    "Re-check Gmail for Alluvium before any send"
+  ],
+  "notes": "Victoria offsite rotation. Standing careers invite (always looking) plus employer-published graduate application inbox info@alluvium.com. Treated as advertised standing invite like Mackenzie EOI. Portfolio URL written in full. HOW FOUND: open-web Victoria offsite sweep of Alluvium careers and contact pages on 4 Oct 2026 AEDT.",
+  "vacancy_status": "STANDING_GRADUATE_OR_EOI_INVITE"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "alluvium-grad-civil-eoi-melbourne-20261004",
+  "company": "Alluvium Consulting",
+  "title": "Graduate civil or water engineer - expression of interest (Melbourne)",
+  "location": "East Melbourne VIC",
+  "url": "https://alluvium.com/careers/",
+  "listed_at": "2026-10-04T13:00:00Z",
+  "expires_at": null,
+  "percent": 74,
+  "rationale": [
+    "Standing careers invite plus employer-published graduate application inbox suits a graduate civil profile.",
+    "Urban water, drainage and AutoCAD design work overlaps Advanced Diploma road, earthworks, pavement and stormwater documentation.",
+    "East Melbourne office is strong location fit from Melton; speculative enquiry clearly labelled."
+  ],
+  "caution": "Typical Alluvium graduate ads prefer a civil or environmental degree; Marc holds an Advanced Diploma. Waterway modelling tools (HEC-RAS, TUFLOW, MUSIC) are not claimed on his resume.",
+  "gaps": [
+    "No Australian consulting experience",
+    "Has not used HEC-RAS, TUFLOW or MUSIC on projects",
+    "Advanced Diploma rather than a bachelor degree"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "EMAIL",
+  "apply_email": "info@alluvium.com",
+  "apply_instructions": "Email short cover letter and CV to info@alluvium.com (employer-published graduate application inbox).",
+  "open": true,
+  "employer_is_agency": false,
+  "screening_questions": [],
+  "company_work_verified": true,
+  "company_work_evidence": "Careers page and Melbourne office contact verified 4 Oct 2026; urban water / waterways consulting work described on alluviumconsulting.com.au"
+}

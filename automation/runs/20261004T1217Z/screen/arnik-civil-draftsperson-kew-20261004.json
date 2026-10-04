@@ -1,0 +1,31 @@
+{
+  "id": "arnik-civil-draftsperson-kew-20261004",
+  "company": "Arnik Design and Build Pty Ltd",
+  "title": "Full time Civil Engineering Draftsperson",
+  "location": "Kew VIC 3101",
+  "url": "https://jobs.hia.com.au/jobview/full-time-civil-engineering-draftsperson/9a3fdbd2-04de-4b2b-b5c5-47bd906caf52",
+  "listed_at": "2026-09-15T00:00:00Z",
+  "expires_at": "2026-10-08T00:00:00Z",
+  "percent": 62,
+  "rationale": [
+    "Civil draftsperson role with AutoCAD and stormwater, crossover, driveway and road documentation matches Advanced Diploma design work.",
+    "Kew Melbourne is strong location fit from Melton.",
+    "Direct employer design-and-build firm, not an agency."
+  ],
+  "caution": "Advert asks for a bachelor degree and at least 12 months post-qualification drafting experience; Marc finishes Advanced Diploma February 2026 with Philippines site experience rather than AU drafting tenure.",
+  "gaps": [
+    "No Australian drafting employment yet",
+    "Revit experience not claimed on resume"
+  ],
+  "mandatory_unmet": [
+    "At least a bachelor's degree in a related field",
+    "At least 12 months experience, post qualification, as a Civil engineering draftsperson"
+  ],
+  "mandatory_unresolved": [],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": null,
+  "apply_instructions": "Apply via HIA Apply button or email resume to the address shown on the advert (redacted on public mirrors).",
+  "open": true,
+  "employer_is_agency": false,
+  "screening_questions": []
+}
