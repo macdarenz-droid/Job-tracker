@@ -1,0 +1,104 @@
+[
+ {
+  "id": "4a9eb763-14e7-472b-8013-08b046c99c9b",
+  "key": "manual:4a9eb763-14e7-472b-8013-08b046c99c9b",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261004T0719Z",
+  "created_at": "2026-10-04T07:32:21.000Z",
+  "updated_at": "2026-10-04T07:32:21.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "9428c833-ef26-423b-8e70-a1159b4eeca3",
+    "path": "/api/documents/9428c833-ef26-423b-8e70-a1159b4eeca3",
+    "filename": "Marc_Masarate_BG_E_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-04T07:32:23.125Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "74a42988-e630-4a19-ab5b-973ca37aa199",
+    "path": "/api/documents/74a42988-e630-4a19-ab5b-973ca37aa199",
+    "filename": "Marc_Masarate_BG_E_Graduate_Way_program_civil_engineering_e_Cover_Letter.pdf",
+    "sha256": "d060d0e8875687708dd5b6e5bb2fafbe2f2cc804b9f2435b813e17ea81b7d33a",
+    "size_bytes": 47879,
+    "kind": "cover",
+    "uploaded_at": "2026-10-04T07:32:21.932Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "BG&E",
+  "role": "Graduate Way program - civil engineering expression of interest",
+  "location": "Melbourne VIC (ANZ offices)",
+  "job_url": "https://bgeeng.com/career/early-careers/",
+  "company_url": "https://bgeeng.com/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://bgeeng.com/career/early-careers/",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "EOI: Graduate Way civil engineering, Marc Masarate",
+  "email_body": "",
+  "fit": [
+   "BG&E Graduate Way is a two-year graduate program with mentoring, chartership support and year-round EOI for civil engineering graduates across ANZ offices including Melbourne.",
+   "Advanced Diploma Civil Construction Design (Feb 2026) plus BSCE and site coordination experience support early consulting civil work.",
+   "Full working rights to December 2027 meet typical graduate hire windows; honest limit is no Australian consulting employment yet and Bachelor completed 2019."
+  ],
+  "gaps": [
+   "No Australian consulting employment yet",
+   "Bachelor completed 2019"
+  ],
+  "match_score": {
+   "percent": 72,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "BG&E Graduate Way is a two-year graduate program with mentoring, chartership support and year-round EOI for civil engineering graduates across ANZ offices including Melbourne.",
+    "Advanced Diploma Civil Construction Design (Feb 2026) plus BSCE and site coordination experience support early consulting civil work.",
+    "Full working rights to December 2027 meet typical graduate hire windows; honest limit is no Australian consulting employment yet and Bachelor completed 2019."
+   ],
+   "caution": "Official March application window noted; page also invites year-round EOI via the careers site."
+  },
+  "advert": {
+   "source": "employer_portal",
+   "listed_at": "2026-10-04",
+   "expires_at": "",
+   "verified_at": "2026-10-04T07:32:21.000Z",
+   "apply_instructions": "Submit Graduate Way / EOI via https://bgeeng.com/career/early-careers/ and https://bgeeng.com/career with cover letter, CV and transcript; mention preferred Melbourne office and civil discipline.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Open BG&E Early Careers / Graduate Way page and careers EOI form",
+   "Prepare one pack: resume, cover letter and academic transcript",
+   "State preferred Melbourne office and civil / land development interest",
+   "Confirm Subclass 485 working rights to December 2027 and February 2026 Advanced Diploma completion",
+   "Submit EOI, save confirmation screenshot for the tracker"
+  ],
+  "notes": "Councils/government rotation open-web find. Portal EOI pack for Jeremie/Marc.\nPortal EOI only; no published direct hiring email found this tick.\nHOW GROK AI FOUND THIS\nFound on employer_portal (listed 2026-10-04). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate Way program - civil engineering expression of interest role on SEEK.\n• They may ask about: No Australian consulting employment yet → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Bachelor completed 2019 → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_portal (listed 2026-10-04). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate Way program - civil engineering expression of interest role on SEEK.",
+   "They may ask about: No Australian consulting employment yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Bachelor completed 2019 → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-04T07:32:21.000Z",
+  "duplicate_key": "bge|bgeeng.com/career/early-careers"
+ }
+]

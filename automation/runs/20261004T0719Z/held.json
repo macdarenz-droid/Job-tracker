@@ -1,0 +1,45 @@
+[
+ {
+  "id": "95be20b7-5a9c-489a-ac70-b25a91868943",
+  "key": "manual:95be20b7-5a9c-489a-ac70-b25a91868943",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261004T0719Z",
+  "created_at": "2026-10-04T07:32:20.000Z",
+  "updated_at": "2026-10-04T07:32:20.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Roesner and Hamilton Consulting Engineers Pty Ltd",
+  "role": "Civil Engineering Draftsperson",
+  "location": "Nerang, Gold Coast QLD",
+  "job_url": "https://www.seek.com.au/job/94939236",
+  "status": "HELD_MANDATORY_REQUIREMENTS",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "SEEK",
+  "fit": [
+   "Civil Engineering Draftsperson using AutoCAD on Gold Coast road and drainage design matches Advanced Diploma civil drafting coursework.",
+   "Diploma or similar qualification requirement is met by Advanced Diploma of Civil Construction Design; Melton based and open to discussing relocation.",
+   "Mandatory bar: over 3 years of civil drafting experience, which Marc does not meet."
+  ],
+  "gaps": [
+   "Over 3 years of experience qualified in Civil Drafting",
+   "Under 3 years civil drafting experience",
+   "No 12d experience"
+  ],
+  "match_score": {
+   "percent": 63,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Civil Engineering Draftsperson using AutoCAD on Gold Coast road and drainage design matches Advanced Diploma civil drafting coursework.",
+    "Diploma or similar qualification requirement is met by Advanced Diploma of Civil Construction Design; Melton based and open to discussing relocation.",
+    "Mandatory bar: over 3 years of civil drafting experience, which Marc does not meet."
+   ],
+   "caution": "Experienced draftsperson hire; publish as HELD only."
+  },
+  "notes": "Held by Grok AI: Over 3 years of experience qualified in Civil Drafting",
+  "checked_at": "2026-10-04T07:32:20.000Z",
+  "seek_id": "94939236",
+  "duplicate_key": "roesnerandhamiltonconsultingengineersptyltd|seek:94939236"
+ }
+]

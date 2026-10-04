@@ -1,0 +1,268 @@
+{
+ "count": 1,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "94877601",
+   "company": "Quickway Constructions",
+   "title": "Undergraduate Civil Engineer",
+   "run": "20261002T1016Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "Currently studying a Bachelor of Civil Engineering in 3rd or 4th year"
+   ]
+  },
+  {
+   "id": "94969508",
+   "company": "GPA Engineering",
+   "title": "Civil/Structural Drafter – ADL",
+   "run": "20261003T0114Z",
+   "percent": 48,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94961556",
+   "company": "Brunel",
+   "title": "Project Engineer - Civil",
+   "run": "20261003T0114Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94940114",
+   "company": "NOTAZ International PTY LTD",
+   "title": "Civil engineering draftsperson",
+   "run": "20261003T0114Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94939236",
+   "company": "Roesner and Hamilton Consulting Engineers Pty Ltd",
+   "title": "Civil Engineering Draftsperson",
+   "run": "20261001T0918Z",
+   "percent": 32,
+   "mandatory_unmet": [
+    "over 3 years of experience and is qualified in Civil Drafting"
+   ]
+  },
+  {
+   "id": "95038050",
+   "company": "ABS Civil WA Pty Ltd",
+   "title": "Civil Estimator - Earthworks",
+   "run": "20261003T1118Z",
+   "percent": 38,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94900572",
+   "company": "Aptus",
+   "title": "Civil 3D | Civil Design + Engineering | $110K - $135K +",
+   "run": "20260928T0123Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Advert requires a minimum of 4 years using Civil 3D; Marc's Civil 3D experience is academic coursework only"
+   ]
+  },
+  {
+   "id": "95021621",
+   "company": "Ertech Pty Ltd",
+   "title": "Project Engineer (Civil)",
+   "run": "20261003T0114Z",
+   "percent": 59,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94958791",
+   "company": "ADF Careers",
+   "title": "Part-Time Civil Engineer (Tax-Free Pay)",
+   "run": "20261003T0114Z",
+   "percent": 27,
+   "mandatory_unmet": [
+    "Citizenship or PR may be required"
+   ]
+  },
+  {
+   "id": "94973025",
+   "company": "Optimum Consulting Group",
+   "title": "Civil Engineer",
+   "run": "20261003T0114Z",
+   "percent": 61,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94969016",
+   "company": "QCCS",
+   "title": "Civil Project Engineer",
+   "run": "20261003T0114Z",
+   "percent": 73,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94935564",
+   "company": "Queanbeyan-Palerang Regional Council",
+   "title": "Trainee - Civil Construction",
+   "run": "20260930T1316Z",
+   "percent": 35,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94839731",
+   "company": "City of Gold Coast",
+   "title": "Undergraduate Engineers",
+   "run": "20260928T1031Z",
+   "percent": 43,
+   "mandatory_unmet": [
+    "\"be enrolled in and entering the final year of a relevant undergraduate Bachelor of Engineering degree at a recognised Australian university\" (Marc completed his BSCE in 2019 and is not currently enrolled at university)"
+   ]
+  },
+  {
+   "id": "94995704",
+   "company": "Xeros Piccolo Consulting Engineers",
+   "title": "Structural/Civil Engineer",
+   "run": "20261003T0114Z",
+   "percent": 60,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94961163",
+   "company": "Brunel",
+   "title": "Project Engineer ",
+   "run": "20261003T0114Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94958409",
+   "company": "Right Connect",
+   "title": "Structural Drafter",
+   "run": "20261003T0114Z",
+   "percent": 60,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94950957",
+   "company": "Milo Geotechnical",
+   "title": "Civil Engineer",
+   "run": "20260930T1316Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "A minimum of 5 years' engineering experience associated with the road construction industry"
+   ]
+  },
+  {
+   "id": "94825304",
+   "company": "Vorstrom",
+   "title": "Cadet Draftsperson",
+   "run": "20260930T1819Z",
+   "percent": 42,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94770316",
+   "company": "Durack Civil",
+   "title": "Civil Estimator",
+   "run": "20260928T1031Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "\"Minimum 6 years' experience in civil construction\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian work experience)"
+   ]
+  },
+  {
+   "id": "95021747",
+   "company": "Contec Recruitment Pty Ltd",
+   "title": "Civil Estimator ",
+   "run": "20261003T0114Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94990020",
+   "company": "Gough Recruitment SA",
+   "title": "Civil Estimator",
+   "run": "20261003T0114Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94956743",
+   "company": "Formstruct",
+   "title": "Estimator  - Civil & NPI",
+   "run": "20261003T0114Z",
+   "percent": 75,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94936909",
+   "company": "City of Joondalup",
+   "title": "Skilled General Hand - Engineering Construction (Civil)",
+   "run": "20260930T1316Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "WA HR Class Driver’s Licence"
+   ]
+  },
+  {
+   "id": "94916158",
+   "company": "WYN&CO Search Recruitment & Payroll",
+   "title": "Civil Project Engineer",
+   "run": "20260928T1031Z",
+   "percent": 50,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94999649",
+   "company": "CPB Contractors NSW ACT",
+   "title": "Project Engineer Building & Infrastructure",
+   "run": "20261003T0114Z",
+   "percent": 34,
+   "mandatory_unmet": [
+    "Citizenship or PR may be required"
+   ]
+  },
+  {
+   "id": "94978646",
+   "company": "Smith & Co",
+   "title": "Estimator",
+   "run": "20261003T0114Z",
+   "percent": 77,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94944895",
+   "company": "TTW (NSW) Pty Ltd",
+   "title": "Structural Revit Drafter",
+   "run": "20260930T1819Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  }
+ ],
+ "candidates": [
+  {
+   "id": "95042386",
+   "source": "seek",
+   "title": "Civil Engineering | $100,000 - $140,000 + | Deliver SEQ's Future",
+   "company": "Aptus",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/95042386",
+   "work_type": "Full time",
+   "salary": "$100,000 – $140,000 + super + diversity + progress",
+   "listed_at": "2026-10-04T02:59:23.009Z",
+   "expires_at": "2026-11-03T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Civil Engineers & Civil Designers (12d & Civil 3D users are the ideal) 3 + years exp. ideally more | Immediate project diversity",
+   "opening": "On Offer:\nSalary | $100,000 - $140,000 + Super\n⬆️Pathways into - Senior | Lead | Project Management | Design Management | Associate Director\n👍Stability | A solid client base & large team to give your career stability\n🏗️Multi-Sector experience\n- Immediate project diversity offering your personal growth & development\n- Built Environment | Land+Urban Development | Infrastructure\n📝 Direct support | Immediate support from Directors / Lead Engineers + Principals\n👌Culture | Flexible | No OT | Events | Love to promote from within | Training | Supportive\n❤️Small group - Faster growth and less chance of being pigeonholed.\nLocations:\n- Brisbane\n- Options in Gold Coast + Sunshine Coast as well\n- WFH + flex hours offered\n- Those willing to relocate to South East Queensland are welcomed apply (Aus working rights required)\n✅ POSITIONS AVAILABLE:\nCivil Designer or Engineer (Mid + Senior + lead positions",
+   "key_lines": [
+    "🏗️Multi-Sector experience",
+    "- Those willing to relocate to South East Queensland are welcomed apply (Aus working rights required)",
+    "- 12d or Civil 3D user are OK to apply (intermediate to advanced)",
+    "- Civil Design or Engineering experience across any of the below sectors",
+    "- No qualifications needed although degree or diploma favoured",
+    "Experience across concept/feasibility to detailed civil design/engineering of:",
+    "- 🏫 Built Environment - Mixed-use / InFill / Commercial, Residential, Industrial, Education - Designing the associated civils around buildings - car parks, stormwater drainage, intersections +"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "built": [
+  [
+   "01fc0703-6a4d-47e2-bbaa-865528772353",
+   "Egis Group",
+   "Graduate Civil Engineer 2027 - Urban Development (Norwest)",
+   "READY_JEREMIE_EMPLOYER_PORTAL"
+  ]
+ ],
+ "rejected": [
+  {
+   "seek_id": "osborn-grad-civil-eoi-20261004",
+   "status": "PREPARED_NOT_SENT",
+   "issues": [
+    "email too long: 235 words (limit 220)"
+   ]
+  }
+ ]
+}

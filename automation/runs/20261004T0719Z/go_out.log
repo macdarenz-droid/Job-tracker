@@ -1,0 +1,34 @@
+{
+ "built": [
+  [
+   "09191312-41f0-4695-9317-1b385c714728",
+   "Egis Group",
+   "Graduate Civil Engineer 2027 - Urban Development (Norwest)",
+   "READY_JEREMIE_EMPLOYER_PORTAL"
+  ],
+  [
+   "95b407f3-3f49-485c-9eac-1c164fd63ddd",
+   "Osborn Consulting Engineers",
+   "Graduate civil engineer or civil design support - expression of interest",
+   "PREPARED_NOT_SENT"
+  ]
+ ],
+ "rejected": [],
+ "tracker": {
+  "version": 64,
+  "updated_at": "2026-10-04T07:30:39.064Z",
+  "result": {
+   "added": [],
+   "skipped": [
+    [
+     "09191312-41f0-4695-9317-1b385c714728",
+     "recent outreach to the same employer (Graduate Consultant - Rail · READY_JEREMIE_SEEK · 2026-10-01)"
+    ],
+    [
+     "95b407f3-3f49-485c-9eac-1c164fd63ddd",
+     "same job URL already in the tracker"
+    ]
+   ]
+  }
+ }
+}
