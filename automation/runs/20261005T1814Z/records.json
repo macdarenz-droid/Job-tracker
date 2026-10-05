@@ -1,0 +1,215 @@
+[
+ {
+  "id": "01f93312-401d-4ef6-9c0a-e094a3a72493",
+  "key": "manual:01f93312-401d-4ef6-9c0a-e094a3a72493",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261005T1814Z",
+  "created_at": "2026-10-05T18:21:50.000Z",
+  "updated_at": "2026-10-05T18:21:50.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "13c6d265-9091-4fa6-9e56-0dba9b6e3cee",
+    "path": "/api/documents/13c6d265-9091-4fa6-9e56-0dba9b6e3cee",
+    "filename": "Marc_Masarate_GOUGH_Recruitment_civil_contractor_clien_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-05T18:21:52.146Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "c72fcab2-3d50-48e2-b439-53bab3d0f51d",
+    "path": "/api/documents/c72fcab2-3d50-48e2-b439-53bab3d0f51d",
+    "filename": "Marc_Masarate_GOUGH_Recruitment_civil_contractor_clien_Civil_Estimator_Cover_Letter.pdf",
+    "sha256": "d6d521f5688bb9e95a52e69f389fe9d892e5f9543bd36c767fd5d8f93a631d86",
+    "size_bytes": 49075,
+    "kind": "cover",
+    "uploaded_at": "2026-10-05T18:21:51.324Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "GOUGH Recruitment (civil contractor client, Murraylands SA)",
+  "role": "Civil Estimator",
+  "location": "Murray Bridge, Riverland & Murray Mallee SA",
+  "job_url": "https://www.seek.com.au/job/94990020",
+  "company_url": "",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/94990020",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Civil Estimator application, Marc Masarate",
+  "email_body": "",
+  "fit": [
+   "Entry-friendly civil estimator role: the advert says estimating experience is a bonus and welcomes people keen to pivot into estimating.",
+   "Employer is a family-owned civil contractor doing earthworks, road construction, drainage and subdivisions, which matches Marc's Advanced Diploma road, earthworks, pavement and stormwater design plus coursework cost estimates and bills of quantities.",
+   "Regional SA (Murray Bridge), so relocation would need discussion; recruitment agency advert with the employer unnamed (minus 10)."
+  ],
+  "gaps": [
+   "No paid estimating experience; estimating is coursework only",
+   "Relocation to Murray Bridge SA would need discussion",
+   "Work rights are time-limited (485 to December 2027)"
+  ],
+  "match_score": {
+   "percent": 63,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Entry-friendly civil estimator role: the advert says estimating experience is a bonus and welcomes people keen to pivot into estimating.",
+    "Employer is a family-owned civil contractor doing earthworks, road construction, drainage and subdivisions, which matches Marc's Advanced Diploma road, earthworks, pavement and stormwater design plus coursework cost estimates and bills of quantities.",
+    "Regional SA (Murray Bridge), so relocation would need discussion; recruitment agency advert with the employer unnamed (minus 10)."
+   ],
+   "caution": "Agency advert (GOUGH Recruitment), employer not named. Estimating experience is coursework only (cost estimates and bills of quantities), no paid estimating role and no Bluebeam, E1 or Benchmark. Advert asks for PR or unrestricted working rights: Marc's Subclass 485 gives full working rights until December 2027, which is unrestricted but time-limited; state it plainly. Relocation to Murray Bridge is open to discussion only."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-01T02:30:32.519Z",
+   "expires_at": "2026-10-31T02:00:00.000Z",
+   "verified_at": "2026-10-05T18:17:38.000Z",
+   "apply_instructions": "Apply via the SEEK advert (Apply links out to GOUGH Recruitment). Recruiter: Tara Stokes, GOUGH Recruitment, 0419 280 999 (phone only, per advert).",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Open the SEEK advert https://www.seek.com.au/job/94990020 and choose Apply (it links out to GOUGH Recruitment).",
+   "Search Gmail for GOUGH and Murray Bridge before submitting (none found on 6 Oct 2026).",
+   "Attach the resume and this cover letter; if asked about work rights, say Subclass 485, full working rights until December 2027.",
+   "Leave salary, start date and the move to Murray Bridge for Marc to answer; the letter only says open to discussing relocation.",
+   "Mark the tracker record Applied only after the application is submitted."
+  ],
+  "notes": "SEEK widening sweep (14 day range, extra keyword set) find, listed 1 Oct 2026, closes 31 Oct 2026. Agency advert; employer described as a family-owned SA civil contractor in the Murraylands and not named. Recruiter Tara Stokes is named in the advert with a phone number only, so no email route; prepared for Jeremie or Marc on SEEK. Gmail checked for GOUGH and Murray Bridge: no prior application. Advert asks for PR or unrestricted working rights; Marc's 485 gives full working rights to December 2027, so state it plainly if asked.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-01, closes 2026-10-31). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Civil Estimator role on SEEK.\n• They may ask about: No paid estimating experience; estimating is coursework only → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Relocation to Murray Bridge SA would need discussion → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Work rights are time-limited (485 to December 2027) → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-01, closes 2026-10-31). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Civil Estimator role on SEEK.",
+   "They may ask about: No paid estimating experience; estimating is coursework only → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Relocation to Murray Bridge SA would need discussion → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Work rights are time-limited (485 to December 2027) → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-05T18:21:50.000Z",
+  "seek_id": "94990020",
+  "duplicate_key": "goughrecruitmentcivilcontractorclientmurraylandssa|seek:94990020"
+ },
+ {
+  "id": "55c5f434-9f32-44b6-a75a-043714728b0d",
+  "key": "manual:55c5f434-9f32-44b6-a75a-043714728b0d",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261005T1814Z",
+  "created_at": "2026-10-05T18:21:53.000Z",
+  "updated_at": "2026-10-05T18:21:53.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "e3ceadad-1f68-45ad-a4e7-77c97f167f9d",
+    "path": "/api/documents/e3ceadad-1f68-45ad-a4e7-77c97f167f9d",
+    "filename": "Marc_Masarate_Hatch_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-05T18:21:55.681Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "c4f86d6d-c188-4548-a84d-c8b2b6492d40",
+    "path": "/api/documents/c4f86d6d-c188-4548-a84d-c8b2b6492d40",
+    "filename": "Marc_Masarate_Hatch_Civil_Drafter_Cover_Letter.pdf",
+    "sha256": "9db60a22be23c05f4ffeffc7a867001904397aa03f29e6caa6c52642a3508b08",
+    "size_bytes": 49546,
+    "kind": "cover",
+    "uploaded_at": "2026-10-05T18:21:54.468Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Hatch",
+  "role": "Civil Drafter",
+  "location": "Melbourne, VIC",
+  "job_url": "https://jobs.hatch.com/job/Melbourne-Civil-Drafter-Vict/1428857400/",
+  "company_url": "https://www.hatch.com/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://jobs.hatch.com/job/Melbourne-Civil-Drafter-Vict/1428857400/",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Civil Drafter application (Req 100049), Marc Masarate",
+  "email_body": "",
+  "fit": [
+   "Civil Drafter in Hatch's Melbourne civil team producing AutoCAD drawings for road and rail transport infrastructure (earthworks grading, drainage, terrain modelling), with Civil 3D listed as advantageous.",
+   "Matches Marc's Advanced Diploma road geometry, earthworks, pavement and stormwater design documented in AutoCAD and Civil 3D, and his Philippines site work reviewing drawings and keeping records; qualification asked is an Associate Diploma or equivalent.",
+   "Melbourne based, direct employer; the advert asks for prior civil drafting experience, which Marc has only through study, so the level score is low. Hatch says to apply even without every requirement."
+  ],
+  "gaps": [
+   "No paid civil drafting role yet; drafting is coursework",
+   "No MicroStation, OpenRoads or TMR experience",
+   "No Australian office experience yet"
+  ],
+  "match_score": {
+   "percent": 64,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Civil Drafter in Hatch's Melbourne civil team producing AutoCAD drawings for road and rail transport infrastructure (earthworks grading, drainage, terrain modelling), with Civil 3D listed as advantageous.",
+    "Matches Marc's Advanced Diploma road geometry, earthworks, pavement and stormwater design documented in AutoCAD and Civil 3D, and his Philippines site work reviewing drawings and keeping records; qualification asked is an Associate Diploma or equivalent.",
+    "Melbourne based, direct employer; the advert asks for prior civil drafting experience, which Marc has only through study, so the level score is low. Hatch says to apply even without every requirement."
+   ],
+   "caution": "Advert wants prior experience in a civil drafting role; Marc's AutoCAD and Civil 3D drafting is coursework, not commercial production drafting. No MicroStation, OpenRoads or TMR experience. No closing date shown on the Hatch page (posted 11 Sep 2026), so apply soon."
+  },
+  "advert": {
+   "source": "jobs.hatch.com (employer site)",
+   "listed_at": "2026-09-11",
+   "expires_at": "",
+   "verified_at": "2026-10-05T18:21:53.000Z",
+   "apply_instructions": "Apply now on Hatch SuccessFactors careers site (or 'Start apply with LinkedIn'). Direct recruitment, no agencies.",
+   "screening_questions": []
+  },
+  "screening_answers": {
+   "Right to work in Australia (if asked)": "Temporary visa with full working rights: Subclass 485 until December 2027",
+   "Prior civil drafting experience (if asked)": "Coursework only: Advanced Diploma of Civil Construction Design (completed February 2026), AutoCAD and Civil 3D; no paid drafting role",
+   "Salary, notice period, start date": "Marc to answer"
+  },
+  "checklist": [
+   "Open https://jobs.hatch.com/job/Melbourne-Civil-Drafter-Vict/1428857400/ and choose Apply now (Hatch SuccessFactors; account may be needed with macdarenz@gmail.com).",
+   "Search Gmail for Hatch before submitting (no prior application found on 6 Oct 2026).",
+   "Upload the resume and this cover letter; answer screening questions from screening_answers.",
+   "Leave salary, notice period and start date for Marc to answer.",
+   "Mark the tracker record Applied only after the Hatch submission confirmation arrives."
+  ],
+  "notes": "Victoria off-SEEK sweep find on the Hatch careers site (SuccessFactors), posted 11 Sep 2026, no closing date shown. Direct employer, no agencies. No published hiring contact, so portal route only; prepared for Jeremie or Marc. Gmail checked for Hatch: no prior application.\nHatch publishes no hiring contact or application inbox for this requisition; apply through the Hatch careers site (SuccessFactors).\nHOW GROK AI FOUND THIS\nFound on jobs.hatch.com (employer site) (listed 2026-09-11). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Civil Drafter role on your website.\n• They may ask about: No paid civil drafting role yet; drafting is coursework → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No MicroStation, OpenRoads or TMR experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian office experience yet → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on jobs.hatch.com (employer site) (listed 2026-09-11). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Civil Drafter role on your website.",
+   "They may ask about: No paid civil drafting role yet; drafting is coursework → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No MicroStation, OpenRoads or TMR experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian office experience yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-05T18:21:53.000Z",
+  "duplicate_key": "hatch|jobs.hatch.com/job/melbourne-civil-drafter-vict/1428857400"
+ }
+]
