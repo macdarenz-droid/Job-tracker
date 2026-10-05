@@ -1,0 +1,28 @@
+{
+ "id": "95068569",
+ "percent": 35,
+ "rationale": [
+  "Process/water treatment engineer role needing water or wastewater treatment process experience.",
+  "Marc's civil design and site background does not cover treatment process optimisation.",
+  "Regional NSW council, direct employer."
+ ],
+ "caution": "Below threshold.",
+ "gaps": [
+  "No water or wastewater treatment process experience"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Orange City Council",
+ "title": "Water Treatment Engineer",
+ "location": "Orange, Blue Mountains & Central West NSW",
+ "url": "https://www.seek.com.au/job/95068569",
+ "listed_at": "2026-10-05T21:49:23.021Z",
+ "expires_at": "2026-11-01T12:59:59.000Z",
+ "screening_questions": [],
+ "source": "seek"
+}

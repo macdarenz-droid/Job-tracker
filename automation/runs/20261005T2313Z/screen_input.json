@@ -1,0 +1,378 @@
+{
+ "count": 5,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "95038050",
+   "company": "ABS Civil WA Pty Ltd",
+   "title": "Civil Estimator - Earthworks",
+   "run": "20261003T1118Z",
+   "percent": 38,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95054464",
+   "company": "Talent Web Property",
+   "title": "Civil Design Engineer",
+   "run": "20261005T1318Z",
+   "percent": 25,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95052080",
+   "company": "RSG Recruitment Aust Pty Ltd",
+   "title": "Project Engineer",
+   "run": "20261005T1318Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "4+ years Australian civil construction experience"
+   ]
+  },
+  {
+   "id": "95053124",
+   "company": "RSG Recruitment Aust Pty Ltd",
+   "title": "Project Engineer",
+   "run": "20261005T1318Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Approximately 3+ years civil construction"
+   ]
+  },
+  {
+   "id": "95036163",
+   "company": "Totem Civil Services group PTY LTD",
+   "title": "Project Engineer/ Site Engineer",
+   "run": "20261003T0114Z",
+   "percent": 59,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95047165",
+   "company": "GRANITE GROUP",
+   "title": "Draftsperson",
+   "run": "20261005T1318Z",
+   "percent": 30,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95042297",
+   "company": "Scotford Fennessy Recruitment",
+   "title": "Civil Engineer",
+   "run": "20261004T1217Z",
+   "percent": 52,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95037323",
+   "company": "Scotford Fennessy Recruitment",
+   "title": "Senoir Structural Drafter - Gold Coast",
+   "run": "20261003T1118Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "10+ years Revit structural drafting experience"
+   ]
+  },
+  {
+   "id": "95048982",
+   "company": "First Homebuilders",
+   "title": "Draftsperson",
+   "run": "20261005T1318Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "ArchiCAD essential",
+    "2 years residential drafting"
+   ]
+  },
+  {
+   "id": "95036821",
+   "company": "Green Start Consulting",
+   "title": "Draftsperson / Allrounder",
+   "run": "20261004T1717Z",
+   "percent": 42,
+   "mandatory_unmet": [
+    "Minimum 1 year building design / residential drafting experience",
+    "Role explicitly not suitable for engineers or engineer draftsperson"
+   ]
+  },
+  {
+   "id": "95048741",
+   "company": "Verve Recruitment",
+   "title": "Sheet Metal Draftsperson - Blacktown",
+   "run": "20261005T1318Z",
+   "percent": 10,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95041618",
+   "company": "vitae group pty ltd",
+   "title": "Estimator - Prefab Frame & Truss",
+   "run": "20261004T1717Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95056001",
+   "company": "CellTec Pty Ltd",
+   "title": "Graduate/Junior Controls Engineer",
+   "run": "20261005T1318Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "electrical/mechatronics qualification"
+   ]
+  },
+  {
+   "id": "95050531",
+   "company": "ISGroup",
+   "title": "Project Coordinator",
+   "run": "20261005T1318Z",
+   "percent": 25,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95050127",
+   "company": "FSRequip Pty Ltd",
+   "title": "Trainee Spare Parts",
+   "run": "20261005T1318Z",
+   "percent": 5,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95046220",
+   "company": "Nexgen Pest Control",
+   "title": "Pest Control Technician/ Trainee",
+   "run": "20261005T1318Z",
+   "percent": 0,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95061515",
+   "company": "Rio Tinto",
+   "title": "Specialist Project Engineer",
+   "run": "20261005T1318Z",
+   "percent": 10,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95057868",
+   "company": "Public Transport Authority",
+   "title": "Track Engineer",
+   "run": "20261005T1318Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Australian citizen or PR required"
+   ]
+  },
+  {
+   "id": "95053498",
+   "company": "AusNet Services",
+   "title": "Commissioning Engineer",
+   "run": "20261005T1318Z",
+   "percent": 15,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95050816",
+   "company": "Legeneering (Aust) Pty Ltd",
+   "title": "Project Coordinator",
+   "run": "20261005T1318Z",
+   "percent": 20,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95064591",
+   "company": "Newmont Australia",
+   "title": "Engineer Backfill",
+   "run": "20261005T1318Z",
+   "percent": 15,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95053032",
+   "company": "Innovaero",
+   "title": "Manufacturing Engineer",
+   "run": "20261005T1318Z",
+   "percent": 5,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95039531",
+   "company": "Harmony Australasia",
+   "title": "Medium Term Mine Planning Engineer",
+   "run": "20261005T1318Z",
+   "percent": 10,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95062068",
+   "company": "Diligent Group",
+   "title": "STRUCTURAL STEEL ESTIMATOR",
+   "run": "20261005T1318Z",
+   "percent": 20,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95054557",
+   "company": "Combined Metal Industries",
+   "title": "Project Coordinator - Fabrication Projects - Full Time",
+   "run": "20261005T1318Z",
+   "percent": 20,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95041703",
+   "company": "Concrete by joe",
+   "title": "Concreter and trainee",
+   "run": "20261005T1318Z",
+   "percent": 5,
+   "mandatory_unmet": []
+  }
+ ],
+ "candidates": [
+  {
+   "id": "95068569",
+   "source": "seek",
+   "title": "Water Treatment Engineer",
+   "company": "Orange City Council",
+   "location": "Orange, Blue Mountains & Central West NSW",
+   "url": "https://www.seek.com.au/job/95068569",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-05T21:49:23.021Z",
+   "expires_at": "2026-11-01T12:59:59.000Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Orange City Council is looking for a skilled Water Treatment Engineer to join our Water and Sewer section.",
+   "opening": "Orange City Council is looking for a skilled Water Treatment Engineer to join our Water and Sewer section. In this role you will be a key player in optimising our water and sewage treatment processes to meet compliance goals and manage capital improvement projects. \nTo view the full position description, click HERE (this link will work on the Orange City Council website)\nWe are searching for someone who is ready to make a positive impact. To be considered for this role, you should have:\n - Tertiary qualifications in Engineering (ideally process or chemical), Science, or associated discipline \n - General Construction Induction Card (White Card) or the ability to acquire \n - Current Class C driver’s licence\n - Experience working in a water or wastewater treatment environment relating to process improvement and optimisation\n - Established knowledge and understanding of water and wastewater ",
+   "key_lines": [
+    "- Tertiary qualifications in Engineering (ideally process or chemical), Science, or associated discipline",
+    "- Current Class C driver’s licence",
+    "- Experience working in a water or wastewater treatment environment relating to process improvement and optimisation",
+    "- Established knowledge and understanding of water and wastewater treatment and pumping procedures, industry standards, and regulatory requirements",
+    "- Experience in water and wastewater treatment projects, particularly the planning phase",
+    "Apply by submitting your resume and providing a brief response as to why you are a great fit for this role! Applications Close: Sunday 1 November 2026."
+   ]
+  },
+  {
+   "id": "95068562",
+   "source": "seek",
+   "title": "Draftsperson / Detailer (Microvellum / CAD) - Rockingham",
+   "company": "Verve Recruitment",
+   "location": "Rockingham, Perth WA",
+   "url": "https://www.seek.com.au/job/95068562",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-05T21:49:29.336Z",
+   "expires_at": "2026-11-05T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Established cabinet making company in Rockingham is seeking a Draftsperson.Draft commercial fit-outs & custom cabinetry. Microvellum training provided",
+   "opening": "Paramount Cabinets & Shopfitters are experts in retail tenancy, residential renovation, and commercial office fit-outs. They are currently seeking a Draftsperson / Detailer to join their team at their Rockingham facility.\nThis is a full-time, permanent position available for an immediate start (notice periods will be respected as required). To learn more about their organisation, visit their website (www.paramountshopfitters.com.au).\nYour main responsibilities and duties will include:-\n- Producing highly accurate and detailed workshop drawings for commercial shopfitting, retail tenancies, and residential cabinetry\n- Utilising drafting software to create plans and export data for CNC manufacturing\n- Liaising with the workshop team to ensure designs translate efficiently into production\n- Reviewing plans and specifications to ensure accuracy and compliance\nYour experience, skill set and qu",
+   "key_lines": [
+    "Paramount Cabinets & Shopfitters are experts in retail tenancy, residential renovation, and commercial office fit-outs. They are currently seeking a Draftsperson / Detailer to join their team at their Rockingham facility.",
+    "This is a full-time, permanent position available for an immediate start (notice periods will be respected as required). To learn more about their organisation, visit their website (www.paramountshopfitters.com.au).",
+    "- Producing highly accurate and detailed workshop drawings for commercial shopfitting, retail tenancies, and residential cabinetry",
+    "Your experience, skill set and qualifications will include:-",
+    "- Experience using Microvellum software is highly regarded, however, full training can be provided to candidates with strong experience in similar software (e.g., Cabinet Vision, Pytha, or AutoCAD)",
+    "Salary Range:- Attractive salary package, dependent on experience level",
+    "Position Type:- Permanent Full Time, Permanent Residency required",
+    "Please apply directly via Seek.",
+    "Upon receiving your application, we will forward an email questionnaire (please check your SPAM/Junk folder). We will review all replies, and suitable applicants will be invited to have a professional and formal telephone interview before being short-listed directly to our client."
+   ]
+  },
+  {
+   "id": "95068840",
+   "source": "seek",
+   "title": "Engineer, Drill & Blast",
+   "company": "Thiess",
+   "location": "Muswellbrook, Newcastle, Maitland & Hunter NSW",
+   "url": "https://www.seek.com.au/job/95068840",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-05T22:15:36.809Z",
+   "expires_at": "2026-11-05T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Engineer precision. Deliver performance. Drill & Blast Engineer required for Mount Pleasant Operation. Mon- Fri Role.",
+   "opening": "Discover the Opportunity\nLaunched in 2017 as a pioneering greenfield operation, Mount Pleasant has rapidly evolved into a world-class project, setting benchmarks in mining excellence. We're inviting talented Mining Engineers to become a part of our collaborative team, where your expertise will be vital in shaping the future of our operation.\nAbout The Role\nAs our next Drill & Blast Engineer reporting to the Technical Services Manager, you will work collaboratively towards delivering high-quality solutions and results. The Drill and Blast Engineer will be responsible for drill and blast designs and loading. This role will work closely mine planning team to provide designs and schedules to support the execution of the mine plan. Key duties also include: \n- Drill pattern designs  \n- \nLoading and tie up design – product selection to maximise fragmentation\n- Weekly drill and blast schedules \n",
+   "key_lines": [
+    "As our next Drill & Blast Engineer reporting to the Technical Services Manager, you will work collaboratively towards delivering high-quality solutions and results. The Drill and Blast Engineer will be responsible for drill and blast designs and loading. This role will work closely mine planning team to provide designs and schedules to support the execution of the mine plan. Key duties also include:",
+    "Relevant tertiary qualifications in Mining or Civil Engineering (or equivalent)",
+    "- Minimum 2 years’ site experience in an operational mining engineering capacity (open cut preferred).",
+    "- Attitude to learn and work ethic to deliver the required information to drill and blast crew",
+    "- Experience with Blast Logic, Vulcan or similar software",
+    "At Thiess, we partner with our clients to deliver excellence in open cut and underground mining in Australia, Asia and the Americas. For more than 85 years, we have operated in diverse commodities, geologies, environments and cultures. Our team uses global insight to optimise solutions and create value for each project, positioning them for optimal efficiency, productivity and cost performance, backed by how we meet our commitments. Thiess is committed to being at the forefront of sustainable mining, leveraging the power of our people and technology to support clients in their journey to more sustainable enterprises.",
+    "Should you require assistance applying for this opportunity, please contact us @ hiring@thiess.com",
+    "How to Apply",
+    "To apply for this role, please click the ‘Apply’ button or the link below."
+   ]
+  },
+  {
+   "id": "95069834",
+   "source": "seek",
+   "title": "INSURANCE BUILDING ESTIMATOR",
+   "company": "S&you",
+   "location": "Gold Coast QLD",
+   "url": "https://www.seek.com.au/job/95069834",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-05T23:12:28.969Z",
+   "expires_at": "2026-11-04T23:12:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "An established insurance building and construction business is seeking an experienced Construction Estimator to join its Gold Coast team.",
+   "opening": "INSURANCE BUILDING ESTIMATOR\n Gold Coast, QLD\n Full-time | Permanent\n Position Overview\n An established insurance building and construction business is seeking an experienced Construction Estimator to join its Gold Coast team. The role will focus on assessing building damage, developing detailed scopes of work and preparing accurate estimates for residential and commercial insurance building repairs, with responsibility for taking each estimate from initial inspection through to handover to the delivery team.\n Key Responsibilities\n - Attend residential and commercial properties to assess building damage and required repair works.\n - Undertake detailed site inspections and document damage, repair methodology and relevant construction requirements.\n - Prepare accurate and comprehensive scopes of work for insurance building repairs.\n - Produce detailed estimates covering labour, materials, ",
+   "key_lines": [
+    "An established insurance building and construction business is seeking an experienced Construction Estimator to join its Gold Coast team. The role will focus on assessing building damage, developing detailed scopes of work and preparing accurate estimates for residential and commercial insurance building repairs, with responsibility for taking each estimate from initial inspection through to handover to the delivery team.",
+    "- Attend residential and commercial properties to assess building damage and required repair works.",
+    "- Undertake detailed site inspections and document damage, repair methodology and relevant construction requirements.",
+    "- Review insurer scopes, reports and supporting documentation and identify discrepancies where required.",
+    "- Ensure estimates align with insurer requirements, contractual expectations and internal commercial targets.",
+    "- Work closely with Supervisors and delivery teams to ensure a clear and accurate handover into construction.",
+    "Experience & Capability",
+    "- Proven experience in construction estimating, particularly within insurance building and property repairs.",
+    "- Experience across both residential and commercial building projects.",
+    "- Experience preparing detailed scopes of work and assessing building damage.",
+    "- Experience using construction, estimating or insurance claims software is highly regarded.",
+    "Qualifications & Licences",
+    "- Trade qualification in Carpentry or another relevant construction discipline highly regarded.",
+    "- Certificate IV or Diploma in Building and Construction highly regarded."
+   ]
+  },
+  {
+   "id": "94961741",
+   "source": "seek",
+   "title": "Estimating & Project Engineering Intern",
+   "company": "Orion Mechanical Services",
+   "location": "Waterloo, Sydney NSW",
+   "url": "https://www.seek.com.au/job/94961741",
+   "work_type": "Casual/Vacation",
+   "salary": null,
+   "listed_at": "2026-10-05T21:36:21.184Z",
+   "expires_at": "2026-11-05T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How much notice are you required to give your current employer?",
+    "Which of the following Microsoft Office products are you experienced with?",
+    "Do you hold a Construction Induction Safety certificate (White Card)?",
+    "How would you rate your English language skills?"
+   ],
+   "summary": "Estimating & Project Engineering Intern with Orion Mechanical Services.",
+   "opening": "About the role\nWorking alongside our estimating, engineering and project teams, you will gain hands-on exposure to both the pre-construction/tendering and project delivery sides of the business. This role is suited to a current Mechanical Engineering or Building/Construction-related undergraduate looking to gain practical experience within the building services and construction industry.\nKey responsibilities\n- Assist with mechanical services estimating, quantity take-offs and tender preparation.\n- Review architectural, mechanical and consultant drawings, specifications and tender documentation.\n- Assist with preparing scope breakdowns, equipment schedules and subcontractor/supplier enquiries.\n- Obtain and compare supplier and subcontractor quotations.\n- Assist with cost planning, tender analysis and value engineering exercises.\n- Support project engineers with design reviews, coordinatio",
+   "key_lines": [
+    "Working alongside our estimating, engineering and project teams, you will gain hands-on exposure to both the pre-construction/tendering and project delivery sides of the business. This role is suited to a current Mechanical Engineering or Building/Construction-related undergraduate looking to gain practical experience within the building services and construction industry.",
+    "- Attend project/site inspections where required and assist with coordination of mechanical services.",
+    "- Work with experienced team members across live commercial, residential, education and other construction projects.",
+    "- Currently studying a Bachelor of Mechanical Engineering, Civil Engineering, Project Management, Construction or similar relevant degree.",
+    "- Experience with Bluebeam, AutoCAD, Revit or similar software would be advantageous but is not essential.",
+    "Orion Mechanical Services (OMS) is a mechanical services, design and construct company working on projects across commercial, residential, education and other construction sectors.",
+    "This is not intended to be a purely administrative internship. You will work alongside the team on real tenders and live construction projects, gaining exposure to how mechanical services are designed, priced, procured, coordinated and delivered. The position is 2–3 days per week, with flexibility around university commitments. For the right candidate, there may also be an opportunity to continue and develop within OMS as you progress through your degree and after graduation."
+   ]
+  }
+ ]
+}

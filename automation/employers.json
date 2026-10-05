@@ -518,6 +518,60 @@
    "checked_at": "2026-10-06",
    "open_junior_roles": [],
    "notes": "Graduate program register-interest form; civil Associate Director Chris White on team page (no email). EOI READY this tick."
+  },
+  "Fulton Hogan": {
+   "careers_url": "https://fultonhogan.wd3.myworkdayjobs.com/Fultonhogan",
+   "checked_at": "2026-10-06",
+   "open_junior_roles": [],
+   "notes": "Workday API (searchText civil/engineer/drafter/graduate, 86 results mostly NZ). AU roles: Site Engineer (Fortitude Valley, R26037, closes 30 Oct 2026; needs engineering degree, 'experienced'), Project Engineer shut planning water (Fortitude Valley, R24888; needs watermain/water-authority experience), Operations Coordinator spray seal (Rutherford, R27090; project delivery/client mgmt), Safety Trainee (Tullamarine, non-civil). Civil Engineering Graduates 2027 - Infrastructure Services is NZ-only (NZ/AU citizenship or NZ PR). AU 2027 Graduate Program closed 2 Aug 2026; Cadetship 2027 is NZ school-leaver. Nothing saved."
+  },
+  "John Holland": {
+   "careers_url": "https://jobs.johnholland.com.au/JohnHolland/viewalljobs/",
+   "checked_at": "2026-10-06",
+   "open_junior_roles": [],
+   "notes": "SuccessFactors RSS (engineer/civil/graduate/cadet/drafter/coordinator). No cadet/drafter/graduate roles open; 2027 grad program closed (2028 opens 2027, bachelor's + citizen/PR/full rights). T2D Adelaide Site Engineer - Traffic / Precast / Tunnel Civil Fitout and Civil Engineer - Plant Logistics all require a civil engineering degree plus construction experience; rest senior/non-civil. Nothing saved."
+  },
+  "CPB Contractors": {
+   "careers_url": "https://careers.pageuppeople.com/434/caw/en/listing/",
+   "checked_at": "2026-10-06",
+   "open_junior_roles": [],
+   "notes": "PageUp board 434 (full listing). Site Engineer roles: RRJV Riverina (degree + AU citizen/PR + Baseline clearance), RAAF Base Wagga (5-7 yrs), Leakes Road data centre (degree + proven SE experience), QLD regional 1006207 (closes 22 Oct 2026; degree + 3 yrs). Only trainee is Office Coordinator (Trainee) Melbourne (admin, closes 12 Oct 2026) - not civil. Nothing saved."
+  },
+  "GHD": {
+   "careers_url": "https://ghd.com/en/careers (board: https://ejov.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/jobs)",
+   "checked_at": "2026-10-06",
+   "open_junior_roles": [],
+   "notes": "GHD board is Oracle Cloud CX (ejov.fa.ca2.oraclecloud.com/.../sites/CX). Keyword 'drafter' + Australia filter rendered only North American drafter roles; the 2026/27 Melbourne Graduate Civil & Structural Drafters/Designers program (TAFE Adv Dip) closed Apr 2026 and listed citizen/PR work rights. Full AU list not enumerated within budget. Nothing saved."
+  },
+  "Stantec": {
+   "careers_url": "https://stantec.jobs/jobs/?location=Australia",
+   "checked_at": "2026-10-06",
+   "open_junior_roles": [
+    {
+     "title": "Civil Cadet Drafter - QLD",
+     "url": "https://stantec.jobs/south-brisbane-aus/civil-cadet-drafter-qld/5DE22F1AFBA74D89A4090E5905093972/job/",
+     "apply": "stantec.jobs portal (Apply Now)"
+    }
+   ],
+   "notes": "stantec.jobs Australia searches (civil/drafter/cadet). Saved Civil Cadet Drafter - QLD (260000H5, South Brisbane, posted 9 Jul 2026, no close date, still live) - tracker check flags prior outreach (READY_JEREMIE_EMPLOYER_PORTAL 2026-09-12). Engineering Cadet Albany WA (260000JP) is a Year-12/gap-year part-time role - skipped. Civil Drafter Brisbane needs 2 yrs + citizen/PR; 2027 Graduate Civil/Env Engineer Water Brisbane and Civil Engineer Toowoomba need degree."
+  },
+  "Jacobs": {
+   "careers_url": "https://careers.jacobs.com/en_US/careers/SearchJobs/",
+   "checked_at": "2026-10-06",
+   "open_junior_roles": [],
+   "notes": "careers.jacobs.com (Phenom; JS/bot check, rendered with headless Chrome). Cadet Civil Technical Officer Cairns (#32877) still renders with Apply but says 'Applications close Sunday 14th December' - 14 Dec is a Sunday in 2025, not 2026, and the ID is far older than current postings (~46339), so treated as stale/expired; also aimed at high-school/uni students. Australia filter did not apply to the list within budget. Nothing saved."
+  },
+  "Acciona Australia": {
+   "careers_url": "https://acciona.wd3.myworkdayjobs.com/ACCIONA_Employment_Channel",
+   "checked_at": "2026-10-06",
+   "open_junior_roles": [],
+   "notes": "Workday API (civil drafter/site engineer/cadet/graduate civil). 2027 Graduate Program closed 20 Sep 2026. AU open: Site Engineers Civils and Structures EOI (Brisbane), Surveyor, Quality Engineer, senior roles - none entry-level verified (EOI not opened within budget). Nothing saved."
+  },
+  "McConnell Dowell": {
+   "careers_url": "https://www.mcconnelldowell.com/careers",
+   "checked_at": "2026-10-06",
+   "open_junior_roles": [],
+   "notes": "Web search only (time budget): 2027 Graduate Programme closed 20 May 2026; Perth Project Engineer (roadworks) is experienced-level. Board not opened. Nothing saved."
   }
  },
  "sweep_log": [
@@ -950,6 +1004,54 @@
     "Adams Consulting Engineers READY_JEREMIE_EMPLOYER_FORM",
     "FIELD Engineers HELD_ELIGIBILITY_UNCONFIRMED"
    ]
+  },
+  {
+   "run_id": "20261005T2313Z",
+   "rotation": "employers",
+   "checked_at": "2026-10-05T23:18:15Z",
+   "checked": [
+    {
+     "name": "Fulton Hogan",
+     "url": "https://fultonhogan.wd3.myworkdayjobs.com/Fultonhogan",
+     "result": "no open junior civil in AU. Workday API (searchText civil/engineer/drafter/graduate, 86 results mostly NZ). AU roles: Site Engineer (Fortitude Valley, R26037, closes 30 Oct 2026; needs engineering degree, 'experienced'), Project Engineer shut planning water (Fortitude Valley, R24888; needs watermain/water-authority experience), Operations Coordinator spray seal (Rutherford, R27090; project delivery/client mgmt), Safety Trainee (Tullamarine, non-civil). Civil Engineering Graduates 2027 - Infrastructure Services is NZ-only (NZ/AU citizenship or NZ PR). AU 2027 Graduate Program closed 2 Aug 2026; Cadetship 2027 is NZ school-leaver. Nothing saved."
+    },
+    {
+     "name": "John Holland",
+     "url": "https://jobs.johnholland.com.au/JohnHolland/viewalljobs/",
+     "result": "no open junior civil. SuccessFactors RSS (engineer/civil/graduate/cadet/drafter/coordinator). No cadet/drafter/graduate roles open; 2027 grad program closed (2028 opens 2027, bachelor's + citizen/PR/full rights). T2D Adelaide Site Engineer - Traffic / Precast / Tunnel Civil Fitout and Civil Engineer - Plant Logistics all require a civil engineering degree plus construction experience; rest senior/non-civil. Nothing saved."
+    },
+    {
+     "name": "CPB Contractors",
+     "url": "https://careers.pageuppeople.com/434/caw/en/listing/",
+     "result": "no open junior civil. PageUp board 434 (full listing). Site Engineer roles: RRJV Riverina (degree + AU citizen/PR + Baseline clearance), RAAF Base Wagga (5-7 yrs), Leakes Road data centre (degree + proven SE experience), QLD regional 1006207 (closes 22 Oct 2026; degree + 3 yrs). Only trainee is Office Coordinator (Trainee) Melbourne (admin, closes 12 Oct 2026) - not civil. Nothing saved."
+    },
+    {
+     "name": "GHD",
+     "url": "https://ejov.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/jobs",
+     "result": "no open junior civil found (partial check). GHD board is Oracle Cloud CX (ejov.fa.ca2.oraclecloud.com/.../sites/CX). Keyword 'drafter' + Australia filter rendered only North American drafter roles; the 2026/27 Melbourne Graduate Civil & Structural Drafters/Designers program (TAFE Adv Dip) closed Apr 2026 and listed citizen/PR work rights. Full AU list not enumerated within budget. Nothing saved."
+    },
+    {
+     "name": "Stantec (Cardno)",
+     "url": "https://stantec.jobs/jobs/?location=Australia",
+     "result": "stantec.jobs Australia searches (civil/drafter/cadet). Saved Civil Cadet Drafter - QLD (260000H5, South Brisbane, posted 9 Jul 2026, no close date, still live) - tracker check flags prior outreach (READY_JEREMIE_EMPLOYER_PORTAL 2026-09-12). Engineering Cadet Albany WA (260000JP) is a Year-12/gap-year part-time role - skipped. Civil Drafter Brisbane needs 2 yrs + citizen/PR; 2027 Graduate Civil/Env Engineer Water Brisbane and Civil Engineer Toowoomba need degree."
+    },
+    {
+     "name": "Jacobs Australia",
+     "url": "https://careers.jacobs.com/en_US/careers/JobDetail/Cadet-Civil-Technical-Officer/32877",
+     "result": "no open junior civil verified. careers.jacobs.com (Phenom; JS/bot check, rendered with headless Chrome). Cadet Civil Technical Officer Cairns (#32877) still renders with Apply but says 'Applications close Sunday 14th December' - 14 Dec is a Sunday in 2025, not 2026, and the ID is far older than current postings (~46339), so treated as stale/expired; also aimed at high-school/uni students. Australia filter did not apply to the list within budget. Nothing saved."
+    },
+    {
+     "name": "Acciona Australia (fallback)",
+     "url": "https://acciona.wd3.myworkdayjobs.com/ACCIONA_Employment_Channel",
+     "result": "Workday API (civil drafter/site engineer/cadet/graduate civil). 2027 Graduate Program closed 20 Sep 2026. AU open: Site Engineers Civils and Structures EOI (Brisbane), Surveyor, Quality Engineer, senior roles - none entry-level verified (EOI not opened within budget). Nothing saved."
+    },
+    {
+     "name": "McConnell Dowell (fallback)",
+     "url": "https://www.mcconnelldowell.com/careers/graduates",
+     "result": "Web search only (time budget): 2027 Graduate Programme closed 20 May 2026; Perth Project Engineer (roadworks) is experienced-level. Board not opened. Nothing saved."
+    }
+   ],
+   "notes": "Saved 1 extra (stantec-civil-cadet-drafter-qld-260000h5); tracker.py check flagged it DUP: recent outreach to same employer (Civil Cadet Drafter - QLD, READY_JEREMIE_EMPLOYER_PORTAL, 2026-09-12). browse.py needed CHROME_BIN=/usr/bin/google-chrome."
   }
  ]
 }

@@ -1,0 +1,40 @@
+{
+ "company": "Price Merrett Consulting Pty Ltd",
+ "company_url": "https://www.pricemerrett.com.au/",
+ "careers_url": "https://www.pricemerrett.com.au/careers",
+ "recipient_name": "",
+ "recipient_role": "Careers application inbox (Mildura office)",
+ "recipient_email": "pmc.mildura@pricemerrett.com.au",
+ "contact_evidence_url": "https://www.pricemerrett.com.au/careers",
+ "evidence_quote": "If you’re looking for an opportunity to join an industry-leading consultancy where fresh ideas and enthusiasm are welcomed and rewarded, then we want to hear from you. ... We have sites in Kerang, Mildura and Swan Hill  Click here to email your application  [button href=\"mailto:pmc.mildura@pricemerrett.com.au\"]",
+ "contact_confidence": "published_inbox",
+ "named_people": [
+  {
+   "name": "Mark Carter",
+   "role": "Director / Senior Engineer (Kerang)",
+   "email": "",
+   "evidence_url": "https://www.pricemerrett.com.au/about-1"
+  },
+  {
+   "name": "Josh Brice",
+   "role": "Director / Licensed Surveyor (Mildura)",
+   "email": "",
+   "evidence_url": "https://www.pricemerrett.com.au/about-1"
+  },
+  {
+   "name": "Andrew Merrett",
+   "role": "Director / Licensed Surveyor (Swan Hill)",
+   "email": "",
+   "evidence_url": "https://www.pricemerrett.com.au/about-1"
+  },
+  {
+   "name": "Nathan Walle",
+   "role": "Civil Designer (Kerang)",
+   "email": "",
+   "evidence_url": "https://www.pricemerrett.com.au/about-1"
+  }
+ ],
+ "employer_line": "Price Merrett's Infrastructure Development team will 'survey, design and manage your road project, ensuring that it is compliant with your council's standards' (kerb & channelling, footpaths, roundabouts, car parks), and it has designed and supervised subdivisions from 2 to 200+ lots, including a forty-five lot cluster subdivision on the outskirts of Kerang (https://www.pricemerrett.com.au/engineering).",
+ "notes": "Regional northern-Victoria multidisciplinary firm (surveying, civil/environmental engineering, irrigation design, planning) since 1980; offices Kerang, Mildura, Swan Hill - outside the Melbourne west/Geelong/Ballarat/Bendigo priority band, so would need relocation (regional, which may suit 485 plans). The careers 'email your application' button points to pmc.mildura@...; engineering staff (Director/Senior Engineer Mark Carter, Civil Designer Nathan Walle) are at Kerang (pmc@pricemerrett.com.au is the Kerang office inbox but is not itself labelled for applications). Address to 'Mark Carter, Director / Senior Engineer' by name only, sent to the published application inbox. tracker.py check: new, not blocked. Gmail search (pricemerrett / 'Price Merrett'): no prior contact.",
+ "checked_at": "2026-10-05T23:26:00Z"
+}

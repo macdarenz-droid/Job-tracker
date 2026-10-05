@@ -1,0 +1,37 @@
+{
+ "id": "94961741",
+ "percent": 35,
+ "rationale": [
+  "Part-time internship for a current undergraduate student (2 to 3 days a week around uni).",
+  "Marc is not currently studying, so the core eligibility is not met.",
+  "Mechanical services focus, Sydney."
+ ],
+ "caution": "Below threshold.",
+ "gaps": [
+  "Not a current student",
+  "Mechanical services focus"
+ ],
+ "mandatory_unmet": [
+  "Must be currently studying a relevant degree"
+ ],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Orion Mechanical Services",
+ "title": "Estimating & Project Engineering Intern",
+ "location": "Waterloo, Sydney NSW",
+ "url": "https://www.seek.com.au/job/94961741",
+ "listed_at": "2026-10-05T21:36:21.184Z",
+ "expires_at": "2026-11-05T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "How much notice are you required to give your current employer?",
+  "Which of the following Microsoft Office products are you experienced with?",
+  "Do you hold a Construction Induction Safety certificate (White Card)?",
+  "How would you rate your English language skills?"
+ ],
+ "source": "seek"
+}

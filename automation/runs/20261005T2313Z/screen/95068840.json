@@ -1,0 +1,31 @@
+{
+ "id": "95068840",
+ "percent": 30,
+ "rationale": [
+  "Mining drill and blast engineer, minimum 2 years operational mining site experience.",
+  "Needs Blast Logic or Vulcan; Marc has neither.",
+  "Direct employer (Thiess), Hunter NSW."
+ ],
+ "caution": "Below threshold.",
+ "gaps": [
+  "No mining site experience",
+  "No Blast Logic or Vulcan"
+ ],
+ "mandatory_unmet": [
+  "Minimum 2 years operational mining experience"
+ ],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Thiess",
+ "title": "Engineer, Drill & Blast",
+ "location": "Muswellbrook, Newcastle, Maitland & Hunter NSW",
+ "url": "https://www.seek.com.au/job/95068840",
+ "listed_at": "2026-10-05T22:15:36.809Z",
+ "expires_at": "2026-11-05T12:59:59.999Z",
+ "screening_questions": [],
+ "source": "seek"
+}

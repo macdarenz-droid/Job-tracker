@@ -1,0 +1,30 @@
+{
+ "id": "95068562",
+ "percent": 25,
+ "rationale": [
+  "Cabinetry and shopfitting workshop drafting, not civil.",
+  "Advert states Permanent Residency required.",
+  "Agency advert (Verve) for Paramount Cabinets."
+ ],
+ "caution": "Below threshold.",
+ "gaps": [
+  "Discipline mismatch (joinery CNC drafting)"
+ ],
+ "mandatory_unmet": [
+  "Permanent Residency required"
+ ],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "",
+ "open": true,
+ "employer_is_agency": true,
+ "company": "Verve Recruitment",
+ "title": "Draftsperson / Detailer (Microvellum / CAD) - Rockingham",
+ "location": "Rockingham, Perth WA",
+ "url": "https://www.seek.com.au/job/95068562",
+ "listed_at": "2026-10-05T21:49:29.336Z",
+ "expires_at": "2026-11-05T12:59:59.999Z",
+ "screening_questions": [],
+ "source": "seek"
+}

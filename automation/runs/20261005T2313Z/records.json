@@ -1,0 +1,106 @@
+[
+ {
+  "id": "974411ff-35fc-4a02-84f4-e43a14ed7382",
+  "key": "manual:974411ff-35fc-4a02-84f4-e43a14ed7382",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261005T2313Z",
+  "created_at": "2026-10-05T23:27:04.000Z",
+  "updated_at": "2026-10-05T23:27:04.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "a3dfb853-b861-470a-b1ea-c186a3aa2ef5",
+    "path": "/api/documents/a3dfb853-b861-470a-b1ea-c186a3aa2ef5",
+    "filename": "Marc_Masarate_Western_Civil_Pty_Ltd_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-05T23:27:06.859Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "7856d8cd-8561-4bbf-b842-3e5e491b2518",
+    "path": "/api/documents/7856d8cd-8561-4bbf-b842-3e5e491b2518",
+    "filename": "Marc_Masarate_Western_Civil_Pty_Ltd_Speculative_enquiry_graduate_site_or_pro_Cover_Letter.pdf",
+    "sha256": "6da726ad34d4cc934852c916c0a8c0613ba01899b6457406e296c684a5f36a9b",
+    "size_bytes": 49239,
+    "kind": "cover",
+    "uploaded_at": "2026-10-05T23:27:05.523Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Western Civil Pty Ltd",
+  "role": "Speculative enquiry: graduate site or project engineer (Derrimut)",
+  "location": "Derrimut VIC",
+  "job_url": "https://western-civil.com.au/careers/",
+  "company_url": "https://western-civil.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Careers inbox (expressions of interest)",
+  "recipient_email": "projects@western-civil.com.au",
+  "contact_email": "projects@western-civil.com.au",
+  "contact_evidence_url": "https://western-civil.com.au/careers/",
+  "contact_verified_at": "2026-10-05T23:27:04.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Career Opportunity: speculative enquiry, graduate site or project engineer, Marc Darenz Masarate",
+  "email_body": "Hi Western Civil team,\n\nThis is a speculative expression of interest, sent because your careers page invites graduate engineers to send a resume to this address. I'm looking for a graduate site or project engineer place.\n\nI completed an Advanced Diploma of Civil Construction Design in February 2026, covering road geometry, earthworks, pavement and stormwater drainage, documented in Civil 3D and AutoCAD. In 2019 and 2020 I worked on site in the Philippines as a project-in-charge engineer and then a field engineer, handling site inspections, quality checks, materials tracking and progress reports. I live in Melton, hold a White Card and an Australian driver's licence with my own transport, and have full working rights on a Subclass 485 visa until December 2027.\n\nYour land development team self-performs earthworks, pavements and stormwater drainage on industrial and residential subdivisions, which is the work I trained for, and Derrimut is close to home. I haven't yet worked on an Australian construction site, so I would start under supervision.\n\nWould you keep me in mind for a graduate site or project engineer role, or be open to a short chat? I've attached my resume and cover letter.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Western Civil is a Derrimut civil contractor whose land development team self-performs earthworks, bound and unbound pavements, stormwater drainage and culverts on industrial and residential subdivisions, matching Marc's Advanced Diploma road, earthworks, pavement and stormwater design.",
+   "Its careers page explicitly invites expressions of interest from undergraduate and graduate engineers and site and project engineers, which fits Marc's Philippines field engineer and project-in-charge site work.",
+   "Derrimut is about 25 minutes from Melton; Marc has a licence and own transport."
+  ],
+  "gaps": [
+   "No advertised vacancy",
+   "No Australian construction site experience",
+   "No paid civil design role yet"
+  ],
+  "match_score": {
+   "percent": 70,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Western Civil is a Derrimut civil contractor whose land development team self-performs earthworks, bound and unbound pavements, stormwater drainage and culverts on industrial and residential subdivisions, matching Marc's Advanced Diploma road, earthworks, pavement and stormwater design.",
+    "Its careers page explicitly invites expressions of interest from undergraduate and graduate engineers and site and project engineers, which fits Marc's Philippines field engineer and project-in-charge site work.",
+    "Derrimut is about 25 minutes from Melton; Marc has a licence and own transport."
+   ],
+   "caution": "Speculative: no advertised vacancy, expression of interest only. No Australian construction site experience yet; site work was in the Philippines 2019 to 2020."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "",
+   "expires_at": "",
+   "verified_at": "2026-10-05T23:27:04.000Z",
+   "apply_instructions": "Careers page: send your resume to projects@western-civil.com.au with the subject 'Career Opportunity'.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Re-read western-civil.com.au/careers and confirm projects@western-civil.com.au and the 'Career Opportunity' subject rule are still published",
+   "Gmail in:anywhere search for western-civil.com.au and Western Civil before any send (none found on 6 Oct 2026)",
+   "Attach resume and cover letter PDFs",
+   "Keep 'Career Opportunity' at the start of the subject and the speculative label in the opening line",
+   "Do not claim Australian site experience or a paid design role"
+  ],
+  "notes": "Employers rotation tick; SEEK d3, d14 and two extra keyword sets plus six target employer careers boards gave no publishable new advert after dedupe, so the runbook's one speculative enquiry. No advertised vacancy; the employer's careers page invites EOIs from graduate engineers to projects@western-civil.com.au with subject 'Career Opportunity'. Nothing sent this tick.\nCivil contractor founded 2016, ISO accredited, VicRoads prequalified; projects include Merrifield Business Park, Alliance Business Park Stage 6, Jacksons Hill Stage 44, Kingslea Broadmeadows, Clarkes Road Brookfield, Davidson St Broadford (https://western-civil.com.au/projects/). Same EOI text and inbox also on https://western-civil.com.au/contact/. Subject line must be 'Career Opportunity' (can add e.g. 'Career Opportunity - Graduate / Site Engineer EOI, Marc Darenz Masarate'). No named people/emails published on site; none sought from brokers. Derrimut is ~25 min from Melton. tracker.py check: new, not blocked. Gmail (in:anywhere 'Western Civil' OR western-civil.com.au): only Feb 2024 SEEK recommendation alerts, no applications or sent mail.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed date not shown). Contact: the application inbox projects@western-civil.com.au published by the employer (https://western-civil.com.au/careers/); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Speculative enquiry: graduate site or project engineer (Derrimut) role on SEEK.\n• They may ask about: No advertised vacancy → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian construction site experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No paid civil design role yet → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed date not shown). Contact: the application inbox projects@western-civil.com.au published by the employer (https://western-civil.com.au/careers/); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Speculative enquiry: graduate site or project engineer (Derrimut) role on SEEK.",
+   "They may ask about: No advertised vacancy → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian construction site experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No paid civil design role yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-05T23:27:04.000Z",
+  "duplicate_key": "westerncivilptyltd|western-civil.com.au/careers"
+ }
+]
