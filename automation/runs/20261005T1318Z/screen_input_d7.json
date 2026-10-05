@@ -1,0 +1,364 @@
+{
+ "count": 3,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "94969508",
+   "company": "GPA Engineering",
+   "title": "Civil/Structural Drafter – ADL",
+   "run": "20261003T0114Z",
+   "percent": 48,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94961556",
+   "company": "Brunel",
+   "title": "Project Engineer - Civil",
+   "run": "20261003T0114Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95038050",
+   "company": "ABS Civil WA Pty Ltd",
+   "title": "Civil Estimator - Earthworks",
+   "run": "20261003T1118Z",
+   "percent": 38,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95021621",
+   "company": "Ertech Pty Ltd",
+   "title": "Project Engineer (Civil)",
+   "run": "20261003T0114Z",
+   "percent": 59,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94958791",
+   "company": "ADF Careers",
+   "title": "Part-Time Civil Engineer (Tax-Free Pay)",
+   "run": "20261003T0114Z",
+   "percent": 27,
+   "mandatory_unmet": [
+    "Citizenship or PR may be required"
+   ]
+  },
+  {
+   "id": "94973025",
+   "company": "Optimum Consulting Group",
+   "title": "Civil Engineer",
+   "run": "20261003T0114Z",
+   "percent": 61,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94969016",
+   "company": "QCCS",
+   "title": "Civil Project Engineer",
+   "run": "20261003T0114Z",
+   "percent": 73,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94935564",
+   "company": "Queanbeyan-Palerang Regional Council",
+   "title": "Trainee - Civil Construction",
+   "run": "20260930T1316Z",
+   "percent": 35,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94995704",
+   "company": "Xeros Piccolo Consulting Engineers",
+   "title": "Structural/Civil Engineer",
+   "run": "20261003T0114Z",
+   "percent": 60,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94961163",
+   "company": "Brunel",
+   "title": "Project Engineer ",
+   "run": "20261003T0114Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94958409",
+   "company": "Right Connect",
+   "title": "Structural Drafter",
+   "run": "20261003T0114Z",
+   "percent": 60,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94950957",
+   "company": "Milo Geotechnical",
+   "title": "Civil Engineer",
+   "run": "20260930T1316Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "A minimum of 5 years' engineering experience associated with the road construction industry"
+   ]
+  },
+  {
+   "id": "95021747",
+   "company": "Contec Recruitment Pty Ltd",
+   "title": "Civil Estimator ",
+   "run": "20261003T0114Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94990020",
+   "company": "Gough Recruitment SA",
+   "title": "Civil Estimator",
+   "run": "20261003T0114Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94956743",
+   "company": "Formstruct",
+   "title": "Estimator  - Civil & NPI",
+   "run": "20261003T0114Z",
+   "percent": 75,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94936909",
+   "company": "City of Joondalup",
+   "title": "Skilled General Hand - Engineering Construction (Civil)",
+   "run": "20260930T1316Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "WA HR Class Driver’s Licence"
+   ]
+  },
+  {
+   "id": "94999649",
+   "company": "CPB Contractors NSW ACT",
+   "title": "Project Engineer Building & Infrastructure",
+   "run": "20261003T0114Z",
+   "percent": 34,
+   "mandatory_unmet": [
+    "Citizenship or PR may be required"
+   ]
+  },
+  {
+   "id": "94978646",
+   "company": "Smith & Co",
+   "title": "Estimator",
+   "run": "20261003T0114Z",
+   "percent": 77,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94944895",
+   "company": "TTW (NSW) Pty Ltd",
+   "title": "Structural Revit Drafter",
+   "run": "20260930T1819Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95036163",
+   "company": "Totem Civil Services group PTY LTD",
+   "title": "Project Engineer/ Site Engineer",
+   "run": "20261003T0114Z",
+   "percent": 59,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95021786",
+   "company": "SCP Consulting Pty Ltd",
+   "title": "Draftsperson",
+   "run": "20261003T0114Z",
+   "percent": 42,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95009307",
+   "company": "The Lorian Group",
+   "title": "Construction Cadet / Junior PM",
+   "run": "20261003T0114Z",
+   "percent": 71,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95002679",
+   "company": "Sunshine Coast Council",
+   "title": "Design Engineer",
+   "run": "20261003T0114Z",
+   "percent": 71,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94994373",
+   "company": "Tungsten Mining",
+   "title": "Civil Project Engineer",
+   "run": "20261003T0114Z",
+   "percent": 73,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94991390",
+   "company": "Sunshine Coast Council",
+   "title": "Design Engineer",
+   "run": "20261003T0114Z",
+   "percent": 71,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94987271",
+   "company": "Randstad - Construction, Property & Engineering",
+   "title": "Estimator",
+   "run": "20261003T0114Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94958365",
+   "company": "Symal",
+   "title": "Project Engineer",
+   "run": "20261003T0114Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94940251",
+   "company": "Martin Metal Works Pty Ltd",
+   "title": "Design Draftsperson – Autodesk Inventor",
+   "run": "20260930T1819Z",
+   "percent": 25,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94937680",
+   "company": "CPB Contractors VIC & TAS",
+   "title": "Site Engineer Leakes Road (Engineering)",
+   "run": "20260930T1819Z",
+   "percent": 38,
+   "mandatory_unmet": [
+    "Proven experience as a Site Engineer on construction, infrastructure, or civil projects"
+   ]
+  },
+  {
+   "id": "94936602",
+   "company": "Peopleconnexion Recruitment",
+   "title": "Site Engineer - Geotechnical",
+   "run": "20260930T1819Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Australian Citizen or Permanent Resident"
+   ]
+  },
+  {
+   "id": "94930821",
+   "company": "Project BA",
+   "title": "Cadet Building Certifier / Engineering Graduate",
+   "run": "20260929T0032Z",
+   "percent": 58,
+   "mandatory_unmet": []
+  }
+ ],
+ "candidates": [
+  {
+   "id": "95054464",
+   "source": "seek",
+   "title": "Civil Design Engineer",
+   "company": "Talent Web Property",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/95054464",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-05T04:25:11.487Z",
+   "expires_at": "2026-11-04T04:25:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Civil Design Engineer for Australian-owned engineering consultancy for high-end urban and residential project delivery",
+   "opening": "Our client is a respected national civil engineering consultancy delivering small to medium scale urban development and high-end residential designs.\nWith steady and consistent growth across all their offices, they are looking to further expand their SEQ design team, and this role could have you based in either of their Gold Coast, Sunshine Coast or Brisbane offices.\nThe company has a collaborative culture, they're big on work-life balance, competitive salaries, and investing in their people.\nTranslation: you won't be grinding away endlessly, and your effort will be recognized and rewarded.\nIf you've got 10+ years of experience under your belt and you're looking for an environment where you can make an impact, and develop as a technical specialist then this could be the perfect opportunity for you.\nRequirements: \n - 10+ years experience in civil design\n - Bachelor of Civil Engineering (E",
+   "key_lines": [
+    "Our client is a respected national civil engineering consultancy delivering small to medium scale urban development and high-end residential designs.",
+    "If you've got 10+ years of experience under your belt and you're looking for an environment where you can make an impact, and develop as a technical specialist then this could be the perfect opportunity for you.",
+    "Requirements:",
+    "- 10+ years experience in civil design",
+    "- Experience in 12D or Civil 3D, Music, Drains and AutoCAD softwares",
+    "- Experience with Unity water connection process",
+    "- Experience with Australian design standards and SEQ projects",
+    "- Valid Australian Work Rights and Driver's Licence",
+    "If you meet some but not all of criteria, we encourage you to still apply or contact Zurika Bleeker on 0415052418 for a chat."
+   ]
+  },
+  {
+   "id": "95052080",
+   "source": "seek",
+   "title": "Project Engineer",
+   "company": "RSG Recruitment Aust Pty Ltd",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/95052080",
+   "work_type": "Full time",
+   "salary": "Competitive",
+   "listed_at": "2026-10-05T03:16:04.313Z",
+   "expires_at": "2026-11-04T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a project engineer?"
+   ],
+   "summary": "Own the engineering on a new earthworks-heavy civil project. Hands-on, site-based, with a strong team behind you and a vehicle, fuel, e-tag and phone.",
+   "opening": "Project Engineer – Major Civil & Earthworks Project (Confidential)\nLocation: Brisbane \nCompany: Leading Civil Contractor (confidential) \nPackage: Competitive salary + Super + Vehicle + Fuel + E-tag + Mobile\nAbout the RoleOur client is a growing civil contractor with a strong pipeline of recently awarded projects, and they're looking for an experienced Project Engineer to take ownership of engineering and project delivery on a significant civil construction project. This is a hands-on, site-based role for a Project Engineer who understands earthworks, construction methodology and what it takes to keep a project moving.\nKey Responsibilities- Manage engineering and construction activities across your allocated scope.\n- Plan and monitor 3-week look-ahead programs.\n- Coordinate plant, materials, subcontractors and procurement.\n- Monitor productivity, costs and project milestones.\n- Support va",
+   "key_lines": [
+    "About the RoleOur client is a growing civil contractor with a strong pipeline of recently awarded projects, and they're looking for an experienced Project Engineer to take ownership of engineering and project delivery on a significant civil construction project. This is a hands-on, site-based role for a Project Engineer who understands earthworks, construction methodology and what it takes to keep a project moving.",
+    "- Work closely with the client, subcontractors and site team to deliver a successful project.",
+    "Skills & Experience- 4+ years' solid Australian civil construction experience.",
+    "- Strong earthworks experience (essential).",
+    "- Civil Engineering degree or equivalent.",
+    "- Previous experience in a site-based Project Engineer role.",
+    "- Experience managing subcontractors, procurement, programming and project costs.",
+    "- Current Australian driver's licence and clear Police Check.",
+    "- Experience with Jobpac and Expert Estimation highly regarded, but not essential.",
+    "- Strong support from an experienced project team.",
+    "How to ApplyIf you're an experienced Project Engineer who enjoys being close to the action and has the earthworks experience to make a real impact, we'd like to hear from you. Please contact Mark at mark.macdonald@recruitsearchgrow.com or apply online to this Project Engineer job or other Engineering jobs."
+   ]
+  },
+  {
+   "id": "95053124",
+   "source": "seek",
+   "title": "Project Engineer",
+   "company": "RSG Recruitment Aust Pty Ltd",
+   "location": "Cairns, Cairns & Far North QLD",
+   "url": "https://www.seek.com.au/job/95053124",
+   "work_type": "Full time",
+   "salary": "Competitive",
+   "listed_at": "2026-10-05T03:42:05.283Z",
+   "expires_at": "2026-11-04T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a project engineer?"
+   ],
+   "summary": "Step up on a major civil renewable energy project. 2/1 FIFO roster, 30% uplift on top of base, with flights, accommodation and meals all provided.",
+   "opening": "Project Engineer – Civil\n Location: Rural Queensland (FIFO)\n Company: Leading Civil Contractor (confidential)\n Package: 2/1 FIFO roster + 30% uplift on top of base salary + flights, accommodation and meals provided\n About the Role\n Our client is delivering the major civil works package on a large-scale renewable energy project in rural Queensland, and they're looking for an experienced Project Engineer – Civil to join the project team and play a key role in delivering complex civil construction works.\n Reporting to the Project Manager / Senior Project Engineer, you'll be responsible for managing and coordinating civil construction activities, making sure the work is delivered safely, efficiently and in line with contractual requirements.\n Key Responsibilities\n- Manage day-to-day engineering requirements across civil construction activities.\n- Develop and monitor short-term construction p",
+   "key_lines": [
+    "Our client is delivering the major civil works package on a large-scale renewable energy project in rural Queensland, and they're looking for an experienced Project Engineer – Civil to join the project team and play a key role in delivering complex civil construction works.",
+    "Reporting to the Project Manager / Senior Project Engineer, you'll be responsible for managing and coordinating civil construction activities, making sure the work is delivered safely, efficiently and in line with contractual requirements.",
+    "- Manage day-to-day engineering requirements across civil construction activities.",
+    "- Coordinate labour, plant, materials and subcontractor requirements to meet project milestones.",
+    "Skills & Experience",
+    "- Bachelor's degree in Civil Engineering or equivalent.",
+    "- Approximately 3+ years' experience in civil construction.",
+    "- Experience delivering general civil infrastructure projects.",
+    "- Strong understanding of construction methodologies, quality requirements and project controls.",
+    "- Experience with project programming, procurement and subcontractor management.",
+    "How to Apply",
+    "If you're an experienced Project Engineer looking for your next major project and want to play a key role in delivering significant renewable infrastructure in Queensland, we'd like to hear from you. Please contact Mark at mark.macdonald@recruitsearchgrow.com or apply online to this Project Engineer job or other Engineering jobs.",
+    "Aboriginal and Torres Strait Islander people, veterans and individuals from diverse cultural and life experiences are encouraged to apply."
+   ]
+  }
+ ]
+}

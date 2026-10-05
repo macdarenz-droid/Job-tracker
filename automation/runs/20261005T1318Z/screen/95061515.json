@@ -1,0 +1,24 @@
+{
+ "id": "95061515",
+ "percent": 10,
+ "rationale": "Specialist PE (senior mining).",
+ "caution": "",
+ "gaps": [
+  "senior"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": null,
+ "apply_instructions": null,
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Rio Tinto",
+ "title": "Specialist Project Engineer",
+ "location": "Perth WA",
+ "url": "https://www.seek.com.au/job/95061515",
+ "listed_at": "2026-10-05T08:50:42.864Z",
+ "expires_at": "2026-11-04T08:50:42.864Z",
+ "screening_questions": [],
+ "screened_by": "Grok AI"
+}

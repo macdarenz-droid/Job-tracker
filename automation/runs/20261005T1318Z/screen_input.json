@@ -1,0 +1,337 @@
+{
+ "count": 5,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "94969508",
+   "company": "GPA Engineering",
+   "title": "Civil/Structural Drafter – ADL",
+   "run": "20261003T0114Z",
+   "percent": 48,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94961556",
+   "company": "Brunel",
+   "title": "Project Engineer - Civil",
+   "run": "20261003T0114Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95038050",
+   "company": "ABS Civil WA Pty Ltd",
+   "title": "Civil Estimator - Earthworks",
+   "run": "20261003T1118Z",
+   "percent": 38,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94900572",
+   "company": "Aptus",
+   "title": "Civil 3D | Civil Design + Engineering | $110K - $135K +",
+   "run": "20260928T0123Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Advert requires a minimum of 4 years using Civil 3D; Marc's Civil 3D experience is academic coursework only"
+   ]
+  },
+  {
+   "id": "95021621",
+   "company": "Ertech Pty Ltd",
+   "title": "Project Engineer (Civil)",
+   "run": "20261003T0114Z",
+   "percent": 59,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94958791",
+   "company": "ADF Careers",
+   "title": "Part-Time Civil Engineer (Tax-Free Pay)",
+   "run": "20261003T0114Z",
+   "percent": 27,
+   "mandatory_unmet": [
+    "Citizenship or PR may be required"
+   ]
+  },
+  {
+   "id": "94973025",
+   "company": "Optimum Consulting Group",
+   "title": "Civil Engineer",
+   "run": "20261003T0114Z",
+   "percent": 61,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94969016",
+   "company": "QCCS",
+   "title": "Civil Project Engineer",
+   "run": "20261003T0114Z",
+   "percent": 73,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94935564",
+   "company": "Queanbeyan-Palerang Regional Council",
+   "title": "Trainee - Civil Construction",
+   "run": "20260930T1316Z",
+   "percent": 35,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94839731",
+   "company": "City of Gold Coast",
+   "title": "Undergraduate Engineers",
+   "run": "20260928T1031Z",
+   "percent": 43,
+   "mandatory_unmet": [
+    "\"be enrolled in and entering the final year of a relevant undergraduate Bachelor of Engineering degree at a recognised Australian university\" (Marc completed his BSCE in 2019 and is not currently enrolled at university)"
+   ]
+  },
+  {
+   "id": "94995704",
+   "company": "Xeros Piccolo Consulting Engineers",
+   "title": "Structural/Civil Engineer",
+   "run": "20261003T0114Z",
+   "percent": 60,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94961163",
+   "company": "Brunel",
+   "title": "Project Engineer ",
+   "run": "20261003T0114Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94958409",
+   "company": "Right Connect",
+   "title": "Structural Drafter",
+   "run": "20261003T0114Z",
+   "percent": 60,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94950957",
+   "company": "Milo Geotechnical",
+   "title": "Civil Engineer",
+   "run": "20260930T1316Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "A minimum of 5 years' engineering experience associated with the road construction industry"
+   ]
+  },
+  {
+   "id": "94825304",
+   "company": "Vorstrom",
+   "title": "Cadet Draftsperson",
+   "run": "20260930T1819Z",
+   "percent": 42,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95021747",
+   "company": "Contec Recruitment Pty Ltd",
+   "title": "Civil Estimator ",
+   "run": "20261003T0114Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94990020",
+   "company": "Gough Recruitment SA",
+   "title": "Civil Estimator",
+   "run": "20261003T0114Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94956743",
+   "company": "Formstruct",
+   "title": "Estimator  - Civil & NPI",
+   "run": "20261003T0114Z",
+   "percent": 75,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94936909",
+   "company": "City of Joondalup",
+   "title": "Skilled General Hand - Engineering Construction (Civil)",
+   "run": "20260930T1316Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "WA HR Class Driver’s Licence"
+   ]
+  },
+  {
+   "id": "94916158",
+   "company": "WYN&CO Search Recruitment & Payroll",
+   "title": "Civil Project Engineer",
+   "run": "20260928T1031Z",
+   "percent": 50,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94797351",
+   "company": "Hardings Group (Tas) Pty Ltd",
+   "title": "Civil Construction Traineeship",
+   "run": "20260928T1031Z",
+   "percent": 50,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94999649",
+   "company": "CPB Contractors NSW ACT",
+   "title": "Project Engineer Building & Infrastructure",
+   "run": "20261003T0114Z",
+   "percent": 34,
+   "mandatory_unmet": [
+    "Citizenship or PR may be required"
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "id": "95054464",
+   "source": "seek",
+   "title": "Civil Design Engineer",
+   "company": "Talent Web Property",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/95054464",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-05T04:25:11.487Z",
+   "expires_at": "2026-11-04T04:25:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Civil Design Engineer for Australian-owned engineering consultancy for high-end urban and residential project delivery",
+   "opening": "Our client is a respected national civil engineering consultancy delivering small to medium scale urban development and high-end residential designs.\nWith steady and consistent growth across all their offices, they are looking to further expand their SEQ design team, and this role could have you based in either of their Gold Coast, Sunshine Coast or Brisbane offices.\nThe company has a collaborative culture, they're big on work-life balance, competitive salaries, and investing in their people.\nTranslation: you won't be grinding away endlessly, and your effort will be recognized and rewarded.\nIf you've got 10+ years of experience under your belt and you're looking for an environment where you can make an impact, and develop as a technical specialist then this could be the perfect opportunity for you.\nRequirements: \n - 10+ years experience in civil design\n - Bachelor of Civil Engineering (E",
+   "key_lines": [
+    "Our client is a respected national civil engineering consultancy delivering small to medium scale urban development and high-end residential designs.",
+    "If you've got 10+ years of experience under your belt and you're looking for an environment where you can make an impact, and develop as a technical specialist then this could be the perfect opportunity for you.",
+    "Requirements:",
+    "- 10+ years experience in civil design",
+    "- Experience in 12D or Civil 3D, Music, Drains and AutoCAD softwares",
+    "- Experience with Unity water connection process",
+    "- Experience with Australian design standards and SEQ projects",
+    "- Valid Australian Work Rights and Driver's Licence",
+    "If you meet some but not all of criteria, we encourage you to still apply or contact Zurika Bleeker on 0415052418 for a chat."
+   ]
+  },
+  {
+   "id": "95052080",
+   "source": "seek",
+   "title": "Project Engineer",
+   "company": "RSG Recruitment Aust Pty Ltd",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/95052080",
+   "work_type": "Full time",
+   "salary": "Competitive",
+   "listed_at": "2026-10-05T03:16:04.313Z",
+   "expires_at": "2026-11-04T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a project engineer?"
+   ],
+   "summary": "Own the engineering on a new earthworks-heavy civil project. Hands-on, site-based, with a strong team behind you and a vehicle, fuel, e-tag and phone.",
+   "opening": "Project Engineer – Major Civil & Earthworks Project (Confidential)\nLocation: Brisbane \nCompany: Leading Civil Contractor (confidential) \nPackage: Competitive salary + Super + Vehicle + Fuel + E-tag + Mobile\nAbout the RoleOur client is a growing civil contractor with a strong pipeline of recently awarded projects, and they're looking for an experienced Project Engineer to take ownership of engineering and project delivery on a significant civil construction project. This is a hands-on, site-based role for a Project Engineer who understands earthworks, construction methodology and what it takes to keep a project moving.\nKey Responsibilities- Manage engineering and construction activities across your allocated scope.\n- Plan and monitor 3-week look-ahead programs.\n- Coordinate plant, materials, subcontractors and procurement.\n- Monitor productivity, costs and project milestones.\n- Support va",
+   "key_lines": [
+    "About the RoleOur client is a growing civil contractor with a strong pipeline of recently awarded projects, and they're looking for an experienced Project Engineer to take ownership of engineering and project delivery on a significant civil construction project. This is a hands-on, site-based role for a Project Engineer who understands earthworks, construction methodology and what it takes to keep a project moving.",
+    "- Work closely with the client, subcontractors and site team to deliver a successful project.",
+    "Skills & Experience- 4+ years' solid Australian civil construction experience.",
+    "- Strong earthworks experience (essential).",
+    "- Civil Engineering degree or equivalent.",
+    "- Previous experience in a site-based Project Engineer role.",
+    "- Experience managing subcontractors, procurement, programming and project costs.",
+    "- Current Australian driver's licence and clear Police Check.",
+    "- Experience with Jobpac and Expert Estimation highly regarded, but not essential.",
+    "- Strong support from an experienced project team.",
+    "How to ApplyIf you're an experienced Project Engineer who enjoys being close to the action and has the earthworks experience to make a real impact, we'd like to hear from you. Please contact Mark at mark.macdonald@recruitsearchgrow.com or apply online to this Project Engineer job or other Engineering jobs."
+   ]
+  },
+  {
+   "id": "94970495",
+   "source": "seek",
+   "title": "Junior Development Engineer",
+   "company": "Central Coast Council NSW",
+   "location": "Wyong, Gosford & Central Coast NSW",
+   "url": "https://www.seek.com.au/job/94970495",
+   "work_type": "Contract/Temp",
+   "salary": "$80030 - $92727 p.a. + 9 Day Fortnight",
+   "listed_at": "2026-09-30T05:39:57.087Z",
+   "expires_at": "2026-10-30T05:39:55.000Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Kick-start your engineering career, gain hands-on development experience, and enjoy flexible work with a supportive team.",
+   "opening": "About the role \nAs a Junior Development Engineer, under guidance you'll gain practical experience reviewing development applications, assessing engineering designs, and supporting the delivery of quality infrastructure outcomes. Working within a collaborative and experienced team, you'll develop your knowledge of development engineering, planning legislation, and sustainable development practices. This is an exciting opportunity to build a rewarding engineering career while helping to Rewrite the Future of the Central Coast. \nApplicant Profile \nTo be successful in this role, you will have: \n- Currently completing Civil Engineering degree (3rd/4th yr) OR demonstrated solid contemporary experience in Development Engineering. \n- Hold a current Class C or Provisional P1 or Ps Driver's Licence \n- Knowledge related to civil engineering design and land use development and a general knowledge of",
+   "key_lines": [
+    "As a Junior Development Engineer, under guidance you'll gain practical experience reviewing development applications, assessing engineering designs, and supporting the delivery of quality infrastructure outcomes. Working within a collaborative and experienced team, you'll develop your knowledge of development engineering, planning legislation, and sustainable development practices. This is an exciting opportunity to build a rewarding engineering career while helping to Rewrite the Future of the Central Coast.",
+    "- Currently completing Civil Engineering degree (3rd/4th yr) OR demonstrated solid contemporary experience in Development Engineering.",
+    "- Hold a current Class C or Provisional P1 or Ps Driver's Licence",
+    "- Exposure to the Environmental Planning and Assessment Act, the Roads Act and the Local Government Act is required together with an awareness of other related environmental and planning legislations/regulations",
+    "This position will close for applications at midnight on Sunday, 18 October 2026."
+   ]
+  },
+  {
+   "id": "moorabool-asset-systems-officer-ast011",
+   "source": "Moorabool Shire Council careers (ELMO Talent)",
+   "title": "Asset Systems Officer (AST011)",
+   "company": "Moorabool Shire Council",
+   "location": "Ballan VIC",
+   "url": "https://moorabool.elmotalent.com.au/careers/msc/job/view/624",
+   "work_type": null,
+   "salary": "Band 6 $96,109 - $104,321 + 12% super, Permanent Full Time",
+   "listed_at": "2026-09-23",
+   "expires_at": "2026-10-08T23:59:00+11:00",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [
+    "Pitch to Council why you are the best candidate for this role (per advert)",
+    "What interview style works best for you (per advert)"
+   ],
+   "summary": "",
+   "opening": "Asset Systems Officer (AST011)\nPosted: 23/09/2026\nClosing Date: 08/10/2026\nSalary:\n$96,109.00 - $104,321.00\nJob Type:\nPermanent - Full Time\nLocation:\nBallan\nJob Category:\nAsset Management\nMoorabool is not only a great place to work; it’s also a great place to live.\nBand 6 $96,109 to $104,321 + 12% Superannuation\nFull-Time, Ongoing\nBased at Ballan\nJob Description\nAbout Council\nMoorabool Shire Council is a progressive organisation that is experiencing rapid growth and surging development. We offer a perfect blend of picturesque and friendly surrounds where you can enjoy an urban lifestyle in towns like Bacchus Marsh or take advantage of Moorabool’s smaller towns and hamlets, rural open spaces and natural surrounds.\nOur focus is on building a healthy, inclusive and connected community; a liveable and thriving environment and an organisation that listens and adapts to the need of our evolvin",
+   "key_lines": [
+    "As the Asset Systems Officer, you will play a key role in supporting the effective management of Council's infrastructure assets through the administration, maintenance and continuous improvement of Council's asset and maintenance management systems. Reporting to the Coordinator Asset Management, you will ensure the quality, integrity and usability of asset data, coordinate infrastructure inspection programs, develop reporting and analysis tools, and support the integration of asset information across multiple systems. Working closely with internal stakeholders, contractors and service providers, you will contribute to informed decision-making, improved service delivery and the sustainable management of assets across our growing municipality.",
+    "Click here to view the position description or click the link in 'how to apply'",
+    "Send us an email at peopleservices@moorabool.vic.gov.au and we can chat about all the benefits of working at Moorabool. We’d love to chat with you about our culture, development frameworks, progression opportunities, cultural initiatives, reward frameworks and flexibility opportunities.",
+    "You are an organised and solutions-focused professional with experience in asset, maintenance or information management systems. You bring strong data analysis and problem-solving skills, a passion for continuous improvement, and the ability to translate technical information into practical outcomes. With excellent communication skills and a collaborative approach, you can support users, improve system performance, and ensure the integrity of critical asset information. If you're motivated by using data and technology to support smarter asset management and better community outcomes, we'd love to hear from you.",
+    "How To Apply",
+    "Please visit our website to apply online @ https//www.moorabool.vic.gov.au/vacancies",
+    "When you hit the apply button you won’t be required to complete lengthy key selection criteria, instead you will be asked to pitch to Council as to why you are the best candidate for this role.",
+    "You’ll also be asked to tell us what interview style works best for you. We want to make sure your interview experience is one that you feel comfortable with and that you leave your interview knowing the best version of yourself was on offer.",
+    "Applications will close by 11.59pm on Thursday 8 October 2026.",
+    "Residents, customers, service authorities,",
+    "the MMS and required maintenance and identified defects are allocated to the appropriate service unit.",
+    "•   Train new staff and provide refresher training on the MMS and AMS as required, including the use of field",
+    "required.",
+    "•   Facilitate and manage one off project outcomes as required."
+   ]
+  },
+  {
+   "id": "adams-speculative-melbourne-20261006",
+   "source": "Open web (Adams Consulting Engineers careers page)",
+   "title": "Graduate program expression of interest (civil engineering, Melbourne or Geelong)",
+   "company": "Adams Consulting Engineers",
+   "location": "Melbourne VIC (Geelong office also)",
+   "url": "https://adamseng.com.au/career/",
+   "work_type": null,
+   "salary": null,
+   "listed_at": null,
+   "expires_at": null,
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "",
+   "opening": "Careers page, read 6 Oct 2026: 'Are you a Recent Graduate? Join our team at Adams and kick-start your career as a graduate in structural and civil engineering! Our graduate program provides a pathway to ongoing employment while immersing you in the captivating world of engineering. With guidance from our team of highly skilled and experienced engineers, you'll gain hands-on experience in concept design, construction stages, and more.' 'Interested in joining our team? Register your interest. Whether you are seeking a fresh start, or just beginning your career, we would love to hear from you. If you don't see any open positions that match your skills, feel free to forward your resume to us.' No open positions were listed on the page when read. Offices: Melbourne (Level 10, 620 Bourke Street), Geelong (Newtown), Sydney, Ballarat Collective, Brisbane.",
+   "key_lines": [
+    "Careers page, read 6 Oct 2026: 'Are you a Recent Graduate? Join our team at Adams and kick-start your career as a graduate in structural and civil engineering! Our graduate program provides a pathway to ongoing employment while immersing you in the captivating world of engineering. With guidance from our team of highly skilled and experienced engineers, you'll gain hands-on experience in concept design, construction stages, and more.' 'Interested in joining our team? Register your interest. Whether you are seeking a fresh start, or just beginning your career, we would love to hear from you. If you don't see any open positions that match your skills, feel free to forward your resume to us.' No open positions were listed on the page when read. Offices: Melbourne (Level 10, 620 Bourke Street), Geelong (Newtown), Sydney, Ballarat Collective, Brisbane."
+   ]
+  }
+ ]
+}

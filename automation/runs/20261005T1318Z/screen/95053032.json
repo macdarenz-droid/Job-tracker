@@ -1,0 +1,29 @@
+{
+ "id": "95053032",
+ "percent": 5,
+ "rationale": "Manufacturing engineer, aerospace.",
+ "caution": "",
+ "gaps": [
+  "not civil"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": null,
+ "apply_instructions": null,
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Innovaero",
+ "title": "Manufacturing Engineer",
+ "location": "Kardinya, Perth WA",
+ "url": "https://www.seek.com.au/job/95053032",
+ "listed_at": "2026-10-05T03:40:01.622Z",
+ "expires_at": "2026-11-04T03:40:00.000Z",
+ "screening_questions": [
+  "What is your current working rights status in Australia?",
+  "Are you able to obtain a National Police Check and other related security clearances required for this role?",
+  "Do you hold a Bachelor\u2019s degree in Mechanical, Manufacturing, Mechatronics, Aerospace, or a related engineering discipline?",
+  "Which of the following environments best describes your manufacturing experience? "
+ ],
+ "screened_by": "Grok AI"
+}

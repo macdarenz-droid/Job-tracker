@@ -1,0 +1,33 @@
+{
+ "id": "95048982",
+ "percent": 25,
+ "rationale": "Residential drafting, ArchiCAD essential, 2 years residential drafting, Cert IV building design.",
+ "caution": "",
+ "gaps": [
+  "ArchiCAD",
+  "residential drafting experience"
+ ],
+ "mandatory_unmet": [
+  "ArchiCAD essential",
+  "2 years residential drafting"
+ ],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": null,
+ "apply_instructions": null,
+ "open": true,
+ "employer_is_agency": false,
+ "company": "First Homebuilders",
+ "title": "Draftsperson",
+ "location": "Balcatta, Perth WA",
+ "url": "https://www.seek.com.au/job/95048982",
+ "listed_at": "2026-10-05T01:44:10.816Z",
+ "expires_at": "2026-11-04T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "How many years of residential design experience do you have?",
+  "Have you completed a qualification in building design / building design drafting?",
+  "Do you have experience working on residential construction projects?"
+ ],
+ "screened_by": "Grok AI"
+}

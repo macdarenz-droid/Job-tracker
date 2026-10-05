@@ -1,0 +1,30 @@
+{
+ "id": "95053124",
+ "percent": 35,
+ "rationale": "Experienced PE civil renewable FIFO; 3+ years civil construction.",
+ "caution": "",
+ "gaps": [
+  "3+ years civil construction",
+  "programming/procurement"
+ ],
+ "mandatory_unmet": [
+  "Approximately 3+ years civil construction"
+ ],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": null,
+ "apply_instructions": null,
+ "open": true,
+ "employer_is_agency": true,
+ "company": "RSG Recruitment Aust Pty Ltd",
+ "title": "Project Engineer",
+ "location": "Cairns, Cairns & Far North QLD",
+ "url": "https://www.seek.com.au/job/95053124",
+ "listed_at": "2026-10-05T03:42:05.283Z",
+ "expires_at": "2026-11-04T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "How many years' experience do you have as a project engineer?"
+ ],
+ "screened_by": "Grok AI"
+}

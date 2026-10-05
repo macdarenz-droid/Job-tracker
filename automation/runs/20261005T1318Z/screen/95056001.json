@@ -1,0 +1,30 @@
+{
+ "id": "95056001",
+ "percent": 20,
+ "rationale": "Controls/PLC engineering; qualification in electronics/electrical; not civil.",
+ "caution": "",
+ "gaps": [
+  "PLC/Siemens",
+  "electrical qualification"
+ ],
+ "mandatory_unmet": [
+  "electrical/mechatronics qualification"
+ ],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": null,
+ "apply_instructions": null,
+ "open": true,
+ "employer_is_agency": false,
+ "company": "CellTec Pty Ltd",
+ "title": "Graduate/Junior Controls Engineer",
+ "location": "Truganina, Melbourne VIC",
+ "url": "https://www.seek.com.au/job/95056001",
+ "listed_at": "2026-10-05T05:41:51.884Z",
+ "expires_at": "2026-11-04T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "How much notice are you required to give your current employer?"
+ ],
+ "screened_by": "Grok AI"
+}

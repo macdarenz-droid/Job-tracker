@@ -1,0 +1,30 @@
+{
+ "id": "95062068",
+ "percent": 20,
+ "rationale": "Structural steel estimator, experienced.",
+ "caution": "",
+ "gaps": [
+  "steel estimating experience"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": null,
+ "apply_instructions": null,
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Diligent Group",
+ "title": "STRUCTURAL STEEL ESTIMATOR",
+ "location": "Brisbane QLD",
+ "url": "https://www.seek.com.au/job/95062068",
+ "listed_at": "2026-10-05T09:09:17.389Z",
+ "expires_at": "2026-11-04T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "What's your expected annual base salary?",
+  "How many years' experience do you have as a Structural Steel Estimator?",
+  "How much notice are you required to give your current employer?",
+  "Do you have Steel Fabrication experience?"
+ ],
+ "screened_by": "Grok AI"
+}

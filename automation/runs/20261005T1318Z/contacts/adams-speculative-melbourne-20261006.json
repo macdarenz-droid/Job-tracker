@@ -1,0 +1,27 @@
+{
+ "company_url": "https://adamseng.com.au/",
+ "careers_url": "https://adamseng.com.au/career/",
+ "recipient_name": "Chris White",
+ "recipient_role": "Associate Director, Civil Engineering",
+ "recipient_email": "",
+ "contact_evidence_url": "https://adamseng.com.au/our-team/",
+ "evidence_quote": "Chris White, Associate Director - Civil Engineering. Chris oversees the civil team where his strengths of managing complex stakeholder and contractor requirements are of great value.",
+ "contact_confidence": "none",
+ "named_people": [
+  {
+   "name": "Chris White",
+   "role": "Associate Director, Civil Engineering",
+   "email": "",
+   "evidence_url": "https://adamseng.com.au/our-team/"
+  },
+  {
+   "name": "Gavin Donohue",
+   "role": "Director",
+   "email": "",
+   "evidence_url": "https://adamseng.com.au/career/"
+  }
+ ],
+ "employer_line": "Adams is employee owned, and its graduate program gives recent civil and structural graduates a pathway to ongoing employment with hands-on experience from concept design through construction stages.",
+ "notes": "Team page names the civil Associate Director without a personal email. The only published email is admin@adamseng.com.au on the contact page, and the careers page does not say it accepts applications, so the careers form is the route.",
+ "checked_at": "2026-10-05T13:40:00Z"
+}

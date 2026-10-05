@@ -1,0 +1,24 @@
+{
+ "id": "95050531",
+ "percent": 25,
+ "rationale": "Non-civil project coordination (Perth).",
+ "caution": "",
+ "gaps": [
+  "industry mismatch"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": null,
+ "apply_instructions": null,
+ "open": true,
+ "employer_is_agency": false,
+ "company": "ISGroup",
+ "title": "Project Coordinator",
+ "location": "Perth WA",
+ "url": "https://www.seek.com.au/job/95050531",
+ "listed_at": "2026-10-05T02:31:41.488Z",
+ "expires_at": "2026-11-04T02:31:40.771Z",
+ "screening_questions": [],
+ "screened_by": "Grok AI"
+}

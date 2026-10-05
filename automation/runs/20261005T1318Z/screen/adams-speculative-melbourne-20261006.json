@@ -1,0 +1,27 @@
+{
+ "id": "adams-speculative-melbourne-20261006",
+ "percent": 72,
+ "rationale": "Adams invites recent graduates in civil and structural engineering to register interest in its graduate program, which matches Marc's February 2026 Advanced Diploma of Civil Construction Design and his BSCE.\nCivil design overlap: earthworks, road, pavement and stormwater design and documentation in Civil 3D and AutoCAD.\nMelbourne CBD and Geelong offices are both commutable or close to Melton.",
+ "caution": "No advertised vacancy; this is an expression of interest through the careers form. Graduate programs often expect a recent Australian bachelor degree; Marc's BSCE is from 2019 in the Philippines and his Australian qualification is an Advanced Diploma.",
+ "gaps": [
+  "No Australian consulting experience",
+  "Software experience is academic",
+  "No open position listed"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "EMPLOYER_FORM",
+ "apply_email": null,
+ "apply_instructions": "Register your interest on https://adamseng.com.au/career/#apply_now (careers form). Contact page lists admin@adamseng.com.au as the office inbox, but the careers page does not name it as the application address, so it is not used for email.",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Adams Consulting Engineers",
+ "title": "Graduate program expression of interest (civil engineering, Melbourne or Geelong)",
+ "location": "Melbourne VIC (Geelong office also)",
+ "url": "https://adamseng.com.au/career/",
+ "listed_at": null,
+ "expires_at": null,
+ "screening_questions": [],
+ "company_work_verified": true,
+ "screened_by": "Grok AI"
+}

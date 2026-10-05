@@ -1,0 +1,24 @@
+{
+ "id": "95053498",
+ "percent": 15,
+ "rationale": "Electrical commissioning engineer.",
+ "caution": "",
+ "gaps": [
+  "electrical"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": null,
+ "apply_instructions": null,
+ "open": true,
+ "employer_is_agency": false,
+ "company": "AusNet Services",
+ "title": "Commissioning Engineer",
+ "location": "Southbank, Melbourne VIC",
+ "url": "https://www.seek.com.au/job/95053498",
+ "listed_at": "2026-10-05T03:53:55.328Z",
+ "expires_at": "2026-11-04T12:59:59.999Z",
+ "screening_questions": [],
+ "screened_by": "Grok AI"
+}

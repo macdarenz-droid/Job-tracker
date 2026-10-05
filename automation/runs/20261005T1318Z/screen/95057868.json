@@ -1,0 +1,27 @@
+{
+ "id": "95057868",
+ "percent": 40,
+ "rationale": "Track Engineer; EA-recognised degree and track experience; citizenship/PR required.",
+ "caution": "",
+ "gaps": [
+  "track infrastructure experience",
+  "EA recognised degree"
+ ],
+ "mandatory_unmet": [
+  "Australian citizen or PR required"
+ ],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": null,
+ "apply_instructions": null,
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Public Transport Authority",
+ "title": "Track Engineer",
+ "location": "East Perth, Perth WA",
+ "url": "https://www.seek.com.au/job/95057868",
+ "listed_at": "2026-10-05T06:44:02.242Z",
+ "expires_at": "2026-10-19T12:59:59.000Z",
+ "screening_questions": [],
+ "screened_by": "Grok AI"
+}

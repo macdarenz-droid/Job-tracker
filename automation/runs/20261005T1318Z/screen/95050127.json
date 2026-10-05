@@ -1,0 +1,28 @@
+{
+ "id": "95050127",
+ "percent": 5,
+ "rationale": "Spare parts trainee; not civil.",
+ "caution": "",
+ "gaps": [
+  "not civil"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": null,
+ "apply_instructions": null,
+ "open": true,
+ "employer_is_agency": false,
+ "company": "FSRequip Pty Ltd",
+ "title": "Trainee Spare Parts",
+ "location": "Warrnambool, South West Coast VIC",
+ "url": "https://www.seek.com.au/job/95050127",
+ "listed_at": "2026-10-05T02:21:31.576Z",
+ "expires_at": "2026-11-04T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "How much notice are you required to give your current employer?",
+  "Do you have a current Australian driver's licence?"
+ ],
+ "screened_by": "Grok AI"
+}

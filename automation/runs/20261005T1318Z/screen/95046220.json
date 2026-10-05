@@ -1,0 +1,31 @@
+{
+ "id": "95046220",
+ "percent": 0,
+ "rationale": "Pest control; not civil.",
+ "caution": "",
+ "gaps": [
+  "not civil"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": null,
+ "apply_instructions": null,
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Nexgen Pest Control",
+ "title": "Pest Control Technician/ Trainee",
+ "location": "Bendigo, Bendigo, Goldfields & Macedon Ranges VIC",
+ "url": "https://www.seek.com.au/job/95046220",
+ "listed_at": "2026-10-04T22:19:18.359Z",
+ "expires_at": "2026-11-04T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "How many years' experience do you have as a Pest Control Technician?",
+  "Do you have a current Australian driver's licence?",
+  "Do you have a current Police Check (National Police Certificate) for employment?",
+  "Do you have a current Working With Children (WWC) Check?",
+  "Are you willing to undergo a pre-employment medical check?"
+ ],
+ "screened_by": "Grok AI"
+}

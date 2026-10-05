@@ -1,0 +1,98 @@
+[
+ {
+  "id": "9e530119-0fe2-41fb-8a21-d3f91f02a489",
+  "key": "manual:9e530119-0fe2-41fb-8a21-d3f91f02a489",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261005T1318Z",
+  "created_at": "2026-10-05T13:27:41.000Z",
+  "updated_at": "2026-10-05T13:27:41.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "b11e4e47-e483-44f3-af7c-8cdadb840db6",
+    "path": "/api/documents/b11e4e47-e483-44f3-af7c-8cdadb840db6",
+    "filename": "Marc_Masarate_Adams_Consulting_Engineers_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-05T13:27:43.865Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "a3f68530-94fc-47c3-b647-dec98e861dab",
+    "path": "/api/documents/a3f68530-94fc-47c3-b647-dec98e861dab",
+    "filename": "Marc_Masarate_Adams_Consulting_Engineers_Graduate_program_expression_of_interest__Cover_Letter.pdf",
+    "sha256": "37d4efbc4f08b5b4b2819340e21fc2f45a27d4416e90f6cc080260d21c86862e",
+    "size_bytes": 47473,
+    "kind": "cover",
+    "uploaded_at": "2026-10-05T13:27:42.632Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Adams Consulting Engineers",
+  "role": "Graduate program expression of interest (civil engineering)",
+  "location": "Melbourne VIC (Geelong office also)",
+  "job_url": "https://adamseng.com.au/career/",
+  "company_url": "https://adamseng.com.au/",
+  "status": "READY_JEREMIE_EMPLOYER_FORM",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "application_route": "EMPLOYER_FORM",
+  "application_method": "Company website",
+  "recipient_name": "Chris White",
+  "recipient_role": "Associate Director, Civil Engineering",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://adamseng.com.au/our-team/",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Graduate program expression of interest: civil engineering, Marc Masarate",
+  "email_body": "Dear Mr White,\n\nI am registering my interest in the Adams graduate program through your careers page and wanted your civil team to see it as well. This is a speculative enquiry, as no position is advertised right now.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. I also hold a Bachelor of Science in Civil Engineering (Philippines, 2019), and from 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge.\n\nI am Melton based, hold a White Card, an Australian driver's licence and own transport, and have full working rights until December 2027 on a 485 visa. I am available for office, site and regional work.\n\nYour graduate program pairs graduates with experienced engineers from concept design through construction stages, which is the kind of start I want. My drafting experience is from study rather than a paid role.\n\nIf a graduate or junior civil position opens, I would value a short conversation. I've attached my resume and cover letter.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": "Adams invites recent graduates in civil and structural engineering to register interest in its graduate program, which matches Marc's February 2026 Advanced Diploma of Civil Construction Design and his BSCE.\nCivil design overlap: earthworks, road, pavement and stormwater design and documentation in Civil 3D and AutoCAD.\nMelbourne CBD and Geelong offices are both commutable or close to Melton.",
+  "gaps": [
+   "No Australian consulting experience",
+   "Software experience is academic",
+   "No open position listed"
+  ],
+  "match_score": {
+   "percent": 72,
+   "method": "resume-fit-v2",
+   "rationale": "Adams invites recent graduates in civil and structural engineering to register interest in its graduate program, which matches Marc's February 2026 Advanced Diploma of Civil Construction Design and his BSCE.\nCivil design overlap: earthworks, road, pavement and stormwater design and documentation in Civil 3D and AutoCAD.\nMelbourne CBD and Geelong offices are both commutable or close to Melton.",
+   "caution": "No advertised vacancy; this is an expression of interest through the careers form. Graduate programs often expect a recent Australian bachelor degree; Marc's BSCE is from 2019 in the Philippines and his Australian qualification is an Advanced Diploma."
+  },
+  "advert": {
+   "source": "Open web (Adams Consulting Engineers careers page)",
+   "listed_at": "",
+   "expires_at": "",
+   "verified_at": "2026-10-05T13:27:41.000Z",
+   "apply_instructions": "Register your interest on https://adamseng.com.au/career/#apply_now (careers form). Contact page lists admin@adamseng.com.au as the office inbox, but the careers page does not name it as the application address, so it is not used for email.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Open https://adamseng.com.au/career/#apply_now and the Register your interest form.",
+   "Upload the resume and this cover letter prepared this run.",
+   "Search Gmail for Adams before submitting (none found on 6 Oct 2026).",
+   "Mark the tracker Applied only after Marc or Jeremie submits the form.",
+   "Do not email admin@adamseng.com.au; the careers page does not name it for applications."
+  ],
+  "notes": "SPECULATIVE ENQUIRY, no advertised vacancy. Employers rotation open-web find (Geelong civil consultancy search led to the Adams team and careers pages). Careers page invites recent civil graduates and resumes even without an open position; no open position was listed when read on 6 Oct 2026. Letter addressed to the civil Associate Director named on the team page; no personal email published, so form route only. Gmail checked for Adams: no prior contact. Prepared for Jeremie or Marc.\nTeam page names the civil Associate Director without a personal email. The only published email is admin@adamseng.com.au on the contact page, and the careers page does not say it accepts applications, so the careers form is the route.\nHOW GROK AI FOUND THIS\nFound on Open web (Adams Consulting Engineers careers page) (listed date not shown). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Chris White (Associate Director, Civil Engineering); Gavin Donohue (Director). Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate program expression of interest (civil engineering) role on SEEK.\n• They may ask about: No Australian consulting experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Software experience is academic → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No open position listed → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on Open web (Adams Consulting Engineers careers page) (listed date not shown). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Chris White (Associate Director, Civil Engineering); Gavin Donohue (Director). Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate program expression of interest (civil engineering) role on SEEK.",
+   "They may ask about: No Australian consulting experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Software experience is academic → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No open position listed → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-05T13:27:41.000Z",
+  "duplicate_key": "adamsconsultingengineers|adamseng.com.au/career"
+ }
+]

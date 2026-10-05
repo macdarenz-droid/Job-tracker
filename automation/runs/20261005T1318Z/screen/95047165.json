@@ -1,0 +1,27 @@
+{
+ "id": "95047165",
+ "percent": 30,
+ "rationale": "Manufacturing drafting in SolidWorks for doors/frames; not civil.",
+ "caution": "",
+ "gaps": [
+  "SolidWorks",
+  "manufactured building products drafting"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": null,
+ "apply_instructions": null,
+ "open": true,
+ "employer_is_agency": true,
+ "company": "GRANITE GROUP",
+ "title": "Draftsperson",
+ "location": "Melbourne VIC",
+ "url": "https://www.seek.com.au/job/95047165",
+ "listed_at": "2026-10-05T00:10:37.782Z",
+ "expires_at": "2026-11-04T00:10:00.000Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?"
+ ],
+ "screened_by": "Grok AI"
+}

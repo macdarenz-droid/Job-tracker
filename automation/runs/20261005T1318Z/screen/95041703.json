@@ -1,0 +1,33 @@
+{
+ "id": "95041703",
+ "percent": 5,
+ "rationale": "Concreter trainee labour role; not the target.",
+ "caution": "",
+ "gaps": [
+  "not target"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": null,
+ "apply_instructions": null,
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Concrete by joe",
+ "title": "Concreter and trainee",
+ "location": "Biggera Waters, Gold Coast QLD",
+ "url": "https://www.seek.com.au/job/95041703",
+ "listed_at": "2026-10-03T21:26:31.552Z",
+ "expires_at": "2026-11-03T12:59:59.999Z",
+ "screening_questions": [
+  "How many years' experience do you have as a Labourer?",
+  "Which of the following statements best describes your right to work in Australia?",
+  "How many years' experience do you have as a concreter?",
+  "How many years' experience do you have in the construction industry?",
+  "What's your expected annual base salary?",
+  "Do you have a heavy vehicle driver's licence?",
+  "Do you have a current Australian driver's licence?",
+  "Do you own or have regular access to a car?"
+ ],
+ "screened_by": "Grok AI"
+}

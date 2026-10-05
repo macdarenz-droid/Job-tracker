@@ -1,0 +1,24 @@
+{
+ "id": "95048741",
+ "percent": 10,
+ "rationale": "Sheet metal drafting; not civil.",
+ "caution": "",
+ "gaps": [
+  "sheet metal"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": null,
+ "apply_instructions": null,
+ "open": true,
+ "employer_is_agency": true,
+ "company": "Verve Recruitment",
+ "title": "Sheet Metal Draftsperson - Blacktown",
+ "location": "Blacktown, Sydney NSW",
+ "url": "https://www.seek.com.au/job/95048741",
+ "listed_at": "2026-10-05T01:35:03.087Z",
+ "expires_at": "2026-11-04T12:59:59.999Z",
+ "screening_questions": [],
+ "screened_by": "Grok AI"
+}

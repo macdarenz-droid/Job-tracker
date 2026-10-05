@@ -1,0 +1,28 @@
+{
+ "id": "moorabool-asset-systems-officer-ast011",
+ "percent": 52,
+ "rationale": "Band 6 asset systems role administering council asset and maintenance management systems, asset data quality and inspection programs.\nAdvert asks for experience in asset, maintenance or information management systems; Marc has none in Australia (his systems work is Microsoft software support at Concentrix).\nBallan is close to Melton, but the role is data and systems focused rather than civil design or site work.",
+ "caution": "Closes 8 Oct 2026.",
+ "gaps": [
+  "asset or maintenance management systems experience",
+  "data analysis and reporting tools"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "EMPLOYER_PORTAL",
+ "apply_email": null,
+ "apply_instructions": "Apply online via the ELMO 'Apply' button on the advert (moorabool.vic.gov.au/vacancies; ELMO account sign-in required). No lengthy key selection criteria; applicants are asked to pitch why they are the best candidate and state preferred interview style. Applications close 11.59pm Thursday 8 October 2026. No agency applications. Only those with the right to work in Australia will be considered. Role enquiries: Natalie Coakley (Coordinator Asset Management) 03 5366 1346; application difficulties: Lisa Grey 5366 1272.",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Moorabool Shire Council",
+ "title": "Asset Systems Officer (AST011)",
+ "location": "Ballan VIC",
+ "url": "https://moorabool.elmotalent.com.au/careers/msc/job/view/624",
+ "listed_at": "2026-09-23",
+ "expires_at": "2026-10-08T23:59:00+11:00",
+ "screening_questions": [
+  "Pitch to Council why you are the best candidate for this role (per advert)",
+  "What interview style works best for you (per advert)"
+ ],
+ "screened_by": "Grok AI"
+}

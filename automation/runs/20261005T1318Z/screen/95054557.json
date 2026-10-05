@@ -1,0 +1,30 @@
+{
+ "id": "95054557",
+ "percent": 20,
+ "rationale": "Fabrication project coordinator.",
+ "caution": "",
+ "gaps": [
+  "fabrication"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": null,
+ "apply_instructions": null,
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Combined Metal Industries",
+ "title": "Project Coordinator - Fabrication Projects - Full Time",
+ "location": "Landsdale, Perth WA",
+ "url": "https://www.seek.com.au/job/95054557",
+ "listed_at": "2026-10-05T04:27:47.851Z",
+ "expires_at": "2026-11-04T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "How many years' experience do you have as a project coordinator?",
+  "Do you own or have regular access to a car?",
+  "What's your expected annual base salary?",
+  "How many years of experience do you have in the Steel Fabrication Industry?"
+ ],
+ "screened_by": "Grok AI"
+}

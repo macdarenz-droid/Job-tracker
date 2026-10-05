@@ -1,0 +1,24 @@
+{
+ "id": "95039531",
+ "percent": 10,
+ "rationale": "Mine planning engineer, experienced.",
+ "caution": "",
+ "gaps": [
+  "mining"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": null,
+ "apply_instructions": null,
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Harmony Australasia",
+ "title": "Medium Term Mine Planning Engineer",
+ "location": "Sydney NSW",
+ "url": "https://www.seek.com.au/job/95039531",
+ "listed_at": "2026-10-03T07:58:56.138Z",
+ "expires_at": "2026-11-02T12:59:59.999Z",
+ "screening_questions": [],
+ "screened_by": "Grok AI"
+}

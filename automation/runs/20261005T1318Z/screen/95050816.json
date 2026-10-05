@@ -1,0 +1,31 @@
+{
+ "id": "95050816",
+ "percent": 20,
+ "rationale": "Oil and gas project coordinator, experienced.",
+ "caution": "",
+ "gaps": [
+  "industry mismatch"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": null,
+ "apply_instructions": null,
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Legeneering (Aust) Pty Ltd",
+ "title": "Project Coordinator",
+ "location": "Perth WA",
+ "url": "https://www.seek.com.au/job/95050816",
+ "listed_at": "2026-10-05T02:40:40.148Z",
+ "expires_at": "2026-11-04T12:59:59.999Z",
+ "screening_questions": [
+  "How many years' experience do you have as a project coordinator?",
+  "Which of the following statements best describes your right to work in Australia?",
+  "Have you completed a qualification in project management?",
+  "How many years' experience do you have with project planning and scheduling?",
+  "Do you have experience in the offshore oil & gas industry?",
+  "What's your expected annual base salary?"
+ ],
+ "screened_by": "Grok AI"
+}
