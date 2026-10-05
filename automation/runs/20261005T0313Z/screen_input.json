@@ -1,0 +1,504 @@
+{
+ "count": 5,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "95038050",
+   "company": "ABS Civil WA Pty Ltd",
+   "title": "Civil Estimator - Earthworks",
+   "run": "20261003T1118Z",
+   "percent": 38,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95021621",
+   "company": "Ertech Pty Ltd",
+   "title": "Project Engineer (Civil)",
+   "run": "20261003T0114Z",
+   "percent": 59,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95021747",
+   "company": "Contec Recruitment Pty Ltd",
+   "title": "Civil Estimator ",
+   "run": "20261003T0114Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95036163",
+   "company": "Totem Civil Services group PTY LTD",
+   "title": "Project Engineer/ Site Engineer",
+   "run": "20261003T0114Z",
+   "percent": 59,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95021786",
+   "company": "SCP Consulting Pty Ltd",
+   "title": "Draftsperson",
+   "run": "20261003T0114Z",
+   "percent": 42,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95009307",
+   "company": "The Lorian Group",
+   "title": "Construction Cadet / Junior PM",
+   "run": "20261003T0114Z",
+   "percent": 71,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95042297",
+   "company": "Scotford Fennessy Recruitment",
+   "title": "Civil Engineer",
+   "run": "20261004T1217Z",
+   "percent": 52,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95037323",
+   "company": "Scotford Fennessy Recruitment",
+   "title": "Senoir Structural Drafter - Gold Coast",
+   "run": "20261003T1118Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "10+ years Revit structural drafting experience"
+   ]
+  },
+  {
+   "id": "95028317",
+   "company": "In2work Pty Ltd",
+   "title": "NEW! Project Engineers FIFO and East Coast DTMR Projects!",
+   "run": "20261003T0114Z",
+   "percent": 69,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95020068",
+   "company": "AMT CIVILS",
+   "title": "Project Engineer – Bulk Earthworks | 2:1 Roster | Immediate Start",
+   "run": "20261003T0114Z",
+   "percent": 69,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95016703",
+   "company": "CGC Recruitment",
+   "title": "Site Engineer - Blue Mountains",
+   "run": "20261003T0114Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95026009",
+   "company": "THE BMD GROUP",
+   "title": "Design Engineer",
+   "run": "20261003T1612Z",
+   "percent": 38,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95025202",
+   "company": "Civil Road & Rail SX5",
+   "title": "Project Engineer",
+   "run": "20261003T1612Z",
+   "percent": 42,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95024574",
+   "company": "Civil Road & Rail SX5",
+   "title": "Project Engineer",
+   "run": "20261003T1612Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95023563",
+   "company": "Contec Recruitment Pty Ltd",
+   "title": "Project Engineer - FIFO ",
+   "run": "20261003T1612Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Minimum 4 years delivering civil infrastructure, main roads or similar for a civil contractor"
+   ]
+  },
+  {
+   "id": "95022688",
+   "company": "Serco Asia Pacific",
+   "title": "Undergraduate Engineer",
+   "run": "20261003T1612Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "Australian citizenship required for Baseline Defence Security Clearance"
+   ]
+  },
+  {
+   "id": "95016530",
+   "company": "Gamuda Engineering Pty Ltd",
+   "title": "BIM Engineer",
+   "run": "20261003T1612Z",
+   "percent": 34,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95012996",
+   "company": "Sarens (Australia) Pty Ltd",
+   "title": "Engineer: Technical Solutions",
+   "run": "20261003T1612Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "3+ years experience in heavy lift, cranage, rigging, transport or temporary works engineering"
+   ]
+  },
+  {
+   "id": "95009439",
+   "company": "TWEED SHIRE COUNCIL",
+   "title": "Engineer - Water and Wastewater Design",
+   "run": "20261003T1612Z",
+   "percent": 48,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95008378",
+   "company": "Downer EDI Limited",
+   "title": "Project Engineer",
+   "run": "20261003T1612Z",
+   "percent": 36,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95036821",
+   "company": "Green Start Consulting",
+   "title": "Draftsperson / Allrounder",
+   "run": "20261004T1717Z",
+   "percent": 42,
+   "mandatory_unmet": [
+    "Minimum 1 year building design / residential drafting experience",
+    "Role explicitly not suitable for engineers or engineer draftsperson"
+   ]
+  },
+  {
+   "id": "95028266",
+   "company": "WSP",
+   "title": "Project Engineer",
+   "run": "20261004T1717Z",
+   "percent": 38,
+   "mandatory_unmet": [
+    "Experience working on mining or heavy industry projects as Project Engineer"
+   ]
+  },
+  {
+   "id": "95026425",
+   "company": "Lake Macquarie City Council",
+   "title": "Concreting Trainee",
+   "run": "20261004T1717Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Certificate III Concreting traineeship pathway"
+   ]
+  },
+  {
+   "id": "95020303",
+   "company": "UGL – Projects-Major Projects",
+   "title": "OHLE Project Engineer",
+   "run": "20261004T1717Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Minimum 4 years OHLE project engineering experience"
+   ]
+  },
+  {
+   "id": "95018947",
+   "company": "Kimberley Land Council",
+   "title": "Regional Infrastructure Project Coordinator ",
+   "run": "20261004T1717Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Practical project management experience coordinating remote infrastructure"
+   ]
+  },
+  {
+   "id": "95015978",
+   "company": "Austral International",
+   "title": "Draftsperson",
+   "run": "20261004T1717Z",
+   "percent": 45,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95016316",
+   "company": "Saltair",
+   "title": "Designer/Draftsperson",
+   "run": "20261004T1717Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Minimum 3 years Revit professional experience",
+    "Housing experience essential"
+   ]
+  },
+  {
+   "id": "95015675",
+   "company": "InfraBuild",
+   "title": "Reinforcing Design Engineer",
+   "run": "20261004T1717Z",
+   "percent": 32,
+   "mandatory_unmet": [
+    "Minimum 5 years' experience in reinforced and post-tension concrete design"
+   ]
+  },
+  {
+   "id": "95015027",
+   "company": "Sourcey",
+   "title": "Structural Design Engineer Sydney",
+   "run": "20261004T1717Z",
+   "percent": 34,
+   "mandatory_unmet": [
+    "Structural engineering experience for buildings"
+   ]
+  },
+  {
+   "id": "95012380",
+   "company": "Solutions+",
+   "title": "Project Coordinator",
+   "run": "20261004T1717Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95012208",
+   "company": "Solutions+",
+   "title": "Project Coordinator",
+   "run": "20261004T1717Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95010184",
+   "company": "JCU: James Cook University, Australia",
+   "title": "Research Engineer, Cyclone Testing Station",
+   "run": "20261004T1717Z",
+   "percent": 36,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95010108",
+   "company": "TWEED SHIRE COUNCIL",
+   "title": "Engineer - Projects",
+   "run": "20261004T1717Z",
+   "percent": 55,
+   "mandatory_unmet": [
+    "Experience in civil engineering activities including design, construction, operation and maintenance of infrastructure assets"
+   ]
+  },
+  {
+   "id": "95041618",
+   "company": "vitae group pty ltd",
+   "title": "Estimator - Prefab Frame & Truss",
+   "run": "20261004T1717Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95028674",
+   "company": "Ampersand",
+   "title": "Project Engineer - Industrial Machinery",
+   "run": "20261004T1717Z",
+   "percent": 38,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95002741",
+   "company": "INGRITY Pty Ltd.",
+   "title": "INGRITY 2027 Graduate Program – Digital, Data & AI.",
+   "run": "20261004T1717Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Graduate in Data Science, Analytics, Statistics, Computer Science"
+   ]
+  },
+  {
+   "id": "95027590",
+   "company": "Ertech Pty Ltd",
+   "title": "Project Engineer - Quality",
+   "run": "20261004T1717Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Minimum 5+ years Quality Engineer experience"
+   ]
+  },
+  {
+   "id": "95027483",
+   "company": "One Call Handyman",
+   "title": "Estimator",
+   "run": "20261004T1717Z",
+   "percent": 25,
+   "mandatory_unmet": []
+  }
+ ],
+ "candidates": [
+  {
+   "id": "95048696",
+   "source": "seek",
+   "title": "Civil Engineering Draftsperson",
+   "company": "PlanCon Build",
+   "location": "Lane Cove West, Sydney NSW",
+   "url": "https://www.seek.com.au/job/95048696",
+   "work_type": "Full time",
+   "salary": "$80,000 – $95,000 per year",
+   "listed_at": "2026-10-05T01:35:30.687Z",
+   "expires_at": "2026-11-04T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a civil drafter?",
+    "How much notice are you required to give your current employer?",
+    "Do you have Reinforced Concrete Design experience?",
+    "Have you completed a qualification in civil engineering?",
+    "Have you completed a qualification in building design / building design drafting?"
+   ],
+   "summary": "Civil Engineering Draftsperson ",
+   "opening": "- preparing sketches, charts, tabulations, plans and designs for civil engineering works such as drainage, water supply, sewerage reticulation systems, roads, airports, dams, bridges and other structures\n- performing and directing fieldwork and laboratory testing\n- interpreting work assignment instructions, applying appropriate procedures and selecting equipment\n- collecting and analysing data, and carrying out computations\n- estimating material costs and ensuring finished works are within specifications, regulations and contract provisions\n- inspecting civil engineering works, and organising and supervising maintenance and repair work\n- conducting field and laboratory tests of construction materials and soils, and collecting data for traffic surveys\n-Full time job (38h/w)\n-Relevant qualifications; - at least AQF Associate Degree, Advanced Diploma or Diploma of Civil Engineering or Engin",
+   "key_lines": [
+    "- interpreting work assignment instructions, applying appropriate procedures and selecting equipment",
+    "-Relevant qualifications; - at least AQF Associate Degree, Advanced Diploma or Diploma of Civil Engineering or Engineering Drafting - Civil Design or higher.",
+    "-Relevant experience – at least one year in the industry."
+   ]
+  },
+  {
+   "id": "95042927",
+   "source": "seek",
+   "title": "Civil Engineering Technician",
+   "company": "Strand Excavations",
+   "location": "Perth WA",
+   "url": "https://www.seek.com.au/job/95042927",
+   "work_type": "Full time",
+   "salary": "$85,000 – $95,000 per year",
+   "listed_at": "2026-10-04T05:43:03.744Z",
+   "expires_at": "2026-11-04T06:54:49.083Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a Civil Engineering Technician?",
+    "How much notice are you required to give your current employer?",
+    "How many years of experience do you have in the Civil Engineering Industry?",
+    "Do you have a current Australian driver's licence?"
+   ],
+   "summary": "Support civil construction and infrastructure projects as an experienced Civil Engineering Technician.",
+   "opening": "About the role\nWe are seeking an experienced Civil Engineering Technician to support the delivery of civil construction and infrastructure projects. The successful applicant will work closely with Project Engineers, Civil Engineers, supervisors and site personnel, providing technical support across planning, construction, quality assurance and project documentation.\nKey responsibilities\n- Assisting engineers with the planning and delivery of civil construction works\n- Reviewing engineering drawings, specifications and technical documentation\n- Preparing sketches, schedules, quantities and supporting technical documentation\n- Undertaking quantity take-offs and assisting with material and cost estimates\n- Collecting, recording and analysing construction and site data\n- Conducting site inspections and assisting with verification of completed works\n- Monitoring construction activities agains",
+   "key_lines": [
+    "We are seeking an experienced Civil Engineering Technician to support the delivery of civil construction and infrastructure projects. The successful applicant will work closely with Project Engineers, Civil Engineers, supervisors and site personnel, providing technical support across planning, construction, quality assurance and project documentation.",
+    "- Monitoring construction activities against drawings, specifications and project requirements",
+    "- Coordinating and recording field and material testing requirements",
+    "- Qualification in Civil Engineering, Civil Construction or a related discipline, or equivalent relevant industry experience",
+    "- Previous experience within civil engineering or civil construction",
+    "- Experience with construction quantities, measurements and project documentation",
+    "- Current Australian driver's licence",
+    "- Experience across civil infrastructure, earthworks, concrete, drainage, utilities, roads or resources projects will be highly regarded"
+   ]
+  },
+  {
+   "id": "95047165",
+   "source": "seek",
+   "title": "Draftsperson",
+   "company": "GRANITE GROUP",
+   "location": "Melbourne VIC",
+   "url": "https://www.seek.com.au/job/95047165",
+   "work_type": "Contract/Temp",
+   "salary": null,
+   "listed_at": "2026-10-05T00:10:37.782Z",
+   "expires_at": "2026-11-04T00:10:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?"
+   ],
+   "summary": "Exciting opportunity for Draftsperson with our manufacturing client in Melbourne",
+   "opening": "Our manufacturing client is looking for Draftsperson in Melbourne on contract basis.\nRole Purpose:\n To prepare accurate 2D and 3D technical drawings, models and manufacturing documentation for doors, frames and wall systems.\n The role supports production, project delivery and technical teams by converting customer, project and engineering requirements into clear, production-ready drawings, bills of materials and related drafting outputs using SolidWorks, AutoCAD and approved drafting systems.\nResponsibilities:\n - Prepare accurate 2D and 3D technical drawings, models and manufacturing documentation for doors, frames and wall systems across the assigned portfolio.\n - Use SolidWorks, AutoCAD and approved drafting systems to convert customer, architectural, project and engineering requirements into production-ready outputs.\n - Interpret specifications, drawings and technical information to i",
+   "key_lines": [
+    "The role supports production, project delivery and technical teams by converting customer, project and engineering requirements into clear, production-ready drawings, bills of materials and related drafting outputs using SolidWorks, AutoCAD and approved drafting systems.",
+    "- Use SolidWorks, AutoCAD and approved drafting systems to convert customer, architectural, project and engineering requirements into production-ready outputs.",
+    "- Interpret specifications, drawings and technical information to identify drafting requirements, constraints and information gaps before release to manufacture.",
+    "- Prepare and validate bills of materials, cutting lists and related production documentation based on approved drawings and manufacturing requirements.",
+    "- Apply sound drafting judgement to ensure drawings are accurate, complete, manufacturable and aligned to product, quality and process standards.",
+    "- Prepare accurate drawing outputs and related data to support CNC, press brake and other manufacturing programming requirements.",
+    "- Maintain accurate drafting records, drawing revisions and document control in line with business requirements.",
+    "- Strong capability in SolidWorks and AutoCAD, with the ability to produce accurate 2D and 3D manufacturing drawings and models.",
+    "- Experience preparing technical drawings for doors, frames, wall systems or similar manufactured building products.",
+    "- Strong ability to interpret architectural drawings, customer specifications, engineering information and manufacturing requirements.",
+    "- Demonstrated ability to work independently, manage competing drafting priorities and apply sound judgement in a manufacturing environment.",
+    "If that matches please apply through ad."
+   ]
+  },
+  {
+   "id": "95048982",
+   "source": "seek",
+   "title": "Draftsperson",
+   "company": "First Homebuilders",
+   "location": "Balcatta, Perth WA",
+   "url": "https://www.seek.com.au/job/95048982",
+   "work_type": "Full time",
+   "salary": "$75,000 – $85,000 per year",
+   "listed_at": "2026-10-05T01:44:10.816Z",
+   "expires_at": "2026-11-04T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years of residential design experience do you have?",
+    "Have you completed a qualification in building design / building design drafting?",
+    "Do you have experience working on residential construction projects?"
+   ],
+   "summary": "Reporting to the Drafting Manager, you’ll play a key role in delivering accurate, compliant, and buildable working drawings for single-storey homes.",
+   "opening": "About us:\nFirst Homebuilders is a growing WA residential builder based in Balcatta, driven by our commitment to people, innovative design, transparency, trust, and value for money.\nOur motto, “your home, our priority,” reflects our approach by bringing together experienced professionals across sales, design, administration, and construction to deliver a seamless and personalised homebuilding experience for every customer.\nAs we continue to grow, we are looking for a motivated Draftsperson to join our close-knit team.\nThe Opportunity:\nReporting to the Drafting Manager, you’ll play a key role in delivering accurate, compliant, and buildable working drawings for single-storey homes. You’ll work closely with internal teams and external stakeholders to ensure projects are delivered efficiently and to a high standard.\nResponsibilities include:\n- Ability to produce clear compliant working drawi",
+   "key_lines": [
+    "First Homebuilders is a growing WA residential builder based in Balcatta, driven by our commitment to people, innovative design, transparency, trust, and value for money.",
+    "Our motto, “your home, our priority,” reflects our approach by bringing together experienced professionals across sales, design, administration, and construction to deliver a seamless and personalised homebuilding experience for every customer.",
+    "As we continue to grow, we are looking for a motivated Draftsperson to join our close-knit team.",
+    "Reporting to the Drafting Manager, you’ll play a key role in delivering accurate, compliant, and buildable working drawings for single-storey homes. You’ll work closely with internal teams and external stakeholders to ensure projects are delivered efficiently and to a high standard.",
+    "- Ability to produce clear compliant working drawings from sales sketch and client requirements.",
+    "- Apply and updated plans to match pre-start selections.",
+    "The ideal candidate for this role is a practical, detail focused draftsperson with experience in single storey residential construction, who can produce clear, buildable drawings. You enjoy working collaboratively while also being confident to take initiative.",
+    "- Minimum 2 years’ experience in residential drafting (Australia).",
+    "- Certificate IV (or higher) in Residential Drafting or Building Design.",
+    "- Proficiency in ArchiCAD is essential.",
+    "- Solid understanding of single-storey residential construction.",
+    "- Experience with timber framing."
+   ]
+  },
+  {
+   "id": "95048741",
+   "source": "seek",
+   "title": "Sheet Metal Draftsperson - Blacktown",
+   "company": "Verve Recruitment",
+   "location": "Blacktown, Sydney NSW",
+   "url": "https://www.seek.com.au/job/95048741",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-05T01:35:03.087Z",
+   "expires_at": "2026-11-04T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Experienced Sheet Metal Draftsperson needed for a Blacktown workshop. Create CAD drawings & laser layouts for custom stainless steel kitchens.",
+   "opening": "A small stainless steel fabrication business in Blacktown is currently seeking an experienced Sheet Metal Draftsperson to join their facility.\nPosition Overview:-\nOur client is a dedicated stainless steel fabrication business specializing in commercial kitchen fit-outs and custom sheet metal products. They are looking for a self-motivated individual with specific industry experience to join their team.\nYour main responsibilities and duties will include:-\n- CAD drawing of commercial kitchen benches, range hoods, and other custom sheet metal items\n- Creating flat layout drawings and nesting for laser cutting machines\n- Undertaking minor administrative and estimating tasks (training provided for this aspect)\n- Working efficiently and unsupervised once fully trained\nYour experience, skill set and qualifications will include:-\n- Proven experience in the Sheet Metal industry is ESSENTIAL (Plea",
+   "key_lines": [
+    "A small stainless steel fabrication business in Blacktown is currently seeking an experienced Sheet Metal Draftsperson to join their facility.",
+    "Our client is a dedicated stainless steel fabrication business specializing in commercial kitchen fit-outs and custom sheet metal products. They are looking for a self-motivated individual with specific industry experience to join their team.",
+    "Your experience, skill set and qualifications will include:-",
+    "- Proven experience in the Sheet Metal industry is ESSENTIAL (Please do not apply from other industries)",
+    "- Experience with CAD drawing for sheet metal fabrication",
+    "Position Type:- Permanent Full Time, Permanent Residency required",
+    "Please check your Email SPAM folder as we will forward an email questionnaire.",
+    "Please apply via Seek. Initial contact will be email based via apply@ververecruitment.com.au",
+    "We will review all replies to the email questionnaire and will invite suitable applicants to have a professional and formal telephone interview. Successful applicants will be short listed directly to our client."
+   ]
+  }
+ ]
+}

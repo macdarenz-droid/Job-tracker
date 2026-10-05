@@ -1,0 +1,29 @@
+{
+  "id": "wga-2027-grad-civil-traffic-melbourne-905530",
+  "percent": 72,
+  "rationale": [
+    "WGA 2027 Graduate Civil / Traffic Engineer program in Southbank, Melbourne, for recent graduates in civil or related disciplines, starting February 2027.",
+    "Marc holds a BSCE (2019) and completed the Advanced Diploma of Civil Construction Design in February 2026, with road geometry, pavement and stormwater design in AutoCAD and Civil 3D.",
+    "Melbourne location suits Melton; WGA is a consultancy so drawing review and documentation skills transfer."
+  ],
+  "caution": "Bachelor completed 2019, so recent-graduate framing relies on the February 2026 Advanced Diploma. Program starts February 2027 while 485 work rights run to December 2027. Traffic engineering software (SIDRA) not used. An earlier WGA Civil Designer advert was held for experience, not applied.",
+  "gaps": [
+    "Bachelor completed 2019",
+    "No SIDRA or traffic modelling",
+    "Work rights end December 2027"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": "",
+  "apply_instructions": "Apply online through the WGA JobAdder application form linked from the advert. Role commences February 2027.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Wallbridge Gilbert Aztec",
+  "title": "2027 Graduate Civil / Traffic Engineer",
+  "location": "Southbank, Melbourne VIC",
+  "url": "https://wga.com.au/careers/vacancies/?ja-job=905530",
+  "listed_at": "2026-09-17",
+  "expires_at": "",
+  "screening_questions": []
+}

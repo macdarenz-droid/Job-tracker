@@ -1,0 +1,48 @@
+{
+  "seek_id": "95042927",
+  "company": "Strand Excavations",
+  "role": "Civil Engineering Technician",
+  "location": "Perth WA",
+  "job_url": "https://www.seek.com.au/job/95042927",
+  "route": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95042927",
+  "subject": "Civil Engineering Technician application, Marc Masarate",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "notes": "SEEK sweep (3 day range) find, listed 4 Oct 2026. No employer site or direct contact found. Prepared for Jeremie/Marc on SEEK.",
+  "email_body": "",
+  "screening_answers": {
+    "Which of the following statements best describes your right to work in Australia?": "I have a temporary visa with no restrictions on work hours (Subclass 485, full working rights to December 2027)",
+    "How many years' experience do you have as a Civil Engineering Technician?": "None in that exact title; about ten months of civil site engineering in the Philippines (2019 to 2020). Pick the lowest option SEEK offers.",
+    "How much notice are you required to give your current employer?": "Marc to answer",
+    "How many years of experience do you have in the Civil Engineering Industry?": "Less than 1 year (about ten months of site work, Apr 2019 to Feb 2020)",
+    "Do you have a current Australian driver's licence?": "Yes"
+  },
+  "checklist": [
+    "Open the SEEK advert and choose Apply",
+    "Attach the resume and this cover letter",
+    "Answer the screening questions exactly as listed in screening_answers; Marc answers notice period",
+    "Mention openness to discussing relocation to Perth only as written in the letter",
+    "Submit and mark the tracker record Applied after the SEEK receipt arrives"
+  ],
+  "letter": {
+    "recipient_name": "",
+    "recipient_role": "Hiring Team",
+    "company": "Strand Excavations",
+    "company_line": "Civil contractor in Perth hiring a Civil Engineering Technician",
+    "subject": "Civil Engineering Technician, Perth",
+    "greeting": "Hello,",
+    "closing": "Kind regards,",
+    "paragraphs": [
+      "I am applying for the Civil Engineering Technician role advertised on SEEK. Supporting project engineers with drawing review, quantities, site inspections and as-built records is close to the work I did on site and want to keep doing.",
+      "From 2019 to 2020 I worked in the Philippines as a project-in-charge engineer and then a field engineer. I reviewed structural and architectural drawings against project requirements, carried out site inspections, safety checks and quality monitoring, tracked procurement and materials, and wrote site reports, material records and progress reports.",
+      "In February 2026 I completed an Advanced Diploma of Civil Construction Design, where I designed and documented road geometry, earthworks, pavement systems and stormwater drainage in AutoCAD and Civil 3D, and prepared cost estimates and bills of quantities. I also hold a Bachelor of Science in Civil Engineering. My site experience is from the Philippines, and I have not yet worked on an Australian site.",
+      "I am based in Melton, Victoria, hold a White Card, an Australian driver's licence and my own transport, and have full working rights to December 2027 on a Subclass 485 visa. I am open to discussing relocation to Perth for the right role. I've attached my resume and cover letter. Portfolio: https://macdarenz-droid.github.io/Portfolio"
+    ]
+  },
+  "company_url": "",
+  "application_method": "SEEK"
+}

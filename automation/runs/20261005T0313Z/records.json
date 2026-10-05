@@ -1,0 +1,325 @@
+[
+ {
+  "id": "f4d61d3e-984f-4dc7-a26a-578ba1f8923a",
+  "key": "manual:f4d61d3e-984f-4dc7-a26a-578ba1f8923a",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261005T0313Z",
+  "created_at": "2026-10-05T03:19:01.000Z",
+  "updated_at": "2026-10-05T03:19:01.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "374f50eb-2618-449a-988f-731bcfd6b039",
+    "path": "/api/documents/374f50eb-2618-449a-988f-731bcfd6b039",
+    "filename": "Marc_Masarate_Strand_Excavations_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-05T03:19:03.443Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "e7fac829-942e-45b9-8d51-804b291a0b2f",
+    "path": "/api/documents/e7fac829-942e-45b9-8d51-804b291a0b2f",
+    "filename": "Marc_Masarate_Strand_Excavations_Civil_Engineering_Technician_Cover_Letter.pdf",
+    "sha256": "27e9a68aad5eda88d44d4efec0d8182e7bb7248a9ca8435b1753a97d3e7b520f",
+    "size_bytes": 44857,
+    "kind": "cover",
+    "uploaded_at": "2026-10-05T03:19:02.564Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Strand Excavations",
+  "role": "Civil Engineering Technician",
+  "location": "Perth WA",
+  "job_url": "https://www.seek.com.au/job/95042927",
+  "company_url": "",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95042927",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Civil Engineering Technician application, Marc Masarate",
+  "email_body": "",
+  "fit": [
+   "Civil Engineering Technician supporting engineers on civil construction: drawing review, quantities, site inspections, QA records and as-built documentation.",
+   "Matches Marc's Philippines site work (inspections, quality checks, material records, progress reports) and Advanced Diploma earthworks, pavement and drainage design.",
+   "Perth based, so relocation would need discussion; advert asks for an experienced technician, which lowers the level score."
+  ],
+  "gaps": [
+   "No Australian site experience",
+   "Not previously employed as a civil technician",
+   "Relocation to Perth would need discussion"
+  ],
+  "match_score": {
+   "percent": 66,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Civil Engineering Technician supporting engineers on civil construction: drawing review, quantities, site inspections, QA records and as-built documentation.",
+    "Matches Marc's Philippines site work (inspections, quality checks, material records, progress reports) and Advanced Diploma earthworks, pavement and drainage design.",
+    "Perth based, so relocation would need discussion; advert asks for an experienced technician, which lowers the level score."
+   ],
+   "caution": "Advert wants an experienced technician; Marc has about ten months of site work in the Philippines (2019 to 2020) and no Australian experience. Quantity take-offs are coursework only."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-04T05:43:03.744Z",
+   "expires_at": "2026-11-04T06:54:49.083Z",
+   "verified_at": "2026-10-05T03:14:05.000Z",
+   "apply_instructions": "Apply on SEEK (quick apply with screening questions).",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a Civil Engineering Technician?",
+    "How much notice are you required to give your current employer?",
+    "How many years of experience do you have in the Civil Engineering Industry?",
+    "Do you have a current Australian driver's licence?"
+   ]
+  },
+  "screening_answers": {
+   "Which of the following statements best describes your right to work in Australia?": "I have a temporary visa with no restrictions on work hours (Subclass 485, full working rights to December 2027)",
+   "How many years' experience do you have as a Civil Engineering Technician?": "None in that exact title; about ten months of civil site engineering in the Philippines (2019 to 2020). Pick the lowest option SEEK offers.",
+   "How much notice are you required to give your current employer?": "Marc to answer",
+   "How many years of experience do you have in the Civil Engineering Industry?": "Less than 1 year (about ten months of site work, Apr 2019 to Feb 2020)",
+   "Do you have a current Australian driver's licence?": "Yes"
+  },
+  "checklist": [
+   "Open the SEEK advert and choose Apply",
+   "Attach the resume and this cover letter",
+   "Answer the screening questions exactly as listed in screening_answers; Marc answers notice period",
+   "Mention openness to discussing relocation to Perth only as written in the letter",
+   "Submit and mark the tracker record Applied after the SEEK receipt arrives"
+  ],
+  "notes": "SEEK sweep (3 day range) find, listed 4 Oct 2026. No employer site or direct contact found. Prepared for Jeremie/Marc on SEEK.\nNo employer website found by web search (only a business register listing). SEEK apply only.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-04, closes 2026-11-04). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Civil Engineering Technician role on SEEK.\n• They may ask about: No Australian site experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Not previously employed as a civil technician → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Relocation to Perth would need discussion → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-04, closes 2026-11-04). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Civil Engineering Technician role on SEEK.",
+   "They may ask about: No Australian site experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Not previously employed as a civil technician → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Relocation to Perth would need discussion → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-05T03:19:01.000Z",
+  "seek_id": "95042927",
+  "duplicate_key": "strandexcavations|seek:95042927"
+ },
+ {
+  "id": "52e22f96-c887-4dbb-9135-d96fc10e2e41",
+  "key": "manual:52e22f96-c887-4dbb-9135-d96fc10e2e41",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261005T0313Z",
+  "created_at": "2026-10-05T03:19:04.000Z",
+  "updated_at": "2026-10-05T03:19:04.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "13da537b-af15-4ecd-bf77-b5d519b03200",
+    "path": "/api/documents/13da537b-af15-4ecd-bf77-b5d519b03200",
+    "filename": "Marc_Masarate_KBR_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-05T03:19:06.061Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "a53f20aa-3ecd-4888-affc-90cb5842826f",
+    "path": "/api/documents/a53f20aa-3ecd-4888-affc-90cb5842826f",
+    "filename": "Marc_Masarate_KBR_Cadet_Drafter_Cover_Letter.pdf",
+    "sha256": "41aff46ee4cb7b759979b1a071e59f3714de4348c1fd69f59210e4517d2820a7",
+    "size_bytes": 49632,
+    "kind": "cover",
+    "uploaded_at": "2026-10-05T03:19:05.244Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "KBR",
+  "role": "Cadet Drafter",
+  "location": "Melbourne VIC",
+  "job_url": "https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Melbourne-Victoria-Australia/Cadet-Drafter_R2130825",
+  "company_url": "https://www.kbr.com/en/locations/australia",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Melbourne-Victoria-Australia/Cadet-Drafter_R2130825",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Application: Cadet Drafter (R2130825), Marc Masarate",
+  "email_body": "",
+  "fit": [
+   "Entry level Cadet Drafter in Melbourne asking for Cert IV or Diploma level drafting training, which Marc's Advanced Diploma of Civil Construction Design (February 2026) exceeds.",
+   "Introductory 3D CAD in AutoCAD, Civil 3D or Revit is asked for; Marc has all three from coursework.",
+   "Melbourne office role with occasional site visits for field data suits a Melton based candidate with site experience from the Philippines."
+  ],
+  "gaps": [
+   "No commercial drafting experience",
+   "No laser scanning, 12d or MicroStation use"
+  ],
+  "match_score": {
+   "percent": 84,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Entry level Cadet Drafter in Melbourne asking for Cert IV or Diploma level drafting training, which Marc's Advanced Diploma of Civil Construction Design (February 2026) exceeds.",
+    "Introductory 3D CAD in AutoCAD, Civil 3D or Revit is asked for; Marc has all three from coursework.",
+    "Melbourne office role with occasional site visits for field data suits a Melton based candidate with site experience from the Philippines."
+   ],
+   "caution": "Software use is academic, not commercial production drafting. Has not used laser scanning or 12d or MicroStation."
+  },
+  "advert": {
+   "source": "employer_careers (KBR Workday)",
+   "listed_at": "2026-10-05",
+   "expires_at": "",
+   "verified_at": "2026-10-05T03:19:04.000Z",
+   "apply_instructions": "Apply on the KBR Workday careers portal (job R2130825).",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Open the KBR Workday Cadet Drafter listing (R2130825) and sign in or create the candidate account with Marc's standard job-application login",
+   "Upload the resume and this cover letter",
+   "Answer work rights as Subclass 485 visa with full working rights to December 2027; do not claim PR or citizenship",
+   "Leave start date, notice period and salary for Marc to confirm if asked",
+   "Submit, then mark the tracker record Applied and save the confirmation email"
+  ],
+  "notes": "Open-web find this tick (Victoria off-SEEK rotation), posted today on KBR Workday. Portal apply only. Prepared for Jeremie/Marc.\nWorkday portal only. Advert gives no recruiter name or email. Posted 5 Oct 2026 (found via open web, confirmed on KBR Workday API).\nHOW GROK AI FOUND THIS\nFound on employer_careers (KBR Workday) (listed 2026-10-05). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Cadet Drafter role on SEEK.\n• They may ask about: No commercial drafting experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No laser scanning, 12d or MicroStation use → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_careers (KBR Workday) (listed 2026-10-05). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Cadet Drafter role on SEEK.",
+   "They may ask about: No commercial drafting experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No laser scanning, 12d or MicroStation use → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-05T03:19:04.000Z",
+  "duplicate_key": "kbr|kbr.wd5.myworkdayjobs.com/kbr_careers/job/melbourne-victoria-australia/cadet-drafter_r2130825"
+ },
+ {
+  "id": "0be39f87-a876-4a2b-a8a2-58bf1fac4d95",
+  "key": "manual:0be39f87-a876-4a2b-a8a2-58bf1fac4d95",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261005T0313Z",
+  "created_at": "2026-10-05T03:19:06.000Z",
+  "updated_at": "2026-10-05T03:19:06.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "110fad6b-08e3-419b-89c8-03ed6a14a12c",
+    "path": "/api/documents/110fad6b-08e3-419b-89c8-03ed6a14a12c",
+    "filename": "Marc_Masarate_Wallbridge_Gilbert_Aztec_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-05T03:19:08.875Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "83765245-fe32-487b-924e-db582e7f3a6c",
+    "path": "/api/documents/83765245-fe32-487b-924e-db582e7f3a6c",
+    "filename": "Marc_Masarate_Wallbridge_Gilbert_Aztec_2027_Graduate_Civil_Traffic_Engineer_Cover_Letter.pdf",
+    "sha256": "ba127eea1c2e797a4f3dc2d342f4585c463e8d75f3e18cb257d868777e7be093",
+    "size_bytes": 49124,
+    "kind": "cover",
+    "uploaded_at": "2026-10-05T03:19:07.638Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Wallbridge Gilbert Aztec",
+  "role": "2027 Graduate Civil / Traffic Engineer",
+  "location": "Southbank, Melbourne VIC",
+  "job_url": "https://wga.com.au/careers/vacancies/?ja-job=905530",
+  "company_url": "https://wga.com.au/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://wga.com.au/careers/vacancies/?ja-job=905530",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Application: 2027 Graduate Civil / Traffic Engineer, Marc Masarate",
+  "email_body": "",
+  "fit": [
+   "WGA 2027 Graduate Civil / Traffic Engineer program in Southbank, Melbourne, for recent graduates in civil or related disciplines, starting February 2027.",
+   "Marc holds a BSCE (2019) and completed the Advanced Diploma of Civil Construction Design in February 2026, with road geometry, pavement and stormwater design in AutoCAD and Civil 3D.",
+   "Melbourne location suits Melton; WGA is a consultancy so drawing review and documentation skills transfer."
+  ],
+  "gaps": [
+   "Bachelor completed 2019",
+   "No SIDRA or traffic modelling",
+   "Work rights end December 2027"
+  ],
+  "match_score": {
+   "percent": 72,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "WGA 2027 Graduate Civil / Traffic Engineer program in Southbank, Melbourne, for recent graduates in civil or related disciplines, starting February 2027.",
+    "Marc holds a BSCE (2019) and completed the Advanced Diploma of Civil Construction Design in February 2026, with road geometry, pavement and stormwater design in AutoCAD and Civil 3D.",
+    "Melbourne location suits Melton; WGA is a consultancy so drawing review and documentation skills transfer."
+   ],
+   "caution": "Bachelor completed 2019, so recent-graduate framing relies on the February 2026 Advanced Diploma. Program starts February 2027 while 485 work rights run to December 2027. Traffic engineering software (SIDRA) not used. An earlier WGA Civil Designer advert was held for experience, not applied."
+  },
+  "advert": {
+   "source": "employer_careers (WGA JobAdder board)",
+   "listed_at": "2026-09-17",
+   "expires_at": "",
+   "verified_at": "2026-10-05T03:19:06.000Z",
+   "apply_instructions": "Apply online through the WGA JobAdder application form linked from the advert. Role commences February 2027.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Open the WGA 2027 Graduate Civil / Traffic Engineer advert and press Apply (JobAdder form)",
+   "Upload the resume and this cover letter",
+   "State work rights as Subclass 485 visa with full working rights to December 2027; do not claim PR or citizenship",
+   "Show the BSCE 2019 and the Advanced Diploma completed February 2026 honestly",
+   "Submit, then mark the tracker record Applied and save the confirmation email"
+  ],
+  "notes": "Found on WGA's own careers board (JobAdder) during the Victoria off-SEEK sweep; listed 17 Sep 2026, still open 5 Oct 2026. Portal apply only. Prepared for Jeremie/Marc.\nJobAdder portal only. careers@wga.com.au appears on a LinkedIn listing but not on WGA's own advert, so it is not used as the route.\nHOW GROK AI FOUND THIS\nFound on employer_careers (WGA JobAdder board) (listed 2026-09-17). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the 2027 Graduate Civil / Traffic Engineer role on SEEK.\n• They may ask about: Bachelor completed 2019 → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No SIDRA or traffic modelling → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Work rights end December 2027 → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_careers (WGA JobAdder board) (listed 2026-09-17). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the 2027 Graduate Civil / Traffic Engineer role on SEEK.",
+   "They may ask about: Bachelor completed 2019 → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No SIDRA or traffic modelling → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Work rights end December 2027 → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-05T03:19:06.000Z",
+  "duplicate_key": "wallbridgegilbertaztec|wga.com.au/careers/vacancies"
+ }
+]
