@@ -1,0 +1,46 @@
+{
+ "seek_id": "94814358",
+ "company": "Menard Oceania Pty Ltd",
+ "role": "Intern Drafter",
+ "location": "Macquarie Park, Sydney NSW",
+ "job_url": "https://www.seek.com.au/job/94814358",
+ "route": "SEEK",
+ "recipient_name": "Alexandre Hubaut",
+ "recipient_role": "Design Manager",
+ "recipient_email": "",
+ "contact_evidence_url": "https://menardoceania.com.au/about-us/management/",
+ "subject": "Application: Intern Drafter, Macquarie Park, Marc Masarate",
+ "application_type": "ADVERTISED_VACANCY",
+ "vacancy_status": "OPEN",
+ "email_body": "",
+ "screening_answers": {
+  "Which of the following statements best describes your right to work in Australia?": "Choose the temporary visa option with full work rights (Subclass 485, full working rights until December 2027). Do not choose citizen or permanent resident.",
+  "How many years' experience do you have as a draftsperson?": "No commercial drafting experience (choose the lowest option, for example less than 1 year); drafting is from the Advanced Diploma coursework.",
+  "How much notice are you required to give your current employer?": "MARC TO CONFIRM (no notice period on record)."
+ },
+ "checklist": [
+  "Open SEEK job 94814358 while signed in as Marc",
+  "Attach the resume and this cover letter",
+  "Answer right to work as the Subclass 485 full work rights option, never citizen or PR",
+  "Ask Marc for notice period before answering",
+  "Submit, then mark the tracker record Applied and keep the SEEK receipt"
+ ],
+ "letter": {
+  "recipient_name": "Alexandre Hubaut",
+  "recipient_role": "Design Manager",
+  "company": "Menard Oceania",
+  "company_line": "Intern Drafter, Macquarie Park",
+  "subject": "Intern Drafter, Macquarie Park",
+  "greeting": "Dear Mr Hubaut,",
+  "closing": "Kind regards,",
+  "paragraphs": [
+   "I am applying for the Intern Drafter role at Menard Oceania advertised on SEEK. Supporting your senior drafters and design engineers on civil, structural and geotechnical drawings, with mentoring from the Design Manager, is the kind of start I am looking for.",
+   "In February 2026 I completed an Advanced Diploma of Civil Construction Design. I designed and documented road geometry, earthworks, pavement systems and stormwater drainage, and prepared and reviewed technical drawings in AutoCAD and Civil 3D using Australian Standards. I also modelled a footing and column in 3D in AutoCAD and a pedestrian truss bridge in Revit. This is coursework rather than commercial drafting, and ground improvement drawings would be new to me.",
+   "Before moving to Australia I completed a Bachelor of Science in Civil Engineering and worked on site in the Philippines from 2019 to 2020 as a project-in-charge engineer and field engineer. I reviewed structural and architectural drawings against project requirements, carried out inspections and quality checks, and kept site reports and material records, so I care about drawings that are accurate and buildable.",
+   "I have full working rights to December 2027 on a Subclass 485 visa, hold a White Card and an Australian driver's licence, and am open to discussing relocation to Sydney for the right role. I would value the chance to talk. I've attached my resume and cover letter. Portfolio: https://macdarenz-droid.github.io/Portfolio"
+  ]
+ },
+ "notes": "SEEK widening this tick (14 day window, beyond the 80 detail cap). Listed 22 Sep 2026, expires 23 Oct 2026. SEEK apply only; Design Manager named on the employer team page without an email. Gmail checked for Menard: no prior application. Prepared for Jeremie or Marc.",
+ "company_url": "https://menardoceania.com.au/",
+ "application_method": "SEEK"
+}

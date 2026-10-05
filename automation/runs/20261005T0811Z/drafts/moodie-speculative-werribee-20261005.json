@@ -1,0 +1,43 @@
+{
+ "seek_id": "moodie-speculative-werribee-20261005",
+ "company": "Moodie & Associates",
+ "role": "Speculative enquiry: graduate civil designer or drafter (Werribee)",
+ "location": "Werribee VIC",
+ "job_url": "https://www.moodieengineering.com.au/",
+ "route": "EMAIL",
+ "application_type": "SPECULATIVE_ENQUIRY",
+ "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+ "recipient_name": "Tony Moodie",
+ "recipient_role": "Founder",
+ "recipient_email": "tony@moodieengineering.com.au",
+ "contact_evidence_url": "https://www.moodieengineering.com.au/about",
+ "subject": "Speculative enquiry, graduate civil designer, Werribee, Marc Darenz Masarate",
+ "email_body": "Hi Tony,\n\nThis is a speculative enquiry, as I couldn't see a careers page on your site. I wanted to write to you directly because your Werribee office is close to me and your work is the kind I want to learn.\n\nI completed an Advanced Diploma of Civil Construction Design in February 2026, covering road geometry, earthworks, pavement and stormwater drainage, documented in Civil 3D and AutoCAD. In 2019 and 2020 I worked in the Philippines as a project-in-charge engineer and then a field engineer, handling site inspections, quality checks and progress reports. I live in Melton, hold a White Card and an Australian driver's licence with my own transport, and have full working rights on a Subclass 485 visa until December 2027.\n\nYour civil design for the 75-lot Coburns Road subdivision in Melton South caught my eye, since that is my own area. I haven't yet worked in an Australian design office or designed sewer and water reticulation, so I would start under supervision.\n\nWould you be open to a short chat if a graduate design or drafting place comes up? I've attached my resume and cover letter.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+ "letter": {
+  "recipient_name": "Tony Moodie",
+  "recipient_role": "Founder",
+  "company": "Moodie & Associates",
+  "company_line": "Moodie & Associates prepared the civil design and documentation for the 75-lot Coburns Road subdivision in Melton South, from its Werribee office.",
+  "subject": "Speculative enquiry for a graduate civil designer or drafter role, Werribee",
+  "greeting": "Dear Tony,",
+  "paragraphs": [
+   "This is a speculative enquiry for a graduate civil designer or drafter place in your Werribee office. I could not see a careers page on your website, so I wanted to write to you directly.",
+   "I completed an Advanced Diploma of Civil Construction Design at Albright Institute in February 2026. My coursework covered road geometry, earthworks, pavement systems and stormwater drainage, with drawings prepared and reviewed in AutoCAD and Civil 3D against Australian Standards and Austroads guides. I also lodged Before You Dig Australia enquiries and designed around existing services and site constraints.",
+   "From April 2019 to February 2020 I worked in the Philippines, first as a project-in-charge engineer on a community hall renovation and then as a field engineer on residential subdivision finishing works. I carried out site inspections and quality checks, reviewed drawings, and prepared site reports and material records.",
+   "Your civil design for the Coburns Road subdivision in Melton South stood out to me because I live in Melton. I have not yet worked in an Australian design office or designed sewer and water reticulation, so I would expect to learn your standards and authority requirements under supervision. I have my own transport, hold a White Card and an Australian driver's licence, and have full working rights on a Subclass 485 visa until December 2027.",
+   "Thank you for reading this. I've attached my resume and cover letter, and I would be glad to talk whenever a graduate design or drafting place opens."
+  ],
+  "closing": "Yours sincerely,"
+ },
+ "screening_answers": {},
+ "checklist": [
+  "Re-read moodieengineering.com.au and confirm tony@moodieengineering.com.au is still published",
+  "Gmail in:anywhere search for moodieengineering before any send",
+  "Attach resume and cover letter PDFs",
+  "Keep the speculative label in subject and opening line",
+  "Do not claim sewer, water or Australian design office experience"
+ ],
+ "notes": "Councils and government rotation tick; no publishable council advert left after dedupe, so the runbook's one speculative enquiry. No advertised vacancy (no careers page; no SEEK advert in 30 days). Contact is the founder's business email published by the employer. Nothing sent this tick.",
+ "company_url": "https://www.moodieengineering.com.au/",
+ "application_method": "Email"
+}

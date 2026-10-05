@@ -1,0 +1,301 @@
+{
+ "count": 3,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "94969508",
+   "company": "GPA Engineering",
+   "title": "Civil/Structural Drafter – ADL",
+   "run": "20261003T0114Z",
+   "percent": 48,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94961556",
+   "company": "Brunel",
+   "title": "Project Engineer - Civil",
+   "run": "20261003T0114Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95038050",
+   "company": "ABS Civil WA Pty Ltd",
+   "title": "Civil Estimator - Earthworks",
+   "run": "20261003T1118Z",
+   "percent": 38,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94900572",
+   "company": "Aptus",
+   "title": "Civil 3D | Civil Design + Engineering | $110K - $135K +",
+   "run": "20260928T0123Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Advert requires a minimum of 4 years using Civil 3D; Marc's Civil 3D experience is academic coursework only"
+   ]
+  },
+  {
+   "id": "95021621",
+   "company": "Ertech Pty Ltd",
+   "title": "Project Engineer (Civil)",
+   "run": "20261003T0114Z",
+   "percent": 59,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94958791",
+   "company": "ADF Careers",
+   "title": "Part-Time Civil Engineer (Tax-Free Pay)",
+   "run": "20261003T0114Z",
+   "percent": 27,
+   "mandatory_unmet": [
+    "Citizenship or PR may be required"
+   ]
+  },
+  {
+   "id": "94973025",
+   "company": "Optimum Consulting Group",
+   "title": "Civil Engineer",
+   "run": "20261003T0114Z",
+   "percent": 61,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94969016",
+   "company": "QCCS",
+   "title": "Civil Project Engineer",
+   "run": "20261003T0114Z",
+   "percent": 73,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94935564",
+   "company": "Queanbeyan-Palerang Regional Council",
+   "title": "Trainee - Civil Construction",
+   "run": "20260930T1316Z",
+   "percent": 35,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94839731",
+   "company": "City of Gold Coast",
+   "title": "Undergraduate Engineers",
+   "run": "20260928T1031Z",
+   "percent": 43,
+   "mandatory_unmet": [
+    "\"be enrolled in and entering the final year of a relevant undergraduate Bachelor of Engineering degree at a recognised Australian university\" (Marc completed his BSCE in 2019 and is not currently enrolled at university)"
+   ]
+  },
+  {
+   "id": "94995704",
+   "company": "Xeros Piccolo Consulting Engineers",
+   "title": "Structural/Civil Engineer",
+   "run": "20261003T0114Z",
+   "percent": 60,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94961163",
+   "company": "Brunel",
+   "title": "Project Engineer ",
+   "run": "20261003T0114Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94958409",
+   "company": "Right Connect",
+   "title": "Structural Drafter",
+   "run": "20261003T0114Z",
+   "percent": 60,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94950957",
+   "company": "Milo Geotechnical",
+   "title": "Civil Engineer",
+   "run": "20260930T1316Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "A minimum of 5 years' engineering experience associated with the road construction industry"
+   ]
+  },
+  {
+   "id": "94825304",
+   "company": "Vorstrom",
+   "title": "Cadet Draftsperson",
+   "run": "20260930T1819Z",
+   "percent": 42,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94770316",
+   "company": "Durack Civil",
+   "title": "Civil Estimator",
+   "run": "20260928T1031Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "\"Minimum 6 years' experience in civil construction\" (Marc has 11 months site work in the Philippines 2019 to 2020 and no Australian work experience)"
+   ]
+  },
+  {
+   "id": "95021747",
+   "company": "Contec Recruitment Pty Ltd",
+   "title": "Civil Estimator ",
+   "run": "20261003T0114Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94990020",
+   "company": "Gough Recruitment SA",
+   "title": "Civil Estimator",
+   "run": "20261003T0114Z",
+   "percent": 65,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94956743",
+   "company": "Formstruct",
+   "title": "Estimator  - Civil & NPI",
+   "run": "20261003T0114Z",
+   "percent": 75,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94936909",
+   "company": "City of Joondalup",
+   "title": "Skilled General Hand - Engineering Construction (Civil)",
+   "run": "20260930T1316Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "WA HR Class Driver’s Licence"
+   ]
+  },
+  {
+   "id": "94916158",
+   "company": "WYN&CO Search Recruitment & Payroll",
+   "title": "Civil Project Engineer",
+   "run": "20260928T1031Z",
+   "percent": 50,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94999649",
+   "company": "CPB Contractors NSW ACT",
+   "title": "Project Engineer Building & Infrastructure",
+   "run": "20261003T0114Z",
+   "percent": 34,
+   "mandatory_unmet": [
+    "Citizenship or PR may be required"
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "id": "95054464",
+   "source": "seek",
+   "title": "Civil Design Engineer",
+   "company": "Talent Web Property",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/95054464",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-05T04:25:11.487Z",
+   "expires_at": "2026-11-04T04:25:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Civil Design Engineer for Australian-owned engineering consultancy for high-end urban and residential project delivery",
+   "opening": "Our client is a respected national civil engineering consultancy delivering small to medium scale urban development and high-end residential designs.\nWith steady and consistent growth across all their offices, they are looking to further expand their SEQ design team, and this role could have you based in either of their Gold Coast, Sunshine Coast or Brisbane offices.\nThe company has a collaborative culture, they're big on work-life balance, competitive salaries, and investing in their people.\nTranslation: you won't be grinding away endlessly, and your effort will be recognized and rewarded.\nIf you've got 10+ years of experience under your belt and you're looking for an environment where you can make an impact, and develop as a technical specialist then this could be the perfect opportunity for you.\nRequirements: \n - 10+ years experience in civil design\n - Bachelor of Civil Engineering (E",
+   "key_lines": [
+    "Our client is a respected national civil engineering consultancy delivering small to medium scale urban development and high-end residential designs.",
+    "If you've got 10+ years of experience under your belt and you're looking for an environment where you can make an impact, and develop as a technical specialist then this could be the perfect opportunity for you.",
+    "Requirements:",
+    "- 10+ years experience in civil design",
+    "- Experience in 12D or Civil 3D, Music, Drains and AutoCAD softwares",
+    "- Experience with Unity water connection process",
+    "- Experience with Australian design standards and SEQ projects",
+    "- Valid Australian Work Rights and Driver's Licence",
+    "If you meet some but not all of criteria, we encourage you to still apply or contact Zurika Bleeker on 0415052418 for a chat."
+   ]
+  },
+  {
+   "id": "95052080",
+   "source": "seek",
+   "title": "Project Engineer",
+   "company": "RSG Recruitment Aust Pty Ltd",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/95052080",
+   "work_type": "Full time",
+   "salary": "Competitive",
+   "listed_at": "2026-10-05T03:16:04.313Z",
+   "expires_at": "2026-11-04T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a project engineer?"
+   ],
+   "summary": "Own the engineering on a new earthworks-heavy civil project. Hands-on, site-based, with a strong team behind you and a vehicle, fuel, e-tag and phone.",
+   "opening": "Project Engineer – Major Civil & Earthworks Project (Confidential)\nLocation: Brisbane \nCompany: Leading Civil Contractor (confidential) \nPackage: Competitive salary + Super + Vehicle + Fuel + E-tag + Mobile\nAbout the RoleOur client is a growing civil contractor with a strong pipeline of recently awarded projects, and they're looking for an experienced Project Engineer to take ownership of engineering and project delivery on a significant civil construction project. This is a hands-on, site-based role for a Project Engineer who understands earthworks, construction methodology and what it takes to keep a project moving.\nKey Responsibilities- Manage engineering and construction activities across your allocated scope.\n- Plan and monitor 3-week look-ahead programs.\n- Coordinate plant, materials, subcontractors and procurement.\n- Monitor productivity, costs and project milestones.\n- Support va",
+   "key_lines": [
+    "About the RoleOur client is a growing civil contractor with a strong pipeline of recently awarded projects, and they're looking for an experienced Project Engineer to take ownership of engineering and project delivery on a significant civil construction project. This is a hands-on, site-based role for a Project Engineer who understands earthworks, construction methodology and what it takes to keep a project moving.",
+    "- Work closely with the client, subcontractors and site team to deliver a successful project.",
+    "Skills & Experience- 4+ years' solid Australian civil construction experience.",
+    "- Strong earthworks experience (essential).",
+    "- Civil Engineering degree or equivalent.",
+    "- Previous experience in a site-based Project Engineer role.",
+    "- Experience managing subcontractors, procurement, programming and project costs.",
+    "- Current Australian driver's licence and clear Police Check.",
+    "- Experience with Jobpac and Expert Estimation highly regarded, but not essential.",
+    "- Strong support from an experienced project team.",
+    "How to ApplyIf you're an experienced Project Engineer who enjoys being close to the action and has the earthworks experience to make a real impact, we'd like to hear from you. Please contact Mark at mark.macdonald@recruitsearchgrow.com or apply online to this Project Engineer job or other Engineering jobs."
+   ]
+  },
+  {
+   "id": "gunnedah-civil-survey-design-officer-gsc657",
+   "source": "council job board (Gunnedah Shire Council applynow)",
+   "title": "Civil Survey & Design Officer - Cadet or Graduate Opportunity Available",
+   "company": "Gunnedah Shire Council",
+   "location": "Gunnedah NSW",
+   "url": "https://gunnedah.applynow.net.au/jobs/GSC657-civil-survey-design-officer-cadet-or-graduate-opportunity-available",
+   "work_type": null,
+   "salary": null,
+   "listed_at": "2026-09-22",
+   "expires_at": "2026-10-19T17:00:00+11:00",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [
+    "Why would you like to become a Civil Survey & Design Officer/Cadet/Graduate with Gunnedah Shire Council?",
+    "Please outline any skills or knowledge you possess and how you believe this would be of benefit to the role?",
+    "Please outline any qualifications you have that are relevant to the role?",
+    "Outline your skills and knowledge in use of Microsoft Office applications.",
+    "What class of driver's licence do you currently hold? (options include Full Licence (Class C))",
+    "Do you hold a WHS General Construction Induction Card (White card)? Yes/No",
+    "What best describes your rights to work in Australia? (Australian Citizen / NZ Citizen / Permanent Resident / Working Visa (Unrestricted) / Working Visa (With Restrictions))",
+    "When would you be available to commence work with Gunnedah Shire Council if successful? (Immediately / 1 Week / 2 Weeks / 4 Weeks or more)"
+   ],
+   "summary": "",
+   "opening": "Civil Survey & Design Officer - Cadet or Graduate Opportunity Available - Gunnedah Shire Council \n Skip to content. \n Civil Survey & Design Officer - Cadet or Graduate Opportunity Available\nJob No:\n GSC657 \nLocation:\n Gunnedah \nEmployment Status:\n Full Time \nNo. of Vacancies:\n 1 \nClosing Date:\n19 Oct 2026 AEDT\n Location: Gunnedah, NSW  \n Contract Type: Full Time, 35 hours per week  \n Salary Range: Grade 6 - 15 ($1234.39 - $2046.55 per week + 12% Superannuation) \n Application Deadline: 5:00pm, Monday 19 October 2026 \n Position Title: Survey and Design Cadet , Survey and Design Graduate ,  Survey and Design Officer ,  Senior Survey and Design Officer \n A council truly passionate about community! \n Gunnedah Shire Council is an integral part of the Gunnedah community, a vibrant, warm and friendly town surrounded by the expansive Liverpool Plains and framed by the Nandewar Ranges. At Gunnedah",
+   "key_lines": [
+    "Civil Survey & Design Officer - Cadet or Graduate Opportunity Available - Gunnedah Shire Council",
+    "Civil Survey & Design Officer - Cadet or Graduate Opportunity Available",
+    "Position Title: Survey and Design Cadet , Survey and Design Graduate ,  Survey and Design Officer ,  Senior Survey and Design Officer",
+    "Are you looking for an opportunity to join a rapidly growing industry, gain invaluable skills and mentorship whilst also achieving a qualification in surveying and design?",
+    "Are you an experienced Survey and Design professional looking for your next step?",
+    "Reporting to the Manager Engineering Services, and working closely with our team of engineers, you will be working collaboratively across Council to assist with duties including:",
+    "For those looking to join with no prior work experience, this role has been created to bring on either a Cadet , Graduate Officer or Qualified Officer - with Salary Grade and training expectations adjusted to fit the successful candidate.",
+    "Many of our cadets and graduate hires have obtained in demand skills, which help to form the basis of a successful career. Whilst it would be advantageous, you do not need to have previous experience and applications from school leavers are encouraged . Ideally, you will be able to demonstrate:",
+    "Knowledge or experience in civil design and/or surveying.",
+    "Applying interpersonal skills.",
+    "For those with experience and applying for our Senior position, the following essential criteria must be met:",
+    "Diploma of Engineering or commensurate level qualifications majoring in Engineering, Construction Management or Spatial Science.",
+    "Demonstrated experience in survey and design across multiple disciplines including road design, storm water drainage, reticulation and traffic safety.",
+    "Demonstrated experience in using modern surveying instruments including GNSS and machine guidance for graders, including calibration and maintenance."
+   ]
+  }
+ ]
+}

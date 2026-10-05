@@ -1,0 +1,219 @@
+[
+ {
+  "id": "77642e9d-07bd-43f0-ad5c-d109694e90c2",
+  "key": "manual:77642e9d-07bd-43f0-ad5c-d109694e90c2",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261005T0811Z",
+  "created_at": "2026-10-05T08:21:41.000Z",
+  "updated_at": "2026-10-05T08:21:41.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "82516379-0017-4936-9705-e79761d841f6",
+    "path": "/api/documents/82516379-0017-4936-9705-e79761d841f6",
+    "filename": "Marc_Masarate_Menard_Oceania_Pty_Ltd_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-05T08:21:43.645Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "17713256-aba9-4f7d-8166-03a45b38600f",
+    "path": "/api/documents/17713256-aba9-4f7d-8166-03a45b38600f",
+    "filename": "Marc_Masarate_Menard_Oceania_Pty_Ltd_Intern_Drafter_Cover_Letter.pdf",
+    "sha256": "822be1ae996701cfc6f9378a552fc307b752e708b1d4f7f9cf163ded5dcfdb23",
+    "size_bytes": 44703,
+    "kind": "cover",
+    "uploaded_at": "2026-10-05T08:21:42.427Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Menard Oceania Pty Ltd",
+  "role": "Intern Drafter",
+  "location": "Macquarie Park, Sydney NSW",
+  "job_url": "https://www.seek.com.au/job/94814358",
+  "company_url": "https://menardoceania.com.au/",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "Alexandre Hubaut",
+  "recipient_role": "Design Manager",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://menardoceania.com.au/about-us/management/",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Application: Intern Drafter, Macquarie Park, Marc Masarate",
+  "email_body": "",
+  "fit": [
+   "Entry intern drafting role supporting senior drafters and design engineers on civil, structural and geotechnical drawings, with structured training; asks basic AutoCAD with Civil 3D advantageous, which Marc has from his Advanced Diploma.",
+   "Drawing standards, Microsoft Office and attention to detail match his coursework drawings and site records work in the Philippines.",
+   "Macquarie Park, Sydney needs relocation; full working rights are required and his Subclass 485 visa gives full rights to December 2027."
+  ],
+  "gaps": [
+   "No commercial drafting experience",
+   "No geotechnical or ground improvement drafting",
+   "Sydney relocation"
+  ],
+  "match_score": {
+   "percent": 76,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Entry intern drafting role supporting senior drafters and design engineers on civil, structural and geotechnical drawings, with structured training; asks basic AutoCAD with Civil 3D advantageous, which Marc has from his Advanced Diploma.",
+    "Drawing standards, Microsoft Office and attention to detail match his coursework drawings and site records work in the Philippines.",
+    "Macquarie Park, Sydney needs relocation; full working rights are required and his Subclass 485 visa gives full rights to December 2027."
+   ],
+   "caution": "Software use is coursework, not commercial drafting. Geotechnical ground improvement drawings are new to him. Intern framing may suit students; the advert does not require enrolment. Sydney relocation for Marc to confirm."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-09-22T23:39:20.820Z",
+   "expires_at": "2026-10-23T12:59:59.999Z",
+   "verified_at": "2026-10-05T08:17:17.000Z",
+   "apply_instructions": "Apply on SEEK (job 94814358). Screening asks right to work, years as draftsperson and notice period.",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a draftsperson?",
+    "How much notice are you required to give your current employer?"
+   ]
+  },
+  "screening_answers": {
+   "Which of the following statements best describes your right to work in Australia?": "Choose the temporary visa option with full work rights (Subclass 485, full working rights until December 2027). Do not choose citizen or permanent resident.",
+   "How many years' experience do you have as a draftsperson?": "No commercial drafting experience (choose the lowest option, for example less than 1 year); drafting is from the Advanced Diploma coursework.",
+   "How much notice are you required to give your current employer?": "MARC TO CONFIRM (no notice period on record)."
+  },
+  "checklist": [
+   "Open SEEK job 94814358 while signed in as Marc",
+   "Attach the resume and this cover letter",
+   "Answer right to work as the Subclass 485 full work rights option, never citizen or PR",
+   "Ask Marc for notice period before answering",
+   "Submit, then mark the tracker record Applied and keep the SEEK receipt"
+  ],
+  "notes": "SEEK widening this tick (14 day window, beyond the 80 detail cap). Listed 22 Sep 2026, expires 23 Oct 2026. SEEK apply only; Design Manager named on the employer team page without an email. Gmail checked for Menard: no prior application. Prepared for Jeremie or Marc.\nEmployer team page names the Design Manager but publishes no personal business email; the only email on the contact page is a generic info@ inbox with no statement that it accepts applications, so not used. SEEK apply only.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-09-22, closes 2026-10-23). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Alexandre Hubaut (Design Manager (Sydney, HQ); advert says the intern is mentored by the Design Manager). Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Intern Drafter role on SEEK.\n• They may ask about: No commercial drafting experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No geotechnical or ground improvement drafting → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Sydney relocation → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-09-22, closes 2026-10-23). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Alexandre Hubaut (Design Manager (Sydney, HQ); advert says the intern is mentored by the Design Manager). Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Intern Drafter role on SEEK.",
+   "They may ask about: No commercial drafting experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No geotechnical or ground improvement drafting → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Sydney relocation → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-05T08:21:41.000Z",
+  "seek_id": "94814358",
+  "duplicate_key": "menardoceaniaptyltd|seek:94814358"
+ },
+ {
+  "id": "8996c842-3836-496f-8573-2d3605311c86",
+  "key": "manual:8996c842-3836-496f-8573-2d3605311c86",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261005T0811Z",
+  "created_at": "2026-10-05T08:21:45.000Z",
+  "updated_at": "2026-10-05T08:21:45.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "05b42b35-6382-4d48-8aac-78eb1c415f77",
+    "path": "/api/documents/05b42b35-6382-4d48-8aac-78eb1c415f77",
+    "filename": "Marc_Masarate_Moodie_Associates_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-05T08:21:47.072Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "ee93dc4b-d07b-4766-972c-f9f5680d74d6",
+    "path": "/api/documents/ee93dc4b-d07b-4766-972c-f9f5680d74d6",
+    "filename": "Marc_Masarate_Moodie_Associates_Speculative_enquiry_graduate_civil_desig_Cover_Letter.pdf",
+    "sha256": "87967c2109dd057a9ed7a9802497e028a619bc0466cbc5558074d2ab1550efb4",
+    "size_bytes": 49913,
+    "kind": "cover",
+    "uploaded_at": "2026-10-05T08:21:45.836Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Moodie & Associates",
+  "role": "Speculative enquiry: graduate civil designer or drafter (Werribee)",
+  "location": "Werribee VIC",
+  "job_url": "https://www.moodieengineering.com.au/",
+  "company_url": "https://www.moodieengineering.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "Tony Moodie",
+  "recipient_role": "Founder",
+  "recipient_email": "tony@moodieengineering.com.au",
+  "contact_email": "tony@moodieengineering.com.au",
+  "contact_evidence_url": "https://www.moodieengineering.com.au/about",
+  "contact_verified_at": "2026-10-05T08:21:45.000Z",
+  "contact_confidence": "published_direct",
+  "subject": "Speculative enquiry, graduate civil designer, Werribee, Marc Darenz Masarate",
+  "email_body": "Hi Tony,\n\nThis is a speculative enquiry, as I couldn't see a careers page on your site. I wanted to write to you directly because your Werribee office is close to me and your work is the kind I want to learn.\n\nI completed an Advanced Diploma of Civil Construction Design in February 2026, covering road geometry, earthworks, pavement and stormwater drainage, documented in Civil 3D and AutoCAD. In 2019 and 2020 I worked in the Philippines as a project-in-charge engineer and then a field engineer, handling site inspections, quality checks and progress reports. I live in Melton, hold a White Card and an Australian driver's licence with my own transport, and have full working rights on a Subclass 485 visa until December 2027.\n\nYour civil design for the 75-lot Coburns Road subdivision in Melton South caught my eye, since that is my own area. I haven't yet worked in an Australian design office or designed sewer and water reticulation, so I would start under supervision.\n\nWould you be open to a short chat if a graduate design or drafting place comes up? I've attached my resume and cover letter.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Werribee civil consultancy doing subdivision civil design and documentation (roads, drainage, earthworks) across Victoria, including a 75-lot subdivision in Melton South; Marc's coursework is road geometry, earthworks, pavement and stormwater design in Civil 3D and AutoCAD.",
+   "Werribee is a short drive from Melton; Marc has a licence and own transport.",
+   "Small senior-led firm whose founder publishes his business email, so a direct note is likely to be read."
+  ],
+  "gaps": [
+   "No advertised vacancy",
+   "No Australian consulting or design office experience",
+   "No sewer or water reticulation design on a job"
+  ],
+  "match_score": {
+   "percent": 72,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Werribee civil consultancy doing subdivision civil design and documentation (roads, drainage, earthworks) across Victoria, including a 75-lot subdivision in Melton South; Marc's coursework is road geometry, earthworks, pavement and stormwater design in Civil 3D and AutoCAD.",
+    "Werribee is a short drive from Melton; Marc has a licence and own transport.",
+    "Small senior-led firm whose founder publishes his business email, so a direct note is likely to be read."
+   ],
+   "caution": "Speculative: no advertised vacancy. No Australian design office experience; has not worked on sewer or water reticulation design, which is part of subdivision work."
+  },
+  "advert": {
+   "source": "employer_site",
+   "listed_at": "",
+   "expires_at": "",
+   "verified_at": "2026-10-05T08:21:45.000Z",
+   "apply_instructions": "Speculative enquiry by email to tony@moodieengineering.com.au.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Re-read moodieengineering.com.au and confirm tony@moodieengineering.com.au is still published",
+   "Gmail in:anywhere search for moodieengineering before any send",
+   "Attach resume and cover letter PDFs",
+   "Keep the speculative label in subject and opening line",
+   "Do not claim sewer, water or Australian design office experience"
+  ],
+  "notes": "Councils and government rotation tick; no publishable council advert left after dedupe, so the runbook's one speculative enquiry. No advertised vacancy (no careers page; no SEEK advert in 30 days). Contact is the founder's business email published by the employer. Nothing sent this tick.\nFounder's business email published by the employer on home, about and contact pages (mailto link). No careers page; no recruiter involved. Gmail in:anywhere search for moodieengineering / Moodie & Associates on 5 Oct 2026: no prior contact.\nHOW GROK AI FOUND THIS\nFound on employer_site (listed date not shown). Contact: Tony Moodie (Founder), whose work email the employer publishes at https://www.moodieengineering.com.au/about. Named people seen on employer pages: Tony Moodie (Founder (established the practice in 1985)); Naresh (New project enquiries (phone only)). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Speculative enquiry: graduate civil designer or drafter (Werribee) role on SEEK.\n• They may ask about: No advertised vacancy → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian consulting or design office experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No sewer or water reticulation design on a job → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_site (listed date not shown). Contact: Tony Moodie (Founder), whose work email the employer publishes at https://www.moodieengineering.com.au/about. Named people seen on employer pages: Tony Moodie (Founder (established the practice in 1985)); Naresh (New project enquiries (phone only)). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Speculative enquiry: graduate civil designer or drafter (Werribee) role on SEEK.",
+   "They may ask about: No advertised vacancy → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian consulting or design office experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No sewer or water reticulation design on a job → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-05T08:21:45.000Z",
+  "duplicate_key": "moodieassociates|moodieengineering.com.au"
+ }
+]

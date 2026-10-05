@@ -75,3 +75,10 @@ One line of reasoning per decision. Newest at the bottom of each section. The ow
 - Dropped GPA (3-10 yrs), SCP (building services 5-6 yrs), NOTAZ (3 yrs) under threshold rather than lowering fit.
 - Councils/government rotation: no new verified open junior council civil beyond Whitehorse SEEK; Wyndham SelectMinds graduate link errored; careers.vic Project Officer 404.
 - Did not email Cascada sales@ (sales inbox, not applications). No Gmail send tool on connector; left READY_* packs for Jeremie/Marc.
+
+### Tick 20261005T0811Z (Grok AI, councils and government rotation)
+- SEEK d3, d7 and d14 sweeps left almost nothing unscreened inside the 80 detail cap; fetched details for unseen not-detailed listings by relevance instead, which surfaced Menard Oceania Intern Drafter (READY_JEREMIE_SEEK).
+- City of Newcastle Graduate Engineer (Asset Services, Contracts): PDs require a Bachelor of Engineering with Engineers Australia admission eligibility; Marc's Philippine BSCE recognition is unconfirmed, and the employer already has a held record (Cadet Engineer), so publish.py held skipped them by design.
+- Gunnedah GSC657 found on applynow is the same role as the 28 Sep record; dropped. Bogan Shire Technical Officer (3 years experience) and Charles Sturt graduate program (unrestricted work rights for two-year term) skipped as mandatory unmet. Lake Macquarie cadetship excludes degree holders.
+- One speculative enquiry: Moodie & Associates, Werribee, to the founder's employer-published business email (PREPARED_NOT_SENT). Not sent: canonical journal lease still inaccessible from this box.
+- browse.py needs CHROME_BIN=/usr/bin/google-chrome on this box.

@@ -1,0 +1,27 @@
+{
+ "company_url": "https://www.moodieengineering.com.au/",
+ "careers_url": "",
+ "recipient_name": "Tony Moodie",
+ "recipient_role": "Founder",
+ "recipient_email": "tony@moodieengineering.com.au",
+ "contact_evidence_url": "https://www.moodieengineering.com.au/about",
+ "evidence_quote": "Established by Tony Moodie in Melbourne in 1985 ... Email tony@moodieengineering.com.au",
+ "contact_confidence": "published_direct",
+ "named_people": [
+  {
+   "name": "Tony Moodie",
+   "role": "Founder (established the practice in 1985)",
+   "email": "tony@moodieengineering.com.au",
+   "evidence_url": "https://www.moodieengineering.com.au/about"
+  },
+  {
+   "name": "Naresh",
+   "role": "New project enquiries (phone only)",
+   "email": "",
+   "evidence_url": "https://www.moodieengineering.com.au/contact"
+  }
+ ],
+ "employer_line": "Moodie & Associates prepared the civil design and documentation for the 75-lot Coburns Road subdivision in Melton South, from its Werribee office.",
+ "notes": "Founder's business email published by the employer on home, about and contact pages (mailto link). No careers page; no recruiter involved. Gmail in:anywhere search for moodieengineering / Moodie & Associates on 5 Oct 2026: no prior contact.",
+ "checked_at": "2026-10-05T08:24:00Z"
+}
