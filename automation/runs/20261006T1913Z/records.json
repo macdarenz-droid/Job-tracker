@@ -1,0 +1,107 @@
+[
+ {
+  "id": "f7c1ca46-264b-4e60-b1be-85dd19387de1",
+  "key": "manual:f7c1ca46-264b-4e60-b1be-85dd19387de1",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261006T1913Z",
+  "created_at": "2026-10-06T19:19:40.000Z",
+  "updated_at": "2026-10-06T19:19:40.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "1d570a06-d020-4738-8b3c-b0a6dc62536c",
+    "path": "/api/documents/1d570a06-d020-4738-8b3c-b0a6dc62536c",
+    "filename": "Marc_Masarate_Tomkinson_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-06T19:19:43.871Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "fabf07fe-8ccc-46da-bbef-096270292a48",
+    "path": "/api/documents/fabf07fe-8ccc-46da-bbef-096270292a48",
+    "filename": "Marc_Masarate_Tomkinson_Speculative_enquiry_graduate_civil_desig_Cover_Letter.pdf",
+    "sha256": "5c2f949f9781b3469b49fd7814422cf39e40db067045919c13547167269ff3d5",
+    "size_bytes": 47011,
+    "kind": "cover",
+    "uploaded_at": "2026-10-06T19:19:42.606Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Tomkinson",
+  "role": "Speculative enquiry: graduate civil designer or junior design engineer (Ballarat, Bendigo, Melbourne)",
+  "location": "Ballarat VIC",
+  "job_url": "https://tomkinson.com/about/careers/",
+  "company_url": "https://tomkinson.com/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Careers expression of interest inbox",
+  "recipient_email": "careers@tomkinson.com",
+  "contact_email": "careers@tomkinson.com",
+  "contact_evidence_url": "https://tomkinson.com/about/careers/",
+  "contact_verified_at": "2026-10-06T19:19:40.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Expression of interest: graduate civil designer or junior design engineer, Marc Darenz Masarate",
+  "email_body": "Hi Tomkinson team,\n\nThis is a speculative expression of interest, sent because your careers page invites one and says junior people starting their careers are welcome. I'm looking for a graduate civil designer or junior design engineer place.\n\nI completed an Advanced Diploma of Civil Construction Design in February 2026, covering road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD, and I hold a civil engineering degree from the Philippines. In 2019 and 2020 I worked on site there as a project-in-charge engineer and then a field engineer on residential subdivision finishing works. I live in Melton, hold a White Card and an Australian driver's licence, and have full working rights on a Subclass 485 visa until December 2027. I'm available for site and regional work.\n\nYour design engineers work on subdivision roads, drainage and water and sewer reticulation, and your Ballarat and Melbourne offices are within reach of Melton. I haven't worked in Australian consulting yet, so I would start under supervision.\n\nWould you keep me in mind for a junior design role, or be open to a short chat? I've attached my resume and cover letter.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Victorian land development consultancy (planning, surveying, civil engineering) whose design engineers work on roads, drainage, water and sewer reticulation for subdivisions, matching Marc's road geometry, earthworks, pavement and stormwater coursework in Civil 3D and AutoCAD.",
+   "Careers page says junior people commencing their careers are welcome and invites an expression of interest with a CV to careers@tomkinson.com.",
+   "Offices in Melbourne, Ballarat, Bendigo, Torquay and Wangaratta; Ballarat and Melbourne are within reach of Melton, and regional Victoria suits Marc."
+  ],
+  "gaps": [
+   "No advertised junior vacancy",
+   "No Australian consulting or land development design experience",
+   "No water and sewer reticulation design experience",
+   "No 12d experience stated"
+  ],
+  "match_score": {
+   "percent": 70,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Victorian land development consultancy (planning, surveying, civil engineering) whose design engineers work on roads, drainage, water and sewer reticulation for subdivisions, matching Marc's road geometry, earthworks, pavement and stormwater coursework in Civil 3D and AutoCAD.",
+    "Careers page says junior people commencing their careers are welcome and invites an expression of interest with a CV to careers@tomkinson.com.",
+    "Offices in Melbourne, Ballarat, Bendigo, Torquay and Wangaratta; Ballarat and Melbourne are within reach of Melton, and regional Victoria suits Marc."
+   ],
+   "caution": "Speculative: the careers page states there are no job openings at this time and the three listed roles (Senior Design Engineer Bendigo, Design Engineer and Project Manager Wangaratta) are experienced roles linked to old SEEK adverts. No Australian consulting or land development experience."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "",
+   "expires_at": "",
+   "verified_at": "2026-10-06T19:19:40.000Z",
+   "apply_instructions": "Careers page: 'please send your expression of interest along with your CV to careers@tomkinson.com'.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Re-read tomkinson.com/about/careers and confirm it still invites expressions of interest to careers@tomkinson.com",
+   "Gmail in:anywhere search for tomkinson.com and Tomkinson before any send (none found on 7 Oct 2026)",
+   "Marc confirms which office suits him (Ballarat or Melbourne first; Bendigo, Torquay or Wangaratta if open to relocating)",
+   "Attach resume and cover letter PDFs; keep the expression of interest label in the subject and opening line",
+   "Do not claim Australian consulting, land development, water and sewer reticulation or 12d experience"
+  ],
+  "notes": "Councils and government rotation tick. SEEK d3 sweep found 38 new listings but none at fit 60 with mandatories clear; council and water corporation boards were closed, already tracked, or degree only. So the runbook's one speculative enquiry. No advertised junior vacancy at Tomkinson. Nothing sent this tick.\nFamily business founded 1973 by Paul Tomkinson; careers page says 'We have junior people commencing their careers through to people looking towards retirement; all are welcome within Tomkinson.' Page also says 'there are no job openings available at this time'; listed roles link to old SEEK ids 86377646, 88709361, 88709953. No named engineering lead with a published email found on the careers page, so the record addresses the careers inbox. tracker.py: Tomkinson not in tracker or prior_outreach. Gmail in:anywhere 'tomkinson OR tomkinson.com' on 7 Oct 2026 AEDT: no threads.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed date not shown). Contact: the application inbox careers@tomkinson.com published by the employer (https://tomkinson.com/about/careers/); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Speculative enquiry: graduate civil designer or junior design engineer (Ballarat, Bendigo, Melbourne) role on SEEK.\n• They may ask about: No advertised junior vacancy → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian consulting or land development design experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No water and sewer reticulation design experience → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed date not shown). Contact: the application inbox careers@tomkinson.com published by the employer (https://tomkinson.com/about/careers/); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Speculative enquiry: graduate civil designer or junior design engineer (Ballarat, Bendigo, Melbourne) role on SEEK.",
+   "They may ask about: No advertised junior vacancy → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian consulting or land development design experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No water and sewer reticulation design experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-06T19:19:40.000Z",
+  "duplicate_key": "tomkinson|tomkinson.com/about/careers"
+ }
+]

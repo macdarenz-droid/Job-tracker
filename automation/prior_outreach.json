@@ -1,7 +1,28 @@
 {
   "_about": "Applications Marc made himself, taken from SEEK receipt emails ('Your application was successfully submitted') in Gmail. tracker.py check blocks a new record for the same employer within repeat_block_days and notes older ones. Refresh each tick when Gmail is attached (search: from:noreply@s.seek.com.au subject:\"successfully submitted\" newer_than:100d); thread previews show only the oldest five messages per thread, so a Gmail search for the employer name before any send is still required. Also lists applications Marc emailed himself (Gmail Sent, 100 days), checked 29 Sep 2026.",
-  "updated_at": "2026-10-04T17:19:53Z",
+  "updated_at": "2026-10-06T19:16:00Z",
   "entries": [
+    {
+      "date": "2026-10-05",
+      "company": "Mott MacDonald",
+      "role": "graduate application via Mott portal (Marc reply to Pepi Llanes thread)",
+      "source": "Gmail sent (Marc)",
+      "gmail_message_id": "1a10b018e906ca14"
+    },
+    {
+      "date": "2026-10-07",
+      "company": "FIELD Engineers",
+      "role": "Engineering Technician (employer portal application received)",
+      "source": "Employer receipt (Gmail)",
+      "gmail_message_id": "1a1117dae41be36e"
+    },
+    {
+      "date": "2026-10-07",
+      "company": "Shadforth",
+      "role": "Civil Site and Project Engineers",
+      "source": "SEEK receipt (Gmail)",
+      "gmail_message_id": "1a111698370f6302"
+    },
     {
       "date": "2026-09-26",
       "company": "Canberra Metro Operations Pty Ltd",
@@ -82,7 +103,7 @@
     {
       "date": "2026-09-09",
       "company": "Rocktown Pty Ltd",
-      "role": "Graduate / Junior Site Engineers \u2013 T2D Project & Precast Facility",
+      "role": "Graduate / Junior Site Engineers – T2D Project & Precast Facility",
       "source": "SEEK receipt (Gmail)",
       "gmail_message_id": "1a08633cb73494f9"
     },
@@ -180,7 +201,7 @@
     {
       "date": "2026-08-05",
       "company": "JC Civil Projects Pty Ltd",
-      "role": "FIFO Civil Project Engineers \u2013 Multiple Levels",
+      "role": "FIFO Civil Project Engineers – Multiple Levels",
       "source": "SEEK receipt (Gmail)",
       "gmail_message_id": "19fd24ee902c2c79"
     },

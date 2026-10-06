@@ -602,6 +602,13 @@
    "open_junior_roles": [],
    "notes": "Decmil (a Macmahon company) careers board (UKG Workforce Ready) shows 1 job: Contracts Administrator, North Sydney. The graduate program page still says 2026 registration is open, but that intake began Feb 2026 and requires a university degree.",
    "checked_at": "2026-10-07"
+  },
+  "Tomkinson": {
+   "careers_url": "https://tomkinson.com/about/careers/",
+   "last_checked": "2026-10-07",
+   "notes": "No openings; listed Senior Design Engineer Bendigo, Design Engineer and PM Wangaratta link to old SEEK ids. EOI with CV to careers@tomkinson.com; junior people welcome.",
+   "open_junior_roles": [],
+   "checked_at": "2026-10-07"
   }
  },
  "sweep_log": [
@@ -1082,6 +1089,21 @@
     }
    ],
    "notes": "Saved 1 extra (stantec-civil-cadet-drafter-qld-260000h5); tracker.py check flagged it DUP: recent outreach to same employer (Civil Cadet Drafter - QLD, READY_JEREMIE_EMPLOYER_PORTAL, 2026-09-12). browse.py needed CHROME_BIN=/usr/bin/google-chrome."
+  },
+  {
+   "run_id": "20261006T1913Z",
+   "rotation": "councils_government",
+   "checked_at": "2026-10-06T19:20:00Z",
+   "sources": [
+    "Open web council search: Gunnedah GSC657, City of Adelaide, Geraldton, Mildura already tracked; Knox, Yarra, Shellharbour, Inner West, Gold Coast closed; Warrnambool scholarship for new 2026 students",
+    "Water corporations: Central Highlands Water graduate tracked; Coliban Project Engineer Design and GVW Developer Works Technical Lead experienced",
+    "Break O'Day Council Graduate Engineer (Civil) info pack found but role no longer on employment page",
+    "careersatcouncil.com.au engineer board: no junior civil",
+    "Tomkinson careers: no openings, EOI inbox careers@tomkinson.com, published speculative PREPARED_NOT_SENT"
+   ],
+   "published": [
+    "Tomkinson PREPARED_NOT_SENT (SPECULATIVE_ENQUIRY)"
+   ]
   }
  ]
 }

@@ -1,0 +1,43 @@
+{
+ "seek_id": "tomkinson-speculative-ballarat-20261007",
+ "company": "Tomkinson",
+ "role": "Speculative enquiry: graduate civil designer or junior design engineer (Ballarat, Bendigo, Melbourne)",
+ "location": "Ballarat VIC",
+ "job_url": "https://tomkinson.com/about/careers/",
+ "company_url": "https://tomkinson.com/",
+ "route": "EMAIL",
+ "application_type": "SPECULATIVE_ENQUIRY",
+ "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+ "recipient_name": "",
+ "recipient_role": "Careers expression of interest inbox",
+ "recipient_email": "careers@tomkinson.com",
+ "contact_evidence_url": "https://tomkinson.com/about/careers/",
+ "subject": "Expression of interest: graduate civil designer or junior design engineer, Marc Darenz Masarate",
+ "email_body": "Hi Tomkinson team,\n\nThis is a speculative expression of interest, sent because your careers page invites one and says junior people starting their careers are welcome. I'm looking for a graduate civil designer or junior design engineer place.\n\nI completed an Advanced Diploma of Civil Construction Design in February 2026, covering road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD, and I hold a civil engineering degree from the Philippines. In 2019 and 2020 I worked on site there as a project-in-charge engineer and then a field engineer on residential subdivision finishing works. I live in Melton, hold a White Card and an Australian driver's licence, and have full working rights on a Subclass 485 visa until December 2027. I'm available for site and regional work.\n\nYour design engineers work on subdivision roads, drainage and water and sewer reticulation, and your Ballarat and Melbourne offices are within reach of Melton. I haven't worked in Australian consulting yet, so I would start under supervision.\n\nWould you keep me in mind for a junior design role, or be open to a short chat? I've attached my resume and cover letter.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+ "letter": {
+  "recipient_name": "",
+  "recipient_role": "Hiring team",
+  "company": "Tomkinson",
+  "company_line": "Tomkinson's civil engineers design subdivision roads, drainage and water and sewer reticulation from offices in Melbourne, Ballarat, Bendigo, Torquay and Wangaratta.",
+  "subject": "Expression of interest for a graduate civil designer or junior design engineer role",
+  "greeting": "Dear Tomkinson team,",
+  "paragraphs": [
+   "This is a speculative expression of interest for a graduate civil designer or junior design engineer place at Tomkinson. Your careers page invites expressions of interest and says junior people commencing their careers are welcome, so I am writing to you directly.",
+   "I completed an Advanced Diploma of Civil Construction Design at Albright Institute in February 2026. My coursework covered road geometry, earthworks, pavement systems and stormwater drainage, with drawings prepared and reviewed in AutoCAD and Civil 3D against Australian Standards. I also lodged Before You Dig Australia enquiries and designed around existing services and site constraints. Before coming to Australia I completed a Bachelor of Science in Civil Engineering in the Philippines.",
+   "From April 2019 to February 2020 I worked on site in the Philippines, first as a project-in-charge engineer on a community hall renovation and then as a field engineer on residential subdivision finishing works. I carried out site inspections and quality checks and prepared site reports, material records and progress reports.",
+   "Your land development work, from subdivision roads and drainage to water and sewer reticulation, is the kind of work I want to learn. I have not yet worked in Australian consulting, so I would expect to learn under supervision. I live in Melton, within reach of your Ballarat and Melbourne offices, hold a White Card and an Australian driver's licence, and have full working rights on a Subclass 485 visa until December 2027.",
+   "Thank you for reading this. I've attached my resume and cover letter, and my portfolio is at https://macdarenz-droid.github.io/Portfolio"
+  ],
+  "closing": "Kind regards,"
+ },
+ "screening_answers": {},
+ "checklist": [
+  "Re-read tomkinson.com/about/careers and confirm it still invites expressions of interest to careers@tomkinson.com",
+  "Gmail in:anywhere search for tomkinson.com and Tomkinson before any send (none found on 7 Oct 2026)",
+  "Marc confirms which office suits him (Ballarat or Melbourne first; Bendigo, Torquay or Wangaratta if open to relocating)",
+  "Attach resume and cover letter PDFs; keep the expression of interest label in the subject and opening line",
+  "Do not claim Australian consulting, land development, water and sewer reticulation or 12d experience"
+ ],
+ "notes": "Councils and government rotation tick. SEEK d3 sweep found 38 new listings but none at fit 60 with mandatories clear; council and water corporation boards were closed, already tracked, or degree only. So the runbook's one speculative enquiry. No advertised junior vacancy at Tomkinson. Nothing sent this tick.",
+ "application_method": "Email"
+}
