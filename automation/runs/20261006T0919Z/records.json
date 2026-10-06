@@ -1,0 +1,227 @@
+[
+ {
+  "id": "812f0eaf-95ba-437c-b43f-a45599e0a0bd",
+  "key": "manual:812f0eaf-95ba-437c-b43f-a45599e0a0bd",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261006T0919Z",
+  "created_at": "2026-10-06T09:24:45.000Z",
+  "updated_at": "2026-10-06T09:24:45.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "e51b847e-b783-4b30-ae62-aedc49f6c2ef",
+    "path": "/api/documents/e51b847e-b783-4b30-ae62-aedc49f6c2ef",
+    "filename": "Marc_Masarate_Legeneering_Aust_Pty_Ltd_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-06T09:24:49.468Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "fa17ef15-e9fd-496a-ac87-43e75231de70",
+    "path": "/api/documents/fa17ef15-e9fd-496a-ac87-43e75231de70",
+    "filename": "Marc_Masarate_Legeneering_Aust_Pty_Ltd_Junior_Project_Coordinator_Cover_Letter.pdf",
+    "sha256": "30f3f6d7914cbfc190ae1785550f6bf93ec617b201eaaa8630a333e73983e26b",
+    "size_bytes": 48634,
+    "kind": "cover",
+    "uploaded_at": "2026-10-06T09:24:48.220Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Legeneering (Aust) Pty Ltd",
+  "role": "Junior Project Coordinator",
+  "location": "Henderson, Perth WA",
+  "job_url": "https://www.seek.com.au/job/95082308",
+  "company_url": "https://www.legeneering.com.au/",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95082308",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Junior Project Coordinator application, Marc Darenz Masarate",
+  "email_body": "Hi Legeneering team,\n\nI'm applying for the Junior Structural Project Coordinator role at Henderson advertised on SEEK.\n\nI hold a Bachelor of Science in Civil Engineering and finished an Advanced Diploma of Civil Construction Design in February 2026, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. From April 2019 to February 2020 I worked on site in the Philippines as a project-in-charge engineer and then a field engineer, where I tracked procurement and materials, kept material records and progress reports, and coordinated engineers, subcontractors and suppliers. I hold a White Card and an Australian driver's licence, and have full working rights on a Subclass 485 visa until December 2027. I'm based in Melton VIC and open to discussing relocation to Perth.\n\nThe procurement, material management and documentation side of the role is the work I did on site. I haven't worked in fabrication, heavy industry or oil and gas yet.\n\nCould we talk about the role? I've attached my resume and cover letter.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Junior Structural Project Coordinator at a Henderson fabrication and brownfield oil and gas services company; minimum requirement is a trade or engineering qualification, which Marc's BSCE and Advanced Diploma meet, plus a current driver licence, which he holds.",
+   "Duties (project documentation, procurement and material management, coordination between stakeholders) match his field engineer and project-in-charge work: tracking procurement and materials, site reports and coordinating engineers, subcontractors and suppliers.",
+   "Approximately 1 to 3 years experience is desirable, not essential; fabrication, heavy industry and oil and gas experience are preferred and Marc has none; Perth needs relocation."
+  ],
+  "gaps": [
+   "No fabrication, heavy industry or oil and gas experience (preferred)",
+   "Under one year of project or site experience (1 to 3 years desirable)",
+   "Based in Melton VIC; Henderson WA role needs relocation Marc has not confirmed"
+  ],
+  "match_score": {
+   "percent": 64,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Junior Structural Project Coordinator at a Henderson fabrication and brownfield oil and gas services company; minimum requirement is a trade or engineering qualification, which Marc's BSCE and Advanced Diploma meet, plus a current driver licence, which he holds.",
+    "Duties (project documentation, procurement and material management, coordination between stakeholders) match his field engineer and project-in-charge work: tracking procurement and materials, site reports and coordinating engineers, subcontractors and suppliers.",
+    "Approximately 1 to 3 years experience is desirable, not essential; fabrication, heavy industry and oil and gas experience are preferred and Marc has none; Perth needs relocation."
+   ],
+   "caution": "No fabrication, heavy industry, oil and gas, marine or Defence experience. Site experience is April 2019 to February 2020 (under one year). Perth move is for Marc to confirm."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-06T04:51:40.396Z",
+   "expires_at": "2026-11-05T12:59:59.999Z",
+   "verified_at": "2026-10-06T09:21:13.000Z",
+   "apply_instructions": "Advert says apply via the SEEK link with a copy of your CV. No screening questions listed.",
+   "screening_questions": [
+    "How many years' experience do you have as a project coordinator?",
+    "Which of the following statements best describes your right to work in Australia?",
+    "Have you completed a qualification in engineering?",
+    "Do you have experience in the offshore oil & gas industry?",
+    "Are you willing to undergo a pre-employment medical check?",
+    "Do you have a current Australian driver's licence?"
+   ]
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Search Gmail for Legeneering before submitting (none found on 6 Oct 2026)",
+   "Confirm Marc is willing to move to Perth for this role before applying",
+   "Apply on SEEK https://www.seek.com.au/job/95082308 with the resume and this cover letter",
+   "Answer any SEEK questions from facts only: Subclass 485 to December 2027, driver licence Yes, no fabrication or oil and gas experience",
+   "Mark the tracker record Applied only after SEEK confirms the submission"
+  ],
+  "notes": "Victoria off-site rotation tick; SEEK 3 day sweep find, listed 6 Oct 2026, SEEK expiry 5 Nov 2026, salary $72,000 to $90,000. Direct employer in Henderson, Perth WA. Advert says apply via the SEEK link, so prepared for SEEK; hr@ and careers@ exist but are not the stated route. Gmail checked for Legeneering: no prior contact. Gaps disclosed: no fabrication or oil and gas experience, under one year of site work, Perth relocation for Marc to confirm.\nCareers and contact pages read 6 Oct 2026 (web search). The site lists hr@ under general enquiries, and Legeneering LinkedIn posts ask for resumes at careers@legeneering.com.au for trade roles, but this advert says to apply via the SEEK link with a CV, so SEEK is the route and no email is prepared. Gmail in:anywhere for Legeneering: no prior contact.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-06, closes 2026-11-05). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Junior Project Coordinator role on SEEK.\n• They may ask about: No fabrication, heavy industry or oil and gas experience (preferred) → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Under one year of project or site experience (1 to 3 years desirable) → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Based in Melton VIC; Henderson WA role needs relocation Marc has not confirmed → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-06, closes 2026-11-05). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Junior Project Coordinator role on SEEK.",
+   "They may ask about: No fabrication, heavy industry or oil and gas experience (preferred) → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Under one year of project or site experience (1 to 3 years desirable) → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Based in Melton VIC; Henderson WA role needs relocation Marc has not confirmed → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-06T09:24:45.000Z",
+  "seek_id": "95082308",
+  "duplicate_key": "legeneeringaustptyltd|seek:95082308"
+ },
+ {
+  "id": "4e0d30cb-0d44-4174-849d-5c2314da7ce5",
+  "key": "manual:4e0d30cb-0d44-4174-849d-5c2314da7ce5",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261006T0919Z",
+  "created_at": "2026-10-06T09:24:50.000Z",
+  "updated_at": "2026-10-06T09:24:50.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "d3e9ac35-5a01-41ec-b887-f46c4f333d61",
+    "path": "/api/documents/d3e9ac35-5a01-41ec-b887-f46c4f333d61",
+    "filename": "Marc_Masarate_Dynamic_Steelform_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-06T09:24:52.432Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "40217b8a-91db-4147-9530-6bea9fd9e6e1",
+    "path": "/api/documents/40217b8a-91db-4147-9530-6bea9fd9e6e1",
+    "filename": "Marc_Masarate_Dynamic_Steelform_Junior_Draftsperson_Estimator_Cover_Letter.pdf",
+    "sha256": "865e3b167ba91d7538c717933e47356fcf18069d96e37616697c161e1730648f",
+    "size_bytes": 47200,
+    "kind": "cover",
+    "uploaded_at": "2026-10-06T09:24:51.207Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Dynamic Steelform",
+  "role": "Junior Draftsperson / Estimator",
+  "location": "Forrestdale, Perth WA",
+  "job_url": "https://www.seek.com.au/job/95083621",
+  "company_url": "https://dynamicsteelform.com.au/",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95083621",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Junior Draftsperson / Estimator application, Marc Darenz Masarate",
+  "email_body": "Hi Dynamic Steelform,\n\nI'm applying for the Junior Draftsperson / Estimator role in Forrestdale advertised on SEEK.\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026, where I prepared and reviewed drawings in AutoCAD and Civil 3D for road, earthworks, pavement and stormwater design, and put together cost estimates and bills of quantities. From April 2019 to February 2020 I worked on site in the Philippines as a project-in-charge engineer and then a field engineer, reading structural and architectural drawings, tracking materials and writing progress reports. I hold a White Card and an Australian driver's licence with my own transport, and have full working rights on a Subclass 485 visa until December 2027. I'm based in Melton VIC and open to discussing relocation to Perth.\n\nYour advert welcomes people who have recently finished their studies, and learning steel framing from drawing to factory is the kind of start I want. My drafting and estimating so far is coursework, not paid work.\n\nCould we talk about the role? I've attached my resume and cover letter.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Entry level drafting and estimating role that says it will consider people who have recently completed their studies and provides full training, which fits an Advanced Diploma graduate from February 2026.",
+   "AutoCAD drawing, reading architectural and engineering drawings, quantities and cost estimates (bills of quantities coursework), site visits and inspections, and keeping project records all trace to facts.json.",
+   "Perth location needs an interstate move that Marc has not confirmed; steel framing and estimating software are new to him."
+  ],
+  "gaps": [
+   "No commercial drafting or paid estimating experience (coursework only)",
+   "No steel framing, fabrication or manufacturing experience",
+   "Based in Melton VIC; Perth role needs relocation Marc has not confirmed"
+  ],
+  "match_score": {
+   "percent": 76,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Entry level drafting and estimating role that says it will consider people who have recently completed their studies and provides full training, which fits an Advanced Diploma graduate from February 2026.",
+    "AutoCAD drawing, reading architectural and engineering drawings, quantities and cost estimates (bills of quantities coursework), site visits and inspections, and keeping project records all trace to facts.json.",
+    "Perth location needs an interstate move that Marc has not confirmed; steel framing and estimating software are new to him."
+   ],
+   "caution": "Drafting and estimating experience is coursework only; the SEEK question on years as a draftsperson must be answered as no commercial experience. Interstate move to Perth is for Marc to confirm."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-06T05:37:41.022Z",
+   "expires_at": "2026-11-05T12:59:59.999Z",
+   "verified_at": "2026-10-06T09:20:55.000Z",
+   "apply_instructions": "Apply on SEEK (no link out). Screening: right to work, years as a draftsperson, notice period.",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a draftsperson?",
+    "How much notice are you required to give your current employer?"
+   ]
+  },
+  "screening_answers": {
+   "Which of the following statements best describes your right to work in Australia?": "Temporary visa with full working rights: Subclass 485, full working rights until December 2027.",
+   "How many years' experience do you have as a draftsperson?": "No commercial experience (choose the lowest option; drafting is Advanced Diploma coursework only).",
+   "How much notice are you required to give your current employer?": "Marc to answer (no notice period is on record)."
+  },
+  "checklist": [
+   "Search Gmail for Dynamic Steelform before submitting (none found on 6 Oct 2026)",
+   "Confirm Marc is willing to move to Perth for this role before applying",
+   "Apply on SEEK https://www.seek.com.au/job/95083621 with the resume and this cover letter",
+   "Draftsperson years: choose no experience; right to work: Subclass 485 to December 2027; notice period: Marc's own answer",
+   "Mark the tracker record Applied only after SEEK confirms the submission"
+  ],
+  "notes": "Victoria off-site rotation tick; SEEK 3 day sweep find, listed 6 Oct 2026, SEEK expiry 5 Nov 2026. Direct employer in Forrestdale, Perth WA. Website shows only a sales@ inbox, so prepared for SEEK. Gmail checked for Dynamic Steelform: no prior contact. Gaps disclosed: coursework-only drafting and estimating, no steel framing experience, Perth relocation for Marc to confirm.\nWebsite home and contact pages read 6 Oct 2026 (web search). Only a sales@ inbox, not labelled for applications. Third-party job boards show older factory hand and internal sales adverts asking for resumes to sue@dynamicsteelform.com.au, but that address is not published on the employer's own site and those were different roles, so it is not used. This advert applies through SEEK. Gmail in:anywhere for Dynamic Steelform: no prior contact.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-06, closes 2026-11-05). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Junior Draftsperson / Estimator role on SEEK.\n• They may ask about: No commercial drafting or paid estimating experience (coursework only) → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No steel framing, fabrication or manufacturing experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Based in Melton VIC; Perth role needs relocation Marc has not confirmed → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-06, closes 2026-11-05). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Junior Draftsperson / Estimator role on SEEK.",
+   "They may ask about: No commercial drafting or paid estimating experience (coursework only) → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No steel framing, fabrication or manufacturing experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Based in Melton VIC; Perth role needs relocation Marc has not confirmed → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-06T09:24:50.000Z",
+  "seek_id": "95083621",
+  "duplicate_key": "dynamicsteelform|seek:95083621"
+ }
+]
