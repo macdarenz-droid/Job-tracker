@@ -1,0 +1,328 @@
+[
+ {
+  "id": "41014c9e-a124-4046-950e-2bd7c817c4eb",
+  "key": "manual:41014c9e-a124-4046-950e-2bd7c817c4eb",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261006T0416Z",
+  "created_at": "2026-10-06T04:20:19.000Z",
+  "updated_at": "2026-10-06T04:20:19.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "54ec04b8-6313-4fdb-b834-36b7ea45d1b1",
+    "path": "/api/documents/54ec04b8-6313-4fdb-b834-36b7ea45d1b1",
+    "filename": "Marc_Masarate_GLE_Civil_and_Pipe_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-06T04:20:21.915Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "ee8c892f-cc4d-4286-9594-c838e16f2fa1",
+    "path": "/api/documents/ee8c892f-cc4d-4286-9594-c838e16f2fa1",
+    "filename": "Marc_Masarate_GLE_Civil_and_Pipe_Junior_Estimator_Water_Sewer_Drainage_Cover_Letter.pdf",
+    "sha256": "c7d5c40c06fb0713e8ed903be1c9c3f75de0d09c8036750d56324c808bbc23a4",
+    "size_bytes": 50202,
+    "kind": "cover",
+    "uploaded_at": "2026-10-06T04:20:20.557Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "GLE Civil and Pipe",
+  "role": "Junior Estimator – Water, Sewer & Drainage",
+  "location": "Hoppers Crossing, Melbourne VIC",
+  "job_url": "https://www.seek.com.au/job/95070274",
+  "company_url": "https://glecivil.com.au/",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95070274",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Junior Estimator application, Marc Darenz Masarate",
+  "email_body": "Hi GLE team,\n\nI'm applying for the Junior Estimator role in Hoppers Crossing advertised on SEEK.\n\nI completed an Advanced Diploma of Civil Construction Design in February 2026, covering road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD, so I'm used to reading civil drawings and specifications. From April 2019 to February 2020 I worked on site in the Philippines as a project-in-charge engineer and then a field engineer, where I tracked procurement and materials and prepared material records and progress reports. I live in Melton, hold a White Card and an Australian driver's licence with my own transport, and have full working rights on a Subclass 485 visa until December 2027.\n\nYour drainage work to Melbourne Water and council specifications is close to what I studied. I don't have estimating or tendering experience or Expert Estimation yet, so I would be starting at the junior end and learning your rates and systems.\n\nWould you consider me for an interview? I've attached my resume and cover letter.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Junior Estimator at a Hoppers Crossing water, sewer and drainage contractor, about 20 minutes from Melton, which is the best location fit possible.",
+   "Reading civil drawings and specifications, stormwater drainage coursework (Advanced Diploma, February 2026), procurement and materials tracking and Microsoft Office from his field engineer role match parts of the brief.",
+   "Advert asks for approximately 1 to 3 years in estimating or tendering, which Marc does not have; that lowers the score but is phrased as approximate rather than essential."
+  ],
+  "gaps": [
+   "No estimating or tendering experience (advert asks approximately 1 to 3 years)",
+   "No Expert Estimation software",
+   "No Australian water or sewer project experience"
+  ],
+  "match_score": {
+   "percent": 66,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Junior Estimator at a Hoppers Crossing water, sewer and drainage contractor, about 20 minutes from Melton, which is the best location fit possible.",
+    "Reading civil drawings and specifications, stormwater drainage coursework (Advanced Diploma, February 2026), procurement and materials tracking and Microsoft Office from his field engineer role match parts of the brief.",
+    "Advert asks for approximately 1 to 3 years in estimating or tendering, which Marc does not have; that lowers the score but is phrased as approximate rather than essential."
+   ],
+   "caution": "No estimating or tendering experience and no Expert Estimation; the application must say so plainly. Screening question on estimator years should be answered as no experience."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-05T23:42:42.471Z",
+   "expires_at": "2026-11-05T12:59:59.999Z",
+   "verified_at": "2026-10-06T04:16:34.000Z",
+   "apply_instructions": "Apply on SEEK (no link out). Screening: right to work, years as an estimator, current driver's licence.",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as an Estimator?",
+    "Do you have a current Australian driver's licence?"
+   ]
+  },
+  "screening_answers": {
+   "Which of the following statements best describes your right to work in Australia?": "Temporary visa with full working rights: Subclass 485, full working rights until December 2027.",
+   "How many years' experience do you have as an Estimator?": "No experience (choose the lowest option; do not claim estimating years).",
+   "Do you have a current Australian driver's licence?": "Yes"
+  },
+  "checklist": [
+   "Search Gmail for GLE Civil before submitting (none found on 6 Oct 2026)",
+   "Apply on SEEK https://www.seek.com.au/job/95070274 with the resume and this cover letter",
+   "Estimator years: choose no experience; licence: Yes; right to work: Subclass 485 full working rights to December 2027",
+   "Do not claim quantity take-off, tendering or Expert Estimation experience",
+   "Mark the tracker record Applied only after SEEK confirms the submission"
+  ],
+  "notes": "Councils and government rotation tick; SEEK 3 day sweep find, listed 5 Oct 2026, SEEK expiry 5 Nov 2026. Direct employer, Hoppers Crossing (Melbourne west, about 20 minutes from Melton). Website has a general info@ inbox and a phone contact for Gary only, no application inbox, so prepared for SEEK. Gmail checked for GLE Civil: no prior contact. Gap disclosed: advert asks approximately 1 to 3 years estimating.\nWebsite contact, drainage and water and sewerage pages read 6 Oct 2026. info@ is a general inbox not labelled for applications, so SEEK is the route. Gmail in:anywhere for GLE Civil / glecivil: none.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-05, closes 2026-11-05). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Gary Hennessy (Contact named on the website (phone only)). Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Junior Estimator – Water, Sewer & Drainage role on SEEK.\n• They may ask about: No estimating or tendering experience (advert asks approximately 1 to 3 years) → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Expert Estimation software → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian water or sewer project experience → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-05, closes 2026-11-05). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Gary Hennessy (Contact named on the website (phone only)). Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Junior Estimator – Water, Sewer & Drainage role on SEEK.",
+   "They may ask about: No estimating or tendering experience (advert asks approximately 1 to 3 years) → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Expert Estimation software → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian water or sewer project experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-06T04:20:19.000Z",
+  "seek_id": "95070274",
+  "duplicate_key": "glecivilandpipe|seek:95070274"
+ },
+ {
+  "id": "c0c2dd53-9af2-40f9-b0d4-82d89de45dcb",
+  "key": "manual:c0c2dd53-9af2-40f9-b0d4-82d89de45dcb",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261006T0416Z",
+  "created_at": "2026-10-06T04:20:23.000Z",
+  "updated_at": "2026-10-06T04:20:23.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "f962d7ce-870c-46a9-84a8-8359d06f154e",
+    "path": "/api/documents/f962d7ce-870c-46a9-84a8-8359d06f154e",
+    "filename": "Marc_Masarate_Walters_Contracting_Pty_Ltd_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-06T04:20:25.005Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "4c68f3be-fe99-4d7b-b14c-d23478423436",
+    "path": "/api/documents/4c68f3be-fe99-4d7b-b14c-d23478423436",
+    "filename": "Marc_Masarate_Walters_Contracting_Pty_Ltd_Graduate_Civil_Engineer_Cover_Letter.pdf",
+    "sha256": "4546f21cf755dda10f8c459b3af28a9aafc92bfb2b58c57049687c4633ef0dd0",
+    "size_bytes": 49202,
+    "kind": "cover",
+    "uploaded_at": "2026-10-06T04:20:24.133Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Walters Contracting Pty Ltd",
+  "role": "Graduate Civil Engineer",
+  "location": "Deloraine, Launceston & North East TAS",
+  "job_url": "https://www.seek.com.au/job/95072130",
+  "company_url": "https://www.walterscontracting.net/",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95072130",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Graduate Civil Engineer application, Marc Darenz Masarate",
+  "email_body": "Hi Walters Contracting team,\n\nI'm applying for the Graduate Civil Engineer role advertised on SEEK.\n\nI hold a Bachelor of Science in Civil Engineering from the Philippines and completed an Advanced Diploma of Civil Construction Design in Australia in February 2026, covering road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD. From April 2019 to February 2020 I worked on site in the Philippines as a project-in-charge engineer and then a field engineer, doing inspections, quality checks, crew coordination, materials tracking and progress reports. I'm based in Melton VIC, hold a White Card and an Australian driver's licence, and have full working rights on a Subclass 485 visa until December 2027.\n\nYour advert offers mentoring across planning, procurement, quality and site supervision with a pathway to Civil Project Manager, which is the start I'm looking for. I haven't worked on an Australian site yet, and I'm open to discussing relocation to northern Tasmania.\n\nCould we arrange a short call? I've attached my resume and cover letter.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Graduate Civil Engineer role asking for a civil engineering degree, which Marc holds (BSCE, Divine Word College of Legazpi, 2014 to 2019), plus an Australian Advanced Diploma of Civil Construction Design (February 2026).",
+   "Duties (site supervision, procurement and subcontractor coordination, quality and safety, progress and client communication) match his Philippines project-in-charge and field engineer work, April 2019 to February 2020.",
+   "Advert says previous construction experience is beneficial but not essential and offers on-the-job mentoring; regional Tasmania needs an interstate move Marc has not yet confirmed."
+  ],
+  "gaps": [
+   "Relocation to Deloraine/northern Tasmania not yet confirmed by Marc",
+   "No Australian construction site experience",
+   "No cost tracking or programming software experience claimed"
+  ],
+  "match_score": {
+   "percent": 82,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Graduate Civil Engineer role asking for a civil engineering degree, which Marc holds (BSCE, Divine Word College of Legazpi, 2014 to 2019), plus an Australian Advanced Diploma of Civil Construction Design (February 2026).",
+    "Duties (site supervision, procurement and subcontractor coordination, quality and safety, progress and client communication) match his Philippines project-in-charge and field engineer work, April 2019 to February 2020.",
+    "Advert says previous construction experience is beneficial but not essential and offers on-the-job mentoring; regional Tasmania needs an interstate move Marc has not yet confirmed."
+   ],
+   "caution": "Interstate relocation to northern Tasmania for Marc to confirm before applying. No Australian construction site experience; overseas site work was under one year."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-06T00:48:58.828Z",
+   "expires_at": "2026-11-05T12:59:59.999Z",
+   "verified_at": "2026-10-06T04:16:27.000Z",
+   "apply_instructions": "Apply on SEEK (no link out). Only screening question is right to work.",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?"
+   ]
+  },
+  "screening_answers": {
+   "Which of the following statements best describes your right to work in Australia?": "Temporary visa with full working rights: Subclass 485, full working rights until December 2027."
+  },
+  "checklist": [
+   "Marc confirms he is willing to relocate to Deloraine or northern Tasmania before applying",
+   "Search Gmail for Walters Contracting before submitting (none found on 6 Oct 2026)",
+   "Apply on SEEK https://www.seek.com.au/job/95072130 with the resume and this cover letter",
+   "Right to work answer: Subclass 485 visa, full working rights until December 2027",
+   "Mark the tracker record Applied only after SEEK confirms the submission"
+  ],
+  "notes": "Councils and government rotation tick; SEEK 3 day sweep find, listed 6 Oct 2026, SEEK expiry 5 Nov 2026. Direct employer advert, no link out. No published application email or named hiring person, so prepared for SEEK. Gmail checked for Walters Contracting: no prior contact. The advert asks for a civil engineering degree; Marc's BSCE meets it.\nWebsite and directory listings read 6 Oct 2026; no named engineering manager with a published email and no stated application inbox, so SEEK is the route. Gmail in:anywhere for Walters Contracting / walterscontracting: none.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-06, closes 2026-11-05). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate Civil Engineer role on SEEK.\n• They may ask about: Relocation to Deloraine/northern Tasmania not yet confirmed by Marc → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian construction site experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No cost tracking or programming software experience claimed → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-06, closes 2026-11-05). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate Civil Engineer role on SEEK.",
+   "They may ask about: Relocation to Deloraine/northern Tasmania not yet confirmed by Marc → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian construction site experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No cost tracking or programming software experience claimed → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-06T04:20:23.000Z",
+  "seek_id": "95072130",
+  "duplicate_key": "walterscontractingptyltd|seek:95072130"
+ },
+ {
+  "id": "4a4d7656-4aed-44a8-bcbc-d59b0ff5f902",
+  "key": "manual:4a4d7656-4aed-44a8-bcbc-d59b0ff5f902",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261006T0416Z",
+  "created_at": "2026-10-06T04:20:26.000Z",
+  "updated_at": "2026-10-06T04:20:26.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "2d47ea7c-b4f4-4fcd-8b25-1d51efd09cff",
+    "path": "/api/documents/2d47ea7c-b4f4-4fcd-8b25-1d51efd09cff",
+    "filename": "Marc_Masarate_Price_Merrett_Consulting_Pty_Ltd_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-06T04:20:28.055Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "024b914c-15c2-4e14-9451-240a8e1d8bc5",
+    "path": "/api/documents/024b914c-15c2-4e14-9451-240a8e1d8bc5",
+    "filename": "Marc_Masarate_Price_Merrett_Consulting_Pty_Ltd_Speculative_enquiry_graduate_civil_engin_Cover_Letter.pdf",
+    "sha256": "9cf405dda4517a3c5bf7c1b6054d64378aeaea39e7707531acdf803dafeb5f7d",
+    "size_bytes": 47158,
+    "kind": "cover",
+    "uploaded_at": "2026-10-06T04:20:27.206Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Price Merrett Consulting Pty Ltd",
+  "role": "Speculative enquiry: graduate civil engineer or civil designer (Kerang, Mildura, Swan Hill)",
+  "location": "Kerang VIC",
+  "job_url": "https://www.pricemerrett.com.au/careers",
+  "company_url": "https://www.pricemerrett.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Careers application inbox (Mildura office)",
+  "recipient_email": "pmc.mildura@pricemerrett.com.au",
+  "contact_email": "pmc.mildura@pricemerrett.com.au",
+  "contact_evidence_url": "https://www.pricemerrett.com.au/careers",
+  "contact_verified_at": "2026-10-06T04:20:26.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Speculative application: graduate civil engineer or civil designer, Marc Darenz Masarate",
+  "email_body": "Hi Price Merrett team,\n\nThis is a speculative application, sent because your careers page says you want to hear from people looking to join the team. I'm looking for a graduate civil engineer or civil designer place.\n\nI completed an Advanced Diploma of Civil Construction Design in February 2026, covering road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD, and I hold a civil engineering degree from the Philippines. In 2019 and 2020 I worked on site there as a project-in-charge engineer and then a field engineer on residential subdivision finishing works. I live in Melton, hold a White Card and an Australian driver's licence, and have full working rights on a Subclass 485 visa until December 2027. I'm available for regional work and open to discussing relocation to Kerang, Mildura or Swan Hill.\n\nYour infrastructure team designs council roads, kerb and channel and subdivisions, which is the work I trained for. I haven't worked in Australian consulting yet, so I would start under supervision.\n\nWould you keep me in mind for a graduate role, or be open to a short chat? I've attached my resume and cover letter.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Regional Victorian consultancy whose infrastructure team surveys, designs and manages council road projects (kerb and channel, footpaths, roundabouts, car parks) and subdivisions, matching Marc's road geometry, earthworks, pavement and stormwater coursework in Civil 3D and AutoCAD.",
+   "Its land development work includes plans prepared in CAD, liaison with water and sewerage authorities and site supervision, which fits his Before You Dig Australia coursework and Philippines subdivision field engineer work.",
+   "Careers page says 'we want to hear from you' and links an email application button; northern Victoria is regional, which Marc is available for."
+  ],
+  "gaps": [
+   "No advertised vacancy",
+   "No Australian construction or consulting experience",
+   "No surveying or irrigation design experience"
+  ],
+  "match_score": {
+   "percent": 72,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Regional Victorian consultancy whose infrastructure team surveys, designs and manages council road projects (kerb and channel, footpaths, roundabouts, car parks) and subdivisions, matching Marc's road geometry, earthworks, pavement and stormwater coursework in Civil 3D and AutoCAD.",
+    "Its land development work includes plans prepared in CAD, liaison with water and sewerage authorities and site supervision, which fits his Before You Dig Australia coursework and Philippines subdivision field engineer work.",
+    "Careers page says 'we want to hear from you' and links an email application button; northern Victoria is regional, which Marc is available for."
+   ],
+   "caution": "Speculative: no advertised vacancy. Needs relocation within Victoria to Kerang, Mildura or Swan Hill (open to discussing). No Australian site or paid design experience."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "",
+   "expires_at": "",
+   "verified_at": "2026-10-06T04:20:26.000Z",
+   "apply_instructions": "Careers page 'Click here to email your application' button (mailto pmc.mildura@pricemerrett.com.au).",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Re-read pricemerrett.com.au/careers and confirm the email application button still points to pmc.mildura@pricemerrett.com.au",
+   "Gmail in:anywhere search for pricemerrett.com.au and Price Merrett before any send (none found on 6 Oct 2026)",
+   "Marc confirms he would move to Kerang, Mildura or Swan Hill",
+   "Attach resume and cover letter PDFs; keep the speculative label in the subject and opening line",
+   "Do not claim Australian site, consulting, surveying or irrigation experience"
+  ],
+  "notes": "Councils and government rotation tick. Council boards (Knox, Yarra, Shellharbour, Warrnambool) were closed or student-only, so the runbook's one speculative enquiry. Price Merrett was researched in tick 20261005T2313Z and re-verified today. No advertised vacancy. Nothing sent this tick.\nRegional northern-Victoria multidisciplinary firm (surveying, civil/environmental engineering, irrigation design, planning) since 1980; offices Kerang, Mildura, Swan Hill - outside the Melbourne west/Geelong/Ballarat/Bendigo priority band, so would need relocation (regional, which may suit 485 plans). The careers 'email your application' button points to pmc.mildura@...; engineering staff (Director/Senior Engineer Mark Carter, Civil Designer Nathan Walle) are at Kerang (pmc@pricemerrett.com.au is the Kerang office inbox but is not itself labelled for applications). Address to 'Mark Carter, Director / Senior Engineer' by name only, sent to the published application inbox. tracker.py check: new, not blocked. Gmail search (pricemerrett / 'Price Merrett'): no prior contact. Re-read careers and engineering pages 6 Oct 2026: careers text unchanged, Mildura inbox listed. Gmail in:anywhere for Price Merrett / pricemerrett on 6 Oct 2026: none.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed date not shown). Contact: the application inbox pmc.mildura@pricemerrett.com.au published by the employer (https://www.pricemerrett.com.au/careers); no personal address was used. Named people seen on employer pages: Mark Carter (Director / Senior Engineer (Kerang)); Josh Brice (Director / Licensed Surveyor (Mildura)); Andrew Merrett (Director / Licensed Surveyor (Swan Hill)). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Speculative enquiry: graduate civil engineer or civil designer (Kerang, Mildura, Swan Hill) role on SEEK.\n• They may ask about: No advertised vacancy → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian construction or consulting experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No surveying or irrigation design experience → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed date not shown). Contact: the application inbox pmc.mildura@pricemerrett.com.au published by the employer (https://www.pricemerrett.com.au/careers); no personal address was used. Named people seen on employer pages: Mark Carter (Director / Senior Engineer (Kerang)); Josh Brice (Director / Licensed Surveyor (Mildura)); Andrew Merrett (Director / Licensed Surveyor (Swan Hill)). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Speculative enquiry: graduate civil engineer or civil designer (Kerang, Mildura, Swan Hill) role on SEEK.",
+   "They may ask about: No advertised vacancy → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian construction or consulting experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No surveying or irrigation design experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-06T04:20:26.000Z",
+  "duplicate_key": "pricemerrettconsultingptyltd|pricemerrett.com.au/careers"
+ }
+]

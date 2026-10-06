@@ -1,0 +1,43 @@
+{
+ "seek_id": "price-merrett-speculative-kerang-20261006",
+ "company": "Price Merrett Consulting Pty Ltd",
+ "role": "Speculative enquiry: graduate civil engineer or civil designer (Kerang, Mildura, Swan Hill)",
+ "location": "Kerang VIC",
+ "job_url": "https://www.pricemerrett.com.au/careers",
+ "company_url": "https://www.pricemerrett.com.au/",
+ "route": "EMAIL",
+ "application_type": "SPECULATIVE_ENQUIRY",
+ "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+ "recipient_name": "",
+ "recipient_role": "Careers application inbox (Mildura office)",
+ "recipient_email": "pmc.mildura@pricemerrett.com.au",
+ "contact_evidence_url": "https://www.pricemerrett.com.au/careers",
+ "subject": "Speculative application: graduate civil engineer or civil designer, Marc Darenz Masarate",
+ "email_body": "Hi Price Merrett team,\n\nThis is a speculative application, sent because your careers page says you want to hear from people looking to join the team. I'm looking for a graduate civil engineer or civil designer place.\n\nI completed an Advanced Diploma of Civil Construction Design in February 2026, covering road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD, and I hold a civil engineering degree from the Philippines. In 2019 and 2020 I worked on site there as a project-in-charge engineer and then a field engineer on residential subdivision finishing works. I live in Melton, hold a White Card and an Australian driver's licence, and have full working rights on a Subclass 485 visa until December 2027. I'm available for regional work and open to discussing relocation to Kerang, Mildura or Swan Hill.\n\nYour infrastructure team designs council roads, kerb and channel and subdivisions, which is the work I trained for. I haven't worked in Australian consulting yet, so I would start under supervision.\n\nWould you keep me in mind for a graduate role, or be open to a short chat? I've attached my resume and cover letter.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+ "letter": {
+  "recipient_name": "",
+  "recipient_role": "Hiring team",
+  "company": "Price Merrett Consulting Pty Ltd",
+  "company_line": "Price Merrett's infrastructure team surveys, designs and manages council road projects and has designed and supervised subdivisions from 2 to more than 200 lots.",
+  "subject": "Speculative application for a graduate civil engineer or civil designer role",
+  "greeting": "Dear Price Merrett team,",
+  "paragraphs": [
+   "This is a speculative application for a graduate civil engineer or civil designer place at Price Merrett Consulting. Your careers page says you want to hear from people who want to join a consultancy where fresh ideas are welcomed, so I am writing to you directly.",
+   "I completed an Advanced Diploma of Civil Construction Design at Albright Institute in February 2026. My coursework covered road geometry, earthworks, pavement systems and stormwater drainage, with drawings prepared and reviewed in AutoCAD and Civil 3D against Australian Standards. I also lodged Before You Dig Australia enquiries and designed around existing services and site constraints. Before coming to Australia I completed a Bachelor of Science in Civil Engineering in the Philippines.",
+   "From April 2019 to February 2020 I worked on site in the Philippines, first as a project-in-charge engineer on a community hall renovation and then as a field engineer on residential subdivision finishing works. I carried out site inspections and quality checks and prepared site reports, material records and progress reports.",
+   "Your council road and subdivision design work, from kerb and channel to roundabouts and car parks, is the kind of work I want to learn. I have not yet worked in Australian consulting, so I would expect to learn under supervision. I hold a White Card and an Australian driver's licence, have full working rights on a Subclass 485 visa until December 2027, and I am open to discussing relocation to Kerang, Mildura or Swan Hill.",
+   "Thank you for reading this. I've attached my resume and cover letter, and my portfolio is at https://macdarenz-droid.github.io/Portfolio"
+  ],
+  "closing": "Kind regards,"
+ },
+ "screening_answers": {},
+ "checklist": [
+  "Re-read pricemerrett.com.au/careers and confirm the email application button still points to pmc.mildura@pricemerrett.com.au",
+  "Gmail in:anywhere search for pricemerrett.com.au and Price Merrett before any send (none found on 6 Oct 2026)",
+  "Marc confirms he would move to Kerang, Mildura or Swan Hill",
+  "Attach resume and cover letter PDFs; keep the speculative label in the subject and opening line",
+  "Do not claim Australian site, consulting, surveying or irrigation experience"
+ ],
+ "notes": "Councils and government rotation tick. Council boards (Knox, Yarra, Shellharbour, Warrnambool) were closed or student-only, so the runbook's one speculative enquiry. Price Merrett was researched in tick 20261005T2313Z and re-verified today. No advertised vacancy. Nothing sent this tick.",
+ "application_method": "Email"
+}
