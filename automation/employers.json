@@ -266,29 +266,53 @@
    ]
   },
   "Wagners": {
-   "careers_url": "https://www.wagner.com.au/careers/",
-   "last_checked": "2026-10-03",
-   "notes": "Speculative PREPARED_NOT_SENT careers@wagner.com.au this tick"
+   "careers_url": "https://wgn.chris21.com/WGN_MER21p/Home/Index#!/",
+   "last_checked": "2026-10-07",
+   "notes": "The careers page \"Search & Apply For Roles\" button goes to a Frontier chris21 portal. It reports 1 open vacancy, but the row would not render in headless Chrome, so its title could not be read. A web search found no current Wagners engineering, drafting or graduate adverts.",
+   "open_junior_roles": [],
+   "checked_at": "2026-10-07"
   },
   "Hazell Bros": {
-   "careers_url": "https://hazellbros.com.au/careers/graduate-programs/",
-   "last_checked": "2026-10-03",
-   "notes": "Graduate program Australian uni degree mandatory; Site Engineer GC 2+ years"
+   "careers_url": "https://hazellbros.elmotalent.com.au/careers/default/jobs",
+   "last_checked": "2026-10-07",
+   "notes": "Elmo board has 8 jobs; the only civil role is Site Engineer, Gold Coast (posted 22 Sep, closes 21 Oct 2026), which needs a Bachelor of Civil Engineering plus 2+ yrs. Others are Tasmanian trades/drivers, Graduate Accountant, HSEQ and IT roles.",
+   "open_junior_roles": [],
+   "checked_at": "2026-10-07"
   },
   "Northrop Consulting Engineers": {
    "careers_url": "https://northrop.com.au/careers/",
-   "last_checked": "2026-10-03",
-   "notes": "EOI form READY_JEREMIE_EMPLOYER_FORM this tick"
+   "last_checked": "2026-10-07",
+   "notes": "JobAdder widget (key AU5_aty64zcsgwqe7ejjkxrkd4xo64) lists 15 roles; the only cadet/trainee civil-structural role is Trainee Structural Drafter (Newcastle team, TAFE traineeship aimed at school leavers/TAFE starters), already in the tracker by URL. Civil Engineer roles (Melbourne 926674, Sydney, Newcastle) want 3-5 yrs post-grad plus a degree; rest are senior or non-civil.",
+   "open_junior_roles": [
+    {
+     "title": "Trainee Structural Drafter (Newcastle; Cadet/Trainee, posted 10 Sep 2026)",
+     "url": "https://northrop.com.au/careers/?ja-job=924064"
+    }
+   ],
+   "checked_at": "2026-10-07"
   },
   "Pensar": {
-   "careers_url": "https://pensar.com.au/current-opportunities/",
-   "last_checked": "2026-10-03",
-   "notes": "No open junior/grad title verified"
+   "careers_url": "https://pensar.elmotalent.com.au/careers/portal/jobs",
+   "last_checked": "2026-10-07",
+   "notes": "Elmo board (embedded at pensar.com.au/current-opportunities) shows 4 jobs: Senior Contracts Administrator, Project Administrator (Stapylton, power industrial), EOI General and EOI Early Career (closes 31 Dec 2026). The Early Career EOI covers only apprenticeships and an undergraduate program for current university students.",
+   "open_junior_roles": [],
+   "checked_at": "2026-10-07"
   },
   "Shadforth Civil": {
    "careers_url": "https://www.shadcivil.com.au/current-opportunities",
-   "last_checked": "2026-10-03",
-   "notes": "Undergrad Fraser Coast while studying; skipped"
+   "last_checked": "2026-10-07",
+   "notes": "JobAdder widget (key AU2_t2m2tjb4cx3u7as5mshfcoda3e) lists ~28 roles. The Logan and Moreton Bay Site/Project Engineer ads state no degree or years requirement, but the tracker already has MANUAL_APPLIED to Shadforth on 2026-10-06. Sunshine Coast (BE Civil, 2 yrs for PE) and Bundaberg (degree preferred plus prior civil delivery) need more; the Undergraduate Civil Engineer role (Fraser Coast) is for 3rd/4th-yr students.",
+   "open_junior_roles": [
+    {
+     "title": "Civil Site and Project Engineers - Logan (posted 21 Sep 2026)",
+     "url": "https://www.shadcivil.com.au/current-opportunities?ja-job=1995835"
+    },
+    {
+     "title": "Civil Site and Project Engineers - Moreton Bay (posted 25 Sep 2026)",
+     "url": "https://www.shadcivil.com.au/current-opportunities?ja-job=1997087"
+    }
+   ],
+   "checked_at": "2026-10-07"
   },
   "Whitehorse City Council": {
    "careers_url": "https://www.whitehorse.vic.gov.au/about-whitehorse/administration/jobs/job-opportunities",
@@ -572,6 +596,12 @@
    "checked_at": "2026-10-06",
    "open_junior_roles": [],
    "notes": "Web search only (time budget): 2027 Graduate Programme closed 20 May 2026; Perth Project Engineer (roadworks) is experienced-level. Board not opened. Nothing saved."
+  },
+  "Decmil": {
+   "careers_url": "https://secure.workforceready.com.au/ta/6200346.careers?CareersSearch",
+   "open_junior_roles": [],
+   "notes": "Decmil (a Macmahon company) careers board (UKG Workforce Ready) shows 1 job: Contracts Administrator, North Sydney. The graduate program page still says 2026 registration is open, but that intake began Feb 2026 and requires a university degree.",
+   "checked_at": "2026-10-07"
   }
  },
  "sweep_log": [
