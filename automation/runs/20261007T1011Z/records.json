@@ -1,0 +1,107 @@
+[
+ {
+  "id": "3bb7c87c-50e2-4c4b-9f84-bc0f421df05c",
+  "key": "manual:3bb7c87c-50e2-4c4b-9f84-bc0f421df05c",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261007T1011Z",
+  "created_at": "2026-10-07T10:20:45.000Z",
+  "updated_at": "2026-10-07T10:20:45.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "7c6fc193-7219-4c6c-af2c-8ce4657db363",
+    "path": "/api/documents/7c6fc193-7219-4c6c-af2c-8ce4657db363",
+    "filename": "Marc_Masarate_Reeves_Envico_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-07T10:20:47.511Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "de58d473-2afd-4391-8055-95c9306413df",
+    "path": "/api/documents/de58d473-2afd-4391-8055-95c9306413df",
+    "filename": "Marc_Masarate_Reeves_Envico_Speculative_enquiry_graduate_site_or_pro_Cover_Letter.pdf",
+    "sha256": "f2adbbdc0c2961fa47781205188381e8ecfaf608d1455b7575fa72714bf85988",
+    "size_bytes": 47235,
+    "kind": "cover",
+    "uploaded_at": "2026-10-07T10:20:46.281Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Reeves Envico",
+  "role": "Speculative enquiry: graduate site or project engineer (West Melbourne)",
+  "location": "West Melbourne VIC",
+  "job_url": "https://reevesenvico.com/careers/",
+  "company_url": "https://reevesenvico.com/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "David Fair",
+  "recipient_role": "Operations and Compliance Manager",
+  "recipient_email": "careers@reevesenvico.com",
+  "contact_email": "careers@reevesenvico.com",
+  "contact_evidence_url": "https://reevesenvico.com/careers/",
+  "contact_verified_at": "2026-10-07T10:20:45.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Expression of interest: graduate site or project engineer, Marc Darenz Masarate",
+  "email_body": "Hi David,\n\nThis is a speculative expression of interest. Your name is on the Reeves Envico careers and team pages, so I wanted to reach you directly about a graduate site or project engineer place in West Melbourne.\n\nI completed an Advanced Diploma of Civil Construction Design in February 2026, covering road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD, and I hold a civil engineering degree from the Philippines. In 2019 and 2020 I worked on site there as a project-in-charge engineer and then a field engineer, coordinating crews, running inspections and quality checks, and keeping progress reports. I live in Melton, hold a White Card and an Australian driver's licence, and have full working rights on a Subclass 485 visa until December 2027. I'm available for site, regional and FIFO work.\n\nYour civil works and construction management on community infrastructure across regional Victoria, New South Wales and the Pacific is the site work I want to grow in. I haven't worked on water or wastewater projects yet, so I would start under supervision.\n\nWould you keep me in mind for a graduate role, or be open to a short chat? I've attached my resume and cover letter.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Specialist civil works and construction management contractor (water and wastewater, education, public works, community infrastructure) whose graduates work on project sites, matching Marc's site coordination, inspections, quality checks and progress reporting from the Philippines.",
+   "Careers page has a Graduate Experience section, publishes careers@reevesenvico.com with an Attach CV form, and the team page names David Fair (Operations and Compliance Manager), whom the careers page names for CVs.",
+   "West Melbourne office is within reach of Melton; projects in regional Victoria and NSW suit Marc's site, regional and FIFO availability."
+  ],
+  "gaps": [
+   "No advertised vacancy",
+   "No Australian site or construction management experience",
+   "No water or wastewater project experience",
+   "Pacific project travel not confirmed by Marc"
+  ],
+  "match_score": {
+   "percent": 68,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Specialist civil works and construction management contractor (water and wastewater, education, public works, community infrastructure) whose graduates work on project sites, matching Marc's site coordination, inspections, quality checks and progress reporting from the Philippines.",
+    "Careers page has a Graduate Experience section, publishes careers@reevesenvico.com with an Attach CV form, and the team page names David Fair (Operations and Compliance Manager), whom the careers page names for CVs.",
+    "West Melbourne office is within reach of Melton; projects in regional Victoria and NSW suit Marc's site, regional and FIFO availability."
+   ],
+   "caution": "Speculative: the Available Positions section lists no open roles. Graduates may be temporarily relocated to Pacific projects; Marc's willingness for overseas postings is not on record. No water or wastewater project experience; site work was a building renovation and subdivision finishing works."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "",
+   "expires_at": "",
+   "verified_at": "2026-10-07T10:20:45.000Z",
+   "apply_instructions": "Careers page (Join our team) lists 'Our Email careers@reevesenvico.com' with an Attach CV form; the undergraduate section says 'please send your CV to David Fair'.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Re-read reevesenvico.com/careers and confirm careers@reevesenvico.com is still the published careers email",
+   "Gmail in:anywhere search for reevesenvico and Reeves Envico before any send (none found on 7 Oct 2026)",
+   "Marc confirms whether he is open to temporary relocation to Pacific projects, which the careers page says graduates may do; do not promise it",
+   "Attach resume and cover letter PDFs; keep the expression of interest label in the subject and opening line",
+   "Do not claim water, wastewater, Australian site or construction management experience"
+  ],
+  "notes": "Councils and government rotation tick. SEEK d3 (60 details) and d14 (80 details) sweeps returned no listing not already seen in earlier ticks; council and government searches (Council Direct, Busselton, Gunnedah, Adelaide, Geraldton, Baw Baw, Yarra, Knox, Rockhampton corridor officer, Ryde internship, Jacobs Cairns cadet) were closed, already tracked, experienced only or for current students. So the runbook's one speculative enquiry. No advertised vacancy at Reeves Envico. Nothing sent this tick.\nCareers page names David Fair for undergraduate CVs and publishes careers@reevesenvico.com as the careers email; no personal address for David Fair is published by the employer (a dfair@ address seen only in a third-party search summary was not used). The email goes to the careers inbox addressed to David Fair. tracker.py list: Reeves not in tracker; prior_outreach: none. Gmail in:anywhere 'reevesenvico OR Reeves Envico OR reevesint OR Reeves International' on 7 Oct 2026 AEDT: no threads.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed date not shown). Contact: the application inbox careers@reevesenvico.com published by the employer (https://reevesenvico.com/careers/); no personal address was used. Named people seen on employer pages: David Fair (Operations and Compliance Manager); Simon Gorman (Managing Director). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Speculative enquiry: graduate site or project engineer (West Melbourne) role on SEEK.\n• They may ask about: No advertised vacancy → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian site or construction management experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No water or wastewater project experience → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed date not shown). Contact: the application inbox careers@reevesenvico.com published by the employer (https://reevesenvico.com/careers/); no personal address was used. Named people seen on employer pages: David Fair (Operations and Compliance Manager); Simon Gorman (Managing Director). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Speculative enquiry: graduate site or project engineer (West Melbourne) role on SEEK.",
+   "They may ask about: No advertised vacancy → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian site or construction management experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No water or wastewater project experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-07T10:20:45.000Z",
+  "duplicate_key": "reevesenvico|reevesenvico.com/careers"
+ }
+]

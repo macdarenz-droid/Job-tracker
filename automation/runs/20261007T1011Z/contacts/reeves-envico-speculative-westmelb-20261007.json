@@ -1,0 +1,18 @@
+{
+ "company": "Reeves Envico",
+ "company_url": "https://reevesenvico.com/",
+ "careers_url": "https://reevesenvico.com/careers/",
+ "recipient_name": "David Fair",
+ "recipient_role": "Operations and Compliance Manager",
+ "recipient_email": "careers@reevesenvico.com",
+ "contact_evidence_url": "https://reevesenvico.com/careers/",
+ "evidence_quote": "Our Email careers@reevesenvico.com ... Attach CV Send (careers page, Join our team); 'please send your CV to David Fair highlighting your interest with a brief description of yourself' (careers page, undergraduate section); team page https://reevesenvico.com/about-us-copy/ lists 'Operations and Compliance Manager David Fair'.",
+ "contact_confidence": "published_inbox",
+ "named_people": [
+  {"name": "David Fair", "role": "Operations and Compliance Manager", "email": "", "evidence_url": "https://reevesenvico.com/about-us-copy/"},
+  {"name": "Simon Gorman", "role": "Managing Director", "email": "", "evidence_url": "https://reevesenvico.com/about-us-copy/"}
+ ],
+ "employer_line": "Reeves Envico is a group of specialist contractors in civil works infrastructure and construction management, delivering water and wastewater, education, public works and community projects in regional Victoria, New South Wales and the Pacific from its West Melbourne office (https://reevesenvico.com/).",
+ "notes": "Careers page names David Fair for undergraduate CVs and publishes careers@reevesenvico.com as the careers email; no personal address for David Fair is published by the employer (a dfair@ address seen only in a third-party search summary was not used). The email goes to the careers inbox addressed to David Fair. tracker.py list: Reeves not in tracker; prior_outreach: none. Gmail in:anywhere 'reevesenvico OR Reeves Envico OR reevesint OR Reeves International' on 7 Oct 2026 AEDT: no threads.",
+ "checked_at": "2026-10-07T10:30:00Z"
+}
