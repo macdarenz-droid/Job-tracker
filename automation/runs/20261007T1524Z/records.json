@@ -1,0 +1,211 @@
+[
+ {
+  "id": "1ca12046-bade-4265-82c3-a03a5a63f3ca",
+  "key": "manual:1ca12046-bade-4265-82c3-a03a5a63f3ca",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261007T1524Z",
+  "created_at": "2026-10-07T15:31:04.000Z",
+  "updated_at": "2026-10-07T15:31:04.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "6679034c-9b15-4070-b24b-7113f47a4da0",
+    "path": "/api/documents/6679034c-9b15-4070-b24b-7113f47a4da0",
+    "filename": "Marc_Masarate_Interflow_Resources_Pty_Limited_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-07T15:31:06.504Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "dda06eae-23cf-4ba5-99fd-727c9556025c",
+    "path": "/api/documents/dda06eae-23cf-4ba5-99fd-727c9556025c",
+    "filename": "Marc_Masarate_Interflow_Resources_Pty_Limited_Project_Coordinator_Cover_Letter.pdf",
+    "sha256": "d1a0a32bf340cbc657417b88cd45b5e403f2d1e1d49e4fefbdce80e177f84707",
+    "size_bytes": 48378,
+    "kind": "cover",
+    "uploaded_at": "2026-10-07T15:31:05.215Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Interflow Resources Pty Limited",
+  "role": "Project Coordinator",
+  "location": "Scoresby, Melbourne VIC",
+  "job_url": "https://www.seek.com.au/job/95100188",
+  "company_url": "https://www.interflow.com.au/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.interflow.com.au/careers/",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Application: Project Coordinator, Scoresby, Marc Masarate",
+  "email_body": "",
+  "fit": [
+   "Project Coordinator in Scoresby planning and scheduling construction work and coordinating people, equipment and materials; construction management experience is only desirable.",
+   "Marc's 2019 to 2020 site roles (coordinating 10 to 15 workers, tracking procurement and progress, site reports) plus stormwater coursework match the core coordination duties.",
+   "Victoria based role with a maintained vehicle; Scoresby is a long commute from Melton but within Melbourne."
+  ],
+  "gaps": [
+   "No water, wastewater or culvert project experience",
+   "No Australian construction employment yet",
+   "Scoresby is on the far side of Melbourne from Melton"
+  ],
+  "match_score": {
+   "percent": 68,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Project Coordinator in Scoresby planning and scheduling construction work and coordinating people, equipment and materials; construction management experience is only desirable.",
+    "Marc's 2019 to 2020 site roles (coordinating 10 to 15 workers, tracking procurement and progress, site reports) plus stormwater coursework match the core coordination duties.",
+    "Victoria based role with a maintained vehicle; Scoresby is a long commute from Melton but within Melbourne."
+   ],
+   "caution": "Interflow is a water and trenchless pipeline contractor; Marc has not worked on water, sewer or culvert projects. Role also involves budgeting and financial reporting, which is coursework level only (cost estimates, bills of quantities)."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-07T00:26:18.851Z",
+   "expires_at": "2026-11-05T13:00:00.000Z",
+   "verified_at": "2026-10-07T15:25:30.000Z",
+   "apply_instructions": "SEEK links out to Interflow's careers portal; apply there with resume.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Open the SEEK advert 95100188 and follow Apply through to Interflow's careers portal",
+   "Upload the Interflow resume and cover letter from this record",
+   "Answer work rights honestly: Subclass 485, full working rights to December 2027",
+   "Confirm driver's licence and White Card; leave salary and notice questions for Marc",
+   "Submit, save the confirmation email and mark this record Applied"
+  ],
+  "notes": "SEEK find this tick (listed 7 Oct 2026, closes 5 Nov 2026). SEEK links out to Interflow's own portal. Prepared for Jeremie/Marc.\nSEEK link-out to the Interflow careers portal. No published direct hiring email found; LinkedIn employee profiles are not used as contacts.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-07, closes 2026-11-05). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Project Coordinator role on SEEK.\n• They may ask about: No water, wastewater or culvert project experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian construction employment yet → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Scoresby is on the far side of Melbourne from Melton → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-07, closes 2026-11-05). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Project Coordinator role on SEEK.",
+   "They may ask about: No water, wastewater or culvert project experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian construction employment yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Scoresby is on the far side of Melbourne from Melton → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-07T15:31:04.000Z",
+  "seek_id": "95100188",
+  "duplicate_key": "interflowresourcesptylimited|seek:95100188"
+ },
+ {
+  "id": "6b8dac50-532a-4100-a230-33cc0862dce5",
+  "key": "manual:6b8dac50-532a-4100-a230-33cc0862dce5",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261007T1524Z",
+  "created_at": "2026-10-07T15:31:07.000Z",
+  "updated_at": "2026-10-07T15:31:07.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "04299798-a48b-4e09-bdfa-e62f0459d60c",
+    "path": "/api/documents/04299798-a48b-4e09-bdfa-e62f0459d60c",
+    "filename": "Marc_Masarate_Downer_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-07T15:31:10.632Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "22be9bc0-ee52-41ba-aa52-406e09c5eead",
+    "path": "/api/documents/22be9bc0-ee52-41ba-aa52-406e09c5eead",
+    "filename": "Marc_Masarate_Downer_Site_Engineer_TI_PR_VICTAS_Job_717761_Cover_Letter.pdf",
+    "sha256": "04271c490a9c07b027b182989f44faed3ab6ede6c2fe76b9ce3cfd9e79b722d3",
+    "size_bytes": 49818,
+    "kind": "cover",
+    "uploaded_at": "2026-10-07T15:31:08.869Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Downer",
+  "role": "Site Engineer - TI PR VICTAS (Job 717761)",
+  "location": "Dandenong South VIC",
+  "job_url": "https://www.jobstralia.com/detail/8/5e08c83c5de25b1eebfda574f008b1f5",
+  "company_url": "https://www.downergroup.com/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.jobstralia.com/detail/8/5e08c83c5de25b1eebfda574f008b1f5",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Application: Site Engineer TI PR VICTAS (717761), Marc Masarate",
+  "email_body": "",
+  "fit": [
+   "Entry Site Engineer role for a recent graduate on road construction and pavement rehabilitation in Victoria with regional travel.",
+   "Advanced Diploma (Feb 2026) road geometry, earthworks and pavement design to Austroads guides plus BSCE and 2019 to 2020 site inspection and crew coordination match the core duties.",
+   "Melton base, licence, own transport and stated availability for regional travel suit the frequent time away; no road construction or stabilisation exposure yet."
+  ],
+  "gaps": [
+   "No civil road construction, stabilisation or surfacing exposure",
+   "Site experience is overseas (Philippines 2019 to 2020)",
+   "Bachelor completed 2019; most recent qualification is the Feb 2026 Advanced Diploma"
+  ],
+  "match_score": {
+   "percent": 76,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Entry Site Engineer role for a recent graduate on road construction and pavement rehabilitation in Victoria with regional travel.",
+    "Advanced Diploma (Feb 2026) road geometry, earthworks and pavement design to Austroads guides plus BSCE and 2019 to 2020 site inspection and crew coordination match the core duties.",
+    "Melton base, licence, own transport and stated availability for regional travel suit the frequent time away; no road construction or stabilisation exposure yet."
+   ],
+   "caution": "Advert first posted 26 Aug 2026 and seen reposted in October; confirm job 717761 is still open on Downer careers before applying. Downer's graduate program needs citizen/PR but this Site Engineer advert states no work-rights restriction; answer 485 honestly."
+  },
+  "advert": {
+   "source": "open_web",
+   "listed_at": "2026-08-26",
+   "expires_at": "",
+   "verified_at": "2026-10-07T15:31:07.000Z",
+   "apply_instructions": "Apply on Downer careers, job 717761; no email applications.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Open Downer careers and search job 717761 (Site Engineer TI PR VICTAS, Dandenong South); stop if it has closed",
+   "Upload the Downer resume and cover letter from this record",
+   "Answer work rights honestly: Subclass 485, full working rights to December 2027",
+   "Confirm White Card, driver's licence, own transport and availability for regional travel",
+   "Submit, save the confirmation email and mark this record Applied"
+  ],
+  "notes": "Open-web find this tick (Victoria off-SEEK sweep). Downer portal apply only; reconfirm job 717761 is open first. Prepared for Jeremie/Marc.\nPortal only; advert says no email applications. Named contact is an internal recruiter, so not used for outreach.\nHOW GROK AI FOUND THIS\nFound on open_web (listed 2026-08-26). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Alicia Jacobson (Talent and Sourcing Business Partner (recruiter, enquiries only)). Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Site Engineer - TI PR VICTAS (Job 717761) role on SEEK.\n• They may ask about: No civil road construction, stabilisation or surfacing exposure → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Site experience is overseas (Philippines 2019 to 2020) → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Bachelor completed 2019; most recent qualification is the Feb 2026 Advanced Diploma → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on open_web (listed 2026-08-26). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Alicia Jacobson (Talent and Sourcing Business Partner (recruiter, enquiries only)). Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Site Engineer - TI PR VICTAS (Job 717761) role on SEEK.",
+   "They may ask about: No civil road construction, stabilisation or surfacing exposure → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Site experience is overseas (Philippines 2019 to 2020) → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Bachelor completed 2019; most recent qualification is the Feb 2026 Advanced Diploma → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-07T15:31:07.000Z",
+  "duplicate_key": "downer|jobstralia.com/detail/8/5e08c83c5de25b1eebfda574f008b1f5"
+ }
+]
