@@ -1,0 +1,24 @@
+{
+ "built": [
+  [
+   "ff4d88c0-d6f4-4933-b641-f7e87b873aaf",
+   "Egis",
+   "Graduate Civil Engineer - Water (2027 intake)",
+   "READY_JEREMIE_EMPLOYER_PORTAL"
+  ]
+ ],
+ "rejected": [],
+ "tracker": {
+  "version": 157,
+  "updated_at": "2026-10-07T20:29:20.792Z",
+  "result": {
+   "added": [],
+   "skipped": [
+    [
+     "ff4d88c0-d6f4-4933-b641-f7e87b873aaf",
+     "recent outreach to the same employer (Graduate Consultant - Rail · READY_JEREMIE_SEEK · 2026-10-01)"
+    ]
+   ]
+  }
+ }
+}

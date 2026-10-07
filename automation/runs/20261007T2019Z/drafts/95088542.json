@@ -1,0 +1,43 @@
+{
+  "seek_id": "95088542",
+  "company": "Egis",
+  "role": "Graduate Civil Engineer - Water (2027 intake)",
+  "location": "Brisbane QLD",
+  "job_url": "https://www.seek.com.au/job/95088542",
+  "route": "EMPLOYER_PORTAL",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95088542",
+  "subject": "Application: Graduate Civil Engineer, Water, Brisbane, Marc Masarate",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "notes": "SEEK find this tick (listed 6 Oct 2026, closes 5 Nov 2026). SEEK links out to the Egis portal for the 2027 graduate intake. Egis Graduate Consultant Rail is already on the tracker as READY; choose one stream if Egis allows only one. Transcripts must go in the same file as the resume and cover letter. Prepared for Jeremie/Marc. Engeny is now part of Egis (employers.json); an Engeny graduate EOI is on the tracker as PREPARED_NOT_SENT since 30 Sep, so do not send that EOI and this application without Marc deciding.",
+  "email_body": "",
+  "screening_answers": {},
+  "checklist": [
+    "Open the SEEK advert 95088542 and follow Apply through to the Egis careers portal",
+    "Merge the Egis resume, the cover letter from this record and Marc's academic transcripts into one PDF, as the advert asks",
+    "Answer work rights honestly: Subclass 485, full working rights to December 2027",
+    "Say Marc is open to discussing relocation to Brisbane; leave salary and start questions for Marc to confirm",
+    "Submit, save the confirmation email and mark this record Applied"
+  ],
+  "letter": {
+    "recipient_name": "",
+    "recipient_role": "Graduate Recruitment",
+    "company": "Egis",
+    "company_line": "Water team, 2027 Graduate intake, Brisbane",
+    "subject": "Graduate Civil Engineer, Water, Brisbane",
+    "greeting": "Hello,",
+    "closing": "Kind regards,",
+    "paragraphs": [
+      "I am applying for the Graduate Civil Engineer role in your Brisbane Water team for the 2027 intake, advertised on SEEK. Working across water resources, flooding and stormwater with experienced specialists is the direction I want my civil career to take.",
+      "In February 2026 I completed an Advanced Diploma of Civil Construction Design in Australia, where I designed and documented road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D, applying Australian Standards. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2014 to 2019).",
+      "From April 2019 to February 2020 I worked on site in the Philippines as project-in-charge engineer at JustBuilt and then field engineer at Grand Travaux, coordinating 10 to 15 workers each day and preparing site reports, material records and progress reports.",
+      "Flood and water balance modelling are not part of my experience yet, so I would be learning those tools in the program. I have full working rights to December 2027 on a Subclass 485 visa and am open to discussing relocation to Brisbane.",
+      "I would welcome the chance to talk about joining your graduate program. I've attached my resume and cover letter, and my portfolio is at https://macdarenz-droid.github.io/Portfolio"
+    ]
+  },
+  "company_url": "https://www.egis-group.com/",
+  "application_method": "Company website"
+}

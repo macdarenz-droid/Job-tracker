@@ -2,22 +2,23 @@
  "_about": "Employers verified by earlier runs: careers URL, apply route, named contacts with evidence. Grows over time; never guessed.",
  "employers": {
   "Beveridge Williams": {
-   "careers_url": "https://beveridgewilliams.com.au/careers/",
-   "checked_at": "2026-09-28",
+   "careers_url": "https://secure.workit.com.au/careers/T1JHX0JFVkVSSTMwODU0MA",
+   "checked_at": "2026-10-08",
    "open_junior_roles": [],
-   "notes": "Careers page promotes an ongoing Engineering Development Program but the job board runs on a JS-only Workit portal that could not be read; a separately found LinkedIn ad for Graduate Civil Engineer redirected to trk=expired_jd_redirect (confirmed expired), so no open junior role was verified."
+   "notes": "Workit board rendered with Chrome: current vacancies are Principal Environmental Scientist/Engineer (Sydney), Principal Planner (Carrington), Principal Town Planner (Oran Park), Utility Locator (Malvern), Project Manager (Geelong). 2027 Graduate Civil Engineer Malvern (Job 23198) closed 2 Aug 2026. No open junior civil/drafting role."
   },
   "Taylors Development Strategists": {
    "careers_url": "https://www.taylorsds.com.au/careers/join-our-team/",
-   "checked_at": "2026-09-28",
+   "checked_at": "2026-10-08",
    "open_junior_roles": [],
-   "notes": "Site's own careers pages list no postings; live roles found via its Dreamwork ATS (dreamworkhq.com/c/taylorsconsulting.com.au) are Senior Landscape Architect, Surveyor - Construction Engineering and Senior Surveyor - Engineering Design Survey, none junior/civil-engineer relevant."
+   "notes": "Join-our-team page lists no postings (generic page only); Dreamwork ATS not re-checked this run (previous 28 Sep: only senior/surveyor roles). No junior civil role verified."
   },
   "Spiire": {
    "careers_url": "https://www.spiire.com.au/careers/",
-   "checked_at": "2026-09-28",
+   "checked_at": "2026-10-08",
    "open_junior_roles": [],
-   "notes": "Job board (spiire.elmotalent.com.au/careers/spiire/jobs) currently lists only Expressions of Interest - Civil Engineering (Townsville, EOI not a role), Student Town Planner (Brisbane), and Graduate Surveyor (Geelong) - no open graduate/junior civil engineer or drafter role."
+   "notes": "ELMO board 8 Oct 2026: only EOI - Civil Engineering Townsville (EOI, closes 11/10/2026), Student Town Planner Brisbane (casual), Graduate Surveyor Geelong 2027. No open graduate/junior civil engineer or drafter role.",
+   "board_url": "https://spiire.elmotalent.com.au/careers/spiire/jobs"
   },
   "Reeds Consulting": {
    "careers_url": "https://www.reedsconsulting.com.au/careers/",
@@ -74,17 +75,18 @@
    "company_url": "https://delplant.com.au/",
    "careers_url": "https://delplant.com.au/careers/",
    "board": "none (own site, employment form)",
-   "checked_at": "2026-09-28",
+   "checked_at": "2026-10-08",
    "result": "none",
-   "notes": "Careers page read in full. Open roles: Labourers, Pipelayers, Plant Operators, Crew Leaders, Project Managers & Project Engineers (engineering/construction management degree plus minimum 5 years construction and water-industry experience - not junior), and a Truck Driver (Narre Warren). No graduate/junior/cadet/trainee/drafting role listed."
+   "notes": "Careers page re-read 8 Oct 2026: unchanged - Labourers, Plant Operators, Crew Leaders, Project Managers & Project Engineers (degree + min 5 yrs construction + 5 yrs water industry), Truck Driver. No junior/graduate/drafting role.",
+   "open_junior_roles": []
   },
   "TGM Group": {
    "company_url": "https://tgmgroup.com (unreachable)",
    "careers_url": "unknown - site unreachable",
    "board": "unknown",
-   "checked_at": "2026-09-28",
+   "checked_at": "2026-10-08",
    "result": "blocked",
-   "notes": "tgmgroup.com and tgmgroup.com.au both failed on every attempt (TLS connection reset / proxy connect_rejected), so no page could be read at all. Background found via search: TGM Group Pty Ltd (Hawthorn VIC land-development engineering consultancy) was acquired by Cardno in 2018 and traded as 'Cardno TGM'; Cardno's ANZ operations were then acquired by Stantec in 2021. TGM likely no longer trades as an independent employer with its own careers page, which is consistent with the dead domain, but this could not be directly confirmed."
+   "notes": "tgmgroup.com and tgmgroup.com.au both failed on every attempt (TLS connection reset / proxy connect_rejected), so no page could be read at all. Background found via search: TGM Group Pty Ltd (Hawthorn VIC land-development engineering consultancy) was acquired by Cardno in 2018 and traded as 'Cardno TGM'; Cardno's ANZ operations were then acquired by Stantec in 2021. TGM likely no longer trades as an independent employer with its own careers page, which is consistent with the dead domain, but this could not be directly confirmed. | 20261007T2019Z speculative attempt: tgmgroup.com.au still unreachable (curl no response, WebFetch 500); web search suggests the firm traded as CardnoTGM (Cardno now Stantec); no verified direct contact, so no enquiry."
   },
   "Robert Bird Group Pty Ltd": {
    "careers_url": "https://surbanajurong.wd3.myworkdayjobs.com/en-US/RobertBirdGroup_Careers",
@@ -583,9 +585,9 @@
   },
   "Jacobs": {
    "careers_url": "https://careers.jacobs.com/en_US/careers/SearchJobs/",
-   "checked_at": "2026-10-06",
+   "checked_at": "2026-10-08",
    "open_junior_roles": [],
-   "notes": "careers.jacobs.com (Phenom; JS/bot check, rendered with headless Chrome). Cadet Civil Technical Officer Cairns (#32877) still renders with Apply but says 'Applications close Sunday 14th December' - 14 Dec is a Sunday in 2025, not 2026, and the ID is far older than current postings (~46339), so treated as stale/expired; also aimed at high-school/uni students. Australia filter did not apply to the list within budget. Nothing saved."
+   "notes": "Avature board lazy-renders; keyword/Australia filters returned global lists only (graduate 196, drafter 41, early careers 315) with no Australian rows rendered. Aggregators show Graduate Water Resources Engineer Melbourne (Feb 2027 start, 'ideally penultimate-year' student, AU work rights) but no direct careers.jacobs.com advert verified; Cadet Civil Technical Officer Cairns #32877 still stale (Dec 14 close). Nothing saved."
   },
   "Acciona Australia": {
    "careers_url": "https://acciona.wd3.myworkdayjobs.com/ACCIONA_Employment_Channel",
@@ -675,6 +677,17 @@
    "checked_at": "2026-10-07",
    "open_junior_roles": [],
    "notes": "Wagga Wagga/Griffith NSW. Open roles: Graduate to Mid-Level Structural Engineer, Senior Civil Engineer, Revit Drafter (lead). Standing EOI form welcomes graduates and civil drafters (form upload, no inbox). Not published this tick (one speculative per run); candidate for a later speculative/EOI pack."
+  },
+  "Arup Australia": {
+   "careers_url": "https://jobs.arup.com/jobs",
+   "open_junior_roles": [
+    {
+     "title": "Graduate Engineer | Water Engineering - Flooding (Brisbane, Mar 2027 start)",
+     "url": "https://jobs.arup.com/jobs/graduate-engineer-water-engineering-flooding-2026-intake-34684"
+    }
+   ],
+   "notes": "jobs.arup.com (Oracle SelectMinds) blocks headless Chrome (Access Forbidden) and ignores country filter via WebFetch; checked adverts directly. Open: Graduate Engineer Water - Flooding Brisbane (no closing date shown; needs Bachelor Civil/Env, full work rights, <=12 months comparable experience, recent graduate of most recent degree). Closed: Civil Engineering Graduates AU (31651), Graduate Bridge & Civil Structures Sunshine Coast (33758), CAD Technician Perth (33883).",
+   "checked_at": "2026-10-08"
   }
  },
  "sweep_log": [
@@ -1201,6 +1214,43 @@
     "Winslow Bendigo (recent outreach)",
     "ASG Ballarat junior PE (2+ yrs water preferred, not taken)",
     "Downer Site Engineer 717761 Dandenong South (new, published)"
+   ]
+  },
+  {
+   "run_id": "20261007T2019Z",
+   "rotation": "employers",
+   "checked_at": "2026-10-07T20:24:47Z",
+   "checked": [
+    {
+     "name": "Arup Australia",
+     "url": "https://jobs.arup.com/jobs",
+     "result": "1 open: Graduate Engineer Water - Flooding Brisbane (saved, new); AU civil grads/bridge grad/CAD tech Perth closed"
+    },
+    {
+     "name": "Jacobs",
+     "url": "https://careers.jacobs.com/en_US/careers/SearchJobs/",
+     "result": "no AU junior advert verified on board (filters not applied); grad water resources Melbourne seen on aggregators only"
+    },
+    {
+     "name": "Beveridge Williams",
+     "url": "https://secure.workit.com.au/careers/T1JHX0JFVkVSSTMwODU0MA",
+     "result": "none - only principal/PM/utility locator; grad civil 23198 closed 2 Aug 2026"
+    },
+    {
+     "name": "Spiire",
+     "url": "https://spiire.elmotalent.com.au/careers/spiire/jobs",
+     "result": "none - EOI Townsville, student planner, grad surveyor"
+    },
+    {
+     "name": "Taylors Development Strategists",
+     "url": "https://www.taylorsds.com.au/careers/join-our-team/",
+     "result": "none listed"
+    },
+    {
+     "name": "Delplant",
+     "url": "https://delplant.com.au/careers/",
+     "result": "none - PM/PE needs 5+ yrs; trades only otherwise"
+    }
    ]
   }
  ]
