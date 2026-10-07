@@ -82,3 +82,6 @@ One line of reasoning per decision. Newest at the bottom of each section. The ow
 - Gunnedah GSC657 found on applynow is the same role as the 28 Sep record; dropped. Bogan Shire Technical Officer (3 years experience) and Charles Sturt graduate program (unrestricted work rights for two-year term) skipped as mandatory unmet. Lake Macquarie cadetship excludes degree holders.
 - One speculative enquiry: Moodie & Associates, Werribee, to the founder's employer-published business email (PREPARED_NOT_SENT). Not sent: canonical journal lease still inaccessible from this box.
 - browse.py needs CHROME_BIN=/usr/bin/google-chrome on this box.
+
+### Outcome reconciliation 20261007T0603Z (Grok AI)
+- **D43 · Recording rejections.** SEEK "unlikely to progress" emails and employer rejections are recorded as status `REJECTED` (shown as Unsuccessful) on the matching manual entry, matched by SEEK job id, with the Gmail date, message id and a short quote in `replies` and `notes`; the prior status is kept in `previous_status`. Original authors are preserved. Frozen automatic `applications`/`leads` rows are never edited: an outcome overlay manual entry with `origin_key` is added instead, exactly as the tracker's own edit form does (Rokon, 24 Sep). A rejection for a different requisition (Inner West IWC17841 vs tracked IWC17898) is not applied to the tracked row.

@@ -1,0 +1,76 @@
+{
+ "run_id": "20261007T0603Z",
+ "kind": "outcome_reconciliation",
+ "by": "Grok AI (grok-job-search)",
+ "tracker_version_after": 138,
+ "marked_rejected": [
+  {
+   "company": "James Civil Group",
+   "role": "Project Coordinator",
+   "seek_id": "94786940",
+   "record": "a9a15076-6bef-4d2d-ab67-937ae15c4150",
+   "rejected": "2026-10-03",
+   "also": "employer SEEK message 2026-10-07: not shortlisted for an interview"
+  },
+  {
+   "company": "Alzino & Co PTY LTD",
+   "role": "Junior Civil Engineer / QA Officer",
+   "seek_id": "94723743",
+   "record": "f8e3c393-69eb-47e5-b0fa-df7c76e04d96",
+   "rejected": "2026-10-02"
+  },
+  {
+   "company": "Eaton Electrical Australia P/L",
+   "role": "Field Project Coordinator",
+   "seek_id": "94864278",
+   "record": "1850e981-4cdd-4045-a772-f5fc6280f6a2",
+   "rejected": "2026-10-01"
+  },
+  {
+   "company": "Western Downs Civil Pty Ltd",
+   "role": "Site Engineer",
+   "seek_id": "94769155",
+   "record": "87671b7c-6b73-4c89-802d-5184382471da",
+   "rejected": "2026-09-30"
+  },
+  {
+   "company": "Doval Constructions",
+   "role": "Graduate Engineer",
+   "seek_id": "94539368",
+   "record": "ad3ffa1f-015d-49fc-8097-b950c93e4fea",
+   "rejected": "2026-09-28"
+  },
+  {
+   "company": "Convil Group Pty Ltd",
+   "role": "Graduate Civil Engineer",
+   "seek_id": "94505131",
+   "record": "345de112-a907-4d7d-adec-afe733a017d7",
+   "rejected": "2026-09-27"
+  },
+  {
+   "company": "Rokon Pty Ltd",
+   "role": "Graduate Engineer",
+   "seek_id": "94164017",
+   "record": "new outcome overlay of frozen application rokon.com.au|seek:94164017",
+   "rejected": "2026-09-24",
+   "source": "employer email"
+  }
+ ],
+ "evidence_added_already_rejected": [
+  "Family Tree Contracting",
+  "Convil Group (jora row)",
+  "Delplant",
+  "Wire Industries",
+  "Leroy Palmer",
+  "Janes and Stewart",
+  "Vassallo",
+  "Fortec"
+ ],
+ "unmatched": [
+  "Inner West Council IWC17841 Student/Graduate Engineer, unsuccessful 2026-10-01: applied 4 Jul via council portal; no tracker record. Tracker row is IWC17898 Road Access (SEEK 94727791), left APPLICATION_UNDER_REVIEW.",
+  "Fulton Hogan Graduate Engineer (Workday) 2026-08-27, SHEPHERD Project Engineer (Employment Hero) 2026-08-25, Laing O'Rourke Site Engineer - Civil (PageUp) 2026-08-20: non-SEEK, no tracker record."
+ ],
+ "no_evidence_found": [
+  "MBL Maintenance Graduate Engineer already REJECTED; no Gmail rejection found, left unchanged."
+ ]
+}
