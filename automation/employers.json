@@ -609,6 +609,58 @@
    "notes": "No openings; listed Senior Design Engineer Bendigo, Design Engineer and PM Wangaratta link to old SEEK ids. EOI with CV to careers@tomkinson.com; junior people welcome.",
    "open_junior_roles": [],
    "checked_at": "2026-10-07"
+  },
+  "SMEC Australia": {
+   "careers_url": "https://surbanajurong.wd3.myworkdayjobs.com/en-US/careersatsmec",
+   "checked_at": "2026-10-07",
+   "open_junior_roles": [
+    "Graduate Civil Engineer, Rail & Metro Melbourne JR118137 (already READY in tracker)",
+    "Graduate Engineer - Water Infrastructure Traralgon JR118762 (needs civil graduate within 2 years; not met)"
+   ],
+   "notes": "Employers rotation 20261007T0510Z."
+  },
+  "Laing O'Rourke": {
+   "careers_url": "https://careers.laingorourke.com.au/early-talent",
+   "checked_at": "2026-10-07",
+   "open_junior_roles": [],
+   "notes": "Early talent page: no jobs matching; grads mostly hired from internships. SEEK 95103446 Design Co-ordinator/Design Engineer Brisbane is experienced."
+  },
+  "Cardno (Stantec)": {
+   "careers_url": "https://stantec.jobs/aus/jobs",
+   "checked_at": "2026-10-07",
+   "open_junior_roles": [],
+   "notes": "2027 graduate roles (Water Infrastructure Melbourne, Water Resources) closed and require Australian citizen/PR/NZ and degree within 1-2 years."
+  },
+  "Aurecon": {
+   "careers_url": "https://www.aurecongroup.com/careers",
+   "checked_at": "2026-10-07",
+   "open_junior_roles": [],
+   "notes": "Only student summer internship (current study required); Land Infrastructure Civil Engineer already READY in tracker."
+  },
+  "WSP Australia": {
+   "careers_url": "https://www.wsp.com/en-au/careers",
+   "checked_at": "2026-10-07",
+   "open_junior_roles": [],
+   "notes": "VIC Graduate Program 2026/27 closed 30 Apr 2026; Civil Drafter Melbourne needs 1-5 years civil drafting and MicroStation."
+  },
+  "Major Road Projects Victoria": {
+   "careers_url": "https://bigbuild.vic.gov.au/jobs/training-programs/graduate-programs",
+   "checked_at": "2026-10-07",
+   "open_junior_roles": [],
+   "notes": "Victoria's Big Build 2027 graduate program closed (Jul-Aug 2026); needs degree Jan 2024-Jan 2027 and work rights to Feb 2029."
+  },
+  "Senversa": {
+   "company_url": "https://senversa.com.au",
+   "careers_url": "https://senversa.bamboohr.com/careers",
+   "checked_at": "2026-10-07",
+   "open_junior_roles": [
+    {
+     "title": "Junior Civil Engineer - Melbourne VIC",
+     "url": "https://senversa.bamboohr.com/careers/108",
+     "apply": "BambooHR form"
+    }
+   ],
+   "notes": "Published READY_JEREMIE_EMPLOYER_PORTAL in 20261007T0510Z; direct contact Roger Britto (roger.britto@senversa.com.au) on senversa.com.au/people/roger-britto/."
   }
  },
  "sweep_log": [
