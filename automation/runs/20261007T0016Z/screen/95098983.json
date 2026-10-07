@@ -1,0 +1,35 @@
+{
+ "id": "95098983",
+ "company": "Goldsmith",
+ "title": "Graduate Site Engineer",
+ "location": "Melbourne VIC",
+ "url": "https://www.seek.com.au/job/95098983",
+ "listed_at": "2026-10-06T23:36:22.044Z",
+ "expires_at": "2026-11-04T23:36:19.000Z",
+ "percent": 78,
+ "rationale": [
+  "Graduate site role in Melbourne for a direct civil contractor (Goldsmith Civil and Environmental); the advert asks only for a Bachelor Degree in Civil Engineering, communication skills, working rights and references, and Marc holds a BSCE (2019) plus an Advanced Diploma of Civil Construction Design (February 2026).",
+  "Duties match his Philippines site work: QA checklists and inspections, daily site records and progress, drawings and specifications, coordinating with subcontractors and suppliers, site safety inspections and tracking materials.",
+  "GPS set-out and CAD updates come with training; earthworks and civil and road works are in his coursework. Melbourne sites suit a Melton base with licence and own transport."
+ ],
+ "caution": "Degree is from the Philippines (2019); no Engineers Australia assessment is on record and the advert does not ask for one. Site experience is under one year (April 2019 to February 2020) and was overseas. No start date is on record.",
+ "gaps": [
+  "No Australian site experience; site work was in the Philippines 2019 to 2020 (under one year)",
+  "Has not used GPS survey instruments on a job (advert says training provided)",
+  "No water, wastewater or landfill project experience"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply on SEEK (no link out): submit CV; SEEK questions on right to work, pre-employment medical, driver's licence, years of relevant experience and start availability. Pre-employment medical including drug and alcohol testing.",
+ "open": true,
+ "employer_is_agency": false,
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "Are you willing to undergo a pre-employment medical check?",
+  "Do you hold a valid driver’s license?",
+  "Please specify the number of years of relevant experience you have:",
+  "What is your availability to start in the role should you be successful?"
+ ]
+}

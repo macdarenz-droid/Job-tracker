@@ -1,0 +1,119 @@
+[
+ {
+  "id": "0b6395c2-0a46-45e1-bad2-31f181c7fb79",
+  "key": "manual:0b6395c2-0a46-45e1-bad2-31f181c7fb79",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261007T0016Z",
+  "created_at": "2026-10-07T00:20:23.000Z",
+  "updated_at": "2026-10-07T00:20:23.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "a7617b93-ace5-4a03-8491-c72e8a44153d",
+    "path": "/api/documents/a7617b93-ace5-4a03-8491-c72e8a44153d",
+    "filename": "Marc_Masarate_Goldsmith_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-07T00:20:25.447Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "1cccd242-0a9a-4d00-9040-f4dac70a707a",
+    "path": "/api/documents/1cccd242-0a9a-4d00-9040-f4dac70a707a",
+    "filename": "Marc_Masarate_Goldsmith_Graduate_Site_Engineer_Cover_Letter.pdf",
+    "sha256": "7be6ea105c73bb2e9160249bba1354c4126676bb03d80c832aba1226f2234f3d",
+    "size_bytes": 49010,
+    "kind": "cover",
+    "uploaded_at": "2026-10-07T00:20:24.098Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Goldsmith",
+  "role": "Graduate Site Engineer",
+  "location": "Melbourne VIC",
+  "job_url": "https://www.seek.com.au/job/95098983",
+  "company_url": "https://www.goldsmith.com.au",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95098983",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Graduate Site Engineer application, Marc Darenz Masarate",
+  "email_body": "Hi Goldsmith team,\n\nI'm applying for the Graduate Site Engineer role on your Melbourne projects, advertised on SEEK.\n\nI hold a Bachelor of Science in Civil Engineering and finished an Advanced Diploma of Civil Construction Design in February 2026, where I designed road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD. From April 2019 to February 2020 I worked on site in the Philippines as a project-in-charge engineer and then a field engineer, doing site inspections and quality checks, tracking materials and writing progress reports. I'm based in Melton with a White Card, an Australian driver's licence and my own transport, and have full working rights on a Subclass 485 visa until December 2027.\n\nYour list of first duties, from ITPs and hold point inspections to daily site diaries and look-ahead schedules, is the site work I want to grow in. I haven't used GPS set-out equipment on a job yet, so the training you mention matters to me.\n\nCould we talk about the role? I've attached my resume and cover letter.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Graduate site role in Melbourne for a direct civil contractor (Goldsmith Civil and Environmental); the advert asks only for a Bachelor Degree in Civil Engineering, communication skills, working rights and references, and Marc holds a BSCE (2019) plus an Advanced Diploma of Civil Construction Design (February 2026).",
+   "Duties match his Philippines site work: QA checklists and inspections, daily site records and progress, drawings and specifications, coordinating with subcontractors and suppliers, site safety inspections and tracking materials.",
+   "GPS set-out and CAD updates come with training; earthworks and civil and road works are in his coursework. Melbourne sites suit a Melton base with licence and own transport."
+  ],
+  "gaps": [
+   "No Australian site experience; site work was in the Philippines 2019 to 2020 (under one year)",
+   "Has not used GPS survey instruments on a job (advert says training provided)",
+   "No water, wastewater or landfill project experience"
+  ],
+  "match_score": {
+   "percent": 78,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Graduate site role in Melbourne for a direct civil contractor (Goldsmith Civil and Environmental); the advert asks only for a Bachelor Degree in Civil Engineering, communication skills, working rights and references, and Marc holds a BSCE (2019) plus an Advanced Diploma of Civil Construction Design (February 2026).",
+    "Duties match his Philippines site work: QA checklists and inspections, daily site records and progress, drawings and specifications, coordinating with subcontractors and suppliers, site safety inspections and tracking materials.",
+    "GPS set-out and CAD updates come with training; earthworks and civil and road works are in his coursework. Melbourne sites suit a Melton base with licence and own transport."
+   ],
+   "caution": "Degree is from the Philippines (2019); no Engineers Australia assessment is on record and the advert does not ask for one. Site experience is under one year (April 2019 to February 2020) and was overseas. No start date is on record."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-06T23:36:22.044Z",
+   "expires_at": "2026-11-04T23:36:19.000Z",
+   "verified_at": "2026-10-07T00:17:00.000Z",
+   "apply_instructions": "Apply on SEEK (no link out): submit CV; SEEK questions on right to work, pre-employment medical, driver's licence, years of relevant experience and start availability. Pre-employment medical including drug and alcohol testing.",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "Are you willing to undergo a pre-employment medical check?",
+    "Do you hold a valid driver’s license?",
+    "Please specify the number of years of relevant experience you have:",
+    "What is your availability to start in the role should you be successful?"
+   ]
+  },
+  "screening_answers": {
+   "Which of the following statements best describes your right to work in Australia?": "Temporary visa with full working rights: Subclass 485, full working rights until December 2027.",
+   "Are you willing to undergo a pre-employment medical check?": "Yes",
+   "Do you hold a valid driver’s license?": "Yes (Australian driver's licence, own transport)",
+   "Please specify the number of years of relevant experience you have:": "Less than 1 year (site work April 2019 to February 2020 in the Philippines; choose the lowest option above none).",
+   "What is your availability to start in the role should you be successful?": "Marc to answer (no start date is on record)."
+  },
+  "checklist": [
+   "Search Gmail for Goldsmith before submitting (none found on 7 Oct 2026)",
+   "Confirm Marc's start availability for the SEEK question",
+   "Apply on SEEK https://www.seek.com.au/job/95098983 with the resume and this cover letter",
+   "Right to work: Subclass 485 to December 2027; medical: Yes; licence: Yes; experience: less than 1 year",
+   "Mark the tracker record Applied only after SEEK confirms the submission"
+  ],
+  "notes": "Victoria off-site rotation tick; SEEK 3 day sweep find, listed 7 Oct 2026 (AEDT), SEEK expiry 5 Nov 2026. Direct employer Goldsmith Civil and Environmental, Melbourne sites. Advert says apply by submitting a CV on SEEK, so prepared for SEEK; hr@ inbox in the advert is for other skills, not this role. Gmail and tracker checked for Goldsmith: no prior contact. Gaps disclosed: overseas site experience under one year, no GPS set-out use yet.\nEmployer home page read 7 Oct 2026 (Quality focused solutions since 1954; waterways, wastewater, landfill, earthworks, remediation, civil and roads; South Eastern Australia for more than 60 years). The advert says to apply by submitting a CV on SEEK; hr@goldsmith.com.au is offered only for people whose skills do not fit the listed role, so it is not used as this application's route. No named engineering contact found. Gmail in:anywhere for Goldsmith and tracker search: no prior contact.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-06, closes 2026-11-04). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate Site Engineer role on SEEK.\n• They may ask about: No Australian site experience; site work was in the Philippines 2019 to 2020 (under one year) → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Has not used GPS survey instruments on a job (advert says training provided) → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No water, wastewater or landfill project experience → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-06, closes 2026-11-04). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate Site Engineer role on SEEK.",
+   "They may ask about: No Australian site experience; site work was in the Philippines 2019 to 2020 (under one year) → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Has not used GPS survey instruments on a job (advert says training provided) → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No water, wastewater or landfill project experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-07T00:20:23.000Z",
+  "seek_id": "95098983",
+  "duplicate_key": "goldsmith|seek:95098983"
+ }
+]

@@ -1,0 +1,45 @@
+[
+ {
+  "id": "509be6d2-5296-421d-a3ac-d3fcdfaf406e",
+  "key": "manual:509be6d2-5296-421d-a3ac-d3fcdfaf406e",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261007T0016Z",
+  "created_at": "2026-10-07T00:20:32.000Z",
+  "updated_at": "2026-10-07T00:20:32.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "ACCIONA Australia",
+  "role": "Site Engineer",
+  "location": "South Melbourne, Melbourne VIC",
+  "job_url": "https://www.seek.com.au/job/95083640",
+  "status": "HELD_ELIGIBILITY_UNCONFIRMED",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMPLOYER_PORTAL",
+  "fit": [
+   "Site Engineer for metro and regional Victorian infrastructure (rail, roads, structures, water) based in South Melbourne; tertiary civil engineering education is met by Marc's BSCE and Advanced Diploma.",
+   "Duties (checking works against drawings, coordinating subcontractors, inspection and hold point records, recording progress and quantities, safety monitoring) trace to his Philippines site work.",
+   "Advert asks for Site Engineers with infrastructure experience and experience supporting construction works on civil or rail sites; Marc's site work was a building renovation and residential subdivision finishing works, and he has not set out works with survey instruments."
+  ],
+  "gaps": [
+   "No Australian or infrastructure (rail, road, structures, water) site experience",
+   "Site work under one year, in the Philippines 2019 to 2020",
+   "Has not used survey instruments for set-out on a job"
+  ],
+  "match_score": {
+   "percent": 64,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Site Engineer for metro and regional Victorian infrastructure (rail, roads, structures, water) based in South Melbourne; tertiary civil engineering education is met by Marc's BSCE and Advanced Diploma.",
+    "Duties (checking works against drawings, coordinating subcontractors, inspection and hold point records, recording progress and quantities, safety monitoring) trace to his Philippines site work.",
+    "Advert asks for Site Engineers with infrastructure experience and experience supporting construction works on civil or rail sites; Marc's site work was a building renovation and residential subdivision finishing works, and he has not set out works with survey instruments."
+   ],
+   "caution": "Not a graduate role; ACCIONA wants infrastructure site experience. Hold until Marc confirms whether his subdivision finishing works count as civil site experience."
+  },
+  "notes": "Held by Grok AI: Experience supporting construction works on civil or rail sites: Marc's site work was a community hall renovation and residential subdivision finishing works; whether that meets ACCIONA's civil or rail site requirement is not established",
+  "checked_at": "2026-10-07T00:20:32.000Z",
+  "seek_id": "95083640",
+  "duplicate_key": "accionaaustralia|seek:95083640"
+ }
+]
