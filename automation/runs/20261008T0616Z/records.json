@@ -1,0 +1,115 @@
+[
+ {
+  "id": "b71993ec-1009-4c85-8d37-be45b5d490ec",
+  "key": "manual:b71993ec-1009-4c85-8d37-be45b5d490ec",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261008T0616Z",
+  "created_at": "2026-10-08T06:21:56.000Z",
+  "updated_at": "2026-10-08T06:21:56.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "423f6393-f23d-4a79-bb78-08d8acdf2d1a",
+    "path": "/api/documents/423f6393-f23d-4a79-bb78-08d8acdf2d1a",
+    "filename": "Marc_Masarate_WIP_Construction_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-08T06:21:58.815Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "5e967df0-50e8-4a11-986c-1a3834e9ccd8",
+    "path": "/api/documents/5e967df0-50e8-4a11-986c-1a3834e9ccd8",
+    "filename": "Marc_Masarate_WIP_Construction_Graduate_Junior_Estimator_Cover_Letter.pdf",
+    "sha256": "7897f070b02ebce1faa42598de8aaa20ddd56bbc00d0b853beac6cb057dfe6ec",
+    "size_bytes": 49651,
+    "kind": "cover",
+    "uploaded_at": "2026-10-08T06:21:57.563Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "WIP Construction",
+  "role": "Graduate/ Junior Estimator",
+  "location": "Cairns, Cairns & Far North QLD",
+  "job_url": "https://www.seek.com.au/job/95131555",
+  "company_url": "https://wipconstruction.com.au/",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95131555",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Graduate / Junior Estimator application, Marc Darenz Masarate",
+  "email_body": "Hi WIP Construction team,\n\nI'm applying for the Graduate / Junior Estimator role in Cairns, advertised on SEEK.\n\nI hold a Bachelor of Science in Civil Engineering and finished an Advanced Diploma of Civil Construction Design in February 2026, where I designed road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD and prepared cost estimates and bills of quantities. From April 2019 to February 2020 I worked on site in the Philippines as a project-in-charge engineer and then a field engineer, reviewing drawings, tracking procurement and materials and writing progress reports. I hold a White Card, an Australian driver's licence and full working rights on a Subclass 485 visa until December 2027, and I'm open to discussing a move to Cairns.\n\nYour advert says you will teach estimating to someone who wants to learn how projects are priced and delivered, and that is what I'm after. My estimating so far is coursework, not a paid estimating role.\n\nCould we talk about the role? I've attached my resume and cover letter.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Graduate or junior estimator role at a direct Cairns commercial builder; the advert says no estimating experience is needed and names Civil Engineering among accepted qualifications, which Marc's BSCE and Advanced Diploma of Civil Construction Design meet.",
+   "Duties (reviewing drawings and specifications, quantity take-offs, supplier and subcontractor enquiries, comparing quotes) trace to his coursework cost estimates and bills of quantities, his drawing review on site and his procurement and materials tracking in the Philippines.",
+   "Office-based in Cairns; applicants must live there or be willing to relocate, and Marc's record says only that he is open to discussing relocation."
+  ],
+  "gaps": [
+   "No paid estimating experience; estimating is coursework only",
+   "No Australian construction work experience; site work was in the Philippines 2019 to 2020",
+   "Not based in Cairns; relocation not yet confirmed by Marc"
+  ],
+  "match_score": {
+   "percent": 66,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Graduate or junior estimator role at a direct Cairns commercial builder; the advert says no estimating experience is needed and names Civil Engineering among accepted qualifications, which Marc's BSCE and Advanced Diploma of Civil Construction Design meet.",
+    "Duties (reviewing drawings and specifications, quantity take-offs, supplier and subcontractor enquiries, comparing quotes) trace to his coursework cost estimates and bills of quantities, his drawing review on site and his procurement and materials tracking in the Philippines.",
+    "Office-based in Cairns; applicants must live there or be willing to relocate, and Marc's record says only that he is open to discussing relocation."
+   ],
+   "caution": "Commercial building estimating rather than civil works. Relocation to Cairns needs Marc's confirmation before applying. Estimating experience is coursework only; no Bluebeam, E1 or Benchmark use."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-08T01:58:16.276Z",
+   "expires_at": "2026-11-07T12:59:59.999Z",
+   "verified_at": "2026-10-08T06:17:54.000Z",
+   "apply_instructions": "Apply on SEEK (no link out). SEEK questions: right to work, years of estimating experience, notice period.",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as an Estimator?",
+    "How much notice are you required to give your current employer?"
+   ]
+  },
+  "screening_answers": {
+   "Which of the following statements best describes your right to work in Australia?": "Temporary visa with full working rights: Subclass 485, full working rights until December 2027.",
+   "How many years' experience do you have as an Estimator?": "No paid estimating experience (choose the lowest option; estimating is Advanced Diploma coursework: cost estimates and bills of quantities).",
+   "How much notice are you required to give your current employer?": "Marc to answer (no notice period is on record)."
+  },
+  "checklist": [
+   "Search Gmail for WIP Construction before submitting (none found on 8 Oct 2026)",
+   "Confirm Marc is willing to relocate to Cairns (the advert requires living there or relocating) and his notice period",
+   "Apply on SEEK https://www.seek.com.au/job/95131555 with the resume and this cover letter",
+   "Right to work: Subclass 485 to December 2027; estimator experience: none (lowest option)",
+   "Mark the tracker record Applied only after SEEK confirms the submission"
+  ],
+  "notes": "Victoria off-site rotation tick; SEEK 3 day sweep find, listed 8 Oct 2026 (AEDT), SEEK expiry 7 Nov 2026. Direct employer WIP Construction, Cairns commercial builder. SEEK route, no link out, no contact in the advert. Gmail and tracker checked for WIP Construction: no prior contact. Gaps disclosed: estimating is coursework only, no estimating software, relocation to Cairns needs Marc's confirmation.\nEmployer site and Followmont project page read 8 Oct 2026. The SEEK advert has no link out and gives no contact; the application goes through SEEK. No named estimating contact found. Gmail in:anywhere for WIP Construction: no prior contact. Tracker index: no prior WIP Construction record.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-08, closes 2026-11-07). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate/ Junior Estimator role on SEEK.\n• They may ask about: No paid estimating experience; estimating is coursework only → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian construction work experience; site work was in the Philippines 2019 to 2020 → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Not based in Cairns; relocation not yet confirmed by Marc → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-08, closes 2026-11-07). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate/ Junior Estimator role on SEEK.",
+   "They may ask about: No paid estimating experience; estimating is coursework only → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian construction work experience; site work was in the Philippines 2019 to 2020 → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Not based in Cairns; relocation not yet confirmed by Marc → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-08T06:21:56.000Z",
+  "seek_id": "95131555",
+  "duplicate_key": "wipconstruction|seek:95131555"
+ }
+]
