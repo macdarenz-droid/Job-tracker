@@ -1,0 +1,42 @@
+[
+ {
+  "id": "amey-cadet-civil-drafter-townsville",
+  "source": "jobau",
+  "company": "Amey Australia",
+  "title": "Cadet Civil Drafter / Cadet Civil Engineer",
+  "location": "Townsville QLD",
+  "url": "https://jobau.org/civil-drafter_townsville-city-center-c14845401/2026-09-amey-australia_i4221185425",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ },
+ {
+  "id": "ghd-grad-2026-27-drafters-melbourne-25441",
+  "source": "jobau",
+  "company": "GHD",
+  "title": "GHD Graduate Program 2026/27 - Civil & Structural Drafters/Designers (Melbourne)",
+  "location": "Melbourne VIC",
+  "url": "https://jobau.org/architecture-construction_melbourne-c1006235/2026-10-anonymous_i4229899414",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ },
+ {
+  "id": "eden-ritchie-95141967",
+  "source": "seek",
+  "seek_id": "95141967",
+  "company": "Eden Ritchie Recruitment",
+  "title": "Civil Engineers",
+  "location": "Nerang QLD",
+  "url": "https://www.seek.com.au/job/95141967",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ }
+]
