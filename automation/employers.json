@@ -519,9 +519,11 @@
   },
   "City of Greater Geelong": {
    "careers_url": "https://careers.pageuppeople.com/887/cw/en/listing/",
-   "checked_at": "2026-10-06",
-   "open_junior_roles": [],
-   "notes": "No open junior civil roles. PageUp keyword searches 'engineer'/'civil' return 0. Transport Planning Engineer (Band 6) closed 4 Oct 2026; Stormwater Engineer (Sept 2026) no longer listed. Open: Urban Designer, Graduate Environmental Health Officer, groundsperson/gardener, EOIs - none civil."
+   "checked_at": "2026-10-08",
+   "open_junior_roles": [
+    "Development Engineer (Band 6, fixed term to 30 Sep 2027, SEEK 95126025, closes 25 Oct 2026)"
+   ],
+   "notes": "Councils/government tick 20261008T0113Z: Development Engineer listed 8 Oct 2026 (SEEK link-out to PageUp); enquiries contact Adam Farrimond, Principal Development Engineer, published in the advert. READY_JEREMIE_EMPLOYER_PORTAL with double touch held until Applied. Earlier 6 Oct check: no junior roles."
   },
   "City of Ballarat": {
    "careers_url": "https://www.ballarat.vic.gov.au/current-vacancies",
@@ -1252,6 +1254,21 @@
      "result": "none - PM/PE needs 5+ yrs; trades only otherwise"
     }
    ]
+  },
+  {
+   "run_id": "20261008T0113Z",
+   "rotation": "councils_government",
+   "checked": [
+    "careersatcouncil (Mildura, Dubbo, Georges River)",
+    "Council Direct (Busselton, Cabonne)",
+    "Council Careers (Blacktown, Central Coast, Parkes)",
+    "movetomore (Bogan, Manjimup)",
+    "lgassist (Horsham, Whitsunday)",
+    "jobau (Gunnedah, Maitland, Coffs Harbour)",
+    "Vic water corporations (GWW, Barwon, CHW)",
+    "careers.vic.gov.au DTP"
+   ],
+   "result": "No new council or government advert: Mildura, Dubbo, Busselton, Gunnedah, Blacktown, Central Coast already tracked; Bogan Technical Officer needs 3 years; Manjimup Senior Technical Officer, Maitland and Coffs Harbour senior; Parkes Cadet needs current study; Cabonne needs 2 years."
   }
  ]
 }

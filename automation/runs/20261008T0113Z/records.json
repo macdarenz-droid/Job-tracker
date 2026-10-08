@@ -1,0 +1,113 @@
+[
+ {
+  "id": "575429e3-2a90-4543-ae62-cfd0195dad76",
+  "key": "manual:575429e3-2a90-4543-ae62-cfd0195dad76",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261008T0113Z",
+  "created_at": "2026-10-08T01:18:17.000Z",
+  "updated_at": "2026-10-08T01:18:17.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "61b30f33-5b4a-4430-8683-5d4418a0a5ce",
+    "path": "/api/documents/61b30f33-5b4a-4430-8683-5d4418a0a5ce",
+    "filename": "Marc_Masarate_City_of_Greater_Geelong_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-08T01:18:19.676Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "743dbf67-5f0f-4693-abc2-ba9bc928e19a",
+    "path": "/api/documents/743dbf67-5f0f-4693-abc2-ba9bc928e19a",
+    "filename": "Marc_Masarate_City_of_Greater_Geelong_Development_Engineer_Cover_Letter.pdf",
+    "sha256": "080cf2435e86c535f814938b275b9863b29be8a4416c92f4bafa17f9208e5aa9",
+    "size_bytes": 48306,
+    "kind": "cover",
+    "uploaded_at": "2026-10-08T01:18:18.338Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "City of Greater Geelong",
+  "role": "Development Engineer",
+  "location": "Geelong, South West Coast VIC",
+  "job_url": "https://www.seek.com.au/job/95126025",
+  "company_url": "https://www.geelongaustralia.com.au/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "Adam Farrimond",
+  "recipient_role": "Principal Development Engineer",
+  "recipient_email": "AFarrimond@geelongcity.vic.gov.au",
+  "contact_email": "AFarrimond@geelongcity.vic.gov.au",
+  "contact_evidence_url": "https://www.seek.com.au/job/95126025",
+  "contact_verified_at": "2026-10-08T01:18:17.000Z",
+  "contact_confidence": "published_direct",
+  "subject": "Development Engineer application, Marc Masarate",
+  "email_body": "Dear Adam,\n\nI have applied through the City's portal for the Development Engineer role advertised on SEEK, and wanted to reach you directly as the enquiries contact.\n\nIn February 2026 I completed an Advanced Diploma of Civil Construction Design, designing road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD, and I hold a Bachelor of Science in Civil Engineering. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, reviewing drawings, carrying out inspections and keeping site records. I live in Melton, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa, so the fixed term to September 2027 suits me well.\n\nChecking subdivision road and drainage drawings against Council standards is the work I most want to grow into. I have not yet worked in local government, and I would bring care and a willingness to learn your standards quickly.\n\nWould you be open to a short call about the role? I've attached my resume and cover letter.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "City of Greater Geelong Development Engineer (Band 6, fixed term to 30 September 2027); asks for a tertiary qualification in Civil Engineering, which Marc's BSCE meets, and no minimum years are stated.",
+   "Core work is checking subdivision road and drainage drawings and overseeing construction; Marc's Advanced Diploma road, earthworks, pavement and stormwater design in Civil 3D plus his site inspections and drawing reviews in the Philippines overlap well.",
+   "Geelong is about an hour from Melton, and the fixed term to September 2027 sits inside his Subclass 485 work rights to December 2027."
+  ],
+  "gaps": [
+   "No local government or statutory authority experience",
+   "No Australian subdivision plan checking experience; design work is Advanced Diploma coursework",
+   "Has not worked under the Subdivision Act or planning permit processes"
+  ],
+  "match_score": {
+   "percent": 70,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "City of Greater Geelong Development Engineer (Band 6, fixed term to 30 September 2027); asks for a tertiary qualification in Civil Engineering, which Marc's BSCE meets, and no minimum years are stated.",
+    "Core work is checking subdivision road and drainage drawings and overseeing construction; Marc's Advanced Diploma road, earthworks, pavement and stormwater design in Civil 3D plus his site inspections and drawing reviews in the Philippines overlap well.",
+    "Geelong is about an hour from Melton, and the fixed term to September 2027 sits inside his Subclass 485 work rights to December 2027."
+   ],
+   "caution": "Band 6 is above graduate level and the panel may prefer local government or Australian subdivision experience; Marc has neither yet, and his design work is coursework rather than paid production work."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-07T22:02:20.116Z",
+   "expires_at": "2026-10-25T12:55:00.000Z",
+   "verified_at": "2026-10-08T01:14:20.000Z",
+   "apply_instructions": "SEEK links out to the City of Greater Geelong careers portal; read the Position Description and apply online by 11:55pm Sunday 25 October 2026.",
+   "screening_questions": []
+  },
+  "screening_answers": {
+   "Work rights": "Subclass 485 visa, full working rights until December 2027",
+   "Driver's licence": "Yes, Australian driver's licence and own reliable transport",
+   "Willing to undergo a National Police Check": "Yes",
+   "Qualification in Civil Engineering": "Yes, Bachelor of Science in Civil Engineering (Divine Word College of Legazpi, 2014 to 2019) and Advanced Diploma of Civil Construction Design (completed February 2026)",
+   "Salary, start date, notice": "Leave for Marc to answer"
+  },
+  "checklist": [
+   "Open SEEK advert 95126025, click Apply and follow it to the City of Greater Geelong careers portal; download and read the Position Description",
+   "Upload the Geelong resume and the cover letter from this record",
+   "Answer work rights honestly: Subclass 485, full working rights to December 2027; leave salary and start date for Marc",
+   "Submit before 11:55pm Sunday 25 October 2026, save the confirmation email and mark this record Applied",
+   "Only after Applied, the short email to Adam Farrimond may go out as the one email of a later run"
+  ],
+  "notes": "SEEK find this tick (listed 8 Oct 2026, closes 11:55pm Sunday 25 October 2026). SEEK links out to the City of Greater Geelong careers portal. Band 6, fixed term to 30 September 2027. Adam Farrimond (Principal Development Engineer) is the enquiries contact named in the City's own advert; the short email to him is a double touch and must wait until Marc marks the portal application Applied. Prepared for Jeremie/Marc.\nNamed enquiries contact published by the City in its own advert (checked 8 Oct 2026). Talent Acquisition inbox careers@geelongcity.vic.gov.au is published only for adjustments, not applications. Application goes through the City portal; any email to Adam waits until Marc marks the portal application Applied.\nDouble touch: email the contact only after this record is marked Applied.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-07, closes 2026-10-25). Contact: Adam Farrimond (Principal Development Engineer), whose work email the employer publishes at https://www.seek.com.au/job/95126025. Named people seen on employer pages: Adam Farrimond (Principal Development Engineer). Marc or Jeremie submits through the portal or SEEK first; the short email to the contact goes only after Applied is pressed.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Development Engineer role on SEEK.\n• They may ask about: No local government or statutory authority experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian subdivision plan checking experience; design work is Advanced Diploma coursework → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Has not worked under the Subdivision Act or planning permit processes → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-07, closes 2026-10-25). Contact: Adam Farrimond (Principal Development Engineer), whose work email the employer publishes at https://www.seek.com.au/job/95126025. Named people seen on employer pages: Adam Farrimond (Principal Development Engineer). Marc or Jeremie submits through the portal or SEEK first; the short email to the contact goes only after Applied is pressed.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Development Engineer role on SEEK.",
+   "They may ask about: No local government or statutory authority experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian subdivision plan checking experience; design work is Advanced Diploma coursework → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Has not worked under the Subdivision Act or planning permit processes → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-08T01:18:17.000Z",
+  "seek_id": "95126025",
+  "duplicate_key": "cityofgreatergeelong|seek:95126025"
+ }
+]

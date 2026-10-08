@@ -1,0 +1,45 @@
+[
+ {
+  "id": "4cc59096-26fb-475c-b529-8e2b6d16fea2",
+  "key": "manual:4cc59096-26fb-475c-b529-8e2b6d16fea2",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261008T0113Z",
+  "created_at": "2026-10-08T01:18:26.000Z",
+  "updated_at": "2026-10-08T01:18:26.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Precruitment",
+  "role": "Graduate Civil Engineer",
+  "location": "Cairns, Cairns & Far North QLD",
+  "job_url": "https://www.seek.com.au/job/95127868",
+  "status": "HELD_ELIGIBILITY_UNCONFIRMED",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "SEEK",
+  "fit": [
+   "Graduate Civil Engineer with an unnamed Cairns civil consultancy through Precruitment; degree in Civil Engineering asked for, which Marc's BSCE meets.",
+   "Roads, drainage, stormwater and land development design plus site inspections match Marc's Advanced Diploma design work and his Philippines site work.",
+   "Cairns means relocation from Melton (assistance offered); agency advert with no named employer."
+  ],
+  "gaps": [
+   "Design experience is coursework, not commercial",
+   "Relocation to Cairns needed",
+   "No water or wastewater project experience"
+  ],
+  "match_score": {
+   "percent": 66,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Graduate Civil Engineer with an unnamed Cairns civil consultancy through Precruitment; degree in Civil Engineering asked for, which Marc's BSCE meets.",
+    "Roads, drainage, stormwater and land development design plus site inspections match Marc's Advanced Diploma design work and his Philippines site work.",
+    "Cairns means relocation from Melton (assistance offered); agency advert with no named employer."
+   ],
+   "caution": "Recruitment agency advert; the employer is not named. The advert says practical experience in civil design is a must, and Marc's design experience is from his Advanced Diploma, not a paid design job."
+  },
+  "notes": "Held by Grok AI: Advert says practical experience in civil design is a must; whether Advanced Diploma design coursework counts needs Marc or the recruiter to confirm before applying",
+  "checked_at": "2026-10-08T01:18:26.000Z",
+  "seek_id": "95127868",
+  "duplicate_key": "precruitment|seek:95127868"
+ }
+]
