@@ -1,0 +1,87 @@
+[
+ {
+  "id": "5f43c7ed-f441-43f6-8c99-9ba65f0a5db3",
+  "key": "manual:5f43c7ed-f441-43f6-8c99-9ba65f0a5db3",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261008T1747Z",
+  "created_at": "2026-10-08T17:56:23.000Z",
+  "updated_at": "2026-10-08T17:56:23.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "City of Kalgoorlie-Boulder",
+  "role": "Engineering Design Officer",
+  "location": "Kalgoorlie, Kalgoorlie, Goldfields & Esperance WA",
+  "job_url": "https://www.seek.com.au/job/95129584",
+  "status": "HELD_ELIGIBILITY_UNCONFIRMED",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMPLOYER_PORTAL",
+  "fit": [
+   "Council engineering design officer role whose duties (concept and detailed road and drainage designs in AutoCAD and Civil 3D, cost estimates, survey data in designs, design documentation) match Marc's Advanced Diploma coursework closely, and the degree criterion is met by his BSCE.",
+   "The advert seeks an experienced officer with advanced AutoCAD and Civil 3D skills; Marc's design work is coursework and his site work in the Philippines was 2019 to 2020.",
+   "Regional WA (Kalgoorlie), which matches Marc's stated openness to regional work, but needs relocation."
+  ],
+  "gaps": [
+   "Pitched at an experienced officer; no paid design experience",
+   "No current WA driver's licence (selection criterion)",
+   "No current National Police Clearance on record"
+  ],
+  "match_score": {
+   "percent": 61,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Council engineering design officer role whose duties (concept and detailed road and drainage designs in AutoCAD and Civil 3D, cost estimates, survey data in designs, design documentation) match Marc's Advanced Diploma coursework closely, and the degree criterion is met by his BSCE.",
+    "The advert seeks an experienced officer with advanced AutoCAD and Civil 3D skills; Marc's design work is coursework and his site work in the Philippines was 2019 to 2020.",
+    "Regional WA (Kalgoorlie), which matches Marc's stated openness to regional work, but needs relocation."
+   ],
+   "caution": "Experienced role; Marc's design skills are from study. Mandatory: a current valid Western Australian C or CA class licence and a current National Police Clearance; Marc's licence state is not WA and no current police clearance is on record."
+  },
+  "notes": "Held by Grok AI: Current valid Western Australian C or CA class driver's licence (Marc's licence is Australian but not WA; conversion timing unknown); Current satisfactory National Police Clearance (none on record)",
+  "checked_at": "2026-10-08T17:56:23.000Z",
+  "seek_id": "95129584",
+  "duplicate_key": "cityofkalgoorlieboulder|seek:95129584"
+ },
+ {
+  "id": "2cac980d-1539-48da-be27-2b52b037f52e",
+  "key": "manual:2cac980d-1539-48da-be27-2b52b037f52e",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261008T1747Z",
+  "created_at": "2026-10-08T17:56:23.000Z",
+  "updated_at": "2026-10-08T17:56:23.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "NT Government - Department of Logistics and Infrastructure",
+  "role": "Assistant Project Officer (Technical 3) - Civil Construction Top End",
+  "location": "Palmerston, NT",
+  "job_url": "https://jobs.nt.gov.au/Home/JobDetails?rtfId=357758",
+  "status": "HELD_ELIGIBILITY_UNCONFIRMED",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMPLOYER_PORTAL",
+  "fit": [
+   "NT Government Technical 3 assistant project officer doing site representative work (hold and witness points, conformance checks, daily diaries, quantity records, asset inspections, cost estimates), which matches Marc's 2019 to 2020 site inspections, quality checks and site and progress reports in the Philippines.",
+   "Essential criterion 1 accepts a relevant qualification from an Australian institution; his Advanced Diploma of Civil Construction Design (Albright Institute, February 2026) covered roads, earthworks, pavement and stormwater to Australian Standards, matching criterion 3.",
+   "Ongoing role in Palmerston NT; Marc is open to regional work but would need to relocate."
+  ],
+  "gaps": [
+   "No current NT Driver Licence (essential criterion 6)",
+   "No Australian site representative or contract supervision experience; site work was in the Philippines 2019 to 2020",
+   "Not based in the NT; relocation not yet confirmed by Marc"
+  ],
+  "match_score": {
+   "percent": 68,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "NT Government Technical 3 assistant project officer doing site representative work (hold and witness points, conformance checks, daily diaries, quantity records, asset inspections, cost estimates), which matches Marc's 2019 to 2020 site inspections, quality checks and site and progress reports in the Philippines.",
+    "Essential criterion 1 accepts a relevant qualification from an Australian institution; his Advanced Diploma of Civil Construction Design (Albright Institute, February 2026) covered roads, earthworks, pavement and stormwater to Australian Standards, matching criterion 3.",
+    "Ongoing role in Palmerston NT; Marc is open to regional work but would need to relocate."
+   ],
+   "caution": "Mandatory: a current NT Driver Licence; Marc's Australian licence is not on record as NT. Aboriginal applicants get priority consideration under a Special Measures plan. Application needs a one-page summary, a detailed resume and copies of tertiary qualifications. Closes 12 October 2026."
+  },
+  "notes": "Held by Grok AI: Current NT Driver Licence (essential criterion 6); Marc holds an Australian licence, not on record as NT, so he must confirm he can convert it before applying",
+  "checked_at": "2026-10-08T17:56:23.000Z",
+  "duplicate_key": "ntgovernmentdepartmentoflogisticsandinfrastructure|jobs.nt.gov.au/home/jobdetails"
+ }
+]

@@ -1,0 +1,229 @@
+[
+ {
+  "id": "0f367bf1-0797-424d-98e8-7f553089f05b",
+  "key": "manual:0f367bf1-0797-424d-98e8-7f553089f05b",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261008T1747Z",
+  "created_at": "2026-10-08T17:56:11.000Z",
+  "updated_at": "2026-10-08T17:56:11.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "2be68a2c-bdf4-4273-a06d-3daeb0a07980",
+    "path": "/api/documents/2be68a2c-bdf4-4273-a06d-3daeb0a07980",
+    "filename": "Marc_Masarate_Cadsult_IDS_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-08T17:56:13.318Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "9533ea63-2d9c-4556-8153-faf0f2c80844",
+    "path": "/api/documents/9533ea63-2d9c-4556-8153-faf0f2c80844",
+    "filename": "Marc_Masarate_Cadsult_IDS_Trainee_Junior_Irrigation_Designer_Cover_Letter.pdf",
+    "sha256": "1dccd225bfd750f45ad6347ec06c46447c24c4f4040c9c43cbe4c6034656bb9f",
+    "size_bytes": 48105,
+    "kind": "cover",
+    "uploaded_at": "2026-10-08T17:56:12.331Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Cadsult IDS",
+  "role": "Trainee/Junior Irrigation Designer",
+  "location": "Perth WA",
+  "job_url": "https://www.seek.com.au/job/95144022",
+  "company_url": "https://cadsult.com.au/",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95144022",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Trainee / Junior Irrigation Designer application, Marc Darenz Masarate",
+  "email_body": "Hi Cadsult team,\n\nI'm applying for the Trainee / Junior Irrigation Designer role in Perth, advertised on SEEK.\n\nI hold a Bachelor of Science in Civil Engineering and finished an Advanced Diploma of Civil Construction Design in February 2026, where I designed road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD. From April 2019 to February 2020 I worked on site in the Philippines as a project-in-charge engineer and then a field engineer, reviewing drawings and doing site inspections and quality checks. I hold a White Card, an Australian driver's licence and full working rights on a Subclass 485 visa until December 2027, and I'm open to discussing a move to Perth.\n\nYour advert offers mentoring toward the Certified Irrigation Designer qualification, and I'd like to build on my drainage design work that way. I haven't designed irrigation systems yet, and my AutoCAD work so far is from study.\n\nCould we talk about the role? I've attached my resume and cover letter.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Trainee/junior irrigation designer role at a direct Perth consultancy that trains the hire toward Certified Irrigation Designer; it asks for recent AutoCAD experience, a driver's licence and working rights, all of which Marc has.",
+   "His Advanced Diploma stormwater drainage design and AutoCAD and Civil 3D drawing work, plus drawing review and site inspections in the Philippines, fit the design support and site visit duties.",
+   "Irrigation design is a specialist niche and the role is in Perth; Marc has no irrigation experience and relocation needs his confirmation."
+  ],
+  "gaps": [
+   "No irrigation or landscape water design experience",
+   "AutoCAD experience is from Advanced Diploma coursework, not a paid drafting role",
+   "Not based in Perth; relocation not yet confirmed by Marc"
+  ],
+  "match_score": {
+   "percent": 64,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Trainee/junior irrigation designer role at a direct Perth consultancy that trains the hire toward Certified Irrigation Designer; it asks for recent AutoCAD experience, a driver's licence and working rights, all of which Marc has.",
+    "His Advanced Diploma stormwater drainage design and AutoCAD and Civil 3D drawing work, plus drawing review and site inspections in the Philippines, fit the design support and site visit duties.",
+    "Irrigation design is a specialist niche and the role is in Perth; Marc has no irrigation experience and relocation needs his confirmation."
+   ],
+   "caution": "Perth role, relocation from Melton needs Marc's confirmation (Cadsult also has a Melbourne office in Fairfield, but the advert is for the Perth team). No irrigation design experience; AutoCAD experience is from study."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-08T08:01:53.279Z",
+   "expires_at": "2026-11-07T12:59:59.999Z",
+   "verified_at": "2026-10-08T17:52:47.000Z",
+   "apply_instructions": "Apply on SEEK (no link out). SEEK questions: right to work, years as an irrigation designer, notice period, current Australian driver's licence, AutoCAD 2D experience.",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as an Irrigation Designer?",
+    "How much notice are you required to give your current employer?",
+    "Do you have a current Australian driver's licence?",
+    "Do you have experience using AutoCAD 2D?"
+   ]
+  },
+  "screening_answers": {
+   "Which of the following statements best describes your right to work in Australia?": "Temporary visa with full working rights: Subclass 485, full working rights until December 2027.",
+   "How many years' experience do you have as an Irrigation Designer?": "None (choose the lowest option).",
+   "How much notice are you required to give your current employer?": "Marc to answer (no notice period is on record).",
+   "Do you have a current Australian driver's licence?": "Yes.",
+   "Do you have experience using AutoCAD 2D?": "Yes, from Advanced Diploma of Civil Construction Design coursework (AutoCAD 2D/3D), not a paid drafting role."
+  },
+  "checklist": [
+   "Search Gmail for Cadsult before submitting (none found on 9 Oct 2026)",
+   "Confirm Marc is willing to relocate to Perth and his notice period",
+   "Apply on SEEK https://www.seek.com.au/job/95144022 with the resume and this cover letter",
+   "Right to work: Subclass 485 to December 2027; irrigation designer experience: none (lowest option); licence: yes; AutoCAD 2D: yes",
+   "Mark the tracker record Applied only after SEEK confirms the submission"
+  ],
+  "notes": "Councils and government rotation tick; found in a widened 7 day SEEK sweep, listed 8 Oct 2026, SEEK expiry 7 Nov 2026. Direct employer Cadsult (irrigation and water management design consultancy, Subiaco WA). SEEK route, no link out, no contact in the advert. Gaps disclosed: no irrigation design experience, AutoCAD from study, relocation to Perth needs Marc's confirmation.\nCadsult home and contact pages read 9 Oct 2026; only a sales@ inbox is published, which does not say it takes applications, so no email route. SEEK advert has no link out. Gmail in:anywhere for Cadsult: no prior contact. Tracker: no prior Cadsult record.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-08, closes 2026-11-07). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Trainee/Junior Irrigation Designer role on SEEK.\n• They may ask about: No irrigation or landscape water design experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: AutoCAD experience is from Advanced Diploma coursework, not a paid drafting role → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Not based in Perth; relocation not yet confirmed by Marc → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-08, closes 2026-11-07). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Trainee/Junior Irrigation Designer role on SEEK.",
+   "They may ask about: No irrigation or landscape water design experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: AutoCAD experience is from Advanced Diploma coursework, not a paid drafting role → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Not based in Perth; relocation not yet confirmed by Marc → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-08T17:56:11.000Z",
+  "seek_id": "95144022",
+  "duplicate_key": "cadsultids|seek:95144022"
+ },
+ {
+  "id": "7e06aa09-2df5-4a93-9c8f-a23d9773d05c",
+  "key": "manual:7e06aa09-2df5-4a93-9c8f-a23d9773d05c",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261008T1747Z",
+  "created_at": "2026-10-08T17:56:14.000Z",
+  "updated_at": "2026-10-08T17:56:14.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "b8366dbc-34c4-406b-bbeb-72a8debce417",
+    "path": "/api/documents/b8366dbc-34c4-406b-bbeb-72a8debce417",
+    "filename": "Marc_Masarate_City_of_Canada_Bay_Council_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-08T17:56:15.789Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "c7d4fd10-8ec6-40a4-80e4-b1f25905dacb",
+    "path": "/api/documents/c7d4fd10-8ec6-40a4-80e4-b1f25905dacb",
+    "filename": "Marc_Masarate_City_of_Canada_Bay_Council_Infrastructure_Engineer_Cover_Letter.pdf",
+    "sha256": "9ae06219657fbccd04bb70601b4d463e9b213e8b333c5363eb5c1285fda218b3",
+    "size_bytes": 47192,
+    "kind": "cover",
+    "uploaded_at": "2026-10-08T17:56:14.913Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "City of Canada Bay Council",
+  "role": "Infrastructure Engineer",
+  "location": "Five Dock, Sydney NSW",
+  "job_url": "https://www.seek.com.au/job/95148846",
+  "company_url": "https://www.canadabay.nsw.gov.au/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "Vincenzo Camuglia",
+  "recipient_role": "Coordinator, Infrastructure Design",
+  "recipient_email": "Vincenzo.Camuglia@canadabay.nsw.gov.au",
+  "contact_email": "Vincenzo.Camuglia@canadabay.nsw.gov.au",
+  "contact_evidence_url": "https://www.seek.com.au/job/95148846",
+  "contact_verified_at": "2026-10-08T17:56:14.000Z",
+  "contact_confidence": "published_direct",
+  "subject": "Infrastructure Engineer application, Marc Darenz Masarate",
+  "email_body": "Hi Vincenzo,\n\nI've applied through Council's online system for the Infrastructure Engineer role advertised on SEEK, and your advert named you for questions, so I wanted to reach you directly as well.\n\nI hold a Bachelor of Science in Civil Engineering and finished an Advanced Diploma of Civil Construction Design in February 2026, where I designed road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD and prepared cost estimates and bills of quantities. From April 2019 to February 2020 I worked on site in the Philippines as a project-in-charge engineer and then a field engineer, doing site inspections, quality checks and progress reports. I'm based in Melton with a White Card, a driver's licence and full working rights on a Subclass 485 visa until December 2027, and I'm open to discussing a move to Sydney.\n\nThe mix of operational and capital works, from site investigation through to delivery, is the start I'm after. I haven't managed contracts or prepared tender documents yet.\n\nWould you have ten minutes for a short call about the role? I've attached my resume and cover letter.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Council infrastructure engineer role pitched at someone currently studying or recently qualified in civil engineering, which Marc's BSCE and February 2026 Advanced Diploma of Civil Construction Design meet.",
+   "Duties (infrastructure designs, cost estimates, site investigations and inspections, monitoring works against specifications, project documentation) trace to his road, pavement and stormwater design coursework in AutoCAD and Civil 3D, coursework cost estimates and bills of quantities, and his 2019 to 2020 site inspections and progress reports in the Philippines.",
+   "Sydney based (Five Dock) with hybrid work; Marc is in Melton VIC and is only on record as open to discussing relocation."
+  ],
+  "gaps": [
+   "No Australian council or paid engineering experience; site work was in the Philippines 2019 to 2020",
+   "No contract management, tender documentation or grant submission experience on record",
+   "Not based in Sydney; relocation not yet confirmed by Marc"
+  ],
+  "match_score": {
+   "percent": 70,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Council infrastructure engineer role pitched at someone currently studying or recently qualified in civil engineering, which Marc's BSCE and February 2026 Advanced Diploma of Civil Construction Design meet.",
+    "Duties (infrastructure designs, cost estimates, site investigations and inspections, monitoring works against specifications, project documentation) trace to his road, pavement and stormwater design coursework in AutoCAD and Civil 3D, coursework cost estimates and bills of quantities, and his 2019 to 2020 site inspections and progress reports in the Philippines.",
+    "Sydney based (Five Dock) with hybrid work; Marc is in Melton VIC and is only on record as open to discussing relocation."
+   ],
+   "caution": "Sydney role, so relocation from Melton needs Marc's confirmation. No Australian council or contract management experience. The advert asks for a current Class C licence; Marc holds an Australian driver's licence (state not on record as NSW). Tender documentation, grant submissions and environmental approvals are not in his record."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-08T11:53:31.230Z",
+   "expires_at": "2026-11-07T12:59:59.999Z",
+   "verified_at": "2026-10-08T17:48:33.000Z",
+   "apply_instructions": "Apply online only: the SEEK advert links out to the City of Canada Bay online application system, and the advert says applications will not be accepted through any other medium. Council guidelines ask for a brief covering letter and CV plus responses to the position questions. Closes 11:30pm Thursday 22 October 2026 (AEDT). Position enquiries: Vincenzo Camuglia, Coordinator, Infrastructure Design, 02 9911 6287, Vincenzo.Camuglia@canadabay.nsw.gov.au. Salary $79,533 to $91,463 plus super. Pre-employment medical and background checks apply.",
+   "screening_questions": []
+  },
+  "screening_answers": {
+   "Right to work in Australia": "Subclass 485 visa, full working rights until December 2027 (not a citizen or permanent resident).",
+   "Current Class C driver licence": "Australian driver's licence held (state on record is not stated as NSW; Marc to confirm the licence class and state before answering).",
+   "Tertiary qualification in civil engineering": "Bachelor of Science in Civil Engineering (Divine Word College of Legazpi, 2014 to 2019) and Advanced Diploma of Civil Construction Design (Albright Institute, completed February 2026).",
+   "Software": "Microsoft Office, AutoCAD 2D/3D, Civil 3D, Revit, Google Workspace."
+  },
+  "checklist": [
+   "Search Gmail for Canada Bay before submitting (none found on 9 Oct 2026)",
+   "Confirm Marc is willing to relocate to Sydney and the class and state of his driver's licence",
+   "Apply through the SEEK Apply link out to Council's online system https://www.seek.com.au/job/95148846 with the resume and this cover letter, answering the position questions from the screening answers",
+   "Submit before 11:30pm Thursday 22 October 2026 AEDT; mark the tracker record Applied only after Council confirms receipt",
+   "Only after Applied: the short email to Vincenzo Camuglia may go out (double touch rule)"
+  ],
+  "notes": "Councils and government rotation tick; SEEK 3 day sweep find, listed 8 Oct 2026, closes 22 Oct 2026. Direct employer City of Canada Bay Council. Apply online only (no other medium accepted). Enquiry contact Vincenzo Camuglia published in the advert. Gaps disclosed: no contract management, tender or grant work; relocation to Sydney and licence state need Marc's confirmation.\nContact published in the SEEK advert itself (read 9 Oct 2026). Council Work for us page read 9 Oct 2026: applications only through Council's online system, with a brief covering letter and CV. The council's applynow board (canadabay.applynow.net.au) showed no vacancies when rendered, so the SEEK Apply link-out is the route. Gmail in:anywhere for Canada Bay: no prior contact. Tracker: no prior Canada Bay record.\nDouble touch: email the contact only after this record is marked Applied.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-08, closes 2026-11-07). Contact: Vincenzo Camuglia (Coordinator, Infrastructure Design), whose work email the employer publishes at https://www.seek.com.au/job/95148846. Named people seen on employer pages: Vincenzo Camuglia (Coordinator, Infrastructure Design); Grace Aberin (Accessibility requirements contact (advert)). Marc or Jeremie submits through the portal or SEEK first; the short email to the contact goes only after Applied is pressed.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Infrastructure Engineer role on SEEK.\n• They may ask about: No Australian council or paid engineering experience; site work was in the Philippines 2019 to 2020 → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No contract management, tender documentation or grant submission experience on record → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Not based in Sydney; relocation not yet confirmed by Marc → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-08, closes 2026-11-07). Contact: Vincenzo Camuglia (Coordinator, Infrastructure Design), whose work email the employer publishes at https://www.seek.com.au/job/95148846. Named people seen on employer pages: Vincenzo Camuglia (Coordinator, Infrastructure Design); Grace Aberin (Accessibility requirements contact (advert)). Marc or Jeremie submits through the portal or SEEK first; the short email to the contact goes only after Applied is pressed.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Infrastructure Engineer role on SEEK.",
+   "They may ask about: No Australian council or paid engineering experience; site work was in the Philippines 2019 to 2020 → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No contract management, tender documentation or grant submission experience on record → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Not based in Sydney; relocation not yet confirmed by Marc → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-08T17:56:14.000Z",
+  "seek_id": "95148846",
+  "duplicate_key": "cityofcanadabaycouncil|seek:95148846"
+ }
+]
