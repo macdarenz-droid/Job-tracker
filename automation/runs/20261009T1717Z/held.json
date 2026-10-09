@@ -1,0 +1,44 @@
+[
+ {
+  "id": "26d5fa38-7847-4c36-b752-af1528d1c133",
+  "key": "manual:26d5fa38-7847-4c36-b752-af1528d1c133",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261009T1717Z",
+  "created_at": "2026-10-09T17:26:49.000Z",
+  "updated_at": "2026-10-09T17:26:49.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Fulton Hogan",
+  "role": "Site & Project Engineers (EOI), Victoria",
+  "location": "Richmond VIC (project sites across Victoria)",
+  "job_url": "https://fultonhogan.wd3.myworkdayjobs.com/en-US/broadbean_external/job/Site---Project-Engineers--EOI-_R26927",
+  "status": "HELD_MANDATORY_REQUIREMENTS",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMPLOYER_PORTAL",
+  "fit": [
+   "Victorian site engineer EOI on roads, earthworks and drainage, which matches Marc's civil degree, Advanced Diploma road and drainage design and his Melton base, licence and White Card.",
+   "Site duties (inspections, quality and safety checks, coordinating labour and subcontractors, progress reporting) trace to his 2019 to 2020 Philippines site work.",
+   "The advert asks for demonstrated experience on major infrastructure projects; Marc's site work was a building renovation and subdivision finishing works, under one year."
+  ],
+  "gaps": [
+   "Demonstrated experience working on major infrastructure projects (Marc's site work was a building renovation and subdivision finishing works, Apr 2019 to Feb 2020)",
+   "No Australian site experience",
+   "No cost tracking, variations or progress claims experience on a paid job"
+  ],
+  "match_score": {
+   "percent": 60,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Victorian site engineer EOI on roads, earthworks and drainage, which matches Marc's civil degree, Advanced Diploma road and drainage design and his Melton base, licence and White Card.",
+    "Site duties (inspections, quality and safety checks, coordinating labour and subcontractors, progress reporting) trace to his 2019 to 2020 Philippines site work.",
+    "The advert asks for demonstrated experience on major infrastructure projects; Marc's site work was a building renovation and subdivision finishing works, under one year."
+   ],
+   "caution": "Mandatory major infrastructure project experience is not met. The advert invites applicants who do not meet every criterion, so Marc may still choose to apply; closes 15 Oct 2026."
+  },
+  "notes": "Held by Grok AI: Demonstrated experience working on major infrastructure projects (Marc's site work was a building renovation and subdivision finishing works, Apr 2019 to Feb 2020)",
+  "checked_at": "2026-10-09T17:26:49.000Z",
+  "duplicate_key": "fultonhogan|fultonhogan.wd3.myworkdayjobs.com/en-us/broadbean_external/job/site---project-engineers--eoi-_r26927"
+ }
+]
