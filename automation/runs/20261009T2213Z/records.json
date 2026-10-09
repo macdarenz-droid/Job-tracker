@@ -1,0 +1,198 @@
+[
+ {
+  "id": "73e3d4f4-fa0a-47ce-980e-14326cb3d06b",
+  "key": "manual:73e3d4f4-fa0a-47ce-980e-14326cb3d06b",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261009T2213Z",
+  "created_at": "2026-10-09T22:22:10.000Z",
+  "updated_at": "2026-10-09T22:22:10.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "9fc0118d-b40b-4a96-bae1-5fb40ddb3231",
+    "path": "/api/documents/9fc0118d-b40b-4a96-bae1-5fb40ddb3231",
+    "filename": "Marc_Masarate_AR_Civil_Consultancy_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-09T22:22:13.230Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "3efe754f-a96f-4f43-8683-995b0106694f",
+    "path": "/api/documents/3efe754f-a96f-4f43-8683-995b0106694f",
+    "filename": "Marc_Masarate_AR_Civil_Consultancy_CAD_Draftsperson_Student_Cover_Letter.pdf",
+    "sha256": "ace8d4808041f4b76cea46816c35d236c19233fa0820c2416a4d92af2ba1b5ce",
+    "size_bytes": 48491,
+    "kind": "cover",
+    "uploaded_at": "2026-10-09T22:22:11.970Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "AR Civil Consultancy",
+  "role": "CAD Draftsperson (Student)",
+  "location": "Melbourne VIC (St Kilda Road)",
+  "job_url": "https://www.arcivilconsultants.com.au/",
+  "company_url": "https://www.arcivilconsultants.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "ADVERTISED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Company inbox named on the careers section's Apply Now link for this role",
+  "recipient_email": "contact@arcivilconsultants.com.au",
+  "contact_email": "contact@arcivilconsultants.com.au",
+  "contact_evidence_url": "https://www.arcivilconsultants.com.au/",
+  "contact_verified_at": "2026-10-09T22:22:10.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Application for CAD Draftsperson (Student), Marc Masarate",
+  "email_body": "Hello,\n\nI am applying for the CAD Draftsperson (Student) role listed on the AR Civil Consultancy website. The role is open to people who have recently completed an Advanced Diploma in Civil Construction Design, which is the qualification I have just finished.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge. I am Melton based, hold a White Card, a driver's licence and my own transport, and have full working rights until December 2027 on a 485 visa. I am available for site, regional and FIFO work.\n\nYour work on road widening and drainage design for local infrastructure upgrades is the kind of drafting I would like to learn on. My AutoCAD, Civil 3D and Revit experience comes from study rather than a paid drafting job, so I would value the mentoring the role offers.\n\nWould you be open to a short call or a meeting at your St Kilda Road office? I've attached my resume and cover letter.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Entry-level CAD drafting role that names a recently completed Advanced Diploma in Civil Construction Design, the exact qualification Marc finished in February 2026.",
+   "Duties (civil and architectural drawings in AutoCAD and/or Revit, revising drawings from engineer feedback) match his AutoCAD, Civil 3D and Revit coursework; the firm's infrastructure work includes road widening and drainage design.",
+   "Melbourne office on St Kilda Road, an easy commute by train from Melton; application by email to the address on the employer's own Apply Now link."
+  ],
+  "gaps": [
+   "Drafting experience is academic, not commercial production drafting",
+   "No Australian office experience yet",
+   "No NCC or building permit documentation experience in facts"
+  ],
+  "match_score": {
+   "percent": 80,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Entry-level CAD drafting role that names a recently completed Advanced Diploma in Civil Construction Design, the exact qualification Marc finished in February 2026.",
+    "Duties (civil and architectural drawings in AutoCAD and/or Revit, revising drawings from engineer feedback) match his AutoCAD, Civil 3D and Revit coursework; the firm's infrastructure work includes road widening and drainage design.",
+    "Melbourne office on St Kilda Road, an easy commute by train from Melton; application by email to the address on the employer's own Apply Now link."
+   ],
+   "caution": "Titled Student with flexible hours, so it may be part-time or a junior trainee rate; pay and hours are not stated. Small consultancy (est. 2019) whose site lists team roles as TBA; no posted or closing date is shown, so Marc may want to confirm it is still current. Architectural drawings and building permit work are part of the mix."
+  },
+  "advert": {
+   "source": "employer_website",
+   "listed_at": "",
+   "expires_at": "",
+   "verified_at": "2026-10-09T22:22:10.000Z",
+   "apply_instructions": "Email resume and cover letter to contact@arcivilconsultants.com.au with subject 'Application for CAD Draftsperson (Student)' (the careers section's Apply Now link).",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [],
+  "notes": "Employers rotation, open web. Found on the employer's own website (careers section, no posted or closing date shown) on 10 Oct 2026 AEDT. Application by email to contact@arcivilconsultants.com.au with the subject the employer's Apply Now link sets. Role is titled Student with flexible hours; pay and hours not stated, so Marc may want to confirm it suits him. Small consultancy; no named staff published.\nSite is a JavaScript app; read with headless Chrome (browse.py) and the mailto links read from the site's own JS bundle on 10 Oct 2026 AEDT. No named staff are published (team cards say TBA), so the inbox the employer designates for this role is used. Gmail in:anywhere search for arcivilconsultants / AR Civil returned nothing.\nHOW GROK AI FOUND THIS\nFound on employer_website (listed date not shown). Contact: the application inbox contact@arcivilconsultants.com.au published by the employer (https://www.arcivilconsultants.com.au/); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the CAD Draftsperson (Student) role on SEEK.\n• They may ask about: Drafting experience is academic, not commercial production drafting → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian office experience yet → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No NCC or building permit documentation experience in facts → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_website (listed date not shown). Contact: the application inbox contact@arcivilconsultants.com.au published by the employer (https://www.arcivilconsultants.com.au/); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the CAD Draftsperson (Student) role on SEEK.",
+   "They may ask about: Drafting experience is academic, not commercial production drafting → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian office experience yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No NCC or building permit documentation experience in facts → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-09T22:22:10.000Z",
+  "duplicate_key": "arcivilconsultancy|arcivilconsultants.com.au"
+ },
+ {
+  "id": "b48d4b4b-f036-4a19-995c-4e3df196d3e5",
+  "key": "manual:b48d4b4b-f036-4a19-995c-4e3df196d3e5",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261009T2213Z",
+  "created_at": "2026-10-09T22:22:14.000Z",
+  "updated_at": "2026-10-09T22:22:14.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "cd6168e4-295e-4570-ae7e-c7a4ecaa0548",
+    "path": "/api/documents/cd6168e4-295e-4570-ae7e-c7a4ecaa0548",
+    "filename": "Marc_Masarate_onemilegrid_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-09T22:22:16.302Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "3d62f047-fb83-4d89-a8a4-53ffd3e5bba3",
+    "path": "/api/documents/3d62f047-fb83-4d89-a8a4-53ffd3e5bba3",
+    "filename": "Marc_Masarate_onemilegrid_Graduate_Traffic_Transport_Engineer_Cover_Letter.pdf",
+    "sha256": "7ace796dafd7bdeb0fd027fa7ea9cfe2baa0ed5f129c958b72f73f7b8af3fe8b",
+    "size_bytes": 47747,
+    "kind": "cover",
+    "uploaded_at": "2026-10-09T22:22:15.487Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "onemilegrid",
+  "role": "Graduate Traffic / Transport Engineer",
+  "location": "Melbourne VIC",
+  "job_url": "https://www.onemilegrid.com.au/working-at-onemilegrid/traffic-transport-engineer",
+  "company_url": "https://www.onemilegrid.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "ADVERTISED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "HR Manager inbox named in the advert for applications",
+  "recipient_email": "hr@onemilegrid.com.au",
+  "contact_email": "hr@onemilegrid.com.au",
+  "contact_evidence_url": "https://www.onemilegrid.com.au/working-at-onemilegrid/traffic-transport-engineer",
+  "contact_verified_at": "2026-10-09T22:22:14.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Application: Graduate Engineer, Traffic and Transport, Marc Masarate",
+  "email_body": "Hello,\n\nI am applying for the Graduate Engineer (under one year of experience) position in traffic and transport engineering listed on the onemilegrid careers page, which asks for applications to this address.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge. I am Melton based, hold a White Card, a driver's licence and my own transport, and have full working rights until December 2027 on a 485 visa. I am available for site, regional and FIFO work. I also hold a Bachelor of Science in Civil Engineering from the Philippines.\n\nThe chance to prepare transport impact assessments and give design advice while reporting directly to a Director is what draws me to onemilegrid. My road work so far is geometry, Austroads guides and AS 1742.14 from my course; I have not yet used SIDRA or traffic modelling software, so that is where I would be learning.\n\nCould we arrange a short conversation about the graduate role? I've attached my resume and cover letter.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Graduate Engineer level (<1 year experience) in a Melbourne traffic and transport consultancy, reporting to a Director; requires formal civil engineering qualifications, which Marc holds (BSCE 2019, Advanced Diploma 2026).",
+   "Overlap is road geometry, Austroads road guides and AS 1742.14 from coursework plus clear written reporting from site work; transport impact assessments and modelling would be new.",
+   "Mandatory full working rights and a current Australian driver's licence are both met (485 full work rights to December 2027, Australian licence)."
+  ],
+  "gaps": [
+   "No SIDRA or traffic modelling experience",
+   "No transport impact assessment experience",
+   "No Australian consulting experience yet"
+  ],
+  "match_score": {
+   "percent": 64,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Graduate Engineer level (<1 year experience) in a Melbourne traffic and transport consultancy, reporting to a Director; requires formal civil engineering qualifications, which Marc holds (BSCE 2019, Advanced Diploma 2026).",
+    "Overlap is road geometry, Austroads road guides and AS 1742.14 from coursework plus clear written reporting from site work; transport impact assessments and modelling would be new.",
+    "Mandatory full working rights and a current Australian driver's licence are both met (485 full work rights to December 2027, Australian licence)."
+   ],
+   "caution": "Discipline is traffic engineering and transport planning rather than civil design or site work; Marc has not used SIDRA or traffic modelling tools. The page is an evergreen careers page with no posted or closing date."
+  },
+  "advert": {
+   "source": "employer_website",
+   "listed_at": "",
+   "expires_at": "",
+   "verified_at": "2026-10-09T22:22:14.000Z",
+   "apply_instructions": "Email resume with cover letter to hr@onemilegrid.com.au (the advert's application address).",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [],
+  "notes": "Employers rotation, open web. Found on onemilegrid's own careers page (evergreen, no posted or closing date) on 10 Oct 2026 AEDT; the page lists Undergraduate, Graduate (<1 year) and Engineer/Senior positions. Application by email to hr@onemilegrid.com.au. Mandatory full working rights and Australian licence met. Discipline is traffic and transport rather than civil design; fit 64.\nAdvert read 10 Oct 2026 AEDT. The application address is the published HR inbox; no Director email was used. Gmail in:anywhere search for onemilegrid returned nothing.\nHOW GROK AI FOUND THIS\nFound on employer_website (listed date not shown). Contact: the application inbox hr@onemilegrid.com.au published by the employer (https://www.onemilegrid.com.au/working-at-onemilegrid/traffic-transport-engineer); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate Traffic / Transport Engineer role on SEEK.\n• They may ask about: No SIDRA or traffic modelling experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No transport impact assessment experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian consulting experience yet → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_website (listed date not shown). Contact: the application inbox hr@onemilegrid.com.au published by the employer (https://www.onemilegrid.com.au/working-at-onemilegrid/traffic-transport-engineer); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate Traffic / Transport Engineer role on SEEK.",
+   "They may ask about: No SIDRA or traffic modelling experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No transport impact assessment experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian consulting experience yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-09T22:22:14.000Z",
+  "duplicate_key": "onemilegrid|onemilegrid.com.au/working-at-onemilegrid/traffic-transport-engineer"
+ }
+]
