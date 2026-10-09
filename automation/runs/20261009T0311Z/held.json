@@ -1,0 +1,174 @@
+[
+ {
+  "id": "e23da3cf-80a8-42ed-85bc-052acbc1795b",
+  "key": "manual:e23da3cf-80a8-42ed-85bc-052acbc1795b",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261009T0311Z",
+  "created_at": "2026-10-09T03:26:16.000Z",
+  "updated_at": "2026-10-09T03:26:16.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Quickway Constructions",
+  "role": "Undergraduate Civil Engineer",
+  "location": "Burleigh Waters, Gold Coast QLD",
+  "job_url": "https://www.seek.com.au/job/94877601",
+  "status": "HELD_MANDATORY_REQUIREMENTS",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "SEEK",
+  "fit": [
+   "Undergraduate Civil Engineer on a live bridge project matches site/documentation learning goals.",
+   "No prior industry experience required; White Card and licence are desirable and Marc holds both.",
+   "Gold Coast project; Marc is open to QLD and site work."
+  ],
+  "gaps": [
+   "Currently studying a Bachelor of Civil Engineering (3rd or 4th year)",
+   "Not a current 3rd/4th year Bachelor of Civil Engineering student"
+  ],
+  "match_score": {
+   "percent": 72,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Undergraduate Civil Engineer on a live bridge project matches site/documentation learning goals.",
+    "No prior industry experience required; White Card and licence are desirable and Marc holds both.",
+    "Gold Coast project; Marc is open to QLD and site work."
+   ],
+   "caution": "Essential: currently studying Bachelor of Civil Engineering in 3rd or 4th year. Marc is not a current Bachelor student."
+  },
+  "notes": "Held by Grok AI: Currently studying a Bachelor of Civil Engineering (3rd or 4th year)",
+  "checked_at": "2026-10-09T03:26:16.000Z",
+  "seek_id": "94877601",
+  "duplicate_key": "quickwayconstructions|seek:94877601"
+ },
+ {
+  "id": "47f80793-1bc9-43b6-9611-5271fdfd11ed",
+  "key": "manual:47f80793-1bc9-43b6-9611-5271fdfd11ed",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261009T0311Z",
+  "created_at": "2026-10-09T03:26:16.000Z",
+  "updated_at": "2026-10-09T03:26:16.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Menai Civil Contractors",
+  "role": "Cadet Site Engineer",
+  "location": "Blacktown, Sydney NSW",
+  "job_url": "https://www.seek.com.au/job/94960604",
+  "status": "HELD_MANDATORY_REQUIREMENTS",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "SEEK",
+  "fit": [
+   "Cadet Site Engineer is an entry target with site inspections, ITPs, documentation and WHS exposure that matches Marc's site background.",
+   "Civil construction delivery aligns with Philippines site work and White Card / licence readiness.",
+   "Blacktown NSW; Marc is open to interstate and site work."
+  ],
+  "gaps": [
+   "Currently studying a Bachelor of Civil Engineering",
+   "Not currently studying a Bachelor of Civil Engineering",
+   "No Australian site employment yet"
+  ],
+  "match_score": {
+   "percent": 70,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Cadet Site Engineer is an entry target with site inspections, ITPs, documentation and WHS exposure that matches Marc's site background.",
+    "Civil construction delivery aligns with Philippines site work and White Card / licence readiness.",
+    "Blacktown NSW; Marc is open to interstate and site work."
+   ],
+   "caution": "Essential: currently studying a Bachelor of Civil Engineering. Marc completed BSCE in 2019 and Advanced Diploma in Feb 2026; he is not currently enrolled in a Bachelor."
+  },
+  "notes": "Held by Grok AI: Currently studying a Bachelor of Civil Engineering",
+  "checked_at": "2026-10-09T03:26:16.000Z",
+  "seek_id": "94960604",
+  "duplicate_key": "menaicivilcontractors|seek:94960604"
+ },
+ {
+  "id": "3655db07-10bf-427a-beaa-0a5315649499",
+  "key": "manual:3655db07-10bf-427a-beaa-0a5315649499",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261009T0311Z",
+  "created_at": "2026-10-09T03:26:16.000Z",
+  "updated_at": "2026-10-09T03:26:16.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Hullcon",
+  "role": "Civil Draftsperson - Microstation and ProjectWise",
+  "location": "Abbotsford, Melbourne VIC",
+  "job_url": "https://www.seek.com.au/job/95097651",
+  "status": "HELD_MANDATORY_REQUIREMENTS",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "SEEK",
+  "fit": [
+   "Civil Draftsperson in Abbotsford Melbourne matches location and drafting target.",
+   "Roads, drainage and earthworks portfolio overlaps Advanced Diploma coursework.",
+   "Office-based Melbourne west-adjacent is a strong location fit."
+  ],
+  "gaps": [
+   "Strong experience using Bentley MicroStation and/or OpenRoads Designer",
+   "Strong experience using and managing ProjectWise",
+   "No MicroStation or ProjectWise experience",
+   "Pitched at experienced drafter"
+  ],
+  "match_score": {
+   "percent": 62,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Civil Draftsperson in Abbotsford Melbourne matches location and drafting target.",
+    "Roads, drainage and earthworks portfolio overlaps Advanced Diploma coursework.",
+    "Office-based Melbourne west-adjacent is a strong location fit."
+   ],
+   "caution": "Essential strong experience in Bentley MicroStation and ProjectWise; Marc's drafting tools are AutoCAD and Civil 3D from study, not MicroStation."
+  },
+  "notes": "Held by Grok AI: Strong experience using Bentley MicroStation and/or OpenRoads Designer; Strong experience using and managing ProjectWise",
+  "checked_at": "2026-10-09T03:26:16.000Z",
+  "seek_id": "95097651",
+  "duplicate_key": "hullcon|seek:95097651"
+ },
+ {
+  "id": "f791beb1-e417-490d-abfb-7f44489cfbdd",
+  "key": "manual:f791beb1-e417-490d-abfb-7f44489cfbdd",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261009T0311Z",
+  "created_at": "2026-10-09T03:26:16.000Z",
+  "updated_at": "2026-10-09T03:26:16.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Knauf",
+  "role": "Graduate Engineer - Civil/Structural",
+  "location": "Camellia, Sydney NSW",
+  "job_url": "https://www.seek.com.au/job/95133637",
+  "status": "HELD_MANDATORY_REQUIREMENTS",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMPLOYER_PORTAL",
+  "fit": [
+   "Same Knauf graduate civil/structural program as Brisbane posting.",
+   "Partial discipline overlap with building systems.",
+   "Sydney site; relocation needed."
+  ],
+  "gaps": [
+   "Full and Unrestricted Australian working rights (no visa sponsorship)",
+   "Building systems focus",
+   "Sydney based"
+  ],
+  "match_score": {
+   "percent": 68,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Same Knauf graduate civil/structural program as Brisbane posting.",
+    "Partial discipline overlap with building systems.",
+    "Sydney site; relocation needed."
+   ],
+   "caution": "Same unrestricted work-rights requirement as Brisbane Knauf graduate role."
+  },
+  "notes": "Held by Grok AI: Full and Unrestricted Australian working rights (no visa sponsorship)",
+  "checked_at": "2026-10-09T03:26:16.000Z",
+  "seek_id": "95133637",
+  "duplicate_key": "knauf|seek:95133637"
+ }
+]

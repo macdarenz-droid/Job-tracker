@@ -1,0 +1,38 @@
+{
+  "id": "95097651",
+  "company": "Hullcon",
+  "title": "Civil Draftsperson - Microstation and ProjectWise",
+  "location": "Abbotsford, Melbourne VIC",
+  "url": "https://www.seek.com.au/job/95097651",
+  "listed_at": "2026-10-06T22:21:44.003Z",
+  "expires_at": "2026-11-06T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a civil drafter?",
+    "How much notice are you required to give your current employer?",
+    "Have you completed a qualification in engineering drafting / engineering design?",
+    "Do you have experience working on civil infrastructure projects?",
+    "How many years' experience do you have as a MicroStation Draftsperson?"
+  ],
+  "open": true,
+  "employer_is_agency": false,
+  "apply_email": "",
+  "apply_instructions": "Apply via SEEK: https://www.seek.com.au/job/95097651",
+  "percent": 62,
+  "rationale": [
+    "Civil Draftsperson in Abbotsford Melbourne matches location and drafting target.",
+    "Roads, drainage and earthworks portfolio overlaps Advanced Diploma coursework.",
+    "Office-based Melbourne west-adjacent is a strong location fit."
+  ],
+  "caution": "Essential strong experience in Bentley MicroStation and ProjectWise; Marc's drafting tools are AutoCAD and Civil 3D from study, not MicroStation.",
+  "gaps": [
+    "No MicroStation or ProjectWise experience",
+    "Pitched at experienced drafter"
+  ],
+  "mandatory_unmet": [
+    "Strong experience using Bentley MicroStation and/or OpenRoads Designer",
+    "Strong experience using and managing ProjectWise"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK"
+}

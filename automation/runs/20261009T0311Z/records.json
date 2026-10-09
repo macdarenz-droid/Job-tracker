@@ -1,0 +1,98 @@
+[
+ {
+  "id": "3bd663dd-5d8e-4c78-9971-4e25f3d85cb6",
+  "key": "manual:3bd663dd-5d8e-4c78-9971-4e25f3d85cb6",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261009T0311Z",
+  "created_at": "2026-10-09T03:26:18.000Z",
+  "updated_at": "2026-10-09T03:26:18.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "51a0e366-bf24-43c7-b66b-918f65ec03d7",
+    "path": "/api/documents/51a0e366-bf24-43c7-b66b-918f65ec03d7",
+    "filename": "Marc_Masarate_Dalton_Consulting_Engineers_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-09T03:26:19.997Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "582e409f-b99c-4e60-a3e2-9e7711342fb9",
+    "path": "/api/documents/582e409f-b99c-4e60-a3e2-9e7711342fb9",
+    "filename": "Marc_Masarate_Dalton_Consulting_Engineers_Graduate_civil_engineer_or_civil_design__Cover_Letter.pdf",
+    "sha256": "2601291f2f79b482ddaa961b40fe7c201d4e789ccf99b221273d2d30154f50b5",
+    "size_bytes": 49075,
+    "kind": "cover",
+    "uploaded_at": "2026-10-09T03:26:18.885Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Dalton Consulting Engineers",
+  "role": "Graduate civil engineer or civil design support - expression of interest (Melbourne)",
+  "location": "Richmond, Melbourne VIC",
+  "job_url": "https://dceng.com.au/career-opportunities/",
+  "company_url": "https://dceng.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "HR / careers inbox",
+  "recipient_email": "hr@dceng.com.au",
+  "contact_email": "hr@dceng.com.au",
+  "contact_evidence_url": "https://dceng.com.au/career-opportunities/",
+  "contact_verified_at": "2026-10-09T03:26:18.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Graduate civil engineer or civil design support EOI, Melbourne, Marc Masarate",
+  "email_body": "Hello,\n\nThis is a speculative enquiry, not a reply to a named vacancy. Your careers page invites people interested in joining Team DCE to get in touch at hr@dceng.com.au, so I am writing about graduate civil engineering or civil design support work in Melbourne.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design with road, earthworks, pavement and stormwater design in AutoCAD and Civil 3D. I also hold a Bachelor of Science in Civil Engineering (Philippines, 2019). From 2019 to 2020 I worked on site in the Philippines as project-in-charge and field engineer.\n\nI am Melton based, hold a White Card, an Australian driver's licence and own transport, and have full working rights until December 2027 on a Subclass 485 visa. I am available for office, site and regional work. I do not yet have Australian consulting employment, so mentoring on civil design or delivery work is what I am looking for.\n\nYour Richmond civil and water engineering practice is the reason I am writing. I have attached my resume and cover letter. Portfolio: https://macdarenz-droid.github.io/Portfolio.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Melbourne civil and water consultancy with a published HR inbox for people wanting to join; speculative graduate civil/design support matches Marc's Advanced Diploma and BSCE.",
+   "Road, drainage and land-development style civil work is core to DCE's civil engineering offering.",
+   "Richmond VIC is a strong location fit from Melton."
+  ],
+  "gaps": [
+   "No Australian consulting employment yet",
+   "No open junior vacancy dated on the careers page"
+  ],
+  "match_score": {
+   "percent": 74,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Melbourne civil and water consultancy with a published HR inbox for people wanting to join; speculative graduate civil/design support matches Marc's Advanced Diploma and BSCE.",
+    "Road, drainage and land-development style civil work is core to DCE's civil engineering offering.",
+    "Richmond VIC is a strong location fit from Melton."
+   ],
+   "caution": "No dated junior vacancy on the page today; only Design Team Lead is listed. This is a speculative EOI clearly labelled."
+  },
+  "advert": {
+   "source": "employer_careers",
+   "listed_at": "2026-10-09T03:25:08Z",
+   "expires_at": "",
+   "verified_at": "2026-10-09T03:25:08Z",
+   "apply_instructions": "Email EOI with resume and cover letter to hr@dceng.com.au (published on https://dceng.com.au/career-opportunities/).",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [],
+  "notes": "SPECULATIVE_ENQUIRY. Victoria off-SEEK rotation. Dalton Consulting Engineers careers page read 9 Oct 2026 AEST publishes hr@dceng.com.au for people interested in joining Team DCE. No advertised junior or graduate civil vacancy on the careers page this tick (only Design Team Lead listed). Labelled clearly as speculative in subject and body. Gaps: no Australian consulting employment yet.\nCareers page read 9 Oct 2026 AEST. HR inbox published for joining enquiries. Current listed role is Design Team Lead only. No personal emails published for hiring managers. Gmail not searched yet at draft time.\nHOW GROK AI FOUND THIS\nFound on employer_careers (listed 2026-10-09). Contact: the application inbox hr@dceng.com.au published by the employer (https://dceng.com.au/career-opportunities/); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate civil engineer or civil design support - expression of interest (Melbourne) role on SEEK.\n• They may ask about: No Australian consulting employment yet → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No open junior vacancy dated on the careers page → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_careers (listed 2026-10-09). Contact: the application inbox hr@dceng.com.au published by the employer (https://dceng.com.au/career-opportunities/); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate civil engineer or civil design support - expression of interest (Melbourne) role on SEEK.",
+   "They may ask about: No Australian consulting employment yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No open junior vacancy dated on the careers page → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-09T03:26:18.000Z",
+  "duplicate_key": "daltonconsultingengineers|dceng.com.au/career-opportunities"
+ }
+]

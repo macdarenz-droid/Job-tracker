@@ -1,0 +1,35 @@
+{
+  "id": "94960604",
+  "company": "Menai Civil Contractors",
+  "title": "Cadet Site Engineer",
+  "location": "Blacktown, Sydney NSW",
+  "url": "https://www.seek.com.au/job/94960604",
+  "listed_at": "2026-09-30T00:56:44.685Z",
+  "expires_at": "2026-10-30T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as an Engineering Cadet?",
+    "How much notice are you required to give your current employer?",
+    "Do you have a current Australian driver's licence?"
+  ],
+  "open": true,
+  "employer_is_agency": false,
+  "apply_email": "",
+  "apply_instructions": "Apply via SEEK: https://www.seek.com.au/job/94960604",
+  "percent": 70,
+  "rationale": [
+    "Cadet Site Engineer is an entry target with site inspections, ITPs, documentation and WHS exposure that matches Marc's site background.",
+    "Civil construction delivery aligns with Philippines site work and White Card / licence readiness.",
+    "Blacktown NSW; Marc is open to interstate and site work."
+  ],
+  "caution": "Essential: currently studying a Bachelor of Civil Engineering. Marc completed BSCE in 2019 and Advanced Diploma in Feb 2026; he is not currently enrolled in a Bachelor.",
+  "gaps": [
+    "Not currently studying a Bachelor of Civil Engineering",
+    "No Australian site employment yet"
+  ],
+  "mandatory_unmet": [
+    "Currently studying a Bachelor of Civil Engineering"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK"
+}

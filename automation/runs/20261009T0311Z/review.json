@@ -1,0 +1,10 @@
+{
+  "dalton-grad-civil-eoi-20261009": {
+    "false_claims": [],
+    "weak_lines": [],
+    "tone_issues": [],
+    "human_tone": 4,
+    "specific_to_advert": true,
+    "pass": true
+  }
+}

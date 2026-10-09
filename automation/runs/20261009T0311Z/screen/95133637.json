@@ -1,0 +1,30 @@
+{
+  "id": "95133637",
+  "company": "Knauf",
+  "title": "Graduate Engineer - Civil/Structural",
+  "location": "Camellia, Sydney NSW",
+  "url": "https://www.seek.com.au/job/95133637",
+  "listed_at": "2026-10-08T02:55:20.405Z",
+  "expires_at": "2026-11-07T12:59:59.999Z",
+  "screening_questions": [],
+  "open": true,
+  "employer_is_agency": false,
+  "apply_email": "",
+  "apply_instructions": "https://www.seek.com.au/job/95133637",
+  "percent": 68,
+  "rationale": [
+    "Same Knauf graduate civil/structural program as Brisbane posting.",
+    "Partial discipline overlap with building systems.",
+    "Sydney site; relocation needed."
+  ],
+  "caution": "Same unrestricted work-rights requirement as Brisbane Knauf graduate role.",
+  "gaps": [
+    "Building systems focus",
+    "Sydney based"
+  ],
+  "mandatory_unmet": [
+    "Full and Unrestricted Australian working rights (no visa sponsorship)"
+  ],
+  "mandatory_unresolved": [],
+  "route": "EMPLOYER_PORTAL"
+}

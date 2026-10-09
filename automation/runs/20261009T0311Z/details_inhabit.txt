@@ -1,0 +1,24 @@
+{
+ "source": "seek",
+ "seek_id": "95088542",
+ "title": "Graduate Civil Engineer - Water",
+ "abstract": "Step into a role where your ideas and curiosity genuinely matter. As a Graduate Engineer, you’ll contribute to real projects from your first...",
+ "company": "Inhabit Group",
+ "advertiser_id": "31415842",
+ "location": "Brisbane QLD",
+ "listed_at": "2026-10-06T04:11:30.000Z",
+ "expires_at": "2026-11-05T07:55:40.457Z",
+ "is_expired": false,
+ "is_link_out": true,
+ "work_type": "Full time",
+ "salary": null,
+ "classifications": [
+  "Water & Waste Engineering (Engineering)"
+ ],
+ "bullets": [],
+ "screening_questions": [],
+ "content_text": "Company Description\nEgis is a leading global organisation in architecture, consulting, construction engineering, operations and mobility services. We partner with clients to design, deliver and operate smarter infrastructure and places that respond to the world’s evolving needs.\nWith more than 22,000 employees worldwide, we combine global capability with strong local insight. Our multidisciplinary expertise enables us to deliver innovative, practical and sustainable solutions that help build more balanced, resilient communities.\nAt Egis, you’ll be part of a business shaping the future of cities, transport, energy and the built environment, creating lasting impact where it matters most.\nJob Description\nStep into a role where your ideas and curiosity genuinely matter. As a Graduate Engineer, you’ll contribute to real projects from your first week.\nYou’ll support technical analysis using GIS, water and flood modelling software across a variety of projects. Join our dynamic and high-performing Water team for the 2027 Graduate intake!\nWhat we offer you\n- Peer Mentorship: with a dedicated buddy system gain guidance and support from emerging young professionals within your industry.\n- Continuous Learning: collaborate, problem solve and thrive in a supportive environment.\n- Hands-on Experience: conduct flood modelling, water balance modelling and mine water management, turning information into insights that matter.\n- Collaboration: as your career develops, work closely with experts across the water resources, environmental management, flooding and stormwater teams.\nKey responsibilities\n- \nTeamwork: you’ll work alongside a variety of specialists, learning how different disciplines come together to deliver successful projects. Building relationships with clients on projects and developing contacts within the industry.\n- \nProblem Solving: tackle real challenges, think creatively and help shape practical solutions that improve project performance outcomes. Apply diligent curiosity across a variety of analysis and modelling activities.\n- \nQuality Focus: learn how we meet industry standards and regulations while delivering work we’re proud of.\nQualifications\nWhat do we need from you\n- Graduating prior to commencing full-time work in February 2027\n- Tertiary degree in Civil Engineering or Environmental Engineering\n- Available to start February 2027\n- Relevant work rights to live and work full-time in Australia. This position is not open to applicants outside of Australia\nAbout you\n- Excellent communication skills, written and verbal\n- Strong willingness to learn and grow professionally\n- Interest and enthusiasm to work within water resources\n- Detail orientated and analytical\n- Exposure to GIS software, as well as flood modelling and/or water balance modelling is highly regarded.\n- Previous vacation or internship experience within the mining industry, local government or a consulting environment will be highly regarded\nAdditional Information\nEgis is committed to creating an inclusive, creative culture that embraces diversity and flexibility. We offer generous parental leave, support flexible work practices and strive to create an environment where employees can connect, collaborate, grow and succeed.\nWe are expanding in Australia and New Zealand and are excited for you to join our growing team!\nTO APPLY\nPlease attach your resume, cover letter and academic transcripts in one file.\nWe believe our strong graduate program will provide you with the tools you need to start your career the right way.",
+ "url": "https://www.seek.com.au/job/95088542",
+ "share_link": "https://au.seek.com/job/95088542?tracking=SHR-WEB-SharedJob-anz-1",
+ "checked_at": "2026-10-09T03:17:24.000Z"
+}
