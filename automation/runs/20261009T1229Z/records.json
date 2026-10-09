@@ -1,0 +1,101 @@
+[
+ {
+  "id": "5455d48c-2d20-4118-b002-865794a0d045",
+  "key": "manual:5455d48c-2d20-4118-b002-865794a0d045",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261009T1229Z",
+  "created_at": "2026-10-09T12:38:35.000Z",
+  "updated_at": "2026-10-09T12:38:35.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "d50c28ab-bd6c-4610-b283-b95eec69bdae",
+    "path": "/api/documents/d50c28ab-bd6c-4610-b283-b95eec69bdae",
+    "filename": "Marc_Masarate_Lower_Murray_Water_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-09T12:38:37.427Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "27e8b466-9b3c-41a3-a96a-e15034243073",
+    "path": "/api/documents/27e8b466-9b3c-41a3-a96a-e15034243073",
+    "filename": "Marc_Masarate_Lower_Murray_Water_Technical_Officer_Rural_Development_Cover_Letter.pdf",
+    "sha256": "efeb9a725df915b9b2b4254f878ba5b5fc58068aca2858cc46442aa28410ef1e",
+    "size_bytes": 49106,
+    "kind": "cover",
+    "uploaded_at": "2026-10-09T12:38:36.206Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Lower Murray Water",
+  "role": "Technical Officer - Rural Development",
+  "location": "Mildura VIC",
+  "job_url": "https://www.lmw.vic.gov.au/careers/technical-officer-rural-development/",
+  "company_url": "https://www.lmw.vic.gov.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Recruitment inbox (named in the advert for applications)",
+  "recipient_email": "recruitment@lmw.vic.gov.au",
+  "contact_email": "recruitment@lmw.vic.gov.au",
+  "contact_evidence_url": "https://www.lmw.vic.gov.au/careers/technical-officer-rural-development/",
+  "contact_verified_at": "2026-10-09T12:38:35.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Application: Technical Officer, Rural Development (Mildura), Marc Masarate",
+  "email_body": "Hello,\n\nI am applying for the Technical Officer, Rural Development role in Mildura advertised on the Lower Murray Water careers page, which asks for applications to this address.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, doing site inspections and quality checks and preparing site reports and material records. I am Melton based, hold a White Card, a driver's licence and my own transport, and have full working rights until December 2027 on a 485 visa. I am available for site and regional work and open to discussing relocation to Mildura.\n\nThe advert's focus on irrigation and drainage requirements for subdivisions, with field inspections and accurate records, is the part I would most like to learn. I have not yet used GIS or worked with statutory referrals, so I would be building that knowledge on the job.\n\nCould we arrange a short call about the role? I've attached my resume and cover letter.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "State water corporation technical officer role (Band 3) on irrigation and drainage requirements for subdivisions, referrals, field inspections and records; Marc's stormwater drainage design coursework and Philippine site inspection and reporting work overlap.",
+   "Mandatory items are driver's licence, criminal history check, fit for work and right to work; Marc holds a licence, is willing to undergo checks and has full work rights to December 2027.",
+   "Regional Victoria (Mildura) is an acceptable location; relocation is open to discussion only."
+  ],
+  "gaps": [
+   "No GIS or CRM platform experience in facts",
+   "No Australian development approval or statutory referral experience",
+   "No Victorian water entitlement framework knowledge",
+   "Site experience under one year (Apr 2019 to Feb 2020)"
+  ],
+  "match_score": {
+   "percent": 66,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "State water corporation technical officer role (Band 3) on irrigation and drainage requirements for subdivisions, referrals, field inspections and records; Marc's stormwater drainage design coursework and Philippine site inspection and reporting work overlap.",
+    "Mandatory items are driver's licence, criminal history check, fit for work and right to work; Marc holds a licence, is willing to undergo checks and has full work rights to December 2027.",
+    "Regional Victoria (Mildura) is an acceptable location; relocation is open to discussion only."
+   ],
+   "caution": "Role asks for sector experience, GIS and CRM systems, legislation interpretation and development approval knowledge; Marc's experience is short (under one year of site work in the Philippines) and he has no GIS or Victorian water entitlement experience. Mildura is about 550 km from Melton; relocation needs Marc's confirmation."
+  },
+  "advert": {
+   "source": "employer_careers",
+   "listed_at": "2026-09-30T00:00:00+10:00",
+   "expires_at": "2026-10-14T17:00:00+11:00",
+   "verified_at": "2026-10-09T12:52:00Z",
+   "apply_instructions": "Email resume and cover letter to recruitment@lmw.vic.gov.au by 5pm Wednesday 14 October 2026. Confidential discussion: Vural Karakurt, Manager Rural Services, 0418 363 362 (phone only).",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [],
+  "notes": "Councils and government rotation (state water corporation). Advert read on lmw.vic.gov.au 9 Oct 2026 AEDT: Band 3 from $84,664, full time, Mildura, closes 5pm Wednesday 14 October 2026, applications by email to recruitment@lmw.vic.gov.au. Mandatory: driver's licence, national criminal history check, fit for work, right to work (all met or agreed). Gaps: no GIS or CRM, no statutory referral or development approval experience, no Victorian water entitlement knowledge, under one year of site work. Relocation to Mildura (about 550 km from Melton) needs Marc's confirmation before sending. Police check and fit for work status are not in facts.json, so the letter does not claim them; Marc to answer if asked.\nAdvert read on lmw.vic.gov.au 9 Oct 2026 AEDT with headless Chrome. The advert names recruitment@lmw.vic.gov.au as the application address; the manager is published with a phone number only, so no direct email was used. Gmail in:anywhere search for Lower Murray Water and lmw.vic.gov.au returned nothing.\nHOW GROK AI FOUND THIS\nFound on employer_careers (listed 2026-09-30, closes 2026-10-14). Contact: the application inbox recruitment@lmw.vic.gov.au published by the employer (https://www.lmw.vic.gov.au/careers/technical-officer-rural-development/); no personal address was used. Named people seen on employer pages: Vural Karakurt (Manager Rural Services). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Technical Officer - Rural Development role on SEEK.\n• They may ask about: No GIS or CRM platform experience in facts → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian development approval or statutory referral experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Victorian water entitlement framework knowledge → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_careers (listed 2026-09-30, closes 2026-10-14). Contact: the application inbox recruitment@lmw.vic.gov.au published by the employer (https://www.lmw.vic.gov.au/careers/technical-officer-rural-development/); no personal address was used. Named people seen on employer pages: Vural Karakurt (Manager Rural Services). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Technical Officer - Rural Development role on SEEK.",
+   "They may ask about: No GIS or CRM platform experience in facts → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian development approval or statutory referral experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Victorian water entitlement framework knowledge → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-09T12:38:35.000Z",
+  "duplicate_key": "lowermurraywater|lmw.vic.gov.au/careers/technical-officer-rural-development"
+ }
+]
