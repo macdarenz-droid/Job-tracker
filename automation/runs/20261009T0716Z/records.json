@@ -1,0 +1,107 @@
+[
+ {
+  "id": "0c214b55-5980-4c05-9603-bb01cd0e8675",
+  "key": "manual:0c214b55-5980-4c05-9603-bb01cd0e8675",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261009T0716Z",
+  "created_at": "2026-10-09T07:27:48.000Z",
+  "updated_at": "2026-10-09T07:27:48.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "c4226ebf-73cc-474d-a010-284d5e50e1f9",
+    "path": "/api/documents/c4226ebf-73cc-474d-a010-284d5e50e1f9",
+    "filename": "Marc_Masarate_Westera_Partners_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-09T07:27:50.268Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "6af73980-1695-41cd-9c19-543cf1beeb6d",
+    "path": "/api/documents/6af73980-1695-41cd-9c19-543cf1beeb6d",
+    "filename": "Marc_Masarate_Westera_Partners_Graduate_Engineering_Program_civil_Cover_Letter.pdf",
+    "sha256": "d8f7c2750aa73a80eb331640b2328b486dc2ad4301392e7b13f90ba41edf7347",
+    "size_bytes": 49455,
+    "kind": "cover",
+    "uploaded_at": "2026-10-09T07:27:49.035Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Westera Partners",
+  "role": "Graduate Engineering Program (civil)",
+  "location": "Central Victoria (Bendigo) or Queensland / Northern NSW offices",
+  "job_url": "https://www.westerapartners.com.au/careers/",
+  "company_url": "https://www.westerapartners.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "HR",
+  "recipient_email": "HR@westerapartners.com.au",
+  "contact_email": "HR@westerapartners.com.au",
+  "contact_evidence_url": "https://www.westerapartners.com.au/careers/",
+  "contact_verified_at": "2026-10-09T07:27:48.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Graduate Engineering Program application, civil, Marc Masarate",
+  "email_body": "Hello,\n\nI'm applying for your Graduate Engineering Program in civil engineering, after reading the Graduate Program section of your careers page, which asks graduates to email HR.\n\nI hold a Bachelor of Science in Civil Engineering (Philippines, 2019), and in February 2026 I finished an Advanced Diploma of Civil Construction Design in Australia, with road, earthworks, pavement and stormwater design in AutoCAD and Civil 3D. From 2019 to 2020 I worked on site in the Philippines as project-in-charge and then field engineer, reviewing drawings and doing site inspections and quality checks.\n\nI live in Melton, hold a White Card, an Australian driver's licence and own transport, and have full working rights until December 2027 on a Subclass 485 visa. My preferred office is Central Victoria, and I'm open to discussing a move to your Queensland or Northern NSW offices.\n\nYour program's mentoring by senior engineers toward professional accreditation is what I'm looking for, since I don't yet have Australian consulting employment.\n\nCould we talk about a graduate civil place? I've attached my resume and cover letter.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Standing 4-year Graduate Engineering Program for university graduates, mentored by senior engineers; graduate level suits Marc (BSCE 2019, Advanced Diploma Feb 2026).",
+   "Civil discipline overlap: Marc's road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD matches a civil design consultancy.",
+   "Central Victoria office keeps him in Victoria; Queensland and Northern NSW offices would need relocation, which he is open to discussing."
+  ],
+  "gaps": [
+   "Academic transcript must be attached by Marc (requested by Westera)",
+   "No Australian consulting employment yet",
+   "Work rights to December 2027 are shorter than the 4-year program",
+   "Relocation needed if not Central Victoria"
+  ],
+  "match_score": {
+   "percent": 76,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Standing 4-year Graduate Engineering Program for university graduates, mentored by senior engineers; graduate level suits Marc (BSCE 2019, Advanced Diploma Feb 2026).",
+    "Civil discipline overlap: Marc's road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD matches a civil design consultancy.",
+    "Central Victoria office keeps him in Victoria; Queensland and Northern NSW offices would need relocation, which he is open to discussing."
+   ],
+   "caution": "Westera asks for an academic transcript with the application; Marc must attach it before this email is sent. Program length is 4 years and Marc's work rights run to December 2027. Central Victoria office's civil intake is not confirmed on the page."
+  },
+  "advert": {
+   "source": "employer_careers",
+   "listed_at": "2026-10-09T07:27:39Z",
+   "expires_at": "",
+   "verified_at": "2026-10-09T07:27:39Z",
+   "apply_instructions": "Email HR@westerapartners.com.au with resume, academic transcript and an application letter naming preferred office and discipline (careers page Graduate Program section).",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Attach Marc's academic transcript(s): Westera asks for them with graduate applications",
+   "Confirm Central Victoria as preferred office (or name a Queensland/Northern NSW office)",
+   "Gmail search for Westera before sending (none found 9 Oct 2026)",
+   "Send to HR@westerapartners.com.au with resume, cover letter and transcript",
+   "Mark the tracker record Sent only after Gmail confirms"
+  ],
+  "notes": "Employer rotation tick (target list). Westera Partners careers page Graduate Program section, read 9 Oct 2026 AEST, is a standing call for graduate applications by email to HR@westerapartners.com.au; no closing date shown. DO NOT SEND until Marc supplies his academic transcript, which Westera asks for. Gaps disclosed: no Australian consulting employment; work rights to Dec 2027 vs 4-year program; relocation unless Central Victoria.\nCareers and Join The Team pages read 9 Oct 2026 AEST with headless Chromium. HR inbox is published specifically for graduate applications. No personal hiring emails published. Gmail in:anywhere search for Westera: only a SEEK similar-jobs footer from March 2026, no application or contact.\nHOW GROK AI FOUND THIS\nFound on employer_careers (listed 2026-10-09). Contact: the application inbox HR@westerapartners.com.au published by the employer (https://www.westerapartners.com.au/careers/); no personal address was used. Named people seen on employer pages: Jared Hill (Senior Civil Engineer, Sunshine Coast Civil Manager, Partner). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate Engineering Program (civil) role on SEEK.\n• They may ask about: Academic transcript must be attached by Marc (requested by Westera) → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian consulting employment yet → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Work rights to December 2027 are shorter than the 4-year program → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_careers (listed 2026-10-09). Contact: the application inbox HR@westerapartners.com.au published by the employer (https://www.westerapartners.com.au/careers/); no personal address was used. Named people seen on employer pages: Jared Hill (Senior Civil Engineer, Sunshine Coast Civil Manager, Partner). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate Engineering Program (civil) role on SEEK.",
+   "They may ask about: Academic transcript must be attached by Marc (requested by Westera) → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian consulting employment yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Work rights to December 2027 are shorter than the 4-year program → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-09T07:27:48.000Z",
+  "duplicate_key": "westerapartners|westerapartners.com.au/careers"
+ }
+]

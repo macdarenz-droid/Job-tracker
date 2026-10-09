@@ -1,0 +1,30 @@
+{
+  "id": "westera-graduate-program-20261009",
+  "company": "Westera Partners",
+  "title": "Graduate Engineering Program (civil)",
+  "location": "Central Victoria (Bendigo) or Queensland / Northern NSW offices",
+  "url": "https://www.westerapartners.com.au/careers/",
+  "listed_at": "2026-10-09T07:27:39Z",
+  "expires_at": null,
+  "screening_questions": [],
+  "open": true,
+  "employer_is_agency": false,
+  "apply_email": "HR@westerapartners.com.au",
+  "apply_instructions": "Email HR@westerapartners.com.au with resume, academic transcript and an application letter naming preferred office and discipline (careers page Graduate Program section).",
+  "percent": 76,
+  "rationale": [
+    "Standing 4-year Graduate Engineering Program for university graduates, mentored by senior engineers; graduate level suits Marc (BSCE 2019, Advanced Diploma Feb 2026).",
+    "Civil discipline overlap: Marc's road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD matches a civil design consultancy.",
+    "Central Victoria office keeps him in Victoria; Queensland and Northern NSW offices would need relocation, which he is open to discussing."
+  ],
+  "caution": "Westera asks for an academic transcript with the application; Marc must attach it before this email is sent. Program length is 4 years and Marc's work rights run to December 2027. Central Victoria office's civil intake is not confirmed on the page.",
+  "gaps": [
+    "Academic transcript must be attached by Marc (requested by Westera)",
+    "No Australian consulting employment yet",
+    "Work rights to December 2027 are shorter than the 4-year program",
+    "Relocation needed if not Central Victoria"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "EMAIL"
+}
