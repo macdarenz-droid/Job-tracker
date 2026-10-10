@@ -233,7 +233,7 @@
     "Diona": {
       "careers_url": "https://www.livehire.com/careers/dionaptyltd/job/FKQN4/SXI2MWAGZX/graduate-engineer",
       "checked_at": "2026-10-02",
-      "notes": "Graduate Engineer Brisbane LiveHire URL returned 404 this tick; Site/Project Engineer ads require 2–5 years",
+      "notes": "Graduate Engineer Brisbane LiveHire URL returned 404 this tick; Site/Project Engineer ads require 2\u20135 years",
       "open_junior_roles": []
     },
     "Abergeldie": {
@@ -245,7 +245,7 @@
     "Daracon": {
       "careers_url": "https://daracon.com.au/careers/tertiary-pathway",
       "checked_at": "2026-10-02",
-      "notes": "Cadet pathway page only (labourer→cadet→graduate while studying); no dated open graduate vacancy verified",
+      "notes": "Cadet pathway page only (labourer\u2192cadet\u2192graduate while studying); no dated open graduate vacancy verified",
       "open_junior_roles": []
     },
     "Ertech": {
@@ -857,7 +857,7 @@
         {
           "name": "Diona",
           "url": "https://www.livehire.com/careers/dionaptyltd/job/FKQN4/SXI2MWAGZX/graduate-engineer",
-          "result": "Graduate Engineer Brisbane LiveHire URL returned 404 this tick; Site/Project Engineer ads require 2–5 years"
+          "result": "Graduate Engineer Brisbane LiveHire URL returned 404 this tick; Site/Project Engineer ads require 2\u20135 years"
         },
         {
           "name": "Abergeldie",
@@ -867,7 +867,7 @@
         {
           "name": "Daracon",
           "url": "https://daracon.com.au/careers/tertiary-pathway",
-          "result": "Cadet pathway page only (labourer→cadet→graduate while studying); no dated open graduate vacancy verified"
+          "result": "Cadet pathway page only (labourer\u2192cadet\u2192graduate while studying); no dated open graduate vacancy verified"
         },
         {
           "name": "Ertech",
@@ -951,7 +951,7 @@
         "GHD Grad Civil Structural Drafters Melbourne (Citizen/PR + closed)",
         "DTM Geocivil careers (no open roles; speculative PREPARED to info@dtmgeocivil.com.au)"
       ],
-      "notes": "Councils_government rotation. SEEK d3→d7→d14 widen. Published Global Group READY_SEEK + DTM speculative PREPARED + Blacktown HELD."
+      "notes": "Councils_government rotation. SEEK d3\u2192d7\u2192d14 widen. Published Global Group READY_SEEK + DTM speculative PREPARED + Blacktown HELD."
     },
     {
       "run_id": "20261003T2118Z",
@@ -999,7 +999,7 @@
           "result": "Grad program open; university recent-grad / degree recency unresolved; not published this tick"
         }
       ],
-      "notes": "Employers rotation. SEEK d3→d7→d14 max80 all already screened. Open-web: DOF READY + GPA HELD. Gmail send skipped (create_draft only). browse.py trust CA permission denied; CHROME_BIN set."
+      "notes": "Employers rotation. SEEK d3\u2192d7\u2192d14 max80 all already screened. Open-web: DOF READY + GPA HELD. Gmail send skipped (create_draft only). browse.py trust CA permission denied; CHROME_BIN set."
     },
     {
       "run_id": "20261004T0719Z",
@@ -1011,7 +1011,7 @@
         "Open-web: Egis Graduate Civil Engineer 2027 Norwest (DUP recent outreach same employer Rail READY 2026-10-01)",
         "Open-web: Osborn Consulting graduates EOI (DUP prior EOI_SENT/SENT on same careers URL)",
         "Open-web: BG&E Graduate Way early-careers EOI (READY_JEREMIE_EMPLOYER_PORTAL published)",
-        "SEEK widen d3→d7→d14 max80: never-screened junior civil exhausted or mandatory fails; published HELD Aptus mid/senior, NOTAZ 3yr drafter, Roesner 3yr drafter"
+        "SEEK widen d3\u2192d7\u2192d14 max80: never-screened junior civil exhausted or mandatory fails; published HELD Aptus mid/senior, NOTAZ 3yr drafter, Roesner 3yr drafter"
       ],
       "notes": "Councils_government rotation. SEEK widen all steps. Published BG&E READY + 3 HELD. Speculative Osborn blocked prior outreach. Gmail send held: no accessible canonical-journal lease on this box (CODEX hold-sending rule). browse.py trust skipped (CA bundle perms)."
     },
@@ -1039,11 +1039,11 @@
       "rotation": "councils_government",
       "checked_at": "2026-10-04T17:29:30Z",
       "sources": [
-        "SEEK sweep daterange 3→7→14 max80 (widening ladder); digest 24 never-screened after prior-screen skip",
-        "Parkes Shire Council Cadet Engineer ApplyNow PSC2222600 (close 11 Oct 2026) — skipped held publish: employer already has HELD Water and Wastewater Trainee",
-        "Mott MacDonald Grad Civil/Geotech Transport Melbourne — blocked recent outreach Civil Drafter READY 2026-09-12",
-        "Hansen Yuncken Construction Cadets Sydney — under threshold (must be current 2nd/3rd year student)",
-        "careers.vic / Melton MEL1888 / Wyndham / Symal Ignite / Acciona Grad 2027 — closed, already tracked, or citizenship/PR",
+        "SEEK sweep daterange 3\u21927\u219214 max80 (widening ladder); digest 24 never-screened after prior-screen skip",
+        "Parkes Shire Council Cadet Engineer ApplyNow PSC2222600 (close 11 Oct 2026) \u2014 skipped held publish: employer already has HELD Water and Wastewater Trainee",
+        "Mott MacDonald Grad Civil/Geotech Transport Melbourne \u2014 blocked recent outreach Civil Drafter READY 2026-09-12",
+        "Hansen Yuncken Construction Cadets Sydney \u2014 under threshold (must be current 2nd/3rd year student)",
+        "careers.vic / Melton MEL1888 / Wyndham / Symal Ignite / Acciona Grad 2027 \u2014 closed, already tracked, or citizenship/PR",
         "GTE Employment Services Junior Designer/Estimator SEEK 95023805 PREPARED_NOT_SENT (recruitment@gteaustralia.com from advert)",
         "BAE Systems 2027 Engineering Graduate Program HELD_MANDATORY_REQUIREMENTS (Australian citizenship)"
       ],
@@ -1497,6 +1497,53 @@
         "Steve Cooper & Associates Draftsperson (Land Surveying)",
         "GRAF Australia Graduate Civil Engineer",
         "Town of Claremont Engineering Technical Officer"
+      ]
+    },
+    {
+      "run_id": "20261010T2315Z",
+      "rotation": "employers",
+      "checked_at": "2026-10-10T23:28:00Z",
+      "checked": [
+        {
+          "name": "Georgiou Group",
+          "url": "https://georgiou.csod.com/ux/ats/careersite/4/home/requisition/2259?c=georgiou",
+          "result": "Undergraduate & Graduate EOI still open; tracker DUP (READY portal record 1 Oct 2026)"
+        },
+        {
+          "name": "Symal",
+          "url": "careers site",
+          "result": "no new advert saved this tick"
+        },
+        {
+          "name": "Civilex",
+          "url": "https://www.civilex.com.au/careers/",
+          "result": "no new advert saved this tick"
+        },
+        {
+          "name": "Diona",
+          "url": "careers site",
+          "result": "no new advert saved this tick"
+        },
+        {
+          "name": "Abergeldie",
+          "url": "careers site",
+          "result": "no new advert saved this tick"
+        },
+        {
+          "name": "Daracon",
+          "url": "careers site",
+          "result": "no new advert saved this tick"
+        },
+        {
+          "name": "Delaney Civil Engineering (open web)",
+          "url": "https://delaneycivil.com.au/careers/",
+          "result": "no vacancy listed; CV invite to info@; speculative PREPARED_NOT_SENT this tick"
+        },
+        {
+          "name": "TGM Group",
+          "url": "https://www.tgmgroup.com.au/careers",
+          "result": "HTTP 500 this tick"
+        }
       ]
     }
   ]

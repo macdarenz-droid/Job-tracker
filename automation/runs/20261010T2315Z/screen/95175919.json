@@ -1,0 +1,43 @@
+{
+ "id": "95175919",
+ "company": "FGI Developments",
+ "title": "Site Engineer",
+ "location": "Cairns, Cairns & Far North QLD",
+ "url": "https://www.seek.com.au/job/95175919",
+ "listed_at": "2026-10-09T09:49:48.141Z",
+ "expires_at": "2026-11-08T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "How many years' experience do you have as a site engineer?",
+  "Have you completed a qualification in engineering?",
+  "Are you willing to undergo pre-employment drug and alcohol screening?",
+  "Do you have a current Police Check (National Police Certificate) for employment?",
+  "How much notice are you required to give your current employer?",
+  "Are you willing to undergo a pre-employment medical check?",
+  "Are you a current member of Engineers Australia?",
+  "Do you have Engineering Drawing Interpretation experience?"
+ ],
+ "open": true,
+ "employer_is_agency": false,
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply on SEEK",
+ "percent": 62,
+ "rationale": [
+  "Site Engineer working under senior engineers on civil, defence and infrastructure projects: site coordination, progress reporting and site records match Marc's Philippines field engineer and project-in-charge work.",
+  "AutoCAD and reading technical drawings are listed and are in Marc's Advanced Diploma; civil exposure is desirable, not essential.",
+  "Cairns, not FIFO, so relocation would be needed; advert asks for 2 to 5 years industry experience and an Engineers Australia accredited degree."
+ ],
+ "caution": "Experience ask (2 to 5 years) is above Marc's roughly 10 months of site work; Philippine BSCE accreditation by Engineers Australia not confirmed; Defence Common Access Card eligibility not confirmed for a 485 visa holder.",
+ "gaps": [
+  "2 to 5 years industry experience requested",
+  "Cairns relocation for Marc to confirm",
+  "MS Project not in facts"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [
+  "Engineers Australia accredited engineering degree (transcripts required at interview)",
+  "2 to 5 years relevant industry experience",
+  "Eligibility to obtain a Defence Common Access Card (DCAC) on a 485 visa"
+ ]
+}

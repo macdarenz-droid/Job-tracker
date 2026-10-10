@@ -1,0 +1,45 @@
+[
+ {
+  "id": "f70af5ec-e5b2-4a44-bd8a-d621368e7f6b",
+  "key": "manual:f70af5ec-e5b2-4a44-bd8a-d621368e7f6b",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261010T2315Z",
+  "created_at": "2026-10-10T23:27:52.000Z",
+  "updated_at": "2026-10-10T23:27:52.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "FGI Developments",
+  "role": "Site Engineer",
+  "location": "Cairns, Cairns & Far North QLD",
+  "job_url": "https://www.seek.com.au/job/95175919",
+  "status": "HELD_ELIGIBILITY_UNCONFIRMED",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "SEEK",
+  "fit": [
+   "Site Engineer working under senior engineers on civil, defence and infrastructure projects: site coordination, progress reporting and site records match Marc's Philippines field engineer and project-in-charge work.",
+   "AutoCAD and reading technical drawings are listed and are in Marc's Advanced Diploma; civil exposure is desirable, not essential.",
+   "Cairns, not FIFO, so relocation would be needed; advert asks for 2 to 5 years industry experience and an Engineers Australia accredited degree."
+  ],
+  "gaps": [
+   "2 to 5 years industry experience requested",
+   "Cairns relocation for Marc to confirm",
+   "MS Project not in facts"
+  ],
+  "match_score": {
+   "percent": 62,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Site Engineer working under senior engineers on civil, defence and infrastructure projects: site coordination, progress reporting and site records match Marc's Philippines field engineer and project-in-charge work.",
+    "AutoCAD and reading technical drawings are listed and are in Marc's Advanced Diploma; civil exposure is desirable, not essential.",
+    "Cairns, not FIFO, so relocation would be needed; advert asks for 2 to 5 years industry experience and an Engineers Australia accredited degree."
+   ],
+   "caution": "Experience ask (2 to 5 years) is above Marc's roughly 10 months of site work; Philippine BSCE accreditation by Engineers Australia not confirmed; Defence Common Access Card eligibility not confirmed for a 485 visa holder."
+  },
+  "notes": "Held by Grok AI: Engineers Australia accredited engineering degree (transcripts required at interview); 2 to 5 years relevant industry experience; Eligibility to obtain a Defence Common Access Card (DCAC) on a 485 visa",
+  "checked_at": "2026-10-10T23:27:52.000Z",
+  "seek_id": "95175919",
+  "duplicate_key": "fgidevelopments|seek:95175919"
+ }
+]
