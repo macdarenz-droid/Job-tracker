@@ -1,0 +1,42 @@
+[
+ {
+  "id": "gunnedah-civil-survey-design-officer-gsc657",
+  "source": "employer_portal",
+  "company": "Gunnedah Shire Council",
+  "title": "Civil Survey & Design Officer - Cadet or Graduate",
+  "location": "Gunnedah NSW",
+  "url": "https://gunnedah.applynow.net.au/jobs/GSC657-civil-survey-design-officer-cadet-or-graduate-opportunity-available",
+  "listed_at": null,
+  "expires_at": "2026-10-19T06:00:00Z",
+  "content_text": "Gunnedah Shire Council, Civil Survey & Design Officer, Cadet or Graduate Opportunity Available, Job GSC657, full time 35 hours, Grade 6 to 15 ($1234.39 to $2046.55 per week plus 12% super), closes 5:00pm Monday 19 October 2026. Reports to the Manager Engineering Services (Daniel Abraham, 02 6740 2100). Duties: collecting, recording and interpreting survey data for investigation and design of civil works; producing quality designs for civil works; survey and set out for civil construction works; collecting quality control and work as executed data. Role created to bring on a Cadet, Graduate Officer or Qualified Officer with grade and training adjusted; previous experience not required. Ideally demonstrate: problem solving using mathematics; knowledge of civil engineering processes in construction or willingness to learn; knowledge or experience in civil design and/or surveying; Microsoft Office; interpersonal skills. Senior stream only: Diploma of Engineering or equivalent, survey and design experience in road design, stormwater drainage, reticulation and traffic safety, GNSS and machine guidance, Austroads and WSAA, AutoCAD Civil 3D and Civil Site Design, NSW Class C licence. Apply via the applynow form with resume, cover letter and copies of qualifications. Read 10 Oct 2026 AEDT.",
+  "apply_instructions": "Apply through Gunnedah Shire Council's applynow portal (job GSC657): complete the application form, answer all questions, upload a current resume, a cover letter outlining suitability and copies of relevant qualifications, before 5:00pm Monday 19 October 2026.",
+  "screening_questions": [],
+  "is_expired": false,
+  "is_link_out": true,
+  "duplicate": {
+   "blocked": true,
+   "reason": "same company and role already in the tracker",
+   "notes": []
+  }
+ },
+ {
+  "id": "dtal-junior-civil-drafter-graduate",
+  "source": "employer_website",
+  "company": "D-TAL",
+  "title": "Junior Civil Drafter (Civil Drafter Graduate)",
+  "location": "North Sydney NSW (work from home)",
+  "url": "https://dtalengineering.com/jobs/junior-civil-drafter/",
+  "listed_at": null,
+  "expires_at": null,
+  "content_text": "",
+  "apply_instructions": "",
+  "screening_questions": [],
+  "is_expired": false,
+  "is_link_out": true,
+  "duplicate": {
+   "blocked": true,
+   "reason": "same job URL already in the tracker",
+   "notes": []
+  }
+ }
+]

@@ -1,0 +1,21 @@
+{
+ "built": [
+  [
+   "4135722a-5945-4561-8746-eff87acb5bec",
+   "Civilworks Aust Pty Ltd",
+   "Junior Estimator / Estimator - Civil, Paving & Concrete",
+   "READY_JEREMIE_SEEK"
+  ]
+ ],
+ "rejected": [],
+ "tracker": {
+  "version": 175,
+  "updated_at": "2026-10-10T03:27:02.437Z",
+  "result": {
+   "added": [
+    "4135722a-5945-4561-8746-eff87acb5bec"
+   ],
+   "skipped": []
+  }
+ }
+}

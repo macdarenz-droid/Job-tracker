@@ -1,0 +1,117 @@
+[
+ {
+  "id": "4135722a-5945-4561-8746-eff87acb5bec",
+  "key": "manual:4135722a-5945-4561-8746-eff87acb5bec",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261010T0318Z",
+  "created_at": "2026-10-10T03:26:58.000Z",
+  "updated_at": "2026-10-10T03:26:58.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "d719a5fd-e98b-46e0-9f3f-ee1ff376a6eb",
+    "path": "/api/documents/d719a5fd-e98b-46e0-9f3f-ee1ff376a6eb",
+    "filename": "Marc_Masarate_Civilworks_Aust_Pty_Ltd_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-10T03:27:00.563Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "4ecad7b5-7db3-4785-a22e-7102f2986170",
+    "path": "/api/documents/4ecad7b5-7db3-4785-a22e-7102f2986170",
+    "filename": "Marc_Masarate_Civilworks_Aust_Pty_Ltd_Junior_Estimator_Estimator_Civil_Paving__Cover_Letter.pdf",
+    "sha256": "48b23cc43c99c5e7e6d6e96c95b1f0cf5577103a07fd11092215921e1abbc6ad",
+    "size_bytes": 48891,
+    "kind": "cover",
+    "uploaded_at": "2026-10-10T03:26:59.225Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Civilworks Aust Pty Ltd",
+  "role": "Junior Estimator / Estimator - Civil, Paving & Concrete",
+  "location": "Padstow, Sydney NSW",
+  "job_url": "https://www.seek.com.au/job/95169325",
+  "company_url": "https://civilworksaus.com.au/",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "ADVERTISED",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95169325",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Junior Estimator application, Marc Darenz Masarate",
+  "email_body": "Hi Civilworks team,\n\nI'm applying for the Junior Estimator role advertised on SEEK.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge. I am Melton based, hold a White Card, a driver's licence and my own transport, and have full working rights until December 2027 on a 485 visa. I am available for site, regional and FIFO work.\n\nTaking off pavers, bedding, kerbs and concrete slabs from civil drawings is close to the bills of quantities and cost estimates I prepared in my course, and on site I tracked procurement and kept material records. My estimating so far is coursework, not a paid estimating role, so learning directly from your General Manager is a big part of why I am applying. I am open to discussing relocation to Sydney.\n\nWould you be open to a short call about the role? I've attached my resume and cover letter.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Junior estimator role that accepts a civil engineering qualification and offers mentoring from the General Manager; Marc holds a BSCE and an Advanced Diploma.",
+   "Duties (quantity take-offs for pavement, kerbs and concrete slabs from civil drawings, cost breakdowns) connect to his coursework cost estimates and bills of quantities and his pavement design study.",
+   "Site work in the Philippines tracking procurement and material records is relevant to supplier pricing and material lists."
+  ],
+  "gaps": [
+   "No paid estimating experience",
+   "No take-off or estimating software (Bluebeam, Benchmark) used",
+   "Sydney relocation"
+  ],
+  "match_score": {
+   "percent": 62,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Junior estimator role that accepts a civil engineering qualification and offers mentoring from the General Manager; Marc holds a BSCE and an Advanced Diploma.",
+    "Duties (quantity take-offs for pavement, kerbs and concrete slabs from civil drawings, cost breakdowns) connect to his coursework cost estimates and bills of quantities and his pavement design study.",
+    "Site work in the Philippines tracking procurement and material records is relevant to supplier pricing and material lists."
+   ],
+   "caution": "Estimating, not drafting or site coordination; Marc's estimating is coursework only and he has not used take-off software. Sydney based while Marc lives in Melton, so it needs relocation. Concrete construction experience is not on record."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-09T06:22:03.688Z",
+   "expires_at": "2026-11-08T12:59:59.999Z",
+   "verified_at": "2026-10-10T03:20:07.000Z",
+   "apply_instructions": "Apply on SEEK (advert 95169325, four screening questions). No link out; the employer's site lists only a sales inbox, not an applications address.",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as an Estimator?",
+    "How much notice are you required to give your current employer?",
+    "Do you have Concrete Construction experience?"
+   ]
+  },
+  "screening_answers": {
+   "Which of the following statements best describes your right to work in Australia?": "Temporary visa with full working rights: Subclass 485, full working rights until December 2027.",
+   "How many years' experience do you have as an Estimator?": "No paid estimating experience (estimating is coursework only); choose the lowest option.",
+   "How much notice are you required to give your current employer?": "Marc to answer (no notice period is on record).",
+   "Do you have Concrete Construction experience?": "Marc to answer (concrete construction experience is not on record; his site work was a building renovation and subdivision finishing works)."
+  },
+  "checklist": [
+   "Search Gmail for Civilworks / CWA Group before submitting (no employer contact found on 10 Oct 2026)",
+   "Confirm Marc is happy to relocate to Sydney for an estimating role",
+   "Apply on SEEK https://www.seek.com.au/job/95169325 with the resume and this cover letter",
+   "Right to work: Subclass 485 to December 2027; estimator years: none (lowest option); notice and concrete experience: Marc to answer",
+   "Mark the tracker record Applied only after SEEK confirms the submission"
+  ],
+  "notes": "SEEK sweep (3 day window), listed 9 Oct 2026, expires 8 Nov 2026, salary $80,000 to $100,000. Estimating role adjacent to Marc's targets; fit 62 because the advert accepts a civil engineering qualification and offers mentoring. Sydney relocation needed. SEEK only route; nothing sent.\nCWA Group website (civilworksaus.com.au) checked 10 Oct 2026 AEDT; it lists a sales inbox but does not say it takes applications, so no email route. SEEK advert has no link out and names no contact. Gmail in:anywhere for Civilworks: only unrelated personal 'urban roads' threads, no contact with the employer.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-09, closes 2026-11-08). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Junior Estimator / Estimator - Civil, Paving & Concrete role on SEEK.\n• They may ask about: No paid estimating experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No take-off or estimating software (Bluebeam, Benchmark) used → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Sydney relocation → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-09, closes 2026-11-08). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Junior Estimator / Estimator - Civil, Paving & Concrete role on SEEK.",
+   "They may ask about: No paid estimating experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No take-off or estimating software (Bluebeam, Benchmark) used → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Sydney relocation → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-10T03:26:58.000Z",
+  "seek_id": "95169325",
+  "duplicate_key": "civilworksaustptyltd|seek:95169325"
+ }
+]
