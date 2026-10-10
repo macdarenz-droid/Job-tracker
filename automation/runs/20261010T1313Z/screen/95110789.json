@@ -1,0 +1,33 @@
+{
+ "id": "95110789",
+ "company": "Morgan Consulting Engineers Pty Ltd",
+ "title": "Drafter",
+ "location": "Paddington, Brisbane QLD",
+ "url": "https://www.seek.com.au/job/95110789",
+ "listed_at": "2026-10-07",
+ "expires_at": "2026-11-06T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "What's your expected annual base salary?",
+  "How many years' experience do you have as a draftsperson?"
+ ],
+ "open": true,
+ "employer_is_agency": false,
+ "apply_email": "",
+ "apply_instructions": "Apply on SEEK (advert 95110789); no link out and no applications email published by the employer.",
+ "percent": 72,
+ "route": "SEEK",
+ "rationale": [
+  "Drafter role that accepts a relevant drafting qualification instead of prior drafting experience; Marc finished an Advanced Diploma of Civil Construction Design in February 2026.",
+  "Duties (coordinated drawings, models and details in AutoCAD and Revit, checking work before issue, raising unclear information early) match his AutoCAD, Civil 3D and Revit coursework and his drawing reviews on site.",
+  "Structural and civil consultancy, so his BSCE and civil design coursework are relevant."
+ ],
+ "caution": "Brisbane office based role, so Marc would need to relocate from Melton. His AutoCAD and Revit use is academic, not commercial production drafting. The SEEK question on years as a draftsperson should be answered as no paid drafting experience.",
+ "gaps": [
+  "No paid drafting experience",
+  "Brisbane relocation"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "employer_line": "Morgan Consulting Engineers has been a Brisbane structural and civil engineering consultancy since 1972, with structural, civil, residential and forensic divisions working from house extensions to large warehouses and subdivisions."
+}

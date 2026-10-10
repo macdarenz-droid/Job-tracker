@@ -1,0 +1,42 @@
+{
+ "built": [
+  [
+   "ccd864d1-6fda-4792-ab92-78fdb39f5d1b",
+   "Morgan Consulting Engineers Pty Ltd",
+   "Drafter",
+   "READY_JEREMIE_SEEK"
+  ],
+  [
+   "856eb314-1d4b-4ea6-a3a1-b52b0c6c62af",
+   "STEVE COOPER & ASSOCIATES PTY LTD",
+   "Draftsperson (Land Surveying)",
+   "READY_JEREMIE_SEEK"
+  ],
+  [
+   "7e0e9bf9-92db-4f9f-b379-c430e90b6391",
+   "GRAF Australia Pty Ltd",
+   "Graduate Civil Engineer",
+   "READY_JEREMIE_SEEK"
+  ],
+  [
+   "9aaf451b-9353-44cb-a887-05c4067ee964",
+   "Town of Claremont",
+   "Engineering Technical Officer",
+   "READY_JEREMIE_SEEK"
+  ]
+ ],
+ "rejected": [],
+ "tracker": {
+  "version": 176,
+  "updated_at": "2026-10-10T13:19:19.221Z",
+  "result": {
+   "added": [
+    "ccd864d1-6fda-4792-ab92-78fdb39f5d1b",
+    "856eb314-1d4b-4ea6-a3a1-b52b0c6c62af",
+    "7e0e9bf9-92db-4f9f-b379-c430e90b6391",
+    "9aaf451b-9353-44cb-a887-05c4067ee964"
+   ],
+   "skipped": []
+  }
+ }
+}

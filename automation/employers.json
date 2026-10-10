@@ -1442,6 +1442,50 @@
       "seek": "d3/60, d7/80 with 10 junior keywords, d14/80; only experienced, agency, student-only or already-tracked adverts. Duffy Kennedy drafter needs 3 yrs paid drafting (fit under 60); Glen Eira needs 2 yrs local government; Egis Water grad skipped (Egis Rail grad already READY).",
       "open_web": "KBR Cadet Drafter, Senversa Junior Civil, JCA Land Consultants, Goldsmith all already tracked/applied; Symal Ignite closed and needs PR; Big Build needs work rights to Feb 2029; Wyndham grad listing closed.",
       "published": []
+    },
+    {
+      "run_id": "20261010T1313Z",
+      "rotation": "employers",
+      "checked_at": "2026-10-10T13:20:00Z",
+      "checked": [
+        {
+          "name": "SMEC Australia",
+          "url": "open web (LinkedIn, SEEK)",
+          "result": "only Brisbane cadet/experienced drafter roles; Graduate Rail & Metro already READY"
+        },
+        {
+          "name": "BG&E",
+          "url": "open web (SEEK)",
+          "result": "Civil Designer Minerals Perth/Brisbane are experienced roles; Graduate Way EOI already READY"
+        },
+        {
+          "name": "Alluvium Consulting",
+          "url": "open web",
+          "result": "nothing new; Melbourne EOI already PREPARED_NOT_SENT"
+        },
+        {
+          "name": "ATC Williams",
+          "url": "SEEK 95140559",
+          "result": "Geotechnical/Civil Engineer blocked: recent outreach (Cadet Civil Drafter MANUAL_APPLIED 25 Sep)"
+        },
+        {
+          "name": "BMD Group",
+          "url": "open web (LinkedIn)",
+          "result": "Graduate Engineer FIFO/Newington listings are 2 weeks old graduate program; not verified open this tick"
+        },
+        {
+          "name": "Ventia",
+          "url": "open web",
+          "result": "no Victoria entry-level civil vacancy found"
+        }
+      ],
+      "seek": "d3/60 (46 new after dedupe, digest all experienced, agency, student-only or citizen/PR); widened with d14 junior keyword search (21 details): Morgan Consulting Engineers Drafter, Steve Cooper Draftsperson, GRAF Graduate Civil Engineer kept; MNG and Reid need PR/experience; Bouygues needs Australian infra experience; SCP 5-6 yrs; Arden residential degree",
+      "published": [
+        "Morgan Consulting Engineers Drafter",
+        "Steve Cooper & Associates Draftsperson (Land Surveying)",
+        "GRAF Australia Graduate Civil Engineer",
+        "Town of Claremont Engineering Technical Officer"
+      ]
     }
   ]
 }

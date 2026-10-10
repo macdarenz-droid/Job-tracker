@@ -1,0 +1,35 @@
+{
+ "id": "95143709",
+ "company": "GRAF Australia Pty Ltd",
+ "title": "Graduate Civil Engineer",
+ "location": "Henderson, Perth WA",
+ "url": "https://www.seek.com.au/job/95143709",
+ "listed_at": "2026-10-08",
+ "expires_at": "2026-11-07T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "What's your expected annual base salary?",
+  "How many years' experience do you have as a civil engineer?",
+  "How much notice are you required to give your current employer?"
+ ],
+ "open": true,
+ "employer_is_agency": false,
+ "apply_email": "",
+ "apply_instructions": "Apply on SEEK (advert 95143709); no link out and no applications email published by the employer.",
+ "percent": 70,
+ "route": "SEEK",
+ "rationale": [
+  "Graduate role asking for a Civil Engineering Bachelor degree, AutoCAD and Revit and a Class C licence; Marc holds a BSCE, studied AutoCAD and Revit, and has an Australian licence.",
+  "Stormwater focus (detention, infiltration, drainage) links to his Advanced Diploma stormwater drainage design.",
+  "Producing AutoCAD drawings, maintaining a drawing library and product proposals for councils suits his drafting and documentation strengths."
+ ],
+ "caution": "Perth based, so relocation would be needed. Bachelor degree is from 2019 (Philippines); the SEEK question on years as a civil engineer should be answered honestly (about one year of site work in 2019 to 2020). Has not worked on water or wastewater projects; SolidWorks is not on record.",
+ "gaps": [
+  "Perth relocation",
+  "No water or wastewater project experience",
+  "Degree completed 2019"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "employer_line": "GRAF Australia manufactures rotomoulded products in Western Australia and supplies German engineered rainwater, stormwater detention, wastewater and grease trap systems for Australian sites."
+}
