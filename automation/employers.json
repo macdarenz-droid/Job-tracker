@@ -718,6 +718,18 @@
         "Graduate Engineer (<1 year), traffic/transport"
       ],
       "notes": "Apply by email to hr@onemilegrid.com.au; full work rights and Australian licence required. PREPARED_NOT_SENT 20261009T2213Z."
+    },
+    "Jacobs Australia": {
+      "careers_url": "https://careers.jacobs.com/en_US/careers/SearchEarlyCareers",
+      "checked_at": "2026-10-11",
+      "open_junior_roles": [],
+      "notes": "Cadet Civil Technical Officer, Cairns (job 32877) seen on aggregators (jobau 8 Oct 2026, JobRadars). Advert text says applications close 'Sunday 14th December', which matches 2025 not 2026; a July 2026 LinkedIn repost says applications open. Jacobs portal refused plain fetches, so the current open status and close date could not be verified; not published. Role is pitched at school leavers or current students (graphics, maths, English); right to work in Australia required."
+    },
+    "JBA Consulting Engineers": {
+      "careers_url": "https://jba.com.au/careers",
+      "checked_at": "2026-10-11",
+      "open_junior_roles": [],
+      "notes": "Careers page lists no vacancies. Capability statement PDF (May 2026) publishes CEO Quilon Bryar's work email and a civil service line (site works, roads, earthworks, pavement design, drainage). Speculative enquiry prepared tick 20261010T1814Z. Earlier SEEK application Jan 2026 (Contract Administrator) unsuccessful."
     }
   },
   "sweep_log": [

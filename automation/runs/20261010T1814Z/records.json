@@ -1,0 +1,215 @@
+[
+ {
+  "id": "85944504-db5a-4f01-b4a3-e1d8ea33f53a",
+  "key": "manual:85944504-db5a-4f01-b4a3-e1d8ea33f53a",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261010T1814Z",
+  "created_at": "2026-10-10T18:25:18.000Z",
+  "updated_at": "2026-10-10T18:25:18.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "cf5c6702-c880-44a1-a4a0-6bc242110773",
+    "path": "/api/documents/cf5c6702-c880-44a1-a4a0-6bc242110773",
+    "filename": "Marc_Masarate_Homes_and_Granny_Flats_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-10T18:25:20.652Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "f9e35070-0145-45f6-b33c-15ad735a14be",
+    "path": "/api/documents/f9e35070-0145-45f6-b33c-15ad735a14be",
+    "filename": "Marc_Masarate_Homes_and_Granny_Flats_Junior_Steel_Detailer_Cover_Letter.pdf",
+    "sha256": "2ab9ef544fd6c90cc53c7c7d75721b86b30339a9e88d9f40f3088803c1724db9",
+    "size_bytes": 46025,
+    "kind": "cover",
+    "uploaded_at": "2026-10-10T18:25:19.441Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Homes and Granny Flats",
+  "role": "Junior Steel Detailer",
+  "location": "Wetherill Park, Sydney NSW",
+  "job_url": "https://www.seek.com.au/job/95144059",
+  "company_url": "https://homesandgrannyflats.com.au/",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "ADVERTISED",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95144059",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Junior Steel Detailer application, Marc Darenz Masarate",
+  "email_body": "Hi Homes and Granny Flats team,\n\nI'm applying for the Junior Steel Detailer role advertised on SEEK.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge. I am Melton based, hold a White Card, a driver's licence and my own transport, and have full working rights until December 2027 on a 485 visa. I am available for site, regional and FIFO work.\n\nYour advert says attitude and willingness to learn matter more than past detailing work. On site I reviewed structural and architectural drawings against the work, and my course drawings were done in AutoCAD. I have not detailed steel or used steel detailing software yet, and I am open to discussing relocation to Western Sydney.\n\nWould you be open to a short call about the role? I've attached my resume and cover letter.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Junior detailing role that asks for some CAD or drafting experience and says attitude and willingness to learn matter more than prior detailing work.",
+   "Duties (reading architectural and engineering drawings, drawing revisions, take offs, keeping drawings organised) match Marc's AutoCAD drafting from his Advanced Diploma and his drawing reviews on site.",
+   "Direct employer, full time, $70k to $80k; Western Sydney means relocation from Melton."
+  ],
+  "gaps": [
+   "No steel detailing or detailing software experience",
+   "Drafting experience is from study",
+   "Sydney relocation"
+  ],
+  "match_score": {
+   "percent": 64,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Junior detailing role that asks for some CAD or drafting experience and says attitude and willingness to learn matter more than prior detailing work.",
+    "Duties (reading architectural and engineering drawings, drawing revisions, take offs, keeping drawings organised) match Marc's AutoCAD drafting from his Advanced Diploma and his drawing reviews on site.",
+    "Direct employer, full time, $70k to $80k; Western Sydney means relocation from Melton."
+   ],
+   "caution": "Steel detailing for residential and modular buildings is adjacent to, not inside, his civil road and drainage target. Steel detailing software is not on record. Sydney relocation needed."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-08T07:57:48.034Z",
+   "expires_at": "2026-11-07T12:59:59.999Z",
+   "verified_at": "2026-10-10T18:15:59.000Z",
+   "apply_instructions": "Apply on SEEK (advert 95144059); no link out and no applications email in the advert.",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a Steel Detailer?",
+    "How much notice are you required to give your current employer?"
+   ]
+  },
+  "screening_answers": {
+   "Which of the following statements best describes your right to work in Australia?": "Temporary visa with full working rights: Subclass 485, full working rights until December 2027.",
+   "What's your expected annual base salary?": "Marc to answer (advert range is $70,000 to $80,000; no salary figure is on record).",
+   "How many years' experience do you have as a Steel Detailer?": "No steel detailing experience; choose the lowest option.",
+   "How much notice are you required to give your current employer?": "Marc to answer (no notice period is on record)."
+  },
+  "checklist": [
+   "Search Gmail for Homes and Granny Flats before submitting (no prior contact found on 11 Oct 2026)",
+   "Confirm Marc is happy to relocate to Western Sydney and to move into steel detailing",
+   "Apply on SEEK https://www.seek.com.au/job/95144059 with the resume and this cover letter",
+   "Answer screening questions as drafted; salary and notice are Marc's to answer",
+   "Mark the tracker record Applied only after SEEK confirms the submission"
+  ],
+  "notes": "Found by Grok AI tick 20261010T1814Z (SEEK, listed 2026-10-08, expires 2026-11-07). Fit 64. Steel detailing is adjacent to his civil drafting target; Tekla not on record; Sydney relocation needed. SEEK only route; nothing sent.\nEmployer website is a JavaScript page that did not render for a plain fetch on 11 Oct 2026 AEDT; no published hiring contact found, so the SEEK route is used. Gmail in:anywhere search for the employer found no prior contact.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-08, closes 2026-11-07). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Junior Steel Detailer role on SEEK.\n• They may ask about: No steel detailing or detailing software experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Drafting experience is from study → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Sydney relocation → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-08, closes 2026-11-07). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Junior Steel Detailer role on SEEK.",
+   "They may ask about: No steel detailing or detailing software experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Drafting experience is from study → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Sydney relocation → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-10T18:25:18.000Z",
+  "seek_id": "95144059",
+  "duplicate_key": "homesandgrannyflats|seek:95144059"
+ },
+ {
+  "id": "3b891515-f3c0-4908-8cdc-ecac11227996",
+  "key": "manual:3b891515-f3c0-4908-8cdc-ecac11227996",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261010T1814Z",
+  "created_at": "2026-10-10T18:25:21.000Z",
+  "updated_at": "2026-10-10T18:25:21.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "a0754b35-8ee3-42e7-9028-4007804000c3",
+    "path": "/api/documents/a0754b35-8ee3-42e7-9028-4007804000c3",
+    "filename": "Marc_Masarate_JBA_Consulting_Engineers_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-10T18:25:23.599Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "a26a1f39-b123-41fb-a700-eb279688ebd8",
+    "path": "/api/documents/a26a1f39-b123-41fb-a700-eb279688ebd8",
+    "filename": "Marc_Masarate_JBA_Consulting_Engineers_Speculative_enquiry_graduate_civil_desig_Cover_Letter.pdf",
+    "sha256": "1e00664720fa8bcd65f5e2543ca8d2b42b3f65a91048bf4bec624b38194f9983",
+    "size_bytes": 49017,
+    "kind": "cover",
+    "uploaded_at": "2026-10-10T18:25:22.409Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "JBA Consulting Engineers",
+  "role": "Speculative enquiry: graduate civil designer or civil drafter (South Melbourne)",
+  "location": "South Melbourne VIC",
+  "job_url": "https://jba.com.au/careers",
+  "company_url": "https://jba.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "Quilon Bryar",
+  "recipient_role": "CEO",
+  "recipient_email": "Quilon.Bryar@jba.com.au",
+  "contact_email": "Quilon.Bryar@jba.com.au",
+  "contact_evidence_url": "https://jba.com.au/resources/JBA-Consulting-Engineers-Capability-Statement.pdf",
+  "contact_verified_at": "2026-10-10T18:25:21.000Z",
+  "contact_confidence": "published_direct",
+  "subject": "Speculative enquiry: graduate civil design or drafting, Marc Masarate",
+  "email_body": "Hi Quilon,\n\nThis is a speculative enquiry, not a reply to an advertised vacancy. I found your details in JBA's capability statement and wanted to reach you directly about graduate civil design or drafting work in your civil team.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. I also hold a Bachelor of Science in Civil Engineering (Philippines, 2019). From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge. I am Melton based, hold a White Card, a driver's licence and my own transport, and have full working rights until December 2027 on a 485 visa. I am available for site, regional and FIFO work.\n\nYour civil work on site works, roads, earthworks, pavement design and drainage is the work I trained for. My drafting so far is from study, not a paid role.\n\nWould you be open to a short chat, or to passing this to whoever leads your civil team? I've attached my resume and cover letter.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Melbourne consultancy whose civil service line is site works, roads, earthworks, pavement design and drainage, the same areas Marc designed in Civil 3D and AutoCAD for his Advanced Diploma.",
+   "South Melbourne office is commutable from Melton by train; the CEO's work email is published by the firm itself.",
+   "No advertised vacancy, so this is a clearly labelled speculative enquiry."
+  ],
+  "gaps": [
+   "No Australian consulting employment yet",
+   "Drafting experience is from study",
+   "Civil team size and hiring plans unknown"
+  ],
+  "match_score": {
+   "percent": 68,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Melbourne consultancy whose civil service line is site works, roads, earthworks, pavement design and drainage, the same areas Marc designed in Civil 3D and AutoCAD for his Advanced Diploma.",
+    "South Melbourne office is commutable from Melton by train; the CEO's work email is published by the firm itself.",
+    "No advertised vacancy, so this is a clearly labelled speculative enquiry."
+   ],
+   "caution": "JBA is mainly a building services firm and its civil team size is unknown. Marc applied to JBA on SEEK for a Contract Administrator role in January 2026 and was told it would not progress (outside the 90 day block)."
+  },
+  "advert": {
+   "source": "open_web_employer_site",
+   "listed_at": "2026-10-10T18:35:00Z",
+   "expires_at": "",
+   "verified_at": "2026-10-10T18:35:00Z",
+   "apply_instructions": "Speculative email to the CEO (address published in the employer's capability statement).",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [],
+  "notes": "SPECULATIVE_ENQUIRY. Councils and government rotation found nothing new, so this is the runbook's one speculative enquiry. JBA careers page read 11 Oct 2026 AEDT lists no vacancies. Labelled clearly as speculative in subject and body. Earlier SEEK application to JBA: Contract Administrator, January 2026, unsuccessful; outside the 90 day block. Gaps: no Australian consulting employment yet, drafting from study, JBA civil team size unknown.\nContact from JBA's own capability statement PDF (created May 2026). Gmail in:anywhere search found one earlier SEEK application to JBA (Contract Administrator, submitted 10 Jan 2026, unsuccessful 12 Jan 2026), outside the 90 day repeat block; no direct email to JBA before.\nHOW GROK AI FOUND THIS\nFound on open_web_employer_site (listed 2026-10-10). Contact: Quilon Bryar (CEO), whose work email the employer publishes at https://jba.com.au/resources/JBA-Consulting-Engineers-Capability-Statement.pdf. Named people seen on employer pages: Quilon Bryar (CEO); Andrew Lingard (Associate Director); Vance Connor (Associate Director). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Speculative enquiry: graduate civil designer or civil drafter (South Melbourne) role on SEEK.\n• They may ask about: No Australian consulting employment yet → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Drafting experience is from study → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Civil team size and hiring plans unknown → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on open_web_employer_site (listed 2026-10-10). Contact: Quilon Bryar (CEO), whose work email the employer publishes at https://jba.com.au/resources/JBA-Consulting-Engineers-Capability-Statement.pdf. Named people seen on employer pages: Quilon Bryar (CEO); Andrew Lingard (Associate Director); Vance Connor (Associate Director). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Speculative enquiry: graduate civil designer or civil drafter (South Melbourne) role on SEEK.",
+   "They may ask about: No Australian consulting employment yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Drafting experience is from study → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Civil team size and hiring plans unknown → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-10T18:25:21.000Z",
+  "duplicate_key": "jbaconsultingengineers|jba.com.au/careers"
+ }
+]

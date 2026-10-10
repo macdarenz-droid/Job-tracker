@@ -1,0 +1,28 @@
+{
+ "built": [
+  [
+   "85944504-db5a-4f01-b4a3-e1d8ea33f53a",
+   "Homes and Granny Flats",
+   "Junior Steel Detailer",
+   "READY_JEREMIE_SEEK"
+  ],
+  [
+   "3b891515-f3c0-4908-8cdc-ecac11227996",
+   "JBA Consulting Engineers",
+   "Speculative enquiry: graduate civil designer or civil drafter (South Melbourne)",
+   "PREPARED_NOT_SENT"
+  ]
+ ],
+ "rejected": [],
+ "tracker": {
+  "version": 177,
+  "updated_at": "2026-10-10T18:25:25.146Z",
+  "result": {
+   "added": [
+    "85944504-db5a-4f01-b4a3-e1d8ea33f53a",
+    "3b891515-f3c0-4908-8cdc-ecac11227996"
+   ],
+   "skipped": []
+  }
+ }
+}
