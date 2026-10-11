@@ -1,0 +1,46 @@
+{
+ "id": "bornhorst-ward-graduate-program-20261011",
+ "company": "Bornhorst + Ward",
+ "role": "Graduate Engineer (Graduate Program, civil and structural)",
+ "location": "Brisbane QLD (Melbourne office at 400 Collins Street)",
+ "job_url": "https://www.bornhorstward.com.au/careers",
+ "company_url": "https://www.bornhorstward.com.au/",
+ "route": "EMPLOYER_FORM",
+ "recipient_name": "",
+ "recipient_role": "",
+ "recipient_email": "",
+ "contact_evidence_url": "https://www.bornhorstward.com.au/apply",
+ "subject": "Graduate Program application, Marc Darenz Masarate",
+ "application_type": "ADVERTISED_VACANCY",
+ "application_method": "Company website",
+ "vacancy_status": "OPEN_ADVERT_VERIFIED",
+ "email_body": "Hi Bornhorst + Ward team,\n\nI'm applying for your Graduate Program, which I found on your careers page.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD, and I also hold a Bachelor of Science in Civil Engineering from the Philippines. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge. I am Melton based, hold a White Card, a driver's licence and my own transport, and have full working rights until December 2027 on a 485 visa. I am available for site, regional and FIFO work.\n\nYour page says graduates get real project work and a mentor from day one, which is the kind of start I am looking for after my site years and my design course. My degree is from the Philippines rather than an Australian university, and I am open to discussing relocation to Brisbane or working from your Melbourne office.\n\nWould you be open to a short call about the program? I've attached my resume and cover letter.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+ "letter": {
+  "recipient_name": "",
+  "recipient_role": "Graduate Program team",
+  "company": "Bornhorst + Ward",
+  "company_line": "L14, 133 Mary Street, Brisbane QLD 4000",
+  "subject": "Application for the Graduate Program",
+  "greeting": "Hello,",
+  "closing": "Kind regards,",
+  "paragraphs": [
+   "I am applying for the Bornhorst + Ward Graduate Program. Your careers page says graduates are given responsibility on real projects with an experienced mentor, and that is the start I want for my civil engineering career in Australia.",
+   "I hold a Bachelor of Science in Civil Engineering from the Philippines, and in February 2026 I finished an Advanced Diploma of Civil Construction Design in Australia. My course covered road geometry, earthworks, pavement systems and stormwater drainage, and I prepared and reviewed technical drawings in AutoCAD and Civil 3D to Australian Standards.",
+   "From April 2019 to February 2020 I worked on site in the Philippines, first as project-in-charge on a community hall renovation and then as a field engineer on residential subdivision finishing works. I reviewed structural and architectural drawings against the work, carried out site inspections and quality checks, and prepared site reports and progress records.",
+   "I hold a White Card, an Australian driver's licence and my own transport, and have full working rights until December 2027 on a Subclass 485 visa. I live in Melton and am open to discussing relocation to Brisbane or a place in your Melbourne office. My degree is from the Philippines rather than an Australian university, and I am keen to learn from your engineers.",
+   "Thank you for considering my application. Some of my course drawings are at https://macdarenz-droid.github.io/Portfolio."
+  ]
+ },
+ "screening_answers": {
+  "Working rights (if the form asks)": "Subclass 485 visa, full working rights until December 2027.",
+  "Preferred office (if asked)": "Marc to confirm: Brisbane relocation or Melbourne office."
+ },
+ "checklist": [
+  "Search Gmail for Bornhorst + Ward before submitting (no prior contact found on 11 Oct 2026)",
+  "Confirm Marc is happy to relocate to Brisbane, or ask about the Melbourne office",
+  "Submit the Graduate Program form at https://www.bornhorstward.com.au/apply with the resume and this cover letter",
+  "State the 485 visa and full working rights to December 2027 clearly in the form",
+  "Mark the tracker record Applied only after the form confirms the submission"
+ ],
+ "notes": "Found by Grok AI tick 20261011T0911Z (employers rotation, Bornhorst + Ward careers page, standing graduate intake accepted all year, checked 11 Oct 2026). Fit 68. Queensland projects, so Brisbane relocation is likely; ask about the Melbourne office. General EOI page says unrestricted working rights; graduate page does not. Employer form route; nothing sent."
+}

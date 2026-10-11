@@ -1,0 +1,109 @@
+[
+ {
+  "id": "1a4eea9c-45fd-43b9-8205-67be278d3f7f",
+  "key": "manual:1a4eea9c-45fd-43b9-8205-67be278d3f7f",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261011T0911Z",
+  "created_at": "2026-10-11T09:15:49.000Z",
+  "updated_at": "2026-10-11T09:15:49.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "7493fcb8-cf94-4801-a465-8df973bec5f4",
+    "path": "/api/documents/7493fcb8-cf94-4801-a465-8df973bec5f4",
+    "filename": "Marc_Masarate_Bornhorst_Ward_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-11T09:15:51.432Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "e887eaf3-1201-4270-a4a6-6520f9aacaad",
+    "path": "/api/documents/e887eaf3-1201-4270-a4a6-6520f9aacaad",
+    "filename": "Marc_Masarate_Bornhorst_Ward_Graduate_Engineer_Graduate_Program_civil_Cover_Letter.pdf",
+    "sha256": "526c7567893bcf21eacdd0bb370e34239cc38eb4b0db539123c8e29c744b59b4",
+    "size_bytes": 48440,
+    "kind": "cover",
+    "uploaded_at": "2026-10-11T09:15:50.137Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Bornhorst + Ward",
+  "role": "Graduate Engineer (Graduate Program, civil and structural)",
+  "location": "Brisbane QLD (Melbourne office at 400 Collins Street)",
+  "job_url": "https://www.bornhorstward.com.au/careers",
+  "company_url": "https://www.bornhorstward.com.au/",
+  "status": "READY_JEREMIE_EMPLOYER_FORM",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMPLOYER_FORM",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.bornhorstward.com.au/apply",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Graduate Program application, Marc Darenz Masarate",
+  "email_body": "Hi Bornhorst + Ward team,\n\nI'm applying for your Graduate Program, which I found on your careers page.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD, and I also hold a Bachelor of Science in Civil Engineering from the Philippines. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge. I am Melton based, hold a White Card, a driver's licence and my own transport, and have full working rights until December 2027 on a 485 visa. I am available for site, regional and FIFO work.\n\nYour page says graduates get real project work and a mentor from day one, which is the kind of start I am looking for after my site years and my design course. My degree is from the Philippines rather than an Australian university, and I am open to discussing relocation to Brisbane or working from your Melbourne office.\n\nWould you be open to a short call about the program? I've attached my resume and cover letter.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Graduate engineer intake at a civil and structural consultancy, the entry level Marc is targeting; applications are accepted all year and the page invites graduates who did not do the firm's undergraduate placement.",
+   "Marc holds a BSCE (Philippines) and finished an Advanced Diploma of Civil Construction Design in February 2026 with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD.",
+   "Mentored graduate role with real project work suits his 2019 to 2020 site experience; the page mentions CAD (AutoCAD, Revit) as a plus on its general EOI."
+  ],
+  "gaps": [
+   "Brisbane relocation likely",
+   "Philippine degree, not Australian accredited",
+   "Working rights wording on the firm's general EOI says unrestricted"
+  ],
+  "match_score": {
+   "percent": 68,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Graduate engineer intake at a civil and structural consultancy, the entry level Marc is targeting; applications are accepted all year and the page invites graduates who did not do the firm's undergraduate placement.",
+    "Marc holds a BSCE (Philippines) and finished an Advanced Diploma of Civil Construction Design in February 2026 with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD.",
+    "Mentored graduate role with real project work suits his 2019 to 2020 site experience; the page mentions CAD (AutoCAD, Revit) as a plus on its general EOI."
+   ],
+   "caution": "The graduate program describes Queensland projects, so the role is most likely Brisbane based and Marc would need to confirm relocation (the firm also has a Melbourne office; ask which office has graduate places). The separate general EOI page says unrestricted working rights; the graduate page does not, so Marc's 485 visa (full working rights to December 2027) should be stated clearly in the form. His degree is from the Philippines, not an Australian accredited degree."
+  },
+  "advert": {
+   "source": "employer_site",
+   "listed_at": "",
+   "expires_at": "",
+   "verified_at": "2026-10-11T09:15:49.000Z",
+   "apply_instructions": "Submit a cover letter and resume through the Graduate Program form at https://www.bornhorstward.com.au/apply (applications accepted all year).",
+   "screening_questions": []
+  },
+  "screening_answers": {
+   "Working rights (if the form asks)": "Subclass 485 visa, full working rights until December 2027.",
+   "Preferred office (if asked)": "Marc to confirm: Brisbane relocation or Melbourne office."
+  },
+  "checklist": [
+   "Search Gmail for Bornhorst + Ward before submitting (no prior contact found on 11 Oct 2026)",
+   "Confirm Marc is happy to relocate to Brisbane, or ask about the Melbourne office",
+   "Submit the Graduate Program form at https://www.bornhorstward.com.au/apply with the resume and this cover letter",
+   "State the 485 visa and full working rights to December 2027 clearly in the form",
+   "Mark the tracker record Applied only after the form confirms the submission"
+  ],
+  "notes": "Found by Grok AI tick 20261011T0911Z (employers rotation, Bornhorst + Ward careers page, standing graduate intake accepted all year, checked 11 Oct 2026). Fit 68. Queensland projects, so Brisbane relocation is likely; ask about the Melbourne office. General EOI page says unrestricted working rights; graduate page does not. Employer form route; nothing sent.\nCareers and apply pages checked 11 Oct 2026 AEDT. The firm asks graduates to apply through its Graduate Program form; mail@bornhorstward.com.au is a general enquiries inbox that is not stated to take applications, so the form route is used. Gmail in:anywhere search for Bornhorst found no prior contact.\nHOW GROK AI FOUND THIS\nFound on employer_site (listed date not shown). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate Engineer (Graduate Program, civil and structural) role on SEEK.\n• They may ask about: Brisbane relocation likely → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Philippine degree, not Australian accredited → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Working rights wording on the firm's general EOI says unrestricted → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_site (listed date not shown). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate Engineer (Graduate Program, civil and structural) role on SEEK.",
+   "They may ask about: Brisbane relocation likely → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Philippine degree, not Australian accredited → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Working rights wording on the firm's general EOI says unrestricted → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-11T09:15:49.000Z",
+  "duplicate_key": "bornhorstward|bornhorstward.com.au/careers"
+ }
+]
