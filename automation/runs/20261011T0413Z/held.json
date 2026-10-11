@@ -1,0 +1,89 @@
+[
+ {
+  "id": "1d5405a8-8c09-43ed-925d-80307c7f0f76",
+  "key": "manual:1d5405a8-8c09-43ed-925d-80307c7f0f76",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261011T0413Z",
+  "created_at": "2026-10-11T04:20:07.000Z",
+  "updated_at": "2026-10-11T04:20:07.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Glen Eira City Council",
+  "role": "Subdivision Engineer",
+  "location": "Caulfield, Melbourne VIC",
+  "job_url": "https://www.seek.com.au/job/95102595",
+  "status": "HELD_ELIGIBILITY_UNCONFIRMED",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMPLOYER_PORTAL",
+  "fit": [
+   "Council subdivision engineer: reviewing stormwater drainage and water quality assessments, certifying subdivision plans and inspecting construction works, which overlaps Marc's stormwater and civil documentation coursework and his site inspection experience.",
+   "Melbourne (Caulfield) council role, commutable from Melton.",
+   "Band 6 role expecting working knowledge of the Subdivision Act, Planning and Environment Act and Road Management Act, which is not in Marc's facts."
+  ],
+  "gaps": [
+   "Subdivision Act 1988, Planning and Environment Act 1987 and Road Management Act 2004 knowledge",
+   "GIS systems",
+   "Council development engineering experience"
+  ],
+  "match_score": {
+   "percent": 61,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Council subdivision engineer: reviewing stormwater drainage and water quality assessments, certifying subdivision plans and inspecting construction works, which overlaps Marc's stormwater and civil documentation coursework and his site inspection experience.",
+    "Melbourne (Caulfield) council role, commutable from Melton.",
+    "Band 6 role expecting working knowledge of the Subdivision Act, Planning and Environment Act and Road Management Act, which is not in Marc's facts."
+   ],
+   "caution": "Advert asks for a bachelor's degree in civil engineering and eligibility for Engineers Australia membership; whether Marc's Philippine BSCE is assessed as eligible is not confirmed. Victorian statutory knowledge and GIS are not in his facts."
+  },
+  "notes": "Held by Grok AI: Eligibility for membership of Engineers Australia with a Philippine BSCE",
+  "checked_at": "2026-10-11T04:20:07.000Z",
+  "seek_id": "95102595",
+  "duplicate_key": "gleneiracitycouncil|seek:95102595"
+ },
+ {
+  "id": "29b396c6-631d-4633-8059-5aaccdbf94a0",
+  "key": "manual:29b396c6-631d-4633-8059-5aaccdbf94a0",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261011T0413Z",
+  "created_at": "2026-10-11T04:20:07.000Z",
+  "updated_at": "2026-10-11T04:20:07.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Duffy Kennedy Constructions Pty Ltd",
+  "role": "Civil Engineering Draftsperson",
+  "location": "Miranda, Sydney NSW",
+  "job_url": "https://www.seek.com.au/job/95157253",
+  "status": "HELD_MANDATORY_REQUIREMENTS",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "SEEK",
+  "fit": [
+   "Civil engineering draftsperson role: preparing and amending civil and structural drawings in AutoCAD or Revit, updating them for site conditions and making site visits, which matches Marc's Advanced Diploma drafting in AutoCAD and Civil 3D and his Philippines site work.",
+   "An Advanced Diploma or Engineering Drafting qualification is accepted, and Marc also holds a Bachelor of Science in Civil Engineering.",
+   "Miranda in southern Sydney, so relocation would be needed; the advert asks for at least 3 years of civil or structural drafting experience, mostly on building projects."
+  ],
+  "gaps": [
+   "Minimum 3 years of relevant experience in civil or structural engineering drafting",
+   "Minimum 3 years civil or structural drafting experience",
+   "Building construction drafting experience",
+   "Sydney relocation for Marc to confirm"
+  ],
+  "match_score": {
+   "percent": 62,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Civil engineering draftsperson role: preparing and amending civil and structural drawings in AutoCAD or Revit, updating them for site conditions and making site visits, which matches Marc's Advanced Diploma drafting in AutoCAD and Civil 3D and his Philippines site work.",
+    "An Advanced Diploma or Engineering Drafting qualification is accepted, and Marc also holds a Bachelor of Science in Civil Engineering.",
+    "Miranda in southern Sydney, so relocation would be needed; the advert asks for at least 3 years of civil or structural drafting experience, mostly on building projects."
+   ],
+   "caution": "The 3 year drafting experience minimum is well above Marc's study based drafting; building (residential and commercial) focus rather than roads and drainage; Sydney move for Marc to confirm."
+  },
+  "notes": "Held by Grok AI: Minimum 3 years of relevant experience in civil or structural engineering drafting",
+  "checked_at": "2026-10-11T04:20:07.000Z",
+  "seek_id": "95157253",
+  "duplicate_key": "duffykennedyconstructionsptyltd|seek:95157253"
+ }
+]
