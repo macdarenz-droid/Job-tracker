@@ -1,0 +1,39 @@
+{
+ "id": "95105726",
+ "company": "Ground Civil",
+ "title": "Civil Designer \u2013 Subdivision & Land Development",
+ "location": "West Perth, Perth WA",
+ "url": "https://www.seek.com.au/job/95105726",
+ "listed_at": "2026-10-07T02:58:39.125Z",
+ "expires_at": "2026-11-06T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "What's your expected annual base salary?",
+  "How many years' experience do you have as a civil designer?",
+  "How much notice are you required to give your current employer?",
+  "Do you have experience using AutoCAD Civil 3D?",
+  "How many years' experience do you have as a Subdivision Engineer?",
+  "How many years' experience do you have as a Civil 3D Designer?"
+ ],
+ "open": true,
+ "employer_is_agency": false,
+ "apply_email": "",
+ "route": "SEEK",
+ "percent": 61,
+ "rationale": [
+  "Ground Civil West Perth wants a Civil 3D designer for subdivision and land development: roads, earthworks, stormwater, surfaces, alignments, profiles and corridors.",
+  "That task list matches Marc's Advanced Diploma coursework (road geometry, earthworks, pavement and stormwater design and documentation in Civil 3D and AutoCAD, finished February 2026).",
+  "Marc's software use is academic, and the advert asks for demonstrated and Australian civil design experience."
+ ],
+ "caution": "Advert is for an experienced designer: demonstrated subdivision civil design experience and Australian civil design experience are listed under About you. Marc's Civil 3D work is coursework, not commercial production. Sewer and water design and WA approvals are not in his record. Perth relocation for Marc to confirm.",
+ "gaps": [
+  "Sewer and water infrastructure design not in record",
+  "WA approval processes not in record",
+  "Perth relocation"
+ ],
+ "mandatory_unmet": [
+  "Demonstrated (Australian) civil design experience in subdivision and land development: Marc's Civil 3D design is Advanced Diploma coursework only"
+ ],
+ "mandatory_unresolved": [],
+ "apply_instructions": "Apply on SEEK (job 95105726) with screening questions on years as civil designer and Civil 3D use."
+}
