@@ -1,0 +1,119 @@
+[
+ {
+  "id": "5f373e16-6cb2-4a41-9552-9e4211e11384",
+  "key": "manual:5f373e16-6cb2-4a41-9552-9e4211e11384",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261012T0012Z",
+  "created_at": "2026-10-12T00:17:08.000Z",
+  "updated_at": "2026-10-12T00:17:08.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "8120c8d1-b536-42b5-9712-d48a3c695d17",
+    "path": "/api/documents/8120c8d1-b536-42b5-9712-d48a3c695d17",
+    "filename": "Marc_Masarate_Transform_Formwork_Contractors_Group_Pty_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-12T00:17:10.057Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "479096bc-31c7-44ef-ab8e-ba3633f83418",
+    "path": "/api/documents/479096bc-31c7-44ef-ab8e-ba3633f83418",
+    "filename": "Marc_Masarate_Transform_Formwork_Contractors_Group_Pty_Designer_Draftsperson_Cover_Letter.pdf",
+    "sha256": "9c54c4b1599fa2d9e469d4d616887049c88235a7666336613d35cb6e6440029f",
+    "size_bytes": 44992,
+    "kind": "cover",
+    "uploaded_at": "2026-10-12T00:17:09.175Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Transform Formwork Contractors Group Pty Ltd",
+  "role": "Designer / Draftsperson",
+  "location": "Wetherill Park, Sydney NSW",
+  "job_url": "https://www.seek.com.au/job/95191525",
+  "company_url": "https://tfgroup.com.au/",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "ADVERTISED",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95191525",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Designer / Draftsperson application, Marc Darenz Masarate",
+  "email_body": "Hi Transform Formwork team,\n\nI'm applying for the Designer / Draftsperson role advertised on SEEK.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge. I am Melton based, hold a White Card, a driver's licence and my own transport, and have full working rights until December 2027 on a 485 visa. I am available for site, regional and FIFO work.\n\nYour advert asks for someone who updates drawings to reflect site conditions and works closely with the site team, which suits me because on site I reviewed structural and architectural drawings against the work to cut down on errors and rework. My drafting so far is from study rather than a paid role, I have not yet drawn formwork, and I am open to discussing relocation to Sydney.\n\nWould you be open to a short call about the role? I've attached my resume and cover letter.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Both essentials are met: AutoCAD proficiency (Advanced Diploma drawings prepared and reviewed in AutoCAD and Civil 3D) and a current White Card.",
+   "Duties to review drawings for accuracy, update them to site conditions and coordinate with site teams match Marc's site work reviewing structural and architectural drawings against the work in 2019 to 2020.",
+   "Site-based construction drafting role suits a candidate with both design study and site experience."
+  ],
+  "gaps": [
+   "No paid drafting experience",
+   "No formwork design experience",
+   "Sydney relocation"
+  ],
+  "match_score": {
+   "percent": 62,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Both essentials are met: AutoCAD proficiency (Advanced Diploma drawings prepared and reviewed in AutoCAD and Civil 3D) and a current White Card.",
+    "Duties to review drawings for accuracy, update them to site conditions and coordinate with site teams match Marc's site work reviewing structural and architectural drawings against the work in 2019 to 2020.",
+    "Site-based construction drafting role suits a candidate with both design study and site experience."
+   ],
+   "caution": "Formwork design experience is highly regarded and Marc has none. His drafting is from study, not a paid drafting role, so the years-as-draftsperson question must be answered as none. Sydney site-based role means relocation from Melton. Transform Formwork appeared once before on the tracker (Site Engineer Formwork, contact unverified, 10 Sep 2026); no application to it is recorded."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-11T21:25:43.859Z",
+   "expires_at": "2026-11-11T12:59:59.999Z",
+   "verified_at": "2026-10-12T00:13:27.000Z",
+   "apply_instructions": "Apply on SEEK (advert 95191525); no link out and no applications email published by the employer.",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a draftsperson?",
+    "How much notice are you required to give your current employer?",
+    "Do you have experience using AutoCAD 2D?"
+   ]
+  },
+  "screening_answers": {
+   "Which of the following statements best describes your right to work in Australia?": "Temporary visa with full working rights: Subclass 485, full working rights until December 2027.",
+   "What's your expected annual base salary?": "Marc to answer (no salary figure is on record for this role).",
+   "How many years' experience do you have as a draftsperson?": "No paid drafting experience (drafting is Advanced Diploma coursework); choose the lowest option.",
+   "How much notice are you required to give your current employer?": "Marc to answer.",
+   "Do you have experience using AutoCAD 2D?": "Yes, from the Advanced Diploma of Civil Construction Design (AutoCAD and Civil 3D drawings)."
+  },
+  "checklist": [
+   "Search Gmail for Transform Formwork before submitting (no prior contact found on 12 Oct 2026)",
+   "Confirm Marc is happy to relocate to Sydney for a site-based role",
+   "Apply on SEEK https://www.seek.com.au/job/95191525 with the resume and this cover letter",
+   "Answer screening questions as drafted; salary and notice are Marc's to answer",
+   "Mark the tracker record Applied only after SEEK confirms the submission"
+  ],
+  "notes": "Found by Grok AI tick 20261012T0012Z (SEEK, listed 2026-10-11, expires 2026-11-11). Fit 62. Both essentials met (AutoCAD, White Card). Formwork design experience is highly regarded and Marc has none; drafting is from study; Sydney relocation. SEEK only route; nothing sent.\nEmployer websites (tfgroup.com.au, transform-formwork.com.au) checked 12 Oct 2026 AEDT; only a general phone line is published and no address that says it takes applications, so the SEEK route is used. Gmail in:anywhere search for the employer found no prior contact.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-11, closes 2026-11-11). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Designer / Draftsperson role on SEEK.\n• They may ask about: No paid drafting experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No formwork design experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Sydney relocation → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-11, closes 2026-11-11). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Designer / Draftsperson role on SEEK.",
+   "They may ask about: No paid drafting experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No formwork design experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Sydney relocation → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-12T00:17:08.000Z",
+  "seek_id": "95191525",
+  "duplicate_key": "transformformworkcontractorsgroupptyltd|seek:95191525"
+ }
+]
