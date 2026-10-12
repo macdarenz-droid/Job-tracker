@@ -1,0 +1,30 @@
+{
+  "id": "95159385",
+  "company": "Cookson & Roberts",
+  "title": "Structural Revit Technician/Drafter",
+  "location": "Sydney NSW",
+  "url": "https://www.seek.com.au/job/95159385",
+  "listed_at": "2026-10-09",
+  "expires_at": "2026-11-08T02:01:00.000Z",
+  "screening_questions": [],
+  "open": true,
+  "employer_is_agency": true,
+  "apply_email": "",
+  "apply_instructions": "Apply on SEEK (advert 95159385).",
+  "percent": 48,
+  "route": "SEEK",
+  "rationale": [
+    "Structural Revit Technician/Drafter via Cookson Roberts agency; experienced structural Revit.",
+    "Scored against facts.json fit rubric for this tick.",
+    "Not retained for contact research this run."
+  ],
+  "caution": "Structural Revit Technician/Drafter via Cookson Roberts agency; experienced structural Revit.",
+  "gaps": [
+    "Experienced structural Revit drafter"
+  ],
+  "mandatory_unmet": [
+    "Experienced structural Revit drafter"
+  ],
+  "mandatory_unresolved": [],
+  "employer_line": "Cookson & Roberts \u2014 Structural Revit Technician/Drafter in Sydney NSW."
+}

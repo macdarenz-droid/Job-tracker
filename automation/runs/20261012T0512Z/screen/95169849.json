@@ -1,0 +1,37 @@
+{
+  "id": "95169849",
+  "company": "Oakleigh Civil",
+  "title": "Site / Project Engineer - Civil & Concrete",
+  "location": "Adelaide SA",
+  "url": "https://www.seek.com.au/job/95169849",
+  "listed_at": "2026-10-09",
+  "expires_at": "2026-11-08T12:59:59.999Z",
+  "screening_questions": [
+    "How many years of people management experience do you have?",
+    "How many years' experience do you have as a Site Project Engineer?",
+    "Which of the following statements best describes your right to work in Australia?",
+    "Have you completed a qualification in engineering?",
+    "Which of the following types of infrastructure project do you have experience with?",
+    "How many years' experience do you have in a quality control (QC) role?"
+  ],
+  "open": true,
+  "employer_is_agency": false,
+  "apply_email": "",
+  "apply_instructions": "Apply on SEEK (advert 95169849).",
+  "percent": 44,
+  "route": "SEEK",
+  "rationale": [
+    "Site/Project Engineer Adelaide with years-experience screening questions.",
+    "Scored against facts.json fit rubric for this tick.",
+    "Not retained for contact research this run."
+  ],
+  "caution": "Site/Project Engineer Adelaide with years-experience screening questions.",
+  "gaps": [
+    "Years as Site Project Engineer"
+  ],
+  "mandatory_unmet": [
+    "Years as Site Project Engineer"
+  ],
+  "mandatory_unresolved": [],
+  "employer_line": "Oakleigh Civil \u2014 Site / Project Engineer - Civil & Concrete in Adelaide SA."
+}

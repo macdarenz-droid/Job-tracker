@@ -1,0 +1,225 @@
+[
+ {
+  "id": "03907abb-d0b2-47a9-85c1-aace855bacdf",
+  "key": "manual:03907abb-d0b2-47a9-85c1-aace855bacdf",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261012T0512Z",
+  "created_at": "2026-10-12T05:17:17.000Z",
+  "updated_at": "2026-10-12T05:17:17.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "8919a143-9b91-4a0d-92e3-175b6bfbff2a",
+    "path": "/api/documents/8919a143-9b91-4a0d-92e3-175b6bfbff2a",
+    "filename": "Marc_Masarate_Davies_Ross_Consulting_Pty_Ltd_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-12T05:17:19.252Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "5a605c7e-4519-4a53-b907-b6e24052e467",
+    "path": "/api/documents/5a605c7e-4519-4a53-b907-b6e24052e467",
+    "filename": "Marc_Masarate_Davies_Ross_Consulting_Pty_Ltd_Graduate_Engineer_Remedial_Cover_Letter.pdf",
+    "sha256": "b6aed52c7f0b3ebc787bd6298de46680d54231006e43fc53812c3ccafb55c474",
+    "size_bytes": 48851,
+    "kind": "cover",
+    "uploaded_at": "2026-10-12T05:17:17.983Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Davies Ross Consulting Pty Ltd",
+  "role": "Graduate Engineer - Remedial",
+  "location": "Sydney NSW",
+  "job_url": "https://www.seek.com.au/job/95192751",
+  "company_url": "https://www.daviesrossconsulting.com.au/",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95192751",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Graduate Engineer Remedial application, Marc Darenz Masarate",
+  "email_body": "Hi hiring team,\n\nI am applying via SEEK for the Graduate Engineer Remedial role (job 95192751).\n\nI hold a Bachelor of Science in Civil Engineering and finished an Advanced Diploma of Civil Construction Design in February 2026, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD plus structural subjects and Revit modelling in study. From April 2019 to February 2020 I worked on site in the Philippines as project-in-charge and field engineer, reviewing drawings, inspecting work and keeping site records. I am Melton based, hold a White Card and an Australian driver licence, have full working rights on a Subclass 485 visa until December 2027, and I am open to discussing relocation to Sydney.\n\nThe focus on building inspections, defect assessments and remedial documentation is new to me in paid work; my site background is civil delivery rather than façade remediation.\n\nI have attached my resume and cover letter.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Graduate Civil Engineer role explicitly encourages recent graduates; Bachelor of Civil Engineering matches Marc BSCE.",
+   "Duties include site inspections, defect assessments, technical reports and coordinating with engineers, which overlap his Philippines field and project-in-charge work and drawing review.",
+   "Structural and remedial focus is adjacent to his structural subjects and Revit footing and bridge coursework, though not road or drainage design."
+  ],
+  "gaps": [
+   "No paid remedial or façade experience",
+   "Limited structural design practice beyond study",
+   "Sydney based",
+   "End employer unnamed"
+  ],
+  "match_score": {
+   "percent": 66,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Graduate Civil Engineer role explicitly encourages recent graduates; Bachelor of Civil Engineering matches Marc BSCE.",
+    "Duties include site inspections, defect assessments, technical reports and coordinating with engineers, which overlap his Philippines field and project-in-charge work and drawing review.",
+    "Structural and remedial focus is adjacent to his structural subjects and Revit footing and bridge coursework, though not road or drainage design."
+   ],
+   "caution": "Davies Ross is a recruitment agency for an unnamed Pyrmont remedial consultancy. Ideally 1 to 2 years postgraduate structural experience is preferred. Sydney relocation from Melton."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-11T23:01:18.643Z",
+   "expires_at": "2026-11-11T12:59:59.999Z",
+   "verified_at": "2026-10-12T05:14:00.000Z",
+   "apply_instructions": "Apply on SEEK (advert 95192751). Agency also lists mike@daviesrossconsulting.com.au; do not treat recruiter mail as employer contact.",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How much notice are you required to give your current employer?",
+    "How many years experience in Structural Design do you have?",
+    "Have you worked in a role where you were responsible for authoring and reviewing technical documentation?"
+   ]
+  },
+  "screening_answers": {
+   "Which of the following statements best describes your right to work in Australia?": "I have working rights that allow me to work for any employer (Subclass 485 visa until December 2027).",
+   "What's your expected annual base salary?": "Open to the graduate band for this role; happy to discuss.",
+   "How much notice are you required to give your current employer?": "Immediately available; not currently in a notice period.",
+   "How many years experience in Structural Design do you have?": "No paid structural design role yet. Structural subjects in my civil degree and Revit/AutoCAD structural models in study only.",
+   "Have you worked in a role where you were responsible for authoring and reviewing technical documentation?": "Yes. Site reports, material records and progress reports in Philippines field and project-in-charge roles; drawing review against construction."
+  },
+  "checklist": [
+   "Apply on SEEK job 95192751 with resume and cover letter.",
+   "Use screening answers above; do not invent extra claims.",
+   "Do not email mike@daviesrossconsulting.com.au as a substitute for SEEK unless Marc authorises recruiter contact.",
+   "State 485 working rights clearly if the form options are limited.",
+   "Disclose zero paid structural design years on the experience question."
+  ],
+  "notes": "Agency advert for unnamed end employer. READY_JEREMIE_SEEK.\nEnd employer is not named. mike@daviesrossconsulting.com.au is a recruiter inbox, so contact_confidence stays none and route stays SEEK for Jeremie/Marc. No employer-published hiring inbox for the client firm was found.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-11, closes 2026-11-11). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Michael Forshaw (Recruitment contact (Davies Ross)). Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate Engineer - Remedial role on SEEK.\n• They may ask about: No paid remedial or façade experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Limited structural design practice beyond study → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Sydney based → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-11, closes 2026-11-11). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Michael Forshaw (Recruitment contact (Davies Ross)). Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate Engineer - Remedial role on SEEK.",
+   "They may ask about: No paid remedial or façade experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Limited structural design practice beyond study → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Sydney based → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-12T05:17:17.000Z",
+  "seek_id": "95192751",
+  "duplicate_key": "daviesrossconsultingptyltd|seek:95192751"
+ },
+ {
+  "id": "661468d0-17fa-4f06-a8f0-3d1abafd9811",
+  "key": "manual:661468d0-17fa-4f06-a8f0-3d1abafd9811",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261012T0512Z",
+  "created_at": "2026-10-12T05:17:20.000Z",
+  "updated_at": "2026-10-12T05:17:20.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "9f397f7b-0d07-4d95-844a-a7355fbad73a",
+    "path": "/api/documents/9f397f7b-0d07-4d95-844a-a7355fbad73a",
+    "filename": "Marc_Masarate_Sterling_Infrastructure_QLD_Pty_Ltd_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-12T05:17:22.733Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "82521ad8-d511-4d38-809d-b79e51a4a193",
+    "path": "/api/documents/82521ad8-d511-4d38-809d-b79e51a4a193",
+    "filename": "Marc_Masarate_Sterling_Infrastructure_QLD_Pty_Ltd_Graduate_Engineer_Cover_Letter.pdf",
+    "sha256": "92b04a05a2a402117d799cfe81214e067a057ce350bcac8358d94d53e24f0045",
+    "size_bytes": 50188,
+    "kind": "cover",
+    "uploaded_at": "2026-10-12T05:17:21.512Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Sterling Infrastructure (QLD) Pty Ltd",
+  "role": "Graduate Engineer",
+  "location": "North Rockhampton, Rockhampton & Capricorn Coast QLD",
+  "job_url": "https://www.seek.com.au/job/95194344",
+  "company_url": "https://sterling.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "HR team",
+  "recipient_email": "HR@sterling.com.au",
+  "contact_email": "HR@sterling.com.au",
+  "contact_evidence_url": "https://sterling.com.au/careers",
+  "contact_verified_at": "2026-10-12T05:17:20.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Graduate Engineer Rockhampton application, Marc Darenz Masarate",
+  "email_body": "Hi Sterling HR team,\n\nI am applying for the Graduate Engineer role in your Rockhampton office, advertised on SEEK (job 95194344). Your careers page invites resume and cover letter to this inbox, so I am sending both here.\n\nI hold a Bachelor of Science in Civil Engineering and finished an Advanced Diploma of Civil Construction Design in February 2026, with road geometry, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. From April 2019 to February 2020 I worked on site in the Philippines as project-in-charge engineer and then field engineer, reviewing drawings, doing inspections and quality checks, and coordinating crews, subcontractors and suppliers. I am based in Melton VIC, hold a White Card and an Australian driver licence with transport, have full working rights on a Subclass 485 visa until December 2027, and I am available for site, regional and Central Queensland travel.\n\nThe mix of office and field work on civil asset renewal, inspections, quality documentation and project coordination is the pathway I want. I do not yet hold a Rail Industry Worker card; I am ready to obtain one if required.\n\nCould we talk about the role? I have attached my resume and cover letter.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Graduate title with Bachelor of Civil Engineering or similar, White Card and Class C licence all match Marc (BSCE Philippines, White Card, Australian licence).",
+   "Mix of office and field work on civil asset renewal, project coordination, inspections and quality documentation matches his Advanced Diploma design study and 2019 to 2020 Philippines site roles.",
+   "Central Queensland travel is explicitly allowed in his availability facts, and rail experience is only desirable."
+  ],
+  "gaps": [
+   "No RIW card",
+   "No paid Australian rail project experience",
+   "Rockhampton base / CQ travel"
+  ],
+  "match_score": {
+   "percent": 76,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Graduate title with Bachelor of Civil Engineering or similar, White Card and Class C licence all match Marc (BSCE Philippines, White Card, Australian licence).",
+    "Mix of office and field work on civil asset renewal, project coordination, inspections and quality documentation matches his Advanced Diploma design study and 2019 to 2020 Philippines site roles.",
+    "Central Queensland travel is explicitly allowed in his availability facts, and rail experience is only desirable."
+   ],
+   "caution": "Rail Industry Worker card is desirable and Marc does not hold one yet. Civil and structural design tasks on rail assets will need mentoring. Rockhampton based; Melton to CQ relocation or travel to discuss."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-12T00:25:41.705Z",
+   "expires_at": "2026-11-11T00:25:40.000Z",
+   "verified_at": "2026-10-12T05:13:44.000Z",
+   "apply_instructions": "Apply on SEEK (advert 95194344). Employer careers page also invites resume and cover letter to HR@sterling.com.au.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Confirm SEEK advert 95194344 still open before Marc or Jeremie also applies on SEEK if asked.",
+   "Attach resume PDF and this cover letter PDF.",
+   "Send only to HR@sterling.com.au as published on sterling.com.au/careers.",
+   "Do not use accountsqld@ or accounts@ for applications.",
+   "Note RIW card gap honestly if asked."
+  ],
+  "notes": "Email route uses employer-published HR inbox that accepts resume and cover letter. SEEK apply remains available as backup.\nCareers page checked 12 Oct 2026 AEST: lists no open portal vacancies but explicitly invites resume and cover letter to HR@sterling.com.au. Team page names engineering and QLD civil leaders without published personal emails. Rockhampton office publishes accountsqld@sterling.com.au for accounts only, not applications. SEEK advert 95194344 is the live Graduate Engineer vacancy. Gmail/tracker: no prior Sterling outreach in this tick check.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-12, closes 2026-11-11). Contact: the application inbox HR@sterling.com.au published by the employer (https://sterling.com.au/careers); no personal address was used. Named people seen on employer pages: Daniel McLeish (Director of Engineering & Asset Management); Jakeb Schulte (Civil Operations Manager - Queensland); Fiona Pettigrew (Legal Counsel & Human Resource Lead). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate Engineer role on SEEK.\n• They may ask about: No RIW card → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No paid Australian rail project experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Rockhampton base / CQ travel → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-12, closes 2026-11-11). Contact: the application inbox HR@sterling.com.au published by the employer (https://sterling.com.au/careers); no personal address was used. Named people seen on employer pages: Daniel McLeish (Director of Engineering & Asset Management); Jakeb Schulte (Civil Operations Manager - Queensland); Fiona Pettigrew (Legal Counsel & Human Resource Lead). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate Engineer role on SEEK.",
+   "They may ask about: No RIW card → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No paid Australian rail project experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Rockhampton base / CQ travel → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-12T05:17:20.000Z",
+  "seek_id": "95194344",
+  "duplicate_key": "sterlinginfrastructureqldptyltd|seek:95194344"
+ }
+]

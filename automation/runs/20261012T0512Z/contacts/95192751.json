@@ -1,0 +1,22 @@
+{
+  "company": "Davies Ross Consulting Pty Ltd",
+  "company_url": "https://www.daviesrossconsulting.com.au/",
+  "careers_url": "https://www.seek.com.au/job/95192751",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95192751",
+  "evidence_quote": "Apply via SEEK, email mike@daviesrossconsulting.com.au or contact Michael Forshaw on 0401 724 180 for a confidential discussion.",
+  "contact_confidence": "none",
+  "named_people": [
+    {
+      "name": "Michael Forshaw",
+      "role": "Recruitment contact (Davies Ross)",
+      "email": "mike@daviesrossconsulting.com.au",
+      "evidence_url": "https://www.seek.com.au/job/95192751"
+    }
+  ],
+  "employer_line": "Davies Ross is recruiting a Graduate Structural / Remedial Engineer for an unnamed Pyrmont consultancy working on remedial, fa\u00e7ade and structural rehabilitation projects about 2 to 15 million dollars.",
+  "notes": "End employer is not named. mike@daviesrossconsulting.com.au is a recruiter inbox, so contact_confidence stays none and route stays SEEK for Jeremie/Marc. No employer-published hiring inbox for the client firm was found.",
+  "checked_at": "2026-10-12T05:20:00Z"
+}

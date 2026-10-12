@@ -1,0 +1,31 @@
+{
+  "id": "95168331",
+  "company": "Corplex",
+  "title": "Construction Management Graduate",
+  "location": "Port Melbourne, Melbourne VIC",
+  "url": "https://www.seek.com.au/job/95168331",
+  "listed_at": "2026-10-09",
+  "expires_at": "2026-11-08T05:56:36.000Z",
+  "screening_questions": [],
+  "open": true,
+  "employer_is_agency": false,
+  "apply_email": "",
+  "apply_instructions": "Apply on SEEK (advert 95168331).",
+  "percent": 64,
+  "route": "SEEK",
+  "rationale": [
+    "2027 graduate program for recent graduates in Engineering or related fields matches Marc education level.",
+    "Port Melbourne location is strong for Melton based candidate.",
+    "Rotations through site and project management suit his site background."
+  ],
+  "caution": "Requires Australian or New Zealand Citizenship or Permanent Residency. Marc has Subclass 485 only.",
+  "gaps": [
+    "Not citizen or PR",
+    "Industrial construction rather than civil roads"
+  ],
+  "mandatory_unmet": [
+    "Australian or New Zealand Citizenship or Permanent Residency required"
+  ],
+  "mandatory_unresolved": [],
+  "employer_line": "Corplex runs a 12-month graduate program in Port Melbourne rotating through Safety, Site Management, Project Management and Client Management on industrial construction."
+}

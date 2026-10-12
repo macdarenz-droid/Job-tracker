@@ -1,0 +1,37 @@
+{
+  "id": "95172212",
+  "company": "Allstaff Australia Pty Ltd",
+  "title": "Project Engineer | NSW State Government | Cooma",
+  "location": "Cooma, Tumut, Snowy & Monaro NSW",
+  "url": "https://www.seek.com.au/job/95172212",
+  "listed_at": "2026-10-09",
+  "expires_at": "2026-11-08T07:49:00.000Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a project engineer?",
+    "Which of the following types of infrastructure project do you have experience with?",
+    "Have you completed a qualification in civil engineering?",
+    "Do you have experience delivering road or traffic infrastructure construction or maintenance projects for Australian State, Territory or Local Government, either directly or through a contractor or consultancy?",
+    "Have you personally managed road or traffic infrastructure works, including estimates, work programs and supervision of crews or contractors?"
+  ],
+  "open": true,
+  "employer_is_agency": true,
+  "apply_email": "",
+  "apply_instructions": "Apply on SEEK (advert 95172212).",
+  "percent": 35,
+  "route": "SEEK",
+  "rationale": [
+    "Project Engineer Cooma 900 to 1000/day; senior contract rate.",
+    "Scored against facts.json fit rubric for this tick.",
+    "Not retained for contact research this run."
+  ],
+  "caution": "Project Engineer Cooma 900 to 1000/day; senior contract rate.",
+  "gaps": [
+    "Senior contract day rate experience"
+  ],
+  "mandatory_unmet": [
+    "Senior contract day rate experience"
+  ],
+  "mandatory_unresolved": [],
+  "employer_line": "Allstaff Australia Pty Ltd \u2014 Project Engineer | NSW State Government | Cooma in Cooma, Tumut, Snowy & Monaro NSW."
+}

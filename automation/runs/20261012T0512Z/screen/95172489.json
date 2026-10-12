@@ -1,0 +1,39 @@
+{
+  "id": "95172489",
+  "company": "SFdesign Pty Ltd",
+  "title": "SMP Designer/ Draftsperson",
+  "location": "Bentley, Perth WA",
+  "url": "https://www.seek.com.au/job/95172489",
+  "listed_at": "2026-10-09",
+  "expires_at": "2026-11-08T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a designer?",
+    "Which of the following CAD software do you have experience with?",
+    "What's your expected annual base salary?",
+    "How much notice are you required to give your current employer?",
+    "Do you have mine site experience?",
+    "Have you completed a qualification in engineering drafting / engineering design?",
+    "How many years' experience do you have as a CAD Draftsperson?"
+  ],
+  "open": true,
+  "employer_is_agency": false,
+  "apply_email": "",
+  "apply_instructions": "Apply on SEEK (advert 95172489).",
+  "percent": 38,
+  "route": "SEEK",
+  "rationale": [
+    "SMP Designer Perth; structural mechanical piping not civil roads.",
+    "Scored against facts.json fit rubric for this tick.",
+    "Not retained for contact research this run."
+  ],
+  "caution": "SMP Designer Perth; structural mechanical piping not civil roads.",
+  "gaps": [
+    "SMP discipline mismatch"
+  ],
+  "mandatory_unmet": [
+    "SMP discipline mismatch"
+  ],
+  "mandatory_unresolved": [],
+  "employer_line": "SFdesign Pty Ltd \u2014 SMP Designer/ Draftsperson in Bentley, Perth WA."
+}

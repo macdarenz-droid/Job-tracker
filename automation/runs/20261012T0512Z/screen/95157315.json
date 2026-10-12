@@ -1,0 +1,38 @@
+{
+  "id": "95157315",
+  "company": "Alder Constructions Pty Ltd",
+  "title": "Estimator - Civil Infrastructure",
+  "location": "Brisbane QLD",
+  "url": "https://www.seek.com.au/job/95157315",
+  "listed_at": "2026-10-09",
+  "expires_at": "2026-11-08T12:59:59.999Z",
+  "screening_questions": [
+    "Salary Expectations (in AUD)",
+    "Availability to start",
+    "Visa Status",
+    "Are you willing to undergo a pre-employment medical?",
+    "Do you hold a white card?",
+    "What relevant qualifications and or licences do you currently hold?",
+    "Please name some recent construction projects you have been involved in?"
+  ],
+  "open": true,
+  "employer_is_agency": false,
+  "apply_email": "",
+  "apply_instructions": "Apply on SEEK (advert 95157315).",
+  "percent": 40,
+  "route": "SEEK",
+  "rationale": [
+    "Experienced Civil Estimator Gold Coast.",
+    "Scored against facts.json fit rubric for this tick.",
+    "Not retained for contact research this run."
+  ],
+  "caution": "Experienced Civil Estimator Gold Coast.",
+  "gaps": [
+    "Experienced estimator"
+  ],
+  "mandatory_unmet": [
+    "Experienced estimator"
+  ],
+  "mandatory_unresolved": [],
+  "employer_line": "Alder Constructions Pty Ltd \u2014 Estimator - Civil Infrastructure in Brisbane QLD."
+}

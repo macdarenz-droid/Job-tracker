@@ -1,0 +1,41 @@
+{
+  "id": "95156694",
+  "company": "Quick Up Hoardings",
+  "title": "CAD Drafter / Estimator",
+  "location": "Pyrmont, Sydney NSW",
+  "url": "https://www.seek.com.au/job/95156694",
+  "listed_at": "2026-10-12",
+  "expires_at": "2026-11-11T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a CAD Draftsperson?",
+    "How much notice are you required to give your current employer?",
+    "Do you have experience working on residential construction projects?",
+    "Do you have experience using AutoCAD Civil 3D?",
+    "Do you have Engineering Drawing Interpretation experience?",
+    "Do you have a current Australian driver's licence?",
+    "Do you have CAD Drawing experience?",
+    "Have you completed a qualification in construction?",
+    "How many years' experience do you have as a Site Installer?"
+  ],
+  "open": true,
+  "employer_is_agency": false,
+  "apply_email": "",
+  "apply_instructions": "Apply on SEEK (advert 95156694).",
+  "percent": 45,
+  "route": "SEEK",
+  "rationale": [
+    "CAD Drafter/Estimator hoardings with installation leadership and estimating essentials.",
+    "Scored against facts.json fit rubric for this tick.",
+    "Not retained for contact research this run."
+  ],
+  "caution": "CAD Drafter/Estimator hoardings with installation leadership and estimating essentials.",
+  "gaps": [
+    "Hands-on installation leadership and estimating experience"
+  ],
+  "mandatory_unmet": [
+    "Hands-on installation leadership and estimating experience"
+  ],
+  "mandatory_unresolved": [],
+  "employer_line": "Quick Up Hoardings \u2014 CAD Drafter / Estimator in Pyrmont, Sydney NSW."
+}

@@ -1,0 +1,40 @@
+{
+  "id": "95175867",
+  "company": "FGI Developments",
+  "title": "Project Engineer (Civil/Structural)",
+  "location": "Cairns, Cairns & Far North QLD",
+  "url": "https://www.seek.com.au/job/95175867",
+  "listed_at": "2026-10-09",
+  "expires_at": "2026-11-08T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a project engineer?",
+    "Are you willing to undergo a pre-employment medical check?",
+    "How many years' experience do you have in a quality assurance (QA) role?",
+    "Do you have a current Police Check (National Police Certificate) for employment?",
+    "Have you completed a qualification in engineering?",
+    "Are you a current member of Engineers Australia?",
+    "Are you willing to undergo pre-employment drug and alcohol screening?",
+    "Do you have Engineering Drawing Interpretation experience?"
+  ],
+  "open": true,
+  "employer_is_agency": false,
+  "apply_email": "",
+  "apply_instructions": "Apply on SEEK (advert 95175867).",
+  "percent": 35,
+  "route": "SEEK",
+  "rationale": [
+    "Project Engineer Civil/Structural Cairns at 150 to 170k; senior pay band.",
+    "Scored against facts.json fit rubric for this tick.",
+    "Not retained for contact research this run."
+  ],
+  "caution": "Project Engineer Civil/Structural Cairns at 150 to 170k; senior pay band.",
+  "gaps": [
+    "Senior project engineer salary band"
+  ],
+  "mandatory_unmet": [
+    "Senior project engineer salary band"
+  ],
+  "mandatory_unresolved": [],
+  "employer_line": "FGI Developments \u2014 Project Engineer (Civil/Structural) in Cairns, Cairns & Far North QLD."
+}

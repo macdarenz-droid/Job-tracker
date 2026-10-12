@@ -1,0 +1,30 @@
+{
+  "id": "95193608",
+  "company": "Talent Web Property",
+  "title": "Project Engineer - Civil Construction",
+  "location": "Orchard Hills, Sydney NSW",
+  "url": "https://www.seek.com.au/job/95193608",
+  "listed_at": "2026-10-11",
+  "expires_at": "2026-11-10T23:53:00.000Z",
+  "screening_questions": [],
+  "open": true,
+  "employer_is_agency": true,
+  "apply_email": "",
+  "apply_instructions": "Apply on SEEK (advert 95193608).",
+  "percent": 42,
+  "route": "SEEK",
+  "rationale": [
+    "Experienced Project Engineer for major Western Sydney civil works; not junior.",
+    "Scored against facts.json fit rubric for this tick.",
+    "Not retained for contact research this run."
+  ],
+  "caution": "Experienced Project Engineer for major Western Sydney civil works; not junior.",
+  "gaps": [
+    "Experienced project engineer level"
+  ],
+  "mandatory_unmet": [
+    "Experienced project engineer level"
+  ],
+  "mandatory_unresolved": [],
+  "employer_line": "Talent Web Property \u2014 Project Engineer - Civil Construction in Orchard Hills, Sydney NSW."
+}

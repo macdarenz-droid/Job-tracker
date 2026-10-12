@@ -1,0 +1,36 @@
+{
+  "id": "95202759",
+  "company": "Rain Consulting Pty Ltd",
+  "title": "Project Engineer or Scientist, Stormwater & Water Management Melbourne, hybrid",
+  "location": "Melbourne VIC",
+  "url": "https://www.seek.com.au/job/95202759",
+  "listed_at": "2026-10-12",
+  "expires_at": "2026-11-11T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a project engineer?",
+    "How much notice are you required to give your current employer?",
+    "Have you completed a qualification in environmental engineering?"
+  ],
+  "open": true,
+  "employer_is_agency": false,
+  "apply_email": "",
+  "apply_instructions": "Apply on SEEK (advert 95202759).",
+  "percent": 40,
+  "route": "SEEK",
+  "rationale": [
+    "Stormwater Project Engineer needing 3 to 7 years.",
+    "Scored against facts.json fit rubric for this tick.",
+    "Not retained for contact research this run."
+  ],
+  "caution": "Stormwater Project Engineer needing 3 to 7 years.",
+  "gaps": [
+    "3 to 7 years stormwater experience"
+  ],
+  "mandatory_unmet": [
+    "3 to 7 years stormwater experience"
+  ],
+  "mandatory_unresolved": [],
+  "employer_line": "Rain Consulting Pty Ltd \u2014 Project Engineer or Scientist, Stormwater & Water Management Melbourne, hybrid in Melbourne VIC."
+}

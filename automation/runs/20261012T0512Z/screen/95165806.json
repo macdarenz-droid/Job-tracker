@@ -1,0 +1,32 @@
+{
+  "id": "95165806",
+  "company": "ACCIONA Australia",
+  "title": "Site Engineer - Civil",
+  "location": "Sydney NSW",
+  "url": "https://www.seek.com.au/job/95165806",
+  "listed_at": "2026-10-09",
+  "expires_at": "2026-11-08T04:50:58.000Z",
+  "screening_questions": [],
+  "open": true,
+  "employer_is_agency": false,
+  "apply_email": "",
+  "apply_instructions": "Apply on SEEK (advert 95165806).",
+  "percent": 48,
+  "route": "SEEK",
+  "rationale": [
+    "Site Engineer civil title and BIBO roster match availability for regional work.",
+    "Bachelor engineering requirement is met by BSCE.",
+    "Substation 220kV construction experience and Tier 1 large-project preference are far from Marc background."
+  ],
+  "caution": "Required skills include experience constructing outdoor air insulated substations at 220kV or above. Marc has no substation or transmission project experience.",
+  "gaps": [
+    "No substation construction experience",
+    "No Tier 1 transmission project experience",
+    "Preferable 1 to 3 years postgraduate construction experience"
+  ],
+  "mandatory_unmet": [
+    "Experience constructing outdoor air insulated substations and substations at 220kV or above"
+  ],
+  "mandatory_unresolved": [],
+  "employer_line": "ACCIONA COBRA JV is delivering the Central-West Orana REZ transmission project with energy hubs and substations in regional NSW."
+}

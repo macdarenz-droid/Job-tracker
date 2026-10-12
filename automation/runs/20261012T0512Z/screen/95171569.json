@@ -1,0 +1,30 @@
+{
+  "id": "95171569",
+  "company": "Pacific Energy Ltd",
+  "title": "Draftsperson | Kewdale",
+  "location": "Kewdale, Perth WA",
+  "url": "https://www.seek.com.au/job/95171569",
+  "listed_at": "2026-10-09",
+  "expires_at": "2026-11-08T07:29:00.000Z",
+  "screening_questions": [],
+  "open": true,
+  "employer_is_agency": false,
+  "apply_email": "",
+  "apply_instructions": "Apply on SEEK (advert 95171569).",
+  "percent": 40,
+  "route": "SEEK",
+  "rationale": [
+    "Draftsperson energy Kewdale; not civil infrastructure.",
+    "Scored against facts.json fit rubric for this tick.",
+    "Not retained for contact research this run."
+  ],
+  "caution": "Draftsperson energy Kewdale; not civil infrastructure.",
+  "gaps": [
+    "Energy drafting not civil"
+  ],
+  "mandatory_unmet": [
+    "Energy drafting not civil"
+  ],
+  "mandatory_unresolved": [],
+  "employer_line": "Pacific Energy Ltd \u2014 Draftsperson | Kewdale in Kewdale, Perth WA."
+}

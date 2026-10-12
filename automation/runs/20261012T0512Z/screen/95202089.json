@@ -1,0 +1,37 @@
+{
+  "id": "95202089",
+  "company": "SITZLER Pty Ltd",
+  "title": "Graduate Program 2027 - Adelaide, South Australia",
+  "location": "Unley, Adelaide SA",
+  "url": "https://www.seek.com.au/job/95202089",
+  "listed_at": "2026-10-12",
+  "expires_at": "2026-11-11T03:59:07.000Z",
+  "screening_questions": [
+    "Are you legally entitled to work in Australia?",
+    "As part of our recruitment process, you may be required to attend a pre employment medical, drug & alcohol testing, and/or complete a medical check-list. Are you willing to participate in this?",
+    "Certain roles require a criminal history check to be performed as part of the recruitment process for shortlisted candidates. Please acknowledge that you are aware of this and are willing to participate if needed. ",
+    "Do you hold a current White Card / General Construction Induction Training Card?",
+    "Please detail your minimum salary expectations (including super):"
+  ],
+  "open": true,
+  "employer_is_agency": false,
+  "apply_email": "",
+  "apply_instructions": "Apply on SEEK (advert 95202089).",
+  "percent": 62,
+  "route": "SEEK",
+  "rationale": [
+    "Two-year graduate program for recent engineering graduates matches Marc level after Advanced Diploma completion in February 2026 and BSCE.",
+    "Rotations through construction delivery suit someone with both design study and prior site experience.",
+    "Driver licence and willingness to work on sites are met."
+  ],
+  "caution": "Advert requires Australian Citizenship or Permanent Residency. Preference for citizens; some projects need security clearance. Marc holds a Subclass 485 visa only.",
+  "gaps": [
+    "Not a citizen or PR",
+    "Commercial building focus rather than civil roads"
+  ],
+  "mandatory_unmet": [
+    "Australian Citizenship or Permanent Residency required"
+  ],
+  "mandatory_unresolved": [],
+  "employer_line": "Sitzler runs a two-year graduate program with three structured rotations on commercial construction projects in Adelaide, Darwin and Perth."
+}

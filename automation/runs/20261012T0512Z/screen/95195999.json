@@ -1,0 +1,36 @@
+{
+  "id": "95195999",
+  "company": "SITZLER Pty Ltd",
+  "title": "Site Engineer -SA",
+  "location": "Edinburgh, Adelaide SA",
+  "url": "https://www.seek.com.au/job/95195999",
+  "listed_at": "2026-10-12",
+  "expires_at": "2026-11-11T02:42:17.000Z",
+  "screening_questions": [
+    "Are you legally entitled to work in Australia?",
+    "As part of our recruitment process, you may be required to attend a pre employment medical, drug & alcohol testing, and/or complete a medical check-list. Are you willing to participate in this?",
+    "Certain roles require a criminal history check to be performed as part of the recruitment process for shortlisted candidates. Please acknowledge that you are aware of this and are willing to participate if needed. ",
+    "Do you hold a current White Card / General Construction Induction Training Card?",
+    "Please detail your minimum salary expectations (including super):"
+  ],
+  "open": true,
+  "employer_is_agency": false,
+  "apply_email": "",
+  "apply_instructions": "Apply on SEEK (advert 95195999).",
+  "percent": 55,
+  "route": "SEEK",
+  "rationale": [
+    "Sitzler Site Engineer RAAF Edinburgh; likely experience and possible clearance.",
+    "Scored against facts.json fit rubric for this tick.",
+    "Not retained for contact research this run."
+  ],
+  "caution": "Sitzler Site Engineer RAAF Edinburgh; likely experience and possible clearance.",
+  "gaps": [
+    "Defence site eligibility / experience"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [
+    "Defence site eligibility / experience"
+  ],
+  "employer_line": "SITZLER Pty Ltd \u2014 Site Engineer -SA in Edinburgh, Adelaide SA."
+}

@@ -1,0 +1,35 @@
+{
+  "id": "95165797",
+  "company": "Clifton Productions",
+  "title": "Draftsperson",
+  "location": "Epping, Melbourne VIC",
+  "url": "https://www.seek.com.au/job/95165797",
+  "listed_at": "2026-10-09",
+  "expires_at": "2026-11-08T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a draftsperson?",
+    "How much notice are you required to give your current employer?"
+  ],
+  "open": true,
+  "employer_is_agency": false,
+  "apply_email": "",
+  "apply_instructions": "Apply on SEEK (advert 95165797).",
+  "percent": 50,
+  "route": "SEEK",
+  "rationale": [
+    "Events draftsperson Clifton Productions; intermediate; citizenship/PR wording unclear.",
+    "Scored against facts.json fit rubric for this tick.",
+    "Not retained for contact research this run."
+  ],
+  "caution": "Events draftsperson Clifton Productions; intermediate; citizenship/PR wording unclear.",
+  "gaps": [
+    "Australian Citizenship or Permanent Residency wording"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [
+    "Australian Citizenship or Permanent Residency wording"
+  ],
+  "employer_line": "Clifton Productions \u2014 Draftsperson in Epping, Melbourne VIC."
+}

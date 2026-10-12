@@ -1,0 +1,87 @@
+[
+ {
+  "id": "1dbad1ae-3bcc-4779-9140-df86c1bc671b",
+  "key": "manual:1dbad1ae-3bcc-4779-9140-df86c1bc671b",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261012T0512Z",
+  "created_at": "2026-10-12T05:17:16.000Z",
+  "updated_at": "2026-10-12T05:17:16.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Corplex",
+  "role": "Construction Management Graduate",
+  "location": "Port Melbourne, Melbourne VIC",
+  "job_url": "https://www.seek.com.au/job/95168331",
+  "status": "HELD_MANDATORY_REQUIREMENTS",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "SEEK",
+  "fit": [
+   "2027 graduate program for recent graduates in Engineering or related fields matches Marc education level.",
+   "Port Melbourne location is strong for Melton based candidate.",
+   "Rotations through site and project management suit his site background."
+  ],
+  "gaps": [
+   "Australian or New Zealand Citizenship or Permanent Residency required",
+   "Not citizen or PR",
+   "Industrial construction rather than civil roads"
+  ],
+  "match_score": {
+   "percent": 64,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "2027 graduate program for recent graduates in Engineering or related fields matches Marc education level.",
+    "Port Melbourne location is strong for Melton based candidate.",
+    "Rotations through site and project management suit his site background."
+   ],
+   "caution": "Requires Australian or New Zealand Citizenship or Permanent Residency. Marc has Subclass 485 only."
+  },
+  "notes": "Held by Grok AI: Australian or New Zealand Citizenship or Permanent Residency required",
+  "checked_at": "2026-10-12T05:17:16.000Z",
+  "duplicate_key": "corplex|seek:95168331"
+ },
+ {
+  "id": "ddf34033-9815-4e83-83e5-77b94371abbd",
+  "key": "manual:ddf34033-9815-4e83-83e5-77b94371abbd",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261012T0512Z",
+  "created_at": "2026-10-12T05:17:16.000Z",
+  "updated_at": "2026-10-12T05:17:16.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "SITZLER Pty Ltd",
+  "role": "Graduate Program 2027 - Adelaide, South Australia",
+  "location": "Unley, Adelaide SA",
+  "job_url": "https://www.seek.com.au/job/95202089",
+  "status": "HELD_MANDATORY_REQUIREMENTS",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "SEEK",
+  "fit": [
+   "Two-year graduate program for recent engineering graduates matches Marc level after Advanced Diploma completion in February 2026 and BSCE.",
+   "Rotations through construction delivery suit someone with both design study and prior site experience.",
+   "Driver licence and willingness to work on sites are met."
+  ],
+  "gaps": [
+   "Australian Citizenship or Permanent Residency required",
+   "Not a citizen or PR",
+   "Commercial building focus rather than civil roads"
+  ],
+  "match_score": {
+   "percent": 62,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Two-year graduate program for recent engineering graduates matches Marc level after Advanced Diploma completion in February 2026 and BSCE.",
+    "Rotations through construction delivery suit someone with both design study and prior site experience.",
+    "Driver licence and willingness to work on sites are met."
+   ],
+   "caution": "Advert requires Australian Citizenship or Permanent Residency. Preference for citizens; some projects need security clearance. Marc holds a Subclass 485 visa only."
+  },
+  "notes": "Held by Grok AI: Australian Citizenship or Permanent Residency required",
+  "checked_at": "2026-10-12T05:17:16.000Z",
+  "seek_id": "95202089",
+  "duplicate_key": "sitzlerptyltd|seek:95202089"
+ }
+]

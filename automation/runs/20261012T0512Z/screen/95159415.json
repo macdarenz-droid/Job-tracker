@@ -1,0 +1,39 @@
+{
+  "id": "95159415",
+  "company": "Sabre Engineering Services PTY LTD",
+  "title": "Civil RPEQ Engineer",
+  "location": "Moranbah, Mackay & Coalfields QLD",
+  "url": "https://www.seek.com.au/job/95159415",
+  "listed_at": "2026-10-09",
+  "expires_at": "2026-11-08T02:02:00.000Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "Do you have a current Australian driver's licence?",
+    "How much notice are you required to give your current employer?",
+    "Do you have a current Police Check (National Police Certificate) for employment?",
+    "Are you willing to undergo a pre-employment medical check?",
+    "Do you currently hold active Queensland RPEQ registration? Please provide your registration number and area of engineering registration.",
+    "How many years of civil infrastructure construction experience do you have, and which of the following have you personally overseen or certified: bulk earthworks, rail formation, reinforced concrete bridges and box culverts?",
+    "Where are you currently based, are you available to work a 9 days on, 5 days off roster in Moranbah, and what is your earliest available start date?"
+  ],
+  "open": true,
+  "employer_is_agency": false,
+  "apply_email": "",
+  "apply_instructions": "Apply on SEEK (advert 95159415).",
+  "percent": 30,
+  "route": "SEEK",
+  "rationale": [
+    "Civil RPEQ Engineer Moranbah.",
+    "Scored against facts.json fit rubric for this tick.",
+    "Not retained for contact research this run."
+  ],
+  "caution": "Civil RPEQ Engineer Moranbah.",
+  "gaps": [
+    "RPEQ required"
+  ],
+  "mandatory_unmet": [
+    "RPEQ required"
+  ],
+  "mandatory_unresolved": [],
+  "employer_line": "Sabre Engineering Services PTY LTD \u2014 Civil RPEQ Engineer in Moranbah, Mackay & Coalfields QLD."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "95190452",
+  "company": "FKG Group",
+  "title": "Construction Cadet",
+  "location": "Windsor, Brisbane QLD",
+  "url": "https://www.seek.com.au/job/95190452",
+  "listed_at": "2026-10-11",
+  "expires_at": "2026-11-11T12:59:59.999Z",
+  "screening_questions": [],
+  "open": true,
+  "employer_is_agency": false,
+  "apply_email": "hr@fkg.com.au",
+  "apply_instructions": "Quick Apply on SEEK or email hr@fkg.com.au with CV (advert 95190452).",
+  "percent": 40,
+  "route": "EMAIL",
+  "rationale": [
+    "Cadetship earn while you learn is junior-friendly.",
+    "Requires current enrolment after first year of Construction Management / Urban Development / QS bachelor.",
+    "Marc is not enrolled in those bachelor courses."
+  ],
+  "caution": "Must be currently enrolled and have completed first year of specified bachelor courses.",
+  "gaps": [
+    "Not enrolled in Construction Management bachelor"
+  ],
+  "mandatory_unmet": [
+    "Currently enrolled and completed first year of Bachelor of Construction Management/Urban Development/Quantity Surveying"
+  ],
+  "mandatory_unresolved": [],
+  "employer_line": "FKG Group Construction cadetship in Windsor Brisbane across commercial construction learning pathways."
+}

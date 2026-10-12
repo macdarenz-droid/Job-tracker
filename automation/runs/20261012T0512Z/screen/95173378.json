@@ -1,0 +1,30 @@
+{
+  "id": "95173378",
+  "company": "City of Kalamunda",
+  "title": "Development Engineer",
+  "location": "Kalamunda, Perth WA",
+  "url": "https://www.seek.com.au/job/95173378",
+  "listed_at": "2026-10-09",
+  "expires_at": "2026-11-08T12:59:59.999Z",
+  "screening_questions": [],
+  "open": true,
+  "employer_is_agency": false,
+  "apply_email": "",
+  "apply_instructions": "Apply on SEEK (advert 95173378).",
+  "percent": 50,
+  "route": "SEEK",
+  "rationale": [
+    "City of Kalamunda Development Engineer; municipal experience expected.",
+    "Scored against facts.json fit rubric for this tick.",
+    "Not retained for contact research this run."
+  ],
+  "caution": "City of Kalamunda Development Engineer; municipal experience expected.",
+  "gaps": [
+    "Development engineering experience / eligibility"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [
+    "Development engineering experience / eligibility"
+  ],
+  "employer_line": "City of Kalamunda \u2014 Development Engineer in Kalamunda, Perth WA."
+}

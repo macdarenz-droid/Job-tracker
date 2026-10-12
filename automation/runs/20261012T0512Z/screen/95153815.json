@@ -1,0 +1,30 @@
+{
+  "id": "95153815",
+  "company": "Davidson",
+  "title": "Civil Transport Engineers",
+  "location": "Nerang, Gold Coast QLD",
+  "url": "https://www.seek.com.au/job/95153815",
+  "listed_at": "2026-10-08",
+  "expires_at": "2026-11-07T22:42:00.000Z",
+  "screening_questions": [],
+  "open": true,
+  "employer_is_agency": true,
+  "apply_email": "",
+  "apply_instructions": "Apply on SEEK (advert 95153815).",
+  "percent": 48,
+  "route": "SEEK",
+  "rationale": [
+    "TMR civil transport engineers via Davidson; RPEQ flagged in text.",
+    "Scored against facts.json fit rubric for this tick.",
+    "Not retained for contact research this run."
+  ],
+  "caution": "TMR civil transport engineers via Davidson; RPEQ flagged in text.",
+  "gaps": [
+    "RPEQ / experience level for TMR contract"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [
+    "RPEQ / experience level for TMR contract"
+  ],
+  "employer_line": "Davidson \u2014 Civil Transport Engineers in Nerang, Gold Coast QLD."
+}
