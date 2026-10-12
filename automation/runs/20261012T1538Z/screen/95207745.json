@@ -1,0 +1,32 @@
+{
+  "id": "95207745",
+  "company": "Yellow Iron Fleet",
+  "title": "Civil Project Engineer",
+  "location": "Bendigo, Bendigo, Goldfields & Macedon Ranges VIC",
+  "url": "https://www.seek.com.au/job/95207745",
+  "listed_at": "2026-10-12",
+  "expires_at": "2026-11-11T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a Civil Project Engineer?",
+    "How much notice are you required to give your current employer?",
+    "Have you completed a qualification in civil engineering?"
+  ],
+  "open": true,
+  "employer_is_agency": false,
+  "apply_email": "",
+  "apply_instructions": "",
+  "percent": 45,
+  "route": "SEEK",
+  "rationale": [
+    "Civil Project Engineer on earthworks, haul roads and drainage in Bendigo."
+  ],
+  "caution": "Minimum 3 years civil construction experience required.",
+  "gaps": [],
+  "mandatory_unmet": [
+    "Minimum 3 years' experience in civil construction (Marc has about 1 year, Philippines)"
+  ],
+  "mandatory_unresolved": [],
+  "source": "seek"
+}

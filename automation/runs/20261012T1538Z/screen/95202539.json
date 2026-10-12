@@ -1,0 +1,32 @@
+{
+  "id": "95202539",
+  "company": "SITZLER Pty Ltd",
+  "title": "Graduate Program 2027 - Western Australia",
+  "location": "West Perth, Perth WA",
+  "url": "https://www.seek.com.au/job/95202539",
+  "listed_at": "2026-10-12",
+  "expires_at": "2026-11-11T04:09:05.000Z",
+  "screening_questions": [
+    "Are you legally entitled to work in Australia?",
+    "As part of our recruitment process, you may be required to attend a pre employment medical, drug & alcohol testing, and/or complete a medical check-list. Are you willing to participate in this?",
+    "Certain roles require a criminal history check to be performed as part of the recruitment process for shortlisted candidates. Please acknowledge that you are aware of this and are willing to participate if needed. ",
+    "Do you hold a current White Card / General Construction Induction Training Card?",
+    "Please detail your minimum salary expectations (including super):"
+  ],
+  "open": true,
+  "employer_is_agency": false,
+  "apply_email": "",
+  "apply_instructions": "",
+  "percent": 45,
+  "route": "SEEK",
+  "rationale": [
+    "Sitzler 2027 Graduate Program; strong role level match."
+  ],
+  "caution": "Citizen/PR required.",
+  "gaps": [],
+  "mandatory_unmet": [
+    "Hold Australian Citizenship or Permanent Residency; degree completed within the last two years"
+  ],
+  "mandatory_unresolved": [],
+  "source": "seek"
+}

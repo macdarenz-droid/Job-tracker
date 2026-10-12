@@ -1,0 +1,36 @@
+{
+  "id": "95206941",
+  "company": "Foundation Technologies Australia",
+  "title": "Estimator / scheduler",
+  "location": "Scoresby, Melbourne VIC",
+  "url": "https://www.seek.com.au/job/95206941",
+  "listed_at": "2026-10-12",
+  "expires_at": "2026-11-11T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as an Estimator?",
+    "How much notice are you required to give your current employer?"
+  ],
+  "open": true,
+  "employer_is_agency": false,
+  "apply_email": "",
+  "apply_instructions": "Apply on SEEK (Quick Apply, advert 95206941). Four SEEK screening questions: right to work, salary expectation, years as Estimator, notice period.",
+  "percent": 80,
+  "route": "SEEK",
+  "rationale": [
+    "Entry friendly: asks for a degree (or currently completing) in Civil, Structural or Geotechnical Engineering and says estimating or construction experience is advantageous but not essential; Marc holds a BSCE (2019) and an Advanced Diploma of Civil Construction Design (Feb 2026).",
+    "Duties (review drawings and geotechnical reports, cost estimates, schedules, procurement and resource coordination) match his coursework cost estimates, bills of quantities and AS 1726 study plus 2019 to 2020 site work tracking procurement and materials.",
+    "Scoresby, Melbourne VIC, reachable from Melton with his licence and own transport; direct employer with mentoring from engineers."
+  ],
+  "caution": "Estimating is coursework only (cost estimates and bills of quantities), not a paid estimating role; no screw pile or foundation design experience; no Australian site experience yet.",
+  "gaps": [
+    "Estimating experience is coursework, not commercial",
+    "No screw pile or foundations project experience",
+    "No Australian work experience yet"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "source": "seek",
+  "employer_line": "FTA designs, supplies and installs engineered screw piling systems, with in-house engineering led from its Scoresby head office."
+}

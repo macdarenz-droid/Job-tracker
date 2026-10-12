@@ -1,0 +1,30 @@
+{
+  "id": "95192164",
+  "company": "Prime Build Pty Ltd",
+  "title": "Construction Cadets",
+  "location": "Berkshire Park, Sydney NSW",
+  "url": "https://www.seek.com.au/job/95192164",
+  "listed_at": "2026-10-11",
+  "expires_at": "2026-11-11T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "Are you currently studying?",
+    "Do you own or have regular access to a car?"
+  ],
+  "open": true,
+  "employer_is_agency": false,
+  "apply_email": "",
+  "apply_instructions": "",
+  "percent": 45,
+  "route": "SEEK",
+  "rationale": [
+    "Construction cadets Berkshire Park."
+  ],
+  "caution": "Cadetship for current students or tradespeople.",
+  "gaps": [],
+  "mandatory_unmet": [
+    "Currently studying (cadetship)"
+  ],
+  "mandatory_unresolved": [],
+  "source": "seek"
+}

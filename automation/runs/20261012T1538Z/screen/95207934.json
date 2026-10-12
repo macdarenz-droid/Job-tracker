@@ -1,0 +1,29 @@
+{
+  "id": "95207934",
+  "company": "Richmond Roads Group",
+  "title": "Estimator",
+  "location": "Kunda Park, Sunshine Coast QLD",
+  "url": "https://www.seek.com.au/job/95207934",
+  "listed_at": "2026-10-12",
+  "expires_at": "2026-11-11T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How much notice are you required to give your current employer?"
+  ],
+  "open": true,
+  "employer_is_agency": false,
+  "apply_email": "",
+  "apply_instructions": "",
+  "percent": 40,
+  "route": "SEEK",
+  "rationale": [
+    "Asphalt tender and estimating assistant, Sunshine Coast."
+  ],
+  "caution": "Must be a 3rd or 4th year undergraduate.",
+  "gaps": [],
+  "mandatory_unmet": [
+    "Currently studying 3rd or 4th year civil engineering"
+  ],
+  "mandatory_unresolved": [],
+  "source": "seek"
+}

@@ -1,0 +1,255 @@
+[
+ {
+  "id": "055815f8-3421-4566-bc62-5ae233bc5aa4",
+  "key": "manual:055815f8-3421-4566-bc62-5ae233bc5aa4",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261012T1538Z",
+  "created_at": "2026-10-12T15:44:22.000Z",
+  "updated_at": "2026-10-12T15:44:22.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "e7bbf210-a06c-43d3-8c4c-3031220d8d2b",
+    "path": "/api/documents/e7bbf210-a06c-43d3-8c4c-3031220d8d2b",
+    "filename": "Marc_Masarate_Department_of_Transport_and_Main_Roads_R_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-12T15:44:26.616Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "7f39d694-6622-491b-b711-30610ad34de4",
+    "path": "/api/documents/7f39d694-6622-491b-b711-30610ad34de4",
+    "filename": "Marc_Masarate_Department_of_Transport_and_Main_Roads_R_Project_Coordinator_Cover_Letter.pdf",
+    "sha256": "5653d81e51d07cc6db3492a2fe969b3582166496fcf167209ec88191bfb81e55",
+    "size_bytes": 53161,
+    "kind": "cover",
+    "uploaded_at": "2026-10-12T15:44:25.754Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Department of Transport and Main Roads (RoadTek)",
+  "role": "Project Coordinator",
+  "location": "Winton, Western QLD",
+  "job_url": "https://www.seek.com.au/job/95192411",
+  "company_url": "https://www.tmr.qld.gov.au/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95192411",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Project Coordinator, Winton (QLD/703863/26): Marc Darenz Masarate",
+  "email_body": "Hello RoadTek team,\n\nI am applying for the Project Coordinator role in Winton advertised on SEEK and SmartJobs (QLD/703863/26).\n\nI hold a Bachelor of Science in Civil Engineering and finished an Advanced Diploma of Civil Construction Design in February 2026, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. From 2019 to 2020 I worked on site in the Philippines as project in charge, coordinating 10 to 15 workers each day, and then as a field engineer tracking procurement and materials and preparing progress reports. I am based in Melton VIC, hold a White Card, an Australian driver licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am available for site, regional and FIFO work.\n\nCoordinating crews, subcontractors and suppliers on road works, with support for tendering and estimating, is the work I want to build on. My coordination experience is from the Philippines rather than Australian road crews, and I am open to discussing relocation to Winton.\n\nCould we talk about the role? I've attached my resume and cover letter.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "RoadTek (TMR) Project Coordinator in Winton: plan and coordinate multi-functional crews on civil road infrastructure, coordinate subcontractors and suppliers, short-term programming, risk and quality, assist tendering and estimating.",
+   "Matches Marc's 2019 project-in-charge work coordinating 10 to 15 workers a day and tracking progress, his field engineer work on procurement, material records and progress reports, and coursework cost estimates and bills of quantities.",
+   "Only mandatory item is a current Queensland C class licence or equivalent and ability to travel; Marc holds an Australian driver's licence and is available for regional and Central Queensland travel."
+  ],
+  "gaps": [
+   "Coordination experience is from the Philippines 2019 to 2020, not Australian road works",
+   "No Cert IV Project Management or Frontline Management (desirable only)",
+   "Winton relocation not confirmed by Marc"
+  ],
+  "match_score": {
+   "percent": 64,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "RoadTek (TMR) Project Coordinator in Winton: plan and coordinate multi-functional crews on civil road infrastructure, coordinate subcontractors and suppliers, short-term programming, risk and quality, assist tendering and estimating.",
+    "Matches Marc's 2019 project-in-charge work coordinating 10 to 15 workers a day and tracking progress, his field engineer work on procurement, material records and progress reports, and coursework cost estimates and bills of quantities.",
+    "Only mandatory item is a current Queensland C class licence or equivalent and ability to travel; Marc holds an Australian driver's licence and is available for regional and Central Queensland travel."
+   ],
+   "caution": "OO6 level role at $94,704 to $99,582 that also mentors project staff; Marc's coordination experience is about a year in the Philippines, not Australian road crews. Winton is remote Central West Queensland: relocation is open to discuss only, Marc to confirm. Cert IV Project Management and Frontline Management are desirable and not held."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-11T22:44:30.833Z",
+   "expires_at": "2026-11-11T12:59:59.999Z",
+   "verified_at": "2026-10-12T15:39:06.000Z",
+   "apply_instructions": "SEEK links out to Queensland Government SmartJobs (Job Ad Reference QLD/703863/26). Closes Monday 26 October 2026. Read the role description attachment on SmartJobs and follow its how-to-apply instructions.",
+   "screening_questions": []
+  },
+  "screening_answers": [
+   {
+    "question": "Work rights (if asked on SmartJobs)",
+    "answer": "Subclass 485 visa, full working rights until December 2027. Do not claim citizenship or permanent residency."
+   },
+   {
+    "question": "Queensland C class driver licence or equivalent",
+    "answer": "Holds a current Australian driver licence and own transport (equivalent). Able to travel as required."
+   },
+   {
+    "question": "Aboriginal or Torres Strait Islander (if asked)",
+    "answer": "No"
+   },
+   {
+    "question": "Citizenship (if asked)",
+    "answer": "Philippines"
+   },
+   {
+    "question": "Salary, start date, notice",
+    "answer": "Not on record. Marc to answer."
+   }
+  ],
+  "checklist": [
+   "Open the SEEK link out to SmartJobs and confirm QLD/703863/26 is open (closes Monday 26 October 2026).",
+   "Download the role description and follow its how to apply instructions (resume and cover letter or responses as specified).",
+   "Upload the resume PDF and this cover letter PDF.",
+   "Marc to confirm he is open to relocating to Winton before submitting.",
+   "Press Applied on the tracker after the SmartJobs confirmation email arrives."
+  ],
+  "notes": "Queensland Government SmartJobs portal application. Marc must confirm Winton relocation; the letter only says open to discussing relocation.\nContact research 13 Oct 2026 AEDT: SEEK advert names no contact person; the SmartJobs listing (QLD/703863/26) holds the role description and contact. No email guessed. Route is SmartJobs via the SEEK link out. Gmail in:anywhere search for Transport and Main Roads/RoadTek/smartjobs: only LinkedIn job alerts, no prior application. Tracker already holds an unrelated TMR Engineer (Civil) record as HELD_ELIGIBILITY_UNCONFIRMED (28 Sep 2026); this is a different role with no degree accreditation requirement.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-11, closes 2026-11-11). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Project Coordinator role on SEEK.\n• They may ask about: Coordination experience is from the Philippines 2019 to 2020, not Australian road works → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Cert IV Project Management or Frontline Management (desirable only) → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Winton relocation not confirmed by Marc → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-11, closes 2026-11-11). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Project Coordinator role on SEEK.",
+   "They may ask about: Coordination experience is from the Philippines 2019 to 2020, not Australian road works → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Cert IV Project Management or Frontline Management (desirable only) → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Winton relocation not confirmed by Marc → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-12T15:44:22.000Z",
+  "seek_id": "95192411",
+  "duplicate_key": "departmentoftransportandmainroadsroadtek|seek:95192411"
+ },
+ {
+  "id": "31e70e87-0528-4639-9a1c-ac1d7f8006c7",
+  "key": "manual:31e70e87-0528-4639-9a1c-ac1d7f8006c7",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261012T1538Z",
+  "created_at": "2026-10-12T15:44:28.000Z",
+  "updated_at": "2026-10-12T15:44:28.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "db1f4dd6-b524-43a7-bb96-8d70fde9c130",
+    "path": "/api/documents/db1f4dd6-b524-43a7-bb96-8d70fde9c130",
+    "filename": "Marc_Masarate_Foundation_Technologies_Australia_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-12T15:44:31.110Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "c198c013-699c-43b1-8131-7f808322c2bf",
+    "path": "/api/documents/c198c013-699c-43b1-8131-7f808322c2bf",
+    "filename": "Marc_Masarate_Foundation_Technologies_Australia_Estimator_Scheduler_Cover_Letter.pdf",
+    "sha256": "a92b420d2f4a259e1656749089522f9f2340c06e0fe21135fcea21b65784e492",
+    "size_bytes": 48595,
+    "kind": "cover",
+    "uploaded_at": "2026-10-12T15:44:29.859Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Foundation Technologies Australia",
+  "role": "Estimator / Scheduler",
+  "location": "Scoresby, Melbourne VIC",
+  "job_url": "https://www.seek.com.au/job/95206941",
+  "company_url": "https://ftapile.com.au/",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://ftapile.com.au/contact/",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Estimator / Scheduler, Scoresby: Marc Darenz Masarate",
+  "email_body": "Hello FTA team,\n\nI am applying for the Estimator / Scheduler role in Scoresby advertised on SEEK (job 95206941).\n\nI hold a Bachelor of Science in Civil Engineering and finished an Advanced Diploma of Civil Construction Design in February 2026, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. My coursework included cost estimates, bills of quantities and AS 1726 geotechnical site investigation. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project in charge, tracking procurement and materials and preparing progress reports. I am based in Melton, hold a White Card, a driver licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am available for site, regional and FIFO work.\n\nYour advert says estimating experience is an advantage but not essential, which suits me: my estimating so far is coursework, not a paid role, and I want to learn foundation work properly from your engineers.\n\nCould we arrange a short conversation about the role? I've attached my resume and cover letter.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Entry friendly: asks for a degree (or currently completing) in Civil, Structural or Geotechnical Engineering and says estimating or construction experience is advantageous but not essential; Marc holds a BSCE (2019) and an Advanced Diploma of Civil Construction Design (Feb 2026).",
+   "Duties (review drawings and geotechnical reports, cost estimates, schedules, procurement and resource coordination) match his coursework cost estimates, bills of quantities and AS 1726 study plus 2019 to 2020 site work tracking procurement and materials.",
+   "Scoresby, Melbourne VIC, reachable from Melton with his licence and own transport; direct employer with mentoring from engineers."
+  ],
+  "gaps": [
+   "Estimating experience is coursework, not commercial",
+   "No screw pile or foundations project experience",
+   "No Australian work experience yet"
+  ],
+  "match_score": {
+   "percent": 80,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Entry friendly: asks for a degree (or currently completing) in Civil, Structural or Geotechnical Engineering and says estimating or construction experience is advantageous but not essential; Marc holds a BSCE (2019) and an Advanced Diploma of Civil Construction Design (Feb 2026).",
+    "Duties (review drawings and geotechnical reports, cost estimates, schedules, procurement and resource coordination) match his coursework cost estimates, bills of quantities and AS 1726 study plus 2019 to 2020 site work tracking procurement and materials.",
+    "Scoresby, Melbourne VIC, reachable from Melton with his licence and own transport; direct employer with mentoring from engineers."
+   ],
+   "caution": "Estimating is coursework only (cost estimates and bills of quantities), not a paid estimating role; no screw pile or foundation design experience; no Australian site experience yet."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-12T06:30:33.643Z",
+   "expires_at": "2026-11-11T12:59:59.999Z",
+   "verified_at": "2026-10-12T15:39:25.000Z",
+   "apply_instructions": "Apply on SEEK (Quick Apply, advert 95206941). Four SEEK screening questions: right to work, salary expectation, years as Estimator, notice period.",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as an Estimator?",
+    "How much notice are you required to give your current employer?"
+   ]
+  },
+  "screening_answers": [
+   {
+    "question": "Which of the following statements best describes your right to work in Australia?",
+    "answer": "Temporary visa with full working rights (Subclass 485, valid until December 2027). Pick the SEEK option for a temporary visa with no restriction on work hours; do not choose citizen or permanent resident."
+   },
+   {
+    "question": "What's your expected annual base salary?",
+    "answer": "No salary figure is on record. Marc to choose."
+   },
+   {
+    "question": "How many years' experience do you have as an Estimator?",
+    "answer": "No paid estimating experience (cost estimates and bills of quantities were Advanced Diploma coursework). Choose the lowest option."
+   },
+   {
+    "question": "How much notice are you required to give your current employer?",
+    "answer": "No notice period is on record. Marc to answer."
+   }
+  ],
+  "checklist": [
+   "Confirm SEEK advert 95206941 is still open.",
+   "Attach the resume PDF and this cover letter PDF from the tracker record.",
+   "Answer the four SEEK screening questions as listed; Marc fills salary and notice.",
+   "Do not claim paid estimating or foundation experience.",
+   "Press Applied on the tracker after the SEEK receipt email arrives."
+  ],
+  "notes": "SEEK Quick Apply. No published direct engineering email, so no email is planned.\nContact research 13 Oct 2026 AEDT: employer site publishes only sales@ftapile.com.au (sales inbox, not stated to accept applications) and the 1300 number. A steve@ address appears only on the ICN Gateway supplier directory, a third party listing, so it was not used. No published direct engineering email. Route stays SEEK Quick Apply. Gmail in:anywhere search for Foundation Technologies/ftapile: no prior contact.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-12, closes 2026-11-11). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Travis Yap (Engineering Lead). Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Estimator / Scheduler role on SEEK.\n• They may ask about: Estimating experience is coursework, not commercial → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No screw pile or foundations project experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian work experience yet → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-12, closes 2026-11-11). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Travis Yap (Engineering Lead). Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Estimator / Scheduler role on SEEK.",
+   "They may ask about: Estimating experience is coursework, not commercial → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No screw pile or foundations project experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian work experience yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-12T15:44:28.000Z",
+  "seek_id": "95206941",
+  "duplicate_key": "foundationtechnologiesaustralia|seek:95206941"
+ }
+]
