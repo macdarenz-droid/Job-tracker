@@ -1,0 +1,35 @@
+{
+ "id": "95201826",
+ "company": "Goldstate Homes",
+ "title": "Production Draftsperson",
+ "location": "Wheelers Hill, Melbourne VIC",
+ "url": "https://www.seek.com.au/job/95201826",
+ "listed_at": "2026-10-12T03:52:36.133Z",
+ "expires_at": "2026-11-11T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "How many years' experience do you have as a Production Draftsperson?",
+  "How much notice are you required to give your current employer?"
+ ],
+ "open": true,
+ "employer_is_agency": false,
+ "apply_email": "",
+ "apply_instructions": "Apply on SEEK.",
+ "percent": 42,
+ "route": "SEEK",
+ "rationale": [
+  "Melbourne production drafting role using Revit; Marc has coursework Revit.",
+  "Residential volume drafting rather than civil infrastructure design.",
+  "Advert requires at least 3 years as a production draftsperson."
+ ],
+ "caution": "Essential 3+ years production draftsperson experience in volume or custom residential building; intermediate to advanced Revit.",
+ "gaps": [
+  "No residential production drafting experience",
+  "Revit is academic"
+ ],
+ "mandatory_unmet": [
+  "At least 3 years demonstrated experience as a production draftsperson in volume or custom residential building"
+ ],
+ "mandatory_unresolved": [],
+ "employer_line": "Goldstate Homes in Wheelers Hill prepares production and working drawings in Revit for investment homes, dual occupancies and related residential products."
+}

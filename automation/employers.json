@@ -40,12 +40,11 @@
   },
   "Calibre Group": {
    "careers_url": "https://www.livehire.com/careers/calibre/jobs",
-   "checked_at": "2026-10-10",
+   "checked_at": "2026-10-12",
    "open_junior_roles": [
-    "Graduate Engineer - Urban Development, Sunshine Coast (LiveHire 9ET7B)",
-    "Graduate Engineer - Roads & Highways, Sunshine Coast (YMY8M, already READY)"
+    "Graduate Engineer - Roads & Highways (already READY on tracker)"
    ],
-   "notes": "Calibre still recruits under its own brand on LiveHire (earlier WSP redirect note superseded). LiveHire board is behind Cloudflare for headless Chrome; job pages readable with WebFetch. 9ET7B blocked by tracker guard (same employer READY since 3 Oct). Drafter roles need transport drafting experience. Nick Mower named as contact on drafter adverts (information only)."
+   "notes": "20261012T2026Z employers rotation: LiveHire board JS-heavy/curl shell; tracker already has READY Graduate Engineer Roads & Highways since 3 Oct 2026 within repeat_block. No new junior record."
   },
   "Winslow Constructors": {
    "careers_url": "https://winslow.com.au/work-with-us/graduate-program",
@@ -213,15 +212,18 @@
    "notes": "Victoria offsite 20261002T0012Z: careers EOI URL already on tracker (PLATFORM_BLOCKED); skipped duplicate."
   },
   "Westera Partners": {
-   "careers_url": "https://www.westerapartners.com.au/careers",
-   "checked_at": "2026-10-02",
-   "open_junior_roles": [],
-   "notes": "Victoria offsite 20261002T0012Z: graduate careers URL already PREPARED_NOT_SENT on tracker; skipped duplicate."
+   "careers_url": "https://www.westerapartners.com.au/careers/",
+   "checked_at": "2026-10-12",
+   "open_junior_roles": [
+    "Graduate Program standing (email HR@westerapartners.com.au)"
+   ],
+   "notes": "20261012T2026Z: Senior Civil Design Engineer Sunshine Coast and Structural Drafter Brisbane listed (experience roles). Graduate Program still invites email to HR@westerapartners.com.au. Tracker already PREPARED_NOT_SENT for graduate pathway. No new record."
   },
   "Bornhorst + Ward": {
    "careers_url": "https://www.bornhorstward.com.au/careers",
-   "checked_at": "2026-10-02",
-   "notes": "Victoria offsite 20261002T0012Z: undergraduate closed; cadet opens early 2027; graduate pathway already READY_FOR_JEREMIE on tracker."
+   "checked_at": "2026-10-12",
+   "notes": "20261012T2026Z: Undergraduate Placement 2026/27 closed; Cadet Drafter applications open early 2027; Graduate Program still accepts cover letter and resume via site form. Tracker already has READY_FOR_JEREMIE graduate pathway (12 Sep 2026). No new record.",
+   "open_junior_roles": []
   },
   "DTM Geocivil Consulting": {
    "company_url": "https://dtmgeocivil.com.au/",
@@ -233,7 +235,7 @@
   "Diona": {
    "careers_url": "https://www.livehire.com/careers/dionaptyltd/job/FKQN4/SXI2MWAGZX/graduate-engineer",
    "checked_at": "2026-10-02",
-   "notes": "Graduate Engineer Brisbane LiveHire URL returned 404 this tick; Site/Project Engineer ads require 2–5 years",
+   "notes": "Graduate Engineer Brisbane LiveHire URL returned 404 this tick; Site/Project Engineer ads require 2\u20135 years",
    "open_junior_roles": []
   },
   "Abergeldie": {
@@ -245,7 +247,7 @@
   "Daracon": {
    "careers_url": "https://daracon.com.au/careers/tertiary-pathway",
    "checked_at": "2026-10-02",
-   "notes": "Cadet pathway page only (labourer→cadet→graduate while studying); no dated open graduate vacancy verified",
+   "notes": "Cadet pathway page only (labourer\u2192cadet\u2192graduate while studying); no dated open graduate vacancy verified",
    "open_junior_roles": []
   },
   "Ertech": {
@@ -289,14 +291,9 @@
   "Northrop Consulting Engineers": {
    "careers_url": "https://northrop.com.au/careers/",
    "last_checked": "2026-10-07",
-   "notes": "JobAdder widget (key AU5_aty64zcsgwqe7ejjkxrkd4xo64) lists 15 roles; the only cadet/trainee civil-structural role is Trainee Structural Drafter (Newcastle team, TAFE traineeship aimed at school leavers/TAFE starters), already in the tracker by URL. Civil Engineer roles (Melbourne 926674, Sydney, Newcastle) want 3-5 yrs post-grad plus a degree; rest are senior or non-civil.",
-   "open_junior_roles": [
-    {
-     "title": "Trainee Structural Drafter (Newcastle; Cadet/Trainee, posted 10 Sep 2026)",
-     "url": "https://northrop.com.au/careers/?ja-job=924064"
-    }
-   ],
-   "checked_at": "2026-10-07"
+   "notes": "20261012T2026Z: careers EOI Tell Us About You still open; tracker already has READY_JEREMIE_EMPLOYER_FORM EOI since 2 Oct 2026. Grad civil Newcastle/Canberra listings elsewhere closed or citizen/PR pathways. No new record.",
+   "open_junior_roles": [],
+   "checked_at": "2026-10-12"
   },
   "Pensar": {
    "careers_url": "https://pensar.elmotalent.com.au/careers/portal/jobs",
@@ -431,9 +428,11 @@
   },
   "Osborn Consulting Engineers": {
    "careers_url": "https://www.osbornconsulting.com.au/peopleandcareers",
-   "checked_at": "2026-10-04",
-   "open_junior_roles": [],
-   "notes": "Graduates/Undergraduates invited; admin@osbornconsulting.com.au published. Blocked this tick: prior EOI_SENT/SENT on same careers URL."
+   "checked_at": "2026-10-12",
+   "open_junior_roles": [
+    "Graduates / Undergraduates standing"
+   ],
+   "notes": "20261012T2026Z: Graduates/Undergraduates still invited; apply admin@osbornconsulting.com.au. Civil Designer/Drafter Ipswich May 2025 contract is elapsed. Tracker already SENT/EOI_SENT for junior EOI. No new record."
   },
   "Alluvium Consulting": {
    "careers_url": "https://alluvium.com/careers/",
@@ -621,12 +620,11 @@
   },
   "SMEC Australia": {
    "careers_url": "https://surbanajurong.wd3.myworkdayjobs.com/en-US/careersatsmec",
-   "checked_at": "2026-10-07",
+   "checked_at": "2026-10-12",
    "open_junior_roles": [
-    "Graduate Civil Engineer, Rail & Metro Melbourne JR118137 (already READY in tracker)",
-    "Graduate Engineer - Water Infrastructure Traralgon JR118762 (needs civil graduate within 2 years; not met)"
+    "Graduate Civil Engineer Rail & Metro JR118137 (already READY)"
    ],
-   "notes": "Employers rotation 20261007T0510Z."
+   "notes": "20261012T2026Z: Workday RSS/HTML shell; existing READY Graduate Civil Engineer Rail & Metro on tracker since 30 Sep 2026. No new record."
   },
   "Laing O'Rourke": {
    "careers_url": "https://careers.laingorourke.com.au/early-talent",
@@ -880,7 +878,7 @@
     {
      "name": "Diona",
      "url": "https://www.livehire.com/careers/dionaptyltd/job/FKQN4/SXI2MWAGZX/graduate-engineer",
-     "result": "Graduate Engineer Brisbane LiveHire URL returned 404 this tick; Site/Project Engineer ads require 2–5 years"
+     "result": "Graduate Engineer Brisbane LiveHire URL returned 404 this tick; Site/Project Engineer ads require 2\u20135 years"
     },
     {
      "name": "Abergeldie",
@@ -890,7 +888,7 @@
     {
      "name": "Daracon",
      "url": "https://daracon.com.au/careers/tertiary-pathway",
-     "result": "Cadet pathway page only (labourer→cadet→graduate while studying); no dated open graduate vacancy verified"
+     "result": "Cadet pathway page only (labourer\u2192cadet\u2192graduate while studying); no dated open graduate vacancy verified"
     },
     {
      "name": "Ertech",
@@ -974,7 +972,7 @@
     "GHD Grad Civil Structural Drafters Melbourne (Citizen/PR + closed)",
     "DTM Geocivil careers (no open roles; speculative PREPARED to info@dtmgeocivil.com.au)"
    ],
-   "notes": "Councils_government rotation. SEEK d3→d7→d14 widen. Published Global Group READY_SEEK + DTM speculative PREPARED + Blacktown HELD."
+   "notes": "Councils_government rotation. SEEK d3\u2192d7\u2192d14 widen. Published Global Group READY_SEEK + DTM speculative PREPARED + Blacktown HELD."
   },
   {
    "run_id": "20261003T2118Z",
@@ -1022,7 +1020,7 @@
      "result": "Grad program open; university recent-grad / degree recency unresolved; not published this tick"
     }
    ],
-   "notes": "Employers rotation. SEEK d3→d7→d14 max80 all already screened. Open-web: DOF READY + GPA HELD. Gmail send skipped (create_draft only). browse.py trust CA permission denied; CHROME_BIN set."
+   "notes": "Employers rotation. SEEK d3\u2192d7\u2192d14 max80 all already screened. Open-web: DOF READY + GPA HELD. Gmail send skipped (create_draft only). browse.py trust CA permission denied; CHROME_BIN set."
   },
   {
    "run_id": "20261004T0719Z",
@@ -1034,7 +1032,7 @@
     "Open-web: Egis Graduate Civil Engineer 2027 Norwest (DUP recent outreach same employer Rail READY 2026-10-01)",
     "Open-web: Osborn Consulting graduates EOI (DUP prior EOI_SENT/SENT on same careers URL)",
     "Open-web: BG&E Graduate Way early-careers EOI (READY_JEREMIE_EMPLOYER_PORTAL published)",
-    "SEEK widen d3→d7→d14 max80: never-screened junior civil exhausted or mandatory fails; published HELD Aptus mid/senior, NOTAZ 3yr drafter, Roesner 3yr drafter"
+    "SEEK widen d3\u2192d7\u2192d14 max80: never-screened junior civil exhausted or mandatory fails; published HELD Aptus mid/senior, NOTAZ 3yr drafter, Roesner 3yr drafter"
    ],
    "notes": "Councils_government rotation. SEEK widen all steps. Published BG&E READY + 3 HELD. Speculative Osborn blocked prior outreach. Gmail send held: no accessible canonical-journal lease on this box (CODEX hold-sending rule). browse.py trust skipped (CA bundle perms)."
   },
@@ -1062,11 +1060,11 @@
    "rotation": "councils_government",
    "checked_at": "2026-10-04T17:29:30Z",
    "sources": [
-    "SEEK sweep daterange 3→7→14 max80 (widening ladder); digest 24 never-screened after prior-screen skip",
-    "Parkes Shire Council Cadet Engineer ApplyNow PSC2222600 (close 11 Oct 2026) — skipped held publish: employer already has HELD Water and Wastewater Trainee",
-    "Mott MacDonald Grad Civil/Geotech Transport Melbourne — blocked recent outreach Civil Drafter READY 2026-09-12",
-    "Hansen Yuncken Construction Cadets Sydney — under threshold (must be current 2nd/3rd year student)",
-    "careers.vic / Melton MEL1888 / Wyndham / Symal Ignite / Acciona Grad 2027 — closed, already tracked, or citizenship/PR",
+    "SEEK sweep daterange 3\u21927\u219214 max80 (widening ladder); digest 24 never-screened after prior-screen skip",
+    "Parkes Shire Council Cadet Engineer ApplyNow PSC2222600 (close 11 Oct 2026) \u2014 skipped held publish: employer already has HELD Water and Wastewater Trainee",
+    "Mott MacDonald Grad Civil/Geotech Transport Melbourne \u2014 blocked recent outreach Civil Drafter READY 2026-09-12",
+    "Hansen Yuncken Construction Cadets Sydney \u2014 under threshold (must be current 2nd/3rd year student)",
+    "careers.vic / Melton MEL1888 / Wyndham / Symal Ignite / Acciona Grad 2027 \u2014 closed, already tracked, or citizenship/PR",
     "GTE Employment Services Junior Designer/Estimator SEEK 95023805 PREPARED_NOT_SENT (recruitment@gteaustralia.com from advert)",
     "BAE Systems 2027 Engineering Graduate Program HELD_MANDATORY_REQUIREMENTS (Australian citizenship)"
    ],
@@ -1725,6 +1723,43 @@
    ],
    "updated": [
     "Mildura Design Engineering Officer: PREPARED_NOT_SENT to HELD_ELIGIBILITY_UNCONFIRMED"
+   ]
+  },
+  {
+   "run_id": "20261012T2026Z",
+   "rotation": "employers",
+   "checked_at": "2026-10-12T20:39:12Z",
+   "checked": [
+    {
+     "name": "Calibre Group",
+     "url": "https://www.livehire.com/careers/calibre/jobs",
+     "result": "20261012T2026Z employers rotation: LiveHire board JS-heavy/curl shell; tracker already has READY Graduate Engineer Roads & Highways since 3 Oct 2026 within repe"
+    },
+    {
+     "name": "SMEC Australia",
+     "url": "https://surbanajurong.wd3.myworkdayjobs.com/en-US/careersatsmec",
+     "result": "20261012T2026Z: Workday RSS/HTML shell; existing READY Graduate Civil Engineer Rail & Metro on tracker since 30 Sep 2026. No new record."
+    },
+    {
+     "name": "Northrop Consulting Engineers",
+     "url": "https://northrop.com.au/careers/",
+     "result": "20261012T2026Z: careers EOI Tell Us About You still open; tracker already has READY_JEREMIE_EMPLOYER_FORM EOI since 2 Oct 2026. Grad civil Newcastle/Canberra li"
+    },
+    {
+     "name": "Bornhorst + Ward",
+     "url": "https://www.bornhorstward.com.au/careers",
+     "result": "20261012T2026Z: Undergraduate Placement 2026/27 closed; Cadet Drafter applications open early 2027; Graduate Program still accepts cover letter and resume via s"
+    },
+    {
+     "name": "Westera Partners",
+     "url": "https://www.westerapartners.com.au/careers/",
+     "result": "20261012T2026Z: Senior Civil Design Engineer Sunshine Coast and Structural Drafter Brisbane listed (experience roles). Graduate Program still invites email to H"
+    },
+    {
+     "name": "Osborn Consulting Engineers",
+     "url": "https://www.osbornconsulting.com.au/peopleandcareers",
+     "result": "20261012T2026Z: Graduates/Undergraduates still invited; apply admin@osbornconsulting.com.au. Civil Designer/Drafter Ipswich May 2025 contract is elapsed. Tracke"
+    }
    ]
   }
  ],

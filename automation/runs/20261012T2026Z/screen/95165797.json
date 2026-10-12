@@ -1,0 +1,36 @@
+{
+ "id": "95165797",
+ "company": "Clifton Productions",
+ "title": "Draftsperson",
+ "location": "Epping, Melbourne VIC",
+ "url": "https://www.seek.com.au/job/95165797",
+ "listed_at": "2026-10-09T04:51:31.126Z",
+ "expires_at": "2026-11-08T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "What's your expected annual base salary?",
+  "How many years' experience do you have as a draftsperson?",
+  "How much notice are you required to give your current employer?"
+ ],
+ "open": true,
+ "employer_is_agency": false,
+ "apply_email": "",
+ "apply_instructions": "Apply on SEEK (advert 95165797). National drafting team is based at Warwick Farm Sydney; head office Melbourne.",
+ "percent": 65,
+ "route": "SEEK",
+ "rationale": [
+  "Intermediate AutoCAD 2D/3D drafting role with training provided; Marc has AutoCAD from Advanced Diploma coursework.",
+  "Melbourne head office / Epping listing; temporary event structures rather than civil roads.",
+  "Advert lists Australian Citizenship or Permanent Residency with a valid working visa; Marc holds a Subclass 485 visa only."
+ ],
+ "caution": "Eligibility wording asks for Australian Citizenship or Permanent Residency. Event staging structures, not civil infrastructure.",
+ "gaps": [
+  "No event or temporary-structure drafting experience",
+  "AutoCAD experience is academic"
+ ],
+ "mandatory_unmet": [
+  "Australian Citizenship or Permanent Residency (advert wording)"
+ ],
+ "mandatory_unresolved": [],
+ "employer_line": "Clifton Productions drafts concert staging, temporary seating and temporary structures; the national drafting team sits at Warwick Farm with Melbourne head office support, and the advert says training is provided."
+}

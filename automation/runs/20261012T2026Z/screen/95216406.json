@@ -1,0 +1,31 @@
+{
+ "id": "95216406",
+ "company": "Department of Transport and Main Roads",
+ "title": "Designer (Civil)",
+ "location": "Rockhampton, Rockhampton & Capricorn Coast QLD",
+ "url": "https://www.seek.com.au/job/95216406",
+ "listed_at": "2026-10-12T14:42:09.000Z",
+ "expires_at": "2026-10-27T14:42:00.000Z",
+ "screening_questions": [],
+ "open": true,
+ "employer_is_agency": false,
+ "apply_email": "",
+ "apply_instructions": "SEEK link-out to Queensland SmartJobs (QLD/703917/26). Closes Tuesday 27 October 2026.",
+ "percent": 48,
+ "route": "EMPLOYER_PORTAL",
+ "rationale": [
+  "Civil design using AutoCAD and 12d on transport infrastructure matches study discipline.",
+  "Rockhampton/Central Queensland location fits Marc's FIFO and regional availability.",
+  "PO3 Designer level and Sydney Accord degree wording sit above graduate entry."
+ ],
+ "caution": "Minimum three-year Sydney Accord accredited engineering degree or recognised equivalent; PO3 experienced designer level. Marc's Advanced Diploma and Philippines BSCE are not confirmed as meeting that bar.",
+ "gaps": [
+  "12d Model not on Marc's software list",
+  "No Australian transport infrastructure design experience"
+ ],
+ "mandatory_unmet": [
+  "Minimum three-year Sydney Accord accredited engineering degree (or recognised equivalent) for PO3 Designer (Civil); Marc's Advanced Diploma and Philippines BSCE are not verified as meeting that requirement"
+ ],
+ "mandatory_unresolved": [],
+ "employer_line": "TMR Technical Services in Rockhampton seeks a PO3 Designer (Civil) to develop and review transport design models in 12d Model and AutoCAD and support Central Queensland infrastructure planning and delivery."
+}

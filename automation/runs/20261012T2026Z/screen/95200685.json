@@ -1,0 +1,30 @@
+{
+ "id": "95200685",
+ "company": "Bega Valley Shire Council",
+ "title": "Engineer Cadet",
+ "location": "Bega, Wollongong, Illawarra & South Coast NSW",
+ "url": "https://www.seek.com.au/job/95200685",
+ "listed_at": "2026-10-12T03:27:05.364Z",
+ "expires_at": "2026-11-11T12:59:59.999Z",
+ "screening_questions": [],
+ "open": true,
+ "employer_is_agency": false,
+ "apply_email": "",
+ "apply_instructions": "Apply on SEEK / council careers.",
+ "percent": 40,
+ "route": "SEEK",
+ "rationale": [
+  "Cadet pathway through Infrastructure Directorate is entry level.",
+  "Requires undertaking an undergraduate Engineering (honours) or related qualification while working.",
+  "Marc has completed Advanced Diploma and BSCE; he is not enrolling in a new undergraduate Engineering (honours) cadet study path."
+ ],
+ "caution": "Emerging Talent Program is built around concurrent undergraduate study with paid study leave.",
+ "gaps": [
+  "Not applying as a new undergraduate cadet"
+ ],
+ "mandatory_unmet": [
+  "Must undertake an undergraduate qualification in Engineering (honours) or a related discipline as part of Council's Emerging Talent Program"
+ ],
+ "mandatory_unresolved": [],
+ "employer_line": "Bega Valley Shire Council Emerging Talent Program combines undergraduate engineering study with rotations across Works and Projects, Water and Sewer, Asset Management and Design."
+}

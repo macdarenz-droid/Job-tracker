@@ -1,0 +1,35 @@
+{
+ "id": "95137066",
+ "company": "Entire",
+ "title": "Designer / Draftsperson",
+ "location": "South Melbourne, Melbourne VIC",
+ "url": "https://www.seek.com.au/job/95137066",
+ "listed_at": "2026-10-08T04:19:59.845Z",
+ "expires_at": "2026-11-07T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "What's your expected annual base salary?",
+  "How many years' experience do you have as a draftsperson?",
+  "How much notice are you required to give your current employer?",
+  "Are you willing to undergo pre-employment drug and alcohol screening?"
+ ],
+ "open": true,
+ "employer_is_agency": false,
+ "apply_email": "",
+ "apply_instructions": "Apply on SEEK (advert 95137066). Company also notes careers pathway; formal route is SEEK.",
+ "percent": 72,
+ "route": "SEEK",
+ "rationale": [
+  "Entry-friendly Designer/Draftsperson in Melbourne with Revit and AutoCAD essential; Marc has AutoCAD, Civil 3D and Revit from Advanced Diploma coursework.",
+  "Advert welcomes recent graduates and career changers and accepts a valid Australian work visa; Marc holds Subclass 485 rights to December 2027.",
+  "Civil drafting experience listed as acceptable background; fire protection is taught on the job so the honest limit is no fire-protection drafting yet."
+ ],
+ "caution": "Role is fire-protection documentation, not civil roads or earthworks. Revit proficiency is essential; Marc's Revit is coursework-level.",
+ "gaps": [
+  "No fire-protection drafting experience yet (employer trains)",
+  "Revit experience is academic rather than production"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "employer_line": "Entire's Fire Protection team in South Melbourne turns briefs into technical documentation for fire systems on Melbourne building projects and trains new designers in the standards."
+}

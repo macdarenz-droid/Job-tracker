@@ -1,0 +1,131 @@
+[
+ {
+  "id": "212ea896-910f-495c-8791-4dca3987a2e4",
+  "key": "manual:212ea896-910f-495c-8791-4dca3987a2e4",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261012T2026Z",
+  "created_at": "2026-10-12T20:36:01.000Z",
+  "updated_at": "2026-10-12T20:36:01.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "a9fbcd00-a20a-49f8-8e57-047270d98b76",
+    "path": "/api/documents/a9fbcd00-a20a-49f8-8e57-047270d98b76",
+    "filename": "Marc_Masarate_Entire_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-12T20:36:03.839Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "f32c0d7a-e84a-4cd1-9a4d-98f6c392b446",
+    "path": "/api/documents/f32c0d7a-e84a-4cd1-9a4d-98f6c392b446",
+    "filename": "Marc_Masarate_Entire_Designer_Draftsperson_Cover_Letter.pdf",
+    "sha256": "581a4f607faa23e5c98c00c5d058b0a05865b848d899dbeabefb06368f4c99b8",
+    "size_bytes": 53055,
+    "kind": "cover",
+    "uploaded_at": "2026-10-12T20:36:02.582Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Entire",
+  "role": "Designer / Draftsperson",
+  "location": "South Melbourne, Melbourne VIC",
+  "job_url": "https://www.seek.com.au/job/95137066",
+  "company_url": "https://www.entire.com.au/",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95137066",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Designer / Draftsperson (South Melbourne): Marc Darenz Masarate",
+  "email_body": "Hello Entire hiring team,\n\nI am applying for the Designer / Draftsperson role in your Fire Protection team in South Melbourne, advertised on SEEK (job 95137066).\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026 with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD, and I also used Revit for a pedestrian Warren truss bridge model in that course. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project in charge. I am based in Melton VIC, hold a White Card, an Australian driver licence and my own transport, and have full working rights to December 2027 on a 485 visa.\n\nYour advert says fire protection experience is not required if the candidate brings Revit and AutoCAD and a sharp eye for detail. My Revit and AutoCAD are from study rather than production fire drafting, and I am ready to learn your standards on the job.\n\nCould we talk about the role? I've attached my resume and cover letter.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Entry-friendly Designer/Draftsperson in Melbourne with Revit and AutoCAD essential; Marc has AutoCAD, Civil 3D and Revit from Advanced Diploma coursework.",
+   "Advert welcomes recent graduates and career changers and accepts a valid Australian work visa; Marc holds Subclass 485 rights to December 2027.",
+   "Civil drafting experience listed as acceptable background; fire protection is taught on the job so the honest limit is no fire-protection drafting yet."
+  ],
+  "gaps": [
+   "No fire-protection drafting experience yet (employer trains)",
+   "Revit experience is academic rather than production"
+  ],
+  "match_score": {
+   "percent": 72,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Entry-friendly Designer/Draftsperson in Melbourne with Revit and AutoCAD essential; Marc has AutoCAD, Civil 3D and Revit from Advanced Diploma coursework.",
+    "Advert welcomes recent graduates and career changers and accepts a valid Australian work visa; Marc holds Subclass 485 rights to December 2027.",
+    "Civil drafting experience listed as acceptable background; fire protection is taught on the job so the honest limit is no fire-protection drafting yet."
+   ],
+   "caution": "Role is fire-protection documentation, not civil roads or earthworks. Revit proficiency is essential; Marc's Revit is coursework-level."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-08T04:19:59.845Z",
+   "expires_at": "2026-11-07T12:59:59.999Z",
+   "verified_at": "2026-10-12T20:36:01.000Z",
+   "apply_instructions": "Apply on SEEK (advert 95137066). Company also notes careers pathway; formal route is SEEK.",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a draftsperson?",
+    "How much notice are you required to give your current employer?",
+    "Are you willing to undergo pre-employment drug and alcohol screening?"
+   ]
+  },
+  "screening_answers": [
+   {
+    "question": "Which of the following statements best describes your right to work in Australia?",
+    "answer": "Subclass 485 visa with full working rights until December 2027. Do not claim citizenship or permanent residency."
+   },
+   {
+    "question": "What's your expected annual base salary?",
+    "answer": "Not on record. Marc to answer."
+   },
+   {
+    "question": "How many years' experience do you have as a draftsperson?",
+    "answer": "Drafting and design documentation through Advanced Diploma coursework (AutoCAD, Civil 3D, Revit). No paid commercial drafting role yet. Site coordination experience in the Philippines 2019 to 2020."
+   },
+   {
+    "question": "How much notice are you required to give your current employer?",
+    "answer": "Not on record. Marc to answer (available; confirm notice if any current work)."
+   },
+   {
+    "question": "Are you willing to undergo pre-employment drug and alcohol screening?",
+    "answer": "Yes. Willing to undergo applicable pre-employment checks."
+   }
+  ],
+  "checklist": [
+   "Open https://www.seek.com.au/job/95137066 and confirm the Designer / Draftsperson advert is still open.",
+   "Upload Marc_Masarate_Entire_Resume.pdf and the cover letter PDF from this pack.",
+   "Answer SEEK screening: work rights 485 to Dec 2027; draftsperson experience as coursework plus Philippines site work; D&A screening Yes; salary and notice Marc to confirm.",
+   "Do not claim fire-protection drafting experience or commercial Revit production work.",
+   "Press Applied on the tracker after the SEEK successfully submitted receipt arrives."
+  ],
+  "notes": "SEEK apply only this tick. reception@entire.com.au appears on the careers page as general contact, not as an applications inbox, so no email send.\nSEEK is the advertised apply route. No published named engineering or drafting contact found on a quick public check this tick; prepare SEEK pack for Jeremie/Marc.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed date not shown, closes 2026-11-07). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Designer / Draftsperson role on SEEK.\n• They may ask about: No fire-protection drafting experience yet (employer trains) → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Revit experience is academic rather than production → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed date not shown, closes 2026-11-07). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Designer / Draftsperson role on SEEK.",
+   "They may ask about: No fire-protection drafting experience yet (employer trains) → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Revit experience is academic rather than production → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-12T20:36:01.000Z",
+  "duplicate_key": "entire|seek:95137066"
+ }
+]
