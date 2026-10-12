@@ -1,0 +1,34 @@
+[
+ {
+  "id": "jca-grad",
+  "company": "JCA Land Consultants",
+  "title": "Graduate Design Engineer",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (Graduate Civil Engineer · READY_FOR_JEREMIE · 2026-09-28)",
+   "notes": []
+  }
+ },
+ {
+  "id": "winslow-bendigo",
+  "company": "Winslow",
+  "title": "Graduate Civil Engineer - Bendigo (Local Projects)",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (Undergraduate/Graduate Civil Engineer & Construction Management: Residential - VIC & SA · APPLICATION_UNDER_REVIEW · 2026-09-27)",
+   "notes": []
+  }
+ },
+ {
+  "id": "gpa",
+  "company": "GPA Engineering",
+  "title": "Civil/Structural Drafter",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": [
+    "employer seen before: EOI - Engineering Professionals (Civil/Structural Drafter / early career) - AUS · HELD_ELIGIBILITY_UNCONFIRMED · 2026-10-03"
+   ]
+  }
+ }
+]

@@ -1,0 +1,12 @@
+[
+ {
+  "id": "kbr-cadet",
+  "company": "KBR",
+  "title": "Cadet Drafter",
+  "duplicate": {
+   "blocked": true,
+   "reason": "same company and role already in the tracker",
+   "notes": []
+  }
+ }
+]

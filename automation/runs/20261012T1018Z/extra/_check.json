@@ -1,0 +1,52 @@
+[
+ {
+  "id": "mildura-design-engineering-officer-r2799",
+  "company": "Mildura Rural City Council",
+  "title": "Design Engineering Officer",
+  "duplicate": {
+   "blocked": true,
+   "reason": "same company and role already in the tracker",
+   "notes": []
+  }
+ },
+ {
+  "id": "mildura-project-delivery-officer-r2793",
+  "company": "Mildura Rural City Council",
+  "title": "Project Delivery Officer",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (Design Engineering Officer · PREPARED_NOT_SENT · 2026-10-01)",
+   "notes": []
+  }
+ },
+ {
+  "id": "dtp-project-scoping-development-officer-gippsland",
+  "company": "Department of Transport and Planning",
+  "title": "Project Scoping and Development Officer",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (Engineer / Technical Officer, Road Design (East), VPS 3 · READY_JEREMIE_EMPLOYER_PORTAL · 2026-09-29)",
+   "notes": []
+  }
+ },
+ {
+  "id": "geraldton-graduate-engineering-officer-1348",
+  "company": "City of Greater Geraldton",
+  "title": "Graduate Engineering Officer",
+  "duplicate": {
+   "blocked": true,
+   "reason": "same company and role already in the tracker",
+   "notes": []
+  }
+ },
+ {
+  "id": "gunnedah-survey-design",
+  "company": "Gunnedah Shire Council",
+  "title": "Survey and Design Cadet / Graduate / Officer",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (Civil Survey & Design Officer (Cadet or Graduate) · READY_JEREMIE_EMPLOYER_PORTAL · 2026-09-28)",
+   "notes": []
+  }
+ }
+]

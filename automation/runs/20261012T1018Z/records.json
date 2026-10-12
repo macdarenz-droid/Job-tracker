@@ -1,0 +1,106 @@
+[
+ {
+  "id": "eb3df49b-42a6-4e5c-becf-0a151e499896",
+  "key": "manual:eb3df49b-42a6-4e5c-becf-0a151e499896",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261012T1018Z",
+  "created_at": "2026-10-12T10:33:01.000Z",
+  "updated_at": "2026-10-12T10:33:01.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "a07c01cb-e70a-42f6-ac5b-b345de5af754",
+    "path": "/api/documents/a07c01cb-e70a-42f6-ac5b-b345de5af754",
+    "filename": "Marc_Masarate_Axiom_Consulting_Engineers_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-12T10:33:03.465Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "4b3252e7-48a7-423d-80d9-ef83e2f9ff77",
+    "path": "/api/documents/4b3252e7-48a7-423d-80d9-ef83e2f9ff77",
+    "filename": "Marc_Masarate_Axiom_Consulting_Engineers_Speculative_enquiry_graduate_civil_desig_Cover_Letter.pdf",
+    "sha256": "77107b07fa1f398074b7aaa78d0fc83487893d3ae795db67d5fa5bec8dd0610c",
+    "size_bytes": 47272,
+    "kind": "cover",
+    "uploaded_at": "2026-10-12T10:33:02.051Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Axiom Consulting Engineers",
+  "role": "Speculative enquiry: graduate civil designer or engineer (Ballarat VIC)",
+  "location": "Ballarat VIC",
+  "job_url": "https://www.axiomconsultingengineers.com.au/careers",
+  "company_url": "https://www.axiomconsultingengineers.com.au/",
+  "status": "READY_JEREMIE_EMPLOYER_FORM",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "application_route": "EMPLOYER_FORM",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.axiomconsultingengineers.com.au/careers",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Speculative enquiry: graduate civil designer or engineer, Marc Masarate",
+  "email_body": "Hello,\n\nThis is a speculative enquiry, not a reply to an advertised vacancy. Your careers page invites people who want to work with Axiom to upload a CV, so I wanted to introduce myself.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge. I am based in Melton, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am available for site, regional and FIFO work.\n\nYour Maddingly Village work near Bacchus Marsh, from earthworks, drainage and pavement design through to Superintendent on site, is the mix of design and construction I want to learn. My drafting so far is from study rather than a paid Australian role.\n\nWould you keep me in mind for a graduate civil design or engineering opening, now or later? I've attached my resume and cover letter.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Ballarat civil consultancy whose published project scopes are earthworks, stormwater drainage, road pavements, kerbing and footways, the same areas Marc designed in Civil 3D and AutoCAD in his Advanced Diploma.",
+   "It also supervises construction as Superintendent, which matches Marc's site inspection, quality check and site record work in the Philippines.",
+   "About an hour from Melton, so no relocation; no advertised vacancy, so this is a clearly labelled speculative enquiry through the employer's own careers upload form."
+  ],
+  "gaps": [
+   "No current advertised vacancy",
+   "No Australian civil design office experience yet; software experience is from study",
+   "No sewer or water reticulation or flood modelling experience"
+  ],
+  "match_score": {
+   "percent": 70,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Ballarat civil consultancy whose published project scopes are earthworks, stormwater drainage, road pavements, kerbing and footways, the same areas Marc designed in Civil 3D and AutoCAD in his Advanced Diploma.",
+    "It also supervises construction as Superintendent, which matches Marc's site inspection, quality check and site record work in the Philippines.",
+    "About an hour from Melton, so no relocation; no advertised vacancy, so this is a clearly labelled speculative enquiry through the employer's own careers upload form."
+   ],
+   "caution": "No vacancy is advertised; the careers form may simply hold the CV on file. No named hiring contact email is published by Axiom (only admin@), so nothing is emailed."
+  },
+  "advert": {
+   "source": "employer website (speculative)",
+   "listed_at": "2026-10-12T10:35:00Z",
+   "expires_at": "",
+   "verified_at": "2026-10-12T10:35:00Z",
+   "apply_instructions": "No advertised vacancy. Upload resume and cover letter through the 'Want to work with us?' form on https://www.axiomconsultingengineers.com.au/careers.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Open https://www.axiomconsultingengineers.com.au/careers and use the 'Want to work with us?' upload form (max 15MB).",
+   "Upload the resume and this cover letter from the record's attachments (one PDF each, or merge them if the form takes one file).",
+   "If the form has a message box, paste the short message on this record (it is labelled as a speculative enquiry).",
+   "Do not email admin@axiomce.com.au with the same pack; the careers form is the employer's own channel.",
+   "After submitting, press Applied on this record with the date; note any acknowledgement."
+  ],
+  "notes": "SPECULATIVE_ENQUIRY. SEEK sweeps at 3, 7 and 14 days (60 then 80 details) plus the councils and government rotation found no new junior adverts that cleared screening (all duplicates of tracked employers or 3+ years, degree-plus-experience, student-only or citizenship/PR roles), so this is the runbook's one speculative enquiry. Axiom careers page read 12 Oct 2026 AEDT shows no vacancy and an upload form. Ballarat is about an hour from Melton, so no relocation is implied.\nAxiom's own site publishes only admin@axiomce.com.au (general contact, not stated to take applications) and a careers upload form, so the route is the careers form. A named engineer address appears only on a third-party surveyor's page, so it was not used (contact rule: employer-published only). Gmail in:anywhere search for Axiom found no prior contact; tracker check found no Axiom record.\nHOW GROK AI FOUND THIS\nFound on employer website (speculative) (listed 2026-10-12). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Chris Coughlan (Founder (2002)). Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Speculative enquiry: graduate civil designer or engineer (Ballarat VIC) role on SEEK.\n• They may ask about: No current advertised vacancy → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian civil design office experience yet; software experience is from study → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No sewer or water reticulation or flood modelling experience → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer website (speculative) (listed 2026-10-12). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Chris Coughlan (Founder (2002)). Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Speculative enquiry: graduate civil designer or engineer (Ballarat VIC) role on SEEK.",
+   "They may ask about: No current advertised vacancy → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian civil design office experience yet; software experience is from study → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No sewer or water reticulation or flood modelling experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-12T10:33:01.000Z",
+  "duplicate_key": "axiomconsultingengineers|axiomconsultingengineers.com.au/careers"
+ }
+]
