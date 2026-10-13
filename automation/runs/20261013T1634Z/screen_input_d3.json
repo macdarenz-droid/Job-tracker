@@ -1,0 +1,383 @@
+{
+ "count": 1,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "95193608",
+   "company": "Talent Web Property",
+   "title": "Project Engineer - Civil Construction",
+   "run": "20261012T0512Z",
+   "percent": 42,
+   "mandatory_unmet": [
+    "Experienced project engineer level"
+   ]
+  },
+  {
+   "id": "95236566",
+   "company": "CGC Recruitment",
+   "title": "12D Civil Designer",
+   "run": "20261013T1117Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Minimum 5 years civil design experience",
+    "Strong 12D Model proficiency"
+   ]
+  },
+  {
+   "id": "95207745",
+   "company": "Yellow Iron Fleet",
+   "title": "Civil Project Engineer",
+   "run": "20261012T1538Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "Minimum 3 years' experience in civil construction (Marc has about 1 year, Philippines)"
+   ]
+  },
+  {
+   "id": "95204746",
+   "company": "Scotford Fennessy Recruitment",
+   "title": "Civil Designer",
+   "run": "20261012T1538Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Experience in a Perth engineering consultancy, 2 to 5 years"
+   ]
+  },
+  {
+   "id": "95229171",
+   "company": "Morson Edge",
+   "title": "Civil Site Engineer - Wind Farm",
+   "run": "20261013T0611Z",
+   "percent": 32,
+   "mandatory_unmet": [
+    "Previous experience as a Civil Engineer or Site Engineer on major construction projects"
+   ]
+  },
+  {
+   "id": "95205064",
+   "company": "Verra Recruitment Pty Ltd",
+   "title": "Civil Project Engineer - FIFO | Defence Infrastructure",
+   "run": "20261012T1538Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Australian citizen or permanent resident"
+   ]
+  },
+  {
+   "id": "95220430",
+   "company": "Red Fox Advisory",
+   "title": "Civil Technician (Full-Time)",
+   "run": "20261013T0114Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Minimum 5 to 7 years' employment experience in civil design and engineering",
+    "Professional membership with Engineers Australia"
+   ]
+  },
+  {
+   "id": "95219778",
+   "company": "John Holland",
+   "title": "Civil Project Engineer",
+   "run": "20261013T0114Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Extensive project engineering experience in rail construction"
+   ]
+  },
+  {
+   "id": "95192276",
+   "company": "Kingston Human Capital",
+   "title": "(PO3) Civil Engineer",
+   "run": "20261012T0512Z",
+   "percent": 50,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95235044",
+   "company": "Peoplebank Australia VIC",
+   "title": "Graduate Infrastructure Engineer",
+   "run": "20261013T1117Z",
+   "percent": 5,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95233585",
+   "company": "United Rentals Australia Pty Ltd",
+   "title": "Civil Engineer",
+   "run": "20261013T0611Z",
+   "percent": 48,
+   "mandatory_unmet": [
+    "3-5 years of experience in civil engineering, ideally temporary works"
+   ]
+  },
+  {
+   "id": "95231028",
+   "company": "Fyfe Pty Ltd",
+   "title": "Civil Engineer - relocate to Darwin",
+   "run": "20261013T0611Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94972033",
+   "company": "Smart Built",
+   "title": "Civil Engineer",
+   "run": "20261013T0611Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "At least five years of post-qualification professional civil engineering experience"
+   ]
+  },
+  {
+   "id": "95195904",
+   "company": "Alchemy Recruitment Consulting Pty Ltd",
+   "title": "Civil Engineers | Road Delivery | Multiple Opportunities",
+   "run": "20261012T1538Z",
+   "percent": 52,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95193925",
+   "company": "Public Sector People",
+   "title": "PO3 Civil Engineer (Nerang)",
+   "run": "20261012T0512Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95228191",
+   "company": "Chandler Macleod",
+   "title": "Road Infrastructure Engineers | Multiple Contract Opportunities",
+   "run": "20261013T0611Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Experience delivering engineering, maintenance, rehabilitation or infrastructure projects at PO3-PO5 level"
+   ]
+  },
+  {
+   "id": "95221945",
+   "company": "Duo QS",
+   "title": "Junior Estimator - Graduate",
+   "run": "20261013T0114Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Minimum of 1 year of construction/building experience (Marc has under one year, April 2019 to February 2020)"
+   ]
+  },
+  {
+   "id": "95220594",
+   "company": "The Constructive Collective NSW Pty Ltd",
+   "title": "Civil Estimator",
+   "run": "20261013T0114Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "3 to 10 years' experience in estimating within civil infrastructure"
+   ]
+  },
+  {
+   "id": "95202759",
+   "company": "Rain Consulting Pty Ltd",
+   "title": "Project Engineer or Scientist, Stormwater & Water Management Melbourne, hybrid",
+   "run": "20261012T0512Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "3 to 7 years stormwater experience"
+   ]
+  },
+  {
+   "id": "95229161",
+   "company": "Parratech Group Pty Ltd",
+   "title": "Inventor Designer/Draftsperson ",
+   "run": "20261013T0611Z",
+   "percent": 22,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95205508",
+   "company": "Morson Edge",
+   "title": "Structural Drafter",
+   "run": "20261013T0114Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Previous structural drafting experience with an engineering consultancy (ideally 4 years)"
+   ]
+  },
+  {
+   "id": "95156694",
+   "company": "Quick Up Hoardings",
+   "title": "CAD Drafter / Estimator",
+   "run": "20261012T0512Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "Hands-on installation leadership and estimating experience"
+   ]
+  },
+  {
+   "id": "95237442",
+   "company": "Recruitment Engineering Services Pty Ltd",
+   "title": "Site Engineer - Structural",
+   "run": "20261013T1117Z",
+   "percent": 40,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95195999",
+   "company": "SITZLER Pty Ltd",
+   "title": "Site Engineer -SA",
+   "run": "20261012T0512Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95232534",
+   "company": "Aspect Personnel",
+   "title": "Project Engineer",
+   "run": "20261013T0611Z",
+   "percent": 35,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95232400",
+   "company": "Archos Pty Ltd",
+   "title": "Civil Estimator",
+   "run": "20261013T0611Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Minimum 5 years' experience in civil construction estimating"
+   ]
+  },
+  {
+   "id": "95207934",
+   "company": "Richmond Roads Group",
+   "title": "Estimator",
+   "run": "20261012T1538Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Currently studying 3rd or 4th year civil engineering"
+   ]
+  },
+  {
+   "id": "95200785",
+   "company": "Bega Valley Shire Council",
+   "title": "Finance Cadet",
+   "run": "20261013T0114Z",
+   "percent": 10,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95200685",
+   "company": "Bega Valley Shire Council",
+   "title": "Engineer Cadet",
+   "run": "20261012T2026Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Must undertake an undergraduate qualification in Engineering (honours) or a related discipline as part of Council's Emerging Talent Program"
+   ]
+  },
+  {
+   "id": "95200560",
+   "company": "Bega Valley Shire Council",
+   "title": "Business Cadet",
+   "run": "20261013T0114Z",
+   "percent": 10,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95199179",
+   "company": "Aquirian Limited",
+   "title": "Design / Estimator & Workshop Support Officer",
+   "run": "20261013T0114Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Degree or Diploma in Mechanical Engineering or related, with mechanical design and drafting experience and Autodesk Inventor"
+   ]
+  },
+  {
+   "id": "95192164",
+   "company": "Prime Build Pty Ltd",
+   "title": "Construction Cadets",
+   "run": "20261012T1538Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "Currently studying (cadetship)"
+   ]
+  },
+  {
+   "id": "95231303",
+   "company": "Talent Web Property",
+   "title": "Engineer",
+   "run": "20261013T0611Z",
+   "percent": 18,
+   "mandatory_unmet": [
+    "Australian or New Zealand citizens, or Australian permanent residents"
+   ]
+  },
+  {
+   "id": "95227062",
+   "company": "Peoplebank Australia NSW",
+   "title": "Operations Centre Team Engineer",
+   "run": "20261013T0611Z",
+   "percent": 10,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95226753",
+   "company": "Xero Manufacturing Pty Ltd",
+   "title": "Production Design Engineer – CAD & Manufacturing",
+   "run": "20261013T0611Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Minimum 3 years' experience in manufacturing, fabrication, production engineering, product design or technical drafting"
+   ]
+  },
+  {
+   "id": "95225412",
+   "company": "Earth AI",
+   "title": "Junior Geologist",
+   "run": "20261013T0611Z",
+   "percent": 12,
+   "mandatory_unmet": []
+  }
+ ],
+ "candidates": [
+  {
+   "id": "95243160",
+   "source": "seek",
+   "title": "Site Engineer/Project Engineer – FRP Civil Projects - competitive salary",
+   "company": "Damcon Pty Ltd",
+   "location": "Loganlea, Brisbane QLD",
+   "url": "https://www.seek.com.au/job/95243160",
+   "work_type": "Full time",
+   "salary": "$110,000 – $140,000 per year + vehicle/super",
+   "listed_at": "2026-10-13T11:28:11.944Z",
+   "expires_at": "2026-11-12T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a project engineer?",
+    "How much notice are you required to give your current employer?",
+    "Have you worked in a role where you were responsible for budget management & forecasting?",
+    "Have you worked in a role which requires a sound understanding of OH&S/WHS?",
+    "Have you completed a qualification in construction management?",
+    "Do you have experience working on civil infrastructure projects?"
+   ],
+   "summary": "An exciting new opportunity on FRP civil infrastructure projects.",
+   "opening": "A new, career-making opportunity has arisen for an experienced Project Engineer with a solid track record on FRP (Formwork, Reinforcing & Pouring) projects. This position will initially be based in Loganlea, with future opportunities to support and deliver projects across various locations throughout Brisbane.\nWhy join us?\n- Deliver landmark Brisbane FRP projects that shape the city’s infrastructure\n- Join a specialist contractor with a strong reputation and solid project pipeline\n- Work with supportive leaders who invest in your development and progression\n- Competitive salary package and long-term career stability\nAbout Us\nDamcon is one of Australia’s leading FRP (Formwork, Reinforcing & Pouring) specialists, delivering complex bridge and civil infrastructure projects across NSW & QLD.\nWe pride ourselves on precision, safety, and innovation, and we’ve built long-term relationships by d",
+   "key_lines": [
+    "A new, career-making opportunity has arisen for an experienced Project Engineer with a solid track record on FRP (Formwork, Reinforcing & Pouring) projects. This position will initially be based in Loganlea, with future opportunities to support and deliver projects across various locations throughout Brisbane.",
+    "This is a hands-on role working closely with a Project Manager , Site Supervisors, and the project team to plan, coordinate, and deliver FRP works from start to finish.",
+    "You’ll take ownership of formwork sequencing, reinforcement installation, concrete pours, and temporary works, ensuring safety, quality, and program requirements are met, while also managing the commercial and administrative aspects that keep the job running smoothly.",
+    "- Conduct FRP quality inspections, complete ITPs, and ensure defects are closed out promptly",
+    "- Ensure all FRP designs and temporary works comply with engineering requirements and WHS standards",
+    "- Tertiary qualifications in Civil Engineering, Construction Management, or related discipline",
+    "- 3+ years’ experience in civil infrastructure with a strong focus on FRP delivery",
+    "- Experience managing subcontractors, budgets, and project documentation on active sites",
+    "- White Card and Driver’s License (RIW Card advantageous)",
+    "Apply now",
+    "If you’re ready to step into a role where your FRP expertise is valued and your career can grow, send your CV and cover letter. Click the \"Apply Now\" button to submit your application."
+   ]
+  }
+ ]
+}
