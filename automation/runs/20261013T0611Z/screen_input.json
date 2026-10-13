@@ -1,0 +1,660 @@
+{
+ "count": 13,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "95193608",
+   "company": "Talent Web Property",
+   "title": "Project Engineer - Civil Construction",
+   "run": "20261012T0512Z",
+   "percent": 42,
+   "mandatory_unmet": [
+    "Experienced project engineer level"
+   ]
+  },
+  {
+   "id": "95207745",
+   "company": "Yellow Iron Fleet",
+   "title": "Civil Project Engineer",
+   "run": "20261012T1538Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "Minimum 3 years' experience in civil construction (Marc has about 1 year, Philippines)"
+   ]
+  },
+  {
+   "id": "95204746",
+   "company": "Scotford Fennessy Recruitment",
+   "title": "Civil Designer",
+   "run": "20261012T1538Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Experience in a Perth engineering consultancy, 2 to 5 years"
+   ]
+  },
+  {
+   "id": "95205064",
+   "company": "Verra Recruitment Pty Ltd",
+   "title": "Civil Project Engineer - FIFO | Defence Infrastructure",
+   "run": "20261012T1538Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Australian citizen or permanent resident"
+   ]
+  },
+  {
+   "id": "95220430",
+   "company": "Red Fox Advisory",
+   "title": "Civil Technician (Full-Time)",
+   "run": "20261013T0114Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Minimum 5 to 7 years' employment experience in civil design and engineering",
+    "Professional membership with Engineers Australia"
+   ]
+  },
+  {
+   "id": "95219778",
+   "company": "John Holland",
+   "title": "Civil Project Engineer",
+   "run": "20261013T0114Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Extensive project engineering experience in rail construction"
+   ]
+  },
+  {
+   "id": "95193093",
+   "company": "Hall Contracting Pty Ltd",
+   "title": "2x Undergraduate Engineer",
+   "run": "20261012T1538Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Currently in 3rd year of a Bachelor's degree"
+   ]
+  },
+  {
+   "id": "95192276",
+   "company": "Kingston Human Capital",
+   "title": "(PO3) Civil Engineer",
+   "run": "20261012T0512Z",
+   "percent": 50,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95195904",
+   "company": "Alchemy Recruitment Consulting Pty Ltd",
+   "title": "Civil Engineers | Road Delivery | Multiple Opportunities",
+   "run": "20261012T1538Z",
+   "percent": 52,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95193925",
+   "company": "Public Sector People",
+   "title": "PO3 Civil Engineer (Nerang)",
+   "run": "20261012T0512Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95221945",
+   "company": "Duo QS",
+   "title": "Junior Estimator - Graduate",
+   "run": "20261013T0114Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Minimum of 1 year of construction/building experience (Marc has under one year, April 2019 to February 2020)"
+   ]
+  },
+  {
+   "id": "95220594",
+   "company": "The Constructive Collective NSW Pty Ltd",
+   "title": "Civil Estimator",
+   "run": "20261013T0114Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "3 to 10 years' experience in estimating within civil infrastructure"
+   ]
+  },
+  {
+   "id": "95202759",
+   "company": "Rain Consulting Pty Ltd",
+   "title": "Project Engineer or Scientist, Stormwater & Water Management Melbourne, hybrid",
+   "run": "20261012T0512Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "3 to 7 years stormwater experience"
+   ]
+  },
+  {
+   "id": "95205508",
+   "company": "Morson Edge",
+   "title": "Structural Drafter",
+   "run": "20261013T0114Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Previous structural drafting experience with an engineering consultancy (ideally 4 years)"
+   ]
+  },
+  {
+   "id": "95156694",
+   "company": "Quick Up Hoardings",
+   "title": "CAD Drafter / Estimator",
+   "run": "20261012T0512Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "Hands-on installation leadership and estimating experience"
+   ]
+  },
+  {
+   "id": "95195999",
+   "company": "SITZLER Pty Ltd",
+   "title": "Site Engineer -SA",
+   "run": "20261012T0512Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95207934",
+   "company": "Richmond Roads Group",
+   "title": "Estimator",
+   "run": "20261012T1538Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Currently studying 3rd or 4th year civil engineering"
+   ]
+  },
+  {
+   "id": "95200785",
+   "company": "Bega Valley Shire Council",
+   "title": "Finance Cadet",
+   "run": "20261013T0114Z",
+   "percent": 10,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95200685",
+   "company": "Bega Valley Shire Council",
+   "title": "Engineer Cadet",
+   "run": "20261012T2026Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Must undertake an undergraduate qualification in Engineering (honours) or a related discipline as part of Council's Emerging Talent Program"
+   ]
+  },
+  {
+   "id": "95200560",
+   "company": "Bega Valley Shire Council",
+   "title": "Business Cadet",
+   "run": "20261013T0114Z",
+   "percent": 10,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95199179",
+   "company": "Aquirian Limited",
+   "title": "Design / Estimator & Workshop Support Officer",
+   "run": "20261013T0114Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Degree or Diploma in Mechanical Engineering or related, with mechanical design and drafting experience and Autodesk Inventor"
+   ]
+  },
+  {
+   "id": "95192164",
+   "company": "Prime Build Pty Ltd",
+   "title": "Construction Cadets",
+   "run": "20261012T1538Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "Currently studying (cadetship)"
+   ]
+  },
+  {
+   "id": "95221478",
+   "company": "CGC Recruitment",
+   "title": "Project Engineer",
+   "run": "20261013T0114Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Proven experience as a Project Engineer or Site Engineer on civil earthworks or large-scale civil projects"
+   ]
+  },
+  {
+   "id": "95221316",
+   "company": "RGM Property Surveys Pty Ltd",
+   "title": "Junior Project Management",
+   "run": "20261013T0114Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Australian citizen or Permanent Resident ONLY"
+   ]
+  },
+  {
+   "id": "95220454",
+   "company": "Australian Maritime Systems Group Pty Ltd",
+   "title": "Estimator",
+   "run": "20261013T0114Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Experience in estimation and contributing to client submissions; South Australia Driver Licence"
+   ]
+  },
+  {
+   "id": "95208364",
+   "company": "CGC Recruitment",
+   "title": "Site Engineer | FRP Package | 5 month Contract | 2/1 Roster",
+   "run": "20261013T0114Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "2 to 3 years' post-graduate experience in Australia delivering major concrete packages"
+   ]
+  },
+  {
+   "id": "95202539",
+   "company": "SITZLER Pty Ltd",
+   "title": "Graduate Program 2027 - Western Australia",
+   "run": "20261012T1538Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "Hold Australian Citizenship or Permanent Residency; degree completed within the last two years"
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "id": "95229171",
+   "source": "seek",
+   "title": "Civil Site Engineer - Wind Farm",
+   "company": "Morson Edge",
+   "location": "Perth WA",
+   "url": "https://www.seek.com.au/job/95229171",
+   "work_type": "Full time",
+   "salary": "$80 - $85 per hour",
+   "listed_at": "2026-10-13T03:29:00.678Z",
+   "expires_at": "2026-11-12T03:28:00.000Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Site-based Civil Engineer opportunity on a major WA wind farm project",
+   "opening": "About the Company \nA leading global renewable energy organisation is seeking an experienced Civil Engineer to join a major wind farm project in Western Australia.\n This is a site-based role supporting the delivery of the Civil Balance of Plant (BoP) scope, working closely with contractors and the wider construction team.\nKey Responsibilities - Provide on-site engineering support across civil construction activities.\n - Oversee earthworks, access roads, drainage, crane hardstands and turbine foundations.\n - Monitor construction progress, quality and compliance with specifications.\n - Coordinate with contractors, supervisors and project teams.\n - Review drawings, resolve technical issues and maintain QA/QC documentation.\n - Ensure works are delivered safely and to schedule.\n About You - Degree qualified in Civil Engineering.\n - Previous experience as a Civil Engineer or Site Engineer on ma",
+   "key_lines": [
+    "A leading global renewable energy organisation is seeking an experienced Civil Engineer to join a major wind farm project in Western Australia.",
+    "This is a site-based role supporting the delivery of the Civil Balance of Plant (BoP) scope, working closely with contractors and the wider construction team.",
+    "About You - Degree qualified in Civil Engineering.",
+    "- Previous experience as a Civil Engineer or Site Engineer on major construction projects.",
+    "- Wind farm or Civil BoP experience highly regarded.",
+    "- Good understanding of construction drawings, QA/QC and HSE requirements.",
+    "- FIFO or remote site experience advantageous.",
+    "How to Apply",
+    "If you're an experienced Civil Engineer looking for your next opportunity in renewable energy, apply with your CV for a confidential discussion"
+   ]
+  },
+  {
+   "id": "95233585",
+   "source": "seek",
+   "title": "Civil Engineering",
+   "company": "United Rentals Australia Pty Ltd",
+   "location": "Sydney NSW",
+   "url": "https://www.seek.com.au/job/95233585",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-13T05:34:39.269Z",
+   "expires_at": "2026-11-12T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "How many years' experience do you have as a project engineer?",
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have in the construction industry?",
+    "Do you have experience in a sales role?",
+    "How many years' experience do you have as a civil engineer?",
+    "Have you completed a qualification in civil engineering?",
+    "Which of the following CAD software do you have experience with?",
+    "What's your expected annual base salary?"
+   ],
+   "summary": "We're seeking an experienced full-time Engineer to design, test, and implement trench safety and propping solutions.",
+   "opening": "United Rentals, is a trusted Australian leader in trench safety and propping solutions, providing high-quality products to ensure safety and compliance on civil construction sites. We are dedicated to innovation, reliability, and delivering tailored solutions to meet the unique needs of our clients in the civil and construction industries.\nhttps://www.unitedrentals.com\nThe Opportunity\nWe are looking for an experienced permanent full-time Civil Engineering to join our team and play a key role in designing, testing, and implementing trench safety and propping solutions. This is an exciting opportunity to apply your expertise and collaborate with both clients and internal teams to ensure safe, compliant, and cost-effective solutions across diverse civil projects.\nKey Responsibilities\n- Design and develop trench safety and propping systems in line with Australian Standards (AS 4744, AS 1657,",
+   "key_lines": [
+    "We are looking for an experienced permanent full-time Civil Engineering to join our team and play a key role in designing, testing, and implementing trench safety and propping solutions. This is an exciting opportunity to apply your expertise and collaborate with both clients and internal teams to ensure safe, compliant, and cost-effective solutions across diverse civil projects.",
+    "- Conduct site visits, assess project requirements, and collaborate with clients to deliver tailored engineering solutions for temporary works situations.",
+    "Skills and Experience",
+    "- Advanced Diploma or equivalent in Civil or Structural Engineering or other related field.",
+    "- 3-5 years of experience in civil engineering, ideally with a focus on temporary works solutions.",
+    "- Proficiency with CAD software (AutoCAD, Revit, etc.).",
+    "- Experience with site assessments and safety-focused engineering is a plus.",
+    "How to Apply",
+    "If you’re ready to make an impact in the civil engineering field and take the next step in your career, we want to hear from you! Please submit your resume and cover letter, highlighting your relevant experience and why you’d be a great fit for the role."
+   ]
+  },
+  {
+   "id": "95232723",
+   "source": "seek",
+   "title": "Graduate Engineer",
+   "company": "Hall Contracting Pty Ltd",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/95232723",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-13T05:05:43.130Z",
+   "expires_at": "2026-11-12T05:05:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Looking to kick-start your engineering career? Join a team delivering complex marine and dredging projects across Australia and the Pacific",
+   "opening": "About Hall Contracting\n Hall Contracting is one of Australia's leading marine and dredging contractors, with projects across Australia, Southeast Asia, and the Pacific Islands. With award-winning capabilities in dredging and marine construction, Hall prides itself on being an expert in project management with a strong commitment to its clients, employees, and the broader community.\n About the Role\n Hall Contracting is seeking two Graduate Engineers to progress their career towards a site engineer. \n One graduate will be based across Pacific Islands projects, while the other will primarily support Australian operations. During project mobilisation and planning phases, both graduates will be based in Hall’s Sunshine Coast office, working alongside experienced engineers and project teams to prepare projects for successful delivery.\n As projects mobilise, graduates will transition into site-",
+   "key_lines": [
+    "Hall Contracting is seeking two Graduate Engineers to progress their career towards a site engineer.",
+    "One graduate will be based across Pacific Islands projects, while the other will primarily support Australian operations. During project mobilisation and planning phases, both graduates will be based in Hall’s Sunshine Coast office, working alongside experienced engineers and project teams to prepare projects for successful delivery.",
+    "As projects mobilise, graduates will transition into site-based roles on a FIFO basis, providing valuable exposure to real-world project delivery across marine, dredging, and civil infrastructure environments.",
+    "- Mentorship from experienced engineers and project professionals.",
+    "- Support project teams with day-to-day engineering and administrative requirements.",
+    "- Bachelor Degree in Civil Engineering or a related engineering discipline.",
+    "- Recent graduate or up to 2 years' post-graduate experience."
+   ]
+  },
+  {
+   "id": "95231028",
+   "source": "seek",
+   "title": "Civil Engineer - relocate to Darwin",
+   "company": "Fyfe Pty Ltd",
+   "location": "Melbourne VIC",
+   "url": "https://www.seek.com.au/job/95231028",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-13T04:13:59.084Z",
+   "expires_at": "2026-11-12T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a civil engineer?"
+   ],
+   "summary": "Relocation Opportunity for a Civil Engineer Looking to Make the Move to Darwin",
+   "opening": "The Opportunity\nFyfe is seeking a Civil Engineer to join our Darwin Civil team.\nWorking alongside experienced engineers, designers and multidisciplinary specialists, you'll contribute to the delivery of civil engineering projects across the Infrastructure, Energy & Resources, Renewables and Property sectors.\nThis role offers the opportunity to apply your technical expertise across all stages of project delivery, from concept and feasibility studies through to detailed design and construction support. You'll work closely with clients and project teams to develop practical engineering solutions that meet project objectives while maintaining the highest standards of quality and compliance.\nThe Impact You'll Have\n- Deliver civil engineering designs and documentation across a variety of infrastructure projects.\n- Develop stormwater drainage, erosion control and crossing designs for waterways,",
+   "key_lines": [
+    "Working alongside experienced engineers, designers and multidisciplinary specialists, you'll contribute to the delivery of civil engineering projects across the Infrastructure, Energy & Resources, Renewables and Property sectors.",
+    "This role offers the opportunity to apply your technical expertise across all stages of project delivery, from concept and feasibility studies through to detailed design and construction support. You'll work closely with clients and project teams to develop practical engineering solutions that meet project objectives while maintaining the highest standards of quality and compliance.",
+    "- Help ensure designs meet relevant Australian Standards, industry requirements and best-practice engineering principles.",
+    "- Tertiary qualifications in Civil Engineering.",
+    "- The ability to interpret complex design requirements and maintain a high level of attention to detail.",
+    "- Experience managing competing priorities while delivering quality outcomes within project timeframes.",
+    "How to Apply",
+    "Click Apply to submit your application."
+   ]
+  },
+  {
+   "id": "94972033",
+   "source": "seek",
+   "title": "Civil Engineer",
+   "company": "Smart Built",
+   "location": "Adelaide SA",
+   "url": "https://www.seek.com.au/job/94972033",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-13T01:45:24.560Z",
+   "expires_at": "2026-11-12T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Civil Engineer responsible for planning, designing, coordinating and overseeing civil works for residential and commercial construction projects.",
+   "opening": "About Smart Built\nSmart Built Pty. Ltd. is an Adelaide-based domestic and commercial building contractor providing Package Solutions, Head Contracting and Project Management services.\nWe deliver a range of residential and commercial projects, including stand-alone and multi-unit developments, commercial buildings, renovations and extensions. Our team works closely with architects, engineers, consultants, subcontractors and suppliers from the design and approval stages through to construction.\nAbout the role\nWe are seeking a qualified and proactive Civil Engineer to join our team to plan, design, coordinate and oversee civil works for residential and commercial construction projects.\nWorking closely with our project team and external consultants, you will exercise professional engineering judgement, develop and review civil engineering solutions, coordinate design and construction require",
+   "key_lines": [
+    "We deliver a range of residential and commercial projects, including stand-alone and multi-unit developments, commercial buildings, renovations and extensions. Our team works closely with architects, engineers, consultants, subcontractors and suppliers from the design and approval stages through to construction.",
+    "We are seeking a qualified and proactive Civil Engineer to join our team to plan, design, coordinate and oversee civil works for residential and commercial construction projects.",
+    "Working closely with our project team and external consultants, you will exercise professional engineering judgement, develop and review civil engineering solutions, coordinate design and construction requirements, and resolve technical issues throughout the project lifecycle.",
+    "·       Plan and design civil works for residential and commercial developments, including site levels, earthworks, stormwater drainage, pavements, retaining works and associated water and sewer infrastructure, and prepare and verify the related engineering calculations, drawings and technical specifications.",
+    "·       Analyse site conditions and geotechnical reports to determine design parameters for earthworks, drainage, foundations and retaining works, and coordinate specialist investigations or testing where required.",
+    "·       Review architectural, structural and civil engineering drawings and specifications to assess constructability and engineering requirements, and provide technical input into quantity take-offs, cost estimates and budget control.",
+    "·       Prepare engineering calculations, design documentation, technical reports and site inspection records, respond to technical queries, and ensure civil works comply with relevant legislation, Australian Standards, WHS requirements and company procedures.",
+    "Requirements",
+    "·       Bachelor's degree or higher qualification in Civil Engineering.",
+    "·       At least five years of post-qualification professional civil engineering experience, preferably in residential or commercial development.",
+    "·       Experience interpreting engineering drawings, technical specifications and construction documentation",
+    "·       Demonstrated experience in planning and designing civil works, including drainage, earthworks, site levels and foundations, for residential and commercial developments",
+    "·       Proficiency in AutoCAD, Microsoft Office and relevant engineering, estimating or project management software"
+   ]
+  },
+  {
+   "id": "95228191",
+   "source": "seek",
+   "title": "Road Infrastructure Engineers | Multiple Contract Opportunities",
+   "company": "Chandler Macleod",
+   "location": "Nerang, Gold Coast QLD",
+   "url": "https://www.seek.com.au/job/95228191",
+   "work_type": "Contract/Temp",
+   "salary": "$67.95 - $94.59/hr + Super",
+   "listed_at": "2026-10-13T03:13:04.771Z",
+   "expires_at": "2026-11-12T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "3 x Civil Engineering Contract Opportunities | Gold Coast ",
+   "opening": "3 x Civil Engineering Contract Opportunities | Gold Coast | 12 Months | Early November Start | $67.95 - $94.59/hr + Super\nChandler Macleod has 3 contract vacancies across PO3 - PO5 levels (level matched to experience) for Civil Engineers to join a busy Preservation & Maintenance team on the Gold Coast.\n Join a high-performing team responsible for delivering maintenance, rehabilitation, safety and asset preservation projects across a large and complex transport infrastructure network.\nWe are looking for candidates with experience in civil infrastructure, roads, transport, construction or asset management who can contribute to the successful delivery of infrastructure projects from planning through to completion.\nThese positions offer the opportunity to work on projects that maintain and improve critical transport infrastructure. Responsibilities will be matched to your level and may inclu",
+   "key_lines": [
+    "Chandler Macleod has 3 contract vacancies across PO3 - PO5 levels (level matched to experience) for Civil Engineers to join a busy Preservation & Maintenance team on the Gold Coast.",
+    "We are looking for candidates with experience in civil infrastructure, roads, transport, construction or asset management who can contribute to the successful delivery of infrastructure projects from planning through to completion.",
+    "- Monitor safety, quality, environmental and compliance requirements",
+    "- Work closely with internal teams, contractors, consultants and external stakeholders",
+    "- Experience delivering engineering, maintenance, rehabilitation or infrastructure projects",
+    "- Experience in project management, contract administration or construction delivery",
+    "- Current C Class Driver Licence",
+    "- Experience within roads, transport, infrastructure, construction, utilities or local/state government environments",
+    "- RPEQ required for Principal (PO5) and highly regarded for Senior (PO4)",
+    "Rate: $67.95 - $94.59 per hour + Super (depending on level and experience)",
+    "To apply, please submit an updated copy of your CV or contact Anna Dziopa on 07 2140 6649 for a confidential discussion."
+   ]
+  },
+  {
+   "id": "95229161",
+   "source": "seek",
+   "title": "Inventor Designer/Draftsperson ",
+   "company": "Parratech Group Pty Ltd",
+   "location": "Eastern Creek, Sydney NSW",
+   "url": "https://www.seek.com.au/job/95229161",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-13T03:28:45.628Z",
+   "expires_at": "2026-11-12T03:28:44.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "This role plays a key part in delivering high-quality design solutions within project timeframes.",
+   "opening": "About Us:At Parratech, we design, engineer, manufacture, project manage and install the highest quality products & solutions for our clients throughout Australia and abroad. Unparalleled dedication, experience, innovation, and expertise within our teams ultimately ensures we deliver the highest quality projects on time, on quality and on budget.\nPosition Summary:We are seeking an experienced and detail-oriented Inventor Designer/Draftsperson to join Parratech. This role plays a key part in delivering high-quality, coordinated design solutions, ensuring models are accurate, functional, and delivered within project timeframes.\nResponsibilities:\n- Lead design activities across multiple projects\n- Develop detailed fabrication drawings and 3D models\n- Develop all required fabrication drawings to successfully manufacture all required parts\n- Produce designs that are fully functional for: Fabri",
+   "key_lines": [
+    "About Us:At Parratech, we design, engineer, manufacture, project manage and install the highest quality products & solutions for our clients throughout Australia and abroad. Unparalleled dedication, experience, innovation, and expertise within our teams ultimately ensures we deliver the highest quality projects on time, on quality and on budget.",
+    "Position Summary:We are seeking an experienced and detail-oriented Inventor Designer/Draftsperson to join Parratech. This role plays a key part in delivering high-quality, coordinated design solutions, ensuring models are accurate, functional, and delivered within project timeframes.",
+    "- Develop all required fabrication drawings to successfully manufacture all required parts",
+    "- Ensure design outputs meet project specifications, company standards, and industry requirements",
+    "- Knowledge of fabrication processes and requirements",
+    "We Have Grit: Stay accountable when quality issues are difficult. Persist through root cause, corrective action and sustainable close-out rather than accepting workarounds."
+   ]
+  },
+  {
+   "id": "95232534",
+   "source": "seek",
+   "title": "Project Engineer",
+   "company": "Aspect Personnel",
+   "location": "Pakenham, West Gippsland & Latrobe Valley VIC",
+   "url": "https://www.seek.com.au/job/95232534",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-13T04:59:55.985Z",
+   "expires_at": "2026-11-12T04:59:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Project Engineer for a 12-month temporary role based in Pakenham.  Deliver capital works projects across roads, drainage and bridges.",
+   "opening": "Aspect Personnel is partnering with a large council in Melbourne’s south-east to find an experienced Project Engineer for a 12-month temporary role based in Pakenham. \nYou’ll join the Civil Infrastructure Projects team within the Assets and Capital Delivery directorate. You’ll deliver capital works projects across roads, drainage and bridges in a fast-growing region.\n About the role:  Reporting to the Coordinator Civil Infrastructure Projects, you’ll manage civil projects from investigation and planning through design and construction. You’ll make sure each project is delivered on time, on budget and to a high standard for the community.\n Key responsibilities:\n - Deliver your allocated capital works projects, covering roads, drains, bridges and other infrastructure improvements\n - Manage project scope, timelines and budgets, and report on progress and spend against budget\n - Prepare, or ",
+   "key_lines": [
+    "Aspect Personnel is partnering with a large council in Melbourne’s south-east to find an experienced Project Engineer for a 12-month temporary role based in Pakenham.",
+    "- Prepare communication plans and lead consultation with residents and stakeholders",
+    "- A tertiary qualification in Civil Engineering or a related discipline",
+    "- Proven experience delivering civil infrastructure projects, ideally roads, drainage and bridges",
+    "- Experience in local government, grant-funded or multi-stakeholder projects is highly regarded",
+    "- A current Victorian driver’s licence",
+    "How to apply:  Click Apply and attach your resume. For a confidential chat, contact Matt Larner at Aspect Personnel or m.larner@aspectpersonnel.com.au."
+   ]
+  },
+  {
+   "id": "95232400",
+   "source": "seek",
+   "title": "Civil Estimator",
+   "company": "Archos Pty Ltd",
+   "location": "Wyong, Gosford & Central Coast NSW",
+   "url": "https://www.seek.com.au/job/95232400",
+   "work_type": "Full time",
+   "salary": "$120,000 – $140,000 per year",
+   "listed_at": "2026-10-13T04:56:28.669Z",
+   "expires_at": "2026-11-12T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a Civil Estimator?",
+    "How much notice are you required to give your current employer?",
+    "Do you have experience preparing and submitting tenders?"
+   ],
+   "summary": "Join Archos Group as a Civil Estimator, delivering diverse $1M–$10M civil projects across Australia's growing energy and renewables sectors.",
+   "opening": "About Us\nArchos Group is a well-established, family-owned Australian construction company specialising in civil construction, telecommunications, energy infrastructure and steel fabrication.\nBased on the Central Coast and operating nationally, we deliver projects for leading clients across the energy, utilities, telecommunications and renewable energy sectors.\nWith continued growth in our Energy & Electrical division, we are seeking an experienced Civil Estimator to join our team and play a key role in securing and delivering our future projects.\nAbout the Role\nYou will be responsible for managing the estimating and tendering process for civil construction projects generally ranging from $1 million to $10 million, with a particular focus on substations, renewable energy developments and electrical infrastructure.\nWorking closely with our Operations Managers, Project Managers and senior l",
+   "key_lines": [
+    "With continued growth in our Energy & Electrical division, we are seeking an experienced Civil Estimator to join our team and play a key role in securing and delivering our future projects.",
+    "Working closely with our Operations Managers, Project Managers and senior leadership team, you will play an important role in securing new projects and ensuring a smooth transition from tendering through to project delivery.",
+    "- Tender Documentation: Review engineering drawings, specifications, geotechnical reports, contracts and scopes of work to identify requirements, assumptions and potential risks.",
+    "- Construction Methodology: Work with the project delivery team to assess construction methodologies, sequencing, productivity rates and resource requirements.",
+    "- Site Assessments: Undertake site visits where required to assess access, site conditions, constructability and project-specific risks.",
+    "- Tender Submissions: Prepare professional tender submissions, including pricing schedules, qualifications, exclusions and supporting documentation.",
+    "Skills & Experience",
+    "We are seeking an experienced estimator with a strong understanding of civil construction and the ability to independently manage competitive tenders.",
+    "- Minimum 5 years' experience in civil construction estimating, preferably on projects valued between $1M and $10M.",
+    "- Experience in energy infrastructure, substations, utilities, renewable energy or similar civil infrastructure projects.",
+    "- Demonstrated experience managing tenders from initial review through to submission and project handover.",
+    "- Proficiency in estimating software and Microsoft Excel, with experience using Simpro highly regarded.",
+    "- A collaborative approach and willingness to work closely with project delivery teams.",
+    "Relevant qualifications in Civil Engineering, Construction Management or a related discipline will be highly regarded. However, applicants with extensive practical civil construction and estimating experience are equally encouraged to apply."
+   ]
+  },
+  {
+   "id": "95231303",
+   "source": "seek",
+   "title": "Engineer",
+   "company": "Talent Web Property",
+   "location": "Sydney NSW",
+   "url": "https://www.seek.com.au/job/95231303",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-13T04:22:25.214Z",
+   "expires_at": "2026-11-12T04:22:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Structural Engineer | Industrial & Commercial",
+   "opening": "Want to see your designs take shape on site? This opportunity offers hands-on involvement across design, documentation and construction, with the support of experienced engineers as you take greater ownership of your projects.\n Talent Web is partnering with an established structural engineering consultancy to recruit a Structural Engineer for its Sydney team. Specialising in industrial and commercial buildings, the business focuses on practical, economical designs that work on site.\n You’ll join a close-knit team where ideas are shared, communication is direct and good engineering judgement is valued.\n The opportunity\n Working closely with senior engineers and project stakeholders, you’ll manage defined project scopes and contribute across the full delivery process. Your responsibilities will include:\n - Structural analysis and design of steel and concrete structures, including footings,",
+   "key_lines": [
+    "Want to see your designs take shape on site? This opportunity offers hands-on involvement across design, documentation and construction, with the support of experienced engineers as you take greater ownership of your projects.",
+    "You’ll join a close-knit team where ideas are shared, communication is direct and good engineering judgement is valued.",
+    "Working closely with senior engineers and project stakeholders, you’ll manage defined project scopes and contribute across the full delivery process. Your responsibilities will include:",
+    "You’ll have approximately 3–7 years of structural engineering experience, ideally within a consulting environment, along with:",
+    "- Experience with shop drawings, site coordination and construction-stage problem solving.",
+    "Progress towards CPEng or RPEQ registration is welcomed but isn’t essential.",
+    "This is a chance to develop your technical capability while staying closely involved in project delivery. You’ll gain exposure to substantial industrial and commercial structures, work directly with construction teams and receive guidance from experienced colleagues.",
+    "Applicants must be Australian or New Zealand citizens, or Australian permanent residents, with full working rights in Australia.",
+    "Apply now through SEEK for a confidential discussion with Talent Web."
+   ]
+  },
+  {
+   "id": "95227062",
+   "source": "seek",
+   "title": "Operations Centre Team Engineer",
+   "company": "Peoplebank Australia NSW",
+   "location": "Seven Hills, Sydney NSW",
+   "url": "https://www.seek.com.au/job/95227062",
+   "work_type": "Contract/Temp",
+   "salary": "AUD 600 - 680 per day, Bonus",
+   "listed_at": "2026-10-13T02:50:07.660Z",
+   "expires_at": "2026-11-12T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "   West Sydney    2-day shift (7/7) & 2 night shift (7/7)    This is a shift role working on a 24x7 rotating roster - 4 days on/4 days...   ",
+   "opening": "- West Sydney\n- 2-day shift (7/7) & 2 night shift (7/7)\n- This is a shift role working on a 24x7 rotating roster - 4 days on/4 days off\nAbout the Role\nOur client is a leading telecommunications organisation seeking a Network Operations Engineer to join their high-performing operations team. This is an exciting opportunity to work within a mission-critical network environment, supporting the ongoing availability and performance of large-scale telecommunications services.\nYou will play a key role in proactive network monitoring, incident management, fault escalation and service restoration activities, working closely with internal technical teams, external partners and international carriers to ensure exceptional network performance and customer outcomes.\nThis role would suit someone with strong telecommunications operations experience who thrives in a fast-paced environment and enjoys inv",
+   "key_lines": [
+    "You will play a key role in proactive network monitoring, incident management, fault escalation and service restoration activities, working closely with internal technical teams, external partners and international carriers to ensure exceptional network performance and customer outcomes.",
+    "This role would suit someone with strong telecommunications operations experience who thrives in a fast-paced environment and enjoys investigating, coordinating and resolving complex network incidents.",
+    "- Contribute to continuous improvement initiatives focused on operational efficiency, service availability and customer experience.",
+    "- Strong fault management and incident coordination experience within a telecommunications environment.",
+    "- Experience working within Network Operations Centre (NOC) or Service Operations environments.",
+    "- Experience working with international carriers, roaming partners or multi-vendor environments highly regarded.",
+    "Experience & Qualifications",
+    "- Experience within telecommunications network operations, service assurance, NOC or network support environments.",
+    "- Proven experience managing incidents, trouble tickets and fault escalation processes.",
+    "- Experience working with operational support systems and ticketing platforms.",
+    "- Experience supporting mission-critical networks and high-availability environments.",
+    "This role is being recruited in partnership by Recruitment Practice Lead Doug Hitos & Lead Recruiter Aparna Sharma. Doug & Aparna share more than 25 years of IT recruitment experience. Both have been successful throughout their careers in placing the right candidate for the right job.",
+    "To find out more about this opportunity, please click Apply Now.",
+    "If you're interested, please submit your resume by hitting the APPLY NOW button."
+   ]
+  },
+  {
+   "id": "95226753",
+   "source": "seek",
+   "title": "Production Design Engineer – CAD & Manufacturing",
+   "company": "Xero Manufacturing Pty Ltd",
+   "location": "Glendenning, Sydney NSW",
+   "url": "https://www.seek.com.au/job/95226753",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-13T02:46:54.968Z",
+   "expires_at": "2026-11-12T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How much notice are you required to give your current employer?",
+    "Do you have Engineering Drawing Interpretation experience?"
+   ],
+   "summary": "Production Design Engineer translating architectural designs into manufacturable lighting solutions.",
+   "opening": "About the role\nYou'll be responsible for translating architectural designs and project requirements into practical, manufacturable lighting solutions. Working closely with our sales, design and manufacturing teams, you'll take ownership of assigned projects, prepare detailed engineering documentation and ensure designs are accurate, efficient and ready for production. We're looking for someone who can work independently, identify problems early and deliver practical solutions without constant supervision.\nKey responsibilities\n- Interpret architectural drawings, specifications and project requirements to develop manufacturable lighting solutions.\n- Prepare accurate 2D and 3D CAD drawings, bills of materials (BOMs) and technical documentation.\n- Design and engineer custom components for project-specific applications.\n- Take ownership of assigned projects from initial design through to prod",
+   "key_lines": [
+    "You'll be responsible for translating architectural designs and project requirements into practical, manufacturable lighting solutions. Working closely with our sales, design and manufacturing teams, you'll take ownership of assigned projects, prepare detailed engineering documentation and ensure designs are accurate, efficient and ready for production. We're looking for someone who can work independently, identify problems early and deliver practical solutions without constant supervision.",
+    "- Interpret architectural drawings, specifications and project requirements to develop manufacturable lighting solutions.",
+    "- Collaborate with sales, design, purchasing and production teams to ensure technical, aesthetic and manufacturing requirements are achieved.",
+    "- Minimum 3 years' experience in manufacturing, fabrication, production engineering, product design or technical drafting.",
+    "- Strong 2D CAD skills, preferably AutoCAD LT.",
+    "- Experience with 3D CAD software, ideally PTC Creo Parametric.",
+    "- Competitive remuneration based on skills and experience.",
+    "- Work closely with production teams and see your designs become finished products."
+   ]
+  },
+  {
+   "id": "95225412",
+   "source": "seek",
+   "title": "Junior Geologist",
+   "company": "Earth AI",
+   "location": "Sydney NSW",
+   "url": "https://www.seek.com.au/job/95225412",
+   "work_type": "Full time",
+   "salary": "$130,000 per year + bonus",
+   "listed_at": "2026-10-13T02:14:26.546Z",
+   "expires_at": "2026-11-12T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a Geologist?"
+   ],
+   "summary": "Earth AI is looking for a graduate level geologist to analyse prospective areas in NSW and become an integral part of the operations team. ",
+   "opening": "About the business\nEARTH AI is a fast-growing tech startup transforming the way critical metals are discovered. Founded in 2016 in Sydney, we are on a mission to secure the future of technology and infrastructure by responsibly sourcing the metals essential for global advancement. Using cutting-edge technology, we identify and develop new metal deposits with unmatched efficiency and sustainability. Our vision is to lead the industry by discovering and owning the majority of future metal deposits while becoming the most advanced, efficient, and responsible metal commodity company in the world.\nAbout the role\nEarth AI is looking for a graduate level geologist to analyse prospective areas in NSW and become an integral part of the operations team. You will be joining a team of passionate and motivated geologists, engineers and software developers, with the opportunity to grow your geological",
+   "key_lines": [
+    "EARTH AI is a fast-growing tech startup transforming the way critical metals are discovered. Founded in 2016 in Sydney, we are on a mission to secure the future of technology and infrastructure by responsibly sourcing the metals essential for global advancement. Using cutting-edge technology, we identify and develop new metal deposits with unmatched efficiency and sustainability. Our vision is to lead the industry by discovering and owning the majority of future metal deposits while becoming the most advanced, efficient, and responsible metal commodity company in the world.",
+    "Earth AI is looking for a graduate level geologist to analyse prospective areas in NSW and become an integral part of the operations team. You will be joining a team of passionate and motivated geologists, engineers and software developers, with the opportunity to grow your geological leadership skills as Earth AI continues to grow.",
+    "What’s essential?",
+    "- Field/outdoor experience;"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+  "percent": 35,
+  "rationale": [
+    "Agency project engineer listing for civil infrastructure delivery.",
+    "Framing and coordinator-style capital works point to experienced hire.",
+    "Agency with no clear junior pathway."
+  ],
+  "caution": "agency experienced",
+  "gaps": [
+    "project engineer capital works experience"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [
+    "Essential criteria years not fully explicit in digest; treat as experienced project delivery"
+  ],
+  "route": "SEEK",
+  "apply_email": null,
+  "employer_is_agency": true,
+  "open": true,
+  "company": "Aspect Personnel",
+  "title": "Project Engineer",
+  "location": "Pakenham, West Gippsland & Latrobe Valley VIC",
+  "url": "https://www.seek.com.au/job/95232534",
+  "listed_at": "2026-10-13T04:59:55.985Z",
+  "expires_at": "2026-11-12T04:59:00.000Z",
+  "screening_questions": [],
+  "apply_instructions": "Apply via SEEK",
+  "seek_id": "95232534",
+  "screened_at": "2026-10-13T06:14:58Z"
+}

@@ -47,22 +47,16 @@
    "notes": "20261012T2026Z employers rotation: LiveHire board JS-heavy/curl shell; tracker already has READY Graduate Engineer Roads & Highways since 3 Oct 2026 within repeat_block. No new junior record."
   },
   "Winslow Constructors": {
-   "careers_url": "https://winslow.com.au/work-with-us/graduate-program",
-   "checked_at": "2026-09-30",
-   "open_junior_roles": [],
-   "notes": "blocked_prior_outreach (Winslow Group undergraduate/graduate APPLICATION_UNDER_REVIEW 2026-09-27). Ballarat/Warrnambool cadet ads open via Move To More / Prosple; Prosple eligibility lists Citizen/PR."
+   "checked_at": "2026-10-13",
+   "notes": "20261013T0611Z: Ballarat Undergraduate/Graduate Cadets still listed in open web; APPLICATION_UNDER_REVIEW already on tracker. "
   },
   "Symal": {
-   "careers_url": "https://symal.com.au/programs/ignite/",
-   "checked_at": "2026-10-10",
-   "open_junior_roles": [],
-   "notes": "Ignite 2027 intake closed; reopens March 2027. Eligibility requires Australian or New Zealand citizen or permanent resident."
+   "checked_at": "2026-10-13",
+   "notes": "Ignite 2027 intake closed; reopens March 2027. Eligibility requires Australian or New Zealand citizen or permanent resident. recruitment@symal.com.au published for questions."
   },
   "Civilex": {
-   "careers_url": "https://symal.com.au/programs/ignite/",
-   "checked_at": "2026-10-10",
-   "open_junior_roles": [],
-   "notes": "Civilex operates under Symal; same Ignite pathway. No separate open junior Civilex advert found this tick."
+   "checked_at": "2026-10-13",
+   "notes": "Civilex operates under Symal; same Ignite pathway. No separate open junior Civilex vacancy found this tick."
   },
   "Bild Group": {
    "company_url": "https://bild.group/",
@@ -130,15 +124,18 @@
   },
   "Martens & Associates": {
    "careers_url": "https://www.martens.com.au/careers/",
-   "checked_at": "2026-10-10",
-   "open_junior_roles": [],
-   "notes": "blocked_prior_outreach (Civil Drafter MANUAL_APPLIED 2026-09-25). Open Intern Civil Design Engineer and Civil Design Engineer posts; advert text prefers no restricted visa holders."
+   "checked_at": "2026-10-13",
+   "open_junior_roles": [
+    "Intern Civil Design Engineer (EmploymentHero)",
+    "Civil Drafter Junior to Mid (visa restricted; already applied 25 Sep)"
+   ],
+   "notes": "20261013T0611Z: Intern Civil Design Engineer and Junior Civil Drafter open on EmploymentHero; Junior Drafter requires no restricted visa holders; Marc already MANUAL_APPLIED Junior Drafter 25 Sep 2026 so employer blocked within 90 days."
   },
   "Civille": {
    "careers_url": "https://www.civille.com.au/",
-   "checked_at": "2026-09-30",
+   "checked_at": "2026-10-13",
    "open_junior_roles": [],
-   "notes": "blocked_prior_outreach (Graduate Civil/Structural MANUAL_APPLIED / SEEK receipt 2026-09-26)."
+   "notes": "20261013T0611Z: Graduate Civil/Structural or Civil/Environmental already MANUAL_APPLIED 26 Sep 2026 (SEEK receipt); first-class honours framing. "
   },
   "Melton City Council": {
    "careers_url": "https://meltoncity-external.applynow.net.au/",
@@ -149,12 +146,9 @@
    "notes": "Civil Projects Officer Band 6 screened 48 percent (below threshold). GIS Officer requires spatial science."
   },
   "BMD Group": {
-   "careers_url": "https://www.bmdgroup.global/careers/graduates-entry-pathways",
-   "checked_at": "2026-10-01",
-   "open_junior_roles": [
-    "Undergraduate Engineers Civil & Electrical Healesville SEEK 94858362"
-   ],
-   "notes": "Undergrad role requires currently studying Bachelor graduating 2028; not a fit for Marc (BSCE 2019, Adv Dip Feb 2026). Foundations program EOI page only."
+   "checked_at": "2026-10-13",
+   "careers_url": "https://www.bmdgroup.global/careers/graduates-entry-pathways/foundations-graduate-program",
+   "notes": "20261013T0611Z: Foundations program register-for-next-intake only; no open application this tick. "
   },
   "Georgiou Group": {
    "careers_url": "https://georgiou.csod.com/ux/ats/careersite/4/home?c=georgiou",
@@ -676,10 +670,11 @@
    "notes": "Councils/government tick 20261007T1011Z (off-list speculative): careers page has Graduate Experience section, no Available Positions, publishes careers@reevesenvico.com; David Fair (Operations and Compliance Manager) named on careers and team pages. Published SPECULATIVE_ENQUIRY PREPARED_NOT_SENT."
   },
   "Xeros Piccolo Consulting Engineers": {
+   "company_url": "https://www.xerospiccolo.com.au/",
    "careers_url": "https://www.xerospiccolo.com.au/careers/",
-   "checked_at": "2026-10-07",
+   "checked_at": "2026-10-13",
    "open_junior_roles": [],
-   "notes": "Wagga Wagga/Griffith NSW. Open roles: Graduate to Mid-Level Structural Engineer, Senior Civil Engineer, Revit Drafter (lead). Standing EOI form welcomes graduates and civil drafters (form upload, no inbox). Not published this tick (one speculative per run); candidate for a later speculative/EOI pack."
+   "notes": "EOI form welcomes graduates and Civil Drafter/Civil Engineer; office emails wagga@/griffith@ not stated as application inboxes. SPECULATIVE READY_JEREMIE_EMPLOYER_FORM this tick (20261013T0611Z)."
   },
   "Arup Australia": {
    "careers_url": "https://jobs.arup.com/jobs",
@@ -1812,6 +1807,43 @@
    ],
    "published": [
     "Wagga Wagga City Council Civil Design Engineer, Cadet or Graduate level (READY_JEREMIE_EMPLOYER_PORTAL)"
+   ]
+  },
+  {
+   "run_id": "20261013T0611Z",
+   "rotation": "employers",
+   "checked_at": "2026-10-13T06:22:35Z",
+   "checked": [
+    {
+     "name": "Martens & Associates",
+     "url": "https://www.martens.com.au/careers/",
+     "notes": "20261013T0611Z: Intern Civil Design Engineer and Junior Civil Drafter open on EmploymentHero; Junior Drafter requires no restricted visa hol"
+    },
+    {
+     "name": "Civille",
+     "url": "https://www.civille.com.au/",
+     "notes": "20261013T0611Z: Graduate Civil/Structural or Civil/Environmental already MANUAL_APPLIED 26 Sep 2026 (SEEK receipt); first-class honours fram"
+    },
+    {
+     "name": "Winslow Constructors",
+     "url": "",
+     "notes": "20261013T0611Z: Ballarat Undergraduate/Graduate Cadets still listed in open web; APPLICATION_UNDER_REVIEW already on tracker. "
+    },
+    {
+     "name": "Symal",
+     "url": "",
+     "notes": "Ignite 2027 intake closed; reopens March 2027. Eligibility requires Australian or New Zealand citizen or permanent resident. recruitment@sym"
+    },
+    {
+     "name": "Civilex",
+     "url": "",
+     "notes": "Civilex operates under Symal; same Ignite pathway. No separate open junior Civilex vacancy found this tick."
+    },
+    {
+     "name": "BMD Group",
+     "url": "https://www.bmdgroup.global/careers/graduates-entry-pathways/foundations-graduate-program",
+     "notes": "20261013T0611Z: Foundations program register-for-next-intake only; no open application this tick. "
+    }
    ]
   }
  ],

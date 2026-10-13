@@ -1,0 +1,31 @@
+{
+  "percent": 18,
+  "rationale": [
+    "Structural consulting engineer 3-7 years via agency.",
+    "Requires Australian or NZ citizen or permanent resident.",
+    "Wrong level and citizenship mandatory fail."
+  ],
+  "caution": "citizen/PR + structural mid-level",
+  "gaps": [
+    "3-7 years structural",
+    "citizenship/PR"
+  ],
+  "mandatory_unmet": [
+    "Australian or New Zealand citizens, or Australian permanent residents"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": null,
+  "employer_is_agency": true,
+  "open": true,
+  "company": "Talent Web Property",
+  "title": "Engineer",
+  "location": "Sydney NSW",
+  "url": "https://www.seek.com.au/job/95231303",
+  "listed_at": "2026-10-13T04:22:25.214Z",
+  "expires_at": "2026-11-12T04:22:00.000Z",
+  "screening_questions": [],
+  "apply_instructions": "Apply via SEEK",
+  "seek_id": "95231303",
+  "screened_at": "2026-10-13T06:14:58Z"
+}

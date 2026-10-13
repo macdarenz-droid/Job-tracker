@@ -1,0 +1,36 @@
+{
+  "percent": 25,
+  "rationale": [
+    "Civil estimator on energy/substation civil packages.",
+    "Minimum 5 years civil construction estimating unmet.",
+    "Not drafting or graduate site."
+  ],
+  "caution": "5 years estimating",
+  "gaps": [
+    "5 years estimating"
+  ],
+  "mandatory_unmet": [
+    "Minimum 5 years' experience in civil construction estimating"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": null,
+  "employer_is_agency": false,
+  "open": true,
+  "company": "Archos Pty Ltd",
+  "title": "Civil Estimator",
+  "location": "Wyong, Gosford & Central Coast NSW",
+  "url": "https://www.seek.com.au/job/95232400",
+  "listed_at": "2026-10-13T04:56:28.669Z",
+  "expires_at": "2026-11-12T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a Civil Estimator?",
+    "How much notice are you required to give your current employer?",
+    "Do you have experience preparing and submitting tenders?"
+  ],
+  "apply_instructions": "Apply via SEEK",
+  "seek_id": "95232400",
+  "screened_at": "2026-10-13T06:14:58Z"
+}

@@ -1,0 +1,209 @@
+[
+ {
+  "id": "7fb3bd2e-1cd5-45ba-b0d4-587768c91244",
+  "key": "manual:7fb3bd2e-1cd5-45ba-b0d4-587768c91244",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261013T0611Z",
+  "created_at": "2026-10-13T06:21:41.000Z",
+  "updated_at": "2026-10-13T06:21:41.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "bf9a8648-3992-40aa-9045-a5684fba8f19",
+    "path": "/api/documents/bf9a8648-3992-40aa-9045-a5684fba8f19",
+    "filename": "Marc_Masarate_Hall_Contracting_Pty_Ltd_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-13T06:21:44.989Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "937272d2-3233-48f7-8902-2b4db2df14fd",
+    "path": "/api/documents/937272d2-3233-48f7-8902-2b4db2df14fd",
+    "filename": "Marc_Masarate_Hall_Contracting_Pty_Ltd_Graduate_Engineer_Cover_Letter.pdf",
+    "sha256": "252cff5635b0ed0bdb83b4126cf5d8782d3fba9c298c718866d1f7c66a6c6300",
+    "size_bytes": 51682,
+    "kind": "cover",
+    "uploaded_at": "2026-10-13T06:21:44.150Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Hall Contracting Pty Ltd",
+  "role": "Graduate Engineer",
+  "location": "Brisbane QLD (Sunshine Coast office / FIFO)",
+  "job_url": "https://www.seek.com.au/job/95232723",
+  "company_url": "https://www.hallcontracting.com.au/",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Graduate Engineer (Hall Contracting): Marc Darenz Masarate",
+  "email_body": "Hello,\n\nI am applying through SEEK for the Graduate Engineer roles at Hall Contracting (job 95232723).\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge. I am based in Melton VIC, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am available for site, regional and FIFO work.\n\nThe pathway from the Sunshine Coast office into FIFO site engineering on marine, dredging and civil infrastructure is the kind of mentored delivery work I want to learn. I do not yet have Australian marine construction experience.\n\nWould you be open to considering my application? I've attached my resume and cover letter.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Explicit Graduate Engineer pathway toward site engineer with mentorship and FIFO mobilisation.",
+   "BSCE plus Advanced Diploma and under two years site experience fit the recent-graduate band; 485 visa meets Australian working rights with no sponsorship asked.",
+   "Marine and dredging focus is new to Marc, but civil infrastructure, QA docs and site coordination overlap his facts; Brisbane or Sunshine Coast preference is discussable relocation."
+  ],
+  "gaps": [
+   "Australian marine/dredging project exposure",
+   "Not currently living in Brisbane or Sunshine Coast"
+  ],
+  "match_score": {
+   "percent": 68,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Explicit Graduate Engineer pathway toward site engineer with mentorship and FIFO mobilisation.",
+    "BSCE plus Advanced Diploma and under two years site experience fit the recent-graduate band; 485 visa meets Australian working rights with no sponsorship asked.",
+    "Marine and dredging focus is new to Marc, but civil infrastructure, QA docs and site coordination overlap his facts; Brisbane or Sunshine Coast preference is discussable relocation."
+   ],
+   "caution": "Ideal base Brisbane or Sunshine Coast; marine/dredging interest preferred; Bachelor wording (Philippine BSCE)."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-13T05:05:43.130Z",
+   "expires_at": "2026-11-12T05:05:00.000Z",
+   "verified_at": "2026-10-13T06:13:13.000Z",
+   "apply_instructions": "Apply via SEEK",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Open https://www.seek.com.au/job/95232723 and confirm the Graduate Engineer advert is still open.",
+   "Upload the resume and cover letter PDFs from this pack.",
+   "Confirm right to work: Subclass 485 with full working rights to December 2027.",
+   "Do not claim Australian marine or dredging experience, or that Marc already lives in Brisbane or the Sunshine Coast.",
+   "After the SEEK receipt arrives, press Applied on this record with the date."
+  ],
+  "notes": "SEEK is the advertised route. No employer-published direct application email found for this advert.\nChecked 13 Oct 2026. No employer-published application inbox or named engineering contact found for this advert; SEEK is the apply route. Gmail in:anywhere for Hall Contracting found no prior application receipt.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-13, closes 2026-11-12). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate Engineer role on SEEK.\n• They may ask about: Australian marine/dredging project exposure → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Not currently living in Brisbane or Sunshine Coast → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-13, closes 2026-11-12). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate Engineer role on SEEK.",
+   "They may ask about: Australian marine/dredging project exposure → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Not currently living in Brisbane or Sunshine Coast → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-13T06:21:41.000Z",
+  "seek_id": "95232723",
+  "duplicate_key": "hallcontractingptyltd|seek:95232723"
+ },
+ {
+  "id": "b9866543-4f17-4fd7-b986-6228f3e83717",
+  "key": "manual:b9866543-4f17-4fd7-b986-6228f3e83717",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261013T0611Z",
+  "created_at": "2026-10-13T06:21:45.000Z",
+  "updated_at": "2026-10-13T06:21:45.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "a7e169d7-b4d8-4ebe-9126-78a9267ab06e",
+    "path": "/api/documents/a7e169d7-b4d8-4ebe-9126-78a9267ab06e",
+    "filename": "Marc_Masarate_Xeros_Piccolo_Consulting_Engineers_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-13T06:21:47.971Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "19c13478-8827-4b1a-9bf9-09b8e17511a8",
+    "path": "/api/documents/19c13478-8827-4b1a-9bf9-09b8e17511a8",
+    "filename": "Marc_Masarate_Xeros_Piccolo_Consulting_Engineers_Speculative_enquiry_graduate_civil_engin_Cover_Letter.pdf",
+    "sha256": "3e000873e6c3287da4bf197bc0a8cfc5b2ba967706e16a2367d896674704f275",
+    "size_bytes": 48386,
+    "kind": "cover",
+    "uploaded_at": "2026-10-13T06:21:46.706Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Xeros Piccolo Consulting Engineers",
+  "role": "Speculative enquiry: graduate civil engineer or civil drafter (Wagga Wagga / Griffith NSW)",
+  "location": "Wagga Wagga NSW / Griffith NSW",
+  "job_url": "https://www.xerospiccolo.com.au/careers/",
+  "company_url": "https://www.xerospiccolo.com.au/",
+  "status": "READY_JEREMIE_EMPLOYER_FORM",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "application_route": "EMPLOYER_FORM",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.xerospiccolo.com.au/careers/",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Speculative enquiry: graduate civil engineer or civil drafter, Marc Masarate",
+  "email_body": "Hello,\n\nThis is a speculative enquiry, not a reply to an advertised vacancy. Your careers page invites expressions of interest from graduates and drafting disciplines, including Civil Engineer and Civil Drafter, so I wanted to introduce myself.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge. I am based in Melton VIC, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am available for site, regional and FIFO work.\n\nYour mix of civil design, drafting, construction monitoring and site inspections across the Riverina is the kind of consultancy work I want to learn. My drafting so far is from study rather than a paid Australian role.\n\nWould you keep me in mind for a graduate civil engineering or civil drafting opening, now or later? I've attached my resume and cover letter.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Riverina multidisciplinary consultancy delivering civil and structural design, drafting, construction monitoring and site inspections across residential, commercial and industrial work.",
+   "Careers EOI form explicitly invites graduates and lists Civil Engineer and Civil Drafter among roles of interest, matching Marc Advanced Diploma drafting and site background.",
+   "Regional NSW FIFO/relocation is within Marc availability; no current junior civil vacancy is claimed."
+  ],
+  "gaps": [
+   "No current advertised junior civil vacancy",
+   "No Australian civil design office experience yet",
+   "Relocation to Wagga Wagga or Griffith for Marc to confirm"
+  ],
+  "match_score": {
+   "percent": 70,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Riverina multidisciplinary consultancy delivering civil and structural design, drafting, construction monitoring and site inspections across residential, commercial and industrial work.",
+    "Careers EOI form explicitly invites graduates and lists Civil Engineer and Civil Drafter among roles of interest, matching Marc Advanced Diploma drafting and site background.",
+    "Regional NSW FIFO/relocation is within Marc availability; no current junior civil vacancy is claimed."
+   ],
+   "caution": "No open junior civil vacancy verified; Structural Graduate SEEK reminder Jul 2026 was incomplete and outside 90 days; office emails are general contact not stated as application inboxes."
+  },
+  "advert": {
+   "source": "employer_careers",
+   "listed_at": "2026-10-13T06:21:20Z",
+   "expires_at": "",
+   "verified_at": "2026-10-13T06:21:45.000Z",
+   "apply_instructions": "No junior civil vacancy verified as open for Marc. Careers page Expressions of Interest form welcomes students, graduates and drafting disciplines including Civil Drafter and Civil Engineer.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Open https://www.xerospiccolo.com.au/careers/ and use the Expressions of Interest form.",
+   "Select Civil Engineer or Civil Drafter as role of interest, Graduate experience, and General Expression of Interest if no matching vacancy.",
+   "Upload the resume and this cover letter from the record's attachments.",
+   "If there is a message box, paste the short speculative message on this record.",
+   "Do not email wagga@ or griffith@ with the same pack; those are office contacts not stated as application inboxes. After submitting, press Applied on this record with the date."
+  ],
+  "notes": "SPECULATIVE_ENQUIRY. SEEK sweeps at 3, 7 and 14 days plus employers rotation (Martens blocked by Sep 2025 SEEK apply; Civille prior apply; Winslow already under review; Symal Ignite citizen/PR and closed; Civilex under Symal; BMD Foundations register-only) left fewer than two publishable adverts, so this is the runbook's one speculative enquiry through the employer EOI form.\nChecked 13 Oct 2026. Site publishes wagga@ and griffith@ office addresses without stating they accept applications; the careers EOI form is the employer channel. Gmail showed only a July 2026 SEEK incomplete-application reminder for Graduate-mid Structural (outside repeat_block_days; not a submitted receipt). Tracker has no Xeros record.\nHOW GROK AI FOUND THIS\nFound on employer_careers (listed 2026-10-13). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Speculative enquiry: graduate civil engineer or civil drafter (Wagga Wagga / Griffith NSW) role on SEEK.\n• They may ask about: No current advertised junior civil vacancy → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian civil design office experience yet → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Relocation to Wagga Wagga or Griffith for Marc to confirm → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_careers (listed 2026-10-13). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Speculative enquiry: graduate civil engineer or civil drafter (Wagga Wagga / Griffith NSW) role on SEEK.",
+   "They may ask about: No current advertised junior civil vacancy → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian civil design office experience yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Relocation to Wagga Wagga or Griffith for Marc to confirm → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-13T06:21:45.000Z",
+  "duplicate_key": "xerospiccoloconsultingengineers|xerospiccolo.com.au/careers"
+ }
+]

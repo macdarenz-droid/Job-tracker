@@ -1,0 +1,39 @@
+{
+  "percent": 48,
+  "rationale": [
+    "Advanced Diploma match and AutoCAD/Revit align with Marc study.",
+    "Mandatory 3-5 years civil engineering experience in temporary works is unmet.",
+    "Sydney trench-safety specialist role, not junior drafting or site graduate."
+  ],
+  "caution": "3-5 years mandatory",
+  "gaps": [
+    "3-5 years temporary works"
+  ],
+  "mandatory_unmet": [
+    "3-5 years of experience in civil engineering, ideally temporary works"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": null,
+  "employer_is_agency": false,
+  "open": true,
+  "company": "United Rentals Australia Pty Ltd",
+  "title": "Civil Engineering",
+  "location": "Sydney NSW",
+  "url": "https://www.seek.com.au/job/95233585",
+  "listed_at": "2026-10-13T05:34:39.269Z",
+  "expires_at": "2026-11-12T12:59:59.999Z",
+  "screening_questions": [
+    "How many years' experience do you have as a project engineer?",
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have in the construction industry?",
+    "Do you have experience in a sales role?",
+    "How many years' experience do you have as a civil engineer?",
+    "Have you completed a qualification in civil engineering?",
+    "Which of the following CAD software do you have experience with?",
+    "What's your expected annual base salary?"
+  ],
+  "apply_instructions": "Apply via SEEK",
+  "seek_id": "95233585",
+  "screened_at": "2026-10-13T06:14:58Z"
+}
