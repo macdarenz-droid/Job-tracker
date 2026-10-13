@@ -1,0 +1,29 @@
+{
+ "percent": 25,
+ "rationale": [
+  "Sourcey (agency) Civil Designer/3D Modeller, Melbourne.",
+  "Advert states 5+ years experience in building civil design.",
+  "Marc's Civil 3D is academic."
+ ],
+ "caution": "",
+ "gaps": [],
+ "mandatory_unmet": [
+  "5+ years civil design experience"
+ ],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK advert 95101347.",
+ "open": true,
+ "employer_is_agency": true,
+ "id": "95101347",
+ "company": "Sourcey",
+ "title": "Civil Designer/ 3D Modeller",
+ "location": "Melbourne VIC",
+ "url": "https://www.seek.com.au/job/95101347",
+ "listed_at": "2026-10-07T01:06:05.194Z",
+ "expires_at": "2026-11-06T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?"
+ ]
+}

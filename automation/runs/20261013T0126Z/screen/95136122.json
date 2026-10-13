@@ -1,0 +1,27 @@
+{
+ "percent": 15,
+ "rationale": [
+  "Public Sector People Student Engineer (Civil), Nerang.",
+  "Must be currently enrolled in second or third year BE (Civil).",
+  "Marc is not enrolled."
+ ],
+ "caution": "",
+ "gaps": [],
+ "mandatory_unmet": [
+  "Current enrolment in 2nd/3rd year Bachelor of Engineering (Civil)"
+ ],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK advert 95136122.",
+ "open": true,
+ "employer_is_agency": true,
+ "id": "95136122",
+ "company": "Public Sector People",
+ "title": "Student Engineer (Civil)",
+ "location": "Nerang, Gold Coast QLD",
+ "url": "https://www.seek.com.au/job/95136122",
+ "listed_at": "2026-10-08T03:55:11.231Z",
+ "expires_at": "2026-11-07T03:55:00.000Z",
+ "screening_questions": []
+}

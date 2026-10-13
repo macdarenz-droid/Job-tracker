@@ -751,6 +751,18 @@
    "checked_at": "2026-10-12",
    "open_junior_roles": [],
    "notes": "Southbank and Newtown (Geelong) offices; team page lists graduate and student engineers; only info@creocivil.com.au published and directors' phones; no careers channel."
+  },
+  "Robinson Civil Group": {
+   "careers_url": "https://www.robinsoncivil.com.au/our-team/working-at-rcg/",
+   "checked_at": "2026-10-13",
+   "open_junior_roles": [],
+   "notes": "Far North QLD road contractor (Wondecla). Careers page invites applications to recruitment@robinsoncivil.com.au. No engineering vacancy advertised 13 Oct 2026; speculative PREPARED_NOT_SENT published run 20261013T0126Z."
+  },
+  "MultiPro Civil Construction": {
+   "careers_url": "https://www.multiprocivil.com.au/careers",
+   "checked_at": "2026-10-13",
+   "open_junior_roles": [],
+   "notes": "Campbellfield VIC civil and landscape contractor. Careers page is an expression-of-interest web form (no vacancy listed). Candidate for a future speculative enquiry via the form (READY_JEREMIE_EMPLOYER_FORM)."
   }
  },
  "sweep_log": [
@@ -1853,6 +1865,20 @@
     "Open web search Melbourne west graduate/junior civil (Robert Bird Group graduate already tracked; Melton Design Engineer closed 5 Aug 2026; Mott MacDonald grad requires current study)"
    ],
    "notes": "browse.py working with CHROME_BIN=/usr/bin/google-chrome; trust step skipped (permission denied on /root CA bundle) but pages rendered."
+  },
+  {
+   "run": "20261013T0126Z",
+   "rotation": "victoria_offsite",
+   "checked_at": "2026-10-13T12:50:00+11:00",
+   "boards": [
+    "Open web Victoria council/graduate civil (Yarra, Corangamite, Baw Baw, Knox, Melton MEL1888 all closed; Central Highlands Water, Mildura, Lower Murray Water, Senversa, SMEC, JCA, KBR, Hatch, Colliers, DTP Road Design East already tracked)",
+    "GHD Graduate Civil & Structural Drafters/Designers Melbourne (closed 5 Apr 2026; citizen/PR only)",
+    "DTP 'Road design engineer & technical officer, safer streets' aggregator listing removed",
+    "Stantec AU board via browse.py (Civil Cadet Drafter QLD no longer listed; 2027 Graduate Water Brisbane requires citizen/PR and 1 to 2 years post graduation)",
+    "BMD Foundations graduate Gold Coast (graduated within 24 months required), Fulton Hogan graduate (cycle closed), fgf Developments Site Engineer Cairns (1 to 5 years)",
+    "MultiPro Civil (EOI form) and Robinson Civil Group (recruitment inbox) careers pages"
+   ],
+   "notes": "browse.py trust permission denied on /root CA bundle; browse.py text/links worked with CHROME_BIN=/usr/bin/google-chrome."
   }
  ]
 }

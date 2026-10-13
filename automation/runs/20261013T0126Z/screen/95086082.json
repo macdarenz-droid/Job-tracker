@@ -1,0 +1,35 @@
+{
+ "percent": 35,
+ "rationale": [
+  "MMD Recruitment (agency) Site/Project Engineers, Gladstone FIFO renewables.",
+  "Civil and FRP experience essential, proven site experience on energy projects, immediate start.",
+  "Marc has no FRP or renewable energy work."
+ ],
+ "caution": "",
+ "gaps": [],
+ "mandatory_unmet": [
+  "Civil and FRP experience is essential",
+  "Proven site experience on civil, infrastructure or energy projects"
+ ],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK advert 95086082.",
+ "open": true,
+ "employer_is_agency": true,
+ "id": "95086082",
+ "company": "MMD Recruitment",
+ "title": "Site/Project Engineers (Civil & Energy)",
+ "location": "Gladstone, Gladstone & Central QLD",
+ "url": "https://www.seek.com.au/job/95086082",
+ "listed_at": "2026-10-06T06:44:42.207Z",
+ "expires_at": "2026-11-05T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "What's your expected annual base salary?",
+  "How many years' experience do you have as a Civil Project Engineer?",
+  "How much notice are you required to give your current employer?",
+  "Have you completed a qualification in civil engineering?",
+  "Have you worked in a role which requires a sound understanding of Safety Standards?"
+ ]
+}

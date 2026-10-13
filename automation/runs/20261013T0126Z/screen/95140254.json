@@ -1,0 +1,37 @@
+{
+ "percent": 40,
+ "rationale": [
+  "Mendi Constructions Civil Project Engineer, Townsville.",
+  "Requires demonstrated delivery of civil infrastructure, procurement and subcontractor management, programming.",
+  "Marc has under one year of site work, none in Australia."
+ ],
+ "caution": "",
+ "gaps": [],
+ "mandatory_unmet": [
+  "Demonstrated experience delivering civil infrastructure projects",
+  "Procurement and subcontractor management experience"
+ ],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK advert 95140254.",
+ "open": true,
+ "employer_is_agency": false,
+ "id": "95140254",
+ "company": "Mendi Constructions",
+ "title": "Civil Project Engineer",
+ "location": "Townsville, Northern QLD",
+ "url": "https://www.seek.com.au/job/95140254",
+ "listed_at": "2026-10-08T05:51:35.135Z",
+ "expires_at": "2026-11-07T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "How many years' experience do you have as a Civil Project Engineer?",
+  "How much notice are you required to give your current employer?",
+  "Have you completed a qualification in engineering?",
+  "How many years' experience do you have in the construction industry?",
+  "Do you have experience working on civil infrastructure projects?",
+  "Do you have a current Australian driver's licence?",
+  "Do you hold a Construction Induction Safety certificate (White Card)?"
+ ]
+}

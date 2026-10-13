@@ -1,0 +1,44 @@
+[
+ {
+  "id": "78962ff3-54f9-4b31-b17b-d5942306da03",
+  "key": "manual:78962ff3-54f9-4b31-b17b-d5942306da03",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261013T0126Z",
+  "created_at": "2026-10-13T01:41:53.000Z",
+  "updated_at": "2026-10-13T01:41:53.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Eden Ritchie Recruitment",
+  "role": "Civil Engineers",
+  "location": "Nerang, Gold Coast QLD",
+  "job_url": "https://www.seek.com.au/job/95141967",
+  "status": "HELD_ELIGIBILITY_UNCONFIRMED",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "SEEK",
+  "fit": [
+   "Eden Ritchie (agency) Civil Engineers, Nerang QLD, for an unnamed Queensland Government road client, 12 month contract, roles across varying levels of experience.",
+   "Road and bridge design, construction, maintenance and rehabilitation; White Card and C class licence asked, both held.",
+   "Asks a recognised Bachelor of Engineering or accepted equivalent; whether Marc's BSCE (Philippines, 2019) is accepted is not on record, and his site experience is under one year."
+  ],
+  "gaps": [
+   "Site experience under one year, outside Australia",
+   "No contract administration or road maintenance program experience"
+  ],
+  "match_score": {
+   "percent": 62,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Eden Ritchie (agency) Civil Engineers, Nerang QLD, for an unnamed Queensland Government road client, 12 month contract, roles across varying levels of experience.",
+    "Road and bridge design, construction, maintenance and rehabilitation; White Card and C class licence asked, both held.",
+    "Asks a recognised Bachelor of Engineering or accepted equivalent; whether Marc's BSCE (Philippines, 2019) is accepted is not on record, and his site experience is under one year."
+   ],
+   "caution": "Agency with no named employer. Do not claim Engineers Australia assessment or Australian road experience."
+  },
+  "notes": "Held by Grok AI: Recognised Bachelor of Engineering or accepted equivalent: BSCE (Divine Word College of Legazpi, 2019) recognition not on record",
+  "checked_at": "2026-10-13T01:41:53.000Z",
+  "seek_id": "95141967",
+  "duplicate_key": "edenritchierecruitment|seek:95141967"
+ }
+]

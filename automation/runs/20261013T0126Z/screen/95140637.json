@@ -1,0 +1,34 @@
+{
+ "percent": 15,
+ "rationale": [
+  "Quality People Student Civil Engineer, Gold Coast.",
+  "Must be enrolled in second or third year of a Bachelor of Engineering.",
+  "Marc is not enrolled."
+ ],
+ "caution": "",
+ "gaps": [],
+ "mandatory_unmet": [
+  "Current enrolment in 2nd/3rd year Bachelor of Engineering"
+ ],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply via SEEK advert 95140637.",
+ "open": true,
+ "employer_is_agency": true,
+ "id": "95140637",
+ "company": "Quality People",
+ "title": "Student Civil Engineer",
+ "location": "Gold Coast QLD",
+ "url": "https://www.seek.com.au/job/95140637",
+ "listed_at": "2026-10-08T06:03:27.718Z",
+ "expires_at": "2026-11-07T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "Are you currently enrolled in the second or third year of a Washington Accord accredited Bachelor of Engineering degree?",
+  "Do you hold a current Class C drivers' license?",
+  "Do you own a suitable Personal Protective Equipment or PPE\n(safety boots, 100% cotton sleeved shirt, 100% cotton long trouser and Hard Hat with brim attachment)?",
+  "Are you willing to undertake Criminal History Screening?",
+  "Are you willing to relocate for this role?"
+ ]
+}
