@@ -1,0 +1,36 @@
+{
+ "percent": 74,
+ "rationale": [
+  "ShoreWorX Graduate Structural/Civil Engineer, Glendenning NSW: office-based shoring design with calculations, drawings and some site visits, mentored by an experienced engineer.",
+  "Asks for a Bachelor's in Civil or Structural Engineering and graduate or up to 2 years' experience; Marc holds a BSCE (2019) plus the Advanced Diploma (Feb 2026) and has under two years of experience.",
+  "AutoCAD is listed as a bonus; Australian working rights met by the 485 visa to December 2027; licence held."
+ ],
+ "caution": "Shoring and temporary works is structural/geotechnical; Marc's structural and geotechnical knowledge is coursework (AS 4100, AS/NZS 1170, AS 1726, AS 1289, method of joints). Sydney location means relocation to discuss.",
+ "gaps": [
+  "No Solidworks (advantageous only)",
+  "Structural and geotechnical knowledge is coursework, not design office work",
+  "Melton based; Sydney role needs relocation discussion"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply on SEEK (advert 95221380).",
+ "open": true,
+ "employer_is_agency": false,
+ "employer_line": "ShoreWorX's in-house engineering team designs temporary works for excavations where standard shoring is not enough, such as variable ground, vehicle loads near the trench or live services.",
+ "id": "95221380",
+ "company": "ShoreWorX",
+ "title": "Graduate Structural/Civil Engineer",
+ "location": "Glendenning, Sydney NSW",
+ "url": "https://www.seek.com.au/job/95221380",
+ "listed_at": "2026-10-13T00:15:40.859Z",
+ "expires_at": "2026-11-12T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "How many years' experience do you have as a Structural Civil Engineer?",
+  "How much notice are you required to give your current employer?",
+  "How many years' experience do you have as a Solidworks Draftsperson?",
+  "Have you completed a qualification in civil engineering?"
+ ]
+}

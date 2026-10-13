@@ -1,0 +1,34 @@
+{
+ "percent": 20,
+ "rationale": [
+  "Ethos Building insurance estimator.",
+  "Experienced insurance estimating required.",
+  "Out of scope."
+ ],
+ "caution": "",
+ "gaps": [],
+ "mandatory_unmet": [
+  "Experienced in insurance estimating"
+ ],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply on SEEK (advert 95218888).",
+ "open": true,
+ "employer_is_agency": false,
+ "id": "95218888",
+ "company": "Ethos Building",
+ "title": "Estimator - Insurance Building (Western/Northwestern/Northern Region)",
+ "location": "Docklands, Melbourne VIC",
+ "url": "https://www.seek.com.au/job/95218888",
+ "listed_at": "2026-10-12T21:36:17.196Z",
+ "expires_at": "2026-11-12T12:59:59.999Z",
+ "screening_questions": [
+  "How many years' experience do you have as a Building Insurance Estimator?",
+  "Which of the following statements best describes your right to work in Australia?",
+  "How many years' experience do you have in the insurance industry?",
+  "How many years of estimating experience do you have?",
+  "How many years' experience do you have in the construction industry?",
+  "Do you have a current Australian driver's licence?"
+ ]
+}

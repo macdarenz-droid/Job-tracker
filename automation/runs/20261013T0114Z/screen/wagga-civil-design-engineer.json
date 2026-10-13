@@ -1,0 +1,31 @@
+{
+ "percent": 74,
+ "rationale": [
+  "Wagga Wagga City Council Engineering Design Services role open at Cadet or Graduate level: assisting senior staff with road, stormwater and sewer designs for tender and construction.",
+  "Mandatory items are a tertiary qualification in Civil Engineering (Marc's BSCE), Class C licence or ability to obtain, and a White Card or willingness to obtain; all met. Registration applies to the Senior level only.",
+  "Marc's Advanced Diploma covered road geometry, earthworks, pavement and stormwater design in Civil 3D and AutoCAD, both named in the advert."
+ ],
+ "caution": "No sewer design (coursework covered road and stormwater only); no 12d Model. Regional NSW relocation to discuss. Pulse portal may ask selection criteria questions not visible on the listing.",
+ "gaps": [
+  "No sewer design experience",
+  "Has not used 12d Model, SewerGEMS, GIS or DRAINS",
+  "Design experience is coursework, not commercial",
+  "Regional NSW role; Melton based"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "EMPLOYER_PORTAL",
+ "apply_email": "",
+ "apply_instructions": "Apply on Council's Pulse portal (https://wagga.pulsesoftware.com/Pulse/jobs, card 'Senior Design Engineer Civil (all experience levels)', closes 1 Nov 2026 11:59pm). No application email published; Geordi Paxton is a phone enquiry contact only.",
+ "open": true,
+ "employer_is_agency": false,
+ "employer_line": "Wagga Wagga City Council's Engineering Design Services team delivers road, stormwater and sewer designs for tender and construction and will appoint this role at Cadet, Graduate, Experienced or Senior level.",
+ "id": "wagga-civil-design-engineer",
+ "company": "Wagga Wagga City Council",
+ "title": "Senior Design Engineer Civil (all experience levels), Cadet or Graduate level",
+ "location": "Civic Centre, 243 Baylis Street, Wagga Wagga NSW 2650",
+ "url": "https://wagga.pulsesoftware.com/Pulse/jobs",
+ "listed_at": "2026-10-11T00:00:00Z",
+ "expires_at": "2026-11-01T12:59:00Z",
+ "screening_questions": []
+}

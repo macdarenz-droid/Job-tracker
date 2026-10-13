@@ -1,0 +1,382 @@
+[
+ {
+  "id": "be31bf51-5059-4c23-b9aa-8ceaf77b29e5",
+  "key": "manual:be31bf51-5059-4c23-b9aa-8ceaf77b29e5",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261013T0114Z",
+  "created_at": "2026-10-13T01:23:47.000Z",
+  "updated_at": "2026-10-13T01:23:47.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "64744b3b-2c98-4285-8fe4-a96a6b4c9a61",
+    "path": "/api/documents/64744b3b-2c98-4285-8fe4-a96a6b4c9a61",
+    "filename": "Marc_Masarate_TNT_Plumbing_Drainage_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-13T01:23:49.545Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "3ba2714d-bae9-4a4b-8e16-02b359048b6f",
+    "path": "/api/documents/3ba2714d-bae9-4a4b-8e16-02b359048b6f",
+    "filename": "Marc_Masarate_TNT_Plumbing_Drainage_Site_Engineer_Site_Administration_Cover_Letter.pdf",
+    "sha256": "f78590130623e2543f414abf7120990da4528cc64768a43c190d263d51c8ff1b",
+    "size_bytes": 53387,
+    "kind": "cover",
+    "uploaded_at": "2026-10-13T01:23:48.689Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "TNT Plumbing & Drainage",
+  "role": "Site Engineer (Site Administration)",
+  "location": "Newcastle, Maitland & Hunter NSW",
+  "job_url": "https://www.seek.com.au/job/95220901",
+  "company_url": "https://www.tntplumbing.net/",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95220901",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Site Engineer, Site Administration (Newcastle): Marc Darenz Masarate",
+  "email_body": "Hello TNT Plumbing team,\n\nI am applying for the Site Engineer (Site Administration) role in Newcastle, advertised on SEEK (job 95220901).\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. Before that I worked on site in the Philippines from 2019 to 2020 as a project in charge engineer and then a field engineer. I am based in Melton VIC, hold a White Card, a driver licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am available for site, regional and FIFO work.\n\nOn those sites I prepared site reports, material records and progress reports, tracked procurement and materials, reviewed drawings and checked work against them, which lines up with the registers, ITPs, site diaries and delivery tracking in your advert. I have not worked with Tier 1 builders or on plumbing and drainage packages yet, and I have not used Procore or HammerTech.\n\nCould we talk about the role? I've attached my resume and cover letter.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "TNT Plumbing & Drainage Site Engineer (Site Administration), Newcastle: document control, RFIs, ITPs, site diaries, procurement tracking and handover records for Tier 1 builder projects.",
+   "Accepts a qualification in engineering or relevant experience; White Card and driver's licence required, both held.",
+   "Marc's Philippines site work (site reports, material records, procurement tracking, quality checks, drawing reviews) maps to most duties."
+  ],
+  "gaps": [
+   "No Tier 1 builder documentation experience",
+   "No commercial plumbing and drainage experience",
+   "Has not used HammerTech, Procore, Autodesk Construction Cloud or Project Simpel",
+   "Newcastle role; Melton based"
+  ],
+  "match_score": {
+   "percent": 62,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "TNT Plumbing & Drainage Site Engineer (Site Administration), Newcastle: document control, RFIs, ITPs, site diaries, procurement tracking and handover records for Tier 1 builder projects.",
+    "Accepts a qualification in engineering or relevant experience; White Card and driver's licence required, both held.",
+    "Marc's Philippines site work (site reports, material records, procurement tracking, quality checks, drawing reviews) maps to most duties."
+   ],
+   "caution": "Advert asks for experience with Tier 1 builders and their documentation requirements, which Marc does not have; plumbing and drainage background highly regarded but Marc has not worked on water or sewer projects. Newcastle relocation to discuss."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-12T23:52:12.371Z",
+   "expires_at": "2026-11-12T12:59:59.999Z",
+   "verified_at": "2026-10-13T01:15:57.000Z",
+   "apply_instructions": "Apply on SEEK (advert 95220901).",
+   "screening_questions": [
+    "How many years' experience do you have as a Site Administrator?",
+    "How much notice are you required to give your current employer?"
+   ]
+  },
+  "screening_answers": [
+   {
+    "question": "How many years' experience do you have as a Site Administrator?",
+    "answer": "Under 1 year: site reporting, material records, procurement tracking and progress reports as field engineer and project in charge engineer in the Philippines, April 2019 to February 2020."
+   },
+   {
+    "question": "How much notice are you required to give your current employer?",
+    "answer": "Not on record. Marc to answer."
+   }
+  ],
+  "checklist": [
+   "Open https://www.seek.com.au/job/95220901 and confirm the Site Engineer (Site Administration) advert is still open.",
+   "Upload Marc_Masarate_TNT_Plumbing_Drainage_Resume.pdf and the cover letter PDF from this pack.",
+   "Answer SEEK screening: site administration under 1 year (Philippines 2019 to 2020); notice Marc to confirm.",
+   "Do not claim Tier 1 builder, plumbing and drainage, or Procore/HammerTech experience.",
+   "Press Applied on the tracker after the SEEK receipt arrives."
+  ],
+  "notes": "SEEK apply only. admin@tntplumbing.net is a general business inbox with no statement that it accepts applications, so no email.\nChecked 2026-10-13. Site publishes only admin@tntplumbing.net and 02 4351 3711 as general contact (Wyong office); no statement that it accepts applications and no named engineering or project contact. Apply via SEEK.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-12, closes 2026-11-12). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Site Engineer (Site Administration) role on SEEK.\n• They may ask about: No Tier 1 builder documentation experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No commercial plumbing and drainage experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Has not used HammerTech, Procore, Autodesk Construction Cloud or Project Simpel → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-12, closes 2026-11-12). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Site Engineer (Site Administration) role on SEEK.",
+   "They may ask about: No Tier 1 builder documentation experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No commercial plumbing and drainage experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Has not used HammerTech, Procore, Autodesk Construction Cloud or Project Simpel → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-13T01:23:47.000Z",
+  "seek_id": "95220901",
+  "duplicate_key": "tntplumbingdrainage|seek:95220901"
+ },
+ {
+  "id": "bef27ae5-3761-4d71-b7a5-1cc2de3238e9",
+  "key": "manual:bef27ae5-3761-4d71-b7a5-1cc2de3238e9",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261013T0114Z",
+  "created_at": "2026-10-13T01:23:51.000Z",
+  "updated_at": "2026-10-13T01:23:51.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "66c6abcb-c1b3-44b3-aabe-67d13a2dcaf7",
+    "path": "/api/documents/66c6abcb-c1b3-44b3-aabe-67d13a2dcaf7",
+    "filename": "Marc_Masarate_ShoreWorX_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-13T01:23:53.270Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "239acec4-d61a-4484-a4f7-daed9f72f7c2",
+    "path": "/api/documents/239acec4-d61a-4484-a4f7-daed9f72f7c2",
+    "filename": "Marc_Masarate_ShoreWorX_Graduate_Structural_Civil_Engineer_Cover_Letter.pdf",
+    "sha256": "1915e517c994b19c510c33486fb811148c8f9f2e555b14abfc0bf2cc07eb5f7f",
+    "size_bytes": 55194,
+    "kind": "cover",
+    "uploaded_at": "2026-10-13T01:23:52.023Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "ShoreWorX",
+  "role": "Graduate Structural/Civil Engineer",
+  "location": "Glendenning, Sydney NSW",
+  "job_url": "https://www.seek.com.au/job/95221380",
+  "company_url": "https://shoreworx.com.au/",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "Dave Sellar",
+  "recipient_role": "State Manager NSW",
+  "recipient_email": "DaveS@ShoreWorx.com.au",
+  "contact_email": "DaveS@ShoreWorx.com.au",
+  "contact_evidence_url": "https://shoreworx.com.au/our-team/",
+  "contact_verified_at": "2026-10-13T01:23:51.000Z",
+  "contact_confidence": "published_direct",
+  "subject": "Graduate Structural/Civil Engineer (Glendenning): Marc Darenz Masarate",
+  "email_body": "Hello Dave,\n\nI am applying through SEEK for the Graduate Structural/Civil Engineer role at Glendenning (job 95221380), and as you look after NSW I wanted to reach you directly.\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. Before that I worked on site in the Philippines from 2019 to 2020 as a project in charge engineer and then a field engineer. I am based in Melton VIC, hold a White Card, a driver licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am available for site, regional and FIFO work.\n\nThe advert describes shoring calculations and drawings beside an experienced engineer. My coursework covered hand calculations by the method of joints, AS 4100, AS/NZS 1170, AS 1726 and AS 1289, and this is where I want to build real design experience. I have not used Solidworks, and my AutoCAD and Civil 3D work so far is from study rather than a paid design office.\n\nWould you be open to a short call about the role? I've attached my resume and cover letter.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "ShoreWorX Graduate Structural/Civil Engineer, Glendenning NSW: office-based shoring design with calculations, drawings and some site visits, mentored by an experienced engineer.",
+   "Asks for a Bachelor's in Civil or Structural Engineering and graduate or up to 2 years' experience; Marc holds a BSCE (2019) plus the Advanced Diploma (Feb 2026) and has under two years of experience.",
+   "AutoCAD is listed as a bonus; Australian working rights met by the 485 visa to December 2027; licence held."
+  ],
+  "gaps": [
+   "No Solidworks (advantageous only)",
+   "Structural and geotechnical knowledge is coursework, not design office work",
+   "Melton based; Sydney role needs relocation discussion"
+  ],
+  "match_score": {
+   "percent": 74,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "ShoreWorX Graduate Structural/Civil Engineer, Glendenning NSW: office-based shoring design with calculations, drawings and some site visits, mentored by an experienced engineer.",
+    "Asks for a Bachelor's in Civil or Structural Engineering and graduate or up to 2 years' experience; Marc holds a BSCE (2019) plus the Advanced Diploma (Feb 2026) and has under two years of experience.",
+    "AutoCAD is listed as a bonus; Australian working rights met by the 485 visa to December 2027; licence held."
+   ],
+   "caution": "Shoring and temporary works is structural/geotechnical; Marc's structural and geotechnical knowledge is coursework (AS 4100, AS/NZS 1170, AS 1726, AS 1289, method of joints). Sydney location means relocation to discuss."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-13T00:15:40.859Z",
+   "expires_at": "2026-11-12T12:59:59.999Z",
+   "verified_at": "2026-10-13T01:15:34.000Z",
+   "apply_instructions": "Apply on SEEK (advert 95221380).",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a Structural Civil Engineer?",
+    "How much notice are you required to give your current employer?",
+    "How many years' experience do you have as a Solidworks Draftsperson?",
+    "Have you completed a qualification in civil engineering?"
+   ]
+  },
+  "screening_answers": [
+   {
+    "question": "Which of the following statements best describes your right to work in Australia?",
+    "answer": "Subclass 485 visa with full working rights until December 2027. Do not claim citizenship or permanent residency."
+   },
+   {
+    "question": "How many years' experience do you have as a Structural Civil Engineer?",
+    "answer": "No paid structural or civil design role yet. Site engineering in the Philippines April 2019 to February 2020 (under one year), so choose the lowest band (less than 1 year)."
+   },
+   {
+    "question": "How much notice are you required to give your current employer?",
+    "answer": "Not on record. Marc to answer."
+   },
+   {
+    "question": "How many years' experience do you have as a Solidworks Draftsperson?",
+    "answer": "None. Marc has not used Solidworks; drafting is AutoCAD, Civil 3D and Revit coursework."
+   },
+   {
+    "question": "Have you completed a qualification in civil engineering?",
+    "answer": "Yes. Bachelor of Science in Civil Engineering (Divine Word College of Legazpi, 2019) and Advanced Diploma of Civil Construction Design (Albright Institute, February 2026)."
+   }
+  ],
+  "checklist": [
+   "Open https://www.seek.com.au/job/95221380 and confirm the Graduate Structural/Civil Engineer advert is still open.",
+   "Upload Marc_Masarate_ShoreWorX_Resume.pdf and the cover letter PDF from this pack.",
+   "Answer SEEK screening: 485 to Dec 2027; structural civil experience under 1 year; Solidworks none; civil qualification Yes; notice Marc to confirm.",
+   "Do not claim Solidworks, commercial design office work or Australian site experience.",
+   "Press Applied on the tracker after the SEEK receipt arrives; only then may the prepared note to Dave Sellar be considered under the normal send checks."
+  ],
+  "notes": "SEEK is the advertised route. Dave Sellar (State Manager NSW) has a published business email on the ShoreWorX team page; the email draft waits until Marc applies on SEEK.\nChecked 2026-10-13. Team page publishes the NSW State Manager's business email; the Glendenning office (2 Kilto Crescent) is in NSW, so he runs the state where the role sits. Engineers on the page have no published email. engineering@shoreworx.com.au is a project engineering support inbox, not an applications inbox. Advert route is SEEK, so this is a double touch only after Marc presses Applied.\nDouble touch: email the contact only after this record is marked Applied.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-13, closes 2026-11-12). Contact: Dave Sellar (State Manager NSW), whose work email the employer publishes at https://shoreworx.com.au/our-team/. Named people seen on employer pages: Dave Sellar (State Manager NSW); Gagen Signh (Engineer); Mick Carter (Engineering BDM). Marc or Jeremie submits through the portal or SEEK first; the short email to the contact goes only after Applied is pressed.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate Structural/Civil Engineer role on SEEK.\n• They may ask about: No Solidworks (advantageous only) → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Structural and geotechnical knowledge is coursework, not design office work → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Melton based; Sydney role needs relocation discussion → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-13, closes 2026-11-12). Contact: Dave Sellar (State Manager NSW), whose work email the employer publishes at https://shoreworx.com.au/our-team/. Named people seen on employer pages: Dave Sellar (State Manager NSW); Gagen Signh (Engineer); Mick Carter (Engineering BDM). Marc or Jeremie submits through the portal or SEEK first; the short email to the contact goes only after Applied is pressed.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate Structural/Civil Engineer role on SEEK.",
+   "They may ask about: No Solidworks (advantageous only) → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Structural and geotechnical knowledge is coursework, not design office work → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Melton based; Sydney role needs relocation discussion → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-13T01:23:51.000Z",
+  "seek_id": "95221380",
+  "duplicate_key": "shoreworx|seek:95221380"
+ },
+ {
+  "id": "a12448d4-fdb5-425b-b2e6-6d22879f8fc4",
+  "key": "manual:a12448d4-fdb5-425b-b2e6-6d22879f8fc4",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261013T0114Z",
+  "created_at": "2026-10-13T01:23:54.000Z",
+  "updated_at": "2026-10-13T01:23:54.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "61239bf2-645c-4c61-9093-991b10b31db8",
+    "path": "/api/documents/61239bf2-645c-4c61-9093-991b10b31db8",
+    "filename": "Marc_Masarate_Wagga_Wagga_City_Council_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-13T01:23:56.405Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "7c297d7e-a98c-4075-a8b6-df2fed909ee9",
+    "path": "/api/documents/7c297d7e-a98c-4075-a8b6-df2fed909ee9",
+    "filename": "Marc_Masarate_Wagga_Wagga_City_Council_Civil_Design_Engineer_Cadet_or_Graduate__Cover_Letter.pdf",
+    "sha256": "bdf4de22b4645d2e3a0c929a9c493cc9fa1086adfc67d4084e3a65bc76367d12",
+    "size_bytes": 51270,
+    "kind": "cover",
+    "uploaded_at": "2026-10-13T01:23:55.523Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Wagga Wagga City Council",
+  "role": "Civil Design Engineer (Cadet or Graduate level)",
+  "location": "Wagga Wagga NSW",
+  "job_url": "https://wagga.pulsesoftware.com/Pulse/jobs",
+  "company_url": "https://wagga.nsw.gov.au/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.jobstralia.com/detail/8/53d32c885e2201795362c4a3cb83cdb7",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Civil Design Engineer, Graduate level (Wagga Wagga): Marc Darenz Masarate",
+  "email_body": "Hello Engineering Design Services team,\n\nI am applying for the Senior Design Engineer Civil (all experience levels) position at Graduate level, listed on Council's Pulse jobs board and closing 1 November.\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. Before that I worked on site in the Philippines from 2019 to 2020 as a project in charge engineer and then a field engineer. I am based in Melton VIC, hold a White Card, a driver licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am available for site, regional and FIFO work.\n\nThe advert says the Cadet or Graduate engineer will help senior staff deliver road, stormwater and sewer designs for tender and construction, and names Civil 3D and AutoCAD. Road and stormwater design are the core of my diploma work; I have not designed sewer networks and have not used 12d Model yet, and my design work so far is from study rather than a paid role.\n\nCould we arrange a time to talk about the Graduate level? I've attached my resume and cover letter.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Wagga Wagga City Council Engineering Design Services role open at Cadet or Graduate level: assisting senior staff with road, stormwater and sewer designs for tender and construction.",
+   "Mandatory items are a tertiary qualification in Civil Engineering (Marc's BSCE), Class C licence or ability to obtain, and a White Card or willingness to obtain; all met. Registration applies to the Senior level only.",
+   "Marc's Advanced Diploma covered road geometry, earthworks, pavement and stormwater design in Civil 3D and AutoCAD, both named in the advert."
+  ],
+  "gaps": [
+   "No sewer design experience",
+   "Has not used 12d Model, SewerGEMS, GIS or DRAINS",
+   "Design experience is coursework, not commercial",
+   "Regional NSW role; Melton based"
+  ],
+  "match_score": {
+   "percent": 74,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Wagga Wagga City Council Engineering Design Services role open at Cadet or Graduate level: assisting senior staff with road, stormwater and sewer designs for tender and construction.",
+    "Mandatory items are a tertiary qualification in Civil Engineering (Marc's BSCE), Class C licence or ability to obtain, and a White Card or willingness to obtain; all met. Registration applies to the Senior level only.",
+    "Marc's Advanced Diploma covered road geometry, earthworks, pavement and stormwater design in Civil 3D and AutoCAD, both named in the advert."
+   ],
+   "caution": "No sewer design (coursework covered road and stormwater only); no 12d Model. Regional NSW relocation to discuss. Pulse portal may ask selection criteria questions not visible on the listing."
+  },
+  "advert": {
+   "source": "employer_portal",
+   "listed_at": "2026-10-11T00:00:00Z",
+   "expires_at": "2026-11-01T12:59:00Z",
+   "verified_at": "2026-10-13T01:23:54.000Z",
+   "apply_instructions": "Apply on Council's Pulse portal (https://wagga.pulsesoftware.com/Pulse/jobs, card 'Senior Design Engineer Civil (all experience levels)', closes 1 Nov 2026 11:59pm). No application email published; Geordi Paxton is a phone enquiry contact only.",
+   "screening_questions": []
+  },
+  "screening_answers": [
+   {
+    "question": "Tertiary qualification in Civil Engineering",
+    "answer": "Yes. Bachelor of Science in Civil Engineering, Divine Word College of Legazpi (2014 to 2019); Advanced Diploma of Civil Construction Design, Albright Institute (February 2026)."
+   },
+   {
+    "question": "Class C Driver's Licence (or ability to obtain)",
+    "answer": "Holds an Australian driver's licence and own transport."
+   },
+   {
+    "question": "General Construction Induction (White) Card",
+    "answer": "Yes, holds a White Card."
+   },
+   {
+    "question": "Right to work",
+    "answer": "Subclass 485 visa, full working rights until December 2027. Do not claim citizenship or permanent residency."
+   },
+   {
+    "question": "Level applied for",
+    "answer": "Cadet or Graduate level (not Experienced or Senior; no CPEng or NER registration)."
+   },
+   {
+    "question": "Police check consent",
+    "answer": "Yes, willing to undergo applicable pre-employment checks."
+   }
+  ],
+  "checklist": [
+   "Open https://wagga.pulsesoftware.com/Pulse/jobs and confirm 'Senior Design Engineer Civil (all experience levels)' is still listed (closes 1 Nov 2026, 11:59pm).",
+   "Register or sign in on Pulse with macdarenz@gmail.com and upload Marc_Masarate_Wagga_Wagga_City_Council_Resume.pdf plus this cover letter.",
+   "State the Graduate level in the application; answer any selection criteria from facts only (road and stormwater coursework, no sewer or 12d).",
+   "Do not claim sewer design, 12d Model, registration or Australian design office experience.",
+   "Press Applied on the tracker after the Pulse confirmation email arrives."
+  ],
+  "notes": "Employer portal route. Geordi Paxton (Manager Engineering Design Services) is named for phone enquiries only; no email published. Advert full text read from the Jobstralia mirror; live listing confirmed on the Pulse board 13 Oct 2026.\nChecked 2026-10-13. Advert names Geordi Paxton for phone enquiries only; no email published, none guessed. Apply through the Pulse portal.\nHOW GROK AI FOUND THIS\nFound on employer_portal (listed 2026-10-11, closes 2026-11-01). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Geordi Paxton (Manager Engineering Design Services). Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Civil Design Engineer (Cadet or Graduate level) role on SEEK.\n• They may ask about: No sewer design experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Has not used 12d Model, SewerGEMS, GIS or DRAINS → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Design experience is coursework, not commercial → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_portal (listed 2026-10-11, closes 2026-11-01). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Geordi Paxton (Manager Engineering Design Services). Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Civil Design Engineer (Cadet or Graduate level) role on SEEK.",
+   "They may ask about: No sewer design experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Has not used 12d Model, SewerGEMS, GIS or DRAINS → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Design experience is coursework, not commercial → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-13T01:23:54.000Z",
+  "duplicate_key": "waggawaggacitycouncil|wagga.pulsesoftware.com/pulse/jobs"
+ }
+]

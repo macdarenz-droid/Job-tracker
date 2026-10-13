@@ -1,0 +1,33 @@
+{
+ "percent": 15,
+ "rationale": [
+  "Tolling Infrastructure Engineer: IT network and security architecture.",
+  "IT tertiary qualification and expert experience.",
+  "Not civil."
+ ],
+ "caution": "",
+ "gaps": [],
+ "mandatory_unmet": [
+  "Tertiary qualification in Information Technology and expert tolling systems experience"
+ ],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply on SEEK (advert 95218928).",
+ "open": true,
+ "employer_is_agency": false,
+ "id": "95218928",
+ "company": "North East Link State Tolling Corporation",
+ "title": "Tolling Infrastructure Engineer",
+ "location": "Melbourne VIC",
+ "url": "https://www.seek.com.au/job/95218928",
+ "listed_at": "2026-10-12T21:40:51.544Z",
+ "expires_at": "2026-10-27T12:59:59.000Z",
+ "screening_questions": [
+  "Are you legally entitled to work in Australia?",
+  "Please detail your minimum salary expectations (excluding super):",
+  "What is the notice period for your current employment?",
+  "What motivated you to apply for this position?",
+  "What relevant skills and experience would you bring to this role?"
+ ]
+}

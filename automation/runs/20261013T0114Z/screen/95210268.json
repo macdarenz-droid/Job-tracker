@@ -1,0 +1,27 @@
+{
+ "percent": 25,
+ "rationale": [
+  "STERIS Project Engineer, healthcare equipment.",
+  "Medical equipment project delivery.",
+  "Discipline mismatch."
+ ],
+ "caution": "",
+ "gaps": [],
+ "mandatory_unmet": [
+  "Capital medical equipment project delivery experience"
+ ],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply on SEEK (advert 95210268).",
+ "open": true,
+ "employer_is_agency": false,
+ "id": "95210268",
+ "company": "STERIS",
+ "title": "Project Engineer",
+ "location": "Sydney NSW",
+ "url": "https://www.seek.com.au/job/95210268",
+ "listed_at": "2026-10-12T08:15:22.373Z",
+ "expires_at": "2026-11-11T09:12:11.000Z",
+ "screening_questions": []
+}

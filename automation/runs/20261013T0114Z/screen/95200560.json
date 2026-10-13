@@ -1,0 +1,25 @@
+{
+ "percent": 10,
+ "rationale": [
+  "Bega Valley Business Cadet: business traineeship.",
+  "Not a civil role.",
+  "Out of scope."
+ ],
+ "caution": "",
+ "gaps": [],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply on SEEK (advert 95200560).",
+ "open": true,
+ "employer_is_agency": false,
+ "id": "95200560",
+ "company": "Bega Valley Shire Council",
+ "title": "Business Cadet",
+ "location": "Bega, Wollongong, Illawarra & South Coast NSW",
+ "url": "https://www.seek.com.au/job/95200560",
+ "listed_at": "2026-10-12T03:23:59.987Z",
+ "expires_at": "2026-11-11T12:59:59.999Z",
+ "screening_questions": []
+}

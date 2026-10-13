@@ -1,0 +1,35 @@
+{
+ "built": [
+  [
+   "be31bf51-5059-4c23-b9aa-8ceaf77b29e5",
+   "TNT Plumbing & Drainage",
+   "Site Engineer (Site Administration)",
+   "READY_JEREMIE_SEEK"
+  ],
+  [
+   "bef27ae5-3761-4d71-b7a5-1cc2de3238e9",
+   "ShoreWorX",
+   "Graduate Structural/Civil Engineer",
+   "READY_JEREMIE_SEEK"
+  ],
+  [
+   "a12448d4-fdb5-425b-b2e6-6d22879f8fc4",
+   "Wagga Wagga City Council",
+   "Civil Design Engineer (Cadet or Graduate level)",
+   "READY_JEREMIE_EMPLOYER_PORTAL"
+  ]
+ ],
+ "rejected": [],
+ "tracker": {
+  "version": 196,
+  "updated_at": "2026-10-13T01:23:58.286Z",
+  "result": {
+   "added": [
+    "be31bf51-5059-4c23-b9aa-8ceaf77b29e5",
+    "bef27ae5-3761-4d71-b7a5-1cc2de3238e9",
+    "a12448d4-fdb5-425b-b2e6-6d22879f8fc4"
+   ],
+   "skipped": []
+  }
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "percent": 25,
+ "rationale": [
+  "Civil Estimator, North Melbourne.",
+  "Requires 3 to 10 years estimating in civil infrastructure.",
+  "Marc's estimating is coursework only."
+ ],
+ "caution": "",
+ "gaps": [],
+ "mandatory_unmet": [
+  "3 to 10 years' experience in estimating within civil infrastructure"
+ ],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply on SEEK (advert 95220594).",
+ "open": true,
+ "employer_is_agency": false,
+ "id": "95220594",
+ "company": "The Constructive Collective NSW Pty Ltd",
+ "title": "Civil Estimator",
+ "location": "North Melbourne, Melbourne VIC",
+ "url": "https://www.seek.com.au/job/95220594",
+ "listed_at": "2026-10-12T23:31:56.056Z",
+ "expires_at": "2026-11-12T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?"
+ ]
+}

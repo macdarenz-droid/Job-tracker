@@ -1,0 +1,31 @@
+{
+ "percent": 35,
+ "rationale": [
+  "RGM Property Surveys Junior Project Management (land titling admin), Five Dock.",
+  "Australian citizen or Permanent Resident ONLY.",
+  "Marc holds a 485 visa."
+ ],
+ "caution": "",
+ "gaps": [],
+ "mandatory_unmet": [
+  "Australian citizen or Permanent Resident ONLY"
+ ],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply on SEEK (advert 95221316).",
+ "open": true,
+ "employer_is_agency": false,
+ "id": "95221316",
+ "company": "RGM Property Surveys Pty Ltd",
+ "title": "Junior Project Management",
+ "location": "Five Dock, Sydney NSW",
+ "url": "https://www.seek.com.au/job/95221316",
+ "listed_at": "2026-10-13T00:13:10.090Z",
+ "expires_at": "2026-11-12T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "Do you have experience using Microsoft Word?",
+  "Do you have a current Australian driver's licence?"
+ ]
+}

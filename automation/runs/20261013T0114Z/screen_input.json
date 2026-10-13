@@ -1,0 +1,980 @@
+{
+ "count": 26,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "95193608",
+   "company": "Talent Web Property",
+   "title": "Project Engineer - Civil Construction",
+   "run": "20261012T0512Z",
+   "percent": 42,
+   "mandatory_unmet": [
+    "Experienced project engineer level"
+   ]
+  },
+  {
+   "id": "95207745",
+   "company": "Yellow Iron Fleet",
+   "title": "Civil Project Engineer",
+   "run": "20261012T1538Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "Minimum 3 years' experience in civil construction (Marc has about 1 year, Philippines)"
+   ]
+  },
+  {
+   "id": "95204746",
+   "company": "Scotford Fennessy Recruitment",
+   "title": "Civil Designer",
+   "run": "20261012T1538Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Experience in a Perth engineering consultancy, 2 to 5 years"
+   ]
+  },
+  {
+   "id": "95205064",
+   "company": "Verra Recruitment Pty Ltd",
+   "title": "Civil Project Engineer - FIFO | Defence Infrastructure",
+   "run": "20261012T1538Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Australian citizen or permanent resident"
+   ]
+  },
+  {
+   "id": "95193093",
+   "company": "Hall Contracting Pty Ltd",
+   "title": "2x Undergraduate Engineer",
+   "run": "20261012T1538Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Currently in 3rd year of a Bachelor's degree"
+   ]
+  },
+  {
+   "id": "95192276",
+   "company": "Kingston Human Capital",
+   "title": "(PO3) Civil Engineer",
+   "run": "20261012T0512Z",
+   "percent": 50,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95195904",
+   "company": "Alchemy Recruitment Consulting Pty Ltd",
+   "title": "Civil Engineers | Road Delivery | Multiple Opportunities",
+   "run": "20261012T1538Z",
+   "percent": 52,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95193925",
+   "company": "Public Sector People",
+   "title": "PO3 Civil Engineer (Nerang)",
+   "run": "20261012T0512Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95202759",
+   "company": "Rain Consulting Pty Ltd",
+   "title": "Project Engineer or Scientist, Stormwater & Water Management Melbourne, hybrid",
+   "run": "20261012T0512Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "3 to 7 years stormwater experience"
+   ]
+  },
+  {
+   "id": "95156694",
+   "company": "Quick Up Hoardings",
+   "title": "CAD Drafter / Estimator",
+   "run": "20261012T0512Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "Hands-on installation leadership and estimating experience"
+   ]
+  },
+  {
+   "id": "95195999",
+   "company": "SITZLER Pty Ltd",
+   "title": "Site Engineer -SA",
+   "run": "20261012T0512Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95207934",
+   "company": "Richmond Roads Group",
+   "title": "Estimator",
+   "run": "20261012T1538Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Currently studying 3rd or 4th year civil engineering"
+   ]
+  },
+  {
+   "id": "95200685",
+   "company": "Bega Valley Shire Council",
+   "title": "Engineer Cadet",
+   "run": "20261012T2026Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Must undertake an undergraduate qualification in Engineering (honours) or a related discipline as part of Council's Emerging Talent Program"
+   ]
+  },
+  {
+   "id": "95192164",
+   "company": "Prime Build Pty Ltd",
+   "title": "Construction Cadets",
+   "run": "20261012T1538Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "Currently studying (cadetship)"
+   ]
+  },
+  {
+   "id": "95202539",
+   "company": "SITZLER Pty Ltd",
+   "title": "Graduate Program 2027 - Western Australia",
+   "run": "20261012T1538Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "Hold Australian Citizenship or Permanent Residency; degree completed within the last two years"
+   ]
+  },
+  {
+   "id": "95202321",
+   "company": "SITZLER Pty Ltd",
+   "title": "Graduate Program 2027 - Darwin, Northern Territory",
+   "run": "20261012T2026Z",
+   "percent": 62,
+   "mandatory_unmet": [
+    "Australian Citizenship or Permanent Residency required"
+   ]
+  },
+  {
+   "id": "95201826",
+   "company": "Goldstate Homes",
+   "title": "Production Draftsperson",
+   "run": "20261012T2026Z",
+   "percent": 42,
+   "mandatory_unmet": [
+    "At least 3 years demonstrated experience as a production draftsperson in volume or custom residential building"
+   ]
+  },
+  {
+   "id": "95190452",
+   "company": "FKG Group",
+   "title": "Construction Cadet",
+   "run": "20261012T0512Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Currently enrolled and completed first year of Bachelor of Construction Management/Urban Development/Quantity Surveying"
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "id": "95221380",
+   "source": "seek",
+   "title": "Graduate Structural/Civil Engineer",
+   "company": "ShoreWorX",
+   "location": "Glendenning, Sydney NSW",
+   "url": "https://www.seek.com.au/job/95221380",
+   "work_type": "Full time",
+   "salary": "$70,000 – $90,000 per year",
+   "listed_at": "2026-10-13T00:15:40.859Z",
+   "expires_at": "2026-11-12T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a Structural Civil Engineer?",
+    "How much notice are you required to give your current employer?",
+    "How many years' experience do you have as a Solidworks Draftsperson?",
+    "Have you completed a qualification in civil engineering?"
+   ],
+   "summary": "Direct mentoring, hands-on design experience and opportunities to develop a career in specialist shoring and construction engineering.",
+   "opening": "Build your engineering career with ShoreWorX\nShoreWorX is looking for a Graduate Structural/Civil Engineer to join our growing team and work directly alongside an experienced engineer in the specialist shoring works industry.\nThis is predominantly an office-based design role, ideal for someone who enjoys technical problem-solving, calculations and developing practical engineering solutions.\nWhat you'll do\n- Prepare engineering calculations and design documentation.\n- Develop and review engineering drawings.\n- Assist with structural and geotechnical assessments.\n- Review project requirements and develop practical engineering solutions.\n- Occasionally attend sites to understand construction conditions and support the design process.\n- Assist with the design of shoring systems.\n- Work closely with experienced engineers and project teams.\nWhat we're looking for\n- Bachelor’s degree in Civil o",
+   "key_lines": [
+    "ShoreWorX is looking for a Graduate Structural/Civil Engineer to join our growing team and work directly alongside an experienced engineer in the specialist shoring works industry.",
+    "- Review project requirements and develop practical engineering solutions.",
+    "- Work closely with experienced engineers and project teams.",
+    "- Bachelor’s degree in Civil or Structural Engineering.",
+    "- Graduate or up to 2 years' experience.",
+    "- Driver's licence preferred.",
+    "- Solidworks or similar software experience is advantageous.",
+    "- AutoCAD or structural/geotechnical software experience is a bonus, but not essential.",
+    "- Direct mentoring from an experienced engineer."
+   ]
+  },
+  {
+   "id": "95220430",
+   "source": "seek",
+   "title": "Civil Technician (Full-Time)",
+   "company": "Red Fox Advisory",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/95220430",
+   "work_type": "Full time",
+   "salary": "$78,000 – $85,000 per year",
+   "listed_at": "2026-10-12T23:24:44.825Z",
+   "expires_at": "2026-11-12T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a Civil Technician?",
+    "How much notice are you required to give your current employer?",
+    "How many years of experience do you have in the Civil Engineering Industry?",
+    "Do you have Technical Design experience?"
+   ],
+   "summary": "Civil Technician delivering bridge and infrastructure design across major projects in Brisbane.",
+   "opening": "About the Company\nOur Directors have been at the helm of major Infrastructure, Transport and Resources projects throughout their careers. Each Director has over 20 years' experience in high-end project management and the expertise to turn complexity into positive results for our private and public sector clients. That experience is backed by a strong network of collaborative professionals and experts who provide high-level strategic advice and execution.\nWe use our combined experience, ingenuity and agility to help our partners achieve enhanced outcomes across their varied road, bridge, highway, rail, logistics and infrastructure projects – projects including the following service offerings:\n·       Civil\n·       Structural\n·       Geotechnical\n·       Technical Design\n·       Contract Administration\nAbout the Role\nWe require experienced Civil Technicians to fill critical roles in our Br",
+   "key_lines": [
+    "Our Directors have been at the helm of major Infrastructure, Transport and Resources projects throughout their careers. Each Director has over 20 years' experience in high-end project management and the expertise to turn complexity into positive results for our private and public sector clients. That experience is backed by a strong network of collaborative professionals and experts who provide high-level strategic advice and execution.",
+    "We use our combined experience, ingenuity and agility to help our partners achieve enhanced outcomes across their varied road, bridge, highway, rail, logistics and infrastructure projects – projects including the following service offerings:",
+    "We require experienced Civil Technicians to fill critical roles in our Brisbane office and within our project delivery team, working across several clients’ major Civil Infrastructure and Transport Projects.",
+    "o   engineering design applications such as Bluebeam, AutoCAD, , Revit and 12D",
+    "·        Attend site visits and participate in client and stakeholder meetings as required.",
+    "Requirements",
+    "·      Essential:",
+    "o   relevant tertiary qualification – Diploma in Engineering or higher",
+    "o   minimum of 5 to 7 years’ employment experience in civil design and engineering",
+    "o   current and valid Queensland Drivers’ Licence",
+    "·      Industry / sector project experience including civil design.",
+    "·      Demonstrated proficiency and experience working with AutoCAD and engineering design applications, e.g. 12D, Revit",
+    "·      Ability to provide, receive and apply constructive feedback to ensure continuous improvement.",
+    "Applications open on 13 October 2026 and close on 10 November 2026."
+   ]
+  },
+  {
+   "id": "95219778",
+   "source": "seek",
+   "title": "Civil Project Engineer",
+   "company": "John Holland",
+   "location": "Beerburrum, Sunshine Coast QLD",
+   "url": "https://www.seek.com.au/job/95219778",
+   "work_type": "Full time",
+   "salary": "Comprehensive package + 10% Site allowance",
+   "listed_at": "2026-10-12T22:45:28.491Z",
+   "expires_at": "2026-11-11T23:35:37.000Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Competitive package | 10% Project Allowance | 2 John Holland days off | Employee benefits program | 18 weeks paid parental leave | development",
+   "opening": "About the Project: John Holland is delivering the Beerburrum to Nambour Rail Upgrade (B2N) on Queensland's Sunshine Coast. This major rail infrastructure program is designed to increase capacity, improve reliability and support the region's long-term growth.\n This complex, multi‑disciplinary project includes significant signalling, rail systems and interface works delivered in a live rail environment, requiring close collaboration with Queensland Rail, designers, certifiers and delivery partners.\n Based at Beerburrum project site, this project offers exposure to a large-scale rail upgrade and the opportunity to contribute to a high-impact transport solution while developing your career within a Tier 1 environment\n About The Role: We have an opportunity for a Civil Project Engineer to join our team based in Beerburrum, the role is responsible for coordinating and delivering civil and rail",
+   "key_lines": [
+    "This complex, multi‑disciplinary project includes significant signalling, rail systems and interface works delivered in a live rail environment, requiring close collaboration with Queensland Rail, designers, certifiers and delivery partners.",
+    "About The Role: We have an opportunity for a Civil Project Engineer to join our team based in Beerburrum, the role is responsible for coordinating and delivering civil and rail construction activities on the Beerburrum to Nambour (B2N) Rail Upgrade Project, ensuring works are completed safely, on time, within budget, and in accordance with approved designs, specifications, and contractual requirements. You will need effective stakeholder engagement, reporting, and commercial awareness to support the successful delivery of this major rail infrastructure project.",
+    "What we are looking for: - Degree-qualified engineering professional with extensive experience delivering major infrastructure projects valued at $10M+.",
+    "- Proven Project Engineer with strong site-based construction experience across complex civil environments.",
+    "- Ensure full compliance with contractual, legislative, and project requirements while maintaining accurate reporting and project documentation."
+   ]
+  },
+  {
+   "id": "95221945",
+   "source": "seek",
+   "title": "Junior Estimator - Graduate",
+   "company": "Duo QS",
+   "location": "Homebush, Sydney NSW",
+   "url": "https://www.seek.com.au/job/95221945",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-13T00:40:26.185Z",
+   "expires_at": "2026-11-12T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "How many years of estimating experience do you have?",
+    "Which of the following statements best describes your right to work in Australia?",
+    "Do you have a current Police Check (National Police Certificate) for employment?",
+    "How much notice are you required to give your current employer?",
+    "Are you currently studying?",
+    "What's your expected annual base salary?",
+    "Do you have experience using Cubit Estimating Software?"
+   ],
+   "summary": "Join DUOQS and contribute to delivering outstanding homes through precision, professionalism, and quality.",
+   "opening": "Location: Homebush, NSW (Onsite – 5 days a week) \nType: Permanent | Full-Time \nSalary: Negotiable based on experience \nEligibility: Must have full unrestricted working rights in Australia \nNote: Visa sponsorships are not available \nAbout the Role \nWith a strong pipeline of exciting projects, DUOQS is looking for a motivated Junior Estimator to join our team specialising in high-end residential construction. \nThis is a great opportunity to learn from experienced professionals, develop your estimating skills, and contribute to the delivery of exceptional homes. \nWe are looking for someone with a strong eye for detail, a willingness to learn, and a genuine interest in construction and building costs. Whether you are a recent graduate or have some experience in estimating or the construction industry, this is an opportunity to grow your expertise within a fast paced, supportive, and professi",
+   "key_lines": [
+    "Salary: Negotiable based on experience",
+    "Eligibility: Must have full unrestricted working rights in Australia",
+    "Note: Visa sponsorships are not available",
+    "With a strong pipeline of exciting projects, DUOQS is looking for a motivated Junior Estimator to join our team specialising in high-end residential construction.",
+    "This is a great opportunity to learn from experienced professionals, develop your estimating skills, and contribute to the delivery of exceptional homes.",
+    "We are looking for someone with a strong eye for detail, a willingness to learn, and a genuine interest in construction and building costs. Whether you are a recent graduate or have some experience in estimating or the construction industry, this is an opportunity to grow your expertise within a fast paced, supportive, and professional team.",
+    "The right candidate will be self-driven and resourceful, possessing the confidence and experience required to solve problems and make decisions in a timely fashion. Whether working on one or multiple projects at any given time.",
+    "Candidate requirements include:",
+    "- Bachelor's degree in Quantity Surveying, Construction Management, Architecture or a related field.",
+    "- Minimum of 1 year of construction/building experience.",
+    "- Proficiency in using quantity surveying software and tools (such as Cubit Build software, CostX, Bluebeam, AutoCAD) or similar.",
+    "As part of our hiring process, applicants must observe the following:"
+   ]
+  },
+  {
+   "id": "95220594",
+   "source": "seek",
+   "title": "Civil Estimator",
+   "company": "The Constructive Collective NSW Pty Ltd",
+   "location": "North Melbourne, Melbourne VIC",
+   "url": "https://www.seek.com.au/job/95220594",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-12T23:31:56.056Z",
+   "expires_at": "2026-11-12T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?"
+   ],
+   "summary": "A fantastic opportunity for an experienced civil estimator who is keen to continue progression and learning and working with a supportive team.",
+   "opening": "About the role\nPrepare estimates and tender submissions. Review documents and complete take-offs. Build pricing and source subcontractor quotes. Contribute to methodologies and tender submissions. Working within a close team throughout the process.\nKey responsibilities\n- Prepare estimates and tender submissions\n- Review documents and complete take-offs\n- Build pricing and source subcontractor quotes\n- Contribute to methodologies and tender submissions\n- Work closely with the team throughout the process\nAbout you\n- Degree qualified ideally in Civil Engineering\n- 3–10 years' experience in estimating within civil infrastructure\n- Strong attention to detail with the ability to meet deadlines\n- Background with reputable contractors in pipeline or utility projects would be beneficial although any general civils, earthworks and utilities is highly regarded.\nOur client\nOur client is an establish",
+   "key_lines": [
+    "Prepare estimates and tender submissions. Review documents and complete take-offs. Build pricing and source subcontractor quotes. Contribute to methodologies and tender submissions. Working within a close team throughout the process.",
+    "- Work closely with the team throughout the process",
+    "- Degree qualified ideally in Civil Engineering",
+    "- 3–10 years' experience in estimating within civil infrastructure"
+   ]
+  },
+  {
+   "id": "95205508",
+   "source": "seek",
+   "title": "Structural Drafter",
+   "company": "Morson Edge",
+   "location": "Killara, Sydney NSW",
+   "url": "https://www.seek.com.au/job/95205508",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-12T05:41:13.083Z",
+   "expires_at": "2026-11-11T05:41:00.000Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Revit Structural Draftsperson wanted for an established North Shore consultancy offering a supportive team culture and strong career development.",
+   "opening": "About the company\nThe client is an Engineering Consultancy based in the North Shore of Sydney. They provide a range of Engineering services. \nThey have a healthy project pipeline and a supportive, collaborative team that can provide career training and will invest in your personal growth. \nThe business has a strong culture built on mutual respect, collaboration and approachability. The business is an established consultancy with decades of experience. No one is too junior to approach or speak with the Directors, creating a genuinely supportive, close-knit environment where people get along and work together without egos.\nAbout the role\nDue to growth we are seeking a Revit skilled Structural Draftsperson. \nYou will be proactive and be on the front foot, working with Engineers, clients and project partners to deliver documentation packages for a number of key projects.\nAbout the candidate\n",
+   "key_lines": [
+    "The business has a strong culture built on mutual respect, collaboration and approachability. The business is an established consultancy with decades of experience. No one is too junior to approach or speak with the Directors, creating a genuinely supportive, close-knit environment where people get along and work together without egos.",
+    "Due to growth we are seeking a Revit skilled Structural Draftsperson.",
+    "- Ideally a minimum of 4 years of structural drafting experience",
+    "- A proficient user of Revit Structures with the ability to model, setting up and modifying families would be advantageous",
+    "- Previous Structural Drafting experience with an Engineering Consultancy working on buildings",
+    "- An industry qualification",
+    "How to apply",
+    "Please submit a full professional resume highlighting your experience with the above criteria to Rachel.Carter@morson-edge.com.au"
+   ]
+  },
+  {
+   "id": "95220901",
+   "source": "seek",
+   "title": "Site Engineer – Site Administration",
+   "company": "TNT Plumbing & Drainage PTY LTD",
+   "location": "Newcastle, Newcastle, Maitland & Hunter NSW",
+   "url": "https://www.seek.com.au/job/95220901",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-12T23:52:12.371Z",
+   "expires_at": "2026-11-12T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "How many years' experience do you have as a Site Administrator?",
+    "How much notice are you required to give your current employer?"
+   ],
+   "summary": "Site Engineer supporting plumbing and drainage projects with Tier 1 builders in Newcastle.",
+   "opening": "About the role\nTNT Plumbing is seeking an organised and proactive Site Engineer to support plumbing and drainage projects with Tier 1 builders across the Newcastle region. This role combines engineering support, site administration and project coordination. You will work closely with Project Managers, Site Supervisors and builder representatives to keep project documentation current and support the smooth delivery of works.\nKey responsibilities\n- Manage site documentation, registers, drawing revisions and document control.\n- Prepare and track Requests for Information (RFIs), technical submissions and approvals.\n- Coordinate inductions and maintain worker, subcontractor and equipment compliance records.\n- Upload and maintain SWMS, SOPs, SDS and other required project documentation.\n- Coordinate inspection and test plans (ITPs), quality records, test results and defect registers.\n- Assist ",
+   "key_lines": [
+    "TNT Plumbing is seeking an organised and proactive Site Engineer to support plumbing and drainage projects with Tier 1 builders across the Newcastle region. This role combines engineering support, site administration and project coordination. You will work closely with Project Managers, Site Supervisors and builder representatives to keep project documentation current and support the smooth delivery of works.",
+    "- Upload and maintain SWMS, SOPs, SDS and other required project documentation.",
+    "- A qualification in engineering, construction management or a related field, or relevant industry experience.",
+    "- Experience in site engineering, project coordination or construction administration.",
+    "- Experience working with Tier 1 builders and their documentation requirements.",
+    "- A current White Card and driver's licence.",
+    "- Experience in commercial plumbing and drainage, along with familiarity with platforms such as HammerTech, Procore, Autodesk Construction Cloud or Project Simpel, would be highly regarded."
+   ]
+  },
+  {
+   "id": "95200785",
+   "source": "seek",
+   "title": "Finance Cadet",
+   "company": "Bega Valley Shire Council",
+   "location": "Bega, Wollongong, Illawarra & South Coast NSW",
+   "url": "https://www.seek.com.au/job/95200785",
+   "work_type": "Contract/Temp",
+   "salary": "$57,401.34 gross per annum",
+   "listed_at": "2026-10-12T03:29:26.670Z",
+   "expires_at": "2026-11-11T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Join Council's Emerging Talent Program, gain hands-on experience, and study Finance while working across key areas within Council.",
+   "opening": "A career with Bega Valley Shire Council offers the opportunity to engage in meaningful and diverse work that supports the vibrant communities of the south-east corner of NSW. Nestled between rolling hills and some of the state’s most stunning beaches, this region is home to a variety of people who enjoy both rural and coastal living.\nAs an AR Bluett Award winning Council, we are proud of our dedicated and talented team, whose efforts make our success possible.\nWith a workforce of over 350, we provide essential services to our communities, including libraries, customer service, finance, children’s services, engineering, project management, road maintenance, water management, environment, parks, gardens, and town centres.\nWe offer a range of employment benefits to support our staff, which may include:\n - Rostered days off\n - Flexible work arrangements\n - Salary packaging\n - Paid study leav",
+   "key_lines": [
+    "With a workforce of over 350, we provide essential services to our communities, including libraries, customer service, finance, children’s services, engineering, project management, road maintenance, water management, environment, parks, gardens, and town centres.",
+    "We have an exciting opportunity for a motivated individual to join Councils Emerging Talent Program and undertake an undergraduate qualification in Finance (or a related discipline) while gaining practical experience and mentorship across Council's Financial Services team.",
+    "As a Finance Cadet, you will combine academic studies with hands-on workplace experience across a range of areas including Revenue, Procurement, Management Accounting, Accounts Payable (Creditors) and Payroll. You will gain exposure to financial operations, budgeting, reporting, procurement processes, payroll administration and financial governance while developing practical skills in a local government environment.",
+    "The role may also involve travel and participation in residential study blocks associated with your academic program.",
+    "As a participant in Council's Emerging Talent Program, you will have the opportunity to develop your skills through structured learning, on-the-job experience, mentoring and exposure to a broad range of professional disciplines, building a strong foundation for a successful career in local government and beyond.",
+    "- Ensure financial information, reports and advice are prepared accurately and within required timeframes.",
+    "- Develop an understanding of financial policies, procedures, controls and governance requirements that support effective financial management across Council.",
+    "- Apply your university learning in a practical environment while developing the technical, analytical and professional skills required for a successful career in finance.",
+    "This role offers valuable exposure to a broad range of finance and accounting services while developing practical skills and experience to support a future career in finance.",
+    "We are seeking an individual who holds a Higher School Certificate (or equivalent) and is eligible to enrol in a bachelor-level qualification relevant to the role.",
+    "You will have the following skills and experience;",
+    "- Willingness to learn and apply knowledge gained through academic studies in a practical workplace environment.",
+    "This is a fixed term full-time position working 35 hours per week for a period of six (6) years.",
+    "Applications close 11.59pm AEDT on 22 November 2026."
+   ]
+  },
+  {
+   "id": "95200560",
+   "source": "seek",
+   "title": "Business Cadet",
+   "company": "Bega Valley Shire Council",
+   "location": "Bega, Wollongong, Illawarra & South Coast NSW",
+   "url": "https://www.seek.com.au/job/95200560",
+   "work_type": "Contract/Temp",
+   "salary": "$57,401.34 gross per annum",
+   "listed_at": "2026-10-12T03:23:59.987Z",
+   "expires_at": "2026-11-11T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Join Council's Emerging Talent Program, gain hands-on experience, and study Business while working across key Council directorates.",
+   "opening": "A career with Bega Valley Shire Council offers the opportunity to engage in meaningful and diverse work that supports the vibrant communities of the south-east corner of NSW. Nestled between rolling hills and some of the state’s most stunning beaches, this region is home to a variety of people who enjoy both rural and coastal living.\nAs an AR Bluett Award winning Council, we are proud of our dedicated and talented team, whose efforts make our success possible.\nWith a workforce of over 350, we provide essential services to our communities, including libraries, customer service, finance, children’s services, engineering, project management, road maintenance, water management, environment, parks, gardens, and town centres.\nWe offer a range of employment benefits to support our staff, which may include:\n - Rostered days off\n - Flexible work arrangements\n - Salary packaging\n - Paid study leav",
+   "key_lines": [
+    "With a workforce of over 350, we provide essential services to our communities, including libraries, customer service, finance, children’s services, engineering, project management, road maintenance, water management, environment, parks, gardens, and town centres.",
+    "We have an exciting opportunity for a motivated individual to join Councils Emerging Talent Program and undertake an undergraduate qualification in Business (or a related discipline) while gaining practical experience and mentorship across Council's Organisational Services and Executive Services Directorates.",
+    "As a Business Cadet, you will combine academic studies with hands-on workplace experience across a range of areas including People & Culture, Workforce Support, Work Health & Safety, Governance, Engagement and Corporate Strategy, and Digital Services. You will gain exposure to corporate operations, people management, governance, risk management, organisational planning and community engagement while developing practical skills in a local government environment.",
+    "The role may also involve travel and participation in residential study blocks associated with your academic program.",
+    "As a participant in Council's Emerging Talent Program, you will have the opportunity to develop your skills through structured learning, on-the-job experience, mentoring and exposure to a broad range of professional disciplines, building a strong foundation for a successful career in local government and beyond.",
+    "- Assisting with governance and GIPA activities, information requests and reporting requirements.",
+    "- Apply your university learning in a practical environment while developing the technical, analytical and professional skills required for a successful career in business and local government.",
+    "This role offers valuable exposure to a broad range of corporate services while developing practical skills and experience to support a future career in business.",
+    "We are seeking an individual who holds a Higher School Certificate (or equivalent) and is eligible to enrol in a bachelor-level qualification relevant to the role.",
+    "You will have the following skills and experience;",
+    "- Willingness to learn and apply knowledge gained through academic studies in a practical workplace environment.",
+    "This is a fixed term full-time position working 35 hours per week for a period of six (6) years.",
+    "Applications close 11.59pm AEDT on 22 November 2026.",
+    "Applicants must have the right to work in Australia and address the advertised selection criteria demonstrating their suitability for the role."
+   ]
+  },
+  {
+   "id": "95199179",
+   "source": "seek",
+   "title": "Design / Estimator & Workshop Support Officer",
+   "company": "Aquirian Limited",
+   "location": "Lonsdale, Adelaide SA",
+   "url": "https://www.seek.com.au/job/95199179",
+   "work_type": "Part time",
+   "salary": null,
+   "listed_at": "2026-10-12T02:51:55.028Z",
+   "expires_at": "2026-11-11T02:51:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "seeking a motivated and innovative Design/Estimator & Workshop Support Officer to join our growing team based in Lonsdale, South Australia.",
+   "opening": "About Us\n Aquirian Limited (ASX: AQN) is a leading provider of people, equipment and technology solutions to the mining and resources sector. Through our specialised businesses, including Maglok, we develop and deliver innovative products and services that help our clients operate more safely, efficiently and profitably.\n At Maglok, innovation drives everything we do. We design, manufacture and continuously improve products that solve real operational challenges faced by defence and mining companies across Australia.\n About the Role\n This is an exciting opportunity to become part of a dynamic defence and mining technology business that develops practical, innovative solutions for the defence, mining and resources industry. You'll play a key role in the design, development, testing and implementation of products and technologies that improve safety, productivity and operational performanc",
+   "key_lines": [
+    "Reporting to the Operations Manager, this position will work closely with our workshop team to deliver design, drafting and engineering support across a range of standard and custom projects.",
+    "While design governance and support will be available from Aquirian's Engineering Team in Perth, this role is intended to operate with a high degree of autonomy and ownership. We are looking for someone who can identify opportunities, solve problems, and drive projects from concept through to implementation.",
+    "Essential Requirements",
+    "- Degree or Diploma in Mechanical Engineering or a related discipline.",
+    "- Experience in mechanical design and drafting.",
+    "- Proficiency in Autodesk Inventor and AutoCAD.",
+    "- Experience producing engineering drawings and technical documentation.",
+    "Desirable Experience",
+    "- Mining, manufacturing or fabrication industry experience.",
+    "- Finite Element Analysis (FEA) experience.",
+    "- Product development, prototyping and testing experience.",
+    "- Workshop, fabrication or practical manufacturing experience.",
+    "- Inventory management or workshop stores experience.",
+    "Apply Now"
+   ]
+  },
+  {
+   "id": "95221478",
+   "source": "seek",
+   "title": "Project Engineer",
+   "company": "CGC Recruitment",
+   "location": "Parramatta & Western Suburbs, Sydney NSW",
+   "url": "https://www.seek.com.au/job/95221478",
+   "work_type": "Contract/Temp",
+   "salary": "$700 - $750 + Super per day",
+   "listed_at": "2026-10-13T00:20:14.095Z",
+   "expires_at": "2026-11-12T00:19:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "ASAP Start for PE to work on large earthworks project.",
+   "opening": "Project Engineer - Earthworks | Western Sydney\n 3-6 month contract | ASAP start | Competitive daily rate\n Our client, a leading civil contractor, is looking for a Project Engineer to join a large-scale earthworks project in Western Sydney. This is an immediate start, so if you're available now and have bulk earthworks experience, we'd like to hear from you.\n The role\n You'll work alongside the Project Manager and Construction Manager to support the day-to-day delivery of the earthworks scope, balancing site presence with project administration. Key responsibilities include:\n - Coordinating and supporting the delivery of bulk earthworks, including cut and fill, trimming, drainage and subgrade preparation\n - Liaising with the supervisors, subcontractors and the survey team to plan and sequence works\n - Managing subcontractor claims, variations and progress reporting\n - Preparing and monito",
+   "key_lines": [
+    "Our client, a leading civil contractor, is looking for a Project Engineer to join a large-scale earthworks project in Western Sydney. This is an immediate start, so if you're available now and have bulk earthworks experience, we'd like to hear from you.",
+    "- Supporting the delivery of HSEQ requirements on site, including inspections, hold points and close-outs",
+    "- Degree qualified in Civil Engineering (or equivalent)",
+    "- Proven experience as a Project Engineer or Site Engineer on civil earthworks or large-scale civil projects",
+    "- A solid understanding of earthworks methodologies, compaction, materials management and quality requirements",
+    "- Strong commercial awareness, with experience supporting subcontractor management and cost reporting",
+    "- Current NSW driver's licence and the ability to work on site in Western Sydney",
+    "- Must have full working rights in Australia",
+    "Why apply",
+    "How to apply",
+    "Click \"Apply\" or contact William Gardner at CGC Recruitment on 0435 935 377 or william.gardner@cgcrecruitment.com for a confidential discussion."
+   ]
+  },
+  {
+   "id": "95221316",
+   "source": "seek",
+   "title": "Junior Project Management",
+   "company": "RGM Property Surveys Pty Ltd",
+   "location": "Five Dock, Sydney NSW",
+   "url": "https://www.seek.com.au/job/95221316",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-13T00:13:10.090Z",
+   "expires_at": "2026-11-12T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "Do you have experience using Microsoft Word?",
+    "Do you have a current Australian driver's licence?"
+   ],
+   "summary": "Please apply through Seek, or send through your CV and Cover Letter to admin@rgmps.com.au",
+   "opening": "About Us\nRGM Property Surveys Pty Ltd is a fully Australian-owned professional surveying firm based in Five Dock NSW, specialising in all residential and commercial projects. We are a rapidly growing firm looking for motivated people to join our team. Our firm's culture is one of a professional yet relaxed environment.\nThe Role\nYou will provide administrative and project support, ensuring documentation, reporting, and stakeholder coordination are managed efficiently and in line with government processes.\nKey Responsibilities include:\n- Answering Phones\n- Project management for land titling\n- Liaising with clients for relevant documentation via email, phone or in person\n- Liaising with relevant internal and external personnel\n- Lodgements to relevant authorities such as Council and Land Titles office\n- Tracking progress of jobs\n- Dealing with Legal professionals\n- Generation of invoices/p",
+   "key_lines": [
+    "RGM Property Surveys Pty Ltd is a fully Australian-owned professional surveying firm based in Five Dock NSW, specialising in all residential and commercial projects. We are a rapidly growing firm looking for motivated people to join our team. Our firm's culture is one of a professional yet relaxed environment.",
+    "- Liaising with clients for relevant documentation via email, phone or in person",
+    "- Office located close to Public Transport",
+    "- No experience required as all training will be provided",
+    "- Having a valid driver's license will be advantage",
+    "- Australian citizen or Permanent Resident ONLY"
+   ]
+  },
+  {
+   "id": "95220454",
+   "source": "seek",
+   "title": "Estimator",
+   "company": "Australian Maritime Systems Group Pty Ltd",
+   "location": "Adelaide SA",
+   "url": "https://www.seek.com.au/job/95220454",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-12T23:25:26.786Z",
+   "expires_at": "2026-11-12T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as an Estimator?",
+    "How much notice are you required to give your current employer?",
+    "Do you have a current Police Check (National Police Certificate) for employment?",
+    "How many years of experience do you have in the Electronic Security Industry?",
+    "Do you hold a current security licence?"
+   ],
+   "summary": "Drive cost estimates and tender responses for electronic security projects. Office-based role in West Adelaide with a growing national group.",
+   "opening": "Access Datacom, part of the AMS Group (AMSG), is offering an exciting and rewarding opportunity for a motivated person to join us as an Estimator within our growing Security division. This is an office-based role located in West Adelaide.\nWe Offer:\n- Stability and job security with flexible working conditions including start and finish times\n- The opportunity to join an established and respected company with an exciting future\n- Support and guidance mentoring provided by experienced leaders\n- A positive and rewarding team culture where great work is acknowledged and appreciated\n- Dynamic, collaborative and inclusive work environment\n- Additional employment benefits including local parking, health care discounts, regular social events, employee assistance program and more\n Your principle responsibilities will be to:\nReport to the Sales Manager, you will Develop Cost estimates and proposal",
+   "key_lines": [
+    "- Support and guidance mentoring provided by experienced leaders",
+    "- Foster client relationships in close collaboration with the Sales, Business Development and Key Account Managers and the Sales and project teams in general",
+    "- Experience in estimation and contributing to client submissions",
+    "- Relevant technical qualifications or equivalent experience",
+    "- South Australia Driver Licence",
+    "- South Australia Security Licence, highly regarded though not essential",
+    "Candidates with suitable industry experience and a sincere interest in developing professionally and working for a growing medium sized enterprise are strongly encouraged to apply. AMSG is an equal opportunity employer, embracing diversity and inclusion.",
+    "Applicants must be Adelaide based and be entitled to work in Australia.",
+    "This is an excellent opportunity suitable for a confident, self-motivated, intelligent, and reliable individual that enjoys making a difference. If you want to make a positive impact that complements our team, we would love to learn more about you. Please submit your application including a cover letter outlining your experience and suitability for the role.",
+    "Please submit a cover letter and CV outlining why you would be a great fit for AMS Group and your experience and suitability for the role."
+   ]
+  },
+  {
+   "id": "95208364",
+   "source": "seek",
+   "title": "Site Engineer | FRP Package | 5 month Contract | 2/1 Roster",
+   "company": "CGC Recruitment",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/95208364",
+   "work_type": "Contract/Temp",
+   "salary": null,
+   "listed_at": "2026-10-12T07:05:42.631Z",
+   "expires_at": "2026-11-11T07:05:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Immediate start for a driven Site based Engineer to oversee the delivery of a large FRP scope on a 2/1 FIFO Roster.",
+   "opening": "Site Engineer | Major Renewable Energy Project | Tier 1 Contractor\n $600-$700/day + Super | 2/1 FIFO | 5-Month Contract | Immediate Start\n An exciting opportunity is now available for a Site Engineer to join a Tier 1 Contractor delivering one of Queensland's most exciting and innovative renewable energy projects.\n This is a bespoke, first-of-its-kind renewable energy project in QLD, offering the opportunity to work on a landmark project that will help shape the future of the renewable energy sector.\n We're looking for a driven and motivated Civil Engineer with 2-3 years' post-graduate experience in Australia, with a proven background delivering major concrete structure packages.\n The Role\n Working on a 2/1 FIFO roster, you'll be responsible for the day-to-day site engineering requirements, with a particular focus on the delivery and subcontractor management of major FRP package. \n Your r",
+   "key_lines": [
+    "We're looking for a driven and motivated Civil Engineer with 2-3 years' post-graduate experience in Australia, with a proven background delivering major concrete structure packages.",
+    "Working on a 2/1 FIFO roster, you'll be responsible for the day-to-day site engineering requirements, with a particular focus on the delivery and subcontractor management of major FRP package.",
+    "- Working closely with Supervisors, Project Engineers and the wider project team",
+    "- Civil Engineering degree",
+    "- 2-3 years' post-graduate experience in Australia",
+    "- Proven experience delivering major concrete/structural packages",
+    "- Strong site-based engineering experience",
+    "- Experience managing or coordinating subcontractors",
+    "Experience working on bridges, tunnels or other major structural/concrete projects will be highly regarded.",
+    "- $600-$700/day + Super, depending on experience",
+    "Please call Rory on 0428 026 703 or email rory.todd@cgcrecruitment.com"
+   ]
+  },
+  {
+   "id": "95201099",
+   "source": "seek",
+   "title": "Water and Sewer Operations Trainee",
+   "company": "Bega Valley Shire Council",
+   "location": "Bega, Wollongong, Illawarra & South Coast NSW",
+   "url": "https://www.seek.com.au/job/95201099",
+   "work_type": "Contract/Temp",
+   "salary": "$29,195.71 to $50,115.52 gross per annum",
+   "listed_at": "2026-10-12T03:36:31.980Z",
+   "expires_at": "2026-11-11T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Join Council's Emerging Talent Program and gain hands-on experience in water and sewer services while completing a Certificate III qualification.",
+   "opening": "A career with Bega Valley Shire Council offers the opportunity to engage in meaningful and diverse work that supports the vibrant communities of the south-east corner of NSW. Nestled between rolling hills and some of the state’s most stunning beaches, this region is home to a variety of people who enjoy both rural and coastal living.\nAs an AR Bluett Award winning Council, we are proud of our dedicated and talented team, whose efforts make our success possible.\nWith a workforce of over 350, we provide essential services to our communities, including libraries, customer service, finance, children’s services, engineering, project management, road maintenance, water management, environment, parks, gardens, and town centres.\nWe offer a range of employment benefits to support our staff, which may include:\n - Rostered days off\n - Flexible work arrangements\n - Salary packaging\n - Paid study leav",
+   "key_lines": [
+    "With a workforce of over 350, we provide essential services to our communities, including libraries, customer service, finance, children’s services, engineering, project management, road maintenance, water management, environment, parks, gardens, and town centres.",
+    "We have an exciting opportunity for a motivated individual to join Councils Emerging Talent Program and undertake a Certificate III in Water Industry Operations while gaining practical experience and mentorship across Council's Water and Sewer Services.",
+    "As a Water and Sewer Trainee, you will combine vocational studies with hands-on workplace experience across a range of water and sewer network operations functions, including Water Treatment Operations, Sewerage Treatment Operations, Network Maintenance, and Infrastructure Construction. You will gain practical experience in the operation, monitoring and maintenance of essential water and sewer services while developing the skills, knowledge and qualifications required for a rewarding career in the water industry.",
+    "The role may also involve travel and participation in residential training blocks associated with your qualification program.",
+    "As a participant in Council's Emerging Talent Program, you will have the opportunity to develop your skills through structured learning, on-the-job experience, mentoring and exposure to a broad range of professional disciplines, building a strong foundation for a successful career in local government and beyond.",
+    "- Undertake vocational studies and apply theoretical learning to workplace activities to develop practical skills and knowledge.",
+    "This role offers valuable exposure to a broad range of water and sewer operations while developing practical skills and experience to support a future career in Water and Sewer Services.",
+    "We are seeking two (2) individuals who have obtained a School Certificate (Year 10) or equivalent and hold a NSW Class C drivers' licence (or ability to obtain).",
+    "You will have the following skills and experience;",
+    "This is a fixed term full-time position working 38 hours per week for a period of two (2) years.",
+    "Applications close 11.59pm AEDT on 22 November 2026.",
+    "Applicants must have the right to work in Australia and address the advertised selection criteria demonstrating their suitability for the role.",
+    "This position requires applicants to be suitably immunised in line with recommendations from the Australian Immunisation Handbook, mandated Public Health Orders and/or Councils Immunisation Procedure."
+   ]
+  },
+  {
+   "id": "95187653",
+   "source": "seek",
+   "title": "Estimator",
+   "company": "UGL Regional Linx",
+   "location": "Bathurst, Blue Mountains & Central West NSW",
+   "url": "https://www.seek.com.au/job/95187653",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-11T02:33:19.954Z",
+   "expires_at": "2026-11-10T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": " Crucial role in the continued success of UGL Regional Linx safely operating and maintaining the Country Regional Network in regional NSW ",
+   "opening": "About UGL Regional Linx\nAt UGL Regional Linx (UGLRL), we help connect communities across regional New South Wales by managing and maintaining the Country Regional Network (CRN). As a subsidiary of UGL Transport, we are proud to create meaningful employment opportunities in regional and rural communities, with more than 85% of our workforce based across regional NSW.\nWe are committed to creating an inclusive workplace where people feel valued, supported, and empowered to succeed. Guided by our core values, we foster a culture built on collaboration, respect, safety, innovation, and continuous improvement.\nJob Purpose\nThe Estimator is responsible for preparing project estimates with accurate cost allocations and up to date market knowledge, monitoring the performance of project estimates, managing the change control process associated with project estimates, maintaining the CATS Resource L",
+   "key_lines": [
+    "Assist in the preparation of UGLRL Enhancements estimates as required, including the loading of those estimates into CATS",
+    "Review all project documentation to understand the requirements of the work to include the analysis of technical, contractual and financial requirements.",
+    "Tertiary qualification in Engineering, Quantity Surveying or similar profession. (Desirable)",
+    "3+ years’ experience working in an estimating role",
+    "Sound knowledge and experience within the rail industry, especially in an O&M context",
+    "At UGL Regional Linx, we believe diverse teams create better outcomes. We welcome applications from people of all backgrounds, experiences, and identities.",
+    "We are particularly committed to increasing female representation across our business and strongly encourage women to apply, even if you don't meet every requirement listed."
+   ]
+  },
+  {
+   "id": "95187652",
+   "source": "seek",
+   "title": "Estimator",
+   "company": "UGL Regional Linx",
+   "location": "Orange, Blue Mountains & Central West NSW",
+   "url": "https://www.seek.com.au/job/95187652",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-11T02:33:18.407Z",
+   "expires_at": "2026-11-10T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": " Crucial role in the continued success of UGL Regional Linx safely operating and maintaining the Country Regional Network in regional NSW ",
+   "opening": "About UGL Regional Linx\nAt UGL Regional Linx (UGLRL), we help connect communities across regional New South Wales by managing and maintaining the Country Regional Network (CRN). As a subsidiary of UGL Transport, we are proud to create meaningful employment opportunities in regional and rural communities, with more than 85% of our workforce based across regional NSW.\nWe are committed to creating an inclusive workplace where people feel valued, supported, and empowered to succeed. Guided by our core values, we foster a culture built on collaboration, respect, safety, innovation, and continuous improvement.\nJob Purpose\nThe Estimator is responsible for preparing project estimates with accurate cost allocations and up to date market knowledge, monitoring the performance of project estimates, managing the change control process associated with project estimates, maintaining the CATS Resource L",
+   "key_lines": [
+    "Assist in the preparation of UGLRL Enhancements estimates as required, including the loading of those estimates into CATS",
+    "Review all project documentation to understand the requirements of the work to include the analysis of technical, contractual and financial requirements.",
+    "Tertiary qualification in Engineering, Quantity Surveying or similar profession. (Desirable)",
+    "3+ years’ experience working in an estimating role",
+    "Sound knowledge and experience within the rail industry, especially in an O&M context",
+    "At UGL Regional Linx, we believe diverse teams create better outcomes. We welcome applications from people of all backgrounds, experiences, and identities.",
+    "We are particularly committed to increasing female representation across our business and strongly encourage women to apply, even if you don't meet every requirement listed."
+   ]
+  },
+  {
+   "id": "95187642",
+   "source": "seek",
+   "title": "Estimator",
+   "company": "UGL Regional Linx",
+   "location": "Dubbo, Dubbo & Central NSW",
+   "url": "https://www.seek.com.au/job/95187642",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-11T02:29:18.202Z",
+   "expires_at": "2026-11-10T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": " Crucial role in the continued success of UGL Regional Linx safely operating and maintaining the Country Regional Network in regional NSW ",
+   "opening": "About UGL Regional Linx\nAt UGL Regional Linx (UGLRL), we help connect communities across regional New South Wales by managing and maintaining the Country Regional Network (CRN). As a subsidiary of UGL Transport, we are proud to create meaningful employment opportunities in regional and rural communities, with more than 85% of our workforce based across regional NSW.\nWe are committed to creating an inclusive workplace where people feel valued, supported, and empowered to succeed. Guided by our core values, we foster a culture built on collaboration, respect, safety, innovation, and continuous improvement.\nJob Purpose\nThe Estimator is responsible for preparing project estimates with accurate cost allocations and up to date market knowledge, monitoring the performance of project estimates, managing the change control process associated with project estimates, maintaining the CATS Resource L",
+   "key_lines": [
+    "Assist in the preparation of UGLRL Enhancements estimates as required, including the loading of those estimates into CATS",
+    "Review all project documentation to understand the requirements of the work to include the analysis of technical, contractual and financial requirements.",
+    "Tertiary qualification in Engineering, Quantity Surveying or similar profession. (Desirable)",
+    "3+ years’ experience working in an estimating role",
+    "Sound knowledge and experience within the rail industry, especially in an O&M context",
+    "At UGL Regional Linx, we believe diverse teams create better outcomes. We welcome applications from people of all backgrounds, experiences, and identities.",
+    "We are particularly committed to increasing female representation across our business and strongly encourage women to apply, even if you don't meet every requirement listed."
+   ]
+  },
+  {
+   "id": "95221116",
+   "source": "seek",
+   "title": "Project Engineer",
+   "company": "Public Sector People",
+   "location": "Melbourne VIC",
+   "url": "https://www.seek.com.au/job/95221116",
+   "work_type": "Contract/Temp",
+   "salary": null,
+   "listed_at": "2026-10-13T00:03:09.194Z",
+   "expires_at": "2026-11-12T00:03:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Experienced Project Engineer required for an immediate start 12-month contract with a local council in Melbourne's south eastern suburbs.",
+   "opening": "We are looking for an experienced Project Engineer to join our client, a growing local council in Melbourne’s south-east, on an initial 12-month contract.\n This is an excellent opportunity to contribute to meaningful infrastructure projects that directly benefit the local community. \nYou’ll play a key role in delivering the council’s Capital Works Program, overseeing civil projects from investigation and planning through to design, construction and completion.\n About the Opportunity \nWorking within the council’s engineering and infrastructure team, you’ll coordinate and manage a range of civil works projects, primarily involving roads, drainage, bridges and infrastructure improvements.\n Key Responsibilities - Coordinate and manage civil infrastructure projects from investigation and planning through to design and construction.\n - Deliver designated Capital Works Program projects in line ",
+   "key_lines": [
+    "We are looking for an experienced Project Engineer to join our client, a growing local council in Melbourne’s south-east, on an initial 12-month contract.",
+    "- Relevant qualifications in Civil Engineering or a related discipline.",
+    "- Experience coordinating or managing civil infrastructure projects.",
+    "- Local government experience.",
+    "Apply Now",
+    "We are keen to speak with experienced Project Engineers who are ready to take the next step in their career and contribute to important civil infrastructure projects."
+   ]
+  },
+  {
+   "id": "95220928",
+   "source": "seek",
+   "title": "Hydraulics Project Engineer",
+   "company": "CC Pines Pty Ltd",
+   "location": "Darwin NT",
+   "url": "https://www.seek.com.au/job/95220928",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-12T23:52:44.776Z",
+   "expires_at": "2026-11-11T23:52:43.000Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Site Engineer (Hydraulics) to join our Darwin project,",
+   "opening": "Get the water flowing on a Defence-linked build in the Top End.\nCC Pines is looking for a Site Engineer (Hydraulics) to join our Darwin project full-time, on the ground. We're after someone already based in Darwin, so you can hit the ground running. You'll own the hydraulic scope on site, from setout to commissioning, on a project that'll look very good on your CV.\nThis is a full-on role. The roster is likely 6 days a week, so we're after someone who wants to be in the thick of it and make things happen. In return, you get real responsibility, a great location and a team that backs you.\nAbout Us\nCC Pines is an Australian-owned, family-founded construction company with a 45-year track record of delivering complex, high-risk projects that other contractors won't touch, from embassy builds in Morocco to Defence infrastructure across the Pacific. We work with the Australian Department of Def",
+   "key_lines": [
+    "- Real ownership of the hydraulic scope on a nationally significant project, not a junior seat in a huge team.",
+    "As Site Engineer (Hydraulics), you'll be the on-site go-to for all things hydraulic. You'll coordinate subcontractors, check the work against drawings and specs, and keep the program moving, working closely with the Foreman, Site Manager and Project Manager.",
+    "- Degree in Civil, Mechanical, Hydraulic or a related engineering discipline",
+    "- Site experience delivering hydraulic services on commercial, infrastructure or government projects",
+    "- Working knowledge of AS/NZS 3500, the NCC and fire services requirements",
+    "- Experience coordinating subcontractors and managing quality on site"
+   ]
+  },
+  {
+   "id": "95220810",
+   "source": "seek",
+   "title": "Primary Substation Design Drafter – EHV Projects",
+   "company": "Balpara",
+   "location": "Melbourne VIC",
+   "url": "https://www.seek.com.au/job/95220810",
+   "work_type": "Full time",
+   "salary": "Salary commiserate to experience",
+   "listed_at": "2026-10-12T23:45:11.860Z",
+   "expires_at": "2026-11-12T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Expand your portfolio by contributing to major high-voltage and EHV substation projects, building your experience across primary design!",
+   "opening": "Big Projects. Bigger Opportunities.\nReady to take your career to the next level?\nJoin Balpara and work on major high-voltage and extra-high-voltage (EHV) substation projects for leading electricity utilities across Australia.\nThis is an opportunity to expand your technical expertise, build an impressive portfolio of substation projects and work alongside experienced engineers and designers delivering critical electricity infrastructure.\nIf you enjoy technical challenges, producing high-quality designs and seeing your work contribute to real-world projects, we’d love to hear from you.\nWhy join Balpara?\n - Work on Major EHV Substation Projects\n - Take Your Skills Further\n - Variety That Keeps You Engaged \n - Work-Life Balance That Matters \nAbout the role\nAs a Primary Substation Design Drafter, you’ll support the development of detailed engineering drawings and design documentation for high",
+   "key_lines": [
+    "This is an opportunity to expand your technical expertise, build an impressive portfolio of substation projects and work alongside experienced engineers and designers delivering critical electricity infrastructure.",
+    "Working closely with engineers and project teams, you’ll help translate engineering concepts into accurate, practical and constructible design solutions.",
+    "- Applying electrical clearances, spatial requirements and relevant design standards.",
+    "- Incorporating engineering mark-ups, design changes and project requirements.",
+    "- Experience in electrical drafting or design, ideally within substations or high-voltage infrastructure.",
+    "- Experience with AutoCAD and the preparation of detailed technical drawings.",
+    "- The ability to interpret engineering mark-ups, specifications and technical requirements.",
+    "- Experience with EHV substations and utility projects will be highly regarded.",
+    "Apply now to join Balpara and be part of our continued growth.",
+    "Final-stage applicants will be required to complete assessments, testing and a National Criminal Check."
+   ]
+  },
+  {
+   "id": "95218973",
+   "source": "seek",
+   "title": "Technologist Graduate Program 2028 Intakes",
+   "company": "Australian Security Intelligence Organisation",
+   "location": "Canberra ACT",
+   "url": "https://www.seek.com.au/job/95218973",
+   "work_type": "Full time",
+   "salary": "$96,669 - $106,280",
+   "listed_at": "2026-10-12T21:44:57.388Z",
+   "expires_at": "2026-11-11T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "We are looking for team members who are curious, creative thinkers and want to make a difference everyday.",
+   "opening": "The Organisation\nThe Australian Security Intelligence Organisation (ASIO) protects Australia and Australians from threats to their security. ASIO’s people are ordinary Australians but they do extraordinary things – they are our most important asset.\nTo be successful, we need talented people who are highly capable, dedicated, adaptable and resilient.\nWe seek to reflect the community we protect. ASIO is committed to fostering a diverse and inclusive environment, where all staff are valued and respected. We welcome applications from all eligible candidates, irrespective of gender, sexual orientation, ethnicity, religious affiliation, age or disability. We are culturally and linguistically diverse, language skills enhance our collective ability to protect Australia. Aboriginal and Torres Strait Islander peoples are encouraged to apply. We are secretive about what we do, not what we value.\nAt",
+   "key_lines": [
+    "We seek to reflect the community we protect. ASIO is committed to fostering a diverse and inclusive environment, where all staff are valued and respected. We welcome applications from all eligible candidates, irrespective of gender, sexual orientation, ethnicity, religious affiliation, age or disability. We are culturally and linguistically diverse, language skills enhance our collective ability to protect Australia. Aboriginal and Torres Strait Islander peoples are encouraged to apply. We are secretive about what we do, not what we value.",
+    "Are you seeking an exceptional career where you can contribute and make a difference to the security of Australia? ASIO’s Technologist Graduate Program is a dynamic and fast-paced 12-month program with intakes in early & mid-2028. The program will set you on a pathway for a career with purpose.",
+    "We are seeking university students who have completed their degree before the intake commences, or graduates from the past 3 years who are passionate about technology, continuous learning and working collaboratively to make a difference. On commencement as a technologist graduate, you will be assigned to one of the following streams:",
+    "- Assist in data and AI lifecycle management from acquisition through to sharing and disposal, applying best practice AI and data‑governance frameworks.",
+    "The program will equip you with the skills, experience and knowledge to undertake a wide range of technical roles and to establish a diverse and rewarding career at ASIO.",
+    "A merit pool may be created to fill future vacancies which have the same or similar requirements to this position. This merit pool will be valid for up to 18 months.",
+    "Qualifications",
+    "To apply for a graduate program in ASIO, you must have completed a relevant degree prior to program commencement, or no more than 3 years prior.",
+    "Candidates are required to have a degree which could include, but are not limited to:",
+    "To be eligible to work at ASIO, you must be:",
+    "- an Australian citizen",
+    "- have completed your degree before the program commences, or graduated in the past 3 years",
+    "We advertise positions nationally to reach the broadest audience. Please refer to the above location before applying.",
+    "Please let us know if you require any additional assistance or reasonable adjustments during any stage of the recruitment process in order to fully participate in the recruitment process or the workplace. This may include reasonable adjustments to assessment methodologies to enable full participation."
+   ]
+  },
+  {
+   "id": "95218928",
+   "source": "seek",
+   "title": "Tolling Infrastructure Engineer",
+   "company": "North East Link State Tolling Corporation",
+   "location": "Melbourne VIC",
+   "url": "https://www.seek.com.au/job/95218928",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-12T21:40:51.544Z",
+   "expires_at": "2026-10-27T12:59:59.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Are you legally entitled to work in Australia?",
+    "Please detail your minimum salary expectations (excluding super):",
+    "What is the notice period for your current employment?",
+    "What motivated you to apply for this position?",
+    "What relevant skills and experience would you bring to this role?"
+   ],
+   "summary": "The Tolling Infrastructure Engineer is responsible for shaping and maintaining STC’s tolling technology environment.",
+   "opening": "About the Role – Tolling Infrastructure Engineer \nThe Tolling Infrastructure Engineer is responsible for shaping and maintaining STC’s tolling technology environment, including roadside systems, back-office platforms, networks and supporting infrastructure. The role provides expert technical leadership, works closely with vendors and partners, and ensures tolling systems are reliable, secure, resilient and aligned with organisational strategy.\nKey Responsibilities: \n - Provide subject matter expertise across networks, hybrid cloud, domain services and cyber security to support the design, delivery, operation and continuous improvement of the Toll Collection Capability Platform.\n - Define, design, implement and maintain tolling infrastructure architecture across on-premises and hybrid cloud environments, ensuring alignment with tolling objectives, enterprise architecture principles and te",
+   "key_lines": [
+    "The Tolling Infrastructure Engineer is responsible for shaping and maintaining STC’s tolling technology environment, including roadside systems, back-office platforms, networks and supporting infrastructure. The role provides expert technical leadership, works closely with vendors and partners, and ensures tolling systems are reliable, secure, resilient and aligned with organisational strategy.",
+    "- Apply network and communications principles, standards and patterns to the design and support of tolling infrastructure solutions.",
+    "- Define and support security architecture, policies, governance controls, compliance requirements, resilience measures and risk mitigation strategies across tolling infrastructure.",
+    "Qualifications & Professional Experience",
+    "Required:",
+    "- A relevant tertiary qualification in Information Technology or other relevant discipline granted by a tertiary education provider at graduate or post graduate level.",
+    "- At least 10 years’ relevant experience in Technology infrastructure, with demonstrated expertise in the design, delivery and operation of secure, reliable and resilient infrastructure services.",
+    "- Experience in high-availability or mission-critical environments.",
+    "- Experience supporting distributed or Operational Technology (OT) environments and IT environments, including backup, disaster recovery, and business continuity controls is highly advantageous.",
+    "- Knowledge and/or experience of ITIL and operational service management.",
+    "- Knowledge of, or experience within, tolling operations and technology environments, preferably gained in large-scale roads or infrastructure projects.",
+    "- Experience in having designed, established, and managed green fields technology infrastructure environment is highly advantageous.",
+    "- Knowledge and/or experience with SD-WAN, Entra ID, Azure Virtual Desktop, On-premises networking, Azure Security tools, AWS security tools, ISMS (Cyber Governance), Endpoint XDR, Azure Sentinel, and FortiSASE",
+    "How to Apply:"
+   ]
+  },
+  {
+   "id": "95218888",
+   "source": "seek",
+   "title": "Estimator - Insurance Building (Western/Northwestern/Northern Region)",
+   "company": "Ethos Building",
+   "location": "Docklands, Melbourne VIC",
+   "url": "https://www.seek.com.au/job/95218888",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-12T21:36:17.196Z",
+   "expires_at": "2026-11-12T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "How many years' experience do you have as a Building Insurance Estimator?",
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have in the insurance industry?",
+    "How many years of estimating experience do you have?",
+    "How many years' experience do you have in the construction industry?",
+    "Do you have a current Australian driver's licence?"
+   ],
+   "summary": "Join a company in a strong phase of growth, where your not just a number and can make an impactful difference.",
+   "opening": "ABOUT US\nEthos Building & Restoration is a trusted and established insurance builder, recognised for our innovation, commitment to sustainability, and exceptional customer service. We specialise in Commercial, Complex, Domestic, and Strata claims, delivering high-quality insurance repairs with precision and care. Our dedication to excellence earned us the AICLA Builder of the Year Award in both 2020 and 2022, reinforcing our reputation as an industry leader.\nAt Ethos, we offer more than just a job—we provide real career opportunities as we expand our national footprint, within a company that values its people. Our strong team culture fosters collaboration, growth, and professional development, ensuring every team member is empowered to succeed. With a leadership team that champions innovation and continuous improvement, we are shaping the future of insurance building while delivering out",
+   "key_lines": [
+    "We are currently looking for an experienced  Estimator - Insurance Building to join our high performing team in Melbourne. Reporting to the Estimating Manager,  this role will be responsible for estimating projects for both commercial and domestic claims, working closely with clients and Insureds, producing cost estimates with the objective of being market competitive, supporting the growth of our business.",
+    "- Liaise closely with loss adjuster and insurers, monitoring approval rates",
+    "- Manage client expectations, providing periodic updates, ensuring the best customer experience by building strong customer relationships through communication",
+    "- Experienced in Insurance estimating",
+    "- Experience in negotiation, facilitating and collaboration with multiple stakeholders."
+   ]
+  },
+  {
+   "id": "95215627",
+   "source": "seek",
+   "title": "Estimator",
+   "company": "Florence Alba Collective",
+   "location": "Williamstown, Melbourne VIC",
+   "url": "https://www.seek.com.au/job/95215627",
+   "work_type": "Full time",
+   "salary": "$85,000 – $125,000 per year",
+   "listed_at": "2026-10-12T12:33:18.025Z",
+   "expires_at": "2026-11-11T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as an Estimator?",
+    "How much notice are you required to give your current employer?",
+    "Do you have experience using Generative AI Tools?",
+    "Do you have experience using Agentic AI?"
+   ],
+   "summary": "Estimator role preparing and submitting tenders for stone and tiling projects.",
+   "opening": "About the role\nAn Estimator role in relation to tendering for new pipeline opportunities in the stone and tile industry in Melbourne, with a focus on T1 / T2 projects and high end domestic projects.\nKey responsibilities\n- Be proficient at using AI in preparing and submitting tenders / quotes for new pipeline opportunities\n- Manage and submit new tender submissions\n- Assist with Business Development activities\n- Work closely with founder, CEO, estimating and project management teams\n- Assist with handover to project management team once awarded\nAbout you\n- Experience using AI is essential\n- Construction estimation and tendering experience is essential\n- Tiling, stone or finishes background is a bonus, not a must\n- Contract admin or project management background is a bonus, not a must\nAbout us\nFlorence Alba Collective is growing our Estimation / Tendering team. Amongst other things, we foc",
+   "key_lines": [
+    "- Work closely with founder, CEO, estimating and project management teams",
+    "- Experience using AI is essential",
+    "- Construction estimation and tendering experience is essential",
+    "- Tiling, stone or finishes background is a bonus, not a must",
+    "- Contract admin or project management background is a bonus, not a must",
+    "Florence Alba Collective is growing our Estimation / Tendering team. Amongst other things, we focus primarily on stone and tiling packages in relation to large scale commercial T1, T2 and high end residential projects. We have our own brand new state-of-the-art stone manufacturing facility in-house where we do all of our stone manufacturing work."
+   ]
+  },
+  {
+   "id": "95210268",
+   "source": "seek",
+   "title": "Project Engineer",
+   "company": "STERIS",
+   "location": "Sydney NSW",
+   "url": "https://www.seek.com.au/job/95210268",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-12T08:15:22.373Z",
+   "expires_at": "2026-11-11T09:12:11.000Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Deliver healthcare equipment projects from design to installation, ensuring quality, compliance, stakeholder alignment, and customer success.",
+   "opening": "Company description:\nSTERIS is a leading provider of infection prevention and procedural products and services, focused primarily on the critical markets of healthcare, pharmaceutical and research and medical devices. Our mission is to help our Customers create a healthier and safer world by providing innovative healthcare and life science product and service solutions around the globe. We have 12,000 employees worldwide, with over 3,000 in Customer-facing sales and service roles. Founded as Innovative Medical Technologies in Ohio in 1985, the company was renamed STERIS in 1987. Many of the businesses that have been acquired and integrated into STERIS have much longer operating histories, notably the American Sterilizer Company founded in 1894. The STERIS Vision is inspired by our Customers' efforts to create a healthier and safer world, and guided by our legacy of leadership and innovat",
+   "key_lines": [
+    "As a Project Engineer, you will play a key role in delivering exceptional customer outcomes through the design, coordination, and end-to-end execution of capital medical equipment projects across the STERIS Healthcare portfolio throughout Australia and New Zealand. From initial project scoping and design development through to installation, commissioning, and project completion, you will ensure projects are delivered safely, on time, within budget, and in compliance with clinical and regulatory requirements.",
+    "* Define project scope, objectives, milestones, and deliverables aligned with customer and business requirements.",
+    "* Provide design, planning, and coordination of CSD, Endo and Surgical projects from pre-sales through to installation and project closeout.",
+    "* Develop equipment layouts, specifications, CAD & REVIT drawings, sizing reports, schedules, budgets, quotations, and technical proposals.",
+    "* Review project requirements, drawings, and specifications to ensure compliance with healthcare standards and best practices.",
+    "* Develop and maintain project plans, tracking scope, schedule, cost, quality, and resource requirements.",
+    "The Experience, Skills and Abilities Needed",
+    "Required:",
+    "* Bachelor's Degree in Engineering.",
+    "* Proficient in CAD and/or REVIT drafting packages.",
+    "* Demonstrated experience delivering complex projects, preferably within healthcare, medical devices, capital equipment, engineering, construction, or technical environments.",
+    "* Valid driver's licence and willingness to travel as required.",
+    "* Project Management experience.",
+    "* Experience working with healthcare facility projects, sterilisation departments, operating theatres, or medical capital equipment installations."
+   ]
+  }
+ ]
+}

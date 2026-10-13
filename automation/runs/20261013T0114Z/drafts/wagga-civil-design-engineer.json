@@ -1,0 +1,66 @@
+{
+ "company": "Wagga Wagga City Council",
+ "role": "Civil Design Engineer (Cadet or Graduate level)",
+ "location": "Wagga Wagga NSW",
+ "job_url": "https://wagga.pulsesoftware.com/Pulse/jobs",
+ "company_url": "https://wagga.nsw.gov.au/",
+ "route": "EMPLOYER_PORTAL",
+ "application_type": "ADVERTISED_VACANCY",
+ "application_method": "Company website",
+ "recipient_name": "",
+ "recipient_role": "",
+ "recipient_email": "",
+ "contact_evidence_url": "https://www.jobstralia.com/detail/8/53d32c885e2201795362c4a3cb83cdb7",
+ "subject": "Civil Design Engineer, Graduate level (Wagga Wagga): Marc Darenz Masarate",
+ "email_body": "Hello Engineering Design Services team,\n\nI am applying for the Senior Design Engineer Civil (all experience levels) position at Graduate level, listed on Council's Pulse jobs board and closing 1 November.\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. Before that I worked on site in the Philippines from 2019 to 2020 as a project in charge engineer and then a field engineer. I am based in Melton VIC, hold a White Card, a driver licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am available for site, regional and FIFO work.\n\nThe advert says the Cadet or Graduate engineer will help senior staff deliver road, stormwater and sewer designs for tender and construction, and names Civil 3D and AutoCAD. Road and stormwater design are the core of my diploma work; I have not designed sewer networks and have not used 12d Model yet, and my design work so far is from study rather than a paid role.\n\nCould we arrange a time to talk about the Graduate level? I've attached my resume and cover letter.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+ "letter": {
+  "recipient_name": "",
+  "recipient_role": "Manager Engineering Design Services",
+  "company": "Wagga Wagga City Council",
+  "company_line": "Wagga Wagga City Council, Engineering Design Services, Civic Centre, 243 Baylis Street, Wagga Wagga NSW 2650",
+  "subject": "Application for Senior Design Engineer Civil (all experience levels), Graduate level",
+  "greeting": "Hello,",
+  "closing": "Kind regards,",
+  "paragraphs": [
+   "I am applying for the Senior Design Engineer Civil (all experience levels) position in Engineering Design Services, at the Cadet or Graduate level. At that level the role assists senior staff to deliver road, stormwater and sewer designs suitable for tender and construction, which is the work I trained for.",
+   "I finished an Advanced Diploma of Civil Construction Design at Albright Institute in February 2026. The course covered road geometry, earthworks, pavement and stormwater drainage, with drawings prepared and reviewed in AutoCAD and Civil 3D to Australian Standards. I also hold a Bachelor of Science in Civil Engineering from Divine Word College of Legazpi (2014 to 2019). In the diploma I lodged Before You Dig Australia enquiries and designed around existing services and site constraints.",
+   "From April to September 2019 I was project in charge engineer on a community hall renovation in the Philippines, coordinating 10 to 15 workers each day, reviewing drawings and carrying out site inspections and quality checks. From September 2019 to February 2020 I was a field engineer on subdivision finishing works, preparing site reports, material records and progress reports and working with engineers, subcontractors and suppliers.",
+   "I have not designed sewer networks, and I have not used 12d Model, DRAINS or GIS software on a job. My AutoCAD and Civil 3D experience is from study rather than a commercial design office, so I would expect to learn Council's design standards and processes under supervision.",
+   "I am based in Melton VIC, hold a driver licence, a White Card and my own transport, and have full working rights until December 2027 on a Subclass 485 visa. I am open to discussing relocation to Wagga Wagga for this role. My resume is attached and study drawings are at https://macdarenz-droid.github.io/Portfolio."
+  ]
+ },
+ "screening_answers": [
+  {
+   "question": "Tertiary qualification in Civil Engineering",
+   "answer": "Yes. Bachelor of Science in Civil Engineering, Divine Word College of Legazpi (2014 to 2019); Advanced Diploma of Civil Construction Design, Albright Institute (February 2026)."
+  },
+  {
+   "question": "Class C Driver's Licence (or ability to obtain)",
+   "answer": "Holds an Australian driver's licence and own transport."
+  },
+  {
+   "question": "General Construction Induction (White) Card",
+   "answer": "Yes, holds a White Card."
+  },
+  {
+   "question": "Right to work",
+   "answer": "Subclass 485 visa, full working rights until December 2027. Do not claim citizenship or permanent residency."
+  },
+  {
+   "question": "Level applied for",
+   "answer": "Cadet or Graduate level (not Experienced or Senior; no CPEng or NER registration)."
+  },
+  {
+   "question": "Police check consent",
+   "answer": "Yes, willing to undergo applicable pre-employment checks."
+  }
+ ],
+ "checklist": [
+  "Open https://wagga.pulsesoftware.com/Pulse/jobs and confirm 'Senior Design Engineer Civil (all experience levels)' is still listed (closes 1 Nov 2026, 11:59pm).",
+  "Register or sign in on Pulse with macdarenz@gmail.com and upload Marc_Masarate_Wagga_Wagga_City_Council_Resume.pdf plus this cover letter.",
+  "State the Graduate level in the application; answer any selection criteria from facts only (road and stormwater coursework, no sewer or 12d).",
+  "Do not claim sewer design, 12d Model, registration or Australian design office experience.",
+  "Press Applied on the tracker after the Pulse confirmation email arrives."
+ ],
+ "notes": "Employer portal route. Geordi Paxton (Manager Engineering Design Services) is named for phone enquiries only; no email published. Advert full text read from the Jobstralia mirror; live listing confirmed on the Pulse board 13 Oct 2026."
+}

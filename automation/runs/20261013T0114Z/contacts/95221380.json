@@ -1,0 +1,32 @@
+{
+ "company_url": "https://shoreworx.com.au/",
+ "careers_url": "https://www.seek.com.au/job/95221380",
+ "recipient_name": "Dave Sellar",
+ "recipient_role": "State Manager NSW",
+ "recipient_email": "DaveS@ShoreWorx.com.au",
+ "contact_evidence_url": "https://shoreworx.com.au/our-team/",
+ "evidence_quote": "New South Wales: Dave Sellar, State Manager NSW, 0499 462 286, DaveS@ShoreWorx.com.au",
+ "contact_confidence": "published_direct",
+ "named_people": [
+  {
+   "name": "Dave Sellar",
+   "role": "State Manager NSW",
+   "email": "DaveS@ShoreWorx.com.au",
+   "evidence_url": "https://shoreworx.com.au/our-team/"
+  },
+  {
+   "name": "Gagen Signh",
+   "role": "Engineer",
+   "email": "",
+   "evidence_url": "https://shoreworx.com.au/our-team/"
+  },
+  {
+   "name": "Mick Carter",
+   "role": "Engineering BDM",
+   "email": "",
+   "evidence_url": "https://shoreworx.com.au/our-team/"
+  }
+ ],
+ "employer_line": "ShoreWorX's in-house engineering team designs temporary works for excavations where standard shoring is not enough, such as variable ground, vehicle loads near the trench or live services.",
+ "notes": "Checked 2026-10-13. Team page publishes the NSW State Manager's business email; the Glendenning office (2 Kilto Crescent) is in NSW, so he runs the state where the role sits. Engineers on the page have no published email. engineering@shoreworx.com.au is a project engineering support inbox, not an applications inbox. Advert route is SEEK, so this is a double touch only after Marc presses Applied."
+}

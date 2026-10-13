@@ -1761,6 +1761,46 @@
      "result": "20261012T2026Z: Graduates/Undergraduates still invited; apply admin@osbornconsulting.com.au. Civil Designer/Drafter Ipswich May 2025 contract is elapsed. Tracke"
     }
    ]
+  },
+  {
+   "run_id": "20261013T0114Z",
+   "rotation": "councils_government",
+   "checked_at": "2026-10-13T01:25:00Z",
+   "checked": [
+    {
+     "name": "Wagga Wagga City Council",
+     "url": "https://wagga.pulsesoftware.com/Pulse/jobs",
+     "result": "Pulse board rendered with browse.py (CHROME_BIN=/usr/bin/google-chrome): Senior Design Engineer Civil (all experience levels) open to Cadet/Graduate, closes 1 Nov 2026; published READY_JEREMIE_EMPLOYER_PORTAL. Other listings operator/programmer roles."
+    },
+    {
+     "name": "Mildura Rural City Council",
+     "url": "https://www.careersatcouncil.com.au/job/design-engineering-officer/",
+     "result": "Design Engineering Officer R2799 (closes 15 Oct) already tracked"
+    },
+    {
+     "name": "City of Busselton",
+     "url": "https://www.councildirect.com.au/job/civil-designer-1791707531-6acb498b8538b",
+     "result": "Civil Designer (closes 26 Oct) already tracked READY_JEREMIE_EMPLOYER_PORTAL 1 Oct"
+    },
+    {
+     "name": "City of Greater Geraldton",
+     "url": "https://au.gradconnection.com/employers/careers-at-council/jobs/careers-at-council-graduate-engineering-officer-2/",
+     "result": "Graduate Engineering Officer Ref 1348 (closes 15 Oct) already tracked"
+    },
+    {
+     "name": "Gunnedah Shire Council",
+     "url": "https://jobau.org/design-officer_gunnedah-c1005487/2026-10-gunnedah-shire-council_i4225324924",
+     "result": "Civil Survey & Design Officer cadet/graduate (closes 19 Oct) already tracked"
+    },
+    {
+     "name": "Camden / Maitland / Bega Valley / Knox / Baw Baw / Yarra / Inner West / Gold Coast",
+     "url": "web search",
+     "result": "senior-only, closed, or already tracked; no new eligible council role"
+    }
+   ],
+   "published": [
+    "Wagga Wagga City Council Civil Design Engineer, Cadet or Graduate level (READY_JEREMIE_EMPLOYER_PORTAL)"
+   ]
   }
  ],
  "history": [

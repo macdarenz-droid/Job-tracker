@@ -1,0 +1,27 @@
+{
+ "percent": 25,
+ "rationale": [
+  "ASIO Technologist Graduate Program 2028.",
+  "Security clearance programme for Australian citizens; ICT/technology focus.",
+  "Not civil; citizenship required for clearance."
+ ],
+ "caution": "",
+ "gaps": [],
+ "mandatory_unmet": [
+  "Australian citizenship required for ASIO security clearance"
+ ],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply on SEEK (advert 95218973).",
+ "open": true,
+ "employer_is_agency": false,
+ "id": "95218973",
+ "company": "Australian Security Intelligence Organisation",
+ "title": "Technologist Graduate Program 2028 Intakes",
+ "location": "Canberra ACT",
+ "url": "https://www.seek.com.au/job/95218973",
+ "listed_at": "2026-10-12T21:44:57.388Z",
+ "expires_at": "2026-11-11T12:59:59.999Z",
+ "screening_questions": []
+}

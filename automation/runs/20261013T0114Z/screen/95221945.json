@@ -1,0 +1,37 @@
+{
+ "percent": 40,
+ "rationale": [
+  "Duo QS Junior Estimator in Homebush, high-end residential BOQs.",
+  "Requires a minimum of 1 year construction or building experience and a QS/CM/Architecture or related degree.",
+  "Marc's site work April 2019 to February 2020 is under one year; Cubit/CostX not used."
+ ],
+ "caution": "",
+ "gaps": [],
+ "mandatory_unmet": [
+  "Minimum of 1 year of construction/building experience (Marc has under one year, April 2019 to February 2020)"
+ ],
+ "mandatory_unresolved": [
+  "Must have full unrestricted working rights; visa sponsorship not available (485 is time-limited)"
+ ],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply on SEEK (advert 95221945).",
+ "open": true,
+ "employer_is_agency": false,
+ "id": "95221945",
+ "company": "Duo QS",
+ "title": "Junior Estimator - Graduate",
+ "location": "Homebush, Sydney NSW",
+ "url": "https://www.seek.com.au/job/95221945",
+ "listed_at": "2026-10-13T00:40:26.185Z",
+ "expires_at": "2026-11-12T12:59:59.999Z",
+ "screening_questions": [
+  "How many years of estimating experience do you have?",
+  "Which of the following statements best describes your right to work in Australia?",
+  "Do you have a current Police Check (National Police Certificate) for employment?",
+  "How much notice are you required to give your current employer?",
+  "Are you currently studying?",
+  "What's your expected annual base salary?",
+  "Do you have experience using Cubit Estimating Software?"
+ ]
+}

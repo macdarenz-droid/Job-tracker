@@ -1,0 +1,35 @@
+{
+ "percent": 30,
+ "rationale": [
+  "AMS Group Estimator, security division, Adelaide.",
+  "Requires estimating experience, SA licence and DCI clearances; electronic security background.",
+  "Discipline mismatch."
+ ],
+ "caution": "",
+ "gaps": [],
+ "mandatory_unmet": [
+  "Experience in estimation and contributing to client submissions; South Australia Driver Licence"
+ ],
+ "mandatory_unresolved": [],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "Apply on SEEK (advert 95220454).",
+ "open": true,
+ "employer_is_agency": false,
+ "id": "95220454",
+ "company": "Australian Maritime Systems Group Pty Ltd",
+ "title": "Estimator",
+ "location": "Adelaide SA",
+ "url": "https://www.seek.com.au/job/95220454",
+ "listed_at": "2026-10-12T23:25:26.786Z",
+ "expires_at": "2026-11-12T12:59:59.999Z",
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "What's your expected annual base salary?",
+  "How many years' experience do you have as an Estimator?",
+  "How much notice are you required to give your current employer?",
+  "Do you have a current Police Check (National Police Certificate) for employment?",
+  "How many years of experience do you have in the Electronic Security Industry?",
+  "Do you hold a current security licence?"
+ ]
+}
