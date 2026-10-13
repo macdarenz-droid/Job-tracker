@@ -1,0 +1,30 @@
+{
+  "id": "costin-roe-speculative-drafter-20261013",
+  "percent": 74,
+  "rationale": [
+    "Careers page invites CV emails for drafting traineeships and graduate pathways, including civil/structural drafting with AutoCAD mentoring, which matches Marc's Advanced Diploma CAD coursework.",
+    "No advertised vacancy is required for this speculative path; company work in civil and structural consulting is verified on their site.",
+    "Published mail@costinroe.com.au inbox expressly accepts applications and keeps CVs on file."
+  ],
+  "caution": "Sydney based firm; Marc is Melton based and would need to confirm relocation. Drafting experience is academic. Speculative, not a live vacancy.",
+  "gaps": [
+    "No commercial drafting experience",
+    "Relocation to Sydney for Marc to confirm"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "EMAIL",
+  "apply_email": "mail@costinroe.com.au",
+  "apply_instructions": "Email CV and cover letter to mail@costinroe.com.au as stated on https://costinroe.com.au/careers/",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Costin Roe Consulting",
+  "title": "Speculative enquiry: graduate civil drafter or drafting trainee (Sydney)",
+  "location": "Sydney NSW",
+  "url": "https://costinroe.com.au/careers/",
+  "listed_at": "2026-10-13",
+  "expires_at": "",
+  "screening_questions": [],
+  "company_work_verified": true,
+  "employer_line": "Costin Roe Consulting runs in-house civil and structural drafting teams in Sydney and sponsors drafting trainees through a TAFE Engineering Drafting diploma with mentoring from senior CAD draftspeople."
+}

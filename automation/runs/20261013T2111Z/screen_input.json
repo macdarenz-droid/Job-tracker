@@ -1,0 +1,477 @@
+{
+ "count": 1,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "94969508",
+   "company": "GPA Engineering",
+   "title": "Civil/Structural Drafter – ADL",
+   "run": "20261003T0114Z",
+   "percent": 48,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95136390",
+   "company": "City of Armadale",
+   "title": "Project Planning Engineer – Civil Infrastructure",
+   "run": "20261013T0126Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "Experience planning civil infrastructure or construction projects"
+   ]
+  },
+  {
+   "id": "95193608",
+   "company": "Talent Web Property",
+   "title": "Project Engineer - Civil Construction",
+   "run": "20261012T0512Z",
+   "percent": 42,
+   "mandatory_unmet": [
+    "Experienced project engineer level"
+   ]
+  },
+  {
+   "id": "95236566",
+   "company": "CGC Recruitment",
+   "title": "12D Civil Designer",
+   "run": "20261013T1117Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Minimum 5 years civil design experience",
+    "Strong 12D Model proficiency"
+   ]
+  },
+  {
+   "id": "95207745",
+   "company": "Yellow Iron Fleet",
+   "title": "Civil Project Engineer",
+   "run": "20261012T1538Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "Minimum 3 years' experience in civil construction (Marc has about 1 year, Philippines)"
+   ]
+  },
+  {
+   "id": "95204746",
+   "company": "Scotford Fennessy Recruitment",
+   "title": "Civil Designer",
+   "run": "20261012T1538Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Experience in a Perth engineering consultancy, 2 to 5 years"
+   ]
+  },
+  {
+   "id": "95169703",
+   "company": "Bellwether Contractors",
+   "title": "Site Engineers / Project Engineers / SPE's - Civil Infrastructure Projects",
+   "run": "20261012T0512Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "Experienced site/project engineer level"
+   ]
+  },
+  {
+   "id": "95165806",
+   "company": "ACCIONA Australia",
+   "title": "Site Engineer - Civil",
+   "run": "20261012T0512Z",
+   "percent": 48,
+   "mandatory_unmet": [
+    "Experience constructing outdoor air insulated substations and substations at 220kV or above"
+   ]
+  },
+  {
+   "id": "95101347",
+   "company": "Sourcey",
+   "title": "Civil Designer/ 3D Modeller",
+   "run": "20261013T0126Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "5+ years civil design experience"
+   ]
+  },
+  {
+   "id": "95085919",
+   "company": "Scotford Fennessy Recruitment",
+   "title": "Structural Drafter",
+   "run": "20261013T0126Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Experienced structural drafter who develops juniors"
+   ]
+  },
+  {
+   "id": "95243160",
+   "company": "Damcon Pty Ltd",
+   "title": "Site Engineer/Project Engineer – FRP Civil Projects - competitive salary",
+   "run": "20261013T1634Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "3+ years' experience in civil infrastructure with a strong focus on FRP delivery"
+   ]
+  },
+  {
+   "id": "95229171",
+   "company": "Morson Edge",
+   "title": "Civil Site Engineer - Wind Farm",
+   "run": "20261013T0611Z",
+   "percent": 32,
+   "mandatory_unmet": [
+    "Previous experience as a Civil Engineer or Site Engineer on major construction projects"
+   ]
+  },
+  {
+   "id": "95205064",
+   "company": "Verra Recruitment Pty Ltd",
+   "title": "Civil Project Engineer - FIFO | Defence Infrastructure",
+   "run": "20261012T1538Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Australian citizen or permanent resident"
+   ]
+  },
+  {
+   "id": "95157315",
+   "company": "Alder Constructions Pty Ltd",
+   "title": "Estimator - Civil Infrastructure",
+   "run": "20261012T0512Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Experienced estimator"
+   ]
+  },
+  {
+   "id": "95140254",
+   "company": "Mendi Constructions",
+   "title": "Civil Project Engineer",
+   "run": "20261013T0126Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Demonstrated experience delivering civil infrastructure projects",
+    "Procurement and subcontractor management experience"
+   ]
+  },
+  {
+   "id": "95129801",
+   "company": "Geosurv Pty Ltd",
+   "title": "Survey Drafter",
+   "run": "20261013T0126Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Experienced survey drafter (12d, utility, cadastral)"
+   ]
+  },
+  {
+   "id": "95123172",
+   "company": "Civil Services Group Pty Ltd",
+   "title": "Civil Site Engineer (Structures) SEC01 or SEC02 (B02) - BNE Gen",
+   "run": "20261013T0126Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "Years of Australian state road authority construction experience"
+   ]
+  },
+  {
+   "id": "95123187",
+   "company": "Civil Services Group Pty Ltd",
+   "title": "Civil Site Engineers - Rail Projects",
+   "run": "20261013T0126Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Experienced rail civil site engineer"
+   ]
+  },
+  {
+   "id": "95123147",
+   "company": "Civil Services Group Pty Ltd",
+   "title": "Civil Site Engineers - SEC01 / 2 (B02) - BNE - Gen",
+   "run": "20261013T0126Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "At least 5 years civil roads construction with an Australian state road authority",
+    "Knowledge of AS2124 and DTMR specifications"
+   ]
+  },
+  {
+   "id": "95123143",
+   "company": "Civil Services Group Pty Ltd",
+   "title": "Civil Site Engineers - Bruce Highway - Central Coast",
+   "run": "20261013T0126Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Experienced civil site engineer with TMR work"
+   ]
+  },
+  {
+   "id": "95220430",
+   "company": "Red Fox Advisory",
+   "title": "Civil Technician (Full-Time)",
+   "run": "20261013T0114Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Minimum 5 to 7 years' employment experience in civil design and engineering",
+    "Professional membership with Engineers Australia"
+   ]
+  },
+  {
+   "id": "95219778",
+   "company": "John Holland",
+   "title": "Civil Project Engineer",
+   "run": "20261013T0114Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Extensive project engineering experience in rail construction"
+   ]
+  },
+  {
+   "id": "95192276",
+   "company": "Kingston Human Capital",
+   "title": "(PO3) Civil Engineer",
+   "run": "20261012T0512Z",
+   "percent": 50,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95175867",
+   "company": "FGI Developments",
+   "title": "Project Engineer (Civil/Structural)",
+   "run": "20261012T0512Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Senior project engineer salary band"
+   ]
+  },
+  {
+   "id": "95153815",
+   "company": "Davidson",
+   "title": "Civil Transport Engineers",
+   "run": "20261012T0512Z",
+   "percent": 48,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95123151",
+   "company": "Civil Services Group Pty Ltd",
+   "title": "Civil Project Engineers - Maintenance and Works - GenQLD",
+   "run": "20261013T0126Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Experienced civil project engineer"
+   ]
+  },
+  {
+   "id": "95123150",
+   "company": "Civil Services Group Pty Ltd",
+   "title": "Civil Project Engineers - Road Projects - GenQLD",
+   "run": "20261013T0126Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Experienced civil project engineer for TMR road projects"
+   ]
+  },
+  {
+   "id": "94958791",
+   "company": "ADF Careers",
+   "title": "Part-Time Civil Engineer (Tax-Free Pay)",
+   "run": "20261003T0114Z",
+   "percent": 27,
+   "mandatory_unmet": [
+    "Citizenship or PR may be required"
+   ]
+  },
+  {
+   "id": "94973025",
+   "company": "Optimum Consulting Group",
+   "title": "Civil Engineer",
+   "run": "20261003T0114Z",
+   "percent": 61,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94969016",
+   "company": "QCCS",
+   "title": "Civil Project Engineer",
+   "run": "20261003T0114Z",
+   "percent": 73,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95235044",
+   "company": "Peoplebank Australia VIC",
+   "title": "Graduate Infrastructure Engineer",
+   "run": "20261013T1117Z",
+   "percent": 5,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95233585",
+   "company": "United Rentals Australia Pty Ltd",
+   "title": "Civil Engineer",
+   "run": "20261013T0611Z",
+   "percent": 48,
+   "mandatory_unmet": [
+    "3-5 years of experience in civil engineering, ideally temporary works"
+   ]
+  },
+  {
+   "id": "95231028",
+   "company": "Fyfe Pty Ltd",
+   "title": "Civil Engineer - relocate to Darwin",
+   "run": "20261013T0611Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94972033",
+   "company": "Smart Built",
+   "title": "Civil Engineer",
+   "run": "20261013T0611Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "At least five years of post-qualification professional civil engineering experience"
+   ]
+  },
+  {
+   "id": "95195904",
+   "company": "Alchemy Recruitment Consulting Pty Ltd",
+   "title": "Civil Engineers | Road Delivery | Multiple Opportunities",
+   "run": "20261012T1538Z",
+   "percent": 52,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95193925",
+   "company": "Public Sector People",
+   "title": "PO3 Civil Engineer (Nerang)",
+   "run": "20261012T0512Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95145180",
+   "company": "Quality People",
+   "title": "Maintenance Civil Engineers",
+   "run": "20261013T0126Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Contract administration and road maintenance experience"
+   ]
+  },
+  {
+   "id": "95140637",
+   "company": "Quality People",
+   "title": "Student Civil Engineer",
+   "run": "20261013T0126Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "Current enrolment in 2nd/3rd year Bachelor of Engineering"
+   ]
+  },
+  {
+   "id": "95136122",
+   "company": "Public Sector People",
+   "title": "Student Engineer (Civil)",
+   "run": "20261013T0126Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "Current enrolment in 2nd/3rd year Bachelor of Engineering (Civil)"
+   ]
+  },
+  {
+   "id": "95123170",
+   "company": "Civil Services Group Pty Ltd",
+   "title": "Civil Engineer - Sunshine Coast - Gen",
+   "run": "20261013T0126Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "Minimum 3 years post-graduate TMR road construction experience"
+   ]
+  },
+  {
+   "id": "95228191",
+   "company": "Chandler Macleod",
+   "title": "Road Infrastructure Engineers | Multiple Contract Opportunities",
+   "run": "20261013T0611Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Experience delivering engineering, maintenance, rehabilitation or infrastructure projects at PO3-PO5 level"
+   ]
+  },
+  {
+   "id": "95221945",
+   "company": "Duo QS",
+   "title": "Junior Estimator - Graduate",
+   "run": "20261013T0114Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Minimum of 1 year of construction/building experience (Marc has under one year, April 2019 to February 2020)"
+   ]
+  },
+  {
+   "id": "95220594",
+   "company": "The Constructive Collective NSW Pty Ltd",
+   "title": "Civil Estimator",
+   "run": "20261013T0114Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "3 to 10 years' experience in estimating within civil infrastructure"
+   ]
+  },
+  {
+   "id": "95169849",
+   "company": "Oakleigh Civil",
+   "title": "Site / Project Engineer - Civil & Concrete",
+   "run": "20261012T0512Z",
+   "percent": 44,
+   "mandatory_unmet": [
+    "Years as Site Project Engineer"
+   ]
+  },
+  {
+   "id": "95165892",
+   "company": "Minecon Recruitment",
+   "title": "Site Engineer - Civil (Contract) TMR project Cairns",
+   "run": "20261013T0126Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Previous site engineer experience on civil roads projects",
+    "Experience with TMR specifications"
+   ]
+  },
+  {
+   "id": "94956743",
+   "company": "Formstruct",
+   "title": "Estimator  - Civil & NPI",
+   "run": "20261003T0114Z",
+   "percent": 75,
+   "mandatory_unmet": []
+  }
+ ],
+ "candidates": [
+  {
+   "id": "georgiou-undergrad-grad-eoi-20261013",
+   "source": "employer_careers",
+   "title": "Undergraduate & Graduate Positions EOI",
+   "company": "Georgiou Group",
+   "location": "Sippy Downs QLD (national program)",
+   "url": "https://georgiou.csod.com/ux/ats/careersite/4/home/requisition/2259?c=georgiou",
+   "work_type": null,
+   "salary": null,
+   "listed_at": "2026-08-27",
+   "expires_at": null,
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "",
+   "opening": "Undergraduate & Graduate Positions EOI\nSippy Downs, Queensland, Australia | req2259\nPosted on: 27/08/2026\nExpression of interest for Graduate/Undergraduate positions at Georgiou\nTertiary Qualifications in Civil Engineering, Environmental Science, HSEQ, Construction Management or related disciplines\nBe outcome focused with efficient communication, organisational and problem-solving skills\nA passion for civil construction and exposure so construction work would be highly advantageous but no necessary\nDevelop technical and non-technical skills across Engineering, Project Management, and Tendering\nAssists with planning, coordinating and controlling professional activities relating to projects\nComplete predetermined competencies within the Graduate Development Program\nApply via Georgiou CSOD careers portal\nContact: hradmin@georgiou.com.au\nNSW 02 8072 3600 | QLD 07 3319 4500 | WA & NT 08 9200 ",
+   "key_lines": [
+    "Undergraduate & Graduate Positions EOI",
+    "Expression of interest for Graduate/Undergraduate positions at Georgiou",
+    "Tertiary Qualifications in Civil Engineering, Environmental Science, HSEQ, Construction Management or related disciplines",
+    "Complete predetermined competencies within the Graduate Development Program",
+    "Apply via Georgiou CSOD careers portal"
+   ]
+  }
+ ]
+}

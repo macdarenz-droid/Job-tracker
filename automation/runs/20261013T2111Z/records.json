@@ -1,0 +1,219 @@
+[
+ {
+  "id": "dbe5e2de-a7c7-4d01-b1a9-f5582e247b3e",
+  "key": "manual:dbe5e2de-a7c7-4d01-b1a9-f5582e247b3e",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261013T2111Z",
+  "created_at": "2026-10-13T21:29:35.000Z",
+  "updated_at": "2026-10-13T21:29:35.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "032d84b3-5291-4b65-a5db-fbddf9151e3e",
+    "path": "/api/documents/032d84b3-5291-4b65-a5db-fbddf9151e3e",
+    "filename": "Marc_Masarate_SGP_Consulting_Engineers_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-13T21:29:37.101Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "cf9d9a61-e480-4ca8-8077-4ff1516a0e35",
+    "path": "/api/documents/cf9d9a61-e480-4ca8-8077-4ff1516a0e35",
+    "filename": "Marc_Masarate_SGP_Consulting_Engineers_Structural_Engineer_or_Draftsperson_Cover_Letter.pdf",
+    "sha256": "c1bb520f6c341bafe23f201202def8c9cc3b5e98635d537b24089d9b26f0a269",
+    "size_bytes": 44983,
+    "kind": "cover",
+    "uploaded_at": "2026-10-13T21:29:36.275Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "SGP Consulting Engineers",
+  "role": "Structural Engineer or Draftsperson",
+  "location": "Bendigo VIC",
+  "job_url": "https://www.seek.com.au/job/95099349",
+  "company_url": "https://www.seek.com.au/job/95099349",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95099349",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Application: Draftsperson, Bendigo, Marc Masarate",
+  "email_body": "",
+  "fit": [
+   "Draftsperson path at a Bendigo structural and civil consultancy that welcomes people just starting out; tertiary qualification preferred but not required, and Marc holds an Advanced Diploma of Civil Construction Design plus a BSCE.",
+   "Office uses AutoCAD and Civil 3D, which Marc prepared drawings in during his Advanced Diploma (road, earthworks, pavement and stormwater).",
+   "Regional Victoria location suits Marc's recorded availability for regional work from Melton with licence and transport."
+  ],
+  "gaps": [
+   "No commercial drafting experience yet",
+   "No paid Australian office experience yet"
+  ],
+  "match_score": {
+   "percent": 78,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Draftsperson path at a Bendigo structural and civil consultancy that welcomes people just starting out; tertiary qualification preferred but not required, and Marc holds an Advanced Diploma of Civil Construction Design plus a BSCE.",
+    "Office uses AutoCAD and Civil 3D, which Marc prepared drawings in during his Advanced Diploma (road, earthworks, pavement and stormwater).",
+    "Regional Victoria location suits Marc's recorded availability for regional work from Melton with licence and transport."
+   ],
+   "caution": "CAD experience is academic rather than commercial production. Role can also be filled as a structural engineer; Marc is applying on the draftsperson path. Solid CAD proficiency is essential."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-07T03:40:43.352Z",
+   "expires_at": "2026-11-06T12:59:59.999Z",
+   "verified_at": "2026-10-13T21:29:35.000Z",
+   "apply_instructions": "Apply via SEEK job 95099349 (Private Advertiser listing for SGP Consulting Engineers, Bendigo). Early submission encouraged; applications reviewed on a rolling basis.",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a structural engineer?",
+    "How much notice are you required to give your current employer?",
+    "Have you completed a qualification in civil engineering?"
+   ]
+  },
+  "screening_answers": {
+   "Which of the following statements best describes your right to work in Australia?": "Full working rights on a Subclass 485 visa until December 2027 (not Australian citizen or permanent resident).",
+   "What's your expected annual base salary?": "Leave for Marc to confirm.",
+   "How many years' experience do you have as a structural engineer?": "Under one year of paid site engineering experience (Philippines, 2019 to 2020). Drafting and design work so far is from the Advanced Diploma coursework, not a paid structural engineer role.",
+   "How much notice are you required to give your current employer?": "Leave for Marc to confirm (not currently in paid civil employment).",
+   "Have you completed a qualification in civil engineering?": "Yes. Bachelor of Science in Civil Engineering (Philippines, 2019) and Advanced Diploma of Civil Construction Design (Australia, February 2026)."
+  },
+  "checklist": [
+   "Open SEEK job 95099349 and sign in with Marc's SEEK account",
+   "Upload the resume and this cover letter",
+   "Answer work rights as Subclass 485 with full working rights to December 2027; do not claim PR or citizenship",
+   "For structural engineer experience years, answer honestly as under one year paid site work; emphasise the draftsperson path and Advanced Diploma CAD coursework",
+   "Leave salary, notice and start date for Marc if asked; submit; save the SEEK receipt and mark Applied on the tracker"
+  ],
+  "notes": "Found via open-web keyword search after SEEK daterange 3/7/14 sweeps only returned already-screened ads. Employers rotation (Georgiou, Seymour Whyte, Fulton Hogan, Downer, Ventia, Diona) had no new unblocked junior ads. Applying on the draftsperson path.\nPrivate Advertiser SEEK listing only. No published employer website email found this tick. Apply through SEEK.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-07, closes 2026-11-06). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Structural Engineer or Draftsperson role on SEEK.\n• They may ask about: No commercial drafting experience yet → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No paid Australian office experience yet → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-07, closes 2026-11-06). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Structural Engineer or Draftsperson role on SEEK.",
+   "They may ask about: No commercial drafting experience yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No paid Australian office experience yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-13T21:29:35.000Z",
+  "seek_id": "95099349",
+  "duplicate_key": "sgpconsultingengineers|seek:95099349"
+ },
+ {
+  "id": "14273b70-a7ee-482f-8db0-9835f07188ca",
+  "key": "manual:14273b70-a7ee-482f-8db0-9835f07188ca",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261013T2111Z",
+  "created_at": "2026-10-13T21:29:38.000Z",
+  "updated_at": "2026-10-13T21:29:38.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "6d9143b2-d568-403a-a6c1-c2497eafe6e6",
+    "path": "/api/documents/6d9143b2-d568-403a-a6c1-c2497eafe6e6",
+    "filename": "Marc_Masarate_Costin_Roe_Consulting_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-13T21:29:40.097Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "1238e38b-d90c-4e4f-8e1e-9ec79959fcee",
+    "path": "/api/documents/1238e38b-d90c-4e4f-8e1e-9ec79959fcee",
+    "filename": "Marc_Masarate_Costin_Roe_Consulting_Speculative_enquiry_graduate_civil_draft_Cover_Letter.pdf",
+    "sha256": "c2cfb043a069444472943ed02f4b73755646534fc2abb05d2d862194f8990676",
+    "size_bytes": 46942,
+    "kind": "cover",
+    "uploaded_at": "2026-10-13T21:29:39.293Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Costin Roe Consulting",
+  "role": "Speculative enquiry: graduate civil drafter or drafting trainee (Sydney)",
+  "location": "Sydney NSW",
+  "job_url": "https://costinroe.com.au/careers/",
+  "company_url": "https://costinroe.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Careers / Recruitment",
+  "recipient_email": "mail@costinroe.com.au",
+  "contact_email": "mail@costinroe.com.au",
+  "contact_evidence_url": "https://costinroe.com.au/careers/",
+  "contact_verified_at": "2026-10-13T21:29:38.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Expression of interest: graduate civil drafter or drafting trainee, Marc Masarate",
+  "email_body": "Hello,\n\nThis is a speculative enquiry, not a reply to an advertised vacancy. Your careers page invites people to email a CV for drafting and graduate pathways, including civil and structural drafting traineeships, so I wanted to introduce myself.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge. I am based in Melton VIC, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am available for site, regional and interstate work where relocation is agreed.\n\nYour in-house civil and structural drafting teams, and the chance to learn under senior CAD draftspeople, match the drafting start I am looking for. My drafting so far is from study rather than a paid Australian role.\n\nWould you keep me in mind for a graduate civil drafting or drafting trainee opening, now or later? I've attached my resume and cover letter.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Careers page invites CV emails for drafting traineeships and graduate pathways, including civil/structural drafting with AutoCAD mentoring, which matches Marc's Advanced Diploma CAD coursework.",
+   "No advertised vacancy is required for this speculative path; company work in civil and structural consulting is verified on their site.",
+   "Published mail@costinroe.com.au inbox expressly accepts applications and keeps CVs on file."
+  ],
+  "gaps": [
+   "No commercial drafting experience",
+   "Relocation to Sydney for Marc to confirm"
+  ],
+  "match_score": {
+   "percent": 74,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Careers page invites CV emails for drafting traineeships and graduate pathways, including civil/structural drafting with AutoCAD mentoring, which matches Marc's Advanced Diploma CAD coursework.",
+    "No advertised vacancy is required for this speculative path; company work in civil and structural consulting is verified on their site.",
+    "Published mail@costinroe.com.au inbox expressly accepts applications and keeps CVs on file."
+   ],
+   "caution": "Sydney based firm; Marc is Melton based and would need to confirm relocation. Drafting experience is academic. Speculative, not a live vacancy."
+  },
+  "advert": {
+   "source": "employer_careers",
+   "listed_at": "2026-10-13",
+   "expires_at": "",
+   "verified_at": "2026-10-13T21:29:38.000Z",
+   "apply_instructions": "Email CV and cover letter to mail@costinroe.com.au as stated on https://costinroe.com.au/careers/",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Confirm mail@costinroe.com.au still published on https://costinroe.com.au/careers/",
+   "Attach compact cover letter PDF and resume",
+   "Send from macdarenz@gmail.com with htmlBody",
+   "Do not claim an advertised vacancy exists",
+   "After send, save Gmail message id on the tracker record"
+  ],
+  "notes": "SPECULATIVE_ENQUIRY after SEEK sweeps at 3, 7 and 14 days (max details 80) and employers rotation left only one new publishable advert (SGP Bendigo). Costin Roe careers page invites CV emails for drafting traineeships and graduate pathways.\nChecked 13 Oct 2026. Careers page publishes mail@costinroe.com.au for CV applications. No named hiring person email published. Contact page lists the same mail@ address and +61 2 9251 7699.\nHOW GROK AI FOUND THIS\nFound on employer_careers (listed 2026-10-13). Contact: the application inbox mail@costinroe.com.au published by the employer (https://costinroe.com.au/careers/); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Speculative enquiry: graduate civil drafter or drafting trainee (Sydney) role on SEEK.\n• They may ask about: No commercial drafting experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Relocation to Sydney for Marc to confirm → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_careers (listed 2026-10-13). Contact: the application inbox mail@costinroe.com.au published by the employer (https://costinroe.com.au/careers/); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Speculative enquiry: graduate civil drafter or drafting trainee (Sydney) role on SEEK.",
+   "They may ask about: No commercial drafting experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Relocation to Sydney for Marc to confirm → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-13T21:29:38.000Z",
+  "duplicate_key": "costinroeconsulting|costinroe.com.au/careers"
+ }
+]

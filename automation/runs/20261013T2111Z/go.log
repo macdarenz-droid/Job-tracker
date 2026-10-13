@@ -1,0 +1,28 @@
+{
+ "built": [
+  [
+   "dbe5e2de-a7c7-4d01-b1a9-f5582e247b3e",
+   "SGP Consulting Engineers",
+   "Structural Engineer or Draftsperson",
+   "READY_JEREMIE_SEEK"
+  ],
+  [
+   "14273b70-a7ee-482f-8db0-9835f07188ca",
+   "Costin Roe Consulting",
+   "Speculative enquiry: graduate civil drafter or drafting trainee (Sydney)",
+   "PREPARED_NOT_SENT"
+  ]
+ ],
+ "rejected": [],
+ "tracker": {
+  "version": 203,
+  "updated_at": "2026-10-13T21:29:41.743Z",
+  "result": {
+   "added": [
+    "dbe5e2de-a7c7-4d01-b1a9-f5582e247b3e",
+    "14273b70-a7ee-482f-8db0-9835f07188ca"
+   ],
+   "skipped": []
+  }
+ }
+}
