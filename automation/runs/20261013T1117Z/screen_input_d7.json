@@ -1,0 +1,607 @@
+{
+ "count": 5,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "95136390",
+   "company": "City of Armadale",
+   "title": "Project Planning Engineer – Civil Infrastructure",
+   "run": "20261013T0126Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "Experience planning civil infrastructure or construction projects"
+   ]
+  },
+  {
+   "id": "95193608",
+   "company": "Talent Web Property",
+   "title": "Project Engineer - Civil Construction",
+   "run": "20261012T0512Z",
+   "percent": 42,
+   "mandatory_unmet": [
+    "Experienced project engineer level"
+   ]
+  },
+  {
+   "id": "95207745",
+   "company": "Yellow Iron Fleet",
+   "title": "Civil Project Engineer",
+   "run": "20261012T1538Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "Minimum 3 years' experience in civil construction (Marc has about 1 year, Philippines)"
+   ]
+  },
+  {
+   "id": "95204746",
+   "company": "Scotford Fennessy Recruitment",
+   "title": "Civil Designer",
+   "run": "20261012T1538Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Experience in a Perth engineering consultancy, 2 to 5 years"
+   ]
+  },
+  {
+   "id": "95169703",
+   "company": "Bellwether Contractors",
+   "title": "Site Engineers / Project Engineers / SPE's - Civil Infrastructure Projects",
+   "run": "20261012T0512Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "Experienced site/project engineer level"
+   ]
+  },
+  {
+   "id": "95165806",
+   "company": "ACCIONA Australia",
+   "title": "Site Engineer - Civil",
+   "run": "20261012T0512Z",
+   "percent": 48,
+   "mandatory_unmet": [
+    "Experience constructing outdoor air insulated substations and substations at 220kV or above"
+   ]
+  },
+  {
+   "id": "95101347",
+   "company": "Sourcey",
+   "title": "Civil Designer/ 3D Modeller",
+   "run": "20261013T0126Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "5+ years civil design experience"
+   ]
+  },
+  {
+   "id": "95085919",
+   "company": "Scotford Fennessy Recruitment",
+   "title": "Structural Drafter",
+   "run": "20261013T0126Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Experienced structural drafter who develops juniors"
+   ]
+  },
+  {
+   "id": "95229171",
+   "company": "Morson Edge",
+   "title": "Civil Site Engineer - Wind Farm",
+   "run": "20261013T0611Z",
+   "percent": 32,
+   "mandatory_unmet": [
+    "Previous experience as a Civil Engineer or Site Engineer on major construction projects"
+   ]
+  },
+  {
+   "id": "95205064",
+   "company": "Verra Recruitment Pty Ltd",
+   "title": "Civil Project Engineer - FIFO | Defence Infrastructure",
+   "run": "20261012T1538Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Australian citizen or permanent resident"
+   ]
+  },
+  {
+   "id": "95157315",
+   "company": "Alder Constructions Pty Ltd",
+   "title": "Estimator - Civil Infrastructure",
+   "run": "20261012T0512Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Experienced estimator"
+   ]
+  },
+  {
+   "id": "95140254",
+   "company": "Mendi Constructions",
+   "title": "Civil Project Engineer",
+   "run": "20261013T0126Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Demonstrated experience delivering civil infrastructure projects",
+    "Procurement and subcontractor management experience"
+   ]
+  },
+  {
+   "id": "95129801",
+   "company": "Geosurv Pty Ltd",
+   "title": "Survey Drafter",
+   "run": "20261013T0126Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Experienced survey drafter (12d, utility, cadastral)"
+   ]
+  },
+  {
+   "id": "95123143",
+   "company": "Civil Services Group Pty Ltd",
+   "title": "Civil Site Engineers - Bruce Highway - Central Coast",
+   "run": "20261013T0126Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Experienced civil site engineer with TMR work"
+   ]
+  },
+  {
+   "id": "95123147",
+   "company": "Civil Services Group Pty Ltd",
+   "title": "Civil Site Engineers - SEC01 / 2 (B02) - BNE - Gen",
+   "run": "20261013T0126Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "At least 5 years civil roads construction with an Australian state road authority",
+    "Knowledge of AS2124 and DTMR specifications"
+   ]
+  },
+  {
+   "id": "95123187",
+   "company": "Civil Services Group Pty Ltd",
+   "title": "Civil Site Engineers - Rail Projects",
+   "run": "20261013T0126Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Experienced rail civil site engineer"
+   ]
+  },
+  {
+   "id": "95123172",
+   "company": "Civil Services Group Pty Ltd",
+   "title": "Civil Site Engineer (Structures) SEC01 or SEC02 (B02) - BNE Gen",
+   "run": "20261013T0126Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "Years of Australian state road authority construction experience"
+   ]
+  },
+  {
+   "id": "95220430",
+   "company": "Red Fox Advisory",
+   "title": "Civil Technician (Full-Time)",
+   "run": "20261013T0114Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Minimum 5 to 7 years' employment experience in civil design and engineering",
+    "Professional membership with Engineers Australia"
+   ]
+  },
+  {
+   "id": "95219778",
+   "company": "John Holland",
+   "title": "Civil Project Engineer",
+   "run": "20261013T0114Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Extensive project engineering experience in rail construction"
+   ]
+  },
+  {
+   "id": "95192276",
+   "company": "Kingston Human Capital",
+   "title": "(PO3) Civil Engineer",
+   "run": "20261012T0512Z",
+   "percent": 50,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95175867",
+   "company": "FGI Developments",
+   "title": "Project Engineer (Civil/Structural)",
+   "run": "20261012T0512Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Senior project engineer salary band"
+   ]
+  },
+  {
+   "id": "95153815",
+   "company": "Davidson",
+   "title": "Civil Transport Engineers",
+   "run": "20261012T0512Z",
+   "percent": 48,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95123150",
+   "company": "Civil Services Group Pty Ltd",
+   "title": "Civil Project Engineers - Road Projects - GenQLD",
+   "run": "20261013T0126Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Experienced civil project engineer for TMR road projects"
+   ]
+  },
+  {
+   "id": "95123151",
+   "company": "Civil Services Group Pty Ltd",
+   "title": "Civil Project Engineers - Maintenance and Works - GenQLD",
+   "run": "20261013T0126Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Experienced civil project engineer"
+   ]
+  },
+  {
+   "id": "95086082",
+   "company": "MMD Recruitment",
+   "title": "Site/Project Engineers (Civil & Energy)",
+   "run": "20261013T0126Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Civil and FRP experience is essential",
+    "Proven site experience on civil, infrastructure or energy projects"
+   ]
+  },
+  {
+   "id": "95233585",
+   "company": "United Rentals Australia Pty Ltd",
+   "title": "Civil Engineer",
+   "run": "20261013T0611Z",
+   "percent": 48,
+   "mandatory_unmet": [
+    "3-5 years of experience in civil engineering, ideally temporary works"
+   ]
+  },
+  {
+   "id": "95231028",
+   "company": "Fyfe Pty Ltd",
+   "title": "Civil Engineer - relocate to Darwin",
+   "run": "20261013T0611Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94972033",
+   "company": "Smart Built",
+   "title": "Civil Engineer",
+   "run": "20261013T0611Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "At least five years of post-qualification professional civil engineering experience"
+   ]
+  },
+  {
+   "id": "95195904",
+   "company": "Alchemy Recruitment Consulting Pty Ltd",
+   "title": "Civil Engineers | Road Delivery | Multiple Opportunities",
+   "run": "20261012T1538Z",
+   "percent": 52,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95193925",
+   "company": "Public Sector People",
+   "title": "PO3 Civil Engineer (Nerang)",
+   "run": "20261012T0512Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95145180",
+   "company": "Quality People",
+   "title": "Maintenance Civil Engineers",
+   "run": "20261013T0126Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Contract administration and road maintenance experience"
+   ]
+  },
+  {
+   "id": "95140637",
+   "company": "Quality People",
+   "title": "Student Civil Engineer",
+   "run": "20261013T0126Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "Current enrolment in 2nd/3rd year Bachelor of Engineering"
+   ]
+  },
+  {
+   "id": "95136122",
+   "company": "Public Sector People",
+   "title": "Student Engineer (Civil)",
+   "run": "20261013T0126Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "Current enrolment in 2nd/3rd year Bachelor of Engineering (Civil)"
+   ]
+  },
+  {
+   "id": "95123170",
+   "company": "Civil Services Group Pty Ltd",
+   "title": "Civil Engineer - Sunshine Coast - Gen",
+   "run": "20261013T0126Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "Minimum 3 years post-graduate TMR road construction experience"
+   ]
+  },
+  {
+   "id": "95228191",
+   "company": "Chandler Macleod",
+   "title": "Road Infrastructure Engineers | Multiple Contract Opportunities",
+   "run": "20261013T0611Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Experience delivering engineering, maintenance, rehabilitation or infrastructure projects at PO3-PO5 level"
+   ]
+  },
+  {
+   "id": "95221945",
+   "company": "Duo QS",
+   "title": "Junior Estimator - Graduate",
+   "run": "20261013T0114Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Minimum of 1 year of construction/building experience (Marc has under one year, April 2019 to February 2020)"
+   ]
+  },
+  {
+   "id": "95220594",
+   "company": "The Constructive Collective NSW Pty Ltd",
+   "title": "Civil Estimator",
+   "run": "20261013T0114Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "3 to 10 years' experience in estimating within civil infrastructure"
+   ]
+  },
+  {
+   "id": "95169849",
+   "company": "Oakleigh Civil",
+   "title": "Site / Project Engineer - Civil & Concrete",
+   "run": "20261012T0512Z",
+   "percent": 44,
+   "mandatory_unmet": [
+    "Years as Site Project Engineer"
+   ]
+  },
+  {
+   "id": "95165892",
+   "company": "Minecon Recruitment",
+   "title": "Site Engineer - Civil (Contract) TMR project Cairns",
+   "run": "20261013T0126Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Previous site engineer experience on civil roads projects",
+    "Experience with TMR specifications"
+   ]
+  },
+  {
+   "id": "95202759",
+   "company": "Rain Consulting Pty Ltd",
+   "title": "Project Engineer or Scientist, Stormwater & Water Management Melbourne, hybrid",
+   "run": "20261012T0512Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "3 to 7 years stormwater experience"
+   ]
+  },
+  {
+   "id": "95159415",
+   "company": "Sabre Engineering Services PTY LTD",
+   "title": "Civil RPEQ Engineer",
+   "run": "20261012T0512Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "RPEQ required"
+   ]
+  },
+  {
+   "id": "95159385",
+   "company": "Cookson & Roberts",
+   "title": "Structural Revit Technician/Drafter",
+   "run": "20261012T0512Z",
+   "percent": 48,
+   "mandatory_unmet": [
+    "Experienced structural Revit drafter"
+   ]
+  },
+  {
+   "id": "95158420",
+   "company": "Cookson & Roberts",
+   "title": "Structural Revit Drafter",
+   "run": "20261012T0512Z",
+   "percent": 48,
+   "mandatory_unmet": [
+    "Experienced structural Revit"
+   ]
+  },
+  {
+   "id": "95229161",
+   "company": "Parratech Group Pty Ltd",
+   "title": "Inventor Designer/Draftsperson ",
+   "run": "20261013T0611Z",
+   "percent": 22,
+   "mandatory_unmet": []
+  }
+ ],
+ "candidates": [
+  {
+   "id": "95236566",
+   "source": "seek",
+   "title": "12D Civil Designer",
+   "company": "CGC Recruitment",
+   "location": "Margaret River, Bunbury & South West WA",
+   "url": "https://www.seek.com.au/job/95236566",
+   "work_type": "Full time",
+   "salary": "$110k-$140k +Super DOE",
+   "listed_at": "2026-10-13T07:06:35.965Z",
+   "expires_at": "2026-11-12T07:06:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a Civil 12D Designer?",
+    "Which of the following CAD software do you have experience with?",
+    "What's your expected annual base salary?",
+    "How much notice are you required to give your current employer?"
+   ],
+   "summary": "Take ownership of civil design in Margaret River with a boutique civil consultancy, Growing company, land development projects and a close-knit team.",
+   "opening": "Looking for more autonomy and the chance to make a real impact? Join a well-established boutique engineering consultancy with a team of around 40+ delivering a strong pipeline of land development projects across WA.\n Based in the Margaret River office, you’ll be the sole designer in a growing regional office, taking ownership of 12D design delivery while working alongside a supportive, close-knit team. You’ll have the independence to manage your own workload, with support from the local team and weekly/fortnightly visits from the Perth HQ team.\n With a strong project pipeline and a collaborative team this is an opportunity to take the lead in your role, contribute to a growing business and enjoy a change of pace.\nAbout the Role\n - Produce detailed designs using 12D Model and AutoCAD.\n - Manage design tasks from concept through to detailed design and documentation.\n - Work closely with en",
+   "key_lines": [
+    "Based in the Margaret River office, you’ll be the sole designer in a growing regional office, taking ownership of 12D design delivery while working alongside a supportive, close-knit team. You’ll have the independence to manage your own workload, with support from the local team and weekly/fortnightly visits from the Perth HQ team.",
+    "- Produce detailed designs using 12D Model and AutoCAD.",
+    "- Work closely with engineers, project teams and stakeholders to achieve project outcomes.",
+    "About You - Minimum 5 years’ experience in civil design.",
+    "- Strong proficiency in 12D Model and AutoCAD – essential.",
+    "- Previous experience delivering land development projects – essential.",
+    "- A close-knit, collaborative team within a boutique consultancy.",
+    "- Salary negotiable, depending on your experience and capability.",
+    "Interested? If you’re an experienced 12D Civil Designer looking for your next move in to or in Margaret River, get in touch for a confidential discussion."
+   ]
+  },
+  {
+   "id": "95235044",
+   "source": "seek",
+   "title": "Graduate Infrastructure Engineer",
+   "company": "Peoplebank Australia VIC",
+   "location": "Melbourne VIC",
+   "url": "https://www.seek.com.au/job/95235044",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-13T06:23:05.457Z",
+   "expires_at": "2026-11-12T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": " About the Company  Leaders IT (Professional Services division of Peoplebank) are a leading information technology talent consultancy that focuses on",
+   "opening": "About the Company\nLeaders IT (Professional Services division of Peoplebank) are a leading information technology talent consultancy that focuses on providing specialised IT consultants to Tier-1 clients in diverse industries like Banking/Financial Services, Retail, Telecommunications, and Government. Our consultants are engaged in a variety of cutting-edge projects throughout Australia.\nAbout the role\n We are working in partnership with a large telecommunications corporation on an opportunity working across the major platforms. Our client is looking for a collaborative team player to join their team as a Graduate Infrastructure Engineer.\nSkills and Experience\n- Network and Infrastructure studies\n- NetApp\n- Cisco switches/routers\n- USC\n- Linux DB\n- Windows Server\n- Splunk monitoring\n- Security protocols (implementation and compliance)\nCulture and Benefits\n- You will have a dedicated Progr",
+   "key_lines": [
+    "We are working in partnership with a large telecommunications corporation on an opportunity working across the major platforms. Our client is looking for a collaborative team player to join their team as a Graduate Infrastructure Engineer.",
+    "Skills and Experience",
+    "To apply please click the 'Apply Now' button.",
+    "Peoplebank and Leaders IT are committed to creating a diverse and inclusive workplace where everyone belongs. We welcome applications from people of all backgrounds, identities, and experiences. If you need adjustments to the recruitment process due to your circumstances, please let us know—we’re here to support you."
+   ]
+  },
+  {
+   "id": "95108116",
+   "source": "seek",
+   "title": "Road Designer - Civil Engineer",
+   "company": "Ashdown People",
+   "location": "Blacktown, Sydney NSW",
+   "url": "https://www.seek.com.au/job/95108116",
+   "work_type": "Contract/Temp",
+   "salary": "$90++ an hour",
+   "listed_at": "2026-10-07T03:50:55.182Z",
+   "expires_at": "2026-11-06T03:50:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a civil engineer?",
+    "Which of the following CAD software do you have experience with?",
+    "Do you have a current Australian driver's licence?",
+    "How much notice are you required to give your current employer?",
+    "Do you have a current Police Check (National Police Certificate) for employment?",
+    "Can you outline your direct experience in road design and usage as a user of 12D?",
+    "Please outline your experience in survey, investigation and \ndesign including estimates for roads, traffic facilities, stormwater \ndrainage and other civil engineering projects\n",
+    "Outline your availability for the contract duration and desire to remain for extension"
+   ],
+   "summary": "PAY RATE $90+ an Hour \r\n6 Month Contract - Highly Likely Extendable \r\n5+ Years Civil Engineering\r\n12D or AutoCad Experience",
+   "opening": "- PAY RATE $90++ an Hour \n - 6 Month Contract - Highly Likely Extendable \n - 5+ Years Civil Engineering\n - 12D or AutoCad Experience\nPosition purpose:\nWe are seeking a skilled engineer with a proven track record in using design software, particularly 12D, to contribute to the planning, design, and quality assurance of complex, large-scale road infrastructure projects. This role is essential in ensuring the delivery of safe, sustainable, and effective road designs that have a positive impact on our community.\n 7 hrs /Day and 35 hours per week and in the office from Monday to Friday.\n The initial contract is for 6 months and subject to extension.\n Qualifications and experience\n 1. Degree in civil engineering or related field with minimum 5 years experience\n 2. 12D skills, AutoCAD experience in road and drainage design\n 3. Significant qualification experience in survey, investigation and de",
+   "key_lines": [
+    "- 5+ Years Civil Engineering",
+    "- 12D or AutoCad Experience",
+    "We are seeking a skilled engineer with a proven track record in using design software, particularly 12D, to contribute to the planning, design, and quality assurance of complex, large-scale road infrastructure projects. This role is essential in ensuring the delivery of safe, sustainable, and effective road designs that have a positive impact on our community.",
+    "Qualifications and experience",
+    "1. Degree in civil engineering or related field with minimum 5 years experience",
+    "2. 12D skills, AutoCAD experience in road and drainage design",
+    "3. Significant qualification experience in survey, investigation and design including estimates for roads, traffic facilities, stormwater drainage and other civil engineering projects",
+    "5. Current class C driver's license",
+    "8. Ensure that designs are completed in accordance with Council's requirements, accepted engineering standards and where applicable to the requirements of other government authorities9. Conduct technical reviews and quality assurance checks of civil designs for road and traffic assets, including the assessment for both internally developed designs and externally prepared civil design submissions.",
+    "14. Liaise with internal and external stakeholders to ensure that all        designs meet the requirements and procedures of the proposed        construction methods."
+   ]
+  },
+  {
+   "id": "95104679",
+   "source": "seek",
+   "title": "Road Design Engineer",
+   "company": "TLH Recruitment",
+   "location": "Parramatta & Western Suburbs, Sydney NSW",
+   "url": "https://www.seek.com.au/job/95104679",
+   "work_type": "Contract/Temp",
+   "salary": "$85 per hour + Super",
+   "listed_at": "2026-10-07T02:33:03.513Z",
+   "expires_at": "2026-11-06T02:32:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Join a council as a Roads Design Engineer. Use 12D and AutoCAD on road and drainage projects. 6-month contract, 35 hrs weekly, with extension possible",
+   "opening": "MCJ Appointments is seeking an experienced Roads Design Engineer to join a council team, delivering safe, sustainable road and civil infrastructure projects that benefit the community.\n - Six-month initial contract, with possible extension\n - 35 hours per week, seven hours per day\n - Monday to Friday, office-based\n About the role\n You will undertake investigations, prepare designs and review civil infrastructure projects, using your technical expertise to deliver quality outcomes within agreed deadlines.\n Your responsibilities will include:\n - Preparing and reviewing designs, estimates and alternative options for roads, kerb and gutter, footpaths, stormwater drainage, traffic facilities and carparks.\n - Using 12D and AutoCAD for road and drainage design.\n - Conducting technical reviews and quality assurance checks of internal designs and external submissions.\n - Ensuring designs meet cou",
+   "key_lines": [
+    "MCJ Appointments is seeking an experienced Roads Design Engineer to join a council team, delivering safe, sustainable road and civil infrastructure projects that benefit the community.",
+    "- Using 12D and AutoCAD for road and drainage design.",
+    "- Ensuring designs meet council requirements, accepted engineering standards and relevant authority requirements.",
+    "- A degree in Civil Engineering or a related field.",
+    "- At least five years’ relevant experience.",
+    "- Strong 12D skills and AutoCAD experience in road and drainage design.",
+    "- Demonstrated experience in civil surveying, investigations, design and cost estimates.",
+    "- A current Class C driver’s licence.",
+    "Apply now with your current resume outlining your relevant civil design experience and software capabilities."
+   ]
+  },
+  {
+   "id": "95082782",
+   "source": "seek",
+   "title": "Chartered Civil & Structural Design Engineer (CPeng, NER) - Precast Concrete",
+   "company": "Civilcast",
+   "location": "Erskine Park, Sydney NSW",
+   "url": "https://www.seek.com.au/job/95082782",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-06T05:06:52.535Z",
+   "expires_at": "2026-11-05T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a Civil and Structural Engineer?",
+    "Do you have experience working on civil infrastructure projects?",
+    "Which of the following types of infrastructure project do you have experience with?",
+    "What's your expected annual base salary?",
+    "Have you completed a qualification in civil engineering?",
+    "How many years' experience do you have as a Chartered Engineer?",
+    "Have you completed a qualification in structural engineering?"
+   ],
+   "summary": "Help design the precast concrete & steel infrastructure that's shaping Australia's roads, water systems, and communities — and see your work built!",
+   "opening": "Key points to Note:\n- Chartered status is an essential requirement for this role and will be required for the application to move forward.\n- Position is based in NSW at our Erskine Park Head Office (moving to Penrith later this year).\nAbout Us\nWith a proud history of delivering high-quality products for civil construction and infrastructure projects, we are a trusted name in the industry. Over the years, we've expanded our offering to include a diverse range of stormwater, water, sewer, electrical, and communication infrastructure solutions, along with enhanced custom manufacturing capabilities. Our commitment to innovation and reliability has made us a preferred partner for major infrastructure developments across Australia.\nAbout The Role\nWe're looking for a Civil & Structural Design Engineer to join our Technical team at Erskine Park (moving to Penrith later this year), working on the",
+   "key_lines": [
+    "- Chartered status is an essential requirement for this role and will be required for the application to move forward.",
+    "With a proud history of delivering high-quality products for civil construction and infrastructure projects, we are a trusted name in the industry. Over the years, we've expanded our offering to include a diverse range of stormwater, water, sewer, electrical, and communication infrastructure solutions, along with enhanced custom manufacturing capabilities. Our commitment to innovation and reliability has made us a preferred partner for major infrastructure developments across Australia.",
+    "You'll work closely with our Technical Team Leader and across departments, turning engineering concepts into solid, compliant designs — from structural calculations and FEA through to technical drawings and construction documentation.",
+    "Requirements",
+    "Essential:",
+    "- Bachelor's degree in civil & structural engineering (or related field).",
+    "- Minimum 5 years' civil engineering experience, ideally including field experience.",
+    "- Proven experience designing and certifying steel and precast structures/products.",
+    "- Experience with Strand engineering software, and strong civil drawing literacy.",
+    "- Proficiency in design software such as AutoCAD, Revit, or similar.",
+    "- Experience in civil and underground services design, particularly stormwater systems.",
+    "- Strong understanding of infrastructure requirements for water, sewer, stormwater, and utilities.",
+    "- Experience with Transport for NSW (TfNSW) projects.",
+    "Apply Now"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+  "percent": 5,
+  "rationale": [
+    "IT network infrastructure graduate role for a telco.",
+    "Skills are NetApp, Cisco, Linux, Splunk.",
+    "No civil overlap."
+  ],
+  "caution": "IT role",
+  "gaps": [
+    "IT networking"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": null,
+  "apply_instructions": "Apply via SEEK link-out",
+  "open": true,
+  "employer_is_agency": true,
+  "company": "Peoplebank Australia VIC",
+  "title": "Graduate Infrastructure Engineer",
+  "location": "Melbourne VIC",
+  "url": "https://www.seek.com.au/job/95235044",
+  "listed_at": "2026-10-13T06:23:05.457Z",
+  "expires_at": "2026-11-12T12:59:59.999Z",
+  "screening_questions": [],
+  "seek_id": "95235044",
+  "screened_at": "2026-10-13T11:21:07Z"
+}

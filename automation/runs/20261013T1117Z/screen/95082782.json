@@ -1,0 +1,41 @@
+{
+  "percent": 10,
+  "rationale": [
+    "Chartered civil and structural design engineer for precast products.",
+    "Chartered status essential, 5 years experience, Strand and precast certification.",
+    "Senior role."
+  ],
+  "caution": "CPEng essential",
+  "gaps": [
+    "Chartered status",
+    "5 years experience"
+  ],
+  "mandatory_unmet": [
+    "Chartered engineer status",
+    "Minimum 5 years civil engineering experience"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": null,
+  "apply_instructions": "Apply via SEEK",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Civilcast",
+  "title": "Chartered Civil & Structural Design Engineer (CPeng, NER) - Precast Concrete",
+  "location": "Erskine Park, Sydney NSW",
+  "url": "https://www.seek.com.au/job/95082782",
+  "listed_at": "2026-10-06T05:06:52.535Z",
+  "expires_at": "2026-11-05T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a Civil and Structural Engineer?",
+    "Do you have experience working on civil infrastructure projects?",
+    "Which of the following types of infrastructure project do you have experience with?",
+    "What's your expected annual base salary?",
+    "Have you completed a qualification in civil engineering?",
+    "How many years' experience do you have as a Chartered Engineer?",
+    "Have you completed a qualification in structural engineering?"
+  ],
+  "seek_id": "95082782",
+  "screened_at": "2026-10-13T11:22:05Z"
+}

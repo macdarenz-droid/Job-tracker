@@ -1,0 +1,60 @@
+DUP  | 95105726 | Ground Civil | Civil Designer – Subdivision & Land Development | same SEEK job already in the tracker
+new  | 95136390 | City of Armadale | Project Planning Engineer – Civil Infrastructure | new
+new  | 95193608 | Talent Web Property | Project Engineer - Civil Construction | new
+DUP  | 95097651 | Hullcon | Civil Draftsperson - Microstation and ProjectWise | same SEEK job already in the tracker
+new  | 95236566 | CGC Recruitment | 12D Civil Designer | new
+DUP  | 95221380 | ShoreWorX | Graduate Structural/Civil Engineer | same SEEK job already in the tracker
+new  | 95207745 | Yellow Iron Fleet | Civil Project Engineer | new
+new  | 95204746 | Scotford Fennessy Recruitment | Civil Designer | new
+DUP  | 95181464 | K&H Geotechnial Services | Graduate Civil Engineer / Concrete Field Technician | same SEEK job already in the tracker
+new  | 95169703 | Bellwether Contractors | Site Engineers / Project Engineers / SPE's - Civil Infrastructure Projects | new
+DUP  | 95157253 | Duffy Kennedy Constructions Pty Ltd | Civil Engineering Draftsperson | same SEEK job already in the tracker
+new  | 95101347 | Sourcey | Civil Designer/ 3D Modeller | new
+new  | 95085919 | Scotford Fennessy Recruitment | Structural Drafter | new
+DUP  | 95048696 | PlanCon Build | Civil Engineering Draftsperson | same SEEK job already in the tracker
+DUP  | 94985965 | Brisbane Truss and Timber | Civil Engineer Draftsperson | same SEEK job already in the tracker
+DUP  | 94940114 | NOTAZ International PTY LTD | Civil engineering draftsperson | same SEEK job already in the tracker
+DUP  | 94939236 | Roesner and Hamilton Consulting Engineers Pty Ltd | Civil Engineering Draftsperson | same SEEK job already in the tracker
+new  | 95229171 | Morson Edge | Civil Site Engineer - Wind Farm | new
+new  | 95205064 | Verra Recruitment Pty Ltd | Civil Project Engineer - FIFO | Defence Infrastructure | new
+DUP  | 95144800 | City of Busselton | CIVIL DESIGNER | same company and role already in the tracker
+new  | 95129801 | Geosurv Pty Ltd | Survey Drafter | new
+DUP  | 95233937 | Airswift | Structural Drafter | recent rejection from the same employer (Junior Civil Drafter - Perth · 2026-09-25)
+new  | 95220430 | Red Fox Advisory | Civil Technician (Full-Time) | new
+new  | 95219778 | John Holland | Civil Project Engineer | new
+DUP  | 95193093 | Hall Contracting Pty Ltd | 2x Undergraduate Engineer | recent outreach to the same employer (Graduate Engineer · READY_JEREMIE_SEEK · 2026-10-13)
+new  | 95192276 | Kingston Human Capital | (PO3) Civil Engineer | new
+new  | 95175867 | FGI Developments | Project Engineer (Civil/Structural) | new
+DUP  | 95141967 | Eden Ritchie Recruitment | Civil Engineers | same SEEK job already in the tracker
+new  | 95235044 | Peoplebank Australia VIC | Graduate Infrastructure Engineer | new
+new  | 95233585 | United Rentals Australia Pty Ltd | Civil Engineer | new
+DUP  | 95232723 | Hall Contracting Pty Ltd | Graduate Engineer | same SEEK job already in the tracker
+new  | 95231028 | Fyfe Pty Ltd | Civil Engineer - relocate to Darwin | new
+new  | 94972033 | Smart Built | Civil Engineer | new
+DUP  | 95219140 | Constructability Recruitment | Site Engineer / Project Engineers | Civil | Western Sydney | recent outreach to the same employer (Graduate Engineer and Site Engineer | Sydney / FIFO · MANUAL_APPLIED · 2026-07-27)
+new  | 95195904 | Alchemy Recruitment Consulting Pty Ltd | Civil Engineers | Road Delivery | Multiple Opportunities | new
+new  | 95193925 | Public Sector People | PO3 Civil Engineer (Nerang) | new
+new  | 95145180 | Quality People | Maintenance Civil Engineers | new
+new  | 95136122 | Public Sector People | Student Engineer (Civil) | new
+new  | 94958409 | Right Connect | Structural Drafter | new
+DUP  | 95235088 | Downer EDI Limited | Site Engineer - Services Infrastructure (RRJV) | recent outreach to the same employer (Site Engineer - TI PR VICTAS (Job 717761) · READY_JEREMIE_EMPLOYER_PORTAL · 2026-10-07)
+new  | 95228191 | Chandler Macleod | Road Infrastructure Engineers | Multiple Contract Opportunities | new
+new  | 95221945 | Duo QS | Junior Estimator - Graduate | new
+new  | 95220594 | The Constructive Collective NSW Pty Ltd | Civil Estimator | new
+DUP  | 95191525 | Transform Formwork Contractors Group Pty Ltd | Designer / Draftsperson | same SEEK job already in the tracker
+DUP  | 95175919 | FGI Developments | Site Engineer | same SEEK job already in the tracker
+DUP  | 95083621 | Dynamic Steelform | Junior Draftsperson / Estimator | same SEEK job already in the tracker
+DUP  | 95021585 | Cascada | AutoCAD Draftsperson - Reinforced Concrete | same SEEK job already in the tracker
+new  | 94956743 | Formstruct | Estimator  - Civil & NPI | new
+new  | 95202759 | Rain Consulting Pty Ltd | Project Engineer or Scientist, Stormwater & Water Management Melbourne, hybrid | new
+DUP  | 95196431 | Ivory Group | Site Engineer | recent outreach to the same employer (Site Engineer · MANUAL_APPLIED · 2026-07-20)
+DUP  | 95195862 | Ivory Group | Project Engineer | recent outreach to the same employer (Site Engineer · MANUAL_APPLIED · 2026-07-20)
+new  | 95159385 | Cookson & Roberts | Structural Revit Technician/Drafter | new
+new  | 95158420 | Cookson & Roberts | Structural Revit Drafter | new
+new  | 95109131 | City of Gold Coast | Coordinator Engineering Design | new
+new  | 95108116 | Ashdown People | Road Designer - Civil Engineer | new
+new  | 95104679 | TLH Recruitment | Road Design Engineer | new
+new  | 95229161 | Parratech Group Pty Ltd | Inventor Designer/Draftsperson  | new
+DUP  | 95221249 | Hays | Engineering | Project Engineer | recent outreach to the same employer (Project Engineer · MANUAL_APPLIED · 2026-07-15)
+DUP  | 95220314 | Shadforth | Site or Project Engineer | recent outreach to the same employer (Civil Site and Project Engineers · MANUAL_APPLIED · 2026-10-07)
+new  | 95205508 | Morson Edge | Structural Drafter | new

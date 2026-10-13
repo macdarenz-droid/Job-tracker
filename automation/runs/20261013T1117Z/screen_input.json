@@ -1,0 +1,445 @@
+{
+ "count": 4,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "95193608",
+   "company": "Talent Web Property",
+   "title": "Project Engineer - Civil Construction",
+   "run": "20261012T0512Z",
+   "percent": 42,
+   "mandatory_unmet": [
+    "Experienced project engineer level"
+   ]
+  },
+  {
+   "id": "95207745",
+   "company": "Yellow Iron Fleet",
+   "title": "Civil Project Engineer",
+   "run": "20261012T1538Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "Minimum 3 years' experience in civil construction (Marc has about 1 year, Philippines)"
+   ]
+  },
+  {
+   "id": "95204746",
+   "company": "Scotford Fennessy Recruitment",
+   "title": "Civil Designer",
+   "run": "20261012T1538Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Experience in a Perth engineering consultancy, 2 to 5 years"
+   ]
+  },
+  {
+   "id": "95229171",
+   "company": "Morson Edge",
+   "title": "Civil Site Engineer - Wind Farm",
+   "run": "20261013T0611Z",
+   "percent": 32,
+   "mandatory_unmet": [
+    "Previous experience as a Civil Engineer or Site Engineer on major construction projects"
+   ]
+  },
+  {
+   "id": "95205064",
+   "company": "Verra Recruitment Pty Ltd",
+   "title": "Civil Project Engineer - FIFO | Defence Infrastructure",
+   "run": "20261012T1538Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Australian citizen or permanent resident"
+   ]
+  },
+  {
+   "id": "95220430",
+   "company": "Red Fox Advisory",
+   "title": "Civil Technician (Full-Time)",
+   "run": "20261013T0114Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Minimum 5 to 7 years' employment experience in civil design and engineering",
+    "Professional membership with Engineers Australia"
+   ]
+  },
+  {
+   "id": "95219778",
+   "company": "John Holland",
+   "title": "Civil Project Engineer",
+   "run": "20261013T0114Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Extensive project engineering experience in rail construction"
+   ]
+  },
+  {
+   "id": "95192276",
+   "company": "Kingston Human Capital",
+   "title": "(PO3) Civil Engineer",
+   "run": "20261012T0512Z",
+   "percent": 50,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95233585",
+   "company": "United Rentals Australia Pty Ltd",
+   "title": "Civil Engineer",
+   "run": "20261013T0611Z",
+   "percent": 48,
+   "mandatory_unmet": [
+    "3-5 years of experience in civil engineering, ideally temporary works"
+   ]
+  },
+  {
+   "id": "95231028",
+   "company": "Fyfe Pty Ltd",
+   "title": "Civil Engineer - relocate to Darwin",
+   "run": "20261013T0611Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94972033",
+   "company": "Smart Built",
+   "title": "Civil Engineer",
+   "run": "20261013T0611Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "At least five years of post-qualification professional civil engineering experience"
+   ]
+  },
+  {
+   "id": "95195904",
+   "company": "Alchemy Recruitment Consulting Pty Ltd",
+   "title": "Civil Engineers | Road Delivery | Multiple Opportunities",
+   "run": "20261012T1538Z",
+   "percent": 52,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95193925",
+   "company": "Public Sector People",
+   "title": "PO3 Civil Engineer (Nerang)",
+   "run": "20261012T0512Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95228191",
+   "company": "Chandler Macleod",
+   "title": "Road Infrastructure Engineers | Multiple Contract Opportunities",
+   "run": "20261013T0611Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Experience delivering engineering, maintenance, rehabilitation or infrastructure projects at PO3-PO5 level"
+   ]
+  },
+  {
+   "id": "95221945",
+   "company": "Duo QS",
+   "title": "Junior Estimator - Graduate",
+   "run": "20261013T0114Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Minimum of 1 year of construction/building experience (Marc has under one year, April 2019 to February 2020)"
+   ]
+  },
+  {
+   "id": "95220594",
+   "company": "The Constructive Collective NSW Pty Ltd",
+   "title": "Civil Estimator",
+   "run": "20261013T0114Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "3 to 10 years' experience in estimating within civil infrastructure"
+   ]
+  },
+  {
+   "id": "95202759",
+   "company": "Rain Consulting Pty Ltd",
+   "title": "Project Engineer or Scientist, Stormwater & Water Management Melbourne, hybrid",
+   "run": "20261012T0512Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "3 to 7 years stormwater experience"
+   ]
+  },
+  {
+   "id": "95229161",
+   "company": "Parratech Group Pty Ltd",
+   "title": "Inventor Designer/Draftsperson ",
+   "run": "20261013T0611Z",
+   "percent": 22,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95205508",
+   "company": "Morson Edge",
+   "title": "Structural Drafter",
+   "run": "20261013T0114Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Previous structural drafting experience with an engineering consultancy (ideally 4 years)"
+   ]
+  },
+  {
+   "id": "95156694",
+   "company": "Quick Up Hoardings",
+   "title": "CAD Drafter / Estimator",
+   "run": "20261012T0512Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "Hands-on installation leadership and estimating experience"
+   ]
+  },
+  {
+   "id": "95195999",
+   "company": "SITZLER Pty Ltd",
+   "title": "Site Engineer -SA",
+   "run": "20261012T0512Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95232534",
+   "company": "Aspect Personnel",
+   "title": "Project Engineer",
+   "run": "20261013T0611Z",
+   "percent": 35,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95232400",
+   "company": "Archos Pty Ltd",
+   "title": "Civil Estimator",
+   "run": "20261013T0611Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Minimum 5 years' experience in civil construction estimating"
+   ]
+  },
+  {
+   "id": "95207934",
+   "company": "Richmond Roads Group",
+   "title": "Estimator",
+   "run": "20261012T1538Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Currently studying 3rd or 4th year civil engineering"
+   ]
+  },
+  {
+   "id": "95200785",
+   "company": "Bega Valley Shire Council",
+   "title": "Finance Cadet",
+   "run": "20261013T0114Z",
+   "percent": 10,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95200685",
+   "company": "Bega Valley Shire Council",
+   "title": "Engineer Cadet",
+   "run": "20261012T2026Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Must undertake an undergraduate qualification in Engineering (honours) or a related discipline as part of Council's Emerging Talent Program"
+   ]
+  },
+  {
+   "id": "95200560",
+   "company": "Bega Valley Shire Council",
+   "title": "Business Cadet",
+   "run": "20261013T0114Z",
+   "percent": 10,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95199179",
+   "company": "Aquirian Limited",
+   "title": "Design / Estimator & Workshop Support Officer",
+   "run": "20261013T0114Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Degree or Diploma in Mechanical Engineering or related, with mechanical design and drafting experience and Autodesk Inventor"
+   ]
+  },
+  {
+   "id": "95192164",
+   "company": "Prime Build Pty Ltd",
+   "title": "Construction Cadets",
+   "run": "20261012T1538Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "Currently studying (cadetship)"
+   ]
+  },
+  {
+   "id": "95231303",
+   "company": "Talent Web Property",
+   "title": "Engineer",
+   "run": "20261013T0611Z",
+   "percent": 18,
+   "mandatory_unmet": [
+    "Australian or New Zealand citizens, or Australian permanent residents"
+   ]
+  },
+  {
+   "id": "95227062",
+   "company": "Peoplebank Australia NSW",
+   "title": "Operations Centre Team Engineer",
+   "run": "20261013T0611Z",
+   "percent": 10,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95226753",
+   "company": "Xero Manufacturing Pty Ltd",
+   "title": "Production Design Engineer – CAD & Manufacturing",
+   "run": "20261013T0611Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Minimum 3 years' experience in manufacturing, fabrication, production engineering, product design or technical drafting"
+   ]
+  },
+  {
+   "id": "95225412",
+   "company": "Earth AI",
+   "title": "Junior Geologist",
+   "run": "20261013T0611Z",
+   "percent": 12,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95221478",
+   "company": "CGC Recruitment",
+   "title": "Project Engineer",
+   "run": "20261013T0114Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Proven experience as a Project Engineer or Site Engineer on civil earthworks or large-scale civil projects"
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "id": "95236566",
+   "source": "seek",
+   "title": "12D Civil Designer",
+   "company": "CGC Recruitment",
+   "location": "Margaret River, Bunbury & South West WA",
+   "url": "https://www.seek.com.au/job/95236566",
+   "work_type": "Full time",
+   "salary": "$110k-$140k +Super DOE",
+   "listed_at": "2026-10-13T07:06:35.965Z",
+   "expires_at": "2026-11-12T07:06:00.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a Civil 12D Designer?",
+    "Which of the following CAD software do you have experience with?",
+    "What's your expected annual base salary?",
+    "How much notice are you required to give your current employer?"
+   ],
+   "summary": "Take ownership of civil design in Margaret River with a boutique civil consultancy, Growing company, land development projects and a close-knit team.",
+   "opening": "Looking for more autonomy and the chance to make a real impact? Join a well-established boutique engineering consultancy with a team of around 40+ delivering a strong pipeline of land development projects across WA.\n Based in the Margaret River office, you’ll be the sole designer in a growing regional office, taking ownership of 12D design delivery while working alongside a supportive, close-knit team. You’ll have the independence to manage your own workload, with support from the local team and weekly/fortnightly visits from the Perth HQ team.\n With a strong project pipeline and a collaborative team this is an opportunity to take the lead in your role, contribute to a growing business and enjoy a change of pace.\nAbout the Role\n - Produce detailed designs using 12D Model and AutoCAD.\n - Manage design tasks from concept through to detailed design and documentation.\n - Work closely with en",
+   "key_lines": [
+    "Based in the Margaret River office, you’ll be the sole designer in a growing regional office, taking ownership of 12D design delivery while working alongside a supportive, close-knit team. You’ll have the independence to manage your own workload, with support from the local team and weekly/fortnightly visits from the Perth HQ team.",
+    "- Produce detailed designs using 12D Model and AutoCAD.",
+    "- Work closely with engineers, project teams and stakeholders to achieve project outcomes.",
+    "About You - Minimum 5 years’ experience in civil design.",
+    "- Strong proficiency in 12D Model and AutoCAD – essential.",
+    "- Previous experience delivering land development projects – essential.",
+    "- A close-knit, collaborative team within a boutique consultancy.",
+    "- Salary negotiable, depending on your experience and capability.",
+    "Interested? If you’re an experienced 12D Civil Designer looking for your next move in to or in Margaret River, get in touch for a confidential discussion."
+   ]
+  },
+  {
+   "id": "95235044",
+   "source": "seek",
+   "title": "Graduate Infrastructure Engineer",
+   "company": "Peoplebank Australia VIC",
+   "location": "Melbourne VIC",
+   "url": "https://www.seek.com.au/job/95235044",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-13T06:23:05.457Z",
+   "expires_at": "2026-11-12T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": " About the Company  Leaders IT (Professional Services division of Peoplebank) are a leading information technology talent consultancy that focuses on",
+   "opening": "About the Company\nLeaders IT (Professional Services division of Peoplebank) are a leading information technology talent consultancy that focuses on providing specialised IT consultants to Tier-1 clients in diverse industries like Banking/Financial Services, Retail, Telecommunications, and Government. Our consultants are engaged in a variety of cutting-edge projects throughout Australia.\nAbout the role\n We are working in partnership with a large telecommunications corporation on an opportunity working across the major platforms. Our client is looking for a collaborative team player to join their team as a Graduate Infrastructure Engineer.\nSkills and Experience\n- Network and Infrastructure studies\n- NetApp\n- Cisco switches/routers\n- USC\n- Linux DB\n- Windows Server\n- Splunk monitoring\n- Security protocols (implementation and compliance)\nCulture and Benefits\n- You will have a dedicated Progr",
+   "key_lines": [
+    "We are working in partnership with a large telecommunications corporation on an opportunity working across the major platforms. Our client is looking for a collaborative team player to join their team as a Graduate Infrastructure Engineer.",
+    "Skills and Experience",
+    "To apply please click the 'Apply Now' button.",
+    "Peoplebank and Leaders IT are committed to creating a diverse and inclusive workplace where everyone belongs. We welcome applications from people of all backgrounds, identities, and experiences. If you need adjustments to the recruitment process due to your circumstances, please let us know—we’re here to support you."
+   ]
+  },
+  {
+   "id": "95240410",
+   "source": "seek",
+   "title": "Site Engineer",
+   "company": "Silverstrand Developments",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/95240410",
+   "work_type": "Full time",
+   "salary": "$100,000 – $110,000 per year",
+   "listed_at": "2026-10-13T09:26:35.135Z",
+   "expires_at": "2026-11-12T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How much notice are you required to give your current employer?"
+   ],
+   "summary": "Silverstrand are seeking a Site Engineer for a variety of different civil projects across Brisbane to Gold Coast.",
+   "opening": "Silverstrand is currently looking for a suitably qualified Site Engineer for an immediate start on a large rail project located in South Brisbane.\nWe are looking for a person with a background in civil construction, including Earthworks, Drainage and Concrete Form/Reo/Pour. This role will be site based.\nThe successful candidate must have the following qualifications/ experience:\n- Degree in Engineering or Construction Management or similar;\n- Minimum of 2 years' onsite experience;\n- Prior experience in an infrastructure or construction role;\n- Thorough knowledge of codes and standards;\n- A strong focus on WHS;\n- Experience with SWMS, ITP's and quality documentation;\n- Ability to read and understand drawings and specifications;\n- A good understanding of MS Excel, Word Project etc;\nDaily Tasks include:\n- Ensuring compliance with safety & site environmental requirements;\n- Provision of tech",
+   "key_lines": [
+    "Silverstrand is currently looking for a suitably qualified Site Engineer for an immediate start on a large rail project located in South Brisbane.",
+    "The successful candidate must have the following qualifications/ experience:",
+    "- Degree in Engineering or Construction Management or similar;",
+    "- Minimum of 2 years' onsite experience;",
+    "- Prior experience in an infrastructure or construction role;",
+    "- Experience with SWMS, ITP's and quality documentation;",
+    "- Ensuring compliance with safety & site environmental requirements;",
+    "- Problem solving in relation to civil and structural requirements;",
+    "Must be willing to travel.",
+    "If you believe you have the necessary experience and qualifications for this position, please forward a cover letter and your CV to employment@silverstrand.com.au."
+   ]
+  },
+  {
+   "id": "95237442",
+   "source": "seek",
+   "title": "Site Engineer - Structural",
+   "company": "Recruitment Engineering Services Pty Ltd",
+   "location": "Ormeau, Gold Coast QLD",
+   "url": "https://www.seek.com.au/job/95237442",
+   "work_type": "Contract/Temp",
+   "salary": null,
+   "listed_at": "2026-10-13T07:35:44.142Z",
+   "expires_at": "2026-11-12T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a site engineer?",
+    "Are you willing to undergo a pre-employment background check?"
+   ],
+   "summary": "Looking for Engineers with Structures / Building experience / Immediate contract opportunity / Northern Gold Coast based",
+   "opening": "We are currently looking to speak to Engineers with strong structures / building delivery experience interested in working with a main contractor on a major Rail/Infrastructure project and who are able to be engaged on a contract basis in the Northern Gold Coast region\nThe Role\n- You will monitor the project plan and record progress against the program, resolving engineering issues with the assistance of your project team\n- Manage the administration of subcontractors, ensure technical matters with the project are compliant and drive a zero harm safety culture on site.\n- Review and understand construction drawings, specifications and method statements\n- Liaise, communicate and plan with the foreman, and Subcontractors on a daily basis to achieve target outcomes\n- Ensure project delivery is compliant with project standards\n- Ensure on site works are delivered to quality standards and compl",
+   "key_lines": [
+    "We are currently looking to speak to Engineers with strong structures / building delivery experience interested in working with a main contractor on a major Rail/Infrastructure project and who are able to be engaged on a contract basis in the Northern Gold Coast region",
+    "- Experience in a similar role across the execution of major infrastructure projects",
+    "- Structures / Building Experience rather than a Civils focus",
+    "- Contracting background, delivery focus and experience in delivering",
+    "- Degree Qualification in Engineering preferable"
+   ]
+  }
+ ]
+}

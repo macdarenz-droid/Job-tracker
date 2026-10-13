@@ -1,0 +1,45 @@
+[
+ {
+  "id": "698dd263-afe2-41dc-adee-31bc7795f344",
+  "key": "manual:698dd263-afe2-41dc-adee-31bc7795f344",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261013T1117Z",
+  "created_at": "2026-10-13T11:30:17.000Z",
+  "updated_at": "2026-10-13T11:30:17.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Silverstrand Developments",
+  "role": "Site Engineer",
+  "location": "Brisbane QLD",
+  "job_url": "https://www.seek.com.au/job/95240410",
+  "status": "HELD_MANDATORY_REQUIREMENTS",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMAIL",
+  "fit": [
+   "Civil site engineer on a South Brisbane rail project: earthworks, drainage, concrete, SWMS and ITPs.",
+   "Duties overlap Marc's site inspection, quality and coordination work, and his BSCE meets the degree line.",
+   "Minimum 2 years onsite experience is stated as a must; Marc's site work is April 2019 to February 2020, under one year."
+  ],
+  "gaps": [
+   "Minimum of 2 years onsite experience (Marc has under one year)",
+   "2 years onsite experience",
+   "Australian site experience"
+  ],
+  "match_score": {
+   "percent": 62,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Civil site engineer on a South Brisbane rail project: earthworks, drainage, concrete, SWMS and ITPs.",
+    "Duties overlap Marc's site inspection, quality and coordination work, and his BSCE meets the degree line.",
+    "Minimum 2 years onsite experience is stated as a must; Marc's site work is April 2019 to February 2020, under one year."
+   ],
+   "caution": "Must-have 2 years onsite; immediate start Brisbane"
+  },
+  "notes": "Held by Grok AI: Minimum of 2 years onsite experience (Marc has under one year)",
+  "checked_at": "2026-10-13T11:30:17.000Z",
+  "seek_id": "95240410",
+  "duplicate_key": "silverstranddevelopments|seek:95240410"
+ }
+]

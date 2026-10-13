@@ -1,0 +1,41 @@
+{
+  "percent": 28,
+  "rationale": [
+    "Contract road designer for a Sydney council using 12D.",
+    "Degree with minimum 5 years experience and significant survey/design/estimating track record required.",
+    "Recruiter advert; Marc's design work is academic."
+  ],
+  "caution": "5 years required",
+  "gaps": [
+    "5 years civil engineering",
+    "12D"
+  ],
+  "mandatory_unmet": [
+    "Minimum 5 years civil engineering experience"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": null,
+  "apply_instructions": "Apply via SEEK",
+  "open": true,
+  "employer_is_agency": true,
+  "company": "Ashdown People",
+  "title": "Road Designer - Civil Engineer",
+  "location": "Blacktown, Sydney NSW",
+  "url": "https://www.seek.com.au/job/95108116",
+  "listed_at": "2026-10-07T03:50:55.182Z",
+  "expires_at": "2026-11-06T03:50:00.000Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a civil engineer?",
+    "Which of the following CAD software do you have experience with?",
+    "Do you have a current Australian driver's licence?",
+    "How much notice are you required to give your current employer?",
+    "Do you have a current Police Check (National Police Certificate) for employment?",
+    "Can you outline your direct experience in road design and usage as a user of 12D?",
+    "Please outline your experience in survey, investigation and \ndesign including estimates for roads, traffic facilities, stormwater \ndrainage and other civil engineering projects\n",
+    "Outline your availability for the contract duration and desire to remain for extension"
+  ],
+  "seek_id": "95108116",
+  "screened_at": "2026-10-13T11:22:05Z"
+}
