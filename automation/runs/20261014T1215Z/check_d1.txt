@@ -1,0 +1,80 @@
+DUP  | 95251750 | Titan Recruitment Pty Ltd | Civil Drafter / Junior Designer | same SEEK job already in the tracker
+new  | 95263024 | Appoint | Civil Project / Site Engineers | Major Infrastructure Projects | new
+new  | 95254965 | Amey Australia | Civil Designer | new
+new  | 95250866 | MJB Industries Pty Ltd | Civil Engineering Draftsperson / CAD Draftsperson | new
+new  | 95247893 | Burton Contractors | Site Engineer - Civil | new
+new  | 95248394 | New Horizon Construction | Civil Site Engineer – Road Construction | new
+new  | 95261349 | PERSOL | Structural Drafter  | new
+new  | 95260251 | Aurizon | Engineer (Civil / Structural) | new
+new  | 95261369 | Kehoe Myers Consulting Engineers | Civil Engineer | new
+new  | 95254019 | Van Der Meer Consulting | Structural Draftsperson | new
+new  | 95251274 | JMT Civil | Civil Estimator | new
+new  | 95250417 | Parklife Metro DC | Undergraduate Engineer | new
+new  | 95246875 | MidCoast Council | Development Engineer | new
+new  | 95255080 | Brunel | Site Engineer | new
+new  | 95262230 | Stellar Recruitment | Civil Engineer (TSF Construction) | new
+DUP  | 95258633 | DT Infrastructure | Site Engineer | recent outreach to the same employer (2027 DT Infrastructure Graduate Program - Engineering · APPLICATION_UNDER_REVIEW · 2026-09-27)
+new  | 95256330 | Upper Hunter Shire Council | Works Engineer - Merriwa | new
+new  | 95254576 | Australian Framing Solutions Pty Ltd | Junior Tekla Structural Detailer | new
+DUP  | 95261196 | Regal Innovations Pty Ltd | Site Engineer | same SEEK job already in the tracker
+new  | 95255415 | Brunel | Project Engineer | new
+new  | 95253334 | Orange City Council | Engineering Design Coordinator | new
+new  | 95248098 | Tate APAC Pty Ltd | Junior Estimator | new
+new  | 95246763 | CGC Recruitment | Site Engineer | new
+DUP  | 95261096 | Regal Innovations Pty Ltd | Project Engineer | recent outreach to the same employer (Site Engineer · READY_JEREMIE_SEEK · 2026-10-14)
+new  | 95257580 | Bedrock Workforce | Estimator | new
+new  | 95267538 | Lycopodium Limited | Graduate Program 2027- Commercial/Project Services | new
+DUP  | 95260945 | Regal Innovations Pty Ltd | Project Coordinator | recent outreach to the same employer (Site Engineer · READY_JEREMIE_SEEK · 2026-10-14)
+new  | 95258394 | Crawford and Company | Construction & Engineering Adjuster | Career Transition Opportunity | Bonus+Car | new
+new  | 95258149 | Crawford and Company | Construction & Engineering Adjuster | Career Transition Opportunity | Bonus + Ca | new
+new  | 95257375 | Crane Lift Australia Pty Ltd | Engineer - Lifting Operations | new
+new  | 95255981 | V/Line Corporation | Access Engineer | new
+new  | 95255900 | Inland Rail | Project Engineer | new
+new  | 95255891 | Inland Rail | Project Engineer | new
+new  | 95255880 | Inland Rail | Project Engineer | new
+new  | 95267867 | Total Trade Constructions | Estimator – Commercial Partitions, Ceilings & Fit-Out | new
+new  | 95266436 | Residential Scaffold Group | Estimator | new
+new  | 95265105 | Formstruct | Project Engineer | new
+new  | 95263011 | Black Cat Syndicate Limited | Graduate Mine Geologists - Underground and Open Pit | new
+new  | 95262927 | Aztech Services | Estimator | Project Estimator | new
+DUP  | 95261896 | Hatch Pty Ltd | Graduate Engineer Process - Industrial Clean Tech, (Brisbane) | recent outreach to the same employer (Civil Drafter · READY_JEREMIE_EMPLOYER_PORTAL · 2026-10-05)
+DUP  | 95261283 | Winslow | Site Engineer | recent outreach to the same employer (Undergraduate/Graduate Civil Engineer & Construction Management: Residential - VIC & SA · APPLICATION_UNDER_REVIEW · 2026-09-27)
+new  | 95261120 | Bluestone Recruitment | Estimator/Scheduler | new
+new  | 95260509 | SEEK Grad | 2027 DXC Technology Graduate - AI Engineer - Melbourne | new
+new  | 95260470 | Frontline Construction NSW | Estimator - Construction Industrial and Commerical | new
+new  | 95259386 | ATCO Structures & Logistics Pty Ltd | Project Estimator - Major Projects | new
+new  | 95258787 | Boylson Pty Ltd | Estimator | new
+DUP  | 95257625 | JHA Consulting Engineers (QLD) | Graduate Hydraulic Engineer | recent outreach to the same employer (Trainee Structural Drafter · SENT · 2026-09-28)
+new  | 95250863 | Kerman Contracting Limited | Project Engineer - Site | new
+new  | 95249598 | CPB Contractors QLD & PNG | Project Engineer - Traffic  | new
+new  | 95249296 | Monadelphous | Project Engineer | new
+new  | 95249068 | Karlka Recruiting Group | Project Engineer - Asphalt | new
+new  | 95248996 | Flick Anticimex Pty Ltd | Pest Technician (Trainees Welcome!) | new
+new  | 95248937 | TBuild QLD Pty Ltd | Assessor/Estimator - Insurance | new
+DUP  | 95248231 | Global 360 | Building Estimator | recent outreach to the same employer (Graduate Engineer · READY_JEREMIE_SEEK · 2026-10-03)
+new  | 95247728 | Itch Recruitment | Estimator | new
+DUP  | 95246755 | Ivory Group | Site Engineer | recent outreach to the same employer (Site Engineer · MANUAL_APPLIED · 2026-07-20)
+new  | 95243914 | Gamuda Australia Branch | Site Engineer | new
+new  | 95265619 | Devlyn Constructions | Project Engineer | new
+new  | 95264748 | Lead Group | Project Coordinator - Commercial Builder | new
+new  | 95257919 | Service Stream Limited | Contractor Trainee Pole Inspector | new
+new  | 95257135 | Maxima Group Training | Irrigation Trainee | new
+new  | 95252261 | Protech NSW | Solidworks Structural Draftsperson | new
+new  | 95250533 | NTHA Trainees & Apprentices | Frame and Truss Traineeship | new
+new  | 95250092 | TBuild QLD Pty Ltd | Project Coordinator | new
+new  | 95249556 | ZWECK | Project Coordinator - Aizer Building Solutions | new
+new  | 95269010 | Schweitzer Engineering Laboratories | Project Engineer II - Automation | new
+new  | 95252380 | Private Advertiser | Estimator | new
+new  | 95251444 | NACAP | Environmental Graduate | new
+new  | 95250102 | Transgrid | Development Engineer | new
+new  | 95261539 | Harvey Norman | Commercial Solar Engineer | new
+new  | 95261173 | NBN TM Australia | Field Engineer | new
+new  | 95260417 | Blake Oliver - Property & Construction | Draftsperson (ArchiCAD) | new
+new  | 95260061 | NSW Department of Climate Change, Energy, the Environment & Water | Power System Analysis Engineer | new
+new  | 95259066 | Gransolar | Commissioning Engineer | new
+new  | 95258867 | ARL Laboratory Services P/L | Materials Engineer | new
+new  | 95257283 | Unisys | Sr Tech Field Engineer | new
+new  | 95254706 | Trelleborg Perth Pty Ltd | Applications Engineer | new
+new  | 95250682 | Searson Buck Group Pty Ltd | Manufacturing Engineer | new
+new  | 95250603 | Bureau Veritas Australia Pty Ltd | Generalist Engineer I NV1 Cleared | new
+new  | 95249515 | Myriota | NPI Engineer | new

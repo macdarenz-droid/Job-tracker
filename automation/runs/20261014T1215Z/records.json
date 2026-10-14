@@ -1,0 +1,219 @@
+[
+ {
+  "id": "6d35faea-1939-4cff-a63d-5ff817f905fc",
+  "key": "manual:6d35faea-1939-4cff-a63d-5ff817f905fc",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261014T1215Z",
+  "created_at": "2026-10-14T12:25:22.000Z",
+  "updated_at": "2026-10-14T12:25:22.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "c5939b67-af52-4b44-b3d1-b8c3b5080380",
+    "path": "/api/documents/c5939b67-af52-4b44-b3d1-b8c3b5080380",
+    "filename": "Marc_Masarate_V_Line_Corporation_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-14T12:25:24.551Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "2f564345-02eb-4613-aacb-0cd4825bb92f",
+    "path": "/api/documents/2f564345-02eb-4613-aacb-0cd4825bb92f",
+    "filename": "Marc_Masarate_V_Line_Corporation_Access_Engineer_Cover_Letter.pdf",
+    "sha256": "2afd462e360032dae02aecdcacd42b3f052f28e7c8e99a09de958b83d6e56f74",
+    "size_bytes": 47409,
+    "kind": "cover",
+    "uploaded_at": "2026-10-14T12:25:23.627Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "V/Line Corporation",
+  "role": "Access Engineer",
+  "location": "Melbourne VIC",
+  "job_url": "https://www.seek.com.au/job/95255981",
+  "company_url": "https://www.vline.com.au/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95255981",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Application: Access Engineer, V/Line, Marc Masarate",
+  "email_body": "",
+  "fit": [
+   "Access Engineer in V/Line's Projects Access Interface team, Melbourne: assessing third party access applications, reviewing proposed works for safety and operational requirements, issuing Site Access Permits and keeping accurate records, which overlaps Marc's 2019 to 2020 Philippines site work (drawing reviews, inspections, safety checks, site and material records).",
+   "Advert says rail experience is welcomed but not essential and asks for experience in an engineering, construction or project environment in civil or structures disciplines, process and compliance work, Microsoft Office and stakeholder communication; Marc has civil site work, a BSCE (2019), an Advanced Diploma of Civil Construction Design (Feb 2026) and Microsoft Office.",
+   "Melbourne hybrid role with occasional network travel suits a Melton base; no citizenship, PR or minimum years gate in the advert, and it invites applicants who do not exactly match."
+  ],
+  "gaps": [
+   "No rail, track or rail access experience",
+   "No Australian site or office work experience yet; site work was in the Philippines 2019 to 2020",
+   "Site Access Permit and third party access processes would be new",
+   "Fixed term to June 2029 is longer than work rights to December 2027; Marc to discuss if asked",
+   "Medical category 3 check: Marc to confirm"
+  ],
+  "match_score": {
+   "percent": 65,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Access Engineer in V/Line's Projects Access Interface team, Melbourne: assessing third party access applications, reviewing proposed works for safety and operational requirements, issuing Site Access Permits and keeping accurate records, which overlaps Marc's 2019 to 2020 Philippines site work (drawing reviews, inspections, safety checks, site and material records).",
+    "Advert says rail experience is welcomed but not essential and asks for experience in an engineering, construction or project environment in civil or structures disciplines, process and compliance work, Microsoft Office and stakeholder communication; Marc has civil site work, a BSCE (2019), an Advanced Diploma of Civil Construction Design (Feb 2026) and Microsoft Office.",
+    "Melbourne hybrid role with occasional network travel suits a Melton base; no citizenship, PR or minimum years gate in the advert, and it invites applicants who do not exactly match."
+   ],
+   "caution": "Not a graduate role: V/Line will compare Marc against people with Australian rail or project experience. His site experience is under one year and was in the Philippines. The role is fixed term to June 2029 while Marc's work rights run to December 2027, which Marc should be ready to discuss honestly if asked. Selection includes a medical category 3 check, online assessments and video screening."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-14T03:32:39.766Z",
+   "expires_at": "2026-10-29T12:59:59.000Z",
+   "verified_at": "2026-10-14T12:18:52.000Z",
+   "apply_instructions": "Apply through V/Line's careers portal via the Apply link on SEEK job 95255981 (link out). Applications close 11.59 pm Wednesday 28 October 2026. TalentSupport@vline.com.au is published for accessibility adjustments only, not as an application inbox.",
+   "screening_questions": []
+  },
+  "screening_answers": {
+   "Working rights in Australia (if asked)": "Temporary visa with full working rights: Subclass 485, full working rights until December 2027. Do not claim citizenship or permanent residency.",
+   "Driver's licence (if asked)": "Yes, Australian driver's licence and own reliable transport.",
+   "White Card (if asked)": "Yes, White Card (Construction Induction).",
+   "Medical category 3 check / pre-employment checks (if asked)": "Marc to confirm (no medical status is on record; his usual answer to pre-employment checks has been yes).",
+   "Salary, notice period or start date (if asked)": "Marc to answer; none is on record."
+  },
+  "checklist": [
+   "Check Gmail for any earlier V/Line receipt before applying (none found on 14 Oct 2026 AEDT)",
+   "Open SEEK job 95255981 and follow Apply through to V/Line's careers portal before 11.59 pm Wednesday 28 October 2026",
+   "Upload the resume and this cover letter; answer work rights as Subclass 485 with full working rights to December 2027",
+   "Marc answers medical, salary, notice and start date himself; be ready to discuss the June 2029 fixed term against work rights to December 2027",
+   "Press Applied on this record only after the portal confirms the submission"
+  ],
+  "notes": "Found by Grok AI on a widened SEEK sweep (daterange 1, 80 details) in tick 20261014T1215Z, employers rotation. Direct employer (Victorian state rail operator), Melbourne, closes 28 Oct 2026. Fit 65: process, compliance, records and site review duties overlap Marc's site work, and the advert says rail experience is not essential, but it is not a graduate role. Prepared for portal apply only; nothing was sent.\nChecked 14 Oct 2026 AEDT. The only address in the advert is the Talent team's accessibility support inbox, which is not an application route, so no email pack was prepared. The advert reports to the Projects Access Interface Team Leader, who is not named. Route is V/Line's own careers portal (SEEK link out). Gmail search for V/Line and the role found no prior contact; tracker check found no V/Line record.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-14, closes 2026-10-29). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Access Engineer role on SEEK.\n• They may ask about: No rail, track or rail access experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian site or office work experience yet; site work was in the Philippines 2019 to 2020 → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Site Access Permit and third party access processes would be new → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-14, closes 2026-10-29). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Access Engineer role on SEEK.",
+   "They may ask about: No rail, track or rail access experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian site or office work experience yet; site work was in the Philippines 2019 to 2020 → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Site Access Permit and third party access processes would be new → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-14T12:25:22.000Z",
+  "seek_id": "95255981",
+  "duplicate_key": "vlinecorporation|seek:95255981"
+ },
+ {
+  "id": "cadff878-60a2-447d-8bb4-dd8a25c986b2",
+  "key": "manual:cadff878-60a2-447d-8bb4-dd8a25c986b2",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261014T1215Z",
+  "created_at": "2026-10-14T12:25:25.000Z",
+  "updated_at": "2026-10-14T12:25:25.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "b469f068-d11b-453e-8b1b-79866bd3f324",
+    "path": "/api/documents/b469f068-d11b-453e-8b1b-79866bd3f324",
+    "filename": "Marc_Masarate_Byrne_Civil_Group_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-14T12:25:27.198Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "7419e760-5463-4eca-b33b-8296fac5878e",
+    "path": "/api/documents/7419e760-5463-4eca-b33b-8296fac5878e",
+    "filename": "Marc_Masarate_Byrne_Civil_Group_Speculative_enquiry_junior_site_engineer_Cover_Letter.pdf",
+    "sha256": "f446fc2f24a10509c451a44d90802e3ecedecdb1872477c4752188e925a8d023",
+    "size_bytes": 47481,
+    "kind": "cover",
+    "uploaded_at": "2026-10-14T12:25:26.340Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Byrne Civil Group",
+  "role": "Speculative enquiry: junior site engineer (Central Coast or Hunter NSW)",
+  "location": "Berkeley Vale NSW (Central Coast and Hunter projects)",
+  "job_url": "https://byrnecivil.com/careers/",
+  "company_url": "https://byrnecivil.com/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Careers",
+  "recipient_email": "careers@byrnecivil.com",
+  "contact_email": "careers@byrnecivil.com",
+  "contact_evidence_url": "https://byrnecivil.com/careers/",
+  "contact_verified_at": "2026-10-14T12:25:25.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Expression of interest: junior site engineer, Marc Masarate",
+  "email_body": "Hello,\n\nThis is a speculative enquiry rather than a reply to an advert. Your careers page takes expressions of interest for Site Engineer and asks for resumes at careers@byrnecivil.com, so I am introducing myself for a junior site engineer role.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, including residential subdivision finishing works. I am based in Melton VIC, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am available for site, regional and FIFO work and open to discussing relocation to the Central Coast or Hunter.\n\nYour subdivision, road reconstruction, culvert and stormwater work for councils and developers is the kind of civil site work I want to build on. My site work so far was in the Philippines, so I would start at a junior level.\n\nI've attached my resume and cover letter. Could you keep me in mind for a junior site engineer opening?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Speculative junior site engineer enquiry to a NSW civil contractor whose published work is subdivision construction, road reconstruction, culverts, sewer, water and stormwater for councils and developers, matching Marc's subdivision finishing site work and his Advanced Diploma road, earthworks and stormwater coursework.",
+   "Careers page lists Site Engineer among roles it takes expressions of interest for and asks for resumes at careers@byrnecivil.com; a staff testimonial describes starting as a site engineer and progressing.",
+   "Work rights, White Card and licence are in place; Central Coast or Hunter relocation is discussable under facts.json, so location scores lower than Victoria."
+  ],
+  "gaps": [
+   "No Australian site experience yet; site work was in the Philippines 2019 to 2020",
+   "Has not worked on water, sewer or pipelaying projects",
+   "Relocation to the Central Coast or Hunter to confirm with Marc"
+  ],
+  "match_score": {
+   "percent": 64,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Speculative junior site engineer enquiry to a NSW civil contractor whose published work is subdivision construction, road reconstruction, culverts, sewer, water and stormwater for councils and developers, matching Marc's subdivision finishing site work and his Advanced Diploma road, earthworks and stormwater coursework.",
+    "Careers page lists Site Engineer among roles it takes expressions of interest for and asks for resumes at careers@byrnecivil.com; a staff testimonial describes starting as a site engineer and progressing.",
+    "Work rights, White Card and licence are in place; Central Coast or Hunter relocation is discussable under facts.json, so location scores lower than Victoria."
+   ],
+   "caution": "No advertised vacancy: this is a clearly labelled speculative enquiry. Site experience is under one year and was in the Philippines; Byrne may want Australian civil site experience. Pipelaying, sewer and water work is not on record. Interstate relocation must be confirmed by Marc before any interview."
+  },
+  "advert": {
+   "source": "employer_careers",
+   "listed_at": "2026-10-14",
+   "expires_at": "",
+   "verified_at": "2026-10-14T12:25:25.000Z",
+   "apply_instructions": "Email resume (and cover letter) to careers@byrnecivil.com as invited on https://byrnecivil.com/careers/. Label clearly as a speculative enquiry.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Confirm this stays a labelled speculative enquiry, not an application for an advertised vacancy",
+   "Confirm with Marc that he is open to relocating to the Central Coast or Hunter NSW",
+   "Attach the resume and cover letter PDFs",
+   "Send only to careers@byrnecivil.com and only if the lease, Gmail duplicate and PDF checks pass",
+   "Record the Gmail message id as SENT; follow up once after 8 days if no reply"
+  ],
+  "notes": "Employers rotation open-web find on tick 20261014T1215Z after the target list and SEEK pool were exhausted. Byrne's careers page takes expressions of interest for Site Engineer and asks for resumes at careers@byrnecivil.com. This pack is a labelled speculative enquiry, not an application for an advertised vacancy.\nChecked 14 Oct 2026 AEDT. Careers page publishes careers@byrnecivil.com for resumes; contact page also lists info@byrnecivil.com and tenders@byrnecivil.com (not used). No personal addresses are published for the directors, so none was used or guessed. Gmail search (byrnecivil, Byrne Civil, Byrne Pipe, includes trash) found no prior contact; tracker has no Byrne record.\nHOW GROK AI FOUND THIS\nFound on employer_careers (listed 2026-10-14). Contact: the application inbox careers@byrnecivil.com published by the employer (https://byrnecivil.com/careers/); no personal address was used. Named people seen on employer pages: Billy Byrne (Director); Kayne Byrne (Director); Ryan Coughlan (Project Manager). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Speculative enquiry: junior site engineer (Central Coast or Hunter NSW) role on SEEK.\n• They may ask about: No Australian site experience yet; site work was in the Philippines 2019 to 2020 → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Has not worked on water, sewer or pipelaying projects → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Relocation to the Central Coast or Hunter to confirm with Marc → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_careers (listed 2026-10-14). Contact: the application inbox careers@byrnecivil.com published by the employer (https://byrnecivil.com/careers/); no personal address was used. Named people seen on employer pages: Billy Byrne (Director); Kayne Byrne (Director); Ryan Coughlan (Project Manager). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Speculative enquiry: junior site engineer (Central Coast or Hunter NSW) role on SEEK.",
+   "They may ask about: No Australian site experience yet; site work was in the Philippines 2019 to 2020 → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Has not worked on water, sewer or pipelaying projects → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Relocation to the Central Coast or Hunter to confirm with Marc → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-14T12:25:25.000Z",
+  "duplicate_key": "byrnecivilgroup|byrnecivil.com/careers"
+ }
+]

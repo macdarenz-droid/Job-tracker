@@ -1,0 +1,446 @@
+{
+ "count": 0,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "95263024",
+   "company": "Appoint",
+   "title": "Civil Project / Site Engineers | Major Infrastructure Projects",
+   "run": "20261014T0711Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Proven experience as a Project Engineer or Site Engineer on major civil infrastructure projects",
+    "Strong local experience delivering civil construction projects within Australia",
+    "Must already be based in Brisbane with unrestricted Australian working rights"
+   ]
+  },
+  {
+   "id": "95254965",
+   "company": "Amey Australia",
+   "title": "Civil Designer",
+   "run": "20261014T0711Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Around 3+ years' experience in civil design/drafting",
+    "Practical experience using 12d Model"
+   ]
+  },
+  {
+   "id": "95193608",
+   "company": "Talent Web Property",
+   "title": "Project Engineer - Civil Construction",
+   "run": "20261012T0512Z",
+   "percent": 42,
+   "mandatory_unmet": [
+    "Experienced project engineer level"
+   ]
+  },
+  {
+   "id": "95250866",
+   "company": "MJB Industries Pty Ltd",
+   "title": "Civil Engineering Draftsperson / CAD Draftsperson",
+   "run": "20261014T0215Z",
+   "percent": 48,
+   "mandatory_unmet": [
+    "Minimum of 1 year proven experience in a similar Civil Engineering Draftsperson / CAD Draftsperson role",
+    "Must reside in the South West region (Australind WA)"
+   ]
+  },
+  {
+   "id": "95247893",
+   "company": "Burton Contractors",
+   "title": "Site Engineer - Civil",
+   "run": "20261014T0215Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Previous experience as a Site Engineer within the civil construction industry (essential)"
+   ]
+  },
+  {
+   "id": "95236566",
+   "company": "CGC Recruitment",
+   "title": "12D Civil Designer",
+   "run": "20261013T1117Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Minimum 5 years civil design experience",
+    "Strong 12D Model proficiency"
+   ]
+  },
+  {
+   "id": "95207745",
+   "company": "Yellow Iron Fleet",
+   "title": "Civil Project Engineer",
+   "run": "20261012T1538Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "Minimum 3 years' experience in civil construction (Marc has about 1 year, Philippines)"
+   ]
+  },
+  {
+   "id": "95204746",
+   "company": "Scotford Fennessy Recruitment",
+   "title": "Civil Designer",
+   "run": "20261012T1538Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Experience in a Perth engineering consultancy, 2 to 5 years"
+   ]
+  },
+  {
+   "id": "95248394",
+   "company": "New Horizon Construction",
+   "title": "Civil Site Engineer – Road Construction",
+   "run": "20261014T0215Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "At least three years experience as a Site Engineer or Project Engineer in civil construction with a strong focus on road works"
+   ]
+  },
+  {
+   "id": "95243160",
+   "company": "Damcon Pty Ltd",
+   "title": "Site Engineer/Project Engineer – FRP Civil Projects - competitive salary",
+   "run": "20261013T1634Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "3+ years' experience in civil infrastructure with a strong focus on FRP delivery"
+   ]
+  },
+  {
+   "id": "95229171",
+   "company": "Morson Edge",
+   "title": "Civil Site Engineer - Wind Farm",
+   "run": "20261013T0611Z",
+   "percent": 32,
+   "mandatory_unmet": [
+    "Previous experience as a Civil Engineer or Site Engineer on major construction projects"
+   ]
+  },
+  {
+   "id": "95205064",
+   "company": "Verra Recruitment Pty Ltd",
+   "title": "Civil Project Engineer - FIFO | Defence Infrastructure",
+   "run": "20261012T1538Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Australian citizen or permanent resident"
+   ]
+  },
+  {
+   "id": "95261349",
+   "company": "PERSOL",
+   "title": "Structural Drafter ",
+   "run": "20261014T0711Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "Proven experience as a Structural Drafter within a structural engineering consultancy (mid to senior level)"
+   ]
+  },
+  {
+   "id": "95260251",
+   "company": "Aurizon",
+   "title": "Engineer (Civil / Structural)",
+   "run": "20261014T0711Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Approximately 2-8 years' experience in a civil or structural engineering role (mandatory)"
+   ]
+  },
+  {
+   "id": "95220430",
+   "company": "Red Fox Advisory",
+   "title": "Civil Technician (Full-Time)",
+   "run": "20261013T0114Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Minimum 5 to 7 years' employment experience in civil design and engineering",
+    "Professional membership with Engineers Australia"
+   ]
+  },
+  {
+   "id": "95219778",
+   "company": "John Holland",
+   "title": "Civil Project Engineer",
+   "run": "20261013T0114Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Extensive project engineering experience in rail construction"
+   ]
+  },
+  {
+   "id": "95192276",
+   "company": "Kingston Human Capital",
+   "title": "(PO3) Civil Engineer",
+   "run": "20261012T0512Z",
+   "percent": 50,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95261369",
+   "company": "Kehoe Myers Consulting Engineers",
+   "title": "Civil Engineer",
+   "run": "20261014T0711Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "A minimum of 2 years' relevant industry experience",
+    "Experience administering civil construction contracts including Superintendent's Representative"
+   ]
+  },
+  {
+   "id": "95254019",
+   "company": "Van Der Meer Consulting",
+   "title": "Structural Draftsperson",
+   "run": "20261014T0711Z",
+   "percent": 10,
+   "mandatory_unmet": [
+    "Minimum 3 years structural drafting experience in a consultancy",
+    "Minimum 3 years Revit experience",
+    "Australian Citizen or Permanent Resident"
+   ]
+  },
+  {
+   "id": "95235044",
+   "company": "Peoplebank Australia VIC",
+   "title": "Graduate Infrastructure Engineer",
+   "run": "20261013T1117Z",
+   "percent": 5,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95233585",
+   "company": "United Rentals Australia Pty Ltd",
+   "title": "Civil Engineer",
+   "run": "20261013T0611Z",
+   "percent": 48,
+   "mandatory_unmet": [
+    "3-5 years of experience in civil engineering, ideally temporary works"
+   ]
+  },
+  {
+   "id": "95231028",
+   "company": "Fyfe Pty Ltd",
+   "title": "Civil Engineer - relocate to Darwin",
+   "run": "20261013T0611Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94972033",
+   "company": "Smart Built",
+   "title": "Civil Engineer",
+   "run": "20261013T0611Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "At least five years of post-qualification professional civil engineering experience"
+   ]
+  },
+  {
+   "id": "95195904",
+   "company": "Alchemy Recruitment Consulting Pty Ltd",
+   "title": "Civil Engineers | Road Delivery | Multiple Opportunities",
+   "run": "20261012T1538Z",
+   "percent": 52,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95193925",
+   "company": "Public Sector People",
+   "title": "PO3 Civil Engineer (Nerang)",
+   "run": "20261012T0512Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95251274",
+   "company": "JMT Civil",
+   "title": "Civil Estimator",
+   "run": "20261014T0215Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "5+ years experience in Civil Estimating"
+   ]
+  },
+  {
+   "id": "95250417",
+   "company": "Parklife Metro DC",
+   "title": "Undergraduate Engineer",
+   "run": "20261014T0215Z",
+   "percent": 38,
+   "mandatory_unmet": [
+    "Undergraduate Engineer pathway (currently enrolled undergraduate engineer)"
+   ]
+  },
+  {
+   "id": "95246875",
+   "company": "MidCoast Council",
+   "title": "Development Engineer",
+   "run": "20261014T0215Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Experience in development engineering, development assessment or a related civil engineering environment"
+   ]
+  },
+  {
+   "id": "95228191",
+   "company": "Chandler Macleod",
+   "title": "Road Infrastructure Engineers | Multiple Contract Opportunities",
+   "run": "20261013T0611Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Experience delivering engineering, maintenance, rehabilitation or infrastructure projects at PO3-PO5 level"
+   ]
+  },
+  {
+   "id": "95221945",
+   "company": "DUOQS",
+   "title": "Junior Estimator - Graduate",
+   "run": "20261013T0114Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Minimum of 1 year of construction/building experience (Marc has under one year, April 2019 to February 2020)"
+   ]
+  },
+  {
+   "id": "95220594",
+   "company": "The Constructive Collective NSW Pty Ltd",
+   "title": "Civil Estimator",
+   "run": "20261013T0114Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "3 to 10 years' experience in estimating within civil infrastructure"
+   ]
+  },
+  {
+   "id": "95255080",
+   "company": "Brunel",
+   "title": "Site Engineer",
+   "run": "20261014T0711Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Previous experience as a Site Engineer within civil construction"
+   ]
+  },
+  {
+   "id": "95202759",
+   "company": "Rain Consulting Pty Ltd",
+   "title": "Project Engineer or Scientist, Stormwater & Water Management Melbourne, hybrid",
+   "run": "20261012T0512Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "3 to 7 years stormwater experience"
+   ]
+  },
+  {
+   "id": "95262230",
+   "company": "Stellar Recruitment",
+   "title": "Civil Engineer (TSF Construction)",
+   "run": "20261014T0711Z",
+   "percent": 10,
+   "mandatory_unmet": [
+    "Previous work for civil contractors on construction of bulk earthworks projects in the mining or industrial sector"
+   ]
+  },
+  {
+   "id": "95256330",
+   "company": "Upper Hunter Shire Council",
+   "title": "Works Engineer - Merriwa",
+   "run": "20261014T0711Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Experienced works engineer managing council construction and maintenance programs"
+   ]
+  },
+  {
+   "id": "95254576",
+   "company": "Australian Framing Solutions Pty Ltd",
+   "title": "Junior Tekla Structural Detailer",
+   "run": "20261014T0711Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "At least 2 years' experience in Structural Steel Detailing (Tekla)"
+   ]
+  },
+  {
+   "id": "95229161",
+   "company": "Parratech Group Pty Ltd",
+   "title": "Inventor Designer/Draftsperson ",
+   "run": "20261013T0611Z",
+   "percent": 22,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95221249",
+   "company": "Hays | Engineering",
+   "title": "Project Engineer",
+   "run": "20261014T0215Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Professional Engineer registration in Victoria or eligibility to obtain registration",
+    "Demonstrated experience delivering civil infrastructure projects"
+   ]
+  },
+  {
+   "id": "95205508",
+   "company": "Morson Edge",
+   "title": "Structural Drafter",
+   "run": "20261013T0114Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Previous structural drafting experience with an engineering consultancy (ideally 4 years)"
+   ]
+  },
+  {
+   "id": "95156694",
+   "company": "Quick Up Hoardings",
+   "title": "CAD Drafter / Estimator",
+   "run": "20261012T0512Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "Hands-on installation leadership and estimating experience"
+   ]
+  },
+  {
+   "id": "95255415",
+   "company": "Brunel",
+   "title": "Project Engineer",
+   "run": "20261014T0711Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Experience as a Project Engineer within civil construction"
+   ]
+  },
+  {
+   "id": "95253334",
+   "company": "Orange City Council",
+   "title": "Engineering Design Coordinator",
+   "run": "20261014T0711Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Extensive experience in engineering design",
+    "Lead and manage the design team"
+   ]
+  },
+  {
+   "id": "95248098",
+   "company": "Tate APAC Pty Ltd",
+   "title": "Junior Estimator",
+   "run": "20261014T0215Z",
+   "percent": 42,
+   "mandatory_unmet": [
+    "1-2 years experience in estimating, construction administration, project coordination or quantity surveying"
+   ]
+  },
+  {
+   "id": "95246763",
+   "company": "CGC Recruitment",
+   "title": "Site Engineer",
+   "run": "20261014T0215Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Previous Site Engineer experience with a main/tier 1 or tier 2 builder"
+   ]
+  }
+ ],
+ "candidates": []
+}

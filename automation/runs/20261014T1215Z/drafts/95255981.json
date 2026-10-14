@@ -1,0 +1,47 @@
+{
+  "seek_id": "95255981",
+  "company": "V/Line Corporation",
+  "role": "Access Engineer",
+  "location": "Melbourne VIC",
+  "job_url": "https://www.seek.com.au/job/95255981",
+  "route": "EMPLOYER_PORTAL",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95255981",
+  "subject": "Application: Access Engineer, V/Line, Marc Masarate",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "notes": "Found by Grok AI on a widened SEEK sweep (daterange 1, 80 details) in tick 20261014T1215Z, employers rotation. Direct employer (Victorian state rail operator), Melbourne, closes 28 Oct 2026. Fit 65: process, compliance, records and site review duties overlap Marc's site work, and the advert says rail experience is not essential, but it is not a graduate role. Prepared for portal apply only; nothing was sent.",
+  "email_body": "",
+  "screening_answers": {
+    "Working rights in Australia (if asked)": "Temporary visa with full working rights: Subclass 485, full working rights until December 2027. Do not claim citizenship or permanent residency.",
+    "Driver's licence (if asked)": "Yes, Australian driver's licence and own reliable transport.",
+    "White Card (if asked)": "Yes, White Card (Construction Induction).",
+    "Medical category 3 check / pre-employment checks (if asked)": "Marc to confirm (no medical status is on record; his usual answer to pre-employment checks has been yes).",
+    "Salary, notice period or start date (if asked)": "Marc to answer; none is on record."
+  },
+  "checklist": [
+    "Check Gmail for any earlier V/Line receipt before applying (none found on 14 Oct 2026 AEDT)",
+    "Open SEEK job 95255981 and follow Apply through to V/Line's careers portal before 11.59 pm Wednesday 28 October 2026",
+    "Upload the resume and this cover letter; answer work rights as Subclass 485 with full working rights to December 2027",
+    "Marc answers medical, salary, notice and start date himself; be ready to discuss the June 2029 fixed term against work rights to December 2027",
+    "Press Applied on this record only after the portal confirms the submission"
+  ],
+  "letter": {
+    "recipient_name": "Talent team",
+    "recipient_role": "",
+    "company": "V/Line Corporation",
+    "company_line": "Victoria's regional train and coach operator, with more than 3700 weekly services and a Projects Access Interface team that manages third party access to the network",
+    "subject": "Application: Access Engineer, V/Line, Marc Masarate",
+    "greeting": "Hello,",
+    "paragraphs": [
+      "I am applying for the Access Engineer role that V/Line listed on SEEK (job 95255981). Your advert says rail experience is welcome but not essential, and asks for transferable knowledge from engineering, construction or project work. Reviewing proposed works, checking them against safety and operational requirements and keeping accurate permit records is the kind of work my background points to.",
+      "From April 2019 to February 2020 I worked on site in the Philippines. As project-in-charge on a community hall renovation I reviewed structural and architectural drawings, checked work against project requirements, carried out site inspections and safety checks, and escalated issues that needed corrective action. As a field engineer on residential subdivision finishing works I prepared site reports, material records and progress reports, and coordinated with engineers, subcontractors and suppliers.",
+      "In February 2026 I finished an Advanced Diploma of Civil Construction Design, where I designed and documented road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D to Australian Standards, lodged Before You Dig Australia enquiries and designed around existing services and site constraints. I also hold a Bachelor of Science in Civil Engineering (2019) and use Microsoft Office. I have not worked in rail or on an Australian site yet, so access applications and Site Access Permits would be new to me.",
+      "I live in Melton VIC, hold a White Card, an Australian driver's licence and my own transport for travel across the network, and have full working rights to December 2027 on a Subclass 485 visa.",
+      "I've attached my resume and cover letter. I would be glad to talk about the role."
+    ],
+    "closing": "Kind regards,"
+  }
+}

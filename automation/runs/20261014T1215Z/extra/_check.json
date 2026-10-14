@@ -1,0 +1,31 @@
+{
+ "candidates": [
+  {
+   "id": "bpd-speculative-eoi",
+   "source": "employer_site",
+   "company": "Breese Pitt Dixon",
+   "title": "Speculative enquiry: graduate civil engineer or civil draftsperson (Melbourne)",
+   "location": "Hawthorn East VIC",
+   "url": "https://www.bpd.com.au/careers",
+   "duplicate": {
+    "blocked": true,
+    "reason": "same job URL already in the tracker",
+    "notes": []
+   }
+  },
+  {
+   "id": "95255981",
+   "source": "seek",
+   "seek_id": "95255981",
+   "company": "V/Line Corporation",
+   "title": "Access Engineer",
+   "location": "Melbourne VIC",
+   "url": "https://www.seek.com.au/job/95255981",
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
+  }
+ ]
+}
