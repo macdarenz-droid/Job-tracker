@@ -1,0 +1,26 @@
+{
+  "id": "95273111",
+  "percent": 35,
+  "rationale": [
+    "36 month Civil Construction Trainee in the CHRC Operations crew: labouring, plant operation and road maintenance while completing a Certificate III in Civil Construction.",
+    "Eligibility rule says applicants must not hold a qualification equal to or higher than the traineeship qualification in the same field; Marc holds an Advanced Diploma of Civil Construction Design (higher, same field) and a BSCE.",
+    "Traineeship funding also requires citizen, residency and visa eligibility, and a Queensland C class licence; Emerald is Central Queensland, which is on record as acceptable."
+  ],
+  "caution": "Not a drafting or site engineering role; trainee funding rules exclude Marc's existing qualification.",
+  "gaps": ["Holds a higher qualification in the same field", "Traineeship visa eligibility for a 485 holder not confirmed", "Queensland licence not on record"],
+  "mandatory_unmet": ["Must not hold a qualification equal to or higher than Certificate III in Civil Construction in the same field: Marc holds an Advanced Diploma of Civil Construction Design"],
+  "mandatory_unresolved": ["Citizen, residency and visa requirements to undertake a funded traineeship"],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": "",
+  "apply_instructions": "Link out from SEEK to the CHRC portal; resume, optional cover letter; closes Monday 19 October 2026 8am.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Central Highlands Regional Council",
+  "title": "Civil Construction Trainee",
+  "location": "Emerald, Gladstone & Central QLD",
+  "url": "https://www.seek.com.au/job/95273111",
+  "listed_at": "2026-10-14T22:03:08.447Z",
+  "expires_at": "2026-11-14T12:59:59.999Z",
+  "screening_questions": [],
+  "source": "seek"
+}

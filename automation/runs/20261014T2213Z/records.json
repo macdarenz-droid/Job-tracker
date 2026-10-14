@@ -1,0 +1,230 @@
+[
+ {
+  "id": "3b52cfc6-656b-4259-af89-edbfd1bd4c0f",
+  "key": "manual:3b52cfc6-656b-4259-af89-edbfd1bd4c0f",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261014T2213Z",
+  "created_at": "2026-10-14T22:25:05.000Z",
+  "updated_at": "2026-10-14T22:25:05.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "f3962dfd-24c7-4054-bab2-d3db27133ebd",
+    "path": "/api/documents/f3962dfd-24c7-4054-bab2-d3db27133ebd",
+    "filename": "Marc_Masarate_Chadwick_Geotechnics_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-14T22:25:07.128Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "4cd7b0a9-fb45-4b5e-883a-ef00a411a8cd",
+    "path": "/api/documents/4cd7b0a9-fb45-4b5e-883a-ef00a411a8cd",
+    "filename": "Marc_Masarate_Chadwick_Geotechnics_Field_and_Laboratory_Engineer_6_month_fi_Cover_Letter.pdf",
+    "sha256": "fd265efe7e46e186b648929589e2dfb7186f5d52fb16e0d454bf8b0a479289cf",
+    "size_bytes": 52723,
+    "kind": "cover",
+    "uploaded_at": "2026-10-14T22:25:06.194Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Chadwick Geotechnics",
+  "role": "Field and Laboratory Engineer (6 month fixed term)",
+  "location": "Ravenhall, Melbourne VIC",
+  "job_url": "https://careers.tonkintaylor.co.nz/jobdetails/ajid/67oE8/Field-and-Laboratory-Engineer,38009.html",
+  "company_url": "https://www.chadwickgeotechnics.com.au/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://careers.tonkintaylor.co.nz/jobdetails/ajid/67oE8/Field-and-Laboratory-Engineer,38009.html",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Application: Field and Laboratory Engineer, Ravenhall (38009), Marc Masarate",
+  "email_body": "",
+  "fit": [
+   "Field and laboratory role on construction materials testing and geotechnical investigations: soil logging, sampling, field density tests, lab tests to Australian Standards, field notes, site plans and QA records, which overlaps Marc's AS 1289 and AS 1726 coursework and his 2019 to 2020 site inspections, quality checks and site reports.",
+   "Essential requirements are only a driver's licence, a Construction Industry Card and willingness to train, all on record; testing or NATA experience is highly regarded, not essential. Marc holds a BSCE (2019).",
+   "Ravenhall is Chadwick's Western Melbourne NATA facility, a short drive from Melton; six month fixed term ends well inside his December 2027 work rights."
+  ],
+  "gaps": [
+   "No construction materials testing or NATA laboratory experience",
+   "No soil or rock logging or field density testing on a job; AS 1289 and AS 1726 are coursework only",
+   "Physical outdoor work in challenging conditions; nothing on record against it"
+  ],
+  "match_score": {
+   "percent": 72,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Field and laboratory role on construction materials testing and geotechnical investigations: soil logging, sampling, field density tests, lab tests to Australian Standards, field notes, site plans and QA records, which overlaps Marc's AS 1289 and AS 1726 coursework and his 2019 to 2020 site inspections, quality checks and site reports.",
+    "Essential requirements are only a driver's licence, a Construction Industry Card and willingness to train, all on record; testing or NATA experience is highly regarded, not essential. Marc holds a BSCE (2019).",
+    "Ravenhall is Chadwick's Western Melbourne NATA facility, a short drive from Melton; six month fixed term ends well inside his December 2027 work rights."
+   ],
+   "caution": "Portal lists the job level as Experienced and Marc has no materials testing, soil logging or NATA lab experience; the lab work would be learned on the job. Closes 16 Oct 2026 09:00, so Marc must apply today. Fixed term of six months."
+  },
+  "advert": {
+   "source": "employer_careers",
+   "listed_at": "2026-09-17",
+   "expires_at": "2026-10-16T09:00:00+11:00",
+   "verified_at": "2026-10-14T22:25:05.000Z",
+   "apply_instructions": "Apply on the Tonkin + Taylor careers portal (Apply or Apply with Seek), reference 38009; closes 16 Oct 2026 09:00. Same employer also lists Field and Laboratory Technician, Dandenong, ref 38008, Entry/Early Careers, same close.",
+   "screening_questions": []
+  },
+  "screening_answers": {
+   "Working rights in Australia (if asked)": "Temporary visa with full working rights: Subclass 485, full working rights until December 2027. Do not claim citizenship or permanent residency.",
+   "Driver's licence (if asked)": "Yes, Australian driver's licence and own reliable transport.",
+   "White Card / Construction Induction Card (if asked)": "Yes, White Card (Construction Induction).",
+   "Pre-employment checks, medical, references (if asked)": "Yes, willing to undergo pre-employment checks. Referees on request only.",
+   "Aboriginal or Torres Strait Islander (if asked)": "No.",
+   "Friends or relatives at the company; prior employment there (if asked)": "No; No.",
+   "Salary expectation, notice period or start date (if asked)": "[Marc to answer; none is on record.]",
+   "Experience in construction materials testing, NATA labs or geotechnical fieldwork (if asked)": "No paid experience. Coursework covered AS 1289 and AS 1726; site inspections, quality checks and site reports in the Philippines 2019 to 2020. Say plainly the test methods would be new."
+  },
+  "checklist": [
+   "URGENT: closes 16 Oct 2026 09:00; apply today (15 Oct AEDT)",
+   "Check Gmail for any Chadwick or Tonkin + Taylor receipt before applying (none found 15 Oct 2026 AEDT)",
+   "Open ref 38009 on careers.tonkintaylor.co.nz and press Apply (or Apply with Seek)",
+   "Upload the resume and this cover letter; answer questions from the screening answers here",
+   "Press Applied on this record only after the portal confirms the submission"
+  ],
+  "notes": "Found by Grok AI in tick 20261014T2213Z, victoria_offsite rotation, on the open web: a LinkedIn public listing for Chadwick's Field and Laboratory Technician led to the Chadwick careers page and the Tonkin + Taylor portal filtered to Chadwick Geotechnics, where this Ravenhall Field and Laboratory Engineer role (ref 38009, posted 17 Sep 2026) closes 16 Oct 2026 09:00. Fit 72. Same employer also lists Field and Laboratory Technician, Dandenong (ref 38008, Entry/Early Careers, same close); Marc may apply to that too through the same portal. Prepared for portal apply; nothing was sent.\nChecked 15 Oct 2026 AEDT. Careers page links to the Tonkin + Taylor portal; only info@chadwickgeotechnics.com.au is published and the site does not say it accepts applications, so no email route. The reporting manager is not named. Gmail search (chadwick, tonkintaylor, in:anywhere) found no prior contact; the June 2026 Tonkin feedback email is from Tonkin Consulting, a different Adelaide firm.\nHOW GROK AI FOUND THIS\nFound on employer_careers (listed 2026-09-17, closes 2026-10-16). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Field and Laboratory Engineer (6 month fixed term) role on your website.\n• They may ask about: No construction materials testing or NATA laboratory experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No soil or rock logging or field density testing on a job; AS 1289 and AS 1726 are coursework only → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Physical outdoor work in challenging conditions; nothing on record against it → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_careers (listed 2026-09-17, closes 2026-10-16). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Field and Laboratory Engineer (6 month fixed term) role on your website.",
+   "They may ask about: No construction materials testing or NATA laboratory experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No soil or rock logging or field density testing on a job; AS 1289 and AS 1726 are coursework only → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Physical outdoor work in challenging conditions; nothing on record against it → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-14T22:25:05.000Z",
+  "duplicate_key": "chadwickgeotechnics|careers.tonkintaylor.co.nz/jobdetails/ajid/67oe8/field-and-laboratory-engineer,38009.html"
+ },
+ {
+  "id": "0ae42996-a2d8-4b4d-8ce6-42581bd1353f",
+  "key": "manual:0ae42996-a2d8-4b4d-8ce6-42581bd1353f",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261014T2213Z",
+  "created_at": "2026-10-14T22:25:07.000Z",
+  "updated_at": "2026-10-14T22:25:07.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "9c125224-dce7-460b-a52f-18a6ea26f627",
+    "path": "/api/documents/9c125224-dce7-460b-a52f-18a6ea26f627",
+    "filename": "Marc_Masarate_Unyte_Symal_Group_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-14T22:25:09.680Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "79ee70de-af9d-4731-a54e-35d39b95e768",
+    "path": "/api/documents/79ee70de-af9d-4731-a54e-35d39b95e768",
+    "filename": "Marc_Masarate_Unyte_Symal_Group_Site_Engineer_Cover_Letter.pdf",
+    "sha256": "7cb69bbdb86c79ee9524867973833d72ca0c4c3ac9bed42eacf042e50510de8e",
+    "size_bytes": 48221,
+    "kind": "cover",
+    "uploaded_at": "2026-10-14T22:25:08.664Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Unyte (Symal Group)",
+  "role": "Site Engineer",
+  "location": "South Melbourne VIC, regional project sites",
+  "job_url": "https://au.linkedin.com/jobs/view/site-engineer-at-unyte-4422687485",
+  "company_url": "https://symal.com.au/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://au.linkedin.com/jobs/view/site-engineer-at-unyte-4422687485",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Application: Site Engineer, Unyte, Marc Masarate",
+  "email_body": "",
+  "fit": [
+   "Site Engineer supporting civil construction delivery with Project Engineers and Supervisors: daily site activities, coordinating plant, materials and subcontractors, daily diaries and productivity tracking, quantities, ITPs, inspections and pre-starts, which matches Marc's 2019 to 2020 site coordination, inspections, quality checks and site records.",
+   "Asks for a Bachelor's in Civil Engineering (Marc's BSCE, 2019) and 1 to 4 years in civil construction or relevant practical exposure; Marc's site work is under one year, offered as practical exposure, not as the 1 to 4 years.",
+   "Regionally focused Victorian role with periods away from home; Marc is Melton based with licence, transport and stated availability for regional work."
+  ],
+  "gaps": [
+   "Site experience under one year and outside Australia",
+   "No Jobpac or cost tracking system experience",
+   "Programming, lookaheads and forecasting not done on a job"
+  ],
+  "match_score": {
+   "percent": 70,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Site Engineer supporting civil construction delivery with Project Engineers and Supervisors: daily site activities, coordinating plant, materials and subcontractors, daily diaries and productivity tracking, quantities, ITPs, inspections and pre-starts, which matches Marc's 2019 to 2020 site coordination, inspections, quality checks and site records.",
+    "Asks for a Bachelor's in Civil Engineering (Marc's BSCE, 2019) and 1 to 4 years in civil construction or relevant practical exposure; Marc's site work is under one year, offered as practical exposure, not as the 1 to 4 years.",
+    "Regionally focused Victorian role with periods away from home; Marc is Melton based with licence, transport and stated availability for regional work."
+   ],
+   "caution": "Experience band is 1 to 4 years with an or relevant practical exposure alternative; Marc has under a year of site work (Philippines) and no Australian civil construction experience. Jobpac not used. No closing date shown; apply promptly."
+  },
+  "advert": {
+   "source": "linkedin_public",
+   "listed_at": "2026-10-11",
+   "expires_at": "",
+   "verified_at": "2026-10-14T22:25:07.000Z",
+   "apply_instructions": "Apply through the Symal careers portal (SAP SuccessFactors, Unyte brand site https://careers.symal.com.au/UNYTE/) via the LinkedIn Apply link; no email route published.",
+   "screening_questions": []
+  },
+  "screening_answers": {
+   "Working rights in Australia (if asked)": "Temporary visa with full working rights: Subclass 485, full working rights until December 2027. Do not claim citizenship or permanent residency.",
+   "Driver's licence (if asked)": "Yes, Australian driver's licence and own reliable transport.",
+   "White Card / Construction Induction Card (if asked)": "Yes, White Card (Construction Induction).",
+   "Pre-employment checks, medical, references (if asked)": "Yes, willing to undergo pre-employment checks. Referees on request only.",
+   "Aboriginal or Torres Strait Islander (if asked)": "No.",
+   "Friends or relatives at the company; prior employment there (if asked)": "No; No.",
+   "Salary expectation, notice period or start date (if asked)": "[Marc to answer; none is on record.]",
+   "Willing to work in regional locations, including time away from home (if asked)": "Yes, available for site, regional project work and FIFO travel.",
+   "Years of civil construction experience (if asked)": "Under one year: site work in the Philippines April 2019 to February 2020. Do not round up to one year.",
+   "Jobpac (if asked)": "No, not used."
+  },
+  "checklist": [
+   "Check Gmail for any Symal or Unyte receipt before applying (none found 15 Oct 2026 AEDT)",
+   "Open the advert on LinkedIn (or careers.symal.com.au/UNYTE) and press Apply to reach the Symal portal",
+   "Create or sign in to the Symal candidate account with the standing ATS login",
+   "Upload the resume and this cover letter; answer questions from the screening answers here",
+   "Press Applied on this record only after the portal confirms the submission"
+  ],
+  "notes": "Found by Grok AI in tick 20261014T2213Z, victoria_offsite rotation, on the open web: LinkedIn public jobs search (Victoria, past week, junior site engineer), reposted about 11 Oct 2026, also mirrored on Jobstore; LinkedIn alert in Marc's Gmail 12 Oct 2026. Apply through the Symal careers portal (Unyte brand site). Fit 70. No closing date shown. Prepared for portal apply; nothing was sent.\nChecked 15 Oct 2026 AEDT. No hiring manager or applications inbox is published in the advert or on the Symal careers site; route is the Symal SuccessFactors portal. Gmail search (symal, unyte, wamarra, in:anywhere) shows only a LinkedIn job alert for this advert on 12 Oct 2026, no application. Related Wamarra Site Engineer (Aboriginal owned Symal partner) skipped.\nHOW GROK AI FOUND THIS\nFound on linkedin_public (listed 2026-10-11). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Site Engineer role on your website.\n• They may ask about: Site experience under one year and outside Australia → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Jobpac or cost tracking system experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Programming, lookaheads and forecasting not done on a job → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on linkedin_public (listed 2026-10-11). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Site Engineer role on your website.",
+   "They may ask about: Site experience under one year and outside Australia → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Jobpac or cost tracking system experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Programming, lookaheads and forecasting not done on a job → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-14T22:25:07.000Z",
+  "duplicate_key": "unytesymalgroup|au.linkedin.com/jobs/view/site-engineer-at-unyte-4422687485"
+ }
+]

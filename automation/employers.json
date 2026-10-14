@@ -2196,6 +2196,19 @@
     "MultiPro Civil (EOI form) and Robinson Civil Group (recruitment inbox) careers pages"
    ],
    "notes": "browse.py trust permission denied on /root CA bundle; browse.py text/links worked with CHROME_BIN=/usr/bin/google-chrome."
+  },
+  {
+   "run": "20261014T2213Z",
+   "rotation": "victoria_offsite",
+   "checked_at": "2026-10-15T09:45:00+11:00",
+   "boards": [
+    "Melton City Council ApplyNow (3 open jobs, none engineering; jobted 'Design Engineer Roads & Drainage' stale)",
+    "Open web Melbourne west/Geelong graduate civil (Winslow Geelong cadets and WGA North Geelong grad already tracked; KBR Cadet Drafter closed; GHD and DTP grad programs closed; Knox cadet paused; Surf Coast and Macedon Ranges roles closed)",
+    "LinkedIn public jobs guest search, Victoria, past 7 days (graduate civil, civil drafter, junior civil, civil designer, cadet engineer, junior site engineer): Unyte Site Engineer published; Wamarra Site Engineer skipped (Aboriginal owned Symal partner, Aboriginal careers focus); SMEC Rail & Metro grad and AECOM water grad skipped (same-employer records/rejection within 90 days); Symal careers SuccessFactors RSS read",
+    "Chadwick Geotechnics careers to Tonkin + Taylor portal (Field and Laboratory Engineer Ravenhall ref 38009 published; Field and Laboratory Technician Dandenong ref 38008 noted in the record)",
+    "JNR Civil (Epping) careers: no current junior vacancy; Mackenzie Environmental Civil Designer/Drafter needs landfill Civil 3D experience (skipped)"
+   ],
+   "notes": "browse.py trust permission denied on /root CA bundle; browse.py text/links worked with CHROME_BIN=/usr/bin/google-chrome."
   }
  ]
 }
