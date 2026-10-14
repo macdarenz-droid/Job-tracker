@@ -771,6 +771,22 @@
         "Graduate Civil Engineer QLD (Bachelor / final-year Bachelor)"
       ],
       "notes": "20261013T2111Z: Graduate ads require Bachelor of Civil Engineering; Marc Advanced Diploma + BSCE Philippines does not clear Australian Bachelor wording. Victoria Safety Coordinator only. No diploma-fit junior published."
+    },
+    "JDSi Consulting Engineers": {
+      "careers_url": "https://www.jdsi.com.au/careers/",
+      "checked_at": "2026-10-14",
+      "open_junior_roles": [
+        "speculative graduate civil designer / draftsperson via recruitment@jdsi.com.au"
+      ],
+      "contacts": [
+        {
+          "email": "recruitment@jdsi.com.au",
+          "role": "Recruitment",
+          "evidence_url": "https://www.jdsi.com.au/careers/",
+          "confidence": "published_inbox"
+        }
+      ],
+      "notes": "Experienced Civil Designer ads also listed; speculative pack clearly labelled."
     }
   },
   "sweep_log": [
@@ -1955,6 +1971,48 @@
           "name": "Costin Roe Consulting (open web speculative)",
           "url": "https://costinroe.com.au/careers/",
           "note": "mail@costinroe.com.au invites CVs; PREPARED_NOT_SENT speculative"
+        }
+      ]
+    },
+    {
+      "run_id": "20261014T0215Z",
+      "rotation": "councils_government",
+      "checked_at": "2026-10-14T02:26:48Z",
+      "checked": [
+        {
+          "name": "Melton City Council",
+          "url": "https://meltoncity-external.applynow.net.au/",
+          "notes": "No student engineer/civil junior open (board shows coordinator/planner/IT roles)"
+        },
+        {
+          "name": "Brimbank / Ballarat / Moorabool / Bendigo / Wyndham applynow",
+          "url": "various applynow",
+          "notes": "JS/Scout shells via WebFetch returned no usable council civil junior listings"
+        },
+        {
+          "name": "City of Busselton CIVIL DESIGNER",
+          "url": "https://www.councildirect.com.au/job/civil-designer-1791707531-6acb498b8538b",
+          "notes": "Open closes 26 Oct 2026 but already READY_JEREMIE_EMPLOYER_PORTAL on tracker"
+        },
+        {
+          "name": "Millar Merrigan Design Engineering Graduate Program",
+          "url": "https://www.millarmerrigan.com.au/careers/",
+          "notes": "Open to 30 Oct 2026 but already PREPARED_NOT_SENT"
+        },
+        {
+          "name": "Symal Ignite",
+          "url": "https://symal.com.au/programs/ignite/",
+          "notes": "2027 intake closed; requires AU/NZ citizen or PR"
+        },
+        {
+          "name": "JDSi Consulting Engineers",
+          "url": "https://www.jdsi.com.au/careers/",
+          "notes": "Civil Designer Busselton/Perth ads (experienced); published recruitment@ for CV; speculative graduate/junior pack published PREPARED_NOT_SENT"
+        },
+        {
+          "name": "Abergeldie / Ertech / Highway Construction",
+          "url": "careers pages",
+          "notes": "No open junior draftsperson vacancy verified this tick"
         }
       ]
     }

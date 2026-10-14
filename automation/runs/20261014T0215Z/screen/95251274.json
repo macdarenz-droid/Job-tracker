@@ -1,0 +1,38 @@
+{
+  "id": "95251274",
+  "percent": 22,
+  "rationale": [
+    "Civil Estimator for subdivisions and roadworks.",
+    "Marc has coursework bills of quantities but no paid estimating role.",
+    "Sydney location."
+  ],
+  "caution": "Requires 5+ years civil estimating.",
+  "gaps": [
+    "No estimating tenure"
+  ],
+  "mandatory_unmet": [
+    "5+ years experience in Civil Estimating"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "SEEK 95251274",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "JMT Civil",
+  "title": "Civil Estimator",
+  "location": "Gregory Hills, Sydney NSW",
+  "url": "https://www.seek.com.au/job/95251274",
+  "listed_at": "2026-10-14T01:41:50.256Z",
+  "expires_at": "2026-11-13T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a Civil Estimator?",
+    "How many years of estimating experience do you have?",
+    "Have you completed a qualification in civil engineering?",
+    "Do you have experience working on civil infrastructure projects?",
+    "Do you have experience using Microsoft Excel?",
+    "Do you have a current Australian driver's licence?",
+    "How many years' experience do you have in the construction industry?"
+  ]
+}

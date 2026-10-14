@@ -1,0 +1,43 @@
+{
+  "seek_id": "95251750",
+  "company": "Titan Recruitment Pty Ltd",
+  "role": "Civil Drafter / Junior Designer",
+  "location": "Gold Coast QLD",
+  "job_url": "https://www.seek.com.au/job/95251750",
+  "route": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95251750",
+  "subject": "Application: Civil Drafter / Junior Designer, Gold Coast, Marc Masarate",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "notes": "Found via SEEK sweep daterange 3 on tick 20261014T0215Z (councils_government rotation). Agency listing for an unnamed Gold Coast consultancy. Fit 66. No direct employer email published.",
+  "email_body": "",
+  "screening_answers": {
+    "Which of the following statements best describes your right to work in Australia?": "Full working rights on a Subclass 485 visa until December 2027 (not Australian citizen or permanent resident)."
+  },
+  "checklist": [
+    "Open SEEK job 95251750 and sign in with Marc's SEEK account",
+    "Upload the resume and this cover letter",
+    "Answer work rights as Subclass 485 with full working rights to December 2027; do not claim PR or citizenship",
+    "Note this is an agency listing (Titan Recruitment); client employer is unnamed",
+    "Confirm Gold Coast relocation with Marc before treating an interview as accepted"
+  ],
+  "letter": {
+    "recipient_name": "Hiring Manager",
+    "recipient_role": "",
+    "company": "Titan Recruitment Pty Ltd (client consultancy, Gold Coast)",
+    "company_line": "Gold Coast infrastructure drafting and design team working across renewables, transport and resources with AutoCAD or 12d",
+    "subject": "Application: Civil Drafter / Junior Designer, Gold Coast, Marc Masarate",
+    "greeting": "Hello,",
+    "paragraphs": [
+      "I am applying for the Civil Drafter / Junior Designer role listed on SEEK through Titan Recruitment (job 95251750). The focus on AutoCAD civil drawings for infrastructure projects matches the path I am building after finishing my Advanced Diploma.",
+      "In February 2026 I finished an Advanced Diploma of Civil Construction Design at the Albright Institute of Business and Language. I designed and documented road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D to Australian Standards. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019). My CAD production so far is from study rather than commercial drafting.",
+      "From April 2019 to February 2020 I worked on site in the Philippines as a project-in-charge engineer and field engineer, reviewing drawings, doing inspections and keeping site and material records.",
+      "I live in Melton VIC, hold a White Card, an Australian driver's licence and my own transport, and have full working rights to December 2027 on a Subclass 485 visa. I am open to discussing relocation to the Gold Coast for this junior drafting role.",
+      "I have attached my resume and cover letter and would welcome the chance to discuss the role."
+    ],
+    "closing": "Kind regards,"
+  }
+}
