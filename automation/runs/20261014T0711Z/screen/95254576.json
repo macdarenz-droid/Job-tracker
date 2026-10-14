@@ -1,0 +1,30 @@
+{
+  "percent": 15,
+  "rationale": [
+    "Junior Tekla Structural Steel Detailer, Loganholme.",
+    "At least 2 years structural steel detailing in Tekla.",
+    "Marc has not used Tekla."
+  ],
+  "caution": "Below threshold or mandatory requirement not met; not drafted.",
+  "gaps": [],
+  "mandatory_unmet": [
+    "At least 2 years' experience in Structural Steel Detailing (Tekla)"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "SEEK apply",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Australian Framing Solutions Pty Ltd",
+  "title": "Junior Tekla Structural Detailer",
+  "location": "Loganholme, Brisbane QLD",
+  "url": "https://www.seek.com.au/job/95254576",
+  "listed_at": "2026-10-14T02:59:25.453Z",
+  "expires_at": "2026-11-13T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a Structural Detailer?"
+  ],
+  "source": "seek"
+}

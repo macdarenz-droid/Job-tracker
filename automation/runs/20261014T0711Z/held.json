@@ -1,0 +1,45 @@
+[
+ {
+  "id": "4f199ba7-1343-4ece-a0b4-9dc8572f9038",
+  "key": "manual:4f199ba7-1343-4ece-a0b4-9dc8572f9038",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261014T0711Z",
+  "created_at": "2026-10-14T07:25:10.000Z",
+  "updated_at": "2026-10-14T07:25:10.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "SMEC Australia",
+  "role": "Cadet Drafter, Urban Infrastructure",
+  "location": "Parramatta NSW",
+  "job_url": "https://surbanajurong.wd3.myworkdayjobs.com/careersatsmec/job/Parramatta/Cadet-Drafter--Urban-Infrastructure_JR118840",
+  "status": "HELD_ELIGIBILITY_UNCONFIRMED",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMPLOYER_PORTAL",
+  "fit": [
+   "SMEC Cadet Drafter for the Urban Infrastructure team in Parramatta: schematic and production drawings under supervision, construction documentation, Autodesk CAD, which matches Marc's Advanced Diploma drafting in AutoCAD and Civil 3D.",
+   "Entry level with mentoring; full working rights asked, which Marc has on a Subclass 485 visa to December 2027.",
+   "Direct employer (SMEC), Workday posting open since 30 Sep 2026."
+  ],
+  "gaps": [
+   "Not currently enrolled; Advanced Diploma completed February 2026",
+   "CAD experience is academic, not commercial",
+   "Vault data management not on record",
+   "Parramatta NSW: relocation to discuss with Marc"
+  ],
+  "match_score": {
+   "percent": 68,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "SMEC Cadet Drafter for the Urban Infrastructure team in Parramatta: schematic and production drawings under supervision, construction documentation, Autodesk CAD, which matches Marc's Advanced Diploma drafting in AutoCAD and Civil 3D.",
+    "Entry level with mentoring; full working rights asked, which Marc has on a Subclass 485 visa to December 2027.",
+    "Direct employer (SMEC), Workday posting open since 30 Sep 2026."
+   ],
+   "caution": "The advert asks for enrolment in an Advanced Diploma or Associate Degree. Marc completed his Advanced Diploma of Civil Construction Design in February 2026 and is not currently enrolled, so whether SMEC accepts a recent graduate for this cadetship is unconfirmed. Sydney (Parramatta) relocation to discuss."
+  },
+  "notes": "Held by Grok AI: Enrolment in an Advanced Diploma or Associate Degree: Marc finished his Advanced Diploma in Feb 2026 and is not enrolled; confirm with SMEC or Marc whether a recent graduate is eligible for the cadetship before applying",
+  "checked_at": "2026-10-14T07:25:10.000Z",
+  "duplicate_key": "smecaustralia|surbanajurong.wd3.myworkdayjobs.com/careersatsmec/job/parramatta/cadet-drafter--urban-infrastructure_jr118840"
+ }
+]

@@ -1,0 +1,3 @@
+DUP  | https://jobs.smartrecruiters.com/Colliers/744000146568149-graduate-engineer-civil | Colliers Engineering & Design | Graduate Engineer, Civil | same company and role already in the tracker
+DUP  | https://senversa.bamboohr.com/careers/108 | Senversa | Junior Civil Engineer - Melbourne VIC | same job URL already in the tracker
+new  | https://surbanajurong.wd3.myworkdayjobs.com/careersatsmec/job/Parramatta/Cadet-Drafter--Urban-Infrastructure_JR118840 | SMEC Australia | Cadet Drafter, Urban Infrastructure | new

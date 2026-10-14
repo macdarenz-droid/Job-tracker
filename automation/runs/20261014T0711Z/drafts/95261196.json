@@ -1,0 +1,48 @@
+{
+  "seek_id": "95261196",
+  "company": "Regal Innovations Pty Ltd",
+  "role": "Site Engineer",
+  "location": "Sydney NSW",
+  "job_url": "https://www.seek.com.au/job/95261196",
+  "route": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95261196",
+  "subject": "Application: Site Engineer, Sydney, Marc Masarate",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "notes": "Found by Grok AI on the SEEK sweep (daterange 3) in tick 20261014T0711Z, victoria_offsite rotation. Direct employer, Sydney civil and public domain contractor. Fit 62: duties overlap Marc's Philippines site work, but the advert asks for a proven delivery track record and variation and cost tracking, which Marc does not have in Australia. Prepared for SEEK apply only; nothing was sent.",
+  "email_body": "",
+  "screening_answers": {
+    "Which of the following statements best describes your working rights in Australia?": "I have a temporary visa with full working rights (Subclass 485, full working rights until December 2027). Do not claim citizenship or permanent residency.",
+    "Do you have a current White Card?": "Yes",
+    "Are you willing to complete a Police Check?": "Marc to confirm (no police check status is on record; his usual answer to pre-employment checks has been yes).",
+    "Are you willing to complete a pre-employment medical?": "Marc to confirm (his usual answer to pre-employment checks has been yes).",
+    "How many week's notice are you required to provide?": "Marc to answer; no notice period is on record.",
+    "Do you hold a valid Drivers Licence?": "Yes"
+  },
+  "checklist": [
+    "Check Gmail for any earlier Regal Innovations receipt before applying (none found on 14 Oct 2026)",
+    "Open SEEK job 95261196 and sign in with Marc's SEEK account",
+    "Upload the resume and this cover letter",
+    "Answer working rights as Subclass 485 with full working rights to December 2027; Marc answers notice period, police check and medical himself",
+    "Confirm with Marc that he is willing to relocate to Sydney before submitting"
+  ],
+  "letter": {
+    "recipient_name": "Hiring Manager",
+    "recipient_role": "",
+    "company": "Regal Innovations Pty Ltd",
+    "company_line": "Civil works, infrastructure and public domain projects for governments and developers across Australia",
+    "subject": "Application: Site Engineer, Sydney, Marc Masarate",
+    "greeting": "Hello,",
+    "paragraphs": [
+      "I am applying for the Site Engineer role in Sydney that Regal Innovations listed on SEEK (job 95261196). Supporting site and project managers, ordering materials and keeping quality records on civil and public domain works is the kind of site role I want to build in Australia.",
+      "From April 2019 to February 2020 I worked on site in the Philippines. As project-in-charge on a community hall renovation I coordinated 10 to 15 workers each day, reviewed structural and architectural drawings and carried out site inspections, safety checks and quality monitoring. As a field engineer on residential subdivision finishing works I tracked procurement and materials, prepared site, material and progress reports, and worked with engineers, subcontractors and suppliers to sort out site issues.",
+      "In February 2026 I finished an Advanced Diploma of Civil Construction Design, where I designed and documented road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D to Australian Standards. I also hold a Bachelor of Science in Civil Engineering (2019). I have not yet worked on an Australian site or tracked variations and cost control on a job, and I would be learning those under your project managers.",
+      "I am based in Melton VIC, hold a White Card, an Australian driver's licence and my own transport, and have full working rights to December 2027 on a Subclass 485 visa. I am open to discussing relocation to Sydney for this role.",
+      "I've attached my resume and cover letter. I would be glad to talk about the role."
+    ],
+    "closing": "Kind regards,"
+  }
+}

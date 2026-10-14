@@ -1,0 +1,122 @@
+[
+ {
+  "id": "1714f15c-e9fe-4f24-ba3e-6987c86cd923",
+  "key": "manual:1714f15c-e9fe-4f24-ba3e-6987c86cd923",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261014T0711Z",
+  "created_at": "2026-10-14T07:25:01.000Z",
+  "updated_at": "2026-10-14T07:25:01.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "325c9ace-6f6c-4a82-984e-07762c7dddc0",
+    "path": "/api/documents/325c9ace-6f6c-4a82-984e-07762c7dddc0",
+    "filename": "Marc_Masarate_Regal_Innovations_Pty_Ltd_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-14T07:25:02.872Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "6bd4dbbc-3de8-4e30-a3b3-8c9fa0e52286",
+    "path": "/api/documents/6bd4dbbc-3de8-4e30-a3b3-8c9fa0e52286",
+    "filename": "Marc_Masarate_Regal_Innovations_Pty_Ltd_Site_Engineer_Cover_Letter.pdf",
+    "sha256": "5dc200ecb6c0647f3097d8a9e9d92b7f4973c1053e04ed12dcab62639ab5af69",
+    "size_bytes": 47557,
+    "kind": "cover",
+    "uploaded_at": "2026-10-14T07:25:02.034Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Regal Innovations Pty Ltd",
+  "role": "Site Engineer",
+  "location": "Sydney NSW",
+  "job_url": "https://www.seek.com.au/job/95261196",
+  "company_url": "https://www.regalinnovations.com.au/",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95261196",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Application: Site Engineer, Sydney, Marc Masarate",
+  "email_body": "",
+  "fit": [
+   "Site Engineer for Regal Innovations civil and public domain works in Sydney; duties centre on supporting site and project managers, ordering materials, reading drawings and specifications, QA records and safety, which overlap Marc's 2019 to 2020 Philippines site work (coordinating crews, reviewing drawings, inspections, material records, progress reports).",
+   "Advert asks for a civil engineering qualification, driver's licence and White Card, MS Office and AutoCAD: Marc holds a BSCE (2019), Advanced Diploma of Civil Construction Design (Feb 2026), licence, White Card and AutoCAD from study.",
+   "No citizenship or PR gate and no minimum years stated; offer mentions mentoring and training on Tier 1 projects. Salary $85k to $100k suggests some experience is expected."
+  ],
+  "gaps": [
+   "No Australian site engineer experience; site work was in the Philippines 2019 to 2020",
+   "No experience tracking variations or cost control on a job",
+   "Document control of RFIs, ITPs and OMMs not on record",
+   "Sydney role: relocation to discuss with Marc"
+  ],
+  "match_score": {
+   "percent": 62,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Site Engineer for Regal Innovations civil and public domain works in Sydney; duties centre on supporting site and project managers, ordering materials, reading drawings and specifications, QA records and safety, which overlap Marc's 2019 to 2020 Philippines site work (coordinating crews, reviewing drawings, inspections, material records, progress reports).",
+    "Advert asks for a civil engineering qualification, driver's licence and White Card, MS Office and AutoCAD: Marc holds a BSCE (2019), Advanced Diploma of Civil Construction Design (Feb 2026), licence, White Card and AutoCAD from study.",
+    "No citizenship or PR gate and no minimum years stated; offer mentions mentoring and training on Tier 1 projects. Salary $85k to $100k suggests some experience is expected."
+   ],
+   "caution": "Advert asks for a proven track record delivering civil infrastructure, landscaping, earthworks or public domain projects and experience tracking variations and cost control; Marc's site experience is about a year in the Philippines (building renovation and subdivision finishing works) and he has no Australian site experience. Sydney relocation must be confirmed by Marc."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-14T05:52:33.706Z",
+   "expires_at": "2026-11-13T05:52:32.000Z",
+   "verified_at": "2026-10-14T07:13:38.000Z",
+   "apply_instructions": "Apply via SEEK job 95261196. Questions only: careers@regalinnovations.com.au (published for questions about applications, not as an application inbox).",
+   "screening_questions": [
+    "Which of the following statements best describes your working rights in Australia?",
+    "Do you have a current White Card?",
+    "Are you willing to complete a Police Check?",
+    "Are you willing to complete a pre-employment medical?",
+    "How many week's notice are you required to provide?",
+    "Do you hold a valid Drivers Licence?"
+   ]
+  },
+  "screening_answers": {
+   "Which of the following statements best describes your working rights in Australia?": "I have a temporary visa with full working rights (Subclass 485, full working rights until December 2027). Do not claim citizenship or permanent residency.",
+   "Do you have a current White Card?": "Yes",
+   "Are you willing to complete a Police Check?": "Marc to confirm (no police check status is on record; his usual answer to pre-employment checks has been yes).",
+   "Are you willing to complete a pre-employment medical?": "Marc to confirm (his usual answer to pre-employment checks has been yes).",
+   "How many week's notice are you required to provide?": "Marc to answer; no notice period is on record.",
+   "Do you hold a valid Drivers Licence?": "Yes"
+  },
+  "checklist": [
+   "Check Gmail for any earlier Regal Innovations receipt before applying (none found on 14 Oct 2026)",
+   "Open SEEK job 95261196 and sign in with Marc's SEEK account",
+   "Upload the resume and this cover letter",
+   "Answer working rights as Subclass 485 with full working rights to December 2027; Marc answers notice period, police check and medical himself",
+   "Confirm with Marc that he is willing to relocate to Sydney before submitting"
+  ],
+  "notes": "Found by Grok AI on the SEEK sweep (daterange 3) in tick 20261014T0711Z, victoria_offsite rotation. Direct employer, Sydney civil and public domain contractor. Fit 62: duties overlap Marc's Philippines site work, but the advert asks for a proven delivery track record and variation and cost tracking, which Marc does not have in Australia. Prepared for SEEK apply only; nothing was sent.\nChecked 14 Oct 2026. The advert publishes careers@regalinnovations.com.au only for questions about an application, not as an application inbox, so no email pack was prepared. Route is SEEK apply.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-14, closes 2026-11-13). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Site Engineer role on SEEK.\n• They may ask about: No Australian site engineer experience; site work was in the Philippines 2019 to 2020 → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No experience tracking variations or cost control on a job → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Document control of RFIs, ITPs and OMMs not on record → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-14, closes 2026-11-13). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Site Engineer role on SEEK.",
+   "They may ask about: No Australian site engineer experience; site work was in the Philippines 2019 to 2020 → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No experience tracking variations or cost control on a job → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Document control of RFIs, ITPs and OMMs not on record → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-14T07:25:01.000Z",
+  "seek_id": "95261196",
+  "duplicate_key": "regalinnovationsptyltd|seek:95261196"
+ }
+]
