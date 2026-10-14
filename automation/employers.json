@@ -805,6 +805,21 @@
     "Access Engineer (closes 28 Oct 2026)"
    ],
    "notes": "20261014T1215Z: Access Engineer, Melbourne, fixed term to June 2029, rail experience not essential; link out to V/Line portal; READY_JEREMIE_EMPLOYER_PORTAL this tick."
+  },
+  "Chris Smith & Associates": {
+   "company_url": "https://www.csmith.com.au/",
+   "careers_url": "https://www.csmith.com.au/careers",
+   "checked_at": "2026-10-15",
+   "open_junior_roles": [],
+   "notes": "20261014T1712Z: Land Surveyor and Licensed Surveyor listed; careers page invites resumes to admin@csmith.com.au. Speculative graduate civil designer enquiry PREPARED_NOT_SENT."
+  },
+  "Moonee Valley City Council": {
+   "careers_url": "https://fa-euyo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4/jobs",
+   "checked_at": "2026-10-15",
+   "open_junior_roles": [
+    "Infrastructure Inspection Officer 11304 (closes 23 Oct 2026)"
+   ],
+   "notes": "Oracle board renders with browse.py; PD links on mvccdocuments port 7979 time out from this host."
   }
  },
  "sweep_log": [
@@ -2086,6 +2101,19 @@
     "SMEC Cadet Drafter Parramatta HELD_ELIGIBILITY_UNCONFIRMED (fit 68)"
    ],
    "send": "none: no PREPARED_NOT_SENT record this tick"
+  },
+  {
+   "run": "20261014T1712Z",
+   "rotation": "councils_government",
+   "checked_at": "2026-10-15T04:25:00+11:00",
+   "boards": [
+    "Moonee Valley Oracle careers board (Infrastructure Inspection Officer 11304, published)",
+    "Careers at Council / Council Careers searches (Mildura, Gunnedah, Geraldton, Dubbo, Blacktown all tracked)",
+    "SMEC Traralgon Graduate Engineer Water JR118762 (within 2 years of degree; closes 16 Oct)",
+    "Whitsunday Technical Officer Design (closed May 2026)",
+    "Chris Smith & Associates careers page (surveyor roles; resumes to admin@csmith.com.au; speculative published)"
+   ],
+   "outcome": "2 new: Moonee Valley READY_JEREMIE_EMPLOYER_PORTAL; CS&A PREPARED_NOT_SENT speculative. City of Adelaide Design Drafter held skipped (employer already held). No send (canonical-journal lease inaccessible)."
   }
  ],
  "history": [

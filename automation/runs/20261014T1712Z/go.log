@@ -1,0 +1,28 @@
+{
+ "built": [
+  [
+   "a0019f14-9436-4fde-818a-da89a99f28b3",
+   "Chris Smith & Associates",
+   "Speculative enquiry: graduate civil engineer or civil designer (Kilmore or Shepparton VIC)",
+   "PREPARED_NOT_SENT"
+  ],
+  [
+   "9b88dea3-e73d-406a-8a4d-43cd48948a5e",
+   "Moonee Valley City Council",
+   "Infrastructure Inspection Officer",
+   "READY_JEREMIE_EMPLOYER_PORTAL"
+  ]
+ ],
+ "rejected": [],
+ "tracker": {
+  "version": 208,
+  "updated_at": "2026-10-14T17:24:14.242Z",
+  "result": {
+   "added": [
+    "a0019f14-9436-4fde-818a-da89a99f28b3",
+    "9b88dea3-e73d-406a-8a4d-43cd48948a5e"
+   ],
+   "skipped": []
+  }
+ }
+}

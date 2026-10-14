@@ -1,0 +1,49 @@
+{
+  "seek_id": "",
+  "company": "Moonee Valley City Council",
+  "role": "Infrastructure Inspection Officer",
+  "location": "Aberfeldie VIC (188 Holmes Rd), field based across Moonee Valley",
+  "job_url": "https://fa-euyo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4/job/11304",
+  "route": "EMPLOYER_PORTAL",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_evidence_url": "https://fa-euyo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4/job/11304",
+  "subject": "Application: Infrastructure Inspection Officer (11304), Marc Masarate",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "notes": "Found by Grok AI in tick 20261014T1712Z, councils and government rotation, on the open web (Public Roles listing) and verified on Moonee Valley's own careers board, requisition 11304, posted 8 Oct 2026, closes 11:00pm Friday 23 Oct 2026. Fit 76. Prepared for portal apply with a Key Selection Criteria response that Marc must write or approve; nothing was sent.",
+  "email_body": "",
+  "screening_answers": {
+    "Working rights in Australia (if asked)": "Temporary visa with full working rights: Subclass 485, full working rights until December 2027. Do not claim citizenship or permanent residency.",
+    "Driver's licence (if asked)": "Yes, Australian driver's licence and own reliable transport. [Marc to confirm it is a Victorian licence.]",
+    "White Card (if asked)": "Yes, White Card (Construction Induction).",
+    "Criminal history check, pre-employment medical, references (if asked)": "Yes, willing to undergo pre-employment checks.",
+    "Aboriginal or Torres Strait Islander (if asked)": "No.",
+    "Key Selection Criteria response": "Required. Draft from the cover letter facts only: site inspections, safety and quality checks and drawing reviews (JustBuilt 2019); daily quality checks, site reports and material records (Grand Travaux 2019 to 2020); road, pavement and stormwater design to Australian Standards (Advanced Diploma 2026); clear case notes and plain explanations (Concentrix 2020 to 2022). State plainly that council asset systems and the Road Management Plan are new. [Marc to review before submitting.]",
+    "Salary, notice period or start date (if asked)": "[Marc to answer; none is on record.]"
+  },
+  "checklist": [
+    "Check Gmail for any Moonee Valley receipt before applying (none found on 15 Oct 2026 AEDT)",
+    "Optional: call Adam Meilak on 03 9243 1049 with one question about the inspection systems used",
+    "Open requisition 11304 on the Moonee Valley careers board and Apply before 11:00pm Friday 23 October 2026",
+    "Upload the resume, this cover letter and the Key Selection Criteria response written in line with the Council Application Guide",
+    "Press Applied on this record only after the portal confirms the submission"
+  ],
+  "letter": {
+    "recipient_name": "Adam Meilak",
+    "recipient_role": "Coordinator Infrastructure and Public Realm",
+    "company": "Moonee Valley City Council",
+    "company_line": "Council inspection team that checks roads, footpaths, shared paths, drainage and bridges against the Road Management Plan",
+    "subject": "Application: Infrastructure Inspection Officer (11304), Marc Masarate",
+    "greeting": "Dear Adam,",
+    "paragraphs": [
+      "I am applying for the Infrastructure Inspection Officer role (reference 11304) advertised on the Moonee Valley careers site. The mix of field inspections, defect records and checking reinstatement works against drawings and permits is close to the site work I have done, and I would like to do it for a council close to home.",
+      "From April 2019 to February 2020 I worked on site in the Philippines. As project-in-charge on a community hall renovation I carried out site inspections, safety checks and quality monitoring, reviewed structural and architectural drawings against project requirements, and escalated issues that needed corrective action. As a field engineer on residential subdivision finishing works I helped with site inspections and quality checks and prepared site reports, material records and progress reports.",
+      "In February 2026 I finished an Advanced Diploma of Civil Construction Design, where I designed and documented road geometry, pavement and stormwater drainage to Australian Standards and lodged Before You Dig Australia enquiries. I also hold a Bachelor of Science in Civil Engineering (2019). I have not yet used a council asset management system or worked under a Road Management Plan, and I would expect to learn your inspection standards and systems first.",
+      "I live in Melton, hold a White Card, an Australian driver's licence and my own transport, and have full working rights to December 2027 on a Subclass 485 visa, which covers the 12 month term.",
+      "I've attached my resume and my response to the selection criteria is included with this application. I would be glad to talk about the role."
+    ],
+    "closing": "Kind regards,"
+  }
+}

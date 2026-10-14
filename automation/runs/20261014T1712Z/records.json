@@ -1,0 +1,221 @@
+[
+ {
+  "id": "a0019f14-9436-4fde-818a-da89a99f28b3",
+  "key": "manual:a0019f14-9436-4fde-818a-da89a99f28b3",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261014T1712Z",
+  "created_at": "2026-10-14T17:24:04.000Z",
+  "updated_at": "2026-10-14T17:24:04.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "539bb088-5846-4072-ae5c-36239ef971de",
+    "path": "/api/documents/539bb088-5846-4072-ae5c-36239ef971de",
+    "filename": "Marc_Masarate_Chris_Smith_Associates_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-14T17:24:06.049Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "1ac14fd8-30da-4ace-8c8a-a4c599dfeb49",
+    "path": "/api/documents/1ac14fd8-30da-4ace-8c8a-a4c599dfeb49",
+    "filename": "Marc_Masarate_Chris_Smith_Associates_Speculative_enquiry_graduate_civil_engin_Cover_Letter.pdf",
+    "sha256": "aae6b337381f710f682dd751a9806089c2aca8f0aa7cc443d4aaffc3486101ae",
+    "size_bytes": 48565,
+    "kind": "cover",
+    "uploaded_at": "2026-10-14T17:24:05.202Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Chris Smith & Associates",
+  "role": "Speculative enquiry: graduate civil engineer or civil designer (Kilmore or Shepparton VIC)",
+  "location": "Shepparton, Kilmore, Echuca or Wangaratta VIC",
+  "job_url": "https://www.csmith.com.au/careers",
+  "company_url": "https://www.csmith.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Careers (admin inbox)",
+  "recipient_email": "admin@csmith.com.au",
+  "contact_email": "admin@csmith.com.au",
+  "contact_evidence_url": "https://www.csmith.com.au/careers",
+  "contact_verified_at": "2026-10-14T17:24:04.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Expression of interest: graduate civil designer, Marc Masarate",
+  "email_body": "Hello,\n\nThis is a speculative enquiry rather than a reply to an advert. Your careers page asks for resumes at admin@csmith.com.au, so I am introducing myself for a graduate civil engineer or civil designer role, ideally from your Kilmore office.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, including residential subdivision finishing works. I am based in Melton VIC, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am available for site and regional work and open to discussing relocation within regional Victoria.\n\nSubdivision roads and drainage like your Lauriston Estate work in Shepparton North is the kind of design I want to grow in. My design work so far is from study, so I would start at a junior level.\n\nI've attached my resume and cover letter. Could this reach Tom Kerrins or whoever looks after engineering hires, in case a junior role comes up?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Speculative enquiry to a regional Victorian consultancy whose published civil work is subdivision design and construction management (roads, drainage, services) and as-constructed documentation, matching Marc's Advanced Diploma road, earthworks, pavement and stormwater design in AutoCAD and Civil 3D.",
+   "Lauriston Estate (182-lot subdivision, Shepparton North) includes ongoing site supervision and quality control, which overlaps Marc's subdivision finishing site work, inspections and site reports in the Philippines 2019 to 2020.",
+   "Careers page invites resumes at admin@csmith.com.au; the Kilmore office is within reach of Melton and the other offices are regional Victoria, so relocation is discussable under facts.json."
+  ],
+  "gaps": [
+   "No paid civil design or drafting experience yet; design work is Advanced Diploma coursework",
+   "No Australian site experience; site work was in the Philippines 2019 to 2020",
+   "Water, sewer and pipeline design not on record",
+   "Relocation to Shepparton, Echuca or Wangaratta to confirm with Marc; Kilmore is commutable"
+  ],
+  "match_score": {
+   "percent": 68,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Speculative enquiry to a regional Victorian consultancy whose published civil work is subdivision design and construction management (roads, drainage, services) and as-constructed documentation, matching Marc's Advanced Diploma road, earthworks, pavement and stormwater design in AutoCAD and Civil 3D.",
+    "Lauriston Estate (182-lot subdivision, Shepparton North) includes ongoing site supervision and quality control, which overlaps Marc's subdivision finishing site work, inspections and site reports in the Philippines 2019 to 2020.",
+    "Careers page invites resumes at admin@csmith.com.au; the Kilmore office is within reach of Melton and the other offices are regional Victoria, so relocation is discussable under facts.json."
+   ],
+   "caution": "No advertised civil vacancy: this is a clearly labelled speculative enquiry and the current listings are for surveyors. Marc's design work is from study, not a paid job, and his site work is under one year in the Philippines. Water, sewer and pipeline design would be new. A move to Shepparton, Echuca or Wangaratta must be confirmed by Marc."
+  },
+  "advert": {
+   "source": "employer_careers",
+   "listed_at": "2026-10-15",
+   "expires_at": "",
+   "verified_at": "2026-10-14T17:24:04.000Z",
+   "apply_instructions": "Email resume and cover letter to admin@csmith.com.au as invited on https://www.csmith.com.au/careers. Label clearly as a speculative enquiry.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Confirm this stays a labelled speculative enquiry, not an application for an advertised vacancy",
+   "Confirm with Marc that Kilmore suits and whether he would relocate to Shepparton, Echuca or Wangaratta",
+   "Attach the resume and cover letter PDFs",
+   "Send only to admin@csmith.com.au and only if the lease, Gmail duplicate and PDF checks pass",
+   "Record the Gmail message id as SENT; follow up once after 8 days if no reply"
+  ],
+  "notes": "Open-web find on tick 20261014T1712Z (councils and government rotation) after the SEEK pool (3 and 7 day sweeps) and council boards yielded only one new advert. CS&A's careers page invites resumes at admin@csmith.com.au; its current listings are surveyor roles, so this pack is a labelled speculative enquiry, not an application for an advertised vacancy.\nChecked 15 Oct 2026 AEDT. The careers page asks for resumes at admin@csmith.com.au, so that inbox explicitly accepts applications. No personal addresses are published for Tom Kerrins or the directors, so none was used or guessed. Gmail search (csmith.com.au, Chris Smith, includes trash and spam) found no prior contact; tracker has no Chris Smith & Associates record.\nHOW GROK AI FOUND THIS\nFound on employer_careers (listed 2026-10-15). Contact: the application inbox admin@csmith.com.au published by the employer (https://www.csmith.com.au/careers); no personal address was used. Named people seen on employer pages: Tom Kerrins (Manager Engineering); Scott Golightly (Managing Director). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Speculative enquiry: graduate civil engineer or civil designer (Kilmore or Shepparton VIC) role on SEEK.\n• They may ask about: No paid civil design or drafting experience yet; design work is Advanced Diploma coursework → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian site experience; site work was in the Philippines 2019 to 2020 → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Water, sewer and pipeline design not on record → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_careers (listed 2026-10-15). Contact: the application inbox admin@csmith.com.au published by the employer (https://www.csmith.com.au/careers); no personal address was used. Named people seen on employer pages: Tom Kerrins (Manager Engineering); Scott Golightly (Managing Director). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Speculative enquiry: graduate civil engineer or civil designer (Kilmore or Shepparton VIC) role on SEEK.",
+   "They may ask about: No paid civil design or drafting experience yet; design work is Advanced Diploma coursework → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian site experience; site work was in the Philippines 2019 to 2020 → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Water, sewer and pipeline design not on record → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-14T17:24:04.000Z",
+  "duplicate_key": "chrissmithassociates|csmith.com.au/careers"
+ },
+ {
+  "id": "9b88dea3-e73d-406a-8a4d-43cd48948a5e",
+  "key": "manual:9b88dea3-e73d-406a-8a4d-43cd48948a5e",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261014T1712Z",
+  "created_at": "2026-10-14T17:24:07.000Z",
+  "updated_at": "2026-10-14T17:24:07.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "6b17466a-1464-48e0-924c-e1784a09ca4a",
+    "path": "/api/documents/6b17466a-1464-48e0-924c-e1784a09ca4a",
+    "filename": "Marc_Masarate_Moonee_Valley_City_Council_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-14T17:24:10.954Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "e6d82c67-6c08-40d1-a54b-c2307a7a3593",
+    "path": "/api/documents/e6d82c67-6c08-40d1-a54b-c2307a7a3593",
+    "filename": "Marc_Masarate_Moonee_Valley_City_Council_Infrastructure_Inspection_Officer_Cover_Letter.pdf",
+    "sha256": "7d840865e293488739a111af1513fa6df33596130944c2bf9ab63b7ef59d776d",
+    "size_bytes": 49395,
+    "kind": "cover",
+    "uploaded_at": "2026-10-14T17:24:08.700Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Moonee Valley City Council",
+  "role": "Infrastructure Inspection Officer",
+  "location": "Aberfeldie VIC (188 Holmes Rd), field based across Moonee Valley",
+  "job_url": "https://fa-euyo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4/job/11304",
+  "company_url": "https://mvcc.vic.gov.au/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://fa-euyo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4/job/11304",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Application: Infrastructure Inspection Officer (11304), Marc Masarate",
+  "email_body": "",
+  "fit": [
+   "Field inspection role checking roads, footpaths, drainage and civil reinstatement works against drawings and standards, recording defects and keeping inspection records, which matches Marc's 2019 to 2020 site inspections, safety and quality checks, drawing reviews and site reports.",
+   "Entry is a qualification in civil engineering or civil construction and/or experience; Marc holds a BSCE (2019) and an Advanced Diploma of Civil Construction Design (February 2026) with road, pavement and stormwater design, and a White Card.",
+   "Aberfeldie depot is in Melbourne's inner north west, a realistic commute from Melton; no citizenship, PR or minimum years gate, and the 12 month term ends before his work rights do."
+  ],
+  "gaps": [
+   "No Australian council or road inspection experience; site inspections were in the Philippines 2019 to 2020",
+   "No experience with asset management systems or mobile inspection technology on record",
+   "Road Management Plan and risk based inspection practice would be new",
+   "Advert asks for a current Victorian Driver Licence; facts record an Australian licence, Marc to confirm it is Victorian",
+   "Part time, three days a week, 12 month fixed term"
+  ],
+  "match_score": {
+   "percent": 76,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Field inspection role checking roads, footpaths, drainage and civil reinstatement works against drawings and standards, recording defects and keeping inspection records, which matches Marc's 2019 to 2020 site inspections, safety and quality checks, drawing reviews and site reports.",
+    "Entry is a qualification in civil engineering or civil construction and/or experience; Marc holds a BSCE (2019) and an Advanced Diploma of Civil Construction Design (February 2026) with road, pavement and stormwater design, and a White Card.",
+    "Aberfeldie depot is in Melbourne's inner north west, a realistic commute from Melton; no citizenship, PR or minimum years gate, and the 12 month term ends before his work rights do."
+   ],
+   "caution": "Band 5 officer role, not a graduate post: other applicants may have Australian council inspection experience. It is part time, three days a week. Marc has not used a council asset management system or mobile inspection app, and the Road Management Plan would be new. A written Key Selection Criteria response is required or the application may not be considered."
+  },
+  "advert": {
+   "source": "employer_careers",
+   "listed_at": "2026-10-08",
+   "expires_at": "2026-10-23T12:00:00Z",
+   "verified_at": "2026-10-14T17:24:07.000Z",
+   "apply_instructions": "Apply on the Moonee Valley careers board, requisition 11304, before 11:00pm Friday 23 October 2026, with resume, cover letter and Key Selection Criteria response. AMeilak@mvcc.vic.gov.au and 03 9243 1049 are published for enquiries only.",
+   "screening_questions": []
+  },
+  "screening_answers": {
+   "Working rights in Australia (if asked)": "Temporary visa with full working rights: Subclass 485, full working rights until December 2027. Do not claim citizenship or permanent residency.",
+   "Driver's licence (if asked)": "Yes, Australian driver's licence and own reliable transport. [Marc to confirm it is a Victorian licence.]",
+   "White Card (if asked)": "Yes, White Card (Construction Induction).",
+   "Criminal history check, pre-employment medical, references (if asked)": "Yes, willing to undergo pre-employment checks.",
+   "Aboriginal or Torres Strait Islander (if asked)": "No.",
+   "Key Selection Criteria response": "Required. Draft from the cover letter facts only: site inspections, safety and quality checks and drawing reviews (JustBuilt 2019); daily quality checks, site reports and material records (Grand Travaux 2019 to 2020); road, pavement and stormwater design to Australian Standards (Advanced Diploma 2026); clear case notes and plain explanations (Concentrix 2020 to 2022). State plainly that council asset systems and the Road Management Plan are new. [Marc to review before submitting.]",
+   "Salary, notice period or start date (if asked)": "[Marc to answer; none is on record.]"
+  },
+  "checklist": [
+   "Check Gmail for any Moonee Valley receipt before applying (none found on 15 Oct 2026 AEDT)",
+   "Optional: call Adam Meilak on 03 9243 1049 with one question about the inspection systems used",
+   "Open requisition 11304 on the Moonee Valley careers board and Apply before 11:00pm Friday 23 October 2026",
+   "Upload the resume, this cover letter and the Key Selection Criteria response written in line with the Council Application Guide",
+   "Press Applied on this record only after the portal confirms the submission"
+  ],
+  "notes": "Found by Grok AI in tick 20261014T1712Z, councils and government rotation, on the open web (Public Roles listing) and verified on Moonee Valley's own careers board, requisition 11304, posted 8 Oct 2026, closes 11:00pm Friday 23 Oct 2026. Fit 76. Prepared for portal apply with a Key Selection Criteria response that Marc must write or approve; nothing was sent.\nChecked 15 Oct 2026 AEDT on the Council's own Oracle careers board. Adam Meilak's address and phone (03 9243 1049) are published for role enquiries only, not as an application route, so no email pack was prepared; Marc may call him before applying. Gmail search (mvcc.vic.gov.au, Moonee Valley, includes trash and spam) found no prior application; tracker has no Moonee Valley record.\nHOW GROK AI FOUND THIS\nFound on employer_careers (listed 2026-10-08, closes 2026-10-23). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Adam Meilak (Coordinator Infrastructure and Public Realm). Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Infrastructure Inspection Officer role on your website.\n• They may ask about: No Australian council or road inspection experience; site inspections were in the Philippines 2019 to 2020 → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No experience with asset management systems or mobile inspection technology on record → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Road Management Plan and risk based inspection practice would be new → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_careers (listed 2026-10-08, closes 2026-10-23). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Adam Meilak (Coordinator Infrastructure and Public Realm). Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Infrastructure Inspection Officer role on your website.",
+   "They may ask about: No Australian council or road inspection experience; site inspections were in the Philippines 2019 to 2020 → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No experience with asset management systems or mobile inspection technology on record → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Road Management Plan and risk based inspection practice would be new → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-14T17:24:07.000Z",
+  "duplicate_key": "mooneevalleycitycouncil|fa-euyo-saasfaprod1.fa.ocs.oraclecloud.com/hcmui/candidateexperience/en/sites/cx_4/job/11304"
+ }
+]

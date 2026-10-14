@@ -1,0 +1,41 @@
+{
+  "seek_id": "",
+  "company": "Chris Smith & Associates",
+  "role": "Speculative enquiry: graduate civil engineer or civil designer (Kilmore or Shepparton VIC)",
+  "location": "Shepparton, Kilmore, Echuca or Wangaratta VIC",
+  "job_url": "https://www.csmith.com.au/careers",
+  "route": "EMAIL",
+  "recipient_name": "",
+  "recipient_role": "Careers (admin inbox)",
+  "recipient_email": "admin@csmith.com.au",
+  "contact_evidence_url": "https://www.csmith.com.au/careers",
+  "subject": "Expression of interest: graduate civil designer, Marc Masarate",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "notes": "Open-web find on tick 20261014T1712Z (councils and government rotation) after the SEEK pool (3 and 7 day sweeps) and council boards yielded only one new advert. CS&A's careers page invites resumes at admin@csmith.com.au; its current listings are surveyor roles, so this pack is a labelled speculative enquiry, not an application for an advertised vacancy.",
+  "email_body": "Hello,\n\nThis is a speculative enquiry rather than a reply to an advert. Your careers page asks for resumes at admin@csmith.com.au, so I am introducing myself for a graduate civil engineer or civil designer role, ideally from your Kilmore office.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, including residential subdivision finishing works. I am based in Melton VIC, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am available for site and regional work and open to discussing relocation within regional Victoria.\n\nSubdivision roads and drainage like your Lauriston Estate work in Shepparton North is the kind of design I want to grow in. My design work so far is from study, so I would start at a junior level.\n\nI've attached my resume and cover letter. Could this reach Tom Kerrins or whoever looks after engineering hires, in case a junior role comes up?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "screening_answers": {},
+  "checklist": [
+    "Confirm this stays a labelled speculative enquiry, not an application for an advertised vacancy",
+    "Confirm with Marc that Kilmore suits and whether he would relocate to Shepparton, Echuca or Wangaratta",
+    "Attach the resume and cover letter PDFs",
+    "Send only to admin@csmith.com.au and only if the lease, Gmail duplicate and PDF checks pass",
+    "Record the Gmail message id as SENT; follow up once after 8 days if no reply"
+  ],
+  "letter": {
+    "recipient_name": "Tom Kerrins",
+    "recipient_role": "Manager Engineering",
+    "company": "Chris Smith & Associates",
+    "company_line": "Regional Victorian consultancy designing and managing subdivision roads, drainage and services",
+    "subject": "Expression of interest: graduate civil designer, Marc Masarate",
+    "greeting": "Dear Tom,",
+    "paragraphs": [
+      "I would like to ask whether Chris Smith & Associates has room for a graduate civil engineer or civil designer. This is a speculative enquiry rather than a reply to an advert. I am sending it to admin@csmith.com.au because your careers page asks for resumes there.",
+      "In February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute. I designed and documented road geometry, earthworks, pavement and stormwater drainage, prepared and reviewed drawings in AutoCAD and Civil 3D to Australian Standards, and lodged Before You Dig Australia enquiries. I also hold a Bachelor of Science in Civil Engineering (2019). Subdivision work like Lauriston Estate, where your team designed the roads and drainage and stayed on for site supervision, is the work I want to learn.",
+      "From April 2019 to February 2020 I worked on site in the Philippines. As project-in-charge I reviewed structural and architectural drawings and carried out inspections, safety checks and quality monitoring. As a field engineer on residential subdivision finishing works I helped with site inspections and quality checks and prepared site reports, material records and progress reports. My design work so far is from study, not a paid role, and I have not designed water or sewer works, so I would start at a junior level.",
+      "I live in Melton, so Kilmore is within reach, and I am open to discussing relocation for Shepparton or your other regional offices. I hold a White Card, an Australian driver's licence and my own transport, and have full working rights to December 2027 on a Subclass 485 visa.",
+      "I've attached my resume and would be glad to talk if a junior role comes up."
+    ],
+    "closing": "Kind regards,"
+  }
+}

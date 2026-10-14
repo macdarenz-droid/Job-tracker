@@ -1,0 +1,26 @@
+{
+  "company_url": "https://www.csmith.com.au/",
+  "careers_url": "https://www.csmith.com.au/careers",
+  "recipient_name": "",
+  "recipient_role": "Careers (admin inbox)",
+  "recipient_email": "admin@csmith.com.au",
+  "contact_evidence_url": "https://www.csmith.com.au/careers",
+  "evidence_quote": "Apply now by sending your resume to admin@csmith.com.au. For more information, contact us on 03 5820 7700.",
+  "contact_confidence": "published_inbox",
+  "named_people": [
+    {
+      "name": "Tom Kerrins",
+      "role": "Manager Engineering",
+      "email": "",
+      "evidence_url": "https://www.csmith.com.au/about-us"
+    },
+    {
+      "name": "Scott Golightly",
+      "role": "Managing Director",
+      "email": "",
+      "evidence_url": "https://www.csmith.com.au/about-us"
+    }
+  ],
+  "employer_line": "Regional Victorian consultancy of about 25 staff whose civil team designs and manages subdivision roads, drainage and services, including the 182-lot Lauriston Estate in Shepparton North.",
+  "notes": "Checked 15 Oct 2026 AEDT. The careers page asks for resumes at admin@csmith.com.au, so that inbox explicitly accepts applications. No personal addresses are published for Tom Kerrins or the directors, so none was used or guessed. Gmail search (csmith.com.au, Chris Smith, includes trash and spam) found no prior contact; tracker has no Chris Smith & Associates record."
+}
