@@ -1,0 +1,47 @@
+{
+  "seek_id": "94783397",
+  "company": "Infrastructure Engineering Group",
+  "role": "Utilities Engineer – Civil Infrastructure",
+  "location": "North Sydney, Sydney NSW",
+  "job_url": "https://www.seek.com.au/job/94783397",
+  "route": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_evidence_url": "https://www.iegaustralia.com/",
+  "subject": "Application: Utilities Engineer, Civil Infrastructure, Marc Masarate",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "open",
+  "notes": "SEEK backlog re-check on tick 20261015T1813Z (victoria_offsite rotation) after SEEK d3/60, d7/60, d14/80 and an alternate keyword sweep found no never-screened candidate at 60 or above. First screened 28 Sep 2026 at 75 but not taken because of the four-per-run cap; full advert re-read 16 Oct 2026 and rescored 70. Apply through SEEK; no application inbox published.",
+  "email_body": "Hello,\n\nI saw your Utilities Engineer, Civil Infrastructure advert on SEEK and would like to be considered.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. Part of that work was lodging Before You Dig Australia enquiries and designing around existing services and site constraints. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, reviewing drawings, carrying out inspections and coordinating with engineers, subcontractors and suppliers. I also hold a Bachelor of Science in Civil Engineering. I am based in Melton VIC, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa.\n\nYour advert mentions reviewing BYDA information and civil designs for utility conflicts, which builds on the service checks I did in my course. I have not worked as a utilities engineer yet, so I would start at entry level, and I am open to discussing relocation to Sydney.\n\nI've attached my resume and cover letter. Could we arrange a short call about the role?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "screening_answers": {
+    "Which of the following statements best describes your right to work in Australia?": "I hold a temporary visa with full working rights (Subclass 485, valid until December 2027).",
+    "How many years' experience do you have as a Utilities Engineer?": "None yet (0 years). My utility knowledge is from Advanced Diploma coursework, including lodging Before You Dig Australia enquiries and designing around existing services.",
+    "How much notice are you required to give your current employer?": "Marc to answer (no notice period is on record).",
+    "Do you have a current Australian driver's licence?": "Yes",
+    "Do you have Engineering Drawing Interpretation experience?": "Yes. On site in the Philippines (2019) I reviewed structural and architectural drawings and checked work against them, and in my Advanced Diploma I prepared and reviewed technical drawings in AutoCAD and Civil 3D."
+  },
+  "checklist": [
+    "Open SEEK job 94783397 and confirm it is still open (closes 22 Oct 2026 11:59pm AEDT)",
+    "Upload resume and the cover letter PDF from this record",
+    "Answer the five questions using screening_answers; Marc fills in notice period himself",
+    "Right to work: choose the temporary visa with full work rights option, never citizen or PR",
+    "Press Applied on the tracker with the date once the SEEK receipt arrives"
+  ],
+  "letter": {
+    "recipient_name": "Hiring Team",
+    "recipient_role": "",
+    "company": "Infrastructure Engineering Group",
+    "company_line": "IEG is a specialist engineering design and advisory consultancy working with Tier 1 and Tier 2 contractors, government agencies and utility authorities on major road, rail, energy and urban infrastructure projects.",
+    "subject": "Application: Utilities Engineer, Civil Infrastructure",
+    "greeting": "Dear Hiring Team,",
+    "paragraphs": [
+      "I saw your advert on SEEK for a Utilities Engineer to support the identification, investigation and coordination of utilities affected by major civil works, and I would like to be considered.",
+      "In February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute, documenting road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD. I lodged Before You Dig Australia enquiries, followed its procedures and designed around existing services and site constraints. My coursework also covered risk registers, cost estimates and bills of quantities. I hold a Bachelor of Science in Civil Engineering from the Philippines (2014 to 2019).",
+      "From 2019 to 2020 I worked on site in the Philippines, first as project-in-charge on a community hall renovation and then as a field engineer on residential subdivision finishing works. I reviewed drawings against the work, carried out inspections and quality checks, kept site reports and material records, and coordinated with engineers, subcontractors and suppliers to sort out site issues.",
+      "I am based in Melton VIC with a White Card, licence and transport, and full working rights to December 2027 on a Subclass 485 visa. I have not worked as a utilities engineer, and my software experience is from study rather than commercial work, so I would start at entry level. I am open to discussing relocation to Sydney.",
+      "I have attached my resume and would be glad to talk about how I could support your utilities team."
+    ],
+    "closing": "Yours sincerely,"
+  }
+}

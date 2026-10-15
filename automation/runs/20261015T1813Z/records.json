@@ -1,0 +1,222 @@
+[
+ {
+  "id": "4b6a3f93-6fe9-421b-bb0e-e559faedfaa5",
+  "key": "manual:4b6a3f93-6fe9-421b-bb0e-e559faedfaa5",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261015T1813Z",
+  "created_at": "2026-10-15T18:29:32.000Z",
+  "updated_at": "2026-10-15T18:29:32.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "5f9082a7-5a03-450d-a142-1db72583acd6",
+    "path": "/api/documents/5f9082a7-5a03-450d-a142-1db72583acd6",
+    "filename": "Marc_Masarate_Infrastructure_Engineering_Group_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-15T18:29:34.869Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "92181220-71d4-46db-a50c-bd58f7ea20be",
+    "path": "/api/documents/92181220-71d4-46db-a50c-bd58f7ea20be",
+    "filename": "Marc_Masarate_Infrastructure_Engineering_Group_Utilities_Engineer_Civil_Infrastructure_Cover_Letter.pdf",
+    "sha256": "2d5220962372459f0b9f2a9fa7ec453062787af8b3731cffca8b17cfa806d978",
+    "size_bytes": 48262,
+    "kind": "cover",
+    "uploaded_at": "2026-10-15T18:29:33.534Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Infrastructure Engineering Group",
+  "role": "Utilities Engineer – Civil Infrastructure",
+  "location": "North Sydney, Sydney NSW",
+  "job_url": "https://www.seek.com.au/job/94783397",
+  "company_url": "https://www.iegaustralia.com/",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "open",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.iegaustralia.com/",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Application: Utilities Engineer, Civil Infrastructure, Marc Masarate",
+  "email_body": "Hello,\n\nI saw your Utilities Engineer, Civil Infrastructure advert on SEEK and would like to be considered.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. Part of that work was lodging Before You Dig Australia enquiries and designing around existing services and site constraints. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, reviewing drawings, carrying out inspections and coordinating with engineers, subcontractors and suppliers. I also hold a Bachelor of Science in Civil Engineering. I am based in Melton VIC, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa.\n\nYour advert mentions reviewing BYDA information and civil designs for utility conflicts, which builds on the service checks I did in my course. I have not worked as a utilities engineer yet, so I would start at entry level, and I am open to discussing relocation to Sydney.\n\nI've attached my resume and cover letter. Could we arrange a short call about the role?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Utilities Engineer supporting identification, investigation and coordination of utilities on major civil works; tasks include reviewing BYDA information, drawings, risk assessments and cost estimates, which match Marc's Advanced Diploma coursework (Before You Dig Australia enquiries, designing around existing services, risk registers, cost estimates).",
+   "Stated essentials are a civil engineering degree (Marc holds a BSCE, 2019), experience in utilities engineering, civil infrastructure design, utility coordination OR construction delivery (Philippines site work 2019 to 2020), drawing interpretation and an Australian driver licence; all met at entry level.",
+   "Role level not stated as graduate and the base is North Sydney NSW, so relocation would need discussing; scored 70 rather than higher."
+  ],
+  "gaps": [
+   "No utilities engineering or utility authority experience; utility awareness is from coursework (Before You Dig Australia)",
+   "No Australian site or office work experience yet",
+   "Relocation from Melton VIC to North Sydney would need discussing"
+  ],
+  "match_score": {
+   "percent": 70,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Utilities Engineer supporting identification, investigation and coordination of utilities on major civil works; tasks include reviewing BYDA information, drawings, risk assessments and cost estimates, which match Marc's Advanced Diploma coursework (Before You Dig Australia enquiries, designing around existing services, risk registers, cost estimates).",
+    "Stated essentials are a civil engineering degree (Marc holds a BSCE, 2019), experience in utilities engineering, civil infrastructure design, utility coordination OR construction delivery (Philippines site work 2019 to 2020), drawing interpretation and an Australian driver licence; all met at entry level.",
+    "Role level not stated as graduate and the base is North Sydney NSW, so relocation would need discussing; scored 70 rather than higher."
+   ],
+   "caution": "Advert does not state the experience level; SEEK asks years as a Utilities Engineer (Marc has none) and IEG may want someone more experienced. Sydney relocation is open to discussion only, not promised."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-09-21T21:54:20.221Z",
+   "expires_at": "2026-10-22T12:59:59.999Z",
+   "verified_at": "2026-10-15T18:25:14.000Z",
+   "apply_instructions": "Apply on SEEK (job 94783397) with resume, cover letter and the five screening questions.",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a Utilities Engineer?",
+    "How much notice are you required to give your current employer?",
+    "Do you have a current Australian driver's licence?",
+    "Do you have Engineering Drawing Interpretation experience?"
+   ]
+  },
+  "screening_answers": {
+   "Which of the following statements best describes your right to work in Australia?": "I hold a temporary visa with full working rights (Subclass 485, valid until December 2027).",
+   "How many years' experience do you have as a Utilities Engineer?": "None yet (0 years). My utility knowledge is from Advanced Diploma coursework, including lodging Before You Dig Australia enquiries and designing around existing services.",
+   "How much notice are you required to give your current employer?": "Marc to answer (no notice period is on record).",
+   "Do you have a current Australian driver's licence?": "Yes",
+   "Do you have Engineering Drawing Interpretation experience?": "Yes. On site in the Philippines (2019) I reviewed structural and architectural drawings and checked work against them, and in my Advanced Diploma I prepared and reviewed technical drawings in AutoCAD and Civil 3D."
+  },
+  "checklist": [
+   "Open SEEK job 94783397 and confirm it is still open (closes 22 Oct 2026 11:59pm AEDT)",
+   "Upload resume and the cover letter PDF from this record",
+   "Answer the five questions using screening_answers; Marc fills in notice period himself",
+   "Right to work: choose the temporary visa with full work rights option, never citizen or PR",
+   "Press Applied on the tracker with the date once the SEEK receipt arrives"
+  ],
+  "notes": "SEEK backlog re-check on tick 20261015T1813Z (victoria_offsite rotation) after SEEK d3/60, d7/60, d14/80 and an alternate keyword sweep found no never-screened candidate at 60 or above. First screened 28 Sep 2026 at 75 but not taken because of the four-per-run cap; full advert re-read 16 Oct 2026 and rescored 70. Apply through SEEK; no application inbox published.\nChecked 16 Oct 2026 AEDT. Employer site publishes only a general info@iegaustralia.com inbox with no statement that it accepts applications, so it is not used. No named hiring person with a published business email found; none guessed. Gmail in:anywhere for iegaustralia.com / Infrastructure Engineering Group / Utilities Engineer: 0 results. Tracker check: new.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-09-21, closes 2026-10-22). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Utilities Engineer – Civil Infrastructure role on SEEK.\n• They may ask about: No utilities engineering or utility authority experience; utility awareness is from coursework (Before You Dig Australia) → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian site or office work experience yet → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Relocation from Melton VIC to North Sydney would need discussing → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-09-21, closes 2026-10-22). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Utilities Engineer – Civil Infrastructure role on SEEK.",
+   "They may ask about: No utilities engineering or utility authority experience; utility awareness is from coursework (Before You Dig Australia) → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian site or office work experience yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Relocation from Melton VIC to North Sydney would need discussing → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-15T18:29:32.000Z",
+  "seek_id": "94783397",
+  "duplicate_key": "infrastructureengineeringgroup|seek:94783397"
+ },
+ {
+  "id": "befd11de-4bf7-43b3-ac6b-0cd63b78b300",
+  "key": "manual:befd11de-4bf7-43b3-ac6b-0cd63b78b300",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261015T1813Z",
+  "created_at": "2026-10-15T18:29:36.000Z",
+  "updated_at": "2026-10-15T18:29:36.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "0f4b0e05-362b-4992-97ad-a6950a285554",
+    "path": "/api/documents/0f4b0e05-362b-4992-97ad-a6950a285554",
+    "filename": "Marc_Masarate_AT_L_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-15T18:29:39.021Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "fc5071d5-3ab6-47b8-9324-492e178c9921",
+    "path": "/api/documents/fc5071d5-3ab6-47b8-9324-492e178c9921",
+    "filename": "Marc_Masarate_AT_L_Speculative_enquiry_graduate_civil_draft_Cover_Letter.pdf",
+    "sha256": "88db55e1699e6cfb19d8df069b044138f7961b59f23557aa562a86a9567ee03d",
+    "size_bytes": 50394,
+    "kind": "cover",
+    "uploaded_at": "2026-10-15T18:29:37.101Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "AT&L",
+  "role": "Speculative enquiry: graduate civil drafter or junior civil designer (Melbourne)",
+  "location": "Melbourne VIC",
+  "job_url": "https://atl.net.au/careers/",
+  "company_url": "https://atl.net.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "HR / careers inbox",
+  "recipient_email": "hr@atl.net.au",
+  "contact_email": "hr@atl.net.au",
+  "contact_evidence_url": "https://atl.net.au/careers/",
+  "contact_verified_at": "2026-10-15T18:29:36.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Graduate civil drafter enquiry for your Melbourne team, Marc Masarate",
+  "email_body": "Hello,\n\nThis is a speculative enquiry rather than a reply to an advert. Your careers page says AT&L is growing in Melbourne and asks civil drafters and designers to send a CV and cover letter to this address, so I am asking about any graduate civil drafter or junior civil designer role in your Melbourne team.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge. I am based in Melton VIC, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am available for office and site work.\n\nYour Amaroo Business Park work in Craigieburn, with roads, stormwater, earthworks and retaining walls, is the kind of civil documentation I want to learn on. My drafting so far is from study, so I would start at graduate level.\n\nI've attached my resume and cover letter. Could you keep me in mind for a graduate drafting or design role in Melbourne?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "AT&L careers page invites civil drafters and civil designers to send a CV and cover letter to hr@atl.net.au and says the firm is growing in Melbourne.",
+   "Its Melbourne work includes Amaroo Business Park in Craigieburn, where AT&L designed roads, stormwater drainage, earthworks and retaining walls, which matches Marc's Advanced Diploma road, earthworks and stormwater coursework in Civil 3D and AutoCAD; Melbourne CBD office is reachable from Melton.",
+   "No numbered vacancy or stated level, so this is a labelled speculative enquiry at graduate level."
+  ],
+  "gaps": [
+   "No commercial civil drafting production experience",
+   "No Australian site or office work experience yet",
+   "No vacancy or level confirmed"
+  ],
+  "match_score": {
+   "percent": 66,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "AT&L careers page invites civil drafters and civil designers to send a CV and cover letter to hr@atl.net.au and says the firm is growing in Melbourne.",
+    "Its Melbourne work includes Amaroo Business Park in Craigieburn, where AT&L designed roads, stormwater drainage, earthworks and retaining walls, which matches Marc's Advanced Diploma road, earthworks and stormwater coursework in Civil 3D and AutoCAD; Melbourne CBD office is reachable from Melton.",
+    "No numbered vacancy or stated level, so this is a labelled speculative enquiry at graduate level."
+   ],
+   "caution": "No advertised vacancy; AT&L may only want experienced drafters. Software experience is academic."
+  },
+  "advert": {
+   "source": "employer_site",
+   "listed_at": "2026-10-16T00:00:00Z",
+   "expires_at": "",
+   "verified_at": "2026-10-15T18:29:36.000Z",
+   "apply_instructions": "Email hr@atl.net.au with CV and cover letter (published on the careers page).",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Confirm hr@atl.net.au is still published on https://atl.net.au/careers/",
+   "Attach compact resume and cover letter PDFs",
+   "Send only after the shared lease and all section 8 checks if chosen as a run's email",
+   "Update tracker to SENT with the Gmail message id"
+  ],
+  "notes": "Open-web find on tick 20261015T1813Z (victoria_offsite rotation). SEEK d3/60, d7/60, d14/80 and an alternate keyword sweep produced no never-screened candidate at 60 or above; Melbourne west and regional Victoria boards (Melton, Geelong, Wyndham, Moorabool, Golden Plains, Ballarat applynow, Jora Victoria) gave only tracked, closed, degree-plus-experience or blocked roles. AT&L careers page asks civil drafters and designers to send CV and cover letter to hr@atl.net.au and says it is growing in Melbourne; no numbered vacancy, so labelled speculative.\nChecked 16 Oct 2026 AEDT. Careers page names hr@atl.net.au as the address for CVs and cover letters. Team page names Melbourne leaders but publishes no personal emails; none guessed. info-VIC@atl.net.au exists on the contact page but is not stated to take applications, so not used. Gmail in:anywhere for atl.net.au / AT&L: 0 results. Tracker check: new (no prior AT&L record).\nHOW GROK AI FOUND THIS\nFound on employer_site (listed 2026-10-16). Contact: the application inbox hr@atl.net.au published by the employer (https://atl.net.au/careers/); no personal address was used. Named people seen on employer pages: Joshua Barnett (Associate, Technical Director; Civil Design Manager for Melbourne); Kunjan Patel (Associate Director, Manager - Melbourne). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your careers page, which asks civil drafters and designers to send a CV and cover letter to hr@atl.net.au. This was a speculative enquiry, not a reply to an advert.\n• They may ask about: No commercial civil drafting production experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian site or office work experience yet → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No vacancy or level confirmed → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_site (listed 2026-10-16). Contact: the application inbox hr@atl.net.au published by the employer (https://atl.net.au/careers/); no personal address was used. Named people seen on employer pages: Joshua Barnett (Associate, Technical Director; Civil Design Manager for Melbourne); Kunjan Patel (Associate Director, Manager - Melbourne). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Speculative enquiry: graduate civil drafter or junior civil designer (Melbourne) role on your website.",
+   "They may ask about: No commercial civil drafting production experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian site or office work experience yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No vacancy or level confirmed → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-15T18:29:36.000Z",
+  "duplicate_key": "atl|atl.net.au/careers"
+ }
+]

@@ -1,0 +1,40 @@
+{
+  "seek_id": "atl-melbourne-spec-20261016",
+  "company": "AT&L",
+  "role": "Speculative enquiry: graduate civil drafter or junior civil designer (Melbourne)",
+  "location": "Melbourne VIC",
+  "job_url": "https://atl.net.au/careers/",
+  "route": "EMAIL",
+  "recipient_name": "",
+  "recipient_role": "HR / careers inbox",
+  "recipient_email": "hr@atl.net.au",
+  "contact_evidence_url": "https://atl.net.au/careers/",
+  "subject": "Graduate civil drafter enquiry for your Melbourne team, Marc Masarate",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "notes": "Open-web find on tick 20261015T1813Z (victoria_offsite rotation). SEEK d3/60, d7/60, d14/80 and an alternate keyword sweep produced no never-screened candidate at 60 or above; Melbourne west and regional Victoria boards (Melton, Geelong, Wyndham, Moorabool, Golden Plains, Ballarat applynow, Jora Victoria) gave only tracked, closed, degree-plus-experience or blocked roles. AT&L careers page asks civil drafters and designers to send CV and cover letter to hr@atl.net.au and says it is growing in Melbourne; no numbered vacancy, so labelled speculative.",
+  "email_body": "Hello,\n\nThis is a speculative enquiry rather than a reply to an advert. Your careers page says AT&L is growing in Melbourne and asks civil drafters and designers to send a CV and cover letter to this address, so I am asking about any graduate civil drafter or junior civil designer role in your Melbourne team.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge. I am based in Melton VIC, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am available for office and site work.\n\nYour Amaroo Business Park work in Craigieburn, with roads, stormwater, earthworks and retaining walls, is the kind of civil documentation I want to learn on. My drafting so far is from study, so I would start at graduate level.\n\nI've attached my resume and cover letter. Could you keep me in mind for a graduate drafting or design role in Melbourne?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "screening_answers": {},
+  "checklist": [
+    "Confirm hr@atl.net.au is still published on https://atl.net.au/careers/",
+    "Attach compact resume and cover letter PDFs",
+    "Send only after the shared lease and all section 8 checks if chosen as a run's email",
+    "Update tracker to SENT with the Gmail message id"
+  ],
+  "letter": {
+    "recipient_name": "Hiring Team",
+    "recipient_role": "Melbourne office",
+    "company": "AT&L",
+    "company_line": "AT&L is a civil and structural engineering consultancy with a Melbourne office at 50 Market Street, and its Victorian work includes the civil design of Amaroo Business Park in Craigieburn.",
+    "subject": "Speculative enquiry: graduate civil drafter or junior civil designer, Melbourne",
+    "greeting": "Dear Hiring Team,",
+    "paragraphs": [
+      "Your careers page says AT&L is growing in Melbourne and invites civil drafters and designers to send a CV and cover letter. This is a speculative enquiry about a graduate civil drafter or junior civil designer role in your Melbourne team.",
+      "In February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute, documenting road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD to Australian Standards. I also lodged Before You Dig Australia enquiries and designed around existing services. I hold a Bachelor of Science in Civil Engineering from the Philippines (2014 to 2019).",
+      "From 2019 to 2020 I worked on site in the Philippines as project-in-charge on a community hall renovation and as a field engineer on residential subdivision finishing works, reviewing drawings, carrying out inspections and quality checks, and keeping site reports and material records.",
+      "Your civil design of roads, stormwater, earthworks and retaining walls at Amaroo Business Park is the kind of work I want to learn on. I am based in Melton VIC with a White Card, licence and transport, and full working rights to December 2027 on a Subclass 485 visa. My software experience is from study rather than commercial production, so I would start at graduate level.",
+      "I have attached my resume and would be glad to talk about any graduate drafting or design opening in Melbourne."
+    ],
+    "closing": "Yours sincerely,"
+  }
+}

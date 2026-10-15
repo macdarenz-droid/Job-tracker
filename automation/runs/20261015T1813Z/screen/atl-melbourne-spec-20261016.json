@@ -1,0 +1,37 @@
+{
+  "id": "atl-melbourne-spec-20261016",
+  "percent": 66,
+  "rationale": [
+    "AT&L careers page invites civil drafters and civil designers to send a CV and cover letter to hr@atl.net.au and says the firm is growing in Melbourne.",
+    "Its Melbourne work includes Amaroo Business Park in Craigieburn, where AT&L designed roads, stormwater drainage, earthworks and retaining walls, which matches Marc's Advanced Diploma road, earthworks and stormwater coursework in Civil 3D and AutoCAD; Melbourne CBD office is reachable from Melton.",
+    "No numbered vacancy or stated level, so this is a labelled speculative enquiry at graduate level."
+  ],
+  "caution": "No advertised vacancy; AT&L may only want experienced drafters. Software experience is academic.",
+  "gaps": [
+    "No commercial civil drafting production experience",
+    "No Australian site or office work experience yet",
+    "No vacancy or level confirmed"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "EMAIL",
+  "apply_email": "hr@atl.net.au",
+  "apply_instructions": "Email hr@atl.net.au with CV and cover letter (published on the careers page).",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "AT&L",
+  "title": "Speculative enquiry: graduate civil drafter or junior civil designer (Melbourne)",
+  "location": "Melbourne VIC",
+  "url": "https://atl.net.au/careers/",
+  "listed_at": "2026-10-16T00:00:00Z",
+  "expires_at": null,
+  "screening_questions": [],
+  "company_work_verified": true,
+  "company_work_evidence": "https://atl.net.au/careers/ (growing in Melbourne; send CV and cover letter to hr@atl.net.au; civil drafter and civil designer roles described); https://atl.net.au/get-in-touch/ (Melbourne office Level 4, 50 Market Street); https://atl.net.au/project/amaroo-business-park/ (Craigieburn VIC civil design of roads, stormwater, earthworks, retaining walls); https://atl.net.au/team/ (Civil Design Manager for Melbourne and Manager - Melbourne listed).",
+  "contributions": [
+    "Civil documentation support in AutoCAD and Civil 3D for road, earthworks and stormwater packages (Advanced Diploma coursework)",
+    "Service and constraint checks using Before You Dig Australia enquiries (coursework)",
+    "Site inspection, quality checks and progress records from Philippines site work 2019 to 2020"
+  ],
+  "source": "employer_site"
+}

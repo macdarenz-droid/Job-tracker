@@ -1,0 +1,30 @@
+{
+  "id": "95283726",
+  "percent": 10,
+  "rationale": [
+    "Energy project engineer, electrical/mechanical/energy degree and 3+ years renewables"
+  ],
+  "caution": "",
+  "gaps": [],
+  "mandatory_unmet": [
+    "3+ years renewable energy experience; non-civil degree"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "KNR Energy Consulting Pty Ltd",
+  "title": "Project Engineer: Hybrid Power Plants and Data Centre Energy Infrastructure",
+  "location": "Melbourne VIC",
+  "url": "https://www.seek.com.au/job/95283726",
+  "listed_at": "2026-10-15T04:12:23.252Z",
+  "expires_at": "2026-11-14T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a project engineer?",
+    "How many years of Power Engineering experience do you have?"
+  ]
+}

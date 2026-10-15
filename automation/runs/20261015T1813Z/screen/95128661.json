@@ -1,0 +1,28 @@
+{
+  "id": "95128661",
+  "percent": 5,
+  "rationale": [
+    "Associate civil engineer, 6+ years and citizens/PR only"
+  ],
+  "caution": "",
+  "gaps": [],
+  "mandatory_unmet": [
+    "Australian citizen or PR only; 6+ years experience"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "The Constructive Collective NSW Pty Ltd",
+  "title": "Associate Civil Engineer",
+  "location": "Sydney NSW",
+  "url": "https://www.seek.com.au/job/95128661",
+  "listed_at": "2026-10-08T00:29:57.897Z",
+  "expires_at": "2026-11-07T00:29:00.000Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a civil engineer?"
+  ]
+}

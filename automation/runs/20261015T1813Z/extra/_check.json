@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  {
+   "seek_id": "94783397",
+   "company": "Infrastructure Engineering Group",
+   "title": "Utilities Engineer – Civil Infrastructure",
+   "url": "https://www.seek.com.au/job/94783397",
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
+  },
+  {
+   "seek_id": "",
+   "id": "atl-melbourne-spec-20261016",
+   "company": "AT&L",
+   "title": "Speculative enquiry: graduate civil drafter or junior civil designer (Melbourne)",
+   "url": "https://atl.net.au/careers/",
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
+  }
+ ]
+}

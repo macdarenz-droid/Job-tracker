@@ -2178,6 +2178,79 @@
         "DesignDevise speculative PREPARED_NOT_SENT"
       ],
       "send": "none: canonical-journal lease inaccessible"
+    },
+    {
+      "run_id": "20261015T1813Z",
+      "rotation": "victoria_offsite",
+      "checked_at": "2026-10-15T18:30:30Z",
+      "checked": [
+        {
+          "name": "Melton City Council (applynow external)",
+          "url": "https://meltoncity-external.applynow.net.au/",
+          "result": "no civil roles open (Design Engineer MEL1835 and Civil Projects Officer MEL1888 closed; latter already HELD)"
+        },
+        {
+          "name": "Moorabool / Golden Plains / Hobsons Bay / Wyndham / Ballarat / Hepburn / Surf Coast / Colac Otway applynow boards",
+          "url": "applynow.net.au",
+          "result": "no civil engineering listings returned"
+        },
+        {
+          "name": "City of Greater Geelong PageUp",
+          "url": "https://careers.pageuppeople.com/887/cw/en/job/500747/network-infrastructure-engineer",
+          "result": "Network Infrastructure Engineer (closes 28 Oct) needs infrastructure investigation experience; employer already has READY Development Engineer record within 90 days, blocked"
+        },
+        {
+          "name": "Wyndham City Graduate Civil Engineer",
+          "url": "https://aa140.referrals.selectminds.com/careers/jobs/graduate-civil-engineer-1448",
+          "result": "page 500 / Prosple behind Cloudflare; requires recognised civil degree as a recent graduate; Wyndham lead already HELD_VERIFICATION; not published"
+        },
+        {
+          "name": "Hatch Civil Drafter req 100049 / Graduate Engineer Civil 2027",
+          "url": "https://jobs.hatch.com/",
+          "result": "Hatch Civil Drafter already READY on tracker; same employer blocked within 90 days"
+        },
+        {
+          "name": "KBR Cadet Drafter, Robert Bird grad civil, Senversa junior civil, DTP Road Design VPS3, Goldsmith grad site engineer, Bouygues graduate",
+          "url": "",
+          "result": "already tracked or applied"
+        },
+        {
+          "name": "Arcadis Graduate Civil Infrastructure Melbourne 2027",
+          "url": "https://www.jobstore.com/au/job/l13648274/",
+          "result": "needs 2026 or recent civil degree, outcomes by 31 July; not eligible/likely closed"
+        },
+        {
+          "name": "Stantec 2027 Graduate Civil Water Melbourne",
+          "url": "https://work180.com/en-au/for-women/employer/stantec-australia/job/1057605",
+          "result": "closed; citizen/PR"
+        },
+        {
+          "name": "Winslow Constructors cadets Ballarat / Winslow Bendigo grad",
+          "url": "https://jobmesh.io/job/fa7054f6-a41b-46af-ada8-f0d344c19053",
+          "result": "Winslow Group APPLICATION_UNDER_REVIEW 27 Sep, blocked"
+        },
+        {
+          "name": "Jora Victoria (civil drafter, junior civil, junior site engineer, cadet, Geelong, Ballarat, Melton)",
+          "url": "https://au.jora.com/Civil-Drafter-jobs-in-Victoria",
+          "result": "all relevant listings tracked/applied (Civelite, GLE, GTE, NOTAZ, Hullcon, Northrop) or experienced; Phillip Riley technician needs 1 yr; job detail pages behind Cloudflare"
+        },
+        {
+          "name": "Tomkinson, Beca Civil Designer, Harris Kmon Geelong",
+          "url": "",
+          "result": "Tomkinson already PREPARED; Beca experienced water designer; HKS 3+ years"
+        },
+        {
+          "name": "AT&L",
+          "url": "https://atl.net.au/careers/",
+          "result": "careers page invites CV/cover to hr@atl.net.au, growing in Melbourne; published PREPARED_NOT_SENT speculative (fit 66)"
+        }
+      ],
+      "seek": "d3/60 (1139 seen, 236 prefilter, 45 new after dedupe, 0 never screened); d7/60 (1316 seen, 0 never screened); d14/80 (1506 seen, 0 never screened); alternate 16-keyword d14/80 (1350 seen, 4 never screened, all below 60); backlog re-check found IEG Utilities Engineer (first screened 28 Sep, unpublished due to cap)",
+      "published": [
+        "Infrastructure Engineering Group Utilities Engineer North Sydney READY_JEREMIE_SEEK (fit 70)",
+        "AT&L speculative Melbourne PREPARED_NOT_SENT (fit 66)"
+      ],
+      "send": "none: shared canonical-journal lease inaccessible to this runner; email sends also need Marc's explicit approval"
     }
   ],
   "history": [

@@ -1,0 +1,28 @@
+{
+ "built": [
+  [
+   "4b6a3f93-6fe9-421b-bb0e-e559faedfaa5",
+   "Infrastructure Engineering Group",
+   "Utilities Engineer – Civil Infrastructure",
+   "READY_JEREMIE_SEEK"
+  ],
+  [
+   "befd11de-4bf7-43b3-ac6b-0cd63b78b300",
+   "AT&L",
+   "Speculative enquiry: graduate civil drafter or junior civil designer (Melbourne)",
+   "PREPARED_NOT_SENT"
+  ]
+ ],
+ "rejected": [],
+ "tracker": {
+  "version": 213,
+  "updated_at": "2026-10-15T18:29:46.219Z",
+  "result": {
+   "added": [
+    "4b6a3f93-6fe9-421b-bb0e-e559faedfaa5",
+    "befd11de-4bf7-43b3-ac6b-0cd63b78b300"
+   ],
+   "skipped": []
+  }
+ }
+}
