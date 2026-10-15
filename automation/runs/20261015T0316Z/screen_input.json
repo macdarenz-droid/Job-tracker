@@ -1,0 +1,809 @@
+{
+ "count": 7,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "95263024",
+   "company": "Appoint",
+   "title": "Civil Project / Site Engineers | Major Infrastructure Projects",
+   "run": "20261014T0711Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Proven experience as a Project Engineer or Site Engineer on major civil infrastructure projects",
+    "Strong local experience delivering civil construction projects within Australia",
+    "Must already be based in Brisbane with unrestricted Australian working rights"
+   ]
+  },
+  {
+   "id": "95254965",
+   "company": "Amey Australia",
+   "title": "Civil Designer",
+   "run": "20261014T0711Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Around 3+ years' experience in civil design/drafting",
+    "Practical experience using 12d Model"
+   ]
+  },
+  {
+   "id": "95193608",
+   "company": "Talent Web Property",
+   "title": "Project Engineer - Civil Construction",
+   "run": "20261012T0512Z",
+   "percent": 42,
+   "mandatory_unmet": [
+    "Experienced project engineer level"
+   ]
+  },
+  {
+   "id": "95250866",
+   "company": "MJB Industries Pty Ltd",
+   "title": "Civil Engineering Draftsperson / CAD Draftsperson",
+   "run": "20261014T0215Z",
+   "percent": 48,
+   "mandatory_unmet": [
+    "Minimum of 1 year proven experience in a similar Civil Engineering Draftsperson / CAD Draftsperson role",
+    "Must reside in the South West region (Australind WA)"
+   ]
+  },
+  {
+   "id": "95247893",
+   "company": "Burton Contractors",
+   "title": "Site Engineer - Civil",
+   "run": "20261014T0215Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Previous experience as a Site Engineer within the civil construction industry (essential)"
+   ]
+  },
+  {
+   "id": "95236566",
+   "company": "CGC Recruitment",
+   "title": "12D Civil Designer",
+   "run": "20261013T1117Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Minimum 5 years civil design experience",
+    "Strong 12D Model proficiency"
+   ]
+  },
+  {
+   "id": "95207745",
+   "company": "Yellow Iron Fleet",
+   "title": "Civil Project Engineer",
+   "run": "20261012T1538Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "Minimum 3 years' experience in civil construction (Marc has about 1 year, Philippines)"
+   ]
+  },
+  {
+   "id": "95204746",
+   "company": "Scotford Fennessy Recruitment",
+   "title": "Civil Designer",
+   "run": "20261012T1538Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Experience in a Perth engineering consultancy, 2 to 5 years"
+   ]
+  },
+  {
+   "id": "95248394",
+   "company": "New Horizon Construction",
+   "title": "Civil Site Engineer – Road Construction",
+   "run": "20261014T0215Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "At least three years experience as a Site Engineer or Project Engineer in civil construction with a strong focus on road works"
+   ]
+  },
+  {
+   "id": "95243160",
+   "company": "Damcon Pty Ltd",
+   "title": "Site Engineer/Project Engineer – FRP Civil Projects - competitive salary",
+   "run": "20261013T1634Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "3+ years' experience in civil infrastructure with a strong focus on FRP delivery"
+   ]
+  },
+  {
+   "id": "95229171",
+   "company": "Morson Edge",
+   "title": "Civil Site Engineer - Wind Farm",
+   "run": "20261013T0611Z",
+   "percent": 32,
+   "mandatory_unmet": [
+    "Previous experience as a Civil Engineer or Site Engineer on major construction projects"
+   ]
+  },
+  {
+   "id": "95205064",
+   "company": "Verra Recruitment Pty Ltd",
+   "title": "Civil Project Engineer - FIFO | Defence Infrastructure",
+   "run": "20261012T1538Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Australian citizen or permanent resident"
+   ]
+  },
+  {
+   "id": "95261349",
+   "company": "PERSOL",
+   "title": "Structural Drafter ",
+   "run": "20261014T0711Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "Proven experience as a Structural Drafter within a structural engineering consultancy (mid to senior level)"
+   ]
+  },
+  {
+   "id": "95260251",
+   "company": "Aurizon",
+   "title": "Engineer (Civil / Structural)",
+   "run": "20261014T0711Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Approximately 2-8 years' experience in a civil or structural engineering role (mandatory)"
+   ]
+  },
+  {
+   "id": "95220430",
+   "company": "Red Fox Advisory",
+   "title": "Civil Technician (Full-Time)",
+   "run": "20261013T0114Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Minimum 5 to 7 years' employment experience in civil design and engineering",
+    "Professional membership with Engineers Australia"
+   ]
+  },
+  {
+   "id": "95219778",
+   "company": "John Holland",
+   "title": "Civil Project Engineer",
+   "run": "20261013T0114Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Extensive project engineering experience in rail construction"
+   ]
+  },
+  {
+   "id": "95192276",
+   "company": "Kingston Human Capital",
+   "title": "(PO3) Civil Engineer",
+   "run": "20261012T0512Z",
+   "percent": 50,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95270683",
+   "company": "City of Adelaide",
+   "title": "Design Drafter",
+   "run": "20261014T1712Z",
+   "percent": 62,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95261369",
+   "company": "Kehoe Myers Consulting Engineers",
+   "title": "Civil Engineer",
+   "run": "20261014T0711Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "A minimum of 2 years' relevant industry experience",
+    "Experience administering civil construction contracts including Superintendent's Representative"
+   ]
+  },
+  {
+   "id": "95254019",
+   "company": "Van Der Meer Consulting",
+   "title": "Structural Draftsperson",
+   "run": "20261014T0711Z",
+   "percent": 10,
+   "mandatory_unmet": [
+    "Minimum 3 years structural drafting experience in a consultancy",
+    "Minimum 3 years Revit experience",
+    "Australian Citizen or Permanent Resident"
+   ]
+  },
+  {
+   "id": "95235044",
+   "company": "Peoplebank Australia VIC",
+   "title": "Graduate Infrastructure Engineer",
+   "run": "20261013T1117Z",
+   "percent": 5,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95233585",
+   "company": "United Rentals Australia Pty Ltd",
+   "title": "Civil Engineer",
+   "run": "20261013T0611Z",
+   "percent": 48,
+   "mandatory_unmet": [
+    "3-5 years of experience in civil engineering, ideally temporary works"
+   ]
+  },
+  {
+   "id": "95231028",
+   "company": "Fyfe Pty Ltd",
+   "title": "Civil Engineer - relocate to Darwin",
+   "run": "20261013T0611Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94972033",
+   "company": "Smart Built",
+   "title": "Civil Engineer",
+   "run": "20261013T0611Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "At least five years of post-qualification professional civil engineering experience"
+   ]
+  },
+  {
+   "id": "95195904",
+   "company": "Alchemy Recruitment Consulting Pty Ltd",
+   "title": "Civil Engineers | Road Delivery | Multiple Opportunities",
+   "run": "20261012T1538Z",
+   "percent": 52,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95193925",
+   "company": "Public Sector People",
+   "title": "PO3 Civil Engineer (Nerang)",
+   "run": "20261012T0512Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95251274",
+   "company": "JMT Civil",
+   "title": "Civil Estimator",
+   "run": "20261014T0215Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "5+ years experience in Civil Estimating"
+   ]
+  },
+  {
+   "id": "95250417",
+   "company": "Parklife Metro DC",
+   "title": "Undergraduate Engineer",
+   "run": "20261014T0215Z",
+   "percent": 38,
+   "mandatory_unmet": [
+    "Undergraduate Engineer pathway (currently enrolled undergraduate engineer)"
+   ]
+  },
+  {
+   "id": "95246875",
+   "company": "MidCoast Council",
+   "title": "Development Engineer",
+   "run": "20261014T0215Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Experience in development engineering, development assessment or a related civil engineering environment"
+   ]
+  },
+  {
+   "id": "95228191",
+   "company": "Chandler Macleod",
+   "title": "Road Infrastructure Engineers | Multiple Contract Opportunities",
+   "run": "20261013T0611Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Experience delivering engineering, maintenance, rehabilitation or infrastructure projects at PO3-PO5 level"
+   ]
+  },
+  {
+   "id": "95221945",
+   "company": "DUOQS",
+   "title": "Junior Estimator - Graduate",
+   "run": "20261013T0114Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Minimum of 1 year of construction/building experience (Marc has under one year, April 2019 to February 2020)"
+   ]
+  },
+  {
+   "id": "95220594",
+   "company": "The Constructive Collective NSW Pty Ltd",
+   "title": "Civil Estimator",
+   "run": "20261013T0114Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "3 to 10 years' experience in estimating within civil infrastructure"
+   ]
+  },
+  {
+   "id": "95273111",
+   "company": "Central Highlands Regional Council",
+   "title": "Civil Construction Trainee",
+   "run": "20261014T2213Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Must not hold a qualification equal to or higher than Certificate III in Civil Construction in the same field: Marc holds an Advanced Diploma of Civil Construction Design"
+   ]
+  },
+  {
+   "id": "95255080",
+   "company": "Brunel",
+   "title": "Site Engineer",
+   "run": "20261014T0711Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Previous experience as a Site Engineer within civil construction"
+   ]
+  },
+  {
+   "id": "95202759",
+   "company": "Rain Consulting Pty Ltd",
+   "title": "Project Engineer or Scientist, Stormwater & Water Management Melbourne, hybrid",
+   "run": "20261012T0512Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "3 to 7 years stormwater experience"
+   ]
+  },
+  {
+   "id": "95262230",
+   "company": "Stellar Recruitment",
+   "title": "Civil Engineer (TSF Construction)",
+   "run": "20261014T0711Z",
+   "percent": 10,
+   "mandatory_unmet": [
+    "Previous work for civil contractors on construction of bulk earthworks projects in the mining or industrial sector"
+   ]
+  },
+  {
+   "id": "95256330",
+   "company": "Upper Hunter Shire Council",
+   "title": "Works Engineer - Merriwa",
+   "run": "20261014T0711Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Experienced works engineer managing council construction and maintenance programs"
+   ]
+  },
+  {
+   "id": "95254576",
+   "company": "Australian Framing Solutions Pty Ltd",
+   "title": "Junior Tekla Structural Detailer",
+   "run": "20261014T0711Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "At least 2 years' experience in Structural Steel Detailing (Tekla)"
+   ]
+  },
+  {
+   "id": "95169703",
+   "company": "Bellwether Contractors",
+   "title": "Site Engineers / Project Engineers / SPE's - Civil Infrastructure Projects",
+   "run": "20261012T0512Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "Experienced site/project engineer level"
+   ]
+  },
+  {
+   "id": "95165806",
+   "company": "ACCIONA Australia",
+   "title": "Site Engineer - Civil",
+   "run": "20261012T0512Z",
+   "percent": 48,
+   "mandatory_unmet": [
+    "Experience constructing outdoor air insulated substations and substations at 220kV or above"
+   ]
+  },
+  {
+   "id": "95157315",
+   "company": "Alder Constructions Pty Ltd",
+   "title": "Estimator - Civil Infrastructure",
+   "run": "20261012T0512Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Experienced estimator"
+   ]
+  },
+  {
+   "id": "95140254",
+   "company": "Mendi Constructions",
+   "title": "Civil Project Engineer",
+   "run": "20261013T0126Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Demonstrated experience delivering civil infrastructure projects",
+    "Procurement and subcontractor management experience"
+   ]
+  },
+  {
+   "id": "95129801",
+   "company": "Geosurv Pty Ltd",
+   "title": "Survey Drafter",
+   "run": "20261013T0126Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Experienced survey drafter (12d, utility, cadastral)"
+   ]
+  },
+  {
+   "id": "95175867",
+   "company": "FGI Developments",
+   "title": "Project Engineer (Civil/Structural)",
+   "run": "20261012T0512Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Senior project engineer salary band"
+   ]
+  },
+  {
+   "id": "95153815",
+   "company": "Davidson",
+   "title": "Civil Transport Engineers",
+   "run": "20261012T0512Z",
+   "percent": 48,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95145180",
+   "company": "Quality People",
+   "title": "Maintenance Civil Engineers",
+   "run": "20261013T0126Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Contract administration and road maintenance experience"
+   ]
+  },
+  {
+   "id": "95140637",
+   "company": "Quality People",
+   "title": "Student Civil Engineer",
+   "run": "20261013T0126Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "Current enrolment in 2nd/3rd year Bachelor of Engineering"
+   ]
+  },
+  {
+   "id": "95085919",
+   "company": "Scotford Fennessy Recruitment",
+   "title": "Structural Drafter",
+   "run": "20261013T0126Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Experienced structural drafter who develops juniors"
+   ]
+  },
+  {
+   "id": "95123147",
+   "company": "Civil Services Group Pty Ltd",
+   "title": "Civil Site Engineers - SEC01 / 2 (B02) - BNE - Gen",
+   "run": "20261013T0126Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "At least 5 years civil roads construction with an Australian state road authority",
+    "Knowledge of AS2124 and DTMR specifications"
+   ]
+  },
+  {
+   "id": "95123143",
+   "company": "Civil Services Group Pty Ltd",
+   "title": "Civil Site Engineers - Bruce Highway - Central Coast",
+   "run": "20261013T0126Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Experienced civil site engineer with TMR work"
+   ]
+  },
+  {
+   "id": "95123172",
+   "company": "Civil Services Group Pty Ltd",
+   "title": "Civil Site Engineer (Structures) SEC01 or SEC02 (B02) - BNE Gen",
+   "run": "20261013T0126Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "Years of Australian state road authority construction experience"
+   ]
+  },
+  {
+   "id": "95123150",
+   "company": "Civil Services Group Pty Ltd",
+   "title": "Civil Project Engineers - Road Projects - GenQLD",
+   "run": "20261013T0126Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Experienced civil project engineer for TMR road projects"
+   ]
+  },
+  {
+   "id": "95123151",
+   "company": "Civil Services Group Pty Ltd",
+   "title": "Civil Project Engineers - Maintenance and Works - GenQLD",
+   "run": "20261013T0126Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Experienced civil project engineer"
+   ]
+  },
+  {
+   "id": "95123170",
+   "company": "Civil Services Group Pty Ltd",
+   "title": "Civil Engineer - Sunshine Coast - Gen",
+   "run": "20261013T0126Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "Minimum 3 years post-graduate TMR road construction experience"
+   ]
+  },
+  {
+   "id": "95169849",
+   "company": "Oakleigh Civil",
+   "title": "Site / Project Engineer - Civil & Concrete",
+   "run": "20261012T0512Z",
+   "percent": 44,
+   "mandatory_unmet": [
+    "Years as Site Project Engineer"
+   ]
+  },
+  {
+   "id": "95165892",
+   "company": "Minecon Recruitment",
+   "title": "Site Engineer - Civil (Contract) TMR project Cairns",
+   "run": "20261013T0126Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Previous site engineer experience on civil roads projects",
+    "Experience with TMR specifications"
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "id": "95273551",
+   "source": "seek",
+   "title": "Site Engineer / Project Engineer - Bulk Earthworks & Civil Infrastructure",
+   "company": "A One Earthworks",
+   "location": "Melbourne VIC",
+   "url": "https://www.seek.com.au/job/95273551",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-14T22:26:06.875Z",
+   "expires_at": "2026-11-13T22:26:05.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "What is your current Australian work right status?",
+    "Do you hold a current Construction Induction Card (White Card)?",
+    "Do you hold a current Australian drivers licence?",
+    "Which role are you applying for?",
+    "How many years of experience do you have in civil construction?  ",
+    "Are you available to work a full-time FIFO/DIDO position on a 10/4 roster (10 days on, 4 days off)?",
+    "What is your expected annual base salary?"
+   ],
+   "summary": "Join A One Earthworks as a Site Engineer or Project Engineer delivering bulk earthworks, renewables and heavy civil projects on 10/4 FIFO/DIDO roster.",
+   "opening": "About Us\nA One Earthworks is an established civil earthworks contractor delivering bulk earthworks, roads and civil infrastructure across regional Australia.\nWe self-perform our earthworks using our own people and plant, giving our engineers direct exposure to construction delivery and the opportunity to work closely with Supervisors, Surveyors, operators and project leaders on the ground.\nWith a strong pipeline of upcoming work, we are looking for experienced Site Engineers and Project Engineers to join our operations team.\nAbout the Roles\nThese are hands-on engineering positions supporting the delivery of bulk earthworks and civil infrastructure projects across regional NSW, ACT and SA.\nWe are looking for Site and Project Engineers with experience across bulk earthworks, subdivisions/land development, renewable energy projects including solar and wind, roads or heavy civil infrastructu",
+   "key_lines": [
+    "We self-perform our earthworks using our own people and plant, giving our engineers direct exposure to construction delivery and the opportunity to work closely with Supervisors, Surveyors, operators and project leaders on the ground.",
+    "With a strong pipeline of upcoming work, we are looking for experienced Site Engineers and Project Engineers to join our operations team.",
+    "We are looking for Site and Project Engineers with experience across bulk earthworks, subdivisions/land development, renewable energy projects including solar and wind, roads or heavy civil infrastructure.",
+    "- Interpret drawings, specifications and technical requirements",
+    "- Assist with RFIs, procurement, reporting and project close-out",
+    "- Degree qualified in Civil Engineering or a related discipline",
+    "- 2+ years' civil construction or heavy infrastructure experience",
+    "- Demonstrated experience in bulk earthworks and/or subdivisions",
+    "- Experience with self-performing civil contractors highly regarded",
+    "- Solar, wind or other renewable infrastructure experience highly regarded",
+    "- Strong QA and technical documentation experience",
+    "- White Card and current Australian Driver Licence",
+    "How to Apply",
+    "If you are ready to take the next step in your career with a company that values your expertise, apply now by submitting your CV and cover letter."
+   ]
+  },
+  {
+   "id": "95279840",
+   "source": "seek",
+   "title": "Full-Time Civil Engineering Technician",
+   "company": "Exclusive Construction Machinery and Equipment Pty Ltd",
+   "location": "Carlisle, Perth WA",
+   "url": "https://www.seek.com.au/job/95279840",
+   "work_type": "Full time",
+   "salary": "$80,000 – $90,000 per year",
+   "listed_at": "2026-10-15T02:41:16.928Z",
+   "expires_at": "2026-11-14T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a Civil Engineering Technician?",
+    "How much notice are you required to give your current employer?",
+    "Have you completed a qualification in civil construction?",
+    "Do you have a current Australian driver's licence?"
+   ],
+   "summary": "Full-time Civil Engineering Technician (WA earthworks): AutoCAD/Civil3D, site measurements, quantities & as-builts.",
+   "opening": "About Us\nExclusive Construction Machinery and Equipment Pty Ltd is a dynamic and growing civil construction and earthmoving business operating in Western Australia. We specialise in comprehensive earthworks, site preparation, and civil projects that support residential, commercial, and industrial developments. Our projects involve excavation, land clearing, bulk earthworks, trenching, drainage preparation and other essential groundwork that form the critical foundation for infrastructure and building works across the region. Our team works with a modern fleet of machinery and experienced operators to deliver high-quality results safely, efficiently, and on schedule.\nRole Overview\nWe are seeking a motivated Civil Engineering Technician to provide comprehensive technical support to our Civil Engineer across multiple earthworks and site-development projects in Western Australia.\nThe success",
+   "key_lines": [
+    "Exclusive Construction Machinery and Equipment Pty Ltd is a dynamic and growing civil construction and earthmoving business operating in Western Australia. We specialise in comprehensive earthworks, site preparation, and civil projects that support residential, commercial, and industrial developments. Our projects involve excavation, land clearing, bulk earthworks, trenching, drainage preparation and other essential groundwork that form the critical foundation for infrastructure and building works across the region. Our team works with a modern fleet of machinery and experienced operators to deliver high-quality results safely, efficiently, and on schedule.",
+    "The successful candidate will assist in collecting and analysing site data, preparing and updating engineering drawings, checking completed earthworks against approved drawings and specifications, calculating construction quantities, and preparing technical records and reports. The role combines office-based technical drafting and documentation with regular site attendance for field measurements, construction material testing, technical inspections and quality verification. It supports the accurate implementation and verification of civil engineering works in accordance with approved designs, relevant Australian Standards, project specifications and applicable WHS requirements.",
+    "- Assist Civil Engineers in preparing, interpreting and revising civil engineering sketches, technical drawings, plans and technical details for earthworks, site preparation, excavation, trenching and drainage works using AutoCAD and Civil 3D, based on engineering instructions, site measurements and approved design information.",
+    "- Prepare and update as-built drawings, drawing registers and associated technical documentation using AutoCAD and Civil 3D to reflect verified site conditions, completed civil engineering works and approved design changes.",
+    "- Analyse and compare field measurements and survey data against approved engineering drawings, design levels, project specifications and applicable technical requirements, identify discrepancies and prepare technical data for review by the Civil Engineer.",
+    "- Assist in conducting and coordinating field and laboratory tests of soil and other construction materials, as required, recording results and analysing available test data against project specifications and acceptance criteria.",
+    "- Monitor soil placement, filling, backfilling, compaction and drainage works by reviewing field measurements and available material test results, checking completed works against specified engineering requirements and reporting deviations for further assessment.",
+    "- Perform technical computations using site measurements, survey information, engineering drawings and relevant technical data to calculate and verify earthworks quantities, excavation and fill volumes, cut-and-fill requirements and construction material quantities.",
+    "- Check subcontractor drawings, method statements, technical submissions and construction documentation against approved engineering drawings, project specifications and applicable contract requirements, identify technical discrepancies and refer matters requiring engineering judgement or approval to the Civil Engineer.",
+    "- Interpret civil engineering work instructions and communicate technical site information, measurement requirements and relevant engineering specifications to site supervisors, machinery operators, subcontractors, surveyors and other project personnel to support the accurate implementation and verification of civil engineering works.",
+    "Skills & Qualifications Required",
+    "- Diploma or Advanced Diploma in Civil Engineering, Civil Construction, Building Engineering Technology, or a closely related civil engineering or construction technology discipline. Applicants with other relevant qualifications and substantial, directly relevant civil engineering technical experience may also be considered.",
+    "- Minimum 2 years of relevant experience in civil engineering technical support, earthworks, site preparation, drainage works or civil construction.",
+    "- Practical competency in AutoCAD and Civil 3D for preparing and updating civil engineering drawings and as-built documentation."
+   ]
+  },
+  {
+   "id": "95278407",
+   "source": "seek",
+   "title": "Civil Project Engineer WA",
+   "company": "SITZLER Pty Ltd",
+   "location": "Perth WA",
+   "url": "https://www.seek.com.au/job/95278407",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-15T01:55:19.711Z",
+   "expires_at": "2026-11-14T02:01:29.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Are you legally entitled to work in Australia?",
+    "As part of our recruitment process, you may be required to attend a pre employment medical, drug & alcohol testing, and/or complete a medical check-list. Are you willing to participate in this?",
+    "Certain roles require a criminal history check to be performed as part of the recruitment process for shortlisted candidates. Please acknowledge that you are aware of this and are willing to participate if needed. ",
+    "Do you hold a current White Card / General Construction Induction Training Card?",
+    "Please detail your minimum salary expectations (including super):"
+   ],
+   "summary": ".",
+   "opening": "Be part of something spectacular. Join Sitzler today!\nAs a Civil Construction Project Engineer, you will be responsible for the administration, development and ongoing maintenance and management of the project controls systems utilised within the business, its correct and timely application on projects and the output data for submission to executives and for use in tendering.\nKey Responsibilites\n - Development and ongoing maintenance and management of project control systems.\n - Maximisation of value recovery, cost control and cash management.\n - Responsible for all outputs of the project control systems and their application across the business\n - Management and mentoring of all staff on the importance of and use of the project controls systems established for the business, including but not limited to development and running of formal training sessions.\n - Forecast generation from outp",
+   "key_lines": [
+    "- To stay abreast of Corporate, Legislative and Statutory requirements applicable to your role.",
+    "Qualifications",
+    "Minimum level of knowledge/skills/training required to carry out the job:",
+    "- Bachelor Degree in Engineering (Civil, Structural, Mechanical), Construction Management, Project Management, Quantity Surveying or industry equivalent related qualification",
+    "- Drivers Licence",
+    "Work Experience",
+    "- Minimum of 5 years construction industry experience in commercial or civil construction."
+   ]
+  },
+  {
+   "id": "95277981",
+   "source": "seek",
+   "title": "Civil Site Engineer - Immediate Start",
+   "company": "ENGCO Projects",
+   "location": "Melbourne VIC",
+   "url": "https://www.seek.com.au/job/95277981",
+   "work_type": "Casual/Vacation",
+   "salary": "$100,000 – $125,000 per year",
+   "listed_at": "2026-10-15T01:42:54.394Z",
+   "expires_at": "2026-11-14T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a Civil Site Engineer?"
+   ],
+   "summary": "Join ENGCO Projects as a Civil Site Engineer delivering major infrastructure projects, gaining hands-on experience and developing your career!",
+   "opening": "Immediate Start: Civil Site Engineer – Road Infrastructure\nENGCO Projects is seeking a motivated and experienced Civil Site Engineer to join our growing team on a road infrastructure project in North Melbourne.\nENGCO Projects delivers high-quality engineering, project delivery, safety and commercial services, supporting major civil contractors across Victoria. We provide experienced engineering personnel and integrated project solutions to support the successful delivery of complex civil infrastructure projects.\nWe are currently seeking a Civil Site Engineer with 2–5 years of site-based experience to support the delivery of road construction and associated civil infrastructure works in North Melbourne.\nKey Responsibilities\n- Coordinate and supervise day-to-day site engineering activities associated with road construction and civil infrastructure works.\n- Oversee construction activities i",
+   "key_lines": [
+    "ENGCO Projects is seeking a motivated and experienced Civil Site Engineer to join our growing team on a road infrastructure project in North Melbourne.",
+    "ENGCO Projects delivers high-quality engineering, project delivery, safety and commercial services, supporting major civil contractors across Victoria. We provide experienced engineering personnel and integrated project solutions to support the successful delivery of complex civil infrastructure projects.",
+    "We are currently seeking a Civil Site Engineer with 2–5 years of site-based experience to support the delivery of road construction and associated civil infrastructure works in North Melbourne.",
+    "- Ensure compliance with project safety, environmental and quality requirements.",
+    "- Work closely with project managers, supervisors, surveyors, quality personnel and commercial teams to support efficient project delivery.",
+    "Essential Experience & Skills",
+    "- Degree-qualified in Civil Engineering or equivalent.",
+    "- 2–5 years of site-based experience in civil construction, preferably within road construction or infrastructure projects.",
+    "- Current White Card required.",
+    "- Previous utilities experience is highly desirable, particularly exposure to underground service installation, service relocations, service proving and coordination with utility authorities.",
+    "- Experience interpreting construction drawings, specifications and project documentation.",
+    "- Work alongside experienced construction and engineering professionals.",
+    "- Gain hands-on experience across road construction, earthworks, pavements, drainage and underground utilities.",
+    "- Develop your technical and project delivery capabilities through practical, site-based experience."
+   ]
+  },
+  {
+   "id": "95277952",
+   "source": "seek",
+   "title": "Engineering Officer",
+   "company": "Southern Downs Regional Council",
+   "location": "Stanthorpe, Toowoomba & Darling Downs QLD",
+   "url": "https://www.seek.com.au/job/95277952",
+   "work_type": "Full time",
+   "salary": "$3123.71 - $3846.49 - per fortnight (Level 3-5)",
+   "listed_at": "2026-10-15T01:41:32.858Z",
+   "expires_at": "2026-11-03T12:59:59.000Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Join Council as an Engineering Officer and help deliver vital infrastructure projects that keep our Southern Downs community moving forward",
+   "opening": "Your Opportunity\nIn this role, you will be provide technical assistance to the Construction and Maintenance Delivery Teams in the planning, design, construction delivery, asset lifecycle maintenance and project management of civil projects including roads (sealed and unsealed), bridges, culverts, stormwater (Kerb and Channell, Pipes and Open Drains), footpaths, cycleways, etc.\nCouncil is committed to support and provide opportunities for continuing professional development on your journey to achieve your chartered accreditation and to obtain Registered Professional Engineers Queensland.\nSTATUS:\nPermanent, Full-time\nHOURS of WORK:\n72.5 hours per fortnight | 9-day fortnight, or as negotiated with successful candidate\nPAY LEVEL:\n$3,123.71 – $3,846.49 per fortnight (Level 3 - 5)\nPlus 12% Superannuation and 17.5% Annual Leave Loading in accordance with Council’s Enterprise Agreement and the r",
+   "key_lines": [
+    "Pay rate dependant on relevant skills and experience. This will be administered under the graduate program and therefore development and progression will be accelerated.",
+    "HOW TO APPLY:",
+    "You must supply ALL information requested on the Vacancy Coversheet in your application.",
+    "If you have any additional enquiries in relation to the requirements of this position, please contact:",
+    "APPLICATIONS CLOSE:",
+    "MANDATORY LICENCES & QUALIFICATIONS",
+    "- A Class C (car) licence or greater is required in this role.",
+    "- A Qualification of at least degree level in civil engineering.",
+    "Southern Downs is a great place to live, work, play and stay. With a growing multicultural community of 27,040 residents, the picturesque region covers 7,122km and offers you the work-life balance you have been searching for in a well-connected regional centre. The major towns of Warwick and Stanthorpe offer vibrant commercial hubs with ample retail, medical, banking and educational services."
+   ]
+  },
+  {
+   "id": "95275680",
+   "source": "seek",
+   "title": "Risk Engineer - Construction",
+   "company": "HDI Global SE, Australia",
+   "location": "Melbourne VIC",
+   "url": "https://www.seek.com.au/job/95275680",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-15T00:21:46.719Z",
+   "expires_at": "2026-11-14T00:21:45.000Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "What is your expected annual base salary?",
+    "What are your current work rights in Australia?",
+    "What experience do you have in Construction / Engineering risk?",
+    "What is your current notice period or availability to start work?"
+   ],
+   "summary": "Degree qualified Civil Engineer with Construction delivery experience - join a global insurer as a Risk Engineer! Excellent salary...",
+   "opening": "HDI Global SE is Germany’s leading industrial insurer. Since 1995, we have supported German and European companies operating across Australia and New Zealand. Today, we also partner with Australian and New Zealand corporate clients through our Sydney headquarters and offices in Melbourne, Brisbane, Perth and Adelaide.\nAs a specialist industrial lines insurer, HDI delivers tailored insurance solutions for SMEs, industrial businesses and corporate customers. With operations spanning more than 175 countries through branch offices, subsidiaries, peer companies and network partners, we combine local expertise with global reach to protect clients wherever they operate.\nThe opportunity:\nWe are looking for an experienced Senior Risk Engineer to join our market-leading Risk Engineering practice, HDI Risk Consulting (HRC), with a dedicated focus on the construction sector. This is an opportunity t",
+   "key_lines": [
+    "We are looking for an experienced Senior Risk Engineer to join our market-leading Risk Engineering practice, HDI Risk Consulting (HRC), with a dedicated focus on the construction sector. This is an opportunity to apply your engineering expertise to complex, high-profile projects while helping clients understand, manage and reduce risk.",
+    "You will provide practical risk consulting services across landmark and diverse projects, including mixed-use developments, civil and power infrastructure, industrial facilities and chemical operations. With construction risk as your primary focus, you will work closely with clients, underwriters and a collaborative team of multidisciplinary engineers. The role involves approximately 50 days of travel each year, predominantly across Australia and New Zealand.",
+    "- Work across an exceptional range of construction projects, from transport infrastructure, tunnelling and large residential developments to warehousing, manufacturing, mining, power generation and renewable energy projects across Australia and New Zealand.",
+    "- Join an experienced, multidisciplinary engineering team that will support your technical growth and ongoing development.",
+    "The role is ideally based in Sydney, Melbourne or Brisbane; however, we welcome applications from experienced risk engineers located anywhere in Australia.",
+    "- A bachelor’s degree in Civil Engineering preferred.",
+    "- At least five years’ experience in an engineering consulting environment and a minimum of 10 years’ overall industry experience.",
+    "- Construction risk engineering experience is preferred.",
+    "- Proven technical report-writing and presentation experience, with the ability to make complex information clear and engaging for non-technical audiences.",
+    "- Australian citizenship or permanent residency.",
+    "This is an opportunity to build a long-term career with an established international insurer while contributing to high-profile projects across Australia and New Zealand. HDI is an equal opportunity employer, and we believe diversity and inclusion are essential to our future.",
+    "Ready to make an impact? Click Apply Now to take the next step in your career with HDI."
+   ]
+  },
+  {
+   "id": "95275617",
+   "source": "seek",
+   "title": "ON-SITE ENGINEER",
+   "company": "Cooper McCullough Group",
+   "location": "Dysart, Mackay & Coalfields QLD",
+   "url": "https://www.seek.com.au/job/95275617",
+   "work_type": "Full time",
+   "salary": "$90,000 – $130,000 per year",
+   "listed_at": "2026-10-15T00:19:45.319Z",
+   "expires_at": "2026-11-14T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Do you have a current Australian driver's licence?"
+   ],
+   "summary": "Seeking a highly motivated and talented individual to join our team as a Site Engineer across a wide range of rural infrastructure and mining projects",
+   "opening": "ONSITE ENGINEER\nCooper McCullough Group (CMG) is a fast-growing Queensland-based construction company primarily servicing Central and South-East Queensland. Due to strong performance and sustained growth, we have a wide range of upcoming projects across roads, rail and mining infrastructure.\nWe are seeking a highly motivated and talented individual to join our team as a Site Engineer. You will have the opportunity to apply your engineering knowledge to a wide range of rural construction, infrastructure and mining projects across Queensland.\nThe ideal candidate will have a strong engineering background, excellent analytical and problem-solving abilities, and a commitment to delivering high-quality results.\nReports to: Project Manager / Senior Engineer\nQualifications & Experience:\n- Bachelor of Engineering degree (essential)\n- Minimum one year of engineering experience\nKey responsibilities",
+   "key_lines": [
+    "We are seeking a highly motivated and talented individual to join our team as a Site Engineer. You will have the opportunity to apply your engineering knowledge to a wide range of rural construction, infrastructure and mining projects across Queensland.",
+    "Qualifications & Experience:",
+    "- Bachelor of Engineering degree (essential)",
+    "- Minimum one year of engineering experience",
+    "- Site Inspections: Analyse on-site conditions, engineering requirements, survey data and test results to ensure design compliance and support technical decision-making.",
+    "- Design Review: Interpret engineering drawings, specifications and technical documentation to assess design requirements, construction compliance and quality assurance.",
+    "- Quality Assurance: Develop and maintain Inspection and Test Plans (ITPs), assessing inspection results and verifying compliance with engineering and quality requirements.",
+    "- Roster arrangements dependent on project requirements.",
+    "- Current driver's licence (essential)."
+   ]
+  }
+ ]
+}

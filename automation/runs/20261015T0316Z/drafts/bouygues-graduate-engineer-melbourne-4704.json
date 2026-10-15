@@ -1,0 +1,45 @@
+{
+  "seek_id": "",
+  "company": "Bouygues Construction Australia",
+  "role": "Graduate Engineer",
+  "location": "Melbourne VIC (Terra Verde / Suburban Rail Loop tunnels)",
+  "job_url": "https://careers.bouygues-construction.com/job/Graduate-Engineer/4704-en_GB/",
+  "route": "EMPLOYER_PORTAL",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_evidence_url": "https://careers.bouygues-construction.com/job/Graduate-Engineer/4704-en_GB/",
+  "subject": "Application: Graduate Engineer (Terra Verde Melbourne), Marc Darenz Masarate",
+  "application_type": "ADVERTISED_VACANCY",
+  "notes": "Open-web find on employers-rotation tick after SEEK pool was mostly experienced or already screened. Advertised Graduate Engineer on Bouygues careers for Terra Verde SRL tunnels. Portal apply for Jeremie. General early-career inbox byca.recruit@bouygues-construction.com is published but not used for this pack.",
+  "email_body": "Hello,\n\nI am applying for the Graduate Engineer role with Bouygues Construction Australia on the Terra Verde Suburban Rail Loop tunnels project in Melbourne, listed on your careers portal.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. I also hold a Bachelor of Science in Civil Engineering (2019). From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge. I am based in Melton VIC, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am available for site and office work in Melbourne.\n\nSupporting engineering and construction activities on a major tunnel project, including design review, constructability and site coordination, is the kind of graduate pathway I want. I have not yet worked on Australian tunnels or temporary works, so I would be learning on the job.\n\nI've attached my resume and cover letter. Could you please consider my application through the portal process?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "screening_answers": {
+    "work_rights": "Subclass 485 visa with full working rights until December 2027",
+    "white_card": "Yes, Construction Induction White Card held",
+    "qualification": "Bachelor of Science in Civil Engineering (2019) and Advanced Diploma of Civil Construction Design (February 2026)",
+    "australian_major_project_experience": "No Australian large-scale infrastructure experience yet; site work was in the Philippines 2019 to 2020"
+  },
+  "checklist": [
+    "Open Bouygues careers portal Graduate Engineer Melbourne link and confirm the advert is still open",
+    "Create or sign in to the employer account with Marc credentials if required",
+    "Upload resume and cover letter PDFs and complete any portal screening questions from facts.json only",
+    "Do not claim Australian tunnel or temporary-works experience",
+    "Mark tracker MANUAL_APPLIED only after Jeremie confirms the portal submission"
+  ],
+  "letter": {
+    "recipient_name": "Hiring Manager",
+    "recipient_role": "Graduate recruitment",
+    "company": "Bouygues Construction Australia",
+    "company_line": "delivering nearly 10 km of Suburban Rail Loop tunnels between Glen Waverley and Box Hill through the Terra Verde joint venture in Melbourne",
+    "subject": "Application: Graduate Engineer (Terra Verde Melbourne), Marc Darenz Masarate",
+    "greeting": "Hello,",
+    "paragraphs": [
+      "I am applying for the Graduate Engineer role with Bouygues Construction Australia on the Terra Verde project in Melbourne. I found the vacancy on your careers portal for the Suburban Rail Loop tunnels between Glen Waverley and Box Hill.",
+      "In February 2026 I finished an Advanced Diploma of Civil Construction Design, where I designed and documented road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D to Australian Standards. I also hold a Bachelor of Science in Civil Engineering (2019).",
+      "From April 2019 to February 2020 I worked on site in the Philippines. As project-in-charge on a community hall renovation I coordinated 10 to 15 workers each day, reviewed structural and architectural drawings and carried out site inspections, safety checks and quality monitoring. As a field engineer on residential subdivision finishing works I tracked procurement and materials and prepared site and progress reports.",
+      "I live in Melton VIC, hold a White Card, an Australian driver's licence and my own transport, and have full working rights to December 2027 on a Subclass 485 visa. I am available for site and office work on the Terra Verde project. I have not yet worked on Australian tunnels or temporary works, so I would be learning those parts of the role on the job.",
+      "I've attached my resume and cover letter and would be glad to talk about the graduate seat."
+    ],
+    "closing": "Kind regards,"
+  }
+}

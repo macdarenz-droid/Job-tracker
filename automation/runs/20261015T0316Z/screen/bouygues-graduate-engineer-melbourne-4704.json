@@ -1,0 +1,28 @@
+{
+  "id": "bouygues-graduate-engineer-melbourne-4704",
+  "percent": 82,
+  "rationale": [
+    "Advertised Graduate Engineer on Terra Verde Suburban Rail Loop tunnelling in Melbourne matches graduate level, Melton base and civil/infrastructure interest.",
+    "Tertiary engineering qualification and White Card are met from facts.json; Australian large-scale infrastructure experience is desirable only, not mandatory.",
+    "Hands-on site and office mix fits Marc site coordination background and design coursework; direct employer not an agency."
+  ],
+  "caution": "Tunnel and temporary-works delivery will be new; Marc has not worked on rail tunnels. Portal apply is for Jeremie.",
+  "gaps": [
+    "No Australian major-project or tunnel experience",
+    "Temporary works support is new"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": "",
+  "apply_instructions": "Apply on https://careers.bouygues-construction.com/job/Graduate-Engineer/4704-en_GB/. General graduate enquiries also at byca.recruit@bouygues-construction.com per students-graduates page.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Bouygues Construction Australia",
+  "title": "Graduate Engineer",
+  "location": "Melbourne VIC (Terra Verde / Suburban Rail Loop tunnels)",
+  "url": "https://careers.bouygues-construction.com/job/Graduate-Engineer/4704-en_GB/",
+  "listed_at": "2026-10-08",
+  "expires_at": null,
+  "screening_questions": []
+}
