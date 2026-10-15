@@ -1,0 +1,30 @@
+{
+  "id": "daracon-grad-pathway-eoi-20261016",
+  "percent": 70,
+  "rationale": [
+    "Daracon Cadet Pathway ends in a Graduate role for final year students and publishes careers@daracon.com.au for applications; Marc holds BSCE and has finished the Advanced Diploma, so a graduate EOI fits the pathway intent.",
+    "Civil construction, subdivision and road delivery match his site coordination and civil design coursework.",
+    "No active graduate vacancy on GradConnection or the careers boards checked this tick; labelled speculative after employers rotation found no junior advert at Daracon."
+  ],
+  "caution": "Pathway is structured for students progressing through labourer and cadet stages; Marc is not a current Daracon cadet, so this is a labelled EOI only.",
+  "gaps": [
+    "Not currently on Daracon cadet pathway",
+    "NSW base; Marc is Melton VIC and open to discussing relocation"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "EMAIL",
+  "apply_email": "careers@daracon.com.au",
+  "apply_instructions": "Email careers@daracon.com.au as published on Daracon vacancy pages.",
+  "open": true,
+  "employer_is_agency": false,
+  "company_work_verified": true,
+  "company": "Daracon Group",
+  "title": "Speculative enquiry: graduate civil engineer via Cadet Pathway (NSW)",
+  "location": "Hunter / Sydney NSW",
+  "url": "https://daracon.com.au/careers/tertiary-pathway",
+  "listed_at": "2026-10-16T00:00:00+11:00",
+  "expires_at": "",
+  "screening_questions": [],
+  "source": "employer_careers"
+}

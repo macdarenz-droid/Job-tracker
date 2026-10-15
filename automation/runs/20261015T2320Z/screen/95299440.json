@@ -1,0 +1,31 @@
+{
+  "id": "95299440",
+  "percent": 28,
+  "rationale": [
+    "Melbourne facade structural civil design engineer role overlaps civil qualification only at a high level.",
+    "Requires 2+ years facade engineering and STRAND7 Robot THERM experience Marc does not have.",
+    "Mentoring junior staff implies mid-level engineer, not graduate."
+  ],
+  "caution": "Mandatory facade experience unmet.",
+  "gaps": [
+    "No facade engineering experience",
+    "No STRAND7 Robot THERM"
+  ],
+  "mandatory_unmet": [
+    "Experience (2+ years) in facade engineering"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "SEEK 95299440",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Rickard Engineering",
+  "title": "Facade/Structural/Civil Design Engineer",
+  "location": "East Melbourne, Melbourne VIC",
+  "url": "https://www.seek.com.au/job/95299440",
+  "listed_at": "2026-10-15T22:22:21.956Z",
+  "expires_at": "",
+  "screening_questions": [],
+  "source": "seek"
+}

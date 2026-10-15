@@ -1,0 +1,204 @@
+[
+ {
+  "id": "43061b51-65ee-4aa5-8b36-ad0f8103fe55",
+  "key": "manual:43061b51-65ee-4aa5-8b36-ad0f8103fe55",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261015T2320Z",
+  "created_at": "2026-10-15T23:29:23.000Z",
+  "updated_at": "2026-10-15T23:29:23.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "232877c8-ed97-4026-9748-3e2fee47b368",
+    "path": "/api/documents/232877c8-ed97-4026-9748-3e2fee47b368",
+    "filename": "Marc_Masarate_Citywide_Service_Solutions_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-15T23:29:26.347Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "cc3b8829-5992-42b9-893c-d0e19e9937b7",
+    "path": "/api/documents/cc3b8829-5992-42b9-893c-d0e19e9937b7",
+    "filename": "Marc_Masarate_Citywide_Service_Solutions_Speculative_enquiry_graduate_civil_engin_Cover_Letter.pdf",
+    "sha256": "ebda4d9726efebddf24a69d00ce0db457e64577e03e7b992d34334fbfa1a2ca3",
+    "size_bytes": 47212,
+    "kind": "cover",
+    "uploaded_at": "2026-10-15T23:29:24.813Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Citywide Service Solutions",
+  "role": "Speculative enquiry: graduate civil engineer or civil cadet (Melbourne)",
+  "location": "North Melbourne VIC / Melbourne metro",
+  "job_url": "https://www.citywide.com.au/work-with-us/graduates/",
+  "company_url": "https://www.citywide.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Graduate applications inbox",
+  "recipient_email": "apply@citywide.com.au",
+  "contact_email": "apply@citywide.com.au",
+  "contact_evidence_url": "https://www.citywide.com.au/work-with-us/graduates/",
+  "contact_verified_at": "2026-10-15T23:29:23.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Expression of interest: graduate civil engineer or civil cadet, Marc Masarate",
+  "email_body": "Hello,\n\nThis is a speculative enquiry rather than a reply to a dated advert. Your graduates page lists civil engineering graduates and cadets and invites a CV and cover letter at this address, so I am registering my interest in a graduate civil or civil cadet role in Melbourne.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, including residential subdivision finishing works. I am based in Melton VIC, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am available for site and regional work.\n\nBuilding and maintaining safer civil infrastructure for local communities is the work I want to grow in. My Australian design work so far is from study, so I would start at graduate or cadet level.\n\nI've attached my resume and cover letter. Could you keep me in mind for a graduate civil or civil cadet opening?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Citywide graduates page expressly lists civil engineering graduates and cadets among entry pathways, matching Marc's Advanced Diploma and BSCE plus site experience.",
+   "Melbourne head office at North Melbourne is a strong location fit from Melton with White Card, licence and transport.",
+   "Standing invite to email apply@citywide.com.au with CV and cover letter; no dated vacancy, so labelled speculative with verified company civil infrastructure work."
+  ],
+  "gaps": [
+   "No paid Australian civil infrastructure employer experience"
+  ],
+  "match_score": {
+   "percent": 78,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Citywide graduates page expressly lists civil engineering graduates and cadets among entry pathways, matching Marc's Advanced Diploma and BSCE plus site experience.",
+    "Melbourne head office at North Melbourne is a strong location fit from Melton with White Card, licence and transport.",
+    "Standing invite to email apply@citywide.com.au with CV and cover letter; no dated vacancy, so labelled speculative with verified company civil infrastructure work."
+   ],
+   "caution": "No dated vacancy; keep labelled as speculative standing invite."
+  },
+  "advert": {
+   "source": "employer_careers",
+   "listed_at": "2026-10-16T00:00:00+11:00",
+   "expires_at": "",
+   "verified_at": "2026-10-15T23:29:23.000Z",
+   "apply_instructions": "Email apply@citywide.com.au with CV/resume and cover letter.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Confirm this stays a labelled speculative enquiry",
+   "Attach the resume and cover letter PDFs",
+   "Send only to apply@citywide.com.au if lease, Gmail duplicate and PDF checks pass",
+   "Do not use citywide@citywide.com.au",
+   "Record the Gmail message id as SENT; follow up once after 8 days if no reply"
+  ],
+  "notes": "Employers rotation tick 20261015T2320Z. SEEK digest had only three never-screened ads; Auspro and both Rickard roles failed keep rules (experience gaps). Citywide graduates page lists civil engineering graduates and cadets and publishes apply@citywide.com.au. No dated vacancy, labelled speculative.\nChecked 16 Oct 2026 AEDT (tick 20261015T2320Z employers rotation extras). Graduates page publishes apply@citywide.com.au for CV and cover letter. citywide@citywide.com.au is the general head office email and was not used. No named engineering contact email published. Tracker check: new employer.\nHOW GROK AI FOUND THIS\nFound on employer_careers (listed 2026-10-16). Contact: the application inbox apply@citywide.com.au published by the employer (https://www.citywide.com.au/work-with-us/graduates/); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Speculative enquiry: graduate civil engineer or civil cadet (Melbourne) role on your website.\n• They may ask about: No paid Australian civil infrastructure employer experience → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_careers (listed 2026-10-16). Contact: the application inbox apply@citywide.com.au published by the employer (https://www.citywide.com.au/work-with-us/graduates/); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Speculative enquiry: graduate civil engineer or civil cadet (Melbourne) role on your website.",
+   "They may ask about: No paid Australian civil infrastructure employer experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-15T23:29:23.000Z",
+  "duplicate_key": "citywideservicesolutions|citywide.com.au/work-with-us/graduates"
+ },
+ {
+  "id": "e832abe1-204e-4973-a66d-78caae0e9e88",
+  "key": "manual:e832abe1-204e-4973-a66d-78caae0e9e88",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261015T2320Z",
+  "created_at": "2026-10-15T23:29:27.000Z",
+  "updated_at": "2026-10-15T23:29:27.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "45204296-dea7-41d5-a7c5-12a497e8c9af",
+    "path": "/api/documents/45204296-dea7-41d5-a7c5-12a497e8c9af",
+    "filename": "Marc_Masarate_Daracon_Group_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-15T23:29:28.845Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "c348f950-956b-456f-ad86-59e8a84d6ba6",
+    "path": "/api/documents/c348f950-956b-456f-ad86-59e8a84d6ba6",
+    "filename": "Marc_Masarate_Daracon_Group_Speculative_enquiry_graduate_civil_engin_Cover_Letter.pdf",
+    "sha256": "fa65e83164825ba0c0f774a2d39172c928a7fa50cfcaeeea8e17854904bf69c1",
+    "size_bytes": 47199,
+    "kind": "cover",
+    "uploaded_at": "2026-10-15T23:29:28.011Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Daracon Group",
+  "role": "Speculative enquiry: graduate civil engineer via Cadet Pathway (NSW)",
+  "location": "Hunter / Sydney NSW",
+  "job_url": "https://daracon.com.au/careers/tertiary-pathway",
+  "company_url": "https://daracon.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Careers inbox",
+  "recipient_email": "careers@daracon.com.au",
+  "contact_email": "careers@daracon.com.au",
+  "contact_evidence_url": "https://daracon.com.au/careers/vacancies/environment-coordinator",
+  "contact_verified_at": "2026-10-15T23:29:27.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Expression of interest: graduate civil engineer, Marc Masarate",
+  "email_body": "Hello,\n\nThis is a speculative enquiry rather than a reply to a dated graduate advert. Your Cadet Pathway page describes a Graduate role for final year students, and your vacancy pages publish this careers address for applications, so I am registering interest in a graduate civil role with Daracon.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, including residential subdivision finishing works. I am based in Melton VIC, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am open to discussing relocation for the right role and available for site and regional work.\n\nSubdivision, road and civil construction delivery is the work I want to grow in. I am not currently on your cadet pathway, so I would start at graduate level if you have capacity.\n\nI've attached my resume and cover letter. Could you keep me in mind for a graduate civil opening or advise the best next step on your pathway?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Daracon Cadet Pathway ends in a Graduate role for final year students and publishes careers@daracon.com.au for applications; Marc holds BSCE and has finished the Advanced Diploma, so a graduate EOI fits the pathway intent.",
+   "Civil construction, subdivision and road delivery match his site coordination and civil design coursework.",
+   "No active graduate vacancy on GradConnection or the careers boards checked this tick; labelled speculative after employers rotation found no junior advert at Daracon."
+  ],
+  "gaps": [
+   "Not currently on Daracon cadet pathway",
+   "NSW base; Marc is Melton VIC and open to discussing relocation"
+  ],
+  "match_score": {
+   "percent": 70,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Daracon Cadet Pathway ends in a Graduate role for final year students and publishes careers@daracon.com.au for applications; Marc holds BSCE and has finished the Advanced Diploma, so a graduate EOI fits the pathway intent.",
+    "Civil construction, subdivision and road delivery match his site coordination and civil design coursework.",
+    "No active graduate vacancy on GradConnection or the careers boards checked this tick; labelled speculative after employers rotation found no junior advert at Daracon."
+   ],
+   "caution": "Pathway is structured for students progressing through labourer and cadet stages; Marc is not a current Daracon cadet, so this is a labelled EOI only."
+  },
+  "advert": {
+   "source": "employer_careers",
+   "listed_at": "2026-10-16T00:00:00+11:00",
+   "expires_at": "",
+   "verified_at": "2026-10-15T23:29:27.000Z",
+   "apply_instructions": "Email careers@daracon.com.au as published on Daracon vacancy pages.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Confirm this stays a labelled speculative enquiry",
+   "Confirm with Marc that NSW relocation is discussable before any send",
+   "Attach the resume and cover letter PDFs",
+   "Send only to careers@daracon.com.au if lease, Gmail duplicate and PDF checks pass",
+   "Record the Gmail message id as SENT; follow up once after 8 days if no reply"
+  ],
+  "notes": "Employers rotation tick 20261015T2320Z (Abergeldie, Daracon, Ertech, Highway Construction, Bild Group, Delplant). No open junior civil advert on those boards. Daracon Cadet Pathway describes a Graduate step; vacancy pages publish careers@daracon.com.au. GradConnection shows no active Daracon graduate opportunity. Labelled speculative.\nChecked 16 Oct 2026 AEDT. Vacancy pages publish careers@daracon.com.au for direct applications. Cadet Pathway page describes labourer to cadet to graduate steps; GradConnection shows no active Daracon graduate opportunity today. No personal mailboxes guessed. Tracker check: new employer.\nHOW GROK AI FOUND THIS\nFound on employer_careers (listed 2026-10-16). Contact: the application inbox careers@daracon.com.au published by the employer (https://daracon.com.au/careers/vacancies/environment-coordinator); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Speculative enquiry: graduate civil engineer via Cadet Pathway (NSW) role on your website.\n• They may ask about: Not currently on Daracon cadet pathway → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: NSW base; Marc is Melton VIC and open to discussing relocation → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_careers (listed 2026-10-16). Contact: the application inbox careers@daracon.com.au published by the employer (https://daracon.com.au/careers/vacancies/environment-coordinator); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Speculative enquiry: graduate civil engineer via Cadet Pathway (NSW) role on your website.",
+   "They may ask about: Not currently on Daracon cadet pathway → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: NSW base; Marc is Melton VIC and open to discussing relocation → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-15T23:29:27.000Z",
+  "duplicate_key": "daracongroup|daracon.com.au/careers/tertiary-pathway"
+ }
+]

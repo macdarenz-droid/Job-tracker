@@ -1,0 +1,42 @@
+[
+ {
+  "id": "citywide-grad-civil-eoi-20261016",
+  "source": "employer_careers",
+  "company": "Citywide Service Solutions",
+  "title": "Speculative enquiry: graduate civil engineer or civil cadet (Melbourne)",
+  "location": "North Melbourne VIC / Melbourne metro",
+  "url": "https://www.citywide.com.au/work-with-us/graduates/",
+  "listed_at": "2026-10-16T00:00:00+11:00",
+  "expires_at": "",
+  "content_text": "Citywide graduates page: graduate roles and entry level opportunities including Civil infrastructure (civil engineering graduates and cadets, asphalters and road workers). Apply by emailing apply@citywide.com.au with CV/resume and cover letter. Head office 294 Arden Street North Melbourne VIC 3051. Citywide builds and maintains civil infrastructure, roads, parks and open space for Victorian communities.",
+  "apply_instructions": "Email apply@citywide.com.au with CV/resume and a cover letter setting out skills, experience, interests, ambitions and alignment to Values.",
+  "screening_questions": [],
+  "is_expired": false,
+  "is_link_out": false,
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ },
+ {
+  "id": "daracon-grad-pathway-eoi-20261016",
+  "source": "employer_careers",
+  "company": "Daracon Group",
+  "title": "Speculative enquiry: graduate civil engineer via Cadet Pathway (NSW)",
+  "location": "Hunter / Sydney NSW (Daracon Group)",
+  "url": "https://daracon.com.au/careers/tertiary-pathway",
+  "listed_at": "2026-10-16T00:00:00+11:00",
+  "expires_at": "",
+  "content_text": "Daracon Cadet Pathway: join as casual civil labourer from first year, apply for Cadet in third year, eligible to apply for Graduate role in final year. GradConnection lists no active graduate opportunities. Vacancy pages publish careers@daracon.com.au for direct applications. Daracon is a NSW civil construction group delivering subdivision, road, rail and infrastructure works from Beresfield, Auburn, Hunter Valley and Gunnedah.",
+  "apply_instructions": "Email careers@daracon.com.au (published on Daracon vacancy pages: Click Apply Now or email your application directly to careers@daracon.com.au).",
+  "screening_questions": [],
+  "is_expired": false,
+  "is_link_out": false,
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ }
+]

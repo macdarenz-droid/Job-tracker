@@ -1,0 +1,28 @@
+{
+ "built": [
+  [
+   "43061b51-65ee-4aa5-8b36-ad0f8103fe55",
+   "Citywide Service Solutions",
+   "Speculative enquiry: graduate civil engineer or civil cadet (Melbourne)",
+   "PREPARED_NOT_SENT"
+  ],
+  [
+   "e832abe1-204e-4973-a66d-78caae0e9e88",
+   "Daracon Group",
+   "Speculative enquiry: graduate civil engineer via Cadet Pathway (NSW)",
+   "PREPARED_NOT_SENT"
+  ]
+ ],
+ "rejected": [],
+ "tracker": {
+  "version": 216,
+  "updated_at": "2026-10-15T23:29:30.651Z",
+  "result": {
+   "added": [
+    "43061b51-65ee-4aa5-8b36-ad0f8103fe55",
+    "e832abe1-204e-4973-a66d-78caae0e9e88"
+   ],
+   "skipped": []
+  }
+ }
+}

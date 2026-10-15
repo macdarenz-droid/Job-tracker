@@ -1,0 +1,29 @@
+{
+  "id": "citywide-grad-civil-eoi-20261016",
+  "percent": 78,
+  "rationale": [
+    "Citywide graduates page expressly lists civil engineering graduates and cadets among entry pathways, matching Marc's Advanced Diploma and BSCE plus site experience.",
+    "Melbourne head office at North Melbourne is a strong location fit from Melton with White Card, licence and transport.",
+    "Standing invite to email apply@citywide.com.au with CV and cover letter; no dated vacancy, so labelled speculative with verified company civil infrastructure work."
+  ],
+  "caution": "No dated vacancy; keep labelled as speculative standing invite.",
+  "gaps": [
+    "No paid Australian civil infrastructure employer experience"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "EMAIL",
+  "apply_email": "apply@citywide.com.au",
+  "apply_instructions": "Email apply@citywide.com.au with CV/resume and cover letter.",
+  "open": true,
+  "employer_is_agency": false,
+  "company_work_verified": true,
+  "company": "Citywide Service Solutions",
+  "title": "Speculative enquiry: graduate civil engineer or civil cadet (Melbourne)",
+  "location": "North Melbourne VIC / Melbourne metro",
+  "url": "https://www.citywide.com.au/work-with-us/graduates/",
+  "listed_at": "2026-10-16T00:00:00+11:00",
+  "expires_at": "",
+  "screening_questions": [],
+  "source": "employer_careers"
+}

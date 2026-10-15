@@ -62,9 +62,9 @@
       "company_url": "https://bild.group/",
       "careers_url": "https://bild.group/careers/browse-careers/",
       "board": "HiBob ATS at bildgroup.careers.hibob.com",
-      "checked_at": "2026-10-14",
+      "checked_at": "2026-10-15",
       "result": "none",
-      "notes": "20261014T1215Z: Open web only (HiBob board not re-read): no graduate or junior civil advert found; graduate program referenced in capability statement only. No new record.",
+      "notes": "20261015T2320Z: HiBob board: estimator, PMs, leading hands, plant; no graduate or junior civil. info@bild.group on careers footer not stated as applications inbox.",
       "open_junior_roles": []
     },
     "Delplant": {
@@ -73,7 +73,7 @@
       "board": "none (own site, employment form)",
       "checked_at": "2026-10-15",
       "result": "none",
-      "notes": "20261015T0316Z: careers page lists Labourers, Pipelayers, Plant Operators, Crew Leaders (5+ yrs), Project Managers & Project Engineers (degree + 5 yrs water), Truck Driver. Graduate Site Engineer mirrors still show applications temporarily paused (published ~28 Sep 2026). Employment form at delplant.com.au/employment-form publishes delplant@delplant.com.au. Tracker already has REJECTED Graduate Site Engineer (17 Sep 2026) within 90-day repeat block. No new record.",
+      "notes": "20261015T2320Z: Labourers, pipelayers, plant, crew leaders, PM/PE (degree + 5 yrs water). Graduate Site Engineer already REJECTED/READY on tracker. No new junior open.",
       "open_junior_roles": []
     },
     "TGM Group": {
@@ -234,26 +234,26 @@
     },
     "Abergeldie": {
       "careers_url": "https://abergeldie.com/careers/current-opportunities",
-      "checked_at": "2026-10-02",
-      "notes": "Current opportunities page JS-empty; third-party mirrors for QLD graduate civil require completed civil degree and QLD licence; browse.py chromium missing on box",
+      "checked_at": "2026-10-15",
+      "notes": "20261015T2320Z: Current opportunities page empty of listed roles (WebFetch); Prosple/Jobstore show 2026 graduate intakes closed. No junior civil open.",
       "open_junior_roles": []
     },
     "Daracon": {
       "careers_url": "https://daracon.com.au/careers/tertiary-pathway",
-      "checked_at": "2026-10-14",
-      "notes": "20261014T1215Z: Open web: only experienced Site Engineer (3 to 4 years) and Structures Project Engineer roles; cadet pathway is for current tertiary students. No new record.",
+      "checked_at": "2026-10-15",
+      "notes": "20261015T2320Z: Cadet Pathway standing; GradConnection no active graduate opportunity. Vacancy pages publish careers@daracon.com.au. SPECULATIVE PREPARED_NOT_SENT this tick.",
       "open_junior_roles": []
     },
     "Ertech": {
       "careers_url": "https://jobs.ertech.com.au/en/listing/",
-      "checked_at": "2026-10-14",
-      "notes": "20261014T1215Z: PageUp board 1097 listing read with curl: no graduate, cadet or drafter role (2027 Graduate Program Civil not listed; Site Engineer roles need 2 to 5 years). No new record.",
+      "checked_at": "2026-10-15",
+      "notes": "20261015T2320Z: PageUp board: no graduate program listed; Site Engineer 493592 needs 2-5 years and TfNSW roads. No junior open.",
       "open_junior_roles": []
     },
     "Highway Construction": {
       "careers_url": "https://www.highwayconstruction.com.au/",
-      "checked_at": "2026-10-02",
-      "notes": "No careers board or open junior/graduate advert found; contact admin@hicon.com.au is general website contact only",
+      "checked_at": "2026-10-15",
+      "notes": "20261015T2320Z: No careers board or junior advert; admin@hicon.com.au is general website contact only, not used for applications.",
       "open_junior_roles": []
     },
     "Water Technology": {
@@ -2293,6 +2293,58 @@
         "Costin Roe Consulting"
       ],
       "outcome": "2 new: SGP READY_JEREMIE_SEEK; Costin Roe PREPARED_NOT_SENT speculative. No send (canonical-journal lease inaccessible)."
+    },
+    {
+      "run": "20261015T2320Z",
+      "rotation": "employers",
+      "checked_at": "2026-10-15T23:30:02Z",
+      "boards": [
+        "Abergeldie",
+        "Daracon",
+        "Ertech",
+        "Highway Construction",
+        "Bild Group",
+        "Delplant",
+        "Citywide Service Solutions (open web speculative)",
+        "Auspro Steel SEEK held"
+      ],
+      "checked": [
+        {
+          "name": "Abergeldie",
+          "url": "https://abergeldie.com/careers/current-opportunities",
+          "notes": "Current opportunities page empty of listed roles (WebFetch); Prosple/Jobstore show 2026 graduate intakes closed. No junior civil open."
+        },
+        {
+          "name": "Daracon",
+          "url": "https://daracon.com.au/careers/tertiary-pathway",
+          "notes": "Cadet Pathway standing; GradConnection no active graduate opportunity. Vacancy pages publish careers@daracon.com.au. SPECULATIVE PREPARED_NOT_SENT this tick."
+        },
+        {
+          "name": "Ertech",
+          "url": "https://jobs.ertech.com.au/en/listing/",
+          "notes": "PageUp board: no graduate program listed; Site Engineer 493592 needs 2-5 years and TfNSW roads. No junior open."
+        },
+        {
+          "name": "Highway Construction",
+          "url": "https://www.highwayconstruction.com.au/",
+          "notes": "No careers board or junior advert; admin@hicon.com.au is general website contact only, not used for applications."
+        },
+        {
+          "name": "Bild Group",
+          "url": "https://bild.group/careers/browse-careers/",
+          "notes": "HiBob board: estimator, PMs, leading hands, plant; no graduate or junior civil. info@bild.group on careers footer not stated as applications inbox."
+        },
+        {
+          "name": "Delplant",
+          "url": "https://delplant.com.au/careers/",
+          "notes": "Labourers, pipelayers, plant, crew leaders, PM/PE (degree + 5 yrs water). Graduate Site Engineer already REJECTED/READY on tracker. No new junior open."
+        }
+      ],
+      "published": [
+        "Citywide Service Solutions SPECULATIVE PREPARED_NOT_SENT apply@citywide.com.au",
+        "Daracon Group SPECULATIVE PREPARED_NOT_SENT careers@daracon.com.au",
+        "Auspro Steel Civil Engineering Draftsperson HELD_ELIGIBILITY_UNCONFIRMED"
+      ]
     }
   ],
   "checks": [
@@ -2346,6 +2398,58 @@
         "JNR Civil (Epping) careers: no current junior vacancy; Mackenzie Environmental Civil Designer/Drafter needs landfill Civil 3D experience (skipped)"
       ],
       "notes": "browse.py trust permission denied on /root CA bundle; browse.py text/links worked with CHROME_BIN=/usr/bin/google-chrome."
+    },
+    {
+      "run": "20261015T2320Z",
+      "rotation": "employers",
+      "checked_at": "2026-10-15T23:30:02Z",
+      "boards": [
+        "Abergeldie",
+        "Daracon",
+        "Ertech",
+        "Highway Construction",
+        "Bild Group",
+        "Delplant",
+        "Citywide Service Solutions (open web speculative)",
+        "Auspro Steel SEEK held"
+      ],
+      "checked": [
+        {
+          "name": "Abergeldie",
+          "url": "https://abergeldie.com/careers/current-opportunities",
+          "notes": "Current opportunities page empty of listed roles (WebFetch); Prosple/Jobstore show 2026 graduate intakes closed. No junior civil open."
+        },
+        {
+          "name": "Daracon",
+          "url": "https://daracon.com.au/careers/tertiary-pathway",
+          "notes": "Cadet Pathway standing; GradConnection no active graduate opportunity. Vacancy pages publish careers@daracon.com.au. SPECULATIVE PREPARED_NOT_SENT this tick."
+        },
+        {
+          "name": "Ertech",
+          "url": "https://jobs.ertech.com.au/en/listing/",
+          "notes": "PageUp board: no graduate program listed; Site Engineer 493592 needs 2-5 years and TfNSW roads. No junior open."
+        },
+        {
+          "name": "Highway Construction",
+          "url": "https://www.highwayconstruction.com.au/",
+          "notes": "No careers board or junior advert; admin@hicon.com.au is general website contact only, not used for applications."
+        },
+        {
+          "name": "Bild Group",
+          "url": "https://bild.group/careers/browse-careers/",
+          "notes": "HiBob board: estimator, PMs, leading hands, plant; no graduate or junior civil. info@bild.group on careers footer not stated as applications inbox."
+        },
+        {
+          "name": "Delplant",
+          "url": "https://delplant.com.au/careers/",
+          "notes": "Labourers, pipelayers, plant, crew leaders, PM/PE (degree + 5 yrs water). Graduate Site Engineer already REJECTED/READY on tracker. No new junior open."
+        }
+      ],
+      "published": [
+        "Citywide Service Solutions SPECULATIVE PREPARED_NOT_SENT apply@citywide.com.au",
+        "Daracon Group SPECULATIVE PREPARED_NOT_SENT careers@daracon.com.au",
+        "Auspro Steel Civil Engineering Draftsperson HELD_ELIGIBILITY_UNCONFIRMED"
+      ]
     }
   ]
 }

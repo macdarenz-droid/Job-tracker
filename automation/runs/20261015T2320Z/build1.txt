@@ -1,0 +1,19 @@
+{
+ "built": [
+  [
+   "8b2e315d-eb02-4af1-bb7d-f8b98beec157",
+   "Citywide Service Solutions",
+   "Speculative enquiry: graduate civil engineer or civil cadet (Melbourne)",
+   "PREPARED_NOT_SENT"
+  ]
+ ],
+ "rejected": [
+  {
+   "seek_id": "daracon-grad-pathway-eoi-20261016",
+   "status": "PREPARED_NOT_SENT",
+   "issues": [
+    "email too long: 221 words (limit 220)"
+   ]
+  }
+ ]
+}

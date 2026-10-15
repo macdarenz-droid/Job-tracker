@@ -1,0 +1,17 @@
+{
+ "built": [
+  [
+   "996dddf8-6858-4c86-bb74-5aa28b31c660",
+   "Citywide Service Solutions",
+   "Speculative enquiry: graduate civil engineer or civil cadet (Melbourne)",
+   "PREPARED_NOT_SENT"
+  ],
+  [
+   "14435798-a558-4974-91fd-9cbe23c59788",
+   "Daracon Group",
+   "Speculative enquiry: graduate civil engineer via Cadet Pathway (NSW)",
+   "PREPARED_NOT_SENT"
+  ]
+ ],
+ "rejected": []
+}
