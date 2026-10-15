@@ -958,7 +958,7 @@
         {
           "name": "Diona",
           "url": "https://www.livehire.com/careers/dionaptyltd/job/FKQN4/SXI2MWAGZX/graduate-engineer",
-          "result": "Graduate Engineer Brisbane LiveHire URL returned 404 this tick; Site/Project Engineer ads require 2–5 years"
+          "result": "Graduate Engineer Brisbane LiveHire URL returned 404 this tick; Site/Project Engineer ads require 2\u20135 years"
         },
         {
           "name": "Abergeldie",
@@ -968,7 +968,7 @@
         {
           "name": "Daracon",
           "url": "https://daracon.com.au/careers/tertiary-pathway",
-          "result": "Cadet pathway page only (labourer→cadet→graduate while studying); no dated open graduate vacancy verified"
+          "result": "Cadet pathway page only (labourer\u2192cadet\u2192graduate while studying); no dated open graduate vacancy verified"
         },
         {
           "name": "Ertech",
@@ -1052,7 +1052,7 @@
         "GHD Grad Civil Structural Drafters Melbourne (Citizen/PR + closed)",
         "DTM Geocivil careers (no open roles; speculative PREPARED to info@dtmgeocivil.com.au)"
       ],
-      "notes": "Councils_government rotation. SEEK d3→d7→d14 widen. Published Global Group READY_SEEK + DTM speculative PREPARED + Blacktown HELD."
+      "notes": "Councils_government rotation. SEEK d3\u2192d7\u2192d14 widen. Published Global Group READY_SEEK + DTM speculative PREPARED + Blacktown HELD."
     },
     {
       "run_id": "20261003T2118Z",
@@ -1100,7 +1100,7 @@
           "result": "Grad program open; university recent-grad / degree recency unresolved; not published this tick"
         }
       ],
-      "notes": "Employers rotation. SEEK d3→d7→d14 max80 all already screened. Open-web: DOF READY + GPA HELD. Gmail send skipped (create_draft only). browse.py trust CA permission denied; CHROME_BIN set."
+      "notes": "Employers rotation. SEEK d3\u2192d7\u2192d14 max80 all already screened. Open-web: DOF READY + GPA HELD. Gmail send skipped (create_draft only). browse.py trust CA permission denied; CHROME_BIN set."
     },
     {
       "run_id": "20261004T0719Z",
@@ -1112,7 +1112,7 @@
         "Open-web: Egis Graduate Civil Engineer 2027 Norwest (DUP recent outreach same employer Rail READY 2026-10-01)",
         "Open-web: Osborn Consulting graduates EOI (DUP prior EOI_SENT/SENT on same careers URL)",
         "Open-web: BG&E Graduate Way early-careers EOI (READY_JEREMIE_EMPLOYER_PORTAL published)",
-        "SEEK widen d3→d7→d14 max80: never-screened junior civil exhausted or mandatory fails; published HELD Aptus mid/senior, NOTAZ 3yr drafter, Roesner 3yr drafter"
+        "SEEK widen d3\u2192d7\u2192d14 max80: never-screened junior civil exhausted or mandatory fails; published HELD Aptus mid/senior, NOTAZ 3yr drafter, Roesner 3yr drafter"
       ],
       "notes": "Councils_government rotation. SEEK widen all steps. Published BG&E READY + 3 HELD. Speculative Osborn blocked prior outreach. Gmail send held: no accessible canonical-journal lease on this box (CODEX hold-sending rule). browse.py trust skipped (CA bundle perms)."
     },
@@ -1140,11 +1140,11 @@
       "rotation": "councils_government",
       "checked_at": "2026-10-04T17:29:30Z",
       "sources": [
-        "SEEK sweep daterange 3→7→14 max80 (widening ladder); digest 24 never-screened after prior-screen skip",
-        "Parkes Shire Council Cadet Engineer ApplyNow PSC2222600 (close 11 Oct 2026) — skipped held publish: employer already has HELD Water and Wastewater Trainee",
-        "Mott MacDonald Grad Civil/Geotech Transport Melbourne — blocked recent outreach Civil Drafter READY 2026-09-12",
-        "Hansen Yuncken Construction Cadets Sydney — under threshold (must be current 2nd/3rd year student)",
-        "careers.vic / Melton MEL1888 / Wyndham / Symal Ignite / Acciona Grad 2027 — closed, already tracked, or citizenship/PR",
+        "SEEK sweep daterange 3\u21927\u219214 max80 (widening ladder); digest 24 never-screened after prior-screen skip",
+        "Parkes Shire Council Cadet Engineer ApplyNow PSC2222600 (close 11 Oct 2026) \u2014 skipped held publish: employer already has HELD Water and Wastewater Trainee",
+        "Mott MacDonald Grad Civil/Geotech Transport Melbourne \u2014 blocked recent outreach Civil Drafter READY 2026-09-12",
+        "Hansen Yuncken Construction Cadets Sydney \u2014 under threshold (must be current 2nd/3rd year student)",
+        "careers.vic / Melton MEL1888 / Wyndham / Symal Ignite / Acciona Grad 2027 \u2014 closed, already tracked, or citizenship/PR",
         "GTE Employment Services Junior Designer/Estimator SEEK 95023805 PREPARED_NOT_SENT (recruitment@gteaustralia.com from advert)",
         "BAE Systems 2027 Engineering Graduate Program HELD_MANDATORY_REQUIREMENTS (Australian citizenship)"
       ],
@@ -2125,6 +2125,59 @@
         "Chris Smith & Associates careers page (surveyor roles; resumes to admin@csmith.com.au; speculative published)"
       ],
       "outcome": "2 new: Moonee Valley READY_JEREMIE_EMPLOYER_PORTAL; CS&A PREPARED_NOT_SENT speculative. City of Adelaide Design Drafter held skipped (employer already held). No send (canonical-journal lease inaccessible)."
+    },
+    {
+      "run_id": "20261015T1317Z",
+      "rotation": "councils_government",
+      "checked_at": "2026-10-15T13:28:40Z",
+      "checked": [
+        {
+          "name": "Gunnedah Shire Council Civil Survey & Design Officer GSC657",
+          "url": "https://gunnedah.applynow.net.au/jobs/GSC657-civil-survey-design-officer-cadet-or-graduate-opportunity-available",
+          "result": "already tracked"
+        },
+        {
+          "name": "Parkes Shire Council Cadet Engineer PSC2222600",
+          "url": "https://parkes.applynow.net.au/jobs/PSC2222600-cadet-engineer",
+          "result": "closed"
+        },
+        {
+          "name": "Parkes Shire Council Project Engineer PSC2222655",
+          "url": "https://parkes.applynow.net.au/jobs/PSC2222655-project-engineer-fixed-term-infrastructure",
+          "result": "published READY_JEREMIE_EMPLOYER_PORTAL fit 64"
+        },
+        {
+          "name": "City of Newcastle Graduate Engineer Asset Services CN4940 / Contracts CN4942",
+          "url": "https://newcastle.applynow.net.au/",
+          "result": "Bachelor of Engineering + EA admission required; same employer already HELD Cadet; skipped"
+        },
+        {
+          "name": "Baw Baw Graduate Engineer BAW594",
+          "url": "https://applynow.net.au/jobs/BAW594-graduate-engineer",
+          "result": "closed"
+        },
+        {
+          "name": "Dubbo Design Engineer / Mildura DEO / Geraldton Grad Eng Officer",
+          "url": "careersatcouncil",
+          "result": "already tracked or held"
+        },
+        {
+          "name": "DesignDevise careers (Melbourne)",
+          "url": "https://designdevise.com.au/careers/",
+          "result": "published SPECULATIVE PREPARED_NOT_SENT to contact@designdevise.com.au fit 66"
+        },
+        {
+          "name": "Westera Partners / Osborn Consulting",
+          "url": "careers pages",
+          "result": "Westera URL already tracked; Osborn emailed 12 Sep within 90-day block"
+        }
+      ],
+      "seek": "d3/60 then widen d7/60 and d14/80; only 2 never-screened SEEK ads (DMD Draftsperson 28, Guidera Graduate Estimator 32)",
+      "published": [
+        "Parkes Project Engineer READY_JEREMIE_EMPLOYER_PORTAL",
+        "DesignDevise speculative PREPARED_NOT_SENT"
+      ],
+      "send": "none: canonical-journal lease inaccessible"
     }
   ],
   "history": [

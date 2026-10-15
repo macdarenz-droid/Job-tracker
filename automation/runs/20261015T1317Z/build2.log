@@ -1,0 +1,20 @@
+{
+ "built": [
+  [
+   "b2698c41-79fb-41b6-8c34-9048e677ff5d",
+   "Parkes Shire Council",
+   "Project Engineer (Fixed Term), Infrastructure",
+   "READY_JEREMIE_EMPLOYER_PORTAL"
+  ]
+ ],
+ "rejected": [
+  {
+   "seek_id": "designdevise-internship-grad-20261015",
+   "status": "PREPARED_NOT_SENT",
+   "issues": [
+    "email claims an internship",
+    "letter claims an internship"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "parkes-psc2222655",
+  "percent": 64,
+  "rationale": [
+    "Graduate-friendly Project Engineer on water and sewer capital works in regional NSW, closing 25 Oct 2026.",
+    "Degree (or equivalent), licence, White Card and work-visa pathway match; Marc can relocate for regional work.",
+    "Honest limit: little paid project-management experience and no water/sewer project history, but the advert invites graduates and university examples."
+  ],
+  "caution": "PD lists demonstrated project-management experience as essential while the advert invites graduates; no Australian water/sewer project history.",
+  "gaps": [
+    "Limited paid engineering project management experience",
+    "No water or sewer project delivery experience yet",
+    "Philippine BSCE recognition with Engineers Australia not confirmed on record"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": "",
+  "apply_instructions": "Apply via Parkes ApplyNow portal PSC2222655 with resume, cover letter and answers to the online questions before 25 Oct 2026 AEDT.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Parkes Shire Council",
+  "title": "Project Engineer (Fixed Term), Infrastructure",
+  "location": "Parkes NSW",
+  "url": "https://parkes.applynow.net.au/jobs/PSC2222655-project-engineer-fixed-term-infrastructure",
+  "listed_at": "2026-10-01T00:00:00Z",
+  "expires_at": "2026-10-25T07:00:00Z",
+  "screening_questions": [
+    "Outline your qualifications and your engineering experience relevant to this role.",
+    "Outline your experience with project planning, scheduling, procurement, contract administration, cost control, or risk management.",
+    "Please select the one statement below that best describes your right to work in Australia."
+  ]
+}

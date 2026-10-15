@@ -1,0 +1,215 @@
+[
+ {
+  "id": "c1982b2c-8b9d-48f3-b742-5920dac2ebda",
+  "key": "manual:c1982b2c-8b9d-48f3-b742-5920dac2ebda",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261015T1317Z",
+  "created_at": "2026-10-15T13:28:06.000Z",
+  "updated_at": "2026-10-15T13:28:06.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "94ca83a5-5ec9-4fcc-899e-0bbdcdd71b40",
+    "path": "/api/documents/94ca83a5-5ec9-4fcc-899e-0bbdcdd71b40",
+    "filename": "Marc_Masarate_DesignDevise_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-15T13:28:08.189Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "d5434675-afa8-46c2-aac1-f191de423fd2",
+    "path": "/api/documents/d5434675-afa8-46c2-aac1-f191de423fd2",
+    "filename": "Marc_Masarate_DesignDevise_Speculative_enquiry_graduate_civil_or_ju_Cover_Letter.pdf",
+    "sha256": "67dcc3afa17165d491cfee6ab94a7cb4968b1cc3c4faab55190e6548c1e0c32d",
+    "size_bytes": 46181,
+    "kind": "cover",
+    "uploaded_at": "2026-10-15T13:28:07.303Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "DesignDevise",
+  "role": "Speculative enquiry: graduate civil or junior design support (Melbourne)",
+  "location": "Melbourne VIC",
+  "job_url": "https://designdevise.com.au/careers/",
+  "company_url": "https://designdevise.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Careers inbox",
+  "recipient_email": "contact@designdevise.com.au",
+  "contact_email": "contact@designdevise.com.au",
+  "contact_evidence_url": "https://designdevise.com.au/careers/",
+  "contact_verified_at": "2026-10-15T13:28:06.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Expression of interest: graduate civil design support, Marc Masarate",
+  "email_body": "Hello,\n\nThis is a speculative enquiry rather than a reply to an advert. Your careers page invites recent civil and structural engineering graduates with a strong interest in design to register their interest at this address, so I am registering for graduate or junior design support in your Melbourne team.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, including residential subdivision finishing works. I am based in Melton VIC, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am available for site and office work in Melbourne.\n\nCivil and structural design documentation in a Melbourne practice is the work I want to grow in. My design work so far is from study, so I would start at graduate level.\n\nI've attached my resume and cover letter. Could you keep me in mind for any graduate or junior design support role?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Melbourne CBD civil and structural design practice invites recent civil/structural graduates to register interest for an internship via the careers page.",
+   "Location and graduate level fit Melton-based Marc with Advanced Diploma civil design and AutoCAD/Civil 3D/Revit coursework.",
+   "Contact email is published on the same careers page; no prior Gmail or tracker outreach."
+  ],
+  "gaps": [
+   "Internship vs paid junior role not stated on the page",
+   "No commercial Australian drafting production experience"
+  ],
+  "match_score": {
+   "percent": 66,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Melbourne CBD civil and structural design practice invites recent civil/structural graduates to register interest for an internship via the careers page.",
+    "Location and graduate level fit Melton-based Marc with Advanced Diploma civil design and AutoCAD/Civil 3D/Revit coursework.",
+    "Contact email is published on the same careers page; no prior Gmail or tracker outreach."
+   ],
+   "caution": "Careers page pathway is early-career registration rather than a numbered vacancy; confirm any paid junior design support before treating as a standard graduate vacancy."
+  },
+  "advert": {
+   "source": "employer_site",
+   "listed_at": "2026-10-15T00:00:00Z",
+   "expires_at": "",
+   "verified_at": "2026-10-15T13:28:06.000Z",
+   "apply_instructions": "Email contact@designdevise.com.au (published on careers page) with resume and cover letter registering interest in graduate or junior design support, or use the careers form.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Confirm contact@designdevise.com.au still published on careers page",
+   "Attach compact resume and cover letter PDFs",
+   "Send only after lease and checks if chosen as this run's email",
+   "Update tracker to SENT with gmail message id"
+  ],
+  "notes": "Open-web find on tick 20261015T1317Z (councils_government rotation) after SEEK pool daterange 3 then widen 7 and 14 with max-details 80 yielded only two never-screened SEEK ads (DMD steel detailing and Guidera mechanical/chemical estimator), both below fit. Council boards: Gunnedah and Dubbo already tracked; Parkes Cadet closed; Newcastle graduate PDs need Bachelor of Engineering with Engineers Australia admission (held pattern for this employer). DesignDevise careers page invites recent civil/structural graduates to an graduate interest pathway and publishes contact@designdevise.com.au; no numbered junior vacancy is listed today, so this is a labelled speculative enquiry.\nChecked 16 Oct 2026 AEDT. Careers page publishes contact@designdevise.com.au alongside the internship invitation. No named engineering manager email published; none guessed. Gmail in:anywhere for designdevise/design devise returned no prior contact; tracker check: new.\nHOW GROK AI FOUND THIS\nFound on employer_site (listed 2026-10-15). Contact: the application inbox contact@designdevise.com.au published by the employer (https://designdevise.com.au/careers/); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Speculative enquiry: graduate civil or junior design support (Melbourne) role on SEEK.\n• They may ask about: Internship vs paid junior role not stated on the page → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No commercial Australian drafting production experience → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_site (listed 2026-10-15). Contact: the application inbox contact@designdevise.com.au published by the employer (https://designdevise.com.au/careers/); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Speculative enquiry: graduate civil or junior design support (Melbourne) role on SEEK.",
+   "They may ask about: Internship vs paid junior role not stated on the page → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No commercial Australian drafting production experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-15T13:28:06.000Z",
+  "duplicate_key": "designdevise|designdevise.com.au/careers"
+ },
+ {
+  "id": "12d0f44e-bef0-42c6-ab4d-cc416a005061",
+  "key": "manual:12d0f44e-bef0-42c6-ab4d-cc416a005061",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261015T1317Z",
+  "created_at": "2026-10-15T13:28:09.000Z",
+  "updated_at": "2026-10-15T13:28:09.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "feebc963-f4e3-45ea-bf56-cb3b08616331",
+    "path": "/api/documents/feebc963-f4e3-45ea-bf56-cb3b08616331",
+    "filename": "Marc_Masarate_Parkes_Shire_Council_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-15T13:28:10.644Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "9e319d25-5196-460c-8c49-512fa1b70c91",
+    "path": "/api/documents/9e319d25-5196-460c-8c49-512fa1b70c91",
+    "filename": "Marc_Masarate_Parkes_Shire_Council_Project_Engineer_Fixed_Term_Infrastructu_Cover_Letter.pdf",
+    "sha256": "e8544d806c90a1e771a3f66c41e451e6e9f22e9a18e155f7ec4ca237e4f681bc",
+    "size_bytes": 52303,
+    "kind": "cover",
+    "uploaded_at": "2026-10-15T13:28:09.844Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Parkes Shire Council",
+  "role": "Project Engineer (Fixed Term), Infrastructure",
+  "location": "Parkes NSW",
+  "job_url": "https://parkes.applynow.net.au/jobs/PSC2222655-project-engineer-fixed-term-infrastructure",
+  "company_url": "https://www.parkes.nsw.gov.au/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "open",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://parkes.applynow.net.au/jobs/PSC2222655-project-engineer-fixed-term-infrastructure",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Application: Project Engineer (Fixed Term), Infrastructure, Marc Masarate",
+  "email_body": "Hello,\n\nI am applying for the Project Engineer (Fixed Term), Infrastructure role (PSC2222655) advertised on the Parkes Shire Council careers portal, closing 25 October 2026.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, including residential subdivision finishing works. I am based in Melton VIC, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am available for site and regional work.\n\nSupporting water and sewer capital projects from planning through to commissioning is the delivery work I want to grow in. I have not yet worked on water or sewer networks in Australia, so I would start as a graduate and learn those systems on the job.\n\nI've attached my resume and cover letter. I would welcome the chance to apply through your portal and discuss the role.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Graduate-friendly Project Engineer on water and sewer capital works in regional NSW, closing 25 Oct 2026.",
+   "Degree (or equivalent), licence, White Card and work-visa pathway match; Marc can relocate for regional work.",
+   "Honest limit: little paid project-management experience and no water/sewer project history, but the advert invites graduates and university examples."
+  ],
+  "gaps": [
+   "Limited paid engineering project management experience",
+   "No water or sewer project delivery experience yet",
+   "Philippine BSCE recognition with Engineers Australia not confirmed on record"
+  ],
+  "match_score": {
+   "percent": 64,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Graduate-friendly Project Engineer on water and sewer capital works in regional NSW, closing 25 Oct 2026.",
+    "Degree (or equivalent), licence, White Card and work-visa pathway match; Marc can relocate for regional work.",
+    "Honest limit: little paid project-management experience and no water/sewer project history, but the advert invites graduates and university examples."
+   ],
+   "caution": "PD lists demonstrated project-management experience as essential while the advert invites graduates; no Australian water/sewer project history."
+  },
+  "advert": {
+   "source": "applynow",
+   "listed_at": "2026-10-01T00:00:00Z",
+   "expires_at": "2026-10-25T07:00:00Z",
+   "verified_at": "2026-10-15T13:28:09.000Z",
+   "apply_instructions": "Apply via Parkes ApplyNow portal PSC2222655 with resume, cover letter and answers to the online questions before 25 Oct 2026 AEDT.",
+   "screening_questions": [
+    "Outline your qualifications and your engineering experience relevant to this role.",
+    "Outline your experience with project planning, scheduling, procurement, contract administration, cost control, or risk management.",
+    "Please select the one statement below that best describes your right to work in Australia."
+   ]
+  },
+  "screening_answers": {
+   "Outline your qualifications and your engineering experience relevant to this role.": "Advanced Diploma of Civil Construction Design (Albright Institute, completed February 2026) with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. Bachelor of Science in Civil Engineering (Divine Word College of Legazpi, Philippines, 2014 to 2019). Site experience in the Philippines 2019 to 2020 as field engineer and project-in-charge on a community hall renovation and residential subdivision finishing works, including crew coordination, drawing review, inspections and progress records.",
+   "Outline your experience with project planning, scheduling, procurement, contract administration, cost control, or risk management.": "On site in the Philippines I helped plan daily work for crews of about 10 to 15, tracked materials and progress, and kept clients updated. Coursework covered cost estimates, bills of quantities and risk registers. I have not held a paid Australian project engineer role yet and would bring that foundation to learn Parkes water and sewer delivery methods.",
+   "Please select the one statement below that best describes your right to work in Australia.": "I hold a current working visa for Australia (Subclass 485 with full working rights until December 2027)."
+  },
+  "checklist": [
+   "Open ApplyNow PSC2222655 before 25 Oct 2026 AEDT",
+   "Upload resume and cover letter PDFs",
+   "Complete online questions using screening_answers",
+   "Confirm work visa option selected (not citizen/PR)",
+   "Save confirmation receipt to Gmail and tracker"
+  ],
+  "notes": "Portal application via ApplyNow. Cover letter prepared for upload with resume.\nChecked 16 Oct 2026 AEDT (box). Portal route only; Council@parkes.nsw.gov.au is privacy/general council contact, not an applications inbox for this vacancy. No named engineering hiring contact published on the advert. No Gmail prior outreach to Parkes Shire.\nHOW GROK AI FOUND THIS\nFound on applynow (listed 2026-10-01, closes 2026-10-25). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Project Engineer (Fixed Term), Infrastructure role on SEEK.\n• They may ask about: Limited paid engineering project management experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No water or sewer project delivery experience yet → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Philippine BSCE recognition with Engineers Australia not confirmed on record → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on applynow (listed 2026-10-01, closes 2026-10-25). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Project Engineer (Fixed Term), Infrastructure role on SEEK.",
+   "They may ask about: Limited paid engineering project management experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No water or sewer project delivery experience yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Philippine BSCE recognition with Engineers Australia not confirmed on record → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-15T13:28:09.000Z",
+  "duplicate_key": "parkesshirecouncil|parkes.applynow.net.au/jobs/psc2222655-project-engineer-fixed-term-infrastructure"
+ }
+]

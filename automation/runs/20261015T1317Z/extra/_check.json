@@ -1,0 +1,50 @@
+{
+ "candidates": [
+  {
+   "id": "parkes-psc2222655",
+   "source": "applynow",
+   "company": "Parkes Shire Council",
+   "title": "Project Engineer (Fixed Term), Infrastructure",
+   "location": "Parkes NSW",
+   "url": "https://parkes.applynow.net.au/jobs/PSC2222655-project-engineer-fixed-term-infrastructure",
+   "listed_at": "2026-10-01T00:00:00Z",
+   "expires_at": "2026-10-25T07:00:00Z",
+   "content_text": "Parkes Shire Council Project Engineer (Fixed Term), Infrastructure. Job No PSC2222655. Location Parkes NSW. Closing 25 Oct 2026 AEDT. 2 year fixed-term. Salary circa $87,344-$100,446 plus civil liability allowance, super.\nWelcomes Graduate Engineers, early-career and experienced engineers. Duties: support delivery of water and sewer infrastructure from planning and design through construction and commissioning; project scoping, scheduling, cost estimation, risk management and reporting; procurement, contract administration, variations and progress claims; compliance with engineering standards, WHS, environmental, quality and regulatory requirements; technical input; coordinate consultants, contractors and internal stakeholders; monthly project reporting.\nAbout you (advert): Degree in civil engineering (or equivalent); Graduate Engineers encouraged; understanding of project delivery processes; knowledge of water and sewer infrastructure or willingness to develop; strong communication; manage competing priorities; Microsoft Office; WHS commitment; NSW Drivers Licence; White Card. Desirable: work placement or graduate experience in water and sewer, preferably Local Government.\nRight to work form options include current working visa for Australia.\nPD Essential also lists Demonstrated Experience in Engineering Project Management and Experience in Project Planning and Contract Management; advert softens this by inviting graduates and allowing university project examples in the application form.",
+   "apply_instructions": "Apply via Parkes ApplyNow portal PSC2222655 with resume, cover letter and answers to the online questions before 25 Oct 2026 AEDT.",
+   "screening_questions": [
+    "Outline your qualifications and your engineering experience relevant to this role.",
+    "Outline your experience with project planning, scheduling, procurement, contract administration, cost control, or risk management.",
+    "Please select the one statement below that best describes your right to work in Australia."
+   ],
+   "is_expired": false,
+   "is_link_out": true,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": [
+     "employer seen before: Water and Wastewater Trainee · HELD_MANDATORY_DETAILS_UNCONFIRMED · 2026-09-12"
+    ]
+   }
+  },
+  {
+   "id": "designdevise-internship-grad-20261015",
+   "source": "employer_site",
+   "company": "DesignDevise",
+   "title": "Speculative enquiry: graduate civil/structural internship or junior design support",
+   "location": "Melbourne VIC",
+   "url": "https://designdevise.com.au/careers/",
+   "listed_at": "2026-10-15T00:00:00Z",
+   "expires_at": null,
+   "content_text": "DesignDevise careers page (Melbourne CBD): invites structural engineers, architects and draftspersons to collaborate. Quote: If you are a recent civil/structural engineering graduate and have strong interest in design, we encourage you to apply for an internship role at DesignDevise. Please fill in the form to register your interest. Contact published on same page: contact@designdevise.com.au, LEVEL 1, 530 LITTLE COLLINS STREET, MELBOURNE VIC 3000, 0481 222 990. Chartered Civil and Structural Engineers with Engineers Australia.",
+   "apply_instructions": "Email contact@designdevise.com.au (published on careers page) with resume and cover letter registering interest in graduate/internship design support, or use the careers form.",
+   "screening_questions": [],
+   "is_expired": false,
+   "is_link_out": true,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
+  }
+ ]
+}
