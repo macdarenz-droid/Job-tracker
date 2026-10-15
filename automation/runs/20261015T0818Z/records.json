@@ -1,0 +1,107 @@
+[
+ {
+  "id": "68e0a878-326e-4d53-975f-d4c788eea5cb",
+  "key": "manual:68e0a878-326e-4d53-975f-d4c788eea5cb",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261015T0818Z",
+  "created_at": "2026-10-15T08:28:19.000Z",
+  "updated_at": "2026-10-15T08:28:19.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "da974740-d2df-412d-ad32-5af923b67b03",
+    "path": "/api/documents/da974740-d2df-412d-ad32-5af923b67b03",
+    "filename": "Marc_Masarate_Cossill_Webley_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-15T08:28:21.503Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "b4f2bc90-080a-4bd4-99cd-fd91148f43c7",
+    "path": "/api/documents/b4f2bc90-080a-4bd4-99cd-fd91148f43c7",
+    "filename": "Marc_Masarate_Cossill_Webley_Speculative_enquiry_graduate_civil_engin_Cover_Letter.pdf",
+    "sha256": "1bc9594b477104d3a0ebb2693b0a975ab9f7492146e21914a7922c3c2cf08d75",
+    "size_bytes": 47969,
+    "kind": "cover",
+    "uploaded_at": "2026-10-15T08:28:20.643Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Cossill & Webley",
+  "role": "Speculative enquiry: graduate civil engineer or design engineer, urban development (Melbourne or Geelong)",
+  "location": "Melbourne or Geelong VIC",
+  "job_url": "https://www.cossillwebley.com.au/careers/current-opportunities/",
+  "company_url": "https://www.cossillwebley.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Careers inbox",
+  "recipient_email": "careers@cosweb.com.au",
+  "contact_email": "careers@cosweb.com.au",
+  "contact_evidence_url": "https://www.cossillwebley.com.au/careers/graduate-program/",
+  "contact_verified_at": "2026-10-15T08:28:19.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Expression of interest: graduate civil engineer, Marc Masarate",
+  "email_body": "Hello,\n\nThis is a speculative enquiry rather than a reply to an advert. Your graduate program page invites a covering letter and resume at this address, so I am registering my interest in a graduate civil or design engineering role in your Melbourne or Geelong team.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, including residential subdivision finishing works. I am based in Melton VIC, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am also available for site and regional work.\n\nDesigning roads and drainage for new outer suburban communities is the work I want to grow in. My design work so far is from study, so I would start at graduate level.\n\nI've attached my resume and cover letter. Could you keep me in mind for your end of year graduate intake or any junior design role?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Speculative enquiry to an employee-owned civil consultancy whose urban development work is the planning, design and delivery of roads, drainage and infrastructure for growing outer metropolitan communities, matching Marc's Advanced Diploma road, earthworks, pavement and stormwater design in AutoCAD and Civil 3D.",
+   "Its graduate program page says graduate engineers are typically recruited at mid-year and end-of-year and invites a covering letter and resume to careers@cosweb.com.au; pathways include design engineering, drafting and construction engineering.",
+   "Melbourne and Geelong offices are both within reach of Melton, so no relocation is needed."
+  ],
+  "gaps": [
+   "No paid civil design or drafting experience yet; design work is Advanced Diploma coursework",
+   "No Australian site experience; site work was in the Philippines 2019 to 2020",
+   "12D, PC Convey and sewer design not on record",
+   "Bachelor degree completed 2019; Engineers Australia chartership pathway not on record"
+  ],
+  "match_score": {
+   "percent": 74,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Speculative enquiry to an employee-owned civil consultancy whose urban development work is the planning, design and delivery of roads, drainage and infrastructure for growing outer metropolitan communities, matching Marc's Advanced Diploma road, earthworks, pavement and stormwater design in AutoCAD and Civil 3D.",
+    "Its graduate program page says graduate engineers are typically recruited at mid-year and end-of-year and invites a covering letter and resume to careers@cosweb.com.au; pathways include design engineering, drafting and construction engineering.",
+    "Melbourne and Geelong offices are both within reach of Melton, so no relocation is needed."
+   ],
+   "caution": "No graduate vacancy is listed today (only Senior Design Engineer and a Perth EOI), so this is a clearly labelled speculative enquiry. The program is described as flexible around university study; Marc has finished his studies. Design work is from study, not a paid role; site work was under one year in the Philippines. 12D and PC Convey are named for senior roles and are not on record for Marc."
+  },
+  "advert": {
+   "source": "employer_careers",
+   "listed_at": "2026-10-15",
+   "expires_at": "",
+   "verified_at": "2026-10-15T08:28:19.000Z",
+   "apply_instructions": "Email a covering letter and resume to careers@cosweb.com.au as invited on the Graduate Program and Current Opportunities pages. Label clearly as a speculative enquiry.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Confirm this stays a labelled speculative enquiry, not an application for an advertised vacancy",
+   "Confirm with Marc that Melbourne CBD or Geelong office work suits",
+   "Attach the resume and cover letter PDFs",
+   "Send only to careers@cosweb.com.au and only if the lease, Gmail duplicate and PDF checks pass",
+   "Record the Gmail message id as SENT; follow up once after 8 days if no reply"
+  ],
+  "notes": "Open-web find on tick 20261015T0818Z (councils and government rotation) after the SEEK pool (3, 7 and 14 day sweeps, 88 detailed) and council boards yielded no publishable advert. Cossill & Webley's graduate program page invites a covering letter and resume at careers@cosweb.com.au and says graduates are typically recruited at mid-year and end-of-year; no graduate vacancy is listed today, so this is a labelled speculative enquiry.\nChecked 15 Oct 2026 AEDT. Both the Graduate Program page and the Current Opportunities page ('No current openings? We'd still love to hear from you. Send your CV to careers@cosweb.com.au') publish this inbox for applications. No named engineering contact email is published, so none was used or guessed. Gmail search in:anywhere for cosweb / Cossill found no prior contact; tracker.py check: new employer.\nHOW GROK AI FOUND THIS\nFound on employer_careers (listed 2026-10-15). Contact: the application inbox careers@cosweb.com.au published by the employer (https://www.cossillwebley.com.au/careers/graduate-program/); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Speculative enquiry: graduate civil engineer or design engineer, urban development (Melbourne or Geelong) role on SEEK.\n• They may ask about: No paid civil design or drafting experience yet; design work is Advanced Diploma coursework → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian site experience; site work was in the Philippines 2019 to 2020 → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: 12D, PC Convey and sewer design not on record → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_careers (listed 2026-10-15). Contact: the application inbox careers@cosweb.com.au published by the employer (https://www.cossillwebley.com.au/careers/graduate-program/); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Speculative enquiry: graduate civil engineer or design engineer, urban development (Melbourne or Geelong) role on SEEK.",
+   "They may ask about: No paid civil design or drafting experience yet; design work is Advanced Diploma coursework → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian site experience; site work was in the Philippines 2019 to 2020 → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: 12D, PC Convey and sewer design not on record → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-15T08:28:19.000Z",
+  "duplicate_key": "cossillwebley|cossillwebley.com.au/careers/current-opportunities"
+ }
+]

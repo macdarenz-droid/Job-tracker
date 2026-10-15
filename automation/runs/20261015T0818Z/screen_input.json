@@ -1,0 +1,611 @@
+{
+ "count": 8,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "95273551",
+   "company": "A One Earthworks",
+   "title": "Site Engineer / Project Engineer - Bulk Earthworks & Civil Infrastructure",
+   "run": "20261015T0316Z",
+   "percent": 42,
+   "mandatory_unmet": [
+    "2+ years civil construction or heavy infrastructure experience"
+   ]
+  },
+  {
+   "id": "95263024",
+   "company": "Appoint",
+   "title": "Civil Project / Site Engineers | Major Infrastructure Projects",
+   "run": "20261014T0711Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Proven experience as a Project Engineer or Site Engineer on major civil infrastructure projects",
+    "Strong local experience delivering civil construction projects within Australia",
+    "Must already be based in Brisbane with unrestricted Australian working rights"
+   ]
+  },
+  {
+   "id": "95254965",
+   "company": "Amey Australia",
+   "title": "Civil Designer",
+   "run": "20261014T0711Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Around 3+ years' experience in civil design/drafting",
+    "Practical experience using 12d Model"
+   ]
+  },
+  {
+   "id": "95193608",
+   "company": "Talent Web Property",
+   "title": "Project Engineer - Civil Construction",
+   "run": "20261012T0512Z",
+   "percent": 42,
+   "mandatory_unmet": [
+    "Experienced project engineer level"
+   ]
+  },
+  {
+   "id": "95279840",
+   "company": "Exclusive Construction Machinery and Equipment Pty Ltd",
+   "title": "Full-Time Civil Engineering Technician",
+   "run": "20261015T0316Z",
+   "percent": 48,
+   "mandatory_unmet": [
+    "Minimum 2 years of relevant experience in civil engineering technical support, earthworks, site preparation, drainage works or civil construction"
+   ]
+  },
+  {
+   "id": "95250866",
+   "company": "MJB Industries Pty Ltd",
+   "title": "Civil Engineering Draftsperson / CAD Draftsperson",
+   "run": "20261014T0215Z",
+   "percent": 48,
+   "mandatory_unmet": [
+    "Minimum of 1 year proven experience in a similar Civil Engineering Draftsperson / CAD Draftsperson role",
+    "Must reside in the South West region (Australind WA)"
+   ]
+  },
+  {
+   "id": "95247893",
+   "company": "Burton Contractors",
+   "title": "Site Engineer - Civil",
+   "run": "20261014T0215Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Previous experience as a Site Engineer within the civil construction industry (essential)"
+   ]
+  },
+  {
+   "id": "95236566",
+   "company": "CGC Recruitment",
+   "title": "12D Civil Designer",
+   "run": "20261013T1117Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Minimum 5 years civil design experience",
+    "Strong 12D Model proficiency"
+   ]
+  },
+  {
+   "id": "95207745",
+   "company": "Yellow Iron Fleet",
+   "title": "Civil Project Engineer",
+   "run": "20261012T1538Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "Minimum 3 years' experience in civil construction (Marc has about 1 year, Philippines)"
+   ]
+  },
+  {
+   "id": "95204746",
+   "company": "Scotford Fennessy Recruitment",
+   "title": "Civil Designer",
+   "run": "20261012T1538Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Experience in a Perth engineering consultancy, 2 to 5 years"
+   ]
+  },
+  {
+   "id": "95248394",
+   "company": "New Horizon Construction",
+   "title": "Civil Site Engineer – Road Construction",
+   "run": "20261014T0215Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "At least three years experience as a Site Engineer or Project Engineer in civil construction with a strong focus on road works"
+   ]
+  },
+  {
+   "id": "95243160",
+   "company": "Damcon Pty Ltd",
+   "title": "Site Engineer/Project Engineer – FRP Civil Projects - competitive salary",
+   "run": "20261013T1634Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "3+ years' experience in civil infrastructure with a strong focus on FRP delivery"
+   ]
+  },
+  {
+   "id": "95229171",
+   "company": "Morson Edge",
+   "title": "Civil Site Engineer - Wind Farm",
+   "run": "20261013T0611Z",
+   "percent": 32,
+   "mandatory_unmet": [
+    "Previous experience as a Civil Engineer or Site Engineer on major construction projects"
+   ]
+  },
+  {
+   "id": "95205064",
+   "company": "Verra Recruitment Pty Ltd",
+   "title": "Civil Project Engineer - FIFO | Defence Infrastructure",
+   "run": "20261012T1538Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Australian citizen or permanent resident"
+   ]
+  },
+  {
+   "id": "95278407",
+   "company": "SITZLER Pty Ltd",
+   "title": "Civil Project Engineer WA",
+   "run": "20261015T0316Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Demonstrated track record in project controls, programming, QA, contract administration, quantity surveying or engineering at this level"
+   ]
+  },
+  {
+   "id": "95277981",
+   "company": "ENGCO Projects",
+   "title": "Civil Site Engineer - Immediate Start",
+   "run": "20261015T0316Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "2 to 5 years of site-based experience in civil construction"
+   ]
+  },
+  {
+   "id": "95261349",
+   "company": "PERSOL",
+   "title": "Structural Drafter ",
+   "run": "20261014T0711Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "Proven experience as a Structural Drafter within a structural engineering consultancy (mid to senior level)"
+   ]
+  },
+  {
+   "id": "95260251",
+   "company": "Aurizon",
+   "title": "Engineer (Civil / Structural)",
+   "run": "20261014T0711Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Approximately 2-8 years' experience in a civil or structural engineering role (mandatory)"
+   ]
+  },
+  {
+   "id": "95220430",
+   "company": "Red Fox Advisory",
+   "title": "Civil Technician (Full-Time)",
+   "run": "20261013T0114Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Minimum 5 to 7 years' employment experience in civil design and engineering",
+    "Professional membership with Engineers Australia"
+   ]
+  },
+  {
+   "id": "95219778",
+   "company": "John Holland",
+   "title": "Civil Project Engineer",
+   "run": "20261013T0114Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Extensive project engineering experience in rail construction"
+   ]
+  },
+  {
+   "id": "95192276",
+   "company": "Kingston Human Capital",
+   "title": "(PO3) Civil Engineer",
+   "run": "20261012T0512Z",
+   "percent": 50,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95270683",
+   "company": "City of Adelaide",
+   "title": "Design Drafter",
+   "run": "20261014T1712Z",
+   "percent": 62,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95261369",
+   "company": "Kehoe Myers Consulting Engineers",
+   "title": "Civil Engineer",
+   "run": "20261014T0711Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "A minimum of 2 years' relevant industry experience",
+    "Experience administering civil construction contracts including Superintendent's Representative"
+   ]
+  },
+  {
+   "id": "95254019",
+   "company": "Van Der Meer Consulting",
+   "title": "Structural Draftsperson",
+   "run": "20261014T0711Z",
+   "percent": 10,
+   "mandatory_unmet": [
+    "Minimum 3 years structural drafting experience in a consultancy",
+    "Minimum 3 years Revit experience",
+    "Australian Citizen or Permanent Resident"
+   ]
+  },
+  {
+   "id": "95233585",
+   "company": "United Rentals Australia Pty Ltd",
+   "title": "Civil Engineer",
+   "run": "20261013T0611Z",
+   "percent": 48,
+   "mandatory_unmet": [
+    "3-5 years of experience in civil engineering, ideally temporary works"
+   ]
+  },
+  {
+   "id": "95231028",
+   "company": "Fyfe Pty Ltd",
+   "title": "Civil Engineer - relocate to Darwin",
+   "run": "20261013T0611Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "94972033",
+   "company": "Smart Built",
+   "title": "Civil Engineer",
+   "run": "20261013T0611Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "At least five years of post-qualification professional civil engineering experience"
+   ]
+  },
+  {
+   "id": "95195904",
+   "company": "Alchemy Recruitment Consulting Pty Ltd",
+   "title": "Civil Engineers | Road Delivery | Multiple Opportunities",
+   "run": "20261012T1538Z",
+   "percent": 52,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95193925",
+   "company": "Public Sector People",
+   "title": "PO3 Civil Engineer (Nerang)",
+   "run": "20261012T0512Z",
+   "percent": 55,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95251274",
+   "company": "JMT Civil",
+   "title": "Civil Estimator",
+   "run": "20261014T0215Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "5+ years experience in Civil Estimating"
+   ]
+  },
+  {
+   "id": "95250417",
+   "company": "Parklife Metro DC",
+   "title": "Undergraduate Engineer",
+   "run": "20261014T0215Z",
+   "percent": 38,
+   "mandatory_unmet": [
+    "Undergraduate Engineer pathway (currently enrolled undergraduate engineer)"
+   ]
+  },
+  {
+   "id": "95246875",
+   "company": "MidCoast Council",
+   "title": "Development Engineer",
+   "run": "20261014T0215Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Experience in development engineering, development assessment or a related civil engineering environment"
+   ]
+  },
+  {
+   "id": "95228191",
+   "company": "Chandler Macleod",
+   "title": "Road Infrastructure Engineers | Multiple Contract Opportunities",
+   "run": "20261013T0611Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Experience delivering engineering, maintenance, rehabilitation or infrastructure projects at PO3-PO5 level"
+   ]
+  },
+  {
+   "id": "95221945",
+   "company": "DUOQS",
+   "title": "Junior Estimator - Graduate",
+   "run": "20261013T0114Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "Minimum of 1 year of construction/building experience (Marc has under one year, April 2019 to February 2020)"
+   ]
+  },
+  {
+   "id": "95220594",
+   "company": "The Constructive Collective NSW Pty Ltd",
+   "title": "Civil Estimator",
+   "run": "20261013T0114Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "3 to 10 years' experience in estimating within civil infrastructure"
+   ]
+  },
+  {
+   "id": "95273111",
+   "company": "Central Highlands Regional Council",
+   "title": "Civil Construction Trainee",
+   "run": "20261014T2213Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Must not hold a qualification equal to or higher than Certificate III in Civil Construction in the same field: Marc holds an Advanced Diploma of Civil Construction Design"
+   ]
+  },
+  {
+   "id": "95255080",
+   "company": "Brunel",
+   "title": "Site Engineer",
+   "run": "20261014T0711Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Previous experience as a Site Engineer within civil construction"
+   ]
+  },
+  {
+   "id": "95202759",
+   "company": "Rain Consulting Pty Ltd",
+   "title": "Project Engineer or Scientist, Stormwater & Water Management Melbourne, hybrid",
+   "run": "20261012T0512Z",
+   "percent": 40,
+   "mandatory_unmet": [
+    "3 to 7 years stormwater experience"
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "id": "95281671",
+   "source": "seek",
+   "title": "Civil Designer",
+   "company": "Shifted Designs",
+   "location": "Subiaco, Perth WA",
+   "url": "https://www.seek.com.au/job/95281671",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-15T03:48:38.908Z",
+   "expires_at": "2026-11-14T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Experienced Civil Designer to produce detailed civil engineering designs using AutoCAD and Civil 3D.",
+   "opening": "Why work with us:\nAt Shifted Designs, we strive to shift the way we think, operate, and design. We're a growing civil engineering consultancy focused on delivering practical, innovative and sustainable solutions across a diverse range of projects.\nOur team values collaboration, initiative and continuous improvement. In return, we offer a supportive workplace, opportunities for professional growth, exposure to varied and rewarding projects, and a genuine chance to help shape the future of our business.\nThe Role:\nWe are seeking an experienced Civil Designer to produce detailed civil engineering designs and drawing packages using AutoCAD and Civil 3D. You will work closely with engineers and project managers on a range of residential, commercial and industrial developments, helping deliver high-quality design solutions from concept through to construction documentation.\nQualifications & Exp",
+   "key_lines": [
+    "We are seeking an experienced Civil Designer to produce detailed civil engineering designs and drawing packages using AutoCAD and Civil 3D. You will work closely with engineers and project managers on a range of residential, commercial and industrial developments, helping deliver high-quality design solutions from concept through to construction documentation.",
+    "Qualifications & Experience:",
+    "- Minimum 6 years' experience as a Civil Designer within an Australian engineering consultancy environment.",
+    "- Must be proficient in both AutoCAD and Civil 3D.",
+    "- Demonstrated experience in the design and documentation of commercial and/or residential land development projects.",
+    "- Experience in stormwater, earthworks, roads and subdivision design will be highly regarded.",
+    "- Prepare detailed civil engineering designs and documentation for a range of residential, commercial and industrial development projects.",
+    "- Use AutoCAD and Civil 3D to prepare detailed and precise civil drawings for earthworks, road, drainage and subdivision design.",
+    "- Develop and maintain Civil 3D models, surfaces, pipe networks and design data.",
+    "- Liaise closely with engineers and project managers to deliver practical and cost-effective design solutions.",
+    "- Ensure all drawings and documentation comply with company standards, relevant Australian Standards and client requirements.",
+    "- Work alongside a close-knit team of friendly, experienced and motivated engineers",
+    "- Competitive remuneration package commensurate with experience and expertise.",
+    "- Visa Sponsorship: Nomination for temporary work visa and/or Permanent Residency will be considered for eligible candidates"
+   ]
+  },
+  {
+   "id": "95285182",
+   "source": "seek",
+   "title": "Civil Designer",
+   "company": "City of Newcastle",
+   "location": "Newcastle, Newcastle, Maitland & Hunter NSW",
+   "url": "https://www.seek.com.au/job/95285182",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-15T04:54:17.705Z",
+   "expires_at": "2026-11-01T12:59:59.000Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Lead the design and delivery of civil infrastructure projects that shape Newcastle's future, from concept to construction.",
+   "opening": "At City of Newcastle (CN), you won't just design roads, drainage networks, cycleways and recreational infrastructure, you'll help create the places where our community lives, works and connects. This is an exciting opportunity to bring your technical expertise, creativity and project management skills to a role that delivers lasting outcomes for one of Australia's most vibrant and evolving cities.\nAs a member of our team, you won't just work for the city; you’ll co-create it. Here, your ideas and efforts directly shape the places where you and your community live, work, and play.\nWe currently have two permanent Civil Designer opportunities available within our team.\nAs a Civil Designer, you will take a lead role in the design and delivery of a diverse range of civil infrastructure projects. From initial investigations and concept development through to detailed design, approvals and cons",
+   "key_lines": [
+    "This role offers the opportunity to influence the future of Newcastle by delivering infrastructure that improves connectivity, enhances public spaces and supports a growing city. You'll apply your expertise to project investigations, design development, cost estimates, environmental assessments and planning approvals while ensuring compliance with relevant standards, legislation and best-practice design principles.",
+    "Beyond project delivery, you'll play an important role in strengthening capability across the team by sharing your knowledge, supporting less experienced designers and contributing to innovation and continuous improvement. You'll help foster a collaborative environment where safety, excellence and creative problem-solving are valued and encouraged.",
+    "You’ll get to experience your work up close alongside the brilliant minds of your colleagues who care for one another and the region.",
+    "Whether we’re planning to host major events, providing essential services or supporting creative artists, it’s what we do when the cameras aren't rolling that matters most.",
+    "We champion inclusion so that everyone is valued, and we encourage innovation and creativity. We are committed to creating a safe and inclusive workplace where different styles, backgrounds, experiences, and perspectives are valued, encouraged, and respected.",
+    "People with diverse lived experiences (including but not limited to, Aboriginal and Torres Strait Islander Australians, people with diverse gender identities and sexualities, people from different cultural, racial, ethnic, religious and linguistic backgrounds, people with disability, carers, and veterans) are encouraged to apply.",
+    "If you need any adjustments to be made to the recruitment process or if you would like to discuss any accessibility requirements, please contact recruit@ncc.nsw.gov.au for a confidential discussion.",
+    "You must have the right to live and work in Australia to apply for this job."
+   ]
+  },
+  {
+   "id": "95287525",
+   "source": "seek",
+   "title": "Civil Engineer/Civil Drafter",
+   "company": "Bayside Group",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/95287525",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-15T06:14:20.744Z",
+   "expires_at": "2026-11-14T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Find meaningful rail projects in Queensland with a great team and flexible work options.",
+   "opening": "Queensland’s rail network is entering an exciting period of growth - and we’re working with highly regarded clients who have secured key projects that will help shape and strengthen the state’s rail infrastructure for decades to come.\nWe’re now looking to connect with experienced Civil Drafters, Civil Engineers and Designers who have genuine Queensland rail experience and want to be part of something with real longevity.\nThis is an opportunity to join an established, highly regarded organisation with an excellent culture, working alongside kind, collaborative and genuinely passionate engineering professionals. While some WFH flexibility is available, the focus is on continuing to grow a strong and connected Brisbane-based team, with the benefits of working together in the office.\nWe’re particularly interested in people with experience across:\n - Rail infrastructure and associated civil w",
+   "key_lines": [
+    "We’re now looking to connect with experienced Civil Drafters, Civil Engineers and Designers who have genuine Queensland rail experience and want to be part of something with real longevity.",
+    "We’re particularly interested in people with experience across:",
+    "- Queensland rail projects, standards and requirements",
+    "The work extends well beyond the immediate pipeline of major projects and events. You’ll have the opportunity to contribute to infrastructure that will support Queensland’s growing transport network for many years to come.",
+    "To be considered, you will need to have solid Australian experience, ideally within the Queensland rail sector, along with unrestricted Australian working rights. Unfortunately, visa sponsorship or candidates with restrictive work rights cannot be considered for these opportunities.",
+    "If you’re an experienced rail professional, confident in 12D and ready for your next challenge, I’d love to have a confidential conversation.",
+    "Please call Michelle Murphy on 0418 205 682 for a confidential discussion or apply now."
+   ]
+  },
+  {
+   "id": "95288046",
+   "source": "seek",
+   "title": "Civil Designers/Civil Engineers - Multiple QLD opportunities!",
+   "company": "Bayside Group",
+   "location": "Townsville, Northern QLD",
+   "url": "https://www.seek.com.au/job/95288046",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-15T06:32:29.985Z",
+   "expires_at": "2026-11-14T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [],
+   "summary": "Seeking passionate Civil Designers and Civil Engineers in Townsville to join a rapidly growing and supportive team.",
+   "opening": "We have opportunities for Civil Designers and talented Civil Engineers to work across a variety of projects in Townsville.\nBayside Group is partnering with our client, an established civil engineering and design consultancy with a strong presence in regional Queensland. They deliver practical, high-quality outcomes across infrastructure and land development work, with a genuine focus on supporting local communities.\nThis is a chance to join a team that values professionalism, safety, and doing the job properly. You will work alongside experienced designers, engineers and project leaders, working on incredible projects in Townsville, and nationally.\nThe Civil Designer will manage the civil design and drafting across a range of projects, producing high-quality plans, documentation and design deliverables. Detailed calculations and preparation of documentation for clients and authorities, w",
+   "key_lines": [
+    "This is a chance to join a team that values professionalism, safety, and doing the job properly. You will work alongside experienced designers, engineers and project leaders, working on incredible projects in Townsville, and nationally.",
+    "The Civil Designer will manage the civil design and drafting across a range of projects, producing high-quality plans, documentation and design deliverables. Detailed calculations and preparation of documentation for clients and authorities, working closely with Engineers, Project Managers, clients and other stakeholders. Prior relevant experience with 12D software, AutoCAD, and MS Office.",
+    "The Civil Engineer or Principal Civil Engineer will bring relevant and strong Australian experience from a Tier 1 or Tier 2 engineering consultancy. They will be a superior communicator with exposure to a variety of different projects.",
+    "To submit your application in strict confidence, click the 'apply' button. If you require further information, please contact Michelle Murphy on 0418 205 682 for a confidential chat."
+   ]
+  },
+  {
+   "id": "95283992",
+   "source": "seek",
+   "title": "Civil Designer",
+   "company": "Ausenco Services",
+   "location": "Warabrook, Newcastle, Maitland & Hunter NSW",
+   "url": "https://www.seek.com.au/job/95283992",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-15T04:15:07.862Z",
+   "expires_at": "2026-11-14T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Join Ausenco in Newcastle as a Civil Designer, delivering innovative civil design solutions across exciting mining projects.",
+   "opening": "Ausenco is a fast-growing company with big ideas. We redefine what’s possible in some of the world’s most complex projects and toughest environments. Delivering innovative, value-add consulting, project delivery, asset operations and maintenance solutions is what we do. From 21 offices in 9 countries, with projects in over 80 locations worldwide, we create sustainable outcomes for our people, clients and communities.\nAs a result of a growing pipeline of awarded work, are currently recruiting for a Civil Designer to join our Newcastle team. \nAbout the Role\n- Develop earthworks, drainage, and roadway design solutions that meet client specifications and project requirements.\n- Ensure all design outputs and documentation are accurate, complete, and aligned with project standards.\n- Uphold consistent drafting practices by adhering to Ausenco’s design and documentation standards across all pro",
+   "key_lines": [
+    "- Develop earthworks, drainage, and roadway design solutions that meet client specifications and project requirements.",
+    "- Mentor and assist graduate engineers and designers to foster their professional growth.",
+    "- Minimum of 5 years’ experience in earthworks, roadworks, and drainage design within industries such as mining, mineral processing, materials handling, or heavy industrial.",
+    "- Advanced Diploma in Engineering or equivalent qualification is desirable.",
+    "- Proven expertise in Civil 3D and AutoCAD is essential. 12D experience with a willingness to upskill in Civil 3D my be considered for the right candidate,",
+    "As a global company we embrace and encourage diversity in its fullest sense – gender identity, gender expression, sexual orientation, age, experience, nationality, colour, language, religion, location, disability, education, skills, working styles and time availability. Our work environments are based on mutual trust and respect for the rights and opportunities of every individual."
+   ]
+  },
+  {
+   "id": "95284704",
+   "source": "seek",
+   "title": "Project Engineer – Water & Civil Infrastructure",
+   "company": "Total HRM",
+   "location": "Albury, Albury Area NSW",
+   "url": "https://www.seek.com.au/job/95284704",
+   "work_type": "Full time",
+   "salary": "$101k – $117k + Super + Packaging",
+   "listed_at": "2026-10-15T04:40:35.089Z",
+   "expires_at": "2026-11-14T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a project engineer?",
+    "How many years experience in Civil Construction do you have?",
+    "Do you have Project Leadership experience?",
+    "Have you completed a qualification in engineering?",
+    "Have you completed a qualification in construction management?",
+    "Do you hold a Construction Induction Safety certificate (White Card)?",
+    "Do you have a current Australian driver's licence?",
+    "How many years' experience do you have as a Water and Wastewater Engineer?"
+   ],
+   "summary": "Manage civil and water infrastructure projects end-to-end with full lifecycle ownership.",
+   "opening": "About the role\nManage civil and water infrastructure projects from scoping through to commissioning. Suits an engineer who wants full lifecycle ownership, not just one phase of delivery.\nAbout the Company\nA large, well-resourced regional NSW council delivering a continuous, funded pipeline of civil and water infrastructure.\nKey responsibilities\n- Manage civil and water projects end-to-end\n- Develop business cases and scopes\n- Prepare technical specifications\n- Oversee consultants and contractors\n- Control budgets, programs and risk\nSkills & Experience\n- Degree in civil or water engineering\n- Project delivery across design and construction\n- Ability to manage full project lifecycle\n- Consultant, contractor or utility background\n- Strong stakeholder and commercial judgment\nBenefits\n- Full ownership from concept to commissioning\n- Continuous funded project pipeline\n- Competitive remuneratio",
+   "key_lines": [
+    "Skills & Experience",
+    "- Degree in civil or water engineering",
+    "How to Apply",
+    "Click APPLY or contact Jacqui Spence at Total HRM on 1800 868 254 for a confidential discussion, quoting the role title."
+   ]
+  },
+  {
+   "id": "95286262",
+   "source": "seek",
+   "title": "Civil Engineer",
+   "company": "Urbanise WA Pty Ltd",
+   "location": "Perth WA",
+   "url": "https://www.seek.com.au/job/95286262",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-15T05:32:21.203Z",
+   "expires_at": "2026-11-14T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a civil engineer?",
+    "How much notice are you required to give your current employer?",
+    "Do you have experience working on civil infrastructure projects?",
+    "Do you have a current Australian driver's licence?"
+   ],
+   "summary": "Experienced Civil Engineer to deliver land development and infrastructure projects across WA.",
+   "opening": "About the role\nUrbanise WA is a Western Australia–focused civil engineering consultancy, delivering innovative and practical design solutions across land development and infrastructure projects, with offices in Perth and Margaret River. We are seeking an experienced and motivated Civil Engineer to join our team, delivering land development projects across WA while contributing to a collaborative and high-performing environment.\nKey responsibilities\n- Prepare engineering designs, specifications, calculations and technical reports\n- Deliver civil engineering projects including subdivisions, drainage, utilities and roadworks\n- Support project delivery and maintain strong client relationships\n- Contribute to a positive and collaborative team culture\nAbout you\n- Degree in Civil Engineering (or equivalent)\n- 5+ years' relevant experience in WA land development projects\n- Excellent written and ",
+   "key_lines": [
+    "Urbanise WA is a Western Australia–focused civil engineering consultancy, delivering innovative and practical design solutions across land development and infrastructure projects, with offices in Perth and Margaret River. We are seeking an experienced and motivated Civil Engineer to join our team, delivering land development projects across WA while contributing to a collaborative and high-performing environment.",
+    "- Degree in Civil Engineering (or equivalent)",
+    "- 5+ years' relevant experience in WA land development projects",
+    "- Competitive salary package based on your skills and experience",
+    "How to Apply:"
+   ]
+  },
+  {
+   "id": "95287636",
+   "source": "seek",
+   "title": "Graduate Engineer, Piling",
+   "company": "ACCIONA Australia",
+   "location": "Brisbane QLD",
+   "url": "https://www.seek.com.au/job/95287636",
+   "work_type": "Full time",
+   "salary": "+ Super + Project Allowance ",
+   "listed_at": "2026-10-15T06:18:10.221Z",
+   "expires_at": "2026-11-14T06:18:08.000Z",
+   "is_expired": false,
+   "is_link_out": true,
+   "screening_questions": [],
+   "summary": "Civil Engineering degree or similar, with a geotechnical focus (Must have graduate by January 2027)\n",
+   "opening": "ACCIONA is a global company, leading in the development of regenerative infrastructure that creates a positive impact on society. Our workforce consists of more than 65,000 professionals, present in more than 40 countries across the five continents, all contributing to our mission to design a better planet. Are you a passionate individual who wants to make a difference, promote sustainable development, and find solutions to the biggest global challenges, including climate change, overpopulation, and water scarcity? Come and join us in building the infrastructure our planet needs to achieve a sustainable future.\nGeotech, one of Acciona' s specialist businesses with over fifty years of experience at the frontlines of design and delivery. The range of expertise includes foundation piling, basement construction, ground improvement, ground anchors, water infrastructure construction and more.\n",
+   "key_lines": [
+    "Geotech, one of Acciona' s specialist businesses with over fifty years of experience at the frontlines of design and delivery. The range of expertise includes foundation piling, basement construction, ground improvement, ground anchors, water infrastructure construction and more.",
+    "We are looking for a Graduate Engineer to join our Geotech business, this role requires you to have total flexibility and able to support projects across Australia in regional locations.",
+    "- Administer bored pile, CFA, driven, sheet piling and ground improvement works to safety, environmental and quality requirements",
+    "- Administer ground anchoring, soil nails, slope stabilisation and grout curtain works to safety, environmental and quality requirements",
+    "Qualification and Competencies",
+    "- Civil Engineering degree or similar, with a geotechnical focus (Must have graduate by January 2027)",
+    "- Current driver licence and access to a reliable vehicle",
+    "- Ability to achieve a successful Pre-Employment Medical and National Crime Check is required."
+   ]
+  }
+ ]
+}

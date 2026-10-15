@@ -1,0 +1,39 @@
+{
+  "id": "95284704",
+  "percent": 20,
+  "rationale": [
+    "Agency, experienced project engineer",
+    "Scored against facts.json with resume-fit-v2.",
+    "Full lifecycle project management of civil and water projects; experienced PE"
+  ],
+  "caution": "Full lifecycle project management of civil and water projects; experienced PE",
+  "gaps": [
+    "Full lifecycle project management of civil and water projects; experienced PE"
+  ],
+  "mandatory_unmet": [
+    "Full lifecycle project management of civil and water projects; experienced PE"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "",
+  "open": true,
+  "employer_is_agency": true,
+  "company": "Total HRM",
+  "title": "Project Engineer \u2013 Water & Civil Infrastructure",
+  "location": "Albury, Albury Area NSW",
+  "url": "https://www.seek.com.au/job/95284704",
+  "listed_at": "2026-10-15T04:40:35.089Z",
+  "expires_at": "2026-11-14T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a project engineer?",
+    "How many years experience in Civil Construction do you have?",
+    "Do you have Project Leadership experience?",
+    "Have you completed a qualification in engineering?",
+    "Have you completed a qualification in construction management?",
+    "Do you hold a Construction Induction Safety certificate (White Card)?",
+    "Do you have a current Australian driver's licence?",
+    "How many years' experience do you have as a Water and Wastewater Engineer?"
+  ]
+}

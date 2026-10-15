@@ -1,0 +1,29 @@
+{
+  "id": "95287525",
+  "percent": 25,
+  "rationale": [
+    "Agency, experienced QLD rail",
+    "Scored against facts.json with resume-fit-v2.",
+    "Experienced civil drafters/engineers with genuine Queensland rail experience"
+  ],
+  "caution": "Experienced civil drafters/engineers with genuine Queensland rail experience",
+  "gaps": [
+    "Experienced civil drafters/engineers with genuine Queensland rail experience"
+  ],
+  "mandatory_unmet": [
+    "Experienced civil drafters/engineers with genuine Queensland rail experience"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "",
+  "open": true,
+  "employer_is_agency": true,
+  "company": "Bayside Group",
+  "title": "Civil Engineer/Civil Drafter",
+  "location": "Brisbane QLD",
+  "url": "https://www.seek.com.au/job/95287525",
+  "listed_at": "2026-10-15T06:14:20.744Z",
+  "expires_at": "2026-11-14T12:59:59.999Z",
+  "screening_questions": []
+}

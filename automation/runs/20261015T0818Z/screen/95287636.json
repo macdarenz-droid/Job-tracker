@@ -1,0 +1,29 @@
+{
+  "id": "95287636",
+  "percent": 50,
+  "rationale": [
+    "Graduate level and regional flexibility fit, but required skills are piling-specific experience",
+    "Scored against facts.json with resume-fit-v2.",
+    "Employer Workday advert (job 20102333) lists required demonstrated experience in piling foundations, FRP for cast in-situ piles, ground anchors and soil nailing, Pile Integrity Testing and ground anchor testing; Marc has none of these"
+  ],
+  "caution": "Employer Workday advert (job 20102333) lists required demonstrated experience in piling foundations, FRP for cast in-situ piles, ground anchors and soil nailing, Pile Integrity Testing and ground anchor testing; Marc has none of these",
+  "gaps": [
+    "Employer Workday advert (job 20102333) lists required demonstrated experience in piling foundations, FRP for cast in-situ piles, ground anchors and soil nailing, Pile Integrity Testing and ground anchor testing; Marc has none of these"
+  ],
+  "mandatory_unmet": [
+    "Employer Workday advert (job 20102333) lists required demonstrated experience in piling foundations, FRP for cast in-situ piles, ground anchors and soil nailing, Pile Integrity Testing and ground anchor testing; Marc has none of these"
+  ],
+  "mandatory_unresolved": [],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": "",
+  "apply_instructions": "",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "ACCIONA Australia",
+  "title": "Graduate Engineer, Piling",
+  "location": "Brisbane QLD",
+  "url": "https://www.seek.com.au/job/95287636",
+  "listed_at": "2026-10-15T06:18:10.221Z",
+  "expires_at": "2026-11-14T06:18:08.000Z",
+  "screening_questions": []
+}
