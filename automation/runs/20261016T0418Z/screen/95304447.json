@@ -1,0 +1,32 @@
+{
+  "id": "95304447",
+  "percent": 28,
+  "rationale": [
+    "Title says Junior but body seeks intermediate to senior consulting experience across land development, water, transport or rail.",
+    "Recruitment agency (Fynde Talent) with no named employer; config subtracts for agencies.",
+    "Marc lacks intermediate consulting delivery experience in Australia."
+  ],
+  "caution": "Agency listing for experienced consultants, not a true junior vacancy.",
+  "gaps": [
+    "Intermediate/senior consulting experience required",
+    "Agency with no named employer"
+  ],
+  "mandatory_unmet": [
+    "Intermediate to senior-level consulting experience"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "SEEK apply",
+  "open": true,
+  "employer_is_agency": true,
+  "company": "Fynde Talent Limited",
+  "title": "Junior Civil Engineer",
+  "location": "Cairns, Cairns & Far North QLD",
+  "url": "https://www.seek.com.au/job/95304447",
+  "listed_at": "2026-10-16T02:07:47.122Z",
+  "expires_at": "2026-11-15T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?"
+  ]
+}

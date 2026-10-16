@@ -1,0 +1,82 @@
+[
+ {
+  "id": "diona-graduate-engineer-brisbane-PABEP",
+  "source": "employer_portal",
+  "company": "Diona",
+  "title": "Graduate Engineer",
+  "location": "Brisbane QLD",
+  "url": "https://www.livehire.com/careers/diona/job/PABEP/622NT5QQYH/graduate-engineer",
+  "listed_at": "2026-10-01",
+  "expires_at": null,
+  "content_text": "Graduate Engineer Location Brisbane QLD Full time. Join Diona project delivery team Brisbane. Specialists in cable laying, water, sewer and gas pipelines, drainage and concrete construction. Requirements: Bachelor of Civil Engineering or equivalent. Ability to communicate and liaise effectively. Good time management. Excellent written and oral communication. Apply via LiveHire portal.",
+  "apply_instructions": "Apply at https://www.livehire.com/careers/diona/job/PABEP/622NT5QQYH/graduate-engineer",
+  "screening_questions": [],
+  "is_expired": false,
+  "is_link_out": true,
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ },
+ {
+  "id": "georgiou-undergrad-graduate-eoi-sunshine-coast",
+  "source": "employer_portal",
+  "company": "Georgiou Group",
+  "title": "Undergraduate & Graduate Positions EOI (Sunshine Coast regional)",
+  "location": "Sunshine Coast QLD",
+  "url": "https://www.georgiou.com.au/careers/cadet-graduate-programs/",
+  "listed_at": "2026-09-25",
+  "expires_at": null,
+  "content_text": "Expression of interest for Undergraduate and Graduate positions at Georgiou (part of STRABAG), Sunshine Coast regional. Tertiary qualifications in Civil Engineering, Environmental Science, HSEQ, Construction Management or related. Passion for civil construction. Develop technical skills across Engineering, Project Management and Tendering. Completes competencies in Graduate Development Program. Handbook available at georgiou.com.au. Apply via Georgiou careers / EOI listing.",
+  "apply_instructions": "EOI via Georgiou careers cadet-graduate programs and advertised Sunshine Coast EOI channels",
+  "screening_questions": [],
+  "is_expired": false,
+  "is_link_out": true,
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (Undergraduate and Graduate Positions EOI · READY_JEREMIE_EMPLOYER_PORTAL · 2026-10-01)",
+   "notes": []
+  }
+ },
+ {
+  "id": "seymour-whyte-graduate-civil-qld-494959",
+  "source": "employer_portal",
+  "company": "Seymour Whyte",
+  "title": "Graduate Civil Engineer - Cressbrook Dam Safety Improvement",
+  "location": "Queensland (Toowoomba / Cressbrook Dam)",
+  "url": "https://careers.pageuppeople.com/976/cw/en/job/494959/graduate-civil-engineer",
+  "listed_at": "2026-10-06",
+  "expires_at": "2026-11-06",
+  "content_text": "Graduate Civil Engineer for Cressbrook Dam Safety Improvement Project. Seymour Whyte two-year Graduate Program. Final-year studies in Bachelor of Civil Engineering. Practical experience through internships desirable. Flexibility to travel or relocate. Right to work in Australia. Closing 6 Nov 2026. Apply via PageUp careers portal.",
+  "apply_instructions": "Apply at https://careers.pageuppeople.com/976/cw/en/job/494959/graduate-civil-engineer",
+  "screening_questions": [],
+  "is_expired": false,
+  "is_link_out": true,
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (Graduate Program - Civil Engineering · MANUAL_APPLIED · 2026-09-27)",
+   "notes": []
+  }
+ },
+ {
+  "id": "ventia-site-engineer-arndell-park",
+  "source": "open_web",
+  "company": "Ventia",
+  "title": "Site Engineer",
+  "location": "Arndell Park NSW (Western Sydney roads)",
+  "url": "https://emploive.com/jobs/5925211/site-engineer-ventia",
+  "listed_at": "2026-10-01",
+  "expires_at": null,
+  "content_text": "Ventia Site Engineer for Sydney Roads Asset Performance Contract (SRAPC). Permanent full-time. Graduates welcome. Bachelor of Engineering (Civil preferred). Current Drivers licence and White Card. Pavement-focused works including asphalt re-sheeting, stabilisation and concrete works. Site scoping, measurement, subcontractor coordination. Based Arndell Park with Western Sydney site visits. Night shifts about once a week.",
+  "apply_instructions": "Apply via Ventia careers / listing Apply Now",
+  "screening_questions": [],
+  "is_expired": false,
+  "is_link_out": true,
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ }
+]

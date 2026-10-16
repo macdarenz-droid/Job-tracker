@@ -1,0 +1,28 @@
+{
+  "id": "westera-partners-graduate-program-eoi",
+  "percent": 79,
+  "rationale": [
+    "Standing 4-year Graduate Engineering Program explicitly invites university graduates via published HR inbox.",
+    "Civil discipline and Central Victoria or Melbourne-accessible offices fit Melton base; BSCE and Advanced Diploma meet graduate entry.",
+    "No years-of-experience barrier; mentoring and accreditation pathway suit early career."
+  ],
+  "caution": "Consulting civil design depth is new versus Philippines site roles; software experience remains academic.",
+  "gaps": [
+    "No Australian consulting design experience",
+    "Academic AutoCAD and Civil 3D only"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "EMAIL",
+  "apply_email": "HR@westerapartners.com.au",
+  "apply_instructions": "Email resume, academic transcript and application letter (preferred office and discipline) to HR@westerapartners.com.au",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Westera Partners",
+  "title": "Graduate Engineer - Graduate Program (Civil)",
+  "location": "Central Victoria / Brisbane / Gold Coast / Sunshine Coast / Northern NSW",
+  "url": "https://www.westerapartners.com.au/careers/",
+  "listed_at": "2026-10-16",
+  "expires_at": null,
+  "screening_questions": []
+}

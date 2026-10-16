@@ -1,0 +1,200 @@
+[
+ {
+  "id": "972b4cba-6134-4b41-90f8-13a0b1a36b29",
+  "key": "manual:972b4cba-6134-4b41-90f8-13a0b1a36b29",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261016T0418Z",
+  "created_at": "2026-10-16T04:31:12.000Z",
+  "updated_at": "2026-10-16T04:31:12.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "8434442e-3670-4f64-9fb7-6cb35601c3aa",
+    "path": "/api/documents/8434442e-3670-4f64-9fb7-6cb35601c3aa",
+    "filename": "Marc_Masarate_Decmil_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-16T04:31:13.903Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "729c1b7e-4a7f-42b1-ba7f-975fdc334f2b",
+    "path": "/api/documents/729c1b7e-4a7f-42b1-ba7f-975fdc334f2b",
+    "filename": "Marc_Masarate_Decmil_Graduate_Engineer_next_Graduate_Developm_Cover_Letter.pdf",
+    "sha256": "3bc2d2830937844203c73796e63f44c8286eb17bd2f0e9b35c5b5f6261252950",
+    "size_bytes": 50297,
+    "kind": "cover",
+    "uploaded_at": "2026-10-16T04:31:13.044Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Decmil",
+  "role": "Graduate Engineer - next Graduate Development Program intake (Civil stream)",
+  "location": "Victoria / Western Australia / Queensland",
+  "job_url": "https://decmil.com/working-with-us/graduate-internship-program/",
+  "company_url": "https://decmil.com/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "People and Culture",
+  "recipient_email": "people.culture@decmil.com.au",
+  "contact_email": "people.culture@decmil.com.au",
+  "contact_evidence_url": "https://decmil.com/dmwp/wp-content/uploads/2025/03/Decmil-Graduate-Program-2026.pdf",
+  "contact_verified_at": "2026-10-16T04:31:12.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Expression of interest: next Graduate Development Program (Civil), Marc Masarate",
+  "email_body": "Hello People and Culture team,\n\nThis is a speculative enquiry about Decmil's next Graduate Development Program intake in the Graduate Engineer (Civil) stream. I know the prior cohort is already under way, so I am not treating this as an open advertised vacancy.\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026 with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD, after a Bachelor of Science in Civil Engineering. From 2019 to 2020 I worked in the Philippines as a field engineer and project-in-charge on building renovation and subdivision finishing works. I am based in Melton VIC, hold a White Card and an Australian driver's licence with my own transport, and have full working rights to December 2027 on a Subclass 485 visa. I am available for site, regional and FIFO work and would prefer a Victoria placement if available.\n\nYour program's hands-on civil stream into site engineer pathways is the path I am aiming for. I have not yet worked on Australian major projects, so Decmil mentoring would be essential.\n\nI've attached my resume and cover letter. If useful, please advise when the next intake opens or the right portal to register.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Decmil Graduate Engineer stream targets Civil Engineering and Construction Management graduates for site-facing infrastructure work in Victoria, WA and Queensland.",
+   "Marc holds a BSCE and Advanced Diploma completed February 2026, with Subclass 485 full working rights to December 2027, matching the full-time work visa pathway.",
+   "Hands-on site and mentoring model fits recorded site coordination background; Melton base suits Victoria placements."
+  ],
+  "gaps": [
+   "No Australian major-project site experience",
+   "Next intake dates not yet published"
+  ],
+  "match_score": {
+   "percent": 74,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Decmil Graduate Engineer stream targets Civil Engineering and Construction Management graduates for site-facing infrastructure work in Victoria, WA and Queensland.",
+    "Marc holds a BSCE and Advanced Diploma completed February 2026, with Subclass 485 full working rights to December 2027, matching the full-time work visa pathway.",
+    "Hands-on site and mentoring model fits recorded site coordination background; Melton base suits Victoria placements."
+   ],
+   "caution": "Prior Graduate Development Program cohort is already running; this pack is a speculative enquiry for the next open intake only."
+  },
+  "advert": {
+   "source": "employer_portal",
+   "listed_at": "2026-10-16",
+   "expires_at": "",
+   "verified_at": "2026-10-16T04:31:12.000Z",
+   "apply_instructions": "Speculative EOI to people.culture@decmil.com.au for the next Graduate Development Program intake; also watch https://decmil.com/working-with-us/graduate-internship-program/",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [],
+  "notes": "SPECULATIVE_ENQUIRY for next Graduate Development Program intake. Prior cohort already running. Published contact people.culture@decmil.com.au from graduate program PDF.\n2026 intake closed Nov 2025. Email is published for program information; pack is labelled SPECULATIVE_ENQUIRY for the next intake.\nHOW GROK AI FOUND THIS\nFound on employer_portal (listed 2026-10-16). Contact: the application inbox people.culture@decmil.com.au published by the employer (https://decmil.com/dmwp/wp-content/uploads/2025/03/Decmil-Graduate-Program-2026.pdf); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate Engineer - next Graduate Development Program intake (Civil stream) role on SEEK.\n• They may ask about: No Australian major-project site experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Next intake dates not yet published → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_portal (listed 2026-10-16). Contact: the application inbox people.culture@decmil.com.au published by the employer (https://decmil.com/dmwp/wp-content/uploads/2025/03/Decmil-Graduate-Program-2026.pdf); no personal address was used. Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate Engineer - next Graduate Development Program intake (Civil stream) role on SEEK.",
+   "They may ask about: No Australian major-project site experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Next intake dates not yet published → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-16T04:31:12.000Z",
+  "duplicate_key": "decmil|decmil.com/working-with-us/graduate-internship-program"
+ },
+ {
+  "id": "5a1b5bde-b955-4189-8902-9c8de1b1ca38",
+  "key": "manual:5a1b5bde-b955-4189-8902-9c8de1b1ca38",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261016T0418Z",
+  "created_at": "2026-10-16T04:31:15.000Z",
+  "updated_at": "2026-10-16T04:31:15.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "e068cd44-953b-4182-85c1-28692d6043c0",
+    "path": "/api/documents/e068cd44-953b-4182-85c1-28692d6043c0",
+    "filename": "Marc_Masarate_Diona_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-16T04:31:17.353Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "a5084c10-c3f1-41f4-93ff-a73eb69b0867",
+    "path": "/api/documents/a5084c10-c3f1-41f4-93ff-a73eb69b0867",
+    "filename": "Marc_Masarate_Diona_Graduate_Engineer_Cover_Letter.pdf",
+    "sha256": "ddf22baddd32fc41ac8ee3764c8fe83fcc8a8450ceb4650b06e074f55a621481",
+    "size_bytes": 46627,
+    "kind": "cover",
+    "uploaded_at": "2026-10-16T04:31:16.294Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Diona",
+  "role": "Graduate Engineer",
+  "location": "Brisbane QLD",
+  "job_url": "https://www.livehire.com/careers/diona/job/PABEP/622NT5QQYH/graduate-engineer",
+  "company_url": "https://diona.com/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Application: Graduate Engineer, Brisbane, Marc Darenz Masarate",
+  "email_body": "Hello Diona hiring team,\n\nI am applying for the Graduate Engineer role in Brisbane advertised on your LiveHire careers page.\n\nI finished an Advanced Diploma of Civil Construction Design in February 2026 (road geometry, earthworks, pavement and stormwater design in Civil 3D and AutoCAD) after a Bachelor of Science in Civil Engineering. From 2019 to 2020 I worked in the Philippines as a field engineer and project-in-charge on a community hall renovation and subdivision finishing works, coordinating crews, inspections and site records. I am based in Melton VIC, hold a White Card and an Australian driver's licence with my own transport, and have full working rights to December 2027 on a Subclass 485 visa. I am available for site, regional and interstate project work.\n\nYour Brisbane graduate role on utility civil construction, including pipelines, drainage and concrete works, matches the kind of hands-on project delivery I want to learn properly. I have not yet worked on Australian water, sewer or gas pipeline projects, so I would treat that as a learning curve under your team.\n\nI've attached my resume and cover letter. Happy to complete the LiveHire application steps or any further screening you need.\n\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Explicit Graduate Engineer role in Brisbane utility civil construction (pipelines, drainage, concrete) fits graduate level and civil discipline.",
+   "Bachelor of Civil Engineering or equivalent is met by Marc's BSCE plus Advanced Diploma of Civil Construction Design.",
+   "Communication and time-management criteria are soft requirements Marc can honestly meet; White Card and licence support site delivery."
+  ],
+  "gaps": [
+   "No Australian site experience",
+   "No paid water/sewer/gas pipeline construction experience"
+  ],
+  "match_score": {
+   "percent": 78,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Explicit Graduate Engineer role in Brisbane utility civil construction (pipelines, drainage, concrete) fits graduate level and civil discipline.",
+    "Bachelor of Civil Engineering or equivalent is met by Marc's BSCE plus Advanced Diploma of Civil Construction Design.",
+    "Communication and time-management criteria are soft requirements Marc can honestly meet; White Card and licence support site delivery."
+   ],
+   "caution": "No Australian site experience yet; water/sewer/gas pipeline work is new versus Philippines building and subdivision finishing."
+  },
+  "advert": {
+   "source": "employer_portal",
+   "listed_at": "2026-10-01",
+   "expires_at": "",
+   "verified_at": "2026-10-16T04:31:15.000Z",
+   "apply_instructions": "Apply at https://www.livehire.com/careers/diona/job/PABEP/622NT5QQYH/graduate-engineer",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Open LiveHire Graduate Engineer Brisbane advert",
+   "Create or sign in with macdarenz@gmail.com",
+   "Upload resume and cover letter PDFs from this pack",
+   "Confirm work rights as Subclass 485 to December 2027",
+   "Submit and save confirmation screenshot to tracker"
+  ],
+  "notes": "Portal pack for Jeremie/Marc via LiveHire. No outbound email in this tick.\nPrimary route is LiveHire Apply now. recruitment@diona.com.au is published on other Diona LiveHire adverts for learning more, not used as the apply address for this pack.\nHOW GROK AI FOUND THIS\nFound on employer_portal (listed 2026-10-01). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Graduate Engineer role on SEEK.\n• They may ask about: No Australian site experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No paid water/sewer/gas pipeline construction experience → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_portal (listed 2026-10-01). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Graduate Engineer role on SEEK.",
+   "They may ask about: No Australian site experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No paid water/sewer/gas pipeline construction experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-16T04:31:15.000Z",
+  "duplicate_key": "diona|livehire.com/careers/diona/job/pabep/622nt5qqyh/graduate-engineer"
+ }
+]

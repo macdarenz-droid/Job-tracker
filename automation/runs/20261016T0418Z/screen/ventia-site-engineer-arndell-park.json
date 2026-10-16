@@ -1,0 +1,30 @@
+{
+  "id": "ventia-site-engineer-arndell-park",
+  "percent": 0,
+  "rationale": [
+    "Site Engineer on Sydney roads maintenance explicitly welcomes graduates; Bachelor of Engineering Civil preferred is met.",
+    "Drivers licence and White Card are on facts.json; Melton base with Western Sydney site visits is realistic with transport.",
+    "Pavement asphalt and concrete works overlap civil construction coursework and site inspection background."
+  ],
+  "caution": "Official Ventia careers URL reports the Site Engineer Arndell Park vacancy has been filled (checked 2026-10-16).",
+  "gaps": [
+    "No Australian roads maintenance experience",
+    "Asphalt re-sheeting is new on a job"
+  ],
+  "mandatory_unmet": [
+    "Vacancy filled"
+  ],
+  "mandatory_unresolved": [],
+  "route": "EMPLOYER_PORTAL",
+  "apply_email": "",
+  "apply_instructions": "Apply via Ventia careers listing (see https://emploive.com/jobs/5925211/site-engineer-ventia mirror; confirm live Ventia jobs board).",
+  "open": false,
+  "employer_is_agency": false,
+  "company": "Ventia",
+  "title": "Site Engineer",
+  "location": "Arndell Park NSW (Western Sydney roads)",
+  "url": "https://emploive.com/jobs/5925211/site-engineer-ventia",
+  "listed_at": "2026-10-01",
+  "expires_at": null,
+  "screening_questions": []
+}

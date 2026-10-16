@@ -1,0 +1,39 @@
+{
+  "id": "95300899",
+  "percent": 25,
+  "rationale": [
+    "Telecommunications BIM Modeler role needing 2+ years Revit BIM and telecoms industry experience.",
+    "Marc has academic Revit/AutoCAD only and no telecommunications drafting.",
+    "Discipline mismatch dominates score."
+  ],
+  "caution": "Minimum 2 years BIM Modeler experience and telecommunications industry experience are unmet.",
+  "gaps": [
+    "2 years BIM experience",
+    "Telecoms industry",
+    "Advanced Revit production"
+  ],
+  "mandatory_unmet": [
+    "Minimum 2 years experience as a BIM Modeler, Revit Technician, CAD Designer or similar",
+    "Telecommunications industry experience"
+  ],
+  "mandatory_unresolved": [],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "SEEK apply",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "RFI",
+  "title": "Draftsperson/ BIM Modeler",
+  "location": "Seven Hills, Sydney NSW",
+  "url": "https://www.seek.com.au/job/95300899",
+  "listed_at": "2026-10-15T23:47:46.566Z",
+  "expires_at": "2026-11-15T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a BIM Draftsperson?",
+    "Have you worked in a role where you were responsible for authoring and reviewing technical documentation?",
+    "Have you completed a qualification in building design / building design drafting?",
+    "Do you have experience using BIM Software?",
+    "How many years of experience do you have in the Telecommunications Industry?"
+  ]
+}

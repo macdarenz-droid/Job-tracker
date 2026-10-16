@@ -1,0 +1,22 @@
+{
+ "built": [
+  [
+   "6ba268a9-3a85-408f-bd35-fb29f2efa9a5",
+   "Diona",
+   "Graduate Engineer",
+   "READY_JEREMIE_EMPLOYER_PORTAL"
+  ]
+ ],
+ "rejected": [
+  {
+   "seek_id": "decmil-graduate-program-eoi-next-intake",
+   "status": "PREPARED_NOT_SENT",
+   "issues": [
+    "speculative enquiry must say so",
+    "email too long: 228 words (limit 220)",
+    "email year not in facts: 2025",
+    "letter year not in facts: 2025"
+   ]
+  }
+ ]
+}

@@ -174,10 +174,10 @@
       "notes": "20261013T2111Z: Graduate Program page live; 2027 program citizenship/PR from prior note. Site Engineer TI PR VICTAS already READY 2026-10-07 (repeat block). No new unblocked junior this tick."
     },
     "Ventia": {
-      "careers_url": "https://jobs.ventia.com/global/en/graduate-program",
-      "checked_at": "2026-10-13",
+      "careers_url": "https://jobs.ventia.com/",
+      "checked_at": "2026-10-16",
       "open_junior_roles": [],
-      "notes": "20261013T2111Z: 2027 Grad closed; page promoting 2028 interest registration only. No open junior civil vacancy."
+      "notes": "Site Engineer Arndell Park filled 2026-10-16. Grad 2027 closed."
     },
     "Mackenzie Environmental": {
       "company_url": "https://www.mackenzieenvironmental.com.au/",
@@ -225,12 +225,16 @@
       "notes": "No open positions; future-opportunity CVs to info@dtmgeocivil.com.au. Speculative PREPARED_NOT_SENT this tick (20261003T1612Z)."
     },
     "Diona": {
-      "careers_url": "https://www.livehire.com/careers/diona/jobs",
-      "checked_at": "2026-10-13",
-      "notes": "20261013T2111Z: LiveHire board Cloudflare-blocked in headless browse; public listing requires Bachelor of Civil Engineering. Project Engineer Regional NSW needs 3+ years. No diploma-fit junior.",
+      "careers_url": "https://www.livehire.com/careers/diona/",
+      "checked_at": "2026-10-16",
       "open_junior_roles": [
-        "Graduate Engineer Brisbane (LiveHire; Bachelor of Civil Engineering)"
-      ]
+        {
+          "title": "Graduate Engineer",
+          "url": "https://www.livehire.com/careers/diona/job/PABEP/622NT5QQYH/graduate-engineer",
+          "location": "Brisbane QLD"
+        }
+      ],
+      "notes": "Graduate Engineer apply via LiveHire. recruitment@diona.com.au on other adverts for learn more only."
     },
     "Abergeldie": {
       "careers_url": "https://abergeldie.com/careers/current-opportunities",
@@ -600,10 +604,10 @@
       "notes": "Web search only (time budget): 2027 Graduate Programme closed 20 May 2026; Perth Project Engineer (roadworks) is experienced-level. Board not opened. Nothing saved."
     },
     "Decmil": {
-      "careers_url": "https://secure.workforceready.com.au/ta/6200346.careers?CareersSearch",
+      "careers_url": "https://decmil.com/working-with-us/graduate-internship-program/",
+      "checked_at": "2026-10-16",
       "open_junior_roles": [],
-      "notes": "Decmil (a Macmahon company) careers board (UKG Workforce Ready) shows 1 job: Contracts Administrator, North Sydney. The graduate program page still says 2026 registration is open, but that intake began Feb 2026 and requires a university degree.",
-      "checked_at": "2026-10-07"
+      "notes": "Prior graduate cohort running. people.culture@decmil.com.au on Graduate Program PDF. Speculative next-intake EOI prepared 20261016T0418Z."
     },
     "Tomkinson": {
       "careers_url": "https://tomkinson.com/about/careers/",
@@ -2251,6 +2255,20 @@
         "AT&L speculative Melbourne PREPARED_NOT_SENT (fit 66)"
       ],
       "send": "none: shared canonical-journal lease inaccessible to this runner; email sends also need Marc's explicit approval"
+    },
+    {
+      "run_id": "20261016T0418Z",
+      "rotation": "employers",
+      "checked_at": "2026-10-16T04:33:23Z",
+      "employers": [
+        "Georgiou Group",
+        "Seymour Whyte",
+        "Fulton Hogan",
+        "Downer",
+        "Ventia",
+        "Diona"
+      ],
+      "notes": "Ventia Site Engineer filled; Diona Graduate LiveHire published; Decmil speculative next intake prepared. SEEK widened d3/d7/d14."
     }
   ],
   "history": [

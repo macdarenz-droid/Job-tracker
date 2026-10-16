@@ -1,0 +1,19 @@
+{
+ "built": [
+  [
+   "2965956f-5abb-463e-8225-4883eb86c750",
+   "Diona",
+   "Graduate Engineer",
+   "READY_JEREMIE_EMPLOYER_PORTAL"
+  ]
+ ],
+ "rejected": [
+  {
+   "seek_id": "decmil-graduate-program-eoi-next-intake",
+   "status": "PREPARED_NOT_SENT",
+   "issues": [
+    "email too long: 221 words (limit 220)"
+   ]
+  }
+ ]
+}

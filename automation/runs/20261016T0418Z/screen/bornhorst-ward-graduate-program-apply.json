@@ -1,0 +1,28 @@
+{
+  "id": "bornhorst-ward-graduate-program-apply",
+  "percent": 77,
+  "rationale": [
+    "Standing Graduate Engineer program for civil graduates with mentorship and real project work in Brisbane or Melbourne.",
+    "Marc's BSCE and Advanced Diploma meet graduate entry; Melbourne office suits Melton base.",
+    "No years-of-experience mandate on the open graduate form; applications accepted annually."
+  ],
+  "caution": "Structural and civil consulting mix; Marc's paid site work was Philippines construction, not Australian consulting.",
+  "gaps": [
+    "No Australian consulting experience",
+    "Software experience is academic"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [],
+  "route": "EMPLOYER_FORM",
+  "apply_email": "mail@bornhorstward.com.au",
+  "apply_instructions": "Submit cover letter and resume via https://www.bornhorstward.com.au/apply",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Bornhorst + Ward",
+  "title": "Graduate Engineer - Graduate Program",
+  "location": "Brisbane QLD / Melbourne VIC",
+  "url": "https://www.bornhorstward.com.au/apply",
+  "listed_at": "2026-10-16",
+  "expires_at": null,
+  "screening_questions": []
+}

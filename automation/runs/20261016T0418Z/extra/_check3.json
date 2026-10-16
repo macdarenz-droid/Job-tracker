@@ -1,0 +1,42 @@
+[
+ {
+  "id": "westera-partners-graduate-program-eoi",
+  "source": "employer_portal",
+  "company": "Westera Partners",
+  "title": "Graduate Engineer - Graduate Program (Civil)",
+  "location": "Central Victoria / Brisbane / Gold Coast / Sunshine Coast / Northern NSW",
+  "url": "https://www.westerapartners.com.au/careers/",
+  "listed_at": "2026-10-16",
+  "expires_at": null,
+  "content_text": "Westera Partners 4-year Graduate Engineering Program. Mentoring by Senior Engineers, professional accreditation support, variety of civil structural and environmental projects. Apply for graduate position or undergraduate work experience by emailing resume, academic transcript and application letter (preferred office and discipline) to HR@westerapartners.com.au. Offices in Brisbane, Gold Coast, Sunshine Coast, Northern NSW and Central Victoria. Core values: Client Focus, Achieve Together, Embrace Progress, Act with Integrity, Pursue Excellence.",
+  "apply_instructions": "Email resume, academic transcript and application letter stating preferred office and discipline to HR@westerapartners.com.au",
+  "screening_questions": [],
+  "is_expired": false,
+  "is_link_out": true,
+  "duplicate": {
+   "blocked": true,
+   "reason": "same job URL already in the tracker",
+   "notes": []
+  }
+ },
+ {
+  "id": "diona-graduate-engineer-brisbane-PABEP",
+  "source": "employer_portal",
+  "company": "Diona",
+  "title": "Graduate Engineer",
+  "location": "Brisbane QLD",
+  "url": "https://www.livehire.com/careers/diona/job/PABEP/622NT5QQYH/graduate-engineer",
+  "listed_at": "2026-10-01",
+  "expires_at": null,
+  "content_text": "Graduate Engineer Location Brisbane QLD Full time. Join Diona project delivery team Brisbane. Specialists in cable laying, water, sewer and gas pipelines, drainage and concrete construction. Requirements: Bachelor of Civil Engineering or equivalent. Ability to communicate and liaise effectively. Good time management. Excellent written and oral communication. Apply via LiveHire portal.",
+  "apply_instructions": "Apply at https://www.livehire.com/careers/diona/job/PABEP/622NT5QQYH/graduate-engineer",
+  "screening_questions": [],
+  "is_expired": false,
+  "is_link_out": true,
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ }
+]
