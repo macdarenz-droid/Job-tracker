@@ -1,0 +1,208 @@
+## civil technical officer
+95117528 | Bulk Earthworks Civils Supervisor | MW Civil & Earthmoving | Perth WA | 2026-10-07T08:29:37Z | title excludes: supervisor
+95153738 | Survey Draftsperson | de Witt Central Coast Pty Ltd | Gosford, Gosford & Central Coast NSW | 2026-10-08T22:41:57Z | ok
+95322939 | Regional Project Officer | Northern Land Council | Berrimah, Darwin NT | 2026-10-16T12:26:10Z | title has no junior/civil signal
+95321831 | Senior Project Officer - Building Projects | Latrobe City Council | Moe, West Gippsland & Latrobe Valley VIC | 2026-10-16T10:42:27Z | title excludes: senior
+95321693 | Labourers, Water Cart and Roller oprerators | Tarn Civil | Bindoon, Northam & Wheatbelt WA | 2026-10-16T10:35:50Z | title excludes: labourer
+95320899 | Waterproofing Compliance Technician | Waterproofing Assurance | Mount Waverley, Melbourne VIC | 2026-10-16T09:57:36Z | title has no junior/civil signal
+95319184 | Casual Engineering Officers - Based at Various Locations | Torres Strait Island Regional Council | Cairns, Cairns & Far North QLD | 2026-10-16T08:51:20Z | ok
+95318777 | Facilities, Maintenance and WHS Officer | Kullarri Regional Communities Indigenous Corporation | Broome, Broome & Kimberley WA | 2026-10-16T08:50:11Z | title has no junior/civil signal
+95318338 | NEW! Senior Project Manager - FIFO! | In2work | Brisbane QLD | 2026-10-16T08:28:59Z | title excludes: senior
+95317960 | Civil Supervisor | Clough | Perth WA | 2026-10-16T08:15:26Z | title excludes: supervisor
+95317629 | Commercial Building Surveyor | Haste Recruitment | Parramatta, Sydney NSW | 2026-10-16T08:04:11Z | title excludes: surveyor
+95317603 | Building Surveyor | Haste Recruitment | Newcastle, Newcastle, Maitland & Hunter NSW | 2026-10-16T08:03:25Z | title excludes: surveyor
+95317475 | Site Engineer | Ertech | Sydney NSW | 2026-10-16T07:58:43Z | ok
+95317393 | Moisture Control Person (Entry Level – Road Construction) | Western Stabilisers Pty Ltd | Corrigin, Northam & Wheatbelt WA | 2026-10-16T07:56:00Z | ok
+95317108 | Geophysical Field Technician | Australian Geophysical Services Pty Ltd | Brisbane QLD | 2026-10-16T07:46:16Z | title has no junior/civil signal
+95316809 | General Manager - Civil Developments | FGI Developments | Cairns, Cairns & Far North QLD | 2026-10-16T07:36:44Z | title excludes: manager
+95316549 | Contracts Administrator – Major Projects | M2P Engineering Pty Ltd | Spring Hill, Brisbane QLD | 2026-10-16T07:26:15Z | title excludes: contracts administrator
+95316537 | Lead WA's Roads | Asphalt Supervisors + Technical Manager & Lab Techs | Unite Resourcing | Perth WA | 2026-10-16T07:25:54Z | title excludes: lead
+95316534 | Principal Civil & Drainage Engineer | pitt&sherry | Melbourne VIC | 2026-10-16T07:25:52Z | title excludes: principal
+95316105 | Civil Site Supervisor | CGC Recruitment | Northern Suburbs & Joondalup, Perth WA | 2026-10-16T07:09:43Z | title excludes: supervisor
+95316017 | Manager Works Operations | Fraser Coast Regional Council | Brisbane QLD | 2026-10-16T07:06:20Z | title excludes: manager
+95315964 | Manager Works Operations | Fraser Coast Regional Council | Maryborough, Hervey Bay & Fraser Coast QLD | 2026-10-16T07:04:22Z | title excludes: manager
+95315701 | Manager Contracts | Fraser Coast Regional Council | Hervey Bay, Hervey Bay & Fraser Coast QLD | 2026-10-16T06:55:59Z | title excludes: manager
+95315699 | Senior Civil Engineer - Roads | GHD Group | Gladstone, Gladstone & Central QLD | 2026-10-16T06:55:52Z | title excludes: senior
+95315258 | Senior Project Engineer | CPB Contractors | Brisbane QLD | 2026-10-16T06:42:26Z | title excludes: senior
+## engineering technical officer
+95225582 | Project Engineer | FIFO & Metro | TCD Civil Construction | Perth WA | 2026-10-13T02:18:42Z | ok
+95225363 | Manufacturing Production Engineer / Skilled Technician | ICSION Medical Pty Ltd | Thebarton, Adelaide SA | 2026-10-13T02:13:10Z | classification not allowed: Production, Planning & Scheduling (Manufacturing, Transport & Logistics)
+95324675 | Municipal Sales Engineer | Smith & Loveless Australia | Penrith, Sydney NSW | 2026-10-16T15:06:58Z | title excludes: sales
+95324084 | Production Technician | MineARC Systems | Kewdale, Perth WA | 2026-10-16T13:26:07Z | title has no junior/civil signal
+95322494 | QA Technician - Medical Devices | Olympus | Notting Hill, Melbourne VIC | 2026-10-16T11:38:51Z | title has no junior/civil signal
+95321621 | Engineer Mining | Rio Tinto | Newman, Port Hedland, Karratha & Pilbara WA | 2026-10-16T10:31:09Z | ok
+95319662 | Mechanical Engineering Technician | Bureau Veritas | Canning Vale, Perth WA | 2026-10-16T09:01:10Z | title excludes: mechanical
+95319702 | Safety Engineering Lead | BAE Systems | Melbourne VIC | 2026-10-16T09:00:44Z | title excludes: lead
+95319167 | Electrical Reliability Engineer | Verse Group | Perth WA | 2026-10-16T08:58:06Z | title excludes: electrical
+95319184 | Casual Engineering Officers - Based at Various Locations | Torres Strait Island Regional Council | Cairns, Cairns & Far North QLD | 2026-10-16T08:51:20Z | ok
+95318804 | Senior Production Process Engineer | So4 Pty Ltd | Wiluna, Kalgoorlie, Goldfields & Esperance WA | 2026-10-16T08:47:11Z | title excludes: senior
+95318286 | Irrigation Technician | Quokkaroo | Lameroo, Riverland & Murray Mallee SA | 2026-10-16T08:27:16Z | title has no junior/civil signal
+95318119 | Senior Project Engineer | GR Engineering Services | Brisbane QLD | 2026-10-16T08:21:42Z | title excludes: senior
+95318042 | Senior Quality Advisor Engineer | Chandler Macleod Group | Perth WA | 2026-10-16T08:19:06Z | title excludes: senior
+95318020 | Mining Engineer | Lynas Rare Earths | Perth WA | 2026-10-16T08:18:02Z | title excludes: mining engineer
+95317961 | Mechanical Project Engineer | EIG Australia | Perth WA | 2026-10-16T08:15:38Z | title excludes: mechanical
+95317475 | Site Engineer | Ertech | Sydney NSW | 2026-10-16T07:58:43Z | ok
+95317373 | Graduate Contracts Engineer - PRM | Western Process Controls | Canning Vale, Perth WA | 2026-10-16T07:55:53Z | classification not allowed: Other (Manufacturing, Transport & Logistics)
+95317380 | Senior Engineer Power Systems | BHP | Perth WA | 2026-10-16T07:55:22Z | title excludes: senior
+95317363 | Field Service Engineer | Mediquip | Osborne Park, Perth WA | 2026-10-16T07:54:43Z | title excludes: service engineer
+95317190 | Senior Mine Engineer | Alcoa | Pinjarra, Mandurah & Peel WA | 2026-10-16T07:48:57Z | title excludes: senior
+95317129 | Technical Support Officer | Engage Marine | Perth WA | 2026-10-16T07:46:49Z | title has no junior/civil signal
+95317011 | Pulley Refurbishment Coordinator | Fenner Conveyors | Somersby, Gosford & Central Coast NSW | 2026-10-16T07:43:00Z | title has no junior/civil signal
+95316822 | Mining Production Engineer | Gold Fields | Perth WA | 2026-10-16T07:36:27Z | ok
+95316150 | Sales Representative (Industrial Products) | AUSTRALIA MINING EXPORT | Geebung, Brisbane QLD | 2026-10-16T07:21:47Z | title excludes: sales
+## civil design technician
+95207745 | Civil Project Engineer | Yellow Iron Fleet | Bendigo, Bendigo, Goldfields & Macedon Ranges VIC | 2026-10-12T06:46:09Z | ok
+95082782 | Chartered Civil & Structural Design Engineer (CPeng, NER) - Precast Concrete | Civilcast | Erskine Park, Sydney NSW | 2026-10-06T05:06:52Z | ok
+95317475 | Site Engineer | Ertech | Sydney NSW | 2026-10-16T07:58:43Z | ok
+95317108 | Geophysical Field Technician | Australian Geophysical Services Pty Ltd | Brisbane QLD | 2026-10-16T07:46:16Z | title has no junior/civil signal
+95316534 | Principal Civil & Drainage Engineer | pitt&sherry | Melbourne VIC | 2026-10-16T07:25:52Z | title excludes: principal
+95316105 | Civil Site Supervisor | CGC Recruitment | Northern Suburbs & Joondalup, Perth WA | 2026-10-16T07:09:43Z | title excludes: supervisor
+95315699 | Senior Civil Engineer - Roads | GHD Group | Gladstone, Gladstone & Central QLD | 2026-10-16T06:55:52Z | title excludes: senior
+95314994 | Junior Civil Design Engineer | Bayside Group | Brisbane QLD | 2026-10-16T06:35:10Z | ok
+95314335 | Civil & Structural Engineer | Fyfe | Brisbane QLD | 2026-10-16T06:16:11Z | title excludes: structural engineer
+95314061 | Capital Delivery Inspector | Mackay Regional Council | Mackay, Mackay & Coalfields QLD | 2026-10-16T06:06:16Z | title has no junior/civil signal
+95313460 | Senior Project Engineer | Roadform Services Pty Ltd | Bibra Lake, Perth WA | 2026-10-16T05:55:26Z | title excludes: senior
+95313473 | Project Engineer | Torrens to Darlington Alliance | Adelaide SA | 2026-10-16T05:55:08Z | ok
+95312796 | Infrastructure Engineer | Chandler Macleod Group | Colac, South West Coast VIC | 2026-10-16T05:33:05Z | ok
+95312090 | Design draftsperson | TAB Resources Pty Ltd | Wollongong, Wollongong, Illawarra & South Coast NSW | 2026-10-16T05:11:26Z | ok
+95311950 | Technical and Asset Officer | Lower Eyre Council | Cummins, Whyalla & Eyre Peninsula SA | 2026-10-16T05:06:37Z | title has no junior/civil signal
+95311606 | Senior Civil Design Engineer | Bayside Group | Brisbane QLD | 2026-10-16T04:56:27Z | title excludes: senior
+95311561 | Civil Designer | Ausenco | Adelaide SA | 2026-10-16T04:55:28Z | ok
+95292717 | RPEQ Civil Engineer | Bravo Consult | Brisbane QLD | 2026-10-16T04:53:45Z | ok
+95310702 | Site Supervisor – Civil Construction | Motive civil and plant hire | Orange, Blue Mountains & Central West NSW | 2026-10-16T04:39:11Z | title excludes: supervisor
+95310513 | Civil Engineer/Designer/Drafter | Atom Resources | Parramatta, Sydney NSW | 2026-10-16T04:31:37Z | ok
+95310297 | Project Engineer | Marble | Canberra ACT | 2026-10-16T04:25:27Z | ok
+95310127 | Site Engineer - Civil Construction | Motive civil and plant hire | Orange, Blue Mountains & Central West NSW | 2026-10-16T04:24:15Z | ok
+95308976 | Civil Investigations Officer | Port Stephens Council | Raymond Terrace, Newcastle, Maitland & Hunter NSW | 2026-10-16T03:58:55Z | title has no junior/civil signal
+95308669 | Infrastructure Project Officer | City of Fremantle | Fremantle, Perth WA | 2026-10-16T03:51:51Z | title has no junior/civil signal
+95308430 | Engineering Surveyor | Premium Surveys | Perth WA | 2026-10-16T03:47:33Z | title excludes: surveyor
+## graduate civil engineer
+95205389 | Civil Inspector – Local Government Road Upgrade | Premier Commercial Solutions | Maroochydore, Sunshine Coast QLD | 2026-10-12T05:38:21Z | title has no junior/civil signal
+95308742 | Estimator | Waratah Roofing | Bibra Lake, Perth WA | 2026-10-16T03:53:45Z | ok
+95324091 | Rail Project Engineer / Manager | Hatch | Brisbane QLD | 2026-10-16T13:28:09Z | title excludes: manager
+95321831 | Senior Project Officer - Building Projects | Latrobe City Council | Moe, West Gippsland & Latrobe Valley VIC | 2026-10-16T10:42:27Z | title excludes: senior
+95321621 | Engineer Mining | Rio Tinto | Newman, Port Hedland, Karratha & Pilbara WA | 2026-10-16T10:31:09Z | ok
+95319184 | Casual Engineering Officers - Based at Various Locations | Torres Strait Island Regional Council | Cairns, Cairns & Far North QLD | 2026-10-16T08:51:20Z | ok
+95318557 | Contract Administrator | High Rise Residential | Vectura Recruitment Pty Ltd | Brisbane QLD | 2026-10-16T08:37:27Z | title excludes: contract administrator
+95318119 | Senior Project Engineer | GR Engineering Services | Brisbane QLD | 2026-10-16T08:21:42Z | title excludes: senior
+95318020 | Mining Engineer | Lynas Rare Earths | Perth WA | 2026-10-16T08:18:02Z | title excludes: mining engineer
+95317961 | Mechanical Project Engineer | EIG Australia | Perth WA | 2026-10-16T08:15:38Z | title excludes: mechanical
+95317348 | Construction Manager / Construction Administrator / Estimator | Boda Builders | Cannington, Perth WA | 2026-10-16T08:15:35Z | title excludes: manager
+95317960 | Civil Supervisor | Clough | Perth WA | 2026-10-16T08:15:26Z | title excludes: supervisor
+95317635 | Level 1 Building Surveyor | Haste Recruitment | Brisbane QLD | 2026-10-16T08:04:21Z | title excludes: surveyor
+95317629 | Commercial Building Surveyor | Haste Recruitment | Parramatta, Sydney NSW | 2026-10-16T08:04:11Z | title excludes: surveyor
+95317603 | Building Surveyor | Haste Recruitment | Newcastle, Newcastle, Maitland & Hunter NSW | 2026-10-16T08:03:25Z | title excludes: surveyor
+95317596 | Building Surveyor or BCA Consultant - Work from home | Haste Recruitment | Sydney NSW | 2026-10-16T08:03:12Z | title excludes: surveyor
+95317475 | Site Engineer | Ertech | Sydney NSW | 2026-10-16T07:58:43Z | ok
+95317430 | Graduate Exploration Geologist | Aurelia Metals | Cobar, Dubbo & Central NSW | 2026-10-16T07:57:05Z | ok
+95317393 | Moisture Control Person (Entry Level – Road Construction) | Western Stabilisers Pty Ltd | Corrigin, Northam & Wheatbelt WA | 2026-10-16T07:56:00Z | ok
+95317373 | Graduate Contracts Engineer - PRM | Western Process Controls | Canning Vale, Perth WA | 2026-10-16T07:55:53Z | classification not allowed: Other (Manufacturing, Transport & Logistics)
+95317255 | Graduate of Architecture | Renee Dunn Architect | Norman Park, Brisbane QLD | 2026-10-16T07:53:51Z | title excludes: architect
+95317244 | Post contract Quantity Surveyors (Contract Administration/ Cost Management) | Becks Wiggins Stokes | Melbourne VIC | 2026-10-16T07:50:44Z | title excludes: surveyor
+95316822 | Mining Production Engineer | Gold Fields | Perth WA | 2026-10-16T07:36:27Z | ok
+95316549 | Contracts Administrator – Major Projects | M2P Engineering Pty Ltd | Spring Hill, Brisbane QLD | 2026-10-16T07:26:15Z | title excludes: contracts administrator
+95316534 | Principal Civil & Drainage Engineer | pitt&sherry | Melbourne VIC | 2026-10-16T07:25:52Z | title excludes: principal
+## assistant engineer civil
+95152167 | Asphalt Crew Foreman | Zafa Contracting Pty Ltd | Elimbah, Brisbane QLD | 2026-10-08T18:38:49Z | title excludes: foreman
+95072909 | Construction Foreman | Winslow Constructors | Echuca, Shepparton & Goulburn Valley VIC | 2026-10-06T01:15:00Z | title excludes: foreman
+95321831 | Senior Project Officer - Building Projects | Latrobe City Council | Moe, West Gippsland & Latrobe Valley VIC | 2026-10-16T10:42:27Z | title excludes: senior
+95319184 | Casual Engineering Officers - Based at Various Locations | Torres Strait Island Regional Council | Cairns, Cairns & Far North QLD | 2026-10-16T08:51:20Z | ok
+95317960 | Civil Supervisor | Clough | Perth WA | 2026-10-16T08:15:26Z | title excludes: supervisor
+95317475 | Site Engineer | Ertech | Sydney NSW | 2026-10-16T07:58:43Z | ok
+95317393 | Moisture Control Person (Entry Level – Road Construction) | Western Stabilisers Pty Ltd | Corrigin, Northam & Wheatbelt WA | 2026-10-16T07:56:00Z | ok
+95316534 | Principal Civil & Drainage Engineer | pitt&sherry | Melbourne VIC | 2026-10-16T07:25:52Z | title excludes: principal
+95316482 | Site Manager | AVID Property Group | Warner, Brisbane QLD | 2026-10-16T07:24:22Z | title excludes: manager
+95316105 | Civil Site Supervisor | CGC Recruitment | Northern Suburbs & Joondalup, Perth WA | 2026-10-16T07:09:43Z | title excludes: supervisor
+95316017 | Manager Works Operations | Fraser Coast Regional Council | Brisbane QLD | 2026-10-16T07:06:20Z | title excludes: manager
+95315964 | Manager Works Operations | Fraser Coast Regional Council | Maryborough, Hervey Bay & Fraser Coast QLD | 2026-10-16T07:04:22Z | title excludes: manager
+95315699 | Senior Civil Engineer - Roads | GHD Group | Gladstone, Gladstone & Central QLD | 2026-10-16T06:55:52Z | title excludes: senior
+95315086 | Construction Crew Leader | City of Moreton Bay | Narangba, Brisbane QLD | 2026-10-16T06:37:15Z | title has no junior/civil signal
+95314994 | Junior Civil Design Engineer | Bayside Group | Brisbane QLD | 2026-10-16T06:35:10Z | ok
+95314648 | Projects Crew (FIFO) | Quattro Project Engineering | Perth WA | 2026-10-16T06:25:42Z | title has no junior/civil signal
+95314335 | Civil & Structural Engineer | Fyfe | Brisbane QLD | 2026-10-16T06:16:11Z | title excludes: structural engineer
+95314265 | Construction Labourer | City of Moreton Bay | Narangba, Brisbane QLD | 2026-10-16T06:13:37Z | title excludes: labourer
+95314214 | Contracts Administrator | DM Civil | Maddington, Perth WA | 2026-10-16T06:12:07Z | title excludes: contracts administrator
+95314100 | Senior Engineer Government Projects | Urban Utilities | Fortitude Valley, Brisbane QLD | 2026-10-16T06:07:36Z | title excludes: senior
+95314061 | Capital Delivery Inspector | Mackay Regional Council | Mackay, Mackay & Coalfields QLD | 2026-10-16T06:06:16Z | title has no junior/civil signal
+95313460 | Senior Project Engineer | Roadform Services Pty Ltd | Bibra Lake, Perth WA | 2026-10-16T05:55:26Z | title excludes: senior
+95313473 | Project Engineer | Torrens to Darlington Alliance | Adelaide SA | 2026-10-16T05:55:08Z | ok
+95313422 | Construction Supervisor - Civil & SMP | Stellar Recruitment | Brisbane QLD | 2026-10-16T05:54:06Z | title excludes: supervisor
+95313224 | Project Site Manager | Design & Build Recruitment | Brisbane QLD | 2026-10-16T05:47:19Z | title excludes: manager
+## engineering cadet
+95300875 | Coordinator Engineering Assessment | McArthur | Townsville, Northern QLD | 2026-10-15T23:46:08Z | ok
+95112810 | Graduate / Fire Safety Engineering Consultant - Melbourne | Affinity Fire Engineering | Docklands, Melbourne VIC | 2026-10-07T05:55:56Z | title excludes: safety
+95319184 | Casual Engineering Officers - Based at Various Locations | Torres Strait Island Regional Council | Cairns, Cairns & Far North QLD | 2026-10-16T08:51:20Z | ok
+95312852 | Engineering Solutions Specialist | Coates | Beresfield, Newcastle, Maitland & Hunter NSW | 2026-10-16T05:35:09Z | ok
+95311773 | Mechancial Engineer - Prefabrication | Design & Build Recruitment | Eastern Creek, Sydney NSW | 2026-10-16T05:00:29Z | ok
+95292717 | RPEQ Civil Engineer | Bravo Consult | Brisbane QLD | 2026-10-16T04:53:45Z | ok
+95310568 | Junior Electrical Engineer | PHE Pty Ltd | Orange, Blue Mountains & Central West NSW | 2026-10-16T04:33:03Z | title excludes: electrical
+95309508 | Electrical Design Engineer | Capstone Industries | Campbellfield, Melbourne VIC | 2026-10-16T04:12:16Z | title excludes: electrical
+95307774 | Cadet Civil Engineer x 4 | Eurobodalla Shire Council | Moruya, Wollongong, Illawarra & South Coast NSW | 2026-10-16T03:33:29Z | ok
+95306102 | Mechanical Engineer | BAE Systems | Richmond, Melbourne VIC | 2026-10-16T02:46:28Z | title excludes: mechanical
+95301060 | Senior Mechanical Engineer - Energy & Resources | Stantec Australia | South Brisbane, Brisbane QLD | 2026-10-15T23:58:33Z | title excludes: senior
+95301006 | WHSEQ Cadet | Forge Group | Somersby, Gosford & Central Coast NSW | 2026-10-15T23:55:15Z | title excludes: hse
+95300875 | Coordinator Engineering Assessment | McArthur | Townsville, Northern QLD | 2026-10-15T23:46:08Z | ok
+95300871 | Teaching Focused Academic Mechanical Engineering | Victoria University | Footscray, Melbourne VIC | 2026-10-15T23:46:04Z | title excludes: mechanical
+95300673 | Teacher Engineering (Welder/Boilermaker) | Northern Victoria Institute Of TAFE | Wodonga, Yarra Valley & High Country VIC | 2026-10-15T23:33:03Z | title excludes: teacher
+95300109 | Civil Engineering Draftsperson | Auspro Steel PTY LTD | Sunshine, Melbourne VIC | 2026-10-15T23:03:40Z | ok
+95298982 | Environmental Health Officer Cadet | Blacktown City Council | Blacktown, Sydney NSW | 2026-10-15T21:33:39Z | title excludes: environmental health
+95294491 | Student Civil Engineer l Canberra | Spiire | Canberra ACT | 2026-10-15T10:17:06Z | ok
+95286212 | Engineering Technologist | Melbourne Stone Mason Group Pty Ltd | Hallam, Melbourne VIC | 2026-10-15T05:29:44Z | ok
+95284327 | Fitter Apprenticeship - Bathurst, NSW | Skillset | Bathurst, Blue Mountains & Central West NSW | 2026-10-15T04:26:17Z | title excludes: apprentice
+95282519 | Cadet Engineer | Veolia | Fairfield, Sydney NSW | 2026-10-15T03:35:30Z | ok
+95281911 | Project Engineer | Multiplex | Canberra ACT | 2026-10-15T03:20:03Z | ok
+95280368 | Casual Undergraduate Engineer | ProCore Engineering | Mackay, Mackay & Coalfields QLD | 2026-10-15T02:52:36Z | ok
+95280218 | Cadet Engineer | Veolia | Waterfall, Sydney NSW | 2026-10-15T02:45:16Z | ok
+95278589 | Mechanical Engineer - Products | M2P Engineering Pty Ltd | Salisbury, Brisbane QLD | 2026-10-15T02:01:04Z | title excludes: mechanical
+## junior project engineer civil
+95130563 | Estimator (Steel Fabrication) | Haymac Engineering | Wattleup, Perth WA | 2026-10-08T01:32:12Z | ok
+95155659 | Principal Geotechnical Engineer | WML Consulting Engineers | West Perth, Perth WA | 2026-10-09T00:18:45Z | title excludes: principal
+95324091 | Rail Project Engineer / Manager | Hatch | Brisbane QLD | 2026-10-16T13:28:09Z | title excludes: manager
+95321831 | Senior Project Officer - Building Projects | Latrobe City Council | Moe, West Gippsland & Latrobe Valley VIC | 2026-10-16T10:42:27Z | title excludes: senior
+95319581 | Projects Coordinator | Peak Group | Chevallum, Sunshine Coast QLD | 2026-10-16T09:11:21Z | title has no junior/civil signal
+95319184 | Casual Engineering Officers - Based at Various Locations | Torres Strait Island Regional Council | Cairns, Cairns & Far North QLD | 2026-10-16T08:51:20Z | ok
+95318557 | Contract Administrator | High Rise Residential | Vectura Recruitment Pty Ltd | Brisbane QLD | 2026-10-16T08:37:27Z | title excludes: contract administrator
+95318338 | NEW! Senior Project Manager - FIFO! | In2work | Brisbane QLD | 2026-10-16T08:28:59Z | title excludes: senior
+95318119 | Senior Project Engineer | GR Engineering Services | Brisbane QLD | 2026-10-16T08:21:42Z | title excludes: senior
+95317961 | Mechanical Project Engineer | EIG Australia | Perth WA | 2026-10-16T08:15:38Z | title excludes: mechanical
+95317960 | Civil Supervisor | Clough | Perth WA | 2026-10-16T08:15:26Z | title excludes: supervisor
+95317746 | Project Manager | EIG Australia | Perth WA | 2026-10-16T08:08:30Z | title excludes: manager
+95317475 | Site Engineer | Ertech | Sydney NSW | 2026-10-16T07:58:43Z | ok
+95317393 | Moisture Control Person (Entry Level – Road Construction) | Western Stabilisers Pty Ltd | Corrigin, Northam & Wheatbelt WA | 2026-10-16T07:56:00Z | ok
+95317373 | Graduate Contracts Engineer - PRM | Western Process Controls | Canning Vale, Perth WA | 2026-10-16T07:55:53Z | classification not allowed: Other (Manufacturing, Transport & Logistics)
+95317244 | Post contract Quantity Surveyors (Contract Administration/ Cost Management) | Becks Wiggins Stokes | Melbourne VIC | 2026-10-16T07:50:44Z | title excludes: surveyor
+95316549 | Contracts Administrator – Major Projects | M2P Engineering Pty Ltd | Spring Hill, Brisbane QLD | 2026-10-16T07:26:15Z | title excludes: contracts administrator
+95316534 | Principal Civil & Drainage Engineer | pitt&sherry | Melbourne VIC | 2026-10-16T07:25:52Z | title excludes: principal
+95316482 | Site Manager | AVID Property Group | Warner, Brisbane QLD | 2026-10-16T07:24:22Z | title excludes: manager
+95316140 | Estimator / Planner | Force Equipment | Forrestfield, Perth WA | 2026-10-16T07:11:29Z | title excludes: planner
+95316105 | Civil Site Supervisor | CGC Recruitment | Northern Suburbs & Joondalup, Perth WA | 2026-10-16T07:09:43Z | title excludes: supervisor
+95315805 | Manager Contracts | Fraser Coast Regional Council | Brisbane QLD | 2026-10-16T06:59:12Z | title excludes: manager
+95315699 | Senior Civil Engineer - Roads | GHD Group | Gladstone, Gladstone & Central QLD | 2026-10-16T06:55:52Z | title excludes: senior
+95315258 | Senior Project Engineer | CPB Contractors | Brisbane QLD | 2026-10-16T06:42:26Z | title excludes: senior
+95315168 | Junior Mining Engineer (Micromine Precision Consulting) | Micromine | Brisbane QLD | 2026-10-16T06:39:32Z | title excludes: mining engineer
+## civil engineering officer
+95142247 | Senior Project Engineer | O Brien Civil | West Perth, Perth WA | 2026-10-08T07:01:21Z | title excludes: senior
+95243160 | Site Engineer/Project Engineer – FRP Civil Projects - competitive salary | Damcon Pty Ltd | Loganlea, Brisbane QLD | 2026-10-13T11:28:11Z | ok
+95324091 | Rail Project Engineer / Manager | Hatch | Brisbane QLD | 2026-10-16T13:28:09Z | title excludes: manager
+95322939 | Regional Project Officer | Northern Land Council | Berrimah, Darwin NT | 2026-10-16T12:26:10Z | title has no junior/civil signal
+95321831 | Senior Project Officer - Building Projects | Latrobe City Council | Moe, West Gippsland & Latrobe Valley VIC | 2026-10-16T10:42:27Z | title excludes: senior
+95321693 | Labourers, Water Cart and Roller oprerators | Tarn Civil | Bindoon, Northam & Wheatbelt WA | 2026-10-16T10:35:50Z | title excludes: labourer
+95321621 | Engineer Mining | Rio Tinto | Newman, Port Hedland, Karratha & Pilbara WA | 2026-10-16T10:31:09Z | ok
+95320899 | Waterproofing Compliance Technician | Waterproofing Assurance | Mount Waverley, Melbourne VIC | 2026-10-16T09:57:36Z | title has no junior/civil signal
+95319581 | Projects Coordinator | Peak Group | Chevallum, Sunshine Coast QLD | 2026-10-16T09:11:21Z | title has no junior/civil signal
+95319184 | Casual Engineering Officers - Based at Various Locations | Torres Strait Island Regional Council | Cairns, Cairns & Far North QLD | 2026-10-16T08:51:20Z | ok
+95318557 | Contract Administrator | High Rise Residential | Vectura Recruitment Pty Ltd | Brisbane QLD | 2026-10-16T08:37:27Z | title excludes: contract administrator
+95318338 | NEW! Senior Project Manager - FIFO! | In2work | Brisbane QLD | 2026-10-16T08:28:59Z | title excludes: senior
+95318119 | Senior Project Engineer | GR Engineering Services | Brisbane QLD | 2026-10-16T08:21:42Z | title excludes: senior
+95318020 | Mining Engineer | Lynas Rare Earths | Perth WA | 2026-10-16T08:18:02Z | title excludes: mining engineer
+95317961 | Mechanical Project Engineer | EIG Australia | Perth WA | 2026-10-16T08:15:38Z | title excludes: mechanical
+95317960 | Civil Supervisor | Clough | Perth WA | 2026-10-16T08:15:26Z | title excludes: supervisor
+95317636 | Project Manager - Mine Site NPI | Formstruct | Bibra Lake, Perth WA | 2026-10-16T08:04:35Z | title excludes: manager
+95317475 | Site Engineer | Ertech | Sydney NSW | 2026-10-16T07:58:43Z | ok
+95317393 | Moisture Control Person (Entry Level – Road Construction) | Western Stabilisers Pty Ltd | Corrigin, Northam & Wheatbelt WA | 2026-10-16T07:56:00Z | ok
+95317373 | Graduate Contracts Engineer - PRM | Western Process Controls | Canning Vale, Perth WA | 2026-10-16T07:55:53Z | classification not allowed: Other (Manufacturing, Transport & Logistics)
+95317244 | Post contract Quantity Surveyors (Contract Administration/ Cost Management) | Becks Wiggins Stokes | Melbourne VIC | 2026-10-16T07:50:44Z | title excludes: surveyor
+95316809 | General Manager - Civil Developments | FGI Developments | Cairns, Cairns & Far North QLD | 2026-10-16T07:36:44Z | title excludes: manager
+95316822 | Mining Production Engineer | Gold Fields | Perth WA | 2026-10-16T07:36:27Z | ok
+95324722 | Contracts Administrator | Fulton Hogan | Fortitude Valley, Brisbane QLD | 2026-10-16T07:30:00Z | title excludes: contracts administrator
+95316549 | Contracts Administrator – Major Projects | M2P Engineering Pty Ltd | Spring Hill, Brisbane QLD | 2026-10-16T07:26:15Z | title excludes: contracts administrator

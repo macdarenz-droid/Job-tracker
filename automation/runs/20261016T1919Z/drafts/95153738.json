@@ -1,0 +1,49 @@
+{
+  "seek_id": "95153738",
+  "company": "de Witt Central Coast Pty Ltd",
+  "role": "Survey Draftsperson",
+  "location": "Gosford, Gosford & Central Coast NSW",
+  "job_url": "https://www.seek.com.au/job/95153738",
+  "route": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95153738",
+  "subject": "Application: Survey Draftsperson, Marc Masarate",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "open",
+  "notes": "Found by Grok AI on tick 20261016T1919Z through an alternate keyword SEEK search (14 days) after the standard sweeps returned nothing unscreened. Listed 8 Oct 2026; no closing date in the advert, SEEK listing expires 8 November 2026. No contact named in the advert and no application inbox published, so this is a SEEK application for Marc or Jeremie. Interstate move to Gosford needs Marc's confirmation before applying. Salary and notice period are not on record; Marc answers those himself.",
+  "email_body": "Hello,\n\nI saw your Survey Draftsperson advert for the Gosford office on SEEK and would like to be considered.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, reviewing drawings and checking work against project requirements. I am based in Melton VIC, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am available for site, office and regional work.\n\nYour advert asks for Civil 3D and drawings that are accurate and complete, and in my course I prepared and reviewed technical drawings in AutoCAD and Civil 3D against Australian Standards. My Civil 3D use is from study rather than paid production work, I have not prepared survey plans yet, and I am open to discussing relocation to the Central Coast.\n\nI've attached my resume and cover letter. Could we arrange a short call about the role?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "screening_answers": {
+    "Which of the following statements best describes your right to work in Australia?": "I hold a temporary visa with full working rights (Subclass 485, valid until December 2027).",
+    "How many years' experience do you have as a Survey Draftsperson?": "No paid survey drafting experience. AutoCAD and Civil 3D drafting is from the Advanced Diploma of Civil Construction Design (completed February 2026).",
+    "Which of the following CAD software do you have experience with?": "AutoCAD and Civil 3D (also Revit), all from study rather than paid production drafting.",
+    "What's your expected annual base salary?": "Marc to answer; no salary figure is on record.",
+    "How much notice are you required to give your current employer?": "Marc to answer; no notice period is on record.",
+    "Are you willing to undergo a pre-employment medical check?": "Yes",
+    "Do you have a current Australian driver's licence?": "Yes"
+  },
+  "checklist": [
+    "Marc confirms he is willing to discuss relocating to Gosford NSW before applying",
+    "Open SEEK job 95153738 and confirm it is still open (SEEK listing expires 8 November 2026)",
+    "Upload the resume and the cover letter PDF from this record",
+    "Answer the seven questions using screening_answers; right to work is the temporary visa with full work rights option, never citizen or PR; Marc fills salary and notice",
+    "Press Applied on the tracker with the date once the SEEK receipt arrives"
+  ],
+  "letter": {
+    "recipient_name": "",
+    "recipient_role": "Hiring Manager",
+    "company": "de Witt Consulting",
+    "company_line": "de Witt Consulting's drafters prepared deposited plans for John Holland Country Regional Network and as built drawings for the Newcastle Interchange for Laing O'Rourke.",
+    "subject": "Application: Survey Draftsperson, Gosford",
+    "greeting": "Dear Hiring Manager,",
+    "paragraphs": [
+      "I saw your SEEK advert for a Survey Draftsperson in the Gosford office, and I would like to be considered for the role. Your advert asks for Civil 3D and careful checking of drawings for accuracy, which match what I did in my course and on site.",
+      "In February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute, where I designed and documented road geometry, earthworks, pavement and stormwater drainage, and prepared and reviewed technical drawings in AutoCAD and Civil 3D against Australian Standards. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2014 to 2019).",
+      "From 2019 to 2020 I worked on site in the Philippines, first as project-in-charge on a community hall renovation and then as a field engineer on residential subdivision finishing works. I reviewed structural and architectural drawings, checked work against project requirements to cut down on errors and rework, and kept site reports and material records.",
+      "I hold a White Card, an Australian driver's licence and my own transport, and have full working rights to December 2027 on a Subclass 485 visa. My Civil 3D and AutoCAD work is from study rather than paid production drafting, and I have not prepared survey plans yet, so I would start at entry level. I am open to discussing relocation to the Central Coast for this role.",
+      "I have attached my resume and would be glad to talk about how I could support your Gosford drafting work."
+    ],
+    "closing": "Yours sincerely,"
+  }
+}

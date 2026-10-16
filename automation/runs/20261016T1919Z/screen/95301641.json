@@ -1,0 +1,39 @@
+{
+  "id": "95301641",
+  "percent": 64,
+  "rationale": [
+    "Junior Civil / Structural Engineer at Silver Wolf Projects, North Lakes QLD: site inspections, engineering reports, scopes of works and design plans, AutoCAD and Revit drafting for builders, insurers and loss adjusters.",
+    "Qualification fits (B. Eng. Civil or Structural, Cert IV or building degree; Marc holds a BSCE and an Advanced Diploma), plus licence, White Card, AutoCAD and Revit (academic), report writing and site inspections from the Philippines.",
+    "The advert also lists understanding of the NCC including the BCA, and onsite design or commercial building construction experience; neither is clearly on record, and the work is forensic building diagnostics rather than civil infrastructure."
+  ],
+  "caution": "Interstate move to Brisbane north would need Marc's confirmation. Revit and AutoCAD use is academic.",
+  "gaps": [
+    "NCC and BCA knowledge not on record",
+    "Building diagnostic and insurance reporting not on record",
+    "Relocation from Melton VIC to North Lakes QLD would need discussing"
+  ],
+  "mandatory_unmet": [],
+  "mandatory_unresolved": [
+    "Understanding of the NCC, including the BCA, is listed under About you and is not on record in facts.json",
+    "Experience in onsite design for civil and residential buildings, or commercial building construction experience: closest on record is a community hall renovation and subdivision finishing works in the Philippines (2019 to 2020); the employer would need to confirm it counts"
+  ],
+  "route": "SEEK",
+  "apply_email": "",
+  "apply_instructions": "Apply through SEEK (not a link out); SEEK listing expires 15 November 2026.",
+  "open": true,
+  "employer_is_agency": false,
+  "company": "Silver Wolf Projects Pty Ltd",
+  "title": "Junior Civil / Structural Engineer",
+  "location": "North Lakes, Brisbane QLD",
+  "url": "https://www.seek.com.au/job/95301641",
+  "listed_at": "2026-10-16T00:54:06.896Z",
+  "expires_at": "2026-11-15T12:59:59.999Z",
+  "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a Civil and Structural Engineer?",
+    "How much notice are you required to give your current employer?",
+    "Have you completed a qualification in civil construction?"
+  ],
+  "source": "seek"
+}

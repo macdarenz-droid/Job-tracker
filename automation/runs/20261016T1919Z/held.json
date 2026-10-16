@@ -1,0 +1,45 @@
+[
+ {
+  "id": "55461aec-2086-4e0a-bb09-949b98dab985",
+  "key": "manual:55461aec-2086-4e0a-bb09-949b98dab985",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261016T1919Z",
+  "created_at": "2026-10-16T19:28:24.000Z",
+  "updated_at": "2026-10-16T19:28:24.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Silver Wolf Projects Pty Ltd",
+  "role": "Junior Civil / Structural Engineer",
+  "location": "North Lakes, Brisbane QLD",
+  "job_url": "https://www.seek.com.au/job/95301641",
+  "status": "HELD_ELIGIBILITY_UNCONFIRMED",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "SEEK",
+  "fit": [
+   "Junior Civil / Structural Engineer at Silver Wolf Projects, North Lakes QLD: site inspections, engineering reports, scopes of works and design plans, AutoCAD and Revit drafting for builders, insurers and loss adjusters.",
+   "Qualification fits (B. Eng. Civil or Structural, Cert IV or building degree; Marc holds a BSCE and an Advanced Diploma), plus licence, White Card, AutoCAD and Revit (academic), report writing and site inspections from the Philippines.",
+   "The advert also lists understanding of the NCC including the BCA, and onsite design or commercial building construction experience; neither is clearly on record, and the work is forensic building diagnostics rather than civil infrastructure."
+  ],
+  "gaps": [
+   "NCC and BCA knowledge not on record",
+   "Building diagnostic and insurance reporting not on record",
+   "Relocation from Melton VIC to North Lakes QLD would need discussing"
+  ],
+  "match_score": {
+   "percent": 64,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Junior Civil / Structural Engineer at Silver Wolf Projects, North Lakes QLD: site inspections, engineering reports, scopes of works and design plans, AutoCAD and Revit drafting for builders, insurers and loss adjusters.",
+    "Qualification fits (B. Eng. Civil or Structural, Cert IV or building degree; Marc holds a BSCE and an Advanced Diploma), plus licence, White Card, AutoCAD and Revit (academic), report writing and site inspections from the Philippines.",
+    "The advert also lists understanding of the NCC including the BCA, and onsite design or commercial building construction experience; neither is clearly on record, and the work is forensic building diagnostics rather than civil infrastructure."
+   ],
+   "caution": "Interstate move to Brisbane north would need Marc's confirmation. Revit and AutoCAD use is academic."
+  },
+  "notes": "Held by Grok AI: Understanding of the NCC, including the BCA, is listed under About you and is not on record in facts.json; Experience in onsite design for civil and residential buildings, or commercial building construction experience: closest on record is a community hall renovation and subdivision finishing works in the Philippines (2019 to 2020); the employer would need to confirm it counts",
+  "checked_at": "2026-10-16T19:28:24.000Z",
+  "seek_id": "95301641",
+  "duplicate_key": "silverwolfprojectsptyltd|seek:95301641"
+ }
+]
