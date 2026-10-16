@@ -1,0 +1,47 @@
+{
+  "seek_id": "95311950",
+  "company": "Lower Eyre Council",
+  "role": "Technical and Asset Officer",
+  "location": "Cummins, Whyalla & Eyre Peninsula SA",
+  "job_url": "https://www.seek.com.au/job/95311950",
+  "route": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95311950",
+  "subject": "Application: Technical and Asset Officer, Marc Masarate",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "open",
+  "notes": "Found on tick 20261016T1417Z. SEEK prefilter had dropped it (title has no junior signal); the full advert welcomes recent engineering graduates. Applications close 5.00pm Monday 2 November 2026 (SA time). Enquiries are by phone only to Brad-Lee Tolley, Director Infrastructure & Development, on 8676 0400. Interstate move to Cummins needs Marc's confirmation before applying.",
+  "email_body": "Hello,\n\nI saw your Technical and Asset Officer advert on SEEK and would like to be considered.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. I also lodged Before You Dig Australia enquiries and designed around existing services. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, carrying out inspections and quality checks and coordinating crews, subcontractors and suppliers. I am based in Melton VIC, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am available for regional work.\n\nYour advert mentions quantities and cost estimates for minor works and managing Before You Dig enquiries, both of which I did in my course. I have not used survey instruments or GIS on a job yet, and I am open to discussing relocation to Cummins.\n\nI've attached my resume and cover letter. Could we arrange a short call about the role?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "screening_answers": {
+    "How many years of project management experience do you have?": "Under 1 year. About six months as project-in-charge on a community hall renovation in the Philippines (April to September 2019), coordinating 10 to 15 workers a day.",
+    "Which of the following statements best describes your right to work in Australia?": "I hold a temporary visa with full working rights (Subclass 485, valid until December 2027).",
+    "Do you have a current Australian driver's licence?": "Yes",
+    "How many years' experience do you have in the construction industry?": "Under 1 year: site work in the Philippines from April 2019 to February 2020 (project-in-charge, then field engineer).",
+    "Are you willing to undergo a pre-employment medical check?": "Yes"
+  },
+  "checklist": [
+    "Marc confirms he is willing to discuss relocating to Cummins SA before applying",
+    "Open SEEK job 95311950 and confirm it is still open (closes 5.00pm Monday 2 November 2026)",
+    "Upload resume and the cover letter PDF from this record",
+    "Answer the five questions using screening_answers; right to work is the temporary visa with full work rights option, never citizen or PR",
+    "Press Applied on the tracker with the date once the SEEK receipt arrives"
+  ],
+  "letter": {
+    "recipient_name": "Brad-Lee Tolley",
+    "recipient_role": "Director Infrastructure & Development",
+    "company": "Lower Eyre Council",
+    "company_line": "Lower Eyre Council's Works team maintains and renews roads, footpaths and drainage across the district from Cummins, including patrol grading of its unsealed road network.",
+    "subject": "Application: Technical and Asset Officer",
+    "greeting": "Dear Brad-Lee Tolley,",
+    "paragraphs": [
+      "I saw your SEEK advert for a Technical and Asset Officer in the Works team at Cummins, and I would like to be considered.",
+      "In February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute, documenting road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D. I lodged Before You Dig Australia enquiries, followed its procedures and designed around existing services and site constraints, and my coursework covered cost estimates and bills of quantities. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2014 to 2019).",
+      "From 2019 to 2020 I worked on site in the Philippines, first as project-in-charge on a community hall renovation and then as a field engineer on residential subdivision finishing works. I carried out site inspections and quality checks, reviewed drawings against the work, coordinated 10 to 15 workers a day and kept site reports and material records.",
+      "I hold a White Card, an Australian driver's licence and my own transport, and have full working rights to December 2027 on a Subclass 485 visa. I have not used survey instruments or GIS software on a job, and my design experience is from study, so I would start at entry level. I am open to discussing relocation to Cummins for this role.",
+      "I have attached my resume and would be glad to talk about how I could support your Works team."
+    ],
+    "closing": "Yours sincerely,"
+  }
+}

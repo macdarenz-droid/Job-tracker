@@ -1,0 +1,232 @@
+[
+ {
+  "id": "b0735eb2-9eda-43a3-995c-02305f1b5067",
+  "key": "manual:b0735eb2-9eda-43a3-995c-02305f1b5067",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261016T1417Z",
+  "created_at": "2026-10-16T14:25:35.000Z",
+  "updated_at": "2026-10-16T14:25:35.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "09be7721-1f11-4094-986d-4680cda4ac81",
+    "path": "/api/documents/09be7721-1f11-4094-986d-4680cda4ac81",
+    "filename": "Marc_Masarate_Burland_Contractors_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-16T14:25:36.888Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "4e2fa388-645f-420b-93f9-47dcc2df9586",
+    "path": "/api/documents/4e2fa388-645f-420b-93f9-47dcc2df9586",
+    "filename": "Marc_Masarate_Burland_Contractors_Junior_Estimator_Contract_Administrator_Cover_Letter.pdf",
+    "sha256": "33570ea3dadc17461c1df56f0ba33102db5e12f07da3407c1913545509172300",
+    "size_bytes": 48078,
+    "kind": "cover",
+    "uploaded_at": "2026-10-16T14:25:35.923Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Burland Contractors",
+  "role": "Junior Estimator/Contract Administrator",
+  "location": "Laverton North, Melbourne VIC",
+  "job_url": "https://www.seek.com.au/job/95306787",
+  "company_url": "https://www.burlandcontractors.com/",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "open",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.burlandcontractors.com/contactus",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Application: Junior Estimator/Contract Administrator, Marc Masarate",
+  "email_body": "Hello,\n\nI saw your Junior Estimator and Contract Administrator advert on SEEK and would like to be considered.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD, and coursework in cost estimates and bills of quantities. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, reviewing drawings, tracking procurement and materials, and keeping site and progress records. I live in Melton, close to Laverton North, and hold a White Card, a licence and my own transport, with full working rights to December 2027 on a 485 visa.\n\nYour advert mentions quantity take-offs from landscape and construction drawings and keeping supplier pricing and tender records, which builds on the bills of quantities from my course and the material records I kept on site. My estimating so far is from study rather than a paid role, so I would start at junior level and learn your price book.\n\nI've attached my resume and cover letter. Could we arrange a short chat about the role?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Junior office role combining estimating and contract administration for a Victorian civil and commercial landscape contractor: reviewing construction drawings and tender documents, quantity take-offs, requests for pricing and keeping project records.",
+   "The advert asks for numeracy, Excel, reading drawings or willingness to learn, and only rates landscaping, civil or estimating experience as highly regarded, so nothing mandatory is unmet; Marc's coursework covered cost estimates and bills of quantities and his Philippines site work included reviewing drawings, tracking procurement and keeping material records.",
+   "Laverton North is in Melbourne's west, close to Melton; scored 66 rather than higher because the role is estimating and administration rather than civil design or site work."
+  ],
+  "gaps": [
+   "No paid estimating or contract administration experience; estimating is Advanced Diploma coursework",
+   "No landscaping experience",
+   "No Australian work experience yet"
+  ],
+  "match_score": {
+   "percent": 66,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Junior office role combining estimating and contract administration for a Victorian civil and commercial landscape contractor: reviewing construction drawings and tender documents, quantity take-offs, requests for pricing and keeping project records.",
+    "The advert asks for numeracy, Excel, reading drawings or willingness to learn, and only rates landscaping, civil or estimating experience as highly regarded, so nothing mandatory is unmet; Marc's coursework covered cost estimates and bills of quantities and his Philippines site work included reviewing drawings, tracking procurement and keeping material records.",
+    "Laverton North is in Melbourne's west, close to Melton; scored 66 rather than higher because the role is estimating and administration rather than civil design or site work."
+   ],
+   "caution": "Estimating experience is coursework only (cost estimates and bills of quantities), not a paid estimating role, and Marc has not used estimating software. Landscape focus is new to him."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-16T03:09:44.727Z",
+   "expires_at": "2026-11-15T12:59:59.999Z",
+   "verified_at": "2026-10-16T14:23:15.000Z",
+   "apply_instructions": "Apply through SEEK with resume and a short introduction (advert wording).",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How much notice are you required to give your current employer?"
+   ]
+  },
+  "screening_answers": {
+   "Which of the following statements best describes your right to work in Australia?": "I hold a temporary visa with full working rights (Subclass 485, valid until December 2027).",
+   "What's your expected annual base salary?": "Marc to answer (no salary figure is on record).",
+   "How much notice are you required to give your current employer?": "Marc to answer (no notice period is on record)."
+  },
+  "checklist": [
+   "Open SEEK job 95306787 and confirm it is still open (SEEK expiry 15 Nov 2026)",
+   "Upload resume and the cover letter PDF from this record, with the short introduction from email_body",
+   "Answer the three questions using screening_answers; Marc fills in salary and notice himself",
+   "Right to work: choose the temporary visa with full work rights option, never citizen or PR",
+   "Press Applied on the tracker with the date once the SEEK receipt arrives"
+  ],
+  "notes": "Found on tick 20261016T1417Z (victoria_offsite rotation). SEEK prefilter had dropped it on the words contract administrator; full advert read 17 Oct 2026 AEDT shows a junior role with no mandatory experience. Apply through SEEK as the advert asks; the site's joel@ contact has no stated role and is not an application inbox.\nChecked 17 Oct 2026 AEDT. The site publishes one business contact (joel@burlandcontractors.com, role not stated) on its contact and team pages, with no statement that it takes applications; the advert says apply through SEEK, so no email recipient is set. Gmail in:anywhere for Burland: 0 results. Tracker check: new.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-16, closes 2026-11-15). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Joel (not stated on the site). Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Junior Estimator/Contract Administrator role on SEEK.\n• They may ask about: No paid estimating or contract administration experience; estimating is Advanced Diploma coursework → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No landscaping experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian work experience yet → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-16, closes 2026-11-15). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Joel (not stated on the site). Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Junior Estimator/Contract Administrator role on SEEK.",
+   "They may ask about: No paid estimating or contract administration experience; estimating is Advanced Diploma coursework → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No landscaping experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian work experience yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-16T14:25:35.000Z",
+  "seek_id": "95306787",
+  "duplicate_key": "burlandcontractors|seek:95306787"
+ },
+ {
+  "id": "38c5af8c-3790-49cd-911b-999f8b0d5521",
+  "key": "manual:38c5af8c-3790-49cd-911b-999f8b0d5521",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261016T1417Z",
+  "created_at": "2026-10-16T14:25:37.000Z",
+  "updated_at": "2026-10-16T14:25:37.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "de0942cb-32aa-4630-bada-c3b9a2f82711",
+    "path": "/api/documents/de0942cb-32aa-4630-bada-c3b9a2f82711",
+    "filename": "Marc_Masarate_Lower_Eyre_Council_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-16T14:25:39.338Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "0bd536eb-3732-4a93-aac5-0c07bfbe794b",
+    "path": "/api/documents/0bd536eb-3732-4a93-aac5-0c07bfbe794b",
+    "filename": "Marc_Masarate_Lower_Eyre_Council_Technical_and_Asset_Officer_Cover_Letter.pdf",
+    "sha256": "ac936eb19d7748e68cd6ab344fe9a928c7d10ee93c89717778c8fa30daf7078e",
+    "size_bytes": 47852,
+    "kind": "cover",
+    "uploaded_at": "2026-10-16T14:25:38.517Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Lower Eyre Council",
+  "role": "Technical and Asset Officer",
+  "location": "Cummins, Whyalla & Eyre Peninsula SA",
+  "job_url": "https://www.seek.com.au/job/95311950",
+  "company_url": "https://www.lowereyrepeninsula.sa.gov.au/",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "open",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "Brad-Lee Tolley",
+  "recipient_role": "Director Infrastructure & Development",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95311950",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Application: Technical and Asset Officer, Marc Masarate",
+  "email_body": "Hello,\n\nI saw your Technical and Asset Officer advert on SEEK and would like to be considered.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. I also lodged Before You Dig Australia enquiries and designed around existing services. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, carrying out inspections and quality checks and coordinating crews, subcontractors and suppliers. I am based in Melton VIC, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am available for regional work.\n\nYour advert mentions quantities and cost estimates for minor works and managing Before You Dig enquiries, both of which I did in my course. I have not used survey instruments or GIS on a job yet, and I am open to discussing relocation to Cummins.\n\nI've attached my resume and cover letter. Could we arrange a short call about the role?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Technical and Asset Officer in Lower Eyre Council's Works team: site inspections, footpath design, plans, quantities and cost estimates for minor works, coordinating resealing and footpath programs, and managing Before You Dig enquiries.",
+   "The advert welcomes recent engineering graduates and asks for a civil qualification or practical experience, working knowledge of roads, footpaths and drainage, plan reading, a Class C licence and a White Card; Marc's Advanced Diploma (road, pavement and stormwater design, Before You Dig Australia enquiries, cost estimates) plus Philippines site inspections and coordination meet these at entry level.",
+   "Cummins SA is regional and interstate, so relocation is discussable only; basic surveying, GIS and asset data work are gaps."
+  ],
+  "gaps": [
+   "No survey instrument or GIS software use on a job",
+   "Project coordination experience under one year (Philippines 2019 to 2020)",
+   "Relocation from Melton VIC to Cummins SA would need discussing"
+  ],
+  "match_score": {
+   "percent": 76,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Technical and Asset Officer in Lower Eyre Council's Works team: site inspections, footpath design, plans, quantities and cost estimates for minor works, coordinating resealing and footpath programs, and managing Before You Dig enquiries.",
+    "The advert welcomes recent engineering graduates and asks for a civil qualification or practical experience, working knowledge of roads, footpaths and drainage, plan reading, a Class C licence and a White Card; Marc's Advanced Diploma (road, pavement and stormwater design, Before You Dig Australia enquiries, cost estimates) plus Philippines site inspections and coordination meet these at entry level.",
+    "Cummins SA is regional and interstate, so relocation is discussable only; basic surveying, GIS and asset data work are gaps."
+   ],
+   "caution": "Interstate regional move to Cummins SA would need Marc's confirmation. No survey instrument or GIS software use on a job; project management experience is under one year."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-16T05:06:37.166Z",
+   "expires_at": "2026-11-15T12:59:59.999Z",
+   "verified_at": "2026-10-16T14:22:34.000Z",
+   "apply_instructions": "Apply through SEEK; applications close 5.00pm Monday 2 November 2026. Enquiries by phone to the Director Infrastructure & Development, Brad-Lee Tolley, on 8676 0400.",
+   "screening_questions": [
+    "How many years of project management experience do you have?",
+    "Which of the following statements best describes your right to work in Australia?",
+    "Do you have a current Australian driver's licence?",
+    "How many years' experience do you have in the construction industry?",
+    "Are you willing to undergo a pre-employment medical check?"
+   ]
+  },
+  "screening_answers": {
+   "How many years of project management experience do you have?": "Under 1 year. About six months as project-in-charge on a community hall renovation in the Philippines (April to September 2019), coordinating 10 to 15 workers a day.",
+   "Which of the following statements best describes your right to work in Australia?": "I hold a temporary visa with full working rights (Subclass 485, valid until December 2027).",
+   "Do you have a current Australian driver's licence?": "Yes",
+   "How many years' experience do you have in the construction industry?": "Under 1 year: site work in the Philippines from April 2019 to February 2020 (project-in-charge, then field engineer).",
+   "Are you willing to undergo a pre-employment medical check?": "Yes"
+  },
+  "checklist": [
+   "Marc confirms he is willing to discuss relocating to Cummins SA before applying",
+   "Open SEEK job 95311950 and confirm it is still open (closes 5.00pm Monday 2 November 2026)",
+   "Upload resume and the cover letter PDF from this record",
+   "Answer the five questions using screening_answers; right to work is the temporary visa with full work rights option, never citizen or PR",
+   "Press Applied on the tracker with the date once the SEEK receipt arrives"
+  ],
+  "notes": "Found on tick 20261016T1417Z. SEEK prefilter had dropped it (title has no junior signal); the full advert welcomes recent engineering graduates. Applications close 5.00pm Monday 2 November 2026 (SA time). Enquiries are by phone only to Brad-Lee Tolley, Director Infrastructure & Development, on 8676 0400. Interstate move to Cummins needs Marc's confirmation before applying.\nChecked 17 Oct 2026 AEDT. The advert names the Director Infrastructure & Development by phone only; no business email for him is published by the council. Council site publishes mail@lec.sa.gov.au and development@lec.sa.gov.au as general inboxes, not stated as application inboxes, so not used. Council employment page did not yet list this role (SEEK advert listed 16 Oct 2026). Gmail in:anywhere for Lower Eyre: 0 results. Tracker check: new.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-16, closes 2026-11-15). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Brad-Lee Tolley (Director Infrastructure & Development). Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Technical and Asset Officer role on SEEK.\n• They may ask about: No survey instrument or GIS software use on a job → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Project coordination experience under one year (Philippines 2019 to 2020) → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: Relocation from Melton VIC to Cummins SA would need discussing → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-16, closes 2026-11-15). No published email for a hiring person; the application goes through the employer's portal or SEEK. Named people seen on employer pages: Brad-Lee Tolley (Director Infrastructure & Development). Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Technical and Asset Officer role on SEEK.",
+   "They may ask about: No survey instrument or GIS software use on a job → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Project coordination experience under one year (Philippines 2019 to 2020) → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: Relocation from Melton VIC to Cummins SA would need discussing → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-16T14:25:37.000Z",
+  "seek_id": "95311950",
+  "duplicate_key": "lowereyrecouncil|seek:95311950"
+ }
+]

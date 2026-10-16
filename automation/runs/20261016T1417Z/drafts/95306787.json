@@ -1,0 +1,45 @@
+{
+  "seek_id": "95306787",
+  "company": "Burland Contractors",
+  "role": "Junior Estimator/Contract Administrator",
+  "location": "Laverton North, Melbourne VIC",
+  "job_url": "https://www.seek.com.au/job/95306787",
+  "route": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_evidence_url": "https://www.burlandcontractors.com/contactus",
+  "subject": "Application: Junior Estimator/Contract Administrator, Marc Masarate",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "open",
+  "notes": "Found on tick 20261016T1417Z (victoria_offsite rotation). SEEK prefilter had dropped it on the words contract administrator; full advert read 17 Oct 2026 AEDT shows a junior role with no mandatory experience. Apply through SEEK as the advert asks; the site's joel@ contact has no stated role and is not an application inbox.",
+  "email_body": "Hello,\n\nI saw your Junior Estimator and Contract Administrator advert on SEEK and would like to be considered.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD, and coursework in cost estimates and bills of quantities. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, reviewing drawings, tracking procurement and materials, and keeping site and progress records. I live in Melton, close to Laverton North, and hold a White Card, a licence and my own transport, with full working rights to December 2027 on a 485 visa.\n\nYour advert mentions quantity take-offs from landscape and construction drawings and keeping supplier pricing and tender records, which builds on the bills of quantities from my course and the material records I kept on site. My estimating so far is from study rather than a paid role, so I would start at junior level and learn your price book.\n\nI've attached my resume and cover letter. Could we arrange a short chat about the role?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "screening_answers": {
+    "Which of the following statements best describes your right to work in Australia?": "I hold a temporary visa with full working rights (Subclass 485, valid until December 2027).",
+    "What's your expected annual base salary?": "Marc to answer (no salary figure is on record).",
+    "How much notice are you required to give your current employer?": "Marc to answer (no notice period is on record)."
+  },
+  "checklist": [
+    "Open SEEK job 95306787 and confirm it is still open (SEEK expiry 15 Nov 2026)",
+    "Upload resume and the cover letter PDF from this record, with the short introduction from email_body",
+    "Answer the three questions using screening_answers; Marc fills in salary and notice himself",
+    "Right to work: choose the temporary visa with full work rights option, never citizen or PR",
+    "Press Applied on the tracker with the date once the SEEK receipt arrives"
+  ],
+  "letter": {
+    "recipient_name": "Hiring Team",
+    "recipient_role": "",
+    "company": "Burland Contractors",
+    "company_line": "Burland Contractors delivers exterior civil and commercial landscaping, hardscape, botanical and softscape work across Victoria, from tender through to delivery and maintenance.",
+    "subject": "Application: Junior Estimator/Contract Administrator",
+    "greeting": "Dear Hiring Team,",
+    "paragraphs": [
+      "I saw your SEEK advert for a Junior Estimator and Contract Administrator to work with your Senior Estimator on take-offs, pricing and project records, and I would like to be considered.",
+      "In February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute, documenting road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D. My coursework included cost estimates, bills of quantities and risk registers, and I prepared and reviewed technical drawings against Australian Standards. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2014 to 2019).",
+      "From 2019 to 2020 I worked on site in the Philippines, first as project-in-charge on a community hall renovation and then as a field engineer on residential subdivision finishing works. I reviewed drawings against the work, tracked procurement and materials, prepared site reports and material records, and coordinated with engineers, subcontractors and suppliers.",
+      "I live in Melton, a short drive from Laverton North, and hold a White Card, a licence and my own transport, with full working rights to December 2027 on a Subclass 485 visa. My estimating is from study rather than a paid role and I have not used estimating software, so I would start at junior level and learn your systems and price book.",
+      "I have attached my resume and would be glad to talk about how I could support your estimating and project team."
+    ],
+    "closing": "Yours sincerely,"
+  }
+}
