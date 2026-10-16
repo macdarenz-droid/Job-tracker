@@ -1,0 +1,31 @@
+{
+ "caution": "Site experience is under one year and was in the Philippines; screening asks years as a Civil Site Engineer (answer honestly: less than 1 year).",
+ "gaps": [
+  "No documented ITP, hold point or NCR management",
+  "No NATA testing coordination or TfNSW, ROL or TMP approvals experience",
+  "No Australian site experience",
+  "Software experience is academic"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [
+  "About you asks for good knowledge of ITPs, council and Austroads specifications, and NSW WHS requirements: facts.json records Austroads coursework, site quality checks and a White Card, but not ITP or NSW WHS documentation knowledge; Marc to confirm before applying"
+ ],
+ "route": "SEEK",
+ "apply_email": "",
+ "apply_instructions": "SEEK apply",
+ "open": true,
+ "employer_is_agency": false,
+ "screening_questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "How many years' experience do you have as a Civil Site Engineer?",
+  "How much notice are you required to give your current employer?"
+ ],
+ "company": "Motive civil and plant hire",
+ "title": "Site Engineer - Civil Construction",
+ "location": "Orange, Blue Mountains & Central West NSW",
+ "url": "https://www.seek.com.au/job/95310127",
+ "listed_at": "2026-10-16T04:24:15.658Z",
+ "expires_at": "2026-11-15T12:59:59.999Z",
+ "percent": 72,
+ "rationale": "Direct civil contractor (subdivision, drainage, earthworks, council works) in Orange and Central West NSW; graduates with relevant site experience are welcome.\nMarc holds a civil engineering degree (BSCE 2019), did about ten months of site work in 2019 to 2020 including residential subdivision finishing works, and holds a White Card and licence.\nDuties (ITPs, NCRs, NATA testing records, site diaries, as builts) are heavier than his documented experience; regional NSW is acceptable but not his home state."
+}

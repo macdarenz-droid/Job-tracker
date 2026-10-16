@@ -1,0 +1,97 @@
+[
+ {
+  "id": "ffd936c8-cefe-4709-b42a-4ce976ddd776",
+  "key": "manual:ffd936c8-cefe-4709-b42a-4ce976ddd776",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261016T0917Z",
+  "created_at": "2026-10-16T09:33:11.000Z",
+  "updated_at": "2026-10-16T09:33:11.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Motive civil and plant hire",
+  "role": "Site Engineer - Civil Construction",
+  "location": "Orange, Blue Mountains & Central West NSW",
+  "job_url": "https://www.seek.com.au/job/95310127",
+  "status": "HELD_ELIGIBILITY_UNCONFIRMED",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "SEEK",
+  "fit": "Direct civil contractor (subdivision, drainage, earthworks, council works) in Orange and Central West NSW; graduates with relevant site experience are welcome.\nMarc holds a civil engineering degree (BSCE 2019), did about ten months of site work in 2019 to 2020 including residential subdivision finishing works, and holds a White Card and licence.\nDuties (ITPs, NCRs, NATA testing records, site diaries, as builts) are heavier than his documented experience; regional NSW is acceptable but not his home state.",
+  "gaps": [
+   "No documented ITP, hold point or NCR management",
+   "No NATA testing coordination or TfNSW, ROL or TMP approvals experience",
+   "No Australian site experience",
+   "Software experience is academic"
+  ],
+  "match_score": {
+   "percent": 72,
+   "method": "resume-fit-v2",
+   "rationale": "Direct civil contractor (subdivision, drainage, earthworks, council works) in Orange and Central West NSW; graduates with relevant site experience are welcome.\nMarc holds a civil engineering degree (BSCE 2019), did about ten months of site work in 2019 to 2020 including residential subdivision finishing works, and holds a White Card and licence.\nDuties (ITPs, NCRs, NATA testing records, site diaries, as builts) are heavier than his documented experience; regional NSW is acceptable but not his home state.",
+   "caution": "Site experience is under one year and was in the Philippines; screening asks years as a Civil Site Engineer (answer honestly: less than 1 year)."
+  },
+  "notes": "Held by Grok AI: About you asks for good knowledge of ITPs, council and Austroads specifications, and NSW WHS requirements: facts.json records Austroads coursework, site quality checks and a White Card, but not ITP or NSW WHS documentation knowledge; Marc to confirm before applying\n\nHOW GROK AI FOUND THIS: SEEK sweep (3 day window) on 16 Oct 2026, advert 95310127 listed 16 Oct 2026, expires 15 Nov 2026. Direct employer (Motive Civil and Plant Hire, Orange NSW). No contact research or email: route is SEEK apply. Nothing was sent or submitted. Held because the advert asks for good knowledge of ITPs, council and Austroads specifications and NSW WHS requirements; facts.json covers Austroads coursework, site quality checks, inspections and a White Card but not ITP or NSW WHS documentation. If Marc confirms he is comfortable with that requirement, this can move to READY_JEREMIE_SEEK. Suggested SEEK answers: right to work = temporary visa with full work rights (Subclass 485 to December 2027); years as Civil Site Engineer = less than 1 year; notice = Marc to answer. IF THEY CALL, LIKELY QUESTIONS: Site experience? About ten months in the Philippines in 2019 to 2020, including residential subdivision finishing works, site inspections, quality checks, site reports and material records. ITPs and hold points? Marc to answer from his own knowledge. Software? AutoCAD and Civil 3D through the Advanced Diploma (finished February 2026), academic not commercial. Licence and White Card? Yes, plus own transport. Relocate to Orange? Open to discussing relocation.",
+  "checked_at": "2026-10-16T09:33:11.000Z",
+  "seek_id": "95310127",
+  "duplicate_key": "motivecivilandplanthire|seek:95310127",
+  "application_method": "SEEK",
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-16T04:24:15.658Z",
+   "expires_at": "2026-11-15T12:59:59.999Z",
+   "verified_at": "2026-10-16T09:18:19.000Z",
+   "apply_instructions": "SEEK apply",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a Civil Site Engineer?",
+    "How much notice are you required to give your current employer?"
+   ]
+  },
+  "company_url": ""
+ },
+ {
+  "id": "e377d504-f110-4c4d-a3d3-a79ea183ebc1",
+  "key": "manual:e377d504-f110-4c4d-a3d3-a79ea183ebc1",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261016T0917Z",
+  "created_at": "2026-10-16T09:33:11.000Z",
+  "updated_at": "2026-10-16T09:33:11.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "GHD",
+  "role": "GHD Graduate Program 2026/27, Darwin, Civil Engineer (Transport: Roads, Rail, Bridges and Aviation)",
+  "location": "Darwin NT",
+  "job_url": "https://au.gradconnection.com/employers/ghd/jobs/ghd-ghd-graduate-program-202627-queensland-graduate-civil-engineer-construction-phase-services-2-2-2-2-3-2-2-2-2-3-2-2-2-2-2-2-2-2/",
+  "status": "HELD_ELIGIBILITY_UNCONFIRMED",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMPLOYER_PORTAL",
+  "fit": "Graduate civil engineer program in GHD Transport (roads, rail, bridges) in Darwin, starting February 2027.\nMarc holds a civil engineering degree (BSCE 2019) and finished the Advanced Diploma of Civil Construction Design in February 2026 with road, earthworks, pavement and drainage design in Civil 3D and AutoCAD.\nDarwin needs relocation; Marc is open to discussing relocation and regional work.",
+  "gaps": [
+   "Bachelor degree completed 2019, not a recent graduate",
+   "Relocation to Darwin",
+   "Software experience is academic"
+  ],
+  "match_score": {
+   "percent": 66,
+   "method": "resume-fit-v2",
+   "rationale": "Graduate civil engineer program in GHD Transport (roads, rail, bridges) in Darwin, starting February 2027.\nMarc holds a civil engineering degree (BSCE 2019) and finished the Advanced Diploma of Civil Construction Design in February 2026 with road, earthworks, pavement and drainage design in Civil 3D and AutoCAD.\nDarwin needs relocation; Marc is open to discussing relocation and regional work.",
+   "caution": "Program targets students finishing studies by end of 2026 and runs February 2027 to February 2029; work rights end December 2027."
+  },
+  "notes": "Held by Grok AI: Work rights for the full two year program (Feb 2027 to Feb 2029): Subclass 485 runs to December 2027 and the GradConnection work rights list for this advert could not be confirmed as including 485; Graduate eligibility for a 2019 bachelor degree when the advert targets students completing studies by end of 2026 (Advanced Diploma finished Feb 2026)\n\nHOW GROK AI FOUND THIS: LinkedIn public jobs search on 16 Oct 2026 (posted 2 days earlier), verified on GradConnection (closing 25 Oct 2026 4:00pm) and the Move To More mirror (posted 22 Sep 2026, closes 22 Oct 2026; use the earlier date). Employer portal route (CV, cover letter, transcript). No contact research or email. Nothing was sent or submitted. Held for two eligibility questions: the program runs February 2027 to February 2029 while Marc's Subclass 485 work rights end December 2027, and the GradConnection work rights list could not be tied to this advert with certainty; and the advert targets students finishing studies by end of 2026 (Marc's Advanced Diploma finished February 2026, BSCE 2019). If GHD confirms both, prepare the portal pack. IF THEY CALL, LIKELY QUESTIONS: Why Darwin? Open to discussing relocation and regional work. Transport design? Road geometry, earthworks, pavement and stormwater drainage design in Civil 3D and AutoCAD in the Advanced Diploma. Site experience? Philippines 2019 to 2020 as project-in-charge and field engineer. Work rights? Subclass 485, full working rights to December 2027.",
+  "checked_at": "2026-10-16T09:33:11.000Z",
+  "duplicate_key": "ghd|au.gradconnection.com/employers/ghd/jobs/ghd-ghd-graduate-program-202627-queensland-graduate-civil-engineer-construction-phase-services-2-2-2-2-3-2-2-2-2-3-2-2-2-2-2-2-2-2",
+  "application_method": "Company website",
+  "seek_id": null,
+  "advert": {
+   "source": "gradconnection",
+   "listed_at": "2026-09-22T00:00:00+09:30",
+   "expires_at": "2026-10-22T23:59:00+09:30",
+   "verified_at": "2026-10-16T09:33:21Z",
+   "apply_instructions": "GHD careers portal via GradConnection Apply (CV, cover letter, transcript)",
+   "screening_questions": []
+  },
+  "company_url": "https://www.ghd.com"
+ }
+]
