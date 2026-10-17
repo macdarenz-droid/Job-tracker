@@ -1,0 +1,105 @@
+[
+ {
+  "id": "bd45a684-0c45-40c7-aa29-6274bcb41608",
+  "key": "manual:bd45a684-0c45-40c7-aa29-6274bcb41608",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261017T0511Z",
+  "created_at": "2026-10-17T05:17:37.000Z",
+  "updated_at": "2026-10-17T05:17:37.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "23de0a0e-b247-48b3-8cfd-db1789e15fee",
+    "path": "/api/documents/23de0a0e-b247-48b3-8cfd-db1789e15fee",
+    "filename": "Marc_Masarate_Loetis_Engineers_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-17T05:17:39.595Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "40f6bcbc-3667-45be-ad12-4264b7e741a2",
+    "path": "/api/documents/40f6bcbc-3667-45be-ad12-4264b7e741a2",
+    "filename": "Marc_Masarate_Loetis_Engineers_Speculative_enquiry_graduate_civil_engin_Cover_Letter.pdf",
+    "sha256": "61ef2e07426dd5cb59478723ebf02c090c9319864fcf637a614ecb8b40e97566",
+    "size_bytes": 49328,
+    "kind": "cover",
+    "uploaded_at": "2026-10-17T05:17:38.554Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Loetis Engineers",
+  "role": "Speculative enquiry: graduate civil engineer or civil designer, land development (Geelong)",
+  "location": "Newtown (Geelong) VIC",
+  "job_url": "https://www.loetis.com.au/about",
+  "company_url": "https://www.loetis.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "Tom Rix",
+  "recipient_role": "Senior Engineer and Co-Founder",
+  "recipient_email": "tom.r@loetis.com.au",
+  "contact_email": "tom.r@loetis.com.au",
+  "contact_evidence_url": "https://www.loetis.com.au/about",
+  "contact_verified_at": "2026-10-17T05:17:37.000Z",
+  "contact_confidence": "published_direct",
+  "subject": "Graduate civil enquiry for Loetis in Geelong, Marc Masarate",
+  "email_body": "Hello Tom,\n\nThis is a speculative enquiry rather than a reply to an advert. I found your details on the Loetis about page and wanted to write to you directly, since your work centres on roads, drainage, sewer and water design.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge. I am based in Melton VIC, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am available for office, site and regional work.\n\nLoetis designs subdivisions from 2 lots to estates of more than 2,000 lots, along with road, drainage and sewer upgrades for councils, which is the kind of civil design work I want to learn on. My software experience is from study, so I would start at graduate level.\n\nI've attached my resume and cover letter. Would you be open to a short conversation about any graduate civil role at Loetis in Geelong?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Loetis is a Geelong and Warrnambool civil and land development consultancy whose about page lists road reconstructions, drainage and flood mitigation, sewer and water main upgrades and stormwater work, which matches Marc's Advanced Diploma road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD.",
+   "Tom Rix, Senior Engineer and Co-Founder, focuses on roads, drainage, sewer and water design and his business email is published on the employer's own about page.",
+   "No advertised vacancy or stated level, so this is a labelled speculative enquiry at graduate level; Geelong is within commuting or relocation range of Melton."
+  ],
+  "gaps": [
+   "No commercial civil design production experience",
+   "No Australian site or office work experience yet",
+   "No vacancy or level confirmed"
+  ],
+  "match_score": {
+   "percent": 64,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Loetis is a Geelong and Warrnambool civil and land development consultancy whose about page lists road reconstructions, drainage and flood mitigation, sewer and water main upgrades and stormwater work, which matches Marc's Advanced Diploma road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD.",
+    "Tom Rix, Senior Engineer and Co-Founder, focuses on roads, drainage, sewer and water design and his business email is published on the employer's own about page.",
+    "No advertised vacancy or stated level, so this is a labelled speculative enquiry at graduate level; Geelong is within commuting or relocation range of Melton."
+   ],
+   "caution": "No advertised vacancy; Loetis is a small firm founded in 2023 and may not be hiring graduates. Software experience is academic."
+  },
+  "advert": {
+   "source": "employer_site",
+   "listed_at": "2026-10-17T00:00:00Z",
+   "expires_at": "",
+   "verified_at": "2026-10-17T05:17:37.000Z",
+   "apply_instructions": "No advertised vacancy. Speculative email to Tom Rix at the address published on https://www.loetis.com.au/about.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Confirm tom.r@loetis.com.au is still published on https://www.loetis.com.au/about",
+   "Attach compact resume and cover letter PDFs",
+   "Send only after the shared lease and all section 8 checks if chosen as a run's email",
+   "Update tracker to SENT with the Gmail message id"
+  ],
+  "notes": "Open-web find on tick 20261017T0511Z (victoria_offsite rotation). SEEK d3/60, d7/60 and d14/80 produced no never-screened candidate; Victorian council and off-SEEK searches (Melton applynow, Wyndham, Brimbank, Hobsons Bay, Hume, Moorabool, Ballarat, Pyrenees, Mildura, Geelong, Indeed, Jora-type aggregators) gave only tracked, closed, student-only or blocked roles. Loetis publishes Tom Rix's business email on its about page; no careers page or numbered vacancy, so labelled speculative.\nChecked 17 Oct 2026 AEDT on the employer's own about page. Tom Rix chosen because his listed focus (roads, drainage, sewer and water design) is closest to Marc's coursework. info@loetis.com.au is not stated to take applications, so not used. No careers page found. Gmail in:anywhere for loetis / loetis.com.au: 0 results. Tracker check: new.\nHOW GROK AI FOUND THIS\nFound on employer_site (listed 2026-10-17). Contact: Tom Rix (Senior Engineer and Co-Founder), whose work email the employer publishes at https://www.loetis.com.au/about. Named people seen on employer pages: Tom Rix (Senior Engineer & Co-Founder); Leigh Prossor (Senior Engineer & Co-Founder); Isaac Clarey (Senior Engineer & Co-Founder). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Speculative enquiry: graduate civil engineer or civil designer, land development (Geelong) role on your website.\n• They may ask about: No commercial civil design production experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No Australian site or office work experience yet → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No vacancy or level confirmed → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on employer_site (listed 2026-10-17). Contact: Tom Rix (Senior Engineer and Co-Founder), whose work email the employer publishes at https://www.loetis.com.au/about. Named people seen on employer pages: Tom Rix (Senior Engineer & Co-Founder); Leigh Prossor (Senior Engineer & Co-Founder); Isaac Clarey (Senior Engineer & Co-Founder). Sent by email from macdarenz@gmail.com once Marc's Gmail is connected; recorded as SENT with the Gmail id.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Speculative enquiry: graduate civil engineer or civil designer, land development (Geelong) role on your website.",
+   "They may ask about: No commercial civil design production experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No Australian site or office work experience yet → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No vacancy or level confirmed → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-17T05:17:37.000Z",
+  "duplicate_key": "loetisengineers|loetis.com.au/about"
+ }
+]

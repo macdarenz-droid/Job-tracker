@@ -1,0 +1,40 @@
+{
+  "seek_id": "loetis-geelong-spec-20261017",
+  "company": "Loetis Engineers",
+  "role": "Speculative enquiry: graduate civil engineer or civil designer, land development (Geelong)",
+  "location": "Newtown (Geelong) VIC",
+  "job_url": "https://www.loetis.com.au/about",
+  "route": "EMAIL",
+  "recipient_name": "Tom Rix",
+  "recipient_role": "Senior Engineer and Co-Founder",
+  "recipient_email": "tom.r@loetis.com.au",
+  "contact_evidence_url": "https://www.loetis.com.au/about",
+  "subject": "Graduate civil enquiry for Loetis in Geelong, Marc Masarate",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "notes": "Open-web find on tick 20261017T0511Z (victoria_offsite rotation). SEEK d3/60, d7/60 and d14/80 produced no never-screened candidate; Victorian council and off-SEEK searches (Melton applynow, Wyndham, Brimbank, Hobsons Bay, Hume, Moorabool, Ballarat, Pyrenees, Mildura, Geelong, Indeed, Jora-type aggregators) gave only tracked, closed, student-only or blocked roles. Loetis publishes Tom Rix's business email on its about page; no careers page or numbered vacancy, so labelled speculative.",
+  "email_body": "Hello Tom,\n\nThis is a speculative enquiry rather than a reply to an advert. I found your details on the Loetis about page and wanted to write to you directly, since your work centres on roads, drainage, sewer and water design.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge. I am based in Melton VIC, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am available for office, site and regional work.\n\nLoetis designs subdivisions from 2 lots to estates of more than 2,000 lots, along with road, drainage and sewer upgrades for councils, which is the kind of civil design work I want to learn on. My software experience is from study, so I would start at graduate level.\n\nI've attached my resume and cover letter. Would you be open to a short conversation about any graduate civil role at Loetis in Geelong?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "screening_answers": {},
+  "checklist": [
+    "Confirm tom.r@loetis.com.au is still published on https://www.loetis.com.au/about",
+    "Attach compact resume and cover letter PDFs",
+    "Send only after the shared lease and all section 8 checks if chosen as a run's email",
+    "Update tracker to SENT with the Gmail message id"
+  ],
+  "letter": {
+    "recipient_name": "Tom Rix",
+    "recipient_role": "Senior Engineer and Co-Founder",
+    "company": "Loetis Engineers",
+    "company_line": "Loetis is a civil engineering and land development consultancy in Newtown and Warrnambool, designing subdivisions from 2 lots to more than 2,000 lots and delivering road, drainage, sewer and water upgrades with councils and utility providers.",
+    "subject": "Speculative enquiry: graduate civil engineer or civil designer, Geelong",
+    "greeting": "Dear Tom,",
+    "paragraphs": [
+      "Your profile on the Loetis about page describes a focus on roads, drainage, sewer and water design, so I am writing to you directly. This is a speculative enquiry about a graduate civil engineer or civil designer role with Loetis in Geelong.",
+      "In February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute, documenting road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD to Australian Standards. I also lodged Before You Dig Australia enquiries and designed around existing services. I hold a Bachelor of Science in Civil Engineering from the Philippines (2014 to 2019).",
+      "From 2019 to 2020 I worked on site in the Philippines as project-in-charge on a community hall renovation and as a field engineer on residential subdivision finishing works, reviewing drawings, carrying out inspections and quality checks, and keeping site reports and material records.",
+      "Your subdivision, road reconstruction and drainage work is the kind of civil design I want to learn on. I am based in Melton VIC with a White Card, licence and transport, and full working rights to December 2027 on a Subclass 485 visa. My software experience is from study rather than commercial production, so I would start at graduate level.",
+      "I have attached my resume and would be glad to talk about any graduate opening at Loetis."
+    ],
+    "closing": "Yours sincerely,"
+  }
+}
