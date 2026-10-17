@@ -1,0 +1,119 @@
+[
+ {
+  "id": "af15d2de-5606-4b7c-9982-1b525d15f005",
+  "key": "manual:af15d2de-5606-4b7c-9982-1b525d15f005",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261017T0013Z",
+  "created_at": "2026-10-17T00:21:47.000Z",
+  "updated_at": "2026-10-17T00:21:47.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "id": "98bb66b3-5b14-41d0-985f-e7c332837cde",
+    "path": "/api/documents/98bb66b3-5b14-41d0-985f-e7c332837cde",
+    "filename": "Marc_Masarate_Concrete_Drafting_Pty_Ltd_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "size_bytes": 238165,
+    "kind": "resume",
+    "uploaded_at": "2026-10-17T00:21:49.732Z",
+    "stored_in": "cloudflare_r2"
+   },
+   {
+    "id": "08e92b87-2bc0-4717-973c-02a5720d5373",
+    "path": "/api/documents/08e92b87-2bc0-4717-973c-02a5720d5373",
+    "filename": "Marc_Masarate_Concrete_Drafting_Pty_Ltd_Concrete_Panel_Detailer_Draftsperson_Cover_Letter.pdf",
+    "sha256": "fa823c4afab80629e11e18aca3247db822da6919b25f2c3ab3300e3b40a3f479",
+    "size_bytes": 47925,
+    "kind": "cover",
+    "uploaded_at": "2026-10-17T00:21:48.833Z",
+    "stored_in": "cloudflare_r2"
+   }
+  ],
+  "company": "Concrete Drafting Pty. Ltd.",
+  "role": "Concrete Panel Detailer / Draftsperson",
+  "location": "Melbourne VIC",
+  "job_url": "https://www.seek.com.au/job/95326294",
+  "company_url": "",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "open",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95326294",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Application: Concrete Panel Detailer / Draftsperson, Marc Masarate",
+  "email_body": "Hello,\n\nI saw your Concrete Panel Detailer / Draftsperson advert on SEEK and would like to be considered.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, where I reviewed structural and architectural drawings and checked work against project requirements. I am based in Melton VIC, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa.\n\nYour advert says you will train people without panel detailing experience and that the role suits new graduates. I use AutoCAD in 2D and 3D, and I modelled a footing and column in 3D in AutoCAD during my course. My drafting is from study rather than paid work, and I have not used Tekla yet.\n\nI've attached my resume and cover letter. Could we arrange a short chat about the role?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Concrete panel detailer or draftsperson in Melbourne's northern suburbs on industrial, commercial and residential building projects; the advert says it will train people with no panel detailing experience and suits drafting and engineering students or new graduates.",
+   "Asks for some 2D AutoCAD and/or 3D Tekla, a building industry education or work background, and the ability to visualise in 3D from 2D drawings. Marc has AutoCAD 2D/3D from his Advanced Diploma, a footing and column modelled in 3D in AutoCAD, and reviewed structural and architectural drawings on site in the Philippines.",
+   "Victoria based and commutable from Melton; the work is building structure detailing rather than civil roads and drainage, so discipline overlap is partial."
+  ],
+  "gaps": [
+   "No Tekla Structures experience",
+   "No concrete panel detailing experience (advert says training is offered)",
+   "AutoCAD and Revit use is from study, not commercial drafting"
+  ],
+  "match_score": {
+   "percent": 74,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Concrete panel detailer or draftsperson in Melbourne's northern suburbs on industrial, commercial and residential building projects; the advert says it will train people with no panel detailing experience and suits drafting and engineering students or new graduates.",
+    "Asks for some 2D AutoCAD and/or 3D Tekla, a building industry education or work background, and the ability to visualise in 3D from 2D drawings. Marc has AutoCAD 2D/3D from his Advanced Diploma, a footing and column modelled in 3D in AutoCAD, and reviewed structural and architectural drawings on site in the Philippines.",
+    "Victoria based and commutable from Melton; the work is building structure detailing rather than civil roads and drainage, so discipline overlap is partial."
+   ],
+   "caution": "No Tekla and no panel detailing experience (the advert says neither is required). AutoCAD use is academic, not paid production drafting. SEEK asks years as a draftsperson: the honest answer is none in a paid role."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-16T22:29:55.562Z",
+   "expires_at": "2026-11-16T12:59:59.999Z",
+   "verified_at": "2026-10-17T00:14:57.000Z",
+   "apply_instructions": "SEEK Quick Apply with cover letter and resume (the advert says to email cover letter and resume through the Quick apply button). No closing date stated; SEEK listing expires 16 November 2026.",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a draftsperson?",
+    "How much notice are you required to give your current employer?",
+    "Do you have Engineering Drawing Interpretation experience?"
+   ]
+  },
+  "screening_answers": {
+   "Which of the following statements best describes your right to work in Australia?": "I hold a temporary visa with full working rights (Subclass 485, valid until December 2027).",
+   "What's your expected annual base salary?": "Marc to answer; no salary figure is on record.",
+   "How many years' experience do you have as a draftsperson?": "No paid drafting experience. AutoCAD 2D/3D, Civil 3D and Revit drafting is from the Advanced Diploma of Civil Construction Design (completed February 2026).",
+   "How much notice are you required to give your current employer?": "Marc to answer; no notice period is on record.",
+   "Do you have Engineering Drawing Interpretation experience?": "Yes. Reviewed structural and architectural drawings and checked work against project requirements on site in the Philippines (2019), and prepared and reviewed technical drawings in AutoCAD and Civil 3D in the Advanced Diploma."
+  },
+  "checklist": [
+   "Open SEEK job 95326294 and confirm it is still open (SEEK listing expires 16 November 2026)",
+   "Upload the resume and the cover letter PDF from this record",
+   "Answer the five questions using screening_answers; right to work is the temporary visa with full work rights option, never citizen or PR; Marc fills salary and notice",
+   "For years as a draftsperson pick the lowest option (no paid drafting experience)",
+   "Press Applied on the tracker with the date once the SEEK receipt arrives"
+  ],
+  "notes": "Found by Grok AI on tick 20261017T0013Z in the standard 3 day SEEK sweep (listed 17 Oct 2026, SEEK listing expires 16 November 2026, no closing date in the advert). No contact named and no website or published email found, so this is a SEEK Quick Apply for Marc or Jeremie. Office is in Melbourne's northern suburbs (ABN location Reservoir VIC 3073), commutable from Melton. Salary and notice period are not on record; Marc answers those himself.\nChecked 17 Oct 2026 AEDT by Grok AI. The SEEK advert names no contact and the company has no website found; ABN Lookup shows Concrete Drafting Pty Ltd (ABN 16 154 507 785) active since 2011 with main business location VIC 3073 (Reservoir). No published email, so SEEK Quick Apply only. Gmail in:anywhere for Concrete Drafting: no prior application or outreach. Tracker check: new.\nHOW GROK AI FOUND THIS\nFound on SEEK (listed 2026-10-16, closes 2026-11-16). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your advert for the Concrete Panel Detailer / Draftsperson role on SEEK.\n• They may ask about: No Tekla Structures experience → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: No concrete panel detailing experience (advert says training is offered) → answer honestly from the facts; nothing beyond them was claimed.\n• They may ask about: AutoCAD and Revit use is from study, not commercial drafting → answer honestly from the facts; nothing beyond them was claimed.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Found on SEEK (listed 2026-10-16, closes 2026-11-16). No published email for a hiring person; the application goes through the employer's portal or SEEK. Marc or Jeremie submits through the portal or SEEK using the pack on this record.",
+  "call_prep": [
+   "How did you find us? → Your advert for the Concrete Panel Detailer / Draftsperson role on SEEK.",
+   "They may ask about: No Tekla Structures experience → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: No concrete panel detailing experience (advert says training is offered) → answer honestly from the facts; nothing beyond them was claimed.",
+   "They may ask about: AutoCAD and Revit use is from study, not commercial drafting → answer honestly from the facts; nothing beyond them was claimed.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-17T00:21:47.000Z",
+  "seek_id": "95326294",
+  "duplicate_key": "concretedraftingptyltd|seek:95326294"
+ }
+]

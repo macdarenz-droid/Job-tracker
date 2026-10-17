@@ -1,0 +1,21 @@
+{
+ "built": [
+  [
+   "af15d2de-5606-4b7c-9982-1b525d15f005",
+   "Concrete Drafting Pty. Ltd.",
+   "Concrete Panel Detailer / Draftsperson",
+   "READY_JEREMIE_SEEK"
+  ]
+ ],
+ "rejected": [],
+ "tracker": {
+  "version": 224,
+  "updated_at": "2026-10-17T00:21:52.089Z",
+  "result": {
+   "added": [
+    "af15d2de-5606-4b7c-9982-1b525d15f005"
+   ],
+   "skipped": []
+  }
+ }
+}

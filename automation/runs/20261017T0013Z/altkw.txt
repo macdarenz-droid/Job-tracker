@@ -1,0 +1,58 @@
+[technical officer] 95326691 | Project Director | Vertiv | Melbourne VIC | 2026-10-16T23:33:38Z | title excludes: director
+[technical officer] 95326688 | Project Director | Vertiv | Sydney NSW | 2026-10-16T23:33:30Z | title excludes: director
+[technical officer] 95326414 | Manager, Laboratory and Technical Services (Engineering and Physical Sciences) | James Cook University | Townsville, Northern QLD | 2026-10-16T23:02:20Z | title excludes: manager
+[technical officer] 95326413 | Manager, Laboratory and Technical Services (Engineering and Physical Sciences) | James Cook University | Townsville, Northern QLD | 2026-10-16T23:02:19Z | title excludes: manager
+[technical officer] 95326412 | Manager, Laboratory and Technical Services (Operations and Safety) | James Cook University | Townsville, Northern QLD | 2026-10-16T23:02:18Z | title excludes: manager
+[technical officer] 95326411 | Manager, Laboratory and Technical Services (Operations and Safety) | James Cook University | Townsville, Northern QLD | 2026-10-16T23:02:17Z | title excludes: manager
+[technical officer] 95326406 | Manager, Laboratory and Technical Services (Engineering and Physical Sciences) | James Cook University | Townsville, Northern QLD | 2026-10-16T23:02:12Z | title excludes: manager
+[technical officer] 95326407 | Manager, Laboratory and Technical Services (Operations and Safety) | James Cook University | Townsville, Northern QLD | 2026-10-16T23:02:12Z | title excludes: manager
+[technical officer] 95326405 | Manager, Laboratory and Technical Services (Operations and Safety) | James Cook University | Townsville, Northern QLD | 2026-10-16T23:02:11Z | title excludes: manager
+[technical officer] 95326404 | Manager, Laboratory and Technical Services (Engineering and Physical Sciences) | James Cook University | Townsville, Northern QLD | 2026-10-16T23:02:10Z | title excludes: manager
+[technical officer] 95326323 | Talent Pool - Senior Ag/NRM/Strategic Land Services officer roles | Department of Primary Industries and Regional Development NSW | Coffs Harbour, Coffs Harbour & North Coast NSW | 2026-10-16T22:14:43Z | title excludes: senior
+[technical officer] 95326301 | Talent Pool - Senior Ag/NRM/Strategic Land Services officer roles | Department of Primary Industries and Regional Development NSW | Bega, Wollongong, Illawarra & South Coast NSW | 2026-10-16T22:05:15Z | title excludes: senior
+[technical officer] 95326086 | Customer Contact Officer | Leaptel | Camberwell, Melbourne VIC | 2026-10-16T21:31:30Z | title excludes: customer
+[technical officer] 95325985 | Senior Software Engineer, Engine & Tools - Unpublished R&D Product | Riot Games | Sydney NSW | 2026-10-16T20:58:30Z | title excludes: senior
+[technical officer] 94686111 | Senior Consultant - Data & Analytics | Datacom | Sydney NSW | 2026-10-16T17:02:38Z | title excludes: senior
+[technical officer] 95324821 | Senior Technical Support Engineer IINew | Ping Identity | Sydney NSW | 2026-10-16T15:29:57Z | title excludes: senior
+[engineering officer] 95324091 | Rail Project Engineer / Manager | Hatch | Brisbane QLD | 2026-10-16T13:28:09Z | title excludes: manager
+[engineering officer] 95326694 | Graduate Electrical Engineer | Vertiv | Sydney NSW | 2026-10-16T23:34:28Z | title excludes: electrical
+[engineering officer] 95326465 | Project Engineer | D2 Process Ltd | Melbourne VIC | 2026-10-16T23:10:59Z | ok
+[engineering officer] 95326414 | Manager, Laboratory and Technical Services (Engineering and Physical Sciences) | James Cook University | Townsville, Northern QLD | 2026-10-16T23:02:20Z | title excludes: manager
+[engineering officer] 95326413 | Manager, Laboratory and Technical Services (Engineering and Physical Sciences) | James Cook University | Townsville, Northern QLD | 2026-10-16T23:02:19Z | title excludes: manager
+[engineering officer] 95326406 | Manager, Laboratory and Technical Services (Engineering and Physical Sciences) | James Cook University | Townsville, Northern QLD | 2026-10-16T23:02:12Z | title excludes: manager
+[engineering officer] 95326404 | Manager, Laboratory and Technical Services (Engineering and Physical Sciences) | James Cook University | Townsville, Northern QLD | 2026-10-16T23:02:10Z | title excludes: manager
+[engineering officer] 95326344 | Applications Engineer | Modular Mining | Milton, Brisbane QLD | 2026-10-16T22:25:07Z | ok
+[engineering officer] 95324091 | Rail Project Engineer / Manager | Hatch | Brisbane QLD | 2026-10-16T13:28:09Z | title excludes: manager
+[civil] 95324091 | Rail Project Engineer / Manager | Hatch | Brisbane QLD | 2026-10-16T13:28:09Z | title excludes: manager
+[civil] 95326702 | Junior Contract Administrator | Veracity Talent Solutions | Sydney NSW | 2026-10-16T23:44:28Z | title excludes: contract administrator
+[civil] 95326414 | Manager, Laboratory and Technical Services (Engineering and Physical Sciences) | James Cook University | Townsville, Northern QLD | 2026-10-16T23:02:20Z | title excludes: manager
+[civil] 95326413 | Manager, Laboratory and Technical Services (Engineering and Physical Sciences) | James Cook University | Townsville, Northern QLD | 2026-10-16T23:02:19Z | title excludes: manager
+[civil] 95326406 | Manager, Laboratory and Technical Services (Engineering and Physical Sciences) | James Cook University | Townsville, Northern QLD | 2026-10-16T23:02:12Z | title excludes: manager
+[civil] 95326404 | Manager, Laboratory and Technical Services (Engineering and Physical Sciences) | James Cook University | Townsville, Northern QLD | 2026-10-16T23:02:10Z | title excludes: manager
+[civil] 95326317 | SALES REPRESENTATIVE - BUNDOORA BASE | Mabey Hire Pty Ltd | Bundoora, Melbourne VIC | 2026-10-16T22:09:14Z | title excludes: sales
+[civil] 95326087 | Refinery Operator - Copy | Sun Metals | Townsville, Northern QLD | 2026-10-16T21:31:44Z | title excludes: operator
+[civil] 95325953 | Legal Assistant- Health Law | Kaleidoscope Legal Recruitment | Melbourne VIC | 2026-10-16T21:00:19Z | title has no junior/civil signal
+[civil] 95325773 | Senior Structural Engineer - Tall Buildings | Cookson and Roberts | Sydney NSW | 2026-10-16T19:28:51Z | title excludes: senior
+[civil] 95324091 | Rail Project Engineer / Manager | Hatch | Brisbane QLD | 2026-10-16T13:28:09Z | title excludes: manager
+[drafter] 95326294 | CONCRETE PANEL DETAILER / DRAFTSPERSON | Concrete Drafting | Melbourne VIC | 2026-10-16T22:29:55Z | ok
+[drafter] 95326286 | Sydney HVAC Draftsman - HVAC | Talon Recruitment Solutions | Ryde, Sydney NSW | 2026-10-16T22:00:15Z | title excludes: hvac
+[draftsperson] 95326294 | CONCRETE PANEL DETAILER / DRAFTSPERSON | Concrete Drafting | Melbourne VIC | 2026-10-16T22:29:55Z | ok
+[draftsperson] 95326286 | Sydney HVAC Draftsman - HVAC | Talon Recruitment Solutions | Ryde, Sydney NSW | 2026-10-16T22:00:15Z | title excludes: hvac
+[estimator] 95326702 | Junior Contract Administrator | Veracity Talent Solutions | Sydney NSW | 2026-10-16T23:44:28Z | title excludes: contract administrator
+[cadet] 95326702 | Junior Contract Administrator | Veracity Talent Solutions | Sydney NSW | 2026-10-16T23:44:28Z | title excludes: contract administrator
+[graduate engineer] 95324091 | Rail Project Engineer / Manager | Hatch | Brisbane QLD | 2026-10-16T13:28:09Z | title excludes: manager
+[graduate engineer] 95326702 | Junior Contract Administrator | Veracity Talent Solutions | Sydney NSW | 2026-10-16T23:44:28Z | title excludes: contract administrator
+[graduate engineer] 95326694 | Graduate Electrical Engineer | Vertiv | Sydney NSW | 2026-10-16T23:34:28Z | title excludes: electrical
+[graduate engineer] 95326465 | Project Engineer | D2 Process Ltd | Melbourne VIC | 2026-10-16T23:10:59Z | ok
+[graduate engineer] 95326294 | CONCRETE PANEL DETAILER / DRAFTSPERSON | Concrete Drafting | Melbourne VIC | 2026-10-16T22:29:55Z | ok
+[graduate engineer] 95326344 | Applications Engineer | Modular Mining | Milton, Brisbane QLD | 2026-10-16T22:25:07Z | ok
+[graduate engineer] 95324675 | Municipal Sales Engineer | Smith & Loveless Australia | Penrith, Sydney NSW | 2026-10-16T15:06:58Z | title excludes: sales
+[graduate engineer] 95324091 | Rail Project Engineer / Manager | Hatch | Brisbane QLD | 2026-10-16T13:28:09Z | title excludes: manager
+[project officer infrastructure] 95324091 | Rail Project Engineer / Manager | Hatch | Brisbane QLD | 2026-10-16T13:28:09Z | title excludes: manager
+[project officer infrastructure] 95326691 | Project Director | Vertiv | Melbourne VIC | 2026-10-16T23:33:38Z | title excludes: director
+[project officer infrastructure] 95326689 | Senior Customer Service Specialist Projects | Vertiv | Sydney NSW | 2026-10-16T23:33:36Z | title excludes: senior
+[project officer infrastructure] 95326688 | Project Director | Vertiv | Sydney NSW | 2026-10-16T23:33:30Z | title excludes: director
+[project officer infrastructure] 95325989 | Infrastructure Project Planner (Planning & Design) | Sutherland Shire Council | Sutherland, Sydney NSW | 2026-10-16T20:58:59Z | title excludes: planner
+[project officer infrastructure] 95324091 | Rail Project Engineer / Manager | Hatch | Brisbane QLD | 2026-10-16T13:28:09Z | title excludes: manager
+[works coordinator] 95326702 | Junior Contract Administrator | Veracity Talent Solutions | Sydney NSW | 2026-10-16T23:44:28Z | title excludes: contract administrator
+[works coordinator] 95325989 | Infrastructure Project Planner (Planning & Design) | Sutherland Shire Council | Sutherland, Sydney NSW | 2026-10-16T20:58:59Z | title excludes: planner

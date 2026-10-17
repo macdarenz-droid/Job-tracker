@@ -1,0 +1,510 @@
+{
+ "count": 1,
+ "skipped": 0,
+ "screened_in_earlier_runs": [
+  {
+   "id": "95281671",
+   "company": "Shifted Designs",
+   "title": "Civil Designer",
+   "run": "20261015T0818Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "Minimum 6 years Civil Designer experience in an Australian consultancy"
+   ]
+  },
+  {
+   "id": "95314994",
+   "company": "Bayside Group",
+   "title": "Junior Civil Design Engineer",
+   "run": "20261016T0917Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "relevant local (Australian) experience required",
+    "clear, unrestricted Australian work rights required"
+   ]
+  },
+  {
+   "id": "95285182",
+   "company": "City of Newcastle",
+   "title": "Civil Designer",
+   "run": "20261015T0818Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Lead civil designer role supporting less experienced designers; experienced level"
+   ]
+  },
+  {
+   "id": "95273551",
+   "company": "A One Earthworks",
+   "title": "Site Engineer / Project Engineer - Bulk Earthworks & Civil Infrastructure",
+   "run": "20261015T0316Z",
+   "percent": 42,
+   "mandatory_unmet": [
+    "2+ years civil construction or heavy infrastructure experience"
+   ]
+  },
+  {
+   "id": "95263024",
+   "company": "Appoint",
+   "title": "Civil Project / Site Engineers | Major Infrastructure Projects",
+   "run": "20261014T0711Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Proven experience as a Project Engineer or Site Engineer on major civil infrastructure projects",
+    "Strong local experience delivering civil construction projects within Australia",
+    "Must already be based in Brisbane with unrestricted Australian working rights"
+   ]
+  },
+  {
+   "id": "95287525",
+   "company": "Bayside Group",
+   "title": "Civil Engineer/Civil Drafter",
+   "run": "20261015T0818Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Experienced civil drafters/engineers with genuine Queensland rail experience"
+   ]
+  },
+  {
+   "id": "95254965",
+   "company": "Amey Australia",
+   "title": "Civil Designer",
+   "run": "20261014T0711Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Around 3+ years' experience in civil design/drafting",
+    "Practical experience using 12d Model"
+   ]
+  },
+  {
+   "id": "95311561",
+   "company": "Ausenco Services",
+   "title": "Civil Designer",
+   "run": "20261016T0917Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "minimum 5 years civil design experience"
+   ]
+  },
+  {
+   "id": "95310513",
+   "company": "Atom Resources",
+   "title": "Civil Engineer/Designer/Drafter",
+   "run": "20261016T0917Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "civil drafting experience in consulting",
+    "strong 12D experience"
+   ]
+  },
+  {
+   "id": "95307774",
+   "company": "Eurobodalla Shire Council",
+   "title": "Cadet Civil Engineer x 4",
+   "run": "20261016T0418Z",
+   "percent": 42,
+   "mandatory_unmet": [
+    "About to commence or already undertaking a Bachelor of Engineering (cadetship with part-time study)"
+   ]
+  },
+  {
+   "id": "95288046",
+   "company": "Bayside Group",
+   "title": "Civil Designers/Civil Engineers - Multiple QLD opportunities!",
+   "run": "20261015T0818Z",
+   "percent": 38,
+   "mandatory_unmet": [
+    "Civil Designer manages design and drafting across projects; experienced level, agency"
+   ]
+  },
+  {
+   "id": "95283992",
+   "company": "Ausenco Services",
+   "title": "Civil Designer",
+   "run": "20261015T0818Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Minimum 5 years earthworks, roadworks and drainage design in mining or heavy industrial"
+   ]
+  },
+  {
+   "id": "95279840",
+   "company": "Exclusive Construction Machinery and Equipment Pty Ltd",
+   "title": "Full-Time Civil Engineering Technician",
+   "run": "20261015T0316Z",
+   "percent": 48,
+   "mandatory_unmet": [
+    "Minimum 2 years of relevant experience in civil engineering technical support, earthworks, site preparation, drainage works or civil construction"
+   ]
+  },
+  {
+   "id": "95250866",
+   "company": "MJB Industries Pty Ltd",
+   "title": "Civil Engineering Draftsperson / CAD Draftsperson",
+   "run": "20261014T0215Z",
+   "percent": 48,
+   "mandatory_unmet": [
+    "Minimum of 1 year proven experience in a similar Civil Engineering Draftsperson / CAD Draftsperson role",
+    "Must reside in the South West region (Australind WA)"
+   ]
+  },
+  {
+   "id": "95247893",
+   "company": "Burton Contractors",
+   "title": "Site Engineer - Civil",
+   "run": "20261014T0215Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Previous experience as a Site Engineer within the civil construction industry (essential)"
+   ]
+  },
+  {
+   "id": "95304447",
+   "company": "Fynde Talent Limited",
+   "title": "Junior Civil Engineer",
+   "run": "20261016T0418Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Intermediate to senior-level consulting experience"
+   ]
+  },
+  {
+   "id": "95284704",
+   "company": "Total HRM",
+   "title": "Project Engineer – Water & Civil Infrastructure",
+   "run": "20261015T0818Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "Full lifecycle project management of civil and water projects; experienced PE"
+   ]
+  },
+  {
+   "id": "95248394",
+   "company": "New Horizon Construction",
+   "title": "Civil Site Engineer – Road Construction",
+   "run": "20261014T0215Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "At least three years experience as a Site Engineer or Project Engineer in civil construction with a strong focus on road works"
+   ]
+  },
+  {
+   "id": "95286262",
+   "company": "Urbanise WA Pty Ltd",
+   "title": "Civil Engineer",
+   "run": "20261015T0818Z",
+   "percent": 20,
+   "mandatory_unmet": [
+    "5+ years WA land development experience"
+   ]
+  },
+  {
+   "id": "95278407",
+   "company": "SITZLER Pty Ltd",
+   "title": "Civil Project Engineer WA",
+   "run": "20261015T0316Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Demonstrated track record in project controls, programming, QA, contract administration, quantity surveying or engineering at this level"
+   ]
+  },
+  {
+   "id": "95277981",
+   "company": "ENGCO Projects",
+   "title": "Civil Site Engineer - Immediate Start",
+   "run": "20261015T0316Z",
+   "percent": 45,
+   "mandatory_unmet": [
+    "2 to 5 years of site-based experience in civil construction"
+   ]
+  },
+  {
+   "id": "95261349",
+   "company": "PERSOL",
+   "title": "Structural Drafter ",
+   "run": "20261014T0711Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "Proven experience as a Structural Drafter within a structural engineering consultancy (mid to senior level)"
+   ]
+  },
+  {
+   "id": "95260251",
+   "company": "Aurizon",
+   "title": "Engineer (Civil / Structural)",
+   "run": "20261014T0711Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Approximately 2-8 years' experience in a civil or structural engineering role (mandatory)"
+   ]
+  },
+  {
+   "id": "95299440",
+   "company": "Rickard Engineering",
+   "title": "Façade/Structural/Civil Design Engineer",
+   "run": "20261015T2320Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Experience (2+ years) in facade engineering"
+   ]
+  },
+  {
+   "id": "95270683",
+   "company": "City of Adelaide",
+   "title": "Design Drafter",
+   "run": "20261015T2320Z",
+   "percent": 62,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95261369",
+   "company": "Kehoe Myers Consulting Engineers",
+   "title": "Civil Engineer",
+   "run": "20261014T0711Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "A minimum of 2 years' relevant industry experience",
+    "Experience administering civil construction contracts including Superintendent's Representative"
+   ]
+  },
+  {
+   "id": "95254019",
+   "company": "Van Der Meer Consulting",
+   "title": "Structural Draftsperson",
+   "run": "20261014T0711Z",
+   "percent": 10,
+   "mandatory_unmet": [
+    "Minimum 3 years structural drafting experience in a consultancy",
+    "Minimum 3 years Revit experience",
+    "Australian Citizen or Permanent Resident"
+   ]
+  },
+  {
+   "id": "95314016",
+   "company": "Hercules Plastics",
+   "title": "AutoCAD Drafter",
+   "run": "20261016T0917Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "3+ years relevant drafting or trade experience",
+    "CNC machine experience"
+   ]
+  },
+  {
+   "id": "95312368",
+   "company": "Silverstrand Developments",
+   "title": "Civil Estimator",
+   "run": "20261016T0917Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "3+ years civil estimating experience"
+   ]
+  },
+  {
+   "id": "95287636",
+   "company": "ACCIONA Australia",
+   "title": "Graduate Engineer, Piling",
+   "run": "20261015T0818Z",
+   "percent": 50,
+   "mandatory_unmet": [
+    "Employer Workday advert (job 20102333) lists required demonstrated experience in piling foundations, FRP for cast in-situ piles, ground anchors and soil nailing, Pile Integrity Testing and ground anchor testing; Marc has none of these"
+   ]
+  },
+  {
+   "id": "95251274",
+   "company": "JMT Civil",
+   "title": "Civil Estimator",
+   "run": "20261014T0215Z",
+   "percent": 22,
+   "mandatory_unmet": [
+    "5+ years experience in Civil Estimating"
+   ]
+  },
+  {
+   "id": "95250417",
+   "company": "Parklife Metro DC",
+   "title": "Undergraduate Engineer",
+   "run": "20261014T0215Z",
+   "percent": 38,
+   "mandatory_unmet": [
+    "Undergraduate Engineer pathway (currently enrolled undergraduate engineer)"
+   ]
+  },
+  {
+   "id": "95246875",
+   "company": "MidCoast Council",
+   "title": "Development Engineer",
+   "run": "20261014T0215Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Experience in development engineering, development assessment or a related civil engineering environment"
+   ]
+  },
+  {
+   "id": "95273111",
+   "company": "Central Highlands Regional Council",
+   "title": "Civil Construction Trainee",
+   "run": "20261014T2213Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Must not hold a qualification equal to or higher than Certificate III in Civil Construction in the same field: Marc holds an Advanced Diploma of Civil Construction Design"
+   ]
+  },
+  {
+   "id": "95255080",
+   "company": "Brunel",
+   "title": "Site Engineer",
+   "run": "20261014T0711Z",
+   "percent": 35,
+   "mandatory_unmet": [
+    "Previous experience as a Site Engineer within civil construction"
+   ]
+  },
+  {
+   "id": "95312796",
+   "company": "Chandler Macleod",
+   "title": "Infrastructure Engineer",
+   "run": "20261016T1417Z",
+   "percent": 30,
+   "mandatory_unmet": [
+    "Experienced civil engineer with strong local government experience"
+   ]
+  },
+  {
+   "id": "95312090",
+   "company": "TAB Resources Pty Ltd",
+   "title": "Design draftsperson",
+   "run": "20261016T1417Z",
+   "percent": 15,
+   "mandatory_unmet": [
+    "Minimum 3+ years professional drafting in piping, structural steel and mechanical systems"
+   ]
+  },
+  {
+   "id": "95311168",
+   "company": "NES Fircroft",
+   "title": "Project Engineer - Land Development",
+   "run": "20261016T1417Z",
+   "percent": 10,
+   "mandatory_unmet": [
+    "Minimum 5 years WA land development consulting experience"
+   ]
+  },
+  {
+   "id": "95303562",
+   "company": "Martinus Rail",
+   "title": "Site Engineer-FIFO",
+   "run": "20261016T0418Z",
+   "percent": 52,
+   "mandatory_unmet": []
+  },
+  {
+   "id": "95300899",
+   "company": "RFI",
+   "title": "Draftsperson/ BIM Modeler",
+   "run": "20261016T0418Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Minimum 2 years experience as a BIM Modeler, Revit Technician, CAD Designer or similar",
+    "Telecommunications industry experience"
+   ]
+  },
+  {
+   "id": "95299519",
+   "company": "Rickard Engineering",
+   "title": "Designer / Drafter (Façade)",
+   "run": "20261015T2320Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Minimum 3+ years of relevant experience in facades with senior-level responsibility"
+   ]
+  },
+  {
+   "id": "95287623",
+   "company": "DMD Storage Group",
+   "title": "Draftsperson",
+   "run": "20261015T1317Z",
+   "percent": 28,
+   "mandatory_unmet": [
+    "Advance Steel experience",
+    "Experience in steel detailing and fabrication documentation"
+   ]
+  },
+  {
+   "id": "95282735",
+   "company": "Guidera O'Connor",
+   "title": "Graduate Estimator",
+   "run": "20261015T1317Z",
+   "percent": 32,
+   "mandatory_unmet": [
+    "A degree in Mechanical or Chemical Engineering, or Construction Management"
+   ]
+  },
+  {
+   "id": "95275617",
+   "company": "Cooper McCullough Group",
+   "title": "ON-SITE ENGINEER",
+   "run": "20261015T0316Z",
+   "percent": 52,
+   "mandatory_unmet": [
+    "Minimum one year of engineering experience (Marc has under one year, April 2019 to February 2020)"
+   ]
+  },
+  {
+   "id": "95262230",
+   "company": "Stellar Recruitment",
+   "title": "Civil Engineer (TSF Construction)",
+   "run": "20261014T0711Z",
+   "percent": 10,
+   "mandatory_unmet": [
+    "Previous work for civil contractors on construction of bulk earthworks projects in the mining or industrial sector"
+   ]
+  },
+  {
+   "id": "95256330",
+   "company": "Upper Hunter Shire Council",
+   "title": "Works Engineer - Merriwa",
+   "run": "20261014T0711Z",
+   "percent": 25,
+   "mandatory_unmet": [
+    "Experienced works engineer managing council construction and maintenance programs"
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "id": "95326294",
+   "source": "seek",
+   "title": "CONCRETE PANEL DETAILER / DRAFTSPERSON",
+   "company": "Concrete Drafting Pty. Ltd.",
+   "location": "Melbourne VIC",
+   "url": "https://www.seek.com.au/job/95326294",
+   "work_type": "Full time",
+   "salary": null,
+   "listed_at": "2026-10-16T22:29:55.562Z",
+   "expires_at": "2026-11-16T12:59:59.999Z",
+   "is_expired": false,
+   "is_link_out": false,
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a draftsperson?",
+    "How much notice are you required to give your current employer?",
+    "Do you have Engineering Drawing Interpretation experience?"
+   ],
+   "summary": "Drafting role on industrial, commercial and residential building projects in Melbourne's Northern Suburbs.",
+   "opening": "- Employment opportunity exists for our very busy, successful and rapidly growing company.\n- Full time work.\n- Flexible Hours.\n- Office located in Melbourne’s Northern Suburbs.\n- Close to public transport and shops.\n- Free car parking close to office.\n- Possibly work from home.\n- Work on Industrial, Commercial and Residential building projects.\n- Immediate start.\nThe successful applicant will have the following skills and attributes:\n- Some 2D AutoCAD experience and/or 3D Tekla experience.\n- Some experience in concrete panel detailing is preferred but not required.\n- An educational and/or work background in the building industry.\n- The ability to visualise in 3D from 2D drawings.\n- Strong attention to detail and possess a high degree of accuracy.\n- Excellent written and verbal communication skills.\n- Strong organisational skills.\n- The ability to work independently and as part of a team.",
+   "key_lines": [
+    "- Close to public transport and shops.",
+    "- Free car parking close to office.",
+    "- Work on Industrial, Commercial and Residential building projects.",
+    "- Some 2D AutoCAD experience and/or 3D Tekla experience.",
+    "- Some experience in concrete panel detailing is preferred but not required.",
+    "- Strong attention to detail and possess a high degree of accuracy.",
+    "Willing to train those with no concrete panel detailing experience. Ideal for drafting and engineering students or new graduates.",
+    "Salary and hours are negotiable for the right candidate and is based on experience.",
+    "Email your cover letter and resume' by selecting the above pink \"Quick apply\" button."
+   ]
+  }
+ ]
+}
