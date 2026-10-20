@@ -1,0 +1,42 @@
+{
+ "seek_id": null,
+ "company": "Breese Pitt Dixon",
+ "role": "Speculative enquiry: graduate civil engineer or civil designer, land development (Melbourne)",
+ "location": "Hawthorn East, Melbourne VIC",
+ "job_url": "https://www.bpd.com.au/careers",
+ "company_url": "https://www.bpd.com.au/",
+ "route": "EMAIL",
+ "application_type": "SPECULATIVE_ENQUIRY",
+ "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+ "recipient_name": "",
+ "recipient_role": "Careers and expressions of interest inbox",
+ "recipient_email": "info@bpd.com.au",
+ "contact_evidence_url": "https://www.bpd.com.au/careers",
+ "subject": "Graduate civil engineer enquiry, Marc Masarate",
+ "email_body": "Hello Breese Pitt Dixon team,\n\nYour careers page says you are keen to hear from graduate civil engineers and asks for an introduction with a CV, so this is a speculative enquiry rather than a reply to an advert.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. I also hold a Bachelor of Science in Civil Engineering from the Philippines. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, including residential subdivision finishing works. I am based in Melton VIC, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am available for office, site and regional work.\n\nThe work I am looking for is civil design for land development: the estate roads, drainage and retarding basins your engineers design. My software experience is from study, not commercial production, so I would start at graduate level.\n\nI've attached my resume and cover letter. Would you keep me in mind for a graduate civil design role, now or later?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+ "letter": {
+  "recipient_name": "",
+  "recipient_role": "Engineering team",
+  "company": "Breese Pitt Dixon",
+  "company_line": "Breese Pitt Dixon has worked in Melbourne land development for more than 40 years, designing major estates and infrastructure such as wetlands, retarding basins, trunk sewers, drainage and roads.",
+  "subject": "Speculative enquiry: graduate civil engineer or civil designer, Melbourne",
+  "greeting": "Hello Breese Pitt Dixon team,",
+  "paragraphs": [
+   "Your careers page invites graduate civil engineers to send an introduction and CV, so this is a speculative enquiry about a graduate civil engineering or civil design role with your team in Hawthorn East.",
+   "In February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute, where I designed and documented road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD to Australian Standards. I also lodged Before You Dig Australia enquiries and designed around existing services. I hold a Bachelor of Science in Civil Engineering from the Philippines (2014 to 2019).",
+   "From 2019 to 2020 I worked on site in the Philippines, as project-in-charge on a community hall renovation and then as a field engineer on residential subdivision finishing works. I reviewed drawings against project requirements, carried out inspections and quality checks, and kept site reports and material records.",
+   "Estate roads, drainage and retarding basins are the civil design work I want to build a career in, and learning from Directors who work on every project, as your page describes, is a real draw. I am based in Melton VIC with a White Card, a licence and my own transport, and full working rights to December 2027 on a Subclass 485 visa. My software experience is from study rather than commercial production, so I would start at graduate level.",
+   "I have attached my resume and would be glad to talk about any graduate opening, now or later."
+  ],
+  "closing": "Kind regards,"
+ },
+ "screening_answers": [],
+ "checklist": [
+  "Confirm info@bpd.com.au is still the expressions of interest address on https://www.bpd.com.au/careers",
+  "Check Gmail in:anywhere for Breese Pitt Dixon or bpd.com.au once more",
+  "Attach the master resume and the saved cover letter PDF",
+  "Send only when sending is re-enabled and Marc approves (one email per run)",
+  "Record the send date in /workspace/job-finds"
+ ],
+ "notes": "Speculative enquiry; BPD's careers page states it does not advertise individual vacancies and accepts expressions of interest at info@bpd.com.au."
+}

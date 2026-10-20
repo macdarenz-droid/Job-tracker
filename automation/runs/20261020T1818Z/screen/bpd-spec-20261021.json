@@ -1,0 +1,31 @@
+{
+ "percent": 70,
+ "rationale": [
+  "Graduate level: the BPD careers page names graduate civil engineers and draftspersons among the people it wants to hear from, and supports graduates with mentoring.",
+  "Discipline match: BPD designs estates, roads, drainage, wetlands and retarding basins, matching Marc's Advanced Diploma road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD, plus subdivision finishing site work.",
+  "Hawthorn East is metropolitan Melbourne, commutable from Melton."
+ ],
+ "caution": "No advertised vacancy; speculative. Marc's software experience is academic and he has not used 12d.",
+ "gaps": [
+  "No advertised vacancy (speculative enquiry)",
+  "Software experience is academic (AutoCAD, Civil 3D); no 12d",
+  "No Australian work experience yet"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "EMAIL",
+ "apply_email": "info@bpd.com.au",
+ "apply_instructions": "Email an introduction with CV to info@bpd.com.au (careers page)",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "Breese Pitt Dixon",
+ "title": "Speculative enquiry: graduate civil engineer or civil designer, land development (Melbourne)",
+ "location": "Hawthorn East, Melbourne VIC",
+ "url": "https://www.bpd.com.au/careers",
+ "listed_at": "",
+ "expires_at": "",
+ "screening_questions": [],
+ "source": "Breese Pitt Dixon careers page (open web)",
+ "company_work_verified": true,
+ "company_work_evidence": "https://www.bpd.com.au/careers: 'Our engineers deliver practical, cost-effective solutions at every scale, designing major estates and critical infrastructure such as wetlands, retarding basins, trunk sewers, drainage and roads'"
+}

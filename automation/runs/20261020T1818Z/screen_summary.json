@@ -1,0 +1,114 @@
+{
+ "_about": "Screening done by the tick itself (rubric resume-fit-v2 against facts.json). Finds saved to /workspace/job-finds, not the tracker (tracker full, Marc 20 Oct 2026).",
+ "kept": [
+  {
+   "id": "95364044",
+   "company": "Urbania (advert by GuidedHR)",
+   "title": "Assistant Estimator",
+   "percent": 68,
+   "route": "SEEK",
+   "status": "READY_JEREMIE_SEEK"
+  },
+  {
+   "id": "bpd-spec-20261021",
+   "company": "Breese Pitt Dixon",
+   "title": "Speculative enquiry: graduate civil engineer or civil designer",
+   "percent": 70,
+   "route": "EMAIL",
+   "status": "PREPARED_NOT_SENT"
+  }
+ ],
+ "held": [],
+ "skipped": [
+  {
+   "id": "95369570",
+   "company": "CPR Australia (Concrete Protection and Repair Services)",
+   "reason": "Marc applied to the same Graduate Project Engineer role on SEEK 25 Apr 2026 and got an unlikely to progress update 29 Apr; not re-applied without Marc"
+  },
+  {
+   "id": "95377660",
+   "company": "Andrew Walter Constructions",
+   "reason": "minimum 3 years as Project Engineer"
+  },
+  {
+   "id": "95372709",
+   "company": "West Coast Civil",
+   "reason": "experienced Project Engineer"
+  },
+  {
+   "id": "95368887",
+   "company": "Jaydo Construction",
+   "reason": "4+ years water infrastructure"
+  },
+  {
+   "id": "95347057",
+   "company": "WSP Perth",
+   "reason": "Senior/Project Engineer level"
+  },
+  {
+   "id": "95341421",
+   "company": "Bayside Council",
+   "reason": "experienced stormwater engineer"
+  },
+  {
+   "id": "95345174",
+   "company": "City of Parramatta",
+   "reason": "executive engineer"
+  },
+  {
+   "id": "95343222",
+   "company": "Killard Infrastructure",
+   "reason": "experienced site engineer (reo, formwork)"
+  },
+  {
+   "id": "95342061",
+   "company": "Randstad Student Engineer",
+   "reason": "agency, current students"
+  },
+  {
+   "id": "95365499",
+   "company": "Veolia",
+   "reason": "graduate process engineer, water treatment"
+  },
+  {
+   "id": "95346205",
+   "company": "Cranfield Group",
+   "reason": "recruiter, energy/substation site experience"
+  },
+  {
+   "id": "95338500",
+   "company": "Laing O'Rourke Adelaide",
+   "reason": "experienced site engineer, nuclear defence project"
+  },
+  {
+   "id": "95336179",
+   "company": "Bertazzo",
+   "reason": "mechanical design draftsperson"
+  },
+  {
+   "id": "95331919",
+   "company": "Alchemy All Metal Fabricators",
+   "reason": "steel fabrication"
+  },
+  {
+   "id": "95376733",
+   "company": "B1 Homes",
+   "reason": "residential home builder drafting"
+  },
+  {
+   "id": "95364127",
+   "company": "Concentis",
+   "reason": "NPI project engineer, not civil"
+  },
+  {
+   "id": "95344504",
+   "company": "Shellharbour City Council",
+   "reason": "business admin trainee"
+  },
+  {
+   "id": "95346897, 95345544",
+   "company": "CIMIC Graduate Program 2027 (Melbourne, Brisbane)",
+   "reason": "citizens/PR/NZ only"
+  }
+ ]
+}

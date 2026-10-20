@@ -1,0 +1,62 @@
+{
+ "seek_id": 95364044,
+ "company": "Urbania",
+ "role": "Assistant Estimator",
+ "location": "Thomastown, Melbourne VIC",
+ "job_url": "https://www.seek.com.au/job/95364044",
+ "company_url": "https://www.urbania.com.au/",
+ "route": "SEEK",
+ "application_type": "ADVERTISED_VACANCY",
+ "recipient_name": "",
+ "recipient_role": "",
+ "recipient_email": "",
+ "contact_evidence_url": "https://www.urbania.com.au/landscape/",
+ "subject": "Assistant Estimator (SEEK 95364044), Marc Masarate",
+ "email_body": "",
+ "letter": {
+  "recipient_name": "",
+  "recipient_role": "Recruitment team",
+  "company": "Urbania",
+  "company_line": "Urbania delivers playgrounds, parks, streetscapes and urban precincts for councils, schools and developers, with hard and soft landscaping, civil construction and structural concreting.",
+  "subject": "Assistant Estimator, Thomastown (SEEK 95364044)",
+  "greeting": "Hello Urbania team,",
+  "paragraphs": [
+   "I saw your Assistant Estimator advert on SEEK. You say the role suits a recent civil engineering graduate, and I finished my Advanced Diploma of Civil Construction Design in February 2026, so I am applying.",
+   "I hold a Bachelor of Science in Civil Engineering from the Philippines (2014 to 2019). The Advanced Diploma at Albright Institute covered cost estimates and bills of quantities alongside road geometry, earthworks, pavement and stormwater drainage design in AutoCAD and Civil 3D to Australian Standards.",
+   "From 2019 to 2020 I worked on site in the Philippines, as project-in-charge on a community hall renovation and then as a field engineer on residential subdivision finishing works. I reviewed structural and architectural drawings against project requirements, tracked procurement and materials, kept material records and coordinated with engineers, subcontractors and suppliers. Reading drawings and keeping supplier records are a big part of the role you describe.",
+   "Your work on playgrounds, parks and streetscapes, with earthworks, drainage and concreting for councils and schools, is work I would like to learn to price. My estimating so far is from coursework rather than a paid role, and I have not used takeoff software such as Plan Swift, so I would start at graduate level and learn your methods. I am based in Melton VIC with a White Card, a driver's licence and my own transport, and I have full working rights to December 2027 on a Subclass 485 visa.",
+   "I have attached my resume and would be glad to talk about the role."
+  ],
+  "closing": "Kind regards,"
+ },
+ "screening_answers": [
+  {
+   "question": "Which of the following statements best describes your right to work in Australia?",
+   "answer": "I have a temporary visa with full working rights (Subclass 485, valid to December 2027)."
+  },
+  {
+   "question": "What's your expected annual base salary?",
+   "answer": "MARC TO ANSWER (no salary figure on record)."
+  },
+  {
+   "question": "How many years' experience do you have as an Estimator Assistant?",
+   "answer": "No paid estimating experience; cost estimates and bills of quantities were Advanced Diploma coursework. Pick the lowest band SEEK offers."
+  },
+  {
+   "question": "How much notice are you required to give your current employer?",
+   "answer": "MARC TO ANSWER (no notice period on record)."
+  },
+  {
+   "question": "What's your highest level of education?",
+   "answer": "Bachelor degree: Bachelor of Science in Civil Engineering, Divine Word College of Legazpi, Philippines (2019). Also Advanced Diploma of Civil Construction Design (February 2026)."
+  }
+ ],
+ "checklist": [
+  "Check Gmail again for any Urbania or GuidedHR receipt, then open https://www.seek.com.au/job/95364044 and confirm it is still open",
+  "Apply on SEEK with the master resume and the saved cover letter PDF",
+  "Answer the screening questions as listed; Marc answers salary and notice period",
+  "Do not claim any paid estimating or Plan Swift experience",
+  "Note the SEEK receipt date in /workspace/job-finds (tracker recording is paused)"
+ ],
+ "notes": "Advert placed on SEEK by GuidedHR for Urbania (named in the advert). Graduates encouraged."
+}

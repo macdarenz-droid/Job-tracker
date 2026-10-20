@@ -2373,6 +2373,25 @@
         }
       ],
       "notes": "Finds saved to /workspace/job-finds (tracker full, Marc 20 Oct 2026)."
+    },
+    {
+      "run_id": "20261020T1818Z",
+      "rotation": "councils_government",
+      "checked_at": "2026-10-20T18:24:00Z",
+      "checked": [
+        "City of Busselton Civil Designer (closes 26 Oct) already in tracker",
+        "Melton City Council Civil Projects Officer MEL1888 closed 7 Oct",
+        "Hobsons Bay Civil Design Officer seen in LinkedIn search summary only; council vacancies page not readable (browse.py Chromium missing), not verified",
+        "Wyndham Graduate Civil Engineer (2025 advert, closed)",
+        "Hume Undergraduate Civil Engineer (penultimate year undergraduates only)",
+        "Knox Cadet Engineer closed 27 Sep; Yarra Graduate Road Engineer closed 22 Sep; Mildura Design Engineering Officer closed 15 Oct; Geraldton Graduate Engineering Officer closed 15 Oct; Warrnambool Civil Engineer roles closed 20 Sep; Campaspe Civil Engineer closed 18 Oct",
+        "Geelong Development Engineer (Band 6, already tracked)",
+        "City of Moreton Bay 2027 Graduate Program (posted 13 Aug, two year program from Feb 2027 beyond 485 end date; not verified open)",
+        "Bega Valley Engineer Cadet and Eurobodalla Cadet Civil Engineer (cadetships needing degree enrolment; not eligible)",
+        "DTP Graduate Engineer Technical Officer (expired); DTP Road Design East closed 6 Oct",
+        "Speculative targets checked in tracker: Breese Pitt Dixon (new, careers page invites EOIs to info@bpd.com.au, prepared), TGM Group (now Cardno/Stantec, Stantec blocked), UDE, Civilex, Bild, Ertech, Highway Construction, Abergeldie new but not researched"
+      ],
+      "notes": "browse.py failed: /opt/pw-browsers/chromium-1194 missing, so JavaScript council boards were read via WebSearch/WebFetch only."
     }
   ],
   "history": [

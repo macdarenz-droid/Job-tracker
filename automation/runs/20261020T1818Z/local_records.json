@@ -1,0 +1,228 @@
+[
+ {
+  "id": "bd9a0ba1-65be-49e2-b539-83aebd3cbf8f",
+  "key": "manual:bd9a0ba1-65be-49e2-b539-83aebd3cbf8f",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261020T1818Z",
+  "created_at": "2026-10-20T18:25:36.000Z",
+  "updated_at": "2026-10-20T18:25:36.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Urbania_Assistant_Estimator_Cover_Letter.pdf",
+    "stored_in": "local_box_only",
+    "path": "../runs/20261020T1818Z/Marc_Masarate_Urbania_Assistant_Estimator_Cover_Letter.pdf"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc-Darenz-Masarate-Resume.pdf",
+    "stored_in": "local_box_only",
+    "path": "/workspace/repos/Portfolio/assets/Marc-Darenz-Masarate-Resume.pdf"
+   }
+  ],
+  "company": "Urbania",
+  "role": "Assistant Estimator",
+  "location": "Thomastown, Melbourne VIC",
+  "job_url": "https://www.seek.com.au/job/95364044",
+  "company_url": "https://www.urbania.com.au/",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.urbania.com.au/landscape/",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Assistant Estimator (SEEK 95364044), Marc Masarate",
+  "email_body": "",
+  "fit": [
+   "Entry level: the advert names a recent civil engineering graduate or up to two years' experience, graduates encouraged; Marc holds a BSCE (2019) and finished an Advanced Diploma in February 2026.",
+   "Duties overlap his record: bills of quantities and cost estimates (Advanced Diploma coursework), reading drawings and specifications, tracking procurement and material records and coordinating suppliers (Philippines site work 2019 to 2020).",
+   "Thomastown is metropolitan Melbourne, a commute from Melton; direct employer Urbania is named (advert placed by GuidedHR)."
+  ],
+  "gaps": [
+   "No paid estimating or quantity surveying experience",
+   "Has not used take off software such as PlanSwift",
+   "Excel is listed as Microsoft Office only; no Excel modelling",
+   "No Australian work experience yet"
+  ],
+  "match_score": {
+   "percent": 68,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Entry level: the advert names a recent civil engineering graduate or up to two years' experience, graduates encouraged; Marc holds a BSCE (2019) and finished an Advanced Diploma in February 2026.",
+    "Duties overlap his record: bills of quantities and cost estimates (Advanced Diploma coursework), reading drawings and specifications, tracking procurement and material records and coordinating suppliers (Philippines site work 2019 to 2020).",
+    "Thomastown is metropolitan Melbourne, a commute from Melton; direct employer Urbania is named (advert placed by GuidedHR)."
+   ],
+   "caution": "Estimating is coursework only, no paid estimating role; take off software (PlanSwift) not used; landscape and playground work rather than core civil."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-19T23:48:01.926Z",
+   "expires_at": "2026-11-19T12:59:59.999Z",
+   "verified_at": "2026-10-20T18:19:42.000Z",
+   "apply_instructions": "Apply on SEEK (not a link out). 5 screening questions. Advert placed by GuidedHR for Urbania.",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as an Estimator Assistant?",
+    "How much notice are you required to give your current employer?",
+    "What's your highest level of education?"
+   ]
+  },
+  "screening_answers": [
+   {
+    "question": "Which of the following statements best describes your right to work in Australia?",
+    "answer": "I have a temporary visa with full working rights (Subclass 485, valid to December 2027)."
+   },
+   {
+    "question": "What's your expected annual base salary?",
+    "answer": "MARC TO ANSWER (no salary figure on record)."
+   },
+   {
+    "question": "How many years' experience do you have as an Estimator Assistant?",
+    "answer": "No paid estimating experience; cost estimates and bills of quantities were Advanced Diploma coursework. Pick the lowest band SEEK offers."
+   },
+   {
+    "question": "How much notice are you required to give your current employer?",
+    "answer": "MARC TO ANSWER (no notice period on record)."
+   },
+   {
+    "question": "What's your highest level of education?",
+    "answer": "Bachelor degree: Bachelor of Science in Civil Engineering, Divine Word College of Legazpi, Philippines (2019). Also Advanced Diploma of Civil Construction Design (February 2026)."
+   }
+  ],
+  "checklist": [
+   "Check Gmail again for any Urbania or GuidedHR receipt, then open https://www.seek.com.au/job/95364044 and confirm it is still open",
+   "Apply on SEEK with the master resume and the saved cover letter PDF",
+   "Answer the screening questions as listed; Marc answers salary and notice period",
+   "Do not claim any paid estimating or Plan Swift experience",
+   "Note the SEEK receipt date in /workspace/job-finds (tracker recording is paused)"
+  ],
+  "notes": "HOW GROK FOUND THIS\nSEEK sweep on tick 20261020T1818Z (daterange 3, 988 listings seen, 183 past the prefilter, 60 detailed). SEEK id 95364044, listed 20 Oct 2026 10:48 AEDT, closes 19 Nov 2026 (about 23:59 AEDT). Advertiser on SEEK is GuidedHR, an HR firm placing the advert for the named employer Urbania (landscape and playground construction, head office 20/324 Settlement Road, Thomastown). Contact research: urbania.com.au publishes only info@urbania.com.au and 1300 920 439, and does not say it takes applications, so no email was drafted; route is SEEK. Dedupe: tracker.py check new (also checked under the name Urbania); prior_outreach.json no Urbania or GuidedHR; Gmail in:anywhere for Urbania, GuidedHR and their domains: 0 threads. Nothing was sent or applied. Saved locally only (tracker full).\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your Assistant Estimator advert on SEEK.\n• Have you done estimating before? → Not in a paid role. Cost estimates and bills of quantities were part of my Advanced Diploma coursework, and on site in the Philippines I tracked procurement and materials and kept material records.\n• Have you used take off software like Plan Swift? → No, not yet; keen to learn it.\n• How are your Excel skills? → Answer honestly; Microsoft Office is on the resume, but no Excel modelling.\n• Why landscape and playground work? → Answer in your own words; the letter says you would like to learn to price earthworks, drainage and concreting on council and school projects.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "SEEK sweep on tick 20261020T1818Z (daterange 3, 988 listings seen, 183 past the prefilter, 60 detailed). SEEK id 95364044, listed 20 Oct 2026 10:48 AEDT, closes 19 Nov 2026 (about 23:59 AEDT). Advertiser on SEEK is GuidedHR, an HR firm placing the advert for the named employer Urbania (landscape and playground construction, head office 20/324 Settlement Road, Thomastown). Contact research: urbania.com.au publishes only info@urbania.com.au and 1300 920 439, and does not say it takes applications, so no email was drafted; route is SEEK. Dedupe: tracker.py check new (also checked under the name Urbania); prior_outreach.json no Urbania or GuidedHR; Gmail in:anywhere for Urbania, GuidedHR and their domains: 0 threads. Nothing was sent or applied. Saved locally only (tracker full).",
+  "call_prep": [
+   "How did you find us? → Your Assistant Estimator advert on SEEK.",
+   "Have you done estimating before? → Not in a paid role. Cost estimates and bills of quantities were part of my Advanced Diploma coursework, and on site in the Philippines I tracked procurement and materials and kept material records.",
+   "Have you used take off software like Plan Swift? → No, not yet; keen to learn it.",
+   "How are your Excel skills? → Answer honestly; Microsoft Office is on the resume, but no Excel modelling.",
+   "Why landscape and playground work? → Answer in your own words; the letter says you would like to learn to price earthworks, drainage and concreting on council and school projects.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-20T18:25:36.000Z",
+  "seek_id": "95364044",
+  "duplicate_key": "urbania|seek:95364044",
+  "preparation_only": true,
+  "found_at": "2026-10-21T05:25+11:00 AEDT"
+ },
+ {
+  "id": "f5658cc3-c294-497a-b94b-45cb3987f166",
+  "key": "manual:f5658cc3-c294-497a-b94b-45cb3987f166",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261020T1818Z",
+  "created_at": "2026-10-20T18:25:36.000Z",
+  "updated_at": "2026-10-20T18:25:36.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Breese_Pitt_Dixon_Graduate_Civil_Enquiry_Cover_Letter.pdf",
+    "stored_in": "local_box_only",
+    "path": "../runs/20261020T1818Z/Marc_Masarate_Breese_Pitt_Dixon_Graduate_Civil_Enquiry_Cover_Letter.pdf"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc-Darenz-Masarate-Resume.pdf",
+    "stored_in": "local_box_only",
+    "path": "/workspace/repos/Portfolio/assets/Marc-Darenz-Masarate-Resume.pdf"
+   }
+  ],
+  "company": "Breese Pitt Dixon",
+  "role": "Speculative enquiry: graduate civil engineer or civil designer, land development (Melbourne)",
+  "location": "Hawthorn East, Melbourne VIC",
+  "job_url": "https://www.bpd.com.au/careers",
+  "company_url": "https://www.bpd.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "NO_ADVERTISED_VACANCY_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Careers and expressions of interest inbox",
+  "recipient_email": "info@bpd.com.au",
+  "contact_email": "info@bpd.com.au",
+  "contact_evidence_url": "https://www.bpd.com.au/careers",
+  "contact_verified_at": "2026-10-20T18:25:36.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Graduate civil engineer enquiry, Marc Masarate",
+  "email_body": "Hello Breese Pitt Dixon team,\n\nYour careers page says you are keen to hear from graduate civil engineers and asks for an introduction with a CV, so this is a speculative enquiry rather than a reply to an advert.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. I also hold a Bachelor of Science in Civil Engineering from the Philippines. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, including residential subdivision finishing works. I am based in Melton VIC, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am available for office, site and regional work.\n\nThe work I am looking for is civil design for land development: the estate roads, drainage and retarding basins your engineers design. My software experience is from study, not commercial production, so I would start at graduate level.\n\nI've attached my resume and cover letter. Would you keep me in mind for a graduate civil design role, now or later?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Graduate level: the BPD careers page names graduate civil engineers and draftspersons among the people it wants to hear from, and supports graduates with mentoring.",
+   "Discipline match: BPD designs estates, roads, drainage, wetlands and retarding basins, matching Marc's Advanced Diploma road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD, plus subdivision finishing site work.",
+   "Hawthorn East is metropolitan Melbourne, commutable from Melton."
+  ],
+  "gaps": [
+   "No advertised vacancy (speculative enquiry)",
+   "Software experience is academic (AutoCAD, Civil 3D); no 12d",
+   "No Australian work experience yet"
+  ],
+  "match_score": {
+   "percent": 70,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Graduate level: the BPD careers page names graduate civil engineers and draftspersons among the people it wants to hear from, and supports graduates with mentoring.",
+    "Discipline match: BPD designs estates, roads, drainage, wetlands and retarding basins, matching Marc's Advanced Diploma road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD, plus subdivision finishing site work.",
+    "Hawthorn East is metropolitan Melbourne, commutable from Melton."
+   ],
+   "caution": "No advertised vacancy; speculative. Marc's software experience is academic and he has not used 12d."
+  },
+  "advert": {
+   "source": "Breese Pitt Dixon careers page (open web)",
+   "listed_at": "",
+   "expires_at": "",
+   "verified_at": "2026-10-20T18:25:36.000Z",
+   "apply_instructions": "Email an introduction with CV to info@bpd.com.au (careers page)",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Confirm info@bpd.com.au is still the expressions of interest address on https://www.bpd.com.au/careers",
+   "Check Gmail in:anywhere for Breese Pitt Dixon or bpd.com.au once more",
+   "Attach the master resume and the saved cover letter PDF",
+   "Send only when sending is re-enabled and Marc approves (one email per run)",
+   "Record the send date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK FOUND THIS\nOpen web find on tick 20261020T1818Z (councils and government rotation, then speculative step after SEEK d3/60, d7/60 and d14/80 gave only one new screened candidate). The Breese Pitt Dixon careers page (https://www.bpd.com.au/careers, read 21 Oct 2026) says it does not advertise individual vacancies, names graduate civil engineers and draftspersons among the people it wants to hear from, and asks for an introduction with a CV to info@bpd.com.au. That inbox is the employer's own stated route for applications, so it is used; no personal address was guessed. A SEEK search for the employer over 31 days shows only a Principal Stormwater Engineer advert (not suitable). Dedupe: tracker.py check new; prior_outreach.json no BPD; Gmail in:anywhere for Breese Pitt Dixon and bpd.com.au: no BPD threads. Labelled SPECULATIVE_ENQUIRY. Nothing was sent (sending paused while the tracker is full). Saved locally only.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you hear about us? → Your careers page, which invites graduate civil engineers to send an introduction and CV.\n• Have you used 12d? → No. AutoCAD and Civil 3D from study; keen to learn your design software.\n• What land development work have you done? → Advanced Diploma coursework on road geometry, earthworks, pavement and stormwater drainage, and field engineer work on residential subdivision finishing works in the Philippines (2019 to 2020).\n• Are you after design or construction work? → Answer in your own words; the email asks about a graduate civil design role and says you are available for office, site and regional work.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Open web find on tick 20261020T1818Z (councils and government rotation, then speculative step after SEEK d3/60, d7/60 and d14/80 gave only one new screened candidate). The Breese Pitt Dixon careers page (https://www.bpd.com.au/careers, read 21 Oct 2026) says it does not advertise individual vacancies, names graduate civil engineers and draftspersons among the people it wants to hear from, and asks for an introduction with a CV to info@bpd.com.au. That inbox is the employer's own stated route for applications, so it is used; no personal address was guessed. A SEEK search for the employer over 31 days shows only a Principal Stormwater Engineer advert (not suitable). Dedupe: tracker.py check new; prior_outreach.json no BPD; Gmail in:anywhere for Breese Pitt Dixon and bpd.com.au: no BPD threads. Labelled SPECULATIVE_ENQUIRY. Nothing was sent (sending paused while the tracker is full). Saved locally only.",
+  "call_prep": [
+   "How did you hear about us? → Your careers page, which invites graduate civil engineers to send an introduction and CV.",
+   "Have you used 12d? → No. AutoCAD and Civil 3D from study; keen to learn your design software.",
+   "What land development work have you done? → Advanced Diploma coursework on road geometry, earthworks, pavement and stormwater drainage, and field engineer work on residential subdivision finishing works in the Philippines (2019 to 2020).",
+   "Are you after design or construction work? → Answer in your own words; the email asks about a graduate civil design role and says you are available for office, site and regional work.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-20T18:25:36.000Z",
+  "duplicate_key": "breesepittdixon|bpd.com.au/careers",
+  "preparation_only": true,
+  "found_at": "2026-10-21T05:25+11:00 AEDT"
+ }
+]
