@@ -1,0 +1,478 @@
+[
+ {
+  "id": "v0",
+  "company": "GHD",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://GHD",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": [
+    "employer seen before: GHD Graduate Program 2026/27, Darwin, Civil Engineer (Transport: Roads, Rail, Bridges and Aviation) · HELD_ELIGIBILITY_UNCONFIRMED · 2026-10-16"
+   ]
+  }
+ },
+ {
+  "id": "v1",
+  "company": "Hatch",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Hatch",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (Civil Drafter · READY_JEREMIE_EMPLOYER_PORTAL · 2026-10-05)",
+   "notes": []
+  }
+ },
+ {
+  "id": "v2",
+  "company": "Moorabool Shire Council",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Moorabool Shire Council",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ },
+ {
+  "id": "v3",
+  "company": "WGA",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://WGA",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ },
+ {
+  "id": "v4",
+  "company": "Wallbridge Gilbert Aztec",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Wallbridge Gilbert Aztec",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (2027 Graduate Civil / Traffic Engineer · READY_JEREMIE_EMPLOYER_PORTAL · 2026-10-05)",
+   "notes": []
+  }
+ },
+ {
+  "id": "v5",
+  "company": "Arcadis",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Arcadis",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ },
+ {
+  "id": "v6",
+  "company": "KBR",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://KBR",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (Cadet Drafter · READY_JEREMIE_EMPLOYER_PORTAL · 2026-10-05)",
+   "notes": []
+  }
+ },
+ {
+  "id": "v7",
+  "company": "FSC Group",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://FSC Group",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ },
+ {
+  "id": "v8",
+  "company": "Egis",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Egis",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (Graduate Consultant - Rail · READY_JEREMIE_SEEK · 2026-10-01)",
+   "notes": []
+  }
+ },
+ {
+  "id": "v9",
+  "company": "SMEC",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://SMEC",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": [
+    "employer seen before: Cadet Drafter, Urban Infrastructure · HELD_ELIGIBILITY_UNCONFIRMED · 2026-10-14"
+   ]
+  }
+ },
+ {
+  "id": "v10",
+  "company": "Wyndham City Council",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Wyndham City Council",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": [
+    "employer seen before:  · HELD_VERIFICATION · 2026-09-11"
+   ]
+  }
+ },
+ {
+  "id": "v11",
+  "company": "Brimbank City Council",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Brimbank City Council",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ },
+ {
+  "id": "v12",
+  "company": "Hobsons Bay City Council",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Hobsons Bay City Council",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ },
+ {
+  "id": "v13",
+  "company": "Melton City Council",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Melton City Council",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": [
+    "employer seen before: Civil Projects Officer · HELD_MANDATORY_REQUIREMENTS · 2026-09-28"
+   ]
+  }
+ },
+ {
+  "id": "v14",
+  "company": "Golden Plains Shire",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Golden Plains Shire",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ },
+ {
+  "id": "v15",
+  "company": "City of Greater Geelong",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://City of Greater Geelong",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (Development Engineer · READY_JEREMIE_EMPLOYER_PORTAL · 2026-10-08)",
+   "notes": []
+  }
+ },
+ {
+  "id": "v16",
+  "company": "Surf Coast Shire",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Surf Coast Shire",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ },
+ {
+  "id": "v17",
+  "company": "Macedon Ranges Shire Council",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Macedon Ranges Shire Council",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ },
+ {
+  "id": "v18",
+  "company": "Ballarat City Council",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Ballarat City Council",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ },
+ {
+  "id": "v19",
+  "company": "Beveridge Williams",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Beveridge Williams",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (Civil Engineer · MANUAL_APPLIED · 2026-08-07)",
+   "notes": []
+  }
+ },
+ {
+  "id": "v20",
+  "company": "Spiire",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Spiire",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (Civil Designer (junior), Expressions of Interest, Townsville · READY_JEREMIE_EMPLOYER_PORTAL · 2026-09-28)",
+   "notes": []
+  }
+ },
+ {
+  "id": "v21",
+  "company": "Cardno",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Cardno",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ },
+ {
+  "id": "v22",
+  "company": "Stantec",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Stantec",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (Civil Cadet Drafter - QLD · READY_JEREMIE_EMPLOYER_PORTAL · 2026-09-12)",
+   "notes": []
+  }
+ },
+ {
+  "id": "v23",
+  "company": "Jacobs",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Jacobs",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ },
+ {
+  "id": "v24",
+  "company": "WSP",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://WSP",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ },
+ {
+  "id": "v25",
+  "company": "Aurecon",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Aurecon",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (Civil Engineer, Land Infrastructure · READY_JEREMIE_EMPLOYER_PORTAL · 2026-09-30)",
+   "notes": []
+  }
+ },
+ {
+  "id": "v26",
+  "company": "Mott MacDonald",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Mott MacDonald",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (graduate application via Mott portal (Marc reply to Pepi Llanes thread) · MANUAL_APPLIED · 2026-10-05)",
+   "notes": []
+  }
+ },
+ {
+  "id": "v27",
+  "company": "AECOM",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://AECOM",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent rejection from the same employer (Civil Drafter (Highways / Transportation) · 2026-09-27)",
+   "notes": []
+  }
+ },
+ {
+  "id": "v28",
+  "company": "Tonkin",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Tonkin",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (Graduate Development Program · PREPARED_NOT_SENT · 2026-10-02)",
+   "notes": []
+  }
+ },
+ {
+  "id": "v29",
+  "company": "Calibre Group",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Calibre Group",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (Graduate Engineer - Roads & Highways · READY_JEREMIE_EMPLOYER_PORTAL · 2026-10-03)",
+   "notes": []
+  }
+ },
+ {
+  "id": "v30",
+  "company": "Engeny",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Engeny",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (Graduate civil or water engineer - expression of interest (Melbourne) · PREPARED_NOT_SENT · 2026-09-30)",
+   "notes": []
+  }
+ },
+ {
+  "id": "v31",
+  "company": "Water Technology",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Water Technology",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (Graduate positions 2026 · PREPARED_NOT_SENT · 2026-10-02)",
+   "notes": []
+  }
+ },
+ {
+  "id": "v32",
+  "company": "Reeds Consulting",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Reeds Consulting",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (Graduate civil engineer or civil draftsperson - expression of interest (Melbourne) · PREPARED_NOT_SENT · 2026-10-01)",
+   "notes": []
+  }
+ },
+ {
+  "id": "v33",
+  "company": "Taylors",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Taylors",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (Graduate civil engineer or civil draftsperson - expression of interest (Melbourne) · PREPARED_NOT_SENT · 2026-10-03)",
+   "notes": []
+  }
+ },
+ {
+  "id": "v34",
+  "company": "TGM Group",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://TGM Group",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ },
+ {
+  "id": "v35",
+  "company": "Millar Merrigan",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Millar Merrigan",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (Design Engineering Graduate Program · PREPARED_NOT_SENT · 2026-10-01)",
+   "notes": []
+  }
+ },
+ {
+  "id": "v36",
+  "company": "Civilex",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Civilex",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ },
+ {
+  "id": "v37",
+  "company": "Bild Group",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Bild Group",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ },
+ {
+  "id": "v38",
+  "company": "Westera Partners",
+  "title": "Graduate civil",
+  "location": "VIC",
+  "url": "spec://Westera Partners",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (Graduate Program application - civil engineering / design documentation (standing employer-published graduate intake; no dated vacancy) · PREPARED_NOT_SENT · 2026-09-11)",
+   "notes": []
+  }
+ }
+]

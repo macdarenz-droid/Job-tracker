@@ -1,0 +1,26 @@
+[
+ {
+  "id": "wc",
+  "company": "Western Civil",
+  "title": "Speculative enquiry",
+  "location": "Derrimut VIC",
+  "url": "https://western-civil.com.au/careers/",
+  "duplicate": {
+   "blocked": true,
+   "reason": "same job URL already in the tracker",
+   "notes": []
+  }
+ },
+ {
+  "id": "wc2",
+  "company": "Western Civil Pty Ltd",
+  "title": "Graduate Engineer",
+  "location": "Derrimut VIC",
+  "url": "spec://western-civil",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (Speculative enquiry: graduate site or project engineer (Derrimut) · PREPARED_NOT_SENT · 2026-10-05)",
+   "notes": []
+  }
+ }
+]

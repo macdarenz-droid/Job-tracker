@@ -1,0 +1,13 @@
+{
+ "company_url": "https://www.tgvk.com.au/",
+ "careers_url": "https://www.tgvk.com.au/careers/",
+ "recipient_name": "",
+ "recipient_role": "Careers inbox named on the TGVK careers page",
+ "recipient_email": "thiruk@tgvk.com.au",
+ "contact_evidence_url": "https://www.tgvk.com.au/careers/",
+ "evidence_quote": "We are always looking for passionate engineers, designers and draftsmen to join our team. Please submit your CV and a formal cover letter to thiruk@tgvk.com.au.",
+ "contact_confidence": "published_inbox",
+ "named_people": [],
+ "employer_line": "TGVK is a civil and structural engineering consultancy in Mulgrave whose civil services include stormwater design, on-site detention, driveways, paving and retaining walls, as well as subdivision stormwater design.",
+ "notes": "Address is the one TGVK publishes for applications on its careers page. Live site returned a Sucuri firewall error on 21 Oct 2026; the page text was read from https://web.archive.org/web/2026/https://www.tgvk.com.au/careers/ and the same address appears in the search index for the services and contact pages. The mailbox owner's full name is not published, so no name is used."
+}

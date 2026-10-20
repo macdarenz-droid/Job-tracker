@@ -1,0 +1,37 @@
+{
+ "percent": 62,
+ "rationale": [
+  "The TGVK careers page says it is always looking for engineers, designers and draftsmen and asks for a CV and formal cover letter by email, so a junior civil designer or draftsperson enquiry fits the stated intake.",
+  "Discipline match: TGVK's civil work is stormwater design, on-site detention, paving and retaining walls; Marc's Advanced Diploma covered stormwater drainage, pavement, earthworks and road design in AutoCAD and Civil 3D to Australian Standards.",
+  "Melbourne metropolitan office (Mulgrave), reachable from Melton with his own transport; direct employer, published application inbox."
+ ],
+ "caution": "No advertised vacancy; speculative. Small consultancy with a lot of building and structural work; Marc's drafting is academic. Mulgrave is a long commute from Melton (south east Melbourne). Live careers page was down (firewall error) on 21 Oct 2026; text read from the Wayback Machine copy, so re-open it before sending.",
+ "gaps": [
+  "No advertised vacancy (speculative enquiry)",
+  "Software experience is academic (AutoCAD, Civil 3D, Revit), not commercial production drafting",
+  "No Australian work experience yet",
+  "No on-site detention or rainwater harvesting design on record"
+ ],
+ "mandatory_unmet": [],
+ "mandatory_unresolved": [],
+ "route": "EMAIL",
+ "apply_email": "thiruk@tgvk.com.au",
+ "apply_instructions": "Email CV and a formal cover letter to thiruk@tgvk.com.au (careers page)",
+ "open": true,
+ "employer_is_agency": false,
+ "company": "TGVK",
+ "title": "Speculative enquiry: junior civil designer or civil draftsperson (Mulgrave, Melbourne)",
+ "location": "Mulgrave, Melbourne VIC",
+ "url": "https://www.tgvk.com.au/careers/",
+ "listed_at": "",
+ "expires_at": "",
+ "screening_questions": [],
+ "source": "TGVK careers page (open web; live site behind a misconfigured firewall on 21 Oct 2026, read from the Wayback Machine copy)",
+ "company_work_verified": true,
+ "company_work_evidence": "https://www.tgvk.com.au/careers/ (Wayback copy): 'We are always looking for passionate engineers, designers and draftsmen to join our team. Please submit your CV and a formal cover letter to thiruk@tgvk.com.au.'; civil services page lists stormwater design, on-site detention, paving, retaining walls and subdivision stormwater design.",
+ "contributions": [
+  "Stormwater drainage, pavement and earthworks design and documentation in AutoCAD and Civil 3D (Advanced Diploma)",
+  "Reviewing drawings against project requirements, site inspections and quality checks (Philippines 2019 to 2020)",
+  "Before You Dig Australia enquiries and designing around existing services and site constraints (Advanced Diploma)"
+ ]
+}

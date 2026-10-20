@@ -1,0 +1,50 @@
+[
+ {
+  "id": "cw",
+  "company": "Cossill & Webley",
+  "title": "Graduate Program",
+  "location": "Perth WA",
+  "url": "https://www.cossillwebley.com.au/careers/graduate-program/",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (Speculative enquiry: graduate civil engineer or design engineer, urban development (Melbourne or Geelong) · PREPARED_NOT_SENT · 2026-10-15)",
+   "notes": []
+  }
+ },
+ {
+  "id": "cw2",
+  "company": "Cossill and Webley",
+  "title": "Graduate",
+  "location": "",
+  "url": "spec://cosweb",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (Speculative enquiry: graduate civil engineer or design engineer, urban development (Melbourne or Geelong) · PREPARED_NOT_SENT · 2026-10-15)",
+   "notes": []
+  }
+ },
+ {
+  "id": "tg",
+  "company": "TGVK",
+  "title": "Graduate",
+  "location": "",
+  "url": "https://www.tgvk.com.au/careers/",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ },
+ {
+  "id": "rv",
+  "company": "Reeves Envico",
+  "title": "Graduate",
+  "location": "",
+  "url": "https://reevesenvico.com/careers/",
+  "duplicate": {
+   "blocked": true,
+   "reason": "same job URL already in the tracker",
+   "notes": []
+  }
+ }
+]

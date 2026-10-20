@@ -1,0 +1,54 @@
+{
+ "seek_id": 95378071,
+ "company": "All Seasons Communications Pty Ltd",
+ "role": "Civil Engineering Draftsperson",
+ "location": "Perth WA",
+ "job_url": "https://www.seek.com.au/job/95378071",
+ "company_url": "https://www.ascoms.com.au/",
+ "route": "SEEK",
+ "application_type": "ADVERTISED_VACANCY",
+ "recipient_name": "",
+ "recipient_role": "",
+ "recipient_email": "",
+ "contact_evidence_url": "https://www.ascoms.com.au/contact-us/",
+ "subject": "Civil Engineering Draftsperson (SEEK 95378071), Marc Masarate",
+ "email_body": "",
+ "letter": {
+  "recipient_name": "",
+  "recipient_role": "Hiring team",
+  "company": "All Seasons Communications Pty Ltd",
+  "company_line": "All Seasons Communications has built and maintained fibre optic and telecommunications networks since 2016, including pit and pipe installation, trenching and network design and construction.",
+  "subject": "Civil Engineering Draftsperson, Perth (SEEK 95378071)",
+  "greeting": "Hello All Seasons Communications team,",
+  "paragraphs": [
+   "I saw your Civil Engineering Draftsperson advert on SEEK. You ask for a Diploma or Advanced Diploma in civil engineering or engineering drafting, and I finished my Advanced Diploma of Civil Construction Design in February 2026, so I am applying.",
+   "At Albright Institute I designed and documented road geometry, earthworks, pavement and stormwater drainage, and prepared and reviewed technical drawings in AutoCAD and Civil 3D to Australian Standards. I also lodged Before You Dig Australia enquiries and designed around existing services and site constraints, which ties in with the pit and pipe and trenching work your team builds. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019).",
+   "From 2019 to 2020 I worked on site in the Philippines as project-in-charge on a community hall renovation and then as a field engineer on residential subdivision finishing works. I reviewed drawings against project requirements, flagged issues that needed clarification, wrote site reports and kept progress and material records, much like the checking and drawing register work in your advert.",
+   "My drafting so far is from study rather than a paid drafting job, so I would start at junior level and learn your standards and as-built process. I am based in Melton VIC and open to discussing relocation to Perth. I have a White Card, a driver's licence and full working rights to December 2027 on a Subclass 485 visa.",
+   "I have attached my resume and would be glad to talk about the role."
+  ],
+  "closing": "Kind regards,"
+ },
+ "screening_answers": [
+  {
+   "question": "Which of the following statements best describes your right to work in Australia?",
+   "answer": "I have a temporary visa with full working rights (Subclass 485, valid to December 2027)."
+  },
+  {
+   "question": "How many years' experience do you have as a civil drafter?",
+   "answer": "No paid civil drafting experience; drafting in AutoCAD and Civil 3D was Advanced Diploma coursework. Pick the lowest band SEEK offers."
+  },
+  {
+   "question": "How much notice are you required to give your current employer?",
+   "answer": "MARC TO ANSWER (no notice period on record)."
+  }
+ ],
+ "checklist": [
+  "Confirm with Marc that he is willing to discuss relocating to Perth before applying",
+  "Check Gmail again for any All Seasons Communications or ascoms.com.au receipt, then open https://www.seek.com.au/job/95378071 and confirm it is still open",
+  "Apply on SEEK with the master resume and the saved cover letter PDF",
+  "Answer the screening questions as listed; Marc answers notice period, and do not claim paid drafting experience",
+  "Note the SEEK receipt date in /workspace/job-finds (tracker recording is paused)"
+ ],
+ "notes": "Direct employer advert on SEEK (ABN 81 611 866 472). Perth role; relocation to be confirmed by Marc."
+}
