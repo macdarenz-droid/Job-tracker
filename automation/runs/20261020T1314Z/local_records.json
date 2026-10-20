@@ -1,0 +1,300 @@
+[
+ {
+  "id": "827c1d1f-92c2-4c4c-b487-8ff93154df5d",
+  "key": "manual:827c1d1f-92c2-4c4c-b487-8ff93154df5d",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261020T1314Z",
+  "created_at": "2026-10-20T13:21:13.000Z",
+  "updated_at": "2026-10-20T13:21:13.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Mendi_Constructions_QA_Trainee_Cover_Letter.pdf",
+    "stored_in": "local_box_only",
+    "path": "../runs/20261020T1314Z/Marc_Masarate_Mendi_Constructions_QA_Trainee_Cover_Letter.pdf"
+   }
+  ],
+  "company": "Mendi Constructions",
+  "role": "Quality Assurance Trainee, Civil Construction",
+  "location": "Townsville, Northern QLD",
+  "job_url": "https://www.seek.com.au/job/95347045",
+  "company_url": "https://www.mendi.com.au/",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.mendi.com.au/contact-us",
+  "subject": "Quality Assurance Trainee, Civil Construction (SEEK 95347045), Marc Masarate",
+  "email_body": "",
+  "screening_answers": [
+   {
+    "question": "Which of the following statements best describes your right to work in Australia?",
+    "answer": "I have a temporary visa with full working rights (Subclass 485, valid to December 2027)."
+   },
+   {
+    "question": "How many years' experience do you have as a Quality Assurance Trainee?",
+    "answer": "No experience as a QA Trainee. Site inspections and quality checks in the Philippines, April 2019 to February 2020 (under 1 year). Pick the lowest band SEEK offers."
+   },
+   {
+    "question": "How much notice are you required to give your current employer?",
+    "answer": "MARC TO ANSWER (no notice period on record)."
+   },
+   {
+    "question": "Do you have a current Australian driver's licence?",
+    "answer": "Yes"
+   },
+   {
+    "question": "Do you hold a Construction Induction Safety certificate (White Card)?",
+    "answer": "Yes"
+   }
+  ],
+  "checklist": [
+   "Check Gmail again for any Mendi receipt, then open https://www.seek.com.au/job/95347045 and confirm it is still open",
+   "Apply on SEEK with the master resume and the saved cover letter PDF",
+   "Answer the screening questions as listed; Marc answers the notice period question",
+   "Confirm with Marc that he is open to relocating to Townsville before submitting",
+   "Note the SEEK receipt date in /workspace/job-finds (tracker recording is paused)"
+  ],
+  "seek_id": 95347045,
+  "found_at": "2026-10-21T00:20+11:00 AEDT",
+  "checked_at": "2026-10-20T13:45:00Z",
+  "status": "READY_JEREMIE_SEEK",
+  "fit": [
+   "Trainee level role: the advert says previous civil construction experience is highly regarded but not essential and a recent graduate may suit (Marc finished his Advanced Diploma in February 2026).",
+   "Duties match Marc's record: site inspections, quality checks, reviewing drawings and specifications, keeping quality records and project documentation (Philippines site work 2019 to 2020).",
+   "White Card and driver's licence are both asked in screening and Marc holds both; Townsville is regional QLD, relocation to be confirmed by Marc."
+  ],
+  "gaps": [
+   "No ITP, NCR or materials testing experience on an Australian project",
+   "No Australian site work experience yet",
+   "Townsville requires relocation from Melton; Marc to confirm"
+  ],
+  "match_score": {
+   "percent": 76,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Trainee level role: the advert says previous civil construction experience is highly regarded but not essential and a recent graduate may suit (Marc finished his Advanced Diploma in February 2026).",
+    "Duties match Marc's record: site inspections, quality checks, reviewing drawings and specifications, keeping quality records and project documentation (Philippines site work 2019 to 2020).",
+    "White Card and driver's licence are both asked in screening and Marc holds both; Townsville is regional QLD, relocation to be confirmed by Marc."
+   ],
+   "caution": "Relocation to Townsville is not confirmed by Marc; notice period unknown. Software and design experience is academic."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-19T04:32:16.753Z",
+   "expires_at": "2026-11-18T12:59:59.999Z",
+   "verified_at": "2026-10-20T13:15:00Z",
+   "apply_instructions": "Apply on SEEK (not a link out). 5 screening questions.",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a Quality Assurance Trainee?",
+    "How much notice are you required to give your current employer?",
+    "Do you have a current Australian driver's licence?",
+    "Do you hold a Construction Induction Safety certificate (White Card)?"
+   ]
+  },
+  "contact_confidence": "none",
+  "contact_verified_at": "2026-10-20T13:40:00Z",
+  "duplicate_key": "mendiconstructions|seek:95347045",
+  "notes": "HOW GROK FOUND THIS\nSEEK sweep on tick 20261020T1314Z (daterange 3, 984 listings seen, 181 past the prefilter, 60 detailed). SEEK id 95347045, listed 19 Oct 2026 15:32 AEDT, closes 18 Nov 2026. Direct employer (Mendi Constructions, part of Doyle Group, Bohle QLD). Contact research: mendi.com.au contact page publishes only info@mendi.com.au and 07 4774 4175; the meet the team page names Jeff Doyle, Managing Director, with no published email. info@ is not stated to accept applications, so no email was drafted; route is SEEK. Dedupe: tracker.py check new; prior_outreach.json no Mendi; Gmail in:anywhere 90 days for Mendi: no receipt or reply. Nothing was sent or applied. Saved locally only (tracker full).\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your Quality Assurance Trainee advert on SEEK.\n• Have you done ITPs, NCRs or materials testing? → Not on an Australian job. On site in the Philippines I did inspections and quality checks against drawings and kept site and material records; keen to learn your QA system.\n• Would you move to Townsville? → Marc to answer; the letter only says open to discussing relocation.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+ },
+ {
+  "id": "ad8c6b88-9849-431c-b78e-eeb6525aa5e7",
+  "key": "manual:ad8c6b88-9849-431c-b78e-eeb6525aa5e7",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261020T1314Z",
+  "created_at": "2026-10-20T13:21:13.000Z",
+  "updated_at": "2026-10-20T13:21:13.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Coolamon_Shire_Council_Cadet_Civil_Engineer_Cover_Letter.pdf",
+    "stored_in": "local_box_only",
+    "path": "../runs/20261020T1314Z/Marc_Masarate_Coolamon_Shire_Council_Cadet_Civil_Engineer_Cover_Letter.pdf"
+   }
+  ],
+  "company": "Coolamon Shire Council",
+  "role": "Cadet Civil Engineer",
+  "location": "Coolamon, Wagga Wagga & Riverina NSW",
+  "job_url": "https://www.seek.com.au/job/95367897",
+  "company_url": "https://www.coolamon.nsw.gov.au/",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "",
+  "subject": "Cadet Civil Engineer (SEEK 95367897), Marc Masarate",
+  "email_body": "",
+  "screening_answers": [
+   {
+    "question": "Which of the following statements best describes your right to work in Australia?",
+    "answer": "I have a temporary visa with full working rights (Subclass 485, valid to December 2027)."
+   },
+   {
+    "question": "How many years' experience do you have as a civil engineer?",
+    "answer": "Under 1 year (field engineer and project-in-charge, Philippines, April 2019 to February 2020)."
+   },
+   {
+    "question": "How much notice are you required to give your current employer?",
+    "answer": "MARC TO ANSWER (no notice period on record)."
+   },
+   {
+    "question": "How many years' experience do you have in construction law?",
+    "answer": "None"
+   }
+  ],
+  "checklist": [
+   "Resolve the hold first: ask Council whether an applicant who already holds a civil degree and Advanced Diploma and is not currently enrolled is eligible for the cadetship",
+   "Marc to confirm a NSW Class C licence (transfer on relocation) and that he would move to the Riverina",
+   "Marc to decide how to handle a January 2027 cadetship start against 485 work rights ending December 2027",
+   "Only then apply on SEEK with the resume and saved cover letter",
+   "Note the SEEK receipt in /workspace/job-finds"
+  ],
+  "seek_id": 95367897,
+  "found_at": "2026-10-21T00:20+11:00 AEDT",
+  "checked_at": "2026-10-20T13:45:00Z",
+  "status": "HELD_MANDATORY_UNRESOLVED",
+  "fit": [
+   "Cadet level civil role in a council Engineering and Technical Services team covering surveying, design, construction, project management and infrastructure maintenance.",
+   "Council is open to supporting Diploma, Associate Degree or Degree study; Marc already holds a BSCE (Philippines) and the Advanced Diploma of Civil Construction Design (February 2026).",
+   "White Card essential (held); road and drainage design coursework in Civil 3D and AutoCAD fits council works."
+  ],
+  "gaps": [
+   "Cadetship is built around undertaking tertiary civil engineering studies; Marc is not enrolled and already holds a degree and Advanced Diploma, eligibility unclear",
+   "Current NSW Class C or Provisional licence is essential; Marc holds an Australian licence (state on record not stated), would need a NSW licence on relocation",
+   "Starts January 2027; 485 work rights end December 2027, so a multi-year cadetship may not fit",
+   "Relocation to Coolamon NSW not confirmed by Marc"
+  ],
+  "match_score": {
+   "percent": 70,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Cadet level civil role in a council Engineering and Technical Services team covering surveying, design, construction, project management and infrastructure maintenance.",
+    "Council is open to supporting Diploma, Associate Degree or Degree study; Marc already holds a BSCE (Philippines) and the Advanced Diploma of Civil Construction Design (February 2026).",
+    "White Card essential (held); road and drainage design coursework in Civil 3D and AutoCAD fits council works."
+   ],
+   "caution": "Held: three mandatory or structural points are unresolved (study requirement, NSW licence, cadetship length against visa end)."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-20T01:50:04.122Z",
+   "expires_at": "2026-11-10T12:59:59.000Z",
+   "verified_at": "2026-10-20T13:15:00Z",
+   "apply_instructions": "Apply on SEEK. Essential: NSW Class C or Provisional licence, White Card. Commences January 2027.",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a civil engineer?",
+    "How much notice are you required to give your current employer?",
+    "How many years' experience do you have in construction law?"
+   ]
+  },
+  "contact_confidence": "none",
+  "hold_reason": "Study enrolment requirement, NSW licence essential, January 2027 start against 485 end date December 2027",
+  "duplicate_key": "coolamonshirecouncil|seek:95367897",
+  "notes": "HOW GROK FOUND THIS\nSEEK sweep on tick 20261020T1314Z (daterange 3). SEEK id 95367897, listed 20 Oct 2026, closes 10 Nov 2026. Direct employer (council). No contact research done because the record is held. Dedupe: tracker.py check new; Gmail in:anywhere 90 days for Coolamon: no receipt. Nothing sent or applied. HELD_MANDATORY_UNRESOLVED: see gaps. A cover letter is pre-drafted in case Marc resolves the hold.\n\nIF THEY CALL, LIKELY QUESTIONS\n• Are you studying now? → No; Marc holds a BSCE (2019) and the Advanced Diploma (February 2026). Ask whether Council would take a graduate.\n• Do you hold a NSW licence? → Marc to answer.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace. Say plainly that drafting experience is from study, not a paid job.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+ },
+ {
+  "id": "38bef24c-45ff-4f70-a0eb-5ac88fd3a437",
+  "key": "manual:38bef24c-45ff-4f70-a0eb-5ac88fd3a437",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261020T1314Z",
+  "created_at": "2026-10-20T13:23:03.000Z",
+  "updated_at": "2026-10-20T13:23:03.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Permadec_Civil_Design_Drafter_Cover_Letter.pdf",
+    "stored_in": "local_box_only",
+    "path": "../runs/20261020T1314Z/Marc_Masarate_Permadec_Civil_Design_Drafter_Cover_Letter.pdf"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc-Darenz-Masarate-Resume.pdf",
+    "stored_in": "local_box_only",
+    "path": "/workspace/repos/Portfolio/assets/Marc-Darenz-Masarate-Resume.pdf"
+   }
+  ],
+  "company": "Permadec Pty Ltd",
+  "role": "Civil Design Drafter, Formwork",
+  "location": "Melbourne VIC (fully remote)",
+  "job_url": "https://www.seek.com.au/job/95337660",
+  "company_url": "https://www.permadec.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Applications inbox named in the advert (HOW TO APPLY)",
+  "recipient_email": "sales@permadec.com.au",
+  "contact_email": "sales@permadec.com.au",
+  "contact_evidence_url": "https://www.seek.com.au/job/95337660",
+  "contact_verified_at": "2026-10-20T13:50:00Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Design Drafter application, Marc Masarate",
+  "email_body": "Hello Permadec team,\n\nI saw your Civil Design Drafter (Formwork) advert on SEEK and am applying by email as it asks.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD to Australian Standards. The course also covered cost estimates and bills of quantities. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, reviewing drawings against project requirements and keeping material records. I am based in Melton VIC, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa.\n\nYour formwork on Inland Rail and North East Link is the kind of infrastructure detailing I want to learn, and mentoring from your UK design team is a real draw. To be clear, my drafting experience is from study, not the three or more years of production drafting your advert mentions, so I would come in at junior level.\n\nI've attached my resume and cover letter. A few drawing samples from my course are on my portfolio. Would you consider me for this role?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Engineering drafting role on civil infrastructure (bridges, rail, road overpasses) with AutoCAD 2D at its core; Marc prepared and reviewed AutoCAD and Civil 3D drawings in his Advanced Diploma (February 2026).",
+   "Quantity take-offs map to Marc's coursework cost estimates and bills of quantities; the advert offers mentoring from an experienced UK design team.",
+   "Fully remote, Melbourne based employer with Victorian projects (Inland Rail, North East Link); applications go by email to the inbox the advert names."
+  ],
+  "gaps": [
+   "Advert asks for solid drafting experience, typically 3+ years, in formwork or civil infrastructure; Marc's drafting is academic",
+   "Quantity take-off experience is coursework only",
+   "Strong Excel is asked; Marc lists Microsoft Office but has not done Excel modelling",
+   "No Allplan or formwork system experience (desirable only)"
+  ],
+  "match_score": {
+   "percent": 62,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Engineering drafting role on civil infrastructure (bridges, rail, road overpasses) with AutoCAD 2D at its core; Marc prepared and reviewed AutoCAD and Civil 3D drawings in his Advanced Diploma (February 2026).",
+    "Quantity take-offs map to Marc's coursework cost estimates and bills of quantities; the advert offers mentoring from an experienced UK design team.",
+    "Fully remote, Melbourne based employer with Victorian projects (Inland Rail, North East Link); applications go by email to the inbox the advert names."
+   ],
+   "caution": "Stretch on level: the advert wants an experienced drafter (typically 3+ years) who could later lead the Australian design function. The email says plainly that Marc would start at junior level."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-18T23:44:36.771Z",
+   "expires_at": "2026-11-18T12:59:59.999Z",
+   "verified_at": "2026-10-20T13:15:00Z",
+   "apply_instructions": "Email CV and a short cover note to sales@permadec.com.au with \"Design Drafter application\" in the subject. Drawing samples welcome.",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "Do you have CAD Modelling experience?",
+    "How many years of Engineering Drafting experience do you have?",
+    "Do you have experience using Microsoft Excel?",
+    "Do you have 3D Design experience?"
+   ]
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Confirm the SEEK advert 95337660 is still open and still asks for email to sales@permadec.com.au",
+   "Search Gmail in:anywhere for permadec once more",
+   "Send from macdarenz@gmail.com with subject containing 'Design Drafter application', resume and cover letter attached",
+   "Optionally add drawing samples from the portfolio (road cross section in AutoCAD)",
+   "Record the send in /workspace/job-finds (tracker recording is paused)"
+  ],
+  "seek_id": 95337660,
+  "found_at": "2026-10-21T00:30+11:00 AEDT",
+  "checked_at": "2026-10-20T13:50:00Z",
+  "duplicate_key": "permadecptyltd|seek:95337660",
+  "notes": "HOW GROK FOUND THIS\nSEEK sweep on tick 20261020T1314Z (daterange 3). SEEK id 95337660, listed 19 Oct 2026 10:44 AEDT, closes 18 Nov 2026. Direct employer (Permadec Pty Ltd, Australian subsidiary of EMJ Plastics). The advert's HOW TO APPLY section names sales@permadec.com.au for applications with 'Design Drafter application' in the subject, so that inbox is the verified recipient (published_inbox, evidence: the SEEK advert). No named person used. Dedupe: tracker.py check new; prior_outreach.json no Permadec; Gmail in:anywhere 90 days for permadec / EMJ Plastics: 0 results. NOT SENT: email sending is paused this tick because the tracker is full. Saved locally only.\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your Civil Design Drafter (Formwork) advert on SEEK.\n• How many years of drafting have you done? → None commercially; AutoCAD and Civil 3D drawings through the Advanced Diploma (2024 to 2026), plus drawing review on site in the Philippines 2019 to 2020.\n• Have you done quantity take-offs? → Cost estimates and bills of quantities in coursework, not in a paid role.\n• Excel? → Microsoft Office user; no Excel modelling.\n• Allplan or formwork systems? → No; keen to learn with your UK team.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office, Google Workspace.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+ }
+]

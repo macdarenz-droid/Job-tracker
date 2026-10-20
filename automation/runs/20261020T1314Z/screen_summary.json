@@ -1,0 +1,22 @@
+{
+ "_about": "Screening done by the tick itself (rubric resume-fit-v2 against facts.json). Finds saved to /workspace/job-finds, not the tracker (tracker full, Marc 20 Oct 2026).",
+ "kept": [
+  {"id": "95347045", "company": "Mendi Constructions", "title": "Quality Assurance Trainee, Civil Construction", "percent": 76, "route": "SEEK", "status": "READY_JEREMIE_SEEK"},
+  {"id": "95337660", "company": "Permadec Pty Ltd", "title": "Civil Design Drafter, Formwork", "percent": 62, "route": "EMAIL", "status": "PREPARED_NOT_SENT", "caution": "advert wants typically 3+ years drafting"}
+ ],
+ "held": [
+  {"id": "95367897", "company": "Coolamon Shire Council", "title": "Cadet Civil Engineer", "percent": 70, "status": "HELD_MANDATORY_UNRESOLVED", "reason": "cadetship assumes ongoing tertiary study; NSW Class C/P licence essential; Jan 2027 start vs 485 end Dec 2027"}
+ ],
+ "skipped": [
+  {"id": "95348636", "company": "Design & Build", "reason": "minimum three years civil experience (mandatory)"},
+  {"id": "95367875", "company": "Negri Contractors", "reason": "3 to 5 years post graduate site engineer experience"},
+  {"id": "95377369", "company": "GMF Contractors", "reason": "at least 3 years supervising road/land development"},
+  {"id": "95346899", "company": "CIMIC/CPB Graduate Program 2027", "reason": "Australian citizens, PR or NZ citizens only"},
+  {"id": "95346898", "company": "CIMIC/CPB Graduate Program 2027 (Perth)", "reason": "citizens/PR only"},
+  {"id": "95375717", "company": "GHD Site Engineer Maroochydore", "reason": "minimum 5 years"},
+  {"id": "95336091", "company": "City of Greater Dandenong Infrastructure Planning Engineer", "reason": "Band 6 experienced role (infrastructure planning, funding submissions, local government); scored about 55, under threshold"},
+  {"id": "95338775-95338780", "company": "Monadelphous Civil Project Engineer x5", "reason": "experienced civil engineer with technical leadership, power station"},
+  {"id": "95340818", "company": "Smart Apprenticeship Solutions", "reason": "Cert III traineeship via labour hire, manual licence, immediate start; not a civil design or engineering role"},
+  {"id": "others", "company": "agencies and senior roles (CGC, Core Talent, Talent Associates, PD Project Delivery, David the Company, Norton Gold Fields, Piling & Concreting estimator, Precision Signs, Advanced Building Engineers WA structural)", "reason": "agency, experienced level or off discipline"}
+ ]
+}

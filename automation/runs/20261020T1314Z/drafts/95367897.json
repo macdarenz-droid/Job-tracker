@@ -1,0 +1,46 @@
+{
+ "seek_id": 95367897,
+ "company": "Coolamon Shire Council",
+ "role": "Cadet Civil Engineer",
+ "location": "Coolamon, Wagga Wagga & Riverina NSW",
+ "job_url": "https://www.seek.com.au/job/95367897",
+ "company_url": "https://www.coolamon.nsw.gov.au/",
+ "route": "SEEK",
+ "application_type": "ADVERTISED_VACANCY",
+ "recipient_name": "",
+ "recipient_role": "",
+ "recipient_email": "",
+ "contact_evidence_url": "",
+ "subject": "Cadet Civil Engineer (SEEK 95367897), Marc Masarate",
+ "email_body": "",
+ "letter": {
+  "recipient_name": "",
+  "recipient_role": "Engineering and Technical Services",
+  "company": "Coolamon Shire Council",
+  "company_line": "Coolamon Shire Council is offering a Cadet Civil Engineer role in its Engineering and Technical Services team from January 2027, covering surveying, design, construction, project management and maintenance of Council infrastructure.",
+  "subject": "Cadet Civil Engineer, Coolamon Shire Council (SEEK 95367897)",
+  "greeting": "Hello Engineering and Technical Services team,",
+  "paragraphs": [
+   "I saw your Cadet Civil Engineer advert on SEEK. Your note that Council is open to supporting study at Diploma, Associate Degree or Degree level is why I am applying.",
+   "In February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute, designing and documenting road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD to Australian Standards. I also hold a Bachelor of Science in Civil Engineering from the Philippines.",
+   "From 2019 to 2020 I worked on site in the Philippines as project-in-charge on a community hall renovation and as a field engineer on residential subdivision finishing works, carrying out inspections and quality checks and keeping site reports and material records.",
+   "The mix of design, construction and maintenance of Council roads and drainage in your cadetship is the practical grounding I want. I hold a White Card, a driver's licence and my own transport, and have full working rights to December 2027 on a Subclass 485 visa. I am based in Melton VIC and open to discussing relocation to the Riverina.",
+   "I have attached my resume and would be glad to talk about whether my qualifications suit the cadetship."
+  ],
+  "closing": "Kind regards,"
+ },
+ "screening_answers": [
+  {"question": "Which of the following statements best describes your right to work in Australia?", "answer": "I have a temporary visa with full working rights (Subclass 485, valid to December 2027)."},
+  {"question": "How many years' experience do you have as a civil engineer?", "answer": "Under 1 year (field engineer and project-in-charge, Philippines, April 2019 to February 2020)."},
+  {"question": "How much notice are you required to give your current employer?", "answer": "MARC TO ANSWER (no notice period on record)."},
+  {"question": "How many years' experience do you have in construction law?", "answer": "None"}
+ ],
+ "checklist": [
+  "Resolve the hold first: ask Council whether an applicant who already holds a civil degree and Advanced Diploma and is not currently enrolled is eligible for the cadetship",
+  "Marc to confirm a NSW Class C licence (transfer on relocation) and that he would move to the Riverina",
+  "Marc to decide how to handle a January 2027 cadetship start against 485 work rights ending December 2027",
+  "Only then apply on SEEK with the resume and saved cover letter",
+  "Note the SEEK receipt in /workspace/job-finds"
+ ],
+ "notes": ""
+}

@@ -1,0 +1,62 @@
+{
+ "seek_id": 95347045,
+ "company": "Mendi Constructions",
+ "role": "Quality Assurance Trainee, Civil Construction",
+ "location": "Townsville, Northern QLD",
+ "job_url": "https://www.seek.com.au/job/95347045",
+ "company_url": "https://www.mendi.com.au/",
+ "route": "SEEK",
+ "application_type": "ADVERTISED_VACANCY",
+ "recipient_name": "",
+ "recipient_role": "",
+ "recipient_email": "",
+ "contact_evidence_url": "https://www.mendi.com.au/contact-us",
+ "subject": "Quality Assurance Trainee, Civil Construction (SEEK 95347045), Marc Masarate",
+ "email_body": "",
+ "letter": {
+  "recipient_name": "",
+  "recipient_role": "Recruitment team",
+  "company": "Mendi Constructions",
+  "company_line": "Mendi has operated in Townsville for over 65 years and self performs bulk earthworks, stormwater pipe and box culverts, and roadworks including cement treated pavements, kerb and asphalt.",
+  "subject": "Quality Assurance Trainee, Civil Construction, Townsville (SEEK 95347045)",
+  "greeting": "Hello Mendi team,",
+  "paragraphs": [
+   "I saw your Quality Assurance Trainee advert on SEEK. You say previous civil construction experience is highly regarded but not essential and that a recent graduate may suit, which describes me well, so I am applying.",
+   "In February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute, where I designed and documented road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD to Australian Standards. I also hold a Bachelor of Science in Civil Engineering from the Philippines.",
+   "From 2019 to 2020 I worked on site in the Philippines, first as project-in-charge on a community hall renovation and then as a field engineer on residential subdivision finishing works. I reviewed drawings against project requirements, carried out site inspections and quality checks, escalated issues that needed corrective action, and kept site reports and material records. That is close to the inspection and record keeping side of the role you describe.",
+   "Mendi's self performed earthworks, stormwater and pavement work is where I want to learn how quality is delivered on Australian civil projects. I hold a White Card, a driver's licence and my own transport, and have full working rights to December 2027 on a Subclass 485 visa. I am based in Melton VIC and open to discussing relocation to Townsville. My Australian experience so far is from study, so I would start at trainee level.",
+   "I have attached my resume and would be glad to talk about the role."
+  ],
+  "closing": "Kind regards,"
+ },
+ "screening_answers": [
+  {
+   "question": "Which of the following statements best describes your right to work in Australia?",
+   "answer": "I have a temporary visa with full working rights (Subclass 485, valid to December 2027)."
+  },
+  {
+   "question": "How many years' experience do you have as a Quality Assurance Trainee?",
+   "answer": "No experience as a QA Trainee. Site inspections and quality checks in the Philippines, April 2019 to February 2020 (under 1 year). Pick the lowest band SEEK offers."
+  },
+  {
+   "question": "How much notice are you required to give your current employer?",
+   "answer": "MARC TO ANSWER (no notice period on record)."
+  },
+  {
+   "question": "Do you have a current Australian driver's licence?",
+   "answer": "Yes"
+  },
+  {
+   "question": "Do you hold a Construction Induction Safety certificate (White Card)?",
+   "answer": "Yes"
+  }
+ ],
+ "checklist": [
+  "Check Gmail again for any Mendi receipt, then open https://www.seek.com.au/job/95347045 and confirm it is still open",
+  "Apply on SEEK with the master resume and the saved cover letter PDF",
+  "Answer the screening questions as listed; Marc answers the notice period question",
+  "Confirm with Marc that he is open to relocating to Townsville before submitting",
+  "Note the SEEK receipt date in /workspace/job-finds (tracker recording is paused)"
+ ],
+ "notes": ""
+}

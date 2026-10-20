@@ -2330,6 +2330,49 @@
         "Silver Wolf Projects Junior Civil / Structural Engineer HELD_ELIGIBILITY_UNCONFIRMED fit 64"
       ],
       "send": "skipped_no_lease"
+    },
+    {
+      "run_id": "20261020T1314Z",
+      "rotation": "employers",
+      "checked_at": "2026-10-20T13:40:00Z",
+      "checked": [
+        {
+          "name": "Decmil",
+          "url": "",
+          "result": "speculative already prepared 16 Oct; skipped"
+        },
+        {
+          "name": "CPB Contractors",
+          "url": "https://www.seek.com.au/job/95346899",
+          "result": "CIMIC Group Graduate Program 2027 open to Australian citizens, PR and NZ citizens only; not eligible"
+        },
+        {
+          "name": "John Holland",
+          "url": "https://au.linkedin.com/jobs/project-civil-engineer-jobs-greater-melbourne-area",
+          "result": "Victorian listings are Project Engineer, Senior and Traffic roles (experienced); no graduate or cadet role seen"
+        },
+        {
+          "name": "Acciona Australia",
+          "url": "https://acciona.wd3.myworkdayjobs.com/en-US/ACCIONA_Employment_Channel/job/Civil-Engineer-graduate---Graduate-Program-2027_20101381",
+          "result": "Graduate Program 2027 closed 20 Sep 2026; Melbourne Project Engineer is experienced level"
+        },
+        {
+          "name": "Laing O'Rourke",
+          "url": "",
+          "result": "Project Engineer Track/Civil Laverton North is experienced level; no graduate role"
+        },
+        {
+          "name": "BG&E",
+          "url": "",
+          "result": "no junior civil role found in search"
+        },
+        {
+          "name": "Melton City Council (extra)",
+          "url": "https://meltoncity-external.applynow.net.au/",
+          "result": "LinkedIn/Jora snippets showed Engineer (Graduate) but the live LinkedIn and applynow boards list only Development Contributions Coordinator MEL1850, Paralegal MEL1884, Senior Strategic Planner MEL1900; Councildirect copy closed 2 Oct 2025; not verified open, no record"
+        }
+      ],
+      "notes": "Finds saved to /workspace/job-finds (tracker full, Marc 20 Oct 2026)."
     }
   ],
   "history": [
