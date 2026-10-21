@@ -1,0 +1,203 @@
+[
+ {
+  "id": "9cd71de3-7fda-4f79-b083-d93acc12e8e9",
+  "key": "manual:9cd71de3-7fda-4f79-b083-d93acc12e8e9",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261021T1416Z",
+  "created_at": "2026-10-21T14:23:44.000Z",
+  "updated_at": "2026-10-21T14:23:44.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Coffey_Testing_CMT_Technician_Cover_Letter.pdf",
+    "sha256": "2f5ffd6841f2c2d96526255027266ab5029117d8d0f63b458c60bd92378b9254",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Coffey_Testing_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "stored_in": "local:/workspace/job-finds"
+   }
+  ],
+  "company": "Coffey Testing Pty Ltd",
+  "role": "Construction Materials Testing Technician, Entry-Level",
+  "location": "Werribee, Melbourne VIC",
+  "job_url": "https://www.seek.com.au/job/95393367",
+  "company_url": "https://www.coffeytesting.com.au/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95393367",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Construction Materials Testing Technician, Werribee (SEEK 95393367), Marc Masarate",
+  "email_body": "",
+  "fit": [
+   "Entry-level technician role with a first-week Training Academy and funded Certificate III or IV: no prior testing experience required, only safety awareness, willingness to learn, computer skills and fitness for lifting.",
+   "Duties overlap Marc's site record: travelling to project sites, sampling and testing soils, aggregates and concrete, recording results and working with site supervisors and engineers; his coursework covered AS 1289 and AS 1726, and his Philippines site work included inspections, quality checks and material records.",
+   "Direct employer (Coffey Testing, NATA accredited CMT provider), full time, Werribee VIC near Melton; listed 21 Oct 2026, SEEK expiry 20 Nov 2026."
+  ],
+  "gaps": [
+   "No construction materials testing or laboratory experience (AS 1289 and AS 1726 are coursework only)",
+   "Manual licence advantageous; licence type not on record",
+   "No Australian site experience; site work was in the Philippines 2019 to 2020"
+  ],
+  "match_score": {
+   "percent": 68,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Entry-level technician role with a first-week Training Academy and funded Certificate III or IV: no prior testing experience required, only safety awareness, willingness to learn, computer skills and fitness for lifting.",
+    "Duties overlap Marc's site record: travelling to project sites, sampling and testing soils, aggregates and concrete, recording results and working with site supervisors and engineers; his coursework covered AS 1289 and AS 1726, and his Philippines site work included inspections, quality checks and material records.",
+    "Direct employer (Coffey Testing, NATA accredited CMT provider), full time, Werribee VIC near Melton; listed 21 Oct 2026, SEEK expiry 20 Nov 2026."
+   ],
+   "caution": "Testing technician pathway rather than drafting or site engineering, so it is a step sideways into civil infrastructure quality work. Manual driver's licence is 'advantageous' (licence type not on record). Physically demanding (repeated lifts of 15 kg and over). No laboratory or NATA testing experience on record."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-21T00:31:42.739Z",
+   "expires_at": "2026-11-20T12:59:59.999Z",
+   "verified_at": "2026-10-21T14:23:44.000Z",
+   "apply_instructions": "SEEK link out to Coffey Testing's own application page. No email or named contact in the advert.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Check Gmail again for any Coffey Testing receipt, then open https://www.seek.com.au/job/95393367 and confirm it is still open (SEEK listing expires 20 Nov 2026, about 23:59 AEDT)",
+   "Confirm with Marc whether his driver's licence is manual or automatic (the advert says a manual licence is advantageous, not required) and that he is comfortable with the physical side of the role (repeatedly lifting 15 kg and over)",
+   "Apply through Coffey Testing's own application page via the SEEK link out with the master resume and the saved cover letter PDF",
+   "Answer any portal questions from facts only; do not claim laboratory or NATA testing experience (AS 1289 and AS 1726 are coursework only)",
+   "Note the receipt date in /workspace/job-finds (tracker recording is paused)"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nContractors and testing consultancies rotation on tick 20261021T1416Z. Not in the default SEEK sweep: found in the widened SEEK keyword sweep (daterange 14, 1767 listings seen, 397 past the prefilter) among listings that had never been detailed, then fetched with seek.py details. SEEK id 95393367, listed 21 Oct 2026 11:31 AEDT, SEEK expiry 20 Nov 2026 (about 23:59 AEDT). Direct employer: Coffey Testing Pty Ltd (also advertising the same entry-level role in Canberra and Western Sydney). Contact: the advert gives no email or named person, so no email was drafted; route is Coffey Testing's own application page via the SEEK link out. Dedupe: tracker.py check new; not in prior_outreach.json, employers.json, the journal or /workspace/job-finds; Gmail in:anywhere for Coffey: only a 4 Aug 2026 LinkedIn alert and an unrelated 2019 personal email, no application. Nothing was sent or applied. Saved locally only (tracker full).\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your entry-level CMT Technician advert for Werribee on SEEK.\n• Have you done materials testing before? → Not in a laboratory. I studied AS 1289 and AS 1726 in my Advanced Diploma, and on site in the Philippines I did inspections, quality checks and kept material records.\n• Is your licence manual? → Marc to answer.\n• Are you comfortable with physical work and lifting? → Marc to answer honestly.\n• Why testing rather than design? → It is hands-on civil infrastructure work on site and in the lab, close to home, with a training pathway.\n• Can you travel to regional sites? → Yes, available for site and regional project work.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Contractors and testing consultancies rotation on tick 20261021T1416Z. Not in the default SEEK sweep: found in the widened SEEK keyword sweep (daterange 14, 1767 listings seen, 397 past the prefilter) among listings that had never been detailed, then fetched with seek.py details. SEEK id 95393367, listed 21 Oct 2026 11:31 AEDT, SEEK expiry 20 Nov 2026 (about 23:59 AEDT). Direct employer: Coffey Testing Pty Ltd (also advertising the same entry-level role in Canberra and Western Sydney). Contact: the advert gives no email or named person, so no email was drafted; route is Coffey Testing's own application page via the SEEK link out. Dedupe: tracker.py check new; not in prior_outreach.json, employers.json, the journal or /workspace/job-finds; Gmail in:anywhere for Coffey: only a 4 Aug 2026 LinkedIn alert and an unrelated 2019 personal email, no application. Nothing was sent or applied. Saved locally only (tracker full).",
+  "call_prep": [
+   "How did you find us? → Your entry-level CMT Technician advert for Werribee on SEEK.",
+   "Have you done materials testing before? → Not in a laboratory. I studied AS 1289 and AS 1726 in my Advanced Diploma, and on site in the Philippines I did inspections, quality checks and kept material records.",
+   "Is your licence manual? → Marc to answer.",
+   "Are you comfortable with physical work and lifting? → Marc to answer honestly.",
+   "Why testing rather than design? → It is hands-on civil infrastructure work on site and in the lab, close to home, with a training pathway.",
+   "Can you travel to regional sites? → Yes, available for site and regional project work.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-21T14:23:44.000Z",
+  "seek_id": 95393367,
+  "duplicate_key": "coffeytestingptyltd|seek:95393367",
+  "preparation_only": true,
+  "found_at": "2026-10-22T01:23+11:00 AEDT"
+ },
+ {
+  "id": "816b8bd1-ace4-47b6-a139-f0a534239d83",
+  "key": "manual:816b8bd1-ace4-47b6-a139-f0a534239d83",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261021T1416Z",
+  "created_at": "2026-10-21T14:23:44.000Z",
+  "updated_at": "2026-10-21T14:23:44.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_McConnell_Dowell_Site_Engineer_Cover_Letter.pdf",
+    "sha256": "ebcd20afda550aece832a9f8a1c8dd8a91fbe69a8d57ce7f46f0c58cde98d171",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_McConnell_Dowell_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "stored_in": "local:/workspace/job-finds"
+   }
+  ],
+  "company": "McConnell Dowell Australia",
+  "role": "Site Engineer (Marine, Mid West WA, FIFO 2:1)",
+  "location": "Perth WA (FIFO to the Mid West)",
+  "job_url": "https://www.seek.com.au/job/95409467",
+  "company_url": "https://www.mcconnelldowell.com/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95409467",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Site Engineer, Mid West WA FIFO (SEEK 95409467), Marc Masarate",
+  "email_body": "",
+  "fit": [
+   "Site engineer role on a marine infrastructure project: coordinating site activities, interpreting drawings, inspections, ITPs and quality documentation, progress monitoring and subcontractor coordination, which match Marc's Philippines site work (drawing reviews, inspections, quality checks, site and progress reports, coordinating crews and subcontractors).",
+   "Essentials met: civil engineering degree (BSCE 2019, plus Advanced Diploma 2026), driver's licence and White Card. 'Ideally at least two years' is a preference and the advert invites applicants with transferable skills.",
+   "Direct employer (McConnell Dowell), full time, FIFO 2:1 from Perth to the Mid West, consistent with Marc's FIFO availability; listed 21 Oct 2026, SEEK expiry 20 Nov 2026."
+  ],
+  "gaps": [
+   "Site experience about a year against a preferred two years",
+   "No marine construction experience",
+   "No Australian site experience",
+   "Progress claims, procurement packages and cost monitoring on a major project not on record",
+   "FIFO point of hire likely Perth (Marc to confirm)"
+  ],
+  "match_score": {
+   "percent": 64,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Site engineer role on a marine infrastructure project: coordinating site activities, interpreting drawings, inspections, ITPs and quality documentation, progress monitoring and subcontractor coordination, which match Marc's Philippines site work (drawing reviews, inspections, quality checks, site and progress reports, coordinating crews and subcontractors).",
+    "Essentials met: civil engineering degree (BSCE 2019, plus Advanced Diploma 2026), driver's licence and White Card. 'Ideally at least two years' is a preference and the advert invites applicants with transferable skills.",
+    "Direct employer (McConnell Dowell), full time, FIFO 2:1 from Perth to the Mid West, consistent with Marc's FIFO availability; listed 21 Oct 2026, SEEK expiry 20 Nov 2026."
+   ],
+   "caution": "About a year of site experience (Philippines, 2019 to 2020) against a preferred two years; no marine or Australian site experience; ITP authoring, cost and claims work not on record. FIFO is from Perth, so Marc must confirm whether he would need to be Perth based. Pre-employment medical with drug and alcohol testing."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-21T07:58:56.627Z",
+   "expires_at": "2026-11-20T07:58:00.000Z",
+   "verified_at": "2026-10-21T14:23:44.000Z",
+   "apply_instructions": "SEEK link out to McConnell Dowell's own careers page. No email or named contact in the advert.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Confirm with Marc that he is happy with a FIFO 2:1 roster to WA's Mid West from Perth (FIFO availability is on record; check whether flights are from Perth only and whether he would need to be Perth based)",
+   "Check Gmail again for any McConnell Dowell receipt, then open https://www.seek.com.au/job/95409467 and confirm it is still open (SEEK listing expires 20 Nov 2026, about 18:58 AEDT)",
+   "Apply through McConnell Dowell's own careers page via the SEEK link out with the master resume and the saved cover letter PDF",
+   "Answer portal questions from facts only: site experience is about a year (Apr 2019 to Feb 2020, Philippines); no marine or Australian site experience; do not claim ITP authoring beyond inspections and quality checks",
+   "Note the receipt date in /workspace/job-finds (tracker recording is paused)"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nContractors rotation on tick 20261021T1416Z. Found in the widened SEEK keyword sweep (daterange 14, 1767 listings seen, 397 past the prefilter) among listings never detailed before, then fetched with seek.py details. SEEK id 95409467, listed 21 Oct 2026 18:58 AEDT, SEEK expiry 20 Nov 2026 (about 18:58 AEDT). Direct employer: McConnell Dowell Australia. Contact: the advert gives no email or named person, so no email was drafted; route is McConnell Dowell's careers page via the SEEK link out. Dedupe: tracker.py check new; not in prior_outreach.json or /workspace/job-finds; employers.json notes only an earlier look at the McConnell Dowell 2027 graduate program (not applied); Gmail in:anywhere for McConnell: no application receipt or reply (matches were SEEK receipt threads for other employers). Nothing was sent or applied. Saved locally only (tracker full).\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your Site Engineer advert for the Mid West marine project on SEEK.\n• How much site experience do you have? → About a year in the Philippines (April 2019 to February 2020), as project-in-charge then field engineer; not yet on an Australian or marine project.\n• Have you worked with ITPs and quality documentation? → I carried out site inspections, safety checks and quality monitoring and kept site reports and material records; I have not written ITPs on an Australian project.\n• Can you do FIFO 2:1 from Perth? → Marc to answer; FIFO availability is on record but the point of hire is Perth.\n• Have you handled progress claims or subcontractor packages? → I tracked procurement and materials and coordinated subcontractors and suppliers; claims were not part of my role.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Contractors rotation on tick 20261021T1416Z. Found in the widened SEEK keyword sweep (daterange 14, 1767 listings seen, 397 past the prefilter) among listings never detailed before, then fetched with seek.py details. SEEK id 95409467, listed 21 Oct 2026 18:58 AEDT, SEEK expiry 20 Nov 2026 (about 18:58 AEDT). Direct employer: McConnell Dowell Australia. Contact: the advert gives no email or named person, so no email was drafted; route is McConnell Dowell's careers page via the SEEK link out. Dedupe: tracker.py check new; not in prior_outreach.json or /workspace/job-finds; employers.json notes only an earlier look at the McConnell Dowell 2027 graduate program (not applied); Gmail in:anywhere for McConnell: no application receipt or reply (matches were SEEK receipt threads for other employers). Nothing was sent or applied. Saved locally only (tracker full).",
+  "call_prep": [
+   "How did you find us? → Your Site Engineer advert for the Mid West marine project on SEEK.",
+   "How much site experience do you have? → About a year in the Philippines (April 2019 to February 2020), as project-in-charge then field engineer; not yet on an Australian or marine project.",
+   "Have you worked with ITPs and quality documentation? → I carried out site inspections, safety checks and quality monitoring and kept site reports and material records; I have not written ITPs on an Australian project.",
+   "Can you do FIFO 2:1 from Perth? → Marc to answer; FIFO availability is on record but the point of hire is Perth.",
+   "Have you handled progress claims or subcontractor packages? → I tracked procurement and materials and coordinated subcontractors and suppliers; claims were not part of my role.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-21T14:23:44.000Z",
+  "seek_id": 95409467,
+  "duplicate_key": "mcconnelldowellaustralia|seek:95409467",
+  "preparation_only": true,
+  "found_at": "2026-10-22T01:23+11:00 AEDT"
+ }
+]

@@ -1,0 +1,37 @@
+{
+ "slug": "McConnell_Dowell",
+ "cover": "Marc_Masarate_McConnell_Dowell_Site_Engineer_Cover_Letter.pdf",
+ "resume": "Marc_Masarate_McConnell_Dowell_Resume.pdf",
+ "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+ "pct": 64,
+ "rationale": [
+  "Site engineer role on a marine infrastructure project: coordinating site activities, interpreting drawings, inspections, ITPs and quality documentation, progress monitoring and subcontractor coordination, which match Marc's Philippines site work (drawing reviews, inspections, quality checks, site and progress reports, coordinating crews and subcontractors).",
+  "Essentials met: civil engineering degree (BSCE 2019, plus Advanced Diploma 2026), driver's licence and White Card. 'Ideally at least two years' is a preference and the advert invites applicants with transferable skills.",
+  "Direct employer (McConnell Dowell), full time, FIFO 2:1 from Perth to the Mid West, consistent with Marc's FIFO availability; listed 21 Oct 2026, SEEK expiry 20 Nov 2026."
+ ],
+ "caution": "About a year of site experience (Philippines, 2019 to 2020) against a preferred two years; no marine or Australian site experience; ITP authoring, cost and claims work not on record. FIFO is from Perth, so Marc must confirm whether he would need to be Perth based. Pre-employment medical with drug and alcohol testing.",
+ "gaps": [
+  "Site experience about a year against a preferred two years",
+  "No marine construction experience",
+  "No Australian site experience",
+  "Progress claims, procurement packages and cost monitoring on a major project not on record",
+  "FIFO point of hire likely Perth (Marc to confirm)"
+ ],
+ "listed": "2026-10-21T07:58:56.627Z",
+ "expires": "2026-11-20T07:58:00.000Z",
+ "apply": "SEEK link out to McConnell Dowell's own careers page. No email or named contact in the advert.",
+ "how": "Contractors rotation on tick 20261021T1416Z. Found in the widened SEEK keyword sweep (daterange 14, 1767 listings seen, 397 past the prefilter) among listings never detailed before, then fetched with seek.py details. SEEK id 95409467, listed 21 Oct 2026 18:58 AEDT, SEEK expiry 20 Nov 2026 (about 18:58 AEDT). Direct employer: McConnell Dowell Australia. Contact: the advert gives no email or named person, so no email was drafted; route is McConnell Dowell's careers page via the SEEK link out. Dedupe: tracker.py check new; not in prior_outreach.json or /workspace/job-finds; employers.json notes only an earlier look at the McConnell Dowell 2027 graduate program (not applied); Gmail in:anywhere for McConnell: no application receipt or reply (matches were SEEK receipt threads for other employers). Nothing was sent or applied. Saved locally only (tracker full).",
+ "call": [
+  "How did you find us? → Your Site Engineer advert for the Mid West marine project on SEEK.",
+  "How much site experience do you have? → About a year in the Philippines (April 2019 to February 2020), as project-in-charge then field engineer; not yet on an Australian or marine project.",
+  "Have you worked with ITPs and quality documentation? → I carried out site inspections, safety checks and quality monitoring and kept site reports and material records; I have not written ITPs on an Australian project.",
+  "Can you do FIFO 2:1 from Perth? → Marc to answer; FIFO availability is on record but the point of hire is Perth.",
+  "Have you handled progress claims or subcontractor packages? → I tracked procurement and materials and coordinated subcontractors and suppliers; claims were not part of my role.",
+  "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+  "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+  "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+  "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+  "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+ ],
+ "percent": 64
+}

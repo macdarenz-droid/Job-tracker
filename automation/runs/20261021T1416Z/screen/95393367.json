@@ -1,0 +1,36 @@
+{
+ "slug": "Coffey",
+ "cover": "Marc_Masarate_Coffey_Testing_CMT_Technician_Cover_Letter.pdf",
+ "resume": "Marc_Masarate_Coffey_Testing_Resume.pdf",
+ "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+ "pct": 68,
+ "rationale": [
+  "Entry-level technician role with a first-week Training Academy and funded Certificate III or IV: no prior testing experience required, only safety awareness, willingness to learn, computer skills and fitness for lifting.",
+  "Duties overlap Marc's site record: travelling to project sites, sampling and testing soils, aggregates and concrete, recording results and working with site supervisors and engineers; his coursework covered AS 1289 and AS 1726, and his Philippines site work included inspections, quality checks and material records.",
+  "Direct employer (Coffey Testing, NATA accredited CMT provider), full time, Werribee VIC near Melton; listed 21 Oct 2026, SEEK expiry 20 Nov 2026."
+ ],
+ "caution": "Testing technician pathway rather than drafting or site engineering, so it is a step sideways into civil infrastructure quality work. Manual driver's licence is 'advantageous' (licence type not on record). Physically demanding (repeated lifts of 15 kg and over). No laboratory or NATA testing experience on record.",
+ "gaps": [
+  "No construction materials testing or laboratory experience (AS 1289 and AS 1726 are coursework only)",
+  "Manual licence advantageous; licence type not on record",
+  "No Australian site experience; site work was in the Philippines 2019 to 2020"
+ ],
+ "listed": "2026-10-21T00:31:42.739Z",
+ "expires": "2026-11-20T12:59:59.999Z",
+ "apply": "SEEK link out to Coffey Testing's own application page. No email or named contact in the advert.",
+ "how": "Contractors and testing consultancies rotation on tick 20261021T1416Z. Not in the default SEEK sweep: found in the widened SEEK keyword sweep (daterange 14, 1767 listings seen, 397 past the prefilter) among listings that had never been detailed, then fetched with seek.py details. SEEK id 95393367, listed 21 Oct 2026 11:31 AEDT, SEEK expiry 20 Nov 2026 (about 23:59 AEDT). Direct employer: Coffey Testing Pty Ltd (also advertising the same entry-level role in Canberra and Western Sydney). Contact: the advert gives no email or named person, so no email was drafted; route is Coffey Testing's own application page via the SEEK link out. Dedupe: tracker.py check new; not in prior_outreach.json, employers.json, the journal or /workspace/job-finds; Gmail in:anywhere for Coffey: only a 4 Aug 2026 LinkedIn alert and an unrelated 2019 personal email, no application. Nothing was sent or applied. Saved locally only (tracker full).",
+ "call": [
+  "How did you find us? → Your entry-level CMT Technician advert for Werribee on SEEK.",
+  "Have you done materials testing before? → Not in a laboratory. I studied AS 1289 and AS 1726 in my Advanced Diploma, and on site in the Philippines I did inspections, quality checks and kept material records.",
+  "Is your licence manual? → Marc to answer.",
+  "Are you comfortable with physical work and lifting? → Marc to answer honestly.",
+  "Why testing rather than design? → It is hands-on civil infrastructure work on site and in the lab, close to home, with a training pathway.",
+  "Can you travel to regional sites? → Yes, available for site and regional project work.",
+  "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+  "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+  "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+  "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+  "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+ ],
+ "percent": 68
+}
