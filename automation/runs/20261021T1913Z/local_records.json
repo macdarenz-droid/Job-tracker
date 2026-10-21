@@ -1,0 +1,99 @@
+[
+ {
+  "id": "ebdae2c0-a5e9-4071-8568-14fd6b2187e3",
+  "key": "manual:ebdae2c0-a5e9-4071-8568-14fd6b2187e3",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261021T1913Z",
+  "created_at": "2026-10-21T19:20:42.000Z",
+  "updated_at": "2026-10-21T19:20:42.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Leed_Graduate_Civil_Engineer_Cover_Letter.pdf",
+    "sha256": "c1502402556cd4e848cb855f989033d860bf4cb1a26478f7d50f8d92276b1820",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Leed_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "stored_in": "local:/workspace/job-finds"
+   }
+  ],
+  "company": "Leed Engineering and Construction",
+  "role": "Graduate Civil Engineer Program (Expression of Interest, Dec 2026 intake), regional VIC and NSW",
+  "location": "Regional Victoria and NSW (FIFO and DIDO), head office Kent Town SA",
+  "job_url": "https://www.leed.net.au/working-at-leed/graduates-and-undergraduates/",
+  "company_url": "https://www.leed.net.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_PROGRAM_VERIFIED",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Leed careers inbox (named on the graduate program page for applications)",
+  "recipient_email": "careers@leed.net.au",
+  "contact_email": "careers@leed.net.au",
+  "contact_evidence_url": "https://www.leed.net.au/working-at-leed/graduates-and-undergraduates/",
+  "contact_verified_at": "2026-10-21T19:20:42.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Graduate Civil Engineer Program application, Marc Masarate",
+  "email_body": "Hello Leed careers team,\n\nI'm applying for your Graduate Civil Engineer Program. I saw the December 2026 expression of interest and your recent post saying you are still looking for graduates for regional projects in Victoria and NSW, including Snowy 2.0.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD, and I hold a Bachelor of Science in Civil Engineering from the Philippines (2019). From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge. I'm based in Melton VIC with a White Card, a licence and my own transport, and I have full working rights to December 2027 on a 485 visa. I'm available for site, regional and FIFO work.\n\nYour page says you want graduates who want to be on site, not just in an office, and that is the work I'm after, on roads, earthworks and pipelines. My site experience so far is overseas, so I would start at graduate level.\n\nI've attached my resume and cover letter. Could we talk about a place in the program?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Graduate program for site-based civil construction (pipelines, treatment plants, pump stations, roads, earthworks) on regional VIC and NSW projects including Snowy 2.0, suited to FIFO and DIDO, which matches Marc's site background and his regional and FIFO availability.",
+   "Eligibility explicitly lists Temporary Graduate visa holders, plus a C class licence and a civil engineering bachelor degree; Marc has the 485 visa, a licence and a 2019 BSCE, and his Philippines site work (inspections, quality checks, coordinating crews, site reports) fits a graduate site role.",
+   "Direct employer; Leed's graduate page names careers@leed.net.au for applications and Leed's LinkedIn post (about early Oct 2026) says it is still seeking graduate applications; a December 2026 graduate intake expression of interest is circulating on job boards."
+  ],
+  "gaps": [
+   "Bachelor degree completed 2019, not in the intake year",
+   "Academic transcript and two referee details needed (not on record)",
+   "No Australian site experience; site work was in the Philippines 2019 to 2020",
+   "No water, pipeline or treatment plant project experience"
+  ],
+  "match_score": {
+   "percent": 68,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Graduate program for site-based civil construction (pipelines, treatment plants, pump stations, roads, earthworks) on regional VIC and NSW projects including Snowy 2.0, suited to FIFO and DIDO, which matches Marc's site background and his regional and FIFO availability.",
+    "Eligibility explicitly lists Temporary Graduate visa holders, plus a C class licence and a civil engineering bachelor degree; Marc has the 485 visa, a licence and a 2019 BSCE, and his Philippines site work (inspections, quality checks, coordinating crews, site reports) fits a graduate site role.",
+    "Direct employer; Leed's graduate page names careers@leed.net.au for applications and Leed's LinkedIn post (about early Oct 2026) says it is still seeking graduate applications; a December 2026 graduate intake expression of interest is circulating on job boards."
+   ],
+   "caution": "Degree rule reads 'completed or expected completion in the intake year'; Marc's BSCE was completed in 2019, so Leed may prefer recent graduates (Marc could ask). The application needs an academic transcript and two referees, neither on record. Water and pipeline work is not in Marc's history. Regional VIC and NSW FIFO or DIDO, so Marc to confirm."
+  },
+  "advert": {
+   "source": "employer_site",
+   "listed_at": "",
+   "expires_at": "",
+   "verified_at": "2026-10-21T19:20:42.000Z",
+   "apply_instructions": "Email careers@leed.net.au with a resume (max 2 pages), cover letter, academic transcript and two referees.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Check Gmail in:anywhere for Leed or leed.net.au once more (none found on 22 Oct 2026)",
+   "Confirm the graduate page still lists careers@leed.net.au and the program is still taking applications",
+   "Marc to decide whether his 2019 BSCE meets 'completed or expected completion in the intake year' (ask Leed if unsure) and confirm he can work FIFO or DIDO in regional VIC and NSW",
+   "Leed asks for a resume of at most 2 pages, a cover letter, an academic transcript and two referees: Marc to add his transcript and referee details (not on record) before sending",
+   "Send only when sending is re-enabled and Marc approves, then record the send date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nVictoria off-SEEK rotation on tick 20261021T1913Z. The default SEEK sweep (3 days, 1140 seen) and a widened 7-day sweep with 20 new keyword sets (1521 seen, 326 past the prefilter) found only adverts already screened in earlier ticks. Leed came from an open-web search of regional Victoria graduate roles: job boards show 'Expression Of Interest - Graduate Civil Engineer Program (Dec 2026)', and Leed's own graduate page (https://www.leed.net.au/working-at-leed/graduates-and-undergraduates/) sets the eligibility (full working rights including Temporary Graduate visa holders, C class licence, civil degree) and names careers@leed.net.au for applications, asking for a resume of at most 2 pages, a cover letter, an academic transcript and two referees. Leed's LinkedIn post after Deakin's Geelong careers expo says it is still seeking graduates for regional VIC and NSW projects including Snowy 2.0, mainly FIFO and DIDO. Dedupe: not in prior_outreach.json, employers.json, the journal or /workspace/job-finds; Gmail search for leed.net.au or Leed on 22 Oct 2026 found no Leed email (only unrelated SEEK mail). Email body and cover letter drafted from facts.json only and passed checks.py tone and facts. Nothing was sent. Saved locally only (tracker full).\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you hear about the program? → Your graduate page and your post saying you still need graduates for regional VIC and NSW projects.\n• When did you finish your degree? → BSCE in the Philippines in 2019, and the Advanced Diploma of Civil Construction Design in Australia in February 2026.\n• Are you happy to do FIFO or DIDO in regional Victoria and NSW? → Marc to answer; FIFO and regional availability is on record.\n• Have you worked on water or pipeline projects? → No; my site work was a community hall renovation and residential subdivision finishing works.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement).\n• When could you start? → Marc to answer honestly; nothing was promised.",
+  "how_found": "Victoria off-SEEK rotation on tick 20261021T1913Z. The default SEEK sweep (3 days, 1140 seen) and a widened 7-day sweep with 20 new keyword sets (1521 seen, 326 past the prefilter) found only adverts already screened in earlier ticks. Leed came from an open-web search of regional Victoria graduate roles: job boards show 'Expression Of Interest - Graduate Civil Engineer Program (Dec 2026)', and Leed's own graduate page (https://www.leed.net.au/working-at-leed/graduates-and-undergraduates/) sets the eligibility (full working rights including Temporary Graduate visa holders, C class licence, civil degree) and names careers@leed.net.au for applications, asking for a resume of at most 2 pages, a cover letter, an academic transcript and two referees. Leed's LinkedIn post after Deakin's Geelong careers expo says it is still seeking graduates for regional VIC and NSW projects including Snowy 2.0, mainly FIFO and DIDO. Dedupe: not in prior_outreach.json, employers.json, the journal or /workspace/job-finds; Gmail search for leed.net.au or Leed on 22 Oct 2026 found no Leed email (only unrelated SEEK mail). Email body and cover letter drafted from facts.json only and passed checks.py tone and facts. Nothing was sent. Saved locally only (tracker full).",
+  "call_prep": [
+   "How did you hear about the program? → Your graduate page and your post saying you still need graduates for regional VIC and NSW projects.",
+   "When did you finish your degree? → BSCE in the Philippines in 2019, and the Advanced Diploma of Civil Construction Design in Australia in February 2026.",
+   "Are you happy to do FIFO or DIDO in regional Victoria and NSW? → Marc to answer; FIFO and regional availability is on record.",
+   "Have you worked on water or pipeline projects? → No; my site work was a community hall renovation and residential subdivision finishing works.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement).",
+   "When could you start? → Marc to answer honestly; nothing was promised."
+  ],
+  "checked_at": "2026-10-21T19:20:42.000Z",
+  "seek_id": null,
+  "duplicate_key": "leedengineeringandconstruction|grad-civil-2026",
+  "preparation_only": true,
+  "found_at": "2026-10-22T06:20+11:00 AEDT"
+ }
+]
