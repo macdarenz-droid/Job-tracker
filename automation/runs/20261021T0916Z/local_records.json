@@ -1,0 +1,201 @@
+[
+ {
+  "id": "79fd05d0-e802-44c7-88e4-77bf94ccda91",
+  "key": "manual:79fd05d0-e802-44c7-88e4-77bf94ccda91",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261021T0916Z",
+  "created_at": "2026-10-21T09:40:00.000Z",
+  "updated_at": "2026-10-21T09:40:00.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_City_of_Rockingham_Design_Engineer_Civil_Cover_Letter.pdf",
+    "sha256": "29fa3c1e30a0c72c8b050a3360b39c3b00e19bc0bfcdbdeb5e16ec333d0e0042",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Rockingham_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "stored_in": "local:/workspace/job-finds"
+   }
+  ],
+  "company": "City of Rockingham",
+  "role": "Design Engineer (Civil)",
+  "location": "Rockingham, Perth WA",
+  "job_url": "https://www.seek.com.au/job/95407006",
+  "company_url": "https://rockingham.wa.gov.au/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95407006",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Design Engineer (Civil), City of Rockingham (SEEK 95407006), Marc Masarate",
+  "email_body": "",
+  "fit": [
+   "Council design role preparing concept and detailed designs, drawings, quantities, cost estimates and construction documentation for roads, pavements and stormwater drainage: a direct match to Marc's Advanced Diploma road geometry, earthworks, pavement and drainage work in AutoCAD and Civil 3D.",
+   "Essentials: Diploma in Civil Engineering or equivalent (Advanced Diploma of Civil Construction Design plus BSCE 2019), C class licence (held), Civil 3D and AutoCAD (coursework). No years of experience stated.",
+   "Direct employer (local government), permanent full time, $102,707 to $110,461; listed 21 Oct 2026, closes 4pm WA time 4 Nov 2026, assessed as received."
+  ],
+  "gaps": [
+   "Civil 3D and AutoCAD experience is academic, not commercial production design",
+   "No traffic management design or Main Roads WA standards experience on record",
+   "No Australian design office experience",
+   "Based in Melton VIC; role is in Rockingham WA (open to discussing relocation, Marc to confirm)"
+  ],
+  "match_score": {
+   "percent": 66,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Council design role preparing concept and detailed designs, drawings, quantities, cost estimates and construction documentation for roads, pavements and stormwater drainage: a direct match to Marc's Advanced Diploma road geometry, earthworks, pavement and drainage work in AutoCAD and Civil 3D.",
+    "Essentials: Diploma in Civil Engineering or equivalent (Advanced Diploma of Civil Construction Design plus BSCE 2019), C class licence (held), Civil 3D and AutoCAD (coursework). No years of experience stated.",
+    "Direct employer (local government), permanent full time, $102,707 to $110,461; listed 21 Oct 2026, closes 4pm WA time 4 Nov 2026, assessed as received."
+   ],
+   "caution": "'Considerable experience using Civil 3D and AutoCAD' and 'skilled Design Engineer': Marc's design and Civil 3D work is from coursework, not commercial production; salary band suggests the City may prefer experienced designers. Traffic management design and Main Roads WA standards not on record. Rockingham WA, so relocation Marc must confirm. Selection criteria must be addressed."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-21T06:38:31.637Z",
+   "expires_at": "2026-11-04T08:00:00.000Z",
+   "verified_at": "2026-10-21T09:40:00.000Z",
+   "apply_instructions": "SEEK link out to the City of Rockingham online application; selection criteria must be addressed in the application. Adjustments contact jobs@rockingham.wa.gov.au / 08 9528 0333 (not an application inbox). Closes 4pm Wednesday 4 November 2026 (WA), assessed as received.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Confirm with Marc that he is willing to discuss relocating to Rockingham WA before applying",
+   "Check Gmail again for any City of Rockingham receipt, then open https://www.seek.com.au/job/95407006 and confirm it is still open (closes 4pm WA time Wednesday 4 November 2026, 7pm AEDT; applications are assessed as received)",
+   "Apply through the City's online application via the SEEK link out with the master resume and the saved cover letter PDF",
+   "Address the five selection criteria from facts only (road, pavement and drainage design and Civil 3D from Advanced Diploma coursework; do not claim commercial design experience or Main Roads WA standards)",
+   "Note the receipt date in /workspace/job-finds (tracker recording is paused)"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nCouncils and government rotation on tick 20261021T0916Z. Found in the SEEK sweep (daterange 3, 1152 listings seen, 246 past the prefilter, 60 detailed): SEEK id 95407006, listed 21 Oct 2026, closes 4pm WA time Wednesday 4 November 2026 (7pm AEDT). Direct employer: City of Rockingham (local government, 40 km south of Perth). Contact: the advert gives jobs@rockingham.wa.gov.au only for adjustments, so no email was drafted; route is the City's online application via SEEK. Dedupe: tracker.py check new; not in prior_outreach.json, employers.json or /workspace/job-finds; Gmail in:anywhere for Rockingham and rockingham.wa.gov.au: only SEEK job alert digests, no application. Nothing was sent or applied. Saved locally only (tracker full).\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your Design Engineer (Civil) advert on SEEK.\n• How much Civil 3D experience do you have? → From the Advanced Diploma (2024 to 2026): road geometry, earthworks, pavement and stormwater drainage design and drawings in AutoCAD and Civil 3D; not yet in a commercial design office.\n• Have you used Main Roads WA standards or done traffic management design? → Not on a job; coursework used Austroads road and pavement guides and AS 1742.14.\n• Can you prepare quantities and cost estimates? → Cost estimates and bills of quantities were part of coursework.\n• Would you move to Rockingham? → Marc to answer; the letter only says he is open to discussing relocation.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Councils and government rotation on tick 20261021T0916Z. Found in the SEEK sweep (daterange 3, 1152 listings seen, 246 past the prefilter, 60 detailed): SEEK id 95407006, listed 21 Oct 2026, closes 4pm WA time Wednesday 4 November 2026 (7pm AEDT). Direct employer: City of Rockingham (local government, 40 km south of Perth). Contact: the advert gives jobs@rockingham.wa.gov.au only for adjustments, so no email was drafted; route is the City's online application via SEEK. Dedupe: tracker.py check new; not in prior_outreach.json, employers.json or /workspace/job-finds; Gmail in:anywhere for Rockingham and rockingham.wa.gov.au: only SEEK job alert digests, no application. Nothing was sent or applied. Saved locally only (tracker full).",
+  "call_prep": [
+   "• How did you find us? → Your Design Engineer (Civil) advert on SEEK.",
+   "• How much Civil 3D experience do you have? → From the Advanced Diploma (2024 to 2026): road geometry, earthworks, pavement and stormwater drainage design and drawings in AutoCAD and Civil 3D; not yet in a commercial design office.",
+   "• Have you used Main Roads WA standards or done traffic management design? → Not on a job; coursework used Austroads road and pavement guides and AS 1742.14.",
+   "• Can you prepare quantities and cost estimates? → Cost estimates and bills of quantities were part of coursework.",
+   "• Would you move to Rockingham? → Marc to answer; the letter only says he is open to discussing relocation.",
+   "• What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "• When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-21T09:40:00.000Z",
+  "seek_id": "95407006",
+  "duplicate_key": "seek:95407006",
+  "preparation_only": true,
+  "found_at": "2026-10-21T20:40+11:00 AEDT"
+ },
+ {
+  "id": "74267b91-110f-4e6e-a0f9-94bd2374caa0",
+  "key": "manual:74267b91-110f-4e6e-a0f9-94bd2374caa0",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261021T0916Z",
+  "created_at": "2026-10-21T09:40:00.000Z",
+  "updated_at": "2026-10-21T09:40:00.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_BMD_Graduate_Program_2027_Cover_Letter.pdf",
+    "sha256": "cdd25b89ee8a0e7c9868ff487e4b51af29989a1afb6385051368d42aacf8ef5a",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_BMD_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "stored_in": "local:/workspace/job-finds"
+   }
+  ],
+  "company": "BMD Group",
+  "role": "BMD Graduate Program 2027 (Foundations), Western Australia",
+  "location": "Perth WA",
+  "job_url": "https://www.seek.com.au/job/95410781",
+  "company_url": "https://www.bmdgroup.global/",
+  "status": "HELD_MANDATORY_UNRESOLVED",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95410781",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "BMD Graduate Program 2027, Western Australia (SEEK 95410781), Marc Masarate",
+  "email_body": "",
+  "fit": [
+   "Graduate program rotating through engineering, construction, commercial and HSEQ teams: planning, coordination, reporting, cost tracking, procurement and documentation match Marc's 2019 to 2020 site coordination and records work and his civil design study.",
+   "Civil Engineering degree is a listed discipline (Marc holds a BSCE, 2019); own transport required (held).",
+   "Direct employer (BMD, a target employer), graduate level, Western Australia projects; listed 21 Oct 2026, closes 20 Nov 2026."
+  ],
+  "gaps": [
+   "Degree completed 2019, outside BMD's 24 month graduate window (Advanced Diploma completed February 2026)",
+   "Work rights to December 2027 may not cover the full program",
+   "No Australian site experience; site work was in the Philippines 2019 to 2020",
+   "Based in Melton VIC; role is in Perth WA (open to discussing relocation, Marc to confirm)"
+  ],
+  "match_score": {
+   "percent": 62,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Graduate program rotating through engineering, construction, commercial and HSEQ teams: planning, coordination, reporting, cost tracking, procurement and documentation match Marc's 2019 to 2020 site coordination and records work and his civil design study.",
+    "Civil Engineering degree is a listed discipline (Marc holds a BSCE, 2019); own transport required (held).",
+    "Direct employer (BMD, a target employer), graduate level, Western Australia projects; listed 21 Oct 2026, closes 20 Nov 2026."
+   ],
+   "caution": "Mandatory unresolved: the advert asks for a degree completed or due in 2026, and BMD's program page allows up to 24 months after completing studies; Marc's degree was 2019 (Advanced Diploma February 2026, not a degree). Program runs two years from 2027 while his 485 work rights end December 2027. Perth WA, relocation for Marc to confirm."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-21T08:49:25.122Z",
+   "expires_at": "2026-11-20T12:59:59.999Z",
+   "verified_at": "2026-10-21T09:40:00.000Z",
+   "apply_instructions": "SEEK link out to BMD's own graduate application; no agency submissions. Closes 20 Nov 2026.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Marc to decide whether to apply: BMD's program page says graduates may apply up to 24 months after completing studies; his degree was 2019 and his Advanced Diploma February 2026, and the advert asks for a degree",
+   "Confirm with Marc that he is willing to discuss relocating to Perth WA and that his work rights (to December 2027) suit a program running into 2028",
+   "Check Gmail again for any BMD receipt, then open https://www.seek.com.au/job/95410781 and confirm it is still open (closes 20 Nov 2026)",
+   "Apply through BMD's own application page via the SEEK link out (no agency submissions) with the master resume and the saved cover letter PDF",
+   "Note the receipt date in /workspace/job-finds (tracker recording is paused)"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nCouncils and government rotation on tick 20261021T0916Z; found in the same SEEK sweep (daterange 3): SEEK id 95410781, listed 21 Oct 2026, closes 20 Nov 2026. Direct employer: BMD Group (target employer; employers.json had only a register-interest page on 13 Oct). Program page read 21 Oct 2026: eligible if completing studies this year or completed up to 24 months before commencement. Contact: no recipient published, so no email was drafted; route is BMD's application page via SEEK. Held because the graduate eligibility window and work rights duration are unresolved. Dedupe: tracker.py check new; not in prior_outreach.json or /workspace/job-finds; Gmail in:anywhere for BMD and BMD Group: only LinkedIn job alerts (Graduate Engineer, July 2026), no BMD application or receipt. Nothing was sent or applied. Saved locally only (tracker full).\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your Foundations Graduate Program 2027 advert on SEEK.\n• When did you finish your degree? → Bachelor of Science in Civil Engineering, Philippines, 2019; Advanced Diploma of Civil Construction Design, Australia, February 2026.\n• Do your work rights cover the program? → Subclass 485, full working rights until December 2027; Marc to discuss beyond that, no sponsorship claims made.\n• Would you move to Perth? → Marc to answer; the letter only says he is open to discussing relocation.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Councils and government rotation on tick 20261021T0916Z; found in the same SEEK sweep (daterange 3): SEEK id 95410781, listed 21 Oct 2026, closes 20 Nov 2026. Direct employer: BMD Group (target employer; employers.json had only a register-interest page on 13 Oct). Program page read 21 Oct 2026: eligible if completing studies this year or completed up to 24 months before commencement. Contact: no recipient published, so no email was drafted; route is BMD's application page via SEEK. Held because the graduate eligibility window and work rights duration are unresolved. Dedupe: tracker.py check new; not in prior_outreach.json or /workspace/job-finds; Gmail in:anywhere for BMD and BMD Group: only LinkedIn job alerts (Graduate Engineer, July 2026), no BMD application or receipt. Nothing was sent or applied. Saved locally only (tracker full).",
+  "call_prep": [
+   "• How did you find us? → Your Foundations Graduate Program 2027 advert on SEEK.",
+   "• When did you finish your degree? → Bachelor of Science in Civil Engineering, Philippines, 2019; Advanced Diploma of Civil Construction Design, Australia, February 2026.",
+   "• Do your work rights cover the program? → Subclass 485, full working rights until December 2027; Marc to discuss beyond that, no sponsorship claims made.",
+   "• Would you move to Perth? → Marc to answer; the letter only says he is open to discussing relocation.",
+   "• What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "• When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-21T09:40:00.000Z",
+  "seek_id": "95410781",
+  "duplicate_key": "seek:95410781",
+  "preparation_only": true,
+  "found_at": "2026-10-21T20:40+11:00 AEDT"
+ }
+]

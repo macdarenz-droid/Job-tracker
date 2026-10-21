@@ -1,0 +1,41 @@
+{
+ "seek_id": 95410781,
+ "company": "BMD Group",
+ "role": "BMD Graduate Program 2027 (Foundations), Western Australia",
+ "location": "Perth WA",
+ "job_url": "https://www.seek.com.au/job/95410781",
+ "company_url": "https://www.bmdgroup.global/",
+ "route": "EMPLOYER_PORTAL",
+ "application_type": "ADVERTISED_VACANCY",
+ "recipient_name": "",
+ "recipient_role": "",
+ "recipient_email": "",
+ "contact_evidence_url": "https://www.seek.com.au/job/95410781",
+ "subject": "BMD Graduate Program 2027, Western Australia (SEEK 95410781), Marc Masarate",
+ "email_body": "",
+ "letter": {
+  "recipient_name": "",
+  "recipient_role": "Graduate Recruitment",
+  "company": "BMD Group",
+  "company_line": "BMD's Foundations graduate program rotates graduates through engineering, construction, commercial and HSEQ teams on infrastructure projects in Western Australia.",
+  "subject": "BMD Graduate Program 2027, Western Australia (SEEK 95410781)",
+  "greeting": "Dear Graduate Recruitment Team,",
+  "paragraphs": [
+   "I saw your Foundations Graduate Program 2027 advert for Western Australia on SEEK and would like to apply for a civil engineering place.",
+   "I hold a Bachelor of Science in Civil Engineering from the Philippines (2019) and completed an Advanced Diploma of Civil Construction Design at Albright Institute in February 2026. In the Advanced Diploma I designed and documented road geometry, earthworks, pavement systems and stormwater drainage, and prepared and reviewed technical drawings in AutoCAD and Civil 3D to Australian Standards.",
+   "From 2019 to 2020 I worked on site in the Philippines as project-in-charge on a community hall renovation, coordinating 10 to 15 workers a day, and then as a field engineer on residential subdivision finishing works, tracking procurement and materials and preparing site and progress reports. That matches the planning, coordination, reporting and documentation work your graduates support.",
+   "My site work so far was in the Philippines rather than in Australia. I am based in Melton VIC and open to discussing relocation to Perth, with a driver's licence, my own transport, a White Card and full working rights to December 2027 on a Subclass 485 visa.",
+   "I have attached my resume and would be glad to talk about the program."
+  ],
+  "closing": "Kind regards,"
+ },
+ "screening_answers": [],
+ "checklist": [
+  "Marc to decide whether to apply: BMD's program page says graduates may apply up to 24 months after completing studies; his degree was 2019 and his Advanced Diploma February 2026, and the advert asks for a degree",
+  "Confirm with Marc that he is willing to discuss relocating to Perth WA and that his work rights (to December 2027) suit a program running into 2028",
+  "Check Gmail again for any BMD receipt, then open https://www.seek.com.au/job/95410781 and confirm it is still open (closes 20 Nov 2026)",
+  "Apply through BMD's own application page via the SEEK link out (no agency submissions) with the master resume and the saved cover letter PDF",
+  "Note the receipt date in /workspace/job-finds (tracker recording is paused)"
+ ],
+ "notes": "Direct employer graduate program advert on SEEK, link out to BMD careers. Held: eligibility window and work rights duration unresolved."
+}
