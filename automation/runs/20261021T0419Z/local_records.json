@@ -1,0 +1,202 @@
+[
+ {
+  "id": "06392b2b-31c7-4cb3-8c99-655e0dabd38f",
+  "key": "manual:06392b2b-31c7-4cb3-8c99-655e0dabd38f",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261021T0419Z",
+  "created_at": "2026-10-21T04:40:00.000Z",
+  "updated_at": "2026-10-21T04:40:00.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_CPP_Trainee_Drafter_Substations_Cover_Letter.pdf",
+    "sha256": "2e159eb8f0adf664d105e0f53eae9d84b71ef10ea341521104f4ccdac10fa0e6",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_CPP_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "stored_in": "local:/workspace/job-finds"
+   }
+  ],
+  "company": "Consolidated Power Projects Australia Pty Ltd",
+  "role": "Trainee Drafter - Substations (Utility and Renewable Energy Projects)",
+  "location": "Adelaide SA",
+  "job_url": "https://www.seek.com.au/job/95398302",
+  "company_url": "https://www.conpower.com.au/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95398302",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Trainee Drafter, Substations (SEEK 95398302), Marc Masarate",
+  "email_body": "",
+  "fit": [
+   "Trainee drafter role that explicitly welcomes people who have recently completed drafting studies in civil or structural; Marc finished an Advanced Diploma of Civil Construction Design in February 2026 and holds a BSCE (2019).",
+   "Essentials met: design drafting qualification, AutoCAD (desirable) from coursework; electrical drafting experience stated as not essential.",
+   "Direct employer (CPP, part of Quanta Services); trainee level, full time, listed 21 Oct 2026."
+  ],
+  "gaps": [
+   "No electrical or substation drafting experience",
+   "Drafting experience is from Advanced Diploma coursework, not a paid drafting job",
+   "No MicroStation on record",
+   "Based in Melton VIC; role is in Adelaide SA (open to discussing relocation, Marc to confirm)"
+  ],
+  "match_score": {
+   "percent": 66,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Trainee drafter role that explicitly welcomes people who have recently completed drafting studies in civil or structural; Marc finished an Advanced Diploma of Civil Construction Design in February 2026 and holds a BSCE (2019).",
+    "Essentials met: design drafting qualification, AutoCAD (desirable) from coursework; electrical drafting experience stated as not essential.",
+    "Direct employer (CPP, part of Quanta Services); trainee level, full time, listed 21 Oct 2026."
+   ],
+   "caution": "Adelaide SA, so relocation Marc must confirm. Work is electrical substation primary drafting, not civil. Marc applied to CPP Graduate Engineer Civil and Structural via SEEK in March 2026 and was declined 21 and 28 Apr 2026 (outside the 90 day block, different role). MicroStation not on record."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-21T02:53:24.812Z",
+   "expires_at": "2026-11-20T12:59:59.999Z",
+   "verified_at": "2026-10-21T04:40:00.000Z",
+   "apply_instructions": "SEEK link out to CPP's own application page; upload resume via the links provided. Questions to amoritz@conpower.com.au, but applications are not accepted by email.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Confirm with Marc that he is willing to discuss relocating to Adelaide before applying",
+   "Check Gmail again for any new conpower.com.au or Consolidated Power Projects receipt, then open https://www.seek.com.au/job/95398302 and confirm it is still open",
+   "Apply through the employer link from SEEK with the master resume and the saved cover letter PDF (applications are not accepted by email)",
+   "Answer any portal questions from facts only; do not claim electrical or substation drafting experience; note the earlier unsuccessful Graduate Engineer applications (March to April 2026) if asked",
+   "Note the receipt date in /workspace/job-finds (tracker recording is paused)"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nSEEK sweep on tick 20261021T0419Z (daterange 3, 1089 listings seen, 226 past the prefilter, 60 detailed). SEEK id 95398302, listed 21 Oct 2026 13:53 AEDT, closes 20 Nov 2026 (about 23:59 AEDT). Direct employer: Consolidated Power Projects Australia (CPP), part of Quanta Services. Contact: the advert names amoritz@conpower.com.au for questions only and says applications will not be accepted by email, so no email was drafted; route is CPP's application page via SEEK. Dedupe: tracker.py check new; not in /workspace/job-finds; Gmail in:anywhere for Consolidated Power, conpower and CPP: Marc applied for CPP Graduate Engineer Civil (SEEK receipt 18 Mar 2026) and Structural, both declined 21 and 28 Apr 2026 (outside the 90 day block, different role; added to prior_outreach.json). Nothing was sent or applied. Saved locally only (tracker full).\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your Trainee Drafter (Substations) advert on SEEK.\n• Have you done electrical or substation drafting? → No. My drafting is civil, from the Advanced Diploma in AutoCAD and Civil 3D; the advert says electrical experience is not essential.\n• You applied to us before? → Yes, for the Graduate Engineer Civil and Structural roles in March 2026; this time I am applying for the drafting pathway that matches my Advanced Diploma.\n• Would you move to Adelaide? → Marc to answer; the letter only says he is open to discussing relocation.\n• Do you use MicroStation? → Not yet; AutoCAD and Civil 3D from study.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "SEEK sweep on tick 20261021T0419Z (daterange 3, 1089 listings seen, 226 past the prefilter, 60 detailed). SEEK id 95398302, listed 21 Oct 2026 13:53 AEDT, closes 20 Nov 2026 (about 23:59 AEDT). Direct employer: Consolidated Power Projects Australia (CPP), part of Quanta Services. Contact: the advert names amoritz@conpower.com.au for questions only and says applications will not be accepted by email, so no email was drafted; route is CPP's application page via SEEK. Dedupe: tracker.py check new; not in /workspace/job-finds; Gmail in:anywhere for Consolidated Power, conpower and CPP: Marc applied for CPP Graduate Engineer Civil (SEEK receipt 18 Mar 2026) and Structural, both declined 21 and 28 Apr 2026 (outside the 90 day block, different role; added to prior_outreach.json). Nothing was sent or applied. Saved locally only (tracker full).",
+  "call_prep": [
+   "How did you find us? → Your Trainee Drafter (Substations) advert on SEEK.",
+   "Have you done electrical or substation drafting? → No. My drafting is civil, from the Advanced Diploma in AutoCAD and Civil 3D; the advert says electrical experience is not essential.",
+   "You applied to us before? → Yes, for the Graduate Engineer Civil and Structural roles in March 2026; this time I am applying for the drafting pathway that matches my Advanced Diploma.",
+   "Would you move to Adelaide? → Marc to answer; the letter only says he is open to discussing relocation.",
+   "Do you use MicroStation? → Not yet; AutoCAD and Civil 3D from study.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-21T04:40:00.000Z",
+  "seek_id": "95398302",
+  "duplicate_key": "consolidatedpowerprojectsaustraliaptyltd|seek:95398302",
+  "preparation_only": true,
+  "found_at": "2026-10-21T15:40+11:00 AEDT"
+ },
+ {
+  "id": "92a67f7a-3a4e-49f8-bff3-b7aca6533b24",
+  "key": "manual:92a67f7a-3a4e-49f8-bff3-b7aca6533b24",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261021T0419Z",
+  "created_at": "2026-10-21T04:40:00.000Z",
+  "updated_at": "2026-10-21T04:40:00.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_SMEC_Cadet_Drafter_Roads_Cover_Letter.pdf",
+    "sha256": "2bf66112fff8e8b42539b420296d05f80f93e5aa729b0915ff8196c34bb88031",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_SMEC_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "stored_in": "local:/workspace/job-finds"
+   }
+  ],
+  "company": "SMEC Australia",
+  "role": "Cadet Drafter, Roads & Highways",
+  "location": "Gold Coast QLD",
+  "job_url": "https://surbanajurong.wd3.myworkdayjobs.com/en-US/careersatsmec/job/Cadet-Drafter--Roads---Highways_JR119314",
+  "company_url": "https://www.smec.com/",
+  "status": "HELD_MANDATORY_UNRESOLVED",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_ADVERT_VERIFIED",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://surbanajurong.wd3.myworkdayjobs.com/en-US/careersatsmec/job/Cadet-Drafter--Roads---Highways_JR119314",
+  "contact_verified_at": "",
+  "contact_confidence": "none",
+  "subject": "Cadet Drafter, Roads and Highways, Gold Coast (JR119314), Marc Masarate",
+  "email_body": "",
+  "fit": [
+   "Cadet drafter in a Roads and Highways team: road and transport drawings, construction documentation, drawing checks and document control match Marc's Advanced Diploma road geometry, earthworks, pavement and drainage work in AutoCAD and Civil 3D.",
+   "Autodesk emphasis matches his software; checking drawings and keeping records match his 2019 to 2020 site work.",
+   "Direct employer (SMEC, a target employer); posted 19 Oct 2026, closes 31 Oct 2026."
+  ],
+  "gaps": [
+   "Not currently enrolled (Advanced Diploma completed February 2026)",
+   "No Queensland TMR road project experience",
+   "Drafting experience is from coursework, not a paid drafting job",
+   "Based in Melton VIC; role is part time on the Gold Coast QLD"
+  ],
+  "match_score": {
+   "percent": 70,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Cadet drafter in a Roads and Highways team: road and transport drawings, construction documentation, drawing checks and document control match Marc's Advanced Diploma road geometry, earthworks, pavement and drainage work in AutoCAD and Civil 3D.",
+    "Autodesk emphasis matches his software; checking drawings and keeping records match his 2019 to 2020 site work.",
+    "Direct employer (SMEC, a target employer); posted 19 Oct 2026, closes 31 Oct 2026."
+   ],
+   "caution": "Mandatory: 'Currently enrolled in an Advanced Diploma or Associate Degree'; Marc completed his in February 2026, so eligibility is unresolved (HELD). Part time role on the Gold Coast QLD; relocation for Marc to confirm. 'Full Australian working rights': 485 gives full work rights to December 2027."
+  },
+  "advert": {
+   "source": "employer_workday",
+   "listed_at": "2026-10-19",
+   "expires_at": "2026-10-31",
+   "verified_at": "2026-10-21T04:40:00.000Z",
+   "apply_instructions": "Workday Apply Now only; SMEC asks that resumes not be forwarded directly to SMEC employees or managers.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Marc to decide whether to apply although the advert asks for current enrolment (his Advanced Diploma is completed) and whether he accepts a part time role on the Gold Coast",
+   "Check Gmail again for any SMEC or Surbana Jurong receipt, then open the Workday link and confirm it is still open (closes 31 Oct 2026)",
+   "Apply through Workday Apply Now only (SMEC asks that resumes are not sent to employees) with the master resume and the saved cover letter PDF",
+   "Answer Workday questions from facts only; do not claim current enrolment or TMR road experience",
+   "Note the receipt date in /workspace/job-finds (tracker recording is paused)"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nEmployers rotation on tick 20261021T0419Z (Stantec, GHD, Aurecon, WSP, Arup, Jacobs, plus open web search for cadet civil drafter roles). Found on SMEC's (Surbana Jurong) Workday board, requisition JR119314, posted 19 Oct 2026, end date 31 Oct 2026, read from the Workday job JSON on 21 Oct 2026 (canApply true). Contact: SMEC asks for no direct resumes to staff, so route is Workday only and no email was drafted. Held because the advert requires current enrolment in an Advanced Diploma or Associate Degree and Marc's is completed. Dedupe: tracker.py check new; not in prior_outreach.json or /workspace/job-finds; Gmail in:anywhere for SMEC and Surbana Jurong: only LinkedIn job alerts, no application. Nothing was sent or applied. Saved locally only (tracker full).\n\nIF THEY CALL, LIKELY QUESTIONS\n• How did you find us? → Your Cadet Drafter, Roads and Highways advert on the SMEC careers site.\n• Are you currently studying? → No. I completed the Advanced Diploma of Civil Construction Design in February 2026.\n• Do you have TMR or Queensland road experience? → No; road geometry, pavement and drainage design to Australian Standards were Advanced Diploma coursework.\n• Part time and the Gold Coast suit you? → Marc to answer.\n• Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office.\n• What are your work rights? → Subclass 485 visa, full working rights until December 2027.\n• Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).\n• What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.\n• Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.\n• When could you start, and what salary? → Answer honestly; nothing was promised in the application.",
+  "how_found": "Employers rotation on tick 20261021T0419Z (Stantec, GHD, Aurecon, WSP, Arup, Jacobs, plus open web search for cadet civil drafter roles). Found on SMEC's (Surbana Jurong) Workday board, requisition JR119314, posted 19 Oct 2026, end date 31 Oct 2026, read from the Workday job JSON on 21 Oct 2026 (canApply true). Contact: SMEC asks for no direct resumes to staff, so route is Workday only and no email was drafted. Held because the advert requires current enrolment in an Advanced Diploma or Associate Degree and Marc's is completed. Dedupe: tracker.py check new; not in prior_outreach.json or /workspace/job-finds; Gmail in:anywhere for SMEC and Surbana Jurong: only LinkedIn job alerts, no application. Nothing was sent or applied. Saved locally only (tracker full).",
+  "call_prep": [
+   "How did you find us? → Your Cadet Drafter, Roads and Highways advert on the SMEC careers site.",
+   "Are you currently studying? → No. I completed the Advanced Diploma of Civil Construction Design in February 2026.",
+   "Do you have TMR or Queensland road experience? → No; road geometry, pavement and drainage design to Australian Standards were Advanced Diploma coursework.",
+   "Part time and the Gold Coast suit you? → Marc to answer.",
+   "Which software do you use? → AutoCAD 2D and 3D, Civil 3D, Revit (coursework), Microsoft Office.",
+   "What are your work rights? → Subclass 485 visa, full working rights until December 2027.",
+   "Tell me about your site experience. → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections, quality checks), then field engineer on subdivision finishing works (site reports, material records, procurement, coordinating with engineers and suppliers).",
+   "What did you study in Australia? → Advanced Diploma of Civil Construction Design, Albright Institute, February 2024 to February 2026: road geometry, earthworks, pavement and stormwater drainage, drawings in AutoCAD and Civil 3D to Australian Standards, Before You Dig Australia enquiries.",
+   "Do you have a licence, White Card, transport? → Yes to all three; also a Working with Children Check.",
+   "When could you start, and what salary? → Answer honestly; nothing was promised in the application."
+  ],
+  "checked_at": "2026-10-21T04:40:00.000Z",
+  "seek_id": null,
+  "duplicate_key": "smecaustralia|workday:JR119314",
+  "preparation_only": true,
+  "found_at": "2026-10-21T15:40+11:00 AEDT"
+ }
+]

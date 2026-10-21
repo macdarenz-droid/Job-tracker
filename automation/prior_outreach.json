@@ -1,6 +1,6 @@
 {
   "_about": "Applications Marc made himself, taken from SEEK receipt emails ('Your application was successfully submitted') in Gmail. tracker.py check blocks a new record for the same employer within repeat_block_days and notes older ones. Refresh each tick when Gmail is attached (search: from:noreply@s.seek.com.au subject:\"successfully submitted\" newer_than:100d); thread previews show only the oldest five messages per thread, so a Gmail search for the employer name before any send is still required. Also lists applications Marc emailed himself (Gmail Sent, 100 days), checked 29 Sep 2026.",
-  "updated_at": "2026-10-20T18:24:00Z",
+  "updated_at": "2026-10-21T04:42:00Z",
   "entries": [
     {
       "date": "2026-10-20",
@@ -988,6 +988,13 @@
       "role": "Graduate Project Engineer (SEEK); SEEK update 29 Apr 2026 said unlikely to progress (outside the 90-day window; noted so the re-advert 95369570 is not re-applied without Marc)",
       "source": "SEEK receipt (Gmail)",
       "gmail_message_id": "19dc5b3f30f4b4cf"
+    },
+    {
+      "date": "2026-03-18",
+      "company": "Consolidated Power Projects Australia Pty Ltd",
+      "role": "Graduate Engineer - Civil",
+      "gmail_message_id": "19cfe4c1b29e957b",
+      "note": "SEEK receipt; declined by jobs@conpower.com.au 28 Apr 2026 (Structural application also declined 21 Apr 2026). Added on tick 20261021T0419Z."
     }
   ]
 }

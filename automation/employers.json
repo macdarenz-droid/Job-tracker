@@ -2392,6 +2392,54 @@
         "Speculative targets checked in tracker: Breese Pitt Dixon (new, careers page invites EOIs to info@bpd.com.au, prepared), TGM Group (now Cardno/Stantec, Stantec blocked), UDE, Civilex, Bild, Ertech, Highway Construction, Abergeldie new but not researched"
       ],
       "notes": "browse.py failed: /opt/pw-browsers/chromium-1194 missing, so JavaScript council boards were read via WebSearch/WebFetch only."
+    },
+    {
+      "run_id": "20261021T0419Z",
+      "rotation": "employers",
+      "checked_at": "2026-10-21T04:40:00Z",
+      "checked": [
+        {
+          "name": "Cardno (Stantec)",
+          "url": "https://stantec.jobs/south-brisbane-aus/civil-cadet-drafter-qld/5DE22F1AFBA74D89A4090E5905093972/job/",
+          "result": "Civil Cadet Drafter QLD page now empty (removed); 2027 Graduate Water Brisbane citizen/PR only"
+        },
+        {
+          "name": "GHD",
+          "url": "https://au.gradconnection.com/employers/ghd/jobs/ghd-ghd-graduate-program-202627-civil-structural-draftersdesigners-melbourne/",
+          "result": "Graduate drafters program closed 5 Apr 2026; current civil designer roles 5 to 7+ years"
+        },
+        {
+          "name": "Aurecon",
+          "url": "https://aurecongroup.wd3.myworkdayjobs.com/en-US/aurecon/job/Drafter--Roads_R33475",
+          "result": "Drafter Roads is Manila, 5 years; no AU junior role found (uncle referral already on record)"
+        },
+        {
+          "name": "WSP Australia",
+          "url": "https://movetomore.com.au/job/e809d2c7-5737-46f3-be70-c44f7675ae27/",
+          "result": "Civil Drafter Sunshine Coast needs TMR Roads experience (essential); Brisbane drafter 4+ yrs and unrestricted rights; not kept"
+        },
+        {
+          "name": "Arup Australia",
+          "url": "https://jobs.arup.com/jobs/vacation-student-cad-technician-34323",
+          "result": "Vacation student CAD technician for current students only; not eligible"
+        },
+        {
+          "name": "Jacobs Australia",
+          "url": "https://careers.jacobs.com/en_US/careers/JobDetail/Cadet-Civil-Technical-Officer/32877",
+          "result": "Cadet Civil Technical Officer Cairns still on Early Careers board but close date 'Sunday 14th December' matches 2025 and page is bot-walled; aimed at Year 12 leavers; not verified open, no record"
+        },
+        {
+          "name": "SMEC Australia (open web)",
+          "url": "https://surbanajurong.wd3.myworkdayjobs.com/en-US/careersatsmec/job/Cadet-Drafter--Roads---Highways_JR119314",
+          "result": "Cadet Drafter Roads & Highways Gold Coast, posted 19 Oct, closes 31 Oct; saved as HELD_MANDATORY_UNRESOLVED (current enrolment)"
+        },
+        {
+          "name": "Northrop (open web)",
+          "url": "https://au.indeed.com/viewjob?jk=11c021ee2b561baa",
+          "result": "Cadet Civil Drafter Brisbane expired on Indeed"
+        }
+      ],
+      "notes": "curl/WebFetch/WebSearch only; browse.py not used."
     }
   ],
   "history": [
