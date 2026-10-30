@@ -1,0 +1,238 @@
+[
+ {
+  "id": "ac5596e2-129f-4320-a372-992a6962b229",
+  "key": "manual:ac5596e2-129f-4320-a372-992a6962b229",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261030T0811Z",
+  "created_at": "2026-10-30T08:16:49.000Z",
+  "updated_at": "2026-10-30T08:16:49.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_LC_Water_Junior_Civil_Draftsperson_Cover_Letter.pdf",
+    "sha256": "c99524b84ac9e962b3f444aa0b47eaecdde186fd2c9c46289a8b1a19c708bb99",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_LC_Water_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "stored_in": "local:/workspace/job-finds"
+   }
+  ],
+  "company": "LC Water",
+  "role": "Junior Civil Draftsperson",
+  "location": "Norlane, Geelong VIC",
+  "job_url": "https://www.seek.com.au/job/95506594",
+  "company_url": "https://www.lcwater.com.au/",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_SEEK",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "Hiring team (apply through SEEK)",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.lcwater.com.au/",
+  "contact_verified_at": "2026-10-30T08:16:49.000Z",
+  "contact_confidence": "none",
+  "subject": "Junior Civil Draftsperson application, Marc Masarate",
+  "email_body": "Hello LC Water team,\n\nI'm applying for the Junior Civil Draftsperson role in Geelong that I saw on SEEK.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, reviewing drawings and checking work against them. I'm based in Melton VIC with a White Card, a licence and my own transport, and I have full working rights to December 2027 on a 485 visa.\n\nYour advert says the role shows how drawings turn into real construction, and that is what I want from my first drafting job: site layouts, slabs, foundations and access roads updated from engineer mark-ups. My CAD work so far is from study rather than commercial drafting, and I haven't worked on water or wastewater projects yet, so I would start at junior level.\n\nI've attached my resume and cover letter. Could we arrange a time to talk?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Entry-level civil drafting role (site layouts, slabs, equipment foundations, access roads, GA drawings, drawing registers and revisions) that welcomes recent graduates and TAFE students, matching Marc's Advanced Diploma drafting in AutoCAD and Civil 3D.",
+   "Geelong (Norlane) is commutable from Melton; no citizenship or experience requirement in the advert, only basic AutoCAD and 3D modelling plus a drafting or civil qualification, both of which Marc has.",
+   "Direct employer (LC Water, water and wastewater treatment design and construct, about 22 staff); apply through SEEK, which carries three screening questions."
+  ],
+  "gaps": [
+   "Commercial drafting experience (study only)",
+   "No water or wastewater treatment project experience",
+   "No Australian work experience yet"
+  ],
+  "match_score": {
+   "percent": 78,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Entry-level civil drafting role (site layouts, slabs, equipment foundations, access roads, GA drawings, drawing registers and revisions) that welcomes recent graduates and TAFE students, matching Marc's Advanced Diploma drafting in AutoCAD and Civil 3D.",
+    "Geelong (Norlane) is commutable from Melton; no citizenship or experience requirement in the advert, only basic AutoCAD and 3D modelling plus a drafting or civil qualification, both of which Marc has.",
+    "Direct employer (LC Water, water and wastewater treatment design and construct, about 22 staff); apply through SEEK, which carries three screening questions."
+   ],
+   "caution": "CAD experience is academic, not commercial production drafting. No water or wastewater project experience. SEEK asks Marc to self-rate English; that answer is his. A published LC Water contact (darrenpickett@lcwater.com.au on LinkedIn) exists but is not named for applications, so no email draft is addressed to it."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-26T19:28:28.929Z",
+   "expires_at": "2026-11-26T12:59:59.999Z",
+   "verified_at": "2026-10-30T08:16:49.000Z",
+   "apply_instructions": "Apply on SEEK",
+   "screening_questions": [
+    "How would you rate your English language skills?",
+    "Which of the following CAD software do you have experience with?",
+    "Which of the following Microsoft Office products are you experienced with?"
+   ]
+  },
+  "screening_answers": [
+   {
+    "q": "How would you rate your English language skills?",
+    "a": "Marc to answer (not on record)"
+   },
+   {
+    "q": "Which of the following CAD software do you have experience with?",
+    "a": "AutoCAD, Civil 3D, Revit (academic)"
+   },
+   {
+    "q": "Which of the following Microsoft Office products are you experienced with?",
+    "a": "Microsoft Office (tick the products Marc confirms)"
+   }
+  ],
+  "checklist": [
+   "Check Gmail in:anywhere for LC Water or lcwater.com.au once more (none found on 30 Oct 2026)",
+   "Confirm the SEEK advert 95506594 is still open (expires 27 Nov 2026 AEDT)",
+   "Apply on SEEK with the attached resume and cover letter",
+   "Answer the three SEEK questions: English level is Marc's call; CAD AutoCAD, Civil 3D, Revit; Office products Marc uses",
+   "Record the apply date in /workspace/job-finds when done"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nSEEK default sweep (3 days, 1289 seen, 268 past the prefilter, 60 details) on tick 20261030T0811Z. Advert 95506594 listed 26 Oct 2026, expires 27 Nov 2026 AEDT. Company details from lcwater.com.au and LC Water's LinkedIn page; no application email is published, so the route is SEEK. Dedupe: not blocked by tracker.py check, not in /workspace/job-finds; Gmail in:anywhere search for the employer name and domain on 30 Oct 2026 found nothing, and no SEEK receipts in the last 10 days. Email body and cover letter drafted from facts.json only and passed checks.py tone and facts; cover letter rendered with compact_pdf.py (one page, read back). Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Why drafting at LC Water? → Your advert says the role shows how drawings turn into real construction; I want to draft site layouts, slabs and foundations and see them built.\n• What CAD have you used? → AutoCAD 2D/3D, Civil 3D and Revit, in my Advanced Diploma coursework, not in a commercial office.\n• Any water or wastewater experience? → No; my site work was a community hall renovation and subdivision finishing works in the Philippines.\n• Can you get to Norlane every day? → I'm in Melton with a licence and my own car.\n• Work rights? → Subclass 485, full working rights until December 2027.\n• Start date and salary? → Marc to answer; nothing on record.",
+  "how_found": "SEEK default sweep (3 days, 1289 seen, 268 past the prefilter, 60 details) on tick 20261030T0811Z. Advert 95506594 listed 26 Oct 2026, expires 27 Nov 2026 AEDT. Company details from lcwater.com.au and LC Water's LinkedIn page; no application email is published, so the route is SEEK. Dedupe: not blocked by tracker.py check, not in /workspace/job-finds; Gmail in:anywhere search for the employer name and domain on 30 Oct 2026 found nothing, and no SEEK receipts in the last 10 days. Email body and cover letter drafted from facts.json only and passed checks.py tone and facts; cover letter rendered with compact_pdf.py (one page, read back). Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Why drafting at LC Water? → Your advert says the role shows how drawings turn into real construction; I want to draft site layouts, slabs and foundations and see them built.",
+   "What CAD have you used? → AutoCAD 2D/3D, Civil 3D and Revit, in my Advanced Diploma coursework, not in a commercial office.",
+   "Any water or wastewater experience? → No; my site work was a community hall renovation and subdivision finishing works in the Philippines.",
+   "Can you get to Norlane every day? → I'm in Melton with a licence and my own car.",
+   "Work rights? → Subclass 485, full working rights until December 2027.",
+   "Start date and salary? → Marc to answer; nothing on record."
+  ],
+  "checked_at": "2026-10-30T08:16:49.000Z",
+  "seek_id": "95506594",
+  "duplicate_key": "lc|95506594",
+  "preparation_only": true,
+  "found_at": "2026-10-30T19:16+11:00 AEDT"
+ },
+ {
+  "id": "ffd37791-1534-40c1-9500-685bc3ccacd3",
+  "key": "manual:ffd37791-1534-40c1-9500-685bc3ccacd3",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261030T0811Z",
+  "created_at": "2026-10-30T08:16:49.000Z",
+  "updated_at": "2026-10-30T08:16:49.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_AGT_Junior_Civil_Engineer_Cover_Letter.pdf",
+    "sha256": "10883823294d2f207c2db6b4291a814483dcf085e774d6e5a466302db80ae52a",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_AGT_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "stored_in": "local:/workspace/job-finds"
+   }
+  ],
+  "company": "AGT Operations Pty Ltd (Australian Ground Technologies)",
+  "role": "Junior Civil Engineer",
+  "location": "Rouse Hill, Sydney NSW",
+  "job_url": "https://www.seek.com.au/job/95535388",
+  "company_url": "https://www.australiangroundtechnologies.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_SEEK",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "AGT admin inbox (named for CVs in AGT's own LinkedIn hiring post, 20 Oct 2026)",
+  "recipient_email": "admin@australiangroundtechnologies.com.au",
+  "contact_email": "admin@australiangroundtechnologies.com.au",
+  "contact_evidence_url": "https://www.linkedin.com/posts/australian-ground-technologies_junior-civil-engineer-retaining-walls-job-activity-7518106791159697408-zYLM",
+  "contact_verified_at": "2026-10-30T08:16:49.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Junior Civil Engineer (Retaining Walls) application, Marc Masarate",
+  "email_body": "Hello AGT team,\n\nI'm applying for the Junior Civil Engineer role in your Keystone Retaining Walls division, which I saw on SEEK and in your LinkedIn post.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD, and I hold a Bachelor of Science in Civil Engineering from the Philippines (2019). From 2019 to 2020 I worked on site there as a field engineer and project-in-charge, doing inspections, quality checks and drawing reviews. I have a White Card, a licence and my own transport, and full working rights to December 2027 on a 485 visa.\n\nYou want a graduate who will split time between design, estimates and site set-out, and that mix is exactly what I'm after. I'm based in Melton VIC and open to discussing relocation to Sydney. I haven't used PLAXIS or designed retaining walls yet, so I would start at junior level.\n\nI've attached my resume and cover letter. Could we arrange a time to talk?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Junior Civil Engineer for recent graduates or engineers with up to three years' experience, mixing retaining wall design, estimates, drawing review, site set-out, inspections and QA documentation, which suits Marc's BSCE, Advanced Diploma and Philippines site work.",
+   "Requirements are a civil engineering degree, driver's licence and White Card, all of which Marc has; PLAXIS and retaining wall experience are listed as helpful, not essential.",
+   "Direct employer (Australian Ground Technologies, Rouse Hill, about 10 staff); AGT's own LinkedIn post of 20 Oct 2026 invites CVs to admin@australiangroundtechnologies.com.au as well as the SEEK advert."
+  ],
+  "gaps": [
+   "Relocation to Sydney not confirmed",
+   "No PLAXIS or geotechnical modelling",
+   "No retaining wall design experience",
+   "No Australian work experience yet"
+  ],
+  "match_score": {
+   "percent": 66,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Junior Civil Engineer for recent graduates or engineers with up to three years' experience, mixing retaining wall design, estimates, drawing review, site set-out, inspections and QA documentation, which suits Marc's BSCE, Advanced Diploma and Philippines site work.",
+    "Requirements are a civil engineering degree, driver's licence and White Card, all of which Marc has; PLAXIS and retaining wall experience are listed as helpful, not essential.",
+    "Direct employer (Australian Ground Technologies, Rouse Hill, about 10 staff); AGT's own LinkedIn post of 20 Oct 2026 invites CVs to admin@australiangroundtechnologies.com.au as well as the SEEK advert."
+   ],
+   "caution": "Sydney (Rouse Hill) role while Marc is in Melton: relocation must be confirmed by Marc before applying. No PLAXIS, geotechnical or retaining wall design experience. Salary question on SEEK is Marc's to answer."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-28T00:18:45.018Z",
+   "expires_at": "2026-11-27T12:59:59.999Z",
+   "verified_at": "2026-10-30T08:16:49.000Z",
+   "apply_instructions": "Apply on SEEK or email CV to admin@australiangroundtechnologies.com.au (AGT LinkedIn post)",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a civil engineer?",
+    "Do you have a current Australian driver's licence?",
+    "Have you completed a qualification in engineering?"
+   ]
+  },
+  "screening_answers": [
+   {
+    "q": "Right to work",
+    "a": "Temporary visa with full work rights (Subclass 485, until December 2027)"
+   },
+   {
+    "q": "Expected annual base salary",
+    "a": "Marc to answer (salary range is in the advert)"
+   },
+   {
+    "q": "Years as a civil engineer",
+    "a": "Less than 1 to 1 year (site work Apr 2019 to Feb 2020, Philippines)"
+   },
+   {
+    "q": "Current Australian driver's licence",
+    "a": "Yes"
+   },
+   {
+    "q": "Completed a qualification in engineering",
+    "a": "Yes (BSCE 2019; Advanced Diploma of Civil Construction Design Feb 2026)"
+   }
+  ],
+  "checklist": [
+   "Check Gmail in:anywhere for AGT or australiangroundtechnologies.com.au once more (none found on 30 Oct 2026)",
+   "Marc to confirm he is willing to relocate to Sydney (Rouse Hill) before applying",
+   "Apply on SEEK 95535388 (closes 28 Nov 2026 AEDT), or email the draft to admin@australiangroundtechnologies.com.au as AGT's post invites; not both on the same day",
+   "Answer the SEEK questions; salary is Marc's call",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nSEEK default sweep (3 days, 1289 seen, 268 past the prefilter, 60 details) on tick 20261030T0811Z. Advert 95535388 listed 28 Oct 2026, expires 28 Nov 2026 AEDT, $70k to $85k plus bonuses. Contact: AGT's own LinkedIn hiring post (20 Oct 2026) says to apply via the link or send a CV to admin@australiangroundtechnologies.com.au; company site lists info@ for general enquiries. Dedupe: not blocked by tracker.py check, not in /workspace/job-finds; Gmail in:anywhere search for the employer name and domain on 30 Oct 2026 found nothing, and no SEEK receipts in the last 10 days. Email body and cover letter drafted from facts.json only and passed checks.py tone and facts; cover letter rendered with compact_pdf.py (one page, read back). Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Why AGT? → The mix of retaining wall design, estimates and site time for set-out and inspections.\n• Have you used PLAXIS? → No; I'd learn it with your team. My design tools are AutoCAD, Civil 3D and Revit from coursework.\n• Geotechnical background? → Coursework only, including AS 1726 and AS 1289; no retaining wall design on a job.\n• Are you moving to Sydney? → Marc to answer; applications only say open to discussing relocation.\n• Site experience? → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections) and field engineer on subdivision finishing works.\n• Work rights? → Subclass 485, full working rights until December 2027.\n• Salary and start date? → Marc to answer; nothing on record.",
+  "how_found": "SEEK default sweep (3 days, 1289 seen, 268 past the prefilter, 60 details) on tick 20261030T0811Z. Advert 95535388 listed 28 Oct 2026, expires 28 Nov 2026 AEDT, $70k to $85k plus bonuses. Contact: AGT's own LinkedIn hiring post (20 Oct 2026) says to apply via the link or send a CV to admin@australiangroundtechnologies.com.au; company site lists info@ for general enquiries. Dedupe: not blocked by tracker.py check, not in /workspace/job-finds; Gmail in:anywhere search for the employer name and domain on 30 Oct 2026 found nothing, and no SEEK receipts in the last 10 days. Email body and cover letter drafted from facts.json only and passed checks.py tone and facts; cover letter rendered with compact_pdf.py (one page, read back). Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Why AGT? → The mix of retaining wall design, estimates and site time for set-out and inspections.",
+   "Have you used PLAXIS? → No; I'd learn it with your team. My design tools are AutoCAD, Civil 3D and Revit from coursework.",
+   "Geotechnical background? → Coursework only, including AS 1726 and AS 1289; no retaining wall design on a job.",
+   "Are you moving to Sydney? → Marc to answer; applications only say open to discussing relocation.",
+   "Site experience? → About a year in the Philippines, 2019 to 2020: project-in-charge on a community hall renovation (10 to 15 workers a day, drawing reviews, inspections) and field engineer on subdivision finishing works.",
+   "Work rights? → Subclass 485, full working rights until December 2027.",
+   "Salary and start date? → Marc to answer; nothing on record."
+  ],
+  "checked_at": "2026-10-30T08:16:49.000Z",
+  "seek_id": "95535388",
+  "duplicate_key": "agt|95535388",
+  "preparation_only": true,
+  "found_at": "2026-10-30T19:16+11:00 AEDT"
+ }
+]
