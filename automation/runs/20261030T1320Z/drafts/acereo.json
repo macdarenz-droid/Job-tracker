@@ -1,0 +1,55 @@
+{
+ "seek_id": "95606153",
+ "company": "Ace Reo Pty Ltd",
+ "role": "Civil Engineering Assistant",
+ "location": "Dandenong South, Melbourne VIC",
+ "job_url": "https://www.seek.com.au/job/95606153",
+ "company_url": "",
+ "route": "SEEK",
+ "application_type": "ADVERTISED_VACANCY",
+ "vacancy_status": "OPEN_SEEK",
+ "recipient_name": "",
+ "recipient_role": "Hiring team (apply through SEEK)",
+ "recipient_email": "",
+ "contact_evidence_url": "https://www.seek.com.au/job/95606153",
+ "subject": "Civil Engineering Assistant application, Marc Masarate",
+ "email_body": "Hello Ace Reo team,\n\nI'm applying for the Civil Engineering Assistant role in Dandenong South that I saw on SEEK.\n\nI hold a Bachelor of Science in Civil Engineering from the Philippines (2019), and in February 2026 I finished an Advanced Diploma of Civil Construction Design, where I prepared quantities, bills of quantities and cost estimates and reviewed drawings in AutoCAD and Civil 3D. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, checking work against drawings, tracking materials and writing progress reports.\n\nYour role covers take-offs, checking reinforcement against drawings and keeping QA records, which is the work I want to grow in. I'm based in Melton VIC with a licence and my own transport, and I have full working rights to December 2027 on a 485 visa. I have about a year of site experience rather than the two to three years you list, so I would start at junior level.\n\nI've attached my resume and cover letter. Could we arrange a time to talk?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+ "letter": {
+  "recipient_name": "",
+  "recipient_role": "Hiring Team",
+  "company": "Ace Reo Pty Ltd",
+  "company_line": "Ace Reo processes and fabricates reinforcing steel for projects across Melbourne, Victoria and interstate from its Dandenong South head office.",
+  "subject": "Civil Engineering Assistant, Dandenong South",
+  "greeting": "Dear Ace Reo Hiring Team,",
+  "paragraphs": [
+   "I am applying for the Civil Engineering Assistant role at your Dandenong South head office, advertised on SEEK. Material take-offs, checking fabricated reinforcement against engineering drawings and keeping QA records is the kind of work I want to build my career on.",
+   "I hold a Bachelor of Science in Civil Engineering from Divine Word College of Legazpi in the Philippines (2014 to 2019), and in February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute in Australia. There I prepared cost estimates and bills of quantities and prepared and reviewed technical drawings in AutoCAD and Civil 3D to Australian Standards.",
+   "From 2019 to 2020 I worked on site in the Philippines. As project-in-charge on a community hall renovation I coordinated 10 to 15 workers a day, reviewed drawings and carried out inspections and quality checks. As a field engineer on subdivision finishing works I tracked materials and wrote site and progress reports.",
+   "I am based in Melton VIC with an Australian driver's licence and my own transport, and I have full working rights to December 2027 on a Subclass 485 visa. I have about a year of site experience rather than the two to three years in your advert, so I would start at junior level and learn your production systems quickly.",
+   "I have attached my resume and would welcome the chance to talk about the role."
+  ],
+  "closing": "Kind regards,"
+ },
+ "screening_answers": [
+  {
+   "q": "Which of the following statements best describes your right to work in Australia?",
+   "a": "Temporary visa with full work rights (Subclass 485, until December 2027)"
+  },
+  {
+   "q": "How many years' experience do you have as an Assistant Civil Engineer?",
+   "a": "Less than 1 to 1 year (site work Apr 2019 to Feb 2020, Philippines)"
+  },
+  {
+   "q": "Have you completed a qualification in engineering?",
+   "a": "Yes (BSCE 2019; Advanced Diploma of Civil Construction Design Feb 2026)"
+  }
+ ],
+ "checklist": [
+  "Check Gmail in:anywhere for Ace Reo once more (none found on 31 Oct 2026)",
+  "Confirm SEEK advert 95606153 is still open (expires 29 Nov 2026 AEDT)",
+  "Apply on SEEK with the attached resume and cover letter",
+  "Answer the three SEEK questions as listed",
+  "Record the apply date in /workspace/job-finds"
+ ],
+ "notes": ""
+}

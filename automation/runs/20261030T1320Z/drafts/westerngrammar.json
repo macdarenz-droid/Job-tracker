@@ -1,0 +1,63 @@
+{
+ "seek_id": "95576041",
+ "company": "Western Grammar School",
+ "role": "Civil Engineering Draftsperson",
+ "location": "Plumpton, Sydney NSW",
+ "job_url": "https://www.seek.com.au/job/95576041",
+ "company_url": "",
+ "route": "SEEK",
+ "application_type": "ADVERTISED_VACANCY",
+ "vacancy_status": "OPEN_SEEK",
+ "recipient_name": "",
+ "recipient_role": "Hiring team (apply through SEEK)",
+ "recipient_email": "",
+ "contact_evidence_url": "https://www.seek.com.au/job/95576041",
+ "subject": "Civil Engineering Draftsperson application, Marc Masarate",
+ "email_body": "Hello Western Grammar School team,\n\nI'm applying for the Civil Engineering Draftsperson role that I saw on SEEK.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD, and I hold a Bachelor of Science in Civil Engineering from the Philippines (2019). From 2019 to 2020 I worked on site there as a field engineer and project-in-charge, reviewing drawings, checking work against them and keeping site and progress records.\n\nYour role mixes drafting with coordinating contractors, consultants and council on the school's building program, and that mix of office and site is what I want. I'm based in Melton VIC and open to discussing relocation to Sydney. My CAD work so far is from study rather than commercial drafting, so I would start at junior level. I have full working rights to December 2027 on a 485 visa.\n\nI've attached my resume and cover letter. Could we arrange a time to talk?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+ "letter": {
+  "recipient_name": "",
+  "recipient_role": "Hiring Team",
+  "company": "Western Grammar School",
+  "company_line": "Western Grammar School in Plumpton has steadily expanded its campus, with new classrooms, underground parking, a multipurpose hall and land for future growth.",
+  "subject": "Civil Engineering Draftsperson",
+  "greeting": "Dear Western Grammar School Hiring Team,",
+  "paragraphs": [
+   "I am applying for the Civil Engineering Draftsperson role advertised on SEEK. The role combines preparing and revising drawings with coordinating contractors, consultants and council, and that is the start I want in civil drafting.",
+   "In February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute in Australia. I designed and documented road geometry, earthworks, pavement and stormwater drainage, prepared quantities and cost estimates, and prepared and reviewed technical drawings in AutoCAD and Civil 3D to Australian Standards. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019).",
+   "From 2019 to 2020 I worked on site in the Philippines. As project-in-charge on a community hall renovation I reviewed structural and architectural drawings, coordinated 10 to 15 workers a day and checked work against the drawings. As a field engineer on subdivision finishing works I kept site reports, material records and progress reports.",
+   "I have full working rights to December 2027 on a Subclass 485 visa, an Australian driver's licence and a White Card. I am based in Melton VIC and open to discussing relocation to Sydney. My CAD experience is from study rather than commercial drafting, so I would start at junior level and learn your project standards quickly.",
+   "I have attached my resume and would welcome the chance to talk about the role."
+  ],
+  "closing": "Kind regards,"
+ },
+ "screening_answers": [
+  {
+   "q": "Which of the following statements best describes your right to work in Australia?",
+   "a": "Temporary visa with full work rights (Subclass 485, until December 2027)"
+  },
+  {
+   "q": "How many years' experience do you have as a civil drafter?",
+   "a": "None commercially (Advanced Diploma drafting coursework, completed Feb 2026)"
+  },
+  {
+   "q": "How much notice are you required to give your current employer?",
+   "a": "Marc to answer (not on record)"
+  },
+  {
+   "q": "Do you have Engineering Drawing Interpretation experience?",
+   "a": "Yes (drawing reviews on site, Philippines 2019 to 2020, plus coursework)"
+  },
+  {
+   "q": "How many years' experience do you have as a Civil Design Draftsperson?",
+   "a": "None commercially (study only)"
+  }
+ ],
+ "checklist": [
+  "Check Gmail in:anywhere for Western Grammar once more (none found on 31 Oct 2026)",
+  "Marc to confirm he is willing to relocate to Sydney (Plumpton) before applying",
+  "Confirm SEEK advert 95576041 is still open (expires 28 Nov 2026 AEDT)",
+  "Apply on SEEK with the attached resume and cover letter; notice period is Marc's call",
+  "Record the apply date in /workspace/job-finds"
+ ],
+ "notes": ""
+}
