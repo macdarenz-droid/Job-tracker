@@ -1,0 +1,40 @@
+{
+ "candidates": [
+  {
+   "id": "bouygues-terraverde-grad",
+   "seek_id": "",
+   "company": "Bouygues Construction",
+   "title": "Graduate Civil Engineer - Rail & Infrastructure Project",
+   "url": "https://au.thebigjobsite.com/details/40B4EF0EB8AF49CE023AC2A8D28AB6F5/graduate-civil-engineer---rail---infrastructure-project",
+   "duplicate": {
+    "blocked": true,
+    "reason": "recent outreach to the same employer (Graduate Engineer · READY_JEREMIE_EMPLOYER_PORTAL · 2026-10-15)",
+    "notes": []
+   }
+  },
+  {
+   "id": "95532229",
+   "seek_id": "95532229",
+   "company": "Etheredge Mintern Pty Ltd",
+   "title": "Project Coordinator - Civil Construction",
+   "url": "https://www.seek.com.au/job/95532229",
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
+  },
+  {
+   "id": "acciona-se",
+   "seek_id": "",
+   "company": "ACCIONA",
+   "title": "Site Engineer",
+   "url": "https://ecoroles.com/jobs/site-engineer-at-acciona-8ea4",
+   "duplicate": {
+    "blocked": true,
+    "reason": "same company and role already in the tracker",
+    "notes": []
+   }
+  }
+ ]
+}
