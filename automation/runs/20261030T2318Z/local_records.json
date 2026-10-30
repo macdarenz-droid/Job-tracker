@@ -1,0 +1,204 @@
+[
+ {
+  "id": "676aadc0-aa9a-4280-86cb-1c16fbeace19",
+  "key": "manual:676aadc0-aa9a-4280-86cb-1c16fbeace19",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261030T2318Z",
+  "created_at": "2026-10-30T23:25:30.000Z",
+  "updated_at": "2026-10-30T23:25:30.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Central_Vic_Civil_Junior_Project_Manager_Cover_Letter.pdf",
+    "sha256": "cd9df9ba1f9372b087cec241d65e206db624b6c19f3f3f1cc42149b5f43ff4b3",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Central_Vic_Civil_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "stored_in": "local:/workspace/job-finds"
+   }
+  ],
+  "company": "Central Vic Civil Pty Ltd",
+  "role": "Junior Project Manager",
+  "location": "Ballarat VIC",
+  "job_url": "https://www.seek.com.au/job/95372255",
+  "company_url": "",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_SEEK",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "Hiring team (apply through SEEK)",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95372255",
+  "contact_verified_at": "2026-10-30T23:25:30.000Z",
+  "contact_confidence": "none",
+  "subject": "Junior Project Manager application, Marc Masarate",
+  "email_body": "Hello Central Vic Civil team,\n\nI'm applying for the Junior Project Manager role in Ballarat that I saw on SEEK.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD, plus cost estimates and bills of quantities. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019). From 2019 to 2020 I worked on site there as a field engineer and project-in-charge, coordinating 10 to 15 workers a day, tracking procurement and materials and writing progress reports.\n\nYour advert asks for a recent civil graduate who can help with programming, cost tracking, documentation and subcontractor coordination on water, roadworks and land development jobs, which is the work I want to grow into. I'm based in Melton VIC with a licence, my own transport and a White Card, and I have full working rights to December 2027 on a 485 visa. I don't have Australian civil construction experience yet, so I would start at junior level.\n\nI've attached my resume and cover letter. Could we arrange a time to talk?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Junior Project Manager at a regional Victorian civil contractor (water and sewer, roadworks, land development) aimed explicitly at a recent civil engineering graduate: planning support, cost and progress tracking, documentation, estimating and subcontractor and supplier coordination.",
+   "Matches Marc's Philippines site coordination (10 to 15 workers, procurement and materials tracking, site and progress reports) and his Advanced Diploma cost estimates, bills of quantities, road, earthworks and drainage design; requires a civil degree (BSCE 2019), licence and White Card, all held.",
+   "Direct employer; apply through SEEK with two screening questions (work rights, expected salary)."
+  ],
+  "gaps": [
+   "No Australian civil construction experience",
+   "No project management title held before",
+   "Variations and contract administration not on record"
+  ],
+  "match_score": {
+   "percent": 68,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Junior Project Manager at a regional Victorian civil contractor (water and sewer, roadworks, land development) aimed explicitly at a recent civil engineering graduate: planning support, cost and progress tracking, documentation, estimating and subcontractor and supplier coordination.",
+    "Matches Marc's Philippines site coordination (10 to 15 workers, procurement and materials tracking, site and progress reports) and his Advanced Diploma cost estimates, bills of quantities, road, earthworks and drainage design; requires a civil degree (BSCE 2019), licence and White Card, all held.",
+    "Direct employer; apply through SEEK with two screening questions (work rights, expected salary)."
+   ],
+   "caution": "Title says Project Manager but the advert targets recent graduates; civil construction industry experience is highly regarded and Marc has none in Australia. Ballarat is a daily drive from Melton (Western Freeway); Marc to confirm. Salary band $70,000 to $100,000; Marc to pick his expected figure. Listing first seen on 20 Oct but never screened because older ticks filtered the word manager."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-20T03:35:31.895Z",
+   "expires_at": "2026-11-19T12:59:59.999Z",
+   "verified_at": "2026-10-30T23:25:30.000Z",
+   "apply_instructions": "Apply on SEEK",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?"
+   ]
+  },
+  "screening_answers": [
+   {
+    "q": "Which of the following statements best describes your right to work in Australia?",
+    "a": "Temporary visa with full work rights (Subclass 485, until December 2027)"
+   },
+   {
+    "q": "What's your expected annual base salary?",
+    "a": "Marc to choose (advert band $70,000 to $100,000)"
+   }
+  ],
+  "checklist": [
+   "Check Gmail in:anywhere for Central Vic Civil once more (none found on 31 Oct 2026)",
+   "Confirm SEEK advert 95372255 is still open (expires 19 Nov 2026 AEDT)",
+   "Confirm the daily drive from Melton to Ballarat is workable",
+   "Apply on SEEK with the attached resume and cover letter; answer the two questions as listed",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nOpen web sweep on tick 20261030T2318Z (Jobstralia listing, posted 22 Oct) led to SEEK advert 95372255, listed 20 Oct 2026, expires 19 Nov 2026 AEDT, full time, $70,000 to $100,000. Earlier SEEK sweeps had dropped it on the title filter (manager), so it was never screened. No application email or named contact in the advert, so the route is SEEK. Dedupe: not blocked by tracker.py check, not in /workspace/job-finds; Gmail in:anywhere search for the employer name and domain on 31 Oct 2026 found nothing, and no SEEK receipts in the last 14 days (Downer also searched for Fowlers: no application receipts). Email body and cover letter drafted from facts.json only and passed checks.py tone and facts; cover letter rendered with compact_pdf.py (one page, read back). Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Why Central Vic Civil? → Your mix of water, roadworks and land development for councils and developers is the civil work I want to learn to plan and deliver.\n• Have you managed or coordinated a project? → Project-in-charge on a community hall renovation in the Philippines: 10 to 15 workers a day, priorities, progress and client updates.\n• Cost and estimating experience? → Cost estimates, bills of quantities and risk registers in my Advanced Diploma; procurement and materials tracking on site.\n• Can you get to Ballarat daily? → I'm in Melton with a licence and my own car; Marc to confirm.\n• Work rights? → Subclass 485, full working rights until December 2027.\n• Start date and salary? → Marc to answer; nothing on record.",
+  "how_found": "Open web sweep on tick 20261030T2318Z (Jobstralia listing, posted 22 Oct) led to SEEK advert 95372255, listed 20 Oct 2026, expires 19 Nov 2026 AEDT, full time, $70,000 to $100,000. Earlier SEEK sweeps had dropped it on the title filter (manager), so it was never screened. No application email or named contact in the advert, so the route is SEEK. Dedupe: not blocked by tracker.py check, not in /workspace/job-finds; Gmail in:anywhere search for the employer name and domain on 31 Oct 2026 found nothing, and no SEEK receipts in the last 14 days (Downer also searched for Fowlers: no application receipts). Email body and cover letter drafted from facts.json only and passed checks.py tone and facts; cover letter rendered with compact_pdf.py (one page, read back). Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Why Central Vic Civil? → Your mix of water, roadworks and land development for councils and developers is the civil work I want to learn to plan and deliver.",
+   "Have you managed or coordinated a project? → Project-in-charge on a community hall renovation in the Philippines: 10 to 15 workers a day, priorities, progress and client updates.",
+   "Cost and estimating experience? → Cost estimates, bills of quantities and risk registers in my Advanced Diploma; procurement and materials tracking on site.",
+   "Can you get to Ballarat daily? → I'm in Melton with a licence and my own car; Marc to confirm.",
+   "Work rights? → Subclass 485, full working rights until December 2027.",
+   "Start date and salary? → Marc to answer; nothing on record."
+  ],
+  "checked_at": "2026-10-30T23:25:30.000Z",
+  "seek_id": "95372255",
+  "duplicate_key": "central|95372255",
+  "preparation_only": true,
+  "found_at": "2026-10-31T10:25+11:00 AEDT"
+ },
+ {
+  "id": "4f2102ec-eb2d-4a6f-9d2f-bf09e31ee1cf",
+  "key": "manual:4f2102ec-eb2d-4a6f-9d2f-bf09e31ee1cf",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261030T2318Z",
+  "created_at": "2026-10-30T23:25:30.000Z",
+  "updated_at": "2026-10-30T23:25:30.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Fowlers_Asphalting_Project_Engineer_Cover_Letter.pdf",
+    "sha256": "57499ba08ebeadc09c4542230aaafe07386defdcf6c19f1e92ccc393152467ff",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Fowlers_Asphalting_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "stored_in": "local:/workspace/job-finds"
+   }
+  ],
+  "company": "Fowlers Asphalting Pty Ltd",
+  "role": "Project Engineer, Civil",
+  "location": "Trafalgar, West Gippsland VIC",
+  "job_url": "https://www.seek.com.au/job/95573011",
+  "company_url": "",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_SEEK",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Application inbox named in the advert (or Apply on SEEK)",
+  "recipient_email": "admin@fowlersasphalting.com.au",
+  "contact_email": "admin@fowlersasphalting.com.au",
+  "contact_evidence_url": "https://www.seek.com.au/job/95573011",
+  "contact_verified_at": "2026-10-30T23:25:30.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Project Engineer, Civil (Trafalgar) application, Marc Masarate",
+  "email_body": "Hello Fowlers Asphalting team,\n\nI'm applying for the Project Engineer, Civil role at your Trafalgar depot that I saw on SEEK.\n\nFrom 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge. I tracked procurement and materials, kept material records, wrote site and progress reports and worked with engineers, subcontractors and suppliers to keep work moving. In February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD, plus cost estimates and bills of quantities. I also hold a Bachelor of Science in Civil Engineering (2019).\n\nYour advert lists material and lot traceability, quantity tracking, procurement and quality records on council and government civil jobs across Gippsland, which matches the site work I want to do. I'm based in Melton VIC and open to discussing relocation to Gippsland. I hold an Australian driver's licence and a White Card, and full working rights to December 2027 on a 485 visa. I haven't worked in Australian pavement construction yet, so I would start at junior level.\n\nI've attached my resume and cover letter. Could we arrange a time to talk?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Project Engineer, Civil at the Fowlers Asphalting (Downer EDI Works) Trafalgar depot: material and work lot traceability, procurement and subcontractor management, QA records, quantity tracking and reporting, programs, tenders and estimates, drawing review.",
+   "Matches Marc's field engineer work (procurement and materials tracking, material records, site and progress reports, subcontractor and supplier coordination) and his Advanced Diploma pavement, road and earthworks design plus cost estimates and bills of quantities.",
+   "Mandatory items held: tertiary civil qualification (BSCE 2019), driver licence, White Card. Advert publishes an application inbox (admin@fowlersasphalting.com.au) as well as SEEK Apply."
+  ],
+  "gaps": [
+   "No Australian pavement or asphalt construction experience",
+   "MS Project, Bluebeam, MicroStation or TBC not on record",
+   "Relocation to Gippsland not confirmed"
+  ],
+  "match_score": {
+   "percent": 62,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Project Engineer, Civil at the Fowlers Asphalting (Downer EDI Works) Trafalgar depot: material and work lot traceability, procurement and subcontractor management, QA records, quantity tracking and reporting, programs, tenders and estimates, drawing review.",
+    "Matches Marc's field engineer work (procurement and materials tracking, material records, site and progress reports, subcontractor and supplier coordination) and his Advanced Diploma pavement, road and earthworks design plus cost estimates and bills of quantities.",
+    "Mandatory items held: tertiary civil qualification (BSCE 2019), driver licence, White Card. Advert publishes an application inbox (admin@fowlersasphalting.com.au) as well as SEEK Apply."
+   ],
+   "caution": "Not a graduate title; the advert wants a sound understanding of civil and pavement construction practice, and Marc's is from study and Philippines site work. Trafalgar is about two hours from Melton, so relocation or a long commute must be confirmed by Marc. Advert says Current Victorian Driver Licence: memory says Marc's licence is Victorian, facts.json only says Australian; confirm. Fowlers is part of Downer EDI Works; the tracker holds an unapplied Downer Site Engineer lead (READY, 7 Oct), no Downer application receipts found in Gmail."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-29T04:19:57.144Z",
+   "expires_at": "2026-11-28T12:59:59.999Z",
+   "verified_at": "2026-10-30T23:25:30.000Z",
+   "apply_instructions": "Apply Now on SEEK or email resume and cover letter to admin@fowlersasphalting.com.au",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Check Gmail in:anywhere for Fowlers Asphalting and Downer once more (none found on 31 Oct 2026)",
+   "Marc to confirm he is willing to relocate to, or commute to, Trafalgar before applying",
+   "Confirm SEEK advert 95573011 is still open (expires 28 Nov 2026 AEDT)",
+   "Send the email to admin@fowlersasphalting.com.au with the resume and cover letter attached, or Apply Now on SEEK (not both)",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nSEEK 14 day widened sweep on tick 20261030T2318Z (1735 seen, 430 past the prefilter, 80 details). Advert 95573011 listed 29 Oct 2026, expires 28 Nov 2026 AEDT. The advert itself says to apply on SEEK or email a resume and cover letter to admin@fowlersasphalting.com.au, so that published inbox is the email route. Dedupe: not blocked by tracker.py check, not in /workspace/job-finds; Gmail in:anywhere search for the employer name and domain on 31 Oct 2026 found nothing, and no SEEK receipts in the last 14 days (Downer also searched for Fowlers: no application receipts). Email body and cover letter drafted from facts.json only and passed checks.py tone and facts; cover letter rendered with compact_pdf.py (one page, read back). Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Why Fowlers? → Your Gippsland council and government civil jobs, and the traceability and quantity tracking side of a project engineer role, are the site work I want to learn.\n• Have you handled procurement and materials? → Yes, as a field engineer in the Philippines: procurement tracking, material records and site and progress reports.\n• Pavement knowledge? → Pavement and road design in my Advanced Diploma; no Australian asphalt or pavement construction yet.\n• Would you move to Gippsland? → Marc to answer; applications only say open to discussing relocation.\n• Work rights? → Subclass 485, full working rights until December 2027.\n• Start date and salary? → Marc to answer; nothing on record.",
+  "how_found": "SEEK 14 day widened sweep on tick 20261030T2318Z (1735 seen, 430 past the prefilter, 80 details). Advert 95573011 listed 29 Oct 2026, expires 28 Nov 2026 AEDT. The advert itself says to apply on SEEK or email a resume and cover letter to admin@fowlersasphalting.com.au, so that published inbox is the email route. Dedupe: not blocked by tracker.py check, not in /workspace/job-finds; Gmail in:anywhere search for the employer name and domain on 31 Oct 2026 found nothing, and no SEEK receipts in the last 14 days (Downer also searched for Fowlers: no application receipts). Email body and cover letter drafted from facts.json only and passed checks.py tone and facts; cover letter rendered with compact_pdf.py (one page, read back). Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Why Fowlers? → Your Gippsland council and government civil jobs, and the traceability and quantity tracking side of a project engineer role, are the site work I want to learn.",
+   "Have you handled procurement and materials? → Yes, as a field engineer in the Philippines: procurement tracking, material records and site and progress reports.",
+   "Pavement knowledge? → Pavement and road design in my Advanced Diploma; no Australian asphalt or pavement construction yet.",
+   "Would you move to Gippsland? → Marc to answer; applications only say open to discussing relocation.",
+   "Work rights? → Subclass 485, full working rights until December 2027.",
+   "Start date and salary? → Marc to answer; nothing on record."
+  ],
+  "checked_at": "2026-10-30T23:25:30.000Z",
+  "seek_id": "95573011",
+  "duplicate_key": "fowlers|95573011",
+  "preparation_only": true,
+  "found_at": "2026-10-31T10:25+11:00 AEDT"
+ }
+]
