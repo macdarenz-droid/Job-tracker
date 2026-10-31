@@ -1,0 +1,71 @@
+{
+ "seek_id": "95510637",
+ "company": "LGC Traffic Management",
+ "role": "Civil Engineering Technician",
+ "location": "Midvale, Perth WA",
+ "job_url": "https://www.seek.com.au/job/95510637",
+ "company_url": "",
+ "route": "SEEK",
+ "application_type": "ADVERTISED_VACANCY",
+ "vacancy_status": "OPEN_SEEK",
+ "recipient_name": "",
+ "recipient_role": "Hiring team (apply through SEEK)",
+ "recipient_email": "",
+ "contact_evidence_url": "https://www.seek.com.au/job/95510637",
+ "subject": "Civil Engineering Technician application, Marc Masarate",
+ "email_body": "Hello LGC Traffic Management team,\n\nI'm applying for the Civil Engineering Technician role in Midvale that I saw on SEEK.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road geometry, earthworks, pavement and stormwater design in AutoCAD and Civil 3D, and coursework on Austroads guides and AS 1742.14. I also hold a Bachelor of Science in Civil Engineering (2019). From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, doing site inspections, safety checks and quality monitoring and keeping site records.\n\nYour advert asks for a civil diploma and AutoCAD to prepare traffic guidance schemes and support site inspections, permits and project records, which fits where I want to start. I'm based in Melton VIC and open to discussing relocation to Perth. I hold an Australian driver's licence, a White Card and full working rights to December 2027 on a 485 visa. I haven't worked in traffic management or used GIS or Main Roads WA standards on a job yet, so I would start at junior level.\n\nI've attached my resume and cover letter. Could we arrange a time to talk?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+ "letter": {
+  "recipient_name": "",
+  "recipient_role": "Hiring Team",
+  "company": "LGC Traffic Management",
+  "company_line": "LGC Traffic Management is a growing Midvale business planning and delivering temporary traffic management and civil engineering support across Western Australia.",
+  "subject": "Civil Engineering Technician, Midvale",
+  "greeting": "Dear LGC Traffic Management Hiring Team,",
+  "paragraphs": [
+   "I am applying for the Civil Engineering Technician role in Midvale advertised on SEEK. Preparing traffic guidance schemes and supporting the planning, design and site side of temporary traffic management is a practical way to start my civil career in Australia.",
+   "In February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute in Australia. I prepared and reviewed technical drawings in AutoCAD and Civil 3D for road geometry, earthworks, pavement and stormwater drainage, applying Austroads guides and Australian Standards including AS 1742.14, and prepared cost estimates, bills of quantities and risk registers. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019).",
+   "From 2019 to 2020 I worked on site in the Philippines. I carried out site inspections, safety checks and quality monitoring, escalated issues that needed corrective action, and prepared site reports, material records and progress reports while coordinating with engineers, subcontractors and suppliers.",
+   "I hold an Australian driver's licence and a White Card, and I have full working rights to December 2027 on a Subclass 485 visa. I am based in Melton VIC and open to discussing relocation to Perth. I have not yet worked in traffic management or used GIS software or Main Roads WA standards on a job, so I would start at junior level and learn your systems quickly.",
+   "I have attached my resume and would welcome the chance to talk about the role."
+  ],
+  "closing": "Kind regards,"
+ },
+ "screening_answers": [
+  {
+   "q": "Which of the following statements best describes your right to work in Australia?",
+   "a": "Temporary visa with full work rights (Subclass 485, until December 2027)"
+  },
+  {
+   "q": "What's your expected annual base salary?",
+   "a": "Marc to choose (no salary shown in the advert)"
+  },
+  {
+   "q": "How many years' experience do you have as a Civil Engineering Technician?",
+   "a": "None as a technician in Australia (about 1 year of Philippines site work, 2019 to 2020)"
+  },
+  {
+   "q": "How much notice are you required to give your current employer?",
+   "a": "Marc to answer (nothing on record)"
+  },
+  {
+   "q": "Do you have Traffic Control experience?",
+   "a": "No"
+  },
+  {
+   "q": "Have you worked in a role which requires a sound understanding of AS/NZS 5369 Standards?",
+   "a": "No"
+  },
+  {
+   "q": "Which of the following High Risk Work licences do you have?",
+   "a": "None on record; Marc to confirm"
+  }
+ ],
+ "checklist": [
+  "Check Gmail in:anywhere for LGC Traffic Management once more (none found on 31 Oct 2026)",
+  "Marc to confirm he is willing to relocate to Perth WA and to obtain AWTM accreditation in WA",
+  "Confirm SEEK advert 95510637 is still open (expires 26 Nov 2026 AEDT)",
+  "Apply on SEEK with the attached resume and cover letter; answer the seven questions as listed",
+  "Record the apply date in /workspace/job-finds"
+ ],
+ "notes": ""
+}
