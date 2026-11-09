@@ -1,0 +1,220 @@
+[
+ {
+  "id": "644646f2-daec-4ce8-9498-0b92063d4223",
+  "key": "manual:644646f2-daec-4ce8-9498-0b92063d4223",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261109T2312Z",
+  "created_at": "2026-11-09T23:19:29.000Z",
+  "updated_at": "2026-11-09T23:19:29.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Yarra_City_Council_Civil_Works_Project_Officer_Cover_Letter.pdf",
+    "sha256": "c193e340a97d1eb38f83699f1616083a58ec2f70916349ad610be2941ca95449",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Yarra_City_Council_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "stored_in": "local:/workspace/job-finds"
+   }
+  ],
+  "company": "Yarra City Council",
+  "role": "Civil Works Project Officer",
+  "location": "Richmond, Melbourne VIC",
+  "job_url": "https://careers.pageuppeople.com/817/cw/en/job/496994/civil-works-project-officer",
+  "company_url": "https://www.yarracity.vic.gov.au",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_EMPLOYER_SITE",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "Justin Cochrane",
+  "recipient_role": "Team Leader Development and Civil Engineering (named in the advert for enquiries; apply through PageUp)",
+  "recipient_email": "Justin.cochrane@yarracity.vic.gov.au",
+  "contact_email": "Justin.cochrane@yarracity.vic.gov.au",
+  "contact_evidence_url": "https://careers.pageuppeople.com/817/cw/en/job/496994/civil-works-project-officer",
+  "contact_verified_at": "2026-11-09T23:19:29.000Z",
+  "contact_confidence": "published_direct",
+  "subject": "Civil Works Project Officer application, Marc Masarate",
+  "email_body": "Hello Justin,\n\nI'm applying for the Civil Works Project Officer role in your Development and Civil Engineering team, which I found on the Yarra City Council careers site. Your name is on the advert, so I wanted to reach you directly as well.\n\nFrom 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, doing site inspections and quality checks, coordinating 10 to 15 workers a day and writing progress reports. In February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD, and I hold a Bachelor of Science in Civil Engineering (2019).\n\nYour advert describes scoping and inspecting reinstatement works on Council roads and footpaths and guiding contractors to Council standards, which suits how I like to work. I'm based in Melton VIC with a licence and my own transport, a White Card and full working rights to December 2027 on a 485 visa. I haven't worked for a council yet, so I would bring site discipline and learn your Road Management Plan quickly.\n\nI've attached my resume and cover letter. Could we arrange a time to talk?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Band 5 Civil Works Project Officer (temporary full time to 16 Apr 2027, from $80,410 + super + RDO) in Yarra's Development and Civil Engineering team: scoping and inspecting reinstatement works on Council roads and footpaths, supervising contractors, QA and Road Management Plan inspections.",
+   "Matches Marc's site coordination target: Philippines site inspections, quality checks, crew and subcontractor coordination and reporting, plus Advanced Diploma road and pavement documentation and Before You Dig enquiries. No minimum years; experience is only 'highly desirable'. Melbourne, commutable from Melton.",
+   "Direct employer (council); apply on the Yarra PageUp portal. Named enquiry contact published in the advert."
+  ],
+  "gaps": [
+   "Position Description KSC not read (download blocked)",
+   "No Australian or local government experience",
+   "Road Management Plan and permit work not on record"
+  ],
+  "match_score": {
+   "percent": 68,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Band 5 Civil Works Project Officer (temporary full time to 16 Apr 2027, from $80,410 + super + RDO) in Yarra's Development and Civil Engineering team: scoping and inspecting reinstatement works on Council roads and footpaths, supervising contractors, QA and Road Management Plan inspections.",
+    "Matches Marc's site coordination target: Philippines site inspections, quality checks, crew and subcontractor coordination and reporting, plus Advanced Diploma road and pavement documentation and Before You Dig enquiries. No minimum years; experience is only 'highly desirable'. Melbourne, commutable from Melton.",
+    "Direct employer (council); apply on the Yarra PageUp portal. Named enquiry contact published in the advert."
+   ],
+   "caution": "Position Description with the Key Selection Criteria could not be downloaded (site bot protection), so any further essential criteria are unverified; read it before applying. Temporary role. No Australian or council experience."
+  },
+  "advert": {
+   "source": "yarra_pageup",
+   "listed_at": "2026-11-09",
+   "expires_at": "2026-11-22T23:55:00+11:00",
+   "verified_at": "2026-11-09T23:19:29.000Z",
+   "apply_instructions": "Apply online via PageUp with resume and a 1-page cover letter addressing the Key Selection Criteria in the Position Description",
+   "screening_questions": []
+  },
+  "screening_answers": [
+   {
+    "q": "PageUp application form questions",
+    "a": "Not visible before starting the form; answer from the resume and cover letter. Police check status, start date and salary are for Marc to answer."
+   }
+  ],
+  "checklist": [
+   "Check Gmail in:anywhere for Yarra City Council once more (none found on 10 Nov 2026)",
+   "Open the Position Description PDF on the advert (blocked to automated download) and read the Key Selection Criteria; adjust the cover letter if a criterion is not covered",
+   "Marc to confirm he can commute to Richmond for a temporary role until 16 April 2027",
+   "Apply on the Yarra PageUp portal with the resume and the one page cover letter before 11.55pm Sunday 22 Nov 2026",
+   "Record the apply date in /workspace/job-finds; only after applying, a short note to Justin Cochrane is allowed if Marc approves"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nSEEK 14 day sweep on tick 20261109T2312Z (1473 seen, 377 past the prefilter, 80 details; widened from 3 days because the previous tick ran five hours earlier) plus an open-web council sweep (WebSearch of council careers, PageUp, Jora, GradConnection). Found on the Yarra City Council careers site (PageUp job 496994), advertised 9 Nov 2026, closes 11.55pm 22 Nov 2026. The advert names Justin Cochrane, Team Leader Development and Civil Engineering, with his council email for enquiries; applications go through PageUp, so the email draft is kept only for after Marc applies and approves it. Dedupe: not blocked by tracker.py check, not in /workspace/job-finds; Gmail in:anywhere (includeSpamTrash) search for the employer on 10 Nov 2026 found no receipt or prior email. Email body and cover letter drafted from facts.json only and passed checks.py tone and facts; cover letter rendered with compact_pdf.py (one page, read back). Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Why council? → Site based inspection and contractor coordination work on public assets is where my site experience fits best.\n• Inspection experience? → Site inspections, safety and quality checks in the Philippines 2019 to 2020, escalating issues for corrective action.\n• Contractor coordination? → Coordinated 10 to 15 workers a day and worked with subcontractors and suppliers to sort out site issues.\n• Do you know the Road Management Plan? → Not yet on a job; Marc to prepare by reading Yarra's Road Management Plan.\n• Police check? → Marc to answer; willing to undergo pre-employment checks.\n• Work rights? → Subclass 485, full working rights until December 2027.\n• Start date and salary? → Marc to answer; nothing on record.",
+  "how_found": "SEEK 14 day sweep on tick 20261109T2312Z (1473 seen, 377 past the prefilter, 80 details; widened from 3 days because the previous tick ran five hours earlier) plus an open-web council sweep (WebSearch of council careers, PageUp, Jora, GradConnection). Found on the Yarra City Council careers site (PageUp job 496994), advertised 9 Nov 2026, closes 11.55pm 22 Nov 2026. The advert names Justin Cochrane, Team Leader Development and Civil Engineering, with his council email for enquiries; applications go through PageUp, so the email draft is kept only for after Marc applies and approves it. Dedupe: not blocked by tracker.py check, not in /workspace/job-finds; Gmail in:anywhere (includeSpamTrash) search for the employer on 10 Nov 2026 found no receipt or prior email. Email body and cover letter drafted from facts.json only and passed checks.py tone and facts; cover letter rendered with compact_pdf.py (one page, read back). Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Why council? → Site based inspection and contractor coordination work on public assets is where my site experience fits best.",
+   "Inspection experience? → Site inspections, safety and quality checks in the Philippines 2019 to 2020, escalating issues for corrective action.",
+   "Contractor coordination? → Coordinated 10 to 15 workers a day and worked with subcontractors and suppliers to sort out site issues.",
+   "Do you know the Road Management Plan? → Not yet on a job; Marc to prepare by reading Yarra's Road Management Plan.",
+   "Police check? → Marc to answer; willing to undergo pre-employment checks.",
+   "Work rights? → Subclass 485, full working rights until December 2027.",
+   "Start date and salary? → Marc to answer; nothing on record."
+  ],
+  "checked_at": "2026-11-09T23:19:29.000Z",
+  "seek_id": null,
+  "duplicate_key": "yarra|pageup-496994",
+  "preparation_only": true,
+  "found_at": "2026-11-10T10:19+11:00 AEDT"
+ },
+ {
+  "id": "19e3650d-9b57-43b6-9deb-7823f3914f2e",
+  "key": "manual:19e3650d-9b57-43b6-9deb-7823f3914f2e",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261109T2312Z",
+  "created_at": "2026-11-09T23:19:29.000Z",
+  "updated_at": "2026-11-09T23:19:29.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Proterra_Civil_Designer_Cover_Letter.pdf",
+    "sha256": "5e025f81bf6275b0ee124ce735a85c415c324c87421a3df88017307f0cdecb6d",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Proterra_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "stored_in": "local:/workspace/job-finds"
+   }
+  ],
+  "company": "PROTERRA Group",
+  "role": "Civil Designer",
+  "location": "Toowoomba, Toowoomba & Darling Downs QLD",
+  "job_url": "https://www.seek.com.au/job/95636735",
+  "company_url": "",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_SEEK",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "Hiring team (apply through SEEK)",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95636735",
+  "contact_verified_at": "2026-11-09T23:19:29.000Z",
+  "contact_confidence": "none",
+  "subject": "Civil Designer application, Marc Masarate",
+  "email_body": "Hello Proterra team,\n\nI'm applying for the Civil Designer role in Toowoomba that I saw on SEEK.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, where I designed and documented road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D to Australian Standards and Austroads guides. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019), and from 2019 to 2020 I worked on site there as a field engineer and project-in-charge, including subdivision finishing works.\n\nYour advert talks about practical, buildable designs for roads, subdivisions and drainage in regional Queensland, and seeing projects through to construction, which is the kind of design work I want. I'm based in Melton VIC, available for regional work and open to discussing relocation to Toowoomba. I hold a White Card and full working rights to December 2027 on a 485 visa. I haven't used 12d Model yet, so I would learn it alongside your engineers.\n\nI've attached my resume and cover letter. Could we arrange a time to talk?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Civil Designer at a regional Queensland engineering firm (Toowoomba) working with RPEQ engineers on roads, intersections, subdivisions, drainage, floodways and council projects, from concept to construction.",
+   "Discipline match to Marc's Advanced Diploma road, earthworks, pavement and stormwater design in AutoCAD and Civil 3D; advert says 'you don't need to know everything' and lists no minimum years.",
+   "Direct employer; apply on SEEK with four screening questions."
+  ],
+  "gaps": [
+   "12d Model not on record",
+   "No commercial civil design experience",
+   "Toowoomba relocation not confirmed"
+  ],
+  "match_score": {
+   "percent": 61,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Civil Designer at a regional Queensland engineering firm (Toowoomba) working with RPEQ engineers on roads, intersections, subdivisions, drainage, floodways and council projects, from concept to construction.",
+    "Discipline match to Marc's Advanced Diploma road, earthworks, pavement and stormwater design in AutoCAD and Civil 3D; advert says 'you don't need to know everything' and lists no minimum years.",
+    "Direct employer; apply on SEEK with four screening questions."
+   ],
+   "caution": "Ideally wants strong AutoCAD and 12d Model experience and civil infrastructure design experience; Marc's CAD is academic and he has not used 12d. Toowoomba relocation for Marc to confirm. Not pitched as junior, so fit is borderline."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-11-02T05:53:34.623Z",
+   "expires_at": "2026-12-02T05:53:33.000Z",
+   "verified_at": "2026-11-09T23:19:29.000Z",
+   "apply_instructions": "Apply on SEEK",
+   "screening_questions": [
+    "What qualifications do you currently hold? ",
+    "Where are you located?",
+    "What is your estimated start date?",
+    "How many years experience in Civil Design do you have? "
+   ]
+  },
+  "screening_answers": [
+   {
+    "q": "What qualifications do you currently hold?",
+    "a": "Advanced Diploma of Civil Construction Design (February 2026, Australia); Bachelor of Science in Civil Engineering (2019, Philippines); White Card"
+   },
+   {
+    "q": "Where are you located?",
+    "a": "Melton VIC (open to discussing relocation to Toowoomba; Marc to confirm)"
+   },
+   {
+    "q": "What is your estimated start date?",
+    "a": "Marc to answer (nothing on record)"
+   },
+   {
+    "q": "How many years experience in Civil Design do you have?",
+    "a": "Marc to answer honestly: no paid civil design role yet; two years of Advanced Diploma design coursework (2024 to 2026)"
+   }
+  ],
+  "checklist": [
+   "Check Gmail in:anywhere for Proterra once more (none found on 10 Nov 2026)",
+   "Marc to confirm he is willing to relocate to Toowoomba QLD",
+   "Confirm SEEK advert 95636735 is still open (expires 2 Dec 2026)",
+   "Apply on SEEK with the attached resume and cover letter; answer the four questions as listed",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nSEEK 14 day sweep on tick 20261109T2312Z (1473 seen, 377 past the prefilter, 80 details; widened from 3 days because the previous tick ran five hours earlier) plus an open-web council sweep (WebSearch of council careers, PageUp, Jora, GradConnection). SEEK advert 95636735 listed 2 Nov 2026, expires 2 Dec 2026. No named contact or application email, so the route is SEEK. Dedupe: not blocked by tracker.py check, not in /workspace/job-finds; Gmail in:anywhere (includeSpamTrash) search for the employer on 10 Nov 2026 found no receipt or prior email. Email body and cover letter drafted from facts.json only and passed checks.py tone and facts; cover letter rendered with compact_pdf.py (one page, read back). Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Why Proterra? → Practical regional roads, subdivision and drainage design that I can see built.\n• 12d? → Not yet; AutoCAD and Civil 3D from my Advanced Diploma, ready to learn 12d.\n• Years of civil design? → No paid design role yet; two years of Advanced Diploma design coursework.\n• Would you move to Toowoomba? → Marc to answer.\n• Work rights? → Subclass 485, full working rights until December 2027.\n• Start date and salary? → Marc to answer; nothing on record.",
+  "how_found": "SEEK 14 day sweep on tick 20261109T2312Z (1473 seen, 377 past the prefilter, 80 details; widened from 3 days because the previous tick ran five hours earlier) plus an open-web council sweep (WebSearch of council careers, PageUp, Jora, GradConnection). SEEK advert 95636735 listed 2 Nov 2026, expires 2 Dec 2026. No named contact or application email, so the route is SEEK. Dedupe: not blocked by tracker.py check, not in /workspace/job-finds; Gmail in:anywhere (includeSpamTrash) search for the employer on 10 Nov 2026 found no receipt or prior email. Email body and cover letter drafted from facts.json only and passed checks.py tone and facts; cover letter rendered with compact_pdf.py (one page, read back). Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Why Proterra? → Practical regional roads, subdivision and drainage design that I can see built.",
+   "12d? → Not yet; AutoCAD and Civil 3D from my Advanced Diploma, ready to learn 12d.",
+   "Years of civil design? → No paid design role yet; two years of Advanced Diploma design coursework.",
+   "Would you move to Toowoomba? → Marc to answer.",
+   "Work rights? → Subclass 485, full working rights until December 2027.",
+   "Start date and salary? → Marc to answer; nothing on record."
+  ],
+  "checked_at": "2026-11-09T23:19:29.000Z",
+  "seek_id": "95636735",
+  "duplicate_key": "proterra|95636735",
+  "preparation_only": true,
+  "found_at": "2026-11-10T10:19+11:00 AEDT"
+ }
+]

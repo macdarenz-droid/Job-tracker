@@ -1,0 +1,25 @@
+{
+ "candidates": [
+  {
+   "id": "yarra-496994",
+   "seek_id": null,
+   "source": "pageup",
+   "company": "Yarra City Council",
+   "title": "Civil Works Project Officer",
+   "location": "Richmond, Melbourne VIC",
+   "url": "https://careers.pageuppeople.com/817/cw/en/job/496994/civil-works-project-officer",
+   "listed_at": "2026-11-09",
+   "expires_at": "2026-11-22T23:55:00+11:00",
+   "content_text": "",
+   "apply_instructions": "Apply online via PageUp with resume and a 1-page cover letter addressing the Key Selection Criteria in the Position Description",
+   "screening_questions": [],
+   "is_expired": false,
+   "is_link_out": true,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
+  }
+ ]
+}
