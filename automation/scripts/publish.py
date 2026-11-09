@@ -35,7 +35,7 @@ def eligibility_issues(cand, screen, draft=None):
         issues.append('speculative enquiry needs verified company work and an explicit no-advertised-vacancy label')
     if not speculative and (screen.get('open') is not True or cand.get('is_expired') is True):
         issues.append('current open advert not verified')
-    if screen.get('mandatory_unmet') != [] or screen.get('mandatory_unresolved'):
+    if screen.get('mandatory_unmet') != [] or screen.get('mandatory_unresolved') != []:
         issues.append('mandatory eligibility is unmet or has not been checked')
     percent = screen.get('percent')
     if isinstance(percent, bool) or not isinstance(percent, (int, float)) or not CONFIG['fit']['threshold_percent'] <= percent <= 100:
@@ -156,6 +156,8 @@ def build_record(run_id, cand, screen, contact, draft, attachments=None):
         'fit': screen.get('rationale') or '',
         'gaps': screen.get('gaps') or [],
         'match_score': {'percent': screen.get('percent'), 'method': CONFIG['fit']['method'], 'rationale': screen.get('rationale') or '', 'caution': screen.get('caution') or ''},
+        'mandatory_unmet': screen.get('mandatory_unmet'),
+        'mandatory_unresolved': screen.get('mandatory_unresolved'),
         'advert': {'source': cand.get('source') or 'seek', 'listed_at': cand.get('listed_at') or screen.get('listed_at') or '', 'expires_at': cand.get('expires_at') or screen.get('expires_at') or '',
                    'verified_at': cand.get('checked_at') or now_iso(), 'apply_instructions': screen.get('apply_instructions') or '', 'screening_questions': cand.get('screening_questions') or screen.get('screening_questions') or []},
         'screening_answers': draft.get('screening_answers') or [],
@@ -206,19 +208,23 @@ def publish(run_id, only=None, go=False):
         rec = build_record(run_id, cand, screen, contact, draft)
         cover_name, resume_name = pdf_names(rec)
         cover_pdf = run / cover_name
+        rec['preparation_only'] = True
+        rec['attachments'] = [{'kind': 'resume', 'filename': resume_name, 'stored_in': 'not_uploaded'}, {'kind': 'cover', 'filename': cover_name, 'stored_in': 'not_uploaded'}]
+        # Reject invalid content before any render, upload or tracker mutation.
+        issues = checks.record_issues(rec, require_uploaded=False)
+        letter_text = '\n'.join(letter.get('paragraphs') or [])
+        issues += ['letter ' + i for i in checks.tone_issues(letter_text, 'letter') + checks.fact_issues(letter_text)]
+        if issues:
+            rejected.append({'seek_id': sid, 'status': rec['status'], 'issues': issues}); continue
         if go:
             render_pdf.render_letter({**letter, 'date': None}, cover_pdf)
             up_cover = tracker.upload_document(cover_pdf, 'cover', cover_name)
             up_resume = tracker.upload_document(render_pdf.resume_pdf(), 'resume', resume_name)
             rec['attachments'] = [{**up_resume, 'kind': 'resume'}, {**up_cover, 'kind': 'cover'}]
-        else:
-            rec['preparation_only'] = True
-            rec['attachments'] = [{'kind': 'resume', 'filename': resume_name, 'stored_in': 'not_uploaded'}, {'kind': 'cover', 'filename': cover_name, 'stored_in': 'not_uploaded'}]
-        issues = checks.record_issues(rec, require_uploaded=go)
-        letter_text = '\n'.join(letter.get('paragraphs') or [])
-        issues += ['letter ' + i for i in checks.tone_issues(letter_text, 'letter') + checks.fact_issues(letter_text)]
-        if issues:
-            rejected.append({'seek_id': sid, 'status': rec['status'], 'issues': issues}); continue
+            rec.pop('preparation_only')
+            issues = checks.record_issues(rec, require_uploaded=True)
+            if issues:
+                rejected.append({'seek_id': sid, 'status': rec['status'], 'issues': issues}); continue
         records.append(rec)
     write_json(run / 'records.json', records)
     write_json(run / 'rejected.json', rejected)

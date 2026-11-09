@@ -28,6 +28,7 @@ from pathlib import Path
 from common import CONFIG, http, norm, now_iso, read_json, write_json, eprint
 
 API = CONFIG['tracker_api'].rstrip('/')
+MAX_STATE_BYTES = 1_800_000  # Current deployed API contract; not a storage repair.
 OUTREACH_STATUSES = re.compile(r'^(SENT|EOI_SENT|SENDING|SEND_UNCERTAIN|DELIVERY_FAILED|MANUAL_APPLIED\w*|APPLICATION_UNDER_REVIEW|INTERVIEW|OFFER|PREPARED_NOT_SENT|READY_\w+)$')
 SEEK_ID = re.compile(r'seek\.com(?:\.au)?/job/(\d+)', re.I)
 _code_cache = None
@@ -63,6 +64,13 @@ def get_state():
 def put_state(version, state):
     return request('/api/state', method='PUT', data={'expected_version': version, 'state': state},
                    headers={'Content-Type': 'application/json'})
+
+
+def state_capacity(version, state):
+    """Match common.http's actual request encoding, including the version wrapper."""
+    size = len(json.dumps({'expected_version': version, 'state': state}).encode('utf-8'))
+    return {'request_bytes': size, 'limit_bytes': MAX_STATE_BYTES,
+            'remaining_bytes': MAX_STATE_BYTES - size, 'would_exceed_limit': size > MAX_STATE_BYTES}
 
 
 def url_key(u):
@@ -197,6 +205,10 @@ def _guarded(mutate, attempts=4):
         outcome = mutate(state)
         if outcome is None:
             return {'version': version, 'unchanged': True}
+        capacity = state_capacity(version, state)
+        if capacity['would_exceed_limit']:
+            raise RuntimeError('tracker capacity blocked before write: request exceeds 1,800,000 bytes; '
+                               'keep the local pack unpublished and reconcile storage; do not delete history or retry blindly')
         status, body = put_state(version, state)
         if status == 200:
             return {'version': body.get('version'), 'updated_at': body.get('updated_at'), 'result': outcome}
@@ -276,7 +288,7 @@ def main(argv=None):
     args = ap.parse_args(argv)
     if args.cmd == 'state':
         v, s = get_state()
-        print(json.dumps({'version': v, 'updated_at': s.get('updated_at'), **{k: len(s.get(k, [])) for k in ('applications', 'leads', 'manual_entries', 'record_visibility')}}))
+        print(json.dumps({'version': v, 'updated_at': s.get('updated_at'), 'capacity': state_capacity(v, s), **{k: len(s.get(k, [])) for k in ('applications', 'leads', 'manual_entries', 'record_visibility')}}))
     elif args.cmd == 'index':
         _, s = get_state(); idx = dedupe_index(s)
         print(json.dumps({'keys': len(idx['keys']), 'seek_ids': sorted(idx['seek_ids']), 'url_keys': sorted(idx['url_keys']), 'companies': len(idx['company'])}, indent=1))

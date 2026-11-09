@@ -34,7 +34,7 @@ class SafetyGates(unittest.TestCase):
             self.assertIn('unresolved', why)
 
     def test_ineligible_or_unverified_adverts_never_pass(self):
-        good = {'open': True, 'mandatory_unmet': [], 'percent': 70}
+        good = {'open': True, 'mandatory_unmet': [], 'mandatory_unresolved': [], 'percent': 70}
         self.assertEqual(publish.eligibility_issues({}, good), [])
         for patch in ({'open': False}, {'open': None}, {'mandatory_unmet': ['Must know Pryda']}, {'mandatory_unmet': None}, {'percent': 59}):
             self.assertTrue(publish.eligibility_issues({}, {**good, **patch}))

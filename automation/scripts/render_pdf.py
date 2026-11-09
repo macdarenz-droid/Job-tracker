@@ -75,9 +75,16 @@ def letter_html(letter):
 def render_letter(letter, out_pdf):
     out_pdf = Path(out_pdf)
     out_pdf.parent.mkdir(parents=True, exist_ok=True)
+    backend = os.environ.get('JOB_SEARCH_PDF_BACKEND', 'auto').strip().lower()
+    if backend not in ('auto', 'chromium', 'reportlab'):
+        raise ValueError('JOB_SEARCH_PDF_BACKEND must be auto, chromium or reportlab')
+    if backend == 'reportlab':
+        return render_letter_reportlab(letter, out_pdf)
     try:
         chrome = chrome_path()
     except RuntimeError:
+        if backend == 'chromium':
+            raise
         return render_letter_reportlab(letter, out_pdf)
     with tempfile.TemporaryDirectory() as tmp:
         src = Path(tmp) / 'letter.html'

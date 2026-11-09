@@ -96,6 +96,9 @@ def fact_issues(text):
 
 def record_issues(rec, require_uploaded=True):
     issues = []
+    if rec.get('status') == CONFIG['statuses']['prepared'] or str(rec.get('status', '')).startswith('READY_'):
+        if rec.get('mandatory_unmet') != [] or rec.get('mandatory_unresolved') != []:
+            issues.append('ready record needs explicit empty mandatory_unmet and mandatory_unresolved checks')
     for k in ('company', 'role', 'status', 'job_url', 'fit', 'gaps', 'match_score'):
         if not rec.get(k):
             issues.append(f'missing {k}')
@@ -124,7 +127,7 @@ def record_issues(rec, require_uploaded=True):
     if require_uploaded and rec.get('preparation_only'):
         issues.append('dry-build record is not publishable or sendable')
     if rec.get('contributor_name') != CONFIG['contributor_name']:
-        issues.append('contributor_name is not Claude')
+        issues.append('contributor_name does not match the selected runner')
     if rec.get('application_type') == 'SPECULATIVE_ENQUIRY' and 'speculative' not in str(rec.get('email_body', '')).lower() and 'no advertised' not in str(rec.get('notes', '')).lower():
         issues.append('speculative enquiry must say so')
     body = str(rec.get('email_body') or '')

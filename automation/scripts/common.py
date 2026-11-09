@@ -86,7 +86,23 @@ def write_json(path, data):
 def eprint(*a):
     print(*a, file=sys.stderr)
 
-try:
-    import _grok_identity  # noqa: F401 — Grok Bot identity override when present
-except ImportError:
-    pass
+RUNNER_IDENTITIES = {
+    'claude': ('Claude', 'claude-job-search'),
+    'codex': ('Codex', 'codex-job-search'),
+    'grok': ('Grok AI', 'grok-job-search'),
+}
+
+
+def configure_runner(config, runner):
+    """Explicit per-process identity; never rewrite another runner's shared config."""
+    if not runner:
+        return config
+    if runner not in RUNNER_IDENTITIES:
+        raise ValueError('JOB_SEARCH_RUNNER must be claude, codex or grok')
+    config['contributor_name'], config['created_by'] = RUNNER_IDENTITIES[runner]
+    return config
+
+
+# No implicit import with identity-changing side effects. The saved default is
+# preserved when no runner is selected, including existing Grok operations.
+configure_runner(CONFIG, os.environ.get('JOB_SEARCH_RUNNER', '').strip().lower())

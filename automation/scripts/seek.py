@@ -65,8 +65,14 @@ def normalise_listing(j):
 def prefilter(listing):
     """Cheap title and classification screen. Returns (ok, reason)."""
     title = f" {listing.get('title', '').lower()} "
+    # Junior construction support titles can contain manager/administrator.
+    # Keep them for full-advert screening, never treat this as eligibility.
+    junior_support = bool(re.search(r'\b(junior|graduate|cadet|trainee)\b', title)) and bool(
+        re.search(r'\b(civil|estimator|construction)\b', title))
     for bad in PRE['title_exclude_any']:
         if bad.lower() in title:
+            if junior_support and bad.lower() in ('manager', 'contract administrator', 'contracts administrator'):
+                continue
             return False, f'title excludes: {bad.strip()}'
     if not any(good.lower() in title for good in PRE['title_include_any']):
         return False, 'title has no junior/civil signal'
