@@ -1,0 +1,63 @@
+{
+ "seek_id": "95773573",
+ "company": "Bench Excavation and Civil Construction Pty Ltd (BenchHDC)",
+ "role": "Civil Engineer / Graduate",
+ "location": "Port Adelaide, Adelaide SA",
+ "job_url": "https://www.seek.com.au/job/95773573",
+ "company_url": "",
+ "route": "SEEK",
+ "application_type": "ADVERTISED_VACANCY",
+ "vacancy_status": "OPEN_SEEK",
+ "recipient_name": "",
+ "recipient_role": "Hiring team (apply through SEEK)",
+ "recipient_email": "",
+ "contact_evidence_url": "https://www.seek.com.au/job/95773573",
+ "subject": "Graduate Civil Engineer application, Marc Masarate",
+ "email_body": "Hello BenchHDC team,\n\nI'm applying for the Graduate Civil Engineer role in Port Adelaide that I saw on SEEK.\n\nI hold a Bachelor of Science in Civil Engineering from the Philippines (2019), and in February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD, plus cost estimates and bills of quantities. From 2019 to 2020 I worked on site there as a field engineer and project-in-charge, doing site inspections and quality checks, tracking materials and procurement and writing progress reports.\n\nYour advert describes a new role mixing project coordination, tendering and estimating, quality documentation and site inspections on underground infrastructure, which is the broad start I'm looking for. I'm based in Melton VIC and open to discussing relocation to Adelaide. I hold an Australian driver's licence, a White Card and full working rights to December 2027 on a 485 visa. I haven't worked on directional drilling yet, so I would start at graduate level.\n\nI've attached my resume and cover letter. Could we arrange a time to talk?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+ "letter": {
+  "recipient_name": "",
+  "recipient_role": "Hiring Team",
+  "company": "BenchHDC",
+  "company_line": "BenchHDC is an established South Australian company with over 17 years in horizontal directional drilling, underground infrastructure and associated civil construction.",
+  "subject": "Graduate Civil Engineer, Port Adelaide",
+  "greeting": "Dear BenchHDC Hiring Team,",
+  "paragraphs": [
+   "I am applying for the Graduate Civil Engineer role in Port Adelaide advertised on SEEK. A newly created position that covers project coordination, tendering and estimating, quality documentation and site inspections is the broad, hands-on start I want for my civil career.",
+   "In February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute in Australia. I designed and documented road geometry, earthworks, pavement systems and stormwater drainage in AutoCAD and Civil 3D using Australian Standards, and prepared cost estimates, bills of quantities and risk registers. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019).",
+   "From 2019 to 2020 I worked on site in the Philippines. As a field engineer on subdivision finishing works I assisted with site inspections and quality checks, tracked procurement and materials, and prepared site, material and progress reports. As project-in-charge on a community hall renovation I coordinated 10 to 15 workers a day, reviewed drawings against project requirements and kept the client up to date.",
+   "I hold an Australian driver's licence and a White Card, and I have full working rights to December 2027 on a Subclass 485 visa. I am based in Melton VIC and open to discussing relocation to Adelaide. I have not yet worked on directional drilling or Australian underground infrastructure projects, so I would start at graduate level and learn quickly from your drilling manager and crews.",
+   "I have attached my resume and would welcome the chance to talk about the role."
+  ],
+  "closing": "Kind regards,"
+ },
+ "screening_answers": [
+  {
+   "q": "Which of the following statements best describes your right to work in Australia?",
+   "a": "Temporary visa with full work rights (Subclass 485, until December 2027)"
+  },
+  {
+   "q": "What's your expected annual base salary?",
+   "a": "Marc to choose (advert shows $80,000 to $100,000)"
+  },
+  {
+   "q": "How many years' experience do you have as an Engineer Graduate?",
+   "a": "About 1 year (Philippines site work 2019 to 2020)"
+  },
+  {
+   "q": "How much notice are you required to give your current employer?",
+   "a": "Marc to answer (nothing on record)"
+  },
+  {
+   "q": "Have you completed a qualification in engineering?",
+   "a": "Yes (BSCE 2019; Advanced Diploma of Civil Construction Design, February 2026)"
+  }
+ ],
+ "checklist": [
+  "Check Gmail in:anywhere for BenchHDC once more (none found on 10 Nov 2026)",
+  "Marc to confirm he is willing to relocate to Adelaide SA",
+  "Confirm SEEK advert 95773573 is still open (expires 9 Dec 2026)",
+  "Apply on SEEK with the attached resume and cover letter; answer the five questions as listed",
+  "Record the apply date in /workspace/job-finds"
+ ],
+ "notes": ""
+}

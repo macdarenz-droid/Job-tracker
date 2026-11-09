@@ -1,0 +1,67 @@
+{
+ "seek_id": "95655998",
+ "company": "TTW (NSW) Pty Ltd (Taylor Thomson Whitting)",
+ "role": "Trainee Civil Drafter",
+ "location": "North Sydney, Sydney NSW",
+ "job_url": "https://www.seek.com.au/job/95655998",
+ "company_url": "https://www.ttw.com.au",
+ "route": "SEEK",
+ "application_type": "ADVERTISED_VACANCY",
+ "vacancy_status": "OPEN_SEEK",
+ "recipient_name": "",
+ "recipient_role": "Hiring team (apply through SEEK)",
+ "recipient_email": "",
+ "contact_evidence_url": "https://www.seek.com.au/job/95655998",
+ "subject": "Trainee Civil Drafter application, Marc Masarate",
+ "email_body": "Hello TTW team,\n\nI'm applying for the Trainee Civil Drafter role in your North Sydney office that I saw on SEEK.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, where I designed and documented road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D to Australian Standards. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019), and from 2019 to 2020 I worked on site there as a field engineer and project-in-charge, reviewing drawings against project requirements.\n\nYour advert offers a three year drafting traineeship with mentoring across your drafting software, which is exactly where I want to build my career. I'm based in Melton VIC and open to discussing relocation to Sydney. I hold a White Card and full working rights to December 2027 on a 485 visa. I haven't used AutoTURN on a job yet, so I would start as a trainee.\n\nI've attached my resume and cover letter. Could we arrange a time to talk?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+ "letter": {
+  "recipient_name": "",
+  "recipient_role": "Hiring Team",
+  "company": "TTW",
+  "company_line": "TTW is a locally owned consulting engineering firm of over 550 staff across six offices in Australia and Asia, consulting for more than 65 years.",
+  "subject": "Trainee Civil Drafter, North Sydney",
+  "greeting": "Dear TTW Hiring Team,",
+  "paragraphs": [
+   "I am applying for the Trainee Civil Drafter role in your North Sydney office advertised on SEEK. A three year traineeship with mentoring across your drafting software on projects for high profile clients is the drafting career I want to build.",
+   "In February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute in Australia. I designed and documented road geometry, earthworks, pavement systems and stormwater drainage in AutoCAD and Civil 3D, applying Australian Standards, and lodged Before You Dig Australia enquiries and designed around existing services. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019).",
+   "From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge. I reviewed structural and architectural drawings against project requirements, carried out site inspections and quality checks, and prepared site and progress reports, which showed me how drawings are used in the field.",
+   "I hold a White Card and full working rights to December 2027 on a Subclass 485 visa. I am based in Melton VIC and open to discussing relocation to Sydney. I have not yet used AutoTURN on a job or drafted in a consulting office, so I would start as a trainee and learn your standards quickly.",
+   "I have attached my resume and would welcome the chance to talk about the role."
+  ],
+  "closing": "Kind regards,"
+ },
+ "screening_answers": [
+  {
+   "q": "Do you have current working rights that allows you to work in the country to are applying to?",
+   "a": "Yes (Subclass 485, full working rights until December 2027)"
+  },
+  {
+   "q": "How many years' experience do you have in your current occupation?",
+   "a": "Marc to answer (about 1 year of Philippines site work 2019 to 2020; no drafting job yet)"
+  },
+  {
+   "q": "Which of the following best describes your highest qualification - relevant to the position of Trainee Civil Drafter?",
+   "a": "Advanced Diploma (Civil Construction Design, February 2026); also BSCE 2019"
+  },
+  {
+   "q": "Please detail your minimum salary expectations",
+   "a": "Marc to choose (no salary shown)"
+  },
+  {
+   "q": "What is the notice period for your current employment?",
+   "a": "Marc to answer (nothing on record)"
+  },
+  {
+   "q": "If you have been referred by a past/current TTW Employee, please specify their full name.",
+   "a": "Leave blank unless Marc names a referrer"
+  }
+ ],
+ "checklist": [
+  "Check Gmail in:anywhere for TTW once more (none found on 10 Nov 2026)",
+  "Marc to decide whether a traineeship that includes TAFE study of the Diploma of Civil Construction Design suits him, since he already holds the Advanced Diploma",
+  "Marc to confirm he is willing to relocate to Sydney",
+  "Apply on SEEK with the attached resume and cover letter before 27 Nov 2026; answer the six questions as listed",
+  "Record the apply date in /workspace/job-finds"
+ ],
+ "notes": ""
+}

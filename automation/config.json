@@ -12,7 +12,7 @@
   },
   "seek": {
     "search_url": "https://www.seek.com.au/api/jobsearch/v5/search",
-    "graphql_url": "https://www.seek.com.au/graphql",
+    "graphql_url": "https://au.seek.com/graphql",
     "where": "All Australia",
     "daterange_days": 3,
     "first_run_daterange_days": 14,

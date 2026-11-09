@@ -1,0 +1,398 @@
+[
+ {
+  "id": "e5fd42f3-d399-426f-88f8-e1b493849117",
+  "key": "manual:e5fd42f3-d399-426f-88f8-e1b493849117",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261109T1818Z",
+  "created_at": "2026-11-09T18:24:02.000Z",
+  "updated_at": "2026-11-09T18:24:02.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_BenchHDC_Graduate_Civil_Engineer_Cover_Letter.pdf",
+    "sha256": "432d093d2e9c7993d46c876d2358a65ab7ff9c006ea8a880a5552fab137cfbc7",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_BenchHDC_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "stored_in": "local:/workspace/job-finds"
+   }
+  ],
+  "company": "Bench Excavation and Civil Construction Pty Ltd (BenchHDC)",
+  "role": "Civil Engineer / Graduate",
+  "location": "Port Adelaide, Adelaide SA",
+  "job_url": "https://www.seek.com.au/job/95773573",
+  "company_url": "",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_SEEK",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "Hiring team (apply through SEEK)",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95773573",
+  "contact_verified_at": "2026-11-09T18:24:02.000Z",
+  "contact_confidence": "none",
+  "subject": "Graduate Civil Engineer application, Marc Masarate",
+  "email_body": "Hello BenchHDC team,\n\nI'm applying for the Graduate Civil Engineer role in Port Adelaide that I saw on SEEK.\n\nI hold a Bachelor of Science in Civil Engineering from the Philippines (2019), and in February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD, plus cost estimates and bills of quantities. From 2019 to 2020 I worked on site there as a field engineer and project-in-charge, doing site inspections and quality checks, tracking materials and procurement and writing progress reports.\n\nYour advert describes a new role mixing project coordination, tendering and estimating, quality documentation and site inspections on underground infrastructure, which is the broad start I'm looking for. I'm based in Melton VIC and open to discussing relocation to Adelaide. I hold an Australian driver's licence, a White Card and full working rights to December 2027 on a 485 visa. I haven't worked on directional drilling yet, so I would start at graduate level.\n\nI've attached my resume and cover letter. Could we arrange a time to talk?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Graduate Civil Engineer, newly created role at a South Australian HDD and underground infrastructure contractor: project coordination, scheduling, tender preparation and estimating, QA documentation, client and subcontractor liaison, site inspections. $80,000 to $100,000.",
+   "Recent graduates encouraged and no drilling experience needed; matches Marc's BSCE (2019), Advanced Diploma estimates and bills of quantities, and Philippines site inspections, procurement tracking and progress reporting.",
+   "Direct employer; apply on SEEK with five screening questions."
+  ],
+  "gaps": [
+   "No HDD or Australian underground infrastructure experience",
+   "Australian recognition of the Philippine BSCE not on record",
+   "Adelaide relocation not confirmed"
+  ],
+  "match_score": {
+   "percent": 66,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Graduate Civil Engineer, newly created role at a South Australian HDD and underground infrastructure contractor: project coordination, scheduling, tender preparation and estimating, QA documentation, client and subcontractor liaison, site inspections. $80,000 to $100,000.",
+    "Recent graduates encouraged and no drilling experience needed; matches Marc's BSCE (2019), Advanced Diploma estimates and bills of quantities, and Philippines site inspections, procurement tracking and progress reporting.",
+    "Direct employer; apply on SEEK with five screening questions."
+   ],
+   "caution": "Advert asks for a civil degree 'or equivalent recognised in Australia'; Marc's BSCE is from the Philippines and no Engineers Australia assessment is on record. Adelaide relocation for Marc to confirm."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-11-09T03:41:38.236Z",
+   "expires_at": "2026-12-09T12:59:59.999Z",
+   "verified_at": "2026-11-09T18:24:02.000Z",
+   "apply_instructions": "Apply on SEEK",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as an Engineer Graduate?",
+    "How much notice are you required to give your current employer?",
+    "Have you completed a qualification in engineering?"
+   ]
+  },
+  "screening_answers": [
+   {
+    "q": "Which of the following statements best describes your right to work in Australia?",
+    "a": "Temporary visa with full work rights (Subclass 485, until December 2027)"
+   },
+   {
+    "q": "What's your expected annual base salary?",
+    "a": "Marc to choose (advert shows $80,000 to $100,000)"
+   },
+   {
+    "q": "How many years' experience do you have as an Engineer Graduate?",
+    "a": "About 1 year (Philippines site work 2019 to 2020)"
+   },
+   {
+    "q": "How much notice are you required to give your current employer?",
+    "a": "Marc to answer (nothing on record)"
+   },
+   {
+    "q": "Have you completed a qualification in engineering?",
+    "a": "Yes (BSCE 2019; Advanced Diploma of Civil Construction Design, February 2026)"
+   }
+  ],
+  "checklist": [
+   "Check Gmail in:anywhere for BenchHDC once more (none found on 10 Nov 2026)",
+   "Marc to confirm he is willing to relocate to Adelaide SA",
+   "Confirm SEEK advert 95773573 is still open (expires 9 Dec 2026)",
+   "Apply on SEEK with the attached resume and cover letter; answer the five questions as listed",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nSEEK 7 day sweep on tick 20261109T1818Z (1305 seen, 278 past the prefilter, 60 details; SEEK detail endpoint had moved to au.seek.com/graphql and was fixed this tick, then details refetched for the shortlist). Advert 95773573 listed 9 Nov 2026, expires 9 Dec 2026. No named contact or application email in the advert, so the route is SEEK. Dedupe: not blocked by tracker.py check, not in /workspace/job-finds; Gmail in:anywhere search for the employer on 10 Nov 2026 found no receipt or prior email. Email body and cover letter drafted from facts.json only and passed checks.py tone and facts; cover letter rendered with compact_pdf.py (one page, read back). Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Why BenchHDC? → A broad graduate role across coordination, estimating, QA and site work is the start I want.\n• Estimating experience? → Cost estimates and bills of quantities in my Advanced Diploma; materials and procurement tracking on site in the Philippines.\n• Is your degree recognised here? → Marc to answer; BSCE 2019 from the Philippines plus the Australian Advanced Diploma (2026).\n• Would you move to Adelaide? → Marc to answer; applications only say open to discussing relocation.\n• Work rights? → Subclass 485, full working rights until December 2027.\n• Start date and salary? → Marc to answer; nothing on record.",
+  "how_found": "SEEK 7 day sweep on tick 20261109T1818Z (1305 seen, 278 past the prefilter, 60 details; SEEK detail endpoint had moved to au.seek.com/graphql and was fixed this tick, then details refetched for the shortlist). Advert 95773573 listed 9 Nov 2026, expires 9 Dec 2026. No named contact or application email in the advert, so the route is SEEK. Dedupe: not blocked by tracker.py check, not in /workspace/job-finds; Gmail in:anywhere search for the employer on 10 Nov 2026 found no receipt or prior email. Email body and cover letter drafted from facts.json only and passed checks.py tone and facts; cover letter rendered with compact_pdf.py (one page, read back). Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Why BenchHDC? → A broad graduate role across coordination, estimating, QA and site work is the start I want.",
+   "Estimating experience? → Cost estimates and bills of quantities in my Advanced Diploma; materials and procurement tracking on site in the Philippines.",
+   "Is your degree recognised here? → Marc to answer; BSCE 2019 from the Philippines plus the Australian Advanced Diploma (2026).",
+   "Would you move to Adelaide? → Marc to answer; applications only say open to discussing relocation.",
+   "Work rights? → Subclass 485, full working rights until December 2027.",
+   "Start date and salary? → Marc to answer; nothing on record."
+  ],
+  "checked_at": "2026-11-09T18:24:02.000Z",
+  "seek_id": "95773573",
+  "duplicate_key": "bench|95773573",
+  "preparation_only": true,
+  "found_at": "2026-11-10T05:24+11:00 AEDT"
+ },
+ {
+  "id": "e8834894-6d0d-4e64-9e15-5faa996957e9",
+  "key": "manual:e8834894-6d0d-4e64-9e15-5faa996957e9",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261109T1818Z",
+  "created_at": "2026-11-09T18:24:02.000Z",
+  "updated_at": "2026-11-09T18:24:02.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Martinus_Rail_Graduate_Engineer_Cover_Letter.pdf",
+    "sha256": "995dec1e1d55ea2982cbed750fa7fb3692827b4eb0c6636eb7e3ce6755b16fd4",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Martinus_Rail_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "stored_in": "local:/workspace/job-finds"
+   }
+  ],
+  "company": "Martinus Rail",
+  "role": "Graduate Engineer (Inland Rail, Albury to Parkes)",
+  "location": "Wagga Wagga / Forbes, NSW",
+  "job_url": "https://www.seek.com.au/job/95695784",
+  "company_url": "https://www.martinus.com.au",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_SEEK",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "Recruitment team (apply through the link on SEEK)",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95695784",
+  "contact_verified_at": "2026-11-09T18:24:02.000Z",
+  "contact_confidence": "none",
+  "subject": "Graduate Engineer application, Marc Masarate",
+  "email_body": "Hello Martinus recruitment team,\n\nI'm applying for the Graduate Engineer role on the Inland Rail Albury to Parkes Enhancement Project that I saw on SEEK.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road geometry, earthworks, pavement and stormwater design in Civil 3D and AutoCAD, and I hold a Bachelor of Science in Civil Engineering from the Philippines (2019). From 2019 to 2020 I worked on site there as a field engineer and project-in-charge, doing site inspections and quality checks, coordinating 10 to 15 workers a day and writing progress reports.\n\nYour advert asks for people who are coachable, driven and keen to learn in a fast paced project, which is how I want to start in rail. I'm based in Melton VIC, available for regional project work and open to discussing relocation near Forbes. I hold an Australian driver's licence, a White Card and full working rights to December 2027 on a 485 visa. I haven't worked in rail yet, so I would start at graduate level.\n\nI've attached my resume and cover letter. Could we arrange a time to talk?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Civil and Structural Graduate Engineers for the Inland Rail Albury to Parkes Enhancement Project near Forbes NSW, with a rail contractor that hires for coachability and drive.",
+   "Matches Marc's civil degree plus 2026 Advanced Diploma, site inspections, quality checks and crew coordination in the Philippines, and his availability for regional project work.",
+   "Direct employer; SEEK links out to the Martinus application page."
+  ],
+  "gaps": [
+   "No rail experience",
+   "BSCE not recent (2019)",
+   "Forbes NSW relocation not confirmed"
+  ],
+  "match_score": {
+   "percent": 62,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Civil and Structural Graduate Engineers for the Inland Rail Albury to Parkes Enhancement Project near Forbes NSW, with a rail contractor that hires for coachability and drive.",
+    "Matches Marc's civil degree plus 2026 Advanced Diploma, site inspections, quality checks and crew coordination in the Philippines, and his availability for regional project work.",
+    "Direct employer; SEEK links out to the Martinus application page."
+   ],
+   "caution": "Asks for recent graduate qualifications; Marc's BSCE is 2019, his Australian Advanced Diploma is February 2026. No rail experience. Regional NSW (Forbes) posting; relocation for Marc to confirm."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-11-04T09:52:40.000Z",
+   "expires_at": "2026-12-04T09:57:47.439Z",
+   "verified_at": "2026-11-09T18:24:02.000Z",
+   "apply_instructions": "SEEK links out to the employer's application page",
+   "screening_questions": []
+  },
+  "screening_answers": [
+   {
+    "q": "Martinus application form questions",
+    "a": "Not visible on SEEK (link out); answer in the form from the resume and cover letter. Start date, notice and salary are for Marc to answer."
+   }
+  ],
+  "checklist": [
+   "Check Gmail in:anywhere for Martinus once more (none found on 10 Nov 2026)",
+   "Marc to confirm he is willing to work near Forbes NSW on the Inland Rail project",
+   "Open SEEK advert 95695784 and follow Apply to the Martinus application page (expires 4 Dec 2026)",
+   "Answer the form and attach the resume and cover letter",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nSEEK 7 day sweep on tick 20261109T1818Z (1305 seen, 278 past the prefilter, 60 details; SEEK detail endpoint had moved to au.seek.com/graphql and was fixed this tick, then details refetched for the shortlist). Advert 95695784 listed about 4 Nov 2026, expires 4 Dec 2026; link out to the Martinus site, so the route is the employer portal. No named contact. Dedupe: not blocked by tracker.py check, not in /workspace/job-finds; Gmail in:anywhere search for the employer on 10 Nov 2026 found no receipt or prior email. Email body and cover letter drafted from facts.json only and passed checks.py tone and facts; cover letter rendered with compact_pdf.py (one page, read back). Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Why rail? → A major regional project with a team that trains graduates is how I want to start on Australian infrastructure.\n• Site experience? → Field engineer and project-in-charge in the Philippines 2019 to 2020: inspections, quality checks, 10 to 15 workers a day, progress reports.\n• Would you live near Forbes? → Marc to answer; available for regional project work.\n• Work rights? → Subclass 485, full working rights until December 2027.\n• Start date and salary? → Marc to answer; nothing on record.",
+  "how_found": "SEEK 7 day sweep on tick 20261109T1818Z (1305 seen, 278 past the prefilter, 60 details; SEEK detail endpoint had moved to au.seek.com/graphql and was fixed this tick, then details refetched for the shortlist). Advert 95695784 listed about 4 Nov 2026, expires 4 Dec 2026; link out to the Martinus site, so the route is the employer portal. No named contact. Dedupe: not blocked by tracker.py check, not in /workspace/job-finds; Gmail in:anywhere search for the employer on 10 Nov 2026 found no receipt or prior email. Email body and cover letter drafted from facts.json only and passed checks.py tone and facts; cover letter rendered with compact_pdf.py (one page, read back). Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Why rail? → A major regional project with a team that trains graduates is how I want to start on Australian infrastructure.",
+   "Site experience? → Field engineer and project-in-charge in the Philippines 2019 to 2020: inspections, quality checks, 10 to 15 workers a day, progress reports.",
+   "Would you live near Forbes? → Marc to answer; available for regional project work.",
+   "Work rights? → Subclass 485, full working rights until December 2027.",
+   "Start date and salary? → Marc to answer; nothing on record."
+  ],
+  "checked_at": "2026-11-09T18:24:02.000Z",
+  "seek_id": "95695784",
+  "duplicate_key": "martinus|95695784",
+  "preparation_only": true,
+  "found_at": "2026-11-10T05:24+11:00 AEDT"
+ },
+ {
+  "id": "60d087cb-826d-45ad-a995-07b23ddd829c",
+  "key": "manual:60d087cb-826d-45ad-a995-07b23ddd829c",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261109T1818Z",
+  "created_at": "2026-11-09T18:24:02.000Z",
+  "updated_at": "2026-11-09T18:24:02.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_TTW_Trainee_Civil_Drafter_Cover_Letter.pdf",
+    "sha256": "b918106fca9554c25d4c087d92c3be2d4460c8aadec64a8021b6e87724fe5237",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_TTW_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "stored_in": "local:/workspace/job-finds"
+   }
+  ],
+  "company": "TTW (NSW) Pty Ltd (Taylor Thomson Whitting)",
+  "role": "Trainee Civil Drafter",
+  "location": "North Sydney, Sydney NSW",
+  "job_url": "https://www.seek.com.au/job/95655998",
+  "company_url": "https://www.ttw.com.au",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_SEEK",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "Hiring team (apply through SEEK)",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95655998",
+  "contact_verified_at": "2026-11-09T18:24:02.000Z",
+  "contact_confidence": "none",
+  "subject": "Trainee Civil Drafter application, Marc Masarate",
+  "email_body": "Hello TTW team,\n\nI'm applying for the Trainee Civil Drafter role in your North Sydney office that I saw on SEEK.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, where I designed and documented road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D to Australian Standards. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019), and from 2019 to 2020 I worked on site there as a field engineer and project-in-charge, reviewing drawings against project requirements.\n\nYour advert offers a three year drafting traineeship with mentoring across your drafting software, which is exactly where I want to build my career. I'm based in Melton VIC and open to discussing relocation to Sydney. I hold a White Card and full working rights to December 2027 on a 485 visa. I haven't used AutoTURN on a job yet, so I would start as a trainee.\n\nI've attached my resume and cover letter. Could we arrange a time to talk?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Three year Trainee Civil Drafter role at a major consulting engineer (TTW, North Sydney), trained in AutoCAD, AutoTURN, Civil 3D and 12d with mentoring.",
+   "Fits Marc's target of junior civil drafting: Advanced Diploma road, earthworks, pavement and stormwater documentation in AutoCAD and Civil 3D, plus drawing review on Philippines sites.",
+   "Direct employer; apply on SEEK with six screening questions."
+  ],
+  "gaps": [
+   "12d and AutoTURN not on record",
+   "No consulting office drafting experience",
+   "Sydney relocation not confirmed"
+  ],
+  "match_score": {
+   "percent": 60,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Three year Trainee Civil Drafter role at a major consulting engineer (TTW, North Sydney), trained in AutoCAD, AutoTURN, Civil 3D and 12d with mentoring.",
+    "Fits Marc's target of junior civil drafting: Advanced Diploma road, earthworks, pavement and stormwater documentation in AutoCAD and Civil 3D, plus drawing review on Philippines sites.",
+    "Direct employer; apply on SEEK with six screening questions."
+   ],
+   "caution": "Traineeship requires full attendance at TAFE Ultimo for the Diploma of Civil Construction Design, which Marc already exceeds with the Advanced Diploma; likely pitched at school leavers and pay may be trainee level. Sydney relocation for Marc to confirm."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-11-03T03:25:19.509Z",
+   "expires_at": "2026-11-27T12:59:59.000Z",
+   "verified_at": "2026-11-09T18:24:02.000Z",
+   "apply_instructions": "Apply on SEEK",
+   "screening_questions": [
+    "Do you have current working rights that allows you to work in the country to are applying to?",
+    "How many years' experience do you have in your current occupation?",
+    "Which of the following best describes your highest qualification - relevant to the position of Trainee Civil Drafter?",
+    "Please detail your minimum salary expectations",
+    "What is the notice period for your current employment?",
+    "If you have been referred by a past/current TTW Employee, please specify their full name. "
+   ]
+  },
+  "screening_answers": [
+   {
+    "q": "Do you have current working rights that allows you to work in the country to are applying to?",
+    "a": "Yes (Subclass 485, full working rights until December 2027)"
+   },
+   {
+    "q": "How many years' experience do you have in your current occupation?",
+    "a": "Marc to answer (about 1 year of Philippines site work 2019 to 2020; no drafting job yet)"
+   },
+   {
+    "q": "Which of the following best describes your highest qualification - relevant to the position of Trainee Civil Drafter?",
+    "a": "Advanced Diploma (Civil Construction Design, February 2026); also BSCE 2019"
+   },
+   {
+    "q": "Please detail your minimum salary expectations",
+    "a": "Marc to choose (no salary shown)"
+   },
+   {
+    "q": "What is the notice period for your current employment?",
+    "a": "Marc to answer (nothing on record)"
+   },
+   {
+    "q": "If you have been referred by a past/current TTW Employee, please specify their full name.",
+    "a": "Leave blank unless Marc names a referrer"
+   }
+  ],
+  "checklist": [
+   "Check Gmail in:anywhere for TTW once more (none found on 10 Nov 2026)",
+   "Marc to decide whether a traineeship that includes TAFE study of the Diploma of Civil Construction Design suits him, since he already holds the Advanced Diploma",
+   "Marc to confirm he is willing to relocate to Sydney",
+   "Apply on SEEK with the attached resume and cover letter before 27 Nov 2026; answer the six questions as listed",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nSEEK 7 day sweep on tick 20261109T1818Z (1305 seen, 278 past the prefilter, 60 details; SEEK detail endpoint had moved to au.seek.com/graphql and was fixed this tick, then details refetched for the shortlist). Advert 95655998 listed 3 Nov 2026, expires 27 Nov 2026. No named contact, so the route is SEEK. Dedupe: not blocked by tracker.py check, not in /workspace/job-finds; Gmail in:anywhere search for the employer on 10 Nov 2026 found no receipt or prior email. Email body and cover letter drafted from facts.json only and passed checks.py tone and facts; cover letter rendered with compact_pdf.py (one page, read back). Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Why a traineeship when you have an Advanced Diploma? → I want structured mentoring in a consulting drafting office to turn my coursework into professional drafting.\n• Software? → AutoCAD and Civil 3D from my Advanced Diploma; not yet 12d or AutoTURN.\n• Would you move to Sydney? → Marc to answer.\n• Work rights? → Subclass 485, full working rights until December 2027.\n• Start date and salary? → Marc to answer; nothing on record.",
+  "how_found": "SEEK 7 day sweep on tick 20261109T1818Z (1305 seen, 278 past the prefilter, 60 details; SEEK detail endpoint had moved to au.seek.com/graphql and was fixed this tick, then details refetched for the shortlist). Advert 95655998 listed 3 Nov 2026, expires 27 Nov 2026. No named contact, so the route is SEEK. Dedupe: not blocked by tracker.py check, not in /workspace/job-finds; Gmail in:anywhere search for the employer on 10 Nov 2026 found no receipt or prior email. Email body and cover letter drafted from facts.json only and passed checks.py tone and facts; cover letter rendered with compact_pdf.py (one page, read back). Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Why a traineeship when you have an Advanced Diploma? → I want structured mentoring in a consulting drafting office to turn my coursework into professional drafting.",
+   "Software? → AutoCAD and Civil 3D from my Advanced Diploma; not yet 12d or AutoTURN.",
+   "Would you move to Sydney? → Marc to answer.",
+   "Work rights? → Subclass 485, full working rights until December 2027.",
+   "Start date and salary? → Marc to answer; nothing on record."
+  ],
+  "checked_at": "2026-11-09T18:24:02.000Z",
+  "seek_id": "95655998",
+  "duplicate_key": "ttw|95655998",
+  "preparation_only": true,
+  "found_at": "2026-11-10T05:24+11:00 AEDT"
+ },
+ {
+  "id": "77076043-3a94-4b40-a733-b99bdaa4e29d",
+  "key": "manual:77076043-3a94-4b40-a733-b99bdaa4e29d",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261109T1818Z",
+  "created_at": "2026-11-09T18:24:02.000Z",
+  "updated_at": "2026-11-09T18:24:02.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Fyfe Pty Ltd",
+  "role": "Graduate Civil Engineer (Property & Infrastructure)",
+  "location": "Adelaide SA",
+  "job_url": "https://www.seek.com.au/job/95736615",
+  "status": "HELD_MANDATORY_UNMET",
+  "application_type": "ADVERTISED_VACANCY",
+  "application_route": "SEEK",
+  "match_score": {
+   "percent": 68,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Graduate civil design role: stormwater drainage, erosion control, waterway, rail and road crossings, quantity estimates, supervised site inspections; strong match to Marc's Advanced Diploma design work."
+   ],
+   "caution": "Advert lists Australian citizenship or permanent residency as required; Marc holds a Subclass 485 visa, so this is held, not prepared."
+  },
+  "gaps": [
+   "Australian citizenship or PR required (Marc on 485)"
+  ],
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-11-06T03:08:33.300Z",
+   "expires_at": "2026-12-06T12:59:59.999Z",
+   "verified_at": "2026-11-09T18:24:02.000Z",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a civil engineer?",
+    "How much notice are you required to give your current employer?",
+    "Do you have Cost Estimation experience?",
+    "Have you worked in a role which requires a sound understanding of as/NZ 5369 Standards?"
+   ]
+  },
+  "notes": "HOW GROK AI FOUND THIS\nSEEK 7 day sweep on tick 20261109T1818Z (1305 seen, 278 past the prefilter, 60 details; SEEK detail endpoint had moved to au.seek.com/graphql and was fixed this tick, then details refetched for the shortlist). Held because the advert requires Australian citizenship or permanent residency. No draft prepared, nothing sent.",
+  "checked_at": "2026-11-09T18:24:02.000Z",
+  "seek_id": "95736615",
+  "preparation_only": true,
+  "found_at": "2026-11-10T05:24+11:00 AEDT"
+ }
+]
