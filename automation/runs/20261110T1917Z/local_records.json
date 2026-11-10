@@ -1,0 +1,203 @@
+[
+ {
+  "id": "34c9b7e0-db1c-4d2b-8078-39449c525760",
+  "key": "manual:34c9b7e0-db1c-4d2b-8078-39449c525760",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261110T1917Z",
+  "created_at": "2026-11-10T19:26:07.000Z",
+  "updated_at": "2026-11-10T19:26:07.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_CPB_Document_Controller_Cover_Letter.pdf",
+    "sha256": "a30cc5498ea0cb2aefa307e8042c4f0b49e99e6b7aa24add4e0f758cb18ec2d5",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_CPB_Resume.pdf",
+    "sha256": "c442a0d8d187c239ca4a56699100057c004e9dcdf0ec84117e96e5425af104ce",
+    "stored_in": "local:/workspace/job-finds",
+    "note": "tailored one page resume built from facts.json"
+   }
+  ],
+  "company": "CPB Contractors",
+  "role": "Document Controller",
+  "location": "Truganina, Melbourne VIC",
+  "job_url": "https://careersmanager.pageuppeople.com/434/caw/en/job/1005896/document-controller",
+  "company_url": "https://www.cpbcon.com.au",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_EMPLOYER_SITE",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "CPB Contractors recruitment (PageUp portal, job 1005896; agency applications not accepted)",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://careersmanager.pageuppeople.com/434/caw/en/job/1005896/document-controller",
+  "contact_verified_at": "2026-11-10T19:26:07.000Z",
+  "contact_confidence": "none",
+  "subject": "Document Controller application, Marc Masarate",
+  "email_body": "Not for sending. Apply on CPB's PageUp careers page (job 1005896); the advert publishes no application email.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Permanent full time Document Controller on CPB's 80 MW Truganina data centre (with UGL and EIC): managing drawings and design updates, registers, issuing/tracking/archiving documents, review workflows, revisions, reports and records.",
+   "Lines up with Marc's site record keeping (site reports, material records, progress reports), drawing review on the community hall job and his AutoCAD/Civil 3D drawing work; advert only says candidates will likely bring document control or project administration experience.",
+   "Tier 1 direct employer about 20 minutes from Melton; no citizenship or PR requirement stated."
+  ],
+  "gaps": [
+   "No formal document control experience",
+   "No document management system experience on record",
+   "No Australian construction experience"
+  ],
+  "match_score": {
+   "percent": 63,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Permanent full time Document Controller on CPB's 80 MW Truganina data centre (with UGL and EIC): managing drawings and design updates, registers, issuing/tracking/archiving documents, review workflows, revisions, reports and records.",
+    "Lines up with Marc's site record keeping (site reports, material records, progress reports), drawing review on the community hall job and his AutoCAD/Civil 3D drawing work; advert only says candidates will likely bring document control or project administration experience.",
+    "Tier 1 direct employer about 20 minutes from Melton; no citizenship or PR requirement stated."
+   ],
+   "caution": "No formal document control role or document management system (Aconex or similar) on record; the advert expects such experience as likely, not mandatory. Data centre project, so the civil content is limited to inground services and finishing works. No closing date shown."
+  },
+  "advert": {
+   "source": "open_web_cpb_pageup",
+   "listed_at": "2026-11-06",
+   "expires_at": null,
+   "verified_at": "2026-11-10T19:26:07.000Z",
+   "apply_instructions": "Apply on CPB Contractors' PageUp careers page (job 1005896). Agency applications not accepted; no application email published.",
+   "screening_questions": []
+  },
+  "screening_answers": [
+   {
+    "q": "CPB PageUp application questions",
+    "a": "Not visible before applying; answer from the resume and cover letter. Work rights: Subclass 485, full working rights to December 2027 (not PR or citizen). Salary, start date and notice: Marc to answer."
+   }
+  ],
+  "checklist": [
+   "Search Gmail in:anywhere for CPB Contractors and job 1005896 before applying (Gmail was not reachable on this tick)",
+   "Confirm the advert is still open on CPB's PageUp page (no closing date shown)",
+   "Apply on PageUp job 1005896 with the one page resume and the cover letter from this folder",
+   "Answer any right-to-work question truthfully: Subclass 485, full working rights to December 2027",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nOpen-web sweep on tick 20261110T1917Z (jobau, ZipRecruiter, Prosple, GradConnection, Employment Hero, LinkedIn, Melton City Council applynow board, employer careers pages) plus a SEEK 3 day sweep (60 details, nothing unscreened at fit 60) widened to a 7 day SEEK sweep (80 details). Found on the open web (ZipRecruiter, posted 6 Nov 2026) and read in full on CPB's own PageUp careers page (job 1005896) on 11 Nov 2026. No application email is published, so no email is prepared. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json. Drafted from facts.json only; checks.py facts and tone OK; cover letter (compact_pdf.py) and tailored resume both one page, read back. Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Document control experience? → Not a formal role yet; on site I kept site reports, material records and progress reports and reviewed drawings against project requirements.\n• Systems? → Microsoft Office and Google Workspace; I have not used Aconex or a similar system yet.\n• Accuracy under volume? → In technical support I handled 40 to 60 cases a day with accurate case notes.\n• Work rights? → Subclass 485, full working rights until December 2027.\n• Start date and salary? → Marc to answer; nothing on record.",
+  "how_found": "Open-web sweep on tick 20261110T1917Z (jobau, ZipRecruiter, Prosple, GradConnection, Employment Hero, LinkedIn, Melton City Council applynow board, employer careers pages) plus a SEEK 3 day sweep (60 details, nothing unscreened at fit 60) widened to a 7 day SEEK sweep (80 details). Found on the open web (ZipRecruiter, posted 6 Nov 2026) and read in full on CPB's own PageUp careers page (job 1005896) on 11 Nov 2026. No application email is published, so no email is prepared. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json. Drafted from facts.json only; checks.py facts and tone OK; cover letter (compact_pdf.py) and tailored resume both one page, read back. Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Document control experience? → Not a formal role yet; on site I kept site reports, material records and progress reports and reviewed drawings against project requirements.",
+   "Systems? → Microsoft Office and Google Workspace; I have not used Aconex or a similar system yet.",
+   "Accuracy under volume? → In technical support I handled 40 to 60 cases a day with accurate case notes.",
+   "Work rights? → Subclass 485, full working rights until December 2027.",
+   "Start date and salary? → Marc to answer; nothing on record."
+  ],
+  "checked_at": "2026-11-10T19:26:07.000Z",
+  "seek_id": null,
+  "duplicate_key": "cpb|cpb",
+  "preparation_only": true,
+  "found_at": "2026-11-11T06:26+11:00 AEDT"
+ },
+ {
+  "id": "1ed1b3a9-8bb0-411b-84c1-c7d4a5935a37",
+  "key": "manual:1ed1b3a9-8bb0-411b-84c1-c7d4a5935a37",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261110T1917Z",
+  "created_at": "2026-11-10T19:26:07.000Z",
+  "updated_at": "2026-11-10T19:26:07.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_BMD_Site_Engineer_Cover_Letter.pdf",
+    "sha256": "4fcc8b24ccf97bc692ec96b00d2da15eae431afb8942382b2b9338fb10bb7e07",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_BMD_Resume.pdf",
+    "sha256": "c442a0d8d187c239ca4a56699100057c004e9dcdf0ec84117e96e5425af104ce",
+    "stored_in": "local:/workspace/job-finds",
+    "note": "tailored one page resume built from facts.json"
+   }
+  ],
+  "company": "BMD Constructions (The BMD Group)",
+  "role": "Site Engineer",
+  "location": "Adelaide SA",
+  "job_url": "https://www.seek.com.au/job/95755286",
+  "company_url": "https://www.bmdgroup.global/careers",
+  "status": "HELD_MANDATORY_UNRESOLVED",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_SEEK",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "BMD hiring team (SEEK apply; no application email published)",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95755286",
+  "contact_verified_at": "2026-11-10T19:26:07.000Z",
+  "contact_confidence": "none",
+  "subject": "Site Engineer, Adelaide application, Marc Masarate",
+  "email_body": "Not for sending. Apply through SEEK (advert 95755286) once the Engineers Australia recognition question and relocation are confirmed.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Full time Site Engineer in BMD Constructions' Adelaide major infrastructure team: planning and coordinating civil works, subcontractors, suppliers and materials, ITPs and quality records, drawing and specification review.",
+   "Matches Marc's 2019 to 2020 field engineer work (inspections, quality checks, procurement and materials tracking, progress reports, coordinating subcontractors and suppliers) plus his BSCE and civil design diploma; advert accepts experience or exposure.",
+   "Direct employer; held only because one stated requirement is unresolved."
+  ],
+  "gaps": [
+   "Engineers Australia recognition of BSCE unresolved",
+   "Relocation to Adelaide not confirmed",
+   "No Australian or Tier 1/2 construction experience",
+   "No Australian ITP system experience"
+  ],
+  "match_score": {
+   "percent": 64,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Full time Site Engineer in BMD Constructions' Adelaide major infrastructure team: planning and coordinating civil works, subcontractors, suppliers and materials, ITPs and quality records, drawing and specification review.",
+    "Matches Marc's 2019 to 2020 field engineer work (inspections, quality checks, procurement and materials tracking, progress reports, coordinating subcontractors and suppliers) plus his BSCE and civil design diploma; advert accepts experience or exposure.",
+    "Direct employer; held only because one stated requirement is unresolved."
+   ],
+   "caution": "HELD: the advert asks for a civil engineering qualification recognised by Engineers Australia; Marc's BSCE (Philippines, 2019) has no EA assessment on record. Adelaide means relocation, which Marc has not confirmed. Tier 1/Tier 2 experience highly regarded; Marc has none in Australia. SEEK expiry 7 Dec 2026."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-11-06",
+   "expires_at": "2026-12-07T23:59+10:30",
+   "verified_at": "2026-11-10T19:26:07.000Z",
+   "apply_instructions": "SEEK apply (advert 95755286) with resume and cover letter; no screening questions listed.",
+   "screening_questions": []
+  },
+  "screening_answers": [
+   {
+    "q": "SEEK questions",
+    "a": "None listed on the advert. Work rights if asked: Subclass 485, full working rights to December 2027 (not PR or citizen). Salary and start date: Marc to answer."
+   }
+  ],
+  "checklist": [
+   "First resolve: the advert asks for a civil engineering qualification recognised by Engineers Australia; Marc's BSCE (Philippines, 2019) has no EA assessment on record, so Marc decides whether to apply",
+   "Confirm Marc is willing to relocate to Adelaide",
+   "Search Gmail in:anywhere for BMD and SEEK 95755286 before applying (Gmail was not reachable on this tick)",
+   "Apply on SEEK 95755286 with the one page resume and the cover letter from this folder (SEEK expiry 7 Dec 2026)",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nOpen-web sweep on tick 20261110T1917Z (jobau, ZipRecruiter, Prosple, GradConnection, Employment Hero, LinkedIn, Melton City Council applynow board, employer careers pages) plus a SEEK 3 day sweep (60 details, nothing unscreened at fit 60) widened to a 7 day SEEK sweep (80 details). Found on the 7 day SEEK sweep (advert 95755286, listed 6 Nov 2026, expires 7 Dec 2026) and read in full on 11 Nov 2026. Held as HELD_MANDATORY_UNRESOLVED because of the Engineers Australia recognition line. Nothing sent. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json. Drafted from facts.json only; checks.py facts and tone OK; cover letter (compact_pdf.py) and tailored resume both one page, read back. Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Engineers Australia? → BSCE from the Philippines (2019); no EA assessment on record (Marc to answer).\n• ITPs and quality records? → I did quality checks and site reports; I have not used Australian ITP systems yet.\n• Relocation? → Open to discussing a move to Adelaide for the right role (Marc to confirm).\n• Work rights? → Subclass 485, full working rights until December 2027.\n• Start date and salary? → Marc to answer; nothing on record.",
+  "how_found": "Open-web sweep on tick 20261110T1917Z (jobau, ZipRecruiter, Prosple, GradConnection, Employment Hero, LinkedIn, Melton City Council applynow board, employer careers pages) plus a SEEK 3 day sweep (60 details, nothing unscreened at fit 60) widened to a 7 day SEEK sweep (80 details). Found on the 7 day SEEK sweep (advert 95755286, listed 6 Nov 2026, expires 7 Dec 2026) and read in full on 11 Nov 2026. Held as HELD_MANDATORY_UNRESOLVED because of the Engineers Australia recognition line. Nothing sent. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json. Drafted from facts.json only; checks.py facts and tone OK; cover letter (compact_pdf.py) and tailored resume both one page, read back. Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Engineers Australia? → BSCE from the Philippines (2019); no EA assessment on record (Marc to answer).",
+   "ITPs and quality records? → I did quality checks and site reports; I have not used Australian ITP systems yet.",
+   "Relocation? → Open to discussing a move to Adelaide for the right role (Marc to confirm).",
+   "Work rights? → Subclass 485, full working rights until December 2027.",
+   "Start date and salary? → Marc to answer; nothing on record."
+  ],
+  "checked_at": "2026-11-10T19:26:07.000Z",
+  "seek_id": "95755286",
+  "duplicate_key": "bmd|bmd",
+  "preparation_only": true,
+  "found_at": "2026-11-11T06:26+11:00 AEDT"
+ }
+]

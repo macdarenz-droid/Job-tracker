@@ -1,0 +1,27 @@
+import json
+sig="Kind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio"
+SITE="From 2019 to 2020 I worked on site in the Philippines. As a field engineer on residential subdivision finishing works I tracked procurement and materials and prepared site reports, material records and progress reports, and coordinated with engineers, subcontractors and suppliers to sort out site issues. Before that, as project-in-charge on a community hall renovation, I reviewed structural and architectural drawings and checked work against project requirements."
+DIP="In February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute in Australia, where I prepared and revised drawings in AutoCAD and Civil 3D. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019)."
+ELIG="I hold an Australian driver's licence with my own transport and a White Card, and I have full working rights to December 2027 on a Subclass 485 visa."
+cpb={"seek_id":None,"company":"CPB Contractors","role":"Document Controller","location":"Truganina, Melbourne VIC",
+"job_url":"https://careersmanager.pageuppeople.com/434/caw/en/job/1005896/document-controller","company_url":"https://www.cpbcon.com.au","route":"EMPLOYER_PORTAL","application_type":"ADVERTISED_VACANCY","vacancy_status":"OPEN_EMPLOYER_SITE",
+"recipient_name":"","recipient_role":"CPB Contractors recruitment (PageUp portal, job 1005896; agency applications not accepted)","recipient_email":"","contact_evidence_url":"https://careersmanager.pageuppeople.com/434/caw/en/job/1005896/document-controller",
+"subject":"Document Controller application, Marc Masarate",
+"email_body":"Not for sending. Apply on CPB's PageUp careers page (job 1005896); the advert publishes no application email.\n\n"+sig,
+"letter":{"recipient_name":"","recipient_role":"Hiring Team","company":"CPB Contractors","company_line":"CPB Contractors, with UGL and EIC, is building an 80 MW data centre in Truganina in Melbourne's west.",
+"subject":"Document Controller, Truganina data centre (job 1005896)","greeting":"Dear CPB Hiring Team,",
+"paragraphs":["Please accept my application for the Document Controller role on your Truganina data centre project. Keeping drawings, revisions and registers in order so the team always works from current information is work I take care over, and I would like to build my career in it on a CPB project.",
+SITE,
+DIP+" Between 2020 and 2022 I also worked in technical support, handling 40 to 60 cases a day and keeping accurate case notes.",
+ELIG+" I live in Melton, so Truganina is close by. I have not yet worked in a formal document control role or used Aconex or a similar system, so I would learn your processes quickly and follow every document through.",
+"I have attached my resume and would welcome the chance to talk about the role."],"closing":"Kind regards,"},
+"screening_answers":[{"q":"CPB PageUp application questions","a":"Not visible before applying; answer from the resume and cover letter. Work rights: Subclass 485, full working rights to December 2027 (not PR or citizen). Salary, start date and notice: Marc to answer."}],
+"checklist":["Search Gmail in:anywhere for CPB Contractors and job 1005896 before applying (Gmail was not reachable on this tick)","Confirm the advert is still open on CPB's PageUp page (no closing date shown)","Apply on PageUp job 1005896 with the one page resume and the cover letter from this folder","Answer any right-to-work question truthfully: Subclass 485, full working rights to December 2027","Record the apply date in /workspace/job-finds"],"notes":""}
+D=[('cpb',cpb)]
+import os
+if os.path.exists('mk2.py'): exec(open('mk2.py').read())
+for n,d in D:
+    json.dump(d,open(f'drafts/{n}.json','w'),indent=1,ensure_ascii=False)
+    open(f'drafts/{n}_email.txt','w').write(d['email_body'])
+    open(f'drafts/{n}_letter.txt','w').write('\n\n'.join(d['letter']['paragraphs']))
+    print(n,sum(len(p.split()) for p in d['letter']['paragraphs']))
