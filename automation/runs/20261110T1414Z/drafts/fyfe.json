@@ -1,0 +1,47 @@
+{
+ "seek_id": null,
+ "company": "Fyfe",
+ "role": "Graduate Civil Engineer (Property & Infrastructure)",
+ "location": "Adelaide SA",
+ "job_url": "https://www.careers-page.com/fyfe-2/job/93V47WVY",
+ "company_url": "https://fyfe.com.au",
+ "route": "EMPLOYER_PORTAL",
+ "application_type": "ADVERTISED_VACANCY",
+ "vacancy_status": "OPEN_EMPLOYER_SITE",
+ "recipient_name": "",
+ "recipient_role": "Fyfe careers team (enquiries to careers@fyfe.com.au as published on the advert)",
+ "recipient_email": "",
+ "contact_evidence_url": "https://www.careers-page.com/fyfe-2/job/93V47WVY",
+ "subject": "Graduate Civil Engineer application, Marc Masarate",
+ "email_body": "Not for sending. Apply on Fyfe's careers page once work rights eligibility is confirmed.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+ "letter": {
+  "recipient_name": "",
+  "recipient_role": "Hiring Team",
+  "company": "Fyfe",
+  "company_line": "Fyfe is an Australian multidisciplinary consultancy in engineering, environment, planning and surveying.",
+  "subject": "Graduate Civil Engineer, Property and Infrastructure",
+  "greeting": "Dear Fyfe Hiring Team,",
+  "paragraphs": [
+   "Please accept my application for the Graduate Civil Engineer role in your Adelaide Property and Infrastructure team. Supporting civil designs, drawings and quantity estimates for stormwater drainage, roads and crossings, alongside supervised site inspections, matches the design and documentation work I trained for.",
+   "In February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute in Australia, covering earthworks, road geometry, pavement design and stormwater drainage, with drawings prepared in AutoCAD and Civil 3D and cost estimates and bills of quantities. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019).",
+   "From 2019 to 2020 I worked on site in the Philippines. As a field engineer on residential subdivision finishing works I assisted with site inspections and quality checks, tracked procurement and materials, and prepared site, material and progress reports. Before that, as project-in-charge on a community hall renovation, I coordinated 10 to 15 workers each day and reviewed structural and architectural drawings against project requirements.",
+   "I hold an Australian driver's licence with my own transport and a White Card, and I have full working rights to December 2027 on a Subclass 485 visa. I live in Melton VIC and am open to discussing relocation to Adelaide for the right role. My software experience is from study rather than commercial production, so I would build on it quickly under your engineers' guidance.",
+   "I have attached my resume and would welcome the chance to talk about the role."
+  ],
+  "closing": "Kind regards,"
+ },
+ "screening_answers": [
+  {
+   "q": "Fyfe careers page questions",
+   "a": "Not visible before applying; answer from the resume and cover letter. Work rights: Subclass 485, full working rights to December 2027 (not PR or citizen). Salary and start date: Marc to answer."
+  }
+ ],
+ "checklist": [
+  "First confirm eligibility: the advert lists Australian citizenship or permanent residency, but its last line also accepts full Australian working rights; Marc to decide whether to ask careers@fyfe.com.au if a Subclass 485 holder is considered",
+  "Search Gmail in:anywhere for Fyfe before applying (Gmail was not reachable on this tick)",
+  "Confirm Marc is willing to relocate to Adelaide",
+  "Apply on the Fyfe careers page with the one page resume and the cover letter from this folder",
+  "Record the apply date in /workspace/job-finds"
+ ],
+ "notes": ""
+}

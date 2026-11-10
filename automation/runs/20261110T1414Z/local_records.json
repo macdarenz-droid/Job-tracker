@@ -1,0 +1,215 @@
+[
+ {
+  "id": "ea194242-7dd6-4f13-821d-0c76cabbfe65",
+  "key": "manual:ea194242-7dd6-4f13-821d-0c76cabbfe65",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261110T1414Z",
+  "created_at": "2026-11-10T14:25:16.000Z",
+  "updated_at": "2026-11-10T14:25:16.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Jaydo_Site_Engineer_Cover_Letter.pdf",
+    "sha256": "4f16ccc1bf701380311a537335111716c1fa8a35b40425559899fe21b2b2b7a6",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Jaydo_Resume.pdf",
+    "sha256": "dec8312f8cbea73693a3c25c504cd70c05c4ce25a51cf9263cb6bbcffd94a04a",
+    "stored_in": "local:/workspace/job-finds",
+    "note": "tailored one page resume built from facts.json"
+   }
+  ],
+  "company": "Jaydo Construction Pty Ltd",
+  "role": "Site Engineer - Urban Development - EOI 2027",
+  "location": "Keilor Park, Melbourne VIC",
+  "job_url": "https://www.seek.com.au/job/95514711",
+  "company_url": "https://jaydo.com.au",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_SEEK",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "Hiring team (SEEK quick apply; Jaydo's careers page points applicants to SEEK)",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://jaydo.com.au/careers/",
+  "contact_verified_at": "2026-11-10T14:25:16.000Z",
+  "contact_confidence": "none",
+  "subject": "Site Engineer, Urban Development application, Marc Masarate",
+  "email_body": "Not for sending. Apply through SEEK (advert 95514711); Jaydo's careers page sends applicants to its SEEK adverts.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Full time permanent Site Engineer in Jaydo's Urban Development team (Keilor Park): coordinating civil works for subdivisions and council projects, reviewing drawings, planning materials and subcontractors, RFIs, ITPs and quality records.",
+   "Matches Marc's 2019 to 2020 field engineer work on subdivision finishing works (inspections, quality checks, procurement and materials tracking, progress reports) plus his BSCE and civil design diploma; the advert says you don't need to know everything from day one.",
+   "Direct Victorian civil contractor about 30 minutes from Melton; White Card and licence questions are both Yes."
+  ],
+  "gaps": [
+   "No Australian construction experience",
+   "No sewer or water project experience",
+   "Under one year of site engineering"
+  ],
+  "match_score": {
+   "percent": 72,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Full time permanent Site Engineer in Jaydo's Urban Development team (Keilor Park): coordinating civil works for subdivisions and council projects, reviewing drawings, planning materials and subcontractors, RFIs, ITPs and quality records.",
+    "Matches Marc's 2019 to 2020 field engineer work on subdivision finishing works (inspections, quality checks, procurement and materials tracking, progress reports) plus his BSCE and civil design diploma; the advert says you don't need to know everything from day one.",
+    "Direct Victorian civil contractor about 30 minutes from Melton; White Card and licence questions are both Yes."
+   ],
+   "caution": "Advert ideally wants civil construction experience across drainage, sewer, water or subdivisions; Marc's is from the Philippines and he has not worked on sewer or water projects. Title says EOI 2027, so the start may be in 2027. SEEK expiry 26 Nov 2026."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-10-27",
+   "expires_at": "2026-11-26T23:59+11:00",
+   "verified_at": "2026-11-10T14:25:16.000Z",
+   "apply_instructions": "SEEK quick apply (advert 95514711) with resume and cover letter; three SEEK questions (work rights, White Card, licence).",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "Do you hold a Construction Induction Safety certificate (White Card)?",
+    "Do you have a current Australian driver's licence?"
+   ]
+  },
+  "screening_answers": [
+   {
+    "q": "Which of the following statements best describes your right to work in Australia?",
+    "a": "Temporary graduate visa (Subclass 485) with full working rights to December 2027"
+   },
+   {
+    "q": "Do you hold a Construction Induction Safety certificate (White Card)?",
+    "a": "Yes"
+   },
+   {
+    "q": "Do you have a current Australian driver's licence?",
+    "a": "Yes"
+   }
+  ],
+  "checklist": [
+   "Search Gmail in:anywhere for Jaydo and SEEK 95514711 before applying (Gmail was not reachable on this tick)",
+   "Apply on SEEK 95514711 with the one page resume and the cover letter from this folder",
+   "Answer the three SEEK questions as listed",
+   "Confirm the advert is still open (SEEK expiry 26 Nov 2026)",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nSEEK 3 day sweep on tick 20261110T1414Z (60 details; all fresh SEEK leads were already screened on earlier ticks or blocked by recent outreach), widened to a 7 day SEEK sweep (80 details, nothing unscreened) and an open-web sweep (jobau, Prosple, GradConnection, Jora, council boards, John Holland and Worley careers, employer pages). Found on the open web (jobau listing published 29 Oct 2026), then matched to SEEK advert 95514711 (listed 27 Oct 2026, expires 26 Nov 2026) and read in full on 11 Nov 2026. Jaydo's careers page directs applicants to its SEEK adverts and publishes no application email, so no email is prepared. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json. Drafted from facts.json only; checks.py facts and tone OK; cover letter (compact_pdf.py) and tailored resume both one page, read back. Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Subdivision experience? → Field engineer on residential subdivision finishing works in the Philippines, Sep 2019 to Feb 2020: inspections, quality checks, materials tracking and progress reports.\n• ITPs and quality records? → I did quality checks and site reports; I have not used Australian ITP systems yet.\n• Sewer and water? → Not yet; my coursework covered stormwater drainage design.\n• Work rights? → Subclass 485, full working rights until December 2027.\n• Start date and salary? → Marc to answer; nothing on record.",
+  "how_found": "SEEK 3 day sweep on tick 20261110T1414Z (60 details; all fresh SEEK leads were already screened on earlier ticks or blocked by recent outreach), widened to a 7 day SEEK sweep (80 details, nothing unscreened) and an open-web sweep (jobau, Prosple, GradConnection, Jora, council boards, John Holland and Worley careers, employer pages). Found on the open web (jobau listing published 29 Oct 2026), then matched to SEEK advert 95514711 (listed 27 Oct 2026, expires 26 Nov 2026) and read in full on 11 Nov 2026. Jaydo's careers page directs applicants to its SEEK adverts and publishes no application email, so no email is prepared. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json. Drafted from facts.json only; checks.py facts and tone OK; cover letter (compact_pdf.py) and tailored resume both one page, read back. Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Subdivision experience? → Field engineer on residential subdivision finishing works in the Philippines, Sep 2019 to Feb 2020: inspections, quality checks, materials tracking and progress reports.",
+   "ITPs and quality records? → I did quality checks and site reports; I have not used Australian ITP systems yet.",
+   "Sewer and water? → Not yet; my coursework covered stormwater drainage design.",
+   "Work rights? → Subclass 485, full working rights until December 2027.",
+   "Start date and salary? → Marc to answer; nothing on record."
+  ],
+  "checked_at": "2026-11-10T14:25:16.000Z",
+  "seek_id": "95514711",
+  "duplicate_key": "jaydo|jaydo",
+  "preparation_only": true,
+  "found_at": "2026-11-11T01:25+11:00 AEDT"
+ },
+ {
+  "id": "fb796e8a-7f4d-402f-b2a2-ba3ca45f332e",
+  "key": "manual:fb796e8a-7f4d-402f-b2a2-ba3ca45f332e",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261110T1414Z",
+  "created_at": "2026-11-10T14:25:16.000Z",
+  "updated_at": "2026-11-10T14:25:16.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Fyfe_Graduate_Civil_Engineer_Cover_Letter.pdf",
+    "sha256": "4d37435990575dc868a3adeeb0c7063908f661ef128c65707b9172fbd9377034",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Fyfe_Resume.pdf",
+    "sha256": "39d615a9fd8b69daead09807394c4de8d5c338fc46f3883733c46813c34ebe46",
+    "stored_in": "local:/workspace/job-finds",
+    "note": "tailored one page resume built from facts.json"
+   }
+  ],
+  "company": "Fyfe",
+  "role": "Graduate Civil Engineer (Property & Infrastructure)",
+  "location": "Adelaide SA",
+  "job_url": "https://www.careers-page.com/fyfe-2/job/93V47WVY",
+  "company_url": "https://fyfe.com.au",
+  "status": "HELD_MANDATORY_UNRESOLVED",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_EMPLOYER_SITE",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "Fyfe careers team (enquiries to careers@fyfe.com.au as published on the advert)",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.careers-page.com/fyfe-2/job/93V47WVY",
+  "contact_verified_at": "2026-11-10T14:25:16.000Z",
+  "contact_confidence": "none",
+  "subject": "Graduate Civil Engineer application, Marc Masarate",
+  "email_body": "Not for sending. Apply on Fyfe's careers page once work rights eligibility is confirmed.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Graduate Civil Engineer in Fyfe's Adelaide Property and Infrastructure team: civil designs, drawings, calculations, quantity estimates and supervised site inspections, including stormwater drainage, waterway crossings and roads.",
+   "Lines up with Marc's Advanced Diploma coursework (earthworks, road geometry, pavement, stormwater, cost estimates and bills of quantities in AutoCAD and Civil 3D) and his BSCE.",
+   "Direct employer; held only because the work rights requirement is unclear."
+  ],
+  "gaps": [
+   "Citizenship/PR wording unresolved",
+   "Relocation to Adelaide not confirmed",
+   "No Australian design office experience",
+   "BSCE completed 2019, not a recent degree"
+  ],
+  "match_score": {
+   "percent": 66,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Graduate Civil Engineer in Fyfe's Adelaide Property and Infrastructure team: civil designs, drawings, calculations, quantity estimates and supervised site inspections, including stormwater drainage, waterway crossings and roads.",
+    "Lines up with Marc's Advanced Diploma coursework (earthworks, road geometry, pavement, stormwater, cost estimates and bills of quantities in AutoCAD and Civil 3D) and his BSCE.",
+    "Direct employer; held only because the work rights requirement is unclear."
+   ],
+   "caution": "HELD: the requirements list says Australian citizenship or permanent residency, but the last line says citizens, PRs or people with full Australian working rights will be considered. Marc has full working rights on a 485 until December 2027, not PR. Adelaide means relocation, which Marc has not confirmed. Closing date not shown on Fyfe's page (one aggregator says 7 Dec 2026)."
+  },
+  "advert": {
+   "source": "open_web_fyfe_careers",
+   "listed_at": "2026-11-07",
+   "expires_at": null,
+   "verified_at": "2026-11-10T14:25:16.000Z",
+   "apply_instructions": "Apply on Fyfe's careers page (careers-page.com/fyfe-2). Agency applications not accepted. Enquiries: careers@fyfe.com.au (published on the advert).",
+   "screening_questions": []
+  },
+  "screening_answers": [
+   {
+    "q": "Fyfe careers page questions",
+    "a": "Not visible before applying; answer from the resume and cover letter. Work rights: Subclass 485, full working rights to December 2027 (not PR or citizen). Salary and start date: Marc to answer."
+   }
+  ],
+  "checklist": [
+   "First confirm eligibility: the advert lists Australian citizenship or permanent residency, but its last line also accepts full Australian working rights; Marc to decide whether to ask careers@fyfe.com.au if a Subclass 485 holder is considered",
+   "Search Gmail in:anywhere for Fyfe before applying (Gmail was not reachable on this tick)",
+   "Confirm Marc is willing to relocate to Adelaide",
+   "Apply on the Fyfe careers page with the one page resume and the cover letter from this folder",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nSEEK 3 day sweep on tick 20261110T1414Z (60 details; all fresh SEEK leads were already screened on earlier ticks or blocked by recent outreach), widened to a 7 day SEEK sweep (80 details, nothing unscreened) and an open-web sweep (jobau, Prosple, GradConnection, Jora, council boards, John Holland and Worley careers, employer pages). Found on the open web (jobau, published 7 Nov 2026) and read in full on Fyfe's own careers page on 11 Nov 2026. Held as HELD_MANDATORY_UNRESOLVED because the advert's citizenship/PR requirement conflicts with its own full working rights line. Nothing sent; Marc decides whether to ask careers@fyfe.com.au. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json. Drafted from facts.json only; checks.py facts and tone OK; cover letter (compact_pdf.py) and tailored resume both one page, read back. Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Work rights? → Subclass 485 with full working rights until December 2027; not PR.\n• Design software? → AutoCAD and Civil 3D from my Advanced Diploma; not yet in commercial production.\n• Relocation? → Open to discussing relocation to Adelaide for the right role (Marc to confirm).\n• Work rights? → Subclass 485, full working rights until December 2027.\n• Start date and salary? → Marc to answer; nothing on record.",
+  "how_found": "SEEK 3 day sweep on tick 20261110T1414Z (60 details; all fresh SEEK leads were already screened on earlier ticks or blocked by recent outreach), widened to a 7 day SEEK sweep (80 details, nothing unscreened) and an open-web sweep (jobau, Prosple, GradConnection, Jora, council boards, John Holland and Worley careers, employer pages). Found on the open web (jobau, published 7 Nov 2026) and read in full on Fyfe's own careers page on 11 Nov 2026. Held as HELD_MANDATORY_UNRESOLVED because the advert's citizenship/PR requirement conflicts with its own full working rights line. Nothing sent; Marc decides whether to ask careers@fyfe.com.au. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json. Drafted from facts.json only; checks.py facts and tone OK; cover letter (compact_pdf.py) and tailored resume both one page, read back. Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Work rights? → Subclass 485 with full working rights until December 2027; not PR.",
+   "Design software? → AutoCAD and Civil 3D from my Advanced Diploma; not yet in commercial production.",
+   "Relocation? → Open to discussing relocation to Adelaide for the right role (Marc to confirm).",
+   "Work rights? → Subclass 485, full working rights until December 2027.",
+   "Start date and salary? → Marc to answer; nothing on record."
+  ],
+  "checked_at": "2026-11-10T14:25:16.000Z",
+  "seek_id": null,
+  "duplicate_key": "fyfe|fyfe",
+  "preparation_only": true,
+  "found_at": "2026-11-11T01:25+11:00 AEDT"
+ }
+]

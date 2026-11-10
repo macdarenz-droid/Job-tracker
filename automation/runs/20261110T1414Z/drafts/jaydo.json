@@ -1,0 +1,55 @@
+{
+ "seek_id": "95514711",
+ "company": "Jaydo Construction Pty Ltd",
+ "role": "Site Engineer - Urban Development - EOI 2027",
+ "location": "Keilor Park, Melbourne VIC",
+ "job_url": "https://www.seek.com.au/job/95514711",
+ "company_url": "https://jaydo.com.au",
+ "route": "SEEK",
+ "application_type": "ADVERTISED_VACANCY",
+ "vacancy_status": "OPEN_SEEK",
+ "recipient_name": "",
+ "recipient_role": "Hiring team (SEEK quick apply; Jaydo's careers page points applicants to SEEK)",
+ "recipient_email": "",
+ "contact_evidence_url": "https://jaydo.com.au/careers/",
+ "subject": "Site Engineer, Urban Development application, Marc Masarate",
+ "email_body": "Not for sending. Apply through SEEK (advert 95514711); Jaydo's careers page sends applicants to its SEEK adverts.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+ "letter": {
+  "recipient_name": "",
+  "recipient_role": "Hiring Team",
+  "company": "Jaydo Construction Pty Ltd",
+  "company_line": "Jaydo is a Victorian civil contractor delivering water, sewerage, drainage and related infrastructure, and its Urban Development team builds civil works for subdivisions and council projects.",
+  "subject": "Site Engineer, Urban Development (EOI 2027)",
+  "greeting": "Dear Jaydo Hiring Team,",
+  "paragraphs": [
+   "Please accept my application for the Site Engineer role in your Urban Development team, advertised on SEEK. Working between the site and the project team, reviewing drawings, planning materials and subcontractors, and keeping ITPs and quality records up to date is the work I want to build my career in.",
+   "From 2019 to 2020 I worked on site in the Philippines. As a field engineer on residential subdivision finishing works I assisted with site inspections and quality checks, tracked procurement and materials, and prepared site, material and progress reports. Before that, as project-in-charge on a community hall renovation, I coordinated 10 to 15 workers each day and reviewed structural and architectural drawings against project requirements.",
+   "In February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute in Australia, covering earthworks, road geometry, pavement design and stormwater drainage, with drawings prepared in AutoCAD and Civil 3D and cost estimates and bills of quantities. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019).",
+   "I hold an Australian driver's licence with my own transport and a White Card, and I have full working rights to December 2027 on a Subclass 485 visa. I live in Melton, so Keilor Park is within easy reach. My site experience is from the Philippines and I have not yet worked on sewer or water projects, so I would learn your methods quickly and follow the work through carefully.",
+   "I have attached my resume and would welcome the chance to talk about the role."
+  ],
+  "closing": "Kind regards,"
+ },
+ "screening_answers": [
+  {
+   "q": "Which of the following statements best describes your right to work in Australia?",
+   "a": "Temporary graduate visa (Subclass 485) with full working rights to December 2027"
+  },
+  {
+   "q": "Do you hold a Construction Induction Safety certificate (White Card)?",
+   "a": "Yes"
+  },
+  {
+   "q": "Do you have a current Australian driver's licence?",
+   "a": "Yes"
+  }
+ ],
+ "checklist": [
+  "Search Gmail in:anywhere for Jaydo and SEEK 95514711 before applying (Gmail was not reachable on this tick)",
+  "Apply on SEEK 95514711 with the one page resume and the cover letter from this folder",
+  "Answer the three SEEK questions as listed",
+  "Confirm the advert is still open (SEEK expiry 26 Nov 2026)",
+  "Record the apply date in /workspace/job-finds"
+ ],
+ "notes": ""
+}
