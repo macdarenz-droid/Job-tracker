@@ -1,0 +1,193 @@
+[
+ {
+  "id": "e6cca93b-09b1-4c99-b72e-d9f15407f77d",
+  "key": "manual:e6cca93b-09b1-4c99-b72e-d9f15407f77d",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261110T0418Z",
+  "created_at": "2026-11-10T04:25:17.000Z",
+  "updated_at": "2026-11-10T04:25:17.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Hobsons_Bay_Graduate_Drainage_and_Development_Engineer_Cover_Letter.pdf",
+    "sha256": "9159822d068bee6958db107d772804b6d630680a19ddb3e80647fbda4eb706e3",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Hobsons_Bay_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "stored_in": "local:/workspace/job-finds"
+   }
+  ],
+  "company": "Hobsons Bay City Council",
+  "role": "Graduate Drainage and Development Engineer",
+  "location": "Altona, Melbourne VIC",
+  "job_url": "https://au.prosple.com/graduate-employers/hobsons-bay-city-council/jobs-internships/graduate-drainage-and-development-engineer",
+  "company_url": "https://www.hobsonsbay.vic.gov.au/Council/Work-opportunities",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_EMPLOYER_SITE",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "Nicholas Daglas",
+  "recipient_role": "Team Leader Drainage and Development (named in the advert for enquiries via careers@hobsonsbay.vic.gov.au; email applications are not accepted)",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.glassdoor.com.au/job-listing/jv?jl=1010314178914",
+  "contact_verified_at": "2026-11-10T04:25:17.000Z",
+  "contact_confidence": "none",
+  "subject": "Graduate Drainage and Development Engineer application, Marc Masarate",
+  "email_body": "Not for sending. Hobsons Bay accepts applications only through its online portal and says email submissions will not be accepted. If Marc wants to ask Nicholas Daglas a question about the role before applying, it goes to careers@hobsonsbay.vic.gov.au as an enquiry, not an application.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Band 5 Graduate Drainage and Development Engineer, Altona (full time, fixed term to Oct 2028, $78,155 to $90,691 + RDO + super): drainage investigations, development assessments, flood mitigation, LPOD and build-over-easement requests, GIS.",
+   "Built for a recent civil graduate with under two years' experience; matches Marc's BSCE plus Advanced Diploma stormwater drainage design, Before You Dig work and site inspection background. Altona is a short drive from Melton.",
+   "Direct employer (council); visa holders with full working rights accepted; apply on the council portal."
+  ],
+  "gaps": [
+   "Engineers Australia eligibility not confirmed",
+   "No local government experience",
+   "GIS and flood modelling not on record"
+  ],
+  "match_score": {
+   "percent": 72,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Band 5 Graduate Drainage and Development Engineer, Altona (full time, fixed term to Oct 2028, $78,155 to $90,691 + RDO + super): drainage investigations, development assessments, flood mitigation, LPOD and build-over-easement requests, GIS.",
+    "Built for a recent civil graduate with under two years' experience; matches Marc's BSCE plus Advanced Diploma stormwater drainage design, Before You Dig work and site inspection background. Altona is a short drive from Melton.",
+    "Direct employer (council); visa holders with full working rights accepted; apply on the council portal."
+   ],
+   "caution": "Asks for eligibility for Engineers Australia membership; Marc's BSCE is from the Philippines and no EA assessment is on record, so Marc must decide how to answer. Requires a Victorian licence (on record) and a police check. Closes 16 Nov 2026, so apply this week."
+  },
+  "advert": {
+   "source": "open_web_prosple_glassdoor",
+   "listed_at": "2026-11-03",
+   "expires_at": "2026-11-16T23:30+11:00",
+   "verified_at": "2026-11-10T04:25:17.000Z",
+   "apply_instructions": "Apply via Hobsons Bay Council's online portal (Work opportunities page); email and late applications not accepted. Max 2 page cover letter plus CV.",
+   "screening_questions": []
+  },
+  "screening_answers": [
+   {
+    "q": "Council portal questions",
+    "a": "Not visible before starting the form; answer from the resume and cover letter. Police check: willing to undergo pre-employment checks (locked). Victorian driver's licence: Yes (on record). Start date and salary: Marc to answer."
+   }
+  ],
+  "checklist": [
+   "Apply on the Hobsons Bay online portal (Work opportunities page, Mercury eRecruit) before 11.30pm Monday 16 Nov 2026; email applications are not accepted",
+   "Read the Position Description on the portal and check the key selection criteria against the cover letter",
+   "Marc to decide how to answer 'eligibility for Engineers Australia membership' (his BSCE is from the Philippines; no EA assessment on record)",
+   "Attach the resume and the cover letter (max two pages)",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nSEEK 5 day sweep on tick 20261110T0418Z (1125 seen, 255 past the prefilter, 80 details; every fresh SEEK lead was experienced-only, already screened, or blocked by recent outreach, e.g. Egis and City of Canada Bay) widened to an open-web sweep (WebSearch of council careers, Prosple, jobau, employer careers pages). Found on the open web (Prosple, Glassdoor, SimplyHired listings of the Hobsons Bay advert; also in Marc's LinkedIn job alert of 4 Nov 2026). Enquiries go to Nicholas Daglas via careers@hobsonsbay.vic.gov.au; applications only through the portal, so no email is prepared. Dedupe: tracker.py check new, not in /workspace/job-finds; Gmail in:anywhere (includeSpamTrash) search for the employer on 10 Nov 2026 found no receipt or prior email (only a LinkedIn alert for Hobsons Bay). Drafted from facts.json only; checks.py facts OK; cover letter rendered with compact_pdf.py (one page, read back). Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Why council drainage? → Stormwater drainage design was core to my Advanced Diploma and I want to see it applied to real catchments near home.\n• Development assessment? → Not yet on a job; I reviewed drawings against requirements on site in 2019 to 2020.\n• EA membership? → Marc to answer.\n• Work rights? → Subclass 485, full working rights until December 2027.\n• Start date and salary? → Marc to answer; nothing on record.",
+  "how_found": "SEEK 5 day sweep on tick 20261110T0418Z (1125 seen, 255 past the prefilter, 80 details; every fresh SEEK lead was experienced-only, already screened, or blocked by recent outreach, e.g. Egis and City of Canada Bay) widened to an open-web sweep (WebSearch of council careers, Prosple, jobau, employer careers pages). Found on the open web (Prosple, Glassdoor, SimplyHired listings of the Hobsons Bay advert; also in Marc's LinkedIn job alert of 4 Nov 2026). Enquiries go to Nicholas Daglas via careers@hobsonsbay.vic.gov.au; applications only through the portal, so no email is prepared. Dedupe: tracker.py check new, not in /workspace/job-finds; Gmail in:anywhere (includeSpamTrash) search for the employer on 10 Nov 2026 found no receipt or prior email (only a LinkedIn alert for Hobsons Bay). Drafted from facts.json only; checks.py facts OK; cover letter rendered with compact_pdf.py (one page, read back). Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Why council drainage? → Stormwater drainage design was core to my Advanced Diploma and I want to see it applied to real catchments near home.",
+   "Development assessment? → Not yet on a job; I reviewed drawings against requirements on site in 2019 to 2020.",
+   "EA membership? → Marc to answer.",
+   "Work rights? → Subclass 485, full working rights until December 2027.",
+   "Start date and salary? → Marc to answer; nothing on record."
+  ],
+  "checked_at": "2026-11-10T04:25:17.000Z",
+  "seek_id": null,
+  "duplicate_key": "hobsons|hobsons",
+  "preparation_only": true,
+  "found_at": "2026-11-10T15:25+11:00 AEDT"
+ },
+ {
+  "id": "88739a0b-16fb-4378-9647-45279007b2c5",
+  "key": "manual:88739a0b-16fb-4378-9647-45279007b2c5",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261110T0418Z",
+  "created_at": "2026-11-10T04:25:17.000Z",
+  "updated_at": "2026-11-10T04:25:17.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Core-EP_Junior_Drafter_Cover_Letter.pdf",
+    "sha256": "f6a43e2257708fadcc0c31d565afe05518b2dd9dd67f0becf25b8379182db912",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Core-EP_Resume.pdf",
+    "sha256": "39429ac470f27a4e328f873d4e845babda788069bdcceef12c833016c61df856",
+    "stored_in": "local:/workspace/job-finds"
+   }
+  ],
+  "company": "Core Environmental Projects (Core-EP)",
+  "role": "Junior Drafter",
+  "location": "Melbourne VIC (on site)",
+  "job_url": "https://core-ep.com.au/careers/junior-drafter/",
+  "company_url": "https://core-ep.com.au",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_EMPLOYER_SITE",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "Core-EP recruitment contact (address published in the advert as the place to send applications)",
+  "recipient_email": "aditiagarwal@core-ep.com.au",
+  "contact_email": "aditiagarwal@core-ep.com.au",
+  "contact_evidence_url": "https://core-ep.com.au/careers/junior-drafter/",
+  "contact_verified_at": "2026-11-10T04:25:17.000Z",
+  "contact_confidence": "published_direct",
+  "subject": "Junior Drafter application, Marc Masarate",
+  "email_body": "Hello,\n\nI'm applying for the Junior Drafter role in your Melbourne office, advertised on the Core-EP careers page.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, where I prepared and reviewed technical drawings in AutoCAD and Civil 3D for road geometry, earthworks, pavement and stormwater drainage, following Australian Standards. I also hold a Bachelor of Science in Civil Engineering (2019), and from 2019 to 2020 I worked on site in the Philippines doing inspections, quality checks and progress reports, so I know how drawings get used in the field.\n\nPreparing landfill, gas management and remediation drawings with your Senior Drafter is a good way for me to build my drafting skills on real projects. Earthworks and drainage are the parts of my study closest to that work. I live in Melton VIC with a licence and my own transport, and I have full working rights to December 2027 on a 485 visa.\n\nI've attached my resume and a short cover letter. Could we arrange a time to talk?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Permanent full time Junior Drafter in Core-EP's Melbourne office, reporting to the Senior Drafter: 2D and 3D CAD drawings for landfill, gas management and remediation projects, drawing registers and as-builts.",
+   "Asks only for Cert III or IV in drafting or engineering and AutoCAD with Civil 3D or willingness to learn; Marc's Advanced Diploma and AutoCAD/Civil 3D coursework exceed that. Matches his junior civil drafting and documentation target.",
+   "Direct employer with a published application email, so an email application is prepared (not sent)."
+  ],
+  "gaps": [
+   "No design office drafting experience",
+   "No environmental or landfill drafting on record"
+  ],
+  "match_score": {
+   "percent": 66,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Permanent full time Junior Drafter in Core-EP's Melbourne office, reporting to the Senior Drafter: 2D and 3D CAD drawings for landfill, gas management and remediation projects, drawing registers and as-builts.",
+    "Asks only for Cert III or IV in drafting or engineering and AutoCAD with Civil 3D or willingness to learn; Marc's Advanced Diploma and AutoCAD/Civil 3D coursework exceed that. Matches his junior civil drafting and documentation target.",
+    "Direct employer with a published application email, so an email application is prepared (not sent)."
+   ],
+   "caution": "Environmental (landfill and gas) drafting rather than roads; Marc has no office drafting experience. Office suburb not stated on the advert. No closing date shown."
+  },
+  "advert": {
+   "source": "core-ep_careers",
+   "listed_at": "2026-10-28",
+   "expires_at": null,
+   "verified_at": "2026-11-10T04:25:17.000Z",
+   "apply_instructions": "Send an introductory letter with updated CV to aditiagarwal@core-ep.com.au (per advert).",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Check Gmail in:anywhere for Core-EP once more (none found on 10 Nov 2026)",
+   "Confirm the advert is still on https://core-ep.com.au/careers/junior-drafter/ (live on 10 Nov 2026; no closing date shown)",
+   "Marc to approve the email, then send it from macdarenz@gmail.com to aditiagarwal@core-ep.com.au with the resume and cover letter attached",
+   "Record the send date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nSEEK 5 day sweep on tick 20261110T0418Z (1125 seen, 255 past the prefilter, 80 details; every fresh SEEK lead was experienced-only, already screened, or blocked by recent outreach, e.g. Egis and City of Canada Bay) widened to an open-web sweep (WebSearch of council careers, Prosple, jobau, employer careers pages). Found on the open web (jobau and TheBigJobsite listings, published 28 Oct 2026) and verified live on the Core-EP careers page on 10 Nov 2026. The advert says to send an introductory letter and CV to aditiagarwal@core-ep.com.au. Email prepared, not sent: finds are saved locally only per Marc's 20 Oct 2026 instruction, so Marc approves any send. Dedupe: tracker.py check new, not in /workspace/job-finds; Gmail in:anywhere (includeSpamTrash) search for the employer on 10 Nov 2026 found no receipt or prior email (only a LinkedIn alert for Hobsons Bay). Drafted from facts.json only; checks.py facts OK; cover letter rendered with compact_pdf.py (one page, read back). Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Why environmental drafting? → It builds on my earthworks and drainage design study and gives real project drawing work.\n• Software? → AutoCAD 2D and Civil 3D from my Advanced Diploma.\n• Office experience? → None yet; site experience 2019 to 2020 using drawings in the field.\n• Work rights? → Subclass 485, full working rights until December 2027.\n• Start date and salary? → Marc to answer; nothing on record.",
+  "how_found": "SEEK 5 day sweep on tick 20261110T0418Z (1125 seen, 255 past the prefilter, 80 details; every fresh SEEK lead was experienced-only, already screened, or blocked by recent outreach, e.g. Egis and City of Canada Bay) widened to an open-web sweep (WebSearch of council careers, Prosple, jobau, employer careers pages). Found on the open web (jobau and TheBigJobsite listings, published 28 Oct 2026) and verified live on the Core-EP careers page on 10 Nov 2026. The advert says to send an introductory letter and CV to aditiagarwal@core-ep.com.au. Email prepared, not sent: finds are saved locally only per Marc's 20 Oct 2026 instruction, so Marc approves any send. Dedupe: tracker.py check new, not in /workspace/job-finds; Gmail in:anywhere (includeSpamTrash) search for the employer on 10 Nov 2026 found no receipt or prior email (only a LinkedIn alert for Hobsons Bay). Drafted from facts.json only; checks.py facts OK; cover letter rendered with compact_pdf.py (one page, read back). Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Why environmental drafting? → It builds on my earthworks and drainage design study and gives real project drawing work.",
+   "Software? → AutoCAD 2D and Civil 3D from my Advanced Diploma.",
+   "Office experience? → None yet; site experience 2019 to 2020 using drawings in the field.",
+   "Work rights? → Subclass 485, full working rights until December 2027.",
+   "Start date and salary? → Marc to answer; nothing on record."
+  ],
+  "checked_at": "2026-11-10T04:25:17.000Z",
+  "seek_id": null,
+  "duplicate_key": "core|coreep",
+  "preparation_only": true,
+  "found_at": "2026-11-10T15:25+11:00 AEDT"
+ }
+]

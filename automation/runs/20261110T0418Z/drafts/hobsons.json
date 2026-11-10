@@ -1,0 +1,47 @@
+{
+ "seek_id": null,
+ "company": "Hobsons Bay City Council",
+ "role": "Graduate Drainage and Development Engineer",
+ "location": "Altona, Melbourne VIC",
+ "job_url": "https://au.prosple.com/graduate-employers/hobsons-bay-city-council/jobs-internships/graduate-drainage-and-development-engineer",
+ "company_url": "https://www.hobsonsbay.vic.gov.au/Council/Work-opportunities",
+ "route": "EMPLOYER_PORTAL",
+ "application_type": "ADVERTISED_VACANCY",
+ "vacancy_status": "OPEN_EMPLOYER_SITE",
+ "recipient_name": "Nicholas Daglas",
+ "recipient_role": "Team Leader Drainage and Development (named in the advert for enquiries via careers@hobsonsbay.vic.gov.au; email applications are not accepted)",
+ "recipient_email": "",
+ "contact_evidence_url": "https://www.glassdoor.com.au/job-listing/jv?jl=1010314178914",
+ "subject": "Graduate Drainage and Development Engineer application, Marc Masarate",
+ "email_body": "Not for sending. Hobsons Bay accepts applications only through its online portal and says email submissions will not be accepted. If Marc wants to ask Nicholas Daglas a question about the role before applying, it goes to careers@hobsonsbay.vic.gov.au as an enquiry, not an application.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+ "letter": {
+  "recipient_name": "Nicholas Daglas",
+  "recipient_role": "Team Leader Drainage and Development",
+  "company": "Hobsons Bay City Council",
+  "company_line": "Hobsons Bay City Council's Drainage and Development team looks after drainage investigations, flood mitigation and development engineering assessments.",
+  "subject": "Graduate Drainage and Development Engineer",
+  "greeting": "Dear Nicholas,",
+  "paragraphs": [
+   "I am applying for the Graduate Drainage and Development Engineer role in your Drainage and Development team. Drainage investigations, assessing engineering plans for development and supporting flood mitigation work in a council close to where I live is the kind of graduate role I have been working towards.",
+   "In February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute in Australia. I designed and documented road geometry, earthworks, pavement systems and stormwater drainage in AutoCAD and Civil 3D using Australian Standards, and prepared cost estimates and bills of quantities. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019), where I studied hydraulics, surveying and civil design. Stormwater drainage design was a core part of my coursework, and I lodged Before You Dig Australia enquiries and designed around existing services and site constraints.",
+   "From 2019 to 2020 I worked on site in the Philippines. As a field engineer on subdivision finishing works I assisted with site inspections and quality checks, tracked procurement and materials, and prepared site, material and progress reports. As project-in-charge on a community hall renovation I coordinated 10 to 15 workers a day, reviewed drawings against project requirements and kept the client up to date. That work taught me to check plans against what is built and to raise issues early.",
+   "I hold an Australian driver's licence with my own transport and a White Card, and I have full working rights to December 2027 on a Subclass 485 visa. I live in Melton VIC, a short drive from Altona. I have not yet worked in local government, so I would learn your drainage policies, Legal Point of Discharge and Build Over Easement processes quickly and keep clear records.",
+   "I have attached my resume and would welcome the chance to talk about the role."
+  ],
+  "closing": "Kind regards,"
+ },
+ "screening_answers": [
+  {
+   "q": "Council portal questions",
+   "a": "Not visible before starting the form; answer from the resume and cover letter. Police check: willing to undergo pre-employment checks (locked). Victorian driver's licence: Yes (on record). Start date and salary: Marc to answer."
+  }
+ ],
+ "checklist": [
+  "Apply on the Hobsons Bay online portal (Work opportunities page, Mercury eRecruit) before 11.30pm Monday 16 Nov 2026; email applications are not accepted",
+  "Read the Position Description on the portal and check the key selection criteria against the cover letter",
+  "Marc to decide how to answer 'eligibility for Engineers Australia membership' (his BSCE is from the Philippines; no EA assessment on record)",
+  "Attach the resume and the cover letter (max two pages)",
+  "Record the apply date in /workspace/job-finds"
+ ],
+ "notes": ""
+}

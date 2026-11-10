@@ -1,0 +1,13 @@
+== coreep_email
+OK
+OK
+== coreep_letter
+- too long: 272 words (limit 220)
+- starts too many sentences with I
+2 issue(s)
+OK
+== hobsons_letter
+- too long: 306 words (limit 220)
+- starts too many sentences with I
+2 issue(s)
+OK
