@@ -1,0 +1,47 @@
+{
+ "seek_id": null,
+ "company": "Carelli Constructions Pty Ltd",
+ "role": "Graduate/Undergraduate – Project Management",
+ "location": "Notting Hill, Melbourne VIC",
+ "job_url": "https://employmenthero.com/jobs/position/carelli-constructions-pty-ltd-graduateundergraduate-project-management-ccup5/",
+ "company_url": "https://www.carelliconstructions.com.au",
+ "route": "EMPLOYER_PORTAL",
+ "application_type": "ADVERTISED_VACANCY",
+ "vacancy_status": "OPEN_EMPLOYER_SITE",
+ "recipient_name": "",
+ "recipient_role": "Hiring team (applications through the Employment Hero job page; no application email published)",
+ "recipient_email": "",
+ "contact_evidence_url": "https://employmenthero.com/jobs/position/carelli-constructions-pty-ltd-graduateundergraduate-project-management-ccup5/",
+ "subject": "Graduate/Undergraduate Project Management application, Marc Masarate",
+ "email_body": "Not for sending. Carelli takes applications through the Apply now button on its Employment Hero job page and publishes no application email.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+ "letter": {
+  "recipient_name": "",
+  "recipient_role": "Hiring Team",
+  "company": "Carelli Constructions Pty Ltd",
+  "company_line": "Carelli Constructions provides design, construction and project management services for commercial and industrial projects from Notting Hill.",
+  "subject": "Graduate/Undergraduate, Project Management",
+  "greeting": "Dear Carelli Hiring Team,",
+  "paragraphs": [
+   "Please accept my application for the Graduate/Undergraduate Project Management role. Supporting your project managers with drawing registers, revision control, RFIs, procurement and site inspections is the coordination and documentation work I want to build my career in.",
+   "From 2019 to 2020 I worked on site in the Philippines. As project-in-charge on a community hall renovation I coordinated 10 to 15 workers each day, reviewed structural and architectural drawings against project requirements and kept the client up to date. As a field engineer on residential subdivision finishing works I assisted with site inspections and quality checks, tracked procurement and materials, and prepared site, material and progress reports.",
+   "In February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute in Australia, where I prepared and reviewed technical drawings in AutoCAD and Civil 3D and prepared cost estimates and bills of quantities. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019). That study gave me a practical understanding of design coordination, constructability and how works move from concept to documentation.",
+   "I hold an Australian driver's licence with my own transport and a White Card, and I have full working rights to December 2027 on a Subclass 485 visa. I live in Melton VIC. My site experience is from the Philippines and my coursework was civil rather than commercial building, so I would learn your systems and contracts quickly and keep accurate records from day one.",
+   "I have attached my resume and would welcome the chance to talk about the role."
+  ],
+  "closing": "Kind regards,"
+ },
+ "screening_answers": [
+  {
+   "q": "Employment Hero application questions",
+   "a": "Not visible before signing in; answer from the resume and cover letter. Work rights: Subclass 485, full working rights to December 2027. Licence: Australian driver's licence and own transport. Salary and start date: Marc to answer."
+  }
+ ],
+ "checklist": [
+  "Open the Employment Hero job page and confirm Apply now still works (live on 10 Nov 2026, posted 26 Oct 2026; one aggregator, jobau, shows applications paused)",
+  "Sign in to Employment Hero as macdarenz@gmail.com (pause for Marc if an OTP is sent)",
+  "Attach the one page resume and the cover letter from this folder",
+  "Answer any questions from the resume; salary and start date are Marc's call",
+  "Record the apply date in /workspace/job-finds"
+ ],
+ "notes": ""
+}

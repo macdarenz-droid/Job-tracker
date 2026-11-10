@@ -1,0 +1,224 @@
+[
+ {
+  "id": "00db02b5-21e8-49d3-898e-109baf076706",
+  "key": "manual:00db02b5-21e8-49d3-898e-109baf076706",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261110T0918Z",
+  "created_at": "2026-11-10T09:26:21.000Z",
+  "updated_at": "2026-11-10T09:26:21.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Carelli_Graduate_Project_Management_Cover_Letter.pdf",
+    "sha256": "632b1e344fb3e3749305c55f2b8a9e94c47b0f0d628af9c297f7eb796dfe933c",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Carelli_Resume.pdf",
+    "sha256": "2466a7a89ac07ae66f191d0ff531e70278de29e1497df557b36823ef79690551",
+    "stored_in": "local:/workspace/job-finds",
+    "note": "tailored one page resume built from facts.json"
+   }
+  ],
+  "company": "Carelli Constructions Pty Ltd",
+  "role": "Graduate/Undergraduate – Project Management",
+  "location": "Notting Hill, Melbourne VIC",
+  "job_url": "https://employmenthero.com/jobs/position/carelli-constructions-pty-ltd-graduateundergraduate-project-management-ccup5/",
+  "company_url": "https://www.carelliconstructions.com.au",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_EMPLOYER_SITE",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "Hiring team (applications through the Employment Hero job page; no application email published)",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://employmenthero.com/jobs/position/carelli-constructions-pty-ltd-graduateundergraduate-project-management-ccup5/",
+  "contact_verified_at": "2026-11-10T09:26:21.000Z",
+  "contact_confidence": "none",
+  "subject": "Graduate/Undergraduate Project Management application, Marc Masarate",
+  "email_body": "Not for sending. Carelli takes applications through the Apply now button on its Employment Hero job page and publishes no application email.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Permanent full time entry level Graduate/Undergraduate Project Management role with a Notting Hill commercial builder: coordination, drawing registers and revision control, RFIs, procurement, progress claims and site inspections.",
+   "Asks for a recent Engineering or related qualification and site exposure (highly desirable); Marc has the Advanced Diploma (Feb 2026), BSCE and 2019 to 2020 site coordination, inspections and procurement tracking. Matches his site coordination and documentation target.",
+   "Direct employer; apply on Employment Hero."
+  ],
+  "gaps": [
+   "No Australian construction experience",
+   "Procore / MS Project not on record",
+   "Commercial building, not civil"
+  ],
+  "match_score": {
+   "percent": 66,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Permanent full time entry level Graduate/Undergraduate Project Management role with a Notting Hill commercial builder: coordination, drawing registers and revision control, RFIs, procurement, progress claims and site inspections.",
+    "Asks for a recent Engineering or related qualification and site exposure (highly desirable); Marc has the Advanced Diploma (Feb 2026), BSCE and 2019 to 2020 site coordination, inspections and procurement tracking. Matches his site coordination and documentation target.",
+    "Direct employer; apply on Employment Hero."
+   ],
+   "caution": "Commercial building rather than civil works; Procore and MS Project (advantageous) are not on record. Notting Hill is a long drive from Melton (own car). Jobau shows the listing as paused, but the Employment Hero page (posted 26 Oct 2026) still shows Apply now on 10 Nov 2026. No closing date."
+  },
+  "advert": {
+   "source": "open_web_employmenthero",
+   "listed_at": "2026-10-26",
+   "expires_at": null,
+   "verified_at": "2026-11-10T09:26:21.000Z",
+   "apply_instructions": "Apply now on the Employment Hero job page (Employment Hero account). No application email published.",
+   "screening_questions": []
+  },
+  "screening_answers": [
+   {
+    "q": "Employment Hero application questions",
+    "a": "Not visible before signing in; answer from the resume and cover letter. Work rights: Subclass 485, full working rights to December 2027. Licence: Australian driver's licence and own transport. Salary and start date: Marc to answer."
+   }
+  ],
+  "checklist": [
+   "Open the Employment Hero job page and confirm Apply now still works (live on 10 Nov 2026, posted 26 Oct 2026; one aggregator, jobau, shows applications paused)",
+   "Sign in to Employment Hero as macdarenz@gmail.com (pause for Marc if an OTP is sent)",
+   "Attach the one page resume and the cover letter from this folder",
+   "Answer any questions from the resume; salary and start date are Marc's call",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nSEEK 4 day sweep on tick 20261110T0918Z (80 details; fresh SEEK leads mostly experienced-only, mechanical/electrical, or already screened on earlier ticks), widened with SEEK keyword searches over 14 days (junior draftsperson, graduate civil, junior civil designer, site administrator civil, project coordinator civil) and an open-web sweep (WebSearch of jobau, Prosple, Employment Hero, council boards, LinkedIn listings). Found on the open web (Employment Hero job page, also on ViewJobs and jobau, posted 26 Oct 2026) and read in full on 10 Nov 2026. No published application email or named hiring contact, so no email is prepared. Gmail could not be checked on this tick (Gmail connector needs sign-in), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json. Drafted from facts.json only; checks.py facts and tone OK; cover letter (compact_pdf.py) and tailored resume both one page, read back. Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Why commercial construction? → It builds on my site coordination, drawing review and procurement tracking from 2019 to 2020.\n• Software? → Microsoft Office, AutoCAD, Civil 3D and Revit; no Procore yet.\n• Australian experience? → None yet; my site work was in the Philippines.\n• Work rights? → Subclass 485, full working rights until December 2027.\n• Start date and salary? → Marc to answer; nothing on record.",
+  "how_found": "SEEK 4 day sweep on tick 20261110T0918Z (80 details; fresh SEEK leads mostly experienced-only, mechanical/electrical, or already screened on earlier ticks), widened with SEEK keyword searches over 14 days (junior draftsperson, graduate civil, junior civil designer, site administrator civil, project coordinator civil) and an open-web sweep (WebSearch of jobau, Prosple, Employment Hero, council boards, LinkedIn listings). Found on the open web (Employment Hero job page, also on ViewJobs and jobau, posted 26 Oct 2026) and read in full on 10 Nov 2026. No published application email or named hiring contact, so no email is prepared. Gmail could not be checked on this tick (Gmail connector needs sign-in), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json. Drafted from facts.json only; checks.py facts and tone OK; cover letter (compact_pdf.py) and tailored resume both one page, read back. Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Why commercial construction? → It builds on my site coordination, drawing review and procurement tracking from 2019 to 2020.",
+   "Software? → Microsoft Office, AutoCAD, Civil 3D and Revit; no Procore yet.",
+   "Australian experience? → None yet; my site work was in the Philippines.",
+   "Work rights? → Subclass 485, full working rights until December 2027.",
+   "Start date and salary? → Marc to answer; nothing on record."
+  ],
+  "checked_at": "2026-11-10T09:26:21.000Z",
+  "seek_id": null,
+  "duplicate_key": "carelli|carelli",
+  "preparation_only": true,
+  "found_at": "2026-11-10T20:26+11:00 AEDT"
+ },
+ {
+  "id": "f15142b3-80a3-4863-8d5c-42ec668c8f64",
+  "key": "manual:f15142b3-80a3-4863-8d5c-42ec668c8f64",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261110T0918Z",
+  "created_at": "2026-11-10T09:26:21.000Z",
+  "updated_at": "2026-11-10T09:26:21.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Tigerform_Project_Coordinator_Cover_Letter.pdf",
+    "sha256": "af7923d47adfdb2c027752da998baca4f5129860df9ae56e1b5f078c7f0ad5b2",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Tigerform_Resume.pdf",
+    "sha256": "2466a7a89ac07ae66f191d0ff531e70278de29e1497df557b36823ef79690551",
+    "stored_in": "local:/workspace/job-finds",
+    "note": "tailored one page resume built from facts.json"
+   }
+  ],
+  "company": "Tigerform Pty Ltd",
+  "role": "Project Coordinator",
+  "location": "Moorabbin, Melbourne VIC",
+  "job_url": "https://www.seek.com.au/job/95756453",
+  "company_url": "",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_SEEK",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "Hiring team (SEEK quick apply)",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95756453",
+  "contact_verified_at": "2026-11-10T09:26:21.000Z",
+  "contact_confidence": "none",
+  "subject": "Project Coordinator application, Marc Masarate",
+  "email_body": "Not for sending. Apply through SEEK (advert 95756453).\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Full time Project Coordinator with a Moorabbin commercial concrete structure contractor: shop drawing review, procurement tracking, RFIs, document registers, ITPs and QA records, lookahead programs.",
+   "Duties line up with Marc's drawing review, procurement and materials tracking, progress reporting and crew coordination on site in 2019 to 2020; documentation and site coordination are his target.",
+   "Direct employer on SEEK."
+  ],
+  "gaps": [
+   "Under one year of coordination experience",
+   "No Australian construction experience",
+   "Project management software not on record"
+  ],
+  "match_score": {
+   "percent": 61,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Full time Project Coordinator with a Moorabbin commercial concrete structure contractor: shop drawing review, procurement tracking, RFIs, document registers, ITPs and QA records, lookahead programs.",
+    "Duties line up with Marc's drawing review, procurement and materials tracking, progress reporting and crew coordination on site in 2019 to 2020; documentation and site coordination are his target.",
+    "Direct employer on SEEK."
+   ],
+   "caution": "Asks for proven experience as a Project Coordinator or similar in construction; Marc has about 10 months of site coordination in the Philippines and no Australian experience. SEEK asks years as project coordinator (answer: less than 1 year). Commercial concrete, not civil."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-11-10",
+   "expires_at": "2026-12-10T23:59+11:00",
+   "verified_at": "2026-11-10T09:26:21.000Z",
+   "apply_instructions": "SEEK quick apply (advert 95756453) with resume and cover letter; five SEEK questions.",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a project coordinator?",
+    "How much notice are you required to give your current employer?",
+    "How many years' experience do you have as an Estimating Coordinator?"
+   ]
+  },
+  "screening_answers": [
+   {
+    "q": "Which of the following statements best describes your right to work in Australia?",
+    "a": "Temporary graduate visa (Subclass 485) with full working rights to December 2027"
+   },
+   {
+    "q": "What's your expected annual base salary?",
+    "a": "Marc to answer (earlier SEEK applications used $60k to $75k)"
+   },
+   {
+    "q": "How many years' experience do you have as a project coordinator?",
+    "a": "Less than 1 year (Project-in-Charge Apr to Sep 2019 and Field Engineer Sep 2019 to Feb 2020, Philippines)"
+   },
+   {
+    "q": "How much notice are you required to give your current employer?",
+    "a": "Marc to answer"
+   },
+   {
+    "q": "How many years' experience do you have as an Estimating Coordinator?",
+    "a": "None"
+   }
+  ],
+  "checklist": [
+   "Search Gmail in:anywhere for Tigerform and SEEK 95756453 before applying (Gmail was not reachable on this tick)",
+   "Apply on SEEK 95756453 with the one page resume and the cover letter from this folder",
+   "Answer the five SEEK questions as listed; salary and notice are Marc's call",
+   "Confirm the advert is still open (expires 10 Dec 2026)",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nSEEK 4 day sweep on tick 20261110T0918Z (80 details; fresh SEEK leads mostly experienced-only, mechanical/electrical, or already screened on earlier ticks), widened with SEEK keyword searches over 14 days (junior draftsperson, graduate civil, junior civil designer, site administrator civil, project coordinator civil) and an open-web sweep (WebSearch of jobau, Prosple, Employment Hero, council boards, LinkedIn listings). Found in the SEEK 14 day keyword search 'project coordinator civil' (refreshed 10 Nov 2026, expires 10 Dec 2026). SEEK route, so no email is prepared. Gmail could not be checked on this tick (Gmail connector needs sign-in), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json. Drafted from facts.json only; checks.py facts and tone OK; cover letter (compact_pdf.py) and tailored resume both one page, read back. Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Coordination experience? → Project-in-charge on a community hall renovation (10 to 15 workers a day) and field engineer on subdivision finishing works, 2019 to 2020.\n• Shop drawings? → I reviewed structural and architectural drawings against project requirements on site.\n• Concrete structures? → Not yet; keen to learn.\n• Work rights? → Subclass 485, full working rights until December 2027.\n• Start date and salary? → Marc to answer; nothing on record.",
+  "how_found": "SEEK 4 day sweep on tick 20261110T0918Z (80 details; fresh SEEK leads mostly experienced-only, mechanical/electrical, or already screened on earlier ticks), widened with SEEK keyword searches over 14 days (junior draftsperson, graduate civil, junior civil designer, site administrator civil, project coordinator civil) and an open-web sweep (WebSearch of jobau, Prosple, Employment Hero, council boards, LinkedIn listings). Found in the SEEK 14 day keyword search 'project coordinator civil' (refreshed 10 Nov 2026, expires 10 Dec 2026). SEEK route, so no email is prepared. Gmail could not be checked on this tick (Gmail connector needs sign-in), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json. Drafted from facts.json only; checks.py facts and tone OK; cover letter (compact_pdf.py) and tailored resume both one page, read back. Nothing was sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Coordination experience? → Project-in-charge on a community hall renovation (10 to 15 workers a day) and field engineer on subdivision finishing works, 2019 to 2020.",
+   "Shop drawings? → I reviewed structural and architectural drawings against project requirements on site.",
+   "Concrete structures? → Not yet; keen to learn.",
+   "Work rights? → Subclass 485, full working rights until December 2027.",
+   "Start date and salary? → Marc to answer; nothing on record."
+  ],
+  "checked_at": "2026-11-10T09:26:21.000Z",
+  "seek_id": "95756453",
+  "duplicate_key": "tigerform|tigerform",
+  "preparation_only": true,
+  "found_at": "2026-11-10T20:26+11:00 AEDT"
+ }
+]
