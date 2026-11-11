@@ -1,0 +1,202 @@
+[
+ {
+  "id": "e5ba6f5e-cdf3-4db8-a319-7e1640135e3d",
+  "key": "manual:e5ba6f5e-cdf3-4db8-a319-7e1640135e3d",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261111T0517Z",
+  "created_at": "2026-11-11T05:22:42.000Z",
+  "updated_at": "2026-11-11T05:22:42.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_AllenPrice_Civil_Engineer_Cover_Letter.pdf",
+    "sha256": "12b1a1ae893b2ed3e9b6b7baffb25c835b4ab2f8920eb7272f3170f095f8f540",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_AllenPrice_Resume.pdf",
+    "sha256": "8bfb66ac429c7cf75c3d56f2aca8e88dfbec4f91fa43ab4391a46d6b0f82c4a4",
+    "stored_in": "local:/workspace/job-finds",
+    "note": "one page resume built from facts.json"
+   }
+  ],
+  "company": "Allen Price Pty Ltd",
+  "role": "Civil Engineer",
+  "location": "Wollongong, Illawarra & South Coast NSW",
+  "job_url": "https://www.seek.com.au/job/95798711",
+  "company_url": "https://www.allenprice.com.au",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_SEEK",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "Ryan Howes",
+  "recipient_role": "Enquiries contact named in the advert (applications to consultants@allenprice.com.au)",
+  "recipient_email": "consultants@allenprice.com.au",
+  "contact_email": "consultants@allenprice.com.au",
+  "contact_evidence_url": "https://www.seek.com.au/job/95798711",
+  "contact_verified_at": "2026-11-11T05:22:42.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Civil Engineer application (SEEK 95798711), Marc Masarate",
+  "email_body": "Dear Ryan,\n\nI'm applying for the Civil Engineer role at Allen Price advertised on SEEK (advert 95798711). Your name is listed for enquiries, so I wanted to reach you directly.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design in Australia, where I designed and documented road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD. I also hold a Bachelor of Science in Civil Engineering (Philippines, 2019). From 2019 to 2020 I worked on site in the Philippines as a project-in-charge engineer and then a field engineer. I'm based in Melton with a White Card, driver's licence and my own transport, and I have full working rights to December 2027 on a Subclass 485 visa. I'm open to discussing relocation to the South Coast.\n\nYour roles cover roads, landform and stormwater design for land development, which is the work I trained in. My site experience is just under a year and I haven't used DRAINS, MUSIC or Civil Site Design yet, so I'd be learning those with your team.\n\nCould we have a short call about the role? I've attached my resume and cover letter.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Civil Engineer at Allen Price (Wollongong, Kiama and Nowra offices): civil design of roads, landform, stormwater, water supply and sewer for land development and infrastructure, with design documentation and calculations; Civil 3D and Civil Site Design, DRAINS and MUSIC desirable.",
+   "Lines up with Marc's Advanced Diploma design work (road geometry, earthworks, pavement, stormwater in Civil 3D and AutoCAD), his BSCE and his 2019 to 2020 site work; direct employer taking applications by email.",
+   "Asks for 1+ years of relevant experience; Marc has about 10 months of site work, so it is a near fit rather than a clean one."
+  ],
+  "gaps": [
+   "About 10 months experience against 1+ years asked",
+   "No land development consultancy experience",
+   "DRAINS, MUSIC, Civil Site Design not on record",
+   "Relocation to the South Coast not confirmed"
+  ],
+  "match_score": {
+   "percent": 65,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Civil Engineer at Allen Price (Wollongong, Kiama and Nowra offices): civil design of roads, landform, stormwater, water supply and sewer for land development and infrastructure, with design documentation and calculations; Civil 3D and Civil Site Design, DRAINS and MUSIC desirable.",
+    "Lines up with Marc's Advanced Diploma design work (road geometry, earthworks, pavement, stormwater in Civil 3D and AutoCAD), his BSCE and his 2019 to 2020 site work; direct employer taking applications by email.",
+    "Asks for 1+ years of relevant experience; Marc has about 10 months of site work, so it is a near fit rather than a clean one."
+   ],
+   "caution": "Advert asks for 1+ years relevant industry experience; Marc has about 10 months of site work (Apr 2019 to Feb 2020) and no consultancy design experience. No DRAINS, MUSIC or Civil Site Design on record. Wollongong based, so relocation needs Marc's confirmation. SEEK expiry 10 Dec 2026."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-11-10",
+   "expires_at": "2026-12-10T23:59+11:00",
+   "verified_at": "2026-11-11T05:22:42.000Z",
+   "apply_instructions": "Email resume and brief cover letter to consultants@allenprice.com.au (enquiries Ryan Howes, 4421 6544); SEEK apply also available with four questions.",
+   "screening_questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as a civil engineer?",
+    "How much notice are you required to give your current employer?"
+   ]
+  },
+  "screening_answers": [
+   {
+    "q": "Which of the following statements best describes your right to work in Australia?",
+    "a": "Temporary graduate visa (Subclass 485) with full working rights to December 2027"
+   },
+   {
+    "q": "What's your expected annual base salary?",
+    "a": "Marc to answer"
+   },
+   {
+    "q": "How many years' experience do you have as a civil engineer?",
+    "a": "Less than 1 year (Apr 2019 to Feb 2020 site work in the Philippines)"
+   },
+   {
+    "q": "How much notice are you required to give your current employer?",
+    "a": "Marc to answer"
+   }
+  ],
+  "checklist": [
+   "Search Gmail in:anywhere for Allen Price and SEEK 95798711 before sending (Gmail was not reachable on this tick)",
+   "Confirm Marc is willing to relocate to Wollongong or the South Coast",
+   "Send the prepared email to consultants@allenprice.com.au with the cover letter and resume from this folder (the advert asks for resume and brief cover letter by email)",
+   "Optionally call Ryan Howes on 4421 6544 (number as printed in the advert) to follow up",
+   "Record the send date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nOpen-web sweep on tick 20261111T0517Z (web search for Melbourne west and Victoria junior civil drafting and design roles: jobau, Jora, SEEK listing pages, espwireless; WSP Junior Civil Designer Melbourne skipped because no posting date or live employer page could be verified; Nassima Design Group draftsperson skipped because the advert text was too thin to screen) plus a SEEK 3 day sweep (1023 seen, 60 details). Found on SEEK advert 95798711 (listed 10 Nov 2026, expires 10 Dec 2026), read in full on 11 Nov 2026. The advert itself publishes consultants@allenprice.com.au for applications and names Ryan Howes for enquiries (phone 4421 6544), so the email is addressed to Ryan at that inbox. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json. Drafted from facts.json only; checks.py tone and facts OK on email (201 words) and letter (247 words); cover letter and one page resume rendered and read back (1 page each). Status PREPARED_NOT_SENT: nothing was sent and no Gmail draft was made. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Experience? → About 10 months on site in the Philippines (2019 to 2020) plus diploma design projects in Civil 3D and AutoCAD.\n• DRAINS, MUSIC, Civil Site Design? → Not used yet; trained in Civil 3D and AutoCAD.\n• Relocation to Wollongong? → Open to discussing it (Marc to confirm).\n• Work rights? → Subclass 485, full working rights until December 2027.\n• Salary and notice? → Marc to answer; nothing on record.",
+  "how_found": "Open-web sweep on tick 20261111T0517Z (web search for Melbourne west and Victoria junior civil drafting and design roles: jobau, Jora, SEEK listing pages, espwireless; WSP Junior Civil Designer Melbourne skipped because no posting date or live employer page could be verified; Nassima Design Group draftsperson skipped because the advert text was too thin to screen) plus a SEEK 3 day sweep (1023 seen, 60 details). Found on SEEK advert 95798711 (listed 10 Nov 2026, expires 10 Dec 2026), read in full on 11 Nov 2026. The advert itself publishes consultants@allenprice.com.au for applications and names Ryan Howes for enquiries (phone 4421 6544), so the email is addressed to Ryan at that inbox. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json. Drafted from facts.json only; checks.py tone and facts OK on email (201 words) and letter (247 words); cover letter and one page resume rendered and read back (1 page each). Status PREPARED_NOT_SENT: nothing was sent and no Gmail draft was made. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Experience? → About 10 months on site in the Philippines (2019 to 2020) plus diploma design projects in Civil 3D and AutoCAD.",
+   "DRAINS, MUSIC, Civil Site Design? → Not used yet; trained in Civil 3D and AutoCAD.",
+   "Relocation to Wollongong? → Open to discussing it (Marc to confirm).",
+   "Work rights? → Subclass 485, full working rights until December 2027.",
+   "Salary and notice? → Marc to answer; nothing on record."
+  ],
+  "checked_at": "2026-11-11T05:22:42.000Z",
+  "seek_id": "95798711",
+  "duplicate_key": "allen price|civil-engineer",
+  "preparation_only": true,
+  "found_at": "2026-11-11T16:22+11:00 AEDT"
+ },
+ {
+  "id": "3f7fcd52-4a5d-4e1a-83e1-e9b88d26f28c",
+  "key": "manual:3f7fcd52-4a5d-4e1a-83e1-e9b88d26f28c",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261111T0517Z",
+  "created_at": "2026-11-11T05:22:42.000Z",
+  "updated_at": "2026-11-11T05:22:42.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Cairns Regional Council",
+  "role": "Cadet Designer",
+  "location": "Cairns, Far North QLD",
+  "job_url": "https://www.seek.com.au/job/95823436",
+  "company_url": "https://www.cairns.qld.gov.au",
+  "status": "HELD_MANDATORY_UNRESOLVED",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_SEEK",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "Cairns Regional Council recruitment (careers portal)",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95823436",
+  "contact_verified_at": "2026-11-11T05:22:42.000Z",
+  "contact_confidence": "none",
+  "subject": "",
+  "email_body": "",
+  "fit": [
+   "Cadet Designer (requisition 1400) in Cairns Regional Council's Design & Survey Services team: training in AutoCAD, 12d Model and GIS, civil design drawings and estimates, field investigations and traffic surveys, document control, while studying toward an Associate Degree in Engineering (Civil).",
+   "Strong match on level and duties: Marc's Advanced Diploma design work in AutoCAD and Civil 3D (roads, earthworks, pavement, stormwater), his BSCE, site inspections 2019 to 2020 and his C class licence with own transport.",
+   "Held because the cadetship's structure may not fit his visa and qualifications; Marc decides whether to ask Council."
+  ],
+  "gaps": [
+   "6 year term with 2 year bond runs past 485 end (Dec 2027)",
+   "Cadetship expects enrolment in an Associate Degree (Marc already holds BSCE and Advanced Diploma)",
+   "No 12d Model or GIS on record",
+   "Relocation to Cairns not confirmed"
+  ],
+  "match_score": {
+   "percent": 68,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Cadet Designer (requisition 1400) in Cairns Regional Council's Design & Survey Services team: training in AutoCAD, 12d Model and GIS, civil design drawings and estimates, field investigations and traffic surveys, document control, while studying toward an Associate Degree in Engineering (Civil).",
+    "Strong match on level and duties: Marc's Advanced Diploma design work in AutoCAD and Civil 3D (roads, earthworks, pavement, stormwater), his BSCE, site inspections 2019 to 2020 and his C class licence with own transport.",
+    "Held because the cadetship's structure may not fit his visa and qualifications; Marc decides whether to ask Council."
+   ],
+   "caution": "HELD: full time maximum term up to 6 years, built around study toward an Associate Degree in Engineering (Civil) plus 2 years bonded service after graduation, which runs well past the December 2027 end of Marc's Subclass 485 visa. Marc already holds a BSCE and an Advanced Diploma, so Council may see him as over qualified for a cadet intake, and whether he would enrol in further study is unknown. Cairns means relocation, not confirmed. Applications close 25 Nov 2026, 11.30pm AEST; apply via the Council careers site (link out from SEEK)."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-11-11",
+   "expires_at": "2026-11-25T23:30+10:00",
+   "verified_at": "2026-11-11T05:22:42.000Z",
+   "apply_instructions": "Apply on Cairns Regional Council's careers site (link out from SEEK 95823436), requisition 1400.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "First decide: the cadetship runs up to 6 years with a 2 year bond, past the 485 end date, and expects Associate Degree study; ask Council (Design & Survey Services) or skip",
+   "Search Gmail in:anywhere for Cairns Regional Council before applying (Gmail was not reachable on this tick)",
+   "If applying, prepare a cover letter and resume from facts.json",
+   "Apply through the Council careers site linked from SEEK 95823436 before 25 Nov 2026, 11.30pm AEST",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nOpen-web sweep on tick 20261111T0517Z (web search for Melbourne west and Victoria junior civil drafting and design roles: jobau, Jora, SEEK listing pages, espwireless; WSP Junior Civil Designer Melbourne skipped because no posting date or live employer page could be verified; Nassima Design Group draftsperson skipped because the advert text was too thin to screen) plus a SEEK 3 day sweep (1023 seen, 60 details). Found on SEEK advert 95823436 (listed 11 Nov 2026, closes 25 Nov 2026), read in full on 11 Nov 2026; the advert links out to Cairns Regional Council's careers site. Held as HELD_MANDATORY_UNRESOLVED; no letter prepared and nothing sent. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Why a cadetship with a degree? → Marc to answer.\n• Study commitment? → Marc to answer whether he would enrol in the Associate Degree.\n• Term and visa? → Subclass 485, full working rights until December 2027 (Marc to answer about after that).\n• Licence? → Australian driver's licence and own reliable transport.\n• Software? → AutoCAD 2D/3D and Civil 3D; no 12d or GIS on record.",
+  "how_found": "Open-web sweep on tick 20261111T0517Z (web search for Melbourne west and Victoria junior civil drafting and design roles: jobau, Jora, SEEK listing pages, espwireless; WSP Junior Civil Designer Melbourne skipped because no posting date or live employer page could be verified; Nassima Design Group draftsperson skipped because the advert text was too thin to screen) plus a SEEK 3 day sweep (1023 seen, 60 details). Found on SEEK advert 95823436 (listed 11 Nov 2026, closes 25 Nov 2026), read in full on 11 Nov 2026; the advert links out to Cairns Regional Council's careers site. Held as HELD_MANDATORY_UNRESOLVED; no letter prepared and nothing sent. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Why a cadetship with a degree? → Marc to answer.",
+   "Study commitment? → Marc to answer whether he would enrol in the Associate Degree.",
+   "Term and visa? → Subclass 485, full working rights until December 2027 (Marc to answer about after that).",
+   "Licence? → Australian driver's licence and own reliable transport.",
+   "Software? → AutoCAD 2D/3D and Civil 3D; no 12d or GIS on record."
+  ],
+  "checked_at": "2026-11-11T05:22:42.000Z",
+  "seek_id": "95823436",
+  "duplicate_key": "cairns regional council|cadet-designer",
+  "preparation_only": true,
+  "found_at": "2026-11-11T16:22+11:00 AEDT"
+ }
+]
