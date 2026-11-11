@@ -1,0 +1,126 @@
+[
+ {
+  "id": "12a7d445-d887-433a-9f5f-420e10fea9af",
+  "key": "manual:12a7d445-d887-433a-9f5f-420e10fea9af",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261111T0012Z",
+  "created_at": "2026-11-11T00:22:58.000Z",
+  "updated_at": "2026-11-11T00:22:58.000Z",
+  "version": 1,
+  "attachments": [],
+  "company": "Keller Australia",
+  "role": "Graduate Engineer (2027 Graduate Program)",
+  "location": "Spring Hill, Brisbane QLD",
+  "job_url": "https://www.seek.com.au/job/95765009",
+  "company_url": "https://www.keller.com.au",
+  "status": "HELD_MANDATORY_UNMET",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_SEEK",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "Keller hiring team (SEEK apply)",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95765009",
+  "contact_verified_at": "2026-11-11T00:22:58.000Z",
+  "contact_confidence": "none",
+  "subject": "",
+  "email_body": "",
+  "fit": [
+   "Keller Australia 2027 Graduate Program (start February 2027, two years) in Brisbane with travel to offices and project sites across Australia: pre-construction and operations rotations in geotechnical foundations and ground improvement, Engineers Australia membership included.",
+   "Lines up with Marc's BSCE, his 2019 to 2020 site work in the Philippines (site inspections, quality checks, coordinating crews, subcontractors and suppliers), his driver's licence and own transport and his availability for travel and regional work.",
+   "Held because two stated requirements are not met; Marc decides whether to ask Keller about them."
+  ],
+  "gaps": [
+   "Engineering degree not within the last 2 years",
+   "Two year program runs past 485 end date (Dec 2027)",
+   "Unrestricted working rights wording",
+   "Relocation to Brisbane not confirmed",
+   "No geotechnical or piling experience"
+  ],
+  "match_score": {
+   "percent": 60,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Keller Australia 2027 Graduate Program (start February 2027, two years) in Brisbane with travel to offices and project sites across Australia: pre-construction and operations rotations in geotechnical foundations and ground improvement, Engineers Australia membership included.",
+    "Lines up with Marc's BSCE, his 2019 to 2020 site work in the Philippines (site inspections, quality checks, coordinating crews, subcontractors and suppliers), his driver's licence and own transport and his availability for travel and regional work.",
+    "Held because two stated requirements are not met; Marc decides whether to ask Keller about them."
+   ],
+   "caution": "HELD: Keller asks for a recent engineering graduate (within the last 2 years); Marc's BSCE is from 2019 (his February 2026 qualification is an Advanced Diploma, not an engineering degree). The program needs a two year full time commitment from February 2027, past the December 2027 end of Marc's Subclass 485 visa, and asks for full unrestricted working rights. Brisbane based, so relocation unconfirmed. Academic transcript required. SEEK expiry 9 Dec 2026."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-11-09",
+   "expires_at": "2026-12-09T23:59+11:00",
+   "verified_at": "2026-11-11T00:22:58.000Z",
+   "apply_instructions": "SEEK apply (advert 95765009) with CV, cover letter and academic transcript; eight SEEK questions.",
+   "screening_questions": [
+    "Are you willing to undergo a pre-employment medical check?",
+    "Which of the following statements best describes your right to work in Australia?",
+    "Are you available to travel for this role when required?",
+    "Are you a current member of Engineers Australia?",
+    "What's your expected annual base salary?",
+    "Have you worked in a role which requires a sound understanding of OH&S/WHS?",
+    "Do you have a current Australian driver's licence?",
+    "Have you completed a qualification in civil engineering?"
+   ]
+  },
+  "screening_answers": [
+   {
+    "q": "Are you willing to undergo a pre-employment medical check?",
+    "a": "Yes"
+   },
+   {
+    "q": "Which of the following statements best describes your right to work in Australia?",
+    "a": "Temporary graduate visa (Subclass 485) with full working rights to December 2027"
+   },
+   {
+    "q": "Are you available to travel for this role when required?",
+    "a": "Yes"
+   },
+   {
+    "q": "Are you a current member of Engineers Australia?",
+    "a": "No"
+   },
+   {
+    "q": "What's your expected annual base salary?",
+    "a": "Marc to answer"
+   },
+   {
+    "q": "Have you worked in a role which requires a sound understanding of OH&S/WHS?",
+    "a": "Yes (site safety checks as project-in-charge and field engineer, Philippines 2019 to 2020; White Card)"
+   },
+   {
+    "q": "Do you have a current Australian driver's licence?",
+    "a": "Yes"
+   },
+   {
+    "q": "Have you completed a qualification in civil engineering?",
+    "a": "Yes"
+   }
+  ],
+  "checklist": [
+   "First decide: Keller wants a graduate from the last 2 years and a two year commitment from February 2027, past the 485 end date; ask Keller or skip",
+   "Search Gmail in:anywhere for Keller and SEEK 95765009 before applying (Gmail was not reachable on this tick)",
+   "If applying, prepare a cover letter and attach the academic transcript with the resume",
+   "Apply on SEEK 95765009 before 9 Dec 2026",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nSEEK 3 day sweep on tick 20261111T0012Z (60 details) widened to a 7 day SEEK sweep (80 details), plus an open-web sweep (jobau, Jobstralia, College Recruiter, Prosple, GradConnection, Clera, Downer Oracle careers board, Egis SmartRecruiters, Beveridge Williams, Millar Merrigan, Spiire, Delta Group). Found on SEEK advert 95765009 (listed 9 Nov 2026, expires 9 Dec 2026), read in full on 11 Nov 2026. Held as HELD_MANDATORY_UNMET; no letter prepared and nothing sent. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for Keller before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Recent graduate? → BSCE 2019 and Advanced Diploma of Civil Construction Design February 2026.\n• Two year program and visa? → Subclass 485, full working rights until December 2027 (Marc to answer about after that).\n• Engineers Australia member? → No membership on record.\n• Travel? → Available for site, regional and FIFO work.",
+  "how_found": "SEEK 3 day sweep on tick 20261111T0012Z (60 details) widened to a 7 day SEEK sweep (80 details), plus an open-web sweep (jobau, Jobstralia, College Recruiter, Prosple, GradConnection, Clera, Downer Oracle careers board, Egis SmartRecruiters, Beveridge Williams, Millar Merrigan, Spiire, Delta Group). Found on SEEK advert 95765009 (listed 9 Nov 2026, expires 9 Dec 2026), read in full on 11 Nov 2026. Held as HELD_MANDATORY_UNMET; no letter prepared and nothing sent. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for Keller before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Recent graduate? → BSCE 2019 and Advanced Diploma of Civil Construction Design February 2026.",
+   "Two year program and visa? → Subclass 485, full working rights until December 2027 (Marc to answer about after that).",
+   "Engineers Australia member? → No membership on record.",
+   "Travel? → Available for site, regional and FIFO work."
+  ],
+  "checked_at": "2026-11-11T00:22:58.000Z",
+  "seek_id": "95765009",
+  "duplicate_key": "keller|graduate-2027",
+  "preparation_only": true,
+  "found_at": "2026-11-11T11:22+11:00 AEDT"
+ }
+]
