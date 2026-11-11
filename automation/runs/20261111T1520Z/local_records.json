@@ -1,0 +1,192 @@
+[
+ {
+  "id": "2b4a57e4-6c44-47d6-ac43-09c6b8167f69",
+  "key": "manual:2b4a57e4-6c44-47d6-ac43-09c6b8167f69",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261111T1520Z",
+  "created_at": "2026-11-11T15:28:13.000Z",
+  "updated_at": "2026-11-11T15:28:13.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_McConnell_Dowell_Junior_Project_Engineer_Cover_Letter.pdf",
+    "sha256": "4c6ab5673c71ea94b55c0ed0959155a84ec71b3081e132093a68239d4695fdd1",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_McConnell_Dowell_Resume.pdf",
+    "sha256": "74966d6ce31a11114c55addd479f0b0ee7811f7aa1ecbd232e2eddacdf821dfc",
+    "stored_in": "local:/workspace/job-finds",
+    "note": "one page resume built from facts.json"
+   }
+  ],
+  "company": "McConnell Dowell Australia",
+  "role": "Junior Project Engineer - Traffic",
+  "location": "Yan Yean Road Upgrade project office (Yarrambat/Doreen), Melbourne VIC",
+  "job_url": "https://www.seek.com.au/job/95705736",
+  "company_url": "https://www.mcconnelldowell.com",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_SEEK",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "Yan Yean Road Upgrade, South Package",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95705736",
+  "contact_verified_at": "2026-11-11T15:28:13.000Z",
+  "contact_confidence": "none",
+  "subject": "Junior Project Engineer - Traffic (SEEK 95705736)",
+  "email_body": "",
+  "fit": [
+   "Junior Project Engineer - Traffic with McConnell Dowell on the South Package of the Yan Yean Road Upgrade (project office Yarrambat/Doreen): support engineers on temporary and permanent works, planning and progress tracking, procurement, subcontractor management, safety and quality.",
+   "Fits Marc's civil degree and February 2026 Advanced Diploma (road geometry, pavement, earthworks, drainage, Austroads and AS 1742.14 coursework) and his 2019 to 2020 site coordination, inspections and procurement tracking; asks for a recent graduate.",
+   "Road infrastructure in Victoria matches his target of junior site and documentation roles."
+  ],
+  "gaps": [
+   "No traffic engineering experience",
+   "No Australian construction experience",
+   "Long commute from Melton"
+  ],
+  "match_score": {
+   "percent": 70,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Junior Project Engineer - Traffic with McConnell Dowell on the South Package of the Yan Yean Road Upgrade (project office Yarrambat/Doreen): support engineers on temporary and permanent works, planning and progress tracking, procurement, subcontractor management, safety and quality.",
+    "Fits Marc's civil degree and February 2026 Advanced Diploma (road geometry, pavement, earthworks, drainage, Austroads and AS 1742.14 coursework) and his 2019 to 2020 site coordination, inspections and procurement tracking; asks for a recent graduate.",
+    "Road infrastructure in Victoria matches his target of junior site and documentation roles."
+   ],
+   "caution": "Traffic engineering interest highly regarded; Marc has no traffic engineering experience. BSCE is 2019 (Advanced Diploma Feb 2026), advert asks for a recent graduate. Project office in Yarrambat/Doreen is a long drive from Melton. SEEK expiry 5 Dec 2026. No salary given."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-11-05",
+   "expires_at": "2026-12-05",
+   "verified_at": "2026-11-11T15:28:13.000Z",
+   "apply_instructions": "SEEK Apply on advert 95705736 (no screening questions listed).",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Search Gmail in:anywhere for McConnell Dowell and SEEK 95705736 before applying (Gmail was not reachable on this tick)",
+   "Open https://www.seek.com.au/job/95705736 and press Apply (no screening questions listed)",
+   "Attach the resume and cover letter from this folder",
+   "Be ready to answer salary and start date yourself (nothing on record)",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nTick 20261111T1520Z: open web first (web search across SEEK public pages, Jora, LinkedIn, Indeed, jobau, trabajo.org, Prosple, College Recruiter, council PageUp boards) plus SEEK 3 days/60 details (all 45 new rows already screened on earlier ticks) widened to a 14 day Melbourne graduate search. Found on SEEK advert 95705736 (listed 5 Nov 2026, expires 5 Dec 2026) in a 14 day Melbourne graduate civil search; it had never been screened by earlier ticks. Read in full on 12 Nov 2026. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json. Cover letter drafted from facts.json only; checks.py facts OK and tone OK apart from the 220 word email limit, which does not apply to a letter (under 340 words); cover letter and one page resume rendered and read back (1 page each). Status READY_JEREMIE_SEEK: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Why this role? → Road project with broad exposure; diploma road and pavement design coursework.\n• Traffic experience? → None on a job; studied AS 1742.14 and Austroads guides in coursework.\n• Commute? → Lives in Melton with own transport and licence.\n• Work rights? → Subclass 485, full working rights until December 2027.\n• Salary and start? → Marc to answer.",
+  "how_found": "Tick 20261111T1520Z: open web first (web search across SEEK public pages, Jora, LinkedIn, Indeed, jobau, trabajo.org, Prosple, College Recruiter, council PageUp boards) plus SEEK 3 days/60 details (all 45 new rows already screened on earlier ticks) widened to a 14 day Melbourne graduate search. Found on SEEK advert 95705736 (listed 5 Nov 2026, expires 5 Dec 2026) in a 14 day Melbourne graduate civil search; it had never been screened by earlier ticks. Read in full on 12 Nov 2026. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json. Cover letter drafted from facts.json only; checks.py facts OK and tone OK apart from the 220 word email limit, which does not apply to a letter (under 340 words); cover letter and one page resume rendered and read back (1 page each). Status READY_JEREMIE_SEEK: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Why this role? → Road project with broad exposure; diploma road and pavement design coursework.",
+   "Traffic experience? → None on a job; studied AS 1742.14 and Austroads guides in coursework.",
+   "Commute? → Lives in Melton with own transport and licence.",
+   "Work rights? → Subclass 485, full working rights until December 2027.",
+   "Salary and start? → Marc to answer."
+  ],
+  "checked_at": "2026-11-11T15:28:13.000Z",
+  "seek_id": "95705736",
+  "duplicate_key": "mcconnell dowell australia|junior project engineer - traffic",
+  "preparation_only": true,
+  "found_at": "2026-11-12T02:28+11:00 AEDT"
+ },
+ {
+  "id": "faf2cade-582c-4560-aaea-1fa68aff3c64",
+  "key": "manual:faf2cade-582c-4560-aaea-1fa68aff3c64",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261111T1520Z",
+  "created_at": "2026-11-11T15:28:13.000Z",
+  "updated_at": "2026-11-11T15:28:13.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Portal_Contractors_Graduate_Civil_Engineer_Cover_Letter.pdf",
+    "sha256": "613809307cdbf0e99f2ea05c31e6cb2ca22f145617e5b8a257398d0443e212c1",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Portal_Contractors_Resume.pdf",
+    "sha256": "74966d6ce31a11114c55addd479f0b0ee7811f7aa1ecbd232e2eddacdf821dfc",
+    "stored_in": "local:/workspace/job-finds",
+    "note": "one page resume built from facts.json"
+   }
+  ],
+  "company": "Portal Contractors",
+  "role": "Graduate Civil Engineer",
+  "location": "Williamstown VIC",
+  "job_url": "https://au.indeed.com/job/graduate-project-engineer-438ca52bc822d185",
+  "company_url": "https://www.portalcontractors.com.au",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_JOB_BOARD_UNVERIFIED",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Job board (Indeed / LinkedIn)",
+  "recipient_name": "",
+  "recipient_role": "Portal Contractors",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://au.indeed.com/job/graduate-project-engineer-438ca52bc822d185",
+  "contact_verified_at": "2026-11-11T15:28:13.000Z",
+  "contact_confidence": "none",
+  "subject": "Graduate Civil Engineer, Williamstown",
+  "email_body": "",
+  "fit": [
+   "Graduate Civil Engineer with Portal Contractors, a Williamstown earthworks and retention contractor: set-out and level checks, ITPs, drawing and document control, RFIs, daily subcontractor coordination and concrete pour supervision under the Project Manager; $65k to $75k plus company car.",
+   "Fits Marc's civil degree, White Card, licence and own transport (all required), his 2019 to 2020 drawing review, inspections and crew coordination, and his earthworks design coursework; Williamstown is a short drive from Melton.",
+   "Hands-on graduate site role in Melbourne's west, a core target."
+  ],
+  "gaps": [
+   "No set-out or survey instrument experience",
+   "No Australian construction experience",
+   "BSCE 2019, not a recent degree"
+  ],
+  "match_score": {
+   "percent": 70,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Graduate Civil Engineer with Portal Contractors, a Williamstown earthworks and retention contractor: set-out and level checks, ITPs, drawing and document control, RFIs, daily subcontractor coordination and concrete pour supervision under the Project Manager; $65k to $75k plus company car.",
+    "Fits Marc's civil degree, White Card, licence and own transport (all required), his 2019 to 2020 drawing review, inspections and crew coordination, and his earthworks design coursework; Williamstown is a short drive from Melton.",
+    "Hands-on graduate site role in Melbourne's west, a core target."
+   ],
+   "caution": "Listing liveness not confirmed: an Indeed 'Graduate Project Engineer' version was seen as expired on an earlier tick, and a new 'Graduate Civil Engineer' version was indexed on trabajo.org 1 day before 12 Nov 2026 (likely a fresh LinkedIn post); confirm it is open before applying. Advert targets the first 1 to 2 years out of a degree; BSCE is 2019. No survey instrument set-out experience on record."
+  },
+  "advert": {
+   "source": "web",
+   "listed_at": "2026-11-11",
+   "expires_at": "",
+   "verified_at": "2026-11-11T15:28:13.000Z",
+   "apply_instructions": "Apply through the live job board listing (Indeed / LinkedIn). Company site lists only info@portalcontractors.com and tenders@portalcontractors.com, not stated to take applications, so no email is prepared.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Search Gmail in:anywhere for Portal Contractors before applying (Gmail was not reachable on this tick)",
+   "Find the live listing (Indeed Graduate Project Engineer or the newer Graduate Civil Engineer post seen on 12 Nov 2026) and confirm it is still open",
+   "Apply through that listing with the resume and cover letter from this folder (the company site publishes only info@ and tenders@, not an applications inbox)",
+   "Be ready to answer salary ($65k to $75k advertised) and start date yourself",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nTick 20261111T1520Z: open web first (web search across SEEK public pages, Jora, LinkedIn, Indeed, jobau, trabajo.org, Prosple, College Recruiter, council PageUp boards) plus SEEK 3 days/60 details (all 45 new rows already screened on earlier ticks) widened to a 14 day Melbourne graduate search. Found by open-web search (trabajo.org listing 'Graduate Civil Engineer, Portal Contractors, Williamstown', posted about 11 Nov 2026, and the Indeed Graduate Project Engineer advert with the full duty list). The company contact page (read 12 Nov 2026) lists only info@ and tenders@. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json. Cover letter drafted from facts.json only; checks.py facts OK and tone OK apart from the 220 word email limit, which does not apply to a letter (under 340 words); cover letter and one page resume rendered and read back (1 page each). Status READY_JEREMIE_EMPLOYER_PORTAL: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Site experience? → About 10 months on site in the Philippines, inspections, drawing checks and crew coordination.\n• Set-out? → Not with instruments yet; keen to learn.\n• Transport? → Lives in Melton, licence and own transport.\n• Work rights? → Subclass 485, full working rights until December 2027.\n• Salary? → Advert says $65k to $75k; Marc to confirm.",
+  "how_found": "Tick 20261111T1520Z: open web first (web search across SEEK public pages, Jora, LinkedIn, Indeed, jobau, trabajo.org, Prosple, College Recruiter, council PageUp boards) plus SEEK 3 days/60 details (all 45 new rows already screened on earlier ticks) widened to a 14 day Melbourne graduate search. Found by open-web search (trabajo.org listing 'Graduate Civil Engineer, Portal Contractors, Williamstown', posted about 11 Nov 2026, and the Indeed Graduate Project Engineer advert with the full duty list). The company contact page (read 12 Nov 2026) lists only info@ and tenders@. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json. Cover letter drafted from facts.json only; checks.py facts OK and tone OK apart from the 220 word email limit, which does not apply to a letter (under 340 words); cover letter and one page resume rendered and read back (1 page each). Status READY_JEREMIE_EMPLOYER_PORTAL: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Site experience? → About 10 months on site in the Philippines, inspections, drawing checks and crew coordination.",
+   "Set-out? → Not with instruments yet; keen to learn.",
+   "Transport? → Lives in Melton, licence and own transport.",
+   "Work rights? → Subclass 485, full working rights until December 2027.",
+   "Salary? → Advert says $65k to $75k; Marc to confirm."
+  ],
+  "checked_at": "2026-11-11T15:28:13.000Z",
+  "seek_id": null,
+  "duplicate_key": "portal contractors|graduate civil engineer",
+  "preparation_only": true,
+  "found_at": "2026-11-12T02:28+11:00 AEDT"
+ }
+]

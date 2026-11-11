@@ -1,0 +1,42 @@
+{
+ "seek_id": null,
+ "company": "Portal Contractors",
+ "role": "Graduate Civil Engineer",
+ "location": "Williamstown VIC",
+ "job_url": "https://au.indeed.com/job/graduate-project-engineer-438ca52bc822d185",
+ "company_url": "https://www.portalcontractors.com.au",
+ "route": "EMPLOYER_PORTAL",
+ "application_type": "ADVERTISED_VACANCY",
+ "vacancy_status": "OPEN_JOB_BOARD_UNVERIFIED",
+ "letter": {
+  "recipient_name": "Project Manager",
+  "recipient_role": "Portal Contractors",
+  "company": "Portal Contractors",
+  "company_line": "Portal Contractors is a Williamstown based contractor specialising in earthworks and retention projects.",
+  "subject": "Graduate Civil Engineer, Williamstown",
+  "greeting": "Dear Hiring Manager,",
+  "paragraphs": [
+   "Please accept my application for the Graduate Civil Engineer role at Portal Contractors. Working on your earthworks and bulk excavation sites under the Project Manager, learning set-out, inspections and subcontractor coordination, is the kind of hands-on start I want.",
+   "From 2019 to 2020 I worked on site in the Philippines. As project-in-charge on a community hall renovation I coordinated 10 to 15 workers each day, reviewed structural and architectural drawings, checked work against project requirements and carried out site inspections and safety checks. As a field engineer on residential subdivision finishing works I assisted with quality checks, tracked procurement and materials, and prepared site reports and progress reports.",
+   "In February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute in Australia, where I designed and documented road geometry, earthworks, pavement systems and stormwater drainage in AutoCAD and Civil 3D against Australian Standards. I also hold a Bachelor of Science in Civil Engineering (2019).",
+   "I live in Melton, hold a White Card and an Australian driver's licence with my own reliable transport, and have full working rights to December 2027 on a Subclass 485 visa. I have not run set-out with survey instruments on a job yet, so I would be learning that from your site team.",
+   "I have attached my resume and would welcome the chance to talk about the role."
+  ],
+  "closing": "Kind regards,"
+ },
+ "checklist": [
+  "Search Gmail in:anywhere for Portal Contractors before applying (Gmail was not reachable on this tick)",
+  "Find the live listing (Indeed Graduate Project Engineer or the newer Graduate Civil Engineer post seen on 12 Nov 2026) and confirm it is still open",
+  "Apply through that listing with the resume and cover letter from this folder (the company site publishes only info@ and tenders@, not an applications inbox)",
+  "Be ready to answer salary ($65k to $75k advertised) and start date yourself",
+  "Record the apply date in /workspace/job-finds"
+ ],
+ "recipient_name": "",
+ "recipient_role": "Portal Contractors",
+ "recipient_email": "",
+ "contact_evidence_url": "https://au.indeed.com/job/graduate-project-engineer-438ca52bc822d185",
+ "subject": "Graduate Civil Engineer, Williamstown",
+ "email_body": "",
+ "screening_answers": [],
+ "notes": ""
+}
