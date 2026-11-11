@@ -1,0 +1,57 @@
+import json, uuid, hashlib, os, sys
+from datetime import datetime, timezone
+sys.path.insert(0,'/workspace/job-finds'); from _save_find import save
+RUN='20261111T1010Z'
+now=datetime.now(timezone.utc); iso=now.strftime('%Y-%m-%dT%H:%M:%S.000Z')
+local=datetime.now().astimezone(); found=local.strftime('%Y-%m-%dT%H:%M+11:00 AEDT')
+def sha(p): return hashlib.sha256(open(p,'rb').read()).hexdigest()
+SW="Tick "+RUN+": open web first (web search across jobau, Jobstralia, College Recruiter, Jobstore, australiajobs.app, emploive, qarera, careersatcouncil, council PDFs, employer careers pages) plus SEEK 3 days/60 details (1025 seen, 205 prefilter, 3 never-screened) widened to 7 days/80 details (1256 seen, 2 never-screened, both agencies)."
+GM="Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json."
+recs=[]
+d=json.load(open('drafts/pcf.json'))
+cover=os.path.abspath('Marc_Masarate_PCF_Graduate_Estimator_Cover_Letter.pdf'); res=os.path.abspath('Marc_Masarate_PCF_Resume.pdf')
+rat=["Graduate Estimator at PCF Construction Services (Docklands), a Victorian formwork and reinforced concrete subcontractor to Tier 1 builders: quantity take-offs from structural and architectural drawings, tender queries, subcontractor and supplier enquiries, tender pricing schedules, with mentoring toward Estimator.",
+ "Fits Marc's civil engineering degree, his Advanced Diploma coursework in cost estimates and bills of quantities, his drawing review and procurement/material tracking on site in 2019 to 2020, and he lives within commuting distance of Docklands.",
+ "Estimating is adjacent to his drafting and site coordination targets; advert says site exposure is regarded and Bluebeam is not essential."]
+caution="Advert aims at current students or recent graduates; Marc's BSCE is from 2019 (Advanced Diploma Feb 2026). Estimating experience is coursework only; no Bluebeam or estimating software on record. Reinforced concrete/formwork focus is building rather than civil infrastructure. SEEK expiry 11 Dec 2026. No salary given."
+gaps=["Estimating experience is coursework only","No Bluebeam or estimating software on record","BSCE 2019, not a recent degree","No Australian construction experience"]
+how=SW+" Found on SEEK advert 95827903 (listed 11 Nov 2026, expires 11 Dec 2026), read in full on 11 Nov 2026. The advert says 'Hit apply now or email your resume to aaron.g@pcformwork.com.au'; no surname or role is given, so the email is addressed to the PCF Estimating Team rather than a guessed name. "+GM+" Drafted from facts.json only; checks.py tone and facts OK on email (206 words), facts OK on letter (237 words); cover letter and one page resume rendered and read back (1 page each). Status PREPARED_NOT_SENT: nothing was sent and no Gmail draft was made. Saved locally only (tracker full, Marc 20 Oct 2026)."
+call=["Why estimating? \u2192 Coursework cost estimates and bills of quantities, drawing review and material tracking on site; wants to learn take-offs and tendering.","Software? \u2192 AutoCAD, Civil 3D, Revit, Microsoft Office; no Bluebeam or estimating software yet.","Work rights? \u2192 Subclass 485, full working rights until December 2027.","Salary and start date? \u2192 Marc to answer; nothing on record."]
+notes="HOW GROK AI FOUND THIS\n"+how+"\n\nIF THEY CALL, LIKELY QUESTIONS\n"+"\n".join('\u2022 '+c for c in call)
+d['notes']=notes; rid=str(uuid.uuid4())
+rec={"id":rid,"key":"manual:"+rid,"contributor_name":"Grok AI","created_by":"grok-job-search","record_kind":"AUTOMATED_LEAD","run_id":RUN,"created_at":iso,"updated_at":iso,"version":1,
+ "attachments":[{"kind":"cover","filename":os.path.basename(cover),"sha256":sha(cover),"stored_in":"local:/workspace/job-finds"},{"kind":"resume","filename":os.path.basename(res),"sha256":sha(res),"stored_in":"local:/workspace/job-finds","note":"one page resume built from facts.json"}],
+ "company":d['company'],"role":d['role'],"location":d['location'],"job_url":d['job_url'],"company_url":d['company_url'],"status":"PREPARED_NOT_SENT","application_type":"ADVERTISED_VACANCY","vacancy_status":"OPEN_SEEK",
+ "application_route":"EMAIL","application_method":"Email","recipient_name":"","recipient_role":d['recipient_role'],"recipient_email":d['recipient_email'],"contact_email":d['recipient_email'],
+ "contact_evidence_url":d['contact_evidence_url'],"contact_verified_at":iso,"contact_confidence":"published_inbox","subject":d['subject'],"email_body":d['email_body'],"fit":rat,"gaps":gaps,
+ "match_score":{"percent":64,"method":"resume-fit-v2","rationale":rat,"caution":caution},
+ "advert":{"source":"seek","listed_at":"2026-11-11","expires_at":"2026-12-11T16:54+11:00","verified_at":iso,"apply_instructions":"SEEK apply (no screening questions) or email resume to aaron.g@pcformwork.com.au, as published in the advert.","screening_questions":[]},
+ "screening_answers":[],"checklist":d['checklist'],"notes":notes,"how_found":how,"call_prep":call,"checked_at":iso,"seek_id":"95827903","duplicate_key":"pcf construction services|graduate-estimator","preparation_only":True,"found_at":found}
+readme=(f"# PCF Construction Services, Graduate Estimator, {d['location']}\n\n- Status: PREPARED_NOT_SENT, fit 64%, route Email (or SEEK apply)\n- Link: {d['job_url']}\n- Send to: aaron.g@pcformwork.com.au (Dear PCF Estimating Team; advert gives no name)\n- Expires: 2026-12-11\n- Why: {' '.join(rat)}\n- Caution: {caution}\n- Gaps: {'; '.join(gaps)}\n- Files: record.json, draft.json, cover letter PDF and one page resume PDF (both read back).\n\n## Subject\n{d['subject']}\n\n## Email\n{d['email_body']}\n\n## Checklist\n"
+ +"\n".join(f"{i+1}. {c}" for i,c in enumerate(d['checklist']))+"\n\n"+notes+"\n")
+json.dump(d,open('/tmp/draft.json','w'),indent=1,ensure_ascii=False)
+save(rec,[cover,res,'/tmp/draft.json'],readme,local.strftime('%Y-%m-%d')); recs.append(rec)
+json.dump({"percent":64,"rationale":rat,"caution":caution,"gaps":gaps,"mandatory_unmet":[],"mandatory_unresolved":[],"route":"EMAIL","apply_email":"aaron.g@pcformwork.com.au","open":True,"employer_is_agency":False,"company":d['company'],"title":d['role'],"location":d['location'],"url":d['job_url']},open('screen/95827903.json','w'),indent=1)
+# Quantum Civil speculative
+rid=str(uuid.uuid4()); eoi=open('eoi.txt').read(); res2=os.path.abspath('Marc_Masarate_PCF_Resume.pdf')
+import shutil; shutil.copy(res2,'Marc_Masarate_Resume_QuantumCivil.pdf'); res2=os.path.abspath('Marc_Masarate_Resume_QuantumCivil.pdf')
+rat=["Quantum Civil is a Geelong West civil construction contractor whose careers page invites expressions of interest from people 'just starting out and eager to learn' as well as experienced staff.",
+ "Fits Marc's target of junior site and civil construction work near Melton, his BSCE and Advanced Diploma, and his 2019 to 2020 site inspections and coordination; a Graduate Civil Engineer / Civil Site Engineer (Warrnambool) listing was indexed by search engines but its page now returns 404, so this is treated as a speculative enquiry.",
+ "Speculative: no open vacancy verified."]
+caution="SPECULATIVE_ENQUIRY: no open vacancy verified (Warrnambool graduate listing link is dead). Careers page takes EOIs through its own web form; info@quantumcivil.com.au is a general inbox not stated to take applications, and an hr@ address seen only in a search snippet was not verified, so the route is the careers form. Geelong is about an hour from Melton; Warrnambool would mean relocation."
+gaps=["No Australian civil construction experience","No open vacancy verified","Relocation needed if the role is Warrnambool based"]
+how=SW+" Open-web search for regional Victoria graduate site roles surfaced a Quantum Civil Graduate Civil Engineer / Civil Site Engineer (Warrnambool) listing on movetomore.com.au, which now returns 404. Quantum Civil's own careers page (https://www.quantumcivil.com.au/careers, read 11 Nov 2026) invites expressions of interest from beginners via a form. "+GM+" EOI text (about 185 words) drafted from facts.json only, checks.py tone and facts OK; reuses the one page coordination resume. Nothing was submitted. Saved locally only (tracker full, Marc 20 Oct 2026)."
+call=["Experience? \u2192 About 10 months on site in the Philippines (2019 to 2020) plus diploma design projects in Civil 3D and AutoCAD.","Location? \u2192 Lives in Melton with own transport; open to discussing relocation (Marc to confirm Warrnambool).","Work rights? \u2192 Subclass 485, full working rights until December 2027.","Salary and start? \u2192 Marc to answer."]
+notes="HOW GROK AI FOUND THIS\n"+how+"\n\nIF THEY CALL, LIKELY QUESTIONS\n"+"\n".join('\u2022 '+c for c in call)
+chk=["Search Gmail in:anywhere for Quantum Civil before sending (Gmail was not reachable on this tick)","Open https://www.quantumcivil.com.au/careers and fill the Express your interest form with the EOI text in this folder and the attached resume","Optionally call 03 5277 1989 (number on their site) to ask whether the Warrnambool graduate role is still open","Record the submit date in /workspace/job-finds"]
+rec2={"id":rid,"key":"manual:"+rid,"contributor_name":"Grok AI","created_by":"grok-job-search","record_kind":"AUTOMATED_LEAD","run_id":RUN,"created_at":iso,"updated_at":iso,"version":1,
+ "attachments":[{"kind":"resume","filename":os.path.basename(res2),"sha256":sha(res2),"stored_in":"local:/workspace/job-finds","note":"one page resume built from facts.json"}],
+ "company":"Quantum Civil","role":"Speculative enquiry: graduate / junior civil site role","location":"Geelong West VIC (possible Warrnambool)","job_url":"https://www.quantumcivil.com.au/careers","company_url":"https://www.quantumcivil.com.au",
+ "status":"PREPARED_NOT_SENT","application_type":"SPECULATIVE_ENQUIRY","vacancy_status":"NOT_VERIFIED","application_route":"EMPLOYER_FORM","application_method":"Company website form","recipient_name":"","recipient_role":"Quantum Civil careers (Express your interest form)","recipient_email":"","contact_email":"",
+ "contact_evidence_url":"https://www.quantumcivil.com.au/careers","contact_verified_at":iso,"contact_confidence":"published_inbox","subject":"Expression of interest: graduate or junior site role, Marc Masarate","email_body":eoi,"fit":rat,"gaps":gaps,
+ "match_score":{"percent":62,"method":"resume-fit-v2","rationale":rat,"caution":caution},
+ "advert":{"source":"employer_careers_page","listed_at":"","expires_at":"","verified_at":iso,"apply_instructions":"Careers page Express your interest form.","screening_questions":[]},
+ "screening_answers":[],"checklist":chk,"notes":notes,"how_found":how,"call_prep":call,"checked_at":iso,"duplicate_key":"quantum civil|speculative","preparation_only":True,"found_at":found}
+readme=(f"# Quantum Civil, speculative enquiry (graduate / junior site role), Geelong West VIC\n\n- Status: PREPARED_NOT_SENT, SPECULATIVE_ENQUIRY, fit 62%, route careers form\n- Link: https://www.quantumcivil.com.au/careers\n- Why: {' '.join(rat)}\n- Caution: {caution}\n- Gaps: {'; '.join(gaps)}\n- Files: record.json, EOI text below, one page resume PDF.\n\n## EOI text\n{eoi}\n\n## Checklist\n"+"\n".join(f"{i+1}. {c}" for i,c in enumerate(chk))+"\n\n"+notes+"\n")
+save(rec2,[res2],readme,local.strftime('%Y-%m-%d')); recs.append(rec2)
+json.dump(recs,open('local_records.json','w'),indent=1,ensure_ascii=False)

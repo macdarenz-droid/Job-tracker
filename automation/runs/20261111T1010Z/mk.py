@@ -1,0 +1,24 @@
+import json
+sig="Kind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio"
+body=("Dear PCF Estimating Team,\n\n"
+"I'm applying for the Graduate Estimator role at PCF Construction Services advertised on SEEK (advert 95827903). The advert invites resumes by email, so I'm sending mine here.\n\n"
+"In February 2026 I finished an Advanced Diploma of Civil Construction Design in Australia, where I designed and documented road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD and prepared cost estimates and bills of quantities as coursework. I also hold a Bachelor of Science in Civil Engineering (Philippines, 2019). From 2019 to 2020 I worked on site in the Philippines as a project-in-charge engineer and then a field engineer, reviewing structural and architectural drawings and tracking procurement and materials. I'm based in Melton with a White Card, driver's licence and my own transport, and I have full working rights to December 2027 on a Subclass 485 visa.\n\n"
+"Learning take-offs and tender pricing for reinforced concrete packages under your estimators is the kind of start I'm after. I haven't used Bluebeam or estimating software on a job yet, so I'd be learning those with your team.\n\n"
+"Could we have a short chat about the role? I've attached my resume and cover letter.\n\n"+sig)
+L={"recipient_name":"Estimating Team","recipient_role":"PCF Construction Services","company":"PCF Construction Services Pty Ltd","company_line":"PCF Construction Services is a Victorian formwork and reinforced concrete specialist working with Tier 1 builders on major Melbourne projects.",
+"subject":"Graduate Estimator, Docklands (SEEK 95827903)","greeting":"Dear PCF Estimating Team,",
+"paragraphs":["Please accept my application for the Graduate Estimator role at PCF Construction Services. Helping prepare tenders for reinforced concrete substructure and superstructure packages, and learning estimating from an experienced team on Tier 1 projects, is the kind of start I want in construction.",
+"In February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute in Australia. I designed and documented road geometry, earthworks, pavement systems and stormwater drainage, prepared and reviewed drawings in AutoCAD and Civil 3D against Australian Standards, and prepared cost estimates and bills of quantities as part of my coursework. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019).",
+"From 2019 to 2020 I worked on site in the Philippines. As project-in-charge on a community hall renovation I reviewed structural and architectural drawings and checked work against project requirements, and as a field engineer on residential subdivision finishing works I tracked procurement and materials and prepared site reports, material records and progress reports.",
+"I live in Melton, hold an Australian driver's licence with my own transport and a White Card, and have full working rights to December 2027 on a Subclass 485 visa. My estimating experience so far is coursework, and I have not used Bluebeam or estimating software on a job, so I would learn those with your team.",
+"I have attached my resume and would welcome the chance to talk about the role."],"closing":"Kind regards,"}
+d={"seek_id":"95827903","company":"PCF Construction Services Pty Ltd","role":"Graduate Estimator","location":"Docklands, Melbourne VIC",
+"job_url":"https://www.seek.com.au/job/95827903","company_url":"https://www.pcformwork.com.au","route":"EMAIL","application_type":"ADVERTISED_VACANCY","vacancy_status":"OPEN_SEEK",
+"recipient_name":"","recipient_role":"Resume inbox published in the advert (no name given)","recipient_email":"aaron.g@pcformwork.com.au","contact_evidence_url":"https://www.seek.com.au/job/95827903",
+"subject":"Graduate Estimator application (SEEK 95827903), Marc Masarate","email_body":body,"letter":L,
+"screening_answers":[],
+"checklist":["Search Gmail in:anywhere for PCF / pcformwork and SEEK 95827903 before sending (Gmail was not reachable on this tick)","Send the prepared email to aaron.g@pcformwork.com.au with the cover letter and resume from this folder (the advert says apply now or email your resume to that address)","Or use SEEK Apply on advert 95827903 with the same resume and letter (no screening questions)","Be ready to answer salary and start date yourself (nothing on record)","Record the send date in /workspace/job-finds"],"notes":""}
+json.dump(d,open('drafts/pcf.json','w'),indent=1,ensure_ascii=False)
+open('drafts/pcf_email.txt','w').write(body)
+open('drafts/pcf_letter.txt','w').write('\n\n'.join(L['paragraphs']))
+print(len(body.split()), sum(len(p.split()) for p in L['paragraphs']))
