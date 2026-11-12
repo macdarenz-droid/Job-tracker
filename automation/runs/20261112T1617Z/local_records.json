@@ -1,0 +1,98 @@
+[
+ {
+  "id": "5a054960-def3-4dd5-a0e3-a0928077e55d",
+  "key": "manual:5a054960-def3-4dd5-a0e3-a0928077e55d",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261112T1617Z",
+  "created_at": "2026-11-12T16:25:46.000Z",
+  "updated_at": "2026-11-12T16:25:46.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Civilivic_Site_Engineer_Cover_Letter.pdf",
+    "sha256": "8c1c531f4e71bda3fa9cf6d88323d4a7f0e423decee4d867f954aaa63645def1",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Civilivic_Resume.pdf",
+    "sha256": "74966d6ce31a11114c55addd479f0b0ee7811f7aa1ecbd232e2eddacdf821dfc",
+    "stored_in": "local:/workspace/job-finds",
+    "note": "one page resume built from facts.json"
+   }
+  ],
+  "company": "Civilivic Pty Ltd",
+  "role": "Site Engineer (Site or Graduate Engineer)",
+  "location": "Gympie QLD (Gympie and Sunshine Coast region)",
+  "job_url": "https://www.seek.com.au/job/95842971",
+  "company_url": "",
+  "status": "HELD_MANDATORY_UNRESOLVED",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_SEEK",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95842971",
+  "contact_verified_at": "2026-11-12T16:25:46.000Z",
+  "contact_confidence": "none",
+  "subject": "Site Engineer or Graduate Engineer, Gympie (SEEK)",
+  "email_body": "",
+  "fit": [
+   "Civilivic (South East Queensland civil contractor: roads, drainage, earthworks) wants an experienced Site Engineer or a Graduate Engineer in Gympie, permanent full time, $80k to $115k, company vehicle or allowance.",
+   "Duties (check works against drawings, ITPs and quality records, take-offs, subcontractor coordination, site diaries, inspections) match Marc's 2019 to 2020 site work, and the advert asks for working knowledge of roadworks, drainage or earthworks, which his Advanced Diploma design work covers; civil degree and White Card met; site experience preferred not essential.",
+   "Direct employer; graduates explicitly welcome."
+  ],
+  "gaps": [
+   "Queensland driver's licence (holds Victorian)",
+   "No Australian site experience",
+   "Roads and earthworks experience is design study only",
+   "Relocation to Gympie unconfirmed"
+  ],
+  "match_score": {
+   "percent": 70,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Civilivic (South East Queensland civil contractor: roads, drainage, earthworks) wants an experienced Site Engineer or a Graduate Engineer in Gympie, permanent full time, $80k to $115k, company vehicle or allowance.",
+    "Duties (check works against drawings, ITPs and quality records, take-offs, subcontractor coordination, site diaries, inspections) match Marc's 2019 to 2020 site work, and the advert asks for working knowledge of roadworks, drainage or earthworks, which his Advanced Diploma design work covers; civil degree and White Card met; site experience preferred not essential.",
+    "Direct employer; graduates explicitly welcome."
+   ],
+   "caution": "HELD because the advert lists a current Queensland driver's licence and Marc holds a Victorian licence; Queensland lets a new resident transfer an interstate licence, so this resolves only if Marc is willing to move to the Gympie region. Relocation unconfirmed. SEEK asks years as site engineer, road construction and earthworks: answer under 1 year / none on site honestly. Company website not found; check the employer before sharing more than the resume."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-11-12",
+   "expires_at": "2026-12-12",
+   "verified_at": "2026-11-12T16:25:46.000Z",
+   "apply_instructions": "Apply on SEEK job 95842971 (SEEK Apply, 7 screening questions, resume and cover letter requested). No email published.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Decide whether a move to the Gympie region suits you; the advert asks for a current Queensland driver's licence, and your licence is Victorian (transfer it after moving)",
+   "Search Gmail in:anywhere for Civilivic before applying (Gmail was not reachable on this tick)",
+   "Open SEEK job 95842971, confirm it is still live (expires 12 Dec 2026) and press Apply",
+   "Answer the screening questions honestly (see screening_answers); site engineer, road construction and earthworks years are under 1 year",
+   "Attach the resume and cover letter from this folder and record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nTick 20261112T1617Z: open web first (web searches across jobau, Jobstralia, JobMESH, Prosple, publicroles, careersatcouncil, LinkedIn public job search for the last 48 hours, regional VIC/NSW/QLD/WA/TAS/NT/SA searches) plus SEEK 3 days/60 details (803 seen, 182 prefilter) and targeted SEEK keyword searches, widened to SEEK 7 days/80 details. Found on SEEK (job 95842971, listed 12 Nov 2026, expires 12 Dec 2026) through a targeted keyword search after it was seen on the SEEK graduate civil engineer page; the automatic sweep missed it because SEEK files it under Project Management. Never screened before. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: not in /workspace/job-finds, prior_outreach.json, earlier screen files or the journal. Cover letter drafted from facts.json only; checks.py facts OK and tone OK (letter under 340 words); cover letter and one page resume rendered and read back (1 page each). Status HELD_MANDATORY_UNRESOLVED: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Site experience? → About ten months on site in the Philippines (2019 to 2020): crew coordination, drawing review, inspections, procurement, site and progress reports.\n• Roads, drainage, earthworks? → Designed road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD in the Advanced Diploma (finished Feb 2026); not yet on an Australian site.\n• Queensland licence and moving? → Holds an Australian (Victorian) licence; Marc to confirm a move and licence transfer.\n• Work rights? → Subclass 485, full working rights until December 2027.\n• Salary and start? → Marc to answer himself.",
+  "how_found": "Tick 20261112T1617Z: open web first (web searches across jobau, Jobstralia, JobMESH, Prosple, publicroles, careersatcouncil, LinkedIn public job search for the last 48 hours, regional VIC/NSW/QLD/WA/TAS/NT/SA searches) plus SEEK 3 days/60 details (803 seen, 182 prefilter) and targeted SEEK keyword searches, widened to SEEK 7 days/80 details. Found on SEEK (job 95842971, listed 12 Nov 2026, expires 12 Dec 2026) through a targeted keyword search after it was seen on the SEEK graduate civil engineer page; the automatic sweep missed it because SEEK files it under Project Management. Never screened before. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: not in /workspace/job-finds, prior_outreach.json, earlier screen files or the journal. Cover letter drafted from facts.json only; checks.py facts OK and tone OK (letter under 340 words); cover letter and one page resume rendered and read back (1 page each). Status HELD_MANDATORY_UNRESOLVED: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Site experience? → About ten months on site in the Philippines (2019 to 2020): crew coordination, drawing review, inspections, procurement, site and progress reports.",
+   "Roads, drainage, earthworks? → Designed road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD in the Advanced Diploma (finished Feb 2026); not yet on an Australian site.",
+   "Queensland licence and moving? → Holds an Australian (Victorian) licence; Marc to confirm a move and licence transfer.",
+   "Work rights? → Subclass 485, full working rights until December 2027.",
+   "Salary and start? → Marc to answer himself."
+  ],
+  "checked_at": "2026-11-12T16:25:46.000Z",
+  "seek_id": "95842971",
+  "duplicate_key": "civilivic pty ltd|site engineer (site or graduate engineer)",
+  "preparation_only": true,
+  "found_at": "2026-11-13T03:25+11:00 AEDT"
+ }
+]
