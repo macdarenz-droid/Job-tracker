@@ -1,0 +1,19 @@
+import json
+D={}
+D['moretonbay']={"seek_id":"95865921","company":"City of Moreton Bay","role":"Civil Services Engineer","location":"Strathpine, Brisbane QLD",
+"job_url":"https://www.seek.com.au/job/95865921","company_url":"https://www.moretonbay.qld.gov.au","route":"SEEK link-out to the council careers portal","application_type":"ADVERTISED_VACANCY","vacancy_status":"OPEN_SEEK",
+"letter":{"recipient_name":"Careers Team","recipient_role":"","company":"City of Moreton Bay","company_line":"City of Moreton Bay is taking on a graduate Civil Services Engineer in Strathpine to support investigations, analysis and design for facilities investment and technical decisions.",
+"subject":"Civil Services Engineer, Strathpine (SEEK 95865921)","greeting":"Dear Careers Team,",
+"paragraphs":["Please accept my application for the Civil Services Engineer role in Strathpine. Your advert asks for knowledge of civil design, constructability and engineering standards, and for clear technical reports and drawings. That is the work I trained for.",
+"I hold a Bachelor of Science in Civil Engineering (Philippines, 2019), and in February 2026 I finished an Advanced Diploma of Civil Construction Design in Australia. There I designed and documented road geometry, earthworks, pavement and stormwater drainage, prepared and reviewed drawings in AutoCAD and Civil 3D against Australian Standards, and studied design coordination, constructability and technical reporting.",
+"From 2019 to 2020 I worked on site in the Philippines, reviewing drawings, carrying out inspections and quality checks, and preparing site and progress reports while working with engineers, subcontractors and suppliers.",
+"I hold a White Card and an Australian driver's licence, have full working rights to December 2027 on a Subclass 485 visa, and am open to discussing relocation to Brisbane. Facilities engineering would be new to me, and I would rely on senior engineers as your advert describes.",
+"My resume is attached, and I would welcome the chance to talk."],"closing":"Kind regards,"},
+"checklist":["Decide whether a move to Brisbane suits you (the role is based in Strathpine, hybrid)","Search Gmail in:anywhere for Moreton Bay before applying (Gmail was not reachable on this tick)","Open SEEK job 95865921 (closes about 22 Nov 2026), follow Apply to the council portal and upload the resume and cover letter from this folder","Read the PD - Civil Services Engineer PDF linked in the advert before submitting","Record the apply date in /workspace/job-finds"],
+"screening_answers":[]}
+for k,d in D.items():
+    d.update({"recipient_name":"","recipient_role":"","recipient_email":"","contact_evidence_url":d['job_url'],"subject":d['letter']['subject'],"email_body":"","notes":""})
+    json.dump(d,open(f'drafts/{k}.json','w'),indent=1,ensure_ascii=False)
+    json.dump(d['letter'],open(f'drafts/{k}_L.json','w'),indent=1,ensure_ascii=False)
+    open(f'drafts/{k}_letter.txt','w').write('\n\n'.join(d['letter']['paragraphs']))
+    print(k, sum(len(p.split()) for p in d['letter']['paragraphs']))

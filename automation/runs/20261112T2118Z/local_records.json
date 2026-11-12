@@ -1,0 +1,193 @@
+[
+ {
+  "id": "ce7e21ff-3b90-4d0d-93ce-17fc08cb0173",
+  "key": "manual:ce7e21ff-3b90-4d0d-93ce-17fc08cb0173",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261112T2118Z",
+  "created_at": "2026-11-12T21:23:26.000Z",
+  "updated_at": "2026-11-12T21:23:26.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Mammoet_Graduate_Engineer_Cover_Letter.pdf",
+    "sha256": "0c3ec9df59792013de0e8764ccf56493492c0e51f71ed3fb205c51be7bc12181",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Mammoet_Resume.pdf",
+    "sha256": "74966d6ce31a11114c55addd479f0b0ee7811f7aa1ecbd232e2eddacdf821dfc",
+    "stored_in": "local:/workspace/job-finds",
+    "note": "one page resume built from facts.json"
+   }
+  ],
+  "company": "Mammoet Australia",
+  "role": "Graduate Engineer",
+  "location": "Henderson WA (Perth)",
+  "job_url": "https://jobs.mammoet.com/careers-home/jobs/9300",
+  "company_url": "https://www.mammoet.com",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_EMPLOYER_PORTAL",
+  "application_route": "Employer portal (iCIMS req 9300)",
+  "application_method": "Employer portal",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://jobs.mammoet.com/careers-home/jobs/9300",
+  "contact_verified_at": "2026-11-12T21:23:26.000Z",
+  "contact_confidence": "none",
+  "subject": "Graduate Engineer, Henderson (req 9300)",
+  "email_body": "",
+  "fit": [
+   "Mammoet (heavy lifting and transport) wants a Graduate Engineer in Henderson WA who has completed or is completing a mechanical, mechatronic, civil or structural degree; structured graduate program with mentor.",
+   "Duties (engineering drawings in AutoCAD and 3D software, calculations, technical documentation, site exposure) match Marc's AutoCAD/Civil 3D drawing work in the Advanced Diploma and his 2019 to 2020 site inspection and reporting work; civil degree accepted.",
+   "Direct employer, posted 12 Nov 2026 (req 9300); no citizenship or PR requirement stated."
+  ],
+  "gaps": [
+   "Heavy lift and transport engineering is new",
+   "Degree 2019 (recent qualification is the Advanced Diploma)",
+   "Relocation to Perth unconfirmed",
+   "No Australian site experience"
+  ],
+  "match_score": {
+   "percent": 63,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Mammoet (heavy lifting and transport) wants a Graduate Engineer in Henderson WA who has completed or is completing a mechanical, mechatronic, civil or structural degree; structured graduate program with mentor.",
+    "Duties (engineering drawings in AutoCAD and 3D software, calculations, technical documentation, site exposure) match Marc's AutoCAD/Civil 3D drawing work in the Advanced Diploma and his 2019 to 2020 site inspection and reporting work; civil degree accepted.",
+    "Direct employer, posted 12 Nov 2026 (req 9300); no citizenship or PR requirement stated."
+   ],
+   "caution": "Heavy lift planning, crane studies and transport route assessments are a domain gap (said honestly in the letter). Degree finished 2019; the advert says completing or recently completed, so the Feb 2026 Advanced Diploma carries the recency. Perth relocation unconfirmed. Work rights not stated in the advert; check the portal questions."
+  },
+  "advert": {
+   "source": "web",
+   "listed_at": "2026-11-12",
+   "expires_at": "",
+   "verified_at": "2026-11-12T21:23:26.000Z",
+   "apply_instructions": "Apply on the Mammoet careers portal (iCIMS req 9300): https://jobs.mammoet.com/careers-home/jobs/9300 . The advert also offers emailing a CV to a mammoet.com address that was hidden in the public listing, so no email is published.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Decide whether a move to Perth suits you (the role is based in Henderson WA)",
+   "Search Gmail in:anywhere for Mammoet before applying (Gmail was not reachable on this tick)",
+   "Open https://jobs.mammoet.com/careers-home/jobs/9300, confirm it is still open and apply through the iCIMS portal (sign in with your standing ATS login)",
+   "Attach the resume and cover letter from this folder",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nTick 20261112T2118Z: open web first (web searches across ZipRecruiter, job-directory, Jobstralia, jobau, CollegeRecruiter, TheJobsMap, careersatcouncil, Prosple, LinkedIn public job search for the last 24 to 48 hours with six junior keyword sets, employer careers pages for Dalton Consulting Engineers and Mammoet) plus SEEK 2 days/80 details (858 seen, 138 prefilter). Found on LinkedIn public job search (posted 10 hours earlier) and confirmed on Mammoet's own careers API as req 9300, Graduate Engineer, Henderson WA, posted 12 Nov 2026. Never screened before. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: not in /workspace/job-finds, prior_outreach.json, earlier screen files or the journal. Cover letter drafted from facts.json only; checks.py facts OK and tone OK (letter under 340 words); cover letter and one page resume rendered and read back (1 page each). Status READY_JEREMIE_EMPLOYER_PORTAL: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Why heavy lifting? → Wants a graduate role that mixes drawings and documentation with time on site; heavy lift planning would be learnt from the team.\n• Drawings and software? → Prepared and reviewed technical drawings in AutoCAD and Civil 3D in the Advanced Diploma (finished Feb 2026).\n• Site experience? → About ten months on site in the Philippines (2019 to 2020): crew coordination, drawing review, inspections, site and progress reports.\n• Move to Perth? → Open to discussing relocation; Marc to confirm.\n• Work rights? → Subclass 485, full working rights until December 2027.",
+  "how_found": "Tick 20261112T2118Z: open web first (web searches across ZipRecruiter, job-directory, Jobstralia, jobau, CollegeRecruiter, TheJobsMap, careersatcouncil, Prosple, LinkedIn public job search for the last 24 to 48 hours with six junior keyword sets, employer careers pages for Dalton Consulting Engineers and Mammoet) plus SEEK 2 days/80 details (858 seen, 138 prefilter). Found on LinkedIn public job search (posted 10 hours earlier) and confirmed on Mammoet's own careers API as req 9300, Graduate Engineer, Henderson WA, posted 12 Nov 2026. Never screened before. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: not in /workspace/job-finds, prior_outreach.json, earlier screen files or the journal. Cover letter drafted from facts.json only; checks.py facts OK and tone OK (letter under 340 words); cover letter and one page resume rendered and read back (1 page each). Status READY_JEREMIE_EMPLOYER_PORTAL: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Why heavy lifting? → Wants a graduate role that mixes drawings and documentation with time on site; heavy lift planning would be learnt from the team.",
+   "Drawings and software? → Prepared and reviewed technical drawings in AutoCAD and Civil 3D in the Advanced Diploma (finished Feb 2026).",
+   "Site experience? → About ten months on site in the Philippines (2019 to 2020): crew coordination, drawing review, inspections, site and progress reports.",
+   "Move to Perth? → Open to discussing relocation; Marc to confirm.",
+   "Work rights? → Subclass 485, full working rights until December 2027."
+  ],
+  "checked_at": "2026-11-12T21:23:26.000Z",
+  "seek_id": null,
+  "duplicate_key": "mammoet australia|graduate engineer",
+  "preparation_only": true,
+  "found_at": "2026-11-13T08:23+11:00 AEDT"
+ },
+ {
+  "id": "c8b0b13c-f512-4112-b88c-9cc9e1f816b3",
+  "key": "manual:c8b0b13c-f512-4112-b88c-9cc9e1f816b3",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261112T2118Z",
+  "created_at": "2026-11-12T21:23:26.000Z",
+  "updated_at": "2026-11-12T21:23:26.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_MoretonBay_Civil_Services_Engineer_Cover_Letter.pdf",
+    "sha256": "dfd3051f6f9528ee077a3b32ab3aaad2ff98f6f468dd5509203f11e6a1138fee",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_MoretonBay_Resume.pdf",
+    "sha256": "74966d6ce31a11114c55addd479f0b0ee7811f7aa1ecbd232e2eddacdf821dfc",
+    "stored_in": "local:/workspace/job-finds",
+    "note": "one page resume built from facts.json"
+   }
+  ],
+  "company": "City of Moreton Bay",
+  "role": "Civil Services Engineer",
+  "location": "Strathpine, Brisbane QLD",
+  "job_url": "https://www.seek.com.au/job/95865921",
+  "company_url": "https://www.moretonbay.qld.gov.au",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_SEEK",
+  "application_route": "SEEK link-out to the council careers portal",
+  "application_method": "SEEK link-out to council portal",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95865921",
+  "contact_verified_at": "2026-11-12T21:23:26.000Z",
+  "contact_confidence": "none",
+  "subject": "Civil Services Engineer, Strathpine (SEEK 95865921)",
+  "email_body": "",
+  "fit": [
+   "City of Moreton Bay wants a graduate Civil Services Engineer in Strathpine (permanent full time, 103,597 dollars plus super, 9 day fortnight, hybrid) for investigations, analysis and design behind facilities investment decisions.",
+   "Requirements (tertiary civil qualification, knowledge of civil design, constructability and standards, technical reports and drawings, White Card, C class licence) are met by Marc's BSCE, Advanced Diploma design and documentation work and his White Card and licence.",
+   "Council employer; advert says it only seeks current graduates."
+  ],
+  "gaps": [
+   "Facilities engineering experience",
+   "No Australian site experience",
+   "Relocation to Brisbane unconfirmed"
+  ],
+  "match_score": {
+   "percent": 66,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "City of Moreton Bay wants a graduate Civil Services Engineer in Strathpine (permanent full time, 103,597 dollars plus super, 9 day fortnight, hybrid) for investigations, analysis and design behind facilities investment decisions.",
+    "Requirements (tertiary civil qualification, knowledge of civil design, constructability and standards, technical reports and drawings, White Card, C class licence) are met by Marc's BSCE, Advanced Diploma design and documentation work and his White Card and licence.",
+    "Council employer; advert says it only seeks current graduates."
+   ],
+   "caution": "Facilities engineering is new to Marc. 'Current graduates' wording: Marc's degree is 2019 with the Advanced Diploma finished Feb 2026; check the position description before applying. Brisbane relocation unconfirmed. Closes about 22 Nov 2026."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-11-12",
+   "expires_at": "2026-11-22",
+   "verified_at": "2026-11-12T21:23:26.000Z",
+   "apply_instructions": "SEEK job 95865921 links out to the City of Moreton Bay careers portal; upload resume and optional cover letter. Questions: careers@moretonbay.qld.gov.au (published in the advert). No email sent.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Decide whether a move to Brisbane suits you (the role is based in Strathpine, hybrid)",
+   "Search Gmail in:anywhere for Moreton Bay before applying (Gmail was not reachable on this tick)",
+   "Open SEEK job 95865921 (closes about 22 Nov 2026), follow Apply to the council portal and upload the resume and cover letter from this folder",
+   "Read the PD - Civil Services Engineer PDF linked in the advert before submitting",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nTick 20261112T2118Z: open web first (web searches across ZipRecruiter, job-directory, Jobstralia, jobau, CollegeRecruiter, TheJobsMap, careersatcouncil, Prosple, LinkedIn public job search for the last 24 to 48 hours with six junior keyword sets, employer careers pages for Dalton Consulting Engineers and Mammoet) plus SEEK 2 days/80 details (858 seen, 138 prefilter). Found in the SEEK sweep (job 95865921, listed 13 Nov 2026 AEDT, closes about 22 Nov 2026); never screened before (an earlier Moreton Bay advert was a different, experienced role). Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: not in /workspace/job-finds, prior_outreach.json, earlier screen files or the journal. Cover letter drafted from facts.json only; checks.py facts OK and tone OK (letter under 340 words); cover letter and one page resume rendered and read back (1 page each). Status READY_JEREMIE_EMPLOYER_PORTAL: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Civil design knowledge? → Road geometry, earthworks, pavement and stormwater drainage design and documentation in AutoCAD and Civil 3D (Advanced Diploma, Feb 2026).\n• Reports and drawings? → Technical reporting in the Advanced Diploma; site, material and progress reports as a field engineer (2019 to 2020).\n• Facilities engineering? → New; would learn from senior engineers.\n• Move to Brisbane? → Open to discussing relocation; Marc to confirm.\n• Work rights? → Subclass 485, full working rights until December 2027.",
+  "how_found": "Tick 20261112T2118Z: open web first (web searches across ZipRecruiter, job-directory, Jobstralia, jobau, CollegeRecruiter, TheJobsMap, careersatcouncil, Prosple, LinkedIn public job search for the last 24 to 48 hours with six junior keyword sets, employer careers pages for Dalton Consulting Engineers and Mammoet) plus SEEK 2 days/80 details (858 seen, 138 prefilter). Found in the SEEK sweep (job 95865921, listed 13 Nov 2026 AEDT, closes about 22 Nov 2026); never screened before (an earlier Moreton Bay advert was a different, experienced role). Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: not in /workspace/job-finds, prior_outreach.json, earlier screen files or the journal. Cover letter drafted from facts.json only; checks.py facts OK and tone OK (letter under 340 words); cover letter and one page resume rendered and read back (1 page each). Status READY_JEREMIE_EMPLOYER_PORTAL: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Civil design knowledge? → Road geometry, earthworks, pavement and stormwater drainage design and documentation in AutoCAD and Civil 3D (Advanced Diploma, Feb 2026).",
+   "Reports and drawings? → Technical reporting in the Advanced Diploma; site, material and progress reports as a field engineer (2019 to 2020).",
+   "Facilities engineering? → New; would learn from senior engineers.",
+   "Move to Brisbane? → Open to discussing relocation; Marc to confirm.",
+   "Work rights? → Subclass 485, full working rights until December 2027."
+  ],
+  "checked_at": "2026-11-12T21:23:26.000Z",
+  "seek_id": "95865921",
+  "duplicate_key": "city of moreton bay|civil services engineer",
+  "preparation_only": true,
+  "found_at": "2026-11-13T08:23+11:00 AEDT"
+ }
+]
