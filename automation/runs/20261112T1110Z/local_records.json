@@ -1,0 +1,97 @@
+[
+ {
+  "id": "63b9a07d-20f0-46dd-9870-b4d20c0933fa",
+  "key": "manual:63b9a07d-20f0-46dd-9870-b4d20c0933fa",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261112T1110Z",
+  "created_at": "2026-11-12T11:22:22.000Z",
+  "updated_at": "2026-11-12T11:22:22.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Power_On_Cabling_Civil_Site_Engineer_Cover_Letter.pdf",
+    "sha256": "97601d7af160ae8d87c8a19afff6cbd27c1ae28782d75f30307746c7e1505dbc",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Power_On_Cabling_Resume.pdf",
+    "sha256": "74966d6ce31a11114c55addd479f0b0ee7811f7aa1ecbd232e2eddacdf821dfc",
+    "stored_in": "local:/workspace/job-finds",
+    "note": "one page resume built from facts.json"
+   }
+  ],
+  "company": "Power On Cabling",
+  "role": "Civil Site Engineer",
+  "location": "Perth WA (site based, FIFO / Perth based)",
+  "job_url": "https://www.seek.com.au/job/95841578",
+  "company_url": "",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_SEEK",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95841578",
+  "contact_verified_at": "2026-11-12T11:22:22.000Z",
+  "contact_confidence": "none",
+  "subject": "Civil Site Engineer, Perth (SEEK)",
+  "email_body": "",
+  "fit": [
+   "Civil Site Engineer with Power On Cabling (underground assets, excavation, cable laying, formwork, earthworks), Perth based / site based FIFO, permanent full time, immediate start, initial 4 to 6 month project.",
+   "Duties match Marc's 2019 to 2020 site work: reading drawings, daily ITPs and QA records, procuring materials, weekly and monthly progress reports, liaising with site staff; mandatory items (civil engineering qualification, White Card, licence, medical and D&A, full work rights) are all met.",
+   "Direct employer; Marc is available for FIFO; no minimum years stated."
+  ],
+  "gaps": [
+   "No Australian site experience",
+   "No MS Project, variations or EOT experience",
+   "Perth based / FIFO"
+  ],
+  "match_score": {
+   "percent": 62,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Civil Site Engineer with Power On Cabling (underground assets, excavation, cable laying, formwork, earthworks), Perth based / site based FIFO, permanent full time, immediate start, initial 4 to 6 month project.",
+    "Duties match Marc's 2019 to 2020 site work: reading drawings, daily ITPs and QA records, procuring materials, weekly and monthly progress reports, liaising with site staff; mandatory items (civil engineering qualification, White Card, licence, medical and D&A, full work rights) are all met.",
+    "Direct employer; Marc is available for FIFO; no minimum years stated."
+   ],
+   "caution": "Advert wants someone to work autonomously and manage MS Project timelines, variations and EOTs, which Marc has not done; his site experience is about ten months and overseas. Perth / FIFO means relocation or fly in fly out, Marc to decide. SEEK asks years as a Civil Site Engineer and in construction: answer under 1 year honestly. Company website not found; check the employer before sharing more than the resume."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-11-11",
+   "expires_at": "2026-12-12",
+   "verified_at": "2026-11-12T11:22:22.000Z",
+   "apply_instructions": "Apply on SEEK job 95841578 (SEEK Apply, 8 screening questions). No email published.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Search Gmail in:anywhere for Power On Cabling before applying (Gmail was not reachable on this tick)",
+   "Open SEEK job 95841578, confirm it is still live (expires 12 Dec 2026) and press Apply",
+   "Answer the screening questions honestly (see screening_answers); years as a Civil Site Engineer is under 1 year, overseas",
+   "Attach the resume and cover letter from this folder; decide whether Perth FIFO / Perth based work suits you",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nTick 20261112T1110Z: open web first (web searches across jobau, Jobstralia, Jora (headless), Prosple, GradConnection, LiveHire/Calibre, Locanto, council and regional VIC/NSW/QLD/WA/NT/TAS/ACT searches, TradeTech and CivilPlus careers pages) plus SEEK 3 days/60 details (1195 seen, 260 prefilter) widened to 7 days/80 details (1369 seen, 335 prefilter). Found in this tick's SEEK sweep (job 95841578, listed 11 Nov 2026, expires 12 Dec 2026). Not on the tracker, prior_outreach.json or /workspace/job-finds; never screened before. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json. Cover letter drafted from facts.json only; checks.py facts OK and tone OK (letter under 340 words); cover letter and one page resume rendered and read back (1 page each). Status READY_JEREMIE_SEEK: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Site experience? → About ten months on site in the Philippines (2019 to 2020): crew coordination, drawing review, inspections, procurement, site and progress reports.\n• ITPs and QA? → Quality checks and inspections on site; Australian ITP format still to learn.\n• FIFO or Perth move? → Available for FIFO and site work; Marc to confirm Perth arrangements.\n• Work rights? → Subclass 485, full working rights until December 2027.\n• Salary and start? → Marc to answer himself.",
+  "how_found": "Tick 20261112T1110Z: open web first (web searches across jobau, Jobstralia, Jora (headless), Prosple, GradConnection, LiveHire/Calibre, Locanto, council and regional VIC/NSW/QLD/WA/NT/TAS/ACT searches, TradeTech and CivilPlus careers pages) plus SEEK 3 days/60 details (1195 seen, 260 prefilter) widened to 7 days/80 details (1369 seen, 335 prefilter). Found in this tick's SEEK sweep (job 95841578, listed 11 Nov 2026, expires 12 Dec 2026). Not on the tracker, prior_outreach.json or /workspace/job-finds; never screened before. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json. Cover letter drafted from facts.json only; checks.py facts OK and tone OK (letter under 340 words); cover letter and one page resume rendered and read back (1 page each). Status READY_JEREMIE_SEEK: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Site experience? → About ten months on site in the Philippines (2019 to 2020): crew coordination, drawing review, inspections, procurement, site and progress reports.",
+   "ITPs and QA? → Quality checks and inspections on site; Australian ITP format still to learn.",
+   "FIFO or Perth move? → Available for FIFO and site work; Marc to confirm Perth arrangements.",
+   "Work rights? → Subclass 485, full working rights until December 2027.",
+   "Salary and start? → Marc to answer himself."
+  ],
+  "checked_at": "2026-11-12T11:22:22.000Z",
+  "seek_id": "95841578",
+  "duplicate_key": "power on cabling|civil site engineer",
+  "preparation_only": true,
+  "found_at": "2026-11-12T22:22+11:00 AEDT"
+ }
+]
