@@ -2,62 +2,59 @@
 
 Written by `automation/scripts/queue.py render` from the files in `open/`. Do not edit by hand.
 
-## SEEK (7 open)
+## SEEK (6 open)
 
 | # | Lane | Company | Role | Location | Closes | Link | Note |
 |---|---|---|---|---|---|---|---|
-| 1 | drafter | Newton Denny Chapelle | Civil Engineer / Design Engineer | Lismore or Casuarina, Northern Rivers NSW | 2026-11-25 09:00 (advert) | [seek-95487722](https://www.seek.com.au/job/95487722) | letter to rewrite |
-| 2 | drafter | Western Grammar School | Civil Engineering Draftsperson | Plumpton, Sydney NSW | 2026-11-28 (listing expiry) | [seek-95576041](https://www.seek.com.au/job/95576041) | letter to rewrite |
-| 3 | drafter | All Seasons Communications Pty Ltd | Civil Engineering Draftsperson | Perth WA | 2026-11-20 (listing expiry) | [seek-95378071](https://www.seek.com.au/job/95378071) | letter to rewrite |
-| 4 | technician | Mendi Constructions | Quality Assurance Trainee, Civil Construction | Townsville, Northern QLD | 2026-11-18 (listing expiry) | [seek-95347045](https://www.seek.com.au/job/95347045) | letter to rewrite |
-| 5 | engineer | Cono Services | Bulk Excavation & Civil Site Engineer | Sydney NSW | 2026-12-13 (listing expiry) | [seek-95871692](https://www.seek.com.au/job/95871692) | letter to rewrite |
-| 6 | engineer | Jaydo Construction Pty Ltd | Site Engineer - Urban Development - EOI 2027 | Keilor Park, Melbourne VIC | 2026-11-26 (listing expiry) | [seek-95514711](https://www.seek.com.au/job/95514711) | letter to rewrite |
-| 7 | engineer | Central Vic Civil Pty Ltd | Junior Project Manager | Ballarat VIC | 2026-11-19 (listing expiry) | [seek-95372255](https://www.seek.com.au/job/95372255) | letter to rewrite |
+| 1 | drafter | Newton Denny Chapelle | Civil Engineer / Design Engineer | Lismore or Casuarina, Northern Rivers NSW | 2026-11-25 09:00 (advert) | [seek-95487722](https://www.seek.com.au/job/95487722) |  |
+| 2 | drafter | Western Grammar School | Civil Engineering Draftsperson | Plumpton, Sydney NSW | 2026-11-28 (listing expiry) | [seek-95576041](https://www.seek.com.au/job/95576041) |  |
+| 3 | drafter | All Seasons Communications Pty Ltd | Civil Engineering Draftsperson | Perth WA | 2026-11-20 (listing expiry) | [seek-95378071](https://www.seek.com.au/job/95378071) |  |
+| 4 | technician | Mendi Constructions | Quality Assurance Trainee, Civil Construction | Townsville, Northern QLD | 2026-11-18 (listing expiry) | [seek-95347045](https://www.seek.com.au/job/95347045) |  |
+| 5 | engineer | Jaydo Construction Pty Ltd | Site Engineer - Urban Development - EOI 2027 | Keilor Park, Melbourne VIC | 2026-11-26 (listing expiry) | [seek-95514711](https://www.seek.com.au/job/95514711) |  |
+| 6 | engineer | Central Vic Civil Pty Ltd | Junior Project Manager | Ballarat VIC | 2026-11-19 (listing expiry) | [seek-95372255](https://www.seek.com.au/job/95372255) |  |
 
-## EMAIL (8 open)
-
-| # | Lane | Company | Role | Location | Closes | Link | Note |
-|---|---|---|---|---|---|---|---|
-| 1 | drafter | Core Environmental Projects (Core-EP) | Junior Drafter | Melbourne VIC (on site) | not stated | [core-environmental-projects-co-junior-drafter-27501728](https://core-ep.com.au/careers/junior-drafter/) | letter to rewrite |
-| 2 | drafter | Permadec Pty Ltd | Civil Design Drafter, Formwork | Melbourne VIC (fully remote) | 2026-11-18 (listing expiry) | [seek-95337660](https://www.seek.com.au/job/95337660) | letter to rewrite |
-| 3 | drafter | Loetis Engineers | Speculative enquiry: graduate civil engineer or civil designer, land development (Geelong) | Newtown (Geelong) VIC | not stated | [loetis-engineers-speculative-enquiry-graduate-civil-engin-3ea37f34](https://www.loetis.com.au/about) | letter to rewrite |
-| 4 | drafter | Breese Pitt Dixon | Speculative enquiry: graduate civil engineer or civil designer, land development (Melbourne) | Hawthorn East, Melbourne VIC | not stated | [breese-pitt-dixon-speculative-enquiry-graduate-civil-engin-b7ca990d](https://www.bpd.com.au/careers) | letter to rewrite |
-| 5 | drafter | TGVK | Speculative enquiry: junior civil designer or civil draftsperson (Mulgrave, Melbourne) | Mulgrave, Melbourne VIC | not stated | [tgvk-speculative-enquiry-junior-civil-designe-36e928c0](https://www.tgvk.com.au/careers/) | letter to rewrite |
-| 6 | engineer | PCP Solutions Pty Ltd | Graduate Civil Engineer | Toowoomba QLD | 2026-12-13 (listing expiry) | [seek-95872340](https://www.seek.com.au/job/95872340) | letter to rewrite |
-| 7 | engineer | Allen Price Pty Ltd | Civil Engineer | Wollongong, Illawarra & South Coast NSW | 2026-12-10 (listing expiry) | [seek-95798711](https://www.seek.com.au/job/95798711) | letter to rewrite |
-| 8 | engineer | J&P Building Solutions | Graduate Civil/Structural Engineer | South Melbourne VIC | 2026-11-18 (listing expiry) | [seek-95352132](https://www.seek.com.au/job/95352132) | letter to rewrite; email text missing; email address has no evidence_url |
-
-## EMPLOYER_PORTAL (10 open)
+## EMAIL (4 open)
 
 | # | Lane | Company | Role | Location | Closes | Link | Note |
 |---|---|---|---|---|---|---|---|
-| 1 | drafter | Nassima Design Group | Civil Engineering Draftsperson | VIC 3094 (Montmorency, north east Melbourne) VIC | not stated | [nassima-design-group-civil-engineering-draftsperson-7b2c2f1e](https://jobsnext.com.au/jobs/c660bac0-c53b-4e31-94f7-c141b009c682/view/) | letter to rewrite |
-| 2 | technician | Yarra City Council | Civil Works Project Officer | Richmond, Melbourne VIC | 2026-11-22 (advert) | [yarra-city-council-civil-works-project-officer-301ffadc](https://careers.pageuppeople.com/817/cw/en/job/496994/civil-works-project-officer) | letter to rewrite |
-| 3 | technician | Coffey Testing Pty Ltd | Construction Materials Testing Technician, Entry-Level | Werribee, Melbourne VIC | 2026-11-20 (listing expiry) | [seek-95393367](https://www.seek.com.au/job/95393367) | letter to rewrite |
-| 4 | engineer | City of Moreton Bay | Civil Services Engineer | Strathpine, Brisbane QLD | 2026-11-22 (advert) | [seek-95865921](https://www.seek.com.au/job/95865921) | letter to rewrite |
-| 5 | engineer | Cardinia Shire Council | Development Engineer | Officer VIC | 2026-11-26 (advert) | [seek-95866809](https://www.seek.com.au/job/95866809) | letter to rewrite |
-| 6 | engineer | Portal Contractors | Graduate Civil Engineer | Williamstown VIC | not stated | [portal-contractors-graduate-civil-engineer-741d4765](https://au.indeed.com/job/graduate-project-engineer-438ca52bc822d185) | letter to rewrite |
-| 7 | engineer | The BMD Group | Civil Site Engineer | Tram to Springvale Alliance (Eastern Freeway Upgrades), Blackburn North, Melbourne VIC | 2026-12-11 (listing expiry) | [seek-95835638](https://www.seek.com.au/job/95835638) | letter to rewrite |
-| 8 | engineer | McConnell Dowell Australia | Junior Project Engineer - Traffic | Yan Yean Road Upgrade project office (Yarrambat/Doreen), Melbourne VIC | 2026-12-05 (listing expiry) | [seek-95705736](https://www.seek.com.au/job/95705736) | letter to rewrite |
-| 9 | engineer | Martinus Rail | Graduate Engineer (Inland Rail, Albury to Parkes) | Wagga Wagga / Forbes, NSW | 2026-12-04 (listing expiry) | [seek-95695784](https://www.seek.com.au/job/95695784) | letter to rewrite |
-| 10 | engineer | Ferrycarrig Construction | Graduate Civil Engineer | Sydney NSW (major civil infrastructure project) | not stated | [ferrycarrig-construction-graduate-civil-engineer-835f3bd5](https://www.simplyhired.com.au/job/6Pbf9pqbHHreuUa9VUxiOFJMue5kUqLT_iod1MlWa9uv9RQgvHXCVw) | letter to rewrite |
+| 1 | drafter | Permadec Pty Ltd | Civil Design Drafter, Formwork | Melbourne VIC (fully remote) | 2026-11-18 (listing expiry) | [seek-95337660](https://www.seek.com.au/job/95337660) |  |
+| 2 | drafter | Breese Pitt Dixon | Speculative enquiry: graduate civil engineer or civil designer, land development (Melbourne) | Hawthorn East, Melbourne VIC | not stated | [breese-pitt-dixon-speculative-enquiry-graduate-civil-engin-b7ca990d](https://www.bpd.com.au/careers) |  |
+| 3 | drafter | TGVK | Speculative enquiry: junior civil designer or civil draftsperson (Mulgrave, Melbourne) | Mulgrave, Melbourne VIC | not stated | [tgvk-speculative-enquiry-junior-civil-designe-36e928c0](https://www.tgvk.com.au/careers/) |  |
+| 4 | engineer | Allen Price Pty Ltd | Civil Engineer | Wollongong, Illawarra & South Coast NSW | 2026-12-10 (listing expiry) | [seek-95798711](https://www.seek.com.au/job/95798711) |  |
 
-## EMPLOYER_FORM (1 open)
+## EMPLOYER_PORTAL (4 open)
 
 | # | Lane | Company | Role | Location | Closes | Link | Note |
 |---|---|---|---|---|---|---|---|
-| 1 | engineer | Quantum Civil | Speculative enquiry: graduate / junior civil site role | Geelong West VIC (possible Warrnambool) | not stated | [quantum-civil-speculative-enquiry-graduate-junior-civi-bbcf357c](https://www.quantumcivil.com.au/careers) | letter to rewrite |
+| 1 | technician | Yarra City Council | Civil Works Project Officer | Richmond, Melbourne VIC | 2026-11-22 (advert) | [yarra-city-council-civil-works-project-officer-301ffadc](https://careers.pageuppeople.com/817/cw/en/job/496994/civil-works-project-officer) |  |
+| 2 | technician | Coffey Testing Pty Ltd | Construction Materials Testing Technician, Entry-Level | Werribee, Melbourne VIC | 2026-11-20 (listing expiry) | [seek-95393367](https://www.seek.com.au/job/95393367) |  |
+| 3 | engineer | McConnell Dowell Australia | Junior Project Engineer - Traffic | Yan Yean Road Upgrade project office (Yarrambat/Doreen), Melbourne VIC | 2026-12-05 (listing expiry) | [seek-95705736](https://www.seek.com.au/job/95705736) |  |
+| 4 | engineer | Martinus Rail | Graduate Engineer (Inland Rail, Albury to Parkes) | Wagga Wagga / Forbes, NSW | 2026-12-04 (listing expiry) | [seek-95695784](https://www.seek.com.au/job/95695784) |  |
 
-## Waiting on the owner (11)
+## EMPLOYER_FORM (0 open)
+
+Nothing open.
+
+## Waiting on the owner (21)
 
 - **Cairns Regional Council, Cadet Designer** (EMPLOYER_PORTAL, drafter, closes 2026-11-25 23:30, `seek-95823436`): Cairns Regional Council's Cadet Designer job runs for up to six years and includes studying an Associate Degree in Engineering (Civil): would you enrol and apply?
 - **TTW (NSW) Pty Ltd (Taylor Thomson Whitting), Trainee Civil Drafter** (SEEK, drafter, closes 2026-11-27, `seek-95655998`): No standing answer for 6 form questions: Do you have current working rights that allows you to work in the country to are applying to? | How many years' experience do you have in your current occupation? | Which of the following best describes your highest qualification - relevant to the position of Trainee Civil Drafter? | Please detail your minimum salary expectations | What is the notice period for your current employment? | If you have been referred by a past/current TTW Employee, please specify their full name.
 - **PROTERRA Group, Civil Designer** (SEEK, drafter, closes 2026-11-27, `seek-95636735`): No standing answer for 4 form questions: What qualifications do you currently hold? | Where are you located? | What is your estimated start date? | How many years experience in Civil Design do you have?
+- **Nassima Design Group, Civil Engineering Draftsperson** (EMPLOYER_PORTAL, drafter, closes not stated, `nassima-design-group-civil-engineering-draftsperson-7b2c2f1e`): The advert text for this job (Nassima Design Group, Civil Engineering Draftsperson, on JobsNext, no closing date) was never saved in the repo, only a short summary, so the 13 Nov re-screen cannot be done and no letter can be written from it. Should a runner re-read the JobsNext advert and save its text so this can be finished, or should this one be dropped? (Answer: re-read it, or drop it.)
+- **Core Environmental Projects (Core-EP), Junior Drafter** (EMAIL, drafter, closes not stated, `core-environmental-projects-co-junior-drafter-27501728`): The advert text for this Junior Drafter job (core-ep.com.au/careers/junior-drafter) was never saved in the repo, only a short summary, so no new letter was written. Should a runner re-read the live advert and then write the letter: yes or no?
 - **LC Water, Junior Civil Draftsperson** (SEEK, drafter, closes 2026-11-26, `seek-95506594`): No standing answer for 2 form questions: How would you rate your English language skills? | Which of the following Microsoft Office products are you experienced with?
 - **LGC Traffic Management, Civil Engineering Technician** (SEEK, technician, closes 2026-11-26, `seek-95510637`): No standing answer for 3 form questions: Do you have Traffic Control experience? | Have you worked in a role which requires a sound understanding of as/NZ 5369 Standards? | Which of the following High Risk Work licences do you have?
 - **Hobsons Bay City Council, Graduate Drainage and Development Engineer** (EMPLOYER_PORTAL, engineer, closes 2026-11-16, `hobsons-bay-city-council-graduate-drainage-and-development-engine-ce99f8fd`): Hobsons Bay City Council asks for eligibility for Engineers Australia membership: are you eligible? (closes 16 Nov)
+- **City of Moreton Bay, Civil Services Engineer** (EMPLOYER_PORTAL, engineer, closes 2026-11-22, `seek-95865921`): City of Moreton Bay's advert for Civil Services Engineer (Strathpine, Brisbane) says 'We are only seeking applications from current graduates'. Your degree is from 2019 and your Advanced Diploma was finished in February 2026: apply anyway? (Answer: yes or no. Closes 22 Nov.)
+- **Cardinia Shire Council, Development Engineer** (EMPLOYER_PORTAL, engineer, closes 2026-11-26, `seek-95866809`): The advert text for this job (Cardinia Shire Council, Development Engineer, Officer VIC, SEEK job 95866809, closes 26 Nov) was never saved in the repo, only a short summary, so the 13 Nov re-screen cannot be done and no letter can be written from it. Should a runner re-read the SEEK advert and save its text so this can be finished, or should this one be dropped? (Answer: re-read it, or drop it.)
 - **Griffith City Council, Graduate Traffic & Design Engineer** (EMPLOYER_PORTAL, engineer, closes 2026-11-27, `griffith-city-council-graduate-traffic-design-engineer-a451b4cf`): Griffith City Council asks for an engineering degree acceptable to Engineers Australia: is yours?
+- **Cono Services, Bulk Excavation & Civil Site Engineer** (SEEK, engineer, closes 2026-12-13, `seek-95871692`): The advert text for this job (Cono Services, Bulk Excavation & Civil Site Engineer, Sydney, SEEK job 95871692) was never saved in the repo, only a short summary, so the 13 Nov re-screen cannot be done and no letter can be written from it. Should a runner re-read the SEEK advert and save its text so this can be finished, or should this one be dropped? (Answer: re-read it, or drop it.)
+- **PCP Solutions Pty Ltd, Graduate Civil Engineer** (EMAIL, engineer, closes 2026-12-13, `seek-95872340`): The advert text for this Graduate Civil Engineer job (SEEK 95872340, Toowoomba) was never saved in the repo, only a short summary, so no new letter was written. Should a runner re-read the live advert and then write the letter: yes or no?
 - **Civilivic Pty Ltd, Site Engineer (Site or Graduate Engineer)** (SEEK, engineer, closes 2026-12-12, `seek-95842971`): Civilivic's advert lists a current Queensland driver's licence; yours is Victorian: apply anyway? Also: No standing answer for 2 form questions: How many years of Road Construction experience do you have? | How many years of experience do you have in the Civil Earthworks Industry?
+- **Portal Contractors, Graduate Civil Engineer** (EMPLOYER_PORTAL, engineer, closes not stated, `portal-contractors-graduate-civil-engineer-741d4765`): Portal Contractors, Graduate Civil Engineer, Williamstown: the advert text was never saved in the repo (only a runner's summary of it) and an earlier Indeed copy had expired, so no letter was written. Is the job still advertised? Reply with the live link, or 'drop it'.
 - **Bench Excavation and Civil Construction Pty Ltd (BenchHDC), Civil Engineer / Graduate** (SEEK, engineer, closes 2026-12-09, `seek-95773573`): No standing answer for this form question: How many years' experience do you have as an Engineer Graduate?
 - **Fyfe Pty Ltd, Graduate Civil Engineer (Property & Infrastructure)** (SEEK, engineer, closes 2026-12-06, `seek-95736615`): Fyfe's requirements list says Australian citizenship or permanent residency, but the advert's last line says people who hold full Australian working rights will be considered: apply? Also: No standing answer for 2 form questions: Do you have Cost Estimation experience? | Have you worked in a role which requires a sound understanding of as/NZ 5369 Standards?
+- **Ferrycarrig Construction, Graduate Civil Engineer** (EMPLOYER_PORTAL, engineer, closes not stated, `ferrycarrig-construction-graduate-civil-engineer-835f3bd5`): Ferrycarrig Construction, Graduate Civil Engineer, Sydney: the advert text was never saved in the repo (only a runner's summary of it) and it was seen only on job-board mirrors, not on Ferrycarrig's own job board, so no letter was written. Is the job still advertised? Reply with the live link, or 'drop it'.
 - **Cooke & Dowsett / CJ Arms Design, Graduate Design Engineer (Hydraulic/Civil)** (SEEK, engineer, closes 2026-11-22, `seek-95446060`): Cooke & Dowsett's advert asks for a recently completed Bachelor of Engineering; yours is from 2019: apply anyway?
+- **Quantum Civil, Speculative enquiry: graduate / junior civil site role** (EMPLOYER_FORM, engineer, closes not stated, `quantum-civil-speculative-enquiry-graduate-junior-civi-bbcf357c`): Quantum Civil (Geelong West), an enquiry through its careers form with no advertised job: the careers page text was never saved in the repo, only a runner's note of 11 Nov, so the letter's line about the page cannot be checked. Should a runner re-read quantumcivil.com.au/careers, save its text and confirm it invites people 'just starting out', or should this be dropped? (Answer: re-read or drop.)
+- **J&P Building Solutions, Graduate Civil/Structural Engineer** (EMAIL, engineer, closes 2026-11-18, `seek-95352132`): The advert text for this job (J&P Building Solutions, Graduate Civil/Structural Engineer, SEEK 95352132, closes 18 Nov) was never saved in the repo, so it cannot be screened, no letter can be written, and the address admin@jpbs.com.au cannot be confirmed as the one the advert gives. Should a runner re-read the advert on SEEK and save it, or should this one be dropped? Answer: re-read or drop.

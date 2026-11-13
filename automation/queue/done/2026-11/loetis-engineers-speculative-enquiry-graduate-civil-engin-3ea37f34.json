@@ -21,9 +21,16 @@
   "evidence_url": "https://www.loetis.com.au/about"
  },
  "questions": [],
- "status": "OPEN",
+ "status": "SKIPPED",
  "ask_owner": "",
- "attempts": [],
+ "attempts": [
+  {
+   "at": "2026-11-13T14:02:29Z",
+   "by": "Claude",
+   "result": "skipped",
+   "note": "Speculative enquiry with no invitation from the employer. The saved Loetis about page (runs/20261017T0511Z/extra/loetis-geelong-spec-20261017.json) only lists team members with their email addresses and says 'No careers page or numbered vacancy found'; the contact note adds that the general inbox 'is not stated to take applications'. No address or form is published for applications or job enquiries, so this cannot go by email under APPLY.md section 6 (only to an address the employer itself publishes for applications). Re-open only if Loetis publishes a vacancy or a careers address."
+  }
+ ],
  "receipt": {},
  "created_by": "import_backlog.py",
  "created_at": "2026-11-13T00:40:00Z",

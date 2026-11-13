@@ -13,20 +13,27 @@
  "fit": 70,
  "resume_variant": "drafter",
  "relocation_line": "",
- "cover_letter_text": "Your careers page invites graduate civil engineers to send an introduction and CV, so this is a speculative enquiry about a graduate civil engineering or civil design role with your team in Hawthorn East.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute, where I designed and documented road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD to Australian Standards. I also lodged Before You Dig Australia enquiries and designed around existing services. I hold a Bachelor of Science in Civil Engineering from the Philippines (2014 to 2019).\n\nFrom 2019 to 2020 I worked on site in the Philippines, as project-in-charge on a community hall renovation and then as a field engineer on residential subdivision finishing works. I reviewed drawings against project requirements, carried out inspections and quality checks, and kept site reports and material records.\n\nEstate roads, drainage and retarding basins are the civil design work I want to build a career in, and learning from Directors who work on every project, as your page describes, is a real draw. I am based in Melton VIC with a White Card, a licence and my own transport, and full working rights to December 2027 on a Subclass 485 visa. My software experience is from study rather than commercial production, so I would start at graduate level.\n\nI have attached my resume and would be glad to talk about any graduate opening, now or later.",
+ "cover_letter_text": "This is a speculative enquiry, not an application for an advertised vacancy: I am asking whether Breese Pitt Dixon has junior civil drafting or design work available. Your careers page asks for an introduction with a CV and a short note on the kind of work sought. The work I am looking for is drafting and design on the estates, drainage and roads your engineers design.\n\nI completed the Advanced Diploma of Civil Construction Design in February 2026 and hold a Bachelor of Science in Civil Engineering. In the diploma I designed and documented road geometry, earthworks, pavement systems and stormwater drainage, and prepared and reviewed technical drawings in AutoCAD and Civil 3D, applying Australian Standards. My portfolio has a road cross section I drew in AutoCAD, with kerbs and drainage. On a community hall renovation in the Philippines in 2019 I reviewed structural and architectural drawings and checked work against project requirements.\n\nI am based in Melton VIC. I can start two weeks after an offer. Full working rights in Australia (Subclass 485 visa), no sponsorship needed. I hold a full Victorian driver's licence and a White Card. Could we arrange a short call?\n\nMarc Masarate",
  "email": {
   "to": "info@bpd.com.au",
-  "subject": "Graduate civil engineer enquiry, Marc Masarate",
-  "body": "Hello Breese Pitt Dixon team,\n\nYour careers page says you are keen to hear from graduate civil engineers and asks for an introduction with a CV, so this is a speculative enquiry rather than a reply to an advert.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. I also hold a Bachelor of Science in Civil Engineering from the Philippines. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, including residential subdivision finishing works. I am based in Melton VIC, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am available for office, site and regional work.\n\nThe work I am looking for is civil design for land development: the estate roads, drainage and retarding basins your engineers design. My software experience is from study, not commercial production, so I would start at graduate level.\n\nI've attached my resume and cover letter. Would you keep me in mind for a graduate civil design role, now or later?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "subject": "Speculative enquiry: junior civil draftsperson or designer, Marc Masarate",
+  "body": "Hello,\n\nThis is a speculative enquiry, not an application for an advertised vacancy: I am asking whether Breese Pitt Dixon has junior civil drafting or design work available. Your careers page asks for an introduction with a CV.\n\nI completed the Advanced Diploma of Civil Construction Design in February 2026, designing road geometry, earthworks, pavement and stormwater drainage and preparing drawings in AutoCAD and Civil 3D. On site in the Philippines in 2019 I reviewed structural and architectural drawings.\n\nI am based in Melton VIC and can start two weeks after an offer. Full working rights in Australia (Subclass 485 visa), no sponsorship needed.\n\nI've attached my resume and cover letter. Could we arrange a short call?\n\nMarc Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
   "evidence_url": "https://www.bpd.com.au/careers"
  },
  "questions": [],
  "status": "OPEN",
  "ask_owner": "",
- "attempts": [],
+ "attempts": [
+  {
+   "at": "2026-11-13T14:46:39Z",
+   "by": "Claude",
+   "result": "reopened",
+   "note": "Before sending: re-open https://www.bpd.com.au/careers (last read 21 Oct 2026) and confirm it still asks for expressions of interest at the address in email.to, and do the Gmail search of APPLY.md section 6 step 2. An earlier BPD expression of interest (tracker record of 13 Sep 2026) was prepared, never sent (PLATFORM_BLOCKED) and binned by the owner on 20 Sep 2026; his reason is not on record. The letter and email ask about junior drafting or design work: use the email subject as the letter PDF heading, not the entry's role text. Re-screened 13 Nov 2026 under lane-fit-v3: drafter lane, fit 87 (50 + 15 entry level + 12 duty overlap + 10 lane 1); the 70 in the fit field is the old rubric."
+  }
+ ],
  "receipt": {},
  "created_by": "import_backlog.py",
  "created_at": "2026-11-13T00:40:00Z",
  "source_run": "20261020T1818Z",
- "notes": "letter written under the old rules: rewrite before use\nImported from the backlog of 2026-11-13 (old status PREPARED_NOT_SENT). Fit 70% is from the old rubric."
+ "notes": "Imported from the backlog of 2026-11-13 (old status PREPARED_NOT_SENT). Fit 70% is from the old rubric."
 }

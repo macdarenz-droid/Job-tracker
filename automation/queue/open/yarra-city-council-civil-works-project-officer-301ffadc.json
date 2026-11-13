@@ -13,7 +13,7 @@
  "fit": 68,
  "resume_variant": "technician",
  "relocation_line": "",
- "cover_letter_text": "I am applying for the Civil Works Project Officer role in your Development and Civil Engineering team. Scoping reinstatement works, inspecting contractors' work on Council roads and footpaths and checking it against Council standards is the practical, site based work I want to do in local government.\n\nFrom 2019 to 2020 I worked on site in the Philippines. As a field engineer on subdivision finishing works I assisted with site inspections and quality checks, tracked procurement and materials, and prepared site, material and progress reports. As project-in-charge on a community hall renovation I coordinated 10 to 15 workers a day, reviewed drawings against project requirements and kept the client up to date.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute in Australia. I designed and documented road geometry, earthworks, pavement systems and stormwater drainage in AutoCAD and Civil 3D using Australian Standards, and prepared cost estimates and bills of quantities. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019). My coursework included Before You Dig Australia enquiries and designing around existing services and site constraints.\n\nI hold an Australian driver's licence with my own transport and a White Card, and I have full working rights to December 2027 on a Subclass 485 visa. I live in Melton VIC. I have not yet worked for a council or in Australia, so I would learn your Road Management Plan, permits and specifications quickly and keep clear records for every inspection.\n\nI have attached my resume and would welcome the chance to talk about the role.",
+ "cover_letter_text": "I am applying for the Civil Works Project Officer role advertised on the Yarra City Council careers site. Your advert says the Development and Civil Engineering team oversees and inspects reinstatement works on Council's roads and footpaths, and that this role scopes those works and checks them against Council standards.\n\nFrom April 2019 to February 2020 I worked on construction sites in the Philippines. As project-in-charge engineer I coordinated 10 to 15 workers each day, carried out site inspections, safety checks and quality monitoring, and escalated issues that needed corrective action. As field engineer I assisted with site inspections and quality checks, coordinated with subcontractors and suppliers, and prepared site and progress reports. In February 2026 I completed the Advanced Diploma of Civil Construction Design, where I designed road geometry and pavement systems, lodged Before You Dig Australia enquiries and designed around existing services.\n\nI am based in Melton VIC and can start two weeks after an offer. Full working rights in Australia (Subclass 485 visa), no sponsorship needed. I hold a White Card and a full Victorian driver's licence, with my own reliable transport. Could we arrange a call about the role?\nMarc Masarate",
  "email": {
   "to": "",
   "subject": "",
@@ -23,10 +23,23 @@
  "questions": [],
  "status": "OPEN",
  "ask_owner": "",
- "attempts": [],
+ "attempts": [
+  {
+   "at": "2026-11-13T14:12:28Z",
+   "by": "Claude",
+   "result": "asked_owner",
+   "note": "Yarra City Council's advert for Civil Works Project Officer says the cover letter must address the Key Selection Criteria in its Position Description PDF. That PDF was never saved in the repo (the site blocked the download), so the criteria are unknown and no letter was written. Should a runner read the PDF and then write the letter, or should this one be dropped? (Answer: read it, or drop it. Closes 22 Nov.)"
+  },
+  {
+   "at": "2026-11-13T14:50:44Z",
+   "by": "Claude",
+   "result": "reopened",
+   "note": "Reopened: the question was a runner step, not one for the owner. Letter written on 13 Nov from the saved advert only (runs/20261111T1520Z/det/95767180.json); the Position Description PDF was never read (download blocked). Submitter: open the Position Description on the advert page before submitting. If it makes essential or mandatory something facts.json does not support, mark skipped and quote the line. If its Key Selection Criteria need points the letter does not cover, mark failed with the criteria text so the letter can be rewritten; do not edit the letter on the spot."
+  }
+ ],
  "receipt": {},
  "created_by": "import_backlog.py",
  "created_at": "2026-11-13T00:40:00Z",
  "source_run": "20261109T2312Z",
- "notes": "letter written under the old rules: rewrite before use\nImported from the backlog of 2026-11-13 (old status READY_EMPLOYER_PORTAL). Fit 68% is from the old rubric.\nLane technician: Council project officer scoping and inspecting road and footpath reinstatement works; no minimum years (old screening notes).\nThe position description with the selection criteria was not read (the site blocked the download): read it before applying."
+ "notes": "Imported from the backlog of 2026-11-13 (old status READY_EMPLOYER_PORTAL). Fit 68% is from the old rubric.\nLane technician: Council project officer scoping and inspecting road and footpath reinstatement works; no minimum years (old screening notes).\nThe position description with the selection criteria was not read (the site blocked the download): read it before applying."
 }

@@ -21,9 +21,16 @@
   "evidence_url": ""
  },
  "questions": [],
- "status": "OPEN",
- "ask_owner": "",
- "attempts": [],
+ "status": "ASK_OWNER",
+ "ask_owner": "City of Moreton Bay's advert for Civil Services Engineer (Strathpine, Brisbane) says 'We are only seeking applications from current graduates'. Your degree is from 2019 and your Advanced Diploma was finished in February 2026: apply anyway? (Answer: yes or no. Closes 22 Nov.)",
+ "attempts": [
+  {
+   "at": "2026-11-13T14:12:37Z",
+   "by": "Claude",
+   "result": "asked_owner",
+   "note": "City of Moreton Bay's advert for Civil Services Engineer (Strathpine, Brisbane) says 'We are only seeking applications from current graduates'. Your degree is from 2019 and your Advanced Diploma was finished in February 2026: apply anyway? (Answer: yes or no. Closes 22 Nov.)"
+  }
+ ],
  "receipt": {},
  "created_by": "import_backlog.py",
  "created_at": "2026-11-13T00:40:00Z",

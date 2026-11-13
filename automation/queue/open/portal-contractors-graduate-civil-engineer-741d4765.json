@@ -21,9 +21,16 @@
   "evidence_url": ""
  },
  "questions": [],
- "status": "OPEN",
- "ask_owner": "",
- "attempts": [],
+ "status": "ASK_OWNER",
+ "ask_owner": "Portal Contractors, Graduate Civil Engineer, Williamstown: the advert text was never saved in the repo (only a runner's summary of it) and an earlier Indeed copy had expired, so no letter was written. Is the job still advertised? Reply with the live link, or 'drop it'.",
+ "attempts": [
+  {
+   "at": "2026-11-13T14:18:35Z",
+   "by": "Claude",
+   "result": "asked_owner",
+   "note": "Portal Contractors, Graduate Civil Engineer, Williamstown: the advert text was never saved in the repo (only a runner's summary of it) and an earlier Indeed copy had expired, so no letter was written. Is the job still advertised? Reply with the live link, or 'drop it'."
+  }
+ ],
  "receipt": {},
  "created_by": "import_backlog.py",
  "created_at": "2026-11-13T00:40:00Z",

@@ -21,9 +21,16 @@
   "evidence_url": ""
  },
  "questions": [],
- "status": "OPEN",
- "ask_owner": "",
- "attempts": [],
+ "status": "ASK_OWNER",
+ "ask_owner": "The advert text for this job (J&P Building Solutions, Graduate Civil/Structural Engineer, SEEK 95352132, closes 18 Nov) was never saved in the repo, so it cannot be screened, no letter can be written, and the address admin@jpbs.com.au cannot be confirmed as the one the advert gives. Should a runner re-read the advert on SEEK and save it, or should this one be dropped? Answer: re-read or drop.",
+ "attempts": [
+  {
+   "at": "2026-11-13T14:02:17Z",
+   "by": "Claude",
+   "result": "asked_owner",
+   "note": "The advert text for this job (J&P Building Solutions, Graduate Civil/Structural Engineer, SEEK 95352132, closes 18 Nov) was never saved in the repo, so it cannot be screened, no letter can be written, and the address admin@jpbs.com.au cannot be confirmed as the one the advert gives. Should a runner re-read the advert on SEEK and save it, or should this one be dropped? Answer: re-read or drop."
+  }
+ ],
  "receipt": {},
  "created_by": "import_backlog.py",
  "created_at": "2026-11-13T00:40:00Z",

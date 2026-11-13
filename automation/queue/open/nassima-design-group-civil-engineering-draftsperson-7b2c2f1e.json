@@ -21,9 +21,16 @@
   "evidence_url": ""
  },
  "questions": [],
- "status": "OPEN",
- "ask_owner": "",
- "attempts": [],
+ "status": "ASK_OWNER",
+ "ask_owner": "The advert text for this job (Nassima Design Group, Civil Engineering Draftsperson, on JobsNext, no closing date) was never saved in the repo, only a short summary, so the 13 Nov re-screen cannot be done and no letter can be written from it. Should a runner re-read the JobsNext advert and save its text so this can be finished, or should this one be dropped? (Answer: re-read it, or drop it.)",
+ "attempts": [
+  {
+   "at": "2026-11-13T14:12:20Z",
+   "by": "Claude",
+   "result": "asked_owner",
+   "note": "The advert text for this job (Nassima Design Group, Civil Engineering Draftsperson, on JobsNext, no closing date) was never saved in the repo, only a short summary, so the 13 Nov re-screen cannot be done and no letter can be written from it. Should a runner re-read the JobsNext advert and save its text so this can be finished, or should this one be dropped? (Answer: re-read it, or drop it.)"
+  }
+ ],
  "receipt": {},
  "created_by": "import_backlog.py",
  "created_at": "2026-11-13T00:40:00Z",
