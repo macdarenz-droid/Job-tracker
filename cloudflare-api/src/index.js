@@ -35,6 +35,7 @@ const text = (body, status = 200) => new Response(body, {status, headers: {'Cont
 const bytesOf = value => new TextEncoder().encode(value).byteLength;
 const isRows = payload => payload.startsWith(ROWS_PREFIX);
 const notActive = () => error('Per-record storage is not active yet. Use /api/state.', 409);
+const conflict = current_version => json({error: 'A newer cloud version exists. Refresh before saving.', ...(current_version ? {current_version} : {})}, 409);
 
 async function sameCode(candidate, secret) {
   const [left, right] = await Promise.all([hash(candidate), hash(secret)]);
@@ -164,8 +165,8 @@ async function putState(request, env) {
   try { body = await request.json(); } catch { return error('Invalid JSON.'); }
   if (!Number.isSafeInteger(body?.expected_version) || body.expected_version < 1) return error('A current version is required.');
   current = current || await getState(env);
-  if (current.version !== body.expected_version) return json({error: 'A newer cloud version exists. Refresh before saving.', current_version: current.version}, 409);
-  if (isRows(current.payload)) return putRows(env, body, current);
+  if (current.version !== body.expected_version) return conflict(current.version);
+  if (isRows(current.payload)) return putRows(env, body);
   const next = body.state;
   const problem = validateState(next, JSON.parse(current.payload));
   if (problem) return error(problem);
@@ -173,8 +174,10 @@ async function putState(request, env) {
   const payload = JSON.stringify(next);
   if (isRows(payload)) return error('Invalid tracker format.');
   if (new TextEncoder().encode(payload).byteLength > MAX_STATE_BYTES) return error('Tracker exceeds the state size limit.', 413);
-  const result = await env.DB.prepare('UPDATE tracker_state SET payload = ?, version = version + 1, updated_at = ? WHERE id = 1 AND version = ?').bind(payload, next.updated_at, body.expected_version).run();
-  if (result.meta?.changes !== 1) return json({error: 'A newer cloud version exists. Refresh before saving.'}, 409);
+  // The copy does not move the version, so the statement also requires that the tracker is still a single document:
+  // a save that was under way when the copy switched modes gets the usual 409 instead of undoing the switch.
+  const result = await env.DB.prepare(`UPDATE tracker_state SET payload = ?, version = version + 1, updated_at = ? WHERE id = 1 AND version = ? AND NOT ${IS_ROWS}`).bind(payload, next.updated_at, body.expected_version).run();
+  if (result.meta?.changes !== 1) return conflict();
   return json({version: body.expected_version + 1, updated_at: next.updated_at});
 }
 
@@ -189,7 +192,7 @@ const plain = value => typeof value === 'string' || typeof value === 'number' ? 
 // The slim list entry, stored next to the full record so that a list is served without opening any record.
 function summaryOf(record, version) {
   const percent = record.match_score?.percent;
-  const out = {id: record.id, version, company: plain(record.company), role: plain(record.role), location: plain(record.location), status: plain(record.status),
+  const out = {id: record.id, row_version: version, company: plain(record.company), role: plain(record.role), location: plain(record.location), status: plain(record.status),
     route: plain(record.application_route || record.route), closes_at: plain(record.closes_at || record.advert?.expires_at),
     fit_percent: typeof percent === 'number' && Number.isFinite(percent) ? percent : null, updated_at: plain(record.updated_at)};
   for (const key of SUMMARY_EXTRAS) if (plain(record[key]) !== '') out[key] = record[key];
@@ -212,11 +215,12 @@ async function readState(env) {
   // One batch is one transaction, so the version and the rows belong together.
   const [head, list] = await env.DB.batch([
     env.DB.prepare('SELECT version, payload, updated_at FROM tracker_state WHERE id = 1'),
-    env.DB.prepare('SELECT body FROM records ORDER BY position, id')]);
+    env.DB.prepare('SELECT version, body FROM records ORDER BY position, id')]);
   const base = head.results[0];
   if (!isRows(base.payload)) return json({version: base.version, state: JSON.parse(base.payload)});
-  // Joined from stored JSON text: no record is parsed or re-serialised to answer a read.
-  return text(`{"version":${base.version},"state":${restOf(base.payload).slice(0, -1)},"updated_at":${JSON.stringify(base.updated_at)},"manual_entries":[${list.results.map(row => row.body).join(',')}]}}`);
+  // Joined from stored JSON text: no record is parsed or re-serialised to answer a read. row_versions[i] is the
+  // guard of state.manual_entries[i], so a client can change one record without reading it again first.
+  return text(`{"version":${base.version},"state":${restOf(base.payload).slice(0, -1)},"updated_at":${JSON.stringify(base.updated_at)},"manual_entries":[${list.results.map(row => row.body).join(',')}]},"row_versions":[${list.results.map(row => row.version).join(',')}]}`);
 }
 
 async function versionInfo(env) {
@@ -228,9 +232,15 @@ async function versionInfo(env) {
 }
 
 // The whole-tracker PUT kept for existing clients. Same validation as before; only changed rows are written.
-async function putRows(env, body, current) {
+async function putRows(env, body) {
   const next = body.state;
-  const stored = (await env.DB.prepare('SELECT id, version, body FROM records ORDER BY position, id').all()).results || [];
+  // One batch is one transaction, so the version that is checked and the rows that are compared belong together.
+  // Read apart, a record another writer added in between looked like one this save had dropped.
+  const [head, list] = await env.DB.batch([
+    env.DB.prepare('SELECT version, payload FROM tracker_state WHERE id = 1'),
+    env.DB.prepare('SELECT id, version, body FROM records ORDER BY position, id')]);
+  const current = head.results[0], stored = list.results;
+  if (current.version !== body.expected_version || !isRows(current.payload)) return conflict(current.version);
   const sent = new Map();
   for (const record of Array.isArray(next?.manual_entries) ? next.manual_entries : [])
     if (record && typeof record.id === 'string' && !sent.has(record.id)) sent.set(record.id, {record, body: JSON.stringify(record)});
@@ -268,7 +278,7 @@ async function putRows(env, body, current) {
     ? env.DB.prepare(`UPDATE tracker_state SET payload = ?, version = version + 1, updated_at = ? WHERE id = 1 AND version = ? AND ${IS_ROWS}`).bind(payload, stamp, body.expected_version)
     : env.DB.prepare(`UPDATE tracker_state SET version = version + 1, updated_at = ? WHERE id = 1 AND version = ? AND ${IS_ROWS}`).bind(stamp, body.expected_version));
   const results = await env.DB.batch(statements);
-  if (results.at(-1).meta?.changes !== 1) return json({error: 'A newer cloud version exists. Refresh before saving.'}, 409);
+  if (results.at(-1).meta?.changes !== 1) return conflict();
   return json({version: body.expected_version + 1, updated_at: stamp});
 }
 
@@ -283,14 +293,17 @@ async function getRecord(id, env) {
   const [head, found] = await env.DB.batch([rowsState(env), env.DB.prepare('SELECT version, body FROM records WHERE id = ?').bind(id)]);
   if (!head.results[0]) return notActive();
   const row = found.results[0];
-  return row ? text(`{"version":${row.version},"record":${row.body}}`) : error('Record not found.', 404);
+  return row ? text(`{"row_version":${row.version},"record":${row.body}}`) : error('Record not found.', 404);
 }
 
-// Append only. No whole-tracker version is needed, so adding records never collides with someone else's save.
+// Append only. Without expected_version an add never collides with someone else's save. With it (the version that
+// came with the list the caller checked for duplicates) the add applies only if nothing was saved since that list.
 async function addRecords(request, env) {
   if (Number(request.headers.get('Content-Length') || 0) > 2 * MAX_SAVE_BYTES) return error('Request is too large.', 413);
   let body;
   try { body = await request.json(); } catch { return error('Invalid JSON.'); }
+  const wanted = body?.expected_version;
+  if (wanted !== undefined && (!Number.isSafeInteger(wanted) || wanted < 1)) return error('A current version is required.');
   const records = Array.isArray(body?.records) ? body.records : body?.record ? [body.record] : [];
   if (!records.length || records.length > MAX_NEW_RECORDS) return error(`Send 1 to ${MAX_NEW_RECORDS} records.`);
   const rows = [], ids = new Set();
@@ -309,9 +322,13 @@ async function addRecords(request, env) {
   const refused = found => json({error: 'A record with this id already exists. Nothing was added.', existing_ids: found.map(row => row.id)}, 409);
   const [head, found] = await env.DB.batch([rowsState(env), taken()]);
   if (!head.results[0]) return notActive();
+  if (wanted !== undefined && head.results[0].version !== wanted) return conflict(head.results[0].version);
   if (found.results.length) return refused(found.results);
-  const statements = rows.map(row => env.DB.prepare(`INSERT INTO records (id, position, version, summary, body) SELECT ?, (SELECT COALESCE(MAX(position), -1) + 1 FROM records), 1, ?, ? WHERE EXISTS (SELECT 1 FROM tracker_state WHERE id = 1 AND ${IS_ROWS})`).bind(row.id, row.summary, row.content));
-  statements.push(env.DB.prepare(`UPDATE tracker_state SET version = version + 1, updated_at = ? WHERE id = 1 AND ${IS_ROWS}`).bind(now()));
+  const guarded = wanted !== undefined, same = guarded ? [wanted] : [], stamp = now();
+  const unmoved = guarded ? `(SELECT version FROM tracker_state WHERE id = 1 AND ${IS_ROWS}) = ?` : `EXISTS (SELECT 1 FROM tracker_state WHERE id = 1 AND ${IS_ROWS})`;
+  const statements = rows.map(row => env.DB.prepare(`INSERT INTO records (id, position, version, summary, body) SELECT ?, (SELECT COALESCE(MAX(position), -1) + 1 FROM records), 1, ?, ? WHERE ${unmoved}`).bind(row.id, row.summary, row.content, ...same));
+  statements.push(env.DB.prepare(`UPDATE tracker_state SET version = version + 1, updated_at = ? WHERE id = 1 AND ${IS_ROWS}${guarded ? ' AND version = ?' : ''}`).bind(stamp, ...same));
+  statements.push(env.DB.prepare('SELECT version FROM tracker_state WHERE id = 1'));
   let results;
   try { results = await env.DB.batch(statements); } catch (cause) {
     // A batch is one transaction. If another writer took one of these ids after the check, nothing was added.
@@ -319,8 +336,8 @@ async function addRecords(request, env) {
     if (!late.length) throw cause;
     return refused(late);
   }
-  if (results.at(-1).meta?.changes !== 1) return notActive();
-  return json({added: rows.map(row => row.id)}, 201);
+  if (results.at(-2).meta?.changes !== 1) return guarded ? conflict() : notActive();
+  return json({added: rows.map(row => row.id), version: results.at(-1).results[0].version, updated_at: stamp}, 201);
 }
 
 async function patchRecord(id, request, env) {
@@ -333,7 +350,7 @@ async function patchRecord(id, request, env) {
   if (!head.results[0]) return notActive();
   const row = found.results[0];
   if (!row) return error('Record not found.', 404);
-  if (row.version !== body.expected_version) return json({error: 'This record changed. Refresh it before saving.', current_version: row.version}, 409);
+  if (row.version !== body.expected_version) return json({error: 'This record changed. Refresh it before saving.', current_row_version: row.version}, 409);
   const prior = JSON.parse(row.body), next = {...prior};
   for (const [key, value] of Object.entries(patch)) if (!FIXED_FIELDS.includes(key)) next[key] = value;
   const problem = recordProblem(next);
@@ -347,9 +364,32 @@ async function patchRecord(id, request, env) {
   // Both statements test the record as it was read, so a stale patch changes nothing, not even the tracker version.
   const results = await env.DB.batch([
     env.DB.prepare(`UPDATE tracker_state SET version = version + 1, updated_at = ? WHERE id = 1 AND ${IS_ROWS} AND EXISTS (SELECT 1 FROM records WHERE id = ? AND version = ?)`).bind(next.updated_at, id, row.version),
-    env.DB.prepare(`UPDATE records SET version = ?, summary = ?, body = ? WHERE id = ? AND version = ? AND EXISTS (SELECT 1 FROM tracker_state WHERE id = 1 AND ${IS_ROWS})`).bind(version, summaryOf(next, version), content, id, row.version)]);
+    env.DB.prepare(`UPDATE records SET version = ?, summary = ?, body = ? WHERE id = ? AND version = ? AND EXISTS (SELECT 1 FROM tracker_state WHERE id = 1 AND ${IS_ROWS})`).bind(version, summaryOf(next, version), content, id, row.version),
+    env.DB.prepare('SELECT version FROM tracker_state WHERE id = 1')]);
   if (results[1].meta?.changes !== 1) return json({error: 'This record changed. Refresh it before saving.'}, 409);
-  return text(`{"version":${version},"record":${content}}`);
+  // "version" is the whole tracker's, as everywhere else; "row_version" is this record's guard for the next change.
+  return text(`{"version":${results[2].results[0].version},"updated_at":${JSON.stringify(next.updated_at)},"row_version":${version},"record":${content}}`);
+}
+
+// Moves one job to the Bin or back: the one change to the remainder that the page makes. It opens the remainder
+// (the frozen history and the Bin, about 120 KB) and no record. Bin entries are added or changed, never removed.
+async function setVisibility(request, env) {
+  if (Number(request.headers.get('Content-Length') || 0) > 4_000) return error('Request is too large.', 413);
+  let body;
+  try { body = await request.json(); } catch { return error('Invalid JSON.'); }
+  const key = body?.record_key;
+  if (typeof key !== 'string' || !key || key.length > 400 || typeof body.deleted !== 'boolean') return error('A record key and deleted (true or false) are required.');
+  const current = await env.DB.prepare(`SELECT version, payload FROM tracker_state WHERE id = 1 AND ${IS_ROWS}`).first();
+  if (!current) return notActive();
+  const rest = JSON.parse(restOf(current.payload)), stamp = now();
+  let entry = rest.record_visibility.find(item => item.record_key === key);
+  if (entry) Object.assign(entry, {deleted: body.deleted ? 1 : 0, version: (Number(entry.version) || 0) + 1, updated_at: stamp});
+  else rest.record_visibility.push(entry = {record_key: key, deleted: body.deleted ? 1 : 0, version: 1, updated_at: stamp});
+  const payload = baseOf(rest);
+  if (bytesOf(payload) > MAX_STATE_BYTES) return error('Tracker exceeds the state size limit.', 413);
+  const result = await env.DB.prepare(`UPDATE tracker_state SET payload = ?, version = version + 1, updated_at = ? WHERE id = 1 AND version = ? AND ${IS_ROWS}`).bind(payload, stamp, current.version).run();
+  if (result.meta?.changes !== 1) return conflict();
+  return json({version: current.version + 1, updated_at: stamp, entry});
 }
 
 // One-time copy of every manual entry into its own row. Until its last statement the tracker stays a single
@@ -363,9 +403,10 @@ async function backfill(request, env) {
     const count = await env.DB.prepare('SELECT COUNT(*) AS records FROM records').first();
     return json({storage: 'rows', already: true, version: base.version, records: count.records});
   }
-  if (wanted !== undefined && wanted !== base.version) return json({error: 'A newer cloud version exists. Refresh before saving.', current_version: base.version}, 409);
+  if (wanted !== undefined && wanted !== base.version) return conflict(base.version);
   const doc = JSON.parse(base.payload), entries = doc.manual_entries;
-  if (!Array.isArray(entries) || typeof doc.updated_at !== 'string') return error('The tracker document cannot be copied as it is. Nothing was changed.');
+  if (!Array.isArray(entries) || typeof doc.updated_at !== 'string' || !Array.isArray(doc.applications) || !Array.isArray(doc.leads) || !Array.isArray(doc.record_visibility))
+    return error('The tracker document cannot be copied as it is. Nothing was changed.');
   const rows = [], ids = new Set();
   for (const record of entries) {
     // Whatever the document holds is copied as it is. A row only needs what the table needs: a text id, used once.
@@ -492,6 +533,7 @@ export default {
         else if (path === '/api/records' && request.method === 'POST') response = await addRecords(request, env);
         else if (path.startsWith('/api/records/') && request.method === 'GET') response = await getRecord(recordId(path), env);
         else if (path.startsWith('/api/records/') && request.method === 'PATCH') response = await patchRecord(recordId(path), request, env);
+        else if (path === '/api/visibility' && request.method === 'POST') response = await setVisibility(request, env);
         else if (path === '/api/admin/backfill' && request.method === 'POST') response = await backfill(request, env);
         else if (path === '/api/admin/restore-document' && request.method === 'POST') response = await restoreDocument(request, env);
         else if (path === '/api/documents' && request.method === 'POST') response = await upload(request, env);

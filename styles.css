@@ -415,9 +415,9 @@ dialog.closing::backdrop{animation:fade .2s var(--ease-in) reverse forwards}
 .props a .ico{width:13px;height:13px}
 .detail-section{margin-top:1.1rem}
 .detail-section h3{font-size:.72rem;font-weight:560;color:var(--text-3);text-transform:uppercase;letter-spacing:.06em;font-family:var(--mono);margin-bottom:.45rem}
-.detail-section p{white-space:pre-wrap;font-size:.86rem;line-height:1.6;color:var(--text-2)}
+.detail-section p{white-space:pre-wrap;overflow-wrap:anywhere;font-size:.86rem;line-height:1.6;color:var(--text-2)}
 .detail-section.code p{font-family:var(--mono);font-size:.76rem;line-height:1.65;background:var(--surface-2);box-shadow:inset 0 0 0 1px var(--border);border-radius:var(--r-md);padding:.8rem .9rem;max-height:320px;overflow:auto}
-.docs{display:grid;gap:.35rem}
+.docs{display:grid;grid-template-columns:minmax(0,1fr);gap:.35rem}
 .doc{display:flex;align-items:center;gap:.65rem;width:100%;padding:.55rem .65rem;border-radius:var(--r);box-shadow:inset 0 0 0 1px var(--border);text-align:left;font-size:.82rem;color:var(--text-2);transition:background var(--fast),color var(--fast)}
 .doc:hover{background:var(--surface-2);color:var(--text)}
 .doc .doc-ico{width:30px;height:30px;border-radius:7px;display:grid;place-items:center;background:var(--surface-2);box-shadow:inset 0 0 0 1px var(--border);color:var(--text-3)}

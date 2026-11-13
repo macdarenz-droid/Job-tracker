@@ -12,7 +12,8 @@ import {CODE, tracker, environment} from './helpers.js';
 const checks = resolve('scripts/deploy-checks.mjs');
 const mode = ctx => ctx.db.prepare('SELECT substr(payload, 1, 21) AS head FROM tracker_state WHERE id = 1').get().head === '{"storage":"rows-v1",' ? 'rows' : 'document';
 
-// Serves the Worker on 127.0.0.1. `tamper` may replace a response body, to play a Worker that reads back wrongly.
+// Serves the Worker on 127.0.0.1. `tamper` may replace a response body, to play a Worker that reads back wrongly,
+// or act as another client before the response goes out.
 async function serve(ctx, tamper = () => null) {
   const server = http.createServer(async (req, res) => {
     const chunks = [];
@@ -22,7 +23,7 @@ async function serve(ctx, tamper = () => null) {
     const response = await api.fetch(new Request('http://127.0.0.1' + req.url, {method: req.method, headers, body: chunks.length ? Buffer.concat(chunks) : undefined}), ctx.env);
     const text = await response.text();
     res.writeHead(response.status, {'Content-Type': 'application/json'});
-    res.end(tamper(req, text) ?? text);
+    res.end(await tamper(req, text) ?? text);
   });
   await new Promise(done => server.listen(0, '127.0.0.1', done));
   return server;
@@ -96,6 +97,45 @@ test('when the tracker does not read back the same after the copy, the step puts
     assert.equal(mode(ctx), 'document');
     assert.deepEqual(ctx.db.prepare('SELECT version, payload FROM tracker_state WHERE id = 1').get(), original);
   } finally { server.close(); }
+});
+
+test('when someone saves between the copy and the comparison, the step fails and names the storage mode it finds', async () => {
+  const send = (ctx, path, method, body) => { ctx.invocation(); return api.fetch(new Request('http://127.0.0.1' + path, {method, headers: {'X-Tracker-Code': CODE, 'Content-Type': 'application/json'}, body: JSON.stringify(body)}), ctx.env); };
+  // A runner changes one record right after the copy: rows stay, and a second run finishes the checks.
+  const ctx = environment(tracker(30));
+  let once = true;
+  const server = await serve(ctx, async req => {
+    if (req.url === '/api/admin/backfill' && once) { once = false; assert.equal((await send(ctx, '/api/records/rec-0001', 'PATCH', {expected_version: 2, patch: {notes: 'a runner'}})).status, 200); }
+    return null;
+  });
+  try {
+    const result = await run('backfill', server);
+    assert.equal(result.status, 1);
+    assert.match(quiet(result.stderr), /saved again \(version 225 then 226\) before this job could compare it\. Records now have their own rows\. Run the workflow again/);
+    assert.equal(mode(ctx), 'rows');
+    const again = await run('backfill', server);
+    assert.equal(again.status, 0, again.stderr);
+    assert.match(quiet(again.stdout), /^Records already have their own rows: nothing to copy\. Version 226:/);
+  } finally { server.close(); }
+  // Someone puts the single document back and saves it: the message must not claim rows.
+  const undone = environment(tracker(30));
+  let first = true;
+  const second = await serve(undone, async req => {
+    if (req.url !== '/api/admin/backfill' || !first) return null;
+    first = false;
+    assert.equal((await send(undone, '/api/admin/restore-document', 'POST', {expected_version: 225})).status, 200);
+    const current = await (await send(undone, '/api/state', 'GET')).json();
+    assert.equal((await send(undone, '/api/state', 'PUT', {expected_version: 225, state: current.state})).status, 200);
+    return null;
+  });
+  try {
+    const result = await run('backfill', second);
+    assert.equal(result.status, 1);
+    assert.match(quiet(result.stderr), /saved again \(version 225 then 226\) .*The tracker is a single document at this moment\. Run the workflow again/);
+    assert.equal(mode(undone), 'document');
+    assert.equal((await run('backfill', second)).status, 0, 'the next run copies again');
+    assert.equal(mode(undone), 'rows');
+  } finally { second.close(); }
 });
 
 test('the live checks only ever talk to the real Worker or to this machine', () => {

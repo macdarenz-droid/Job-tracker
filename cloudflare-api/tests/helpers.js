@@ -26,5 +26,7 @@ export function tracker(count) {
 export function environment(state = tracker(400), version = 225) {
   const d1 = makeD1(MIGRATIONS);
   d1.db.prepare('INSERT INTO tracker_state (id, version, payload, updated_at) VALUES (1, ?, ?, ?)').run(version, JSON.stringify(state), state.updated_at || '2026-09-13T20:18:00Z');
-  return {...d1, env: {DB: d1.DB, DOCUMENTS: {}, ACCESS_CODE: CODE, ALLOWED_ORIGIN: 'https://macdarenz-droid.github.io'}};
+  const objects = new Map();
+  const DOCUMENTS = {objects, async put(key, bytes) { objects.set(key, bytes); }, async get(key) { return objects.has(key) ? new Response(objects.get(key)) : null; }, async delete(key) { objects.delete(key); }};
+  return {...d1, env: {DB: d1.DB, DOCUMENTS, ACCESS_CODE: CODE, ALLOWED_ORIGIN: 'https://macdarenz-droid.github.io'}};
 }

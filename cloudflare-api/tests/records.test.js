@@ -33,6 +33,17 @@ function intrude(ctx, when, action) {
     return original(list);
   };
 }
+// Runs `action` once, right after the Worker has read the tracker's version and before its next query.
+function afterVersionRead(ctx, action) {
+  const prepare = ctx.DB.prepare;
+  ctx.DB.prepare = sql => {
+    const statement = prepare(sql);
+    if (sql !== 'SELECT version, payload, updated_at FROM tracker_state WHERE id = 1') return statement;
+    const first = statement.first;
+    statement.first = async () => { const value = await first.call(statement); ctx.DB.prepare = prepare; await action(); return value; };
+    return statement;
+  };
+}
 const rowOf = (ctx, id) => ctx.db.prepare('SELECT position, version, summary, body FROM records WHERE id = ?').get(id);
 const storedMode = ctx => ctx.db.prepare('SELECT substr(payload, 1, 21) AS head FROM tracker_state WHERE id = 1').get().head === '{"storage":"rows-v1",' ? 'rows' : 'document';
 
@@ -82,7 +93,7 @@ test('the copy is lossless, keeps the untouched document, changes no version and
   assert.deepEqual(after.data.state, before.data.state);
   assert.equal(ctx.db.prepare('SELECT payload FROM tracker_state_backup WHERE version = 225').get().payload, JSON.stringify(state), 'the backup is the payload byte for byte');
   assert.equal(rowOf(ctx, 'rec-0398').body, JSON.stringify(state.manual_entries[401]));
-  assert.deepEqual(JSON.parse(rowOf(ctx, state.manual_entries[402].id).summary), {id: state.manual_entries[402].id, version: 1, company: 'Odd Legacy Pty Ltd', role: 'Drafter', location: '', status: '', route: '', closes_at: '', fit_percent: null, updated_at: '', files: 1});
+  assert.deepEqual(JSON.parse(rowOf(ctx, state.manual_entries[402].id).summary), {id: state.manual_entries[402].id, row_version: 1, company: 'Odd Legacy Pty Ltd', role: 'Drafter', location: '', status: '', route: '', closes_at: '', fit_percent: null, updated_at: '', files: 1});
   assert.equal(rowOf(ctx, 'rec-0002').version, 3, 'a row starts at its record\'s own version');
   const again = await copy(ctx);
   assert.deepEqual(again.data, {storage: 'rows', already: true, version: 225, records: 403});
@@ -128,6 +139,7 @@ test('the copy refuses a document it cannot hold exactly, and changes nothing', 
     [state => state.manual_entries.push({...state.manual_entries[4]}), 400],
     [state => { state.manual_entries[7].id = 7; }, 400],
     [state => { delete state.updated_at; }, 400],
+    [state => { delete state.leads; }, 400],
     [state => { state.manual_entries[9].notes = 'x'.repeat(200_001); state.manual_entries.length = 20; }, 413]]) {
     const state = tracker(40);
     spoil(state);
@@ -246,7 +258,7 @@ test('a whole-tracker save that changes one record among hundreds writes that on
   assert.equal(row.version, before.version + 1);
   assert.equal(row.position, before.position);
   assert.equal(JSON.parse(row.summary).status, 'MANUAL_APPLIED');
-  assert.equal(JSON.parse(row.summary).version, row.version);
+  assert.equal(JSON.parse(row.summary).row_version, row.version);
   assert.deepEqual(rowOf(ctx, 'rec-0124'), neighbour);
   assert.equal(ctx.db.prepare('SELECT payload FROM tracker_state WHERE id = 1').get().payload, base);
   const after = (await call(ctx, '/api/state')).data;
@@ -321,26 +333,27 @@ test('list, read, add and change single records', async () => {
   assert.equal(list.status, 200);
   assert.equal(list.data.version, 225);
   assert.equal(list.data.records.length, 63);
-  assert.deepEqual(list.data.records[3 + 7], {id: 'rec-0007', version: 2, company: 'Example Civil 7', role: 'Junior Civil Drafter', location: 'Melton VIC', status: 'ASK_OWNER', route: 'EMAIL',
+  assert.deepEqual(list.data.records[3 + 7], {id: 'rec-0007', row_version: 2, company: 'Example Civil 7', role: 'Junior Civil Drafter', location: 'Melton VIC', status: 'ASK_OWNER', route: 'EMAIL',
     closes_at: '2026-12-08T12:59:59.999Z', fit_percent: 62, updated_at: '2026-10-08T00:00:00.000Z', key: 'manual:rec-0007', job_url: 'https://jobs.example.test/job/7',
     created_at: '2026-10-01T00:00:00.000Z', created_by: 'test-runner', contributor_name: 'Test', files: 2});
   assert.ok(list.bytes < (await call(ctx, '/api/state')).bytes / 8, 'the list is a fraction of the tracker');
   const one = await call(ctx, '/api/records/rec-0007');
-  assert.deepEqual(one.data, {version: 2, record: record(7)});
+  assert.deepEqual(one.data, {row_version: 2, record: record(7)});
   assert.equal((await call(ctx, '/api/records/nope')).status, 404);
   assert.equal((await call(ctx, '/api/records/%E0%A4%A')).status, 404);
 
   const queueEntry = {id: 'queue/entry 1', company: 'Queue Co', role: 'Civil Drafter', route: 'SEEK', closes_at: '2026-11-20', status: 'READY_SEEK', attachments: []};
   const added = await call(ctx, '/api/records', {method: 'POST', body: {records: [record(100), queueEntry]}});
   assert.equal(added.status, 201);
-  assert.deepEqual(added.data, {added: ['rec-0100', 'queue/entry 1']});
+  assert.deepEqual(added.data, {added: ['rec-0100', 'queue/entry 1'], version: 226, updated_at: added.data.updated_at});
+  assert.equal(added.data.updated_at, (await call(ctx, '/api/version')).data.updated_at);
   assert.equal((await call(ctx, '/api/records', {method: 'POST', body: {record: record(101)}})).status, 201);
   const fetched = await call(ctx, '/api/records/' + encodeURIComponent('queue/entry 1'));
-  assert.deepEqual(fetched.data, {version: 1, record: queueEntry});
+  assert.deepEqual(fetched.data, {row_version: 1, record: queueEntry});
   const listed = (await call(ctx, '/api/records')).data;
   assert.equal(listed.version, 227, 'each add moves the tracker version, so the page and whole-tracker clients notice');
   assert.deepEqual(listed.records.slice(-3).map(row => row.id), ['rec-0100', 'queue/entry 1', 'rec-0101']);
-  assert.deepEqual(listed.records.at(-2), {id: 'queue/entry 1', version: 1, company: 'Queue Co', role: 'Civil Drafter', location: '', status: 'READY_SEEK', route: 'SEEK', closes_at: '2026-11-20', fit_percent: null, updated_at: '', files: 0});
+  assert.deepEqual(listed.records.at(-2), {id: 'queue/entry 1', row_version: 1, company: 'Queue Co', role: 'Civil Drafter', location: '', status: 'READY_SEEK', route: 'SEEK', closes_at: '2026-11-20', fit_percent: null, updated_at: '', files: 0});
   assert.deepEqual((await call(ctx, '/api/state')).data.state.manual_entries.slice(-3).map(row => row.id), ['rec-0100', 'queue/entry 1', 'rec-0101']);
 
   // An id that exists is refused and nothing in the request is added.
@@ -363,12 +376,12 @@ test('list, read, add and change single records', async () => {
   assert.ok(size(patch) < 200);
   const saved = await call(ctx, '/api/records/rec-0007', {method: 'PATCH', body: patch});
   assert.equal(saved.status, 200);
-  assert.equal(saved.data.version, 3);
+  assert.deepEqual([saved.data.row_version, saved.data.version, saved.data.updated_at], [3, 228, saved.data.record.updated_at], 'the record\'s new guard, and the whole tracker\'s version and time after this change');
   assert.deepEqual(saved.data.record, {...record(7), status: 'MANUAL_APPLIED', applied_date: '2026-11-13', application_method: 'SEEK', updated_at: saved.data.record.updated_at, version: 3});
   assert.notEqual(saved.data.record.updated_at, record(7).updated_at);
   const stale = await call(ctx, '/api/records/rec-0007', {method: 'PATCH', body: patch});
   assert.equal(stale.status, 409);
-  assert.equal(stale.data.current_version, 3);
+  assert.equal(stale.data.current_row_version, 3);
   assert.equal((await call(ctx, '/api/records/rec-0007', {method: 'PATCH', body: {expected_version: 3, patch: {attachments: []}}})).data.error, 'Existing document references must be preserved.');
   assert.equal((await call(ctx, '/api/records/rec-0007', {method: 'PATCH', body: {expected_version: 3, patch: {company: 7}}})).status, 400);
   assert.equal((await call(ctx, '/api/records/rec-0007', {method: 'PATCH', body: {expected_version: 3, patch: {notes: 'x'.repeat(200_000)}}})).status, 413);
@@ -401,6 +414,153 @@ test('two changes to one record: the second is refused whole; an add that loses 
   assert.equal((await call(ctx, '/api/version')).data.version, 227);
 });
 
+test('a whole-tracker save that crosses another writer gets the usual 409, whatever the other writer did', async () => {
+  const addsRecord = ctx => call(ctx, '/api/records', {method: 'POST', body: {records: [record(900)]}});
+  const addsFile = ctx => call(ctx, '/api/records/rec-0004', {method: 'PATCH', body: {expected_version: 2, patch: {attachments: [file(4, 'confirmation')]}}});
+  const changesStatus = ctx => call(ctx, '/api/records/rec-0004', {method: 'PATCH', body: {expected_version: 2, patch: {status: 'SENT'}}});
+  // The last case sends more than 1.8 MB, where the Worker reads the version before the body has arrived.
+  for (const [other, extra] of [[addsRecord, 0], [addsFile, 0], [changesStatus, 0], [addsRecord, 40]]) {
+    const ctx = await copied(extra ? tracker(400) : tracker(30));
+    const current = (await call(ctx, '/api/state')).data;
+    const next = structuredClone(current.state);
+    next.manual_entries.find(row => row.id === 'rec-0002').notes = 'page edit';
+    for (let n = 0; n < extra; n++) next.manual_entries.push(record(5000 + n));
+    assert.equal(size({expected_version: current.version, state: next}) > 1_800_000, extra > 0);
+    let landed;
+    afterVersionRead(ctx, async () => { landed = await other(ctx); });
+    const slow = await put(ctx, current.version, next);
+    assert.ok(landed.status < 300);
+    assert.equal(slow.status, 409);
+    assert.deepEqual(slow.data, {error: 'A newer cloud version exists. Refresh before saving.', current_version: current.version + 1});
+    assert.equal(JSON.parse(rowOf(ctx, 'rec-0002').body).notes, record(2).notes, 'nothing of the refused save was written');
+    assert.equal(rowOf(ctx, 'rec-5000'), undefined);
+    // Refreshed, the same edit saves, and the other writer's change is still there.
+    const fresh = (await call(ctx, '/api/state')).data;
+    fresh.state.manual_entries.find(row => row.id === 'rec-0002').notes = 'page edit';
+    assert.equal((await put(ctx, fresh.version, fresh.state)).status, 200);
+    const after = (await call(ctx, '/api/state')).data.state;
+    assert.equal(after.manual_entries.find(row => row.id === 'rec-0002').notes, 'page edit');
+    if (other === addsRecord) assert.equal(after.manual_entries.at(-1).id, 'rec-0900');
+    if (other === addsFile) assert.equal(after.manual_entries.find(row => row.id === 'rec-0004').attachments.length, 1);
+    if (other === changesStatus) assert.equal(after.manual_entries.find(row => row.id === 'rec-0004').status, 'SENT');
+  }
+});
+
+test('a single-document save that was under way when the copy switched modes gets 409 and cannot undo the switch', async () => {
+  const ctx = environment(tracker(30));
+  const before = (await call(ctx, '/api/state')).data;
+  const edited = structuredClone(before.state);
+  edited.manual_entries[3].notes = 'saved by the page during the deploy';
+  afterVersionRead(ctx, async () => assert.equal((await copy(ctx)).status, 200));
+  const racing = await put(ctx, 225, edited);
+  assert.equal(racing.status, 409);
+  assert.equal(racing.data.error, 'A newer cloud version exists. Refresh before saving.');
+  assert.equal(storedMode(ctx), 'rows');
+  const copiedState = (await call(ctx, '/api/state')).data;
+  assert.deepEqual([copiedState.version, copiedState.state], [225, before.state], 'the copy stands and the refused save wrote nothing');
+  // The client refreshes and saves again: the same save now goes to the one row it changes.
+  const again = await put(ctx, 225, edited);
+  assert.equal(again.status, 200);
+  assert.deepEqual(again.used.writes.map(write => write.sql.slice(0, 20)), ['UPDATE records SET v', 'UPDATE tracker_state']);
+  assert.equal(storedMode(ctx), 'rows');
+  assert.equal((await call(ctx, '/api/state')).data.state.manual_entries[3].notes, 'saved by the page during the deploy');
+});
+
+test('the guard of a record is row_version; the version field inside a record is not the guard and can differ', async () => {
+  assert.deepEqual(Object.keys((await call(environment(tracker(3)), '/api/state')).data), ['version', 'state'], 'the single document answers as before');
+  const ctx = await copied(tracker(10));
+  const state = (await call(ctx, '/api/state')).data;
+  assert.deepEqual(Object.keys(state), ['version', 'state', 'row_versions']);
+  assert.deepEqual(state.row_versions, state.state.manual_entries.map(row => rowOf(ctx, row.id).version), 'row_versions[i] belongs to manual_entries[i]');
+  // The page adds a file with a whole-tracker save and does not touch the record's own version field.
+  const at = state.state.manual_entries.findIndex(row => row.id === 'rec-0004');
+  state.state.manual_entries[at].attachments.push(file(4, 'confirmation'));
+  assert.equal((await put(ctx, state.version, state.state)).status, 200);
+  const one = (await call(ctx, '/api/records/rec-0004')).data;
+  assert.deepEqual([one.row_version, one.record.version], [3, 2]);
+  assert.equal((await call(ctx, '/api/records')).data.records.find(row => row.id === 'rec-0004').row_version, 3);
+  assert.equal((await call(ctx, '/api/state')).data.row_versions[at], 3);
+  const byBody = await call(ctx, '/api/records/rec-0004', {method: 'PATCH', body: {expected_version: one.record.version, patch: {status: 'MANUAL_APPLIED'}}});
+  assert.equal(byBody.status, 409);
+  assert.equal(byBody.data.current_row_version, 3);
+  const byRow = await call(ctx, '/api/records/rec-0004', {method: 'PATCH', body: {expected_version: one.row_version, patch: {status: 'MANUAL_APPLIED'}}});
+  assert.deepEqual([byRow.status, byRow.data.row_version, byRow.data.record.version], [200, 4, 3]);
+});
+
+test('an add can carry the version of the list its duplicate check was made on, and is refused if anything was saved since', async () => {
+  const ctx = await copied(tracker(5));
+  const listed = (await call(ctx, '/api/records')).data;
+  assert.equal(listed.version, 225);
+  // Two runners find the same advert, see no duplicate in the same list, and add it under different ids.
+  const job = {company: 'Acme Civil', role: 'Civil Drafter', status: 'READY_SEEK', job_url: 'https://www.seek.com.au/job/12345678', seek_id: '12345678', attachments: []};
+  const first = await call(ctx, '/api/records', {method: 'POST', body: {expected_version: listed.version, records: [{...job, id: 'runner-a'}]}});
+  assert.deepEqual([first.status, first.data.version], [201, 226]);
+  const second = await call(ctx, '/api/records', {method: 'POST', body: {expected_version: listed.version, records: [{...job, id: 'runner-b'}]}});
+  assert.equal(second.status, 409);
+  assert.deepEqual(second.data, {error: 'A newer cloud version exists. Refresh before saving.', current_version: 226});
+  assert.equal(second.queries, 2, 'refused at the check, before any write');
+  assert.equal((await call(ctx, '/api/records')).data.records.filter(row => row.seek_id === '12345678').length, 1);
+  // The other save lands after the check and before the write: the guarded statements add nothing.
+  intrude(ctx, (list, n) => n === 1, async () => assert.equal((await call(ctx, '/api/records', {method: 'POST', body: {records: [record(70)]}})).status, 201));
+  const late = await call(ctx, '/api/records', {method: 'POST', body: {expected_version: 226, records: [{...job, id: 'runner-c'}, record(71)]}});
+  assert.equal(late.status, 409);
+  assert.equal(rowOf(ctx, 'runner-c'), undefined);
+  assert.equal(rowOf(ctx, 'rec-0071'), undefined);
+  assert.equal((await call(ctx, '/api/version')).data.version, 227, 'only the other save moved the version');
+  for (const bad of [0, '226', 1.5, null]) assert.equal((await call(ctx, '/api/records', {method: 'POST', body: {expected_version: bad, records: [record(72)]}})).status, 400);
+  assert.equal((await call(ctx, '/api/records', {method: 'POST', body: {expected_version: 227, records: [record(72)]}})).status, 201);
+  assert.equal((await call(ctx, '/api/records', {method: 'POST', body: {records: [record(73)]}})).status, 201, 'without a version an add still never collides');
+});
+
+test('moving one job to the Bin and back writes the remainder only, never a record', async () => {
+  const ctx = await copied();
+  const before = (await call(ctx, '/api/state')).data;
+  const base = ctx.db.prepare('SELECT payload FROM tracker_state WHERE id = 1').get().payload;
+  const parse = JSON.parse;
+  let parsed = 0;
+  JSON.parse = (value, ...rest) => { parsed += String(value).length; return parse(value, ...rest); };
+  let bin;
+  try { bin = await call(ctx, '/api/visibility', {method: 'POST', body: {record_key: 'manual:rec-0007', deleted: true}}); } finally { JSON.parse = parse; }
+  assert.equal(bin.status, 200);
+  assert.deepEqual(bin.data, {version: 226, updated_at: bin.data.updated_at, entry: {record_key: 'manual:rec-0007', deleted: 1, version: 1, updated_at: bin.data.updated_at}});
+  assert.equal(bin.queries, 3);
+  assert.deepEqual(bin.used.writes.map(write => write.sql.startsWith('UPDATE tracker_state SET payload = ?,')), [true]);
+  assert.ok(parsed < base.length + bin.bytes + 300, 'the Worker opened the remainder (about 120 KB) and no record');
+  const binned = (await call(ctx, '/api/state')).data;
+  assert.equal(binned.version, 226);
+  assert.deepEqual(binned.state, {...before.state, updated_at: bin.data.updated_at, record_visibility: [...before.state.record_visibility, bin.data.entry]});
+  // Back out of the Bin: the entry stays and counts up, as the page has always done.
+  const back = await call(ctx, '/api/visibility', {method: 'POST', body: {record_key: 'manual:rec-0007', deleted: false}});
+  assert.deepEqual(back.data.entry, {record_key: 'manual:rec-0007', deleted: 0, version: 2, updated_at: back.data.updated_at});
+  // An entry from the old tracker keeps its other fields.
+  const old = before.state.record_visibility[0];
+  const toggled = await call(ctx, '/api/visibility', {method: 'POST', body: {record_key: old.record_key, deleted: !old.deleted}});
+  assert.deepEqual(toggled.data.entry, {...old, deleted: old.deleted ? 0 : 1, version: old.version + 1, updated_at: toggled.data.updated_at});
+  const after = (await call(ctx, '/api/state')).data;
+  assert.equal(after.version, 228);
+  assert.equal(after.state.record_visibility.length, before.state.record_visibility.length + 1, 'no Bin entry is ever removed');
+  for (const body of [{deleted: true}, {record_key: '', deleted: true}, {record_key: 'manual:rec-0001', deleted: 1}, {record_key: 'k'.repeat(401), deleted: true}, 'not json'])
+    assert.equal((await call(ctx, '/api/visibility', {method: 'POST', body})).status, 400);
+  // A save that lands between this route's read and its write: the guarded statement changes nothing.
+  const prepare = ctx.DB.prepare;
+  ctx.DB.prepare = sql => {
+    const statement = prepare(sql);
+    if (!sql.startsWith('SELECT version, payload FROM tracker_state WHERE id = 1 AND')) return statement;
+    const first = statement.first;
+    statement.first = async () => { const value = await first.call(statement); ctx.DB.prepare = prepare; await call(ctx, '/api/records', {method: 'POST', body: {records: [record(950)]}}); return value; };
+    return statement;
+  };
+  const lost = await call(ctx, '/api/visibility', {method: 'POST', body: {record_key: 'manual:rec-0008', deleted: true}});
+  assert.equal(lost.status, 409);
+  assert.deepEqual({...(await call(ctx, '/api/state')).data.state, updated_at: '', manual_entries: []}, {...after.state, updated_at: '', manual_entries: []});
+  // Before the copy the route is not active and changes nothing.
+  const single = environment(tracker(5));
+  const refused = await call(single, '/api/visibility', {method: 'POST', body: {record_key: 'manual:rec-0001', deleted: true}});
+  assert.equal(refused.status, 409);
+  assert.match(refused.data.error, /not active/);
+  assert.equal((await call(single, '/api/version')).data.version, 225);
+});
+
 test('every request path stays inside the Workers Free plan limits on a tracker of 400 records', async () => {
   const ctx = environment();
   const seen = [];
@@ -426,6 +586,7 @@ test('every request path stays inside the Workers Free plan limits on a tracker 
   await measure('GET /api/records/<id>', 2, '/api/records/rec-0200');
   await measure('POST /api/records (50 records)', 3, '/api/records', {method: 'POST', body: {records: Array.from({length: 50}, (_, i) => record(1000 + i))}});
   await measure('PATCH /api/records/<id>', 3, '/api/records/rec-0300', {method: 'PATCH', body: {expected_version: 1, patch: {status: 'MANUAL_APPLIED'}}});
+  await measure('POST /api/visibility', 3, '/api/visibility', {method: 'POST', body: {record_key: 'manual:rec-0300', deleted: true}});
   const wrong = await call(ctx, '/api/records', {headers: {'X-Tracker-Code': '000000'}});
   assert.equal(wrong.status, 401);
   assert.equal(wrong.queries, 2);
@@ -461,12 +622,12 @@ test('reading the tracker, the list or one record parses and re-serialises nothi
 
 test('every new route needs the code, the wrong-code throttle is unchanged, and PATCH is allowed from the site only', async () => {
   const routes = [['/api/version', 'GET'], ['/api/records', 'GET'], ['/api/records', 'POST'], ['/api/records/rec-0001', 'GET'], ['/api/records/rec-0001', 'PATCH'],
-    ['/api/admin/backfill', 'POST'], ['/api/admin/restore-document', 'POST']];
+    ['/api/visibility', 'POST'], ['/api/admin/backfill', 'POST'], ['/api/admin/restore-document', 'POST']];
   for (const mode of ['document', 'rows']) {
     const ctx = mode === 'rows' ? await copied(tracker(5)) : environment(tracker(5));
     const before = (await call(ctx, '/api/state')).data;
     for (const [path, method] of routes) {
-      const body = method === 'GET' ? undefined : {expected_version: 225, patch: {status: 'MANUAL_APPLIED'}, records: [record(50)]};
+      const body = method === 'GET' ? undefined : {expected_version: 225, patch: {status: 'MANUAL_APPLIED'}, records: [record(50)], record_key: 'manual:rec-0001', deleted: true};
       for (const code of ['000000', '', '65432', '6543210']) {
         ctx.db.exec('DELETE FROM auth_attempts');
         assert.equal((await call(ctx, path, {method, body, headers: {'X-Tracker-Code': code}})).status, 401, `${mode} ${method} ${path}`);

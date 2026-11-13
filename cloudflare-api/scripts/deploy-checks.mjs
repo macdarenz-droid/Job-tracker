@@ -156,8 +156,12 @@ async function backfill() {
       console.log(`Copied ${copy.data.records} manual entries to one row each. Version ${version} before and after; content deep-equal before and after: ${tally(after.data.state)}. The single row now holds ${copy.data.remainder_bytes} bytes.`);
       return;
     }
-    if (after.status === 200 && after.data?.version !== version)
-      throw Error(`The copy happened and the Worker's own row-by-row comparison passed, but the tracker was saved again (version ${version} then ${after.data?.version}) before this job could compare it. Records now have their own rows. Run the workflow again to finish the checks.`);
+    if (after.status === 200 && after.data?.version !== version) {
+      // Say which mode the tracker is in from a fresh read, not from what the copy answered a moment ago.
+      const storage = (await api('/api/version')).data?.storage;
+      const where = storage === 'rows' ? 'Records now have their own rows.' : storage === 'document' ? 'The tracker is a single document at this moment.' : 'Its storage mode could not be read.';
+      throw Error(`The copy happened and the Worker's own row-by-row comparison passed, but the tracker was saved again (version ${version} then ${after.data?.version}) before this job could compare it. ${where} Run the workflow again to finish the checks.`);
+    }
     const undo = await api('/api/admin/restore-document', {expected_version:version});
     throw Error(`After the copy the tracker did not read back the same (state HTTP ${after.status}, list HTTP ${list.status}). `
       + (undo.status === 200 && undo.data?.storage === 'document' ? 'The single document was put back and the Worker serves it as before.' : `Putting the single document back was refused (HTTP ${undo.status}); restore it by hand as described in cloudflare-api/README.md.`));
