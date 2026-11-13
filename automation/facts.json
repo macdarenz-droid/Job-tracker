@@ -197,6 +197,8 @@
   "pre_employment_medical": "Yes",
   "drug_and_alcohol_screening": "Yes",
   "currently_studying": "No",
+  "declarations_and_consents": "Yes to: a declaration that the information given is true and correct; agreement to the employer's privacy policy or collection notice; consent to reference, qualification and police checks. Any other declaration or consent (criminal history, health, disability, marketing, sharing with third parties): skip and report.",
+  "expected_hourly_rate": "Not on record: skip and report.",
   "willing_to_relocate": "Yes, anywhere in Australia",
   "willing_to_travel_or_fifo": "Yes",
   "manual_licence": "No (automatic)",
@@ -211,7 +213,7 @@
   "years_of_experience": {
    "civil engineer, site engineer, project engineer, construction industry": "Choose the option that contains 11 months (usually 'Less than 1 year'): April 2019 to February 2020, Philippines.",
    "drafter, draftsperson, designer, CAD": "Choose the lowest option (no paid drafting role). Free text if offered: 'No paid drafting role. Prepared and reviewed drawings in AutoCAD and Civil 3D in the Advanced Diploma of Civil Construction Design (February 2024 to February 2026).' Never write 'two years of drafting': the diploma ran two years but drafting was part of it.",
-   "laboratory, materials testing, technician, estimator, project coordinator, project management, any other role": "Choose the lowest option (no paid role).",
+   "laboratory, materials testing, technician, estimator, project coordinator, project management, any other role": "Choose the lowest option (no paid role in that role). This row never covers an engineering title: a graduate, junior, site, project or civil engineer title is answered from the first row.",
    "rule": "Never choose an option higher than the facts support. An advert whose only gate is paid years in the role is low yield: rank it last, do not inflate the answer."
   },
   "software": {

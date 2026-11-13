@@ -297,13 +297,15 @@ def build(lane, facts=FACTS):
     if lane == 'drafter':
         out.head('Design and drafting')
         course(out, dip)
-        coursework(out, 'software', 'standards_coursework', 'methods_coursework')
+        coursework(out, 'software', 'standards_coursework')
+        out.head('Work history')    # both engineering roles stay on page 1 (owner, 13 Nov 2026)
+        for path in current + site:
+            job(out, path)
+        out.head('Coursework methods and portfolio drawings')
+        coursework(out, 'methods_coursework')
         out.append(('label', 'Drawings in the online portfolio', ()))
         for i in range(len(facts['capabilities']['drawings_public'])):
             out.fact('li', f'capabilities.drawings_public.{i}')
-        out.head('Work history')
-        for path in current + site:
-            job(out, path)
         out.head('Additional experience')
         for path in other:
             job(out, path)

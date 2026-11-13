@@ -28,7 +28,7 @@ Civil Construction Design (Advanced Diploma, February 2026) | AutoCAD, Civil 3D,
 About eighty words. The first two sentences serve drafter roles, the third technician roles.
 
 ```text
-Civil design graduate with an Advanced Diploma of Civil Construction Design (RII60520), completed in Australia in February 2026, and a Bachelor of Science in Civil Engineering. Designed and documented road geometry, earthworks, pavement systems and stormwater drainage, and prepared and reviewed technical drawings in AutoCAD and Civil 3D, applying Australian Standards. Site experience in inspections, quality checks, material records and progress reports. White Card and current Victorian driver's licence. Will relocate anywhere in Australia and can start two weeks after an offer.
+Civil design graduate with an Advanced Diploma of Civil Construction Design (RII60520), completed in Australia in February 2026, and a Bachelor of Science in Civil Engineering. Designed and documented road geometry, earthworks, pavement systems and stormwater drainage, and prepared and reviewed technical drawings in AutoCAD and Civil 3D, applying Australian Standards. Site experience in inspections, quality checks, material records and progress reports. White Card and full Victorian driver's licence. Will relocate anywhere in Australia and can start two weeks after an offer.
 ```
 
 ## Career history
@@ -95,8 +95,8 @@ One line for each of `eligibility.white_card`, `drivers_licence`, `police_check`
 
 ```text
 White Card (Construction Induction)
-Current Victorian driver's licence
-Current National Police Certificate
+Full Victorian driver's licence
+AFP National Police Check certificate issued in March 2026
 Working with Children Check
 ```
 

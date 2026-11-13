@@ -19,7 +19,7 @@ import resume  # noqa: E402
 from common import CONFIG, FACTS  # noqa: E402
 
 HEADINGS = {
-    'drafter': ['Profile', 'Design and drafting', 'Work history', 'Additional experience', 'Education',
+    'drafter': ['Profile', 'Design and drafting', 'Work history', 'Coursework methods and portfolio drawings', 'Additional experience', 'Education',
                 'Eligibility and licences'],
     'technician': ['Profile', 'Site inspection and quality-check experience',
                    'Standards and methods used in Advanced Diploma coursework', 'Tickets, licence and site readiness',
