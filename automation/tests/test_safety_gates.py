@@ -26,12 +26,27 @@ class SafetyGates(unittest.TestCase):
         self.assertEqual(len(state['manual_entries']), 1)
         self.assertNotIn('_skipped', second)
 
-    def test_undated_or_old_uncertain_employer_stays_blocked(self):
-        for date in ('', '2020-01-01'):
-            idx = tracker.dedupe_index({'applications': [{'company': 'Acme Civil', 'role': 'Other', 'status': 'SEND_UNCERTAIN', 'sent_at': date}]})
-            blocked, why, _ = tracker.check_duplicate({'company': 'Acme Civil', 'title': 'New role'}, idx)
-            self.assertTrue(blocked)
-            self.assertIn('unresolved', why)
+    def test_undated_or_old_uncertain_send_keeps_that_role_blocked(self):
+        with mock.patch.object(tracker, 'prior_outreach', return_value=[]):
+            for status in ('SEND_UNCERTAIN', 'SENDING'):
+                for date in ('', '2020-01-01'):
+                    idx = tracker.dedupe_index({'applications': [{'company': 'Acme Civil', 'role': 'Junior Civil Drafter', 'status': status, 'sent_at': date}]})
+                    blocked, why, _ = tracker.check_duplicate({'company': 'Acme Civil Pty Ltd', 'title': 'Junior Civil Drafter'}, idx)
+                    self.assertTrue(blocked, (status, date))
+                    self.assertIn('unresolved', why)
+                    # Another role at that employer is a different application: allowed, and the note names the unresolved one.
+                    blocked, _, notes = tracker.check_duplicate({'company': 'Acme Civil', 'title': 'Laboratory Technician'}, idx)
+                    self.assertFalse(blocked)
+                    self.assertTrue(any(status in n and 'Junior Civil Drafter' in n for n in notes))
+
+    def test_one_unresolved_fact_is_a_question_for_the_owner_never_a_ready_record(self):
+        screen = {'open': True, 'mandatory_unmet': [], 'mandatory_unresolved': ['Degree must be acceptable to Engineers Australia'], 'percent': 70, 'rationale': 'r', 'gaps': ['g']}
+        self.assertEqual(publish.eligibility_issues({}, screen), [])
+        rec = publish.build_record('r1', {'company': 'Riverbend Shire Council', 'title': 'Graduate Traffic & Design Engineer', 'url': 'https://example.org/job/1', 'source': 'careersatcouncil'},
+                                   screen, {}, {'route': 'EMPLOYER_PORTAL', 'letter': {'paragraphs': ['One.']}})
+        self.assertEqual(rec['status'], 'ASK_OWNER')
+        self.assertEqual(rec['ask_owner']['then'], 'READY_EMPLOYER_PORTAL')
+        self.assertIn('Engineers Australia', rec['ask_owner']['questions'][0]['question'])
 
     def test_ineligible_or_unverified_adverts_never_pass(self):
         good = {'open': True, 'mandatory_unmet': [], 'percent': 70}
