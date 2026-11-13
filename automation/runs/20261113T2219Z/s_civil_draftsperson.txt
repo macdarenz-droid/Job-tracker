@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/workspace/repos/Job-tracker/automation/scripts/seek.py", line 261, in <module>
+    main()
+    ~~~~^^
+  File "/workspace/repos/Job-tracker/automation/scripts/seek.py", line 248, in main
+    body = search(a.keywords, daterange=a.daterange, page=a.page)
+  File "/workspace/repos/Job-tracker/automation/scripts/seek.py", line 38, in search
+    status, body = http(f"{SEEK['search_url']}?{urllib.parse.urlencode(params)}")
+                   ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/repos/Job-tracker/automation/scripts/common.py", line 43, in http
+    content = r.read()
+  File "/usr/lib/python3.13/http/client.py", line 500, in read
+    s = self._safe_read(self.length)
+  File "/usr/lib/python3.13/http/client.py", line 652, in _safe_read
+    raise IncompleteRead(data, amt - len(data))
+http.client.IncompleteRead: IncompleteRead(142714 bytes read, 22198 more expected)
