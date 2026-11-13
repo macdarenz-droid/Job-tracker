@@ -297,7 +297,12 @@ class PublishTests(unittest.TestCase):
         self.assertEqual(rec['status'], statuses['prepared']); self.assertEqual(rec['application_method'], 'Email'); self.assertEqual(rec['match_score']['percent'], 72)
         self.assertEqual(rec['recipient_email'], 'sam.lee@acme.com.au'); self.assertEqual(rec['email_body'], draft['email_body'])
         self.assertEqual(rec['contributor_name'], common.CONFIG['contributor_name']); self.assertEqual(rec['seek_id'], '5')
+        # An email application with no published address stays an email application and fails its check; it is never moved to SEEK.
         rec = publish.build_record('r1', cand, screen, {'contact_confidence': 'none'}, {**draft, 'recipient_email': ''})
+        self.assertEqual((rec['status'], rec['application_route']), (statuses['prepared'], 'EMAIL'))
+        issues = checks.record_issues({**rec, 'attachments': [{'kind': 'resume'}, {'kind': 'cover'}]}, require_uploaded=False)
+        self.assertIn('missing recipient_email', issues); self.assertIn('recipient is neither a published direct contact nor a published application inbox', issues)
+        rec = publish.build_record('r1', cand, screen, {'contact_confidence': 'none'}, {**draft, 'route': None, 'recipient_email': ''})  # no route named: a SEEK advert goes to SEEK
         self.assertEqual(rec['status'], statuses['ready_seek'])
         for route, key in (('EMPLOYER_PORTAL', 'ready_portal'), ('EMPLOYER_FORM', 'ready_form')):
             rec = publish.build_record('r1', cand, screen, contact, {**draft, 'route': route})

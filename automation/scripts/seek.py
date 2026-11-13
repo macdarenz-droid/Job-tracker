@@ -124,7 +124,7 @@ LANE_NOT = {  # config -> lanes -> <lane> -> not, as title words (the prefilter 
     'technician': r'\b(medical|pathology|food|chemi\w*|environmental|water|science|school|geolog\w*|exploration|mine|mining|non destructive|ndt|pest|fire|service|maintenance|installation|handling|plant|automotive|cad)\b',
     'engineer': r'\b(programs?|programmes?|it|ict|data|cloud|devops|mine|mining|subsea|offshore)\b',
 }
-ALSO_EXCLUDED = r'\b(admin\w*|co ?ordinators?|labourers?|traffic controllers?|chainm[ae]n|leaders?|scholarships?|work experience)\b'  # lanes -> excluded and seniority words the prefilter list lacks
+ALSO_EXCLUDED = r'\b(admin\w*|co ?ordinators?|labourers?|traffic controllers?|chainm[ae]n|leaders?|snr|sr|specialists?|scholarships?|work experience)\b'  # lanes -> excluded and seniority words the prefilter list lacks
 PLAIN_WORDS = (r'draft\w*|draught\w*|cad|autocad|design\w*|technicians?|technical|officers?|laborator\w+|lab|testers?|testing|field|engineer\w*|assistants?|'
                r'junior|trainees?|cadets?|graduates?|entry|level|full|part|time|casual|permanent|fixed|term|contract|positions?|roles?|multiple|x\d*|\d+|and|or|a|the|of|in|for|qld|nsw|vic|wa|sa|nt|tas|act|fifo|dido')
 LANE_SIGNAL = {'drafter': CIVIL, 'technician': TESTING + r'|\b(civil|roads?|highways?|pavements?|earthworks)\b', 'engineer': CIVIL + r'|\b(site|project|field|construction)\b'}
@@ -136,8 +136,8 @@ def lane_for(title, text=''):
     """The role lane a title belongs to: 'drafter', 'technician', 'engineer' or None (config -> lanes).
 
     A first sort by plain words, for ranking and for the screening agent, who still reads the duties.
-    1. None when the title has a word the prefilter or the lanes exclude (senior, estimator, project
-       coordinator, steel detailer, pathology, graduate program, administration ...).
+    1. None when the title has a word the prefilter or the lanes exclude (senior, snr, sr, specialist,
+       estimator, project coordinator, steel detailer, pathology, graduate program, administration ...).
     2. A title that says what the work is gets its lane from the title: 'Civil Drafter', 'Soil
        Technician', 'Concrete Tester', 'Graduate Site Engineer'.
     3. A general title needs the advert text to show it: civil work for a drafter or engineer, testing

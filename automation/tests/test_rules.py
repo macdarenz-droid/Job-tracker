@@ -176,7 +176,7 @@ class StatusesAndRecords(unittest.TestCase):
 
     def test_one_channel_no_double_touch(self):
         cand, screen, contact, draft = pack('SEEK')
-        self.assertEqual(publish.route_status(draft, contact), ('READY_SEEK', 'SEEK'))
+        self.assertEqual(publish.route_status(draft, contact, cand), ('READY_SEEK', 'SEEK'))
         rec = publish.build_record('r1', cand, screen, contact, draft)
         self.assertEqual(rec['status'], 'READY_SEEK')
         for field in ('recipient_email', 'contact_email', 'email_body', 'subject', 'contact_evidence_url'):
@@ -185,8 +185,8 @@ class StatusesAndRecords(unittest.TestCase):
         self.assertEqual(checks.record_issues({**rec, 'attachments': [{'kind': 'resume'}, {'kind': 'cover'}]}, require_uploaded=False), [])
         with_email = {**rec, 'attachments': [{'kind': 'resume'}, {'kind': 'cover'}], 'recipient_email': 'careers@wattlebrook.example', 'email_body': 'Hello,\n\nShort note.'}
         self.assertTrue(any('one channel' in i for i in checks.record_issues(with_email, require_uploaded=False)))
-        self.assertEqual(publish.route_status({**draft, 'route': 'EMAIL'}, contact), ('PREPARED_NOT_SENT', 'EMAIL'))
-        self.assertEqual(publish.route_status({**draft, 'route': 'EMAIL'}, {'contact_confidence': 'none'}), ('READY_SEEK', 'SEEK'))
+        self.assertEqual(publish.route_status({**draft, 'route': 'EMAIL'}, contact, cand), ('PREPARED_NOT_SENT', 'EMAIL'))
+        self.assertEqual(publish.route_status({**draft, 'route': 'EMAIL'}, {'contact_confidence': 'none'}, cand), ('PREPARED_NOT_SENT', 'EMAIL'))  # never SEEK instead: see Routes
 
     def test_how_found_and_call_prep_are_written_once_and_fit_is_not_copied_into_the_score(self):
         cand, screen, contact, draft = pack('SEEK')
@@ -313,7 +313,6 @@ class StandingAnswers(unittest.TestCase):
         for question, key in [
                 ('Which of the following statements best describes your right to work in Australia?', 'right_to_work'),
                 ('Are you legally entitled to work in Australia?', 'right_to_work'),
-                ('Will you require visa sponsorship in the future?', 'right_to_work'),
                 ('How much notice are you required to give your current employer?', 'notice_period'),
                 ("What's your expected annual base salary?", 'expected_salary'),
                 ("Do you have a current Australian driver's licence?", 'drivers_licence'),
@@ -352,12 +351,11 @@ class StandingAnswers(unittest.TestCase):
                          ['How would you rate your English language skills?'])
 
     def test_a_conditional_answer_blocks_only_the_case_it_leaves_open(self):
-        licence = {'drivers_licence': 'Yes. If the form asks full or probationary, or manual or automatic: not confirmed, skip and report.'}
-        with mock.patch.dict(checks.ANSWERS, licence):
+        with facts_answers(OLDER):  # 'If the form asks full or probationary, or manual or automatic: not confirmed, skip and report.'
             self.assertEqual(checks.standing_answer("Do you hold a valid driver's licence?"), ('drivers_licence', None))
             self.assertTrue(checks.standing_answer('Are you licenced to drive a manual vehicle?')[1])
             self.assertTrue(checks.standing_answer("Do you hold a full, unrestricted driver's licence?")[1])
-        with mock.patch.dict(checks.ANSWERS, {'drivers_licence': "Yes, full Victorian driver's licence. If the form asks manual or automatic: automatic. Never tick manual."}):
+        with facts_answers({'drivers_licence': NEWER['drivers_licence']}):  # 'If the form asks manual or automatic: automatic. Never tick manual.'
             self.assertEqual(checks.standing_answer('Are you licenced to drive a manual vehicle?'), ('drivers_licence', None))
         with mock.patch.dict(checks.ANSWERS, {'english_self_rating': 'Fluent'}):
             self.assertEqual(checks.standing_answer('What is your level of English?'), ('english_self_rating', None))
@@ -802,6 +800,7 @@ REAL_TITLES = {
         'Medical Laboratory Technician', 'Dental Laboratory Technician-Chatswood', 'Laboratory Tester (Chemistry Pharmaceutical)', 'Graduate Speech Pathologist - Gold Coast',
         '2027 Engineering Graduate Program', '2027 Graduate Program', '2027 CIMIC Group Graduate Program - UGL',
         'Senior Civil Engineer', 'Senior Laboratory Technician', 'Senior Lab Technician', 'Principal Civil Designer', 'Lead Drafter', 'Design Drafting Leader',
+        'Snr Structural Modeller & Structural Modeller', 'Sr Project Manager', 'BIM Specialist', 'Civil Delivery Technical Specialist',
         'Laboratory Supervisor', 'Laboratory Manager', 'Civil Project Manager', 'Laboratory Coordinator',
         'Asphalt Labourer', 'Traffic Controller', 'Survey Assistant', 'Document Controller', 'Junior Project Administrator', 'Administration & Drafting Trainee',
         'Undergraduate Engineer', 'Engineering Assistant - Internship', 'Trainee Surveyor', 'Quantity Surveyor',
@@ -841,6 +840,13 @@ class Lanes(unittest.TestCase):
         for title in ('Pathology Laboratory Technician', 'Trainee Pathology Lab Technician', 'Pathology Collector / Laboratory Assistant'):
             self.assertIsNone(seek.lane_for(title), title)
             self.assertFalse(seek.prefilter({'title': title, 'classifications': []})[0], title)
+
+    def test_senior_words_the_config_list_lacks_get_no_lane(self):
+        # Review finding: 'Snr Structural Modeller & Structural Modeller' (a real title) came back as drafter.
+        for title in ('Snr Structural Modeller & Structural Modeller', 'Sr. Civil Drafter', 'Civil Designer - 12d Specialist', 'Specialist Soil Testing Technician'):
+            self.assertIsNone(seek.lane_for(title), title)
+            self.assertIsNone(seek.lane_for(title, 'Civil drawings in AutoCAD and Civil 3D. Soil and concrete testing. Graduates welcome.'), title)
+        self.assertEqual(seek.lane_for('Civil Drafter - Junior to Mid Level'), 'drafter')  # a real junior advert stays
 
     def test_lanes_and_their_order_come_from_config(self):
         ranked = sorted((v['rank'], k) for k, v in CONFIG['lanes'].items() if isinstance(v, dict) and 'rank' in v)
@@ -929,6 +935,598 @@ class PrefilterWords(unittest.TestCase):
             self.assertTrue(seek.prefilter(self.listing('Soils Lab Assistant'))[0])
             self.assertEqual(seek.prefilter(self.listing('Collaboration Assistant')), (False, 'title has no junior/civil signal'))
             self.assertEqual(seek.prefilter(self.listing('Lab Team Lead')), (False, 'title excludes: lead'))
+
+
+
+# ============================================================================== review round (13 Nov 2026)
+# Each class below is one finding of the adversarial review of commit dfd241f: the test failed on that commit.
+ATTACHED = [{'kind': 'resume'}, {'kind': 'cover'}]
+# The two states of facts.json -> answers that matter here: this checkout's, and the orchestrator's newer lines
+# (full licence confirmed, a manual-licence line, future sponsorship and Engineers Australia left to the owner).
+OLDER = {'drivers_licence': 'Yes. If the form asks full or probationary, or manual or automatic: not confirmed, skip and report.'}
+NEWER = {'drivers_licence': "Yes, full Victorian driver's licence. If the form asks manual or automatic: automatic. Never tick manual.",
+         'manual_licence': 'No (automatic)',
+         'future_visa_sponsorship': "Not answered here: if a form asks whether he will need sponsorship in the future, skip and report (the owner decides this wording). 'Do you need sponsorship to work now?': No.",
+         'engineers_australia_membership_or_recognition': 'Not on record: skip and report. Never tick member, eligible or assessed.'}
+
+
+def facts_answers(lines):
+    """checks.ANSWERS as this checkout has it, with the given lines and without the other state's extra keys."""
+    base = {k: v for k, v in checks.ANSWERS.items() if k not in NEWER}
+    return mock.patch.dict(checks.ANSWERS, {**base, **lines}, clear=True)
+
+
+def build_run(drafts, run_id='20261113T0100Z'):
+    """publish.py build on a temporary run folder. A contact of None means no contacts file. Returns (result, records)."""
+    with tempfile.TemporaryDirectory() as d, mock.patch.object(publish, 'ROOT', Path(d)):
+        run = Path(d) / 'runs' / run_id
+        for sid, (cand, screen, contact, draft) in drafts.items():
+            common.write_json(run / 'extra' / f'{sid}.json', {**cand, 'id': sid})
+            common.write_json(run / 'screen' / f'{sid}.json', screen)
+            if contact is not None:
+                common.write_json(run / 'contacts' / f'{sid}.json', contact)
+            common.write_json(run / 'drafts' / f'{sid}.json', draft)
+        return publish.publish(run_id), common.read_json(run / 'records.json')
+
+
+# The form answers of two real drafts, as the drafters wrote them.
+FYFE = [{'q': 'Fyfe careers page questions',  # runs/20261110T1414Z/drafts/fyfe.json, route EMPLOYER_PORTAL
+         'a': 'Not visible before applying; answer from the resume and cover letter. Work rights: Subclass 485, full working rights to December 2027 (not PR or citizen). Salary and start date: Marc to answer.'}]
+OCTOBER = {'Which of the following statements best describes your right to work in Australia?': 'Temporary visa with full working rights: Subclass 485, full working rights until December 2027.',
+           "What's your expected annual base salary?": 'Marc to answer (no salary figure is on record for this role).',  # runs/20261012T0012Z/drafts/95191525.json
+           'How would you rate your English language skills?': 'Fluent'}
+
+
+class FormAnswerShapes(unittest.TestCase):
+    """P2-1: answers written as {q, a} or as one {question: answer} object were invisible to the checks and the gate."""
+
+    def test_the_three_shapes_real_drafts_use_read_the_same(self):
+        want = [{'question': 'Why us?', 'answer': 'I have not used 12d yet.', 'basis': ''}]
+        for shape in ([{'question': 'Why us?', 'answer': 'I have not used 12d yet.'}], [{'q': 'Why us?', 'a': 'I have not used 12d yet.'}], {'Why us?': 'I have not used 12d yet.'}):
+            self.assertEqual(checks.answer_items({'screening_answers': shape}), (want, None), shape)
+            self.assertEqual(checks.form_questions({'screening_answers': shape}), ['Why us?'], shape)
+            self.assertEqual(checks.draft_parts({'screening_answers': shape})[2], [('Why us?', 'I have not used 12d yet.')], shape)
+            self.assertTrue(any('"have not"' in i for i in checks.draft_issues({'screening_answers': shape})), shape)
+        self.assertEqual(checks.answer_items({'questions': [{'question': 'Notice?', 'options': [], 'answer': '2 weeks', 'basis': 'answers.notice_period', 'status': 'answered'}]}),
+                         ([{'question': 'Notice?', 'answer': '2 weeks', 'basis': 'answers.notice_period'}], None))  # a queue entry
+        self.assertEqual(checks.answer_items({}), ([], None)); self.assertEqual(checks.answer_items({'screening_answers': None, 'questions': []}), ([], None))
+
+    def test_real_november_answers_written_as_q_and_a_are_checked_and_gated(self):
+        issues = checks.draft_issues({'route': 'EMPLOYER_PORTAL', 'screening_answers': FYFE})
+        for needle in ('volunteers a limit: "to december 2027"', 'visa end date', 'claims PR', 'is a placeholder, not an answer'):
+            self.assertTrue(any(needle in i for i in issues), needle)
+        self.assertEqual([u['question'] for u in checks.unanswered_questions(checks.form_questions({'screening_answers': FYFE}))], ['Fyfe careers page questions'])
+        out, records = build_run({'fyfe': pack('EMPLOYER_PORTAL', [], screening_answers=FYFE)})
+        self.assertEqual([b[3] for b in out['built']], ['ASK_OWNER'])  # it was READY_EMPLOYER_PORTAL with no issues
+        self.assertEqual(out['ask_owner'][0]['questions'], ['Fyfe careers page questions'])
+        self.assertEqual(records[0]['screening_answers'], [{'question': 'Fyfe careers page questions'}])  # a placeholder is not kept as a proposal
+        self.assertNotIn('Marc to answer', json.dumps(records[0]))
+
+    def test_october_answers_written_as_one_object_are_checked_and_gated(self):
+        issues = checks.draft_issues({'screening_answers': OCTOBER})
+        self.assertTrue(any('expected annual base salary' in i and 'placeholder' in i for i in issues))
+        self.assertFalse(any('right to work' in i for i in issues))  # the form asks about work rights, so the end date may be given
+        rec = publish.build_record('r1', *pack('SEEK', [], screening_answers=OCTOBER))
+        self.assertEqual(rec['status'], 'ASK_OWNER')
+        self.assertEqual([a['question'] for a in rec['ask_owner']['questions']], ['How would you rate your English language skills?'])
+
+    def test_answers_in_a_shape_nobody_can_read_are_refused_not_skipped(self):
+        for bad in ('see the notes', [['Why us?', 'Because.']], [{'text': 'Why us?', 'reply': 'Because.'}], [{'question': '', 'answer': 'Yes'}], 7):
+            items, problem = checks.answer_items({'screening_answers': bad})
+            self.assertTrue(problem, bad); self.assertIn('cannot be read', problem)
+            self.assertTrue(any('cannot be read' in i for i in checks.draft_issues({'screening_answers': bad})), bad)
+            out, records = build_run({'x': pack('SEEK', screening_answers=bad)})
+            self.assertEqual((out['built'], records), ([], [])); self.assertIn('cannot be read', out['rejected'][0]['issues'][0])
+        with tempfile.TemporaryDirectory() as d:
+            path = Path(d) / 'draft.json'
+            common.write_json(path, {'screening_answers': 'see the notes'})
+            with redirect_stdout(io.StringIO()) as out, self.assertRaises(SystemExit) as stop:
+                checks.main(['questions', str(path)])
+            self.assertEqual(stop.exception.code, 1); self.assertIn('cannot be read', out.getvalue())
+
+    def test_an_answer_that_is_not_text_is_an_issue(self):
+        self.assertTrue(any('is not text' in i for i in checks.draft_issues({'screening_answers': [{'q': 'Years of experience', 'a': 3}]})))
+        self.assertEqual(checks.draft_issues({'screening_answers': [{'q': 'Years of experience', 'a': None}, {'q': 'Notice period', 'a': ''}]}), [])
+
+    def test_every_real_draft_with_answers_is_seen(self):
+        drafts = [p for p in (HERE.parent / 'runs').glob('*/drafts/*.json')]
+        if not drafts:
+            self.skipTest('run folders are not in this checkout')
+        with_answers = 0
+        for path in drafts:
+            draft = json.loads(path.read_text(encoding='utf-8'))
+            raw = draft.get('screening_answers')
+            if not raw:
+                continue
+            with_answers += 1
+            items, problem = checks.answer_items(draft)
+            self.assertIsNone(problem, path.name)
+            self.assertEqual(len(items), len(raw), path.name)
+            self.assertTrue(all(i['question'] for i in items), path.name)
+        self.assertGreater(with_answers, 50)  # 90 of the 221 real drafts carry answers, in three shapes
+
+
+# Real SEEK form questions from automation/runs/*/candidates*.json and what the gate must say about each:
+# the line of facts.json -> answers it reads, or None in place of the line when the owner must be asked.
+SETTLED = [
+    ('Which of the following statements best describes your right to work in Australia?', 'answers.right_to_work'),
+    ('Are you a Citizen/Permanent Resident of Australia?', 'answers.right_to_work'),
+    ('Visa Status', 'answers.right_to_work'),
+    ('How much notice are you required to give your current employer?', 'answers.notice_period'),
+    ('When can you commence in a full time capacity?', 'answers.notice_period'),
+    ("What's your expected annual base salary?", 'answers.expected_salary'),
+    ('Please provide your salary or hourly rate expectations:', 'answers.expected_salary'),
+    ("Do you have a current Australian driver's licence?", 'answers.drivers_licence'),
+    ("Do you hold a current Class C drivers' license?", 'answers.drivers_licence'),
+    ('This position includes providing on-site servicing at our clients premises in Melbourne. Do you have a car license and car?', 'answers.drivers_licence'),
+    ("Do you have a heavy vehicle driver's licence?", 'answers.qualification_questions.any other named qualification'),  # was drivers_licence: Yes
+    ('Do you own or have regular access to a car?', 'answers.own_car_or_regular_access'),
+    ('Do you have reliable access to transport for travelling to workplaces or project sites where public transport may not be available?', 'answers.own_car_or_regular_access'),
+    ('Do you hold a Construction Induction Safety certificate (White Card)?', 'answers.white_card'),
+    ('Do you have a current Police Check (National Police Certificate) for employment?', 'answers.police_check'),
+    ('Are you willing to undergo pre-employment drug and alcohol screening?', 'answers.drug_and_alcohol_screening'),
+    ('Are you willing to undergo a pre-employment medical check?', 'answers.pre_employment_medical'),
+    ('Are you willing to relocate for this role?', 'answers.willing_to_relocate'),
+    ('Are you available to work FIFO / DIDO contracts?', 'answers.willing_to_travel_or_fifo'),
+    ('Do you have experience in a FIFO/DIDO role?', 'answers.experience_yes_no.anything else'),  # was willing_to_travel_or_fifo: Yes
+    ('Do you have mine site experience?', 'answers.experience_yes_no.anything else'),
+    ('Do you have Engineering Drawing Interpretation experience?', 'answers.experience_yes_no.engineering drawing interpretation'),
+    ('Do you have experience preparing and submitting tenders?', 'answers.experience_yes_no.preparing and submitting tenders'),
+    ('Have you completed a qualification in civil engineering?', 'answers.qualification_questions.civil engineering'),
+    ('Have you completed a qualification in engineering?', 'answers.qualification_questions.engineering'),
+    ('Have you completed a qualification in engineering drafting / engineering design?', 'answers.qualification_questions.engineering drafting or design'),
+    ('Have you completed a qualification in mechanical engineering?', 'answers.qualification_questions.any other named qualification'),  # was 'engineering': Yes
+    ('Have you completed a qualification in structural engineering?', 'answers.qualification_questions.any other named qualification'),
+    ('Which of the following best describes your highest qualification - relevant to the position of Structural Revit Drafter?', 'answers.qualification_questions.any other named qualification'),  # was software
+    ('Do you have a current Working With Children (WWC) Check?', 'answers.qualification_questions.any other named qualification'),
+    ("How many years' experience do you have as a civil engineer?", 'answers.years_of_experience.civil engineer, site engineer, project engineer, construction industry'),
+    ("How many years' experience do you have as a Civil Site Engineer?", 'answers.years_of_experience.civil engineer, site engineer, project engineer, construction industry'),
+    ("How many years' experience do you have in the construction industry?", 'answers.years_of_experience.civil engineer, site engineer, project engineer, construction industry'),
+    ("How many years' experience do you have as a civil drafter?", 'answers.years_of_experience.drafter, draftsperson, designer, CAD'),
+    ('How many years experience in Civil Engineering Design do you have?', 'answers.years_of_experience.drafter, draftsperson, designer, CAD'),  # design, not eleven months as an engineer
+    ("How many years' experience do you have as a Civil Engineering Technician?", 'answers.years_of_experience.laboratory, materials testing, technician, estimator, project coordinator, project management, any other role'),
+    ("How many years' experience do you have as an Engineering Cadet?", 'answers.years_of_experience.laboratory, materials testing, technician, estimator, project coordinator, project management, any other role'),
+    ("How many years' experience do you have as a Civil Estimator?", 'answers.years_of_experience.laboratory, materials testing, technician, estimator, project coordinator, project management, any other role'),
+    ('Which of the following CAD software do you have experience with?', 'answers.software.CAD'),
+    ('Do you have experience using Bluebeam?', 'answers.software.other'),
+    ('Do you have experience using "Expert Estimation" and MS Project?', 'answers.software.other'),
+    ('Do you currently reside in Australia?', 'identity.location'),
+    ('Do you live in Perth?', 'identity.location'),
+    ('Preferred Name', 'identity.short_name'),
+    ('Are you currently studying?', 'answers.currently_studying'),
+]
+ASK = [
+    'Will you require visa sponsorship in the future?',  # was right_to_work, settled
+    'Do you have experience working on civil infrastructure projects?',
+    'How many years of civil infrastructure construction experience do you have, and which of the following have you personally overseen or certified: bulk earthworks, rail formation, reinforced concrete bridges and box culverts?',
+    'How many years of Infrastructure Civil Engineering experience do you have?',
+    'I acknowledge that all information I provided in this application is true and correct to the best of my knowledge and that any incorrect or misleading information may lead to disqualification, or if appointed, to termination of Employment?',  # was qualification_questions ('disqualification')
+    'Do you agree with the privacy policy?',
+    "What's your expected hourly rate?",  # was expected_salary: the standing answer is an annual band
+    'What is your current rate and what are you looking for?',
+    'How far are you willing to travel for work?',  # was willing_to_travel_or_fifo: 'Yes' is not a distance
+    'How many years post grad are you?',  # was years_of_experience: 'lowest option (no paid role)'
+    "How many years' experience do you have in your current occupation?",
+    'Please specify the number of years of relevant experience you have:',
+    'Tell us about yourself, your degree and what led you to study engineering.',  # was qualification_questions
+    'Can you outline your direct experience in road design and usage as a user of 12D?',  # was software
+    'Are you a current member of Engineers Australia?',
+    'Have you completed a Bachelor of Engineering that is accredited by Engineers Australia?',
+    'Are you able to obtain a National Police Check and other related security clearances required for this role?',  # was police_check
+    'Do you hold Australian Security Clearance?',
+    'Do you have a valid WA drivers licence?',  # was drivers_licence: his licence is Victorian
+    'How would you rate your English language skills?',
+    'Do you have experience using Microsoft Excel?',
+    'Which of the following types of infrastructure project do you have experience with?',
+    'Do you own a suitable Personal Protective Equipment or PPE (safety boots, 100% cotton sleeved shirt, 100% cotton long trouser and Hard Hat with brim attachment)?',
+    'Which role are you applying for?',
+    'What is your gender? Male Female',
+    'If you are on a Visa, please indicate your Visa number (eg. 190, 485) and the expiry date.',
+]
+
+
+class GateFailsClosed(unittest.TestCase):
+    """P2-2: the standing-answer gate cleared questions that facts.json leaves open or has no line for."""
+
+    def test_the_questions_the_review_found_cleared(self):
+        for lines in (OLDER, NEWER):
+            with facts_answers(lines):
+                key, problem = checks.standing_answer('Will you require visa sponsorship in the future?')
+                self.assertEqual(key, 'future_visa_sponsorship'); self.assertTrue(problem)
+                self.assertEqual(checks.standing_answer('Do you require sponsorship to work in Australia?'), ('right_to_work', None))  # now, not later: no
+                key, problem = checks.standing_answer('Do you have experience in a FIFO/DIDO role?')
+                self.assertEqual((key, problem), ('experience_yes_no', None))
+                self.assertEqual(checks.standing_line('Do you have experience in a FIFO/DIDO role?')[1], checks.ANSWERS['experience_yes_no']['anything else'])  # not the 'Yes' of willing_to_travel_or_fifo
+                key, problem = checks.standing_answer('Do you have experience in civil infrastructure?')
+                self.assertEqual(key, 'experience_yes_no'); self.assertIn('civil infrastructure projects is not confirmed', problem)
+                basis, line, problem = checks.standing_line("Do you have a heavy vehicle driver's licence?")
+                self.assertEqual((basis, problem), ('answers.qualification_questions.any other named qualification', None)); self.assertIn('otherwise No', line)
+                self.assertEqual(checks.standing_answer('I acknowledge that all information I provided is true and correct and that misleading information may lead to disqualification?')[0], 'declarations_and_consents')
+                rec = publish.build_record('r1', *pack('SEEK', SEEK_QUESTIONS + ['Will you require visa sponsorship in the future?', 'Do you have experience in a FIFO/DIDO role?',
+                                                                               'Do you have experience in civil infrastructure?']))
+                self.assertEqual(rec['status'], 'ASK_OWNER')  # it was READY_SEEK with no ask_owner under both states of facts.json
+                self.assertEqual([a['question'] for a in rec['ask_owner']['questions']], ['Will you require visa sponsorship in the future?', 'Do you have experience in civil infrastructure?'])
+
+    def test_licence_questions_follow_what_the_licence_line_says(self):
+        open_licence, manual = "Do you hold a current open driver's licence?", 'Are you licenced to drive a manual vehicle?'
+        with facts_answers(OLDER):  # full or probationary, manual or automatic: not confirmed
+            for question in (open_licence, "Do you hold a full, unrestricted driver's licence?", 'Do you hold a provisional (P plate) licence?', manual, "Do you hold a current manual driver's licence?"):
+                key, problem = checks.standing_answer(question)
+                self.assertEqual(key, 'drivers_licence', question); self.assertTrue(problem, question)
+            self.assertEqual(checks.standing_answer("Do you have a current Australian driver's licence?"), ('drivers_licence', None))
+        with facts_answers(NEWER):  # full licence confirmed; automatic
+            self.assertEqual(checks.standing_answer(open_licence), ('drivers_licence', None))
+            self.assertEqual(checks.standing_line(manual), ('answers.manual_licence', 'No (automatic)', None))
+        for lines in (OLDER, NEWER):  # his licence is Victorian: another state's licence is the owner's call
+            with facts_answers(lines):
+                for question in ('Do you have a valid WA drivers licence?', "Do you hold a current Queensland driver's licence?", 'Current NSW Class C Driver’s Licence'):
+                    self.assertTrue(checks.standing_answer(question)[1], question)
+
+    def test_every_line_of_facts_answers_has_a_rule(self):
+        lines = {k for k in common.FACTS['answers'] if not k.startswith('_')}
+        self.assertEqual(sorted(lines - checks.rule_keys()), [])
+        self.assertLessEqual(set(NEWER), checks.rule_keys())  # the orchestrator's newer keys
+        self.assertLessEqual(set(checks.LOOKUPS), checks.rule_keys())
+
+    def test_real_questions_reach_the_right_line_or_the_owner(self):
+        self.assertGreaterEqual(len(SETTLED) + len(ASK), 60)
+        for lines in (OLDER, NEWER):
+            with facts_answers(lines):
+                for question, basis in SETTLED:
+                    self.assertEqual(checks.standing_line(question)[::2], (basis, None), question)
+                    self.assertTrue(checks.standing_line(question)[1], question)
+                for question in ASK:
+                    self.assertTrue(checks.standing_line(question)[2], question)
+                self.assertEqual([u['question'] for u in checks.unanswered_questions([q for q, _ in SETTLED] + ASK)], ASK)
+
+    def test_the_listed_questions_really_are_in_the_run_folders(self):
+        seen = set()
+        for path in (HERE.parent / 'runs').glob('*/candidates*.json'):
+            try:
+                data = json.loads(path.read_text(encoding='utf-8'))
+            except ValueError:
+                continue
+            for cand in (data.get('candidates') if isinstance(data, dict) else None) or []:
+                seen.update(' '.join(q.split()) for q in cand.get('screening_questions') or [] if isinstance(q, str))
+        if not seen:
+            self.skipTest('run folders are not in this checkout')
+        self.assertEqual([q for q in [q for q, _ in SETTLED] + ASK if q not in seen], [])
+
+    def test_a_named_line_is_matched_by_what_it_names_not_by_a_word_inside_another(self):
+        line = lambda question: checks.standing_line(question)[1]
+        self.assertTrue(line('Have you completed a qualification in civil engineering?').startswith('Yes: Bachelor'))
+        self.assertTrue(line('Do you hold a Bachelor’s degree in civil engineering or an equivalent qualification?').startswith('Yes: Bachelor'))
+        self.assertTrue(line('Have you completed a qualification in engineering drafting / engineering design?').startswith('Yes: Advanced Diploma'))
+        for field in ('mechanical engineering', 'structural engineering', 'engineering - fabrication', 'environmental engineering', 'construction management'):
+            self.assertIn('otherwise No', line(f'Have you completed a qualification in {field}?'), field)  # 'engineering: Yes' is not the answer
+        self.assertIn('11 months', line("How many years' experience do you have as a civil engineer?"))
+        for role in ('Civil Engineering Technician', 'Engineering Cadet', 'structural engineer', 'Civil Estimator'):
+            self.assertIn('lowest option', line(f"How many years' experience do you have as a {role}?"), role)
+            self.assertNotIn('11 months', line(f"How many years' experience do you have as a {role}?"), role)
+        self.assertIn('lowest option', line('How many years experience in Civil Engineering Design do you have?'))
+        self.assertIn('Never tick 12d', line('Which of the following CAD software do you have experience with?'))
+        self.assertEqual(line('Do you have experience using Bluebeam?'), checks.ANSWERS['software']['other'])
+
+    def test_a_standing_yes_or_a_months_claim_never_lands_on_a_question_that_asks_something_else(self):
+        # Found while fixing: 'Yes, current National Police Certificate' is not the answer to 'Do you have a criminal record?'.
+        for trap in ('Do you have a criminal record?', 'Do you have any criminal convictions?', 'Do you use drugs?', 'Have you used illicit drugs in the last six months?',
+                     "Have you ever had your driver's licence suspended?", "Do you have any demerit points on your driver's licence?", 'Has your White Card ever been cancelled?',
+                     'Is there any reason you could not pass a pre-employment medical?', 'Have you ever been dismissed from a job?', 'Are you able to perform manual handling tasks?',
+                     "How many years' experience do you have as a civil engineer in Australia?"):
+            key, problem = checks.standing_answer(trap)
+            self.assertIsNone(key, trap); self.assertTrue(problem, trap)
+        for question, key in (('Are you willing to undertake Criminal History Screening?', 'police_check'), ('Are you willing to complete a Police Check?', 'police_check'),
+                              ('Are you willing to undergo a Pre-Employment Drug & Alcohol Screen?', 'drug_and_alcohol_screening'), ('Are you willing to undergo a drug test?', 'drug_and_alcohol_screening')):
+            self.assertEqual(checks.standing_answer(question), (key, None), question)
+        line = lambda question: checks.standing_line(question)[1]
+        yes_or_no = checks.ANSWERS['experience_yes_no']['anything else']
+        self.assertEqual(line('Do you have Engineering Drawing Interpretation experience?'), 'Yes')
+        for more in ('Do you have 3+ years of Engineering Drawing Interpretation experience?', 'Do you have at least 2 years experience carrying out site inspections?',
+                     'Do you have Engineering Drawing Interpretation experience in Australia?', 'Do you have extensive experience preparing and submitting tenders?'):
+            self.assertEqual(line(more), yes_or_no, more)  # the catch-all: yes only if a line of his history supports it
+        self.assertIn('otherwise No', line("Do you hold an Australian Bachelor's degree in civil engineering?"))
+        self.assertIn('otherwise No', line('Have you completed a qualification in civil engineering with honours?'))
+        for plain in ('civil engineer', 'Civil Site Engineer', 'Assistant Civil Engineer', 'Junior Project Engineer', 'Construction Site Engineer'):
+            self.assertIn('11 months', line(f"How many years' experience do you have as a {plain}?"), plain)
+        for other in ('Rail Project Engineer', 'Senior Site Engineer', 'Structural Civil Engineer', 'Structural Site Engineer', 'Water and Wastewater Engineer'):
+            self.assertIn('lowest option', line(f"How many years' experience do you have as a {other}?"), other)  # no paid role of that kind
+        self.assertIn('11 months', line('How many years of Site Engineering experience do you have?'))
+        self.assertIn('11 months', line('How many years of experience do you have in the Civil Engineering Industry?'))
+
+    def test_one_new_line_in_facts_settles_its_questions(self):
+        for question, key, answer in [("What's your expected hourly rate?", 'expected_hourly_rate', '35 to 40 dollars an hour'),
+                                      ('Do you agree with the privacy policy?', 'declarations_and_consents', 'Yes'),
+                                      ('How would you rate your English language skills?', 'english_self_rating', 'Fluent'),
+                                      ('Do you have a valid WA drivers licence?', 'interstate_drivers_licence', 'No: Victorian licence, valid for driving in every state')]:
+            self.assertIn(key, checks.standing_answer(question)[1] or '', question)
+            with mock.patch.dict(checks.ANSWERS, {key: answer}):
+                self.assertEqual(checks.standing_line(question), ('answers.' + key, answer, None), question)
+        with mock.patch.dict(checks.ANSWERS, {'experience_yes_no': {**checks.ANSWERS['experience_yes_no'], 'mine site': 'Not on record: skip and report'}}):
+            self.assertIn('mine site is not confirmed', checks.standing_answer('Do you have mine site experience?')[1])
+
+
+class AnswersOnTheRecord(unittest.TestCase):
+    """P2-3: a READY record carried the drafter's answers unchecked ('Yes' to citizenship, '3 years', '$95k', 'Marc to confirm')."""
+    WRONG = [{'question': "How many years' experience do you have as a civil drafter?", 'answer': '3 years'},
+             {'question': 'Which of the following statements best describes your right to work in Australia?', 'answer': 'Yes'},
+             {'question': "What's your expected annual base salary?", 'answer': '$95k'},
+             {'question': "Do you have a current Australian driver's licence?", 'answer': 'Marc to confirm'}]
+
+    def test_a_ready_record_carries_the_lines_of_facts_json_not_the_drafters_answers(self):
+        out, records = build_run({'x': pack('SEEK', screening_answers=self.WRONG)})
+        self.assertEqual(([b[3] for b in out['built']], out['rejected']), (['READY_SEEK'], []))
+        answers = records[0]['screening_answers']
+        self.assertEqual([a['question'] for a in answers], SEEK_QUESTIONS)  # every form question, in the advert's order
+        for a in answers:
+            self.assertEqual((a['basis'], a['answer']), checks.standing_line(a['question'])[:2], a['question'])
+            self.assertEqual(checks.line_text(checks.fact_at(a['basis'])), a['answer'])
+        text = json.dumps(answers)
+        for wrong in ('3 years', '$95k', 'Marc to confirm', '"answer": "Yes"'):
+            self.assertNotIn(wrong, text)
+        by_question = {a['question']: a for a in answers}
+        self.assertIn('Never choose: Australian citizen', by_question[SEEK_QUESTIONS[0]]['answer'])
+        self.assertEqual(by_question[SEEK_QUESTIONS[0]]['basis'], 'answers.right_to_work')
+        self.assertIn('lowest option', by_question[SEEK_QUESTIONS[1]]['answer'])
+        self.assertIn('$65,000 to $75,000', by_question[SEEK_QUESTIONS[4]]['answer'])
+        self.assertEqual(checks.record_issues({**records[0], 'attachments': ATTACHED}, require_uploaded=False), [])
+
+    def test_the_record_check_refuses_an_answer_that_is_not_the_standing_line(self):
+        rec = {**publish.build_record('r1', *pack('SEEK')), 'attachments': ATTACHED}
+        self.assertEqual(checks.record_issues(rec, require_uploaded=False), [])
+        edited = [dict(a) for a in rec['screening_answers']]
+        edited[0]['answer'] = 'Australian citizen'
+        issues = checks.record_issues({**rec, 'screening_answers': edited}, require_uploaded=False)
+        self.assertTrue(any('form answer is not the standing answer in facts.json' in i and 'best describes your right' in i for i in issues))
+        moved = [dict(a) for a in rec['screening_answers']]
+        moved[1]['basis'] = 'answers.years_of_experience.civil engineer, site engineer, project engineer, construction industry'  # eleven months claimed for a drafter question
+        self.assertTrue(any('not the standing answer' in i for i in checks.record_issues({**rec, 'screening_answers': moved}, require_uploaded=False)))
+        typed = rec['screening_answers'] + [{'question': 'Are you an Australian citizen or permanent resident?', 'answer': 'Yes'}]
+        issues = checks.record_issues({**rec, 'screening_answers': typed}, require_uploaded=False)
+        self.assertTrue(any('carries a form answer that is not from facts.json' in i for i in issues))
+        old_style = {**rec, 'screening_answers': self.WRONG}  # a record made before this change
+        self.assertTrue(any('not from facts.json' in i for i in checks.record_issues(old_style, require_uploaded=False)))
+        asked = {**rec, 'advert': {**rec['advert'], 'screening_questions': SEEK_QUESTIONS + ['How would you rate your English language skills?']}}
+        self.assertTrue(any('READY_SEEK record has a form question with no standing answer (it must be ASK_OWNER)' in i for i in checks.record_issues(asked, require_uploaded=False)))
+
+    def test_written_answers_that_contradict_facts_fail_the_draft_check(self):
+        def issues(question, answer, **extra):
+            return checks.draft_issues({'screening_answers': [{'question': question, 'answer': answer}], **extra})
+        for question, answer, needle in [
+                ("How many years' experience do you have as a civil drafter?", '3 years', 'gives "3 years" where facts.json -> answers -> years_of_experience says'),
+                ("How many years' experience do you have as a civil engineer?", 'About 1 year on site in the Philippines', 'gives "1 year"'),
+                ('How many years experience in Civil Design do you have?', 'Several years of design work', 'gives "Several years"'),
+                ("What's your expected annual base salary?", '$95k', 'salary figure $95k is outside the standing band $65,000 to $75,000'),
+                ("What's your expected annual base salary?", '$35 an hour', 'hourly or daily figure ($35)'),
+                ("Do you have a current Australian driver's licence?", 'Marc to confirm', 'is a placeholder, not an answer'),
+                ('How much notice are you required to give your current employer?', 'MARC TO ANSWER (no notice period on record).', 'is a placeholder, not an answer'),
+                ('How much notice are you required to give your current employer?', "None, I'm ready to go now", 'does not give the standing answer in facts.json -> answers -> notice_period: 2 weeks'),
+                ('Are you an Australian citizen or permanent resident?', 'Yes', 'says yes to a question that claims citizenship'),
+                ('Do you have experience using 12d?', 'Yes', 'says yes to software not in facts: 12d'),
+                ('Are you registered as a Registered Professional Engineer of Queensland (RPEQ)?', 'Yes', 'says yes to a question that claims a professional registration'),
+                ('Do you have experience preparing and submitting tenders?', 'Yes', 'says yes where facts.json -> answers -> experience_yes_no says: No'),
+                ('Are you currently studying?', 'Yes, part time', 'says yes where facts.json -> answers -> currently_studying says: No'),
+                ('Do you hold a Construction Induction Safety certificate (White Card)?', 'No', 'says no where facts.json -> answers -> white_card says: Yes'),
+                ('Do you own or have regular access to a car?', 'I have no car at the moment', 'says no where facts.json -> answers -> own_car_or_regular_access says: Yes')]:
+            self.assertTrue(any(needle in i for i in issues(question, answer)), (question, answer, issues(question, answer)))
+        for question, answer in [("How many years' experience do you have as a civil engineer?", 'Less than 1 year (11 months on site, April 2019 to February 2020)'),
+                                 ("How many years' experience do you have as a civil drafter?", '0 to 1 years'),
+                                 ("What's your expected annual base salary?", '$70,000'), ("What's your expected annual base salary?", '$65,000 to $75,000'),
+                                 ('How much notice are you required to give your current employer?', 'Two weeks'),
+                                 ('Do you have any experience using Revit, AutoCAD, 12D?', 'Yes'),  # true: Revit and AutoCAD
+                                 ('Do you have the right to work in Australia? Please note if you are an Australian citizen / permanent resident or NZ citizen you should answer YES to this question.', 'Yes'),
+                                 ('Do you have experience preparing and submitting tenders?', 'No'), ("Do you have a current Australian driver's licence?", 'Yes'),
+                                 ("Do you have a current Australian driver's licence?", "I hold a current Victorian driver's licence."),
+                                 ('Are you an Australian citizen or permanent resident?', 'No'),
+                                 ('What is your current working rights status in Australia?', 'I hold a Subclass 485 Temporary Graduate visa with full working rights. No sponsorship needed.')]:
+            self.assertEqual(issues(question, answer), [], (question, answer))
+        # The advert's own figure may be given when the draft carries the advert's pay text.
+        self.assertEqual(issues("What's your expected annual base salary?", '$80,000', advert_pay='$80,000 to $115,000 plus super'), [])
+        self.assertTrue(issues("What's your expected annual base salary?", '$95,000', advert_pay='$80,000 to $115,000 plus super'))
+
+    def test_an_open_question_keeps_the_drafters_proposal_for_the_owner_and_a_placeholder_is_dropped(self):
+        why = 'What interests you about joining STP Consultants.'
+        given = [{'q': why, 'a': 'Your subdivision and road design work in Perth is the work my Advanced Diploma trained me for.'},
+                 {'q': 'How would you rate your English language skills?', 'a': '[Marc to confirm]'},
+                 {'q': "How many years' experience do you have as a civil drafter?", 'a': '3 years'}]
+        rec = publish.build_record('r1', *pack('SEEK', screening_answers=given))
+        self.assertEqual(rec['status'], 'ASK_OWNER')
+        by_question = {a['question']: a for a in rec['screening_answers']}
+        self.assertEqual(by_question[why], {'question': why, 'draft_answer': given[0]['a']})
+        self.assertEqual(by_question['How would you rate your English language skills?'], {'question': 'How would you rate your English language skills?'})
+        self.assertEqual(by_question[given[2]['q']]['basis'], 'answers.years_of_experience.drafter, draftsperson, designer, CAD')
+        self.assertEqual(checks.record_issues({**rec, 'attachments': ATTACHED}, require_uploaded=False), [])
+        # A proposal is still text written for him: it is checked like any other.
+        bad = publish.build_record('r1', *pack('SEEK', screening_answers=[{'q': why, 'a': 'I have not used 12d yet, but I am eager to learn.'}]))
+        self.assertTrue(any('"have not"' in i for i in checks.record_issues({**bad, 'attachments': ATTACHED}, require_uploaded=False)))
+
+    def test_an_email_application_carries_no_form_answers(self):
+        rec = publish.build_record('r1', *pack('EMAIL', SEEK_QUESTIONS, screening_answers=self.WRONG))
+        self.assertEqual((rec['status'], rec['screening_answers']), ('PREPARED_NOT_SENT', []))
+
+    def test_an_answer_with_a_basis_must_agree_with_that_line(self):
+        entry = {'questions': [{'question': "Do you have a current Australian driver's licence?", 'options': [], 'answer': 'Yes', 'basis': 'answers.drivers_licence', 'status': 'answered'},
+                               {'question': "What's your expected annual base salary?", 'answer': checks.line_text(checks.ANSWERS['expected_salary']), 'basis': 'answers.expected_salary'},
+                               {'question': 'How would you rate your English language skills?', 'options': [], 'answer': '', 'basis': '', 'status': 'unanswered'}]}
+        self.assertEqual(checks.draft_issues(entry), [])
+        entry['questions'][0]['answer'] = 'No'
+        self.assertTrue(any('contradicts facts.json -> answers.drivers_licence' in i for i in checks.draft_issues(entry)))
+        entry['questions'][0].update(answer='Yes', basis='answers.forklift_licence')
+        self.assertTrue(any('names a basis that is not in facts.json' in i for i in checks.draft_issues(entry)))
+        self.assertEqual(checks.fact_at('answers.software.CAD'), checks.ANSWERS['software']['CAD']); self.assertIsNone(checks.fact_at('answers.software.Tekla')); self.assertIsNone(checks.fact_at(''))
+
+
+class Routes(unittest.TestCase):
+    """P2-4: an email draft with no contacts file was published as READY_SEEK for an advert that is not on SEEK."""
+
+    def employer_site_draft(self, **draft_extra):
+        cand, screen, contact, draft = pack('EMAIL', [])
+        cand.update(source='employer site', seek_id=None, url='https://pcpsolutions.example/careers/junior-drafter')
+        screen['apply_instructions'] = 'Email your resume to admin@pcpsolutions.example'
+        draft.update(recipient_email='admin@pcpsolutions.example', recipient_role='Office', contact_evidence_url='https://pcpsolutions.example/careers/junior-drafter', **draft_extra)
+        return cand, screen, draft
+
+    def test_an_email_draft_with_no_published_address_is_rejected_never_moved_to_seek(self):
+        cand, screen, draft = self.employer_site_draft()
+        for contact in (None, {'contact_confidence': 'none'}, {'contact_confidence': 'guessed', 'recipient_email': 'admin@pcpsolutions.example'}):
+            out, records = build_run({'pcp': (cand, screen, contact, draft)})
+            self.assertEqual((out['built'], records), ([], []), contact)  # it was built as READY_SEEK, route SEEK, with a non-SEEK job_url
+            self.assertEqual(out['rejected'][0]['status'], 'PREPARED_NOT_SENT')
+            self.assertIn('recipient is neither a published direct contact nor a published application inbox', out['rejected'][0]['issues'])
+        published = {'contact_confidence': 'published_inbox', 'recipient_email': 'admin@pcpsolutions.example', 'recipient_role': 'Office', 'contact_evidence_url': 'https://pcpsolutions.example/careers/junior-drafter'}
+        out, records = build_run({'pcp': (cand, screen, published, draft)})
+        self.assertEqual([b[3] for b in out['built']], ['PREPARED_NOT_SENT']); self.assertEqual(records[0]['application_route'], 'EMAIL')
+        self.assertEqual(records[0]['recipient_email'], 'admin@pcpsolutions.example')
+
+    def test_an_address_other_than_the_one_the_employer_publishes_is_not_a_published_address(self):
+        cand, screen, draft = self.employer_site_draft(recipient_name='Sam Lee')
+        published = {'contact_confidence': 'published_inbox', 'recipient_email': 'careers@pcpsolutions.example', 'recipient_role': 'Careers inbox', 'contact_evidence_url': 'https://pcpsolutions.example/careers'}
+        out, records = build_run({'pcp': (cand, screen, published, draft)})  # the draft writes to admin@, the research found careers@
+        self.assertEqual(records, []); self.assertIn('recipient is neither a published direct contact nor a published application inbox', out['rejected'][0]['issues'])
+        out, records = build_run({'pcp': (cand, screen, published, {**draft, 'recipient_email': 'Careers@PCPsolutions.example'})})
+        self.assertEqual([b[3] for b in out['built']], ['PREPARED_NOT_SENT'])
+
+    def test_a_draft_with_no_route_goes_by_its_address_or_its_seek_job_or_nowhere(self):
+        cand, screen, draft = self.employer_site_draft(route=None)
+        self.assertEqual(publish.route_status(draft, None, cand), ('PREPARED_NOT_SENT', 'EMAIL'))  # it carries an address: an email application
+        out, _ = build_run({'pcp': (cand, screen, None, draft)})
+        self.assertIn('recipient is neither a published direct contact nor a published application inbox', out['rejected'][0]['issues'])
+        with self.assertRaisesRegex(ValueError, 'names no route .* not a SEEK job'):
+            publish.route_status({**draft, 'recipient_email': ''}, None, cand)
+        out, records = build_run({'pcp': (cand, screen, None, {**draft, 'recipient_email': ''})})
+        self.assertEqual(records, []); self.assertIn('names no route', out['rejected'][0]['issues'][0])
+        seek_cand = pack('SEEK')[0]
+        self.assertEqual(publish.route_status({'route': None}, None, seek_cand), ('READY_SEEK', 'SEEK'))
+        self.assertEqual(publish.route_status({'route': ' '}, None, {'url': 'https://au.seek.com/job/95900020?ref=x'}), ('READY_SEEK', 'SEEK'))
+
+    def test_only_the_four_route_names_are_taken(self):
+        seek_cand = pack('SEEK')[0]
+        for route in ('SEEK quick apply', 'SEEK link-out to the council careers portal', 'Employer portal (iCIMS req 9300)', 'PHONE', 'EMAIL or SEEK'):  # the first three are in real drafts
+            with self.assertRaisesRegex(ValueError, 'is not one of EMAIL, SEEK, EMPLOYER_PORTAL, EMPLOYER_FORM'):
+                publish.route_status({'route': route}, None, seek_cand)
+            out, records = build_run({'x': pack(route)})
+            self.assertEqual(records, []); self.assertIn(repr(route), out['rejected'][0]['issues'][0])
+        for route, status in (('seek', 'READY_SEEK'), ('employer_portal', 'READY_EMPLOYER_PORTAL'), ('EMPLOYER_FORM', 'READY_EMPLOYER_FORM'), (' email ', 'PREPARED_NOT_SENT')):
+            self.assertEqual(publish.route_status({'route': route}, None, seek_cand)[0], status)
+
+    def test_route_seek_needs_a_seek_job(self):
+        cand, screen, draft = self.employer_site_draft(route='SEEK')
+        with self.assertRaisesRegex(ValueError, 'route SEEK needs a SEEK job'):
+            publish.route_status(draft, None, cand)
+        self.assertEqual(publish.route_status({**draft, 'route': 'EMPLOYER_PORTAL'}, None, cand), ('READY_EMPLOYER_PORTAL', 'EMPLOYER_PORTAL'))
+        self.assertTrue(publish.on_seek({'seek_id': '95900020', 'source': 'seek'}, {})); self.assertTrue(publish.on_seek({}, {'job_url': 'https://www.seek.com.au/job/95900020'}))
+        self.assertFalse(publish.on_seek({'seek_id': 'pcp', 'source': 'employer site', 'url': 'https://pcpsolutions.example/careers'}, {}))
+
+
+class ReviewMinorFindings(unittest.TestCase):
+    def test_the_channel_of_a_record_is_its_route_not_its_status(self):  # P2-5
+        rec = {**publish.build_record('r1', *pack('EMAIL', [])), 'attachments': ATTACHED}
+        for status in ('PREPARED_NOT_SENT', 'SENDING', 'SENT', 'SEND_UNCERTAIN', 'DELIVERY_FAILED'):
+            self.assertEqual(checks.record_issues({**rec, 'status': status}, require_uploaded=False), [], status)  # SENDING gave a false 'one channel' issue
+        blank = {**rec, 'status': 'SENDING', 'recipient_email': '', 'contact_confidence': 'none', 'contact_evidence_url': ''}
+        issues = checks.record_issues(blank, require_uploaded=False)
+        for needle in ('missing recipient_email', 'missing contact_evidence_url', 'recipient is neither a published direct contact nor a published application inbox'):
+            self.assertIn(needle, issues)  # these checks were skipped once the status was SENDING
+        self.assertFalse(any('one channel' in i for i in issues))
+        for status in ('READY_SEEK', 'READY_JEREMIE_SEEK', 'READY_EMPLOYER_PORTAL'):  # a READY record that carries an email: the retired double touch
+            self.assertTrue(any('one channel' in i for i in checks.record_issues({**rec, 'status': status}, require_uploaded=False)), status)
+        no_route = {k: v for k, v in rec.items() if k != 'application_route'}  # an older record without the field
+        self.assertEqual(checks.record_issues({**no_route, 'status': 'SENT'}, require_uploaded=False), [])
+        self.assertIn('missing recipient_email', checks.record_issues({**no_route, 'recipient_email': ''}, require_uploaded=False))
+
+    def test_a_queue_entry_that_asks_in_one_line_of_text_does_not_crash_the_record_check(self):
+        entry = {'company': 'Griffith City Council', 'role': 'Graduate Traffic and Design Engineer', 'status': 'ASK_OWNER', 'route': 'EMPLOYER_PORTAL',
+                 'ask_owner': 'Griffith City Council asks for an engineering degree acceptable to Engineers Australia: is yours?', 'questions': []}
+        issues = checks.record_issues(entry, require_uploaded=False)  # AttributeError before: 'str' object has no attribute 'get'
+        self.assertFalse(any('needs the question' in i for i in issues))
+        self.assertTrue(any('needs the question' in i for i in checks.record_issues({**entry, 'ask_owner': ''}, require_uploaded=False)))
+
+    def test_console_job_claims_worded_without_the_word_experience(self):  # P2-6
+        claim = 'presents the casual console operator job as civil experience (facts: it is current Australian work, nothing more)'
+        for bad in ('At bp I have gained hands-on site engineering experience since 2024.',
+                    'As a console operator I coordinate site works and inspect civil drainage installations.',
+                    'I work as a console operator, which has built my civil construction skills on Australian sites.',
+                    'My Australian work since May 2024 has given me experience on civil sites.',
+                    'Since May 2024 I have worked in Australia in a civil construction support role.',
+                    'My current job in Rockbank has given me construction site experience.',
+                    'I currently work in a design and drafting support role at Rampage Group.'):
+            self.assertIn(claim, checks.fact_issues(bad), bad)
+        for fine in ('Since May 2024 I have worked as a casual console operator at bp Rockbank alongside full-time study in the Advanced Diploma of Civil Construction Design.',
+                     'I have worked as a console operator at a service station since May 2024 while studying civil design.',
+                     'I bring site inspection experience from the Philippines and current Australian work as a console operator.',
+                     'I currently work as a casual console operator. My civil site experience is from 2019.',
+                     'I work casually at a service station in Rockbank while looking for my first civil drafting role in Australia.',
+                     'My current job is casual console operator work at bp Rockbank.',
+                     'I currently work casually as a console operator and want to return to site engineering.',
+                     'Since February 2024 I have designed road geometry, earthworks and stormwater drainage in the Advanced Diploma.',
+                     GOOD_EMAIL, '\n'.join(GOOD_LETTER)):
+            self.assertNotIn(claim, checks.fact_issues(fine), fine)
+
+    def test_duplicate_rule_blocks_where_the_record_does_not_say(self):  # P2-7
+        # 1. A SEEK link-out: the record's URL is the employer's page, its seek_id is the SEEK job.
+        idx = index({'company': 'Shire of Bramble', 'role': 'Technical Officer', 'status': 'READY_EMPLOYER_PORTAL', 'seek_id': '95900999', 'job_url': 'https://bramble.example/jobs/tech-officer'})
+        blocked, why, _ = dup({'company': 'Bramble Shire Council', 'title': 'Engineering Technical Officer', 'seek_id': '95900999', 'url': 'https://www.seek.com.au/job/95900999'}, idx)
+        self.assertTrue(blocked); self.assertIn('same SEEK job', why)
+        self.assertTrue(dup({'company': 'X', 'title': 'Y', 'url': 'https://au.seek.com/job/95900999'}, index({'company': 'Z', 'role': 'W', 'status': 'LEAD', 'seek_id': 95900999}))[0])
+        # 2. A receipt that does not name the role (a real entry of prior_outreach.json).
+        receipt = {'date': days_ago(24), 'company': 'Gamuda', 'role': 'employer portal application receipt (position name blank in the email)', 'gmail_message_id': 'g1'}
+        blocked, why, _ = dup({'company': 'Gamuda Australia', 'title': 'Graduate Engineer', 'seek_id': '95900998'}, index(receipts=[receipt]))
+        self.assertTrue(blocked); self.assertIn('does not say for which role', why)
+        blocked, _, notes = dup({'company': 'Gamuda Australia', 'title': 'Graduate Engineer', 'seek_id': '95900998'}, index(receipts=[{**receipt, 'date': days_ago(200)}]))
+        self.assertFalse(blocked); self.assertIn('role not recorded, outside the repeat block', notes[0])
+        for role, unknown in (('', True), ('email to workers@alphacps.example', True), ('graduate application via the employer portal (reply in thread)', True),
+                              ('Engineering Technician (employer portal application received)', False), ('Graduate Civil Engineer', False), ('Civil Engineering Opportunities', False)):
+            self.assertEqual(tracker.role_unknown(role), unknown, role)
+        # 3. A date the window cannot be measured from.
+        applied = {'company': 'Northgate Civil Design', 'role': 'Junior Civil Drafter', 'status': 'MANUAL_APPLIED'}
+        advert = DuplicateRule.ADVERT
+        day_first = TODAY - timedelta(days=1)
+        blocked, why, _ = dup(advert, index({**applied, 'applied_date': day_first.strftime('%d/%m/%Y')}))
+        self.assertTrue(blocked); self.assertIn(day_first.strftime('%Y-%m-%d'), why)  # read as text it looked older than the window
+        blocked, why, _ = dup(advert, index({**applied, 'applied_date': 'last Tuesday'}))
+        self.assertTrue(blocked); self.assertIn('date not readable', why)
+        self.assertFalse(dup(advert, index({**applied, 'applied_date': (TODAY - timedelta(days=200)).strftime('%d/%m/%Y')}))[0])
+        self.assertEqual([tracker.day(x) for x in ('2026-11-12', '2026-11-12T03:00:00.000Z', '12/11/2026', '1.2.2026', '', None, 'soon', '2026-13-45', '31/02/2026')],
+                         ['2026-11-12', '2026-11-12', '2026-11-12', '2026-02-01', '', '', None, None, None])
+        # A status typed by hand in another case is still a submission.
+        self.assertTrue(dup(advert, index({**applied, 'status': ' Sent ', 'sent_at': days_ago(3)}))[0])
+
+    def test_letter_shape_cannot_be_passed_by_formatting(self):  # P2-8
+        self.assertTrue(any('4 paragraphs' in i for i in checks.draft_issues({'letter': {'paragraphs': ['One.\n\nTwo.\n\nThree.\n\nFour.']}})))
+        self.assertTrue(any('5 paragraphs' in i for i in checks.draft_issues({'cover_letter_text': 'Para one.\nPara two.\nPara three.\nPara four.\nPara five.'})))
+        self.assertEqual(checks.draft_issues({'cover_letter_text': 'One.\n\nTwo, with\na line break.\n\nThree.'}), [])
+        self.assertEqual(checks.draft_issues({'letter': {'paragraphs': GOOD_LETTER}}), [])
+
+    def test_the_subject_of_a_queue_entry_email_is_checked(self):  # P2-8
+        entry = {'email': {'subject': 'Junior Drafter – application', 'body': 'Hello,\n\nShort note.\n\nMarc'}}
+        self.assertTrue(any(i.startswith('email subject banned character') for i in checks.draft_issues(entry)))
+        self.assertEqual(checks.draft_issues({'email': {'subject': 'Junior Drafter application, Marc Masarate', 'body': 'Hello,\n\nShort note.\n\nMarc'}}), [])
+        closing = checks.draft_issues({'letter': {'paragraphs': ['One.'], 'closing': 'Yours — Marc'}})  # the closing line is printed in the letter too
+        self.assertTrue(any(i.startswith('letter closing banned character') for i in closing))
+        self.assertEqual(checks.draft_issues({'letter': {'paragraphs': ['One.'], 'closing': 'Kind regards,'}}), [])
+
+    def test_the_visa_end_date_however_it_is_written(self):  # P2-8
+        for text in ('I hold a Subclass 485 visa valid through 2027.', 'My visa runs until 12/2027.', 'Full working rights until Dec. 2027.',
+                     'Full working rights until the end of 2027.', 'My 485 visa ends in December\n2027.', 'My visa expires in 2027.', 'I can work here through late 2027.'):
+            self.assertTrue(any('visa end date' in i for i in checks.tone_issues(text, 'letter')), text)
+            self.assertFalse(any('visa end date' in i for i in checks.tone_issues(text, 'letter', visa_asked=True)), text)
+        for text in (common.FACTS['eligibility']['work_rights_short'], 'I am applying through SEEK for your 2027 graduate intake.', 'I finished the Advanced Diploma in February 2026.',
+                     'Your 2027 program on the North East Link is why I am writing.'):
+            self.assertFalse(any('visa end date' in i for i in checks.tone_issues(text, 'letter')), text)
+
+    def test_limit_patterns_match_whole_words(self):  # P2-8
+        for fine in ('I have nothing but respect for your road projects.', 'I have noted your work on the Melton Highway upgrade.', 'Although it rained, the pour went ahead.',
+                     'Your notice says the role starts in January.'):
+            self.assertEqual([i for i in checks.tone_issues(fine, 'letter') if 'volunteers' in i], [], fine)
+        for bad, pattern in (('I have not used 12d.', 'have not'), ('Although I studied surveying, my design work is in Civil 3D.', 'although i'), ('I have not, so far, worked in a laboratory.', 'have not')):
+            self.assertTrue(any(f'"{pattern}"' in i for i in checks.tone_issues(bad, 'letter')), bad)
+
+    def test_an_end_row_written_with_another_case_or_a_space_is_still_checked(self):
+        with tempfile.TemporaryDirectory() as d, mock.patch.object(journal, 'JOURNAL', Path(d) / 'journal.jsonl'):
+            for stage in ('END', ' end', 'End '):
+                with self.assertRaises(ValueError):
+                    journal.note('r', stage=stage, new=2, held=1)  # it was written unchecked and then ignored by weekly
+            row = journal.note('r', stage=' END ', **END)
+            self.assertEqual(row['stage'], 'end'); self.assertEqual(journal.weekly()[0]['applied'], END['applied'])
 
 
 if __name__ == '__main__':

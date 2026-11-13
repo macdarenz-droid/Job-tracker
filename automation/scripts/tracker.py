@@ -25,6 +25,10 @@ Duplicate rule (13 Nov 2026):
      employer is inside the window.
   4. A lead nobody submitted (LEAD, PREPARED_NOT_SENT, READY_*, HELD_*, ASK_OWNER, EXPIRED)
      blocks only its own advert (rule 1).
+  Where the record does not say, the rule blocks: an application whose role is not on record
+  ('employer portal application receipt', 'email to ...') counts as the same role, and a date
+  that cannot be read counts as inside the window. A record's seek_id field counts as its SEEK
+  id even when its job_url is the employer's own page (a SEEK link-out).
 """
 import argparse
 import hashlib
@@ -121,6 +125,33 @@ def same_role(a, b):
     return bool(short) and (a == b or (len(short) >= 2 and long[:len(short)] == short))
 
 
+# A role text that names no role: a receipt, or a note of how the application went in.
+NO_ROLE = re.compile(r'receipt|position name|unknown|not (stated|shown|given|named|recorded)|application (received|via)|^(e-?mail|portal|employer portal)\b', re.I)
+
+
+def role_unknown(title):
+    """True when an earlier application's role is not on record, so nobody can say a new advert is a different role."""
+    bare = re.sub(r'\(.*?\)', ' ', str(title or '')).strip()
+    return not role_words(bare) or bool(NO_ROLE.search(bare))
+
+
+def day(value):
+    """'YYYY-MM-DD' for an ISO date or timestamp, or for a day-first date as Australians write it
+    (12/11/2026); '' for no date; None for a date that cannot be read."""
+    text = str(value or '').strip()
+    if not text:
+        return ''
+    try:
+        if re.match(r'\d{4}-\d{2}-\d{2}', text):
+            return datetime.strptime(text[:10], '%Y-%m-%d').strftime('%Y-%m-%d')
+        m = re.fullmatch(r'(\d{1,2})[/.-](\d{1,2})[/.-](\d{4})', text)
+        if m:
+            return datetime(int(m.group(3)), int(m.group(2)), int(m.group(1))).strftime('%Y-%m-%d')
+    except ValueError:
+        pass
+    return None
+
+
 def record_date(r):
     for k in ('sent_at', 'applied_date', 'updated_at', 'checked_at', 'created_at'):
         v = r.get(k)
@@ -130,12 +161,12 @@ def record_date(r):
 
 
 def submitted_date(r):
-    """The day an application went in: sent_at or the applied date. Never the day the lead was made;
-    a submitted row with neither falls back to when it was last updated or checked."""
+    """The day an application went in, as written on the row: sent_at or the applied date. Never the day
+    the lead was made; a submitted row with neither falls back to when it was last updated or checked."""
     for k in ('sent_at', 'applied_date', 'applied_at', 'updated_at', 'checked_at'):
         v = r.get(k)
         if v:
-            return str(v)[:10]
+            return str(v)
     return ''
 
 
@@ -154,7 +185,7 @@ def dedupe_index(state):
     for e in prior_outreach():
         c = company_key(e.get('company'))
         if c:
-            idx['company'].setdefault(c, []).append({'status': 'MANUAL_APPLIED', 'submitted': True, 'date': str(e.get('date') or '')[:10], 'role': e.get('role', ''), 'key': 'seek-receipt:' + str(e.get('gmail_message_id', ''))})
+            idx['company'].setdefault(c, []).append({'status': 'MANUAL_APPLIED', 'submitted': True, 'date': str(e.get('date') or ''), 'role': e.get('role', ''), 'key': 'seek-receipt:' + str(e.get('gmail_message_id', ''))})
     for r in rows:
         for k in ('key', 'duplicate_key', 'origin_key'):
             if r.get(k):
@@ -167,10 +198,13 @@ def dedupe_index(state):
             idx['seek_ids'].add(uk[5:])
         elif uk:
             idx['url_keys'].add(uk)
+        if str(r.get('seek_id') or '').strip():  # a SEEK link-out: the record's URL is the employer's page, the advert is still this SEEK job
+            idx['seek_ids'].add(str(r['seek_id']).strip())
         c = company_key(r.get('company'))
         if c:
-            submitted = bool(SUBMITTED.match(str(r.get('status') or '')))
-            idx['company'].setdefault(c, []).append({'status': r.get('status', ''), 'submitted': submitted, 'date': submitted_date(r) if submitted else record_date(r),
+            status = str(r.get('status') or '').strip().upper()  # 'Sent' typed by hand is SENT
+            submitted = bool(SUBMITTED.match(status))
+            idx['company'].setdefault(c, []).append({'status': status, 'submitted': submitted, 'date': submitted_date(r) if submitted else record_date(r),
                                                      'role': r.get('role', ''), 'key': r.get('key') or r.get('id')})
     return idx
 
@@ -194,16 +228,21 @@ def check_duplicate(candidate, idx, repeat_block_days=None, today=None):
         if not prior.get('submitted'):
             notes.append(f"unsubmitted lead on file (does not block): {prior['role']} · {st}")
             continue
-        inside = not prior['date'] or prior['date'] >= cutoff
-        what = f"{prior['role']} · {st} · {prior['date'] or 'no date'}"
-        if same_role(prior['role'], role):
+        when = day(prior['date'])
+        inside = not when or when >= cutoff  # no date, or one that cannot be read, blocks
+        what = f"{prior['role'] or 'role not recorded'} · {st} · {when or (str(prior['date'])[:20] + ' (date not readable)' if prior['date'] else 'no date')}"
+        unknown = role_unknown(prior['role'])
+        same = unknown or same_role(prior['role'], role)
+        if same:
             if st in UNRESOLVED:
                 return True, f'an earlier send for this role at this employer is unresolved ({what}); reconcile it first', []
+            if inside and unknown:
+                return True, f'already applied to this employer and the record does not say for which role ({what}); repeat block is {days} days', []
             if inside:
                 return True, f'already applied for this role at this employer ({what}); repeat block is {days} days', []
         elif speculative and inside:
             return True, f'no speculative enquiry to an employer he applied to within {days} days ({what})', []
-        notes.append(f'applied before, {"same role, outside the repeat block" if same_role(prior["role"], role) else "different role, allowed"}: {what}')
+        notes.append(f'applied before, {"role not recorded" if unknown else "same role" if same else "different role, allowed"}{", outside the repeat block" if same else ""}: {what}')
     return False, 'new', list(dict.fromkeys(notes))
 
 

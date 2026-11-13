@@ -6,13 +6,19 @@ Usage:
   publish.py build RUN_ID [--only ID ...]     # drafts + screen + contacts → runs/RUN_ID/records.json (no uploads)
   publish.py go RUN_ID [--only ID ...]        # build, render PDFs, upload to R2, add to the tracker
 
-One application per advert, through the one channel the employer asks for. Status of a built record
-(names from config -> statuses):
-  PREPARED_NOT_SENT    route EMAIL and the employer publishes a direct address or an application inbox
+One application per advert, through the one channel the draft names in "route": EMAIL, SEEK,
+EMPLOYER_PORTAL or EMPLOYER_FORM. Any other route text is refused. A draft with no route goes by email
+when it carries a recipient_email, to SEEK when the advert is a SEEK job, and is refused otherwise; an
+email application is never turned into a SEEK one. Status of a built record (names from config -> statuses):
+  PREPARED_NOT_SENT    route EMAIL; refused unless the employer publishes the address (a direct contact or
+                       an application inbox, from the contacts file)
   READY_SEEK, READY_EMPLOYER_PORTAL, READY_EMPLOYER_FORM    the advert takes applications there; no email is added
   ASK_OWNER            a form question has no standing answer in facts.json -> answers, or the screen left a
                        mandatory fact unresolved; the record carries the question(s) in ask_owner and the
                        status it takes once they are answered
+Form answers on a record are the lines of facts.json -> answers, never the drafter's own wording: each is
+{question, answer, basis}. A question with no standing answer is kept as {question, draft_answer} on an
+ASK_OWNER record, so the owner sees what the drafter proposed.
 Records made before 13 Nov 2026 say READY_JEREMIE_*; common.canonical_status reads them as READY_*.
 An advert with an unmet mandatory requirement gets no record (config -> fit -> decisions: REJECT; there
 is no HELD state for new adverts, so the old `held` command is gone). Drafts that fail a check are
@@ -102,27 +108,70 @@ def load_run(run_id):
     return run, cands, screens, contacts, drafts
 
 
-def route_status(draft, contact):
-    """(status, route). SEEK, a portal or a form when the draft names one; EMAIL only with an address the
-    employer publishes; otherwise SEEK. Never two channels for one advert."""
-    conf = (contact or {}).get('contact_confidence') or 'none'
-    route = (draft.get('route') or '').upper()
-    email = draft.get('recipient_email') or (contact or {}).get('recipient_email') or ''
-    if route in READY:
-        return READY[route], route
-    if email and conf in ('published_direct', 'published_inbox'):
+def on_seek(cand, draft):
+    """True when the advert is a SEEK job: a SEEK id on a SEEK candidate, or a SEEK job URL."""
+    url = draft.get('job_url') or cand.get('url') or cand.get('job_url') or ''
+    return bool(cand.get('seek_id')) and (cand.get('source') or 'seek') == 'seek' or tracker.url_key(url).startswith('seek:')
+
+
+def route_status(draft, contact=None, cand=None):
+    """(status, route): the one channel this application goes through, taken from the draft's route.
+    Raises ValueError, which rejects the draft, when the route is not one of the four names, when a draft
+    with no route is neither an email application nor a SEEK advert, or when route SEEK has no SEEK job
+    behind it. An email application stays one: with no published address it fails the record check
+    ('recipient is neither a published direct contact nor a published application inbox'); it is never
+    sent to the SEEK queue instead."""
+    cand = cand or {}
+    route = str(draft.get('route') or '').strip().upper()
+    if not route:
+        route = 'EMAIL' if draft.get('recipient_email') else 'SEEK' if on_seek(cand, draft) else ''
+        if not route:
+            raise ValueError('draft names no route (EMAIL, SEEK, EMPLOYER_PORTAL or EMPLOYER_FORM) and the advert is not a SEEK job')
+    if route == 'EMAIL':
         return STATUSES['prepared'], 'EMAIL'
-    return READY['SEEK'], 'SEEK'
+    if route not in READY:
+        raise ValueError(f"draft route {draft.get('route')!r} is not one of EMAIL, SEEK, EMPLOYER_PORTAL, EMPLOYER_FORM")
+    if route == 'SEEK' and not on_seek(cand, draft):
+        raise ValueError('route SEEK needs a SEEK job: the advert has no SEEK id and no SEEK job URL')
+    return READY[route], route
 
 
-def owner_questions(cand, screen, draft, route):
-    """What only the owner can settle before this is submitted: mandatory facts the screen left unresolved and,
-    for SEEK, portal and form routes, form questions with no standing answer in facts.json -> answers."""
-    asks = [{'question': str(x), 'why': 'the advert makes this mandatory and facts.json does not settle it'} for x in screen.get('mandatory_unresolved') or []]
-    if route != 'EMAIL':
-        asks += checks.unanswered_questions(checks.form_questions({
-            'screening_questions': cand.get('screening_questions') or screen.get('screening_questions'), 'screening_answers': draft.get('screening_answers')}))
-    return asks
+def form_answers(cand, screen, draft, route):
+    """(answers, asks) for a SEEK, portal or form application. answers go on the record: for each form
+    question the line of facts.json -> answers as {question, answer, basis}, never what the draft wrote for
+    it; a question with no standing answer as {question, draft_answer} (the drafter's proposal, left out
+    when it is only a placeholder). asks: [{question, why}] for the owner. Raises ValueError when the
+    draft's answers are in a shape that cannot be read. An email application has no form."""
+    if route == 'EMAIL':
+        return [], []
+    given, unreadable = checks.answer_items(draft)
+    if unreadable:
+        raise ValueError(unreadable)
+    proposed = {item['question'].lower(): item['answer'] for item in given}
+    questions = list(dict.fromkeys(checks.form_questions({'screening_questions': cand.get('screening_questions') or screen.get('screening_questions'),
+                                                          'screening_answers': draft.get('screening_answers') or draft.get('questions')})))
+    asks = checks.unanswered_questions(questions)
+    is_open = {a['question'].lower() for a in asks}
+    answers, seen = [], set()
+    for question in questions:
+        text = ' '.join(question.split())
+        if text.lower() in seen:
+            continue
+        seen.add(text.lower())
+        if text.lower() not in is_open:
+            basis, line, _ = checks.standing_line(text)
+            answers.append({'question': text, 'answer': line, 'basis': basis})
+            continue
+        proposal = proposed.get(text.lower())
+        real = isinstance(proposal, str) and proposal.strip() and not checks.PLACEHOLDER.search(proposal) and not re.search(r'\[[^\]]*\]', proposal)
+        answers.append({'question': text, 'draft_answer': proposal.strip()} if real else {'question': text})
+    return answers, asks
+
+
+def owner_questions(screen, form_asks):
+    """What only the owner can settle before this is submitted: mandatory facts the screen left unresolved,
+    then the form questions with no standing answer in facts.json -> answers."""
+    return [{'question': str(x), 'why': 'the advert makes this mandatory and facts.json does not settle it'} for x in screen.get('mandatory_unresolved') or []] + form_asks
 
 
 COMMON_CALL_QUESTIONS = [
@@ -140,16 +189,19 @@ def how_found(cand, screen, contact, route):
     listed = (cand.get('listed_at') or '')[:10]
     expires = (cand.get('expires_at') or screen.get('expires_at') or '')[:10]
     parts = [f"Found on {'SEEK' if src == 'seek' else src} (listed {listed or 'date not shown'}{', closes ' + expires if expires else ''})."]
-    conf = (contact or {}).get('contact_confidence') or 'none'
+    contact = contact or {}
+    conf = contact.get('contact_confidence') or 'none'
     if route != 'EMAIL':
         parts.append({'SEEK': 'Applications go through SEEK', 'EMPLOYER_PORTAL': "Applications go through the employer's portal",
                       'EMPLOYER_FORM': "Applications go through the employer's web form"}[route] + ': submitted from the apply queue (automation/APPLY.md), one application, no separate email.')
         return ' '.join(parts)
     if conf == 'published_direct':
         parts.append(f"Contact: {contact.get('recipient_name')} ({contact.get('recipient_role')}), whose work email the employer publishes at {contact.get('contact_evidence_url')}.")
-    else:
+    elif conf == 'published_inbox':
         parts.append(f"Contact: the application inbox {contact.get('recipient_email')} published by the employer ({contact.get('contact_evidence_url')}); no personal address was used.")
-    if (contact or {}).get('named_people'):
+    else:
+        return ' '.join(parts + ['Contact: no address the employer publishes is on file, so this email application cannot be sent.'])
+    if contact.get('named_people'):
         parts.append('Named people seen on employer pages: ' + '; '.join(f"{p.get('name')} ({p.get('role')})" for p in contact['named_people'][:3]) + '.')
     parts.append(f"Sent by email from {FACTS['identity']['email']} by the runner that has Gmail; recorded as SENT with the Gmail id.")
     return ' '.join(parts)
@@ -168,8 +220,9 @@ def how_found_block(cand, screen, contact, draft, route):
 
 
 def build_record(run_id, cand, screen, contact, draft, attachments=None):
-    status, route = route_status(draft, contact)
-    asks = owner_questions(cand, screen, draft, route)
+    status, route = route_status(draft, contact, cand)
+    answers, form_asks = form_answers(cand, screen, draft, route)
+    asks = owner_questions(screen, form_asks)
     method = {'EMAIL': 'Email', 'SEEK': 'SEEK', 'EMPLOYER_PORTAL': 'Company website', 'EMPLOYER_FORM': 'Company website'}[route]
     fields = {
         'company': draft.get('company') or cand.get('company'),
@@ -189,7 +242,7 @@ def build_record(run_id, cand, screen, contact, draft, attachments=None):
         'match_score': {'percent': screen.get('percent'), 'method': CONFIG['fit']['method'], 'caution': screen.get('caution') or ''},  # the reasons are in fit, once
         'advert': {'source': cand.get('source') or 'seek', 'listed_at': cand.get('listed_at') or screen.get('listed_at') or '', 'expires_at': cand.get('expires_at') or screen.get('expires_at') or '',
                    'verified_at': cand.get('checked_at') or now_iso(), 'apply_instructions': screen.get('apply_instructions') or '', 'screening_questions': cand.get('screening_questions') or screen.get('screening_questions') or []},
-        'screening_answers': draft.get('screening_answers') or [],
+        'screening_answers': answers,
         'checklist': draft.get('checklist') or [],
         'notes': '\n'.join(x for x in [draft.get('notes'), (contact or {}).get('notes')] + [f"ASK OWNER: {a['question']} ({a['why']})" for a in asks] + [how_found_block(cand, screen, contact, draft, route)] if x),
         'checked_at': now_iso(),
@@ -198,6 +251,8 @@ def build_record(run_id, cand, screen, contact, draft, attachments=None):
     }
     if route == 'EMAIL':  # the email and its recipient exist only on an email application
         email = draft.get('recipient_email') or (contact or {}).get('recipient_email') or ''
+        researched = (contact or {}).get('recipient_email') or email
+        published = str(email).strip().lower() == str(researched).strip().lower()  # the draft's address must be the one the contact research found
         fields.update({
             'recipient_name': draft.get('recipient_name') or (contact or {}).get('recipient_name') or '',
             'recipient_role': draft.get('recipient_role') or (contact or {}).get('recipient_role') or '',
@@ -205,7 +260,7 @@ def build_record(run_id, cand, screen, contact, draft, attachments=None):
             'contact_email': email,
             'contact_evidence_url': draft.get('contact_evidence_url') or (contact or {}).get('contact_evidence_url') or '',
             'contact_verified_at': now_iso(),
-            'contact_confidence': (contact or {}).get('contact_confidence') or 'none',
+            'contact_confidence': (contact or {}).get('contact_confidence') if published and (contact or {}).get('contact_confidence') else 'none',
             'subject': draft.get('subject') or '',
             'email_body': draft.get('email_body') or '',
         })
@@ -234,7 +289,10 @@ def publish(run_id, only=None, go=False):
         if eligibility:
             rejected.append({'seek_id': sid, 'issues': eligibility}); continue
         letter = draft.get('letter') or {}
-        rec = build_record(run_id, cand, screen, contact, draft)
+        try:
+            rec = build_record(run_id, cand, screen, contact, draft)
+        except ValueError as e:  # no usable route, unreadable form answers, or a record with no company or role
+            rejected.append({'seek_id': sid, 'issues': [str(e)]}); continue
         cover_name, resume_name = pdf_names(rec)
         cover_pdf = run / cover_name
         if go:

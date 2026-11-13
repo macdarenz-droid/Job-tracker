@@ -19,6 +19,7 @@ A row with stage=end is the tick's result and takes only these fields:
 Every count is a whole number, or null when this runner could not check it (no Gmail: replies=null).
 Any other field name is refused. Rows written before 13 Nov 2026 used new, prepared, ready, held
 and sent; they are still read (weekly counts sent as emails_sent and applied) but cannot be written.
+The stage is stored in lower case without spaces around it, so stage=END is an end row and is checked.
 """
 import argparse
 import json
@@ -63,6 +64,8 @@ def check_end_fields(fields):
 
 
 def note(run_id, **fields):
+    if isinstance(fields.get('stage'), str):
+        fields['stage'] = fields['stage'].strip().lower()  # 'END' or ' end' is an end row too, checked like one
     if fields.get('stage') == 'end':
         check_end_fields({k: v for k, v in fields.items() if k != 'stage'})
     line = {'run_id': run_id, 'at': now_iso(), **fields}
