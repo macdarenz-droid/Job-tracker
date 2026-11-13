@@ -53,5 +53,7 @@ jobs:
           trap 'rm -f "$secrets_file"' EXIT
           printf '{"ACCESS_CODE":"%s"}' "$TRACKER_ACCESS_CODE" > "$secrets_file"
           npx wrangler deploy --secrets-file "$secrets_file"
+      - name: Give each record its own D1 row and prove nothing changed
+        run: node scripts/deploy-checks.mjs backfill
       - name: Check live authentication, history and shared Save
         run: node scripts/deploy-checks.mjs verify
