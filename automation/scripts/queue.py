@@ -4,18 +4,20 @@
 Open entries live in automation/queue/open/<id>.json; finished ones move to automation/queue/done/<YYYY-MM>/<id>.json.
 One file per entry, so several runners pushing to the same branch rarely conflict.
 
-Usage (global options --dir, --config, --facts and --now go before the command):
-  queue.py add ENTRY.json [--by NAME]
+Usage (global options --dir, --config, --facts, --prior and --now go before the command):
+  queue.py add ENTRY.json [--by NAME] [--repeat-ok REASON]
   queue.py list [--route R] [--status S] [--all] [--json]
   queue.py show ID
   queue.py next --route R [--by NAME]
   queue.py mark ID applied --by NAME --kind K --ref REF [--at ISO]
   queue.py mark ID skipped --by NAME --reason TEXT
-  queue.py mark ID failed --by NAME --note TEXT [--final]
+  queue.py mark ID failed --by NAME --note TEXT [--final]      (only when it is known that nothing was submitted)
+  queue.py mark ID uncertain --by NAME --note TEXT           (unknown whether it went: held until someone checks)
   queue.py mark ID ask --by NAME --question TEXT
   queue.py mark ID open --by NAME [--note TEXT]
   queue.py answer ID [--question TEXT [--option O]... [--set ANSWER --basis FACTS.KEY --by NAME]]
-  queue.py letter ID --file LETTER.txt [--subject TEXT] [--body-file EMAIL.txt]
+  queue.py letter ID --file LETTER.txt [--subject TEXT] [--body-file EMAIL.txt] [--to ADDRESS] [--evidence-url URL]
+                     [--allow PHRASE]...
   queue.py expire [--today YYYY-MM-DD]
   queue.py render
   queue.py stats [--json]
@@ -23,10 +25,16 @@ Usage (global options --dir, --config, --facts and --now go before the command):
 
 Exit codes: 0 done; 1 refused (reason on stderr); 3 the day's cap or the SEEK spacing is reached; 4 nothing to hand out.
 
-next never hands out an entry that is not OPEN, is past its closing date, has an unanswered question, repeats a
-company and role already APPLIED, still carries a letter marked "rewrite before use", has no email text (EMAIL route),
-or was started by a runner that recorded no result. With --by it records the start, so finish every entry it hands
-out with a mark.
+next never hands out an entry that is not OPEN, is past its closing date or stated closing time, has an unanswered
+question, repeats a company and role already APPLIED, goes to an employer applied to in the last
+limits.repeat_block_days (in the queue or in prior_outreach.json), has a twin for the same employer that a runner has
+started or left uncertain, still carries a letter marked "rewrite before use", has letter or email text over the word
+limits or with a flagged phrase of config -> tone, has no email text or no evidence_url (EMAIL route), or was started
+by a runner that recorded no result. With --by it records the start, so finish every entry it hands out with a mark.
+
+Two optional fields beyond the standard ones: repeat_ok (why this entry may go although the employer or the same
+company and role is already in the queue or applied to; set by add --repeat-ok) and tone_allow (flagged phrases the
+letter or email may keep; set by letter --allow).
 
 This file has the same name as the standard library's "queue" module and sits first on sys.path when a script in
 this folder runs. It therefore re-exports the standard module's names (see just below); import it from other code as
@@ -72,6 +80,8 @@ RECEIPT_KINDS = ('seek_receipt_email', 'seek_confirmation_screen', 'gmail_messag
 CAP_KEY = {'SEEK': 'seek_submissions_per_day', 'EMAIL': 'email_sends_per_day',
            'EMPLOYER_PORTAL': 'portal_submissions_per_day', 'EMPLOYER_FORM': 'portal_submissions_per_day'}
 REWRITE_MARK = 'rewrite before use'
+REPEAT_BLOCK_DAYS = 90  # used when config.json -> limits -> repeat_block_days is not set
+COMPANY_NOISE = re.compile(r'\([^)]*\)|\b(?:pty|ltd|limited|plc|inc|co|group|holdings|australia|aust|the|and)\b|&', re.I)
 PHONE = re.compile(r'(?<![\w/=.-])(?:\+?61[\s-]?\(?0?|\(?0)[2-478]\)?(?:[\s-]?\d){8}(?!\d)'   # mobile or landline with area code
                    r'|(?<![\w/=.-])1[38]00(?:[\s-]?\d){6}(?!\d)')                                # 1300 and 1800 numbers
 FIELDS = ('id', 'lane', 'route', 'company', 'role', 'location', 'url', 'seek_id', 'listed_at', 'closes_at', 'closes_source',
@@ -144,10 +154,38 @@ def norm_url(u):
     return re.sub(r'^https?://(www\.)?', '', re.sub(r'#.*$', '', u)).rstrip('/')
 
 
+def company_key(name):
+    """An employer name without its legal and filler words: 'Fyfe Pty Ltd' and 'Fyfe' are the same (as in tracker.py)."""
+    return slug(COMPANY_NOISE.sub(' ', str(name or '')))
+
+
+def same_employer(a, b):
+    """True when two company names are one employer: the same key, one key is the other plus more words ('Fortec' and
+    'Fortec Civil'), or one is the trading name the other gives in brackets ('AGT Operations Pty Ltd (Australian
+    Ground Technologies)' and 'Australian Ground Technologies')."""
+    ka, kb = company_key(a), company_key(b)
+    in_brackets = lambda name: {company_key(x) for x in re.findall(r'\(([^)]*)\)', str(name or ''))} - {''}
+    if not ka or not kb:
+        return False
+    return ka == kb or (min(len(ka), len(kb)) >= 6 and (ka.startswith(kb + '-') or kb.startswith(ka + '-'))) or ka in in_brackets(b) or kb in in_brackets(a)
+
+
 def job_key(e):
     """Company and role, loosely: 'Fyfe Pty Ltd' and 'Fyfe' are the same employer."""
-    company = re.sub(r'\([^)]*\)|\b(pty|ltd|limited|the)\b', ' ', str(e.get('company') or '').lower())
-    return slug(company) + '|' + slug(e.get('role'))
+    return company_key(e.get('company')) + '|' + slug(e.get('role'))
+
+
+def closed(e, now):
+    """True once the entry's closing date (the whole Melbourne day) or its stated closing time has passed."""
+    c = str(e.get('closes_at') or '').strip()
+    if not c:
+        return False
+    return parse_time(c) < now if len(c) > 10 else c < melbourne_date(now)
+
+
+def closes_text(e):
+    """The closing date, with the time when the advert states one, for people to read."""
+    return e['closes_at'][:16].replace('T', ' ')
 
 
 def make_id(e):
@@ -196,6 +234,12 @@ def _same(value, opts):
     return hits[0] if len(hits) == 1 else ''
 
 
+# Words that may stand before a role he has held without changing what is asked ("Assistant Civil Engineer").
+ROLE_PREFIXES = ('civil', 'junior', 'graduate', 'assistant', 'construction', 'site', 'project')
+# The few ways a listed "Do you have experience ...?" question leads into the activity it names.
+LEAD_INS = ('working on ', 'carrying out ', 'in ', 'with ')
+
+
 def _under_one_year(opts):
     return [o for o in opts if re.match(r'(less than|under|<)\s*(1|one)\s*year|0\s*(-|to)\s*1\s*years?$', o.strip(), re.I)]
 
@@ -214,12 +258,23 @@ def _right_to_work(m, opts, a, facts):
 
 def _years(m, opts, a, facts):
     years = {k: v for k, v in (a.get('years_of_experience') or {}).items() if k != 'rule'}
-    x, hits = m.group('x').lower(), {}
+    is_role = bool(m.re.groupindex.get('role'))
+    x, hits, near = re.sub(r'^the ', '', ' '.join(m.group('x').lower().split())), {}, False
     for key, value in years.items():
-        if any(re.search(r'\b' + re.escape(part.strip()) + r'\b', x) for part in key.lower().split(',') if part.strip()):
-            hits[key] = value
+        worked = '11 months' in value   # a role he has held: the answer claims months of work
+        for part in (p.strip() for p in key.lower().split(',') if p.strip()):
+            if not re.search(r'\b' + re.escape(part) + r'\b', x):
+                continue
+            near = True
+            plain = x == part or (is_role and x.endswith(' ' + part) and all(w in ROLE_PREFIXES for w in x[:-len(part)].split()))
+            if worked and not plain:
+                # Months of work are claimed only for the named role itself, alone or after a plain prefix ("Civil
+                # Site Engineer"). Any other word ("... in Australia", "Senior ...", "Rail ...") asks something else.
+                return '', ''
+            if plain or (is_role and not worked):   # a lowest-option answer cannot overstate: the role anywhere in a title
+                hits[key] = value
     held = {w for job in facts.get('experience') or [] for w in re.findall(r'[a-z]{5,}', str(job.get('role') or '').lower())}
-    if not hits and m.re.groupindex.get('role') and not held & set(re.findall(r'[a-z]{5,}', x)):
+    if not near and is_role and not held & set(re.findall(r'[a-z]{5,}', x)):
         # "any other role" is a standing answer too, but not for a title that shares a word with a job he has held
         hits = {k: v for k, v in years.items() if 'any other role' in k.lower()}
     kinds = {'11 months' if '11 months' in v else 'lowest' if 'lowest option' in v else 'other' for v in hits.values()}
@@ -249,32 +304,40 @@ def _licence(m, opts, a, facts):
 
 
 def _qualification(m, opts, a, facts):
-    known, x = a.get('qualification_questions') or {}, m.group('x').lower().strip()
+    known, x, other = a.get('qualification_questions') or {}, ' '.join(m.group('x').lower().split()), 'any other named qualification'
     parts = [p.strip() for p in x.split('/') if p.strip()]
-    key = x if x in ('civil engineering', 'engineering') else None
-    if parts and all('engineering draft' in p or 'engineering design' in p for p in parts):
+    key = x if x in known and x != other else None   # a field facts.json answers by name
+    if parts and all(p in ('engineering drafting', 'engineering design') for p in parts):
         key = 'engineering drafting or design'
     if key:
         return _yes_no(known.get(key), opts), 'answers.qualification_questions.' + key
-    if 'any other named qualification' not in known:
+    if other not in known:
         return '', ''
     held = [str(e.get('qualification') or '').lower() for e in facts.get('education') or []]
-    has = any(p in h for p in parts for h in held)
-    return _yes_no('Yes' if has else 'No', opts), 'answers.qualification_questions.any other named qualification'
+    words = lambda text: set(re.findall(r'[a-z]{4,}', text))
+    if len(x.split()) > 1 and any(re.search(r'\b' + re.escape(x) + r'\b', h) for h in held):
+        answer = 'Yes'   # the field is named, whole, in the title of a qualification he holds
+    elif words(x) and not words(x) & words(' '.join(held)):
+        answer = 'No'    # nothing he holds shares a word with it
+    else:
+        answer = ''      # a field that shares a word with his own ("science", "construction management"): not guessed
+    return _yes_no(answer, opts), 'answers.qualification_questions.' + other
 
 
 def _experience(m, opts, a, facts):
-    x = m.group('x').lower()
+    # The question must name exactly one of the activities in facts.json, alone: "3+ years of ...", "... on civil
+    # infrastructure projects" or "... in Procore" ask something else.
+    x = ' '.join(m.group('x').lower().split())
+    asked = {x.rstrip('s')} | {x[len(lead):].rstrip('s') for lead in LEAD_INS if x.startswith(lead)}
     for key, value in (a.get('experience_yes_no') or {}).items():
-        parts = [p.strip().lower().rstrip('s') for p in key.split(',')]
-        if key != 'anything else' and any(p and p in x for p in parts):
+        if key != 'anything else' and asked & {p.strip().lower().rstrip('s') for p in key.split(',') if p.strip()}:
             return _yes_no(value, opts), 'answers.experience_yes_no.' + key
     return '', ''  # "anything else" needs a reading of his history: not decided here
 
 
 def _which(m, opts, a, facts):
-    x, software = m.group('x').lower(), a.get('software') or {}
-    key = 'CAD' if 'cad software' in x else 'Microsoft Office' if 'microsoft office' in x else None
+    x, software = ' '.join(m.group('x').lower().split()), a.get('software') or {}
+    key = {'cad software': 'CAD', 'microsoft office products': 'Microsoft Office'}.get(x)
     value = str(software.get(key) or '') if key else ''
     if ' only' not in value:  # no approved list to tick from (Microsoft Office products are not confirmed)
         return '', ('answers.software.' + key) if key else ''
@@ -313,15 +376,20 @@ PATTERNS = [(re.compile(p + r'\??'), h) for p, h in (
 )]
 
 
+def _question(text):
+    return ' '.join(str(text or '').replace('’', "'").lower().split())
+
+
 def answer_question(question_text, options, facts):
     """The standing answer to one form question, taken only from facts['answers'].
 
     Returns {'answer', 'basis', 'status'}: status is 'answered' or 'unanswered', basis is the facts.json key used.
     With the form's options the answer is one of them, word for word (several joined by '; ' for a tick list); with no
-    options it is the approved answer or rule for the submitter to apply on screen. Pure: no files, no clock.
+    options it is the approved answer or rule for the submitter to apply on screen. The salary question always gets
+    the rule, because the band depends on the pay the advert states. Pure: no files, no clock.
     """
     a = (facts or {}).get('answers') or {}
-    q = ' '.join(str(question_text or '').replace('’', "'").lower().split())
+    q = _question(question_text)
     opts = [str(o).strip() for o in (options or []) if str(o).strip()]
     for pattern, handler in PATTERNS:
         m = pattern.fullmatch(q)
@@ -329,6 +397,37 @@ def answer_question(question_text, options, facts):
             answer, basis = handler(m, opts, a, facts or {})
             return {'answer': answer or '', 'basis': basis, 'status': 'answered' if answer else 'unanswered'}
     return {'answer': '', 'basis': '', 'status': 'unanswered'}
+
+
+def standing(question_text):
+    """True for one of the listed questions: PATTERNS and facts.json decide its answer, never a runner."""
+    q = _question(question_text)
+    return any(pattern.fullmatch(q) for pattern, _ in PATTERNS)
+
+
+NEVER_CHOOSE = re.compile(r'citizen|permanent resident|(?<!\bno )sponsor', re.I)
+WORK_RIGHTS = re.compile(r'citizen|resident|residency|visa|sponsor|rights? to work|work(?:ing)? rights|(?:entitled|eligible|allowed) to work', re.I)
+
+
+def set_problem(question, answer, basis, facts):
+    """Why a runner may not give this answer on this basis ('' when it may). The answer must be the fact itself."""
+    value = fact_at(facts, basis)
+    values = value if isinstance(value, list) else [value]
+    if not basis or value in (None, [], '') or any(isinstance(v, (dict, list)) or v is None for v in values):
+        return 'the basis must name one value in facts.json (for example identity.location), not a missing key or a whole block'
+    if standing(question):
+        return 'this is one of the listed questions: its standing answer in facts.json -> answers governs and cannot be set by hand'
+    if NEVER_CHOOSE.search(answer):
+        return 'facts.json -> answers.right_to_work.never_choose: never citizen, permanent resident or sponsorship'
+    if WORK_RIGHTS.search(question) and not re.match(r'answers\.right_to_work\.|eligibility\.work_rights', basis):
+        return 'a work-rights question needs a basis under answers.right_to_work or eligibility.work_rights'
+    want = slug(answer)
+    for v in (_plain(v) for v in values):   # '' when the fact itself says not confirmed or not on record
+        head = _yes_no(v, [])
+        if want and v and (want == slug(v) or want == slug(head) or (basis.startswith('identity.') and f'-{want}-' in f'-{slug(v)}-')):
+            return ''
+    return ('the answer is not the value at that key: it must be the same text, a plain Yes or No that the value starts '
+            'with, or part of an identity value such as the suburb')
 
 
 def unanswered(e):
@@ -344,15 +443,23 @@ def question_ask(e):
     return head + ' | '.join(' '.join(q.split()) for q in qs)
 
 
+def owner_line(e):
+    """Everything the owner is asked about an entry, on one line: its ask_owner, then any form question still open."""
+    ask, questions = ' '.join(str(e.get('ask_owner') or '').split()), question_ask(e)
+    return ask if not questions or questions in ask else (ask + ' Also: ' + questions if ask else questions)
+
+
 def apply_answers(e, facts, before=None):
     """Recompute every question from facts and move the entry between OPEN and ASK_OWNER to match.
 
-    An answer a named runner set with a facts key (it has 'by') is kept. An ASK_OWNER put there for another reason stays.
+    An answer a named runner set with a facts key (it has 'by') is kept while it still stands: the question is not one
+    of the listed ones and the answer is still the value at its basis. An ASK_OWNER put there for another reason stays.
     before is the entry's question line as it was before the caller changed its questions.
     """
     before = question_ask(e) if before is None else before
     for q in e['questions']:
-        if not q.get('by'):
+        if not q.get('by') or set_problem(q.get('question'), str(q.get('answer') or ''), str(q.get('basis') or ''), facts):
+            q.pop('by', None)
             q.update(answer_question(q.get('question'), q.get('options'), facts))
     after = question_ask(e)
     ours = e['status'] == 'ASK_OWNER' and bool(before) and e['ask_owner'] == before
@@ -399,7 +506,7 @@ def privacy_problems(e, facts=None):
     text = '\n'.join(strings(e))
     own = re.sub(r'\D', '', str(((facts or {}).get('identity') or {}).get('phone') or ''))
     problems = []
-    for p in [] if facts is None else PHONE.findall(text):
+    for p in [] if facts is None else dict.fromkeys(PHONE.findall(text)):
         digits = re.sub(r'^61', '0', re.sub(r'\D', '', p))
         if digits != own:
             problems.append(f'privacy: phone number {p.strip()} (only the one in facts.json identity may appear)')
@@ -417,7 +524,13 @@ def validate(e, facts=None):
     def need(ok, msg):
         if not ok:
             p.append(msg)
-    is_date = lambda v: bool(re.fullmatch(r'\d{4}-\d{2}-\d{2}([T ].*)?', str(v)))
+
+    def is_date(v):
+        try:
+            parse_time(v)
+        except Refused:
+            return False
+        return bool(re.match(r'\d{4}-\d{2}-\d{2}', str(v)))
     need(re.fullmatch(r'[a-z0-9][a-z0-9-]{2,90}', str(e.get('id') or '')), 'id: lower-case letters, digits and hyphens only')
     need(e.get('lane') in LANES, f'lane: one of {", ".join(LANES)}')
     need(e.get('route') in ROUTES, f'route: one of {", ".join(ROUTES)}')
@@ -428,7 +541,7 @@ def validate(e, facts=None):
     need(re.fullmatch(r'\d*', str(e.get('seek_id') or '')), 'seek_id: digits only')
     need(e.get('route') != 'SEEK' or e.get('seek_id'), 'seek_id: the SEEK route needs the SEEK job number')
     for k in ('listed_at', 'closes_at'):
-        need(not e.get(k) or is_date(e[k]), f'{k}: YYYY-MM-DD')
+        need(not e.get(k) or is_date(e[k]), f'{k}: YYYY-MM-DD' + (', or YYYY-MM-DDThh:mm when the advert states a closing time' if k == 'closes_at' else ''))
     need(e.get('closes_source') in CLOSES_SOURCES, f'closes_source: one of {", ".join(CLOSES_SOURCES)}')
     need(bool(e.get('closes_at')) == (e.get('closes_source') in ('advert', 'listing_expiry')),
          'closes_at and closes_source disagree (a date needs advert or listing_expiry; no date needs none)')
@@ -440,13 +553,14 @@ def validate(e, facts=None):
     email = e.get('email') or {}
     if e.get('route') == 'EMAIL':
         need(re.fullmatch(r'[^@\s]+@[^@\s]+\.[^@\s]+', email.get('to') or ''), 'email.to: the EMAIL route needs the address')
-        need(re.match(r'https?://', email.get('evidence_url') or ''), 'email.evidence_url: the page where the employer publishes the address')
+        # an entry with no evidence_url may be stored, but next holds it back until the address has a source
+        need(not email.get('evidence_url') or re.match(r'https?://', email['evidence_url']), 'email.evidence_url: the page where the employer publishes the address')
     for q in e.get('questions') or []:
         need(q.get('question'), 'questions: a question has no text')
         need(q.get('status') in ('answered', 'unanswered'), 'questions: status is answered or unanswered')
         need(q.get('status') != 'answered' or q.get('answer'), f"questions: answered but empty: {q.get('question')}")
-        need(not q.get('by') or facts is None or fact_at(facts, q.get('basis')) is not None,
-             f"questions: an answer set by a runner needs a basis that is a key in facts.json: {q.get('question')}")
+        why = set_problem(q.get('question'), str(q.get('answer') or ''), str(q.get('basis') or ''), facts) if q.get('by') and facts is not None else ''
+        need(not why, f"questions: the answer {q.get('by')} set does not stand ({why}): {q.get('question')}")
     for a in e.get('attempts') or []:
         need(a.get('at') and a.get('by') and a.get('result'), 'attempts: each needs at, by and result')
     if e.get('status') == 'APPLIED':
@@ -487,10 +601,17 @@ def save(qdir, e, old_path=None, finished_at=None):
     return path
 
 
-def add(entry, qdir=QUEUE_DIR, facts=None, now=None, by=None):
-    """Validate and store a new entry. Refuses a duplicate id, SEEK job or url, whether open or done."""
+def add(entry, qdir=QUEUE_DIR, facts=None, now=None, by=None, config=None, prior=None):
+    """Validate and store a new entry.
+
+    Refuses a duplicate id, SEEK job or url, whether open or done. An entry to be worked (OPEN or ASK_OWNER) is also
+    refused when the same company and role is already open or applied for, or the employer was applied to within
+    limits.repeat_block_days, in the queue or in prior (the entries of prior_outreach.json), unless the entry carries
+    repeat_ok with the reason.
+    """
+    now = now or datetime.now(timezone.utc)
     e = dict(entry)
-    e['created_at'] = e.get('created_at') or iso(now or datetime.now(timezone.utc))
+    e['created_at'] = e.get('created_at') or iso(now)
     e['created_by'] = e.get('created_by') or by or ''
     e = fill(e)
     if facts is not None:
@@ -498,11 +619,20 @@ def add(entry, qdir=QUEUE_DIR, facts=None, now=None, by=None):
     problems = validate(e, facts)
     if problems:
         raise Refused('not added: ' + '; '.join(problems))
+    if e['route'] == 'EMAIL' and e['status'] in OPEN_STATUSES and not e['email']['evidence_url']:
+        raise Refused('not added: email.evidence_url: the page where the employer publishes the address')
     keys = lambda x: {'id:' + x['id'], norm_url(x.get('url'))} | ({'seek:' + x['seek_id']} if x.get('seek_id') else set())
-    for path, other in load(qdir):
+    others = [other for _, other in load(qdir)]
+    for other in others:
         same = keys(e) & keys(other)
         if same:
             raise Refused(f"not added: duplicate of {other['id']} ({other['status']}): same {', '.join(sorted(same))}")
+    if e['status'] in OPEN_STATUSES and not e.get('repeat_ok'):
+        twin = next((o for o in others if o['status'] in OPEN_STATUSES and job_key(o) == job_key(e)), None)
+        why = (f"same company and role as {twin['id']} ({twin['status']}, {twin['route']})" if twin
+               else repeat_reason(e, applications(others, prior), melbourne_date(now), repeat_days(config)))
+        if why:
+            raise Refused(f'not added: {why}. If this really is another job, add it with --repeat-ok REASON')
     save(qdir, e, finished_at=parse_time(e['receipt']['at']) if e['receipt'].get('at') else now)
     return e
 
@@ -516,26 +646,97 @@ def lane_rank(e, config):
 
 def sort_key(e, config):
     """Lane rank, then a real (advert-stated) closing date soonest, then listed date newest."""
-    real_close = e['closes_at'][:10] if e['closes_source'] == 'advert' else '9999-12-31'
+    c = e['closes_at']
+    try:   # a bare date means the end of that day
+        real_close = iso(parse_time(c if len(c) > 10 else c + 'T23:59:59')) if c and e['closes_source'] == 'advert' else '9999-12-31'
+    except Refused:
+        real_close = c
     listed = int(e['listed_at'][:10].replace('-', '')) if e['listed_at'] else 0
     return (lane_rank(e, config), real_close, -listed, e['id'])
 
 
-def blockers(e, today, applied):
-    """Why next will not hand this entry out (empty when it is ready)."""
+def repeat_days(config):
+    return ((config or {}).get('limits') or {}).get('repeat_block_days') or REPEAT_BLOCK_DAYS
+
+
+def applications(entries, prior=None):
+    """Every application on record as (company, job key, Melbourne date, where it is recorded): the queue's APPLIED
+    entries, and prior, the entries of prior_outreach.json (applications made outside the queue)."""
+    rows = [(e['company'], job_key(e), melbourne_date(e['receipt']['at']) if e['receipt'].get('at') else '', e['id'])
+            for e in entries if e['status'] == 'APPLIED']
+    return rows + [(str(p.get('company') or ''), '', str(p.get('date') or '')[:10], 'prior_outreach.json') for p in prior or []]
+
+
+def repeat_reason(e, applied, today, days):
+    """Why applying for this entry would repeat an application ('' when it would not, or the entry carries repeat_ok)."""
+    if e.get('repeat_ok'):
+        return ''
+    cutoff = (datetime.fromisoformat(today) - timedelta(days=days)).strftime('%Y-%m-%d')
+    same_job = [where for _, key, _, where in applied if key == job_key(e) and where != e['id']]
+    if same_job:
+        return f'already applied for this company and role ({same_job[0]})'
+    for other, _, when, where in applied:
+        if where != e['id'] and same_employer(other, e['company']) and (not when or when >= cutoff):
+            return f"applied to this employer on {when or 'an unknown date'} ({where}): no repeat within {days} days"
+    return ''
+
+
+def tone_problems(e, config):
+    """Where the letter, or the email body on the EMAIL route, breaks config -> tone: over the word limit, or a phrase
+    from no_volunteered_limits.flag_patterns that the entry does not list under tone_allow."""
+    tone = (config or {}).get('tone') or {}
+    allowed = [str(x).lower() for x in e.get('tone_allow') or []]
+    flags = [f.lower() for f in (tone.get('no_volunteered_limits') or {}).get('flag_patterns') or [] if f.lower() not in allowed]
+    texts = [('letter', e['cover_letter_text'], tone.get('max_cover_letter_words'))]
+    if e['route'] == 'EMAIL':
+        texts.append(('email', e['email']['body'], tone.get('max_email_words')))
+    problems = []
+    for name, text, limit in texts:
+        count = len(re.findall(r"[A-Za-z0-9'’]+", text))   # counted as checks.py counts
+        if limit and count > limit:
+            problems.append(f'{name} is {count} words (limit {limit})')
+        said = [f for f in flags if f in text.lower()]
+        if said:
+            problems.append(f'{name} says "{said[0]}"')
+    return problems
+
+
+def hold_context(entries, config, now, prior=None):
+    """What blockers needs besides the entry: the time, the rules, the applications on record, the entries under way."""
+    busy = []
+    for e in entries:
+        last = e['attempts'][-1] if e['attempts'] else {}
+        if e['status'] in OPEN_STATUSES and last.get('result') in ('started', 'uncertain'):
+            busy.append((e['company'], e['id'], f"started by {last.get('by')}" if last['result'] == 'started' else 'unresolved'))
+    return {'now': now, 'config': config, 'days': repeat_days(config), 'applied': applications(entries, prior), 'busy': busy}
+
+
+def blockers(e, ctx):
+    """Why next will not hand this entry out (empty when it is ready). ctx comes from hold_context."""
     b = []
     if e['status'] != 'OPEN':
         b.append('status ' + e['status'])
-    if e['closes_at'] and e['closes_at'][:10] < today:
-        b.append('closing date has passed')
+    try:
+        if closed(e, ctx['now']):
+            b.append('closing date has passed')
+    except Refused:
+        b.append('closes_at is not a date')
     if unanswered(e):
         b.append('unanswered question')
-    if job_key(e) in applied:
-        b.append('already applied for this company and role')
+    repeat = repeat_reason(e, ctx['applied'], melbourne_date(ctx['now']), ctx['days'])
+    if repeat:
+        b.append(repeat)
+    b += [f'{other} for the same employer is {state}: settle it first' for company, other, state in ctx['busy']
+          if other != e['id'] and same_employer(company, e['company'])]
     if REWRITE_MARK in e['notes']:
         b.append('letter to rewrite')
-    if e['route'] == 'EMAIL' and not all(e['email'].values()):
-        b.append('email text missing')
+    else:
+        b += tone_problems(e, ctx['config'])
+    if e['route'] == 'EMAIL':
+        if not (e['email']['to'] and e['email']['subject'] and e['email']['body']):
+            b.append('email text missing')
+        if not e['email']['evidence_url']:
+            b.append('email address has no evidence_url')
     if e['attempts'] and e['attempts'][-1].get('result') == 'started':
         b.append(f"started by {e['attempts'][-1].get('by')}, no result recorded")
     return b
@@ -562,19 +763,21 @@ def check_caps(route, entries, config, now):
                              f'(at least {gap} minutes apart).')
 
 
-def next_entry(route, qdir=QUEUE_DIR, config=None, now=None, by=None):
-    """The single next entry to submit on this route. Raises CapReached or NothingToDo."""
+def next_entry(route, qdir=QUEUE_DIR, config=None, now=None, by=None, prior=None):
+    """The single next entry to submit on this route. Raises CapReached or NothingToDo.
+
+    prior is the list of applications made outside the queue (the entries of prior_outreach.json).
+    """
     if route not in ROUTES:
         raise Refused(f'route: one of {", ".join(ROUTES)}')
     now = now or datetime.now(timezone.utc)
     entries = load(qdir)
     check_caps(route, entries, config, now)
-    applied = {job_key(e) for _, e in entries if e['status'] == 'APPLIED'}
-    today, ready, held = melbourne_date(now), [], {}
+    ctx, ready, held = hold_context([e for _, e in entries], config, now, prior), [], {}
     for path, e in entries:
         if e['route'] != route or e['status'] not in OPEN_STATUSES:
             continue
-        why = blockers(e, today, applied)
+        why = blockers(e, ctx)
         if why:
             held[e['id']] = why
         else:
@@ -589,11 +792,13 @@ def next_entry(route, qdir=QUEUE_DIR, config=None, now=None, by=None):
 
 
 def mark(qdir, entry_id, action, by, now=None, kind=None, ref=None, at=None, note='', final=False, facts=None):
-    """Record what happened to an entry: applied, skipped, failed, ask (owner question) or open (back to OPEN)."""
+    """Record what happened to an entry: applied, skipped, failed (known not to have gone), uncertain (unknown
+    whether it went), ask (owner question) or open (back to OPEN)."""
     now = now or datetime.now(timezone.utc)
     path, e = find(qdir, entry_id, open_only=True)
     if not by:
         raise Refused('--by NAME is needed')
+    already = validate(e, facts)   # a fault the file already had must not stop a real result from being recorded
     when = iso(parse_time(at)) if at else iso(now)
     note = ' '.join(str(note or '').split())
     if action == 'applied':
@@ -617,6 +822,12 @@ def mark(qdir, entry_id, action, by, now=None, kind=None, ref=None, at=None, not
             e['status'], e['ask_owner'] = 'FAILED', ''
         elif failures >= 3:
             e['status'], e['ask_owner'] = 'ASK_OWNER', f'Three failed attempts (last: {note}). Try again or drop it?'
+    elif action == 'uncertain':
+        if not note:
+            raise Refused('uncertain needs --note')
+        where = {'SEEK': 'the applied jobs list on SEEK', 'EMAIL': 'Gmail Sent'}.get(e['route'], "the employer's confirmation email")
+        e['status'] = 'ASK_OWNER'
+        e['ask_owner'] = f"Unknown whether the application to {' '.join(e['company'].split())} went ({note}). Check {where} before any retry: did it go?"
     elif action == 'ask':
         if not note:
             raise Refused('ask needs --question')
@@ -629,7 +840,7 @@ def mark(qdir, entry_id, action, by, now=None, kind=None, ref=None, at=None, not
         raise Refused(f'unknown action {action}')
     result = {'ask': 'asked_owner', 'open': 'reopened'}.get(action, action)
     e['attempts'].append({'at': when, 'by': by, 'result': result, 'note': note})
-    problems = validate(e, facts)
+    problems = [x for x in validate(e, facts) if x not in already]
     if problems:
         raise Refused('not saved: ' + '; '.join(problems))
     save(qdir, e, path, finished_at=parse_time(when))
@@ -637,22 +848,32 @@ def mark(qdir, entry_id, action, by, now=None, kind=None, ref=None, at=None, not
 
 
 def expire(qdir=QUEUE_DIR, today=None, now=None):
-    """Move every open entry whose closing date is before today to done as EXPIRED. Returns them."""
+    """Move every open entry whose closing date or stated closing time has passed to done as EXPIRED. Returns them.
+
+    today, a date or a date-time, judges the queue as at an earlier moment than now; a bare date is the start of that
+    day in Melbourne, so entries that close that day stay. A value that is not a date, or is later than now, is refused.
+    """
     now = now or datetime.now(timezone.utc)
-    today = today or melbourne_date(now)
+    at = parse_time(today) if today else now
+    if at > now:
+        raise Refused(f"--today {today} is later than now ({now.astimezone(_melbourne()).strftime('%Y-%m-%d %H:%M')} in Melbourne): "
+                      'nothing can have closed yet')
     gone = []
     for path, e in load(qdir):
-        if e['status'] in OPEN_STATUSES and e['closes_at'] and e['closes_at'][:10] < today:
+        if e['status'] in OPEN_STATUSES and closed(e, at):
             e['attempts'].append({'at': iso(now), 'by': 'queue.py expire', 'result': 'expired',
-                                  'note': f"closed {e['closes_at'][:10]} ({e['closes_source']}), never submitted"})
+                                  'note': f"closed {closes_text(e)} ({e['closes_source']}), never submitted"})
             e['status'], e['ask_owner'] = 'EXPIRED', ''
-            save(qdir, e, path, finished_at=parse_time(today))
+            save(qdir, e, path, finished_at=at)
             gone.append(e)
     return gone
 
 
 def set_question(e, facts, question, options=None, answer=None, basis=None, by=None):
-    """Add a form question (or update it with the options seen on screen), then recompute the entry's answers."""
+    """Add a form question (or update it with the options seen on screen), then recompute the entry's answers.
+
+    A runner's own answer is taken only when set_problem finds nothing wrong: it must be the value at the basis key.
+    """
     before = question_ask(e)
     q = next((q for q in e['questions'] if slug(q['question']) == slug(question)), None)
     if q is None:
@@ -662,8 +883,11 @@ def set_question(e, facts, question, options=None, answer=None, basis=None, by=N
         q['options'] = [str(o).strip() for o in options]
         q.pop('by', None)  # an earlier hand-set answer may not be one of the options: answer again
     if answer is not None:
-        if not by or fact_at(facts, basis) is None:
-            raise Refused('--set needs --by NAME and --basis naming a key that exists in facts.json (for example identity.location)')
+        if not by:
+            raise Refused('--set needs --by NAME and --basis naming a value in facts.json (for example identity.location)')
+        why = set_problem(q['question'], str(answer), str(basis or ''), facts)
+        if why:
+            raise Refused('not set: ' + why)
         if q['options'] and not all(part in q['options'] for part in answer.split('; ')):
             raise Refused('the answer must be one of the options, word for word: ' + ' / '.join(q['options']))
         q.update({'answer': answer, 'basis': basis, 'status': 'answered', 'by': by})
@@ -693,11 +917,10 @@ def _cell(s):
     return ' '.join(str(s or '').replace('|', '/').split())
 
 
-def render(qdir=QUEUE_DIR, config=None, now=None):
+def render(qdir=QUEUE_DIR, config=None, now=None, prior=None):
     """Write APPLY_QUEUE.md: open entries by route in hand-out order, then the questions waiting on the owner."""
     entries = [e for _, e in load(qdir)]
-    today = melbourne_date(now or datetime.now(timezone.utc))
-    applied = {job_key(e) for e in entries if e['status'] == 'APPLIED'}
+    ctx = hold_context(entries, config, now or datetime.now(timezone.utc), prior)
     lines = ['# Apply queue', '', 'Written by `automation/scripts/queue.py render` from the files in `open/`. Do not edit by hand.', '']
     for route in ROUTES:
         rows = sorted((e for e in entries if e['status'] == 'OPEN' and e['route'] == route), key=lambda e: sort_key(e, config))
@@ -707,15 +930,15 @@ def render(qdir=QUEUE_DIR, config=None, now=None):
             continue
         lines += ['| # | Lane | Company | Role | Location | Closes | Link | Note |', '|---|---|---|---|---|---|---|---|']
         for n, e in enumerate(rows, 1):
-            closes = f"{e['closes_at'][:10]} ({'advert' if e['closes_source'] == 'advert' else 'listing expiry'})" if e['closes_at'] else 'not stated'
-            note = '; '.join(blockers(e, today, applied))
+            closes = f"{closes_text(e)} ({'advert' if e['closes_source'] == 'advert' else 'listing expiry'})" if e['closes_at'] else 'not stated'
+            note = '; '.join(blockers(e, ctx))
             lines.append(f"| {n} | {e['lane']} | {_cell(e['company'])} | {_cell(e['role'])} | {_cell(e['location'])} | {closes} | "
                          f"[{e['id']}]({e['url']}) | {_cell(note)} |")
         lines.append('')
     asks = sorted((e for e in entries if e['status'] == 'ASK_OWNER'), key=lambda e: sort_key(e, config))
     lines += [f'## Waiting on the owner ({len(asks)})', '']
     lines += [f"- **{_cell(e['company'])}, {_cell(e['role'])}** ({e['route']}, {e['lane']}, "
-              f"closes {e['closes_at'][:10] or 'not stated'}, `{e['id']}`): {' '.join(e['ask_owner'].split())}" for e in asks] or ['Nothing.']
+              f"closes {closes_text(e) or 'not stated'}, `{e['id']}`): {owner_line(e)}" for e in asks] or ['Nothing.']
     path = Path(qdir) / 'APPLY_QUEUE.md'
     path.write_text('\n'.join(lines) + '\n', encoding='utf-8')
     return path
@@ -728,19 +951,23 @@ def _parser():
     ap.add_argument('--dir', default=str(QUEUE_DIR), help='queue folder (default automation/queue)')
     ap.add_argument('--config', default=str(ROOT / 'config.json'))
     ap.add_argument('--facts', default=str(ROOT / 'facts.json'))
+    ap.add_argument('--prior', default=str(ROOT / 'prior_outreach.json'), help='applications made outside the queue (default automation/prior_outreach.json)')
     ap.add_argument('--now', help='ISO time to use as the current time (tests, back-dating)')
     sub = ap.add_subparsers(dest='cmd', required=True)
     c = sub.add_parser('add'); c.add_argument('entry'); c.add_argument('--by')
+    c.add_argument('--repeat-ok', metavar='REASON', help='this is another job at an employer already in the queue or applied to: say why')
     c = sub.add_parser('list'); c.add_argument('--route', choices=ROUTES); c.add_argument('--status', choices=STATUSES)
     c.add_argument('--all', action='store_true', help='include finished entries'); c.add_argument('--json', action='store_true')
     c = sub.add_parser('show'); c.add_argument('id')
     c = sub.add_parser('next'); c.add_argument('--route', required=True, choices=ROUTES); c.add_argument('--by')
-    c = sub.add_parser('mark'); c.add_argument('id'); c.add_argument('action', choices=('applied', 'skipped', 'failed', 'ask', 'open'))
+    c = sub.add_parser('mark'); c.add_argument('id'); c.add_argument('action', choices=('applied', 'skipped', 'failed', 'uncertain', 'ask', 'open'))
     c.add_argument('--by', required=True); c.add_argument('--kind', choices=RECEIPT_KINDS); c.add_argument('--ref'); c.add_argument('--at')
     c.add_argument('--reason'); c.add_argument('--note'); c.add_argument('--question'); c.add_argument('--final', action='store_true')
     c = sub.add_parser('answer'); c.add_argument('id'); c.add_argument('--question'); c.add_argument('--option', action='append')
     c.add_argument('--set', dest='answer'); c.add_argument('--basis'); c.add_argument('--by')
     c = sub.add_parser('letter'); c.add_argument('id'); c.add_argument('--file', required=True); c.add_argument('--subject'); c.add_argument('--body-file')
+    c.add_argument('--to', help='the address the email goes to'); c.add_argument('--evidence-url', help='the page where the employer publishes that address')
+    c.add_argument('--allow', action='append', metavar='PHRASE', help='a flagged phrase this text may keep, for example the visa end date when the advert asks for it')
     c = sub.add_parser('expire'); c.add_argument('--today')
     sub.add_parser('render')
     c = sub.add_parser('stats'); c.add_argument('--json', action='store_true')
@@ -755,8 +982,15 @@ def _show(obj):
 def run(a):
     qdir, now = Path(a.dir), parse_time(a.now) if a.now else datetime.now(timezone.utc)
     config, facts = read_json(a.config), read_json(a.facts)
+
+    def prior():   # read by the commands that need it; a missing or broken file is refused, not ignored
+        data = read_json(a.prior)
+        return (data.get('entries') if isinstance(data, dict) else data) or []
     if a.cmd == 'add':
-        e = add(read_json(a.entry), qdir, facts, now, a.by)
+        entry = read_json(a.entry)
+        if a.repeat_ok:
+            entry['repeat_ok'] = ' '.join(a.repeat_ok.split())
+        e = add(entry, qdir, facts, now, a.by, config, prior())
         print(f"added {e['id']} ({e['status']}, {e['route']}, {e['lane']})")
     elif a.cmd == 'list':
         rows = [e for _, e in load(qdir) if (a.all or a.status or e['status'] in OPEN_STATUSES)
@@ -769,7 +1003,7 @@ def run(a):
     elif a.cmd == 'show':
         _show(find(qdir, a.id)[1])
     elif a.cmd == 'next':
-        _show(next_entry(a.route, qdir, config, now, a.by))
+        _show(next_entry(a.route, qdir, config, now, a.by, prior()))
     elif a.cmd == 'mark':
         e = mark(qdir, a.id, a.action, a.by, now, a.kind, a.ref, a.at, a.reason or a.note or a.question, a.final, facts)
         print(f"{e['id']}: {e['status']}" + (f" ({e['ask_owner']})" if e['ask_owner'] else ''))
@@ -781,17 +1015,26 @@ def run(a):
             set_question(e, facts, a.question, a.option, a.answer, a.basis, a.by)
         else:
             apply_answers(e, facts)
+        problems = validate(e, facts)   # a question or an answer typed from a form can carry private details
+        if problems:
+            raise Refused('not saved: ' + '; '.join(problems))
         save(qdir, e, path)
         _show({'id': e['id'], 'status': e['status'], 'ask_owner': e['ask_owner'], 'questions': e['questions']})
     elif a.cmd == 'letter':
         path, e = find(qdir, a.id, open_only=True)
+        if e['route'] == 'EMAIL' and REWRITE_MARK in e['notes'] and not (a.body_file and a.subject):
+            raise Refused(f'{e["id"]} goes by email and is still marked "{REWRITE_MARK}": the email body is what is sent, '
+                          'so give --body-file and --subject together with the new letter')
         e['cover_letter_text'] = Path(a.file).read_text(encoding='utf-8').strip()
-        if a.subject:
-            e['email']['subject'] = a.subject
         if a.body_file:
             e['email']['body'] = Path(a.body_file).read_text(encoding='utf-8').strip()
+        for key, value in (('subject', a.subject), ('to', a.to), ('evidence_url', a.evidence_url)):
+            if value:
+                e['email'][key] = ' '.join(value.split())
+        if a.allow:
+            e['tone_allow'] = sorted({str(x).lower() for x in e.get('tone_allow') or []} | {' '.join(x.lower().split()) for x in a.allow})
         e['notes'] = '\n'.join(line for line in e['notes'].splitlines() if REWRITE_MARK not in line)
-        problems = validate(e, facts)
+        problems = validate(e, facts) + tone_problems(e, config)
         if problems:
             raise Refused('not saved: ' + '; '.join(problems))
         save(qdir, e, path)
@@ -799,10 +1042,10 @@ def run(a):
     elif a.cmd == 'expire':
         gone = expire(qdir, a.today, now)
         for e in gone:
-            print(f"expired {e['id']}: {e['company']}, {e['role']} (closed {e['closes_at'][:10]})")
+            print(f"expired {e['id']}: {e['company']}, {e['role']} (closed {closes_text(e)})")
         print(f'{len(gone)} expired')
     elif a.cmd == 'render':
-        print(render(qdir, config, now))
+        print(render(qdir, config, now, prior()))
     elif a.cmd == 'stats':
         s = stats(qdir, now)
         if a.json:
@@ -810,7 +1053,7 @@ def run(a):
         for k, v in s.items():
             print(f'{k}: ' + (', '.join(f'{r} {n}' for r, n in v.items()) if isinstance(v, dict) else str(v)))
     elif a.cmd == 'check':
-        entries, bad, seen = load(qdir), 0, {}
+        entries, bad, seen, jobs = load(qdir), 0, {}, {}
         for path, e in entries:
             problems = validate(e, facts)
             if (e['status'] in OPEN_STATUSES) != (path.parent.name == 'open'):
@@ -820,6 +1063,8 @@ def run(a):
             for key in sorted({'id:' + e['id'], norm_url(e['url'])} | ({'seek:' + e['seek_id']} if e['seek_id'] else set())):
                 if seen.setdefault(key, path) != path:
                     problems.append(f'duplicate of {seen[key].name} ({key})')
+            if e['status'] in OPEN_STATUSES + ('APPLIED',) and not e.get('repeat_ok') and jobs.setdefault(job_key(e), path) != path:
+                problems.append(f'same company and role as {jobs[job_key(e)].stem} (close one, or give this one repeat_ok with the reason)')
             for msg in problems:
                 bad += 1
                 print(f"{e['id']}: {msg}")

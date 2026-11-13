@@ -50,8 +50,8 @@
    "status": "answered"
   }
  ],
- "status": "OPEN",
- "ask_owner": "",
+ "status": "ASK_OWNER",
+ "ask_owner": "Cooke & Dowsett's advert asks for a recently completed Bachelor of Engineering; yours is from 2019: apply anyway?",
  "attempts": [],
  "receipt": {},
  "created_by": "import_backlog.py",

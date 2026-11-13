@@ -72,7 +72,7 @@
   }
  ],
  "status": "ASK_OWNER",
- "ask_owner": "No standing answer for 2 form questions: How many years of Road Construction experience do you have? | How many years of experience do you have in the Civil Earthworks Industry?",
+ "ask_owner": "Civilivic's advert lists a current Queensland driver's licence; yours is Victorian: apply anyway?",
  "attempts": [],
  "receipt": {},
  "created_by": "import_backlog.py",

@@ -9,11 +9,11 @@
   "EMAIL": 8,
   "EMPLOYER_FORM": 1,
   "EMPLOYER_PORTAL": 10,
-  "SEEK": 8
+  "SEEK": 7
  },
  "open_by_lane": {
   "drafter": 9,
-  "engineer": 15,
+  "engineer": 14,
   "technician": 3
  },
  "ask_owner": [
@@ -25,6 +25,15 @@
    "lane": "drafter",
    "closes_at": "2026-11-26",
    "question": "No standing answer for 2 form questions: How would you rate your English language skills? | Which of the following Microsoft Office products are you experienced with?"
+  },
+  {
+   "id": "seek-95446060",
+   "company": "Cooke & Dowsett / CJ Arms Design",
+   "role": "Graduate Design Engineer (Hydraulic/Civil)",
+   "route": "SEEK",
+   "lane": "engineer",
+   "closes_at": "2026-11-22",
+   "question": "Cooke & Dowsett's advert asks for a recently completed Bachelor of Engineering; yours is from 2019: apply anyway?"
   },
   {
    "id": "seek-95510637",
@@ -51,7 +60,7 @@
    "route": "SEEK",
    "lane": "engineer",
    "closes_at": "2026-12-06",
-   "question": "No standing answer for 2 form questions: Do you have Cost Estimation experience? | Have you worked in a role which requires a sound understanding of as/NZ 5369 Standards?"
+   "question": "Fyfe's requirements list says Australian citizenship or permanent residency, but the advert's last line says people who hold full Australian working rights will be considered: apply? Also: No standing answer for 2 form questions: Do you have Cost Estimation experience? | Have you worked in a role which requires a sound understanding of as/NZ 5369 Standards?"
   },
   {
    "id": "seek-95655998",
@@ -86,7 +95,7 @@
    "role": "Cadet Designer",
    "route": "EMPLOYER_PORTAL",
    "lane": "drafter",
-   "closes_at": "2026-11-25",
+   "closes_at": "2026-11-25T23:30",
    "question": "Cairns Regional Council's Cadet Designer job runs for up to six years and includes studying an Associate Degree in Engineering (Civil): would you enrol and apply?"
   },
   {
@@ -96,7 +105,7 @@
    "route": "SEEK",
    "lane": "engineer",
    "closes_at": "2026-12-12",
-   "question": "No standing answer for 2 form questions: How many years of Road Construction experience do you have? | How many years of experience do you have in the Civil Earthworks Industry?"
+   "question": "Civilivic's advert lists a current Queensland driver's licence; yours is Victorian: apply anyway? Also: No standing answer for 2 form questions: How many years of Road Construction experience do you have? | How many years of experience do you have in the Civil Earthworks Industry?"
   },
   {
    "id": "griffith-city-council-graduate-traffic-design-engineer-a451b4cf",
@@ -143,7 +152,7 @@
    "status": "OPEN"
   },
   {
-   "closes_at": "2026-11-25",
+   "closes_at": "2026-11-25T09:00",
    "id": "seek-95487722",
    "company": "Newton Denny Chapelle",
    "role": "Civil Engineer / Design Engineer",
@@ -151,7 +160,7 @@
    "status": "OPEN"
   },
   {
-   "closes_at": "2026-11-25",
+   "closes_at": "2026-11-25T23:30",
    "id": "seek-95823436",
    "company": "Cairns Regional Council",
    "role": "Cadet Designer",
@@ -307,7 +316,7 @@
    "lane": "drafter",
    "route": "SEEK",
    "status": "OPEN",
-   "closes_at": "2026-11-25",
+   "closes_at": "2026-11-25T09:00",
    "closes_source": "advert",
    "has_letter": true,
    "relocation": true
@@ -330,7 +339,7 @@
    "role": "Graduate Design Engineer (Hydraulic/Civil)",
    "lane": "engineer",
    "route": "SEEK",
-   "status": "OPEN",
+   "status": "ASK_OWNER",
    "closes_at": "2026-11-22",
    "closes_source": "listing_expiry",
    "has_letter": false,
@@ -475,7 +484,7 @@
    "lane": "drafter",
    "route": "EMPLOYER_PORTAL",
    "status": "ASK_OWNER",
-   "closes_at": "2026-11-25",
+   "closes_at": "2026-11-25T23:30",
    "closes_source": "advert",
    "has_letter": false,
    "relocation": true
@@ -948,19 +957,22 @@
    "why": "Speculative enquiry for a graduate or junior civil site role, through the careers form"
   },
   "95446060": {
-   "note": "The advert asks for a recently completed Bachelor of Engineering."
+   "note": "The advert asks for a recently completed Bachelor of Engineering.",
+   "ask": "Cooke & Dowsett's advert asks for a recently completed Bachelor of Engineering; yours is from 2019: apply anyway?"
   },
   "95352132": {
-   "note": "Known from a journal note only (advert not saved): check the advert still gives this email address before sending."
+   "note": "The email address is known from a journal note only (advert not saved): find the page where the employer publishes it and record it with queue.py letter --evidence-url before this can be sent."
   },
   "95736615": {
-   "note": "The requirements list says Australian citizenship or permanent residency; the last line of the advert says people who hold full Australian working rights will be considered."
+   "note": "The requirements list says Australian citizenship or permanent residency; the last line of the advert says people who hold full Australian working rights will be considered.",
+   "ask": "Fyfe's requirements list says Australian citizenship or permanent residency, but the advert's last line says people who hold full Australian working rights will be considered: apply?"
   },
   "95655998": {
    "note": "Three-year traineeship that requires completing a Diploma of Civil Construction Design at TAFE Ultimo."
   },
   "95842971": {
-   "note": "The advert lists a current Queensland driver's licence."
+   "note": "The advert lists a current Queensland driver's licence.",
+   "ask": "Civilivic's advert lists a current Queensland driver's licence; yours is Victorian: apply anyway?"
   },
   "95773573": {
    "note": "The advert asks for a civil engineering degree or an equivalent recognised in Australia."

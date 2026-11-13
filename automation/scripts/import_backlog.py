@@ -66,12 +66,18 @@ DECISIONS = {
     '95865921': {'lane': 'engineer', 'why': 'Council Civil Services Engineer; the advert says it only wants applications from current graduates',
                  'note': 'Check what "current graduates" means in the position description before applying.'},
     'https://www.quantumcivil.com.au/careers': {'lane': 'engineer', 'why': 'Speculative enquiry for a graduate or junior civil site role, through the careers form'},
-    # read and left in the lane the title gives; something to know before applying
-    '95446060': {'note': 'The advert asks for a recently completed Bachelor of Engineering.'},
-    '95352132': {'note': 'Known from a journal note only (advert not saved): check the advert still gives this email address before sending.'},
-    '95736615': {'note': 'The requirements list says Australian citizenship or permanent residency; the last line of the advert says people who hold full Australian working rights will be considered.'},
+    # read and left in the lane the title gives; something to know before applying. Where the old record was held
+    # until the owner answered (needs_owner_answer_first in the backlog), the question goes to him: 'ask'.
+    '95446060': {'note': 'The advert asks for a recently completed Bachelor of Engineering.',
+                 'ask': "Cooke & Dowsett's advert asks for a recently completed Bachelor of Engineering; yours is from 2019: apply anyway?"},
+    '95352132': {'note': 'The email address is known from a journal note only (advert not saved): find the page where the employer '
+                         'publishes it and record it with queue.py letter --evidence-url before this can be sent.'},
+    '95736615': {'note': 'The requirements list says Australian citizenship or permanent residency; the last line of the advert says people who hold full Australian working rights will be considered.',
+                 'ask': "Fyfe's requirements list says Australian citizenship or permanent residency, but the advert's last line says "
+                        'people who hold full Australian working rights will be considered: apply?'},
     '95655998': {'note': 'Three-year traineeship that requires completing a Diploma of Civil Construction Design at TAFE Ultimo.'},
-    '95842971': {'note': "The advert lists a current Queensland driver's licence."},
+    '95842971': {'note': "The advert lists a current Queensland driver's licence.",
+                 'ask': "Civilivic's advert lists a current Queensland driver's licence; yours is Victorian: apply anyway?"},
     '95773573': {'note': "The advert asks for a civil engineering degree or an equivalent recognised in Australia."},
     'https://au.indeed.com/job/graduate-project-engineer-438ca52bc822d185': {'note': 'Seen on job boards only; an earlier copy had expired. Confirm the advert is live first.'},
     'https://www.simplyhired.com.au/job/6Pbf9pqbHHreuUa9VUxiOFJMue5kUqLT_iod1MlWa9uv9RQgvHXCVw': {'note': "Seen on job-board mirrors only, not on the employer's own board. Find the live advert first."},
@@ -107,7 +113,8 @@ STATUS_ROUTE = {'READY_SEEK': 'SEEK', 'READY_JEREMIE_SEEK': 'SEEK', 'READY_EMPLO
 NEAR_MELTON = ('melbourne', 'melton', 'geelong', 'ballarat', 'southbank', 'williamstown', 'officer vic')
 CITIES = ('Sydney', 'Brisbane', 'Perth', 'Adelaide', 'Canberra', 'Hobart', 'Darwin')
 MONTHS = ('january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december')
-CLOSES = re.compile(r'(?i)\bclos(?:e|es|ing)\b[^\n]{0,60}?\b(\d{1,2})(?:st|nd|rd|th)?\s+(' + '|'.join(MONTHS) + r')\s+(\d{4})')
+CLOSES = re.compile(r'(?i)\bclos(?:e|es|ing)\b[^\n]{0,60}?\b(\d{1,2})(?:st|nd|rd|th)?\s+(' + '|'.join(MONTHS) + r')\s+(\d{4})[^\n]{0,25}')
+CLOCK = re.compile(r'(?i)\b(\d{1,2})(?:[.:](\d{2}))?\s*([ap])\.?m\b')
 
 
 def old_status(row):
@@ -161,10 +168,18 @@ def route_for(row, advert):
 
 
 def closing(row, advert):
-    """(closes_at, closes_source): a date the advert states, an end date the advertiser set, or SEEK's 30-day expiry."""
+    """(closes_at, closes_source): a date the advert states, an end date the advertiser set, or SEEK's 30-day expiry.
+
+    A closing time the advert states ("9am, Wednesday 25 November 2026") is kept as YYYY-MM-DDThh:mm. The queue reads it
+    as Melbourne time, which is never later than the same clock time anywhere else in Australia.
+    """
     stated = CLOSES.search((advert or {}).get('content_text') or '')
     if stated:
-        return date(int(stated.group(3)), MONTHS.index(stated.group(2).lower()) + 1, int(stated.group(1))).isoformat(), 'advert'
+        day = date(int(stated.group(3)), MONTHS.index(stated.group(2).lower()) + 1, int(stated.group(1))).isoformat()
+        clock = CLOCK.search(stated.group(0))
+        if clock and 1 <= int(clock.group(1)) <= 12 and int(clock.group(2) or 0) < 60:
+            day += f"T{int(clock.group(1)) % 12 + (12 if clock.group(3).lower() == 'p' else 0):02d}:{int(clock.group(2) or 0):02d}"
+        return day, 'advert'
     closes = row.get('effective_close_date') or ''
     if not closes:
         return '', 'none'
@@ -224,7 +239,8 @@ def build_entry(row, advert, decision, lane, today, at):
         notes.append('No SEEK questions were saved for this advert: answer any on screen with queue.py answer.')
     email = {}
     if route == 'EMAIL':
-        email = {'to': row.get('apply_email') or '', 'subject': subject, 'body': body, 'evidence_url': evidence or row['url']}
+        # evidence_url only where a draft recorded the page that publishes the address; without it next holds the entry
+        email = {'to': row.get('apply_email') or '', 'subject': subject, 'body': body, 'evidence_url': evidence}
     return {
         'lane': lane, 'route': route, 'company': row['company'], 'role': row['role'], 'location': row.get('location') or '',
         'url': row['url'], 'seek_id': str(row.get('seek_id') or ''), 'listed_at': row.get('listed_date') or '',
@@ -240,7 +256,7 @@ def decide(row, advert, today):
     decision = DECISIONS.get(str(row.get('seek_id') or '')) or DECISIONS.get(row.get('url') or '') or {}
     for rejection in row.get('recorded_rejection_same_employer') or []:  # Australian Ground Technologies, 17 Oct 2026
         return None, decision, ('employer_rejected_him', f"{rejection.get('company')} rejected his application on {rejection.get('date')}")
-    closes = closing(row, advert)[0]
+    closes = closing(row, advert)[0][:10]
     if closes and closes < today:
         return None, decision, ('closed', f'closed {closes}')
     if not re.match(r'https?://', row.get('url') or ''):
@@ -278,6 +294,8 @@ def run(today, at, dry_run=False, source=SOURCE, qdir=None):
                     first['notes'] = first['notes'].replace('No letter text was in the repo for this find: write one.',
                                                             f"Letter text carried over from the duplicate find at {entry['url']}.")
             else:
+                if row.get('needs_owner_answer_first') and not decision.get('ask'):
+                    raise SystemExit(f"{row['company']}: the old record was held for the owner's answer; DECISIONS needs its 'ask' line")
                 seen.update({k: entry for k in keys})
                 kept.append(entry)
         if reject:
@@ -297,7 +315,7 @@ def run(today, at, dry_run=False, source=SOURCE, qdir=None):
         'today': today, 'created_at': at, 'source_rows': len(backlog['backlog']), 'imported': len(kept), 'rejected_total': len(rejected),
         'open_by_route': count(is_open, lambda e: e['route']), 'open_by_lane': count(is_open, lambda e: e['lane']),
         'ask_owner': [{'id': e['id'], 'company': e['company'], 'role': e['role'], 'route': e['route'], 'lane': e['lane'],
-                       'closes_at': e['closes_at'], 'question': e['ask_owner']} for e in kept if e['status'] == 'ASK_OWNER'],
+                       'closes_at': e['closes_at'], 'question': apply_queue.owner_line(e)} for e in kept if e['status'] == 'ASK_OWNER'],
         'rejected_by_reason': count(rejected, lambda r: r['reason']),
         'soonest_real_closing_dates': [{'closes_at': e['closes_at'], 'id': e['id'], 'company': e['company'], 'role': e['role'], 'route': e['route'],
                                         'status': e['status']} for e in sorted((e for e in kept if e['closes_source'] == 'advert'),
