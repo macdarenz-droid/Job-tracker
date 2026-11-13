@@ -1,0 +1,42 @@
+{
+ "seek_id": null,
+ "company": "Griffith City Council",
+ "role": "Graduate Traffic & Design Engineer",
+ "location": "Griffith NSW",
+ "job_url": "https://www.careersatcouncil.com.au/job/graduate-traffic-design-engineer-20261016/",
+ "company_url": "https://www.griffith.nsw.gov.au",
+ "route": "EMPLOYER_PORTAL",
+ "application_type": "ADVERTISED_VACANCY",
+ "vacancy_status": "OPEN_EMPLOYER_PORTAL",
+ "recipient_name": "",
+ "recipient_role": "",
+ "recipient_email": "",
+ "contact_evidence_url": "https://www.careersatcouncil.com.au/job/graduate-traffic-design-engineer-20261016/",
+ "subject": "Graduate Traffic & Design Engineer (Griffith City Council)",
+ "email_body": "",
+ "letter": {
+  "recipient_name": "Hiring Panel",
+  "recipient_role": "",
+  "company": "Griffith City Council",
+  "company_line": "Griffith City Council is recruiting a permanent Graduate Traffic and Design Engineer to support traffic analysis, road safety and heavy vehicle access work for its Engineering Design Section.",
+  "subject": "Graduate Traffic & Design Engineer, Griffith",
+  "greeting": "Dear Hiring Panel,",
+  "paragraphs": [
+   "Please accept my application for the Graduate Traffic and Design Engineer position. Helping the Engineering Design Section with traffic data, road safety proposals and design work is the kind of practical council engineering I want to build a career in.",
+   "I hold a Bachelor of Science in Civil Engineering (Philippines, 2019), and in February 2026 I finished an Advanced Diploma of Civil Construction Design in Australia. In that course I designed and documented road geometry, earthworks, pavement and stormwater drainage, prepared and reviewed drawings in AutoCAD and Civil 3D, and worked with Austroads road and pavement guides and AS 1742.14.",
+   "From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge. I reviewed drawings, carried out site inspections, safety checks and quality monitoring, prepared progress reports and kept clients and other stakeholders up to date.",
+   "Traffic data analysis and heavy vehicle access assessment would be new to me, and my degree is from the Philippines, so I would need to confirm that it is acceptable to Engineers Australia. I hold an Australian driver's licence, have full working rights to December 2027 on a Subclass 485 visa, and am open to discussing relocation to Griffith.",
+   "My resume is attached, and I would welcome the chance to discuss the role."
+  ],
+  "closing": "Kind regards,"
+ },
+ "checklist": [
+  "Resolve the mandatory requirement first: a degree acceptable to Engineers Australia (Marc's Philippine BSCE recognition is unconfirmed); ask the council (Greg Balind, 1300 176 077) whether a 485 graduate with an overseas BSCE is eligible",
+  "Confirm Marc is willing to relocate to Griffith NSW (council offers relocation assistance)",
+  "Search Gmail in:anywhere for Griffith City Council before applying (Gmail was not reachable on this tick)",
+  "Apply through the council portal linked from the careersatcouncil advert by 27 Nov 2026, attaching resume, cover letter, licence and qualification copies",
+  "Record the apply date in /workspace/job-finds"
+ ],
+ "screening_answers": [],
+ "notes": ""
+}
