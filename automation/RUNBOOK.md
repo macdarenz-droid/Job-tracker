@@ -1,111 +1,165 @@
-# RUNBOOK: one discovery tick
+# RUNBOOK: one daily tick
 
-Claude follows this every five hours. Read it fresh each tick (`git show origin/claude/job-search-automation-sg3inr:automation/RUNBOOK.md` if the checkout may be stale). Keep the whole tick under about 25 minutes. Decide, don't ask; write new decisions to `docs/COACHING-DECISIONS.md`.
+Rewritten 13 Nov 2026. The old runbook produced records; this one produces **submitted
+applications**. Read `automation/APPLY.md` first: it is the method, and its rules for
+anything submitted in the owner's name apply to every step here. Read both files fresh
+each tick. Decide, don't ask; write new decisions to `docs/COACHING-DECISIONS.md`.
 
-## Shared safeguards (all runners)
+Order matters: **submit what is waiting before finding anything new.**
 
-Root `AGENTS.md` and `automation/CODEX.md` explain the shared lock, complete-history checks and current review holds. A per-record status or D1 version guard is not a global send lease. Read the full advert and linked essential criteria; record unresolved mandatory requirements as holds, never as ready merely because they are disclosed.
+## 0. Trigger prompt
 
-## 0. Routine prompt (what the schedule sends)
+> Job-application tick. Follow `automation/RUNBOOK.md` and `automation/APPLY.md` in
+> macdarenz-droid/Job-tracker (branch `claude/job-search-automation-sg3inr`): read replies
+> and receipts, clear the apply queue for the routes you can submit, then find and queue
+> new adverts only if the queue is short. End with the daily report in APPLY.md section 9.
 
-> Job-search tick. Follow `automation/RUNBOOK.md` in macdarenz-droid/Job-tracker (branch `claude/job-search-automation-sg3inr`) end to end: sweep, screen, dedupe, contact research, draft, verify, publish to the tracker as Claude, send at most one email only if the Gmail connector is attached, journal, commit and push. At the end write one line: "tick <run_id> done · new <n> · prepared <n> · sent <n> · held <n>". Speak only at a STOP condition otherwise.
+Cadence (`config.json -> schedule`): one full tick a day, early morning Melbourne time,
+and a second submit-only tick (steps 1 to 3) in the early afternoon while the queue is not
+empty. No submissions between 21:00 and 07:00 Melbourne time.
 
-## 1. Setup (2 min)
+## 1. Setup
 
 ```
-cd /home/user/Job-tracker && git fetch origin && git checkout claude/job-search-automation-sg3inr && git pull --ff-only origin claude/job-search-automation-sg3inr
-test -f /root/.job-tracker-code || echo "tracker code file missing: re-create it from the six digits the owner gave in this session (never commit it); if the session has lost them, STOP"
-test -f /home/user/Portfolio/assets/Marc-Darenz-Masarate-Resume.pdf || (cd /home/user && git clone -q https://github.com/macdarenz-droid/Portfolio)
-cd /home/user/Job-tracker/automation/scripts && RUN=$(python3 journal.py start) && python3 tracker.py state
-python3 browse.py trust      # lets headless Chromium read JavaScript-only careers portals through the session proxy (idempotent)
+cd <repo> && git fetch origin && git checkout claude/job-search-automation-sg3inr && git pull --rebase origin claude/job-search-automation-sg3inr
+cd automation/scripts && RUN=$(python3 journal.py start)
+python3 queue.py expire && python3 queue.py stats
 ```
 
-## 2. Discover (5 min)
+Say which routes this runner can submit today (SEEK needs the signed-in SEEK session,
+EMAIL needs the Gmail connector) and work only those. A route you cannot do stays in the
+queue for the runner that can; it is not a reason to stop the tick.
+
+## 2. Replies and receipts (runner with Gmail)
+
+Search Gmail since the last tick for: SEEK receipts (`from:noreply@s.seek.com.au
+"successfully submitted"`), SEEK "unlikely to progress" notices, employer replies and
+bounces to anything sent, and portal acknowledgements (PageUp, Workday and similar). Use
+message-level reads: thread previews show only the oldest five messages. Match each to a
+queue entry or to `prior_outreach.json` and record it (`queue.py mark ... applied` for a
+receipt of something a person submitted by hand; rejections and replies in the entry's
+notes and on the tracker when it accepts writes).
+
+An interview request, a call request or a question from an employer: tell the owner
+**now**, in plain words, with the employer, the role and what they asked.
+
+## 3. Submit the queue
+
+Repeat until `queue.py next` refuses (cap reached, nothing open, or too soon):
+
+```
+python3 queue.py next --route SEEK --by <runner>     # APPLY.md section 5
+python3 queue.py next --route EMAIL --by <runner>    # APPLY.md section 6
+python3 queue.py next --route EMPLOYER_PORTAL --by <runner>   # APPLY.md section 7
+```
+
+Each submission ends with `queue.py mark`, then `git pull --rebase`, commit, push. Never
+hold several marks back for one commit at the end.
+
+## 4. Discover (only when the queue is short)
+
+Skip this step when more than `limits.queue_pause_discovery_above` entries are open, and
+do only a light sweep when `limits.queue_target_open` or more are open. Preparing more
+packs than can be submitted is how 180 packs went stale.
 
 ```
 python3 seek.py sweep --daterange 3 --max-details 60 --out ../runs/$RUN/candidates.json
 python3 tracker.py check ../runs/$RUN/candidates.json --out ../runs/$RUN/candidates.json
 ```
 
-Before the check, when Gmail is attached, refresh `automation/prior_outreach.json` (Marc's own SEEK applications): one `search_threads` for `from:noreply@s.seek.com.au subject:"successfully submitted" newer_than:100d` (pageSize 50), add any receipt not yet listed (`date`, `company`, `role`, `gmail_message_id`). `tracker.py check` reads that file and blocks the same employer within `repeat_block_days`. Thread previews show only the oldest five messages per thread, so the file can miss some; the per-send Gmail search in §8 is the backstop.
+Then one sweep agent on the day's rotation (`config.json -> sweep_rotation`): construction
+materials testing and geotechnical firms' careers pages; land-development and civil design
+consultancies and subdivision contractors; council and state agency job boards. It reads
+JavaScript-only portals with `browse.py`. Each advert it finds is saved as
+`runs/$RUN/extra/<slug>.json` with the same fields as a SEEK candidate.
 
-Then one sweep Agent (see §9) on this run's rotation: (a) six employers from `config.json → target_employers` (rotate by run number; record what was checked in `employers.json`), or (b) council job boards and state government graduate programs, or (c) Victoria off-SEEK adverts (Melbourne west first). Council and corporate portals (applynow, pulse, SuccessFactors, SmartRecruiters, PageUp, Workday, HiBob, careers.vic.gov.au) are JavaScript shells to curl and WebFetch: the agent must read them with `python3 browse.py text URL` and `python3 browse.py links URL --match job` (headless Chromium), and SuccessFactors boards also expose an RSS feed at `/services/rss/job/?keywords=(civil)`. Each advert found is saved as `extra/<slug>.json` (`id`, `source`, `company`, `title`, `location`, `url`, `listed_at`, `expires_at`, `content_text`, `apply_instructions`, `screening_questions`, `is_expired`, `is_link_out`) and then checked with `tracker.py check` (write the list to `extra/_check.json`).
+Widen only once, to `--daterange 7`. A tick that finds nothing new is a valid result.
+There is no quota of records and no speculative enquiry to fill a gap.
 
-**Every tick must end with at least two new tracker records** (owner, 28 Sep 2026: results per loop, high quality). Fewer than six new candidates after dedupe → widen in this order until there are enough: `--daterange 7`, then `--daterange 14`, then `--max-details 80` with `digest --max 40`. Still fewer than two publishable records after screening and verification → one speculative enquiry to a target employer with a verified direct contact (clearly labelled, `SPECULATIVE_ENQUIRY`), which counts as a record. Only when all of that yields nothing is "nothing new" journaled, with the widening steps listed. Never lower the fit threshold or the truth rules to hit the number: widen the search instead.
+## 5. Screen (one agent)
 
-## 3. Screen (one agent, low effort)
+For every new candidate, in this order:
 
-```
-python3 seek.py digest ../runs/$RUN            # compact view of the new candidates, at most 25
-```
-One Agent (effort low) reads `screen_input.json`, `facts.json` and `config.json → fit`, scores every candidate with the rubric, and writes `screen/<id>.json` per candidate: `percent`, `rationale` (3 lines), `caution`, `gaps`, `mandatory_unmet`, `mandatory_unresolved`, `route` (SEEK, EMPLOYER_PORTAL, EMPLOYER_FORM, EMAIL), `apply_email`, `apply_instructions`, `open`, `employer_is_agency`, plus `company`, `title`, `location`, `url`, `listed_at`, `expires_at`, `screening_questions` copied from the input. It returns a ranked table (id, company, title, percent, open, mandatory, route, agency).
+1. **Lane** (`config.json -> lanes`, `seek.py lane_for`): read the duties. Drafter,
+   technician, engineer, or none. None means reject: labouring, traffic control, survey
+   assistant, administration, document control, estimator, project coordinator,
+   student-only roles and formal graduate programs are out.
+2. **Mandatory bars**: citizenship or permanent residency, "no temporary visas", a named
+   Australian degree, current enrolment, a licence or ticket he lacks, a stated minimum of
+   two or more years called essential. Any one: reject. Words like preferred, ideally,
+   desirable and typically are not bars.
+3. **Fit** (`config.json -> fit`, threshold 65).
+4. **Form questions**: answer each with `queue.py answer`. Every mandatory question must be
+   answerable from `facts.json -> answers`.
 
-Keep: `percent >= 60`, `open`, `mandatory_unmet` and `mandatory_unresolved` empty; direct employers before agencies; then by percent and listed date. Take at most `contact_research_max_per_run` (4). Adverts at 60+ with a mandatory problem become `HELD_…` records through `publish.py held`.
+Three outcomes only: `APPLY` (goes to step 6), `ASK_OWNER` (fit is there but one fact is
+missing: one plain question to the owner, never more than three open), `REJECT` with the
+reason in `runs/$RUN/rejected.json`. There is no hold pile.
 
-## 4. Contact research (one agent per kept employer, at most 4, in parallel)
+Rank what will be applied for: lane, then adverts that ask no paid years in the role,
+then newest. Aim to queue an advert within two days of its listing.
 
-Each agent gets the advert (`candidates.json` id or the `extra/` file), the contact rule from `config.json → contact`, and writes `contacts/<id>.json`: `company_url`, `careers_url`, `recipient_name`, `recipient_role`, `recipient_email`, `contact_evidence_url`, `evidence_quote`, `contact_confidence` (`published_direct`, `published_inbox`, `none`), `named_people` (name, role, email if published, evidence_url), `employer_line` (one true, specific line about the employer or role from their site or the advert), `notes`. Sources in order: employer website (about, team, contact, projects, news, capability PDFs), WebSearch for `"<employer>" engineering manager OR director email` and `"@<domain>"`, employer-authored public documents. Never guess or pattern-build, never personal mailboxes, never finder or broker sites, never recruiters. A generic info@ inbox only if the site says it takes applications.
+## 6. Prepare the pack and queue it
 
-## 5. Draft (Claude itself, no agent)
+For each `APPLY`:
 
-Claude writes `drafts/<id>.json` for each kept candidate from the advert, the screen file, the contact file and `facts.json`: `subject`, `email_body` (under 220 words: which advert and where seen; if writing to a named person, that Marc wanted to reach them directly; one paragraph with the three scan facts: Advanced Diploma of Civil Construction Design finished February 2026 with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD; site work in the Philippines 2019 to 2020 as field engineer and project-in-charge; Melton based, White Card, licence and transport, full working rights to December 2027 on a 485 visa, available for site, regional and FIFO work; one specific line from the advert or the employer_line; the honest limit in one clause if the advert asks for something Marc lacks; one clear ask; "I've attached my resume and cover letter."; sign-off with name, phone and the portfolio address written in full as https://macdarenz-droid.github.io/Portfolio, never the bare domain, because Gmail rewrites a bare domain into a long redirect link), `letter` (`recipient_name`, `recipient_role`, `company`, `company_line`, `subject`, `greeting`, 4 or 5 short paragraphs under 340 words, `closing`), and for SEEK or portal routes `screening_answers` and a five-step `checklist`. Also `company`, `role`, `location`, `job_url`, `route`, `recipient_*`, `contact_evidence_url`, `application_type`, `notes`. No banned phrases, no dashes, no exclamation marks, nothing outside `facts.json`.
-
-## 6. Verify (checks.py, then one reviewer agent for all drafts)
-
-```
-python3 publish.py build $RUN        # runs checks.py on every draft; rejected.json lists what failed
-```
-Then one Agent (effort high) reads every `drafts/<id>.json` with `facts.json`, the adverts and the contact files and tries to refute each sentence; returns per draft `false_claims`, `weak_lines`, `tone_issues`, `human_tone` (1 to 5), `specific_to_advert`, `pass`. Claude fixes what it flags and re-runs `publish.py build`. A draft that still fails is dropped from this run, not sent.
-
-## 7. Publish to the tracker (3 min)
-
-Every record also carries, in `notes`, a plain-words "HOW CLAUDE FOUND THIS" paragraph (source, dates, how the contact was found, what was and was not sent) and an "IF THEY CALL, LIKELY QUESTIONS" list with short honest answers from `facts.json`, so Marc can prepare for a phone call. `publish.py` writes both; keep them current when the status changes.
-
-`publish.py` does all of this from the run folder; the steps are listed so a failure can be finished by hand. For each verified candidate:
-1. `python3 render_pdf.py letter drafts/<id>.json ../runs/$RUN/Marc_Masarate_<Company>_<Role>_Cover_Letter.pdf`, then open the PDF and read it back (page count 1, name and role correct).
-2. Upload both PDFs: `python3 tracker.py upload <cover.pdf> cover` and `python3 tracker.py upload /home/user/Portfolio/assets/Marc-Darenz-Masarate-Resume.pdf resume --filename Marc_Masarate_<Company>_Resume.pdf`. Keep the returned objects as `attachments` (each carries `kind`, `sha256`, `stored_in: cloudflare_r2`).
-3. Build the record with `tracker.new_record(...)`: `company`, `role`, `location`, `job_url`, `company_url`, `status`, `application_type` (`ADVERTISED_VACANCY` or `SPECULATIVE_ENQUIRY`), `application_route`, `application_method` (display: Email, SEEK, Company website), `recipient_*`, `contact_email` (same as recipient_email), `contact_evidence_url`, `contact_verified_at`, `subject`, `email_body`, `fit`, `gaps`, `match_score {percent, method, rationale, caution}`, `advert {source, listed_at, expires_at, verified_at, apply_instructions, screening_questions}`, `screening_answers`, `checklist`, `notes`, `checked_at`, `attachments`, `seek_id`.
-   Status: `PREPARED_NOT_SENT` when a verified email recipient exists; `READY_JEREMIE_SEEK` or `READY_JEREMIE_EMPLOYER_PORTAL` otherwise; `HELD_<REASON>` for mandatory problems.
-4. `python3 checks.py record <record.json>` must print OK for every `PREPARED_NOT_SENT` record.
-5. `python3 tracker.py add ../runs/$RUN/records.json`. Read the response: records the guard skipped as duplicates are journaled, not retried.
-6. Confirm on the live state: `python3 tracker.py list --mine`.
-
-## 8. Send (only when the Gmail connector is attached; otherwise skip)
-
-At most one per run. Pick the highest-fit `PREPARED_NOT_SENT` record whose advert is still open (re-check with `seek.py details`).
-1. First acquire and verify the actual shared canonical-journal lease under its current-version guard (unique owner and bounded expiry); preserve another active lease and hold if inaccessible. Save exact intended send evidence there. Only then mark this row: `tracker.py update <id> '{"status":"SENDING"}' --expect-status PREPARED_NOT_SENT`. A 409 or a status mismatch means stop and re-read.
-2. Final checks: `tracker.py check` on the record again (no new outreach to the employer since); a Gmail `search_threads` for the employer's domain and name with `in:anywhere` (SEEK receipts, earlier emails, bounces, rejections; a hit inside `repeat_block_days` means hold as `HELD_PRIOR_APPLICATION`, never send); `checks.py record`; open both PDFs from R2 and read them; confirm the recipient against `contact_evidence_url` once more.
-3. Attachments: the Gmail tool takes inline base64, and long base64 is easy to mis-copy. Render compact PDFs (`compact_pdf.py letter` and `compact_pdf.py resume`, base-14 fonts, merged content streams; about 2 KB and 5 KB; the portfolio address and email in them are clickable), print each base64, paste it into a heredoc file and check `sha256sum` against the PDF before using it; a mismatch means re-copy (or regenerate the PDF with different metadata and try again). Only verified strings go into the send call. A 400 from the tool names the bad attachment; nothing was sent, so fix and retry.
-4. Send with the Gmail tool: to `recipient_email`, subject, `body` = the plain `email_body`, `htmlBody` = `email_html.py drafts/<id>.json` output (same words; every URL becomes an anchor whose visible text is the clean address, because the connector rewrites every URL it finds into a google.com redirect and only the anchor text survives), both PDFs attached, from macdarenz@gmail.com. Never send without `htmlBody`. Record the returned message id.
-5. `tracker.py update <id> '{"status":"SENT","sent_at":"<now>","gmail_message_id":"<id>","application_method":"Email","sent_attachments":[...]}' --expect-status SENDING`.
-6. No message id or an error after the send call: `SEND_UNCERTAIN` with the error text; do not retry in this or any later run until Gmail Sent is checked. A bounce seen later: `DELIVERY_FAILED`.
-7. Double touch is not a duplicate-application exception. It needs explicit owner authority, an appropriate verified named contact, and all root AGENTS checks; never automatically email HR another CV package. An otherwise permitted email to a direct contact about an advert that must go through SEEK or a portal is sent only after that record is `MANUAL_APPLIED` (Marc or Jeremie pressed Applied).
-
-Follow-ups: a `SENT` record older than `follow_up_after_days` with no reply noted (`reply_at` empty) and `follow_ups` under `max_follow_ups` is eligible; it counts as the run's one email, uses the same lease, and is a three-sentence note.
-
-## 9. Agent budget (owner: about 5 to 6 on a 10 scale)
-
-Per tick at most seven agents: one sweep (rotating: employers, councils and government, Victoria off-site, see `config.json → sweep_rotation` by run number), one screening agent, up to four contact-research agents in parallel, one reviewer. Claude drafts and publishes itself. No per-candidate screening agents, no panels, no duplicate reviewers. Use the Agent tool directly; no Workflow orchestration.
-
-Depth is not capped (owner, 28 Sep 2026): each agent reads as far into the web as a candidate needs (employer site, project pages, PDFs, council papers, news) to find the hiring person and one true specific line. The cap is on how many agents run, not on how thoroughly each one works. What counts every tick is at least two publishable, high-quality records with a real chance of an interview.
-
-## 10. Close (2 min)
+- `resume_variant`: the lane.
+- `cover_letter_text`: at most 200 words, three short paragraphs (APPLY.md section 8). The
+  first sentence carries one true, specific line from the advert. No sentence about what
+  he lacks. `relocation_line` when the job is outside daily travel distance of Melton VIC.
+- Route: `SEEK` when the advert uses SEEK's own apply; `EMAIL` only when the employer
+  publishes an address for applications (record where, in `email.evidence_url`);
+  `EMPLOYER_PORTAL` or `EMPLOYER_FORM` for link-outs.
+- `questions`: every form question with its answer and the `facts.json` line behind it.
 
 ```
-python3 journal.py note $RUN stage=end new=<n> prepared=<n> ready=<n> held=<n> sent=<n> duplicates=<n> nothing_new=<true|false>
-cd /home/user/Job-tracker && git add automation docs && git commit -m "Job-search tick <run_id>: <n> new records" && git push -u origin claude/job-search-automation-sg3inr
+python3 checks.py draft ../runs/$RUN/drafts/<id>.json      # tone, length, truth
+python3 queue.py add ../runs/$RUN/drafts/<id>.json
 ```
 
-STOP conditions (say them, then end the turn): tracker code missing; tracker API down for the whole tick; Gmail connector needed for a send; the branch cannot be pushed; a `SEND_UNCERTAIN` record exists.
+One reviewer agent then reads everything queued in this tick and tries to refute each
+sentence and each answer against `facts.json`. One confirmed false or unsupported claim:
+fix it or `queue.py mark <id> skipped`.
 
-## 11. Bounds
+Go back to step 3 once: fresh adverts are worth submitting the same day.
+
+## 7. Tracker
+
+The queue is the source of truth for what is waiting. The tracker website is the owner's
+view of history. When the tracker accepts writes, mirror each queue entry and each change
+of status to it with `tracker.py`. If a tracker write fails, say so once in the daily
+report and carry on: a full or broken tracker never stops an application again.
+
+## 8. Close
+
+```
+python3 queue.py render
+python3 journal.py note $RUN stage=end queue_open=<n> applied=<n> seek_submitted=<n> emails_sent=<n> portal_submitted=<n> expired_unsubmitted=<n> replies=<n> interviews=<n> new_adverts_screened=<n> queued=<n> rejected=<n> ask_owner=<n> nothing_new=<true|false>
+git add automation docs && git commit -m "Job-application tick <run_id>: <n> applied" && git pull --rebase && git push
+```
+
+Then the daily report to the owner, in the form in APPLY.md section 9.
+
+Commit run folders without the full candidate dumps when they are large; `runs/` is a
+working log, not the product.
+
+## 9. Stop conditions
+
+Say it, then end the turn: SEEK or a portal challenges, limits or warns the account; a
+send whose outcome is uncertain; the branch cannot be pushed; a rule in `AGENTS.md` or
+`APPLY.md` would have to be broken to continue. A full tracker, a missing connector or an
+empty search is **not** a stop condition: do the other steps.
+
+## 10. Bounds
 
 | Item | Limit |
 |---|---|
-| SEEK detail fetches | 60 (80 when widening; digest up to 40) |
-| New records per run | 6 (target at least 2, only when eligible) |
-| Emails per run | 1 |
-| Speculative enquiries per run | 1 |
-| Repeat block per employer | 90 days |
-| Email length | 220 words |
-| Cover letter | one page, 340 words |
+| SEEK submissions | 6 a day, at least 20 minutes apart |
+| Emails | 3 a day (follow-ups included) |
+| Portal or form submissions | 3 a day |
+| Open questions to the owner | 3 |
+| Speculative approaches | 3 a week, labelled, to a published application address only |
+| Repeat block | same employer and role, 90 days after a real submission or rejection |
+| Email | 130 words |
+| Cover letter | 200 words |
+| Agents per tick | 4 (sweep, screen, reviewer, one spare) |
