@@ -1,27 +1,39 @@
 {
- "_source": "Portfolio resume.html (macdarenz-droid/Portfolio) and Portfolio docs/DECISIONS.md, read 28 Sep 2026. Every claim in an application must trace to a line here. Nothing else may be claimed.",
+ "_source": "Portfolio resume.html (macdarenz-droid/Portfolio) and Portfolio docs/DECISIONS.md, read 28 Sep 2026; owner answers of 13 Nov 2026 (Australian work, notice, salary band, police check, relocation, diploma dates) and two facts the owner asked to be looked up in his own Gmail the same day (BP start month, licence emails). Every claim in an application must trace to a line here. Nothing else may be claimed.",
  "identity": {
   "name": "Marc Darenz Masarate",
   "short_name": "Marc",
-  "title": "Graduate Civil Engineer | Civil Construction Design",
+  "title": "Civil Construction Design (Advanced Diploma, February 2026) | AutoCAD, Civil 3D, Revit",
   "location": "Melton VIC 3337",
   "phone": "0478 764 077",
   "email": "macdarenz@gmail.com",
   "portfolio_url": "https://macdarenz-droid.github.io/Portfolio",
   "resume_pdf_url": "https://macdarenz-droid.github.io/Portfolio/assets/Marc-Darenz-Masarate-Resume.pdf",
-  "resume_pdf_repo_path": "../Portfolio/assets/Marc-Darenz-Masarate-Resume.pdf"
+  "resume_pdf_repo_path": "../Portfolio/assets/Marc-Darenz-Masarate-Resume.pdf",
+  "titles": {
+   "_about": "One headline per role lane (automation/config.json -> lanes). 'Graduate Civil Engineer' is retired: employers read 'graduate' as a degree finished in the last two years.",
+   "drafter": "Civil Construction Design (Advanced Diploma, February 2026) | AutoCAD, Civil 3D, Revit",
+   "technician": "Civil Construction Design (Advanced Diploma, 2026) | Site inspection and quality-check experience | White Card, driver's licence",
+   "engineer": "Civil engineering graduate | Site experience as field engineer and project-in-charge | Advanced Diploma of Civil Construction Design (2026)"
+  }
  },
  "eligibility": {
   "work_rights": "Subclass 485 visa: full working rights until December 2027",
-  "drivers_licence": "Australian driver's licence and own reliable transport",
+  "drivers_licence": "Current Victorian driver's licence and own reliable transport",
   "white_card": "White Card (Construction Induction)",
   "wwcc": "Working with Children Check",
   "availability": [
    "Available for site, office and regional project work",
-   "Available for FIFO work and project-site travel across Central Queensland",
-   "FIFO and regional travel"
+   "Available for FIFO work and project-site travel",
+   "Can start two weeks after an offer"
   ],
-  "relocation": "Open to discussing relocation for the right role. Wording taken from applications the owner's authorised worker sent on 12 September 2026 (for example WML Consulting Engineers: 'open to discussing relocation to Bunbury or West Perth'). Applications may say 'open to discussing relocation'; they never promise a move, a date or funding. Marc to confirm interstate moves."
+  "relocation": "Owner, 13 Nov 2026: will take a job anywhere in Australia. For a role outside daily travel distance of Melton VIC, applications say 'I will relocate to <city or region> for this role and can start two weeks after an offer.' Do not promise who pays for the move.",
+  "work_rights_short": "Full working rights in Australia (Subclass 485 visa), no sponsorship needed",
+  "work_rights_rule": "Headers, emails and letters use work_rights_short. The end date is given in the resume's eligibility section, in form answers that ask about work rights, and in a letter only when the advert asks about visa or residency. Never claim citizenship or permanent residency.",
+  "drivers_licence_detail": "Victorian. Full or probationary, and automatic-only or manual, are NOT confirmed (owner on 13 Nov 2026: 'I think full, automatic'; a VicRoads email of March 2025 shows a probationary licence at that date; the licence was verified in SEEK Pass in June 2026). Until the owner confirms from the card, say only 'current Victorian driver's licence'.",
+  "police_check": "Holds a current National Police Certificate (owner, 13 Nov 2026)",
+  "medical_and_drug_tests": "Willing to do pre-employment medical and drug and alcohol tests (owner, 13 Nov 2026)",
+  "notice_period": "2 weeks (owner, 13 Nov 2026)"
  },
  "education": [
   {
@@ -34,7 +46,9 @@
     "Prepared and reviewed technical drawings in AutoCAD and Civil 3D, applying Australian Standards and construction requirements",
     "Gained a practical understanding of design coordination, constructability, technical reporting and how civil works move from concept to documentation",
     "Lodged Before You Dig Australia (formerly DBYD) enquiries, followed its procedures, and designed around existing services and site constraints"
-   ]
+   ],
+   "code": "RII60520",
+   "dates_note": "Owner confirmed February 2024 to February 2026 on 13 Nov 2026. Documents made in September 2026 that say December 2024 are wrong and must not be reused."
   },
   {
    "qualification": "Bachelor of Science in Civil Engineering (BSCE)",
@@ -46,6 +60,16 @@
   }
  ],
  "experience": [
+  {
+   "role": "Console Operator (casual)",
+   "employer": "bp Rockbank Inbound (operated by Rampage Group), Rockbank VIC",
+   "dates": "May 2024 – present",
+   "basis": "Casual, under 20 hours a week (owner, 13 Nov 2026). Start month from the employer's welcome and letter-of-offer emails of May 2024.",
+   "points": [
+    "Customer service and console operation at a service station, held alongside full-time study in the Advanced Diploma"
+   ],
+   "use": "List first under work history as current Australian work. It shows local work history and reliability and closes the gap after 2022. Do not present it as civil experience. Duties beyond the one line above are not on record: ask the owner before adding any."
+  },
   {
    "role": "Project-in-Charge Engineer (Entry Level)",
    "employer": "JustBuilt, Philippines",
@@ -124,24 +148,83 @@
  ],
  "honest_limits": [
   "Software experience (AutoCAD, Civil 3D, Revit) is academic, not commercial production drafting",
-  "No Australian site or office work experience yet; site work was in the Philippines in 2019–2020",
+  "No Australian civil site or office work experience yet; site work was in the Philippines in 2019–2020 and current Australian work is the casual console operator role",
   "Bachelor degree completed 2019; Advanced Diploma completed February 2026",
   "Work rights are time-limited (Subclass 485 until December 2027); do not claim permanent residency or citizenship",
   "Did not use SIDRA, OpenRoads or Excel modelling",
   "Referees are given on request only; never name them",
   "Has not used Microsoft Project, survey instruments (Total Station, GNSS), Pryda software, GIS software or Main Roads WA standards on a job",
-  "No start date, notice period, salary figure or police-check status is on record; leave those for Marc to answer",
   "Has not worked on water, sewer or wastewater projects; site work was a building renovation and subdivision finishing works",
   "Has not worked on substation, transmission, solar or other renewable energy projects",
   "Regional and Central Queensland FIFO availability is on record; no preference for any state or region beyond that is on record",
-  "Has not used Bluebeam, E1 or Benchmark estimating software; estimating experience is coursework (cost estimates and bills of quantities), not a paid estimating role"
+  "Has not used Bluebeam, E1 or Benchmark estimating software; estimating experience is coursework (cost estimates and bills of quantities), not a paid estimating role",
+  "No specific start date or salary figure beyond the standing answers in 'answers' is on record",
+  "What he did between April 2022 and February 2024 (when the Advanced Diploma started) is not on record: do not write about that period; if a form demands it, stop and report",
+  "Whether the 'residential subdivision finishing works' were roads and drainage or house finishes is not on record: do not call them civil infrastructure"
  ],
  "never_mention": [
   "residency or migration goals",
+  "skills assessments or visa plans beyond the work-rights line",
   "sponsorship requests unless the advert asks",
   "referee names or numbers",
   "assessor or classmate names",
-  "school IDs"
+  "school IDs",
+  "what he lacks (see honest_limits_rule)"
  ],
- "references": "Available on request."
+ "references": "Available on request.",
+ "honest_limits_rule": "These limits stop false claims. They are NOT text for applications: never volunteer a limit in an email, letter or free-text answer. If an advert makes something he lacks mandatory, do not apply. Otherwise say what he has done and answer direct questions truthfully.",
+ "answers": {
+  "_about": "Standing answers for application forms, approved by the owner on 13 Nov 2026. A submitter gives only an answer that is written here or follows directly from another part of this file. A mandatory question with no answer here: do not submit that application; report the exact question and its options so the owner can answer once.",
+  "right_to_work": {
+   "choose": "The option that names a graduate temporary work visa (Subclass 485). If the list has no such option, choose the temporary visa option that has no restriction on hours or industry.",
+   "never_choose": [
+    "Australian citizen",
+    "permanent resident or New Zealand citizen",
+    "any option that says sponsorship is required"
+   ],
+   "free_text": "Subclass 485 Temporary Graduate visa with full working rights until December 2027. No sponsorship needed.",
+   "if_unsure": "Skip the application and report the options shown."
+  },
+  "notice_period": "2 weeks",
+  "expected_salary": {
+   "rule": "If the advert states pay, choose the band that contains the advertised figure (the lower end when it is a range). If the advert states no pay, choose $65,000 to $75,000.",
+   "single_figure_when_no_pay_stated": "70000 (midpoint of the owner's band; set by Claude on 13 Nov 2026, owner may change it)"
+  },
+  "drivers_licence": "Yes. If the form asks full or probationary, or manual or automatic: not confirmed, skip and report.",
+  "own_car_or_regular_access": "Yes",
+  "white_card": "Yes",
+  "police_check": "Yes, current National Police Certificate",
+  "pre_employment_medical": "Yes",
+  "drug_and_alcohol_screening": "Yes",
+  "currently_studying": "No",
+  "willing_to_relocate": "Yes, anywhere in Australia",
+  "willing_to_travel_or_fifo": "Yes",
+  "qualification_questions": {
+   "civil engineering": "Yes: Bachelor of Science in Civil Engineering (2019)",
+   "engineering": "Yes",
+   "engineering drafting or design": "Yes: Advanced Diploma of Civil Construction Design, RII60520 (February 2026)",
+   "any other named qualification": "Only if it is in 'education' or 'eligibility'; otherwise No"
+  },
+  "years_of_experience": {
+   "civil engineer, site engineer, project engineer, construction industry": "Choose the option that contains 11 months (usually 'Less than 1 year'): April 2019 to February 2020, Philippines.",
+   "drafter, draftsperson, designer, CAD": "Choose the lowest option (no paid role). Free text if offered: 'Two years of design and drafting in AutoCAD and Civil 3D in the Advanced Diploma of Civil Construction Design, 2024 to 2026.'",
+   "laboratory, materials testing, technician, estimator, project coordinator, project management, any other role": "Choose the lowest option (no paid role).",
+   "rule": "Never choose an option higher than the facts support. An advert whose only gate is paid years in the role is low yield: rank it last, do not inflate the answer."
+  },
+  "software": {
+   "CAD": "AutoCAD, Civil 3D and Revit only. Never tick 12d, MicroStation, OpenRoads, Tekla, SIDRA or anything else.",
+   "Microsoft Office": "Yes. If individual products must be ticked: not confirmed, skip and report.",
+   "other": "Only what is in capabilities.software"
+  },
+  "experience_yes_no": {
+   "engineering drawing interpretation": "Yes",
+   "site inspections, quality checks, progress reports, coordinating crews": "Yes",
+   "preparing and submitting tenders": "No",
+   "civil infrastructure projects": "Not confirmed (see honest_limits): if mandatory, skip and report",
+   "anything else": "Yes only if a line in 'experience' or 'education' supports it; otherwise No"
+  },
+  "english_self_rating": "Not on record: skip and report",
+  "referees": "Available on request. Never enter a name or number.",
+  "free_text_cover_letter": "Use the cover letter text from the queue entry, unchanged."
+ }
 }
