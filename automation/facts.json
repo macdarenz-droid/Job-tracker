@@ -199,6 +199,9 @@
   "currently_studying": "No",
   "willing_to_relocate": "Yes, anywhere in Australia",
   "willing_to_travel_or_fifo": "Yes",
+  "manual_licence": "No (automatic)",
+  "future_visa_sponsorship": "Not answered here: if a form asks whether he will need sponsorship in the future, skip and report (the owner decides this wording). 'Do you need sponsorship to work now?': No.",
+  "engineers_australia_membership_or_recognition": "Not on record: skip and report. Never tick member, eligible or assessed.",
   "qualification_questions": {
    "civil engineering": "Yes: Bachelor of Science in Civil Engineering (2019)",
    "engineering": "Yes",
@@ -207,7 +210,7 @@
   },
   "years_of_experience": {
    "civil engineer, site engineer, project engineer, construction industry": "Choose the option that contains 11 months (usually 'Less than 1 year'): April 2019 to February 2020, Philippines.",
-   "drafter, draftsperson, designer, CAD": "Choose the lowest option (no paid role). Free text if offered: 'Two years of design and drafting in AutoCAD and Civil 3D in the Advanced Diploma of Civil Construction Design, 2024 to 2026.'",
+   "drafter, draftsperson, designer, CAD": "Choose the lowest option (no paid drafting role). Free text if offered: 'No paid drafting role. Prepared and reviewed drawings in AutoCAD and Civil 3D in the Advanced Diploma of Civil Construction Design (February 2024 to February 2026).' Never write 'two years of drafting': the diploma ran two years but drafting was part of it.",
    "laboratory, materials testing, technician, estimator, project coordinator, project management, any other role": "Choose the lowest option (no paid role).",
    "rule": "Never choose an option higher than the facts support. An advert whose only gate is paid years in the role is low yield: rank it last, do not inflate the answer."
   },

@@ -109,12 +109,16 @@ runner submits the same entry.
 Owner's decision, 13 Nov 2026: Grok submits SEEK applications from the machine where the
 owner's SEEK account is signed in.
 
-Recorded so nobody is surprised later: SEEK's Terms of Use (the version dated 20 July
-2026, read on 13 Nov 2026) describe the site as for individual human use and forbid
-automated tools and sharing login details, and SEEK may suspend an account. The owner was
-told this on 13 Nov 2026 and chose this route. If SEEK ever challenges, limits or warns
-the account, stop every SEEK submission at once and tell the owner; do not try to get
-round a check.
+Recorded so nobody is surprised later. SEEK's Terms of Use (the page headed "Last updated on
+20 July 2026", read on 13 Nov 2026) say its websites and apps "are designed for individual
+human use", tell users not to "share with a third party any login credentials" and not to
+"apply for any job on behalf of another party", and say SEEK may suspend a candidate account
+it reasonably believes is used in a way that violates the terms. The terms do not mention AI
+agents filling in an application; two reviewers read this route as a likely breach, at SEEK's
+discretion. The owner was told this on 13 Nov 2026 and chose this route for his own account.
+If SEEK ever challenges, limits or warns the account, stop every SEEK submission at once and
+tell the owner. Never try to get round a check: the terms say circumventing their measures
+against automated access "is prohibited and may result in suspension or termination".
 
 For each entry from `queue.py next --route SEEK --by Grok`:
 
