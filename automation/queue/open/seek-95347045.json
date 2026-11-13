@@ -31,7 +31,7 @@
   {
    "question": "How many years' experience do you have as a Quality Assurance Trainee?",
    "options": [],
-   "answer": "Choose the lowest option (no paid role).",
+   "answer": "Choose the lowest option (no paid role in that role). This row never covers an engineering title: a graduate, junior, site, project or civil engineer title is answered from the first row.",
    "basis": "answers.years_of_experience.laboratory, materials testing, technician, estimator, project coordinator, project management, any other role",
    "status": "answered"
   },

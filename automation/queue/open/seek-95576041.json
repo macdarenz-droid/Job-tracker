@@ -31,7 +31,7 @@
   {
    "question": "How many years' experience do you have as a civil drafter?",
    "options": [],
-   "answer": "Choose the lowest option (no paid role). Free text if offered: 'Two years of design and drafting in AutoCAD and Civil 3D in the Advanced Diploma of Civil Construction Design, 2024 to 2026.'",
+   "answer": "Choose the lowest option (no paid drafting role). Free text if offered: 'No paid drafting role. Prepared and reviewed drawings in AutoCAD and Civil 3D in the Advanced Diploma of Civil Construction Design (February 2024 to February 2026).' Never write 'two years of drafting': the diploma ran two years but drafting was part of it.",
    "basis": "answers.years_of_experience.drafter, draftsperson, designer, CAD",
    "status": "answered"
   },
@@ -52,7 +52,7 @@
   {
    "question": "How many years' experience do you have as a Civil Design Draftsperson?",
    "options": [],
-   "answer": "Choose the lowest option (no paid role). Free text if offered: 'Two years of design and drafting in AutoCAD and Civil 3D in the Advanced Diploma of Civil Construction Design, 2024 to 2026.'",
+   "answer": "Choose the lowest option (no paid drafting role). Free text if offered: 'No paid drafting role. Prepared and reviewed drawings in AutoCAD and Civil 3D in the Advanced Diploma of Civil Construction Design (February 2024 to February 2026).' Never write 'two years of drafting': the diploma ran two years but drafting was part of it.",
    "basis": "answers.years_of_experience.drafter, draftsperson, designer, CAD",
    "status": "answered"
   }
