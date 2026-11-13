@@ -19,7 +19,7 @@
  },
  "eligibility": {
   "work_rights": "Subclass 485 visa: full working rights until December 2027",
-  "drivers_licence": "Current Victorian driver's licence and own reliable transport",
+  "drivers_licence": "Full Victorian driver's licence and own reliable transport",
   "white_card": "White Card (Construction Induction)",
   "wwcc": "Working with Children Check",
   "availability": [
@@ -30,8 +30,8 @@
   "relocation": "Owner, 13 Nov 2026: will take a job anywhere in Australia. For a role outside daily travel distance of Melton VIC, applications say 'I will relocate to <city or region> for this role and can start two weeks after an offer.' Do not promise who pays for the move.",
   "work_rights_short": "Full working rights in Australia (Subclass 485 visa), no sponsorship needed",
   "work_rights_rule": "Headers, emails and letters use work_rights_short. The end date is given in the resume's eligibility section, in form answers that ask about work rights, and in a letter only when the advert asks about visa or residency. Never claim citizenship or permanent residency.",
-  "drivers_licence_detail": "Victorian. Full or probationary, and automatic-only or manual, are NOT confirmed (owner on 13 Nov 2026: 'I think full, automatic'; a VicRoads email of March 2025 shows a probationary licence at that date; the licence was verified in SEEK Pass in June 2026). Until the owner confirms from the card, say only 'current Victorian driver's licence'.",
-  "police_check": "Holds a current National Police Certificate (owner, 13 Nov 2026)",
+  "drivers_licence_detail": "Full Victorian licence (owner, 13 Nov 2026: 'it's full now'). Transmission: the owner believes automatic only; not checked against the card. Never claim a manual licence.",
+  "police_check": "Holds an AFP National Police Check certificate issued in March 2026 (application received 19 March 2026; certificate forwarded 23 March 2026; found in his Gmail at his request on 13 Nov 2026). It was obtained for his visa. Treat it as current until March 2027; after that the answer is 'willing to obtain one'. Some employers ask for a check issued for employment or within the last 3 to 6 months: he is willing to get a new one.",
   "medical_and_drug_tests": "Willing to do pre-employment medical and drug and alcohol tests (owner, 13 Nov 2026)",
   "notice_period": "2 weeks (owner, 13 Nov 2026)"
  },
@@ -190,10 +190,10 @@
    "rule": "If the advert states pay, choose the band that contains the advertised figure (the lower end when it is a range). If the advert states no pay, choose $65,000 to $75,000.",
    "single_figure_when_no_pay_stated": "70000 (midpoint of the owner's band; set by Claude on 13 Nov 2026, owner may change it)"
   },
-  "drivers_licence": "Yes. If the form asks full or probationary, or manual or automatic: not confirmed, skip and report.",
+  "drivers_licence": "Yes, full Victorian driver's licence. If the form asks manual or automatic: automatic. Never tick manual.",
   "own_car_or_regular_access": "Yes",
   "white_card": "Yes",
-  "police_check": "Yes, current National Police Certificate",
+  "police_check": "Yes (AFP National Police Check certificate, March 2026). If the form asks for the issue date: March 2026. If it asks whether it was issued for employment, or within the last 3 or 6 months: answer truthfully (No) and add, where free text is offered, 'Willing to obtain a new check.' From March 2027 the answer becomes: No, willing to obtain one.",
   "pre_employment_medical": "Yes",
   "drug_and_alcohol_screening": "Yes",
   "currently_studying": "No",
