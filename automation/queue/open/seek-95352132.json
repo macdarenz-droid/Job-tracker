@@ -1,0 +1,32 @@
+{
+ "id": "seek-95352132",
+ "lane": "engineer",
+ "route": "EMAIL",
+ "company": "J&P Building Solutions",
+ "role": "Graduate Civil/Structural Engineer",
+ "location": "South Melbourne VIC",
+ "url": "https://www.seek.com.au/job/95352132",
+ "seek_id": "95352132",
+ "listed_at": "",
+ "closes_at": "2026-11-18",
+ "closes_source": "listing_expiry",
+ "fit": 62,
+ "resume_variant": "engineer",
+ "relocation_line": "",
+ "cover_letter_text": "",
+ "email": {
+  "to": "admin@jpbs.com.au",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [],
+ "status": "OPEN",
+ "ask_owner": "",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "import_backlog.py",
+ "created_at": "2026-11-13T00:40:00Z",
+ "source_run": "20261112T0116Z",
+ "notes": "letter written under the old rules: rewrite before use\nImported from the backlog of 2026-11-13 (old status PREPARED_NOT_SENT). Fit 62% is from the old rubric.\nThe email address is known from a journal note only (advert not saved): find the page where the employer publishes it and record it with queue.py letter --evidence-url before this can be sent.\nNo letter text was in the repo for this find: write one."
+}

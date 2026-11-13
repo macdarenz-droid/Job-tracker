@@ -1,0 +1,54 @@
+{
+ "id": "seek-95378071",
+ "lane": "drafter",
+ "route": "SEEK",
+ "company": "All Seasons Communications Pty Ltd",
+ "role": "Civil Engineering Draftsperson",
+ "location": "Perth WA",
+ "url": "https://www.seek.com.au/job/95378071",
+ "seek_id": "95378071",
+ "listed_at": "2026-10-20",
+ "closes_at": "2026-11-20",
+ "closes_source": "listing_expiry",
+ "fit": 63,
+ "resume_variant": "drafter",
+ "relocation_line": "I will relocate to Perth for this role and can start two weeks after an offer.",
+ "cover_letter_text": "I saw your Civil Engineering Draftsperson advert on SEEK. You ask for a Diploma or Advanced Diploma in civil engineering or engineering drafting, and I finished my Advanced Diploma of Civil Construction Design in February 2026, so I am applying.\n\nAt Albright Institute I designed and documented road geometry, earthworks, pavement and stormwater drainage, and prepared and reviewed technical drawings in AutoCAD and Civil 3D to Australian Standards. I also lodged Before You Dig Australia enquiries and designed around existing services and site constraints, which ties in with the pit and pipe and trenching work your team builds. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019).\n\nFrom 2019 to 2020 I worked on site in the Philippines as project-in-charge on a community hall renovation and then as a field engineer on residential subdivision finishing works. I reviewed drawings against project requirements, flagged issues that needed clarification, wrote site reports and kept progress and material records, much like the checking and drawing register work in your advert.\n\nMy drafting so far is from study rather than a paid drafting job, so I would start at junior level and learn your standards and as-built process. I am based in Melton VIC and open to discussing relocation to Perth. I have a White Card, a driver's licence and full working rights to December 2027 on a Subclass 485 visa.\n\nI have attached my resume and would be glad to talk about the role.",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [
+  {
+   "question": "Which of the following statements best describes your right to work in Australia?",
+   "options": [],
+   "answer": "The option that names a graduate temporary work visa (Subclass 485). If the list has no such option, choose the temporary visa option that has no restriction on hours or industry.",
+   "basis": "answers.right_to_work.choose",
+   "status": "answered"
+  },
+  {
+   "question": "How many years' experience do you have as a civil drafter?",
+   "options": [],
+   "answer": "Choose the lowest option (no paid role). Free text if offered: 'Two years of design and drafting in AutoCAD and Civil 3D in the Advanced Diploma of Civil Construction Design, 2024 to 2026.'",
+   "basis": "answers.years_of_experience.drafter, draftsperson, designer, CAD",
+   "status": "answered"
+  },
+  {
+   "question": "How much notice are you required to give your current employer?",
+   "options": [],
+   "answer": "2 weeks",
+   "basis": "answers.notice_period",
+   "status": "answered"
+  }
+ ],
+ "status": "OPEN",
+ "ask_owner": "",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "import_backlog.py",
+ "created_at": "2026-11-13T00:40:00Z",
+ "source_run": "20261020T2317Z",
+ "notes": "letter written under the old rules: rewrite before use\nImported from the backlog of 2026-11-13 (old status READY_SEEK). Fit 63% is from the old rubric."
+}

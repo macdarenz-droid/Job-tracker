@@ -1,0 +1,32 @@
+{
+ "id": "seek-95823436",
+ "lane": "drafter",
+ "route": "EMPLOYER_PORTAL",
+ "company": "Cairns Regional Council",
+ "role": "Cadet Designer",
+ "location": "Cairns, Far North QLD",
+ "url": "https://www.seek.com.au/job/95823436",
+ "seek_id": "95823436",
+ "listed_at": "2026-11-11",
+ "closes_at": "2026-11-25T23:30",
+ "closes_source": "advert",
+ "fit": 68,
+ "resume_variant": "drafter",
+ "relocation_line": "I will relocate to Cairns for this role and can start two weeks after an offer.",
+ "cover_letter_text": "",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [],
+ "status": "ASK_OWNER",
+ "ask_owner": "Cairns Regional Council's Cadet Designer job runs for up to six years and includes studying an Associate Degree in Engineering (Civil): would you enrol and apply?",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "import_backlog.py",
+ "created_at": "2026-11-13T00:40:00Z",
+ "source_run": "20261111T0517Z",
+ "notes": "letter written under the old rules: rewrite before use\nImported from the backlog of 2026-11-13 (old status HELD_MANDATORY_UNRESOLVED). Fit 68% is from the old rubric.\nNo letter text was in the repo for this find: write one."
+}

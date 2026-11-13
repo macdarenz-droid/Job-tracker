@@ -1,0 +1,32 @@
+{
+ "id": "griffith-city-council-graduate-traffic-design-engineer-a451b4cf",
+ "lane": "engineer",
+ "route": "EMPLOYER_PORTAL",
+ "company": "Griffith City Council",
+ "role": "Graduate Traffic & Design Engineer",
+ "location": "Griffith NSW",
+ "url": "https://www.careersatcouncil.com.au/job/graduate-traffic-design-engineer-20261016/",
+ "seek_id": "",
+ "listed_at": "2026-11-04",
+ "closes_at": "2026-11-27",
+ "closes_source": "advert",
+ "fit": 63,
+ "resume_variant": "engineer",
+ "relocation_line": "I will relocate to Griffith for this role and can start two weeks after an offer.",
+ "cover_letter_text": "Please accept my application for the Graduate Traffic and Design Engineer position. Helping the Engineering Design Section with traffic data, road safety proposals and design work is the kind of practical council engineering I want to build a career in.\n\nI hold a Bachelor of Science in Civil Engineering (Philippines, 2019), and in February 2026 I finished an Advanced Diploma of Civil Construction Design in Australia. In that course I designed and documented road geometry, earthworks, pavement and stormwater drainage, prepared and reviewed drawings in AutoCAD and Civil 3D, and worked with Austroads road and pavement guides and AS 1742.14.\n\nFrom 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge. I reviewed drawings, carried out site inspections, safety checks and quality monitoring, prepared progress reports and kept clients and other stakeholders up to date.\n\nTraffic data analysis and heavy vehicle access assessment would be new to me, and my degree is from the Philippines, so I would need to confirm that it is acceptable to Engineers Australia. I hold an Australian driver's licence, have full working rights to December 2027 on a Subclass 485 visa, and am open to discussing relocation to Griffith.\n\nMy resume is attached, and I would welcome the chance to discuss the role.",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [],
+ "status": "ASK_OWNER",
+ "ask_owner": "Griffith City Council asks for an engineering degree acceptable to Engineers Australia: is yours?",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "import_backlog.py",
+ "created_at": "2026-11-13T00:40:00Z",
+ "source_run": "20261113T0714Z",
+ "notes": "letter written under the old rules: rewrite before use\nImported from the backlog of 2026-11-13 (old status HELD_MANDATORY_UNRESOLVED). Fit 63% is from the old rubric."
+}

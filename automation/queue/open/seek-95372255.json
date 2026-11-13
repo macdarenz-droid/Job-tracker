@@ -1,0 +1,47 @@
+{
+ "id": "seek-95372255",
+ "lane": "engineer",
+ "route": "SEEK",
+ "company": "Central Vic Civil Pty Ltd",
+ "role": "Junior Project Manager",
+ "location": "Ballarat VIC",
+ "url": "https://www.seek.com.au/job/95372255",
+ "seek_id": "95372255",
+ "listed_at": "2026-10-20",
+ "closes_at": "2026-11-19",
+ "closes_source": "listing_expiry",
+ "fit": 68,
+ "resume_variant": "engineer",
+ "relocation_line": "",
+ "cover_letter_text": "I am applying for the Junior Project Manager role in Ballarat advertised on SEEK. Helping plan and track water, roadworks and land development projects alongside experienced project managers is the career path I want, and a regional contractor working for councils and developers is the right place to start it.\n\nFrom 2019 to 2020 I worked on site in the Philippines. As project-in-charge on a community hall renovation I coordinated 10 to 15 workers a day, passed on work priorities, tracked progress and kept the client up to date. As a field engineer on subdivision finishing works I tracked procurement and materials, prepared site reports, material records and progress reports, and coordinated with engineers, subcontractors and suppliers.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute in Australia, covering road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D, with cost estimates, bills of quantities and risk registers. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019).\n\nI am based in Melton VIC with an Australian driver's licence, my own transport and a White Card, and I have full working rights to December 2027 on a Subclass 485 visa. I have not yet worked in Australian civil construction, so I would start at junior level and learn your systems quickly.\n\nI have attached my resume and would welcome the chance to talk about the role.",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [
+  {
+   "question": "Which of the following statements best describes your right to work in Australia?",
+   "options": [],
+   "answer": "The option that names a graduate temporary work visa (Subclass 485). If the list has no such option, choose the temporary visa option that has no restriction on hours or industry.",
+   "basis": "answers.right_to_work.choose",
+   "status": "answered"
+  },
+  {
+   "question": "What's your expected annual base salary?",
+   "options": [],
+   "answer": "If the advert states pay, choose the band that contains the advertised figure (the lower end when it is a range). If the advert states no pay, choose $65,000 to $75,000. Single figure when the advert states no pay: 70000.",
+   "basis": "answers.expected_salary.rule",
+   "status": "answered"
+  }
+ ],
+ "status": "OPEN",
+ "ask_owner": "",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "import_backlog.py",
+ "created_at": "2026-11-13T00:40:00Z",
+ "source_run": "20261030T2318Z",
+ "notes": "letter written under the old rules: rewrite before use\nImported from the backlog of 2026-11-13 (old status READY_SEEK). Fit 68% is from the old rubric.\nLane engineer: Junior Project Manager at a civil contractor, aimed at a recent civil engineering graduate (old screening notes; advert text not saved)."
+}

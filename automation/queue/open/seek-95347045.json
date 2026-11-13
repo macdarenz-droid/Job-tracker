@@ -1,0 +1,68 @@
+{
+ "id": "seek-95347045",
+ "lane": "technician",
+ "route": "SEEK",
+ "company": "Mendi Constructions",
+ "role": "Quality Assurance Trainee, Civil Construction",
+ "location": "Townsville, Northern QLD",
+ "url": "https://www.seek.com.au/job/95347045",
+ "seek_id": "95347045",
+ "listed_at": "2026-10-19",
+ "closes_at": "2026-11-18",
+ "closes_source": "listing_expiry",
+ "fit": 76,
+ "resume_variant": "technician",
+ "relocation_line": "I will relocate to Townsville for this role and can start two weeks after an offer.",
+ "cover_letter_text": "I saw your Quality Assurance Trainee advert on SEEK. You say previous civil construction experience is highly regarded but not essential and that a recent graduate may suit, which describes me well, so I am applying.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute, where I designed and documented road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD to Australian Standards. I also hold a Bachelor of Science in Civil Engineering from the Philippines.\n\nFrom 2019 to 2020 I worked on site in the Philippines, first as project-in-charge on a community hall renovation and then as a field engineer on residential subdivision finishing works. I reviewed drawings against project requirements, carried out site inspections and quality checks, escalated issues that needed corrective action, and kept site reports and material records. That is close to the inspection and record keeping side of the role you describe.\n\nMendi's self performed earthworks, stormwater and pavement work is where I want to learn how quality is delivered on Australian civil projects. I hold a White Card, a driver's licence and my own transport, and have full working rights to December 2027 on a Subclass 485 visa. I am based in Melton VIC and open to discussing relocation to Townsville. My Australian experience so far is from study, so I would start at trainee level.\n\nI have attached my resume and would be glad to talk about the role.",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [
+  {
+   "question": "Which of the following statements best describes your right to work in Australia?",
+   "options": [],
+   "answer": "The option that names a graduate temporary work visa (Subclass 485). If the list has no such option, choose the temporary visa option that has no restriction on hours or industry.",
+   "basis": "answers.right_to_work.choose",
+   "status": "answered"
+  },
+  {
+   "question": "How many years' experience do you have as a Quality Assurance Trainee?",
+   "options": [],
+   "answer": "Choose the lowest option (no paid role).",
+   "basis": "answers.years_of_experience.laboratory, materials testing, technician, estimator, project coordinator, project management, any other role",
+   "status": "answered"
+  },
+  {
+   "question": "How much notice are you required to give your current employer?",
+   "options": [],
+   "answer": "2 weeks",
+   "basis": "answers.notice_period",
+   "status": "answered"
+  },
+  {
+   "question": "Do you have a current Australian driver's licence?",
+   "options": [],
+   "answer": "Yes",
+   "basis": "answers.drivers_licence",
+   "status": "answered"
+  },
+  {
+   "question": "Do you hold a Construction Induction Safety certificate (White Card)?",
+   "options": [],
+   "answer": "Yes",
+   "basis": "answers.white_card",
+   "status": "answered"
+  }
+ ],
+ "status": "OPEN",
+ "ask_owner": "",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "import_backlog.py",
+ "created_at": "2026-11-13T00:40:00Z",
+ "source_run": "20261020T1314Z",
+ "notes": "letter written under the old rules: rewrite before use\nImported from the backlog of 2026-11-13 (old status READY_SEEK). Fit 76% is from the old rubric.\nLane technician: Quality assurance trainee: site inspections, ITPs, test records and help with material testing; experience not essential."
+}
