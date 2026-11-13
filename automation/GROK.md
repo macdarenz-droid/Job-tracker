@@ -8,7 +8,9 @@ version. The daily procedure is `automation/RUNBOOK.md`.
 
 1. `git pull --rebase`, then `cd automation/scripts && python3 queue.py expire && python3 queue.py stats`.
 2. `python3 queue.py next --route SEEK --by Grok`. It prints one entry, or the reason there
-   is none (cap reached, too soon after the last one, nothing open).
+   is none (exit code 3: cap reached or too soon after the last one; exit code 4: nothing
+   ready). Once it has given you an entry, that entry is yours until you mark it: always
+   finish with `mark ... applied`, `skipped`, `failed`, `uncertain` or `ask`.
 3. Submit that one entry on SEEK exactly as APPLY.md section 5 says: the resume named in
    `resume_variant`, the cover letter text pasted unchanged, each question answered exactly
    as the entry says.
@@ -22,8 +24,11 @@ version. The daily procedure is `automation/RUNBOOK.md`.
 
 ## Never
 
-- Never answer a question that is not in the entry or in `facts.json -> answers`. Mark the
-  entry failed with the exact question and options, and move on.
+- Never answer a question that is not in the entry. Run
+  `python3 queue.py answer <id> --question "<exact text>" --option "<each option>"`; use the
+  answer it prints, and if it prints none, leave the form without submitting and move on.
+- If you cannot tell whether an application went through, `mark <id> uncertain` with what
+  happened. Never try it again yourself.
 - Never choose a higher option than the facts support (years of experience, licence class,
   citizenship or residency).
 - Never submit an advert that has closed, changed role, or leads to an employer site

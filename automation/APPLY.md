@@ -64,16 +64,22 @@ python3 queue.py list                       # what is waiting, by route
 python3 queue.py next --route SEEK --by Grok    # the one entry to submit now (or why not)
 python3 queue.py mark <id> applied --by Grok --kind seek_confirmation_screen --ref "<text or id>"
 python3 queue.py mark <id> skipped --by Grok --reason "advert closed"
-python3 queue.py mark <id> failed  --by Grok --note "new question: <exact text and options>"
+python3 queue.py mark <id> failed  --by Grok --note "<what stopped it>"    # only when it is certain nothing was submitted
+python3 queue.py mark <id> uncertain --by Grok --note "<what happened>"     # unknown whether it went: held until someone checks
+python3 queue.py mark <id> ask --by Grok --question "<one plain line for the owner>"
+python3 queue.py answer <id> --question "<exact text on screen>" --option "A" --option "B"   # a form question that is not in the entry
 python3 queue.py expire                     # closes entries whose advert has shut
 python3 queue.py render                     # rebuilds APPLY_QUEUE.md
 python3 queue.py stats --json               # numbers for the journal and the daily report
 ```
 
 `next` gives one entry at a time, in this order: lane (drafter, technician, engineer),
-then the soonest real closing date, then the newest advert. It refuses when the day's cap
-for that route is reached, when the last SEEK submission was less than 20 minutes ago, and
-it never hands out an entry with an unanswered mandatory question.
+then the soonest real closing date, then the newest advert. With `--by` it records that you
+started the entry, and that entry is not handed out again until you `mark` it: always
+finish with a mark. It refuses (exit code 3) when the day's cap for that route is reached or
+the last SEEK submission was less than 20 minutes ago, and it never hands out an entry with
+an unanswered question, a closed advert, an old-rules letter, or an employer and role already
+applied for. Exit code 4 means nothing is ready, and the reasons are listed.
 
 After every `mark`, commit and push at once (`git pull --rebase` first), so no other
 runner submits the same entry.
@@ -133,8 +139,10 @@ For each entry from `queue.py next --route SEEK --by Grok`:
    followed by `relocation_line` when it is not empty. If `cover_letter_text` is empty,
    choose no cover letter.
 4. Employer questions: give each answer exactly as written in `questions`. If SEEK shows a
-   question that is not in the entry, or the options do not include the written answer,
-   stop: `mark failed` with the exact question and options. Do not pick the nearest one.
+   question that is not in the entry, run `queue.py answer <id> --question "<exact text>"
+   --option "<each option>"`. If it prints an answer, that answer is one of the options word
+   for word: use it. If it prints none, the entry has become `ASK_OWNER`: leave the SEEK
+   form without submitting. Never pick the nearest option yourself.
 5. Review page: check the name, the resume file name and every answer against the entry.
 6. Submit. Copy the confirmation text (or the application reference) into
    `mark <id> applied --kind seek_confirmation_screen --ref "..."`.
@@ -160,8 +168,8 @@ at most 3 a day. Only to an address the employer itself publishes for applicatio
 4. Send with the Gmail tool: `to`, `subject`, plain `body`, `htmlBody` from
    `email_html.py`, the two attachments. Record the returned message id:
    `mark <id> applied --kind gmail_message_id --ref <id>`.
-5. No message id, or an error after the call: `mark failed --note "send uncertain"`; do
-   not retry until Gmail Sent has been checked.
+5. No message id, or an error after the call: `mark <id> uncertain --note "<the error>"`;
+   the entry is held and nothing is retried until Gmail Sent has been checked.
 6. Remove the lock, commit and push.
 
 One follow-up after 8 days without a reply (three sentences, same thread) counts toward the

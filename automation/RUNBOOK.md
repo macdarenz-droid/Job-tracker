@@ -103,7 +103,9 @@ then newest. Aim to queue an advert within two days of its listing.
 
 For each `APPLY`:
 
-- `resume_variant`: the lane.
+- `resume_variant`: the lane. The three resumes in `documents/resume/` and the text blocks of
+  `automation/SEEK_PROFILE.md` are built from `facts.json` by `python3 scripts/resume.py build`:
+  run it and commit both whenever `facts.json` changes.
 - `cover_letter_text`: at most 200 words, three short paragraphs (APPLY.md section 8). The
   first sentence carries one true, specific line from the advert. No sentence about what
   he lacks. `relocation_line` when the job is outside daily travel distance of Melton VIC.
