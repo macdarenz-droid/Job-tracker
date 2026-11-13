@@ -1,0 +1,32 @@
+{
+ "id": "breese-pitt-dixon-speculative-enquiry-graduate-civil-engin-b7ca990d",
+ "lane": "drafter",
+ "route": "EMAIL",
+ "company": "Breese Pitt Dixon",
+ "role": "Speculative enquiry: graduate civil engineer or civil designer, land development (Melbourne)",
+ "location": "Hawthorn East, Melbourne VIC",
+ "url": "https://www.bpd.com.au/careers",
+ "seek_id": "",
+ "listed_at": "",
+ "closes_at": "",
+ "closes_source": "none",
+ "fit": 70,
+ "resume_variant": "drafter",
+ "relocation_line": "",
+ "cover_letter_text": "Your careers page invites graduate civil engineers to send an introduction and CV, so this is a speculative enquiry about a graduate civil engineering or civil design role with your team in Hawthorn East.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute, where I designed and documented road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD to Australian Standards. I also lodged Before You Dig Australia enquiries and designed around existing services. I hold a Bachelor of Science in Civil Engineering from the Philippines (2014 to 2019).\n\nFrom 2019 to 2020 I worked on site in the Philippines, as project-in-charge on a community hall renovation and then as a field engineer on residential subdivision finishing works. I reviewed drawings against project requirements, carried out inspections and quality checks, and kept site reports and material records.\n\nEstate roads, drainage and retarding basins are the civil design work I want to build a career in, and learning from Directors who work on every project, as your page describes, is a real draw. I am based in Melton VIC with a White Card, a licence and my own transport, and full working rights to December 2027 on a Subclass 485 visa. My software experience is from study rather than commercial production, so I would start at graduate level.\n\nI have attached my resume and would be glad to talk about any graduate opening, now or later.",
+ "email": {
+  "to": "info@bpd.com.au",
+  "subject": "Graduate civil engineer enquiry, Marc Masarate",
+  "body": "Hello Breese Pitt Dixon team,\n\nYour careers page says you are keen to hear from graduate civil engineers and asks for an introduction with a CV, so this is a speculative enquiry rather than a reply to an advert.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, with road, earthworks, pavement and stormwater design in Civil 3D and AutoCAD. I also hold a Bachelor of Science in Civil Engineering from the Philippines. From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, including residential subdivision finishing works. I am based in Melton VIC, hold a White Card, a licence and my own transport, and have full working rights to December 2027 on a 485 visa. I am available for office, site and regional work.\n\nThe work I am looking for is civil design for land development: the estate roads, drainage and retarding basins your engineers design. My software experience is from study, not commercial production, so I would start at graduate level.\n\nI've attached my resume and cover letter. Would you keep me in mind for a graduate civil design role, now or later?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "evidence_url": "https://www.bpd.com.au/careers"
+ },
+ "questions": [],
+ "status": "OPEN",
+ "ask_owner": "",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "import_backlog.py",
+ "created_at": "2026-11-13T00:40:00Z",
+ "source_run": "20261020T1818Z",
+ "notes": "letter written under the old rules: rewrite before use\nImported from the backlog of 2026-11-13 (old status PREPARED_NOT_SENT). Fit 70% is from the old rubric."
+}

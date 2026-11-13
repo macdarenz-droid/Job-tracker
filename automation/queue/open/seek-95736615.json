@@ -1,0 +1,75 @@
+{
+ "id": "seek-95736615",
+ "lane": "engineer",
+ "route": "SEEK",
+ "company": "Fyfe Pty Ltd",
+ "role": "Graduate Civil Engineer (Property & Infrastructure)",
+ "location": "Adelaide SA",
+ "url": "https://www.seek.com.au/job/95736615",
+ "seek_id": "95736615",
+ "listed_at": "2026-11-06",
+ "closes_at": "2026-12-06",
+ "closes_source": "listing_expiry",
+ "fit": 68,
+ "resume_variant": "engineer",
+ "relocation_line": "I will relocate to Adelaide for this role and can start two weeks after an offer.",
+ "cover_letter_text": "Please accept my application for the Graduate Civil Engineer role in your Adelaide Property and Infrastructure team. Supporting civil designs, drawings and quantity estimates for stormwater drainage, roads and crossings, alongside supervised site inspections, matches the design and documentation work I trained for.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute in Australia, covering earthworks, road geometry, pavement design and stormwater drainage, with drawings prepared in AutoCAD and Civil 3D and cost estimates and bills of quantities. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019).\n\nFrom 2019 to 2020 I worked on site in the Philippines. As a field engineer on residential subdivision finishing works I assisted with site inspections and quality checks, tracked procurement and materials, and prepared site, material and progress reports. Before that, as project-in-charge on a community hall renovation, I coordinated 10 to 15 workers each day and reviewed structural and architectural drawings against project requirements.\n\nI hold an Australian driver's licence with my own transport and a White Card, and I have full working rights to December 2027 on a Subclass 485 visa. I live in Melton VIC and am open to discussing relocation to Adelaide for the right role. My software experience is from study rather than commercial production, so I would build on it quickly under your engineers' guidance.\n\nI have attached my resume and would welcome the chance to talk about the role.",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [
+  {
+   "question": "Which of the following statements best describes your right to work in Australia?",
+   "options": [],
+   "answer": "The option that names a graduate temporary work visa (Subclass 485). If the list has no such option, choose the temporary visa option that has no restriction on hours or industry.",
+   "basis": "answers.right_to_work.choose",
+   "status": "answered"
+  },
+  {
+   "question": "What's your expected annual base salary?",
+   "options": [],
+   "answer": "If the advert states pay, choose the band that contains the advertised figure (the lower end when it is a range). If the advert states no pay, choose $65,000 to $75,000. Single figure when the advert states no pay: 70000.",
+   "basis": "answers.expected_salary.rule",
+   "status": "answered"
+  },
+  {
+   "question": "How many years' experience do you have as a civil engineer?",
+   "options": [],
+   "answer": "Choose the option that contains 11 months (usually 'Less than 1 year'): April 2019 to February 2020, Philippines.",
+   "basis": "answers.years_of_experience.civil engineer, site engineer, project engineer, construction industry",
+   "status": "answered"
+  },
+  {
+   "question": "How much notice are you required to give your current employer?",
+   "options": [],
+   "answer": "2 weeks",
+   "basis": "answers.notice_period",
+   "status": "answered"
+  },
+  {
+   "question": "Do you have Cost Estimation experience?",
+   "options": [],
+   "answer": "",
+   "basis": "",
+   "status": "unanswered"
+  },
+  {
+   "question": "Have you worked in a role which requires a sound understanding of as/NZ 5369 Standards?",
+   "options": [],
+   "answer": "",
+   "basis": "",
+   "status": "unanswered"
+  }
+ ],
+ "status": "ASK_OWNER",
+ "ask_owner": "No standing answer for 2 form questions: Do you have Cost Estimation experience? | Have you worked in a role which requires a sound understanding of as/NZ 5369 Standards?",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "import_backlog.py",
+ "created_at": "2026-11-13T00:40:00Z",
+ "source_run": "20261109T1818Z",
+ "notes": "letter written under the old rules: rewrite before use\nImported from the backlog of 2026-11-13 (old status HELD_MANDATORY_UNMET). Fit 68% is from the old rubric.\nThe requirements list says Australian citizenship or permanent residency; the last line of the advert says people who hold full Australian working rights will be considered.\nLetter text carried over from the duplicate find at https://www.careers-page.com/fyfe-2/job/93V47WVY."
+}

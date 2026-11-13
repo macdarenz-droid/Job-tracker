@@ -1,0 +1,68 @@
+{
+ "id": "seek-95773573",
+ "lane": "engineer",
+ "route": "SEEK",
+ "company": "Bench Excavation and Civil Construction Pty Ltd (BenchHDC)",
+ "role": "Civil Engineer / Graduate",
+ "location": "Port Adelaide, Adelaide SA",
+ "url": "https://www.seek.com.au/job/95773573",
+ "seek_id": "95773573",
+ "listed_at": "2026-11-09",
+ "closes_at": "2026-12-09",
+ "closes_source": "listing_expiry",
+ "fit": 66,
+ "resume_variant": "engineer",
+ "relocation_line": "I will relocate to Adelaide for this role and can start two weeks after an offer.",
+ "cover_letter_text": "I am applying for the Graduate Civil Engineer role in Port Adelaide advertised on SEEK. A newly created position that covers project coordination, tendering and estimating, quality documentation and site inspections is the broad, hands-on start I want for my civil career.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute in Australia. I designed and documented road geometry, earthworks, pavement systems and stormwater drainage in AutoCAD and Civil 3D using Australian Standards, and prepared cost estimates, bills of quantities and risk registers. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019).\n\nFrom 2019 to 2020 I worked on site in the Philippines. As a field engineer on subdivision finishing works I assisted with site inspections and quality checks, tracked procurement and materials, and prepared site, material and progress reports. As project-in-charge on a community hall renovation I coordinated 10 to 15 workers a day, reviewed drawings against project requirements and kept the client up to date.\n\nI hold an Australian driver's licence and a White Card, and I have full working rights to December 2027 on a Subclass 485 visa. I am based in Melton VIC and open to discussing relocation to Adelaide. I have not yet worked on directional drilling or Australian underground infrastructure projects, so I would start at graduate level and learn quickly from your drilling manager and crews.\n\nI have attached my resume and would welcome the chance to talk about the role.",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [
+  {
+   "question": "Which of the following statements best describes your right to work in Australia?",
+   "options": [],
+   "answer": "The option that names a graduate temporary work visa (Subclass 485). If the list has no such option, choose the temporary visa option that has no restriction on hours or industry.",
+   "basis": "answers.right_to_work.choose",
+   "status": "answered"
+  },
+  {
+   "question": "What's your expected annual base salary?",
+   "options": [],
+   "answer": "If the advert states pay, choose the band that contains the advertised figure (the lower end when it is a range). If the advert states no pay, choose $65,000 to $75,000. Single figure when the advert states no pay: 70000.",
+   "basis": "answers.expected_salary.rule",
+   "status": "answered"
+  },
+  {
+   "question": "How many years' experience do you have as an Engineer Graduate?",
+   "options": [],
+   "answer": "",
+   "basis": "",
+   "status": "unanswered"
+  },
+  {
+   "question": "How much notice are you required to give your current employer?",
+   "options": [],
+   "answer": "2 weeks",
+   "basis": "answers.notice_period",
+   "status": "answered"
+  },
+  {
+   "question": "Have you completed a qualification in engineering?",
+   "options": [],
+   "answer": "Yes",
+   "basis": "answers.qualification_questions.engineering",
+   "status": "answered"
+  }
+ ],
+ "status": "ASK_OWNER",
+ "ask_owner": "No standing answer for this form question: How many years' experience do you have as an Engineer Graduate?",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "import_backlog.py",
+ "created_at": "2026-11-13T00:40:00Z",
+ "source_run": "20261109T1818Z",
+ "notes": "letter written under the old rules: rewrite before use\nImported from the backlog of 2026-11-13 (old status READY_SEEK). Fit 66% is from the old rubric.\nThe advert asks for a civil engineering degree or an equivalent recognised in Australia."
+}

@@ -1,0 +1,32 @@
+{
+ "id": "quantum-civil-speculative-enquiry-graduate-junior-civi-bbcf357c",
+ "lane": "engineer",
+ "route": "EMPLOYER_FORM",
+ "company": "Quantum Civil",
+ "role": "Speculative enquiry: graduate / junior civil site role",
+ "location": "Geelong West VIC (possible Warrnambool)",
+ "url": "https://www.quantumcivil.com.au/careers",
+ "seek_id": "",
+ "listed_at": "",
+ "closes_at": "",
+ "closes_source": "none",
+ "fit": 62,
+ "resume_variant": "engineer",
+ "relocation_line": "",
+ "cover_letter_text": "",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [],
+ "status": "OPEN",
+ "ask_owner": "",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "import_backlog.py",
+ "created_at": "2026-11-13T00:40:00Z",
+ "source_run": "20261111T1010Z",
+ "notes": "letter written under the old rules: rewrite before use\nImported from the backlog of 2026-11-13 (old status PREPARED_NOT_SENT). Fit 62% is from the old rubric.\nLane engineer: Speculative enquiry for a graduate or junior civil site role, through the careers form.\nNo letter text was in the repo for this find: write one."
+}

@@ -1,0 +1,54 @@
+{
+ "id": "seek-95506594",
+ "lane": "drafter",
+ "route": "SEEK",
+ "company": "LC Water",
+ "role": "Junior Civil Draftsperson",
+ "location": "Norlane, Geelong VIC",
+ "url": "https://www.seek.com.au/job/95506594",
+ "seek_id": "95506594",
+ "listed_at": "2026-10-27",
+ "closes_at": "2026-11-26",
+ "closes_source": "listing_expiry",
+ "fit": 78,
+ "resume_variant": "drafter",
+ "relocation_line": "",
+ "cover_letter_text": "I am applying for the Junior Civil Draftsperson role in Geelong advertised on SEEK. Your advert says the role shows how engineering drawings translate into real construction, and that is the start I want in civil drafting.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute in Australia. I designed and documented road geometry, earthworks, pavement and stormwater drainage, and prepared and reviewed technical drawings in AutoCAD and Civil 3D to Australian Standards. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019).\n\nFrom 2019 to 2020 I worked on site in the Philippines. As project-in-charge on a community hall renovation I reviewed structural and architectural drawings and checked work against them to cut down on rework. As a field engineer on subdivision finishing works I kept site reports, material records and progress reports.\n\nI am based in Melton VIC with an Australian driver's licence, my own transport and a White Card, and I have full working rights to December 2027 on a Subclass 485 visa. My CAD experience is from study rather than commercial drafting, and I have not yet worked on water or wastewater projects, so I would value the on the job training your team offers.\n\nI have attached my resume and would welcome the chance to talk about the role.",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [
+  {
+   "question": "How would you rate your English language skills?",
+   "options": [],
+   "answer": "",
+   "basis": "answers.english_self_rating",
+   "status": "unanswered"
+  },
+  {
+   "question": "Which of the following CAD software do you have experience with?",
+   "options": [],
+   "answer": "AutoCAD, Civil 3D and Revit only. Never tick 12d, MicroStation, OpenRoads, Tekla, SIDRA or anything else.",
+   "basis": "answers.software.CAD",
+   "status": "answered"
+  },
+  {
+   "question": "Which of the following Microsoft Office products are you experienced with?",
+   "options": [],
+   "answer": "",
+   "basis": "answers.software.Microsoft Office",
+   "status": "unanswered"
+  }
+ ],
+ "status": "ASK_OWNER",
+ "ask_owner": "No standing answer for 2 form questions: How would you rate your English language skills? | Which of the following Microsoft Office products are you experienced with?",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "import_backlog.py",
+ "created_at": "2026-11-13T00:40:00Z",
+ "source_run": "20261030T0811Z",
+ "notes": "letter written under the old rules: rewrite before use\nImported from the backlog of 2026-11-13 (old status READY_SEEK). Fit 78% is from the old rubric."
+}

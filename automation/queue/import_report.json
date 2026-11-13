@@ -1,0 +1,1044 @@
+{
+ "_about": "Written by automation/scripts/import_backlog.py from import_source_backlog.json. One-off record of the import of 13 Nov 2026.",
+ "today": "2026-11-13",
+ "created_at": "2026-11-13T00:40:00Z",
+ "source_rows": 63,
+ "imported": 37,
+ "rejected_total": 26,
+ "open_by_route": {
+  "EMAIL": 8,
+  "EMPLOYER_FORM": 1,
+  "EMPLOYER_PORTAL": 10,
+  "SEEK": 8
+ },
+ "open_by_lane": {
+  "drafter": 9,
+  "engineer": 15,
+  "technician": 3
+ },
+ "ask_owner": [
+  {
+   "id": "seek-95506594",
+   "company": "LC Water",
+   "role": "Junior Civil Draftsperson",
+   "route": "SEEK",
+   "lane": "drafter",
+   "closes_at": "2026-11-26",
+   "question": "No standing answer for 2 form questions: How would you rate your English language skills? | Which of the following Microsoft Office products are you experienced with?"
+  },
+  {
+   "id": "seek-95510637",
+   "company": "LGC Traffic Management",
+   "role": "Civil Engineering Technician",
+   "route": "SEEK",
+   "lane": "technician",
+   "closes_at": "2026-11-26",
+   "question": "No standing answer for 3 form questions: Do you have Traffic Control experience? | Have you worked in a role which requires a sound understanding of as/NZ 5369 Standards? | Which of the following High Risk Work licences do you have?"
+  },
+  {
+   "id": "seek-95773573",
+   "company": "Bench Excavation and Civil Construction Pty Ltd (BenchHDC)",
+   "role": "Civil Engineer / Graduate",
+   "route": "SEEK",
+   "lane": "engineer",
+   "closes_at": "2026-12-09",
+   "question": "No standing answer for this form question: How many years' experience do you have as an Engineer Graduate?"
+  },
+  {
+   "id": "seek-95736615",
+   "company": "Fyfe Pty Ltd",
+   "role": "Graduate Civil Engineer (Property & Infrastructure)",
+   "route": "SEEK",
+   "lane": "engineer",
+   "closes_at": "2026-12-06",
+   "question": "No standing answer for 2 form questions: Do you have Cost Estimation experience? | Have you worked in a role which requires a sound understanding of as/NZ 5369 Standards?"
+  },
+  {
+   "id": "seek-95655998",
+   "company": "TTW (NSW) Pty Ltd (Taylor Thomson Whitting)",
+   "role": "Trainee Civil Drafter",
+   "route": "SEEK",
+   "lane": "drafter",
+   "closes_at": "2026-11-27",
+   "question": "No standing answer for 6 form questions: Do you have current working rights that allows you to work in the country to are applying to? | How many years' experience do you have in your current occupation? | Which of the following best describes your highest qualification - relevant to the position of Trainee Civil Drafter? | Please detail your minimum salary expectations | What is the notice period for your current employment? | If you have been referred by a past/current TTW Employee, please specify their full name."
+  },
+  {
+   "id": "seek-95636735",
+   "company": "PROTERRA Group",
+   "role": "Civil Designer",
+   "route": "SEEK",
+   "lane": "drafter",
+   "closes_at": "2026-11-27",
+   "question": "No standing answer for 4 form questions: What qualifications do you currently hold? | Where are you located? | What is your estimated start date? | How many years experience in Civil Design do you have?"
+  },
+  {
+   "id": "hobsons-bay-city-council-graduate-drainage-and-development-engine-ce99f8fd",
+   "company": "Hobsons Bay City Council",
+   "role": "Graduate Drainage and Development Engineer",
+   "route": "EMPLOYER_PORTAL",
+   "lane": "engineer",
+   "closes_at": "2026-11-16",
+   "question": "Hobsons Bay City Council asks for eligibility for Engineers Australia membership: are you eligible? (closes 16 Nov)"
+  },
+  {
+   "id": "seek-95823436",
+   "company": "Cairns Regional Council",
+   "role": "Cadet Designer",
+   "route": "EMPLOYER_PORTAL",
+   "lane": "drafter",
+   "closes_at": "2026-11-25",
+   "question": "Cairns Regional Council's Cadet Designer job runs for up to six years and includes studying an Associate Degree in Engineering (Civil): would you enrol and apply?"
+  },
+  {
+   "id": "seek-95842971",
+   "company": "Civilivic Pty Ltd",
+   "role": "Site Engineer (Site or Graduate Engineer)",
+   "route": "SEEK",
+   "lane": "engineer",
+   "closes_at": "2026-12-12",
+   "question": "No standing answer for 2 form questions: How many years of Road Construction experience do you have? | How many years of experience do you have in the Civil Earthworks Industry?"
+  },
+  {
+   "id": "griffith-city-council-graduate-traffic-design-engineer-a451b4cf",
+   "company": "Griffith City Council",
+   "role": "Graduate Traffic & Design Engineer",
+   "route": "EMPLOYER_PORTAL",
+   "lane": "engineer",
+   "closes_at": "2026-11-27",
+   "question": "Griffith City Council asks for an engineering degree acceptable to Engineers Australia: is yours?"
+  }
+ ],
+ "rejected_by_reason": {
+  "closed": 4,
+  "duplicate": 1,
+  "employer_rejected_him": 1,
+  "excluded_family": 9,
+  "mandatory_unmet": 2,
+  "no_advert_in_repo": 1,
+  "no_lane": 8
+ },
+ "soonest_real_closing_dates": [
+  {
+   "closes_at": "2026-11-16",
+   "id": "hobsons-bay-city-council-graduate-drainage-and-development-engine-ce99f8fd",
+   "company": "Hobsons Bay City Council",
+   "role": "Graduate Drainage and Development Engineer",
+   "route": "EMPLOYER_PORTAL",
+   "status": "ASK_OWNER"
+  },
+  {
+   "closes_at": "2026-11-22",
+   "id": "seek-95865921",
+   "company": "City of Moreton Bay",
+   "role": "Civil Services Engineer",
+   "route": "EMPLOYER_PORTAL",
+   "status": "OPEN"
+  },
+  {
+   "closes_at": "2026-11-22",
+   "id": "yarra-city-council-civil-works-project-officer-301ffadc",
+   "company": "Yarra City Council",
+   "role": "Civil Works Project Officer",
+   "route": "EMPLOYER_PORTAL",
+   "status": "OPEN"
+  },
+  {
+   "closes_at": "2026-11-25",
+   "id": "seek-95487722",
+   "company": "Newton Denny Chapelle",
+   "role": "Civil Engineer / Design Engineer",
+   "route": "SEEK",
+   "status": "OPEN"
+  },
+  {
+   "closes_at": "2026-11-25",
+   "id": "seek-95823436",
+   "company": "Cairns Regional Council",
+   "role": "Cadet Designer",
+   "route": "EMPLOYER_PORTAL",
+   "status": "ASK_OWNER"
+  },
+  {
+   "closes_at": "2026-11-26",
+   "id": "seek-95866809",
+   "company": "Cardinia Shire Council",
+   "role": "Development Engineer",
+   "route": "EMPLOYER_PORTAL",
+   "status": "OPEN"
+  },
+  {
+   "closes_at": "2026-11-27",
+   "id": "griffith-city-council-graduate-traffic-design-engineer-a451b4cf",
+   "company": "Griffith City Council",
+   "role": "Graduate Traffic & Design Engineer",
+   "route": "EMPLOYER_PORTAL",
+   "status": "ASK_OWNER"
+  },
+  {
+   "closes_at": "2026-11-27",
+   "id": "seek-95636735",
+   "company": "PROTERRA Group",
+   "role": "Civil Designer",
+   "route": "SEEK",
+   "status": "ASK_OWNER"
+  },
+  {
+   "closes_at": "2026-11-27",
+   "id": "seek-95655998",
+   "company": "TTW (NSW) Pty Ltd (Taylor Thomson Whitting)",
+   "role": "Trainee Civil Drafter",
+   "route": "SEEK",
+   "status": "ASK_OWNER"
+  }
+ ],
+ "entries": [
+  {
+   "id": "loetis-engineers-speculative-enquiry-graduate-civil-engin-3ea37f34",
+   "company": "Loetis Engineers",
+   "role": "Speculative enquiry: graduate civil engineer or civil designer, land development (Geelong)",
+   "lane": "drafter",
+   "route": "EMAIL",
+   "status": "OPEN",
+   "closes_at": "",
+   "closes_source": "none",
+   "has_letter": true,
+   "relocation": false
+  },
+  {
+   "id": "seek-95347045",
+   "company": "Mendi Constructions",
+   "role": "Quality Assurance Trainee, Civil Construction",
+   "lane": "technician",
+   "route": "SEEK",
+   "status": "OPEN",
+   "closes_at": "2026-11-18",
+   "closes_source": "listing_expiry",
+   "has_letter": true,
+   "relocation": true
+  },
+  {
+   "id": "seek-95337660",
+   "company": "Permadec Pty Ltd",
+   "role": "Civil Design Drafter, Formwork",
+   "lane": "drafter",
+   "route": "EMAIL",
+   "status": "OPEN",
+   "closes_at": "2026-11-18",
+   "closes_source": "listing_expiry",
+   "has_letter": true,
+   "relocation": false
+  },
+  {
+   "id": "breese-pitt-dixon-speculative-enquiry-graduate-civil-engin-b7ca990d",
+   "company": "Breese Pitt Dixon",
+   "role": "Speculative enquiry: graduate civil engineer or civil designer, land development (Melbourne)",
+   "lane": "drafter",
+   "route": "EMAIL",
+   "status": "OPEN",
+   "closes_at": "",
+   "closes_source": "none",
+   "has_letter": true,
+   "relocation": false
+  },
+  {
+   "id": "seek-95378071",
+   "company": "All Seasons Communications Pty Ltd",
+   "role": "Civil Engineering Draftsperson",
+   "lane": "drafter",
+   "route": "SEEK",
+   "status": "OPEN",
+   "closes_at": "2026-11-20",
+   "closes_source": "listing_expiry",
+   "has_letter": true,
+   "relocation": true
+  },
+  {
+   "id": "tgvk-speculative-enquiry-junior-civil-designe-36e928c0",
+   "company": "TGVK",
+   "role": "Speculative enquiry: junior civil designer or civil draftsperson (Mulgrave, Melbourne)",
+   "lane": "drafter",
+   "route": "EMAIL",
+   "status": "OPEN",
+   "closes_at": "",
+   "closes_source": "none",
+   "has_letter": true,
+   "relocation": false
+  },
+  {
+   "id": "seek-95393367",
+   "company": "Coffey Testing Pty Ltd",
+   "role": "Construction Materials Testing Technician, Entry-Level",
+   "lane": "technician",
+   "route": "EMPLOYER_PORTAL",
+   "status": "OPEN",
+   "closes_at": "2026-11-20",
+   "closes_source": "listing_expiry",
+   "has_letter": true,
+   "relocation": false
+  },
+  {
+   "id": "seek-95506594",
+   "company": "LC Water",
+   "role": "Junior Civil Draftsperson",
+   "lane": "drafter",
+   "route": "SEEK",
+   "status": "ASK_OWNER",
+   "closes_at": "2026-11-26",
+   "closes_source": "listing_expiry",
+   "has_letter": true,
+   "relocation": false
+  },
+  {
+   "id": "seek-95576041",
+   "company": "Western Grammar School",
+   "role": "Civil Engineering Draftsperson",
+   "lane": "drafter",
+   "route": "SEEK",
+   "status": "OPEN",
+   "closes_at": "2026-11-28",
+   "closes_source": "listing_expiry",
+   "has_letter": true,
+   "relocation": true
+  },
+  {
+   "id": "seek-95487722",
+   "company": "Newton Denny Chapelle",
+   "role": "Civil Engineer / Design Engineer",
+   "lane": "drafter",
+   "route": "SEEK",
+   "status": "OPEN",
+   "closes_at": "2026-11-25",
+   "closes_source": "advert",
+   "has_letter": true,
+   "relocation": true
+  },
+  {
+   "id": "seek-95372255",
+   "company": "Central Vic Civil Pty Ltd",
+   "role": "Junior Project Manager",
+   "lane": "engineer",
+   "route": "SEEK",
+   "status": "OPEN",
+   "closes_at": "2026-11-19",
+   "closes_source": "listing_expiry",
+   "has_letter": true,
+   "relocation": false
+  },
+  {
+   "id": "seek-95446060",
+   "company": "Cooke & Dowsett / CJ Arms Design",
+   "role": "Graduate Design Engineer (Hydraulic/Civil)",
+   "lane": "engineer",
+   "route": "SEEK",
+   "status": "OPEN",
+   "closes_at": "2026-11-22",
+   "closes_source": "listing_expiry",
+   "has_letter": false,
+   "relocation": false
+  },
+  {
+   "id": "seek-95510637",
+   "company": "LGC Traffic Management",
+   "role": "Civil Engineering Technician",
+   "lane": "technician",
+   "route": "SEEK",
+   "status": "ASK_OWNER",
+   "closes_at": "2026-11-26",
+   "closes_source": "listing_expiry",
+   "has_letter": true,
+   "relocation": true
+  },
+  {
+   "id": "seek-95773573",
+   "company": "Bench Excavation and Civil Construction Pty Ltd (BenchHDC)",
+   "role": "Civil Engineer / Graduate",
+   "lane": "engineer",
+   "route": "SEEK",
+   "status": "ASK_OWNER",
+   "closes_at": "2026-12-09",
+   "closes_source": "listing_expiry",
+   "has_letter": true,
+   "relocation": true
+  },
+  {
+   "id": "seek-95736615",
+   "company": "Fyfe Pty Ltd",
+   "role": "Graduate Civil Engineer (Property & Infrastructure)",
+   "lane": "engineer",
+   "route": "SEEK",
+   "status": "ASK_OWNER",
+   "closes_at": "2026-12-06",
+   "closes_source": "listing_expiry",
+   "has_letter": true,
+   "relocation": true
+  },
+  {
+   "id": "seek-95695784",
+   "company": "Martinus Rail",
+   "role": "Graduate Engineer (Inland Rail, Albury to Parkes)",
+   "lane": "engineer",
+   "route": "EMPLOYER_PORTAL",
+   "status": "OPEN",
+   "closes_at": "2026-12-04",
+   "closes_source": "listing_expiry",
+   "has_letter": true,
+   "relocation": true
+  },
+  {
+   "id": "seek-95655998",
+   "company": "TTW (NSW) Pty Ltd (Taylor Thomson Whitting)",
+   "role": "Trainee Civil Drafter",
+   "lane": "drafter",
+   "route": "SEEK",
+   "status": "ASK_OWNER",
+   "closes_at": "2026-11-27",
+   "closes_source": "advert",
+   "has_letter": true,
+   "relocation": true
+  },
+  {
+   "id": "seek-95636735",
+   "company": "PROTERRA Group",
+   "role": "Civil Designer",
+   "lane": "drafter",
+   "route": "SEEK",
+   "status": "ASK_OWNER",
+   "closes_at": "2026-11-27",
+   "closes_source": "advert",
+   "has_letter": true,
+   "relocation": true
+  },
+  {
+   "id": "yarra-city-council-civil-works-project-officer-301ffadc",
+   "company": "Yarra City Council",
+   "role": "Civil Works Project Officer",
+   "lane": "technician",
+   "route": "EMPLOYER_PORTAL",
+   "status": "OPEN",
+   "closes_at": "2026-11-22",
+   "closes_source": "advert",
+   "has_letter": true,
+   "relocation": false
+  },
+  {
+   "id": "core-environmental-projects-co-junior-drafter-27501728",
+   "company": "Core Environmental Projects (Core-EP)",
+   "role": "Junior Drafter",
+   "lane": "drafter",
+   "route": "EMAIL",
+   "status": "OPEN",
+   "closes_at": "",
+   "closes_source": "none",
+   "has_letter": true,
+   "relocation": false
+  },
+  {
+   "id": "hobsons-bay-city-council-graduate-drainage-and-development-engine-ce99f8fd",
+   "company": "Hobsons Bay City Council",
+   "role": "Graduate Drainage and Development Engineer",
+   "lane": "engineer",
+   "route": "EMPLOYER_PORTAL",
+   "status": "ASK_OWNER",
+   "closes_at": "2026-11-16",
+   "closes_source": "advert",
+   "has_letter": true,
+   "relocation": false
+  },
+  {
+   "id": "seek-95514711",
+   "company": "Jaydo Construction Pty Ltd",
+   "role": "Site Engineer - Urban Development - EOI 2027",
+   "lane": "engineer",
+   "route": "SEEK",
+   "status": "OPEN",
+   "closes_at": "2026-11-26",
+   "closes_source": "listing_expiry",
+   "has_letter": true,
+   "relocation": false
+  },
+  {
+   "id": "seek-95798711",
+   "company": "Allen Price Pty Ltd",
+   "role": "Civil Engineer",
+   "lane": "engineer",
+   "route": "EMAIL",
+   "status": "OPEN",
+   "closes_at": "2026-12-10",
+   "closes_source": "listing_expiry",
+   "has_letter": true,
+   "relocation": true
+  },
+  {
+   "id": "seek-95823436",
+   "company": "Cairns Regional Council",
+   "role": "Cadet Designer",
+   "lane": "drafter",
+   "route": "EMPLOYER_PORTAL",
+   "status": "ASK_OWNER",
+   "closes_at": "2026-11-25",
+   "closes_source": "advert",
+   "has_letter": false,
+   "relocation": true
+  },
+  {
+   "id": "quantum-civil-speculative-enquiry-graduate-junior-civi-bbcf357c",
+   "company": "Quantum Civil",
+   "role": "Speculative enquiry: graduate / junior civil site role",
+   "lane": "engineer",
+   "route": "EMPLOYER_FORM",
+   "status": "OPEN",
+   "closes_at": "",
+   "closes_source": "none",
+   "has_letter": false,
+   "relocation": false
+  },
+  {
+   "id": "seek-95705736",
+   "company": "McConnell Dowell Australia",
+   "role": "Junior Project Engineer - Traffic",
+   "lane": "engineer",
+   "route": "EMPLOYER_PORTAL",
+   "status": "OPEN",
+   "closes_at": "2026-12-05",
+   "closes_source": "listing_expiry",
+   "has_letter": true,
+   "relocation": false
+  },
+  {
+   "id": "portal-contractors-graduate-civil-engineer-741d4765",
+   "company": "Portal Contractors",
+   "role": "Graduate Civil Engineer",
+   "lane": "engineer",
+   "route": "EMPLOYER_PORTAL",
+   "status": "OPEN",
+   "closes_at": "",
+   "closes_source": "none",
+   "has_letter": true,
+   "relocation": false
+  },
+  {
+   "id": "seek-95835638",
+   "company": "The BMD Group",
+   "role": "Civil Site Engineer",
+   "lane": "engineer",
+   "route": "EMPLOYER_PORTAL",
+   "status": "OPEN",
+   "closes_at": "2026-12-11",
+   "closes_source": "listing_expiry",
+   "has_letter": true,
+   "relocation": false
+  },
+  {
+   "id": "seek-95352132",
+   "company": "J&P Building Solutions",
+   "role": "Graduate Civil/Structural Engineer",
+   "lane": "engineer",
+   "route": "EMAIL",
+   "status": "OPEN",
+   "closes_at": "2026-11-18",
+   "closes_source": "listing_expiry",
+   "has_letter": false,
+   "relocation": false
+  },
+  {
+   "id": "ferrycarrig-construction-graduate-civil-engineer-835f3bd5",
+   "company": "Ferrycarrig Construction",
+   "role": "Graduate Civil Engineer",
+   "lane": "engineer",
+   "route": "EMPLOYER_PORTAL",
+   "status": "OPEN",
+   "closes_at": "",
+   "closes_source": "none",
+   "has_letter": true,
+   "relocation": true
+  },
+  {
+   "id": "nassima-design-group-civil-engineering-draftsperson-7b2c2f1e",
+   "company": "Nassima Design Group",
+   "role": "Civil Engineering Draftsperson",
+   "lane": "drafter",
+   "route": "EMPLOYER_PORTAL",
+   "status": "OPEN",
+   "closes_at": "",
+   "closes_source": "none",
+   "has_letter": true,
+   "relocation": false
+  },
+  {
+   "id": "seek-95842971",
+   "company": "Civilivic Pty Ltd",
+   "role": "Site Engineer (Site or Graduate Engineer)",
+   "lane": "engineer",
+   "route": "SEEK",
+   "status": "ASK_OWNER",
+   "closes_at": "2026-12-12",
+   "closes_source": "listing_expiry",
+   "has_letter": true,
+   "relocation": true
+  },
+  {
+   "id": "seek-95865921",
+   "company": "City of Moreton Bay",
+   "role": "Civil Services Engineer",
+   "lane": "engineer",
+   "route": "EMPLOYER_PORTAL",
+   "status": "OPEN",
+   "closes_at": "2026-11-22",
+   "closes_source": "advert",
+   "has_letter": true,
+   "relocation": true
+  },
+  {
+   "id": "seek-95866809",
+   "company": "Cardinia Shire Council",
+   "role": "Development Engineer",
+   "lane": "engineer",
+   "route": "EMPLOYER_PORTAL",
+   "status": "OPEN",
+   "closes_at": "2026-11-26",
+   "closes_source": "advert",
+   "has_letter": true,
+   "relocation": false
+  },
+  {
+   "id": "seek-95871692",
+   "company": "Cono Services",
+   "role": "Bulk Excavation & Civil Site Engineer",
+   "lane": "engineer",
+   "route": "SEEK",
+   "status": "OPEN",
+   "closes_at": "2026-12-13",
+   "closes_source": "listing_expiry",
+   "has_letter": true,
+   "relocation": true
+  },
+  {
+   "id": "griffith-city-council-graduate-traffic-design-engineer-a451b4cf",
+   "company": "Griffith City Council",
+   "role": "Graduate Traffic & Design Engineer",
+   "lane": "engineer",
+   "route": "EMPLOYER_PORTAL",
+   "status": "ASK_OWNER",
+   "closes_at": "2026-11-27",
+   "closes_source": "advert",
+   "has_letter": true,
+   "relocation": true
+  },
+  {
+   "id": "seek-95872340",
+   "company": "PCP Solutions Pty Ltd",
+   "role": "Graduate Civil Engineer",
+   "lane": "engineer",
+   "route": "EMAIL",
+   "status": "OPEN",
+   "closes_at": "2026-12-13",
+   "closes_source": "listing_expiry",
+   "has_letter": true,
+   "relocation": true
+  }
+ ],
+ "rejected": [
+  {
+   "company": "Coolamon Shire Council",
+   "role": "Cadet Civil Engineer",
+   "location": "Coolamon, Wagga Wagga & Riverina NSW",
+   "url": "https://www.seek.com.au/job/95367897",
+   "seek_id": "95367897",
+   "old_status": "HELD_MANDATORY_UNRESOLVED",
+   "reason": "closed",
+   "detail": "closed 2026-11-10"
+  },
+  {
+   "company": "Urbania",
+   "role": "Assistant Estimator",
+   "location": "Thomastown, Melbourne VIC",
+   "url": "https://www.seek.com.au/job/95364044",
+   "seek_id": "95364044",
+   "old_status": "READY_SEEK",
+   "reason": "excluded_family",
+   "detail": "estimator"
+  },
+  {
+   "company": "Consolidated Power Projects Australia Pty Ltd",
+   "role": "Trainee Drafter - Substations (Utility and Renewable Energy Projects)",
+   "location": "Adelaide SA",
+   "url": "https://www.seek.com.au/job/95398302",
+   "seek_id": "95398302",
+   "old_status": "READY_EMPLOYER_PORTAL",
+   "reason": "no_lane",
+   "detail": "Electrical substation drafting, not civil drafting or design"
+  },
+  {
+   "company": "SMEC Australia",
+   "role": "Cadet Drafter, Roads & Highways",
+   "location": "Gold Coast QLD",
+   "url": "https://surbanajurong.wd3.myworkdayjobs.com/en-US/careersatsmec/job/Cadet-Drafter--Roads---Highways_JR119314",
+   "seek_id": "",
+   "old_status": "HELD_MANDATORY_UNRESOLVED",
+   "reason": "closed",
+   "detail": "closed 2026-10-31"
+  },
+  {
+   "company": "BMD Group",
+   "role": "BMD Graduate Program 2027 (Foundations), Western Australia",
+   "location": "Perth WA",
+   "url": "https://www.seek.com.au/job/95410781",
+   "seek_id": "95410781",
+   "old_status": "HELD_MANDATORY_UNRESOLVED",
+   "reason": "excluded_family",
+   "detail": "graduate programs"
+  },
+  {
+   "company": "City of Rockingham",
+   "role": "Design Engineer (Civil)",
+   "location": "Rockingham, Perth WA",
+   "url": "https://www.seek.com.au/job/95407006",
+   "seek_id": "95407006",
+   "old_status": "READY_EMPLOYER_PORTAL",
+   "reason": "closed",
+   "detail": "closed 2026-11-04"
+  },
+  {
+   "company": "McConnell Dowell Australia",
+   "role": "Site Engineer (Marine, Mid West WA, FIFO 2:1)",
+   "location": "Perth WA (FIFO to the Mid West)",
+   "url": "https://www.seek.com.au/job/95409467",
+   "seek_id": "95409467",
+   "old_status": "READY_EMPLOYER_PORTAL",
+   "reason": "no_lane",
+   "detail": "Bare Site Engineer title; the advert asks, ideally, for at least two years"
+  },
+  {
+   "company": "Leed Engineering and Construction",
+   "role": "Graduate Civil Engineer Program (Expression of Interest, Dec 2026 intake), regional VIC and NSW",
+   "location": "Regional Victoria and NSW (FIFO and DIDO), head office Kent Town SA",
+   "url": "https://www.leed.net.au/working-at-leed/graduates-and-undergraduates/",
+   "seek_id": "",
+   "old_status": "PREPARED_NOT_SENT",
+   "reason": "excluded_family",
+   "detail": "graduate programs"
+  },
+  {
+   "company": "AGT Operations Pty Ltd (Australian Ground Technologies)",
+   "role": "Junior Civil Engineer",
+   "location": "Rouse Hill, Sydney NSW",
+   "url": "https://www.seek.com.au/job/95535388",
+   "seek_id": "95535388",
+   "old_status": "PREPARED_NOT_SENT",
+   "reason": "employer_rejected_him",
+   "detail": "Australian Ground Technologies rejected his application on 2026-10-17"
+  },
+  {
+   "company": "Ace Reo Pty Ltd",
+   "role": "Civil Engineering Assistant",
+   "location": "Dandenong South, Melbourne VIC",
+   "url": "https://www.seek.com.au/job/95606153",
+   "seek_id": "95606153",
+   "old_status": "READY_SEEK",
+   "reason": "mandatory_unmet",
+   "detail": "The advert states at least 2 to 3 years as a civil engineering assistant"
+  },
+  {
+   "company": "Etheredge Mintern Pty Ltd",
+   "role": "Project Coordinator, Civil Construction",
+   "location": "Kilsyth, Melbourne VIC",
+   "url": "https://www.seek.com.au/job/95532229",
+   "seek_id": "95532229",
+   "old_status": "READY_SEEK",
+   "reason": "excluded_family",
+   "detail": "project coordinator"
+  },
+  {
+   "company": "Fowlers Asphalting Pty Ltd",
+   "role": "Project Engineer, Civil",
+   "location": "Trafalgar, West Gippsland VIC",
+   "url": "https://www.seek.com.au/job/95573011",
+   "seek_id": "95573011",
+   "old_status": "PREPARED_NOT_SENT",
+   "reason": "no_lane",
+   "detail": "Bare Project Engineer title; the advert neither welcomes graduates nor asks for one year or less"
+  },
+  {
+   "company": "City of Ryde",
+   "role": "Civil Assets Engineer",
+   "location": "Ryde NSW",
+   "url": "https://www.seek.com.au/job/95544158",
+   "seek_id": "95544158",
+   "old_status": "HELD_MANDATORY_UNRESOLVED",
+   "reason": "closed",
+   "detail": "closed 2026-11-11"
+  },
+  {
+   "company": "Walgett Shire Council",
+   "role": "Roads Engineer",
+   "location": "Walgett, Far West & North Central NSW",
+   "url": "https://www.seek.com.au/job/95577489",
+   "seek_id": "95577489",
+   "old_status": "READY_EMPLOYER_PORTAL",
+   "reason": "no_lane",
+   "detail": "Bare Roads Engineer title; the advert asks for experience delivering road works and does not welcome graduates"
+  },
+  {
+   "company": "Carelli Constructions Pty Ltd",
+   "role": "Graduate/Undergraduate – Project Management",
+   "location": "Notting Hill, Melbourne VIC",
+   "url": "https://employmenthero.com/jobs/position/carelli-constructions-pty-ltd-graduateundergraduate-project-management-ccup5/",
+   "seek_id": "",
+   "old_status": "READY_EMPLOYER_PORTAL",
+   "reason": "excluded_family",
+   "detail": "student, intern, vacation or undergraduate roles"
+  },
+  {
+   "company": "Tigerform Pty Ltd",
+   "role": "Project Coordinator",
+   "location": "Moorabbin, Melbourne VIC",
+   "url": "https://www.seek.com.au/job/95756453",
+   "seek_id": "95756453",
+   "old_status": "READY_SEEK",
+   "reason": "excluded_family",
+   "detail": "project coordinator"
+  },
+  {
+   "company": "Fyfe",
+   "role": "Graduate Civil Engineer (Property & Infrastructure)",
+   "location": "Adelaide SA",
+   "url": "https://www.careers-page.com/fyfe-2/job/93V47WVY",
+   "seek_id": "",
+   "old_status": "HELD_MANDATORY_UNRESOLVED",
+   "reason": "duplicate",
+   "detail": "same job as seek-95736615"
+  },
+  {
+   "company": "BMD Constructions (The BMD Group)",
+   "role": "Site Engineer",
+   "location": "Adelaide SA",
+   "url": "https://www.seek.com.au/job/95755286",
+   "seek_id": "95755286",
+   "old_status": "HELD_MANDATORY_UNRESOLVED",
+   "reason": "no_lane",
+   "detail": "Bare Site Engineer title; advert text not saved and nothing on record says it welcomes graduates"
+  },
+  {
+   "company": "CPB Contractors",
+   "role": "Document Controller",
+   "location": "Truganina, Melbourne VIC",
+   "url": "https://careersmanager.pageuppeople.com/434/caw/en/job/1005896/document-controller",
+   "seek_id": "",
+   "old_status": "READY_EMPLOYER_PORTAL",
+   "reason": "excluded_family",
+   "detail": "document control"
+  },
+  {
+   "company": "Keller Australia",
+   "role": "Graduate Engineer (2027 Graduate Program)",
+   "location": "Spring Hill, Brisbane QLD",
+   "url": "https://www.seek.com.au/job/95765009",
+   "seek_id": "95765009",
+   "old_status": "HELD_MANDATORY_UNMET",
+   "reason": "excluded_family",
+   "detail": "graduate programs"
+  },
+  {
+   "company": "PCF Construction Services Pty Ltd",
+   "role": "Graduate Estimator",
+   "location": "Docklands, Melbourne VIC",
+   "url": "https://www.seek.com.au/job/95827903",
+   "seek_id": "95827903",
+   "old_status": "PREPARED_NOT_SENT",
+   "reason": "excluded_family",
+   "detail": "estimator"
+  },
+  {
+   "company": "Stanfield's Real Property Drafting",
+   "role": "Cadet Survey Draftsperson",
+   "location": "Spring Hill, Brisbane QLD",
+   "url": "https://www.seek.com.au/job/95815474",
+   "seek_id": "95815474",
+   "old_status": "READY_SEEK",
+   "reason": "no_lane",
+   "detail": "Cadastral survey drafting, not civil drafting or design"
+  },
+  {
+   "company": "PAD Contracting (PAD Civil)",
+   "role": "Graduate / Site Engineer - Civil & Hydraulics",
+   "location": "Thornbury VIC",
+   "url": "",
+   "seek_id": "",
+   "old_status": "READY_JORA",
+   "reason": "no_advert_in_repo",
+   "detail": "named only in a journal note: no advert url, text or draft in the repo"
+  },
+  {
+   "company": "Power On Cabling",
+   "role": "Civil Site Engineer",
+   "location": "Perth WA (site based, FIFO / Perth based)",
+   "url": "https://www.seek.com.au/job/95841578",
+   "seek_id": "95841578",
+   "old_status": "READY_SEEK",
+   "reason": "no_lane",
+   "detail": "Bare Civil Site Engineer title; the advert wants someone who works on their own and does not welcome graduates"
+  },
+  {
+   "company": "Mammoet Australia",
+   "role": "Graduate Engineer",
+   "location": "Henderson WA (Perth)",
+   "url": "https://jobs.mammoet.com/careers-home/jobs/9300",
+   "seek_id": "",
+   "old_status": "READY_EMPLOYER_PORTAL",
+   "reason": "no_lane",
+   "detail": "Heavy-lift and transport graduate program, not a civil, site or project engineer role"
+  },
+  {
+   "company": "B & S Brothers Enterprises Pty Ltd",
+   "role": "Civil Engineering Draftsperson",
+   "location": "Melton VIC",
+   "url": "https://www.seek.com.au/job/95870684",
+   "seek_id": "95870684",
+   "old_status": "HELD_MANDATORY_UNMET",
+   "reason": "mandatory_unmet",
+   "detail": "The advert states a minimum of 3 years (old screening notes; advert text not saved)"
+  }
+ ],
+ "decisions_from_reading_the_advert": {
+  "95347045": {
+   "lane": "technician",
+   "why": "Quality assurance trainee: site inspections, ITPs, test records and help with material testing; experience not essential"
+  },
+  "95487722": {
+   "lane": "drafter",
+   "why": "Land-development consultancy asking for Civil Engineers and Civil Designers; the duties are civil design and drafting"
+  },
+  "95372255": {
+   "lane": "engineer",
+   "why": "Junior Project Manager at a civil contractor, aimed at a recent civil engineering graduate (old screening notes; advert text not saved)"
+  },
+  "https://careers.pageuppeople.com/817/cw/en/job/496994/civil-works-project-officer": {
+   "lane": "technician",
+   "why": "Council project officer scoping and inspecting road and footpath reinstatement works; no minimum years (old screening notes)",
+   "note": "The position description with the selection criteria was not read (the site blocked the download): read it before applying."
+  },
+  "95514711": {
+   "lane": "engineer",
+   "why": "Site Engineer expression of interest; the advert says you don't need to know everything from day one (old screening notes; advert text not saved)"
+  },
+  "95798711": {
+   "lane": "engineer",
+   "why": "Civil Engineer at a consultancy; the advert asks for 1+ years"
+  },
+  "95835638": {
+   "lane": "engineer",
+   "why": "Civil Site Engineer; the advert asks for 1 to 5 years"
+  },
+  "95871692": {
+   "lane": "engineer",
+   "why": "Site Engineer; the advert says graduate to intermediate level (old screening notes; advert text not saved)",
+   "note": "SEEK questions were not saved (old notes: work rights, salary, years as site engineer, notice)."
+  },
+  "95866809": {
+   "lane": "engineer",
+   "why": "Council Development Engineer; the advert asks for a civil engineering background as a recent graduate (old letter; advert text not saved)"
+  },
+  "95865921": {
+   "lane": "engineer",
+   "why": "Council Civil Services Engineer; the advert says it only wants applications from current graduates",
+   "note": "Check what \"current graduates\" means in the position description before applying."
+  },
+  "https://www.quantumcivil.com.au/careers": {
+   "lane": "engineer",
+   "why": "Speculative enquiry for a graduate or junior civil site role, through the careers form"
+  },
+  "95446060": {
+   "note": "The advert asks for a recently completed Bachelor of Engineering."
+  },
+  "95352132": {
+   "note": "Known from a journal note only (advert not saved): check the advert still gives this email address before sending."
+  },
+  "95736615": {
+   "note": "The requirements list says Australian citizenship or permanent residency; the last line of the advert says people who hold full Australian working rights will be considered."
+  },
+  "95655998": {
+   "note": "Three-year traineeship that requires completing a Diploma of Civil Construction Design at TAFE Ultimo."
+  },
+  "95842971": {
+   "note": "The advert lists a current Queensland driver's licence."
+  },
+  "95773573": {
+   "note": "The advert asks for a civil engineering degree or an equivalent recognised in Australia."
+  },
+  "https://au.indeed.com/job/graduate-project-engineer-438ca52bc822d185": {
+   "note": "Seen on job boards only; an earlier copy had expired. Confirm the advert is live first."
+  },
+  "https://www.simplyhired.com.au/job/6Pbf9pqbHHreuUa9VUxiOFJMue5kUqLT_iod1MlWa9uv9RQgvHXCVw": {
+   "note": "Seen on job-board mirrors only, not on the employer's own board. Find the live advert first."
+  },
+  "95398302": {
+   "reject": [
+    "no_lane",
+    "Electrical substation drafting, not civil drafting or design"
+   ]
+  },
+  "95815474": {
+   "reject": [
+    "no_lane",
+    "Cadastral survey drafting, not civil drafting or design"
+   ]
+  },
+  "95409467": {
+   "reject": [
+    "no_lane",
+    "Bare Site Engineer title; the advert asks, ideally, for at least two years"
+   ]
+  },
+  "95573011": {
+   "reject": [
+    "no_lane",
+    "Bare Project Engineer title; the advert neither welcomes graduates nor asks for one year or less"
+   ]
+  },
+  "95577489": {
+   "reject": [
+    "no_lane",
+    "Bare Roads Engineer title; the advert asks for experience delivering road works and does not welcome graduates"
+   ]
+  },
+  "95755286": {
+   "reject": [
+    "no_lane",
+    "Bare Site Engineer title; advert text not saved and nothing on record says it welcomes graduates"
+   ]
+  },
+  "95841578": {
+   "reject": [
+    "no_lane",
+    "Bare Civil Site Engineer title; the advert wants someone who works on their own and does not welcome graduates"
+   ]
+  },
+  "https://jobs.mammoet.com/careers-home/jobs/9300": {
+   "reject": [
+    "no_lane",
+    "Heavy-lift and transport graduate program, not a civil, site or project engineer role"
+   ]
+  },
+  "95606153": {
+   "reject": [
+    "mandatory_unmet",
+    "The advert states at least 2 to 3 years as a civil engineering assistant"
+   ]
+  },
+  "95870684": {
+   "reject": [
+    "mandatory_unmet",
+    "The advert states a minimum of 3 years (old screening notes; advert text not saved)"
+   ]
+  },
+  "https://au.prosple.com/graduate-employers/hobsons-bay-city-council/jobs-internships/graduate-drainage-and-development-engineer": {
+   "ask": "Hobsons Bay City Council asks for eligibility for Engineers Australia membership: are you eligible? (closes 16 Nov)"
+  },
+  "https://www.careersatcouncil.com.au/job/graduate-traffic-design-engineer-20261016/": {
+   "ask": "Griffith City Council asks for an engineering degree acceptable to Engineers Australia: is yours?"
+  },
+  "95823436": {
+   "ask": "Cairns Regional Council's Cadet Designer job runs for up to six years and includes studying an Associate Degree in Engineering (Civil): would you enrol and apply?"
+  }
+ }
+}

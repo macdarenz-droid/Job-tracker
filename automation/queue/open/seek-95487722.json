@@ -1,0 +1,47 @@
+{
+ "id": "seek-95487722",
+ "lane": "drafter",
+ "route": "SEEK",
+ "company": "Newton Denny Chapelle",
+ "role": "Civil Engineer / Design Engineer",
+ "location": "Lismore or Casuarina, Northern Rivers NSW",
+ "url": "https://www.seek.com.au/job/95487722",
+ "seek_id": "95487722",
+ "listed_at": "2026-10-26",
+ "closes_at": "2026-11-25",
+ "closes_source": "advert",
+ "fit": 62,
+ "resume_variant": "drafter",
+ "relocation_line": "I will relocate to Lismore or Casuarina for this role and can start two weeks after an offer.",
+ "cover_letter_text": "I am applying for the Civil Engineer / Design Engineer role advertised on SEEK. Urban development, road design, stormwater and civil documentation delivered alongside planning and surveying teams is the kind of work I want to start my design career in.\n\nYou asked what project experience I would bring. The most relevant is my Advanced Diploma of Civil Construction Design, finished in February 2026 at Albright Institute in Australia, where I designed and documented road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D to Australian Standards, and lodged Before You Dig Australia enquiries to design around existing services. On site in the Philippines in 2019 and 2020, as a field engineer on residential subdivision finishing works, I kept site reports and material records and coordinated with engineers, subcontractors and suppliers.\n\nIn my first three months I could help with drawing updates, quantities and technical reports, and with construction phase records, while learning your standards and the councils you work with. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019).\n\nI have full working rights to December 2027 on a Subclass 485 visa, an Australian driver's licence and a White Card. I am based in Melton VIC and open to discussing relocation to the Northern Rivers. My design experience is from study rather than a consultancy, so I would start at junior level.\n\nI have attached my resume and would welcome the chance to talk about the role.",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [
+  {
+   "question": "Which of the following statements best describes your right to work in Australia?",
+   "options": [],
+   "answer": "The option that names a graduate temporary work visa (Subclass 485). If the list has no such option, choose the temporary visa option that has no restriction on hours or industry.",
+   "basis": "answers.right_to_work.choose",
+   "status": "answered"
+  },
+  {
+   "question": "Have you completed a qualification in engineering?",
+   "options": [],
+   "answer": "Yes",
+   "basis": "answers.qualification_questions.engineering",
+   "status": "answered"
+  }
+ ],
+ "status": "OPEN",
+ "ask_owner": "",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "import_backlog.py",
+ "created_at": "2026-11-13T00:40:00Z",
+ "source_run": "20261030T1814Z",
+ "notes": "letter written under the old rules: rewrite before use\nImported from the backlog of 2026-11-13 (old status READY_SEEK). Fit 62% is from the old rubric.\nLane drafter: Land-development consultancy asking for Civil Engineers and Civil Designers; the duties are civil design and drafting."
+}

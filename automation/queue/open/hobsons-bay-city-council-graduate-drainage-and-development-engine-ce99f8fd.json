@@ -1,0 +1,32 @@
+{
+ "id": "hobsons-bay-city-council-graduate-drainage-and-development-engine-ce99f8fd",
+ "lane": "engineer",
+ "route": "EMPLOYER_PORTAL",
+ "company": "Hobsons Bay City Council",
+ "role": "Graduate Drainage and Development Engineer",
+ "location": "Altona, Melbourne VIC",
+ "url": "https://au.prosple.com/graduate-employers/hobsons-bay-city-council/jobs-internships/graduate-drainage-and-development-engineer",
+ "seek_id": "",
+ "listed_at": "2026-11-03",
+ "closes_at": "2026-11-16",
+ "closes_source": "advert",
+ "fit": 72,
+ "resume_variant": "engineer",
+ "relocation_line": "",
+ "cover_letter_text": "I am applying for the Graduate Drainage and Development Engineer role in your Drainage and Development team. Drainage investigations, assessing engineering plans for development and supporting flood mitigation work in a council close to where I live is the kind of graduate role I have been working towards.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute in Australia. I designed and documented road geometry, earthworks, pavement systems and stormwater drainage in AutoCAD and Civil 3D using Australian Standards, and prepared cost estimates and bills of quantities. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019), where I studied hydraulics, surveying and civil design. Stormwater drainage design was a core part of my coursework, and I lodged Before You Dig Australia enquiries and designed around existing services and site constraints.\n\nFrom 2019 to 2020 I worked on site in the Philippines. As a field engineer on subdivision finishing works I assisted with site inspections and quality checks, tracked procurement and materials, and prepared site, material and progress reports. As project-in-charge on a community hall renovation I coordinated 10 to 15 workers a day, reviewed drawings against project requirements and kept the client up to date. That work taught me to check plans against what is built and to raise issues early.\n\nI hold an Australian driver's licence with my own transport and a White Card, and I have full working rights to December 2027 on a Subclass 485 visa. I live in Melton VIC, a short drive from Altona. I have not yet worked in local government, so I would learn your drainage policies, Legal Point of Discharge and Build Over Easement processes quickly and keep clear records.\n\nI have attached my resume and would welcome the chance to talk about the role.",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [],
+ "status": "ASK_OWNER",
+ "ask_owner": "Hobsons Bay City Council asks for eligibility for Engineers Australia membership: are you eligible? (closes 16 Nov)",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "import_backlog.py",
+ "created_at": "2026-11-13T00:40:00Z",
+ "source_run": "20261110T0418Z",
+ "notes": "letter written under the old rules: rewrite before use\nImported from the backlog of 2026-11-13 (old status READY_EMPLOYER_PORTAL). Fit 72% is from the old rubric."
+}

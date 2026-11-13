@@ -1,0 +1,32 @@
+{
+ "id": "seek-95695784",
+ "lane": "engineer",
+ "route": "EMPLOYER_PORTAL",
+ "company": "Martinus Rail",
+ "role": "Graduate Engineer (Inland Rail, Albury to Parkes)",
+ "location": "Wagga Wagga / Forbes, NSW",
+ "url": "https://www.seek.com.au/job/95695784",
+ "seek_id": "95695784",
+ "listed_at": "2026-11-04",
+ "closes_at": "2026-12-04",
+ "closes_source": "listing_expiry",
+ "fit": 62,
+ "resume_variant": "engineer",
+ "relocation_line": "I will relocate to Wagga Wagga or Forbes for this role and can start two weeks after an offer.",
+ "cover_letter_text": "I am applying for the Graduate Engineer role on the Inland Rail Albury to Parkes Enhancement Project advertised on SEEK. Learning on a major regional rail project with a team that values coachable, driven people is the start I want for my civil career.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute in Australia. I designed and documented road geometry, earthworks, pavement systems and stormwater drainage in AutoCAD and Civil 3D using Australian Standards, and prepared cost estimates, bills of quantities and risk registers. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019).\n\nFrom 2019 to 2020 I worked on site in the Philippines. As a field engineer on subdivision finishing works I assisted with site inspections and quality checks, tracked procurement and materials, and prepared site, material and progress reports. As project-in-charge on a community hall renovation I coordinated 10 to 15 workers a day, reviewed drawings against project requirements and kept the client up to date.\n\nI hold an Australian driver's licence and a White Card, and I have full working rights to December 2027 on a Subclass 485 visa. I am based in Melton VIC, available for regional project work and open to discussing relocation near Forbes. I have not yet worked in rail or on Australian infrastructure projects, so I would start at graduate level and learn quickly from your engineers on site.\n\nI have attached my resume and would welcome the chance to talk about the role.",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [],
+ "status": "OPEN",
+ "ask_owner": "",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "import_backlog.py",
+ "created_at": "2026-11-13T00:40:00Z",
+ "source_run": "20261109T1818Z",
+ "notes": "letter written under the old rules: rewrite before use\nImported from the backlog of 2026-11-13 (old status READY_EMPLOYER_PORTAL). Fit 62% is from the old rubric."
+}

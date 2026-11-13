@@ -1,0 +1,61 @@
+{
+ "id": "seek-95446060",
+ "lane": "engineer",
+ "route": "SEEK",
+ "company": "Cooke & Dowsett / CJ Arms Design",
+ "role": "Graduate Design Engineer (Hydraulic/Civil)",
+ "location": "Southbank VIC",
+ "url": "https://www.seek.com.au/job/95446060",
+ "seek_id": "95446060",
+ "listed_at": "2026-10-23",
+ "closes_at": "2026-11-22",
+ "closes_source": "listing_expiry",
+ "fit": 62,
+ "resume_variant": "engineer",
+ "relocation_line": "",
+ "cover_letter_text": "",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [
+  {
+   "question": "Which of the following statements best describes your right to work in Australia?",
+   "options": [],
+   "answer": "The option that names a graduate temporary work visa (Subclass 485). If the list has no such option, choose the temporary visa option that has no restriction on hours or industry.",
+   "basis": "answers.right_to_work.choose",
+   "status": "answered"
+  },
+  {
+   "question": "What's your expected annual base salary?",
+   "options": [],
+   "answer": "If the advert states pay, choose the band that contains the advertised figure (the lower end when it is a range). If the advert states no pay, choose $65,000 to $75,000. Single figure when the advert states no pay: 70000.",
+   "basis": "answers.expected_salary.rule",
+   "status": "answered"
+  },
+  {
+   "question": "How much notice are you required to give your current employer?",
+   "options": [],
+   "answer": "2 weeks",
+   "basis": "answers.notice_period",
+   "status": "answered"
+  },
+  {
+   "question": "Do you have a current Australian driver's licence?",
+   "options": [],
+   "answer": "Yes",
+   "basis": "answers.drivers_licence",
+   "status": "answered"
+  }
+ ],
+ "status": "OPEN",
+ "ask_owner": "",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "import_backlog.py",
+ "created_at": "2026-11-13T00:40:00Z",
+ "source_run": "20261030T2318Z",
+ "notes": "letter written under the old rules: rewrite before use\nImported from the backlog of 2026-11-13 (old status HELD_MANDATORY_UNRESOLVED). Fit 62% is from the old rubric.\nThe advert asks for a recently completed Bachelor of Engineering.\nNo letter text was in the repo for this find: write one."
+}
