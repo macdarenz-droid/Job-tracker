@@ -1,4 +1,4 @@
-"""Shared helpers for Claude's job-search loop. Standard library only."""
+"""Shared helpers for the job-application pipeline. Standard library only."""
 import json
 import os
 import re
@@ -30,11 +30,28 @@ def today_melbourne():
         return datetime.now(timezone.utc).strftime('%Y-%m-%d')
 
 
+def compact_json(data):
+    """JSON as the tracker stores it: no spaces after separators, non-ASCII characters as themselves.
+
+    The Worker refuses a request whose body is over its size cap before it reads it, so every
+    padding space and every \\uXXXX escape counted against the tracker for nothing.
+    """
+    return json.dumps(data, separators=(',', ':'), ensure_ascii=False)
+
+
+def canonical_status(status):
+    """Read a legacy status as its current name: READY_JEREMIE_SEEK means READY_SEEK (config -> statuses -> _legacy)."""
+    return re.sub(r'^READY_JEREMIE_', 'READY_', str(status or ''))
+
+
 def http(url, data=None, headers=None, method=None, timeout=40, raw=False):
     """HTTP request. Returns (status, body) where body is parsed JSON unless raw."""
     body = data
     if isinstance(data, (dict, list)):
-        body = json.dumps(data).encode('utf-8')
+        try:
+            body = compact_json(data).encode('utf-8')
+        except UnicodeEncodeError:  # a lone surrogate in old data: fall back to \uXXXX escapes
+            body = json.dumps(data, separators=(',', ':')).encode('utf-8')
     req = urllib.request.Request(url, data=body, method=method,
                                  headers={'User-Agent': UA, 'Accept': 'application/json, text/html;q=0.9,*/*;q=0.8',
                                           **(headers or {})})
