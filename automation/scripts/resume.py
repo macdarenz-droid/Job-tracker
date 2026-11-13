@@ -1,15 +1,19 @@
 #!/usr/bin/env python3
-"""Marc's resume in three lane variants (drafter, technician, engineer), built from facts.json only.
+"""Marc's resume in three lane variants (drafter, technician, engineer) and the text of his SEEK profile,
+built from facts.json only.
 
 Every printed line is either one fact, tidied (ranges written with 'to', project values left out), or
 words written in this file together with the facts they rest on; verify() refuses to build when such
 a line holds a word or number that its facts do not. The PDF is drawn with pymupdf in the standard
 PDF fonts: text goes down in reading order, nothing is embedded, each file is a few KB. The HTML next
-to each PDF carries the same lines.
+to each PDF carries the same lines. The text blocks of SEEK_PROFILE.md are built the same way.
 
 Usage:
-  resume.py build [--out DIR] [--png DIR]   all variants into documents/resume/ (page images if asked)
+  resume.py build [--out DIR] [--png DIR]   the three variants into documents/resume/ and the text blocks
+                                            of SEEK_PROFILE.md (with --out, a copy of that page goes to DIR);
+                                            everything is built before anything is written
   resume.py text LANE                       the lines of one variant and the facts each rests on
+  resume.py seek                            the SEEK profile text, section by section
 """
 import argparse
 import html
@@ -18,10 +22,11 @@ from pathlib import Path
 
 import pymupdf
 
-from common import ROOT, REPO, FACTS
+from common import ROOT, REPO, FACTS, CONFIG
 
 LANES = ('drafter', 'technician', 'engineer')
 OUT_DIR = REPO / 'documents' / 'resume'
+SEEK_MD = ROOT / 'SEEK_PROFILE.md'
 MONTHS = 'Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec'.split()
 
 # Words that join facts but claim nothing. Anything else in a written line must be in its facts.
@@ -49,6 +54,28 @@ PROFILE = {
         'in Australia in {completed}, covering road geometry, earthworks, pavement systems and stormwater '
         'drainage.',
 }
+
+# The SEEK personal summary, about 80 words, checked like a profile. Drafter roles first, then technician.
+SUMMARY = ('Civil design graduate with an {diploma} ({code}), completed in Australia in {completed}, and a {degree}. '
+           'Designed and documented road geometry, earthworks, pavement systems and stormwater drainage, and '
+           'prepared and reviewed technical drawings in AutoCAD and Civil 3D, applying Australian Standards. '
+           'Site experience in inspections, quality checks, material records and progress reports. '
+           '{card} and {licence}. Will relocate anywhere in Australia and can start two weeks after an offer.')
+# SEEK skills after the software list. Each must be, letter for letter, a phrase of capabilities or of a
+# point under a job or a course; seek() refuses any other.
+SKILLS = ['Road geometry', 'Earthworks', 'Pavement design', 'Stormwater drainage', 'Civil documentation',
+          'Technical drawings', 'Cost estimates and bills of quantities', 'Risk registers', 'Options analysis',
+          'Hand calculations', 'Before You Dig Australia enquiries', 'Site inspections', 'Quality checks',
+          'Safety checks', 'Progress monitoring', 'Site reports', 'Material records', 'Progress reports',
+          'Tracking procurement', 'Coordinating crews', 'Reviewing drawings', 'Customer service']
+# Role titles wanted on SEEK. Each must be a phrase of that lane's description in config.json -> lanes.
+WANTED = {
+    'drafter': ['Civil drafter', 'draftsperson', 'civil designer', 'CAD or Civil 3D technician'],
+    'technician': ['Construction materials testing', 'civil or geotechnical laboratory and field technician',
+                   'civil engineering technician'],
+    'engineer': ['Graduate or junior civil, site or project engineer'],
+}
+SEEK_FIRST = 'inspect|quality|drawings|record|workers'   # a SEEK career entry holds three points: these first
 
 # Layout, in points. kind: (font, size, colour, space above, indent)
 A4 = pymupdf.paper_rect('a4')
@@ -98,6 +125,20 @@ def tidy(s):
     return s
 
 
+def lead(s):
+    """The first sentence of a fact that carries notes after it: no brackets, no 'Holds a' in front."""
+    s = re.sub(r'^Holds an? ', '', re.sub(r'\s*\([^)]*\)', '', str(s)).split('. ')[0].rstrip('.'))
+    return tidy(s[:1].upper() + s[1:])
+
+
+def phrases(wanted, text, where):
+    """`wanted`, unless one of them is not a phrase of `text` (capitals aside)."""
+    missing = [w for w in wanted if w.lower() not in text.lower()]
+    if missing:
+        raise ValueError(f'not a phrase of {where}: {missing}')
+    return list(wanted)
+
+
 def stem(word):
     word = word.lower()
     for end in ('ing', 'ed', 'es', 's'):
@@ -136,6 +177,10 @@ class Lines(list):
         """One fact, printed as it stands."""
         self.append((kind, self.get(path), (path,)))
 
+    def lead(self, kind, path):
+        """The first sentence of one fact (see lead)."""
+        self.append((kind, lead(pick(self.facts, path)), (path,)))
+
     def say(self, kind, text, *paths):
         """Words written here; verify() checks them against the facts named."""
         self.append((kind, tidy(text), paths))
@@ -159,6 +204,25 @@ def jobs(facts):
     return current, site, [p for p in paths if p not in current + site]
 
 
+def courses(facts):
+    """Paths of the Advanced Diploma (the course that carries its code), of the degree, and of every
+    course but the diploma."""
+    study = [f'education.{i}' for i in range(len(facts['education']))]
+    dip = next(p for p in study if 'code' in pick(facts, p))
+    rest = [p for p in study if p != dip]
+    return dip, next(p for p in rest if 'Bachelor' in pick(facts, p + '.qualification')), rest
+
+
+def plain(qualification):
+    """A qualification without its letters: 'Bachelor of Science in Civil Engineering (BSCE)'."""
+    return re.sub(r' \([A-Z]+\)$', '', qualification)
+
+
+def licence(out):
+    """The licence alone, without the transport that eligibility.drivers_licence adds after 'and'."""
+    return out.get('eligibility.drivers_licence').split(' and ')[0]
+
+
 def header(out, lane):
     out.fact('name', 'identity.name')
     out.fact('headline', f'identity.titles.{lane}')
@@ -174,7 +238,7 @@ def profile(out, lane, dip, degree, site, other):
     oldest, newest = out.get(site[-1] + '.dates'), out.get(site[0] + '.dates')
     text = PROFILE[lane].format(
         diploma=out.get(dip + '.qualification'), completed=out.get(dip + '.completed'),
-        degree=re.sub(r' \([A-Z]+\)$', '', out.get(degree + '.qualification')),
+        degree=plain(out.get(degree + '.qualification')),
         span=f"{oldest.split(' to ')[0]} to {newest.split(' to ')[1]}")
     paths = [dip + k for k in ('.qualification', '.completed', '.provider', '.points')] + [degree + '.qualification']
     paths += [p + k for p in site + other for k in ('.role', '.employer', '.dates', '.points')]
@@ -211,8 +275,8 @@ def coursework(out, *keys, where=' used in coursework'):
 def eligibility(out, *keys):
     e = 'eligibility.'
     for key in keys:
-        if key == 'checks':
-            out.say('li', 'Current National Police Certificate; Working with Children Check', e + 'police_check', e + 'wwcc')
+        if key == 'police_check':
+            out.lead('li', e + key)     # the fact carries notes on how long it counts as current
         elif key == 'move':
             out.say('li', 'Will relocate anywhere in Australia', e + 'relocation', 'answers.willing_to_relocate')
         else:
@@ -223,11 +287,10 @@ def build(lane, facts=FACTS):
     """The lines of one variant, checked against the facts."""
     out = Lines(facts)
     current, site, other = jobs(facts)
-    study = [f'education.{i}' for i in range(len(facts['education']))]
-    dip = next(p for p in study if 'code' in pick(facts, p))   # the Advanced Diploma carries its course code
-    degree = next(p for p in study if p != dip)
-    ready = ['medical_and_drug_tests', 'availability.0', 'availability.1', 'availability.2', 'move']
-    held = ['drivers_licence', 'white_card', 'checks']
+    dip, degree, rest = courses(facts)
+    available = [f'availability.{i}' for i in range(len(facts['eligibility']['availability']))]
+    ready = ['medical_and_drug_tests'] + available + ['move']
+    held = ['drivers_licence', 'white_card', 'police_check', 'wwcc']
     header(out, lane)
     out.head('Profile')
     profile(out, lane, dip, degree, site, other)
@@ -246,7 +309,6 @@ def build(lane, facts=FACTS):
             job(out, path)
         out.head('Education')
         course(out, dip, points=False)
-        course(out, degree)
     elif lane == 'technician':
         out.head('Site inspection and quality-check experience')
         for path in site:
@@ -254,14 +316,13 @@ def build(lane, facts=FACTS):
         out.head('Standards and methods used in Advanced Diploma coursework')
         coursework(out, 'standards_coursework', 'methods_coursework', where='')
         out.head('Tickets, licence and site readiness')
-        eligibility(out, 'white_card', 'drivers_licence', 'checks', *ready)
+        eligibility(out, 'white_card', 'drivers_licence', 'police_check', 'wwcc', *ready)
         out.head('Other work history')
         for path in current + other:
             job(out, path)
         out.head('Education')
         course(out, dip)
         coursework(out, 'software')
-        course(out, degree)
     else:
         out.head('Site experience')
         for path in site:
@@ -272,7 +333,8 @@ def build(lane, facts=FACTS):
         out.head('Education')
         course(out, dip)
         coursework(out, 'software', 'standards_coursework', 'methods_coursework')
-        course(out, degree)
+    for path in rest:
+        course(out, path)
     out.head('Eligibility and licences')
     eligibility(out, 'work_rights', *(held[:2] if lane == 'technician' else held + ready))
     out.say('p', 'Referees ' + out.get('references').lower(), 'references')
@@ -316,8 +378,8 @@ def room_for(lines, shapes, n):
     return total
 
 
-def draw(lines, path):
-    """Write the PDF and return its page count. Text is written in the order of `lines`."""
+def draw(lines):
+    """The PDF as bytes, and its page count. Text is written in the order of `lines`."""
     doc = pymupdf.open()
     shapes = [shape(kind, text) for kind, text, _ in lines]
     page, y = None, 0
@@ -346,9 +408,9 @@ def draw(lines, path):
                 page.insert_link({'kind': pymupdf.LINK_URI, 'from': rect, 'uri': uri})
     doc.set_metadata({'title': ident['name'] + ' resume', 'author': ident['name']})
     pages = len(doc)
-    doc.save(path, garbage=4, deflate=True, no_new_id=True)   # no id, no dates: the same facts give the same file
+    data = doc.tobytes(garbage=4, deflate=True, no_new_id=True)   # no id, no dates: the same facts give the same file
     doc.close()
-    return pages
+    return data, pages
 
 
 def to_html(lines):
@@ -375,22 +437,123 @@ def file_stem(lane, facts=FACTS):
     return f'{name[0]}_{name[-1]}_Resume_{lane.capitalize()}'
 
 
-def write(lane, out_dir=OUT_DIR, facts=FACTS, png_dir=None):
-    """Build one variant: PDF and HTML into out_dir. Returns (pdf path, pages)."""
+def render(lane, facts=FACTS):
+    """One variant in memory: (PDF bytes, HTML, pages). It raises before anything is written."""
     lines = build(lane, facts)
+    data, pages = draw(lines)
+    if pages > 2:
+        raise ValueError(f'{lane}: {pages} pages; a resume is two pages at most')
+    return data, to_html(lines), pages
+
+
+def put(lane, made, out_dir, facts, png_dir=None):
+    """Write what render() made. Returns (pdf path, pages)."""
+    data, page, pages = made
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
     pdf = out_dir / (file_stem(lane, facts) + '.pdf')
-    pages = draw(lines, pdf)
-    if pages > 2:
-        raise ValueError(f'{lane}: {pages} pages; a resume is two pages at most')
-    pdf.with_suffix('.html').write_text(to_html(lines), encoding='utf-8')
+    pdf.write_bytes(data)
+    pdf.with_suffix('.html').write_text(page, encoding='utf-8')
     if png_dir:
         Path(png_dir).mkdir(parents=True, exist_ok=True)
-        with pymupdf.open(pdf) as doc:
-            for page in doc:
-                page.get_pixmap(dpi=110).save(Path(png_dir) / f'{pdf.stem}_p{page.number + 1}.png')
+        with pymupdf.open(stream=data, filetype='pdf') as doc:
+            for sheet in doc:
+                sheet.get_pixmap(dpi=110).save(Path(png_dir) / f'{pdf.stem}_p{sheet.number + 1}.png')
     return pdf, pages
+
+
+def write(lane, out_dir=OUT_DIR, facts=FACTS, png_dir=None):
+    """Build one variant, then write its PDF and HTML into out_dir. Returns (pdf path, pages)."""
+    return put(lane, render(lane, facts), out_dir, facts, png_dir)
+
+
+def write_all(out_dir=OUT_DIR, facts=FACTS, png_dir=None, seek_md=SEEK_MD):
+    """Build the three variants and the SEEK profile text, then write them: a refusal anywhere leaves
+    every file as it was. The SEEK page is read from SEEK_PROFILE.md and written to `seek_md`."""
+    made = {lane: render(lane, facts) for lane in LANES}
+    page = fill(SEEK_MD.read_text(encoding='utf-8'), seek(facts))
+    done = [put(lane, made[lane], out_dir, facts, png_dir) for lane in LANES]
+    Path(seek_md).write_text(page, encoding='utf-8')
+    return done
+
+
+def apart(entries):
+    """The lines of several entries in one block, with an empty line between entries."""
+    return [row for n, entry in enumerate(entries) for row in ([''] if n else []) + entry]
+
+
+def seek(facts=FACTS, config=CONFIG):
+    """{section of SEEK_PROFILE.md: the lines of its text block}. A line is one fact, a named part of one
+    fact, or (the summary) words that verify() checks; the wanted roles are phrases of config -> lanes."""
+    out, e = Lines(facts), 'eligibility.'
+    dip, degree, rest = courses(facts)
+    current, site, other = jobs(facts)
+    card, lic = out.get(e + 'white_card').split(' (')[0], licence(out)
+    summary = SUMMARY.format(diploma=out.get(dip + '.qualification'), code=out.get(dip + '.code'),
+                             completed=out.get(dip + '.completed'), degree=plain(out.get(degree + '.qualification')),
+                             card=card, licence=lic[:1].lower() + lic[1:])
+    out.say('p', summary, *[dip + k for k in ('.qualification', '.code', '.completed', '.provider', '.points')],
+            degree + '.qualification', *[p + '.points' for p in site], 'identity.titles.engineer', e + 'white_card',
+            e + 'drivers_licence', e + 'relocation', 'answers.willing_to_relocate', e + 'availability')
+    verify(out)
+    career, study = [], []
+    for path in sorted(current + site + other, key=lambda p: started(pick(facts, p + '.dates')), reverse=True):
+        start, end = out.get(path + '.dates').split(' to ')
+        points = pick(facts, path + '.points')
+        three = sorted(sorted(range(len(points)), key=lambda i: not re.search(SEEK_FIRST, points[i]))[:3])
+        career.append([f"Job title: {out.get(path + '.role')}", f"Company: {out.get(path + '.employer')}",
+                       f'Started: {start}', f'Ended: {end}'] + [f"- {out.get(f'{path}.points.{i}')}" for i in three])
+    for path in [dip] + rest:
+        fact = pick(facts, path)
+        start, end = out.get(path + '.dates').split(' to ')
+        code = f" ({out.get(path + '.code')})" if 'code' in fact else ''
+        study.append([f"Course: {out.get(path + '.qualification')}{code}", f"Institution: {out.get(path + '.provider')}",
+                      f'Started: {start}', f"Finished: {out.get(path + '.completed') if 'completed' in fact else end}"]
+                     + [f"- {out.get(f'{path}.points.{i}')}" for i in range(len(fact['points']))])
+    done = tidy(flat([facts['capabilities'], [x['points'] for x in facts['experience'] + facts['education']]]))
+    lanes = sorted(LANES, key=lambda lane: config['lanes'][lane]['rank'])
+    band = re.search(r'\$[\d,]+ to \$[\d,]+', facts['answers']['expected_salary']['rule'])
+    if not band:
+        raise ValueError('answers.expected_salary.rule holds no band written as "$65,000 to $75,000"')
+    return {
+        'Headline': [out.get('identity.titles.drafter')],
+        'Personal summary': [summary],
+        'Career history': apart(career),
+        'Education': apart(study),
+        'Licences and certifications': [out.get(e + 'white_card'), lic, lead(pick(facts, e + 'police_check')),
+                                        out.get(e + 'wwcc')],
+        'Skills': list(facts['capabilities']['software'])
+                  + phrases(SKILLS, done, 'capabilities or of a point under a job or a course'),
+        'Preferred roles and locations':
+            ['- ' + ', '.join(phrases(WANTED[lane], config['lanes'][lane]['what'], f'config -> lanes.{lane}.what'))
+             for lane in lanes]
+            + [f"Locations: {config['seek']['where']}", f"Notice period: {out.get('answers.notice_period')}",
+               f'Salary: {band.group()}'],
+        'Right to work': [out.get('answers.right_to_work.free_text')],
+    }
+
+
+def fill(md, blocks):
+    """The SEEK profile page with the text block of each section replaced by the lines built for it.
+    A section has one text block; a block with no built lines, or built lines with no block, is refused."""
+    rows, section, inside, todo = [], None, False, dict(blocks)
+    for row in md.splitlines():
+        if inside:
+            inside = not row.startswith('```')
+            if inside:
+                continue
+        elif row == '```text':
+            if section not in todo:
+                raise ValueError(f'SEEK_PROFILE.md: no text is built for this block under {section!r}')
+            rows += [row] + todo.pop(section)
+            inside = True
+            continue
+        elif row.startswith('## '):
+            section = row[3:]
+        rows.append(row)
+    if todo:
+        raise ValueError(f'SEEK_PROFILE.md has no text block under {sorted(todo)}')
+    return '\n'.join(rows) + '\n'
 
 
 def main(argv=None):
@@ -401,14 +564,20 @@ def main(argv=None):
     b.add_argument('--png')
     t = sub.add_parser('text')
     t.add_argument('lane', choices=LANES)
+    sub.add_parser('seek')
     a = ap.parse_args(argv)
     if a.cmd == 'text':
         for kind, text, paths in build(a.lane):
             print(f"{kind}\t{text}\t{', '.join(paths)}")
         return
-    for lane in LANES:
-        pdf, pages = write(lane, a.out, png_dir=a.png)
+    if a.cmd == 'seek':
+        for section, rows in seek().items():
+            print(f'## {section}', *rows, '', sep='\n')
+        return
+    page = SEEK_MD if Path(a.out).resolve() == OUT_DIR.resolve() else Path(a.out) / SEEK_MD.name
+    for pdf, pages in write_all(a.out, png_dir=a.png, seek_md=page):
         print(f'{pdf}  {pdf.stat().st_size} bytes  {pages} pages')
+    print(f'{page}  text blocks rebuilt')
 
 
 if __name__ == '__main__':
