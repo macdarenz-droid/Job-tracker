@@ -2,7 +2,7 @@
 """Append-only run journal (automation/journal.jsonl) and per-run folders (automation/runs/<run_id>/).
 
 Usage:
-  journal.py start                       # prints a new run id and creates its folder
+  journal.py start                       # prints a new run id (UTC, to the second) and creates its folder
   journal.py note RUN_ID KEY=VALUE ...   # append one JSON line
   journal.py last [N]                    # show the last N lines
   journal.py weekly [--json]             # totals per ISO week (Melbourne time) from the end rows
@@ -20,9 +20,14 @@ Every count is a whole number, or null when this runner could not check it (no G
 Any other field name is refused. Rows written before 13 Nov 2026 used new, prepared, ready, held
 and sent; they are still read (weekly counts sent as emails_sent and applied) but cannot be written.
 The stage is stored in lower case without spaces around it, so stage=END is an end row and is checked.
+RUN_ID is the id journal.py start printed (for example 20261114T020230Z; ids made before 14 Nov 2026 have no seconds,
+20261114T0202Z): note refuses anything else, so a run id lost between shell calls ("note stage=end ...") is refused
+instead of being written under the run id "stage=end". start never hands out an id whose folder exists already: two
+sessions started in the same second do not share one (queue.py ties a start and the send lock to it).
 """
 import argparse
 import json
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -31,15 +36,18 @@ from common import CONFIG, ROOT, now_iso
 
 JOURNAL = ROOT / 'journal.jsonl'
 RUNS = ROOT / 'runs'
+RUN_ID = re.compile(r'\d{8}T\d{4}(?:\d{2})?Z')  # what start() makes: %Y%m%dT%H%M%SZ (before 14 Nov 2026: %Y%m%dT%H%MZ)
 COUNTS = ('queue_open', 'applied', 'emails_sent', 'seek_submitted', 'portal_submitted', 'expired_unsubmitted',
           'replies', 'interviews', 'new_adverts_screened', 'queued', 'rejected', 'ask_owner')
 END_FIELDS = COUNTS + ('nothing_new', 'note')
 LEGACY_END_FIELDS = ('new', 'prepared', 'ready', 'held', 'sent')  # read only
 
 
-def start():
-    run_id = datetime.now(timezone.utc).strftime('%Y%m%dT%H%MZ')
-    (RUNS / run_id).mkdir(parents=True, exist_ok=True)
+def start(now=None):
+    """A new run id and its folder. Refused (FileExistsError) when the folder exists: another session took that id."""
+    run_id = (now or datetime.now(timezone.utc)).strftime('%Y%m%dT%H%M%SZ')
+    RUNS.mkdir(parents=True, exist_ok=True)
+    (RUNS / run_id).mkdir()   # not exist_ok: one run id, one session
     note(run_id, stage='start')
     return run_id
 
@@ -138,8 +146,16 @@ def main(argv=None):
     w = sub.add_parser('weekly'); w.add_argument('--json', action='store_true')
     a = ap.parse_args(argv)
     if a.cmd == 'start':
-        print(start())
+        try:
+            print(start())
+        except FileExistsError as err:
+            sys.exit(f'start refused: run folder {err.filename} exists already (another session started in the same second): '
+                     'run journal.py start again')
     elif a.cmd == 'note':
+        if not RUN_ID.fullmatch(a.run_id):
+            why = ' It looks like a KEY=VALUE field, so the run id is missing.' if '=' in a.run_id else ''
+            sys.exit(f"note refused: {a.run_id!r} is not a run id.{why} Give the id journal.py start printed first, typed out "
+                     "(shell variables do not last between calls): journal.py note 20261114T020230Z stage=end ...")
         fields = {}
         for kv in a.fields:
             k, _, v = kv.partition('=')

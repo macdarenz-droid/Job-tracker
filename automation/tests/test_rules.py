@@ -16,6 +16,7 @@ SCRIPTS = HERE.parent / 'scripts'
 sys.path.insert(0, str(SCRIPTS))
 
 import common  # noqa: E402
+import answers as gate  # noqa: E402
 import checks  # noqa: E402
 import compact_pdf  # noqa: E402
 import email_html  # noqa: E402
@@ -160,7 +161,8 @@ def pack(route='SEEK', questions=SEEK_QUESTIONS, **draft_extra):
     contact = {'contact_confidence': 'published_inbox', 'recipient_email': 'careers@wattlebrook.example', 'recipient_role': 'Careers inbox',
                'contact_evidence_url': 'https://wattlebrook.example/careers', 'company_url': 'https://wattlebrook.example'}
     draft = {'route': route, 'subject': 'Junior Civil Drafter, Marc Masarate', 'email_body': 'Hello,\n\nShort note.\n\nKind regards,\nMarc Darenz Masarate',
-             'letter': {'paragraphs': ['One.', 'Two.', 'Three.']}, 'notes': 'Advert asks for a resume and a short letter.', **draft_extra}
+             'letter': {'paragraphs': ['One.', 'Two.', 'Three.']}, 'notes': 'Advert asks for a resume and a short letter.',
+             'advert_pay': 'not stated', **draft_extra}   # the drafter read the advert: it states no pay (B1, 14 Nov 2026)
     return cand, screen, contact, draft
 
 
@@ -324,14 +326,14 @@ class StandingAnswers(unittest.TestCase):
                 ('Are you willing to relocate for this role?', 'willing_to_relocate'),
                 ('Are you available to work FIFO / DIDO contracts?', 'willing_to_travel_or_fifo'),
                 ('Have you completed a qualification in civil engineering?', 'qualification_questions'),
-                ('Have you completed a qualification in mechanical engineering?', 'qualification_questions'),
                 ("How many years' experience do you have as a civil engineer?", 'years_of_experience'),
                 ("How many years' experience do you have as an AutoCAD Draftsperson?", 'years_of_experience'),
                 ('Which of the following CAD software do you have experience with?', 'software'),
                 ('Do you have Engineering Drawing Interpretation experience?', 'experience_yes_no'),
                 ('Do you have experience preparing and submitting tenders?', 'experience_yes_no'),
-                ('Do you currently reside in Australia?', 'identity.location')]:
-            self.assertEqual(checks.standing_answer(question), (key, None), question)
+                ('Where are you located?', 'identity.location'),
+                ('I acknowledge that the information I have provided is true and correct.', 'declarations_and_consents')]:
+            self.assertEqual(checks.standing_answer(question, 'not stated'), (key, None), question)   # pay: the salary question
 
     def test_questions_only_the_owner_can_answer(self):
         for question in ['How would you rate your English language skills?',
@@ -347,7 +349,7 @@ class StandingAnswers(unittest.TestCase):
                          'Please confirm your Full legal name, Date of Birth (DD/MM), hourly rate, preferred engagement type (PAYG or ABN), and postcode']:
             key, problem = checks.standing_answer(question)
             self.assertTrue(problem, question)
-        self.assertEqual([u['question'] for u in checks.unanswered_questions(SEEK_QUESTIONS + ['How would you rate your English language skills?'] * 2)],
+        self.assertEqual([u['question'] for u in checks.unanswered_questions(SEEK_QUESTIONS + ['How would you rate your English language skills?'] * 2, 'not stated')],
                          ['How would you rate your English language skills?'])
 
     def test_a_conditional_answer_blocks_only_the_case_it_leaves_open(self):
@@ -360,16 +362,20 @@ class StandingAnswers(unittest.TestCase):
         with mock.patch.dict(checks.ANSWERS, {'english_self_rating': 'Fluent'}):
             self.assertEqual(checks.standing_answer('What is your level of English?'), ('english_self_rating', None))
         with mock.patch.dict(checks.ANSWERS, clear=True):
-            self.assertIn('has no "notice_period"', checks.standing_answer('What is your notice period?')[1])
+            self.assertIn('notice_period', checks.standing_answer('What is your notice period?')[1])
 
     def test_questions_command_reads_a_candidate_file(self):
         with tempfile.TemporaryDirectory() as d:
             path = Path(d) / 'cand.json'
-            common.write_json(path, {'screening_questions': SEEK_QUESTIONS})
+            common.write_json(path, {'screening_questions': SEEK_QUESTIONS, 'salary': '$70,000 – $80,000 per year'})
             with redirect_stdout(io.StringIO()) as out, self.assertRaises(SystemExit) as stop:
                 checks.main(['questions', str(path)])
             self.assertEqual(stop.exception.code, 0); self.assertIn('OK', out.getvalue())
-            common.write_json(path, {'screening_questions': SEEK_QUESTIONS + ['How would you rate your English language skills?']})
+            common.write_json(path, {'screening_questions': SEEK_QUESTIONS, 'salary': None})   # no pay on SEEK: the advert must be read
+            with redirect_stdout(io.StringIO()) as out, self.assertRaises(SystemExit) as stop:
+                checks.main(['questions', str(path)])
+            self.assertEqual(stop.exception.code, 1); self.assertIn("advert's pay is not recorded", out.getvalue())
+            common.write_json(path, {'screening_questions': SEEK_QUESTIONS + ['How would you rate your English language skills?'], 'advert_pay': 'not stated'})
             with redirect_stdout(io.StringIO()) as out, self.assertRaises(SystemExit) as stop:
                 checks.main(['questions', str(path)])
             self.assertEqual(stop.exception.code, 1); self.assertIn('ask the owner: How would you rate your English', out.getvalue())
@@ -468,7 +474,8 @@ class WritingRules(unittest.TestCase):
             for kind in ('email', 'letter'):
                 self.assertTrue(any('visa end date' in i for i in checks.tone_issues(text, kind)), text)
                 self.assertEqual(checks.tone_issues(text, kind, visa_asked=True), [], text)
-        letter = {'paragraphs': ['The advert asks about visa status. I hold a Subclass 485 Temporary Graduate visa with full working rights until December 2027. No sponsorship needed.']}
+        letter = {'paragraphs': ['The advert asks about visa status. I hold a Subclass 485 Temporary Graduate visa with full working rights until December 2027. No sponsorship needed.',
+                                 GOOD_LETTER[1], GOOD_LETTER[2]]}
         self.assertTrue(any('visa end date' in i for i in checks.draft_issues({'letter': letter})))
         self.assertTrue(any('visa end date' in i for i in checks.draft_issues({'letter': letter, 'advert_asks_about_visa': 'yes'})))  # only a real true counts
         self.assertEqual(checks.draft_issues({'letter': letter, 'advert_asks_about_visa': True}), [])
@@ -607,10 +614,10 @@ class JournalRows(unittest.TestCase):
 
     def test_command_line_refuses_with_the_message(self):
         with self.assertRaises(SystemExit) as stop:
-            journal.main(['note', 'r', 'stage=end', 'new=2', 'held=1'])
+            journal.main(['note', '20261113T2100Z', 'stage=end', 'new=2', 'held=1'])
         self.assertIn('Allowed: queue_open, applied', str(stop.exception.code))
         with redirect_stdout(io.StringIO()) as out:
-            journal.main(['note', 'r', 'stage=end', 'note=All quiet.'] + [f'{k}={json.dumps(v)}' for k, v in END.items()])
+            journal.main(['note', '20261113T2100Z', 'stage=end', 'note=All quiet.'] + [f'{k}={json.dumps(v)}' for k, v in END.items()])
         self.assertEqual(json.loads(out.getvalue())['seek_submitted'], 3)
 
     def test_weekly_totals_by_iso_week_in_melbourne_time_and_old_rows_still_read(self):
@@ -677,8 +684,6 @@ class CompactJson(unittest.TestCase):
 
 
 # ---------------------------------------------------------------------------------------------- 6. compact PDFs
-HEADINGS = ('Professional profile', 'Key capabilities', 'Current work in Australia', 'Relevant experience', 'Education',
-            'Standards and methods (Advanced Diploma coursework)', 'Additional professional experience', 'Licences and work eligibility', 'Professional strengths')
 
 
 def pdf_pages(path):
@@ -706,12 +711,6 @@ class CompactPdf(unittest.TestCase):
                            'Technical Support Representative - Microsoft Software  ·  Concentrix, Philippines  ·  Mar 2020 to Apr 2022')]:
             self.assertEqual(compact_pdf.clean(raw), want)
 
-    def test_job_title_with_a_dash_survives_in_the_resume(self):
-        text = '\n'.join(pdf_pages(compact_pdf.resume_pdf(self.out('r.pdf'))))
-        self.assertIn('Technical Support Representative - Microsoft Software', text)
-        self.assertNotIn('Representative to Microsoft', text)
-        self.assertIn('Mar 2020 to', text); self.assertIn('2014 to 2019', text)
-
     def test_heading_moves_to_the_next_page_with_its_first_item(self):
         first = 'Designed and documented road geometry, earthworks, pavement systems and stormwater drainage. ' * 3
         for with_room, pages_wanted in ((False, [1, 2]), (True, [2, 2])):
@@ -734,51 +733,8 @@ class CompactPdf(unittest.TestCase):
         self.assertEqual(len(pages), 2); self.assertEqual(pages[0].strip(), '')
         self.assertLess(pages[1].index('Relevant experience'), pages[1].index('Field Engineer')); self.assertIn('Assisted with site inspections', pages[1])
 
-    def test_no_page_of_the_resume_ends_with_a_heading_or_a_job_line(self):
-        job_starts = [x['role'][:25] for x in common.FACTS['experience']] + [x['qualification'][:25] for x in common.FACTS['education']]
-        for lane in ('drafter', 'technician', 'engineer'):
-            for page in pdf_pages(compact_pdf.resume_pdf(self.out(f'{lane}.pdf'), lane=lane)):
-                lines = [l.strip() for l in page.splitlines() if l.strip()]
-                self.assertNotIn(lines[-1], HEADINGS, (lane, lines[-1]))
-                self.assertFalse(any(lines[-1].startswith(s) or lines[-2].startswith(s) for s in job_starts), (lane, lines[-2:]))
-
-    def test_company_line_is_printed_only_when_it_is_a_street_address(self):
-        for line, wanted in [('Level 20, 2 Market Street, Sydney NSW', True), ('10 Cummins Drive, Somerton VIC 3062', True), ('PO Box 63, Gunnedah NSW 2380', True),
-                             ('Unit 4/12-14 Smith St, Melton', True), ('Gunnedah NSW', False), ('', False), (None, False),
-                             ('PCP Solutions is a Toowoomba civil earthworks and commercial plumbing business delivering large scale infrastructure works for Tier 1 contractors across South East Queensland.', False),
-                             ('A consultancy of 20 road designers', False)]:
-            self.assertEqual(compact_pdf.is_street_address(line), wanted, line)
-        letter = {'recipient_name': 'Hiring Team', 'company': 'PCP Solutions Pty Ltd', 'subject': 'Graduate Civil Engineer, Toowoomba', 'paragraphs': ['One.'],
-                  'company_line': 'PCP Solutions is a Toowoomba civil earthworks and commercial plumbing business delivering large scale infrastructure works.'}
-        text = pdf_pages(compact_pdf.letter_pdf(letter, self.out('l1.pdf')))[0]
-        self.assertIn('PCP Solutions Pty Ltd', text); self.assertNotIn('commercial plumbing business', text)
-        text = pdf_pages(compact_pdf.letter_pdf({**letter, 'company_line': 'Level 20, 2 Market Street, Sydney NSW'}, self.out('l2.pdf')))[0]
-        self.assertIn('Level 20, 2 Market Street, Sydney NSW', text)
-
-    def test_current_australian_job_is_listed_first_and_not_as_civil_experience(self):
-        text = '\n'.join(pdf_pages(compact_pdf.resume_pdf(self.out('r.pdf'))))
-        order = [text.index(s) for s in ('Current work in Australia', 'Console Operator (casual)', 'Relevant experience', 'Project-in-Charge Engineer', 'Field Engineer', 'Additional professional experience', 'Technical Support Representative')]
-        self.assertEqual(order, sorted(order))
-        self.assertIn('May 2024 to present', text)
-        self.assertEqual(text.count('Console Operator'), 1)
-
-    def test_lane_headline_and_short_work_rights_line(self):
-        titles = common.FACTS['identity']['titles']
-        flat = lambda s: ' '.join(s.split())
-        for lane in ('drafter', 'technician', 'engineer'):
-            first = flat(pdf_pages(compact_pdf.resume_pdf(self.out(f'{lane}.pdf'), lane=lane))[0])
-            self.assertIn(flat(titles[lane]), first)
-            self.assertNotIn('Graduate Civil Engineer', first)
-        text = flat('\n'.join(pdf_pages(compact_pdf.resume_pdf(self.out('r.pdf')))))
-        self.assertLess(text.index('Full working rights in Australia (Subclass 485 visa), no sponsorship needed'), text.index('Professional profile'))
-        self.assertEqual(text.count('December 2027'), 1)  # the end date stays in the eligibility section only
-        self.assertGreater(text.index('December 2027'), text.index('Licences and work eligibility'))
-        self.assertEqual(compact_pdf.headline('nonsense'), common.FACTS['identity']['title'])
-        letter = flat(pdf_pages(compact_pdf.letter_pdf({'paragraphs': ['One.'], 'lane': 'technician'}, self.out('l.pdf')))[0])
-        self.assertIn(flat(titles['technician']), letter)
-        with redirect_stdout(io.StringIO()):
-            compact_pdf.main(['resume', self.out('cli.pdf'), '--lane', 'engineer'])
-        self.assertIn(flat(titles['engineer']), flat(pdf_pages(self.out('cli.pdf'))[0]))
+    # Retired 14 Nov 2026 with compact_pdf.py's resume and letter commands: an email attaches
+    # documents/resume/Marc_Masarate_Resume_<Variant>.pdf and the letter from letter_pdf.py (tests/test_letter_pdf.py).
 
 
 # ---------------------------------------------------------------------------------------------- 7. prefilter and lanes
@@ -1049,17 +1005,16 @@ class FormAnswerShapes(unittest.TestCase):
 # Real SEEK form questions from automation/runs/*/candidates*.json and what the gate must say about each:
 # the line of facts.json -> answers it reads, or None in place of the line when the owner must be asked.
 SETTLED = [
-    ('Which of the following statements best describes your right to work in Australia?', 'answers.right_to_work'),
-    ('Are you a Citizen/Permanent Resident of Australia?', 'answers.right_to_work'),
-    ('Visa Status', 'answers.right_to_work'),
+    ('Which of the following statements best describes your right to work in Australia?', 'answers.right_to_work.free_text'),  # with no options: the text
+    ('Are you a Citizen/Permanent Resident of Australia?', 'answers.right_to_work.free_text'),
+    ('Visa Status', 'answers.right_to_work.free_text'),
     ('How much notice are you required to give your current employer?', 'answers.notice_period'),
-    ('When can you commence in a full time capacity?', 'answers.notice_period'),
-    ("What's your expected annual base salary?", 'answers.expected_salary'),
-    ('Please provide your salary or hourly rate expectations:', 'answers.expected_salary'),
+    ('When can you commence in a full time capacity?', 'eligibility.availability'),  # 'Two weeks after an offer'
+    ("What's your expected annual base salary?", 'answers.expected_salary.rule'),
+    ('I acknowledge that all information I provided in this application is true and correct to the best of my knowledge and that any incorrect or misleading information may lead to disqualification, or if appointed, to termination of Employment?', 'answers.declarations_and_consents'),
+    ('Do you agree with the privacy policy?', 'answers.declarations_and_consents'),
     ("Do you have a current Australian driver's licence?", 'answers.drivers_licence'),
     ("Do you hold a current Class C drivers' license?", 'answers.drivers_licence'),
-    ('This position includes providing on-site servicing at our clients premises in Melbourne. Do you have a car license and car?', 'answers.drivers_licence'),
-    ("Do you have a heavy vehicle driver's licence?", 'answers.qualification_questions.any other named qualification'),  # was drivers_licence: Yes
     ('Do you own or have regular access to a car?', 'answers.own_car_or_regular_access'),
     ('Do you have reliable access to transport for travelling to workplaces or project sites where public transport may not be available?', 'answers.own_car_or_regular_access'),
     ('Do you hold a Construction Induction Safety certificate (White Card)?', 'answers.white_card'),
@@ -1068,40 +1023,43 @@ SETTLED = [
     ('Are you willing to undergo a pre-employment medical check?', 'answers.pre_employment_medical'),
     ('Are you willing to relocate for this role?', 'answers.willing_to_relocate'),
     ('Are you available to work FIFO / DIDO contracts?', 'answers.willing_to_travel_or_fifo'),
-    ('Do you have experience in a FIFO/DIDO role?', 'answers.experience_yes_no.anything else'),  # was willing_to_travel_or_fifo: Yes
-    ('Do you have mine site experience?', 'answers.experience_yes_no.anything else'),
     ('Do you have Engineering Drawing Interpretation experience?', 'answers.experience_yes_no.engineering drawing interpretation'),
     ('Do you have experience preparing and submitting tenders?', 'answers.experience_yes_no.preparing and submitting tenders'),
     ('Have you completed a qualification in civil engineering?', 'answers.qualification_questions.civil engineering'),
     ('Have you completed a qualification in engineering?', 'answers.qualification_questions.engineering'),
     ('Have you completed a qualification in engineering drafting / engineering design?', 'answers.qualification_questions.engineering drafting or design'),
-    ('Have you completed a qualification in mechanical engineering?', 'answers.qualification_questions.any other named qualification'),  # was 'engineering': Yes
-    ('Have you completed a qualification in structural engineering?', 'answers.qualification_questions.any other named qualification'),
-    ('Which of the following best describes your highest qualification - relevant to the position of Structural Revit Drafter?', 'answers.qualification_questions.any other named qualification'),  # was software
-    ('Do you have a current Working With Children (WWC) Check?', 'answers.qualification_questions.any other named qualification'),
     ("How many years' experience do you have as a civil engineer?", 'answers.years_of_experience.civil engineer, site engineer, project engineer, construction industry'),
     ("How many years' experience do you have as a Civil Site Engineer?", 'answers.years_of_experience.civil engineer, site engineer, project engineer, construction industry'),
     ("How many years' experience do you have in the construction industry?", 'answers.years_of_experience.civil engineer, site engineer, project engineer, construction industry'),
     ("How many years' experience do you have as a civil drafter?", 'answers.years_of_experience.drafter, draftsperson, designer, CAD'),
-    ('How many years experience in Civil Engineering Design do you have?', 'answers.years_of_experience.drafter, draftsperson, designer, CAD'),  # design, not eleven months as an engineer
     ("How many years' experience do you have as a Civil Engineering Technician?", 'answers.years_of_experience.laboratory, materials testing, technician, estimator, project coordinator, project management, any other role'),
-    ("How many years' experience do you have as an Engineering Cadet?", 'answers.years_of_experience.laboratory, materials testing, technician, estimator, project coordinator, project management, any other role'),
     ("How many years' experience do you have as a Civil Estimator?", 'answers.years_of_experience.laboratory, materials testing, technician, estimator, project coordinator, project management, any other role'),
     ('Which of the following CAD software do you have experience with?', 'answers.software.CAD'),
     ('Do you have experience using Bluebeam?', 'answers.software.other'),
-    ('Do you have experience using "Expert Estimation" and MS Project?', 'answers.software.other'),
-    ('Do you currently reside in Australia?', 'identity.location'),
-    ('Do you live in Perth?', 'identity.location'),
-    ('Preferred Name', 'identity.short_name'),
     ('Are you currently studying?', 'answers.currently_studying'),
 ]
 ASK = [
+    # Settled by checks.py's old rules, left to the owner by the one gate (answers.py, 14 Nov 2026): it answers only what a
+    # line of facts.json clearly covers.
+    'Please provide your salary or hourly rate expectations:',  # names an hourly rate: not on record
+    'This position includes providing on-site servicing at our clients premises in Melbourne. Do you have a car license and car?',  # two things at once
+    "Do you have a heavy vehicle driver's licence?",
+    'Do you have experience in a FIFO/DIDO role?',  # experience, not willingness; 'anything else' is not a standing answer
+    'Do you have mine site experience?',
+    'Have you completed a qualification in mechanical engineering?',  # shares 'engineering' with his degree: not guessed
+    'Have you completed a qualification in structural engineering?',
+    'Which of the following best describes your highest qualification - relevant to the position of Structural Revit Drafter?',
+    'Do you have a current Working With Children (WWC) Check?',
+    'How many years experience in Civil Engineering Design do you have?',  # a field no row names
+    "How many years' experience do you have as an Engineering Cadet?",  # an engineering word: not the 'any other role' row
+    'Do you have experience using "Expert Estimation" and MS Project?',  # a tool nobody listed
+    'Do you currently reside in Australia?',  # location is free text only
+    'Do you live in Perth?',
+    'Preferred Name',
     'Will you require visa sponsorship in the future?',  # was right_to_work, settled
     'Do you have experience working on civil infrastructure projects?',
     'How many years of civil infrastructure construction experience do you have, and which of the following have you personally overseen or certified: bulk earthworks, rail formation, reinforced concrete bridges and box culverts?',
     'How many years of Infrastructure Civil Engineering experience do you have?',
-    'I acknowledge that all information I provided in this application is true and correct to the best of my knowledge and that any incorrect or misleading information may lead to disqualification, or if appointed, to termination of Employment?',  # was qualification_questions ('disqualification')
-    'Do you agree with the privacy policy?',
     "What's your expected hourly rate?",  # was expected_salary: the standing answer is an annual band
     'What is your current rate and what are you looking for?',
     'How far are you willing to travel for work?',  # was willing_to_travel_or_fifo: 'Yes' is not a distance
@@ -1133,19 +1091,21 @@ class GateFailsClosed(unittest.TestCase):
             with facts_answers(lines):
                 key, problem = checks.standing_answer('Will you require visa sponsorship in the future?')
                 self.assertEqual(key, 'future_visa_sponsorship'); self.assertTrue(problem)
-                self.assertEqual(checks.standing_answer('Do you require sponsorship to work in Australia?'), ('right_to_work', None))  # now, not later: no
-                key, problem = checks.standing_answer('Do you have experience in a FIFO/DIDO role?')
-                self.assertEqual((key, problem), ('experience_yes_no', None))
-                self.assertEqual(checks.standing_line('Do you have experience in a FIFO/DIDO role?')[1], checks.ANSWERS['experience_yes_no']['anything else'])  # not the 'Yes' of willing_to_travel_or_fifo
+                # now, not later: No, only where facts.json says so ('Do you need sponsorship to work now?': No, the newer line)
+                self.assertEqual(checks.standing_answer('Do you require sponsorship to work in Australia?'),
+                                 ('future_visa_sponsorship', None) if lines is NEWER else ('future_visa_sponsorship', 'a sponsorship question facts.json does not answer'))
+                key, problem = checks.standing_answer('Do you have experience in a FIFO/DIDO role?')   # not the 'Yes' of willing_to_travel_or_fifo
+                self.assertTrue(problem)
                 key, problem = checks.standing_answer('Do you have experience in civil infrastructure?')
-                self.assertEqual(key, 'experience_yes_no'); self.assertIn('civil infrastructure projects is not confirmed', problem)
-                basis, line, problem = checks.standing_line("Do you have a heavy vehicle driver's licence?")
-                self.assertEqual((basis, problem), ('answers.qualification_questions.any other named qualification', None)); self.assertIn('otherwise No', line)
-                self.assertEqual(checks.standing_answer('I acknowledge that all information I provided is true and correct and that misleading information may lead to disqualification?')[0], 'declarations_and_consents')
+                self.assertEqual(key, 'experience_yes_no'); self.assertTrue(problem)
+                self.assertTrue(checks.standing_line("Do you have a heavy vehicle driver's licence?")[2])   # one gate: a licence class is the owner's
+                self.assertEqual(checks.standing_answer('I acknowledge that all information I provided is true and correct and that misleading information may lead to disqualification?'),
+                                 ('declarations_and_consents', None))
                 rec = publish.build_record('r1', *pack('SEEK', SEEK_QUESTIONS + ['Will you require visa sponsorship in the future?', 'Do you have experience in a FIFO/DIDO role?',
                                                                                'Do you have experience in civil infrastructure?']))
                 self.assertEqual(rec['status'], 'ASK_OWNER')  # it was READY_SEEK with no ask_owner under both states of facts.json
-                self.assertEqual([a['question'] for a in rec['ask_owner']['questions']], ['Will you require visa sponsorship in the future?', 'Do you have experience in civil infrastructure?'])
+                self.assertEqual([a['question'] for a in rec['ask_owner']['questions']], ['Will you require visa sponsorship in the future?', 'Do you have experience in a FIFO/DIDO role?',
+                                                                                         'Do you have experience in civil infrastructure?'])
 
     def test_licence_questions_follow_what_the_licence_line_says(self):
         open_licence, manual = "Do you hold a current open driver's licence?", 'Are you licenced to drive a manual vehicle?'
@@ -1156,7 +1116,7 @@ class GateFailsClosed(unittest.TestCase):
             self.assertEqual(checks.standing_answer("Do you have a current Australian driver's licence?"), ('drivers_licence', None))
         with facts_answers(NEWER):  # full licence confirmed; automatic
             self.assertEqual(checks.standing_answer(open_licence), ('drivers_licence', None))
-            self.assertEqual(checks.standing_line(manual), ('answers.manual_licence', 'No (automatic)', None))
+            self.assertEqual(checks.standing_line(manual), ('answers.manual_licence', 'No', None))   # the answer to give, from 'No (automatic)'
         for lines in (OLDER, NEWER):  # his licence is Victorian: another state's licence is the owner's call
             with facts_answers(lines):
                 for question in ('Do you have a valid WA drivers licence?', "Do you hold a current Queensland driver's licence?", 'Current NSW Class C Driver’s Licence'):
@@ -1164,20 +1124,20 @@ class GateFailsClosed(unittest.TestCase):
 
     def test_every_line_of_facts_answers_has_a_rule(self):
         lines = {k for k in common.FACTS['answers'] if not k.startswith('_')}
-        self.assertEqual(sorted(lines - checks.rule_keys()), [])
+        self.assertEqual(sorted(lines - checks.rule_keys()), ['free_text_cover_letter'])   # the letter is pasted from the entry, not a form answer
         self.assertLessEqual(set(NEWER), checks.rule_keys())  # the orchestrator's newer keys
-        self.assertLessEqual(set(checks.LOOKUPS), checks.rule_keys())
+        self.assertLessEqual({'qualification_questions', 'years_of_experience', 'software', 'experience_yes_no'}, checks.rule_keys())
 
     def test_real_questions_reach_the_right_line_or_the_owner(self):
         self.assertGreaterEqual(len(SETTLED) + len(ASK), 60)
         for lines in (OLDER, NEWER):
             with facts_answers(lines):
-                for question, basis in SETTLED:
-                    self.assertEqual(checks.standing_line(question)[::2], (basis, None), question)
-                    self.assertTrue(checks.standing_line(question)[1], question)
+                for question, basis in SETTLED:   # the salary question needs the advert's pay: here the advert states none
+                    self.assertEqual(checks.standing_line(question, 'not stated')[::2], (basis, None), question)
+                    self.assertTrue(checks.standing_line(question, 'not stated')[1], question)
                 for question in ASK:
-                    self.assertTrue(checks.standing_line(question)[2], question)
-                self.assertEqual([u['question'] for u in checks.unanswered_questions([q for q, _ in SETTLED] + ASK)], ASK)
+                    self.assertTrue(checks.standing_line(question, 'not stated')[2], question)
+                self.assertEqual([u['question'] for u in checks.unanswered_questions([q for q, _ in SETTLED] + ASK, 'not stated')], ASK)
 
     def test_the_listed_questions_really_are_in_the_run_folders(self):
         seen = set()
@@ -1198,14 +1158,15 @@ class GateFailsClosed(unittest.TestCase):
         self.assertTrue(line('Do you hold a Bachelor’s degree in civil engineering or an equivalent qualification?').startswith('Yes: Bachelor'))
         self.assertTrue(line('Have you completed a qualification in engineering drafting / engineering design?').startswith('Yes: Advanced Diploma'))
         for field in ('mechanical engineering', 'structural engineering', 'engineering - fabrication', 'environmental engineering', 'construction management'):
-            self.assertIn('otherwise No', line(f'Have you completed a qualification in {field}?'), field)  # 'engineering: Yes' is not the answer
+            self.assertEqual(line(f'Have you completed a qualification in {field}?'), '', field)  # 'engineering: Yes' is not the answer, and No is not guessed
         self.assertIn('11 months', line("How many years' experience do you have as a civil engineer?"))
-        for role in ('Civil Engineering Technician', 'Engineering Cadet', 'structural engineer', 'Civil Estimator'):
-            self.assertIn('lowest option', line(f"How many years' experience do you have as a {role}?"), role)
-            self.assertNotIn('11 months', line(f"How many years' experience do you have as a {role}?"), role)
-        self.assertIn('lowest option', line('How many years experience in Civil Engineering Design do you have?'))
-        self.assertIn('Never tick 12d', line('Which of the following CAD software do you have experience with?'))
-        self.assertEqual(line('Do you have experience using Bluebeam?'), checks.ANSWERS['software']['other'])
+        for role in ('Civil Engineering Technician', 'Civil Estimator'):
+            self.assertEqual(line(f"How many years' experience do you have as a {role}?"), 'None: no paid role of this kind', role)
+        for role in ('Engineering Cadet', 'structural engineer'):   # an engineering title or word: neither 11 months nor 'none'
+            self.assertEqual(line(f"How many years' experience do you have as a {role}?"), '', role)
+        self.assertEqual(line('How many years experience in Civil Engineering Design do you have?'), '')
+        self.assertEqual(line('Which of the following CAD software do you have experience with?'), 'AutoCAD, Civil 3D, Revit')
+        self.assertEqual(line('Do you have experience using Bluebeam?'), 'No')
 
     def test_a_standing_yes_or_a_months_claim_never_lands_on_a_question_that_asks_something_else(self):
         # Found while fixing: 'Yes, current National Police Certificate' is not the answer to 'Do you have a criminal record?'.
@@ -1214,35 +1175,34 @@ class GateFailsClosed(unittest.TestCase):
                      'Is there any reason you could not pass a pre-employment medical?', 'Have you ever been dismissed from a job?', 'Are you able to perform manual handling tasks?',
                      "How many years' experience do you have as a civil engineer in Australia?"):
             key, problem = checks.standing_answer(trap)
-            self.assertIsNone(key, trap); self.assertTrue(problem, trap)
+            self.assertTrue(problem, trap)
         for question, key in (('Are you willing to undertake Criminal History Screening?', 'police_check'), ('Are you willing to complete a Police Check?', 'police_check'),
                               ('Are you willing to undergo a Pre-Employment Drug & Alcohol Screen?', 'drug_and_alcohol_screening'), ('Are you willing to undergo a drug test?', 'drug_and_alcohol_screening')):
             self.assertEqual(checks.standing_answer(question), (key, None), question)
         line = lambda question: checks.standing_line(question)[1]
-        yes_or_no = checks.ANSWERS['experience_yes_no']['anything else']
         self.assertEqual(line('Do you have Engineering Drawing Interpretation experience?'), 'Yes')
         for more in ('Do you have 3+ years of Engineering Drawing Interpretation experience?', 'Do you have at least 2 years experience carrying out site inspections?',
                      'Do you have Engineering Drawing Interpretation experience in Australia?', 'Do you have extensive experience preparing and submitting tenders?'):
-            self.assertEqual(line(more), yes_or_no, more)  # the catch-all: yes only if a line of his history supports it
-        self.assertIn('otherwise No', line("Do you hold an Australian Bachelor's degree in civil engineering?"))
-        self.assertIn('otherwise No', line('Have you completed a qualification in civil engineering with honours?'))
+            self.assertEqual(line(more), '', more)  # the 'anything else' row is not a standing answer: the owner's
+        self.assertEqual(line("Do you hold an Australian Bachelor's degree in civil engineering?"), '')
+        self.assertEqual(line('Have you completed a qualification in civil engineering with honours?'), '')
         for plain in ('civil engineer', 'Civil Site Engineer', 'Assistant Civil Engineer', 'Junior Project Engineer', 'Construction Site Engineer'):
             self.assertIn('11 months', line(f"How many years' experience do you have as a {plain}?"), plain)
         for other in ('Rail Project Engineer', 'Senior Site Engineer', 'Structural Civil Engineer', 'Structural Site Engineer', 'Water and Wastewater Engineer'):
-            self.assertIn('lowest option', line(f"How many years' experience do you have as a {other}?"), other)  # no paid role of that kind
-        self.assertIn('11 months', line('How many years of Site Engineering experience do you have?'))
-        self.assertIn('11 months', line('How many years of experience do you have in the Civil Engineering Industry?'))
+            self.assertEqual(line(f"How many years' experience do you have as a {other}?"), '', other)  # an engineering title facts.json does not cover
+        self.assertEqual(line('How many years of Site Engineering experience do you have?'), '')   # a field no row names
+        self.assertEqual(line('How many years of experience do you have in the Civil Engineering Industry?'), '')
 
     def test_one_new_line_in_facts_settles_its_questions(self):
         for question, key, answer in [("What's your expected hourly rate?", 'expected_hourly_rate', '35 to 40 dollars an hour'),
-                                      ('Do you agree with the privacy policy?', 'declarations_and_consents', 'Yes'),
+                                      ('Will you require visa sponsorship in the future?', 'future_visa_sponsorship', 'No'),
                                       ('How would you rate your English language skills?', 'english_self_rating', 'Fluent'),
-                                      ('Do you have a valid WA drivers licence?', 'interstate_drivers_licence', 'No: Victorian licence, valid for driving in every state')]:
+                                      ('Are you a current member of Engineers Australia?', 'engineers_australia_membership_or_recognition', 'No')]:
             self.assertIn(key, checks.standing_answer(question)[1] or '', question)
             with mock.patch.dict(checks.ANSWERS, {key: answer}):
                 self.assertEqual(checks.standing_line(question), ('answers.' + key, answer, None), question)
         with mock.patch.dict(checks.ANSWERS, {'experience_yes_no': {**checks.ANSWERS['experience_yes_no'], 'mine site': 'Not on record: skip and report'}}):
-            self.assertIn('mine site is not confirmed', checks.standing_answer('Do you have mine site experience?')[1])
+            self.assertTrue(checks.standing_answer('Do you have mine site experience?')[1])
 
 
 class AnswersOnTheRecord(unittest.TestCase):
@@ -1258,16 +1218,18 @@ class AnswersOnTheRecord(unittest.TestCase):
         answers = records[0]['screening_answers']
         self.assertEqual([a['question'] for a in answers], SEEK_QUESTIONS)  # every form question, in the advert's order
         for a in answers:
-            self.assertEqual((a['basis'], a['answer']), checks.standing_line(a['question'])[:2], a['question'])
-            self.assertEqual(checks.line_text(checks.fact_at(a['basis'])), a['answer'])
+            self.assertEqual((a['basis'], a['answer']), checks.standing_line(a['question'], 'not stated')[:2], a['question'])
+            self.assertEqual(gate.answer(a['question'], [], common.FACTS, pay='not stated')['answer'], a['answer'])   # the one gate's answer
+            self.assertIsNotNone(checks.fact_at(a['basis']))
         text = json.dumps(answers)
-        for wrong in ('3 years', '$95k', 'Marc to confirm', '"answer": "Yes"'):
+        for wrong in ('3 years', '$95k', 'Marc to confirm'):
             self.assertNotIn(wrong, text)
+        self.assertNotEqual({a['question']: a for a in answers}[SEEK_QUESTIONS[0]]['answer'], 'Yes')   # the drafter's 'Yes' to work rights is not kept
         by_question = {a['question']: a for a in answers}
-        self.assertIn('Never choose: Australian citizen', by_question[SEEK_QUESTIONS[0]]['answer'])
-        self.assertEqual(by_question[SEEK_QUESTIONS[0]]['basis'], 'answers.right_to_work')
-        self.assertIn('lowest option', by_question[SEEK_QUESTIONS[1]]['answer'])
-        self.assertIn('$65,000 to $75,000', by_question[SEEK_QUESTIONS[4]]['answer'])
+        self.assertEqual(by_question[SEEK_QUESTIONS[0]]['answer'], common.FACTS['answers']['right_to_work']['free_text'])
+        self.assertEqual(by_question[SEEK_QUESTIONS[0]]['basis'], 'answers.right_to_work.free_text')
+        self.assertTrue(by_question[SEEK_QUESTIONS[1]]['answer'].startswith('No paid drafting role.'))
+        self.assertEqual(by_question[SEEK_QUESTIONS[4]]['answer'], '65000 to 75000')
         self.assertEqual(checks.record_issues({**records[0], 'attachments': ATTACHED}, require_uploaded=False), [])
 
     def test_the_record_check_refuses_an_answer_that_is_not_the_standing_line(self):
@@ -1345,9 +1307,12 @@ class AnswersOnTheRecord(unittest.TestCase):
 
     def test_an_answer_with_a_basis_must_agree_with_that_line(self):
         entry = {'questions': [{'question': "Do you have a current Australian driver's licence?", 'options': [], 'answer': 'Yes', 'basis': 'answers.drivers_licence', 'status': 'answered'},
-                               {'question': "What's your expected annual base salary?", 'answer': checks.line_text(checks.ANSWERS['expected_salary']), 'basis': 'answers.expected_salary'},
-                               {'question': 'How would you rate your English language skills?', 'options': [], 'answer': '', 'basis': '', 'status': 'unanswered'}]}
+                               {'question': "What's your expected annual base salary?", 'answer': '65000 to 75000', 'basis': 'answers.expected_salary.rule'},
+                               {'question': 'How would you rate your English language skills?', 'options': [], 'answer': '', 'basis': '', 'status': 'unanswered'}],
+                 'advert_pay': 'not stated'}
         self.assertEqual(checks.draft_issues(entry), [])
+        self.assertTrue(any('expected annual base salary' in i and "pay is not recorded" in i
+                            for i in checks.draft_issues({**entry, 'advert_pay': None})))   # B1: no pay on record, no salary answer
         entry['questions'][0]['answer'] = 'No'
         self.assertTrue(any('contradicts facts.json -> answers.drivers_licence' in i for i in checks.draft_issues(entry)))
         entry['questions'][0].update(answer='Yes', basis='answers.forklift_licence')
@@ -1500,9 +1465,10 @@ class ReviewMinorFindings(unittest.TestCase):
         entry = {'email': {'subject': 'Junior Drafter – application', 'body': 'Hello,\n\nShort note.\n\nMarc'}}
         self.assertTrue(any(i.startswith('email subject banned character') for i in checks.draft_issues(entry)))
         self.assertEqual(checks.draft_issues({'email': {'subject': 'Junior Drafter application, Marc Masarate', 'body': 'Hello,\n\nShort note.\n\nMarc'}}), [])
-        closing = checks.draft_issues({'letter': {'paragraphs': ['One.'], 'closing': 'Yours — Marc'}})  # the closing line is printed in the letter too
+        closing = checks.draft_issues({'letter': {'paragraphs': ['One.', 'Two.', 'Three.'], 'closing': 'Yours — Marc'}})  # the closing line is printed in the letter too
         self.assertTrue(any(i.startswith('letter closing banned character') for i in closing))
-        self.assertEqual(checks.draft_issues({'letter': {'paragraphs': ['One.'], 'closing': 'Kind regards,'}}), [])
+        self.assertEqual(checks.draft_issues({'letter': {'paragraphs': ['One.', 'Two.', 'Three.'], 'closing': 'Kind regards,'}}), [])
+        self.assertTrue(any('has 1 paragraphs' in i for i in checks.draft_issues({'letter': {'paragraphs': ['One.']}})))   # exactly three
 
     def test_the_visa_end_date_however_it_is_written(self):  # P2-8
         for text in ('I hold a Subclass 485 visa valid through 2027.', 'My visa runs until 12/2027.', 'Full working rights until Dec. 2027.',

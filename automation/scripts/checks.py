@@ -5,16 +5,22 @@ facts.json, standing answers for form questions, and record completeness.
 Usage:
   checks.py tone FILE [--kind email|letter|answer] [--visa-asked]   # banned phrases, dashes, volunteered limits, length
   checks.py facts FILE             # claims that do not trace to facts.json
-  checks.py draft DRAFT.json       # every written part of one draft: email, cover letter, form answers
+  checks.py draft DRAFT.json       # every written part of one draft or queue entry: email, cover letter, form answers
   checks.py questions FILE.json    # form questions of a draft or candidate: standing answer in facts.json, or ask the owner
+                                   # (the salary question needs the advert's pay: advert_pay, or a candidate's salary text)
   checks.py record RECORD.json     # everything a tracker record needs
 Exit code 1 when any issue is found.
 
+Letters and emails: letter_issues(text) and email_issues(subject, body) hold the one set of writing rules; queue.py
+(next, letter) and letter_pdf.py call them too. A letter is an optional greeting line ('Hello,' or 'Hello <name>,'),
+exactly three paragraphs, and an optional sign-off ('Marc Masarate', with a closing, phone, email or portfolio line);
+the greeting and the sign-off are not paragraphs. A queue entry's relocation_line is checked where compose_letter
+puts it, at the end of the last paragraph.
+
 Form answers are read in every shape the drafts use: a list of {question, answer}, a list of {q, a},
 or one {question: answer} object. A shape that cannot be read is an issue, never a silent pass.
-A form question is answered only from facts.json -> answers. The gate (standing_answer) fails closed:
-a question no rule covers, or whose line says 'not confirmed', 'not on record' or 'skip and report',
-goes to the owner.
+A form question is answered only by answers.py, the one gate queue.py uses too (standing_answer, standing_line and
+resolve are thin wrappers over it): a question no line of facts.json -> answers clearly covers goes to the owner.
 """
 import argparse
 import json
@@ -22,16 +28,14 @@ import re
 import sys
 from pathlib import Path
 
+import answers as gate
 from common import CONFIG, FACTS, canonical_status, read_json
 
 TONE = CONFIG['tone']
 STATUSES = CONFIG['statuses']
 READY_STATUSES = (STATUSES['ready_seek'], STATUSES['ready_portal'], STATUSES['ready_form'])
 ANSWERS = FACTS.get('answers', {})
-KNOWN_TOOLS = ['SIDRA', 'OpenRoads', '12d', 'MicroStation', 'HEC-RAS', 'DRAINS', 'TUFLOW', 'Navisworks', 'Bluebeam',
-               'Primavera', 'P6', 'MS Project', 'Trimble', 'Leica', 'ArcGIS', 'QGIS', 'InfraWorks', 'Python', 'Procore',
-               'Aconex', 'SketchUp', 'Tekla', 'SpaceGass', 'Space Gass', 'ETABS', 'SAP2000', 'RAPT', 'Inventor', 'SolidWorks',
-               'MATLAB', 'Power BI', 'Excel modelling', 'Excel modeling', 'GIS', 'BIM 360', 'Civil3D', 'Dynamo', 'Grasshopper']
+KNOWN_TOOLS = gate.KNOWN_TOOLS  # one list: software a text or a form may name that is not his
 ALLOWED_YEARS = {'2014', '2015', '2016', '2017', '2018', '2019', '2020', '2022', '2024', '2026', '2027'}
 FORBIDDEN_CLAIMS = [
     (r'\bpermanent resid', 'claims permanent residency'),
@@ -41,6 +45,10 @@ FORBIDDEN_CLAIMS = [
     (r'\b(chartered|CPEng|RPEQ|NER\b|registered engineer|licensed engineer)', 'claims a professional registration'),
     (r'\b\d+\+?\s*years?\s+(of\s+)?(commercial|industry|professional|drafting|design|civil)\b', 'claims years of professional experience'),
     (r'\b(sponsor|sponsorship|migration|residency goal)', 'mentions sponsorship or migration'),
+    (r'\bskills? assessment', 'mentions a skills assessment (facts.json -> never_mention)'),
+    (r'\bvisa (application|applications|grant|plans?|pathway|nomination|lodg\w*)\b|\b(state|regional|employer) nomination\b'
+     r'|\b(subclass\s*)?(189|190|191|482|491|494|186|187)\s*(visa|nomination|subclass|application)\b|\bsubclass\s*(189|190|191|482|491|494|186|187)\b'
+     r'|\bnominat\w*\b[^.!?\n]{0,30}\bvisa\b|\b(apply|applying|applied) for (a |an |my |the )?(permanent |new |next )?visa\b', 'mentions visa plans (facts.json -> never_mention)'),
     (r'\bmaster(\'s)?\s+(degree|of)', 'claims a master degree'),
     (r'\bhonours\b', 'claims honours'),
     (r'\binternship\b', 'claims an internship'),
@@ -49,9 +57,15 @@ FORBIDDEN_CLAIMS = [
 ]
 # The approved short work-rights line says "no sponsorship needed"; that is not a sponsorship request.
 APPROVED = re.compile(r'no sponsorship (is )?(needed|required)', re.I)
-# The visa end date, however it is written: 'December 2027', 'Dec 2027', '12/2027', 'visa valid through 2027', 'until the end of 2027'.
+# The visa end date, however it is written: 'December 2027', 'Dec 2027', '12/2027', 'visa valid through 2027', 'until the end of 2027',
+# or as time left: 'valid for another 13 months', 'has 13 months left', 'runs out late next year'.
+COUNT = r'(\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|eighteen|twenty(-\w+)?)'
 VISA_DATE = re.compile(r'\bdec(ember|\.)?\s+2027\b|\b12\s*/\s*(20)?27\b|\b(until|till|through|thru)\s+(the\s+)?(end\s+of\s+)?(\w+\s+)?2027\b'
-                       r'|\b(visa|485|work(ing)? rights?|expir\w*)\b[^.!?\n]{0,40}\b2027\b|\b2027\b[^.!?\n]{0,20}\bexpir', re.I)
+                       r'|\b(visa|485|work(ing)? rights?|expir\w*)\b[^.!?\n]{0,40}\b2027\b|\b2027\b[^.!?\n]{0,20}\bexpir'
+                       r'|\b' + COUNT + r'\s+(more\s+)?(months?|years?)\s+(left|remaining|to run|to go)\b'
+                       r'|\bvalid for (about |around |roughly |another |a further |at least |over )*' + COUNT + r'\s+(more\s+)?(months?|years?)\b'
+                       r'|\b(visa|485|work(ing)? rights?)\b[^.!?\n]{0,40}\b(runs? out|ends?|expires?|finish(es)?|lapses?|is valid (until|till|to|for)'
+                       r'|valid (until|till|to|for)|left on it)\b', re.I)
 VISA_FLAG = re.compile(r'2027|expires', re.I)  # the flag patterns that are about the visa end date
 SALARY_QUESTION = re.compile(r'salary|remuneration|\brate\b', re.I)
 VISA_QUESTION = re.compile(r'visa|work(ing)? rights?|rights? to work|residency|permanent resident|citizen', re.I)
@@ -72,28 +86,43 @@ def words(text):
     return len(re.findall(r"[A-Za-z0-9'’]+", LINK.sub('link', text)))
 
 
-def tone_issues(text, kind='email', visa_asked=False):
+def _tone(tone=None):
+    """config -> tone, with the rules of another config (queue.py --config) added: the lists are joined, the numbers
+    of the other config are used. Both are automation/config.json unless a caller says otherwise."""
+    tone = tone or {}
+    out = {**TONE, **{k: v for k, v in tone.items() if k not in ('banned_phrases', 'banned_characters', 'no_volunteered_limits')}}
+    out['banned_phrases'] = list(dict.fromkeys(list(TONE['banned_phrases']) + list(tone.get('banned_phrases') or [])))
+    out['banned_characters'] = list(dict.fromkeys(list(TONE['banned_characters']) + list(tone.get('banned_characters') or [])))
+    flags = list(TONE['no_volunteered_limits']['flag_patterns']) + list((tone.get('no_volunteered_limits') or {}).get('flag_patterns') or [])
+    out['no_volunteered_limits'] = {**TONE['no_volunteered_limits'], 'flag_patterns': list(dict.fromkeys(flags))}
+    return out
+
+
+def tone_issues(text, kind='email', visa_asked=False, tone=None, allow=()):
     """config -> tone on one piece of text. kind: 'email' (130 words), 'letter' (200), 'answer' (a free-text
     form answer, no word limit). visa_asked: the advert or the form question asks about visa or residency,
-    so the end date may be given."""
+    so the end date may be given. tone: the tone block of another config (see _tone). allow: flagged phrases this
+    text may keep (a queue entry's tone_allow)."""
+    tone = _tone(tone)
+    allowed = {' '.join(str(x).lower().split()) for x in allow or []}
     issues = []
     low = text.replace('’', "'").replace('‘', "'").lower()
-    for phrase in TONE['banned_phrases']:
+    for phrase in tone['banned_phrases']:
         if phrase in low:
             issues.append(f'banned phrase: "{phrase}"')
-    for ch in TONE['banned_characters']:
+    for ch in tone['banned_characters']:
         if ch in text:
             issues.append(f'banned character: {ch!r} (use a comma, full stop or "to")')
-    for pattern in TONE['no_volunteered_limits']['flag_patterns']:
+    for pattern in tone['no_volunteered_limits']['flag_patterns']:
         # Whole words only: 'have not' is not in 'I have noted' or 'I have nothing but', 'although i' is not in 'although it'.
         found = re.search(r'(?<![a-z])' + re.escape(pattern.lower()) + r'(?![a-z])', low)
-        if found and not (visa_asked and VISA_FLAG.search(pattern)):
+        if found and pattern.lower() not in allowed and not (visa_asked and VISA_FLAG.search(pattern)):
             issues.append(f'volunteers a limit: "{pattern}" (say what he has done; never what he lacks)')
     if VISA_DATE.search(text) and not visa_asked:
         issues.append('gives the visa end date; only where the advert or form asks about visa or residency (advert_asks_about_visa)')
-    if text.count('!') > TONE['max_exclamations']:
+    if text.count('!') > tone['max_exclamations']:
         issues.append('too many exclamation marks')
-    limit = {'email': TONE['max_email_words'], 'letter': TONE['max_cover_letter_words']}.get(kind)
+    limit = {'email': tone['max_email_words'], 'letter': tone['max_cover_letter_words']}.get(kind)
     n = words(text)
     if limit and n > limit:
         issues.append(f'too long: {n} words (limit {limit})')
@@ -190,225 +219,68 @@ def draft_parts(draft):
     """(email body, letter paragraphs, [(question, answer)]) of a draft. Reads the run-folder draft
     (email_body, letter.paragraphs, screening_answers) and the queue-entry names (email.body,
     cover_letter_text + relocation_line, questions). A paragraph is a block between blank lines, wherever
-    the blank lines are; cover_letter_text with no blank line is split on its line breaks."""
+    the blank lines are; cover_letter_text with no blank line is split on its line breaks. The greeting line and
+    the sign-off of cover_letter_text are not paragraphs (letter_blocks)."""
     email = draft.get('email') if isinstance(draft.get('email'), dict) else {}
     body = str(draft.get('email_body') or email.get('body') or '')
     paragraphs = [b.strip() for p in (draft.get('letter') or {}).get('paragraphs') or [] for b in re.split(r'\n\s*\n', str(p)) if b.strip()]
     if not paragraphs and draft.get('cover_letter_text'):
-        text = str(draft['cover_letter_text']).strip()
-        paragraphs = [p.strip() for p in re.split(r'\n\s*\n' if re.search(r'\n\s*\n', text) else r'\n', text) if p.strip()]
-        if draft.get('relocation_line') and str(draft['relocation_line']) not in paragraphs[-1]:
-            paragraphs[-1] += ' ' + str(draft['relocation_line'])
+        paragraphs = letter_blocks(compose_letter(draft['cover_letter_text'], draft.get('relocation_line')))[1]
     return body, paragraphs, [(item['question'], item['answer']) for item in answer_items(draft)[0]]
 
 
-# Form questions: which line of facts.json -> answers covers a question. Rules are read top to bottom and the
-# first match decides, so a narrow rule stands above the broad rule it would otherwise fall into (future
-# sponsorship above right to work, manual and interstate licences above driver's licence, experience in X
-# above the topic X). A key that facts.json does not have yet (expected_hourly_rate, declarations_and_consents)
-# means: ask the owner, and one line added to facts.json -> answers under that name settles it for good.
-UNSETTLED = re.compile(r'not confirmed|not on record|skip and report|not answered here', re.I)
-OFFICE_PRODUCT = re.compile(r'\b(excel|word|powerpoint|outlook|products)\b')
-QUALIFICATION = r"\bqualifications?\b|\bdegree\b|\bdiploma\b|\bbachelor|\bcertificat|level of education|educational background|\byear 12\b"
-SOFTWARE = (r'software|autocad|civil ?3d|revit|microsoft|ms office|\bcad\b|\bbim\b|(?<![a-z0-9])('
-            + '|'.join(re.escape(t.lower()) for t in KNOWN_TOOLS) + r')(?![a-z0-9])')
-LOOKUPS = ('qualification_questions', 'years_of_experience', 'software', 'experience_yes_no')
-EXPERIENCE = '@experience'  # a yes/no question about experience: software when it names software, else experience_yes_no
-ANSWER_RULES = [
-    # Private or unknowable: nobody but the owner answers.
-    (None, r'visa (grant )?number|passport|date of birth|\bdob\b|legal name|tax file|\btfn\b|\bbank\b|medical condition|injur|disabilit|gender|pronoun'
-           r'|aboriginal|torres strait|\breferred|security clearance|linkedin|defence force|military|adjustments|how far|commute'),
-    # A question where yes is the bad answer, or that asks about his past conduct: a standing 'Yes' must never land on it.
-    (None, r"\bever\b|suspend|disqualified|cancel|revoked?\b|offen[cs]e|convict|demerit|infringement|penalt|dismiss|terminated|bankrupt|conflict of interest|any reason"
-           r"|\bobject\b|\brefus|\bunable\b|\bprevent|\bfail|criminal (record|history\b(?! (check|screen)))|illicit|\b(use|take|taking|using) (of )?(any )?drugs|addict"),
-    (None, r"(how many|number of) years\b.*\b(in australia|australian|locally?)\b"),  # his paid engineering work was in the Philippines
-    (None, r"(how many|number of) years\b.*\b(current occupation|similar role|relevant experience|role you are applying|this (role|position))"),  # years in a role the question does not name
-    ('years_of_experience', r"^(?!(do|have|are|did) you\b).*(how many years\b.*\bexperience|\byears of [\w ,/&'-]*experience|\byears'? experience|number of years)"),
-    (EXPERIENCE, r'^(?!.*(' + QUALIFICATION + r'))(do|have|are|did) you\b.*\b(experienced?|worked|familiar|proficient)\b'),
-    ('currently_studying', r'currently (studying|enrolled)'),
-    ('english_self_rating', r'english'),
-    ('engineers_australia_membership_or_recognition', r'engineers australia|washington accord|\b(recognised|accredited|assessed) by\b'),
-    ('future_visa_sponsorship', r'sponsor\w*\b.*\b(future|later|at any time)\b|\b(future|will you|would you)\b.*\bsponsor'),
-    ('right_to_work', r'rights? to work|work(ing)? rights?|(eligib\w+|entitled|authori[sz]ed|allowed|permitted) to (live and )?work|visa|sponsor|citizen|permanent resident'),
-    ('notice_period', r'notice|availab\w+ to (start|commence)|start date|when can you (start|commence)'),
-    ('expected_salary', r'salary|remuneration'),
-    ('expected_hourly_rate', r'hourly rate|rate expectation|\b(current|daily|day|charge|pay) rate\b'),
-    (('manual_licence', 'drivers_licence'), r'manual (vehicle|car|licen[cs]e|transmission|driver)|drive (a )?manual|manual or auto'),
-    ('interstate_drivers_licence', r"\b(wa|nsw|qld|queensland|western australian?|new south wales|south australian?|tasmanian?|northern territory)\b[^?.]{0,25}\b(driver|licen[cs]e)"),
-    ('qualification_questions', r'heavy (rigid|vehicle|combination)|truck|forklift|motorcycle|\b(hr|mr|hc|lr|mc)\b[ -]?(class )?licen[cs]e'),
-    ('drivers_licence', r"driver|licen[cs]ed? to drive|\bclass c\b|car licen[cs]e|\b(provisional|probationary)\b|\bp[ -]?plate"),
-    ('own_car_or_regular_access', r'access to a (car|vehicle)|own (a |reliable |your own )?(car|vehicle|transport)|reliable (access to )?transport'),
-    ('white_card', r'white card|construction induction|general construction induction'),
-    ('police_check', r'police (check|certificate|clearance)|national police|criminal history (check|screen)'),
-    ('drug_and_alcohol_screening', r'drugs?\b.*\b(screen|test)|\b(screen|test)\w*\b.*\bdrug'),
-    ('pre_employment_medical', r'pre.?employment medical|medical (check|assessment|examination)'),
-    ('willing_to_relocate', r'relocat'),
-    ('willing_to_travel_or_fifo', r'fifo|dido|\btravel|roster'),
-    ('identity.location', r'\bresid(e|ing)\b|current location|^location\b|which suburb|where (are|do) you\b[^?]*\b(based|located|living|live)\b|do you (currently )?live\b|living in australia|are you located'),
-    ('identity.short_name', r'^preferred name'),
-    ('referees', r'referee'),
-    ('free_text_cover_letter', r'cover letter'),
-    ('declarations_and_consents', r"^i (acknowledge|consent|agree|declare|confirm|certify|understand)\b|privacy policy|true and correct|terms and conditions"),
-    # Open-ended: free text, a self-rating or a choice nobody has made for him.
-    (None, r"\b(please|can you|could you) (briefly )?(outline|describe|explain|share|name some|tell (us|me))\b|^(outline|describe|explain|share|tell (us|me))\b"
-           r"|^what (previous |relevant |prior )?(experience|skills)\b|^why\b|\bwhat (interests|motivated|attracted|led)\b|how did you (hear|find)|\brate your\b|how would you rate"),
-    ('qualification_questions', QUALIFICATION),
-    ('software', SOFTWARE),
-    ('qualification_questions', r"licen[cs]e|ticket|induction|registration|registered|accreditation|\bmember|working with children|\bwwcc?\b"),
-]
+def letter_text(draft):
+    """The whole letter of a draft as one text, for letter_issues: cover_letter_text with its relocation line, or the
+    paragraphs of a run-folder letter (its greeting and closing are checked as lines of their own)."""
+    paragraphs = [str(p) for p in (draft.get('letter') or {}).get('paragraphs') or [] if str(p).strip()]
+    if paragraphs:
+        return '\n\n'.join(paragraphs)
+    return compose_letter(draft.get('cover_letter_text'), draft.get('relocation_line'))
+
+
+# ------------------------------------------------------------------------------------------- the answer gate
+# Form questions are answered by answers.py alone, the one gate queue.py uses too: it answers only what a line of
+# facts.json -> answers clearly covers and sends everything else to the owner. The functions below keep their
+# names for their callers (publish.py, the questions and record commands); each is a thin wrapper over gate.answer.
+
+def _gate(question, options=None, pay=None):
+    return gate.answer(question, options or [], FACTS, pay=pay)
+
+
+def _key(basis):
+    """The facts.json key a basis names: 'answers.years_of_experience.<row>' -> 'years_of_experience';
+    'identity.location', 'eligibility.availability' and 'education' as they are; None for no basis."""
+    basis = str(basis or '')
+    return basis.split('.')[1] if basis.startswith('answers.') and basis.count('.') else basis or None
 
 
 def rule_keys():
-    """Every line of facts.json -> answers (and identity) that a rule can lead to."""
-    keys = set()
-    for key, _ in ANSWER_RULES:
-        keys.update(('software', 'experience_yes_no') if key == EXPERIENCE else key if isinstance(key, tuple) else [key] if key else [])
-    return keys
+    """Every line of facts.json -> answers (and identity, eligibility, education) that the gate reads."""
+    return set(gate.KEYS)
 
 
 def _words(text):
     return re.findall(r'[a-z0-9]+', str(text).lower())
 
 
-def _stem(word):
-    """'designer' and 'design', 'drafter' and 'drafting', 'estimator' and 'estimating' meet at one stem."""
-    return re.sub(r'(sperson|person|ers|er|ors|or|ing|ion|s)$', '', word) if len(word) > 5 else word
+def resolve(question, pay=None):
+    """{'key', 'entry', 'value', 'problem', 'basis', 'answer'} for one form question, from the gate (answers.py):
+    key is the line of facts.json it reads (None when none), entry the row of a lookup table or the part of a rule
+    ('free_text', 'choose'), value the gate's answer (or the facts line when it gives none), problem why the owner
+    must be asked (None when the gate answers it). pay: the advert's own pay text ("not stated" when it gives none);
+    without it the salary question is not answered."""
+    r = _gate(question, pay=pay)
+    key = _key(r['basis'])
+    entry = r['basis'][len('answers.' + key) + 1:] or None if key and r['basis'].startswith('answers.') else None
+    value = r['answer'] if r['status'] == 'answered' else (fact_at(r['basis']) if r['basis'] else None)
+    return {'key': key, 'entry': entry, 'value': value, 'problem': None if r['status'] == 'answered' else (r['why'] or 'no standing answer in facts.json -> answers'),
+            'basis': r['basis'], 'answer': r['answer']}
 
 
-def _phrase_span(name, question_words):
-    """(start, end) of the last match of a table name in the question, or None: each word of the name, as a
-    stem, begins the next word of the question."""
-    stems = [_stem(w) for w in _words(name)]
-    same = lambda word, stem: word.startswith(stem) if len(stem) > 3 else word == stem  # 'cad' is not the start of 'cadet'
-    starts = [i for i in range(len(question_words) - len(stems) + 1) if stems and all(same(question_words[i + j], s) for j, s in enumerate(stems))]
-    return (starts[-1], starts[-1] + len(stems)) if starts else None
-
-
-CATCH_ALL = re.compile(r'any other|anything else|other$')
-GENERIC = {'project', 'projects', 'work', 'works', 'role', 'roles', 'experience', 'any', 'other', 'and', 'or', 'of', 'in', 'the', 'a'}
-# A named line says something exact ('Yes', 'eleven months as a civil engineer'). A question that narrows or raises
-# it asks something else and gets the table's catch-all instead: '3+ years of site inspections', 'an Australian
-# degree in civil engineering', 'Rail Project Engineer', 'Senior Site Engineer'.
-MORE_ASKED = r"\d+\s*\+?\s*(years?|yrs?|months?)|\bat least\b|\bminimum\b|\bextensive\b|\baustralian?\b|\bhonours\b|\bmasters?\b|\bpost ?graduate\b|\b(4|four)[ -]year\b"
-PLAIN_BEFORE_ROLE = {'civil', 'junior', 'graduate', 'assistant', 'construction', 'site', 'project'}  # 'Assistant Civil Engineer' is still a civil engineer
-ROLE_STARTS_AFTER = {'a', 'an', 'the', 'as', 'in', 'of', 'with', 'for', 'have', 'years', 'experience'}
-
-
-def _entry(key, table, q):
-    """(name, value) of the line of a lookup table (facts.json -> answers -> key) that covers the question;
-    the table's catch-all ('any other ...', 'anything else', 'other') when no line names it; (None, None)
-    when the table has neither."""
-    rows = {name: value for name, value in table.items() if name not in ('rule', '_about')}
-    rest = next((name for name in rows if any(CATCH_ALL.match(n.strip().lower()) for n in name.split(','))), None)
-    names = [(name, n.strip().lower()) for name in rows for n in name.split(',') if n.strip() and not CATCH_ALL.match(n.strip().lower())]
-    found = None
-    if key == 'software':  # tool names are matched as written: 'cad' is in 'autocad'
-        office = next((name for name, n in names if 'office' in n), None)
-        found = office if office and OFFICE_PRODUCT.search(q) else next((name for name, n in names if n in q), None)
-    elif key == 'qualification_questions':
-        # 'a qualification in X': X must BE a field facts.json names. 'engineering' is not 'mechanical engineering'.
-        field = re.search(r"\b(?:qualifications?|degree|diploma|background|bachelor(?:'?s)?(?: degree)?) (?:in|of) ([^?.]+)", q)
-        options = {' '.join(_words(o)) for o in re.split(r'\bor\b|/|,', field.group(1))} if field else set()
-        found = next((name for name, n in names if {' '.join(_words(o)) for o in re.split(r'\bor\b', n)} & options), None)
-    else:  # the name that ends last in the question is the head of the phrase: 'Civil Engineering Technician' is a technician
-        qw, spans = _words(q), []
-        for name, n in names:
-            span = _phrase_span(n, qw)
-            before = []
-            for word in reversed(qw[:span[0]] if span else []):
-                if word in ROLE_STARTS_AFTER:
-                    break
-                before.append(word)
-            claims = 'lowest option' not in str(rows[name]).lower()  # a line that claims time worked: only for the plain role
-            if span and not (key == 'years_of_experience' and claims and set(before) - PLAIN_BEFORE_ROLE):
-                spans.append((span[1], len(n), name))
-        found = max(spans)[2] if spans else None
-    if found and key in ('qualification_questions', 'experience_yes_no') and re.search(MORE_ASKED, q):
-        found = None
-    name = found or rest
-    return (name, rows[name]) if name else (None, None)
-
-
-def _unsettled(answer, question):
-    """True when a standing answer leaves this question to the owner: it says 'not confirmed', 'not on record'
-    or 'skip and report' outright, or in an 'If the form asks X: ...' sentence whose X is in the question."""
-    if not isinstance(answer, str):
-        return False  # a rule with choose / never_choose is an answer
-    for sentence in re.split(r'(?<=\.)\s+', answer):
-        if not UNSETTLED.search(sentence):
-            continue
-        cond = re.match(r'if (.+?):', sentence, re.I)
-        if not cond or any(re.search(r'\b' + w, question) for w in re.findall(r'[a-z]{4,}', cond.group(1).lower()) if w not in ('form', 'asks', 'must', 'that', 'whether')):
-            return True
-    return False
-
-
-def _open_line(q):
-    """(key, name, value) of a lookup line that is open whatever the form asks ('Not confirmed ...') and whose
-    subject is in the question, in any order and any phrasing: 'civil infrastructure projects' covers
-    'experience in civil infrastructure' and 'years of civil infrastructure construction experience'."""
-    qw = _words(q)
-    for key in LOOKUPS:
-        table = ANSWERS.get(key)
-        for name, value in (table.items() if isinstance(table, dict) else []):
-            if name in ('rule', '_about') or not _unsettled(value, ''):
-                continue
-            for n in name.split(','):
-                subject = [_stem(w) for w in _words(n) if w not in GENERIC]
-                if subject and all(any(w.startswith(s) for w in qw) for s in subject):
-                    return key, name, value
-    return None
-
-
-def _case(key, q):
-    """The question plus the words an 'If the form asks X: ...' sentence uses for the case it is asking about."""
-    if key == 'drivers_licence':
-        q += ' full' * bool(re.search(r'\b(open|unrestricted)\b', q)) + ' probationary' * bool(re.search(r"provisional|\bp[ -]?plate|\bp[12]\b", q))
-    if key == 'software' and OFFICE_PRODUCT.search(q):
-        q += ' individual products'  # one Office product named
-    return q
-
-
-def resolve(question):
-    """{'key', 'entry', 'value', 'problem'} for one form question: the line of facts.json -> answers that covers
-    it (key None when nothing does, entry the row of a lookup table) and, in problem, why the owner must be
-    asked (None when the line settles the answer)."""
-    q = ' '.join(str(question or '').lower().replace('’', "'").split())
-    out = {'key': None, 'entry': None, 'value': None, 'problem': 'no standing answer in facts.json -> answers'}
-    if not q:
-        return out
-    if any(re.search(pattern, q) for key, pattern in ANSWER_RULES[:2]):
-        return {**out, 'problem': 'a private, open-ended or unknown detail: only the owner can answer it'}
-    open_line = _open_line(q)
-    if open_line:
-        key, name, value = open_line
-        return {'key': key, 'entry': name, 'value': value, 'problem': f'facts.json -> answers -> {key} -> {name} is not confirmed'}
-    for key, pattern in ANSWER_RULES[2:]:
-        if not re.search(pattern, q):
-            continue
-        if key is None:
-            return {**out, 'problem': 'a private, open-ended or unknown detail: only the owner can answer it'}
-        if key == EXPERIENCE:
-            key = 'software' if re.search(SOFTWARE, q) else 'experience_yes_no'
-        if isinstance(key, tuple):
-            key = next((k for k in key if k in ANSWERS), key[0])
-        value = FACTS['identity'].get(key[9:]) if key.startswith('identity.') else ANSWERS.get(key)
-        entry = None
-        if key in LOOKUPS and isinstance(value, dict):
-            entry, value = _entry(key, value, q)
-        if value is None:
-            return {'key': key, 'entry': entry, 'value': None, 'problem': f'facts.json -> answers has no "{key}"'}
-        if _unsettled(value, _case(key, q)):
-            return {'key': key, 'entry': entry, 'value': value, 'problem': f'facts.json -> answers -> {key} is not confirmed for this question'}
-        return {'key': key, 'entry': entry, 'value': value, 'problem': None}
-    return out
-
-
-def standing_answer(question):
-    """(key, problem) for one form question. key is the line of facts.json -> answers that covers it (None when
-    nothing does); problem is None when that line settles the answer, else why the owner must be asked. This
-    only says whether a standing answer exists: the submitter still reads that line and the form's options."""
-    found = resolve(question)
+def standing_answer(question, pay=None):
+    """(key, problem) for one form question: the line of facts.json the gate reads (None when none) and why the
+    owner must be asked (None when the gate gives an answer). pay as in resolve."""
+    found = resolve(question, pay)
     return found['key'], found['problem']
 
 
@@ -421,29 +293,115 @@ def line_text(value):
     return str(value)
 
 
-def standing_line(question):
-    """(basis, text, problem): where in facts.json the standing answer is ('answers.notice_period',
-    'answers.years_of_experience.<row>', 'identity.location'), that line as text, and why the owner must be
-    asked instead (None when the line settles it; text is then what the submitter follows)."""
-    found = resolve(question)
-    if not found['key']:
-        return '', '', found['problem']
-    basis = found['key'] if found['key'].startswith('identity.') else 'answers.' + found['key'] + ('.' + found['entry'] if found['entry'] else '')
-    return basis, '' if found['value'] is None else line_text(found['value']), found['problem']
+def standing_line(question, pay=None):
+    """(basis, answer, problem): where in facts.json the gate's answer comes from ('answers.notice_period',
+    'answers.years_of_experience.<row>', 'identity.location'), the answer to give with no options on screen, and
+    why the owner must be asked instead (None when the gate answers it; the answer is then '' only when unanswered).
+    pay as in resolve."""
+    found = resolve(question, pay)
+    return found['basis'], (found['answer'] if not found['problem'] else ''), found['problem']
 
 
-def unanswered_questions(questions):
-    """[{question, why}] for the form questions with no settled standing answer, in order, each once."""
+def advert_pay(data):
+    """The advert's pay text a draft, record, queue entry or candidate carries: advert_pay, the record's advert.pay,
+    or a candidate's SEEK salary text. None when none is recorded (a candidate whose SEEK salary is empty may still
+    state pay in the advert's text, so that is not "not stated")."""
+    advert = data.get('advert') if isinstance(data.get('advert'), dict) else {}
+    for value in (data.get('advert_pay'), advert.get('pay'), data.get('salary')):
+        if isinstance(value, str) and value.strip():
+            return value
+    return None
+
+
+def unanswered_questions(questions, pay=None):
+    """[{question, why}] for the form questions with no settled standing answer, in order, each once. pay as in
+    resolve."""
     out, seen = [], set()
     for question in questions or []:
         text = ' '.join(str(question or '').split())
         if not text or text.lower() in seen:
             continue
         seen.add(text.lower())
-        _, problem = standing_answer(text)
+        _, problem = standing_answer(text, pay)
         if problem:
             out.append({'question': text, 'why': problem})
     return out
+
+
+# ------------------------------------------------------------------------------------------- letters and emails
+# One set of rules for every letter and email, used by `checks.py draft`, by queue.py (next, letter) and by
+# letter_pdf.py, so what the queue hands out is what these checks pass.
+GREETING = re.compile(r"^(?:(?:hello|hi|dear)\b[^\n,.!?;:]{0,40},|(?:hello|hi))$", re.I)
+CLOSING = re.compile(r'^(kind regards|regards|best regards|warm regards|many thanks|thank you|thanks|yours sincerely|sincerely|yours faithfully),?$', re.I)
+
+
+def _sign_off_line(line):
+    """True for a line of the sign-off block: a closing, his name, his phone, email or portfolio address."""
+    ident = FACTS['identity']
+    name = ident['name'].split()
+    names = {' '.join(name).lower(), f'{name[0]} {name[-1]}'.lower(), str(ident.get('short_name') or name[0]).lower()}
+    low = ' '.join(line.lower().split()).rstrip(',.')
+    url = ident['portfolio_url'].lower()
+    digits = re.sub(r'\D', '', low)
+    return (bool(CLOSING.match(low)) or low in names or low in (url, url.replace('https://', ''), ident['email'].lower())
+            or (bool(digits) and digits == re.sub(r'\D', '', ident['phone']) and not re.search(r'[a-z]', low)))
+
+
+def letter_blocks(text):
+    """(greeting, paragraphs, sign_off) of a letter. A first line 'Hello,' or 'Hello <name>,' is the greeting and the
+    closing, name, phone and link lines at the end are the sign-off: neither counts as a paragraph. The paragraphs
+    are the blocks between blank lines, or the lines of a body that has no blank line."""
+    lines = [line.rstrip() for line in str(text or '').strip().splitlines()]
+    greeting = lines.pop(0).strip() if lines and GREETING.match(lines[0].strip()) else ''
+    sign_off = []
+    while lines and (not lines[-1].strip() or _sign_off_line(lines[-1])):
+        line = lines.pop().strip()
+        if line:
+            sign_off.insert(0, line)
+    body = '\n'.join(lines).strip()
+    paragraphs = [p.strip() for p in re.split(r'\n\s*\n' if re.search(r'\n\s*\n', body) else r'\n', body) if p.strip()]
+    return greeting, paragraphs, sign_off
+
+
+def compose_letter(cover_letter_text, relocation_line=''):
+    """The letter as it is sent: cover_letter_text, with relocation_line at the end of the last paragraph (before
+    the sign-off) when the text does not already carry it."""
+    text, line = str(cover_letter_text or '').strip(), ' '.join(str(relocation_line or '').split())
+    if not line or not text or ' '.join(text.split()).find(line.rstrip('.')) >= 0:
+        return text
+    greeting, paragraphs, sign_off = letter_blocks(text)
+    if not paragraphs:
+        return text
+    paragraphs[-1] = paragraphs[-1].rstrip() + ' ' + line
+    return '\n\n'.join(([greeting] if greeting else []) + paragraphs + (['\n'.join(sign_off)] if sign_off else []))
+
+
+def _visa(visa_asked, allow):
+    """The end date may be given when the advert asks, or when the entry allows a flagged visa-date phrase."""
+    return bool(visa_asked) or any(VISA_FLAG.search(str(p)) for p in allow or [])
+
+
+def letter_issues(text, visa_asked=False, tone=None, allow=()):
+    """Everything wrong with one letter (cover_letter_text with its relocation line): config -> tone (word limit,
+    banned phrases and characters, en and em dashes, volunteered limits, the visa end date however written), the
+    facts, and its shape: exactly three paragraphs between an optional greeting line and the sign-off."""
+    text = str(text or '')
+    if not text.strip():
+        return ['letter text missing']
+    visa = _visa(visa_asked, allow)
+    issues = ['letter ' + i for i in tone_issues(text, 'letter', visa, tone, allow) + fact_issues(text)]
+    _, paragraphs, _ = letter_blocks(text)
+    if len(paragraphs) != 3:
+        issues.append(f'letter has {len(paragraphs)} paragraphs (exactly three between the greeting line and the sign-off: config -> tone -> letter_shape)')
+    return issues
+
+
+def email_issues(subject, body, visa_asked=False, tone=None, allow=()):
+    """Everything wrong with one email: the body against config -> tone and the facts, and the subject line."""
+    visa = _visa(visa_asked, allow)
+    body, subject = str(body or ''), str(subject or '')
+    issues = ['email ' + i for i in tone_issues(body, 'email', visa, tone, allow) + fact_issues(body)] if body.strip() else []
+    return issues + ['email subject ' + i for i in tone_issues(subject, 'answer', visa, tone, allow)]
 
 
 # A written answer against the standing one.
@@ -481,15 +439,19 @@ def amounts(text):
     return out
 
 
+YEARS_QUESTION = re.compile(r"how many years|years'? (of )?experience|number of years", re.I)
+
+
 def answer_issues(question, answer, advert_pay=''):
     """A written form answer against facts.json: a placeholder is not an answer, a yes must not claim what the
-    question names and the facts do not have, a yes or no must not contradict the standing line, years and a
-    salary figure must be the ones the standing line gives. advert_pay: the advert's own pay text; a figure
-    in it may be given."""
+    question names and the facts do not have, a yes or no must not contradict the gate's answer, years and a
+    salary figure must be the ones facts.json gives. advert_pay: the advert's own pay text; a figure in it may be
+    given."""
     issues = []
     text = str(answer or '').strip()
-    found = resolve(question)
-    line = '' if found['value'] is None else line_text(found['value'])
+    found = resolve(question, advert_pay or None)
+    line = found['answer'] if not found['problem'] else ''
+    key = found['key']
     if re.search(r'\[[^\]]*\]', text):
         issues.append('leaves a blank in square brackets for someone to fill in')
     elif PLACEHOLDER.search(text):
@@ -504,20 +466,20 @@ def answer_issues(question, answer, advert_pay=''):
         for pat, why in FORBIDDEN_CLAIMS:
             if why in SAYS_YES_TO and re.search(pat, asked, re.I) and not (offers_visa and why in RESIDENCY):
                 issues.append(f'says yes to a question that {why}')
-    plain = isinstance(found['value'], str) and re.match(r'\W*(yes|no)\b(?! only)', found['value'], re.I)
-    if plain and not found['problem'] and said and plain.group(1).lower() != said:
-        issues.append(f"says {said} where facts.json -> answers -> {found['key']} says: {line[:80]}")
-    short = isinstance(found['value'], str) and not plain and not found['problem'] and len(found['value'].split()) <= 3
+    plain = re.match(r'\W*(yes|no)\b(?! only)', line, re.I)
+    if plain and said and plain.group(1).lower() != said:
+        issues.append(f"says {said} where facts.json -> answers -> {key} says: {line[:80]}")
+    short = line and not plain and key in ANSWERS and key != 'expected_salary' and len(line.split()) <= 3
     digits = lambda t: ' '.join(NUMBER_WORDS.get(w, w) for w in _words(t))
-    if short and found['key'] in ANSWERS and digits(found['value']) not in digits(text):  # '2 weeks' is the answer; 'None, ready now' is not
-        issues.append(f"does not give the standing answer in facts.json -> answers -> {found['key']}: {line}")
-    if found['key'] == 'years_of_experience' and ' '.join(text.lower().split()) not in ' '.join(line.lower().split()):
+    if short and digits(line) not in digits(text):  # '2 weeks' is the answer; 'None, ready now' is not
+        issues.append(f"does not give the standing answer in facts.json -> answers -> {key}: {line}")
+    if (key == 'years_of_experience' or YEARS_QUESTION.search(str(question or ''))) and ' '.join(text.lower().split()) not in ' '.join(line.lower().split()):
         for m in YEARS_GIVEN.finditer(text):
             if m.group('word') or (float(m.group('n')) >= 1 and not m.group('lead')):
-                issues.append(f'gives "{m.group(0).strip()}" where facts.json -> answers -> years_of_experience says: {line[:90]}')
+                issues.append(f'gives "{m.group(0).strip()}" where facts.json -> answers -> years_of_experience says: {line[:90] or "nothing for this question (it goes to the owner)"}')
                 break
     band = salary_band()
-    if found['key'] == 'expected_salary' and band:
+    if key == 'expected_salary' and band:
         advertised = {amount for amount, _ in amounts(advert_pay)}
         for amount, shown in amounts(text):
             if amount < 1000:
@@ -541,41 +503,42 @@ def fact_at(basis):
 
 
 def draft_issues(draft):
-    """Everything written in one draft against config -> tone and facts.json. The visa end date passes
-    only when the draft carries advert_asks_about_visa true (or, in a form answer, the question asks)."""
+    """Everything written in one draft against config -> tone and facts.json, with the rules of letter_issues and
+    email_issues. The visa end date passes only when the draft carries advert_asks_about_visa true (or, in a form
+    answer, the question asks); a queue entry's tone_allow lists the flagged phrases it may keep."""
     visa = draft.get('advert_asks_about_visa') is True
-    body, paragraphs, _ = draft_parts(draft)
-    issues = ['email ' + i for i in tone_issues(body, 'email', visa) + fact_issues(body)] if body else []
-    if paragraphs:
-        text = '\n'.join(paragraphs)
-        issues += ['letter ' + i for i in tone_issues(text, 'letter', visa) + fact_issues(text)]
-        if len(paragraphs) > 3:
-            issues.append(f'letter has {len(paragraphs)} paragraphs (three short paragraphs: config -> tone -> letter_shape)')
-    letter = draft.get('letter') or {}
+    allow = draft.get('tone_allow') or []
     email = draft.get('email') if isinstance(draft.get('email'), dict) else {}
-    for name, line in (('email subject', draft.get('subject') or email.get('subject')), ('letter subject', letter.get('subject')), ('letter greeting', letter.get('greeting')),
-                       ('letter closing', letter.get('closing'))):
-        issues += [f'{name} {i}' for i in tone_issues(str(line or ''), 'answer', visa)]
+    body = str(draft.get('email_body') or email.get('body') or '')
+    issues = email_issues(draft.get('subject') or email.get('subject'), body, visa, allow=allow)
+    letter = letter_text(draft)
+    if letter.strip():
+        issues += letter_issues(letter, visa, allow=allow)
+    run_letter = draft.get('letter') or {}
+    for name, line in (('letter subject', run_letter.get('subject')), ('letter greeting', run_letter.get('greeting')), ('letter closing', run_letter.get('closing'))):
+        issues += [f'{name} {i}' for i in tone_issues(str(line or ''), 'answer', visa, allow=allow)]
     answers, unreadable = answer_items(draft)
     if unreadable:
         issues.append(unreadable)
+    options = {' '.join(str(q.get('question') or '').split()): q.get('options') or [] for q in draft.get('questions') or [] if isinstance(q, dict)}
     for item in answers:
         question, answer = item['question'], item['answer']
         if not isinstance(answer, str) or not answer.strip():
             if answer not in (None, ''):
                 issues.append(f'answer to "{question[:60]}" is not text ({type(answer).__name__})')
             continue
-        if item['basis']:  # an answer taken from facts.json: it must be that line, and a yes or no must agree with it
-            value = fact_at(item['basis'])
-            plain = isinstance(value, str) and re.match(r'\W*(yes|no)\b', value, re.I)
-            if value is None:
+        if item['basis']:  # an answer taken from facts.json: it must be the gate's answer for this question and its options
+            gated = _gate(question, options.get(question), advert_pay(draft))
+            if fact_at(item['basis']) is None:
                 issues.append(f'answer to "{question[:60]}" names a basis that is not in facts.json: {item["basis"]}')
-            elif plain and says(answer) and says(answer) != plain.group(1).lower():
-                issues.append(f'answer to "{question[:60]}" contradicts facts.json -> {item["basis"]}')
+            elif gated['status'] != 'answered':
+                issues.append(f'answer to "{question[:60]}" has no standing answer in facts.json ({gated["why"]})')
+            elif answer != gated['answer']:
+                issues.append(f'answer to "{question[:60]}" contradicts facts.json -> {gated["basis"]}: the answer is "{gated["answer"][:80]}"')
             continue
         asked = visa or bool(VISA_QUESTION.search(question))
         truth = [i for i in fact_issues(answer) if not (i.startswith('amount not in facts') and SALARY_QUESTION.search(question))]  # a salary answer is a figure
-        found = tone_issues(answer, 'answer', asked) + truth + answer_issues(question, answer, draft.get('advert_pay'))
+        found = tone_issues(answer, 'answer', asked, allow=allow) + truth + answer_issues(question, answer, advert_pay(draft))
         issues += [f'answer to "{question[:60]}" {i}' for i in found]
     return issues
 
@@ -614,13 +577,13 @@ def record_issues(rec, require_uploaded=True):
         issues.append(f'{status} record still has an open question for the owner')
     if ready:  # what a submitter will type into a form: only the lines of facts.json, checked again here
         for item in answer_items(rec)[0]:
-            basis, text, problem = standing_line(item['question'])
+            basis, text, problem = standing_line(item['question'], advert_pay(rec))
             if item['basis'] and (problem or (item['basis'], item['answer']) != (basis, text)):
                 issues.append(f'form answer is not the standing answer in facts.json -> answers: "{item["question"][:60]}"')
             elif not item['basis'] and status != STATUSES['ask_owner']:
                 issues.append(f'{status} record carries a form answer that is not from facts.json -> answers: "{item["question"][:60]}"')
         if status != STATUSES['ask_owner']:
-            issues += [f'{status} record has a form question with no standing answer (it must be ASK_OWNER): "{u["question"][:60]}"' for u in unanswered_questions(form_questions(rec))]
+            issues += [f'{status} record has a form question with no standing answer (it must be ASK_OWNER): "{u["question"][:60]}"' for u in unanswered_questions(form_questions(rec), advert_pay(rec))]
     kinds = {d.get('kind') for d in rec.get('attachments') or []}
     if 'resume' not in kinds:
         issues.append('no résumé attached')
@@ -636,7 +599,8 @@ def record_issues(rec, require_uploaded=True):
     if rec.get('application_type') == 'SPECULATIVE_ENQUIRY' and 'speculative' not in str(rec.get('email_body', '')).lower() and 'no advertised' not in str(rec.get('notes', '')).lower():
         issues.append('speculative enquiry must say so')
     visa = rec.get('advert_asks_about_visa') is True
-    return issues + draft_issues({'email_body': rec.get('email_body'), 'subject': rec.get('subject'), 'screening_answers': rec.get('screening_answers'), 'advert_asks_about_visa': visa})
+    return issues + draft_issues({'email_body': rec.get('email_body'), 'subject': rec.get('subject'), 'screening_answers': rec.get('screening_answers'),
+                                  'advert_asks_about_visa': visa, 'advert_pay': advert_pay(rec)})
 
 
 def main(argv=None):
@@ -657,7 +621,7 @@ def main(argv=None):
     elif a.cmd == 'questions':
         data = read_json(a.file)
         unreadable = answer_items(data)[1]
-        issues = ([unreadable] if unreadable else []) + [f"ask the owner: {u['question']} ({u['why']})" for u in unanswered_questions(form_questions(data))]
+        issues = ([unreadable] if unreadable else []) + [f"ask the owner: {u['question']} ({u['why']})" for u in unanswered_questions(form_questions(data), advert_pay(data))]
     else:
         issues = record_issues(read_json(a.file))
     for i in issues:

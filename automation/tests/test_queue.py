@@ -83,10 +83,17 @@ YEARS = ['No experience', 'Less than 1 year', '1 year', '2 years', '3 years', '4
 NOTICE = ["None, I'm ready to go now", 'Less than 2 weeks', '2 weeks', '1 month', '2 months', '3 months', 'More than 3 months']
 YES_NO = ['Yes', 'No']
 RTW = 'Which of the following statements best describes your right to work in Australia?'
+# A letter that passes checks.letter_issues: a greeting line, three short paragraphs and the sign-off.
+LETTER = ('Hello,\n\n'
+          'I am applying for the Junior Civil Drafter role advertised on SEEK. Your advert asks for subdivision drawings in Civil 3D.\n\n'
+          'In the Advanced Diploma of Civil Construction Design, finished in February 2026, I designed road geometry and stormwater '
+          'drainage in AutoCAD and Civil 3D.\n\n'
+          'I live in Melton and can start two weeks after an offer. Full working rights in Australia (Subclass 485 visa), no sponsorship '
+          'needed. Could we talk this week?\n\nMarc Masarate')
 
 
-def ans(question, options=None, facts=FACTS):
-    return q.answer_question(question, options, facts)
+def ans(question, options=None, facts=FACTS, pay='not stated'):
+    return q.answer_question(question, options, facts, pay)   # pay: the advert states none, unless a test says otherwise
 
 
 def entry(n, **kw):
@@ -97,7 +104,7 @@ def entry(n, **kw):
 
 
 def email_entry(n, **kw):
-    e = entry(n, route='EMAIL', seek_id='', url=f'https://example{n}.com.au/careers',
+    e = entry(n, route='EMAIL', seek_id='', url=f'https://example{n}.com.au/careers', cover_letter_text=LETTER,
               email={'to': f'jobs@example{n}.com.au', 'subject': 'Junior Civil Drafter', 'body': 'Hello.',
                      'evidence_url': f'https://example{n}.com.au/careers'})
     e.update(kw)
@@ -133,7 +140,7 @@ class AnswerQuestionTests(unittest.TestCase):
 
     def test_right_to_work(self):
         self.ok(ans(RTW, RIGHT_TO_WORK), 'I have a graduate temporary work visa', 'right_to_work.choose')
-        self.ok(ans(RTW), FACTS['answers']['right_to_work']['choose'], 'right_to_work.choose')
+        self.ok(ans(RTW), FACTS['answers']['right_to_work']['free_text'], 'right_to_work.free_text')   # with no options: the text to give
         without_485 = [o for o in RIGHT_TO_WORK if 'graduate' not in o]
         self.ok(ans(RTW, without_485), 'I have a temporary visa with no restrictions (e.g. doctoral student)', 'right_to_work.choose')
         self.ok(ans(RTW.replace('?', ''), RIGHT_TO_WORK), 'I have a graduate temporary work visa', 'right_to_work.choose')
@@ -143,7 +150,7 @@ class AnswerQuestionTests(unittest.TestCase):
                           'I require sponsorship to work for a new employer (e.g. 482, 457)']))
         self.no(ans(RTW, ['Graduate visa 485, sponsorship required later', "I'm an Australian citizen"]))
         self.no(ans(RTW, ['I have a family/partner visa with no restrictions', "I'm an Australian citizen"]))
-        self.no(ans('Are you legally entitled to work in Australia?', YES_NO))
+        self.no(ans('Are you legally entitled to work in Australia?', YES_NO))   # no option names his visa
         self.no(ans('Will you require visa sponsorship in the future?', YES_NO))
 
     def test_years_as_an_engineer_is_under_one_year(self):
@@ -161,12 +168,14 @@ class AnswerQuestionTests(unittest.TestCase):
         for role in ('an Estimator', 'a project coordinator', 'a Civil Engineering Technician', 'a Quality Assurance Trainee'):
             self.ok(ans(f"How many years' experience do you have as {role}?", YEARS), 'No experience', 'any other role')
         self.ok(ans("How many years' experience do you have as a civil drafter?", YEARS[1:]), 'Less than 1 year', 'designer, CAD')
-        self.assertIn('lowest option', ans("How many years' experience do you have as a civil drafter?")['answer'])
+        self.assertEqual(ans("How many years' experience do you have as a civil drafter?")['answer'], 'None: no paid role of this kind')   # free text
         self.no(ans("How many years' experience do you have as a civil drafter?", ['1 year', '2 years']))
 
     def test_years_is_not_guessed(self):
-        for text in ("How many years' experience do you have as an Engineer Graduate?",   # an engineer title outside the named ones
-                     "How many years' experience do you have as a design engineer?",
+        # facts.json -> years_of_experience: 'a graduate, junior, site, project or civil engineer title is answered from the first
+        # row', so 'Engineer Graduate' now gets the 11 months (answers.py); 'design engineer' is still not one of them.
+        self.ok(ans("How many years' experience do you have as an Engineer Graduate?", YEARS), 'Less than 1 year', 'construction industry')
+        for text in ("How many years' experience do you have as a design engineer?",
                      "How many years' experience do you have as a Technical Support Officer?",  # a job he has held
                      "How many years' experience do you have as a Console Operator?",
                      "How many years' experience do you have in your current occupation?",
@@ -204,14 +213,13 @@ class AnswerQuestionTests(unittest.TestCase):
         self.ok(ans(text, NOTICE), '2 weeks', 'notice_period')
         self.ok(ans(text), '2 weeks', 'notice_period')
         self.no(ans(text, ['None', '1 month', '2 months']))
-        self.no(ans('What is the notice period for your current employment?', NOTICE))
+        self.ok(ans('What is the notice period for your current employment?', NOTICE), '2 weeks', 'notice_period')   # any notice question
 
-    def test_salary_gives_the_rule(self):
+    def test_salary_gives_the_option_holding_the_band(self):   # S13: the rule paragraph is never the answer to a choice
         for text in ("What's your expected annual base salary?", 'What’s your expected Annual Base Salary? ', 'What is your expected annual base salary?'):
-            r = ans(text, ['$60K', '$70K', '$80K'])
-            self.assertEqual((r['status'], r['basis']), ('answered', 'answers.expected_salary.rule'))
-            self.assertIn('$65,000 to $75,000', r['answer'])
-            self.assertTrue(r['answer'].endswith('Single figure when the advert states no pay: 70000.'), r['answer'])
+            self.ok(ans(text, ['$60K', '$70K', '$80K']), '$70K', 'expected_salary.rule')
+            self.ok(ans(text), '65000 to 75000', 'expected_salary.rule')
+            self.no(ans(text, ['$80K', '$90K']))
         self.no(ans("What's your expected hourly rate?"))
         self.no(ans('Please detail your minimum salary expectations (including super):'))
 
@@ -219,10 +227,10 @@ class AnswerQuestionTests(unittest.TestCase):
         text = "Do you have a current Australian driver's licence?"
         self.ok(ans(text, YES_NO), 'Yes', 'drivers_licence')
         self.ok(ans('Do you have a current Australian driver’s licence?'), 'Yes', 'drivers_licence')
-        self.no(ans(text, ['Yes, full licence', 'Yes, probationary licence', 'No']))   # full or probationary is not confirmed
+        self.no(ans(text, ['Yes, full licence', 'Yes, probationary licence', 'No']))   # this licence line leaves full or probationary open
         self.no(ans(text, ['Yes - manual', 'Yes - automatic', 'No']))
         self.no(ans("Do you have a current Australian manual driver's licence?", YES_NO))
-        self.no(ans('Do you hold a valid driver’s license?', YES_NO))
+        self.ok(ans('Do you hold a valid driver’s license?', YES_NO), 'Yes', 'drivers_licence')   # one gate: any plain licence question
 
     def test_qualification(self):
         base = 'Have you completed a qualification in {}?'
@@ -270,7 +278,7 @@ class AnswerQuestionTests(unittest.TestCase):
         cad = 'Which of the following CAD software do you have experience with?'
         self.ok(ans(cad, ['AutoCAD', 'Revit', 'MicroStation', '12D', 'AutoCAD Civil 3D', 'Tekla', 'None of these']),
                 'AutoCAD; Revit; AutoCAD Civil 3D', 'software.CAD')
-        self.ok(ans(cad), FACTS['answers']['software']['CAD'], 'software.CAD')
+        self.ok(ans(cad), 'AutoCAD, Civil 3D, Revit', 'software.CAD')   # with no options: the names, not the rule
         self.no(ans(cad, ['12D', 'MicroStation', 'None of these']))
         office = ans('Which of the following Microsoft Office products are you experienced with?', ['Word', 'Excel', 'Outlook'])
         self.no(office)   # individual products are not confirmed
@@ -283,7 +291,6 @@ class AnswerQuestionTests(unittest.TestCase):
         for text, answer, key in (
                 ('Do you hold a Construction Induction Safety certificate (White Card)?', 'Yes', 'white_card'),
                 ('Are you willing to undergo a pre-employment medical check?', 'Yes', 'pre_employment_medical'),
-                ('Do you have a current Police Check (National Police Certificate) for employment?', 'Yes', 'police_check'),
                 ('Do you own or have regular access to a car?', 'Yes', 'own_car_or_regular_access'),
                 ('Are you willing to undergo pre-employment drug and alcohol screening?', 'Yes', 'drug_and_alcohol_screening'),
                 ('Are you currently studying?', 'No', 'currently_studying')):
@@ -291,8 +298,11 @@ class AnswerQuestionTests(unittest.TestCase):
             self.ok(ans(text), answer, key)
             self.no(ans(text, ['Maybe', 'Unsure']))
             self.no(ans(text, YES_NO, {'answers': {}}))
-        self.no(ans('Do you hold a current White Card / General Construction Induction Training Card?', YES_NO))
+        self.ok(ans('Do you hold a current White Card / General Construction Induction Training Card?', YES_NO), 'Yes', 'white_card')
+        # This police line says nothing about a check for employment or about obtaining one: both go to the owner (S1).
+        self.no(ans('Do you have a current Police Check (National Police Certificate) for employment?', YES_NO))
         self.no(ans('Are you willing to complete a Police Check?', YES_NO))
+        self.ok(ans('Do you have a current police check?', YES_NO), 'Yes', 'police_check')
 
     def test_english_rating_is_not_on_record(self):
         text = 'How would you rate your English language skills?'
@@ -304,8 +314,10 @@ class AnswerQuestionTests(unittest.TestCase):
 
     def test_unknown_questions_come_back_unanswered(self):
         for text in ('Tell us what motivated you to apply for this role?', 'Are you a current member of Engineers Australia?',
-                     'Are you willing to relocate for this role?', 'Where are you located?', '', None):
+                     'Where are you located?', '', None):   # 'Where are you located?' is free text only: no Yes/No option is his suburb
             self.no(ans(text, YES_NO))
+        self.ok(ans('Are you willing to relocate for this role?', YES_NO), 'Yes', 'willing_to_relocate')   # answers.py covers relocation
+        self.ok(ans('Where are you located?'), 'Melton VIC 3337', 'identity.location')
 
     def test_every_listed_question_against_the_real_facts_file(self):
         facts = q.read_json(SCRIPTS.parent / 'facts.json')
@@ -340,14 +352,20 @@ class QueueCase(unittest.TestCase):
         return q.add(e, self.dir, FACTS, kw.pop('now', NOW), **kw)
 
     def next(self, route='SEEK', now=NOW, by=None, prior=None):
-        return q.next_entry(route, self.dir, CONFIG, now, by, prior)
+        if route == 'EMAIL':   # the EMAIL route needs the runner's own send lock (the lock itself: test_queue_core.py)
+            by = by or 'tester'
+            q.write_json(self.dir / q.LOCK_FILE, {'by': by, 'run': '20261113T0100Z', 'taken_at': q.iso(now),
+                                                  'expires_at': q.iso(now + timedelta(minutes=30))})
+            return q.next_entry(route, self.dir, CONFIG, now, by, prior, run='20261113T0100Z')
+        return q.next_entry(route, self.dir, CONFIG, now, by, prior, run='20261113T0100Z' if by else None)
 
     def put(self, e):
         """Write an entry file without the checks of add, as a second runner's push or a hand edit would."""
         return q.save(self.dir, q.fill(e))
 
     def applied(self, entry_id, at, kind='seek_confirmation_screen'):
-        return q.mark(self.dir, entry_id, 'applied', 'grok', NOW, kind, 'ref-1', at, facts=FACTS)
+        ref = '18f3a6b2c4d5e6f7' if kind == 'gmail_message_id' else 'ref-1'   # a Gmail message id is 16 hex characters
+        return q.mark(self.dir, entry_id, 'applied', 'grok', NOW, kind, ref, at, facts=FACTS)
 
     def cli(self, *args, now=NOW):
         out, err = io.StringIO(), io.StringIO()
@@ -410,8 +428,10 @@ class AddTests(QueueCase):
         self.assertIn('seek-1.json: cannot be read as JSON', err)
 
     def test_invalid_entries_are_refused(self):
-        bad = [entry(1, lane='labourer'), entry(1, route='JORA'), entry(1, seek_id=''), entry(1, company=''), entry(1, url='seek'),
-               entry(1, closes_at='16 Nov 2026', closes_source='advert'), entry(1, closes_at='2026-11-16'),
+        # (a SEEK url gives the seek_id and a closing date alone is a listing expiry: test_queue_core.py)
+        bad = [entry(1, lane='labourer'), entry(1, route='JORA'), entry(1, seek_id='', url='https://jobs.example.com.au/1'),
+               entry(1, company=''), entry(1, url='seek'),
+               entry(1, closes_at='16 Nov 2026', closes_source='advert'), entry(1, closes_at='2026-11-16', closes_source='none'),
                entry(1, closes_source='advert'), entry(1, status='ASK_OWNER'), entry(1, status='HELD'), entry(1, fit=140),
                email_entry(1, email={'to': '', 'subject': 's', 'body': 'b', 'evidence_url': 'https://x.com.au'}),
                email_entry(1, email={'to': 'jobs@x.com.au', 'subject': 's', 'body': 'b', 'evidence_url': ''}),
@@ -505,10 +525,10 @@ class NextTests(QueueCase):
             with self.assertRaises(q.NothingToDo) as r:
                 self.next(route)
             self.assertIn(why, str(r.exception))
-        letter = self.file('letter.txt', 'A new short letter.\n')
+        letter = self.file('letter.txt', LETTER + '\n')
         self.assertEqual(self.cli('letter', 'seek-1', '--file', letter)[0], 0)
         e = self.next()
-        self.assertEqual((e['cover_letter_text'], e['notes']), ('A new short letter.', 'fit 70% under the old rubric'))
+        self.assertEqual((e['cover_letter_text'], e['notes']), (LETTER, 'fit 70% under the old rubric'))
         body = self.file('email.txt', 'Hello,\nMarc\n0478 764 077\n')
         e2 = q.find(self.dir, 'seek-1')[1]['id']
         self.assertEqual(e2, 'seek-1')
@@ -521,7 +541,7 @@ class NextTests(QueueCase):
         old_body = 'I have full working rights to December 2027 on a 485 visa. ' + 'word ' * 170
         e = self.add(email_entry(1, notes='letter written under the old rules: rewrite before use',
                                  email={'to': 'jobs@example1.com.au', 'subject': 'Old subject', 'body': old_body, 'evidence_url': 'https://example1.com.au/careers'}))
-        letter, body = self.file('letter.txt', 'A new short letter.'), self.file('email.txt', 'Hello,\nMarc')
+        letter, body = self.file('letter.txt', LETTER), self.file('email.txt', 'Hello,\nMarc')
         before = (self.dir / 'open' / f"{e['id']}.json").read_text(encoding='utf-8')
         for args in (('--file', letter), ('--file', letter, '--subject', 'New subject'), ('--file', letter, '--body-file', body)):
             code, _, err = self.cli('letter', e['id'], *args)
@@ -533,7 +553,7 @@ class NextTests(QueueCase):
         self.assertIn('letter to rewrite', str(r.exception))
         self.assertEqual(self.cli('letter', e['id'], '--file', letter, '--subject', 'New subject', '--body-file', body)[0], 0)
         out = self.next('EMAIL')
-        self.assertEqual((out['email']['subject'], out['email']['body'], out['cover_letter_text']), ('New subject', 'Hello,\nMarc', 'A new short letter.'))
+        self.assertEqual((out['email']['subject'], out['email']['body'], out['cover_letter_text']), ('New subject', 'Hello,\nMarc', LETTER))
 
     def test_text_that_breaks_the_writing_rules_is_held_however_the_mark_was_cleared(self):
         long_body = 'word ' * 131
@@ -544,30 +564,33 @@ class NextTests(QueueCase):
         self.add(entry(4, cover_letter_text='word ' * 201))
         with self.assertRaises(q.NothingToDo) as r:
             self.next('EMAIL')
-        for why in ('email is 131 words (limit 130)', 'letter says "open to discussing"', 'email says "to december 2027"'):
-            self.assertIn(why, str(r.exception))
+        for why in ('email too long: 131 words (limit 130)', 'letter volunteers a limit: "open to discussing"', 'email volunteers a limit: "to december 2027"'):
+            self.assertIn(why, str(r.exception))   # checks.py's own wording: one set of rules (checks.letter_issues, email_issues)
         with self.assertRaises(q.NothingToDo) as r:
             self.next('SEEK')
-        self.assertIn('seek-4: letter is 201 words (limit 200)', str(r.exception))
-        self.add(email_entry(5, cover_letter_text='word ' * 200, email={'to': 'jobs@example5.com.au', 'subject': 's', 'body': 'word ' * 130,
-                                                                        'evidence_url': 'https://example5.com.au'}))
+        self.assertIn('seek-4: letter too long: 201 words (limit 200)', str(r.exception))
+        at_limit = '\n\n'.join(['word ' * 67, 'word ' * 67, 'word ' * 66])
+        self.add(email_entry(5, cover_letter_text=at_limit, email={'to': 'jobs@example5.com.au', 'subject': 's', 'body': 'word ' * 130,
+                                                                     'evidence_url': 'https://example5.com.au'}))
         self.assertEqual(self.next('EMAIL')['company'], 'Acme 5')   # exactly at the limits is fine
-        self.assertEqual(q.next_entry('SEEK', self.dir, {'limits': CONFIG['limits']}, NOW)['id'], 'seek-4')   # no tone rules in the config: no check
+        with self.assertRaises(q.NothingToDo):   # a config with no tone block does not switch the checks off: config.json's rules apply
+            q.next_entry('SEEK', self.dir, {'limits': CONFIG['limits']}, NOW)
 
     def test_the_letter_command_refuses_text_that_breaks_the_writing_rules(self):
         self.add(entry(1))
-        too_long, dated = self.file('long.txt', 'word ' * 201), self.file('dated.txt', 'My visa expires in December 2027.')
+        dated_text = LETTER.replace('no sponsorship needed.', 'no sponsorship needed. My visa expires in December 2027.')
+        too_long, dated = self.file('long.txt', 'word ' * 201), self.file('dated.txt', dated_text)
         code, _, err = self.cli('letter', 'seek-1', '--file', too_long)
         self.assertEqual(code, 1)
-        self.assertIn('letter is 201 words (limit 200)', err)
+        self.assertIn('letter too long: 201 words (limit 200)', err)
         code, _, err = self.cli('letter', 'seek-1', '--file', dated)
         self.assertEqual(code, 1)
-        self.assertIn('letter says "expires"', err)
+        self.assertIn('letter volunteers a limit: "expires"', err)
         self.assertEqual(q.find(self.dir, 'seek-1')[1]['cover_letter_text'], '')
         # the advert asks for the visa end date: the phrase is allowed for this entry, by name
         self.assertEqual(self.cli('letter', 'seek-1', '--file', dated, '--allow', 'Expires')[0], 0)
         e = self.next()
-        self.assertEqual((e['tone_allow'], e['cover_letter_text']), (['expires'], 'My visa expires in December 2027.'))
+        self.assertEqual((e['tone_allow'], e['cover_letter_text']), (['expires'], dated_text))
 
     def test_an_email_address_with_no_source_is_held_until_it_has_one(self):
         e = self.put(email_entry(1, email={'to': 'admin@example1.com.au', 'subject': 's', 'body': 'Hello.', 'evidence_url': ''}))
@@ -575,7 +598,7 @@ class NextTests(QueueCase):
         with self.assertRaises(q.NothingToDo) as r:
             self.next('EMAIL')
         self.assertIn('email address has no evidence_url', str(r.exception))
-        letter = self.file('letter.txt', 'A letter.')
+        letter = self.file('letter.txt', LETTER)
         self.assertEqual(self.cli('letter', e.stem, '--file', letter, '--to', 'careers@example1.com.au', '--evidence-url', 'https://example1.com.au/careers')[0], 0)
         self.assertEqual(self.next('EMAIL')['email']['to'], 'careers@example1.com.au')
 
@@ -605,62 +628,71 @@ class NextTests(QueueCase):
         self.assertIn('same company and role as seek-1 (OPEN, SEEK)', str(r.exception))
         code, _, err = self.cli('add', self.file('twin.json', twin))
         self.assertEqual(code, 1)
-        self.assertIn('--repeat-ok REASON', err)
+        self.assertNotIn('repeat-ok', err)   # there is no way round it any more
         self.assertEqual(len(q.load(self.dir)), 1)
-        # a second vacancy with the same title is a decision someone makes and writes down
-        self.assertEqual(self.cli('add', self.file('twin.json', twin), '--repeat-ok', 'second vacancy, Adelaide office')[0], 0)
-        self.assertEqual(self.next('EMPLOYER_PORTAL')['repeat_ok'], 'second vacancy, Adelaide office')
+        with self.assertRaises(SystemExit):   # --repeat-ok is gone: argparse refuses it
+            self.cli('add', self.file('twin.json', twin), '--repeat-ok', 'second vacancy, Adelaide office')
+        self.assertEqual(len(q.load(self.dir)), 1)
 
     def test_two_runners_are_never_given_the_same_employer_at_once(self):
-        # the same job found twice with different wording, pushed by two runners: both files exist
+        # another job at the same employer, pushed by a second runner: both files exist (the same job twice stops next
+        # altogether until one is closed: test_queue_core.py)
         self.add(entry(1, company='Fyfe Pty Ltd', role='Graduate Civil Engineer (Property & Infrastructure)'))
-        self.put(entry(2, company='Fyfe', role='Graduate Civil Engineer', route='EMPLOYER_PORTAL', seek_id='', url='https://fyfe.careers-page.com/jobs/1'))
+        self.put(entry(2, company='Fyfe', role='Civil Designer', route='EMPLOYER_PORTAL', seek_id='', url='https://fyfe.careers-page.com/jobs/1'))
         self.assertEqual(self.next('SEEK', by='grok')['id'], 'seek-1')
         with self.assertRaises(q.NothingToDo) as r:
             self.next('EMPLOYER_PORTAL', by='claude')
         self.assertIn('seek-1 for the same employer is started by grok: settle it first', str(r.exception))
-        q.mark(self.dir, 'seek-1', 'failed', 'grok', NOW, note='the form would not load')   # known not to have gone
+        q.mark(self.dir, 'seek-1', 'failed', 'grok', NOW, note='the form would not load', run='20261113T0100Z')   # known not to have gone
         self.assertEqual(self.next('EMPLOYER_PORTAL')['company'], 'Fyfe')
 
-    def test_an_employer_applied_to_is_not_approached_again_for_90_days(self):
+    def test_an_employer_applied_to_is_approached_again_only_for_another_role(self):
         self.add(entry(1, company='Fyfe Pty Ltd', role='Graduate Civil Engineer (Property & Infrastructure)'))
-        self.put(email_entry(2, company='Fyfe', role='Graduate Civil Engineer'))   # same job, other wording, already in the queue
         self.applied('seek-1', '2026-11-13T00:30:00Z')
-        with self.assertRaises(q.NothingToDo) as r:
-            self.next('EMAIL')
-        self.assertIn('applied to this employer on 2026-11-13 (seek-1): no repeat within 90 days', str(r.exception))
-        with self.assertRaises(q.Refused) as r:   # and a new one is not accepted
-            self.add(email_entry(3, company='FYFE Australia', role='Civil Designer'))
-        self.assertIn('applied to this employer on 2026-11-13 (seek-1)', str(r.exception))
-        self.assertEqual(self.add(email_entry(4, company='Fyfe', role='Civil Designer', repeat_ok='owner: a different team asked him to apply'))['status'], 'OPEN')
-        self.assertEqual(self.next('EMAIL')['role'], 'Civil Designer')
-        q.mark(self.dir, self.next('EMAIL')['id'], 'skipped', 'test', NOW, note='test')
-        self.assertEqual(self.next('EMAIL', now=NOW + timedelta(days=91))['role'], 'Graduate Civil Engineer')   # after the block, another role may go
+        self.put(email_entry(2, company='Fyfe', role='Graduate Civil Engineer'))   # the same job, other wording
+        for now in (NOW, NOW + timedelta(days=91)):   # for ever, not only for 90 days
+            with self.assertRaises(q.NothingToDo) as r:
+                self.next('EMAIL', now=now)
+            self.assertIn('already applied for this company and role (seek-1)', str(r.exception))
+        # another role at that employer is allowed, and next names the earlier application in the notes
+        self.assertEqual(self.add(email_entry(3, company='FYFE Australia', role='Civil Designer'))['status'], 'OPEN')
+        got = self.next('EMAIL')
+        self.assertEqual(got['role'], 'Civil Designer')
+        self.assertIn('Earlier application at this employer, for another role or outside the repeat block: '
+                      'seek-1 (Graduate Civil Engineer (Property & Infrastructure), APPLIED 2026-11-13).', got['notes'])
         self.assertEqual(self.add(email_entry(5, company='Fyfe & Sons Drafting'))['status'], 'OPEN')   # another company that starts the same
 
-    def test_applications_made_outside_the_queue_block_the_employer(self):
+    def test_applications_made_outside_the_queue_block_the_same_role_for_90_days(self):
         prior = [{'date': '2026-09-25', 'company': 'Australian Ground Technologies', 'role': 'Junior Civil Engineer – Retaining Walls'},
+                 {'date': '2026-10-20', 'company': 'Gamuda', 'role': 'employer portal application receipt (position name blank in the email)'},
                  {'date': '2026-02-18', 'company': 'Old Civil Pty Ltd', 'role': 'Graduate Engineer'}]
         # the advert of 28 Oct 2026 names the company with its trading name in brackets
         for company in ('AGT Operations Pty Ltd (Australian Ground Technologies)', 'Australian Ground Technologies Pty Ltd'):
             with self.assertRaises(q.Refused) as r:
-                self.add(entry(1, company=company, role='Junior Civil Engineer'), prior=prior)
-            self.assertIn('applied to this employer on 2026-09-25 (prior_outreach.json): no repeat within 90 days', str(r.exception))
-        self.add(entry(2, company='Old Civil'), prior=prior)   # more than 90 days ago
+                self.add(entry(1, company=company, role='Civil Engineer - Retaining Walls'), prior=prior)
+            self.assertIn('applied for this company and role on 2026-09-25 (prior_outreach.json): no repeat within 90 days', str(r.exception))
+        with self.assertRaises(q.Refused) as r:   # a record that does not say which role blocks every role there
+            self.add(entry(1, company='Gamuda', role='Civil Designer'), prior=prior)
+        self.assertIn('applied to this employer on 2026-10-20 (prior_outreach.json) and the record does not say for which role', str(r.exception))
+        self.add(entry(2, company='Old Civil', role='Graduate Engineer'), prior=prior)   # the same role, more than 90 days ago
         self.assertEqual(self.next(prior=prior)['id'], 'seek-2')
-        self.put(entry(3, company='Australian Ground Technologies', role='Site Engineer', lane='drafter', listed_at='2026-11-12'))
+        self.put(entry(3, company='Australian Ground Technologies', role='Civil Engineer - Retaining Walls', listed_at='2026-11-12'))
         with self.assertRaises(q.NothingToDo):
-            self.next(prior=prior + [{'date': '2026-11-01', 'company': 'Old Civil Pty Ltd', 'role': 'x'}])
+            self.next(prior=prior + [{'date': '2026-11-01', 'company': 'Old Civil Pty Ltd', 'role': 'Graduate Engineer'}])
         self.assertEqual(self.next(prior=prior)['id'], 'seek-2')   # the one already in the queue is passed over
         self.assertEqual(self.next(now=NOW + timedelta(days=60), prior=prior)['id'], 'seek-3')   # 25 Sep plus 90 days has passed
+        # another role at the employer may go: next names the earlier application
+        self.add(entry(5, company='Australian Ground Technologies', role='Junior Civil Drafter', listed_at='2026-11-13'), prior=prior)
+        self.assertIn('prior_outreach.json (Junior Civil Engineer – Retaining Walls, 2026-09-25)', self.next(prior=prior)['notes'])
+        q.mark(self.dir, 'seek-5', 'skipped', 'test', NOW, note='test')
         # the command line reads the file named by --prior
         q.write_json(self.prior, {'entries': prior})
-        code, _, err = self.cli('add', self.file('agt.json', entry(4, company='Australian Ground Technologies')))
+        code, _, err = self.cli('add', self.file('gamuda.json', entry(4, company='Gamuda Australia', role='Civil Designer')))
         self.assertEqual(code, 1)
         self.assertIn('prior_outreach.json', err)
         self.assertEqual(json.loads(self.cli('next', '--route', 'SEEK')[1])['id'], 'seek-2')
         self.cli('render')
-        self.assertIn('applied to this employer on 2026-09-25', (self.dir / 'APPLY_QUEUE.md').read_text(encoding='utf-8'))
+        self.assertIn('applied for this company and role on 2026-09-25', (self.dir / 'APPLY_QUEUE.md').read_text(encoding='utf-8'))
         self.prior.unlink()   # without the file the check cannot be made: refused, not skipped
         code, _, err = self.cli('next', '--route', 'SEEK')
         self.assertEqual(code, 1)
@@ -672,19 +704,20 @@ class NextTests(QueueCase):
         self.add(entry(2, listed_at='2026-11-01'))
         first = self.next(by='grok')
         self.assertEqual((first['id'], first['attempts'][-1]['result'], first['attempts'][-1]['by']), ('seek-1', 'started', 'grok'))
-        self.assertEqual(self.next(by='grok')['id'], 'seek-2')
+        later = NOW + timedelta(minutes=21)   # an unmarked start counts for the SEEK spacing (test_queue_core.py)
+        self.assertEqual(self.next(now=later, by='grok')['id'], 'seek-2')
         with self.assertRaises(q.NothingToDo) as r:
-            self.next(by='grok')
+            self.next(now=later + timedelta(minutes=21), by='grok')
         self.assertIn('started by grok, no result recorded', str(r.exception))
-        q.mark(self.dir, 'seek-1', 'failed', 'grok', NOW, note='the form would not load, nothing was submitted')
-        self.assertEqual(self.next()['id'], 'seek-1')   # a failure known not to have submitted frees it for another try
+        q.mark(self.dir, 'seek-1', 'failed', 'grok', NOW, note='the form would not load, nothing was submitted', run='20261113T0100Z')
+        self.assertEqual(self.next(now=later + timedelta(minutes=21))['id'], 'seek-1')   # a failure known not to have submitted frees it for another try
 
     def test_cli_next_prints_the_entry_or_exits_4(self):
         code, out, err = self.cli('next', '--route', 'SEEK')
         self.assertEqual((code, out), (4, ''))
         self.assertIn('nothing to hand out', err)
         self.add(entry(1))
-        code, out, err = self.cli('next', '--route', 'SEEK', '--by', 'grok')
+        code, out, err = self.cli('next', '--route', 'SEEK', '--by', 'grok', '--run', '20261113T0100Z')
         self.assertEqual(code, 0)
         self.assertEqual(json.loads(out)['id'], 'seek-1')
 
@@ -769,8 +802,12 @@ class MarkTests(QueueCase):
         q.write_json(path, e)
         self.assertEqual(self.cli('check')[0], 1)
         code, _, err = self.cli('mark', 'seek-1', 'applied', '--by', 'grok', '--kind', 'seek_confirmation_screen', '--ref', 'call 0412 345 678')
-        self.assertEqual(code, 1)   # but a fault the mark itself brings is still refused
-        self.assertIn('privacy: phone number', err)
+        self.assertEqual(code, 1)   # but a fault the mark itself brings is still refused (since 14 Nov 2026 the ref filter sees it first)
+        self.assertIn('not saved: --ref holds a number of 3 or more digits', err)
+        code, _, err = self.cli('mark', 'seek-1', 'applied', '--by', 'grok', '--kind', 'seek_confirmation_screen', '--ref', 'Application sent',
+                                '--note', 'recruiter asked to call 0412 345 678')
+        self.assertEqual(code, 1)
+        self.assertIn('not saved: the note holds a phone number', err)
         self.assertEqual(self.cli('mark', 'seek-1', 'applied', '--by', 'grok', '--kind', 'seek_confirmation_screen', '--ref', 'Application sent')[0], 0)
         self.assertEqual(q.stats(self.dir, NOW)['applied_total'], 1)
 
@@ -808,33 +845,37 @@ class MarkTests(QueueCase):
         self.cli('mark', 'seek-1', 'failed', '--by', 'grok', '--note', 'timeout again')
         self.assertEqual(q.find(self.dir, 'seek-1')[1]['status'], 'OPEN')
 
-    def test_uncertain_holds_the_entry_and_its_twins_until_someone_checks(self):
+    def test_uncertain_holds_the_entry_and_its_role_until_someone_checks(self):
         e = self.add(email_entry(1))
         self.put(entry(2, company='Acme 1 Pty Ltd', role='Civil Designer'))   # another advert of the same employer
         self.next('EMAIL', by='gmail')
         code, out, _ = self.cli('mark', e['id'], 'uncertain', '--by', 'gmail', '--note', 'send call timed out')
-        self.assertEqual(code, 0)
+        self.assertEqual((code, out.strip()), (0, f"{e['id']}: UNCERTAIN"))
         stored = q.find(self.dir, e['id'])[1]
-        self.assertEqual((stored['status'], stored['attempts'][-1]['result']), ('ASK_OWNER', 'uncertain'))
-        self.assertEqual(stored['ask_owner'], 'Unknown whether the application to Acme 1 went (send call timed out). Check Gmail Sent before any retry: did it go?')
+        self.assertEqual((stored['status'], stored['ask_owner'], stored['attempts'][-1]['result']), ('UNCERTAIN', '', 'uncertain'))
+        self.assertTrue((self.dir / 'open' / f"{e['id']}.json").exists())
         with self.assertRaises(q.NothingToDo):   # not retried a minute later
             self.next('EMAIL', now=NOW + timedelta(minutes=1), by='gmail')
-        with self.assertRaises(q.NothingToDo) as r:
-            self.next('SEEK')
-        self.assertIn(f"{e['id']} for the same employer is unresolved: settle it first", str(r.exception))
-        self.assertEqual(self.cli('mark', e['id'], 'uncertain', '--by', 'gmail')[0], 1)   # needs the note
-        # checked: it is in Sent, so it is recorded as applied; had it not gone, "mark ID open" would release it
-        self.assertEqual(self.cli('mark', e['id'], 'applied', '--by', 'claude', '--kind', 'gmail_message_id', '--ref', '18f3a')[0], 0)
-        with self.assertRaises(q.NothingToDo) as r:
-            self.next('SEEK')
-        self.assertIn('applied to this employer on 2026-11-13', str(r.exception))
+        with self.assertRaises(q.Refused) as r:   # the same role again is blocked, as after an application
+            self.add(entry(4, company='Acme 1', role='Civil Drafter'))
+        self.assertIn(f"{e['id']} for this company and role is UNCERTAIN", str(r.exception))
+        self.assertIn(e['id'], self.next('SEEK')['notes'])   # another role may go, like after an application
+        self.assertEqual(self.cli('mark', e['id'], 'uncertain', '--by', 'gmail')[0], 1)
+        # checked: it is in Sent, so it is recorded as applied; had it not gone, "mark ID open --note 'checked: ...'" releases it
+        self.assertEqual(self.cli('mark', e['id'], 'applied', '--by', 'claude', '--kind', 'gmail_message_id', '--ref', '18f3a6b2c4d5e6f7')[0], 0)
+        with self.assertRaises(q.Refused) as r:
+            self.add(entry(4, company='Acme 1', role='Civil Drafter'))
+        self.assertIn(f"already applied for this company and role ({e['id']})", str(r.exception))
 
     def test_uncertain_then_open_releases_the_entry(self):
         self.add(entry(1))
         self.next(by='grok')
         self.assertEqual(self.cli('mark', 'seek-1', 'uncertain', '--by', 'grok', '--note', 'browser closed on submit')[0], 0)
-        self.assertIn('Check the applied jobs list on SEEK', q.find(self.dir, 'seek-1')[1]['ask_owner'])
-        self.assertEqual(self.cli('mark', 'seek-1', 'open', '--by', 'grok', '--note', 'not in the applied list')[0], 0)
+        self.assertEqual(q.find(self.dir, 'seek-1')[1]['status'], 'UNCERTAIN')
+        code, _, err = self.cli('mark', 'seek-1', 'open', '--by', 'grok', '--note', 'not in the applied list')
+        self.assertEqual(code, 1)   # an UNCERTAIN entry opens only with a note that starts "checked:"
+        self.assertIn('the applied jobs list on SEEK', err)
+        self.assertEqual(self.cli('mark', 'seek-1', 'open', '--by', 'grok', '--note', 'checked: not in the applied list')[0], 0)
         self.assertEqual(self.next()['id'], 'seek-1')
 
     def test_failed_final_closes_the_entry(self):
@@ -848,7 +889,11 @@ class MarkTests(QueueCase):
         self.assertEqual(self.cli('mark', 'seek-2', 'ask', '--by', 'grok', '--question', 'The form asks for a start date: which date?')[0], 0)
         e = q.find(self.dir, 'seek-2')[1]
         self.assertEqual((e['status'], e['ask_owner'], e['attempts'][-1]['result']), ('ASK_OWNER', 'The form asks for a start date: which date?', 'asked_owner'))
-        self.assertEqual(self.cli('mark', 'seek-2', 'open', '--by', 'claude')[0], 0)
+        code, _, err = self.cli('mark', 'seek-2', 'open', '--by', 'claude')   # R5: an owner question is reopened only with his answer
+        self.assertEqual(code, 1)
+        self.assertIn('waits on the owner', err)
+        self.assertEqual(self.cli('mark', 'seek-2', 'open', '--by', 'claude', '--note', 'owner: start two weeks after an offer, 14 Nov')[0], 0)
+        self.assertIn('(question was: The form asks for a start date: which date?)', q.find(self.dir, 'seek-2')[1]['attempts'][-1]['note'])
         self.assertEqual(self.next()['id'], 'seek-2')
         code, _, err = self.cli('mark', 'seek-1', 'open', '--by', 'claude')   # cannot be opened past an unanswered question
         self.assertEqual(code, 1)
@@ -912,98 +957,38 @@ class AnswerCommandTests(QueueCase):
     def test_a_question_seen_on_the_form_is_added_with_its_options(self):
         self.add(entry(1, questions=[RTW]))
         code, out, _ = self.cli('answer', 'seek-1', '--question', RTW, *[x for o in RIGHT_TO_WORK for x in ('--option', o)])
-        self.assertEqual(json.loads(out)['questions'][0]['answer'], 'I have a graduate temporary work visa')
-        code, out, _ = self.cli('answer', 'seek-1', '--question', 'Do you have Traffic Control experience?', '--option', 'Yes', '--option', 'No')
-        shown = json.loads(out)
-        self.assertEqual(shown['status'], 'ASK_OWNER')
-        self.assertEqual(shown['ask_owner'], 'No standing answer for this form question: Do you have Traffic Control experience? (options: Yes / No)')
-        self.assertEqual(len(shown['questions']), 2)
+        self.assertEqual((code, out), (0, 'I have a graduate temporary work visa\n'))   # the option to choose, word for word
+        self.assertEqual(q.find(self.dir, 'seek-1')[1]['questions'][0]['answer'], 'I have a graduate temporary work visa')
+        code, out, err = self.cli('answer', 'seek-1', '--question', 'Do you have Traffic Control experience?', '--option', 'Yes', '--option', 'No')
+        self.assertEqual((code, out), (5, ''))
+        self.assertIn('do not submit; leave the form', err)
+        e = q.find(self.dir, 'seek-1')[1]
+        self.assertEqual(e['status'], 'ASK_OWNER')
+        self.assertEqual(e['ask_owner'], 'No standing answer for this form question: Do you have Traffic Control experience? (options: Yes / No)')
+        self.assertEqual(len(e['questions']), 2)
         with self.assertRaises(q.NothingToDo):
             self.next()
 
-    def test_a_runner_may_set_an_answer_only_with_a_facts_key(self):
+    def test_answers_cannot_be_set_by_hand(self):   # S7: --set and --basis are gone; owner answers go into facts.json
         self.add(entry(1, questions=['Where are you located?']))
-        ask = ('answer', 'seek-1', '--question', 'Where are you located?', '--set', 'Melton VIC 3337')
-        self.assertEqual(self.cli(*ask)[0], 1)
-        self.assertEqual(self.cli(*ask, '--by', 'grok', '--basis', 'identity.suburb')[0], 1)   # no such key
-        code, out, _ = self.cli(*ask, '--by', 'grok', '--basis', 'identity.location')
-        shown = json.loads(out)
-        self.assertEqual((code, shown['status']), (0, 'OPEN'))
-        self.assertEqual(shown['questions'][0]['by'], 'grok')
-        self.assertEqual(json.loads(self.cli('answer', 'seek-1')[1])['questions'][0]['answer'], 'Melton VIC 3337')   # kept on recompute
-        moved = json.loads(json.dumps(FACTS))   # the fact changes: the old answer no longer stands and goes back to the owner
-        moved['identity']['location'] = 'Ballarat VIC 3350'
-        q.write_json(self.facts, moved)
-        self.assertEqual(self.cli('check')[0], 1)
-        shown = json.loads(self.cli('answer', 'seek-1')[1])
-        self.assertEqual((shown['status'], shown['questions'][0]['status'], 'by' in shown['questions'][0]), ('ASK_OWNER', 'unanswered', False))
-        q.write_json(self.facts, FACTS)
-        code, _, err = self.cli('answer', 'seek-1', '--question', 'Which suburb do you live in?', '--option', 'Melbourne', '--option', 'Melton',
-                                '--set', 'Melton VIC 3337', '--by', 'grok', '--basis', 'identity.location')
-        self.assertEqual(code, 1)
-        self.assertIn('must be one of the options', err)
+        for extra in (('--set', 'Melton VIC 3337'), ('--basis', 'identity.location')):
+            with self.assertRaises(SystemExit) as stop, contextlib.redirect_stderr(io.StringIO()):
+                q.main(['--dir', str(self.dir), '--config', str(self.config), '--facts', str(self.facts), '--prior', str(self.prior),
+                        'answer', 'seek-1', '--question', 'Where are you located?', *extra, '--by', 'grok'])
+            self.assertEqual(stop.exception.code, 2)
+        self.assertEqual(q.find(self.dir, 'seek-1')[1]['questions'][0]['answer'], 'Melton VIC 3337')   # the gate's own free-text answer
 
-    def set(self, question, answer, basis, *options):
-        return self.cli('answer', 'seek-1', '--question', question, *[x for o in options for x in ('--option', o)],
-                        '--set', answer, '--basis', basis, '--by', 'grok')
-
-    def test_a_set_answer_must_be_the_fact_itself(self):
-        self.add(entry(1, questions=['How many years of Road Construction experience do you have?']))
-        path = self.dir / 'open' / 'seek-1.json'
-        before = path.read_text(encoding='utf-8')
-        road = 'How many years of Road Construction experience do you have?'
-        refused = [
-            (road, '5 years', 'identity.name'),                                   # a key that has nothing to do with the answer
-            (road, '10 years', 'answers'),                                        # a whole block
-            (road, '10 years', 'answers.right_to_work'),
-            (road, '', 'identity.name'),
-            ('How would you describe your English?', 'Fluent', 'answers.english_self_rating'),   # facts.json says not on record
-            ('Do you hold a full manual licence?', 'Yes, full licence', 'answers.drivers_licence'),   # more than the fact says
-            ('What software do you use?', '12d', 'answers.software.CAD'),         # named there only as never to tick
-            ('What is your visa status?', "I'm an Australian citizen", 'answers.right_to_work.free_text'),
-            ('What is your visa status?', 'I require sponsorship', 'answers.right_to_work.free_text'),
-            ('Are you an Australian citizen or permanent resident?', 'Yes', 'answers.white_card'),   # work rights from an unrelated key
-            ('Do you have the right to work in Australia?', 'Yes', 'eligibility.work_rights'),       # no standing Yes on record
-        ]
-        for question, answer, basis in refused:
-            code, out, err = self.set(question, answer, basis)
-            self.assertEqual((code, out), (1, ''), (question, answer, basis))
-            self.assertIn('not set: ', err)
-        self.assertEqual(path.read_text(encoding='utf-8'), before)   # still ASK_OWNER, nothing written
-        self.assertEqual(q.find(self.dir, 'seek-1')[1]['status'], 'ASK_OWNER')
-
-    def test_a_listed_question_cannot_be_set_by_hand(self):
+    def test_an_answer_written_into_the_file_by_hand_does_not_survive(self):
         self.add(entry(1, questions=[RTW, 'How would you rate your English language skills?']))
-        for question, answer, basis, options in (
-                (RTW, "I'm an Australian citizen", 'answers.right_to_work.choose', ["I'm an Australian citizen", 'I have a graduate temporary work visa']),
-                (RTW, 'I have a graduate temporary work visa', 'answers.right_to_work.choose', []),
-                ('How would you rate your English language skills?', 'Fluent', 'identity.name', []),   # the owner has not answered it
-                ('Are you currently studying?', 'Yes', 'answers.white_card', ['Yes', 'No'])):
-            code, _, err = self.set(question, answer, basis, *options)
-            self.assertEqual(code, 1, question)
-            self.assertIn('one of the listed questions', err)
         e = q.find(self.dir, 'seek-1')[1]
-        self.assertEqual((e['status'], [x['status'] for x in e['questions']]), ('ASK_OWNER', ['answered', 'unanswered']))
-        # an answer written into the file by hand does not survive either
         e['questions'][1].update({'answer': 'Fluent', 'basis': 'identity.name', 'status': 'answered', 'by': 'grok'})
         q.write_json(self.dir / 'open' / 'seek-1.json', e)
         code, out, _ = self.cli('check')
         self.assertEqual(code, 1)
         self.assertIn('the answer grok set does not stand', out)
-        self.assertEqual(json.loads(self.cli('answer', 'seek-1')[1])['questions'][1]['status'], 'unanswered')
-
-    def test_set_answers_that_follow_from_the_facts_are_taken(self):
-        self.add(entry(1, questions=['Which suburb do you live in?', 'Are you willing to relocate for this role?', 'When can you start?',
-                                     'What is your visa status?', 'Do you need sponsorship?']))
-        for question, answer, basis, options in (
-                ('Which suburb do you live in?', 'Melton', 'identity.location', ['Melton', 'Melbourne']),          # part of an identity value
-                ('Are you willing to relocate for this role?', 'Yes', 'answers.willing_to_relocate', ['Yes', 'No']),   # the value starts with Yes
-                ('When can you start?', 'Can start two weeks after an offer', 'eligibility.availability', []),     # one item of a list
-                ('What is your visa status?', FACTS['answers']['right_to_work']['free_text'], 'answers.right_to_work.free_text', [])):
-            code, _, err = self.set(question, answer, basis, *options)
-            self.assertEqual(code, 0, err)
-        self.assertEqual(q.find(self.dir, 'seek-1')[1]['status'], 'ASK_OWNER')   # one question is still the owner's
-        self.assertEqual(self.set('Do you need sponsorship?', 'No sponsorship needed', 'answers.right_to_work.free_text')[0], 1)   # not the whole value
+        code, out, _ = self.cli('answer', 'seek-1')
+        self.assertEqual((code, json.loads(out)['questions'][1]['status']), (5, 'unanswered'))
+        self.assertNotIn('by', q.find(self.dir, 'seek-1')[1]['questions'][1])
         self.assertEqual(self.cli('check')[0], 0)
 
     def test_answer_does_not_write_private_details_into_the_queue(self):
@@ -1012,14 +997,14 @@ class AnswerCommandTests(QueueCase):
         before = path.read_text(encoding='utf-8')
         for args in (('--question', 'Please call 0412 345 678 to confirm?'),
                      ('--question', 'Confirm your details', '--option', 'Licence number: 012345678', '--option', 'Other'),
-                     ('--question', 'Is your date of birth: 3 March 1996?'),
-                     ('--question', 'Referee name and phone?', '--set', 'Jane Citizen 0412 345 678, Licence number: 012345678, date of birth 03/03/1996',
-                      '--basis', 'identity.name', '--by', 'grok')):
+                     ('--question', 'Is your date of birth: 3 March 1996?')):
             code, out, err = self.cli('answer', 'seek-1', *args)
             self.assertEqual((code, out), (1, ''), args)
-            self.assertTrue('privacy' in err or 'not set' in err, err)
+            self.assertRegex(err, 'privacy|the (question|option) holds', args)
         self.assertEqual(path.read_text(encoding='utf-8'), before)
-        self.assertEqual(self.cli('answer', 'seek-1', '--question', 'What is your date of birth? (DD/MM)')[0], 0)   # asking is not telling
+        code, _, _ = self.cli('answer', 'seek-1', '--question', 'What is your date of birth? (DD/MM)')   # asking is not telling
+        self.assertEqual(code, 5)   # stored for the owner: only he answers it
+        self.assertEqual(q.find(self.dir, 'seek-1')[1]['questions'][1]['question'], 'What is your date of birth? (DD/MM)')
 
     def test_finished_entries_are_not_changed(self):
         self.add(entry(1, questions=[RTW]))
@@ -1031,6 +1016,7 @@ class AnswerCommandTests(QueueCase):
             self.assertIn('seek-1 is already APPLIED', err)
         self.add(entry(2))
         self.assertEqual(self.cli('answer', 'seek-2', '--option', 'Yes')[0], 1)   # options belong to a question
+        self.assertEqual(self.cli('answer')[0], 1)   # an entry id, or a question
 
     def test_an_owner_question_put_there_for_another_reason_stays(self):
         self.add(entry(1, status='ASK_OWNER', ask_owner='Would you enrol in an Associate Degree for this cadetship?', questions=[RTW]))
@@ -1082,9 +1068,9 @@ class ReportTests(QueueCase):
         self.assertEqual(code, 0)
         self.assertEqual(json.loads(out), {
             'queue_open': {'SEEK': 2, 'EMAIL': 1, 'EMPLOYER_PORTAL': 0, 'EMPLOYER_FORM': 0, 'total': 3},
-            'applied_last_7_days': 1, 'applied_total': 2, 'expired_unsubmitted_total': 1, 'ask_owner_open': 2,
+            'applied_last_7_days': 1, 'applied_total': 2, 'expired_unsubmitted_total': 1, 'ask_owner_open': 2, 'uncertain': 0,
             'open_with_letter_to_rewrite': 0})
-        self.assertIn('queue_open: SEEK 2, EMAIL 1, EMPLOYER_PORTAL 0, EMPLOYER_FORM 0, total 3', self.cli('stats')[1])
+        self.assertIn('waiting (OPEN, ready or held), queue_open: SEEK 2, EMAIL 1, EMPLOYER_PORTAL 0, EMPLOYER_FORM 0, total 3', self.cli('stats')[1])
 
     def test_list(self):
         self.build()
@@ -1116,9 +1102,12 @@ class ReportTests(QueueCase):
         code, out, _ = self.cli('check')
         self.assertEqual(code, 1)
         self.assertIn('same company and role as', out)
+        self.assertIn('both waiting: mark one of them skipped', out)
         e = q.read_json(twin)
-        e['repeat_ok'] = 'second vacancy'
+        e['repeat_ok'] = 'second vacancy'   # no longer a way round it
         q.write_json(twin, e)
+        self.assertEqual(self.cli('check')[0], 1)
+        self.assertEqual(self.cli('mark', e['id'], 'skipped', '--by', 'claude', '--reason', 'the same job as seek-1')[0], 0)
         self.assertEqual(self.cli('check')[0], 0)
 
     def test_render_shows_a_closing_time_and_every_open_question(self):
