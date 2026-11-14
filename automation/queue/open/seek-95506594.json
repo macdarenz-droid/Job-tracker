@@ -2,6 +2,7 @@
  "id": "seek-95506594",
  "lane": "drafter",
  "route": "SEEK",
+ "application_type": "ADVERTISED_VACANCY",
  "company": "LC Water",
  "role": "Junior Civil Draftsperson",
  "location": "Norlane, Geelong VIC",
@@ -31,7 +32,7 @@
   {
    "question": "Which of the following CAD software do you have experience with?",
    "options": [],
-   "answer": "AutoCAD, Civil 3D and Revit only. Never tick 12d, MicroStation, OpenRoads, Tekla, SIDRA or anything else.",
+   "answer": "AutoCAD, Civil 3D, Revit",
    "basis": "answers.software.CAD",
    "status": "answered"
   },

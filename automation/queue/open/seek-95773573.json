@@ -2,6 +2,7 @@
  "id": "seek-95773573",
  "lane": "engineer",
  "route": "SEEK",
+ "application_type": "ADVERTISED_VACANCY",
  "company": "Bench Excavation and Civil Construction Pty Ltd (BenchHDC)",
  "role": "Civil Engineer / Graduate",
  "location": "Port Adelaide, Adelaide SA",
@@ -24,23 +25,23 @@
   {
    "question": "Which of the following statements best describes your right to work in Australia?",
    "options": [],
-   "answer": "The option that names a graduate temporary work visa (Subclass 485). If the list has no such option, choose the temporary visa option that has no restriction on hours or industry.",
-   "basis": "answers.right_to_work.choose",
+   "answer": "Subclass 485 Temporary Graduate visa with full working rights until December 2027. No sponsorship needed.",
+   "basis": "answers.right_to_work.free_text",
    "status": "answered"
   },
   {
    "question": "What's your expected annual base salary?",
    "options": [],
-   "answer": "If the advert states pay, choose the band that contains the advertised figure (the lower end when it is a range). If the advert states no pay, choose $65,000 to $75,000. Single figure when the advert states no pay: 70000.",
+   "answer": "80000",
    "basis": "answers.expected_salary.rule",
    "status": "answered"
   },
   {
    "question": "How many years' experience do you have as an Engineer Graduate?",
    "options": [],
-   "answer": "",
-   "basis": "",
-   "status": "unanswered"
+   "answer": "Less than 1 year (11 months, April 2019 to February 2020)",
+   "basis": "answers.years_of_experience.civil engineer, site engineer, project engineer, construction industry",
+   "status": "answered"
   },
   {
    "question": "How much notice are you required to give your current employer?",
@@ -57,12 +58,13 @@
    "status": "answered"
   }
  ],
- "status": "ASK_OWNER",
- "ask_owner": "No standing answer for this form question: How many years' experience do you have as an Engineer Graduate?",
+ "status": "OPEN",
+ "ask_owner": "",
  "attempts": [],
  "receipt": {},
  "created_by": "import_backlog.py",
  "created_at": "2026-11-13T00:40:00Z",
  "source_run": "20261109T1818Z",
- "notes": "letter written under the old rules: rewrite before use\nImported from the backlog of 2026-11-13 (old status READY_SEEK). Fit 66% is from the old rubric.\nThe advert asks for a civil engineering degree or an equivalent recognised in Australia."
+ "notes": "letter written under the old rules: rewrite before use\nImported from the backlog of 2026-11-13 (old status READY_SEEK). Fit 66% is from the old rubric.\nThe advert asks for a civil engineering degree or an equivalent recognised in Australia.",
+ "advert_pay": "$80,000 – $100,000 per year"
 }

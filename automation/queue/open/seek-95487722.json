@@ -2,6 +2,7 @@
  "id": "seek-95487722",
  "lane": "drafter",
  "route": "SEEK",
+ "application_type": "ADVERTISED_VACANCY",
  "company": "Newton Denny Chapelle",
  "role": "Civil Engineer / Design Engineer",
  "location": "Lismore or Casuarina, Northern Rivers NSW",
@@ -24,8 +25,8 @@
   {
    "question": "Which of the following statements best describes your right to work in Australia?",
    "options": [],
-   "answer": "The option that names a graduate temporary work visa (Subclass 485). If the list has no such option, choose the temporary visa option that has no restriction on hours or industry.",
-   "basis": "answers.right_to_work.choose",
+   "answer": "Subclass 485 Temporary Graduate visa with full working rights until December 2027. No sponsorship needed.",
+   "basis": "answers.right_to_work.free_text",
    "status": "answered"
   },
   {

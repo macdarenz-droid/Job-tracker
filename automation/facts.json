@@ -193,7 +193,7 @@
   "drivers_licence": "Yes, full Victorian driver's licence. If the form asks manual or automatic: automatic. Never tick manual.",
   "own_car_or_regular_access": "Yes",
   "white_card": "Yes",
-  "police_check": "Yes, he holds an AFP National Police Check certificate issued in March 2026. If the form asks for the issue date: March 2026. If it asks whether the check was issued for employment, or within the last 3 or 6 months: No, and where free text is offered: 'Willing to obtain a new check.' From March 2027 the answer to any police check question becomes: No, willing to obtain one.",
+  "police_check": "Yes (AFP National Police Check certificate, March 2026). If the form asks for the issue date: March 2026. If it asks whether it was issued for employment, or within the last 3 or 6 months: answer truthfully (No) and add, where free text is offered, 'Willing to obtain a new check.' From March 2027 the answer becomes: No, willing to obtain one.",
   "pre_employment_medical": "Yes",
   "drug_and_alcohol_screening": "Yes",
   "currently_studying": "No",

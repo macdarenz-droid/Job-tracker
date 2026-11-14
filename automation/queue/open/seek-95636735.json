@@ -2,6 +2,7 @@
  "id": "seek-95636735",
  "lane": "drafter",
  "route": "SEEK",
+ "application_type": "ADVERTISED_VACANCY",
  "company": "PROTERRA Group",
  "role": "Civil Designer",
  "location": "Toowoomba, Toowoomba & Darling Downs QLD",
@@ -24,34 +25,34 @@
   {
    "question": "What qualifications do you currently hold?",
    "options": [],
-   "answer": "",
-   "basis": "",
-   "status": "unanswered"
+   "answer": "Advanced Diploma of Civil Construction Design, 2026; Bachelor of Science in Civil Engineering (BSCE), 2019",
+   "basis": "education",
+   "status": "answered"
   },
   {
    "question": "Where are you located?",
    "options": [],
-   "answer": "",
-   "basis": "",
-   "status": "unanswered"
+   "answer": "Melton VIC 3337",
+   "basis": "identity.location",
+   "status": "answered"
   },
   {
    "question": "What is your estimated start date?",
    "options": [],
-   "answer": "",
-   "basis": "",
-   "status": "unanswered"
+   "answer": "Two weeks after an offer",
+   "basis": "eligibility.availability",
+   "status": "answered"
   },
   {
    "question": "How many years experience in Civil Design do you have?",
    "options": [],
    "answer": "",
-   "basis": "",
+   "basis": "answers.years_of_experience",
    "status": "unanswered"
   }
  ],
  "status": "ASK_OWNER",
- "ask_owner": "No standing answer for 4 form questions: What qualifications do you currently hold? | Where are you located? | What is your estimated start date? | How many years experience in Civil Design do you have?",
+ "ask_owner": "No standing answer for this form question: How many years experience in Civil Design do you have?",
  "attempts": [],
  "receipt": {},
  "created_by": "import_backlog.py",

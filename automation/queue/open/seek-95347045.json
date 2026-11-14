@@ -2,6 +2,7 @@
  "id": "seek-95347045",
  "lane": "technician",
  "route": "SEEK",
+ "application_type": "ADVERTISED_VACANCY",
  "company": "Mendi Constructions",
  "role": "Quality Assurance Trainee, Civil Construction",
  "location": "Townsville, Northern QLD",
@@ -24,14 +25,14 @@
   {
    "question": "Which of the following statements best describes your right to work in Australia?",
    "options": [],
-   "answer": "The option that names a graduate temporary work visa (Subclass 485). If the list has no such option, choose the temporary visa option that has no restriction on hours or industry.",
-   "basis": "answers.right_to_work.choose",
+   "answer": "Subclass 485 Temporary Graduate visa with full working rights until December 2027. No sponsorship needed.",
+   "basis": "answers.right_to_work.free_text",
    "status": "answered"
   },
   {
    "question": "How many years' experience do you have as a Quality Assurance Trainee?",
    "options": [],
-   "answer": "Choose the lowest option (no paid role in that role). This row never covers an engineering title: a graduate, junior, site, project or civil engineer title is answered from the first row.",
+   "answer": "None: no paid role of this kind",
    "basis": "answers.years_of_experience.laboratory, materials testing, technician, estimator, project coordinator, project management, any other role",
    "status": "answered"
   },
