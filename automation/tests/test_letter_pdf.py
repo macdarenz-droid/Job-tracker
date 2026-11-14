@@ -71,8 +71,9 @@ class LetterPdf(unittest.TestCase):
         self.assertEqual(pages, 1)
         self.assertLess(len(data), 20000)
         body = flat(text)
-        for line in BODY + ['Hello,', 'Kind regards,', 'Marc Masarate', '14 November 2026', 'Acme Civil Pty Ltd']:
+        for line in BODY + ['Hello,', 'Marc Masarate', '14 November 2026', 'Acme Civil Pty Ltd']:
             self.assertIn(flat(line), body)
+        self.assertNotIn('Kind regards', body)   # S-m1: the PDF adds no line the pasted letter does not have
         header = resume.Lines(FACTS)
         resume.header(header, 'drafter')
         for kind, line, _ in header:   # the same lines as the top of the drafter resume (a ' | ' may break a line)
@@ -98,7 +99,7 @@ class LetterPdf(unittest.TestCase):
         self.assertEqual(self.run_cli('acme-junior-drafter-1', str(out))[0], 0)
         text = flat(self.text(out)[1])
         self.assertEqual(text.count(flat(line)), 1)
-        self.assertLess(text.index(flat(line)), text.index('Kind regards,'))
+        self.assertLess(text.index(flat(line)), text.rindex('Marc Masarate'))
         self.put(cover_letter_text=LETTER.replace('Could we talk', line + ' Could we talk'), relocation_line=line)
         self.assertEqual(self.run_cli('acme-junior-drafter-1', str(out))[0], 0)
         self.assertEqual(flat(self.text(out)[1]).count(flat(line)), 1)

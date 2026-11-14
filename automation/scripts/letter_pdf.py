@@ -9,8 +9,9 @@ It reads automation/queue/open/<id>.json (or done/<YYYY-MM>/<id>.json). The head
 headline of the lane (facts.json -> identity -> titles), the contact line and the short work-rights line. Under it
 come the date, the employer, and the letter as checks.compose_letter gives it (cover_letter_text, with the entry's
 relocation_line at the end of the last paragraph when the text does not already carry it): the greeting line, the
-three paragraphs and the sign-off ('Kind regards,' and his name are added when the text has none). Drawn in the
-standard PDF fonts, nothing embedded, a few KB.
+three paragraphs and the sign-off. That is the same text `queue.py next` prints under "COVER LETTER TO PASTE", line for
+line; the only line ever added is his name, when the sign-off has none. Drawn in the standard PDF fonts, nothing
+embedded, a few KB.
 
 It refuses (exit 1, nothing written) a letter that checks.letter_issues does not pass, or one that does not fit on
 one page. On success it prints the file, its size in bytes and its sha256. An email application attaches this file
@@ -75,11 +76,11 @@ def letter_lines(entry, facts=FACTS, date=None):
     if greeting:
         lines.append(('p', plain(greeting), 14))
     lines += [('p', plain(' '.join(p.split())), PARAGRAPH_GAP if n or greeting else 14) for n, p in enumerate(paragraphs)]
-    name = facts['identity']['name'].split()
-    if not any(checks.CLOSING.match(line.lower()) for line in sign_off):
-        sign_off = ['Kind regards,'] + sign_off
-    names = {' '.join(name).lower(), f'{name[0]} {name[-1]}'.lower()}
-    if not any(' '.join(line.lower().split()) in names for line in sign_off):
+    # The letter is the text next prints to paste, line for line: nothing is added but his name when the sign-off has none.
+    ident = facts['identity']
+    name = ident['name'].split()
+    names = {' '.join(name).lower(), f'{name[0]} {name[-1]}'.lower(), str(ident.get('short_name') or name[0]).lower()}
+    if not any(' '.join(line.lower().split()).rstrip(',.') in names for line in sign_off):
         sign_off.append(f'{name[0]} {name[-1]}')
     lines += [('p', plain(line), PARAGRAPH_GAP if n == 0 else 0) for n, line in enumerate(sign_off)]
     return lines

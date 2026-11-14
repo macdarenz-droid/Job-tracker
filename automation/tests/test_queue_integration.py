@@ -99,7 +99,7 @@ class AnswerKeepsOtherRunnersStarts(Case):
         for by in (('--by', 'Claude'), ()):
             code, out, err = self.cli('answer', 'seek-1', '--question', TRAFFIC, '--option', 'Yes', '--option', 'No', *by)
             self.assertEqual((code, out), (5, ''), by)
-            self.assertIn('Do not submit; leave the form. Nothing is stored: seek-1 was started by Grok', err)
+            self.assertIn('Do not submit; leave the form. Nothing is stored. seek-1 was started by Grok', err)
             self.assertEqual(self.files(), before, by)
         self.assertIn('started by Grok', self.cli('list', '--started')[1])
         # the runner that started it (any letter case) ends its own start: ASK_OWNER, no longer under way

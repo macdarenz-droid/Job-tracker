@@ -57,6 +57,17 @@ FORBIDDEN_CLAIMS = [
 ]
 # The approved short work-rights line says "no sponsorship needed"; that is not a sponsorship request.
 APPROVED = re.compile(r'no sponsorship (is )?(needed|required)', re.I)
+# Residency or migration talk in a letter, an email or its subject (facts.json -> never_mention; AGENTS.md rule 6), in
+# whole words: 'PR' in capitals only (not 'PRE-START', 'Present' or 'prepared'), 'nomination' (not 'nominated').
+RESIDENCY_TALK = re.compile(r'(?-i:\bPR\b)|\bresidency\b|\bresident status\b|\bpermanent visas?\b|\bsettle permanently\b'
+                            r'|\blong[- ]?term visas?\b|\bsponsor me\b|\bsponsorship in the future\b|\bvisa pathways?\b|\bnominations?\b', re.I)
+RESIDENCY_WHY = 'mentions residency or migration (facts.json -> never_mention): "{}"'
+
+
+def residency_issues(text):
+    """The residency or migration phrases (RESIDENCY_TALK) in a text, each once, as issues."""
+    found = dict.fromkeys(m.group(0) for m in RESIDENCY_TALK.finditer(APPROVED.sub('', str(text or ''))))
+    return [RESIDENCY_WHY.format(phrase) for phrase in found]
 # The visa end date, however it is written: 'December 2027', 'Dec 2027', '12/2027', 'visa valid through 2027', 'until the end of 2027',
 # or as time left: 'valid for another 13 months', 'has 13 months left', 'runs out late next year'.
 COUNT = r'(\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|eighteen|twenty(-\w+)?)'
@@ -72,7 +83,7 @@ VISA_QUESTION = re.compile(r'visa|work(ing)? rights?|rights? to work|residency|p
 # The current Australian job is casual console-operator work at a service station (facts -> experience -> use).
 # A sentence about that job must not carry civil work, unless the civil part is plainly somewhere else (the
 # Philippines, 2019, 2020), is the name of his qualification, or sits in a clause about study or job hunting.
-CONSOLE = re.compile(r"console operator|service station|rockbank|rampage|\bbp\b|\bsince\s+(may\s+)?2024\b|\bmy (current|present) (role|job|position|work|employer|employment)\b"
+CONSOLE = re.compile(r"console operator|service station|\bbp\b|\bsince\s+(may\s+)?2024\b|\bmy (current|present) (role|job|position|work|employer|employment)\b"
                      r"|\b(currently|presently) (work|working|employed)\b|\bmy australian (work|job|role)\b", re.I)
 CIVIL_WORK = re.compile(r'\b(civil|construction|sites?|engineering|drafting|design\w*|inspect\w*|co-?ordinat\w*|infrastructure|earthworks|drainage)\b', re.I)
 ELSEWHERE = re.compile(r'philippines|justbuilt|grand travaux|2019|2020', re.I)
@@ -389,7 +400,7 @@ def letter_issues(text, visa_asked=False, tone=None, allow=()):
     if not text.strip():
         return ['letter text missing']
     visa = _visa(visa_asked, allow)
-    issues = ['letter ' + i for i in tone_issues(text, 'letter', visa, tone, allow) + fact_issues(text)]
+    issues = ['letter ' + i for i in tone_issues(text, 'letter', visa, tone, allow) + fact_issues(text) + residency_issues(text)]
     _, paragraphs, _ = letter_blocks(text)
     if len(paragraphs) != 3:
         issues.append(f'letter has {len(paragraphs)} paragraphs (exactly three between the greeting line and the sign-off: config -> tone -> letter_shape)')
@@ -400,8 +411,8 @@ def email_issues(subject, body, visa_asked=False, tone=None, allow=()):
     """Everything wrong with one email: the body against config -> tone and the facts, and the subject line."""
     visa = _visa(visa_asked, allow)
     body, subject = str(body or ''), str(subject or '')
-    issues = ['email ' + i for i in tone_issues(body, 'email', visa, tone, allow) + fact_issues(body)] if body.strip() else []
-    return issues + ['email subject ' + i for i in tone_issues(subject, 'answer', visa, tone, allow)]
+    issues = ['email ' + i for i in tone_issues(body, 'email', visa, tone, allow) + fact_issues(body) + residency_issues(body)] if body.strip() else []
+    return issues + ['email subject ' + i for i in tone_issues(subject, 'answer', visa, tone, allow) + residency_issues(subject)]
 
 
 # A written answer against the standing one.

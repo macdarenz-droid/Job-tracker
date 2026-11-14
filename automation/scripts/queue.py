@@ -10,6 +10,8 @@ Usage (global options --dir, --config, --facts, --prior and --now go before the 
   queue.py show ID
   queue.py next --route R [--by NAME --run RUN_ID]           (a peek without --by; a claim needs both; EMAIL: and that runner's own send lock)
   queue.py mark ID applied --by NAME --kind K --ref REF [--thread THREAD_ID] [--at ISO] [--run RUN_ID]   (also on SKIPPED, FAILED, EXPIRED)
+  queue.py mark ID applied --by NAME --kind already_applied --ref REF [--at WHEN]   (the site shows he applied before: APPLIED,
+                     blocks a repeat, not counted as a submission; on OPEN, ASK_OWNER or UNCERTAIN entries, started or not)
   queue.py mark ID skipped --by NAME --reason TEXT [--run RUN_ID]   (closed or changed advert, or not to be sent)
   queue.py mark ID failed --by NAME --note TEXT [--final] [--run RUN_ID]   (only when it is known that nothing was submitted)
   queue.py mark ID uncertain --by NAME --note TEXT             (unknown whether it went: UNCERTAIN until someone checks)
@@ -23,6 +25,7 @@ Usage (global options --dir, --config, --facts, --prior and --now go before the 
   queue.py answer --question TEXT [--option O]... [--advert-pay TEXT]   (no entry yet: the standing answer, or UNANSWERED)
   queue.py answer ID --question TEXT [--option O]... [--advert-pay TEXT] [--by NAME --run RUN_ID]   (a question on an entry's form)
   queue.py answer ID [--advert-pay TEXT]                     (every stored answer again, from facts.json as it is now)
+  queue.py answer [ID] --from-file FILE [--by NAME --run RUN_ID]   (FILE: {"question": ..., "options": [...], "advert_pay": ...})
   queue.py verify ID --add TEXT --by NAME                    (a check next prints under "BEFORE SUBMITTING, CHECK:")
   queue.py letter ID --file LETTER.txt [--subject TEXT] [--body-file EMAIL.txt] [--to ADDRESS] [--evidence-url URL]
                      [--allow PHRASE]...
@@ -32,9 +35,12 @@ Usage (global options --dir, --config, --facts, --prior and --now go before the 
   queue.py report [--days N] [--json]
   queue.py check
 
-Exit codes: 0 done; 1 refused (reason on stderr); 3 the day's cap, the SEEK spacing or the quiet hours
-(config.json -> limits -> quiet_hours, 21:00-07:00 Melbourne time when not set); 4 nothing to hand out; 5 a form
-question has no standing answer in facts.json (do not submit; leave the form).
+Exit codes: 0 done; 1 refused (reason on stderr); 2 typed wrong (as argparse; also answer --from-file with --question,
+--option or --advert-pay); 3 the day's cap, the SEEK spacing or the quiet hours (config.json -> limits -> quiet_hours,
+21:00-07:00 Melbourne time when not set): a cap or the spacing stops only that route, and its message names the
+other routes that may still be tried; the quiet hours stop all; 4 nothing to hand out; 5 a form question has no
+standing answer in facts.json (do not submit; leave the form), or the salary question while the advert's pay is not
+recorded (run answer again with --advert-pay; nothing is stored and the start stays).
 
 Answers come only from facts.json, through answers.py (the one gate checks.py uses too). answer prints the answer to
 give, word for word one of the options given, on stdout; a question it cannot answer prints UNANSWERED: <why> on
@@ -44,7 +50,18 @@ an answer is the text to type or a short description of the choice: for every mu
 with the options on screen. The salary question is answered only when the advert's pay is known: --advert-pay (kept on
 the entry as advert_pay) with the advert's own pay text, or "not stated" when the advert gives none. A question or an
 option typed from a form is refused (exit 1, nothing stored) when it holds an email address, a web address, a phone
-number or an application, candidate or reference number: type it again without that part.
+number or an application, candidate or reference number: type it again without that part. The salary question with no
+advert pay on record (neither --advert-pay nor the entry's advert_pay) prints "UNANSWERED: the advert's pay is not
+recorded: run again with --advert-pay (the advert's own pay text, or not stated)" and exits 5: nothing is stored, the
+entry stays as it was and the start stays. --from-file FILE gives the question, its options and the advert pay in a
+JSON object {"question": text, "options": [text, ...], "advert_pay": text} (options and advert_pay optional; on an entry
+the question may be left out to give only the pay) instead of --question, --option and --advert-pay, so a '$' or an
+apostrophe is never changed by the shell; mixed with any of those three it is a typing error (exit 2). The owner's own
+answers are facts.json -> answers -> owner_answers, a list of {"question": text, "options": [text, ...] (optional),
+"answer": text, "date": "YYYY-MM-DD"}: a question whose text is the same (case, spacing, double quotation marks and a
+closing ?.:! aside) gets that answer before any other rule, and with options on screen only when the answer is one of
+them. answer ID then reopens an entry that waited on that question. check (and so next and answer) refuses a list in
+another shape, and a question, answer or option holding what a public note may not hold.
 
 next hands out nothing at all while queue.py check finds a problem (for example an entry that is both in open/ and,
 finished, in done/), during the quiet hours, or once the day's cap is used. The cap and the 20-minute SEEK spacing
@@ -65,7 +82,9 @@ the soonest stated closing date, then the newest listing. With --by (and --run, 
 start with that run and prints on stderr, after the entry, the git commands that commit and push that claim (git pull
 --rebase --autostash, so the runner's own journal line does not stop it): run them before submitting, and finish
 every entry it hands out with a mark. It also prints on stderr each form question as 'Q: <question> | give:
-<answer>', the resume file for resume_variant with its sha256, the entry's verify_before_submit checks under "BEFORE
+<answer>'; then "COVER LETTER TO PASTE (exactly, between the lines):", a line of dashes, the letter as it was checked
+(cover_letter_text with the relocation_line, as checks.compose_letter gives it and letter_pdf.py prints it) and a line
+of dashes; the resume file for resume_variant with its sha256, the entry's verify_before_submit checks under "BEFORE
 SUBMITTING, CHECK:", and every line of its notes and every attempt note under "NOTES (read before submitting ...)".
 
 Repeats. The same advert (id, seek_id or url) is always a duplicate. The same employer and the same role is blocked
@@ -74,15 +93,18 @@ prior_outreach.json; a prior_outreach.json entry that does not say which role bl
 those days. Another role at an employer already applied to is allowed, and next adds a line to the entry's notes
 naming the earlier application. Employers are compared as tracker.py compares them (Pty Ltd, Group, Australia and
 bracketed trading names aside); roles in lower case without punctuation, bracketed notes and the words junior,
-graduate, trainee, cadet, entry level and senior, so "Junior Civil Drafter" and "Civil Drafter" are the same role.
-A local council is one employer under both its names ("City of Yarra" and "Yarra City Council").
+graduate, trainee, cadet, entry level and senior, so "Junior Civil Drafter" and "Civil Drafter" are the same role, and
+one title whose words are all in the other is the same role too ("Civil Engineer" and "Civil Engineer - Wollongong",
+"Civil Engineer | Roads", "Civil Engineer / Design Engineer"). A local council is one employer under both its names
+("City of Yarra" and "Yarra City Council").
 
 Statuses: OPEN (waiting, ready or held), ASK_OWNER (waiting on the owner), UNCERTAIN (unknown whether it went; kept
 in open/, never handed out or expired, counted as an application until "mark ID applied" or "mark ID open --note
 'checked: ...'" settles it), APPLIED, SKIPPED, EXPIRED, FAILED. stats: queue_open counts status OPEN only (ready or
 held), not ASK_OWNER or UNCERTAIN. A start that next --by recorded is released only by the runner and run that made
 it ("mark ID open --by NAME --run RUN_ID", or that session's own unanswered "answer ID --question ... --run RUN_ID");
-another runner, or the same runner in another session, may only mark it applied (with the receipt) or uncertain.
+another runner, or the same runner in another session, may only mark it applied (with the receipt) or uncertain: never
+type another runner's name or an earlier session's run id.
 expire leaves UNCERTAIN entries and unmarked starts where they are. An ASK_OWNER entry that waits on an owner question
 (not only on its form questions) is reopened only with his answer: "mark ID open --note 'owner: <answer, date>'". An
 entry with an employer outcome is never reopened. A receipt found for a SKIPPED, FAILED or EXPIRED entry is recorded
@@ -91,15 +113,23 @@ than now, nor earlier than the entry's first hand-out; check reports a receipt o
 
 Receipts. mark applied --ref is a public record: plain words such as "SEEK confirmation screen shown", never an email
 address, a web address, a number of 3 or more digits other than a year, or an application, candidate or reference
-number in any form (APP-4471-923, 12 345 678). With --kind gmail_message_id the ref is the Gmail message id (16 hex
-characters) and --thread may give the thread id (16 hex). Every mark note, reason and question is public too: it is
-refused when it holds an email address, a web address (linkout: one with no '?' or '#' may stay), a phone number, a
-number of 6 or more digits or an application, candidate or reference number; the entry's own url, address, id and
-SEEK number, and his own email, phone and portfolio address, may appear.
+number in any form (APP-4471-923, 12 345 678), or a code mixing letters and digits (KX92QZ, 7Q4T-AB; a date written
+14 Nov 2026 or 2026-11-14, an ordinal day such as 1st and a clock time such as 9am are not codes). With --kind
+gmail_message_id the ref is the Gmail message id (16 hex characters) and --thread may give the thread id (16 hex).
+--kind already_applied records an application found already made (SEEK's applied jobs list or the site says he
+applied): --ref in plain words, --at the date the site gives (it may be earlier than the hand-out). The entry is
+APPLIED and blocks the same employer and role for ever, but the caps, the SEEK spacing, stats (applied_total) and report
+(applied) leave it out; report counts it apart as "already applied, found" and stats as already_applied_total. Any
+runner may record it on an OPEN, ASK_OWNER or UNCERTAIN entry, started or not. Every mark note, reason and question is
+public too: it is refused when it holds an email address, a web address (linkout: one with no '?' or '#' may stay), a
+phone number, a number of 6 or more digits, an application, candidate or reference number, or a double quotation mark
+(straight or curly); the entry's own url, address, id and SEEK number, and his own email, phone and portfolio address,
+may appear.
 
 Outcomes (outcome ID): acknowledged, rejected, reply, interview or offer, on an APPLIED or UNCERTAIN entry, with the
-date. The note is at most 140 characters, in your own words: no names and no quotes (queue.py cannot detect them, so
-leave them out yourself), and no email address, phone number, number of 6 or more digits or web address.
+date. The note is at most 140 characters, in your own words: no names and no quotes (queue.py refuses quotation marks
+but cannot detect names, so leave names out yourself), and no email address, phone number, number of 6 or more digits
+or web address.
 
 Send lock (automation/queue/SEND_LOCK.json: by, run, taken_at, expires_at). lock take refuses while another run holds
 an unexpired lock and prints the git commands that publish it: push it before sending; a rejected push means someone
@@ -120,8 +150,9 @@ Entry fields for add (one JSON object):
             text, which decides the salary answer, or "not stated"; a SEEK candidate's salary text is taken as it;
             an entry whose form asks the salary question is refused without it; also set by answer --advert-pay);
             verify_before_submit (a list of
-            short one-line checks the submitter makes first); status (OPEN by default; ASK_OWNER with ask_owner;
-            APPLIED with receipt {at, by, kind, ref} for an application made elsewhere); ask_owner; notes;
+            short one-line checks the submitter makes first); status (OPEN by default; ASK_OWNER when ask_owner is
+            given without a status, and an OPEN entry with ask_owner is refused; APPLIED with
+            receipt {at, by, kind, ref} for an application made elsewhere); ask_owner (one plain line for the owner); notes;
             source_run; created_by (else --by); created_at; tone_allow (flagged phrases the letter or email may keep;
             set by letter --allow).
 
@@ -169,7 +200,10 @@ IN_OPEN = OPEN_STATUSES + ('UNCERTAIN',)       # kept in open/ and still to be m
 SUBMITTED = ('APPLIED', 'UNCERTAIN')           # count as an application: caps, spacing, repeats, outcomes
 APPLICATION_TYPES = ('ADVERTISED_VACANCY', 'SPECULATIVE_ENQUIRY')
 CLOSES_SOURCES = ('advert', 'listing_expiry', 'none')
-RECEIPT_KINDS = ('seek_receipt_email', 'seek_confirmation_screen', 'gmail_message_id', 'portal_confirmation')
+RECEIPT_KINDS = ('seek_receipt_email', 'seek_confirmation_screen', 'gmail_message_id', 'portal_confirmation', 'already_applied')
+# A receipt that records an application found already made (SEEK or the site shows he applied): the entry is APPLIED and
+# blocks a repeat, but it is not a submission of this pipeline, so the caps, the SEEK spacing, stats and report leave it out.
+FOUND_KIND = 'already_applied'
 OUTCOME_KINDS = ('acknowledged', 'rejected', 'reply', 'interview', 'offer')
 CAP_KEY = {'SEEK': 'seek_submissions_per_day', 'EMAIL': 'email_sends_per_day',
            'EMPLOYER_PORTAL': 'portal_submissions_per_day', 'EMPLOYER_FORM': 'portal_submissions_per_day'}
@@ -195,6 +229,7 @@ PHONE = re.compile(r'(?<![\w/=.-])(?:\+?61[\s-]?\(?0?|\(?0)[2-478]\)?(?:[\s-]?\d
 EMAIL_ADDRESS = re.compile(r'[^@\s]+@[^@\s]+\.[^@\s]+')
 WEB_ADDRESS = re.compile(r'https?://|\bwww\.|\b[a-z0-9-]+(?:\.[a-z0-9-]+)*\.(?:com|net|org|gov|edu|io|au|nz|uk)\b', re.I)
 LONG_NUMBER = re.compile(r'\d{6,}')
+QUOTES = re.compile('["\u201c\u201d]')   # straight and curly double quotation marks: quoted text has no place in a public note
 OTHER_PHONE = re.compile(r'\+\d[\d\s().-]{6,}\d')   # an international number
 GMAIL_ID = re.compile(r'[0-9a-f]{16}')
 # An application, candidate or reference number in any form: 'reference 99123456', 'Candidate no. 12 345 678', 'Ref: JR-2026-11-1234'.
@@ -224,6 +259,11 @@ class NothingToDo(Refused):
 class Unanswered(Refused):
     """A form question has no standing answer in facts.json: do not submit."""
     code = 5
+
+
+class Usage(Refused):
+    """The command was typed wrong (as argparse's own errors): nothing was read or changed."""
+    code = 2
 
 
 # ---------- small helpers ----------
@@ -310,14 +350,18 @@ def job_key(e):
 
 def role_key(role):
     """A role title for the "same role" test: lower case, without punctuation, bracketed notes and the words junior,
-    graduate, trainee, cadet, entry level and senior. 'Junior Civil Drafter' and 'Civil Drafter' are one role."""
+    graduate, trainee, cadet, entry level and senior. 'Junior Civil Drafter' and 'Civil Drafter' are one role (same_role
+    also counts a title whose words are all in the other)."""
     words = ' '.join(re.sub(r'[^a-z0-9]+', ' ', re.sub(r'\([^)]*\)', ' ', str(role or '').lower())).split())
     return ' '.join(ROLE_NOISE.sub(' ', words).split()) or words
 
 
 def same_role(a, b):
-    ka = role_key(a)
-    return bool(ka) and ka == role_key(b)
+    """The same role for the repeat block: after role_key, the words of one title are all in the other ('Civil Engineer'
+    and 'Civil Engineer - Wollongong', 'Civil Engineer | Roads', 'Civil Engineer / Design Engineer'). Conservative on
+    purpose: a re-post with a place or a qualifier is the same job, and blocking a different one is the safer mistake."""
+    wa, wb = set(role_key(a).split()), set(role_key(b).split())
+    return bool(wa and wb) and (wa <= wb or wb <= wa)
 
 
 def same_job(a, b):
@@ -577,6 +621,7 @@ def validate(e, facts=None):
     need(e.get('status') in STATUSES, f'status: one of {", ".join(STATUSES)}')
     ask = str(e.get('ask_owner') or '')
     need(e.get('status') != 'ASK_OWNER' or ask.strip(), 'ask_owner: ASK_OWNER needs its one-line question')
+    need(e.get('status') != 'OPEN' or not ask.strip(), 'ask_owner: an OPEN entry carries an owner question: set status ASK_OWNER, or clear ask_owner')
     need('\n' not in ask, 'ask_owner: one line only')
     email = e.get('email') or {}
     if e.get('route') == 'EMAIL':
@@ -617,13 +662,15 @@ def validate(e, facts=None):
 
 
 def note_problems(text, limit=NOTE_LIMIT):
-    """Why a short note may not go into a public queue file ('' parts when it may): too long, or contact details."""
+    """Why a short note may not go into a public queue file ('' parts when it may): too long, contact details, a
+    reference number, or quoted text (a straight or curly double quotation mark)."""
     p = [f'is {len(text)} characters (at most {limit})'] if len(text) > limit else []
     for what, pattern in (('an email address', EMAIL_ADDRESS), ('a phone number', PHONE), ('a phone number', OTHER_PHONE),
                           ('a number of 6 or more digits', LONG_NUMBER), ('a web address', WEB_ADDRESS)):
         if pattern.search(text) and f'holds {what}' not in p:
             p.append(f'holds {what}')
-    return p + (['holds an application, candidate or reference number'] if reference_number(text) else [])
+    p += ['holds an application, candidate or reference number'] if reference_number(text) else []
+    return p + (['holds quoted text (write it in your own words)'] if QUOTES.search(text) else [])
 
 
 def reference_number(text):
@@ -668,9 +715,23 @@ def ref_problems(kind, ref, thread=''):
             if pattern.search(ref)] + (['an application, candidate or reference number'] if reference_number(ref) else [])
     if any(NOT_YEAR(d) for d in re.findall(r'\d+', ref)) and 'a number of 6 or more digits' not in held:
         held.append('a number of 3 or more digits that is not a year')
+    if mixed_codes(ref):
+        held.append('a code mixing letters and digits (such as KX92QZ; write a date as 14 Nov 2026 or 2026-11-14)')
     return [f'--ref holds {" and ".join(dict.fromkeys(held))}: the queue is public, so write plain words such as "SEEK confirmation screen '
             'shown", never the confirmation text or an application, candidate or reference number in any form (APP-4471-923, '
-            '12 345 678, 44719)'] if held else []
+            '12 345 678, 44719, KX92QZ)'] if held else []
+
+
+# A word of letters and digits that is part of a date or a time, not a code: '1st', '22nd', '9am', '10:05pm' ('05pm').
+DATE_PART = re.compile(r'(?:[1-9]|[12]\d|3[01])(?:st|nd|rd|th)|\d{1,2}(?:am|pm)', re.I)
+
+
+def mixed_codes(text):
+    """The words of a text that mix letters and digits ('KX92QZ', '7Q4T', 'JR2026x'): a confirmation or reference code.
+    A date written 14 Nov 2026 or 2026-11-14 has none; an ordinal day ('1st') or a clock time ('9am') is not counted."""
+    text = re.sub(r'\bgmail:[0-9a-f]+\b', ' ', str(text or ''), flags=re.I)   # a Gmail message id, as gmail_message_id records it
+    return [w for w in re.findall(r'[A-Za-z0-9]+', text) if re.search(r'\d', w) and re.search(r'[A-Za-z]', w)
+            and not DATE_PART.fullmatch(w)]
 
 
 # ---------- storage ----------
@@ -734,7 +795,10 @@ def add(entry, qdir=QUEUE_DIR, facts=None, now=None, by=None, config=None, prior
         e['closes_source'] = 'listing_expiry'
     e['created_at'] = e.get('created_at') or iso(now)
     e['created_by'] = e.get('created_by') or by or ''
+    no_status = not str(e.get('status') or '').strip()
     e = fill(e)
+    if no_status and str(e['ask_owner']).strip():   # a draft that asks the owner something waits on him, never OPEN
+        e['status'] = 'ASK_OWNER'
     if facts is not None:
         apply_answers(e, facts)
         gate = _sibling('answers')
@@ -797,9 +861,18 @@ def started(e):
     return last if e['status'] in OPEN_STATUSES and last.get('result') == 'started' else {}
 
 
+def found_applied(e):
+    """True for an APPLIED entry whose receipt is kind already_applied: an application found already made, not one this
+    pipeline submitted."""
+    return e['status'] == 'APPLIED' and (e.get('receipt') or {}).get('kind') == FOUND_KIND
+
+
 def submission_time(e):
     """When an entry counts as submitted, for the caps and the spacing: the receipt of an APPLIED entry, the uncertain
-    mark of an UNCERTAIN one, the start of a waiting one that was started and not marked. None for anything else."""
+    mark of an UNCERTAIN one, the start of a waiting one that was started and not marked. None for anything else, and
+    for an application found already made (already_applied: nothing was submitted now)."""
+    if found_applied(e):
+        return None
     if e['status'] == 'APPLIED':
         at = e['receipt'].get('at')
     elif e['status'] == 'UNCERTAIN':
@@ -820,6 +893,11 @@ def applications(entries, prior=None):
     for e in entries:
         if e['status'] in SUBMITTED:
             t = submission_time(e)
+            if t is None and found_applied(e) and e['receipt'].get('at'):   # found already made: it blocks a repeat all the same
+                try:
+                    t = parse_time(e['receipt']['at'])
+                except Refused:
+                    t = None
             rows.append({'company': e['company'], 'role': e['role'], 'date': melbourne_date(t) if t else '', 'where': e['id'], 'status': e['status']})
     for p in prior or []:
         rows.append({'company': str(p.get('company') or ''), 'role': str(p.get('role') or ''), 'date': str(p.get('date') or '').strip()[:10],
@@ -941,18 +1019,19 @@ def check_caps(route, entries, config, now):
     if not isinstance(cap, int):
         raise Refused(f'config.json -> limits -> {CAP_KEY[route]} is not set')
     group = [r for r in ROUTES if CAP_KEY[r] == CAP_KEY[route]]
+    others = 'the other routes (' + ', '.join(r for r in ROUTES if r not in group) + ') may still be tried'
     times = [t for t in (submission_time(e) for _, e in entries if e['route'] in group) if t]
     today = melbourne_date(now)
     done = sum(1 for t in times if melbourne_date(t) == today)
     if done >= cap:
         raise CapReached(f"{route}: the day's cap is reached ({done} of {cap} submitted on {today}, Melbourne date; uncertain "
-                         'entries and starts not yet marked count). Stop until tomorrow.')
+                         f'entries and starts not yet marked count). Stop this route until tomorrow; {others}.')
     gap = limits.get('min_minutes_between_seek_submissions') or 0
     if route == 'SEEK' and times and gap:
         minutes = (now - max(times)).total_seconds() / 60
         if minutes < gap:
             raise CapReached(f'SEEK: the last submission or start was {int(minutes)} minutes ago; wait {int(gap - minutes) + 1} more '
-                             f'(at least {gap} minutes apart).')
+                             f'(at least {gap} minutes apart). Meanwhile {others}.')
 
 
 def check_quiet_hours(config, now):
@@ -1060,6 +1139,8 @@ def check_problems(entries, facts=None, now=None):
     """Every problem queue.py check reports, as (id, message) pairs. next hands nothing out while there is one."""
     now = now or datetime.now(timezone.utc)
     out, seen, copies, waiting = [], {}, {}, []
+    if facts is not None:   # the owner's answers in facts.json decide form answers: a fault there stops every hand-out
+        out += [('facts.json', msg) for msg in owner_answer_problems(facts)]
     for path, e in entries:
         copies.setdefault(e['id'], []).append(path)
     for path, e in entries:
@@ -1091,12 +1172,27 @@ def resume_file(e):
     return RESUME_DIR / f"Marc_Masarate_Resume_{str(e.get('resume_variant') or '').capitalize()}.pdf"
 
 
+LETTER_HEAD = 'COVER LETTER TO PASTE (exactly, between the lines):'
+LETTER_RULE = '-' * 60
+
+
+def letter_block(e):
+    """The lines next prints for the cover letter: the one letter text that was checked and that letter_pdf.py prints
+    (checks.compose_letter: cover_letter_text with the relocation_line where it belongs), between two lines of dashes."""
+    text = _sibling('checks').compose_letter(e.get('cover_letter_text'), e.get('relocation_line'))
+    if not text.strip():
+        return ['COVER LETTER TO PASTE: none (this entry has no cover_letter_text)']
+    return [LETTER_HEAD, LETTER_RULE] + text.splitlines() + [LETTER_RULE]
+
+
 def handout_notes(e, qdir, by=None):
     """What next prints on stderr after the entry: what to give for each form question ('Q: <question> | give:
-    <answer>'; run answer with the options on screen for a multiple-choice one), the resume file with its sha256, the
-    checks to make before submitting, and with --by the git commands that commit and push the claim."""
+    <answer>'; run answer with the options on screen for a multiple-choice one), the cover letter to paste (letter_block),
+    the resume file with its sha256, the checks to make before submitting, and with --by the git commands that commit and
+    push the claim."""
     lines = [f"Q: {q['question']} | give: " + (q['answer'] if q['status'] == 'answered' else '(no standing answer; optional: leave it blank)')
              for q in e['questions']]
+    lines += letter_block(e)
     path = resume_file(e)
     shown = path.relative_to(ROOT.parent) if path.is_relative_to(ROOT.parent) else path
     lines.append(f'RESUME: {shown} sha256 {hashlib.sha256(path.read_bytes()).hexdigest()}' if path.exists()
@@ -1176,16 +1272,19 @@ ASK_FILLER = {'no', 'standing', 'answer', 'answers', 'for', 'this', 'that', 'for
 
 def start_holder(e, by, run):
     """Why this runner and run may not release the entry's unmarked start ('' when they may, or there is none): only the
-    runner that started it, in the run (session) that started it, knows whether it went."""
+    runner that started it, in the run (session) that started it, knows whether it went. The text never suggests typing
+    another runner's name or an earlier session's run id: a new session may only record uncertain, or applied with the
+    receipt."""
     start = started(e)
     if not start:
         return ''
     if not same_name(start.get('by'), by):
-        return (f"{e['id']} was started by {start.get('by')} at {start.get('at')} and not marked: only {start.get('by')} knows "
-                'whether it went')
+        return (f"{e['id']} was started by {start.get('by')} at {start.get('at')} and not marked: another runner cannot know whether "
+                "it went. Mark it uncertain, or applied with the receipt. Never type another runner's name or run id.")
     if start.get('run') and start['run'] != run:
-        return (f"{e['id']} was started by {start.get('by')} in another run (session) at {start.get('at')} and not marked: only "
-                'that session knows whether it went (give --run with the run id of the session that ran next)')
+        return (f"{e['id']} was started by {start.get('by')} in another run (session) at {start.get('at')} and not marked: a new "
+                "session cannot know whether it went. Mark it uncertain, or applied with the receipt. Never type an earlier "
+                "session's run id.")
     return ''
 
 
@@ -1203,30 +1302,33 @@ def mark(qdir, entry_id, action, by, now=None, kind=None, ref=None, at=None, not
     whether it went), linkout (SEEK's apply button leads to the employer's site: re-routed to EMPLOYER_PORTAL),
     ask (owner question) or open (back to OPEN; releases a start; settles an UNCERTAIN entry with "checked: ...";
     an owner question with "owner: ..."). applied is also taken on a SKIPPED, FAILED or EXPIRED entry: a receipt found
-    later (it then counts as the application it was). run: the run id of the session; an unmarked start is released
-    (open, failed, skipped, linkout, ask) only by the runner and run that made it."""
+    later (it then counts as the application it was). applied with kind already_applied (the site shows he applied
+    before) is taken only on an OPEN, ASK_OWNER or UNCERTAIN entry, from any runner: at is the date the site gives and
+    may be earlier than the hand-out; the receipt also keeps found_at, and the attempt is dated now. run: the run id of
+    the session; an unmarked start is released (open, failed, skipped, linkout, ask) only by the runner and run that
+    made it."""
     now = now or datetime.now(timezone.utc)
-    path, e = find(qdir, entry_id, statuses=IN_OPEN + (LATE_RECEIPT if action == 'applied' else ()))
+    found_kind = action == 'applied' and kind == FOUND_KIND   # the site shows he applied before: OPEN, ASK_OWNER, UNCERTAIN only
+    path, e = find(qdir, entry_id, statuses=IN_OPEN + (LATE_RECEIPT if action == 'applied' and not found_kind else ()))
     if not by:
         raise Refused('--by NAME is needed')
     already = validate(e, facts)   # a fault the file already had must not stop a real result from being recorded
     was = e['status']
     note = ' '.join(str(note or '').split())
-    found = text_problems(e, note, facts, link_ok=action == 'linkout')
+    found = text_problems(e, note, facts, link_ok=action == 'linkout') + (['quoted text'] if QUOTES.search(note) else [])
     if found:
         raise Refused(f"not saved: the note holds {' and '.join(found)}: the queue is public, so write it again in plain words "
-                      '(no email address, web address, phone number, or application, candidate or reference number)')
+                      '(no email address, web address, phone number, quotation marks, or application, candidate or reference number)')
     when_dt = parse_time(at) if at else now
     if when_dt > now + CLOCK_SLACK:
         raise Refused(f"--at {at} is later than now ({now.astimezone(_melbourne()).strftime('%Y-%m-%d %H:%M')} in Melbourne): give the real time")
     first = next((a.get('at') for a in e['attempts'] if a.get('result') == 'started' and a.get('at')), None)
-    if at and first and when_dt < parse_time(first) - timedelta(minutes=1):
+    if at and first and when_dt < parse_time(first) - timedelta(minutes=1) and not found_kind:   # already_applied: an earlier date
         raise Refused(f'--at {at} is earlier than the first hand-out of {entry_id} ({first}): give the real time')
     when = iso(when_dt)
     why = start_holder(e, by, run)
     if why and action not in ('applied', 'uncertain'):
-        raise Refused(why + ', so only that runner marks it open, failed, skipped, linkout or ask. Anyone else (or another '
-                      'session) may mark it applied (with the receipt) or, if you do not know whether it went, uncertain.')
+        raise Refused(f'{why} (mark {action} refused; nothing changed)')
     if e['status'] == 'UNCERTAIN' and action not in ('applied', 'open'):
         raise Refused(f'{entry_id} is UNCERTAIN: check {uncertain_where(e)} first. If it went: mark {entry_id} applied --kind ... '
                       f'--ref ...; if it certainly did not: mark {entry_id} open --note "checked: not submitted (where you looked)"')
@@ -1239,7 +1341,8 @@ def mark(qdir, entry_id, action, by, now=None, kind=None, ref=None, at=None, not
         if problems:
             raise Refused('not saved: ' + '; '.join(problems))
         e['status'], e['ask_owner'] = 'APPLIED', ''
-        e['receipt'] = {'at': when, 'by': by, 'kind': kind, 'ref': ref, **({'thread': thread} if thread else {})}
+        e['receipt'] = {'at': when, 'by': by, 'kind': kind, 'ref': ref, **({'thread': thread} if thread else {}),
+                        **({'found_at': iso(now)} if found_kind else {})}
         if was in LATE_RECEIPT:
             note = ' '.join(f'receipt found after {was}. {note}'.split())
     elif action == 'skipped':
@@ -1297,7 +1400,8 @@ def mark(qdir, entry_id, action, by, now=None, kind=None, ref=None, at=None, not
     else:
         raise Refused(f'unknown action {action}')
     result = {'ask': 'asked_owner', 'open': 'reopened'}.get(action, action)
-    e['attempts'].append({'at': when, 'by': by, 'result': result, 'note': note, **({'run': run} if run else {})})
+    # already_applied: the receipt keeps the date the site gives; the attempt is when it was found
+    e['attempts'].append({'at': iso(now) if found_kind else when, 'by': by, 'result': result, 'note': note, **({'run': run} if run else {})})
     problems = [x for x in validate(e, facts) if x not in already]
     if problems:
         raise Refused('not saved: ' + '; '.join(problems))
@@ -1305,9 +1409,9 @@ def mark(qdir, entry_id, action, by, now=None, kind=None, ref=None, at=None, not
     return e
 
 
-NOTE_RULE = (f'Write at most {NOTE_LIMIT} characters in your own words, for example "rejection email, no reason given". No names '
-             'and no quotes (queue.py cannot detect a name or quoted text, so leave them out yourself), and no email address, '
-             'phone number, number of 6 or more digits or web address: the queue is public.')
+NOTE_RULE = (f'Write at most {NOTE_LIMIT} characters in your own words, for example: rejection email, no reason given. No names '
+             'and no quotes (queue.py refuses quotation marks but cannot detect a name, so leave names out yourself), and no '
+             'email address, phone number, number of 6 or more digits or web address: the queue is public.')
 
 
 def record_outcome(qdir, entry_id, kind, at, by, note='', now=None, facts=None):
@@ -1389,6 +1493,58 @@ def set_question(e, facts, question, options=None, pay=None):
     return q
 
 
+PAY_MISSING = ("UNANSWERED: the advert's pay is not recorded: run again with --advert-pay (the advert's own pay text, or not "
+               'stated)')
+ANSWER_FILE_KEYS = ('question', 'options', 'advert_pay')
+
+
+def answer_file(path):
+    """(question, options, advert_pay) from the JSON file of answer --from-file: {"question": text, "options": [text, ...],
+    "advert_pay": text}, options and advert_pay optional (the question too, when only the pay is given for an entry). A
+    file is read as it is, so a '$' or an apostrophe reaches the gate whole, which typed shell text does not promise."""
+    data = read_json(path)
+    where = f'--from-file {path}'
+    if not isinstance(data, dict):
+        raise Refused(f'{where}: write one JSON object {{"question": "...", "options": ["...", "..."], "advert_pay": "..."}}')
+    extra = sorted(set(data) - set(ANSWER_FILE_KEYS))
+    if extra:
+        raise Refused(f'{where}: unknown key {", ".join(extra)} (the keys are question, options and advert_pay)')
+    question, options, pay = data.get('question'), data.get('options'), data.get('advert_pay')
+    if question is not None and (not isinstance(question, str) or not question.strip()):
+        raise Refused(f'{where}: question: the exact text on screen, as a JSON string')
+    if options is not None and (not isinstance(options, list) or not all(isinstance(o, str) and o.strip() for o in options)):
+        raise Refused(f'{where}: options: a list of the options on screen, each a JSON string, word for word')
+    if pay is not None and (not isinstance(pay, str) or not pay.strip()):
+        raise Refused(f"{where}: advert_pay: the advert's own pay text, or not stated, as a JSON string")
+    if options and question is None:
+        raise Refused(f'{where}: options need the question')
+    if question is None and pay is None:
+        raise Refused(f'{where}: give the question (with its options), or advert_pay')
+    return question, list(options) if options else None, pay
+
+
+OWNER_TEXT_LIMIT = 300   # characters in each question, answer and option of facts.json -> answers -> owner_answers
+
+
+def owner_answer_problems(facts):
+    """Why facts.json -> answers -> owner_answers cannot be used ([] when it is absent or sound): its shape (answers.py
+    owner_answer_problems) and, as facts.json is public, the same private text a note may not hold (note_problems: an
+    email address, a phone number, a long number, a web address, a reference number, quotation marks)."""
+    gate = _sibling('answers')
+    out = gate.owner_answer_problems(facts)
+    rows = ((facts or {}).get('answers') or {}).get('owner_answers')
+    for n, row in enumerate(rows if isinstance(rows, list) else [], 1):
+        if not isinstance(row, dict):
+            continue
+        texts = [('question', row.get('question')), ('answer', row.get('answer'))]
+        texts += [('option', o) for o in row.get('options') if isinstance(o, str)] if isinstance(row.get('options'), list) else []
+        for what, text in texts:
+            why = note_problems(text, OWNER_TEXT_LIMIT) if isinstance(text, str) else []
+            if why:
+                out.append(f'answers -> owner_answers row {n}: the {what} ' + '; '.join(why) + ' (facts.json is public)')
+    return out
+
+
 def release_start(e, by, now, note):
     """End an unmarked start on the entry (its last attempt is 'started'), so that it is not held as under way. Only
     the runner that made the start may end it (the caller checks by against it, ignoring case)."""
@@ -1428,21 +1584,32 @@ STAT_LABELS = {'queue_open': 'waiting (OPEN, ready or held), queue_open', 'ask_o
 
 
 def stats(qdir=QUEUE_DIR, now=None):
-    """Counts for the journal and the daily report. queue_open is status OPEN only (ready or held), by route."""
+    """Counts for the journal and the daily report. queue_open is status OPEN only (ready or held), by route. applied_*
+    count submissions with a receipt; an application found already made (already_applied) is already_applied_total."""
     now = now or datetime.now(timezone.utc)
     entries = [e for _, e in load(qdir)]
     week = {melbourne_date(now - timedelta(days=d)) for d in range(7)}
     is_open = [e for e in entries if e['status'] == 'OPEN']
-    applied = [e for e in entries if e['status'] == 'APPLIED']
+    applied = [e for e in entries if e['status'] == 'APPLIED' and not found_applied(e)]   # submitted, with a receipt
     return {
         'queue_open': {**{r: sum(1 for e in is_open if e['route'] == r) for r in ROUTES}, 'total': len(is_open)},
         'ask_owner_open': sum(1 for e in entries if e['status'] == 'ASK_OWNER'),
         'uncertain': sum(1 for e in entries if e['status'] == 'UNCERTAIN'),
         'applied_last_7_days': sum(1 for e in applied if e['receipt'].get('at') and melbourne_date(e['receipt']['at']) in week),
         'applied_total': len(applied),
+        'already_applied_total': sum(1 for e in entries if found_applied(e)),   # found already made, not submitted here
         'expired_unsubmitted_total': sum(1 for e in entries if e['status'] == 'EXPIRED'),
         'open_with_letter_to_rewrite': sum(1 for e in is_open if REWRITE_MARK in e['notes']),
     }
+
+
+def found_date(e):
+    """The Melbourne date an already_applied receipt was recorded (found_at, else its at), '' when unreadable."""
+    r = e.get('receipt') or {}
+    try:
+        return melbourne_date(r.get('found_at') or r.get('at')) if (r.get('found_at') or r.get('at')) else ''
+    except Refused:
+        return ''
 
 
 STATES = {'VIC': 'Victoria', 'NSW': 'New South Wales', 'QLD': 'Queensland', 'WA': 'Western Australia', 'SA': 'South Australia',
@@ -1461,13 +1628,15 @@ def state_of(location):
 
 def report(qdir=QUEUE_DIR, now=None, days=7):
     """Applications with a receipt in the last days Melbourne dates (today included), by lane, state and route; the
-    outcomes dated in those days, by kind; and how many entries are UNCERTAIN now."""
+    outcomes dated in those days, by kind; how many entries are UNCERTAIN now; and, apart from the applications,
+    already_applied_found: the applications found already made (already_applied) recorded in those days."""
     if not isinstance(days, int) or isinstance(days, bool) or days < 1:
         raise Refused('--days: a whole number, 1 or more')
     now = now or datetime.now(timezone.utc)
     entries = [e for _, e in load(qdir)]
     window = {melbourne_date(now - timedelta(days=d)) for d in range(days)}
-    got = [e for e in entries if e['status'] == 'APPLIED' and e['receipt'].get('at') and melbourne_date(e['receipt']['at']) in window]
+    got = [e for e in entries if e['status'] == 'APPLIED' and not found_applied(e) and e['receipt'].get('at')
+           and melbourne_date(e['receipt']['at']) in window]
     outcomes = [o.get('kind') for e in entries for o in e.get('outcomes') or [] if isinstance(o, dict) and str(o.get('at') or '')[:10] in window]
     count = lambda names, values: {n: sum(1 for v in values if v == n) for n in names}
     return {'from': min(window), 'to': max(window), 'days': days, 'applied': len(got),
@@ -1475,7 +1644,8 @@ def report(qdir=QUEUE_DIR, now=None, days=7):
             'by_state': count(tuple(STATES) + ('other',), [state_of(e['location']) for e in got]),
             'by_route': count(ROUTES, [e['route'] for e in got]),
             'outcomes': count(OUTCOME_KINDS, outcomes),
-            'uncertain_now': sum(1 for e in entries if e['status'] == 'UNCERTAIN')}
+            'uncertain_now': sum(1 for e in entries if e['status'] == 'UNCERTAIN'),
+            'already_applied_found': sum(1 for e in entries if found_applied(e) and found_date(e) in window)}
 
 
 def _cell(s):
@@ -1539,6 +1709,9 @@ def _parser():
     c = sub.add_parser('answer'); c.add_argument('id', nargs='?', help='the queue entry (leave out at screening, before the entry exists)')
     c.add_argument('--question'); c.add_argument('--option', action='append', help='each option on screen, word for word')
     c.add_argument('--advert-pay', help="the advert's own pay text, for the salary question")
+    c.add_argument('--from-file', metavar='FILE', help='a JSON file {"question": text, "options": [text, ...], "advert_pay": text} '
+                   '(options and advert_pay optional) in place of --question, --option and --advert-pay, so no text passes '
+                   'through the shell')
     c.add_argument('--by', help='who is answering; on an entry next --by started, the runner that started it (only that runner ends the start)')
     c.add_argument('--run', help='the run id of this session: an unanswered question ends a start only in the run that made it')
     c = sub.add_parser('letter'); c.add_argument('id'); c.add_argument('--file', required=True); c.add_argument('--subject'); c.add_argument('--body-file')
@@ -1612,24 +1785,37 @@ def run(a):
         e = mark(qdir, a.id, a.action, a.by, now, a.kind, a.ref, a.at, a.reason or a.note or a.question, a.final, facts, a.thread, a.run)
         print(f"{e['id']}: {e['status']}" + (f" ({e['ask_owner']})" if e['ask_owner'] else ''))
     elif a.cmd == 'answer':
+        if a.from_file is not None:
+            if a.question is not None or a.option or a.advert_pay is not None:
+                raise Usage('queue.py answer: error: --from-file goes alone: put the question, the options and the advert pay in '
+                            'the file, not also in --question, --option or --advert-pay')
+            a.question, a.option, a.advert_pay = answer_file(a.from_file)
         if a.option and not a.question:
             raise Refused('--option needs --question')
+        owner = owner_answer_problems(facts)
+        if owner:
+            raise Refused('nothing answered: facts.json ' + '; '.join(owner) + '. Fix facts.json first (queue.py check names the same)')
+        gate = _sibling('answers')
         if not a.id:   # at screening, before the entry exists: the gate's answer only, nothing is stored
             if not a.question:
                 raise Refused('give an entry id, or --question with the options on screen')
-            r = _sibling('answers').answer(a.question, a.option, facts, pay=a.advert_pay)
+            r = gate.answer(a.question, a.option, facts, pay=a.advert_pay)
             if r['status'] != 'answered':
-                raise Unanswered(f"UNANSWERED: {r['why']}")
+                raise Unanswered(PAY_MISSING if r['why'] == gate.PAY_UNKNOWN else f"UNANSWERED: {r['why']}")
             print(r['answer'])
             print(f"(facts.json -> {r['basis']})", file=sys.stderr)
             return
         path, e = find(qdir, a.id, open_only=True)
-        start = started(e)
         for what, text in [('question', a.question)] + [('option', o) for o in a.option or []]:
             found = text_problems(e, text, facts)
             if found:   # a question or an option typed from a form can carry private details
                 raise Refused(f"not saved: the {what} holds {' and '.join(found)}: the queue is public, so type it again without "
                               'that part (the answer gate reads the words, not the address or number)')
+        if a.question:   # the advert's pay is the runner's to give, not the owner's: nothing is stored, the start stays
+            trial = json.loads(json.dumps(e))
+            tq = set_question(trial, facts, a.question, a.option, a.advert_pay)
+            if tq['status'] != 'answered' and gate.answer(tq['question'], tq['options'], facts, pay=trial.get('advert_pay'))['why'] == gate.PAY_UNKNOWN:
+                raise Unanswered(PAY_MISSING)
         if a.advert_pay and not a.question:
             e['advert_pay'] = ' '.join(a.advert_pay.split())
         q = set_question(e, facts, a.question, a.option, a.advert_pay) if a.question else None
@@ -1637,10 +1823,8 @@ def run(a):
             holder = start_holder(e, a.by, a.run)
             if holder:
                 # Only the runner and run that started it know whether it went (as in mark): nothing is stored, the start stays.
-                why = _sibling('answers').answer(q['question'], q['options'], facts, pay=e.get('advert_pay'))['why']
-                raise Unanswered(f"UNANSWERED: {why}. Do not submit; leave the form. Nothing is stored: {holder}, and only that "
-                                 f"runner ends the start (answer {e['id']} --question ... --by {start.get('by')} --run RUN_ID, or mark "
-                                 f"{e['id']} ask --by {start.get('by')} --run RUN_ID).")
+                why = gate.answer(q['question'], q['options'], facts, pay=e.get('advert_pay'))['why']
+                raise Unanswered(f'UNANSWERED: {why}. Do not submit; leave the form. Nothing is stored. {holder}')
             release_start(e, a.by, now, f"form question with no standing answer: {q['question']}")
         else:
             apply_answers(e, facts)
@@ -1704,6 +1888,7 @@ def run(a):
         print('by route: ' + line(r['by_route']))
         print('outcomes dated in those days: ' + line(r['outcomes']))
         print(f"uncertain now (unknown whether they went): {r['uncertain_now']}")
+        print(f"already applied, found (not counted above): {r['already_applied_found']}")
     elif a.cmd == 'outcome':
         e, added = record_outcome(qdir, a.id, a.kind, a.at, a.by, a.note, now, facts)
         print(f"{e['id']}: {a.kind} on {a.at} " + ('recorded' if added else 'was already recorded'))

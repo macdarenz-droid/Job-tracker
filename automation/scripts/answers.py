@@ -6,14 +6,24 @@ answer(question, options, facts, pay=None, today=None) -> {'answer', 'basis', 's
 
 The gate is strict. A question is 'answered' only when a line of facts.json -> answers clearly covers it (or, for the
 free-text questions marked below, a line of identity, eligibility or education does). Every other question is
-'unanswered', and why says what is missing: the owner answers it once and the line goes into facts.json. Nothing is
-guessed and no option is chosen because it is the nearest one. With the form's options the answer is one of them, word
-for word (several joined by '; ' for a tick list); otherwise the question is 'unanswered'. With no options the answer
+'unanswered', and why says what is missing: the owner answers it once and his answer goes into facts.json -> answers
+-> owner_answers (below). Nothing is guessed and no option is chosen because it is the nearest one. With the form's
+options the answer is one of them, word for word (several joined by '; ' for a tick list); otherwise the question is
+'unanswered'. A Yes or No is chosen only from an option that says Yes or No and nothing more ('Yes.' is one; 'Yes, and
+I hold a forklift licence' or 'No - but willing' is not), and the same holds for 'I agree' and his licence (plain_option).
+With no options the answer
 is the text to type, or for a choice question a short description of the choice; the submitter then runs
 `queue.py answer ID --question ... --option ...` with the options on screen.
 
 Covered (facts.json -> answers unless another block is named):
-  right to work      the option naming the temporary graduate visa or Subclass 485, else the one temporary visa option
+  owner_answers      first, before every rule below: a list of {"question": text, "options": [text, ...] (optional),
+                     "answer": text, "date": "YYYY-MM-DD"}. A question whose text is the same (owner_key: case, spacing,
+                     double quotation marks and a closing ?.:! aside) gets that answer; with options on screen only when
+                     it is one of them (norm), else unanswered. A malformed row answers nothing (owner_answer_problems)
+  right to work      Yes/No 'Do you have the right to work in Australia?' (the legal right, currently, hold) and 'Do
+                     you have full working rights in Australia?': Yes. 'Are you an Australian citizen or permanent
+                     resident?' (or PR, either order): No. 'Unrestricted' and anything more stay unanswered. Otherwise
+                     the option naming the temporary graduate visa or Subclass 485, else the one temporary visa option
                      with no restriction on hours or industry; never citizen, permanent resident, New Zealand or an
                      option saying sponsorship is required. No options: right_to_work.free_text
   sponsorship        "Do you require sponsorship to work in Australia (now)?": No. In the future: unanswered
@@ -57,7 +67,7 @@ from datetime import date, datetime, timedelta, tzinfo
 
 # The lines of facts.json -> answers the gate reads. free_text_cover_letter is not a form answer: the letter is
 # pasted from the queue entry itself.
-KEYS = {'right_to_work', 'future_visa_sponsorship', 'notice_period', 'expected_salary', 'expected_hourly_rate',
+KEYS = {'owner_answers', 'right_to_work', 'future_visa_sponsorship', 'notice_period', 'expected_salary', 'expected_hourly_rate',
         'drivers_licence', 'manual_licence', 'own_car_or_regular_access', 'white_card', 'police_check',
         'pre_employment_medical', 'drug_and_alcohol_screening', 'currently_studying', 'willing_to_relocate',
         'willing_to_travel_or_fifo', 'engineers_australia_membership_or_recognition', 'qualification_questions',
@@ -170,11 +180,20 @@ def _head(value):
     return m.group(1).capitalize() if m else ''
 
 
+def plain_option(option, *heads):
+    """True when an option says one of heads and nothing more: after norm, the head itself with nothing but punctuation
+    after it ('Yes', 'Yes.', 'YES!'). An option that carries further words ('Yes, and I hold a forklift licence', 'No -
+    but willing', 'Yes - 5+ years') says something facts.json may not hold, so it is never chosen."""
+    o = norm(option)
+    return any(re.fullmatch(re.escape(norm(h)) + r'[^\w]*', o) for h in heads)
+
+
 def _choose(head, opts):
-    """The one option that says head ('Yes' or 'No'); '' when not exactly one. With no options: head itself."""
+    """The one option that says head ('Yes' or 'No') and nothing more (plain_option); '' when not exactly one. With no
+    options: head itself."""
     if not opts:
         return head
-    hits = [o for o in opts if re.match(head.lower() + r'\b', norm(o))]
+    hits = [o for o in opts if plain_option(o, head)]
     return hits[0] if len(hits) == 1 else ''
 
 
@@ -338,6 +357,18 @@ def salary_range(option):
 
 # ---------- the subjects ----------
 
+AGREE = ('yes', 'i agree', 'agree', 'i acknowledge', 'acknowledge', 'acknowledged', 'i consent', 'consent', 'i accept', 'accept',
+         'i confirm', 'confirm', 'confirmed', 'true')
+# The options that name his licence and nothing more: 'Full licence' and "Full driver's licence" say only what facts.json
+# holds; 'Yes - full licence with own car and trailer licence' says more.
+LICENCE_OPTIONS = ('yes', 'full', 'open', 'unrestricted', 'car', 'class c', 'automatic', 'full licence', 'full license',
+                   "full driver's licence", "full driver's license", 'full drivers licence', 'full drivers license', 'open licence',
+                   'open license', 'unrestricted licence', 'unrestricted license', 'car licence', 'car license', 'class c licence',
+                   'class c license')
+AUTOMATIC_OPTIONS = ('auto', 'automatic', 'automatic only', 'yes, automatic', 'yes automatic', 'yes, an automatic', 'yes, auto',
+                     'yes, automatic only', 'automatic licence', 'automatic license')
+
+
 def _declaration(q, opts, a):
     """True and correct, privacy, consent to reference, qualification or police checks: Yes. Any other: unanswered.
     None when the question is not a declaration of an approved kind."""
@@ -363,8 +394,7 @@ def _declaration(q, opts, a):
         return _no('facts.json -> answers -> declarations_and_consents does not approve this', 'answers.declarations_and_consents')
     if not opts:
         return _ok('Yes', 'answers.declarations_and_consents')
-    hits = [o for o in opts if re.match(r'(yes|i agree|agree|i acknowledge|acknowledged?|i consent|consent|i accept|accept|i confirm|confirm(ed)?|true)\b', norm(o))
-            and not re.match(r'(i )?(do not|don\'t|disagree|no)\b', norm(o))]
+    hits = [o for o in opts if plain_option(o, *AGREE)]   # 'Yes, and I agree to receive marketing emails' is not one
     return _ok(hits[0], 'answers.declarations_and_consents') if len(hits) == 1 else _no('no single option agrees', 'answers.declarations_and_consents')
 
 
@@ -382,11 +412,42 @@ def _sponsorship(q, opts, a):
     return _ok(pick, 'answers.future_visa_sponsorship') if pick else _no('no single option says No', 'answers.future_visa_sponsorship')
 
 
+# The plain yes/no work-rights questions, as the whole question (q, without its closing ?.:!). Anything more ('unrestricted',
+# 'without restriction', 'for the next 5 years', a citizen or permanent resident question that does not name Australia)
+# is not one of them and goes on to the rule below.
+RTW_YES = re.compile(r"(?:do|does) you (?:currently )?(?:have|hold) (?:the |a )?(?:legal )?right to work in australia"
+                     r"|do you (?:currently )?(?:have|hold) (?:full )?work(?:ing)? rights in australia")
+_CITIZEN = r"(?:an? )?(?:australian )?citizen(?: of australia)?"
+_RESIDENT = r"(?:an? )?(?:australian )?(?:permanent resident|pr)(?: of australia)?"
+RTW_CITIZEN_OR_PR = re.compile(rf"are you {_CITIZEN} or {_RESIDENT}|are you {_RESIDENT} or {_CITIZEN}")
+
+
+def _right_to_work_yes_no(q, opts, rule):
+    """'Do you have the right to work in Australia?' (and 'the legal right', 'full working rights'): Yes, as
+    right_to_work.free_text says full working rights. 'Are you an Australian citizen or permanent resident?' (or PR, in
+    either order): No, as right_to_work.never_choose names both. Only with the options on screen and only a plain Yes
+    or No option; None when the question is not one of these, or no such option is there (the rule below then reads
+    the options)."""
+    if not opts:
+        return None
+    if RTW_YES.fullmatch(q) and re.search(r'full working rights', str(rule.get('free_text') or ''), re.I):
+        pick = _choose('Yes', opts)
+    elif RTW_CITIZEN_OR_PR.fullmatch(q) and 'australia' in q:
+        never = ' '.join(str(x) for x in rule.get('never_choose') or []).lower()
+        pick = _choose('No', opts) if 'citizen' in never and 'permanent resident' in never else ''
+    else:
+        return None
+    return _ok(pick, 'answers.right_to_work') if pick else None
+
+
 def _right_to_work(q, opts, a):
     rule = a.get('right_to_work') or {}
     if not opts:
         free = rule.get('free_text')
         return _ok(free, 'answers.right_to_work.free_text') if free else _no('facts.json -> answers -> right_to_work has no free_text', 'answers.right_to_work')
+    plain = _right_to_work_yes_no(q, opts, rule)
+    if plain:
+        return plain
     if not rule.get('choose'):
         return _no('facts.json -> answers -> right_to_work has no rule for choosing', 'answers.right_to_work')
     sponsor_needed = lambda o: re.search(r'sponsor', o) and not re.search(r"\b(no|not|without|don't|do not|never)\b[^,;.]{0,25}sponsor", o)
@@ -497,7 +558,7 @@ def _licence(q, opts, a):
         if re.search(r'\bauto(matic)?\b', q):   # "manual or automatic?": a choice
             if not opts:
                 return _ok('Automatic', basis)
-            hits = [o for o in opts if re.match(r'auto', norm(o)) or re.fullmatch(r'yes,? (an )?auto\w*( only)?', norm(o))]
+            hits = [o for o in opts if plain_option(o, *AUTOMATIC_OPTIONS)]
             return _ok(hits[0], basis) if len(hits) == 1 else _no('no single option says automatic', basis)
         if not yes_no_question(q):
             return _no('not a yes/no question', basis)
@@ -511,8 +572,7 @@ def _licence(q, opts, a):
         return _no('not a yes/no question', 'answers.drivers_licence')
     if not opts:
         return _ok('Yes', 'answers.drivers_licence')
-    hits = [o for o in opts if re.match(r'(yes|full|open|car|class c|automatic|unrestricted)\b', norm(o))
-            and not re.search(r'manual|provisional|probationary|learner|p ?plate|\bp[12]\b|heavy|\bhr\b|\bmr\b|truck|motor ?cycle|forklift|^no\b', norm(o))]
+    hits = [o for o in opts if plain_option(o, *LICENCE_OPTIONS)]   # only his licence, nothing more
     return _ok(hits[0], 'answers.drivers_licence') if len(hits) == 1 else _no('no single option is his full licence', 'answers.drivers_licence')
 
 
@@ -834,6 +894,85 @@ def _referees(q, opts, a):
     return _ok(first, 'answers.referees')
 
 
+# ---------- the owner's own answers ----------
+
+OWNER_KEYS = ('question', 'options', 'answer', 'date')
+OWNER_BASIS = 'answers.owner_answers'
+
+
+def owner_key(text):
+    """A question as owner_answers compares it: norm (case, spacing, curly quotes), without double quotation marks and
+    without a closing ?, ., : or !."""
+    return ' '.join(norm(text).replace('"', ' ').split()).rstrip(' ?.:!')
+
+
+def _real_date(text):
+    try:
+        return bool(re.fullmatch(r'\d{4}-\d{2}-\d{2}', text)) and bool(date.fromisoformat(text))
+    except ValueError:
+        return False
+
+
+def owner_row_problems(row):
+    """Why one row of facts.json -> answers -> owner_answers cannot be used ([] when it can). A row is {"question":
+    text, "options": [text, ...] (optional: the options he saw), "answer": text, "date": "YYYY-MM-DD"}; with options
+    the answer is one of them."""
+    if not isinstance(row, dict):
+        return ['not an object {question, options, answer, date}']
+    p = [f'unknown key {k} (the keys are question, options, answer and date)' for k in sorted(set(row) - set(OWNER_KEYS))]
+    question, given, options, day = row.get('question'), row.get('answer'), row.get('options'), row.get('date')
+    if not isinstance(question, str) or not owner_key(question):
+        p.append('question: the exact text of the form question')
+    if not isinstance(given, str) or not given.strip():
+        p.append("answer: the owner's answer, as text")
+    if options is not None and (not isinstance(options, list) or not all(isinstance(o, str) and o.strip() for o in options)):
+        p.append('options: a list of the options he saw, each as text')
+    elif options and isinstance(given, str) and given.strip() and not any(norm(o) == norm(given) for o in options):
+        p.append(f'the answer {given!r} is not one of its options')
+    if not (isinstance(day, str) and _real_date(day)):
+        p.append('date: YYYY-MM-DD, the day he gave the answer')
+    return p
+
+
+def owner_answer_problems(facts):
+    """Every shape problem of facts.json -> answers -> owner_answers ([] when it is absent or sound): a list of rows
+    (owner_row_problems), each question once."""
+    rows = ((facts or {}).get('answers') or {}).get('owner_answers')
+    if rows is None:
+        return []
+    if not isinstance(rows, list):
+        return ['answers -> owner_answers: a list of {question, options, answer, date}']
+    out, seen = [], {}
+    for n, row in enumerate(rows, 1):
+        out += [f'answers -> owner_answers row {n}: {x}' for x in owner_row_problems(row)]
+        key = owner_key(row.get('question')) if isinstance(row, dict) and isinstance(row.get('question'), str) else ''
+        if key and key in seen:
+            out.append(f'answers -> owner_answers row {n}: the question is there twice (also row {seen[key]}): keep one answer')
+        elif key:
+            seen[key] = n
+    return out
+
+
+def _owner_answer(question, opts, a):
+    """The owner's own answer to this question (facts.json -> answers -> owner_answers), or None when he gave none. With
+    options on screen the answer is the one option equal to his (norm), else the question is unanswered."""
+    rows = a.get('owner_answers')
+    key = owner_key(question)
+    hits = [r for r in rows if isinstance(r, dict) and isinstance(r.get('question'), str) and owner_key(r['question']) == key] \
+        if isinstance(rows, list) and key else []
+    if not hits:
+        return None
+    if len(hits) > 1 or owner_row_problems(hits[0]):
+        return _no('facts.json -> answers -> owner_answers: the row for this question is not sound (queue.py check names the fault)', OWNER_BASIS)
+    row = hits[0]
+    if not opts:
+        return _ok(row['answer'], OWNER_BASIS)
+    pick = [o for o in opts if norm(o) == norm(row['answer'])]
+    if len(pick) != 1:
+        return _no(f"the owner's answer of {row['date']} is not one of the options on screen (facts.json -> answers -> owner_answers)", OWNER_BASIS)
+    return _ok(pick[0], OWNER_BASIS)
+
+
 # ---------- the gate ----------
 
 def answer(question, options=None, facts=None, pay=None, today=None):
@@ -841,6 +980,7 @@ def answer(question, options=None, facts=None, pay=None, today=None):
 
     options: the choices on screen (none for a free-text question). pay: the advert's own pay text, when the entry
     or the caller knows it (salary only). today: the date to judge the police check by (default: today in Melbourne).
+    The owner's own answers (facts.json -> answers -> owner_answers) go before every other rule.
     """
     facts = facts or {}
     a = facts.get('answers') or {}
@@ -848,6 +988,9 @@ def answer(question, options=None, facts=None, pay=None, today=None):
     opts = [' '.join(str(o).split()) for o in options or [] if str(o).strip()]
     if not q:
         return _no('no question text')
+    owner = _owner_answer(question, opts, a)
+    if owner:
+        return owner
     declared = _declaration(q, opts, a)
     if declared:
         return declared

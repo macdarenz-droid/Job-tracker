@@ -1068,7 +1068,7 @@ class ReportTests(QueueCase):
         self.assertEqual(code, 0)
         self.assertEqual(json.loads(out), {
             'queue_open': {'SEEK': 2, 'EMAIL': 1, 'EMPLOYER_PORTAL': 0, 'EMPLOYER_FORM': 0, 'total': 3},
-            'applied_last_7_days': 1, 'applied_total': 2, 'expired_unsubmitted_total': 1, 'ask_owner_open': 2, 'uncertain': 0,
+            'applied_last_7_days': 1, 'applied_total': 2, 'already_applied_total': 0, 'expired_unsubmitted_total': 1, 'ask_owner_open': 2, 'uncertain': 0,
             'open_with_letter_to_rewrite': 0})
         self.assertIn('waiting (OPEN, ready or held), queue_open: SEEK 2, EMAIL 1, EMPLOYER_PORTAL 0, EMPLOYER_FORM 0, total 3', self.cli('stats')[1])
 
