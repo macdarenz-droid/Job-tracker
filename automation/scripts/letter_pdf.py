@@ -34,11 +34,14 @@ PARAGRAPH_GAP = 9   # points between the blocks of the letter
 
 
 def find_entry(entry_id, qdir=QUEUE_DIR):
-    """The queue entry with this id, open or done."""
+    """The queue entry with this id, open or done. Refused when the id has more than one file (a stale open/ copy of a
+    finished entry, as queue.py check reports it), so a letter is never built from the wrong copy."""
     qdir = Path(qdir)
-    for path in [qdir / 'open' / f'{entry_id}.json'] + sorted((qdir / 'done').glob(f'*/{entry_id}.json')):
-        if path.exists():
-            return read_json(path)
+    paths = [p for p in [qdir / 'open' / f'{entry_id}.json'] + sorted((qdir / 'done').glob(f'*/{entry_id}.json')) if p.exists()]
+    if len(paths) > 1:
+        raise ValueError(f"{len(paths)} files ({', '.join(str(p) for p in paths)}): run queue.py check and remove the stale copy first")
+    if paths:
+        return read_json(paths[0])
     raise ValueError(f'no queue entry with id {entry_id} in {qdir}')
 
 

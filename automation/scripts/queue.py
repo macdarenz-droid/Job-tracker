@@ -37,16 +37,18 @@ question has no standing answer in facts.json (do not submit; leave the form).
 
 Answers come only from facts.json, through answers.py (the one gate checks.py uses too). answer prints the answer to
 give, word for word one of the options given, on stdout; a question it cannot answer prints UNANSWERED: <why> on
-stderr and exits 5, and on an entry it also stores the question, sets ASK_OWNER and ends an unmarked start. With no
-options an answer is the text to type or a short description of the choice: for every multiple-choice question run
-answer with the options on screen.
+stderr and exits 5, and on an entry it also stores the question, sets ASK_OWNER and ends the runner's own unmarked
+start (a start another runner made stays for that runner to mark). With no options an answer is the text to type or
+a short description of the choice: for every multiple-choice question run answer with the options on screen.
 
 next hands out nothing at all while queue.py check finds a problem (for example an entry that is both in open/ and,
 finished, in done/), during the quiet hours, or once the day's cap is used. The cap and the 20-minute SEEK spacing
 count every APPLIED receipt, every UNCERTAIN entry (at its uncertain mark) and every start not yet marked (at the
 start), on the Melbourne date. On the EMAIL route next needs --by, --run and that runner's own unexpired send lock.
 Then it works out every answer of the route's waiting entries again from facts.json as it is now (an entry whose
-answer no longer stands goes to ASK_OWNER; one whose questions are now all answered goes back to OPEN). It never
+answer no longer stands goes to ASK_OWNER; one whose questions are now all answered goes back to OPEN); when that
+rewrites entry files it names them on stderr ("ANSWERS RECOMPUTED from facts.json ...") and, unless a claim with
+--by follows (its git commands cover them), prints the git commands that commit them. It never
 hands out an entry that is not OPEN, has a finished copy in done/, is past its closing date or stated closing time,
 has an unanswered question, repeats an application (the rule below), has a twin at the same employer that a runner
 has started and not marked, is a speculative enquiry once limits.max_speculative_per_week (3 when not set) have been
@@ -72,7 +74,7 @@ Statuses: OPEN (waiting, ready or held), ASK_OWNER (waiting on the owner), UNCER
 in open/, never handed out or expired, counted as an application until "mark ID applied" or "mark ID open --note
 'checked: ...'" settles it), APPLIED, SKIPPED, EXPIRED, FAILED. stats: queue_open counts status OPEN only (ready or
 held), not ASK_OWNER or UNCERTAIN. A start that next --by recorded is released only by the runner that made it
-("mark ID open --by NAME"); another runner may only mark it
+("mark ID open --by NAME", or that runner's own unanswered "answer ID --question"); another runner may only mark it
 applied (with the receipt) or uncertain. expire leaves UNCERTAIN entries and unmarked starts where they are.
 
 Receipts. mark applied --ref is a public record: plain words such as "SEEK confirmation screen shown", never an email
@@ -424,13 +426,28 @@ def apply_answers(e, facts, before=None):
     return e
 
 
-def refresh(qdir, path, e, facts):
-    """Recompute an entry's answers from the facts.json of now and save the file when anything changed."""
+def refresh(qdir, path, e, facts, saved=None):
+    """Recompute an entry's answers from the facts.json of now and save the file when anything changed (its id is then
+    appended to saved, when a list is given)."""
     was = json.dumps([e['status'], e['ask_owner'], e['questions']], sort_keys=True)
     apply_answers(e, facts)
     if json.dumps([e['status'], e['ask_owner'], e['questions']], sort_keys=True) != was:
         save(qdir, e, path)
+        if saved is not None:
+            saved.append(e['id'])
     return e
+
+
+def recompute_notes(saved, qdir, claimed=False):
+    """What next prints on stderr when its recompute rewrote entry files: their ids and, when no claim follows (next
+    without --by, or nothing to hand out), the git commands that commit them. The claim's commands cover them too."""
+    if not saved:
+        return []
+    lines = [f'ANSWERS RECOMPUTED from facts.json, files rewritten ({len(saved)}): ' + ', '.join(saved)]
+    if claimed:
+        return lines + ["(the claim's git commands below commit them with it)"]
+    return lines + ['Commit and push them (run from this folder):',
+                    '  ' + git_command([qdir], 'queue: answers recomputed from facts.json')]
 
 
 # ---------- entries ----------
@@ -990,13 +1007,14 @@ def handout_notes(e, qdir, by=None):
     return lines
 
 
-def next_entry(route, qdir=QUEUE_DIR, config=None, now=None, by=None, prior=None, facts=None, run=None):
+def next_entry(route, qdir=QUEUE_DIR, config=None, now=None, by=None, prior=None, facts=None, run=None, saved=None):
     """The single next entry to submit on this route. Raises Refused, CapReached or NothingToDo.
 
     prior is the list of applications made outside the queue (the entries of prior_outreach.json). Nothing is handed
     out while check_problems finds a problem, in the quiet hours, or (EMAIL) without this runner's send lock. With
     facts, every waiting entry on the route then has its answers worked out again from them, so a changed facts.json
-    holds back an entry whose answer no longer stands (and releases one whose questions are now all answered).
+    holds back an entry whose answer no longer stands (and releases one whose questions are now all answered). The
+    ids of the entries whose files that rewrote are appended to saved, when a list is given.
     """
     if route not in ROUTES:
         raise Refused(f'route: one of {", ".join(ROUTES)}')
@@ -1016,7 +1034,7 @@ def next_entry(route, qdir=QUEUE_DIR, config=None, now=None, by=None, prior=None
         if e['route'] != route or e['status'] not in OPEN_STATUSES:
             continue
         if facts is not None:
-            refresh(qdir, path, e, facts)   # answers follow the facts.json of now, not of the day the entry was added
+            refresh(qdir, path, e, facts, saved)   # answers follow the facts.json of now, not of the day the entry was added
         why = blockers(e, ctx)
         if why:
             held[e['id']] = why
@@ -1204,10 +1222,11 @@ def set_question(e, facts, question, options=None, pay=None):
 
 
 def release_start(e, by, now, note):
-    """End an unmarked start on the entry (its last attempt is 'started'), so that it is not held as under way."""
+    """End an unmarked start on the entry (its last attempt is 'started'), so that it is not held as under way. Only
+    the runner that made the start may end it (the caller checks by against it, ignoring case)."""
     last = e['attempts'][-1] if e['attempts'] else {}
     if last.get('result') == 'started':
-        e['attempts'].append({'at': iso(now), 'by': by or last.get('by') or 'queue.py answer', 'result': 'asked_owner', 'note': ' '.join(note.split())})
+        e['attempts'].append({'at': iso(now), 'by': ' '.join(str(by).split()), 'result': 'asked_owner', 'note': ' '.join(note.split())})
 
 
 # ---------- reports ----------
@@ -1326,7 +1345,7 @@ def _parser():
     c = sub.add_parser('answer'); c.add_argument('id', nargs='?', help='the queue entry (leave out at screening, before the entry exists)')
     c.add_argument('--question'); c.add_argument('--option', action='append', help='each option on screen, word for word')
     c.add_argument('--advert-pay', help="the advert's own pay text, for the salary question")
-    c.add_argument('--by', help='who is answering (recorded when an unmarked start is ended)')
+    c.add_argument('--by', help='who is answering; on an entry next --by started, the runner that started it (only that runner ends the start)')
     c = sub.add_parser('letter'); c.add_argument('id'); c.add_argument('--file', required=True); c.add_argument('--subject'); c.add_argument('--body-file')
     c.add_argument('--to', help='the address the email goes to'); c.add_argument('--evidence-url', help='the page where the employer publishes that address')
     c.add_argument('--allow', action='append', metavar='PHRASE', help='a flagged phrase this text may keep, for example the visa end date when the advert asks for it')
@@ -1381,10 +1400,16 @@ def run(a):
     elif a.cmd == 'show':
         _show(find(qdir, a.id)[1])
     elif a.cmd == 'next':
-        e = next_entry(a.route, qdir, config, now, a.by, prior(), facts, a.run)
+        saved = []
+        try:
+            e = next_entry(a.route, qdir, config, now, a.by, prior(), facts, a.run, saved)
+        except Refused:
+            for line in recompute_notes(saved, qdir):
+                print(line, file=sys.stderr)
+            raise
         _show(e)
         sys.stdout.flush()
-        for line in handout_notes(e, qdir, a.by):
+        for line in recompute_notes(saved, qdir, claimed=bool(a.by)) + handout_notes(e, qdir, a.by):
             print(line, file=sys.stderr)
     elif a.cmd == 'mark':
         e = mark(qdir, a.id, a.action, a.by, now, a.kind, a.ref, a.at, a.reason or a.note or a.question, a.final, facts, a.thread)
@@ -1402,8 +1427,15 @@ def run(a):
             print(f"(facts.json -> {r['basis']})", file=sys.stderr)
             return
         path, e = find(qdir, a.id, open_only=True)
+        start = started(e)
         q = set_question(e, facts, a.question, a.option, a.advert_pay) if a.question else None
         if q is not None and q['status'] != 'answered' and q.get('mandatory', True):
+            if start and not same_name(start.get('by'), a.by):
+                # Only the runner that started it knows whether it went (as in mark): nothing is stored, the start stays.
+                why = _sibling('answers').answer(q['question'], q['options'], facts, pay=e.get('advert_pay') or None)['why']
+                raise Unanswered(f"UNANSWERED: {why}. Do not submit; leave the form. Nothing is stored: {e['id']} was started by "
+                                 f"{start.get('by')} at {start.get('at')} and not marked, and only that runner ends the start "
+                                 f"(answer {e['id']} --question ... --by {start.get('by')}, or mark {e['id']} ask --by {start.get('by')}).")
             release_start(e, a.by, now, f"form question with no standing answer: {q['question']}")
         else:
             apply_answers(e, facts)
