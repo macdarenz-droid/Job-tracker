@@ -1,0 +1,25 @@
+{
+ "_about": "Run 20261114T135900Z: migration of the local finds of 11 to 14 Nov 2026 into the queue (owner, 15 Nov 2026). Each find re-screened under RUNBOOK step 5 (13 Nov rules). Adverts re-checked 15 Nov 2026 Melbourne time.",
+ "rejected": [
+  {"seek_id": "95883146", "company": "Home Toolkit Pty Ltd", "title": "Structural Engineer, Residential Building Inspections (Grad 1-3 years)", "reason": "No lane: casual forensic structural inspection of houses, not civil drafting, materials testing or a civil site or project engineer role (seek.py lane: none). Its hourly-rate and hours-per-week questions also have no standing answer."},
+  {"seek_id": "95876045", "company": "Structability", "title": "Civil/Structural Engineer (Rockdale)", "reason": "Repeat block: same employer and equivalent role applied for on SEEK on 26 Sep 2026 (prior_outreach.json), inside 90 days. Also no lane (insurance damage reports and structural design; seek.py lane: none)."},
+  {"linkedin_id": "4489558729", "company": "Edge Building Solutions Pty Ltd", "title": "Junior to Mid-Level Fire & Hydraulic Engineer", "reason": "No lane: building services fire and hydraulic design, not civil drafting, testing or civil site work."},
+  {"linkedin_id": "4487422784", "company": "Residential Engineering (Five Group)", "title": "Structural Site Engineer (Canberra or Goulburn)", "reason": "No lane: does not welcome graduates (LinkedIn seniority Associate) and asks for site inspection experience in the Australian construction industry; residential structural inspections. Matching SEEK advert not found in a 14-day search."},
+  {"company": "Halex Group Pty Ltd", "title": "Speculative enquiry: junior civil draftsperson", "reason": "No published application address: the only address found is a co-founder's personal contact on the contact page, and the drafting advert expired in October. Speculative enquiries go only to an address published for applications."},
+  {"seek_id": "95841578", "company": "Power On Cabling", "title": "Civil Site Engineer (Perth, FIFO)", "reason": "No lane: immediate-start qualified site engineer running programmes in Microsoft Project, variations and EOTs; the advert does not welcome graduates (seek.py lane: none). Same decision as the 13 Nov import."},
+  {"seek_id": "95870684", "company": "B & S Brothers Enterprises Pty Ltd", "title": "Civil Engineering Draftsperson (Melton)", "reason": "Mandatory bar: minimum 3 years experience stated as a requirement. Advert still open."},
+  {"url": "https://jobs.mammoet.com/careers-home/jobs/9300", "company": "Mammoet Australia", "title": "Graduate Engineer (Henderson WA)", "reason": "Advert page no longer shows the job (closed); was also no lane (heavy lift and crane engineering) at the 13 Nov import."},
+  {"company": "PAD Contracting (PAD Civil)", "title": "Graduate / Site Engineer - Civil & Hydraulics (Thornbury)", "reason": "Advert could not be confirmed open: not found by the SEEK search API in the last 31 days, Jora blocks the job page, only stale search-engine snippets remain."},
+  {"seek_id": "95815474", "company": "Stanfield's Real Property Drafting", "title": "Cadet Survey Draftsperson", "reason": "No lane: survey and real property drafting, not civil design drafting. Same decision as the 13 Nov import."}
+ ],
+ "already_in_queue_not_re_added": [
+  "Quantum Civil speculative enquiry (quantum-civil-...-bbcf357c, ASK_OWNER)",
+  "Ferrycarrig Construction (ASK_OWNER)", "J&P Building Solutions seek-95352132 (ASK_OWNER, open to 18 Nov)",
+  "McConnell Dowell seek-95705736 (OPEN)", "Nassima Design Group (ASK_OWNER)", "Portal Contractors (ASK_OWNER)",
+  "Cardinia Shire Council seek-95866809 (ASK_OWNER)", "Civilivic seek-95842971 (OPEN)", "Cono Services seek-95871692 (ASK_OWNER)",
+  "PCP Solutions seek-95872340 (ASK_OWNER)"
+ ],
+ "already_settled_in_queue": [
+  "The BMD Group seek-95835638 (SKIPPED)", "City of Moreton Bay seek-95865921 (SKIPPED)", "Griffith City Council (SKIPPED)"
+ ]
+}

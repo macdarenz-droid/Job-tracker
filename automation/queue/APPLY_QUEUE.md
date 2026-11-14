@@ -18,20 +18,23 @@ Written by `automation/scripts/queue.py render` from the files in `open/`. Do no
 | 10 | engineer | Jaydo Construction Pty Ltd | Site Engineer - Urban Development - EOI 2027 | Keilor Park, Melbourne VIC | 2026-11-26 (listing expiry) | [seek-95514711](https://www.seek.com.au/job/95514711) |  |
 | 11 | engineer | Central Vic Civil Pty Ltd | Junior Project Manager | Ballarat VIC | 2026-11-19 (listing expiry) | [seek-95372255](https://www.seek.com.au/job/95372255) |  |
 
-## EMAIL (2 open)
+## EMAIL (4 open)
 
 | # | Lane | Company | Role | Location | Closes | Link | Note |
 |---|---|---|---|---|---|---|---|
 | 1 | drafter | Permadec Pty Ltd | Civil Design Drafter, Formwork | Melbourne VIC (fully remote) | 2026-11-18 (listing expiry) | [seek-95337660](https://www.seek.com.au/job/95337660) |  |
 | 2 | engineer | Allen Price Pty Ltd | Civil Engineer | Wollongong, Illawarra & South Coast NSW | 2026-12-10 (listing expiry) | [seek-95798711](https://www.seek.com.au/job/95798711) |  |
+| 3 | drafter | Langtree Consulting | Speculative enquiry: junior civil drafter | West End, Townsville QLD | not stated | [langtree-consulting-speculative-enquiry-junior-civil-drafter-7ba3bbdb](https://www.langtreeconsulting.com.au/careers) |  |
+| 4 | drafter | vT Consulting Engineers | Speculative enquiry: junior civil designer | Carina, Brisbane QLD | not stated | [vt-consulting-engineers-speculative-enquiry-junior-civil-designe-8614d509](https://vtce.com.au/careers-with-vtce/) |  |
 
-## EMPLOYER_PORTAL (3 open)
+## EMPLOYER_PORTAL (4 open)
 
 | # | Lane | Company | Role | Location | Closes | Link | Note |
 |---|---|---|---|---|---|---|---|
 | 1 | technician | Coffey Testing Pty Ltd | Construction Materials Testing Technician, Entry-Level | Werribee, Melbourne VIC | 2026-11-20 (listing expiry) | [seek-95393367](https://www.seek.com.au/job/95393367) |  |
-| 2 | engineer | McConnell Dowell Australia | Junior Project Engineer - Traffic | Yan Yean Road Upgrade project office (Yarrambat/Doreen), Melbourne VIC | 2026-12-05 (listing expiry) | [seek-95705736](https://www.seek.com.au/job/95705736) |  |
-| 3 | engineer | Martinus Rail | Graduate Engineer (Inland Rail, Albury to Parkes) | Wagga Wagga / Forbes, NSW | 2026-12-04 (listing expiry) | [seek-95695784](https://www.seek.com.au/job/95695784) |  |
+| 2 | technician | WSP | Laboratory Technician in Training | Western Australia (geotechnical laboratory network) | not stated | [wsp-laboratory-technician-in-training-7909dd6d](https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/96985) |  |
+| 3 | engineer | McConnell Dowell Australia | Junior Project Engineer - Traffic | Yan Yean Road Upgrade project office (Yarrambat/Doreen), Melbourne VIC | 2026-12-05 (listing expiry) | [seek-95705736](https://www.seek.com.au/job/95705736) |  |
+| 4 | engineer | Martinus Rail | Graduate Engineer (Inland Rail, Albury to Parkes) | Wagga Wagga / Forbes, NSW | 2026-12-04 (listing expiry) | [seek-95695784](https://www.seek.com.au/job/95695784) |  |
 
 ## EMPLOYER_FORM (0 open)
 
