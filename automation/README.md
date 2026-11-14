@@ -53,13 +53,16 @@ coordinator, student-only roles, formal graduate programs.
 | `automation/config.json` | Lanes, search terms, filters, fit rubric, daily caps, writing rules, statuses |
 | `automation/facts.json` | The only allowed source of claims about Marc, and his standing answers for forms (`answers`) |
 | `automation/queue/` | The apply queue: `open/`, `done/`, `APPLY_QUEUE.md`, `SEND_LOCK.json` |
-| `automation/scripts/queue.py` | The only tool that writes the queue |
+| `automation/scripts/queue.py` | The only tool that writes the queue (claims, marks, answers, outcomes, send lock, report) |
+| `automation/scripts/answers.py` | The one answer gate: every form answer comes from `facts.json` through it; `queue.py` and `checks.py` both use it |
+| `automation/scripts/letter_pdf.py` | One-page cover-letter PDF for an email application, from a queue entry |
 | `automation/scripts/seek.py` | SEEK search and job details, title prefilter, `lane_for` |
 | `automation/scripts/checks.py` | Tone, length and truth checks before anything is queued or sent |
 | `automation/scripts/resume.py` | Builds the three resume variants from `facts.json` into `documents/resume/` |
 | `automation/SEEK_PROFILE.md` | Text for the SEEK profile so it matches the resume |
 | `automation/scripts/tracker.py`, `publish.py` | Tracker client and record builder (history view; never a gate) |
-| `automation/scripts/compact_pdf.py`, `render_pdf.py`, `email_html.py` | Letter PDFs and email HTML |
+| `automation/scripts/email_html.py` | Email HTML |
+| `automation/scripts/compact_pdf.py`, `render_pdf.py` | Retired for applications (attach `documents/resume/` and `letter_pdf.py` output instead) |
 | `automation/scripts/journal.py` | Run journal `automation/journal.jsonl` and `automation/runs/<id>/` |
 | `automation/prior_outreach.json` | Applications already made (from receipts), for the duplicate check |
 | `automation/tests/` | `cd automation && python3 -m unittest discover -s tests` |

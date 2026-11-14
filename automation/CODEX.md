@@ -21,7 +21,7 @@ Read current remote files each tick; never substitute an old local checkout.
 Root `AGENTS.md` applies. A D1 `expected_version` check prevents a stale save; it does not
 prevent two workers from sending to different recipients simultaneously. A row's `SENDING`
 status is not a shared global lease. Since 13 November 2026 the lease is the lock file
-`automation/queue/SEND_LOCK.json`, taken by a pushed commit (`APPLY.md` section 6). The earlier
+`automation/queue/SEND_LOCK.json`, taken with `queue.py lock take` and a pushed commit (`APPLY.md` section 6). The earlier
 "canonical-journal lease" is retired: it had no implementation any runner could reach, and
 63 of 127 runs named it as the reason no email went out.
 Complete the current queue, tracker and Gmail duplicate checks immediately before sending.
@@ -57,18 +57,11 @@ an ambiguous outcome into a retry or change routes to bypass a prior application
 - Never claim certificates or other files are attached unless the actual final pack includes them.
   Employer closing dates in the advert take precedence over later job-board metadata expiry.
 
-## Current continuation
+## Records made before 13 November 2026
 
-Review `runs/20260928T0123Z/review-codex.json` and `.md` before selecting those records.
-The audit found three mandatory failures (Waverley, Melbourne Truss, Excel), unresolved
-mandatory knowledge/licence requirements for Vincent, and an unverified qualification-attachment
-claim in Gunnedah's pack. JHA passed content review conditionally and still needs a fresh
-specific vacancy/recipient check plus every normal send gate. Preserve all newer real outcomes.
-
-The guarded publisher on main can apply dated research and narrow review holds through its
-existing private Actions secret. It reads live state, checks row version/status, preserves
-documents/history/attribution, uses expected_version, and verifies the entire saved state.
-If it rejects a changed record, reconcile the new evidence instead of repeating the write.
+Tracker records from the 28 September review (JHA, Waverley, Gunnedah and others) are history.
+Do not send or submit anything from them: an application goes out only through the apply queue
+(`APPLY.md` section 3), with its caps, duplicate checks and send lock.
 
 ## Verification and checkpoint
 
