@@ -24,22 +24,38 @@
  "questions": [
   {
    "question": "Do you have current working rights that allows you to work in the country to are applying to?",
-   "options": [],
-   "answer": "Subclass 485 Temporary Graduate visa with full working rights until December 2027. No sponsorship needed.",
-   "basis": "answers.right_to_work.free_text",
-   "status": "answered"
+   "options": [
+    "Yes",
+    "No - I need to apply for working rights",
+    "I have temporary working rights"
+   ],
+   "answer": "",
+   "basis": "answers.right_to_work.choose",
+   "status": "unanswered"
   },
   {
    "question": "How many years' experience do you have in your current occupation?",
-   "options": [],
-   "answer": "2 years",
+   "options": [
+    "10+ years",
+    "5 - 9 years",
+    "1 - 5 Years",
+    "0 - 1 years"
+   ],
+   "answer": "",
    "basis": "answers.owner_answers",
-   "status": "answered"
+   "status": "unanswered"
   },
   {
    "question": "Which of the following best describes your highest qualification - relevant to the position of Trainee Civil Drafter?",
-   "options": [],
-   "answer": "Bachelor degree",
+   "options": [
+    "Certificate",
+    "Diploma Degree",
+    "Bachelor Degree",
+    "Masters or PhD",
+    "I have a qualification that isn't listed",
+    "I don't have a qualification"
+   ],
+   "answer": "Bachelor Degree",
    "basis": "answers.owner_answers",
    "status": "answered"
   },
@@ -65,8 +81,8 @@
    "status": "answered"
   }
  ],
- "status": "OPEN",
- "ask_owner": "",
+ "status": "ASK_OWNER",
+ "ask_owner": "No standing answer for 2 form questions: Do you have current working rights that allows you to work in the country to are applying to? (options: Yes / No - I need to apply for working rights / I have temporary working rights) | How many years' experience do you have in your current occupation? (options: 10+ years / 5 - 9 years / 1 - 5 Years / 0 - 1 years)",
  "attempts": [
   {
    "at": "2026-11-14T21:36:55Z",
@@ -74,6 +90,12 @@
    "result": "started",
    "note": "",
    "run": "20261114T213411Z"
+  },
+  {
+   "at": "2026-11-14T21:38:31Z",
+   "by": "Grok",
+   "result": "asked_owner",
+   "note": "form question with no standing answer: Do you have current working rights that allows you to work in the country to are applying to?"
   }
  ],
  "receipt": {},
