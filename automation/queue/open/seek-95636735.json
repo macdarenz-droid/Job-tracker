@@ -53,7 +53,15 @@
  ],
  "status": "OPEN",
  "ask_owner": "",
- "attempts": [],
+ "attempts": [
+  {
+   "at": "2026-11-14T21:38:41Z",
+   "by": "Grok",
+   "result": "started",
+   "note": "",
+   "run": "20261114T213411Z"
+  }
+ ],
  "receipt": {},
  "created_by": "import_backlog.py",
  "created_at": "2026-11-13T00:40:00Z",
