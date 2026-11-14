@@ -1,0 +1,195 @@
+[
+ {
+  "id": "1a2d0407-f766-43c3-9946-1623c651be1f",
+  "key": "manual:1a2d0407-f766-43c3-9946-1623c651be1f",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261114T0310Z",
+  "created_at": "2026-11-14T03:21:27.000Z",
+  "updated_at": "2026-11-14T03:21:27.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Residential_Engineering_Structural_Site_Engineer_Cover_Letter.pdf",
+    "sha256": "0ebed13c6ee2f70c68942df2e33eed8325481ff9ac556607c5c43a0d450086a7",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Residential_Engineering_Resume.pdf",
+    "sha256": "74966d6ce31a11114c55addd479f0b0ee7811f7aa1ecbd232e2eddacdf821dfc",
+    "stored_in": "local:/workspace/job-finds",
+    "note": "one page resume built from facts.json"
+   }
+  ],
+  "company": "Residential Engineering",
+  "role": "Structural Site Engineer",
+  "location": "Canberra ACT or Goulburn NSW (field based)",
+  "job_url": "https://au.linkedin.com/jobs/view/4487422784",
+  "company_url": "https://residentialengineering.com.au/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_LINKEDIN_AND_SEEK",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://au.linkedin.com/jobs/view/4487422784",
+  "contact_verified_at": "2026-11-14T03:21:27.000Z",
+  "contact_confidence": "none",
+  "subject": "Structural Site Engineer, Canberra or Goulburn (LinkedIn 4487422784)",
+  "email_body": "",
+  "fit": [
+   "Residential Engineering (40+ years of structural, geotechnical, inspection and survey services for residential construction in NSW; backed by Five Group) is hiring a field based Structural Site Engineer for Canberra ACT or Goulburn NSW: structural inspections on residential projects, inspection reports with photos, liaising with builders, and structural design (concrete, steel, timber) in quieter periods.",
+   "It asks for a tertiary qualification in Civil or Structural Engineering, a driver's licence and willingness to travel; Marc's BSCE (2019), Advanced Diploma (Feb 2026), 2019 to 2020 site inspection, quality check and drawing review work, and licence fit the core of the role.",
+   "Listed on LinkedIn (seniority Associate) on 10 Nov 2026 and on SEEK; no years of experience stated."
+  ],
+  "gaps": [
+   "No Australian site inspection experience",
+   "Limited structural design (concrete, steel, timber) beyond study",
+   "Relocation to Canberra or Goulburn unconfirmed",
+   "No asbestos or silica awareness training on record"
+  ],
+  "match_score": {
+   "percent": 63,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Residential Engineering (40+ years of structural, geotechnical, inspection and survey services for residential construction in NSW; backed by Five Group) is hiring a field based Structural Site Engineer for Canberra ACT or Goulburn NSW: structural inspections on residential projects, inspection reports with photos, liaising with builders, and structural design (concrete, steel, timber) in quieter periods.",
+    "It asks for a tertiary qualification in Civil or Structural Engineering, a driver's licence and willingness to travel; Marc's BSCE (2019), Advanced Diploma (Feb 2026), 2019 to 2020 site inspection, quality check and drawing review work, and licence fit the core of the role.",
+    "Listed on LinkedIn (seniority Associate) on 10 Nov 2026 and on SEEK; no years of experience stated."
+   ],
+   "caution": "The advert asks for site inspection experience within the Australian construction industry and knowledge of Australian residential practice and Standards; Marc's inspection work was in the Philippines (scored as an Australian experience gap). Needs relocation to Canberra or Goulburn and extensive regional driving (Marc to confirm). Asbestos and silica awareness training is ideal; none on record."
+  },
+  "advert": {
+   "source": "linkedin",
+   "listed_at": "2026-11-10",
+   "expires_at": "",
+   "verified_at": "2026-11-14T03:21:27.000Z",
+   "apply_instructions": "Apply through the LinkedIn advert https://au.linkedin.com/jobs/view/4487422784 (or the matching SEEK listing, Structural Site Engineer, Residential Engineering, Canberra ACT). The advert says Five Group Talent Acquisition recruits directly; no application email or named hiring manager is published (only admin@reseng.com.au, which does not say it takes applications), so no email was prepared. Nothing was submitted.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Search Gmail in:anywhere for Residential Engineering, reseng.com.au and Five Group before applying (Gmail was not reachable on this tick)",
+   "Confirm Marc is willing to relocate to Canberra or Goulburn for a field based role with extensive regional travel",
+   "Open LinkedIn job 4487422784 (also listed on SEEK as Structural Site Engineer, Residential Engineering, Canberra ACT) and apply with the cover letter and resume from this folder",
+   "Answer work rights as Subclass 485, full working rights to December 2027; licence yes; asbestos and silica awareness training: none on record (Marc to confirm)",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nTick 20261114T0310Z: SEEK 3 day sweep (939 seen, 186 prefilter, 80 details; only 1 never seen before: D.A. Abcede & Associates 'Civil Engineers', a Philippine firm with no Australian location, not kept); open web first: LinkedIn guest listings Australia wide (12 keywords last 3 days plus 20 keywords last 7 days, about 340 listings, filtered against tracker, job finds and run history), web searches for Victorian council graduate roles and junior civil drafting roles, employer careers pages; Jora blocked (bot check), GradConnection now redirects to SEEK. Found on the open web: LinkedIn guest job listings (keyword site engineer, last 7 days) showed Residential Engineering's Structural Site Engineer (LinkedIn 4487422784, posted 10 Nov 2026); a web search confirmed the same advert on SEEK (Canberra ACT, listed about three days earlier). Never in the tracker, job finds or run history. Employer website and careers page read: no application email or recruiter name. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere before acting. Dedupe: tracker.py check new for this employer; not in /workspace/job-finds, prior_outreach.json, earlier run files or the journal. Cover letter drafted from facts.json only; checks.py facts OK and tone OK (letter under 340 words); cover letter and one page resume rendered and read back (1 page each). Status READY_JEREMIE_EMPLOYER_PORTAL: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Inspection experience? → Site inspections, safety checks and quality monitoring on Philippine projects (2019 to 2020); not yet in Australia.\n• Structural design? → Structural principles in the BSCE; reviewed structural and architectural drawings on site; no commercial design yet.\n• Move and travel? → Driver's licence and own transport; open to discussing relocation to Canberra or Goulburn; Marc to confirm.\n• Work rights? → Subclass 485, full working rights until December 2027.\n• Software? → AutoCAD and Civil 3D from the Advanced Diploma (Feb 2026); Revit modelling; drafting is coursework, not commercial.",
+  "how_found": "Tick 20261114T0310Z: SEEK 3 day sweep (939 seen, 186 prefilter, 80 details; only 1 never seen before: D.A. Abcede & Associates 'Civil Engineers', a Philippine firm with no Australian location, not kept); open web first: LinkedIn guest listings Australia wide (12 keywords last 3 days plus 20 keywords last 7 days, about 340 listings, filtered against tracker, job finds and run history), web searches for Victorian council graduate roles and junior civil drafting roles, employer careers pages; Jora blocked (bot check), GradConnection now redirects to SEEK. Found on the open web: LinkedIn guest job listings (keyword site engineer, last 7 days) showed Residential Engineering's Structural Site Engineer (LinkedIn 4487422784, posted 10 Nov 2026); a web search confirmed the same advert on SEEK (Canberra ACT, listed about three days earlier). Never in the tracker, job finds or run history. Employer website and careers page read: no application email or recruiter name. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere before acting. Dedupe: tracker.py check new for this employer; not in /workspace/job-finds, prior_outreach.json, earlier run files or the journal. Cover letter drafted from facts.json only; checks.py facts OK and tone OK (letter under 340 words); cover letter and one page resume rendered and read back (1 page each). Status READY_JEREMIE_EMPLOYER_PORTAL: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Inspection experience? → Site inspections, safety checks and quality monitoring on Philippine projects (2019 to 2020); not yet in Australia.",
+   "Structural design? → Structural principles in the BSCE; reviewed structural and architectural drawings on site; no commercial design yet.",
+   "Move and travel? → Driver's licence and own transport; open to discussing relocation to Canberra or Goulburn; Marc to confirm.",
+   "Work rights? → Subclass 485, full working rights until December 2027.",
+   "Software? → AutoCAD and Civil 3D from the Advanced Diploma (Feb 2026); Revit modelling; drafting is coursework, not commercial."
+  ],
+  "checked_at": "2026-11-14T03:21:27.000Z",
+  "seek_id": null,
+  "duplicate_key": "residential engineering|structural site engineer",
+  "preparation_only": true,
+  "found_at": "2026-11-14T14:21+11:00 AEDT"
+ },
+ {
+  "id": "449070a1-4963-4f8a-9314-b1752a68352c",
+  "key": "manual:449070a1-4963-4f8a-9314-b1752a68352c",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261114T0310Z",
+  "created_at": "2026-11-14T03:21:37.000Z",
+  "updated_at": "2026-11-14T03:21:37.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_vT_Consulting_Engineers_Civil_Designer_Cover_Letter.pdf",
+    "sha256": "53e38342d91675685a535bafac82b85d727a5902ac15973660b60ce1d700867a",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_vT_Consulting_Engineers_Resume.pdf",
+    "sha256": "74966d6ce31a11114c55addd479f0b0ee7811f7aa1ecbd232e2eddacdf821dfc",
+    "stored_in": "local:/workspace/job-finds",
+    "note": "one page resume built from facts.json"
+   }
+  ],
+  "company": "vT Consulting Engineers",
+  "role": "Speculative enquiry: junior civil designer / graduate civil engineer",
+  "location": "Carina, Brisbane QLD",
+  "job_url": "https://vtce.com.au/careers-with-vtce/",
+  "company_url": "https://vtce.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "OPEN_CAREERS_EOI_NO_SPECIFIC_ADVERT",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "Andrew van Tonder",
+  "recipient_role": "Director",
+  "recipient_email": "admin@vtce.com.au",
+  "contact_email": "admin@vtce.com.au",
+  "contact_evidence_url": "https://vtce.com.au/careers-with-vtce/",
+  "contact_verified_at": "2026-11-14T03:21:37.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Junior civil designer enquiry, Marc Masarate",
+  "email_body": "Dear Andrew,\n\nYour careers page says vT Consulting Engineers is always looking for people from cadet level up, with Civil Designer and Civil Engineer listed for the civil team, so I'm writing to ask about a junior civil design role.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, where I designed and documented road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD. I also hold a Bachelor of Science in Civil Engineering (Philippines, 2019). From 2019 to 2020 I worked on site in the Philippines as a project-in-charge engineer and then a field engineer, reviewing drawings and carrying out inspections and quality checks. I live in Melton VIC, hold a White Card and a driver's licence, and have full working rights to December 2027 on a Subclass 485 visa. I'm open to discussing relocation to Brisbane.\n\nYour Augustine Heights State School work, with bulk earthworks, stormwater networks, council road design and modified pavements, is the kind of civil documentation I trained in. My design work so far is from coursework rather than commercial projects. Would you be open to a short call? I've attached my resume and cover letter.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio\n",
+  "fit": [
+   "vT Consulting Engineers (Carina, Brisbane; founded 2013 by Director Andrew van Tonder, RPEQ civil and structural) is a civil and structural consultancy whose civil services cover earthworks, roadworks, pavement design, stormwater drainage, sewer and water reticulation and development approvals.",
+   "Its careers page says it is always on the lookout for people from cadets to senior level and lists Civil Designer and Civil Engineer for the civil team, asking for a cover letter and resume to admin@vtce.com.au. That matches Marc's Advanced Diploma coursework (road geometry, earthworks, pavement, stormwater in Civil 3D and AutoCAD) and BSCE.",
+   "No specific advert or closing date, so this is a clearly labelled speculative enquiry to the inbox the careers page names; Brisbane needs relocation (open to discussing)."
+  ],
+  "gaps": [
+   "No commercial civil design experience",
+   "No Australian work experience",
+   "12d Model not on record",
+   "Relocation to Brisbane unconfirmed"
+  ],
+  "match_score": {
+   "percent": 66,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "vT Consulting Engineers (Carina, Brisbane; founded 2013 by Director Andrew van Tonder, RPEQ civil and structural) is a civil and structural consultancy whose civil services cover earthworks, roadworks, pavement design, stormwater drainage, sewer and water reticulation and development approvals.",
+    "Its careers page says it is always on the lookout for people from cadets to senior level and lists Civil Designer and Civil Engineer for the civil team, asking for a cover letter and resume to admin@vtce.com.au. That matches Marc's Advanced Diploma coursework (road geometry, earthworks, pavement, stormwater in Civil 3D and AutoCAD) and BSCE.",
+    "No specific advert or closing date, so this is a clearly labelled speculative enquiry to the inbox the careers page names; Brisbane needs relocation (open to discussing)."
+   ],
+   "caution": "No specific open vacancy is advertised, only a standing careers invitation. Brisbane relocation from Melton is needed (Marc to confirm). Design experience is coursework only (said honestly)."
+  },
+  "advert": {
+   "source": "open_web",
+   "listed_at": "",
+   "expires_at": "",
+   "verified_at": "2026-11-14T03:21:37.000Z",
+   "apply_instructions": "Speculative email to admin@vtce.com.au, the address the careers page (https://vtce.com.au/careers-with-vtce/) gives for cover letters and resumes; letter addressed to Director Andrew van Tonder (named on https://vtce.com.au/about/). An upload form on the careers page is the alternative. Nothing was sent.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Search Gmail in:anywhere for vT Consulting Engineers, vTCE and vtce.com.au before sending (Gmail was not reachable on this tick)",
+   "Confirm Marc is open to relocating to Brisbane (South East Queensland) for a junior civil design role",
+   "Send the email in this folder from macdarenz@gmail.com to admin@vtce.com.au (the careers page address) with the cover letter and one page resume attached",
+   "Alternatively use the upload form on https://vtce.com.au/careers-with-vtce/ with the same files",
+   "Record the send date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nTick 20261114T0310Z: SEEK 3 day sweep (939 seen, 186 prefilter, 80 details; only 1 never seen before: D.A. Abcede & Associates 'Civil Engineers', a Philippine firm with no Australian location, not kept); open web first: LinkedIn guest listings Australia wide (12 keywords last 3 days plus 20 keywords last 7 days, about 340 listings, filtered against tracker, job finds and run history), web searches for Victorian council graduate roles and junior civil drafting roles, employer careers pages; Jora blocked (bot check), GradConnection now redirects to SEEK. No advertised vacancy is open; this is a speculative enquiry. Found on the open web: a web search for junior civil drafting roles with direct email applications surfaced the vTCE careers page; never in the tracker or job finds. Careers page read for the application address (Cloudflare obfuscated email decoded to admin@vtce.com.au, also shown as the site contact); About page read for the Director's name; Civil Engineering Services page read for the Augustine Heights State School project line. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere before acting. Dedupe: tracker.py check new for this employer; not in /workspace/job-finds, prior_outreach.json, earlier run files or the journal. Cover letter drafted from facts.json only; checks.py facts OK and tone OK (letter under 340 words); cover letter and one page resume rendered and read back (1 page each). Status PREPARED_NOT_SENT: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Civil design experience? → Advanced Diploma coursework (Feb 2026): road geometry, earthworks, pavement, stormwater drainage in Civil 3D and AutoCAD; not yet commercial.\n• Site experience? → Project-in-charge engineer then field engineer in the Philippines (2019 to 2020): drawing review, inspections, quality checks, site reports.\n• Move to Brisbane? → Open to discussing relocation; Marc to confirm timing.\n• 12d Model? → Not used yet; trained in Civil 3D.\n• Work rights? → Subclass 485, full working rights until December 2027.\n• Software? → AutoCAD and Civil 3D from the Advanced Diploma (Feb 2026); Revit modelling; drafting is coursework, not commercial.",
+  "how_found": "Tick 20261114T0310Z: SEEK 3 day sweep (939 seen, 186 prefilter, 80 details; only 1 never seen before: D.A. Abcede & Associates 'Civil Engineers', a Philippine firm with no Australian location, not kept); open web first: LinkedIn guest listings Australia wide (12 keywords last 3 days plus 20 keywords last 7 days, about 340 listings, filtered against tracker, job finds and run history), web searches for Victorian council graduate roles and junior civil drafting roles, employer careers pages; Jora blocked (bot check), GradConnection now redirects to SEEK. No advertised vacancy is open; this is a speculative enquiry. Found on the open web: a web search for junior civil drafting roles with direct email applications surfaced the vTCE careers page; never in the tracker or job finds. Careers page read for the application address (Cloudflare obfuscated email decoded to admin@vtce.com.au, also shown as the site contact); About page read for the Director's name; Civil Engineering Services page read for the Augustine Heights State School project line. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere before acting. Dedupe: tracker.py check new for this employer; not in /workspace/job-finds, prior_outreach.json, earlier run files or the journal. Cover letter drafted from facts.json only; checks.py facts OK and tone OK (letter under 340 words); cover letter and one page resume rendered and read back (1 page each). Status PREPARED_NOT_SENT: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Civil design experience? → Advanced Diploma coursework (Feb 2026): road geometry, earthworks, pavement, stormwater drainage in Civil 3D and AutoCAD; not yet commercial.",
+   "Site experience? → Project-in-charge engineer then field engineer in the Philippines (2019 to 2020): drawing review, inspections, quality checks, site reports.",
+   "Move to Brisbane? → Open to discussing relocation; Marc to confirm timing.",
+   "12d Model? → Not used yet; trained in Civil 3D.",
+   "Work rights? → Subclass 485, full working rights until December 2027.",
+   "Software? → AutoCAD and Civil 3D from the Advanced Diploma (Feb 2026); Revit modelling; drafting is coursework, not commercial."
+  ],
+  "checked_at": "2026-11-14T03:21:37.000Z",
+  "seek_id": null,
+  "duplicate_key": "vt consulting engineers|speculative enquiry: junior civil designer / graduate civil engineer",
+  "preparation_only": true,
+  "found_at": "2026-11-14T14:21+11:00 AEDT"
+ }
+]
