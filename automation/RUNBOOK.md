@@ -8,7 +8,8 @@ fresh each tick. Decide, don't ask; write new decisions to `docs/COACHING-DECISI
 Order matters: **submit what is waiting before finding anything new.**
 
 Run every command from `automation/scripts`. Type ids in full; shell variables do not survive
-between commands.
+between commands. Never type the run id of an earlier session. Text copied from a form or an
+advert goes into a JSON file with a quoted heredoc (APPLY.md section 3, "Typed text").
 
 ## 0. Trigger prompt and cadence
 
@@ -35,21 +36,28 @@ python3 journal.py start            # prints RUN_ID: write it down
 python3 queue.py expire
 python3 queue.py check              # anything other than "0 problems": stop and report
 python3 queue.py stats
+python3 queue.py list --started     # earlier sessions' starts: settle them first (APPLY.md section 9, GROK.md step 7)
+python3 browse.py trust             # only a runner that will sweep JavaScript careers pages (idempotent)
 ```
+
+Commit and push what `expire` changed. If any git step fails: APPLY.md section 3, rule 3.
 
 Say which routes this runner can submit today. A route you cannot do stays in the queue for
 the runner that can.
 
 ## 2. Replies and receipts (runner with Gmail)
 
-APPLY.md section 9: record receipts with `mark ID applied`, replies with `queue.py outcome`,
-unmatched SEEK receipts in `automation/prior_outreach.json`. Read messages one by one: search
+APPLY.md section 9: record receipts with `mark ID applied` (with `--at` the email's date),
+replies with `queue.py outcome`, unmatched SEEK receipts in `automation/prior_outreach.json`, and
+settle `UNCERTAIN` email entries against Gmail Sent. Record any answer the owner gave since the
+last tick (APPLY.md section 10). Read messages one by one: search
 previews show only the oldest five messages of a thread. An interview or call request goes to
 the owner **now**.
 
 ## 3. Submit the queue
 
-Repeat until `next` gives exit 3 or 4:
+For each route this runner submits, repeat until `next` gives exit 3 or 4 on that route, then
+move to the next route:
 
 ```
 python3 queue.py next --route SEEK --by Grok --run RUN_ID              # APPLY.md section 5
@@ -59,8 +67,14 @@ python3 queue.py next --route EMAIL --by Claude --run RUN_ID           # APPLY.m
 ```
 
 Run the claim git line before submitting. Finish every entry with one `mark`, then
-`git add -A -- ../queue && git commit -m "queue: <id> <result>" && git pull --rebase --autostash && git push`.
-Never hold several marks back for one commit at the end.
+`git add -A -- ../queue ../journal.jsonl && git commit -m 'queue: ID result' && git pull --rebase --autostash && git push`.
+Never hold several marks back for one commit at the end. Do not claim anything after 20:45
+Melbourne time.
+
+Entries that `next` holds as "letter to rewrite" (written under the old rules): a Claude runner
+rewrites them from the saved advert under APPLY.md section 8 and saves the new text with
+`python3 queue.py letter ID --file <letter.txt>` (EMAIL entries also `--subject` and
+`--body-file`), at most five a tick, soonest closing first.
 
 ## 4. Discover (only when the queue is short)
 
@@ -96,16 +110,19 @@ For every new candidate, in this order:
    project coordinator, student-only roles and formal graduate programs are out.
 2. **Mandatory bars**: citizenship or permanent residency, "no temporary visas", a named
    Australian degree or Engineers Australia eligibility called essential, current enrolment, a
-   licence or ticket he lacks, a stated minimum of two or more years called essential, a tool
-   called essential that facts.json does not list. Any one: reject. Words like preferred,
-   ideally, desirable and typically are not bars.
+   licence or ticket he lacks, a stated minimum of two or more years of paid experience (unless
+   the advert calls it preferred, desirable, ideal or advantageous), a tool called essential or
+   required that facts.json does not list. Any one: reject. Words like preferred, ideally,
+   desirable and typically are not bars.
 3. **Fit** (`config.json -> fit`, threshold 65).
-4. **Form questions** (SEEK adverts list them): `python3 queue.py answer --question "<text>"
-   [--advert-pay "<the advert's pay text, or not stated>"]` for each. Exit 5 means the owner
-   would have to answer it.
+4. **Form questions** (SEEK adverts list them): for each, write
+   `{"question": "...", "advert_pay": "<the advert's pay text, or not stated>"}` into a file
+   with a quoted heredoc and run `python3 queue.py answer --from-file FILE`. Exit 5 means the
+   owner would have to answer it.
 
 Three outcomes: `APPLY` (step 6), `ASK_OWNER` (fit is there but one fact is missing: queue it;
-`queue.py add` sets `ASK_OWNER` and records the question), `REJECT` with the reason in
+`queue.py add` sets `ASK_OWNER` itself for an unanswered form question, and for any other owner
+question put it in `ask_owner` in your own words), `REJECT` with the reason in
 `../runs/RUN_ID/rejected.json`. There is no hold pile.
 
 ## 6. Write the entry and queue it
@@ -134,6 +151,7 @@ For each `APPLY` or `ASK_OWNER`, write `../runs/RUN_ID/drafts/<slug>.json` with 
 ```
 python3 checks.py draft ../runs/RUN_ID/drafts/<slug>.json      # tone, length, truth
 python3 queue.py add ../runs/RUN_ID/drafts/<slug>.json --by <runner>
+git add -A -- ../queue ../runs/RUN_ID && git commit -m 'queue: added <slug>' && git pull --rebase --autostash && git push
 ```
 
 One reviewer agent then reads everything queued in this tick and tries to refute each sentence
@@ -166,7 +184,7 @@ git add -A -- ../queue ../journal.jsonl ../runs/RUN_ID ../prior_outreach.json &&
 ```
 
 Counts this runner could not check are written as `null` (no Gmail: `replies=null`). Then the
-daily report if it is due (APPLY.md section 9).
+daily report for this runner's own routes, if it is due (APPLY.md section 9).
 
 ## 9. Stop conditions
 
@@ -185,7 +203,8 @@ empty search is **not** a stop condition: do the other steps.
 | Speculative enquiries | 3 a week, to a published application address only |
 | Quiet hours | 21:00 to 07:00 Melbourne time |
 | Repeat block | same employer and role: for ever after an application in the queue, 90 days after one in `prior_outreach.json` |
-| Questions to the owner | at most three a day in the report |
+| Questions to the owner | at most three a day in each runner's report |
+| Claims | none after 20:45 Melbourne time |
 | Email | 130 words |
 | Cover letter | 200 words, three paragraphs |
 | Agents per tick | 4 (sweep, screen, reviewer, one spare) |
