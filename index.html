@@ -9,10 +9,10 @@
   <title>Job tracker</title>
   <meta name="description" content="Job application tracker.">
   <link rel="preload" href="./fonts/Geist-Variable.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="./styles.css?v=5">
+  <link rel="stylesheet" href="./styles.css?v=6">
   <script src="./theme.js?v=3"></script>
   <script src="./cloud-config.js?v=2" defer></script>
-  <script src="./app.js?v=5" defer></script>
+  <script src="./app.js?v=6" defer></script>
 </head>
 <body>
   <section id="unlock" class="gate">
@@ -40,6 +40,7 @@
       <button class="sb-search" id="open-palette" type="button"><span data-icon="search"></span><span>Search…</span><kbd id="palette-kbd">⌘K</kbd></button>
       <nav class="sb-nav" aria-label="Workspace">
         <button class="nav-item" id="nav-overview" type="button"><span data-icon="overview"></span><span>Overview</span></button>
+        <button class="nav-item" id="nav-queue" type="button"><span data-icon="calendar"></span><span>Old packs</span><span class="nav-count" id="nav-count-queue"></span></button>
         <button class="nav-item" id="nav-records" type="button"><span data-icon="records"></span><span>All jobs</span><span class="nav-count" id="nav-count-records"></span></button>
         <button class="nav-item" id="nav-applied" type="button"><span data-icon="send"></span><span>Applications</span><span class="nav-count" id="nav-count-applied"></span></button>
         <button class="nav-item" id="nav-bin" type="button"><span data-icon="bin"></span><span>Bin</span><span class="nav-count" id="nav-count-bin"></span></button>
@@ -104,7 +105,7 @@
               <div class="sub-panel"><h3>How you applied</h3><p>Applications by channel</p><div id="routes-chart" class="bar-list"></div></div>
             </article>
             <article class="panel spot panel-next">
-              <div class="panel-head"><div><h2>Ready to apply</h2><p>Best fit first</p></div><button class="btn btn-ghost btn-sm" type="button" data-go="ready">View all <span data-icon="arrowRight"></span></button></div>
+              <div class="panel-head"><div><h2>Old packs</h2><p>Prepared by the old automation. Waiting now: <a href="https://github.com/macdarenz-droid/Job-tracker/blob/claude/job-search-automation-sg3inr/automation/queue/APPLY_QUEUE.md" target="_blank" rel="noopener noreferrer">the bots' apply queue</a></p></div><button class="btn btn-ghost btn-sm" id="next-all" type="button">All old packs <span data-icon="arrowRight"></span></button></div>
               <div id="next-list" class="mini-list"></div>
             </article>
             <article class="panel spot panel-recent">
@@ -147,11 +148,11 @@
         <label class="field">Company <input name="company" required maxlength="160" placeholder="e.g. Stantec"></label>
         <label class="field">Role <input name="role" required maxlength="160" placeholder="e.g. Graduate Civil Engineer"></label>
         <label class="field">Location <input name="location" maxlength="160" placeholder="e.g. Brisbane QLD"></label>
-        <label class="field">Status <span class="select-wrap"><select name="status"><option value="LEAD">Lead</option><option value="READY_FOR_JEREMIE">Ready for Jeremie</option><option value="MANUAL_APPLIED">Applied</option><option value="INTERVIEW">Interview</option><option value="OFFER">Offer</option><option value="REJECTED">Unsuccessful</option><option value="EXPIRED">Expired</option></select></span></label>
+        <label class="field">Status <span class="select-wrap"><select name="status"><option value="LEAD">Lead</option><option value="READY_FOR_JEREMIE">Ready to apply</option><option value="MANUAL_APPLIED">Applied</option><option value="INTERVIEW">Interview</option><option value="OFFER">Offer</option><option value="REJECTED">Unsuccessful</option><option value="EXPIRED">Expired</option></select></span></label>
         <label class="field span-2">Job listing URL <input name="job_url" type="url" maxlength="1500" placeholder="https://"></label>
         <label class="field">Applied on <input name="applied_date" type="date"></label>
         <label class="field">Applied through <span class="select-wrap"><select name="application_method"><option value="">Select route</option><option>SEEK</option><option>Company website</option><option>Email</option><option>Referral</option><option>Other</option></select></span></label>
-        <label class="field">Contributor <input name="contributor_name" value="Jeremie" maxlength="100"></label>
+        <label class="field">Contributor <input name="contributor_name" value="Marc" maxlength="100"></label>
         <label class="field">Contact email <input name="contact_email" type="email" maxlength="254" placeholder="name@company.com"></label>
         <label class="field span-2">Notes <textarea name="notes" rows="4" maxlength="4000" placeholder="Anything worth remembering"></textarea></label>
       </div>
