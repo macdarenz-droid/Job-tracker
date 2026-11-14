@@ -39,7 +39,7 @@ to a role: a duty that is not in `facts.json` is not typed into SEEK.
 
 ```text
 Job title: Console Operator (casual)
-Company: bp service station (Rampage Group), Melbourne VIC
+Company: bp service station, Melbourne VIC
 Started: May 2024
 Ended: present
 - Customer service and console operation at a service station, held alongside full-time study in the Advanced Diploma
@@ -181,7 +181,7 @@ The apply queue entry names the lane; `config.json` -> `lanes.<lane>.resume` nam
 
 ## Settings to check once
 
-1. Profile visibility. Read what it is set to and write it in the run report. Change it only to a
+1. Profile visibility. Read what it is set to and tell the owner in the chat report (never in the repo). Change it only to a
    setting that `facts.json` or `config.json` names; while neither names one, change nothing, and if
    the profile is hidden from employers, that is one question for the owner.
 2. Default resume. It is `Marc_Masarate_Resume_Drafter.pdf`. A stored resume whose headline is not

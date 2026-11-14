@@ -12,8 +12,7 @@ Read in this order: `APPLY.md` (the method), `RUNBOOK.md` (the daily tick),
 Applications submitted with a receipt, for work his qualifications support, anywhere in
 Australia. Three lanes, in order (`config.json -> lanes`):
 
-1. **Drafter**: civil drafting and design (the occupation his 2026 Advanced Diploma is
-   coded to).
+1. **Drafter**: civil drafting and design (the work his 2026 Advanced Diploma trains for).
 2. **Technician**: construction materials testing, civil and geotechnical lab and field
    technician work.
 3. **Engineer**: graduate or junior civil, site or project engineer roles that welcome
