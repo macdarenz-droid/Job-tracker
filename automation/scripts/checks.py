@@ -59,8 +59,12 @@ FORBIDDEN_CLAIMS = [
 APPROVED = re.compile(r'no sponsorship (is )?(needed|required)', re.I)
 # Residency or migration talk in a letter, an email or its subject (facts.json -> never_mention; AGENTS.md rule 6), in
 # whole words: 'PR' in capitals only (not 'PRE-START', 'Present' or 'prepared'), 'nomination' (not 'nominated').
+# Also staying on in Australia ('stay in Australia', 'remain in Australia long term', 'settle here for good') and the
+# skilled-visa words 'nominated occupation'.
 RESIDENCY_TALK = re.compile(r'(?-i:\bPR\b)|\bresidency\b|\bresident status\b|\bpermanent visas?\b|\bsettle permanently\b'
-                            r'|\blong[- ]?term visas?\b|\bsponsor me\b|\bsponsorship in the future\b|\bvisa pathways?\b|\bnominations?\b', re.I)
+                            r'|\blong[- ]?term visas?\b|\bsponsor me\b|\bsponsorship in the future\b|\bvisa pathways?\b|\bnominations?\b'
+                            r'|\b(?:stay|remain|live|settle)(?: on)? in australia\b|\bnominated occupations?\b'
+                            r'|\b(?:settle|stay|remain|live)\b[^.!?\n]{0,30}\b(?:permanently|long[- ]term|for good|longer)\b', re.I)
 RESIDENCY_WHY = 'mentions residency or migration (facts.json -> never_mention): "{}"'
 
 
@@ -83,8 +87,31 @@ VISA_QUESTION = re.compile(r'visa|work(ing)? rights?|rights? to work|residency|p
 # The current Australian job is casual console-operator work at a service station (facts -> experience -> use).
 # A sentence about that job must not carry civil work, unless the civil part is plainly somewhere else (the
 # Philippines, 2019, 2020), is the name of his qualification, or sits in a clause about study or job hunting.
-CONSOLE = re.compile(r"console operator|service station|\bbp\b|\bsince\s+(may\s+)?2024\b|\bmy (current|present) (role|job|position|work|employer|employment)\b"
-                     r"|\b(currently|presently) (work|working|employed)\b|\bmy australian (work|job|role)\b", re.I)
+CONSOLE_WORDS = (r"console operator|service station|\bbp\b|\bsince\s+(may\s+)?2024\b|\bmy (current|present) (role|job|position|work|employer|employment)\b"
+                 r"|\b(currently|presently) (work|working|employed)\b|\bmy australian (work|job|role)\b")
+EMPLOYER_NOISE = re.compile(r'\b(?:pty|ltd|limited|group|holdings|australia|aust|inc|co|the|and)\b|&|\.', re.I)
+
+
+def console_pattern(facts):
+    """CONSOLE_WORDS, plus the employer of the console operator job as facts.json names it (experience rows whose role
+    says console operator): the text before the first comma, each name in brackets, and that name without its legal
+    and filler words ('Acme Fuel Group' and 'Acme Fuel'). A letter that names the employer instead of the job is caught
+    too, and no employer name sits in this code."""
+    names = []
+    for job in (facts or {}).get('experience') or []:
+        if not re.search(r'console operator', str(job.get('role') or ''), re.I):
+            continue
+        employer = str(job.get('employer') or '')
+        for name in [re.sub(r'\([^)]*\)', ' ', employer.split(',')[0])] + re.findall(r'\(([^)]*)\)', employer):
+            for form in (name, EMPLOYER_NOISE.sub(' ', name)):
+                form = ' '.join(form.split())
+                if len(form) >= 4:
+                    names.append(form)
+    extra = ''.join(r'|\b' + r'\s+'.join(re.escape(w) for w in n.split()) + r'\b' for n in dict.fromkeys(names))
+    return re.compile(CONSOLE_WORDS + extra, re.I)
+
+
+CONSOLE = console_pattern(FACTS)
 CIVIL_WORK = re.compile(r'\b(civil|construction|sites?|engineering|drafting|design\w*|inspect\w*|co-?ordinat\w*|infrastructure|earthworks|drainage)\b', re.I)
 ELSEWHERE = re.compile(r'philippines|justbuilt|grand travaux|2019|2020', re.I)
 QUALIFICATION_NAMES = re.compile(r'(advanced diploma of )?civil construction design|bachelor of science in civil engineering|civil engineering (degree|graduate)', re.I)
@@ -146,9 +173,10 @@ def tone_issues(text, kind='email', visa_asked=False, tone=None, allow=()):
     return issues
 
 
-def console_job_as_civil(sentence):
-    """True when a sentence about the current casual job (console operator at a service station) carries civil work."""
-    if not CONSOLE.search(sentence) or ELSEWHERE.search(sentence):
+def console_job_as_civil(sentence, pattern=None):
+    """True when a sentence about the current casual job (console operator at a service station, or its employer as
+    facts.json names it: console_pattern) carries civil work. pattern: console_pattern of other facts (tests)."""
+    if not (pattern or CONSOLE).search(sentence) or ELSEWHERE.search(sentence):
         return False
     rest = ASIDE.sub(' ', QUALIFICATION_NAMES.sub(' ', sentence))
     return bool(CIVIL_WORK.search(rest))

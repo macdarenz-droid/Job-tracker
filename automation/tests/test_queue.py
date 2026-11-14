@@ -364,7 +364,7 @@ class QueueCase(unittest.TestCase):
         return q.save(self.dir, q.fill(e))
 
     def applied(self, entry_id, at, kind='seek_confirmation_screen'):
-        ref = '18f3a6b2c4d5e6f7' if kind == 'gmail_message_id' else 'ref-1'   # a Gmail message id is 16 hex characters
+        ref = '18f3a6b2c4d5e6f7' if kind == 'gmail_message_id' else 'SEEK confirmation screen shown'   # a Gmail message id is 16 hex characters
         return q.mark(self.dir, entry_id, 'applied', 'grok', NOW, kind, ref, at, facts=FACTS)
 
     def cli(self, *args, now=NOW):

@@ -17,15 +17,22 @@ is the text to type, or for a choice question a short description of the choice;
 
 Covered (facts.json -> answers unless another block is named):
   owner_answers      first, before every rule below: a list of {"question": text, "options": [text, ...] (optional),
-                     "answer": text, "date": "YYYY-MM-DD"}. A question whose text is the same (owner_key: case, spacing,
-                     double quotation marks and a closing ?.:! aside) gets that answer; with options on screen only when
-                     it is one of them (norm), else unanswered. A malformed row answers nothing (owner_answer_problems)
+                     "answer": text, "date": "YYYY-MM-DD", "entry": queue id (optional)}. A question whose text is the
+                     same (owner_key: case, spacing, double quotation marks and a closing ?.:! aside) gets that answer;
+                     with options on screen only when it is one of them (norm), else unanswered. A row with "entry"
+                     answers that queue entry only (answer(..., entry=ID)), and goes before a row without one; a
+                     question about one job or its pay (JOB_SPECIFIC: 'this role', 'similar role', 'salary') needs
+                     "entry". A question asking for a private detail (PRIVATE_ASK: date of birth, tax file number,
+                     address, health) is never taken from a row: the owner types it himself. A malformed row answers
+                     nothing (owner_answer_problems)
   right to work      Yes/No 'Do you have the right to work in Australia?' (the legal right, currently, hold) and 'Do
                      you have full working rights in Australia?': Yes. 'Are you an Australian citizen or permanent
                      resident?' (or PR, either order): No. 'Unrestricted' and anything more stay unanswered. Otherwise
-                     the option naming the temporary graduate visa or Subclass 485, else the one temporary visa option
-                     with no restriction on hours or industry; never citizen, permanent resident, New Zealand or an
-                     option saying sponsorship is required. No options: right_to_work.free_text
+                     the option naming the temporary graduate visa or Subclass 485 and nothing more (RTW_GRADUATE_WORDS:
+                     not 'with more than 2 years remaining', 'no sponsorship now or in the future', 'and have applied
+                     for permanent residency'); only when no option names that visa, the one temporary visa option with
+                     no restriction on hours or industry and nothing more; never citizen, permanent resident, New
+                     Zealand or an option saying sponsorship is required. No options: right_to_work.free_text
   sponsorship        "Do you require sponsorship to work in Australia (now)?": No. In the future: unanswered
   notice             2 weeks, or the option meaning 2 weeks
   start date         free text only: "Two weeks after an offer" (eligibility.availability)
@@ -440,6 +447,21 @@ def _right_to_work_yes_no(q, opts, rule):
     return _ok(pick, 'answers.right_to_work') if pick else None
 
 
+# The words a right-to-work option may hold to be chosen: the visa itself and nothing more (as plain_option for Yes/No).
+# 'Temporary Graduate visa (485)', 'I have a graduate temporary work visa' and 'Temporary visa with full working rights'
+# say only what facts.json holds. An option that adds anything (how long it has left, 'no sponsorship now or in the
+# future', 'and have applied for permanent residency', a stream, a Yes) is never chosen: the question is unanswered.
+_RTW_COMMON = {'i', 'im', 'am', 'have', 'hold', 'a', 'an', 'the', 'on', 'currently', 'holder', 'my', 'of', 'visa', 'temporary',
+               'work', 'working', 'with', 'full', 'rights', 'right', 'to', 'in', 'australia', 'no', 'restriction', 'restrictions',
+               'without', 'unrestricted'}
+RTW_GRADUATE_WORDS = _RTW_COMMON | {'graduate', 'subclass', 'sc', '485', 'tgv'}
+RTW_FREE_WORDS = _RTW_COMMON | {'e', 'g', 'eg', 'doctoral', 'student'}   # SEEK's 'I have a temporary visa with no restrictions (e.g. doctoral student)'
+
+
+def _rtw_words(option):
+    return set(re.findall(r'[a-z0-9]+', norm(option).replace("'", '')))
+
+
 def _right_to_work(q, opts, a):
     rule = a.get('right_to_work') or {}
     if not opts:
@@ -450,15 +472,19 @@ def _right_to_work(q, opts, a):
         return plain
     if not rule.get('choose'):
         return _no('facts.json -> answers -> right_to_work has no rule for choosing', 'answers.right_to_work')
-    sponsor_needed = lambda o: re.search(r'sponsor', o) and not re.search(r"\b(no|not|without|don't|do not|never)\b[^,;.]{0,25}sponsor", o)
-    allowed = [o for o in opts if not re.search(r'citizen|permanent resident|\bpr\b|new zealand|\bnz\b', norm(o)) and not sponsor_needed(norm(o))]
-    graduate = [o for o in allowed if re.search(r'graduate|\b485\b', norm(o))]
-    free = [o for o in allowed if re.search(r'temporary', norm(o)) and re.search(r'no restrictions?|without restrictions?|unrestricted|full work(ing)? rights', norm(o))
-            and not re.search(r'restrictions? on|restricted (to|by|on)|limited|holiday|partner|family|bridging', norm(o))]
-    pick = graduate if graduate else free
-    if len(pick) != 1:
-        return _no('no single option names the temporary graduate visa (Subclass 485) or a temporary visa with no restriction', 'answers.right_to_work.choose')
-    return _ok(pick[0], 'answers.right_to_work.choose')
+    named = [o for o in opts if re.search(r'graduate|\b485\b', norm(o))]
+    if named:   # the form offers the graduate visa: only an option that says that and nothing more, never another one instead
+        pick = [o for o in named if _rtw_words(o) <= RTW_GRADUATE_WORDS]
+        if len(pick) != 1:
+            return _no('no single option names the temporary graduate visa (Subclass 485) and nothing more (an option that adds a '
+                       'time left, sponsorship, residency or anything else is not chosen)', 'answers.right_to_work.choose')
+        return _ok(pick[0], 'answers.right_to_work.choose')
+    free = [o for o in opts if re.search(r'temporary', norm(o)) and re.search(r'no restrictions?|without restrictions?|unrestricted|full work(ing)? rights', norm(o))
+            and not re.search(r'restrictions? on|restricted (to|by|on)|limited|holiday|partner|family|bridging', norm(o)) and _rtw_words(o) <= RTW_FREE_WORDS]
+    if len(free) != 1:
+        return _no('no single option names the temporary graduate visa (Subclass 485) or a temporary visa with no restriction, and '
+                   'nothing more', 'answers.right_to_work.choose')
+    return _ok(free[0], 'answers.right_to_work.choose')
 
 
 def _weeks_option(n, opts):
@@ -500,8 +526,8 @@ def _start(q, opts, facts):
 
 # pay as an entry or a caller gives it when the advert states no pay at all.
 NO_PAY = re.compile(r"(?:pay |salary )?(?:not stated|none( stated)?|no pay( stated)?|no salary( stated)?|not given|not shown|not advertised)\.?")
-PAY_UNKNOWN = ("the advert's pay is not recorded (advert_pay): give the advert's own pay text with --advert-pay, or "
-               '--advert-pay "not stated" when the advert gives none')
+PAY_UNKNOWN = ("the advert's pay is not recorded (advert_pay): give the advert's own pay text, or \"not stated\" when the "
+               "advert gives none, as advert_pay (queue.py answer --from-file, the file written with <<'EOF', quoted)")
 
 
 def _salary(q, opts, a, pay):
@@ -896,8 +922,20 @@ def _referees(q, opts, a):
 
 # ---------- the owner's own answers ----------
 
-OWNER_KEYS = ('question', 'options', 'answer', 'date')
+OWNER_KEYS = ('question', 'options', 'answer', 'date', 'entry')
 OWNER_BASIS = 'answers.owner_answers'
+ENTRY_ID = re.compile(r'[a-z0-9][a-z0-9-]{2,90}')   # a queue id, as queue.py validate allows it
+# A question that asks for a private detail: the owner types it on the form himself, and it is never stored in facts.json
+# (public). An owner row for it is refused, and the gate never takes one (the traps then leave it with the owner).
+PRIVATE_ASK = re.compile(r"visa (grant )?number|passport|date of birth|birth ?date|\bdob\b|\bborn\b|legal name|tax file|\btfn\b"
+                         r"|\bbank\b|\bbsb\b|\babn\b|superannuation|medical|injur|disabilit|health|gender|pronoun|aboriginal"
+                         r"|torres strait|licen[cs]e number|registration number|\baddress\b|post ?code|\bstreet\b|next of kin"
+                         r"|emergency contact|\bage\b|how old|marital|religio|ethnic|nationality|country of birth")
+# A question about one job or its pay: the owner's answer holds for the entry he gave it for, not for every form whose
+# question has the same words. A row for such a question needs "entry".
+JOB_SPECIFIC = re.compile(r"\b(?:this|the|our) (?:role|position|job|opportunity|vacancy|company|team|organi[sz]ation|business|employer)\b"
+                          r"|similar role|relevant to the (?:role|position)|job (?:ad|advert)|for the role|\bour\b|salary|remuneration"
+                          r"|\bpay\b|\b(?:hourly|day|daily|pay|charge) rate\b|rate expectation")
 
 
 def owner_key(text):
@@ -915,14 +953,22 @@ def _real_date(text):
 
 def owner_row_problems(row):
     """Why one row of facts.json -> answers -> owner_answers cannot be used ([] when it can). A row is {"question":
-    text, "options": [text, ...] (optional: the options he saw), "answer": text, "date": "YYYY-MM-DD"}; with options
-    the answer is one of them."""
+    text, "options": [text, ...] (optional: the options he saw), "answer": text, "date": "YYYY-MM-DD", "entry": queue id
+    (optional: the entry he answered it for)}; with options the answer is one of them. A question about one job or its
+    pay needs "entry"; a question asking for a private detail is refused."""
     if not isinstance(row, dict):
-        return ['not an object {question, options, answer, date}']
-    p = [f'unknown key {k} (the keys are question, options, answer and date)' for k in sorted(set(row) - set(OWNER_KEYS))]
+        return ['not an object {question, options, answer, date, entry}']
+    p = [f'unknown key {k} (the keys are question, options, answer, date and entry)' for k in sorted(set(row) - set(OWNER_KEYS))]
     question, given, options, day = row.get('question'), row.get('answer'), row.get('options'), row.get('date')
     if not isinstance(question, str) or not owner_key(question):
         p.append('question: the exact text of the form question')
+    elif PRIVATE_ASK.search(owner_key(question)):
+        p.append('question: asks for a private detail; the owner types it himself on the form, and it is never stored in '
+                 'facts.json (public)')
+    elif 'entry' not in row and JOB_SPECIFIC.search(owner_key(question)):
+        p.append('question: is about one job or its pay: add "entry": "<queue id>" so the answer is used on that entry only')
+    if 'entry' in row and not (isinstance(row['entry'], str) and ENTRY_ID.fullmatch(row['entry'])):
+        p.append('entry: the queue id the answer is for (for example seek-95506594), or leave it out')
     if not isinstance(given, str) or not given.strip():
         p.append("answer: the owner's answer, as text")
     if options is not None and (not isinstance(options, list) or not all(isinstance(o, str) and o.strip() for o in options)):
@@ -936,30 +982,35 @@ def owner_row_problems(row):
 
 def owner_answer_problems(facts):
     """Every shape problem of facts.json -> answers -> owner_answers ([] when it is absent or sound): a list of rows
-    (owner_row_problems), each question once."""
+    (owner_row_problems), each question once for each entry (and once without one)."""
     rows = ((facts or {}).get('answers') or {}).get('owner_answers')
     if rows is None:
         return []
     if not isinstance(rows, list):
-        return ['answers -> owner_answers: a list of {question, options, answer, date}']
+        return ['answers -> owner_answers: a list of {question, options, answer, date, entry}']
     out, seen = [], {}
     for n, row in enumerate(rows, 1):
         out += [f'answers -> owner_answers row {n}: {x}' for x in owner_row_problems(row)]
-        key = owner_key(row.get('question')) if isinstance(row, dict) and isinstance(row.get('question'), str) else ''
-        if key and key in seen:
+        key = (owner_key(row.get('question')), str(row.get('entry') or '')) if isinstance(row, dict) and isinstance(row.get('question'), str) else ''
+        if key and key[0] and key in seen:
             out.append(f'answers -> owner_answers row {n}: the question is there twice (also row {seen[key]}): keep one answer')
-        elif key:
+        elif key and key[0]:
             seen[key] = n
     return out
 
 
-def _owner_answer(question, opts, a):
-    """The owner's own answer to this question (facts.json -> answers -> owner_answers), or None when he gave none. With
-    options on screen the answer is the one option equal to his (norm), else the question is unanswered."""
+def _owner_answer(question, opts, a, entry=None):
+    """The owner's own answer to this question (facts.json -> answers -> owner_answers), or None when he gave none. A
+    row with "entry" is used only for that entry, and before a row without one. With options on screen the answer is
+    the one option equal to his (norm), else the question is unanswered. A question asking for a private detail is
+    never answered from a row (None: the rules below, and the traps, decide it)."""
     rows = a.get('owner_answers')
     key = owner_key(question)
-    hits = [r for r in rows if isinstance(r, dict) and isinstance(r.get('question'), str) and owner_key(r['question']) == key] \
-        if isinstance(rows, list) and key else []
+    if not key or not isinstance(rows, list) or PRIVATE_ASK.search(key):
+        return None
+    hits = [r for r in rows if isinstance(r, dict) and isinstance(r.get('question'), str) and owner_key(r['question']) == key]
+    scoped = [r for r in hits if 'entry' in r and entry and r.get('entry') == entry]
+    hits = scoped or [r for r in hits if 'entry' not in r]
     if not hits:
         return None
     if len(hits) > 1 or owner_row_problems(hits[0]):
@@ -975,12 +1026,14 @@ def _owner_answer(question, opts, a):
 
 # ---------- the gate ----------
 
-def answer(question, options=None, facts=None, pay=None, today=None):
+def answer(question, options=None, facts=None, pay=None, today=None, entry=None):
     """The standing answer to one form question. See the module notes for what is covered.
 
     options: the choices on screen (none for a free-text question). pay: the advert's own pay text, when the entry
     or the caller knows it (salary only). today: the date to judge the police check by (default: today in Melbourne).
-    The owner's own answers (facts.json -> answers -> owner_answers) go before every other rule.
+    entry: the queue id the form belongs to (an owner answer given for one entry is used only there; None, at
+    screening, uses only the rows without "entry"). The owner's own answers (facts.json -> answers -> owner_answers)
+    go before every other rule, except for a question asking for a private detail.
     """
     facts = facts or {}
     a = facts.get('answers') or {}
@@ -988,7 +1041,7 @@ def answer(question, options=None, facts=None, pay=None, today=None):
     opts = [' '.join(str(o).split()) for o in options or [] if str(o).strip()]
     if not q:
         return _no('no question text')
-    owner = _owner_answer(question, opts, a)
+    owner = _owner_answer(question, opts, a, entry)
     if owner:
         return owner
     declared = _declaration(q, opts, a)

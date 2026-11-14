@@ -128,8 +128,8 @@ class ANewSessionNeverTypesAnEarlierRunId(Case):
         before = self.files()
         code, out, err = self.cli('answer', 'seek-1', '--question', 'Do you have Traffic Control experience?', *opts(YN),
                                   '--by', 'Grok', '--run', OTHER_RUN, now=NOW + timedelta(minutes=6))
-        self.assertEqual((code, out), (5, ''))
-        self.assertIn('Do not submit; leave the form. Nothing is stored.', err)
+        self.assertEqual((code, out), (1, ''))   # round 2 F8: refused outright, answered or not
+        self.assertIn('Do not fill or submit its form (answer refused; nothing changed).', err)
         self.assertIn("Never type an earlier session's run id.", err)
         for gone in ('--run RUN_ID', 'mark seek-1 ask', RUN):
             self.assertNotIn(gone, err)
@@ -225,7 +225,7 @@ class OwnerAnswers(Case):
     def test_the_gate_gives_the_owners_answer_before_any_other_rule(self):
         facts = with_owner_answers([ROW, {'question': 'Have you ever been dismissed from a job?', 'answer': 'No', 'date': '2026-11-14'},
                                     {'question': 'Why do you want this role?', 'answer': 'Civil drafting is the work my diploma trained me for.',
-                                     'date': '2026-11-14'}])
+                                     'date': '2026-11-14', 'entry': 'seek-1'}])   # round 2 F5: a question about one job needs its entry
         self.assertEqual(gate(STANDARDS, YN)['status'], 'unanswered')   # without the row
         for question in (STANDARDS, '  have you worked in a role which requires a sound understanding of australian design standards',
                          STANDARDS.replace('Australian', '“Australian”')):
@@ -236,7 +236,9 @@ class OwnerAnswers(Case):
         for options in (['Yes, more than 2 years', 'No'], ['Agree', 'Disagree']):   # the stored answer is not on screen
             self.assertEqual(gate(STANDARDS, options, facts)['status'], 'unanswered', options)
         self.assertEqual(gate('Have you ever been dismissed from a job?', YN, facts)['answer'], 'No')   # before the traps
-        self.assertEqual(gate('Why do you want this role?', [], facts)['answer'], 'Civil drafting is the work my diploma trained me for.')
+        self.assertEqual(answers.answer('Why do you want this role?', [], facts, entry='seek-1')['answer'],
+                         'Civil drafting is the work my diploma trained me for.')
+        self.assertEqual(gate('Why do you want this role?', [], facts)['status'], 'unanswered')   # not at screening, not elsewhere
         self.assertEqual(gate(STANDARDS + ' Please explain.', YN, facts)['status'], 'unanswered')   # another question
 
     def test_answer_id_reopens_an_entry_once_the_owner_has_answered(self):
@@ -280,7 +282,8 @@ class OwnerAnswers(Case):
 # ------------------------------------------------------------------ L-M3: no advert pay is the runner's to settle, not the owner's
 
 class SalaryWithoutAdvertPay(Case):
-    MESSAGE = ("UNANSWERED: the advert's pay is not recorded: run again with --advert-pay (the advert's own pay text, or not stated)")
+    MESSAGE = ("UNANSWERED: the advert's pay is not recorded: run the same answer again with the advert's own pay text (or not stated) "
+               'as "advert_pay" in the --from-file JSON, written with <<\'EOF\' (quoted, so the shell keeps every $)')   # round 2 F3
 
     def test_it_exits_5_keeps_the_start_and_stores_nothing(self):
         self.add(entry(1))
@@ -378,7 +381,10 @@ class AlreadyApplied(Case):
         self.add(entry(1))
         self.add(entry(2, listed_at='2026-11-09'))
         self.claim()
-        self.assertEqual(self.mark_found(at=None)[0], 0)
+        code, _, err = self.mark_found(at=None)   # round 2 F4: on an entry next handed out, the date the site gives is needed
+        self.assertEqual(code, 1)
+        self.assertIn('give --at with the date the site shows he applied', err)
+        self.assertEqual(self.mark_found(at='2026-10-02')[0], 0)   # before the hand-out: an application made earlier
         got, _ = self.claim(now=NOW + timedelta(minutes=2))   # no 20-minute wait: nothing was submitted
         self.assertEqual(got['id'], 'seek-2')
         r = q.report(self.dir, NOW + timedelta(minutes=3), 7)
