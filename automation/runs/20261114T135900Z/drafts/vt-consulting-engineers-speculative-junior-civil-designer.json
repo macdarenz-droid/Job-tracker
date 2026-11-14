@@ -1,0 +1,27 @@
+{
+ "lane": "drafter",
+ "route": "EMAIL",
+ "application_type": "SPECULATIVE_ENQUIRY",
+ "company": "vT Consulting Engineers",
+ "role": "Speculative enquiry: junior civil designer",
+ "url": "https://vtce.com.au/careers-with-vtce/",
+ "location": "Carina, Brisbane QLD",
+ "fit": 75,
+ "resume_variant": "drafter",
+ "relocation_line": "I will relocate to Brisbane for this role and can start two weeks after an offer.",
+ "advert_pay": "not stated",
+ "questions": [],
+ "email": {
+  "to": "admin@vtce.com.au",
+  "subject": "Junior civil designer enquiry, Marc Masarate",
+  "body": "Hello,\n\nYour careers page says vTCE is always looking for people from cadets to senior level and lists Civil Designer among the civil team roles, so I am writing to ask about a junior civil designer position.\n\nIn February 2026 I completed the Advanced Diploma of Civil Construction Design, designing and documenting road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D. I also hold a Bachelor of Science in Civil Engineering (Philippines, 2019).\n\nI am based in Melton VIC. I will relocate to Brisbane for this role and can start two weeks after an offer. Full working rights in Australia (Subclass 485 visa), no sponsorship needed.\n\nI've attached my resume and cover letter. Could we arrange a call?\n\nMarc Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
+  "evidence_url": "https://vtce.com.au/careers-with-vtce/"
+ },
+ "verify_before_submit": [
+  "Search Gmail in:anywhere for vT Consulting Engineers, vTCE and vtce.com.au before sending",
+  "Re-open the careers page and confirm it still invites cover letters and resumes to the address in email.to"
+ ],
+ "notes": "Migrated from a local find of 14 Nov 2026 (run 20261114T0310Z), re-screened in run 20261114T135900Z. No advertised vacancy: speculative enquiry to the address the careers page publishes for applications (Cloudflare-protected link decoded 15 Nov 2026 Melbourne; the same address is the site contact). Careers page re-read 15 Nov 2026: says they are always looking for people from cadets to senior level, positions listed Civil Designer and Civil Engineer (civil team), Structural Drafter and Structural Engineer. Counts against the 3 speculative enquiries a week.",
+ "source_run": "20261114T135900Z",
+ "cover_letter_text": "Hello,\n\nI am writing to ask whether vT Consulting Engineers has room for a junior civil designer. Your careers page says you are always looking for people from cadets to senior level, and it lists Civil Designer among the roles in your civil team.\n\nIn February 2026 I completed the Advanced Diploma of Civil Construction Design, where I designed and documented road geometry, earthworks, pavement systems and stormwater drainage, and prepared and reviewed technical drawings in AutoCAD and Civil 3D, applying Australian Standards. I also hold a Bachelor of Science in Civil Engineering (Philippines, 2019), and on site there from 2019 to 2020 I reviewed drawings and carried out site inspections and quality checks.\n\nI am based in Melton VIC. I will relocate to Brisbane for this role and can start two weeks after an offer. Full working rights in Australia (Subclass 485 visa), no sponsorship needed. Could we arrange a call?\n\nMarc Masarate"
+}

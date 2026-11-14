@@ -1,0 +1,39 @@
+{
+ "id": "wsp-laboratory-technician-in-training-7909dd6d",
+ "lane": "technician",
+ "route": "EMPLOYER_PORTAL",
+ "application_type": "ADVERTISED_VACANCY",
+ "company": "WSP",
+ "role": "Laboratory Technician in Training",
+ "location": "Western Australia (geotechnical laboratory network)",
+ "url": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/96985",
+ "seek_id": "",
+ "listed_at": "2026-10-19",
+ "closes_at": "",
+ "closes_source": "none",
+ "fit": 80,
+ "resume_variant": "technician",
+ "relocation_line": "I will relocate to Western Australia for this role and can start two weeks after an offer.",
+ "cover_letter_text": "Hello,\n\nI am applying for the Laboratory Technician in Training role with WSP's geotechnical laboratories in Western Australia. Your advert describes preparing and testing soil, rock, aggregate and concrete samples under supervision, in line with the relevant standards, in a NATA-accredited laboratory.\n\nIn February 2026 I completed the Advanced Diploma of Civil Construction Design, where my coursework applied AS 1726 and AS 1289 and covered earthworks and pavement systems. I also hold a Bachelor of Science in Civil Engineering (Philippines, 2019). As a field engineer in the Philippines I assisted with site inspections and quality checks and prepared site reports, material records and progress reports.\n\nI am based in Melton VIC. I will relocate to Western Australia for this role and can start two weeks after an offer. Full working rights in Australia (Subclass 485 visa), no sponsorship needed. I hold a White Card and a full Victorian driver's licence. Could we arrange a call?\n\nMarc Masarate",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [],
+ "status": "OPEN",
+ "ask_owner": "",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "Grok",
+ "created_at": "2026-11-14T14:02:35Z",
+ "source_run": "20261114T135900Z",
+ "notes": "Migrated from a local find of 14 Nov 2026 (run 20261114T081337Z), re-screened in run 20261114T135900Z under the 13 Nov rules. Lane technician: trainee geotechnical laboratory technician testing soil, rock, aggregate and concrete under supervision in a NATA-accredited lab. Advert re-read 15 Nov 2026 (Melbourne): open, posted 19 Oct 2026, no closing date. Essentials: completed high school mathematics, ability to obtain a White Card and first aid, valid Australian driver's licence; Certificate III in Laboratory Techniques advantageous, not required. No work-rights bar stated.",
+ "advert_pay": "not stated",
+ "verify_before_submit": [
+  "Open the WSP careers page for job 96985 and confirm it is still open and still a trainee laboratory technician role in Western Australia",
+  "Read every question on the WSP form and run each through queue.py answer; any question with no standing answer: leave the form unsubmitted",
+  "Account creation on the WSP Oracle site uses only the owner's own email address"
+ ]
+}
