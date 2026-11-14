@@ -92,7 +92,8 @@ coordinator, student-only roles, formal graduate programs.
 - The tracker website (Cloudflare Worker, D1, R2) is the owner's history view. Runner
   records are manual entries with the runner's own `contributor_name`; nobody edits
   another author's records or the frozen arrays. The storage fix that stops it filling up
-  (one row per record) lives on `main`, not on this branch.
+  (one row per record) went live from `main` on 14 Nov 2026; its code lives on `main`, not on
+  this branch. The page's Old packs view lists packs the old automation prepared, not this queue.
 - The six-digit tracker code is read from `TRACKER_CODE` or the file named in
   `config.json`; it is never committed.
 
