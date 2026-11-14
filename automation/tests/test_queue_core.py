@@ -275,9 +275,11 @@ class LinkoutTests(Case):   # F3, F4, S17
 class RepeatTests(Case):   # F13, S18, D56
     def test_the_same_role_in_other_words(self):
         for a, b in (('Junior Civil Drafter', 'Civil Drafter'), ('Entry-Level Civil Drafter', 'civil drafter'), ('Senior Civil Drafter', 'CIVIL DRAFTER.'),
-                     ('Graduate / Trainee Civil Engineer', 'Civil Engineer'), ('Civil Engineer (Wollongong)', 'Civil Engineer'), ('Cadet Designer', 'Designer')):
+                     ('Graduate / Trainee Civil Engineer', 'Civil Engineer'), ('Civil Engineer (Wollongong)', 'Civil Engineer'), ('Cadet Designer', 'Designer'),
+                     # S-B2 (14 Nov 2026): one title whose words are all in the other is the same role; over-blocking is the safer mistake
+                     ('Site Engineer', 'Civil Site Engineer'), ('Civil Engineer - Wodonga', 'Civil Engineer')):
             self.assertTrue(q.same_role(a, b) and q.same_role(b, a), (a, b))
-        for a, b in (('Civil Drafter', 'Civil Designer'), ('Site Engineer', 'Civil Site Engineer'), ('Civil Engineer - Wodonga', 'Civil Engineer'), ('', '')):
+        for a, b in (('Civil Drafter', 'Civil Designer'), ('Site Engineer', 'Project Engineer'), ('Civil Engineer', 'Civil Drafter'), ('', '')):
             self.assertFalse(q.same_role(a, b) or q.same_role(b, a), (a, b))
         for unknown in ('employer portal application receipt (position name blank in the email)', 'email application to admin@example.com.au', '', '(none)'):
             self.assertTrue(q.role_unknown(unknown), unknown)
@@ -596,7 +598,8 @@ class ResumeTests(Case):   # F20, S20
         self.assertEqual(code, 0)
         self.assertIn(f'RESUME: documents/resume/Marc_Masarate_Resume_Technician.pdf sha256 {hashlib.sha256(path.read_bytes()).hexdigest()}', err)
         with mock.patch.object(q, 'RESUME_DIR', self.root / 'nothing'):
-            self.assertIn('Marc_Masarate_Resume_Technician.pdf is missing: do not submit', q.handout_notes(q.find(self.dir, 'seek-1')[1], self.dir)[0])
+            notes = q.handout_notes(q.find(self.dir, 'seek-1')[1], self.dir)
+            self.assertIn('Marc_Masarate_Resume_Technician.pdf is missing: do not submit', next(n for n in notes if n.startswith('RESUME: ')))
 
 
 class ReportTests(Case):   # F24
@@ -618,7 +621,8 @@ class ReportTests(Case):   # F24
                              'by_lane': {'drafter': 1, 'technician': 1, 'engineer': 1},
                              'by_state': {'VIC': 1, 'NSW': 0, 'QLD': 1, 'WA': 1, 'SA': 0, 'TAS': 0, 'ACT': 0, 'NT': 0, 'other': 0},
                              'by_route': {'SEEK': 2, 'EMAIL': 1, 'EMPLOYER_PORTAL': 0, 'EMPLOYER_FORM': 0},
-                             'outcomes': {'acknowledged': 0, 'rejected': 1, 'reply': 0, 'interview': 0, 'offer': 0}, 'uncertain_now': 1})
+                             'outcomes': {'acknowledged': 0, 'rejected': 1, 'reply': 0, 'interview': 0, 'offer': 0}, 'uncertain_now': 1,
+                             'already_applied_found': 0})
         wide = q.report(self.dir, NOW, 14)
         self.assertEqual((wide['applied'], wide['by_state']['other'], wide['outcomes']['acknowledged']), (4, 1, 1))
         code, out, _ = self.cli('report', '--days', '7')

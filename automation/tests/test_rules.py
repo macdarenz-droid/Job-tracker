@@ -503,13 +503,13 @@ class WritingRules(unittest.TestCase):
 
     def test_console_operator_job_is_not_civil_experience(self):
         claim = 'presents the casual console operator job as civil experience (facts: it is current Australian work, nothing more)'
-        for bad in ('My current role as a console operator at bp Rockbank has given me Australian construction industry experience.',
+        for bad in ('My current role as a console operator at bp has given me Australian construction industry experience.',
                     'As a console operator, I gained site experience coordinating deliveries and contractors.',
                     'I have two years of experience in civil works support through my service station role.'):
             self.assertIn(claim, checks.fact_issues(bad), bad)
-        for fine in ('Since May 2024 I have worked as a casual console operator at bp Rockbank alongside full-time study in the Advanced Diploma of Civil Construction Design.',
-                     'I work as a casual console operator at bp Rockbank, and my site experience is from the Philippines in 2019 and 2020.',
-                     'My site experience is from the Philippines. I now work casually as a console operator in Rockbank.'):
+        for fine in ('Since May 2024 I have worked as a casual console operator at bp alongside full-time study in the Advanced Diploma of Civil Construction Design.',
+                     'I work as a casual console operator at bp, and my site experience is from the Philippines in 2019 and 2020.',
+                     'My site experience is from the Philippines. I now work casually as a console operator in Melbourne.'):
             self.assertEqual(checks.fact_issues(fine), [], fine)
 
     def test_letter_shape_and_subject_lines(self):
@@ -1412,15 +1412,15 @@ class ReviewMinorFindings(unittest.TestCase):
                     'I work as a console operator, which has built my civil construction skills on Australian sites.',
                     'My Australian work since May 2024 has given me experience on civil sites.',
                     'Since May 2024 I have worked in Australia in a civil construction support role.',
-                    'My current job in Rockbank has given me construction site experience.',
-                    'I currently work in a design and drafting support role at Rampage Group.'):
+                    'My current job in Melbourne has given me construction site experience.',
+                    'I currently work in a design and drafting support role at bp.'):
             self.assertIn(claim, checks.fact_issues(bad), bad)
-        for fine in ('Since May 2024 I have worked as a casual console operator at bp Rockbank alongside full-time study in the Advanced Diploma of Civil Construction Design.',
+        for fine in ('Since May 2024 I have worked as a casual console operator at bp alongside full-time study in the Advanced Diploma of Civil Construction Design.',
                      'I have worked as a console operator at a service station since May 2024 while studying civil design.',
                      'I bring site inspection experience from the Philippines and current Australian work as a console operator.',
                      'I currently work as a casual console operator. My civil site experience is from 2019.',
-                     'I work casually at a service station in Rockbank while looking for my first civil drafting role in Australia.',
-                     'My current job is casual console operator work at bp Rockbank.',
+                     'I work casually at a service station in Melbourne while looking for my first civil drafting role in Australia.',
+                     'My current job is casual console operator work at bp.',
                      'I currently work casually as a console operator and want to return to site engineering.',
                      'Since February 2024 I have designed road geometry, earthworks and stormwater drainage in the Advanced Diploma.',
                      GOOD_EMAIL, '\n'.join(GOOD_LETTER)):

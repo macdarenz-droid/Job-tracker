@@ -139,8 +139,10 @@ class LicenceCarAndChecks(GateCase):
         self.ok(gate(text, YES_NO), 'Yes', 'answers.drivers_licence')
         self.ok(gate(text), 'Yes')
         self.ok(gate("Do you hold a full driver's licence?", YES_NO), 'Yes')
-        self.ok(gate(text, ['Yes, full licence', 'Yes, probationary licence', 'No']), 'Yes, full licence')
-        self.ok(gate(text, ['Yes - manual', 'Yes - automatic', 'No']), 'Yes - automatic')
+        # S-B1 (14 Nov 2026): an option that says more than his licence is never ticked; 'Full licence' says only that
+        self.no(gate(text, ['Yes, full licence', 'Yes, probationary licence', 'No']))
+        self.no(gate(text, ['Yes - manual', 'Yes - automatic', 'No']))
+        self.ok(gate(text, ['Full licence', 'Provisional licence', 'Learner permit', 'No licence']), 'Full licence')
         self.ok(gate('Are you licenced to drive a manual vehicle?', YES_NO), 'No', 'answers.manual_licence')
         self.ok(gate("Is your driver's licence manual or automatic?"), 'Automatic')
         for other in ('Do you have a valid WA drivers licence?', "Do you hold a current Queensland driver's licence?", "Do you have a heavy vehicle driver's licence?"):
@@ -449,10 +451,11 @@ class QueueAnswerCommand(unittest.TestCase):
         self.add(entry(1, questions=[RTW, 'How much notice are you required to give your current employer?']))
         code, out, err = self.cli('next', '--route', 'SEEK', '--by', 'Grok', '--run', '20261113T0100Z')
         self.assertEqual(code, 0)
-        # the questions come first; the resume line, the checks and the claim's git commands follow (package A)
+        # the questions come first; the cover letter, the resume line, the checks and the claim's git commands follow (package A)
         self.assertEqual(err.splitlines()[:2], [f"Q: {RTW} | give: {FACTS['answers']['right_to_work']['free_text']}",
                                                 'Q: How much notice are you required to give your current employer? | give: 2 weeks'])
-        self.assertTrue(err.splitlines()[2].startswith('RESUME: '), err)
+        self.assertEqual(err.splitlines()[2], 'COVER LETTER TO PASTE: none (this entry has no cover_letter_text)')
+        self.assertTrue(err.splitlines()[3].startswith('RESUME: '), err)
 
 
 # ---------------------------------------------------------------------------------------------- one set of letter rules

@@ -96,15 +96,17 @@ class AnswerKeepsOtherRunnersStarts(Case):
         self.add(entry(1, questions=[NOTICE]))
         self.assertEqual(self.cli('next', '--route', 'SEEK', '--by', 'Grok', '--run', '20261113T0100Z')[0], 0)
         before = self.files()
-        for by in (('--by', 'Claude'), ()):
+        # round 2 F8: a session that does not hold the start may not fill its form at all (answer refused, exit 1)
+        for by, needle in ((('--by', 'Claude'), 'seek-1 was started by Grok at '), ((), "answer on it needs this session's --by NAME --run RUN_ID")):
             code, out, err = self.cli('answer', 'seek-1', '--question', TRAFFIC, '--option', 'Yes', '--option', 'No', *by)
-            self.assertEqual((code, out), (5, ''), by)
-            self.assertIn('Do not submit; leave the form. Nothing is stored: seek-1 was started by Grok', err)
+            self.assertEqual((code, out), (1, ''), by)
+            self.assertIn(needle, err)
+            self.assertIn('Do not fill or submit its form (answer refused; nothing changed).', err)
             self.assertEqual(self.files(), before, by)
         self.assertIn('started by Grok', self.cli('list', '--started')[1])
         # the runner that started it (any letter case) ends its own start: ASK_OWNER, no longer under way
         code, _, err = self.cli('answer', 'seek-1', '--question', TRAFFIC, '--option', 'Yes', '--option', 'No', '--by', 'grok')
-        self.assertEqual(code, 5)   # M2: the right name without the session's run stores nothing either
+        self.assertEqual(code, 1)   # M2: the right name without the session's run stores nothing either
         self.assertIn('in another run (session)', err)
         self.assertEqual(self.files(), before)
         code, _, err = self.cli('answer', 'seek-1', '--question', TRAFFIC, '--option', 'Yes', '--option', 'No', '--by', 'grok', '--run', RUN)
@@ -114,12 +116,21 @@ class AnswerKeepsOtherRunnersStarts(Case):
         self.assertEqual((e['status'], e['attempts'][-1]['result'], e['attempts'][-1]['by']), ('ASK_OWNER', 'asked_owner', 'grok'))
         self.assertEqual(self.cli('list', '--started')[1].strip(), 'no unmarked starts')
 
-    def test_an_answered_question_on_another_runners_start_is_still_answered(self):
+    def test_an_answered_question_on_another_runners_start_is_refused_too(self):
+        # round 2 F8: before, any session got the answers for a form another session had started (a second submission)
         self.add(entry(1, questions=[NOTICE]))
         self.cli('next', '--route', 'SEEK', '--by', 'Grok', '--run', '20261113T0100Z')
-        code, out, _ = self.cli('answer', 'seek-1', '--question', NOTICE, '--option', '2 weeks', '--option', '1 month', '--by', 'Claude')
-        self.assertEqual((code, out), (0, '2 weeks\n'))
+        before = self.files()
+        code, out, err = self.cli('answer', 'seek-1', '--question', NOTICE, '--option', '2 weeks', '--option', '1 month', '--by', 'Claude')
+        self.assertEqual((code, out), (1, ''))
+        self.assertIn('seek-1 was started by Grok', err)
+        self.assertEqual(self.files(), before)
         self.assertEqual(q.started(self.stored('seek-1'))['by'], 'Grok')
+        code, out, _ = self.cli('answer', 'seek-1', '--question', NOTICE, '--option', '2 weeks', '--option', '1 month', '--by', 'Grok',
+                                '--run', '20261113T0100Z')
+        self.assertEqual((code, out), (0, '2 weeks\n'))   # the session that holds it still gets every answer
+        code, out, _ = self.cli('answer', '--question', NOTICE, '--option', '2 weeks', '--option', '1 month')
+        self.assertEqual((code, out), (0, '2 weeks\n'))   # and the screening form (no entry) reads the gate for anyone
 
 
 class NextNamesWhatItsRecomputeRewrote(Case):

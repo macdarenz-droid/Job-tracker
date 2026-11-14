@@ -364,7 +364,7 @@ class QueueCase(unittest.TestCase):
         return q.save(self.dir, q.fill(e))
 
     def applied(self, entry_id, at, kind='seek_confirmation_screen'):
-        ref = '18f3a6b2c4d5e6f7' if kind == 'gmail_message_id' else 'ref-1'   # a Gmail message id is 16 hex characters
+        ref = '18f3a6b2c4d5e6f7' if kind == 'gmail_message_id' else 'SEEK confirmation screen shown'   # a Gmail message id is 16 hex characters
         return q.mark(self.dir, entry_id, 'applied', 'grok', NOW, kind, ref, at, facts=FACTS)
 
     def cli(self, *args, now=NOW):
@@ -1068,7 +1068,7 @@ class ReportTests(QueueCase):
         self.assertEqual(code, 0)
         self.assertEqual(json.loads(out), {
             'queue_open': {'SEEK': 2, 'EMAIL': 1, 'EMPLOYER_PORTAL': 0, 'EMPLOYER_FORM': 0, 'total': 3},
-            'applied_last_7_days': 1, 'applied_total': 2, 'expired_unsubmitted_total': 1, 'ask_owner_open': 2, 'uncertain': 0,
+            'applied_last_7_days': 1, 'applied_total': 2, 'already_applied_total': 0, 'expired_unsubmitted_total': 1, 'ask_owner_open': 2, 'uncertain': 0,
             'open_with_letter_to_rewrite': 0})
         self.assertIn('waiting (OPEN, ready or held), queue_open: SEEK 2, EMAIL 1, EMPLOYER_PORTAL 0, EMPLOYER_FORM 0, total 3', self.cli('stats')[1])
 

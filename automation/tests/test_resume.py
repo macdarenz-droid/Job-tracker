@@ -66,8 +66,8 @@ SUMMARY = ('Civil design graduate with an Advanced Diploma of Civil Construction
            'checks, material records and progress reports. White Card and {licence}. Will relocate anywhere in '
            'Australia and can start two weeks after an offer.')
 # eligibility.police_check as a fact with notes after its first sentence (its wording of 13 Nov 2026, evening).
-POLICE_NOTE = ('Holds an AFP National Police Check certificate issued in March 2026 (application received 19 March '
-               '2026; certificate forwarded 23 March 2026). It was obtained for his visa. Treat it as current until '
+POLICE_NOTE = ('Holds an AFP National Police Check certificate issued in March 2026 (a note in brackets, 1 April). '
+               'It was not issued for an employer. Treat it as current until '
                "March 2027; after that the answer is 'willing to obtain one'.")
 
 BUILT = {lane: resume.build(lane) for lane in resume.LANES}
@@ -234,7 +234,7 @@ class ContentTests(unittest.TestCase):
             text = text_of(resume.build(lane, later()))
             self.assertIn('\nAFP National Police Check certificate issued in March 2026\n', text, lane)
             self.assertIn("Full Victorian driver's licence and own reliable transport", text, lane)
-            for gone in ['current', 'Current', 'his visa', 'willing to obtain', '19 March', 'Holds']:
+            for gone in ['current', 'Current', 'not issued', 'willing to obtain', '1 April', 'Holds']:
                 self.assertNotIn(gone, text, (lane, gone))
             self.assertEqual(text.count('2027'), 1, lane)      # the work-rights line; not the note on the check
 
