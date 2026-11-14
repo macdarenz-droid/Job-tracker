@@ -31,6 +31,13 @@
    "result": "started",
    "note": "",
    "run": "20261114T213411Z"
+  },
+  {
+   "at": "2026-11-14T21:46:00Z",
+   "by": "Grok",
+   "result": "failed",
+   "note": "SEEK apply redirect to employer site stalled, then SEEK refused connections; employer site never reached, nothing entered",
+   "run": "20261114T213411Z"
   }
  ],
  "receipt": {},
