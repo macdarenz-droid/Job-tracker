@@ -41,8 +41,18 @@ def entry(n, **kw):
     return e
 
 
+# An email application attaches its cover letter, and next holds an EMAIL entry without one (checks.py's letter rules).
+LETTER = ('Hello,\n\n'
+          'I am applying for the Junior Civil Drafter role. Your advert asks for subdivision drawings in Civil 3D.\n\n'
+          'In the Advanced Diploma of Civil Construction Design, finished in February 2026, I designed road geometry, earthworks and '
+          'stormwater drainage in AutoCAD and Civil 3D to Australian Standards.\n\n'
+          'I live in Melton and can start two weeks after an offer. Full working rights in Australia (Subclass 485 visa), no '
+          'sponsorship needed. Could we talk this week?\n\n'
+          'Marc Masarate')
+
+
 def email_entry(n, **kw):
-    e = entry(n, route='EMAIL', seek_id='', url=f'https://example{n}.com.au/careers', id=f'email-{n}',
+    e = entry(n, route='EMAIL', seek_id='', url=f'https://example{n}.com.au/careers', id=f'email-{n}', cover_letter_text=LETTER,
               email={'to': f'jobs@example{n}.com.au', 'subject': 'Junior Civil Drafter', 'body': 'Hello.',
                      'evidence_url': f'https://example{n}.com.au/careers'})
     e.update(kw)

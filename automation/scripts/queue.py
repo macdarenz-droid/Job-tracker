@@ -20,7 +20,9 @@ Usage (global options --dir, --config, --facts, --prior and --now go before the 
   queue.py lock take --by NAME --run RUN_ID [--minutes 30]
   queue.py lock release --by NAME --run RUN_ID
   queue.py lock show
-  queue.py answer ID [--question TEXT [--option O]... [--set ANSWER --basis FACTS.KEY --by NAME]]
+  queue.py answer --question TEXT [--option O]... [--advert-pay TEXT]   (no entry yet: the standing answer, or UNANSWERED)
+  queue.py answer ID --question TEXT [--option O]... [--advert-pay TEXT] [--by NAME]   (a question on the form of an entry)
+  queue.py answer ID                                         (every stored answer again, from facts.json as it is now)
   queue.py letter ID --file LETTER.txt [--subject TEXT] [--body-file EMAIL.txt] [--to ADDRESS] [--evidence-url URL]
                      [--allow PHRASE]...
   queue.py expire [--today YYYY-MM-DD]
@@ -30,23 +32,33 @@ Usage (global options --dir, --config, --facts, --prior and --now go before the 
   queue.py check
 
 Exit codes: 0 done; 1 refused (reason on stderr); 3 the day's cap, the SEEK spacing or the quiet hours
-(config.json -> limits -> quiet_hours, 21:00-07:00 Melbourne time when not set); 4 nothing to hand out.
+(config.json -> limits -> quiet_hours, 21:00-07:00 Melbourne time when not set); 4 nothing to hand out; 5 a form
+question has no standing answer in facts.json (do not submit; leave the form).
+
+Answers come only from facts.json, through answers.py (the one gate checks.py uses too). answer prints the answer to
+give, word for word one of the options given, on stdout; a question it cannot answer prints UNANSWERED: <why> on
+stderr and exits 5, and on an entry it also stores the question, sets ASK_OWNER and ends an unmarked start. With no
+options an answer is the text to type or a short description of the choice: for every multiple-choice question run
+answer with the options on screen.
 
 next hands out nothing at all while queue.py check finds a problem (for example an entry that is both in open/ and,
 finished, in done/), during the quiet hours, or once the day's cap is used. The cap and the 20-minute SEEK spacing
 count every APPLIED receipt, every UNCERTAIN entry (at its uncertain mark) and every start not yet marked (at the
 start), on the Melbourne date. On the EMAIL route next needs --by, --run and that runner's own unexpired send lock.
-It never hands out an entry that is not OPEN, has a finished copy in done/, is past its closing date or stated
-closing time, has an unanswered question, repeats an application (the rule below), has a twin at the same employer
-that a runner has started and not marked, is a speculative enquiry once limits.max_speculative_per_week (3 when not
-set) have been applied for, left uncertain or started in this ISO week (Melbourne time), still carries a letter
-marked "rewrite before use", has letter or email text over the word limits or with a flagged phrase of
-config -> tone, has no email text or no evidence_url (EMAIL route), or was started by a runner that recorded no
-result. Advertised vacancies go before speculative enquiries, then lane, then the soonest stated closing date, then
-the newest listing. With --by it records the start and prints on stderr, after the entry, the git commands that
-commit and push that claim: run them before submitting, and finish every entry it hands out with a mark. It also
-prints on stderr the resume file for resume_variant with its sha256, and the entry's verify_before_submit checks
-under "BEFORE SUBMITTING, CHECK:".
+Then it works out every answer of the route's waiting entries again from facts.json as it is now (an entry whose
+answer no longer stands goes to ASK_OWNER; one whose questions are now all answered goes back to OPEN). It never
+hands out an entry that is not OPEN, has a finished copy in done/, is past its closing date or stated closing time,
+has an unanswered question, repeats an application (the rule below), has a twin at the same employer that a runner
+has started and not marked, is a speculative enquiry once limits.max_speculative_per_week (3 when not set) have been
+applied for, left uncertain or started in this ISO week (Melbourne time), still carries a letter marked "rewrite
+before use", has a letter or email that fails checks.py's letter_issues or email_issues (the same rules as
+`checks.py draft`; an EMAIL entry needs its letter), has no email text or no evidence_url (EMAIL route), or was
+started by a runner that recorded no result. Advertised vacancies go before speculative enquiries, then lane, then
+the soonest stated closing date, then the newest listing. With --by it records the start and prints on stderr, after
+the entry, the git commands that commit and push that claim: run them before submitting, and finish every entry it
+hands out with a mark. It also prints on stderr each form question as 'Q: <question> | give: <answer>', the resume
+file for resume_variant with its sha256, and the entry's verify_before_submit checks under "BEFORE SUBMITTING,
+CHECK:".
 
 Repeats. The same advert (id, seek_id or url) is always a duplicate. The same employer and the same role is blocked
 for ever once an entry for it is APPLIED or UNCERTAIN, and for limits.repeat_block_days (90) from an entry of
@@ -60,8 +72,8 @@ Statuses: OPEN (waiting, ready or held), ASK_OWNER (waiting on the owner), UNCER
 in open/, never handed out or expired, counted as an application until "mark ID applied" or "mark ID open --note
 'checked: ...'" settles it), APPLIED, SKIPPED, EXPIRED, FAILED. stats: queue_open counts status OPEN only (ready or
 held), not ASK_OWNER or UNCERTAIN. A start that next --by recorded is released only by the runner that made it
-("mark ID open --by NAME"); another runner may only mark it applied (with the receipt) or uncertain. expire leaves
-UNCERTAIN entries and unmarked starts where they are.
+("mark ID open --by NAME"); another runner may only mark it
+applied (with the receipt) or uncertain. expire leaves UNCERTAIN entries and unmarked starts where they are.
 
 Receipts. mark applied --ref is a public record: plain words such as "SEEK confirmation screen shown", never an email
 address, a web address or a number of 6 or more digits (application, candidate or reference numbers). With --kind
@@ -85,11 +97,12 @@ Entry fields for add (one JSON object):
             (YYYY-MM-DD); closes_at (YYYY-MM-DD, or YYYY-MM-DDThh:mm when the advert states a time) with closes_source
             (advert or listing_expiry; listing_expiry when closes_at is given without it); fit (0 to 100);
             resume_variant (the lane when not given); relocation_line; cover_letter_text; questions (["exact text"]
-            or [{"question": ..., "options": [...]}], answered from facts.json); verify_before_submit (a list of short
-            one-line checks the submitter makes first); status (OPEN by default; ASK_OWNER with ask_owner; APPLIED
-            with receipt {at, by, kind, ref} for an application made elsewhere); ask_owner; notes; source_run;
-            created_by (else --by); created_at; tone_allow (flagged phrases the letter or email may keep; set by
-            letter --allow).
+            or [{"question": ..., "options": [...]}], answered from facts.json); advert_pay (the advert's own pay
+            text, which decides the salary answer; also set by answer --advert-pay); verify_before_submit (a list of
+            short one-line checks the submitter makes first); status (OPEN by default; ASK_OWNER with ask_owner;
+            APPLIED with receipt {at, by, kind, ref} for an application made elsewhere); ask_owner; notes;
+            source_run; created_by (else --by); created_at; tone_allow (flagged phrases the letter or email may keep;
+            set by letter --allow).
 
 This file has the same name as the standard library's "queue" module and sits first on sys.path when a script in
 this folder runs. It therefore re-exports the standard module's names (see just below); import it from other code as
@@ -174,6 +187,11 @@ class CapReached(Refused):
 
 class NothingToDo(Refused):
     code = 4
+
+
+class Unanswered(Refused):
+    """A form question has no standing answer in facts.json: do not submit."""
+    code = 5
 
 
 # ---------- small helpers ----------
@@ -336,223 +354,31 @@ def fact_at(facts, path):
 
 # ---------- standing answers for form questions ----------
 
-def _plain(value):
-    """A fact usable as an answer; '' when the fact itself says it is not known."""
-    v = str(value or '').strip()
-    return '' if re.match(r'not (on record|confirmed)', v, re.I) else v
+def _sibling(name):
+    """A module from this folder (answers.py, checks.py), imported once by name. The folder goes at the end of
+    sys.path, never the front: this file must not shadow the standard library's queue module for other code."""
+    folder = str(Path(__file__).resolve().parent)
+    if folder not in sys.path:
+        sys.path.append(folder)
+    return importlib.import_module(name)
 
 
-def _yes_no(value, opts):
-    v = _plain(value)
-    head = 'Yes' if re.match(r'yes\b', v, re.I) else 'No' if re.match(r'no\b', v, re.I) else ''
-    if not head or not opts:
-        return head
-    hits = [o for o in opts if re.match(head + r'\b', o, re.I)]
-    return hits[0] if len(hits) == 1 else ''
+def answer_question(question_text, options, facts, pay=None):
+    """The standing answer to one form question, from the one answer gate (answers.py): {'answer', 'basis', 'status'}.
 
-
-def _same(value, opts):
-    v = _plain(value)
-    if not v or not opts:
-        return v
-    hits = [o for o in opts if slug(o) == slug(v)]
-    return hits[0] if len(hits) == 1 else ''
-
-
-# Words that may stand before a role he has held without changing what is asked ("Assistant Civil Engineer").
-ROLE_PREFIXES = ('civil', 'junior', 'graduate', 'assistant', 'construction', 'site', 'project')
-# The few ways a listed "Do you have experience ...?" question leads into the activity it names.
-LEAD_INS = ('working on ', 'carrying out ', 'in ', 'with ')
-
-
-def _under_one_year(opts):
-    return [o for o in opts if re.match(r'(less than|under|<)\s*(1|one)\s*year|0\s*(-|to)\s*1\s*years?$', o.strip(), re.I)]
-
-
-def _right_to_work(m, opts, a, facts):
-    rule, basis = (a.get('right_to_work') or {}).get('choose'), 'answers.right_to_work.choose'
-    if not rule or not opts:
-        return rule or '', basis
-    allowed = [o for o in opts if not re.search(r'citizen|permanent resident|sponsor', o, re.I)]
-    graduate = [o for o in allowed if re.search(r'graduate temporary|\b485\b', o, re.I)]
-    free = [o for o in allowed if re.search(r'temporary visa', o, re.I)
-            and re.search(r'no restrictions?|without restrictions?|unrestricted', o, re.I)]
-    pick = graduate if graduate else free
-    return (pick[0] if len(pick) == 1 else ''), basis
-
-
-def _years(m, opts, a, facts):
-    years = {k: v for k, v in (a.get('years_of_experience') or {}).items() if k != 'rule'}
-    is_role = bool(m.re.groupindex.get('role'))
-    x, hits, near = re.sub(r'^the ', '', ' '.join(m.group('x').lower().split())), {}, False
-    for key, value in years.items():
-        worked = '11 months' in value   # a role he has held: the answer claims months of work
-        for part in (p.strip() for p in key.lower().split(',') if p.strip()):
-            if not re.search(r'\b' + re.escape(part) + r'\b', x):
-                continue
-            near = True
-            plain = x == part or (is_role and x.endswith(' ' + part) and all(w in ROLE_PREFIXES for w in x[:-len(part)].split()))
-            if worked and not plain:
-                # Months of work are claimed only for the named role itself, alone or after a plain prefix ("Civil
-                # Site Engineer"). Any other word ("... in Australia", "Senior ...", "Rail ...") asks something else.
-                return '', ''
-            if plain or (is_role and not worked):   # a lowest-option answer cannot overstate: the role anywhere in a title
-                hits[key] = value
-    held = {w for job in facts.get('experience') or [] for w in re.findall(r'[a-z]{5,}', str(job.get('role') or '').lower())}
-    if not near and is_role and not held & set(re.findall(r'[a-z]{5,}', x)):
-        # "any other role" is a standing answer too, but not for a title that shares a word with a job he has held
-        hits = {k: v for k, v in years.items() if 'any other role' in k.lower()}
-    kinds = {'11 months' if '11 months' in v else 'lowest' if 'lowest option' in v else 'other' for v in hits.values()}
-    if len(kinds) != 1:
-        return '', ''
-    key, value = next(iter(hits.items()))
-    basis = 'answers.years_of_experience.' + key
-    if not opts:
-        return value, basis
-    under, none = _under_one_year(opts), [o for o in opts if re.match(r'(no experience|none|no|0( years?)?)$', o.strip(), re.I)]
-    pick = under if kinds == {'11 months'} else (none or under) if kinds == {'lowest'} else []
-    return (pick[0] if len(pick) == 1 else ''), basis
-
-
-def _salary(m, opts, a, facts):
-    s = a.get('expected_salary') or {}
-    if not s.get('rule'):
-        return '', 'answers.expected_salary.rule'
-    single = re.match(r'[\d,]+', str(s.get('single_figure_when_no_pay_stated') or ''))
-    return s['rule'] + (f' Single figure when the advert states no pay: {single.group(0)}.' if single else ''), 'answers.expected_salary.rule'
-
-
-def _licence(m, opts, a, facts):
-    if re.search(r'full|probation|provisional|manual|automatic|learner|p[- ]?plate|open licen', ' '.join([m.string] + opts), re.I):
-        return '', 'answers.drivers_licence'
-    return _yes_no(a.get('drivers_licence'), opts), 'answers.drivers_licence'
-
-
-def _qualification(m, opts, a, facts):
-    known, x, other = a.get('qualification_questions') or {}, ' '.join(m.group('x').lower().split()), 'any other named qualification'
-    parts = [p.strip() for p in x.split('/') if p.strip()]
-    key = x if x in known and x != other else None   # a field facts.json answers by name
-    if parts and all(p in ('engineering drafting', 'engineering design') for p in parts):
-        key = 'engineering drafting or design'
-    if key:
-        return _yes_no(known.get(key), opts), 'answers.qualification_questions.' + key
-    if other not in known:
-        return '', ''
-    held = [str(e.get('qualification') or '').lower() for e in facts.get('education') or []]
-    words = lambda text: set(re.findall(r'[a-z]{4,}', text))
-    if len(x.split()) > 1 and any(re.search(r'\b' + re.escape(x) + r'\b', h) for h in held):
-        answer = 'Yes'   # the field is named, whole, in the title of a qualification he holds
-    elif words(x) and not words(x) & words(' '.join(held)):
-        answer = 'No'    # nothing he holds shares a word with it
-    else:
-        answer = ''      # a field that shares a word with his own ("science", "construction management"): not guessed
-    return _yes_no(answer, opts), 'answers.qualification_questions.' + other
-
-
-def _experience(m, opts, a, facts):
-    # The question must name exactly one of the activities in facts.json, alone: "3+ years of ...", "... on civil
-    # infrastructure projects" or "... in Procore" ask something else.
-    x = ' '.join(m.group('x').lower().split())
-    asked = {x.rstrip('s')} | {x[len(lead):].rstrip('s') for lead in LEAD_INS if x.startswith(lead)}
-    for key, value in (a.get('experience_yes_no') or {}).items():
-        if key != 'anything else' and asked & {p.strip().lower().rstrip('s') for p in key.split(',') if p.strip()}:
-            return _yes_no(value, opts), 'answers.experience_yes_no.' + key
-    return '', ''  # "anything else" needs a reading of his history: not decided here
-
-
-def _which(m, opts, a, facts):
-    x, software = ' '.join(m.group('x').lower().split()), a.get('software') or {}
-    key = {'cad software': 'CAD', 'microsoft office products': 'Microsoft Office'}.get(x)
-    value = str(software.get(key) or '') if key else ''
-    if ' only' not in value:  # no approved list to tick from (Microsoft Office products are not confirmed)
-        return '', ('answers.software.' + key) if key else ''
-    if not opts:
-        return value, 'answers.software.' + key
-    names = {n.strip().lower() for n in re.split(r',|\band\b', value.split(' only')[0]) if n.strip()}
-    def named(o):
-        o = re.sub(r'^autodesk\s+', '', o.strip().lower())
-        return o in names or (o.startswith('autocad ') and o[8:] in names)
-    return '; '.join(o for o in opts if named(o)), 'answers.software.' + key
-
-
-def _fact(key, how):
-    return lambda m, opts, a, facts: (how(a.get(key), opts), 'answers.' + key)
-
-
-# Only the common SEEK questions. Anything else comes back unanswered, never guessed.
-PATTERNS = [(re.compile(p + r'\??'), h) for p, h in (
-    (r'which of the following statements best describes your right to work in australia', _right_to_work),
-    (r"how many years'? experience do you have as an? (?P<role>(?P<x>.+?))", _years),
-    (r"how many years'? experience do you have (?:in|with) (?P<x>.+?)", _years),
-    (r'how much notice are you required to give your current employer', _fact('notice_period', _same)),
-    (r"what(?:'s| is) your expected annual base salary", _salary),
-    (r"do you have a current australian driver'?s licen[cs]e", _licence),
-    (r'have you completed a qualification in (?P<x>.+?)', _qualification),
-    (r'do you have experience (?P<x>.+?)', _experience),
-    (r'do you have (?P<x>.+?) experience', _experience),
-    (r'which of the following (?P<x>.+?) (?:do you have experience with|are you experienced with)', _which),
-    (r'do you hold a construction induction safety certificate \(white card\)', _fact('white_card', _yes_no)),
-    (r'are you willing to undergo a pre-employment medical check', _fact('pre_employment_medical', _yes_no)),
-    (r'do you have a current police check \(national police certificate\) for employment', _fact('police_check', _yes_no)),
-    (r'do you own or have regular access to a car', _fact('own_car_or_regular_access', _yes_no)),
-    (r'are you willing to undergo pre-employment drug and alcohol screening', _fact('drug_and_alcohol_screening', _yes_no)),
-    (r'how would you rate your english language skills', _fact('english_self_rating', _same)),
-    (r'are you currently studying', _fact('currently_studying', _yes_no)),
-)]
-
-
-def _question(text):
-    return ' '.join(str(text or '').replace('’', "'").lower().split())
-
-
-def answer_question(question_text, options, facts):
-    """The standing answer to one form question, taken only from facts['answers'].
-
-    Returns {'answer', 'basis', 'status'}: status is 'answered' or 'unanswered', basis is the facts.json key used.
-    With the form's options the answer is one of them, word for word (several joined by '; ' for a tick list); with no
-    options it is the approved answer or rule for the submitter to apply on screen. The salary question always gets
-    the rule, because the band depends on the pay the advert states. Pure: no files, no clock.
+    status is 'answered' only when a line of facts.json clearly covers the question; with the form's options the
+    answer is one of them, word for word (several joined by '; ' for a tick list), and with no options it is the text
+    to give. pay is the advert's own pay text (the salary question). Nothing else is guessed.
     """
-    a = (facts or {}).get('answers') or {}
-    q = _question(question_text)
-    opts = [str(o).strip() for o in (options or []) if str(o).strip()]
-    for pattern, handler in PATTERNS:
-        m = pattern.fullmatch(q)
-        if m:
-            answer, basis = handler(m, opts, a, facts or {})
-            return {'answer': answer or '', 'basis': basis, 'status': 'answered' if answer else 'unanswered'}
-    return {'answer': '', 'basis': '', 'status': 'unanswered'}
-
-
-def standing(question_text):
-    """True for one of the listed questions: PATTERNS and facts.json decide its answer, never a runner."""
-    q = _question(question_text)
-    return any(pattern.fullmatch(q) for pattern, _ in PATTERNS)
-
-
-NEVER_CHOOSE = re.compile(r'citizen|permanent resident|(?<!\bno )sponsor', re.I)
-WORK_RIGHTS = re.compile(r'citizen|resident|residency|visa|sponsor|rights? to work|work(?:ing)? rights|(?:entitled|eligible|allowed) to work', re.I)
+    r = _sibling('answers').answer(question_text, options, facts, pay=pay)
+    return {'answer': r['answer'], 'basis': r['basis'], 'status': r['status']}
 
 
 def set_problem(question, answer, basis, facts):
-    """Why a runner may not give this answer on this basis ('' when it may). The answer must be the fact itself."""
-    value = fact_at(facts, basis)
-    values = value if isinstance(value, list) else [value]
-    if not basis or value in (None, [], '') or any(isinstance(v, (dict, list)) or v is None for v in values):
-        return 'the basis must name one value in facts.json (for example identity.location), not a missing key or a whole block'
-    if standing(question):
-        return 'this is one of the listed questions: its standing answer in facts.json -> answers governs and cannot be set by hand'
-    if NEVER_CHOOSE.search(answer):
-        return 'facts.json -> answers.right_to_work.never_choose: never citizen, permanent resident or sponsorship'
-    if WORK_RIGHTS.search(question) and not re.match(r'answers\.right_to_work\.|eligibility\.work_rights', basis):
-        return 'a work-rights question needs a basis under answers.right_to_work or eligibility.work_rights'
-    want = slug(answer)
-    for v in (_plain(v) for v in values):   # '' when the fact itself says not confirmed or not on record
-        head = _yes_no(v, [])
-        if want and v and (want == slug(v) or want == slug(head) or (basis.startswith('identity.') and f'-{want}-' in f'-{slug(v)}-')):
-            return ''
-    return ('the answer is not the value at that key: it must be the same text, a plain Yes or No that the value starts '
-            'with, or part of an identity value such as the suburb')
+    """Why an answer set by hand does not stand: every answer now comes from facts.json through answers.py (the
+    owner's answers go into facts.json, and `queue.py answer ID` recomputes). Kept so that validate and check name an
+    old hand-set answer ('by') that is still in a file; the next recompute replaces it."""
+    return 'answers are set only from facts.json by answers.py (queue.py answer ID recomputes them); a hand-set answer does not stand'
 
 
 def unanswered(e):
@@ -574,24 +400,36 @@ def owner_line(e):
     return ask if not questions or questions in ask else (ask + ' Also: ' + questions if ask else questions)
 
 
-def apply_answers(e, facts, before=None):
-    """Recompute every question from facts and move the entry between OPEN and ASK_OWNER to match.
+QUESTION_LINE = 'No standing answer for '   # how question_ask starts: an ask_owner the form questions put there
 
-    An answer a named runner set with a facts key (it has 'by') is kept while it still stands: the question is not one
-    of the listed ones and the answer is still the value at its basis. An ASK_OWNER put there for another reason stays.
-    before is the entry's question line as it was before the caller changed its questions.
+
+def apply_answers(e, facts, before=None):
+    """Recompute every question from facts (answers.py) and move the entry between OPEN and ASK_OWNER to match.
+
+    Every stored answer is worked out again, so a change to facts.json reaches every entry; an old answer set by hand
+    ('by') is dropped. The entry goes to ASK_OWNER while a mandatory question is unanswered, and back to OPEN once the
+    owner question is only about form questions and all of them are answered. An ASK_OWNER put there for another
+    reason stays. before is the entry's question line as it was before the caller changed its questions.
     """
     before = question_ask(e) if before is None else before
     for q in e['questions']:
-        if not q.get('by') or set_problem(q.get('question'), str(q.get('answer') or ''), str(q.get('basis') or ''), facts):
-            q.pop('by', None)
-            q.update(answer_question(q.get('question'), q.get('options'), facts))
+        q.pop('by', None)
+        q.update(answer_question(q.get('question'), q.get('options'), facts, e.get('advert_pay') or None))
     after = question_ask(e)
-    ours = e['status'] == 'ASK_OWNER' and bool(before) and e['ask_owner'] == before
+    ours = e['status'] == 'ASK_OWNER' and (bool(before) and e['ask_owner'] == before or str(e['ask_owner']).startswith(QUESTION_LINE))
     if after and (e['status'] == 'OPEN' or ours):
         e['status'], e['ask_owner'] = 'ASK_OWNER', after
     elif not after and ours:
         e['status'], e['ask_owner'] = 'OPEN', ''
+    return e
+
+
+def refresh(qdir, path, e, facts):
+    """Recompute an entry's answers from the facts.json of now and save the file when anything changed."""
+    was = json.dumps([e['status'], e['ask_owner'], e['questions']], sort_keys=True)
+    apply_answers(e, facts)
+    if json.dumps([e['status'], e['ask_owner'], e['questions']], sort_keys=True) != was:
+        save(qdir, e, path)
     return e
 
 
@@ -916,22 +754,19 @@ def repeat_check(e, applied, today, days):
 
 
 def tone_problems(e, config):
-    """Where the letter, or the email body on the EMAIL route, breaks config -> tone: over the word limit, or a phrase
-    from no_volunteered_limits.flag_patterns that the entry does not list under tone_allow."""
-    tone = (config or {}).get('tone') or {}
-    allowed = [str(x).lower() for x in e.get('tone_allow') or []]
-    flags = [f.lower() for f in (tone.get('no_volunteered_limits') or {}).get('flag_patterns') or [] if f.lower() not in allowed]
-    texts = [('letter', e['cover_letter_text'], tone.get('max_cover_letter_words'))]
+    """Where the letter (with its relocation line) or, on the EMAIL route, the email breaks the writing rules. These
+    are checks.py's own rules (letter_issues, email_issues), so next and `checks.py draft` agree: the word limits,
+    config -> tone banned phrases and characters (en and em dashes too), the volunteered-limit patterns not listed
+    under tone_allow, the visa end date however written, claims facts.json does not hold, and the letter's three
+    paragraphs between the greeting line and the sign-off. An email application also needs its letter."""
+    checks = _sibling('checks')
+    tone, allow = (config or {}).get('tone'), e.get('tone_allow') or []
+    letter = checks.compose_letter(e['cover_letter_text'], e['relocation_line'])
+    problems = checks.letter_issues(letter, tone=tone, allow=allow) if letter.strip() else []
     if e['route'] == 'EMAIL':
-        texts.append(('email', e['email']['body'], tone.get('max_email_words')))
-    problems = []
-    for name, text, limit in texts:
-        count = len(re.findall(r"[A-Za-z0-9'’]+", text))   # counted as checks.py counts
-        if limit and count > limit:
-            problems.append(f'{name} is {count} words (limit {limit})')
-        said = [f for f in flags if f in text.lower()]
-        if said:
-            problems.append(f'{name} says "{said[0]}"')
+        if not letter.strip():
+            problems.append('letter text missing (an email application attaches the cover letter)')
+        problems += checks.email_issues(e['email']['subject'], e['email']['body'], tone=tone, allow=allow)
     return problems
 
 
@@ -1136,12 +971,15 @@ def resume_file(e):
 
 
 def handout_notes(e, qdir, by=None):
-    """What next prints on stderr after the entry: the resume file with its sha256, the checks to make before
-    submitting, and with --by the git commands that commit and push the claim."""
+    """What next prints on stderr after the entry: what to give for each form question ('Q: <question> | give:
+    <answer>'; run answer with the options on screen for a multiple-choice one), the resume file with its sha256, the
+    checks to make before submitting, and with --by the git commands that commit and push the claim."""
+    lines = [f"Q: {q['question']} | give: " + (q['answer'] if q['status'] == 'answered' else '(no standing answer; optional: leave it blank)')
+             for q in e['questions']]
     path = resume_file(e)
     shown = path.relative_to(ROOT.parent) if path.is_relative_to(ROOT.parent) else path
-    lines = [f'RESUME: {shown} sha256 {hashlib.sha256(path.read_bytes()).hexdigest()}' if path.exists()
-             else f'RESUME: {shown} is missing: do not submit until it is built']
+    lines.append(f'RESUME: {shown} sha256 {hashlib.sha256(path.read_bytes()).hexdigest()}' if path.exists()
+                 else f'RESUME: {shown} is missing: do not submit until it is built')
     if e.get('verify_before_submit'):
         lines += ['BEFORE SUBMITTING, CHECK:'] + [f'  - {c}' for c in e['verify_before_submit']]
     if by:
@@ -1156,7 +994,9 @@ def next_entry(route, qdir=QUEUE_DIR, config=None, now=None, by=None, prior=None
     """The single next entry to submit on this route. Raises Refused, CapReached or NothingToDo.
 
     prior is the list of applications made outside the queue (the entries of prior_outreach.json). Nothing is handed
-    out while check_problems finds a problem, in the quiet hours, or (EMAIL) without this runner's send lock.
+    out while check_problems finds a problem, in the quiet hours, or (EMAIL) without this runner's send lock. With
+    facts, every waiting entry on the route then has its answers worked out again from them, so a changed facts.json
+    holds back an entry whose answer no longer stands (and releases one whose questions are now all answered).
     """
     if route not in ROUTES:
         raise Refused(f'route: one of {", ".join(ROUTES)}')
@@ -1175,6 +1015,8 @@ def next_entry(route, qdir=QUEUE_DIR, config=None, now=None, by=None, prior=None
     for path, e in entries:
         if e['route'] != route or e['status'] not in OPEN_STATUSES:
             continue
+        if facts is not None:
+            refresh(qdir, path, e, facts)   # answers follow the facts.json of now, not of the day the entry was added
         why = blockers(e, ctx)
         if why:
             held[e['id']] = why
@@ -1253,7 +1095,13 @@ def mark(qdir, entry_id, action, by, now=None, kind=None, ref=None, at=None, not
     elif action == 'ask':
         if not note:
             raise Refused('ask needs --question')
-        e['status'], e['ask_owner'] = 'ASK_OWNER', note
+        open_questions = [q['question'] for q in unanswered(e)]
+        if any(slug(q) in slug(note) for q in open_questions):
+            # The ask is about the entry's own unanswered form questions: keep their line, so that `queue.py answer ID`
+            # reopens the entry once facts.json answers them. The runner's words stay in the attempt note.
+            e['status'], e['ask_owner'] = 'ASK_OWNER', question_ask(e)
+        else:
+            e['status'], e['ask_owner'] = 'ASK_OWNER', note
     elif action == 'open':
         if e['status'] == 'UNCERTAIN' and not re.match(r'checked:\s*\S', note, re.I):
             raise Refused(f'{entry_id} is UNCERTAIN: open it only after checking {uncertain_where(e)}, with --note "checked: not '
@@ -1338,30 +1186,28 @@ def expire(qdir=QUEUE_DIR, today=None, now=None):
     return gone
 
 
-def set_question(e, facts, question, options=None, answer=None, basis=None, by=None):
-    """Add a form question (or update it with the options seen on screen), then recompute the entry's answers.
-
-    A runner's own answer is taken only when set_problem finds nothing wrong: it must be the value at the basis key.
-    """
+def set_question(e, facts, question, options=None, pay=None):
+    """Add a form question seen on screen (or give a stored one the options on screen), then recompute every answer
+    of the entry from facts. pay, when given, is the advert's pay text and is kept on the entry (advert_pay). Returns
+    the question as stored."""
     before = question_ask(e)
     q = next((q for q in e['questions'] if slug(q['question']) == slug(question)), None)
     if q is None:
         q = {'question': ' '.join(str(question).split()), 'options': [], 'answer': '', 'basis': '', 'status': 'unanswered'}
         e['questions'].append(q)
     if options:
-        q['options'] = [str(o).strip() for o in options]
-        q.pop('by', None)  # an earlier hand-set answer may not be one of the options: answer again
-    if answer is not None:
-        if not by:
-            raise Refused('--set needs --by NAME and --basis naming a value in facts.json (for example identity.location)')
-        why = set_problem(q['question'], str(answer), str(basis or ''), facts)
-        if why:
-            raise Refused('not set: ' + why)
-        if q['options'] and not all(part in q['options'] for part in answer.split('; ')):
-            raise Refused('the answer must be one of the options, word for word: ' + ' / '.join(q['options']))
-        q.update({'answer': answer, 'basis': basis, 'status': 'answered', 'by': by})
+        q['options'] = [' '.join(str(o).split()) for o in options if str(o).strip()]
+    if pay:
+        e['advert_pay'] = ' '.join(str(pay).split())
     apply_answers(e, facts, before)
     return q
+
+
+def release_start(e, by, now, note):
+    """End an unmarked start on the entry (its last attempt is 'started'), so that it is not held as under way."""
+    last = e['attempts'][-1] if e['attempts'] else {}
+    if last.get('result') == 'started':
+        e['attempts'].append({'at': iso(now), 'by': by or last.get('by') or 'queue.py answer', 'result': 'asked_owner', 'note': ' '.join(note.split())})
 
 
 # ---------- reports ----------
@@ -1477,8 +1323,10 @@ def _parser():
     c = sub.add_parser('mark'); c.add_argument('id'); c.add_argument('action', choices=('applied', 'skipped', 'failed', 'uncertain', 'linkout', 'ask', 'open'))
     c.add_argument('--by', required=True); c.add_argument('--kind', choices=RECEIPT_KINDS); c.add_argument('--ref'); c.add_argument('--at'); c.add_argument('--thread')
     c.add_argument('--reason'); c.add_argument('--note'); c.add_argument('--question'); c.add_argument('--final', action='store_true')
-    c = sub.add_parser('answer'); c.add_argument('id'); c.add_argument('--question'); c.add_argument('--option', action='append')
-    c.add_argument('--set', dest='answer'); c.add_argument('--basis'); c.add_argument('--by')
+    c = sub.add_parser('answer'); c.add_argument('id', nargs='?', help='the queue entry (leave out at screening, before the entry exists)')
+    c.add_argument('--question'); c.add_argument('--option', action='append', help='each option on screen, word for word')
+    c.add_argument('--advert-pay', help="the advert's own pay text, for the salary question")
+    c.add_argument('--by', help='who is answering (recorded when an unmarked start is ended)')
     c = sub.add_parser('letter'); c.add_argument('id'); c.add_argument('--file', required=True); c.add_argument('--subject'); c.add_argument('--body-file')
     c.add_argument('--to', help='the address the email goes to'); c.add_argument('--evidence-url', help='the page where the employer publishes that address')
     c.add_argument('--allow', action='append', metavar='PHRASE', help='a flagged phrase this text may keep, for example the visa end date when the advert asks for it')
@@ -1542,18 +1390,40 @@ def run(a):
         e = mark(qdir, a.id, a.action, a.by, now, a.kind, a.ref, a.at, a.reason or a.note or a.question, a.final, facts, a.thread)
         print(f"{e['id']}: {e['status']}" + (f" ({e['ask_owner']})" if e['ask_owner'] else ''))
     elif a.cmd == 'answer':
+        if a.option and not a.question:
+            raise Refused('--option needs --question')
+        if not a.id:   # at screening, before the entry exists: the gate's answer only, nothing is stored
+            if not a.question:
+                raise Refused('give an entry id, or --question with the options on screen')
+            r = _sibling('answers').answer(a.question, a.option, facts, pay=a.advert_pay)
+            if r['status'] != 'answered':
+                raise Unanswered(f"UNANSWERED: {r['why']}")
+            print(r['answer'])
+            print(f"(facts.json -> {r['basis']})", file=sys.stderr)
+            return
         path, e = find(qdir, a.id, open_only=True)
-        if (a.option or a.answer is not None) and not a.question:
-            raise Refused('--option and --set need --question')
-        if a.question:
-            set_question(e, facts, a.question, a.option, a.answer, a.basis, a.by)
+        q = set_question(e, facts, a.question, a.option, a.advert_pay) if a.question else None
+        if q is not None and q['status'] != 'answered' and q.get('mandatory', True):
+            release_start(e, a.by, now, f"form question with no standing answer: {q['question']}")
         else:
             apply_answers(e, facts)
-        problems = validate(e, facts)   # a question or an answer typed from a form can carry private details
+        problems = validate(e, facts)   # a question or an option typed from a form can carry private details
         if problems:
             raise Refused('not saved: ' + '; '.join(problems))
         save(qdir, e, path)
-        _show({'id': e['id'], 'status': e['status'], 'ask_owner': e['ask_owner'], 'questions': e['questions']})
+        if q is None:
+            _show({'id': e['id'], 'status': e['status'], 'ask_owner': e['ask_owner'], 'questions': e['questions']})
+            if unanswered(e):
+                raise Unanswered(f"UNANSWERED: {e['id']} still has a form question with no standing answer ({e['status']}): " + question_ask(e))
+        elif q['status'] == 'answered':
+            print(q['answer'])
+            print(f"(facts.json -> {q['basis']})", file=sys.stderr)
+        else:
+            why = _sibling('answers').answer(q['question'], q['options'], facts, pay=e.get('advert_pay') or None)['why']
+            if not q.get('mandatory', True):
+                print(f'UNANSWERED: {why}. The entry marks this question optional: leave it blank.', file=sys.stderr)
+                return
+            raise Unanswered(f"UNANSWERED: {why}. {e['id']} is now {e['status']}: do not submit; leave the form.")
     elif a.cmd == 'letter':
         path, e = find(qdir, a.id, open_only=True)
         if e['route'] == 'EMAIL' and REWRITE_MARK in e['notes'] and not (a.body_file and a.subject):
