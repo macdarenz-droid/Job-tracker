@@ -114,7 +114,7 @@ class NoticeStartAndSalary(GateCase):
         text, none = "What's your expected annual base salary?", 'not stated'   # 'not stated': the advert gives no pay (B1)
         self.ok(gate(text, ['$50k', '$60k', '$70k', '$80k', '$90k'], pay=none), '$70k', 'answers.expected_salary.rule')
         self.ok(gate(text, ['$40k - $60k', '$60k - $80k', '$80k - $100k'], pay=none), '$60k - $80k')
-        self.no(gate(text, ['$60k-$70k', '$70k-$80k'], pay=none))           # $70,000 is in both: not decided
+        self.ok(gate(text, ['$60k-$70k', '$70k-$80k'], pay=none), '$70k-$80k')   # split band: the option starting at $70,000 (owner, 14 Nov 2026)
         self.no(gate(text, ['$80k', '$90k', '$100k'], pay=none))             # no option holds the band: the owner's
         self.no(gate(text, ['$60k + super', '$70k + super', '$80k + super'], pay=none))   # a package, not the base salary on record
         self.ok(gate(text, ['$60k-$75k', '$75k-$90k', '$90k-$105k'], pay='$80,000 to $95,000 plus super'), '$75k-$90k')

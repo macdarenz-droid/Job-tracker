@@ -22,9 +22,16 @@
   "evidence_url": ""
  },
  "questions": [],
- "status": "ASK_OWNER",
- "ask_owner": "Hobsons Bay City Council asks for eligibility for Engineers Australia membership: are you eligible? (closes 16 Nov)",
- "attempts": [],
+ "status": "SKIPPED",
+ "ask_owner": "",
+ "attempts": [
+  {
+   "at": "2026-11-14T07:57:30Z",
+   "by": "Claude",
+   "result": "skipped",
+   "note": "owner: drop it (14 Nov 2026): asks for Engineers Australia membership eligibility"
+  }
+ ],
  "receipt": {},
  "created_by": "import_backlog.py",
  "created_at": "2026-11-13T00:40:00Z",

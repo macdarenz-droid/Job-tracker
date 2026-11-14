@@ -22,9 +22,16 @@
   "evidence_url": ""
  },
  "questions": [],
- "status": "ASK_OWNER",
- "ask_owner": "Cairns Regional Council's Cadet Designer job runs for up to six years and includes studying an Associate Degree in Engineering (Civil): would you enrol and apply?",
- "attempts": [],
+ "status": "SKIPPED",
+ "ask_owner": "",
+ "attempts": [
+  {
+   "at": "2026-11-14T07:57:30Z",
+   "by": "Claude",
+   "result": "skipped",
+   "note": "owner: drop it (14 Nov 2026): a cadetship of up to six years with study"
+  }
+ ],
  "receipt": {},
  "created_by": "import_backlog.py",
  "created_at": "2026-11-13T00:40:00Z",

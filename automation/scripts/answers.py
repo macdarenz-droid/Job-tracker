@@ -556,6 +556,14 @@ def _salary(q, opts, a, pay):
         hits = [o for o, r in ranges if r and r[0] <= low and high <= r[1]] or \
                [o for o, r in ranges if r and r[0] <= (low + high) / 2 <= r[1]]
     if len(hits) != 1:
+        # Owner, 14 Nov 2026: when the options split the band, choose the option that starts at the figure the rule
+        # names ("choose the option that starts at $70,000"); with an advertised range, the option that starts at
+        # its lower end. Only an option that starts exactly there counts.
+        starts = re.search(r'starts at \$([\d,]+)', rule)
+        point = figure if figure else (float(starts.group(1).replace(',', '')) if starts else None)
+        split = [o for o, r in ranges if r and point is not None and r[0] == point]
+        if starts and len(split) == 1 and len([o for o, r in ranges if r and r[0] <= point <= r[1]]) >= 2:
+            return _ok(split[0], 'answers.expected_salary.rule')
         held = f'${int(figure):,}' if figure else f'${int(low):,} to ${int(high):,} or ${int((low + high) / 2):,}'
         return _no(f'no single option holds {held}', 'answers.expected_salary.rule')
     return _ok(hits[0], 'answers.expected_salary.rule')

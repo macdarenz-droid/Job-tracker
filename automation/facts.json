@@ -187,7 +187,7 @@
   },
   "notice_period": "2 weeks",
   "expected_salary": {
-   "rule": "If the advert states pay, choose the band that contains the advertised figure (the lower end when it is a range). If the advert states no pay, choose $65,000 to $75,000.",
+   "rule": "If the advert states pay, choose the band that contains the advertised figure (the lower end when it is a range). If the advert states no pay, choose $65,000 to $75,000. When the options split that band (for example $60,000 to $70,000 and $70,000 to $80,000), choose the option that starts at $70,000 (owner, 14 Nov 2026).",
    "single_figure_when_no_pay_stated": "70000 (midpoint of the owner's band; set by Claude on 13 Nov 2026, owner may change it)"
   },
   "drivers_licence": "Yes, full Victorian driver's licence. If the form asks manual or automatic: automatic. Never tick manual.",
@@ -230,6 +230,62 @@
   },
   "english_self_rating": "Not on record: skip and report",
   "referees": "Available on request. Never enter a name or number.",
-  "free_text_cover_letter": "Use the cover letter text from the queue entry, unchanged."
+  "free_text_cover_letter": "Use the cover letter text from the queue entry, unchanged.",
+  "owner_answers": [
+   {
+    "question": "Do you have Cost Estimation experience?",
+    "answer": "Yes",
+    "date": "2026-11-14",
+    "entry": "seek-95736615"
+   },
+   {
+    "question": "Have you worked in a role which requires a sound understanding of as/NZ 5369 Standards?",
+    "answer": "No",
+    "date": "2026-11-14",
+    "entry": "seek-95736615"
+   },
+   {
+    "question": "How many years' experience do you have in your current occupation?",
+    "answer": "2 years",
+    "date": "2026-11-14",
+    "entry": "seek-95655998"
+   },
+   {
+    "question": "Which of the following best describes your highest qualification - relevant to the position of Trainee Civil Drafter?",
+    "answer": "Bachelor degree",
+    "date": "2026-11-14",
+    "entry": "seek-95655998"
+   },
+   {
+    "question": "Please detail your minimum salary expectations",
+    "answer": "$65,000",
+    "date": "2026-11-14",
+    "entry": "seek-95655998"
+   },
+   {
+    "question": "If you have been referred by a past/current TTW Employee, please specify their full name.",
+    "answer": "Not applicable, not referred",
+    "date": "2026-11-14",
+    "entry": "seek-95655998"
+   },
+   {
+    "question": "How many years experience in Civil Design do you have?",
+    "answer": "No experience",
+    "date": "2026-11-14",
+    "entry": "seek-95636735"
+   },
+   {
+    "question": "How many years of Road Construction experience do you have?",
+    "answer": "No experience",
+    "date": "2026-11-14",
+    "entry": "seek-95842971"
+   },
+   {
+    "question": "How many years of experience do you have in the Civil Earthworks Industry?",
+    "answer": "No experience",
+    "date": "2026-11-14",
+    "entry": "seek-95842971"
+   }
+  ]
  }
 }

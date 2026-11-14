@@ -46,13 +46,13 @@
   {
    "question": "How many years experience in Civil Design do you have?",
    "options": [],
-   "answer": "",
-   "basis": "answers.years_of_experience",
-   "status": "unanswered"
+   "answer": "No experience",
+   "basis": "answers.owner_answers",
+   "status": "answered"
   }
  ],
- "status": "ASK_OWNER",
- "ask_owner": "No standing answer for this form question: How many years experience in Civil Design do you have?",
+ "status": "OPEN",
+ "ask_owner": "",
  "attempts": [],
  "receipt": {},
  "created_by": "import_backlog.py",

@@ -32,23 +32,23 @@
   {
    "question": "How many years' experience do you have in your current occupation?",
    "options": [],
-   "answer": "",
-   "basis": "answers.years_of_experience",
-   "status": "unanswered"
+   "answer": "2 years",
+   "basis": "answers.owner_answers",
+   "status": "answered"
   },
   {
    "question": "Which of the following best describes your highest qualification - relevant to the position of Trainee Civil Drafter?",
    "options": [],
-   "answer": "",
-   "basis": "",
-   "status": "unanswered"
+   "answer": "Bachelor degree",
+   "basis": "answers.owner_answers",
+   "status": "answered"
   },
   {
    "question": "Please detail your minimum salary expectations",
    "options": [],
-   "answer": "",
-   "basis": "answers.expected_salary.rule",
-   "status": "unanswered"
+   "answer": "$65,000",
+   "basis": "answers.owner_answers",
+   "status": "answered"
   },
   {
    "question": "What is the notice period for your current employment?",
@@ -60,13 +60,13 @@
   {
    "question": "If you have been referred by a past/current TTW Employee, please specify their full name.",
    "options": [],
-   "answer": "",
-   "basis": "",
-   "status": "unanswered"
+   "answer": "Not applicable, not referred",
+   "basis": "answers.owner_answers",
+   "status": "answered"
   }
  ],
- "status": "ASK_OWNER",
- "ask_owner": "No standing answer for 4 form questions: How many years' experience do you have in your current occupation? | Which of the following best describes your highest qualification - relevant to the position of Trainee Civil Drafter? | Please detail your minimum salary expectations | If you have been referred by a past/current TTW Employee, please specify their full name.",
+ "status": "OPEN",
+ "ask_owner": "",
  "attempts": [],
  "receipt": {},
  "created_by": "import_backlog.py",

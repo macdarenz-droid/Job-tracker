@@ -53,16 +53,16 @@
   {
    "question": "How many years of Road Construction experience do you have?",
    "options": [],
-   "answer": "",
-   "basis": "answers.years_of_experience",
-   "status": "unanswered"
+   "answer": "No experience",
+   "basis": "answers.owner_answers",
+   "status": "answered"
   },
   {
    "question": "How many years of experience do you have in the Civil Earthworks Industry?",
    "options": [],
-   "answer": "",
-   "basis": "answers.years_of_experience",
-   "status": "unanswered"
+   "answer": "No experience",
+   "basis": "answers.owner_answers",
+   "status": "answered"
   },
   {
    "question": "Do you hold a Construction Induction Safety certificate (White Card)?",
@@ -72,9 +72,16 @@
    "status": "answered"
   }
  ],
- "status": "ASK_OWNER",
- "ask_owner": "Civilivic's advert lists a current Queensland driver's licence; yours is Victorian: apply anyway?",
- "attempts": [],
+ "status": "OPEN",
+ "ask_owner": "",
+ "attempts": [
+  {
+   "at": "2026-11-14T08:07:06Z",
+   "by": "Claude",
+   "result": "reopened",
+   "note": "owner: apply (14 Nov 2026); willing to get a Queensland licence (question was: Civilivic's advert lists a current Queensland driver's licence; yours is Victorian: apply anyway?)"
+  }
+ ],
  "receipt": {},
  "created_by": "import_backlog.py",
  "created_at": "2026-11-13T00:40:00Z",
