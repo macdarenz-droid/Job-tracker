@@ -1,0 +1,15 @@
+total 14
+95881995 | Mechanical Engineers | DefendTex | Dandenong South, Melbourne VIC | 2026-11-13T09:09:11Z | title excludes: mechanical
+95870223 | Business & Project Cadetship - Modular Construction | ATCO Structures and Logistics | Dandenong South, Melbourne VIC | 2026-11-13T01:24:50Z | ok
+95868642 | E&I Technical Officer - ADL | GPA Engineering | Adelaide SA | 2026-11-13T00:32:33Z | title has no junior/civil signal
+95857888 | Graduate Engineers | Austral Construction | Melbourne VIC | 2026-11-12T08:06:43Z | ok
+95854109 | Project Engineer - Capital Works | Singleton Council | Singleton, Newcastle, Maitland & Hunter NSW | 2026-11-12T06:09:40Z | ok
+95852290 | Graduate Engineer | Mammoet | Booragoon, Perth WA | 2026-11-12T05:07:06Z | ok
+95848954 | Mechanical Engineer / Intermediate – Associate - Building Services | Salexo Consulting | Sydney NSW | 2026-11-12T03:22:38Z | title excludes: intermediate
+95843231 | Building Regulations Cadetship | EBS Consultants | Revesby, Sydney NSW | 2026-11-12T00:35:24Z | ok
+95839750 | Mechanical Engineer | Astrum Recruitment | Canberra ACT | 2026-11-11T20:23:43Z | title excludes: mechanical
+95823436 | Cadet Designer | Cairns Regional Council | Cairns, Cairns & Far North QLD | 2026-11-11T03:34:41Z | ok
+95822164 | Sales Cadet | Selection Steel Trading | Dandenong South, Melbourne VIC | 2026-11-11T02:59:53Z | title excludes: sales
+95818406 | Structural Revit Cadet - Bridge Team | AECOM | Brisbane QLD | 2026-11-11T01:11:57Z | ok
+95815787 | Cadet | Erilyan | Truganina, Melbourne VIC | 2026-11-10T22:49:25Z | ok
+95815474 | Cadet Survey Draftsperson | Stanfield's Real Property Drafting | Spring Hill, Brisbane QLD | 2026-11-10T22:26:30Z | ok

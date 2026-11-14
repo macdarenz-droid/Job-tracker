@@ -1,0 +1,101 @@
+95887238 | Chief Engineer | Conautic | Australia | 2026-11-13T15:44:06Z | title excludes: chief
+95886901 | Customer Engineer - Power, VIC | Vertiv | Melbourne VIC | 2026-11-13T14:54:48Z | title excludes: customer
+95885806 | Technical Officer - Building | Mount Alexander Shire Council | Castlemaine, Bendigo, Goldfields & Macedon Ranges VIC | 2026-11-13T12:00:30Z | title has no junior/civil signal
+95885715 | Technologist | Mid Western Regional Council | Mudgee, Blue Mountains & Central West NSW | 2026-11-13T11:52:12Z | title has no junior/civil signal
+95885243 | Industrial Service Technician | EnerMech | Gladstone, Gladstone & Central QLD | 2026-11-13T11:25:03Z | title has no junior/civil signal
+95885014 | Sr. Technical Field Engineer | Unisys | Melbourne VIC | 2026-11-13T11:02:27Z | ok
+95884730 | Technical Field Engineer | Unisys | Ballarat, Ballarat & Central Highlands VIC | 2026-11-13T10:46:26Z | ok
+95883107 | Service Tech Specialist | Keysight Technologies | Mulgrave, Melbourne VIC | 2026-11-13T09:50:06Z | title has no junior/civil signal
+95882600 | Project Engineer | Bam Bam Pile Driving | Rockhampton, Rockhampton & Capricorn Coast QLD | 2026-11-13T09:34:45Z | ok
+95882403 | Project Manager | DefendTex | Dandenong South, Melbourne VIC | 2026-11-13T09:26:02Z | title excludes: manager
+95882056 | Electronics Design Engineer | DefendTex | Dandenong South, Melbourne VIC | 2026-11-13T09:10:36Z | title excludes: electronics
+95881995 | Mechanical Engineers | DefendTex | Dandenong South, Melbourne VIC | 2026-11-13T09:09:11Z | title excludes: mechanical
+95881914 | Electrical Engineer | Hatch | Brisbane QLD | 2026-11-13T09:00:46Z | title excludes: electrical
+95881361 | Production Technician | DefendTex | Dandenong South, Melbourne VIC | 2026-11-13T08:40:48Z | title has no junior/civil signal
+95880715 | Engineering Manager - Australia | Aggreko | Braeside, Melbourne VIC | 2026-11-13T08:14:43Z | title excludes: manager
+95880479 | Controls Engineer | Sedgman | Brisbane QLD | 2026-11-13T08:07:28Z | ok
+95880421 | Flight Line Technician | Jet Aviation | Sale, Bairnsdale & Gippsland VIC | 2026-11-13T08:05:22Z | title has no junior/civil signal
+95880400 | Product Change Specialist | Chrysos Corporation | Adelaide SA | 2026-11-13T08:05:00Z | title has no junior/civil signal
+95880268 | Senior Production Engineer - Underground | Westgold Resources | Perth WA | 2026-11-13T07:59:24Z | title excludes: senior
+95880196 | Principal Biomechanical Engineer | WearOptimo | South Brisbane, Brisbane QLD | 2026-11-13T07:58:26Z | title excludes: principal
+95880074 | Process Control Engineer | Iluka Resources | Eneabba, Geraldton, Gascoyne & Midwest WA | 2026-11-13T07:51:41Z | title excludes: process control
+95880047 | Mining Engineer | Scotford Fennessy | Perth WA | 2026-11-13T07:49:07Z | title excludes: mining engineer
+95879985 | Engineering Project Coordinator | QinetiQ | Adelaide SA | 2026-11-13T07:35:04Z | classification not allowed: Administrative Assistants (Administration & Office Support)
+95879723 | Processing Technician | Australian Red Cross Lifeblood | West Melbourne, Melbourne VIC | 2026-11-13T06:55:05Z | title has no junior/civil signal
+95879710 | Project Engineer | SMP / Mechanical Construction | Scotford Fennessy | Perth WA | 2026-11-13T06:54:29Z | title excludes: mechanical
+95879709 | Geotechnical Engineer | ConsMin | West Perth, Perth WA | 2026-11-13T06:54:26Z | title excludes: geotechnical engineer
+95879520 | Design and Technology Workshop Technician | Hale School | Wembley Downs, Perth WA | 2026-11-13T06:44:41Z | title has no junior/civil signal
+95879332 | Technician Production | Ricoh | Eastern Creek, Sydney NSW | 2026-11-13T06:36:16Z | title has no junior/civil signal
+95879323 | Project Engineer (Mechanical or Process) - 12 Month Contract | GPA Engineering | Brisbane QLD | 2026-11-13T06:35:31Z | title excludes: mechanical
+95879282 | Asset Management Engineer | Delta Electricity | Mannering Park, Gosford & Central Coast NSW | 2026-11-13T06:33:37Z | ok
+95879025 | Engineer | Allan Hall Business Advisors | Macquarie Park, Sydney NSW | 2026-11-13T06:24:29Z | ok
+95878982 | Design and Technology Workshop Technician | Hale School | Wembley Downs, Perth WA | 2026-11-13T06:24:13Z | title has no junior/civil signal
+95878873 | Senior/Lead Mechanical Engineer - Bulk Materials Handling | Aurecon | Perth WA | 2026-11-13T06:18:50Z | title excludes: senior
+95878640 | Mechanical Project Engineer | Jadestone Energy | Perth WA | 2026-11-13T06:08:45Z | title excludes: mechanical
+95878459 | Field Service Technician | Metso | Tomago, Newcastle, Maitland & Hunter NSW | 2026-11-13T06:01:53Z | title excludes: field service
+95270772 | Graduate Electrical Engineer (Gordon Brothers) | Johnson Controls | Melbourne VIC | 2026-11-13T06:00:32Z | title excludes: electrical
+95877671 | Electrical Engineer / Technologist | Nexport Pty Ltd | Chullora, Sydney NSW | 2026-11-13T05:53:32Z | title excludes: electrical
+95878043 | Lead Mechanical Design Engineer (SwarmFarm Robotics) | Tenth Revolution Group | Emerald, Gladstone & Central QLD | 2026-11-13T05:45:55Z | title excludes: lead
+95878034 | Project Engineer | Launch Recruitment | Perth WA | 2026-11-13T05:45:34Z | classification not allowed: Telecommunications (Information & Communication Technology)
+95877951 | Production/Process Engineer | Walkinshaw Group | Dandenong South, Melbourne VIC | 2026-11-13T05:41:30Z | title excludes: process engineer
+95877796 | Quality Advisor | DT Infrastructure | Sydney NSW | 2026-11-13T05:35:12Z | title has no junior/civil signal
+95877684 | Underground Geotechnical Engineer | G6M | Grassy, Devonport & North West TAS | 2026-11-13T05:31:48Z | title excludes: geotechnical engineer
+95877670 | Technical Services Manager | SMS Mining Services | Perth WA | 2026-11-13T05:30:31Z | title excludes: manager
+95875335 | Quality Inspector | Masters and Young Pty Ltd | Woodridge, Brisbane QLD | 2026-11-13T05:21:24Z | title has no junior/civil signal
+95877173 | Project Engineer | Teys Australia | Rockhampton, Rockhampton & Capricorn Coast QLD | 2026-11-13T05:07:41Z | ok
+95877120 | Technical Leader | Electrolux | Adelaide SA | 2026-11-13T05:05:32Z | title has no junior/civil signal
+95876986 | STEM Graduate – Manufacturing | Dowson Pty Ltd | Mordialloc, Melbourne VIC | 2026-11-13T04:58:44Z | ok
+95876960 | Technical Assistant (Research Support) | Flinders University of South Australia | Bedford Park, Adelaide SA | 2026-11-13T04:56:53Z | title has no junior/civil signal
+95876890 | Logistics Engineering Specialist (Defence ILS) | Randstad | Brisbane QLD | 2026-11-13T04:53:52Z | ok
+95876839 | Senior Electrical Engineer | WorkPac Technical and Operations | Melbourne VIC | 2026-11-13T04:50:40Z | title excludes: senior
+95876703 | Senior Mechanical Engineer – Solutions Engineering | STACK Infrastructure | Cremorne, Melbourne VIC | 2026-11-13T04:45:52Z | title excludes: senior
+95876579 | Principal Process Engineer | Oil & Gas | Joblin Partners | South Brisbane, Brisbane QLD | 2026-11-13T04:38:50Z | title excludes: principal
+95876407 | Electrical Engineer | Add Staff | Murarrie, Brisbane QLD | 2026-11-13T04:32:05Z | title excludes: electrical
+95876177 | Electrical, Instrument & Controls Design Engineer - ADL | GPA Engineering | Adelaide SA | 2026-11-13T04:22:47Z | title excludes: electrical
+95876162 | Project Coordinator | Pressure Dynamics | Karratha, Port Hedland, Karratha & Pilbara WA | 2026-11-13T04:22:16Z | ok
+95874668 | Technical Training Specialist | Fuso | Melbourne VIC | 2026-11-13T03:33:13Z | title has no junior/civil signal
+95873276 | Project Engineer II - Automation | Schweitzer Engineering Laboratories | Preston, Melbourne VIC | 2026-11-13T02:58:35Z | ok
+95872933 | Utilities Coordinator (Engineer) | Stantec Australia | Wollongong, Wollongong, Illawarra & South Coast NSW | 2026-11-13T02:49:01Z | ok
+95872906 | Utilities Coordinator (Engineer) | Stantec Australia | St Leonards, Sydney NSW | 2026-11-13T02:48:10Z | ok
+95872713 | Reliability Technician | Noumi | Shepparton, Shepparton & Goulburn Valley VIC | 2026-11-13T02:42:31Z | title excludes: reliability
+95872705 | Underground Mining Engineer (Production) | Techforce Personnel | Perth WA | 2026-11-13T02:42:24Z | title excludes: mining engineertotal 399
+
+95872424 | Electrical Technician | Safearth | Perth WA | 2026-11-13T02:35:41Z | title excludes: electrical
+95872336 | Lift Engineer | CRANE TECH CRANES AND CONSULTING PTY LTD | Narre Warren, Melbourne VIC | 2026-11-13T02:34:54Z | ok
+95872100 | Bulk Excavation & Civil Project Engineer | Cono Services | Sydney NSW | 2026-11-13T02:28:19Z | ok
+95871692 | Bulk Excavation & Civil Site Engineer | Cono Services | Sydney NSW | 2026-11-13T02:22:56Z | ok
+95871833 | Installations Technician | Coca-Cola Europacific Partners | Kewdale, Perth WA | 2026-11-13T02:18:45Z | title has no junior/civil signal
+95871352 | Specialist Independent Assurance Engineer | ASC | Osborne, Adelaide SA | 2026-11-13T02:02:13Z | ok
+95871333 | Mining Engineer | ConsMin | West Perth, Perth WA | 2026-11-13T02:01:38Z | title excludes: mining engineer
+95871289 | Senior Electrical Engineer | Guidera O'Connor | Thebarton, Adelaide SA | 2026-11-13T01:59:54Z | title excludes: senior
+95871179 | Senior Electrical Engineer | Guidera O'Connor | Bibra Lake, Perth WA | 2026-11-13T01:55:58Z | title excludes: senior
+95870904 | Technical Services Superintendent | Glencore | Glenden, Mackay & Coalfields QLD | 2026-11-13T01:47:19Z | title excludes: superintendent
+95870742 | Engineer, Mining | Cimic Group | Dysart, Central & South East TAS | 2026-11-13T01:36:37Z | ok
+95870551 | Project Engineer - Electrical | UGL | Melbourne VIC | 2026-11-13T01:35:09Z | title excludes: electrical
+95870322 | Senior Civil & Structural Engineer | CitiPower and Powercor | Melbourne VIC | 2026-11-13T01:27:30Z | title excludes: senior
+95870084 | Technical Service Manager | Marble Recruitment | Brisbane QLD | 2026-11-13T01:19:18Z | title excludes: manager
+95869455 | Technical Writer | PERSOL | Perth WA | 2026-11-13T01:04:02Z | title has no junior/civil signal
+95868642 | E&I Technical Officer - ADL | GPA Engineering | Adelaide SA | 2026-11-13T00:32:33Z | title has no junior/civil signal
+95868575 | Senior Commissioning Engineer | EPEC Group | South Brisbane, Brisbane QLD | 2026-11-13T00:28:54Z | title excludes: senior
+95868455 | Manufacturing Support Engineer | Cochlear | Brisbane QLD | 2026-11-13T00:21:27Z | ok
+95868174 | Engineering Manager | Aldus | Melbourne VIC | 2026-11-13T00:06:50Z | title excludes: manager
+95868083 | Metallurgist – Jameson Cell | Glencore | Brisbane QLD | 2026-11-12T23:54:43Z | title excludes: metallurg
+95868077 | Mechanical Commissioning Engineer | Chandler Macleod Group | Melbourne VIC | 2026-11-12T23:54:06Z | title excludes: mechanical
+95301060 | Senior Mechanical Engineer - Energy & Resources | Stantec Australia | South Brisbane, Brisbane QLD | 2026-11-12T23:52:40Z | title excludes: senior
+95300822 | Senior SMP Designer | Stantec Australia | South Brisbane, Brisbane QLD | 2026-11-12T23:52:24Z | title excludes: senior
+94017619 | Project Technical Lead, Hydraulic Engineer (Buildings) | Stantec Australia | Perth WA | 2026-11-12T23:52:09Z | ok
+95867963 | Data Center Critical Engineering Manager - Mechanical | STACK Infrastructure | Truganina, Melbourne VIC | 2026-11-12T23:45:41Z | title excludes: manager
+95867834 | Sustainability Field Officer - Agronomy | Nutrien Ag Solutions | Wagga Wagga, Wagga Wagga & Riverina NSW | 2026-11-12T23:35:10Z | title has no junior/civil signal
+95867691 | Workshop Technician | Liebherr | Dandenong, Melbourne VIC | 2026-11-12T23:27:39Z | title has no junior/civil signal
+95867564 | Field Service Technician | Liebherr | Mackay, Mackay & Coalfields QLD | 2026-11-12T23:19:17Z | title excludes: field service
+95867366 | Process Engineer | BJP Laboratories | Yatala, Gold Coast QLD | 2026-11-12T23:04:26Z | title excludes: process engineer
+95867263 | Mechanical Design Engineer - Medical Devices - 24-month fixed term contract | Cook Medical | Eight Mile Plains, Brisbane QLD | 2026-11-12T22:57:41Z | title excludes: mechanical
+95866983 | Technical Sales Engineer | Adecco | Melbourne VIC | 2026-11-12T22:31:53Z | title excludes: sales
+95866912 | Research Technician - Green Metals Production | CSIRO | Pullenvale, Brisbane QLD | 2026-11-12T22:25:04Z | title has no junior/civil signal
+95866834 | Field Service Engineer - QLD | Laseraid | Brisbane QLD | 2026-11-12T22:22:24Z | title excludes: service engineer
+95866800 | Technical Project Manager | 360 Engineering | Thornton, Newcastle, Maitland & Hunter NSW | 2026-11-12T22:11:23Z | title excludes: manager
+95866809 | Development Engineer | Cardinia Shire Council | Officer, West Gippsland & Latrobe Valley VIC | 2026-11-12T22:11:12Z | ok
+95866791 | Engineer - Structural | Consolidated Power Projects Australia | Adelaide SA | 2026-11-12T22:08:13Z | ok
+95866788 | Senior Plant Metallurgist | Xenco Services | Brisbane QLD | 2026-11-12T22:08:06Z | title excludes: senior
+95866556 | Radioactive Plant Engineer | Australian Nuclear Science & Technology Organisation | Lucas Heights, Sydney NSW | 2026-11-12T21:35:04Z | ok
+95866552 | Engineering Team Leader | Digga Australia | Yatala, Gold Coast QLD | 2026-11-12T21:34:02Z | ok

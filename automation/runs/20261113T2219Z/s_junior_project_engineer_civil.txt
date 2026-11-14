@@ -1,0 +1,101 @@
+95889102 | Site Administrator | C2O Group Pty Ltd | West Melbourne, Melbourne VIC | 2026-11-13T19:30:17Z | title has no junior/civil signal
+95889096 | Project Administrator | Stowe Australia | Port Melbourne, Melbourne VIC | 2026-11-13T19:23:45Z | title has no junior/civil signal
+95888827 | Project Manager | Bryant Building Contractors | Cairns, Cairns & Far North QLD | 2026-11-13T19:14:58Z | title excludes: manager
+95887242 | Engineer (Third or Fourth) | Conautic | Australia | 2026-11-13T15:44:12Z | ok
+95887041 | Roaming Superintendent - DIDO | Design & Build Recruitment | Perth WA | 2026-11-13T15:13:03Z | title excludes: superintendent
+95886115 | Project Engineer | Sacyr Construction Australia Pty Ltd | Perth WA | 2026-11-13T12:35:26Z | ok
+95886085 | Site Engineer | Sacyr Construction Australia Pty Ltd | Perth WA | 2026-11-13T12:30:34Z | ok
+95884888 | Surveyor | Geosurv | Kogarah, Sydney NSW | 2026-11-13T10:33:52Z | title excludes: surveyor
+95883146 | Structural Engineer-Residential Building Inspections (Grad 1-3 years experience) | Home Toolkit Pty Ltd | Eltham, Melbourne VIC | 2026-11-13T09:56:56Z | title excludes: structural engineer
+95882600 | Project Engineer | Bam Bam Pile Driving | Rockhampton, Rockhampton & Capricorn Coast QLD | 2026-11-13T09:34:45Z | ok
+95881417 | Senior Civil Engineer | Karan and Co | Brisbane QLD | 2026-11-13T08:43:26Z | title excludes: senior
+95880414 | Building Code Consultant (Construction Experience Wanted) | Acworth Recruitment | Herston, Brisbane QLD | 2026-11-13T08:05:20Z | title has no junior/civil signal
+95880304 | Building Surveying Graduate (Client Service & Niche Commercial Building Markets) | Acworth Recruitment | Herston, Brisbane QLD | 2026-11-13T08:01:13Z | ok
+95880272 | Building Surveying Graduate (Client Service & Niche Commercial Building Markets) | Acworth Recruitment | Newcastle, Newcastle, Maitland & Hunter NSW | 2026-11-13T07:59:45Z | ok
+95286929 | Construction Sales Representative | ACO Australia | Melbourne VIC | 2026-11-13T07:54:11Z | title excludes: sales
+95879985 | Engineering Project Coordinator | QinetiQ | Adelaide SA | 2026-11-13T07:35:04Z | classification not allowed: Administrative Assistants (Administration & Office Support)
+95879710 | Project Engineer | SMP / Mechanical Construction | Scotford Fennessy | Perth WA | 2026-11-13T06:54:29Z | title excludes: mechanical
+95879173 | Civil Estimator - Project Delivery | Tracc Civil | Bibra Lake, Perth WA | 2026-11-13T06:30:50Z | ok
+95878640 | Mechanical Project Engineer | Jadestone Energy | Perth WA | 2026-11-13T06:08:45Z | title excludes: mechanical
+95878463 | Senior Engineer | Beveridge Williams & Co | Sale, Bairnsdale & Gippsland VIC | 2026-11-13T06:01:44Z | title excludes: senior
+95878119 | Civil Engineer | Beveridge Williams & Co | Traralgon, West Gippsland & Latrobe Valley VIC | 2026-11-13T05:49:55Z | ok
+95877932 | Civil Construction Supervisor | Frontline Construction | Adelaide SA | 2026-11-13T05:40:32Z | title excludes: supervisor
+95877859 | Project Engineer | Design & Build Recruitment | Brisbane QLD | 2026-11-13T05:37:29Z | ok
+95877403 | Project Manager – FIFO | TMR Infrastructure | Durack Civil | Fortitude Valley, Brisbane QLD | 2026-11-13T05:17:54Z | title excludes: manager
+95877173 | Project Engineer | Teys Australia | Rockhampton, Rockhampton & Capricorn Coast QLD | 2026-11-13T05:07:41Z | ok
+95876927 | Trainee Estimator Supervisor | Ambrose Construct Group | Townsville, Northern QLD | 2026-11-13T04:55:26Z | title excludes: supervisor
+95876842 | Senior to Associate level Structural Engineer- | Cookson and Roberts | Newcastle, Newcastle, Maitland & Hunter NSW | 2026-11-13T04:50:40Z | title excludes: senior
+95876716 | Project Engineer | Utilities | Tier 3 Civil Contractor | CGC Recruitment | Beenleigh, Brisbane QLD | 2026-11-13T04:45:09Z | ok
+95876269 | Surveyor | QEST Infrastructure | Melbourne VIC | 2026-11-13T04:26:27Z | title excludes: surveyor
+95876162 | Project Coordinator | Pressure Dynamics | Karratha, Port Hedland, Karratha & Pilbara WA | 2026-11-13T04:22:16Z | ok
+95876074 | Engineer Statutory Flood Development Assessment Services | Aspect Personnel | Melbourne VIC | 2026-11-13T04:19:07Z | ok
+95876045 | Civil/ Structural Engineer | Structability | Rockdale, Sydney NSW | 2026-11-13T04:17:53Z | title excludes: structural engineer
+95875883 | Project Engineer / Civil Engineer | AWCON | Brisbane QLD | 2026-11-13T04:12:08Z | ok
+95875818 | Civil Project Engineer | CPB Contractors | Brisbane QLD | 2026-11-13T04:09:50Z | ok
+95875729 | Estimator - Mining & Civil Construction | AWCON | Sydney NSW | 2026-11-13T04:06:25Z | ok
+95875686 | Senior Project Manager | Randstad | Perth WA | 2026-11-13T04:04:18Z | title excludes: senior
+95875623 | Project Engineer | Bulk Excavation | CBD Project | CGC Recruitment | Brisbane QLD | 2026-11-13T04:02:17Z | ok
+95875551 | Project Coordinator | CGC Recruitment | Adelaide SA | 2026-11-13T03:59:47Z | classification not allowed: Administrative Assistants (Administration & Office Support)
+95875466 | Project Coordinator – Residential Construction | Markq Homes | Arncliffe, Sydney NSW | 2026-11-13T03:57:47Z | ok
+95874876 | Senior Estimator | Ventia | Arndell Park, Sydney NSW | 2026-11-13T03:38:35Z | title excludes: senior
+95874725 | Surveyor | Craig Surveyors Pty Ltd | South Nowra, Wollongong, Illawarra & South Coast NSW | 2026-11-13T03:36:09Z | title excludes: surveyor
+95874702 | Junior Contracts Administrator - Hybrid | Austruss Pty Ltd | Braemar, Southern Highlands & Tablelands NSW | 2026-11-13T03:34:12Z | title excludes: contracts administrator
+95874033 | Site Engineer | CGC Recruitment | Adelaide SA | 2026-11-13T03:19:54Z | ok
+95874026 | Contracts Administrator | Aspect Personnel | Melbourne VIC | 2026-11-13T03:19:42Z | title excludes: contracts administrator
+95873810 | Project Engineer | CGC Recruitment | Adelaide SA | 2026-11-13T03:14:11Z | ok
+95873642 | Civil Project Manager | CAST Recruitment | Como, Perth WA | 2026-11-13T03:09:37Z | title excludes: manager
+95873641 | Contracts Administrator | Aspect Personnel | Melbourne VIC | 2026-11-13T03:09:36Z | title excludes: contracts administrator
+95873513 | Project Administrator | Genus Group | Perth WA | 2026-11-13T03:05:49Z | title has no junior/civil signal
+95873206 | Site Supervisor | Icon Construction | Southport, Gold Coast QLD | 2026-11-13T02:56:43Z | title excludes: supervisor
+95872973 | Senior Supervisor - Civil Construction | Georgiou | Byford, Mandurah & Peel WA | 2026-11-13T02:50:09Z | title excludes: senior
+95872933 | Utilities Coordinator (Engineer) | Stantec Australia | Wollongong, Wollongong, Illawarra & South Coast NSW | 2026-11-13T02:49:01Z | ok
+95872906 | Utilities Coordinator (Engineer) | Stantec Australia | St Leonards, Sydney NSW | 2026-11-13T02:48:10Z | ok
+95885604 | Project Engineer/Senior Project Engineer ( MEP - Data Center Construction) | Turner & Townsend | Melbourne VIC | 2026-11-13T02:39:50Z | title excludes: senior
+95885589 | Project Engineer/Senior Project Engineer ( MEP - Data Center Construction) | Turner & Townsend | Sydney NSW | 2026-11-13T02:38:57Z | title excludes: senior
+95872340 | Graduate Civil Engineer | PCP Solutions Pty Ltd | Toowoomba, Toowoomba & Darling Downs QLD | 2026-11-13T02:34:43Z | ok
+95872179 | Bulk Excavation & Civil Project Manager | Cono Services | Sydney NSW | 2026-11-13T02:29:41Z | title excludes: manager
+95872100 | Bulk Excavation & Civil Project Engineer | Cono Services | Sydney NSW | 2026-11-13T02:28:19Z | ok
+95871692 | Bulk Excavation & Civil Site Engineer | Cono Services | Sydney NSW | 2026-11-13T02:22:56Z | ok
+95871742 | Civil labourers | KPI Group | Brisbane QLD | 2026-11-13T02:15:51Z | title excludes: labourer
+95871494 | Drainage Engineer | WSP | Perth WA | 2026-11-13T02:07:27Z | ok
+95870684 | Civil Engineering Draftsperson | B & S Brothers Enterprises Pty Ltd | Melton, Melbourne VIC | 2026-11-13T01:55:43Z | ok
+95870856 | Senior Subdivision Engineer | Aspect Personnel | Melbourne VIC | 2026-11-13T01:45:39Z | title excludes: senior
+95870915 | Project Manager - Structures | Daracon | Newcastle, Newcastle, Maitland & Hunter NSW | 2026-11-13T01:42:44Z | title excludes: manager
+total 452
+95870584 | Construction Coordinator | Baby Bunting | Dandenong South, Melbourne VIC | 2026-11-13T01:36:06Z | title has no junior/civil signal
+95870322 | Senior Civil & Structural Engineer | CitiPower and Powercor | Melbourne VIC | 2026-11-13T01:27:30Z | title excludes: senior
+95870223 | Business & Project Cadetship - Modular Construction | ATCO Structures and Logistics | Dandenong South, Melbourne VIC | 2026-11-13T01:24:50Z | ok
+95870141 | Civil Designer | STP Consultants | Brisbane QLD | 2026-11-13T01:21:49Z | ok
+95869940 | Asset Engineer | Blacktown City Council | Blacktown, Sydney NSW | 2026-11-13T01:15:14Z | ok
+95869785 | Senior Project Engineer - Services Infrastructure (RRJV) | Downer | Wagga Wagga, Wagga Wagga & Riverina NSW | 2026-11-13T01:12:47Z | title excludes: senior
+95869721 | Project Engineer | Frontline Construction | Adelaide SA | 2026-11-13T01:11:40Z | ok
+95869502 | Structural Engineer (FIFO 2:1) | Polaris Engineering Services | Perth WA | 2026-11-13T01:05:51Z | title excludes: structural engineer
+95869449 | Civil Construction Supervisor | Diverse Civil and Commercial Projects | Adelaide SA | 2026-11-13T01:04:31Z | title excludes: supervisor
+95869375 | Contract Administrator | JMP Consulting Engineers | Melbourne VIC | 2026-11-13T01:01:43Z | title excludes: contract administrator
+95868981 | Junior Estimator | Star Scaffolds | Kingston, Brisbane QLD | 2026-11-13T00:46:54Z | ok
+95868773 | Design / Project Architect | Turco and Associates | Deakin, Canberra ACT | 2026-11-13T00:39:36Z | title excludes: architect
+95868733 | Site Engineer - Services Infrastructure (RRJV) | Downer | Moorong, Wagga Wagga & Riverina NSW | 2026-11-13T00:37:11Z | ok
+95868629 | Pipelayers | Diverse Civil and Commercial Projects | Adelaide SA | 2026-11-13T00:32:51Z | title has no junior/civil signal
+95868550 | Project Engineer | Major Road Project | Stellar Recruitment | Brisbane QLD | 2026-11-13T00:26:46Z | ok
+95868458 | Project Engineer | CPR Australia | Seven Hills, Sydney NSW | 2026-11-13T00:23:08Z | ok
+95868391 | Site Manager | Hickory | Sydney NSW | 2026-11-13T00:17:25Z | title excludes: manager
+95868302 | Quantity Surveyor/ Contracts Administrator | MW Civil & Earthmoving | Perth WA | 2026-11-13T00:09:29Z | title excludes: surveyor
+95868197 | HOTO Administrator (RRJV) | Downer | Wagga Wagga, Wagga Wagga & Riverina NSW | 2026-11-13T00:02:23Z | title has no junior/civil signal
+95868061 | Survey Assistant | JCA Land Consultants | Albury, Albury Area NSW | 2026-11-12T23:53:17Z | title has no junior/civil signal
+95300822 | Senior SMP Designer | Stantec Australia | South Brisbane, Brisbane QLD | 2026-11-12T23:52:24Z | title excludes: senior
+94017619 | Project Technical Lead, Hydraulic Engineer (Buildings) | Stantec Australia | Perth WA | 2026-11-12T23:52:09Z | ok
+95868026 | Site Supervisor | Hickory | Sydney NSW | 2026-11-12T23:50:20Z | title excludes: supervisor
+94017221 | Intermediate Hydraulic Engineer (Buildings) | Stantec Australia | Perth WA | 2026-11-12T23:48:59Z | title excludes: intermediate
+95867978 | Site Administrator | Stellar Recruitment | Carseldine, Brisbane QLD | 2026-11-12T23:46:41Z | title has no junior/civil signal
+95867930 | A2 & A3 Building Certifier | Sydney Wide Certifiers | Parramatta, Sydney NSW | 2026-11-12T23:45:51Z | title has no junior/civil signal
+95867961 | Senior Water Resources Engineer | AirSWIFT | Brisbane QLD | 2026-11-12T23:45:36Z | title excludes: senior
+95867921 | Civil Labourers - Renewable Energy Project | Immediate Start | Now Energy | Shepparton, Shepparton & Goulburn Valley VIC | 2026-11-12T23:42:14Z | title excludes: labourer
+95867884 | Estimator | Stellar Recruitment | Subiaco, Perth WA | 2026-11-12T23:38:42Z | ok
+95867856 | Civil Labourer with own transport | EWS Recruitment | Melbourne VIC | 2026-11-12T23:36:39Z | title excludes: labourer
+95867814 | Site Engineer - Building (RRJV) | Downer | Wagga Wagga, Wagga Wagga & Riverina NSW | 2026-11-12T23:33:50Z | ok
+95867638 | Development Design Engineer | Moyne Shire Council | Port Fairy, South West Coast VIC | 2026-11-12T23:19:59Z | ok
+95867572 | Site Supervisor - Project Home Builder | Willow Recruitment | Ripley, Brisbane QLD | 2026-11-12T23:19:54Z | title excludes: supervisor
+95867299 | Construction Operators (Multiple Roles) | Tamworth Regional Council | Tamworth, Tamworth & North West NSW | 2026-11-12T23:00:36Z | title excludes: operator
+95867243 | Surveyor | Aptella | Silverwater, Sydney NSW | 2026-11-12T22:55:09Z | title excludes: surveyor
+95867161 | Site Supervisor | Design & Build Recruitment | South Brisbane, Brisbane QLD | 2026-11-12T22:48:13Z | title excludes: supervisor
+95867145 | Civil Construction Supervisor | Comstar Systems Pty Ltd | Dandenong South, Melbourne VIC | 2026-11-12T22:47:26Z | title excludes: supervisor

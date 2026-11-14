@@ -1,0 +1,98 @@
+[
+ {
+  "id": "465c81ea-95d3-435f-826e-4fa3c9971530",
+  "key": "manual:465c81ea-95d3-435f-826e-4fa3c9971530",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261113T1719Z",
+  "created_at": "2026-11-13T17:27:30.000Z",
+  "updated_at": "2026-11-13T17:27:30.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Edge_Building_Fire_Hydraulic_Engineer_Cover_Letter.pdf",
+    "sha256": "57a445a4a1747dd3dd199fa02900affd28a6e9156abb60f0e77f5b00a10c0230",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Edge_Building_Resume.pdf",
+    "sha256": "74966d6ce31a11114c55addd479f0b0ee7811f7aa1ecbd232e2eddacdf821dfc",
+    "stored_in": "local:/workspace/job-finds",
+    "note": "one page resume built from facts.json"
+   }
+  ],
+  "company": "Edge Building Solutions Pty Ltd",
+  "role": "Junior to Mid-Level Fire & Hydraulic Engineer",
+  "location": "Brisbane QLD (hybrid)",
+  "job_url": "https://au.linkedin.com/jobs/view/4489558729",
+  "company_url": "https://edgebuildings.au/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_LINKEDIN",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "LinkedIn",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://edgebuildings.au/about/",
+  "contact_verified_at": "2026-11-13T17:27:30.000Z",
+  "contact_confidence": "none",
+  "subject": "Junior Fire & Hydraulic Engineer, Brisbane",
+  "email_body": "",
+  "fit": [
+   "Edge Building Solutions (small Brisbane owned building services consultancy, founded 2024, about 8 staff) wants a Junior to Mid-Level Fire & Hydraulic Engineer, full time, hybrid in Brisbane: calculations, drawings and specifications for fire protection and hydraulic services on commercial, retail, industrial and education buildings, supporting senior engineers.",
+   "It asks for a Bachelor's degree in Engineering (Mechanical, Civil or Building Services), a foundation in hydraulic systems and water engineering, AutoCAD or Revit, MS Office, and communication; prior building services experience is only an advantage. Marc's BSCE (hydraulics studied), stormwater drainage design, AutoCAD, Civil 3D and Revit, and 2019 to 2020 site and reporting work fit the junior end.",
+   "Direct employer, posted on LinkedIn about 5 hours before this tick (13 Nov 2026 AEDT), fewer than 25 applicants; no closing date shown."
+  ],
+  "gaps": [
+   "No fire or hydraulic building services design experience",
+   "Mechanical principles for building services",
+   "No Australian work experience",
+   "Relocation to Brisbane unconfirmed"
+  ],
+  "match_score": {
+   "percent": 61,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Edge Building Solutions (small Brisbane owned building services consultancy, founded 2024, about 8 staff) wants a Junior to Mid-Level Fire & Hydraulic Engineer, full time, hybrid in Brisbane: calculations, drawings and specifications for fire protection and hydraulic services on commercial, retail, industrial and education buildings, supporting senior engineers.",
+    "It asks for a Bachelor's degree in Engineering (Mechanical, Civil or Building Services), a foundation in hydraulic systems and water engineering, AutoCAD or Revit, MS Office, and communication; prior building services experience is only an advantage. Marc's BSCE (hydraulics studied), stormwater drainage design, AutoCAD, Civil 3D and Revit, and 2019 to 2020 site and reporting work fit the junior end.",
+    "Direct employer, posted on LinkedIn about 5 hours before this tick (13 Nov 2026 AEDT), fewer than 25 applicants; no closing date shown."
+   ],
+   "caution": "Building services (fire and hydraulic) is a different field from Marc's road and civil focus; AS 2419, AS 2118 and AS/NZS 3500 and mechanical principles are new (said honestly). Relocation to Brisbane unconfirmed. Fit is near the 60 threshold. Apply route is the LinkedIn apply button (not confirmed whether it is Easy Apply or links out)."
+  },
+  "advert": {
+   "source": "linkedin",
+   "listed_at": "2026-11-13",
+   "expires_at": "",
+   "verified_at": "2026-11-13T17:27:30.000Z",
+   "apply_instructions": "Apply via LinkedIn job 4489558729. Published contact on the employer site: Ozcar Callos, Senior Engineer, ocallos@edgebuildings.au (https://edgebuildings.au/about/); general inbox info@edgebuildings.au appears only on a third party profile, not used. Nothing submitted or emailed.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Search Gmail in:anywhere for Edge Building Solutions and edgebuildings.au before applying (Gmail was not reachable on this tick)",
+   "Confirm Marc is happy to relocate to Brisbane for a building services (fire and hydraulic) role",
+   "Open LinkedIn job 4489558729 and apply with the resume and cover letter from this folder (or follow any linked employer form)",
+   "If LinkedIn asks questions: work rights 485 full working rights to Dec 2027; years of experience less than 1 (field engineer 2019 to 2020); software AutoCAD, Civil 3D, Revit (academic)",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nTick 20261113T1719Z: SEEK 3 day sweep (685 seen, 172 prefilter, 80 details; only 2 unseen, Sacyr Perth Site Engineer 2+ yrs and a marine engineer, both not kept) plus 22 targeted SEEK keyword searches (3 days, nothing new and relevant); open web: LinkedIn guest job listings Australia wide (12 keyword searches, last 3 days), careersatcouncil (no civil junior roles), Jora (blocked by bot check). Found on the open web (LinkedIn guest listing, junior civil engineer search, posted about 5 hours earlier); never screened before. Employer site read for the company line and the published senior engineer contact. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: not in /workspace/job-finds, prior_outreach.json, earlier run files or the journal. Cover letter drafted from facts.json only; checks.py facts OK and tone OK (letter under 340 words); cover letter and one page resume rendered and read back (1 page each). Status READY_JEREMIE_EMPLOYER_PORTAL: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Hydraulics background? → Hydraulics in the BSCE (Philippines, 2019) and stormwater drainage design in the Advanced Diploma (Feb 2026).\n• Fire or hydraulic services design? → Not yet; would learn AS 2419, AS 2118 and AS/NZS 3500 from the team.\n• Software? → AutoCAD, Civil 3D and Revit from coursework, not commercial production.\n• Move to Brisbane? → Open to relocating; Marc to confirm.\n• Work rights? → Subclass 485, full working rights until December 2027.",
+  "how_found": "Tick 20261113T1719Z: SEEK 3 day sweep (685 seen, 172 prefilter, 80 details; only 2 unseen, Sacyr Perth Site Engineer 2+ yrs and a marine engineer, both not kept) plus 22 targeted SEEK keyword searches (3 days, nothing new and relevant); open web: LinkedIn guest job listings Australia wide (12 keyword searches, last 3 days), careersatcouncil (no civil junior roles), Jora (blocked by bot check). Found on the open web (LinkedIn guest listing, junior civil engineer search, posted about 5 hours earlier); never screened before. Employer site read for the company line and the published senior engineer contact. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: not in /workspace/job-finds, prior_outreach.json, earlier run files or the journal. Cover letter drafted from facts.json only; checks.py facts OK and tone OK (letter under 340 words); cover letter and one page resume rendered and read back (1 page each). Status READY_JEREMIE_EMPLOYER_PORTAL: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Hydraulics background? → Hydraulics in the BSCE (Philippines, 2019) and stormwater drainage design in the Advanced Diploma (Feb 2026).",
+   "Fire or hydraulic services design? → Not yet; would learn AS 2419, AS 2118 and AS/NZS 3500 from the team.",
+   "Software? → AutoCAD, Civil 3D and Revit from coursework, not commercial production.",
+   "Move to Brisbane? → Open to relocating; Marc to confirm.",
+   "Work rights? → Subclass 485, full working rights until December 2027."
+  ],
+  "checked_at": "2026-11-13T17:27:30.000Z",
+  "seek_id": null,
+  "duplicate_key": "edge building solutions pty ltd|junior to mid-level fire & hydraulic engineer",
+  "preparation_only": true,
+  "found_at": "2026-11-14T04:27+11:00 AEDT"
+ }
+]
