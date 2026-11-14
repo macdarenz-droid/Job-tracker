@@ -7,14 +7,14 @@ Written by `automation/scripts/queue.py render` from the files in `open/`. Do no
 | # | Lane | Company | Role | Location | Closes | Link | Note |
 |---|---|---|---|---|---|---|---|
 | 1 | drafter | Newton Denny Chapelle | Civil Engineer / Design Engineer | Lismore or Casuarina, Northern Rivers NSW | 2026-11-25 09:00 (advert) | [seek-95487722](https://www.seek.com.au/job/95487722) |  |
-| 2 | drafter | TTW (NSW) Pty Ltd (Taylor Thomson Whitting) | Trainee Civil Drafter | North Sydney, Sydney NSW | 2026-11-27 (advert) | [seek-95655998](https://www.seek.com.au/job/95655998) | letter to rewrite |
-| 3 | drafter | PROTERRA Group | Civil Designer | Toowoomba, Toowoomba & Darling Downs QLD | 2026-11-27 (advert) | [seek-95636735](https://www.seek.com.au/job/95636735) | letter to rewrite |
+| 2 | drafter | TTW (NSW) Pty Ltd (Taylor Thomson Whitting) | Trainee Civil Drafter | North Sydney, Sydney NSW | 2026-11-27 (advert) | [seek-95655998](https://www.seek.com.au/job/95655998) |  |
+| 3 | drafter | PROTERRA Group | Civil Designer | Toowoomba, Toowoomba & Darling Downs QLD | 2026-11-27 (advert) | [seek-95636735](https://www.seek.com.au/job/95636735) |  |
 | 4 | drafter | Western Grammar School | Civil Engineering Draftsperson | Plumpton, Sydney NSW | 2026-11-28 (listing expiry) | [seek-95576041](https://www.seek.com.au/job/95576041) |  |
 | 5 | drafter | All Seasons Communications Pty Ltd | Civil Engineering Draftsperson | Perth WA | 2026-11-20 (listing expiry) | [seek-95378071](https://www.seek.com.au/job/95378071) |  |
 | 6 | technician | Mendi Constructions | Quality Assurance Trainee, Civil Construction | Townsville, Northern QLD | 2026-11-18 (listing expiry) | [seek-95347045](https://www.seek.com.au/job/95347045) |  |
-| 7 | engineer | Civilivic Pty Ltd | Site Engineer (Site or Graduate Engineer) | Gympie QLD (Gympie and Sunshine Coast region) | 2026-12-12 (listing expiry) | [seek-95842971](https://www.seek.com.au/job/95842971) | letter to rewrite |
+| 7 | engineer | Civilivic Pty Ltd | Site Engineer (Site or Graduate Engineer) | Gympie QLD (Gympie and Sunshine Coast region) | 2026-12-12 (listing expiry) | [seek-95842971](https://www.seek.com.au/job/95842971) |  |
 | 8 | engineer | Bench Excavation and Civil Construction Pty Ltd (BenchHDC) | Civil Engineer / Graduate | Port Adelaide, Adelaide SA | 2026-12-09 (listing expiry) | [seek-95773573](https://www.seek.com.au/job/95773573) |  |
-| 9 | engineer | Fyfe Pty Ltd | Graduate Civil Engineer (Property & Infrastructure) | Adelaide SA | 2026-12-06 (listing expiry) | [seek-95736615](https://www.seek.com.au/job/95736615) | letter to rewrite |
+| 9 | engineer | Fyfe Pty Ltd | Graduate Civil Engineer (Property & Infrastructure) | Adelaide SA | 2026-12-06 (listing expiry) | [seek-95736615](https://www.seek.com.au/job/95736615) |  |
 | 10 | engineer | Jaydo Construction Pty Ltd | Site Engineer - Urban Development - EOI 2027 | Keilor Park, Melbourne VIC | 2026-11-26 (listing expiry) | [seek-95514711](https://www.seek.com.au/job/95514711) |  |
 | 11 | engineer | Central Vic Civil Pty Ltd | Junior Project Manager | Ballarat VIC | 2026-11-19 (listing expiry) | [seek-95372255](https://www.seek.com.au/job/95372255) |  |
 
