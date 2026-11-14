@@ -161,7 +161,8 @@ def pack(route='SEEK', questions=SEEK_QUESTIONS, **draft_extra):
     contact = {'contact_confidence': 'published_inbox', 'recipient_email': 'careers@wattlebrook.example', 'recipient_role': 'Careers inbox',
                'contact_evidence_url': 'https://wattlebrook.example/careers', 'company_url': 'https://wattlebrook.example'}
     draft = {'route': route, 'subject': 'Junior Civil Drafter, Marc Masarate', 'email_body': 'Hello,\n\nShort note.\n\nKind regards,\nMarc Darenz Masarate',
-             'letter': {'paragraphs': ['One.', 'Two.', 'Three.']}, 'notes': 'Advert asks for a resume and a short letter.', **draft_extra}
+             'letter': {'paragraphs': ['One.', 'Two.', 'Three.']}, 'notes': 'Advert asks for a resume and a short letter.',
+             'advert_pay': 'not stated', **draft_extra}   # the drafter read the advert: it states no pay (B1, 14 Nov 2026)
     return cand, screen, contact, draft
 
 
@@ -332,7 +333,7 @@ class StandingAnswers(unittest.TestCase):
                 ('Do you have experience preparing and submitting tenders?', 'experience_yes_no'),
                 ('Where are you located?', 'identity.location'),
                 ('I acknowledge that the information I have provided is true and correct.', 'declarations_and_consents')]:
-            self.assertEqual(checks.standing_answer(question), (key, None), question)
+            self.assertEqual(checks.standing_answer(question, 'not stated'), (key, None), question)   # pay: the salary question
 
     def test_questions_only_the_owner_can_answer(self):
         for question in ['How would you rate your English language skills?',
@@ -348,7 +349,7 @@ class StandingAnswers(unittest.TestCase):
                          'Please confirm your Full legal name, Date of Birth (DD/MM), hourly rate, preferred engagement type (PAYG or ABN), and postcode']:
             key, problem = checks.standing_answer(question)
             self.assertTrue(problem, question)
-        self.assertEqual([u['question'] for u in checks.unanswered_questions(SEEK_QUESTIONS + ['How would you rate your English language skills?'] * 2)],
+        self.assertEqual([u['question'] for u in checks.unanswered_questions(SEEK_QUESTIONS + ['How would you rate your English language skills?'] * 2, 'not stated')],
                          ['How would you rate your English language skills?'])
 
     def test_a_conditional_answer_blocks_only_the_case_it_leaves_open(self):
@@ -366,11 +367,15 @@ class StandingAnswers(unittest.TestCase):
     def test_questions_command_reads_a_candidate_file(self):
         with tempfile.TemporaryDirectory() as d:
             path = Path(d) / 'cand.json'
-            common.write_json(path, {'screening_questions': SEEK_QUESTIONS})
+            common.write_json(path, {'screening_questions': SEEK_QUESTIONS, 'salary': '$70,000 – $80,000 per year'})
             with redirect_stdout(io.StringIO()) as out, self.assertRaises(SystemExit) as stop:
                 checks.main(['questions', str(path)])
             self.assertEqual(stop.exception.code, 0); self.assertIn('OK', out.getvalue())
-            common.write_json(path, {'screening_questions': SEEK_QUESTIONS + ['How would you rate your English language skills?']})
+            common.write_json(path, {'screening_questions': SEEK_QUESTIONS, 'salary': None})   # no pay on SEEK: the advert must be read
+            with redirect_stdout(io.StringIO()) as out, self.assertRaises(SystemExit) as stop:
+                checks.main(['questions', str(path)])
+            self.assertEqual(stop.exception.code, 1); self.assertIn("advert's pay is not recorded", out.getvalue())
+            common.write_json(path, {'screening_questions': SEEK_QUESTIONS + ['How would you rate your English language skills?'], 'advert_pay': 'not stated'})
             with redirect_stdout(io.StringIO()) as out, self.assertRaises(SystemExit) as stop:
                 checks.main(['questions', str(path)])
             self.assertEqual(stop.exception.code, 1); self.assertIn('ask the owner: How would you rate your English', out.getvalue())
@@ -1127,12 +1132,12 @@ class GateFailsClosed(unittest.TestCase):
         self.assertGreaterEqual(len(SETTLED) + len(ASK), 60)
         for lines in (OLDER, NEWER):
             with facts_answers(lines):
-                for question, basis in SETTLED:
-                    self.assertEqual(checks.standing_line(question)[::2], (basis, None), question)
-                    self.assertTrue(checks.standing_line(question)[1], question)
+                for question, basis in SETTLED:   # the salary question needs the advert's pay: here the advert states none
+                    self.assertEqual(checks.standing_line(question, 'not stated')[::2], (basis, None), question)
+                    self.assertTrue(checks.standing_line(question, 'not stated')[1], question)
                 for question in ASK:
-                    self.assertTrue(checks.standing_line(question)[2], question)
-                self.assertEqual([u['question'] for u in checks.unanswered_questions([q for q, _ in SETTLED] + ASK)], ASK)
+                    self.assertTrue(checks.standing_line(question, 'not stated')[2], question)
+                self.assertEqual([u['question'] for u in checks.unanswered_questions([q for q, _ in SETTLED] + ASK, 'not stated')], ASK)
 
     def test_the_listed_questions_really_are_in_the_run_folders(self):
         seen = set()
@@ -1213,8 +1218,8 @@ class AnswersOnTheRecord(unittest.TestCase):
         answers = records[0]['screening_answers']
         self.assertEqual([a['question'] for a in answers], SEEK_QUESTIONS)  # every form question, in the advert's order
         for a in answers:
-            self.assertEqual((a['basis'], a['answer']), checks.standing_line(a['question'])[:2], a['question'])
-            self.assertEqual(gate.answer(a['question'], [], common.FACTS)['answer'], a['answer'])   # the one gate's answer
+            self.assertEqual((a['basis'], a['answer']), checks.standing_line(a['question'], 'not stated')[:2], a['question'])
+            self.assertEqual(gate.answer(a['question'], [], common.FACTS, pay='not stated')['answer'], a['answer'])   # the one gate's answer
             self.assertIsNotNone(checks.fact_at(a['basis']))
         text = json.dumps(answers)
         for wrong in ('3 years', '$95k', 'Marc to confirm'):
@@ -1303,8 +1308,11 @@ class AnswersOnTheRecord(unittest.TestCase):
     def test_an_answer_with_a_basis_must_agree_with_that_line(self):
         entry = {'questions': [{'question': "Do you have a current Australian driver's licence?", 'options': [], 'answer': 'Yes', 'basis': 'answers.drivers_licence', 'status': 'answered'},
                                {'question': "What's your expected annual base salary?", 'answer': '65000 to 75000', 'basis': 'answers.expected_salary.rule'},
-                               {'question': 'How would you rate your English language skills?', 'options': [], 'answer': '', 'basis': '', 'status': 'unanswered'}]}
+                               {'question': 'How would you rate your English language skills?', 'options': [], 'answer': '', 'basis': '', 'status': 'unanswered'}],
+                 'advert_pay': 'not stated'}
         self.assertEqual(checks.draft_issues(entry), [])
+        self.assertTrue(any('expected annual base salary' in i and "pay is not recorded" in i
+                            for i in checks.draft_issues({**entry, 'advert_pay': None})))   # B1: no pay on record, no salary answer
         entry['questions'][0]['answer'] = 'No'
         self.assertTrue(any('contradicts facts.json -> answers.drivers_licence' in i for i in checks.draft_issues(entry)))
         entry['questions'][0].update(answer='Yes', basis='answers.forklift_licence')

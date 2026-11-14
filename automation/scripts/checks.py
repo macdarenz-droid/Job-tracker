@@ -7,6 +7,7 @@ Usage:
   checks.py facts FILE             # claims that do not trace to facts.json
   checks.py draft DRAFT.json       # every written part of one draft or queue entry: email, cover letter, form answers
   checks.py questions FILE.json    # form questions of a draft or candidate: standing answer in facts.json, or ask the owner
+                                   # (the salary question needs the advert's pay: advert_pay, or a candidate's salary text)
   checks.py record RECORD.json     # everything a tracker record needs
 Exit code 1 when any issue is found.
 
@@ -44,6 +45,10 @@ FORBIDDEN_CLAIMS = [
     (r'\b(chartered|CPEng|RPEQ|NER\b|registered engineer|licensed engineer)', 'claims a professional registration'),
     (r'\b\d+\+?\s*years?\s+(of\s+)?(commercial|industry|professional|drafting|design|civil)\b', 'claims years of professional experience'),
     (r'\b(sponsor|sponsorship|migration|residency goal)', 'mentions sponsorship or migration'),
+    (r'\bskills? assessment', 'mentions a skills assessment (facts.json -> never_mention)'),
+    (r'\bvisa (application|applications|grant|plans?|pathway|nomination|lodg\w*)\b|\b(state|regional|employer) nomination\b'
+     r'|\b(subclass\s*)?(189|190|191|482|491|494|186|187)\s*(visa|nomination|subclass|application)\b|\bsubclass\s*(189|190|191|482|491|494|186|187)\b'
+     r'|\bnominat\w*\b[^.!?\n]{0,30}\bvisa\b|\b(apply|applying|applied) for (a |an |my |the )?(permanent |new |next )?visa\b', 'mentions visa plans (facts.json -> never_mention)'),
     (r'\bmaster(\'s)?\s+(degree|of)', 'claims a master degree'),
     (r'\bhonours\b', 'claims honours'),
     (r'\binternship\b', 'claims an internship'),
@@ -52,9 +57,15 @@ FORBIDDEN_CLAIMS = [
 ]
 # The approved short work-rights line says "no sponsorship needed"; that is not a sponsorship request.
 APPROVED = re.compile(r'no sponsorship (is )?(needed|required)', re.I)
-# The visa end date, however it is written: 'December 2027', 'Dec 2027', '12/2027', 'visa valid through 2027', 'until the end of 2027'.
+# The visa end date, however it is written: 'December 2027', 'Dec 2027', '12/2027', 'visa valid through 2027', 'until the end of 2027',
+# or as time left: 'valid for another 13 months', 'has 13 months left', 'runs out late next year'.
+COUNT = r'(\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|eighteen|twenty(-\w+)?)'
 VISA_DATE = re.compile(r'\bdec(ember|\.)?\s+2027\b|\b12\s*/\s*(20)?27\b|\b(until|till|through|thru)\s+(the\s+)?(end\s+of\s+)?(\w+\s+)?2027\b'
-                       r'|\b(visa|485|work(ing)? rights?|expir\w*)\b[^.!?\n]{0,40}\b2027\b|\b2027\b[^.!?\n]{0,20}\bexpir', re.I)
+                       r'|\b(visa|485|work(ing)? rights?|expir\w*)\b[^.!?\n]{0,40}\b2027\b|\b2027\b[^.!?\n]{0,20}\bexpir'
+                       r'|\b' + COUNT + r'\s+(more\s+)?(months?|years?)\s+(left|remaining|to run|to go)\b'
+                       r'|\bvalid for (about |around |roughly |another |a further |at least |over )*' + COUNT + r'\s+(more\s+)?(months?|years?)\b'
+                       r'|\b(visa|485|work(ing)? rights?)\b[^.!?\n]{0,40}\b(runs? out|ends?|expires?|finish(es)?|lapses?|is valid (until|till|to|for)'
+                       r'|valid (until|till|to|for)|left on it)\b', re.I)
 VISA_FLAG = re.compile(r'2027|expires', re.I)  # the flag patterns that are about the visa end date
 SALARY_QUESTION = re.compile(r'salary|remuneration|\brate\b', re.I)
 VISA_QUESTION = re.compile(r'visa|work(ing)? rights?|rights? to work|residency|permanent resident|citizen', re.I)
@@ -252,12 +263,13 @@ def _words(text):
     return re.findall(r'[a-z0-9]+', str(text).lower())
 
 
-def resolve(question):
+def resolve(question, pay=None):
     """{'key', 'entry', 'value', 'problem', 'basis', 'answer'} for one form question, from the gate (answers.py):
     key is the line of facts.json it reads (None when none), entry the row of a lookup table or the part of a rule
     ('free_text', 'choose'), value the gate's answer (or the facts line when it gives none), problem why the owner
-    must be asked (None when the gate answers it)."""
-    r = _gate(question)
+    must be asked (None when the gate answers it). pay: the advert's own pay text ("not stated" when it gives none);
+    without it the salary question is not answered."""
+    r = _gate(question, pay=pay)
     key = _key(r['basis'])
     entry = r['basis'][len('answers.' + key) + 1:] or None if key and r['basis'].startswith('answers.') else None
     value = r['answer'] if r['status'] == 'answered' else (fact_at(r['basis']) if r['basis'] else None)
@@ -265,10 +277,10 @@ def resolve(question):
             'basis': r['basis'], 'answer': r['answer']}
 
 
-def standing_answer(question):
+def standing_answer(question, pay=None):
     """(key, problem) for one form question: the line of facts.json the gate reads (None when none) and why the
-    owner must be asked (None when the gate gives an answer)."""
-    found = resolve(question)
+    owner must be asked (None when the gate gives an answer). pay as in resolve."""
+    found = resolve(question, pay)
     return found['key'], found['problem']
 
 
@@ -281,23 +293,36 @@ def line_text(value):
     return str(value)
 
 
-def standing_line(question):
+def standing_line(question, pay=None):
     """(basis, answer, problem): where in facts.json the gate's answer comes from ('answers.notice_period',
     'answers.years_of_experience.<row>', 'identity.location'), the answer to give with no options on screen, and
-    why the owner must be asked instead (None when the gate answers it; the answer is then '' only when unanswered)."""
-    found = resolve(question)
+    why the owner must be asked instead (None when the gate answers it; the answer is then '' only when unanswered).
+    pay as in resolve."""
+    found = resolve(question, pay)
     return found['basis'], (found['answer'] if not found['problem'] else ''), found['problem']
 
 
-def unanswered_questions(questions):
-    """[{question, why}] for the form questions with no settled standing answer, in order, each once."""
+def advert_pay(data):
+    """The advert's pay text a draft, record, queue entry or candidate carries: advert_pay, the record's advert.pay,
+    or a candidate's SEEK salary text. None when none is recorded (a candidate whose SEEK salary is empty may still
+    state pay in the advert's text, so that is not "not stated")."""
+    advert = data.get('advert') if isinstance(data.get('advert'), dict) else {}
+    for value in (data.get('advert_pay'), advert.get('pay'), data.get('salary')):
+        if isinstance(value, str) and value.strip():
+            return value
+    return None
+
+
+def unanswered_questions(questions, pay=None):
+    """[{question, why}] for the form questions with no settled standing answer, in order, each once. pay as in
+    resolve."""
     out, seen = [], set()
     for question in questions or []:
         text = ' '.join(str(question or '').split())
         if not text or text.lower() in seen:
             continue
         seen.add(text.lower())
-        _, problem = standing_answer(text)
+        _, problem = standing_answer(text, pay)
         if problem:
             out.append({'question': text, 'why': problem})
     return out
@@ -424,7 +449,7 @@ def answer_issues(question, answer, advert_pay=''):
     given."""
     issues = []
     text = str(answer or '').strip()
-    found = resolve(question)
+    found = resolve(question, advert_pay or None)
     line = found['answer'] if not found['problem'] else ''
     key = found['key']
     if re.search(r'\[[^\]]*\]', text):
@@ -503,7 +528,7 @@ def draft_issues(draft):
                 issues.append(f'answer to "{question[:60]}" is not text ({type(answer).__name__})')
             continue
         if item['basis']:  # an answer taken from facts.json: it must be the gate's answer for this question and its options
-            gated = _gate(question, options.get(question), draft.get('advert_pay'))
+            gated = _gate(question, options.get(question), advert_pay(draft))
             if fact_at(item['basis']) is None:
                 issues.append(f'answer to "{question[:60]}" names a basis that is not in facts.json: {item["basis"]}')
             elif gated['status'] != 'answered':
@@ -513,7 +538,7 @@ def draft_issues(draft):
             continue
         asked = visa or bool(VISA_QUESTION.search(question))
         truth = [i for i in fact_issues(answer) if not (i.startswith('amount not in facts') and SALARY_QUESTION.search(question))]  # a salary answer is a figure
-        found = tone_issues(answer, 'answer', asked, allow=allow) + truth + answer_issues(question, answer, draft.get('advert_pay'))
+        found = tone_issues(answer, 'answer', asked, allow=allow) + truth + answer_issues(question, answer, advert_pay(draft))
         issues += [f'answer to "{question[:60]}" {i}' for i in found]
     return issues
 
@@ -552,13 +577,13 @@ def record_issues(rec, require_uploaded=True):
         issues.append(f'{status} record still has an open question for the owner')
     if ready:  # what a submitter will type into a form: only the lines of facts.json, checked again here
         for item in answer_items(rec)[0]:
-            basis, text, problem = standing_line(item['question'])
+            basis, text, problem = standing_line(item['question'], advert_pay(rec))
             if item['basis'] and (problem or (item['basis'], item['answer']) != (basis, text)):
                 issues.append(f'form answer is not the standing answer in facts.json -> answers: "{item["question"][:60]}"')
             elif not item['basis'] and status != STATUSES['ask_owner']:
                 issues.append(f'{status} record carries a form answer that is not from facts.json -> answers: "{item["question"][:60]}"')
         if status != STATUSES['ask_owner']:
-            issues += [f'{status} record has a form question with no standing answer (it must be ASK_OWNER): "{u["question"][:60]}"' for u in unanswered_questions(form_questions(rec))]
+            issues += [f'{status} record has a form question with no standing answer (it must be ASK_OWNER): "{u["question"][:60]}"' for u in unanswered_questions(form_questions(rec), advert_pay(rec))]
     kinds = {d.get('kind') for d in rec.get('attachments') or []}
     if 'resume' not in kinds:
         issues.append('no résumé attached')
@@ -574,7 +599,8 @@ def record_issues(rec, require_uploaded=True):
     if rec.get('application_type') == 'SPECULATIVE_ENQUIRY' and 'speculative' not in str(rec.get('email_body', '')).lower() and 'no advertised' not in str(rec.get('notes', '')).lower():
         issues.append('speculative enquiry must say so')
     visa = rec.get('advert_asks_about_visa') is True
-    return issues + draft_issues({'email_body': rec.get('email_body'), 'subject': rec.get('subject'), 'screening_answers': rec.get('screening_answers'), 'advert_asks_about_visa': visa})
+    return issues + draft_issues({'email_body': rec.get('email_body'), 'subject': rec.get('subject'), 'screening_answers': rec.get('screening_answers'),
+                                  'advert_asks_about_visa': visa, 'advert_pay': advert_pay(rec)})
 
 
 def main(argv=None):
@@ -595,7 +621,7 @@ def main(argv=None):
     elif a.cmd == 'questions':
         data = read_json(a.file)
         unreadable = answer_items(data)[1]
-        issues = ([unreadable] if unreadable else []) + [f"ask the owner: {u['question']} ({u['why']})" for u in unanswered_questions(form_questions(data))]
+        issues = ([unreadable] if unreadable else []) + [f"ask the owner: {u['question']} ({u['why']})" for u in unanswered_questions(form_questions(data), advert_pay(data))]
     else:
         issues = record_issues(read_json(a.file))
     for i in issues:

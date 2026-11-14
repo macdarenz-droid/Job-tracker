@@ -92,8 +92,8 @@ LETTER = ('Hello,\n\n'
           'needed. Could we talk this week?\n\nMarc Masarate')
 
 
-def ans(question, options=None, facts=FACTS):
-    return q.answer_question(question, options, facts)
+def ans(question, options=None, facts=FACTS, pay='not stated'):
+    return q.answer_question(question, options, facts, pay)   # pay: the advert states none, unless a test says otherwise
 
 
 def entry(n, **kw):
@@ -357,7 +357,7 @@ class QueueCase(unittest.TestCase):
             q.write_json(self.dir / q.LOCK_FILE, {'by': by, 'run': '20261113T0100Z', 'taken_at': q.iso(now),
                                                   'expires_at': q.iso(now + timedelta(minutes=30))})
             return q.next_entry(route, self.dir, CONFIG, now, by, prior, run='20261113T0100Z')
-        return q.next_entry(route, self.dir, CONFIG, now, by, prior)
+        return q.next_entry(route, self.dir, CONFIG, now, by, prior, run='20261113T0100Z' if by else None)
 
     def put(self, e):
         """Write an entry file without the checks of add, as a second runner's push or a hand edit would."""
@@ -643,7 +643,7 @@ class NextTests(QueueCase):
         with self.assertRaises(q.NothingToDo) as r:
             self.next('EMPLOYER_PORTAL', by='claude')
         self.assertIn('seek-1 for the same employer is started by grok: settle it first', str(r.exception))
-        q.mark(self.dir, 'seek-1', 'failed', 'grok', NOW, note='the form would not load')   # known not to have gone
+        q.mark(self.dir, 'seek-1', 'failed', 'grok', NOW, note='the form would not load', run='20261113T0100Z')   # known not to have gone
         self.assertEqual(self.next('EMPLOYER_PORTAL')['company'], 'Fyfe')
 
     def test_an_employer_applied_to_is_approached_again_only_for_another_role(self):
@@ -709,7 +709,7 @@ class NextTests(QueueCase):
         with self.assertRaises(q.NothingToDo) as r:
             self.next(now=later + timedelta(minutes=21), by='grok')
         self.assertIn('started by grok, no result recorded', str(r.exception))
-        q.mark(self.dir, 'seek-1', 'failed', 'grok', NOW, note='the form would not load, nothing was submitted')
+        q.mark(self.dir, 'seek-1', 'failed', 'grok', NOW, note='the form would not load, nothing was submitted', run='20261113T0100Z')
         self.assertEqual(self.next(now=later + timedelta(minutes=21))['id'], 'seek-1')   # a failure known not to have submitted frees it for another try
 
     def test_cli_next_prints_the_entry_or_exits_4(self):
@@ -717,7 +717,7 @@ class NextTests(QueueCase):
         self.assertEqual((code, out), (4, ''))
         self.assertIn('nothing to hand out', err)
         self.add(entry(1))
-        code, out, err = self.cli('next', '--route', 'SEEK', '--by', 'grok')
+        code, out, err = self.cli('next', '--route', 'SEEK', '--by', 'grok', '--run', '20261113T0100Z')
         self.assertEqual(code, 0)
         self.assertEqual(json.loads(out)['id'], 'seek-1')
 
@@ -802,8 +802,12 @@ class MarkTests(QueueCase):
         q.write_json(path, e)
         self.assertEqual(self.cli('check')[0], 1)
         code, _, err = self.cli('mark', 'seek-1', 'applied', '--by', 'grok', '--kind', 'seek_confirmation_screen', '--ref', 'call 0412 345 678')
-        self.assertEqual(code, 1)   # but a fault the mark itself brings is still refused
-        self.assertIn('privacy: phone number', err)
+        self.assertEqual(code, 1)   # but a fault the mark itself brings is still refused (since 14 Nov 2026 the ref filter sees it first)
+        self.assertIn('not saved: --ref holds a number of 3 or more digits', err)
+        code, _, err = self.cli('mark', 'seek-1', 'applied', '--by', 'grok', '--kind', 'seek_confirmation_screen', '--ref', 'Application sent',
+                                '--note', 'recruiter asked to call 0412 345 678')
+        self.assertEqual(code, 1)
+        self.assertIn('not saved: the note holds a phone number', err)
         self.assertEqual(self.cli('mark', 'seek-1', 'applied', '--by', 'grok', '--kind', 'seek_confirmation_screen', '--ref', 'Application sent')[0], 0)
         self.assertEqual(q.stats(self.dir, NOW)['applied_total'], 1)
 
@@ -885,7 +889,11 @@ class MarkTests(QueueCase):
         self.assertEqual(self.cli('mark', 'seek-2', 'ask', '--by', 'grok', '--question', 'The form asks for a start date: which date?')[0], 0)
         e = q.find(self.dir, 'seek-2')[1]
         self.assertEqual((e['status'], e['ask_owner'], e['attempts'][-1]['result']), ('ASK_OWNER', 'The form asks for a start date: which date?', 'asked_owner'))
-        self.assertEqual(self.cli('mark', 'seek-2', 'open', '--by', 'claude')[0], 0)
+        code, _, err = self.cli('mark', 'seek-2', 'open', '--by', 'claude')   # R5: an owner question is reopened only with his answer
+        self.assertEqual(code, 1)
+        self.assertIn('waits on the owner', err)
+        self.assertEqual(self.cli('mark', 'seek-2', 'open', '--by', 'claude', '--note', 'owner: start two weeks after an offer, 14 Nov')[0], 0)
+        self.assertIn('(question was: The form asks for a start date: which date?)', q.find(self.dir, 'seek-2')[1]['attempts'][-1]['note'])
         self.assertEqual(self.next()['id'], 'seek-2')
         code, _, err = self.cli('mark', 'seek-1', 'open', '--by', 'claude')   # cannot be opened past an unanswered question
         self.assertEqual(code, 1)
@@ -992,7 +1000,7 @@ class AnswerCommandTests(QueueCase):
                      ('--question', 'Is your date of birth: 3 March 1996?')):
             code, out, err = self.cli('answer', 'seek-1', *args)
             self.assertEqual((code, out), (1, ''), args)
-            self.assertIn('privacy', err)
+            self.assertRegex(err, 'privacy|the (question|option) holds', args)
         self.assertEqual(path.read_text(encoding='utf-8'), before)
         code, _, _ = self.cli('answer', 'seek-1', '--question', 'What is your date of birth? (DD/MM)')   # asking is not telling
         self.assertEqual(code, 5)   # stored for the owner: only he answers it

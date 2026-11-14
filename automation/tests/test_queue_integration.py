@@ -94,7 +94,7 @@ class AnswerKeepsOtherRunnersStarts(Case):
 
     def test_an_unanswered_question_from_another_runner_stores_nothing_and_keeps_the_start(self):
         self.add(entry(1, questions=[NOTICE]))
-        self.assertEqual(self.cli('next', '--route', 'SEEK', '--by', 'Grok')[0], 0)
+        self.assertEqual(self.cli('next', '--route', 'SEEK', '--by', 'Grok', '--run', '20261113T0100Z')[0], 0)
         before = self.files()
         for by in (('--by', 'Claude'), ()):
             code, out, err = self.cli('answer', 'seek-1', '--question', TRAFFIC, '--option', 'Yes', '--option', 'No', *by)
@@ -104,6 +104,10 @@ class AnswerKeepsOtherRunnersStarts(Case):
         self.assertIn('started by Grok', self.cli('list', '--started')[1])
         # the runner that started it (any letter case) ends its own start: ASK_OWNER, no longer under way
         code, _, err = self.cli('answer', 'seek-1', '--question', TRAFFIC, '--option', 'Yes', '--option', 'No', '--by', 'grok')
+        self.assertEqual(code, 5)   # M2: the right name without the session's run stores nothing either
+        self.assertIn('in another run (session)', err)
+        self.assertEqual(self.files(), before)
+        code, _, err = self.cli('answer', 'seek-1', '--question', TRAFFIC, '--option', 'Yes', '--option', 'No', '--by', 'grok', '--run', RUN)
         self.assertEqual(code, 5)
         self.assertIn('seek-1 is now ASK_OWNER: do not submit; leave the form', err)
         e = self.stored('seek-1')
@@ -112,7 +116,7 @@ class AnswerKeepsOtherRunnersStarts(Case):
 
     def test_an_answered_question_on_another_runners_start_is_still_answered(self):
         self.add(entry(1, questions=[NOTICE]))
-        self.cli('next', '--route', 'SEEK', '--by', 'Grok')
+        self.cli('next', '--route', 'SEEK', '--by', 'Grok', '--run', '20261113T0100Z')
         code, out, _ = self.cli('answer', 'seek-1', '--question', NOTICE, '--option', '2 weeks', '--option', '1 month', '--by', 'Claude')
         self.assertEqual((code, out), (0, '2 weeks\n'))
         self.assertEqual(q.started(self.stored('seek-1'))['by'], 'Grok')
@@ -128,12 +132,12 @@ class NextNamesWhatItsRecomputeRewrote(Case):
         self.assertEqual((code, json.loads(out)['id']), (0, 'seek-1'))
         self.assertIn('ANSWERS RECOMPUTED from facts.json, files rewritten (1): seek-1\nCommit and push them (run from this folder):\n'
                       "  git add -A -- ", err)
-        self.assertIn("git commit -m 'queue: answers recomputed from facts.json' && git pull --rebase && git push", err)
+        self.assertIn("git commit -m 'queue: answers recomputed from facts.json' && git pull --rebase --autostash && git push", err)
         self.assertEqual(self.stored('seek-1')['questions'][0]['answer'], 'No. Willing to obtain a new check.')
         code, out, err = self.cli('next', '--route', 'SEEK')   # nothing changed since: nothing to report
         self.assertNotIn('ANSWERS RECOMPUTED', err)
         self.stale_answer('seek-1')
-        code, out, err = self.cli('next', '--route', 'SEEK', '--by', 'Grok')
+        code, out, err = self.cli('next', '--route', 'SEEK', '--by', 'Grok', '--run', '20261113T0100Z')
         self.assertEqual(code, 0)
         self.assertIn("ANSWERS RECOMPUTED from facts.json, files rewritten (1): seek-1\n(the claim's git commands below commit them with it)", err)
         self.assertIn("queue: seek-1 started by Grok", err)
@@ -187,17 +191,17 @@ class NextRecomputesAndKeepsEveryRule(Case):
         self.add(entry(1, company='Acme Civil Pty Ltd', role='Civil Drafter', questions=[POLICE], listed_at='2026-11-12'))
         self.add(entry(2, company='Beta', listed_at='2026-11-11'))
         self.stale_answer('seek-1')
-        code, out, err = self.cli('next', '--route', 'SEEK', '--by', 'Grok')
+        code, out, err = self.cli('next', '--route', 'SEEK', '--by', 'Grok', '--run', '20261113T0100Z')
         self.assertEqual((code, json.loads(out)['id'], json.loads(out)['questions'][0]['answer']), (0, 'seek-1', 'No. Willing to obtain a new check.'))
         self.assertIn(f'Q: {POLICE} | give: No. Willing to obtain a new check.', err)
-        self.assertEqual(self.cli('next', '--route', 'SEEK', '--by', 'Grok', now=NOW + timedelta(minutes=5))[0], 3)   # the start counts
+        self.assertEqual(self.cli('next', '--route', 'SEEK', '--by', 'Grok', '--run', '20261113T0100Z', now=NOW + timedelta(minutes=5))[0], 3)   # the start counts
         self.assertEqual(self.cli('mark', 'seek-1', 'uncertain', '--by', 'Grok', '--note', 'the page froze after submit')[0], 0)
         self.assertEqual(self.cli('next', '--route', 'SEEK', now=NOW + timedelta(minutes=10))[0], 3)   # the uncertain mark counts
         # a repost of the same job at the same employer is held while the first is UNCERTAIN; the answers still follow facts
         q.save(self.dir, q.fill(entry(3, company='Acme Civil', role='Junior Civil Drafter', questions=[POLICE])))
         self.stale_answer('seek-3')
         later = NOW + timedelta(minutes=30)
-        code, out, err = self.cli('next', '--route', 'SEEK', '--by', 'Grok', now=later)
+        code, out, err = self.cli('next', '--route', 'SEEK', '--by', 'Grok', '--run', '20261113T0100Z', now=later)
         self.assertEqual((code, json.loads(out)['id']), (0, 'seek-2'))
         e3 = self.stored('seek-3')
         self.assertEqual(e3['questions'][0]['answer'], 'No. Willing to obtain a new check.')

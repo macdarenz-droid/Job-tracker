@@ -111,21 +111,21 @@ class NoticeStartAndSalary(GateCase):
         self.no(gate('Are you available to start work on 27 January 2027?'))
 
     def test_salary_with_options_is_the_option_holding_the_band_or_the_advertised_figure(self):  # S13
-        text = "What's your expected annual base salary?"
-        self.ok(gate(text, ['$50k', '$60k', '$70k', '$80k', '$90k']), '$70k', 'answers.expected_salary.rule')
-        self.ok(gate(text, ['$40k - $60k', '$60k - $80k', '$80k - $100k']), '$60k - $80k')
-        self.no(gate(text, ['$60k-$70k', '$70k-$80k']))           # $70,000 is in both: not decided
-        self.no(gate(text, ['$80k', '$90k', '$100k']))             # no option holds the band: the owner's
-        self.no(gate(text, ['$60k + super', '$70k + super', '$80k + super']))   # a package, not the base salary on record
+        text, none = "What's your expected annual base salary?", 'not stated'   # 'not stated': the advert gives no pay (B1)
+        self.ok(gate(text, ['$50k', '$60k', '$70k', '$80k', '$90k'], pay=none), '$70k', 'answers.expected_salary.rule')
+        self.ok(gate(text, ['$40k - $60k', '$60k - $80k', '$80k - $100k'], pay=none), '$60k - $80k')
+        self.no(gate(text, ['$60k-$70k', '$70k-$80k'], pay=none))           # $70,000 is in both: not decided
+        self.no(gate(text, ['$80k', '$90k', '$100k'], pay=none))             # no option holds the band: the owner's
+        self.no(gate(text, ['$60k + super', '$70k + super', '$80k + super'], pay=none))   # a package, not the base salary on record
         self.ok(gate(text, ['$60k-$75k', '$75k-$90k', '$90k-$105k'], pay='$80,000 to $95,000 plus super'), '$75k-$90k')
         self.no(gate(text, ['$60k', '$70k'], pay='$80,000 to $95,000 plus super'))
         self.no(gate(text, ['$60k', '$70k'], pay='$35 to $40 per hour'))
-        for result in (gate(text, ['$50k', '$60k', '$70k']), gate(text, ['$40k - $60k', '$60k - $80k'])):
+        for result in (gate(text, ['$50k', '$60k', '$70k'], pay=none), gate(text, ['$40k - $60k', '$60k - $80k'], pay=none)):
             self.assertNotIn('If the advert states pay', result['answer'])   # never the rule paragraph where options are shown
 
     def test_salary_free_text_follows_the_rule_and_the_other_pay_questions_go_to_the_owner(self):
-        self.ok(gate("What's your expected annual base salary?"), '65000 to 75000')
-        self.ok(gate('Salary Expectations (in AUD)'), '65000 to 75000')
+        self.ok(gate("What's your expected annual base salary?", pay='not stated'), '65000 to 75000')
+        self.ok(gate('Salary Expectations (in AUD)', pay='none'), '65000 to 75000')
         self.ok(gate("What's your expected annual base salary?", pay='$80,000 to $95,000 plus super'), '80000')
         for text in ("What's your expected hourly rate?", 'Please provide your salary or hourly rate expectations:',
                      'Please detail your minimum salary expectations (including super):',
@@ -385,8 +385,9 @@ class QueueAnswerCommand(unittest.TestCase):
 
     def test_an_unanswered_question_on_an_entry_asks_the_owner_releases_the_start_and_exits_5(self):  # F10, F22
         self.add(entry(1, questions=[RTW]))
-        self.assertEqual(q.next_entry('SEEK', self.dir, CONFIG, NOW, 'Grok', [], FACTS)['id'], 'seek-1')
-        code, out, err = self.cli('answer', 'seek-1', '--question', 'Do you have Traffic Control experience?', '--option', 'Yes', '--option', 'No', '--by', 'Grok')
+        self.assertEqual(q.next_entry('SEEK', self.dir, CONFIG, NOW, 'Grok', [], FACTS, run='20261113T0100Z')['id'], 'seek-1')
+        code, out, err = self.cli('answer', 'seek-1', '--question', 'Do you have Traffic Control experience?', '--option', 'Yes', '--option', 'No', '--by', 'Grok',
+                                  '--run', '20261113T0100Z')
         self.assertEqual((code, out), (5, ''))
         self.assertIn('do not submit; leave the form', err)
         e = self.stored()
@@ -446,7 +447,7 @@ class QueueAnswerCommand(unittest.TestCase):
 
     def test_next_prints_what_to_give_for_each_question(self):  # F23
         self.add(entry(1, questions=[RTW, 'How much notice are you required to give your current employer?']))
-        code, out, err = self.cli('next', '--route', 'SEEK', '--by', 'Grok')
+        code, out, err = self.cli('next', '--route', 'SEEK', '--by', 'Grok', '--run', '20261113T0100Z')
         self.assertEqual(code, 0)
         # the questions come first; the resume line, the checks and the claim's git commands follow (package A)
         self.assertEqual(err.splitlines()[:2], [f"Q: {RTW} | give: {FACTS['answers']['right_to_work']['free_text']}",

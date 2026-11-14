@@ -19,11 +19,12 @@ and documents/resume/Marc_Masarate_Resume_<Variant>.pdf for the entry's resume_v
 import argparse
 import hashlib
 import sys
-from datetime import datetime, timedelta, timezone
+from datetime import datetime
 from pathlib import Path
 
 import pymupdf
 
+import answers
 import checks
 import resume
 from common import FACTS, ROOT, read_json
@@ -51,11 +52,7 @@ def plain(text):
 
 
 def melbourne_today():
-    try:
-        from zoneinfo import ZoneInfo
-        now = datetime.now(ZoneInfo('Australia/Melbourne'))
-    except Exception:  # pragma: no cover - no time zone data on this machine
-        now = datetime.now(timezone.utc) + timedelta(hours=10)
+    now = datetime.now(answers.melbourne())   # the tz database, or the AEST/AEDT rule where this machine has none
     return f'{now.day} {now:%B %Y}'
 
 

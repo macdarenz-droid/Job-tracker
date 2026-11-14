@@ -84,9 +84,10 @@ class Case(unittest.TestCase):
         return q.save(self.dir, q.fill(e))
 
     def next(self, route='SEEK', now=NOW, by=None, prior=None, config=CONFIG):
-        return q.next_entry(route, self.dir, config, now, by, prior)
+        return q.next_entry(route, self.dir, config, now, by, prior, run=RUN if by else None)
 
     def mark(self, entry_id, action, by='grok', now=NOW, **kw):
+        kw.setdefault('run', RUN)   # the session that ran next (M2: a start is released only in its own run)
         return q.mark(self.dir, entry_id, action, by, now, facts=FACTS, **kw)
 
     def applied(self, entry_id, when, kind='seek_confirmation_screen', ref='SEEK confirmation screen shown'):
@@ -253,7 +254,7 @@ class LinkoutTests(Case):   # F3, F4, S17
         self.add(entry(1))
         self.add(entry(2, listed_at='2026-11-01'))
         self.next(by='grok')
-        code, out, _ = self.cli('mark', 'seek-1', 'linkout', '--by', 'grok')
+        code, out, _ = self.cli('mark', 'seek-1', 'linkout', '--by', 'grok', '--run', RUN)
         self.assertEqual((code, out.strip()), (0, 'seek-1: OPEN'))
         e = q.find(self.dir, 'seek-1')[1]
         self.assertEqual((e['route'], e['status'], e['seek_id'], e['attempts'][-1]['result']), ('EMPLOYER_PORTAL', 'OPEN', '1', 'linkout'))
@@ -268,7 +269,7 @@ class LinkoutTests(Case):   # F3, F4, S17
         code, _, err = self.cli('mark', 'seek-2', 'linkout', '--by', 'claude')
         self.assertEqual(code, 1)
         self.assertIn('was started by grok', err)
-        self.assertEqual(self.cli('mark', 'seek-2', 'skipped', '--by', 'grok', '--reason', 'advert closed')[0], 0)   # closed: unchanged
+        self.assertEqual(self.cli('mark', 'seek-2', 'skipped', '--by', 'grok', '--reason', 'advert closed', '--run', RUN)[0], 0)   # closed: unchanged
 
 
 class RepeatTests(Case):   # F13, S18, D56
@@ -381,10 +382,10 @@ class SpeculativeTests(Case):   # F18
 class ClaimTests(Case):   # S5, F2, F22
     def test_next_by_prints_the_git_commands_for_the_claim_after_the_entry(self):
         self.add(entry(1))
-        code, out, err = self.cli('next', '--route', 'SEEK', '--by', 'Grok')
+        code, out, err = self.cli('next', '--route', 'SEEK', '--by', 'Grok', '--run', '20261113T0100Z')
         self.assertEqual((code, json.loads(out)['id']), (0, 'seek-1'))
         git = [line.strip() for line in err.splitlines() if 'git ' in line and '&&' in line]
-        self.assertEqual(git, [f"git add -A -- {q._rel(self.dir)} && git commit -m 'queue: seek-1 started by Grok' && git pull --rebase && git push"])
+        self.assertEqual(git, [f"git add -A -- {q._rel(self.dir)} && git commit -m 'queue: seek-1 started by Grok' && git pull --rebase --autostash && git push"])
         self.assertIn('do not submit', err)
         self.add(entry(2))
         code, out, err = self.cli('next', '--route', 'SEEK', now=NOW + timedelta(minutes=21))   # a peek claims nothing
@@ -401,7 +402,11 @@ class ClaimTests(Case):   # S5, F2, F22
             code, _, err = self.cli('mark', 'seek-1', action, '--by', 'Claude', *args)
             self.assertEqual(code, 1, action)
             self.assertIn('was started by Grok', err)
-        self.assertEqual(self.cli('mark', 'seek-1', 'open', '--by', 'grok')[0], 0)   # the name is compared without case
+        code, _, err = self.cli('mark', 'seek-1', 'open', '--by', 'grok')   # M2: the same name in another session (no run, or another)
+        self.assertEqual(code, 1)
+        self.assertIn('in another run (session)', err)
+        self.assertEqual(self.cli('mark', 'seek-1', 'open', '--by', 'grok', '--run', '20261113T0105Z')[0], 1)
+        self.assertEqual(self.cli('mark', 'seek-1', 'open', '--by', 'grok', '--run', RUN)[0], 0)   # the name is compared without case
         self.assertEqual(self.cli('list', '--started')[1].strip(), 'no unmarked starts')
         soon = NOW + timedelta(minutes=1)
         self.assertEqual(self.next(now=soon, by='Grok')['id'], 'seek-1')   # released: neither held nor spaced
@@ -492,8 +497,8 @@ class LockTests(Case):   # S11
         self.assertEqual(q.read_json(self.dir / 'SEND_LOCK.json'),
                          {'by': 'Claude', 'run': RUN, 'taken_at': '2026-11-13T01:00:00Z', 'expires_at': '2026-11-13T01:30:00Z'})
         self.assertIn(f"git add -A -- {q._rel(self.dir / 'SEND_LOCK.json')} && git commit -m 'send lock: taken by Claude, run {RUN}' "
-                      '&& git pull --rebase && git push', out)
-        self.assertIn('someone else holds the lock: do not send', out)
+                      '&& git pull --rebase --autostash && git push', out)
+        self.assertIn('someone else took the lock or changed the queue at the same time: do not send', out)
         five = NOW + timedelta(minutes=5)
         for by, run in (('Claude', '20261113T0105Z'), ('Codex', '20261113T0105Z')):
             code, _, err = self.cli('lock', 'take', '--by', by, '--run', run, now=five)
@@ -537,7 +542,7 @@ class LockTests(Case):   # S11
         code, out, _ = self.cli('next', '--route', 'EMAIL', '--by', 'Claude', '--run', RUN, now=late)
         self.assertEqual((code, json.loads(out)['id']), (0, 'email-1'))
         self.add(entry(2))
-        self.assertEqual(self.cli('next', '--route', 'SEEK')[0], 0)   # the other routes need no lock
+        self.assertEqual(self.cli('next', '--route', 'SEEK', now=late)[0], 0)   # the other routes need no lock
 
 
 class AddFieldTests(Case):   # F7

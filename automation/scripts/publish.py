@@ -150,7 +150,8 @@ def form_answers(cand, screen, draft, route):
     proposed = {item['question'].lower(): item['answer'] for item in given}
     questions = list(dict.fromkeys(checks.form_questions({'screening_questions': cand.get('screening_questions') or screen.get('screening_questions'),
                                                           'screening_answers': draft.get('screening_answers') or draft.get('questions')})))
-    asks = checks.unanswered_questions(questions)
+    pay = checks.advert_pay(draft) or checks.advert_pay(cand)
+    asks = checks.unanswered_questions(questions, pay)
     is_open = {a['question'].lower() for a in asks}
     answers, seen = [], set()
     for question in questions:
@@ -159,7 +160,7 @@ def form_answers(cand, screen, draft, route):
             continue
         seen.add(text.lower())
         if text.lower() not in is_open:
-            basis, line, _ = checks.standing_line(text)
+            basis, line, _ = checks.standing_line(text, pay)
             answers.append({'question': text, 'answer': line, 'basis': basis})
             continue
         proposal = proposed.get(text.lower())
@@ -241,7 +242,8 @@ def build_record(run_id, cand, screen, contact, draft, attachments=None):
         'gaps': screen.get('gaps') or [],
         'match_score': {'percent': screen.get('percent'), 'method': CONFIG['fit']['method'], 'caution': screen.get('caution') or ''},  # the reasons are in fit, once
         'advert': {'source': cand.get('source') or 'seek', 'listed_at': cand.get('listed_at') or screen.get('listed_at') or '', 'expires_at': cand.get('expires_at') or screen.get('expires_at') or '',
-                   'verified_at': cand.get('checked_at') or now_iso(), 'apply_instructions': screen.get('apply_instructions') or '', 'screening_questions': cand.get('screening_questions') or screen.get('screening_questions') or []},
+                   'verified_at': cand.get('checked_at') or now_iso(), 'apply_instructions': screen.get('apply_instructions') or '', 'screening_questions': cand.get('screening_questions') or screen.get('screening_questions') or [],
+                   **({'pay': checks.advert_pay(draft) or checks.advert_pay(cand)} if checks.advert_pay(draft) or checks.advert_pay(cand) else {})},
         'screening_answers': answers,
         'checklist': draft.get('checklist') or [],
         'notes': '\n'.join(x for x in [draft.get('notes'), (contact or {}).get('notes')] + [f"ASK OWNER: {a['question']} ({a['why']})" for a in asks] + [how_found_block(cand, screen, contact, draft, route)] if x),

@@ -19,14 +19,26 @@ Covered (facts.json -> answers unless another block is named):
   sponsorship        "Do you require sponsorship to work in Australia (now)?": No. In the future: unanswered
   notice             2 weeks, or the option meaning 2 weeks
   start date         free text only: "Two weeks after an offer" (eligibility.availability)
-  salary             with options: the option whose band holds the advertised figure (pay) when one is known, else the
-                     option holding the owner's band ($65,000 to $75,000) or its midpoint ($70,000); none: unanswered.
-                     No options: "65000 to 75000" (or the advertised figure). Hourly rate, minimum, package: unanswered
+  salary             only when pay, the advert's own pay text, is known: an annual figure (the lower end of a range;
+                     a figure written with $, k or a comma goes before a bare number, and a number after ref, no.,
+                     id, job, position or the like is not pay) picks the option whose band holds it; pay "not stated"
+                     (or "none") picks the option holding the owner's band ($65,000 to $75,000) or its midpoint
+                     ($70,000). No options: the figure, or "65000 to 75000". pay not given (None or ''): unanswered,
+                     because "the advert states no pay" and "the pay was not recorded" are not the same. Hourly rate,
+                     minimum, package: unanswered
   driver's licence   Yes; full: Yes; manual: No; manual or automatic: Automatic; another state's licence: unanswered
   car, White Card    Yes
-  police check       a check for employment, or issued within the last N months: No; a current check: Yes (the facts
-                     line names the month from which that becomes No); willing to obtain one: Yes
+  police check       a check for employment: No. A window ("within the last 12 months", "less than 6 months old",
+                     "issued in 2026") is compared with the month of issue in the facts line: inside it Yes, outside
+                     it No, on its edge or unreadable ("recent") unanswered. A current check: Yes (the facts line
+                     names the month from which that becomes No); willing to obtain one: Yes
   medical, drug and alcohol tests (willing): Yes. Currently studying: No. Relocate: Yes. Travel or FIFO: Yes
+  Not for any of these: a question that joins the subject to another requirement ("a White Card and a First Aid
+  certificate", "your own car with comprehensive insurance", "relocate and work night shift"); one about something
+  already done ("Have you completed a medical?", "Have you relocated before?": facts.json records willingness only;
+  a police check question in the past tense is judged as above); relocation at his own cost or without assistance;
+  travel overseas; FIFO or rosters with night shifts. Sponsorship "long term", "permanently" or after the visa is a
+  future-sponsorship question.
   qualifications     as answers.qualification_questions say; "What qualifications do you hold?" (free text): the
                      qualifications in education, with their years
   years              as answers.years_of_experience say: a plain engineering title or the construction industry, the
@@ -41,7 +53,7 @@ plain answer), and every question this list does not name. Pure: no files. The c
 check, whose answer changes in a month that facts.json states.
 """
 import re
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, tzinfo
 
 # The lines of facts.json -> answers the gate reads. free_text_cover_letter is not a form answer: the letter is
 # pasted from the queue entry itself.
@@ -74,6 +86,19 @@ TRAPS = re.compile(
     r"|how far|commute|anything else|registration number|licen[cs]e number|\bever\b|suspend|disqualified|cancel|revoked?\b|offen[cs]e"
     r"|convict|demerit|infringement|penalt|dismiss|terminated|bankrupt|conflict of interest|any reason|\bobject\b|\brefus|\bunable\b"
     r"|\bprevent|\bfail|criminal (record|history\b(?! (check|screen)))|illicit|\b(use|take|taking|using) (of )?(any )?drugs|addict")
+# A yes/no question that joins its subject to something else: 'and a current First Aid certificate', 'with comprehensive
+# insurance', 'including night shifts'. Matched on the question with the subject's own words replaced by 'qq'.
+JOIN = re.compile(r'(?:\b(?:and|plus|as well as|along with|together with|including|incl|with (?:a|an|comprehensive|current|valid|full|your|own|no))\b|[/&])'
+                  r'\s*(?:(?:a|an|the|your|own|current|valid|full)\s+)*+(?!qq\b)[a-z]')
+# Something already done: facts.json records only willingness for medicals, tests, relocation and travel.
+PAST = re.compile(r'^(?:have|has|had|did) you\b|\b(?:obtained|completed|undergone|undertaken|passed|relocated|travel+ed)\b')
+OWN_COST = re.compile(r'own (?:cost|expense)|at (?:your|my|their) (?:own )?(?:cost|expense)|without (?:any )?(?:relocation )?(?:assistance|support|package|allowance)'
+                      r'|self.?fund|(?:pay|paying) for|cover (?:the |your )?(?:cost|costs|expenses?)|no relocation (?:assistance|support|package|allowance)')
+ABROAD = re.compile(r'overseas|international|abroad|outside (?:of )?australia|another country|new zealand')
+NIGHT_SHIFT = re.compile(r'\bnight|\bshifts?\b')
+NUMBER_WORD = r'(\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|eighteen|twenty-four)'
+MORE_NUMBERS = {'eleven': 11, 'twelve': 12, 'eighteen': 18, 'twenty-four': 24}
+
 # Words of each subject the gate answers. A question that names two of them asks two things at once: the owner's.
 TOPICS = {
     'work rights': r'rights? to work|work(ing)? rights?|\bwork right|\bvisa\b|citizen|permanent resid|sponsor',
@@ -178,12 +203,66 @@ def _yes_no_line(a, key, q, opts, free=None):
     return _ok(pick if opts else (free or head), 'answers.' + key)
 
 
-def _melbourne_today():
+def _first_sunday(year, month):
+    day = date(year, month, 1)
+    return day + timedelta(days=(6 - day.weekday()) % 7)
+
+
+class MelbourneRule(tzinfo):
+    """Australia/Melbourne by its rule, for a machine with no time zone data (Windows without the tzdata package):
+    AEST, UTC+10, and AEDT, UTC+11, from 2 am on the first Sunday in October to 3 am on the first Sunday in April."""
+
+    def _summer_utc(self, utc):
+        """True when a UTC time (naive) falls in daylight saving: the changes are at 16:00 UTC the day before."""
+        starts = datetime.combine(_first_sunday(utc.year, 10), datetime.min.time()) - timedelta(hours=8)
+        ends = datetime.combine(_first_sunday(utc.year, 4), datetime.min.time()) - timedelta(hours=8)
+        return utc >= starts or utc < ends
+
+    def utcoffset(self, dt):
+        if dt is None:
+            return timedelta(hours=10)
+        local = dt.replace(tzinfo=None)
+        starts = datetime.combine(_first_sunday(local.year, 10), datetime.min.time()) + timedelta(hours=2)
+        ends = datetime.combine(_first_sunday(local.year, 4), datetime.min.time()) + timedelta(hours=3)
+        return timedelta(hours=11 if local >= starts or local < ends else 10)
+
+    def dst(self, dt):
+        return self.utcoffset(dt) - timedelta(hours=10)
+
+    def tzname(self, dt):
+        return 'AEDT' if self.dst(dt) else 'AEST'
+
+    def fromutc(self, dt):
+        utc = dt.replace(tzinfo=None)
+        return (utc + timedelta(hours=11 if self._summer_utc(utc) else 10)).replace(tzinfo=self)
+
+
+MELBOURNE_RULE = MelbourneRule()
+
+
+def melbourne():
+    """The Australia/Melbourne time zone: the tz database's, or MELBOURNE_RULE where this machine has none."""
     try:
         from zoneinfo import ZoneInfo
-        return datetime.now(ZoneInfo('Australia/Melbourne')).date()
-    except Exception:  # pragma: no cover - no time zone data on this machine
-        return (datetime.now(timezone.utc) + timedelta(hours=10)).date()
+        return ZoneInfo('Australia/Melbourne')
+    except Exception:  # no time zone data on this machine: the rule, never a fixed UTC+10
+        return MELBOURNE_RULE
+
+
+def _melbourne_today():
+    return datetime.now(melbourne()).date()
+
+
+def _also(q, pattern):
+    """What a yes/no question asks for besides its subject ('and a current first' in 'do you hold a white card and a
+    current first aid certificate'), or ''. pattern matches the subject's own words; several of them joined by 'and',
+    '&', '/' or 'or' are one subject ('medical and drug and alcohol')."""
+    rest = re.sub(r'\b(willing|able|prepared|happy|available)\s+and\s+(?:willing|able|prepared|happy|available)\b', r'\1', q)   # 'willing and able'
+    rest = re.sub(r'\band\s*/\s*or\b', 'or', rest)   # 'and/or' offers a choice, it adds nothing
+    rest = re.sub(r'(?:' + pattern + r')[\w-]*', ' qq ', rest)
+    rest = re.sub(r'\bqq\b(?:\s*(?:and|&|/|or|,)\s*(?:(?:a|an|the|your)\s+)?qq\b)+', 'qq', rest)
+    m = JOIN.search(rest)
+    return ' '.join(rest[m.start():].replace('qq', '...').split()[:6]) if m else ''
 
 
 # ---------- numbers in options ----------
@@ -221,13 +300,23 @@ def months_range(option):
     return None
 
 
-def money(text):
-    """The money figures in a text, in dollars: '$95k', '$70,000', '70000', '$60-65k'. A bare small number is not money."""
+# A number right after one of these words is an identifier (a position, job or reference number), never pay.
+ID_BEFORE = re.compile(r'(?:\bref(?:erence)?|\bno|\bnumber|\bnum|\bid|#|\bjob|\bposition|\bvacancy|\brequisition|\breq|\bcode|\bband'
+                       r'|\blevel|\bgrade|\bclassification|\bpostcode)\W{0,3}$')
+
+
+def money(text, marked_only=False):
+    """The money figures in a text, in dollars: '$95k', '$70,000', '70000', '$60-65k'. A bare small number is not money,
+    nor a bare number after ref, no., id, job, position and the like ('Position number 51234'), nor one of 7 or more
+    digits. marked_only: only the figures written with $, k or a comma."""
     t = re.sub(r'(\d+)\s*(-|to)\s*(\d+)\s*k\b', r'\1k \2 \3k', norm(text))
     out = []
-    for dollar, digits, k in re.findall(r'(\$)?\s?(\d{1,3}(?:,\d{3})+|\d+(?:\.\d+)?)\s*(k\b)?', t):
+    for m in re.finditer(r'(\$)?\s?(\d{1,3}(?:,\d{3})+|\d+(?:\.\d+)?)\s*(k\b)?', t):
+        dollar, digits, k = m.groups()
         amount = float(digits.replace(',', '')) * (1000 if k else 1)
-        if dollar or k or ',' in digits or amount >= 20000:
+        if dollar or k or ',' in digits:
+            out.append(amount)
+        elif not marked_only and 20000 <= amount < 1000000 and not ID_BEFORE.search(t[:m.start()]):
             out.append(amount)
     return out
 
@@ -281,7 +370,8 @@ def _declaration(q, opts, a):
 
 def _sponsorship(q, opts, a):
     line = str(a.get('future_visa_sponsorship') or '')
-    if re.search(r'future|later|at any (time|stage|point)|will you|would you|going forward|ongoing|eventually|down the track|coming years|next \d', q):
+    if re.search(r'future|later|at any (time|stage|point)|will you|would you|going forward|ongoing|eventually|down the track|coming years|next \d'
+                 r'|long.?term|permanent(ly)?|beyond|after (your|the|my) (current )?visa|end of|expir', q):
         return _plain_line(a, 'future_visa_sponsorship', q, opts) if _settled(line, q) and not re.search(r'sponsorship to work now', line) else \
             _no('future sponsorship: facts.json -> answers -> future_visa_sponsorship leaves it to the owner', 'answers.future_visa_sponsorship')
     now = re.search(r"sponsorship to work now\?'?\s*:\s*(no|yes)\b", line, re.I)
@@ -347,6 +437,12 @@ def _start(q, opts, facts):
     return _ok(text[:1].upper() + text[1:], 'eligibility.availability')
 
 
+# pay as an entry or a caller gives it when the advert states no pay at all.
+NO_PAY = re.compile(r"(?:pay |salary )?(?:not stated|none( stated)?|no pay( stated)?|no salary( stated)?|not given|not shown|not advertised)\.?")
+PAY_UNKNOWN = ("the advert's pay is not recorded (advert_pay): give the advert's own pay text with --advert-pay, or "
+               '--advert-pay "not stated" when the advert gives none')
+
+
 def _salary(q, opts, a, pay):
     if re.search(r'minimum|upper end|lower end|current (salary|remuneration|package)|includ\w* (of )?super|incl\.? super|inclusive of super|package'
                  r'|payment basis|confirm|in ?line with|range you entered|per hour|daily', q):
@@ -357,8 +453,10 @@ def _salary(q, opts, a, pay):
         return _no('facts.json -> answers -> expected_salary.rule has no band written as "$65,000 to $75,000"', 'answers.expected_salary.rule')
     low, high = (float(x.replace(',', '')) for x in band.groups())
     figure = None
-    if pay:
-        annual = [x for x in money(pay) if x >= 20000]
+    if pay is None or not str(pay).strip():
+        return _no(PAY_UNKNOWN, 'answers.expected_salary.rule')
+    if not NO_PAY.fullmatch(norm(pay)):
+        annual = [x for x in money(pay, marked_only=True) if x >= 20000] or [x for x in money(pay) if x >= 20000]
         if not annual or re.search(r'hour|per day|daily', norm(pay)):
             return _no(f'the advertised pay ({pay}) is not an annual figure', 'answers.expected_salary.rule')
         figure = min(annual[:2])   # the lower end of a stated range
@@ -418,6 +516,52 @@ def _licence(q, opts, a):
     return _ok(hits[0], 'answers.drivers_licence') if len(hits) == 1 else _no('no single option is his full licence', 'answers.drivers_licence')
 
 
+def _months_back(day, months):
+    """The date months calendar months before day (the last day of the month when that day does not exist)."""
+    y, m = divmod(day.year * 12 + day.month - 1 - months, 12)
+    m += 1
+    last = (date(y + (m == 12), m % 12 + 1, 1) - timedelta(days=1)).day
+    return date(y, m, min(day.day, last))
+
+
+def _police_window(q):
+    """The time a police check question asks about: ('months', [N, ...]), ('year', YYYY), ('unread', '') for a window that
+    cannot be read ('recent', 'or later'), or None when it names none."""
+    if re.search(r'\b(?:or (?:later|after|newer|earlier)|since|after|before|prior to)\b', q):
+        return ('unread', '')
+    months = []
+    for n, unit in re.findall(NUMBER_WORD + r'[\s-]*(months?|years?|yrs?)\b', q):
+        count = int(n) if n.isdigit() else NUMBERS.get(n) or MORE_NUMBERS.get(n)
+        months.append(count * (1 if unit.startswith('month') else 12))
+    if re.search(r'\b(?:last|past|previous) (?:calendar )?year\b|\bwithin (?:a|one|the) year\b|\bless than (?:a|one) year\b|\byear old\b', q):
+        months.append(12)
+    if months:
+        return ('months', months)
+    year = re.search(r'\b(?:issued|dated|obtained|completed|done|from|in)\s+(?:in\s+)?((?:19|20)\d\d)\b', q)
+    if year:
+        return ('year', int(year.group(1)))
+    if re.search(r'\brecent|\bwithin\b|\bin the (?:last|past)\b|\bless than\b|\bold\b|\bup to date\b|\bup-to-date\b', q):
+        return ('unread', '')
+    return None
+
+
+def _police_by_date(window, issued, today):
+    """'Yes' when the check issued in the month issued (year, month) falls inside the window for certain, 'No' when it
+    falls outside it for certain, '' on the edge or for an unread window."""
+    first = date(issued[0], issued[1], 1)
+    last = _months_back(date(issued[0] + (issued[1] == 12), issued[1] % 12 + 1, 1), 0) - timedelta(days=1)
+    kind, value = window
+    if kind == 'year':
+        return 'Yes' if value == issued[0] else 'No'
+    if kind != 'months':
+        return ''
+    found = set()
+    for n in value:
+        cutoff = _months_back(today, n)
+        found.add('Yes' if first >= cutoff else 'No' if last < cutoff else '')
+    return found.pop() if len(found) == 1 else ''
+
+
 def _police(q, opts, a, today):
     value = str(a.get('police_check') or '')
     if not _settled(value, q) or not _head(value):
@@ -425,17 +569,29 @@ def _police(q, opts, a, today):
     if not yes_no_question(q):
         return _no('not a yes/no question about the police check', 'answers.police_check')
     sentences = re.split(r'(?<=\.)\s+', value)
-    if re.search(r'willing|prepared|happy to|consent|agree to|able to obtain|undergo|undertake|complete|obtain|participate', q):
+    said = next((s for s in sentences if re.search(r'for employment|within the last', s, re.I)), '')
+    extra = re.search(r"'([^']+)'", said)
+    no_free = 'No.' + (f' {extra.group(1)}' if extra else '')
+    window = _police_window(q)
+    when = today or _melbourne_today()
+    if re.search(r'willing|prepared|happy to|consent|agree to|able to obtain|undergo|undertake|complete|obtain|participate', q) and not PAST.search(q):
         if not re.search(r'willing to (obtain|get)', value, re.I):
             return _no('facts.json -> answers -> police_check does not say he is willing to obtain one', 'answers.police_check')
         head, free = 'Yes', 'Yes'
-    elif re.search(r'for employment|employment purposes|within the (last|past)|in the (last|past)|issued (in|within)|last \d+ months|\d+ months|recent', q):
-        said = next((s for s in sentences if re.search(r'for employment|within the last', s, re.I)), '')
-        m = re.search(r'\((no)\)|:\s*(no)\b', said, re.I)
-        if not m:
-            return _no('facts.json -> answers -> police_check says nothing about a check for employment or a recent one', 'answers.police_check')
-        extra = re.search(r"'([^']+)'", said)
-        head, free = 'No', 'No.' + (f' {extra.group(1)}' if extra else '')
+    elif re.search(r'for employment|employment purposes|for (?:a|an|this|the) (?:job|role|position|employer)', q):
+        if not re.search(r'\((no)\)|:\s*(no)\b', said, re.I):
+            return _no('facts.json -> answers -> police_check says nothing about a check for employment', 'answers.police_check')
+        head, free = 'No', no_free
+    elif window:
+        issued = re.search(r'\b(' + '|'.join(MONTHS) + r') ((?:19|20)\d\d)\b', sentences[0], re.I)
+        if not issued:
+            return _no('facts.json -> answers -> police_check does not give the month the check was issued', 'answers.police_check')
+        head = _police_by_date(window, (int(issued.group(2)), MONTHS.index(issued.group(1).lower()) + 1), when)
+        if not head:
+            return _no('asks about a time window facts.json cannot settle (unreadable, or on the edge of the month of issue)', 'answers.police_check')
+        free = sentences[0].rstrip('.') if head == 'Yes' else no_free
+    elif PAST.search(q) and not re.search(r'\b(current|valid)\b', q):
+        return _no('asks about a check already done, with no time or purpose facts.json can settle', 'answers.police_check')
     elif re.search(r'\b(have|hold|possess)\b[^?]*\b(current|valid)\b', q):
         head, free = _head(value), sentences[0].rstrip('.')
         change = re.search(r'from (' + '|'.join(MONTHS) + r') (\d{4}) the answer becomes: ([^.]+)', value, re.I)
@@ -449,6 +605,8 @@ def _police(q, opts, a, today):
 
 
 def _tests(q, opts, a):
+    if PAST.search(q):
+        return _no('asks whether he has done a medical or test; facts.json records only that he is willing', 'answers.pre_employment_medical')
     if not re.search(r'willing|prepared|happy to|consent|agree to|undergo|undertake|participate|complete|attend|able to (pass|complete|undergo)', q):
         return _no('a medical or drug test question that is not about willingness to take the test', 'answers.pre_employment_medical')
     keys = (['pre_employment_medical'] if 'medical' in q else []) + (['drug_and_alcohol_screening'] if re.search(r'drug|alcohol', q) else [])
@@ -722,27 +880,49 @@ def answer(question, options=None, facts=None, pay=None, today=None):
         if re.search(r'\d{4}|\b(' + '|'.join(m[:3] for m in MONTHS) + r')[a-z]*\b|immediately|tomorrow|next week', q):
             return _no('asks about a particular start date; facts.json gives only two weeks after an offer', 'eligibility.availability')
         return _start(q, opts, facts)
-    if re.search(r"driv\w*'?s? licen[cs]e|driving licen[cs]e|licen[cs]ed? to drive|car licen[cs]e|class c\b|(provisional|probationary|p ?plate|learner)\b[^?]*licen[cs]e", q):
+    licence = r"driv\w*'?s? licen[cs]e|driving licen[cs]e|licen[cs]ed? to drive|car licen[cs]e|class c\b|(provisional|probationary|p ?plate|learner)\b[^?]*licen[cs]e"
+    police = r'police (check|certificate|clearance)|national police|criminal history (check|screen)'
+    studying = r'\bcurrently (studying|enrolled)\b|are you (currently )?(a )?student\b'
+    travel = r'\bfifo\b|\bdido\b|\btravel|\broster'
+    white_card = r'(?:general )?(?:white card|construction induction(?: training)?(?: card)?|induction (?:training )?card)'
+    for pattern, words in ((licence, r'driv\w*|licen[cs]e|class c'), (TOPICS['car'], TOPICS['car']), (TOPICS['White Card'], white_card),
+                           (police, police + r'|police'), (r'medical|drug|alcohol', r'(pre-?employment )?(medical|drug|alcohol)'),
+                           (studying, studying), (r'relocat', r'relocat'), (travel, travel)):
+        if re.search(pattern, q):
+            also = _also(q, words)
+            if also:
+                return _no(f'asks for something else as well ("{also}"): facts.json answers only the one subject')
+            break
+    if re.search(licence, q):
         return _licence(q, opts, a)
     if re.search(TOPICS['car'], q):
         return _yes_no_line(a, 'own_car_or_regular_access', q, opts)
     if re.search(TOPICS['White Card'], q):
         return _yes_no_line(a, 'white_card', q, opts)
-    if re.search(r'police (check|certificate|clearance)|national police|criminal history (check|screen)', q):
+    if re.search(police, q):
         return _police(q, opts, a, today)
     if re.search(r'medical|drug|alcohol', q):
         return _tests(q, opts, a)
-    if re.search(r'\bcurrently (studying|enrolled)\b|are you (currently )?(a )?student\b', q):
+    if re.search(studying, q):
         if re.search(r'\bor\b|/|prepared|recent graduate|completed|washington', q):
             return _no('asks about study together with something else', 'answers.currently_studying')
         return _yes_no_line(a, 'currently_studying', q, opts)
     if re.search(r'relocat', q):
-        if re.search(r'overseas|international|new zealand|abroad|another country', q):
+        if ABROAD.search(q):
             return _no('relocation outside Australia is not on record', 'answers.willing_to_relocate')
+        if OWN_COST.search(q):
+            return _no('relocation at his own cost or without assistance: facts.json says only that he will relocate (do not promise who pays '
+                       'for the move)', 'answers.willing_to_relocate')
+        if PAST.search(q):
+            return _no('asks about a move already made; facts.json records only that he is willing to relocate', 'answers.willing_to_relocate')
         return _yes_no_line(a, 'willing_to_relocate', q, opts, free=a.get('willing_to_relocate'))
-    if re.search(r'\bfifo\b|\bdido\b|\btravel|\broster', q):
-        if 'experience' in q or not re.search(r'willing|available|open to|able to|prepared|happy|consider|comfortable', q):
+    if re.search(travel, q):
+        if 'experience' in q or PAST.search(q) or not re.search(r'willing|available|open to|able to|prepared|happy|consider|comfortable', q):
             return _no('not a question about willingness to travel or work FIFO', 'answers.willing_to_travel_or_fifo')
+        if ABROAD.search(q):
+            return _no('travel outside Australia is not on record', 'answers.willing_to_travel_or_fifo')
+        if NIGHT_SHIFT.search(q):
+            return _no('night or shift work is not on record', 'answers.willing_to_travel_or_fifo')
         return _yes_no_line(a, 'willing_to_travel_or_fifo', q, opts)
     qualification = _qualification(q, opts, a, facts)
     if qualification:
