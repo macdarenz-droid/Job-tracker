@@ -1,26 +1,22 @@
 #!/usr/bin/env python3
-"""Compact PDFs for email attachments: base-14 Helvetica, nothing embedded, about 10 KB each.
+"""Retired 14 Nov 2026: compact PDFs for email attachments.
 
-The Gmail tool takes attachments as inline base64, so every byte costs tokens. The tracker keeps
-the master résumé (Portfolio PDF) for portal submissions; emails carry these compact renderings of
-the same facts.
+Its resume was a different, unchecked resume (one fixed profile for every lane, with a claim about site supervision
+that facts.json does not hold), and its letter command read a 'paragraphs' field that queue entries do not have, so it
+printed a letter with no body. Both commands now stop with a message:
 
-Usage:
-  compact_pdf.py letter DRAFT.json OUT.pdf [--lane drafter|technician|engineer]
-  compact_pdf.py resume OUT.pdf [--lane drafter|technician|engineer]
+  compact_pdf.py resume ...   attach documents/resume/Marc_Masarate_Resume_<Variant>.pdf (built by resume.py)
+  compact_pdf.py letter ...   build the letter with letter_pdf.py ENTRY_ID OUT.pdf
 
-The lane picks the headline under the name (facts.json -> identity -> titles); a draft's own "lane"
-field is used when --lane is not given.
+The page helpers below (Sheet, clean, headline, header) stay for any later one-page document.
 """
 import argparse
-import json
 import re
 import sys
-from datetime import datetime
 
 import pymupdf
 
-from common import FACTS, read_json
+from common import FACTS
 
 A4 = pymupdf.paper_rect('a4')
 L, R, T, B = 56, 56, 52, 52
@@ -32,8 +28,6 @@ GREY = (0.35, 0.35, 0.35)
 _MONTH = r'(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?'
 _DATE = rf'(?:{_MONTH}\s+)?(?:19|20)\d\d'
 DATE_RANGE = re.compile(rf'\b({_DATE})\s*[–—]\s*({_DATE}|present|now|current)\b', re.I)
-STREET = re.compile(r'\b\d+[a-z]?(?:\s*[-/]\s*\d+)?\s+(?:[A-Za-z\']+\s+){1,3}(?:street|st|road|rd|avenue|ave|drive|dr|highway|hwy|parade|pde|court|ct|place|pl|lane|ln|'
-                    r'boulevard|blvd|crescent|cres|way|terrace|tce|close|circuit|cct|esplanade|quay)\b|\b(?:po|gpo) box\s+\d+|\blocked bag\s+\d+', re.I)
 
 
 def clean(s):
@@ -43,12 +37,6 @@ def clean(s):
     s = DATE_RANGE.sub(r'\1 to \2', s)
     return (s.replace('–', '-').replace(' — ', ', ').replace('—', ', ').replace('’', "'").replace('‘', "'")
              .replace('“', '"').replace('”', '"').replace('…', '...').replace('·', '·'))
-
-
-def is_street_address(line):
-    """'Level 20, 2 Market Street, Sydney NSW' and 'PO Box 12, Melton' are; 'Gunnedah NSW' and a sentence about the company are not."""
-    line = str(line or '').strip()
-    return bool(line) and len(line) <= 90 and bool(STREET.search(line))
 
 
 def headline(lane=None):
@@ -153,89 +141,20 @@ def header(sh, ident, lane=None):
     sh.rule(10)
 
 
-def letter_pdf(letter, out, lane=None):
-    ident = FACTS['identity']
-    sh = Sheet(out)
-    header(sh, ident, lane or letter.get('lane'))
-    sh.text(letter.get('date') or datetime.now().strftime('%-d %B %Y'), gap=2)
-    for k in ('recipient_name', 'recipient_role', 'company'):
-        if letter.get(k):
-            sh.text(letter[k], gap=1)
-    if is_street_address(letter.get('company_line')):  # a line about the company is not part of an address
-        sh.text(letter['company_line'], gap=1)
-    sh.y += 8
-    if letter.get('subject'):
-        sh.text(letter['subject'], font='hebo', gap=8)
-    sh.text(letter.get('greeting') or 'Hello,', gap=8)
-    for p in letter.get('paragraphs') or []:
-        sh.text(p, gap=8)
-    closing = letter.get('closing') or 'Kind regards,'
-    sh.need(sh.height(closing, gap=16) + sh.height(ident['name'], font='hebo', gap=1) + sh.height(ident['phone'], 9.5))  # sign-off stays in one piece
-    sh.text(closing, gap=16)
-    sh.text(ident['name'], font='hebo', gap=1)
-    sh.text(f"{ident['phone']}  ·  {ident['email']}", size=9.5, color=GREY)
-    sh.save()
-    return out
-
-
-def job_line(x):
-    return f"{x['role']}  ·  {x['employer']}  ·  {x['dates']}"
-
-
-def resume_pdf(out, lane='drafter'):
-    f = FACTS; ident = f['identity']; e = f['eligibility']; c = f['capabilities']
-    current = [x for x in f['experience'] if 'present' in x['dates'].lower()]  # the Australian job he holds now
-    past = [x for x in f['experience'] if x not in current]
-    capabilities = [
-        f"Civil design: {c['civil_design']}",
-        f"Construction support: {c['construction_support']}",
-        f"Project coordination: {c['project_coordination']}",
-        f"Technical documentation: {c['technical_documentation']}",
-        f"Stakeholder communication: {c['stakeholder_communication']}",
-        f"Software: {', '.join(c['software'])}",
-    ]
-    profile = "Civil Engineering graduate (BSCE, Philippines) with an Australian Advanced Diploma of Civil Construction Design and practical site experience in the Philippines supporting construction delivery, site coordination and quality inspections. Experienced in reviewing structural and architectural drawings, supervising site activities, maintaining progress and material records, and coordinating with engineers, subcontractors, suppliers and clients. Academic design experience includes earthworks, road geometry, pavement design and stormwater drainage. Brings a practical approach to problem-solving, accurate documentation and a strong willingness to develop under experienced civil engineers."
-    standards = 'Standards: ' + ', '.join(c['standards_coursework']) + '.  Methods: ' + ', '.join(c['methods_coursework']) + '.'
-    licences = [e['drivers_licence'], e['white_card'], e['wwcc'], e['work_rights']] + e['availability'][:2]
-    sh = Sheet(out)
-    header(sh, ident, lane)
-    sh.text(f"{e.get('work_rights_short') or e['work_rights']}  ·  {e['drivers_licence']}  ·  {e['white_card']}", size=9.4, color=GREY, gap=8)
-    sh.heading('Professional profile', room=sh.height(profile, gap=6))
-    sh.text(profile, gap=6)
-    sh.heading('Key capabilities', room=sh.height(capabilities[0], 9.8, indent=12, gap=2))
-    sh.bullets(capabilities)
-    for i, x in enumerate(current):  # listed first, under its own heading: it is not civil experience
-        sh.entry(job_line(x), x['points'], heading='Current work in Australia' if i == 0 else None)
-    for i, x in enumerate(past[:2]):
-        sh.entry(job_line(x), x['points'], heading='Relevant experience' if i == 0 else None)
-    for i, x in enumerate(f['education']):
-        sh.entry(f"{x['qualification']}  ·  {x['provider']}  ·  {x['dates']}", x['points'], heading='Education' if i == 0 else None)
-    sh.heading('Standards and methods (Advanced Diploma coursework)', room=sh.height(standards, gap=6))
-    sh.text(standards, gap=6)
-    for i, x in enumerate(past[2:]):
-        sh.entry(job_line(x), x['points'], heading='Additional professional experience' if i == 0 else None)
-    sh.heading('Licences and work eligibility', room=sh.height(licences[0], 9.8, indent=12, gap=2))
-    sh.bullets(licences)
-    strengths = ' · '.join(f['strengths'])
-    sh.heading('Professional strengths', room=sh.height(strengths, gap=6))
-    sh.text(strengths, gap=6)
-    sh.text('References: ' + f['references'].lower(), gap=4)
-    sh.save()
-    return out
+RETIRED = {
+    'resume': "compact_pdf.py resume is retired: attach documents/resume/Marc_Masarate_Resume_<Variant>.pdf for the entry's "
+              'resume_variant (Drafter, Technician or Engineer; built by resume.py build).',
+    'letter': 'compact_pdf.py letter is retired: build the cover letter with python3 letter_pdf.py ENTRY_ID OUT.pdf '
+              "(the entry's cover_letter_text under the same header as its resume).",
+}
 
 
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    sub = ap.add_subparsers(dest='cmd', required=True)
-    lanes = [k for k in FACTS['identity'].get('titles') or {} if not k.startswith('_')]
-    l = sub.add_parser('letter'); l.add_argument('draft_json'); l.add_argument('out_pdf'); l.add_argument('--lane', choices=lanes)
-    r = sub.add_parser('resume'); r.add_argument('out_pdf'); r.add_argument('--lane', choices=lanes, default='drafter')
+    ap.add_argument('cmd', choices=sorted(RETIRED))
+    ap.add_argument('rest', nargs=argparse.REMAINDER)
     a = ap.parse_args(argv)
-    if a.cmd == 'letter':
-        d = read_json(a.draft_json)
-        print(letter_pdf(d.get('letter', d), a.out_pdf, lane=a.lane or d.get('lane')))
-    else:
-        print(resume_pdf(a.out_pdf, lane=a.lane))
+    sys.exit(RETIRED[a.cmd])
 
 
 if __name__ == '__main__':

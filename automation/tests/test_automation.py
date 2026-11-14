@@ -323,17 +323,19 @@ class EmailHtmlTests(unittest.TestCase):
         self.assertIn('</a>. Thanks<br>', out)  # the full stop stays prose
         self.assertNotIn('Portfolio.<', out)
 
-    def test_compact_pdfs_carry_clickable_portfolio_link(self):
+    def test_the_letter_pdf_carries_clickable_portfolio_and_email_links(self):
         import tempfile
+        import letter_pdf
+        letter = ('Hello,\n\nI am applying for the Junior Civil Drafter role advertised on SEEK. Your advert asks for Civil 3D drawings.\n\n'
+                  'My drawings are at https://macdarenz-droid.github.io/Portfolio for you to see.\n\n'
+                  'I live in Melton and can start two weeks after an offer. Could we talk this week?\n\nMarc Masarate')
+        entry = {'id': 'x', 'lane': 'drafter', 'resume_variant': 'drafter', 'company': 'Acme', 'cover_letter_text': letter}
         with tempfile.TemporaryDirectory() as d:
-            out = compact_pdf.resume_pdf(os.path.join(d, 'r.pdf'))
+            out, _, _ = letter_pdf.build(entry, os.path.join(d, 'l.pdf'), date='14 November 2026')
             doc = compact_pdf.pymupdf.open(out)
             uris = [l['uri'] for p in doc for l in p.get_links() if l.get('kind') == compact_pdf.pymupdf.LINK_URI]
-            self.assertIn('https://macdarenz-droid.github.io/Portfolio', uris)
-            out = compact_pdf.letter_pdf({'paragraphs': ['See https://macdarenz-droid.github.io/Portfolio for drawings.']}, os.path.join(d, 'l.pdf'))
-            doc = compact_pdf.pymupdf.open(out)
-            uris = [l['uri'] for p in doc for l in p.get_links() if l.get('kind') == compact_pdf.pymupdf.LINK_URI]
-            self.assertGreaterEqual(uris.count('https://macdarenz-droid.github.io/Portfolio'), 2)
+            self.assertGreaterEqual(uris.count('https://macdarenz-droid.github.io/Portfolio'), 2)   # the header and the letter
+            self.assertIn('mailto:macdarenz@gmail.com', uris)
 
 
 class PriorOutreachTests(unittest.TestCase):

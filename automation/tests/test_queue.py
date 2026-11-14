@@ -83,6 +83,13 @@ YEARS = ['No experience', 'Less than 1 year', '1 year', '2 years', '3 years', '4
 NOTICE = ["None, I'm ready to go now", 'Less than 2 weeks', '2 weeks', '1 month', '2 months', '3 months', 'More than 3 months']
 YES_NO = ['Yes', 'No']
 RTW = 'Which of the following statements best describes your right to work in Australia?'
+# A letter that passes checks.letter_issues: a greeting line, three short paragraphs and the sign-off.
+LETTER = ('Hello,\n\n'
+          'I am applying for the Junior Civil Drafter role advertised on SEEK. Your advert asks for subdivision drawings in Civil 3D.\n\n'
+          'In the Advanced Diploma of Civil Construction Design, finished in February 2026, I designed road geometry and stormwater '
+          'drainage in AutoCAD and Civil 3D.\n\n'
+          'I live in Melton and can start two weeks after an offer. Full working rights in Australia (Subclass 485 visa), no sponsorship '
+          'needed. Could we talk this week?\n\nMarc Masarate')
 
 
 def ans(question, options=None, facts=FACTS):
@@ -97,7 +104,7 @@ def entry(n, **kw):
 
 
 def email_entry(n, **kw):
-    e = entry(n, route='EMAIL', seek_id='', url=f'https://example{n}.com.au/careers',
+    e = entry(n, route='EMAIL', seek_id='', url=f'https://example{n}.com.au/careers', cover_letter_text=LETTER,
               email={'to': f'jobs@example{n}.com.au', 'subject': 'Junior Civil Drafter', 'body': 'Hello.',
                      'evidence_url': f'https://example{n}.com.au/careers'})
     e.update(kw)
@@ -133,7 +140,7 @@ class AnswerQuestionTests(unittest.TestCase):
 
     def test_right_to_work(self):
         self.ok(ans(RTW, RIGHT_TO_WORK), 'I have a graduate temporary work visa', 'right_to_work.choose')
-        self.ok(ans(RTW), FACTS['answers']['right_to_work']['choose'], 'right_to_work.choose')
+        self.ok(ans(RTW), FACTS['answers']['right_to_work']['free_text'], 'right_to_work.free_text')   # with no options: the text to give
         without_485 = [o for o in RIGHT_TO_WORK if 'graduate' not in o]
         self.ok(ans(RTW, without_485), 'I have a temporary visa with no restrictions (e.g. doctoral student)', 'right_to_work.choose')
         self.ok(ans(RTW.replace('?', ''), RIGHT_TO_WORK), 'I have a graduate temporary work visa', 'right_to_work.choose')
@@ -143,7 +150,7 @@ class AnswerQuestionTests(unittest.TestCase):
                           'I require sponsorship to work for a new employer (e.g. 482, 457)']))
         self.no(ans(RTW, ['Graduate visa 485, sponsorship required later', "I'm an Australian citizen"]))
         self.no(ans(RTW, ['I have a family/partner visa with no restrictions', "I'm an Australian citizen"]))
-        self.no(ans('Are you legally entitled to work in Australia?', YES_NO))
+        self.no(ans('Are you legally entitled to work in Australia?', YES_NO))   # no option names his visa
         self.no(ans('Will you require visa sponsorship in the future?', YES_NO))
 
     def test_years_as_an_engineer_is_under_one_year(self):
@@ -161,12 +168,14 @@ class AnswerQuestionTests(unittest.TestCase):
         for role in ('an Estimator', 'a project coordinator', 'a Civil Engineering Technician', 'a Quality Assurance Trainee'):
             self.ok(ans(f"How many years' experience do you have as {role}?", YEARS), 'No experience', 'any other role')
         self.ok(ans("How many years' experience do you have as a civil drafter?", YEARS[1:]), 'Less than 1 year', 'designer, CAD')
-        self.assertIn('lowest option', ans("How many years' experience do you have as a civil drafter?")['answer'])
+        self.assertEqual(ans("How many years' experience do you have as a civil drafter?")['answer'], 'None: no paid role of this kind')   # free text
         self.no(ans("How many years' experience do you have as a civil drafter?", ['1 year', '2 years']))
 
     def test_years_is_not_guessed(self):
-        for text in ("How many years' experience do you have as an Engineer Graduate?",   # an engineer title outside the named ones
-                     "How many years' experience do you have as a design engineer?",
+        # facts.json -> years_of_experience: 'a graduate, junior, site, project or civil engineer title is answered from the first
+        # row', so 'Engineer Graduate' now gets the 11 months (answers.py); 'design engineer' is still not one of them.
+        self.ok(ans("How many years' experience do you have as an Engineer Graduate?", YEARS), 'Less than 1 year', 'construction industry')
+        for text in ("How many years' experience do you have as a design engineer?",
                      "How many years' experience do you have as a Technical Support Officer?",  # a job he has held
                      "How many years' experience do you have as a Console Operator?",
                      "How many years' experience do you have in your current occupation?",
@@ -204,14 +213,13 @@ class AnswerQuestionTests(unittest.TestCase):
         self.ok(ans(text, NOTICE), '2 weeks', 'notice_period')
         self.ok(ans(text), '2 weeks', 'notice_period')
         self.no(ans(text, ['None', '1 month', '2 months']))
-        self.no(ans('What is the notice period for your current employment?', NOTICE))
+        self.ok(ans('What is the notice period for your current employment?', NOTICE), '2 weeks', 'notice_period')   # any notice question
 
-    def test_salary_gives_the_rule(self):
+    def test_salary_gives_the_option_holding_the_band(self):   # S13: the rule paragraph is never the answer to a choice
         for text in ("What's your expected annual base salary?", 'What’s your expected Annual Base Salary? ', 'What is your expected annual base salary?'):
-            r = ans(text, ['$60K', '$70K', '$80K'])
-            self.assertEqual((r['status'], r['basis']), ('answered', 'answers.expected_salary.rule'))
-            self.assertIn('$65,000 to $75,000', r['answer'])
-            self.assertTrue(r['answer'].endswith('Single figure when the advert states no pay: 70000.'), r['answer'])
+            self.ok(ans(text, ['$60K', '$70K', '$80K']), '$70K', 'expected_salary.rule')
+            self.ok(ans(text), '65000 to 75000', 'expected_salary.rule')
+            self.no(ans(text, ['$80K', '$90K']))
         self.no(ans("What's your expected hourly rate?"))
         self.no(ans('Please detail your minimum salary expectations (including super):'))
 
@@ -219,10 +227,10 @@ class AnswerQuestionTests(unittest.TestCase):
         text = "Do you have a current Australian driver's licence?"
         self.ok(ans(text, YES_NO), 'Yes', 'drivers_licence')
         self.ok(ans('Do you have a current Australian driver’s licence?'), 'Yes', 'drivers_licence')
-        self.no(ans(text, ['Yes, full licence', 'Yes, probationary licence', 'No']))   # full or probationary is not confirmed
+        self.no(ans(text, ['Yes, full licence', 'Yes, probationary licence', 'No']))   # this licence line leaves full or probationary open
         self.no(ans(text, ['Yes - manual', 'Yes - automatic', 'No']))
         self.no(ans("Do you have a current Australian manual driver's licence?", YES_NO))
-        self.no(ans('Do you hold a valid driver’s license?', YES_NO))
+        self.ok(ans('Do you hold a valid driver’s license?', YES_NO), 'Yes', 'drivers_licence')   # one gate: any plain licence question
 
     def test_qualification(self):
         base = 'Have you completed a qualification in {}?'
@@ -270,7 +278,7 @@ class AnswerQuestionTests(unittest.TestCase):
         cad = 'Which of the following CAD software do you have experience with?'
         self.ok(ans(cad, ['AutoCAD', 'Revit', 'MicroStation', '12D', 'AutoCAD Civil 3D', 'Tekla', 'None of these']),
                 'AutoCAD; Revit; AutoCAD Civil 3D', 'software.CAD')
-        self.ok(ans(cad), FACTS['answers']['software']['CAD'], 'software.CAD')
+        self.ok(ans(cad), 'AutoCAD, Civil 3D, Revit', 'software.CAD')   # with no options: the names, not the rule
         self.no(ans(cad, ['12D', 'MicroStation', 'None of these']))
         office = ans('Which of the following Microsoft Office products are you experienced with?', ['Word', 'Excel', 'Outlook'])
         self.no(office)   # individual products are not confirmed
@@ -283,7 +291,6 @@ class AnswerQuestionTests(unittest.TestCase):
         for text, answer, key in (
                 ('Do you hold a Construction Induction Safety certificate (White Card)?', 'Yes', 'white_card'),
                 ('Are you willing to undergo a pre-employment medical check?', 'Yes', 'pre_employment_medical'),
-                ('Do you have a current Police Check (National Police Certificate) for employment?', 'Yes', 'police_check'),
                 ('Do you own or have regular access to a car?', 'Yes', 'own_car_or_regular_access'),
                 ('Are you willing to undergo pre-employment drug and alcohol screening?', 'Yes', 'drug_and_alcohol_screening'),
                 ('Are you currently studying?', 'No', 'currently_studying')):
@@ -291,8 +298,11 @@ class AnswerQuestionTests(unittest.TestCase):
             self.ok(ans(text), answer, key)
             self.no(ans(text, ['Maybe', 'Unsure']))
             self.no(ans(text, YES_NO, {'answers': {}}))
-        self.no(ans('Do you hold a current White Card / General Construction Induction Training Card?', YES_NO))
+        self.ok(ans('Do you hold a current White Card / General Construction Induction Training Card?', YES_NO), 'Yes', 'white_card')
+        # This police line says nothing about a check for employment or about obtaining one: both go to the owner (S1).
+        self.no(ans('Do you have a current Police Check (National Police Certificate) for employment?', YES_NO))
         self.no(ans('Are you willing to complete a Police Check?', YES_NO))
+        self.ok(ans('Do you have a current police check?', YES_NO), 'Yes', 'police_check')
 
     def test_english_rating_is_not_on_record(self):
         text = 'How would you rate your English language skills?'
@@ -304,8 +314,10 @@ class AnswerQuestionTests(unittest.TestCase):
 
     def test_unknown_questions_come_back_unanswered(self):
         for text in ('Tell us what motivated you to apply for this role?', 'Are you a current member of Engineers Australia?',
-                     'Are you willing to relocate for this role?', 'Where are you located?', '', None):
+                     'Where are you located?', '', None):   # 'Where are you located?' is free text only: no Yes/No option is his suburb
             self.no(ans(text, YES_NO))
+        self.ok(ans('Are you willing to relocate for this role?', YES_NO), 'Yes', 'willing_to_relocate')   # answers.py covers relocation
+        self.ok(ans('Where are you located?'), 'Melton VIC 3337', 'identity.location')
 
     def test_every_listed_question_against_the_real_facts_file(self):
         facts = q.read_json(SCRIPTS.parent / 'facts.json')
@@ -505,10 +517,10 @@ class NextTests(QueueCase):
             with self.assertRaises(q.NothingToDo) as r:
                 self.next(route)
             self.assertIn(why, str(r.exception))
-        letter = self.file('letter.txt', 'A new short letter.\n')
+        letter = self.file('letter.txt', LETTER + '\n')
         self.assertEqual(self.cli('letter', 'seek-1', '--file', letter)[0], 0)
         e = self.next()
-        self.assertEqual((e['cover_letter_text'], e['notes']), ('A new short letter.', 'fit 70% under the old rubric'))
+        self.assertEqual((e['cover_letter_text'], e['notes']), (LETTER, 'fit 70% under the old rubric'))
         body = self.file('email.txt', 'Hello,\nMarc\n0478 764 077\n')
         e2 = q.find(self.dir, 'seek-1')[1]['id']
         self.assertEqual(e2, 'seek-1')
@@ -521,7 +533,7 @@ class NextTests(QueueCase):
         old_body = 'I have full working rights to December 2027 on a 485 visa. ' + 'word ' * 170
         e = self.add(email_entry(1, notes='letter written under the old rules: rewrite before use',
                                  email={'to': 'jobs@example1.com.au', 'subject': 'Old subject', 'body': old_body, 'evidence_url': 'https://example1.com.au/careers'}))
-        letter, body = self.file('letter.txt', 'A new short letter.'), self.file('email.txt', 'Hello,\nMarc')
+        letter, body = self.file('letter.txt', LETTER), self.file('email.txt', 'Hello,\nMarc')
         before = (self.dir / 'open' / f"{e['id']}.json").read_text(encoding='utf-8')
         for args in (('--file', letter), ('--file', letter, '--subject', 'New subject'), ('--file', letter, '--body-file', body)):
             code, _, err = self.cli('letter', e['id'], *args)
@@ -533,7 +545,7 @@ class NextTests(QueueCase):
         self.assertIn('letter to rewrite', str(r.exception))
         self.assertEqual(self.cli('letter', e['id'], '--file', letter, '--subject', 'New subject', '--body-file', body)[0], 0)
         out = self.next('EMAIL')
-        self.assertEqual((out['email']['subject'], out['email']['body'], out['cover_letter_text']), ('New subject', 'Hello,\nMarc', 'A new short letter.'))
+        self.assertEqual((out['email']['subject'], out['email']['body'], out['cover_letter_text']), ('New subject', 'Hello,\nMarc', LETTER))
 
     def test_text_that_breaks_the_writing_rules_is_held_however_the_mark_was_cleared(self):
         long_body = 'word ' * 131
@@ -544,30 +556,33 @@ class NextTests(QueueCase):
         self.add(entry(4, cover_letter_text='word ' * 201))
         with self.assertRaises(q.NothingToDo) as r:
             self.next('EMAIL')
-        for why in ('email is 131 words (limit 130)', 'letter says "open to discussing"', 'email says "to december 2027"'):
-            self.assertIn(why, str(r.exception))
+        for why in ('email too long: 131 words (limit 130)', 'letter volunteers a limit: "open to discussing"', 'email volunteers a limit: "to december 2027"'):
+            self.assertIn(why, str(r.exception))   # checks.py's own wording: one set of rules (checks.letter_issues, email_issues)
         with self.assertRaises(q.NothingToDo) as r:
             self.next('SEEK')
-        self.assertIn('seek-4: letter is 201 words (limit 200)', str(r.exception))
-        self.add(email_entry(5, cover_letter_text='word ' * 200, email={'to': 'jobs@example5.com.au', 'subject': 's', 'body': 'word ' * 130,
-                                                                        'evidence_url': 'https://example5.com.au'}))
+        self.assertIn('seek-4: letter too long: 201 words (limit 200)', str(r.exception))
+        at_limit = '\n\n'.join(['word ' * 67, 'word ' * 67, 'word ' * 66])
+        self.add(email_entry(5, cover_letter_text=at_limit, email={'to': 'jobs@example5.com.au', 'subject': 's', 'body': 'word ' * 130,
+                                                                     'evidence_url': 'https://example5.com.au'}))
         self.assertEqual(self.next('EMAIL')['company'], 'Acme 5')   # exactly at the limits is fine
-        self.assertEqual(q.next_entry('SEEK', self.dir, {'limits': CONFIG['limits']}, NOW)['id'], 'seek-4')   # no tone rules in the config: no check
+        with self.assertRaises(q.NothingToDo):   # a config with no tone block does not switch the checks off: config.json's rules apply
+            q.next_entry('SEEK', self.dir, {'limits': CONFIG['limits']}, NOW)
 
     def test_the_letter_command_refuses_text_that_breaks_the_writing_rules(self):
         self.add(entry(1))
-        too_long, dated = self.file('long.txt', 'word ' * 201), self.file('dated.txt', 'My visa expires in December 2027.')
+        dated_text = LETTER.replace('no sponsorship needed.', 'no sponsorship needed. My visa expires in December 2027.')
+        too_long, dated = self.file('long.txt', 'word ' * 201), self.file('dated.txt', dated_text)
         code, _, err = self.cli('letter', 'seek-1', '--file', too_long)
         self.assertEqual(code, 1)
-        self.assertIn('letter is 201 words (limit 200)', err)
+        self.assertIn('letter too long: 201 words (limit 200)', err)
         code, _, err = self.cli('letter', 'seek-1', '--file', dated)
         self.assertEqual(code, 1)
-        self.assertIn('letter says "expires"', err)
+        self.assertIn('letter volunteers a limit: "expires"', err)
         self.assertEqual(q.find(self.dir, 'seek-1')[1]['cover_letter_text'], '')
         # the advert asks for the visa end date: the phrase is allowed for this entry, by name
         self.assertEqual(self.cli('letter', 'seek-1', '--file', dated, '--allow', 'Expires')[0], 0)
         e = self.next()
-        self.assertEqual((e['tone_allow'], e['cover_letter_text']), (['expires'], 'My visa expires in December 2027.'))
+        self.assertEqual((e['tone_allow'], e['cover_letter_text']), (['expires'], dated_text))
 
     def test_an_email_address_with_no_source_is_held_until_it_has_one(self):
         e = self.put(email_entry(1, email={'to': 'admin@example1.com.au', 'subject': 's', 'body': 'Hello.', 'evidence_url': ''}))
@@ -575,7 +590,7 @@ class NextTests(QueueCase):
         with self.assertRaises(q.NothingToDo) as r:
             self.next('EMAIL')
         self.assertIn('email address has no evidence_url', str(r.exception))
-        letter = self.file('letter.txt', 'A letter.')
+        letter = self.file('letter.txt', LETTER)
         self.assertEqual(self.cli('letter', e.stem, '--file', letter, '--to', 'careers@example1.com.au', '--evidence-url', 'https://example1.com.au/careers')[0], 0)
         self.assertEqual(self.next('EMAIL')['email']['to'], 'careers@example1.com.au')
 
@@ -912,98 +927,38 @@ class AnswerCommandTests(QueueCase):
     def test_a_question_seen_on_the_form_is_added_with_its_options(self):
         self.add(entry(1, questions=[RTW]))
         code, out, _ = self.cli('answer', 'seek-1', '--question', RTW, *[x for o in RIGHT_TO_WORK for x in ('--option', o)])
-        self.assertEqual(json.loads(out)['questions'][0]['answer'], 'I have a graduate temporary work visa')
-        code, out, _ = self.cli('answer', 'seek-1', '--question', 'Do you have Traffic Control experience?', '--option', 'Yes', '--option', 'No')
-        shown = json.loads(out)
-        self.assertEqual(shown['status'], 'ASK_OWNER')
-        self.assertEqual(shown['ask_owner'], 'No standing answer for this form question: Do you have Traffic Control experience? (options: Yes / No)')
-        self.assertEqual(len(shown['questions']), 2)
+        self.assertEqual((code, out), (0, 'I have a graduate temporary work visa\n'))   # the option to choose, word for word
+        self.assertEqual(q.find(self.dir, 'seek-1')[1]['questions'][0]['answer'], 'I have a graduate temporary work visa')
+        code, out, err = self.cli('answer', 'seek-1', '--question', 'Do you have Traffic Control experience?', '--option', 'Yes', '--option', 'No')
+        self.assertEqual((code, out), (5, ''))
+        self.assertIn('do not submit; leave the form', err)
+        e = q.find(self.dir, 'seek-1')[1]
+        self.assertEqual(e['status'], 'ASK_OWNER')
+        self.assertEqual(e['ask_owner'], 'No standing answer for this form question: Do you have Traffic Control experience? (options: Yes / No)')
+        self.assertEqual(len(e['questions']), 2)
         with self.assertRaises(q.NothingToDo):
             self.next()
 
-    def test_a_runner_may_set_an_answer_only_with_a_facts_key(self):
+    def test_answers_cannot_be_set_by_hand(self):   # S7: --set and --basis are gone; owner answers go into facts.json
         self.add(entry(1, questions=['Where are you located?']))
-        ask = ('answer', 'seek-1', '--question', 'Where are you located?', '--set', 'Melton VIC 3337')
-        self.assertEqual(self.cli(*ask)[0], 1)
-        self.assertEqual(self.cli(*ask, '--by', 'grok', '--basis', 'identity.suburb')[0], 1)   # no such key
-        code, out, _ = self.cli(*ask, '--by', 'grok', '--basis', 'identity.location')
-        shown = json.loads(out)
-        self.assertEqual((code, shown['status']), (0, 'OPEN'))
-        self.assertEqual(shown['questions'][0]['by'], 'grok')
-        self.assertEqual(json.loads(self.cli('answer', 'seek-1')[1])['questions'][0]['answer'], 'Melton VIC 3337')   # kept on recompute
-        moved = json.loads(json.dumps(FACTS))   # the fact changes: the old answer no longer stands and goes back to the owner
-        moved['identity']['location'] = 'Ballarat VIC 3350'
-        q.write_json(self.facts, moved)
-        self.assertEqual(self.cli('check')[0], 1)
-        shown = json.loads(self.cli('answer', 'seek-1')[1])
-        self.assertEqual((shown['status'], shown['questions'][0]['status'], 'by' in shown['questions'][0]), ('ASK_OWNER', 'unanswered', False))
-        q.write_json(self.facts, FACTS)
-        code, _, err = self.cli('answer', 'seek-1', '--question', 'Which suburb do you live in?', '--option', 'Melbourne', '--option', 'Melton',
-                                '--set', 'Melton VIC 3337', '--by', 'grok', '--basis', 'identity.location')
-        self.assertEqual(code, 1)
-        self.assertIn('must be one of the options', err)
+        for extra in (('--set', 'Melton VIC 3337'), ('--basis', 'identity.location')):
+            with self.assertRaises(SystemExit) as stop, contextlib.redirect_stderr(io.StringIO()):
+                q.main(['--dir', str(self.dir), '--config', str(self.config), '--facts', str(self.facts), '--prior', str(self.prior),
+                        'answer', 'seek-1', '--question', 'Where are you located?', *extra, '--by', 'grok'])
+            self.assertEqual(stop.exception.code, 2)
+        self.assertEqual(q.find(self.dir, 'seek-1')[1]['questions'][0]['answer'], 'Melton VIC 3337')   # the gate's own free-text answer
 
-    def set(self, question, answer, basis, *options):
-        return self.cli('answer', 'seek-1', '--question', question, *[x for o in options for x in ('--option', o)],
-                        '--set', answer, '--basis', basis, '--by', 'grok')
-
-    def test_a_set_answer_must_be_the_fact_itself(self):
-        self.add(entry(1, questions=['How many years of Road Construction experience do you have?']))
-        path = self.dir / 'open' / 'seek-1.json'
-        before = path.read_text(encoding='utf-8')
-        road = 'How many years of Road Construction experience do you have?'
-        refused = [
-            (road, '5 years', 'identity.name'),                                   # a key that has nothing to do with the answer
-            (road, '10 years', 'answers'),                                        # a whole block
-            (road, '10 years', 'answers.right_to_work'),
-            (road, '', 'identity.name'),
-            ('How would you describe your English?', 'Fluent', 'answers.english_self_rating'),   # facts.json says not on record
-            ('Do you hold a full manual licence?', 'Yes, full licence', 'answers.drivers_licence'),   # more than the fact says
-            ('What software do you use?', '12d', 'answers.software.CAD'),         # named there only as never to tick
-            ('What is your visa status?', "I'm an Australian citizen", 'answers.right_to_work.free_text'),
-            ('What is your visa status?', 'I require sponsorship', 'answers.right_to_work.free_text'),
-            ('Are you an Australian citizen or permanent resident?', 'Yes', 'answers.white_card'),   # work rights from an unrelated key
-            ('Do you have the right to work in Australia?', 'Yes', 'eligibility.work_rights'),       # no standing Yes on record
-        ]
-        for question, answer, basis in refused:
-            code, out, err = self.set(question, answer, basis)
-            self.assertEqual((code, out), (1, ''), (question, answer, basis))
-            self.assertIn('not set: ', err)
-        self.assertEqual(path.read_text(encoding='utf-8'), before)   # still ASK_OWNER, nothing written
-        self.assertEqual(q.find(self.dir, 'seek-1')[1]['status'], 'ASK_OWNER')
-
-    def test_a_listed_question_cannot_be_set_by_hand(self):
+    def test_an_answer_written_into_the_file_by_hand_does_not_survive(self):
         self.add(entry(1, questions=[RTW, 'How would you rate your English language skills?']))
-        for question, answer, basis, options in (
-                (RTW, "I'm an Australian citizen", 'answers.right_to_work.choose', ["I'm an Australian citizen", 'I have a graduate temporary work visa']),
-                (RTW, 'I have a graduate temporary work visa', 'answers.right_to_work.choose', []),
-                ('How would you rate your English language skills?', 'Fluent', 'identity.name', []),   # the owner has not answered it
-                ('Are you currently studying?', 'Yes', 'answers.white_card', ['Yes', 'No'])):
-            code, _, err = self.set(question, answer, basis, *options)
-            self.assertEqual(code, 1, question)
-            self.assertIn('one of the listed questions', err)
         e = q.find(self.dir, 'seek-1')[1]
-        self.assertEqual((e['status'], [x['status'] for x in e['questions']]), ('ASK_OWNER', ['answered', 'unanswered']))
-        # an answer written into the file by hand does not survive either
         e['questions'][1].update({'answer': 'Fluent', 'basis': 'identity.name', 'status': 'answered', 'by': 'grok'})
         q.write_json(self.dir / 'open' / 'seek-1.json', e)
         code, out, _ = self.cli('check')
         self.assertEqual(code, 1)
         self.assertIn('the answer grok set does not stand', out)
-        self.assertEqual(json.loads(self.cli('answer', 'seek-1')[1])['questions'][1]['status'], 'unanswered')
-
-    def test_set_answers_that_follow_from_the_facts_are_taken(self):
-        self.add(entry(1, questions=['Which suburb do you live in?', 'Are you willing to relocate for this role?', 'When can you start?',
-                                     'What is your visa status?', 'Do you need sponsorship?']))
-        for question, answer, basis, options in (
-                ('Which suburb do you live in?', 'Melton', 'identity.location', ['Melton', 'Melbourne']),          # part of an identity value
-                ('Are you willing to relocate for this role?', 'Yes', 'answers.willing_to_relocate', ['Yes', 'No']),   # the value starts with Yes
-                ('When can you start?', 'Can start two weeks after an offer', 'eligibility.availability', []),     # one item of a list
-                ('What is your visa status?', FACTS['answers']['right_to_work']['free_text'], 'answers.right_to_work.free_text', [])):
-            code, _, err = self.set(question, answer, basis, *options)
-            self.assertEqual(code, 0, err)
-        self.assertEqual(q.find(self.dir, 'seek-1')[1]['status'], 'ASK_OWNER')   # one question is still the owner's
-        self.assertEqual(self.set('Do you need sponsorship?', 'No sponsorship needed', 'answers.right_to_work.free_text')[0], 1)   # not the whole value
+        code, out, _ = self.cli('answer', 'seek-1')
+        self.assertEqual((code, json.loads(out)['questions'][1]['status']), (5, 'unanswered'))
+        self.assertNotIn('by', q.find(self.dir, 'seek-1')[1]['questions'][1])
         self.assertEqual(self.cli('check')[0], 0)
 
     def test_answer_does_not_write_private_details_into_the_queue(self):
@@ -1012,14 +967,14 @@ class AnswerCommandTests(QueueCase):
         before = path.read_text(encoding='utf-8')
         for args in (('--question', 'Please call 0412 345 678 to confirm?'),
                      ('--question', 'Confirm your details', '--option', 'Licence number: 012345678', '--option', 'Other'),
-                     ('--question', 'Is your date of birth: 3 March 1996?'),
-                     ('--question', 'Referee name and phone?', '--set', 'Jane Citizen 0412 345 678, Licence number: 012345678, date of birth 03/03/1996',
-                      '--basis', 'identity.name', '--by', 'grok')):
+                     ('--question', 'Is your date of birth: 3 March 1996?')):
             code, out, err = self.cli('answer', 'seek-1', *args)
             self.assertEqual((code, out), (1, ''), args)
-            self.assertTrue('privacy' in err or 'not set' in err, err)
+            self.assertIn('privacy', err)
         self.assertEqual(path.read_text(encoding='utf-8'), before)
-        self.assertEqual(self.cli('answer', 'seek-1', '--question', 'What is your date of birth? (DD/MM)')[0], 0)   # asking is not telling
+        code, _, _ = self.cli('answer', 'seek-1', '--question', 'What is your date of birth? (DD/MM)')   # asking is not telling
+        self.assertEqual(code, 5)   # stored for the owner: only he answers it
+        self.assertEqual(q.find(self.dir, 'seek-1')[1]['questions'][1]['question'], 'What is your date of birth? (DD/MM)')
 
     def test_finished_entries_are_not_changed(self):
         self.add(entry(1, questions=[RTW]))
@@ -1031,6 +986,7 @@ class AnswerCommandTests(QueueCase):
             self.assertIn('seek-1 is already APPLIED', err)
         self.add(entry(2))
         self.assertEqual(self.cli('answer', 'seek-2', '--option', 'Yes')[0], 1)   # options belong to a question
+        self.assertEqual(self.cli('answer')[0], 1)   # an entry id, or a question
 
     def test_an_owner_question_put_there_for_another_reason_stays(self):
         self.add(entry(1, status='ASK_OWNER', ask_owner='Would you enrol in an Associate Degree for this cadetship?', questions=[RTW]))
