@@ -21,7 +21,7 @@
   "evidence_url": "https://www.bpd.com.au/careers"
  },
  "questions": [],
- "status": "OPEN",
+ "status": "SKIPPED",
  "ask_owner": "",
  "attempts": [
   {
@@ -29,6 +29,12 @@
    "by": "Claude",
    "result": "reopened",
    "note": "Before sending: re-open https://www.bpd.com.au/careers (last read 21 Oct 2026) and confirm it still asks for expressions of interest at the address in email.to, and do the Gmail search of APPLY.md section 6 step 2. An earlier BPD expression of interest (tracker record of 13 Sep 2026) was prepared, never sent (PLATFORM_BLOCKED) and binned by the owner on 20 Sep 2026; his reason is not on record. The letter and email ask about junior drafting or design work: use the email subject as the letter PDF heading, not the entry's role text. Re-screened 13 Nov 2026 under lane-fit-v3: drafter lane, fit 87 (50 + 15 entry level + 12 duty overlap + 10 lane 1); the 70 in the fit field is the old rubric."
+  },
+  {
+   "at": "2026-11-14T02:29:40Z",
+   "by": "Claude",
+   "result": "skipped",
+   "note": "The owner put an earlier Breese Pitt Dixon enquiry in the tracker Bin on 20 Sep 2026; do not contact this employer without his say-so."
   }
  ],
  "receipt": {},

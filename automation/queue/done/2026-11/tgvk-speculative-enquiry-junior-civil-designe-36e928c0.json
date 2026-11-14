@@ -21,7 +21,7 @@
   "evidence_url": "https://www.tgvk.com.au/careers/"
  },
  "questions": [],
- "status": "OPEN",
+ "status": "SKIPPED",
  "ask_owner": "",
  "attempts": [
   {
@@ -29,6 +29,12 @@
    "by": "Claude",
    "result": "reopened",
    "note": "BEFORE SENDING: open https://www.tgvk.com.au/careers/ on the live site and confirm it still invites a CV and a formal cover letter to the address in email.to. The saved page text (runs/20261020T2317Z/extra/tgvk-spec-20261021.json) was read from a Wayback Machine copy of unknown date on 21 Oct 2026, because the live site returned a firewall error. If the live page cannot be opened or no longer says this: mark skipped, do not send. Re-screened 13 Nov 2026 under lane-fit-v3: drafter lane, fit 70 (50 + 0 entry level + 10 duty overlap + 10 lane 1); the 62 in the fit field is the old rubric. Lowest priority of the speculative emails."
+  },
+  {
+   "at": "2026-11-14T02:29:40Z",
+   "by": "Claude",
+   "result": "skipped",
+   "note": "Speculative enquiry whose only evidence that TGVK invites CVs is an archived copy of its careers page of unknown date; the live site was unreachable. Re-add only if the live careers page invites enquiries."
   }
  ],
  "receipt": {},

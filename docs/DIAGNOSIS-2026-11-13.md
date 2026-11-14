@@ -24,8 +24,7 @@ submissions is a floor. Corrections made by the checkers are already applied bel
 **B. Applications that were submitted earlier did not convert.** The receipt list holds 142
 applications from February to 20 October (70 in July, 21 in August, 35 in September, 7 in
 October), and at least six more are known from other records. 27 rejections are recorded and
-no interview. The list cannot say who pressed submit: some are credited to Jeremie, and 15 in
-a row on 24 to 26 September arrived about two hours apart through the night.
+no interview. The list cannot say who pressed submit: some are credited to Jeremie.
 
 ## 2. Causes, in order of confidence
 

@@ -386,7 +386,8 @@
     "daterange": 7
    }
   ],
-  "_removed": "target_new_records_min, max_new_records_per_run, max_emails_per_run, contact_research_max_per_run and the 14-day widening step (13 Nov 2026)."
+  "_removed": "target_new_records_min, max_new_records_per_run, max_emails_per_run, contact_research_max_per_run and the 14-day widening step (13 Nov 2026).",
+  "quiet_hours": "21:00-07:00"
  },
  "tone": {
   "max_email_words": 130,
@@ -511,12 +512,9 @@
  "sending": {
   "channel": "Gmail (the owner's own address) through the Gmail connector of the runner named in automation/APPLY.md as email sender; no other channel is allowed",
   "authority": "Owner, 13 Nov 2026: email applications are sent automatically, without per-email approval, inside the daily cap.",
-  "lock": "automation/queue/SEND_LOCK.json in this repo, taken by a pushed commit (automation/APPLY.md). The 'shared canonical journal lease' is retired: it was never reachable by the runners and blocked every send for six weeks.",
-  "state_before_send": "PREPARED_NOT_SENT",
-  "lease_status": "SENDING",
-  "after_send": "SENT",
-  "ambiguous": "SEND_UNCERTAIN",
-  "bounced": "DELIVERY_FAILED"
+  "lock": "automation/queue/SEND_LOCK.json through 'queue.py lock take' and 'queue.py lock release', committed and pushed before the send (automation/APPLY.md section 6).",
+  "queue_statuses": "OPEN (waiting), ASK_OWNER (needs one answer), UNCERTAIN (unknown whether it went: never retried until checked), APPLIED (receipt recorded), SKIPPED, EXPIRED, FAILED. A sent email is APPLIED with receipt kind gmail_message_id.",
+  "tracker_statuses": "Tracker records made before 13 Nov 2026 use PREPARED_NOT_SENT, SENDING, SENT, SEND_UNCERTAIN and DELIVERY_FAILED; read them as history."
  },
  "target_employers": {
   "_note": "Employer names only. The tick resolves careers pages with WebSearch/WebFetch and caches what it verified in automation/employers.json. Small and mid-sized civil firms first: they read direct email.",
@@ -626,17 +624,17 @@
  ],
  "_budget": "Fewest agents that give the same result: one sweep agent, one screening agent, one reviewer for anything that will be sent or submitted. No contact-research fan-out. No panels.",
  "lanes": {
-  "_about": "Owner rule, 13 Nov 2026: apply only for work that is skilled work his qualifications support. Lane order is queue order. The duties decide the lane, not the title: read the advert.",
+  "_about": "Owner, 13 Nov 2026: apply only for work his qualifications support. Lane order is queue order. The duties decide the lane, not the title: read the advert.",
   "drafter": {
    "rank": 1,
    "resume": "drafter",
-   "what": "Civil drafting and design under an engineer: civil drafter, draftsperson, civil designer, road, drainage, stormwater, subdivision or land-development designer, CAD or Civil 3D technician, structural drafter. Junior, trainee and cadet versions first. This is the occupation the Advanced Diploma is coded to (Civil Engineering Draftsperson, ANZSCO 312211).",
+   "what": "Civil drafting and design under an engineer: civil drafter, draftsperson, civil designer, road, drainage, stormwater, subdivision or land-development designer, CAD or Civil 3D technician, structural drafter. Junior, trainee and cadet versions first. This is the work the Advanced Diploma of Civil Construction Design trains for.",
    "not": "Steel shop detailing, truss detailing, joinery, kitchen, architectural-only or mechanical drafting."
   },
   "technician": {
    "rank": 2,
    "resume": "technician",
-   "what": "Civil engineering technician work: construction materials testing (soil, concrete, asphalt, aggregates), civil or geotechnical laboratory and field technician, civil engineering assistant, engineering technical officer whose duties are testing, inspection or design support (Civil Engineering Technician, ANZSCO 312212). Entry-level and trainee adverts are common here.",
+   "what": "Civil engineering technician work: construction materials testing (soil, concrete, asphalt, aggregates), civil or geotechnical laboratory and field technician, civil engineering assistant, engineering technical officer whose duties are testing, inspection or design support. Entry-level and trainee adverts are common here.",
    "not": "Medical, pathology, food, water-chemistry or environmental-science laboratories; mine geology sampling."
   },
   "engineer": {
@@ -658,7 +656,7 @@
     "student, intern, vacation or undergraduate roles",
     "graduate programs"
    ],
-   "why": "Owner, 13 Nov 2026: a stepping-stone job only if it is skilled work his Advanced Diploma supports. Labouring, traffic control, survey-assistant and clerical roles are not; estimator and project coordinator are different occupations. The owner can re-open a family by saying so."
+   "why": "Owner, 13 Nov 2026: only skilled work his qualifications support. Labouring, traffic control, survey-assistant and clerical roles are out; estimator and project coordinator are different occupations. The owner can re-open a family by saying so."
   }
  },
  "sweep_rotation_note": "One sweep agent per daily tick on the rotation: (1) national and local construction materials testing and geotechnical firms' careers pages, (2) land-development and civil design consultancies and subdivision contractors, (3) council and state agency job boards for technical, design and asset officer roles. Read duties before queueing.",

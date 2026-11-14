@@ -39,7 +39,7 @@ to a role: a duty that is not in `facts.json` is not typed into SEEK.
 
 ```text
 Job title: Console Operator (casual)
-Company: bp Rockbank Inbound (operated by Rampage Group), Rockbank VIC
+Company: bp service station (Rampage Group), Melbourne VIC
 Started: May 2024
 Ended: present
 - Customer service and console operation at a service station, held alongside full-time study in the Advanced Diploma

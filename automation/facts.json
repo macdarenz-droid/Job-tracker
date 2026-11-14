@@ -1,5 +1,5 @@
 {
- "_source": "Portfolio resume.html (macdarenz-droid/Portfolio) and Portfolio docs/DECISIONS.md, read 28 Sep 2026; owner answers of 13 Nov 2026 (Australian work, notice, salary band, police check, relocation, diploma dates) and two facts the owner asked to be looked up in his own Gmail the same day (BP start month, licence emails). Every claim in an application must trace to a line here. Nothing else may be claimed.",
+ "_source": "Portfolio resume.html (macdarenz-droid/Portfolio) and Portfolio docs/DECISIONS.md, read 28 Sep 2026, and the owner's answers of 13 Nov 2026. Every claim in an application must trace to a line here. Nothing else may be claimed.",
  "identity": {
   "name": "Marc Darenz Masarate",
   "short_name": "Marc",
@@ -30,8 +30,8 @@
   "relocation": "Owner, 13 Nov 2026: will take a job anywhere in Australia. For a role outside daily travel distance of Melton VIC, applications say 'I will relocate to <city or region> for this role and can start two weeks after an offer.' Do not promise who pays for the move.",
   "work_rights_short": "Full working rights in Australia (Subclass 485 visa), no sponsorship needed",
   "work_rights_rule": "Headers, emails and letters use work_rights_short. The end date is given in the resume's eligibility section, in form answers that ask about work rights, and in a letter only when the advert asks about visa or residency. Never claim citizenship or permanent residency.",
-  "drivers_licence_detail": "Full Victorian licence (owner, 13 Nov 2026: 'it's full now'). Transmission: the owner believes automatic only; not checked against the card. Never claim a manual licence.",
-  "police_check": "Holds an AFP National Police Check certificate issued in March 2026 (application received 19 March 2026; certificate forwarded 23 March 2026; found in his Gmail at his request on 13 Nov 2026). It was obtained for his visa. Treat it as current until March 2027; after that the answer is 'willing to obtain one'. Some employers ask for a check issued for employment or within the last 3 to 6 months: he is willing to get a new one.",
+  "drivers_licence_detail": "Full Victorian licence (owner, 13 Nov 2026). Transmission: automatic only, as far as the owner knows. Never claim a manual licence.",
+  "police_check": "Holds an AFP National Police Check certificate issued in March 2026. It was not issued for an employer. Treat it as current until March 2027; after that, say he is willing to obtain a new one.",
   "medical_and_drug_tests": "Willing to do pre-employment medical and drug and alcohol tests (owner, 13 Nov 2026)",
   "notice_period": "2 weeks (owner, 13 Nov 2026)"
  },
@@ -62,9 +62,9 @@
  "experience": [
   {
    "role": "Console Operator (casual)",
-   "employer": "bp Rockbank Inbound (operated by Rampage Group), Rockbank VIC",
+   "employer": "bp service station (Rampage Group), Melbourne VIC",
    "dates": "May 2024 – present",
-   "basis": "Casual, under 20 hours a week (owner, 13 Nov 2026). Start month from the employer's welcome and letter-of-offer emails of May 2024.",
+   "basis": "Casual, under 20 hours a week (owner, 13 Nov 2026).",
    "points": [
     "Customer service and console operation at a service station, held alongside full-time study in the Advanced Diploma"
    ],
@@ -193,7 +193,7 @@
   "drivers_licence": "Yes, full Victorian driver's licence. If the form asks manual or automatic: automatic. Never tick manual.",
   "own_car_or_regular_access": "Yes",
   "white_card": "Yes",
-  "police_check": "Yes (AFP National Police Check certificate, March 2026). If the form asks for the issue date: March 2026. If it asks whether it was issued for employment, or within the last 3 or 6 months: answer truthfully (No) and add, where free text is offered, 'Willing to obtain a new check.' From March 2027 the answer becomes: No, willing to obtain one.",
+  "police_check": "Yes, he holds an AFP National Police Check certificate issued in March 2026. If the form asks for the issue date: March 2026. If it asks whether the check was issued for employment, or within the last 3 or 6 months: No, and where free text is offered: 'Willing to obtain a new check.' From March 2027 the answer to any police check question becomes: No, willing to obtain one.",
   "pre_employment_medical": "Yes",
   "drug_and_alcohol_screening": "Yes",
   "currently_studying": "No",
