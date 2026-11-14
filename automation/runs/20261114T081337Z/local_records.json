@@ -1,0 +1,195 @@
+[
+ {
+  "id": "931339f9-2f24-4fb8-a1b9-f458668fcd13",
+  "key": "manual:931339f9-2f24-4fb8-a1b9-f458668fcd13",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261114T081337Z",
+  "created_at": "2026-11-14T08:22:31.000Z",
+  "updated_at": "2026-11-14T08:22:31.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_WSP_Laboratory_Technician_in_Training_Cover_Letter.pdf",
+    "sha256": "b50379a5e87b545df4b8a7ba688d2fab07b0224d60c03450f60f18230b5f3900",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Resume_Technician.pdf",
+    "sha256": "807df87cf1633af1c503dbdb73f81d1672b3ae98831567eaf833d849d1b003a8",
+    "stored_in": "local:/workspace/job-finds",
+    "note": "lane resume built by resume.py from facts.json"
+   }
+  ],
+  "company": "WSP",
+  "role": "Laboratory Technician in Training",
+  "location": "Malaga WA (Perth)",
+  "job_url": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/96985",
+  "company_url": "https://www.wsp.com/en-au/",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_EMPLOYER_PORTAL_AND_LINKEDIN",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/96985",
+  "contact_verified_at": "2026-11-14T08:22:31.000Z",
+  "contact_confidence": "none",
+  "subject": "Laboratory Technician in Training, Malaga WA (WSP job 96985)",
+  "email_body": "",
+  "fit": [
+   "Technician lane (rank 2): WSP's National Technical Contracting geotechnical laboratories (NATA accredited) want Trainee, Junior and Intermediate laboratory technicians; the trainee role prepares and tests soil, rock, aggregate and concrete samples under supervision, maintains equipment, handles samples, joins site visits and keeps records.",
+   "Essentials are high school mathematics, a driver's licence and the ability to obtain a White Card and first aid; Certificate III in Laboratory Techniques is advantageous, not required. Marc has a White Card, a full Victorian licence, AS 1726 and AS 1289 coursework in the Advanced Diploma, a BSCE, and 2019 to 2020 site inspection, quality check and material record work.",
+   "Entry level with structured training and funded qualifications; fit scored with lane-fit-v3 (50 + entry level 25 + duty overlap 5 + lane 2 bonus 10, rounded down to 80 for the relocation to Perth)."
+  ],
+  "gaps": [
+   "No paid laboratory testing experience (coursework only)",
+   "No Certificate III in Laboratory Techniques (advantageous only)",
+   "No first aid certificate on record (ability to obtain is what the advert asks)",
+   "Relocation to Perth needed"
+  ],
+  "match_score": {
+   "percent": 80,
+   "method": "lane-fit-v3",
+   "rationale": [
+    "Technician lane (rank 2): WSP's National Technical Contracting geotechnical laboratories (NATA accredited) want Trainee, Junior and Intermediate laboratory technicians; the trainee role prepares and tests soil, rock, aggregate and concrete samples under supervision, maintains equipment, handles samples, joins site visits and keeps records.",
+    "Essentials are high school mathematics, a driver's licence and the ability to obtain a White Card and first aid; Certificate III in Laboratory Techniques is advantageous, not required. Marc has a White Card, a full Victorian licence, AS 1726 and AS 1289 coursework in the Advanced Diploma, a BSCE, and 2019 to 2020 site inspection, quality check and material record work.",
+    "Entry level with structured training and funded qualifications; fit scored with lane-fit-v3 (50 + entry level 25 + duty overlap 5 + lane 2 bonus 10, rounded down to 80 for the relocation to Perth)."
+   ],
+   "caution": "Malaga WA means relocating to Perth (facts.json: will relocate anywhere in Australia). The Oracle form questions were not visible without starting an application; any work-rights option that is not the Subclass 485 or unrestricted temporary visa option, or any future sponsorship question: stop and ask Marc. Posted 19 Oct 2026 with no closing date, reposted on LinkedIn 9 Nov 2026."
+  },
+  "advert": {
+   "source": "linkedin+employer_portal",
+   "listed_at": "2026-10-19",
+   "expires_at": "",
+   "verified_at": "2026-11-14T08:22:31.000Z",
+   "apply_instructions": "Apply on WSP's careers portal (Oracle): https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/96985 (ref 218_652203_96985; also LinkedIn https://au.linkedin.com/jobs/view/4480945366). Attach the cover letter and the technician resume in this folder. Nothing was submitted.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Search Gmail in:anywhere for WSP before acting (Gmail was not reachable on this tick)",
+   "Apply on the WSP portal link with the cover letter and technician resume in this folder",
+   "Answer right to work with the Subclass 485 option; notice 2 weeks; relocate yes; any question not in facts.json answers: stop and ask Marc",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nTick 20261114T081337Z: open web first: LinkedIn guest listings Australia wide (20 keywords last 2 days, 194 listings; 16 more keywords last 7 days for CMT, geotechnical, council and land development roles), filtered against earlier runs' LinkedIn files, tracker, job finds, queue and journal; web searches for junior civil drafting roles with email applications and Victorian council engineering roles; employer careers pages (Langtree, ESQ, WSP Oracle portal, Blacktown and Northern Beaches council postings). SEEK 3 day sweep (1175 seen, 230 prefilter, 60 details; 8 never seen) and widened 7 day sweep (1664 seen, 379 prefilter, 60 details; 1 never seen); none of those 9 kept. Found on the open web first: LinkedIn guest job listings (keyword 'materials testing technician', last 7 days) showed WSP 'Laboratory Technician in Training' (LinkedIn 4480945366, posted 9 Nov 2026); a web search and WSP's Oracle careers API confirmed the live requisition (job 96985, Malaga WA, posted 19 Oct 2026, no end date). Never in the tracker, job finds, queue or run history. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for this employer before acting. Dedupe: not in the tracker (tracker.py check), /workspace/job-finds, prior_outreach.json, the queue, earlier run files or the journal. Cover letter drafted from facts.json only (three paragraphs, under 200 words); checks.py draft and facts OK; letter rendered with letter_pdf.py (1 page, read back); attached resume is the current lane resume from documents/resume (resume.py build, 2 pages), because compact_pdf.py was retired on 14 Nov 2026. Status READY_JEREMIE_EMPLOYER_PORTAL: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Lab experience? → Coursework applying AS 1726 and AS 1289 in the Advanced Diploma (Feb 2026); site inspections and quality checks in the Philippines 2019 to 2020.\n• Move to Perth? → Yes, will relocate; can start two weeks after an offer.\n• Licence? → Full Victorian driver's licence, automatic, own transport; White Card held.\n• Work rights? → Subclass 485, full working rights until December 2027, no sponsorship needed.\n• Start? → Two weeks after an offer.",
+  "how_found": "Tick 20261114T081337Z: open web first: LinkedIn guest listings Australia wide (20 keywords last 2 days, 194 listings; 16 more keywords last 7 days for CMT, geotechnical, council and land development roles), filtered against earlier runs' LinkedIn files, tracker, job finds, queue and journal; web searches for junior civil drafting roles with email applications and Victorian council engineering roles; employer careers pages (Langtree, ESQ, WSP Oracle portal, Blacktown and Northern Beaches council postings). SEEK 3 day sweep (1175 seen, 230 prefilter, 60 details; 8 never seen) and widened 7 day sweep (1664 seen, 379 prefilter, 60 details; 1 never seen); none of those 9 kept. Found on the open web first: LinkedIn guest job listings (keyword 'materials testing technician', last 7 days) showed WSP 'Laboratory Technician in Training' (LinkedIn 4480945366, posted 9 Nov 2026); a web search and WSP's Oracle careers API confirmed the live requisition (job 96985, Malaga WA, posted 19 Oct 2026, no end date). Never in the tracker, job finds, queue or run history. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for this employer before acting. Dedupe: not in the tracker (tracker.py check), /workspace/job-finds, prior_outreach.json, the queue, earlier run files or the journal. Cover letter drafted from facts.json only (three paragraphs, under 200 words); checks.py draft and facts OK; letter rendered with letter_pdf.py (1 page, read back); attached resume is the current lane resume from documents/resume (resume.py build, 2 pages), because compact_pdf.py was retired on 14 Nov 2026. Status READY_JEREMIE_EMPLOYER_PORTAL: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Lab experience? → Coursework applying AS 1726 and AS 1289 in the Advanced Diploma (Feb 2026); site inspections and quality checks in the Philippines 2019 to 2020.",
+   "Move to Perth? → Yes, will relocate; can start two weeks after an offer.",
+   "Licence? → Full Victorian driver's licence, automatic, own transport; White Card held.",
+   "Work rights? → Subclass 485, full working rights until December 2027, no sponsorship needed.",
+   "Start? → Two weeks after an offer."
+  ],
+  "checked_at": "2026-11-14T08:22:31.000Z",
+  "seek_id": null,
+  "duplicate_key": "wsp|laboratory technician in training",
+  "preparation_only": true,
+  "found_at": "2026-11-14T19:22+11:00 AEDT",
+  "cover_letter_text": "Hello,\n\nI am applying for the Laboratory Technician in Training role with WSP's geotechnical laboratory team in Malaga. Preparing and testing soil, rock, aggregate and concrete samples under supervision, to the relevant standards in a NATA-accredited laboratory, is the technical work I want to build my career in.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design in Australia, where my coursework applied AS 1726 and AS 1289 and covered earthworks and pavement systems. I also hold a Bachelor of Science in Civil Engineering (Philippines, 2019), where I studied construction methods, structural principles and hydraulics.\n\nFrom 2019 to 2020 I worked on site in the Philippines as a project-in-charge engineer and then a field engineer. I carried out site inspections and quality checks, and prepared site reports, material records and progress reports. I hold a White Card and a full Victorian driver's licence, and I work carefully with strong attention to detail.\n\nKind regards,\nMarc Masarate",
+  "relocation_line": "I will relocate to Perth for this role and can start two weeks after an offer."
+ },
+ {
+  "id": "7d1188c7-a0cd-4cf5-b790-0b9bf0faed93",
+  "key": "manual:7d1188c7-a0cd-4cf5-b790-0b9bf0faed93",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261114T081337Z",
+  "created_at": "2026-11-14T08:22:31.000Z",
+  "updated_at": "2026-11-14T08:22:31.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Langtree_Consulting_Junior_Civil_Drafter_Cover_Letter.pdf",
+    "sha256": "3ee9bb0320a78145d82451451b7ff6e4d13b3841fa9e87accf1ef13ed5d63c97",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Resume_Drafter.pdf",
+    "sha256": "704f2b9c5ca673a56f0fa7c6ddd7e295e826622112687b343019e49c5196c7e9",
+    "stored_in": "local:/workspace/job-finds",
+    "note": "lane resume built by resume.py from facts.json"
+   }
+  ],
+  "company": "Langtree Consulting",
+  "role": "Speculative enquiry: junior civil drafter",
+  "location": "West End, Townsville QLD",
+  "job_url": "https://www.langtreeconsulting.com.au/careers",
+  "company_url": "https://www.langtreeconsulting.com.au/",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "SPECULATIVE_ENQUIRY",
+  "vacancy_status": "OPEN_CAREERS_EOI_NO_SPECIFIC_ADVERT",
+  "application_route": "EMAIL",
+  "application_method": "Email",
+  "recipient_name": "",
+  "recipient_role": "HR",
+  "recipient_email": "hr@langtreeconsulting.com.au",
+  "contact_email": "hr@langtreeconsulting.com.au",
+  "contact_evidence_url": "https://www.langtreeconsulting.com.au/careers",
+  "contact_verified_at": "2026-11-14T08:22:31.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Junior civil drafter enquiry, Marc Masarate",
+  "email_body": "Hello,\n\nYour careers page invites CVs at this address, and your Civil Drafter page describes drainage, earthworks and road design under a senior mentor in Townsville. Do you have room for a junior civil drafter?\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, documenting road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D. I also hold a Bachelor of Science in Civil Engineering (Philippines, 2019) and worked on site there from 2019 to 2020 as a field engineer.\n\nI have full working rights in Australia (Subclass 485 visa), no sponsorship needed. I will relocate to Townsville for this role and can start two weeks after an offer. My resume and cover letter are attached.\n\nKind regards,\nMarc Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "Drafter lane (rank 1): Langtree Consulting Engineers (Townsville, established 2016) does civil design for councils, developers and contractors across North and Central Queensland. Its Civil Drafter page (junior to intermediate, under a Senior Mentor) covers property and development drainage assessment, earthworks and road design, flood assessment and site drainage.",
+   "That page's essentials are a recently completed Associate Degree in Civil Engineering 'or similar relevant qualification' and practical use of 12D or Civil 3D and AutoCAD; Marc's Advanced Diploma of Civil Construction Design (Feb 2026, Civil 3D and AutoCAD, roads, earthworks, stormwater) matches.",
+   "No dated advert is open (SEEK ads from 2025 expired; the careers page now lists Senior/Principal, mid-senior Civil Designer and Graduate Civil Engineer and asks for a cover letter and CV to hr@langtreeconsulting.com.au), so this is a clearly labelled speculative enquiry to the address the careers page publishes."
+  ],
+  "gaps": [
+   "No commercial drafting experience (coursework only)",
+   "12D not on record (Civil 3D accepted as the alternative)",
+   "No Australian land development project experience (desirable)",
+   "Relocation to Townsville needed"
+  ],
+  "match_score": {
+   "percent": 66,
+   "method": "lane-fit-v3",
+   "rationale": [
+    "Drafter lane (rank 1): Langtree Consulting Engineers (Townsville, established 2016) does civil design for councils, developers and contractors across North and Central Queensland. Its Civil Drafter page (junior to intermediate, under a Senior Mentor) covers property and development drainage assessment, earthworks and road design, flood assessment and site drainage.",
+    "That page's essentials are a recently completed Associate Degree in Civil Engineering 'or similar relevant qualification' and practical use of 12D or Civil 3D and AutoCAD; Marc's Advanced Diploma of Civil Construction Design (Feb 2026, Civil 3D and AutoCAD, roads, earthworks, stormwater) matches.",
+    "No dated advert is open (SEEK ads from 2025 expired; the careers page now lists Senior/Principal, mid-senior Civil Designer and Graduate Civil Engineer and asks for a cover letter and CV to hr@langtreeconsulting.com.au), so this is a clearly labelled speculative enquiry to the address the careers page publishes."
+   ],
+   "caution": "Speculative: no specific open junior drafter vacancy is dated; the Civil Drafter page is undated. Townsville means relocation (facts.json: will relocate anywhere). The Civil Drafter page says 'whilst undertaking or completing study' and offers study flexibility; Marc has completed his diploma, which the page also accepts ('recently completed')."
+  },
+  "advert": {
+   "source": "open_web",
+   "listed_at": "",
+   "expires_at": "",
+   "verified_at": "2026-11-14T08:22:31.000Z",
+   "apply_instructions": "Speculative email to hr@langtreeconsulting.com.au, the address the careers page (https://www.langtreeconsulting.com.au/careers) gives for cover letters and CVs, with the cover letter and drafter resume attached. Nothing was sent.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Search Gmail in:anywhere for Langtree Consulting before acting (Gmail was not reachable on this tick)",
+   "Send the email in draft.json from macdarenz@gmail.com to hr@langtreeconsulting.com.au with the cover letter and drafter resume attached",
+   "Record the send date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nNo advertised vacancy is open; this is a speculative enquiry. Tick 20261114T081337Z: open web first: LinkedIn guest listings Australia wide (20 keywords last 2 days, 194 listings; 16 more keywords last 7 days for CMT, geotechnical, council and land development roles), filtered against earlier runs' LinkedIn files, tracker, job finds, queue and journal; web searches for junior civil drafting roles with email applications and Victorian council engineering roles; employer careers pages (Langtree, ESQ, WSP Oracle portal, Blacktown and Northern Beaches council postings). SEEK 3 day sweep (1175 seen, 230 prefilter, 60 details; 8 never seen) and widened 7 day sweep (1664 seen, 379 prefilter, 60 details; 1 never seen); none of those 9 kept. Found on the open web: a web search for junior civil drafter roles with email applications surfaced Langtree Consulting's Civil Drafter page; careers, graduate program and About pages read; SEEK checked for the advertiser (last adverts 2025, expired). Never in the tracker, job finds, queue or run history. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for this employer before acting. Dedupe: not in the tracker (tracker.py check), /workspace/job-finds, prior_outreach.json, the queue, earlier run files or the journal. Cover letter drafted from facts.json only (three paragraphs, under 200 words); checks.py draft and facts OK; letter rendered with letter_pdf.py (1 page, read back); attached resume is the current lane resume from documents/resume (resume.py build, 2 pages), because compact_pdf.py was retired on 14 Nov 2026. Status PREPARED_NOT_SENT: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Drafting experience? → Advanced Diploma coursework (Feb 2026): road geometry, earthworks, pavement, stormwater drainage in Civil 3D and AutoCAD.\n• 12D? → Trained in Civil 3D and AutoCAD.\n• Move to Townsville? → Yes, will relocate; can start two weeks after an offer.\n• Work rights? → Subclass 485, full working rights until December 2027, no sponsorship needed.\n• Start? → Two weeks after an offer.",
+  "how_found": "No advertised vacancy is open; this is a speculative enquiry. Tick 20261114T081337Z: open web first: LinkedIn guest listings Australia wide (20 keywords last 2 days, 194 listings; 16 more keywords last 7 days for CMT, geotechnical, council and land development roles), filtered against earlier runs' LinkedIn files, tracker, job finds, queue and journal; web searches for junior civil drafting roles with email applications and Victorian council engineering roles; employer careers pages (Langtree, ESQ, WSP Oracle portal, Blacktown and Northern Beaches council postings). SEEK 3 day sweep (1175 seen, 230 prefilter, 60 details; 8 never seen) and widened 7 day sweep (1664 seen, 379 prefilter, 60 details; 1 never seen); none of those 9 kept. Found on the open web: a web search for junior civil drafter roles with email applications surfaced Langtree Consulting's Civil Drafter page; careers, graduate program and About pages read; SEEK checked for the advertiser (last adverts 2025, expired). Never in the tracker, job finds, queue or run history. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for this employer before acting. Dedupe: not in the tracker (tracker.py check), /workspace/job-finds, prior_outreach.json, the queue, earlier run files or the journal. Cover letter drafted from facts.json only (three paragraphs, under 200 words); checks.py draft and facts OK; letter rendered with letter_pdf.py (1 page, read back); attached resume is the current lane resume from documents/resume (resume.py build, 2 pages), because compact_pdf.py was retired on 14 Nov 2026. Status PREPARED_NOT_SENT: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Drafting experience? → Advanced Diploma coursework (Feb 2026): road geometry, earthworks, pavement, stormwater drainage in Civil 3D and AutoCAD.",
+   "12D? → Trained in Civil 3D and AutoCAD.",
+   "Move to Townsville? → Yes, will relocate; can start two weeks after an offer.",
+   "Work rights? → Subclass 485, full working rights until December 2027, no sponsorship needed.",
+   "Start? → Two weeks after an offer."
+  ],
+  "checked_at": "2026-11-14T08:22:31.000Z",
+  "seek_id": null,
+  "duplicate_key": "langtree consulting|speculative enquiry: junior civil drafter",
+  "preparation_only": true,
+  "found_at": "2026-11-14T19:22+11:00 AEDT",
+  "cover_letter_text": "Hello,\n\nI am writing to ask whether Langtree Consulting has room for a junior civil drafter in its Townsville civil design team. Your careers page describes drafting for property drainage assessments and the civil design of earthworks and roads under a senior mentor, which is the work my studies prepared me for.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design in Australia. I designed and documented road geometry, earthworks, pavement systems and stormwater drainage, and prepared and reviewed technical drawings in AutoCAD and Civil 3D, applying Australian Standards. I also hold a Bachelor of Science in Civil Engineering (Philippines, 2019).\n\nFrom 2019 to 2020 I worked on site in the Philippines as a project-in-charge engineer and then a field engineer, reviewing structural and architectural drawings, carrying out inspections and quality checks, and preparing site and progress reports. I have full working rights in Australia (Subclass 485 visa), no sponsorship needed.\n\nKind regards,\nMarc Masarate",
+  "relocation_line": "I will relocate to Townsville for this role and can start two weeks after an offer."
+ }
+]

@@ -1,0 +1,22 @@
+{
+ "lane": "technician",
+ "route": "EMPLOYER_PORTAL",
+ "application_type": "ADVERTISED_VACANCY",
+ "company": "WSP",
+ "role": "Laboratory Technician in Training",
+ "title": "Laboratory Technician in Training",
+ "url": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/96985",
+ "location": "Malaga WA (Perth)",
+ "listed_at": "2026-10-19",
+ "fit": 80,
+ "resume_variant": "technician",
+ "relocation_line": "I will relocate to Perth for this role and can start two weeks after an offer.",
+ "advert_pay": "not stated",
+ "cover_letter_text": "Hello,\n\nI am applying for the Laboratory Technician in Training role with WSP's geotechnical laboratory team in Malaga. Preparing and testing soil, rock, aggregate and concrete samples under supervision, to the relevant standards in a NATA-accredited laboratory, is the technical work I want to build my career in.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design in Australia, where my coursework applied AS 1726 and AS 1289 and covered earthworks and pavement systems. I also hold a Bachelor of Science in Civil Engineering (Philippines, 2019), where I studied construction methods, structural principles and hydraulics.\n\nFrom 2019 to 2020 I worked on site in the Philippines as a project-in-charge engineer and then a field engineer. I carried out site inspections and quality checks, and prepared site reports, material records and progress reports. I hold a White Card and a full Victorian driver's licence, and I work carefully with strong attention to detail.\n\nKind regards,\nMarc Masarate",
+ "source_run": "20261114T081337Z",
+ "verify_before_submit": [
+  "Search Gmail for WSP and 'Laboratory Technician in Training' receipts first",
+  "Read the WSP Oracle form questions; any work-rights or other question not covered by facts.json answers: stop and ask Marc"
+ ],
+ "notes": "LinkedIn 4480945366 (reposted 9 Nov 2026); WSP careers job 96985, ref 218_652203_96985, posted 19 Oct 2026, no closing date."
+}
