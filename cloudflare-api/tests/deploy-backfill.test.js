@@ -70,12 +70,29 @@ test('when the Worker refuses the copy the step fails and the tracker is still t
     const before = ctx.db.prepare('SELECT version, payload FROM tracker_state WHERE id = 1').get();
     const result = await run('backfill', server);
     assert.equal(result.status, 1);
-    assert.match(quiet(result.stderr), /did not happen \(HTTP 400: a record in the document cannot be copied as it is.*still the single document and serves as before/);
+    assert.match(quiet(result.stderr), /answered HTTP 400: a record in the document cannot be copied as it is.*\. The copy did not happen: the tracker is still the single document and serves as before/);
     assert.equal(result.stdout, '');
     assert.deepEqual(ctx.db.prepare('SELECT version, payload FROM tracker_state WHERE id = 1').get(), before);
     const wrongCode = await run('backfill', server, {TRACKER_ACCESS_CODE: '111111'});
     assert.equal(wrongCode.status, 1);
     assert.match(wrongCode.stderr, /returned 401\. Nothing was changed\./);
+  } finally { server.close(); }
+});
+
+test('when the copy switched but its reply was lost, the step says so from a fresh read and does not claim the single document', async () => {
+  const ctx = environment(tracker(30));
+  let once = true;
+  // The Worker switches modes, then the answer is cut off on the way back: the runner sees a 200 with no readable body.
+  const server = await serve(ctx, req => { if (req.url === '/api/admin/backfill' && once) { once = false; return '{"stor'; } return null; });
+  try {
+    const result = await run('backfill', server);
+    assert.equal(result.status, 1);
+    assert.equal(mode(ctx), 'rows');
+    assert.match(quiet(result.stderr), /answered HTTP 200: unexpected answer\. But the tracker now reports one row per record, so the switch did happen\. Run the workflow again to finish the checks; do not revert the Worker\./);
+    assert.doesNotMatch(result.stderr, /still the single document/);
+    const again = await run('backfill', server);
+    assert.equal(again.status, 0, again.stderr);
+    assert.match(quiet(again.stdout), /^Records already have their own rows: nothing to copy\./);
   } finally { server.close(); }
 });
 

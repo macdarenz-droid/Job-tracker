@@ -83,8 +83,10 @@ So the whole-tracker save is there for existing clients, not for new code. In ro
 
 ### Rolling back
 
-- Before the copy has run: revert the commit and redeploy. The data has not changed; the two new tables are simply unused.
-- After the copy, before anything else has been saved: `POST /api/admin/restore-document` with the current version, then redeploy the older Worker if wanted. The rows stay in `records` and are ignored.
+**Check `GET /api/version` first.** Once it reports `"storage":"rows"`, never revert this merge as a whole on `main`: a push to `main` that touches `cloudflare-api/src/**` redeploys the Worker by itself, and the older Worker shows no manual records on rows-mode data (nothing is deleted, but every page, runner and lead-publisher read fails until the newer Worker is deployed again). To undo only the page, revert `app.js`, `index.html` and `styles.css`. A deploy job that fails after the copy step has started prints the storage mode it read; if that says one row per record, run the workflow again rather than reverting.
+
+- Before the copy has run (`/api/version` says `document`): revert the commit and redeploy. The data has not changed; the two new tables are simply unused.
+- After the copy, before anything else has been saved: `POST /api/admin/restore-document` with the current version, then redeploy the older Worker if wanted. The rows stay in `records` and are ignored. The deploy's own `verify` step saves once, which moves the version, so after a green deploy this route is closed and the next bullet applies.
 - After records have been saved in rows mode: fix forward. An older Worker would read `tracker_state` and show no manual records, so do not deploy one. Nothing in this design deletes a row. The pre-copy document stays in `tracker_state_backup`, and the workflow prints a D1 Time Travel bookmark before each migration (7 days on the free plan).
 
 ## API behavior

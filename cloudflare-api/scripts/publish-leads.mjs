@@ -1,5 +1,6 @@
 import {readFileSync} from 'node:fs';
 import {pathToFileURL} from 'node:url';
+import {isDeepStrictEqual} from 'node:util';
 
 const endpoint = 'https://job-tracker-api.mmarcdarenz.workers.dev/api/state';
 const expired = new Set(['SKIPPED_EXPIRED', 'SKIPPED_CLOSED', 'VACANCY_REMOVED']);
@@ -102,9 +103,12 @@ async function main() {
     body:JSON.stringify({expected_version:current.version,state:result.state})});
   if (!saved.ok) throw Error(`Version-guarded Save failed (${saved.status}); no blind retry.`);
   const verified = await get();
-  const content = state => { const value = structuredClone(state); delete value.updated_at; return JSON.stringify(value); };
-  if (verified.version !== current.version + 1 || content(verified.state) !== content(result.state) ||
-      JSON.stringify(verified.state.applications) !== JSON.stringify(current.state.applications) ||
+  // Compared as JSON values, not as text: the Worker returns the same content with its top-level keys in another
+  // order once records have their own rows, and a save can straddle that switch.
+  const same = (a, b) => isDeepStrictEqual(JSON.parse(JSON.stringify(a)), JSON.parse(JSON.stringify(b)));
+  const content = state => { const value = structuredClone(state); delete value.updated_at; return value; };
+  if (verified.version !== current.version + 1 || !same(content(verified.state), content(result.state)) ||
+      !same(verified.state.applications, current.state.applications) ||
       verified.state.manual_entries.length !== current.state.manual_entries.length ||
       verified.state.record_visibility.length !== current.state.record_visibility.length ||
       batch.leads.some(lead => !verified.state.leads.some(row => row.key === lead.key)))

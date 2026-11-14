@@ -141,8 +141,15 @@ async function backfill() {
     const version = before.data.version, entries = before.data.state.manual_entries;
     const copy = await api('/api/admin/backfill', {expected_version:version});
     if (copy.status === 409 && attempt < 3) { console.log('The tracker was saved by someone else during the copy. Reading it again.'); continue; }
-    if (copy.status !== 200 || copy.data?.storage !== 'rows')
-      throw Error(`The copy to one row per record did not happen (HTTP ${copy.status}: ${refusal[copy.status] || 'unexpected answer'}). The tracker is still the single document and serves as before.`);
+    if (copy.status !== 200 || copy.data?.storage !== 'rows') {
+      // A reply lost after the Worker's last statement hides a switch that did happen, so the mode comes from a fresh
+      // read, never from the failed answer. Reverting the Worker while records have their own rows hides every record.
+      const storage = (await api('/api/version')).data?.storage;
+      const where = storage === 'document' ? 'The copy did not happen: the tracker is still the single document and serves as before.'
+        : storage === 'rows' ? 'But the tracker now reports one row per record, so the switch did happen. Run the workflow again to finish the checks; do not revert the Worker.'
+        : 'Its storage mode could not be read. Check GET /api/version before anything else, and do not revert the Worker until it says "document".';
+      throw Error(`The copy step answered HTTP ${copy.status}: ${refusal[copy.status] || 'unexpected answer'}. ${where}`);
+    }
     const after = await api('/api/state'), list = await api('/api/records');
     const listed = list.status === 200 && after.status === 200 && Array.isArray(list.data?.records) &&
       (list.data.version !== after.data.version || (list.data.records.length === after.data.state.manual_entries.length && list.data.records.every((row, i) => row.id === after.data.state.manual_entries[i].id)));

@@ -15,6 +15,8 @@ const pipelineOrder=['leads','ready','applications','interviews','offers','unsuc
 const APPLIED=/^(SENT|EOI_SENT|MANUAL_APPLIED|MANUAL_APPLIED_SEEK_RECEIPT_CONFIRMED|APPLICATION_UNDER_REVIEW)$/;
 // The apply queue: prepared packs waiting to be submitted. READY_JEREMIE_* are older names for READY_*.
 const QUEUE=/^READY_|^PREPARED_NOT_SENT$|^ASK_OWNER$/;
+// Packs the old automation prepared in the tracker. What is waiting now is the bots' queue in the repo, not this list.
+const LIVE_QUEUE='https://github.com/macdarenz-droid/Job-tracker/blob/claude/job-search-automation-sg3inr/automation/queue/APPLY_QUEUE.md';
 const FORM_FIELDS=['company','role','location','job_url','status','applied_date','application_method','contact_email','notes','contributor_name'];
 const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=String(text);if(cls)n.className=cls;return n};
 const fmt=v=>{if(!v)return 'Not recorded';const d=new Date(v);return Number.isNaN(d.valueOf())?String(v):new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Sydney',day:'numeric',month:'short',year:'numeric'}).format(d)};
@@ -151,7 +153,7 @@ for(const d of document.querySelectorAll('dialog')){d.addEventListener('cancel',
 
 // Rendering
 function countTo(node,to,from){const start=from??Number(node.dataset.v||0);node.dataset.v=to;if(reduceMotion.matches||start===to){node.textContent=to;return}const t0=performance.now(),d=900;const step=t=>{const p=Math.min(1,(t-t0)/d),e=1-Math.pow(1-p,4);node.textContent=Math.round(start+(to-start)*e);if(p<1&&node.dataset.v==String(to))requestAnimationFrame(step)};requestAnimationFrame(step)}
-function viewTitle(){return view==='bin'?'Bin':view==='queue'?'Apply queue':view==='records'?(filter?groupTitle[filter]:'All jobs'):'Overview'}
+function viewTitle(){return view==='bin'?'Bin':view==='queue'?'Old packs':view==='records'?(filter?groupTitle[filter]:'All jobs'):'Overview'}
 function render(){
   if(!tracker||$('workspace').hidden)return;
   const {active,bin}=allRows(),a=anim;anim=null;
@@ -254,7 +256,7 @@ function renderPipeline(counts,animate){
 function miniRow(r,extra){const row=el('div',undefined,'mini-row'),t=el('span',undefined,'t');row.tabIndex=0;row.setAttribute('role','button');row.setAttribute('aria-label',`${r.company||'Unknown'}, ${r.role||'role not listed'}. Open details`);t.append(el('b',r.company||'Unknown'),el('small',r.role||'Role not listed'));row.append(statusIcon(group(r)),t,...extra);row.onclick=e=>{if(!e.target.closest('button'))openDetail(r)};row.onkeydown=e=>{if((e.key==='Enter'||e.key===' ')&&e.target===row){e.preventDefault();openDetail(r)}};return row}
 function appliedButton(r){const b=el('button',undefined,'apply-btn');b.type='button';b.append(icon('check'),'Applied');b.title='Mark as applied once you\'ve actually applied';b.onclick=()=>openEditor(r,true);return b}
 function due(r){const d=closesIn(r),n=el('span',closesText(r),'due'+(d===null?'':d<0?' closed':d<=3?' soon':''));if(closesAt(r))n.title=fmt(closesAt(r));return n}
-function renderNext(queue){const root=$('next-list');root.replaceChildren();const list=queue.slice(0,5);if(!list.length){root.append(el('p','Nothing to apply for right now.','empty-mini'));return}for(const r of list){const act=el('span',undefined,'row-actions');if(group(r)==='ready')act.append(appliedButton(r));root.append(miniRow(r,[due(r),act]))}}
+function renderNext(queue){const root=$('next-list');root.replaceChildren();const list=queue.slice(0,5);if(!list.length){root.append(el('p','No old packs.','empty-mini'));return}for(const r of list){const act=el('span',undefined,'row-actions');if(group(r)==='ready')act.append(appliedButton(r));root.append(miniRow(r,[due(r),act]))}}
 function renderRecent(apps){const root=$('recent-list');root.replaceChildren();const list=[...apps].sort((a,b)=>appliedDay(b).localeCompare(appliedDay(a))).slice(0,5);if(!list.length){root.append(el('li','No applications with a date yet.','empty-mini'));return}for(const r of list){const li=el('li'),w=el('span',relative(appliedDay(r)),'when');w.title=fmt(appliedDay(r));const row=miniRow(r,[el('span',routeName(r),'cell dim'),w]);li.append(row);root.append(li)}}
 function renderRoutes(all,animate){
   const root=$('routes-chart'),map=new Map();
@@ -274,7 +276,7 @@ function renderRecords(active,bin,counts,a){
   renderChips(active,counts);
   $('list-mode').setAttribute('aria-pressed',String(mode==='list'));$('board-mode').setAttribute('aria-pressed',String(mode==='board'));
   const root=$('records');
-  if(view==='queue'){const list=searched(queueRows(active));$('page-meta').textContent=`${list.length} to apply for, soonest closing first`;return root.replaceChildren(list.length?queueList(list,a):emptyState('check','Nothing is waiting.',query?'Try another search.':'Jobs that are ready to apply for show up here.'))}
+  if(view==='queue'){const list=searched(queueRows(active));$('page-meta').replaceChildren(`${list.length} prepared by the old automation, soonest closing first. Waiting now: `,link('the bots\' apply queue',LIVE_QUEUE));return root.replaceChildren(list.length?queueList(list,a):emptyState('check','No old packs.',query?'Try another search.':'Applications waiting now are in the bots\' apply queue on GitHub.'))}
   const list=filtered(active,bin);$('page-meta').textContent=view==='bin'?`${list.length} in the Bin`:`Showing ${list.length} of ${active.length}`;
   if(view==='bin')return root.replaceChildren(list.length?binList(list,a):emptyState('bin','The Bin is empty.','Deleted jobs end up here, and you can restore them.'));
   if(!list.length)return root.replaceChildren(emptyState('search','Nothing found.',query?'Try another search or filter.':'Add a job to get started.'));
@@ -425,7 +427,7 @@ $('theme-toggle').onclick=toggleTheme;
 let paletteItems=[],paletteIndex=0;
 function commands(){const light=theme()==='light';return [
   {group:'Go to',label:'Overview',icon:'overview',run:()=>setView('overview')},
-  {group:'Go to',label:'Apply queue',icon:'calendar',run:()=>setView('queue')},
+  {group:'Go to',label:'Old packs',icon:'calendar',run:()=>setView('queue')},
   {group:'Go to',label:'All jobs',icon:'records',run:()=>setView('records')},
   ...groups.map(([k,t])=>({group:'Go to',label:t,status:k,run:()=>setView('records',k)})),
   {group:'Go to',label:'Bin',icon:'bin',run:()=>setView('bin')},

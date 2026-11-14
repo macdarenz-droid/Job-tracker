@@ -32,6 +32,7 @@ This public file summarizes process only. The current private operating document
 These replace anything above that says otherwise. The working rules for the runners live on the automation branch (`claude/job-search-automation-sg3inr`): `automation/APPLY.md` is the method and `automation/RUNBOOK.md` the daily procedure.
 
 - The goal is applications **submitted, with a receipt**. Leads and prepared packs do not count.
-- SEEK applications are submitted by Grok from the apply queue; email applications are sent automatically by the runner with Gmail; Jeremie is no longer involved.
-- The tracker stores each record in its own database row (`cloudflare-api/README.md`). It is the owner's history view and apply-queue view; a failed tracker write never stops an application.
+- SEEK applications are submitted by Grok from the apply queue (`automation/queue/` on the automation branch, written only by `queue.py`); email applications are sent automatically by the runner with Gmail; Jeremie is no longer involved.
+- The tracker is the owner's history view. Its **Old packs** view lists packs the old automation prepared in the tracker; it is not the apply queue, and no runner works from it. Once the deploy's copy step has passed (`GET /api/version` reports `"storage":"rows"`), each record has its own database row (`cloudflare-api/README.md`); before that the tracker is still the single, full document. A failed tracker write never stops an application.
+- Once storage is `rows`, never revert the tracker merge as a whole on `main`: that redeploys the older Worker, which cannot read the rows. See "Rolling back" in `cloudflare-api/README.md`.
 - Everything stays on free plans. No agent adds a paid service without asking first.
