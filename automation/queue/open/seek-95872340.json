@@ -1,0 +1,40 @@
+{
+ "id": "seek-95872340",
+ "lane": "engineer",
+ "route": "EMAIL",
+ "application_type": "ADVERTISED_VACANCY",
+ "company": "PCP Solutions Pty Ltd",
+ "role": "Graduate Civil Engineer",
+ "location": "Toowoomba QLD",
+ "url": "https://www.seek.com.au/job/95872340",
+ "seek_id": "95872340",
+ "listed_at": "2026-11-13",
+ "closes_at": "2026-12-13",
+ "closes_source": "listing_expiry",
+ "fit": 74,
+ "resume_variant": "engineer",
+ "relocation_line": "I will relocate to Toowoomba for this role and can start two weeks after an offer.",
+ "cover_letter_text": "Please accept my application for the Graduate Civil Engineer role in Toowoomba. Your advert describes site inspections, Inspection and Test Plans, daily progress reporting and drawing review under experienced project managers and site engineers, and that is the work I want to grow in.\n\nI hold a Bachelor of Science in Civil Engineering (Philippines, 2019), and in February 2026 I finished an Advanced Diploma of Civil Construction Design in Australia. In that course I designed and documented road geometry, earthworks, pavement and stormwater drainage, prepared and reviewed drawings in AutoCAD and Civil 3D against Australian Standards, and prepared cost estimates and bills of quantities.\n\nFrom 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge. I carried out site inspections, safety checks and quality monitoring, reviewed drawings, tracked procurement and materials, prepared site, material and progress reports, and worked with engineers, subcontractors and suppliers to sort out site issues.\n\nI have not worked on water infrastructure yet, and I would learn your Integrated Management System and Tier 1 reporting from the team. I live in Melton, hold a White Card and an Australian driver's licence, have full working rights to December 2027 on a Subclass 485 visa, am available for regional site work and am open to discussing relocation to Toowoomba.\n\nMy resume is attached, and I would welcome the chance to talk about the role.",
+ "email": {
+  "to": "admin@pcpsolutions.com.au",
+  "subject": "Graduate Civil Engineer application (SEEK 95872340)",
+  "body": "Dear PCP Solutions team,\n\nI am applying for the Graduate Civil Engineer role in Toowoomba that you advertised on SEEK (95872340), which invites resumes and cover letters to this address.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design in Australia, designing and documenting road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD. I also hold a Bachelor of Science in Civil Engineering (2019). From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, carrying out inspections and quality checks, reviewing drawings, tracking materials and preparing progress reports.\n\nYour advert's mix of ITPs, quality records, daily progress reporting and drawing review is the kind of site and documentation work I want to build on. I have not worked on water infrastructure yet. I live in Melton, hold a White Card and an Australian driver's licence, have full working rights to December 2027 on a Subclass 485 visa, am available for regional site work and am open to discussing relocation to Toowoomba.\n\nCould we arrange a short call about the role?\n\nI've attached my resume and cover letter.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
+  "evidence_url": "https://www.seek.com.au/job/95872340"
+ },
+ "questions": [],
+ "status": "ASK_OWNER",
+ "ask_owner": "The advert text for this Graduate Civil Engineer job (SEEK 95872340, Toowoomba) was never saved in the repo, only a short summary, so no new letter was written. Should a runner re-read the live advert and then write the letter: yes or no?",
+ "attempts": [
+  {
+   "at": "2026-11-13T14:09:49Z",
+   "by": "Claude",
+   "result": "asked_owner",
+   "note": "The advert text for this Graduate Civil Engineer job (SEEK 95872340, Toowoomba) was never saved in the repo, only a short summary, so no new letter was written. Should a runner re-read the live advert and then write the letter: yes or no?"
+  }
+ ],
+ "receipt": {},
+ "created_by": "import_backlog.py",
+ "created_at": "2026-11-13T00:40:00Z",
+ "source_run": "20261113T0714Z",
+ "notes": "letter written under the old rules: rewrite before use\nImported from the backlog of 2026-11-13 (old status PREPARED_NOT_SENT). Fit 74% is from the old rubric."
+}

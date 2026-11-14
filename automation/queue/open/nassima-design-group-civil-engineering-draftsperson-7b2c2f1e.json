@@ -1,0 +1,40 @@
+{
+ "id": "nassima-design-group-civil-engineering-draftsperson-7b2c2f1e",
+ "lane": "drafter",
+ "route": "EMPLOYER_PORTAL",
+ "application_type": "ADVERTISED_VACANCY",
+ "company": "Nassima Design Group",
+ "role": "Civil Engineering Draftsperson",
+ "location": "VIC 3094 (Montmorency, north east Melbourne) VIC",
+ "url": "https://jobsnext.com.au/jobs/c660bac0-c53b-4e31-94f7-c141b009c682/view/",
+ "seek_id": "",
+ "listed_at": "2026-10-30",
+ "closes_at": "",
+ "closes_source": "none",
+ "fit": 70,
+ "resume_variant": "drafter",
+ "relocation_line": "",
+ "cover_letter_text": "Please accept my application for the Civil Engineering Draftsperson role advertised on JobsNext. The advert asks for an Advanced Diploma in Civil Construction Design and drafting of roads, drainage, subdivisions and earthworks, which is exactly what I have just trained in.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute in Australia. I designed and documented road geometry, earthworks, pavement systems and stormwater drainage, and prepared and reviewed drawings in AutoCAD and Civil 3D against Australian Standards. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019).\n\nFrom 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge. I reviewed structural and architectural drawings, checked work against them on site and prepared site reports, material records and progress reports, so I know how drawings are used once they leave the office.\n\nMy drafting experience so far comes from my studies rather than a paid drafting role, and I would be keen to learn your drawing standards and procedures. I live in Melton, hold an Australian driver's licence with my own transport, and have full working rights to December 2027 on a Subclass 485 visa.\n\nI have attached my resume and would welcome the chance to talk about the role.",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [],
+ "status": "ASK_OWNER",
+ "ask_owner": "The advert text for this job (Nassima Design Group, Civil Engineering Draftsperson, on JobsNext, no closing date) was never saved in the repo, only a short summary, so the 13 Nov re-screen cannot be done and no letter can be written from it. Should a runner re-read the JobsNext advert and save its text so this can be finished, or should this one be dropped? (Answer: re-read it, or drop it.)",
+ "attempts": [
+  {
+   "at": "2026-11-13T14:12:20Z",
+   "by": "Claude",
+   "result": "asked_owner",
+   "note": "The advert text for this job (Nassima Design Group, Civil Engineering Draftsperson, on JobsNext, no closing date) was never saved in the repo, only a short summary, so the 13 Nov re-screen cannot be done and no letter can be written from it. Should a runner re-read the JobsNext advert and save its text so this can be finished, or should this one be dropped? (Answer: re-read it, or drop it.)"
+  }
+ ],
+ "receipt": {},
+ "created_by": "import_backlog.py",
+ "created_at": "2026-11-13T00:40:00Z",
+ "source_run": "20261112T0617Z",
+ "notes": "letter written under the old rules: rewrite before use\nImported from the backlog of 2026-11-13 (old status READY_JOBSNEXT). Fit 70% is from the old rubric."
+}

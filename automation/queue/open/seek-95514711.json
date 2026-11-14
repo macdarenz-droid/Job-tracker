@@ -1,0 +1,55 @@
+{
+ "id": "seek-95514711",
+ "lane": "engineer",
+ "route": "SEEK",
+ "application_type": "ADVERTISED_VACANCY",
+ "company": "Jaydo Construction Pty Ltd",
+ "role": "Site Engineer - Urban Development - EOI 2027",
+ "location": "Keilor Park, Melbourne VIC",
+ "url": "https://www.seek.com.au/job/95514711",
+ "seek_id": "95514711",
+ "listed_at": "2026-10-27",
+ "closes_at": "2026-11-26",
+ "closes_source": "listing_expiry",
+ "fit": 72,
+ "resume_variant": "engineer",
+ "relocation_line": "",
+ "cover_letter_text": "Hello,\nI am applying for the Site Engineer - Urban Development - EOI 2027 role advertised on SEEK. Your advert says the Urban Development team delivers civil infrastructure across subdivisions, council projects and associated development works.\n\nFrom April 2019 to February 2020 I worked on site in the Philippines. As project-in-charge on a community hall renovation I coordinated 10 to 15 workers each day and tracked progress. I reviewed structural and architectural drawings, checked work against project requirements, and carried out site inspections, safety checks and quality monitoring. As field engineer on residential subdivision finishing works I assisted with site inspections, daily coordination and quality checks. I tracked procurement and materials and prepared site reports, material records and progress reports. I hold a Bachelor of Science in Civil Engineering (Philippines, 2019). In February 2026 I completed the Advanced Diploma of Civil Construction Design, where I designed and documented road geometry, earthworks, pavement and stormwater drainage.\n\nI am based in Melton VIC. I can start two weeks after an offer. Full working rights in Australia (Subclass 485 visa), no sponsorship needed. I hold a full Victorian driver's licence and a White Card. Could we arrange a call?\nMarc Masarate",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [
+  {
+   "question": "Which of the following statements best describes your right to work in Australia?",
+   "options": [],
+   "answer": "Subclass 485 Temporary Graduate visa with full working rights until December 2027. No sponsorship needed.",
+   "basis": "answers.right_to_work.free_text",
+   "status": "answered"
+  },
+  {
+   "question": "Do you hold a Construction Induction Safety certificate (White Card)?",
+   "options": [],
+   "answer": "Yes",
+   "basis": "answers.white_card",
+   "status": "answered"
+  },
+  {
+   "question": "Do you have a current Australian driver's licence?",
+   "options": [],
+   "answer": "Yes",
+   "basis": "answers.drivers_licence",
+   "status": "answered"
+  }
+ ],
+ "status": "OPEN",
+ "ask_owner": "",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "import_backlog.py",
+ "created_at": "2026-11-13T00:40:00Z",
+ "source_run": "20261110T1414Z",
+ "notes": "Imported from the backlog of 2026-11-13 (old status READY_SEEK). Fit 72% is from the old rubric.\nLane engineer: Site Engineer expression of interest; the advert says you don't need to know everything from day one (old screening notes; advert text not saved)."
+}

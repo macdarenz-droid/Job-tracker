@@ -1,0 +1,40 @@
+{
+ "id": "seek-95823436",
+ "lane": "drafter",
+ "route": "EMPLOYER_PORTAL",
+ "application_type": "ADVERTISED_VACANCY",
+ "company": "Cairns Regional Council",
+ "role": "Cadet Designer",
+ "location": "Cairns, Far North QLD",
+ "url": "https://www.seek.com.au/job/95823436",
+ "seek_id": "95823436",
+ "listed_at": "2026-11-11",
+ "closes_at": "2026-11-25T23:30",
+ "closes_source": "advert",
+ "fit": 68,
+ "resume_variant": "drafter",
+ "relocation_line": "I will relocate to Cairns for this role and can start two weeks after an offer.",
+ "cover_letter_text": "",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [],
+ "status": "SKIPPED",
+ "ask_owner": "",
+ "attempts": [
+  {
+   "at": "2026-11-14T07:57:30Z",
+   "by": "Claude",
+   "result": "skipped",
+   "note": "owner: drop it (14 Nov 2026): a cadetship of up to six years with study"
+  }
+ ],
+ "receipt": {},
+ "created_by": "import_backlog.py",
+ "created_at": "2026-11-13T00:40:00Z",
+ "source_run": "20261111T0517Z",
+ "notes": "letter written under the old rules: rewrite before use\nImported from the backlog of 2026-11-13 (old status HELD_MANDATORY_UNRESOLVED). Fit 68% is from the old rubric.\nNo letter text was in the repo for this find: write one."
+}

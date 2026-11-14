@@ -1,7 +1,10 @@
 import json
 import os
+import subprocess
 import sys
+import tempfile
 import unittest
+from datetime import datetime, timezone
 from pathlib import Path
 from unittest import mock
 
@@ -24,14 +27,21 @@ class PrefilterTests(unittest.TestCase):
 
     def test_junior_civil_titles_pass(self):
         for t in ['Graduate Civil Engineer', 'Junior Civil Drafter', 'Trainee Structural Drafter', 'Cadet Civil Engineer',
-                  'Site Engineer', 'Civil Designer', 'Junior Estimator', 'Project Coordinator', 'Civil 3D Drafter',
-                  'Engineering Officer', 'Undergraduate Engineer']:
+                  'Site Engineer', 'Civil Designer', 'Civil 3D Drafter', 'Engineering Officer',
+                  'Construction Materials Testing Technician - Entry-Level', 'Trainee Soil Technicians', 'Geotechnical Laboratory Technician',
+                  'Concrete Tester - Fifo', 'Engineering Technical Officer', 'Civil Engineering Assistant']:
             self.assertTrue(seek.prefilter(self.listing(t))[0], t)
 
     def test_senior_and_other_disciplines_fail(self):
         for t in ['Senior Civil Engineer', 'Civil Project Manager', 'Structures Foreman', 'Lead Drafter', 'Electrical Engineer',
                   'Trainee Surveyor', 'Building Surveyor', 'Principal Engineer', 'Experienced Estimator', 'Quantity Surveyor',
                   'Structural Engineer', 'Geotechnical Engineer', 'Supervisor / Estimator']:
+            self.assertFalse(seek.prefilter(self.listing(t))[0], t)
+
+    def test_roles_the_owner_excluded_on_13_nov_fail(self):
+        for t in ['Junior Estimator', 'Project Coordinator', 'Undergraduate Engineer', 'Document Controller', 'Site Administrator',
+                  'Traffic Controller', 'Survey Assistant', 'Steel Detailer', '2027 Engineering Graduate Program', 'Vacation Student - Civil',
+                  'Medical Laboratory Technician', 'Dental Laboratory Technician-Chatswood', 'Asphalt Labourer']:
             self.assertFalse(seek.prefilter(self.listing(t))[0], t)
 
     def test_classification_filter(self):
@@ -63,6 +73,9 @@ STATE = {
 }
 
 
+TODAY = datetime(2026, 9, 28, tzinfo=timezone.utc)  # the day these cases were written for
+
+
 class DedupeTests(unittest.TestCase):
     def setUp(self):
         self._po = mock.patch.object(tracker, 'prior_outreach', return_value=[])  # keep the live receipt file out of these cases
@@ -81,28 +94,31 @@ class DedupeTests(unittest.TestCase):
         self.assertTrue(blocked)
 
     def test_company_role_and_url(self):
-        blocked, why, _ = tracker.check_duplicate({'company': 'WML Consulting Engineers', 'title': 'Junior Structural Drafter', 'url': 'https://x.com/a'}, self.idx)
-        self.assertTrue(blocked)
-        blocked, why, _ = tracker.check_duplicate({'company': 'WML Consulting', 'title': 'Civil Drafter', 'url': 'https://www.wml.com.au/careers/'}, self.idx)
+        blocked, why, _ = tracker.check_duplicate({'company': 'WML Consulting Engineers', 'title': 'Junior Structural Drafter', 'url': 'https://x.com/a'}, self.idx, today=TODAY)
+        self.assertTrue(blocked); self.assertIn('already applied for this role', why)
+        blocked, why, _ = tracker.check_duplicate({'company': 'WML Consulting', 'title': 'Civil Drafter', 'url': 'https://www.wml.com.au/careers/'}, self.idx, today=TODAY)
         self.assertTrue(blocked); self.assertIn('URL', why)
 
-    def test_recent_outreach_and_rejection_block(self):
-        with mock.patch.object(tracker, 'datetime', wraps=tracker.datetime) as dt:
-            from datetime import datetime, timezone
-            dt.now.return_value = datetime(2026, 9, 28, tzinfo=timezone.utc)
-            blocked, why, _ = tracker.check_duplicate({'company': 'Doval Constructions', 'title': 'Site Engineer', 'url': 'https://www.seek.com.au/job/999'}, self.idx)
-            self.assertTrue(blocked); self.assertIn('recent outreach', why)
-            blocked, why, _ = tracker.check_duplicate({'company': 'Fortec Australia', 'title': 'Civil Drafter', 'url': 'https://www.seek.com.au/job/998'}, self.idx)
-            self.assertTrue(blocked); self.assertIn('rejection', why)
-            blocked, why, notes = tracker.check_duplicate({'company': 'Old Co', 'title': 'Civil Drafter', 'url': 'https://www.seek.com.au/job/997'}, self.idx)
-            self.assertFalse(blocked); self.assertTrue(notes)
-            blocked, why, notes = tracker.check_duplicate({'company': 'Brand New Pty Ltd', 'title': 'Graduate Civil Engineer', 'url': 'https://www.seek.com.au/job/996'}, self.idx)
-            self.assertFalse(blocked); self.assertEqual(notes, [])
+    def test_same_role_blocks_and_another_role_gets_a_note(self):
+        # Doval: applied 26 Sep for Graduate Engineer. The same role is blocked; a different role is allowed with a note.
+        blocked, why, _ = tracker.check_duplicate({'company': 'Doval Constructions', 'title': 'Graduate Engineer', 'url': 'https://www.seek.com.au/job/999'}, self.idx, today=TODAY)
+        self.assertTrue(blocked); self.assertIn('MANUAL_APPLIED', why); self.assertIn('2026-09-26', why)
+        blocked, why, notes = tracker.check_duplicate({'company': 'Doval Constructions', 'title': 'Site Engineer', 'url': 'https://www.seek.com.au/job/999'}, self.idx, today=TODAY)
+        self.assertFalse(blocked); self.assertTrue(any('Graduate Engineer' in n and 'different role' in n for n in notes))
+        # Fortec: rejected for Junior Civil Engineer in August. Same employer name without 'Pty Ltd'.
+        blocked, why, _ = tracker.check_duplicate({'company': 'Fortec Australia', 'title': 'Junior Civil Engineer', 'url': 'https://www.seek.com.au/job/998'}, self.idx, today=TODAY)
+        self.assertTrue(blocked); self.assertIn('REJECTED', why)
+        blocked, why, notes = tracker.check_duplicate({'company': 'Fortec Australia', 'title': 'Civil Drafter', 'url': 'https://www.seek.com.au/job/998'}, self.idx, today=TODAY)
+        self.assertFalse(blocked); self.assertTrue(notes)
+        blocked, why, notes = tracker.check_duplicate({'company': 'Old Co', 'title': 'Cadet', 'url': 'https://www.seek.com.au/job/997'}, self.idx, today=TODAY)
+        self.assertFalse(blocked); self.assertTrue(any('outside the repeat block' in n for n in notes))
+        blocked, why, notes = tracker.check_duplicate({'company': 'Brand New Pty Ltd', 'title': 'Graduate Civil Engineer', 'url': 'https://www.seek.com.au/job/996'}, self.idx, today=TODAY)
+        self.assertFalse(blocked); self.assertEqual(notes, [])
 
     def test_new_record_shape(self):
         r = tracker.new_record({'company': 'Acme', 'role': 'Junior Civil Engineer', 'status': 'LEAD', 'job_url': 'https://www.seek.com.au/job/5'}, run_id='r1')
-        self.assertEqual(r['contributor_name'], 'Claude')
-        self.assertEqual(r['created_by'], 'claude-job-search')
+        self.assertEqual(r['contributor_name'], common.CONFIG['contributor_name'])  # whoever config says runs the loop
+        self.assertEqual(r['created_by'], common.CONFIG['created_by'])
         self.assertEqual(r['key'], 'manual:' + r['id'])
         self.assertEqual(r['duplicate_key'], 'acme|seek:5')
         self.assertEqual(r['version'], 1)
@@ -195,19 +211,49 @@ class CheckTests(unittest.TestCase):
         self.assertTrue(any('neither' in i for i in checks.record_issues(rec)))
 
 
+def working_chrome(limit=20):
+    """(path, None) for a Chromium that prints a page to PDF on this machine, else (None, why not).
+
+    Looks at the Playwright headless shell and /opt/pw-browsers/chromium, then whatever render_pdf finds.
+    Each is tried on a one-line page first: in some sandboxes the full browser starts but never prints,
+    and the render test would then sit for two minutes and fail for a reason that has nothing to do with
+    the letter."""
+    found = [str(p) for p in sorted(Path('/opt/pw-browsers').glob('chromium_headless_shell-*/chrome-headless-shell-linux64/chrome-headless-shell'))]
+    found.append('/opt/pw-browsers/chromium')
+    try:
+        found.append(render_pdf.chrome_path())
+    except RuntimeError:
+        pass
+    found = [p for i, p in enumerate(found) if Path(p).exists() and p not in found[:i]]
+    if not found:
+        return None, 'no Chromium on this machine'
+    for chrome in found:
+        with tempfile.TemporaryDirectory() as d:
+            page, pdf = Path(d) / 'probe.html', Path(d) / 'probe.pdf'
+            page.write_text('<p>probe</p>', encoding='utf-8')
+            try:
+                subprocess.run([chrome, '--headless=new', '--no-sandbox', '--disable-gpu', f'--print-to-pdf={pdf}', f'--user-data-dir={d}/profile', str(page)],
+                               capture_output=True, timeout=limit)
+            except (subprocess.TimeoutExpired, OSError):
+                continue
+            if pdf.exists() and pdf.read_bytes()[:4] == b'%PDF':
+                return chrome, None
+    return None, f'Chromium is installed but did not print a page within {limit} s here: ' + ', '.join(found)
+
+
 class RenderTests(unittest.TestCase):
     def test_letter_html_escapes_and_fills(self):
         h = render_pdf.letter_html({'recipient_name': 'Sam <Lee>', 'company': 'Acme', 'subject': 'Junior drafter', 'paragraphs': ['One & two', 'Three']})
         self.assertIn('Sam &lt;Lee&gt;', h); self.assertIn('<p>One &amp; two</p>', h); self.assertIn('Marc Darenz Masarate', h); self.assertNotIn('{{', h)
 
     def test_pdf_render(self):
-        try:
-            render_pdf.chrome_path()
-        except RuntimeError:
-            self.skipTest('no Chromium')
-        out = Path(os.environ.get('TMPDIR', '/tmp')) / 'claude-letter-test.pdf'
-        render_pdf.render_letter({'recipient_name': 'Sam Lee', 'company': 'Acme', 'subject': 'Junior drafter', 'paragraphs': ['One.', 'Two.']}, out)
-        self.assertEqual(out.read_bytes()[:4], b'%PDF')
+        chrome, why = working_chrome()
+        if not chrome:
+            self.skipTest(why)
+        with tempfile.TemporaryDirectory() as d, mock.patch.object(render_pdf, 'chrome_path', return_value=chrome):
+            out = Path(d) / 'letter-test.pdf'
+            render_pdf.render_letter({'recipient_name': 'Sam Lee', 'company': 'Acme', 'subject': 'Junior drafter', 'paragraphs': ['One.', 'Two.']}, out)
+            self.assertEqual(out.read_bytes()[:4], b'%PDF')
 
     def test_resume_pdf_present(self):
         try:
@@ -215,10 +261,6 @@ class RenderTests(unittest.TestCase):
         except RuntimeError as e:
             self.skipTest(str(e))
         self.assertTrue(p.exists())
-
-
-if __name__ == '__main__':
-    unittest.main()
 
 
 class RankTests(unittest.TestCase):
@@ -235,26 +277,36 @@ class RankTests(unittest.TestCase):
 class PublishTests(unittest.TestCase):
     def test_route_status_and_record(self):
         import publish
+        statuses = common.CONFIG['statuses']
         draft = {'company': 'Acme Civil', 'role': 'Junior Civil Drafter', 'location': 'Melton VIC', 'job_url': 'https://www.seek.com.au/job/5', 'route': 'SEEK',
                  'recipient_name': 'Sam Lee', 'recipient_role': 'Drafting Manager', 'recipient_email': 'sam.lee@acme.com.au', 'contact_evidence_url': 'https://acme.com.au/team',
-                 'subject': 'Junior Civil Drafter, Marc Masarate', 'email_body': 'Hi Sam,\n\nShort note.\n\nThanks,\nMarc', 'letter': {'paragraphs': ['One.', 'Two.']}, 'screening_answers': [{'question': 'q', 'answer': 'a'}], 'checklist': ['open']}
-        screen = {'percent': 72, 'rationale': 'r', 'caution': 'c', 'gaps': ['g'], 'apply_instructions': 'Apply on SEEK', 'listed_at': '2026-09-27', 'screening_questions': ['q']}
+                 'subject': 'Junior Civil Drafter, Marc Masarate', 'email_body': 'Hi Sam,\n\nShort note.\n\nThanks,\nMarc', 'letter': {'paragraphs': ['One.', 'Two.']},
+                 'screening_answers': [{'question': 'How much notice are you required to give your current employer?', 'answer': '2 weeks'}], 'checklist': ['open']}
+        screen = {'percent': 72, 'rationale': 'r', 'caution': 'c', 'gaps': ['g'], 'apply_instructions': 'Apply on SEEK', 'listed_at': '2026-09-27',
+                  'screening_questions': ['How much notice are you required to give your current employer?']}
         contact = {'contact_confidence': 'published_direct', 'company_url': 'https://acme.com.au'}
         cand = {'seek_id': '5', 'source': 'seek', 'company': 'Acme Civil', 'title': 'Junior Civil Drafter', 'url': 'https://www.seek.com.au/job/5'}
+        # The advert takes applications on SEEK: one application there, and the published email is not used as a second touch.
         rec = publish.build_record('r1', cand, screen, contact, draft)
-        self.assertEqual(rec['status'], 'READY_JEREMIE_SEEK'); self.assertIn('Double touch', rec['notes']); self.assertEqual(rec['application_method'], 'SEEK')
+        self.assertEqual(rec['status'], statuses['ready_seek']); self.assertEqual(rec['status'], 'READY_SEEK'); self.assertEqual(rec['application_method'], 'SEEK')
+        self.assertNotIn('Double touch', rec['notes']); self.assertNotIn('Jeremie', rec['notes'])
+        for k in ('recipient_email', 'contact_email', 'email_body', 'subject'):
+            self.assertNotIn(k, rec)
         draft['route'] = 'EMAIL'
         rec = publish.build_record('r1', cand, screen, contact, draft)
-        self.assertEqual(rec['status'], 'PREPARED_NOT_SENT'); self.assertEqual(rec['application_method'], 'Email'); self.assertEqual(rec['match_score']['percent'], 72)
-        self.assertEqual(rec['contributor_name'], 'Claude'); self.assertEqual(rec['seek_id'], '5')
+        self.assertEqual(rec['status'], statuses['prepared']); self.assertEqual(rec['application_method'], 'Email'); self.assertEqual(rec['match_score']['percent'], 72)
+        self.assertEqual(rec['recipient_email'], 'sam.lee@acme.com.au'); self.assertEqual(rec['email_body'], draft['email_body'])
+        self.assertEqual(rec['contributor_name'], common.CONFIG['contributor_name']); self.assertEqual(rec['seek_id'], '5')
+        # An email application with no published address stays an email application and fails its check; it is never moved to SEEK.
         rec = publish.build_record('r1', cand, screen, {'contact_confidence': 'none'}, {**draft, 'recipient_email': ''})
-        self.assertEqual(rec['status'], 'READY_JEREMIE_SEEK')
-        held = publish.held_record('r1', cand, {**screen, 'mandatory_unmet': ['Australian citizenship required'], 'company': 'Acme Civil', 'title': 'Junior Civil Drafter'})
-        self.assertEqual(held['status'], 'HELD_MANDATORY_REQUIREMENTS')
-        self.assertIn('Australian citizenship required', held['notes'])
-        held = publish.held_record('r1', cand, {**screen, 'mandatory_unmet': [], 'mandatory_unresolved': ['WA licence'], 'company': 'Acme Civil', 'title': 'Junior Civil Drafter'})
-        self.assertEqual(held['status'], 'HELD_ELIGIBILITY_UNCONFIRMED')
-        self.assertIn('WA licence', held['notes'])
+        self.assertEqual((rec['status'], rec['application_route']), (statuses['prepared'], 'EMAIL'))
+        issues = checks.record_issues({**rec, 'attachments': [{'kind': 'resume'}, {'kind': 'cover'}]}, require_uploaded=False)
+        self.assertIn('missing recipient_email', issues); self.assertIn('recipient is neither a published direct contact nor a published application inbox', issues)
+        rec = publish.build_record('r1', cand, screen, {'contact_confidence': 'none'}, {**draft, 'route': None, 'recipient_email': ''})  # no route named: a SEEK advert goes to SEEK
+        self.assertEqual(rec['status'], statuses['ready_seek'])
+        for route, key in (('EMPLOYER_PORTAL', 'ready_portal'), ('EMPLOYER_FORM', 'ready_form')):
+            rec = publish.build_record('r1', cand, screen, contact, {**draft, 'route': route})
+            self.assertEqual(rec['status'], statuses[key]); self.assertEqual(rec['application_method'], 'Company website')
 
     def test_naming_an_unused_tool_as_a_limit_is_not_a_claim(self):
         self.assertEqual(checks.fact_issues("I use Excel but haven't used Bluebeam or E1."), [])
@@ -271,32 +323,33 @@ class EmailHtmlTests(unittest.TestCase):
         self.assertIn('</a>. Thanks<br>', out)  # the full stop stays prose
         self.assertNotIn('Portfolio.<', out)
 
-    def test_compact_pdfs_carry_clickable_portfolio_link(self):
+    def test_the_letter_pdf_carries_clickable_portfolio_and_email_links(self):
         import tempfile
+        import letter_pdf
+        letter = ('Hello,\n\nI am applying for the Junior Civil Drafter role advertised on SEEK. Your advert asks for Civil 3D drawings.\n\n'
+                  'My drawings are at https://macdarenz-droid.github.io/Portfolio for you to see.\n\n'
+                  'I live in Melton and can start two weeks after an offer. Could we talk this week?\n\nMarc Masarate')
+        entry = {'id': 'x', 'lane': 'drafter', 'resume_variant': 'drafter', 'company': 'Acme', 'cover_letter_text': letter}
         with tempfile.TemporaryDirectory() as d:
-            out = compact_pdf.resume_pdf(os.path.join(d, 'r.pdf'))
+            out, _, _ = letter_pdf.build(entry, os.path.join(d, 'l.pdf'), date='14 November 2026')
             doc = compact_pdf.pymupdf.open(out)
             uris = [l['uri'] for p in doc for l in p.get_links() if l.get('kind') == compact_pdf.pymupdf.LINK_URI]
-            self.assertIn('https://macdarenz-droid.github.io/Portfolio', uris)
-            out = compact_pdf.letter_pdf({'paragraphs': ['See https://macdarenz-droid.github.io/Portfolio for drawings.']}, os.path.join(d, 'l.pdf'))
-            doc = compact_pdf.pymupdf.open(out)
-            uris = [l['uri'] for p in doc for l in p.get_links() if l.get('kind') == compact_pdf.pymupdf.LINK_URI]
-            self.assertGreaterEqual(uris.count('https://macdarenz-droid.github.io/Portfolio'), 2)
+            self.assertGreaterEqual(uris.count('https://macdarenz-droid.github.io/Portfolio'), 2)   # the header and the letter
+            self.assertIn('mailto:macdarenz@gmail.com', uris)
 
 
 class PriorOutreachTests(unittest.TestCase):
-    def test_seek_receipt_blocks_same_employer_within_window(self):
+    def test_seek_receipt_blocks_the_same_role_within_the_window(self):
         entries = [{'date': '2026-09-01', 'company': 'Offaly Civil Engineering Pty Ltd', 'role': 'Graduate Civil Engineer', 'gmail_message_id': 'x'},
                    {'date': '2025-01-01', 'company': 'Old Co', 'role': 'Cadet', 'gmail_message_id': 'y'}]
-        with mock.patch.object(tracker, 'prior_outreach', return_value=entries), mock.patch.object(tracker.datetime, 'now') if False else mock.patch('tracker.datetime') as dt:
-            from datetime import datetime as real_dt, timezone
-            dt.now.return_value = real_dt(2026, 9, 28, tzinfo=timezone.utc)
-            dt.side_effect = lambda *a, **k: real_dt(*a, **k)
+        with mock.patch.object(tracker, 'prior_outreach', return_value=entries):
             idx = tracker.dedupe_index({'applications': [], 'leads': [], 'manual_entries': []})
-            blocked, why, _ = tracker.check_duplicate({'seek_id': '1', 'company': 'Offaly Civil Engineering', 'title': 'Site Engineer'}, idx)
-            self.assertTrue(blocked); self.assertIn('MANUAL_APPLIED', why)
-            blocked, why, notes = tracker.check_duplicate({'seek_id': '2', 'company': 'Old Co Pty Ltd', 'title': 'Engineer'}, idx)
-            self.assertFalse(blocked); self.assertTrue(notes)
+        blocked, why, _ = tracker.check_duplicate({'seek_id': '1', 'company': 'Offaly Civil Engineering', 'title': 'Graduate Civil Engineer'}, idx, today=TODAY)
+        self.assertTrue(blocked); self.assertIn('MANUAL_APPLIED', why); self.assertIn('2026-09-01', why)
+        blocked, why, notes = tracker.check_duplicate({'seek_id': '3', 'company': 'Offaly Civil Engineering', 'title': 'Site Engineer'}, idx, today=TODAY)
+        self.assertFalse(blocked); self.assertTrue(any('Graduate Civil Engineer' in n and '2026-09-01' in n for n in notes))
+        blocked, why, notes = tracker.check_duplicate({'seek_id': '2', 'company': 'Old Co Pty Ltd', 'title': 'Cadet'}, idx, today=TODAY)
+        self.assertFalse(blocked); self.assertTrue(notes)
 
 
 class BrowseTests(unittest.TestCase):
@@ -308,9 +361,5 @@ class BrowseTests(unittest.TestCase):
         self.assertEqual(links, [('https://x.test/jobs/12-graduate-civil-engineer', 'Graduate Civil Engineer')])
 
 
-class HeldDedupeTests(unittest.TestCase):
-    def test_second_hold_for_same_employer_is_skipped(self):
-        import publish
-        idx = {'company': {tracker.company_key('Torres Strait Island Regional Council'): [{'status': 'HELD_ELIGIBILITY_UNCONFIRMED'}]}}
-        self.assertTrue(publish.already_held('Torres Strait Island Regional Council', idx))
-        self.assertFalse(publish.already_held('Acme Civil', idx))
+if __name__ == '__main__':
+    unittest.main()

@@ -1,0 +1,40 @@
+{
+ "id": "seek-95352132",
+ "lane": "engineer",
+ "route": "EMAIL",
+ "application_type": "ADVERTISED_VACANCY",
+ "company": "J&P Building Solutions",
+ "role": "Graduate Civil/Structural Engineer",
+ "location": "South Melbourne VIC",
+ "url": "https://www.seek.com.au/job/95352132",
+ "seek_id": "95352132",
+ "listed_at": "",
+ "closes_at": "2026-11-18",
+ "closes_source": "listing_expiry",
+ "fit": 62,
+ "resume_variant": "engineer",
+ "relocation_line": "",
+ "cover_letter_text": "",
+ "email": {
+  "to": "admin@jpbs.com.au",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [],
+ "status": "ASK_OWNER",
+ "ask_owner": "The advert text for this job (J&P Building Solutions, Graduate Civil/Structural Engineer, SEEK 95352132, closes 18 Nov) was never saved in the repo, so it cannot be screened, no letter can be written, and the address admin@jpbs.com.au cannot be confirmed as the one the advert gives. Should a runner re-read the advert on SEEK and save it, or should this one be dropped? Answer: re-read or drop.",
+ "attempts": [
+  {
+   "at": "2026-11-13T14:02:17Z",
+   "by": "Claude",
+   "result": "asked_owner",
+   "note": "The advert text for this job (J&P Building Solutions, Graduate Civil/Structural Engineer, SEEK 95352132, closes 18 Nov) was never saved in the repo, so it cannot be screened, no letter can be written, and the address admin@jpbs.com.au cannot be confirmed as the one the advert gives. Should a runner re-read the advert on SEEK and save it, or should this one be dropped? Answer: re-read or drop."
+  }
+ ],
+ "receipt": {},
+ "created_by": "import_backlog.py",
+ "created_at": "2026-11-13T00:40:00Z",
+ "source_run": "20261112T0116Z",
+ "notes": "letter written under the old rules: rewrite before use\nImported from the backlog of 2026-11-13 (old status PREPARED_NOT_SENT). Fit 62% is from the old rubric.\nThe email address is known from a journal note only (advert not saved): find the page where the employer publishes it and record it with queue.py letter --evidence-url before this can be sent.\nNo letter text was in the repo for this find: write one."
+}

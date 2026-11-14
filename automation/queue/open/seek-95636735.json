@@ -1,0 +1,62 @@
+{
+ "id": "seek-95636735",
+ "lane": "drafter",
+ "route": "SEEK",
+ "application_type": "ADVERTISED_VACANCY",
+ "company": "PROTERRA Group",
+ "role": "Civil Designer",
+ "location": "Toowoomba, Toowoomba & Darling Downs QLD",
+ "url": "https://www.seek.com.au/job/95636735",
+ "seek_id": "95636735",
+ "listed_at": "2026-11-02",
+ "closes_at": "2026-11-27",
+ "closes_source": "advert",
+ "fit": 61,
+ "resume_variant": "drafter",
+ "relocation_line": "I will relocate to Toowoomba for this role and can start two weeks after an offer.",
+ "cover_letter_text": "I am applying for the Civil Designer role in Toowoomba advertised on SEEK. Producing practical, constructible designs for roads, intersections, subdivisions and drainage in regional Queensland, and seeing them through to construction, is the design work I want to build my career on.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute in Australia. I designed and documented road geometry, earthworks, pavement systems and stormwater drainage in AutoCAD and Civil 3D using Australian Standards, and prepared cost estimates and bills of quantities. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019). My coursework applied Austroads road and pavement guides.\n\nFrom 2019 to 2020 I worked on site in the Philippines. As a field engineer on subdivision finishing works I assisted with site inspections and quality checks, tracked procurement and materials, and prepared site, material and progress reports. As project-in-charge on a community hall renovation I coordinated 10 to 15 workers a day, reviewed drawings against project requirements and kept the client up to date. That work showed me how drawings are used in the field.\n\nI hold an Australian driver's licence and a White Card, and I have full working rights to December 2027 on a Subclass 485 visa. I am based in Melton VIC, available for regional work and open to discussing relocation to Toowoomba. My AutoCAD and Civil 3D experience is from study rather than a design office, and I have not used 12d Model yet, so I would learn it quickly with support from your experienced engineers.\n\nI have attached my resume and would welcome the chance to talk about the role.",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [
+  {
+   "question": "What qualifications do you currently hold?",
+   "options": [],
+   "answer": "Advanced Diploma of Civil Construction Design, 2026; Bachelor of Science in Civil Engineering (BSCE), 2019",
+   "basis": "education",
+   "status": "answered"
+  },
+  {
+   "question": "Where are you located?",
+   "options": [],
+   "answer": "Melton VIC 3337",
+   "basis": "identity.location",
+   "status": "answered"
+  },
+  {
+   "question": "What is your estimated start date?",
+   "options": [],
+   "answer": "Two weeks after an offer",
+   "basis": "eligibility.availability",
+   "status": "answered"
+  },
+  {
+   "question": "How many years experience in Civil Design do you have?",
+   "options": [],
+   "answer": "No experience",
+   "basis": "answers.owner_answers",
+   "status": "answered"
+  }
+ ],
+ "status": "OPEN",
+ "ask_owner": "",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "import_backlog.py",
+ "created_at": "2026-11-13T00:40:00Z",
+ "source_run": "20261109T2312Z",
+ "notes": "letter written under the old rules: rewrite before use\nImported from the backlog of 2026-11-13 (old status READY_SEEK). Fit 61% is from the old rubric."
+}

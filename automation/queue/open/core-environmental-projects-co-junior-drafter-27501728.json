@@ -1,0 +1,40 @@
+{
+ "id": "core-environmental-projects-co-junior-drafter-27501728",
+ "lane": "drafter",
+ "route": "EMAIL",
+ "application_type": "ADVERTISED_VACANCY",
+ "company": "Core Environmental Projects (Core-EP)",
+ "role": "Junior Drafter",
+ "location": "Melbourne VIC (on site)",
+ "url": "https://core-ep.com.au/careers/junior-drafter/",
+ "seek_id": "",
+ "listed_at": "2026-10-28",
+ "closes_at": "",
+ "closes_source": "none",
+ "fit": 66,
+ "resume_variant": "drafter",
+ "relocation_line": "",
+ "cover_letter_text": "I am applying for the Junior Drafter role in your Melbourne office. Preparing 2D and 3D drawings for landfill, gas management and site remediation projects, and learning from your Senior Drafter, engineers and scientists, is the practical drafting work I want to grow in.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute in Australia. I designed and documented road geometry, earthworks, pavement systems and stormwater drainage in AutoCAD and Civil 3D using Australian Standards, and prepared cost estimates and bills of quantities. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019), where I studied hydraulics, surveying and civil design.\n\nFrom 2019 to 2020 I worked on site in the Philippines. As a field engineer on subdivision finishing works I assisted with site inspections and quality checks, tracked procurement and materials, and prepared site, material and progress reports. As project-in-charge on a community hall renovation I coordinated 10 to 15 workers a day, reviewed drawings against project requirements and kept the client up to date. That work showed me how drawings and as-built records are used on site.\n\nI hold an Australian driver's licence with my own transport and a White Card, and I have full working rights to December 2027 on a Subclass 485 visa. I live in Melton VIC. My CAD experience is from study rather than a design office, and I have not drafted environmental projects yet, so I would follow your CAD templates and standards closely and learn quickly.\n\nI have attached my resume and would welcome the chance to talk about the role.",
+ "email": {
+  "to": "aditiagarwal@core-ep.com.au",
+  "subject": "Junior Drafter application, Marc Masarate",
+  "body": "Hello,\n\nI'm applying for the Junior Drafter role in your Melbourne office, advertised on the Core-EP careers page.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design, where I prepared and reviewed technical drawings in AutoCAD and Civil 3D for road geometry, earthworks, pavement and stormwater drainage, following Australian Standards. I also hold a Bachelor of Science in Civil Engineering (2019), and from 2019 to 2020 I worked on site in the Philippines doing inspections, quality checks and progress reports, so I know how drawings get used in the field.\n\nPreparing landfill, gas management and remediation drawings with your Senior Drafter is a good way for me to build my drafting skills on real projects. Earthworks and drainage are the parts of my study closest to that work. I live in Melton VIC with a licence and my own transport, and I have full working rights to December 2027 on a 485 visa.\n\nI've attached my resume and a short cover letter. Could we arrange a time to talk?\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nmacdarenz@gmail.com\nhttps://macdarenz-droid.github.io/Portfolio",
+  "evidence_url": "https://core-ep.com.au/careers/junior-drafter/"
+ },
+ "questions": [],
+ "status": "ASK_OWNER",
+ "ask_owner": "The advert text for this Junior Drafter job (core-ep.com.au/careers/junior-drafter) was never saved in the repo, only a short summary, so no new letter was written. Should a runner re-read the live advert and then write the letter: yes or no?",
+ "attempts": [
+  {
+   "at": "2026-11-13T14:09:39Z",
+   "by": "Claude",
+   "result": "asked_owner",
+   "note": "The advert text for this Junior Drafter job (core-ep.com.au/careers/junior-drafter) was never saved in the repo, only a short summary, so no new letter was written. Should a runner re-read the live advert and then write the letter: yes or no?"
+  }
+ ],
+ "receipt": {},
+ "created_by": "import_backlog.py",
+ "created_at": "2026-11-13T00:40:00Z",
+ "source_run": "20261110T0418Z",
+ "notes": "letter written under the old rules: rewrite before use\nImported from the backlog of 2026-11-13 (old status PREPARED_NOT_SENT). Fit 66% is from the old rubric."
+}

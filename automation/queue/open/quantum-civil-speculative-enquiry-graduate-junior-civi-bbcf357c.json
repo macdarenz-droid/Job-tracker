@@ -1,0 +1,40 @@
+{
+ "id": "quantum-civil-speculative-enquiry-graduate-junior-civi-bbcf357c",
+ "lane": "engineer",
+ "route": "EMPLOYER_FORM",
+ "application_type": "SPECULATIVE_ENQUIRY",
+ "company": "Quantum Civil",
+ "role": "Speculative enquiry: graduate / junior civil site role",
+ "location": "Geelong West VIC (possible Warrnambool)",
+ "url": "https://www.quantumcivil.com.au/careers",
+ "seek_id": "",
+ "listed_at": "",
+ "closes_at": "",
+ "closes_source": "none",
+ "fit": 62,
+ "resume_variant": "engineer",
+ "relocation_line": "",
+ "cover_letter_text": "Hello,\nI am asking whether Quantum Civil has junior or graduate civil site work available, not applying for an advertised vacancy. Your careers page invites expressions of interest from people who are just starting out and eager to learn.\n\nFrom April 2019 to February 2020 I worked on site in the Philippines as project-in-charge and then field engineer. As project-in-charge I coordinated 10 to 15 workers each day, reviewed structural and architectural drawings, and carried out site inspections, safety checks and quality monitoring. As field engineer I assisted with site inspections and quality checks, tracked procurement and materials, and prepared site reports and progress reports. In February 2026 I completed the Advanced Diploma of Civil Construction Design, where I designed and documented road geometry, earthworks, pavement and stormwater drainage. I also hold a Bachelor of Science in Civil Engineering (Philippines, 2019).\n\nI am based in Melton VIC. I can start two weeks after an offer. Full working rights in Australia (Subclass 485 visa), no sponsorship needed. I hold a full Victorian driver's licence and a White Card. Could we arrange a short call about junior site work?\nMarc Masarate",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [],
+ "status": "ASK_OWNER",
+ "ask_owner": "Quantum Civil (Geelong West), an enquiry through its careers form with no advertised job: the careers page text was never saved in the repo, only a runner's note of 11 Nov, so the letter's line about the page cannot be checked. Should a runner re-read quantumcivil.com.au/careers, save its text and confirm it invites people 'just starting out', or should this be dropped? (Answer: re-read or drop.)",
+ "attempts": [
+  {
+   "at": "2026-11-13T15:01:37Z",
+   "by": "Claude",
+   "result": "asked_owner",
+   "note": "Quantum Civil (Geelong West), an enquiry through its careers form with no advertised job: the careers page text was never saved in the repo, only a runner's note of 11 Nov, so the letter's line about the page cannot be checked. Should a runner re-read quantumcivil.com.au/careers, save its text and confirm it invites people 'just starting out', or should this be dropped? (Answer: re-read or drop.)"
+  }
+ ],
+ "receipt": {},
+ "created_by": "import_backlog.py",
+ "created_at": "2026-11-13T00:40:00Z",
+ "source_run": "20261111T1010Z",
+ "notes": "Imported from the backlog of 2026-11-13 (old status PREPARED_NOT_SENT). Fit 62% is from the old rubric.\nLane engineer: Speculative enquiry for a graduate or junior civil site role, through the careers form.\nNo letter text was in the repo for this find: write one."
+}

@@ -1,0 +1,33 @@
+{
+ "id": "seek-95695784",
+ "lane": "engineer",
+ "route": "EMPLOYER_PORTAL",
+ "application_type": "ADVERTISED_VACANCY",
+ "company": "Martinus Rail",
+ "role": "Graduate Engineer (Inland Rail, Albury to Parkes)",
+ "location": "Wagga Wagga / Forbes, NSW",
+ "url": "https://www.seek.com.au/job/95695784",
+ "seek_id": "95695784",
+ "listed_at": "2026-11-04",
+ "closes_at": "2026-12-04",
+ "closes_source": "listing_expiry",
+ "fit": 62,
+ "resume_variant": "engineer",
+ "relocation_line": "I will relocate to Wagga Wagga or Forbes for this role and can start two weeks after an offer.",
+ "cover_letter_text": "Hello,\nI am applying for the Graduate Engineer role on the Inland Rail Albury to Parkes Enhancement Project near Forbes, advertised on SEEK. Your advert says Martinus is seeking Civil and Structural Graduate Engineers who want to gain experience in rail.\n\nFrom April 2019 to February 2020 I worked on site in the Philippines. As project-in-charge I coordinated 10 to 15 workers each day on a community hall renovation, reviewed structural and architectural drawings and carried out site inspections and safety checks. As field engineer I prepared site reports and progress reports. In February 2026 I completed the Advanced Diploma of Civil Construction Design, where I designed and documented road geometry, earthworks, pavement and stormwater drainage. My coursework covered AS 4100 and AS/NZS 1170. My Bachelor of Science in Civil Engineering (Philippines, 2019) covered structural principles, hydraulics and surveying.\n\nI am based in Melton VIC. I will relocate to Wagga Wagga or Forbes for this role and can start two weeks after an offer. Full working rights in Australia (Subclass 485 visa), no sponsorship needed. I hold a full Victorian driver's licence and a White Card. Could we arrange a call about the role?\nMarc Masarate",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [],
+ "status": "OPEN",
+ "ask_owner": "",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "import_backlog.py",
+ "created_at": "2026-11-13T00:40:00Z",
+ "source_run": "20261109T1818Z",
+ "notes": "Imported from the backlog of 2026-11-13 (old status READY_EMPLOYER_PORTAL). Fit 62% is from the old rubric."
+}

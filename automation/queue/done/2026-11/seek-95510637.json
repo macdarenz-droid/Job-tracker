@@ -1,0 +1,91 @@
+{
+ "id": "seek-95510637",
+ "lane": "technician",
+ "route": "SEEK",
+ "application_type": "ADVERTISED_VACANCY",
+ "company": "LGC Traffic Management",
+ "role": "Civil Engineering Technician",
+ "location": "Midvale, Perth WA",
+ "url": "https://www.seek.com.au/job/95510637",
+ "seek_id": "95510637",
+ "listed_at": "2026-10-27",
+ "closes_at": "2026-11-26",
+ "closes_source": "listing_expiry",
+ "fit": 60,
+ "resume_variant": "technician",
+ "relocation_line": "I will relocate to Perth for this role and can start two weeks after an offer.",
+ "cover_letter_text": "I am applying for the Civil Engineering Technician role in Midvale advertised on SEEK. Preparing traffic guidance schemes and supporting the planning, design and site side of temporary traffic management is a practical way to start my civil career in Australia.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design at Albright Institute in Australia. I prepared and reviewed technical drawings in AutoCAD and Civil 3D for road geometry, earthworks, pavement and stormwater drainage, applying Austroads guides and Australian Standards including AS 1742.14, and prepared cost estimates, bills of quantities and risk registers. I also hold a Bachelor of Science in Civil Engineering from the Philippines (2019).\n\nFrom 2019 to 2020 I worked on site in the Philippines. I carried out site inspections, safety checks and quality monitoring, escalated issues that needed corrective action, and prepared site reports, material records and progress reports while coordinating with engineers, subcontractors and suppliers.\n\nI hold an Australian driver's licence and a White Card, and I have full working rights to December 2027 on a Subclass 485 visa. I am based in Melton VIC and open to discussing relocation to Perth. I have not yet worked in traffic management or used GIS software or Main Roads WA standards on a job, so I would start at junior level and learn your systems quickly.\n\nI have attached my resume and would welcome the chance to talk about the role.",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [
+  {
+   "question": "Which of the following statements best describes your right to work in Australia?",
+   "options": [],
+   "answer": "Subclass 485 Temporary Graduate visa with full working rights until December 2027. No sponsorship needed.",
+   "basis": "answers.right_to_work.free_text",
+   "status": "answered"
+  },
+  {
+   "question": "What's your expected annual base salary?",
+   "options": [],
+   "answer": "65000 to 75000",
+   "basis": "answers.expected_salary.rule",
+   "status": "answered"
+  },
+  {
+   "question": "How many years' experience do you have as a Civil Engineering Technician?",
+   "options": [],
+   "answer": "None: no paid role of this kind",
+   "basis": "answers.years_of_experience.laboratory, materials testing, technician, estimator, project coordinator, project management, any other role",
+   "status": "answered"
+  },
+  {
+   "question": "How much notice are you required to give your current employer?",
+   "options": [],
+   "answer": "2 weeks",
+   "basis": "answers.notice_period",
+   "status": "answered"
+  },
+  {
+   "question": "Do you have Traffic Control experience?",
+   "options": [],
+   "answer": "",
+   "basis": "answers.experience_yes_no",
+   "status": "unanswered"
+  },
+  {
+   "question": "Have you worked in a role which requires a sound understanding of as/NZ 5369 Standards?",
+   "options": [],
+   "answer": "",
+   "basis": "",
+   "status": "unanswered"
+  },
+  {
+   "question": "Which of the following High Risk Work licences do you have?",
+   "options": [],
+   "answer": "",
+   "basis": "",
+   "status": "unanswered"
+  }
+ ],
+ "status": "SKIPPED",
+ "ask_owner": "",
+ "attempts": [
+  {
+   "at": "2026-11-14T07:57:30Z",
+   "by": "Claude",
+   "result": "skipped",
+   "note": "owner: drop it (14 Nov 2026): traffic control and high risk work questions he cannot answer yes to"
+  }
+ ],
+ "receipt": {},
+ "created_by": "import_backlog.py",
+ "created_at": "2026-11-13T00:40:00Z",
+ "source_run": "20261031T0412Z",
+ "notes": "letter written under the old rules: rewrite before use\nImported from the backlog of 2026-11-13 (old status READY_SEEK). Fit 60% is from the old rubric.",
+ "advert_pay": "not stated"
+}

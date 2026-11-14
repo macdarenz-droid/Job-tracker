@@ -1,0 +1,33 @@
+{
+ "id": "seek-95705736",
+ "lane": "engineer",
+ "route": "EMPLOYER_PORTAL",
+ "application_type": "ADVERTISED_VACANCY",
+ "company": "McConnell Dowell Australia",
+ "role": "Junior Project Engineer - Traffic",
+ "location": "Yan Yean Road Upgrade project office (Yarrambat/Doreen), Melbourne VIC",
+ "url": "https://www.seek.com.au/job/95705736",
+ "seek_id": "95705736",
+ "listed_at": "2026-11-05",
+ "closes_at": "2026-12-05",
+ "closes_source": "listing_expiry",
+ "fit": 70,
+ "resume_variant": "engineer",
+ "relocation_line": "",
+ "cover_letter_text": "Hello,\nI am applying for the Junior Project Engineer - Traffic role on the South Package of the Yan Yean Road Upgrade, advertised on SEEK. Your advert says the role covers engineering, construction, procurement, safety and quality, not one discipline. My site roles were broad in the same way.\n\nFrom April 2019 to February 2020 I worked on site in the Philippines. As project-in-charge on a community hall renovation I coordinated 10 to 15 workers each day, checked work against project requirements, tracked progress and carried out safety checks. As field engineer on residential subdivision finishing works I tracked procurement and prepared progress reports. In February 2026 I completed the Advanced Diploma of Civil Construction Design, where I designed and documented road geometry, earthworks, pavement and stormwater drainage. My coursework covered Austroads road and pavement guides and AS 1742.14. I also hold a Bachelor of Science in Civil Engineering (Philippines, 2019).\n\nI am based in Melton VIC. I can start two weeks after an offer. Full working rights in Australia (Subclass 485 visa), no sponsorship needed. I have a full Victorian driver's licence, my own transport and a White Card. Could we arrange a call?\nMarc Masarate",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [],
+ "status": "OPEN",
+ "ask_owner": "",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "import_backlog.py",
+ "created_at": "2026-11-13T00:40:00Z",
+ "source_run": "20261111T1520Z",
+ "notes": "Imported from the backlog of 2026-11-13 (old status READY_SEEK). Fit 70% is from the old rubric."
+}

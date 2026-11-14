@@ -9,7 +9,7 @@ text is the clean address. The reader sees https://macdarenz-droid.github.io/Por
 click still reaches it (via the redirect page the connector adds).
 
 Usage:
-  email_html.py DRAFT.json        prints the HTML for draft['email_body']
+  email_html.py DRAFT.json        prints the HTML for draft['email_body'] (or a queue entry's email.body)
   email_html.py - < body.txt      prints the HTML for stdin
 """
 import html
@@ -37,13 +37,21 @@ def html_body(text):
     return f'<div dir="auto">{body}</div>'
 
 
+def email_text(draft):
+    """The plain email body in a JSON file: email_body (a run-folder draft), email.body (an apply-queue entry) or a bare string."""
+    if not isinstance(draft, dict):
+        return draft
+    email = draft.get('email') if isinstance(draft.get('email'), dict) else {}
+    return draft.get('email_body') or email.get('body') or ''
+
+
 def main(argv=None):
     argv = argv if argv is not None else sys.argv[1:]
     if not argv or argv[0] == '-':
         text = sys.stdin.read()
     else:
-        d = json.load(open(argv[0]))
-        text = d['email_body'] if isinstance(d, dict) and 'email_body' in d else d
+        with open(argv[0], encoding='utf-8') as f:
+            text = email_text(json.load(f))
     print(html_body(text))
 
 

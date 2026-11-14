@@ -1,0 +1,46 @@
+{
+ "id": "seek-95865921",
+ "lane": "engineer",
+ "route": "EMPLOYER_PORTAL",
+ "application_type": "ADVERTISED_VACANCY",
+ "company": "City of Moreton Bay",
+ "role": "Civil Services Engineer",
+ "location": "Strathpine, Brisbane QLD",
+ "url": "https://www.seek.com.au/job/95865921",
+ "seek_id": "95865921",
+ "listed_at": "2026-11-12",
+ "closes_at": "2026-11-22",
+ "closes_source": "advert",
+ "fit": 66,
+ "resume_variant": "engineer",
+ "relocation_line": "I will relocate to Brisbane for this role and can start two weeks after an offer.",
+ "cover_letter_text": "Please accept my application for the Civil Services Engineer role in Strathpine. Your advert asks for knowledge of civil design, constructability and engineering standards, and for clear technical reports and drawings. That is the work I trained for.\n\nI hold a Bachelor of Science in Civil Engineering (Philippines, 2019), and in February 2026 I finished an Advanced Diploma of Civil Construction Design in Australia. There I designed and documented road geometry, earthworks, pavement and stormwater drainage, prepared and reviewed drawings in AutoCAD and Civil 3D against Australian Standards, and studied design coordination, constructability and technical reporting.\n\nFrom 2019 to 2020 I worked on site in the Philippines, reviewing drawings, carrying out inspections and quality checks, and preparing site and progress reports while working with engineers, subcontractors and suppliers.\n\nI hold a White Card and an Australian driver's licence, have full working rights to December 2027 on a Subclass 485 visa, and am open to discussing relocation to Brisbane. Facilities engineering would be new to me, and I would rely on senior engineers as your advert describes.\n\nMy resume is attached, and I would welcome the chance to talk.",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [],
+ "status": "SKIPPED",
+ "ask_owner": "",
+ "attempts": [
+  {
+   "at": "2026-11-13T14:12:37Z",
+   "by": "Claude",
+   "result": "asked_owner",
+   "note": "City of Moreton Bay's advert for Civil Services Engineer (Strathpine, Brisbane) says 'We are only seeking applications from current graduates'. Your degree is from 2019 and your Advanced Diploma was finished in February 2026: apply anyway? (Answer: yes or no. Closes 22 Nov.)"
+  },
+  {
+   "at": "2026-11-14T07:57:30Z",
+   "by": "Claude",
+   "result": "skipped",
+   "note": "owner: drop it (14 Nov 2026): current graduates only"
+  }
+ ],
+ "receipt": {},
+ "created_by": "import_backlog.py",
+ "created_at": "2026-11-13T00:40:00Z",
+ "source_run": "20261112T2118Z",
+ "notes": "letter written under the old rules: rewrite before use\nImported from the backlog of 2026-11-13 (old status READY_EMPLOYER_PORTAL). Fit 66% is from the old rubric.\nLane engineer: Council Civil Services Engineer; the advert says it only wants applications from current graduates.\nCheck what \"current graduates\" means in the position description before applying."
+}
