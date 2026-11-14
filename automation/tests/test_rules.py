@@ -1,5 +1,5 @@
 """The rules of 13 Nov 2026 in the scripts: duplicates, statuses and form questions, writing checks,
-the journal's end rows, compact JSON, the compact PDFs, and role lanes. Offline: nothing here calls a service."""
+the journal's end rows, compact JSON, and role lanes. Offline: nothing here calls a service."""
 import io
 import json
 import os
@@ -18,7 +18,6 @@ sys.path.insert(0, str(SCRIPTS))
 import common  # noqa: E402
 import answers as gate  # noqa: E402
 import checks  # noqa: E402
-import compact_pdf  # noqa: E402
 import email_html  # noqa: E402
 import journal  # noqa: E402
 import publish  # noqa: E402
@@ -683,61 +682,7 @@ class CompactJson(unittest.TestCase):
         self.assertGreater((old - new) / old, 0.015)  # measured on real records: about 2 percent
 
 
-# ---------------------------------------------------------------------------------------------- 6. compact PDFs
-
-
-def pdf_pages(path):
-    doc = compact_pdf.pymupdf.open(path)
-    pages = [page.get_text() for page in doc]
-    doc.close()
-    return pages
-
-
-class CompactPdf(unittest.TestCase):
-    def setUp(self):
-        self.dir = tempfile.TemporaryDirectory()
-        self.out = lambda name: os.path.join(self.dir.name, name)
-
-    def tearDown(self):
-        self.dir.cleanup()
-
-    def test_en_dash_becomes_to_only_between_dates(self):
-        for raw, want in [('Feb 2024 – Feb 2026', 'Feb 2024 to Feb 2026'), ('2014–2019', '2014 to 2019'), ('May 2024 – present', 'May 2024 to present'),
-                          ('Mar 2020 – Apr 2022', 'Mar 2020 to Apr 2022'), ('March 2020–April 2022', 'March 2020 to April 2022'),
-                          ('Technical Support Representative – Microsoft Software', 'Technical Support Representative - Microsoft Software'),
-                          ('Junior Estimator – Water, Sewer & Drainage', 'Junior Estimator - Water, Sewer & Drainage'),
-                          ('Coordinated 10–15 workers each day', 'Coordinated 10-15 workers each day'), ('an aside — like this', 'an aside, like this'),
-                          ('Technical Support Representative – Microsoft Software  ·  Concentrix, Philippines  ·  Mar 2020 – Apr 2022',
-                           'Technical Support Representative - Microsoft Software  ·  Concentrix, Philippines  ·  Mar 2020 to Apr 2022')]:
-            self.assertEqual(compact_pdf.clean(raw), want)
-
-    def test_heading_moves_to_the_next_page_with_its_first_item(self):
-        first = 'Designed and documented road geometry, earthworks, pavement systems and stormwater drainage. ' * 3
-        for with_room, pages_wanted in ((False, [1, 2]), (True, [2, 2])):
-            sh = compact_pdf.Sheet(self.out(f'h{with_room}.pdf'))
-            sh.text('Earlier section.')
-            sh.y = compact_pdf.A4.height - compact_pdf.B - 30  # room for the heading line, not for the paragraph under it
-            sh.heading('Education', room=sh.height(first, gap=6) if with_room else 0)
-            sh.text(first, gap=6)
-            sh.save()
-            pages = pdf_pages(sh.path)
-            where = [next(i + 1 for i, t in enumerate(pages) if needle in t) for needle in ('Education', 'Designed and documented')]
-            self.assertEqual(where, pages_wanted)  # without room the heading is stranded on page 1: the old defect
-
-    def test_entry_keeps_heading_role_line_and_first_bullet_together(self):
-        sh = compact_pdf.Sheet(self.out('e.pdf'))
-        sh.y = compact_pdf.A4.height - compact_pdf.B - 45
-        sh.entry('Field Engineer  ·  Grand Travaux, Philippines  ·  Sep 2019 – Feb 2020', ['Assisted with site inspections, daily coordination and quality checks.', 'Tracked procurement.'], heading='Relevant experience')
-        sh.save()
-        pages = pdf_pages(sh.path)
-        self.assertEqual(len(pages), 2); self.assertEqual(pages[0].strip(), '')
-        self.assertLess(pages[1].index('Relevant experience'), pages[1].index('Field Engineer')); self.assertIn('Assisted with site inspections', pages[1])
-
-    # Retired 14 Nov 2026 with compact_pdf.py's resume and letter commands: an email attaches
-    # documents/resume/Marc_Masarate_Resume_<Variant>.pdf and the letter from letter_pdf.py (tests/test_letter_pdf.py).
-
-
-# ---------------------------------------------------------------------------------------------- 7. prefilter and lanes
+# ---------------------------------------------------------------------------------------------- 6. prefilter and lanes
 # Real advert titles from automation/runs/*/candidates*.json (candidates, not_detailed and rejected_titles).
 REAL_TITLES = {
     'drafter': ['Civil Drafter', 'Cadet Civil Drafter', 'Junior Civil Drafter - Perth', 'Trainee Civil Drafter', 'Civil Engineering Draftsperson',

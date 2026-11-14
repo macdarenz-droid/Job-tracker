@@ -17,7 +17,7 @@ import tracker  # noqa: E402
 import checks  # noqa: E402
 import render_pdf  # noqa: E402
 import email_html  # noqa: E402
-import compact_pdf  # noqa: E402
+import pymupdf  # noqa: E402
 import browse  # noqa: E402
 
 
@@ -332,8 +332,8 @@ class EmailHtmlTests(unittest.TestCase):
         entry = {'id': 'x', 'lane': 'drafter', 'resume_variant': 'drafter', 'company': 'Acme', 'cover_letter_text': letter}
         with tempfile.TemporaryDirectory() as d:
             out, _, _ = letter_pdf.build(entry, os.path.join(d, 'l.pdf'), date='14 November 2026')
-            doc = compact_pdf.pymupdf.open(out)
-            uris = [l['uri'] for p in doc for l in p.get_links() if l.get('kind') == compact_pdf.pymupdf.LINK_URI]
+            doc = pymupdf.open(out)
+            uris = [l['uri'] for p in doc for l in p.get_links() if l.get('kind') == pymupdf.LINK_URI]
             self.assertGreaterEqual(uris.count('https://macdarenz-droid.github.io/Portfolio'), 2)   # the header and the letter
             self.assertIn('mailto:macdarenz@gmail.com', uris)
 

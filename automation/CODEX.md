@@ -47,13 +47,14 @@ an ambiguous outcome into a retry or change routes to bypass a prior application
 - Do not send a second CV package just because a portal application was submitted. Any proposed
   post-portal note must independently satisfy AGENTS, owner authority, recipient purpose and
   duplicate checks. Do not say an application was lodged until an actual submission is verified.
-- Speculative drafts use `application_type: SPECULATIVE_ENQUIRY`,
-  `vacancy_status: NO_ADVERTISED_VACANCY_VERIFIED`, and a screen with
-  `company_work_verified: true`, three supported contributions and verified contact evidence.
+- Speculative enquiries use `application_type: SPECULATIVE_ENQUIRY` (at most 3 a week,
+  `config.json -> limits`) and need verified company work, three supported contributions and
+  verified contact evidence (for an email, `email.evidence_url`).
   This is a company/work-scope assessment, not an invented advert.
-- `publish.py build` creates preparation-only records. They cannot be added directly. Inspect
-  every page of the exact final PDFs, then upload and verify SHA-256, ID and authenticated path.
-  A placeholder hash or successful HTML build does not establish PDF QA.
+- An application is a queue entry (`queue.py add`). Its letter PDF comes from `letter_pdf.py` and
+  its resume from `documents/resume/`. Inspect every page of both exact final PDFs before sending
+  or uploading them; after a tracker upload, check the returned SHA-256, ID and authenticated
+  path. A placeholder hash or successful HTML build does not establish PDF QA.
 - Never claim certificates or other files are attached unless the actual final pack includes them.
   Employer closing dates in the advert take precedence over later job-board metadata expiry.
 
