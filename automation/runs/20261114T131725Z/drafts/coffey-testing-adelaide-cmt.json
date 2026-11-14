@@ -1,0 +1,22 @@
+{
+ "lane": "technician",
+ "route": "EMPLOYER_PORTAL",
+ "company": "Coffey Testing Pty Ltd",
+ "role": "Construction Materials Testing Technician - Entry-Level",
+ "url": "https://www.seek.com.au/job/95866662",
+ "seek_id": "95866662",
+ "location": "St Marys, Adelaide SA",
+ "listed_at": "2026-11-13",
+ "closes_at": "2026-12-13",
+ "closes_source": "listing_expiry",
+ "fit": 72,
+ "resume_variant": "technician",
+ "advert_pay": "not stated",
+ "relocation_line": "I will relocate to Adelaide for this role and can start two weeks after an offer.",
+ "cover_letter_text": "Hello,\n\nI am applying for the Entry-Level Construction Materials Testing Technician role with Coffey Testing at your Adelaide Laboratory, advertised on SEEK. Your advert says a new starter works alongside experienced technicians in the laboratory and on construction sites, collecting samples, performing tests and recording results.\n\nFrom April 2019 to February 2020 I worked on construction sites in the Philippines. As project-in-charge engineer I carried out site inspections, safety checks and quality monitoring. As field engineer I assisted with site inspections and quality checks and prepared site reports, material records and progress reports. In February 2026 I completed the Advanced Diploma of Civil Construction Design, where I designed and documented road geometry, earthworks and pavement systems.\n\nI am based in Melton VIC. I will relocate to Adelaide for this role and can start two weeks after an offer. Full working rights in Australia (Subclass 485 visa), no sponsorship needed. Could we arrange a call to talk about the role?\n\nMarc Masarate",
+ "questions": [],
+ "verify_before_submit": ["SEEK apply links out to the Coffey Testing careers site: confirm the Adelaide St Marys entry-level CMT advert is still open", "This is a separate advert from the queued Werribee entry (seek-95393367); do not submit both through one portal form if the portal merges them"],
+ "notes": "Advert: entry level, training academy in week one, lab and site sampling and testing, results into Geotester; manual licence advantageous only; must lift 15kg repeatedly. No mandatory bar found.",
+ "source_run": "20261114T131725Z",
+ "created_by": "grok-job-search"
+}

@@ -1,0 +1,16 @@
+[
+ {"seek_id": "95870684", "company": "B & S Brothers Enterprises Pty Ltd", "title": "Civil Engineering Draftsperson", "reason": "Minimum 3 years experience stated as a requirement (mandatory bar)."},
+ {"seek_id": "95850089", "company": "Kelkane Constructions Pty Ltd", "title": "Civil Engineering Draftsperson", "reason": "Vertex BD proficiency essential and 1 year structural steel detailing required; not in facts.json."},
+ {"seek_id": "95870141", "company": "STP Consultants", "title": "Civil Designer", "reason": "6+ years civil design experience and 12D required; full unrestricted working rights."},
+ {"seek_id": "95273205", "company": "Stantec Australia Pty Ltd", "title": "Civil Drafter (Buildings, Brisbane)", "reason": "Minimum 2 years consultancy civil drafting experience required."},
+ {"seek_id": "95846041", "company": "Stantec Australia Pty Ltd", "title": "Civil Designer (Sunshine Coast)", "reason": "Demonstrated civil designer experience and 12D required; not entry level."},
+ {"seek_id": "95854346", "company": "Aurecon", "title": "Civil Designer, Roads and Highways (Sunshine Coast)", "reason": "Experienced 12D road designer with TMR exposure; not entry level, fit under 65."},
+ {"seek_id": "95843107", "company": "Aurecon", "title": "Civil Designer (Adelaide)", "reason": "5+ years experience and security clearance eligibility required."},
+ {"seek_id": "95852875", "company": "Bathurst Regional Council", "title": "Civil Designer", "reason": "Current NSW Class C licence required; experienced designer role."},
+ {"seek_id": "95840343", "company": "Spiire", "title": "Civil Designer (Townsville)", "reason": "Asks for an established civil designer; Spiire Townsville junior civil designer EOI already contacted 28 Sep 2026."},
+ {"seek_id": "95866662", "company": "Coffey Testing Pty Ltd", "title": "Construction Materials Testing Technician - Entry-Level (Adelaide)", "reason": "Fit 72 and no bar, drafted, but queue.py add refused it: same company and role as open entry seek-95393367 (Werribee). Draft kept in drafts/."},
+ {"seek_id": "95866777", "company": "Cordwells Concrete", "title": "Laboratory Technician (CMT)", "reason": "Rejected in run 20261114T081337Z: lab experience essential."},
+ {"company": "Other SEEK sweep rows (PCP Solutions, Cono, City of Moreton Bay, Pearl Recruitment, AWCON, Power On Cabling, Beveridge Williams, CPB, Aurecon Mackay and Perth, Austral graduate programs, Titan Recruitment, EDGE 12d)", "reason": "Already queued, already screened in earlier ticks, experienced engineer roles, agencies, or formal graduate programs."},
+ {"company": "City of Stonnington", "title": "Technical Officer (Drainage and Development, temporary)", "reason": "Open web find: asset data, street lighting and permit program role needing GIS skills; not a drafting, testing or site lane."},
+ {"company": "LC Water / Core-EP", "title": "Junior Civil Draftsperson / Junior Drafter", "reason": "Open web finds already in the queue (seek-95506594, core-environmental-projects entry)."}
+]
