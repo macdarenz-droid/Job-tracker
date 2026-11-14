@@ -2,21 +2,18 @@
 
 Written by `automation/scripts/queue.py render` from the files in `open/`. Do not edit by hand.
 
-## SEEK (11 open)
+## SEEK (8 open)
 
 | # | Lane | Company | Role | Location | Closes | Link | Note |
 |---|---|---|---|---|---|---|---|
-| 1 | drafter | Newton Denny Chapelle | Civil Engineer / Design Engineer | Lismore or Casuarina, Northern Rivers NSW | 2026-11-25 09:00 (advert) | [seek-95487722](https://www.seek.com.au/job/95487722) |  |
-| 2 | drafter | TTW (NSW) Pty Ltd (Taylor Thomson Whitting) | Trainee Civil Drafter | North Sydney, Sydney NSW | 2026-11-27 (advert) | [seek-95655998](https://www.seek.com.au/job/95655998) |  |
-| 3 | drafter | PROTERRA Group | Civil Designer | Toowoomba, Toowoomba & Darling Downs QLD | 2026-11-27 (advert) | [seek-95636735](https://www.seek.com.au/job/95636735) |  |
-| 4 | drafter | Western Grammar School | Civil Engineering Draftsperson | Plumpton, Sydney NSW | 2026-11-28 (listing expiry) | [seek-95576041](https://www.seek.com.au/job/95576041) |  |
-| 5 | drafter | All Seasons Communications Pty Ltd | Civil Engineering Draftsperson | Perth WA | 2026-11-20 (listing expiry) | [seek-95378071](https://www.seek.com.au/job/95378071) |  |
-| 6 | technician | Mendi Constructions | Quality Assurance Trainee, Civil Construction | Townsville, Northern QLD | 2026-11-18 (listing expiry) | [seek-95347045](https://www.seek.com.au/job/95347045) |  |
-| 7 | engineer | Civilivic Pty Ltd | Site Engineer (Site or Graduate Engineer) | Gympie QLD (Gympie and Sunshine Coast region) | 2026-12-12 (listing expiry) | [seek-95842971](https://www.seek.com.au/job/95842971) |  |
-| 8 | engineer | Bench Excavation and Civil Construction Pty Ltd (BenchHDC) | Civil Engineer / Graduate | Port Adelaide, Adelaide SA | 2026-12-09 (listing expiry) | [seek-95773573](https://www.seek.com.au/job/95773573) |  |
-| 9 | engineer | Fyfe Pty Ltd | Graduate Civil Engineer (Property & Infrastructure) | Adelaide SA | 2026-12-06 (listing expiry) | [seek-95736615](https://www.seek.com.au/job/95736615) |  |
-| 10 | engineer | Jaydo Construction Pty Ltd | Site Engineer - Urban Development - EOI 2027 | Keilor Park, Melbourne VIC | 2026-11-26 (listing expiry) | [seek-95514711](https://www.seek.com.au/job/95514711) |  |
-| 11 | engineer | Central Vic Civil Pty Ltd | Junior Project Manager | Ballarat VIC | 2026-11-19 (listing expiry) | [seek-95372255](https://www.seek.com.au/job/95372255) |  |
+| 1 | drafter | Western Grammar School | Civil Engineering Draftsperson | Plumpton, Sydney NSW | 2026-11-28 (listing expiry) | [seek-95576041](https://www.seek.com.au/job/95576041) |  |
+| 2 | drafter | All Seasons Communications Pty Ltd | Civil Engineering Draftsperson | Perth WA | 2026-11-20 (listing expiry) | [seek-95378071](https://www.seek.com.au/job/95378071) |  |
+| 3 | technician | Mendi Constructions | Quality Assurance Trainee, Civil Construction | Townsville, Northern QLD | 2026-11-18 (listing expiry) | [seek-95347045](https://www.seek.com.au/job/95347045) |  |
+| 4 | engineer | Civilivic Pty Ltd | Site Engineer (Site or Graduate Engineer) | Gympie QLD (Gympie and Sunshine Coast region) | 2026-12-12 (listing expiry) | [seek-95842971](https://www.seek.com.au/job/95842971) |  |
+| 5 | engineer | Bench Excavation and Civil Construction Pty Ltd (BenchHDC) | Civil Engineer / Graduate | Port Adelaide, Adelaide SA | 2026-12-09 (listing expiry) | [seek-95773573](https://www.seek.com.au/job/95773573) |  |
+| 6 | engineer | Fyfe Pty Ltd | Graduate Civil Engineer (Property & Infrastructure) | Adelaide SA | 2026-12-06 (listing expiry) | [seek-95736615](https://www.seek.com.au/job/95736615) |  |
+| 7 | engineer | Jaydo Construction Pty Ltd | Site Engineer - Urban Development - EOI 2027 | Keilor Park, Melbourne VIC | 2026-11-26 (listing expiry) | [seek-95514711](https://www.seek.com.au/job/95514711) |  |
+| 8 | engineer | Central Vic Civil Pty Ltd | Junior Project Manager | Ballarat VIC | 2026-11-19 (listing expiry) | [seek-95372255](https://www.seek.com.au/job/95372255) |  |
 
 ## EMAIL (4 open)
 
@@ -40,8 +37,10 @@ Written by `automation/scripts/queue.py render` from the files in `open/`. Do no
 
 Nothing open.
 
-## Waiting on the owner (10)
+## Waiting on the owner (12)
 
+- **Newton Denny Chapelle, Civil Engineer / Design Engineer** (SEEK, drafter, closes 2026-11-25 09:00, `seek-95487722`): No standing answer for this form question: Have you completed a qualification in engineering? (options: Yes, Certificate I / Yes, Certificate II / Yes, Certificate III / Yes, Certificate IV / Yes, Diploma / Yes, Advanced Diploma / Yes, Associate Degree / Yes, Bachelor Degree / Yes, Bachelor Degree (Honours) / Yes, Graduate Certificate / Yes, Graduate Diploma / Yes, Masters Degree / Yes, Doctoral Degree / I have a qualification in engineering that isn't listed / I don't have a qualification in engineering)
+- **TTW (NSW) Pty Ltd (Taylor Thomson Whitting), Trainee Civil Drafter** (SEEK, drafter, closes 2026-11-27, `seek-95655998`): No standing answer for 2 form questions: Do you have current working rights that allows you to work in the country to are applying to? (options: Yes / No - I need to apply for working rights / I have temporary working rights) | How many years' experience do you have in your current occupation? (options: 10+ years / 5 - 9 years / 1 - 5 Years / 0 - 1 years)
 - **Nassima Design Group, Civil Engineering Draftsperson** (EMPLOYER_PORTAL, drafter, closes not stated, `nassima-design-group-civil-engineering-draftsperson-7b2c2f1e`): The advert text for this job (Nassima Design Group, Civil Engineering Draftsperson, on JobsNext, no closing date) was never saved in the repo, only a short summary, so the 13 Nov re-screen cannot be done and no letter can be written from it. Should a runner re-read the JobsNext advert and save its text so this can be finished, or should this one be dropped? (Answer: re-read it, or drop it.)
 - **Core Environmental Projects (Core-EP), Junior Drafter** (EMAIL, drafter, closes not stated, `core-environmental-projects-co-junior-drafter-27501728`): The advert text for this Junior Drafter job (core-ep.com.au/careers/junior-drafter) was never saved in the repo, only a short summary, so no new letter was written. Should a runner re-read the live advert and then write the letter: yes or no?
 - **LC Water, Junior Civil Draftsperson** (SEEK, drafter, closes 2026-11-26, `seek-95506594`): No standing answer for 2 form questions: How would you rate your English language skills? | Which of the following Microsoft Office products are you experienced with?
