@@ -340,6 +340,11 @@ class QueueCase(unittest.TestCase):
         return q.add(e, self.dir, FACTS, kw.pop('now', NOW), **kw)
 
     def next(self, route='SEEK', now=NOW, by=None, prior=None):
+        if route == 'EMAIL':   # the EMAIL route needs the runner's own send lock (the lock itself: test_queue_core.py)
+            by = by or 'tester'
+            q.write_json(self.dir / q.LOCK_FILE, {'by': by, 'run': '20261113T0100Z', 'taken_at': q.iso(now),
+                                                  'expires_at': q.iso(now + timedelta(minutes=30))})
+            return q.next_entry(route, self.dir, CONFIG, now, by, prior, run='20261113T0100Z')
         return q.next_entry(route, self.dir, CONFIG, now, by, prior)
 
     def put(self, e):
@@ -347,7 +352,8 @@ class QueueCase(unittest.TestCase):
         return q.save(self.dir, q.fill(e))
 
     def applied(self, entry_id, at, kind='seek_confirmation_screen'):
-        return q.mark(self.dir, entry_id, 'applied', 'grok', NOW, kind, 'ref-1', at, facts=FACTS)
+        ref = '18f3a6b2c4d5e6f7' if kind == 'gmail_message_id' else 'ref-1'   # a Gmail message id is 16 hex characters
+        return q.mark(self.dir, entry_id, 'applied', 'grok', NOW, kind, ref, at, facts=FACTS)
 
     def cli(self, *args, now=NOW):
         out, err = io.StringIO(), io.StringIO()
@@ -410,8 +416,10 @@ class AddTests(QueueCase):
         self.assertIn('seek-1.json: cannot be read as JSON', err)
 
     def test_invalid_entries_are_refused(self):
-        bad = [entry(1, lane='labourer'), entry(1, route='JORA'), entry(1, seek_id=''), entry(1, company=''), entry(1, url='seek'),
-               entry(1, closes_at='16 Nov 2026', closes_source='advert'), entry(1, closes_at='2026-11-16'),
+        # (a SEEK url gives the seek_id and a closing date alone is a listing expiry: test_queue_core.py)
+        bad = [entry(1, lane='labourer'), entry(1, route='JORA'), entry(1, seek_id='', url='https://jobs.example.com.au/1'),
+               entry(1, company=''), entry(1, url='seek'),
+               entry(1, closes_at='16 Nov 2026', closes_source='advert'), entry(1, closes_at='2026-11-16', closes_source='none'),
                entry(1, closes_source='advert'), entry(1, status='ASK_OWNER'), entry(1, status='HELD'), entry(1, fit=140),
                email_entry(1, email={'to': '', 'subject': 's', 'body': 'b', 'evidence_url': 'https://x.com.au'}),
                email_entry(1, email={'to': 'jobs@x.com.au', 'subject': 's', 'body': 'b', 'evidence_url': ''}),
@@ -605,16 +613,17 @@ class NextTests(QueueCase):
         self.assertIn('same company and role as seek-1 (OPEN, SEEK)', str(r.exception))
         code, _, err = self.cli('add', self.file('twin.json', twin))
         self.assertEqual(code, 1)
-        self.assertIn('--repeat-ok REASON', err)
+        self.assertNotIn('repeat-ok', err)   # there is no way round it any more
         self.assertEqual(len(q.load(self.dir)), 1)
-        # a second vacancy with the same title is a decision someone makes and writes down
-        self.assertEqual(self.cli('add', self.file('twin.json', twin), '--repeat-ok', 'second vacancy, Adelaide office')[0], 0)
-        self.assertEqual(self.next('EMPLOYER_PORTAL')['repeat_ok'], 'second vacancy, Adelaide office')
+        with self.assertRaises(SystemExit):   # --repeat-ok is gone: argparse refuses it
+            self.cli('add', self.file('twin.json', twin), '--repeat-ok', 'second vacancy, Adelaide office')
+        self.assertEqual(len(q.load(self.dir)), 1)
 
     def test_two_runners_are_never_given_the_same_employer_at_once(self):
-        # the same job found twice with different wording, pushed by two runners: both files exist
+        # another job at the same employer, pushed by a second runner: both files exist (the same job twice stops next
+        # altogether until one is closed: test_queue_core.py)
         self.add(entry(1, company='Fyfe Pty Ltd', role='Graduate Civil Engineer (Property & Infrastructure)'))
-        self.put(entry(2, company='Fyfe', role='Graduate Civil Engineer', route='EMPLOYER_PORTAL', seek_id='', url='https://fyfe.careers-page.com/jobs/1'))
+        self.put(entry(2, company='Fyfe', role='Civil Designer', route='EMPLOYER_PORTAL', seek_id='', url='https://fyfe.careers-page.com/jobs/1'))
         self.assertEqual(self.next('SEEK', by='grok')['id'], 'seek-1')
         with self.assertRaises(q.NothingToDo) as r:
             self.next('EMPLOYER_PORTAL', by='claude')
@@ -622,45 +631,53 @@ class NextTests(QueueCase):
         q.mark(self.dir, 'seek-1', 'failed', 'grok', NOW, note='the form would not load')   # known not to have gone
         self.assertEqual(self.next('EMPLOYER_PORTAL')['company'], 'Fyfe')
 
-    def test_an_employer_applied_to_is_not_approached_again_for_90_days(self):
+    def test_an_employer_applied_to_is_approached_again_only_for_another_role(self):
         self.add(entry(1, company='Fyfe Pty Ltd', role='Graduate Civil Engineer (Property & Infrastructure)'))
-        self.put(email_entry(2, company='Fyfe', role='Graduate Civil Engineer'))   # same job, other wording, already in the queue
         self.applied('seek-1', '2026-11-13T00:30:00Z')
-        with self.assertRaises(q.NothingToDo) as r:
-            self.next('EMAIL')
-        self.assertIn('applied to this employer on 2026-11-13 (seek-1): no repeat within 90 days', str(r.exception))
-        with self.assertRaises(q.Refused) as r:   # and a new one is not accepted
-            self.add(email_entry(3, company='FYFE Australia', role='Civil Designer'))
-        self.assertIn('applied to this employer on 2026-11-13 (seek-1)', str(r.exception))
-        self.assertEqual(self.add(email_entry(4, company='Fyfe', role='Civil Designer', repeat_ok='owner: a different team asked him to apply'))['status'], 'OPEN')
-        self.assertEqual(self.next('EMAIL')['role'], 'Civil Designer')
-        q.mark(self.dir, self.next('EMAIL')['id'], 'skipped', 'test', NOW, note='test')
-        self.assertEqual(self.next('EMAIL', now=NOW + timedelta(days=91))['role'], 'Graduate Civil Engineer')   # after the block, another role may go
+        self.put(email_entry(2, company='Fyfe', role='Graduate Civil Engineer'))   # the same job, other wording
+        for now in (NOW, NOW + timedelta(days=91)):   # for ever, not only for 90 days
+            with self.assertRaises(q.NothingToDo) as r:
+                self.next('EMAIL', now=now)
+            self.assertIn('already applied for this company and role (seek-1)', str(r.exception))
+        # another role at that employer is allowed, and next names the earlier application in the notes
+        self.assertEqual(self.add(email_entry(3, company='FYFE Australia', role='Civil Designer'))['status'], 'OPEN')
+        got = self.next('EMAIL')
+        self.assertEqual(got['role'], 'Civil Designer')
+        self.assertIn('Earlier application at this employer, for another role or outside the repeat block: '
+                      'seek-1 (Graduate Civil Engineer (Property & Infrastructure), APPLIED 2026-11-13).', got['notes'])
         self.assertEqual(self.add(email_entry(5, company='Fyfe & Sons Drafting'))['status'], 'OPEN')   # another company that starts the same
 
-    def test_applications_made_outside_the_queue_block_the_employer(self):
+    def test_applications_made_outside_the_queue_block_the_same_role_for_90_days(self):
         prior = [{'date': '2026-09-25', 'company': 'Australian Ground Technologies', 'role': 'Junior Civil Engineer – Retaining Walls'},
+                 {'date': '2026-10-20', 'company': 'Gamuda', 'role': 'employer portal application receipt (position name blank in the email)'},
                  {'date': '2026-02-18', 'company': 'Old Civil Pty Ltd', 'role': 'Graduate Engineer'}]
         # the advert of 28 Oct 2026 names the company with its trading name in brackets
         for company in ('AGT Operations Pty Ltd (Australian Ground Technologies)', 'Australian Ground Technologies Pty Ltd'):
             with self.assertRaises(q.Refused) as r:
-                self.add(entry(1, company=company, role='Junior Civil Engineer'), prior=prior)
-            self.assertIn('applied to this employer on 2026-09-25 (prior_outreach.json): no repeat within 90 days', str(r.exception))
-        self.add(entry(2, company='Old Civil'), prior=prior)   # more than 90 days ago
+                self.add(entry(1, company=company, role='Civil Engineer - Retaining Walls'), prior=prior)
+            self.assertIn('applied for this company and role on 2026-09-25 (prior_outreach.json): no repeat within 90 days', str(r.exception))
+        with self.assertRaises(q.Refused) as r:   # a record that does not say which role blocks every role there
+            self.add(entry(1, company='Gamuda', role='Civil Designer'), prior=prior)
+        self.assertIn('applied to this employer on 2026-10-20 (prior_outreach.json) and the record does not say for which role', str(r.exception))
+        self.add(entry(2, company='Old Civil', role='Graduate Engineer'), prior=prior)   # the same role, more than 90 days ago
         self.assertEqual(self.next(prior=prior)['id'], 'seek-2')
-        self.put(entry(3, company='Australian Ground Technologies', role='Site Engineer', lane='drafter', listed_at='2026-11-12'))
+        self.put(entry(3, company='Australian Ground Technologies', role='Civil Engineer - Retaining Walls', listed_at='2026-11-12'))
         with self.assertRaises(q.NothingToDo):
-            self.next(prior=prior + [{'date': '2026-11-01', 'company': 'Old Civil Pty Ltd', 'role': 'x'}])
+            self.next(prior=prior + [{'date': '2026-11-01', 'company': 'Old Civil Pty Ltd', 'role': 'Graduate Engineer'}])
         self.assertEqual(self.next(prior=prior)['id'], 'seek-2')   # the one already in the queue is passed over
         self.assertEqual(self.next(now=NOW + timedelta(days=60), prior=prior)['id'], 'seek-3')   # 25 Sep plus 90 days has passed
+        # another role at the employer may go: next names the earlier application
+        self.add(entry(5, company='Australian Ground Technologies', role='Junior Civil Drafter', listed_at='2026-11-13'), prior=prior)
+        self.assertIn('prior_outreach.json (Junior Civil Engineer – Retaining Walls, 2026-09-25)', self.next(prior=prior)['notes'])
+        q.mark(self.dir, 'seek-5', 'skipped', 'test', NOW, note='test')
         # the command line reads the file named by --prior
         q.write_json(self.prior, {'entries': prior})
-        code, _, err = self.cli('add', self.file('agt.json', entry(4, company='Australian Ground Technologies')))
+        code, _, err = self.cli('add', self.file('gamuda.json', entry(4, company='Gamuda Australia', role='Civil Designer')))
         self.assertEqual(code, 1)
         self.assertIn('prior_outreach.json', err)
         self.assertEqual(json.loads(self.cli('next', '--route', 'SEEK')[1])['id'], 'seek-2')
         self.cli('render')
-        self.assertIn('applied to this employer on 2026-09-25', (self.dir / 'APPLY_QUEUE.md').read_text(encoding='utf-8'))
+        self.assertIn('applied for this company and role on 2026-09-25', (self.dir / 'APPLY_QUEUE.md').read_text(encoding='utf-8'))
         self.prior.unlink()   # without the file the check cannot be made: refused, not skipped
         code, _, err = self.cli('next', '--route', 'SEEK')
         self.assertEqual(code, 1)
@@ -672,12 +689,13 @@ class NextTests(QueueCase):
         self.add(entry(2, listed_at='2026-11-01'))
         first = self.next(by='grok')
         self.assertEqual((first['id'], first['attempts'][-1]['result'], first['attempts'][-1]['by']), ('seek-1', 'started', 'grok'))
-        self.assertEqual(self.next(by='grok')['id'], 'seek-2')
+        later = NOW + timedelta(minutes=21)   # an unmarked start counts for the SEEK spacing (test_queue_core.py)
+        self.assertEqual(self.next(now=later, by='grok')['id'], 'seek-2')
         with self.assertRaises(q.NothingToDo) as r:
-            self.next(by='grok')
+            self.next(now=later + timedelta(minutes=21), by='grok')
         self.assertIn('started by grok, no result recorded', str(r.exception))
         q.mark(self.dir, 'seek-1', 'failed', 'grok', NOW, note='the form would not load, nothing was submitted')
-        self.assertEqual(self.next()['id'], 'seek-1')   # a failure known not to have submitted frees it for another try
+        self.assertEqual(self.next(now=later + timedelta(minutes=21))['id'], 'seek-1')   # a failure known not to have submitted frees it for another try
 
     def test_cli_next_prints_the_entry_or_exits_4(self):
         code, out, err = self.cli('next', '--route', 'SEEK')
@@ -808,33 +826,37 @@ class MarkTests(QueueCase):
         self.cli('mark', 'seek-1', 'failed', '--by', 'grok', '--note', 'timeout again')
         self.assertEqual(q.find(self.dir, 'seek-1')[1]['status'], 'OPEN')
 
-    def test_uncertain_holds_the_entry_and_its_twins_until_someone_checks(self):
+    def test_uncertain_holds_the_entry_and_its_role_until_someone_checks(self):
         e = self.add(email_entry(1))
         self.put(entry(2, company='Acme 1 Pty Ltd', role='Civil Designer'))   # another advert of the same employer
         self.next('EMAIL', by='gmail')
         code, out, _ = self.cli('mark', e['id'], 'uncertain', '--by', 'gmail', '--note', 'send call timed out')
-        self.assertEqual(code, 0)
+        self.assertEqual((code, out.strip()), (0, f"{e['id']}: UNCERTAIN"))
         stored = q.find(self.dir, e['id'])[1]
-        self.assertEqual((stored['status'], stored['attempts'][-1]['result']), ('ASK_OWNER', 'uncertain'))
-        self.assertEqual(stored['ask_owner'], 'Unknown whether the application to Acme 1 went (send call timed out). Check Gmail Sent before any retry: did it go?')
+        self.assertEqual((stored['status'], stored['ask_owner'], stored['attempts'][-1]['result']), ('UNCERTAIN', '', 'uncertain'))
+        self.assertTrue((self.dir / 'open' / f"{e['id']}.json").exists())
         with self.assertRaises(q.NothingToDo):   # not retried a minute later
             self.next('EMAIL', now=NOW + timedelta(minutes=1), by='gmail')
-        with self.assertRaises(q.NothingToDo) as r:
-            self.next('SEEK')
-        self.assertIn(f"{e['id']} for the same employer is unresolved: settle it first", str(r.exception))
-        self.assertEqual(self.cli('mark', e['id'], 'uncertain', '--by', 'gmail')[0], 1)   # needs the note
-        # checked: it is in Sent, so it is recorded as applied; had it not gone, "mark ID open" would release it
-        self.assertEqual(self.cli('mark', e['id'], 'applied', '--by', 'claude', '--kind', 'gmail_message_id', '--ref', '18f3a')[0], 0)
-        with self.assertRaises(q.NothingToDo) as r:
-            self.next('SEEK')
-        self.assertIn('applied to this employer on 2026-11-13', str(r.exception))
+        with self.assertRaises(q.Refused) as r:   # the same role again is blocked, as after an application
+            self.add(entry(4, company='Acme 1', role='Civil Drafter'))
+        self.assertIn(f"{e['id']} for this company and role is UNCERTAIN", str(r.exception))
+        self.assertIn(e['id'], self.next('SEEK')['notes'])   # another role may go, like after an application
+        self.assertEqual(self.cli('mark', e['id'], 'uncertain', '--by', 'gmail')[0], 1)
+        # checked: it is in Sent, so it is recorded as applied; had it not gone, "mark ID open --note 'checked: ...'" releases it
+        self.assertEqual(self.cli('mark', e['id'], 'applied', '--by', 'claude', '--kind', 'gmail_message_id', '--ref', '18f3a6b2c4d5e6f7')[0], 0)
+        with self.assertRaises(q.Refused) as r:
+            self.add(entry(4, company='Acme 1', role='Civil Drafter'))
+        self.assertIn(f"already applied for this company and role ({e['id']})", str(r.exception))
 
     def test_uncertain_then_open_releases_the_entry(self):
         self.add(entry(1))
         self.next(by='grok')
         self.assertEqual(self.cli('mark', 'seek-1', 'uncertain', '--by', 'grok', '--note', 'browser closed on submit')[0], 0)
-        self.assertIn('Check the applied jobs list on SEEK', q.find(self.dir, 'seek-1')[1]['ask_owner'])
-        self.assertEqual(self.cli('mark', 'seek-1', 'open', '--by', 'grok', '--note', 'not in the applied list')[0], 0)
+        self.assertEqual(q.find(self.dir, 'seek-1')[1]['status'], 'UNCERTAIN')
+        code, _, err = self.cli('mark', 'seek-1', 'open', '--by', 'grok', '--note', 'not in the applied list')
+        self.assertEqual(code, 1)   # an UNCERTAIN entry opens only with a note that starts "checked:"
+        self.assertIn('the applied jobs list on SEEK', err)
+        self.assertEqual(self.cli('mark', 'seek-1', 'open', '--by', 'grok', '--note', 'checked: not in the applied list')[0], 0)
         self.assertEqual(self.next()['id'], 'seek-1')
 
     def test_failed_final_closes_the_entry(self):
@@ -1082,9 +1104,9 @@ class ReportTests(QueueCase):
         self.assertEqual(code, 0)
         self.assertEqual(json.loads(out), {
             'queue_open': {'SEEK': 2, 'EMAIL': 1, 'EMPLOYER_PORTAL': 0, 'EMPLOYER_FORM': 0, 'total': 3},
-            'applied_last_7_days': 1, 'applied_total': 2, 'expired_unsubmitted_total': 1, 'ask_owner_open': 2,
+            'applied_last_7_days': 1, 'applied_total': 2, 'expired_unsubmitted_total': 1, 'ask_owner_open': 2, 'uncertain': 0,
             'open_with_letter_to_rewrite': 0})
-        self.assertIn('queue_open: SEEK 2, EMAIL 1, EMPLOYER_PORTAL 0, EMPLOYER_FORM 0, total 3', self.cli('stats')[1])
+        self.assertIn('waiting (OPEN, ready or held), queue_open: SEEK 2, EMAIL 1, EMPLOYER_PORTAL 0, EMPLOYER_FORM 0, total 3', self.cli('stats')[1])
 
     def test_list(self):
         self.build()
@@ -1116,9 +1138,12 @@ class ReportTests(QueueCase):
         code, out, _ = self.cli('check')
         self.assertEqual(code, 1)
         self.assertIn('same company and role as', out)
+        self.assertIn('both waiting: mark one of them skipped', out)
         e = q.read_json(twin)
-        e['repeat_ok'] = 'second vacancy'
+        e['repeat_ok'] = 'second vacancy'   # no longer a way round it
         q.write_json(twin, e)
+        self.assertEqual(self.cli('check')[0], 1)
+        self.assertEqual(self.cli('mark', e['id'], 'skipped', '--by', 'claude', '--reason', 'the same job as seek-1')[0], 0)
         self.assertEqual(self.cli('check')[0], 0)
 
     def test_render_shows_a_closing_time_and_every_open_question(self):

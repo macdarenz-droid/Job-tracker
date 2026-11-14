@@ -20,9 +20,12 @@ Every count is a whole number, or null when this runner could not check it (no G
 Any other field name is refused. Rows written before 13 Nov 2026 used new, prepared, ready, held
 and sent; they are still read (weekly counts sent as emails_sent and applied) but cannot be written.
 The stage is stored in lower case without spaces around it, so stage=END is an end row and is checked.
+RUN_ID is the id journal.py start printed (for example 20261114T0202Z): note refuses anything else, so a run id
+lost between shell calls ("note stage=end ...") is refused instead of being written under the run id "stage=end".
 """
 import argparse
 import json
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -31,6 +34,7 @@ from common import CONFIG, ROOT, now_iso
 
 JOURNAL = ROOT / 'journal.jsonl'
 RUNS = ROOT / 'runs'
+RUN_ID = re.compile(r'\d{8}T\d{4}Z')  # what start() makes: %Y%m%dT%H%MZ
 COUNTS = ('queue_open', 'applied', 'emails_sent', 'seek_submitted', 'portal_submitted', 'expired_unsubmitted',
           'replies', 'interviews', 'new_adverts_screened', 'queued', 'rejected', 'ask_owner')
 END_FIELDS = COUNTS + ('nothing_new', 'note')
@@ -140,6 +144,10 @@ def main(argv=None):
     if a.cmd == 'start':
         print(start())
     elif a.cmd == 'note':
+        if not RUN_ID.fullmatch(a.run_id):
+            why = ' It looks like a KEY=VALUE field, so the run id is missing.' if '=' in a.run_id else ''
+            sys.exit(f"note refused: {a.run_id!r} is not a run id.{why} Give the id journal.py start printed first, typed out "
+                     "(shell variables do not last between calls): journal.py note 20261114T0202Z stage=end ...")
         fields = {}
         for kv in a.fields:
             k, _, v = kv.partition('=')

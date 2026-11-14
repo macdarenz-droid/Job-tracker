@@ -607,10 +607,10 @@ class JournalRows(unittest.TestCase):
 
     def test_command_line_refuses_with_the_message(self):
         with self.assertRaises(SystemExit) as stop:
-            journal.main(['note', 'r', 'stage=end', 'new=2', 'held=1'])
+            journal.main(['note', '20261113T2100Z', 'stage=end', 'new=2', 'held=1'])
         self.assertIn('Allowed: queue_open, applied', str(stop.exception.code))
         with redirect_stdout(io.StringIO()) as out:
-            journal.main(['note', 'r', 'stage=end', 'note=All quiet.'] + [f'{k}={json.dumps(v)}' for k, v in END.items()])
+            journal.main(['note', '20261113T2100Z', 'stage=end', 'note=All quiet.'] + [f'{k}={json.dumps(v)}' for k, v in END.items()])
         self.assertEqual(json.loads(out.getvalue())['seek_submitted'], 3)
 
     def test_weekly_totals_by_iso_week_in_melbourne_time_and_old_rows_still_read(self):
