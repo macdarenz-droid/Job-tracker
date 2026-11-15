@@ -40,6 +40,13 @@
    "result": "linkout",
    "note": "the advert gives this address for enquiries; applications go through the job board Apply button",
    "run": "20261115T214215Z"
+  },
+  {
+   "at": "2026-11-15T22:30:53Z",
+   "by": "Grok",
+   "result": "started",
+   "note": "",
+   "run": "20261115T213212Z"
   }
  ],
  "receipt": {},
