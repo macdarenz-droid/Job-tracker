@@ -26,55 +26,129 @@
  "questions": [
   {
    "question": "Which of the following statements best describes your right to work in Australia?",
-   "options": [],
-   "answer": "Subclass 485 Temporary Graduate visa with full working rights until December 2027.",
-   "basis": "answers.right_to_work.free_text",
+   "options": [
+    "I'm an Australian citizen",
+    "I'm a permanent resident and/or NZ citizen",
+    "I have a family/partner visa with no restrictions",
+    "I have a graduate temporary work visa",
+    "I have a holiday temporary work visa",
+    "I have a temporary visa with restrictions on work location (e.g. skilled regional visa 491)",
+    "I have a temporary protection or safe haven enterprise work visa",
+    "I have a temporary visa with no restrictions (e.g. doctoral student)",
+    "I have a temporary visa with restrictions on work hours (e.g. student visa, retirement visa)",
+    "I have a temporary visa with restrictions on industry (e.g. temporary activity visa 408)",
+    "I require sponsorship to work for a new employer (e.g. 482, 457)"
+   ],
+   "answer": "I have a graduate temporary work visa",
+   "basis": "answers.right_to_work.choose",
    "status": "answered"
   },
   {
    "question": "What's your expected annual base salary?",
-   "options": [],
-   "answer": "80000",
+   "options": [
+    "$30k",
+    "$35k",
+    "$40k",
+    "$45k",
+    "$50k",
+    "$55k",
+    "$60k",
+    "$65k",
+    "$70k",
+    "$80k",
+    "$90k",
+    "$100k",
+    "$110k",
+    "$120k",
+    "$130k",
+    "$140k",
+    "$150k",
+    "$170k",
+    "$200k",
+    "$250k",
+    "$300k",
+    "$350k",
+    "$350k+"
+   ],
+   "answer": "$80k",
    "basis": "answers.expected_salary.rule",
    "status": "answered"
   },
   {
    "question": "How many years' experience do you have as a site engineer?",
-   "options": [],
-   "answer": "Less than 1 year (11 months, April 2019 to February 2020)",
+   "options": [
+    "No experience",
+    "Less than 1 year",
+    "1 year",
+    "2 years",
+    "3 years",
+    "4 years",
+    "5 years",
+    "More than 5 years"
+   ],
+   "answer": "Less than 1 year",
    "basis": "answers.years_of_experience.civil engineer, site engineer, project engineer, construction industry",
    "status": "answered"
   },
   {
    "question": "How much notice are you required to give your current employer?",
-   "options": [],
+   "options": [
+    "None, I'm ready to go now",
+    "1 week",
+    "2 weeks",
+    "3 weeks",
+    "4 weeks",
+    "5 weeks",
+    "6 or more weeks"
+   ],
    "answer": "2 weeks",
    "basis": "answers.notice_period",
    "status": "answered"
   },
   {
    "question": "How many years of Road Construction experience do you have?",
-   "options": [],
+   "options": [
+    "No experience",
+    "Less than 1 year",
+    "1 year",
+    "2 years",
+    "3 years",
+    "4 years",
+    "5 years",
+    "More than 5 years"
+   ],
    "answer": "No experience",
    "basis": "answers.owner_answers",
    "status": "answered"
   },
   {
    "question": "How many years of experience do you have in the Civil Earthworks Industry?",
-   "options": [],
+   "options": [
+    "No experience",
+    "Less than 1 year",
+    "1 year",
+    "2 years",
+    "3 years",
+    "4 years",
+    "5 years",
+    "More than 5 years"
+   ],
    "answer": "No experience",
    "basis": "answers.owner_answers",
    "status": "answered"
   },
   {
    "question": "Do you hold a Construction Induction Safety certificate (White Card)?",
-   "options": [],
+   "options": [
+    "Yes",
+    "No"
+   ],
    "answer": "Yes",
    "basis": "answers.white_card",
    "status": "answered"
   }
  ],
- "status": "OPEN",
+ "status": "APPLIED",
  "ask_owner": "",
  "attempts": [
   {
@@ -89,9 +163,21 @@
    "result": "started",
    "note": "",
    "run": "20261115T213212Z"
+  },
+  {
+   "at": "2026-11-15T22:09:09Z",
+   "by": "Grok",
+   "result": "applied",
+   "note": "",
+   "run": "20261115T213212Z"
   }
  ],
- "receipt": {},
+ "receipt": {
+  "at": "2026-11-15T22:09:09Z",
+  "by": "Grok",
+  "kind": "seek_confirmation_screen",
+  "ref": "SEEK confirmation screen shown"
+ },
  "created_by": "import_backlog.py",
  "created_at": "2026-11-13T00:40:00Z",
  "source_run": "20261112T1617Z",
