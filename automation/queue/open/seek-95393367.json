@@ -12,6 +12,8 @@
  "closes_at": "2026-11-20",
  "closes_source": "listing_expiry",
  "fit": 68,
+ "sponsorship_signal": "",
+ "regional": null,
  "resume_variant": "technician",
  "relocation_line": "",
  "cover_letter_text": "Hi Coffey Testing team,\n\nI graduated in February 2026 with an Advanced Diploma of Civil Construction Design, and I'd like to start out as a materials testing technician. Your advert says new starters learn alongside experienced technicians, in the lab and on site, so I wanted to apply.\n\nOn site in the Philippines in 2019 and 2020, I carried out inspections and quality checks and kept the material records, working closely with engineers, subcontractors and suppliers. Later, in the diploma, I worked with AS 1289 and AS 1726.\n\nI live in Melton with my own car and a driver's licence, have full working rights in Australia (Subclass 485 visa), and can start two weeks after an offer. Glad to chat any time.\n\nKind regards,\nMarc Masarate",
@@ -73,6 +75,13 @@
    "by": "Grok",
    "result": "asked_owner",
    "note": "form question with no standing answer: First"
+  },
+  {
+   "at": "2026-11-15T06:39:53Z",
+   "by": "Grok",
+   "result": "started",
+   "note": "",
+   "run": "20261115T062804Z"
   }
  ],
  "receipt": {},
