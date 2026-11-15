@@ -14,11 +14,11 @@
  "fit": 62,
  "resume_variant": "engineer",
  "relocation_line": "",
- "cover_letter_text": "",
+ "cover_letter_text": "Hi J&P Building Solutions team,\n\nI'm Marc, and I'm looking for a graduate engineering role, so I'd like to apply for your Graduate Civil/Structural Engineer position. I hold a Bachelor of Science in Civil Engineering from the Philippines (2019), and in February 2026 I graduated with an Advanced Diploma of Civil Construction Design.\n\nOn a community hall renovation in the Philippines in 2019, I reviewed the structural and architectural drawings and checked the work against them. I also coordinated 10 to 15 workers a day and kept the client up to date. I've modelled a pedestrian truss bridge in 3D in Revit, and a footing and column in AutoCAD.\n\nI'm in Melton with my own car, I can start two weeks after an offer, and I have full working rights in Australia (Subclass 485 visa). Thanks for your time, and I'm happy to chat.\n\nKind regards,\nMarc Masarate",
  "email": {
   "to": "admin@jpbs.com.au",
-  "subject": "",
-  "body": "",
+  "subject": "Graduate Civil/Structural Engineer, Marc Masarate",
+  "body": "Hi J&P Building Solutions team,\n\nI saw your Graduate Civil/Structural Engineer role on SEEK and would like to apply. My resume and cover letter are attached.\n\nIf you'd like to see some of my drawings first, the portfolio link is below. It includes a typical two-lane road cross-section I drew in AutoCAD for the diploma.\n\nI'm based in Melton and can come in for a chat whenever it suits you. Thanks for your time.\n\nKind regards,\nMarc Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
   "evidence_url": ""
  },
  "questions": [],
@@ -36,5 +36,5 @@
  "created_by": "import_backlog.py",
  "created_at": "2026-11-13T00:40:00Z",
  "source_run": "20261112T0116Z",
- "notes": "letter written under the old rules: rewrite before use\nImported from the backlog of 2026-11-13 (old status PREPARED_NOT_SENT). Fit 62% is from the old rubric.\nThe email address is known from a journal note only (advert not saved): find the page where the employer publishes it and record it with queue.py letter --evidence-url before this can be sent.\nNo letter text was in the repo for this find: write one."
+ "notes": "Imported from the backlog of 2026-11-13 (old status PREPARED_NOT_SENT). Fit 62% is from the old rubric.\nThe email address is known from a journal note only (advert not saved): find the page where the employer publishes it and record it with queue.py letter --evidence-url before this can be sent.\nNo letter text was in the repo for this find: write one."
 }
