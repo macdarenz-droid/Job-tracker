@@ -12,6 +12,8 @@
  "closes_at": "2026-12-09",
  "closes_source": "listing_expiry",
  "fit": 66,
+ "sponsorship_signal": "",
+ "regional": null,
  "resume_variant": "engineer",
  "relocation_line": "I will relocate to Adelaide for this role and can start two weeks after an offer.",
  "cover_letter_text": "Hi BenchHDC team,\n\nMy name's Marc, and I'm looking for a graduate engineer role. I graduated in February 2026 with an Advanced Diploma of Civil Construction Design, and back in 2019 I finished a civil engineering degree in the Philippines. Your Port Adelaide job comes with full training in directional drilling, so I'd like to apply.\n\nFrom April 2019 to February 2020 I worked on two building sites in the Philippines. On the first I coordinated a crew of 10 to 15 each day and kept the client up to date. These days I work casually at a bp service station in Melbourne.\n\nI'm happy to move to Adelaide and can start two weeks after an offer. I have full working rights in Australia (Subclass 485 visa) and a White Card. Thanks for reading, and I hope to talk soon.\n\nKind regards,\nMarc Masarate",
@@ -60,7 +62,15 @@
  ],
  "status": "OPEN",
  "ask_owner": "",
- "attempts": [],
+ "attempts": [
+  {
+   "at": "2026-11-15T22:29:27Z",
+   "by": "Grok",
+   "result": "started",
+   "note": "",
+   "run": "20261115T213212Z"
+  }
+ ],
  "receipt": {},
  "created_by": "import_backlog.py",
  "created_at": "2026-11-13T00:40:00Z",
