@@ -371,3 +371,4 @@
 {"run_id": "20261114T213411Z", "at": "2026-11-14T21:46:12.000Z", "stage": "end", "queue_open": 16, "applied": 1, "seek_submitted": 1, "emails_sent": null, "portal_submitted": 0, "expired_unsubmitted": 0, "replies": null, "interviews": null, "new_adverts_screened": 0, "queued": 0, "rejected": 0, "ask_owner": 12, "nothing_new": true}
 {"run_id": "20261115T013511Z", "at": "2026-11-15T01:35:11.000Z", "stage": "start"}
 {"run_id": "20261115T013511Z", "at": "2026-11-15T01:43:10.000Z", "stage": "end", "queue_open": 14, "applied": 2, "seek_submitted": 1, "emails_sent": null, "portal_submitted": 0, "expired_unsubmitted": 0, "replies": null, "interviews": null, "new_adverts_screened": 0, "queued": 0, "rejected": 0, "ask_owner": 13, "nothing_new": true}
+{"run_id": "20261115T025236Z", "at": "2026-11-15T02:52:36.000Z", "stage": "start"}
