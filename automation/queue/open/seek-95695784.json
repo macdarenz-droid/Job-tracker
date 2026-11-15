@@ -23,9 +23,114 @@
   "body": "",
   "evidence_url": ""
  },
- "questions": [],
- "status": "OPEN",
- "ask_owner": "",
+ "questions": [
+  {
+   "question": "First Name (legal name shown on your Drivers Licence/Passport):",
+   "options": [],
+   "answer": "",
+   "basis": "",
+   "status": "unanswered"
+  },
+  {
+   "question": "Surname (legal name shown on your Drivers Licence/Passport):",
+   "options": [],
+   "answer": "",
+   "basis": "",
+   "status": "unanswered"
+  },
+  {
+   "question": "Residential Address:",
+   "options": [],
+   "answer": "",
+   "basis": "",
+   "status": "unanswered"
+  },
+  {
+   "question": "Mobile Phone Number:",
+   "options": [],
+   "answer": "0478 764 077",
+   "basis": "identity.phone",
+   "status": "answered"
+  },
+  {
+   "question": "Email:",
+   "options": [],
+   "answer": "macdarenz@gmail.com",
+   "basis": "identity.email",
+   "status": "answered"
+  },
+  {
+   "question": "Do you identify as an Aboriginal or Torres Strait Islander?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer": "",
+   "basis": "",
+   "status": "unanswered"
+  },
+  {
+   "question": "What is your current residential address?",
+   "options": [],
+   "answer": "",
+   "basis": "",
+   "status": "unanswered"
+  },
+  {
+   "question": "Are you willing to travel?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer": "Yes",
+   "basis": "answers.willing_to_travel_or_fifo",
+   "status": "answered"
+  },
+  {
+   "question": "Have you previously worked for Martinus Rail?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer": "",
+   "basis": "",
+   "status": "unanswered"
+  },
+  {
+   "question": "What are you salary expectations? (base salary, excluding super):",
+   "options": [],
+   "answer": "65000 to 75000",
+   "basis": "answers.expected_salary.rule",
+   "status": "answered"
+  },
+  {
+   "question": "How did you hear about us?",
+   "options": [
+    "Martinus Rail Website",
+    "LinkedIn",
+    "Seek",
+    "Facebook",
+    "Specific Project",
+    "Referred by a work colleague",
+    "Referred by a mate",
+    "Referred by someone at Martinus Rail",
+    "Recruitment agency",
+    "Other"
+   ],
+   "answer": "",
+   "basis": "",
+   "status": "unanswered"
+  },
+  {
+   "question": "What is the earliest date you can start with us?",
+   "options": [],
+   "answer": "",
+   "basis": "",
+   "status": "unanswered"
+  }
+ ],
+ "status": "ASK_OWNER",
+ "ask_owner": "No standing answer for 8 form questions: First Name (legal name shown on your Drivers Licence/Passport): | Surname (legal name shown on your Drivers Licence/Passport): | Residential Address: | Do you identify as an Aboriginal or Torres Strait Islander? (options: Yes / No) | What is your current residential address? | Have you previously worked for Martinus Rail? (options: Yes / No) | How did you hear about us? (options: Martinus Rail Website / LinkedIn / Seek / Facebook / Specific Project / Referred by a work colleague / Referred by a mate / Referred by someone at Martinus Rail / Recruitment agency / Other) | What is the earliest date you can start with us?",
  "attempts": [
   {
    "at": "2026-11-15T06:35:28Z",
@@ -33,11 +138,18 @@
    "result": "started",
    "note": "",
    "run": "20261115T062804Z"
+  },
+  {
+   "at": "2026-11-15T06:39:34Z",
+   "by": "Grok",
+   "result": "asked_owner",
+   "note": "form question with no standing answer: First Name (legal name shown on your Drivers Licence/Passport):"
   }
  ],
  "receipt": {},
  "created_by": "import_backlog.py",
  "created_at": "2026-11-13T00:40:00Z",
  "source_run": "20261109T1818Z",
- "notes": "Imported from the backlog of 2026-11-13 (old status READY_EMPLOYER_PORTAL). Fit 62% is from the old rubric."
+ "notes": "Imported from the backlog of 2026-11-13 (old status READY_EMPLOYER_PORTAL). Fit 62% is from the old rubric.",
+ "advert_pay": "not stated"
 }
