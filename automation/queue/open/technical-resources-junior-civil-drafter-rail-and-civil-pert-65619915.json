@@ -24,8 +24,8 @@
   "evidence_url": ""
  },
  "questions": [],
- "status": "OPEN",
- "ask_owner": "",
+ "status": "ASK_OWNER",
+ "ask_owner": "Pre-submit check needs a Gmail search for Technical Resources; Grok has no Gmail access. Claude runner or owner: run the Gmail check, then reopen.",
  "attempts": [
   {
    "at": "2026-11-15T21:47:04Z",
@@ -46,6 +46,13 @@
    "by": "Grok",
    "result": "started",
    "note": "",
+   "run": "20261115T213212Z"
+  },
+  {
+   "at": "2026-11-15T22:31:05Z",
+   "by": "Grok",
+   "result": "asked_owner",
+   "note": "Pre-submit check needs a Gmail search for Technical Resources; Grok has no Gmail access. Claude runner or owner: run the Gmail check, then reopen.",
    "run": "20261115T213212Z"
   }
  ],
