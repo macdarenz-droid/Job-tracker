@@ -165,7 +165,7 @@
  "never_mention": [
   "residency or migration goals",
   "skills assessments or visa plans beyond the work-rights line",
-  "sponsorship requests unless the advert asks",
+  "sponsorship, even 'no sponsorship needed', unless the employer asks (then only the answers in answers -> future_visa_sponsorship and sponsorship_free_text)",
   "referee names or numbers",
   "assessor or classmate names",
   "school IDs",
@@ -202,7 +202,12 @@
   "willing_to_relocate": "Yes, anywhere in Australia",
   "willing_to_travel_or_fifo": "Yes",
   "manual_licence": "No (automatic)",
-  "future_visa_sponsorship": "Not answered here: if a form asks whether he will need sponsorship in the future, skip and report (the owner decides this wording). 'Do you need sponsorship to work now?': No.",
+  "future_visa_sponsorship": "Owner, 15 Nov 2026. 'Do you need sponsorship to work now?': No (true: full working rights until December 2027); the same when a form asks whether he requires it currently, to start or to work for the employer. 'Will you now or in the future require sponsorship?': Yes (true: he wants sponsorship later); the same for in the future, at any time, long term, during employment, going to, expect or anticipate, to remain or stay in Australia, to continue working and will you require. With options: the one option that says Yes, or Yes in the future, and nothing more; never one that says he needs it now, and when two Yes options differ on now and the future in a way that does not fit, or a plain Yes sits beside an option that names now or the future, the question goes to the owner. A question about now whose options offer the future ('Yes, in the future') is answered with that option, never No (which would say never). Someone else's sponsorship, or sponsorship for another country, is not his to answer. Sponsorship is never mentioned in a letter, email, resume or free-text answer unless the question asks about it.",
+  "sponsorship_free_text": {
+   "text": "I'd be glad to discuss this in person. Could you tell me about your sponsorship requirements?",
+   "future_prefix": "Yes, in the future.",
+   "use": "Owner, 15 Nov 2026: the answer to a free-text question about sponsorship or visa requirements; for a question about the future (now or in the future, at any time, long term), future_prefix goes first."
+  },
   "engineers_australia_membership_or_recognition": "Not on record: skip and report. Never tick member, eligible or assessed.",
   "qualification_questions": {
    "civil engineering": "Yes: Bachelor of Science in Civil Engineering (2019)",

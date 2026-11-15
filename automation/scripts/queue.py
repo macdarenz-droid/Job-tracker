@@ -94,8 +94,10 @@ has started and not marked, is a speculative enquiry once limits.max_speculative
 applied for, left uncertain or started in this ISO week (Melbourne time), still carries a letter marked "rewrite
 before use", has a letter or email that fails checks.py's letter_issues or email_issues (the same rules as
 `checks.py draft`; an EMAIL entry needs its letter), has no email text or no evidence_url (EMAIL route), or was
-started by a runner that recorded no result. Advertised vacancies go before speculative enquiries, then lane, then
-the soonest stated closing date, then the newest listing. With --by (and --run, the session's run id) it records the
+started by a runner that recorded no result. Advertised vacancies go before speculative enquiries, then lane; within a
+lane, adverts that offer or consider sponsorship (sponsorship_signal), then jobs in regional areas (regional, or
+worked out from the location when an entry has none: config.json -> regional_areas); then the soonest
+stated closing date, then the newest listing. With --by (and --run, the session's run id) it records the
 start with that run and prints on stderr, after the entry, the git commands that commit and push that claim (git pull
 --rebase --autostash, so the runner's own journal line does not stop it): run them before submitting, and finish
 every entry it hands out with a mark. It also prints on stderr each form question as 'Q: <question> | give:
@@ -173,6 +175,10 @@ Entry fields for add (one JSON object):
             SPECULATIVE_ENQUIRY; a role that starts "Speculative enquiry" is SPECULATIVE_ENQUIRY); location; listed_at
             (YYYY-MM-DD); closes_at (YYYY-MM-DD, or YYYY-MM-DDThh:mm when the advert states a time) with closes_source
             (advert or listing_expiry; listing_expiry when closes_at is given without it); fit (0 to 100);
+            sponsorship_signal (what the advert says: offered, considered or ""; worked out from advert_text or a SEEK
+            candidate's content_text when not given, and that text is not stored); regional (true, false or null; worked
+            out from location by config.json -> regional_areas when not given): both rank only, never written into an
+            application;
             resume_variant (the lane when not given); relocation_line; cover_letter_text; questions (["exact text"]
             or [{"question": ..., "options": [...]}], answered from facts.json); advert_pay (the advert's own pay
             text, which decides the salary answer, or "not stated"; a SEEK candidate's salary text is taken as it;
@@ -268,7 +274,7 @@ DATE_ONLY = re.compile(r'\s*(?:(?:19|20)\d\d(?:-\d\d-\d\d)?|\d{1,2}/\d{1,2}/(?:1
 NOT_YEAR = lambda digits: len(digits) >= 3 and not re.fullmatch(r'(?:19|20)\d\d', digits)
 CLOCK_SLACK = timedelta(minutes=5)   # how far ahead of now a recorded time may be (clocks differ a little)
 FIELDS = ('id', 'lane', 'route', 'application_type', 'company', 'role', 'location', 'url', 'seek_id', 'listed_at', 'closes_at',
-          'closes_source', 'fit', 'resume_variant', 'relocation_line', 'cover_letter_text', 'email', 'questions', 'status',
+          'closes_source', 'fit', 'sponsorship_signal', 'regional', 'resume_variant', 'relocation_line', 'cover_letter_text', 'email', 'questions', 'status',
           'ask_owner', 'attempts', 'receipt', 'created_by', 'created_at', 'source_run', 'notes')
 
 
@@ -633,14 +639,15 @@ def fill(entry):
     """A copy of the entry with every field present, in the standard order."""
     e = json.loads(json.dumps(entry))
     e['seek_id'] = str(e.get('seek_id') or '').strip()
-    defaults = {'location': '', 'listed_at': '', 'closes_at': '', 'closes_source': 'none', 'fit': None,
-                'resume_variant': e.get('lane'), 'relocation_line': '', 'cover_letter_text': '', 'questions': [],
+    defaults = {'location': '', 'listed_at': '', 'closes_at': '', 'closes_source': 'none', 'fit': None, 'sponsorship_signal': '',
+                'regional': None, 'resume_variant': e.get('lane'), 'relocation_line': '', 'cover_letter_text': '', 'questions': [],
                 'status': 'OPEN', 'ask_owner': '', 'attempts': [], 'receipt': {}, 'created_by': '', 'created_at': '',
                 'source_run': '', 'notes': ''}
     for k, v in defaults.items():
-        if e.get(k) is None and k != 'fit':
+        if e.get(k) is None and k not in ('fit', 'regional'):
             e[k] = v
     e.setdefault('fit', None)
+    e.setdefault('regional', None)
     e['email'] = {k: str((e.get('email') or {}).get(k) or '') for k in ('to', 'subject', 'body', 'evidence_url')}
     questions = [{'question': q} if isinstance(q, str) else q for q in e['questions']]
     e['questions'] = [{'question': ' '.join(str(q.get('question') or '').split()), 'options': list(q.get('options') or []),
@@ -708,6 +715,8 @@ def validate(e, facts=None):
     need(bool(e.get('closes_at')) == (e.get('closes_source') in ('advert', 'listing_expiry')),
          'closes_at and closes_source disagree (a date needs advert or listing_expiry; no date needs none)')
     need(e.get('fit') is None or (isinstance(e['fit'], (int, float)) and 0 <= e['fit'] <= 100), 'fit: a percentage or null')
+    need(e.get('sponsorship_signal', '') in SPONSOR_SIGNALS, 'sponsorship_signal: offered, considered or "" (what the advert says about sponsorship)')
+    need(e.get('regional') is None or isinstance(e['regional'], bool), 'regional: true, false or null (config.json -> regional_areas)')
     need(e.get('status') in STATUSES, f'status: one of {", ".join(STATUSES)}')
     ask = str(e.get('ask_owner') or '')
     need(e.get('status') != 'ASK_OWNER' or ask.strip(), 'ask_owner: ASK_OWNER needs its one-line question')
@@ -907,6 +916,11 @@ def add(entry, qdir=QUEUE_DIR, facts=None, now=None, by=None, config=None, prior
     e = dict(entry)
     title = e.pop('title', None)
     salary = e.pop('salary', None)   # a SEEK candidate's salary text: the advert's own pay
+    advert_text = [e.pop(k, None) for k in ('advert_text', 'content_text')]   # read for the targeting fields, never stored
+    if e.get('sponsorship_signal') is None:
+        e['sponsorship_signal'] = sponsorship_signal('\n'.join(t for t in advert_text if isinstance(t, str)))
+    if e.get('regional') is None:
+        e['regional'] = regional(e.get('location'), config)
     if 'advert_pay' not in e and isinstance(salary, str) and salary.strip():
         e['advert_pay'] = ' '.join(salary.split())
     if not str(e.get('role') or '').strip() and str(title or '').strip():
@@ -966,8 +980,144 @@ def lane_rank(e, config):
     return lane.get('rank') or LANES.index(e['lane']) + 1
 
 
+# ---------- targeting (owner, 15 Nov 2026: sponsor-friendly adverts first, then jobs in regional areas) ----------
+# sponsorship_signal: what the advert itself says about sponsorship. 'offered' (available, offered, provided, we can or
+# will sponsor, a sponsorship pathway, 'Visa sponsorship: Yes', an accredited sponsor), 'considered' (may be available,
+# will be considered, negotiable, for the right candidate, applicants requiring sponsorship welcome, a DAMA or labour
+# agreement), '' (nothing, or anything negative). Read sentence by sentence; a sentence that names sponsorship and has any
+# negative word in it ('sponsorship is not available', 'no sponsorship', 'unable to consider applicants who require
+# sponsorship', 'without the need for sponsorship'), or a work-rights bar anywhere ('must have full working rights',
+# 'citizens and permanent residents only'), makes the whole advert ''. Sponsoring a club or an event is not visa
+# sponsorship. Ranking only: no letter, email or answer ever mentions it (APPLY.md section 8).
+SPONSOR_SIGNALS = ('offered', 'considered', '')
+SPONSOR_TERM = re.compile(r'\bsponsor\w*|\b(?:pathway to|path to) (?:permanent residen\w*|pr)\b|\bpr pathway\b'
+                          r'|\bdama\b|\bdesignated area migration agreement\b|\blabour agreement\b', re.I)
+SPONSOR_DENIED = re.compile(r"\b(?:no|not|unable|cannot|can't|cant|won't|wont|don't|dont|doesn't|never|without|nor|isn't|aren't"
+                            r"|unavailable|ineligible|unfortunately|regret\w*)\b|\bn/a\b", re.I)
+SPONSOR_COMMUNITY = re.compile(r'\bsponsor\w*\b[^.;!?\n]{0,30}\b(?:local|community|charit\w*|sporting|sports?|clubs?|footy|football|cricket'
+                               r'|netball|soccer|festivals?|events?)\b|\bsponsored by\b|\bsponsors? of\b', re.I)
+SPONSOR_VISA_CONTEXT = re.compile(r'\bvisas?\b|migra|\b(?:482|494|186|187|tss)\b|skills in demand|candidate|applicant|\byou\b|overseas'
+                                  r'|international|work(?:ing)? rights|\bpr\b|permanent residen', re.I)
+WORK_RIGHTS_ONLY = re.compile(
+    r'\b(?:citizens?|citizenship)\b[^.;!?\n]{0,15}\b(?:and|or|&|/)\s*(?:australian\s+)?permanent residents?\b[^.;!?\n]{0,10}\bonly\b'
+    r'|\bonly\b[^.;!?\n]{0,25}\b(?:citizens?|permanent residents?)\b|\bmust\s+be\s+(?:an?\s+)?(?:australian\s+)?(?:citizen|permanent resident)'
+    r'|\bmust\s+(?:have|hold|possess)\s+(?:the\s+|a\s+)?(?:full\s+|unrestricted\s+|permanent\s+|valid\s+|current\s+)*(?:australian\s+)?'
+    r'(?:work(?:ing)?\s+rights?|rights?\s+to\s+work)|\b(?:full|unrestricted|permanent)\s+(?:australian\s+)?work(?:ing)?\s+rights\s+'
+    r'(?:is\s+|are\s+)?(?:required|essential|mandatory)|\b(?:permanent residency|citizenship|pr)\s+(?:is\s+)?(?:required|essential|mandatory)'
+    r'|\bno\s+temporary\s+visas?\b', re.I)
+SPONSOR_CONSIDERED = re.compile(
+    r'\bsponsor\w*\b[^.;!?\n]{0,40}\b(?:consider\w*|negotiable|may|might|could|possible|potential\w*|discuss\w*|case[- ]by[- ]case'
+    r'|for the right|for suitable|for exceptional|for an exceptional)\b|\b(?:consider\w*|open to|may|might|could)\b[^.;!?\n]{0,25}\bsponsor\w*'
+    r'|\b(?:requir\w*|need\w*)\s+(?:visa\s+)?sponsor\w*\b[^.;!?\n]{0,30}\b(?:welcome\w*|encouraged|invited)\b'
+    r'|\b(?:welcome\w*|encourage\w*)\b[^.;!?\n]{0,50}\b(?:requir\w*|need\w*)\s+(?:visa\s+)?sponsor\w*'
+    r'|\beligib\w*\b[^.;!?\n]{0,25}\bsponsor\w*|\bdama\b|\bdesignated area migration agreement\b|\blabour agreement\b', re.I)
+SPONSOR_OFFERED = re.compile(
+    r'\bsponsor\w*\b[^.;!?\n]{0,25}\b(?:available|offered|provided|on offer|support(?:ed)?|opportunit\w*|pathway\w*|options?)\b'
+    r'|\b(?:offer\w*|provid\w*|support\w*|assist\w*)\b[^.;!?\n]{0,25}\bsponsor\w*'
+    r'|\b(?:will|can|able to|willing to|happy to|prepared to)\s+sponsor\b|\bemployer[- ]sponsored\b'
+    r'|\b(?:pathway to|path to) (?:permanent residen\w*|pr)\b|\bpr pathway\b'
+    r'|\bsponsor\w*\s*[:?-]?\s*yes\b|\b(?:accredited|approved|standard business)\s+sponsor\b', re.I)
+
+
+def sponsorship_signal(text):
+    """'offered', 'considered' or '' for an advert's text (see the notes above SPONSOR_SIGNALS)."""
+    text = re.sub(r'\?\s+(?=(?:no|not|n/a)\b)', ' ', str(text or ''), flags=re.I)   # 'Sponsorship offered? No.' is one answer
+    if WORK_RIGHTS_ONLY.search(text):
+        return ''
+    found = set()
+    for sentence in re.split(r'(?<=[.;!?])\s+|\n+|\s[•*·]\s|^[•*·-]\s', text):
+        if not SPONSOR_TERM.search(sentence) or (SPONSOR_COMMUNITY.search(sentence) and not SPONSOR_VISA_CONTEXT.search(sentence)):
+            continue
+        if SPONSOR_DENIED.search(sentence):
+            return ''
+        found.add('considered' if SPONSOR_CONSIDERED.search(sentence) else 'offered' if SPONSOR_OFFERED.search(sentence) else '')
+    return 'offered' if 'offered' in found else 'considered' if 'considered' in found else ''
+
+
+# regional: the Australian Government's designated regional area for skilled visas (config.json -> regional_areas, with
+# its sources): Category 2 'Cities and Major Regional Centres' and Category 3 'Regional Centres and Other Regional Areas'
+# are regional; Category 1 'Major Cities' (Sydney, Melbourne, Brisbane) is not. A location is read in this order, and
+# the first step that finds anything decides: (1) a postcode in it, when it names the postcode's state; (2) a town of
+# regional_areas -> towns (its postcode, in its own state); (3) a city of category_1_cities or category_2_cities (in
+# its own state), and a state or territory whose every postcode is Category 2 or 3. A town goes before the city SEEK
+# files it under ('Strathpine, Brisbane QLD' is Strathpine), but places given as alternatives ('Ballarat or Melbourne
+# VIC', 'Werribee / Geelong') are read together. Places that disagree, or nothing found: None (unknown, ranked with the
+# jobs that are not regional).
+STATE_DIGITS = {'NSW': '2', 'ACT': '02', 'VIC': '3', 'QLD': '4', 'SA': '5', 'WA': '6', 'TAS': '7', 'NT': '0'}
+DIGIT_STATE = {'2': 'NSW', '3': 'VIC', '4': 'QLD', '5': 'SA', '6': 'WA', '7': 'TAS'}
+NOT_THE_PLACE = (r'(?!\s+(?:st|street|rd|road|ave|avenue|hwy|highway|dr|drive|lane|parade|terrace|place|hills|farm|park|heights|creek'
+                 r'|university)\b)')   # 'Bowen Hills', 'Roma Street', 'Gladstone Park', 'Griffith University': other places
+
+
+def _postcode_ranges(text):
+    """'all' for a row that reads 'All postcodes ...', else [(low, high)] from '2259, 2264 to 2308 and 2574' (a '*' kept)."""
+    text = str(text or '')
+    if re.match(r'\s*all\b', text, re.I):
+        return 'all'
+    return [(int(low), int(high or low)) for low, high in re.findall(r'(\d{4})\*?(?:\s*to\s*(\d{4}))?', text)]
+
+
+def postcode_category(state, postcode, rules):
+    """1, 2 or 3: the category of a postcode in a state (regional_areas -> postcodes); None when the state has no row."""
+    row = ((rules or {}).get('postcodes') or {}).get(state)
+    if not isinstance(row, dict):
+        return None
+    for category, key in ((2, 'category_2'), (3, 'category_3')):
+        ranges = _postcode_ranges(row.get(key))
+        if ranges == 'all' or any(low <= postcode <= high for low, high in ranges):
+            return category
+    return 1
+
+
+def _named(name, text):
+    return re.search(r'\b' + r'\s+'.join(re.escape(w) for w in name.split()) + r'\b' + NOT_THE_PLACE, text, re.I)
+
+
+def regional(location, config):
+    """True, False or None for a location (see the notes above STATE_DIGITS)."""
+    rules = (config or {}).get('regional_areas')
+    text = ' '.join(str(location or '').split())
+    if not isinstance(rules, dict) or not text:
+        return None
+    state = state_of(text)
+    in_state = lambda digits: state == 'other' or digits[:1] in STATE_DIGITS[state]
+    verdict = lambda found: None if not found or None in found or (1 in found and found - {1}) else 1 not in found
+    if state != 'other':   # (1) a postcode, read only with its state named; 1900 to 2099 read as years (inner Sydney is named)
+        found = {postcode_category(state, int(p), rules) for p in re.findall(r'(?<!\d)(\d{4})(?!\d)', text)
+                 if p[0] in STATE_DIGITS[state] and not re.fullmatch(r'(?:19|20)\d\d', p)}
+        if found:
+            return verdict(found)
+    towns = {postcode_category(DIGIT_STATE.get(str(pc)[:1]), int(pc), rules) for name, pc in (rules.get('towns') or {}).items()
+             if not name.startswith('_') and re.fullmatch(r'\d{4}', str(pc)) and in_state(str(pc)) and _named(name, text)}   # (2)
+    alternatives = bool(re.search(r'\s+or\s+|/', text, re.I))
+    if towns and not alternatives:
+        return verdict(towns)
+    found = towns | {category for key, category in (('category_1_cities', 1), ('category_2_cities', 2))   # (3)
+                     for name, where in (rules.get(key) or {}).items() if (state in ('other', where)) and _named(name, text)}
+    row = (rules.get('postcodes') or {}).get(state) or {}
+    if 'all' in (_postcode_ranges(row.get('category_2')), _postcode_ranges(row.get('category_3'))):
+        found.add(2)
+    return verdict(found)
+
+
+def targeting(e, config):
+    """(sponsorship_signal, regional) of an entry: its own fields, and regional from its location when it has none
+    (so entries written before 15 Nov 2026 are ranked too, without editing their files)."""
+    signal = e.get('sponsorship_signal') if e.get('sponsorship_signal') in SPONSOR_SIGNALS else ''
+    where = e.get('regional')
+    return signal, where if isinstance(where, bool) else regional(e.get('location'), config)
+
+
+def targeting_text(e, config):
+    """'sponsorship offered, regional' and the like, for people to read ('' when neither is known)."""
+    signal, where = targeting(e, config)
+    return ', '.join(([f'sponsorship {signal}'] if signal else []) + ({True: ['regional'], False: ['not regional']}.get(where, [])))
+
+
 def sort_key(e, config):
-    """Advertised vacancies before speculative enquiries, then lane rank, then a real (advert-stated) closing date
+    """Advertised vacancies before speculative enquiries; then adverts that offer or consider sponsorship (the owner:
+    "available or considered", one group), then jobs in regional areas, ahead of the rest whatever their lane (D68:
+    sponsorship or permanent residency is his number 1 goal); then lane rank; then a real (advert-stated) closing date
     soonest, then listed date newest."""
     c = e['closes_at']
     try:   # a bare date means the end of that day
@@ -975,7 +1125,8 @@ def sort_key(e, config):
     except Refused:
         real_close = c
     listed = int(e['listed_at'][:10].replace('-', '')) if e['listed_at'] else 0
-    return (is_speculative(e), lane_rank(e, config), real_close, -listed, e['id'])
+    signal, where = targeting(e, config)
+    return (is_speculative(e), signal == '', where is not True, lane_rank(e, config), real_close, -listed, e['id'])
 
 
 def repeat_days(config):
@@ -1879,7 +2030,8 @@ def _cell(s):
 
 
 def render(qdir=QUEUE_DIR, config=None, now=None, prior=None):
-    """Write APPLY_QUEUE.md: open entries by route in hand-out order, then the questions waiting on the owner."""
+    """Write APPLY_QUEUE.md: open entries by route in hand-out order (with what the advert says about sponsorship and
+    whether the job is in a regional area: targeting_text), then the questions waiting on the owner."""
     entries = [e for _, e in load(qdir)]
     ctx = hold_context(entries, config, now or datetime.now(timezone.utc), prior)
     lines = ['# Apply queue', '', 'Written by `automation/scripts/queue.py render` from the files in `open/`. Do not edit by hand.', '']
@@ -1889,17 +2041,18 @@ def render(qdir=QUEUE_DIR, config=None, now=None, prior=None):
         if not rows:
             lines += ['Nothing open.', '']
             continue
-        lines += ['| # | Lane | Company | Role | Location | Closes | Link | Note |', '|---|---|---|---|---|---|---|---|']
+        lines += ['| # | Lane | Company | Role | Location | Target | Closes | Link | Note |', '|---|---|---|---|---|---|---|---|---|']
         for n, e in enumerate(rows, 1):
             closes = f"{closes_text(e)} ({'advert' if e['closes_source'] == 'advert' else 'listing expiry'})" if e['closes_at'] else 'not stated'
             note = '; '.join(blockers(e, ctx))
-            lines.append(f"| {n} | {e['lane']} | {_cell(e['company'])} | {_cell(e['role'])} | {_cell(e['location'])} | {closes} | "
-                         f"[{e['id']}]({e['url']}) | {_cell(note)} |")
+            lines.append(f"| {n} | {e['lane']} | {_cell(e['company'])} | {_cell(e['role'])} | {_cell(e['location'])} | "
+                         f"{targeting_text(e, config)} | {closes} | [{e['id']}]({e['url']}) | {_cell(note)} |")
         lines.append('')
     asks = sorted((e for e in entries if e['status'] == 'ASK_OWNER'), key=lambda e: sort_key(e, config))
     lines += [f'## Waiting on the owner ({len(asks)})', '']
     lines += [f"- **{_cell(e['company'])}, {_cell(e['role'])}** ({e['route']}, {e['lane']}, "
-              f"closes {closes_text(e) or 'not stated'}, `{e['id']}`): {owner_line(e)}" for e in asks] or ['Nothing.']
+              + ''.join(f'{t}, ' for t in [targeting_text(e, config)] if t)
+              + f"closes {closes_text(e) or 'not stated'}, `{e['id']}`): {owner_line(e)}" for e in asks] or ['Nothing.']
     unsure = [e for e in entries if e['status'] == 'UNCERTAIN']
     if unsure:
         lines += ['', f'## Unknown whether it went ({len(unsure)})', '']

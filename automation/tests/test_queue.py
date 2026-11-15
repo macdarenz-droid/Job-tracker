@@ -88,8 +88,8 @@ LETTER = ('Hello,\n\n'
           'I am applying for the Junior Civil Drafter role advertised on SEEK. Your advert asks for subdivision drawings in Civil 3D.\n\n'
           'In the Advanced Diploma of Civil Construction Design, finished in February 2026, I designed road geometry and stormwater '
           'drainage in AutoCAD and Civil 3D.\n\n'
-          'I live in Melton and can start two weeks after an offer. Full working rights in Australia (Subclass 485 visa), no sponsorship '
-          'needed. Could we talk this week?\n\nMarc Masarate')
+          'I live in Melton and can start two weeks after an offer. I have full working rights in Australia (Subclass 485 '
+          'visa). Could we talk this week?\n\nMarc Masarate')
 
 
 def ans(question, options=None, facts=FACTS, pay='not stated'):
@@ -578,7 +578,7 @@ class NextTests(QueueCase):
 
     def test_the_letter_command_refuses_text_that_breaks_the_writing_rules(self):
         self.add(entry(1))
-        dated_text = LETTER.replace('no sponsorship needed.', 'no sponsorship needed. My visa expires in December 2027.')
+        dated_text = LETTER.replace('(Subclass 485 visa).', '(Subclass 485 visa). My visa expires in December 2027.')
         too_long, dated = self.file('long.txt', 'word ' * 201), self.file('dated.txt', dated_text)
         code, _, err = self.cli('letter', 'seek-1', '--file', too_long)
         self.assertEqual(code, 1)
@@ -1045,10 +1045,10 @@ class ReportTests(QueueCase):
         text = (self.dir / 'APPLY_QUEUE.md').read_text(encoding='utf-8')
         heads = [line for line in text.splitlines() if line.startswith('## ')]
         self.assertEqual(heads, ['## SEEK (2 open)', '## EMAIL (1 open)', '## EMPLOYER_PORTAL (0 open)', '## EMPLOYER_FORM (0 open)', '## Waiting on the owner (2)'])
-        self.assertIn('| # | Lane | Company | Role | Location | Closes | Link | Note |', text)
-        self.assertIn('| 1 | drafter | Acme 2 | Junior Civil Drafter | Melton VIC | 2026-11-25 (advert) | [seek-2](https://www.seek.com.au/job/2) |  |', text)
-        self.assertIn('| 2 | technician | Mendi / Constructions | Junior Civil Drafter | Townsville, Northern QLD | 2026-11-18 (listing expiry) | [seek-1](https://www.seek.com.au/job/1) |  |', text)
-        self.assertIn('| 1 | drafter | Core Environmental Projects | Junior Civil Drafter | Melton VIC | not stated |', text)
+        self.assertIn('| # | Lane | Company | Role | Location | Target | Closes | Link | Note |', text)
+        self.assertIn('| 1 | drafter | Acme 2 | Junior Civil Drafter | Melton VIC |  | 2026-11-25 (advert) | [seek-2](https://www.seek.com.au/job/2) |  |', text)
+        self.assertIn('| 2 | technician | Mendi / Constructions | Junior Civil Drafter | Townsville, Northern QLD |  | 2026-11-18 (listing expiry) | [seek-1](https://www.seek.com.au/job/1) |  |', text)
+        self.assertIn('| 1 | drafter | Core Environmental Projects | Junior Civil Drafter | Melton VIC |  | not stated |', text)
         self.assertIn('Nothing open.', text)
         self.assertIn('- **Acme 5, Junior Civil Drafter** (EMPLOYER_PORTAL, drafter, closes not stated, `acme-5-junior-civil-drafter-', text)
         self.assertIn('`): Are you eligible for Engineers Australia membership?', text)

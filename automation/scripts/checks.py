@@ -37,6 +37,8 @@ READY_STATUSES = (STATUSES['ready_seek'], STATUSES['ready_portal'], STATUSES['re
 ANSWERS = FACTS.get('answers', {})
 KNOWN_TOOLS = gate.KNOWN_TOOLS  # one list: software a text or a form may name that is not his
 ALLOWED_YEARS = {'2014', '2015', '2016', '2017', '2018', '2019', '2020', '2022', '2024', '2026', '2027'}
+SPONSORSHIP_WHY = 'mentions sponsorship or migration'
+SPONSORSHIP_WORDS = r'sponsor|\b(?:migration|residency goal)'   # 'sponsor' anywhere: 'unsponsored', 'non-sponsored' too
 FORBIDDEN_CLAIMS = [
     (r'\bpermanent resid', 'claims permanent residency'),
     (r'\bcitizen', 'claims citizenship'),
@@ -44,7 +46,7 @@ FORBIDDEN_CLAIMS = [
     (r'australian (work|site|construction|industry) experience', 'claims Australian work experience'),
     (r'\b(chartered|CPEng|RPEQ|NER\b|registered engineer|licensed engineer)', 'claims a professional registration'),
     (r'\b\d+\+?\s*years?\s+(of\s+)?(commercial|industry|professional|drafting|design|civil)\b', 'claims years of professional experience'),
-    (r'\b(sponsor|sponsorship|migration|residency goal)', 'mentions sponsorship or migration'),
+    (SPONSORSHIP_WORDS, SPONSORSHIP_WHY),
     (r'\bskills? assessment', 'mentions a skills assessment (facts.json -> never_mention)'),
     (r'\bvisa (application|applications|grant|plans?|pathway|nomination|lodg\w*)\b|\b(state|regional|employer) nomination\b'
      r'|\b(subclass\s*)?(189|190|191|482|491|494|186|187)\s*(visa|nomination|subclass|application)\b|\bsubclass\s*(189|190|191|482|491|494|186|187)\b'
@@ -55,8 +57,19 @@ FORBIDDEN_CLAIMS = [
     (r'\bwork placement\b', 'claims a placement'),
     (r'\breferee', 'names or offers referees inline'),
 ]
-# The approved short work-rights line says "no sponsorship needed"; that is not a sponsorship request.
-APPROVED = re.compile(r'no sponsorship (is )?(needed|required)', re.I)
+# Owner, 15 Nov 2026 (APPLY.md section 8): no letter, email, resume or free-text answer mentions sponsorship, not even
+# "no sponsorship needed", unless the employer asks. A form answer may name it only when its question asks about
+# sponsorship or visas (SPONSORSHIP_ASKED); migration and residency goals stay out even then.
+SPONSORSHIP_ASKED = re.compile(r'sponsor|\bvisas?\b', re.I)
+MIGRATION_ONLY = r'\b(migration|residency goal)'
+
+
+def sponsorship_issues(text):
+    """[SPONSORSHIP_WHY] when a line that is never a form answer (an email or letter subject, a greeting, a closing)
+    names sponsorship or migration; [] otherwise."""
+    return [SPONSORSHIP_WHY] if re.search(SPONSORSHIP_WORDS, str(text or ''), re.I) else []
+
+
 # Residency or migration talk in a letter, an email or its subject (facts.json -> never_mention; AGENTS.md rule 6), in
 # whole words: 'PR' in capitals only (not 'PRE-START', 'Present' or 'prepared'), 'nomination' (not 'nominated').
 # Also staying on in Australia ('stay in Australia', 'remain in Australia long term', 'settle here for good') and the
@@ -70,7 +83,7 @@ RESIDENCY_WHY = 'mentions residency or migration (facts.json -> never_mention): 
 
 def residency_issues(text):
     """The residency or migration phrases (RESIDENCY_TALK) in a text, each once, as issues."""
-    found = dict.fromkeys(m.group(0) for m in RESIDENCY_TALK.finditer(APPROVED.sub('', str(text or ''))))
+    found = dict.fromkeys(m.group(0) for m in RESIDENCY_TALK.finditer(str(text or '')))
     return [RESIDENCY_WHY.format(phrase) for phrase in found]
 # The visa end date, however it is written: 'December 2027', 'Dec 2027', '12/2027', 'visa valid through 2027', 'until the end of 2027',
 # or as time left: 'valid for another 13 months', 'has 13 months left', 'runs out late next year'.
@@ -188,7 +201,9 @@ def unknown_tools(text):
     return [t for t in KNOWN_TOOLS if t.lower() not in software_ok and re.search(r'(?<![A-Za-z])' + re.escape(t) + r'(?![A-Za-z])', text)]
 
 
-def fact_issues(text):
+def fact_issues(text, sponsorship_asked=False):
+    """Claims in a text that do not trace to facts.json, and what facts.json -> never_mention keeps out. sponsorship_asked:
+    the text answers a form question about sponsorship or visas (SPONSORSHIP_ASKED), so it may name sponsorship."""
     issues = []
     denial = re.compile(r"\b(haven't|have not|hasn't|has not|never|not yet)\s+(used|worked|touched|learned|learnt)\b|\bwould be new\b|\bnew to me\b", re.I)
     sentences = re.split(r'(?<=[.!?])\s+', text)
@@ -206,7 +221,7 @@ def fact_issues(text):
             if y not in ALLOWED_YEARS:
                 issues.append(f'year not in facts: {y}')
     for pat, why in FORBIDDEN_CLAIMS:
-        if re.search(pat, APPROVED.sub('', text), re.I):
+        if re.search(MIGRATION_ONLY if why == SPONSORSHIP_WHY and sponsorship_asked else pat, text, re.I):
             issues.append(why)
     for amount in re.findall(r'(?:PHP|AUD|\$)\s?[\d,.]+\s*(?:million|m\b|k\b)?', text, re.I):
         a = amount.lower().replace(' ', '')
@@ -453,7 +468,8 @@ def email_issues(subject, body, visa_asked=False, tone=None, allow=()):
     visa = _visa(visa_asked, allow)
     body, subject = str(body or ''), str(subject or '')
     issues = ['email ' + i for i in tone_issues(body, 'email', visa, tone, allow) + fact_issues(body) + residency_issues(body)] if body.strip() else []
-    return issues + ['email subject ' + i for i in tone_issues(subject, 'answer', visa, tone, allow) + residency_issues(subject)]
+    return issues + ['email subject ' + i for i in tone_issues(subject, 'answer', visa, tone, allow) + sponsorship_issues(subject)
+                     + residency_issues(subject)]
 
 
 # A written answer against the standing one.
@@ -541,6 +557,23 @@ def answer_issues(question, answer, advert_pay=''):
     return issues
 
 
+def sponsorship_answer_issues(question, answer, options=None, pay=None):
+    """A written answer to a question the gate reads as a sponsorship question ('sponsor' in it) against the owner's own
+    answers (APPLY.md section 8; facts.json -> answers -> future_visa_sponsorship and sponsorship_free_text): it is the
+    gate's answer and nothing more ('No sponsorship needed.' or 'I will need a 482 later.' for 'Please outline your visa
+    sponsorship requirements' is not), and a question the gate leaves to the owner (someone else's sponsorship, a plain
+    Yes beside 'Yes, now') has no written answer at all."""
+    if 'sponsor' not in str(question or '').lower():
+        return []
+    gated = _gate(question, options, pay)
+    if gated['status'] != 'answered':
+        return [f'answers a sponsorship question that has no standing answer ({gated["why"][:120]}): the owner answers it']
+    plain = lambda t: ' '.join(str(t or '').split()).rstrip(' .!').lower()
+    if plain(answer) != plain(gated['answer']):
+        return [f'is not the owner\'s sponsorship answer (facts.json -> {gated["basis"]}): "{gated["answer"][:100]}"']
+    return []
+
+
 def fact_at(basis):
     """The value at a dotted facts.json path such as 'answers.notice_period' or 'answers.software.CAD'; None when there is none."""
     value, parts = FACTS, str(basis or '').split('.')
@@ -568,7 +601,7 @@ def draft_issues(draft):
         issues += letter_issues(letter, visa, allow=allow)
     run_letter = draft.get('letter') or {}
     for name, line in (('letter subject', run_letter.get('subject')), ('letter greeting', run_letter.get('greeting')), ('letter closing', run_letter.get('closing'))):
-        issues += [f'{name} {i}' for i in tone_issues(str(line or ''), 'answer', visa, allow=allow)]
+        issues += [f'{name} {i}' for i in tone_issues(str(line or ''), 'answer', visa, allow=allow) + sponsorship_issues(line)]
     answers, unreadable = answer_items(draft)
     if unreadable:
         issues.append(unreadable)
@@ -589,8 +622,10 @@ def draft_issues(draft):
                 issues.append(f'answer to "{question[:60]}" contradicts facts.json -> {gated["basis"]}: the answer is "{gated["answer"][:80]}"')
             continue
         asked = visa or bool(VISA_QUESTION.search(question))
-        truth = [i for i in fact_issues(answer) if not (i.startswith('amount not in facts') and SALARY_QUESTION.search(question))]  # a salary answer is a figure
-        found = tone_issues(answer, 'answer', asked, allow=allow) + truth + answer_issues(question, answer, advert_pay(draft))
+        truth = [i for i in fact_issues(answer, bool(SPONSORSHIP_ASKED.search(question)))
+                 if not (i.startswith('amount not in facts') and SALARY_QUESTION.search(question))]  # a salary answer is a figure
+        found = tone_issues(answer, 'answer', asked, allow=allow) + truth + answer_issues(question, answer, advert_pay(draft)) \
+            + sponsorship_answer_issues(question, answer, options.get(question), advert_pay(draft))
         issues += [f'answer to "{question[:60]}" {i}' for i in found]
     return issues
 

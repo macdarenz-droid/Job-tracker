@@ -33,8 +33,8 @@ LETTER = ('Hello,\n\n'
           'I am applying for the Junior Civil Drafter role. Your advert asks for subdivision drawings in Civil 3D.\n\n'
           'In the Advanced Diploma of Civil Construction Design, finished in February 2026, I designed road geometry, earthworks and '
           'stormwater drainage in AutoCAD and Civil 3D to Australian Standards.\n\n'
-          'I live in Melton and can start two weeks after an offer. Full working rights in Australia (Subclass 485 visa), no '
-          'sponsorship needed. Could we talk this week?\n\n'
+          'I live in Melton and can start two weeks after an offer. I have full working rights in Australia '
+          '(Subclass 485 visa). Could we talk this week?\n\n'
           'Marc Masarate')
 
 

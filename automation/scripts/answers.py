@@ -41,7 +41,21 @@ Covered (facts.json -> answers unless another block is named):
                      graduate option that says restrictions apply. No options: right_to_work.free_text. Work rights
                      somewhere other than Australia ('in New Zealand', 'overseas', 'in Australia and New Zealand') or
                      someone else's ('your partner'): unanswered (RTW_ELSEWHERE)
-  sponsorship        "Do you require sponsorship to work in Australia (now)?": No. In the future: unanswered
+  sponsorship        owner, 15 Nov 2026 (future_visa_sponsorship, sponsorship_free_text): needs it now, currently, to start
+                     or to work for the employer ("Do you require sponsorship to work in Australia?", "Will you need
+                     sponsorship to start?"): No. Now or in the future, at any time, long term, during employment, going
+                     to, expect or anticipate, to remain or stay in Australia, to continue working, "Will you require
+                     sponsorship?": Yes; with options the one that says Yes, or Yes in the future, and nothing more ('Yes,
+                     in the future', 'Not now, but in the future'), never one that says he needs it now; a plain Yes
+                     beside another Yes option or one that names now or the future is unanswered. A question about now
+                     whose options offer the future ('Yes, in the future') is answered as a future question, never with
+                     a No that would say never. Free text ("Please outline your visa sponsorship requirements"):
+                     sponsorship_free_text -> text, after its future_prefix ("Yes, in the future.") for a future
+                     question. Unanswered: someone else's sponsorship or another country's (H-1B, green card), his work
+                     rights in the same question, a question about seeking or being eligible for it, one with a negation
+                     ('without sponsorship'), one not about his own need ('Does this role require sponsorship?'), one
+                     that names now and a time to come less plainly ('currently ... to remain'), a free-text question
+                     that also asks about the visa he holds
   notice             2 weeks, or the option meaning 2 weeks
   start date         free text only: "Two weeks after an offer" (eligibility.availability)
   salary             only when pay, the advert's own pay text, is known: an annual figure (the lower end of a range;
@@ -63,7 +77,7 @@ Covered (facts.json -> answers unless another block is named):
   already done ("Have you completed a medical?", "Have you relocated before?": facts.json records willingness only;
   a police check question in the past tense is judged as above); relocation at his own cost or without assistance;
   travel overseas; FIFO or rosters with night shifts. Sponsorship "long term", "permanently" or after the visa is a
-  future-sponsorship question.
+  future-sponsorship question; "to start" in a sponsorship question is now, not a start date.
   qualifications     as answers.qualification_questions say; "What qualifications do you hold?" (free text): the
                      qualifications in education, with their years
   years              as answers.years_of_experience say: a plain engineering title or the construction industry, the
@@ -79,8 +93,8 @@ Covered (facts.json -> answers unless another block is named):
                      "Phone" or "Mobile number" (identity.phone). Never a label naming anyone else (referee, manager,
                      emergency contact, employer), another part of the name (middle, preferred, legal) or another
                      subject ("First aid", "First Nations", "Last day"); with options on screen: unanswered
-Unanswered: hourly rate, English self-rating, Engineers Australia, future sponsorship (until facts.json gives them a
-plain answer), and every question this list does not name. Pure: no files. The clock is read only for the police
+Unanswered: hourly rate, English self-rating, Engineers Australia (until facts.json gives them a plain answer), and
+every question this list does not name. Pure: no files. The clock is read only for the police
 check, whose answer changes in a month that facts.json states.
 """
 import re
@@ -88,8 +102,8 @@ from datetime import date, datetime, timedelta, tzinfo
 
 # The lines of facts.json -> answers the gate reads. free_text_cover_letter is not a form answer: the letter is
 # pasted from the queue entry itself.
-KEYS = {'owner_answers', 'right_to_work', 'future_visa_sponsorship', 'notice_period', 'expected_salary', 'expected_hourly_rate',
-        'drivers_licence', 'manual_licence', 'own_car_or_regular_access', 'white_card', 'police_check',
+KEYS = {'owner_answers', 'right_to_work', 'future_visa_sponsorship', 'sponsorship_free_text', 'notice_period', 'expected_salary',
+        'expected_hourly_rate', 'drivers_licence', 'manual_licence', 'own_car_or_regular_access', 'white_card', 'police_check',
         'pre_employment_medical', 'drug_and_alcohol_screening', 'currently_studying', 'willing_to_relocate',
         'willing_to_travel_or_fifo', 'engineers_australia_membership_or_recognition', 'qualification_questions',
         'years_of_experience', 'software', 'experience_yes_no', 'english_self_rating', 'declarations_and_consents',
@@ -420,18 +434,164 @@ def _declaration(q, opts, a):
     return _ok(hits[0], 'answers.declarations_and_consents') if len(hits) == 1 else _no('no single option agrees', 'answers.declarations_and_consents')
 
 
+# Sponsorship (owner, 15 Nov 2026). facts.json -> answers -> future_visa_sponsorship holds the two answers as
+# "'Do you need sponsorship to work now?': No" and "'Will you now or in the future require sponsorship?': Yes";
+# sponsorship_free_text holds the free-text answer ("text") and what goes before it for a future question
+# ("future_prefix"). A question asks about the future when it names a time to come (SPONSOR_FUTURE: 'now or in the
+# future', 'at any time', 'long term', 'during your employment'), a time to come less plainly (SPONSOR_LATER: 'going
+# to', 'anticipate', 'expect to', 'to remain in Australia', 'to continue working'; with now as well, two things at once:
+# the owner's), or, naming no time and not now (SPONSOR_NOW: 'now', 'currently', 'to start'), when it asks 'will you' or
+# 'would you'; a question that names now ('Will you need sponsorship to start?'), or a 'do you' or 'are you' question
+# naming no time to come, asks about now. Options that name the future ('Yes, in the future') make a question about now
+# one about both: it is answered as a future question. Only a question about his needing or requiring it (SPONSOR_NEED,
+# SPONSOR_HIS) is his: 'Are you seeking sponsorship?' (he is) is not the same question, 'Does this role require
+# sponsorship?' is not about him, and one with a negation ('able to work without sponsorship') reads the other way
+# round: all go to the owner.
+NOW_LINE = re.compile(r"sponsorship to work now\?'?\s*:\s*(no|yes)\b", re.I)
+FUTURE_LINE = re.compile(r"in the future require sponsorship\?'?\s*:\s*(no|yes)\b", re.I)
+SPONSOR_FUTURE = re.compile(r'future|later|at any (time|stage|point)|at some (point|stage)|going forward|ongoing|eventually|down the track|coming years'
+                            r'|next \d|long.?term|permanent(ly)?|beyond|after (your|the|my) (current )?visa|end of|expir'
+                            r'|during (your|the|my) (employment|engagement|time with us|contract)')
+SPONSOR_LATER = re.compile(r'\bgoing to\b|\banticipat\w*|\bexpect\w*|\bforesee\w*|\benvisag\w*|\blikely\b|\bintend\w*|\bplan(?:s|ning)? to\b'
+                           r'|\b(?:remain|stay|continu\w*|extend\w*|extension|renew\w*)\b')
+SPONSOR_NOW = re.compile(r'\b(now|currently|at present|presently|right now|today|immediately|at (this|the) (time|moment))\b|\bto (start|commence)\b')
+SPONSOR_NEED = re.compile(r'\b(require[sd]?|requiring|need(s|ed|ing)?|in need of)\b')
+# His own need: 'you' in the question, or sponsorship 'required' or 'needed' ('Is sponsorship required?'), or his visa.
+SPONSOR_HIS = re.compile(r'\byou\b|\bsponsor\w*\b[^?]*\b(?:required|needed|necessary)\b|\b(?:required|needed|necessary)\b[^?]*\bsponsor'
+                         r'|\byour (?:current )?visa\b')
+SPONSOR_NEGATED = re.compile(r"\b(not|without|no|never|nor|don't|doesn't|won't|isn't|aren't)\b")
+SPONSOR_MODAL = re.compile(r'^(?:(?:if|when|as|where|should)\b[^,]*,\s*)?(will|would)\b|\b(will|would) you\b')
+# His work rights in the same question ('Are you a citizen, PR, or do you require sponsorship?'): two things at once.
+SPONSOR_WITH_RIGHTS = re.compile(r'citizen|permanent resid|\bpr\b|rights? to work|work(ing)? rights?|residency|entitled|eligib')
+# Phrases of time or of the role that RTW_ELSEWHERE would read as another place ('in the future', 'in order to').
+SPONSOR_NOT_A_PLACE = re.compile(r'\bin (?:the )?(?:near |foreseeable |coming |longer |long )?(?:future|term)\b|\bin (?:the )?(?:next|coming) (?:few |\d+ )?\w+'
+                                 r'|\b(?:in|within) (?:the next )?(?:\d+|one|two|three|four|five|a few|a couple of) (?:years?|months?)(?: time)?\b'
+                                 r'|\bin order to\b|\bin need of\b|\bin (?:this|that|the|your|our|a|any) (?:role|position|job|company|organisation|organization|team|business|capacity)\b')
+# Someone else's sponsorship, or another country's: facts.json holds only his own, for Australia.
+SPONSOR_SOMEONE_ELSE = re.compile(r'\b(?:partner|spouse|husband|wife|dependants?|dependents?|children|child|family|relatives?|someone else|anyone else|another person)\b'
+                                  r'|\b(?:usa|u\.s\.a?|united states|america|uk|united kingdom|britain|new zealand|nz|canada|singapore|europe|eu|philippines)\b'
+                                  r'|\bus (?:visa|work|employer|citizen)'   # 'US visa sponsorship', not 'for us' or 'sponsor us'
+                                  r'|\bh-?1b\b|\bgreen card\b')   # United States visa words
+# Free text: a question that also asks about the visa he holds, or a second question, is not answered by the free-text line.
+SPONSOR_VISA_DETAIL = re.compile(r'visa (status|type|subclass|class|number|expir\w*|details?|conditions?|held)|(what|which) (type of )?visa|current visa|your visa\b(?! sponsor)')
+SPONSOR_SECOND = re.compile(r'\b(?:and|or)\s+(?:do|does|are|is|will|would|can|could|have|has|what|which|when|how)\s+(?:you|your)\b')
+# Options for a future question: one that says Yes, or Yes in the future, and nothing more (_future_yes); never one that
+# says he needs it now.
+FUTURE_MARK = re.compile(r'\b(future|later|eventually|after|beyond|long(er)?[ -]?term|down the track|at some (point|stage)|at a later (date|stage|time))\b')
+NOT_NOW = re.compile(r"\b(?:but )?(?:i )?(?:do not|don't|dont|not|no)(?: need| require)?(?: it| sponsorship)?(?: right)? "
+                     r"(?:now|currently|immediately|yet|at (?:the moment|present|this (?:time|stage)))\b")
+FUTURE_OK_WORDS = {'in', 'the', 'near', 'future', 'later', 'at', 'a', 'some', 'point', 'stage', 'date', 'time', 'eventually', 'down', 'track',
+                   'longer', 'long', 'term', 'after', 'my', 'current', 'visa', 'expires', 'expiry', 'ends', 'beyond', 'but', 'and', 'i', 'will',
+                   'would', 'may', 'require', 'need', 'sponsorship', 'be', 'required', 'needed'}
+
+
+def _future_yes(option):
+    """True when an option says Yes, or Yes in the future, and nothing more: 'Yes', 'Yes, in the future', 'Yes, but not
+    now', 'Not now, but in the future', 'In the future', 'Yes, after my current visa expires'. Never an option that says
+    he needs it now ('Yes, now', 'Yes, now and in the future', 'Yes, I require sponsorship to start') or adds anything
+    else ('Yes, 482 visa')."""
+    t = ' '.join(re.sub(r"[^\w\s']", ' ', norm(option)).split())
+    yes = bool(re.match(r'yes\b', t))
+    rest = NOT_NOW.sub(' ', t[3:] if yes else t)
+    if SPONSOR_NOW.search(rest) or (not yes and not FUTURE_MARK.search(rest)):
+        return False
+    return set(re.findall(r"[a-z0-9']+", rest)) <= FUTURE_OK_WORDS
+
+
+def _says_now(option):
+    """True when an option starts with Yes or says he needs it now (after 'not now' and the like are taken out)."""
+    t = ' '.join(re.sub(r"[^\w\s']", ' ', norm(option)).split())
+    return bool(re.match(r'yes\b', t) or SPONSOR_NOW.search(NOT_NOW.sub(' ', t)))
+
+
+def _names_time(option):
+    """True when an option names now, not now, or a time to come ('Not now, but maybe later', 'I don't require it now'):
+    beside it a plain 'Yes' could mean now."""
+    t = ' '.join(re.sub(r"[^\w\s']", ' ', norm(option)).split())
+    return bool(SPONSOR_NOW.search(t) or FUTURE_MARK.search(t) or NOT_NOW.search(t))
+
+
 def _sponsorship(q, opts, a):
+    """See the notes above NOW_LINE. Present: the plain No option ('Do you need sponsorship to work now?' in facts). Future:
+    the one option _future_yes reads as Yes, or Yes in the future ('Will you now or in the future require sponsorship?');
+    a plain 'Yes' beside another Yes option (except one 'Yes, in the future' style option, which is then his), or beside
+    one that says now or names a time, is the owner's. A question about now with an option that names the future is
+    answered as a future question. Free text: the owner's own words (sponsorship_free_text), after future_prefix for a
+    future question. Someone else's sponsorship, another country's, or his work rights in the same question:
+    unanswered. A facts line that is a plain answer of its own (no NOW_LINE, no FUTURE_LINE) answers a future question
+    as it stands, as before 15 Nov 2026."""
+    basis = 'answers.future_visa_sponsorship'
     line = str(a.get('future_visa_sponsorship') or '')
-    if re.search(r'future|later|at any (time|stage|point)|will you|would you|going forward|ongoing|eventually|down the track|coming years|next \d'
-                 r'|long.?term|permanent(ly)?|beyond|after (your|the|my) (current )?visa|end of|expir', q):
-        return _plain_line(a, 'future_visa_sponsorship', q, opts) if _settled(line, q) and not re.search(r'sponsorship to work now', line) else \
-            _no('future sponsorship: facts.json -> answers -> future_visa_sponsorship leaves it to the owner', 'answers.future_visa_sponsorship')
-    now = re.search(r"sponsorship to work now\?'?\s*:\s*(no|yes)\b", line, re.I)
-    asks_now = re.search(r'\b(do|are) you (currently |now )?(require|need|in need of)\b[^?]*\bsponsor|\brequire (visa )?sponsorship\b', q)
-    if not now or not asks_now or not yes_no_question(q):
-        return _no('a sponsorship question facts.json does not answer', 'answers.future_visa_sponsorship')
+    place = SPONSOR_NOT_A_PLACE.sub(' ', q)
+    if RTW_ELSEWHERE.search(place) or SPONSOR_SOMEONE_ELSE.search(place):
+        return _no("someone else's sponsorship, or sponsorship somewhere other than Australia: facts.json -> answers -> "
+                   'future_visa_sponsorship holds only his own, for Australia', basis)
+    if SPONSOR_WITH_RIGHTS.search(q):
+        return _no('asks about his work rights together with sponsorship: two things at once', basis)
+    names_now = bool(SPONSOR_NOW.search(q))
+    if not SPONSOR_FUTURE.search(q) and SPONSOR_LATER.search(q) and names_now:
+        return _no(f'names now and a time to come ("{SPONSOR_LATER.search(q).group(0)}") without saying which it asks about: the owner\'s', basis)
+    future = bool(SPONSOR_FUTURE.search(q) or SPONSOR_LATER.search(q)) or (not names_now and bool(SPONSOR_MODAL.search(q)))
+    if not yes_no_question(q):
+        return _sponsorship_free_text(q, opts, a, future, line)
+    if SPONSOR_NEGATED.search(q) or not SPONSOR_NEED.search(q):
+        return _no('a sponsorship question that does not plainly ask whether he needs or requires it (a negation, seeking, eligible): '
+                   "the owner's", basis)
+    if not SPONSOR_HIS.search(q):
+        return _no("a sponsorship question that is not about his own need ('Does this role require sponsorship?'): the owner's", basis)
+    if not future and any(FUTURE_MARK.search(norm(o)) for o in opts):
+        future = True   # 'Yes, in the future' on screen: a plain No would say never, so the options decide (as a future question)
+    now, later = NOW_LINE.search(line), FUTURE_LINE.search(line)
+    if future:
+        if not now and not later and _settled(line, q) and line.strip():
+            return _plain_line(a, 'future_visa_sponsorship', q, opts)   # a plain line of its own, as before 15 Nov 2026
+        if not later or not _settled(line, q):
+            return _no('future sponsorship: facts.json -> answers -> future_visa_sponsorship leaves it to the owner', basis)
+        head = later.group(1).capitalize()
+        if head != 'Yes':
+            pick = _choose(head, opts)
+            return _ok(pick, basis) if pick else _no(f'no single option says {head}', basis)
+        if not opts:
+            return _ok('Yes', basis)
+        hits = [o for o in opts if _future_yes(o)]
+        marked = [o for o in hits if not plain_option(o, 'Yes')]
+        if len(hits) == 2 and len(marked) == 1:
+            hits = marked   # 'Yes' beside 'Yes, in the future': the plain Yes then means now, the other is his
+        if len(hits) != 1:
+            return _no('no single option says Yes, or Yes in the future, and nothing more (never one that says he needs it now)', basis)
+        others = [o for o in opts if o is not hits[0] and (_says_now(o) or _names_time(o))]
+        if others and plain_option(hits[0], 'Yes'):
+            return _no(f'a plain Yes beside another option that differs on now or the future ("{others[0]}"): the owner\'s', basis)
+        return _ok(hits[0], basis)
+    lead = re.search(r'^(?:(?:if|when|as|where|should)\b[^,]*,\s*)?(do|does|are|is|will|would)\b', _last(q))
+    if not now or not lead or (lead.group(1) in ('will', 'would') and not names_now):
+        return _no('a sponsorship question facts.json does not answer', basis)
     pick = _choose(now.group(1).capitalize(), opts)
-    return _ok(pick, 'answers.future_visa_sponsorship') if pick else _no('no single option says No', 'answers.future_visa_sponsorship')
+    return _ok(pick, basis) if pick else _no(f'no single option says {now.group(1).capitalize()}', basis)
+
+
+def _sponsorship_free_text(q, opts, a, future, line):
+    """A free-text sponsorship question ('Please outline your visa sponsorship requirements'): the owner's own words in
+    facts.json -> answers -> sponsorship_free_text -> text; for a future question future_prefix goes first, and only
+    while future_visa_sponsorship says Yes for the future. With options on screen, a question about the visa he holds or a
+    second question in it: unanswered."""
+    basis = 'answers.sponsorship_free_text'
+    rule = a.get('sponsorship_free_text') if isinstance(a.get('sponsorship_free_text'), dict) else {}
+    text = str(rule.get('text') or '').strip()
+    if opts:
+        return _no('a sponsorship question with options that is not a yes or no question: the owner\'s', basis)
+    if SPONSOR_VISA_DETAIL.search(q) or SPONSOR_SECOND.search(q):
+        return _no('asks about the visa he holds, or a second question, besides sponsorship', basis)
+    if not text or not _settled(text, q):
+        return _no('facts.json -> answers -> sponsorship_free_text has no text', basis)
+    if not future:
+        return _ok(text, basis)
+    later = FUTURE_LINE.search(line)
+    prefix = str(rule.get('future_prefix') or '')
+    if not later or later.group(1).lower() != 'yes' or not prefix.strip() or not _settled(line, q):
+        return _no('future sponsorship: facts.json -> answers -> future_visa_sponsorship and sponsorship_free_text -> future_prefix '
+                   'do not give it', basis)
+    return _ok(prefix.rstrip() + ' ' + text, basis)
 
 
 # The plain yes/no work-rights questions, as the whole question (q, without its closing ?.:!). Anything more ('unrestricted',
@@ -1181,7 +1341,9 @@ def answer(question, options=None, facts=None, pay=None, today=None, entry=None)
     trap = TRAPS.search(q)
     if trap:
         return _no(f'only the owner can answer this ("{trap.group(0)}": a private detail, or a question a standing answer could get wrong)')
-    topics = [name for name, pattern in TOPICS.items() if re.search(pattern, q)]
+    # 'Do you require sponsorship to start?' asks about sponsorship, not a start date (the sponsorship rule reads 'to start' as now).
+    topical = re.sub(r'\bto (?:start|commence)\b', ' ', q) if 'sponsor' in q else q
+    topics = [name for name, pattern in TOPICS.items() if re.search(pattern, topical)]
     if str(question).count('?') > 1 or len(topics) > 1:
         return _no('asks several things at once' + (f" ({', '.join(topics)})" if len(topics) > 1 else ''))
     if re.search(r"how many years|years'? (of )?experience|number of years", q):

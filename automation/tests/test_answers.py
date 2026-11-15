@@ -41,8 +41,8 @@ GOOD_LETTER = ('Hello,\n\n'
                'I am applying for the Junior Civil Drafter role advertised on SEEK. Your advert asks for subdivision drawings in Civil 3D.\n\n'
                'In the Advanced Diploma of Civil Construction Design, finished in February 2026, I designed road geometry, earthworks and '
                'stormwater drainage in AutoCAD and Civil 3D to Australian Standards.\n\n'
-               'I live in Melton and can start two weeks after an offer. Full working rights in Australia (Subclass 485 visa), no '
-               'sponsorship needed. Could we talk this week?\n\n'
+               'I live in Melton and can start two weeks after an offer. I have full working rights in Australia '
+               '(Subclass 485 visa). Could we talk this week?\n\n'
                'Marc Masarate')
 
 
@@ -89,12 +89,12 @@ class WorkRightsAndSponsorship(GateCase):
         self.ok(gate('Are you legally entitled to work in Australia?'), FACTS['answers']['right_to_work']['free_text'])
         self.no(gate('Are you legally entitled to work in Australia?', YES_NO))   # facts.json gives no plain yes for it
 
-    def test_sponsorship_now_is_no_and_in_the_future_goes_to_the_owner(self):
+    def test_sponsorship_now_is_no_and_in_the_future_is_yes(self):   # owner, 15 Nov 2026 (it went to the owner before)
         self.ok(gate('Do you require sponsorship to work in Australia now?', YES_NO), 'No', 'answers.future_visa_sponsorship')
         self.ok(gate('Do you require sponsorship to work in Australia?'), 'No')
         for text in ('Will you require visa sponsorship in the future?', 'Do you now or will you in the future require sponsorship?'):
-            self.no(gate(text, YES_NO))
-            self.no(gate(text))
+            self.ok(gate(text, YES_NO), 'Yes', 'answers.future_visa_sponsorship')
+            self.ok(gate(text), 'Yes')
 
 
 class NoticeStartAndSalary(GateCase):
@@ -478,9 +478,9 @@ class LetterAndEmailRules(unittest.TestCase):
     def test_queue_and_checks_apply_the_same_rules(self):
         cases = [GOOD_LETTER.replace('I am applying for', 'Please accept my application for'),
                  GOOD_LETTER.replace('to Australian Standards', 'to Australian Standards – quickly'),
-                 GOOD_LETTER.replace('no sponsorship needed', 'no sponsorship needed until Dec 2027'),
-                 GOOD_LETTER.replace('no sponsorship needed', 'no sponsorship needed, visa to 12/2027'),
-                 GOOD_LETTER.replace('no sponsorship needed', 'no sponsorship needed until December 2027')]
+                 GOOD_LETTER.replace('(Subclass 485 visa)', '(Subclass 485 visa) until Dec 2027'),
+                 GOOD_LETTER.replace('(Subclass 485 visa)', '(Subclass 485 visa), visa to 12/2027'),
+                 GOOD_LETTER.replace('(Subclass 485 visa)', '(Subclass 485 visa) until December 2027')]
         for text in cases:
             e = q.fill(entry(1, cover_letter_text=text))
             self.assertTrue(q.tone_problems(e, CONFIG), text)

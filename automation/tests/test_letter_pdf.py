@@ -24,8 +24,8 @@ FACTS = common.FACTS
 BODY = ['I am applying for the Junior Civil Drafter role advertised on SEEK. Your advert asks for subdivision drawings in Civil 3D.',
         'In the Advanced Diploma of Civil Construction Design, finished in February 2026, I designed road geometry, earthworks and '
         'stormwater drainage in AutoCAD and Civil 3D to Australian Standards.',
-        'I live in Melton and can start two weeks after an offer. Full working rights in Australia (Subclass 485 visa), no '
-        'sponsorship needed. Could we talk this week?']
+        'I live in Melton and can start two weeks after an offer. I have full working rights in Australia '
+        '(Subclass 485 visa). Could we talk this week?']
 LETTER = 'Hello,\n\n' + '\n\n'.join(BODY) + '\n\nMarc Masarate'
 
 
@@ -109,7 +109,7 @@ class LetterPdf(unittest.TestCase):
         for letter, needle in (('', 'letter text missing'),
                                (LETTER.replace('Could we talk', 'Thanks.\n\nCould we talk'), 'has 4 paragraphs'),
                                (LETTER.replace('I am applying for', 'Please accept my application for'), 'banned phrase'),
-                               (LETTER.replace('no sponsorship needed', 'no sponsorship needed until Dec 2027'), 'visa end date'),
+                               (LETTER.replace('(Subclass 485 visa)', '(Subclass 485 visa) until Dec 2027'), 'visa end date'),
                                (LETTER.replace('Civil 3D.', 'Civil 3D – fast.'), 'banned character')):
             self.put(cover_letter_text=letter)
             code, printed, err = self.run_cli('acme-junior-drafter-1', str(out))

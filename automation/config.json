@@ -673,5 +673,147 @@
   }
  },
  "sweep_rotation_note": "One sweep agent per daily tick on the rotation: (1) national and local construction materials testing and geotechnical firms' careers pages, (2) land-development and civil design consultancies and subdivision contractors, (3) council and state agency job boards for technical, design and asset officer roles. Read duties before queueing.",
+ "regional_areas": {
+  "_about": "Owner, 15 Nov 2026 (docs/COACHING-DECISIONS.md D68): within a lane, adverts that offer or consider sponsorship go first, then jobs in regional areas. 'Regional' is the Australian Government's designated regional area for skilled visas: Category 2 'Cities and Major Regional Centres' and Category 3 'Regional Centres and Other Regional Areas' are regional; Category 1 'Major Cities' (Sydney, Melbourne and Brisbane) is not. queue.py regional() reads this block (its notes say in which order). Ranking only: never written into an application.",
+  "source": "https://immi.homeaffairs.gov.au/visas/working-in-australia/skill-occupation-list/regional-postcodes",
+  "source_categories": "https://immi.homeaffairs.gov.au/visas/working-in-australia/regional-migration",
+  "accessed": "2026-11-15",
+  "source_last_updated": "7/10/2026 (as the postcode page shows it)",
+  "category_1_cities": {
+   "Sydney": "NSW",
+   "Melbourne": "VIC",
+   "Brisbane": "QLD"
+  },
+  "category_2_cities": {
+   "Perth": "WA",
+   "Adelaide": "SA",
+   "Gold Coast": "QLD",
+   "Sunshine Coast": "QLD",
+   "Canberra": "ACT",
+   "Newcastle": "NSW",
+   "Lake Macquarie": "NSW",
+   "Wollongong": "NSW",
+   "Illawarra": "NSW",
+   "Geelong": "VIC",
+   "Hobart": "TAS"
+  },
+  "postcodes_note": "Copied word for word from the source page on 2026-11-15. A '*' there: 'Postcodes not applicable to visas granted before 5 March 2022' (they apply to a visa granted now). The page also lists Norfolk Island and other territories (Category 3), which no location here names.",
+  "postcodes": {
+   "NSW": {
+    "category_2": "2259, 2264 to 2308, 2500 to 2526, 2528 to 2535 and 2574",
+    "category_3": "2250 to 2258, 2260 to 2263, 2311 to 2490, 2527, 2536 to 2551, 2575 to 2739, 2753 to 2754, 2756 to 2758 and 2773 to 2898"
+   },
+   "VIC": {
+    "category_2": "3211 to 3232, 3235, 3240, 3328, 3330 to 3333, 3340 and 3342",
+    "category_3": "3097 to 3099, 3139, 3233 to 3234, 3236 to 3239, 3241 to 3325, 3329, 3334, 3341, 3345 to 3424, 3430 to 3799, 3809 to 3909, 3912 to 3971 and 3978 to 3996"
+   },
+   "QLD": {
+    "category_2": "4019 to 4022*, 4025*, 4037*, 4074*, 4076 to 4078*, 4207 to 4275, 4300 to 4301*, 4303 to 4305*, 4500 to 4506*, 4508 to 4512*, 4514 to 4516*, 4517 to 4519, 4521*, 4550 to 4551, 4553 to 4562, 4564 to 4569 and 4571 to 4575",
+    "category_3": "4124, 4125, 4133, 4183 to 4184, 4280 to 4287, 4306 to 4498, 4507, 4552, 4563, 4570 and 4580 to 4895"
+   },
+   "WA": {
+    "category_2": "6000 to 6038, 6050 to 6083, 6090 to 6182, 6208 to 6211, 6214 and 6556 to 6558",
+    "category_3": "All postcodes in Western Australia not mentioned in 'Cities and major regional centres' category above"
+   },
+   "SA": {
+    "category_2": "5000 to 5171, 5173 to 5174, 5231 to 5235, 5240 to 5252, 5351 and 5950 to 5960",
+    "category_3": "All postcodes in South Australia not mentioned in 'Cities and major regional centres' category above"
+   },
+   "TAS": {
+    "category_2": "7000, 7004 to 7026, 7030 to 7109, 7140 to 7151 and 7170 to 7177",
+    "category_3": "All postcodes in Tasmania not mentioned in 'Cities and major regional centres' category above"
+   },
+   "ACT": {
+    "category_2": "All postcodes in the Australian Capital Territory",
+    "category_3": "None"
+   },
+   "NT": {
+    "category_2": "None",
+    "category_3": "All postcodes in the Northern Territory"
+   }
+  },
+  "towns_note": "Locations seldom carry a postcode, so a town named here is read by its main postcode, and the category still comes only from the table above. The postcodes are each town's infobox postcode on en.wikipedia.org, fetched 2026-11-15 (not a Home Affairs source; Australia Post's finder could not be read by script). Melton, Werribee, Sunbury, Cranbourne, Williamstown, Parramatta and Penrith are listed so that they read as Category 1.",
+  "towns": {
+   "Maitland": "2320",
+   "Cessnock": "2325",
+   "Gosford": "2250",
+   "Wyong": "2259",
+   "Port Macquarie": "2444",
+   "Coffs Harbour": "2450",
+   "Lismore": "2480",
+   "Ballina": "2478",
+   "Tweed Heads": "2485",
+   "Grafton": "2460",
+   "Tamworth": "2340",
+   "Armidale": "2350",
+   "Dubbo": "2830",
+   "Orange": "2800",
+   "Bathurst": "2795",
+   "Wagga Wagga": "2650",
+   "Albury": "2640",
+   "Griffith": "2680",
+   "Forbes": "2871",
+   "Parkes": "2870",
+   "Goulburn": "2580",
+   "Nowra": "2541",
+   "Queanbeyan": "2620",
+   "Broken Hill": "2880",
+   "Taree": "2430",
+   "Mudgee": "2850",
+   "Muswellbrook": "2333",
+   "Singleton": "2330",
+   "Ballarat": "3350",
+   "Bendigo": "3550",
+   "Shepparton": "3630",
+   "Mildura": "3500",
+   "Warrnambool": "3280",
+   "Traralgon": "3844",
+   "Morwell": "3840",
+   "Bairnsdale": "3875",
+   "Wodonga": "3690",
+   "Wangaratta": "3677",
+   "Horsham": "3400",
+   "Echuca": "3564",
+   "Swan Hill": "3585",
+   "Warragul": "3820",
+   "Colac": "3250",
+   "Torquay": "3228",
+   "Pakenham": "3810",
+   "Officer": "3809",
+   "Bacchus Marsh": "3340",
+   "Castlemaine": "3450",
+   "Benalla": "3672",
+   "Seymour": "3660",
+   "Ararat": "3377",
+   "Townsville": "4810",
+   "Toowoomba": "4350",
+   "Cairns": "4870",
+   "Mackay": "4740",
+   "Rockhampton": "4700",
+   "Bundaberg": "4670",
+   "Gladstone": "4680",
+   "Hervey Bay": "4655",
+   "Gympie": "4570",
+   "Mount Isa": "4825",
+   "Ipswich": "4305",
+   "Warwick": "4370",
+   "Dalby": "4405",
+   "Kingaroy": "4610",
+   "Bowen": "4805",
+   "Airlie Beach": "4802",
+   "Roma": "4455",
+   "Caboolture": "4510",
+   "Strathpine": "4500",
+   "Redcliffe": "4020",
+   "Nambour": "4560",
+   "Melton": "3337",
+   "Werribee": "3030",
+   "Sunbury": "3429",
+   "Cranbourne": "3977",
+   "Williamstown": "3016",
+   "Parramatta": "2150",
+   "Penrith": "2750"
+  }
+ },
  "costs": "Owner, 13 Nov 2026: everything stays on free plans (GitHub, Cloudflare). No agent adds a paid service or plan without asking him first."
 }

@@ -115,6 +115,9 @@ For every new candidate, in this order:
    required that facts.json does not list. Any one: reject. Words like preferred, ideally,
    desirable and typically are not bars.
 3. **Fit** (`config.json -> fit`, threshold 65).
+   Note what the advert says about sponsorship for `sponsorship_signal` (APPLY.md section 8):
+   `offered`, `considered` or `""` (nothing, or negative). It ranks the entry; it never goes
+   into the letter.
 4. **Form questions** (SEEK adverts list them): for each, write
    `{"question": "...", "advert_pay": "<the advert's pay text, or not stated>"}` into a file
    with a quoted heredoc and run `python3 queue.py answer --from-file FILE`. Exit 5 means the
@@ -139,6 +142,10 @@ For each `APPLY` or `ASK_OWNER`, write `../runs/RUN_ID/drafts/<slug>.json` with 
   salary);
 - `closes_at` (YYYY-MM-DD) with `closes_source` `advert` when the advert states a closing date,
   `listing_expiry` when it is only SEEK's listing end;
+- `sponsorship_signal` (`offered`, `considered` or `""`, from step 5), and the advert's full
+  text as `advert_text` (read by `queue.py add` to check the signal when it is missing; not
+  stored). `regional` is worked out from `location` (`config.json -> regional_areas`);
+  set it only to correct that;
 - `location`, `listed_at`, `fit`, `resume_variant` (the lane), `relocation_line` (when the job
   is outside daily travel of Melton VIC), `application_type` (`SPECULATIVE_ENQUIRY` for an
   enquiry with no advert), `questions` (each question text, with its options if known),
@@ -146,7 +153,8 @@ For each `APPLY` or `ASK_OWNER`, write `../runs/RUN_ID/drafts/<slug>.json` with 
 - `cover_letter_text`: a greeting line, three short paragraphs, the sign-off, at most 200
   words (APPLY.md section 8), with the relocation sentence inside the third paragraph when
   `relocation_line` is set. The first paragraph carries one true, specific line from the
-  advert. No sentence about what he lacks.
+  advert. No sentence about what he lacks, and no sponsorship wording at all ("no sponsorship
+  needed" included): `checks.py draft` fails it.
 
 ```
 python3 checks.py draft ../runs/RUN_ID/drafts/<slug>.json      # tone, length, truth

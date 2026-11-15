@@ -387,7 +387,7 @@ I am applying for the Junior Civil Drafter role you advertised on SEEK. The adve
 
 I finished an Advanced Diploma of Civil Construction Design in February 2026, where I designed and documented road geometry, earthworks, pavement and stormwater drainage in AutoCAD and Civil 3D to Australian Standards. In 2019 and 2020 I worked on site in the Philippines as a field engineer, reviewing drawings and writing site reports.
 
-I live in Melton. Full working rights in Australia (Subclass 485 visa), no sponsorship needed. I can start two weeks after an offer. I've attached my resume and cover letter.
+I live in Melton and have full working rights in Australia (Subclass 485 visa). I can start two weeks after an offer. I've attached my resume and cover letter.
 
 Could we talk this week?
 
@@ -399,7 +399,7 @@ https://macdarenz-droid.github.io/Portfolio"""
 GOOD_LETTER = [
     "I am applying for the Trainee Laboratory Technician role at your Geelong laboratory. Your advert says the work is sampling and testing soil, concrete and aggregates for subdivision and road projects, with training towards NATA sign-off.",
     "On site in the Philippines in 2019 and 2020 I carried out site inspections, safety checks and quality monitoring, tracked materials, and wrote site reports, material records and progress reports. In the Advanced Diploma of Civil Construction Design, finished in February 2026, I designed earthworks, pavements and stormwater drainage to Australian Standards, so I know what the test results are used for.",
-    "I live in Melton and will relocate to Geelong for this role and can start two weeks after an offer. Full working rights in Australia (Subclass 485 visa), no sponsorship needed. I hold a White Card and a current Victorian driver's licence. Could I come in and meet the laboratory manager?",
+    "I live in Melton and will relocate to Geelong for this role and can start two weeks after an offer. I have full working rights in Australia (Subclass 485 visa). I hold a White Card and a current Victorian driver's licence. Could I come in and meet the laboratory manager?",
 ]
 
 # The letter the loop prepared on 13 Nov 2026 for PCP Solutions (runs/20261113T0714Z/drafts/pcp_L.json), last two paragraphs.
@@ -473,7 +473,7 @@ class WritingRules(unittest.TestCase):
             for kind in ('email', 'letter'):
                 self.assertTrue(any('visa end date' in i for i in checks.tone_issues(text, kind)), text)
                 self.assertEqual(checks.tone_issues(text, kind, visa_asked=True), [], text)
-        letter = {'paragraphs': ['The advert asks about visa status. I hold a Subclass 485 Temporary Graduate visa with full working rights until December 2027. No sponsorship needed.',
+        letter = {'paragraphs': ['The advert asks about visa status. I hold a Subclass 485 Temporary Graduate visa with full working rights until December 2027.',
                                  GOOD_LETTER[1], GOOD_LETTER[2]]}
         self.assertTrue(any('visa end date' in i for i in checks.draft_issues({'letter': letter})))
         self.assertTrue(any('visa end date' in i for i in checks.draft_issues({'letter': letter, 'advert_asks_about_visa': 'yes'})))  # only a real true counts
@@ -535,7 +535,7 @@ class WritingRules(unittest.TestCase):
         self.assertTrue(any(i.startswith('amount not in facts: $70,000') for i in checks.fact_issues('I managed a $70,000 budget.')))  # still a claim anywhere else
 
     def test_queue_entry_names_are_read_too(self):
-        entry = {'cover_letter_text': '\n\n'.join(GOOD_LETTER[:2] + ['I live in Melton. Full working rights in Australia (Subclass 485 visa), no sponsorship needed.']),
+        entry = {'cover_letter_text': '\n\n'.join(GOOD_LETTER[:2] + ['I live in Melton and have full working rights in Australia (Subclass 485 visa).']),
                  'relocation_line': 'I will relocate to Geelong for this role and can start two weeks after an offer.',
                  'email': {'body': GOOD_EMAIL}, 'questions': [{'question': 'How much notice are you required to give?', 'answer': '2 weeks'}]}
         body, paragraphs, answers = checks.draft_parts(entry)
@@ -1140,12 +1140,14 @@ class GateFailsClosed(unittest.TestCase):
 
     def test_one_new_line_in_facts_settles_its_questions(self):
         for question, key, answer in [("What's your expected hourly rate?", 'expected_hourly_rate', '35 to 40 dollars an hour'),
-                                      ('Will you require visa sponsorship in the future?', 'future_visa_sponsorship', 'No'),
                                       ('How would you rate your English language skills?', 'english_self_rating', 'Fluent'),
                                       ('Are you a current member of Engineers Australia?', 'engineers_australia_membership_or_recognition', 'No')]:
             self.assertIn(key, checks.standing_answer(question)[1] or '', question)
             with mock.patch.dict(checks.ANSWERS, {key: answer}):
                 self.assertEqual(checks.standing_line(question), ('answers.' + key, answer, None), question)
+        # Future sponsorship is settled in facts.json since 15 Nov 2026 (Yes); a plain line of its own still answers as it stands.
+        with mock.patch.dict(checks.ANSWERS, {'future_visa_sponsorship': 'No'}):
+            self.assertEqual(checks.standing_line('Will you require visa sponsorship in the future?'), ('answers.future_visa_sponsorship', 'No', None))
         with mock.patch.dict(checks.ANSWERS, {'experience_yes_no': {**checks.ANSWERS['experience_yes_no'], 'mine site': 'Not on record: skip and report'}}):
             self.assertTrue(checks.standing_answer('Do you have mine site experience?')[1])
 
@@ -1224,7 +1226,7 @@ class AnswersOnTheRecord(unittest.TestCase):
                                  ('Do you have experience preparing and submitting tenders?', 'No'), ("Do you have a current Australian driver's licence?", 'Yes'),
                                  ("Do you have a current Australian driver's licence?", "I hold a current Victorian driver's licence."),
                                  ('Are you an Australian citizen or permanent resident?', 'No'),
-                                 ('What is your current working rights status in Australia?', 'I hold a Subclass 485 Temporary Graduate visa with full working rights. No sponsorship needed.')]:
+                                 ('What is your current working rights status in Australia?', 'I hold a Subclass 485 Temporary Graduate visa with full working rights.')]:
             self.assertEqual(issues(question, answer), [], (question, answer))
         # The advert's own figure may be given when the draft carries the advert's pay text.
         self.assertEqual(issues("What's your expected annual base salary?", '$80,000', advert_pay='$80,000 to $115,000 plus super'), [])

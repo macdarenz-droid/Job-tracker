@@ -236,6 +236,30 @@ or one of the other marks in section 3.
   A free-text sponsorship question: "I'd be glad to discuss this in person. Could you tell me
   about your sponsorship requirements?" His aim (sponsorship or permanent residency) is never
   written into an application beyond those answers.
+  - The answers are in `facts.json -> answers -> future_visa_sponsorship` and
+    `sponsorship_free_text` (a future free-text question starts "Yes, in the future."), and
+    `queue.py answer` gives them. With options it picks the one that says Yes, or Yes in the
+    future; an option that says he needs it now is never chosen. A question about now whose
+    options offer "Yes, in the future" gets that option, never a No that would say never. A
+    form whose Yes options do not fit, a question about someone else's sponsorship or another
+    country, or one that also asks about his work rights goes to the owner (exit 5).
+  - `checks.py` (and so `queue.py next`, `letter` and `letter_pdf.py`) flags any sponsorship
+    wording in a letter or email, its subject, greeting and closing, "no sponsorship needed"
+    included; in a form answer only a question about sponsorship or visas may have it, and a
+    written answer to a sponsorship question must be the answer above, word for word.
+  - Ranking (D68): the screener records what the advert says as `sponsorship_signal`:
+    `offered` (sponsorship available, offered or provided), `considered` (may be available,
+    will be considered, for the right candidate, a DAMA or labour agreement) or `""` (nothing
+    said, or anything negative in the same sentence: "not available", "no sponsorship",
+    "unable to consider applicants who require sponsorship", "without the need for
+    sponsorship"; or a bar anywhere: "must have full working rights", "citizens and permanent
+    residents only").
+    `queue.py add` works it out from the draft's `advert_text` when the field is missing, and
+    `regional` from the location (`config.json -> regional_areas`: the Home Affairs designated
+    regional areas for skilled visas, Category 2 and 3; Sydney, Melbourne and Brisbane are
+    not regional). Within a lane, `next` hands out adverts that offer or consider sponsorship
+    first (one group), then the rest, and in each of those regional jobs before the others.
+    Neither field is ever written into a letter, email or answer.
 - Voice (owner, 15 Nov 2026: "make the tone humanized but professional", then "too much ai
   cover letter make humanized tone"; he chose the short, conversational sample, D69). Write like
   a real person writing a short note, not like a template. About 120 words for a letter, 60 to

@@ -40,8 +40,8 @@ YN = ['Yes', 'No']
 LETTER = ('Hello,\n\n'
           'I am applying for the Junior Civil Drafter role. Your advert asks for subdivision drawings in Civil 3D.\n\n'
           '{middle}\n\n'
-          'I live in Melton and can start two weeks after an offer. Full working rights in Australia (Subclass 485 visa), no '
-          'sponsorship needed. Could we talk this week?\n\n'
+          'I live in Melton and can start two weeks after an offer. I have full working rights in Australia '
+          '(Subclass 485 visa). Could we talk this week?\n\n'
           'Marc Masarate')
 GOOD_MIDDLE = ('In the Advanced Diploma of Civil Construction Design, finished in February 2026, I designed road geometry, earthworks '
                'and stormwater drainage in AutoCAD and Civil 3D to Australian Standards.')
@@ -169,10 +169,13 @@ class GateRefusesJoinedAndPastQuestions(unittest.TestCase):
                      'Are you willing to work FIFO on a 28/7 roster including night shifts?',
                      'Are you willing to relocate and work night shift?',
                      'Are you available to travel overseas for this role?',
-                     'Are you willing to work FIFO night shifts?',
-                     'Do you require employer sponsorship to work in Australia long term?',
-                     'Will you require sponsorship after your current visa expires?'):
+                     'Are you willing to work FIFO night shifts?'):
             self.assertEqual(gate(text, YN)['status'], 'unanswered', text)
+        # Owner, 15 Nov 2026: sponsorship long term or after the visa is a future question, and the answer is Yes (it went
+        # to the owner before).
+        for text in ('Do you require employer sponsorship to work in Australia long term?',
+                     'Will you require sponsorship after your current visa expires?'):
+            self.assertEqual(gate(text, YN)['answer'], 'Yes', text)
 
     def test_the_single_subject_questions_are_still_answered(self):  # no regression on the real wordings
         for text, want in (('Do you hold a current White Card?', 'Yes'),
@@ -185,7 +188,8 @@ class GateRefusesJoinedAndPastQuestions(unittest.TestCase):
                            ('Are you willing and able to travel to project sites as required?', 'Yes'),
                            ('Are you willing to relocate for this role?', 'Yes'),
                            ('Do you own or have regular access to a car?', 'Yes'),
-                           ('Do you require sponsorship to work in Australia?', 'No')):
+                           ('Do you require sponsorship to work in Australia?', 'No'),
+                           ('Will you require visa sponsorship in the future?', 'Yes')):
             self.assertEqual(gate(text, YN)['answer'], want, text)
 
     def test_something_already_done_is_not_answered_from_a_willing_line(self):  # B3
