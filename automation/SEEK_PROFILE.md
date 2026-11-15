@@ -163,7 +163,7 @@ Which option to choose, and which options never to choose, is written in `facts.
 `answers.right_to_work` (`choose`, `never_choose`, `if_unsure`). Free text, if asked:
 
 ```text
-Subclass 485 Temporary Graduate visa with full working rights until December 2027. No sponsorship needed.
+Subclass 485 Temporary Graduate visa with full working rights until December 2027.
 ```
 
 ## Resumes to store

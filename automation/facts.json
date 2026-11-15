@@ -28,7 +28,7 @@
    "Can start two weeks after an offer"
   ],
   "relocation": "Owner, 13 Nov 2026: will take a job anywhere in Australia. For a role outside daily travel distance of Melton VIC, applications say 'I will relocate to <city or region> for this role and can start two weeks after an offer.' Do not promise who pays for the move.",
-  "work_rights_short": "Full working rights in Australia (Subclass 485 visa), no sponsorship needed",
+  "work_rights_short": "Full working rights in Australia (Subclass 485 visa)",
   "work_rights_rule": "Headers, emails and letters use work_rights_short. The end date is given in the resume's eligibility section, in form answers that ask about work rights, and in a letter only when the advert asks about visa or residency. Never claim citizenship or permanent residency.",
   "drivers_licence_detail": "Full Victorian licence (owner, 13 Nov 2026). Transmission: automatic only, as far as the owner knows. Never claim a manual licence.",
   "police_check": "Holds an AFP National Police Check certificate issued in March 2026. It was not issued for an employer. Treat it as current until March 2027; after that, say he is willing to obtain a new one.",
@@ -182,7 +182,7 @@
     "permanent resident or New Zealand citizen",
     "any option that says sponsorship is required"
    ],
-   "free_text": "Subclass 485 Temporary Graduate visa with full working rights until December 2027. No sponsorship needed.",
+   "free_text": "Subclass 485 Temporary Graduate visa with full working rights until December 2027.",
    "if_unsure": "Skip the application and report the options shown."
   },
   "notice_period": "2 weeks",
