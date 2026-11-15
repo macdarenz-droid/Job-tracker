@@ -23,9 +23,20 @@
   "body": "",
   "evidence_url": ""
  },
- "questions": [],
- "status": "OPEN",
- "ask_owner": "",
+ "questions": [
+  {
+   "question": "I agree with the terms and conditions",
+   "options": [
+    "checked",
+    "unchecked"
+   ],
+   "answer": "",
+   "basis": "",
+   "status": "unanswered"
+  }
+ ],
+ "status": "ASK_OWNER",
+ "ask_owner": "No standing answer for this form question: I agree with the terms and conditions (options: checked / unchecked)",
  "attempts": [
   {
    "at": "2026-11-15T06:34:01Z",
@@ -33,6 +44,12 @@
    "result": "started",
    "note": "",
    "run": "20261115T062804Z"
+  },
+  {
+   "at": "2026-11-15T06:35:10Z",
+   "by": "Grok",
+   "result": "asked_owner",
+   "note": "form question with no standing answer: I agree with the terms and conditions"
   }
  ],
  "receipt": {},
