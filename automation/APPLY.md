@@ -223,9 +223,7 @@ or one of the other marks in section 3.
 
 - Resume: the variant for the lane. The headline is never "Graduate Civil Engineer".
 - Email at most 130 words; letter at most 200 words: a greeting line, three short paragraphs,
-  the sign-off. Paragraph 1: the role and one true, specific line from the advert. Paragraph 2:
-  what he has done, matched to the advert's top two tasks. Paragraph 3: where he is, work rights
-  in the short form, start in two weeks, one ask.
+  the sign-off. What goes in each paragraph, and how it sounds: "Voice" below.
 - Never say what he lacks; never mention residency, migration or visa plans. If the advert makes
   something he lacks mandatory, it is rejected at screening instead.
 - Work rights: "I have full working rights in Australia (Subclass 485 visa)." The end date
@@ -238,22 +236,35 @@ or one of the other marks in section 3.
   A free-text sponsorship question: "I'd be glad to discuss this in person. Could you tell me
   about your sponsorship requirements?" His aim (sponsorship or permanent residency) is never
   written into an application beyond those answers.
-- Voice (owner, 15 Nov 2026: "make the tone humanized but professional"): write the way a
-  courteous person writes to someone they would like to work with, not like a form.
-  - Greet by name when the advert names a contact ("Hi Ryan,"), otherwise "Hi <Company> team,".
-    Sign off "Kind regards," then the name (and, in an email, phone and portfolio).
-  - Do not open with "I am applying for". Say plainly what caught your eye or why you are
-    writing ("I'd like to apply for your Civil Engineer role on SEEK. Land development design
-    across roads, landform and stormwater is the work I most want to do.").
-  - Contractions are fine (I'm, I'd). Full sentences only, including the work-rights line.
-  - One warm, natural ask at the end ("Happy to chat whenever suits you."; for an enquiry, "If
-    nothing is open now, I'd be grateful if you kept my details on file."). Not the same closing
-    line in every message.
-  - The email is a short note that introduces the attachments; it does not repeat the letter.
-  - Warmth never adds facts: no invented feelings about the employer, no claims beyond
-    `facts.json`, and every banned phrase in `config.json -> tone` still applies.
-- Outside daily travel distance of Melton VIC: "I will relocate to <city or region> for this
-  role and can start two weeks after an offer."
+- Voice (owner, 15 Nov 2026: "make the tone humanized but professional", then "too much ai
+  cover letter make humanized tone"; he chose the short, conversational sample, D69). Write like
+  a real person writing a short note, not like a template. About 120 words for a letter, 60 to
+  90 for an email body (limits stay 200 and 130).
+  - Greeting "Hi <first name>," when the advert names a contact, otherwise "Hi <Company> team,".
+    Sign off "Kind regards," then the name.
+  - Paragraph 1: who he is and what he wants, in plain words: "My name's Marc. I graduated in
+    February 2026 with an Advanced Diploma of Civil Construction Design, and I'd like to start out
+    as a junior civil designer." Then one short, specific reason for writing to this employer, in
+    his own words ("Your careers page says you take people on from cadet level, so I wanted to
+    reach out."). Never repeat the advert's list of duties back to it.
+  - Paragraph 2: two or three short, true sentences about what he has done that fits the job
+    ("During the course I designed roads, earthworks and drainage in AutoCAD and Civil 3D.
+    Before that, on building sites in the Philippines, I was the one checking the drawings
+    against the work."). No long comma lists. "These days I work at a bp service station in
+    Melbourne." may close it.
+  - Paragraph 3: the move in his own words when the job is outside daily travel of Melton ("I
+    can move to Brisbane and start two weeks after an offer"), "I have full working rights in
+    Australia (Subclass 485 visa)", and one short friendly close ("Happy to chat any time.").
+  - He has graduated: never write "my studies", "currently studying" or anything that sounds
+    like he is still a student.
+  - Contractions are fine. Vary the wording between employers; never the same sentence in
+    every letter.
+  - Warmth never adds facts: no invented feelings, no claims beyond `facts.json`, no
+    sponsorship, and every banned phrase in `config.json -> tone` still applies.
+- Outside daily travel distance of Melton VIC: say he will move there and can start two weeks
+  after an offer, in his own words (above). Without it, `checks.compose_letter` adds the stock
+  sentence "I will relocate to <city or region> for this role and can start two weeks after an
+  offer."
 
 `queue.py`, `letter_pdf.py` and `checks.py` enforce these with the same checks.
 

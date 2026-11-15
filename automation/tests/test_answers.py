@@ -506,3 +506,24 @@ class LetterAndEmailRules(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+class RelocationInOwnWords(unittest.TestCase):
+    """D69: a letter that already says, in its own words, that he will move there is not given the stock sentence."""
+    LINE = 'I will relocate to Brisbane for this role and can start two weeks after an offer.'
+    BASE = 'Hi vTCE team,\n\nFirst paragraph here.\n\nSecond paragraph here.\n\n{}\n\nKind regards,\nMarc Masarate'
+
+    def test_own_words_are_kept_once(self):
+        text = self.BASE.format('I can move to Brisbane and start two weeks after an offer. Happy to chat any time.')
+        self.assertEqual(checks.compose_letter(text, self.LINE), text)
+
+    def test_a_different_place_still_gets_the_line(self):
+        text = self.BASE.format('I can move to Sydney and start two weeks after an offer.')
+        self.assertIn(self.LINE, checks.compose_letter(text, self.LINE))
+
+    def test_no_move_word_still_gets_the_line(self):
+        text = self.BASE.format('I like Brisbane and can start two weeks after an offer.')
+        self.assertIn(self.LINE, checks.compose_letter(text, self.LINE))
+
+    def test_no_start_date_still_gets_the_line(self):
+        text = self.BASE.format('I can move to Brisbane. Happy to chat any time.')
+        self.assertIn(self.LINE, checks.compose_letter(text, self.LINE))
