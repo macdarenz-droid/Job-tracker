@@ -228,10 +228,16 @@ or one of the other marks in section 3.
   in the short form, start in two weeks, one ask.
 - Never say what he lacks; never mention residency, migration or visa plans. If the advert makes
   something he lacks mandatory, it is rejected at screening instead.
-- Work rights: "Full working rights in Australia (Subclass 485 visa), no sponsorship needed", or
-  the same as a sentence: "I have full working rights in Australia (Subclass 485 visa), so no
-  sponsorship is needed." The end date appears only in the resume's eligibility section and in
-  form answers about work rights.
+- Work rights: "I have full working rights in Australia (Subclass 485 visa)." The end date
+  appears only in the resume's eligibility section and in form answers about work rights.
+- Sponsorship (owner, 15 Nov 2026: "dont talk about sponsorships during application unless
+  asked"): no email, letter, resume or free-text answer mentions sponsorship, not even "no
+  sponsorship needed", unless the employer asks about it. When a form or the employer asks:
+  "Do you need sponsorship to work now?" No (true: full working rights until December 2027).
+  "Will you now or in the future require sponsorship?" Yes (true: he wants sponsorship later).
+  A free-text sponsorship question: "I'd be glad to discuss this in person. Could you tell me
+  about your sponsorship requirements?" His aim (sponsorship or permanent residency) is never
+  written into an application beyond those answers.
 - Voice (owner, 15 Nov 2026: "make the tone humanized but professional"): write the way a
   courteous person writes to someone they would like to work with, not like a form.
   - Greet by name when the advert names a contact ("Hi Ryan,"), otherwise "Hi <Company> team,".
