@@ -24,24 +24,9 @@
   "evidence_url": "https://www.resourcejobs.au/jobs/junior-civil-drafter-47fd5c6e3ed14d6295b5a29023e3b3e6"
  },
  "questions": [],
- "status": "SKIPPED",
+ "status": "OPEN",
  "ask_owner": "",
- "attempts": [
-  {
-   "at": "2026-11-15T21:42:27Z",
-   "by": "Claude",
-   "result": "started",
-   "note": "",
-   "run": "20261115T214215Z"
-  },
-  {
-   "at": "2026-11-15T21:43:05Z",
-   "by": "Claude",
-   "result": "skipped",
-   "note": "not an email application: the advert gives this address for enquiries; applications go through the job board Apply button (re-added on EMPLOYER_PORTAL)",
-   "run": "20261115T214215Z"
-  }
- ],
+ "attempts": [],
  "receipt": {},
  "created_by": "Grok",
  "created_at": "2026-11-15T21:36:20Z",
