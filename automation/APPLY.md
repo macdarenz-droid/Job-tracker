@@ -228,9 +228,24 @@ or one of the other marks in section 3.
   in the short form, start in two weeks, one ask.
 - Never say what he lacks; never mention residency, migration or visa plans. If the advert makes
   something he lacks mandatory, it is rejected at screening instead.
-- Work rights: "Full working rights in Australia (Subclass 485 visa), no sponsorship needed".
-  The end date appears only in the resume's eligibility section and in form answers about work
-  rights.
+- Work rights: "Full working rights in Australia (Subclass 485 visa), no sponsorship needed", or
+  the same as a sentence: "I have full working rights in Australia (Subclass 485 visa), so no
+  sponsorship is needed." The end date appears only in the resume's eligibility section and in
+  form answers about work rights.
+- Voice (owner, 15 Nov 2026: "make the tone humanized but professional"): write the way a
+  courteous person writes to someone they would like to work with, not like a form.
+  - Greet by name when the advert names a contact ("Hi Ryan,"), otherwise "Hi <Company> team,".
+    Sign off "Kind regards," then the name (and, in an email, phone and portfolio).
+  - Do not open with "I am applying for". Say plainly what caught your eye or why you are
+    writing ("I'd like to apply for your Civil Engineer role on SEEK. Land development design
+    across roads, landform and stormwater is the work I most want to do.").
+  - Contractions are fine (I'm, I'd). Full sentences only, including the work-rights line.
+  - One warm, natural ask at the end ("Happy to chat whenever suits you."; for an enquiry, "If
+    nothing is open now, I'd be grateful if you kept my details on file."). Not the same closing
+    line in every message.
+  - The email is a short note that introduces the attachments; it does not repeat the letter.
+  - Warmth never adds facts: no invented feelings about the employer, no claims beyond
+    `facts.json`, and every banned phrase in `config.json -> tone` still applies.
 - Outside daily travel distance of Melton VIC: "I will relocate to <city or region> for this
   role and can start two weeks after an offer."
 
