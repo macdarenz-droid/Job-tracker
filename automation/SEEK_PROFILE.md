@@ -42,7 +42,7 @@ Job title: Console Operator (casual)
 Company: bp service station, Melbourne VIC
 Started: May 2024
 Ended: present
-- Customer service and console operation at a service station, held alongside full-time study in the Advanced Diploma
+- Customer service and console operation at a service station; worked here while studying full time for the Advanced Diploma (completed February 2026)
 
 Job title: Technical Support Representative, Microsoft Software
 Company: Concentrix, Philippines

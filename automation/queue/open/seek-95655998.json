@@ -29,9 +29,9 @@
     "No - I need to apply for working rights",
     "I have temporary working rights"
    ],
-   "answer": "",
+   "answer": "I have temporary working rights",
    "basis": "answers.right_to_work.choose",
-   "status": "unanswered"
+   "status": "answered"
   },
   {
    "question": "How many years' experience do you have in your current occupation?",
@@ -41,9 +41,9 @@
     "1 - 5 Years",
     "0 - 1 years"
    ],
-   "answer": "",
+   "answer": "1 - 5 Years",
    "basis": "answers.owner_answers",
-   "status": "unanswered"
+   "status": "answered"
   },
   {
    "question": "Which of the following best describes your highest qualification - relevant to the position of Trainee Civil Drafter?",
@@ -81,8 +81,8 @@
    "status": "answered"
   }
  ],
- "status": "ASK_OWNER",
- "ask_owner": "No standing answer for 2 form questions: Do you have current working rights that allows you to work in the country to are applying to? (options: Yes / No - I need to apply for working rights / I have temporary working rights) | How many years' experience do you have in your current occupation? (options: 10+ years / 5 - 9 years / 1 - 5 Years / 0 - 1 years)",
+ "status": "OPEN",
+ "ask_owner": "",
  "attempts": [
   {
    "at": "2026-11-14T21:36:55Z",

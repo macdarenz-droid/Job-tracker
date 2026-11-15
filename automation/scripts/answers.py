@@ -24,15 +24,23 @@ Covered (facts.json -> answers unless another block is named):
                      question about one job or its pay (JOB_SPECIFIC: 'this role', 'similar role', 'salary') needs
                      "entry". A question asking for a private detail (PRIVATE_ASK: date of birth, tax file number,
                      address, health) is never taken from a row: the owner types it himself. A malformed row answers
-                     nothing (owner_answer_problems)
+                     nothing (owner_answer_problems). A row with no options whose answer is a plain length of time
+                     ("2 years", "18 months"), for a how-many-years question: the one option whose range holds that
+                     number ("1 - 5 Years"), when every option reads as a length of time; a number on the edge of two
+                     options ("1 year" with "0 - 1 years" and "1 - 5 Years") is unanswered (_owner_length_option)
   right to work      Yes/No 'Do you have the right to work in Australia?' (the legal right, currently, hold) and 'Do
                      you have full working rights in Australia?': Yes. 'Are you an Australian citizen or permanent
                      resident?' (or PR, either order): No. 'Unrestricted' and anything more stay unanswered. Otherwise
                      the option naming the temporary graduate visa or Subclass 485 and nothing more (RTW_GRADUATE_WORDS:
                      not 'with more than 2 years remaining', 'no sponsorship now or in the future', 'and have applied
                      for permanent residency'); only when no option names that visa, the one temporary visa option with
-                     no restriction on hours or industry and nothing more; never citizen, permanent resident, New
-                     Zealand or an option saying sponsorship is required. No options: right_to_work.free_text
+                     no restriction on hours or industry and nothing more; only when there is none of those either, the
+                     one option that says temporary and nothing more ("I have temporary working rights", "Temporary
+                     visa": RTW_TEMPORARY_WORDS), when no other option says temporary or names a restriction or limit;
+                     never citizen, permanent resident, New Zealand or an option saying sponsorship is required, nor a
+                     graduate option that says restrictions apply. No options: right_to_work.free_text. Work rights
+                     somewhere other than Australia ('in New Zealand', 'overseas', 'in Australia and New Zealand') or
+                     someone else's ('your partner'): unanswered (RTW_ELSEWHERE)
   sponsorship        "Do you require sponsorship to work in Australia (now)?": No. In the future: unanswered
   notice             2 weeks, or the option meaning 2 weeks
   start date         free text only: "Two weeks after an offer" (eligibility.availability)
@@ -65,6 +73,12 @@ Covered (facts.json -> answers unless another block is named):
   declarations       true and correct, privacy policy or collection notice, consent to reference, qualification or
                      police checks: Yes. Any other declaration or consent: unanswered
   referees           free text "Available on request", never a name. Location: free text identity.location
+  contact fields     free text, a form's own label for his details and nothing more (CONTACT_FIELDS): "First" or "First
+                     name" (the first word of identity.name, when it is identity.short_name), "Last" or "Surname" (the
+                     last word), "Full name" or "Name" (identity.name), "Email" or "Personal Email" (identity.email),
+                     "Phone" or "Mobile number" (identity.phone). Never a label naming anyone else (referee, manager,
+                     emergency contact, employer), another part of the name (middle, preferred, legal) or another
+                     subject ("First aid", "First Nations", "Last day"); with options on screen: unanswered
 Unanswered: hourly rate, English self-rating, Engineers Australia, future sponsorship (until facts.json gives them a
 plain answer), and every question this list does not name. Pure: no files. The clock is read only for the police
 check, whose answer changes in a month that facts.json states.
@@ -79,7 +93,8 @@ KEYS = {'owner_answers', 'right_to_work', 'future_visa_sponsorship', 'notice_per
         'pre_employment_medical', 'drug_and_alcohol_screening', 'currently_studying', 'willing_to_relocate',
         'willing_to_travel_or_fifo', 'engineers_australia_membership_or_recognition', 'qualification_questions',
         'years_of_experience', 'software', 'experience_yes_no', 'english_self_rating', 'declarations_and_consents',
-        'referees', 'identity.location', 'eligibility.availability', 'education'}
+        'referees', 'identity.location', 'identity.name', 'identity.short_name', 'identity.email', 'identity.phone',
+        'eligibility.availability', 'education'}
 NOT_FORM_ANSWERS = {'free_text_cover_letter'}
 
 # Software a form may name that is not his (checks.py flags a claim to any of these in written text too).
@@ -456,14 +471,45 @@ _RTW_COMMON = {'i', 'im', 'am', 'have', 'hold', 'a', 'an', 'the', 'on', 'current
                'without', 'unrestricted'}
 RTW_GRADUATE_WORDS = _RTW_COMMON | {'graduate', 'subclass', 'sc', '485', 'tgv'}
 RTW_FREE_WORDS = _RTW_COMMON | {'e', 'g', 'eg', 'doctoral', 'student'}   # SEEK's 'I have a temporary visa with no restrictions (e.g. doctoral student)'
+# The words of an option that says only that he holds a temporary visa or temporary working rights ('I have temporary
+# working rights', 'Temporary visa'): no Yes or No, no restriction, time, stream or sponsorship. Chosen only when no option
+# names the graduate visa or an unrestricted temporary visa, it is the one option that says temporary, and no other
+# option names a restriction or limit (the form would then split temporary rights, and this one does not say which).
+RTW_TEMPORARY_WORDS = {'i', 'im', 'am', 'have', 'hold', 'a', 'an', 'the', 'on', 'currently', 'holder', 'my', 'of', 'visa',
+                       'temporary', 'work', 'working', 'with', 'rights', 'right', 'to', 'in', 'australia'}
+RTW_RESTRICTION = re.compile(r'restrict|limit|condition|\bhours?\b|part.?time|\bcap(ped)?\b')
+# A work-rights question about somewhere other than Australia ('in New Zealand', 'in the UK', 'overseas', 'in Australia
+# and New Zealand') or about someone else ('your partner'): facts.json -> answers -> right_to_work holds only his own
+# Australian work rights. 'In Australia' and 'in the country you are applying to' are his.
+RTW_ELSEWHERE = re.compile(r"\b(?:in|within) (?!australia\b(?!\s*(?:and|or|&|/|,)\s*\w))(?!(?:the|this|that|your) country\b)"
+                           r"|\b(?:overseas|abroad|outside|elsewhere|another country|other countries)\b"
+                           r"|\b(?:your|his|her|their) (?:partner|spouse|husband|wife|dependants?|dependents?|children|child|family)\b")
 
 
 def _rtw_words(option):
     return set(re.findall(r'[a-z0-9]+', norm(option).replace("'", '')))
 
 
+def _says_restricted(option):
+    """True when an option says restrictions apply ('485 visa with restrictions'); 'no restrictions', 'without
+    restrictions' and 'unrestricted' do not."""
+    return bool(re.search(r'\brestrict', re.sub(r'\b(?:no|without)(?: \w+)? restrictions?\b', ' ', norm(option))))
+
+
+def _plain_temporary(opts):
+    """[the option] when exactly one option says temporary, it holds only RTW_TEMPORARY_WORDS, and no other option names a
+    restriction or limit; [] otherwise."""
+    temporary = [o for o in opts if re.search(r'\btemporary\b', norm(o))]
+    if len(temporary) != 1 or any(RTW_RESTRICTION.search(norm(o)) for o in opts if o is not temporary[0]):
+        return []
+    return temporary if _rtw_words(temporary[0]) <= RTW_TEMPORARY_WORDS else []
+
+
 def _right_to_work(q, opts, a):
     rule = a.get('right_to_work') or {}
+    if RTW_ELSEWHERE.search(q):
+        return _no("work rights somewhere other than Australia, or someone else's: facts.json -> answers -> right_to_work holds only his "
+                   'own Australian work rights', 'answers.right_to_work')
     if not opts:
         free = rule.get('free_text')
         return _ok(free, 'answers.right_to_work.free_text') if free else _no('facts.json -> answers -> right_to_work has no free_text', 'answers.right_to_work')
@@ -474,13 +520,15 @@ def _right_to_work(q, opts, a):
         return _no('facts.json -> answers -> right_to_work has no rule for choosing', 'answers.right_to_work')
     named = [o for o in opts if re.search(r'graduate|\b485\b', norm(o))]
     if named:   # the form offers the graduate visa: only an option that says that and nothing more, never another one instead
-        pick = [o for o in named if _rtw_words(o) <= RTW_GRADUATE_WORDS]
+        pick = [o for o in named if _rtw_words(o) <= RTW_GRADUATE_WORDS and not _says_restricted(o)]
         if len(pick) != 1:
             return _no('no single option names the temporary graduate visa (Subclass 485) and nothing more (an option that adds a '
                        'time left, sponsorship, residency or anything else is not chosen)', 'answers.right_to_work.choose')
         return _ok(pick[0], 'answers.right_to_work.choose')
     free = [o for o in opts if re.search(r'temporary', norm(o)) and re.search(r'no restrictions?|without restrictions?|unrestricted|full work(ing)? rights', norm(o))
             and not re.search(r'restrictions? on|restricted (to|by|on)|limited|holiday|partner|family|bridging', norm(o)) and _rtw_words(o) <= RTW_FREE_WORDS]
+    if not free:   # 15 Nov 2026 (TTW): 'I have temporary working rights', the one temporary option, naming no restriction
+        free = _plain_temporary(opts)
     if len(free) != 1:
         return _no('no single option names the temporary graduate visa (Subclass 485) or a temporary visa with no restriction, and '
                    'nothing more', 'answers.right_to_work.choose')
@@ -928,6 +976,58 @@ def _referees(q, opts, a):
     return _ok(first, 'answers.referees')
 
 
+# His own contact details asked as a form's plain field label (15 Nov 2026, Coffey Testing: 'First', 'Last', 'Personal
+# Email'). The whole label must be one of these, after an optional your, my, personal, applicant or candidate: anything
+# more names someone else ('Referee first name', 'Manager email', 'Emergency contact phone', 'Employer name'), another
+# part of the name ('Middle name', 'Preferred name', 'Legal first name', 'Given names': all of them) or another subject
+# ('First aid', 'First Nations', 'Last day', 'Work email').
+CONTACT_OWN = r"(?:(?:your|my|personal|applicant'?s?|candidate'?s?) )?"
+CONTACT_FIELDS = {
+    'first': r'first(?: name)?|given name|forename',
+    'last': r'last(?: name)?|surname|family name',
+    'full': r'(?:full )?name',
+    'email': r'e-?mail(?: address)?',
+    'phone': r'(?:mobile|phone|telephone)(?: phone)?(?: number| no)?|contact (?:phone )?number',
+}
+# A word before the last that makes the family name two words ('de la Cruz', 'van Dijk'): the last word alone is then not it.
+NAME_PARTICLES = {'de', 'da', 'del', 'dela', 'della', 'di', 'do', 'dos', 'das', 'du', 'la', 'le', 'van', 'von', 'der', 'den',
+                  'ter', 'ten', 'st', 'bin', 'binti', 'al', 'el', 'mac', 'mc', 'o'}
+
+
+def _contact(q, opts, facts):
+    """His first, last or full name, email or phone (facts.json -> identity) for a plain contact field (CONTACT_FIELDS),
+    as text to type; None when the question is not one. First is the first word of identity.name, and only when it is
+    identity.short_name (where the facts give one); last is the last word, and not after a particle. With options on
+    screen: unanswered (facts.json gives only the text)."""
+    label = re.sub(r'\s*\*+$', '', q)   # 'First name *': the form's required mark
+    kind = next((k for k, p in CONTACT_FIELDS.items() if re.fullmatch(CONTACT_OWN + '(?:' + p + ')', label)), None)
+    if not kind:
+        return None
+    ident = facts.get('identity') or {}
+    key = kind if kind in ('email', 'phone') else 'name'
+    basis = 'identity.' + key
+    if opts:
+        return _no('a contact field with options: facts.json -> identity gives only the text to type', basis)
+    value = ' '.join(str(ident.get(key) or '').split())
+    if key == 'email':
+        return _ok(value, basis) if re.fullmatch(r'[^@\s]+@[^@\s]+\.[^@\s]+', value) else _no('facts.json -> identity has no email', basis)
+    if key == 'phone':
+        return _ok(value, basis) if len(re.sub(r'\D', '', value)) >= 8 else _no('facts.json -> identity has no phone', basis)
+    words = value.split()
+    if len(words) < 2:
+        return _no('facts.json -> identity -> name is not a first and a last name', basis)
+    if kind == 'full':
+        return _ok(value, basis)
+    if kind == 'first':
+        short = str(ident.get('short_name') or '').strip()
+        if short and short != words[0]:
+            return _no('facts.json -> identity: the first word of name is not short_name, so the first name is not settled', basis)
+        return _ok(words[0], basis)
+    if words[-2].lower() in NAME_PARTICLES:
+        return _no('facts.json -> identity -> name: the family name may be more than its last word', basis)
+    return _ok(words[-1], basis)
+
+
 # ---------- the owner's own answers ----------
 
 OWNER_KEYS = ('question', 'options', 'answer', 'date', 'entry')
@@ -1027,9 +1127,32 @@ def _owner_answer(question, opts, a, entry=None):
     if not opts:
         return _ok(row['answer'], OWNER_BASIS)
     pick = [o for o in opts if norm(o) == norm(row['answer'])]
+    if not pick and not row.get('options'):   # he answered in his own words: a length of time picks the option holding it
+        pick = _owner_length_option(question, row['answer'], opts)
     if len(pick) != 1:
-        return _no(f"the owner's answer of {row['date']} is not one of the options on screen (facts.json -> answers -> owner_answers)", OWNER_BASIS)
+        edge = len(pick) > 1 and not any(norm(o) == norm(row['answer']) for o in opts)
+        return _no(f"the owner's answer of {row['date']} is not one of the options on screen" + (' (it falls in more than one of them)' if edge else '')
+                   + ' (facts.json -> answers -> owner_answers)', OWNER_BASIS)
     return _ok(pick[0], OWNER_BASIS)
+
+
+OWNER_LENGTH = re.compile(r'(\d+(?:\.\d+)?|one|two|three|four|five|six|seven|eight|nine|ten)\s*(years?|yrs?|months?)')
+
+
+def _owner_length_option(question, given, opts):
+    """15 Nov 2026 (TTW): the options holding the length of time the owner gave in his own words ('2 years', '18 months')
+    for a how-many-years question: every option must read as a length of time (months_range), and the number must fall
+    inside an option's range ('2 years' is 24 months: '1 - 5 Years', 12 to 60). [] when his answer is not a plain length,
+    the question asks something else or an option cannot be read. A number on the edge of two options ('1 year' with
+    '0 - 1 years' and '1 - 5 Years') is in both: the caller then leaves the question unanswered."""
+    if not re.search(r"how many years|years'? (of )?experience|number of years", norm(question)):
+        return []
+    m = OWNER_LENGTH.fullmatch(norm(given).rstrip(' .'))
+    ranges = [(o, months_range(o)) for o in opts]
+    if not m or any(r is None for _, r in ranges):
+        return []
+    months = _number(m.group(1)) * (1 if m.group(2).startswith('month') else 12)
+    return [o for o, r in ranges if r[0] <= months <= r[1]]
 
 
 # ---------- the gate ----------
@@ -1144,6 +1267,9 @@ def answer(question, options=None, facts=None, pay=None, today=None, entry=None)
         return _plain_line(a, 'english_self_rating', q, opts)
     if re.search(r'\breferees?\b', q):
         return _referees(q, opts, a)
+    contact = _contact(q, opts, facts)
+    if contact:
+        return contact
     if re.fullmatch(r"where (are|do) you (currently )?(live|living|located|based|reside|residing)|where are you located|where are you currently (living|based|located)"
                     r"|(what is |what's )?your (current )?location|location|current location|(please confirm )?which suburb (do )?you (currently )?(live|reside) in"
                     r"|(please confirm )?which suburb do you (currently )?(live|reside) in|which suburb do you live in", q):
