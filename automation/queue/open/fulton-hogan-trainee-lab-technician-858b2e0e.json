@@ -24,14 +24,21 @@
   "evidence_url": ""
  },
  "questions": [],
- "status": "OPEN",
- "ask_owner": "",
+ "status": "ASK_OWNER",
+ "ask_owner": "Workday sign-in refused after account creation; likely needs email verification link sent to Gmail. Owner: verify the Fulton Hogan Workday email or reset the password, then reopen.",
  "attempts": [
   {
    "at": "2026-11-15T21:45:02Z",
    "by": "Grok",
    "result": "started",
    "note": "",
+   "run": "20261115T213212Z"
+  },
+  {
+   "at": "2026-11-15T21:47:32Z",
+   "by": "Grok",
+   "result": "asked_owner",
+   "note": "Workday sign-in refused after account creation; likely needs email verification link sent to Gmail. Owner: verify the Fulton Hogan Workday email or reset the password, then reopen.",
    "run": "20261115T213212Z"
   }
  ],
