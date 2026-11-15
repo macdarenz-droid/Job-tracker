@@ -1695,10 +1695,17 @@ def mark(qdir, entry_id, action, by, now=None, kind=None, ref=None, at=None, not
             raise Refused('uncertain needs --note')
         e['status'], e['ask_owner'] = 'UNCERTAIN', ''
     elif action == 'linkout':
-        if e['route'] != 'SEEK':
-            raise Refused(f"linkout is for a SEEK entry whose apply button leads to the employer's site; {entry_id} is on {e['route']}")
+        if e['route'] == 'SEEK':
+            note = note or "SEEK's apply button leads to the employer's site: re-routed to EMPLOYER_PORTAL"
+        elif e['route'] == 'EMAIL':
+            # The advert's address turned out not to be an application address (for enquiries only, say): the application goes
+            # through the advert's own apply button. The email part is dropped; the letter stays for the site.
+            e['email'] = {k: '' for k in ('to', 'subject', 'body', 'evidence_url')}
+            note = note or "the advert's address is not for applications; apply with the advert's own apply button: re-routed to EMPLOYER_PORTAL"
+        else:
+            raise Refused(f"linkout is for a SEEK entry whose apply button leads to the employer's site, or an EMAIL entry whose address "
+                          f"is not for applications; {entry_id} is on {e['route']}")
         e['route'] = 'EMPLOYER_PORTAL'
-        note = note or "SEEK's apply button leads to the employer's site: re-routed to EMPLOYER_PORTAL"
     elif action == 'ask':
         if not note:
             raise Refused('ask needs --question')

@@ -681,3 +681,20 @@ class JournalRunIdTests(unittest.TestCase):   # F12
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class LinkoutFromEmail(Case):   # 16 Nov 2026: an enquiries-only address queued as EMAIL goes to the advert's apply button
+    def test_linkout_moves_an_email_entry_to_the_portal_route_and_drops_the_email(self):
+        self.add(email_entry(1))
+        self.cli('lock', 'take', '--by', 'Claude', '--run', RUN)
+        code, out, _ = self.cli('next', '--route', 'EMAIL', '--by', 'Claude', '--run', RUN)
+        self.assertEqual((code, json.loads(out)['id']), (0, 'email-1'))
+        code, out, _ = self.cli('mark', 'email-1', 'linkout', '--by', 'Claude', '--run', RUN)
+        self.assertEqual((code, out.strip()), (0, 'email-1: OPEN'))
+        e = q.find(self.dir, 'email-1')[1]
+        self.assertEqual((e['route'], e['status'], e['attempts'][-1]['result']), ('EMPLOYER_PORTAL', 'OPEN', 'linkout'))
+        self.assertEqual(e['email'], {'to': '', 'subject': '', 'body': '', 'evidence_url': ''})
+        self.assertTrue(e['cover_letter_text'])
+        self.assertIn('not for applications', e['attempts'][-1]['note'])
+        self.assertEqual(self.next('EMPLOYER_PORTAL')['id'], 'email-1')
+        self.assertEqual(q.check_problems(q.load(self.dir), FACTS, NOW), [])

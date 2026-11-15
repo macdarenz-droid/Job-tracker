@@ -82,6 +82,13 @@ git add -A -- ../queue ../journal.jsonl ../runs/RUN_ID && git commit -m 'Grok se
 - Never save finds to a local folder. A find that is not in the repo queue does not exist for
   anyone else.
 
+## Which route
+
+An advert's email address is an application route only when the advert says to send applications
+there ("send your resume to ..."). An address given for enquiries or questions ("keen to learn more,
+reach out to ...") is not: the entry's route is the advert's own apply button (`EMPLOYER_PORTAL`).
+A runner that finds an EMAIL entry like that moves it with `queue.py mark ID linkout`.
+
 ## Finding new adverts
 
 Only when fewer than 12 entries are waiting (RUNBOOK step 4), and only through RUNBOOK steps 4
