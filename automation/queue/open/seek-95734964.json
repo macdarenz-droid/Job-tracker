@@ -1,0 +1,65 @@
+{
+ "id": "seek-95734964",
+ "lane": "technician",
+ "route": "SEEK",
+ "application_type": "ADVERTISED_VACANCY",
+ "company": "Geotechnical Testing Services (PTG Group)",
+ "role": "Trainee Technician / Technician",
+ "location": "Bendigo VIC",
+ "url": "https://www.seek.com.au/job/95734964",
+ "seek_id": "95734964",
+ "listed_at": "2026-11-07",
+ "closes_at": "2026-12-07",
+ "closes_source": "listing_expiry",
+ "fit": 78,
+ "sponsorship_signal": "",
+ "regional": true,
+ "resume_variant": "technician",
+ "relocation_line": "I will relocate to Bendigo for this role and can start two weeks after an offer.",
+ "cover_letter_text": "Hi GTS team,\n\nMy name's Marc. I graduated in February 2026 with an Advanced Diploma of Civil Construction Design, and I'd like to start out as a materials testing technician. Your Bendigo laboratory taking on trainees and teaching the test methods is the kind of start I'm after.\n\nOn site in the Philippines I carried out inspections and quality checks and kept the material records and progress reports. I'm careful with measurements and paperwork, and I have a current White Card and a Victorian driver's licence.\n\nI will relocate to Bendigo for this role and can start two weeks after an offer. I have full working rights in Australia (Subclass 485 visa). Happy to chat any time.\n\nKind regards,\nMarc Masarate",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [
+  {
+   "question": "Which of the following statements best describes your right to work in Australia?",
+   "options": [],
+   "answer": "Subclass 485 Temporary Graduate visa with full working rights until December 2027.",
+   "basis": "answers.right_to_work.free_text",
+   "status": "answered"
+  },
+  {
+   "question": "Do you have a current Australian driver's licence?",
+   "options": [],
+   "answer": "Yes",
+   "basis": "answers.drivers_licence",
+   "status": "answered"
+  },
+  {
+   "question": "Do you have a Certificate III in Laboratory Skills?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer": "",
+   "basis": "",
+   "status": "unanswered"
+  }
+ ],
+ "status": "ASK_OWNER",
+ "ask_owner": "No standing answer for this form question: Do you have a Certificate III in Laboratory Skills? (options: Yes / No)",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "Grok",
+ "created_at": "2026-11-15T21:36:09Z",
+ "source_run": "20261115T213212Z",
+ "notes": "Lane technician: field and lab soil and construction materials testing; advert welcomes people with no experience, Cert III in CMT and nuclear gauge licence preferable or willing to obtain. Job type is casual or vacation. Found on open web (PTG Group careers page lists Bendigo role, jobstralia and SEEK copies read 16 Nov 2026). Cert III Laboratory Skills question has no standing answer.",
+ "advert_pay": "not stated",
+ "verify_before_submit": [
+  "Advert still open and still a Trainee Technician / Technician at the Bendigo laboratory",
+  "Answer the Certificate III in Laboratory Skills question only with the owner's reply recorded by queue.py answer"
+ ]
+}

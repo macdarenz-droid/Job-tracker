@@ -1,0 +1,40 @@
+{
+ "lane": "technician",
+ "route": "SEEK",
+ "company": "Geotechnical Testing Services (PTG Group)",
+ "role": "Trainee Technician / Technician",
+ "url": "https://www.seek.com.au/job/95734964",
+ "seek_id": "95734964",
+ "location": "Bendigo VIC",
+ "listed_at": "2026-11-07",
+ "closes_at": "2026-12-07",
+ "closes_source": "listing_expiry",
+ "fit": 78,
+ "resume_variant": "technician",
+ "relocation_line": "I will relocate to Bendigo for this role and can start two weeks after an offer.",
+ "advert_pay": "not stated",
+ "sponsorship_signal": "",
+ "questions": [
+  {
+   "question": "Which of the following statements best describes your right to work in Australia?"
+  },
+  {
+   "question": "Do you have a current Australian driver's licence?"
+  },
+  {
+   "question": "Do you have a Certificate III in Laboratory Skills?",
+   "options": [
+    "Yes",
+    "No"
+   ]
+  }
+ ],
+ "verify_before_submit": [
+  "Advert still open and still a Trainee Technician / Technician at the Bendigo laboratory",
+  "Answer the Certificate III in Laboratory Skills question only with the owner's reply recorded by queue.py answer"
+ ],
+ "notes": "Lane technician: field and lab soil and construction materials testing; advert welcomes people with no experience, Cert III in CMT and nuclear gauge licence preferable or willing to obtain. Job type is casual or vacation. Found on open web (PTG Group careers page lists Bendigo role, jobstralia and SEEK copies read 16 Nov 2026). Cert III Laboratory Skills question has no standing answer.",
+ "source_run": "20261115T213212Z",
+ "advert_text": "Trainee Technician / Technician Bendigo GTS soil testing construction materials testing field and laboratory testing, training in test methods. Previous experience highly regarded. Cert III in CMT preferable or willing to obtain. Nuclear gauge licence preferable or willing to obtain. open to those without experience eager to learn. Open current driver's licence.",
+ "cover_letter_text": "Hi GTS team,\n\nMy name's Marc. I graduated in February 2026 with an Advanced Diploma of Civil Construction Design, and I'd like to start out as a materials testing technician. Your Bendigo laboratory taking on trainees and teaching the test methods is the kind of start I'm after.\n\nOn site in the Philippines I carried out inspections and quality checks and kept the material records and progress reports. I'm careful with measurements and paperwork, and I have a current White Card and a Victorian driver's licence.\n\nI will relocate to Bendigo for this role and can start two weeks after an offer. I have full working rights in Australia (Subclass 485 visa). Happy to chat any time.\n\nKind regards,\nMarc Masarate"
+}
