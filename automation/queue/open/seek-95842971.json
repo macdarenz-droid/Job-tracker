@@ -12,6 +12,8 @@
  "closes_at": "2026-12-12",
  "closes_source": "listing_expiry",
  "fit": 70,
+ "sponsorship_signal": "",
+ "regional": null,
  "resume_variant": "engineer",
  "relocation_line": "I will relocate to Gympie for this role and can start two weeks after an offer.",
  "cover_letter_text": "Hi Civilivic team,\n\nMy name's Marc Masarate. I graduated in February 2026 with an Advanced Diploma of Civil Construction Design, after a Bachelor of Science in Civil Engineering in the Philippines (2019). Your Site Engineer role in Gympie is open to graduates and puts them on live projects from day one, so I'm applying.\n\nFrom April 2019 to February 2020 I was project-in-charge on a community hall renovation in the Philippines, then field engineer on residential subdivision finishing works. I coordinated 10 to 15 workers a day and worked with subcontractors and suppliers to sort out site issues. The diploma later added road, earthworks and drainage design, plus bills of quantities.\n\nI can relocate to Gympie and start two weeks after an offer. I hold a White Card and have full working rights in Australia (Subclass 485 visa). Call me any time for a chat.\n\nKind regards,\nMarc Masarate",
@@ -80,6 +82,13 @@
    "by": "Claude",
    "result": "reopened",
    "note": "owner: apply (14 Nov 2026); willing to get a Queensland licence (question was: Civilivic's advert lists a current Queensland driver's licence; yours is Victorian: apply anyway?)"
+  },
+  {
+   "at": "2026-11-15T22:06:23Z",
+   "by": "Grok",
+   "result": "started",
+   "note": "",
+   "run": "20261115T213212Z"
   }
  ],
  "receipt": {},
