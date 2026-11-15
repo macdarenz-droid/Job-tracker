@@ -24,7 +24,15 @@
  "questions": [],
  "status": "OPEN",
  "ask_owner": "",
- "attempts": [],
+ "attempts": [
+  {
+   "at": "2026-11-15T02:54:56Z",
+   "by": "Claude",
+   "result": "started",
+   "note": "",
+   "run": "20261115T025236Z"
+  }
+ ],
  "receipt": {},
  "created_by": "Grok",
  "created_at": "2026-11-14T14:02:46Z",
