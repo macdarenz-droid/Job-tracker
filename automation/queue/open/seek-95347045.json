@@ -12,6 +12,8 @@
  "closes_at": "2026-11-18",
  "closes_source": "listing_expiry",
  "fit": 76,
+ "sponsorship_signal": "",
+ "regional": null,
  "resume_variant": "technician",
  "relocation_line": "I will relocate to Townsville for this role and can start two weeks after an offer.",
  "cover_letter_text": "Hi Mendi Constructions team,\n\nI'm Marc. I graduated in February 2026 with an Advanced Diploma of Civil Construction Design, and quality assurance on civil jobs is where I'd like to start. Your advert says the trainee learns on the job from your project managers, supervisors and engineers, so I'm putting my hand up.\n\nOn two jobs in the Philippines in 2019 and 2020, I did site inspections and quality checks and kept the site reports and material records. I also checked the work against the drawings. I hold a White Card and a driver's licence.\n\nI can move to Townsville and start two weeks after an offer, and I have full working rights in Australia (Subclass 485 visa). Happy to talk any time.\n\nKind regards,\nMarc Masarate",
@@ -60,7 +62,15 @@
  ],
  "status": "OPEN",
  "ask_owner": "",
- "attempts": [],
+ "attempts": [
+  {
+   "at": "2026-11-15T21:37:39Z",
+   "by": "Grok",
+   "result": "started",
+   "note": "",
+   "run": "20261115T213212Z"
+  }
+ ],
  "receipt": {},
  "created_by": "import_backlog.py",
  "created_at": "2026-11-13T00:40:00Z",
