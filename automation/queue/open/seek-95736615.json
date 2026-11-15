@@ -12,6 +12,8 @@
  "closes_at": "2026-12-06",
  "closes_source": "listing_expiry",
  "fit": 68,
+ "sponsorship_signal": "",
+ "regional": null,
  "resume_variant": "engineer",
  "relocation_line": "I will relocate to Adelaide for this role and can start two weeks after an offer.",
  "cover_letter_text": "Hi Fyfe team,\n\nMy name's Marc. I graduated in February 2026 with an Advanced Diploma of Civil Construction Design, and I hold a Bachelor of Science in Civil Engineering from the Philippines (2019). Your Graduate Civil Engineer role in Adelaide includes stormwater drainage design, which I worked on in the course, so I'm sending my application.\n\nDuring the diploma I prepared drawings in AutoCAD and Civil 3D, and put together cost estimates and bills of quantities. Before that, from April 2019 to February 2020, I was project-in-charge and then field engineer on two building sites in the Philippines, doing site inspections and quality checks.\n\nMoving to Adelaide is no problem, and I can start two weeks after an offer. I also have full working rights in Australia (Subclass 485 visa). Feel free to give me a call.\n\nKind regards,\nMarc Masarate",
@@ -73,6 +75,13 @@
    "by": "Claude",
    "result": "reopened",
    "note": "owner: apply (14 Nov 2026); the advert says people with full Australian working rights will be considered (question was: Fyfe's requirements list says Australian citizenship or permanent residency, but the advert's last line says people who hold full Australian working rights will be considered: apply?)"
+  },
+  {
+   "at": "2026-11-15T22:49:22Z",
+   "by": "Grok",
+   "result": "started",
+   "note": "",
+   "run": "20261115T213212Z"
   }
  ],
  "receipt": {},
