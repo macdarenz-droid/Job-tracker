@@ -1,0 +1,41 @@
+{
+ "id": "fulton-hogan-trainee-lab-technician-858b2e0e",
+ "lane": "technician",
+ "route": "EMPLOYER_PORTAL",
+ "application_type": "ADVERTISED_VACANCY",
+ "company": "Fulton Hogan",
+ "role": "Trainee Lab Technician",
+ "location": "Geebung, Brisbane QLD",
+ "url": "https://fultonhogan.wd3.myworkdayjobs.com/en-US/broadbean_external/job/Trainee-Lab-Technician_R27464",
+ "seek_id": "",
+ "listed_at": "2026-11-04",
+ "closes_at": "",
+ "closes_source": "none",
+ "fit": 76,
+ "sponsorship_signal": "",
+ "regional": false,
+ "resume_variant": "technician",
+ "relocation_line": "I will relocate to Brisbane for this role and can start two weeks after an offer.",
+ "cover_letter_text": "Hi Fulton Hogan team,\n\nMy name's Marc. I graduated in February 2026 with an Advanced Diploma of Civil Construction Design, and I'd like to start out in a laboratory role. A traineeship where I learn the testing from the ground up, with the Certificate IV alongside, is exactly what I'm after.\n\nOn site in the Philippines I did inspections and quality checks and kept the material and progress records, so careful record keeping comes naturally. I hold a Victorian driver's licence and a White Card, and I'm happy to travel for work.\n\nI will relocate to Brisbane for this role and can start two weeks after an offer. I have full working rights in Australia (Subclass 485 visa). Happy to chat any time.\n\nKind regards,\nMarc Masarate",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [],
+ "status": "OPEN",
+ "ask_owner": "",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "Grok",
+ "created_at": "2026-11-15T21:36:15Z",
+ "source_run": "20261115T213212Z",
+ "notes": "Lane technician: entry-level trainee, assists with sampling and testing of bitumen and emulsions, record keeping and calibrations, NATA lab; employer-provided Certificate IV in Laboratory Techniques study. Full training offered, no experience stated. Advert text read on thejobsmap copy (Workday page itself did not load for the screener), also listed on SEEK 11 days before 16 Nov 2026; Workday page is the application route. Closing date not stated.",
+ "advert_pay": "not stated",
+ "verify_before_submit": [
+  "Advert still open on the Fulton Hogan Workday page, same role and site",
+  "Workday may ask for an account: use the standing account details, never write them into the repo",
+  "Any question on the form goes through queue.py answer"
+ ]
+}
