@@ -83,7 +83,7 @@
    "status": "answered"
   }
  ],
- "status": "OPEN",
+ "status": "APPLIED",
  "ask_owner": "",
  "attempts": [
   {
@@ -105,9 +105,21 @@
    "result": "started",
    "note": "",
    "run": "20261115T213212Z"
+  },
+  {
+   "at": "2026-11-15T23:38:39Z",
+   "by": "Grok",
+   "result": "applied",
+   "note": "",
+   "run": "20261115T213212Z"
   }
  ],
- "receipt": {},
+ "receipt": {
+  "at": "2026-11-15T23:38:39Z",
+  "by": "Grok",
+  "kind": "seek_confirmation_screen",
+  "ref": "SEEK confirmation screen shown"
+ },
  "created_by": "import_backlog.py",
  "created_at": "2026-11-13T00:40:00Z",
  "source_run": "20261109T1818Z",
