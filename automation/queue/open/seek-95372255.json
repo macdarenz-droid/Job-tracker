@@ -12,6 +12,8 @@
  "closes_at": "2026-11-19",
  "closes_source": "listing_expiry",
  "fit": 68,
+ "sponsorship_signal": "",
+ "regional": null,
  "resume_variant": "engineer",
  "relocation_line": "",
  "cover_letter_text": "Hi Central Vic Civil team,\n\nI'm Marc, and I'd like to start out as a junior project manager. I have a civil engineering degree from the Philippines (2019), and in February 2026 I graduated with an Advanced Diploma of Civil Construction Design. Your advert says the role works closely with your senior project managers and directors, so I wanted to apply.\n\nIn 2019 I was project-in-charge on a community hall renovation that finished within its six-month program, coordinating 10 to 15 workers a day. After that, as field engineer, I tracked procurement and materials and wrote the progress reports.\n\nI live in Melton and have my own car, a driver's licence and a White Card. I can start two weeks after an offer, and I also have full working rights in Australia (Subclass 485 visa). Thanks, and I hope to hear from you.\n\nKind regards,\nMarc Masarate",
@@ -39,7 +41,15 @@
  ],
  "status": "OPEN",
  "ask_owner": "",
- "attempts": [],
+ "attempts": [
+  {
+   "at": "2026-11-15T23:12:23Z",
+   "by": "Grok",
+   "result": "started",
+   "note": "",
+   "run": "20261115T213212Z"
+  }
+ ],
  "receipt": {},
  "created_by": "import_backlog.py",
  "created_at": "2026-11-13T00:40:00Z",
