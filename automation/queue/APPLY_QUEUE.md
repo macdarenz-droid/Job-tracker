@@ -14,14 +14,11 @@ Written by `automation/scripts/queue.py render` from the files in `open/`. Do no
 | 6 | engineer | Jaydo Construction Pty Ltd | Site Engineer - Urban Development - EOI 2027 | Keilor Park, Melbourne VIC | 2026-11-26 (listing expiry) | [seek-95514711](https://www.seek.com.au/job/95514711) |  |
 | 7 | engineer | Central Vic Civil Pty Ltd | Junior Project Manager | Ballarat VIC | 2026-11-19 (listing expiry) | [seek-95372255](https://www.seek.com.au/job/95372255) |  |
 
-## EMAIL (4 open)
+## EMAIL (1 open)
 
 | # | Lane | Company | Role | Location | Closes | Link | Note |
 |---|---|---|---|---|---|---|---|
-| 1 | drafter | Permadec Pty Ltd | Civil Design Drafter, Formwork | Melbourne VIC (fully remote) | 2026-11-18 (listing expiry) | [seek-95337660](https://www.seek.com.au/job/95337660) |  |
-| 2 | engineer | Allen Price Pty Ltd | Civil Engineer | Wollongong, Illawarra & South Coast NSW | 2026-12-10 (listing expiry) | [seek-95798711](https://www.seek.com.au/job/95798711) |  |
-| 3 | drafter | Langtree Consulting | Speculative enquiry: junior civil drafter | West End, Townsville QLD | not stated | [langtree-consulting-speculative-enquiry-junior-civil-drafter-7ba3bbdb](https://www.langtreeconsulting.com.au/careers) |  |
-| 4 | drafter | vT Consulting Engineers | Speculative enquiry: junior civil designer | Carina, Brisbane QLD | not stated | [vt-consulting-engineers-speculative-enquiry-junior-civil-designe-8614d509](https://vtce.com.au/careers-with-vtce/) |  |
+| 1 | drafter | vT Consulting Engineers | Speculative enquiry: junior civil designer | Carina, Brisbane QLD | not stated | [vt-consulting-engineers-speculative-enquiry-junior-civil-designe-8614d509](https://vtce.com.au/careers-with-vtce/) |  |
 
 ## EMPLOYER_PORTAL (3 open)
 
