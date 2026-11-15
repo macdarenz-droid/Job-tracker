@@ -23,9 +23,19 @@
   "body": "",
   "evidence_url": ""
  },
- "questions": [],
- "status": "OPEN",
- "ask_owner": "",
+ "questions": [
+  {
+   "question": "I accept the Privacy Statement",
+   "options": [
+    "I accept the Privacy Statement"
+   ],
+   "answer": "",
+   "basis": "answers.declarations_and_consents",
+   "status": "unanswered"
+  }
+ ],
+ "status": "ASK_OWNER",
+ "ask_owner": "No standing answer for this form question: I accept the Privacy Statement (options: I accept the Privacy Statement)",
  "attempts": [
   {
    "at": "2026-11-15T06:43:42Z",
@@ -33,6 +43,12 @@
    "result": "started",
    "note": "",
    "run": "20261115T062804Z"
+  },
+  {
+   "at": "2026-11-15T06:44:54Z",
+   "by": "Grok",
+   "result": "asked_owner",
+   "note": "form question with no standing answer: I accept the Privacy Statement"
   }
  ],
  "receipt": {},
