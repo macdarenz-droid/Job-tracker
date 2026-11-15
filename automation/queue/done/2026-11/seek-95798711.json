@@ -22,7 +22,7 @@
   "evidence_url": "https://www.seek.com.au/job/95798711"
  },
  "questions": [],
- "status": "OPEN",
+ "status": "APPLIED",
  "ask_owner": "",
  "attempts": [
   {
@@ -31,9 +31,22 @@
    "result": "started",
    "note": "",
    "run": "20261115T025236Z"
+  },
+  {
+   "at": "2026-11-15T02:54:52Z",
+   "by": "Claude",
+   "result": "applied",
+   "note": "",
+   "run": "20261115T025236Z"
   }
  ],
- "receipt": {},
+ "receipt": {
+  "at": "2026-11-15T02:54:52Z",
+  "by": "Claude",
+  "kind": "gmail_message_id",
+  "ref": "1a1dd20eef50213e",
+  "thread": "1a1dd20eef50213e"
+ },
  "created_by": "import_backlog.py",
  "created_at": "2026-11-13T00:40:00Z",
  "source_run": "20261111T0517Z",
