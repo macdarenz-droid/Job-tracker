@@ -26,35 +26,70 @@
  "questions": [
   {
    "question": "Which of the following statements best describes your right to work in Australia?",
-   "options": [],
-   "answer": "Subclass 485 Temporary Graduate visa with full working rights until December 2027.",
-   "basis": "answers.right_to_work.free_text",
+   "options": [
+    "I'm an Australian citizen",
+    "I'm a permanent resident and/or NZ citizen",
+    "I have a family/partner visa with no restrictions",
+    "I have a graduate temporary work visa",
+    "I have a holiday temporary work visa",
+    "I have a temporary visa with restrictions on work location (e.g. skilled regional visa 491)",
+    "I have a temporary protection or safe haven enterprise work visa",
+    "I have a temporary visa with no restrictions (e.g. doctoral student)",
+    "I have a temporary visa with restrictions on work hours (e.g. student visa, retirement visa)",
+    "I have a temporary visa with restrictions on industry (e.g. temporary activity visa 408)",
+    "I require sponsorship to work for a new employer (e.g. 482, 457)"
+   ],
+   "answer": "I have a graduate temporary work visa",
+   "basis": "answers.right_to_work.choose",
    "status": "answered"
   },
   {
    "question": "How many years' experience do you have as a Quality Assurance Trainee?",
-   "options": [],
-   "answer": "None: no paid role of this kind",
+   "options": [
+    "No experience",
+    "Less than 1 year",
+    "1 year",
+    "2 years",
+    "3 years",
+    "4 years",
+    "5 years",
+    "More than 5 years"
+   ],
+   "answer": "No experience",
    "basis": "answers.years_of_experience.laboratory, materials testing, technician, estimator, project coordinator, project management, any other role",
    "status": "answered"
   },
   {
    "question": "How much notice are you required to give your current employer?",
-   "options": [],
+   "options": [
+    "None, I'm ready to go now",
+    "1 week",
+    "2 weeks",
+    "3 weeks",
+    "4 weeks",
+    "5 weeks",
+    "6 or more weeks"
+   ],
    "answer": "2 weeks",
    "basis": "answers.notice_period",
    "status": "answered"
   },
   {
    "question": "Do you have a current Australian driver's licence?",
-   "options": [],
+   "options": [
+    "Yes",
+    "No"
+   ],
    "answer": "Yes",
    "basis": "answers.drivers_licence",
    "status": "answered"
   },
   {
    "question": "Do you hold a Construction Induction Safety certificate (White Card)?",
-   "options": [],
+   "options": [
+    "Yes",
+    "No"
+   ],
    "answer": "Yes",
    "basis": "answers.white_card",
    "status": "answered"
