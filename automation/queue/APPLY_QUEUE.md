@@ -2,43 +2,36 @@
 
 Written by `automation/scripts/queue.py render` from the files in `open/`. Do not edit by hand.
 
-## SEEK (6 open)
+## SEEK (0 open)
 
-| # | Lane | Company | Role | Location | Target | Closes | Link | Note |
-|---|---|---|---|---|---|---|---|---|
-| 1 | engineer | Civilivic Pty Ltd | Site Engineer (Site or Graduate Engineer) | Gympie QLD (Gympie and Sunshine Coast region) | regional | 2026-12-12 (listing expiry) | [seek-95842971](https://www.seek.com.au/job/95842971) |  |
-| 2 | engineer | Bench Excavation and Civil Construction Pty Ltd (BenchHDC) | Civil Engineer / Graduate | Port Adelaide, Adelaide SA | regional | 2026-12-09 (listing expiry) | [seek-95773573](https://www.seek.com.au/job/95773573) |  |
-| 3 | engineer | Fyfe Pty Ltd | Graduate Civil Engineer (Property & Infrastructure) | Adelaide SA | regional | 2026-12-06 (listing expiry) | [seek-95736615](https://www.seek.com.au/job/95736615) |  |
-| 4 | engineer | Central Vic Civil Pty Ltd | Junior Project Manager | Ballarat VIC | regional | 2026-11-19 (listing expiry) | [seek-95372255](https://www.seek.com.au/job/95372255) |  |
-| 5 | drafter | TTW (NSW) Pty Ltd (Taylor Thomson Whitting) | Trainee Civil Drafter | North Sydney, Sydney NSW | not regional | 2026-11-27 (advert) | [seek-95655998](https://www.seek.com.au/job/95655998) |  |
-| 6 | engineer | Jaydo Construction Pty Ltd | Site Engineer - Urban Development - EOI 2027 | Keilor Park, Melbourne VIC | not regional | 2026-11-26 (listing expiry) | [seek-95514711](https://www.seek.com.au/job/95514711) |  |
+Nothing open.
 
 ## EMAIL (0 open)
 
 Nothing open.
 
-## EMPLOYER_PORTAL (2 open)
+## EMPLOYER_PORTAL (0 open)
 
-| # | Lane | Company | Role | Location | Target | Closes | Link | Note |
-|---|---|---|---|---|---|---|---|---|
-| 1 | drafter | Technical Resources | Junior Civil Drafter (rail and civil, Perth) | Perth WA (hybrid) | regional | not stated | [technical-resources-junior-civil-drafter-rail-and-civil-pert-65619915](https://www.resourcejobs.au/jobs/junior-civil-drafter-47fd5c6e3ed14d6295b5a29023e3b3e6) |  |
-| 2 | technician | Fulton Hogan | Trainee Lab Technician | Geebung, Brisbane QLD | not regional | not stated | [fulton-hogan-trainee-lab-technician-858b2e0e](https://fultonhogan.wd3.myworkdayjobs.com/en-US/broadbean_external/job/Trainee-Lab-Technician_R27464) | started by Grok, no result recorded |
+Nothing open.
 
 ## EMPLOYER_FORM (0 open)
 
 Nothing open.
 
-## Waiting on the owner (16)
+## Waiting on the owner (19)
 
 - **Newton Denny Chapelle, Civil Engineer / Design Engineer** (SEEK, drafter, regional, closes 2026-11-25 09:00, `seek-95487722`): No standing answer for this form question: Have you completed a qualification in engineering? (options: Yes, Certificate I / Yes, Certificate II / Yes, Certificate III / Yes, Certificate IV / Yes, Diploma / Yes, Advanced Diploma / Yes, Associate Degree / Yes, Bachelor Degree / Yes, Bachelor Degree (Honours) / Yes, Graduate Certificate / Yes, Graduate Diploma / Yes, Masters Degree / Yes, Doctoral Degree / I have a qualification in engineering that isn't listed / I don't have a qualification in engineering)
 - **LC Water, Junior Civil Draftsperson** (SEEK, drafter, regional, closes 2026-11-26, `seek-95506594`): No standing answer for 2 form questions: How would you rate your English language skills? | Which of the following Microsoft Office products are you experienced with?
+- **Technical Resources, Junior Civil Drafter (rail and civil, Perth)** (EMPLOYER_PORTAL, drafter, regional, closes not stated, `technical-resources-junior-civil-drafter-rail-and-civil-pert-65619915`): Pre-submit check needs a Gmail search for Technical Resources; Grok has no Gmail access. Claude runner or owner: run the Gmail check, then reopen.
 - **Geotechnical Testing Services (PTG Group), Trainee Technician / Technician** (SEEK, technician, regional, closes 2026-12-07, `seek-95734964`): No standing answer for this form question: Do you have a Certificate III in Laboratory Skills? (options: Yes / No)
 - **WSP, Laboratory Technician in Training** (EMPLOYER_PORTAL, technician, regional, closes not stated, `wsp-laboratory-technician-in-training-7909dd6d`): No standing answer for this form question: I agree with the terms and conditions (options: checked / unchecked)
 - **Cardinia Shire Council, Development Engineer** (EMPLOYER_PORTAL, engineer, regional, closes 2026-11-26, `seek-95866809`): The advert text for this job (Cardinia Shire Council, Development Engineer, Officer VIC, SEEK job 95866809, closes 26 Nov) was never saved in the repo, only a short summary, so the 13 Nov re-screen cannot be done and no letter can be written from it. Should a runner re-read the SEEK advert and save its text so this can be finished, or should this one be dropped? (Answer: re-read it, or drop it.)
 - **PCP Solutions Pty Ltd, Graduate Civil Engineer** (EMAIL, engineer, regional, closes 2026-12-13, `seek-95872340`): The advert text for this Graduate Civil Engineer job (SEEK 95872340, Toowoomba) was never saved in the repo, only a short summary, so no new letter was written. Should a runner re-read the live advert and then write the letter: yes or no?
+- **Bench Excavation and Civil Construction Pty Ltd (BenchHDC), Civil Engineer / Graduate** (SEEK, engineer, regional, closes 2026-12-09, `seek-95773573`): No standing answer for this form question: Have you completed a qualification in engineering? (options: Yes, Certificate I / Yes, Certificate II / Yes, Certificate III / Yes, Certificate IV / Yes, Diploma / Yes, Advanced Diploma / Yes, Associate Degree / Yes, Bachelor Degree / Yes, Bachelor Degree (Honours) / Yes, Graduate Certificate / Yes, Graduate Diploma / Yes, Masters Degree / Yes, Doctoral Degree / I have a qualification in engineering that isn't listed / I don't have a qualification in engineering)
 - **Martinus Rail, Graduate Engineer (Inland Rail, Albury to Parkes)** (EMPLOYER_PORTAL, engineer, regional, closes 2026-12-04, `seek-95695784`): No standing answer for 8 form questions: First Name (legal name shown on your Drivers Licence/Passport): | Surname (legal name shown on your Drivers Licence/Passport): | Residential Address: | Do you identify as an Aboriginal or Torres Strait Islander? (options: Yes / No) | What is your current residential address? | Have you previously worked for Martinus Rail? (options: Yes / No) | How did you hear about us? (options: Martinus Rail Website / LinkedIn / Seek / Facebook / Specific Project / Referred by a work colleague / Referred by a mate / Referred by someone at Martinus Rail / Recruitment agency / Other) | What is the earliest date you can start with us?
 - **Nassima Design Group, Civil Engineering Draftsperson** (EMPLOYER_PORTAL, drafter, not regional, closes not stated, `nassima-design-group-civil-engineering-draftsperson-7b2c2f1e`): The advert text for this job (Nassima Design Group, Civil Engineering Draftsperson, on JobsNext, no closing date) was never saved in the repo, only a short summary, so the 13 Nov re-screen cannot be done and no letter can be written from it. Should a runner re-read the JobsNext advert and save its text so this can be finished, or should this one be dropped? (Answer: re-read it, or drop it.)
 - **Core Environmental Projects (Core-EP), Junior Drafter** (EMAIL, drafter, not regional, closes not stated, `core-environmental-projects-co-junior-drafter-27501728`): The advert text for this Junior Drafter job (core-ep.com.au/careers/junior-drafter) was never saved in the repo, only a short summary, so no new letter was written. Should a runner re-read the live advert and then write the letter: yes or no?
+- **Fulton Hogan, Trainee Lab Technician** (EMPLOYER_PORTAL, technician, not regional, closes not stated, `fulton-hogan-trainee-lab-technician-858b2e0e`): Workday sign-in refused after account creation; likely needs email verification link sent to Gmail. Owner: verify the Fulton Hogan Workday email or reset the password, then reopen.
 - **Coffey Testing Pty Ltd, Construction Materials Testing Technician, Entry-Level** (EMPLOYER_PORTAL, technician, not regional, closes 2026-11-20, `seek-95393367`): Employer site needs either a new account or the Apply with SEEK option, which asks to share his SEEK profile (career history, skills, default resume, email, phone) with Coffey via UKG. Allow that, or create an account with his own email?
 - **Cono Services, Bulk Excavation & Civil Site Engineer** (SEEK, engineer, not regional, closes 2026-12-13, `seek-95871692`): The advert text for this job (Cono Services, Bulk Excavation & Civil Site Engineer, Sydney, SEEK job 95871692) was never saved in the repo, only a short summary, so the 13 Nov re-screen cannot be done and no letter can be written from it. Should a runner re-read the SEEK advert and save its text so this can be finished, or should this one be dropped? (Answer: re-read it, or drop it.)
 - **Portal Contractors, Graduate Civil Engineer** (EMPLOYER_PORTAL, engineer, not regional, closes not stated, `portal-contractors-graduate-civil-engineer-741d4765`): Portal Contractors, Graduate Civil Engineer, Williamstown: the advert text was never saved in the repo (only a runner's summary of it) and an earlier Indeed copy had expired, so no letter was written. Is the job still advertised? Reply with the live link, or 'drop it'.
