@@ -1,0 +1,191 @@
+[
+ {
+  "id": "9c565607-2716-4408-b7f3-69b92913b295",
+  "key": "manual:9c565607-2716-4408-b7f3-69b92913b295",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261112T0617Z",
+  "created_at": "2026-11-12T06:26:01.000Z",
+  "updated_at": "2026-11-12T06:26:01.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Nassima_Civil_Engineering_Draftsperson_Cover_Letter.pdf",
+    "sha256": "b53d406f547247cce8144e1da3747b55071e2a2bd07ea87b444452fdfb9e6b75",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Nassima_Resume.pdf",
+    "sha256": "74966d6ce31a11114c55addd479f0b0ee7811f7aa1ecbd232e2eddacdf821dfc",
+    "stored_in": "local:/workspace/job-finds",
+    "note": "one page resume built from facts.json"
+   }
+  ],
+  "company": "Nassima Design Group",
+  "role": "Civil Engineering Draftsperson",
+  "location": "VIC 3094 (Montmorency, north east Melbourne) VIC",
+  "job_url": "https://jobsnext.com.au/jobs/c660bac0-c53b-4e31-94f7-c141b009c682/view/",
+  "company_url": "https://www.nassimadesign.com.au",
+  "status": "READY_JEREMIE_JOBSNEXT",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_JOBSNEXT",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "JobsNext (Apply now)",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://jobsnext.com.au/jobs/c660bac0-c53b-4e31-94f7-c141b009c682/view/",
+  "contact_verified_at": "2026-11-12T06:26:01.000Z",
+  "contact_confidence": "none",
+  "subject": "Civil Engineering Draftsperson (JobsNext)",
+  "email_body": "",
+  "fit": [
+   "Civil Engineering Draftsperson at Nassima Design Group (VIC 3094, north east Melbourne), permanent full time, AUD 80,000 to 90,000: civil drawings, layouts, cross sections, profiles and details for roads, drainage, subdivisions, earthworks and utilities in CAD.",
+   "The advert names a Diploma or Advanced Diploma in Civil Construction Design and AutoCAD/Civil 3D, which is exactly Marc's February 2026 Advanced Diploma; his drawing review and site records from 2019 to 2020 add practical context.",
+   "Melbourne based, direct employer, drafting experience only highly regarded rather than required."
+  ],
+  "gaps": [
+   "No paid drafting experience (study only)",
+   "Residential and building work may be a larger share than the advert suggests"
+  ],
+  "match_score": {
+   "percent": 70,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Civil Engineering Draftsperson at Nassima Design Group (VIC 3094, north east Melbourne), permanent full time, AUD 80,000 to 90,000: civil drawings, layouts, cross sections, profiles and details for roads, drainage, subdivisions, earthworks and utilities in CAD.",
+    "The advert names a Diploma or Advanced Diploma in Civil Construction Design and AutoCAD/Civil 3D, which is exactly Marc's February 2026 Advanced Diploma; his drawing review and site records from 2019 to 2020 add practical context.",
+    "Melbourne based, direct employer, drafting experience only highly regarded rather than required."
+   ],
+   "caution": "Nassima is a small building design practice (about six people on LinkedIn, residential focus); the advert is only on JobsNext (posted 30 Oct 2026, no closing date) and the director's old sole trader ABN was cancelled in July 2026 (the company itself is registered), so confirm the role is genuine before sharing more than a resume. Earlier tick skipped it because the advert was thin; the full advert is now visible. No paid drafting experience; Montmorency is a long commute from Melton."
+  },
+  "advert": {
+   "source": "web",
+   "listed_at": "2026-10-30",
+   "expires_at": "",
+   "verified_at": "2026-11-12T06:26:01.000Z",
+   "apply_instructions": "Apply on JobsNext with the Apply now button (JobsNext jobseeker account needed). No email published.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Search Gmail in:anywhere for Nassima and JobsNext before applying (Gmail was not reachable on this tick)",
+   "Open the JobsNext advert, confirm it is still live, and press Apply now (needs a JobsNext jobseeker account)",
+   "Attach the resume and cover letter from this folder",
+   "Nassima is a small practice; check the website and the role are genuine before sharing personal documents beyond the resume",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nTick 20261112T0617Z: open web first (web search across jobau, Jobstralia, JobsNext, SimplyHired, Prosple, College Recruiter, TheJobsMap, Jora council pages, LiveHire, Hobsons Bay and Stonnington council adverts, and Ferrycarrig's own job board) plus SEEK 3 days/60 details (1190 seen, 262 prefilter, nothing new worth keeping) widened to 14 days/80 details (1443 seen, 401 prefilter, nothing new worth keeping). Found on JobsNext through an open web search for junior civil drafter roles in Victoria (posted 30 Oct 2026). Not on the tracker, prior_outreach.json or /workspace/job-finds; skipped once on an earlier tick as too thin, now kept with the full advert. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json. Cover letter drafted from facts.json only; checks.py facts OK and tone OK (letter under 340 words); cover letter and one page resume rendered and read back (1 page each). Status READY_JEREMIE_JOBSNEXT: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• CAD? → AutoCAD 2D/3D and Civil 3D through the Advanced Diploma of Civil Construction Design (Feb 2026).\n• Roads and drainage? → Designed road geometry, earthworks, pavements and stormwater drainage in the diploma.\n• Drafting experience? → From study; on site in 2019 to 2020 reviewed drawings and kept site records.\n• Work rights? → Subclass 485, full working rights until December 2027.\n• Salary and start? → Advert says 80 to 90k; Marc to answer himself.",
+  "how_found": "Tick 20261112T0617Z: open web first (web search across jobau, Jobstralia, JobsNext, SimplyHired, Prosple, College Recruiter, TheJobsMap, Jora council pages, LiveHire, Hobsons Bay and Stonnington council adverts, and Ferrycarrig's own job board) plus SEEK 3 days/60 details (1190 seen, 262 prefilter, nothing new worth keeping) widened to 14 days/80 details (1443 seen, 401 prefilter, nothing new worth keeping). Found on JobsNext through an open web search for junior civil drafter roles in Victoria (posted 30 Oct 2026). Not on the tracker, prior_outreach.json or /workspace/job-finds; skipped once on an earlier tick as too thin, now kept with the full advert. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json. Cover letter drafted from facts.json only; checks.py facts OK and tone OK (letter under 340 words); cover letter and one page resume rendered and read back (1 page each). Status READY_JEREMIE_JOBSNEXT: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "CAD? → AutoCAD 2D/3D and Civil 3D through the Advanced Diploma of Civil Construction Design (Feb 2026).",
+   "Roads and drainage? → Designed road geometry, earthworks, pavements and stormwater drainage in the diploma.",
+   "Drafting experience? → From study; on site in 2019 to 2020 reviewed drawings and kept site records.",
+   "Work rights? → Subclass 485, full working rights until December 2027.",
+   "Salary and start? → Advert says 80 to 90k; Marc to answer himself."
+  ],
+  "checked_at": "2026-11-12T06:26:01.000Z",
+  "seek_id": null,
+  "duplicate_key": "nassima design group|civil engineering draftsperson",
+  "preparation_only": true,
+  "found_at": "2026-11-12T17:26+11:00 AEDT"
+ },
+ {
+  "id": "2525c4b3-eebe-49ee-8b33-03fb5106c1ca",
+  "key": "manual:2525c4b3-eebe-49ee-8b33-03fb5106c1ca",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261112T0617Z",
+  "created_at": "2026-11-12T06:26:01.000Z",
+  "updated_at": "2026-11-12T06:26:01.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Ferrycarrig_Graduate_Civil_Engineer_Cover_Letter.pdf",
+    "sha256": "685b24d2522b9d7cec1de161d6c4a9d7a978810c55cadcc0a666acdac79a3059",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Ferrycarrig_Resume.pdf",
+    "sha256": "74966d6ce31a11114c55addd479f0b0ee7811f7aa1ecbd232e2eddacdf821dfc",
+    "stored_in": "local:/workspace/job-finds",
+    "note": "one page resume built from facts.json"
+   }
+  ],
+  "company": "Ferrycarrig Construction",
+  "role": "Graduate Civil Engineer",
+  "location": "Sydney NSW (major civil infrastructure project)",
+  "job_url": "https://www.simplyhired.com.au/job/6Pbf9pqbHHreuUa9VUxiOFJMue5kUqLT_iod1MlWa9uv9RQgvHXCVw",
+  "company_url": "https://www.ferrycarrig.com.au",
+  "status": "READY_JEREMIE_INDEED",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_WEB_AGGREGATOR",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website / Indeed (confirm live)",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.simplyhired.com.au/job/6Pbf9pqbHHreuUa9VUxiOFJMue5kUqLT_iod1MlWa9uv9RQgvHXCVw",
+  "contact_verified_at": "2026-11-12T06:26:01.000Z",
+  "contact_confidence": "none",
+  "subject": "Graduate Civil Engineer, Sydney",
+  "email_body": "",
+  "fit": [
+   "Graduate Civil Engineer with Ferrycarrig, a Sydney utilities and civil infrastructure contractor, on a major civil project: day to day coordination with site supervisors, subcontractor and material coordination, drawing review, ITPs and quality records, site inspections, daily reports, procurement and programme tracking.",
+   "Almost every duty matches Marc's 2019 to 2020 site work (crew coordination, drawing review, inspections, site and progress reports, procurement and materials) plus his civil degree and Australian Advanced Diploma.",
+   "Direct employer, true graduate role, site based."
+  ],
+  "gaps": [
+   "No Australian site or ITP experience",
+   "Relocation to Sydney not confirmed",
+   "Degree 2019, not a recent graduate"
+  ],
+  "match_score": {
+   "percent": 70,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Graduate Civil Engineer with Ferrycarrig, a Sydney utilities and civil infrastructure contractor, on a major civil project: day to day coordination with site supervisors, subcontractor and material coordination, drawing review, ITPs and quality records, site inspections, daily reports, procurement and programme tracking.",
+    "Almost every duty matches Marc's 2019 to 2020 site work (crew coordination, drawing review, inspections, site and progress reports, procurement and materials) plus his civil degree and Australian Advanced Diploma.",
+    "Direct employer, true graduate role, site based."
+   ],
+   "caution": "Sydney, so relocation (Marc has not confirmed; letter says open to discussing). Advert seen on SimplyHired, jobau and other mirrors (posted about 3 Nov 2026), not on SEEK, and Ferrycarrig's own Adlogic board showed no listings, so confirm the advert is live before applying. Wants a recent graduate; Marc's degree is 2019 and site experience overseas."
+  },
+  "advert": {
+   "source": "web",
+   "listed_at": "2026-11-03",
+   "expires_at": "",
+   "verified_at": "2026-11-12T06:26:01.000Z",
+   "apply_instructions": "Apply through the original advert (Indeed/SimplyHired mirror) or Ferrycarrig's careers page; if not listed, use Register your interest at https://jobboards.adlogic.com.au/ferrycarrig/. No email published.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Search Gmail in:anywhere for Ferrycarrig before applying (Gmail was not reachable on this tick)",
+   "Find the live advert (seen on SimplyHired/Indeed mirrors, posted about 3 Nov 2026; not on SEEK; Ferrycarrig's own board showed no listings) and apply there, or use Register your interest on jobboards.adlogic.com.au/ferrycarrig",
+   "Decide whether a move to Sydney suits you; the letter says you are open to discussing relocation",
+   "Attach the resume and cover letter from this folder; be ready to answer salary and start date yourself",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nTick 20261112T0617Z: open web first (web search across jobau, Jobstralia, JobsNext, SimplyHired, Prosple, College Recruiter, TheJobsMap, Jora council pages, LiveHire, Hobsons Bay and Stonnington council adverts, and Ferrycarrig's own job board) plus SEEK 3 days/60 details (1190 seen, 262 prefilter, nothing new worth keeping) widened to 14 days/80 details (1443 seen, 401 prefilter, nothing new worth keeping). Found through an open web search of jobau November graduate listings, then the full advert on SimplyHired (9 days old on 12 Nov 2026). Not on the tracker, prior_outreach.json or /workspace/job-finds; never screened before. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json. Cover letter drafted from facts.json only; checks.py facts OK and tone OK (letter under 340 words); cover letter and one page resume rendered and read back (1 page each). Status READY_JEREMIE_INDEED: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Site experience? → About ten months on site in the Philippines (2019 to 2020): crew coordination, drawing review, inspections, site and progress reports, procurement.\n• ITPs? → Quality checks and inspections on site; Australian ITP format still to learn.\n• Move to Sydney? → Marc to decide; open to discussing.\n• Work rights? → Subclass 485, full working rights until December 2027.\n• Salary and start? → Marc to answer himself.",
+  "how_found": "Tick 20261112T0617Z: open web first (web search across jobau, Jobstralia, JobsNext, SimplyHired, Prosple, College Recruiter, TheJobsMap, Jora council pages, LiveHire, Hobsons Bay and Stonnington council adverts, and Ferrycarrig's own job board) plus SEEK 3 days/60 details (1190 seen, 262 prefilter, nothing new worth keeping) widened to 14 days/80 details (1443 seen, 401 prefilter, nothing new worth keeping). Found through an open web search of jobau November graduate listings, then the full advert on SimplyHired (9 days old on 12 Nov 2026). Not on the tracker, prior_outreach.json or /workspace/job-finds; never screened before. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: tracker.py check new; not in /workspace/job-finds or prior_outreach.json. Cover letter drafted from facts.json only; checks.py facts OK and tone OK (letter under 340 words); cover letter and one page resume rendered and read back (1 page each). Status READY_JEREMIE_INDEED: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Site experience? → About ten months on site in the Philippines (2019 to 2020): crew coordination, drawing review, inspections, site and progress reports, procurement.",
+   "ITPs? → Quality checks and inspections on site; Australian ITP format still to learn.",
+   "Move to Sydney? → Marc to decide; open to discussing.",
+   "Work rights? → Subclass 485, full working rights until December 2027.",
+   "Salary and start? → Marc to answer himself."
+  ],
+  "checked_at": "2026-11-12T06:26:01.000Z",
+  "seek_id": null,
+  "duplicate_key": "ferrycarrig construction|graduate civil engineer",
+  "preparation_only": true,
+  "found_at": "2026-11-12T17:26+11:00 AEDT"
+ }
+]

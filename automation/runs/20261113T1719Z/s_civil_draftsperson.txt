@@ -1,0 +1,98 @@
+95286929 | Construction Sales Representative | ACO Australia | Melbourne VIC | 2026-11-13T07:54:11Z | title excludes: sales
+95879173 | Civil Estimator - Project Delivery | Tracc Civil | Bibra Lake, Perth WA | 2026-11-13T06:30:50Z | ok
+95878119 | Civil Engineer | Beveridge Williams & Co | Traralgon, West Gippsland & Latrobe Valley VIC | 2026-11-13T05:49:55Z | ok
+95876045 | Civil/ Structural Engineer | Structability | Rockdale, Sydney NSW | 2026-11-13T04:17:53Z | title excludes: structural engineer
+95872340 | Graduate Civil Engineer | PCP Solutions Pty Ltd | Toowoomba, Toowoomba & Darling Downs QLD | 2026-11-13T02:34:43Z | ok
+95870684 | Civil Engineering Draftsperson | B & S Brothers Enterprises Pty Ltd | Melton, Melbourne VIC | 2026-11-13T01:55:43Z | ok
+95870141 | Civil Designer | STP Consultants | Brisbane QLD | 2026-11-13T01:21:49Z | ok
+95869449 | Civil Construction Supervisor | Diverse Civil and Commercial Projects | Adelaide SA | 2026-11-13T01:04:31Z | title excludes: supervisor
+95300822 | Senior SMP Designer | Stantec Australia | South Brisbane, Brisbane QLD | 2026-11-12T23:52:24Z | title excludes: senior
+94017619 | Project Technical Lead, Hydraulic Engineer (Buildings) | Stantec Australia | Perth WA | 2026-11-12T23:52:09Z | ok
+94017221 | Intermediate Hydraulic Engineer (Buildings) | Stantec Australia | Perth WA | 2026-11-12T23:48:59Z | title excludes: intermediate
+95866661 | Civil Designer | Titan Recruitment | Brisbane QLD | 2026-11-12T21:50:08Z | ok
+95865941 | Civil Designer - 12d Specialist | Engineering Design Global Enterprises Pty Ltd | Helensvale, Gold Coast QLD | 2026-11-12T19:27:22Z | ok
+95865921 | Civil Services Engineer | City of Moreton Bay | Strathpine, Brisbane QLD | 2026-11-12T19:13:14Z | ok
+95860647 | Draftsperson | SWI Fencing | Berrimah, Darwin NT | 2026-11-12T09:57:05Z | ok
+95857168 | Senior Civil Designer | Primero | Perth WA | 2026-11-12T07:52:55Z | title excludes: senior
+95856993 | Senior Civil Engineer | Primero | Perth WA | 2026-11-12T07:45:51Z | title excludes: senior
+95854710 | Civil/Structural Engineer – Melbourne, VIC | Omega Project Services | Melbourne VIC | 2026-11-12T06:56:23Z | title excludes: structural engineer
+95855055 | Architectural Designer / Draftsperson | Cross Rowett Group | South Perth, Perth WA | 2026-11-12T06:41:59Z | title excludes: architect
+95854346 | Civil Designer, Roads & Highways | Regional Opportunity - Sunshine Coast | Aurecon | Maroochydore, Sunshine Coast QLD | 2026-11-12T06:18:24Z | ok
+95853052 | Senior Civil Engineer | Orion Group | Brisbane QLD | 2026-11-12T05:35:45Z | title excludes: senior
+95852875 | Civil Designer | Bathurst Regional Council | Bathurst, Blue Mountains & Central West NSW | 2026-11-12T05:29:48Z | ok
+95851441 | Project Consultant – Transport Advisory | SLR Consulting | Brisbane QLD | 2026-11-12T04:36:19Z | title has no junior/civil signal
+95850698 | Design Officer Engineering | City of Marion | Mitchell Park, Adelaide SA | 2026-11-12T04:08:54Z | ok
+95850089 | Civil Engineering Draftsperson | Kelkane Constructions | Mickleham, Melbourne VIC | 2026-11-12T03:56:38Z | ok
+95848345 | Civil Estimator | Central Solutions Group Pty Ltd | Kemps Creek, Sydney NSW | 2026-11-12T03:06:17Z | ok
+95848162 | Senior Civil Designer | TRS Staffing Solutions | Perth WA | 2026-11-12T03:01:45Z | title excludes: senior
+95846746 | Draftsperson | Kewdale | Pacific Energy | Kewdale, Perth WA | 2026-11-12T02:23:18Z | ok
+95846209 | Civil Construction - Estimator | Richmond Co Pty Ltd | Gillman, Adelaide SA | 2026-11-12T02:08:39Z | ok
+95846041 | Civil Designer | Stantec Australia | Maroochydore, Sunshine Coast QLD | 2026-11-12T02:03:30Z | ok
+95844885 | Electrical Design Drafter | Downer | Melbourne VIC | 2026-11-12T01:30:45Z | title excludes: electrical
+95844880 | Electrical Design Drafter | Downer | Milton, Brisbane QLD | 2026-11-12T01:30:35Z | title excludes: electrical
+95844868 | Electrical Design Drafter | Downer | Underdale, Adelaide SA | 2026-11-12T01:30:23Z | title excludes: electrical
+95843107 | Civil Designer | Aurecon | Adelaide SA | 2026-11-12T00:29:08Z | ok
+95842962 | Drafter, Water & Wastewater Infrastructure | Flow Infrastructure | Adelaide SA | 2026-11-12T00:23:45Z | ok
+95842971 | Site Engineer | Civilivic | Gympie, Hervey Bay & Fraser Coast QLD | 2026-11-12T00:23:11Z | ok
+95842655 | Civil Site Engineer | Pearl Recruitment Group | Gnangara, Perth WA | 2026-11-12T00:05:12Z | ok
+95842503 | Civil Engineer | Aurecon | Adelaide SA | 2026-11-11T23:56:33Z | ok
+95273205 | Civil Drafter | Stantec Australia | Brisbane QLD | 2026-11-11T23:32:05Z | ok
+93379352 | Senior Structural Engineer - Buildings | Stantec Australia | Perth WA | 2026-11-11T23:31:26Z | title excludes: senior
+95247637 | Senior Civil Engineer - Buildings | Stantec Australia | Brisbane QLD | 2026-11-11T23:31:06Z | title excludes: senior
+95842048 | Civil Engineer - Land Development - CPEng | Salexo Consulting | Sydney NSW | 2026-11-11T23:27:16Z | ok
+95841578 | Civil Site Engineer | Power On Cabling | Perth WA | 2026-11-11T23:06:04Z | ok
+95841406 | Senior Civil Engineer - Adelaide | Tonkin Consulting | Adelaide SA | 2026-11-11T22:58:25Z | title excludes: senior
+95841025 | Civil Leading Hand | Smith & Co | South Brisbane, Brisbane QLD | 2026-11-11T22:30:29Z | title has no junior/civil signal
+95840343 | Civil Designer | Spiire | Townsville, Northern QLD | 2026-11-11T21:54:53Z | ok
+95835638 | Civil Site Engineer | The BMD Group | Blackburn North, Melbourne VIC | 2026-11-11T10:46:54Z | ok
+95835347 | Civil Project Engineer | The BMD Group | Blackburn North, Melbourne VIC | 2026-11-11T10:31:24Z | ok
+95827929 | Civil Drafter | Ivory Group | Sydney NSW | 2026-11-11T05:55:16Z | ok
+95758319 | Engineering Manager – Helical Pile Foundations | Solidity | Campbellfield, Melbourne VIC | 2026-11-11T05:24:18Z | title excludes: manager
+95826363 | Civil Designer | JFP Urban Consultants | South Brisbane, Brisbane QLD | 2026-11-11T05:05:15Z | ok
+95823621 | SolidWorks Draftsperson / Mechanical Draftsperson | Cays Engineering | Mandurah, Mandurah & Peel WA | 2026-11-11T03:40:05Z | title excludes: mechanical
+95823436 | Cadet Designer | Cairns Regional Council | Cairns, Cairns & Far North QLD | 2026-11-11T03:34:41Z | ok
+95821437 | Senior Structural Designer | CADDS Group | Perth WA | 2026-11-11T02:52:44Z | title excludes: senior
+95819969 | Engineering Surveyor - Perth Metro | NetYourJob | Osborne Park, Perth WA | 2026-11-11T01:59:37Z | title excludes: surveyor
+95819734 | Site Engineer - Structural | Engineering Design Global Enterprises Pty Ltd | Rosebery, Sydney NSW | 2026-11-11T01:52:02Z | ok
+92713575 | Undergraduate Civil/ Structural Engineer | Structability | Rockdale, Sydney NSW | 2026-11-11T01:16:51Z | title excludes: structural engineer
+95818406 | Structural Revit Cadet - Bridge Team | AECOM | Brisbane QLD | 2026-11-11T01:11:57Z | ok
+95816620 | Senior Mechanical Design Engineer | Atom Resources | Sydney NSW | 2026-11-10T23:44:30Z | title excludes: senior
+95816594 | Senior Civil Engineer | CGC Recruitment | Brisbane QLD | 2026-11-10T23:42:48Z | title excludes: senior
+95816552 | Forensics Engineer | Planned Resources | Box Hill, Melbourne VIC | 2026-11-10T23:41:01Z | ok
+95816473 | Senior Engineers - Transport Infrastructure | Bayside Group | Brisbane QLD | 2026-11-10T23:35:59Z | title excludes: senior
+95816414 | Mechanical Engineer-full time | Vacupack | Moorabbin, Melbourne VIC | 2026-11-10T23:33:44Z | title excludes: mechanical
+95816279 | Landscape Design Officer | Department of Planning, Housing and Infrastructure NSW | Parramatta, Sydney NSW | 2026-11-10T23:22:40Z | title excludes: landscape
+95816139 | Civil Supervisors | CMC | Lismore, Lismore & Far North Coast NSW | 2026-11-10T23:14:15Z | title excludes: supervisor
+95815931 | Civil Drafter - Sunshine Coast | WSP | Maroochydore, Sunshine Coast QLD | 2026-11-10T23:01:52Z | ok
+95815890 | Senior Geotechnical Engineer | Planned Resources | Brisbane QLD | 2026-11-10T22:58:42Z | title excludes: senior
+95815835 | Senior Principal Civil Engineer - Sunshine Coast | WSP | Maroochydore, Sunshine Coast QLD | 2026-11-10T22:54:22Z | title excludes: senior
+95815787 | Cadet | Erilyan | Truganina, Melbourne VIC | 2026-11-10T22:49:25Z | oktotal 97
+
+95815735 | Senior Project Engineer - Sydney Water Projects | WYN&CO Search Recruitment & Payroll | Sydney NSW | 2026-11-10T22:44:55Z | title excludes: senior
+95815675 | SPE/PE  - Expression of Interest - Tasmania | Acciona | Hobart TAS | 2026-11-10T22:40:07Z | title has no junior/civil signal
+95815651 | Estimator | The BMD Group | Wentworth Point, Sydney NSW | 2026-11-10T22:38:13Z | ok
+95815602 | 3D Sheetmetal Draftsperson | A1 Custom Stainless and Kitchens | Burpengary, Brisbane QLD | 2026-11-10T22:34:23Z | ok
+95815474 | Cadet Survey Draftsperson | Stanfield's Real Property Drafting | Spring Hill, Brisbane QLD | 2026-11-10T22:26:30Z | ok
+95815411 | Senior Structural Designer | Sedgman Prudentia | Adelaide SA | 2026-11-10T22:19:23Z | title excludes: senior
+95815392 | Junior Project Manager | Icon Metal | Oran Park, Sydney NSW | 2026-11-10T22:17:23Z | title excludes: manager
+95815376 | Senior Piping Designer | Sedgman Prudentia | Brisbane QLD | 2026-11-10T22:16:07Z | title excludes: senior
+95815344 | Lead Piping Designer | Sedgman Prudentia | Adelaide SA | 2026-11-10T22:12:59Z | title excludes: lead
+95815320 | Lead Structural Designer | Sedgman Prudentia | Brisbane QLD | 2026-11-10T22:10:10Z | title excludes: lead
+95815271 | Playscape/Playground Fabrication Draftsperson | Ausplay Surfacing & Shade | Richlands, Brisbane QLD | 2026-11-10T22:03:52Z | ok
+95815246 | Senior Design Drafter - Primary | Consolidated Power Projects Australia | South Granville, Sydney NSW | 2026-11-10T22:01:13Z | title excludes: senior
+95815169 | Mechanical Engineer - Hydro & Water | ReGenerateAUS Pty Limited | Canberra ACT | 2026-11-10T21:55:15Z | title excludes: mechanical
+95815175 | Senior Mechanical Engineer (Design and Drafting) | Obadare Group | Toowoomba, Toowoomba & Darling Downs QLD | 2026-11-10T21:54:26Z | title excludes: senior
+95815045 | Senior Electrical & Instrument Design/Drafter | Hays Recruitment | Brisbane QLD | 2026-11-10T21:43:24Z | title excludes: senior
+95814963 | FrameCAD Detail Manager | Atlas Recruitment | Sunshine West, Melbourne VIC | 2026-11-10T21:31:37Z | title excludes: manager
+95799684 | Design Engineer | Scandia Heating | Carrum Downs, Melbourne VIC | 2026-11-10T21:24:13Z | ok
+95814880 | Engineer (Civil) | Department of Transport and Main Roads QLD | Rockhampton, Rockhampton & Capricorn Coast QLD | 2026-11-10T21:21:01Z | ok
+95814861 | Junior Civil Site Engineer | Engi Advisory | Nowra, Wollongong, Illawarra & South Coast NSW | 2026-11-10T21:18:42Z | ok
+95814173 | Trainee Civil Drafter | ADW Johnson | Tuggerah, Gosford & Central Coast NSW | 2026-11-10T20:00:39Z | ok
+95814113 | Barminco Project Engineer Canada | Barminco | Caversham, Perth WA | 2026-11-10T19:46:55Z | ok
+95813672 | 2D and 3D Modeller | Bradfield Robertson | Sydney NSW | 2026-11-10T19:21:46Z | title has no junior/civil signal
+95813441 | Nominated Building & Civil Supervisor - External Consultant | Sacyr Construction Australia Pty Ltd | Adelaide SA | 2026-11-10T17:16:53Z | title excludes: supervisor
+95812650 | Principal Engineer (Civil) | Department of Transport and Main Roads QLD | Townsville, Northern QLD | 2026-11-10T15:39:32Z | title excludes: principal
+95812240 | Engineer (Civil) | Department of Transport and Main Roads QLD | Mackay, Mackay & Coalfields QLD | 2026-11-10T14:01:16Z | ok
+95812238 | Principal Engineer (Traffic) | Department of Transport and Main Roads QLD | Nerang, Gold Coast QLD | 2026-11-10T14:01:15Z | title excludes: principal
+95812230 | Principal Engineer (Civil) | Department of Transport and Main Roads QLD | Townsville, Northern QLD | 2026-11-10T14:01:07Z | title excludes: principal
+95812083 | Mechanical Engineer | Beaver Technology Services | Girraween, Sydney NSW | 2026-11-10T13:26:13Z | title excludes: mechanical

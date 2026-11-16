@@ -1,0 +1,288 @@
+[
+ {
+  "id": "ebb95391-68dd-42b8-8f8a-2d44ef149bf9",
+  "key": "manual:ebb95391-68dd-42b8-8f8a-2d44ef149bf9",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261113T0714Z",
+  "created_at": "2026-11-13T07:21:51.000Z",
+  "updated_at": "2026-11-13T07:21:51.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Cono_Site_Engineer_Cover_Letter.pdf",
+    "sha256": "b40893430a5957d18143d7c30e14ddc440078c64ad6116ebc44bbc7282aa3bca",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Cono_Resume.pdf",
+    "sha256": "74966d6ce31a11114c55addd479f0b0ee7811f7aa1ecbd232e2eddacdf821dfc",
+    "stored_in": "local:/workspace/job-finds",
+    "note": "one page resume built from facts.json"
+   }
+  ],
+  "company": "Cono Services",
+  "role": "Bulk Excavation & Civil Site Engineer",
+  "location": "Sydney NSW",
+  "job_url": "https://www.seek.com.au/job/95871692",
+  "company_url": "",
+  "status": "READY_JEREMIE_SEEK",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_SEEK",
+  "application_route": "SEEK",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95871692",
+  "contact_verified_at": "2026-11-13T07:21:51.000Z",
+  "contact_confidence": "none",
+  "subject": "Site Engineer application (SEEK 95871692)",
+  "email_body": "",
+  "fit": [
+   "Cono Services (bulk excavation, earthworks and civil contractor working with Tier 1 builders) wants a Site Engineer in Sydney (90,000 to 110,000 dollars) for set out, ITPs, inspections and quality records, drawing interpretation and daily progress monitoring.",
+   "It says graduate to intermediate level, degree in civil engineering, typically 1 to 4 years site experience, set out knowledge, licence and White Card; Marc's BSCE, Advanced Diploma earthworks design and 2019 to 2020 site inspection, quality and crew coordination work cover most duties.",
+   "Direct employer, listed on SEEK 13 Nov 2026 AEDT, quick apply."
+  ],
+  "gaps": [
+   "Under the typical 1 to 4 years site experience",
+   "No survey set out experience",
+   "No Australian site experience",
+   "Relocation to Sydney unconfirmed"
+  ],
+  "match_score": {
+   "percent": 61,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Cono Services (bulk excavation, earthworks and civil contractor working with Tier 1 builders) wants a Site Engineer in Sydney (90,000 to 110,000 dollars) for set out, ITPs, inspections and quality records, drawing interpretation and daily progress monitoring.",
+    "It says graduate to intermediate level, degree in civil engineering, typically 1 to 4 years site experience, set out knowledge, licence and White Card; Marc's BSCE, Advanced Diploma earthworks design and 2019 to 2020 site inspection, quality and crew coordination work cover most duties.",
+    "Direct employer, listed on SEEK 13 Nov 2026 AEDT, quick apply."
+   ],
+   "caution": "Experience is stated as typical (1 to 4 years), not a hard minimum, but Marc has about ten months; salary band suggests they may prefer someone with more site time. No survey instrument or set out experience (said honestly). Relocation to Sydney unconfirmed."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-11-13",
+   "expires_at": "2026-12-13",
+   "verified_at": "2026-11-13T07:21:51.000Z",
+   "apply_instructions": "Apply on SEEK job 95871692 (four questions: work rights, salary, years as site engineer, notice). No email address published. Nothing submitted.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Confirm Marc is willing to relocate to Sydney for this role",
+   "Search Gmail in:anywhere for Cono Services before applying (Gmail was not reachable on this tick)",
+   "Open SEEK job 95871692 (closes 13 Dec 2026) and apply; answer the four SEEK questions honestly (485 full working rights; salary and notice for Marc to decide; site engineer experience less than 1 year)",
+   "Attach the resume and cover letter from this folder",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nTick 20261113T0714Z: open web first (jobau, careersatcouncil, Council Direct, publicroles, Prosple, Jobstralia, ZipRecruiter, TheJobsMap, Jora and job board web searches for graduate civil, junior drafting, document control and council engineering roles across all states), then the 2 day SEEK sweep (962 seen, 182 prefilter, 60 details) and 14 targeted SEEK keyword searches (2 days). Found in the 2 day SEEK sweep and targeted SEEK keyword searches (job 95871692, listed 13 Nov 2026 AEDT); never screened before. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: not in /workspace/job-finds, prior_outreach.json, earlier screen or candidate files or the journal. Cover letter drafted from facts.json only; checks.py facts OK and tone OK (letter under 340 words); cover letter and one page resume rendered and read back (1 page each). Status READY_JEREMIE_SEEK: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Site engineer years? → Less than one year, Philippines 2019 to 2020.\n• Set out and levels? → Studied surveying in the BSCE; no instrument work on a job yet, keen to learn.\n• ITPs and NCRs? → Quality checks and site records on Philippine projects.\n• Move to Sydney? → Open to discussing relocation; Marc to confirm.\n• Work rights? → Subclass 485, full working rights until December 2027.",
+  "how_found": "Tick 20261113T0714Z: open web first (jobau, careersatcouncil, Council Direct, publicroles, Prosple, Jobstralia, ZipRecruiter, TheJobsMap, Jora and job board web searches for graduate civil, junior drafting, document control and council engineering roles across all states), then the 2 day SEEK sweep (962 seen, 182 prefilter, 60 details) and 14 targeted SEEK keyword searches (2 days). Found in the 2 day SEEK sweep and targeted SEEK keyword searches (job 95871692, listed 13 Nov 2026 AEDT); never screened before. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: not in /workspace/job-finds, prior_outreach.json, earlier screen or candidate files or the journal. Cover letter drafted from facts.json only; checks.py facts OK and tone OK (letter under 340 words); cover letter and one page resume rendered and read back (1 page each). Status READY_JEREMIE_SEEK: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Site engineer years? → Less than one year, Philippines 2019 to 2020.",
+   "Set out and levels? → Studied surveying in the BSCE; no instrument work on a job yet, keen to learn.",
+   "ITPs and NCRs? → Quality checks and site records on Philippine projects.",
+   "Move to Sydney? → Open to discussing relocation; Marc to confirm.",
+   "Work rights? → Subclass 485, full working rights until December 2027."
+  ],
+  "checked_at": "2026-11-13T07:21:51.000Z",
+  "seek_id": "95871692",
+  "duplicate_key": "cono services|bulk excavation & civil site engineer",
+  "preparation_only": true,
+  "found_at": "2026-11-13T18:21+11:00 AEDT"
+ },
+ {
+  "id": "456eb62e-b952-4b8b-b1f6-b4b2257184ad",
+  "key": "manual:456eb62e-b952-4b8b-b1f6-b4b2257184ad",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261113T0714Z",
+  "created_at": "2026-11-13T07:21:51.000Z",
+  "updated_at": "2026-11-13T07:21:51.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Griffith_Graduate_Traffic_Design_Engineer_Cover_Letter.pdf",
+    "sha256": "0147d19f63b11bf25aeb23ad6f52d86ed7589145716eb757efae7ac57e97089b",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Griffith_Resume.pdf",
+    "sha256": "74966d6ce31a11114c55addd479f0b0ee7811f7aa1ecbd232e2eddacdf821dfc",
+    "stored_in": "local:/workspace/job-finds",
+    "note": "one page resume built from facts.json"
+   }
+  ],
+  "company": "Griffith City Council",
+  "role": "Graduate Traffic & Design Engineer",
+  "location": "Griffith NSW",
+  "job_url": "https://www.careersatcouncil.com.au/job/graduate-traffic-design-engineer-20261016/",
+  "company_url": "https://www.griffith.nsw.gov.au",
+  "status": "HELD_MANDATORY_UNRESOLVED",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_EMPLOYER_PORTAL",
+  "application_route": "EMPLOYER_PORTAL",
+  "application_method": "Company website (council portal)",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.careersatcouncil.com.au/job/graduate-traffic-design-engineer-20261016/",
+  "contact_verified_at": "2026-11-13T07:21:51.000Z",
+  "contact_confidence": "none",
+  "subject": "Graduate Traffic & Design Engineer (Griffith City Council)",
+  "email_body": "",
+  "fit": [
+   "Griffith City Council (NSW Riverina) has a permanent Graduate Traffic and Design Engineer role (Grade 13, 87,107 to 95,814 dollars plus super, relocation assistance) assisting with traffic data, road safety proposals and heavy vehicle access for the Engineering Design Section.",
+   "It asks for recent engineering graduates, AutoCAD and MS Office confidence, communication and organisation, and a current Australian driver licence; Marc's Advanced Diploma road geometry and pavement design in AutoCAD and Civil 3D with Austroads and AS 1742.14 coursework fits the design side.",
+   "Direct council employer, posted about 4 Nov 2026 on careersatcouncil, closes 27 Nov 2026."
+  ],
+  "gaps": [
+   "Engineers Australia acceptance of the Philippine BSCE unconfirmed (mandatory)",
+   "No traffic engineering experience",
+   "Relocation to Griffith unconfirmed"
+  ],
+  "match_score": {
+   "percent": 63,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Griffith City Council (NSW Riverina) has a permanent Graduate Traffic and Design Engineer role (Grade 13, 87,107 to 95,814 dollars plus super, relocation assistance) assisting with traffic data, road safety proposals and heavy vehicle access for the Engineering Design Section.",
+    "It asks for recent engineering graduates, AutoCAD and MS Office confidence, communication and organisation, and a current Australian driver licence; Marc's Advanced Diploma road geometry and pavement design in AutoCAD and Civil 3D with Austroads and AS 1742.14 coursework fits the design side.",
+    "Direct council employer, posted about 4 Nov 2026 on careersatcouncil, closes 27 Nov 2026."
+   ],
+   "caution": "Mandatory: a degree in engineering acceptable to Engineers Australia; Marc's Philippine BSCE recognition is unconfirmed (same rule applied to earlier held council records). Traffic data analysis is new. Relocation to Griffith NSW unconfirmed."
+  },
+  "advert": {
+   "source": "careersatcouncil",
+   "listed_at": "2026-11-04",
+   "expires_at": "2026-11-27",
+   "verified_at": "2026-11-13T07:21:51.000Z",
+   "apply_instructions": "Apply through the Griffith City Council portal linked from the careersatcouncil advert; include copies of licences and qualifications. Enquiries: Greg Balind 1300 176 077. Nothing submitted.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Resolve the mandatory requirement first: a degree acceptable to Engineers Australia (Marc's Philippine BSCE recognition is unconfirmed); ask the council (Greg Balind, 1300 176 077) whether a 485 graduate with an overseas BSCE is eligible",
+   "Confirm Marc is willing to relocate to Griffith NSW (council offers relocation assistance)",
+   "Search Gmail in:anywhere for Griffith City Council before applying (Gmail was not reachable on this tick)",
+   "Apply through the council portal linked from the careersatcouncil advert by 27 Nov 2026, attaching resume, cover letter, licence and qualification copies",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nTick 20261113T0714Z: open web first (jobau, careersatcouncil, Council Direct, publicroles, Prosple, Jobstralia, ZipRecruiter, TheJobsMap, Jora and job board web searches for graduate civil, junior drafting, document control and council engineering roles across all states), then the 2 day SEEK sweep (962 seen, 182 prefilter, 60 details) and 14 targeted SEEK keyword searches (2 days). Found on the open web (careersatcouncil.com.au council engineering search, NSW council graduate listings); never screened before. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: not in /workspace/job-finds, prior_outreach.json, earlier screen or candidate files or the journal. Cover letter drafted from facts.json only; checks.py facts OK and tone OK (letter under 340 words); cover letter and one page resume rendered and read back (1 page each). Status HELD_MANDATORY_UNRESOLVED: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Is your degree accepted by Engineers Australia? → Not yet assessed; Marc to confirm before applying.\n• Traffic engineering? → Road geometry, pavement design and AS 1742.14 in the Advanced Diploma; no traffic data work yet.\n• AutoCAD? → AutoCAD and Civil 3D from the Advanced Diploma (academic, not commercial).\n• Move to Griffith? → Open to discussing relocation; Marc to confirm.\n• Work rights? → Subclass 485, full working rights until December 2027.",
+  "how_found": "Tick 20261113T0714Z: open web first (jobau, careersatcouncil, Council Direct, publicroles, Prosple, Jobstralia, ZipRecruiter, TheJobsMap, Jora and job board web searches for graduate civil, junior drafting, document control and council engineering roles across all states), then the 2 day SEEK sweep (962 seen, 182 prefilter, 60 details) and 14 targeted SEEK keyword searches (2 days). Found on the open web (careersatcouncil.com.au council engineering search, NSW council graduate listings); never screened before. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: not in /workspace/job-finds, prior_outreach.json, earlier screen or candidate files or the journal. Cover letter drafted from facts.json only; checks.py facts OK and tone OK (letter under 340 words); cover letter and one page resume rendered and read back (1 page each). Status HELD_MANDATORY_UNRESOLVED: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Is your degree accepted by Engineers Australia? → Not yet assessed; Marc to confirm before applying.",
+   "Traffic engineering? → Road geometry, pavement design and AS 1742.14 in the Advanced Diploma; no traffic data work yet.",
+   "AutoCAD? → AutoCAD and Civil 3D from the Advanced Diploma (academic, not commercial).",
+   "Move to Griffith? → Open to discussing relocation; Marc to confirm.",
+   "Work rights? → Subclass 485, full working rights until December 2027."
+  ],
+  "checked_at": "2026-11-13T07:21:51.000Z",
+  "seek_id": null,
+  "duplicate_key": "griffith city council|graduate traffic & design engineer",
+  "preparation_only": true,
+  "found_at": "2026-11-13T18:21+11:00 AEDT"
+ },
+ {
+  "id": "b699c3da-68e8-4553-8108-e0ec69b2261c",
+  "key": "manual:b699c3da-68e8-4553-8108-e0ec69b2261c",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261113T0714Z",
+  "created_at": "2026-11-13T07:22:07.000Z",
+  "updated_at": "2026-11-13T07:22:07.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_PCP_Graduate_Civil_Engineer_Cover_Letter.pdf",
+    "sha256": "c818236c0dadba712026b187b24818ba36ddb96c56e31cbb24e1839e8837abd6",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_PCP_Resume.pdf",
+    "sha256": "74966d6ce31a11114c55addd479f0b0ee7811f7aa1ecbd232e2eddacdf821dfc",
+    "stored_in": "local:/workspace/job-finds",
+    "note": "one page resume built from facts.json"
+   }
+  ],
+  "company": "PCP Solutions Pty Ltd",
+  "role": "Graduate Civil Engineer",
+  "location": "Toowoomba QLD",
+  "job_url": "https://www.seek.com.au/job/95872340",
+  "company_url": "https://pcpsolutions.com.au",
+  "status": "PREPARED_NOT_SENT",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_SEEK_EMAIL_APPLY",
+  "application_route": "EMAIL",
+  "application_method": "Email (or SEEK, not both)",
+  "recipient_name": "",
+  "recipient_role": "PCP Solutions (applications inbox named in the advert)",
+  "recipient_email": "admin@pcpsolutions.com.au",
+  "contact_email": "admin@pcpsolutions.com.au",
+  "contact_evidence_url": "https://www.seek.com.au/job/95872340",
+  "contact_verified_at": "2026-11-13T07:22:07.000Z",
+  "contact_confidence": "published_inbox",
+  "subject": "Graduate Civil Engineer application (SEEK 95872340)",
+  "email_body": "Dear PCP Solutions team,\n\nI am applying for the Graduate Civil Engineer role in Toowoomba that you advertised on SEEK (95872340), which invites resumes and cover letters to this address.\n\nIn February 2026 I finished an Advanced Diploma of Civil Construction Design in Australia, designing and documenting road geometry, earthworks, pavement and stormwater drainage in Civil 3D and AutoCAD. I also hold a Bachelor of Science in Civil Engineering (2019). From 2019 to 2020 I worked on site in the Philippines as a field engineer and project-in-charge, carrying out inspections and quality checks, reviewing drawings, tracking materials and preparing progress reports.\n\nYour advert's mix of ITPs, quality records, daily progress reporting and drawing review is the kind of site and documentation work I want to build on. I have not worked on water infrastructure yet. I live in Melton, hold a White Card and an Australian driver's licence, have full working rights to December 2027 on a Subclass 485 visa, am available for regional site work and am open to discussing relocation to Toowoomba.\n\nCould we arrange a short call about the role?\n\nI've attached my resume and cover letter.\n\nKind regards,\nMarc Darenz Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
+  "fit": [
+   "PCP Solutions (Toowoomba civil earthworks and commercial plumbing contractor, 70+ staff, Tier 1 subcontract work across SE Queensland) wants a full time Graduate Civil Engineer (65,000 to 75,000 dollars) for site inspections, ITPs and QA records, progress reporting, drawing review, take offs and document control.",
+   "It asks for a civil engineering degree, recent graduates or up to 2 years experience, basic understanding of drawings and specifications, licence and White Card, and regional travel; Marc's BSCE, Feb 2026 Advanced Diploma (Civil 3D, AutoCAD, cost estimates and BOQs) and 2019 to 2020 site inspection, quality and reporting work match most duties.",
+   "Direct employer, listed on SEEK 13 Nov 2026 AEDT, expires 13 Dec 2026; the advert names admin@pcpsolutions.com.au for resumes and cover letters."
+  ],
+  "gaps": [
+   "No water infrastructure or Tier 1 project experience",
+   "No Australian site experience",
+   "Relocation to Toowoomba unconfirmed"
+  ],
+  "match_score": {
+   "percent": 74,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "PCP Solutions (Toowoomba civil earthworks and commercial plumbing contractor, 70+ staff, Tier 1 subcontract work across SE Queensland) wants a full time Graduate Civil Engineer (65,000 to 75,000 dollars) for site inspections, ITPs and QA records, progress reporting, drawing review, take offs and document control.",
+    "It asks for a civil engineering degree, recent graduates or up to 2 years experience, basic understanding of drawings and specifications, licence and White Card, and regional travel; Marc's BSCE, Feb 2026 Advanced Diploma (Civil 3D, AutoCAD, cost estimates and BOQs) and 2019 to 2020 site inspection, quality and reporting work match most duties.",
+    "Direct employer, listed on SEEK 13 Nov 2026 AEDT, expires 13 Dec 2026; the advert names admin@pcpsolutions.com.au for resumes and cover letters."
+   ],
+   "caution": "Relocation to Toowoomba QLD (or regional QLD work) unconfirmed with Marc. No water infrastructure experience (highly regarded, not essential; said honestly). Site experience is about ten months in the Philippines. Apply by email or SEEK, not both."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-11-13",
+   "expires_at": "2026-12-13",
+   "verified_at": "2026-11-13T07:22:07.000Z",
+   "apply_instructions": "Apply via SEEK job 95872340 (seven questions) or email resume and cover letter to admin@pcpsolutions.com.au (published in the advert). Draft email prepared; NOT sent (Gmail not attached on this tick, local only).",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Search Gmail in:anywhere for PCP Solutions and pcpsolutions.com.au before sending (Gmail was not reachable on this tick)",
+   "Confirm Marc is willing to relocate to or work regionally from Toowoomba QLD",
+   "Either email admin@pcpsolutions.com.au with the draft email and both PDFs, or apply on SEEK 95872340 (closes 13 Dec 2026), not both",
+   "SEEK questions: White Card yes; 485 full working rights; site engineer years and construction years truthfully (about ten months on site 2019 to 2020); project management experience none formal; licence yes; travel yes",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nTick 20261113T0714Z: open web first (jobau, careersatcouncil, Council Direct, publicroles, Prosple, Jobstralia, ZipRecruiter, TheJobsMap, Jora and job board web searches for graduate civil, junior drafting, document control and council engineering roles across all states), then the 2 day SEEK sweep (962 seen, 182 prefilter, 60 details) and 14 targeted SEEK keyword searches (2 days). Found by targeted SEEK keyword searches after the open web sweep (job 95872340, listed about five hours before this tick); never screened before. Contact: the advert itself publishes admin@pcpsolutions.com.au for applications. Email draft 199 words, checks.py tone and facts OK; checks.py record flags only the expected local-only items (attachments not uploaded to R2, so not publishable to the tracker), no content issues. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: not in /workspace/job-finds, prior_outreach.json, earlier screen or candidate files or the journal. Cover letter drafted from facts.json only; checks.py facts OK and tone OK (letter under 340 words); cover letter and one page resume rendered and read back (1 page each). Status PREPARED_NOT_SENT: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Site engineer experience? → About ten months on site in the Philippines (2019 to 2020) as project-in-charge and field engineer: inspections, quality checks, progress and material reports.\n• ITPs and QA records? → Quality checks and site records on Philippine projects; keen to learn your IMS and Tier 1 reporting.\n• Water infrastructure? → Not yet; stormwater drainage design in the Advanced Diploma only.\n• Move to Toowoomba? → Open to discussing relocation; Marc to confirm.\n• Work rights? → Subclass 485, full working rights until December 2027.",
+  "how_found": "Tick 20261113T0714Z: open web first (jobau, careersatcouncil, Council Direct, publicroles, Prosple, Jobstralia, ZipRecruiter, TheJobsMap, Jora and job board web searches for graduate civil, junior drafting, document control and council engineering roles across all states), then the 2 day SEEK sweep (962 seen, 182 prefilter, 60 details) and 14 targeted SEEK keyword searches (2 days). Found by targeted SEEK keyword searches after the open web sweep (job 95872340, listed about five hours before this tick); never screened before. Contact: the advert itself publishes admin@pcpsolutions.com.au for applications. Email draft 199 words, checks.py tone and facts OK; checks.py record flags only the expected local-only items (attachments not uploaded to R2, so not publishable to the tracker), no content issues. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: not in /workspace/job-finds, prior_outreach.json, earlier screen or candidate files or the journal. Cover letter drafted from facts.json only; checks.py facts OK and tone OK (letter under 340 words); cover letter and one page resume rendered and read back (1 page each). Status PREPARED_NOT_SENT: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Site engineer experience? → About ten months on site in the Philippines (2019 to 2020) as project-in-charge and field engineer: inspections, quality checks, progress and material reports.",
+   "ITPs and QA records? → Quality checks and site records on Philippine projects; keen to learn your IMS and Tier 1 reporting.",
+   "Water infrastructure? → Not yet; stormwater drainage design in the Advanced Diploma only.",
+   "Move to Toowoomba? → Open to discussing relocation; Marc to confirm.",
+   "Work rights? → Subclass 485, full working rights until December 2027."
+  ],
+  "checked_at": "2026-11-13T07:22:07.000Z",
+  "seek_id": "95872340",
+  "duplicate_key": "pcp solutions pty ltd|graduate civil engineer",
+  "preparation_only": true,
+  "found_at": "2026-11-13T18:22+11:00 AEDT"
+ }
+]

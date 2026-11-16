@@ -1,0 +1,191 @@
+[
+ {
+  "id": "4a0e2c10-64f4-4921-848c-82f5f8736884",
+  "key": "manual:4a0e2c10-64f4-4921-848c-82f5f8736884",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261113T0211Z",
+  "created_at": "2026-11-13T02:15:20.000Z",
+  "updated_at": "2026-11-13T02:15:20.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_Cardinia_Development_Engineer_Cover_Letter.pdf",
+    "sha256": "3b040faa780ad914dcf4e1135122d137e87b2772b7a5cac524d371ce5f2e274b",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_Cardinia_Resume.pdf",
+    "sha256": "74966d6ce31a11114c55addd479f0b0ee7811f7aa1ecbd232e2eddacdf821dfc",
+    "stored_in": "local:/workspace/job-finds",
+    "note": "one page resume built from facts.json"
+   }
+  ],
+  "company": "Cardinia Shire Council",
+  "role": "Development Engineer",
+  "location": "Officer VIC",
+  "job_url": "https://www.seek.com.au/job/95866809",
+  "company_url": "https://www.cardinia.vic.gov.au",
+  "status": "READY_JEREMIE_EMPLOYER_PORTAL",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_SEEK",
+  "application_route": "SEEK link-out to the council online application form",
+  "application_method": "SEEK link-out to council portal",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95866809",
+  "contact_verified_at": "2026-11-13T02:15:20.000Z",
+  "contact_confidence": "none",
+  "subject": "Development Engineer, Officer (SEEK 95866809)",
+  "email_body": "",
+  "fit": [
+   "Cardinia Shire Council has a newly created Development Engineer role in Officer VIC (full time, 79,608 to 85,742 dollars plus super, hybrid, monthly day off) assessing drainage, traffic and construction plans for new developments, learning alongside senior engineers.",
+   "It asks for a civil engineering background as a recent graduate or up to two years experience, drainage principles highly regarded, eagerness to learn and clear writing; Marc's BSCE, Feb 2026 Advanced Diploma stormwater and drainage design in Civil 3D and AutoCAD, and 2019 to 2020 site reporting match.",
+   "Direct council employer in Victoria; only valid Australian working rights required (485 to Dec 2027 qualifies)."
+  ],
+  "gaps": [
+   "No development assessment experience",
+   "No Australian site or council experience",
+   "Long commute from Melton to Officer"
+  ],
+  "match_score": {
+   "percent": 74,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "Cardinia Shire Council has a newly created Development Engineer role in Officer VIC (full time, 79,608 to 85,742 dollars plus super, hybrid, monthly day off) assessing drainage, traffic and construction plans for new developments, learning alongside senior engineers.",
+    "It asks for a civil engineering background as a recent graduate or up to two years experience, drainage principles highly regarded, eagerness to learn and clear writing; Marc's BSCE, Feb 2026 Advanced Diploma stormwater and drainage design in Civil 3D and AutoCAD, and 2019 to 2020 site reporting match.",
+    "Direct council employer in Victoria; only valid Australian working rights required (485 to Dec 2027 qualifies)."
+   ],
+   "caution": "Development assessment, Legal Point of Discharge and build over easement work is new (said honestly in the letter). Officer is in the south east, a long commute from Melton. Police check and pre-employment medical required. Closes 26 Nov 2026."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-11-13",
+   "expires_at": "2026-11-26",
+   "verified_at": "2026-11-13T02:15:20.000Z",
+   "apply_instructions": "SEEK job 95866809 links out to the Cardinia Shire Council online application form; upload resume and a brief cover letter addressing suitability. Role enquiries by phone 5943 4423 (contact name blank in the advert). No email sent.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Search Gmail in:anywhere for Cardinia before applying (Gmail was not reachable on this tick)",
+   "Read the Position Description linked in the SEEK advert",
+   "Open SEEK job 95866809 (closes 26 Nov 2026) and follow Apply to the council online form",
+   "Upload the resume and the brief cover letter from this folder",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nTick 20261113T0211Z: open web first (web searches across jobau, Prosple, Built In, SimplyHired, Jora, College Recruiter and SEEK category pages for Victorian graduate civil and junior drafting roles), then targeted SEEK keyword searches (draftsperson 30 days; graduate civil engineer, junior civil engineer, site engineer graduate 14 days) plus the 2 day SEEK sweep. Found by a targeted SEEK keyword search (job 95866809, listed 13 Nov 2026 AEDT, closes 26 Nov 2026); never screened before (earlier Cardinia board checks showed trades only). Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: not in /workspace/job-finds, prior_outreach.json, earlier screen or candidate files or the journal. Cover letter drafted from facts.json only; checks.py facts OK and tone OK (letter under 340 words); cover letter and one page resume rendered and read back (1 page each). Status READY_JEREMIE_EMPLOYER_PORTAL: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Drainage principles? → Stormwater drainage design and documentation in Civil 3D and AutoCAD in the Advanced Diploma (Feb 2026), plus road geometry, earthworks and pavement.\n• Development engineering experience? → New; keen to learn assessments and approvals from the senior engineers.\n• Written communication? → Prepared site, material and progress reports as a field engineer (2019 to 2020).\n• Commute to Officer? → Lives in Melton with licence and transport; Marc to confirm the travel suits.\n• Work rights? → Subclass 485, full working rights until December 2027.",
+  "how_found": "Tick 20261113T0211Z: open web first (web searches across jobau, Prosple, Built In, SimplyHired, Jora, College Recruiter and SEEK category pages for Victorian graduate civil and junior drafting roles), then targeted SEEK keyword searches (draftsperson 30 days; graduate civil engineer, junior civil engineer, site engineer graduate 14 days) plus the 2 day SEEK sweep. Found by a targeted SEEK keyword search (job 95866809, listed 13 Nov 2026 AEDT, closes 26 Nov 2026); never screened before (earlier Cardinia board checks showed trades only). Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: not in /workspace/job-finds, prior_outreach.json, earlier screen or candidate files or the journal. Cover letter drafted from facts.json only; checks.py facts OK and tone OK (letter under 340 words); cover letter and one page resume rendered and read back (1 page each). Status READY_JEREMIE_EMPLOYER_PORTAL: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Drainage principles? → Stormwater drainage design and documentation in Civil 3D and AutoCAD in the Advanced Diploma (Feb 2026), plus road geometry, earthworks and pavement.",
+   "Development engineering experience? → New; keen to learn assessments and approvals from the senior engineers.",
+   "Written communication? → Prepared site, material and progress reports as a field engineer (2019 to 2020).",
+   "Commute to Officer? → Lives in Melton with licence and transport; Marc to confirm the travel suits.",
+   "Work rights? → Subclass 485, full working rights until December 2027."
+  ],
+  "checked_at": "2026-11-13T02:15:20.000Z",
+  "seek_id": "95866809",
+  "duplicate_key": "cardinia shire council|development engineer",
+  "preparation_only": true,
+  "found_at": "2026-11-13T13:15+11:00 AEDT"
+ },
+ {
+  "id": "f33e34e9-5ecb-47e3-8cfc-38b82f00cab2",
+  "key": "manual:f33e34e9-5ecb-47e3-8cfc-38b82f00cab2",
+  "contributor_name": "Grok AI",
+  "created_by": "grok-job-search",
+  "record_kind": "AUTOMATED_LEAD",
+  "run_id": "20261113T0211Z",
+  "created_at": "2026-11-13T02:15:20.000Z",
+  "updated_at": "2026-11-13T02:15:20.000Z",
+  "version": 1,
+  "attachments": [
+   {
+    "kind": "cover",
+    "filename": "Marc_Masarate_BSBrothers_Civil_Engineering_Draftsperson_Cover_Letter.pdf",
+    "sha256": "4c4506831af958b569ad310ab593de205f364277fa412e8746823226059926a5",
+    "stored_in": "local:/workspace/job-finds"
+   },
+   {
+    "kind": "resume",
+    "filename": "Marc_Masarate_BSBrothers_Resume.pdf",
+    "sha256": "74966d6ce31a11114c55addd479f0b0ee7811f7aa1ecbd232e2eddacdf821dfc",
+    "stored_in": "local:/workspace/job-finds",
+    "note": "one page resume built from facts.json"
+   }
+  ],
+  "company": "B & S Brothers Enterprises Pty Ltd",
+  "role": "Civil Engineering Draftsperson",
+  "location": "Melton VIC",
+  "job_url": "https://www.seek.com.au/job/95870684",
+  "company_url": "",
+  "status": "HELD_MANDATORY_UNMET",
+  "application_type": "ADVERTISED_VACANCY",
+  "vacancy_status": "OPEN_SEEK",
+  "application_route": "SEEK quick apply",
+  "application_method": "SEEK",
+  "recipient_name": "",
+  "recipient_role": "",
+  "recipient_email": "",
+  "contact_email": "",
+  "contact_evidence_url": "https://www.seek.com.au/job/95870684",
+  "contact_verified_at": "2026-11-13T02:15:20.000Z",
+  "contact_confidence": "none",
+  "subject": "Civil Engineering Draftsperson, Melton (SEEK 95870684)",
+  "email_body": "",
+  "fit": [
+   "B & S Brothers Enterprises (104 Collins Street, Melton) wants a full time Civil Engineering Draftsperson (70,000 to 80,000 dollars plus super) drafting drainage, sewerage, subdivision and road plans, assisting engineers with site measurements, quantities and inspections.",
+   "It asks for an Advanced Diploma of Civil Construction Design or above, which Marc finished in Feb 2026, and the duties match his Civil 3D and AutoCAD design work and 2019 to 2020 site inspection and reporting.",
+   "Direct employer in Marc's home suburb, listed 13 Nov 2026 on SEEK."
+  ],
+  "gaps": [
+   "Minimum 3 years experience stated (mandatory, unmet)",
+   "No paid drafting experience in Australia"
+  ],
+  "match_score": {
+   "percent": 66,
+   "method": "resume-fit-v2",
+   "rationale": [
+    "B & S Brothers Enterprises (104 Collins Street, Melton) wants a full time Civil Engineering Draftsperson (70,000 to 80,000 dollars plus super) drafting drainage, sewerage, subdivision and road plans, assisting engineers with site measurements, quantities and inspections.",
+    "It asks for an Advanced Diploma of Civil Construction Design or above, which Marc finished in Feb 2026, and the duties match his Civil 3D and AutoCAD design work and 2019 to 2020 site inspection and reporting.",
+    "Direct employer in Marc's home suburb, listed 13 Nov 2026 on SEEK."
+   ],
+   "caution": "The advert states a minimum of 3 years experience, which Marc does not have (about ten months of site work plus the diploma); held for Marc to decide. The letter says the gap honestly. SEEK asks years of civil drafting experience; answer truthfully."
+  },
+  "advert": {
+   "source": "seek",
+   "listed_at": "2026-11-13",
+   "expires_at": "2026-12-13",
+   "verified_at": "2026-11-13T02:15:20.000Z",
+   "apply_instructions": "Apply on SEEK job 95870684 (six screening questions: work rights, salary, years as civil drafter, notice, civil construction qualification, years of engineering drafting). The advert also says email your resume but publishes no address. No email sent.",
+   "screening_questions": []
+  },
+  "screening_answers": [],
+  "checklist": [
+   "Decide whether to apply despite the stated minimum of 3 years experience (Marc has about one year of site work plus the Feb 2026 Advanced Diploma)",
+   "Search Gmail in:anywhere for B & S Brothers before applying (Gmail was not reachable on this tick)",
+   "Open SEEK job 95870684 (closes 13 Dec 2026) and apply; answer the six SEEK questions honestly (485 visa, Advanced Diploma yes, drafting experience under 1 year)",
+   "Attach the resume and cover letter from this folder",
+   "Record the apply date in /workspace/job-finds"
+  ],
+  "notes": "HOW GROK AI FOUND THIS\nTick 20261113T0211Z: open web first (web searches across jobau, Prosple, Built In, SimplyHired, Jora, College Recruiter and SEEK category pages for Victorian graduate civil and junior drafting roles), then targeted SEEK keyword searches (draftsperson 30 days; graduate civil engineer, junior civil engineer, site engineer graduate 14 days) plus the 2 day SEEK sweep. Found by a targeted SEEK keyword search (job 95870684, listed about 15 minutes before the search on 13 Nov 2026); never screened before. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: not in /workspace/job-finds, prior_outreach.json, earlier screen or candidate files or the journal. Cover letter drafted from facts.json only; checks.py facts OK and tone OK (letter under 340 words); cover letter and one page resume rendered and read back (1 page each). Status HELD_MANDATORY_UNMET: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).\n\nIF THEY CALL, LIKELY QUESTIONS\n• Three years experience? → Not yet; about ten months on site in the Philippines (2019 to 2020) plus the Advanced Diploma finished Feb 2026.\n• Drafting software? → AutoCAD and Civil 3D for road, earthworks, pavement and stormwater drawings.\n• Site support? → Site inspections, quality checks and progress reports as field engineer and project-in-charge.\n• Location? → Lives in Melton.\n• Work rights? → Subclass 485, full working rights until December 2027.",
+  "how_found": "Tick 20261113T0211Z: open web first (web searches across jobau, Prosple, Built In, SimplyHired, Jora, College Recruiter and SEEK category pages for Victorian graduate civil and junior drafting roles), then targeted SEEK keyword searches (draftsperson 30 days; graduate civil engineer, junior civil engineer, site engineer graduate 14 days) plus the 2 day SEEK sweep. Found by a targeted SEEK keyword search (job 95870684, listed about 15 minutes before the search on 13 Nov 2026); never screened before. Gmail could not be checked on this tick (no Gmail connector attached), so search macdarenz@gmail.com in:anywhere for the employer before applying. Dedupe: not in /workspace/job-finds, prior_outreach.json, earlier screen or candidate files or the journal. Cover letter drafted from facts.json only; checks.py facts OK and tone OK (letter under 340 words); cover letter and one page resume rendered and read back (1 page each). Status HELD_MANDATORY_UNMET: nothing was submitted or sent. Saved locally only (tracker full, Marc 20 Oct 2026).",
+  "call_prep": [
+   "Three years experience? → Not yet; about ten months on site in the Philippines (2019 to 2020) plus the Advanced Diploma finished Feb 2026.",
+   "Drafting software? → AutoCAD and Civil 3D for road, earthworks, pavement and stormwater drawings.",
+   "Site support? → Site inspections, quality checks and progress reports as field engineer and project-in-charge.",
+   "Location? → Lives in Melton.",
+   "Work rights? → Subclass 485, full working rights until December 2027."
+  ],
+  "checked_at": "2026-11-13T02:15:20.000Z",
+  "seek_id": "95870684",
+  "duplicate_key": "b & s brothers enterprises pty ltd|civil engineering draftsperson",
+  "preparation_only": true,
+  "found_at": "2026-11-13T13:15+11:00 AEDT"
+ }
+]

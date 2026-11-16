@@ -1,0 +1,41 @@
+[
+ {
+  "id": "web-nassima",
+  "source": "jobsnext",
+  "company": "Nassima Design Group",
+  "title": "Civil Engineering Draftsperson",
+  "location": "VIC 3094 (Montmorency area), Melbourne",
+  "url": "https://jobsnext.com.au/jobs/c660bac0-c53b-4e31-94f7-c141b009c682/view/",
+  "duplicate": {
+   "blocked": false,
+   "reason": "new",
+   "notes": []
+  }
+ },
+ {
+  "id": "web-spiire-wbool",
+  "source": "simplyhired",
+  "company": "Spiire",
+  "title": "Project Engineer/Civil Engineer",
+  "location": "Warrnambool VIC",
+  "url": "https://www.simplyhired.com.au/job/1KkVW4qbxpDqo2EH1LD3tEetrPI38qwdBWLKaybV8u4fz_7uDCcDMw",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (Civil Designer (junior), Expressions of Interest, Townsville · READY_JEREMIE_EMPLOYER_PORTAL · 2026-09-28)",
+   "notes": []
+  }
+ },
+ {
+  "id": "web-stantec-water",
+  "source": "jobau",
+  "company": "Stantec",
+  "title": "Graduate Civil Engineer - Water Resources & Dams",
+  "location": "Melbourne VIC",
+  "url": "https://jobau.org/graduate-civil_melbourne-c1006235/2026-11-htu_i4279336629",
+  "duplicate": {
+   "blocked": true,
+   "reason": "recent outreach to the same employer (Civil Cadet Drafter - QLD · READY_JEREMIE_EMPLOYER_PORTAL · 2026-09-12)",
+   "notes": []
+  }
+ }
+]
