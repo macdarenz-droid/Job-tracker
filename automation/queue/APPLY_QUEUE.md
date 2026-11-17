@@ -14,7 +14,7 @@ Nothing open.
 
 | # | Lane | Company | Role | Location | Target | Closes | Link | Note |
 |---|---|---|---|---|---|---|---|---|
-| 1 | technician | Cement Australia Pty Limited | Trainee Laboratory Technician | Darra, Brisbane QLD | not regional | 2026-12-16 (listing expiry) | [seek-95907851](https://www.seek.com.au/job/95907851) |  |
+| 1 | technician | Cement Australia Pty Limited | Trainee Laboratory Technician | Darra, Brisbane QLD | not regional | 2026-12-16 (listing expiry) | [seek-95907851](https://www.seek.com.au/job/95907851) | started by Grok, no result recorded |
 | 2 | technician | Boral Ltd | Laboratory Technician | Winston Hills, Sydney NSW | not regional | 2026-12-15 (listing expiry) | [seek-95930847](https://www.seek.com.au/job/95930847) |  |
 
 ## EMPLOYER_FORM (0 open)
