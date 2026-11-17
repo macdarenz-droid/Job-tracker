@@ -39,6 +39,13 @@
    "result": "reopened",
    "note": "owner: go (17 Nov 2026), clear the held jobs. Advert re-read today and saved in this run folder; still live, no bar, route and letter checked (question was: The advert text for this job (Cardinia Shire Council, Development Engineer, Officer VIC, SEEK job 95866809, closes 26 Nov) was never saved in the repo, only a short summary, so the 13 Nov re-screen cannot be done and no letter can be written from it. Should a runner re-read the SEEK advert and save its text so this can be finished, or should this one be dropped? (Answer: re-read it, or drop it.))",
    "run": "20261117T000946Z"
+  },
+  {
+   "at": "2026-11-17T01:33:25Z",
+   "by": "Grok",
+   "result": "started",
+   "note": "",
+   "run": "20261117T012843Z"
   }
  ],
  "receipt": {},
