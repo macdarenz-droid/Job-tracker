@@ -12,24 +12,33 @@
  "closes_at": "2026-11-18",
  "closes_source": "listing_expiry",
  "fit": 62,
+ "sponsorship_signal": "",
+ "regional": null,
  "resume_variant": "engineer",
  "relocation_line": "",
- "cover_letter_text": "Hi J&P Building Solutions team,\n\nI'm Marc, and I'm looking for a graduate engineering role, so I'd like to apply for your Graduate Civil/Structural Engineer position. I hold a Bachelor of Science in Civil Engineering from the Philippines (2019), and in February 2026 I graduated with an Advanced Diploma of Civil Construction Design.\n\nOn a community hall renovation in the Philippines in 2019, I reviewed the structural and architectural drawings and checked the work against them. I also coordinated 10 to 15 workers a day and kept the client up to date. I've modelled a pedestrian truss bridge in 3D in Revit, and a footing and column in AutoCAD.\n\nI'm in Melton with my own car, I can start two weeks after an offer, and I have full working rights in Australia (Subclass 485 visa). Thanks for your time, and I'm happy to chat.\n\nKind regards,\nMarc Masarate",
+ "cover_letter_text": "Hi J&P Building Solutions team,\n\nI'm Marc, and I'd like to apply for your Graduate Civil/Structural Engineer role. Learning from an experienced team on design-led residential and commercial builds is what I'm looking for. I hold a Bachelor of Science in Civil Engineering from the Philippines (2019), and in February 2026 I graduated with an Advanced Diploma of Civil Construction Design.\n\nOn a community hall renovation in the Philippines in 2019, I reviewed the structural and architectural drawings and checked the work against them. I also coordinated 10 to 15 workers a day and kept the client up to date. I've modelled a pedestrian truss bridge in 3D in Revit, and a footing and column in AutoCAD.\n\nI'm in Melton with my own car, I can start two weeks after an offer, and I have full working rights in Australia (Subclass 485 visa). Thanks for your time, and I'm happy to chat.\n\nKind regards,\nMarc Masarate",
  "email": {
   "to": "admin@jpbs.com.au",
-  "subject": "Graduate Civil/Structural Engineer, Marc Masarate",
+  "subject": "Graduate Engineer Application, Marc Masarate",
   "body": "Hi J&P Building Solutions team,\n\nI saw your Graduate Civil/Structural Engineer role on SEEK and would like to apply. My resume and cover letter are attached.\n\nIf you'd like to see some of my drawings first, the portfolio link is below. It includes a typical two-lane road cross-section I drew in AutoCAD for the diploma.\n\nI'm based in Melton and can come in for a chat whenever it suits you. Thanks for your time.\n\nKind regards,\nMarc Masarate\n0478 764 077\nhttps://macdarenz-droid.github.io/Portfolio",
-  "evidence_url": ""
+  "evidence_url": "https://www.seek.com.au/job/95352132"
  },
  "questions": [],
- "status": "ASK_OWNER",
- "ask_owner": "The advert text for this job (J&P Building Solutions, Graduate Civil/Structural Engineer, SEEK 95352132, closes 18 Nov) was never saved in the repo, so it cannot be screened, no letter can be written, and the address admin@jpbs.com.au cannot be confirmed as the one the advert gives. Should a runner re-read the advert on SEEK and save it, or should this one be dropped? Answer: re-read or drop.",
+ "status": "OPEN",
+ "ask_owner": "",
  "attempts": [
   {
    "at": "2026-11-13T14:02:17Z",
    "by": "Claude",
    "result": "asked_owner",
    "note": "The advert text for this job (J&P Building Solutions, Graduate Civil/Structural Engineer, SEEK 95352132, closes 18 Nov) was never saved in the repo, so it cannot be screened, no letter can be written, and the address admin@jpbs.com.au cannot be confirmed as the one the advert gives. Should a runner re-read the advert on SEEK and save it, or should this one be dropped? Answer: re-read or drop."
+  },
+  {
+   "at": "2026-11-17T00:11:02Z",
+   "by": "Claude",
+   "result": "reopened",
+   "note": "owner: go (17 Nov 2026), clear the held jobs. Advert re-read on SEEK today and saved in this run folder; it asks for applications by email to this address with the subject Graduate Engineer Application; no bar found (question was: The advert text for this job (J&P Building Solutions, Graduate Civil/Structural Engineer, SEEK 95352132, closes 18 Nov) was never saved in the repo, so it cannot be screened, no letter can be written, and the address admin@jpbs.com.au cannot be confirmed as the one the advert gives. Should a runner re-read the advert on SEEK and save it, or should this one be dropped? Answer: re-read or drop.)",
+   "run": "20261117T000946Z"
   }
  ],
  "receipt": {},
