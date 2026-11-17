@@ -1,0 +1,75 @@
+{
+ "id": "seek-95942487",
+ "lane": "technician",
+ "route": "SEEK",
+ "application_type": "ADVERTISED_VACANCY",
+ "company": "Hawk Geo Pty Ltd",
+ "role": "CMT Laboratory Technician",
+ "location": "Boolaroo, Newcastle NSW",
+ "url": "https://www.seek.com.au/job/95942487",
+ "seek_id": "95942487",
+ "listed_at": "2026-11-17",
+ "closes_at": "2026-12-17",
+ "closes_source": "listing_expiry",
+ "fit": 78,
+ "sponsorship_signal": "",
+ "regional": true,
+ "resume_variant": "technician",
+ "relocation_line": "I will relocate to Newcastle for this role and can start two weeks after an offer.",
+ "cover_letter_text": "Hi Hawk Geo team,\n\nI'm Marc. I finished an Advanced Diploma of Civil Construction Design in February 2026 and I'm after a start in geotechnical and construction materials testing. Your advert says no experience is needed and you train people up, which is what I'm looking for.\n\nIn the diploma I studied soil testing standards (AS 1289). On site in the Philippines I did inspections and quality checks and kept records and reports. I'm organised and dependable.\n\nI'd move to the Newcastle area and can start two weeks after an offer. I have full working rights in Australia (Subclass 485 visa) and a full Victorian driver's licence. Happy to chat any time.\n\nKind regards,\nMarc Masarate",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [
+  {
+   "question": "Which of the following statements best describes your right to work in Australia?",
+   "options": [],
+   "answer": "Subclass 485 Temporary Graduate visa with full working rights until December 2027.",
+   "basis": "answers.right_to_work.free_text",
+   "status": "answered"
+  },
+  {
+   "question": "How many years' experience do you have as a laboratory technician?",
+   "options": [],
+   "answer": "None: no paid role of this kind",
+   "basis": "answers.years_of_experience.laboratory, materials testing, technician, estimator, project coordinator, project management, any other role",
+   "status": "answered"
+  },
+  {
+   "question": "How much notice are you required to give your current employer?",
+   "options": [],
+   "answer": "2 weeks",
+   "basis": "answers.notice_period",
+   "status": "answered"
+  },
+  {
+   "question": "Do you have a current Australian driver's licence?",
+   "options": [],
+   "answer": "Yes",
+   "basis": "answers.drivers_licence",
+   "status": "answered"
+  },
+  {
+   "question": "What is the maximum weight that you are comfortable and able to lift?",
+   "options": [],
+   "answer": "",
+   "basis": "",
+   "status": "unanswered"
+  }
+ ],
+ "status": "ASK_OWNER",
+ "ask_owner": "No standing answer for this form question: What is the maximum weight that you are comfortable and able to lift?",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "Grok",
+ "created_at": "2026-11-17T21:37:48Z",
+ "source_run": "20261117T212822Z",
+ "notes": "Casual lab technician with possible traineeship. No experience required.",
+ "advert_pay": "$30 per hour",
+ "verify_before_submit": [
+  "Confirm advert still open; casual, Mon-Fri 7am-5pm, lifting 20 to 30 kg"
+ ]
+}
