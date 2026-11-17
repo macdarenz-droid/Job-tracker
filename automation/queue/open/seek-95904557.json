@@ -1,0 +1,54 @@
+{
+ "id": "seek-95904557",
+ "lane": "engineer",
+ "route": "SEEK",
+ "application_type": "ADVERTISED_VACANCY",
+ "company": "Chalouhi",
+ "role": "Site Engineer",
+ "location": "Sydney NSW",
+ "url": "https://www.seek.com.au/job/95904557",
+ "seek_id": "95904557",
+ "listed_at": "2026-11-15",
+ "closes_at": "2026-12-16",
+ "closes_source": "listing_expiry",
+ "fit": 72,
+ "sponsorship_signal": "",
+ "regional": false,
+ "resume_variant": "engineer",
+ "relocation_line": "I will relocate to Sydney for this role and can start two weeks after an offer.",
+ "cover_letter_text": "Hi Chalouhi team,\n\nI'm Marc. I hold a Bachelor of Science in Civil Engineering, and in February 2026 I finished an Advanced Diploma of Civil Construction Design. Your advert says recent graduates are strongly encouraged to apply, so here I am.\n\nOn site in the Philippines, from April 2019 to February 2020, I checked drawings against the work, did site inspections and quality checks, coordinated crews and wrote the site and progress reports. I also use AutoCAD and Civil 3D.\n\nI'd move to Sydney and can start two weeks after an offer. I have full working rights in Australia (Subclass 485 visa), a White Card and a full Victorian driver's licence. Happy to chat any time.\n\nKind regards,\nMarc Masarate",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [
+  {
+   "question": "Are you currently living in Australia and have unrestricted working right?",
+   "options": [],
+   "answer": "",
+   "basis": "answers.right_to_work",
+   "status": "unanswered"
+  },
+  {
+   "question": "Please detail your minimum salary expectations (excluding super):",
+   "options": [],
+   "answer": "",
+   "basis": "answers.expected_salary.rule",
+   "status": "unanswered"
+  }
+ ],
+ "status": "ASK_OWNER",
+ "ask_owner": "No standing answer for 2 form questions: Are you currently living in Australia and have unrestricted working right? | Please detail your minimum salary expectations (excluding super):",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "Grok",
+ "created_at": "2026-11-17T21:37:36Z",
+ "source_run": "20261117T212822Z",
+ "notes": "Advert asks 1-2 years in demolition, excavation, civil construction or related and says recent graduates strongly encouraged; he has about 11 months site experience (Philippines). Demolition works, Sydney Metro.",
+ "advert_pay": "Competitive Salary & Weekly Pay!",
+ "verify_before_submit": [
+  "Confirm advert still open"
+ ]
+}
