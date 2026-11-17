@@ -23,9 +23,45 @@
   "body": "",
   "evidence_url": ""
  },
- "questions": [],
- "status": "OPEN",
- "ask_owner": "",
+ "questions": [
+  {
+   "question": "Yes I agree to the privacy statement",
+   "options": [],
+   "answer": "",
+   "basis": "",
+   "status": "unanswered"
+  },
+  {
+   "question": "Street",
+   "options": [],
+   "answer": "",
+   "basis": "",
+   "status": "unanswered"
+  },
+  {
+   "question": "City, Town or Suburb",
+   "options": [],
+   "answer": "",
+   "basis": "",
+   "status": "unanswered"
+  },
+  {
+   "question": "Postcode or Zipcode",
+   "options": [],
+   "answer": "",
+   "basis": "",
+   "status": "unanswered"
+  },
+  {
+   "question": "State, Region or Province",
+   "options": [],
+   "answer": "",
+   "basis": "",
+   "status": "unanswered"
+  }
+ ],
+ "status": "ASK_OWNER",
+ "ask_owner": "No standing answer for 5 form questions: Yes I agree to the privacy statement | Street | City, Town or Suburb | Postcode or Zipcode | State, Region or Province",
  "attempts": [
   {
    "at": "2026-11-17T21:39:56Z",
@@ -33,6 +69,12 @@
    "result": "started",
    "note": "",
    "run": "20261117T212822Z"
+  },
+  {
+   "at": "2026-11-17T21:42:23Z",
+   "by": "Grok",
+   "result": "asked_owner",
+   "note": "form question with no standing answer: Yes I agree to the privacy statement"
   }
  ],
  "receipt": {},
