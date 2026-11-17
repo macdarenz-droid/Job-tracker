@@ -44,13 +44,13 @@
     "Yes",
     "No"
    ],
-   "answer": "",
-   "basis": "",
-   "status": "unanswered"
+   "answer": "No",
+   "basis": "answers.qualification_questions.any other named qualification",
+   "status": "answered"
   }
  ],
- "status": "ASK_OWNER",
- "ask_owner": "No standing answer for this form question: Do you have a Certificate III in Laboratory Skills? (options: Yes / No)",
+ "status": "OPEN",
+ "ask_owner": "",
  "attempts": [],
  "receipt": {},
  "created_by": "Grok",
@@ -60,6 +60,7 @@
  "advert_pay": "not stated",
  "verify_before_submit": [
   "Advert still open and still a Trainee Technician / Technician at the Bendigo laboratory",
-  "Answer the Certificate III in Laboratory Skills question only with the owner's reply recorded by queue.py answer"
+  "Answer the Certificate III in Laboratory Skills question only with the owner's reply recorded by queue.py answer",
+  "Updated 17 Nov 2026 (owner: go): the Certificate III in Laboratory Skills question now has a standing answer (No, true). This replaces the owner-reply check above"
  ]
 }

@@ -12,6 +12,8 @@
  "closes_at": "2026-11-25T09:00",
  "closes_source": "advert",
  "fit": 62,
+ "sponsorship_signal": "",
+ "regional": null,
  "resume_variant": "drafter",
  "relocation_line": "I will relocate to Lismore or Casuarina for this role and can start two weeks after an offer.",
  "cover_letter_text": "Hi Aaron,\n\nI graduated in February 2026 with an Advanced Diploma of Civil Construction Design, and I'd like to start out as a junior civil designer. Your ad says NDC would like to hear from Civil Designers as well as Civil Engineers, so I'm applying on the design side.\n\nYou asked about the most relevant project experience I'd bring. The closest is my course design work. I designed roads, earthworks and stormwater drainage in AutoCAD and Civil 3D, and lodged Before You Dig Australia enquiries so the design worked around existing services. Before that, on a community hall renovation in the Philippines, I checked the work against the drawings. In my first three months, that would let me help prepare and check drawings on your subdivision, road and stormwater jobs.\n\nI can move to Lismore or Casuarina and start two weeks after an offer, and I have full working rights in Australia (Subclass 485 visa). Happy to talk any time.\n\nKind regards,\nMarc Masarate",
@@ -60,13 +62,13 @@
     "I have a qualification in engineering that isn't listed",
     "I don't have a qualification in engineering"
    ],
-   "answer": "",
+   "answer": "Yes, Bachelor Degree",
    "basis": "answers.qualification_questions.engineering",
-   "status": "unanswered"
+   "status": "answered"
   }
  ],
- "status": "ASK_OWNER",
- "ask_owner": "No standing answer for this form question: Have you completed a qualification in engineering? (options: Yes, Certificate I / Yes, Certificate II / Yes, Certificate III / Yes, Certificate IV / Yes, Diploma / Yes, Advanced Diploma / Yes, Associate Degree / Yes, Bachelor Degree / Yes, Bachelor Degree (Honours) / Yes, Graduate Certificate / Yes, Graduate Diploma / Yes, Masters Degree / Yes, Doctoral Degree / I have a qualification in engineering that isn't listed / I don't have a qualification in engineering)",
+ "status": "OPEN",
+ "ask_owner": "",
  "attempts": [
   {
    "at": "2026-11-14T21:34:27Z",

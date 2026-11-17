@@ -12,6 +12,8 @@
  "closes_at": "",
  "closes_source": "none",
  "fit": 70,
+ "sponsorship_signal": "",
+ "regional": null,
  "resume_variant": "engineer",
  "relocation_line": "",
  "cover_letter_text": "Hi Portal Contractors team,\n\nI completed an Advanced Diploma of Civil Construction Design in February 2026, and I hold a Bachelor of Science in Civil Engineering from the Philippines (2019). Your graduate role is out on earthworks and bulk excavation sites, and that's the hands-on start I'm looking for.\n\nI spent April 2019 to February 2020 on site in the Philippines as project-in-charge and then field engineer. I coordinated 10 to 15 workers a day, checked the work against the drawings and did the safety checks. The diploma then had me designing earthworks, roads and drainage in Civil 3D.\n\nI live in Melton with my own transport, a driver's licence and a White Card. I can start two weeks after an offer, and I have full working rights in Australia (Subclass 485 visa). Give me a call whenever suits.\n\nKind regards,\nMarc Masarate",
@@ -22,14 +24,21 @@
   "evidence_url": ""
  },
  "questions": [],
- "status": "ASK_OWNER",
- "ask_owner": "Portal Contractors, Graduate Civil Engineer, Williamstown: the advert text was never saved in the repo (only a runner's summary of it) and an earlier Indeed copy had expired, so no letter was written. Is the job still advertised? Reply with the live link, or 'drop it'.",
+ "status": "SKIPPED",
+ "ask_owner": "",
  "attempts": [
   {
    "at": "2026-11-13T14:18:35Z",
    "by": "Claude",
    "result": "asked_owner",
    "note": "Portal Contractors, Graduate Civil Engineer, Williamstown: the advert text was never saved in the repo (only a runner's summary of it) and an earlier Indeed copy had expired, so no letter was written. Is the job still advertised? Reply with the live link, or 'drop it'."
+  },
+  {
+   "at": "2026-11-17T00:48:54Z",
+   "by": "Claude",
+   "result": "skipped",
+   "note": "advert no longer live: re-checked 17 Nov 2026, no current listing from the employer",
+   "run": "20261117T000946Z"
   }
  ],
  "receipt": {},

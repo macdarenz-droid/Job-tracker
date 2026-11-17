@@ -12,6 +12,8 @@
  "closes_at": "",
  "closes_source": "none",
  "fit": 70,
+ "sponsorship_signal": "",
+ "regional": null,
  "resume_variant": "drafter",
  "relocation_line": "",
  "cover_letter_text": "Hi Nassima team,\n\nI graduated in February 2026 with an Advanced Diploma of Civil Construction Design, and I'm looking to start out as a civil draftsperson. Your JobsNext ad asks for that qualification, so I'm putting my hand up.\n\nIn the diploma I designed roads, earthworks and stormwater drainage in AutoCAD and Civil 3D. One drawing on my portfolio is a typical cross-section of a two-lane road with kerbs and drainage. Earlier, on a community hall renovation in the Philippines, I reviewed the structural and architectural drawings and checked the work against them.\n\nI can start two weeks after an offer, and I have a full Victorian driver's licence and my own transport. I've got full working rights in Australia (Subclass 485 visa). Thanks for reading, and I'm happy to chat.\n\nKind regards,\nMarc Masarate",
@@ -22,14 +24,21 @@
   "evidence_url": ""
  },
  "questions": [],
- "status": "ASK_OWNER",
- "ask_owner": "The advert text for this job (Nassima Design Group, Civil Engineering Draftsperson, on JobsNext, no closing date) was never saved in the repo, only a short summary, so the 13 Nov re-screen cannot be done and no letter can be written from it. Should a runner re-read the JobsNext advert and save its text so this can be finished, or should this one be dropped? (Answer: re-read it, or drop it.)",
+ "status": "OPEN",
+ "ask_owner": "",
  "attempts": [
   {
    "at": "2026-11-13T14:12:20Z",
    "by": "Claude",
    "result": "asked_owner",
    "note": "The advert text for this job (Nassima Design Group, Civil Engineering Draftsperson, on JobsNext, no closing date) was never saved in the repo, only a short summary, so the 13 Nov re-screen cannot be done and no letter can be written from it. Should a runner re-read the JobsNext advert and save its text so this can be finished, or should this one be dropped? (Answer: re-read it, or drop it.)"
+  },
+  {
+   "at": "2026-11-17T00:48:53Z",
+   "by": "Claude",
+   "result": "reopened",
+   "note": "owner: go (17 Nov 2026), clear the held jobs. Advert re-read today and saved in this run folder; still live, no bar, route and letter checked (question was: The advert text for this job (Nassima Design Group, Civil Engineering Draftsperson, on JobsNext, no closing date) was never saved in the repo, only a short summary, so the 13 Nov re-screen cannot be done and no letter can be written from it. Should a runner re-read the JobsNext advert and save its text so this can be finished, or should this one be dropped? (Answer: re-read it, or drop it.))",
+   "run": "20261117T000946Z"
   }
  ],
  "receipt": {},

@@ -124,13 +124,13 @@
     "I have a qualification in engineering that isn't listed",
     "I don't have a qualification in engineering"
    ],
-   "answer": "",
+   "answer": "Yes, Bachelor Degree",
    "basis": "answers.qualification_questions.engineering",
-   "status": "unanswered"
+   "status": "answered"
   }
  ],
- "status": "ASK_OWNER",
- "ask_owner": "No standing answer for this form question: Have you completed a qualification in engineering? (options: Yes, Certificate I / Yes, Certificate II / Yes, Certificate III / Yes, Certificate IV / Yes, Diploma / Yes, Advanced Diploma / Yes, Associate Degree / Yes, Bachelor Degree / Yes, Bachelor Degree (Honours) / Yes, Graduate Certificate / Yes, Graduate Diploma / Yes, Masters Degree / Yes, Doctoral Degree / I have a qualification in engineering that isn't listed / I don't have a qualification in engineering)",
+ "status": "OPEN",
+ "ask_owner": "",
  "attempts": [
   {
    "at": "2026-11-15T22:29:27Z",
