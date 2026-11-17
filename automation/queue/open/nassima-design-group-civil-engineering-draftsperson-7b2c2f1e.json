@@ -23,9 +23,20 @@
   "body": "",
   "evidence_url": ""
  },
- "questions": [],
- "status": "OPEN",
- "ask_owner": "",
+ "questions": [
+  {
+   "question": "By registering, you agree to our Terms & Conditions and Privacy Policy . You can review account deletion steps in our Account Deletion Policy .",
+   "options": [
+    "checked",
+    "unchecked"
+   ],
+   "answer": "",
+   "basis": "",
+   "status": "unanswered"
+  }
+ ],
+ "status": "ASK_OWNER",
+ "ask_owner": "No standing answer for this form question: By registering, you agree to our Terms & Conditions and Privacy Policy . You can review account deletion steps in our Account Deletion Policy . (options: checked / unchecked)",
  "attempts": [
   {
    "at": "2026-11-13T14:12:20Z",
@@ -46,6 +57,12 @@
    "result": "started",
    "note": "",
    "run": "20261117T012843Z"
+  },
+  {
+   "at": "2026-11-17T01:37:32Z",
+   "by": "Grok",
+   "result": "asked_owner",
+   "note": "form question with no standing answer: By registering, you agree to our Terms & Conditions and Privacy Policy . You can review account deletion steps in our Account Deletion Policy ."
   }
  ],
  "receipt": {},
