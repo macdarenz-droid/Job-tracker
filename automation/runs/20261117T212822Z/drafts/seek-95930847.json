@@ -1,0 +1,28 @@
+{
+ "lane": "technician",
+ "route": "EMPLOYER_PORTAL",
+ "company": "Boral Ltd",
+ "role": "Laboratory Technician",
+ "url": "https://www.seek.com.au/job/95930847",
+ "seek_id": "95930847",
+ "advert_pay": "not stated",
+ "closes_at": "2026-12-15",
+ "closes_source": "listing_expiry",
+ "sponsorship_signal": "",
+ "location": "Winston Hills, Sydney NSW",
+ "listed_at": "2026-11-16",
+ "fit": 72,
+ "resume_variant": "technician",
+ "relocation_line": "I will relocate to Sydney for this role and can start two weeks after an offer.",
+ "application_type": "ADVERTISED_VACANCY",
+ "questions": [],
+ "verify_before_submit": [
+  "SEEK apply button leads to employer site: confirm",
+  "Confirm advert still open; role lifts up to 20 kg"
+ ],
+ "notes": "Link-out from SEEK. Lab technician, construction materials sampling and testing, Boral Winston Hills. No experience stated; durability testing desirable only.",
+ "source_run": "20261117T212822Z",
+ "cover_letter_text": "Hi Boral team,\n\nI'm Marc. I graduated in February 2026 with an Advanced Diploma of Civil Construction Design, and I'm looking for a laboratory technician job testing construction materials. The sampling and testing of concrete and other materials in your Winston Hills lab is the kind of work I want to get into.\n\nIn the diploma I studied soil testing standards (AS 1289). Before that, on site in the Philippines, I did inspections and quality checks and kept the material and progress records.\n\nI'd move to Sydney and can start two weeks after an offer. I have full working rights in Australia (Subclass 485 visa) and a full Victorian driver's licence. Happy to chat any time.\n\nKind regards,\nMarc Masarate",
+ "advert_text": "Based in Winston Hills, we are looking for a Laboratory Technician to join our Technical Services Team. Working as part of a team, this role reports directly to the Laboratory Section Head (Chemistry).\nDuties involve undertaking sampling of construction materials, preparation of test samples, testing and physical analysis of these samples, reporting of test results, and maintenance of records.\nThe main responsibilities include:\n- Conduct testing in accordance with laboratory work instructions, test methods, preparation instructions and manuals.\n- Prescribed calibrations and checks of laboratory test equipment.\n- Maintain, observe and participate in the statutory safety requirements of the laboratory.\n- Maintain laboratory NATA accreditation requirements.\n- Work with concrete and other construction materials.\n- Perform extensive sample preparation activities, including cutting, crushing, grinding, handling and processing of construction material samples.\n- Regularly lift and manoeuvre samples and test equipment weighing up to 20 kg in accordance with safe work practices.\n- Other duties as directed by the Section Head.\nSkills and experience:\n- A commitment to Safety and Quality\n- Well-developed skills and understanding of computer systems for monitoring and reporting data.\n- Good time management and organisational skills.\n- Current driver's licence.\n- Ability to cope with competing priorities and deadlines.\n- Good communication and organisational skills.\n- Strong analytical skills and a customer focus.\n- Knowledge or experience in concrete durability testing is desirable but not essential.\nAbout Boral\nWe are Australia’s leading vertically integrated construction materials solution provider and have been helping to build and enable a strong, modern Australia for more than 75 years. Our integrated network includes upstream assets – quarries, cement operations and our bitumen JV - and downstream operations across, recycling, concrete and concrete placing and asphalt.\nOur people provide solutions to help customers and stakeholders build a sustainable future in a changing world. Our values are what matters to us and guide our behaviours: Safety, Teamwork, Ambition, Accountability and Respect.\nWe’re proud of our legacy as a great Australian business and have a strong foundation to improve and continue fulfilling our purpose and what we do best - building something great.\nBoral values and is committed to creating a diverse working environment and is proud to be an equal opportunity employer. All suitable applicants will receive consideration for employment without regard to race, colour, religion, gender identity or expression, sexual orientation, disability or age.?",
+ "created_by": "Grok"
+}

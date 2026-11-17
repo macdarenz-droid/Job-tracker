@@ -1,0 +1,34 @@
+{
+ "lane": "drafter",
+ "route": "SEEK",
+ "company": "Synergia Constructions",
+ "role": "Civil Engineering Draftperson",
+ "url": "https://www.seek.com.au/job/95911889",
+ "seek_id": "95911889",
+ "advert_pay": "$80,000 – $90,000 per year",
+ "closes_at": "2026-12-17",
+ "closes_source": "listing_expiry",
+ "sponsorship_signal": "",
+ "location": "St Clair, Adelaide SA",
+ "listed_at": "2026-11-16",
+ "fit": 70,
+ "resume_variant": "drafter",
+ "relocation_line": "I will relocate to Adelaide for this role and can start two weeks after an offer.",
+ "application_type": "ADVERTISED_VACANCY",
+ "questions": [
+  "Which of the following statements best describes your right to work in Australia?",
+  "What's your expected annual base salary?",
+  "How many years' experience do you have as an Engineering Draftsperson?",
+  "How much notice are you required to give your current employer?",
+  "How many years experience in Structural Design do you have?",
+  "Do you have Engineering Drawing Interpretation experience?"
+ ],
+ "verify_before_submit": [
+  "Confirm advert still open"
+ ],
+ "notes": "Advert asks for experience preparing civil or architectural documentation but states no years. Software only AutoCAD, Civil 3D, Revit (academic).",
+ "source_run": "20261117T212822Z",
+ "cover_letter_text": "Hi Synergia team,\n\nI'm Marc. I graduated in February 2026 with an Advanced Diploma of Civil Construction Design, and I'd like to start out as a civil draftsperson. Preparing civil documentation for residential and commercial jobs is the work I trained for.\n\nDuring the course I drew roads, earthworks and stormwater drainage in AutoCAD and Civil 3D. Before that, on site in the Philippines, I was the one reviewing drawings against the work and doing site inspections.\n\nI'd move to Adelaide and can start two weeks after an offer. I have full working rights in Australia (Subclass 485 visa) and a full Victorian driver's licence. Happy to chat any time.\n\nKind regards,\nMarc Masarate",
+ "advert_text": "About the role\nJoin Synergia Constructions in St Clair, SA, as a Civil Engineering Draftsperson preparing accurate civil engineering and architectural documentation to support residential, commercial and civil construction projects.\nKey responsibilities\n- Prepare detailed civil engineering and architectural documentation for residential, commercial and civil construction projects.\n- Develop and update technical drawings, plans and documentation in line with project requirements.\n- Collaborate with engineers, architects, project managers and construction teams to coordinate design information.\n- Undertake periodical site inspections to make sure site works adhere to documentations and project requirements.\n- Review documentation for accuracy, consistency and compliance with relevant standards and project specifications.\n- Manage drawing revisions and maintain organised project documentation.\nWhat we're looking for\n- Experience preparing civil engineering or architectural documentation.\n- Proficiency with relevant computer-aided design and drafting software.\n- Strong understanding of technical drawings, plans and construction documentation.\n- High attention to detail and a commitment to producing accurate work.\n- Effective communication and collaboration skills.\n- The ability to manage priorities and meet project deadlines.",
+ "created_by": "Grok"
+}
