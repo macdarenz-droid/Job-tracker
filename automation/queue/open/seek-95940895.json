@@ -1,0 +1,75 @@
+{
+ "id": "seek-95940895",
+ "lane": "drafter",
+ "route": "SEEK",
+ "application_type": "ADVERTISED_VACANCY",
+ "company": "Subdivisions (Qld) Pty Ltd",
+ "role": "Graduate Engineer",
+ "location": "Nambour, Sunshine Coast QLD",
+ "url": "https://www.seek.com.au/job/95940895",
+ "seek_id": "95940895",
+ "listed_at": "2026-11-17",
+ "closes_at": "2026-12-17",
+ "closes_source": "listing_expiry",
+ "fit": 80,
+ "sponsorship_signal": "",
+ "regional": true,
+ "resume_variant": "drafter",
+ "relocation_line": "I will relocate to the Sunshine Coast for this role and can start two weeks after an offer.",
+ "cover_letter_text": "Hi Subdivisions (Qld) team,\n\nI'm Marc. I hold a Bachelor of Science in Civil Engineering, and in February 2026 I finished an Advanced Diploma of Civil Construction Design. Helping prepare civil design drawings for land subdivisions is exactly what I want to do next.\n\nIn the diploma I drew roads, earthworks and stormwater drainage in AutoCAD and Civil 3D. On site in the Philippines I worked on residential subdivision finishing works, reviewing drawings, checking quality and writing progress reports.\n\nI'd move to the Sunshine Coast and can start two weeks after an offer. I have full working rights in Australia (Subclass 485 visa) and a full Victorian driver's licence. Happy to chat any time.\n\nKind regards,\nMarc Masarate",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [
+  {
+   "question": "Which of the following statements best describes your right to work in Australia?",
+   "options": [],
+   "answer": "Subclass 485 Temporary Graduate visa with full working rights until December 2027.",
+   "basis": "answers.right_to_work.free_text",
+   "status": "answered"
+  },
+  {
+   "question": "How many years of Engineering Drafting experience do you have?",
+   "options": [],
+   "answer": "",
+   "basis": "answers.years_of_experience",
+   "status": "unanswered"
+  },
+  {
+   "question": "Do you have Project Delivery experience?",
+   "options": [],
+   "answer": "",
+   "basis": "answers.experience_yes_no",
+   "status": "unanswered"
+  },
+  {
+   "question": "Which of the following CAD software do you have experience with?",
+   "options": [],
+   "answer": "AutoCAD, Civil 3D, Revit",
+   "basis": "answers.software.CAD",
+   "status": "answered"
+  },
+  {
+   "question": "Have you completed a qualification in civil engineering?",
+   "options": [],
+   "answer": "Yes: Bachelor of Science in Civil Engineering (2019)",
+   "basis": "answers.qualification_questions.civil engineering",
+   "status": "answered"
+  }
+ ],
+ "status": "ASK_OWNER",
+ "ask_owner": "No standing answer for 2 form questions: How many years of Engineering Drafting experience do you have? | Do you have Project Delivery experience?",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "Grok",
+ "created_at": "2026-11-17T21:37:53Z",
+ "source_run": "20261117T212822Z",
+ "notes": "Graduate engineer role whose duties are subdivision design drawings. 12d ideal, not essential.",
+ "advert_pay": "not stated",
+ "verify_before_submit": [
+  "Confirm advert still open; 12d and AutoCAD proficiency only ideal: tick AutoCAD, Civil 3D, Revit only, never 12d"
+ ]
+}
