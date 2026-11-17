@@ -39,6 +39,13 @@
    "result": "reopened",
    "note": "owner: go (17 Nov 2026), clear the held jobs. Advert re-read on SEEK today and saved in this run folder; it asks for applications by email to this address with the subject Graduate Engineer Application; no bar found (question was: The advert text for this job (J&P Building Solutions, Graduate Civil/Structural Engineer, SEEK 95352132, closes 18 Nov) was never saved in the repo, so it cannot be screened, no letter can be written, and the address admin@jpbs.com.au cannot be confirmed as the one the advert gives. Should a runner re-read the advert on SEEK and save it, or should this one be dropped? Answer: re-read or drop.)",
    "run": "20261117T000946Z"
+  },
+  {
+   "at": "2026-11-17T00:11:20Z",
+   "by": "Claude",
+   "result": "started",
+   "note": "",
+   "run": "20261117T000946Z"
   }
  ],
  "receipt": {},
