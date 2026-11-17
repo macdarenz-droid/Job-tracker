@@ -23,9 +23,19 @@
   "body": "",
   "evidence_url": ""
  },
- "questions": [],
- "status": "OPEN",
- "ask_owner": "",
+ "questions": [
+  {
+   "question": "By continuing, you agree that you have read our Privacy Statement",
+   "options": [
+    "checkbox"
+   ],
+   "answer": "",
+   "basis": "",
+   "status": "unanswered"
+  }
+ ],
+ "status": "ASK_OWNER",
+ "ask_owner": "No standing answer for this form question: By continuing, you agree that you have read our Privacy Statement (options: checkbox)",
  "attempts": [
   {
    "at": "2026-11-17T21:42:34Z",
@@ -33,6 +43,12 @@
    "result": "started",
    "note": "",
    "run": "20261117T212822Z"
+  },
+  {
+   "at": "2026-11-17T21:43:41Z",
+   "by": "Grok",
+   "result": "asked_owner",
+   "note": "form question with no standing answer: By continuing, you agree that you have read our Privacy Statement"
   }
  ],
  "receipt": {},
