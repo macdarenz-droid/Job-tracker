@@ -79,13 +79,32 @@ Covered (facts.json -> answers unless another block is named):
   travel overseas; FIFO or rosters with night shifts. Sponsorship "long term", "permanently" or after the visa is a
   future-sponsorship question; "to start" in a sponsorship question is now, not a start date.
   qualifications     as answers.qualification_questions say; "What qualifications do you hold?" (free text): the
-                     qualifications in education, with their years
+                     qualifications in education, with their years. A Yes whose options are qualification levels and no
+                     plain Yes ('Yes, Certificate I' ... 'Yes, Bachelor Degree' ... 'Yes, Doctoral Degree'): the one
+                     option naming the level of his highest qualification behind that Yes (education; for engineering
+                     the Bachelor of Science in Civil Engineering: 'Yes, Bachelor Degree'), never Honours, Master or
+                     higher; that level not offered once: unanswered (_level_option)
+  credentials        'Do you have / hold <a formal credential>?' (17 Nov 2026): No, when qualification_questions ->
+                     'any other named qualification' says otherwise No and every alternative is either '<level> in/of
+                     <field>' whose field shares no word with what he holds ('a Certificate III in Laboratory Skills'), a
+                     Masters or doctoral degree (none in education), or a licence or ticket TICKETS names ('a forklift
+                     licence', 'a First Aid certificate') that facts.json does not mention. Not: a credential described
+                     rather than named ('an overseas degree', 'a site safety ticket'), an abbreviation or unit code (BSc,
+                     CIC, CPCWHS1001, WWCC), a document that is no qualification (an English test, a vaccination
+                     certificate), a level with no field, Honours, a driving licence of any class, 'or equivalent',
+                     experience, skills or software, or anything a rule above answers (White Card, driver's licence)
   years              as answers.years_of_experience say: a plain engineering title or the construction industry, the
                      option holding 11 months; other roles, the lowest option
   software           AutoCAD, Civil 3D and Revit only (other known tools: No); Microsoft Office products: unanswered
   experience yes/no  only the activities answers.experience_yes_no names
   declarations       true and correct, privacy policy or collection notice, consent to reference, qualification or
-                     police checks: Yes. Any other declaration or consent: unanswered
+                     police checks: Yes, the one option that agrees and nothing more ('I agree', 'checked', or an option
+                     that repeats the declaration word for word: 'I accept the Privacy Statement'). Only a declaration whose
+                     every word is one DECLARATION_WORDS lists. Any other declaration or consent: unanswered, among them
+                     terms or conditions of anything, marketing in other words (job alerts, a talent pool, being contacted
+                     about other roles), details passed to partners, clients or related companies, a cost to him, a
+                     further test or agreement (DECLARATION_MORE), a further clause or object ('... and agree to work
+                     weekends'), an employer's name
   referees           free text "Available on request", never a name. Location: free text identity.location
   contact fields     free text, a form's own label for his details and nothing more (CONTACT_FIELDS): "First" or "First
                      name" (the first word of identity.name, when it is identity.short_name), "Last" or "Surname" (the
@@ -136,6 +155,10 @@ TRAPS = re.compile(
 # insurance', 'including night shifts'. Matched on the question with the subject's own words replaced by 'qq'.
 JOIN = re.compile(r'(?:\b(?:and|plus|as well as|along with|together with|including|incl|with (?:a|an|comprehensive|current|valid|full|your|own|no))\b|[/&])'
                   r'\s*(?:(?:a|an|the|your|own|current|valid|full)\s+)*+(?!qq\b)[a-z]')
+# The same join with the other requirement first: 'a First Aid certificate and a qq' (17 Nov 2026: 'Do you have a First Aid
+# certificate and a White Card?' had been answered Yes from the White Card alone).
+JOIN_BEFORE = re.compile(r'\b(?!(?:have|hold|possess|own|a|an|the|your|current|valid|full|you|do|are|is|and|or)\b)[a-z]+\s*'
+                         r'(?:\b(?:and|plus|as well as)\b|[/&])\s*(?:(?:a|an|the|your|own|current|valid|full)\s+)*+qq\b')
 # Something already done: facts.json records only willingness for medicals, tests, relocation and travel.
 PAST = re.compile(r'^(?:have|has|had|did) you\b|\b(?:obtained|completed|undergone|undertaken|passed|relocated|travel+ed)\b')
 OWN_COST = re.compile(r'own (?:cost|expense)|at (?:your|my|their) (?:own )?(?:cost|expense)|without (?:any )?(?:relocation )?(?:assistance|support|package|allowance)'
@@ -316,7 +339,7 @@ def _also(q, pattern):
     rest = re.sub(r'\band\s*/\s*or\b', 'or', rest)   # 'and/or' offers a choice, it adds nothing
     rest = re.sub(r'(?:' + pattern + r')[\w-]*', ' qq ', rest)
     rest = re.sub(r'\bqq\b(?:\s*(?:and|&|/|or|,)\s*(?:(?:a|an|the|your)\s+)?qq\b)+', 'qq', rest)
-    m = JOIN.search(rest)
+    m = JOIN.search(rest) or JOIN_BEFORE.search(rest)
     return ' '.join(rest[m.start():].replace('qq', '...').split()[:6]) if m else ''
 
 
@@ -395,6 +418,42 @@ def salary_range(option):
 
 AGREE = ('yes', 'i agree', 'agree', 'i acknowledge', 'acknowledge', 'acknowledged', 'i consent', 'consent', 'i accept', 'accept',
          'i confirm', 'confirm', 'confirmed', 'true')
+# Terms and conditions, of use or of anything else, are not among the declarations facts.json -> answers ->
+# declarations_and_consents approves ('the terms of the Privacy Statement' are the privacy statement's own).
+TERMS = re.compile(r'\bterms (?:and|&) conditions\b|\bterms of (?:use|service)\b|\bt ?& ?cs?\b|\bterms\b(?! of (?:the |this |our |your )?privacy)'
+                   r'|\bconditions\b|\beula\b|user agreement')
+# What else a declaration may ask that facts.json does not approve, besides the subjects _declaration names (17 Nov 2026):
+# marketing in other words, passing his details on, a cost to him, a further assessment or agreement.
+DECLARATION_MORE = re.compile(r'newsletter|subscri|promot|job alert|\balerts?\b|\bupdates?\b|talent (?:pool|community|network|bank|database)'
+                              r'|mailing list|\bsms\b|text messages?|future (?:roles?|opportunit|positions?|vacanc|jobs?|employment)'
+                              r'|other (?:roles?|opportunit|positions?|vacanc|jobs?|employers?)|contact(?:ed)? (?:me|you)\b|partners?\b|affiliat'
+                              r'|related (?:bodies|body|entit|compan)|subsidiar|\bclients?\b|transferr?|\bsold\b|\bsell|passed (?:on )?to|\bgroup\b'
+                              r'|\bcosts?\b|expense|\bfees?\b|\bpay\b|\bpaid\b|deduct|psychometric|aptitude|\bvideo|recording|biometric|\bai\b'
+                              r'|artificial intelligence|automated|code of conduct|agreement|contract|non.?compete|restraint|probation'
+                              r'|working with children|\bwwcc\b|vulnerable|job description|selection criteria')
+# 'and (I) agree to', 'and to', 'and consent to' ...: the start of a further clause of a declaration.
+DECLARATION_CLAUSE = re.compile(r'\band\s+(?:i\s+)?(?:also\s+)?(?=(?:agree|consent|accept|acknowledge|confirm|declare|certify|authori[sz]e'
+                                r'|understand|undertake|will|to)\b)')
+# A clause of these words only declares; it says nothing of its own.
+DECLARING = {'i', 'we', 'also', 'hereby', 'have', 'read', 'and', 'understood', 'understand', 'accept', 'agree', 'acknowledge', 'consent',
+             'confirm', 'declare', 'certify', 'authorise', 'authorize'}
+# The words an approved declaration may hold (17 Nov 2026): the approved subjects, the words that declare them, the usual
+# consequence of a false declaration ('... to the best of my knowledge, and that any incorrect or misleading information
+# may lead to disqualification, or if appointed, to termination of employment') and the usual lead-in to a check ('Certain
+# roles require a criminal history check to be performed as part of the recruitment process ... willing to participate').
+# Any other word is something more ('I accept the Privacy Statement and agree to work weekends', '... of <employer>'):
+# the owner's, whatever the options. A tick box ('checked') and an option repeating the declaration agree like 'I agree'.
+DECLARATION_WORDS = {'i', 'we', 'you', 'us', 'do', 'please', 'a', 'an', 'have', 'read', 'and', 'understood', 'understand', 'accept', 'agree',
+                     'to', 'with', 'acknowledge', 'consent', 'confirm', 'declare', 'certify', 'that', 'the', 'this', 'our', 'your', 'my', 'all',
+                     'information', 'details', 'provided', 'given', 'supplied', 'submitted', 'in', 'application', 'is', 'true', 'correct',
+                     'complete', 'accurate', 'privacy', 'policy', 'statement', 'notice', 'collection', 'reference', 'references', 'referee',
+                     'check', 'checks', 'checking', 'qualification', 'qualifications', 'verification', 'police', 'national', 'conducting',
+                     # the consequence of a false declaration
+                     'best', 'of', 'knowledge', 'any', 'incorrect', 'false', 'inaccurate', 'misleading', 'may', 'lead', 'result', 'or', 'if',
+                     'disqualification', 'appointed', 'termination', 'dismissal', 'employment',
+                     # the lead-in to a check
+                     'certain', 'role', 'roles', 'require', 'required', 'criminal', 'history', 'be', 'performed', 'as', 'part', 'recruitment',
+                     'process', 'for', 'shortlisted', 'candidate', 'candidates', 'are', 'aware', 'willing', 'participate', 'needed'}
 # The options that name his licence and nothing more: 'Full licence' and "Full driver's licence" say only what facts.json
 # holds; 'Yes - full licence with own car and trailer licence' says more.
 LICENCE_OPTIONS = ('yes', 'full', 'open', 'unrestricted', 'car', 'class c', 'automatic', 'full licence', 'full license',
@@ -418,19 +477,32 @@ def _declaration(q, opts, a):
                 'qualification': r'qualification (check|verification)|verify (my |your )?qualifications',
                 'police': r'police (check|certificate)|criminal history (check|screen)|national police'}
     named = [s for s, pattern in subjects.items() if re.search(pattern, q)]
-    if not named:
+    if not named and not TERMS.search(q):
         return None
     other = re.search(r'medical|health|drug|alcohol|disab|injur|criminal (record|history\b(?! (check|screen)))|convict|offen[cs]e'
                       r'|marketing|third.part|\bshar(e|ing)\b|disclos|overseas|outside australia|agency|represent|enlist|military'
-                      r'|background check|credit|social media|\bever\b|suspend', q)
+                      r'|background check|credit|social media|\bever\b|suspend', q) or TERMS.search(q) or DECLARATION_MORE.search(q)
     if other:
         return _no(f'a declaration or consent facts.json does not approve ("{other.group(0)}")', 'answers.declarations_and_consents')
+    # A further promise joined to an approved one ('I accept the Privacy Statement and agree to work weekends', '... and to
+    # being contacted by recruiters'): every clause must name an approved subject (17 Nov 2026).
+    clauses = [c for c in DECLARATION_CLAUSE.split(q) if not set(re.findall(r'[a-z]+', c)) <= DECLARING]   # 'I acknowledge and agree to ...'
+    if not all(any(re.search(pattern, c) for pattern in subjects.values()) for c in clauses):
+        return _no('a further declaration or consent is joined to an approved one: facts.json approves only the subjects it names',
+                   'answers.declarations_and_consents')
+    extra = sorted(set(re.findall(r'[a-z]+', q)) - DECLARATION_WORDS)
+    if extra:
+        return _no(f'the declaration holds more than the subjects facts.json approves ("{" ".join(extra[:4])}")',
+                   'answers.declarations_and_consents')
     approved = re.split(r'any other', str(a.get('declarations_and_consents') or ''), flags=re.I)[0].lower()
     if not approved.startswith('yes') or not all(s.split()[0] in approved for s in named):
         return _no('facts.json -> answers -> declarations_and_consents does not approve this', 'answers.declarations_and_consents')
     if not opts:
         return _ok('Yes', 'answers.declarations_and_consents')
-    hits = [o for o in opts if plain_option(o, *AGREE)]   # 'Yes, and I agree to receive marketing emails' is not one
+    # 'Yes, and I agree to receive marketing emails' is not one. A tick box ('checked') agrees, and so does an option whose
+    # label is the declaration itself ('I accept the Privacy Statement': question and option the same words, in his own voice).
+    own = re.match(r'i (acknowledge|consent|agree|declare|confirm|certify|understand|accept|authori[sz]e)\b', q)
+    hits = [o for o in opts if plain_option(o, *AGREE, 'checked') or (own and norm(o).rstrip(' ?.:!') == q)]
     return _ok(hits[0], 'answers.declarations_and_consents') if len(hits) == 1 else _no('no single option agrees', 'answers.declarations_and_consents')
 
 
@@ -1002,40 +1074,217 @@ def _qualification(q, opts, a, facts):
             names[f'{pair.group(1)} {pair.group(2)}'] = names[f'{pair.group(1)} {pair.group(3)}'] = key
     held = [str(e.get('qualification') or '').lower() for e in facts.get('education') or []]
     words = lambda text: set(re.findall(r'[a-z]{4,}', text))
-    found = []   # (head, basis) of each alternative the question names
+    found = []   # (head, basis, part) of each alternative the question names
     # 'X / Y' is one field (SEEK's 'engineering drafting / engineering design'): every part must say the same.
     # 'X, Y or Z' offers alternatives: one Yes is enough.
     every = '/' in m.group('x')
     for part in (p.strip() for p in re.split(r'\s*/\s*' if every else r'\s*(?:,|\band/or\b|\bor\b)\s*', m.group('x')) if p.strip()):
         part = re.sub(r'^(an?|the) ', '', part)
         if re.search(r'equivalent|related|similar|^other\b', part):
-            found.append(('', ''))
+            found.append(('', '', part))
         elif part in names and not (degree and not re.search(r'bachelor|degree', str(known[names[part]]), re.I) and names[part] not in ('engineering', 'civil engineering')):
-            found.append((_head(known[names[part]]), 'answers.qualification_questions.' + names[part]))
+            found.append((_head(known[names[part]]), 'answers.qualification_questions.' + names[part], part))
         elif other not in known:
-            found.append(('', ''))
+            found.append(('', '', part))
         elif len(part.split()) > 1 and any(re.search(r'\b' + re.escape(part) + r'\b', h) for h in held) and not degree:
-            found.append(('Yes', 'answers.qualification_questions.' + other))   # named, whole, in the title of one he holds
-        elif words(part) and not words(part) & words(' '.join(held)):
-            found.append(('No', 'answers.qualification_questions.' + other))    # nothing he holds shares a word with it
+            found.append(('Yes', 'answers.qualification_questions.' + other, part))   # named, whole, in the title of one he holds
+        elif words(part) and not words(part) & words(' '.join(held + [k for k in known if k != other])):
+            found.append(('No', 'answers.qualification_questions.' + other, part))    # nothing he holds shares a word with it
+            # (17 Nov 2026: nor a field qualification_questions answers: 'a qualification in drafting' is not No)
         else:
-            found.append(('', ''))   # shares a word with his own ('science', 'construction management'): not guessed
-    yes = [b for h, b in found if h == 'Yes']
-    if every and not all(h == 'Yes' for h, _ in found):
+            found.append(('', '', part))   # shares a word with his own ('science', 'construction management'): not guessed
+    yes = [(b, p) for h, b, p in found if h == 'Yes']
+    if every and not all(h == 'Yes' for h, _, _ in found):
         yes = []
     if yes:
-        head, basis = 'Yes', yes[0]
-    elif found and all(h == 'No' for h, _ in found):
+        head, basis = 'Yes', yes[0][0]
+    elif found and all(h == 'No' for h, _, _ in found):
         head, basis = 'No', found[0][1]
     else:
         return _no('a qualification facts.json -> answers -> qualification_questions does not name', 'answers.qualification_questions')
     if not yes_no_question(q):
         return _no('not a yes/no question', basis)
     pick = _choose(head, opts)
+    if not pick and head == 'Yes' and opts:   # 'Yes, Certificate I' ... 'Yes, Bachelor Degree': the level of the one he holds
+        pick = _level_option(yes, known, facts, opts)
+        if not pick and any(_option_level(o) for o in opts):
+            return _no('the options are qualification levels, and no single one is the level of the qualification he holds '
+                       '(facts.json -> education): never a higher or a lower one', basis)
     if not pick:
         return _no(f'no single option says {head}', basis)
     value = str(known.get(basis.rsplit('.', 1)[1], '')) if basis.endswith(tuple(known)) else ''
     return _ok(pick if opts else (value if _head(value) == head and value.startswith(head + ':') else head), basis)
+
+
+# Qualification levels as a form lists them after 'Yes, ' (SEEK: 'Yes, Certificate I' ... 'Yes, Doctoral Degree'), lowest
+# first. An option is a level only when its words, after a leading Yes, are one of these and nothing more.
+LEVELS = [('certificate i', r'certificate (?:i|1)'), ('certificate ii', r'certificate (?:ii|2)'),
+          ('certificate iii', r'certificate (?:iii|3)'), ('certificate iv', r'certificate (?:iv|4)'), ('diploma', r'diploma'),
+          ('advanced diploma', r'advanced diploma'), ('associate degree', r'associate degree'),
+          ('bachelor', r"bachelor(?:'?s)?(?: degree)?"),
+          ('honours', r"bachelor(?:'?s)?(?: degree)? ?\(?(?:with )?honou?rs\)?|honou?rs(?: degree)?"),
+          ('graduate certificate', r'graduate certificate'), ('graduate diploma', r'graduate diploma'),
+          ('master', r"master(?:'?s)?(?: degree)?"), ('doctoral', r'doctoral(?: degree)?|doctorate|ph\.? ?d')]
+
+
+def _option_level(option):
+    """The level an option names and nothing more ('Yes, Bachelor Degree' -> 'bachelor'), or None."""
+    o = re.sub(r'^yes\b[\s,.:;-]*', '', norm(option)).rstrip(' .')
+    return next((name for name, pattern in LEVELS if re.fullmatch(pattern, o)), None)
+
+
+def _title_level(title):
+    """The level of a qualification he holds, from its title in facts.json -> education ('Bachelor of Science in Civil
+    Engineering (BSCE)' -> 'bachelor'), or None."""
+    t = norm(title)
+    for name, pattern in reversed(LEVELS):
+        if re.match(r'(?:' + pattern + r')\b', t):
+            return 'honours' if name == 'bachelor' and re.search(r'honou?rs', t) else name
+    return None
+
+
+def _level_option(yes, known, facts, opts):
+    """The one option naming the level of his highest qualification behind a Yes, or ''. yes: (basis, part) of each Yes the
+    question got; a qualification in facts.json -> education is behind it when its title holds the field asked
+    ('engineering' in 'Bachelor of Science in Civil Engineering') or the qualification_questions line names it. Only the
+    level he holds: a lower one ('Yes, Diploma') is not what he has, a higher one ('Masters Degree') is not true."""
+    ranks = [name for name, _ in LEVELS]
+    held = []
+    for basis, part in yes:
+        line = norm(known.get(basis.rsplit('.', 1)[1], ''))
+        for e in facts.get('education') or []:
+            title = norm(e.get('qualification'))
+            bare = re.sub(r'\s*\([^)]*\)', '', title)
+            if title and (re.search(r'\b' + re.escape(part) + r'\b', title) or (bare and bare in line)):
+                held.append(_title_level(title))
+    if not held or None in held:
+        return ''
+    top = max(held, key=ranks.index)
+    hits = [o for o in opts if _option_level(o) == top]
+    return hits[0] if len(hits) == 1 else ''
+
+
+# 'Do you have a Certificate III in Laboratory Skills?' (17 Nov 2026). No only to a formal credential the question names in
+# one of two shapes, every alternative ('X or Y') on its own:
+#  - a qualification with a field of its own, '<level> in/of <field>' ('a Certificate III in Laboratory Skills', 'a Diploma
+#    of Surveying'), the field sharing no word with what he holds (_held_words); or a Masters or doctoral degree when
+#    facts.json -> education holds nothing at that level;
+#  - a licence or ticket TICKETS names ('a forklift licence', 'a First Aid certificate') that facts.json does not mention.
+# Never this rule's (the owner's): a credential described rather than named ('an overseas degree', 'a STEM degree', 'a 4
+# year degree', 'a site safety ticket', 'an AQF certificate'), an abbreviation or unit code (BSc, Adv Dip, CIC,
+# CPCWHS1001, WWCC, NPC), a document that is no qualification (an English test, a vaccination, birth or insurance
+# certificate), a level with no field ('a Diploma', 'a Bachelor degree'), Honours, a driving licence of any class (HR, MR,
+# truck: facts.json does not record his licence class), an alternative left open, experience, skills or software.
+CREDENTIAL_ASK = re.compile(r'do you (?:currently )?(?:have|hold|possess) (?P<x>.+)')
+CREDENTIAL_PREFIX = r'(?:(?:a|an|the|current|valid|completed)\s+)*'
+QUALIFICATION_NAMED = re.compile(
+    CREDENTIAL_PREFIX + r"(?P<level>cert(?:ificate)?\.? ?(?:iv|i{1,3}|[1-4])|advanced diploma|diploma|associate degree"
+    r"|graduate (?:certificate|diploma)|bachelor(?:'?s)?(?: degree)?|master(?:'?s)?(?: degree)?|doctoral degree|doctorate|ph\.? ?d)"
+    r"(?: (?:in|of) (?P<field>[a-z]+(?: (?:[a-z]+|&)){0,6}))?(?: \((?P<code>[a-z]{2,6}\d{3,6})\))?")
+# Licences and tickets a form may name that are formal credentials and none of his (a site, plant or laboratory ticket).
+TICKETS = (r'(?:provide |senior |basic )?first aid(?: and cpr)?|cpr|forklift|confined spaces?(?: entry)?|(?:working|work) (?:safely )?at heights?'
+           r'|heights|elevated work(?:ing)? platform|ewp|boom lift|scissor lift|dogging|rigging|scaffolding|crane|asbestos(?: removal| awareness)?'
+           r'|gas test(?:ing)?(?: of)? atmospheres|nuclear (?:gauge|densometer|(?:moisture )?density gauge)|radiation(?: safety| use| user)?'
+           r'|traffic (?:control|management)(?: implementation)?|excavator|skid steer|backhoe|front end loader|roller|grader|dozer|high risk work')
+TICKET_NAMED = re.compile(CREDENTIAL_PREFIX + r'(?P<ticket>' + TICKETS + r') (?:licen[cs]e|ticket|certificate|certification|card|accreditation)'
+                          r'(?: \((?P<code>[a-z]{2,6}\d{0,6})\))?')
+# Words a field may not hold: an open or described field ('a related field', 'an accredited ...'), a second item, a place.
+FIELD_STOP = {'a', 'an', 'the', 'or', 'any', 'other', 'related', 'relevant', 'similar', 'equivalent', 'field', 'fields', 'discipline',
+              'disciplines', 'area', 'areas', 'appropriate', 'suitable', 'recognised', 'recognized', 'accredited', 'australian', 'australia',
+              'overseas', 'international', 'foreign', 'higher', 'above', 'etc', 'from', 'with', 'at', 'by', 'for', 'like', 'such', 'as',
+              'eg', 'ie', 'including', 'plus', 'minimum', 'least', 'licence', 'license', 'ticket', 'certificate', 'card', 'degree', 'diploma',
+              'software', 'computer', 'autodesk', 'microsoft', 'cad'}
+# Fields next to his own (Bachelor of Science in Civil Engineering; Advanced Diploma of Civil Construction Design): a
+# qualification in one of them is never answered No here.
+HELD_FIELD_KIN = {'engineering', 'engineer', 'civil', 'construction', 'design', 'drafting', 'science', 'infrastructure', 'cad'}
+# The unit code of the White Card (Construction Induction).
+WHITE_CARD_CODE = re.compile(r'cpcc?whs1001')
+CREDENTIAL_NOT_THIS = re.compile(r'equivalent|related|similar|\bor (?:higher|above|other|more)\b|\bhigher\b|\babove\b|experience|knowledge'
+                                 r'|understanding|familiar|abilit|skills? (?:in|with|to)\b|software|\bcad\b|autodesk|microsoft|\boffice\b'
+                                 r'|\b(?:or|and) (?:are|do|would|will|can|could|have|has|is|if)\b|willing|prepared|happy to|able to|obtain'
+                                 r'|toward|studying|enrol|progress|intend|plan(?:ning)? to|\bget\b|\bif not\b')
+# A driving licence in other words ('a manual licence', 'a full licence', 'a C class licence', 'a NSW licence', 'an HR
+# licence'): the licence rule's subject, never this one's.
+DRIVING = re.compile(r'driv|\bcar\b|vehicle|\bclass\b|\bmanual\b|\bauto(?:matic)?\b|\bfull\b|\bopen\b|unrestricted|provisional|probationary'
+                     r'|learner|\bp ?plates?\b|\bp[12]\b|motor|victorian|\bvic\b|australian|heavy|truck|rigid|combination|\bbus\b'
+                     r'|\b(?:hr|mr|hc|lr|mc)\b|' + STATES)
+
+
+def _held_text(facts, a):
+    """Everything facts.json says he holds or has done, as one lower-case text: education (titles, codes, points),
+    eligibility, and the names of the answers and of the fields answers -> qualification_questions answers."""
+    parts = []
+    for e in facts.get('education') or []:
+        parts += [str(e.get('qualification') or ''), str(e.get('code') or ''), ' '.join(str(p) for p in e.get('points') or [])]
+    for value in (facts.get('eligibility') or {}).values():
+        parts += [str(v) for v in value] if isinstance(value, list) else [str(value)]
+    parts += [k.replace('_', ' ') for k in a if not k.startswith('_')]
+    parts += [k for k in (a.get('qualification_questions') or {}) if not k.startswith('_')]
+    return norm(' '.join(parts))
+
+
+def _stems(text):
+    return {w[:-1] if len(w) > 4 and w.endswith('s') else w for w in re.findall(r'[a-z0-9]+', text)}
+
+
+def _held_words(facts, a):
+    """The words of what he holds, for a field: his qualification titles and codes, his licence, White Card, Working with
+    Children Check and police check in eligibility, the fields answers -> qualification_questions answers, and the fields
+    next to his own (HELD_FIELD_KIN)."""
+    e = facts.get('eligibility') or {}
+    texts = [str(x.get('qualification') or '') + ' ' + str(x.get('code') or '') for x in facts.get('education') or []]
+    texts += [str(e.get(k) or '') for k in ('drivers_licence', 'drivers_licence_detail', 'white_card', 'wwcc', 'police_check')]
+    texts += [k for k in (a.get('qualification_questions') or {}) if not k.startswith('_') and k != 'any other named qualification']
+    return _stems(norm(' '.join(texts))) | HELD_FIELD_KIN
+
+
+def _not_held(part, facts, a):
+    """True when part names one formal credential he clearly does not hold (see above), else False."""
+    ranks = [name for name, _ in LEVELS]
+    m = QUALIFICATION_NAMED.fullmatch(part)
+    if m:
+        level = re.sub(r'^cert(?:ificate)?\.? ?', 'certificate ', m.group('level'))
+        level = next((name for name, pattern in LEVELS if re.fullmatch(pattern, level)), None)
+        code, field = m.group('code'), m.group('field') or ''
+        if not level or (code and (code in _held_text(facts, a) or WHITE_CARD_CODE.fullmatch(code))):
+            return False
+        held = [_title_level(str(e.get('qualification') or '')) for e in facts.get('education') or []]
+        if level in ('master', 'doctoral'):   # a level above every one he holds: whatever its field
+            return not any(h is None or ranks.index(h) >= ranks.index(level) for h in held) and \
+                not any(re.search(r'master|doctor|ph\.? ?d', norm(e.get('qualification'))) for e in facts.get('education') or [])
+        words = field.split()
+        if not words or set(words) & FIELD_STOP or OFFICE_PRODUCTS.search(field) or (_stems(field) - {'and'}) & _held_words(facts, a):
+            return False
+        return not any(re.search(r'(?<![a-z0-9])' + re.escape(t.lower()) + r'(?![a-z0-9])', field) for t in KNOWN_TOOLS + sorted(HIS_TOOLS))
+    m = TICKET_NAMED.fullmatch(part)
+    if m:
+        text, code = _held_text(facts, a), m.group('code')
+        if re.search(r'\b(?:' + TICKETS + r')\b', text) or (code and (code in text or WHITE_CARD_CODE.fullmatch(code))):
+            return False
+        return True
+    return False
+
+
+def _credential_not_held(q, opts, a, facts):
+    """No to 'Do you have / hold <a formal credential he clearly does not hold>?' (see above) when facts.json lists his
+    credentials completely (answers -> qualification_questions -> 'any other named qualification': only one in education
+    or eligibility; otherwise No). None for anything else: the rules above answer what he holds, the rest is the owner's."""
+    m = CREDENTIAL_ASK.fullmatch(q)
+    if not m or CREDENTIAL_NOT_THIS.search(m.group('x')) or not yes_no_question(q):
+        return None
+    x = re.sub(r'\band\s*/\s*or\b', 'or', m.group('x'))
+    if re.search(r'licen[cs]', x) and DRIVING.search(x):
+        return None
+    key = 'any other named qualification'
+    rule = str((a.get('qualification_questions') or {}).get(key) or '')
+    if not _settled(rule, q) or not re.search(r'\botherwise no\b', rule, re.I):
+        return None
+    parts = [p.strip() for p in re.split(r'\s*,\s*(?:or\s+)?|\s+or\s+|\s*/\s*', x)]
+    if not all(p and _not_held(p, facts, a) for p in parts):
+        return None
+    basis = 'answers.qualification_questions.' + key
+    pick = _choose('No', opts)
+    return _ok(pick, basis) if pick else _no('no single option says No', basis)
 
 
 def _qualifications_held(q, opts, facts):
@@ -1419,6 +1668,9 @@ def answer(question, options=None, facts=None, pay=None, today=None, entry=None)
     if re.fullmatch(r"what (relevant )?qualifications? do you (currently )?(hold|have)|what qualifications have you (completed|obtained)"
                     r"|please (list|provide|indicate) your (relevant )?qualifications?", q):
         return _qualifications_held(q, opts, facts)
+    credential = _credential_not_held(q, opts, a, facts)
+    if credential:
+        return credential
     software = _software(q, opts, a)
     if software:
         return software
