@@ -1,0 +1,61 @@
+{
+ "id": "seek-95938355",
+ "lane": "engineer",
+ "route": "SEEK",
+ "application_type": "ADVERTISED_VACANCY",
+ "company": "Pavement Asset Services Pty Ltd",
+ "role": "Graduate Civil Engineer or Civil Engineer (0 – 5 years’ experience)",
+ "location": "Hindmarsh, Adelaide SA",
+ "url": "https://www.seek.com.au/job/95938355",
+ "seek_id": "95938355",
+ "listed_at": "2026-11-17",
+ "closes_at": "2026-12-17",
+ "closes_source": "listing_expiry",
+ "fit": 75,
+ "sponsorship_signal": "",
+ "regional": true,
+ "resume_variant": "engineer",
+ "relocation_line": "I will relocate to Adelaide for this role and can start two weeks after an offer.",
+ "cover_letter_text": "Hi Pavement Asset Services team,\n\nI'm Marc. I hold a Bachelor of Science in Civil Engineering, and in February 2026 I finished an Advanced Diploma of Civil Construction Design. Your advert is open to graduates, and the road and pavement work you do is what I studied.\n\nIn the diploma I worked on road geometry, pavement design and earthworks, and studied the Austroads guides and AS 1289 soil testing standards. On site in the Philippines I did inspections and quality checks and wrote site and progress reports.\n\nI'd move to Adelaide and can start two weeks after an offer. I have full working rights in Australia (Subclass 485 visa) and a full Victorian driver's licence. Happy to chat any time.\n\nKind regards,\nMarc Masarate",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [
+  {
+   "question": "Which of the following statements best describes your right to work in Australia?",
+   "options": [],
+   "answer": "Subclass 485 Temporary Graduate visa with full working rights until December 2027.",
+   "basis": "answers.right_to_work.free_text",
+   "status": "answered"
+  },
+  {
+   "question": "Have you completed a qualification in civil engineering?",
+   "options": [],
+   "answer": "Yes: Bachelor of Science in Civil Engineering (2019)",
+   "basis": "answers.qualification_questions.civil engineering",
+   "status": "answered"
+  },
+  {
+   "question": "How would you rate your English language skills?",
+   "options": [],
+   "answer": "",
+   "basis": "answers.english_self_rating",
+   "status": "unanswered"
+  }
+ ],
+ "status": "ASK_OWNER",
+ "ask_owner": "No standing answer for this form question: How would you rate your English language skills?",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "Grok",
+ "created_at": "2026-11-17T21:37:59Z",
+ "source_run": "20261117T212822Z",
+ "notes": "Graduate or civil engineer 0-5 years, degree in civil engineering required (BSCE held). Pavement, geotech investigation and design.",
+ "advert_pay": "not stated",
+ "verify_before_submit": [
+  "Confirm advert still open"
+ ]
+}
