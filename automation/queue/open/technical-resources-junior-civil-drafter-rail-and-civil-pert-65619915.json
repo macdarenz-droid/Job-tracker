@@ -24,8 +24,8 @@
   "evidence_url": ""
  },
  "questions": [],
- "status": "ASK_OWNER",
- "ask_owner": "Pre-submit check needs a Gmail search for Technical Resources; Grok has no Gmail access. Claude runner or owner: run the Gmail check, then reopen.",
+ "status": "OPEN",
+ "ask_owner": "",
  "attempts": [
   {
    "at": "2026-11-15T21:47:04Z",
@@ -54,6 +54,13 @@
    "result": "asked_owner",
    "note": "Pre-submit check needs a Gmail search for Technical Resources; Grok has no Gmail access. Claude runner or owner: run the Gmail check, then reopen.",
    "run": "20261115T213212Z"
+  },
+  {
+   "at": "2026-11-17T00:12:28Z",
+   "by": "Claude",
+   "result": "reopened",
+   "note": "owner: go (17 Nov 2026), clear the held jobs. Claude ran the Gmail check in all folders: no earlier contact with Technical Resources (question was: Pre-submit check needs a Gmail search for Technical Resources; Grok has no Gmail access. Claude runner or owner: run the Gmail check, then reopen.)",
+   "run": "20261117T000946Z"
   }
  ],
  "receipt": {},
