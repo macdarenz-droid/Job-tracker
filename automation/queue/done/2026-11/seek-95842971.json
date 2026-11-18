@@ -182,5 +182,13 @@
  "created_at": "2026-11-13T00:40:00Z",
  "source_run": "20261112T1617Z",
  "notes": "Imported from the backlog of 2026-11-13 (old status HELD_MANDATORY_UNRESOLVED). Fit 70% is from the old rubric.\nThe advert lists a current Queensland driver's licence.",
- "advert_pay": "$80,000 – $115,000 per year"
+ "advert_pay": "$80,000 – $115,000 per year",
+ "outcomes": [
+  {
+   "kind": "rejected",
+   "at": "2026-11-18",
+   "by": "Claude",
+   "note": "SEEK status update: unlikely to progress further"
+  }
+ ]
 }
