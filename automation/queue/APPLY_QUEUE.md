@@ -10,17 +10,15 @@ Nothing open.
 
 Nothing open.
 
-## EMPLOYER_PORTAL (1 open)
+## EMPLOYER_PORTAL (0 open)
 
-| # | Lane | Company | Role | Location | Target | Closes | Link | Note |
-|---|---|---|---|---|---|---|---|---|
-| 1 | technician | Boral Ltd | Laboratory Technician | Winston Hills, Sydney NSW | not regional | 2026-12-15 (listing expiry) | [seek-95930847](https://www.seek.com.au/job/95930847) |  |
+Nothing open.
 
 ## EMPLOYER_FORM (0 open)
 
 Nothing open.
 
-## Waiting on the owner (16)
+## Waiting on the owner (17)
 
 - **Subdivisions (Qld) Pty Ltd, Graduate Engineer** (SEEK, drafter, regional, closes 2026-12-17, `seek-95940895`): No standing answer for 2 form questions: How many years of Engineering Drafting experience do you have? | Do you have Project Delivery experience?
 - **Synergia Constructions, Civil Engineering Draftperson** (SEEK, drafter, regional, closes 2026-12-17, `seek-95911889`): No standing answer for this form question: How many years experience in Structural Design do you have?
@@ -33,6 +31,7 @@ Nothing open.
 - **Martinus Rail, Graduate Engineer (Inland Rail, Albury to Parkes)** (EMPLOYER_PORTAL, engineer, regional, closes 2026-12-04, `seek-95695784`): No standing answer for 8 form questions: First Name (legal name shown on your Drivers Licence/Passport): | Surname (legal name shown on your Drivers Licence/Passport): | Residential Address: | Do you identify as an Aboriginal or Torres Strait Islander? (options: Yes / No) | What is your current residential address? | Have you previously worked for Martinus Rail? (options: Yes / No) | How did you hear about us? (options: Martinus Rail Website / LinkedIn / Seek / Facebook / Specific Project / Referred by a work colleague / Referred by a mate / Referred by someone at Martinus Rail / Recruitment agency / Other) | What is the earliest date you can start with us?
 - **Nassima Design Group, Civil Engineering Draftsperson** (EMPLOYER_PORTAL, drafter, not regional, closes not stated, `nassima-design-group-civil-engineering-draftsperson-7b2c2f1e`): No standing answer for this form question: By registering, you agree to our Terms & Conditions and Privacy Policy . You can review account deletion steps in our Account Deletion Policy . (options: checked / unchecked)
 - **Cement Australia Pty Limited, Trainee Laboratory Technician** (EMPLOYER_PORTAL, technician, not regional, closes 2026-12-16, `seek-95907851`): No standing answer for 4 form questions: Street | City, Town or Suburb | Postcode or Zipcode | State, Region or Province
+- **Boral Ltd, Laboratory Technician** (EMPLOYER_PORTAL, technician, not regional, closes 2026-12-15, `seek-95930847`): No standing answer for 3 form questions: Title: (options: Mr / Ms / Mrs / Miss / Mx) | Employment status: (options: Never employed or contracted by Boral / Previous contractor at Boral / Previous employee at Boral / Current contractor at Boral / Current employee at Boral) | Home address:
 - **Fulton Hogan, Trainee Lab Technician** (EMPLOYER_PORTAL, technician, not regional, closes not stated, `fulton-hogan-trainee-lab-technician-858b2e0e`): No standing answer for 8 form questions: How Did You Hear About Us? (options: Employees / Job Boards / Other / Website) | Have you been previously employed in Fulton Hogan? (e.g. Contractor or Employee). NOTE : If you are a current Fulton Hogan Employee please apply through our Internal Careers Site on theHub or contact your local HR support. (options: Yes / No) | Middle Name | Address Line 1 | Suburb/Locality | State or Territory (options: Australian Capital Territory / New South Wales / Northern Territory / Queensland / South Australia / Tasmania / Victoria / Western Australia) | Postal Code | Phone Device Type (options: Landline / Mobile)
 - **Coffey Testing Pty Ltd, Construction Materials Testing Technician, Entry-Level** (EMPLOYER_PORTAL, technician, not regional, closes 2026-11-20, `seek-95393367`): Employer site needs either a new account or the Apply with SEEK option, which asks to share his SEEK profile (career history, skills, default resume, email, phone) with Coffey via UKG. Allow that, or create an account with his own email?
 - **Chalouhi, Site Engineer** (SEEK, engineer, not regional, closes 2026-12-16, `seek-95904557`): No standing answer for 2 form questions: Are you currently living in Australia and have unrestricted working right? | Please detail your minimum salary expectations (excluding super):
