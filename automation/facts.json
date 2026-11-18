@@ -290,6 +290,21 @@
     "answer": "No experience",
     "date": "2026-11-14",
     "entry": "seek-95842971"
+   },
+   {
+    "question": "Yes I agree to the privacy statement",
+    "answer": "Yes",
+    "date": "2026-11-18",
+    "entry": "seek-95907851"
+   },
+   {
+    "question": "By continuing, you agree that you have read our Privacy Statement",
+    "answer": "checkbox",
+    "date": "2026-11-18",
+    "entry": "seek-95930847",
+    "options": [
+     "checkbox"
+    ]
    }
   ]
  }

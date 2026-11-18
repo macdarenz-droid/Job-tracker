@@ -27,9 +27,9 @@
   {
    "question": "Yes I agree to the privacy statement",
    "options": [],
-   "answer": "",
-   "basis": "",
-   "status": "unanswered"
+   "answer": "Yes",
+   "basis": "answers.owner_answers",
+   "status": "answered"
   },
   {
    "question": "Street",
@@ -61,7 +61,7 @@
   }
  ],
  "status": "ASK_OWNER",
- "ask_owner": "No standing answer for 5 form questions: Yes I agree to the privacy statement | Street | City, Town or Suburb | Postcode or Zipcode | State, Region or Province",
+ "ask_owner": "No standing answer for 4 form questions: Street | City, Town or Suburb | Postcode or Zipcode | State, Region or Province",
  "attempts": [
   {
    "at": "2026-11-17T21:39:56Z",
