@@ -46,8 +46,8 @@
    "status": "answered"
   }
  ],
- "status": "ASK_OWNER",
- "ask_owner": "Employer site needs either a new account or the Apply with SEEK option, which asks to share his SEEK profile (career history, skills, default resume, email, phone) with Coffey via UKG. Allow that, or create an account with his own email?",
+ "status": "EXPIRED",
+ "ask_owner": "",
  "attempts": [
   {
    "at": "2026-11-14T21:42:37Z",
@@ -89,6 +89,12 @@
    "result": "asked_owner",
    "note": "Employer site needs either a new account or the Apply with SEEK option, which asks to share his SEEK profile (career history, skills, default resume, email, phone) with Coffey via UKG. Allow that, or create an account with his own email?",
    "run": "20261115T062804Z"
+  },
+  {
+   "at": "2026-11-20T21:42:27Z",
+   "by": "queue.py expire",
+   "result": "expired",
+   "note": "closed 2026-11-20 (listing_expiry), never submitted"
   }
  ],
  "receipt": {},
