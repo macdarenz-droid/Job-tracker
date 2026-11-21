@@ -25,15 +25,15 @@
   "availability": [
    "Available for site, office and regional project work",
    "Available for FIFO work and project-site travel",
-   "Can start two weeks after an offer"
+   "Can start three weeks after an offer (owner, 22 Nov 2026)"
   ],
-  "relocation": "Owner, 13 Nov 2026: will take a job anywhere in Australia. For a role outside daily travel distance of Melton VIC, applications say 'I will relocate to <city or region> for this role and can start two weeks after an offer.' Do not promise who pays for the move.",
+  "relocation": "Owner, 13 Nov 2026: will take a job anywhere in Australia. For a role outside daily travel distance of Melton VIC, applications say 'I will relocate to <city or region> for this role and can start three weeks after an offer.' (start time changed to three weeks by the owner, 22 Nov 2026) Do not promise who pays for the move.",
   "work_rights_short": "Full working rights in Australia (Subclass 485 visa)",
   "work_rights_rule": "Headers, emails and letters use work_rights_short. The end date is given in the resume's eligibility section, in form answers that ask about work rights, and in a letter only when the advert asks about visa or residency. Never claim citizenship or permanent residency.",
   "drivers_licence_detail": "Full Victorian licence (owner, 13 Nov 2026). Transmission: automatic only, as far as the owner knows. Never claim a manual licence.",
   "police_check": "Holds an AFP National Police Check certificate issued in March 2026. It was not issued for an employer. Treat it as current until March 2027; after that, say he is willing to obtain a new one.",
   "medical_and_drug_tests": "Willing to do pre-employment medical and drug and alcohol tests (owner, 13 Nov 2026)",
-  "notice_period": "2 weeks (owner, 13 Nov 2026)"
+  "notice_period": "3 weeks (owner, 22 Nov 2026; was 2 weeks)"
  },
  "education": [
   {
@@ -185,7 +185,7 @@
    "free_text": "Subclass 485 Temporary Graduate visa with full working rights until December 2027.",
    "if_unsure": "Skip the application and report the options shown."
   },
-  "notice_period": "2 weeks",
+  "notice_period": "3 weeks",
   "expected_salary": {
    "rule": "If the advert states pay, choose the band that contains the advertised figure (the lower end when it is a range). If the advert states no pay, choose $65,000 to $75,000. When the options split that band (for example $60,000 to $70,000 and $70,000 to $80,000), choose the option that starts at $70,000 (owner, 14 Nov 2026).",
    "single_figure_when_no_pay_stated": "70000 (midpoint of the owner's band; set by Claude on 13 Nov 2026, owner may change it)"
