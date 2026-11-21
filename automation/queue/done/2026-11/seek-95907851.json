@@ -60,8 +60,8 @@
    "status": "unanswered"
   }
  ],
- "status": "ASK_OWNER",
- "ask_owner": "No standing answer for 4 form questions: Street | City, Town or Suburb | Postcode or Zipcode | State, Region or Province",
+ "status": "APPLIED",
+ "ask_owner": "",
  "attempts": [
   {
    "at": "2026-11-17T21:39:56Z",
@@ -75,9 +75,21 @@
    "by": "Grok",
    "result": "asked_owner",
    "note": "form question with no standing answer: Yes I agree to the privacy statement"
+  },
+  {
+   "at": "2026-11-21T17:14:32Z",
+   "by": "Grok",
+   "result": "applied",
+   "note": "",
+   "run": "20261121T171500Z"
   }
  ],
- "receipt": {},
+ "receipt": {
+  "at": "2026-11-21T17:14:32Z",
+  "by": "Grok",
+  "kind": "portal_confirmation",
+  "ref": "employer confirmation page shown"
+ },
  "created_by": "Grok",
  "created_at": "2026-11-17T21:37:25Z",
  "source_run": "20261117T212822Z",
