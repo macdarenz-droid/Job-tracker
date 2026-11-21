@@ -405,3 +405,5 @@
 {"run_id": "20261119T214233Z", "at": "2026-11-19T21:43:01.000Z", "stage": "end", "queue_open": 0, "applied": 0, "seek_submitted": 0, "emails_sent": 0, "portal_submitted": 0, "expired_unsubmitted": 0, "replies": 0, "interviews": 0, "new_adverts_screened": 0, "queued": 0, "rejected": 0, "ask_owner": 17, "nothing_new": true}
 {"run_id": "20261120T214227Z", "at": "2026-11-20T21:42:27.000Z", "stage": "start"}
 {"run_id": "20261120T214227Z", "at": "2026-11-20T21:42:55.000Z", "stage": "end", "queue_open": 0, "applied": 0, "seek_submitted": 0, "emails_sent": 0, "portal_submitted": 0, "expired_unsubmitted": 1, "replies": 1, "interviews": 0, "new_adverts_screened": 0, "queued": 0, "rejected": 0, "ask_owner": 16, "nothing_new": true}
+{"run_id": "20261121T214200Z", "at": "2026-11-21T21:42:00.000Z", "stage": "start"}
+{"run_id": "20261121T214200Z", "at": "2026-11-21T21:46:18.000Z", "stage": "end", "queue_open": 0, "applied": 0, "seek_submitted": 0, "emails_sent": 0, "portal_submitted": 0, "expired_unsubmitted": 0, "replies": 0, "interviews": 0, "new_adverts_screened": 0, "queued": 0, "rejected": 0, "ask_owner": 14, "nothing_new": true}

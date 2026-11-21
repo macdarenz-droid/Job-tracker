@@ -121,16 +121,16 @@ class AnswerKeepsOtherRunnersStarts(Case):
         self.add(entry(1, questions=[NOTICE]))
         self.cli('next', '--route', 'SEEK', '--by', 'Grok', '--run', '20261113T0100Z')
         before = self.files()
-        code, out, err = self.cli('answer', 'seek-1', '--question', NOTICE, '--option', '2 weeks', '--option', '1 month', '--by', 'Claude')
+        code, out, err = self.cli('answer', 'seek-1', '--question', NOTICE, '--option', '3 weeks', '--option', '1 month', '--by', 'Claude')
         self.assertEqual((code, out), (1, ''))
         self.assertIn('seek-1 was started by Grok', err)
         self.assertEqual(self.files(), before)
         self.assertEqual(q.started(self.stored('seek-1'))['by'], 'Grok')
-        code, out, _ = self.cli('answer', 'seek-1', '--question', NOTICE, '--option', '2 weeks', '--option', '1 month', '--by', 'Grok',
+        code, out, _ = self.cli('answer', 'seek-1', '--question', NOTICE, '--option', '3 weeks', '--option', '1 month', '--by', 'Grok',
                                 '--run', '20261113T0100Z')
-        self.assertEqual((code, out), (0, '2 weeks\n'))   # the session that holds it still gets every answer
-        code, out, _ = self.cli('answer', '--question', NOTICE, '--option', '2 weeks', '--option', '1 month')
-        self.assertEqual((code, out), (0, '2 weeks\n'))   # and the screening form (no entry) reads the gate for anyone
+        self.assertEqual((code, out), (0, '3 weeks\n'))   # the session that holds it still gets every answer
+        code, out, _ = self.cli('answer', '--question', NOTICE, '--option', '3 weeks', '--option', '1 month')
+        self.assertEqual((code, out), (0, '3 weeks\n'))   # and the screening form (no entry) reads the gate for anyone
 
 
 class NextNamesWhatItsRecomputeRewrote(Case):
@@ -192,7 +192,7 @@ class NextGatesComeBeforeTheRecompute(Case):
         for route in ('SEEK', 'EMPLOYER_PORTAL'):
             self.assertEqual(self.cli('next', '--route', route)[0], 1, route)
         self.assertEqual(self.cli('answer', 'seek-1')[0], 0)
-        self.assertEqual(self.stored('seek-1')['questions'][0]['answer'], '2 weeks')
+        self.assertEqual(self.stored('seek-1')['questions'][0]['answer'], '3 weeks')
         self.assertEqual(self.cli('check')[0], 0)
         self.assertEqual(json.loads(self.cli('next', '--route', 'SEEK')[1])['id'], 'seek-1')
 

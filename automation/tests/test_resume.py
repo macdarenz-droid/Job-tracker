@@ -64,7 +64,7 @@ SUMMARY = ('Civil design graduate with an Advanced Diploma of Civil Construction
            'geometry, earthworks, pavement systems and stormwater drainage, and prepared and reviewed technical '
            'drawings in AutoCAD and Civil 3D, applying Australian Standards. Site experience in inspections, quality '
            'checks, material records and progress reports. White Card and {licence}. Will relocate anywhere in '
-           'Australia and can start two weeks after an offer.')
+           'Australia and can start three weeks after an offer.')
 # eligibility.police_check as a fact with notes after its first sentence (its wording of 13 Nov 2026, evening).
 POLICE_NOTE = ('Holds an AFP National Police Check certificate issued in March 2026 (a note in brackets, 1 April). '
                'It was not issued for an employer. Treat it as current until '

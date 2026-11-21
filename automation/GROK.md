@@ -82,6 +82,13 @@ git add -A -- ../queue ../journal.jsonl ../runs/RUN_ID && git commit -m 'Grok se
 - Never save finds to a local folder. A find that is not in the repo queue does not exist for
   anyone else.
 
+## When you change facts.json
+
+Run, from automation/scripts, before you push: `python3 resume.py build` (the resumes and the SEEK
+profile text say what facts.json says) and `cd .. && python3 -m unittest discover -s tests` (all
+pass). Write only the fact in a fact line (no dates or "owner said" in it: those lines are printed on
+resumes and given in forms); the date and source go in docs/COACHING-DECISIONS.md.
+
 ## Which route
 
 An advert's email address is an application route only when the advert says to send applications

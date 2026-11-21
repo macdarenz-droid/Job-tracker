@@ -55,12 +55,21 @@ PROFILE = {
         'drainage.',
 }
 
+def start_phrase(facts):
+    """'three weeks after an offer', from the start line of facts.json -> eligibility -> availability."""
+    line = next((x for x in facts['eligibility'].get('availability') or [] if re.search(r'\bstart\b', str(x), re.I)), '')
+    m = re.search(r'\bstart (.+?)\.?$', str(line), re.I)
+    if not m:
+        raise ValueError('facts.json -> eligibility -> availability has no start line')
+    return m.group(1).strip()
+
+
 # The SEEK personal summary, about 80 words, checked like a profile. Drafter roles first, then technician.
 SUMMARY = ('Civil design graduate with an {diploma} ({code}), completed in Australia in {completed}, and a {degree}. '
            'Designed and documented road geometry, earthworks, pavement systems and stormwater drainage, and '
            'prepared and reviewed technical drawings in AutoCAD and Civil 3D, applying Australian Standards. '
            'Site experience in inspections, quality checks, material records and progress reports. '
-           '{card} and {licence}. Will relocate anywhere in Australia and can start two weeks after an offer.')
+           '{card} and {licence}. Will relocate anywhere in Australia and can start {start}.')
 # SEEK skills after the software list. Each must be, letter for letter, a phrase of capabilities or of a
 # point under a job or a course; seek() refuses any other.
 SKILLS = ['Road geometry', 'Earthworks', 'Pavement design', 'Stormwater drainage', 'Civil documentation',
@@ -493,7 +502,7 @@ def seek(facts=FACTS, config=CONFIG):
     card, lic = out.get(e + 'white_card').split(' (')[0], licence(out)
     summary = SUMMARY.format(diploma=out.get(dip + '.qualification'), code=out.get(dip + '.code'),
                              completed=out.get(dip + '.completed'), degree=plain(out.get(degree + '.qualification')),
-                             card=card, licence=lic[:1].lower() + lic[1:])
+                             card=card, licence=lic[:1].lower() + lic[1:], start=start_phrase(facts))
     out.say('p', summary, *[dip + k for k in ('.qualification', '.code', '.completed', '.provider', '.points')],
             degree + '.qualification', *[p + '.points' for p in site], 'identity.titles.engineer', e + 'white_card',
             e + 'drivers_licence', e + 'relocation', 'answers.willing_to_relocate', e + 'availability')

@@ -56,7 +56,7 @@ Covered (facts.json -> answers unless another block is named):
                      ('without sponsorship'), one not about his own need ('Does this role require sponsorship?'), one
                      that names now and a time to come less plainly ('currently ... to remain'), a free-text question
                      that also asks about the visa he holds
-  notice             2 weeks, or the option meaning 2 weeks
+  notice             facts.json -> answers -> notice_period (weeks), or the option meaning that many weeks
   start date         free text only: "Two weeks after an offer" (eligibility.availability)
   salary             only when pay, the advert's own pay text, is known: an annual figure (the lower end of a range;
                      a figure written with $, k or a comma goes before a bare number, and a number after ref, no.,
@@ -799,7 +799,7 @@ def _start(q, opts, facts):
     if opts:
         weeks = _weeks(m.group(1))
         pick = _weeks_option(weeks, opts) if weeks else ''
-        return _ok(pick, 'eligibility.availability') if pick else _no('no single option means two weeks after an offer', 'eligibility.availability')
+        return _ok(pick, 'eligibility.availability') if pick else _no(f'no single option means {m.group(1).strip()}', 'eligibility.availability')
     text = m.group(1).strip()
     return _ok(text[:1].upper() + text[1:], 'eligibility.availability')
 
@@ -1616,7 +1616,7 @@ def answer(question, options=None, facts=None, pay=None, today=None, entry=None)
     if re.search(r"start date|availab\w* to (start|commence)|when (can|could|would) you (start|commence)|earliest (available )?start|"
                  r"(able|available) to start|when are you available|commence (work|in|a)", q):
         if re.search(r'\d{4}|\b(' + '|'.join(m[:3] for m in MONTHS) + r')[a-z]*\b|immediately|tomorrow|next week', q):
-            return _no('asks about a particular start date; facts.json gives only two weeks after an offer', 'eligibility.availability')
+            return _no('asks about a particular start date; facts.json gives only a number of weeks after an offer', 'eligibility.availability')
         return _start(q, opts, facts)
     licence = r"driv\w*'?s? licen[cs]e|driving licen[cs]e|licen[cs]ed? to drive|car licen[cs]e|class c\b|(provisional|probationary|p ?plate|learner)\b[^?]*licen[cs]e"
     police = r'police (check|certificate|clearance)|national police|criminal history (check|screen)'

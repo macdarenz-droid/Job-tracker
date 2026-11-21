@@ -536,11 +536,11 @@ class WritingRules(unittest.TestCase):
 
     def test_queue_entry_names_are_read_too(self):
         entry = {'cover_letter_text': '\n\n'.join(GOOD_LETTER[:2] + ['I live in Melton and have full working rights in Australia (Subclass 485 visa).']),
-                 'relocation_line': 'I will relocate to Geelong for this role and can start two weeks after an offer.',
-                 'email': {'body': GOOD_EMAIL}, 'questions': [{'question': 'How much notice are you required to give?', 'answer': '2 weeks'}]}
+                 'relocation_line': 'I will relocate to Geelong for this role and can start three weeks after an offer.',
+                 'email': {'body': GOOD_EMAIL}, 'questions': [{'question': 'How much notice are you required to give?', 'answer': '3 weeks'}]}
         body, paragraphs, answers = checks.draft_parts(entry)
         self.assertEqual(body, GOOD_EMAIL); self.assertEqual(len(paragraphs), 3); self.assertTrue(paragraphs[-1].endswith('after an offer.'))
-        self.assertEqual(answers, [('How much notice are you required to give?', '2 weeks')])
+        self.assertEqual(answers, [('How much notice are you required to give?', '3 weeks')])
         self.assertEqual(checks.draft_issues(entry), [])
         self.assertTrue(checks.draft_issues({**entry, 'cover_letter_text': 'I have not drafted commercially.'}))
         self.assertIn('Hello Sam,<br>', email_html.html_body(email_html.email_text(entry)))
@@ -1208,7 +1208,7 @@ class AnswersOnTheRecord(unittest.TestCase):
                 ("What's your expected annual base salary?", '$35 an hour', 'hourly or daily figure ($35)'),
                 ("Do you have a current Australian driver's licence?", 'Marc to confirm', 'is a placeholder, not an answer'),
                 ('How much notice are you required to give your current employer?', 'MARC TO ANSWER (no notice period on record).', 'is a placeholder, not an answer'),
-                ('How much notice are you required to give your current employer?', "None, I'm ready to go now", 'does not give the standing answer in facts.json -> answers -> notice_period: 2 weeks'),
+                ('How much notice are you required to give your current employer?', "None, I'm ready to go now", 'does not give the standing answer in facts.json -> answers -> notice_period: 3 weeks'),
                 ('Are you an Australian citizen or permanent resident?', 'Yes', 'says yes to a question that claims citizenship'),
                 ('Do you have experience using 12d?', 'Yes', 'says yes to software not in facts: 12d'),
                 ('Are you registered as a Registered Professional Engineer of Queensland (RPEQ)?', 'Yes', 'says yes to a question that claims a professional registration'),
@@ -1220,7 +1220,7 @@ class AnswersOnTheRecord(unittest.TestCase):
         for question, answer in [("How many years' experience do you have as a civil engineer?", 'Less than 1 year (11 months on site, April 2019 to February 2020)'),
                                  ("How many years' experience do you have as a civil drafter?", '0 to 1 years'),
                                  ("What's your expected annual base salary?", '$70,000'), ("What's your expected annual base salary?", '$65,000 to $75,000'),
-                                 ('How much notice are you required to give your current employer?', 'Two weeks'),
+                                 ('How much notice are you required to give your current employer?', 'Three weeks'),
                                  ('Do you have any experience using Revit, AutoCAD, 12D?', 'Yes'),  # true: Revit and AutoCAD
                                  ('Do you have the right to work in Australia? Please note if you are an Australian citizen / permanent resident or NZ citizen you should answer YES to this question.', 'Yes'),
                                  ('Do you have experience preparing and submitting tenders?', 'No'), ("Do you have a current Australian driver's licence?", 'Yes'),

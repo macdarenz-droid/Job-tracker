@@ -35,6 +35,7 @@ RIGHT_TO_WORK = ["I'm an Australian citizen", "I'm a permanent resident and/or N
                  'I require sponsorship to work for a new employer (e.g. 482, 457)']
 YEARS = ['No experience', 'Less than 1 year', '1 year', '2 years', '3 years', '4 years', '5 years', 'More than 5 years']
 NOTICE = ["None, I'm ready to go now", 'Less than 2 weeks', '2 weeks', '1 month', '2 months', '3 months', 'More than 3 months']
+SEEK_NOTICE = ["None, I'm ready to go now", '1 week', '2 weeks', '3 weeks', '4 weeks', '5 weeks', '6 or more weeks']   # as on SEEK forms in the queue
 YES_NO = ['Yes', 'No']
 POLICE = 'Do you have a current Police Check (National Police Certificate) for employment?'
 GOOD_LETTER = ('Hello,\n\n'
@@ -98,16 +99,17 @@ class WorkRightsAndSponsorship(GateCase):
 
 
 class NoticeStartAndSalary(GateCase):
-    def test_notice_is_two_weeks_or_the_option_meaning_two_weeks(self):
+    def test_notice_is_the_standing_weeks_or_the_option_meaning_them(self):   # 3 weeks since 22 Nov 2026 (owner)
         text = 'How much notice are you required to give your current employer?'
-        self.ok(gate(text, NOTICE), '2 weeks', 'answers.notice_period')
-        self.ok(gate(text, ['Immediately', 'Two weeks', 'One month']), 'Two weeks')
-        self.ok(gate(text), '2 weeks')
-        self.no(gate(text, ['None', 'Less than 2 weeks', '1 month']))   # never the nearest option
+        self.ok(gate(text, SEEK_NOTICE), '3 weeks', 'answers.notice_period')
+        self.ok(gate(text, ['Immediately', 'Three weeks', 'One month']), 'Three weeks')
+        self.ok(gate(text), '3 weeks')
+        self.no(gate(text, NOTICE))   # 2 weeks or 1 month only: never the nearest option
+        self.no(gate(text, ['None', 'Less than 2 weeks', '1 month']))
 
-    def test_start_date_is_free_text_two_weeks_after_an_offer(self):
+    def test_start_date_is_free_text_from_the_availability_line(self):
         for text in ('What is your estimated start date?', 'Availability to start', 'When can you commence in a full time capacity?'):
-            self.ok(gate(text), 'Two weeks after an offer', 'eligibility.availability')
+            self.ok(gate(text), 'Three weeks after an offer', 'eligibility.availability')
         self.no(gate('Are you available to start work on 27 January 2027?'))
 
     def test_salary_with_options_is_the_option_holding_the_band_or_the_advertised_figure(self):  # S13
@@ -453,7 +455,7 @@ class QueueAnswerCommand(unittest.TestCase):
         self.assertEqual(code, 0)
         # the questions come first; the cover letter, the resume line, the checks and the claim's git commands follow (package A)
         self.assertEqual(err.splitlines()[:2], [f"Q: {RTW} | give: {FACTS['answers']['right_to_work']['free_text']}",
-                                                'Q: How much notice are you required to give your current employer? | give: 2 weeks'])
+                                                'Q: How much notice are you required to give your current employer? | give: 3 weeks'])
         self.assertEqual(err.splitlines()[2], 'COVER LETTER TO PASTE: none (this entry has no cover_letter_text)')
         self.assertTrue(err.splitlines()[3].startswith('RESUME: '), err)
 
@@ -527,3 +529,11 @@ class RelocationInOwnWords(unittest.TestCase):
     def test_no_start_date_still_gets_the_line(self):
         text = self.BASE.format('I can move to Brisbane. Happy to chat any time.')
         self.assertIn(self.LINE, checks.compose_letter(text, self.LINE))
+
+
+class RelocationAnyStart(unittest.TestCase):
+    """22 Nov 2026: the start changed to three weeks; a letter that says so in its own words gets no second line."""
+    def test_three_weeks_in_own_words_is_kept_once(self):
+        line = 'I will relocate to Sydney for this role and can start three weeks after an offer.'
+        text = 'Hi team,\n\nOne.\n\nTwo.\n\nI can move to Sydney and start three weeks after an offer. Happy to chat any time.\n\nKind regards,\nMarc Masarate'
+        self.assertEqual(checks.compose_letter(text, line), text)

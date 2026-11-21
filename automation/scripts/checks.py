@@ -420,14 +420,14 @@ def letter_blocks(text):
 def says_move(text, relocation_line):
     """True when the text already says, in its own words, that he will move to the place relocation_line names
     ("I can move to Brisbane and start two weeks after an offer"): a move word, then the place, in one sentence,
-    and the two-week start somewhere in the text. The owner's voice (D69) words this naturally; the stock sentence
+    and the start ("N weeks after an offer") somewhere in the text. The owner's voice (D69) words this naturally; the stock sentence
     is then not added a second time."""
     place = re.search(r'relocate to (.+?) for this role', str(relocation_line or ''), re.I)
     if not place:
         return False
     flat = ' '.join(str(text or '').split())
     moves = re.search(r'\b(?:move|moving|relocat\w*)\b[^.!?]{0,60}?\b' + re.escape(place.group(1).strip()) + r'\b', flat, re.I)
-    return bool(moves) and bool(re.search(r'\btwo weeks after an offer\b', flat, re.I))
+    return bool(moves) and bool(re.search(r'\b(?:one|two|three|four|five|six|\d+) weeks? after an offer\b', flat, re.I))
 
 
 def compose_letter(cover_letter_text, relocation_line=''):
