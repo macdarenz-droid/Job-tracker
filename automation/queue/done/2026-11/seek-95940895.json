@@ -60,7 +60,7 @@
    "status": "answered"
   }
  ],
- "status": "OPEN",
+ "status": "APPLIED",
  "ask_owner": "",
  "attempts": [
   {
@@ -69,9 +69,21 @@
    "result": "started",
    "note": "",
    "run": "20261122T031703Z"
+  },
+  {
+   "at": "2026-11-22T03:21:12Z",
+   "by": "Grok",
+   "result": "applied",
+   "note": "",
+   "run": "20261122T031703Z"
   }
  ],
- "receipt": {},
+ "receipt": {
+  "at": "2026-11-22T03:21:12Z",
+  "by": "Grok",
+  "kind": "seek_confirmation_screen",
+  "ref": "SEEK confirmation screen shown"
+ },
  "created_by": "Grok",
  "created_at": "2026-11-17T21:37:53Z",
  "source_run": "20261117T212822Z",
