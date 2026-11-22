@@ -81,6 +81,13 @@
    "by": "Grok",
    "result": "reopened",
    "note": "owner: allow Grok to read the login code from Gmail (22 Nov 2026) (question was: The job board Apply button needs a sign-in with Google or an emailed login code; no guest apply. Owner: send the code when asked, or allow Grok to read the login code from Gmail)"
+  },
+  {
+   "at": "2026-11-22T03:21:32Z",
+   "by": "Grok",
+   "result": "started",
+   "note": "",
+   "run": "20261122T031703Z"
   }
  ],
  "receipt": {},
