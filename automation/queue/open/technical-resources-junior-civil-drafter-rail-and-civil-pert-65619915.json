@@ -24,8 +24,8 @@
   "evidence_url": ""
  },
  "questions": [],
- "status": "ASK_OWNER",
- "ask_owner": "The job board Apply button needs a sign-in with Google or an emailed login code; no guest apply. Owner: send the code when asked, or allow Grok to read the login code from Gmail",
+ "status": "OPEN",
+ "ask_owner": "",
  "attempts": [
   {
    "at": "2026-11-15T21:47:04Z",
@@ -75,6 +75,12 @@
    "result": "asked_owner",
    "note": "The job board Apply button needs a sign-in with Google or an emailed login code; no guest apply. Owner: send the code when asked, or allow Grok to read the login code from Gmail",
    "run": "20261117T012843Z"
+  },
+  {
+   "at": "2026-11-22T03:15:27Z",
+   "by": "Grok",
+   "result": "reopened",
+   "note": "owner: allow Grok to read the login code from Gmail (22 Nov 2026) (question was: The job board Apply button needs a sign-in with Google or an emailed login code; no guest apply. Owner: send the code when asked, or allow Grok to read the login code from Gmail)"
   }
  ],
  "receipt": {},

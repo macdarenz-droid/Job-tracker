@@ -41,7 +41,7 @@
   {
    "question": "How much notice are you required to give your current employer?",
    "options": [],
-   "answer": "2 weeks",
+   "answer": "3 weeks",
    "basis": "answers.notice_period",
    "status": "answered"
   },
@@ -55,13 +55,13 @@
   {
    "question": "What is the maximum weight that you are comfortable and able to lift?",
    "options": [],
-   "answer": "",
-   "basis": "",
-   "status": "unanswered"
+   "answer": "20-30 kg",
+   "basis": "answers.owner_answers",
+   "status": "answered"
   }
  ],
- "status": "ASK_OWNER",
- "ask_owner": "No standing answer for this form question: What is the maximum weight that you are comfortable and able to lift?",
+ "status": "OPEN",
+ "ask_owner": "",
  "attempts": [],
  "receipt": {},
  "created_by": "Grok",

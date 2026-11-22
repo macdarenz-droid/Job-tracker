@@ -34,13 +34,13 @@
   {
    "question": "Please detail your minimum salary expectations (excluding super):",
    "options": [],
-   "answer": "",
-   "basis": "answers.expected_salary.rule",
-   "status": "unanswered"
+   "answer": "$60,000-$70,000",
+   "basis": "answers.owner_answers",
+   "status": "answered"
   }
  ],
  "status": "ASK_OWNER",
- "ask_owner": "No standing answer for 2 form questions: Are you currently living in Australia and have unrestricted working right? | Please detail your minimum salary expectations (excluding super):",
+ "ask_owner": "No standing answer for this form question: Are you currently living in Australia and have unrestricted working right?",
  "attempts": [],
  "receipt": {},
  "created_by": "Grok",

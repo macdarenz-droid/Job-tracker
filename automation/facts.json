@@ -223,7 +223,7 @@
   },
   "software": {
    "CAD": "AutoCAD, Civil 3D and Revit only. Never tick 12d, MicroStation, OpenRoads, Tekla, SIDRA or anything else.",
-   "Microsoft Office": "Yes. If individual products must be ticked: not confirmed, skip and report.",
+   "Microsoft Office": "Yes. If individual products must be ticked: Word, Excel and Outlook only. Never tick anything else.",
    "other": "Only what is in capabilities.software"
   },
   "experience_yes_no": {
@@ -233,7 +233,7 @@
    "civil infrastructure projects": "Not confirmed (see honest_limits): if mandatory, skip and report",
    "anything else": "Yes only if a line in 'experience' or 'education' supports it; otherwise No"
   },
-  "english_self_rating": "Not on record: skip and report",
+  "english_self_rating": "Fluent",
   "referees": "Available on request. Never enter a name or number.",
   "free_text_cover_letter": "Use the cover letter text from the queue entry, unchanged.",
   "owner_answers": [
@@ -305,6 +305,88 @@
     "options": [
      "checkbox"
     ]
+   },
+   {
+    "question": "How Did You Hear About Us?",
+    "options": [
+     "Employees",
+     "Job Boards",
+     "Other",
+     "Website"
+    ],
+    "answer": "Job Boards",
+    "date": "2026-11-22"
+   },
+   {
+    "question": "By registering, you agree to our Terms & Conditions and Privacy Policy . You can review account deletion steps in our Account Deletion Policy .",
+    "options": [
+     "checked",
+     "unchecked"
+    ],
+    "answer": "checked",
+    "date": "2026-11-22",
+    "entry": "nassima-design-group-civil-engineering-draftsperson-7b2c2f1e"
+   },
+   {
+    "question": "I agree with the terms and conditions",
+    "options": [
+     "checked",
+     "unchecked"
+    ],
+    "answer": "checked",
+    "date": "2026-11-22",
+    "entry": "wsp-laboratory-technician-in-training-7909dd6d"
+   },
+   {
+    "question": "How would you rate your English language skills?",
+    "answer": "Fluent",
+    "date": "2026-11-22"
+   },
+   {
+    "question": "Which of the following Microsoft Office products are you experienced with?",
+    "answer": "Word, Excel, Outlook",
+    "date": "2026-11-22"
+   },
+   {
+    "question": "How many years of Engineering Drafting experience do you have?",
+    "answer": "No paid drafting role. Academic only: AutoCAD, Civil 3D and Revit through the Advanced Diploma of Civil Construction Design.",
+    "date": "2026-11-22"
+   },
+   {
+    "question": "How many years experience in Structural Design do you have?",
+    "answer": "No paid structural design work. Academic only: AutoCAD, Civil 3D and Revit through the Advanced Diploma of Civil Construction Design.",
+    "date": "2026-11-22"
+   },
+   {
+    "question": "Do you have Project Delivery experience?",
+    "answer": "No",
+    "date": "2026-11-22"
+   },
+   {
+    "question": "What is the maximum weight that you are comfortable and able to lift?",
+    "answer": "20-30 kg",
+    "date": "2026-11-22"
+   },
+   {
+    "question": "Please detail your minimum salary expectations (excluding super):",
+    "answer": "$60,000-$70,000",
+    "date": "2026-11-22",
+    "entry": "seek-95904557"
+   },
+   {
+    "question": "Current Position",
+    "answer": "Console Operator",
+    "date": "2026-11-22"
+   },
+   {
+    "question": "Current Employer",
+    "answer": "bp service station",
+    "date": "2026-11-22"
+   },
+   {
+    "question": "We operate in a hybrid model. If you are in an office-based role, do you have a home workstation set up to ensure a safe working environment?",
+    "answer": "Yes, I have a home workstation set up with my own laptop (Acer Nitro 5).",
+    "date": "2026-11-22"
    }
   ]
  }

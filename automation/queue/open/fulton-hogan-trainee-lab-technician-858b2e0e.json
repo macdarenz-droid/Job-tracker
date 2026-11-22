@@ -32,9 +32,9 @@
     "Other",
     "Website"
    ],
-   "answer": "",
-   "basis": "",
-   "status": "unanswered"
+   "answer": "Job Boards",
+   "basis": "answers.owner_answers",
+   "status": "answered"
   },
   {
    "question": "Have you been previously employed in Fulton Hogan? (e.g. Contractor or Employee). NOTE : If you are a current Fulton Hogan Employee please apply through our Internal Careers Site on theHub or contact your local HR support.",
@@ -123,7 +123,7 @@
   }
  ],
  "status": "ASK_OWNER",
- "ask_owner": "No standing answer for 8 form questions: How Did You Hear About Us? (options: Employees / Job Boards / Other / Website) | Have you been previously employed in Fulton Hogan? (e.g. Contractor or Employee). NOTE : If you are a current Fulton Hogan Employee please apply through our Internal Careers Site on theHub or contact your local HR support. (options: Yes / No) | Middle Name | Address Line 1 | Suburb/Locality | State or Territory (options: Australian Capital Territory / New South Wales / Northern Territory / Queensland / South Australia / Tasmania / Victoria / Western Australia) | Postal Code | Phone Device Type (options: Landline / Mobile)",
+ "ask_owner": "No standing answer for 7 form questions: Have you been previously employed in Fulton Hogan? (e.g. Contractor or Employee). NOTE : If you are a current Fulton Hogan Employee please apply through our Internal Careers Site on theHub or contact your local HR support. (options: Yes / No) | Middle Name | Address Line 1 | Suburb/Locality | State or Territory (options: Australian Capital Territory / New South Wales / Northern Territory / Queensland / South Australia / Tasmania / Victoria / Western Australia) | Postal Code | Phone Device Type (options: Landline / Mobile)",
  "attempts": [
   {
    "at": "2026-11-15T21:45:02Z",

@@ -30,13 +30,13 @@
     "checked",
     "unchecked"
    ],
-   "answer": "",
-   "basis": "answers.declarations_and_consents",
-   "status": "unanswered"
+   "answer": "checked",
+   "basis": "answers.owner_answers",
+   "status": "answered"
   }
  ],
- "status": "ASK_OWNER",
- "ask_owner": "No standing answer for this form question: I agree with the terms and conditions (options: checked / unchecked)",
+ "status": "OPEN",
+ "ask_owner": "",
  "attempts": [
   {
    "at": "2026-11-15T06:34:01Z",

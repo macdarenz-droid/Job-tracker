@@ -30,13 +30,13 @@
     "checked",
     "unchecked"
    ],
-   "answer": "",
-   "basis": "",
-   "status": "unanswered"
+   "answer": "checked",
+   "basis": "answers.owner_answers",
+   "status": "answered"
   }
  ],
- "status": "ASK_OWNER",
- "ask_owner": "No standing answer for this form question: By registering, you agree to our Terms & Conditions and Privacy Policy . You can review account deletion steps in our Account Deletion Policy . (options: checked / unchecked)",
+ "status": "OPEN",
+ "ask_owner": "",
  "attempts": [
   {
    "at": "2026-11-13T14:12:20Z",

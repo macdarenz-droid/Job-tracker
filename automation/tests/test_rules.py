@@ -205,13 +205,13 @@ class StatusesAndRecords(unittest.TestCase):
         self.assertEqual(rec['status'], 'READY_SEEK'); self.assertNotIn('ask_owner', rec)
 
     def test_a_question_with_no_standing_answer_makes_the_record_ask_owner_with_the_question(self):
-        english = 'How would you rate your English language skills?'
         infrastructure = 'Do you have experience working on civil infrastructure projects?'
-        rec = publish.build_record('r1', *pack('SEEK', SEEK_QUESTIONS + [english, infrastructure]))
+        hourly = "What's your expected hourly rate?"
+        rec = publish.build_record('r1', *pack('SEEK', SEEK_QUESTIONS + [infrastructure, hourly]))
         self.assertEqual(rec['status'], 'ASK_OWNER')
         self.assertEqual(rec['ask_owner']['then'], 'READY_SEEK')
-        self.assertEqual([a['question'] for a in rec['ask_owner']['questions']], [english, infrastructure])
-        self.assertIn('ASK OWNER: ' + english, rec['notes'])
+        self.assertEqual([a['question'] for a in rec['ask_owner']['questions']], [infrastructure, hourly])
+        self.assertIn('ASK OWNER: ' + infrastructure, rec['notes'])
         self.assertEqual(checks.record_issues({**rec, 'attachments': [{'kind': 'resume'}, {'kind': 'cover'}]}, require_uploaded=False), [])
         self.assertTrue(any('needs the question' in i for i in checks.record_issues({**rec, 'ask_owner': None}, require_uploaded=False)))
         self.assertTrue(any('READY_SEEK record still has an open question' in i for i in checks.record_issues({**rec, 'status': 'READY_SEEK'}, require_uploaded=False)))
@@ -335,10 +335,8 @@ class StandingAnswers(unittest.TestCase):
             self.assertEqual(checks.standing_answer(question, 'not stated'), (key, None), question)   # pay: the salary question
 
     def test_questions_only_the_owner_can_answer(self):
-        for question in ['How would you rate your English language skills?',
-                         'Do you have experience working on civil infrastructure projects?',
+        for question in ['Do you have experience working on civil infrastructure projects?',
                          'Do you have experience using Microsoft Excel?',
-                         'Which of the following Microsoft Office products are you experienced with?',
                          'Are you a current member of Engineers Australia?',
                          'Is your qualification/s recognised by Engineers Australia?',
                          'What interests you about joining STP Consultants.',
@@ -349,7 +347,7 @@ class StandingAnswers(unittest.TestCase):
             key, problem = checks.standing_answer(question)
             self.assertTrue(problem, question)
         self.assertEqual([u['question'] for u in checks.unanswered_questions(SEEK_QUESTIONS + ['How would you rate your English language skills?'] * 2, 'not stated')],
-                         ['How would you rate your English language skills?'])
+                         [])
 
     def test_a_conditional_answer_blocks_only_the_case_it_leaves_open(self):
         with facts_answers(OLDER):  # 'If the form asks full or probationary, or manual or automatic: not confirmed, skip and report.'
@@ -374,10 +372,10 @@ class StandingAnswers(unittest.TestCase):
             with redirect_stdout(io.StringIO()) as out, self.assertRaises(SystemExit) as stop:
                 checks.main(['questions', str(path)])
             self.assertEqual(stop.exception.code, 1); self.assertIn("advert's pay is not recorded", out.getvalue())
-            common.write_json(path, {'screening_questions': SEEK_QUESTIONS + ['How would you rate your English language skills?'], 'advert_pay': 'not stated'})
+            common.write_json(path, {'screening_questions': SEEK_QUESTIONS + ['Do you have experience working on civil infrastructure projects?'], 'advert_pay': 'not stated'})
             with redirect_stdout(io.StringIO()) as out, self.assertRaises(SystemExit) as stop:
                 checks.main(['questions', str(path)])
-            self.assertEqual(stop.exception.code, 1); self.assertIn('ask the owner: How would you rate your English', out.getvalue())
+            self.assertEqual(stop.exception.code, 1); self.assertIn('ask the owner: Do you have experience working on civil infrastructure', out.getvalue())
 
 
 # ---------------------------------------------------------------------------------------------- 3. writing checks
@@ -875,7 +873,7 @@ FYFE = [{'q': 'Fyfe careers page questions',  # runs/20261110T1414Z/drafts/fyfe.
          'a': 'Not visible before applying; answer from the resume and cover letter. Work rights: Subclass 485, full working rights to December 2027 (not PR or citizen). Salary and start date: Marc to answer.'}]
 OCTOBER = {'Which of the following statements best describes your right to work in Australia?': 'Temporary visa with full working rights: Subclass 485, full working rights until December 2027.',
            "What's your expected annual base salary?": 'Marc to answer (no salary figure is on record for this role).',  # runs/20261012T0012Z/drafts/95191525.json
-           'How would you rate your English language skills?': 'Fluent'}
+           'Do you have experience working on civil infrastructure projects?': 'Not confirmed'}
 
 
 class FormAnswerShapes(unittest.TestCase):
@@ -909,7 +907,7 @@ class FormAnswerShapes(unittest.TestCase):
         self.assertFalse(any('right to work' in i for i in issues))  # the form asks about work rights, so the end date may be given
         rec = publish.build_record('r1', *pack('SEEK', [], screening_answers=OCTOBER))
         self.assertEqual(rec['status'], 'ASK_OWNER')
-        self.assertEqual([a['question'] for a in rec['ask_owner']['questions']], ['How would you rate your English language skills?'])
+        self.assertEqual([a['question'] for a in rec['ask_owner']['questions']], ['Do you have experience working on civil infrastructure projects?'])
 
     def test_answers_in_a_shape_nobody_can_read_are_refused_not_skipped(self):
         for bad in ('see the notes', [['Why us?', 'Because.']], [{'text': 'Why us?', 'reply': 'Because.'}], [{'question': '', 'answer': 'Yes'}], 7):
@@ -982,6 +980,7 @@ SETTLED = [
     ('Which of the following CAD software do you have experience with?', 'answers.software.CAD'),
     ('Do you have experience using Bluebeam?', 'answers.software.other'),
     ('Are you currently studying?', 'answers.currently_studying'),
+    ('How would you rate your English language skills?', 'answers.owner_answers'),
 ]
 ASK = [
     # Settled by checks.py's old rules, left to the owner by the one gate (answers.py, 14 Nov 2026): it answers only what a
@@ -1018,7 +1017,6 @@ ASK = [
     'Are you able to obtain a National Police Check and other related security clearances required for this role?',  # was police_check
     'Do you hold Australian Security Clearance?',
     'Do you have a valid WA drivers licence?',  # was drivers_licence: his licence is Victorian
-    'How would you rate your English language skills?',
     'Do you have experience using Microsoft Excel?',
     'Which of the following types of infrastructure project do you have experience with?',
     'Do you own a suitable Personal Protective Equipment or PPE (safety boots, 100% cotton sleeved shirt, 100% cotton long trouser and Hard Hat with brim attachment)?',
@@ -1139,8 +1137,10 @@ class GateFailsClosed(unittest.TestCase):
         self.assertEqual(line('How many years of experience do you have in the Civil Engineering Industry?'), '')
 
     def test_one_new_line_in_facts_settles_its_questions(self):
+        key, problem = checks.standing_answer('How would you rate your English language skills?')
+        self.assertIn(key, ('english_self_rating', 'owner_answers'))
+        self.assertIsNone(problem)
         for question, key, answer in [("What's your expected hourly rate?", 'expected_hourly_rate', '35 to 40 dollars an hour'),
-                                      ('How would you rate your English language skills?', 'english_self_rating', 'Fluent'),
                                       ('Are you a current member of Engineers Australia?', 'engineers_australia_membership_or_recognition', 'No')]:
             self.assertIn(key, checks.standing_answer(question)[1] or '', question)
             with mock.patch.dict(checks.ANSWERS, {key: answer}):
@@ -1194,7 +1194,7 @@ class AnswersOnTheRecord(unittest.TestCase):
         self.assertTrue(any('carries a form answer that is not from facts.json' in i for i in issues))
         old_style = {**rec, 'screening_answers': self.WRONG}  # a record made before this change
         self.assertTrue(any('not from facts.json' in i for i in checks.record_issues(old_style, require_uploaded=False)))
-        asked = {**rec, 'advert': {**rec['advert'], 'screening_questions': SEEK_QUESTIONS + ['How would you rate your English language skills?']}}
+        asked = {**rec, 'advert': {**rec['advert'], 'screening_questions': SEEK_QUESTIONS + ['Do you have experience working on civil infrastructure projects?']}}
         self.assertTrue(any('READY_SEEK record has a form question with no standing answer (it must be ASK_OWNER)' in i for i in checks.record_issues(asked, require_uploaded=False)))
 
     def test_written_answers_that_contradict_facts_fail_the_draft_check(self):
@@ -1235,13 +1235,13 @@ class AnswersOnTheRecord(unittest.TestCase):
     def test_an_open_question_keeps_the_drafters_proposal_for_the_owner_and_a_placeholder_is_dropped(self):
         why = 'What interests you about joining STP Consultants.'
         given = [{'q': why, 'a': 'Your subdivision and road design work in Perth is the work my Advanced Diploma trained me for.'},
-                 {'q': 'How would you rate your English language skills?', 'a': '[Marc to confirm]'},
+                 {'q': 'Do you have experience working on civil infrastructure projects?', 'a': '[Marc to confirm]'},
                  {'q': "How many years' experience do you have as a civil drafter?", 'a': '3 years'}]
         rec = publish.build_record('r1', *pack('SEEK', screening_answers=given))
         self.assertEqual(rec['status'], 'ASK_OWNER')
         by_question = {a['question']: a for a in rec['screening_answers']}
         self.assertEqual(by_question[why], {'question': why, 'draft_answer': given[0]['a']})
-        self.assertEqual(by_question['How would you rate your English language skills?'], {'question': 'How would you rate your English language skills?'})
+        self.assertEqual(by_question['Do you have experience working on civil infrastructure projects?'], {'question': 'Do you have experience working on civil infrastructure projects?'})
         self.assertEqual(by_question[given[2]['q']]['basis'], 'answers.years_of_experience.drafter, draftsperson, designer, CAD')
         self.assertEqual(checks.record_issues({**rec, 'attachments': ATTACHED}, require_uploaded=False), [])
         # A proposal is still text written for him: it is checked like any other.

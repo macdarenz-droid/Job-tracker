@@ -269,10 +269,8 @@ class DeclarationsAndTheRest(GateCase):
         self.ok(gate('Where are you located?'), 'Melton VIC 3337', 'identity.location')
         self.ok(gate('What is your current location?'), 'Melton VIC 3337')
         self.no(gate('Where are you located?', ['Melbourne', 'Sydney']))
-        self.no(gate('How would you rate your English language skills?', ['Fluent', 'Basic']))
-        later = copy.deepcopy(FACTS)
-        later['answers']['english_self_rating'] = 'Fluent'   # one line in facts.json settles it, with no code change
-        self.ok(gate('How would you rate your English language skills?', ['Basic', 'Fluent'], later), 'Fluent')
+        self.ok(gate('How would you rate your English language skills?', ['Fluent', 'Basic']), 'Fluent')
+        self.ok(gate('How would you rate your English language skills?'), 'Fluent')
         self.no(gate('Are you a current member of Engineers Australia?', YES_NO))
         self.no(gate('Are you registered as a Registered Professional Engineer of Queensland (RPEQ)?', YES_NO))
 
@@ -313,10 +311,10 @@ class OneGate(unittest.TestCase):
     def test_standing_answer_and_unanswered_questions_read_the_gate(self):
         self.assertEqual(checks.standing_answer('How much notice are you required to give your current employer?'), ('notice_period', None))
         key, problem = checks.standing_answer('How would you rate your English language skills?')
-        self.assertEqual(key, 'english_self_rating')
-        self.assertTrue(problem)
+        self.assertIn(key, ('english_self_rating', 'owner_answers'))
+        self.assertIsNone(problem)
         self.assertEqual([u['question'] for u in checks.unanswered_questions([POLICE, 'How would you rate your English language skills?'])],
-                         ['How would you rate your English language skills?'])
+                         [])
         self.assertEqual(checks.standing_line(POLICE), ('answers.police_check', 'No. Willing to obtain a new check.', None))
 
     def test_a_truthful_no_to_the_police_check_for_employment_passes_the_draft_check(self):  # S1: checks.py used to flag it
@@ -422,7 +420,7 @@ class QueueAnswerCommand(unittest.TestCase):
         self.assertEqual(json.loads(self.cli('answer', 'seek-2')[1])['status'], 'ASK_OWNER')
 
     def test_recompute_with_a_question_still_open_exits_5(self):
-        self.add(entry(1, questions=['How would you rate your English language skills?']))
+        self.add(entry(1, questions=['Do you have experience working on civil infrastructure projects?']))
         code, out, err = self.cli('answer', 'seek-1')
         self.assertEqual((code, json.loads(out)['status']), (5, 'ASK_OWNER'))
         self.assertIn('UNANSWERED', err)

@@ -98,9 +98,9 @@
   {
    "question": "We operate in a hybrid model. If you are in an office-based role, do you have a home workstation set up to ensure a safe working environment?",
    "options": [],
-   "answer": "",
-   "basis": "",
-   "status": "unanswered"
+   "answer": "Yes, I have a home workstation set up with my own laptop (Acer Nitro 5).",
+   "basis": "answers.owner_answers",
+   "status": "answered"
   },
   {
    "question": "Our positions require a pre-employment medical and Police Records Check. Additionally, some roles may necessitate a Financial Background Check, Traffic Check, or Working with Children Check.If you are the preferred candidate, do you accept this as a condition of offer of employment?",
@@ -111,7 +111,7 @@
   }
  ],
  "status": "ASK_OWNER",
- "ask_owner": "No standing answer for 6 form questions: First Name (Legal) | Surname (Legal) | Residential Address | When will you be available for this role? (options: Immediate / After a certain date / 2 weeks / 4 weeks) | We operate in a hybrid model. If you are in an office-based role, do you have a home workstation set up to ensure a safe working environment? | Our positions require a pre-employment medical and Police Records Check. Additionally, some roles may necessitate a Financial Background Check, Traffic Check, or Working with Children Check.If you are the preferred candidate, do you accept this as a condition of offer of employment?",
+ "ask_owner": "No standing answer for 5 form questions: First Name (Legal) | Surname (Legal) | Residential Address | When will you be available for this role? (options: Immediate / After a certain date / 2 weeks / 4 weeks) | Our positions require a pre-employment medical and Police Records Check. Additionally, some roles may necessitate a Financial Background Check, Traffic Check, or Working with Children Check.If you are the preferred candidate, do you accept this as a condition of offer of employment?",
  "attempts": [
   {
    "at": "2026-11-13T14:12:37Z",

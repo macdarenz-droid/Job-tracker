@@ -34,16 +34,16 @@
   {
    "question": "How many years of Engineering Drafting experience do you have?",
    "options": [],
-   "answer": "",
-   "basis": "answers.years_of_experience",
-   "status": "unanswered"
+   "answer": "No paid drafting role. Academic only: AutoCAD, Civil 3D and Revit through the Advanced Diploma of Civil Construction Design.",
+   "basis": "answers.owner_answers",
+   "status": "answered"
   },
   {
    "question": "Do you have Project Delivery experience?",
    "options": [],
-   "answer": "",
-   "basis": "answers.experience_yes_no",
-   "status": "unanswered"
+   "answer": "No",
+   "basis": "answers.owner_answers",
+   "status": "answered"
   },
   {
    "question": "Which of the following CAD software do you have experience with?",
@@ -60,8 +60,8 @@
    "status": "answered"
   }
  ],
- "status": "ASK_OWNER",
- "ask_owner": "No standing answer for 2 form questions: How many years of Engineering Drafting experience do you have? | Do you have Project Delivery experience?",
+ "status": "OPEN",
+ "ask_owner": "",
  "attempts": [],
  "receipt": {},
  "created_by": "Grok",

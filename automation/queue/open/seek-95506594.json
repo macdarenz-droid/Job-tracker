@@ -12,6 +12,8 @@
  "closes_at": "2026-11-26",
  "closes_source": "listing_expiry",
  "fit": 78,
+ "sponsorship_signal": "",
+ "regional": null,
  "resume_variant": "drafter",
  "relocation_line": "",
  "cover_letter_text": "Hi LC Water team,\n\nI'm Marc. I graduated in February 2026 with an Advanced Diploma of Civil Construction Design, and I'm looking for a start as a junior civil drafter. Your ad says you design and build your own projects and you're happy to consider recent graduates, so I'd like to apply.\n\nFor the diploma I prepared and reviewed drawings in AutoCAD and Civil 3D for roads, earthworks and stormwater drainage. Before that, on a community hall renovation in the Philippines, I went through the structural and architectural drawings and checked the work against them. These days I work casually at a bp service station in Melbourne.\n\nI live in Melton and have my own car, and I can start three weeks after an offer. I've got full working rights in Australia (Subclass 485 visa). Happy to chat whenever suits.\n\nKind regards,\nMarc Masarate",
@@ -25,9 +27,9 @@
   {
    "question": "How would you rate your English language skills?",
    "options": [],
-   "answer": "",
-   "basis": "answers.english_self_rating",
-   "status": "unanswered"
+   "answer": "Fluent",
+   "basis": "answers.owner_answers",
+   "status": "answered"
   },
   {
    "question": "Which of the following CAD software do you have experience with?",
@@ -39,13 +41,13 @@
   {
    "question": "Which of the following Microsoft Office products are you experienced with?",
    "options": [],
-   "answer": "",
-   "basis": "answers.software.Microsoft Office",
-   "status": "unanswered"
+   "answer": "Word, Excel, Outlook",
+   "basis": "answers.owner_answers",
+   "status": "answered"
   }
  ],
- "status": "ASK_OWNER",
- "ask_owner": "No standing answer for 2 form questions: How would you rate your English language skills? | Which of the following Microsoft Office products are you experienced with?",
+ "status": "OPEN",
+ "ask_owner": "",
  "attempts": [],
  "receipt": {},
  "created_by": "import_backlog.py",

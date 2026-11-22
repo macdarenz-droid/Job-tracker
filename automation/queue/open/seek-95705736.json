@@ -127,16 +127,16 @@
   {
    "question": "Current Position",
    "options": [],
-   "answer": "",
-   "basis": "",
-   "status": "unanswered"
+   "answer": "Console Operator",
+   "basis": "answers.owner_answers",
+   "status": "answered"
   },
   {
    "question": "Current Employer",
    "options": [],
-   "answer": "",
-   "basis": "",
-   "status": "unanswered"
+   "answer": "bp service station",
+   "basis": "answers.owner_answers",
+   "status": "answered"
   },
   {
    "question": "Have you worked for McConnell Dowell Group before?",
@@ -158,7 +158,7 @@
     "4 weeks",
     "5+ weeks"
    ],
-   "answer": "2 weeks",
+   "answer": "3 weeks",
    "basis": "answers.notice_period",
    "status": "answered"
   },
@@ -249,7 +249,7 @@
   }
  ],
  "status": "ASK_OWNER",
- "ask_owner": "No standing answer for 13 form questions: How do you describe your gender? (options: Woman / Man / Non-binary / Prefer not to answer) | Address Line 1 | Suburb | State/Province/Region | Postcode | Country (options: Australia / Hong Kong / India / New Zealand / Singapore / United Kingdom / United States) | Current Position | Current Employer | Have you worked for McConnell Dowell Group before? (options: Yes / No) | Do you have the legal right to work in the country where this role is based? (options: Yes / No) | Are you of Aboriginal or Torres Strait Islander origin? (options: Yes, Aboriginal / Yes, Torres Strait Islander / Yes, both Aboriginal and Torres Strait Islander / No / Prefer not to say) | Were you referred to this role by a current McConnell Dowell employee? (options: Yes / No) | Are you currently employed by McConnell Dowell Group? (options: Yes / No)",
+ "ask_owner": "No standing answer for 11 form questions: How do you describe your gender? (options: Woman / Man / Non-binary / Prefer not to answer) | Address Line 1 | Suburb | State/Province/Region | Postcode | Country (options: Australia / Hong Kong / India / New Zealand / Singapore / United Kingdom / United States) | Have you worked for McConnell Dowell Group before? (options: Yes / No) | Do you have the legal right to work in the country where this role is based? (options: Yes / No) | Are you of Aboriginal or Torres Strait Islander origin? (options: Yes, Aboriginal / Yes, Torres Strait Islander / Yes, both Aboriginal and Torres Strait Islander / No / Prefer not to say) | Were you referred to this role by a current McConnell Dowell employee? (options: Yes / No) | Are you currently employed by McConnell Dowell Group? (options: Yes / No)",
  "attempts": [
   {
    "at": "2026-11-15T06:43:42Z",

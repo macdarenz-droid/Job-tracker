@@ -48,16 +48,16 @@
   {
    "question": "How much notice are you required to give your current employer?",
    "options": [],
-   "answer": "2 weeks",
+   "answer": "3 weeks",
    "basis": "answers.notice_period",
    "status": "answered"
   },
   {
    "question": "How many years experience in Structural Design do you have?",
    "options": [],
-   "answer": "",
-   "basis": "answers.years_of_experience",
-   "status": "unanswered"
+   "answer": "No paid structural design work. Academic only: AutoCAD, Civil 3D and Revit through the Advanced Diploma of Civil Construction Design.",
+   "basis": "answers.owner_answers",
+   "status": "answered"
   },
   {
    "question": "Do you have Engineering Drawing Interpretation experience?",
@@ -67,8 +67,8 @@
    "status": "answered"
   }
  ],
- "status": "ASK_OWNER",
- "ask_owner": "No standing answer for this form question: How many years experience in Structural Design do you have?",
+ "status": "OPEN",
+ "ask_owner": "",
  "attempts": [],
  "receipt": {},
  "created_by": "Grok",
