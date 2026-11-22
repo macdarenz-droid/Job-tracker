@@ -387,6 +387,118 @@
     "question": "We operate in a hybrid model. If you are in an office-based role, do you have a home workstation set up to ensure a safe working environment?",
     "answer": "Yes, I have a home workstation set up with my own laptop (Acer Nitro 5).",
     "date": "2026-11-22"
+   },
+   {
+    "question": "Have you been previously employed in Fulton Hogan? (e.g. Contractor or Employee). NOTE : If you are a current Fulton Hogan Employee please apply through our Internal Careers Site on theHub or contact your local HR support.",
+    "options": [
+     "Yes",
+     "No"
+    ],
+    "answer": "No",
+    "date": "2026-11-22",
+    "entry": "fulton-hogan-trainee-lab-technician-858b2e0e"
+   },
+   {
+    "question": "Middle Name",
+    "answer": "Llanes",
+    "date": "2026-11-22"
+   },
+   {
+    "question": "Phone Device Type",
+    "options": [
+     "Landline",
+     "Mobile"
+    ],
+    "answer": "Mobile",
+    "date": "2026-11-22"
+   },
+   {
+    "question": "Have you previously worked for Martinus Rail?",
+    "options": [
+     "Yes",
+     "No"
+    ],
+    "answer": "No",
+    "date": "2026-11-22"
+   },
+   {
+    "question": "How did you hear about us?",
+    "options": [
+     "Martinus Rail Website",
+     "LinkedIn",
+     "Seek",
+     "Facebook",
+     "Specific Project",
+     "Referred by a work colleague",
+     "Referred by a mate",
+     "Referred by someone at Martinus Rail",
+     "Recruitment agency",
+     "Other"
+    ],
+    "answer": "Seek",
+    "date": "2026-11-22",
+    "entry": "seek-95695784"
+   },
+   {
+    "question": "What is the earliest date you can start with us?",
+    "answer": "3 weeks after an offer",
+    "date": "2026-11-22"
+   },
+   {
+    "question": "Have you worked for McConnell Dowell Group before?",
+    "options": [
+     "Yes",
+     "No"
+    ],
+    "answer": "No",
+    "date": "2026-11-22"
+   },
+   {
+    "question": "Do you have the legal right to work in the country where this role is based?",
+    "options": [
+     "Yes",
+     "No"
+    ],
+    "answer": "Yes",
+    "date": "2026-11-22",
+    "entry": "seek-95705736"
+   },
+   {
+    "question": "Were you referred to this role by a current McConnell Dowell employee?",
+    "options": [
+     "Yes",
+     "No"
+    ],
+    "answer": "No",
+    "date": "2026-11-22",
+    "entry": "seek-95705736"
+   },
+   {
+    "question": "Are you currently employed by McConnell Dowell Group?",
+    "options": [
+     "Yes",
+     "No"
+    ],
+    "answer": "No",
+    "date": "2026-11-22"
+   },
+   {
+    "question": "When will you be available for this role?",
+    "options": [
+     "Immediate",
+     "After a certain date",
+     "2 weeks",
+     "4 weeks"
+    ],
+    "answer": "4 weeks",
+    "date": "2026-11-22",
+    "entry": "seek-95866809"
+   },
+   {
+    "question": "Are you currently living in Australia and have unrestricted working right?",
+    "answer": "Yes",
+    "date": "2026-11-22",
+    "entry": "seek-95904557"
    }
   ]
  }

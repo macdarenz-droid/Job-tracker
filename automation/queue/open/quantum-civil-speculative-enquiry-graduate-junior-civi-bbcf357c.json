@@ -24,19 +24,25 @@
   "evidence_url": ""
  },
  "questions": [],
- "status": "ASK_OWNER",
- "ask_owner": "Quantum Civil (Geelong West), an enquiry through its careers form with no advertised job: the careers page text was never saved in the repo, only a runner's note of 11 Nov, so the letter's line about the page cannot be checked. Should a runner re-read quantumcivil.com.au/careers, save its text and confirm it invites people 'just starting out', or should this be dropped? (Answer: re-read or drop.)",
+ "status": "OPEN",
+ "ask_owner": "",
  "attempts": [
   {
    "at": "2026-11-13T15:01:37Z",
    "by": "Claude",
    "result": "asked_owner",
    "note": "Quantum Civil (Geelong West), an enquiry through its careers form with no advertised job: the careers page text was never saved in the repo, only a runner's note of 11 Nov, so the letter's line about the page cannot be checked. Should a runner re-read quantumcivil.com.au/careers, save its text and confirm it invites people 'just starting out', or should this be dropped? (Answer: re-read or drop.)"
+  },
+  {
+   "at": "2026-11-22T03:22:35Z",
+   "by": "Grok",
+   "result": "reopened",
+   "note": "owner: re-read quantumcivil.com.au/careers on 22 Nov 2026; the page invites people just starting out (quote saved in the entry notes); keep the enquiry (question was: Quantum Civil (Geelong West), an enquiry through its careers form with no advertised job: the careers page text was never saved in the repo, only a runner's note of 11 Nov, so the letter's line about the page cannot be checked. Should a runner re-read quantumcivil.com.au/careers, save its text and confirm it invites people 'just starting out', or should this be dropped? (Answer: re-read or drop.))"
   }
  ],
  "receipt": {},
  "created_by": "import_backlog.py",
  "created_at": "2026-11-13T00:40:00Z",
  "source_run": "20261111T1010Z",
- "notes": "Imported from the backlog of 2026-11-13 (old status PREPARED_NOT_SENT). Fit 62% is from the old rubric.\nLane engineer: Speculative enquiry for a graduate or junior civil site role, through the careers form.\nNo letter text was in the repo for this find: write one."
+ "notes": "Imported from the backlog of 2026-11-13 (old status PREPARED_NOT_SENT). Fit 62% is from the old rubric.\nLane engineer: Speculative enquiry for a graduate or junior civil site role, through the careers form.\nNo letter text was in the repo for this find: write one.\nCareers page text saved 22 Nov 2026 from https://quantumcivil.com.au/careers: \"At Quantum Civil, we're always looking for skilled and motivated individuals to join our growing team. Whether you're an experienced professional in civil construction or just starting out and eager to learn, we want to hear from you. If you're passionate about quality work, safety, and making a positive impact in local communities, express your interest below — and let's start a conversation.\""
 }

@@ -144,9 +144,9 @@
     "Yes",
     "No"
    ],
-   "answer": "",
-   "basis": "",
-   "status": "unanswered"
+   "answer": "No",
+   "basis": "answers.owner_answers",
+   "status": "answered"
   },
   {
    "question": "What is your notice period?",
@@ -168,9 +168,9 @@
     "Yes",
     "No"
    ],
-   "answer": "",
-   "basis": "",
-   "status": "unanswered"
+   "answer": "Yes",
+   "basis": "answers.owner_answers",
+   "status": "answered"
   },
   {
    "question": "Which of the following statements best describe your rights to work in Australia?",
@@ -233,9 +233,9 @@
     "Yes",
     "No"
    ],
-   "answer": "",
-   "basis": "",
-   "status": "unanswered"
+   "answer": "No",
+   "basis": "answers.owner_answers",
+   "status": "answered"
   },
   {
    "question": "Are you currently employed by McConnell Dowell Group?",
@@ -243,13 +243,13 @@
     "Yes",
     "No"
    ],
-   "answer": "",
-   "basis": "",
-   "status": "unanswered"
+   "answer": "No",
+   "basis": "answers.owner_answers",
+   "status": "answered"
   }
  ],
  "status": "ASK_OWNER",
- "ask_owner": "No standing answer for 11 form questions: How do you describe your gender? (options: Woman / Man / Non-binary / Prefer not to answer) | Address Line 1 | Suburb | State/Province/Region | Postcode | Country (options: Australia / Hong Kong / India / New Zealand / Singapore / United Kingdom / United States) | Have you worked for McConnell Dowell Group before? (options: Yes / No) | Do you have the legal right to work in the country where this role is based? (options: Yes / No) | Are you of Aboriginal or Torres Strait Islander origin? (options: Yes, Aboriginal / Yes, Torres Strait Islander / Yes, both Aboriginal and Torres Strait Islander / No / Prefer not to say) | Were you referred to this role by a current McConnell Dowell employee? (options: Yes / No) | Are you currently employed by McConnell Dowell Group? (options: Yes / No)",
+ "ask_owner": "No standing answer for 7 form questions: How do you describe your gender? (options: Woman / Man / Non-binary / Prefer not to answer) | Address Line 1 | Suburb | State/Province/Region | Postcode | Country (options: Australia / Hong Kong / India / New Zealand / Singapore / United Kingdom / United States) | Are you of Aboriginal or Torres Strait Islander origin? (options: Yes, Aboriginal / Yes, Torres Strait Islander / Yes, both Aboriginal and Torres Strait Islander / No / Prefer not to say)",
  "attempts": [
   {
    "at": "2026-11-15T06:43:42Z",

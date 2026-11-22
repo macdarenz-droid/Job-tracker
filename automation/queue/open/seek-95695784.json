@@ -92,9 +92,9 @@
     "Yes",
     "No"
    ],
-   "answer": "",
-   "basis": "",
-   "status": "unanswered"
+   "answer": "No",
+   "basis": "answers.owner_answers",
+   "status": "answered"
   },
   {
    "question": "What are you salary expectations? (base salary, excluding super):",
@@ -117,20 +117,20 @@
     "Recruitment agency",
     "Other"
    ],
-   "answer": "",
+   "answer": "Seek",
    "basis": "answers.owner_answers",
-   "status": "unanswered"
+   "status": "answered"
   },
   {
    "question": "What is the earliest date you can start with us?",
    "options": [],
-   "answer": "",
-   "basis": "",
-   "status": "unanswered"
+   "answer": "3 weeks after an offer",
+   "basis": "answers.owner_answers",
+   "status": "answered"
   }
  ],
  "status": "ASK_OWNER",
- "ask_owner": "No standing answer for 8 form questions: First Name (legal name shown on your Drivers Licence/Passport): | Surname (legal name shown on your Drivers Licence/Passport): | Residential Address: | Do you identify as an Aboriginal or Torres Strait Islander? (options: Yes / No) | What is your current residential address? | Have you previously worked for Martinus Rail? (options: Yes / No) | How did you hear about us? (options: Martinus Rail Website / LinkedIn / Seek / Facebook / Specific Project / Referred by a work colleague / Referred by a mate / Referred by someone at Martinus Rail / Recruitment agency / Other) | What is the earliest date you can start with us?",
+ "ask_owner": "No standing answer for 5 form questions: First Name (legal name shown on your Drivers Licence/Passport): | Surname (legal name shown on your Drivers Licence/Passport): | Residential Address: | Do you identify as an Aboriginal or Torres Strait Islander? (options: Yes / No) | What is your current residential address?",
  "attempts": [
   {
    "at": "2026-11-15T06:35:28Z",

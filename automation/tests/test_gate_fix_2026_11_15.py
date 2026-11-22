@@ -240,7 +240,8 @@ class ContactFields(Case):
             self.no(gate(text))
 
     def test_other_parts_of_the_name_stay_with_the_owner(self):
-        for text in ('Middle name', 'Preferred Name', 'Preferred first name', 'Legal name', 'Legal first name', 'Given names', 'First names',
+        self.ok(gate('Middle name'), 'Llanes', 'answers.owner_answers')
+        for text in ('Preferred Name', 'Preferred first name', 'Legal name', 'Legal first name', 'Given names', 'First names',
                      'Given name(s)', 'Maiden name', 'Previous surname', 'Title'):
             self.no(gate(text))
 

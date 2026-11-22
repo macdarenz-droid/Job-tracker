@@ -27,9 +27,9 @@
   {
    "question": "Are you currently living in Australia and have unrestricted working right?",
    "options": [],
-   "answer": "",
-   "basis": "answers.right_to_work",
-   "status": "unanswered"
+   "answer": "Yes",
+   "basis": "answers.owner_answers",
+   "status": "answered"
   },
   {
    "question": "Please detail your minimum salary expectations (excluding super):",
@@ -39,8 +39,8 @@
    "status": "answered"
   }
  ],
- "status": "ASK_OWNER",
- "ask_owner": "No standing answer for this form question: Are you currently living in Australia and have unrestricted working right?",
+ "status": "OPEN",
+ "ask_owner": "",
  "attempts": [],
  "receipt": {},
  "created_by": "Grok",
