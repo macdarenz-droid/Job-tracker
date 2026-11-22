@@ -2,27 +2,24 @@
 
 Written by `automation/scripts/queue.py render` from the files in `open/`. Do not edit by hand.
 
-## SEEK (5 open)
+## SEEK (3 open)
 
 | # | Lane | Company | Role | Location | Target | Closes | Link | Note |
 |---|---|---|---|---|---|---|---|---|
-| 1 | drafter | Synergia Constructions | Civil Engineering Draftperson | St Clair, Adelaide SA | regional | 2026-12-17 (listing expiry) | [seek-95911889](https://www.seek.com.au/job/95911889) |  |
-| 2 | drafter | LC Water | Junior Civil Draftsperson | Norlane, Geelong VIC | regional | 2026-11-26 (listing expiry) | [seek-95506594](https://www.seek.com.au/job/95506594) |  |
-| 3 | technician | Hawk Geo Pty Ltd | CMT Laboratory Technician | Boolaroo, Newcastle NSW | regional | 2026-12-17 (listing expiry) | [seek-95942487](https://www.seek.com.au/job/95942487) |  |
-| 4 | engineer | Pavement Asset Services Pty Ltd | Graduate Civil Engineer or Civil Engineer (0 – 5 years’ experience) | Hindmarsh, Adelaide SA | regional | 2026-12-17 (listing expiry) | [seek-95938355](https://www.seek.com.au/job/95938355) |  |
-| 5 | engineer | Chalouhi | Site Engineer | Sydney NSW | not regional | 2026-12-16 (listing expiry) | [seek-95904557](https://www.seek.com.au/job/95904557) |  |
+| 1 | technician | Hawk Geo Pty Ltd | CMT Laboratory Technician | Boolaroo, Newcastle NSW | regional | 2026-12-17 (listing expiry) | [seek-95942487](https://www.seek.com.au/job/95942487) |  |
+| 2 | engineer | Pavement Asset Services Pty Ltd | Graduate Civil Engineer or Civil Engineer (0 – 5 years’ experience) | Hindmarsh, Adelaide SA | regional | 2026-12-17 (listing expiry) | [seek-95938355](https://www.seek.com.au/job/95938355) |  |
+| 3 | engineer | Chalouhi | Site Engineer | Sydney NSW | not regional | 2026-12-16 (listing expiry) | [seek-95904557](https://www.seek.com.au/job/95904557) |  |
 
 ## EMAIL (0 open)
 
 Nothing open.
 
-## EMPLOYER_PORTAL (3 open)
+## EMPLOYER_PORTAL (2 open)
 
 | # | Lane | Company | Role | Location | Target | Closes | Link | Note |
 |---|---|---|---|---|---|---|---|---|
-| 1 | drafter | Technical Resources | Junior Civil Drafter (rail and civil, Perth) | Perth WA (hybrid) | regional | not stated | [technical-resources-junior-civil-drafter-rail-and-civil-pert-65619915](https://www.resourcejobs.au/jobs/junior-civil-drafter-47fd5c6e3ed14d6295b5a29023e3b3e6) | started by Grok, no result recorded |
-| 2 | technician | WSP | Laboratory Technician in Training | Western Australia (geotechnical laboratory network) | regional | not stated | [wsp-laboratory-technician-in-training-7909dd6d](https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/96985) |  |
-| 3 | drafter | Nassima Design Group | Civil Engineering Draftsperson | VIC 3094 (Montmorency, north east Melbourne) VIC | not regional | not stated | [nassima-design-group-civil-engineering-draftsperson-7b2c2f1e](https://jobsnext.com.au/jobs/c660bac0-c53b-4e31-94f7-c141b009c682/view/) |  |
+| 1 | technician | WSP | Laboratory Technician in Training | Western Australia (geotechnical laboratory network) | regional | not stated | [wsp-laboratory-technician-in-training-7909dd6d](https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/96985) |  |
+| 2 | drafter | Nassima Design Group | Civil Engineering Draftsperson | VIC 3094 (Montmorency, north east Melbourne) VIC | not regional | not stated | [nassima-design-group-civil-engineering-draftsperson-7b2c2f1e](https://jobsnext.com.au/jobs/c660bac0-c53b-4e31-94f7-c141b009c682/view/) |  |
 
 ## EMPLOYER_FORM (1 open)
 
