@@ -24,7 +24,7 @@
   "evidence_url": ""
  },
  "questions": [],
- "status": "OPEN",
+ "status": "SKIPPED",
  "ask_owner": "",
  "attempts": [
   {
@@ -88,6 +88,26 @@
    "result": "started",
    "note": "",
    "run": "20261122T031703Z"
+  },
+  {
+   "at": "2026-11-22T06:47:57Z",
+   "by": "Grok",
+   "result": "uncertain",
+   "note": "site dashboard shows 0 applications; never submitted (paid Magic Apply only)"
+  },
+  {
+   "at": "2026-11-22T06:47:57Z",
+   "by": "Grok",
+   "result": "reopened",
+   "note": "checked: resourcejobs dashboard shows job bookmarked, 0 applications",
+   "run": "20261122T063455"
+  },
+  {
+   "at": "2026-11-22T06:47:57Z",
+   "by": "Grok",
+   "result": "skipped",
+   "note": "owner: drop it, site applies only via paid credit 2026-11-22",
+   "run": "20261122T063455"
   }
  ],
  "receipt": {},
