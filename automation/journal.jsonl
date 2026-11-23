@@ -421,3 +421,4 @@
 {"run_id": "20261123T212900Z", "at": "2026-11-23T21:29:00.000Z", "stage": "start"}
 {"run_id": "20261123T214228Z", "at": "2026-11-23T21:42:28.000Z", "stage": "start"}
 {"run_id": "20261123T214228Z", "at": "2026-11-23T21:42:56.000Z", "stage": "end", "queue_open": 7, "applied": 0, "seek_submitted": 0, "emails_sent": 0, "portal_submitted": 0, "expired_unsubmitted": 0, "replies": 3, "interviews": 0, "new_adverts_screened": 0, "queued": 0, "rejected": 0, "ask_owner": 3, "nothing_new": true}
+{"run_id": "20261123T212900Z", "at": "2026-11-23T21:43:52.000Z", "stage": "screen", "new_adverts_screened": 60, "queued": 3, "rejected": 57, "ask_owner": 0}
