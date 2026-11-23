@@ -654,7 +654,12 @@
    ],
    "teaser": "Work on diverse, high-impact land development and civil projects across WA within a genuinely supportive team culture that rewards your success",
    "relevance": 15,
-   "lane": "drafter"
+   "lane": "drafter",
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -703,7 +708,14 @@
    ],
    "teaser": "Join MCE as a Civil Engineering Draftsperson, preparing civil designs, technical drawings and documentation across a variety of engineering projects.",
    "relevance": 15,
-   "lane": "drafter"
+   "lane": "drafter",
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": [
+     "unsubmitted lead on file (does not block): Drafter · READY_SEEK"
+    ]
+   }
   },
   {
    "source": "seek",
@@ -745,7 +757,12 @@
    ],
    "teaser": "Opportunity for an experienced Project Engineer to support the delivery of major civil earthworks and infrastructure projects.",
    "relevance": 13,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -796,7 +813,12 @@
    ],
    "teaser": "Casual Cadet Engineer role - with possibility of Permanent Graduate role.",
    "relevance": 12,
-   "lane": "engineer"
+   "lane": "engineer",
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -832,7 +854,12 @@
    ],
    "teaser": "Great opportunity for detail-oriented Draftsperson who enjoys turning concepts into practical manufacturing solutions based in Lilydale.",
    "relevance": 11,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -873,7 +900,16 @@
    ],
    "teaser": "Take the next step in your engineering career. Deliver bulk earthworks projects across SEQ with genuine progression into Project Management.",
    "relevance": 11,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": [
+     "applied before, different role, allowed: Junior Project Engineer/Administrator · MANUAL_APPLIED · 2026-09-26",
+     "applied before, different role, allowed: Junior Project Engineer/Administrator · MANUAL_APPLIED · 2026-09-12",
+     "applied before, different role, allowed: Junior Project Engineer/Administrator · MANUAL_APPLIED_SEEK_RECEIPT_CONFIRMED · 2026-09-09"
+    ]
+   }
   },
   {
    "source": "seek",
@@ -925,7 +961,12 @@
    ],
    "teaser": "Immediate Civil Project Engineer contract in Mackay. TMR roadworks experience essential. Initial night shifts, Sunday to Thursday.",
    "relevance": 11,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -972,7 +1013,14 @@
    ],
    "teaser": "Join us as a Civil Engineer in Brisbane to work on urban development and civil infrastructure projects across SEQ!",
    "relevance": 11,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": [
+     "unsubmitted lead on file (does not block): Graduate Consultant - Rail · READY_SEEK"
+    ]
+   }
   },
   {
    "source": "seek",
@@ -1020,7 +1068,14 @@
    ],
    "teaser": "Join us as a Civil Engineer in Brisbane to work on urban development and civil infrastructure projects across SEQ!",
    "relevance": 11,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": [
+     "unsubmitted lead on file (does not block): Graduate Consultant - Rail · READY_SEEK"
+    ]
+   }
   },
   {
    "source": "seek",
@@ -1067,7 +1122,12 @@
    ],
    "teaser": "Deliver civil engineering solutions across diverse waste, mining and environmental projects.",
    "relevance": 10,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -1105,7 +1165,12 @@
    ],
    "teaser": "Provides assistance in the inspection and monitoring of assigned Projects including preparation of project related documents in accordance with the...",
    "relevance": 10,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -1140,7 +1205,12 @@
    ],
    "teaser": "This role plays a key part in delivering high-quality design solutions within project timeframes.",
    "relevance": 9,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -1183,7 +1253,12 @@
    ],
    "teaser": "Take your career to the next level—join a leading contractor delivering a high-profile civil infrastructure project in the heart of Brisbane.",
    "relevance": 9,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -1232,7 +1307,12 @@
    ],
    "teaser": "We currently have an available position for a Draftsperson based in our Adelaide office.",
    "relevance": 9,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -1275,7 +1355,12 @@
    ],
    "teaser": "If you're looking work/life balance then this could be the job for you",
    "relevance": 9,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -1319,7 +1404,12 @@
    ],
    "teaser": "Transurban QLD require an experienced Civil Labourer to join the Open Roads Maintenance Team on a permanent, full-time basis.",
    "relevance": 9,
-   "lane": "technician"
+   "lane": "technician",
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -1364,7 +1454,12 @@
    ],
    "teaser": "Take ownership of civil infrastructure projects and lead technical delivery, client relationships and consultancy growth.",
    "relevance": 9,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -1410,7 +1505,12 @@
    ],
    "teaser": "Manage projects, such as precast noise walls, pump stations, and custom precast solutions, from enquiry through to delivery and project close-out.",
    "relevance": 8,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -1457,7 +1557,12 @@
    ],
    "teaser": "Be part of a Murray Bridge civil maintenance team, working across local regions with a great mix of outdoor work, variety, and career growth.",
    "relevance": 8,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -1503,7 +1608,12 @@
    ],
    "teaser": "Livingstone Shire Council is seeking a motivated and enthusiastic Cadet Building Certifier to join our team. This is an excellent opportunity for...",
    "relevance": 8,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -1550,7 +1660,12 @@
    ],
    "teaser": "Join a growing consultancy delivering innovative hydraulic designs. Exciting projects, supportive team, and a positive environment.",
    "relevance": 7,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -1598,7 +1713,12 @@
    ],
    "teaser": "Initial contract till September 2027  Location: CBD - Hybrid work model  Work on a diverse portfolio of road, structural and civil infrastructure",
    "relevance": 7,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -1651,7 +1771,12 @@
    ],
    "teaser": "We’re looking for a dedicated Project Engineer to join our team and play a key role in ensuring the success of our projects from start to finish.",
    "relevance": 7,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -1694,7 +1819,14 @@
    ],
    "teaser": "Develop your laboratory career testing construction materials that support the delivery of essential infrastructure across Queensland.",
    "relevance": 7,
-   "lane": "technician"
+   "lane": "technician",
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": [
+     "unsubmitted lead on file (does not block): Site Engineer - TI PR VICTAS (Job 717761) · READY_EMPLOYER_PORTAL"
+    ]
+   }
   },
   {
    "source": "seek",
@@ -1727,7 +1859,12 @@
    ],
    "teaser": "We have an exciting opportunity for a Laboratory Technician to join our Lumen Christi College Community.",
    "relevance": 7,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -1759,7 +1896,12 @@
    ],
    "teaser": "Join the innovative team at Queensland Academy for Creative Industries (QACI) as a Science Technician and help bring science learning to...",
    "relevance": 6,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -1800,7 +1942,12 @@
    ],
    "teaser": "Project Engineer",
    "relevance": 6,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -1849,7 +1996,15 @@
    ],
    "teaser": "Join a National Construction company as a Site Engineer in Shepparton, Victoria.",
    "relevance": 6,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": [
+     "applied before, different role, allowed: Project Engineer - South East · MANUAL_APPLIED · 2026-07-04",
+     "applied before, different role, allowed: Undergraduate/Graduate Civil Engineer & Construction Management: Residential - VIC & SA · APPLICATION_UNDER_REVIEW · 2026-09-27"
+    ]
+   }
   },
   {
    "source": "seek",
@@ -1883,7 +2038,12 @@
    ],
    "teaser": "Learn a specialised trade with full training, career growth and hands-on work across South East Queensland.",
    "relevance": 6,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -1924,7 +2084,12 @@
    ],
    "teaser": "Qualified or ready to learn? Build your pest management career with Newcastle Kill A Pest. Training and development provided.",
    "relevance": 5,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -1970,7 +2135,14 @@
    ],
    "teaser": "Silverstrand is seeking a Project Engineer to become a key part in shaping the future of our business alongside an experienced team.",
    "relevance": 5,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": [
+     "unsubmitted lead on file (does not block): Site Engineer · HELD_MANDATORY_REQUIREMENTS"
+    ]
+   }
   },
   {
    "source": "seek",
@@ -2014,7 +2186,14 @@
    ],
    "teaser": "Didn't finish your trade, or recently qualified and want something new? Join our drainage crews and learn pipelaying from the ground up.",
    "relevance": 5,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": [
+     "applied before, different role, allowed: Site Engineer - Urban Development - EOI 2027 · MANUAL_APPLIED · 2026-11-16"
+    ]
+   }
   },
   {
    "source": "seek",
@@ -2050,7 +2229,12 @@
    ],
    "teaser": "Competitive pay, staff benefits and career development.",
    "relevance": 5,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -2092,7 +2276,12 @@
    ],
    "teaser": "Public Sector People are working with a local council to recruit a Development Engineer for a 3-month temporary contract assignment.",
    "relevance": 5,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -2135,7 +2324,14 @@
    ],
    "teaser": "Develop a team of Site Engineers and Graduate Engineer | Be empowered to lead | Permanent, Full-Time opportunity",
    "relevance": 5,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": [
+     "unsubmitted lead on file (does not block): Junior Estimator (Infrastructure Services) · READY_EMPLOYER_PORTAL"
+    ]
+   }
   },
   {
    "source": "seek",
@@ -2178,7 +2374,14 @@
    ],
    "teaser": "Develop a team of Site Engineers and Graduate Engineer | Be empowered to lead | Permanent, Full-Time opportunity",
    "relevance": 5,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": [
+     "unsubmitted lead on file (does not block): Junior Estimator (Infrastructure Services) · READY_EMPLOYER_PORTAL"
+    ]
+   }
   },
   {
    "source": "seek",
@@ -2212,7 +2415,12 @@
    ],
    "teaser": "Come join the team at the iconic Superpit - apply now!",
    "relevance": 5,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -2246,7 +2454,12 @@
    ],
    "teaser": "Work for a stable long-term Employer and access premium benefits including private health, income protection insurance, employee shares and discounts.",
    "relevance": 5,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -2280,7 +2493,12 @@
    ],
    "teaser": "Entry Level Mining position with a leader in the mining industry to work as an Underground Rock Tools Technician",
    "relevance": 4,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -2326,7 +2544,12 @@
    ],
    "teaser": "Our Tier 1 Mining Client is looking for an experienced Engineering Draftsperson to start January 2027.",
    "relevance": 4,
-   "lane": "drafter"
+   "lane": "drafter",
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -2365,7 +2588,12 @@
    ],
    "teaser": "Join Texco's experienced Architecture team, contributing to diverse industrial projects while growing your Revit expertise and technical capabilities.",
    "relevance": 4,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -2409,7 +2637,15 @@
    ],
    "teaser": "An exciting opportunity for someone to grow their technical expertise, contribute to a diverse range of projects with a supportive team.",
    "relevance": 4,
-   "lane": "drafter"
+   "lane": "drafter",
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": [
+     "unsubmitted lead on file (does not block): Graduate Engineer, Civil · HELD_DEGREE_RECENCY_AND_PORTAL",
+     "unsubmitted lead on file (does not block): Graduate Engineer, Civil · READY_EMPLOYER_PORTAL"
+    ]
+   }
   },
   {
    "source": "seek",
@@ -2453,7 +2689,12 @@
    ],
    "teaser": "Deliver projects that keep Australia moving. Join IOR as a Project Engineer and lead innovative fuel infrastructure projects nationwide.",
    "relevance": 4,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -2489,7 +2730,12 @@
    ],
    "teaser": "Lead BMCS engineering projects with competitive salary, super, car allowance & career growth in Macquarie Park.",
    "relevance": 3,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -2528,7 +2774,12 @@
    ],
    "teaser": "Seeking Project Engineer with exp on commercial building projects. Multiple site options available on new projects in early stages of construction.",
    "relevance": 3,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -2562,7 +2813,12 @@
    ],
    "teaser": "Take ownership of critical gas drainage systems. 7/7 roster with accommodation provided and career growth.",
    "relevance": 3,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -2600,7 +2856,12 @@
    ],
    "teaser": "Apply your mechanical engineering skills to innovative fire services projects.",
    "relevance": 3,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -2632,7 +2893,12 @@
    ],
    "teaser": "Established mid-sized studio with a reputation for creating engaging and award-winning designs is seeking a solid ArchiCAD Graduate",
    "relevance": 3,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -2667,7 +2933,12 @@
    ],
    "teaser": "Install, maintain and troubleshoot irrigation systems on major commercial landscape projects across Brisbane. Grow your career with us",
    "relevance": 3,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -2715,7 +2986,12 @@
    ],
    "teaser": "Excellent opportunity within a growing organisation. Varied Local and State Government projects.",
    "relevance": 3,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -2759,7 +3035,12 @@
    ],
    "teaser": "Public Sector People are working with a local council to recruit a Project Engineer for a 2-month temporary contract assignment.",
    "relevance": 3,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -2796,7 +3077,12 @@
    ],
    "teaser": "We are looking for a motivated individual to assist the operations team at our Macquarie Park office in developing Energy Control Systems.",
    "relevance": 3,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -2826,7 +3112,12 @@
    ],
    "teaser": "As a JLL Graduate, you will build a strong foundation in commercial real estate by working across multiple business lines over 24 months. Your role...",
    "relevance": 3,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -2861,7 +3152,12 @@
    ],
    "teaser": "Put your maintenance skills to work across remote SA. Adelaide based role with recovery leave and regular travel.",
    "relevance": 2,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -2901,7 +3197,12 @@
    ],
    "teaser": "We are currently recruiting for a TBM Project Engineer for the Snowy 2.0 Project",
    "relevance": 2,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -2935,7 +3236,12 @@
    ],
    "teaser": "We are seeking an experienced Process Technician to join our Ammonium Nitrate Emulsion team at our Kwinana site.",
    "relevance": 2,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -2966,7 +3272,12 @@
    ],
    "teaser": "Service Technician required for field based position around Melbourne's South - Eastern Suburbs working on laboratory equipment",
    "relevance": 2,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -3006,7 +3317,12 @@
    ],
    "teaser": "ABBA Engineering is growing its FIFO Dewatering Team and is seeking experienced, motivated Dewatering Technicians to join our team.",
    "relevance": 2,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -3041,7 +3357,12 @@
    ],
    "teaser": "Project Engineers required for Piling projects across NSW & QLD on a FIFO basis. Long term projects, excellent company, manage teams, supervise works.",
    "relevance": 2,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   },
   {
    "source": "seek",
@@ -3074,7 +3395,12 @@
    ],
    "teaser": "Highly competitive salary. Full-time job, flexible arrangements Compounding technician, immediate start.",
    "relevance": 2,
-   "lane": null
+   "lane": null,
+   "duplicate": {
+    "blocked": false,
+    "reason": "new",
+    "notes": []
+   }
   }
  ],
  "rejected_titles": [
