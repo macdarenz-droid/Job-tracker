@@ -13,18 +13,20 @@ Written by `automation/scripts/queue.py render` from the files in `open/`. Do no
 
 Nothing open.
 
-## EMPLOYER_PORTAL (2 open)
+## EMPLOYER_PORTAL (3 open)
 
 | # | Lane | Company | Role | Location | Target | Closes | Link | Note |
 |---|---|---|---|---|---|---|---|---|
-| 1 | technician | WSP | Laboratory Technician in Training | Western Australia (geotechnical laboratory network) | regional | not stated | [wsp-laboratory-technician-in-training-7909dd6d](https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/96985) | started by Grok, no result recorded |
-| 2 | drafter | Nassima Design Group | Civil Engineering Draftsperson | VIC 3094 (Montmorency, north east Melbourne) VIC | not regional | not stated | [nassima-design-group-civil-engineering-draftsperson-7b2c2f1e](https://jobsnext.com.au/jobs/c660bac0-c53b-4e31-94f7-c141b009c682/view/) |  |
+| 1 | technician | Coffey Testing Pty Ltd | Construction Materials Testing Technician - Entry-Level | St Marys, Adelaide SA | regional | 2026-12-13 (listing expiry) | [seek-95866662](https://www.seek.com.au/job/95866662) |  |
+| 2 | technician | WSP | Laboratory Technician in Training | Western Australia (geotechnical laboratory network) | regional | not stated | [wsp-laboratory-technician-in-training-7909dd6d](https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/96985) | started by Grok, no result recorded |
+| 3 | drafter | Nassima Design Group | Civil Engineering Draftsperson | VIC 3094 (Montmorency, north east Melbourne) VIC | not regional | not stated | [nassima-design-group-civil-engineering-draftsperson-7b2c2f1e](https://jobsnext.com.au/jobs/c660bac0-c53b-4e31-94f7-c141b009c682/view/) |  |
 
-## EMPLOYER_FORM (1 open)
+## EMPLOYER_FORM (2 open)
 
 | # | Lane | Company | Role | Location | Target | Closes | Link | Note |
 |---|---|---|---|---|---|---|---|---|
-| 1 | engineer | Quantum Civil | Speculative enquiry: graduate / junior civil site role | Geelong West VIC (possible Warrnambool) | regional | not stated | [quantum-civil-speculative-enquiry-graduate-junior-civi-bbcf357c](https://www.quantumcivil.com.au/careers) |  |
+| 1 | drafter | Contrive Consultants | Civil Draftsperson | Bella Vista, Sydney NSW | not regional | not stated | [contrive-consultants-civil-draftsperson-1dc6e35e](https://contriveconsultants.com.au/careers/#apply) |  |
+| 2 | engineer | Quantum Civil | Speculative enquiry: graduate / junior civil site role | Geelong West VIC (possible Warrnambool) | regional | not stated | [quantum-civil-speculative-enquiry-graduate-junior-civi-bbcf357c](https://www.quantumcivil.com.au/careers) |  |
 
 ## Waiting on the owner (3)
 
