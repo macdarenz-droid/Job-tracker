@@ -73,5 +73,13 @@
  "created_by": "import_backlog.py",
  "created_at": "2026-11-13T00:40:00Z",
  "source_run": "20261030T0811Z",
- "notes": "Imported from the backlog of 2026-11-13 (old status READY_SEEK). Fit 78% is from the old rubric."
+ "notes": "Imported from the backlog of 2026-11-13 (old status READY_SEEK). Fit 78% is from the old rubric.",
+ "outcomes": [
+  {
+   "kind": "acknowledged",
+   "at": "2026-11-23",
+   "by": "Grok",
+   "note": "Holding reply: they will contact only if he progresses, otherwise treat as unsuccessful."
+  }
+ ]
 }
