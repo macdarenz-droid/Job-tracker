@@ -1,0 +1,42 @@
+{
+ "id": "seek-95866662",
+ "lane": "technician",
+ "route": "EMPLOYER_PORTAL",
+ "application_type": "ADVERTISED_VACANCY",
+ "company": "Coffey Testing Pty Ltd",
+ "role": "Construction Materials Testing Technician - Entry-Level",
+ "location": "St Marys, Adelaide SA",
+ "url": "https://www.seek.com.au/job/95866662",
+ "seek_id": "95866662",
+ "listed_at": "2026-11-12",
+ "closes_at": "2026-12-13",
+ "closes_source": "listing_expiry",
+ "fit": 90,
+ "sponsorship_signal": "",
+ "regional": true,
+ "resume_variant": "technician",
+ "relocation_line": "I will relocate to Adelaide for this role and can start three weeks after an offer.",
+ "cover_letter_text": "Hi Coffey Testing team,\n\nMy name's Marc. I graduated in February 2026 with an Advanced Diploma of Civil Construction Design, and I'd like to start out as an entry-level CMT technician. Your Training Academy in the first week, then learning tests in the lab and on site, is the kind of start I'm after.\n\nOn building and subdivision sites in the Philippines I did inspections and quality checks and kept material and progress records. In the diploma I worked with AS 1289 and AS 1726.\n\nI will relocate to Adelaide for this role and can start three weeks after an offer. I have full working rights in Australia (Subclass 485 visa) and a full Victorian driver's licence. Happy to chat any time.\n\nKind regards,\nMarc Masarate",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [],
+ "status": "OPEN",
+ "ask_owner": "",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "Grok",
+ "created_at": "2026-11-23T21:36:31Z",
+ "source_run": "20261123T212900Z",
+ "notes": "Entry-level CMT at the Adelaide laboratory, full-time, funded training academy. A previous Werribee entry-level CMT listing for the same employer (different SEEK id) expired unsubmitted. Lifting 15kg is within the recorded range. Manual licence is advantageous only.",
+ "advert_pay": "not stated",
+ "verify_before_submit": [
+  "Confirm the advert is still open and still a full-time entry-level CMT technician role in Adelaide",
+  "SEEK apply is a link-out to the employer site; submit only on the employer site, never twice",
+  "A manual driver's licence is only advantageous; do not claim a manual licence (automatic only)",
+  "Run every question on the employer form through queue.py answer; leave the form unsubmitted if any question has no standing answer"
+ ]
+}

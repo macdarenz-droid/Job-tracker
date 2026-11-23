@@ -1,0 +1,26 @@
+{
+  "lane": "drafter",
+  "route": "EMPLOYER_FORM",
+  "company": "Contrive Consultants",
+  "role": "Civil Draftsperson",
+  "url": "https://contriveconsultants.com.au/careers/#apply",
+  "advert_pay": "not stated",
+  "sponsorship_signal": "",
+  "location": "Bella Vista, Sydney NSW",
+  "fit": 85,
+  "resume_variant": "drafter",
+  "relocation_line": "I will relocate to Sydney for this role and can start three weeks after an offer.",
+  "application_type": "ADVERTISED_VACANCY",
+  "questions": [],
+  "verify_before_submit": [
+    "Confirm the Civil Draftsperson role is still open and still full-time at Bella Vista",
+    "Apply only through the careers page form, not by email (the listed address is a general contact, not an application address)",
+    "AutoCAD or QCAD is mandatory; AutoCAD is on record from the Advanced Diploma, not as paid production drafting — do not claim commercial AutoCAD or QCAD, Civil 3D, 12d, DRAINS or MUSIC",
+    "Run every form question through queue.py answer; leave the form unsubmitted if any question has no standing answer"
+  ],
+  "notes": "Full-time civil and stormwater drafting. AutoCAD or QCAD required (AutoCAD listed in facts from the diploma). Civil 3D and 12d are nice to have only. No closing date on the careers page.",
+  "source_run": "20261123T212900Z",
+  "cover_letter_text": "Hi Contrive Consultants team,\n\nMy name's Marc. I graduated in February 2026 with an Advanced Diploma of Civil Construction Design, and I'd like to start out as a civil draftsperson. Your careers page says the drawings go into real council submissions, with senior review on everything, so I wanted to apply.\n\nDuring the course I prepared civil drawings in AutoCAD and Civil 3D for roads, earthworks and stormwater drainage, and designed around existing services after lodging Before You Dig Australia enquiries. On site in the Philippines I reviewed drawings and checked work against the plans.\n\nI will relocate to Sydney for this role and can start three weeks after an offer. I have full working rights in Australia (Subclass 485 visa). Happy to chat any time.\n\nKind regards,\nMarc Masarate",
+  "advert_text": "Civil Draftsperson\nContrive Consultants - Civil & Stormwater\nBella Vista, Sydney NSW\nFull-time\nAutoCAD or QCAD experience essential\n\nDraft civil and stormwater packages - drainage layouts, OSD details, sediment control plans, road and pavement design - for developments across NSW.\n\nThis is a hands-on drafting role in a busy civil and stormwater team. AutoCAD or QCAD experience is essential. If you have drafted stormwater or civil plans before you will go to the top of the list, but we will also consider strong drafters from an adjacent field who want to move into civil.\n\nWhat you will be doing\n- Produce stormwater drainage layouts, longitudinal sections and pit and pipe schedules\n- Draft on-site detention (OSD) tank details, outlet structures and rainwater reuse arrangements\n- Prepare erosion and sediment control plans and construction detail sheets\n- Draft road, pavement, kerb and driveway profiles to council and Austroads standards\n- Set up and maintain drawing sheets, title blocks and CAD standards\n- Incorporate survey data and mark-ups from design engineers into drawing sets\n\nWhat we are looking for\n- Demonstrated AutoCAD or QCAD experience - this is mandatory for the role\n- Ability to work accurately from engineers’ mark-ups and redlines\n- Understanding of drawing conventions, scales, levels and annotation\n- Attention to detail and a methodical approach to revisions and issue control\n- Valid working rights in Australia\n\nNice to have\n- Previous stormwater or civil plan drafting - strongly preferred\n- Civil 3D, 12d Model or Civil Site Design experience\n- Familiarity with NSW council engineering specifications and works-as-executed drawings\n- Exposure to DRAINS or MUSIC output and how it feeds a drawing set\n\nThe careers page lists this role as one of three full-time positions based at the Bella Vista office. Applications are sent through the careers page form (a resume is required). Overseas qualifications are welcome. The page also notes early-career work is checked and marked up, and that drawings and reports go into real council submissions.\n",
+  "created_by": "Grok"
+}

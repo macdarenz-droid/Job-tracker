@@ -1,0 +1,68 @@
+[
+  {
+    "seek_id": "95991299",
+    "company": "Highland Recruitment Pty Ltd",
+    "role": "Junior Structural Drafter",
+    "location": "Braemar, Southern Highlands & Tablelands NSW",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Duties are steel floor and roof framing layouts (bearers, joists, rafters, purlins) and steel-framing software, which falls under the excluded steel shop detailing / framing-detailing work, not civil drafting. Weak duty match to the Advanced Diploma (roads, earthworks, drainage)."
+  },
+  {
+    "seek_id": "96011384",
+    "company": "Michael Bale & Associates Pty Ltd",
+    "role": "Experienced Civil Drafter / Junior 12D Designer",
+    "location": "Surfers Paradise, Gold Coast QLD",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "ASK_OWNER_NOT_QUEUED",
+    "reason": "Fit is there (full-time civil drafting, AutoCAD required and listed, 12d preferred only, juniors and graduates welcome). Two form questions have no standing answer: years of commercial design experience; plus the usual rights and salary questions are answerable. The commercial-design years question exits 5, so add would set ASK_OWNER. Not queued because three ASK_OWNER entries are already open."
+  },
+  {
+    "seek_id": "96022232",
+    "company": "Civcon Civil & Project Management Pty Ltd",
+    "role": "Graduate Civil Engineer",
+    "location": "West Perth, Perth WA",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Still open and full-time permanent, and not a formal graduate program, but current duties are tendering and estimating (quantity take-offs, labour and equipment calculations, RFIs, RFQs, reporting to a Senior Estimator). Estimator work is an excluded occupation. Path to site engineer is later, not the work advertised now."
+  },
+  {
+    "seek_id": "95781606",
+    "company": "Sonto",
+    "role": "Survey Assistant",
+    "location": "Brisbane QLD",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Survey assistant / chainperson is an excluded lane."
+  },
+  {
+    "seek_id": "95657921",
+    "company": "FMG Engineering",
+    "role": "Technical Operator",
+    "location": "Kurralta Park, Adelaide SA",
+    "open": true,
+    "work_type": "Casual/Vacation",
+    "decision": "REJECT",
+    "reason": "Live advert is Casual/Vacation, not full-time."
+  },
+  {
+    "seek_id": "95932785",
+    "company": "Australian Soil and Concrete Testing Pty Ltd",
+    "role": "Construction Materials Testing Technicians (Entry Level and Experienced)",
+    "location": "Virginia, Brisbane QLD",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "ASK_OWNER_NOT_QUEUED",
+    "reason": "Fit is there (full-time entry-level CMT, training provided, driver's licence held, lifting 20kg within recorded range). Two SEEK questions have no standing answer: AS/NZ 5369 standards, and experience working to quality assurance standards. Add would set ASK_OWNER. Not queued because three ASK_OWNER entries are already open."
+  },
+  {
+    "company": "WSP",
+    "role": "Laboratory Technician in Training",
+    "decision": "ALREADY_IN_QUEUE",
+    "reason": "Already in the queue as an open employer-portal entry, started, not submitted. No application receipt in Gmail."
+  }
+]
