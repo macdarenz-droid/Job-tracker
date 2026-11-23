@@ -1,0 +1,42 @@
+{
+ "id": "contrive-consultants-civil-draftsperson-1dc6e35e",
+ "lane": "drafter",
+ "route": "EMPLOYER_FORM",
+ "application_type": "ADVERTISED_VACANCY",
+ "company": "Contrive Consultants",
+ "role": "Civil Draftsperson",
+ "location": "Bella Vista, Sydney NSW",
+ "url": "https://contriveconsultants.com.au/careers/#apply",
+ "seek_id": "",
+ "listed_at": "",
+ "closes_at": "",
+ "closes_source": "none",
+ "fit": 85,
+ "sponsorship_signal": "",
+ "regional": false,
+ "resume_variant": "drafter",
+ "relocation_line": "I will relocate to Sydney for this role and can start three weeks after an offer.",
+ "cover_letter_text": "Hi Contrive Consultants team,\n\nMy name's Marc. I graduated in February 2026 with an Advanced Diploma of Civil Construction Design, and I'd like to start out as a civil draftsperson. Your careers page says the drawings go into real council submissions, with senior review on everything, so I wanted to apply.\n\nDuring the course I prepared civil drawings in AutoCAD and Civil 3D for roads, earthworks and stormwater drainage, and designed around existing services after lodging Before You Dig Australia enquiries. On site in the Philippines I reviewed drawings and checked work against the plans.\n\nI will relocate to Sydney for this role and can start three weeks after an offer. I have full working rights in Australia (Subclass 485 visa). Happy to chat any time.\n\nKind regards,\nMarc Masarate",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [],
+ "status": "OPEN",
+ "ask_owner": "",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "Grok",
+ "created_at": "2026-11-23T21:36:49Z",
+ "source_run": "20261123T212900Z",
+ "notes": "Full-time civil and stormwater drafting. AutoCAD or QCAD required (AutoCAD listed in facts from the diploma). Civil 3D and 12d are nice to have only. No closing date on the careers page.",
+ "advert_pay": "not stated",
+ "verify_before_submit": [
+  "Confirm the Civil Draftsperson role is still open and still full-time at Bella Vista",
+  "Apply only through the careers page form, not by email (the listed address is a general contact, not an application address)",
+  "AutoCAD or QCAD is mandatory; AutoCAD is on record from the Advanced Diploma, not as paid production drafting — do not claim commercial AutoCAD or QCAD, Civil 3D, 12d, DRAINS or MUSIC",
+  "Run every form question through queue.py answer; leave the form unsubmitted if any question has no standing answer"
+ ]
+}
