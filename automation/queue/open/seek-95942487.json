@@ -26,15 +26,36 @@
  "questions": [
   {
    "question": "Which of the following statements best describes your right to work in Australia?",
-   "options": [],
-   "answer": "Subclass 485 Temporary Graduate visa with full working rights until December 2027.",
-   "basis": "answers.right_to_work.free_text",
+   "options": [
+    "I'm an Australian citizen",
+    "I'm a permanent resident and/or NZ citizen",
+    "I have a family/partner visa with no restrictions",
+    "I have a graduate temporary work visa",
+    "I have a holiday temporary work visa",
+    "I have a temporary visa with restrictions on work location (e.g. skilled regional visa 491)",
+    "I have a temporary protection or safe haven enterprise work visa",
+    "I have a temporary visa with no restrictions (e.g. doctoral student)",
+    "I have a temporary visa with restrictions on work hours (e.g. student visa, retirement visa)",
+    "I have a temporary visa with restrictions on industry (e.g. temporary activity visa 408)",
+    "I require sponsorship to work for a new employer (e.g. 482, 457)"
+   ],
+   "answer": "I have a graduate temporary work visa",
+   "basis": "answers.right_to_work.choose",
    "status": "answered"
   },
   {
    "question": "How many years' experience do you have as a laboratory technician?",
-   "options": [],
-   "answer": "None: no paid role of this kind",
+   "options": [
+    "No experience",
+    "Less than 1 year",
+    "1 year",
+    "2 years",
+    "3 years",
+    "4 years",
+    "5 years",
+    "More than 5 years"
+   ],
+   "answer": "No experience",
    "basis": "answers.years_of_experience.laboratory, materials testing, technician, estimator, project coordinator, project management, any other role",
    "status": "answered"
   },
@@ -54,14 +75,22 @@
   },
   {
    "question": "What is the maximum weight that you are comfortable and able to lift?",
-   "options": [],
-   "answer": "20-30 kg",
+   "options": [
+    "I am unable to lift heavy weights",
+    "Up to 10kg",
+    "Up to 15kg",
+    "Up to 20kg",
+    "Up to 25kg",
+    "Up to 30kg",
+    "More than 30kg"
+   ],
+   "answer": "",
    "basis": "answers.owner_answers",
-   "status": "answered"
+   "status": "unanswered"
   }
  ],
- "status": "OPEN",
- "ask_owner": "",
+ "status": "ASK_OWNER",
+ "ask_owner": "No standing answer for this form question: What is the maximum weight that you are comfortable and able to lift? (options: I am unable to lift heavy weights / Up to 10kg / Up to 15kg / Up to 20kg / Up to 25kg / Up to 30kg / More than 30kg)",
  "attempts": [
   {
    "at": "2026-11-23T01:30:29Z",
@@ -69,6 +98,12 @@
    "result": "started",
    "note": "",
    "run": "20261123T012859Z"
+  },
+  {
+   "at": "2026-11-23T01:33:01Z",
+   "by": "Grok",
+   "result": "asked_owner",
+   "note": "form question with no standing answer: What is the maximum weight that you are comfortable and able to lift?"
   }
  ],
  "receipt": {},
