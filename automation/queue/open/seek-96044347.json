@@ -1,0 +1,40 @@
+{
+ "id": "seek-96044347",
+ "lane": "drafter",
+ "route": "EMPLOYER_PORTAL",
+ "application_type": "ADVERTISED_VACANCY",
+ "company": "Colliers",
+ "role": "Designer, Traffic & Transport",
+ "location": "Brisbane QLD",
+ "url": "https://www.seek.com.au/job/96044347",
+ "seek_id": "96044347",
+ "listed_at": "2026-11-23",
+ "closes_at": "2026-12-23",
+ "closes_source": "listing_expiry",
+ "fit": 75,
+ "sponsorship_signal": "",
+ "regional": false,
+ "resume_variant": "drafter",
+ "relocation_line": "I will relocate to Brisbane for this role and can start three weeks after an offer.",
+ "cover_letter_text": "Hi Colliers team,\n\nMy name's Marc. I hold a Bachelor of Science in Civil Engineering, and in February 2026 I finished an Advanced Diploma of Civil Construction Design. Your engineering and design team works on intersections, access roads and car parks, and I'd like to help with that design and documentation work.\n\nIn the diploma I designed road geometry, earthworks and drainage in AutoCAD and Civil 3D, and I studied the Austroads guides. On site in the Philippines I reviewed drawings, did inspections and wrote progress reports.\n\nI'd move to Brisbane and can start three weeks after an offer. I have full working rights in Australia (Subclass 485 visa). Happy to chat any time.\n\nKind regards,\nMarc Masarate\n",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [],
+ "status": "OPEN",
+ "ask_owner": "",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "Grok",
+ "created_at": "2026-11-23T21:43:15Z",
+ "source_run": "20261123T212900Z",
+ "notes": "Full-time traffic and transport design support (intersections, access roads, car parks). AutoCAD is accepted among the named tools. SEEK apply links out. Fit 75 (50 + 15 duty + 10 lane 1).",
+ "advert_pay": "not stated",
+ "verify_before_submit": [
+  "Confirm advert still open",
+  "SEEK apply goes to the employer site"
+ ]
+}
