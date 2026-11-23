@@ -89,8 +89,8 @@
    "status": "unanswered"
   }
  ],
- "status": "ASK_OWNER",
- "ask_owner": "No standing answer for this form question: What is the maximum weight that you are comfortable and able to lift? (options: I am unable to lift heavy weights / Up to 10kg / Up to 15kg / Up to 20kg / Up to 25kg / Up to 30kg / More than 30kg)",
+ "status": "SKIPPED",
+ "ask_owner": "",
  "attempts": [
   {
    "at": "2026-11-23T01:30:29Z",
@@ -104,6 +104,13 @@
    "by": "Grok",
    "result": "asked_owner",
    "note": "form question with no standing answer: What is the maximum weight that you are comfortable and able to lift?"
+  },
+  {
+   "at": "2026-11-23T03:33:50Z",
+   "by": "Grok",
+   "result": "skipped",
+   "note": "Owner declined: casual role, wants full-time only",
+   "run": "20261123T012859Z"
   }
  ],
  "receipt": {},
