@@ -89,6 +89,14 @@
  "source_run": "20261117T212822Z",
  "notes": "Graduate engineer role whose duties are subdivision design drawings. 12d ideal, not essential.",
  "advert_pay": "not stated",
+ "outcomes": [
+  {
+   "kind": "rejected",
+   "at": "2026-11-24",
+   "by": "Grok",
+   "note": "SEEK said the application is unlikely to progress. Right to work, drafting years and project delivery did not match."
+  }
+ ],
  "verify_before_submit": [
   "Confirm advert still open; 12d and AutoCAD proficiency only ideal: tick AutoCAD, Civil 3D, Revit only, never 12d"
  ]
