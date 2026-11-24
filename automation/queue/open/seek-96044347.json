@@ -16,7 +16,7 @@
  "regional": false,
  "resume_variant": "drafter",
  "relocation_line": "I will relocate to Brisbane for this role and can start three weeks after an offer.",
- "cover_letter_text": "Hi Colliers team,\n\nMy name's Marc. I hold a Bachelor of Science in Civil Engineering, and in February 2026 I finished an Advanced Diploma of Civil Construction Design. Your engineering and design team works on intersections, access roads and car parks, and I'd like to help with that design and documentation work.\n\nIn the diploma I designed road geometry, earthworks and drainage in AutoCAD and Civil 3D, and I studied the Austroads guides. On site in the Philippines I reviewed drawings, did inspections and wrote progress reports.\n\nI'd move to Brisbane and can start three weeks after an offer. I have full working rights in Australia (Subclass 485 visa). Happy to chat any time.\n\nKind regards,\nMarc Masarate\n",
+ "cover_letter_text": "Hi,\n\nMy name's Marc. I hold a Bachelor of Science in Civil Engineering, and in February 2026 I finished an Advanced Diploma of Civil Construction Design. Your engineering and design team works on intersections, access roads and car parks, and I'd like to help with that design and documentation work.\n\nIn the diploma I designed road geometry, earthworks and drainage in AutoCAD and Civil 3D, and I studied the Austroads guides. On site in the Philippines I reviewed drawings, did inspections and wrote progress reports.\n\nI'd move to Brisbane and can start three weeks after an offer. I have full working rights in Australia (Subclass 485 visa) and a Victorian driver's licence. Happy to chat any time.\n\nKind regards,\nMarc Darenz Masarate",
  "email": {
   "to": "",
   "subject": "",
@@ -35,6 +35,7 @@
  "advert_pay": "not stated",
  "verify_before_submit": [
   "Confirm advert still open",
-  "SEEK apply goes to the employer site"
+  "SEEK apply goes to the employer site",
+  "SEEK apply links out to https://careers.colliers.com/job/designer-traffic-and-transport-in-brisbane-australia-jid-3787"
  ]
 }
