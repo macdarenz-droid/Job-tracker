@@ -1,0 +1,78 @@
+{
+ "id": "seek-96011384",
+ "lane": "drafter",
+ "route": "SEEK",
+ "application_type": "ADVERTISED_VACANCY",
+ "company": "Michael Bale & Associates Pty Ltd",
+ "role": "Experienced Civil Drafter / Junior 12D Designer",
+ "location": "Surfers Paradise, Gold Coast QLD",
+ "url": "https://www.seek.com.au/job/96011384",
+ "seek_id": "96011384",
+ "listed_at": "2026-11-20",
+ "closes_at": "2026-12-20",
+ "closes_source": "listing_expiry",
+ "fit": 85,
+ "sponsorship_signal": "",
+ "regional": true,
+ "resume_variant": "drafter",
+ "relocation_line": "I will relocate to the Gold Coast for this role and can start three weeks after an offer.",
+ "cover_letter_text": "Hi,\n\nMy name's Marc. I graduated in February 2026 with an Advanced Diploma of Civil Construction Design, and I'd like to start out as a civil drafter. Your advert welcomes junior and graduate designers, with mentoring from senior staff, so I wanted to apply.\n\nDuring the course I prepared civil drawings in AutoCAD and Civil 3D for roads, earthworks and stormwater drainage. Before that, on building sites in the Philippines, I reviewed drawings and checked the work against the plans.\n\nI'd move to the Gold Coast and can start three weeks after an offer. I have full working rights in Australia (Subclass 485 visa). Happy to chat any time.\n\nKind regards,\nMarc Darenz Masarate",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [
+  {
+   "question": "Which of the following statements best describes your right to work in Australia?",
+   "options": [],
+   "answer": "Subclass 485 Temporary Graduate visa with full working rights until December 2027.",
+   "basis": "answers.right_to_work.free_text",
+   "status": "answered"
+  },
+  {
+   "question": "What's your expected annual base salary?",
+   "options": [],
+   "answer": "65000 to 75000",
+   "basis": "answers.expected_salary.rule",
+   "status": "answered"
+  },
+  {
+   "question": "How many years' experience do you have as a civil drafter?",
+   "options": [],
+   "answer": "No paid drafting role. Prepared and reviewed drawings in AutoCAD and Civil 3D in the Advanced Diploma of Civil Construction Design (February 2024 to February 2026).",
+   "basis": "answers.years_of_experience.drafter, draftsperson, designer, CAD",
+   "status": "answered"
+  },
+  {
+   "question": "How much notice are you required to give your current employer?",
+   "options": [],
+   "answer": "3 weeks",
+   "basis": "answers.notice_period",
+   "status": "answered"
+  },
+  {
+   "question": "How many years of commercial design experience do you have?",
+   "options": [],
+   "answer": "0 years",
+   "basis": "answers.owner_answers",
+   "status": "answered"
+  }
+ ],
+ "status": "OPEN",
+ "ask_owner": "",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "Grok",
+ "created_at": "2026-11-24T11:59:01Z",
+ "source_run": "20261124T115800Z",
+ "notes": "Full-time civil drafting. AutoCAD required (listed in facts, academic only). 12d preferred, not required. Juniors and graduates welcome. Owner answered commercial design experience as 0 years on 24 Nov 2026. Earlier SEEK applications to this employer were for graduate/civil engineer roles, not this drafter listing.",
+ "advert_pay": "not stated",
+ "verify_before_submit": [
+  "Confirm the advert is still open and still a full-time civil drafter / junior 12d designer role on the Gold Coast",
+  "12d is preferred only; do not claim 12d, and do not claim commercial AutoCAD (diploma coursework only)",
+  "Commercial design experience is 0 years, as the owner answered on 24 Nov 2026",
+  "Earlier applications to this employer were for graduate/civil engineer roles, not this drafter role; do not treat them as a duplicate of this entry"
+ ]
+}

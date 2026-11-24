@@ -1,0 +1,85 @@
+{
+ "id": "seek-95932785",
+ "lane": "technician",
+ "route": "SEEK",
+ "application_type": "ADVERTISED_VACANCY",
+ "company": "Australian Soil and Concrete Testing Pty Ltd",
+ "role": "Construction Materials Testing Technicians (Entry Level and Experienced)",
+ "location": "Virginia, Brisbane QLD",
+ "url": "https://www.seek.com.au/job/95932785",
+ "seek_id": "95932785",
+ "listed_at": "2026-11-17",
+ "closes_at": "2026-12-17",
+ "closes_source": "listing_expiry",
+ "fit": 90,
+ "sponsorship_signal": "",
+ "regional": false,
+ "resume_variant": "technician",
+ "relocation_line": "I will relocate to Brisbane for this role and can start three weeks after an offer.",
+ "cover_letter_text": "Hi,\n\nI'm Marc. I finished an Advanced Diploma of Civil Construction Design in February 2026, and I'd like to begin as an entry-level CMT technician. The hands-on training with experienced technicians at your new Virginia lab is what I'm looking for.\n\nIn the diploma I worked with AS 1289 and AS 1726. Before that, on sites in the Philippines, I did inspections and quality checks and kept material and progress records, working with engineers and subcontractors.\n\nI'd move to Brisbane and can start three weeks after an offer. I have full working rights in Australia (Subclass 485 visa) and a full Victorian driver's licence. Happy to chat any time.\n\nKind regards,\nMarc Darenz Masarate",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [
+  {
+   "question": "Which of the following statements best describes your right to work in Australia?",
+   "options": [],
+   "answer": "Subclass 485 Temporary Graduate visa with full working rights until December 2027.",
+   "basis": "answers.right_to_work.free_text",
+   "status": "answered"
+  },
+  {
+   "question": "What's your expected annual base salary?",
+   "options": [],
+   "answer": "65000 to 75000",
+   "basis": "answers.expected_salary.rule",
+   "status": "answered"
+  },
+  {
+   "question": "How many years' experience do you have as a Construction Materials Testing Technician?",
+   "options": [],
+   "answer": "None: no paid role of this kind",
+   "basis": "answers.years_of_experience.laboratory, materials testing, technician, estimator, project coordinator, project management, any other role",
+   "status": "answered"
+  },
+  {
+   "question": "How much notice are you required to give your current employer?",
+   "options": [],
+   "answer": "3 weeks",
+   "basis": "answers.notice_period",
+   "status": "answered"
+  },
+  {
+   "question": "Have you worked in a role which requires a sound understanding of as/NZ 5369 Standards?",
+   "options": [],
+   "answer": "Academic only",
+   "basis": "answers.owner_answers",
+   "status": "answered"
+  },
+  {
+   "question": "Do you have experience working to quality assurance standards?",
+   "options": [],
+   "answer": "Academic only",
+   "basis": "answers.owner_answers",
+   "status": "answered"
+  }
+ ],
+ "status": "OPEN",
+ "ask_owner": "",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "Grok",
+ "created_at": "2026-11-24T11:59:01Z",
+ "source_run": "20261124T115800Z",
+ "notes": "Full-time entry-level CMT with training at the Virginia lab. Driver's licence held. Lifting 20kg is within the recorded range. Owner answered AS/NZ 5369 and QA-standards experience as academic only on 24 Nov 2026. No Gmail receipt for this listing.",
+ "advert_pay": "not stated",
+ "verify_before_submit": [
+  "Confirm the advert is still open and still a full-time CMT technician role in Virginia, Brisbane",
+  "Driver's licence is essential and is on record; do not claim a manual licence (automatic only)",
+  "AS/NZ 5369 and quality-assurance-standards questions: answer Academic only, as the owner said on 24 Nov 2026; if the screen offers only Yes or No, stop and report (do not pick the nearer option)",
+  "Do not claim paid CMT or laboratory experience"
+ ]
+}
