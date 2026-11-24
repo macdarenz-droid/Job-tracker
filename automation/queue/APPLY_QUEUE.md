@@ -2,24 +2,26 @@
 
 Written by `automation/scripts/queue.py render` from the files in `open/`. Do not edit by hand.
 
-## SEEK (2 open)
+## SEEK (3 open)
 
 | # | Lane | Company | Role | Location | Target | Closes | Link | Note |
 |---|---|---|---|---|---|---|---|---|
-| 1 | engineer | Pavement Asset Services Pty Ltd | Graduate Civil Engineer or Civil Engineer (0 – 5 years’ experience) | Hindmarsh, Adelaide SA | regional | 2026-12-17 (listing expiry) | [seek-95938355](https://www.seek.com.au/job/95938355) |  |
-| 2 | engineer | Chalouhi | Site Engineer | Sydney NSW | not regional | 2026-12-16 (listing expiry) | [seek-95904557](https://www.seek.com.au/job/95904557) |  |
+| 1 | drafter | Michael Bale & Associates Pty Ltd | Experienced Civil Drafter / Junior 12D Designer | Surfers Paradise, Gold Coast QLD | regional | 2026-12-20 (listing expiry) | [seek-96011384](https://www.seek.com.au/job/96011384) |  |
+| 2 | technician | Australian Soil and Concrete Testing Pty Ltd | Construction Materials Testing Technicians (Entry Level and Experienced) | Virginia, Brisbane QLD | not regional | 2026-12-17 (listing expiry) | [seek-95932785](https://www.seek.com.au/job/95932785) |  |
+| 3 | engineer | Chalouhi | Site Engineer | Sydney NSW | not regional | 2026-12-16 (listing expiry) | [seek-95904557](https://www.seek.com.au/job/95904557) |  |
 
 ## EMAIL (0 open)
 
 Nothing open.
 
-## EMPLOYER_PORTAL (3 open)
+## EMPLOYER_PORTAL (4 open)
 
 | # | Lane | Company | Role | Location | Target | Closes | Link | Note |
 |---|---|---|---|---|---|---|---|---|
-| 1 | technician | Coffey Testing Pty Ltd | Construction Materials Testing Technician - Entry-Level | St Marys, Adelaide SA | regional | 2026-12-13 (listing expiry) | [seek-95866662](https://www.seek.com.au/job/95866662) |  |
-| 2 | technician | WSP | Laboratory Technician in Training | Western Australia (geotechnical laboratory network) | regional | not stated | [wsp-laboratory-technician-in-training-7909dd6d](https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/96985) | started by Grok, no result recorded |
-| 3 | drafter | Nassima Design Group | Civil Engineering Draftsperson | VIC 3094 (Montmorency, north east Melbourne) VIC | not regional | not stated | [nassima-design-group-civil-engineering-draftsperson-7b2c2f1e](https://jobsnext.com.au/jobs/c660bac0-c53b-4e31-94f7-c141b009c682/view/) |  |
+| 1 | technician | Downer EDI Limited | Laboratory Technician - TI QLD | Bli Bli, Sunshine Coast QLD | regional | 2026-12-22 (listing expiry) | [seek-96043295](https://www.seek.com.au/job/96043295) | started by Grok, no result recorded |
+| 2 | technician | Coffey Testing Pty Ltd | Construction Materials Testing Technician - Entry-Level | St Marys, Adelaide SA | regional | 2026-12-13 (listing expiry) | [seek-95866662](https://www.seek.com.au/job/95866662) |  |
+| 3 | drafter | Colliers | Designer, Traffic & Transport | Brisbane QLD | not regional | 2026-12-23 (listing expiry) | [seek-96044347](https://www.seek.com.au/job/96044347) |  |
+| 4 | drafter | Nassima Design Group | Civil Engineering Draftsperson | VIC 3094 (Montmorency, north east Melbourne) VIC | not regional | not stated | [nassima-design-group-civil-engineering-draftsperson-7b2c2f1e](https://jobsnext.com.au/jobs/c660bac0-c53b-4e31-94f7-c141b009c682/view/) |  |
 
 ## EMPLOYER_FORM (2 open)
 

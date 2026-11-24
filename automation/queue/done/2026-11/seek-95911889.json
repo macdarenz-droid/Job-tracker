@@ -96,6 +96,14 @@
  "source_run": "20261117T212822Z",
  "notes": "Advert asks for experience preparing civil or architectural documentation but states no years. Software only AutoCAD, Civil 3D, Revit (academic).",
  "advert_pay": "$80,000 – $90,000 per year",
+ "outcomes": [
+  {
+   "kind": "rejected",
+   "at": "2026-11-24",
+   "by": "Claude",
+   "note": "SEEK status update: unlikely to progress further"
+  }
+ ],
  "verify_before_submit": [
   "Confirm advert still open"
  ]
