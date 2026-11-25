@@ -24,7 +24,7 @@
   "evidence_url": ""
  },
  "questions": [],
- "status": "OPEN",
+ "status": "APPLIED",
  "ask_owner": "",
  "attempts": [
   {
@@ -33,9 +33,21 @@
    "result": "started",
    "note": "",
    "run": "20261123T212900Z"
+  },
+  {
+   "at": "2026-11-25T01:06:58Z",
+   "by": "Grok",
+   "result": "applied",
+   "note": "",
+   "run": "20261124T213017Z"
   }
  ],
- "receipt": {},
+ "receipt": {
+  "at": "2026-11-25T01:06:58Z",
+  "by": "Grok",
+  "kind": "portal_confirmation",
+  "ref": "employer confirmation page shown"
+ },
  "created_by": "Grok",
  "created_at": "2026-11-23T21:43:27Z",
  "source_run": "20261123T212900Z",
