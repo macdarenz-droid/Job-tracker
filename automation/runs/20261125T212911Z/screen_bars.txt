@@ -1,0 +1,1446 @@
+==========================================================================================
+96086540 | Australian Drafting & Design Pty Ltd | CIVIL DRAFTER - CIVIL 3D
+lane=drafter type=Contract/Temp pay=$60 – $75 per hour loc=Brisbane QLD lo=False
+ENTRY-ISH False
+DUTY/REQ:
+  Key Responsibilities
+  - Prepare detailed civil and geotechnical drawings using Civil 3D.
+  - Develop and deliver coordinated drawing packages from concept through to construction.
+  - Ensure drawings comply with relevant road authority standards and project specifications.
+  - Work closely with engineers to meet project requirements and deadlines.
+  - Demonstrated experience in civil and infrastructure drafting.
+  - Strong proficiency in Autodesk Civil 3D.
+  - Experience with Transport for NSW (TfNSW) and/or Queensland Transport and Main Roads (TMR) drafting standards.
+  - Geotechnical drafting experience will be highly regarded.
+  - Strong attention to detail and the ability to work independently.
+  - Relevant qualifications are desirable; however, demonstrated industry experience will take precedence.
+  - Long-term, full-time contract.
+  - Competitive hourly rate based on experience.
+  - Flexible working arrangements, with a preference for at least four days per week in the office.
+  - Opportunity to work within an established engineering team on a significant infrastructure project.
+QS: ["Which of the following statements best describes your right to work in Australia?", "How many years' experience do you have as a civil drafter?", "How much notice are you required to give your current employer?", "How many years of Engineering Drafting experience do you have?"]
+
+==========================================================================================
+96085335 | Airswift | Civil Designer - Civil 3D
+lane=drafter type=Full time pay=$140,000 – $150,000 per year loc=Perth WA lo=False
+ENTRY-ISH False
+YEARS:
+  - 3 years experience as a Civil Designer
+VISA/CIT:
+  - Australian citizenship is essential
+DUTY/REQ:
+  Experience working on Civil 3D and taking the lead on projects is crucial for this one, as you will play a key role in the civil design component of these large-scale jobs.
+  The responsibilities
+  - Civil Design using Civil 3D software
+  - Design coordination across disciplines
+  - Mentorship of grad Designers
+  - 3 years experience as a Civil Designer
+  - Civil 3D experience is essential
+  - Experience leading design on projects
+  - Australian citizenship is essential
+  - Client facing skills are a benefit
+  - Superb salary and benefits package.
+  - Opportunity to be involved in once in a lifetime projects
+  - Opportunities for professional growth and development
+  - Superb central CBD location
+  - A supportive and inclusive work environment.
+QS: ["Which of the following statements best describes your right to work in Australia?", "How many years' experience do you have as a civil designer?", "How much notice are you required to give your current employer?"]
+
+==========================================================================================
+96106955 | Manningham City Council | Graduate Civil Engineer
+lane=engineer type=Contract/Temp pay=$84,614 loc=Doncaster East, Melbourne VIC lo=True
+ENTRY-ISH True
+YEARS:
+  Term 2 years full-time position, starting 1 March 2027
+  engineering or a related discipline within the last 2 years.
+DEG/PROG:
+  - Completion of a tertiary degree in civil
+DUTY/REQ:
+  - Fixed
+  - Band 5 - $84,614
+  - Based at
+  - Support project planning and delivery in
+  - Contribute to project management activities
+  - Collaborate with passionate professionals in
+  positive and inclusive outcomes for our community. You'll have the opportunity
+  About the role
+  delivery activities, including data collection and technical analysis. You will
+  organisation. You will be involved in a variety of projects and be able to work
+  - Completion of a tertiary degree in civil
+  - Well-developed written and verbal communication
+  - Sound organisational skills, with the ability to
+  - A strong collaborator who adds value to the
+  - This position
+QS: []
+
+==========================================================================================
+96104133 | Western Geotechnical and Laboratory Services | Trainee Laboratory Technician – Construction Materials Testing
+lane=technician type=Full time pay=None loc=Vasse, Bunbury & South West WA lo=False
+ENTRY-ISH True
+DUTY/REQ:
+  About the Role
+  Key Responsibilities
+  - Undertaking laboratory testing of soils, aggregates and concrete.
+  - Assisting with field testing on construction and civil engineering projects.
+  - Sample preparation, handling and registration.
+  - Operation of laboratory and field testing equipment.
+  - Recording test results and maintaining accurate technical records.
+  - General laboratory and equipment maintenance.
+  - Assisting senior technicians with day-to-day operational requirements.
+  - Working in accordance with Australian Standards, company procedures and quality assurance requirements.
+  - Maintaining a safe, clean and organised working environment.
+  - Current driver's licence, preferably manual.
+  - Reliable transport to and from our Vasse laboratory.
+  - Good basic mathematics, literacy and computer skills.
+  - Ability to undertake physically demanding work.
+QS: ["Which of the following statements best describes your right to work in Australia?", "How many years' experience do you have as a laboratory technician?", "How much notice are you required to give your current employer?", "Are you licenced to drive a manual vehicle?"]
+
+==========================================================================================
+96127161 | Roadside Safety Solutions Pty Ltd | Graduate Civil Engineer – Estimating
+lane=engineer type=Full time pay=$65,000 – $70,000 per year loc=Knoxfield, Melbourne VIC lo=False
+ENTRY-ISH True
+DEG/PROG:
+  You’ll have recently completed, or be close to completing, a degree in Civil Engineering or a related engineering discipline.
+DUTY/REQ:
+  Working with our estimating, operations and management teams, you’ll learn to:
+  - Review drawings, specifications, RFQs and tender documents
+  - Complete quantity take-offs
+  - Build labour, plant, material and subcontractor costs
+  - Obtain and compare supplier pricing
+  - Prepare quotations and schedules of rates
+  - Assist with council, government and major infrastructure tenders
+  - Identify scope requirements, risks and opportunities
+  - Visit project sites and learn how the work is delivered
+  - Assist with project handover from estimating to operations
+  You’ll have recently completed, or be close to completing, a degree in Civil Engineering or a related engineering discipline.
+  - Enjoys working with numbers and solving problems
+  - Has strong attention to detail
+  - Can interpret or is keen to learn engineering drawings
+  - Is confident using Excel and Microsoft Office
+QS: ["Which of the following statements best describes your right to work in Australia?", "Have you completed a qualification in civil engineering?"]
+
+==========================================================================================
+96103731 | Remo Contractors Pty Ltd | Junior/Graduate Project Engineer - Civil Construction
+lane=engineer type=Full time pay=None loc=Edinburgh, Adelaide SA lo=False
+ENTRY-ISH True
+DUTY/REQ:
+  About the role
+  Your responsibilities will include but are not limited to:
+  - Define project objectives, scope, roles and responsibilities
+  - Work closely with the Senior Project Management Team
+  - Outline budgets based on requirements and tracking costs to deliver project on budget
+  - Ensure all work is completed in line with the company's quality management system
+  - Manage the relationship and communication with the client and all stakeholders, ensuring works are delivered to their satisfaction
+  - Management of sub-contractors, including performance monitoring and financial management
+  - Drafting and submitting progress claims and invoices
+  - Undertake frequent site inspections and audits to assess compliance to HSEQ policies and procedures
+  - Professional interpersonal and communications skills
+  - Good team player and effective leader who is able to motivate their project team
+  - Good time management skills and the ability to handle and prioritise multiple tasks at once
+  - Experienced in MS Office software
+  - A high level of verbal and written communication and interpersonal skills
+QS: ["Do you have a current Australian driver's licence?", "Which of the following statements best describes your right to work in Australia?", "Which of the following Microsoft Office products are you experienced with?", "Do you hold a Construction Induction Safety certificate (White Card)?", "Are you willing to undergo a pre-employment medical check?", "Have you completed a qualification in civil engineering?"]
+
+==========================================================================================
+96104944 | KBR - Kellogg Brown & Root Pty Ltd | Civil Designer
+lane=drafter type=Full time pay=None loc=Sydney NSW lo=True
+ENTRY-ISH False
+DUTY/REQ:
+  We are looking for an experienced Civil Designer to join our growing Sydney team. In this role, you will work on a variety of transport and infrastructure projects, contributing to the delivery of design solutions from c
+  Working closely with engineers, project managers and multidisciplinary teams, you will play a key role in producing high-quality design documentation, supporting project delivery and helping shape infrastructure that ben
+  You are an experienced Civil Designer with a strong technical background and a passion for delivering quality outcomes. You'll bring:
+  - Proven experience in civil design within the consulting, infrastructure or engineering sector.
+  - Strong proficiency in OpenRoads Designer and 12d.
+  - Experience delivering civil design and documentation for transport, roads, water or infrastructure projects.
+  - A solid understanding of Australian design standards and industry best practices.
+  - Excellent communication skills and the ability to collaborate effectively with multidisciplinary teams.
+  - A proactive approach, strong attention to detail, and a commitment to delivering high-quality work.
+  - Industry leading salaries, reviewed annually
+  - Salary packaging and Novated lease
+  - Salary continuance (Income protection)
+  - Paid Professional Membership Fees
+  - Life/Health insurance discounts
+  - Flexible work arrangements (start/finish times, WFH, Flex time)
+QS: []
+
+==========================================================================================
+96071371 | PeopleWise Consulting | Civil Site Engineer - Infrastructure Project
+lane=None type=Full time pay=None loc=Adelaide SA lo=False
+ENTRY-ISH False
+DEG/PROG:
+  - A degree in Civil Engineering or an equivalent engineering qualification.
+  - Bachelor's degree in civil engineering (or equivalent).
+DUTY/REQ:
+  You will be on site working with the Project Manager, Site Manager and subcontractors to deliver the civil works and working closely with site supervisors, subcontractors and the design team to deliver the civil works fo
+  Role responsibilities:
+  - Review drawings and specifications, raise technical queries and work with site crews to resolve construction issues.
+  - Help plan and coordinate excavation, trenching, duct installation, backfill and reinstatement.
+  - Support project planning, delivery and site activities.
+  - Providing technical and engineering support to site teams.
+  - Monitoring project progress, quality and compliance.
+  - Managing QA documentation and project records.
+  - Working with senior team members to resolve project challenges.
+  - Participate in project meetings and collaborate with stakeholders across the business.
+  - Liaise with surveyors and subcontractors on set-out, levels and existing services.
+  - Coordinate inspections and testing, follow up defects and keep quality records up to date.
+  - Track civil works progress and coordinate handovers to the cable installation team.
+  What you will bring…
+  You will have experience on site talking through plans with the teams and asking the right questions when site conditions differ from the plans and following a technical issue through to resolution.
+QS: ["Which of the following statements best describes your right to work in Australia?", "How many years' experience do you have as an Infrastructure Engineer?", "Do you have a current Australian driver's licence?", "Do you have a current Police Check (National Police Certificate) for employment?", "Do you hold Australian Security Clearance?", "Have you completed a qualification in civil engineering?", "What's your expected annual base salary?", "What is your current availability, could you commence in January 2027 for an annual contract?", "What would be your ideal hourly contracting rate?", "What infrastructure projects involving excavation and underground works have you worked on previously? "]
+
+==========================================================================================
+96045118 | WML Consultants Pty Ltd | Civil Draftsperson
+lane=drafter type=Full time pay=$80,000 – $90,000 per year loc=West Perth, Perth WA lo=False
+ENTRY-ISH False
+YEARS:
+  - Established Expertise: Over 30 years in business specialising in Civil, Structural, Geotechnical, and Pavements engi
+VISA/CIT:
+  - Work Rights: Must hold Australian permanent residency or citizenship status.
+DUTY/REQ:
+  WML Consultants seeks a Civil Draftsperson to join our Perth branch. In this role, you will prepare high-quality engineering designs and drawings while working alongside our specialist teams to shape community infrastruc
+  - Established Expertise: Over 30 years in business specialising in Civil, Structural, Geotechnical, and Pavements engineering.
+  - Regional Footprint: Strategically located offices in Bunbury, Perth, and Kalgoorlie, WML works across the entire Western Australian state, providing deep local context.
+  - Our Team: A collaborative 70-member team organised into four disciplinary groups to meet project demands.
+  - Proven Track Record: Trusted by businesses and shires across Western Australia for major highway improvements, geotechnical analysis, bulk earthworks, roads, land development and drainage solutions.
+  - Impact: Prepare high-quality designs for civil, road, subdivision, and drainage projects.
+  - Design Software: Deliver detailed engineering drawings using 12d and AutoCAD.
+  - Stability: Join a trusted team with a diverse and stable client base.
+  - Rewards: Secure an attractive salary package complemented by bonuses that reward your hard work.
+  Key Responsibilities
+  - Drafting: Prepare engineering design drawings for civil, road, land development, and drainage projects.
+  - Compliance: Ensure all work aligns with relevant guidelines, standards, and codes of practice.
+  - Site Work: Carry out site inspections and measurements, documenting observations in drawings or records.
+  - Systems: Contributes to developing, maintaining, and improving company job management processes.
+  - Innovation: Research and include innovative solutions in your designs where appropriate.
+QS: ["How many years' experience do you have as a Civil Design Draftsperson?", "Do you have design engineering experience in the construction industry?", "Which of the following CAD software do you have experience with?"]
+
+==========================================================================================
+96044331 | Morgan Consulting Engineers Pty Ltd | Civil Design Drafter
+lane=drafter type=Full time pay=$80,000 per year loc=Brisbane QLD lo=False
+ENTRY-ISH False
+DUTY/REQ:
+  This is a hands-on civil design and drafting role where you'll work closely with our Civil Engineers to develop practical design solutions and produce accurate, coordinated project documentation.
+  You'll be involved in a variety of civil engineering projects, taking responsibility for allocated design and documentation tasks from initial project information through to engineering review.
+  Your responsibilities will include:
+  - Develop civil design solutions and prepare accurate drawings, models, plans, sections, details and associated project documentation.
+  - Use Civil 3D, PC Drain, PC Sewer, Bluebeam and other relevant civil design software.
+  - Interpret engineering requirements, survey information and project specifications to develop practical civil design solutions.
+  - Assist with civil design elements including levels, grading, drainage and associated infrastructure documentation.
+  - Work closely with Civil Engineers to coordinate design information, resolve technical queries and incorporate engineering feedback.
+  - Check calculations, models, drawings and documentation for accuracy, consistency and compliance with project requirements.
+  - Manage allocated tasks, priorities and deadlines across multiple projects.
+  - Identify and communicate design issues, missing information and potential project delivery risks early.
+  - Liaise with engineers, project team members and other stakeholders to support effective project delivery.
+  Ideally, you'll have:
+  - A relevant qualification in Civil Engineering Drafting or a related discipline, and/or demonstrated relevant industry experience.
+  - Previous experience in civil design and drafting, preferably within an engineering consultancy.
+QS: ["Which of the following statements best describes your right to work in Australia?", "What's your expected annual base salary?", "How many years' experience do you have as a civil drafter?"]
+
+==========================================================================================
+96118495 | Scotford Fennessy Recruitment | Civil Designer
+lane=drafter type=Full time pay=None loc=Perth WA lo=False
+ENTRY-ISH True
+YEARS:
+  - Seeking a Junior or Mid level Designer in the 2-5 years experience range with proficiency in 12D and AutoCAD.
+DUTY/REQ:
+  - Mid-tier civil specialist consultancy in Perth with an East Coast presence also
+  - Expertise is in land development, urban and water infrastructure
+  - Culture is big for them – very low staff turnover, held on to staff during downturns
+  - Very stable pipeline, deal with tier 1 developers in WA, lion’s share of the major projects
+  - Longevity of work – projects running over 10+yr periods
+  - See projects through to construction stage
+  - Fairly flat structure, move up the food chain with ease, increase your responsibility based on your ambitions and career plan
+  - Flexible/work from home options, social bunch, keep up to date with latest trends in the industry through training and seminars/presentations
+  - One on one mentoring from Design Director, open door policy, very collaborative approach
+  - Seeking a Junior or Mid level Designer in the 2-5 years experience range with proficiency in 12D and AutoCAD.
+QS: []
+
+==========================================================================================
+96114534 | Bielby Holdings Pty Ltd | Graduate Civil Engineers
+lane=engineer type=Full time pay=None loc=Sydney NSW lo=True
+ENTRY-ISH True
+YEARS:
+  cture opportunities and continued expansion into new regions. Building on over 40 years of successful major project delivery, we are seeking Civil Engineering Graduate
+  We're proudly Australian owned and operated, with more than 40 years of experience and a strong reputation for delivering major civil infrastructure
+DEG/PROG:
+  eer, you will gain valuable and practical on the ground experience. On a 2-year Graduate program, you will support construction and delivery but also get exposure to quality, c
+  - Bachelor’s degree in civil engineering obtained in the last 12 months.
+DUTY/REQ:
+  The project will restore 43 kilometres of Kempsey-Armidale Road and a five-kilometre section of Lower Creek Road following damage caused by the 2019 bushfires and subsequent flood events in 2020 and 2022. You will be par
+  Reporting to a Project Engineer or Senior Project Engineer, you will gain valuable and practical on the ground experience. On a 2-year Graduate program, you will support construction and delivery but also get exposure to
+  What You'll Do (with guidance and training):
+  - Assist with project planning, organisation, and programming
+  - Support in the procurement of materials and services
+  - Assist in conducting safety inspections and maintaining compliance
+  - Perform quality assurance checks and site inspections
+  - Review drawings and issuing RFIs
+  - Assist with site survey
+  What You'll Bring
+  - Ability to work independently and within a team environment
+  - Excellent written and written communication skills
+  - Safety focused mindset with a solid work ethic
+  - Willingness to learn and be a valued member of the team
+  - Current Australian Driver’s license
+QS: []
+
+==========================================================================================
+96110030 | Talent Partner Australia | Structural/ Civil Designers - Consultancy 
+lane=drafter type=Full time pay=$130 - 190 per year + Super loc=Sydney NSW lo=False
+ENTRY-ISH True
+YEARS:
+  - Ideally 8+ years’ relevant design and drafting experience within an engineering consultancy.
+  - Minimum 5 years’ Australian infrastructure experience.
+DUTY/REQ:
+  - Senior Structural Revit Designer
+  - Civil 3D Designer
+  Key Responsibilities
+  - Lead structural modelling and documentation using Autodesk Revit and AutoCAD, from concept through to detailed design and construction issue.
+  - Prepare detailed structural steel, precast and in-situ concrete drawings, including reinforcement detailing.
+  - Develop civil infrastructure models and documentation using Autodesk Civil 3D, covering earthworks, drainage, roads, utilities and site infrastructure.
+  - Coordinate structural and civil models across disciplines, managing clashes, revisions and design issues.
+  - Utilise BIM platforms including Autodesk ACC, Forma, Navisworks and Revizto.
+  - Work closely with engineers and project teams to deliver high-quality, coordinated documentation.
+  - Provide technical guidance and support to junior designers where required.
+  - Ideally 8+ years’ relevant design and drafting experience within an engineering consultancy.
+  - Minimum 5 years’ Australian infrastructure experience.
+  - Strong, hands-on Autodesk Revit experience is essential for the structural position.
+  - Proven Civil 3D design experience for the civil position.
+  - Advanced structural detailing knowledge, including steel framing and reinforced concrete.
+QS: []
+
+==========================================================================================
+96108663 | Swan Materials | Technician - Materials
+lane=technician type=Full time pay=None loc=The Lakes, Perth WA lo=True
+ENTRY-ISH False
+DUTY/REQ:
+  Working alongside an experienced and supportive Quality & Technical team, you will help ensure our products meet relevant Australian Standards and NATA requirements, while developing your skills in a safety-focused envir
+  Key Responsibilities:
+  - Assist with the preparation, processing and testing of aggregate and soil samples, as well as concrete and asphalt testing as required.
+  - Carry out routine field sampling and quality testing at the quarry.
+  - Assist with trial concrete mixes and the calibration and maintenance of laboratory equipment.
+  - Maintain laboratory equipment and consumables.
+  - Undertake quality assurance and quality control testing in accordance with relevant Australian Standards and Inspection and Test Plans (ITPs).
+  - Monitor, record and report on product quality and compliance.
+  - Collect QA and commercial samples safely and within required timeframes.
+  - Maintain accurate laboratory records, worksheets, certificates and reports in accordance with NATA requirements.
+  - Support internal and external customers through regular communication and updates.
+  - Assist with HSE inspections and comply with all company safety policies and procedures.
+  - Enter and maintain testing data in the Laboratory Management System.
+  What you will need to succeed:
+  - Effective communication skills (written & verbal)
+QS: []
+
+==========================================================================================
+96045392 | CONCENTIS PTY LTD | Project Engineer - Civil
+lane=None type=Contract/Temp pay=None loc=Gladstone & Central QLD lo=False
+ENTRY-ISH False
+DEG/PROG:
+  - Degree qualified in Civil Engineering or an equivalent discipline
+DUTY/REQ:
+  Working closely with Project Leads, Construction Superintendents, Supervisors and operational stakeholders, you will play an integral role in coordinating engineering, construction and project delivery activities, ensuri
+  Key Responsibilities
+  - Support the planning and execution of annual wall raise and civil earthworks programs
+  - Develop and manage project schedules, budgets, forecasts and progress reporting
+  - Coordinate engineering, procurement and construction activities, including contractors and technical service providers
+  - Provide field engineering support to construction teams and resolve technical or execution issues
+  - Monitor construction productivity, project performance and compliance with approved designs and specifications
+  - Manage project risks, change control, quality assurance and construction documentation
+  - Drive safety leadership, stakeholder engagement and continuous improvement across project delivery
+  - Degree qualified in Civil Engineering or an equivalent discipline
+  - Strong experience in project delivery, construction or engineering roles
+  - Demonstrated experience delivering civil earthworks, mining, infrastructure, dams, tailings or residue management projects
+  - Strong project controls, cost management, scheduling and risk management experience
+  - Proven ability to coordinate multidisciplinary teams, engage stakeholders and drive safe, effective project delivery
+  - Experience with SAP, Microsoft Project and Microsoft Office Suite
+QS: []
+
+==========================================================================================
+96116013 | Burton Contractors | Project Engineer - Civil
+lane=None type=Full time pay=None loc=Parramatta & Western Suburbs, Sydney NSW lo=False
+ENTRY-ISH False
+DEG/PROG:
+  - Civil Engineering Degree or equivalent qualification.
+DUTY/REQ:
+  As a Project Engineer, you will be expected to:
+  - Provide technical support and guidance across project activities, ensuring compliance with design specifications and construction requirements.
+  - Manage project administration and work closely with the Project Manager and Site Supervisors to coordinate site activities.
+  - Coordinate subcontractors, monitor construction progress and assist in achieving project milestones.
+  - Assist with cost management, including unit cost analysis, progress claims and contractual notices.
+  - Maintain compliance with WHS, environmental and quality requirements.
+  - Civil Engineering Degree or equivalent qualification.
+  - Proven experience as a Project Engineer within the civil construction industry.
+  - Bulk earthworks, roadworks and civil infrastructure project experience.
+  - Comprehensive knowledge of Council and TfNSW specifications.
+  - Ability to read and interpret engineering drawings and plans.
+  - Experience in subcontractor coordination and project administration.
+  - Strong planning, organisational and problem-solving abilities.
+  - Excellent written and verbal communication skills.
+  - Understanding of WHS, Environmental and Quality Management Systems.
+QS: []
+
+==========================================================================================
+96113095 | Warren Smith Consulting Engineers | Civil Engineer – Water Infrastructure
+lane=None type=Full time pay=$80,000 – $90,000 per year loc=Sydney NSW lo=False
+ENTRY-ISH False
+DEG/PROG:
+  - A degree in Civil Engineering.
+DUTY/REQ:
+  About the Role
+  Working with senior engineers, your responsibilities will include:
+  - Design and documentation of water, sewer and stormwater infrastructure.
+  - Hydraulic analysis, engineering calculations and infrastructure planning.
+  - Preparation of engineering drawings using AutoCAD and Civil 3D.
+  - Application of WSA codes, Australian Standards and relevant authority specifications.
+  - Preparation and coordination of design submissions for authority approvals.
+  - Liaison with clients, consultants and relevant authorities.
+  - Site inspections and technical support.
+  - Delivery of accurate engineering documentation within project timelines.
+  To be successful, you will have:
+  - A degree in Civil Engineering.
+  - Minimum 12 months’ relevant local experience in civil or water infrastructure engineering within a consulting environment.
+  - Intermediate to advanced AutoCAD skills.
+  - Experience with 3D terrain modelling software, preferably Civil 3D.
+QS: ["Which of the following statements best describes your right to work in Australia?", "How many years' experience do you have as a civil engineer?", "Have you completed a qualification in civil engineering?"]
+
+==========================================================================================
+96069735 | The Constructive Collective NSW Pty Ltd | Structural Draftsperson
+lane=drafter type=Full time pay=$80,000 - $110,000 + Super loc=Sydney NSW lo=False
+ENTRY-ISH False
+YEARS:
+  - 3+ years' structural drafting experience
+  Our client is a well-established engineering consultancy with more than 30 years of structural and civil work across Australia. They're known for technical exce
+VISA/CIT:
+  - Australian Citizen or Permanent Resident
+DUTY/REQ:
+  - 3+ years' structural drafting experience
+  - Strong in Revit (AutoCAD is a bonus)
+  - Experience with reinforced concrete and steel structures. Industrial experience will be beneficial but not essential.
+  - You care about getting the detail right the first time
+  - A clear communicator who likes working closely with engineers
+  - Australian Citizen or Permanent Resident
+  About the Role
+  - Turn engineer designs into clean, accurate structural drawings in Revit and AutoCAD
+  - Own the drawing register, revisions and issues so nothing slips
+  - Help build and improve the standard detail library
+  - Work side by side with engineers and project teams to keep jobs accurate and on time
+  - Work on some of Australia's largest industrial warehouse projects for Tier 1 clients
+  - Hands-on mentoring from a supportive team that wants you to grow
+  - A modern office with great facilities
+  - A social, friendly team with regular events
+QS: []
+
+==========================================================================================
+96044293 | Acrow Formwork & Scaffolding Pty Ltd | Graduate or Cadet Engineer
+lane=engineer type=Casual/Vacation pay=None loc=St Marys, Sydney NSW lo=False
+ENTRY-ISH True
+VISA/CIT:
+  - Must be an Australian citizen or permanent resident.
+DEG/PROG:
+  al experience working with Screens and Jumpform systems. This role is ideal for students currently pursuing an engineering degree and looking to build a strong foundat
+  - Currently studying toward a Bachelor’s degree in Civil Engineering, Structural Engineering, or a related discipline.
+DUTY/REQ:
+  Key Responsibilities:
+  - Assist senior engineers in the design, installation, and maintenance of Screens and Jumpform systems.
+  - Participate in project planning and execution phases, gaining hands-on exposure to construction operations.
+  - Shadow experienced professionals to understand engineering practices, safety protocols, and project management strategies.
+  - Prepare basic drawings and calculations under supervision.
+  - Assist with on-site inspections, system assembly, and quality assurance processes.
+  - Support the preparation of technical documentation, reports, and project updates.
+  - Work closely with project teams, contractors, and suppliers to ensure smooth project execution.
+  - Actively contribute to team discussions and problem-solving initiatives.
+  - Maintain clear and effective communication with supervisors and team members.
+  - Currently studying toward a Bachelor’s degree in Civil Engineering, Structural Engineering, or a related discipline.
+  - Must be an Australian citizen or permanent resident.
+  - Possess a valid driver’s license and the ability to travel to project sites when required.
+  - Eagerness to learn and apply theoretical knowledge in practical settings.
+  - Strong attention to detail and problem-solving skills.
+QS: ["Which of the following statements best describes your right to work in Australia?", "Which of the following CAD software do you have experience with?"]
+
+==========================================================================================
+96101313 | Fusion People Pty Ltd | Site Engineer
+lane=None type=Full time pay=$90,000 – $130,000 per year loc=Sydney NSW lo=False
+ENTRY-ISH False
+VISA/CIT:
+  - Full Australian working rights and a current driver's licence
+DEG/PROG:
+  - Degree qualifications in Civil Engineering or a related discipline
+DUTY/REQ:
+  Working closely with Project Managers, Senior Project Engineers, Supervisors and site-based delivery teams, you will play a critical role in coordinating construction activities, managing quality outcomes, supporting pro
+  As Site Engineer, you will provide technical and operational support across all phases of project delivery, ensuring works are planned, coordinated and executed in line with programme, budget, quality and safety objectiv
+  You will work closely with site teams, subcontractors, suppliers, consultants and clients while gaining exposure to all aspects of civil project delivery.
+  Your responsibilities will include:
+  - Providing day-to-day engineering support across active construction projects
+  - Coordinating site activities to ensure works are delivered safely, efficiently and in accordance with approved methodologies
+  - Assisting with project planning, programming and short-term works planning
+  - Reviewing construction drawings, specifications and contract documentation
+  - Preparing and managing Inspection and Test Plans (ITPs), lot packages and quality documentation
+  - Undertaking site inspections and ensuring compliance with project specifications and standards
+  - Coordinating survey requirements including set out, conformance and as-constructed information
+  - Managing subcontractors and suppliers to ensure project deliverables are achieved
+  - Assisting with procurement activities and material management
+  - Monitoring project progress and supporting programme updates
+  - Preparing daily, weekly and monthly project reports
+QS: ["Which of the following statements best describes your right to work in Australia?", "Do you have a current Australian driver's licence?"]
+
+==========================================================================================
+96050290 | ProQuest Recruitment - Dandenong | CAD Draftsperson
+lane=None type=Full time pay=None loc=Lilydale, Yarra Valley & High Country VIC lo=False
+ENTRY-ISH False
+YEARS:
+  With more than 50 years of industry experience, this business specialises in designing, manufacturing a
+  - Join a well-established business with more than 50 years of industry experience
+DUTY/REQ:
+  About the Role
+  Reporting to the Executive Manager of Operations, you’ll work closely with Sales, Projects, Manufacturing and Purchasing teams, preparing detailed drawings, 3D models, manufacturing documentation and CNC cutting files to
+  Key responsibilities include:
+  - Preparing sales and project drawings for client review and approval
+  - Developing detailed fabrication, assembly and component drawings
+  - Creating Bills of Materials (BOMs) and CNC cutting files
+  - Supporting product design and development, ensuring solutions are practical and manufacturable
+  - Assisting with project engineering activities, including site measurements, layouts and take-offs
+  - Collaborating with internal teams to troubleshoot and resolve design and drafting challenges
+  - Managing drawing revisions and maintaining accurate project documentation
+  - Ensuring drafting work is completed accurately and within project deadlines
+  To be successful, you’ll bring:
+  - Previous experience as a CAD Draftsperson, Design Draftsperson or similar role within a manufacturing environment
+  - Strong proficiency in SolidWorks, AutoCAD and Revit
+  - Demonstrated experience producing detailed fabrication and manufacturing drawings
+QS: []
+
+==========================================================================================
+96047818 | Sabre Engineering Services PTY LTD | Civil Project Engineer | TMR Roadworks | Mackay
+lane=None type=Contract/Temp pay=None loc=Mackay, Mackay & Coalfields QLD lo=False
+ENTRY-ISH False
+DUTY/REQ:
+  About the role
+  As the Project Systems Representative, you’ll work with the site team to coordinate construction, maintain quality records and keep the programme and progress reporting up to date.
+  - Plan and coordinate civil work packages with the site team
+  - Track progress against the construction programme and prepare project reports
+  - Coordinate inspections and maintain quality records in line with TMR specifications
+  - Support commercial administration and keep records of changes to the works
+  What you’ll bring
+  - Experience as a Project Engineer delivering civil construction work on TMR road projects
+  - Practical experience applying TMR specifications and managing construction quality records
+  - Experience coordinating site works, updating programmes and reporting progress
+  - Availability to work on site in Mackay and cover the initial Sunday to Thursday night shift roster
+QS: ["Which of the following statements best describes your right to work in Australia?", "How many years' experience do you have as a Civil Project Engineer?", "Do you have a current Australian driver's licence?", "Have you completed a qualification in civil engineering?", "How much notice are you required to give your current employer?", "Which TMR civil roadworks projects have you worked on as a Project Engineer? Name the project and briefly describe the work package you were responsible for, including any programming, quality or reporting duties.", "Can you work on site in Mackay on the initial Sunday to Thursday night shift roster? Please confirm your earliest available start date.", "What hourly rate are you seeking, excluding super? Please specify whether that rate includes night shift uplift."]
+
+==========================================================================================
+96042300 | Egis | Civil Design Engineer
+lane=None type=Full time pay=None loc=Maroochydore, Sunshine Coast QLD lo=False
+ENTRY-ISH False
+YEARS:
+  Ideally, you will have a minimum of 3+ years’ experience as a civil engineer within a consultancy environment with demonstra
+DUTY/REQ:
+  At Egis, you’ll be part of a business shaping the future of cities, transport, energy and the built environment, creating lasting impact where it matters most.
+  Join our Urban Development team as a Civil Engineer! In this opportunity, you will focus on delivering comprehensive design and documentation for land development and civil infrastructure projects. With a strong portfoli
+  You will be responsible for
+  - Deliver and manage Civil and Infrastructure designs within broad acre greenfield and brownfield redevelopment
+  - Design of major and minor drainage infrastructure with an understanding of hydrological principles with appropriate water management and treatments
+  - Deliver and manage water and sewer designs in accordance with SEQ Water standards
+  - Prepare relevant servicing and development reports
+  - Work closely with the other members of the Urban Development team and sub-consultants
+  - Fostering relationships with current and potential clients building on your existing networks to generate new business
+  Ideally, you will have a minimum of 3+ years’ experience as a civil engineer within a consultancy environment with demonstrated knowledge of land development and/or infrastructure projects local to QLD. In addition, you 
+  - Tertiary qualifications in Civil Engineering
+  - Valid full drivers license
+  - A thorough understanding of civil design principles pertaining to land development, storm water, civil infrastructure, roads and/or mining/resources
+  - Ability to work on multiple projects simultaneously and ability to run projects within budget and on time
+  - Strong written and verbal communication skills
+QS: ["Which of the following statements best describes your right to work in Australia?", "How many years' experience do you have as a civil engineer?", "Have you completed a qualification in civil engineering?"]
+
+==========================================================================================
+96042296 | Egis | Civil Design Engineer
+lane=None type=Full time pay=None loc=Brisbane QLD lo=False
+ENTRY-ISH False
+YEARS:
+  Ideally, you will have a minimum of 3+ years’ experience as a civil engineer within a consultancy environment with demonstra
+DUTY/REQ:
+  At Egis, you’ll be part of a business shaping the future of cities, transport, energy and the built environment, creating lasting impact where it matters most.
+  Join our Urban Development team as a Civil Engineer! In this opportunity, you will focus on delivering comprehensive design and documentation for land development and civil infrastructure projects. With a strong portfoli
+  You will be responsible for
+  - Deliver and manage Civil and Infrastructure designs within broad acre greenfield and brownfield redevelopment
+  - Design of major and minor drainage infrastructure with an understanding of hydrological principles with appropriate water management and treatments
+  - Deliver and manage water and sewer designs in accordance with SEQ Water standards
+  - Prepare relevant servicing and development reports
+  - Work closely with the other members of the Urban Development team and sub-consultants
+  - Fostering relationships with current and potential clients building on your existing networks to generate new business
+  Ideally, you will have a minimum of 3+ years’ experience as a civil engineer within a consultancy environment with demonstrated knowledge of land development and/or infrastructure projects local to QLD. In addition, you 
+  - Tertiary qualifications in Civil Engineering
+  - Valid full drivers license
+  - A thorough understanding of civil design principles pertaining to land development, storm water, civil infrastructure, roads and/or mining/resources
+  - Ability to work on multiple projects simultaneously and ability to run projects within budget and on time
+  - Strong written and verbal communication skills
+QS: ["Which of the following statements best describes your right to work in Australia?", "How many years' experience do you have as a civil engineer?", "Have you completed a qualification in civil engineering?"]
+
+==========================================================================================
+96115014 | Wagstaff Piling Pty Ltd | Civil Engineer
+lane=None type=Full time pay=$100,000 – $115,000 per year plus super  loc=Melbourne VIC lo=False
+ENTRY-ISH False
+YEARS:
+  ering company servicing clients throughout Australia and New Zealand. For over 40 years, we have provided specialist design and construction services for piles and rel
+  - Minimum 3 years’ relevant work experience in geotechnical/foundation, building, or civil engine
+DEG/PROG:
+  - Bachelor’s degree or higher in Civil Engineering (or equivalent) is required.
+  - Membership of Engineers Australia (Chartered status preferred); relevant registration (e.g Registered Building Pr
+DUTY/REQ:
+  We have an exciting opportunity for a Civil Engineer to join our team in Melbourne, VIC on a permanent, full-time basis. Reporting to the State Construction Manager, you will plan, design, organise and oversee the constr
+  Key Responsibilities:
+  - Plan, organise and oversee the construction of piling and foundation projects, coordinating site activities, labour, materials, plant and equipment from mobilisation through completion.
+  - Review designs, specifications, drawings and geotechnical information, and determine construction methods, materials and quality standards.
+  - Analyse soil, rock and structural conditions to support safe, practical foundation design and construction solutions.
+  - Contribute to tenders and cost estimates, and monitor project budgets and programs.
+  - Manage contract obligations, including design changes, variations and extensions of time.
+  - Provide clear direction to supervisors, crews and subcontractors, and mentor team members.
+  - Act as a point of contact for clients and maintain strong commercial relationships.
+  - Maintain project documentation, reporting and quality records, and ensure compliance with our Integrated Management System, legislation and client requirements.
+  - Promote a safety-first culture and continuous improvement, and progress towards Chartered Professional Engineer (CPEng) status.
+  - Bachelor’s degree or higher in Civil Engineering (or equivalent) is required.
+  - Membership of Engineers Australia (Chartered status preferred); relevant registration (e.g Registered Building Practitioner) is desirable.
+  - Minimum 3 years’ relevant work experience in geotechnical/foundation, building, or civil engineering is essential.
+  - Solid understanding of geotechnical and structural engineering principles.
+QS: ["Which of the following statements best describes your right to work in Australia?", "How many years' experience do you have as a civil engineer?", "Have you completed a qualification in civil engineering?", "Do you have experience preparing and submitting tenders?", "How much notice are you required to give your current employer?"]
+
+==========================================================================================
+96113621 | Riddwood Consulting Engineers Pty Ltd | Digital Engineering Draftsperson
+lane=drafter type=Full time pay=$80,000 – $90,000 per year loc=Fortitude Valley, Brisbane QLD lo=False
+ENTRY-ISH False
+YEARS:
+  You are a person who thrives in a fast paced environment. With 3+ years’ minimum experience from a consulting or construction background undertaking structural documentati
+VISA/CIT:
+  - Preparing detailed general arrangement, temporary works and construction drawings for tunnels, bridges and other civil structures
+  - Become part of one of the largest Temporary Works specialist teams in Australia.
+DUTY/REQ:
+  In this role, you will work on complex projects such as tunnels, bridges, and large-scale civil structures. You’ll play a key role in developing and managing BIM models and construction documentation, delivering digital 
+  Working closely with a team of experienced engineers who understand both design and build, you’ll have the opportunity to apply your digital expertise to solve real construction challenges and see your contributions come
+  Key Responsibilities
+  - Preparing detailed general arrangement, temporary works and construction drawings for tunnels, bridges and other civil structures, in support of Riddwood’s engineers.
+  - Managing own drafting tasks independently and applying technical judgement to resolve typical documentation issues.
+  - Producing accurate and efficient 2D drawings and 3D models in AutoCAD and Revit, coordinating directly with engineers and clients.
+  - Maintaining model and drawing accuracy across project phases, ensuring compliance with Riddwood’s standards and client requirements.
+  - Preparing and updating documentation including drawing registers and mark-ups.
+  - Supporting digital project delivery through consistent communication, attention to detail, and proactive coordination.
+  - Taking full ownership of the drafting task's delivery, ensuring accuracy, quality, and timely completion across multiple projects.
+  - Proficiency in AutoCAD and Revit, with experience in 3DS Max or Synchro 4D highly regarded.
+  - Strong attention to detail and commitment to learn Riddwood’s standards and workflows.
+  - Ability to manage multiple drafting tasks independently while maintaining accuracy and quality.
+  - Strong communication skills and ability to work collaboratively with engineers and clients.
+  - Thorough understanding of drawing standards, documentation workflows, and model coordination.
+QS: []
+
+==========================================================================================
+96101480 | Cookson & Roberts | Civil Design Engineer
+lane=None type=Full time pay=None loc=Sydney NSW lo=False
+ENTRY-ISH False
+YEARS:
+  Are you a Civil Engineer with 2-5 years' experience who's ready to take your career to the next level in 2027?
+  What We're Looking For - 2-3 years' civil engineering experience, ideally within an Australian consultancy or desi
+DEG/PROG:
+  - A Civil Engineering degree recognised in Australia
+DUTY/REQ:
+  This is an opportunity to join a close-knit, collaborative team where you'll work directly alongside a passionate, approachable Director who genuinely enjoys mentoring and helping engineers reach their potential.
+  Forget being just another number. Here, you'll be supported, challenged and given the opportunity to develop your technical skills while working on interesting and rewarding projects across NSW.
+  The Opportunity You'll gain hands-on experience across a diverse range of residential subdivisions, urban development and civil infrastructure projects, including:
+  - Civil design for residential subdivisions and associated infrastructure
+  - Drainage, stormwater management, flood studies and utility design
+  - Using software including 12d, HEC-RAS, DRAINS, MUSIC and AutoCAD
+  - Supporting senior engineers with design calculations, documentation and authority submissions
+  - Collaborating with experienced engineers who are genuinely invested in your development
+  - Gaining exposure to the full project lifecycle, from concept through to delivery
+  - Exposure to urban land development and civil infrastructure projects
+  - Working knowledge of relevant design software such as 12d, DRAINS, MUSIC or HEC-RAS
+  - A good understanding of Australian design standards and local authority requirements
+  - A Civil Engineering degree recognised in Australia
+  - A positive attitude, curiosity and a genuine desire to learn and progress
+  Why You'll Love This Opportunity
+QS: ["Which of the following statements best describes your right to work in Australia?"]
+
+==========================================================================================
+96089224 | Duratec Limited | Civil Engineer
+lane=None type=Full time pay=None loc=Newcastle, Newcastle, Maitland & Hunter NSW lo=True
+ENTRY-ISH False
+YEARS:
+  - 2-5 years of experience in construction industry
+DUTY/REQ:
+  - Construction projects across Newcastle/Hunter Valley region
+  - Multi-state presence, market leading contractor
+  - Suitable candidate must have Structural, mechanical and piping experience
+  - Plan and coordinate works, equipment and personnel
+  - Provide technical advice to personnel regarding design, construction, program modification or repairs
+  - Compile and create QA/QC documentation
+  - Program and schedule works
+  - Quantity take-offs
+  - Ensure compliance with HSECQ requirements
+  - Facilitate regular project management meetings
+  - 2-5 years of experience in construction industry
+  - Structural, mechanical and piping experience
+  - Inspection/asset management experience
+  - Tertiary qualification in Civil Engineering
+  - Ability to positively influence, develop and maintain stakeholder relationships
+QS: []
+
+==========================================================================================
+96086482 | Bayside Council | Project Engineers x 2
+lane=None type=Full time pay=$109,042 – $122,127 per year loc=Bexley, Sydney NSW lo=True
+ENTRY-ISH False
+YEARS:
+  - Or, have 5+ years’ experience in the delivery of civil works including capital projects and progr
+DUTY/REQ:
+  - Fantastic career development opportunity
+  - Deliver Councils capital works projects and programs
+  - Salary from $109,042 - $122,127 pa + 12.5% Superannuation
+  - Civil Liability Allowance (3.5% of base salary) + Leaseback Vehicle
+  About the Role
+  This role involves managing the planning and delivery of capital projects/programs to ensure the construction of quality infrastructure assets for the community, whilst maintaining budgets in line with Council’s operatio
+  Your key responsibilities will include:
+  - Delivery of the road re-sheeting program (road pavement renewal), footpath programs, kerb and gutter renewal and stormwater drainage renewal works.
+  - Completion of project and program activities including preparing RFQ/RFT documentation, scheduling, feasibility assessment and development of consultant and other briefs.
+  - Engaging with stakeholders and external providers, such as contractors and consultants to develop quality and innovative solutions to the agreed project scope, budgets, timelines and deliverables.
+  - Providing accurate advice, analysis and reporting to Council stakeholders and make recommendations regarding project briefs, major developments and infrastructure.
+  - Provision of expert evidence in claims and legal proceedings relating to infrastructure projects.
+  - Qualifications in either Civil Engineering, Project Management of Construction Management (or equivalent)
+  - Or, have 5+ years’ experience in the delivery of civil works including capital projects and programs.
+  - On-site experience in the management of contractors and staff.
+QS: []
+
+==========================================================================================
+96080433 | MP Recruitment | Civil Designer
+lane=drafter type=Full time pay=None loc=Albury, Albury Area NSW lo=False
+ENTRY-ISH False
+DUTY/REQ:
+  About the Role
+  You'll work closely with engineers, surveyors, project teams and external stakeholders to deliver innovative and practical civil designs across a variety of land development projects.
+  Key Responsibilities
+  - Prepare concept, functional and detailed civil engineering designs.
+  - Produce technical drawings and documentation using CAD software.
+  - Assist with project documentation, reports and approval submissions.
+  - Conduct site visits, investigations and data collection activities.
+  - Perform quality assurance checks to ensure compliance with project requirements and industry standards.
+  - Provide design support during construction and assist with design revisions.
+  - Liaise with clients, government authorities, consultants, surveyors and service authorities.
+  - Experience using AutoCAD and MS Office software.
+  - Strong understanding of civil engineering principles and construction practices.
+  - Knowledge of relevant Australian Standards.
+  - Excellent communication and stakeholder management skills.
+  - Strong organisational skills with the ability to manage multiple projects and deadlines.
+QS: ["Which of the following statements best describes your right to work in Australia?", "How many years' experience do you have as a civil designer?", "What's your expected annual base salary?", "Which of the following CAD software do you have experience with?", "Do you have working knowledge of relevant Australian Standards?", "Was your Engineering qualification completed in Australia"]
+
+==========================================================================================
+96053688 | GreenTec Consulting | Civil Engineer
+lane=None type=Full time pay=None loc=Brisbane QLD lo=False
+ENTRY-ISH False
+YEARS:
+  - At least two years of relevant professional experience in civil engineering design, construction o
+DEG/PROG:
+  - A recognised degree in Civil Engineering or a closely related engineering discipline.
+DUTY/REQ:
+  About the role
+  As a Civil Engineer, you will contribute to the design, planning and delivery of civil engineering projects, particularly within the landfill, waste management, mining and environmental sectors. Working as part of a coll
+  - Undertaking civil engineering design, modelling and technical analysis for landfill, stormwater, mining and large earthworks projects.
+  - Interpreting laboratory and field data, preparing technical reports and providing engineering recommendations.
+  - Preparing and reviewing engineering drawings, specifications and project deliverables.
+  - Providing practical engineering advice and technical support throughout project design and construction.
+  - Assisting with the preparation of project proposals, budgets and tender documentation.
+  - Coordinating engineering projects, contractors and project resources to ensure timely and efficient delivery.
+  - Undertaking site inspections, fieldwork and construction quality assurance (CQA) activities.
+  - Liaising with clients, contractors and other project stakeholders throughout the project lifecycle.
+  - Ensuring engineering activities are undertaken in accordance with relevant Australian Standards, project specifications and safety requirements.
+  - A recognised degree in Civil Engineering or a closely related engineering discipline.
+  - At least two years of relevant professional experience in civil engineering design, construction or project delivery.
+  - Knowledge of relevant Australian engineering standards and construction practices.
+  - Strong technical, analytical and problem-solving abilities.
+QS: ["Which of the following statements best describes your right to work in Australia?", "What's your expected annual base salary?", "How many years' experience do you have as a civil engineer?", "How much notice are you required to give your current employer?", "Have you completed a qualification in civil engineering?"]
+
+==========================================================================================
+96117583 | Willweld Pty Ltd | Draftsperson
+lane=None type=Full time pay=None loc=Kalgoorlie, Kalgoorlie, Goldfields & Esperance WA lo=False
+ENTRY-ISH False
+YEARS:
+  - Have 2+ years’ experience in product designing, 3D/2D modelling new assemblies and parts.
+DUTY/REQ:
+  - 3 weeks working from home.
+  - 1 week on site – working alongside the team and engaging with projects first-hand.
+  What you’ll be doing.
+  As a member of the team, you will assist with:
+  - Designing and 3D/2D modelling of new assemblies and parts as per requirements.
+  - Creating detailed fabrication drawings for production.
+  - Updating and revising of existing assemblies and drawings when required.
+  - Liaising with workshop personnel and managers in implementing new design.
+  - Attending weekly team meetings.
+  - Maintaining drawing register with up-to-date drawings.
+  - Obtain quotes for all components, finished products and services.
+  - Raise, place and monitor purchase orders.
+  - Working alongside Project Lead Draftsperson to assist in set up of work packs and job management.
+  - Assist in all other areas when required to support our busy team.
+  - Some site visits maybe required.
+QS: ["Which of the following statements best describes your right to work in Australia?", "What's your expected annual base salary?", "How many years' experience do you have as a draftsperson?", "How much notice are you required to give your current employer?", "Do you have fabrication experience?", "Do you have a current Australian driver's licence?"]
+
+==========================================================================================
+96115341 | Pioneer Water Tanks Pty Ltd | Draftsperson
+lane=None type=Full time pay=None loc=Bellevue, Perth WA lo=True
+ENTRY-ISH False
+YEARS:
+  Water Tanks have been setting the industry standard in water storage for over 35 years, leading the way with advanced engineering and technology. We are a 100% Austra
+  ns, a fifth-generation Australian family business with a legacy spanning over 120 years, Pioneer is backed by the resources and expertise of a national leader in const
+DUTY/REQ:
+  About the Role
+  The Draftsperson at Pioneer Water Tanks, based in Bellevue, WA, is responsible for producing detailed technical drawings and plans in accordance with specifications from engineers, architects, and designers. This role re
+  - Relevant qualifications in drafting, engineering or a related field
+  - Strong hands-on experience with AutoCAD and Inventor
+  - Sound knowledge of technical drawing standards and principles
+  - Ability to read and interpret architectural and engineering drawings and requirements
+  - Detail-oriented, with a strong eye for accuracy
+  - Excellent communication and problem-solving skills
+  - Experience in construction, manufacturing or engineering is highly desirable
+  - Work with a leading Australian-owned business backed by the Ahrens Group
+  - Supportive, team-focused culture
+  - Real opportunities for growth and development
+  - Great employee benefits and team events
+QS: []
+
+==========================================================================================
+96111924 | Bielby Holdings Pty Ltd | Project Engineer
+lane=None type=Full time pay=None loc=Brisbane QLD lo=True
+ENTRY-ISH False
+YEARS:
+  We're proudly Australian owned and operated, with more than 40 years of experience and a strong reputation for delivering major civil infrastructure
+DEG/PROG:
+  - A degree in Civil Engineering or an equivalent qualification
+DUTY/REQ:
+  What you’ll do
+  - Taking end-to-end ownership of assigned work areas, from planning and procurement through to construction and completion.
+  - Driving programme, productivity, quality and cost outcomes
+  - Coordinating subcontractors, suppliers and site teams
+  - Preparing and managing ITPs, RFIs, technical documentation and project records
+  - Monitoring progress against programme and identifying delivery risks early
+  - Supporting procurement, forecasting, quantities and cost control
+  - Resolving technical and construction issues in collaboration with the project team
+  - Building effective relationships with clients, designers and project stakeholders
+  - Ensuring works are delivered safely and in accordance with project specifications
+  What you’ll bring
+  - A degree in Civil Engineering or an equivalent qualification
+  - Previous Project Engineer experience with a civil contractor on TMR projects
+  - Demonstrated experience across roads, bulk earthworks, drainage, pavements, structures or related civil infrastructure
+  - Strong planning, coordination and problem-solving capability
+QS: []
+
+==========================================================================================
+96106174 | Ampersand | Project Engineer Roads & Infrastructure
+lane=None type=Contract/Temp pay=ABN $900 - $1120 + GST loc=Holbrook, Wagga Wagga & Riverina NSW lo=False
+ENTRY-ISH False
+DEG/PROG:
+  - A four-year degree in Civil, Electrical or a related engineering discipline, or an equivalent over
+DUTY/REQ:
+  - NSW State Government
+  - Location: Holbrook
+  - Contract: ASAP start until 30 May 2027
+  - Rate: To be confirmed + super
+  - Hours: 40 hours per week, up to 8 hours per day.
+  - $900 - $1000 per day + super
+  We're seeking a Project Engineer to deliver road, bridge and traffic infrastructure construction and maintenance projects. Based in Holbrook, you'll coordinate projects from planning through to completion, ensuring works
+  Key responsibilities
+  - Prepare project briefs, cost estimates, work programs and delivery schedules.
+  - Coordinate investigations and design activities, overseeing consultants and service providers.
+  - Manage construction and maintenance works delivered by internal crews and external contractors.
+  - Prepare tender documentation, technical specifications and contracts.
+  - Monitor project expenditure, progress and contractor performance.
+  - Implement safety, quality, environmental and traffic management requirements.
+  - Work with stakeholders to resolve technical issues and manage delivery expectations.
+QS: ["Which of the following statements best describes your right to work in Australia?", "How many years' experience do you have as a Road Engineer?", "How much notice are you required to give your current employer?", "Have you worked in NSW Government before?", "Do you have experience managing the delivery of road, bridge or traffic infrastructure construction or maintenance projects?", "Do you hold a four-year degree in Civil, Electrical or a related engineering discipline, or an equivalent overseas qualification?"]
+
+==========================================================================================
+96103687 | Kiwa Construction Sciences | Trainee Laboratory and Field Technicians
+lane=technician type=Full time pay=None loc=Childers, Bundaberg & Wide Bay Burnett QLD lo=False
+ENTRY-ISH True
+YEARS:
+  in It for You? - Pay Rate: $20 – $28 ph (starting at $21 ph for trainees aged 18 years, with the pay rate increasing by age and trainee classification, in line with t
+VISA/CIT:
+  - A current driver's licence and unrestricted Australian working rights
+DEG/PROG:
+  ooking for Trainee Soil Technicians to join our Childers team. You don’t need a degree or previous industry experience — just reliability, a good attitude and willing
+DUTY/REQ:
+  About the Role
+  This is a practical, active role where you’ll work both outdoors on construction sites and in the laboratory. You’ll be testing soil and concrete, learning how major construction projects are built, and gaining nationall
+  - Getting hands-on at construction sites — manual work, plenty of action
+  - Learning from experienced technicians and supervisors
+  - Preparing clear, accurate records and reports
+  - Completing physical tasks in the laboratory and on-site
+  - Providing great service to our construction clients
+  - Full-time, permanent role with an 18-month traineeship and ongoing employment beyond completion
+  - Complete your Cert IV through our in-house training team, with additional milestone payments as you build practical skills on the job
+  - Receive additional funding for completing modules of your traineeship
+  - Potential company ute for site-based roles after 6 months, depending on eligibility
+  - Career growth — move up the ranks in our diverse and growing business
+  - Enjoy 17.5% extra pay when you take annual leave, plus discounts on shopping, travel and insurance, novated leasing and confidential EAP support.
+  - Paid Parental Leave — for both men and women
+  - Be part of a team that values its workers — many of our crew have built long, successful careers here
+QS: ["Which of the following statements best describes your right to work in Australia?", "Do you have a drivers licence?", "What are your hourly rate expectations (overtime on top of this)"]
+
+==========================================================================================
+96081022 | Kokatha Aboriginal Corporation | Civil Technicians
+lane=technician type=Full time pay=None loc=Olympic Dam, Coober Pedy & Outback SA lo=False
+ENTRY-ISH False
+DUTY/REQ:
+  About the role
+  Working across BHP's Olympic Dam operation, Civil Technicians will be responsible for routine inspections, identifying maintenance requirements, completing minor maintenance activities and maintaining clean, safe and fun
+  Key responsibilities will include:
+  1. Carpark and shelter maintenance
+  - Inspect external carparks, parking areas and shelters.
+  - Identify and report defects or maintenance requirements.
+  - Undertake minor repairs and general housekeeping.
+  - Empty bins and collect rubbish as required.
+  2. Roads and signage
+  - Inspect road signage across designated site and industrial areas.
+  - Identify damaged, missing or deteriorating signage.
+  - Check warning, information, directional and speed signage.
+  - Undertake minor maintenance and housekeeping.
+  3. Footpaths and pedestrian areas
+  - Inspect pedestrian crossings, footpaths and roadside safety fencing.
+QS: []
+
+==========================================================================================
+96054622 | Parratech Group Pty Ltd | Inventor Designer/Draftsperson 
+lane=None type=Full time pay=None loc=Eastern Creek, Sydney NSW lo=False
+ENTRY-ISH False
+DUTY/REQ:
+  Responsibilities:
+  - Lead design activities across multiple projects
+  - Develop detailed fabrication drawings and 3D models
+  - Develop all required fabrication drawings to successfully manufacture all required parts
+  - Produce designs that are fully functional for: Fabrication, Manufacturing, Transport and Cost Efficiency
+  - Liaise with engineers, project managers and factory to coordinate design outcomes
+  - Attend and actively contribute to fabrication workshops
+  - Ensure design outputs meet project specifications, company standards, and industry requirements
+  - Monitor progress against timelines and ensure deliverables are met on schedule
+  - Collaborate with engineering, manufacturing, and operations teams
+  - Contribute to continuous improvement of design workflows and processes
+  - Strong proficiency in Autodesk Inventor
+  - Solid understanding of structural steel design and fabrication methods
+  - Knowledge of fabrication processes and requirements
+  - Practical understanding of construction site operations
+QS: []
+
+==========================================================================================
+96054230 | Cross Border Contracts | Site Engineer
+lane=None type=Full time pay=$80,000 – $120,000 per year loc=Brisbane QLD lo=False
+ENTRY-ISH False
+DUTY/REQ:
+  About the role
+  This company is a leading contractor delivering high-profile infrastructure and civil engineering excellence across Australia. Known for innovation, structural integrity, and high safety standards, we pride ourselves on 
+  Key responsibilities
+  - Site Supervision & Execution
+  - Oversee and monitor daily on-site construction activities to ensure they align directly with blueprints, technical specifications, and design drawings.
+  - Directly supervise subcontractors, plant operators, and site crews, tracking their progress against weekly targets.
+  - Provide clear technical guidance and problem-solving solutions to resolve construction-related bottlenecks efficiently.
+  - Planning, Logistics & Spoil Management
+  - Manage short-term planning schedules, including 4-week lookahead schedules and daily construction sequencing.
+  - Implement and manage the site spoil disposal tracking system, ensuring precise monitoring of excavated material volumes, truck movements, and load counts.
+  - Coordinate the procurement, tracking, and timely delivery and exporting of construction materials (e.g., spoil, concrete and steel components) while minimizing waste.
+  - Conduct preliminary site inspections and work alongside surveyors to verify earthworks, leveling, and site boundaries.
+  3. Quality Assurance & Compliance
+  - Implement and manage Inspection and Test Plans (ITPs) and prepare Inspection and Test Reports (ITRs) to secure sign-off from clients and QA/QC teams.
+  - Ensure absolute compliance with Queensland environmental and waste regulations by retaining accurate waste transport certificates, dockets, and spoil classification records.
+QS: ["Which of the following statements best describes your right to work in Australia?", "How many years' experience do you have as a site engineer?", "How much notice are you required to give your current employer?"]
+
+==========================================================================================
+96054169 | Lucid Consulting Australia | Draftsperson
+lane=None type=Full time pay=None loc=Adelaide SA lo=False
+ENTRY-ISH False
+YEARS:
+  - 1-5 years drafting experience.
+  - 1-5 years REVIT MEP experience.
+DEG/PROG:
+  - Australian-recognised degree or TAFE course in building design drafting or equivalent.
+DUTY/REQ:
+  About the Role
+  Our Organisation provides an opportunity for you to work in a supportive environment with dynamic professionals in an engineering role. The role will support you in your growth as a professional as you’ll be working alon
+  The key responsibilities include:
+  - Acting as the project drafter and design modeller representative on project teams responsible for the delivery projects.
+  - Modelling and Designing in Hydraulic Services.
+  - Drawings setups and background updates for new and current projects.
+  - Management of drafting standards including organisation of drafting review checks with team members.
+  - Provision of clash detection reviews and reports and management of clash rectification with team.
+  - Provision of CAD and REVIT trouble shooting assistance through internal teaching and guidance to modelling team members.
+  - Assisting to train and develop team members in use of CAD and REVIT.
+  - Continued development of templates and families in REVIT software.
+  You will require the following:
+  - Australian-recognised degree or TAFE course in building design drafting or equivalent.
+  - Previous experience in building services consultancy.
+  - Strong team attitude and willingness to be open and engaging with team members.
+QS: ["Which of the following statements best describes your right to work in Australia?", "How many years' experience do you have as an Engineering Draftsperson?"]
+
+==========================================================================================
+96049862 | Complete Metal Works | Draftsperson
+lane=None type=Full time pay=None loc=Derrimut, Melbourne VIC lo=False
+ENTRY-ISH False
+DUTY/REQ:
+  - Experience in Estimating
+  - Must have Experience in Shop Drawings within a Structural Steel Workshop Environment
+  - Must have Experience in the use of Tekla
+  - Must be reliable & competent
+  - Great interpersonal and communication skills
+  - Professional work ethic with a “can do” attitude
+  - Commencement will be January 2027
+  - Lifestyle work hours:- 6.00am - 2.30pm Mon - Thurs & 6.00am - 2.00pm Friday
+  - Full Time
+  - Great team & safety based culture
+QS: ["Which of the following statements best describes your right to work in Australia?", "What's your expected annual base salary?", "How many years' experience do you have as a draftsperson?", "How much notice are you required to give your current employer?", "Do you have Cost Estimation experience?"]
+
+==========================================================================================
+96045750 | Ventia | Civil Technician
+lane=technician type=Full time pay=Solid rate + OT + Perks! loc=Stretton, Brisbane QLD lo=True
+ENTRY-ISH False
+DUTY/REQ:
+  Transurban QLD require an experienced Civil Labourer to join the Open Roads Maintenance Team on a permanent, full-time basis. This is an exciting opportunity for experienced civil maintenance professionals to become part
+  - Two permanent, full-time positions
+  - Excellent opportunities for overtime, including weekends and additional weekday shifts
+  - Career stability with opportunities for ongoing professional development
+  - A supportive and collaborative team environment
+  - Access to a variety of Health and Wellness initiatives - including the EAP, Fitness Passport, Ventia's Healthy Minds program and Healthy Bodies program and Fitness Passport
+  - Employee benefits such as corporate travel discounts, Novated leases, private health discounts, credit discounts with retailers Australia wide including Woolworths, Coles, Booking.com and Expedia
+  Key Responsibilities
+  - Deliver planned, routine and reactive civil maintenance across roads and tunnels.
+  - Perform general civil repairs, drainage, landscaping, vegetation and grounds maintenance.
+  - Inspect and maintain civil structures and infrastructure, identifying defects and risks.
+  - Undertake painting, cleaning and pressure-washing activities.
+  - Support project, additional and Incident Response works, including assisting emergency services when required.
+  - Work safely and efficiently in live traffic environments.
+  - Ensure all work meets safety, environmental, quality, time and contractual requirements.
+QS: []
+
+==========================================================================================
+96110781 | COLAS Australia Group Pty Ltd | Laboratory Technician - Asphalt
+lane=technician type=Full time pay=$32 - $36 ph dep on exp + Allowances  loc=Caloundra, Sunshine Coast QLD lo=False
+ENTRY-ISH False
+DUTY/REQ:
+  We’re looking for a Laboratory Technician to join our team based in Caloundra, QLD. You’ll play an important role in delivering accurate and reliable laboratory and field testing, supporting the quality and performance o
+  Key responsibilities include:
+  - Perform accurate and timely laboratory and field testing.
+  - Ensure testing meets ISO 17025, NATA and internal quality requirements.
+  - Maintain accurate test results, reports and laboratory records.
+  - Operate and maintain laboratory equipment safely and effectively.
+  - Follow safety requirements, including the use and transport of radiation gauges.
+  - Identify and report safety, quality and testing non-conformances.
+  - Support continuous improvement across laboratory operations and testing processes.
+  - Liaise with internal teams, clients, suppliers and industry stakeholders.
+  - Maintain independence and impartiality when conducting testing.
+  - Preferably a Cert 3 or 4 in Laboratory Techniques
+  - Proven success in a technical or laboratory environment
+  - Valid Driver’s license
+  - Strong mathematical or technical abilities
+QS: ["How many years' experience do you have as a laboratory technician?", "Are you available to travel for this role when required?", "Which of the following statements best describes your right to work in Australia?", "What's your expected hourly rate?"]
+
+==========================================================================================
+96104341 | McIlwain Civil Engineering Pty Ltd | Site Engineer
+lane=None type=Full time pay=Competitive salary based on exp + benefits loc=North Sydney, Sydney NSW lo=True
+ENTRY-ISH False
+YEARS:
+  r to join our growing NSW team on a full-time, permanent basis. With more than 60 years of road infrastructure delivery in Queensland, we've recently set up our NSW bu
+  - At least 4 years' experience as a Site or Project Engineer with a civil contractor
+VISA/CIT:
+  - Provide input on construction methodology, staging and temporary works
+DUTY/REQ:
+  You'll start in our North Sydney office, supporting tenders, planning and procurement and reporting to the Regional Manager - NSW. Once we win a project, you'll move to site and report to the Project Manager, managing da
+  Responsibilities
+  - Assist with quantity take-offs and review tender drawings and specifications
+  - Provide input on construction methodology, staging and temporary works
+  - Help identify construction risks, constraints and opportunities for the bid team
+  - Support tender and early delivery programmes and resource planning
+  - Assist with procurement, including getting and comparing subcontractor and supplier quotes
+  - Plan and coordinate daily and weekly site activities with supervisors, subcontractors and suppliers
+  - Manage set-out, survey coordination and checks against design
+  - Run the quality system, including ITPs, hold and witness points, test results and lot records to TfNSW specifications
+  - Prepare and review SWMS, traffic guidance schemes, road occupancy licences and environmental controls
+  - Track quantities and progress, and support the Project Manager with progress claims, variations and look-ahead programmes
+  - Manage RFIs, design queries, and interfaces with utilities, councils and the community
+  - Prepare as-constructed records and handover documentation, and close out defects
+  - Tertiary qualification in civil engineering
+QS: []
+
+==========================================================================================
+96103253 | Rokon Pty Ltd | Expressions of Interest - Engineers
+lane=None type=Full time pay=Based on experience loc=Deanside, Melbourne VIC lo=False
+ENTRY-ISH False
+YEARS:
+  Join one of Victoria’s most prominent civil contractors. For over 25 years, Rokon has partnered with some of the state’s largest developers and infrastruc
+  - Degree-qualified Civil Engineer with 2+ years’ experience in civil construction, ideally across subdivisions and land develop
+DEG/PROG:
+  - Degree-qualified Civil Engineer with 2+ years’ experience in civil construction, ideal
+DUTY/REQ:
+  You’ll be part of our Engineering team, providing the engineering and project management expertise behind the planning, budgeting, forecasting and reporting of our projects.
+  Reporting to the Project Manager, your responsibilities will include, but are not limited to:
+  - Deliver civil infrastructure projects safely, on time and within budget.
+  - Manage project documentation, quality, HSE requirements, contracts and technical specifications.
+  - Coordinate subcontractors, councils, authorities and internal stakeholders to keep projects moving.
+  - Monitor costs, forecasts and project performance, proactively identifying and resolving issues.
+  - Lead project meetings, provide regular reporting and drive successful project outcomes.
+  To be considered, you’ll need to demonstrate:
+  - Degree-qualified Civil Engineer with 2+ years’ experience in civil construction, ideally across subdivisions and land development.
+  - Strong understanding of technical drawings, specifications, project planning and cost management.
+  - Proven ability to build relationships and collaborate with clients, subcontractors, authorities and internal teams.
+  - Highly organised with strong problem-solving, communication and stakeholder management skills.
+  - Current White Card and Victorian Driver’s Licence, with a proactive, can-do approach to project delivery.
+QS: ["Which of the following statements best describes your right to work in Australia?"]
+
+==========================================================================================
+96083374 | GR Engineering Services Limited | Designers
+lane=drafter type=Contract/Temp pay=None loc=Ascot, Perth WA lo=True
+ENTRY-ISH False
+YEARS:
+  - Minimum of 10 years design experience
+VISA/CIT:
+  - Full and unrestricted Australian working rights
+DUTY/REQ:
+  - Great opportunity to join a growing Team
+  - Be part of some ground breaking projects
+  - Free onsite parking and end of ride facilities
+  - Produce drawings (hard copy and electronic CAD files) in accordance with client specification, GRES Standards and industry best practices
+  - Be able to transmit clear and concise information through drawings to engineers
+  - Manage workload to ensure tasks are completed in an orderly manner, within times required for various projects
+  - Maintain high levels of accuracy and quality in the design documentation produced for activities under their control
+  - Experience in the preparation and review of design documents to schedules
+  - Extensive experience with discpine specific drafting packages such as Solid Edge, Autocad, Tekla , Civil 3D
+  - Minimum of 10 years design experience
+  - Broad experience with 3D CAD platforms and modelling workflows
+  - Demonstrated problem solving skills in a design context
+  - Excellent time management, organisational and communication skills
+  - Certificate or Diploma in Design or Engineering *beneficial
+  - Experience with mineral process plants and bulk materials handling projects
+QS: []
+
+==========================================================================================
+96079741 | K&H Geotechnical Services | Geotechnical Technician
+lane=technician type=Full time pay=None loc=Orange, Blue Mountains & Central West NSW lo=False
+ENTRY-ISH False
+DUTY/REQ:
+  About the Role
+  We are looking for a reliable and detail-oriented Geotechnical Technician to join our team, operating directly out of our customer’s onsite laboratory. In this hands-on role, you will perform routine sampling and laborat
+  Key Responsibilities
+  - Collect, prepare, and log soil and aggregate samples from active construction or quarry sites.
+  - Perform standard NATA-accredited laboratory and field tests (including moisture content, particle size distribution/sieve analysis, Atterberg limits, compaction/Proctor testing, CBR, and nuclear density gauge testing).
+  - Calibrate, clean, and maintain laboratory testing equipment to ensure accurate results.
+  - Accurately record test data, perform calculations, and prepare technical reports for site engineers and clients.
+  - Adhere strictly to site Work Health and Safety (WHS) policies, quality assurance systems, and Australian Standards (AS 1289 / AS 1141).
+  - Liaise professionally with site supervisors, engineers, and project managers regarding test results and scheduling.
+  - Experience: Previous experience as a Construction Materials Testing (CMT) or Geotechnical Technician, specifically with soils and aggregates.
+  - Qualifications: Certificate III or IV in Laboratory Skills (or equivalent) is highly regarded, though experienced applicants without formal qualifications will be considered.
+  - Licences: Current manual driver’s licence (essential) and a White Card (Construction Induction). A Radiation Safety Licence (for nuclear density gauges) is a strong advantage.
+  - Skills: Strong attention to detail, solid basic maths skills, and familiarity with lab software or Microsoft Excel.
+  - Mindset: Able to work independently in an onsite environment, manage changing project timelines, and lift/handle heavy sample bags safely.
+  - Competitive hourly rate / salary package + overtime opportunities.
+QS: ["Which of the following statements best describes your right to work in Australia?", "What's your expected annual base salary?", "How many years' experience do you have as a Geotechnical Technician?", "How much notice are you required to give your current employer?", "Which of the following confined space courses have you completed?", "Which of the following crane licences do you have?", "Are you licenced to drive a manual vehicle?", "Do you hold a Construction Induction Safety certificate (White Card)?", "Do you have Construction Materials Testing experience?"]
+
+==========================================================================================
+96081045 | Montdami Civil Pty Ltd | Project Engineer (Civil)
+lane=None type=Full time pay=None loc=Box Hill, Melbourne VIC lo=False
+ENTRY-ISH False
+YEARS:
+  - Ideally 2-4 years engineering experience within the civil construction industry.
+DEG/PROG:
+  - A Bachelor of Engineering (Civil).
+DUTY/REQ:
+  About the role
+  Reporting to the Project Manager, you will support the planning, coordination and delivery of allocated civil construction projects.
+  Your responsibilities will include:
+  - Reviewing project drawings, specifications, contracts and technical documentation.
+  - Ensuring project documentation, Inspection and Test Plans, internal procedures and construction requirements are available and implemented at each stage of the works.
+  - Communicating quality, environmental and health and safety requirements to site supervisors and project personnel.
+  - Supporting the preparation and implementation of construction programs, methodologies and project plans.
+  - Coordinating subcontractors, suppliers, consultants, councils, authorities and other project stakeholders.
+  - Liaising with site teams and internal departments to coordinate labour, plant, materials and project resources.
+  - Monitoring project progress against approved programs, budgets and contractual requirements.
+  - Identifying potential delays, commercial risks, variations and cost overruns, and escalating issues promptly.
+  - Preparing cost forecasts and providing regular updates on anticipated final project costs.
+  - Assisting with variations, progress claims, procurement, subcontract administration and project reporting.
+  - Investigating cost, claim and production anomalies and supporting the implementation of appropriate corrective actions.
+  - Coordinating project meetings and ensuring actions, decisions and minutes are recorded and distributed.
+QS: ["Which of the following statements best describes your right to work in Australia?", "What's your expected annual base salary?", "How many years' experience do you have as a Civil Project Engineer?", "How much notice are you required to give your current employer?", "Have you completed a qualification in civil engineering?", "Do you have experience working on civil infrastructure projects?", "Do you hold a Construction Induction Safety certificate (White Card)?", "Do you have a current Australian driver's licence?"]
+
+==========================================================================================
+96080981 | CMP Consulting Group | Junior Design Visualisation Specialist
+lane=None type=Full time pay=None loc=Mulgrave, Melbourne VIC lo=False
+ENTRY-ISH True
+DUTY/REQ:
+  About the role
+  As a Junior Design Visualisation Specialist, you will work with engineers, designers and project teams to turn engineering designs and technical information into clear, accurate and engaging visual outputs for design rev
+  You will prepare still images, animations, fly-throughs and interactive visualisations using Twinmotion, Unreal Engine or similar real-time tools. As visualisation demand develops, you will also build capability in mecha
+  The role is suited to someone from game design, animation, architectural visualisation, digital media or a related 3D field who wants to apply strong modelling, spatial reasoning and real-time rendering skills to enginee
+  Key Responsibilities
+  - Produce clear, accurate and engaging visualisations of water, wastewater and other infrastructure projects using Twinmotion, Unreal Engine or similar real-time software.
+  - Create still images, animations, camera fly-throughs, construction staging sequences and interactive presentations suited to design reviews, stakeholder engagement, tenders and Safety in Design.
+  - Import, clean and prepare models from Civil 3D, Plant 3D, Revit, Navisworks and other common design formats for real-time visualisation.
+  - Work with project teams to understand the intended audience, key messages and level of visual detail required.
+  - Present complex engineering designs in a form that clients, operators, community stakeholders and non-technical audiences can readily understand.
+  - Maintain an organised and repeatable workflow for source models, textures, linked files, visualisation scenes and published outputs.
+  - Develop efficient templates, asset libraries and reusable workflows that improve the quality and consistency of CMP’s visualisation work.
+  - Develop capability in mechanical drafting and modelling using AutoCAD, Plant 3D and CMP drafting standards under the guidance of an experienced mechanical designer and mechanical engineer.
+  - Prepare and update mechanical drawings, models and associated documentation as assigned, with all drafting outputs checked through CMP review processes.
+  - Contribute to automation and digital improvement work where your technical skills are relevant, including CAD and Plant 3D automation, model-to-Twinmotion workflows and simple internal tools.
+QS: ["Which of the following statements best describes your right to work in Australia?", "Do you have experience using CAD Software?", "Do you have 3D Design experience?", "How much notice are you required to give your current employer?"]
+
+==========================================================================================
+96079440 | Spiire | Construction Project Engineer
+lane=None type=Full time pay=Flexible work, mentoring and career progression loc=Canberra ACT lo=True
+ENTRY-ISH False
+YEARS:
+  argest employee-owned property and infrastructure consultancies, bringing over 40 years of experience and local expertise to projects across Melbourne, Bendigo, Brisba
+  - 3-6 years experience in Civil Construction and/or Civil Consultancy
+DUTY/REQ:
+  This opportunity is for someone looking to be an integral part of the construction consultancy team in Canberra. This role will see you take on contract administration, quality assurance and compliance monitoring, report
+  Some key responsibilities include:
+  - Working closely with the Superintendent/Principal Authorised Person in the delivery of contract management services for large scale development and infrastructure projects.
+  - Coordinating with a diverse range of stakeholders in the project including authorities, developers, clients and contractors.
+  - Managing handover of assets to authorities, working closely with contractors, our clients and other key stakeholders
+  - Maintaining detailed project registers and completing detailed reports of all matters relating to our projects including, budget, program, general project health, and risk management.
+  - Working alongside our surveillance officers to oversee the contractor’s compliance on the construction project, with a strong focus on the review of their quality, environmental and safety performance.
+  - Liaising with internal teams across a multidisciplinary office to resolve client queries and design challenges, this includes working closely with our civil engineering, integrated water and landscape architecture desi
+  You are a Civil Engineer or Construction Professional with proven experience delivering land development and infrastructure projects. You’re driven by a passion to expand your expertise and contribute meaningfully within
+  - 3-6 years experience in Civil Construction and/or Civil Consultancy
+  - Experience in construction administration within land development and/or infrastructure projects
+  - Exposure to engineering design and an understanding of the design process
+  - The ability to communicate effectively with our clients and contractors to achieve excellent results within a complex project environment
+  - A keen interest in ongoing professional development; desire to learn new skills and the drive to continue to challenge yourself
+  - Relevant qualifications in Civil Engineering or Construction Management will be highly regarded, but not essential.
+QS: []
+
+==========================================================================================
+96060145 | Wormall Group | Project Engineer
+lane=None type=Full time pay=None loc=Cardup, Mandurah & Peel WA lo=False
+ENTRY-ISH False
+DEG/PROG:
+  - Degree in Civil or Structural Engineering
+DUTY/REQ:
+  - Permanent, full-time role
+  - Based in our Cardup office with regular site visits
+  - Immediate start available
+  Working across specialised projects including noise walls, pump stations and custom precast solutions, you'll combine engineering expertise with project delivery skills to drive successful outcomes for clients across WA.
+  What your day will look like
+  - Deliver complex civil and precast concrete projects from planning through to completion.
+  - Manage project scope, budgets, schedules, risks and stakeholder communication.
+  - Coordinate clients, consultants, subcontractors and internal teams to achieve successful project outcomes.
+  - Support tendering, estimating and value-engineering initiatives.
+  - Ensure projects meet quality, safety and compliance requirements.
+  - Provide technical engineering support across project delivery and manufacturing operations.
+  - Drive continuous improvement initiatives that enhance project performance, efficiency and customer satisfaction.
+  - Degree in Civil or Structural Engineering
+  - Previous site-based project experience
+  - Experience managing projects from tender to delivery, including quantity take-offs, estimating, and program management
+QS: ["What are your base salary expectations?", "Which of the following best describes your right to work in Australia?", "What is your notice period?"]
+
+==========================================================================================
+96048411 | SA Water | Maintenance Civil Technician
+lane=None type=Full time pay=None loc=Murray Bridge, Riverland & Murray Mallee SA lo=True
+ENTRY-ISH False
+YEARS:
+  Our strength and expertise have been shaped by our history. For more than 165 years, South Australians have depended on us to innovate and deliver efficient and su
+DUTY/REQ:
+  Join our Major Pipeline Civil Maintenance team based in Murray Bridge and be part of a hands-on, dynamic role that takes you beyond the workshop. We’re looking for a motivated and reliable individual who enjoys variety a
+  The Operations & Maintenance team oversees the management of our water, wastewater and River Murray activities and conducts operational control activities for a secure water supply. The team is responsible for both plann
+  In addition, your responsibilities will include:
+  - Assist with shutdowns (planned and reactive) and project tasks like security checks, building inspections, pump checks, and visual assessments.
+  - Maintain the Major pipelines that transfer water across our great state.
+  - Perform land management tasks, including mowing, weed spraying, whipper snipping, and tree removal.
+  - Carry out internal and external maintenance tasks to reduce downtime, boost efficiency, and improve asset reliability.
+  - Perform civil operations, including truck driving, excavator & skid steer work.
+  - Record all maintenance activities accurately and on time in the Computerised Maintenance Management System (CMMS).
+  - Maintain strong working relationships with internal teams and external partners to support service delivery.
+  - Take part in team meetings and contribute to group discussions.
+  - Participate in an on-call roster as required.
+  - Ability to work under limited supervision and in a team environment.
+  - Understanding of work health and safety and the ability to manage safety and risk.
+  - Effective communication and interpersonal skills and competent with computer and software applications.
+QS: []
+
+==========================================================================================
+96118441 | Georgiou Group Pty Ltd | Site Engineer
+lane=None type=Full time pay=None loc=Caloundra, Sunshine Coast QLD lo=True
+ENTRY-ISH False
+YEARS:
+  'll join a business where local expertise meets global opportunity. For nearly 50 years, we've built Australia's infrastructure and our reputation for being the best p
+DEG/PROG:
+  - A Degree in Civil Engineering
+DUTY/REQ:
+  Why You'll Love Working Here
+  At Georgiou-now proudly part of STRABAG SE, one of Europe's largest construction technology groups-you'll join a business where local expertise meets global opportunity. For nearly 50 years, we've built Australia's infra
+  - Build impact that lasts - work on iconic projects shaping Australian communities.
+  - Grow without limits - access world-class training, mentoring, and career pathways across Australia and STRABAG's global network.
+  - Flexibility that works for you - enjoy wellbeing leave, paid parental leave, and support to help you stay connected to life beyond work..
+  - Belong and be supported - inclusive facilities like free hygiene products, parental and prayer rooms, and wellbeing programs.
+  - A culture that cares - our values of Care, Integrity, and Excellence guide everything we do.
+  - Reward for your work - competitive packages, annual reviews, and access to the Georgiou Perks discounts platform.
+  What you'll do (but not limited to):
+  - Assist the Project Manager in fulfilling the contractual requirements and site targets across all project business functions
+  - Produce short term programs including resource levels for an assigned area of a project
+  - Assist in ensuring all equipment, materials and resources are available on or ahead of time to achieve the works program
+  - Participates in and actively contributes to toolbox meetings, pre-start meetings, site inductions, JHA's, Take 5's and work methods and practices and other forms of safety programs
+  - Assist in the allocation and processing of invoices and costs and produce productivity reports and analysis as required
+  What you're good at:
+QS: []
+
+==========================================================================================
+96114819 | HEH Civil | Project Engineer
+lane=None type=Full time pay=Base + superannuation + vehicle + phone + laptop loc=Cairns, Cairns & Far North QLD lo=False
+ENTRY-ISH False
+DEG/PROG:
+  - Bachelor's degree in civil engineering or equivalent (Engineers Australia recognised)
+DUTY/REQ:
+  Responsibilities:
+  - Coordinate site management plans including quality, safety, traffic and environmental controls
+  - Manage procurement of materials, subcontractors and equipment
+  - Monitor project progress, financial forecasts and reporting requirements
+  - Engage with the project team, clients and stakeholders to maintain smooth delivery
+  - Support tender processes, short-term programming and planning activities
+  - Maintain documentation including ITPs, QA records, NCRs and register updates
+  - Assist in reviewing construction designs, specifications and identifying issues early
+  - Ensure compliance with industry regulations, permits and safety standards
+  - Contribute to developing strong, high-performing teams through collaboration and communication
+  - Bachelor's degree in civil engineering or equivalent (Engineers Australia recognised)
+  - Demonstrated civil construction experience (TMR experience highly regarded)
+  - Strong planning, communication and organisational skills
+  - Ability to manage timelines, safety standards, and cost forecasting
+  - Proficiency with project management tools and construction documentation
+QS: ["What is your level of proficiency with project management tools and construction documentation (e.g. ITPs, QA records, NCRs)?", "What is your level of experience in reviewing construction designs and specifications to identify issues early?", "Do you hold a Bachelor's degree in civil engineering or an equivalent qualification recognised by Engineers Australia?"]
+
+==========================================================================================
+96113979 | Downer EDI Limited | Plant Technician
+lane=None type=Full time pay=None loc=Rosehill, Sydney NSW lo=True
+ENTRY-ISH True
+DUTY/REQ:
+  Previous asphalt experience isn't essential, however you'll need to be comfortable working around plant and equipment in a fast-paced operational environment.
+  About the Role
+  As a Plant Technician, you'll play an important role in the safe and efficient production of asphalt at our Rosehill facility.
+  Working as part of a close-knit team, you'll receive training and support while developing valuable skills in plant operations and manufacturing.
+  Your responsibilities will include:
+  - Assisting with the safe production and manufacture of asphalt
+  - Operating mobile plant and equipment
+  - Conducting basic maintenance and housekeeping activities
+  - Monitoring production processes and maintaining quality standards
+  - Working safely and following operational procedures at all times
+  - Supporting plant operations across day and night shifts
+  - Contributing to a positive, team-focused culture
+  To be successful in this role, you will have:
+  - Previous experience in an industrial, manufacturing, plant, mechanical or trade environment
+  - A positive, can-do attitude and willingness to learn
+QS: []
+
+==========================================================================================
+96106957 | Ausenco Services | Autodesk Support Specialist / CAD System Administrator 
+lane=None type=Full time pay=Enjoy career growth & flexible working. loc=Perth WA lo=True
+ENTRY-ISH False
+DEG/PROG:
+  T, computer science, engineering technology or a related discipline. A relevant bachelor’s degree is highly regarded.
+DUTY/REQ:
+  Based in Perth, you’ll join Ausenco’s global Engineering Applications Solutions team and primarily support engineering and design teams across Asia-Pacific (APAC). Your main focus will be Autodesk Forma, including Data M
+  What You Will Be Doing
+  - Administer Autodesk applications, troubleshoot software and installation issues, and work with Autodesk or other vendors to resolve complex cases.
+  - Support project teams with controlled information sharing, model review, multidisciplinary coordination and issue tracking.
+  - Configure project environments, templates, specifications and catalogues in line with approved engineering standards and regional requirements.
+  - Onboard and train users, maintain practical guidance, and work with Engineering, Design and IT to improve workflows and identify opportunities for automation.
+  You Will Bring
+  - Hands-on experience supporting or developing solutions in Autodesk Forma or ACC, including data management, design collaboration and model coordination.
+  - Experience supporting AutoCAD and configuring, administering or supporting Plant 3D, Advance Steel or both.
+  - A strong understanding of engineering and CAD/BIM workflows and the ability to explain technical issues clearly and manage competing requests.
+  - A post-secondary diploma or certificate in IT, computer science, engineering technology or a related discipline. A relevant bachelor’s degree is highly regarded.
+  - Career advancement – Technical training, mentoring and networking opportunities.
+  - Work-life balance – Flexible working hours, work-from-home arrangements and modern leave policies, including paid parental leave and floating public holiday programs.
+  - Holistic approach to wellness – Access to online health and fitness programs, financial coaching and confidential counselling services.
+  - Accessible leadership team – Work with experienced leaders who value your contribution.
+QS: []
+
+==========================================================================================
+96104158 | Identifibre Pty Ltd | Asbestos Laboratory Technician
+lane=technician type=Full time pay=$60,000 – $75,000 per year loc=Oakleigh, Melbourne VIC lo=False
+ENTRY-ISH False
+DEG/PROG:
+  - A degree in Science, Building Engineering, Occupational Health and Safety or an allied f
+DUTY/REQ:
+  About the role
+  Join a laboratory team responsible for analysing asbestos samples using Polarised Light Microscopy (PLM) and Transmission Electron Microscopy (TEM). The role supports accurate asbestos identification and reliable laborat
+  Key responsibilities
+  - Carry out laboratory duties associated with asbestos sample analysis.
+  - Analyse asbestos samples using PLM and TEM techniques.
+  - Identify asbestos types in material samples accurately and consistently.
+  - Follow documented quality management procedures, analytical methods and quality system requirements.
+  - Maintain accurate laboratory records and support the delivery of reliable, compliant results.
+  - A degree in Science, Building Engineering, Occupational Health and Safety or an allied field is desirable.
+  - Experience analysing asbestos samples using PLM and TEM.
+  - Endorsement as an analyst and signatory for the identification of asbestos types in material samples is advantageous.
+  - Experience working within a NATA-accredited laboratory environment is advantageous.
+  - Strong attention to detail and a commitment to quality and procedural compliance.
+QS: ["Which of the following statements best describes your right to work in Australia?", "What's your expected annual base salary?", "How many years' experience do you have as an Asbestos Laboratory Technician?", "How much notice are you required to give your current employer?", "Do you have experience using Laboratory Information Management Systems?", "Have you worked in a role which requires a sound understanding of Good Laboratory Practice?", "How many years' experience do you have as an Asbestos Analyst?"]
+
+==========================================================================================
+96104143 | Abcam | Laboratory Operations Technician - TAFE Graduates (Certificate III/IV)
+lane=None type=Full time pay=Competitive Base + Annual Bonus + Super loc=Thebarton, Adelaide SA lo=False
+ENTRY-ISH True
+DEG/PROG:
+  ry Skills and/or Certificate IV in Laboratory Techniques, OR a relevant Science degree (ideally in or with exposure to Biology or Chemistry)
+  - Minimum Certificate 3 Laboratory Technician TAFE Degree, with a sound understanding in the use of laboratory aliquoting equipment.
+DUTY/REQ:
+  - Required: TAFE Certificate III in Laboratory Skills and/or Certificate IV in Laboratory Techniques, OR a relevant Science degree (ideally in or with exposure to Biology or Chemistry)
+  - Candidates from either qualification pathway are encouraged to apply
+  - A great opportunity to apply your scientific knowledge in a practical, hands-on laboratory environment
+  You’ll thrive in a culture of belonging where you and your unique viewpoint matter. And by harnessing Danaher’s system of continuous improvement, you help turn ideas into impact – innovating at the speed of life.
+  The Laboratory Logistics Technician is responsible for assisting in the manufacture, assembly and shipment of kit components required to fill orders of TGR products and for general manufacturing laboratory maintenance.
+  In the is role you will have the opportunity to:
+  - Prepare materials for the assembly of kits or WIPs and process sales orders to a standard that meets existing customer expectations. Activities involve aliquoting, kit assembly, shipping, and general laboratory duties.
+  - Perform manual and/or clerical duties that utilize Microsoft Excel, involved in preparation of orders for shipment.
+  - Perform a range of laboratory duties, coordinating and reporting tasks in support of the manufacturing workflow.
+  - Minimum Certificate 3 Laboratory Technician TAFE Degree, with a sound understanding in the use of laboratory aliquoting equipment.
+  - Excellent computer skills with a sound understanding of Excel.
+  - Demonstrate high-level attention to detail, the ability to follow procedures to ensure components and products are assembled in accordance with quality processes.
+  - Able to lift move or carry laboratory stock and equipment, using the material handling equipment supplied by the company.
+  - Must be able to work in accordance with company workplace health and safety procedures.
+QS: ["Which of the following statements best describes your right to work in Australia?", "What's your expected annual base salary?", "Do you have experience using Microsoft Excel?", "Have you completed a qualification in science?", "How many years' experience do you have as a Kit Assembler?", "How many years' experience do you have as a laboratory technician?", "Do you have a Certificate III in Laboratory Skills?", "Do you have a Certificate IV in Laboratory Techniques?"]
+
+==========================================================================================
+96102772 | Kiwa Construction Sciences | Trainee Laboratory & Field Technicians
+lane=technician type=Full time pay=Trainee salary + Milestone Payments+ Benefits loc=Brendale, Brisbane QLD lo=False
+ENTRY-ISH True
+YEARS:
+  in It for You? - Pay Rate: $20 – $28 ph (starting at $21 ph for trainees aged 18 years, with the pay rate increasing by age and trainee classification, in line with t
+VISA/CIT:
+  - A current driver's licence and unrestricted Australian working rights
+DEG/PROG:
+  ooking for Trainee Soil Technicians to join our Brendale team. You don’t need a degree or previous industry experience — just reliability, a good attitude and willing
+DUTY/REQ:
+  About the Role
+  This is a practical, active role where you’ll work both outdoors on construction sites and in the laboratory. You’ll be testing soil and concrete, learning how major construction projects are built, and gaining nationall
+  - Getting hands-on at construction sites — manual work, plenty of action
+  - Learning from experienced technicians and supervisors
+  - Preparing clear, accurate records and reports
+  - Completing physical tasks in the laboratory and on-site
+  - Providing great service to our construction clients
+  - Full-time, permanent role with an 18-month traineeship and ongoing employment beyond completion
+  - Complete your Cert IV through our in-house training team, with milestone payments as you build practical skills on the job
+  - Receive additional funding for completing modules of your traineeship
+  - Potential company ute for site-based roles after 6 months, depending on eligibility
+  - Career growth — move up the ranks in our diverse and growing business
+  - Enjoy 17.5% extra pay when you take annual leave, plus discounts on shopping, travel and insurance, novated leasing and confidential EAP support.
+  - Paid Parental Leave — for both men and women
+  - Be part of a team that values its workers — many of our crew have built long, successful careers here
+QS: ["Which of the following statements best describes your right to work in Australia?", "What's your expected annual base salary?", "Do you have a Drivers Licence"]
+
+==========================================================================================
+96086515 | SGS Australia Pty Ltd | Laboratory Technician
+lane=technician type=Casual/Vacation pay=None loc=East Brisbane, Brisbane QLD lo=True
+ENTRY-ISH False
+YEARS:
+  ted expertise and technical excellence. Backed by SGS’s global legacy of over 140 years, we operate one of the largest networks of accredited laboratories and field fa
+DUTY/REQ:
+  You will play an important role in ensuring grain samples are prioritised, tested accurately and reported within agreed turnaround times. You will work with approved analytical test methods, follow laboratory quality sys
+  What you’ll be doing
+  - Carry out accurate grain sample testing using approved laboratory methods and quality standards.
+  - Operate, calibrate and maintain laboratory equipment to support reliable and efficient testing.
+  - Support quality control activities, audits and proficiency trials to help maintain trusted results.
+  - Follow ISO/IEC 17025, biosecurity and SGS procedures to maintain a safe, compliant laboratory.
+  - Assist with consumables, stock control and laboratory housekeeping to keep operations running smoothly.
+  - Work closely with the team to manage priorities, support workflow and meet turnaround times.
+  - Contribute ideas that improve laboratory processes, testing methods and overall service quality.
+  What you’ll bring
+  - A scientific qualification or sound scientific knowledge gained through experience in a laboratory environment.
+  - Strong attention to detail and the ability to follow approved methods and procedures.
+  - Sound computer literacy and confidence working with laboratory systems and documentation.
+  - Good communication skills and a collaborative approach to working in a team environment.
+  - Previous experience in a NATA accredited laboratory or the grain industry will be highly regarded.
+QS: []

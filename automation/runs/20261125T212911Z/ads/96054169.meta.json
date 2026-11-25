@@ -1,0 +1,20 @@
+{
+  "seek_id": "96054169",
+  "title": "Draftsperson",
+  "company": "Lucid Consulting Australia",
+  "location": "Adelaide SA",
+  "lane_guess": null,
+  "is_link_out": false,
+  "work_type": "Full time",
+  "salary": null,
+  "listed_at": "2026-11-23T04:48:06.691Z",
+  "expires_at": "2026-12-23T12:59:59.999Z",
+  "url": "https://www.seek.com.au/job/96054169",
+  "questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as an Engineering Draftsperson?"
+  ],
+  "classifications": [
+    "Engineering Drafting (Engineering)"
+  ]
+}

@@ -1,0 +1,216 @@
+Available Jobs 
+ Change to Accessibility Mode 
+ OK 
+ This website uses cookies to ensure you have the best browsing experience. By continuing to use the application you are agreeing to our use of cookies.
+ Available Jobs 
+ Log On 
+ No results found. 
+ Functions
+ Roles
+ Help 
+ Add to Home 
+ Update 
+ DEFAULT 
+ DEFAULT
+ Saved views 
+ Add new view 
+ Edit views 
+ OK 
+ Reset 
+ View name 
+ * 
+ Make this my default view 
+ Include 
+ Search criteria 
+ Grouping 
+ Filters 
+ OK 
+ Cancel 
+ More options 
+ Less options 
+ Search Enter keywords to filter and search for results. 
+ Contains Keywords 
+ Add quick text 
+ Add 
+ Please select a close bracket. 
+ OK Cancel 
+ Search 
+ Filters
+ Clear all 
+ Starred 
+ Clear 
+ Type 
+ 0
+ Casual 
+ 0
+ Temporary 
+ 1
+ Permanent 
+ 0
+ Temporary 
+ 0
+ Casual 
+ 0
+ Maximum Term 
+ 0
+ Agency 
+ 0
+ Employment Pathway Program 
+ 0
+ Graduate Program 
+ 0
+ Work Experience 
+ 0
+ Volunteer 
+ 0
+ Contractor 
+ 0
+ Councillor 
+ 0
+ Work Cover 
+ 0
+ Permanent 
+ More
+ Clear 
+ Employment Class 
+ 1
+ Full Time 
+ 1
+ Casual 
+ Clear 
+ Grade 
+ 1
+ Band 1 + Industry 
+ 1
+ Band 6 
+ Clear 
+ Organisation Unit 
+ 1
+ Community Strengthening 
+ 1
+ School Crossings 
+ Clear 
+ Location 
+ 2
+ Civic Centre 
+ Clear 
+ Organisation unit hierarchy level 
+ 1
+ Community Strengthening 
+ 1
+ School Crossings 
+ Please select an item from the list.
+ Apply Apply 
+ Casual School Crossing Supervisor
+ Advertisement Job Attachments Advertisement 
+ Job Attachments 
+ Casual School Crossing Supervisor
+ Contents blocked
+ Grid view 
+ Thumbnail 
+ Card 
+ Customise columns 
+ Show/hide grouping 
+ 2 Jobs. 
+ Select a job to view the details. 
+ Items filtered by Enterprise Maps selection. 
+ Excel 
+ PDF 
+ Drag a column header here to group by that column
+ Customise Columns
+ Cancel 
+ Ok 
+ Add all 
+ Job ID 
+ Enable referrals 
+ Unresolved Apply URL 
+ Resolved Apply URL 
+ Apply URL 
+ Reference 
+ Type - Code 
+ Type 
+ Organisation Unit 
+ Employee Class - Code 
+ Employee Class 
+ Minimum Grade - Code 
+ Minimum Grade 
+ Maximum Grade - Code 
+ Maximum Grade 
+ Node Index 
+ Node Index Level 1 
+ Node Index Level 2 
+ Node Index Level 3 
+ Node Index Level 4 
+ Node Index Level 5 
+ Node Index Level 6 
+ Node Index Level 7 
+ Node Index Level 8 
+ Node Index Level 9 
+ Node Index Level 10 
+ Node Index Level 11 
+ Node Index Level 12 
+ Node Index Level 13 
+ Node Index Level 14 
+ Node Index Level 15 
+ Description 
+ Locations 
+ Current Column Headings
+ (Drag to re-order) 
+ Remove all 
+ Drag to Freeze 
+ Title 
+ Name 
+ Employee Type Code 
+ No Column Headings defined
+ (Add at least one Column Heading)
+ Sort by
+ Title
+ Title 
+ Name 
+ Organisation Unit 
+ Employee Type Code 
+ Applications close 
+ Reference 
+ Description 
+ Reset sorting 
+ Casual School Crossing Supervisor 
+ Wyndham City Council 
+ School Crossings 
+ Casual 
+ Civic Centre 
+ Applications close 
+ 29-Nov-2026 11:59 pm 
+ Reference 
+ JR1250 
+ Apply Apply 
+ First Nations Community Officer (Identified) 
+ Wyndham City Council 
+ Community Strengthening 
+ Permanent 
+ Civic Centre 
+ Applications close 
+ 29-Nov-2026 11:59 pm 
+ Reference 
+ JR1429 
+ Apply Apply 
+ Loading...
+ Sort by
+ Title
+ Title 
+ Name 
+ Organisation Unit 
+ Employee Type Code 
+ Reference 
+ Description 
+ Reset sorting 
+ Loading...
+ Search using keywords and criteria.
+ No jobs found
+ Powered by TechnologyOne 
+ Enterprise software, incredibly simple 
+ Discover 
+ Hide updates 
+ Email errors 
+ Copy to clipboard 
+ Close 
+ Configure

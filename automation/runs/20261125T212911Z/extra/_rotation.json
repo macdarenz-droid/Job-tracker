@@ -1,0 +1,37 @@
+{
+  "run_id": "20261125T212911Z",
+  "rotation": "councils_government",
+  "rotation_basis": "The most recent discovery ticks with a SEEK sweep (20261123T212900Z and 20261117T212822Z) did not record a careers-page rotation. The last run folder with careers-page extras was 20261117T000946Z (land-development and drafting consultancies, including Core-EP and Nassima). This tick continues the three-way rotation to councils_government.",
+  "boards_checked": [
+    {
+      "name": "Melton City Council",
+      "url": "https://meltoncity-external.applynow.net.au/",
+      "result": "16 vacancies listed; none were junior civil, drafting, CMT technician or graduate/junior engineer roles."
+    },
+    {
+      "name": "Wyndham City Council",
+      "url": "https://wyndham.t1cloud.com/T1Default/CiAnywhere/Web/WYNDHAM/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES",
+      "result": "The board rendered 'No results found'. Filter counts showed 0 for Graduate Program. No advert text was available to screen."
+    },
+    {
+      "name": "Hume City Council",
+      "url": "https://www.hume.vic.gov.au/Your-Council/Careers-at-Hume/Jobs-and-Opportunities",
+      "result": "The jobs widget did not list vacancies after two renders (20s and 40s). Only the general council website loaded."
+    },
+    {
+      "name": "Brimbank City Council",
+      "url": "https://brimbank.pulsesoftware.com/Pulse/jobs",
+      "result": "Five vacancies listed. The only civil-related title was Works Technical Officer (Band 6A, Operations, closes 4 Dec 2026). The Pulse board exposed no fetchable job URL. A public listing of the same role was screened and rejected: experienced works and contract management for road, footpath, drainage maintenance and street cleansing, not junior civil, drafting or CMT technician work."
+    },
+    {
+      "name": "City of Greater Geelong",
+      "url": "https://careers.pageuppeople.com/887/cw/en/listing/",
+      "result": "Vacancies listed (tourism, arts, community, data, crossing supervisors, traineeship in business support). None were junior civil, drafting, CMT technician or graduate/junior engineer roles."
+    },
+    {
+      "name": "City of Ballarat",
+      "url": "https://www.ballarat.vic.gov.au/current-vacancies",
+      "result": "Vacancies listed. The only infrastructure-adjacent title was Senior Asset Surveillance Officer (senior, Infrastructure and Environment). Other listings were educators, volunteers, street cleaner operator and similar. No junior civil, drafting or CMT technician role."
+    }
+  ]
+}

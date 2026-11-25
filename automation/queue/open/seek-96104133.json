@@ -1,0 +1,71 @@
+{
+ "id": "seek-96104133",
+ "lane": "technician",
+ "route": "SEEK",
+ "application_type": "ADVERTISED_VACANCY",
+ "company": "Western Geotechnical and Laboratory Services",
+ "role": "Trainee Laboratory Technician – Construction Materials Testing",
+ "location": "Vasse, Bunbury & South West WA",
+ "url": "https://www.seek.com.au/job/96104133",
+ "seek_id": "96104133",
+ "listed_at": "2026-11-25",
+ "closes_at": "2026-12-25",
+ "closes_source": "listing_expiry",
+ "fit": 100,
+ "sponsorship_signal": "",
+ "regional": true,
+ "resume_variant": "technician",
+ "relocation_line": "I will relocate to Vasse for this role and can start three weeks after an offer.",
+ "cover_letter_text": "Hi,\n\nMy name's Marc. I graduated in February 2026 with an Advanced Diploma of Civil Construction Design, and I'd like to start as a trainee laboratory technician. You're taking on a trainee at the Vasse laboratory with training in soils, aggregates and concrete, and that's the kind of start I'm after.\n\nIn the diploma I studied the AS 1289 soil testing standards and kept technical records. On building and subdivision sites in the Philippines I did inspections and quality checks and wrote up the results. I have a Victorian driver's licence and a White Card.\n\nI will relocate to Vasse for this role and can start three weeks after an offer. I have full working rights in Australia (Subclass 485 visa). Happy to chat any time.\n\nKind regards,\nMarc Darenz Masarate\n",
+ "email": {
+  "to": "",
+  "subject": "",
+  "body": "",
+  "evidence_url": ""
+ },
+ "questions": [
+  {
+   "question": "Which of the following statements best describes your right to work in Australia?",
+   "options": [],
+   "answer": "Subclass 485 Temporary Graduate visa with full working rights until December 2027.",
+   "basis": "answers.right_to_work.free_text",
+   "status": "answered"
+  },
+  {
+   "question": "How many years' experience do you have as a laboratory technician?",
+   "options": [],
+   "answer": "None: no paid role of this kind",
+   "basis": "answers.years_of_experience.laboratory, materials testing, technician, estimator, project coordinator, project management, any other role",
+   "status": "answered"
+  },
+  {
+   "question": "How much notice are you required to give your current employer?",
+   "options": [],
+   "answer": "3 weeks",
+   "basis": "answers.notice_period",
+   "status": "answered"
+  },
+  {
+   "question": "Are you licenced to drive a manual vehicle?",
+   "options": [],
+   "answer": "No",
+   "basis": "answers.manual_licence",
+   "status": "answered"
+  }
+ ],
+ "status": "OPEN",
+ "ask_owner": "",
+ "attempts": [],
+ "receipt": {},
+ "created_by": "Grok",
+ "created_at": "2026-11-25T21:48:19Z",
+ "source_run": "20261125T212911Z",
+ "notes": "Entry-level trainee CMT at the Vasse laboratory, with on-the-job training and a period of training in Perth. No previous laboratory experience required. Manual licence preferred only. White Card advantageous only. The advert asks for an immediate start; notice period is three weeks.",
+ "advert_pay": "not stated",
+ "verify_before_submit": [
+  "Confirm the advert is still open and still a full-time trainee laboratory technician role in Vasse",
+  "A manual driver's licence is preferred only; do not claim a manual licence (automatic only)",
+  "The advert asks for an immediate start; the standing start is three weeks after an offer, and the letter says that",
+  "Initial training is at the Welshpool laboratory in Perth, then the role is based at Vasse"
+ ]
+}

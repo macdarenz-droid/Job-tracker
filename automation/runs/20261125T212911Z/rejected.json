@@ -1,0 +1,603 @@
+[
+  {
+    "seek_id": "96086540",
+    "company": "Australian Drafting & Design Pty Ltd",
+    "role": "CIVIL DRAFTER - CIVIL 3D",
+    "location": "Brisbane QLD",
+    "open": true,
+    "work_type": "Contract/Temp",
+    "decision": "REJECT",
+    "reason": "Experienced Civil Design Drafter on a long-term contract at $60 to $75 an hour. Demonstrated industry experience takes precedence. The advert also asks applicants to state an expected hourly rate, which is not on record, and ASK_OWNER is already over the cap of three."
+  },
+  {
+    "seek_id": "96085335",
+    "company": "Airswift",
+    "role": "Civil Designer - Civil 3D",
+    "location": "Perth WA",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Mandatory bars: Australian citizenship is essential, and 3 years' experience as a Civil Designer is required."
+  },
+  {
+    "seek_id": "96106955",
+    "company": "Manningham City Council",
+    "role": "Graduate Civil Engineer",
+    "location": "Doncaster East, Melbourne VIC",
+    "open": true,
+    "work_type": "Contract/Temp",
+    "decision": "REJECT",
+    "reason": "Requires completion of a tertiary degree in civil engineering or a related discipline within the last 2 years. The bachelor's degree was completed in 2019; the Advanced Diploma is not a degree. Two-year fixed-term graduate-style role starting March 2027."
+  },
+  {
+    "seek_id": "96127161",
+    "company": "Roadside Safety Solutions Pty Ltd",
+    "role": "Graduate Civil Engineer – Estimating",
+    "location": "Knoxfield, Melbourne VIC",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Duties are estimating (quantity take-offs, labour and plant costs, quotations, tenders). Estimator work is an excluded occupation."
+  },
+  {
+    "seek_id": "96104944",
+    "company": "KBR - Kellogg Brown & Root Pty Ltd",
+    "role": "Civil Designer",
+    "location": "Sydney NSW",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Experienced Civil Designer role requiring proven consulting experience and strong proficiency in OpenRoads Designer and 12d. Not junior or graduate, and 12d is not listed in facts.json."
+  },
+  {
+    "seek_id": "96071371",
+    "company": "PeopleWise Consulting",
+    "role": "Civil Site Engineer - Infrastructure Project",
+    "location": "Adelaide SA",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Experienced project-based Civil Engineer for a 12-month infrastructure contract. Form also asks for an ideal hourly contracting rate, which is not on record, and ASK_OWNER is already over the cap of three."
+  },
+  {
+    "seek_id": "96045118",
+    "company": "WML Consultants Pty Ltd",
+    "role": "Civil Draftsperson",
+    "location": "West Perth, Perth WA",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Mandatory bar: must hold Australian permanent residency or citizenship. Selection criteria also require proficient hands-on 12d experience, which is not listed in facts.json."
+  },
+  {
+    "seek_id": "96044331",
+    "company": "Morgan Consulting Engineers Pty Ltd",
+    "role": "Civil Design Drafter",
+    "location": "Brisbane QLD",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Already in the queue (duplicate of a previously added SEEK entry)."
+  },
+  {
+    "seek_id": "96118495",
+    "company": "Scotford Fennessy Recruitment",
+    "role": "Civil Designer",
+    "location": "Perth WA",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Requires 2 to 5 years' experience and prior Perth consultancy experience on urban and land development projects. Recruitment agency."
+  },
+  {
+    "seek_id": "96114534",
+    "company": "Bielby Holdings Pty Ltd",
+    "role": "Graduate Civil Engineers",
+    "location": "Sydney NSW",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Formal 2-year graduate program. Requires a bachelor's degree in civil engineering obtained in the last 12 months (the bachelor's degree was completed in 2019)."
+  },
+  {
+    "seek_id": "96110030",
+    "company": "Talent Partner Australia",
+    "role": "Structural/ Civil Designers - Consultancy ",
+    "location": "Sydney NSW",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Mandatory experience bars: ideally 8 or more years' design and drafting experience, and a minimum of 5 years' Australian infrastructure experience."
+  },
+  {
+    "seek_id": "96108663",
+    "company": "Swan Materials",
+    "role": "Technician - Materials",
+    "location": "The Lakes, Perth WA",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Mandatory named qualification: minimum Certificate III in Laboratory Skills (or equivalent), which is not in education or eligibility."
+  },
+  {
+    "seek_id": "96045392",
+    "company": "CONCENTIS PTY LTD",
+    "role": "Project Engineer - Civil",
+    "location": "Gladstone & Central QLD",
+    "open": true,
+    "work_type": "Contract/Temp",
+    "decision": "REJECT",
+    "reason": "Experienced Project Engineer for a tier-1 sustaining capital program. Requires demonstrated experience delivering civil earthworks, mining, infrastructure, dams or tailings work. Not junior or graduate."
+  },
+  {
+    "seek_id": "96116013",
+    "company": "Burton Contractors",
+    "role": "Project Engineer - Civil",
+    "location": "Parramatta & Western Suburbs, Sydney NSW",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Requires proven experience as a Project Engineer in civil construction, plus bulk earthworks, roadworks and civil infrastructure experience. Not junior or graduate."
+  },
+  {
+    "seek_id": "96113095",
+    "company": "Warren Smith Consulting Engineers",
+    "role": "Civil Engineer – Water Infrastructure",
+    "location": "Sydney NSW",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Requires a minimum of 12 months' relevant local experience in civil or water infrastructure engineering in a consulting environment. Not junior or graduate; fit is below 65."
+  },
+  {
+    "seek_id": "96069735",
+    "company": "The Constructive Collective NSW Pty Ltd",
+    "role": "Structural Draftsperson",
+    "location": "Sydney NSW",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Mandatory bars: 3 or more years' structural drafting experience, and Australian citizen or permanent resident."
+  },
+  {
+    "seek_id": "96044293",
+    "company": "Acrow Formwork & Scaffolding Pty Ltd",
+    "role": "Graduate or Cadet Engineer",
+    "location": "St Marys, Sydney NSW",
+    "open": true,
+    "work_type": "Casual/Vacation",
+    "decision": "REJECT",
+    "reason": "Mandatory bars: currently studying toward a bachelor's degree, and must be an Australian citizen or permanent resident. Student or cadet enrolment is excluded."
+  },
+  {
+    "seek_id": "96101313",
+    "company": "Fusion People Pty Ltd",
+    "role": "Site Engineer",
+    "location": "Sydney NSW",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Experienced Site Engineer for a civil contractor. The advert seeks previous experience as a site, project or civil engineer in a contractor environment. Not junior or graduate. Recruitment agency."
+  },
+  {
+    "seek_id": "96050290",
+    "company": "ProQuest Recruitment - Dandenong",
+    "role": "CAD Draftsperson",
+    "location": "Lilydale, Yarra Valley & High Country VIC",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Duties are sales, fabrication, assembly and CNC cutting drawings for a manufacturing business. Not civil drafting."
+  },
+  {
+    "seek_id": "96047818",
+    "company": "Sabre Engineering Services PTY LTD",
+    "role": "Civil Project Engineer | TMR Roadworks | Mackay",
+    "location": "Mackay, Mackay & Coalfields QLD",
+    "open": true,
+    "work_type": "Contract/Temp",
+    "decision": "REJECT",
+    "reason": "Civil construction delivery experience on Queensland TMR roadworks is essential. Experienced site-based project engineer role, not junior or graduate."
+  },
+  {
+    "seek_id": "96042300",
+    "company": "Egis",
+    "role": "Civil Design Engineer",
+    "location": "Maroochydore, Sunshine Coast QLD",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Consultancy Civil Engineer delivering and managing land-development designs, running projects to budget and contributing to business development. Ideally 3 or more years (preferred, not a bar), but the role is not junior or graduate and fit is below 65."
+  },
+  {
+    "seek_id": "96042296",
+    "company": "Egis",
+    "role": "Civil Design Engineer",
+    "location": "Brisbane QLD",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Same Civil Engineer role as 96042300, Brisbane location. Not junior or graduate; fit is below 65."
+  },
+  {
+    "seek_id": "96115014",
+    "company": "Wagstaff Piling Pty Ltd",
+    "role": "Civil Engineer",
+    "location": "Melbourne VIC",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Mandatory bar: minimum 3 years' relevant work experience in geotechnical, foundation, building or civil engineering is essential."
+  },
+  {
+    "seek_id": "96113621",
+    "company": "Riddwood Consulting Engineers Pty Ltd",
+    "role": "Digital Engineering Draftsperson",
+    "location": "Fortitude Valley, Brisbane QLD",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Mandatory bar: 3 or more years' minimum experience in structural documentation from a consulting or construction background."
+  },
+  {
+    "seek_id": "96101480",
+    "company": "Cookson & Roberts",
+    "role": "Civil Design Engineer",
+    "location": "Sydney NSW",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Civil Design Engineer role, not junior or graduate, with no entry-level language in the advert."
+  },
+  {
+    "seek_id": "96089224",
+    "company": "Duratec Limited",
+    "role": "Civil Engineer",
+    "location": "Newcastle, Newcastle, Maitland & Hunter NSW",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Civil Engineer role, not junior or graduate."
+  },
+  {
+    "seek_id": "96086482",
+    "company": "Bayside Council",
+    "role": "Project Engineers x 2",
+    "location": "Bexley, Sydney NSW",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Council Project Engineers x 2, not a junior, graduate or trainee role."
+  },
+  {
+    "seek_id": "96080433",
+    "company": "MP Recruitment",
+    "role": "Civil Designer",
+    "location": "Albury, Albury Area NSW",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Fit meets the threshold, but two form questions have no standing answer (working knowledge of relevant Australian Standards; whether the engineering qualification was completed in Australia). ASK_OWNER is already over the cap of three. Recruitment agency with no named employer."
+  },
+  {
+    "seek_id": "96053688",
+    "company": "GreenTec Consulting",
+    "role": "Civil Engineer",
+    "location": "Brisbane QLD",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Stated minimum of 2 or more years (or equivalent experienced Civil Engineer requirement) not met. Experienced Civil Engineer role, not junior or graduate."
+  },
+  {
+    "seek_id": "96117583",
+    "company": "Willweld Pty Ltd",
+    "role": "Draftsperson",
+    "location": "Kalgoorlie, Kalgoorlie, Goldfields & Esperance WA",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Draftsperson role in Kalgoorlie without junior or trainee language; not a clear civil drafting fit from the advertised work."
+  },
+  {
+    "seek_id": "96115341",
+    "company": "Pioneer Water Tanks Pty Ltd",
+    "role": "Draftsperson",
+    "location": "Bellevue, Perth WA",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Draftsperson for water tanks, not civil land-development or infrastructure drafting."
+  },
+  {
+    "seek_id": "96111924",
+    "company": "Bielby Holdings Pty Ltd",
+    "role": "Project Engineer",
+    "location": "Brisbane QLD",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Project Engineer role, not junior or graduate."
+  },
+  {
+    "seek_id": "96106174",
+    "company": "Ampersand",
+    "role": "Project Engineer Roads & Infrastructure",
+    "location": "Holbrook, Wagga Wagga & Riverina NSW",
+    "open": true,
+    "work_type": "Contract/Temp",
+    "decision": "REJECT",
+    "reason": "Project Engineer, roads and infrastructure, not junior or graduate."
+  },
+  {
+    "seek_id": "96103687",
+    "company": "Kiwa Construction Sciences",
+    "role": "Trainee Laboratory and Field Technicians",
+    "location": "Childers, Bundaberg & Wide Bay Burnett QLD",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Trainee CMT role with fit, but the form asks expected hourly rate, which is not on record. ASK_OWNER is already over the cap of three."
+  },
+  {
+    "seek_id": "96081022",
+    "company": "Kokatha Aboriginal Corporation",
+    "role": "Civil Technicians",
+    "location": "Olympic Dam, Coober Pedy & Outback SA",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Duties are carpark, signage, footpath and grounds maintenance, including rubbish collection and minor housekeeping. Labouring and maintenance work is excluded."
+  },
+  {
+    "seek_id": "96054622",
+    "company": "Parratech Group Pty Ltd",
+    "role": "Inventor Designer/Draftsperson ",
+    "location": "Eastern Creek, Sydney NSW",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Inventor designer and draftsperson for a manufacturing business, not civil drafting."
+  },
+  {
+    "seek_id": "96054230",
+    "company": "Cross Border Contracts",
+    "role": "Site Engineer",
+    "location": "Brisbane QLD",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Site Engineer role, not junior or graduate."
+  },
+  {
+    "seek_id": "96054169",
+    "company": "Lucid Consulting Australia",
+    "role": "Draftsperson",
+    "location": "Adelaide SA",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "The role is for a modeller with hydraulic services experience, not civil land-development or infrastructure drafting."
+  },
+  {
+    "seek_id": "96049862",
+    "company": "Complete Metal Works",
+    "role": "Draftsperson",
+    "location": "Derrimut, Melbourne VIC",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Draftsperson for a metal works / fabrication business, not civil drafting."
+  },
+  {
+    "seek_id": "96045750",
+    "company": "Ventia",
+    "role": "Civil Technician",
+    "location": "Stretton, Brisbane QLD",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Civil maintenance across roads and tunnels: repairs, landscaping, vegetation, painting, pressure-washing and live-traffic work. Labouring and maintenance work is excluded."
+  },
+  {
+    "seek_id": "96110781",
+    "company": "COLAS Australia Group Pty Ltd",
+    "role": "Laboratory Technician - Asphalt",
+    "location": "Caloundra, Sunshine Coast QLD",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Asphalt laboratory technician with fit, but the form asks expected hourly rate, which is not on record. ASK_OWNER is already over the cap of three."
+  },
+  {
+    "seek_id": "96104341",
+    "company": "McIlwain Civil Engineering Pty Ltd",
+    "role": "Site Engineer",
+    "location": "North Sydney, Sydney NSW",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Stated minimum of 2 or more years, or an experienced Site Engineer requirement, not met."
+  },
+  {
+    "seek_id": "96103253",
+    "company": "Rokon Pty Ltd",
+    "role": "Expressions of Interest - Engineers",
+    "location": "Deanside, Melbourne VIC",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Expressions of interest for experienced engineers with a stated minimum of 2 or more years, or equivalent experience requirement."
+  },
+  {
+    "seek_id": "96083374",
+    "company": "GR Engineering Services Limited",
+    "role": "Designers",
+    "location": "Ascot, Perth WA",
+    "open": true,
+    "work_type": "Contract/Temp",
+    "decision": "REJECT",
+    "reason": "Mandatory bar: minimum of 10 years' design experience."
+  },
+  {
+    "seek_id": "96079741",
+    "company": "K&H Geotechnical Services",
+    "role": "Geotechnical Technician",
+    "location": "Orange, Blue Mountains & Central West NSW",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Mandatory bar: a current manual driver's licence is essential. Only an automatic licence is on record."
+  },
+  {
+    "seek_id": "96081045",
+    "company": "Montdami Civil Pty Ltd",
+    "role": "Project Engineer (Civil)",
+    "location": "Box Hill, Melbourne VIC",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Project Engineer (Civil) role, not junior or graduate."
+  },
+  {
+    "seek_id": "96080981",
+    "company": "CMP Consulting Group",
+    "role": "Junior Design Visualisation Specialist",
+    "location": "Mulgrave, Melbourne VIC",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Junior visualisation role using Twinmotion or Unreal Engine, aimed at game design, animation or architectural visualisation. Not civil drafting."
+  },
+  {
+    "seek_id": "96079440",
+    "company": "Spiire",
+    "role": "Construction Project Engineer",
+    "location": "Canberra ACT",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Construction Project Engineer role, not junior or graduate."
+  },
+  {
+    "seek_id": "96060145",
+    "company": "Wormall Group",
+    "role": "Project Engineer",
+    "location": "Cardup, Mandurah & Peel WA",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Requires previous site-based project experience and experience managing projects from tender to delivery, including take-offs and estimating. Not junior or graduate."
+  },
+  {
+    "seek_id": "96048411",
+    "company": "SA Water",
+    "role": "Maintenance Civil Technician",
+    "location": "Murray Bridge, Riverland & Murray Mallee SA",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "The advert closed at 4pm on 23 November 2026. Duties are pipeline civil maintenance and plant/tool work, not construction materials testing or design-support technician work."
+  },
+  {
+    "seek_id": "96118441",
+    "company": "Georgiou Group Pty Ltd",
+    "role": "Site Engineer",
+    "location": "Caloundra, Sunshine Coast QLD",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Requires demonstrated experience as a Site Engineer in civil construction. Not junior or graduate."
+  },
+  {
+    "seek_id": "96114819",
+    "company": "HEH Civil",
+    "role": "Project Engineer",
+    "location": "Cairns, Cairns & Far North QLD",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Requires a bachelor's degree in civil engineering or equivalent that is Engineers Australia recognised, which is not on record, and demonstrated civil construction experience. Not junior or graduate."
+  },
+  {
+    "seek_id": "96113979",
+    "company": "Downer EDI Limited",
+    "role": "Plant Technician",
+    "location": "Rosehill, Sydney NSW",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Plant technician in an industrial or manufacturing setting (mechanical or trade work), not a civil or construction materials testing technician role."
+  },
+  {
+    "seek_id": "96106957",
+    "company": "Ausenco Services",
+    "role": "Autodesk Support Specialist / CAD System Administrator ",
+    "location": "Perth WA",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Autodesk support / CAD system administrator, not a civil drafting production role."
+  },
+  {
+    "seek_id": "96104158",
+    "company": "Identifibre Pty Ltd",
+    "role": "Asbestos Laboratory Technician",
+    "location": "Oakleigh, Melbourne VIC",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Asbestos laboratory technician, which is outside the civil construction materials testing and geotechnical technician lane."
+  },
+  {
+    "seek_id": "96104143",
+    "company": "Abcam",
+    "role": "Laboratory Operations Technician - TAFE Graduates (Certificate III/IV)",
+    "location": "Thebarton, Adelaide SA",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Requires a TAFE Certificate III in Laboratory Skills and/or Certificate IV in Laboratory Techniques, or a science degree with biology or chemistry. Duties are kit assembly in a life-sciences laboratory, not civil CMT."
+  },
+  {
+    "seek_id": "96102772",
+    "company": "Kiwa Construction Sciences",
+    "role": "Trainee Laboratory & Field Technicians",
+    "location": "Brendale, Brisbane QLD",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Trainee CMT role with fit, but the salary question could not be answered because the advertised pay is an hourly trainee rate, not an annual figure. ASK_OWNER is already over the cap of three."
+  },
+  {
+    "seek_id": "96086515",
+    "company": "SGS Australia Pty Ltd",
+    "role": "Laboratory Technician",
+    "location": "East Brisbane, Brisbane QLD",
+    "open": true,
+    "work_type": "Casual/Vacation",
+    "decision": "REJECT",
+    "reason": "Grain quality laboratory testing, not construction materials testing. Excluded laboratory type."
+  },
+  {
+    "seek_id": "96048406",
+    "company": "Butler Partners Pty Ltd",
+    "role": "Entry Level & Experienced Technicians - Construction Materials Testing",
+    "location": "Currumbin Waters, Gold Coast QLD",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Lane, bars and fit pass (entry-level CMT with paid training, no laboratory experience required, fit 100). Two SEEK form questions have no standing answer: types of infrastructure project experience, and how far he is willing to travel for work. ASK_OWNER is already over the cap of three, so the entry was not queued. The 3-day SEEK sweep did not include this listing because it was first posted on 23 November 2026; it was screened from a fetched advert as a Dot lead."
+  },
+  {
+    "seek_id": null,
+    "company": "Brimbank City Council",
+    "role": "Works Technical Officer",
+    "location": "Keilor Park, Melbourne VIC",
+    "open": true,
+    "work_type": "Full time",
+    "decision": "REJECT",
+    "reason": "Found on the councils_government careers sweep. Band 6A works and contract-management role for road, footpath and drainage maintenance and street cleansing, requiring demonstrated infrastructure-maintenance, works-management and contract-management experience. Not junior civil, drafting or CMT technician work. Closes 4 December 2026.",
+    "source": "https://publicroles.com.au/jobs/works-technical-officer-e1dfe23dcf6f6274"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "seek_id": "96080433",
+  "title": "Civil Designer",
+  "company": "MP Recruitment",
+  "location": "Albury, Albury Area NSW",
+  "lane_guess": "drafter",
+  "is_link_out": false,
+  "work_type": "Full time",
+  "salary": null,
+  "listed_at": "2026-11-24T03:16:06.423Z",
+  "expires_at": "2026-12-24T03:16:00.000Z",
+  "url": "https://www.seek.com.au/job/96080433",
+  "questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "How many years' experience do you have as a civil designer?",
+    "What's your expected annual base salary?",
+    "Which of the following CAD software do you have experience with?",
+    "Do you have working knowledge of relevant Australian Standards?",
+    "Was your Engineering qualification completed in Australia"
+  ],
+  "classifications": [
+    "Civil/Structural Engineering (Engineering)"
+  ]
+}

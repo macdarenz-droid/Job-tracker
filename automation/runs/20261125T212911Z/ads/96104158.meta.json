@@ -1,0 +1,25 @@
+{
+  "seek_id": "96104158",
+  "title": "Asbestos Laboratory Technician",
+  "company": "Identifibre Pty Ltd",
+  "location": "Oakleigh, Melbourne VIC",
+  "lane_guess": "technician",
+  "is_link_out": false,
+  "work_type": "Full time",
+  "salary": "$60,000 – $75,000 per year",
+  "listed_at": "2026-11-25T00:04:31.723Z",
+  "expires_at": "2026-12-25T12:59:59.999Z",
+  "url": "https://www.seek.com.au/job/96104158",
+  "questions": [
+    "Which of the following statements best describes your right to work in Australia?",
+    "What's your expected annual base salary?",
+    "How many years' experience do you have as an Asbestos Laboratory Technician?",
+    "How much notice are you required to give your current employer?",
+    "Do you have experience using Laboratory Information Management Systems?",
+    "Have you worked in a role which requires a sound understanding of Good Laboratory Practice?",
+    "How many years' experience do you have as an Asbestos Analyst?"
+  ],
+  "classifications": [
+    "Laboratory & Technical Services (Science & Technology)"
+  ]
+}
