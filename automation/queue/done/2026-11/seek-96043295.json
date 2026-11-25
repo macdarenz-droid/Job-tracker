@@ -53,6 +53,14 @@
  "source_run": "20261123T212900Z",
  "notes": "Full-time construction materials testing (asphalt and aggregates) at Bli Bli. Previous lab experience is listed but no year minimum; Certificate IV is preferred only. SEEK apply links out. Fit 75 (50 + 15 duty + 10 lane 2).",
  "advert_pay": "not stated",
+ "outcomes": [
+  {
+   "kind": "acknowledged",
+   "at": "2026-11-25",
+   "by": "Claude",
+   "note": "application received email from the employer recruitment system"
+  }
+ ],
  "verify_before_submit": [
   "Confirm advert still open",
   "SEEK apply goes to the employer site",

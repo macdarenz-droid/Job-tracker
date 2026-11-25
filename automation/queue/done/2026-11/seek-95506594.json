@@ -80,6 +80,12 @@
    "at": "2026-11-23",
    "by": "Grok",
    "note": "Holding reply: they will contact only if he progresses, otherwise treat as unsuccessful."
+  },
+  {
+   "kind": "rejected",
+   "at": "2026-11-25",
+   "by": "Claude",
+   "note": "SEEK status update: unlikely to progress further"
   }
  ]
 }
