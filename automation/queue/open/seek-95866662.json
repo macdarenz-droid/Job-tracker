@@ -23,9 +23,146 @@
   "body": "",
   "evidence_url": ""
  },
- "questions": [],
- "status": "OPEN",
- "ask_owner": "",
+ "questions": [
+  {
+   "question": "Are you an Australian Citizen, Permanent Resident, or do you have a minimum two-year visa with working rights?",
+   "options": [
+    "I am a Permanent Resident with permanent working rights",
+    "I am an Australian Citizen",
+    "I am not authorised to work in Australia",
+    "I have a minimum two year visa with working rights"
+   ],
+   "answer": "",
+   "basis": "answers.right_to_work.choose",
+   "status": "unanswered"
+  },
+  {
+   "question": "If you hold a visa, please confirm your visa details.",
+   "options": [],
+   "answer": "Subclass 485 Temporary Graduate visa with full working rights until December 2027.",
+   "basis": "answers.right_to_work.free_text",
+   "status": "answered"
+  },
+  {
+   "question": "What is your expected hourly rate?",
+   "options": [],
+   "answer": "",
+   "basis": "answers.expected_hourly_rate",
+   "status": "unanswered"
+  },
+  {
+   "question": "Do you hold a current Australian Drivers Licence?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer": "Yes",
+   "basis": "answers.drivers_licence",
+   "status": "answered"
+  },
+  {
+   "question": "Do you hold a White Card?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer": "Yes",
+   "basis": "answers.white_card",
+   "status": "answered"
+  },
+  {
+   "question": "Do you hold a Radiation User Licence?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer": "No",
+   "basis": "answers.qualification_questions.any other named qualification",
+   "status": "answered"
+  },
+  {
+   "question": "What is your motivation for applying for this role and where do you see yourself in the next 12 months?",
+   "options": [],
+   "answer": "",
+   "basis": "",
+   "status": "unanswered"
+  },
+  {
+   "question": "How many years experience do you have in construction materials testing to relevant standards?",
+   "options": [],
+   "answer": "",
+   "basis": "answers.years_of_experience",
+   "status": "unanswered"
+  },
+  {
+   "question": "When are you available to commence work with us?",
+   "options": [
+    "1 Week",
+    "2 Weeks",
+    "3 Weeks",
+    "4 Weeks",
+    "More than 4 Weeks"
+   ],
+   "answer": "3 Weeks",
+   "basis": "eligibility.availability",
+   "status": "answered"
+  },
+  {
+   "question": "Where are you located in Australia?",
+   "options": [],
+   "answer": "",
+   "basis": "",
+   "status": "unanswered"
+  },
+  {
+   "question": "Are you willing to relocate for this role?",
+   "options": [
+    "Yes",
+    "No",
+    "Open to discuss"
+   ],
+   "answer": "Yes",
+   "basis": "answers.willing_to_relocate",
+   "status": "answered"
+  },
+  {
+   "question": "Are you open to travel for work?",
+   "options": [
+    "Yes",
+    "No",
+    "Open to discuss"
+   ],
+   "answer": "Yes",
+   "basis": "answers.willing_to_travel_or_fifo",
+   "status": "answered"
+  },
+  {
+   "question": "Do you have any medical conditions or restrictions we should be aware of that might impact your ability to perform day to day tasks safely?",
+   "options": [],
+   "answer": "",
+   "basis": "",
+   "status": "unanswered"
+  },
+  {
+   "question": "Are you willing to undergo a criminal history check and pre-employment medical (including Drug & Alcohol Assessment) as part of our recruitment process.",
+   "options": [
+    "No",
+    "Yes"
+   ],
+   "answer": "",
+   "basis": "",
+   "status": "unanswered"
+  },
+  {
+   "question": "Are you willing to work Full Time and open to Overtime and Weekends?",
+   "options": [],
+   "answer": "",
+   "basis": "",
+   "status": "unanswered"
+  }
+ ],
+ "status": "ASK_OWNER",
+ "ask_owner": "No standing answer for 8 form questions: Are you an Australian Citizen, Permanent Resident, or do you have a minimum two-year visa with working rights? (options: I am a Permanent Resident with permanent working rights / I am an Australian Citizen / I am not authorised to work in Australia / I have a minimum two year visa with working rights) | What is your expected hourly rate? | What is your motivation for applying for this role and where do you see yourself in the next 12 months? | How many years experience do you have in construction materials testing to relevant standards? | Where are you located in Australia? | Do you have any medical conditions or restrictions we should be aware of that might impact your ability to perform day to day tasks safely? | Are you willing to undergo a criminal history check and pre-employment medical (including Drug & Alcohol Assessment) as part of our recruitment process. (options: No / Yes) | Are you willing to work Full Time and open to Overtime and Weekends?",
  "attempts": [
   {
    "at": "2026-11-25T02:16:45Z",
@@ -33,6 +170,12 @@
    "result": "started",
    "note": "",
    "run": "20261125T013036Z"
+  },
+  {
+   "at": "2026-11-25T02:34:48Z",
+   "by": "Grok",
+   "result": "asked_owner",
+   "note": "form question with no standing answer: Are you an Australian Citizen, Permanent Resident, or do you have a minimum two-year visa with working rights?"
   }
  ],
  "receipt": {},
