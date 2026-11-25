@@ -67,7 +67,7 @@
    "status": "answered"
   }
  ],
- "status": "OPEN",
+ "status": "SKIPPED",
  "ask_owner": "",
  "attempts": [
   {
@@ -75,6 +75,13 @@
    "by": "Grok",
    "result": "started",
    "note": "",
+   "run": "20261125T013036Z"
+  },
+  {
+   "at": "2026-11-25T02:16:28Z",
+   "by": "Grok",
+   "result": "skipped",
+   "note": "Owner chose to skip (25 Nov 2026) after SEEK asked Yes/No on AS/NZ 5369 and QA standards",
    "run": "20261125T013036Z"
   }
  ],
