@@ -1,0 +1,52 @@
+[
+ {
+  "seek_id": "95657921",
+  "company": "FMG Engineering",
+  "role": "Technical Operator",
+  "location": "Kurralta Park, Adelaide SA",
+  "open": true,
+  "work_type": "Casual/Vacation",
+  "decision": "REJECT",
+  "reason": "Live advert is Casual/Vacation, not full-time."
+ },
+ {
+  "seek_id": "95781606",
+  "company": "Sonto",
+  "role": "Survey Assistant",
+  "location": "Brisbane QLD",
+  "open": true,
+  "work_type": "Full time",
+  "decision": "REJECT",
+  "reason": "Survey assistant / chainperson is an excluded lane."
+ },
+ {
+  "seek_id": "96022232",
+  "company": "Civcon Civil & Project Management Pty Ltd",
+  "role": "Graduate Civil Engineer",
+  "location": "West Perth, Perth WA",
+  "open": true,
+  "work_type": "Full time",
+  "decision": "REJECT",
+  "reason": "Still open and full-time permanent, and not a formal graduate program, but current duties are tendering and estimating (quantity take-offs, labour and equipment calculations, RFIs, RFQs, reporting to a Senior Estimator). Estimator work is an excluded occupation. Path to site engineer is later, not the work advertised now."
+ },
+ {
+  "seek_id": "95991299",
+  "company": "Highland Recruitment Pty Ltd",
+  "role": "Junior Structural Drafter",
+  "location": "Braemar, Southern Highlands & Tablelands NSW",
+  "open": true,
+  "work_type": "Full time",
+  "decision": "REJECT",
+  "reason": "Duties are steel floor and roof framing layouts (bearers, joists, rafters, purlins) and steel-framing software, which falls under the excluded steel shop detailing / framing-detailing work, not civil drafting. Weak duty match to the Advanced Diploma (roads, earthworks, drainage)."
+ },
+ {
+  "seek_id": "96055822",
+  "company": "RM Civil Australia Pty Ltd",
+  "role": "Junior Project Engineer / Project Coordinator",
+  "location": "Telopea, Sydney NSW",
+  "open": true,
+  "work_type": "Full time",
+  "decision": "REJECT",
+  "reason": "Duties are quantity take-offs and estimating support, tenders, progress claims, contract administration, procurement, project administration and document control. Estimator, project coordinator and document-control work are excluded occupations. This is not graduate site or project engineering as performed now."
+ }
+]
