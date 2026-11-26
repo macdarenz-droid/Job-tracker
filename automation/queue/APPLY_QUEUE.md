@@ -2,11 +2,13 @@
 
 Written by `automation/scripts/queue.py render` from the files in `open/`. Do not edit by hand.
 
-## SEEK (1 open)
+## SEEK (3 open)
 
 | # | Lane | Company | Role | Location | Target | Closes | Link | Note |
 |---|---|---|---|---|---|---|---|---|
-| 1 | engineer | Chalouhi | Site Engineer | Sydney NSW | not regional | 2026-12-16 (listing expiry) | [seek-95904557](https://www.seek.com.au/job/95904557) |  |
+| 1 | technician | Western Geotechnical and Laboratory Services | Trainee Laboratory Technician – Construction Materials Testing | Vasse, Bunbury & South West WA | regional | 2026-12-25 (listing expiry) | [seek-96104133](https://www.seek.com.au/job/96104133) | started by Grok, no result recorded |
+| 2 | engineer | Remo Contractors Pty Ltd | Junior/Graduate Project Engineer - Civil Construction | Edinburgh, Adelaide SA | regional | 2026-12-25 (listing expiry) | [seek-96103731](https://www.seek.com.au/job/96103731) |  |
+| 3 | engineer | Chalouhi | Site Engineer | Sydney NSW | not regional | 2026-12-16 (listing expiry) | [seek-95904557](https://www.seek.com.au/job/95904557) |  |
 
 ## EMAIL (0 open)
 

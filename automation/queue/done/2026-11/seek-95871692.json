@@ -147,5 +147,13 @@
  "created_at": "2026-11-13T00:40:00Z",
  "source_run": "20261113T0714Z",
  "notes": "Imported from the backlog of 2026-11-13 (old status READY_SEEK). Fit 61% is from the old rubric.\nLane engineer: Site Engineer; the advert says graduate to intermediate level (old screening notes; advert text not saved).\nSEEK questions were not saved (old notes: work rights, salary, years as site engineer, notice).",
- "advert_pay": "$90,000 – $110,000 per year"
+ "advert_pay": "$90,000 – $110,000 per year",
+ "outcomes": [
+  {
+   "kind": "rejected",
+   "at": "2026-11-26",
+   "by": "Claude",
+   "note": "SEEK status update: unlikely to progress further"
+  }
+ ]
 }
